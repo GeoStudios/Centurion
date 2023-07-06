@@ -19,14 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.mbeanserver;
+package java.management.share.classes.com.sun.jmx.mbeanserver;
 
-// Java import
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectStreamClass;
-import sun.reflect.misc.ReflectUtil;
+import java.management.share.classes.com.sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Java import
 
 /**
  * This class deserializes an object in the context of a specific class loader.

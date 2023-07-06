@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.util;
+package java.base.share.classes.sun.security.util;
 
-import sun.security.action.GetPropertyAction;
 
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 import java.io.FilePermission;
 import java.security.Permission;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Take care of FilePermission compatibility after JDK-8164705.

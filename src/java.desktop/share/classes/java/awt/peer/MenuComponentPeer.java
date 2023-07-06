@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.awt.peer;
 
-import java.awt.Font;
-import java.awt.MenuComponent;
+package java.desktop.share.classes.java.awt.peer;
+
+
+import java.desktop.share.classes.java.awt.Font;
+import java.desktop.share.classes.java.awt.MenuComponent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The base interface for all kinds of menu components. This is used by

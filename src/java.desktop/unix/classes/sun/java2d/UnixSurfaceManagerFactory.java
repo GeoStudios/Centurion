@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.unix.classes.sun.java2d;
 
-package sun.java2d;
 
 import java.awt.GraphicsConfiguration;
+import java.desktop.unix.classes.sun.awt.image.SunVolatileImage;
+import java.desktop.unix.classes.sun.awt.image.VolatileSurfaceManager;
+import java.desktop.unix.classes.sun.java2d.opengl.GLXGraphicsConfig;
+import java.desktop.unix.classes.sun.java2d.opengl.GLXVolatileSurfaceManager;
+import java.desktop.unix.classes.sun.java2d.x11.X11VolatileSurfaceManager;
+import java.desktop.unix.classes.sun.java2d.xr.*;
 
-import sun.awt.image.SunVolatileImage;
-import sun.awt.image.VolatileSurfaceManager;
-import sun.java2d.opengl.GLXGraphicsConfig;
-import sun.java2d.opengl.GLXVolatileSurfaceManager;
-import sun.java2d.x11.X11VolatileSurfaceManager;
-import sun.java2d.xr.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The SurfaceManagerFactory that creates VolatileSurfaceManager

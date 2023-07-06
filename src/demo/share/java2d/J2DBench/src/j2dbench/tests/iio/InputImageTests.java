@@ -19,16 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * This source code is provided to illustrate the usage of a given feature
- * or technique and has been deliberately simplified. Additional steps
- * required for a production-quality application, such as security checks,
- * input validation and proper error handling, might not be present in
- * this sample code.
- */
+package demo.share.java2d.J2DBench.src.j2dbench.tests.iio;
 
-
-package j2dbench.tests.iio;
 
 import java.awt.Component;
 import java.awt.Graphics;
@@ -41,25 +33,51 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import javax.imageio.ImageIO;
 import javax.imageio.ImageReader;
-import javax.imageio.event.IIOReadProgressListener;
+import javax.imageio.event.IIOReadProgressjava.util.Listener;
 import javax.imageio.spi.IIORegistry;
 import javax.imageio.spi.ImageReaderSpi;
 import javax.imageio.stream.ImageInputStream;
+import demo.share.java2d.J2DBench.src.j2dbench.Group;
+import demo.share.java2d.J2DBench.src.j2dbench.Modifier;
+import demo.share.java2d.J2DBench.src.j2dbench.Option;
+import demo.share.java2d.J2DBench.src.j2dbench.Result;
+import demo.share.java2d.J2DBench.src.j2dbench.Test;
+import demo.share.java2d.J2DBench.src.j2dbench.TestEnvironment;
 
-import j2dbench.Group;
-import j2dbench.Modifier;
-import j2dbench.Option;
-import j2dbench.Result;
-import j2dbench.Test;
-import j2dbench.TestEnvironment;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * This source code is provided to illustrate the usage of a given feature
+ * or technique and has been deliberately simplified. Additional steps
+ * required for a production-quality application, such as security checks,
+ * input validation and proper error handling, might not be present in
+ * this sample code.
+ */
+
+
+
+
+
 
 abstract class InputImageTests extends InputTests {
 

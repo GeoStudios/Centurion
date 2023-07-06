@@ -18,17 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.util;
+
 
 import java.awt.Color;
 import java.awt.image.BufferedImage;
 import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.util.zip.DataFormatException;
 import java.util.zip.Inflater;
-
 import org.netbeans.jemmy.JemmyException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Allows to load PNG graphical file.

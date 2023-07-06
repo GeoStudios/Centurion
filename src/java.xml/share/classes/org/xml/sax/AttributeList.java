@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.xml.sax;
+package java.xml.share.classes.org.xml.sax;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface for an element's attribute specifications.

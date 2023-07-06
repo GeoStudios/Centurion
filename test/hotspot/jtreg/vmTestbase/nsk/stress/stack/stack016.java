@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.stress.stack;
+
+
+import nsk.share.Terminator;
+import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress
@@ -54,12 +73,9 @@
  * @run main/othervm/timeout=900 -Xcomp -XX:-TieredCompilation -Xss448K nsk.stress.stack.stack016 -eager
  */
 
-package nsk.stress.stack;
 
 
-import nsk.share.Terminator;
 
-import java.io.PrintStream;
 
 public class stack016 extends Thread {
     private final static int THREADS = 10;

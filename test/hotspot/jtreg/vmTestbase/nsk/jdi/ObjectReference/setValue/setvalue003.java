@@ -21,15 +21,27 @@
 
 package nsk.jdi.ObjectReference.setValue;
 
+
 import com.sun.jdi.*;
-
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.io.*;
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test checks that the JDI method

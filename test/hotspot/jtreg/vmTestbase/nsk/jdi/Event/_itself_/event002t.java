@@ -21,9 +21,22 @@
 
 package nsk.jdi.Event._itself_;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

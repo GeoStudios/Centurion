@@ -21,11 +21,24 @@
 
 package jit.graph;
 
-import jdk.test.lib.Utils;
 
+import jdk.test.lib.Utils;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Random;
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class test3 extends test1 {
 

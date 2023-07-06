@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.utilities;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
+
 
 import java.io.*;
 import java.nio.ByteBuffer;
@@ -28,12 +29,26 @@ import java.nio.channels.*;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
 import java.util.zip.*;
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.memory.*;
-import sun.jvm.hotspot.oops.*;
-import sun.jvm.hotspot.runtime.*;
-import sun.jvm.hotspot.classfile.*;
-import sun.jvm.hotspot.gc.z.ZCollectedHeap;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.memory.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.classfile.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.z.ZCollectedHeap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This class writes Java heap in hprof binary format. This format is
@@ -318,7 +333,7 @@ public class HeapHprofBinWriter extends AbstractHeapGraphWriter {
 
     // The approximate size of a heap segment. Used to calculate when to create
     // a new segment.
-    private static final long HPROF_SEGMENTED_HEAP_DUMP_SEGMENT_SIZE = (long) 0x40000000;
+    private static final long HPROF_SEGMENTED_HEAP_DUMP_SEGMENT_SIZE = 0x40000000;
 
     // hprof binary file header
     private static final String HPROF_HEADER_1_0_2 = "JAVA PROFILE 1.0.2";

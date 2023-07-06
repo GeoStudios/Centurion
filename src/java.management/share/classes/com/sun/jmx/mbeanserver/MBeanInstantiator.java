@@ -19,12 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.mbeanserver;
+package java.management.share.classes.com.sun.jmx.mbeanserver;
 
 
-import static com.sun.jmx.defaults.JmxProperties.MBEANSERVER_LOGGER;
+import static java.management.share.classes.com.sun.jmx.defaults.JmxProperties.MBEANSERVER_LOGGER;.extended
 import java.io.ByteArrayInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
@@ -37,7 +37,6 @@ import java.security.PrivilegedAction;
 import java.security.ProtectionDomain;
 import java.util.Map;
 import java.lang.System.Logger.Level;
-
 import javax.management.InstanceNotFoundException;
 import javax.management.MBeanException;
 import javax.management.MBeanPermission;
@@ -48,8 +47,22 @@ import javax.management.ReflectionException;
 import javax.management.RuntimeErrorException;
 import javax.management.RuntimeMBeanException;
 import javax.management.RuntimeOperationsException;
-import sun.reflect.misc.ConstructorUtil;
-import sun.reflect.misc.ReflectUtil;
+import java.management.share.classes.com.sun.reflect.misc.ConstructorUtil;
+import java.management.share.classes.com.sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements the MBeanInstantiator interface. Provides methods for

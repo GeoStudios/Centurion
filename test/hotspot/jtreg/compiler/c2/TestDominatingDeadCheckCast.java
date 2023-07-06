@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8149797
@@ -30,7 +47,6 @@
  *      compiler.c2.TestDominatingDeadCheckCast
  */
 
-package compiler.c2;
 
 public class TestDominatingDeadCheckCast {
 

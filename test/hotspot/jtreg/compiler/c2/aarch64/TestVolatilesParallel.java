@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2.aarch64;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @summary C2 should use ldar, stlr and ldaxr+stlxr insns for volatile operations
@@ -66,7 +83,6 @@
  *      TestUnsafeVolatileGAS Parallel
  */
 
-package compiler.c2.aarch64;
 
 public class TestVolatilesParallel {
     public static void main(String args[]) throws Throwable

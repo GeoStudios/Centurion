@@ -21,14 +21,13 @@
 
 package validation;
 
-import static jaxp.library.JAXPTestUtilities.USER_DIR;
-import static jaxp.library.JAXPTestUtilities.runWithTmpPermission;
 
+import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
+import static jaxp.library.JAXPTestUtilities.runWithTmpPermission;.extended
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.util.PropertyPermission;
-
 import javax.xml.XMLConstants;
 import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.XMLInputFactory;
@@ -39,11 +38,23 @@ import javax.xml.transform.stax.StAXResult;
 import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;
 import javax.xml.validation.Validator;
-
 import org.testng.Assert;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.ErrorHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

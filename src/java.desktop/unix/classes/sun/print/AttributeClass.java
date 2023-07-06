@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.print;
+
+package java.desktop.unix.classes.sun.print;
+
 
 import java.nio.charset.StandardCharsets;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.io.ByteArrayInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AttributeClass {
     private final String myName;

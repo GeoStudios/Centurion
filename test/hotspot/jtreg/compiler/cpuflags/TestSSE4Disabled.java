@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.cpuflags;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestSSE4Disabled
  * @bug 8158214
@@ -28,7 +45,6 @@
  * @run main/othervm -Xcomp -XX:UseSSE=3 compiler.cpuflags.TestSSE4Disabled
  */
 
-package compiler.cpuflags;
 
 public class TestSSE4Disabled {
     public static void main(String args[]) {

@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.nio.file.attribute;
+package java.base.share.classes.java.nio.file.attribute;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An attribute view that is a read-only or updatable view of non-opaque

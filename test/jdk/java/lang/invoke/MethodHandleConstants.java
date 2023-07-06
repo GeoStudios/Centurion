@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.lang.invoke;
+
+
+import java.util.*;
+import java.io.*;
+import java.lang.invoke.*;
+import java.base.share.classes.java.security.*;
+import static java.lang.invoke.MethodHandles.*;.extended
+import static java.lang.invoke.MethodType.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @bug 8022066
  * @summary smoke test for method handle constants
@@ -36,15 +59,8 @@
  *      --java test.java.lang.invoke.MethodHandleConstants --security-manager
  */
 
-package test.java.lang.invoke;
 
-import java.util.*;
-import java.io.*;
-import java.lang.invoke.*;
-import java.security.*;
 
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
 
 public class MethodHandleConstants {
     public static void main(String... av) throws Throwable {

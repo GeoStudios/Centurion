@@ -19,37 +19,50 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.time.format;
+package java.base.share.classes.java.time.format;
 
-import static java.time.temporal.ChronoField.AMPM_OF_DAY;
-import static java.time.temporal.ChronoField.DAY_OF_WEEK;
-import static java.time.temporal.ChronoField.ERA;
-import static java.time.temporal.ChronoField.MONTH_OF_YEAR;
 
-import java.time.chrono.Chronology;
-import java.time.chrono.IsoChronology;
-import java.time.chrono.JapaneseChronology;
-import java.time.temporal.ChronoField;
-import java.time.temporal.IsoFields;
-import java.time.temporal.TemporalField;
-import java.util.AbstractMap.SimpleImmutableEntry;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Locale;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.ResourceBundle;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
-
+import static java.base.share.classes.java.time.temporal.ChronoField.AMPM_OF_DAY;.extended
+import static java.base.share.classes.java.time.temporal.ChronoField.DAY_OF_WEEK;.extended
+import static java.base.share.classes.java.time.temporal.ChronoField.ERA;.extended
+import static java.base.share.classes.java.time.temporal.ChronoField.MONTH_OF_YEAR;.extended
+import java.base.share.classes.java.time.chrono.Chronology;
+import java.base.share.classes.java.time.chrono.IsoChronology;
+import java.base.share.classes.java.time.chrono.JapaneseChronology;
+import java.base.share.classes.java.time.temporal.ChronoField;
+import java.base.share.classes.java.time.temporal.IsoFields;
+import java.base.share.classes.java.time.temporal.TemporalField;
+import java.base.share.classes.java.util.AbstractMap.SimpleImmutableEntry;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Calendar;
+import java.base.share.classes.java.util.Collections;
+import java.base.share.classes.java.util.Comparator;
+import java.base.share.classes.java.util.HashMap;
+import java.base.share.classes.java.util.Iterator;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.Map.Entry;
+import java.base.share.classes.java.util.ResourceBundle;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.concurrent.ConcurrentMap;
 import sun.util.locale.provider.CalendarDataUtility;
 import sun.util.locale.provider.LocaleProviderAdapter;
 import sun.util.locale.provider.LocaleResources;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A provider to obtain the textual form of a date-time field.

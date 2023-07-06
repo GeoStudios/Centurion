@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.main;
+package jdk.compiler.share.classes.com.sun.tools.javac.main;
+
 
 import java.io.FileWriter;
 import java.io.PrintWriter;
@@ -29,13 +30,13 @@ import java.nio.file.InvalidPathException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.text.Collator;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.EnumSet;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.ServiceLoader;
 import java.util.Set;
 import java.util.StringJoiner;
@@ -43,31 +44,41 @@ import java.util.TreeSet;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
-
 import javax.lang.model.SourceVersion;
-
 import jdk.internal.misc.VM;
+import jdk.compiler.share.classes.com.sun.tools.doclint.DocLint;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Lint;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Lint.LintCategory;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Source;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.Profile;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.Target;
+import jdk.compiler.share.classes.com.sun.tools.javac.platform.PlatformProvider;
+import jdk.compiler.share.classes.com.sun.tools.javac.processing.JavacProcessingEnvironment;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log.PrefixKind;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log.WriterKind;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Options;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.StringUtils;
+import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.ChoiceKind.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.OptionGroup.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.OptionKind.*;.extended
 
-import com.sun.tools.doclint.DocLint;
-import com.sun.tools.javac.code.Lint;
-import com.sun.tools.javac.code.Lint.LintCategory;
-import com.sun.tools.javac.code.Source;
-import com.sun.tools.javac.code.Type;
-import com.sun.tools.javac.jvm.Profile;
-import com.sun.tools.javac.jvm.Target;
-import com.sun.tools.javac.platform.PlatformProvider;
-import com.sun.tools.javac.processing.JavacProcessingEnvironment;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.util.Assert;
-import com.sun.tools.javac.util.Log;
-import com.sun.tools.javac.util.Log.PrefixKind;
-import com.sun.tools.javac.util.Log.WriterKind;
-import com.sun.tools.javac.util.Options;
-import com.sun.tools.javac.util.StringUtils;
 
-import static com.sun.tools.javac.main.Option.ChoiceKind.*;
-import static com.sun.tools.javac.main.Option.OptionGroup.*;
-import static com.sun.tools.javac.main.Option.OptionKind.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Options for javac.

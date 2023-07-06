@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.java2d.J2DBench.src.j2dbench.report;
+
+
+import java.util.Vector;
+import java.util.Hashtable;
+import java.util.Enumeration;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -28,15 +53,8 @@
  */
 
 
-package j2dbench.report;
 
-import java.util.Vector;
-import java.util.Hashtable;
-import java.util.Enumeration;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.PrintStream;
+
 
 public class J2DAnalyzer {
     static Vector results = new Vector();

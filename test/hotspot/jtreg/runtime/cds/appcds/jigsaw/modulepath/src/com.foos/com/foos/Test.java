@@ -20,6 +20,22 @@
  */
 
 package com.foos;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Test {
     public static String getString() { return "Test"; }
     public static void main(String args[]) {

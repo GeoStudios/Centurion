@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.common;
+package java.desktop.share.classes.com.sun.imageio.plugins.common;
+
 
 import java.io.InputStream;
 import java.util.PropertyResourceBundle;
 import java.net.URL;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class to simplify use of internationalization message strings.

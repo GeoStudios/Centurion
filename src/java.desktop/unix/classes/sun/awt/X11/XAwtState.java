@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.unix.classes.sun.awt.X11;
+
+
+import java.awt.Component;
+import java.lang.ref.WeakReference;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class is a placeholder for all internal static objects that represent
  * system state. We keep our representation up-to-date with actual system
@@ -26,10 +46,8 @@
  * All attributes should be private static with accessors to simpify change
  * tracking.
  */
-package sun.awt.X11;
 
-import java.awt.Component;
-import java.lang.ref.WeakReference;
+
 
 class XAwtState {
     /**

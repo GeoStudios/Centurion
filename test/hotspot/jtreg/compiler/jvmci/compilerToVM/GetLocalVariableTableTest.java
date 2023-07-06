@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci.compilerToVM;
+
+
+import compiler.jvmci.common.CTVMUtilities;
+import jdk.test.lib.Asserts;
+import jdk.vm.ci.hotspot.CompilerToVMHelper;
+import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
+import java.lang.reflect.Executable;
+import java.util.HashMap;
+import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8136421
@@ -44,16 +68,8 @@
  * @clean compiler.jvmci.compilerToVM.*
  */
 
-package compiler.jvmci.compilerToVM;
 
-import compiler.jvmci.common.CTVMUtilities;
-import jdk.test.lib.Asserts;
-import jdk.vm.ci.hotspot.CompilerToVMHelper;
-import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
 
-import java.lang.reflect.Executable;
-import java.util.HashMap;
-import java.util.Map;
 
 public class GetLocalVariableTableTest {
 

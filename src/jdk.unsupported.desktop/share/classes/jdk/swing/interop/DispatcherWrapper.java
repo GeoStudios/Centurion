@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.swing.interop;
+package jdk.unsupported.desktop.share.classes.jdk.swing.interop;
+
 
 import java.awt.SecondaryLoop;
 import java.awt.EventQueue;
 import sun.awt.FwDispatcher;
 import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides a wrapper over inner class DispatcherProxy

@@ -21,9 +21,23 @@
 
 package nsk.jdi.EventSet.suspendPolicy;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the suspendpolicy016 JDI test.

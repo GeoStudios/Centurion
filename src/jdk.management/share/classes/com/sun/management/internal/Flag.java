@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.management.internal;
+package jdk.management.share.classes.com.sun.management.internal;
+
 
 import java.util.*;
-import com.sun.management.VMOption;
-import com.sun.management.VMOption.Origin;
+import jdk.management.share.classes.com.sun.management.VMOption;
+import jdk.management.share.classes.com.sun.management.VMOption.Origin;
 import java.security.AccessController;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Flag class is a helper class for constructing a VMOption.

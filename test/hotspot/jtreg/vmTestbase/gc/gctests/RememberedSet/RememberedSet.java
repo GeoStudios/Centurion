@@ -18,6 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package gc.gctests.RememberedSet;
+
+
+import java.lang.reflect.Field;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import nsk.share.gc.GC;
+import nsk.share.gc.MemoryObject;
+import nsk.share.gc.ThreadedGCTest;
+import nsk.share.test.ExecutionController;
+import jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This test stress RememberetSet procerssing in the G1 by creation of references
  * between different 1MB blocks.
@@ -38,16 +64,7 @@
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.RememberedSet.RememberedSet
  */
 
-package gc.gctests.RememberedSet;
 
-import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.List;
-import nsk.share.gc.GC;
-import nsk.share.gc.MemoryObject;
-import nsk.share.gc.ThreadedGCTest;
-import nsk.share.test.ExecutionController;
-import jdk.internal.misc.Unsafe;
 
 public class RememberedSet extends ThreadedGCTest {
 

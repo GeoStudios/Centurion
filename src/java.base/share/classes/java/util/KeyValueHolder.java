@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
+
 
 import jdk.internal.vm.annotation.Stable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An immutable container for a key and a value, suitable for use

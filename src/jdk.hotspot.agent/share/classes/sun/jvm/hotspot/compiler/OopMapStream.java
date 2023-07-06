@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.compiler;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.compiler;
 
-import sun.jvm.hotspot.code.*;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class OopMapStream {
   private final CompressedReadStream stream;

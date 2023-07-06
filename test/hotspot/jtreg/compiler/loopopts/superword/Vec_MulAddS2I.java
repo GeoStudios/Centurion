@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts.superword;
+
+
+import java.util.Random;
+import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @key randomness
@@ -72,9 +91,6 @@
  *      compiler.loopopts.superword.Vec_MulAddS2I
  */
 
-package compiler.loopopts.superword;
-import java.util.Random;
-import jdk.test.lib.Utils;
 
 public class Vec_MulAddS2I {
         static final int NUM = 1024;

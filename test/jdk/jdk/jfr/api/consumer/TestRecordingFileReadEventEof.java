@@ -21,13 +21,26 @@
 
 package jdk.jfr.api.consumer;
 
-import java.io.EOFException;
 
+import java.io.EOFException;
 import jdk.jfr.Recording;
 import jdk.jfr.consumer.RecordingFile;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.jfr.Events;
 import jdk.test.lib.jfr.SimpleEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

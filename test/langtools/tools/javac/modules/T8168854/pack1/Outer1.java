@@ -21,6 +21,21 @@
 
 package pack1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Outer1 {
     public static class Implem extends Outer.Inter {
         public Implem () {

@@ -19,12 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.source.util;
+package jdk.compiler.share.classes.com.sun.source.util;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.text.BreakIterator;
-import java.util.List;
-
+import java.util.java.util.java.util.java.util.List;
 import javax.annotation.processing.ProcessingEnvironment;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.PackageElement;
@@ -32,11 +32,24 @@ import javax.lang.model.type.TypeMirror;
 import javax.tools.Diagnostic;
 import javax.tools.FileObject;
 import javax.tools.JavaCompiler.CompilationTask;
+import jdk.compiler.share.classes.com.sun.source.doctree.DocCommentTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.DocTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.EntityTree;
+import jdk.compiler.share.classes.com.sun.source.tree.CompilationUnitTree;
 
-import com.sun.source.doctree.DocCommentTree;
-import com.sun.source.doctree.DocTree;
-import com.sun.source.doctree.EntityTree;
-import com.sun.source.tree.CompilationUnitTree;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides access to syntax trees for doc comments.

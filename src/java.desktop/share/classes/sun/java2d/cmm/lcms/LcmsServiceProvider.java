@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.cmm.lcms;
+package java.desktop.share.classes.sun.java2d.cmm.lcms;
 
-import sun.java2d.cmm.CMMServiceProvider;
-import sun.java2d.cmm.PCMM;
+
+import java.desktop.share.classes.sun.java2d.cmm.CMMServiceProvider;
+import java.desktop.share.classes.sun.java2d.cmm.PCMM;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class LcmsServiceProvider extends CMMServiceProvider {
     @Override

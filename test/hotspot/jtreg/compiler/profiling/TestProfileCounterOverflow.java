@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.profiling;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8224162
@@ -26,7 +43,6 @@
  * @run main/othervm -Xbatch -XX:-UseOnStackReplacement -XX:+IgnoreUnrecognizedVMOptions -XX:MaxTrivialSize=0 -XX:C1MaxTrivialSize=0 compiler.profiling.TestProfileCounterOverflow
  */
 
-package compiler.profiling;
 
 public class TestProfileCounterOverflow {
     public static void test(long iterations) {

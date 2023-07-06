@@ -19,7 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
- /*
+package gc.g1.plab;
+
+
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
+import java.util.stream.Collectors;
+import java.io.PrintStream;
+import gc.g1.plab.lib.LogParser;
+import gc.g1.plab.lib.PLABUtils;
+import gc.g1.plab.lib.AppPLABResize;
+import gc.g1.plab.lib.PlabReport;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
  * @test TestPLABResize
  * @bug 8141278 8141141
  * @summary Test for PLAB resizing
@@ -32,20 +59,9 @@
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run main gc.g1.plab.TestPLABResize
  */
-package gc.g1.plab;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
-import java.io.PrintStream;
 
-import gc.g1.plab.lib.LogParser;
-import gc.g1.plab.lib.PLABUtils;
-import gc.g1.plab.lib.AppPLABResize;
-import gc.g1.plab.lib.PlabReport;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 /**
  * Test for PLAB resizing.

@@ -21,6 +21,30 @@
 
 package gc.stress;
 
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Collections;
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.atomic.AtomicInteger;
+import jdk.test.lib.Platform;
+import jdk.test.lib.Utils;
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.process.OutputAnalyzer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestStressG1Humongous
  * @key stress
@@ -32,16 +56,7 @@ package gc.stress;
  * @run driver/timeout=1300 gc.stress.TestStressG1Humongous
  */
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Collections;
-import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.atomic.AtomicInteger;
 
-import jdk.test.lib.Platform;
-import jdk.test.lib.Utils;
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.process.OutputAnalyzer;
 
 public class TestStressG1Humongous{
 

@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.swing.text;
+
+package java.desktop.share.classes.sun.swing.text;
+
 
 import java.awt.ComponentOrientation;
 import java.awt.Dimension;
@@ -35,14 +37,13 @@ import java.awt.print.PageFormat;
 import java.awt.print.Printable;
 import java.awt.print.PrinterException;
 import java.text.MessageFormat;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 import java.util.concurrent.atomic.AtomicReference;
-
 import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.border.TitledBorder;
@@ -53,10 +54,22 @@ import javax.swing.text.EditorKit;
 import javax.swing.text.AbstractDocument;
 import javax.swing.text.html.HTMLDocument;
 import javax.swing.text.html.HTML;
+import java.desktop.share.classes.sun.font.FontDesignMetrics;
+import java.desktop.share.classes.sun.swing.text.html.FrameEditorPaneTag;
 
-import sun.font.FontDesignMetrics;
 
-import sun.swing.text.html.FrameEditorPaneTag;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of {@code Printable} to print {@code JTextComponent} with

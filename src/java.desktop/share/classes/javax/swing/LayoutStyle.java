@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing;
+
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.Container;
-import javax.swing.plaf.ComponentUI;
+import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
 import sun.awt.AppContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>LayoutStyle</code> provides information about how to position

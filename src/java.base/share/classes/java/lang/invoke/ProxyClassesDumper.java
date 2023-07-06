@@ -18,18 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang.invoke;
+
+package java.base.share.classes.java.lang.invoke;
+
 
 import sun.util.logging.PlatformLogger;
+import java.base.share.classes.java.io.FilePermission;
+import java.base.share.classes.java.nio.file.Files;
+import java.base.share.classes.java.nio.file.InvalidPathException;
+import java.base.share.classes.java.nio.file.Path;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.PrivilegedAction;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.concurrent.atomic.AtomicBoolean;
 
-import java.io.FilePermission;
-import java.nio.file.Files;
-import java.nio.file.InvalidPathException;
-import java.nio.file.Path;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.Objects;
-import java.util.concurrent.atomic.AtomicBoolean;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper class used by InnerClassLambdaMetafactory to log generated classes

@@ -18,21 +18,22 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d.demos.Composite;
+
+package demo.share.jfc.J2Ddemo.java2d.demos.Composite;
 
 
-import static java.awt.AlphaComposite.Clear;
-import static java.awt.AlphaComposite.Dst;
-import static java.awt.AlphaComposite.DstAtop;
-import static java.awt.AlphaComposite.DstIn;
-import static java.awt.AlphaComposite.DstOut;
-import static java.awt.AlphaComposite.DstOver;
-import static java.awt.AlphaComposite.Src;
-import static java.awt.AlphaComposite.SrcAtop;
-import static java.awt.AlphaComposite.SrcIn;
-import static java.awt.AlphaComposite.SrcOut;
-import static java.awt.AlphaComposite.SrcOver;
-import static java.awt.AlphaComposite.Xor;
+import static java.awt.AlphaComposite.Clear;.extended
+import static java.awt.AlphaComposite.Dst;.extended
+import static java.awt.AlphaComposite.DstAtop;.extended
+import static java.awt.AlphaComposite.DstIn;.extended
+import static java.awt.AlphaComposite.DstOut;.extended
+import static java.awt.AlphaComposite.DstOver;.extended
+import static java.awt.AlphaComposite.Src;.extended
+import static java.awt.AlphaComposite.SrcAtop;.extended
+import static java.awt.AlphaComposite.SrcIn;.extended
+import static java.awt.AlphaComposite.SrcOut;.extended
+import static java.awt.AlphaComposite.SrcOver;.extended
+import static java.awt.AlphaComposite.Xor;.extended
 import java.awt.AlphaComposite;
 import java.awt.Color;
 import java.awt.Font;
@@ -44,7 +45,20 @@ import java.awt.font.LineMetrics;
 import java.awt.font.TextLayout;
 import java.awt.geom.GeneralPath;
 import java.awt.image.BufferedImage;
-import java2d.AnimatingSurface;
+import demo.share.jfc.J2Ddemo.java2d.AnimatingSurface;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

@@ -18,21 +18,36 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.awt.www.content;
 
-import sun.awt.www.content.audio.wav;
-import sun.awt.www.content.audio.x_aiff;
-import sun.awt.www.content.image.gif;
-import sun.awt.www.content.audio.aiff;
-import sun.awt.www.content.audio.basic;
-import sun.awt.www.content.audio.x_wav;
-import sun.awt.www.content.image.jpeg;
-import sun.awt.www.content.image.png;
-import sun.awt.www.content.image.x_xbitmap;
-import sun.awt.www.content.image.x_xpixmap;
+package java.desktop.share.classes.sun.awt.www.content;
 
+
+import java.desktop.share.classes.sun.awt.www.content.audio.wav;
+import java.desktop.share.classes.sun.awt.www.content.audio.x_aiff;
+import java.desktop.share.classes.sun.awt.www.content.image.gif;
+import java.desktop.share.classes.sun.awt.www.content.audio.aiff;
+import java.desktop.share.classes.sun.awt.www.content.audio.basic;
+import java.desktop.share.classes.sun.awt.www.content.audio.x_wav;
+import java.desktop.share.classes.sun.awt.www.content.image.jpeg;
+import java.desktop.share.classes.sun.awt.www.content.image.png;
+import java.desktop.share.classes.sun.awt.www.content.image.x_xbitmap;
+import java.desktop.share.classes.sun.awt.www.content.image.x_xpixmap;
 import java.net.ContentHandler;
 import java.net.ContentHandlerFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class MultimediaContentHandlers implements ContentHandlerFactory {
 

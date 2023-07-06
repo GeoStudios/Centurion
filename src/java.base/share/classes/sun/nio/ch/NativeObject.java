@@ -19,13 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- */
+package java.base.share.classes.sun.nio.ch;
 
-package sun.nio.ch;                                     // Formerly in sun.misc
 
 import java.nio.ByteOrder;
 import jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ */
+
+                                     // Formerly in sun.misc
+
 
 
 // ## In the fullness of time, this class will be eliminated

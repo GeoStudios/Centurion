@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
+
 
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Map;
 import java.util.Random;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+import jdk.jdi.share.classes.com.sun.jdi.connect.Connector;
+import jdk.jdi.share.classes.com.sun.jdi.connect.IllegalConnectorArgumentsException;
+import jdk.jdi.share.classes.com.sun.jdi.connect.Transport;
+import jdk.jdi.share.classes.com.sun.jdi.connect.VMStartException;
+import jdk.jdi.share.classes.com.sun.jdi.connect.spi.TransportService;
 
-import com.sun.jdi.VirtualMachine;
-import com.sun.jdi.connect.Connector;
-import com.sun.jdi.connect.IllegalConnectorArgumentsException;
-import com.sun.jdi.connect.Transport;
-import com.sun.jdi.connect.VMStartException;
-import com.sun.jdi.connect.spi.TransportService;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SunCommandLineLauncher extends AbstractLauncher {
 

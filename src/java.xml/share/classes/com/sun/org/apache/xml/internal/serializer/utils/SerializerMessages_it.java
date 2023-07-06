@@ -19,16 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils;
+
+
+import java.util.java.util.ListResourceBundle;
+import java.base.share.classes.java.util.Locale;
+import java.util.MissingResourceException;
+import java.util.ResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.serializer.utils;
 
-import java.util.ListResourceBundle;
-import java.util.Locale;
-import java.util.MissingResourceException;
-import java.util.ResourceBundle;
+
 
 /**
  * An instance of this class is a ListResourceBundle that

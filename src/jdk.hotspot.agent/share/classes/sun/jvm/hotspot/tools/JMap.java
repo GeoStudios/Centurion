@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.tools;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools;
+
 
 import java.io.*;
-import sun.jvm.hotspot.debugger.JVMDebugger;
-import sun.jvm.hotspot.utilities.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.JVMDebugger;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JMap extends Tool {
     public JMap(int m) {

@@ -19,11 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ec;
+package jdk.crypto.ec.share.classes.sun.security.ec;
 
-import sun.security.util.ObjectIdentifier;
-import sun.security.x509.AlgorithmId;
 
+import jdk.crypto.ec.share.classes.sun.security.util.ObjectIdentifier;
+import jdk.crypto.ec.share.classes.sun.security.x509.AlgorithmId;
 import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.NamedParameterSpec;
 import java.util.Collections;
@@ -32,6 +32,20 @@ import java.util.HashMap;
 import java.util.Optional;
 import java.util.function.Function;
 import java.util.function.Supplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ParametersMap<T> {
 

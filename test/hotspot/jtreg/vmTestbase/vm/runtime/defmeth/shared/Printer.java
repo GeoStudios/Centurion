@@ -21,18 +21,29 @@
 
 package vm.runtime.defmeth.shared;
 
-import java.util.List;
-import java.util.ArrayList;
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
 
+import java.util.java.util.java.util.java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
 import vm.runtime.defmeth.shared.data.*;
 import vm.runtime.defmeth.shared.data.method.*;
 import vm.runtime.defmeth.shared.data.method.body.*;
 import vm.runtime.defmeth.shared.data.method.param.*;
 import vm.runtime.defmeth.shared.data.method.result.*;
-
-import static java.lang.String.*;
+import static java.lang.String.*;.extended
 import nsk.share.Pair;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

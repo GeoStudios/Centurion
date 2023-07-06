@@ -18,20 +18,22 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.filterwindow;
 
-import com.sun.hotspot.igv.data.ChangedEvent;
-import com.sun.hotspot.igv.data.ChangedListener;
-import com.sun.hotspot.igv.filter.CustomFilter;
-import com.sun.hotspot.igv.filter.Filter;
-import com.sun.hotspot.igv.filter.FilterChain;
-import com.sun.hotspot.igv.filter.FilterSetting;
-import com.sun.hotspot.igv.filterwindow.actions.*;
-import java.awt.BorderLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.io.*;
-import java.util.*;
+package utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filterwindow;
+
+
+import utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.data.ChangedEvent;
+import utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.data.Changedjava.util.Listener;
+import utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filter.CustomFilter;
+import utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filter.Filter;
+import utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filter.FilterChain;
+import utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filter.FilterSetting;
+import utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filterwindow.actions.*;
+import utils.IdealGraphVisualizer.FilterWindow.src.main.java.awt.BorderLayout;
+import utils.IdealGraphVisualizer.FilterWindow.src.main.java.awt.event.ActionEvent;
+import utils.IdealGraphVisualizer.FilterWindow.src.main.java.awt.event.Actionjava.util.Listener;
+import utils.IdealGraphVisualizer.FilterWindow.src.main.java.io.*;
+import utils.IdealGraphVisualizer.FilterWindow.src.main.java.util.*;
 import javax.swing.JComboBox;
 import javax.swing.UIManager;
 import javax.swing.border.Border;
@@ -52,6 +54,20 @@ import org.openide.util.*;
 import org.openide.util.actions.SystemAction;
 import org.openide.windows.TopComponent;
 import org.openide.windows.WindowManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

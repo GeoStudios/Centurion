@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.swing.interop;
+package jdk.unsupported.desktop.share.classes.jdk.swing.interop;
+
 
 import java.awt.Cursor;
 import java.awt.dnd.DragGestureEvent;
@@ -29,6 +30,20 @@ import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.DataFlavor;
 import java.util.Map;
 import sun.awt.dnd.SunDragSourceContextPeer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides a wrapper over inner DragSourceContextPeerProxy class

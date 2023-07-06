@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @summary load/store elimination will print out instructions without bcis.
@@ -27,7 +44,6 @@
  * @run main/othervm -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Xcomp -XX:+PrintIRDuringConstruction -XX:+Verbose compiler.c1.TestPrintIRDuringConstruction
  */
 
-package compiler.c1;
 
 public class TestPrintIRDuringConstruction {
     static class Dummy {

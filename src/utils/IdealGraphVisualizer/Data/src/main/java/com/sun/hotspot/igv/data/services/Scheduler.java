@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.data.services;
 
-import com.sun.hotspot.igv.data.InputBlock;
-import com.sun.hotspot.igv.data.InputGraph;
-import java.util.Collection;
+package utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data.services;
+
+
+import utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data.InputBlock;
+import utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data.InputGraph;
+import utils.IdealGraphVisualizer.Data.src.main.java.util.Collection;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.security.jgss.share.classes.sun.security.krb5.internal.crypto;
 
-package sun.security.krb5.internal.crypto;
 
-import sun.security.krb5.internal.crypto.dk.Des3DkCrypto;
-import sun.security.krb5.KrbCryptoException;
+import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.dk.Des3DkCrypto;
+import java.security.jgss.share.classes.sun.security.krb5.KrbCryptoException;
 import java.security.GeneralSecurityException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class with static methods for doing Triple DES operations.

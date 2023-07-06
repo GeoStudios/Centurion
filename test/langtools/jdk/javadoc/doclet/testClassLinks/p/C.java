@@ -21,6 +21,21 @@
 
 package p;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 interface I1 { }
 
 interface I2 { }

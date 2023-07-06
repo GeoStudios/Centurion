@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.naming.share.classes.com.sun.jndi.toolkit.dir;
+
+
+import javax.naming.*;
+import javax.naming.directory.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
   * Supports checking an attribute set satisfies a filter
   * that is specified as a set of "matching" attributes.
@@ -27,10 +47,8 @@
   *
   */
 
-package com.sun.jndi.toolkit.dir;
 
-import javax.naming.*;
-import javax.naming.directory.*;
+
 
 public class ContainmentFilter implements AttrFilter {
     private final Attributes matchingAttrs;

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.image;
+package java.desktop.share.classes.sun.awt.image;
+
 
 import java.awt.geom.AffineTransform;
 import java.awt.image.AffineTransformOp;
@@ -35,6 +36,20 @@ import java.awt.image.Raster;
 import java.awt.image.WritableRaster;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides a hook to access platform-specific

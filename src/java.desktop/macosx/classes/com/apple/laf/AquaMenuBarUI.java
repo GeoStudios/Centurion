@@ -19,22 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.MenuBar;
 import java.security.AccessController;
-
 import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.JMenuBar;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicMenuBarUI;
-
 import sun.lwawt.macosx.LWCToolkit;
 import sun.security.action.GetBooleanAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // MenuBar implementation for Mac L&F
 @SuppressWarnings("removal")

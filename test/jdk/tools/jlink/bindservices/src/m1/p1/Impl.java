@@ -21,6 +21,21 @@
 
 package p1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Impl implements S {
     public String name() {
         return this.getClass().getName();

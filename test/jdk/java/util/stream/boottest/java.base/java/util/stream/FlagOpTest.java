@@ -18,17 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package java.util.stream;
+
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.EnumSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.function.Supplier;
+import static java.util.stream.LambdaTestHelpers.countTo;.extended
 
-import static java.util.stream.LambdaTestHelpers.countTo;
+
+
+
+
+
+
+
+
+
+
+
+
 
 @Test
 public class FlagOpTest extends OpTestCase {

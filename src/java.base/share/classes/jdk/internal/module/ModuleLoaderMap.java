@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.module;
+package java.base.share.classes.jdk.internal.module;
+
 
 import java.lang.module.Configuration;
 import java.lang.module.ResolvedModule;
@@ -27,8 +28,21 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 import java.util.function.Function;
+import java.base.share.classes.jdk.internal.loader.ClassLoaders;
 
-import jdk.internal.loader.ClassLoaders;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Supports the mapping of modules to class loaders. The set of modules mapped

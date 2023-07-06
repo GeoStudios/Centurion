@@ -21,7 +21,21 @@
 
 package p;
 
+
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class OutputRedirect {
     private static final PrintStream originalOutput = System.err;

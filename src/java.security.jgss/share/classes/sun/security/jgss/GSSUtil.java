@@ -19,18 +19,19 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jgss;
+package java.security.jgss.share.classes.sun.security.jgss;
+
 
 import javax.security.auth.Subject;
 import javax.security.auth.kerberos.KerberosPrincipal;
 import javax.security.auth.kerberos.KerberosTicket;
 import javax.security.auth.kerberos.KerberosKey;
 import org.ietf.jgss.*;
-import sun.security.jgss.spi.GSSNameSpi;
-import sun.security.jgss.spi.GSSCredentialSpi;
-import sun.security.action.GetPropertyAction;
-import sun.security.jgss.krb5.Krb5NameElement;
-import sun.security.jgss.spnego.SpNegoCredElement;
+import java.security.jgss.share.classes.sun.security.jgss.spi.GSSNameSpi;
+import java.security.jgss.share.classes.sun.security.jgss.spi.GSSCredentialSpi;
+import java.security.jgss.share.classes.sun.security.action.GetPropertyAction;
+import java.security.jgss.share.classes.sun.security.jgss.krb5.Krb5NameElement;
+import java.security.jgss.share.classes.sun.security.jgss.spnego.SpNegoCredElement;
 import java.util.Set;
 import java.util.HashSet;
 import java.util.Vector;
@@ -42,8 +43,22 @@ import java.security.PrivilegedActionException;
 import javax.security.auth.callback.CallbackHandler;
 import javax.security.auth.login.LoginContext;
 import javax.security.auth.login.LoginException;
-import sun.security.action.GetBooleanAction;
-import sun.security.util.ConsoleCallbackHandler;
+import java.security.jgss.share.classes.sun.security.action.GetBooleanAction;
+import java.security.jgss.share.classes.sun.security.util.ConsoleCallbackHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The GSSUtilImplementation that knows how to work with the internals of

@@ -19,26 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdeps;
+package jdk.jdeps.share.classes.com.sun.tools.jdeps;
 
-import com.sun.tools.classfile.Dependency.Location;
-import java.io.IOException;
-import java.util.ArrayList;
+
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Dependency.Location;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Deque;
 import java.util.LinkedHashSet;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Optional;
 import java.util.Set;
 import java.util.concurrent.ConcurrentLinkedDeque;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import static jdk.jdeps.share.classes.com.sun.tools.jdeps.Analyzer.Type.CLASS;.extended
+import static jdk.jdeps.share.classes.com.sun.tools.jdeps.Analyzer.Type.VERBOSE;.extended
+import static jdk.jdeps.share.classes.com.sun.tools.jdeps.Module.trace;.extended
+import static java.util.stream.Collectors.*;.extended
 
-import static com.sun.tools.jdeps.Analyzer.Type.CLASS;
-import static com.sun.tools.jdeps.Analyzer.Type.VERBOSE;
-import static com.sun.tools.jdeps.Module.trace;
-import static java.util.stream.Collectors.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Dependency Analyzer.

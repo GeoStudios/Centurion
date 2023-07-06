@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.protocol.jar;
+package java.base.share.classes.sun.net.www.protocol.jar;
+
 
 import java.io.*;
 import java.net.*;
@@ -36,7 +37,21 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.security.PrivilegedExceptionAction;
 import java.security.PrivilegedActionException;
-import sun.net.www.ParseUtil;
+import java.base.share.classes.sun.net.www.ParseUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* URL jar file is a common JarFile subtype used for JarURLConnection */
 public class URLJarFile extends JarFile {

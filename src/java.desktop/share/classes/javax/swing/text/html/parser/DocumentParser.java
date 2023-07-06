@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.text.html.parser;
+package java.desktop.share.classes.javax.swing.text.html.parser;
 
-import javax.swing.text.SimpleAttributeSet;
-import javax.swing.text.html.HTMLEditorKit;
-import javax.swing.text.html.HTML;
-import javax.swing.text.ChangedCharSetException;
 
+import java.desktop.share.classes.javax.swing.text.SimpleAttributeSet;
+import java.desktop.share.classes.javax.swing.text.html.HTMLEditorKit;
+import java.desktop.share.classes.javax.swing.text.html.HTML;
+import java.desktop.share.classes.javax.swing.text.ChangedCharSetException;
 import java.util.*;
 import java.io.*;
 import java.net.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Parser for HTML Documents (actually, you can specify a DTD, but

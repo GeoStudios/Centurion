@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.jaxp.datatype;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.datatype;
 
 
 import java.math.BigInteger;
 import java.math.BigDecimal;
 import javax.xml.datatype.DatatypeConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Represent a subtype <code>xdt:dayTimeDuration</code> of a <code>Duration</code>

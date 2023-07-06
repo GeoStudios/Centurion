@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.gc.z;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.z;
 
-import sun.jvm.hotspot.debugger.Address;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Address;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class ZForwardingTableEntry {
     private final Address entry;

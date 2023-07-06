@@ -19,6 +19,52 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serialize;
+
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMErrorImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMLocatorImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.OutputStream;
+import java.io.Writer;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.HashMap;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Map;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMError;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMErrorHandler;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.w3c.dom.DocumentFragment;
+import java.xml.share.classes.com.sun.org.w3c.dom.DocumentType;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSException;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSSerializerFilter;
+import java.xml.share.classes.com.sun.org.w3c.dom.traversal.NodeFilter;
+import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.DTDHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.DocumentHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.Locator;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.ext.DeclHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Sep 14, 2000:
 //  Fixed comments to preserve whitespaces and add a line break
 //  when indenting. Reported by Gervase Markham <gerv@gerv.net>
@@ -44,37 +90,9 @@
 //   Reported by Lowell Vaughn <lvaughn@agillion.com>
 
 
-package com.sun.org.apache.xml.internal.serialize;
 
 
-import com.sun.org.apache.xerces.internal.dom.DOMErrorImpl;
-import com.sun.org.apache.xerces.internal.dom.DOMLocatorImpl;
-import com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
-import com.sun.org.apache.xerces.internal.util.XMLChar;
-import java.io.IOException;
-import java.io.OutputStream;
-import java.io.Writer;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import org.w3c.dom.DOMError;
-import org.w3c.dom.DOMErrorHandler;
-import org.w3c.dom.Document;
-import org.w3c.dom.DocumentFragment;
-import org.w3c.dom.DocumentType;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.ls.LSException;
-import org.w3c.dom.ls.LSSerializerFilter;
-import org.w3c.dom.traversal.NodeFilter;
-import org.xml.sax.ContentHandler;
-import org.xml.sax.DTDHandler;
-import org.xml.sax.DocumentHandler;
-import org.xml.sax.Locator;
-import org.xml.sax.SAXException;
-import org.xml.sax.ext.DeclHandler;
-import org.xml.sax.ext.LexicalHandler;
+
 
 /**
  * Base class for a serializer supporting both DOM and SAX pretty

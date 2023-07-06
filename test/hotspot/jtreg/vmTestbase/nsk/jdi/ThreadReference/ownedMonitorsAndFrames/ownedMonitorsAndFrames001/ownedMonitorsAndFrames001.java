@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.ThreadReference.ownedMonitorsAndFrames.ownedMonitorsAndFrames001;
+
+
+import java.io.*;
+import com.sun.jdi.*;
+import nsk.share.Consts;
+import nsk.share.jdi.*;
+import nsk.share.jpda.StateTestThread;
+import nsk.share.jpda.AbstractDebuggeeTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -51,14 +74,7 @@
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
 
-package nsk.jdi.ThreadReference.ownedMonitorsAndFrames.ownedMonitorsAndFrames001;
 
-import java.io.*;
-import com.sun.jdi.*;
-import nsk.share.Consts;
-import nsk.share.jdi.*;
-import nsk.share.jpda.StateTestThread;
-import nsk.share.jpda.AbstractDebuggeeTest;
 
 public class ownedMonitorsAndFrames001 extends TestDebuggerType2 {
     public static void main(String argv[]) {

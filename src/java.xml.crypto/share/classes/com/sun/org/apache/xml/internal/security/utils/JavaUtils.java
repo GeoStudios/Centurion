@@ -19,20 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package com.sun.org.apache.xml.internal.security.utils;
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils;
+
 
 import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.lang.reflect.InvocationTargetException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.security.SecurityPermission;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
 
 /**
  * A collection of different, general-purpose methods for JAVA-specific things

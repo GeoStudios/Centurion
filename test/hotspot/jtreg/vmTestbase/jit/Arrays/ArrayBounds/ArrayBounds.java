@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.Arrays.ArrayBounds;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,7 +48,6 @@
  * @run main/othervm jit.Arrays.ArrayBounds.ArrayBounds
  */
 
-package jit.Arrays.ArrayBounds;
 
 /*
 SCCS ID : @(#)ArrayBounds.java  1.2 02/07/16
@@ -91,7 +108,6 @@ SCCS ID : @(#)ArrayBounds.java  1.2 02/07/16
         bounds exception.
 */
 
-import nsk.share.TestFailure;
 
 
 public class ArrayBounds {

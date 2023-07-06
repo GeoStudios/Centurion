@@ -19,30 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider.certpath;
+package java.base.share.classes.sun.security.provider.certpath;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.security.AccessController;
 import java.security.InvalidAlgorithmParameterException;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.PrivilegedAction;
-import java.security.PublicKey;
+import java.base.share.classes.java.security.PublicKey;
 import java.security.Security;
 import java.security.cert.CertPathValidatorException.BasicReason;
 import java.security.cert.Extension;
 import java.security.cert.*;
 import java.util.*;
 import javax.security.auth.x500.X500Principal;
+import static java.base.share.classes.sun.security.provider.certpath.OCSP.*;.extended
+import static java.base.share.classes.sun.security.provider.certpath.PKIX.*;.extended
+import java.base.share.classes.sun.security.x509.*;
+import static java.base.share.classes.sun.security.x509.PKIXExtensions.*;.extended
+import java.base.share.classes.sun.security.util.Debug;
+import java.base.share.classes.sun.security.util.KnownOIDs;
 
-import static sun.security.provider.certpath.OCSP.*;
-import static sun.security.provider.certpath.PKIX.*;
-import sun.security.x509.*;
-import static sun.security.x509.PKIXExtensions.*;
-import sun.security.util.Debug;
-import sun.security.util.KnownOIDs;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class RevocationChecker extends PKIXRevocationChecker {
 
@@ -657,7 +671,7 @@ class RevocationChecker extends PKIXRevocationChecker {
                 }
                 if (debug != null) {
                     debug.println("RevocationChecker.checkApprovedCRLs()"
-                        + " CRL entry: " + entry.toString());
+                        + " CRL entry: " + entry);
                 }
 
                 /*

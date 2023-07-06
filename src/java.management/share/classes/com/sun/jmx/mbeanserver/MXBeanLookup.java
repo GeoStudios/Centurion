@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.mbeanserver;
+package java.management.share.classes.com.sun.jmx.mbeanserver;
 
-import static com.sun.jmx.mbeanserver.Util.*;
+
+import static java.management.share.classes.com.sun.jmx.mbeanserver.Util.*;.extended
 import java.util.Map;
 import java.lang.ref.WeakReference;
 import java.lang.reflect.InvocationHandler;
@@ -33,6 +34,20 @@ import javax.management.MBeanServerConnection;
 import javax.management.MBeanServerInvocationHandler;
 import javax.management.ObjectName;
 import javax.management.openmbean.OpenDataException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

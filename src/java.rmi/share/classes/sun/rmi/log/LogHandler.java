@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.rmi.log;
+package java.rmi.share.classes.sun.rmi.log;
+
 
 import java.io.*;
-import sun.rmi.server.MarshalOutputStream;
-import sun.rmi.server.MarshalInputStream;
+import java.rmi.share.classes.sun.rmi.server.MarshalOutputStream;
+import java.rmi.share.classes.sun.rmi.server.MarshalInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A LogHandler represents snapshots and update records as serializable

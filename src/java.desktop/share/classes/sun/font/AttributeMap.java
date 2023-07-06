@@ -19,20 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
-  What is the dead simplest thing to do?
-  Extend AbstractMap and don't optimize for anything.
+package java.desktop.share.classes.sun.font;
 
-  The only new api is 'getValues()' which returns the values struct as
-  long as no map api has been called.  If any map api is called,
-  create a real map and forward to it, and nuke values because of the
-  possibility that the map has been changed.  This is easier than
-  trying to create a map that only clears values if the map has been
-  changed, or implementing the map API directly on top of the values
-  struct.  We can always do that later if need be.
-*/
-
-package sun.font;
 
 import java.awt.Paint;
 import java.awt.font.GraphicAttribute;
@@ -47,8 +35,38 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 import java.util.Map.Entry;
+import static java.desktop.share.classes.sun.font.AttributeValues.*;.extended
 
-import static sun.font.AttributeValues.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+  What is the dead simplest thing to do?
+  Extend AbstractMap and don't optimize for anything.
+
+  The only new api is 'getValues()' which returns the values struct as
+  long as no map api has been called.  If any map api is called,
+  create a real map and forward to it, and nuke values because of the
+  possibility that the map has been changed.  This is easier than
+  trying to create a map that only clears values if the map has been
+  changed, or implementing the map API directly on top of the values
+  struct.  We can always do that later if need be.
+*/
+
+
+
+
 
 public final class AttributeMap extends AbstractMap<TextAttribute, Object> {
     private AttributeValues values;

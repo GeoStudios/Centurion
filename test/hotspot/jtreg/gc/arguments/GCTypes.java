@@ -21,10 +21,24 @@
 
 package gc.arguments;
 
+
 import java.lang.management.GarbageCollectorMXBean;
 import java.lang.management.ManagementFactory;
-import java.util.Arrays;
-import java.util.Objects;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper class with enum representation of GC types.

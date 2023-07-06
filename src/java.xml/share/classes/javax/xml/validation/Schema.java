@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.validation;
+package java.xml.share.classes.javax.xml.validation;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Immutable in-memory representation of grammar.

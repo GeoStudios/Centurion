@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text.html;
+
+package java.desktop.share.classes.javax.swing.text.html;
+
 
 import java.awt.Rectangle;
 import java.awt.Image;
@@ -28,34 +30,43 @@ import java.awt.Color;
 import java.awt.Shape;
 import java.awt.Graphics;
 import java.awt.Toolkit;
-
 import java.awt.image.ImageObserver;
 import java.net.URL;
 import java.net.MalformedURLException;
-
 import java.util.Dictionary;
+import java.desktop.share.classes.javax.swing.GrayFilter;
+import java.desktop.share.classes.javax.swing.ImageIcon;
+import java.desktop.share.classes.javax.swing.Icon;
+import java.desktop.share.classes.javax.swing.UIManager;
+import java.desktop.share.classes.javax.swing.SwingUtilities;
+import java.desktop.share.classes.javax.swing.text.JTextComponent;
+import java.desktop.share.classes.javax.swing.text.StyledDocument;
+import java.desktop.share.classes.javax.swing.text.View;
+import java.desktop.share.classes.javax.swing.text.AttributeSet;
+import java.desktop.share.classes.javax.swing.text.Element;
+import java.desktop.share.classes.javax.swing.text.ViewFactory;
+import java.desktop.share.classes.javax.swing.text.Position;
+import java.desktop.share.classes.javax.swing.text.Segment;
+import java.desktop.share.classes.javax.swing.text.Highlighter;
+import java.desktop.share.classes.javax.swing.text.LayeredHighlighter;
+import java.desktop.share.classes.javax.swing.text.AbstractDocument;
+import java.desktop.share.classes.javax.swing.text.Document;
+import java.desktop.share.classes.javax.swing.text.BadLocationException;
+import java.desktop.share.classes.javax.swing.event.DocumentEvent;
 
-import javax.swing.GrayFilter;
-import javax.swing.ImageIcon;
-import javax.swing.Icon;
-import javax.swing.UIManager;
-import javax.swing.SwingUtilities;
 
-import javax.swing.text.JTextComponent;
-import javax.swing.text.StyledDocument;
-import javax.swing.text.View;
-import javax.swing.text.AttributeSet;
-import javax.swing.text.Element;
-import javax.swing.text.ViewFactory;
-import javax.swing.text.Position;
-import javax.swing.text.Segment;
-import javax.swing.text.Highlighter;
-import javax.swing.text.LayeredHighlighter;
-import javax.swing.text.AbstractDocument;
-import javax.swing.text.Document;
-import javax.swing.text.BadLocationException;
 
-import javax.swing.event.DocumentEvent;
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * View of an Image, intended to support the HTML &lt;IMG&gt; tag.

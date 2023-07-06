@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.jfc.FileChooserDemo;
+
+
+import javax.swing.*;
+import javax.swing.filechooser.*;
+import java.io.File;
+import java.util.HashMap;
+import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -29,11 +52,6 @@
 
 
 
-import javax.swing.*;
-import javax.swing.filechooser.*;
-import java.io.File;
-import java.util.HashMap;
-import java.util.Map;
 
 
 /**

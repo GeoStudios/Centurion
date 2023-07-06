@@ -19,36 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs11;
+package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11;
+
 
 import java.io.*;
 import java.util.*;
-
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.interfaces.*;
-
 import javax.crypto.interfaces.*;
-
 import javax.security.auth.Subject;
 import javax.security.auth.login.LoginException;
 import javax.security.auth.login.FailedLoginException;
 import javax.security.auth.callback.Callback;
 import javax.security.auth.callback.CallbackHandler;
 import javax.security.auth.callback.PasswordCallback;
-
 import com.sun.crypto.provider.ChaCha20Poly1305Parameters;
-
 import jdk.internal.misc.InnocuousThread;
-import sun.security.util.Debug;
-import sun.security.util.ResourcesMgr;
-import static sun.security.util.SecurityConstants.PROVIDER_VER;
-import static sun.security.util.SecurityProviderConstants.getAliases;
+import jdk.crypto.cryptoki.share.classes.sun.security.util.Debug;
+import jdk.crypto.cryptoki.share.classes.sun.security.util.ResourcesMgr;
+import static jdk.crypto.cryptoki.share.classes.sun.security.util.SecurityConstants.PROVIDER_VER;.extended
+import static jdk.crypto.cryptoki.share.classes.sun.security.util.SecurityProviderConstants.getAliases;.extended
+import jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.Secmod.*;
+import jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.*;
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Constants.*;.extended
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Exception.*;.extended
 
-import sun.security.pkcs11.Secmod.*;
 
-import sun.security.pkcs11.wrapper.*;
-import static sun.security.pkcs11.wrapper.PKCS11Constants.*;
-import static sun.security.pkcs11.wrapper.PKCS11Exception.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * PKCS#11 provider main class.
@@ -115,7 +123,7 @@ public final class SunPKCS11 extends AuthProvider {
         } catch (PrivilegedActionException pae) {
             InvalidParameterException ipe =
                 new InvalidParameterException("Error configuring SunPKCS11 provider", pae.getException());
-            throw (InvalidParameterException) ipe;
+            throw ipe;
         }
     }
 
@@ -1304,12 +1312,11 @@ public final class SunPKCS11 extends AuthProvider {
             if ((param == null) || (!token.isValid())) {
                 return false;
             }
-            if (!(param instanceof Key)) {
+            if (!(param instanceof Key key)) {
                 throw new InvalidParameterException("Parameter must be a Key");
             }
             String algorithm = getAlgorithm();
             String type = getType();
-            Key key = (Key)param;
             String keyAlgorithm = key.getAlgorithm();
             // RSA signatures and cipher
             if (((type == CIP) && algorithm.startsWith("RSA"))

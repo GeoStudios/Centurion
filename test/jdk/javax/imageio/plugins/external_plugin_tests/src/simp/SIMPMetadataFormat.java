@@ -21,10 +21,24 @@
 
 package simp;
 
-import java.util.Arrays;
+
+import java.base.share.classes.java.util.Arrays;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.metadata.IIOMetadataFormat;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SIMPMetadataFormat extends IIOMetadataFormatImpl {
 

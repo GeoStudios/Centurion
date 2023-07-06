@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.management.share.classes.javax.management.remote;
 
-package javax.management.remote;
 
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InvalidObjectException;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
-import javax.management.Notification;
+import java.management.share.classes.javax.management.Notification;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>A (Notification, Listener ID) pair.</p>

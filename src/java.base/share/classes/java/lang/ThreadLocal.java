@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
-import jdk.internal.misc.TerminatingThreadLocal;
+package java.base.share.classes.java.lang;
 
-import java.lang.ref.WeakReference;
-import java.util.Objects;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.function.Supplier;
+
+import jdk.internal.misc.TerminatingThreadLocal;
+import java.base.share.classes.java.lang.ref.WeakReference;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.concurrent.atomic.AtomicInteger;
+import java.base.share.classes.java.util.function.Supplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides thread-local variables.  These variables differ from
@@ -40,7 +55,7 @@ import java.util.function.Supplier;
  * A thread's id is assigned the first time it invokes {@code ThreadId.get()}
  * and remains unchanged on subsequent calls.
  * <pre>
- * import java.util.concurrent.atomic.AtomicInteger;
+ * import java.base.share.classes.java.util.concurrent.atomic.AtomicInteger;
  *
  * public class ThreadId {
  *     // Atomic integer containing the next thread ID to be assigned

@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.x509;
+package java.base.share.classes.sun.security.x509;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.StringReader;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.StringJoiner;
 import java.util.*;
+import java.base.share.classes.sun.security.util.*;
 
-import sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * RDNs are a set of {attribute = value} assertions.  Some of those

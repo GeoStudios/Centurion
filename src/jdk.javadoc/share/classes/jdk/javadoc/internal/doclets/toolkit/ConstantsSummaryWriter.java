@@ -19,15 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.toolkit;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit;
+
 
 import java.util.*;
-
 import javax.lang.model.element.PackageElement;
 import javax.lang.model.element.TypeElement;
 import javax.lang.model.element.VariableElement;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFilejava.io.java.io.java.io.IOException;
 
-import jdk.javadoc.internal.doclets.toolkit.util.DocFileIOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The interface for writing constants summary output.

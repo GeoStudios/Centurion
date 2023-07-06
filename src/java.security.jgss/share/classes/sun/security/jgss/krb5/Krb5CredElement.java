@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jgss.krb5;
+package java.security.jgss.share.classes.sun.security.jgss.krb5;
+
 
 import org.ietf.jgss.*;
-import sun.security.jgss.spi.*;
-import sun.security.krb5.*;
+import java.security.jgss.share.classes.sun.security.jgss.spi.*;
+import java.security.jgss.share.classes.sun.security.krb5.*;
 import java.security.Provider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides type safety for Krb5 credential elements.

@@ -18,27 +18,46 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-/*
- * $Id: KeyInfoFactory.java,v 1.12 2005/05/10 16:35:35 mullan Exp $
- */
-package javax.xml.crypto.dsig.keyinfo;
+
+package java.xml.crypto.share.classes.javax.xml.crypto.dsig.keyinfo;
+
 
 import java.math.BigInteger;
 import java.security.KeyException;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.NoSuchProviderException;
 import java.security.Provider;
 import java.security.Provider.Service;
-import java.security.PublicKey;
+import java.base.share.classes.java.security.PublicKey;
 import java.security.Security;
 import java.security.cert.X509CRL;
-import java.util.List;
-import javax.xml.crypto.MarshalException;
-import javax.xml.crypto.NoSuchMechanismException;
-import javax.xml.crypto.URIDereferencer;
-import javax.xml.crypto.XMLStructure;
-import javax.xml.crypto.dom.DOMStructure;
-import javax.xml.crypto.dsig.*;
+import java.util.java.util.java.util.java.util.List;
+import java.xml.crypto.share.classes.javax.xml.crypto.MarshalException;
+import java.xml.crypto.share.classes.javax.xml.crypto.NoSuchMechanismException;
+import java.xml.crypto.share.classes.javax.xml.crypto.URIDereferencer;
+import java.xml.crypto.share.classes.javax.xml.crypto.XMLStructure;
+import java.xml.crypto.share.classes.javax.xml.crypto.dom.DOMStructure;
+import java.xml.crypto.share.classes.javax.xml.crypto.dsig.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * $Id: KeyInfoFactory.java,v 1.12 2005/05/10 16:35:35 mullan Exp $
+ */
+
+
 
 
 /**

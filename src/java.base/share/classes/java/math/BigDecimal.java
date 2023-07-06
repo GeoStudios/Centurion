@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.math;
+package java.base.share.classes.java.math;
 
-import static java.math.BigInteger.LONG_MASK;
-import java.io.IOException;
-import java.util.Arrays;
-import java.util.Objects;
+
+import static java.base.share.classes.java.math.BigInteger.LONG_MASK;.extended
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Immutable, arbitrary-precision signed decimal numbers.  A {@code

@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.utils;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+package jdk.internal.le.share.classes.jdk.internal.org.jline.utils;
+
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Manages the JLine shutdown-hook thread and tasks to execute on shutdown.

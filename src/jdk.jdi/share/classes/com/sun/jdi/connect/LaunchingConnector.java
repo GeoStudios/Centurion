@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jdi.connect;
+package jdk.jdi.share.classes.com.sun.jdi.connect;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.Map;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+import jdk.jdi.share.classes.com.sun.jdi.event.VMStartEvent;
 
-import com.sun.jdi.VirtualMachine;
-import com.sun.jdi.event.VMStartEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A connector which can launch a target VM before connecting to it.

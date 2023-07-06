@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.cpuflags;
+
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8020433
@@ -29,10 +48,7 @@
  * @run driver compiler.cpuflags.RestoreMXCSR
  */
 
-package compiler.cpuflags;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class RestoreMXCSR {
     public static void main(String[] args) throws Exception {

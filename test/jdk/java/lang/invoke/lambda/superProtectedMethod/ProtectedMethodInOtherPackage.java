@@ -19,22 +19,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * @test
- * @bug 8227415 8254975 8270056
- * @run testng/othervm p.ProtectedMethodInOtherPackage
- * @summary method reference to a protected method inherited from its
- *          superclass in a different runtime package where
- *          lambda proxy class has no access to it.
- */
-
 package p;
+
 
 import q.I;
 import q.J;
-
-import java.io.IOException;
-import java.io.UncheckedIOException;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
@@ -44,9 +35,34 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.function.Function;
-
 import org.testng.annotations.Test;
-import static org.testng.Assert.*;
+import static org.testng.Assert.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * @test
+ * @bug 8227415 8254975 8270056
+ * @run testng/othervm p.ProtectedMethodInOtherPackage
+ * @summary method reference to a protected method inherited from its
+ *          superclass in a different runtime package where
+ *          lambda proxy class has no access to it.
+ */
+
+
+
+
 
 public class ProtectedMethodInOtherPackage  {
     @Test

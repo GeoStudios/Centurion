@@ -19,38 +19,53 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.xs.traversers;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.traversers;
 
-import com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
-import com.sun.org.apache.xerces.internal.impl.dv.XSFacets;
-import com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType;
-import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
-import com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl;
-import com.sun.org.apache.xerces.internal.impl.validation.ValidationState;
-import com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar;
-import com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
-import com.sun.org.apache.xerces.internal.impl.xs.XSAnnotationImpl;
-import com.sun.org.apache.xerces.internal.impl.xs.XSAttributeGroupDecl;
-import com.sun.org.apache.xerces.internal.impl.xs.XSAttributeUseImpl;
-import com.sun.org.apache.xerces.internal.impl.xs.XSComplexTypeDecl;
-import com.sun.org.apache.xerces.internal.impl.xs.XSElementDecl;
-import com.sun.org.apache.xerces.internal.impl.xs.XSParticleDecl;
-import com.sun.org.apache.xerces.internal.impl.xs.XSWildcardDecl;
-import com.sun.org.apache.xerces.internal.impl.xs.util.XInt;
-import com.sun.org.apache.xerces.internal.impl.xs.util.XSObjectListImpl;
-import com.sun.org.apache.xerces.internal.util.DOMUtil;
-import com.sun.org.apache.xerces.internal.util.NamespaceSupport;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
-import com.sun.org.apache.xerces.internal.xni.NamespaceContext;
-import com.sun.org.apache.xerces.internal.xni.QName;
-import com.sun.org.apache.xerces.internal.xs.XSAttributeUse;
-import com.sun.org.apache.xerces.internal.xs.XSObjectList;
-import com.sun.org.apache.xerces.internal.xs.XSSimpleTypeDefinition;
-import com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
-import org.w3c.dom.Element;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.XSFacets;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.validation.ValidationState;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSAnnotationImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSAttributeGroupDecl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSAttributeUseImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSComplexTypeDecl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSElementDecl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSParticleDecl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSWildcardDecl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XInt;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XSObjectjava.util.ListImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.DOMUtil;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.NamespaceSupport;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSAttributeUse;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObjectjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSSimpleTypeDefinition;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class <code>XSDAbstractTraverser</code> serves as the base class for all

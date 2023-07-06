@@ -18,14 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.transaction;
+
 
 import java.io.ByteArrayInputStream;
 import java.io.ObjectInputStream;
 import javax.transaction.xa.XAException;
-import static org.testng.Assert.*;
+import static org.testng.Assert.*;.extended
 import org.testng.annotations.Test;
 import util.SerializedTransactionExceptions;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class XAExceptionTests {
 

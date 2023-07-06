@@ -19,36 +19,45 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.tree;
+package jdk.compiler.share.classes.com.sun.tools.javac.tree;
 
 
-
-import com.sun.source.tree.Tree;
-import com.sun.source.util.TreePath;
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.comp.AttrContext;
-import com.sun.tools.javac.comp.Env;
-import com.sun.tools.javac.tree.JCTree.*;
-import com.sun.tools.javac.tree.JCTree.JCPolyExpression.*;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
-
-import static com.sun.tools.javac.code.Flags.*;
-import static com.sun.tools.javac.code.Kinds.Kind.*;
-import com.sun.tools.javac.code.Symbol.VarSymbol;
-import static com.sun.tools.javac.code.TypeTag.BOOLEAN;
-import static com.sun.tools.javac.code.TypeTag.BOT;
-import static com.sun.tools.javac.tree.JCTree.Tag.*;
-import static com.sun.tools.javac.tree.JCTree.Tag.BLOCK;
-import static com.sun.tools.javac.tree.JCTree.Tag.SYNCHRONIZED;
-
+import jdk.compiler.share.classes.com.sun.source.tree.Tree;
+import jdk.compiler.share.classes.com.sun.source.util.TreePath;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.AttrContext;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Env;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCPolyExpression.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.VarSymbol;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.BOOLEAN;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.BOT;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.BLOCK;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.SYNCHRONIZED;.extended
 import javax.tools.JavaFileObject;
-
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.function.ToIntFunction;
+import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCOperatorExpression.OperandPos.LEFT;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCOperatorExpression.OperandPos.RIGHT;.extended
 
-import static com.sun.tools.javac.tree.JCTree.JCOperatorExpression.OperandPos.LEFT;
-import static com.sun.tools.javac.tree.JCTree.JCOperatorExpression.OperandPos.RIGHT;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Utility class containing inspector methods for trees.
  *

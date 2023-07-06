@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package apple.laf;
+package java.desktop.macosx.classes.apple.laf;
 
-import apple.laf.JRSUIConstants.*;
+
+import java.desktop.macosx.classes.apple.laf.JRSUIConstants.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("unchecked")
 public class JRSUIState {

@@ -19,8 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.javax.security.auth.login;
 
-package javax.security.auth.login;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class defines the <i>Service Provider Interface</i> (<b>SPI</b>)

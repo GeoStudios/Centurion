@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package varargs.versus.generics;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4920438
@@ -28,7 +45,6 @@
  * @compile  Varargs.java
  */
 
-package varargs.versus.generics;
 
 // bug: varargs does not work for generic methods
 class T {

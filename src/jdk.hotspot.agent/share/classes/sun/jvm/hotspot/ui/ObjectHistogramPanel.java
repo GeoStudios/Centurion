@@ -19,33 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.ui;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
+
 
 import java.util.*;
-
 import java.awt.*;
 import java.awt.event.*;
-
 import javax.swing.*;
 import javax.swing.table.*;
-
-import sun.jvm.hotspot.oops.ObjectHistogram;
-import sun.jvm.hotspot.oops.ObjectHistogramElement;
-import sun.jvm.hotspot.oops.Klass;
-
-import sun.jvm.hotspot.ui.table.LongCellRenderer;
-import sun.jvm.hotspot.ui.table.SortableTableModel;
-import sun.jvm.hotspot.ui.table.SortHeaderCellRenderer;
-import sun.jvm.hotspot.ui.table.SortHeaderMouseAdapter;
-import sun.jvm.hotspot.ui.table.TableModelComparator;
-
-import sun.jvm.hotspot.ui.action.*;
-
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.ObjectHistogram;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.ObjectHistogramElement;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.Klass;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.table.LongCellRenderer;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.table.SortableTableModel;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.table.SortHeaderCellRenderer;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.table.SortHeaderMouseAdapter;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.table.TableModelComparator;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.action.*;
 import com.sun.java.swing.ui.StatusBar;
 import com.sun.java.swing.ui.CommonToolBar;
-
 import com.sun.java.swing.action.ActionManager;
 import com.sun.java.swing.action.DelegateAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Displays the results of an ObjectHistogram run in a JTable, with a

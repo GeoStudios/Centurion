@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.management;
+package java.management.share.classes.java.lang.management;
+
 
 import javax.management.openmbean.CompositeData;
-import java.util.concurrent.locks.*;
+import java.management.share.classes.java.util.concurrent.locks.*;
 import sun.management.LockInfoCompositeData;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Information about a <em>lock</em>.  A lock can be a built-in object monitor,

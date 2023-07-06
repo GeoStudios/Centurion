@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.unsafe;
+
+
+import java.lang.reflect.Array;
+import java.lang.reflect.Field;
+import java.util.concurrent.Callable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8150465 8259339
@@ -33,11 +53,7 @@
  *      compiler.intrinsics.unsafe.AllocateUninitializedArray
  */
 
-package compiler.intrinsics.unsafe;
 
-import java.lang.reflect.Array;
-import java.lang.reflect.Field;
-import java.util.concurrent.Callable;
 
 public class AllocateUninitializedArray {
     static final int ITERS = Integer.getInteger("iters", 1);

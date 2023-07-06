@@ -21,6 +21,25 @@
 
 package gc.arguments;
 
+
+import static jdk.test.lib.Asserts.assertEQ;.extended
+import static jdk.test.lib.Asserts.assertFalse;.extended
+import static jdk.test.lib.Asserts.assertTrue;.extended
+import jdk.test.lib.management.DynamicVMOption;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestDynMinHeapFreeRatio
  * @bug 8028391
@@ -35,10 +54,6 @@ package gc.arguments;
  * @run main/othervm -XX:MinHeapFreeRatio=51 -XX:MaxHeapFreeRatio=52 gc.arguments.TestDynMinHeapFreeRatio
  * @run main/othervm -XX:MinHeapFreeRatio=75 -XX:MaxHeapFreeRatio=100 gc.arguments.TestDynMinHeapFreeRatio
  */
-import static jdk.test.lib.Asserts.assertEQ;
-import static jdk.test.lib.Asserts.assertFalse;
-import static jdk.test.lib.Asserts.assertTrue;
-import jdk.test.lib.management.DynamicVMOption;
 
 public class TestDynMinHeapFreeRatio {
 

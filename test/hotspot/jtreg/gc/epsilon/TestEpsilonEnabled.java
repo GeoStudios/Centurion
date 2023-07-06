@@ -21,6 +21,23 @@
 
 package gc.epsilon;
 
+
+import java.lang.management.GarbageCollectorMXBean;
+import java.lang.management.ManagementFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestAlwaysPretouch
  * @requires vm.gc.Epsilon
@@ -29,8 +46,6 @@ package gc.epsilon;
  * @run main/othervm -XX:+UnlockExperimentalVMOptions -XX:+UseEpsilonGC gc.epsilon.TestEpsilonEnabled
  */
 
-import java.lang.management.GarbageCollectorMXBean;
-import java.lang.management.ManagementFactory;
 
 public class TestEpsilonEnabled {
   public static void main(String[] args) throws Exception {

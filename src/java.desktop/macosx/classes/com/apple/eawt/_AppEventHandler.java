@@ -19,18 +19,19 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.eawt;
+package java.desktop.macosx.classes.com.apple.eawt;
+
 
 import java.awt.EventQueue;
 import java.awt.Frame;
 import java.awt.desktop.AboutEvent;
 import java.awt.desktop.AboutHandler;
 import java.awt.desktop.AppForegroundEvent;
-import java.awt.desktop.AppForegroundListener;
+import java.awt.desktop.AppForegroundjava.util.Listener;
 import java.awt.desktop.AppHiddenEvent;
-import java.awt.desktop.AppHiddenListener;
+import java.awt.desktop.AppHiddenjava.util.Listener;
 import java.awt.desktop.AppReopenedEvent;
-import java.awt.desktop.AppReopenedListener;
+import java.awt.desktop.AppReopenedjava.util.Listener;
 import java.awt.desktop.OpenFilesEvent;
 import java.awt.desktop.OpenFilesHandler;
 import java.awt.desktop.OpenURIEvent;
@@ -43,24 +44,38 @@ import java.awt.desktop.QuitEvent;
 import java.awt.desktop.QuitHandler;
 import java.awt.desktop.QuitStrategy;
 import java.awt.desktop.ScreenSleepEvent;
-import java.awt.desktop.ScreenSleepListener;
-import java.awt.desktop.SystemEventListener;
+import java.awt.desktop.ScreenSleepjava.util.Listener;
+import java.awt.desktop.SystemEventjava.util.Listener;
 import java.awt.desktop.SystemSleepEvent;
-import java.awt.desktop.SystemSleepListener;
+import java.awt.desktop.SystemSleepjava.util.Listener;
 import java.awt.desktop.UserSessionEvent;
 import java.awt.desktop.UserSessionEvent.Reason;
-import java.awt.desktop.UserSessionListener;
+import java.awt.desktop.UserSessionjava.util.Listener;
 import java.awt.event.WindowEvent;
 import java.io.File;
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.IdentityHashMap;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import sun.awt.AppContext;
 import sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class _AppEventHandler {
     private static final int NOTIFY_ABOUT = 1;

@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.ch;
+package java.base.unix.classes.sun.nio.ch;
+
 
 import java.nio.charset.Charset;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import sun.net.NetProperties;
+import java.base.unix.classes.sun.net.NetProperties;
 import jdk.internal.util.StaticProperty;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Platform specific utility functions

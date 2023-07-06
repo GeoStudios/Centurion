@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdeprscan.scan;
+package jdk.jdeps.share.classes.com.sun.tools.jdeprscan.scan;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a method's signature, that is, its parameter types

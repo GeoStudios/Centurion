@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.hotspot.tools.compiler;
+package utils.LogCompilation.src.main.java.com.sun.hotspot.tools.compiler;
 
-import java.io.PrintStream;
-import java.util.ArrayList;
+
+import utils.LogCompilation.src.main.java.io.PrintStream;
+import utils.LogCompilation.src.main.java.util.Arrayjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * One particular compilation, represented in the compilation log file as a

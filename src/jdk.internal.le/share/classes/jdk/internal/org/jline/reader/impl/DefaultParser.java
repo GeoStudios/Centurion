@@ -18,17 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.reader.impl;
+
+package jdk.internal.le.share.classes.jdk.internal.org.jline.reader.impl;
+
 
 import java.util.*;
 import java.util.function.Predicate;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.CompletingParsedLine;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.EOFError;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.ParsedLine;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.Parser;
 
-import jdk.internal.org.jline.reader.CompletingParsedLine;
-import jdk.internal.org.jline.reader.EOFError;
-import jdk.internal.org.jline.reader.ParsedLine;
-import jdk.internal.org.jline.reader.Parser;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class DefaultParser implements Parser {
 

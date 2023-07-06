@@ -18,16 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.hotspot;
 
-import static jdk.vm.ci.hotspot.CompilerToVM.compilerToVM;
-import static jdk.vm.ci.services.Services.IS_IN_NATIVE_IMAGE;
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
 
-import jdk.vm.ci.code.InstalledCode;
-import jdk.vm.ci.code.InvalidInstalledCodeException;
-import jdk.vm.ci.meta.JavaKind;
-import jdk.vm.ci.meta.JavaType;
-import jdk.vm.ci.meta.ResolvedJavaMethod;
+
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot.CompilerToVM.compilerToVM;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.services.Services.IS_IN_NATIVE_IMAGE;.extended
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.code.InstalledCode;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.code.InvalidInstalledCodeException;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.JavaKind;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.JavaType;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.ResolvedJavaMethod;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of {@link InstalledCode} for code installed as an {@code nmethod}. The address of

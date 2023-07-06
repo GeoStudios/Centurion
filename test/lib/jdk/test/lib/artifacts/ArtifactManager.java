@@ -21,8 +21,22 @@
 
 package jdk.test.lib.artifacts;
 
+
 import java.io.FileNotFoundException;
 import java.nio.file.Path;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface ArtifactManager {
     public Path resolve(Artifact artifact) throws ArtifactResolverException;

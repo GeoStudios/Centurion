@@ -21,6 +21,7 @@
 
 package jdk.jfr.event.compiler;
 
+
 import jdk.internal.org.objectweb.asm.*;
 import jdk.jfr.Recording;
 import jdk.jfr.consumer.RecordedEvent;
@@ -31,13 +32,25 @@ import jdk.test.lib.Platform;
 import jdk.test.lib.jfr.EventNames;
 import jdk.test.lib.jfr.Events;
 import sun.hotspot.WhiteBox;
-
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Executable;
 import java.lang.reflect.Method;
 import java.util.*;
 import java.util.stream.IntStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test CompilerInliningTest

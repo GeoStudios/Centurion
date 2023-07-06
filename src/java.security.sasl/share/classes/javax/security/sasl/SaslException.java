@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.security.sasl;
+package java.security.sasl.share.classes.javax.security.sasl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents an error that has occurred when using SASL.

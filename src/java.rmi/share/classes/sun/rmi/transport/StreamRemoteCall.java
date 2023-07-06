@@ -19,11 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.rmi.transport;
+package java.rmi.share.classes.sun.rmi.transport;
+
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInput;
 import java.io.ObjectInputFilter;
 import java.io.ObjectOutput;
@@ -35,10 +36,23 @@ import java.rmi.server.ObjID;
 import java.rmi.server.RemoteCall;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
+import java.rmi.share.classes.sun.rmi.runtime.Log;
+import java.rmi.share.classes.sun.rmi.server.UnicastRef;
+import java.rmi.share.classes.sun.rmi.transport.tcp.TCPEndpoint;
 
-import sun.rmi.runtime.Log;
-import sun.rmi.server.UnicastRef;
-import sun.rmi.transport.tcp.TCPEndpoint;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Stream-based implementation of the RemoteCall interface.

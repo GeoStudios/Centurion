@@ -21,6 +21,21 @@
 
 package a;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class Private {
     public static int x = 10;
     public static void x() {}

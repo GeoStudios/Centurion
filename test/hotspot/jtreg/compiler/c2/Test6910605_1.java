@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6910605
@@ -28,9 +46,7 @@
  * @run main/othervm -XX:+IgnoreUnrecognizedVMOptions -XX:+DeoptimizeALot -Xbatch compiler.c2.Test6910605_1
  */
 
-package compiler.c2;
 
-import java.io.PrintStream;
 
 public class Test6910605_1 {
         public static int buf=0;

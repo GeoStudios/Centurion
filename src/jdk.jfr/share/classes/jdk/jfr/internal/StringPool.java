@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.jfr.internal;
+
+package jdk.jfr.share.classes.jdk.jfr.internal;
+
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class StringPool {
     static final int MIN_LIMIT = 16;

@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jshell;
+package jdk.jshell.share.classes.jdk.jshell;
+
 
 import com.sun.tools.javac.comp.AttrContext;
 import com.sun.tools.javac.comp.Env;
 import com.sun.tools.javac.comp.Resolve;
 import com.sun.tools.javac.util.Context;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Just need access to isStatic

@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.jfc.FileChooserDemo;
+
+
+import java.io.File;
+import java.io.java.io.java.io.java.io.IOException;
+import javax.swing.filechooser.FileSystemView;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -29,9 +50,6 @@
 
 
 
-import java.io.File;
-import java.io.IOException;
-import javax.swing.filechooser.FileSystemView;
 
 
 /**

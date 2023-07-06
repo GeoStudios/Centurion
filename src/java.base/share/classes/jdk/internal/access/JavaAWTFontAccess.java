@@ -19,11 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.jdk.internal.access;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * SharedSecrets interface used for the access from java.text.Bidi
  */
 
-package jdk.internal.access;
+
 
 public interface JavaAWTFontAccess {
 

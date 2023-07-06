@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
+
 
 import java.net.URI;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.http.HttpClient;
 import java.net.http.HttpHeaders;
-import java.net.InetSocketAddress;
+import java.net.Inetjava.net.SocketAddress;
 import javax.net.ssl.SSLEngine;
 import javax.net.ssl.SSLSession;
-import jdk.internal.net.http.common.Utils;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Response headers and status code.

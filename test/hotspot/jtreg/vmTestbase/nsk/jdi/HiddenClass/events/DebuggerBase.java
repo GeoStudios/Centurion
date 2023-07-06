@@ -21,6 +21,7 @@
 
 package nsk.jdi.HiddenClass.events;
 
+
 import com.sun.jdi.ClassType;
 import com.sun.jdi.ClassObjectReference;
 import com.sun.jdi.Field;
@@ -29,7 +30,6 @@ import com.sun.jdi.ReferenceType;
 import com.sun.jdi.ThreadReference;
 import com.sun.jdi.Value;
 import com.sun.jdi.VirtualMachine;
-
 import com.sun.jdi.event.EventSet;
 import com.sun.jdi.request.EventRequest;
 import com.sun.jdi.request.EventRequestManager;
@@ -37,17 +37,28 @@ import com.sun.jdi.request.BreakpointRequest;
 import com.sun.jdi.request.ClassPrepareRequest;
 import com.sun.jdi.request.ClassUnloadRequest;
 import com.sun.jdi.request.ModificationWatchpointRequest;
-
 import java.io.PrintStream;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import jdk.test.lib.Asserts;
-
 import nsk.share.Log;
 import nsk.share.jdi.ArgumentHandler;
 import nsk.share.jdi.Binder;
 import nsk.share.jdi.Debugee;
 import nsk.share.jpda.IOPipe;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // This class is the test debugger base class
 public class DebuggerBase {

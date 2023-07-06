@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap;
+package java.naming.share.classes.com.sun.jndi.ldap;
+
 
 import java.util.Vector;
 import java.util.EventObject;
-
 import javax.naming.event.NamingEvent;
 import javax.naming.event.NamingExceptionEvent;
-import javax.naming.event.NamingListener;
+import javax.naming.event.Namingjava.util.Listener;
 import javax.naming.ldap.UnsolicitedNotificationEvent;
-import javax.naming.ldap.UnsolicitedNotificationListener;
+import javax.naming.ldap.UnsolicitedNotificationjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Package private class used by EventSupport to dispatch events.
@@ -64,7 +78,7 @@ final class EventQueue implements Runnable {
         qThread.start();
     }
 
-    // package private;
+    // 
     /**
      * Enqueue an event.
      * @param event Either a {@code NamingExceptionEvent} or a subclass
@@ -156,7 +170,7 @@ final class EventQueue implements Runnable {
         }
     }
 
-    // package private; used by EventSupport;
+    //  used by EventSupport;
     /**
      * Stop the dispatcher so we can be destroyed.
      */

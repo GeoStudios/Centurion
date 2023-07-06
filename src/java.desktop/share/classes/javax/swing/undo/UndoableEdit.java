@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.undo;
+package java.desktop.share.classes.javax.swing.undo;
 
-import javax.swing.event.*;
+
+import java.desktop.share.classes.javax.swing.event.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An <code>UndoableEdit</code> represents an edit.  The edit may

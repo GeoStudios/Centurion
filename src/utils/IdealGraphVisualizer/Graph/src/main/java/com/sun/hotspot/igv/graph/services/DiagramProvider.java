@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.hotspot.igv.graph.services;
+package utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.graph.services;
 
-import com.sun.hotspot.igv.data.ChangedEvent;
-import com.sun.hotspot.igv.graph.Diagram;
+
+import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.data.ChangedEvent;
+import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.graph.Diagram;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.rmi.server;
+package java.rmi.share.classes.sun.rmi.server;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInput;
 import java.io.ObjectInputFilter;
 import java.io.ObjectInputStream;
@@ -52,11 +53,25 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.WeakHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
-import sun.rmi.runtime.Log;
-import sun.rmi.transport.LiveRef;
-import sun.rmi.transport.StreamRemoteCall;
-import sun.rmi.transport.Target;
-import sun.rmi.transport.tcp.TCPTransport;
+import java.rmi.share.classes.sun.rmi.runtime.Log;
+import java.rmi.share.classes.sun.rmi.transport.LiveRef;
+import java.rmi.share.classes.sun.rmi.transport.StreamRemoteCall;
+import java.rmi.share.classes.sun.rmi.transport.Target;
+import java.rmi.share.classes.sun.rmi.transport.tcp.TCPTransport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * UnicastServerRef implements the remote reference layer server-side

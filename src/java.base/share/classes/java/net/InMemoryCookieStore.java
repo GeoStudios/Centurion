@@ -19,19 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
-import java.net.URI;
-import java.net.CookieStore;
-import java.net.HttpCookie;
-import java.net.URISyntaxException;
-import java.util.List;
-import java.util.Map;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.concurrent.locks.ReentrantLock;
+
+import java.base.share.classes.java.net.URI;
+import java.base.share.classes.java.net.CookieStore;
+import java.base.share.classes.java.net.HttpCookie;
+import java.base.share.classes.java.net.URISyntaxException;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.HashMap;
+import java.base.share.classes.java.util.Collections;
+import java.base.share.classes.java.util.Iterator;
+import java.base.share.classes.java.util.concurrent.locks.ReentrantLock;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A simple in-memory java.net.CookieStore implementation

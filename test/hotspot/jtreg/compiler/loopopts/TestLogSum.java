@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts;
+
+
+import java.base.share.classes.java.util.Arrays;
+import java.util.HashMap;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8046516
@@ -28,12 +49,7 @@
  * @author jackkamm@gmail.com
  */
 
-package compiler.loopopts;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 public class TestLogSum {
   public static void main(String[] args) {

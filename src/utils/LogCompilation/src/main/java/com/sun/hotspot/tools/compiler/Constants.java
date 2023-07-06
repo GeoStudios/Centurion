@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.hotspot.tools.compiler;
+package utils.LogCompilation.src.main.java.com.sun.hotspot.tools.compiler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 interface Constants {
     int  JVM_ACC_PUBLIC        = 0x0001;  /* visible to everyone */

@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.hotspot.agent.share.classes.com.sun.java.swing.ui;
 
-package com.sun.java.swing.ui;
 
-import java.awt.BorderLayout;
-import java.awt.Container;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import jdk.hotspot.agent.share.classes.com.sun.java.awt.BorderLayout;
+import jdk.hotspot.agent.share.classes.com.sun.java.awt.Container;
+import jdk.hotspot.agent.share.classes.com.sun.java.awt.event.ActionEvent;
+import jdk.hotspot.agent.share.classes.com.sun.java.awt.event.Actionjava.util.Listener;
 import javax.swing.JDialog;
 import javax.swing.JPanel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Referenced classes of package com.sun.java.swing.ui:
 //            OkCancelButtonPanel, CommonUI

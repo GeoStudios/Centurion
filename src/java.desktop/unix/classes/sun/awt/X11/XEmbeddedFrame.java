@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.AWTKeyStroke;
 import java.awt.Component;
 import java.awt.Toolkit;
 import java.awt.peer.ComponentPeer;
+import java.desktop.unix.classes.sun.awt.AWTAccessor;
+import java.desktop.unix.classes.sun.awt.EmbeddedFrame;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 
-import sun.awt.AWTAccessor;
-import sun.awt.EmbeddedFrame;
-import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // JDK-implementation class
 public class XEmbeddedFrame extends EmbeddedFrame {

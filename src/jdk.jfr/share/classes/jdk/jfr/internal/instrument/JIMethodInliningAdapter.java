@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.instrument;
+package jdk.jfr.share.classes.jdk.jfr.internal.instrument;
 
-import jdk.internal.org.objectweb.asm.Label;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.Type;
-import jdk.internal.org.objectweb.asm.commons.LocalVariablesSorter;
-import jdk.internal.org.objectweb.asm.commons.Remapper;
-import jdk.internal.org.objectweb.asm.commons.RemappingMethodAdapter;
+
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.Label;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.Type;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.commons.LocalVariablesSorter;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.commons.Remapper;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.commons.RemappingMethodAdapter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @Deprecated
 final class JIMethodInliningAdapter extends RemappingMethodAdapter {

@@ -18,17 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.util;
+
 
 import java.awt.Dialog;
 import java.awt.Frame;
 import java.awt.Point;
-
 import org.netbeans.jemmy.JemmyProperties;
 import org.netbeans.jemmy.Timeouts;
 import org.netbeans.jemmy.drivers.input.MouseRobotDriver;
 import org.netbeans.jemmy.operators.Operator;
 import org.netbeans.jemmy.operators.WindowOperator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

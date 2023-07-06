@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.opengl;
+package java.desktop.windows.classes.sun.java2d.opengl;
+
 
 import java.awt.Component;
 import java.awt.GraphicsConfiguration;
@@ -29,11 +30,25 @@ import java.awt.Image;
 import java.awt.Rectangle;
 import java.awt.geom.AffineTransform;
 import java.awt.image.ColorModel;
-import sun.awt.SunToolkit;
-import sun.awt.Win32GraphicsDevice;
-import sun.awt.windows.WComponentPeer;
-import sun.java2d.SurfaceData;
-import sun.java2d.pipe.Region;
+import java.desktop.windows.classes.sun.awt.SunToolkit;
+import java.desktop.windows.classes.sun.awt.Win32GraphicsDevice;
+import java.desktop.windows.classes.sun.awt.windows.WComponentPeer;
+import java.desktop.windows.classes.sun.java2d.SurfaceData;
+import java.desktop.windows.classes.sun.java2d.pipe.Region;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class WGLSurfaceData extends OGLSurfaceData {
 

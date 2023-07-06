@@ -19,14 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt;
+package java.desktop.macosx.classes.sun.lwawt;
+
 
 import java.awt.Point;
 import java.awt.Window;
-
 import java.awt.peer.MouseInfoPeer;
+import java.desktop.macosx.classes.sun.awt.AWTAccessor;
 
-import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class LWMouseInfoPeer implements MouseInfoPeer {
 

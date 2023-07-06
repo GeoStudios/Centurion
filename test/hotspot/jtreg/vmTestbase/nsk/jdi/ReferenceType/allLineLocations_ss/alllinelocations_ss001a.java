@@ -21,9 +21,23 @@
 
 package nsk.jdi.ReferenceType.allLineLocations_ss;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the alllinelocations_ss001 JDI test.

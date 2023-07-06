@@ -19,21 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.agent;
+package jdk.management.agent.share.classes.jdk.internal.agent;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
-
-import jdk.internal.perf.Perf;
+import jdk.management.agent.share.classes.jdk.internal.perf.Perf;
 import sun.management.counter.Units;
 import sun.management.counter.Counter;
 import sun.management.counter.perf.PerfInstrumentation;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A utility class to support the exporting and importing of the address

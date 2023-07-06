@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.code;
 
-import jdk.vm.ci.meta.AllocatableValue;
-import jdk.vm.ci.meta.ValueKind;
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code;
+
+
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.AllocatableValue;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.ValueKind;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Denotes a register that stores a value of a fixed kind.

@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.serializer.dom3;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.dom3;
 
-import static jdk.xml.internal.JdkConstants.S_IS_STANDALONE;
+
+import static jdk.xml.internal.JdkConstants.S_IS_STANDALONE;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * DOM Constants used by the DOM Level 3 LSSerializer implementation.

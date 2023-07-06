@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.Component;
 import java.awt.Container;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serial;
 import java.io.Serializable;
 import java.util.Comparator;
 import java.util.Enumeration;
-
 import sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A SortingFocusTraversalPolicy which sorts Components based on their size,

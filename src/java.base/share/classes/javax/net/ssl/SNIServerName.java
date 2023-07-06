@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.net.ssl;
+package java.base.share.classes.javax.net.ssl;
 
-import java.util.Arrays;
+
+import java.base.share.classes.java.util.Arrays;
 import java.util.HexFormat;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Instances of this class represent a server name in a Server Name

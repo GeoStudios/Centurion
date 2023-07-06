@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.spec.AlgorithmParameterSpec;
-import javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.SecretKey;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 interface SSLKeyDerivation {
     SecretKey deriveKey(String algorithm,

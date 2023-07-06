@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.ch;
+package java.base.unix.classes.sun.nio.ch;
+
 
 import java.nio.channels.*;
 import java.nio.ByteBuffer;
 import java.net.*;
 import java.util.concurrent.*;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.FileDescriptor;
+import java.base.unix.classes.sun.net.ConnectionResetException;
+import java.base.unix.classes.sun.net.NetHooks;
+import java.base.unix.classes.sun.net.util.java.net.SocketExceptions;
+import java.base.unix.classes.sun.security.action.GetPropertyAction;
 
-import sun.net.ConnectionResetException;
-import sun.net.NetHooks;
-import sun.net.util.SocketExceptions;
-import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Unix implementation of AsynchronousSocketChannel
@@ -335,7 +349,7 @@ class UnixAsynchronousSocketChannelImpl
                 synchronized (updateLock) {
                     if (handler == null) {
                         result = new PendingFuture<Void,A>(this, OpType.CONNECT);
-                        this.connectFuture = (PendingFuture<Void,Object>)result;
+                        this.connectFuture = result;
                     } else {
                         this.connectHandler = (CompletionHandler<Void,Object>)handler;
                         this.connectAttachment = attachment;
@@ -531,7 +545,7 @@ class UnixAsynchronousSocketChannelImpl
                     if (handler == null) {
                         this.readHandler = null;
                         result = new PendingFuture<V,A>(this, OpType.READ);
-                        this.readFuture = (PendingFuture<Number,Object>)result;
+                        this.readFuture = result;
                         this.readAttachment = null;
                     } else {
                         this.readHandler = (CompletionHandler<Number,Object>)handler;
@@ -719,7 +733,7 @@ class UnixAsynchronousSocketChannelImpl
                     if (handler == null) {
                         this.writeHandler = null;
                         result = new PendingFuture<V,A>(this, OpType.WRITE);
-                        this.writeFuture = (PendingFuture<Number,Object>)result;
+                        this.writeFuture = result;
                         this.writeAttachment = null;
                     } else {
                         this.writeHandler = (CompletionHandler<Number,Object>)handler;

@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jdi;
+package jdk.jdi.share.classes.com.sun.jdi;
 
-import com.sun.jdi.event.BreakpointEvent;
-import com.sun.jdi.event.ExceptionEvent;
-import com.sun.jdi.request.EventRequestManager;
+
+import jdk.jdi.share.classes.com.sun.jdi.event.BreakpointEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.ExceptionEvent;
+import jdk.jdi.share.classes.com.sun.jdi.request.EventRequestManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A point within the executing code of the target VM.

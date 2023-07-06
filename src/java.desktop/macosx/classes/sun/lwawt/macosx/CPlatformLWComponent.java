@@ -19,10 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-package sun.lwawt.macosx;
 
-import sun.lwawt.PlatformWindow;
+import java.desktop.macosx.classes.sun.lwawt.PlatformWindow;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class CPlatformLWComponent extends CPlatformComponent {
 

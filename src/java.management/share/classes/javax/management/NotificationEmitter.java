@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management;
+package java.management.share.classes.javax.management;
 
-import java.util.concurrent.CopyOnWriteArrayList;  // for Javadoc
+
+import java.util.concurrent.CopyOnWriteArrayjava.util.java.util.java.util.List;  // for Javadoc.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Interface implemented by an MBean that emits Notifications. It

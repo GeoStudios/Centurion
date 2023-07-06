@@ -21,8 +21,8 @@
 
 package tck.java.time.zone;
 
-import static org.testng.Assert.assertEquals;
 
+import static org.testng.Assert.assertEquals;.extended
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
@@ -37,9 +37,21 @@ import java.time.zone.ZoneOffsetTransition;
 import java.time.zone.ZoneOffsetTransitionRule;
 import java.time.zone.ZoneOffsetTransitionRule.TimeDefinition;
 import java.time.zone.ZoneRules;
-
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test ZoneRules for fixed offset time-zones.

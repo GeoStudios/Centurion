@@ -21,7 +21,8 @@
 
 package javadoc.tester;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintStream;
 import java.nio.file.FileVisitResult;
 import java.nio.file.Files;
@@ -30,9 +31,22 @@ import java.nio.file.Paths;
 import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.util.function.Function;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class HtmlChecker extends HtmlParser {
     static final Path currDir = Paths.get(".").toAbsolutePath().normalize();

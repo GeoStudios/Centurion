@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal.ccache;
+package java.security.jgss.share.classes.sun.security.krb5.internal.ccache;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.StringTokenizer;
+import java.security.jgss.share.classes.sun.security.krb5.*;
+import java.security.jgss.share.classes.sun.security.krb5.internal.*;
+import java.security.jgss.share.classes.sun.security.krb5.internal.util.KrbDataInputStream;
+import java.security.jgss.share.classes.sun.security.util.IOUtils;
 
-import sun.security.krb5.*;
-import sun.security.krb5.internal.*;
-import sun.security.krb5.internal.util.KrbDataInputStream;
-import sun.security.util.IOUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class extends KrbDataInputStream. It is used for parsing FCC-format

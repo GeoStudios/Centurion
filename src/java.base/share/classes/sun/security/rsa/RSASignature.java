@@ -19,18 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.rsa;
+package java.base.share.classes.sun.security.rsa;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
-
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.interfaces.*;
 import java.security.spec.AlgorithmParameterSpec;
+import java.base.share.classes.sun.security.rsa.RSAUtil.KeyType;
+import java.base.share.classes.sun.security.util.*;
+import java.base.share.classes.sun.security.x509.AlgorithmId;
 
-import sun.security.rsa.RSAUtil.KeyType;
-import sun.security.util.*;
-import sun.security.x509.AlgorithmId;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * PKCS#1 v1.5 RSA signatures with the various message digest algorithms.

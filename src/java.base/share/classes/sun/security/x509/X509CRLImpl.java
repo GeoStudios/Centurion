@@ -19,24 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.x509;
+package java.base.share.classes.sun.security.x509;
+
 
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
 import java.security.cert.Certificate;
 import java.security.cert.X509CRL;
 import java.security.cert.X509Certificate;
 import java.security.cert.X509CRLEntry;
 import java.security.cert.CRLException;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.util.*;
-
 import javax.security.auth.x500.X500Principal;
+import java.base.share.classes.sun.security.provider.X509Factory;
+import java.base.share.classes.sun.security.util.*;
 
-import sun.security.provider.X509Factory;
-import sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>

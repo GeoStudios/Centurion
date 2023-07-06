@@ -18,71 +18,58 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package build.tools.depend;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.lang.annotation.Documented;
-import java.nio.charset.Charset;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Set;
-import java.util.stream.Collectors;
 
-import javax.lang.model.element.AnnotationMirror;
-import javax.lang.model.element.AnnotationValue;
-import javax.lang.model.element.AnnotationValueVisitor;
-import javax.lang.model.element.Element;
-import javax.lang.model.element.ElementVisitor;
-import javax.lang.model.element.ExecutableElement;
-import javax.lang.model.element.Modifier;
-import javax.lang.model.element.ModuleElement;
-import javax.lang.model.element.ModuleElement.DirectiveVisitor;
-import javax.lang.model.element.ModuleElement.ExportsDirective;
-import javax.lang.model.element.ModuleElement.OpensDirective;
-import javax.lang.model.element.ModuleElement.ProvidesDirective;
-import javax.lang.model.element.ModuleElement.RequiresDirective;
-import javax.lang.model.element.ModuleElement.UsesDirective;
-import javax.lang.model.element.PackageElement;
-import javax.lang.model.element.QualifiedNameable;
-import javax.lang.model.element.RecordComponentElement;
-import javax.lang.model.element.TypeElement;
-import javax.lang.model.element.TypeParameterElement;
-import javax.lang.model.element.VariableElement;
-import javax.lang.model.type.ArrayType;
-import javax.lang.model.type.DeclaredType;
-import javax.lang.model.type.ErrorType;
-import javax.lang.model.type.ExecutableType;
-import javax.lang.model.type.IntersectionType;
-import javax.lang.model.type.NoType;
-import javax.lang.model.type.NullType;
-import javax.lang.model.type.PrimitiveType;
-import javax.lang.model.type.TypeMirror;
-import javax.lang.model.type.TypeVariable;
-import javax.lang.model.type.TypeVisitor;
-import javax.lang.model.type.UnionType;
-import javax.lang.model.type.WildcardType;
-import javax.lang.model.util.ElementFilter;
-import javax.tools.JavaFileObject;
 
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.Plugin;
-import com.sun.source.util.TaskEvent;
-import com.sun.source.util.TaskEvent.Kind;
-import com.sun.source.util.TaskListener;
-import com.sun.source.util.TreePath;
-import com.sun.source.util.Trees;
-import javax.lang.model.element.ElementKind;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Depend implements Plugin {
 

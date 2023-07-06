@@ -21,9 +21,22 @@
 
 package nsk.jdi.DoubleValue.hashCode;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

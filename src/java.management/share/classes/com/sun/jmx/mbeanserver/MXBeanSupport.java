@@ -19,18 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.mbeanserver;
+package java.management.share.classes.com.sun.jmx.mbeanserver;
 
-import static com.sun.jmx.mbeanserver.Util.*;
 
+import static java.management.share.classes.com.sun.jmx.mbeanserver.Util.*;.extended
 import java.util.Iterator;
 import java.util.Set;
-
 import javax.management.InstanceAlreadyExistsException;
 import javax.management.JMX;
 import javax.management.MBeanServer;
 import javax.management.NotCompliantMBeanException;
 import javax.management.ObjectName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base class for MXBeans.

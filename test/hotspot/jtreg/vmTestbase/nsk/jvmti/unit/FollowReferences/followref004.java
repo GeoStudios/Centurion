@@ -18,12 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.jvmti.unit.FollowReferences;
+
 
 import java.io.PrintStream;
 import nsk.share.jvmti.*;
 import nsk.share.jvmti.unit.*;
 import nsk.share.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class followref004 extends DebugeeClass {
 

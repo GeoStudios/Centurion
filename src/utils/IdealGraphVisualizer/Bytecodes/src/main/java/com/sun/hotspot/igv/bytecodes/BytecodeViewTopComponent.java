@@ -18,14 +18,16 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.bytecodes;
 
-import com.sun.hotspot.igv.data.Group;
-import com.sun.hotspot.igv.data.InputGraph;
-import com.sun.hotspot.igv.data.services.InputGraphProvider;
-import com.sun.hotspot.igv.util.LookupHistory;
-import java.awt.BorderLayout;
-import java.io.Serializable;
+package utils.IdealGraphVisualizer.Bytecodes.src.main.java.com.sun.hotspot.igv.bytecodes;
+
+
+import utils.IdealGraphVisualizer.Bytecodes.src.main.java.com.sun.hotspot.igv.data.Group;
+import utils.IdealGraphVisualizer.Bytecodes.src.main.java.com.sun.hotspot.igv.data.InputGraph;
+import utils.IdealGraphVisualizer.Bytecodes.src.main.java.com.sun.hotspot.igv.data.services.InputGraphProvider;
+import utils.IdealGraphVisualizer.Bytecodes.src.main.java.com.sun.hotspot.igv.util.LookupHistory;
+import utils.IdealGraphVisualizer.Bytecodes.src.main.java.awt.BorderLayout;
+import utils.IdealGraphVisualizer.Bytecodes.src.main.java.io.Serializable;
 import javax.swing.SwingUtilities;
 import org.openide.ErrorManager;
 import org.openide.explorer.ExplorerManager;
@@ -34,6 +36,20 @@ import org.openide.explorer.view.BeanTreeView;
 import org.openide.util.*;
 import org.openide.windows.TopComponent;
 import org.openide.windows.WindowManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

@@ -21,6 +21,28 @@
 
 package gc.arguments;
 
+
+import java.base.share.classes.java.util.Arrays;
+import java.util.Collections;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.Utils;
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestNewRatioFlag
  * @bug 8025166
@@ -35,13 +57,6 @@ package gc.arguments;
  * @run driver gc.arguments.TestNewRatioFlag
  */
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.LinkedList;
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.Utils;
-import sun.hotspot.WhiteBox;
 
 public class TestNewRatioFlag {
 

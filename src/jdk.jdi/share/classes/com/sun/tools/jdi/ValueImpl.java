@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-import com.sun.jdi.ClassNotLoadedException;
-import com.sun.jdi.InvalidTypeException;
-import com.sun.jdi.Value;
-import com.sun.jdi.VirtualMachine;
+
+import jdk.jdi.share.classes.com.sun.jdi.ClassNotLoadedException;
+import jdk.jdi.share.classes.com.sun.jdi.InvalidTypeException;
+import jdk.jdi.share.classes.com.sun.jdi.Value;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class ValueImpl extends MirrorImpl implements Value {
 

@@ -19,13 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-import sun.lwawt.LWComponentPeer;
-import sun.lwawt.PlatformDropTarget;
 
+import java.desktop.macosx.classes.sun.lwawt.LWComponentPeer;
+import java.desktop.macosx.classes.sun.lwawt.PlatformDropTarget;
 import java.awt.*;
 import java.awt.dnd.DropTarget;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 final class CDropTarget implements PlatformDropTarget {

@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang.invoke;
 
-import java.util.List;
+package java.base.share.classes.java.lang.invoke;
+
+
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An entity that has a type descriptor.

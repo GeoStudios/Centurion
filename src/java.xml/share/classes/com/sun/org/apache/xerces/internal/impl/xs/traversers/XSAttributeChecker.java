@@ -19,32 +19,47 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.xs.traversers;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.traversers;
 
-import com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
-import com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType;
-import com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar;
-import com.sun.org.apache.xerces.internal.impl.xs.SchemaNamespaceSupport;
-import com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
-import com.sun.org.apache.xerces.internal.impl.xs.XSAttributeDecl;
-import com.sun.org.apache.xerces.internal.impl.xs.XSGrammarBucket;
-import com.sun.org.apache.xerces.internal.impl.xs.XSWildcardDecl;
-import com.sun.org.apache.xerces.internal.impl.xs.util.XInt;
-import com.sun.org.apache.xerces.internal.impl.xs.util.XIntPool;
-import com.sun.org.apache.xerces.internal.util.DOMUtil;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
-import com.sun.org.apache.xerces.internal.util.XMLChar;
-import com.sun.org.apache.xerces.internal.util.XMLSymbols;
-import com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
-import com.sun.org.apache.xerces.internal.xni.QName;
-import com.sun.org.apache.xerces.internal.xs.XSConstants;
-import java.util.ArrayList;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaNamespaceSupport;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSAttributeDecl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSGrammarBucket;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSWildcardDecl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XInt;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XIntPool;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.DOMUtil;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLSymbols;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSConstants;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.StringTokenizer;
-import org.w3c.dom.Attr;
-import org.w3c.dom.Element;
+import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class <code>XSAttributeCheck</code> is used to check the validity of attributes

@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.hotspot.agent.share.classes.com.sun.java.swing.action;
 
-package com.sun.java.swing.action;
 
-import java.awt.event.ActionEvent;
+import jdk.hotspot.agent.share.classes.com.sun.java.awt.event.ActionEvent;
 import javax.swing.AbstractAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class HelpMenu extends AbstractAction
 {

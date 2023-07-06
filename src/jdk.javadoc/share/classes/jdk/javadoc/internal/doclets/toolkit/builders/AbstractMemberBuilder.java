@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.toolkit.builders;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.builders;
 
-import java.util.List;
+
+import java.util.java.util.java.util.java.util.List;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.TypeElement;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.DocletException;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable.Kind;
 
-import jdk.javadoc.internal.doclets.toolkit.Content;
-import jdk.javadoc.internal.doclets.toolkit.DocletException;
-import jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable;
-import jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable.Kind;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The superclass for all member builders.  Member builders are only executed

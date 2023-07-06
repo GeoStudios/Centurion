@@ -18,14 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing;
+
+package java.desktop.share.classes.javax.swing;
+
 
 import java.util.Comparator;
-import java.util.LinkedList;
-import java.util.ListIterator;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.ListIterator;
 import java.awt.Component;
 import java.awt.ComponentOrientation;
 import java.awt.Window;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

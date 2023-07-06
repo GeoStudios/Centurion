@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.imageio.plugins.tiff;
+
+package java.desktop.share.classes.javax.imageio.plugins.tiff;
+
 
 import java.util.StringTokenizer;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import com.sun.imageio.plugins.tiff.TIFFFieldNode;
 import com.sun.imageio.plugins.tiff.TIFFIFD;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class representing a field in a TIFF 6.0 Image File Directory.

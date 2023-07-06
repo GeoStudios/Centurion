@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.rmi.transport;
+package java.rmi.share.classes.sun.rmi.transport;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectOutput;
 import java.rmi.MarshalException;
 import java.rmi.NoSuchObjectException;
@@ -37,9 +38,23 @@ import java.security.AccessController;
 import java.security.Permissions;
 import java.security.PrivilegedAction;
 import java.security.ProtectionDomain;
-import sun.rmi.runtime.Log;
-import sun.rmi.server.Dispatcher;
-import sun.rmi.server.UnicastServerRef;
+import java.rmi.share.classes.sun.rmi.runtime.Log;
+import java.rmi.share.classes.sun.rmi.server.Dispatcher;
+import java.rmi.share.classes.sun.rmi.server.UnicastServerRef;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Transport abstraction for enabling communication between different

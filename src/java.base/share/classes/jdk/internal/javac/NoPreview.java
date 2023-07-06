@@ -18,12 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.javac;
+
+package java.base.share.classes.jdk.internal.javac;
+
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The element annotated with this annotation should not be marked as a preview element.

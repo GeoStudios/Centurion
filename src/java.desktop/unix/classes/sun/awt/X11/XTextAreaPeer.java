@@ -19,13 +19,14 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.*;
 import java.awt.peer.ComponentPeer;
 import java.awt.peer.TextAreaPeer;
 import java.awt.event.*;
-import javax.swing.event.DocumentListener;
+import javax.swing.event.Documentjava.util.Listener;
 import javax.swing.event.DocumentEvent;
 import javax.swing.JTextArea;
 import javax.swing.JComponent;
@@ -48,15 +49,28 @@ import javax.swing.plaf.basic.BasicArrowButton;
 import javax.swing.plaf.basic.BasicScrollBarUI;
 import javax.swing.plaf.basic.BasicScrollPaneUI;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import javax.swing.text.Caret;
 import javax.swing.text.DefaultCaret;
 import javax.swing.text.JTextComponent;
-
 import javax.swing.plaf.BorderUIResource;
 import java.awt.im.InputMethodRequests;
-import sun.awt.AWTAccessor;
-import sun.awt.SunToolkit;
+import java.desktop.unix.classes.sun.awt.AWTAccessor;
+import java.desktop.unix.classes.sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class XTextAreaPeer extends XComponentPeer implements TextAreaPeer {
 

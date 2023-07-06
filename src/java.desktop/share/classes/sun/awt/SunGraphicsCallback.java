@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.share.classes.sun.awt;
+
 
 import java.awt.*;
+import java.desktop.share.classes.sun.util.logging.PlatformLogger;
 
-import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class SunGraphicsCallback {
     public static final int HEAVYWEIGHTS = 0x1;

@@ -21,13 +21,26 @@
 
 package gc.g1.humongousObjects.objectGraphTest;
 
+
 import gc.testlibrary.Helpers;
 import jdk.test.lib.Asserts;
 import sun.hotspot.WhiteBox;
-
-import java.util.Arrays;
-import java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
 import java.util.function.Consumer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides methods to initiate GC of requested type and

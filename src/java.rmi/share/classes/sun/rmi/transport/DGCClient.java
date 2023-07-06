@@ -18,19 +18,21 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.rmi.transport;
+
+package java.rmi.share.classes.sun.rmi.transport;
+
 
 import java.io.InvalidClassException;
 import java.lang.ref.PhantomReference;
 import java.lang.ref.ReferenceQueue;
-import java.net.SocketPermission;
+import java.net.java.net.SocketPermission;
 import java.rmi.UnmarshalException;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.rmi.ConnectException;
@@ -39,15 +41,27 @@ import java.rmi.dgc.DGC;
 import java.rmi.dgc.Lease;
 import java.rmi.dgc.VMID;
 import java.rmi.server.ObjID;
-
-import sun.rmi.runtime.Log;
-import sun.rmi.runtime.NewThreadAction;
-import sun.rmi.server.UnicastRef;
-import sun.rmi.server.Util;
-
+import java.rmi.share.classes.sun.rmi.runtime.Log;
+import java.rmi.share.classes.sun.rmi.runtime.NewThreadAction;
+import java.rmi.share.classes.sun.rmi.server.UnicastRef;
+import java.rmi.share.classes.sun.rmi.server.Util;
 import java.security.AccessControlContext;
 import java.security.Permissions;
 import java.security.ProtectionDomain;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * DGCClient implements the client-side of the RMI distributed garbage

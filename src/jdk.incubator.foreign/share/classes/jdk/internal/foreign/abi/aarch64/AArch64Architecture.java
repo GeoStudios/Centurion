@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.foreign.abi.aarch64;
 
-import jdk.internal.foreign.abi.ABIDescriptor;
-import jdk.internal.foreign.abi.Architecture;
-import jdk.internal.foreign.abi.VMStorage;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.aarch64;
+
+
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.ABIDescriptor;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.Architecture;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.VMStorage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AArch64Architecture implements Architecture {
     public static final Architecture INSTANCE = new AArch64Architecture();

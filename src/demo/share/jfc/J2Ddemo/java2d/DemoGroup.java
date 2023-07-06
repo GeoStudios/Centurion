@@ -18,7 +18,8 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d;
+
+package demo.share.jfc.J2Ddemo.java2d;
 
 
 import java.awt.BorderLayout;
@@ -29,7 +30,7 @@ import java.awt.GridBagLayout;
 import java.awt.GridLayout;
 import java.awt.Image;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.WindowAdapter;
@@ -46,7 +47,20 @@ import javax.swing.border.CompoundBorder;
 import javax.swing.border.EmptyBorder;
 import javax.swing.border.SoftBevelBorder;
 import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
+import javax.swing.event.Changejava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

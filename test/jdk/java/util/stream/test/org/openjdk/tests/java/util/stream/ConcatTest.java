@@ -18,27 +18,40 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.tests.java.util.stream;
+
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Factory;
 import org.testng.annotations.Test;
-
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashSet;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Spliterator;
 import java.util.TreeSet;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
+import static java.util.stream.LambdaTestHelpers.*;.extended
+import static org.testng.Assert.*;.extended
 
-import static java.util.stream.LambdaTestHelpers.*;
-import static org.testng.Assert.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 @Test
 public class ConcatTest {

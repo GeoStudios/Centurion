@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.image.renderable;
+package java.desktop.share.classes.java.awt.image.renderable;
 
-import java.awt.image.RenderedImage;
-import java.io.Serial;
-import java.io.Serializable;
-import java.util.Vector;
+
+import java.desktop.share.classes.java.awt.image.RenderedImage;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.io.Serializable;
+import java.desktop.share.classes.java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code ParameterBlock} encapsulates all the information about sources and

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.xr;
+package java.desktop.unix.classes.sun.java2d.xr;
+
 
 import java.awt.AlphaComposite;
 import java.awt.GraphicsConfiguration;
@@ -32,26 +33,40 @@ import java.awt.geom.AffineTransform;
 import java.awt.image.ColorModel;
 import java.awt.image.DirectColorModel;
 import java.awt.image.Raster;
-import sun.awt.SunHints;
-import sun.awt.SunToolkit;
-import sun.awt.X11ComponentPeer;
-import sun.awt.image.PixelConverter;
-import sun.java2d.InvalidPipeException;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.SurfaceData;
-import sun.java2d.SurfaceDataProxy;
-import sun.java2d.loops.CompositeType;
-import sun.java2d.loops.MaskFill;
-import sun.java2d.loops.RenderLoops;
-import sun.java2d.loops.SurfaceType;
-import sun.java2d.loops.XORComposite;
-import sun.java2d.pipe.PixelToShapeConverter;
-import sun.java2d.pipe.Region;
-import sun.java2d.pipe.ShapeDrawPipe;
-import sun.java2d.pipe.TextPipe;
-import sun.java2d.pipe.ValidatePipe;
-import sun.java2d.x11.XSurfaceData;
-import sun.font.FontManagerNativeLibrary;
+import java.desktop.unix.classes.sun.awt.SunHints;
+import java.desktop.unix.classes.sun.awt.SunToolkit;
+import java.desktop.unix.classes.sun.awt.X11ComponentPeer;
+import java.desktop.unix.classes.sun.awt.image.PixelConverter;
+import java.desktop.unix.classes.sun.java2d.InvalidPipeException;
+import java.desktop.unix.classes.sun.java2d.SunGraphics2D;
+import java.desktop.unix.classes.sun.java2d.SurfaceData;
+import java.desktop.unix.classes.sun.java2d.SurfaceDataProxy;
+import java.desktop.unix.classes.sun.java2d.loops.CompositeType;
+import java.desktop.unix.classes.sun.java2d.loops.MaskFill;
+import java.desktop.unix.classes.sun.java2d.loops.RenderLoops;
+import java.desktop.unix.classes.sun.java2d.loops.SurfaceType;
+import java.desktop.unix.classes.sun.java2d.loops.XORComposite;
+import java.desktop.unix.classes.sun.java2d.pipe.PixelToShapeConverter;
+import java.desktop.unix.classes.sun.java2d.pipe.Region;
+import java.desktop.unix.classes.sun.java2d.pipe.ShapeDrawPipe;
+import java.desktop.unix.classes.sun.java2d.pipe.TextPipe;
+import java.desktop.unix.classes.sun.java2d.pipe.ValidatePipe;
+import java.desktop.unix.classes.sun.java2d.x11.XSurfaceData;
+import java.desktop.unix.classes.sun.font.FontManagerNativeLibrary;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class XRSurfaceData extends XSurfaceData {
     X11ComponentPeer peer;

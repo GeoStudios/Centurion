@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.win32.coff;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
+
 
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Provides iteration-style access to the symbols in the sstGlobalSym
     (and possibly other) subsections of the VC++ 5.0 debug

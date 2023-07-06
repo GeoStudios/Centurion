@@ -21,8 +21,22 @@
 
 package jdk.test.resources.asia;
 
-import java.util.Locale;
+
+import java.base.share.classes.java.util.Locale;
 import jdk.test.resources.spi.MyResourcesProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

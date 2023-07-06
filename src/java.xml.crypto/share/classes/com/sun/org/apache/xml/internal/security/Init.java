@@ -19,37 +19,55 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package com.sun.org.apache.xml.internal.security;
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Enumeration;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms.JCEMapper;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms.SignatureAlgorithm;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.Canonicalizer;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.keyresolver.KeyResolver;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.Transform;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.ElementProxy;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.I18n;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.XMLUtils;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver.ResourceResolver;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Attr;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
 
-import com.sun.org.apache.xml.internal.security.algorithms.JCEMapper;
-import com.sun.org.apache.xml.internal.security.algorithms.SignatureAlgorithm;
-import com.sun.org.apache.xml.internal.security.c14n.Canonicalizer;
-import com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
-import com.sun.org.apache.xml.internal.security.keys.keyresolver.KeyResolver;
-import com.sun.org.apache.xml.internal.security.transforms.Transform;
-import com.sun.org.apache.xml.internal.security.utils.ElementProxy;
-import com.sun.org.apache.xml.internal.security.utils.I18n;
-import com.sun.org.apache.xml.internal.security.utils.XMLUtils;
-import com.sun.org.apache.xml.internal.security.utils.resolver.ResourceResolver;
-import org.w3c.dom.Attr;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
 
 
 /**

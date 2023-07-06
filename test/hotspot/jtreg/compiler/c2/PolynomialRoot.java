@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import jdk.test.lib.Utils;
+import java.base.share.classes.java.util.Arrays;
+import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * (C) Vladislav Malyshkin 2010
  * This file is under GPL version 3.
@@ -42,12 +62,8 @@
  * @run main/timeout=300 compiler.c2.PolynomialRoot
  */
 
-package compiler.c2;
 
-import jdk.test.lib.Utils;
 
-import java.util.Arrays;
-import java.util.Random;
 
 public class PolynomialRoot  {
 

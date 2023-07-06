@@ -19,28 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.tree;
+package java.desktop.share.classes.javax.swing.tree;
 
-import java.beans.PropertyChangeListener;
-import java.io.IOException;
+
+import java.beans.PropertyChangejava.util.Listener;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InvalidObjectException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serial;
 import java.io.Serializable;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.BitSet;
 import java.util.Enumeration;
-import java.util.EventListener;
+import java.util.Eventjava.util.Listener;
 import java.util.Hashtable;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Vector;
+import java.desktop.share.classes.javax.swing.Defaultjava.util.ListSelectionModel;
+import java.desktop.share.classes.javax.swing.event.Eventjava.util.Listenerjava.util.java.util.java.util.List;
+import java.desktop.share.classes.javax.swing.event.SwingPropertyChangeSupport;
+import java.desktop.share.classes.javax.swing.event.TreeSelectionEvent;
+import java.desktop.share.classes.javax.swing.event.TreeSelectionjava.util.Listener;
 
-import javax.swing.DefaultListSelectionModel;
-import javax.swing.event.EventListenerList;
-import javax.swing.event.SwingPropertyChangeSupport;
-import javax.swing.event.TreeSelectionEvent;
-import javax.swing.event.TreeSelectionListener;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Default implementation of TreeSelectionModel.  Listeners are notified

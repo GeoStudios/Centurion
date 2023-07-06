@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.formats.html.markup;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup;
 
-import jdk.javadoc.internal.doclets.toolkit.Content;
 
-import java.io.IOException;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.Writer;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Content for the {@code <body>} element.

@@ -19,12 +19,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
+
 
 import java.io.File;
 import java.io.FilePermission;
-import java.io.IOException;
-import java.io.UncheckedIOException;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.net.URI;
 import java.nio.file.Files;
 import java.nio.file.OpenOption;
@@ -32,7 +33,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.security.AccessControlContext;
 import java.security.AccessController;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ConcurrentMap;
 import java.util.function.Function;
@@ -43,8 +44,22 @@ import java.net.http.HttpResponse.ResponseInfo;
 import java.net.http.HttpResponse.BodySubscriber;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import jdk.internal.net.http.ResponseSubscribers.PathSubscriber;
-import static java.util.regex.Pattern.CASE_INSENSITIVE;
+import java.net.http.share.classes.jdk.internal.net.http.ResponseSubscribers.PathSubscriber;
+import static java.util.regex.Pattern.CASE_INSENSITIVE;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class ResponseBodyHandlers {
 

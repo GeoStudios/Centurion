@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.rmi.transport;
+
+package java.rmi.share.classes.sun.rmi.transport;
+
 
 import java.rmi.RemoteException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface Channel {
 

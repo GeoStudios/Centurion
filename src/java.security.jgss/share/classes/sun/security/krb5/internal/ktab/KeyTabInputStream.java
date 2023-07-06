@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal.ktab;
+package java.security.jgss.share.classes.sun.security.krb5.internal.ktab;
 
-import sun.security.krb5.internal.*;
-import sun.security.krb5.PrincipalName;
-import sun.security.krb5.Realm;
-import sun.security.krb5.RealmException;
-import sun.security.krb5.internal.util.KrbDataInputStream;
-import java.io.IOException;
+
+import java.security.jgss.share.classes.sun.security.krb5.internal.*;
+import java.security.jgss.share.classes.sun.security.krb5.PrincipalName;
+import java.security.jgss.share.classes.sun.security.krb5.Realm;
+import java.security.jgss.share.classes.sun.security.krb5.RealmException;
+import java.security.jgss.share.classes.sun.security.krb5.internal.util.KrbDataInputStream;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements a buffered input stream. It is used for parsing key table

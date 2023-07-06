@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.rowset.serial;
+
 
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -26,10 +28,23 @@ import java.io.Reader;
 import java.io.Writer;
 import javax.sql.rowset.serial.SerialClob;
 import javax.sql.rowset.serial.SerialException;
-import static org.testng.Assert.*;
+import static org.testng.Assert.*;.extended
 import org.testng.annotations.Test;
 import util.BaseTest;
 import util.StubClob;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SerialClobTests extends BaseTest {
 

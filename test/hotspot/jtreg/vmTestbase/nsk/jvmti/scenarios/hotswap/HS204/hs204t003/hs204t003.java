@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jvmti.scenarios.hotswap.HS204.hs204t003;
+
+
+import nsk.share.jvmti.RedefineAgent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -56,9 +74,7 @@
  *      nsk.jvmti.scenarios.hotswap.HS204.hs204t003.hs204t003
  */
 
-package nsk.jvmti.scenarios.hotswap.HS204.hs204t003;
 
-import nsk.share.jvmti.RedefineAgent;
 public class hs204t003 extends RedefineAgent {
     public native boolean popFrame(Thread thread) ;
 

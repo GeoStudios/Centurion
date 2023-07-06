@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.desktop;
+package java.desktop.share.classes.java.awt.desktop;
 
-import java.awt.Desktop;
-import java.awt.GraphicsEnvironment;
-import java.awt.HeadlessException;
-import java.io.Serial;
+
+import java.desktop.share.classes.java.awt.Desktop;
+import java.desktop.share.classes.java.awt.GraphicsEnvironment;
+import java.desktop.share.classes.java.awt.HeadlessException;
+import java.desktop.share.classes.java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Event sent when the application has been hidden or shown.

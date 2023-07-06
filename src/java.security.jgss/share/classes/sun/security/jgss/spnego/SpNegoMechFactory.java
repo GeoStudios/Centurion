@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jgss.spnego;
+package java.security.jgss.share.classes.sun.security.jgss.spnego;
+
 
 import org.ietf.jgss.*;
-import sun.security.jgss.*;
-import sun.security.jgss.spi.*;
-import sun.security.jgss.krb5.Krb5MechFactory;
-import sun.security.jgss.krb5.Krb5InitCredential;
-import sun.security.jgss.krb5.Krb5AcceptCredential;
-import sun.security.jgss.krb5.Krb5NameElement;
+import java.security.jgss.share.classes.sun.security.jgss.*;
+import java.security.jgss.share.classes.sun.security.jgss.spi.*;
+import java.security.jgss.share.classes.sun.security.jgss.krb5.Krb5MechFactory;
+import java.security.jgss.share.classes.sun.security.jgss.krb5.Krb5InitCredential;
+import java.security.jgss.share.classes.sun.security.jgss.krb5.Krb5AcceptCredential;
+import java.security.jgss.share.classes.sun.security.jgss.krb5.Krb5NameElement;
 import java.security.Provider;
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * SpNego Mechanism plug in for JGSS

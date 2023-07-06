@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.windows;
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.awt.Component;
 import java.awt.Dimension;
@@ -29,14 +30,26 @@ import java.awt.MenuBar;
 import java.awt.Rectangle;
 import java.awt.peer.FramePeer;
 import java.security.AccessController;
+import java.desktop.windows.classes.sun.awt.AWTAccessor;
+import java.desktop.windows.classes.sun.awt.im.InputMethodManager;
+import java.desktop.windows.classes.sun.security.action.GetPropertyAction;
+import static java.desktop.windows.classes.sun.java2d.SunGraphicsEnvironment.getGCDeviceBounds;.extended
+import static java.desktop.windows.classes.sun.java2d.SunGraphicsEnvironment.toDeviceSpaceAbs;.extended
+import static java.desktop.windows.classes.sun.java2d.SunGraphicsEnvironment.toUserSpace;.extended
 
-import sun.awt.AWTAccessor;
-import sun.awt.im.InputMethodManager;
-import sun.security.action.GetPropertyAction;
 
-import static sun.java2d.SunGraphicsEnvironment.getGCDeviceBounds;
-import static sun.java2d.SunGraphicsEnvironment.toDeviceSpaceAbs;
-import static sun.java2d.SunGraphicsEnvironment.toUserSpace;
+
+
+
+
+
+
+
+
+
+
+
+
 
 class WFramePeer extends WWindowPeer implements FramePeer {
 

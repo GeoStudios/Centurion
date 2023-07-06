@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codecache.cli.printcodecache;
+
+
+import compiler.codecache.cli.common.CodeCacheCLITestBase;
+import compiler.codecache.cli.common.CodeCacheCLITestCase;
+import sun.hotspot.code.BlobType;
+import java.util.EnumSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8015774
@@ -32,13 +53,8 @@
  * @run driver/timeout=240 compiler.codecache.cli.printcodecache.TestPrintCodeCacheOption
  */
 
-package compiler.codecache.cli.printcodecache;
 
-import compiler.codecache.cli.common.CodeCacheCLITestBase;
-import compiler.codecache.cli.common.CodeCacheCLITestCase;
-import sun.hotspot.code.BlobType;
 
-import java.util.EnumSet;
 
 public class TestPrintCodeCacheOption extends CodeCacheCLITestBase {
     private static final CodeCacheCLITestCase DISABLED_PRINT_CODE_CACHE

@@ -19,14 +19,15 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.security.auth.module;
+package jdk.security.auth.share.classes.com.sun.security.auth.module;
+
 
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.cert.*;
 import java.security.cert.Certificate;
 import java.security.cert.X509Certificate;
@@ -45,9 +46,22 @@ import javax.security.auth.callback.UnsupportedCallbackException;
 import javax.security.auth.login.FailedLoginException;
 import javax.security.auth.login.LoginException;
 import javax.security.auth.spi.LoginModule;
+import jdk.security.auth.share.classes.com.sun.security.util.Password;
+import static jdk.security.auth.share.classes.com.sun.security.util.ResourcesMgr.getAuthResourceString;.extended
 
-import sun.security.util.Password;
-import static sun.security.util.ResourcesMgr.getAuthResourceString;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides a JAAS login module that prompts for a key store alias and

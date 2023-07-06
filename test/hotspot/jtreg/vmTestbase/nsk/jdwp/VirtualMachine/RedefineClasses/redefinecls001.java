@@ -21,11 +21,24 @@
 
 package nsk.jdwp.VirtualMachine.RedefineClasses;
 
-import java.io.*;
 
+import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test for JDWP command: VirtualMachine.RedefineClasses.

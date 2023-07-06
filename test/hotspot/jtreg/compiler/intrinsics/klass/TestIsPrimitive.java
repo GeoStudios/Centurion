@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.klass;
+
+
+import java.util.concurrent.Callable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8150669
@@ -34,9 +52,7 @@
  *      compiler.intrinsics.klass.TestIsPrimitive
  */
 
-package compiler.intrinsics.klass;
 
-import java.util.concurrent.Callable;
 
 public class TestIsPrimitive {
     static final int ITERS = Integer.getInteger("iters", 1);

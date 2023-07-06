@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.file;
+package jdk.compiler.share.classes.com.sun.tools.javac.file;
 
-import java.io.IOException;
-import java.io.UncheckedIOException;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.lang.ref.SoftReference;
 import java.net.URI;
 import java.nio.file.DirectoryStream;
@@ -40,11 +41,23 @@ import java.util.Map;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 import java.util.Set;
-
 import javax.tools.FileObject;
+import jdk.compiler.share.classes.com.sun.tools.javac.file.RelativePath.RelativeDirectory;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
 
-import com.sun.tools.javac.file.RelativePath.RelativeDirectory;
-import com.sun.tools.javac.util.Context;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A package-oriented index into the jrt: filesystem.

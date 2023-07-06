@@ -19,21 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jgss.krb5;
+package java.security.jgss.share.classes.sun.security.jgss.krb5;
+
 
 import org.ietf.jgss.*;
-import sun.security.jgss.spi.*;
-import sun.security.krb5.PrincipalName;
-import sun.security.krb5.Realm;
-import sun.security.krb5.KrbException;
-
+import java.security.jgss.share.classes.sun.security.jgss.spi.*;
+import java.security.jgss.share.classes.sun.security.krb5.PrincipalName;
+import java.security.jgss.share.classes.sun.security.krb5.Realm;
+import java.security.jgss.share.classes.sun.security.krb5.KrbException;
 import javax.security.auth.kerberos.ServicePermission;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.security.Provider;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
 
-import static java.nio.charset.StandardCharsets.UTF_8;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements the GSSNameSpi for the krb5 mechanism.

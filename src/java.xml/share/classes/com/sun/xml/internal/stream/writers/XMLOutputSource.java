@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.xml.internal.stream.writers;
+package java.xml.share.classes.com.sun.xml.internal.stream.writers;
+
 
 import java.io.OutputStream;
 import java.io.Writer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * XMLOutputSource.

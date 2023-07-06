@@ -19,8 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.management.share.classes.javax.management.openmbean;
 
-package javax.management.openmbean;
+
+import java.management.share.classes.javax.management.MBeanAttributeInfo;
+import java.management.share.classes.javax.management.MBeanOperationInfo;
+import java.management.share.classes.javax.management.MBeanConstructorInfo;
+import java.management.share.classes.javax.management.MBeanNotificationInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // java import
@@ -29,10 +47,6 @@ package javax.management.openmbean;
 
 // jmx import
 //
-import javax.management.MBeanAttributeInfo;
-import javax.management.MBeanOperationInfo;
-import javax.management.MBeanConstructorInfo;
-import javax.management.MBeanNotificationInfo;
 
 
 

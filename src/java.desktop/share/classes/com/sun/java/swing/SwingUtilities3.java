@@ -19,11 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing;
+package java.desktop.share.classes.com.sun.java.swing;
 
-import sun.awt.AppContext;
-import sun.awt.SunToolkit;
 
+import java.desktop.share.classes.com.sun.awt.AppContext;
+import java.desktop.share.classes.com.sun.awt.SunToolkit;
 import java.util.Collections;
 import java.util.Map;
 import java.util.WeakHashMap;
@@ -33,6 +33,20 @@ import java.awt.Container;
 import java.awt.Window;
 import javax.swing.JComponent;
 import javax.swing.RepaintManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A collection of utility methods for Swing.

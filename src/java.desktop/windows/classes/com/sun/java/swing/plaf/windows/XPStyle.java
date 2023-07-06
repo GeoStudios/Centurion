@@ -19,6 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
+
+
+import java.desktop.windows.classes.com.sun.java.awt.*;
+import java.desktop.windows.classes.com.sun.java.awt.image.*;
+import java.desktop.windows.classes.com.sun.java.security.AccessController;
+import java.desktop.windows.classes.com.sun.java.util.*;
+import javax.swing.*;
+import javax.swing.border.*;
+import javax.swing.plaf.*;
+import javax.swing.text.JTextComponent;
+import java.desktop.windows.classes.com.sun.awt.image.SunWritableRaster;
+import java.desktop.windows.classes.com.sun.awt.windows.ThemeReader;
+import java.desktop.windows.classes.com.sun.security.action.GetPropertyAction;
+import java.desktop.windows.classes.com.sun.swing.CachedPainter;
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * <p>These classes are designed to be used while the
  * corresponding <code>LookAndFeel</code> class has been installed
@@ -34,24 +65,11 @@
  *
  */
 
-package com.sun.java.swing.plaf.windows;
 
-import java.awt.*;
-import java.awt.image.*;
-import java.security.AccessController;
-import java.util.*;
 
-import javax.swing.*;
-import javax.swing.border.*;
-import javax.swing.plaf.*;
-import javax.swing.text.JTextComponent;
 
-import sun.awt.image.SunWritableRaster;
-import sun.awt.windows.ThemeReader;
-import sun.security.action.GetPropertyAction;
-import sun.swing.CachedPainter;
 
-import static com.sun.java.swing.plaf.windows.TMSchema.*;
+
 
 
 /**

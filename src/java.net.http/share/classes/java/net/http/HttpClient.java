@@ -19,28 +19,43 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.net.http;
+package java.net.http.share.classes.java.net.http;
 
-import java.io.IOException;
-import java.io.UncheckedIOException;
-import java.nio.channels.Selector;
-import java.net.Authenticator;
-import java.net.CookieHandler;
-import java.net.InetSocketAddress;
-import java.net.Proxy;
-import java.net.ProxySelector;
-import java.net.URLPermission;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.time.Duration;
-import java.util.Optional;
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.Executor;
-import javax.net.ssl.SSLContext;
+
+import java.net.http.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.net.http.share.classes.java.io.Uncheckedjava.io.java.io.java.io.IOException;
+import java.net.http.share.classes.java.nio.channels.Selector;
+import java.net.http.share.classes.java.net.Authenticator;
+import java.net.http.share.classes.java.net.CookieHandler;
+import java.net.http.share.classes.java.net.Inetjava.net.SocketAddress;
+import java.net.http.share.classes.java.net.Proxy;
+import java.net.http.share.classes.java.net.ProxySelector;
+import java.net.http.share.classes.java.net.URLPermission;
+import java.net.http.share.classes.java.security.AccessController;
+import java.net.http.share.classes.java.security.PrivilegedAction;
+import java.net.http.share.classes.java.time.Duration;
+import java.net.http.share.classes.java.util.Optional;
+import java.net.http.share.classes.java.util.concurrent.CompletableFuture;
+import java.net.http.share.classes.java.util.concurrent.Executor;
+import javax.net.ssl.javax.net.ssl.javax.net.ssl.javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLParameters;
-import java.net.http.HttpResponse.BodyHandler;
-import java.net.http.HttpResponse.PushPromiseHandler;
+import java.net.http.share.classes.java.net.http.HttpResponse.BodyHandler;
+import java.net.http.share.classes.java.net.http.HttpResponse.PushPromiseHandler;
 import jdk.internal.net.http.HttpClientBuilderImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An HTTP Client.

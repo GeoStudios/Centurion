@@ -21,23 +21,35 @@
 
 package com.sun.swingset3.demos.editorpane;
 
+
 import java.awt.BorderLayout;
 import java.awt.Dimension;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
-
 import javax.swing.JEditorPane;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JViewport;
 import javax.swing.event.HyperlinkEvent;
-import javax.swing.event.HyperlinkListener;
+import javax.swing.event.Hyperlinkjava.util.Listener;
 import javax.swing.text.html.HTMLDocument;
 import javax.swing.text.html.HTMLFrameHyperlinkEvent;
-
 import com.sun.swingset3.DemoProperties;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * EditorPane Demo (was HTMLDemo in SwingSet2)

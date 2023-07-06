@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.incubator.foreign;
+package jdk.incubator.foreign.share.classes.jdk.incubator.foreign;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a type which is <em>addressable</em>. An addressable type is one which can be projected down to

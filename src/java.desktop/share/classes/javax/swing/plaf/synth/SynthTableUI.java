@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.synth;
+package java.desktop.share.classes.javax.swing.plaf.synth;
+
 
 import java.awt.Color;
 import java.awt.Component;
@@ -28,29 +29,42 @@ import java.awt.Graphics;
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.text.DateFormat;
 import java.text.Format;
 import java.text.NumberFormat;
 import java.util.Date;
+import java.desktop.share.classes.javax.swing.Icon;
+import java.desktop.share.classes.javax.swing.ImageIcon;
+import java.desktop.share.classes.javax.swing.JCheckBox;
+import java.desktop.share.classes.javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.JLabel;
+import java.desktop.share.classes.javax.swing.JTable;
+import java.desktop.share.classes.javax.swing.LookAndFeel;
+import java.desktop.share.classes.javax.swing.border.Border;
+import java.desktop.share.classes.javax.swing.plaf.ColorUIResource;
+import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
+import java.desktop.share.classes.javax.swing.plaf.UIResource;
+import java.desktop.share.classes.javax.swing.plaf.basic.BasicTableUI;
+import java.desktop.share.classes.javax.swing.table.DefaultTableCellRenderer;
+import java.desktop.share.classes.javax.swing.table.JTableHeader;
+import java.desktop.share.classes.javax.swing.table.TableCellRenderer;
+import java.desktop.share.classes.javax.swing.table.TableColumn;
+import java.desktop.share.classes.javax.swing.table.TableColumnModel;
 
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
-import javax.swing.JCheckBox;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JTable;
-import javax.swing.LookAndFeel;
-import javax.swing.border.Border;
-import javax.swing.plaf.ColorUIResource;
-import javax.swing.plaf.ComponentUI;
-import javax.swing.plaf.UIResource;
-import javax.swing.plaf.basic.BasicTableUI;
-import javax.swing.table.DefaultTableCellRenderer;
-import javax.swing.table.JTableHeader;
-import javax.swing.table.TableCellRenderer;
-import javax.swing.table.TableColumn;
-import javax.swing.table.TableColumnModel;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the Synth L&amp;F UI delegate for

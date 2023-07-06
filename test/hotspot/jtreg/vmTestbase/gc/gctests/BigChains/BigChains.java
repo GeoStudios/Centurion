@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.BigChains;
+
+
+import nsk.share.gc.GC;
+import nsk.share.gc.ThreadedGCTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress
@@ -38,10 +57,7 @@
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.BigChains.BigChains
  */
 
-package gc.gctests.BigChains;
 
-import nsk.share.gc.GC;
-import nsk.share.gc.ThreadedGCTest;
 
 /**
  * Test ported from dev test suite. Creates big chains of

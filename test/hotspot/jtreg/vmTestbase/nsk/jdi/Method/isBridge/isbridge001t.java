@@ -21,9 +21,22 @@
 
 package nsk.jdi.Method.isBridge;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

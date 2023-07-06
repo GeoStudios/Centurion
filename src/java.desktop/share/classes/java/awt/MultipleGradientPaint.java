@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.geom.AffineTransform;
-import java.awt.image.ColorModel;
-import java.lang.ref.SoftReference;
-import java.util.Arrays;
+
+import java.desktop.share.classes.java.awt.geom.AffineTransform;
+import java.desktop.share.classes.java.awt.image.ColorModel;
+import java.desktop.share.classes.java.lang.ref.SoftReference;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the superclass for Paints which use a multiple color

@@ -18,12 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package java.util;
+
 
 import java.util.function.*;
 import java.util.stream.LambdaTestHelpers;
+import static org.testng.Assert.*;.extended
 
-import static org.testng.Assert.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Assertion methods for spliterators, to be called from other tests

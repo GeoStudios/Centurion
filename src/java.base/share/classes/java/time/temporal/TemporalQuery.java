@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.time.temporal;
+package java.base.share.classes.java.time.temporal;
 
-import java.time.DateTimeException;
+
+import java.base.share.classes.java.time.DateTimeException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Strategy for querying a temporal object.

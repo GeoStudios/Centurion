@@ -18,17 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.awt.X11;
+
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.Component;
 import java.awt.Rectangle;
 import java.awt.Insets;
-
 import java.awt.event.ComponentEvent;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+import java.desktop.unix.classes.sun.awt.AWTAccessor;
 
-import sun.util.logging.PlatformLogger;
 
-import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements window which serves as content window for decorated frames.

@@ -19,6 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.rtm.locking;
+
+
+import compiler.testlibrary.rtm.AbortProvoker;
+import compiler.testlibrary.rtm.XAbortProvoker;
+import compiler.testlibrary.rtm.CompilableTest;
+import compiler.testlibrary.rtm.RTMLockingStatistics;
+import compiler.testlibrary.rtm.RTMTestBase;
+import jdk.test.lib.Asserts;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.cli.CommandLineOptionTest;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8031320
@@ -35,18 +61,8 @@
  *                          compiler.rtm.locking.TestRTMTotalCountIncrRate
  */
 
-package compiler.rtm.locking;
 
-import compiler.testlibrary.rtm.AbortProvoker;
-import compiler.testlibrary.rtm.XAbortProvoker;
-import compiler.testlibrary.rtm.CompilableTest;
-import compiler.testlibrary.rtm.RTMLockingStatistics;
-import compiler.testlibrary.rtm.RTMTestBase;
-import jdk.test.lib.Asserts;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.cli.CommandLineOptionTest;
 
-import java.util.List;
 
 /**
  * Test verifies that with RTMTotalCountIncrRate=1 RTM locking statistics

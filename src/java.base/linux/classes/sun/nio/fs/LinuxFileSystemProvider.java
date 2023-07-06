@@ -19,14 +19,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.fs;
+package java.base.linux.classes.sun.nio.fs;
 
-import java.nio.file.*;
-import java.nio.file.attribute.*;
-import java.nio.file.spi.FileTypeDetector;
-import java.io.IOException;
-
-import jdk.internal.util.StaticProperty;
+import java.base.share.classes.java.nio.file.*;
+import java.base.share.classes.java.nio.file.attribute.*;
+import java.base.share.classes.java.nio.file.spi.FileTypeDetector;
+import java.base.share.classes.java.io.IOException;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
 
 /**
  * Linux implementation of FileSystemProvider

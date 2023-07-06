@@ -21,6 +21,21 @@
 
 package pkg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @deprecated enum_test1 passes.
  */

@@ -18,18 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.utils;
+
+package jdk.internal.le.share.classes.jdk.internal.org.jline.utils;
+
 
 import java.io.BufferedReader;
 import java.io.IOError;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.stream.Stream;
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.TerminalBuilder.PROP_COLOR_DISTANCE;.extended
 
-import static jdk.internal.org.jline.terminal.TerminalBuilder.PROP_COLOR_DISTANCE;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Colors {
 

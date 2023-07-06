@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.vm.ci.code.test;
+
+
+import jdk.vm.ci.code.BytecodeFrame;
+import jdk.vm.ci.hotspot.HotSpotCodeCacheProvider;
+import jdk.vm.ci.meta.JavaKind;
+import jdk.vm.ci.meta.JavaValue;
+import jdk.vm.ci.meta.ResolvedJavaMethod;
+import org.junit.Assert;
+import org.junit.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @requires vm.jvmci
@@ -35,15 +59,7 @@
  * @run junit/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler jdk.vm.ci.code.test.InterpreterFrameSizeTest
  */
 
-package jdk.vm.ci.code.test;
 
-import jdk.vm.ci.code.BytecodeFrame;
-import jdk.vm.ci.hotspot.HotSpotCodeCacheProvider;
-import jdk.vm.ci.meta.JavaKind;
-import jdk.vm.ci.meta.JavaValue;
-import jdk.vm.ci.meta.ResolvedJavaMethod;
-import org.junit.Assert;
-import org.junit.Test;
 
 public class InterpreterFrameSizeTest extends CodeInstallationTest {
 

@@ -21,12 +21,25 @@
 
 package nsk.jdwp.StringReference.Value;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
-
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class value001 {
     static final int JCK_STATUS_BASE = 95;

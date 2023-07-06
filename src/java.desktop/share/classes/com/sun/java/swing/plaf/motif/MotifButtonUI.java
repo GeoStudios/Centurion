@@ -19,15 +19,15 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.motif;
+package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Insets;
-import java.awt.Rectangle;
-import java.awt.Shape;
 
+import java.desktop.share.classes.com.sun.java.awt.Color;
+import java.desktop.share.classes.com.sun.java.awt.Dimension;
+import java.desktop.share.classes.com.sun.java.awt.Graphics;
+import java.desktop.share.classes.com.sun.java.awt.Insets;
+import java.desktop.share.classes.com.sun.java.awt.Rectangle;
+import java.desktop.share.classes.com.sun.java.awt.Shape;
 import javax.swing.AbstractButton;
 import javax.swing.JComponent;
 import javax.swing.LookAndFeel;
@@ -35,10 +35,23 @@ import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.border.AbstractBorder;
 import javax.swing.plaf.ComponentUI;
-import javax.swing.plaf.basic.BasicButtonListener;
+import javax.swing.plaf.basic.BasicButtonjava.util.Listener;
 import javax.swing.plaf.basic.BasicButtonUI;
+import java.desktop.share.classes.com.sun.awt.AppContext;
 
-import sun.awt.AppContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * MotifButton implementation

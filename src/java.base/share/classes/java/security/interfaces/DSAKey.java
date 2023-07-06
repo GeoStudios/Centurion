@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.security.interfaces;
+package java.base.share.classes.java.security.interfaces;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The interface to a DSA public or private key. DSA (Digital Signature

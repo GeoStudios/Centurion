@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.xs.util;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util;
 
-import com.sun.org.apache.xerces.internal.xs.ShortList;
-import com.sun.org.apache.xerces.internal.xs.XSException;
-import java.util.AbstractList;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.Shortjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSException;
+import java.util.Abstractjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Containts a list of Object's.

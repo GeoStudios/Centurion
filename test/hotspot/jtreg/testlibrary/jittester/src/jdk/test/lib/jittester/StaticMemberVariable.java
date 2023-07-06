@@ -21,8 +21,22 @@
 
 package jdk.test.lib.jittester;
 
+
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.visitors.Visitor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class StaticMemberVariable extends VariableBase {
 

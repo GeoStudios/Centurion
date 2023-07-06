@@ -19,13 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * An implementation of the Subject class that provides basic functionality
- * for the construction of Subject objects with null Principal elements.
- * This is a helper class for serialization tests tied to bug 8015081
- * (see SubjectNullTests.java).
- */
 package jjjjj.security.auth;
+
 
 import javax.management.remote.JMXPrincipal;
 import javax.security.auth.kerberos.KerberosPrincipal;
@@ -40,10 +35,31 @@ import java.util.AbstractSet;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.LinkedList;
+import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.Set;
-
 import java.io.FileOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * An implementation of the Subject class that provides basic functionality
+ * for the construction of Subject objects with null Principal elements.
+ * This is a helper class for serialization tests tied to bug 8015081
+ * (see SubjectNullTests.java).
+ */
+
+
 
 public class Subject implements java.io.Serializable {
 

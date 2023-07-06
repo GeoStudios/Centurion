@@ -19,20 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-// created: 2018may04 Markus W. Scherer
+package java.base.share.classes.jdk.internal.icu.util;
 
-package jdk.internal.icu.util;
 
-import jdk.internal.icu.impl.ICUBinary;
-
+import java.base.share.classes.jdk.internal.icu.impl.ICUBinary;
 import java.io.DataOutputStream;
-import java.io.IOException;
-import java.io.UncheckedIOException;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
+import static java.base.share.classes.jdk.internal.icu.impl.NormalizerImpl.UTF16Plus;.extended
 
-import static jdk.internal.icu.impl.NormalizerImpl.UTF16Plus;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// created: 2018may04 Markus W. Scherer
+
+
+
+
+
 
 /**
  * Immutable Unicode code point trie.

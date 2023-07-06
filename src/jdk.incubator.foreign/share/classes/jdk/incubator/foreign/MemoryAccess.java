@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.incubator.foreign;
+package jdk.incubator.foreign.share.classes.jdk.incubator.foreign;
 
-import jdk.internal.access.foreign.MemorySegmentProxy;
-import jdk.internal.vm.annotation.ForceInline;
 
+import jdk.incubator.foreign.share.classes.jdk.internal.access.foreign.MemorySegmentProxy;
+import jdk.incubator.foreign.share.classes.jdk.internal.vm.annotation.ForceInline;
 import java.lang.invoke.VarHandle;
 import java.nio.ByteOrder;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class defines ready-made static accessors which can be used to dereference memory segments in many ways.

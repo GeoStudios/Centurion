@@ -21,14 +21,12 @@
 
 package vm.runtime.defmeth.shared.builder;
 
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.util.*;
-
 import nsk.share.Pair;
-
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
-
+import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
 import nsk.share.TestFailure;
 import vm.runtime.defmeth.shared.ClassFileGenerator;
 import vm.runtime.defmeth.shared.Constants;
@@ -42,13 +40,25 @@ import vm.runtime.defmeth.shared.Printer;
 import vm.runtime.defmeth.shared.executor.ReflectionTest;
 import vm.runtime.defmeth.shared.executor.TestExecutor;
 import vm.runtime.defmeth.shared.Util;
-
 import vm.runtime.defmeth.shared.data.Clazz;
 import vm.runtime.defmeth.shared.data.ConcreteClass;
 import vm.runtime.defmeth.shared.data.ConcreteClassLazyAdapter;
 import vm.runtime.defmeth.shared.data.Interface;
 import vm.runtime.defmeth.shared.data.InterfaceLazyAdapter;
 import vm.runtime.defmeth.shared.data.Tester;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Builder for test cases.

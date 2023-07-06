@@ -18,13 +18,14 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.astro;
 
-import static jaxp.library.JAXPTestUtilities.filenameToURL;
-import static jaxp.library.JAXPTestUtilities.USER_DIR;
-import static org.w3c.dom.ls.DOMImplementationLS.MODE_SYNCHRONOUS;
-import static org.w3c.dom.traversal.NodeFilter.SHOW_ELEMENT;
 
+import static jaxp.library.JAXPTestUtilities.filenameToURL;.extended
+import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
+import static org.w3c.dom.ls.DOMImplementationLS.MODE_SYNCHRONOUS;.extended
+import static org.w3c.dom.traversal.NodeFilter.SHOW_ELEMENT;.extended
 import java.io.ByteArrayInputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -32,10 +33,8 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-
 import org.w3c.dom.DOMConfiguration;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -47,6 +46,19 @@ import org.w3c.dom.ls.LSParserFilter;
 import org.w3c.dom.ls.LSSerializer;
 import org.w3c.dom.ls.LSSerializerFilter;
 import org.xml.sax.InputSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * A specialized implementation of an Input Source factory that utilizes

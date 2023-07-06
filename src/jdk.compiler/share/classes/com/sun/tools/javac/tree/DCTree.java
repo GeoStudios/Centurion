@@ -19,26 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.tree;
+package jdk.compiler.share.classes.com.sun.tools.javac.tree;
+
 
 import javax.tools.Diagnostic;
-
-import com.sun.source.doctree.*;
-import com.sun.tools.javac.parser.Tokens.Comment;
-import com.sun.tools.javac.util.Assert;
-import com.sun.tools.javac.util.DefinedBy;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.DiagnosticSource;
-import com.sun.tools.javac.util.JCDiagnostic;
-import com.sun.tools.javac.util.JCDiagnostic.SimpleDiagnosticPosition;
-import com.sun.tools.javac.util.Position;
-
-import java.io.IOException;
+import jdk.compiler.share.classes.com.sun.source.doctree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.Comment;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DiagnosticSource;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.SimpleDiagnosticPosition;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Position;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.StringWriter;
-import java.util.List;
-
+import java.util.java.util.java.util.java.util.List;
 import javax.lang.model.element.Name;
 import javax.tools.JavaFileObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p><b>This is NOT part of any supported API.

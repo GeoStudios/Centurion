@@ -18,13 +18,15 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.tools.jlink.internal;
+
+package jdk.jlink.share.classes.jdk.tools.jlink.internal;
+
 
 import java.io.BufferedInputStream;
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
-import java.io.UncheckedIOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.lang.module.Configuration;
 import java.lang.module.FindException;
 import java.lang.module.ModuleDescriptor;
@@ -40,33 +42,46 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.TaskHelper.BadArgs;
+import static jdk.jlink.share.classes.jdk.tools.jlink.internal.TaskHelper.JLINK_BUNDLE;.extended
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.Jlink.JlinkConfiguration;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.Jlink.PluginsConfiguration;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.TaskHelper.Option;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.TaskHelper.OptionsHelper;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.ImagePluginStack.ImageProvider;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.PluginException;
+import jdk.jlink.share.classes.jdk.tools.jlink.builder.DefaultImageBuilder;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.Plugin;
+import jdk.jlink.share.classes.jdk.internal.module.ModulePath;
+import jdk.jlink.share.classes.jdk.internal.module.ModuleResolution;
 
-import jdk.tools.jlink.internal.TaskHelper.BadArgs;
-import static jdk.tools.jlink.internal.TaskHelper.JLINK_BUNDLE;
-import jdk.tools.jlink.internal.Jlink.JlinkConfiguration;
-import jdk.tools.jlink.internal.Jlink.PluginsConfiguration;
-import jdk.tools.jlink.internal.TaskHelper.Option;
-import jdk.tools.jlink.internal.TaskHelper.OptionsHelper;
-import jdk.tools.jlink.internal.ImagePluginStack.ImageProvider;
-import jdk.tools.jlink.plugin.PluginException;
-import jdk.tools.jlink.builder.DefaultImageBuilder;
-import jdk.tools.jlink.plugin.Plugin;
-import jdk.internal.module.ModulePath;
-import jdk.internal.module.ModuleResolution;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation for the jlink tool.

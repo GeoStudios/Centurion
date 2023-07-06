@@ -18,6 +18,7 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.bench.jdk.incubator.foreign;
 
 
@@ -32,13 +33,24 @@ import org.openjdk.jmh.annotations.State;
 import org.openjdk.jmh.annotations.TearDown;
 import org.openjdk.jmh.annotations.Warmup;
 import sun.misc.Unsafe;
-
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
 import java.util.concurrent.TimeUnit;
+import static jdk.incubator.foreign.MemoryLayouts.JAVA_INT;.extended
 
-import static jdk.incubator.foreign.MemoryLayouts.JAVA_INT;
+
+
+
+
+
+
+
+
+
+
+
+
 
 @BenchmarkMode(Mode.AverageTime)
 @Warmup(iterations = 5, time = 500, timeUnit = TimeUnit.MILLISECONDS)

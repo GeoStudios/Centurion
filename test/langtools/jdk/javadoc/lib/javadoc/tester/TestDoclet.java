@@ -21,13 +21,26 @@
 
 package javadoc.tester;
 
-import java.util.Locale;
+
+import java.base.share.classes.java.util.Locale;
 import java.util.Set;
 import javax.lang.model.SourceVersion;
-
 import jdk.javadoc.doclet.Doclet;
 import jdk.javadoc.doclet.DocletEnvironment;
 import jdk.javadoc.doclet.Reporter;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A minimal base class for test doclets.

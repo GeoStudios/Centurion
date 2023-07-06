@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.url.ldap;
+package java.naming.share.classes.com.sun.jndi.url.ldap;
+
 
 import java.util.Hashtable;
 import javax.naming.*;
 import javax.naming.directory.DirContext;
 import javax.naming.spi.*;
-import com.sun.jndi.ldap.LdapCtx;
-import com.sun.jndi.ldap.LdapCtxFactory;
-import com.sun.jndi.ldap.LdapURL;
+import java.naming.share.classes.com.sun.jndi.ldap.LdapCtx;
+import java.naming.share.classes.com.sun.jndi.ldap.LdapCtxFactory;
+import java.naming.share.classes.com.sun.jndi.ldap.LdapURL;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An LDAP URL context factory.

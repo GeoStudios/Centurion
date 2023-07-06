@@ -19,29 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
 
-import com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
-import com.sun.org.apache.xerces.internal.util.XMLAttributesImpl;
-import com.sun.org.apache.xerces.internal.util.XMLChar;
-import com.sun.org.apache.xerces.internal.util.XMLStringBuffer;
-import com.sun.org.apache.xerces.internal.utils.XMLLimitAnalyzer;
-import com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
-import com.sun.org.apache.xerces.internal.xni.XMLDTDContentModelHandler;
-import com.sun.org.apache.xerces.internal.xni.XMLDTDHandler;
-import com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
-import com.sun.org.apache.xerces.internal.xni.XMLString;
-import com.sun.org.apache.xerces.internal.xni.XNIException;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponent;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLDTDScanner;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
-import com.sun.org.apache.xerces.internal.xni.Augmentations;
-import com.sun.xml.internal.stream.dtd.nonvalidating.DTDGrammar;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLAttributesImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLStringBuffer;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLLimitAnalyzer;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDTDContentModelHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDTDHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLString;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponent;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDTDScanner;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.Augmentations;
+import java.xml.share.classes.com.sun.xml.internal.stream.dtd.nonvalidating.DTDGrammar;
 import java.io.EOFException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is responsible for scanning the declarations found

@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.tools.keytool;
+package java.base.share.classes.sun.security.tools.keytool;
 
-import javax.net.ssl.SSLContext;
-import javax.net.ssl.SSLSocket;
+
+import javax.net.ssl.javax.net.ssl.javax.net.ssl.javax.net.ssl.SSLContext;
+import javax.net.ssl.SSLjava.net.java.net.java.net.Socket;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class ShowInfo {
 

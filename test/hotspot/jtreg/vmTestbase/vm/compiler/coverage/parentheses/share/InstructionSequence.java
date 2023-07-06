@@ -18,10 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package vm.compiler.coverage.parentheses.share;
 
+
 import java.io.*;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class InstructionSequence implements Serializable {
 

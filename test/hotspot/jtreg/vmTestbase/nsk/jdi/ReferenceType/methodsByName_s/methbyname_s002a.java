@@ -21,10 +21,23 @@
 
 package nsk.jdi.ReferenceType.methodsByName_s;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

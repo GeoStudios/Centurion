@@ -21,5 +21,20 @@
 
 package javax.tools.internal;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Helper {
 }

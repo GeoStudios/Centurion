@@ -19,18 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.*;
-
 import javax.swing.*;
 import javax.swing.plaf.*;
 import javax.swing.plaf.basic.*;
-
 import sun.swing.SwingUtilities2;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingletonFromDefaultConstructor;
 
-import com.apple.laf.AquaUtils.RecyclableSingleton;
-import com.apple.laf.AquaUtils.RecyclableSingletonFromDefaultConstructor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaLabelUI extends BasicLabelUI {
     private static final RecyclableSingleton<AquaLabelUI> aquaLabelUI = new RecyclableSingletonFromDefaultConstructor<AquaLabelUI>(AquaLabelUI.class);

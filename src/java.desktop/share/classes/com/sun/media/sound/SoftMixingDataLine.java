@@ -19,13 +19,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.media.sound;
+package java.desktop.share.classes.com.sun.media.sound;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.BooleanControl;
@@ -34,7 +34,21 @@ import javax.sound.sampled.Control.Type;
 import javax.sound.sampled.DataLine;
 import javax.sound.sampled.FloatControl;
 import javax.sound.sampled.LineEvent;
-import javax.sound.sampled.LineListener;
+import javax.sound.sampled.Linejava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * General software mixing line.

@@ -19,26 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.modelmbean;
+package java.management.share.classes.javax.management.modelmbean;
 
-import static com.sun.jmx.defaults.JmxProperties.MODELMBEAN_LOGGER;
+
+import static com.sun.jmx.defaults.JmxProperties.MODELMBEAN_LOGGER;.extended
 import com.sun.jmx.mbeanserver.GetPropertyAction;
-
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.ObjectStreamField;
 import java.security.AccessController;
 import java.lang.System.Logger.Level;
+import java.management.share.classes.javax.management.Descriptor;
+import java.management.share.classes.javax.management.MBeanAttributeInfo;
+import java.management.share.classes.javax.management.MBeanConstructorInfo;
+import java.management.share.classes.javax.management.MBeanException;
+import java.management.share.classes.javax.management.MBeanInfo;
+import java.management.share.classes.javax.management.MBeanNotificationInfo;
+import java.management.share.classes.javax.management.MBeanOperationInfo;
+import java.management.share.classes.javax.management.RuntimeOperationsException;
 
-import javax.management.Descriptor;
-import javax.management.MBeanAttributeInfo;
-import javax.management.MBeanConstructorInfo;
-import javax.management.MBeanException;
-import javax.management.MBeanInfo;
-import javax.management.MBeanNotificationInfo;
-import javax.management.MBeanOperationInfo;
-import javax.management.RuntimeOperationsException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents the meta data for ModelMBeans.  Descriptors have been

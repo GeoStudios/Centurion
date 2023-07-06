@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jvmti.IterateThroughHeap.abort;
+
+
+import java.io.PrintStream;
+import nsk.share.*;
+import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -34,12 +54,8 @@
  * @run main/othervm/native -agentlib:Abort=-waittime=5 nsk.jvmti.IterateThroughHeap.abort.Abort
  */
 
-package nsk.jvmti.IterateThroughHeap.abort;
 
-import java.io.PrintStream;
 
-import nsk.share.*;
-import nsk.share.jvmti.*;
 
 public class Abort extends DebugeeClass {
 

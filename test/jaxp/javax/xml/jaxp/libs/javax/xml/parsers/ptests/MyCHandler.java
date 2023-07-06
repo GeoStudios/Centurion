@@ -18,17 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package javax.xml.parsers.ptests;
+
 
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
-import java.io.IOException;
-import static jaxp.library.JAXPTestUtilities.ERROR_MSG_HEADER;
+import java.io.java.io.java.io.java.io.IOException;
+import static jaxp.library.JAXPTestUtilities.ERROR_MSG_HEADER;.extended
 import org.xml.sax.Attributes;
 import org.xml.sax.Locator;
 import org.xml.sax.helpers.DefaultHandler;
 import org.xml.sax.helpers.LocatorImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Customized DefaultHandler which writes output document when methods are

@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.cs;
+package java.base.share.classes.sun.nio.cs;
+
 
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.BufferedReader;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.*;
-import java.security.*;
+import java.base.share.classes.java.security.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CharsetMapping {
     public static final char UNMAPPABLE_DECODING = '\uFFFD';

@@ -18,11 +18,13 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package catalog;
+
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.StringReader;
 import java.io.StringWriter;
@@ -50,12 +52,12 @@ import javax.xml.transform.stream.StreamSource;
 import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;
 import javax.xml.validation.Validator;
-import static jaxp.library.JAXPTestUtilities.clearSystemProperty;
-import static jaxp.library.JAXPTestUtilities.setSystemProperty;
+import static jaxp.library.JAXPTestUtilities.clearSystemProperty;.extended
+import static jaxp.library.JAXPTestUtilities.setSystemProperty;.extended
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.Attributes;
 import org.xml.sax.ErrorHandler;
@@ -63,6 +65,19 @@ import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.ext.DefaultHandler2;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

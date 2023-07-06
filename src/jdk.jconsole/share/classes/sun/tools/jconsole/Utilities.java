@@ -19,18 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole;
+package jdk.jconsole.share.classes.sun.tools.jconsole;
+
 
 import java.awt.*;
-
 import javax.accessibility.*;
 import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.tree.*;
+import jdk.jconsole.share.classes.sun.tools.jconsole.inspector.*;
+import static java.lang.Math.*;.extended
 
-import sun.tools.jconsole.inspector.*;
 
-import static java.lang.Math.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Miscellaneous utility methods for JConsole

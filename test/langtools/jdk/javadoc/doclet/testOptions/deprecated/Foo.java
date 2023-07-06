@@ -21,7 +21,21 @@
 
 package deprecated;
 
+
 import pkg.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @Deprecated
 public class Foo {}

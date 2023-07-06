@@ -19,34 +19,47 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
-import java.io.IOException;
-import java.security.Key;
-import java.security.PrivateKey;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.security.Key;
+import java.base.share.classes.java.security.PrivateKey;
 import java.security.Provider;
-import java.security.KeyFactory;
+import java.base.share.classes.java.security.KeyFactory;
 import java.security.MessageDigest;
 import java.security.GeneralSecurityException;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.UnrecoverableKeyException;
 import java.security.AlgorithmParameters;
 import java.security.spec.InvalidParameterSpecException;
-import java.security.spec.PKCS8EncodedKeySpec;
-import java.util.Arrays;
-
-import javax.crypto.Cipher;
+import java.base.share.classes.java.security.spec.PKCS8EncodedKeySpec;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.javax.crypto.Cipher;
 import javax.crypto.CipherSpi;
-import javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.SecretKey;
 import javax.crypto.SealedObject;
-import javax.crypto.spec.*;
+import java.base.share.classes.javax.crypto.spec.*;
 import javax.security.auth.DestroyFailedException;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.com.sun.security.x509.AlgorithmId;
+import java.base.share.classes.com.sun.security.util.ObjectIdentifier;
+import java.base.share.classes.com.sun.security.util.KnownOIDs;
+import java.base.share.classes.com.sun.security.util.SecurityProperties;
 
-import jdk.internal.access.SharedSecrets;
-import sun.security.x509.AlgorithmId;
-import sun.security.util.ObjectIdentifier;
-import sun.security.util.KnownOIDs;
-import sun.security.util.SecurityProperties;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements a protection mechanism for private keys. In JCE, we

@@ -20,6 +20,22 @@
  */
 
 package pkg;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public abstract class Abstract {
     /**
      * @throws java.lang.NullPointerException this should appear

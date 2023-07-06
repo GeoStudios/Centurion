@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot;
+
 
 import java.io.*;
 import java.util.*;
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.types.*;
-import sun.jvm.hotspot.types.basic.*;
-import sun.jvm.hotspot.utilities.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.basic.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** <P> This is the cross-platform TypeDataBase used by the Oop
     hierarchy. The decision was made to make this cross-platform by

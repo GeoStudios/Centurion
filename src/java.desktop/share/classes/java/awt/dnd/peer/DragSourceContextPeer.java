@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.dnd.peer;
+package java.desktop.share.classes.java.awt.dnd.peer;
 
-import java.awt.Cursor;
-import java.awt.Image;
-import java.awt.Point;
-import java.awt.dnd.DragSourceContext;
-import java.awt.dnd.InvalidDnDOperationException;
+
+import java.desktop.share.classes.java.awt.Cursor;
+import java.desktop.share.classes.java.awt.Image;
+import java.desktop.share.classes.java.awt.Point;
+import java.desktop.share.classes.java.awt.dnd.DragSourceContext;
+import java.desktop.share.classes.java.awt.dnd.InvalidDnDOperationException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

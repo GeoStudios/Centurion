@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.validation;
+package java.xml.share.classes.javax.xml.validation;
+
 
 import org.w3c.dom.TypeInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides access to the type information determined

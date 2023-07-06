@@ -18,10 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package nsk.jvmti.scenarios.hotswap.HS204.hs204t004;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
    A dummy class loader for keeping a break point at loadClass method of this class.
 */
-package nsk.jvmti.scenarios.hotswap.HS204.hs204t004;
 public class MyClassLoader extends ClassLoader {
         public String name;
     public MyClassLoader(ClassLoader loader) {

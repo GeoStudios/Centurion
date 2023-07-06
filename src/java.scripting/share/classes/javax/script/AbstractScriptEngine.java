@@ -19,8 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.script;
+package java.scripting.share.classes.javax.script;
+
+
 import java.io.Reader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides a standard implementation for several of the variants of the <code>eval</code>

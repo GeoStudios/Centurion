@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.model;
+package jdk.compiler.share.classes.com.sun.tools.javac.model;
 
-import java.util.Arrays;
+
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -30,48 +31,60 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
-
 import javax.lang.model.AnnotatedConstruct;
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.*;
 import javax.lang.model.type.DeclaredType;
 import javax.lang.model.util.Elements;
 import javax.tools.JavaFileObject;
-import static javax.lang.model.util.ElementFilter.methodsIn;
+import static javax.lang.model.util.ElementFilter.methodsIn;.extended
+import jdk.compiler.share.classes.com.sun.source.util.JavacTask;
+import jdk.compiler.share.classes.com.sun.tools.javac.api.JavacTaskImpl;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Attribute.Compound;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Directive.ExportsDirective;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Directive.ExportsFlag;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Directive.OpensDirective;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Directive.OpensFlag;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Directive.RequiresDirective;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Directive.RequiresFlag;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.WriteableScope;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Source.Feature;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.AttrContext;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Enter;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Env;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.JavaCompiler;
+import jdk.compiler.share.classes.com.sun.tools.javac.processing.PrintingProcessor;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeInfo;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeScanner;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Name;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.CLASS;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Modules;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Resolve;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Resolve.RecoveryLoadClass;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Notes;
+import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.*;.extended
 
-import com.sun.source.util.JavacTask;
-import com.sun.tools.javac.api.JavacTaskImpl;
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.Attribute.Compound;
-import com.sun.tools.javac.code.Directive.ExportsDirective;
-import com.sun.tools.javac.code.Directive.ExportsFlag;
-import com.sun.tools.javac.code.Directive.OpensDirective;
-import com.sun.tools.javac.code.Directive.OpensFlag;
-import com.sun.tools.javac.code.Directive.RequiresDirective;
-import com.sun.tools.javac.code.Directive.RequiresFlag;
-import com.sun.tools.javac.code.Scope.WriteableScope;
-import com.sun.tools.javac.code.Source.Feature;
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.comp.AttrContext;
-import com.sun.tools.javac.comp.Enter;
-import com.sun.tools.javac.comp.Env;
-import com.sun.tools.javac.main.JavaCompiler;
-import com.sun.tools.javac.processing.PrintingProcessor;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.JCTree.*;
-import com.sun.tools.javac.tree.TreeInfo;
-import com.sun.tools.javac.tree.TreeScanner;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.Name;
-import static com.sun.tools.javac.code.Kinds.Kind.*;
-import static com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;
-import static com.sun.tools.javac.code.TypeTag.CLASS;
-import com.sun.tools.javac.comp.Modules;
-import com.sun.tools.javac.comp.Resolve;
-import com.sun.tools.javac.comp.Resolve.RecoveryLoadClass;
-import com.sun.tools.javac.resources.CompilerProperties.Notes;
-import static com.sun.tools.javac.tree.JCTree.Tag.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility methods for operating on program elements.

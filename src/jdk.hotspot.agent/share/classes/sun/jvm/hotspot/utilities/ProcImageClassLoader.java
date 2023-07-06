@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.utilities;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
+
 
 import java.io.*;
-import sun.jvm.hotspot.oops.*;
-import sun.jvm.hotspot.tools.jcore.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.jcore.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
    Class loader that loads classes from the process/core image

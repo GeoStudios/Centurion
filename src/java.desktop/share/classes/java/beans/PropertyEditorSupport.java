@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.beans;
+package java.desktop.share.classes.java.beans;
 
-import java.beans.*;
+
+import java.desktop.share.classes.java.beans.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is a support class to help build property editors.

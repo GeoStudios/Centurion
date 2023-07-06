@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.dtd;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd;
 
-import com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription;
 import java.util.HashMap;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This very simple class is the skeleton of what the DTDValidator could use

@@ -18,12 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package vm.gc.containers;
+
 
 import nsk.share.TestBug;
 import nsk.share.gc.gp.GarbageProducer;
 import nsk.share.gc.gp.GarbageUtils;
 import nsk.share.gc.gp.MemoryStrategy;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  This is a description which is parsed from command-line string.

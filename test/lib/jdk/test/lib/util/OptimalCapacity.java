@@ -21,10 +21,24 @@
 
 package jdk.test.lib.util;
 
+
 import java.lang.reflect.Field;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.IdentityHashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility functions to check that the static storages are pre-sized

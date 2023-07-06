@@ -19,23 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.print;
+package java.desktop.share.classes.javax.print;
+
 
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsEnvironment;
 import java.awt.HeadlessException;
 import java.awt.Rectangle;
 import java.awt.Window;
-
-import javax.print.attribute.Attribute;
-import javax.print.attribute.AttributeSet;
-import javax.print.attribute.standard.DialogOwner;
-import javax.print.attribute.PrintRequestAttributeSet;
-import javax.print.attribute.standard.Destination;
-import javax.print.attribute.standard.Fidelity;
-
+import java.desktop.share.classes.javax.print.attribute.Attribute;
+import java.desktop.share.classes.javax.print.attribute.AttributeSet;
+import java.desktop.share.classes.javax.print.attribute.standard.DialogOwner;
+import java.desktop.share.classes.javax.print.attribute.PrintRequestAttributeSet;
+import java.desktop.share.classes.javax.print.attribute.standard.Destination;
+import java.desktop.share.classes.javax.print.attribute.standard.Fidelity;
 import sun.print.ServiceDialog;
 import sun.print.SunAlternateMedia;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is a collection of UI convenience methods which provide a

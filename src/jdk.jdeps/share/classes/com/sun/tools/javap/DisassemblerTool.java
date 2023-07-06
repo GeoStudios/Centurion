@@ -19,20 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javap; //javax.tools;
+package jdk.jdeps.share.classes.com.sun.tools.javap;
+
 
 import java.io.Writer;
 import java.nio.charset.Charset;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.concurrent.Callable;
 import javax.tools.Diagnostic;
-import javax.tools.DiagnosticListener;
+import javax.tools.Diagnosticjava.util.Listener;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileObject;
 import javax.tools.OptionChecker;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.StandardLocation;
 import javax.tools.Tool;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is intended to be put in javax.tools.

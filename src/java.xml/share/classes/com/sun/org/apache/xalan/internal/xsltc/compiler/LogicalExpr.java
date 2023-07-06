@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.compiler;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-import com.sun.org.apache.bcel.internal.generic.GOTO;
-import com.sun.org.apache.bcel.internal.generic.InstructionHandle;
-import com.sun.org.apache.bcel.internal.generic.InstructionList;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ClassGenerator;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.MethodGenerator;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.MethodType;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.TypeCheckError;
+
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.GOTO;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.InstructionHandle;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Instructionjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ClassGenerator;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.MethodGenerator;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.MethodType;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.TypeCheckError;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @LastModified: Nov 2017

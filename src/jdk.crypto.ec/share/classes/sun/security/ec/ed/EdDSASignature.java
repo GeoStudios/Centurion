@@ -19,19 +19,19 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ec.ed;
+package jdk.crypto.ec.share.classes.sun.security.ec.ed;
 
-import sun.security.ec.point.AffinePoint;
 
+import jdk.crypto.ec.share.classes.sun.security.ec.point.AffinePoint;
 import java.io.ByteArrayOutputStream;
 import java.security.AlgorithmParameters;
 import java.security.InvalidAlgorithmParameterException;
-import java.security.InvalidKeyException;
+import java.base.share.classes.java.security.InvalidKeyException;
 import java.security.InvalidParameterException;
-import java.security.NoSuchAlgorithmException;
-import java.security.PrivateKey;
-import java.security.ProviderException;
-import java.security.PublicKey;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.PrivateKey;
+import java.base.share.classes.java.security.ProviderException;
+import java.base.share.classes.java.security.PublicKey;
 import java.security.SecureRandom;
 import java.security.SignatureException;
 import java.security.SignatureSpi;
@@ -41,6 +41,20 @@ import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.EdDSAParameterSpec;
 import java.security.spec.NamedParameterSpec;
 import java.util.function.Function;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class EdDSASignature extends SignatureSpi {
 

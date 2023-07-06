@@ -18,7 +18,24 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.foreign.abi.x64.sysv;
+
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.x64.sysv;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public enum ArgumentClassImpl {
     POINTER, INTEGER, SSE, SSEUP, X87, X87UP, COMPLEX_X87, NO_CLASS, MEMORY;

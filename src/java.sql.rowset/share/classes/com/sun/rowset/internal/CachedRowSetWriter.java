@@ -19,15 +19,15 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.rowset.internal;
+package java.sql.rowset.share.classes.com.sun.rowset.internal;
+
 
 import java.sql.*;
 import javax.sql.*;
 import java.util.*;
 import java.io.*;
-import sun.reflect.misc.ReflectUtil;
-
-import com.sun.rowset.*;
+import java.sql.rowset.share.classes.com.sun.reflect.misc.ReflectUtil;
+import java.sql.rowset.share.classes.com.sun.rowset.*;
 import java.text.MessageFormat;
 import javax.sql.rowset.*;
 import javax.sql.rowset.serial.SQLInputImpl;
@@ -36,6 +36,19 @@ import javax.sql.rowset.serial.SerialBlob;
 import javax.sql.rowset.serial.SerialClob;
 import javax.sql.rowset.serial.SerialStruct;
 import javax.sql.rowset.spi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

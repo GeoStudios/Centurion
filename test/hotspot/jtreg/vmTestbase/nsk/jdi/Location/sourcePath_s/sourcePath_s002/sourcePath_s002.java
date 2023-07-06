@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.Location.sourcePath_s.sourcePath_s002;
+
+
+import java.io.*;
+import java.util.*;
+import com.sun.jdi.*;
+import nsk.share.Consts;
+import nsk.share.jdi.sde.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -62,13 +84,7 @@
  *      -testWorkDir .
  */
 
-package nsk.jdi.Location.sourcePath_s.sourcePath_s002;
 
-import java.io.*;
-import java.util.*;
-import com.sun.jdi.*;
-import nsk.share.Consts;
-import nsk.share.jdi.sde.*;
 
 public class sourcePath_s002 extends SDEDebugger {
     public static void main(String argv[]) {

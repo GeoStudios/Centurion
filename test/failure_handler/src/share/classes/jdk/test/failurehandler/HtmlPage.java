@@ -21,8 +21,22 @@
 
 package jdk.test.failurehandler;
 
+
 import java.io.PrintWriter;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class HtmlPage implements AutoCloseable {
     private final PrintWriter writer;

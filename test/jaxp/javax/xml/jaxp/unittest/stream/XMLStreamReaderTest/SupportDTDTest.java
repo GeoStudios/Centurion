@@ -21,11 +21,11 @@
 
 package stream.XMLStreamReaderTest;
 
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.StringReader;
-import java.util.List;
-
+import java.util.java.util.java.util.java.util.List;
 import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamConstants;
@@ -34,10 +34,22 @@ import javax.xml.stream.events.DTD;
 import javax.xml.stream.events.EntityDeclaration;
 import javax.xml.stream.events.EntityReference;
 import javax.xml.stream.events.XMLEvent;
-
 import org.testng.Assert;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.ThreadReference.forceEarlyReturn.forceEarlyReturn003;
+
+
+import java.io.PrintStream;
+import com.sun.jdi.IncompatibleThreadStateException;
+import com.sun.jdi.ThreadReference;
+import nsk.share.Consts;
+import nsk.share.jdi.*;
+import nsk.share.jpda.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -53,14 +76,7 @@
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
 
-package nsk.jdi.ThreadReference.forceEarlyReturn.forceEarlyReturn003;
 
-import java.io.PrintStream;
-import com.sun.jdi.IncompatibleThreadStateException;
-import com.sun.jdi.ThreadReference;
-import nsk.share.Consts;
-import nsk.share.jdi.*;
-import nsk.share.jpda.*;
 
 public class forceEarlyReturn003 extends ForceEarlyReturnDebugger {
     public static void main(String argv[]) {

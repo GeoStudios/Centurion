@@ -18,18 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.terminal.impl;
 
-import jdk.internal.org.jline.terminal.Cursor;
-import jdk.internal.org.jline.terminal.Terminal;
-import jdk.internal.org.jline.utils.Curses;
-import jdk.internal.org.jline.utils.InfoCmp;
+package jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl;
 
+
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Cursor;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Terminal;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.Curses;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.InfoCmp;
 import java.io.IOError;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.function.IntConsumer;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CursorSupport {
 

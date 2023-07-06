@@ -18,29 +18,43 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.foreign;
 
-import jdk.incubator.foreign.MemoryHandles;
-import jdk.incubator.foreign.MemoryLayout;
-import jdk.incubator.foreign.MemorySegment;
-import jdk.internal.access.JavaLangInvokeAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.access.foreign.MemorySegmentProxy;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
 
-import jdk.incubator.foreign.GroupLayout;
-import jdk.incubator.foreign.SequenceLayout;
-import jdk.incubator.foreign.ValueLayout;
 
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryHandles;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryLayout;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
+import jdk.incubator.foreign.share.classes.jdk.internal.access.JavaLangInvokeAccess;
+import jdk.incubator.foreign.share.classes.jdk.internal.access.SharedSecrets;
+import jdk.incubator.foreign.share.classes.jdk.internal.access.foreign.MemorySegmentProxy;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.GroupLayout;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.SequenceLayout;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.ValueLayout;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import java.lang.invoke.VarHandle;
 import java.util.ArrayDeque;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Deque;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.function.ToLongFunction;
 import java.util.function.UnaryOperator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provide support for constructing layout paths; that is, starting from a root path (see {@link #rootPath(MemoryLayout, ToLongFunction)},

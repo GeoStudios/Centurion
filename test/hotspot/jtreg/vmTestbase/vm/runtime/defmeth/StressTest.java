@@ -19,6 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.runtime.defmeth;
+
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Random;
+import nsk.share.TestFailure;
+import nsk.share.test.StressOptions;
+import nsk.share.test.Stresser;
+import vm.runtime.defmeth.shared.Constants;
+import vm.runtime.defmeth.shared.DefMethTest;
+import vm.runtime.defmeth.shared.ExecutionMode;
+import vm.share.options.Option;
+import vm.share.options.OptionSupport;
+import vm.share.options.Options;
+import jdk.test.lib.Utils;
+import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
+import static vm.runtime.defmeth.shared.DefMethTest.MAX_MAJOR_VER;.extended
+import static vm.runtime.defmeth.shared.DefMethTest.MIN_MAJOR_VER;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -35,27 +69,9 @@
  *      -javaagent:retransform.jar
  *      vm.runtime.defmeth.StressTest
  */
-package vm.runtime.defmeth;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Random;
 
-import nsk.share.TestFailure;
-import nsk.share.test.StressOptions;
-import nsk.share.test.Stresser;
-import vm.runtime.defmeth.shared.Constants;
-import vm.runtime.defmeth.shared.DefMethTest;
-import vm.runtime.defmeth.shared.ExecutionMode;
-import vm.share.options.Option;
-import vm.share.options.OptionSupport;
-import vm.share.options.Options;
-import jdk.test.lib.Utils;
 
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
-import static vm.runtime.defmeth.shared.DefMethTest.MAX_MAJOR_VER;
-import static vm.runtime.defmeth.shared.DefMethTest.MIN_MAJOR_VER;
 
 /*
  * Stress test for default methods implementation.

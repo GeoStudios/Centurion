@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.toolkit.util;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Stores all constants for a Doclet.  Extend this class if you have doclet

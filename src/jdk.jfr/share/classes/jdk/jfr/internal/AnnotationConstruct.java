@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal;
+package jdk.jfr.share.classes.jdk.jfr.internal;
+
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import jdk.jfr.share.classes.jdk.jfr.AnnotationElement;
+import jdk.jfr.share.classes.jdk.jfr.Description;
+import jdk.jfr.share.classes.jdk.jfr.Label;
+import jdk.jfr.share.classes.jdk.jfr.Unsigned;
 
-import jdk.jfr.AnnotationElement;
-import jdk.jfr.Description;
-import jdk.jfr.Label;
-import jdk.jfr.Unsigned;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class AnnotationConstruct {
 

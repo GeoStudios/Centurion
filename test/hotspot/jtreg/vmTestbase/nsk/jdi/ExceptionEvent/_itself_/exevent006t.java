@@ -21,12 +21,24 @@
 
 package nsk.jdi.ExceptionEvent._itself_;
 
+
 import java.lang.reflect.Method;
 import java.lang.reflect.InvocationTargetException;
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class exevent006t {

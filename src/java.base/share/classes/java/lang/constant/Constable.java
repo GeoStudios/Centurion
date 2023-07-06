@@ -18,12 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang.constant;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodType;
-import java.lang.invoke.VarHandle;
-import java.util.Optional;
+package java.base.share.classes.java.lang.constant;
+
+
+import java.base.share.classes.java.lang.invoke.MethodHandle;
+import java.base.share.classes.java.lang.invoke.MethodType;
+import java.base.share.classes.java.lang.invoke.VarHandle;
+import java.base.share.classes.java.util.Optional;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a type which is <em>constable</em>.  A constable type is one whose

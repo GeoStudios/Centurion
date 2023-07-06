@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.x509;
+package java.base.share.classes.sun.security.x509;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.security.cert.CRLReason;
 import java.util.Enumeration;
+import java.base.share.classes.sun.security.util.*;
 
-import sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The reasonCode is a non-critical CRL entry extension that identifies

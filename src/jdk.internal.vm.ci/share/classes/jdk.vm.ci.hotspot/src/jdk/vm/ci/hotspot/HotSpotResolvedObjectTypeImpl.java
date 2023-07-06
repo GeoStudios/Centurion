@@ -18,39 +18,53 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.hotspot;
 
-import static java.util.Objects.requireNonNull;
-import static jdk.vm.ci.hotspot.CompilerToVM.compilerToVM;
-import static jdk.vm.ci.hotspot.HotSpotConstantPool.isSignaturePolymorphicHolder;
-import static jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.runtime;
-import static jdk.vm.ci.hotspot.HotSpotModifiers.jvmClassModifiers;
-import static jdk.vm.ci.hotspot.HotSpotVMConfig.config;
-import static jdk.vm.ci.hotspot.UnsafeAccess.UNSAFE;
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
 
+
+import static java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot.CompilerToVM.compilerToVM;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot.HotSpotConstantPool.isSignaturePolymorphicHolder;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.runtime;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot.HotSpotModifiers.jvmClassModifiers;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot.HotSpotVMConfig.config;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot.UnsafeAccess.UNSAFE;.extended
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 import java.nio.ByteOrder;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashMap;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.common.JVMCIError;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.Assumptions.AssumptionResult;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.Assumptions.ConcreteMethod;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.Assumptions.ConcreteSubtype;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.Assumptions.LeafType;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.Assumptions.NoFinalizableSubclass;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.Constant;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.JavaConstant;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.JavaKind;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.JavaType;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.ResolvedJavaField;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.ResolvedJavaMethod;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.ResolvedJavaType;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.UnresolvedJavaField;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.UnresolvedJavaType;
 
-import jdk.vm.ci.common.JVMCIError;
-import jdk.vm.ci.meta.Assumptions.AssumptionResult;
-import jdk.vm.ci.meta.Assumptions.ConcreteMethod;
-import jdk.vm.ci.meta.Assumptions.ConcreteSubtype;
-import jdk.vm.ci.meta.Assumptions.LeafType;
-import jdk.vm.ci.meta.Assumptions.NoFinalizableSubclass;
-import jdk.vm.ci.meta.Constant;
-import jdk.vm.ci.meta.JavaConstant;
-import jdk.vm.ci.meta.JavaKind;
-import jdk.vm.ci.meta.JavaType;
-import jdk.vm.ci.meta.ResolvedJavaField;
-import jdk.vm.ci.meta.ResolvedJavaMethod;
-import jdk.vm.ci.meta.ResolvedJavaType;
-import jdk.vm.ci.meta.UnresolvedJavaField;
-import jdk.vm.ci.meta.UnresolvedJavaType;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of {@link JavaType} for resolved non-primitive HotSpot classes. This class is not

@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.util;
+
+package utils.IdealGraphVisualizer.Util.src.main.java.com.sun.hotspot.igv.util;
+
 
 import org.netbeans.api.visual.action.WidgetAction;
 import org.netbeans.api.visual.widget.Widget;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

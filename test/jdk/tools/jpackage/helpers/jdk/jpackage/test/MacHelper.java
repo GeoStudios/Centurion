@@ -18,15 +18,17 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.jpackage.test;
 
+
 import java.io.ByteArrayInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.List;
-import java.util.ArrayList;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Set;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
@@ -42,7 +44,20 @@ import jdk.jpackage.test.Functional.ThrowingSupplier;
 import jdk.jpackage.test.PackageTest.PackageHandlers;
 import jdk.jpackage.internal.RetryExecutor;
 import org.xml.sax.SAXException;
-import org.w3c.dom.NodeList;
+import org.w3c.dom.Nodejava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MacHelper {
 

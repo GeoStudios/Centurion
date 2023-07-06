@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.osr;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestRangeCheck
  * @bug 8054883
@@ -26,7 +43,6 @@
  * @run main compiler.osr.TestRangeCheck
  */
 
-package compiler.osr;
 
 public class TestRangeCheck {
     public static void main(String args[]) {

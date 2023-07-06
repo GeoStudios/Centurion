@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
 
-import java.net.InetSocketAddress;
-import java.nio.channels.SocketChannel;
+
+import java.net.Inetjava.net.SocketAddress;
+import java.nio.channels.java.net.SocketChannel;
 import java.util.concurrent.CompletableFuture;
 import java.net.http.HttpHeaders;
 import java.util.function.Function;
-import jdk.internal.net.http.common.MinimalFuture;
-import jdk.internal.net.http.common.SSLTube;
-import jdk.internal.net.http.common.Utils;
-import static jdk.internal.net.http.common.Utils.ProxyHeaders;
+import java.net.http.share.classes.jdk.internal.net.http.common.MinimalFuture;
+import java.net.http.share.classes.jdk.internal.net.http.common.SSLTube;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.ProxyHeaders;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An SSL tunnel built on a Plain (CONNECT) TCP tunnel.

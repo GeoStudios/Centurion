@@ -21,7 +21,21 @@
 
 package jdk.jfr.api.consumer.streaming;
 
+
 import jdk.jfr.consumer.EventStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

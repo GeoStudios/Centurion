@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
 
 import java.awt.AWTError;
 import java.awt.AWTException;
@@ -53,7 +54,7 @@ import java.awt.TrayIcon;
 import java.awt.Window;
 import java.awt.datatransfer.Clipboard;
 import java.awt.dnd.DragGestureEvent;
-import java.awt.dnd.DragGestureListener;
+import java.awt.dnd.DragGesturejava.util.Listener;
 import java.awt.dnd.DragGestureRecognizer;
 import java.awt.dnd.DragSource;
 import java.awt.dnd.DropTarget;
@@ -86,36 +87,48 @@ import java.net.URL;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.HashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.MissingResourceException;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.ResourceBundle;
 import java.util.concurrent.Callable;
-
 import javax.swing.UIManager;
-
 import com.apple.laf.AquaMenuBarUI;
-import sun.awt.AWTAccessor;
-import sun.awt.AppContext;
-import sun.awt.CGraphicsDevice;
-import sun.awt.LightweightFrame;
-import sun.awt.PlatformGraphicsInfo;
-import sun.awt.SunToolkit;
-import sun.awt.datatransfer.DataTransferer;
-import sun.awt.dnd.SunDragSourceContextPeer;
-import sun.awt.util.ThreadGroupUtils;
-import sun.java2d.metal.MTLRenderQueue;
-import sun.java2d.opengl.OGLRenderQueue;
-import sun.lwawt.LWComponentPeer;
-import sun.lwawt.LWCursorManager;
-import sun.lwawt.LWToolkit;
-import sun.lwawt.LWWindowPeer;
-import sun.lwawt.LWWindowPeer.PeerType;
-import sun.lwawt.PlatformComponent;
-import sun.lwawt.PlatformDropTarget;
-import sun.lwawt.PlatformWindow;
-import sun.lwawt.SecurityWarningWindow;
+import java.desktop.macosx.classes.sun.awt.AWTAccessor;
+import java.desktop.macosx.classes.sun.awt.AppContext;
+import java.desktop.macosx.classes.sun.awt.CGraphicsDevice;
+import java.desktop.macosx.classes.sun.awt.LightweightFrame;
+import java.desktop.macosx.classes.sun.awt.PlatformGraphicsInfo;
+import java.desktop.macosx.classes.sun.awt.SunToolkit;
+import java.desktop.macosx.classes.sun.awt.datatransfer.DataTransferer;
+import java.desktop.macosx.classes.sun.awt.dnd.SunDragSourceContextPeer;
+import java.desktop.macosx.classes.sun.awt.util.ThreadGroupUtils;
+import java.desktop.macosx.classes.sun.java2d.metal.MTLRenderQueue;
+import java.desktop.macosx.classes.sun.java2d.opengl.OGLRenderQueue;
+import java.desktop.macosx.classes.sun.lwawt.LWComponentPeer;
+import java.desktop.macosx.classes.sun.lwawt.LWCursorManager;
+import java.desktop.macosx.classes.sun.lwawt.LWToolkit;
+import java.desktop.macosx.classes.sun.lwawt.LWWindowPeer;
+import java.desktop.macosx.classes.sun.lwawt.LWWindowPeer.PeerType;
+import java.desktop.macosx.classes.sun.lwawt.PlatformComponent;
+import java.desktop.macosx.classes.sun.lwawt.PlatformDropTarget;
+import java.desktop.macosx.classes.sun.lwawt.PlatformWindow;
+import java.desktop.macosx.classes.sun.lwawt.SecurityWarningWindow;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // JDK implementation class
 final class NamedCursor extends Cursor {

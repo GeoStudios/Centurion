@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.joptsimple;
+package jdk.internal.opt.share.classes.jdk.internal.joptsimple;
 
-import static jdk.internal.joptsimple.ParserRules.*;
+
+import static jdk.internal.opt.share.classes.jdk.internal.joptsimple.ParserRules.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstraction of parser state; mostly serves to model how a parser behaves depending on whether end-of-options

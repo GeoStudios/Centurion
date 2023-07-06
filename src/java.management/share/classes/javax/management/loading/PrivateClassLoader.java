@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.loading;
+package java.management.share.classes.javax.management.loading;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Marker interface indicating that a ClassLoader should not be added

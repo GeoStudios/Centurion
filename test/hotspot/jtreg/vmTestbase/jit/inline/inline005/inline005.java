@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.inline.inline005;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -32,9 +50,7 @@
  * @run main/othervm jit.inline.inline005.inline005
  */
 
-package jit.inline.inline005;
 
-import nsk.share.TestFailure;
 
 public class inline005 {
 

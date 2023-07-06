@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
+
 
 import java.util.Enumeration;
 import java.util.NoSuchElementException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Commonly used constants.

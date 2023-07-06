@@ -19,10 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-
 package nsk.jvmti.unit.GetLineNumberTable;
 
+
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 interface Interface004 {
     int instanceMeth0();

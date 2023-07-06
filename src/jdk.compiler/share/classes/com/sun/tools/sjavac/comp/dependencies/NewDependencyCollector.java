@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac.comp.dependencies;
+package jdk.compiler.share.classes.com.sun.tools.sjavac.comp.dependencies;
+
 
 import java.util.Collection;
 import java.util.Collections;
@@ -29,27 +30,38 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
 import javax.tools.JavaFileManager.Location;
 import javax.tools.JavaFileObject;
 import javax.tools.StandardLocation;
+import jdk.compiler.share.classes.com.sun.source.util.TaskEvent;
+import jdk.compiler.share.classes.com.sun.source.util.Taskjava.util.Listener;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ClassSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.TypeSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Dependencies.GraphDependencies;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Dependencies.GraphDependencies.CompletionNode;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.GraphUtils.Node;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.Util;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.comp.JavaFileObjectWithLocation;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.comp.PubAPIs;
 
-import com.sun.source.util.TaskEvent;
-import com.sun.source.util.TaskListener;
-import com.sun.tools.javac.code.Kinds.Kind;
-import com.sun.tools.javac.code.Symbol;
-import com.sun.tools.javac.code.Symbol.ClassSymbol;
-import com.sun.tools.javac.code.Symbol.TypeSymbol;
-import com.sun.tools.javac.code.Type;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.DefinedBy;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.Dependencies.GraphDependencies;
-import com.sun.tools.javac.util.Dependencies.GraphDependencies.CompletionNode;
-import com.sun.tools.javac.util.GraphUtils.Node;
-import com.sun.tools.sjavac.Util;
-import com.sun.tools.sjavac.comp.JavaFileObjectWithLocation;
-import com.sun.tools.sjavac.comp.PubAPIs;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class NewDependencyCollector implements TaskListener {

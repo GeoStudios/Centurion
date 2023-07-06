@@ -21,9 +21,23 @@
 
 package jdk.test.lib.management;
 
+
 import java.lang.management.ManagementFactory;
 import java.lang.management.RuntimeMXBean;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class InputArguments {
     /**

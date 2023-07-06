@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap;
+package java.naming.share.classes.com.sun.jndi.ldap;
+
 
 import javax.naming.*;
 import javax.naming.directory.*;
 import java.util.Hashtable;
-import com.sun.jndi.toolkit.dir.HierMemDirCtx;
+import java.naming.share.classes.com.sun.jndi.toolkit.dir.HierMemDirCtx;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the class used to implement LDAP's GetSchema call.

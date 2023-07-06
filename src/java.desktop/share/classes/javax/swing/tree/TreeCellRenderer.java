@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.tree;
+
+package java.desktop.share.classes.javax.swing.tree;
+
 
 import java.awt.Component;
-import javax.swing.JTree;
+import java.desktop.share.classes.javax.swing.JTree;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines the requirements for an object that displays a tree node.

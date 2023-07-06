@@ -19,6 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.base64;
+
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.nio.ByteBuffer;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.Base64;
+import java.util.Base64.Decoder;
+import java.util.Base64.Encoder;
+import java.base.share.classes.java.util.Objects;
+import java.util.Random;
+import compiler.whitebox.CompilerWhiteBoxTest;
+import sun.hotspot.code.Compiler;
+import jtreg.SkippedException;
+import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @author Eric Wang <yiming.wang@oracle.com>
@@ -32,25 +65,8 @@
  *      compiler.intrinsics.base64.TestBase64
  */
 
-package compiler.intrinsics.base64;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.nio.ByteBuffer;
-import java.nio.charset.Charset;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.Base64;
-import java.util.Base64.Decoder;
-import java.util.Base64.Encoder;
-import java.util.Objects;
-import java.util.Random;
 
-import compiler.whitebox.CompilerWhiteBoxTest;
-import sun.hotspot.code.Compiler;
-import jtreg.SkippedException;
-import jdk.test.lib.Utils;
 
 public class TestBase64 {
     static boolean checkOutput = Boolean.getBoolean("checkOutput");

@@ -21,13 +21,25 @@
 
 package tck.java.time;
 
-import static org.testng.Assert.assertEquals;
 
+import static org.testng.Assert.assertEquals;.extended
 import java.time.Clock;
 import java.time.Instant;
 import java.time.ZoneId;
-
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test Clock.

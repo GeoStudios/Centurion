@@ -19,15 +19,15 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.windows;
+package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-import java.awt.Color;
-import java.awt.FontMetrics;
-import java.awt.Graphics;
-import java.awt.Rectangle;
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
 
+import java.desktop.windows.classes.com.sun.java.awt.Color;
+import java.desktop.windows.classes.com.sun.java.awt.FontMetrics;
+import java.desktop.windows.classes.com.sun.java.awt.Graphics;
+import java.desktop.windows.classes.com.sun.java.awt.Rectangle;
+import java.desktop.windows.classes.com.sun.java.beans.PropertyChangeEvent;
+import java.desktop.windows.classes.com.sun.java.beans.PropertyChangejava.util.Listener;
 import javax.swing.ButtonModel;
 import javax.swing.JComponent;
 import javax.swing.JMenu;
@@ -36,13 +36,26 @@ import javax.swing.UIManager;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.UIResource;
 import javax.swing.plaf.basic.BasicMenuItemUI;
+import java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Part;
+import java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.State;
+import java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.Skin;
+import java.desktop.windows.classes.com.sun.swing.MenuItemCheckIconFactory;
+import java.desktop.windows.classes.com.sun.swing.MenuItemLayoutHelper;
+import java.desktop.windows.classes.com.sun.swing.SwingUtilities2;
 
-import com.sun.java.swing.plaf.windows.TMSchema.Part;
-import com.sun.java.swing.plaf.windows.TMSchema.State;
-import com.sun.java.swing.plaf.windows.XPStyle.Skin;
-import sun.swing.MenuItemCheckIconFactory;
-import sun.swing.MenuItemLayoutHelper;
-import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Windows rendition of the component.

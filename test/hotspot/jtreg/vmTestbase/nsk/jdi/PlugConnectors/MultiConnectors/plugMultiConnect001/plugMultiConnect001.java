@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.PlugConnectors.MultiConnectors.plugMultiConnect001;
+
+
+import nsk.jdi.PlugConnectors.MultiConnectors.plugMultiConnect001.connectors.*;
+import nsk.share.*;
+import nsk.share.jdi.*;
+import com.sun.jdi.*;
+import com.sun.jdi.connect.*;
+import java.util.*;
+import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -76,17 +99,9 @@
  *      -transport.address=dynamic
  */
 
-package nsk.jdi.PlugConnectors.MultiConnectors.plugMultiConnect001;
 
-import nsk.jdi.PlugConnectors.MultiConnectors.plugMultiConnect001.connectors.*;
 
-import nsk.share.*;
-import nsk.share.jdi.*;
 
-import com.sun.jdi.*;
-import com.sun.jdi.connect.*;
-import java.util.*;
-import java.io.*;
 
 /**
  * The test for the mechanism for creating pluggable Connectors        <BR>

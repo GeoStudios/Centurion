@@ -21,10 +21,10 @@
 
 package vm.mlvm.share;
 
-import jdk.test.lib.Utils;
 
+import jdk.test.lib.Utils;
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.FileVisitResult;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -32,8 +32,21 @@ import java.nio.file.Paths;
 import java.nio.file.SimpleFileVisitor;
 import java.nio.file.StandardCopyOption;
 import java.nio.file.attribute.BasicFileAttributes;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class IndifiedClassesBuilder {
     public static void main(String... args) {

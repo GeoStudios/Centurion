@@ -18,31 +18,46 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.tools.jlink.internal;
+
+package jdk.jlink.share.classes.jdk.tools.jlink.internal;
+
 
 import java.io.BufferedOutputStream;
 import java.io.DataOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.nio.ByteOrder;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.Archive.Entry;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.Archive.Entry.EntryType;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.ResourcePoolManager.CompressedModuleData;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.PluginException;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePool;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry;
 
-import jdk.tools.jlink.internal.Archive.Entry;
-import jdk.tools.jlink.internal.Archive.Entry.EntryType;
-import jdk.tools.jlink.internal.ResourcePoolManager.CompressedModuleData;
-import jdk.tools.jlink.plugin.PluginException;
-import jdk.tools.jlink.plugin.ResourcePool;
-import jdk.tools.jlink.plugin.ResourcePoolEntry;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An image (native endian.)

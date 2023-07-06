@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr;
+package jdk.jfr.share.classes.jdk.jfr;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.Reader;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.text.ParseException;
 import java.util.LinkedHashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+import jdk.jfr.share.classes.jdk.jfr.internal.JVMSupport;
+import jdk.jfr.share.classes.jdk.jfr.internal.jfc.JFC;
 
-import jdk.jfr.internal.JVMSupport;
-import jdk.jfr.internal.jfc.JFC;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A collection of settings and metadata describing the configuration.

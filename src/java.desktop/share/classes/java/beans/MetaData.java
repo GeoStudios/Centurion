@@ -18,42 +18,51 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.beans;
+
+package java.desktop.share.classes.java.beans;
+
 
 import com.sun.beans.finder.PrimitiveWrapperMap;
-
-import java.awt.AWTKeyStroke;
-import java.awt.BorderLayout;
-import java.awt.Dimension;
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.GridBagConstraints;
-import java.awt.Insets;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.event.KeyEvent;
-import java.awt.font.TextAttribute;
-
-import java.lang.reflect.Array;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
-import java.lang.reflect.InvocationTargetException;
-
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-
-import java.util.*;
-
+import java.desktop.share.classes.java.awt.AWTKeyStroke;
+import java.desktop.share.classes.java.awt.BorderLayout;
+import java.desktop.share.classes.java.awt.Dimension;
+import java.desktop.share.classes.java.awt.Color;
+import java.desktop.share.classes.java.awt.Font;
+import java.desktop.share.classes.java.awt.GridBagConstraints;
+import java.desktop.share.classes.java.awt.Insets;
+import java.desktop.share.classes.java.awt.Point;
+import java.desktop.share.classes.java.awt.Rectangle;
+import java.desktop.share.classes.java.awt.event.KeyEvent;
+import java.desktop.share.classes.java.awt.font.TextAttribute;
+import java.desktop.share.classes.java.lang.reflect.Array;
+import java.desktop.share.classes.java.lang.reflect.Constructor;
+import java.desktop.share.classes.java.lang.reflect.Field;
+import java.desktop.share.classes.java.lang.reflect.Method;
+import java.desktop.share.classes.java.lang.reflect.Modifier;
+import java.desktop.share.classes.java.lang.reflect.InvocationTargetException;
+import java.desktop.share.classes.java.security.AccessController;
+import java.desktop.share.classes.java.security.PrivilegedAction;
+import java.desktop.share.classes.java.util.*;
 import javax.swing.Box;
 import javax.swing.JLayeredPane;
 import javax.swing.border.MatteBorder;
 import javax.swing.plaf.ColorUIResource;
-
 import sun.swing.PrintColorUIResource;
+import static sun.reflect.misc.ReflectUtil.isPackageAccessible;.extended
 
-import static sun.reflect.misc.ReflectUtil.isPackageAccessible;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Like the {@code Intropector}, the {@code MetaData} class

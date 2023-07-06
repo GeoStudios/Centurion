@@ -18,28 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.astro;
 
-import static jaxp.library.JAXPTestUtilities.USER_DIR;
-import static jaxp.library.JAXPTestUtilities.filenameToURL;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertNotNull;
-import static org.testng.Assert.assertNull;
-import static org.testng.Assert.assertTrue;
-import static org.w3c.dom.ls.DOMImplementationLS.MODE_SYNCHRONOUS;
-import static test.astro.AstroConstants.ASTROCAT;
 
+import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
+import static jaxp.library.JAXPTestUtilities.filenameToURL;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertNotNull;.extended
+import static org.testng.Assert.assertNull;.extended
+import static org.testng.Assert.assertTrue;.extended
+import static org.w3c.dom.ls.DOMImplementationLS.MODE_SYNCHRONOUS;.extended
+import static test.astro.AstroConstants.ASTROCAT;.extended
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.Writer;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -48,6 +47,19 @@ import org.w3c.dom.ls.LSInput;
 import org.w3c.dom.ls.LSOutput;
 import org.w3c.dom.ls.LSParser;
 import org.w3c.dom.ls.LSSerializer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

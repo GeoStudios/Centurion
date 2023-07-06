@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.xml.internal.stream;
+package java.xml.share.classes.com.sun.xml.internal.stream;
+
 
 import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.XMLStreamReader;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

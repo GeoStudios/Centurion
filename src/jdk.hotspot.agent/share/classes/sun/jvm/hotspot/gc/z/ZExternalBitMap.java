@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.gc.z;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.z;
+
 
 import java.util.HashMap;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VM;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.BitMap;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.BitMapInterface;
 
-import sun.jvm.hotspot.runtime.VM;
-import sun.jvm.hotspot.utilities.BitMap;
-import sun.jvm.hotspot.utilities.BitMapInterface;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Discontiguous bitmap for ZGC. */
 public class ZExternalBitMap implements BitMapInterface {

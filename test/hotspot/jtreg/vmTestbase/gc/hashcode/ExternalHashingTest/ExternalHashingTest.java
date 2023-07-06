@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.hashcode.ExternalHashingTest;
+
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Random;
+import java.util.Vector;
+import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
@@ -48,14 +68,8 @@
  * @run main/othervm -XX:-UseGCOverheadLimit gc.hashcode.ExternalHashingTest.ExternalHashingTest
  */
 
-package gc.hashcode.ExternalHashingTest;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Random;
-import java.util.Vector;
 
-import jdk.test.lib.Utils;
 
 /**
  * Test the possible interaction of external hashing and locking on object

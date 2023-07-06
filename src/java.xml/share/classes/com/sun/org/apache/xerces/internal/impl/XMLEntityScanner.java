@@ -19,33 +19,48 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
 
-import com.sun.org.apache.xerces.internal.impl.XMLScanner.NameType;
-import com.sun.org.apache.xerces.internal.impl.io.ASCIIReader;
-import com.sun.org.apache.xerces.internal.impl.io.UCSReader;
-import com.sun.org.apache.xerces.internal.impl.io.UTF8Reader;
-import com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
-import com.sun.org.apache.xerces.internal.util.EncodingMap;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
-import com.sun.org.apache.xerces.internal.util.XMLChar;
-import com.sun.org.apache.xerces.internal.util.XMLStringBuffer;
-import com.sun.org.apache.xerces.internal.utils.XMLLimitAnalyzer;
-import com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
-import com.sun.org.apache.xerces.internal.utils.XMLSecurityManager.Limit;
-import com.sun.org.apache.xerces.internal.xni.*;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
-import com.sun.xml.internal.stream.Entity;
-import com.sun.xml.internal.stream.Entity.ScannedEntity;
-import com.sun.xml.internal.stream.XMLBufferListener;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLScanner.NameType;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io.ASCIIReader;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io.UCSReader;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io.UTF8Reader;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.EncodingMap;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLStringBuffer;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLLimitAnalyzer;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityManager.Limit;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.*;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
+import java.xml.share.classes.com.sun.xml.internal.stream.Entity;
+import java.xml.share.classes.com.sun.xml.internal.stream.Entity.ScannedEntity;
+import java.xml.share.classes.com.sun.xml.internal.stream.XMLBufferjava.util.Listener;
 import java.io.EOFException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
-import java.util.ArrayList;
-import java.util.Locale;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements the entity scanner methods.

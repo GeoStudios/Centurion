@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package util;
+
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -26,7 +28,20 @@ import java.sql.SQLException;
 import java.sql.SQLWarning;
 import java.sql.Statement;
 import java.util.regex.Pattern;
-import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.joining;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class StubStatement implements Statement {
 

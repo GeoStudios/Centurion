@@ -21,8 +21,22 @@
 
 package pkg1;
 
+
 import pkg2.*;
 import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @serial This is the serial tag's comment.

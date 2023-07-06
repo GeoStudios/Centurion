@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.basic;
+package java.desktop.share.classes.javax.swing.plaf.basic;
+
 
 import java.awt.AWTEvent;
 import java.awt.Component;
@@ -33,11 +34,11 @@ import java.awt.KeyboardFocusManager;
 import java.awt.LayoutManager;
 import java.awt.event.ActionEvent;
 import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
+import java.awt.event.Focusjava.util.Listener;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
+import java.awt.event.Mousejava.util.Listener;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.text.AttributedCharacterIterator;
 import java.text.CharacterIterator;
 import java.text.DateFormat;
@@ -45,33 +46,45 @@ import java.text.Format;
 import java.text.ParseException;
 import java.util.Calendar;
 import java.util.Map;
-
-import javax.swing.AbstractAction;
-import javax.swing.ButtonModel;
-import javax.swing.InputMap;
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.JFormattedTextField;
-import javax.swing.JPanel;
-import javax.swing.JSpinner;
-import javax.swing.JTextField;
-import javax.swing.LookAndFeel;
-import javax.swing.SpinnerDateModel;
-import javax.swing.SpinnerModel;
-import javax.swing.SwingConstants;
-import javax.swing.SwingUtilities;
-import javax.swing.UIManager;
-import javax.swing.border.Border;
-import javax.swing.border.CompoundBorder;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-import javax.swing.plaf.ComponentUI;
-import javax.swing.plaf.FontUIResource;
-import javax.swing.plaf.SpinnerUI;
-import javax.swing.plaf.UIResource;
-import javax.swing.text.InternationalFormatter;
-
+import java.desktop.share.classes.javax.swing.AbstractAction;
+import java.desktop.share.classes.javax.swing.ButtonModel;
+import java.desktop.share.classes.javax.swing.InputMap;
+import java.desktop.share.classes.javax.swing.JButton;
+import java.desktop.share.classes.javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.JFormattedTextField;
+import java.desktop.share.classes.javax.swing.JPanel;
+import java.desktop.share.classes.javax.swing.JSpinner;
+import java.desktop.share.classes.javax.swing.JTextField;
+import java.desktop.share.classes.javax.swing.LookAndFeel;
+import java.desktop.share.classes.javax.swing.SpinnerDateModel;
+import java.desktop.share.classes.javax.swing.SpinnerModel;
+import java.desktop.share.classes.javax.swing.SwingConstants;
+import java.desktop.share.classes.javax.swing.SwingUtilities;
+import java.desktop.share.classes.javax.swing.UIManager;
+import java.desktop.share.classes.javax.swing.border.Border;
+import java.desktop.share.classes.javax.swing.border.CompoundBorder;
+import java.desktop.share.classes.javax.swing.event.ChangeEvent;
+import java.desktop.share.classes.javax.swing.event.Changejava.util.Listener;
+import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
+import java.desktop.share.classes.javax.swing.plaf.FontUIResource;
+import java.desktop.share.classes.javax.swing.plaf.SpinnerUI;
+import java.desktop.share.classes.javax.swing.plaf.UIResource;
+import java.desktop.share.classes.javax.swing.text.InternationalFormatter;
 import sun.swing.DefaultLookup;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The default Spinner UI delegate.

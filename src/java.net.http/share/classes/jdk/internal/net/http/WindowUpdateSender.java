@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
 
-import jdk.internal.net.http.common.FlowTube;
-import jdk.internal.net.http.common.Logger;
-import jdk.internal.net.http.frame.SettingsFrame;
-import jdk.internal.net.http.frame.WindowUpdateFrame;
-import jdk.internal.net.http.common.Utils;
+
+import java.net.http.share.classes.jdk.internal.net.http.common.FlowTube;
+import java.net.http.share.classes.jdk.internal.net.http.common.Logger;
+import java.net.http.share.classes.jdk.internal.net.http.frame.SettingsFrame;
+import java.net.http.share.classes.jdk.internal.net.http.frame.WindowUpdateFrame;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
 import java.util.concurrent.atomic.AtomicInteger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class WindowUpdateSender {
 

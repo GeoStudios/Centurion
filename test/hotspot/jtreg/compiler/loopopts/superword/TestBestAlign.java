@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts.superword;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8141624
@@ -27,7 +44,6 @@
  * @author gunter.haug@sap.com
  */
 
-package compiler.loopopts.superword;
 
 public class TestBestAlign {
 

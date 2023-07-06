@@ -21,6 +21,26 @@
 
 package gc;
 
+
+import jdk.test.lib.JDKToolFinder;
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.process.OutputAnalyzer;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Collections;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test TestAllocateHeapAtMultiple.java
  * @summary Test to check allocation of Java Heap with AllocateHeapAt option. Has multiple sub-tests to cover different code paths.
  * @library /test/lib
@@ -29,11 +49,6 @@ package gc;
  * @run driver/timeout=360 gc.TestAllocateHeapAtMultiple
  */
 
-import jdk.test.lib.JDKToolFinder;
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.process.OutputAnalyzer;
-import java.util.ArrayList;
-import java.util.Collections;
 
 public class TestAllocateHeapAtMultiple {
   public static void main(String args[]) throws Exception {

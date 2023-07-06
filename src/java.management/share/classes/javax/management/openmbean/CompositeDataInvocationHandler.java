@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.openmbean;
+package java.management.share.classes.javax.management.openmbean;
+
 
 import com.sun.jmx.mbeanserver.MXBeanLookup;
 import com.sun.jmx.mbeanserver.MXBeanMapping;
@@ -28,6 +29,20 @@ import com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
    <p>An {@link InvocationHandler} that forwards getter methods to a

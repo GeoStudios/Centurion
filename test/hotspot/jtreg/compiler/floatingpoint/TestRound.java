@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.floatingpoint;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 4755500
@@ -26,7 +43,6 @@
  * @run main compiler.floatingpoint.TestRound
  */
 
-package compiler.floatingpoint;
 
 public class TestRound {
     public static void main(String[] args) {

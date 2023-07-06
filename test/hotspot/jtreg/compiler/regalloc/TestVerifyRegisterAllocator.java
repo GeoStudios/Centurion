@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.regalloc;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8258243
@@ -28,7 +45,6 @@
  * @run main/othervm -Xcomp -XX:-TieredCompilation -XX:+VerifyRegisterAllocator
  *                   compiler.regalloc.TestVerifyRegisterAllocator
  */
-package compiler.regalloc;
 
 public class TestVerifyRegisterAllocator {
     public static void main(String[] strArr) {

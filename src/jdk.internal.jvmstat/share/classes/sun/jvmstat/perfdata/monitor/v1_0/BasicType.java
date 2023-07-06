@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvmstat.perfdata.monitor.v1_0;
+package jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor.v1_0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A typesafe enumeration for describing Java basic types.

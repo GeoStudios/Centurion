@@ -19,36 +19,51 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
 import java.nio.ByteBuffer;
 import java.security.CryptoPrimitive;
 import java.security.GeneralSecurityException;
 import java.security.InvalidAlgorithmParameterException;
-import java.security.InvalidKeyException;
-import java.security.Key;
-import java.security.KeyFactory;
-import java.security.NoSuchAlgorithmException;
-import java.security.PrivateKey;
-import java.security.PublicKey;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.Key;
+import java.base.share.classes.java.security.KeyFactory;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.PrivateKey;
+import java.base.share.classes.java.security.PublicKey;
 import java.security.Signature;
 import java.security.SignatureException;
 import java.text.MessageFormat;
 import java.util.EnumSet;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import javax.crypto.interfaces.DHPublicKey;
 import javax.crypto.spec.DHParameterSpec;
 import javax.crypto.spec.DHPublicKeySpec;
-import sun.security.ssl.DHKeyExchange.DHECredentials;
-import sun.security.ssl.DHKeyExchange.DHEPossession;
-import sun.security.ssl.SSLHandshake.HandshakeMessage;
-import sun.security.ssl.X509Authentication.X509Credentials;
-import sun.security.ssl.X509Authentication.X509Possession;
-import sun.security.util.HexDumpEncoder;
-import sun.security.util.KeyUtil;
+import java.base.share.classes.sun.security.ssl.DHKeyExchange.DHECredentials;
+import java.base.share.classes.sun.security.ssl.DHKeyExchange.DHEPossession;
+import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
+import java.base.share.classes.sun.security.ssl.X509Authentication.X509Credentials;
+import java.base.share.classes.sun.security.ssl.X509Authentication.X509Possession;
+import java.base.share.classes.sun.security.util.HexDumpEncoder;
+import java.base.share.classes.sun.security.util.KeyUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Pack of the ServerKeyExchange handshake message.

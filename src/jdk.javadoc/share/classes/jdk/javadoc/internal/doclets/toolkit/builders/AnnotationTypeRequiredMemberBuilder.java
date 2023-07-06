@@ -19,21 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.toolkit.builders;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.builders;
+
 
 import java.util.*;
-
 import javax.lang.model.element.Element;
 import javax.lang.model.element.TypeElement;
-import jdk.javadoc.internal.doclets.formats.html.AbstractMemberWriter;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.AbstractMemberWriter;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.AnnotationTypeRequiredMemberWriter;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.BaseOptions;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.DocletException;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable;
+import static jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable.Kind.*;.extended
 
-import jdk.javadoc.internal.doclets.toolkit.AnnotationTypeRequiredMemberWriter;
-import jdk.javadoc.internal.doclets.toolkit.BaseOptions;
-import jdk.javadoc.internal.doclets.toolkit.Content;
-import jdk.javadoc.internal.doclets.toolkit.DocletException;
-import jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable;
 
-import static jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable.Kind.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Builds documentation for required annotation type members.

@@ -19,6 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci.compilerToVM;
+
+
+import compiler.jvmci.common.CTVMUtilities;
+import compiler.testlibrary.CompilerUtils;
+import compiler.whitebox.CompilerWhiteBoxTest;
+import jdk.test.lib.Asserts;
+import jdk.vm.ci.code.stack.InspectedFrame;
+import jdk.vm.ci.hotspot.CompilerToVMHelper;
+import jdk.vm.ci.hotspot.HotSpotStackFrameReference;
+import jdk.vm.ci.meta.ResolvedJavaMethod;
+import jtreg.SkippedException;
+import sun.hotspot.WhiteBox;
+import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8136421
@@ -91,20 +119,8 @@
  *                   compiler.jvmci.compilerToVM.MaterializeVirtualObjectTest
  */
 
-package compiler.jvmci.compilerToVM;
 
-import compiler.jvmci.common.CTVMUtilities;
-import compiler.testlibrary.CompilerUtils;
-import compiler.whitebox.CompilerWhiteBoxTest;
-import jdk.test.lib.Asserts;
-import jdk.vm.ci.code.stack.InspectedFrame;
-import jdk.vm.ci.hotspot.CompilerToVMHelper;
-import jdk.vm.ci.hotspot.HotSpotStackFrameReference;
-import jdk.vm.ci.meta.ResolvedJavaMethod;
-import jtreg.SkippedException;
-import sun.hotspot.WhiteBox;
 
-import java.lang.reflect.Method;
 
 public class MaterializeVirtualObjectTest {
     private static final WhiteBox WB;

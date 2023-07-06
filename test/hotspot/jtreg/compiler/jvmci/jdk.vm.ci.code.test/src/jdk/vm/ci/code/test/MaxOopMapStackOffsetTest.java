@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.vm.ci.code.test;
+
+
+import jdk.vm.ci.code.Location;
+import jdk.vm.ci.code.Register;
+import jdk.vm.ci.common.JVMCIError;
+import jdk.vm.ci.meta.JavaConstant;
+import jdk.vm.ci.meta.JavaKind;
+import org.junit.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @requires vm.jvmci
@@ -36,14 +59,7 @@
  * @run junit/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler jdk.vm.ci.code.test.MaxOopMapStackOffsetTest
  */
 
-package jdk.vm.ci.code.test;
 
-import jdk.vm.ci.code.Location;
-import jdk.vm.ci.code.Register;
-import jdk.vm.ci.common.JVMCIError;
-import jdk.vm.ci.meta.JavaConstant;
-import jdk.vm.ci.meta.JavaKind;
-import org.junit.Test;
 
 public class MaxOopMapStackOffsetTest extends DebugInfoTest {
 

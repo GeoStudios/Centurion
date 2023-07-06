@@ -19,15 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/**
- * This class constructs LDAPv3 Authorization Identity response controls.
- */
-
 package org.example.authz;
+
 
 import java.io.*;
 import javax.naming.*;
 import javax.naming.ldap.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * This class constructs LDAPv3 Authorization Identity response controls.
+ */
+
+
 
 public class AuthzIdResponseControlFactory extends ControlFactory {
 

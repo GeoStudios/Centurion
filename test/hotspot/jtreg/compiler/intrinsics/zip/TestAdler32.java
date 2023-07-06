@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.zip;
+
+
+import java.nio.ByteBuffer;
+import java.util.zip.Adler32;
+import java.util.zip.Checksum;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8132081
@@ -27,11 +47,7 @@
  * @run main/othervm/timeout=600 -Xbatch compiler.intrinsics.zip.TestAdler32 -m
  */
 
-package compiler.intrinsics.zip;
 
-import java.nio.ByteBuffer;
-import java.util.zip.Adler32;
-import java.util.zip.Checksum;
 
 public class TestAdler32 {
     public static void main(String[] args) {

@@ -19,16 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.lang.model.util;
+package java.compiler.share.classes.javax.lang.model.util;
 
 
-import java.util.List;
-import javax.lang.model.element.*;
+import java.util.java.util.java.util.java.util.List;
+import java.compiler.share.classes.javax.lang.model.element.*;
+import java.compiler.share.classes.javax.lang.model.type.TypeMirror;
+import static java.compiler.share.classes.javax.lang.model.SourceVersion.*;.extended
+import java.compiler.share.classes.javax.lang.model.SourceVersion;
+import java.compiler.share.classes.javax.annotation.processing.SupportedSourceVersion;
 
-import javax.lang.model.type.TypeMirror;
-import static javax.lang.model.SourceVersion.*;
-import javax.lang.model.SourceVersion;
-import javax.annotation.processing.SupportedSourceVersion;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A simple visitor for annotation values with default behavior

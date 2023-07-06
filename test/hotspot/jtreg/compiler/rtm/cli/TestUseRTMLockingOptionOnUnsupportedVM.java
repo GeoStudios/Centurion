@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.rtm.cli;
+
+
+import jdk.test.lib.process.ExitCode;
+import jdk.test.lib.cli.CommandLineOptionTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8031320
@@ -32,10 +51,7 @@
  * @run driver compiler.rtm.cli.TestUseRTMLockingOptionOnUnsupportedVM
  */
 
-package compiler.rtm.cli;
 
-import jdk.test.lib.process.ExitCode;
-import jdk.test.lib.cli.CommandLineOptionTest;
 
 public class TestUseRTMLockingOptionOnUnsupportedVM {
     private static final String DEFAULT_VALUE = "false";

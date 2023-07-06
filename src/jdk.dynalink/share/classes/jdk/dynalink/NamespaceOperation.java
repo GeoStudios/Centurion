@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.dynalink.share.classes.jdk.dynalink;
+
+
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -26,10 +46,8 @@
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-package jdk.dynalink;
 
-import java.util.Arrays;
-import java.util.Objects;
+
 
 /**
  * Describes an operation that operates on at least one {@link Namespace} of

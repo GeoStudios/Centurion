@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.mbeanserver;
+package java.management.share.classes.com.sun.jmx.mbeanserver;
+
+
+import javax.management.ObjectName;
+import javax.management.loading.ClassLoaderRepository;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // JMX import
-import javax.management.ObjectName;
-import javax.management.loading.ClassLoaderRepository;
 
 /**
  * This interface keeps the list of Class Loaders registered in the

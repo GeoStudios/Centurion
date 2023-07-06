@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jsr292;
+
+
+import jdk.test.lib.Utils;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Random;
+import java.util.concurrent.BrokenBarrierException;
+import java.util.concurrent.CyclicBarrier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @key randomness
@@ -31,16 +55,8 @@
  * @run main/othervm compiler.jsr292.ConcurrentClassLoadingTest
  */
 
-package compiler.jsr292;
 
-import jdk.test.lib.Utils;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Random;
-import java.util.concurrent.BrokenBarrierException;
-import java.util.concurrent.CyclicBarrier;
 
 public class ConcurrentClassLoadingTest {
     int numThreads = 0;

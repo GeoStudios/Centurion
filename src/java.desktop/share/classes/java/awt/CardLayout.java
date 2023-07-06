@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.ObjectStreamField;
-import java.io.Serial;
-import java.io.Serializable;
-import java.util.Enumeration;
-import java.util.Hashtable;
-import java.util.Vector;
+
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.ObjectOutputStream;
+import java.desktop.share.classes.java.io.ObjectStreamField;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.io.Serializable;
+import java.desktop.share.classes.java.util.Enumeration;
+import java.desktop.share.classes.java.util.Hashtable;
+import java.desktop.share.classes.java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code CardLayout} object is a layout manager for a

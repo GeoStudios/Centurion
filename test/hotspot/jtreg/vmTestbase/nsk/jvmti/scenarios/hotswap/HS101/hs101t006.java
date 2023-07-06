@@ -21,10 +21,23 @@
 
 package nsk.jvmti.scenarios.hotswap.HS101;
 
-import java.io.PrintStream;
 
+import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class hs101t006 extends DebugeeClass {
 

@@ -21,8 +21,22 @@
 
 package shadow;
 
-import static shadow.T1.*;
-import static shadow.T2.m1;
+
+import static shadow.T1.*;.extended
+import static shadow.T2.m1;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class T1 {
     public static void m1() {}

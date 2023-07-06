@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import jdk.test.lib.Utils;
+import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @key randomness
@@ -30,11 +49,8 @@
  * @run main compiler.c2.Test7177917
  */
 
-package compiler.c2;
 
-import jdk.test.lib.Utils;
 
-import java.util.Random;
 
 public class Test7177917 {
 

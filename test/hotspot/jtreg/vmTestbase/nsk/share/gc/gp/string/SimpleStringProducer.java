@@ -21,8 +21,22 @@
 
 package nsk.share.gc.gp.string;
 
+
 import nsk.share.test.*;
 import nsk.share.gc.gp.GarbageProducer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Garbage producer that creates simple strings.

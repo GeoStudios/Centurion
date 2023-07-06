@@ -21,7 +21,21 @@
 
 package nsk.jvmti.RedefineClasses;
 
+
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class redefclass017a extends Thread {
     public static boolean testFailed = false;

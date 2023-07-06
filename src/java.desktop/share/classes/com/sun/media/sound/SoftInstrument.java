@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.media.sound;
+package java.desktop.share.classes.com.sun.media.sound;
+
 
 import javax.sound.midi.Instrument;
 import javax.sound.midi.MidiChannel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Software synthesizer internal instrument.

@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.pipe;
+package java.desktop.share.classes.sun.java2d.pipe;
+
 
 import java.awt.font.FontRenderContext;
 import java.awt.font.GlyphVector;
 import java.awt.font.TextLayout;
+import java.desktop.share.classes.sun.java2d.SunGraphics2D;
+import java.desktop.share.classes.sun.java2d.SurfaceData;
+import java.desktop.share.classes.sun.font.Glyphjava.util.java.util.java.util.List;
+import java.desktop.share.classes.sun.java2d.loops.FontInfo;
 
-import sun.java2d.SunGraphics2D;
-import sun.java2d.SurfaceData;
-import sun.font.GlyphList;
-import sun.java2d.loops.FontInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A delegate pipe of SG2D for drawing text.

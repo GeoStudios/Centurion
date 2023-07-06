@@ -19,21 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/* @test
- * @summary unit tests for java.lang.invoke.MethodHandles
- * @run testng/othervm -ea -esa test.java.lang.invoke.VarArgsTest
- */
 package test.java.lang.invoke;
+
 
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
-import java.util.Arrays;
-import java.util.List;
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
-import static org.testng.AssertJUnit.*;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
+import static java.lang.invoke.MethodHandles.*;.extended
+import static java.lang.invoke.MethodType.*;.extended
+import static org.testng.AssertJUnit.*;.extended
 import org.testng.annotations.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @test
+ * @summary unit tests for java.lang.invoke.MethodHandles
+ * @run testng/othervm -ea -esa test.java.lang.invoke.VarArgsTest
+ */
+
 
 public class VarArgsTest {
 

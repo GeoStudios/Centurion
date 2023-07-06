@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.jvm;
+package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
+
 
 import java.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Warnings;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.EndPosTable;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCSwitchExpression;
 
-import com.sun.tools.javac.resources.CompilerProperties.Warnings;
-import com.sun.tools.javac.tree.*;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.tree.JCTree.*;
-import com.sun.tools.javac.tree.EndPosTable;
-import com.sun.tools.javac.tree.JCTree.JCSwitchExpression;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This class contains the CharacterRangeTable for some method
  *  and the hashtable for mapping trees or lists of trees to their

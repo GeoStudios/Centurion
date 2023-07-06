@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.source.util;
+package jdk.compiler.share.classes.com.sun.source.util;
 
-import com.sun.source.doctree.DocCommentTree;
-import com.sun.source.doctree.DocTree;
 
+import jdk.compiler.share.classes.com.sun.source.doctree.DocCommentTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.DocTree;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A path of tree nodes, typically used to represent the sequence of ancestor

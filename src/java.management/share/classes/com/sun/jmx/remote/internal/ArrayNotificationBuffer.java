@@ -19,21 +19,21 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.remote.internal;
+package java.management.share.classes.com.sun.jmx.remote.internal;
+
 
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.util.HashMap;
 import java.util.Map;
-
 import javax.management.InstanceNotFoundException;
 import javax.management.MBeanServer;
 import javax.management.MBeanServerDelegate;
@@ -42,16 +42,28 @@ import javax.management.Notification;
 import javax.management.NotificationBroadcaster;
 import javax.management.NotificationFilter;
 import javax.management.NotificationFilterSupport;
-import javax.management.NotificationListener;
+import javax.management.Notificationjava.util.Listener;
 import javax.management.ObjectName;
 import javax.management.QueryEval;
 import javax.management.QueryExp;
-
 import javax.management.remote.NotificationResult;
 import javax.management.remote.TargetedNotification;
+import java.management.share.classes.com.sun.jmx.remote.util.EnvHelp;
+import java.management.share.classes.com.sun.jmx.remote.util.ClassLogger;
 
-import com.sun.jmx.remote.util.EnvHelp;
-import com.sun.jmx.remote.util.ClassLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A circular buffer of notifications received from an MBean server. */
 /*

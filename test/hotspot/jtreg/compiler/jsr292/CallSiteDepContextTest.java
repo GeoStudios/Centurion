@@ -19,6 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jsr292;
+
+
+import jdk.internal.org.objectweb.asm.ClassWriter;
+import jdk.internal.org.objectweb.asm.Handle;
+import jdk.internal.org.objectweb.asm.MethodVisitor;
+import java.lang.invoke.CallSite;
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandleHelper;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodHandles.Lookup;
+import java.lang.invoke.MethodType;
+import java.lang.invoke.MutableCallSite;
+import java.lang.ref.PhantomReference;
+import java.lang.ref.Reference;
+import java.lang.ref.ReferenceQueue;
+import java.lang.reflect.Field;
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PUBLIC;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_STATIC;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_SUPER;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.H_INVOKESTATIC;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.IRETURN;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8057967
@@ -34,29 +70,9 @@
  *                                 compiler.jsr292.CallSiteDepContextTest
  */
 
-package compiler.jsr292;
 
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.org.objectweb.asm.Handle;
-import jdk.internal.org.objectweb.asm.MethodVisitor;
 
-import java.lang.invoke.CallSite;
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandleHelper;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodHandles.Lookup;
-import java.lang.invoke.MethodType;
-import java.lang.invoke.MutableCallSite;
-import java.lang.ref.PhantomReference;
-import java.lang.ref.Reference;
-import java.lang.ref.ReferenceQueue;
-import java.lang.reflect.Field;
 
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PUBLIC;
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_STATIC;
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_SUPER;
-import static jdk.internal.org.objectweb.asm.Opcodes.H_INVOKESTATIC;
-import static jdk.internal.org.objectweb.asm.Opcodes.IRETURN;
 
 public class CallSiteDepContextTest {
     static final MethodHandles.Lookup LOOKUP = MethodHandleHelper.IMPL_LOOKUP;

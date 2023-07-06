@@ -21,6 +21,21 @@
 
 package p;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // SubClass only references types in package p
 public class SubClass extends C {
 }

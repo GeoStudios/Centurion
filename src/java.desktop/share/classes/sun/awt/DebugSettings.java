@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.share.classes.sun.awt;
+
 
 import java.io.*;
-
 import java.util.*;
-import sun.util.logging.PlatformLogger;
+import java.desktop.share.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Internal class that manages sun.awt.Debug settings.

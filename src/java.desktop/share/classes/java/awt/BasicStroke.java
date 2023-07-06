@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.beans.ConstructorProperties;
 
-import java.lang.annotation.Native;
+import java.desktop.share.classes.java.beans.ConstructorProperties;
+import java.desktop.share.classes.java.lang.annotation.Native;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code BasicStroke} class defines a basic set of rendering

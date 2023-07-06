@@ -19,39 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.comp;
+package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-import com.sun.tools.javac.code.Source.Feature;
-import com.sun.tools.javac.code.Type.UndetVar.UndetVarListener;
-import com.sun.tools.javac.code.Types.TypeMapping;
-import com.sun.tools.javac.comp.Attr.CheckMode;
-import com.sun.tools.javac.resources.CompilerProperties.Fragments;
-import com.sun.tools.javac.resources.CompilerProperties.Notes;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.JCTree.JCTypeCast;
-import com.sun.tools.javac.tree.TreeInfo;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.GraphUtils.DottableNode;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
-import com.sun.tools.javac.util.JCDiagnostic.Fragment;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.Type.*;
-import com.sun.tools.javac.code.Type.UndetVar.InferenceBound;
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.comp.DeferredAttr.AttrMode;
-import com.sun.tools.javac.comp.DeferredAttr.DeferredAttrContext;
-import com.sun.tools.javac.comp.Infer.GraphSolver.InferenceGraph;
-import com.sun.tools.javac.comp.Infer.GraphSolver.InferenceGraph.Node;
-import com.sun.tools.javac.comp.Resolve.InapplicableMethodException;
-import com.sun.tools.javac.comp.Resolve.VerboseResolutionMode;
 
-import java.io.IOException;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Source.Feature;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.UndetVar.UndetVarjava.util.Listener;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Types.TypeMapping;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Attr.CheckMode;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Notes;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCTypeCast;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeInfo;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.GraphUtils.DottableNode;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Fragment;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.UndetVar.InferenceBound;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.DeferredAttr.AttrMode;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.DeferredAttr.DeferredAttrContext;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Infer.GraphSolver.InferenceGraph;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Infer.GraphSolver.InferenceGraph.Node;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Resolve.InapplicableMethodException;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Resolve.VerboseResolutionMode;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.Writer;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.EnumSet;
@@ -65,8 +65,21 @@ import java.util.Set;
 import java.util.function.BiFunction;
 import java.util.function.BiPredicate;
 import java.util.function.Predicate;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.extended
 
-import static com.sun.tools.javac.code.TypeTag.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Helper class for type parameter inference, used by the attribution phase.
  *

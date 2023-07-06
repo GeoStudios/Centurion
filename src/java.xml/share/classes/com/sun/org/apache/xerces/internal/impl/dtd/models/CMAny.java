@@ -19,7 +19,22 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.dtd.models;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

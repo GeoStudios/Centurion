@@ -19,15 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
+
+
+import java.xml.share.classes.com.sun.org.xml.sax.ErrorHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXParseException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.util;
 
-import org.xml.sax.ErrorHandler;
-import org.xml.sax.SAXException;
-import org.xml.sax.SAXParseException;
+
 
 /**
  * {@link ErrorHandler} that throws all errors and fatal errors.

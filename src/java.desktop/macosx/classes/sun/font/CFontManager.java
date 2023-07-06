@@ -19,25 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.macosx.classes.sun.font;
+
 
 import java.awt.*;
 import java.io.File;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.Hashtable;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.TreeMap;
 import java.util.Vector;
-
 import javax.swing.plaf.FontUIResource;
+import java.desktop.macosx.classes.sun.awt.FontConfiguration;
+import java.desktop.macosx.classes.sun.awt.HeadlessToolkit;
+import java.desktop.macosx.classes.sun.awt.util.ThreadGroupUtils;
+import java.desktop.macosx.classes.sun.lwawt.macosx.*;
 
-import sun.awt.FontConfiguration;
-import sun.awt.HeadlessToolkit;
-import sun.awt.util.ThreadGroupUtils;
-import sun.lwawt.macosx.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class CFontManager extends SunFontManager {
     private static final Hashtable<String, Font2D> genericFonts = new Hashtable<String, Font2D>();

@@ -19,21 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref;
+
+
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.*;
+import javax.xml.transform.Source;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLStringFactory;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLErrorResources;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLMessages;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom.NodeCounter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.dtm.ref;
 
-import com.sun.org.apache.xml.internal.dtm.*;
 
-import javax.xml.transform.Source;
 
-import com.sun.org.apache.xml.internal.utils.XMLStringFactory;
 
-import com.sun.org.apache.xml.internal.res.XMLErrorResources;
-import com.sun.org.apache.xml.internal.res.XMLMessages;
-import com.sun.org.apache.xalan.internal.xsltc.dom.NodeCounter;
+
 
 /**
  * This class implements the traversers for DTMDefaultBase.

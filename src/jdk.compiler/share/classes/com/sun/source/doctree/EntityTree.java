@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.source.doctree;
+package jdk.compiler.share.classes.com.sun.source.doctree;
+
 
 import javax.lang.model.element.Name;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A tree node for an HTML entity.

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codegen;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6814842
@@ -29,7 +46,6 @@
  *      compiler.codegen.Test6814842
  */
 
-package compiler.codegen;
 
 public class Test6814842 {
     static final short[] sa = new short[] { (short) 0xF1F2 };

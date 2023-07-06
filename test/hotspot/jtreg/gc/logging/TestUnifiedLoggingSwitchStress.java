@@ -21,21 +21,31 @@
 
 package gc.logging;
 
-import jdk.test.lib.Utils;
 
+import jdk.test.lib.Utils;
 import javax.management.InstanceNotFoundException;
 import javax.management.MBeanException;
 import javax.management.MBeanServer;
 import javax.management.MalformedObjectNameException;
 import javax.management.ObjectName;
 import javax.management.ReflectionException;
-
-import static gc.testlibrary.Allocation.blackHole;
-
+import static gc.testlibrary.Allocation.blackHole;.extended
 import java.lang.management.ManagementFactory;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

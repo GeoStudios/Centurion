@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.regex;
+package java.base.share.classes.java.util.regex;
 
-import java.util.HashMap;
-import java.util.Locale;
-import java.util.regex.Pattern.CharPredicate;
-import java.util.regex.Pattern.BmpCharPredicate;
+
+import java.base.share.classes.java.util.HashMap;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.regex.Pattern.CharPredicate;
+import java.base.share.classes.java.util.regex.Pattern.BmpCharPredicate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class CharPredicates {
 

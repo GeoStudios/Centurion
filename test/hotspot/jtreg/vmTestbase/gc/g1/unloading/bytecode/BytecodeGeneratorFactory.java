@@ -18,13 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package gc.g1.unloading.bytecode;
+
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
-
 import vm.share.InMemoryJavaCompiler;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * BytecodeFactory that employs in memory compilation.

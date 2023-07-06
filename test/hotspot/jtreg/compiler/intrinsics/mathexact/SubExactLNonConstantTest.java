@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.mathexact;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key randomness
@@ -32,7 +49,6 @@
  * @run main compiler.intrinsics.mathexact.SubExactLNonConstantTest
  */
 
-package compiler.intrinsics.mathexact;
 
 public class SubExactLNonConstantTest {
     public static void main(String[] args) {

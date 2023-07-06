@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import jdk.jdi.share.classes.com.sun.jdi.ClassLoaderReference;
+import jdk.jdi.share.classes.com.sun.jdi.ClassNotLoadedException;
+import jdk.jdi.share.classes.com.sun.jdi.ReferenceType;
+import jdk.jdi.share.classes.com.sun.jdi.Type;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
 
-import com.sun.jdi.ClassLoaderReference;
-import com.sun.jdi.ClassNotLoadedException;
-import com.sun.jdi.ReferenceType;
-import com.sun.jdi.Type;
-import com.sun.jdi.VirtualMachine;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ClassLoaderReferenceImpl extends ObjectReferenceImpl
                                       implements ClassLoaderReference

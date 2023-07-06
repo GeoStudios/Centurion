@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.string;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @requires os.arch=="aarch64"
@@ -37,7 +54,6 @@
  * @run main/othervm -XX:SoftwarePrefetchHintDistance=-1 compiler.intrinsics.string.TestStringCompareToDifferentLength 4 2 5 10 13 17 20 23 24 25 71 72 73 88 90
  */
 
-package compiler.intrinsics.string;
 
 public class TestStringCompareToDifferentLength {
     private final int size;

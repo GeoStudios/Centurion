@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac.pubapi;
+package jdk.compiler.share.classes.com.sun.tools.sjavac.pubapi;
+
 
 import java.io.Serializable;
-
 import javax.lang.model.type.TypeKind;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TypeVarTypeDesc extends TypeDesc implements Serializable {
 

@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.javax.security.cert;
 
-package javax.security.cert;
 
-import java.security.PublicKey;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.PublicKey;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.NoSuchProviderException;
-import java.security.InvalidKeyException;
+import java.base.share.classes.java.security.InvalidKeyException;
 import java.security.SignatureException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Abstract class for managing a variety of identity certificates.

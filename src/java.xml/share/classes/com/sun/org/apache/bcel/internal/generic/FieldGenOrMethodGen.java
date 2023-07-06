@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.bcel.internal.generic;
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-import java.util.ArrayList;
-import java.util.List;
 
-import com.sun.org.apache.bcel.internal.Const;
-import com.sun.org.apache.bcel.internal.classfile.AccessFlags;
-import com.sun.org.apache.bcel.internal.classfile.Attribute;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.AccessFlags;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Attribute;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Super class for FieldGen and MethodGen objects, since they have

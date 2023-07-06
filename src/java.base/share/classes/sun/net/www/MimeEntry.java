@@ -19,11 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www;
+package java.base.share.classes.sun.net.www;
+
+
 import java.net.URL;
 import java.io.*;
 import java.util.StringJoiner;
 import java.util.StringTokenizer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MimeEntry implements Cloneable {
     private String typeName;    // of the form: "type/subtype"

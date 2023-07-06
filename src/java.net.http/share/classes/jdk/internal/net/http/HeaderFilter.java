@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A header filter that can examine or modify, typically system headers for

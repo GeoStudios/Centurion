@@ -19,24 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package com.sun.org.apache.xml.internal.security.keys.storage.implementations;
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.storage.implementations;
+
 
 import java.security.KeyStore;
 import java.security.KeyStoreException;
 import java.security.cert.Certificate;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Enumeration;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.NoSuchElementException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.storage.StorageResolverException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.storage.StorageResolverSpi;
 
-import com.sun.org.apache.xml.internal.security.keys.storage.StorageResolverException;
-import com.sun.org.apache.xml.internal.security.keys.storage.StorageResolverSpi;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
 
 /**
  * Makes the Certificates from a JAVA {@link KeyStore} object available to the

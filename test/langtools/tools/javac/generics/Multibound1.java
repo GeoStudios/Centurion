@@ -21,6 +21,21 @@
 
 package Multibound1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 interface A {}
 interface B {}
 class C<T extends A&B> {}

@@ -18,16 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.xml.sax.ptests;
+
 
 import org.xml.sax.helpers.DefaultHandler;
 import org.xml.sax.helpers.LocatorImpl;
 import org.xml.sax.Locator;
 import org.xml.sax.Attributes;
 import java.io.BufferedWriter;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.FileWriter;
 import org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class MyNSContentHandler extends DefaultHandler implements AutoCloseable{
     /**

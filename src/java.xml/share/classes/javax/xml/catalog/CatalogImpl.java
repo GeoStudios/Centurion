@@ -18,31 +18,47 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.xml.catalog;
+
+package java.xml.share.classes.javax.xml.catalog;
+
 
 import com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Spliterator;
 import java.util.Spliterators;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
-import static javax.xml.catalog.BaseEntry.CatalogEntryType;
-import static javax.xml.catalog.CatalogFeatures.DEFER_TRUE;
-import javax.xml.catalog.CatalogFeatures.Feature;
-import static javax.xml.catalog.CatalogMessages.formatMessage;
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.parsers.SAXParser;
-import javax.xml.parsers.SAXParserFactory;
+import static java.xml.share.classes.javax.xml.catalog.BaseEntry.CatalogEntryType;.extended
+import static java.xml.share.classes.javax.xml.catalog.CatalogFeatures.DEFER_TRUE;.extended
+import java.xml.share.classes.javax.xml.catalog.CatalogFeatures.Feature;
+import static java.xml.share.classes.javax.xml.catalog.CatalogMessages.formatMessage;.extended
+import java.xml.share.classes.javax.xml.parsers.ParserConfigurationException;
+import java.xml.share.classes.javax.xml.parsers.SAXParser;
+import java.xml.share.classes.javax.xml.parsers.SAXParserFactory;
 import org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of the Catalog.

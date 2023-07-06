@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.bcel.internal.util;
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.util;
 
-import com.sun.org.apache.bcel.internal.classfile.JavaClass;
+
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.JavaClass;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract definition of a class repository. Instances may be used

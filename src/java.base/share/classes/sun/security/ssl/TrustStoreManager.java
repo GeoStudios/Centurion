@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
+
 
 import java.io.*;
 import java.lang.ref.WeakReference;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.cert.*;
 import java.util.*;
 import java.util.concurrent.locks.ReentrantLock;
-import sun.security.action.*;
-import sun.security.util.FilePaths;
-import sun.security.validator.TrustStoreUtil;
+import java.base.share.classes.sun.security.action.*;
+import java.base.share.classes.sun.security.util.FilePaths;
+import java.base.share.classes.sun.security.validator.TrustStoreUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Collection of static utility methods to manage the default trusted KeyStores

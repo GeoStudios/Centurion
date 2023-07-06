@@ -19,23 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.implementations;
+
+
+import java.io.ByteArrayOutputStream;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.OutputStream;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.CanonicalizationException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.implementations.Canonicalizer20010315;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.implementations.Canonicalizer20010315OmitComments;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.XMLSignatureInput;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.TransformSpi;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.Transforms;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.transforms.implementations;
 
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.OutputStream;
 
-import com.sun.org.apache.xml.internal.security.c14n.CanonicalizationException;
-import com.sun.org.apache.xml.internal.security.c14n.implementations.Canonicalizer20010315;
-import com.sun.org.apache.xml.internal.security.c14n.implementations.Canonicalizer20010315OmitComments;
-import com.sun.org.apache.xml.internal.security.signature.XMLSignatureInput;
-import com.sun.org.apache.xml.internal.security.transforms.TransformSpi;
-import com.sun.org.apache.xml.internal.security.transforms.Transforms;
-import org.w3c.dom.Element;
+
 
 /**
  * Implements the {@code http://www.w3.org/TR/2001/REC-xml-c14n-20010315}

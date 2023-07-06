@@ -18,22 +18,38 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.hierarchicallayout;
 
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Set;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.TreeSet;
+package utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.com.sun.hotspot.igv.hierarchicallayout;
+
+
+import utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.awt.Point;
+import utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.awt.Rectangle;
+import utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.util.HashMap;
+import utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.util.java.util.java.util.java.util.List;
+import utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.util.Set;
+import utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.util.Arrayjava.util.java.util.java.util.List;
+import utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.util.HashSet;
+import utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.util.TreeSet;
 import com.sun.hotspot.igv.layout.Cluster;
 import com.sun.hotspot.igv.layout.LayoutGraph;
 import com.sun.hotspot.igv.layout.LayoutManager;
 import com.sun.hotspot.igv.layout.Link;
 import com.sun.hotspot.igv.layout.Port;
 import com.sun.hotspot.igv.layout.Vertex;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

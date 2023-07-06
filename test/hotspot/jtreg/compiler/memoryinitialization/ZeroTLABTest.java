@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.memoryinitialization;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8086053
@@ -29,7 +46,6 @@
  * @run main/othervm -Xcomp -XX:-UseTLAB -XX:-ZeroTLAB compiler.memoryinitialization.ZeroTLABTest
  */
 
-package compiler.memoryinitialization;
 
 public class ZeroTLABTest {
     public static void main(String args[]) {

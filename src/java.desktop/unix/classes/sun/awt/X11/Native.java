@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import jdk.internal.misc.Unsafe;
 import java.util.Vector;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains the collection of utility functions to help work with
@@ -188,7 +203,7 @@ class Native {
         if (shorts == null) {
             return 0;
         }
-        long res = XlibWrapper.unsafe.allocateMemory(shorts.length*getShortSize());
+        long res = XlibWrapper.unsafe.allocateMemory((long) shorts.length *getShortSize());
         for (int i = 0; i < shorts.length; i++) {
             putShort(res, i, shorts[i]);
         }
@@ -218,7 +233,7 @@ class Native {
         if (shorts == null) {
             return 0;
         }
-        long res = XlibWrapper.unsafe.allocateMemory(shorts.length*getShortSize());
+        long res = XlibWrapper.unsafe.allocateMemory((long) shorts.length *getShortSize());
         for (int i = 0; i < shorts.length; i++) {
             putUShort(res, i, shorts[i]);
         }
@@ -242,7 +257,7 @@ class Native {
         if (ints == null) {
             return 0;
         }
-        long res = XlibWrapper.unsafe.allocateMemory(ints.length*getIntSize());
+        long res = XlibWrapper.unsafe.allocateMemory((long) ints.length *getIntSize());
         for (int i = 0; i < ints.length; i++) {
             putInt(res, i, ints[i]);
         }
@@ -272,7 +287,7 @@ class Native {
         if (ints == null) {
             return 0;
         }
-        long res = XlibWrapper.unsafe.allocateMemory(ints.length*getIntSize());
+        long res = XlibWrapper.unsafe.allocateMemory((long) ints.length *getIntSize());
         for (int i = 0; i < ints.length; i++) {
             putUInt(res, i, ints[i]);
         }
@@ -364,7 +379,7 @@ class Native {
         if (longs == null) {
             return 0;
         }
-        long res = XlibWrapper.unsafe.allocateMemory(longs.length*getLongSize());
+        long res = XlibWrapper.unsafe.allocateMemory((long) longs.length *getLongSize());
         for (int i = 0; i < longs.length; i++) {
             putLong(res, i, longs[i]);
         }

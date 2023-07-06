@@ -21,8 +21,22 @@
 
 package org.w3c.dom.css;
 
+
 import java.lang.annotation.*;
-import static java.lang.annotation.ElementType.*;
+import static java.lang.annotation.ElementType.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @Documented
 @Retention(RetentionPolicy.RUNTIME)

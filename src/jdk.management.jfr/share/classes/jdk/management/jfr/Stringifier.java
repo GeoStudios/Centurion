@@ -19,7 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.management.jfr;
+package jdk.management.jfr.share.classes.jdk.management.jfr;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Helper class for generating toString()
  *

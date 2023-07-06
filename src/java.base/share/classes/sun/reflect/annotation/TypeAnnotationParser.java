@@ -19,21 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.reflect.annotation;
+package java.base.share.classes.sun.reflect.annotation;
+
 
 import java.lang.annotation.*;
 import java.lang.reflect.*;
 import java.nio.ByteBuffer;
 import java.nio.BufferUnderflowException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.access.JavaLangAccess;
 import jdk.internal.reflect.ConstantPool;
-import static sun.reflect.annotation.TypeAnnotation.*;
+import static java.base.share.classes.sun.reflect.annotation.TypeAnnotation.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * TypeAnnotationParser implements the logic needed to parse

@@ -19,15 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils;
+
+
+import java.xml.crypto.share.classes.com.sun.org.xml.sax.ErrorHandler;
+import java.xml.crypto.share.classes.com.sun.org.xml.sax.SAXException;
+import java.xml.crypto.share.classes.com.sun.org.xml.sax.SAXParseException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.utils;
 
-import org.xml.sax.ErrorHandler;
-import org.xml.sax.SAXException;
-import org.xml.sax.SAXParseException;
+
 
 /**
  * This {@link org.xml.sax.ErrorHandler} does absolutely nothing but LOG

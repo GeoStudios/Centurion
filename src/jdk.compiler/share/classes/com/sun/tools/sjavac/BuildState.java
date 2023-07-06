@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac;
+package jdk.compiler.share.classes.com.sun.tools.sjavac;
+
 
 import java.io.File;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.pubapi.PubApi;
 
-import com.sun.tools.javac.util.Assert;
-import com.sun.tools.sjavac.pubapi.PubApi;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The build state class captures the source code and generated artifacts
@@ -74,7 +88,7 @@ public class BuildState {
      */
     Module findModuleFromPackageName(String pkg) {
         int cp = pkg.indexOf(':');
-        Assert.check(cp != -1, "Could not find package name");
+        Assert.check(cp != -1, "Could not find 
         String mod = pkg.substring(0, cp);
         return lookupModule(mod);
     }
@@ -214,7 +228,7 @@ public class BuildState {
             for (String s : original.keySet()) {
                 Source s1 = original.get(s);
                 Source s2 = calculated.get(s);
-                if (s1 == null || s2 == null || !s1.equals(s2)) {
+                if (s1 == null || !s1.equals(s2)) {
                     Log.error("INTERNAL ERROR "+msg+" original and calculated have differing elements for "+s);
                 }
                 baad = true;

@@ -19,6 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci.compilerToVM;
+
+
+import compiler.jvmci.common.CTVMUtilities;
+import compiler.jvmci.common.testcases.AbstractClass;
+import compiler.jvmci.common.testcases.AnotherSingleImplementer;
+import compiler.jvmci.common.testcases.AnotherSingleImplementerInterface;
+import compiler.jvmci.common.testcases.DoNotExtendClass;
+import compiler.jvmci.common.testcases.MultipleAbstractImplementer;
+import compiler.jvmci.common.testcases.MultipleImplementersInterface;
+import compiler.jvmci.common.testcases.MultipleImplementersInterfaceExtender;
+import compiler.jvmci.common.testcases.SingleImplementer;
+import compiler.jvmci.common.testcases.SingleImplementerInterface;
+import compiler.jvmci.common.testcases.SingleSubclass;
+import compiler.jvmci.common.testcases.SingleSubclassedClass;
+import jdk.test.lib.Asserts;
+import jdk.test.lib.Utils;
+import jdk.vm.ci.hotspot.CompilerToVMHelper;
+import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
+import jdk.vm.ci.hotspot.HotSpotResolvedObjectType;
+import java.lang.reflect.Method;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8136421
@@ -39,30 +77,8 @@
  *                   compiler.jvmci.compilerToVM.GetVtableIndexForInterfaceTest
  */
 
-package compiler.jvmci.compilerToVM;
 
-import compiler.jvmci.common.CTVMUtilities;
-import compiler.jvmci.common.testcases.AbstractClass;
-import compiler.jvmci.common.testcases.AnotherSingleImplementer;
-import compiler.jvmci.common.testcases.AnotherSingleImplementerInterface;
-import compiler.jvmci.common.testcases.DoNotExtendClass;
-import compiler.jvmci.common.testcases.MultipleAbstractImplementer;
-import compiler.jvmci.common.testcases.MultipleImplementersInterface;
-import compiler.jvmci.common.testcases.MultipleImplementersInterfaceExtender;
-import compiler.jvmci.common.testcases.SingleImplementer;
-import compiler.jvmci.common.testcases.SingleImplementerInterface;
-import compiler.jvmci.common.testcases.SingleSubclass;
-import compiler.jvmci.common.testcases.SingleSubclassedClass;
-import jdk.test.lib.Asserts;
-import jdk.test.lib.Utils;
-import jdk.vm.ci.hotspot.CompilerToVMHelper;
-import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
-import jdk.vm.ci.hotspot.HotSpotResolvedObjectType;
 
-import java.lang.reflect.Method;
-import java.util.HashSet;
-import java.util.Set;
-import java.util.stream.Stream;
 
 public class GetVtableIndexForInterfaceTest {
     private static final int INVALID_VTABLE_INDEX = -4; // see method.hpp: VtableIndexFlag

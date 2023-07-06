@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.openmbean;
+package java.management.share.classes.javax.management.openmbean;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This runtime exception is thrown to indicate that a method parameter which was expected to be

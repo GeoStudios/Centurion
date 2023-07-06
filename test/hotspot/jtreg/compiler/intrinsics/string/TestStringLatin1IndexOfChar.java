@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.string;
+
+
+import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8173585
@@ -39,9 +57,7 @@
  * @run main/othervm -Xbatch -XX:Tier4InvocationThreshold=200 -XX:CompileThreshold=100 -XX:+IgnoreUnrecognizedVMOptions -XX:UseAVX=3 compiler.intrinsics.string.TestStringLatin1IndexOfChar
  */
 
-package compiler.intrinsics.string;
 
-import jdk.test.lib.Asserts;
 
 public class TestStringLatin1IndexOfChar{
     private final static int MAX_LENGTH = 2048;//future proof for AVX-512 instructions

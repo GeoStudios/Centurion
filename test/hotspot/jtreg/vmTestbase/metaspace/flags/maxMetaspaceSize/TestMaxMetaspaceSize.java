@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package metaspace.flags.maxMetaspaceSize;
+
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -30,10 +48,7 @@
  * @build metaspace.flags.maxMetaspaceSize.maxMetaspaceSize
  * @run driver metaspace.flags.maxMetaspaceSize.TestMaxMetaspaceSize
  */
-package metaspace.flags.maxMetaspaceSize;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class TestMaxMetaspaceSize {
     public static void main(String[] args) throws Exception {

@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.stress.stack;
+
+
+import nsk.share.Terminator;
+import java.io.PrintStream;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress
@@ -50,14 +71,9 @@
  * @run main/othervm/timeout=900 -Xss220K nsk.stress.stack.stack018 -eager
  */
 
-package nsk.stress.stack;
 
 
-import nsk.share.Terminator;
 
-import java.io.PrintStream;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 
 public class stack018 extends Thread {
     private final static int THREADS = 10;

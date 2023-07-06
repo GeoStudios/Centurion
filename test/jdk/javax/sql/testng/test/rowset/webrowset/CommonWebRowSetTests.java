@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.rowset.webrowset;
+
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -31,14 +33,27 @@ import java.io.ObjectOutputStream;
 import java.io.OutputStreamWriter;
 import java.math.BigDecimal;
 import java.sql.ResultSet;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import javax.sql.rowset.WebRowSet;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertEqualsNoOrder;
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertTrue;
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertEqualsNoOrder;.extended
+import static org.testng.Assert.assertFalse;.extended
+import static org.testng.Assert.assertTrue;.extended
 import org.testng.annotations.Test;
 import test.rowset.cachedrowset.CommonCachedRowSetTests;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class CommonWebRowSetTests extends CommonCachedRowSetTests {
 

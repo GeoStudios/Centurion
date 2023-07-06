@@ -19,14 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature;
+
+
+import java.util.Collections;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.signature;
 
-import java.util.Collections;
-import java.util.List;
+
 
 /**
  * Holds the result of a Reference validation.

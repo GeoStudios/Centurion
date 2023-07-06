@@ -21,17 +21,31 @@
 
 package simp;
 
+
 import java.awt.image.BufferedImage;
-import java.io.IOException;
-import java.util.ArrayList;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
-import javax.imageio.IIOException;
+import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import javax.imageio.ImageReadParam;
 import javax.imageio.ImageReader;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.spi.ImageReaderSpi;
 import javax.imageio.stream.ImageInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * A simple image format which has no compression and is a

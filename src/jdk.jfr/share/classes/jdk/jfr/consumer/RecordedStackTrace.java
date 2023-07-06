@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.consumer;
+package jdk.jfr.share.classes.jdk.jfr.consumer;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
-import jdk.jfr.internal.consumer.ObjectContext;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.ObjectContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A recorded stack trace.
@@ -49,7 +63,7 @@ public final class RecordedStackTrace extends RecordedObject {
             return new ArrayList<>(0);
         }
         List<?> list = Arrays.asList(array);
-        return (List<RecordedFrame>) list;
+        return list;
     }
 
     /**

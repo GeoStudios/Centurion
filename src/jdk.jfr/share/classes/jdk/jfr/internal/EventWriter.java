@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal;
+package jdk.jfr.share.classes.jdk.jfr.internal;
 
-import jdk.internal.misc.Unsafe;
-import jdk.jfr.internal.consumer.StringParser;
+
+import jdk.jfr.share.classes.jdk.internal.misc.Unsafe;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.StringParser;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class must reside in a package with package restriction.

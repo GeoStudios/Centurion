@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
-import static java.lang.invoke.LambdaForm.*;
-import static java.lang.invoke.LambdaForm.BasicType.*;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.*;.extended
+import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Working storage for an LF that is being transformed.
  *  Similarly to a StringBuffer, the editing can take place in multiple steps.

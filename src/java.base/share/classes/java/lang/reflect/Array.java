@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.reflect;
+package java.base.share.classes.java.lang.reflect;
 
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code Array} class provides static methods to dynamically create and

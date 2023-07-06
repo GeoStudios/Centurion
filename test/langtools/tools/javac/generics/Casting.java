@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package Casting;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4468840
@@ -28,7 +45,6 @@
  * @compile  Casting.java
  */
 
-package Casting;
 
 class Test {}
 

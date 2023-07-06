@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap;
+package java.naming.share.classes.com.sun.jndi.ldap;
+
 
 import javax.naming.*;
 import javax.naming.directory.*;
@@ -28,28 +29,39 @@ import javax.naming.event.*;
 import javax.naming.ldap.*;
 import javax.naming.ldap.LdapName;
 import javax.naming.ldap.Rdn;
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Set;
 import java.util.Vector;
 import java.util.Hashtable;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.StringTokenizer;
 import java.util.Enumeration;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
-
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
+import java.naming.share.classes.com.sun.jndi.toolkit.ctx.*;
+import java.naming.share.classes.com.sun.jndi.toolkit.dir.HierMemDirCtx;
+import java.naming.share.classes.com.sun.jndi.toolkit.dir.SearchFilter;
+import java.naming.share.classes.com.sun.jndi.ldap.ext.StartTlsResponseImpl;
 
-import com.sun.jndi.toolkit.ctx.*;
-import com.sun.jndi.toolkit.dir.HierMemDirCtx;
-import com.sun.jndi.toolkit.dir.SearchFilter;
-import com.sun.jndi.ldap.ext.StartTlsResponseImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The LDAP context implementation.

@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.media.sound;
+package java.desktop.share.classes.com.sun.media.sound;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-
 import javax.sound.midi.Patch;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to store information to describe instrument.

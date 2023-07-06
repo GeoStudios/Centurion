@@ -19,25 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.toolkit.taglets;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.taglets;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.EnumSet;
-import java.util.List;
-
+import java.util.java.util.java.util.java.util.List;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ExecutableElement;
 import javax.lang.model.type.TypeMirror;
-
 import com.sun.source.doctree.DocTree;
 import com.sun.source.doctree.ReturnTree;
-import jdk.javadoc.doclet.Taglet.Location;
-import jdk.javadoc.internal.doclets.toolkit.Content;
-import jdk.javadoc.internal.doclets.toolkit.Messages;
-import jdk.javadoc.internal.doclets.toolkit.util.CommentHelper;
-import jdk.javadoc.internal.doclets.toolkit.util.DocFinder;
-import jdk.javadoc.internal.doclets.toolkit.util.DocFinder.Input;
-import jdk.javadoc.internal.doclets.toolkit.util.Utils;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.Taglet.Location;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Messages;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.CommentHelper;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFinder;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFinder.Input;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A taglet that represents the {@code @return} and {@code {@return }} tags.

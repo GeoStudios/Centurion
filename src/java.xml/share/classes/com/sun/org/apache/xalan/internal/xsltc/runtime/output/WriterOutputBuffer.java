@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.runtime.output;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime.output;
+
 
 import java.io.BufferedWriter;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.Writer;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @LastModified: Sep 2017

@@ -18,10 +18,12 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.javadoc.internal.tool;
 
-import java.io.IOException;
-import java.util.ArrayList;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.tool;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.EnumMap;
@@ -30,10 +32,9 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
-
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ElementKind;
 import javax.lang.model.element.Modifier;
@@ -48,7 +49,6 @@ import javax.tools.JavaFileManager;
 import javax.tools.JavaFileManager.Location;
 import javax.tools.JavaFileObject;
 import javax.tools.StandardLocation;
-
 import com.sun.tools.javac.code.Kinds.Kind;
 import com.sun.tools.javac.code.Source;
 import com.sun.tools.javac.code.Source.Feature;
@@ -65,19 +65,29 @@ import com.sun.tools.javac.tree.JCTree.JCCompilationUnit;
 import com.sun.tools.javac.tree.JCTree.JCModuleDecl;
 import com.sun.tools.javac.tree.TreeInfo;
 import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.ListBuffer;
+import com.sun.tools.javac.util.java.util.ListBuffer;
 import com.sun.tools.javac.util.Name;
 import com.sun.tools.javac.util.Names;
-import jdk.javadoc.doclet.DocletEnvironment;
-import jdk.javadoc.doclet.DocletEnvironment.ModuleMode;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.DocletEnvironment;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.DocletEnvironment.ModuleMode;
+import static com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;.extended
+import static javax.lang.model.util.Elements.Origin.*;.extended
+import static javax.tools.JavaFileObject.Kind.*;.extended
+import static jdk.javadoc.share.classes.jdk.javadoc.internal.tool.Main.Result.*;.extended
+import static jdk.javadoc.share.classes.jdk.javadoc.internal.tool.JavadocTool.isValidClassName;.extended
 
-import static com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;
 
-import static javax.lang.model.util.Elements.Origin.*;
-import static javax.tools.JavaFileObject.Kind.*;
 
-import static jdk.javadoc.internal.tool.Main.Result.*;
-import static jdk.javadoc.internal.tool.JavadocTool.isValidClassName;
+
+
+
+
+
+
+
+
+
+
 
 
 /**

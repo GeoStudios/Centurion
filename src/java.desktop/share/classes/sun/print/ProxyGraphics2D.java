@@ -19,10 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.share.classes.sun.print;
+
 
 import java.util.Map;
-
 import java.awt.Color;
 import java.awt.Composite;
 import java.awt.Graphics;
@@ -39,9 +39,7 @@ import java.awt.Shape;
 import java.awt.Stroke;
 import java.awt.RenderingHints;
 import java.awt.RenderingHints.Key;
-
 import java.awt.font.GlyphVector;
-
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Rectangle2D;
 import java.awt.geom.NoninvertibleTransformException;
@@ -53,8 +51,21 @@ import java.awt.image.renderable.RenderContext;
 import java.awt.image.renderable.RenderableImage;
 import java.awt.print.PrinterGraphics;
 import java.awt.print.PrinterJob;
-
 import java.text.AttributedCharacterIterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ProxyGraphics2D extends Graphics2D implements PrinterGraphics {
 

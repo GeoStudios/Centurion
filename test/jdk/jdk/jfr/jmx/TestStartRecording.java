@@ -21,12 +21,25 @@
 
 package jdk.jfr.jmx;
 
-import java.util.List;
-import java.util.Map;
 
+import java.util.java.util.java.util.java.util.List;
+import java.util.Map;
 import jdk.management.jfr.ConfigurationInfo;
 import jdk.management.jfr.EventTypeInfo;
 import jdk.management.jfr.FlightRecorderMXBean;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

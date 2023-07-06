@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.tree;
+package jdk.compiler.share.classes.com.sun.tools.javac.tree;
 
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.tree.JCTree.*;
+
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A subclass of Tree.Visitor, this class defines
  *  a general tree translator pattern. Translation proceeds recursively in

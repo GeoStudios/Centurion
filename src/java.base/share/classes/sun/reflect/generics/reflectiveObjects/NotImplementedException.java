@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.reflect.generics.reflectiveObjects;
+package java.base.share.classes.sun.reflect.generics.reflectiveObjects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Temporary class used to indicate missing functionality */
 public class NotImplementedException extends RuntimeException {

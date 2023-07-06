@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.tools;
+package java.compiler.share.classes.javax.tools;
 
-import java.util.Locale;
+
+import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface for diagnostics from tools.  A diagnostic usually reports

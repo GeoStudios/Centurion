@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.remote;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.remote;
 
-import sun.jvm.hotspot.debugger.*;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** An interface used only internally by the ProcDebugger to be able to
     create platform-specific Thread objects */

@@ -19,18 +19,14 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package com.sun.org.apache.xml.internal.security.transforms.implementations;
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.implementations;
+
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-
 import javax.xml.XMLConstants;
 import javax.xml.transform.Source;
 import javax.xml.transform.Transformer;
@@ -39,14 +35,36 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.XMLSignatureInput;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.TransformSpi;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.TransformationException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.Transforms;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.XMLUtils;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
 
-import com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
-import com.sun.org.apache.xml.internal.security.signature.XMLSignatureInput;
-import com.sun.org.apache.xml.internal.security.transforms.TransformSpi;
-import com.sun.org.apache.xml.internal.security.transforms.TransformationException;
-import com.sun.org.apache.xml.internal.security.transforms.Transforms;
-import com.sun.org.apache.xml.internal.security.utils.XMLUtils;
-import org.w3c.dom.Element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
+
 
 /**
  * Class TransformXSLT

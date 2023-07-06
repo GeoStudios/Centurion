@@ -19,11 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package com.sun.org.apache.xml.internal.security.utils;
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils;
+
 
 import javax.xml.XMLConstants;
 import javax.xml.transform.TransformerException;
@@ -33,9 +30,30 @@ import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 import javax.xml.xpath.XPathFactoryConfigurationException;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
 
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
 
 /**
  * An implementation for XPath evaluation that uses the JDK API.

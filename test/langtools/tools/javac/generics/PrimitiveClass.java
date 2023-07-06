@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package primitive._class;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 5028351
@@ -28,7 +45,6 @@
  * @compile  PrimitiveClass.java
  */
 
-package primitive._class;
 
 class PrimitiveClass {
     Class<Integer> ci = int.class;

@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package transform;
+
+
+import java.io.InputStream;
+import java.io.StringBufferInputStream;
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLOutputFactory;
+import org.testng.annotations.java.util.Listeners;
+import org.testng.annotations.Test;
+import com.sun.org.apache.xalan.internal.xsltc.trax.SAX2StAXEventWriter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6551616
@@ -28,18 +52,10 @@
  * @summary Test SAX2StAXEventWriter.
  */
 
-package transform;
 
-import java.io.InputStream;
-import java.io.StringBufferInputStream;
 
-import javax.xml.stream.XMLEventWriter;
-import javax.xml.stream.XMLOutputFactory;
 
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
 
-import com.sun.org.apache.xalan.internal.xsltc.trax.SAX2StAXEventWriter;
 
 @Listeners({jaxp.library.InternalAPIPolicy.class})
 public class Bug6551616 {

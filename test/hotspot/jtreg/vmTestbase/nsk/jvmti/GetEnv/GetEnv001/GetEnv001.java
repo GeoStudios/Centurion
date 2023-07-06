@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jvmti.GetEnv.GetEnv001;
+
+
+import nsk.share.Consts;
+import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -40,10 +58,7 @@
  * @run main/othervm/native -agentlib:GetEnv001 nsk.jvmti.GetEnv.GetEnv001.GetEnv001
  */
 
-package nsk.jvmti.GetEnv.GetEnv001;
 
-import nsk.share.Consts;
-import java.io.PrintStream;
 
 public class GetEnv001 {
     native private static int getLoadedClassesCount();

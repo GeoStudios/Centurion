@@ -19,19 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xpath.internal.functions;
+
+
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.Expression;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.ExpressionOwner;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathVisitor;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.Compiler;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xpath.internal.functions;
 
-import com.sun.org.apache.xalan.internal.res.XSLMessages;
-import com.sun.org.apache.xpath.internal.Expression;
-import com.sun.org.apache.xpath.internal.ExpressionOwner;
-import com.sun.org.apache.xpath.internal.XPathContext;
-import com.sun.org.apache.xpath.internal.XPathVisitor;
-import com.sun.org.apache.xpath.internal.compiler.Compiler;
-import com.sun.org.apache.xpath.internal.objects.XObject;
+
 
 /**
  * This is a superclass of all XPath functions.  This allows two

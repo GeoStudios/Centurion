@@ -19,24 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac;
+package jdk.compiler.share.classes.com.sun.tools.sjavac;
+
 
 import java.io.File;
 import java.net.URI;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.pubapi.PubApi;
 
-import com.sun.tools.javac.util.Assert;
-import com.sun.tools.sjavac.pubapi.PubApi;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Package class maintains meta information about a package.

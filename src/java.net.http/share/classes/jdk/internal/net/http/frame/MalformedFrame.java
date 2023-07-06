@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http.frame;
+package java.net.http.share.classes.jdk.internal.net.http.frame;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MalformedFrame extends Http2Frame {
 

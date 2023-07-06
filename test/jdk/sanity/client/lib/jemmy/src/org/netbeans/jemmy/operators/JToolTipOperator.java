@@ -18,19 +18,19 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.operators;
+
 
 import java.awt.Component;
 import java.awt.Window;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Hashtable;
-import java.util.List;
-
+import java.util.java.util.java.util.java.util.List;
 import javax.swing.JComponent;
 import javax.swing.JToolTip;
 import javax.swing.plaf.ToolTipUI;
-
 import org.netbeans.jemmy.ComponentChooser;
 import org.netbeans.jemmy.ComponentSearcher;
 import org.netbeans.jemmy.JemmyException;
@@ -38,6 +38,19 @@ import org.netbeans.jemmy.TimeoutExpiredException;
 import org.netbeans.jemmy.Timeouts;
 import org.netbeans.jemmy.Waitable;
 import org.netbeans.jemmy.Waiter;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <BR>

@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.font;
+package java.desktop.share.classes.java.awt.font;
 
-import java.io.InvalidObjectException;
-import java.io.Serial;
-import java.text.AttributedCharacterIterator.Attribute;
-import java.util.HashMap;
-import java.util.Map;
 
-import jdk.internal.access.SharedSecrets;
+import java.desktop.share.classes.java.io.InvalidObjectException;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.text.AttributedCharacterIterator.Attribute;
+import java.desktop.share.classes.java.util.HashMap;
+import java.desktop.share.classes.java.util.Map;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code TextAttribute} class defines attribute keys and

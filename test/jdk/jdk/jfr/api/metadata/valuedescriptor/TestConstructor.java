@@ -21,13 +21,26 @@
 
 package jdk.jfr.api.metadata.valuedescriptor;
 
-import java.util.ArrayList;
-import java.util.List;
 
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import jdk.jfr.AnnotationElement;
 import jdk.jfr.Label;
 import jdk.jfr.ValueDescriptor;
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

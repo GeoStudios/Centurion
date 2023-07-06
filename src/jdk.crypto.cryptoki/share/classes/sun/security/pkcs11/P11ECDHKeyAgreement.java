@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs11;
+package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11;
 
-import java.security.*;
+
+import java.base.share.classes.java.security.*;
 import java.security.interfaces.ECPublicKey;
 import java.security.spec.AlgorithmParameterSpec;
+import java.base.share.classes.javax.crypto.*;
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.TemplateManager.*;.extended
+import jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.*;
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Constants.*;.extended
 
-import javax.crypto.*;
 
-import static sun.security.pkcs11.TemplateManager.*;
-import sun.security.pkcs11.wrapper.*;
-import static sun.security.pkcs11.wrapper.PKCS11Constants.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * KeyAgreement implementation for ECDH.
@@ -97,11 +110,10 @@ final class P11ECDHKeyAgreement extends KeyAgreementSpi {
             throw new IllegalStateException
                 ("Only two party agreement supported, lastPhase must be true");
         }
-        if (!(key instanceof ECPublicKey)) {
+        if (!(key instanceof ECPublicKey ecKey)) {
             throw new InvalidKeyException
                 ("Key must be a PublicKey with algorithm EC");
         }
-        ECPublicKey ecKey = (ECPublicKey)key;
         int keyLenBits = ecKey.getParams().getCurve().getField().getFieldSize();
         secretLen = (keyLenBits + 7) >> 3;
         publicValue = P11ECKeyFactory.getEncodedPublicValue(ecKey);

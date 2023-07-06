@@ -18,21 +18,21 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.jfr.event.gc.detailed;
 
-import static jdk.test.lib.Asserts.assertEquals;
-import static jdk.test.lib.Asserts.assertNotEquals;
-import static jdk.test.lib.Asserts.assertTrue;
-import jdk.test.lib.Utils;
 
-import java.util.List;
+import static jdk.test.lib.Asserts.assertEquals;.extended
+import static jdk.test.lib.Asserts.assertNotEquals;.extended
+import static jdk.test.lib.Asserts.assertTrue;.extended
+import jdk.test.lib.Utils;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Random;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.TimeUnit;
-
 import jdk.jfr.Recording;
 import jdk.jfr.consumer.RecordedEvent;
 import jdk.jfr.consumer.RecordedFrame;
@@ -40,6 +40,19 @@ import jdk.jfr.consumer.RecordedStackTrace;
 import jdk.jfr.consumer.RecordedThread;
 import jdk.test.lib.jfr.EventNames;
 import jdk.test.lib.jfr.Events;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Starts several threads which allocate a lot of objects that remain in young

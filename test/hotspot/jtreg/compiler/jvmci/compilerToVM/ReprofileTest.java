@@ -19,6 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci.compilerToVM;
+
+
+import compiler.jvmci.common.CTVMUtilities;
+import compiler.whitebox.CompilerWhiteBoxTest;
+import jdk.test.lib.Asserts;
+import jdk.vm.ci.hotspot.CompilerToVMHelper;
+import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
+import jdk.vm.ci.meta.ProfilingInfo;
+import java.lang.reflect.Method;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8136421
@@ -41,18 +67,8 @@
  *                   compiler.jvmci.compilerToVM.ReprofileTest
  */
 
-package compiler.jvmci.compilerToVM;
 
-import compiler.jvmci.common.CTVMUtilities;
-import compiler.whitebox.CompilerWhiteBoxTest;
-import jdk.test.lib.Asserts;
-import jdk.vm.ci.hotspot.CompilerToVMHelper;
-import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
-import jdk.vm.ci.meta.ProfilingInfo;
 
-import java.lang.reflect.Method;
-import java.util.ArrayList;
-import java.util.List;
 
 public class ReprofileTest {
 

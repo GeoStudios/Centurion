@@ -21,16 +21,16 @@
 
 package sun.security.testlibrary;
 
+
 import java.io.*;
 import java.util.*;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.cert.X509Certificate;
 import java.security.cert.CertificateException;
 import java.security.cert.CertificateFactory;
 import java.security.cert.Extension;
 import javax.security.auth.x500.X500Principal;
 import java.math.BigInteger;
-
 import sun.security.util.DerOutputStream;
 import sun.security.util.DerValue;
 import sun.security.util.ObjectIdentifier;
@@ -49,6 +49,19 @@ import sun.security.x509.SerialNumber;
 import sun.security.x509.SubjectAlternativeNameExtension;
 import sun.security.x509.URIName;
 import sun.security.x509.KeyIdentifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper class that builds and signs X.509 certificates.

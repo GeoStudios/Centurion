@@ -18,22 +18,24 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.jpackage.test;
+
 
 import java.awt.Desktop;
 import java.awt.GraphicsEnvironment;
 import java.io.File;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.java.util.java.util.java.util.List;
+import java.util.java.util.ListIterator;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
 import java.util.function.BiConsumer;
 import java.util.function.BiFunction;
@@ -46,6 +48,17 @@ import jdk.jpackage.internal.ApplicationLayout;
 import jdk.jpackage.test.Functional.ThrowingBiConsumer;
 import jdk.jpackage.test.Functional.ThrowingConsumer;
 import jdk.jpackage.test.Functional.ThrowingRunnable;
+
+
+
+
+
+
+
+
+
+
+
 
 
 

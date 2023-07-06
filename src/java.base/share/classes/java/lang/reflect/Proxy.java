@@ -19,33 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.reflect;
+package java.base.share.classes.java.lang.reflect;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodType;
-import java.lang.invoke.WrongMethodTypeException;
-import java.lang.module.ModuleDescriptor;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.ArrayDeque;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Deque;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.IdentityHashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Set;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.atomic.AtomicLong;
-import java.util.function.BooleanSupplier;
 
+import java.base.share.classes.java.lang.invoke.MethodHandle;
+import java.base.share.classes.java.lang.invoke.MethodHandles;
+import java.base.share.classes.java.lang.invoke.MethodType;
+import java.base.share.classes.java.lang.invoke.WrongMethodTypeException;
+import java.base.share.classes.java.lang.module.ModuleDescriptor;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.PrivilegedAction;
+import java.base.share.classes.java.util.ArrayDeque;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.Collections;
+import java.base.share.classes.java.util.Deque;
+import java.base.share.classes.java.util.HashMap;
+import java.base.share.classes.java.util.HashSet;
+import java.base.share.classes.java.util.IdentityHashMap;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Set;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.concurrent.atomic.AtomicInteger;
+import java.base.share.classes.java.util.concurrent.atomic.AtomicLong;
+import java.base.share.classes.java.util.function.BooleanSupplier;
 import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.module.Modules;
 import jdk.internal.misc.VM;
 import jdk.internal.reflect.CallerSensitive;
@@ -55,9 +55,22 @@ import jdk.internal.vm.annotation.Stable;
 import sun.reflect.misc.ReflectUtil;
 import sun.security.action.GetPropertyAction;
 import sun.security.util.SecurityConstants;
+import static java.base.share.classes.java.lang.invoke.MethodType.methodType;.extended
+import static java.base.share.classes.java.lang.module.ModuleDescriptor.Modifier.SYNTHETIC;.extended
 
-import static java.lang.invoke.MethodType.methodType;
-import static java.lang.module.ModuleDescriptor.Modifier.SYNTHETIC;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *
@@ -187,7 +200,7 @@ import static java.lang.module.ModuleDescriptor.Modifier.SYNTHETIC;
  * <li>if at least one of all the proxy interfaces is <em>non-public</em>, then
  *     the proxy class is <em>non-public</em> in the package and module of the
  *     non-public interfaces. All the non-public interfaces must be in the same
- *     package and module; otherwise, proxying them is
+ *      otherwise, proxying them is
  *     <a href="#restrictions">not possible</a>.</li>
  * </ol>
  * </li>
@@ -202,7 +215,7 @@ import static java.lang.module.ModuleDescriptor.Modifier.SYNTHETIC;
  * <li>if at least one of all the proxy interfaces is <em>non-public</em>, then
  *     the proxy class is <em>non-public</em> in the package and module of the
  *     non-public interfaces. All the non-public interfaces must be in the same
- *     package and module; otherwise, proxying them is
+ *      otherwise, proxying them is
  *     <a href="#restrictions">not possible</a>.</li>
  * </ol>
  * </li>
@@ -526,7 +539,7 @@ public class Proxy implements java.io.Serializable {
                                        : m.getName();
             } else if (proxyPkg.isEmpty() && m.isNamed()) {
                 throw new IllegalArgumentException(
-                        "Unnamed package cannot be added to " + m);
+                        "Unnamed 
             }
 
             if (m.isNamed()) {

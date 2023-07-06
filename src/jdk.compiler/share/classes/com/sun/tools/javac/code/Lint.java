@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.code;
+package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
-import java.util.Arrays;
+
+import java.base.share.classes.java.util.Arrays;
 import java.util.EnumSet;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Option;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Options;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Pair;
 
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.main.Option;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.Options;
-import com.sun.tools.javac.util.Pair;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class for handling -Xlint suboptions and @SuppressWarnings.

@@ -19,25 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.runtime;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime;
+
 
 import java.io.*;
 import java.net.*;
 import java.util.*;
 import java.util.regex.*;
-import sun.jvm.hotspot.code.*;
-import sun.jvm.hotspot.c1.*;
-import sun.jvm.hotspot.code.*;
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.interpreter.*;
-import sun.jvm.hotspot.memory.*;
-import sun.jvm.hotspot.oops.*;
-import sun.jvm.hotspot.types.*;
-import sun.jvm.hotspot.utilities.*;
-import sun.jvm.hotspot.runtime.*;
-import sun.jvm.hotspot.classfile.*;
-import sun.jvm.hotspot.utilities.Observable;
-import sun.jvm.hotspot.utilities.Observer;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.c1.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.interpreter.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.memory.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.classfile.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** <P> This class encapsulates the global state of the VM; the
     universe, object heap, interpreter, etc. It is a Singleton and

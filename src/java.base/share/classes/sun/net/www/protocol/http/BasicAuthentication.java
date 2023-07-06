@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.protocol.http;
+package java.base.share.classes.sun.net.www.protocol.http;
+
 
 import java.net.URL;
 import java.net.URI;
@@ -28,14 +29,28 @@ import java.net.PasswordAuthentication;
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.Charset;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Base64;
-import java.util.Objects;
-import sun.net.www.HeaderParser;
-import sun.nio.cs.ISO_8859_1;
-import sun.nio.cs.UTF_8;
+import java.base.share.classes.java.util.Objects;
+import java.base.share.classes.sun.net.www.HeaderParser;
+import java.base.share.classes.sun.nio.cs.ISO_8859_1;
+import java.base.share.classes.sun.nio.cs.UTF_8;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * BasicAuthentication: Encapsulate an http server authentication using

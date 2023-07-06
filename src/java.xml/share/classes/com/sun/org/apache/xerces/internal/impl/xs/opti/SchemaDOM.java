@@ -19,21 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.xs.opti;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.opti;
 
-import com.sun.org.apache.xerces.internal.util.XMLSymbols;
-import com.sun.org.apache.xerces.internal.xni.NamespaceContext;
-import com.sun.org.apache.xerces.internal.xni.QName;
-import com.sun.org.apache.xerces.internal.xni.XMLAttributes;
-import com.sun.org.apache.xerces.internal.xni.XMLString;
-import java.util.ArrayList;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLSymbols;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLAttributes;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLString;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Enumeration;
-import java.util.List;
-import org.w3c.dom.Attr;
-import org.w3c.dom.DOMImplementation;
-import org.w3c.dom.Element;
-import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
+import java.util.java.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMImplementation;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @xerces.internal

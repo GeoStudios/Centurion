@@ -18,16 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.bench.javax.crypto.small;
+
 
 import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.Param;
 import org.openjdk.jmh.annotations.Setup;
+import java.base.share.classes.javax.crypto.*;
+import java.base.share.classes.javax.crypto.spec.*;
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.java.security.spec.*;
 
-import javax.crypto.*;
-import javax.crypto.spec.*;
-import java.security.*;
-import java.security.spec.*;
+
+
+
+
+
+
+
+
+
+
+
 
 
 public abstract class CipherBench extends

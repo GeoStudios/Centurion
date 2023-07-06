@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.types.basic;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.basic;
 
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.types.*;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This interface is designed to allow a platform-specific
     implementation of the TypeDataBase.isOfType() method, while

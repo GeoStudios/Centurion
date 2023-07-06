@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.event;
+package java.desktop.share.classes.javax.swing.event;
+
 
 import java.awt.event.MouseAdapter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An empty implementation of the {@code MouseInputListener} interface, provided

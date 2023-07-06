@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jvmti.AttachOnDemand.attach001;
+
+
+import nsk.share.Failure;
+import nsk.share.aod.*;
+import nsk.share.test.TestUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -56,11 +76,7 @@
  *      -na simpleAgent00
  */
 
-package nsk.jvmti.AttachOnDemand.attach001;
 
-import nsk.share.Failure;
-import nsk.share.aod.*;
-import nsk.share.test.TestUtils;
 
 /*
  * Test tries to attach agents to the same VM where target application is running

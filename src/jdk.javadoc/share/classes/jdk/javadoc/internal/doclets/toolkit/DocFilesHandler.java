@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit;
 
-package jdk.javadoc.internal.doclets.toolkit;
 
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPath;
 
-import jdk.javadoc.internal.doclets.toolkit.util.DocPath;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The interface for copying doc-files to the output.
  *

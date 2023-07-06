@@ -19,25 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javap;
+package jdk.jdeps.share.classes.com.sun.tools.javap;
 
-import java.util.Arrays;
+
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.AccessFlags;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Attribute;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Code_attribute;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPoolException;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Descriptor;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Descriptor.InvalidDescriptor;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Instruction;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Method;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.StackMapTable_attribute;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.StackMapTable_attribute.*;
+import static jdk.jdeps.share.classes.com.sun.tools.classfile.StackMapTable_attribute.verification_type_info.*;.extended
 
-import com.sun.tools.classfile.AccessFlags;
-import com.sun.tools.classfile.Attribute;
-import com.sun.tools.classfile.Code_attribute;
-import com.sun.tools.classfile.ConstantPool;
-import com.sun.tools.classfile.ConstantPoolException;
-import com.sun.tools.classfile.Descriptor;
-import com.sun.tools.classfile.Descriptor.InvalidDescriptor;
-import com.sun.tools.classfile.Instruction;
-import com.sun.tools.classfile.Method;
-import com.sun.tools.classfile.StackMapTable_attribute;
-import com.sun.tools.classfile.StackMapTable_attribute.*;
 
-import static com.sun.tools.classfile.StackMapTable_attribute.verification_type_info.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Annotate instructions with stack map.

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7123108
@@ -27,7 +44,6 @@
  * @run main/othervm -Xcomp compiler.c1.Test7123108
  */
 
-package compiler.c1;
 
 public class Test7123108 {
 

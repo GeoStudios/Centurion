@@ -18,13 +18,15 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.agent;
+
+package jdk.management.agent.share.classes.jdk.internal.agent;
+
 
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.lang.management.ManagementFactory;
 import java.lang.reflect.Method;
@@ -42,16 +44,28 @@ import java.util.ResourceBundle;
 import java.util.ServiceLoader;
 import java.util.function.Function;
 import java.util.function.Predicate;
-
 import javax.management.remote.JMXConnectorServer;
 import javax.management.remote.JMXServiceURL;
-
-import static jdk.internal.agent.AgentConfigurationError.*;
-import jdk.internal.agent.spi.AgentProvider;
-import jdk.internal.vm.VMSupport;
+import static jdk.management.agent.share.classes.jdk.internal.agent.AgentConfigurationError.*;.extended
+import jdk.management.agent.share.classes.jdk.internal.agent.spi.AgentProvider;
+import jdk.management.agent.share.classes.jdk.internal.vm.VMSupport;
 import sun.management.jdp.JdpController;
 import sun.management.jdp.JdpException;
 import sun.management.jmxremote.ConnectorBootstrap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides the methods to start the management agent.

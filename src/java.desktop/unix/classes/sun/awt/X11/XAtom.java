@@ -19,7 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
+
+import jdk.internal.misc.Unsafe;
+import java.nio.charset.StandardCharsets;
+import java.util.HashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * XAtom is a class that allows you to create and modify X Window properties.
@@ -52,10 +71,7 @@ package sun.awt.X11;
  *
  */
 
-import jdk.internal.misc.Unsafe;
 
-import java.nio.charset.StandardCharsets;
-import java.util.HashMap;
 
 public final class XAtom {
 
@@ -413,7 +429,7 @@ public final class XAtom {
         }
         checkWindow(window);
         WindowPropertyGetter getter =
-            new WindowPropertyGetter(window, this, 0, (long)length,
+            new WindowPropertyGetter(window, this, 0, length,
                                      false, this);
         try {
             int status = getter.execute();
@@ -427,7 +443,7 @@ public final class XAtom {
                 {
                     return false;
                 }
-            XlibWrapper.memcpy(data_ptr, getter.getData(), length*getAtomSize());
+            XlibWrapper.memcpy(data_ptr, getter.getData(), (long) length *getAtomSize());
             return true;
         } finally {
             getter.dispose();
@@ -447,7 +463,7 @@ public final class XAtom {
         }
         checkWindow(window);
         WindowPropertyGetter getter =
-            new WindowPropertyGetter(window, this, 0, (long)length,
+            new WindowPropertyGetter(window, this, 0, length,
                                      false, type);
         try {
             int status = getter.execute();
@@ -461,7 +477,7 @@ public final class XAtom {
                 {
                     return false;
                 }
-            XlibWrapper.memcpy(data_ptr, getter.getData(), length*getAtomSize());
+            XlibWrapper.memcpy(data_ptr, getter.getData(), (long) length *getAtomSize());
             return true;
         } finally {
             getter.dispose();

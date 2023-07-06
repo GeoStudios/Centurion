@@ -18,12 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package p1;
 
-import p1.internal.*;
-import static java.lang.invoke.MethodHandles.Lookup.*;
 
+import p1.internal.*;
+import static java.lang.invoke.MethodHandles.Lookup.*;.extended
 import java.lang.invoke.MethodHandles;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Test::test is invoked by Main class

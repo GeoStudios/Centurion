@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.peer;
+package java.desktop.share.classes.java.awt.peer;
 
-import java.awt.SystemTray;
-import java.awt.TrayIcon;
+
+import java.desktop.share.classes.java.awt.SystemTray;
+import java.desktop.share.classes.java.awt.TrayIcon;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The peer interface for the {@link TrayIcon}. This doesn't need to be

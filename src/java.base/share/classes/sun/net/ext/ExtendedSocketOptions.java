@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.ext;
+package java.base.share.classes.sun.net.ext;
+
 
 import java.io.FileDescriptor;
-import java.net.SocketException;
-import java.net.SocketOption;
+import java.net.java.net.SocketException;
+import java.net.java.net.SocketOption;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines the infrastructure to support extended socket options, beyond those

@@ -19,13 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/**
- * FTP stream opener.
- */
+package java.base.share.classes.sun.net.www.protocol.ftp;
 
-package sun.net.www.protocol.ftp;
 
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.BufferedInputStream;
@@ -34,29 +31,50 @@ import java.io.FilterOutputStream;
 import java.io.FileNotFoundException;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.net.SocketPermission;
+import java.net.java.net.SocketPermission;
 import java.net.UnknownHostException;
-import java.net.InetSocketAddress;
+import java.net.Inetjava.net.SocketAddress;
 import java.net.URI;
 import java.net.Proxy;
 import java.net.ProxySelector;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.StringTokenizer;
 import java.util.Iterator;
 import java.security.Permission;
 import java.util.Properties;
-import sun.net.NetworkClient;
-import sun.net.util.IPAddressUtil;
-import sun.net.www.MessageHeader;
-import sun.net.www.MeteredStream;
-import sun.net.www.URLConnection;
-import sun.net.www.protocol.http.HttpURLConnection;
-import sun.net.ftp.FtpClient;
-import sun.net.ftp.FtpProtocolException;
-import sun.net.ProgressSource;
-import sun.net.ProgressMonitor;
-import sun.net.www.ParseUtil;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.net.NetworkClient;
+import java.base.share.classes.sun.net.util.IPAddressUtil;
+import java.base.share.classes.sun.net.www.MessageHeader;
+import java.base.share.classes.sun.net.www.MeteredStream;
+import java.base.share.classes.sun.net.www.URLConnection;
+import java.base.share.classes.sun.net.www.protocol.http.HttpURLConnection;
+import java.base.share.classes.sun.net.ftp.FtpClient;
+import java.base.share.classes.sun.net.ftp.FtpProtocolException;
+import java.base.share.classes.sun.net.ProgressSource;
+import java.base.share.classes.sun.net.ProgressMonitor;
+import java.base.share.classes.sun.net.www.ParseUtil;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * FTP stream opener.
+ */
+
+
+
 
 
 /**

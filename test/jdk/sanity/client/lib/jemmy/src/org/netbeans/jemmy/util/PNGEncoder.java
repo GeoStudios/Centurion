@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.util;
+
 
 import java.awt.AWTException;
 import java.awt.Component;
@@ -29,11 +31,24 @@ import java.awt.image.BufferedImage;
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.util.zip.CRC32;
 import java.util.zip.Deflater;
 import java.util.zip.DeflaterOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class allows to encode BufferedImage into B/W, greyscale or true color

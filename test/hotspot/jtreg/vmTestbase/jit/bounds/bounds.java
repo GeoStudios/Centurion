@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.bounds;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,12 +48,10 @@
  * @run main/othervm jit.bounds.bounds
  */
 
-package jit.bounds;
 
 // This test makes sure that array bounds checking is enabled
 // with the JIT on
 
-import nsk.share.TestFailure;
 
 public class bounds {
     public static void main(String[] argv) {

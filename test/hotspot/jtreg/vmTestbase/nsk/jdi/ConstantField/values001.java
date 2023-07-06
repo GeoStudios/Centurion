@@ -21,14 +21,26 @@
 
 package nsk.jdi.ConstantField;
 
+
 import nsk.share.*;
 import nsk.share.jdi.*;
-
 import com.sun.jdi.*;
 import com.sun.jdi.request.*;
-
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *   Test checks up static fields of JDI interfaces according to specification

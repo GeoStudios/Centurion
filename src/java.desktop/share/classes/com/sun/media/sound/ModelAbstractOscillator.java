@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.media.sound;
+package java.desktop.share.classes.com.sun.media.sound;
 
-import java.io.IOException;
 
+import java.io.java.io.java.io.java.io.IOException;
 import javax.sound.midi.Instrument;
 import javax.sound.midi.MidiChannel;
 import javax.sound.midi.Patch;
 import javax.sound.midi.Soundbank;
 import javax.sound.midi.SoundbankResource;
 import javax.sound.midi.VoiceStatus;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A abstract class used to simplify creating custom ModelOscillator.

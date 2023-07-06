@@ -21,8 +21,8 @@
 
 package jdk.jfr.api.consumer;
 
-import java.util.List;
 
+import java.util.java.util.java.util.java.util.List;
 import jdk.jfr.Recording;
 import jdk.jfr.consumer.RecordedClass;
 import jdk.jfr.consumer.RecordedClassLoader;
@@ -31,6 +31,19 @@ import jdk.test.lib.Asserts;
 import jdk.test.lib.jfr.EventNames;
 import jdk.test.lib.jfr.Events;
 import jdk.test.lib.jfr.TestClassLoader;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

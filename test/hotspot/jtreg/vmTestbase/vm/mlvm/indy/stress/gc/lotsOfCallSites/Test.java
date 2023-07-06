@@ -19,6 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.mlvm.indy.stress.gc.lotsOfCallSites;
+
+
+import java.lang.invoke.CallSite;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodType;
+import java.lang.ref.PhantomReference;
+import java.lang.ref.Reference;
+import java.lang.ref.ReferenceQueue;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.management.MemoryMXBean;
+import java.lang.management.MemoryPoolMXBean;
+import java.lang.management.ManagementFactory;
+import java.lang.management.MemoryUsage;
+import java.util.HashSet;
+import sun.hotspot.WhiteBox;
+import nsk.share.test.Stresser;
+import vm.mlvm.share.CustomClassLoaders;
+import vm.mlvm.share.Env;
+import vm.mlvm.share.MlvmTest;
+import vm.share.FileUtils;
+import vm.share.options.Option;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -42,32 +80,9 @@
  *                   vm.mlvm.indy.stress.gc.lotsOfCallSites.Test
  */
 
-package vm.mlvm.indy.stress.gc.lotsOfCallSites;
 
-import java.lang.invoke.CallSite;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodType;
-import java.lang.ref.PhantomReference;
-import java.lang.ref.Reference;
-import java.lang.ref.ReferenceQueue;
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.management.MemoryMXBean;
-import java.lang.management.MemoryPoolMXBean;
-import java.lang.management.ManagementFactory;
-import java.lang.management.MemoryUsage;
-import java.util.HashSet;
 
-import sun.hotspot.WhiteBox;
 
-import nsk.share.test.Stresser;
-import vm.mlvm.share.CustomClassLoaders;
-import vm.mlvm.share.Env;
-import vm.mlvm.share.MlvmTest;
-import vm.share.FileUtils;
-import vm.share.options.Option;
 
 /**
  * The test creates a lot of CallSites by loading a class with a bootstrap method and invokedynamic

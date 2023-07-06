@@ -19,15 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs11;
+package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11;
+
 
 import java.lang.ref.*;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.base.share.classes.java.security.*;
+import jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.*;
 
-import java.security.*;
 
-import sun.security.pkcs11.wrapper.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A session object. Sessions are obtained via the SessionManager,

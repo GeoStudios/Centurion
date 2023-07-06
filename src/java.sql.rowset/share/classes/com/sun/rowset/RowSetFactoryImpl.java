@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.rowset;
+package java.sql.rowset.share.classes.com.sun.rowset;
+
 
 import java.sql.SQLException;
 import javax.sql.rowset.CachedRowSet;
@@ -28,6 +29,20 @@ import javax.sql.rowset.JdbcRowSet;
 import javax.sql.rowset.JoinRowSet;
 import javax.sql.rowset.WebRowSet;
 import javax.sql.rowset.RowSetFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the implementation specific class for the

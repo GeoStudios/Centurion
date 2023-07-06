@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.formats.html;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-import java.util.List;
-import java.util.Locale;
+
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ExecutableElement;
@@ -34,11 +35,24 @@ import javax.lang.model.type.DeclaredType;
 import javax.lang.model.type.TypeMirror;
 import javax.lang.model.type.TypeVariable;
 import javax.lang.model.util.SimpleTypeVisitor9;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.HtmlId;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.SummaryAPIjava.util.ListBuilder;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable;
 
-import jdk.javadoc.internal.doclets.formats.html.markup.HtmlId;
-import jdk.javadoc.internal.doclets.toolkit.util.SummaryAPIListBuilder;
-import jdk.javadoc.internal.doclets.toolkit.util.Utils;
-import jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Centralized constants and factory methods for HTML ids.

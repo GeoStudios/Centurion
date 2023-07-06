@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font.lookup;
+package java.desktop.share.classes.sun.font.lookup;
 
-import sun.font.SunFontManager;
+
+import java.desktop.share.classes.sun.font.SunFontManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation-class accessed by other JDK modules to

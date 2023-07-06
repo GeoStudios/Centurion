@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.share.jdi.sde;
+
 
 import java.io.*;
 import java.nio.channels.FileChannel;
@@ -31,6 +33,19 @@ import nsk.share.ClassFileFinder;
 import nsk.share.TestBug;
 import nsk.share.jdi.EventHandler;
 import nsk.share.jdi.TestDebuggerType2;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Class is used as base debugger for SDE tests.

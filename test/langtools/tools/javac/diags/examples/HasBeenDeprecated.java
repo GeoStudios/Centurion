@@ -19,10 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package p;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // key: compiler.warn.has.been.deprecated
 // options: -Xlint:deprecation
 
-package p;
 
 class Test {
     DeprecatedClass d;

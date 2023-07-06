@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf;
+package java.desktop.share.classes.javax.swing.plaf;
 
-import javax.swing.JComponent;
-import javax.swing.SwingUtilities;
-import javax.accessibility.Accessible;
 
+import java.desktop.share.classes.javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.SwingUtilities;
+import java.desktop.share.classes.javax.accessibility.Accessible;
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Insets;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

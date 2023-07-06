@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.share.classes.sun.print;
+
 
 import java.awt.AlphaComposite;
 import java.awt.Color;
@@ -27,11 +28,23 @@ import java.awt.Composite;
 import java.awt.Graphics2D;
 import java.awt.Image;
 import java.awt.Paint;
-
 import java.awt.font.TextLayout;
-
 import java.awt.image.RenderedImage;
 import java.awt.image.renderable.RenderableImage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Maintain information about the type of drawing

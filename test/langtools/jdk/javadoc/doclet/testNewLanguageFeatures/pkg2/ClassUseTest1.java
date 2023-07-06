@@ -21,6 +21,21 @@
 
 package pkg2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class ClassUseTest1 <T extends Foo & Foo2> {
 
     public ParamTest<Foo> field;

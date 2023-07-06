@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import javax.swing.JComponent;
 import javax.swing.ImageIcon;
@@ -32,24 +33,34 @@ import javax.swing.DefaultButtonModel;
 import javax.swing.ButtonGroup;
 import javax.swing.ButtonModel;
 import javax.swing.plaf.ComponentUI;
-
 import java.awt.Component;
 import java.awt.AWTKeyStroke;
 import java.awt.KeyboardFocusManager;
-
 import java.awt.event.ActionEvent;
-import java.awt.event.KeyListener;
+import java.awt.event.Keyjava.util.Listener;
 import java.awt.event.KeyEvent;
-
-import apple.laf.JRSUIConstants.Widget;
-import com.apple.laf.AquaUtilControlSize.SizeVariant;
-import com.apple.laf.AquaUtilControlSize.SizeDescriptor;
-import com.apple.laf.AquaUtils.RecyclableSingleton;
-import com.apple.laf.AquaUtils.RecyclableSingletonFromDefaultConstructor;
-
+import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.Widget;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtilControlSize.SizeVariant;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtilControlSize.SizeDescriptor;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingletonFromDefaultConstructor;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.Enumeration;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaButtonRadioUI extends AquaButtonLabeledUI {
 

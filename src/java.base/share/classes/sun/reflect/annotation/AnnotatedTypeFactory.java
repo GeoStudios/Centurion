@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.reflect.annotation;
+package java.base.share.classes.sun.reflect.annotation;
+
 
 import java.lang.annotation.*;
 import java.lang.reflect.*;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.stream.Stream;
 import java.util.stream.Collectors;
+import static java.base.share.classes.sun.reflect.annotation.TypeAnnotation.*;.extended
 
-import static sun.reflect.annotation.TypeAnnotation.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class AnnotatedTypeFactory {
     /**

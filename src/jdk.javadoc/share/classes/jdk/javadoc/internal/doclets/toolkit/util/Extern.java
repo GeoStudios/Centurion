@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.toolkit.util;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util;
+
 
 import java.io.BufferedReader;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
@@ -34,7 +35,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 import java.util.TreeMap;
-
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ModuleElement;
@@ -42,11 +42,24 @@ import javax.lang.model.element.PackageElement;
 import javax.tools.Diagnostic;
 import javax.tools.Diagnostic.Kind;
 import javax.tools.DocumentationTool;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.Reporter;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.AbstractDoclet;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Resources;
 
-import jdk.javadoc.doclet.Reporter;
-import jdk.javadoc.internal.doclets.toolkit.AbstractDoclet;
-import jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
-import jdk.javadoc.internal.doclets.toolkit.Resources;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Process and manage "-link" and "-linkoffline" to external packages. The

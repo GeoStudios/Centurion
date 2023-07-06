@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.jpeg;
+package java.desktop.share.classes.com.sun.imageio.plugins.jpeg;
+
 
 import javax.imageio.metadata.IIOMetadataFormat;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JPEGStreamMetadataFormat extends JPEGMetadataFormat {
 

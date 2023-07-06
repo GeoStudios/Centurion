@@ -19,58 +19,71 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.comp;
+package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-import com.sun.tools.javac.code.Flags;
-import com.sun.tools.javac.code.Symbol;
-import com.sun.tools.javac.code.Symtab;
-import com.sun.tools.javac.code.Type;
-import com.sun.tools.javac.code.Types.FunctionDescriptorLookupError;
-import com.sun.tools.javac.comp.Attr.ResultInfo;
-import com.sun.tools.javac.comp.Attr.TargetInfo;
-import com.sun.tools.javac.comp.Check.CheckContext;
-import com.sun.tools.javac.comp.DeferredAttr.AttrMode;
-import com.sun.tools.javac.comp.DeferredAttr.DeferredAttrContext;
-import com.sun.tools.javac.comp.DeferredAttr.DeferredType;
-import com.sun.tools.javac.comp.DeferredAttr.LambdaReturnScanner;
-import com.sun.tools.javac.comp.DeferredAttr.SwitchExpressionScanner;
-import com.sun.tools.javac.comp.Infer.PartiallyInferredMethodType;
-import com.sun.tools.javac.comp.Resolve.MethodResolutionPhase;
-import com.sun.tools.javac.resources.CompilerProperties.Fragments;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.JCTree.JCConditional;
-import com.sun.tools.javac.tree.JCTree.JCExpression;
-import com.sun.tools.javac.tree.JCTree.JCLambda;
-import com.sun.tools.javac.tree.JCTree.JCLambda.ParameterKind;
-import com.sun.tools.javac.tree.JCTree.JCMemberReference;
-import com.sun.tools.javac.tree.JCTree.JCMethodInvocation;
-import com.sun.tools.javac.tree.JCTree.JCNewClass;
-import com.sun.tools.javac.tree.JCTree.JCParens;
-import com.sun.tools.javac.tree.JCTree.JCReturn;
-import com.sun.tools.javac.tree.JCTree.JCSwitchExpression;
-import com.sun.tools.javac.tree.TreeCopier;
-import com.sun.tools.javac.tree.TreeInfo;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.DiagnosticSource;
-import com.sun.tools.javac.util.JCDiagnostic;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.ListBuffer;
-import com.sun.tools.javac.util.Log;
 
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Flags;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symtab;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Types.FunctionDescriptorLookupError;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Attr.ResultInfo;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Attr.TargetInfo;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Check.CheckContext;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.DeferredAttr.AttrMode;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.DeferredAttr.DeferredAttrContext;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.DeferredAttr.DeferredType;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.DeferredAttr.LambdaReturnScanner;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.DeferredAttr.SwitchExpressionScanner;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Infer.PartiallyInferredMethodType;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Resolve.MethodResolutionPhase;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCConditional;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCExpression;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCLambda;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCLambda.ParameterKind;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCMemberReference;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCMethodInvocation;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCNewClass;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCParens;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCReturn;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCSwitchExpression;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeCopier;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeInfo;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DiagnosticSource;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.ListBuffer;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Optional;
 import java.util.function.Function;
 import java.util.function.Supplier;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.ARRAY;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.DEFERRED;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.FORALL;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.METHOD;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.VOID;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCYield;
 
-import static com.sun.tools.javac.code.TypeTag.ARRAY;
-import static com.sun.tools.javac.code.TypeTag.DEFERRED;
-import static com.sun.tools.javac.code.TypeTag.FORALL;
-import static com.sun.tools.javac.code.TypeTag.METHOD;
-import static com.sun.tools.javac.code.TypeTag.VOID;
-import com.sun.tools.javac.tree.JCTree.JCYield;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class performs attribution of method/constructor arguments when target-typing is enabled

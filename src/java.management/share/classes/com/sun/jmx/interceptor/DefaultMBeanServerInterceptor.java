@@ -19,21 +19,19 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.interceptor;
+package java.management.share.classes.com.sun.jmx.interceptor;
 
 
-// JMX RI
-import static com.sun.jmx.defaults.JmxProperties.MBEANSERVER_LOGGER;
-import com.sun.jmx.mbeanserver.DynamicMBean2;
-import com.sun.jmx.mbeanserver.Introspector;
-import com.sun.jmx.mbeanserver.MBeanInstantiator;
-import com.sun.jmx.mbeanserver.ModifiableClassLoaderRepository;
-import com.sun.jmx.mbeanserver.NamedObject;
-import com.sun.jmx.mbeanserver.Repository;
-import com.sun.jmx.mbeanserver.Repository.RegistrationContext;
-import com.sun.jmx.mbeanserver.Util;
-import com.sun.jmx.remote.util.EnvHelp;
-
+import static java.management.share.classes.com.sun.jmx.defaults.JmxProperties.MBEANSERVER_LOGGER;.extended
+import java.management.share.classes.com.sun.jmx.mbeanserver.DynamicMBean2;
+import java.management.share.classes.com.sun.jmx.mbeanserver.Introspector;
+import java.management.share.classes.com.sun.jmx.mbeanserver.MBeanInstantiator;
+import java.management.share.classes.com.sun.jmx.mbeanserver.ModifiableClassLoaderRepository;
+import java.management.share.classes.com.sun.jmx.mbeanserver.NamedObject;
+import java.management.share.classes.com.sun.jmx.mbeanserver.Repository;
+import java.management.share.classes.com.sun.jmx.mbeanserver.Repository.RegistrationContext;
+import java.management.share.classes.com.sun.jmx.mbeanserver.Util;
+import java.management.share.classes.com.sun.jmx.remote.util.EnvHelp;
 import java.io.ObjectInputStream;
 import java.lang.ref.WeakReference;
 import java.security.AccessControlContext;
@@ -41,16 +39,14 @@ import java.security.AccessController;
 import java.security.Permission;
 import java.security.PrivilegedAction;
 import java.security.ProtectionDomain;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.util.WeakHashMap;
 import java.lang.System.Logger.Level;
-
-// JMX import
 import javax.management.Attribute;
-import javax.management.AttributeList;
+import javax.management.Attributejava.util.java.util.java.util.List;
 import javax.management.AttributeNotFoundException;
 import javax.management.DynamicMBean;
 import javax.management.InstanceAlreadyExistsException;
@@ -58,7 +54,7 @@ import javax.management.InstanceNotFoundException;
 import javax.management.IntrospectionException;
 import javax.management.InvalidAttributeValueException;
 import javax.management.JMRuntimeException;
-import javax.management.ListenerNotFoundException;
+import javax.management.java.util.ListenerNotFoundException;
 import javax.management.MBeanException;
 import javax.management.MBeanInfo;
 import javax.management.MBeanPermission;
@@ -73,7 +69,7 @@ import javax.management.Notification;
 import javax.management.NotificationBroadcaster;
 import javax.management.NotificationEmitter;
 import javax.management.NotificationFilter;
-import javax.management.NotificationListener;
+import javax.management.Notificationjava.util.Listener;
 import javax.management.ObjectInstance;
 import javax.management.ObjectName;
 import javax.management.OperationsException;
@@ -84,6 +80,25 @@ import javax.management.RuntimeErrorException;
 import javax.management.RuntimeMBeanException;
 import javax.management.RuntimeOperationsException;
 import javax.management.loading.ClassLoaderRepository;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// JMX RI
+
+
+// JMX import
 
 /**
  * This is the default class for MBean manipulation on the agent side. It

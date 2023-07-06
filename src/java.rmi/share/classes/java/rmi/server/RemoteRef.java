@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.rmi.server;
+package java.rmi.share.classes.java.rmi.server;
 
-import java.rmi.*;
+
+import java.rmi.share.classes.java.rmi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>RemoteRef</code> represents the handle for a remote object. A

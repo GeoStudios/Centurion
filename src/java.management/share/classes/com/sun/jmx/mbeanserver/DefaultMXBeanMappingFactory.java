@@ -19,15 +19,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.mbeanserver;
+package java.management.share.classes.com.sun.jmx.mbeanserver;
 
-import static com.sun.jmx.mbeanserver.Util.*;
-import static com.sun.jmx.mbeanserver.MXBeanIntrospector.typeName;
 
-import static javax.management.openmbean.SimpleType.*;
-
-import com.sun.jmx.remote.util.EnvHelp;
-
+import static java.management.share.classes.com.sun.jmx.mbeanserver.Util.*;.extended
+import static java.management.share.classes.com.sun.jmx.mbeanserver.MXBeanIntrospector.typeName;.extended
+import static javax.management.openmbean.SimpleType.*;.extended
+import java.management.share.classes.com.sun.jmx.remote.util.EnvHelp;
 import java.io.InvalidObjectException;
 import java.lang.annotation.ElementType;
 import java.lang.ref.WeakReference;
@@ -40,20 +38,19 @@ import java.lang.reflect.Modifier;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Proxy;
 import java.lang.reflect.Type;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.BitSet;
 import java.util.Collection;
 import java.util.Comparator;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.SortedMap;
 import java.util.SortedSet;
 import java.util.TreeSet;
 import java.util.WeakHashMap;
-
 import javax.management.JMX;
 import javax.management.ObjectName;
 import javax.management.ConstructorParameters;
@@ -69,8 +66,22 @@ import javax.management.openmbean.SimpleType;
 import javax.management.openmbean.TabularData;
 import javax.management.openmbean.TabularDataSupport;
 import javax.management.openmbean.TabularType;
-import sun.reflect.misc.MethodUtil;
-import sun.reflect.misc.ReflectUtil;
+import java.management.share.classes.com.sun.reflect.misc.MethodUtil;
+import java.management.share.classes.com.sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *   <p>A converter between Java types and the limited set of classes

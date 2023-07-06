@@ -21,14 +21,26 @@
 
 package jdk.jfr.jmx.streaming;
 
+
 import java.lang.management.ManagementFactory;
 import java.util.concurrent.CountDownLatch;
-
 import javax.management.MBeanServerConnection;
-
 import jdk.jfr.Event;
 import jdk.jfr.Recording;
 import jdk.management.jfr.RemoteRecordingStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

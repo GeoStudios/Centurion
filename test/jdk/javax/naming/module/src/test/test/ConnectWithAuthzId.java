@@ -19,13 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/**
- * Demonstrate JNDI using an LDAP request/response control.
- * The Authorization Identity controls and their associated control factory
- * is supplied by a third-party module.
- */
-
 package test;
+
 
 import java.io.PrintStream;
 import java.net.*;
@@ -33,9 +28,30 @@ import java.util.*;
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.ldap.*;
-
 import org.example.authz.AuthzIdRequestControl;
 import org.example.authz.AuthzIdResponseControl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Demonstrate JNDI using an LDAP request/response control.
+ * The Authorization Identity controls and their associated control factory
+ * is supplied by a third-party module.
+ */
+
+
+
 
 public class ConnectWithAuthzId {
 

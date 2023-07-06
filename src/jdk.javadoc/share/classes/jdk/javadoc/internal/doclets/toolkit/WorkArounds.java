@@ -19,15 +19,15 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.toolkit;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit;
 
-import java.util.Arrays;
+
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.SortedSet;
 import java.util.TreeSet;
-
 import javax.lang.model.element.AnnotationMirror;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ExecutableElement;
@@ -40,7 +40,6 @@ import javax.lang.model.util.Elements;
 import javax.lang.model.util.Types;
 import javax.tools.FileObject;
 import javax.tools.JavaFileManager.Location;
-
 import com.sun.source.util.TreePath;
 import com.sun.tools.javac.code.Attribute;
 import com.sun.tools.javac.code.Flags;
@@ -57,15 +56,26 @@ import com.sun.tools.javac.comp.Env;
 import com.sun.tools.javac.model.JavacElements;
 import com.sun.tools.javac.util.Names;
 import com.sun.tools.javac.util.Options;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.tool.ToolEnvironment;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.tool.DocEnvImpl;
+import static com.sun.tools.javac.code.Kinds.Kind.*;.extended
+import static com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;.extended
+import static javax.lang.model.element.ElementKind.*;.extended
 
-import jdk.javadoc.internal.doclets.toolkit.util.Utils;
-import jdk.javadoc.internal.tool.ToolEnvironment;
-import jdk.javadoc.internal.tool.DocEnvImpl;
 
-import static com.sun.tools.javac.code.Kinds.Kind.*;
-import static com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;
 
-import static javax.lang.model.element.ElementKind.*;
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A quarantine class to isolate all the workarounds and bridges to

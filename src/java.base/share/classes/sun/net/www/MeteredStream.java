@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www;
+package java.base.share.classes.sun.net.www;
+
 
 import java.io.*;
 import java.util.concurrent.locks.ReentrantLock;
-import sun.net.ProgressSource;
-import sun.net.www.http.ChunkedInputStream;
+import java.base.share.classes.sun.net.ProgressSource;
+import java.base.share.classes.sun.net.www.http.ChunkedInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class MeteredStream extends FilterInputStream {

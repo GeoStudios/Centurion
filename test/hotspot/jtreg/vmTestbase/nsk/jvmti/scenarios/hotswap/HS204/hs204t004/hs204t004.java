@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jvmti.scenarios.hotswap.HS204.hs204t004;
+
+
+import java.util.concurrent.atomic.AtomicBoolean;
+import nsk.share.jvmti.RedefineAgent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -47,9 +66,6 @@
  *      nsk.jvmti.scenarios.hotswap.HS204.hs204t004.hs204t004
  */
 
-package nsk.jvmti.scenarios.hotswap.HS204.hs204t004;
-import java.util.concurrent.atomic.AtomicBoolean;
-import nsk.share.jvmti.RedefineAgent;
 
 public class hs204t004 extends RedefineAgent {
     public hs204t004(String[] arg) {

@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.meta;
 
-import static jdk.vm.ci.meta.MetaUtil.internalNameToJava;
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
+
+
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta.MetaUtil.internalNameToJava;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a resolved or unresolved type. Types include primitives, objects, {@code void}, and

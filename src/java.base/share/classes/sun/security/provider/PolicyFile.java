@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider;
+package java.base.share.classes.sun.security.provider;
+
 
 import java.io.*;
 import java.lang.reflect.*;
@@ -29,23 +30,36 @@ import java.net.URI;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.*;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.cert.Certificate;
 import java.security.cert.X509Certificate;
 import javax.security.auth.Subject;
 import javax.security.auth.x500.X500Principal;
-import java.net.SocketPermission;
+import java.net.java.net.SocketPermission;
 import java.net.NetPermission;
 import java.util.concurrent.ConcurrentHashMap;
 import jdk.internal.access.JavaSecurityAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.util.StaticProperty;
-import sun.nio.fs.DefaultFileSystemProvider;
-import sun.security.util.*;
-import sun.net.www.ParseUtil;
+import java.base.share.classes.sun.nio.fs.DefaultFileSystemProvider;
+import java.base.share.classes.sun.security.util.*;
+import java.base.share.classes.sun.net.www.ParseUtil;
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
+import static jdk.internal.access.JavaSecurityAccess.ProtectionDomainCache;.extended
 
-import static java.nio.charset.StandardCharsets.UTF_8;
-import static jdk.internal.access.JavaSecurityAccess.ProtectionDomainCache;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents a default Policy implementation for the

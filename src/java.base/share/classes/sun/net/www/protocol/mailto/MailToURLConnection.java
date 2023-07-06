@@ -19,18 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.protocol.mailto;
+package java.base.share.classes.sun.net.www.protocol.mailto;
+
 
 import java.net.URL;
 import java.net.InetAddress;
-import java.net.SocketPermission;
+import java.net.java.net.SocketPermission;
 import java.io.*;
 import java.security.Permission;
-
 import jdk.internal.util.StaticProperty;
-import sun.net.www.*;
-import sun.net.smtp.SmtpClient;
-import sun.net.www.ParseUtil;
+import java.base.share.classes.sun.net.www.*;
+import java.base.share.classes.sun.net.smtp.SmtpClient;
+import java.base.share.classes.sun.net.www.ParseUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

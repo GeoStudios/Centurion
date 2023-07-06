@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xpath.internal.axes;
+package java.xml.share.classes.com.sun.org.apache.xpath.internal.axes;
 
-import com.sun.org.apache.xml.internal.dtm.DTM;
-import com.sun.org.apache.xml.internal.dtm.DTMFilter;
-import com.sun.org.apache.xml.internal.dtm.DTMIterator;
-import com.sun.org.apache.xml.internal.dtm.DTMManager;
-import com.sun.org.apache.xml.internal.utils.NodeVector;
-import com.sun.org.apache.xml.internal.utils.QName;
-import com.sun.org.apache.xpath.internal.NodeSetDTM;
-import com.sun.org.apache.xpath.internal.XPathContext;
-import com.sun.org.apache.xpath.internal.objects.XObject;
-import java.util.List;
+
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMFilter;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMIterator;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMManager;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.NodeVector;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.NodeSetDTM;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is the dynamic wrapper for a Xalan DTMIterator instance, and

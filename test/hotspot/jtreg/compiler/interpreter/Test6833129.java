@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.interpreter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6833129
@@ -27,7 +44,6 @@
  *      compiler.interpreter.Test6833129
  */
 
-package compiler.interpreter;
 
 public class Test6833129 {
     public static void init(int src[]) {

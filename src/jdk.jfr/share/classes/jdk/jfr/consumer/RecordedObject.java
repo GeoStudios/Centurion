@@ -19,29 +19,43 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.consumer;
+package jdk.jfr.share.classes.jdk.jfr.consumer;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.time.Duration;
 import java.time.Instant;
 import java.time.OffsetDateTime;
 import java.util.Comparator;
-import java.util.List;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
+import jdk.jfr.share.classes.jdk.jfr.Configuration;
+import jdk.jfr.share.classes.jdk.jfr.EventType;
+import jdk.jfr.share.classes.jdk.jfr.Timespan;
+import jdk.jfr.share.classes.jdk.jfr.Timestamp;
+import jdk.jfr.share.classes.jdk.jfr.ValueDescriptor;
+import jdk.jfr.share.classes.jdk.jfr.internal.PrivateAccess;
+import jdk.jfr.share.classes.jdk.jfr.internal.Type;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.JdkJfrConsumer;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.ObjectContext;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.ObjectFactory;
+import jdk.jfr.share.classes.jdk.jfr.internal.tool.PrettyWriter;
 
-import jdk.jfr.Configuration;
-import jdk.jfr.EventType;
-import jdk.jfr.Timespan;
-import jdk.jfr.Timestamp;
-import jdk.jfr.ValueDescriptor;
-import jdk.jfr.internal.PrivateAccess;
-import jdk.jfr.internal.Type;
-import jdk.jfr.internal.consumer.JdkJfrConsumer;
-import jdk.jfr.internal.consumer.ObjectContext;
-import jdk.jfr.internal.consumer.ObjectFactory;
-import jdk.jfr.internal.tool.PrettyWriter;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A complex data type that consists of one or more fields.

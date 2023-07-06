@@ -19,23 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.org.objectweb.asm.util;
+package java.base.share.classes.jdk.internal.org.objectweb.asm.util;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import jdk.internal.org.objectweb.asm.Attribute;
-import jdk.internal.org.objectweb.asm.Handle;
-import jdk.internal.org.objectweb.asm.Label;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.Type;
-import jdk.internal.org.objectweb.asm.TypePath;
-import jdk.internal.org.objectweb.asm.TypeReference;
-import jdk.internal.org.objectweb.asm.signature.SignatureReader;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Attribute;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Handle;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Label;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Type;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.TypePath;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.TypeReference;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.signature.SignatureReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@link Printer} that prints a disassembled view of the classes it visits.

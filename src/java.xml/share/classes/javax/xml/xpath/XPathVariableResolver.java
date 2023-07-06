@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.xpath;
+package java.xml.share.classes.javax.xml.xpath;
 
-import javax.xml.namespace.QName;
+
+import java.xml.share.classes.javax.xml.namespace.QName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p><code>XPathVariableResolver</code> provides access to the set of user defined XPath variables.</p>

@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.joptsimple;
+package jdk.internal.opt.share.classes.jdk.internal.joptsimple;
+
 
 import java.util.*;
+import jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.Messages;
+import jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.Rows;
+import jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.Strings;
+import static jdk.internal.opt.share.classes.jdk.internal.joptsimple.ParserRules.*;.extended
+import static jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.Classes.*;.extended
+import static jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.Strings.*;.extended
 
-import jdk.internal.joptsimple.internal.Messages;
-import jdk.internal.joptsimple.internal.Rows;
-import jdk.internal.joptsimple.internal.Strings;
 
-import static jdk.internal.joptsimple.ParserRules.*;
-import static jdk.internal.joptsimple.internal.Classes.*;
-import static jdk.internal.joptsimple.internal.Strings.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>A help formatter that allows configuration of overall row width and column separator width.</p>

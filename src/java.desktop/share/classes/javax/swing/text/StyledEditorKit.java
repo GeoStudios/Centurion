@@ -18,18 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text;
+
+package java.desktop.share.classes.javax.swing.text;
+
 
 import java.io.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import javax.swing.event.*;
-import javax.swing.Action;
-import javax.swing.JEditorPane;
-import javax.swing.KeyStroke;
-import javax.swing.UIManager;
+import java.beans.PropertyChangejava.util.Listener;
+import java.desktop.share.classes.javax.swing.event.*;
+import java.desktop.share.classes.javax.swing.Action;
+import java.desktop.share.classes.javax.swing.JEditorPane;
+import java.desktop.share.classes.javax.swing.KeyStroke;
+import java.desktop.share.classes.javax.swing.UIManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the set of things needed by a text component

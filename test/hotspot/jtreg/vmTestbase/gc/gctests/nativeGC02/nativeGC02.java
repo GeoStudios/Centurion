@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.nativeGC02;
+
+
+import nsk.share.test.*;
+import nsk.share.gc.*;
+import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -33,11 +52,7 @@
  * @run main/othervm/native gc.gctests.nativeGC02.nativeGC02
  */
 
-package gc.gctests.nativeGC02;
 
-import nsk.share.test.*;
-import nsk.share.gc.*;
-import java.util.Vector;
 
 public class nativeGC02 extends GCTestBase {
         private int count = 10000;

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2.cr6711117;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6711117
@@ -28,7 +45,6 @@
  *                   -XX:+UseCompressedOops compiler.c2.cr6711117.Test
  */
 
-package compiler.c2.cr6711117;
 
 final class Test_Class_0 {
     final static char var_1 = 'E';

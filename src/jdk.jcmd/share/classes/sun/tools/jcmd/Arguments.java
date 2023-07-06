@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jcmd;
+package jdk.jcmd.share.classes.sun.tools.jcmd;
+
 
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class Arguments {
     private boolean listProcesses = false;

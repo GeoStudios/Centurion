@@ -18,14 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.imageio.plugins.tiff;
+
+package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
+
 
 import javax.imageio.plugins.tiff.BaselineTIFFTagSet;
 import javax.imageio.plugins.tiff.TIFFField;
 import javax.imageio.plugins.tiff.TIFFTag;
-import java.io.IOException;
-import javax.imageio.IIOException;
+import java.io.java.io.java.io.java.io.IOException;
+import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import javax.imageio.metadata.IIOMetadata;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TIFFT4Compressor extends TIFFFaxCompressor {
 

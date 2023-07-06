@@ -21,6 +21,7 @@
 
 package p;
 
+
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandles.Lookup;
@@ -28,9 +29,21 @@ import java.lang.invoke.MethodType;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.nio.file.Paths;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
+import static java.lang.invoke.MethodHandles.Lookup.*;.extended
 
-import static java.lang.invoke.MethodHandles.Lookup.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Main {
     /*

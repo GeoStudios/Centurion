@@ -19,20 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.Insets;
 import java.util.*;
-
 import javax.swing.*;
 import javax.swing.border.Border;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.*;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtilControlSize.*;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
+import static java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.FOCUS_SIZE;.extended
 
-import apple.laf.JRSUIConstants.*;
 
-import com.apple.laf.AquaUtilControlSize.*;
-import com.apple.laf.AquaUtils.RecyclableSingleton;
 
-import static apple.laf.JRSUIConstants.FOCUS_SIZE;
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * All the "magic numbers" in this class should go away once

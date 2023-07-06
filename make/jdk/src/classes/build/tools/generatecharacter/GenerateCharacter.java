@@ -21,17 +21,55 @@
 
 package build.tools.generatecharacter;
 
-import java.io.IOException;
-import java.io.FileNotFoundException;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.PrintWriter;
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.File;
-import java.util.List;
 
-import build.tools.generatecharacter.CharacterName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This program generates the source code for the class java.lang.Character.

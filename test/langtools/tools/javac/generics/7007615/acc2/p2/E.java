@@ -20,4 +20,20 @@
  */
 
 package p2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class E extends p1.D { /* inherits m(String) but not m(Object) */ }

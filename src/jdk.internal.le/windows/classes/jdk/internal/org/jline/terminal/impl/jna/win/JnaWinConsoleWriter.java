@@ -18,14 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.terminal.impl.jna.win;
+
+package jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna.win;
+
+
+import jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.AbstractWindowsConsoleWriter;
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //import com.sun.jna.LastErrorException;
 //import com.sun.jna.Pointer;
 //import com.sun.jna.ptr.IntByReference;
-import jdk.internal.org.jline.terminal.impl.AbstractWindowsConsoleWriter;
 
-import java.io.IOException;
 
 class JnaWinConsoleWriter extends AbstractWindowsConsoleWriter {
 

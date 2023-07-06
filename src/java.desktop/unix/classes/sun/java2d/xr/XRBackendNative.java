@@ -19,15 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.xr;
+package java.desktop.unix.classes.sun.java2d.xr;
+
 
 import java.awt.geom.*;
 import java.util.*;
+import java.desktop.unix.classes.sun.font.*;
+import java.desktop.unix.classes.sun.java2d.pipe.*;
+import static java.desktop.unix.classes.sun.java2d.xr.XRUtils.XDoubleToFixed;.extended
 
-import sun.font.*;
-import sun.java2d.pipe.*;
 
-import static sun.java2d.xr.XRUtils.XDoubleToFixed;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Native implementation of XRBackend.

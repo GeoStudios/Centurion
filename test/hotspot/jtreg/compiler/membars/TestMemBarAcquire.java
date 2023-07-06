@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.membars;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestMemBarAcquire
  * @bug 8048879
@@ -27,7 +44,6 @@
  *                   compiler.membars.TestMemBarAcquire
  */
 
-package compiler.membars;
 
 public class TestMemBarAcquire {
     private volatile static Object defaultObj = new Object();

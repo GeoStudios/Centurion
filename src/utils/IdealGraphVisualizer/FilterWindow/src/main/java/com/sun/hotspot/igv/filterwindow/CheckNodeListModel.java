@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.filterwindow;
 
-import org.openide.explorer.view.NodeListModel;
+package utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filterwindow;
+
+
+import org.openide.explorer.view.Nodejava.util.ListModel;
 import org.openide.explorer.view.Visualizer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

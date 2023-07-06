@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac.comp;
+package jdk.compiler.share.classes.com.sun.tools.sjavac.comp;
+
 
 import javax.tools.ForwardingJavaFileObject;
 import javax.tools.JavaFileManager.Location;
 import javax.tools.JavaFileObject;
+import jdk.compiler.share.classes.com.sun.tools.javac.api.ClientCodeWrapper.Trusted;
 
-import com.sun.tools.javac.api.ClientCodeWrapper.Trusted;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @Trusted
 public class JavaFileObjectWithLocation<F extends JavaFileObject> extends ForwardingJavaFileObject<F> {

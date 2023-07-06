@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codegen;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8144028
@@ -33,7 +50,6 @@
  *      compiler.codegen.BitTests
  */
 
-package compiler.codegen;
 
 // Try to ensure that the bit test instructions TBZ/TBNZ, TST/TSTW
 // don't generate incorrect code.  We can't guarantee that C2 will use

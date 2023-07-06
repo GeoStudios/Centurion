@@ -21,13 +21,27 @@
 
 package parse.jdk7156085;
 
+
 import java.io.ByteArrayInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 import org.xml.sax.InputSource;
 import org.xml.sax.helpers.DefaultHandler;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * JDK-7156085: ArrayIndexOutOfBoundsException throws in UTF8Reader of SAXParser

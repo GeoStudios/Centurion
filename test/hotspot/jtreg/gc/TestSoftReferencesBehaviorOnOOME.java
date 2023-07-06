@@ -21,6 +21,26 @@
 
 package gc;
 
+
+import jdk.test.lib.Utils;
+import jdk.test.lib.Asserts;
+import java.lang.ref.SoftReference;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestSoftReferencesBehaviorOnOOME
  * @key randomness
@@ -33,11 +53,6 @@ package gc;
  * @run main/othervm -Xmx128m gc.TestSoftReferencesBehaviorOnOOME 128k 256k
  * @run main/othervm -Xmx128m gc.TestSoftReferencesBehaviorOnOOME 2k 32k
  */
-import jdk.test.lib.Utils;
-import jdk.test.lib.Asserts;
-import java.lang.ref.SoftReference;
-import java.util.LinkedList;
-import java.util.Random;
 
 public class TestSoftReferencesBehaviorOnOOME {
 

@@ -19,34 +19,49 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
+
 
 import java.nio.ByteBuffer;
 import java.security.AccessController;
 import java.security.GeneralSecurityException;
 import java.security.InvalidAlgorithmParameterException;
-import java.security.InvalidKeyException;
-import java.security.Key;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.Key;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.PrivilegedAction;
 import java.security.SecureRandom;
 import java.security.Security;
 import java.security.spec.AlgorithmParameterSpec;
 import java.util.AbstractMap.SimpleImmutableEntry;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-import javax.crypto.BadPaddingException;
-import javax.crypto.Cipher;
-import javax.crypto.IllegalBlockSizeException;
+import java.base.share.classes.javax.crypto.BadPaddingException;
+import java.base.share.classes.javax.crypto.Cipher;
+import java.base.share.classes.javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
-import javax.crypto.SecretKey;
-import javax.crypto.ShortBufferException;
+import java.base.share.classes.javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.ShortBufferException;
 import javax.crypto.spec.GCMParameterSpec;
 import javax.crypto.spec.IvParameterSpec;
-import sun.security.ssl.Authenticator.MAC;
-import static sun.security.ssl.CipherType.*;
-import static sun.security.ssl.JsseJce.*;
+import java.base.share.classes.sun.security.ssl.Authenticator.MAC;
+import static java.base.share.classes.sun.security.ssl.CipherType.*;.extended
+import static java.base.share.classes.sun.security.ssl.JsseJce.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 enum SSLCipher {
     // exportable ciphers

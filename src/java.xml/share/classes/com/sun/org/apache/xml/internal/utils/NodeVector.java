@@ -19,15 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
+
+
+import java.io.Serializable;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.utils;
 
-import java.io.Serializable;
 
-import com.sun.org.apache.xml.internal.dtm.DTM;
+
 
 /**
  * A very simple table that stores a list of Nodes.

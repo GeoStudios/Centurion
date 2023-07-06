@@ -18,12 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.bench.java.util;
+
 
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 import java.util.zip.Adler32;
 import org.openjdk.jmh.annotations.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.MICROSECONDS)

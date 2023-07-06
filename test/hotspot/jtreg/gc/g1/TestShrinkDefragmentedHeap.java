@@ -21,6 +21,31 @@
 
 package gc.g1;
 
+
+import java.lang.management.ManagementFactory;
+import java.lang.management.MemoryUsage;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.text.NumberFormat;
+import static jdk.test.lib.Asserts.*;.extended
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import com.sun.management.HotSpotDiagnosticMXBean;
+import gc.testlibrary.Helpers;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestShrinkDefragmentedHeap
  * @bug 8038423 8129590
@@ -37,16 +62,6 @@ package gc.g1;
  *          java.management/sun.management
  * @run driver gc.g1.TestShrinkDefragmentedHeap
  */
-import java.lang.management.ManagementFactory;
-import java.lang.management.MemoryUsage;
-import java.util.ArrayList;
-import java.util.List;
-import java.text.NumberFormat;
-import static jdk.test.lib.Asserts.*;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import com.sun.management.HotSpotDiagnosticMXBean;
-import gc.testlibrary.Helpers;
 
 public class TestShrinkDefragmentedHeap {
     // Since we store all the small objects, they become old and old regions are also allocated at the bottom of the heap

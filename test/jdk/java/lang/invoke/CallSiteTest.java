@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.lang.invoke;
+
+
+import java.io.*;
+import java.lang.invoke.*;
+import static java.lang.invoke.MethodHandles.*;.extended
+import static java.lang.invoke.MethodType.*;.extended
+import static jdk.test.lib.Asserts.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @summary smoke tests for CallSite
@@ -32,14 +54,8 @@
  *      --java test.java.lang.invoke.CallSiteTest
  */
 
-package test.java.lang.invoke;
 
-import java.io.*;
 
-import java.lang.invoke.*;
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
-import static jdk.test.lib.Asserts.*;
 
 public class CallSiteTest {
     private static final Class<?> CLASS = CallSiteTest.class;

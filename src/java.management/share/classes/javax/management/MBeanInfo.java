@@ -19,22 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management;
+package java.management.share.classes.javax.management;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.StreamCorruptedException;
 import java.io.Serializable;
 import java.io.ObjectOutputStream;
 import java.io.ObjectInputStream;
 import java.lang.reflect.Method;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Map;
 import java.util.WeakHashMap;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+import static java.management.share.classes.javax.management.ImmutableDescriptor.nonNullDescriptor;.extended
 
-import static javax.management.ImmutableDescriptor.nonNullDescriptor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Describes the management interface exposed by an MBean; that is,

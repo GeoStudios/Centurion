@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package metaspace.shrink_grow.ShrinkGrowMultiJVM;
+
+
+import jdk.test.lib.Utils;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.nio.file.Paths;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -32,16 +55,8 @@
  * @run driver metaspace.shrink_grow.ShrinkGrowMultiJVM.ShrinkGrowMultiJVM
  */
 
-package metaspace.shrink_grow.ShrinkGrowMultiJVM;
 
-import jdk.test.lib.Utils;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * This test starts several JVMs and run ShrinkGrow metaspace test.

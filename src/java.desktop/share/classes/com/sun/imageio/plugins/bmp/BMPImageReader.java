@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.bmp;
+package java.desktop.share.classes.com.sun.imageio.plugins.bmp;
+
 
 import java.awt.Point;
 import java.awt.Rectangle;
@@ -42,26 +43,39 @@ import java.awt.image.SampleModel;
 import java.awt.image.SinglePixelPackedSampleModel;
 import java.awt.image.WritableRaster;
 import java.io.ByteArrayInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteOrder;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
-import javax.imageio.IIOException;
+import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import javax.imageio.ImageIO;
 import javax.imageio.ImageReadParam;
 import javax.imageio.ImageReader;
 import javax.imageio.ImageTypeSpecifier;
-import javax.imageio.event.IIOReadProgressListener;
-import javax.imageio.event.IIOReadUpdateListener;
-import javax.imageio.event.IIOReadWarningListener;
+import javax.imageio.event.IIOReadProgressjava.util.Listener;
+import javax.imageio.event.IIOReadUpdatejava.util.Listener;
+import javax.imageio.event.IIOReadWarningjava.util.Listener;
 import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.spi.ImageReaderSpi;
 import javax.imageio.stream.ImageInputStream;
+import java.desktop.share.classes.com.sun.imageio.plugins.common.I18N;
+import java.desktop.share.classes.com.sun.imageio.plugins.common.ImageUtil;
 
-import com.sun.imageio.plugins.common.I18N;
-import com.sun.imageio.plugins.common.ImageUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This class is the Java Image IO plugin reader for BMP images.
  *  It may subsample the image, clip the image, select sub-bands,

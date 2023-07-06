@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.timestamp;
+package java.base.share.classes.sun.security.timestamp;
 
-import java.io.IOException;
-import sun.security.pkcs.PKCS7;
-import sun.security.util.Debug;
-import sun.security.util.DerValue;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.sun.security.pkcs.PKCS7;
+import java.base.share.classes.sun.security.util.Debug;
+import java.base.share.classes.sun.security.util.DerValue;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides the response corresponding to a timestamp request,

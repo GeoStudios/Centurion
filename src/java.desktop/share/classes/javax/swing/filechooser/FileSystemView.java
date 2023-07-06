@@ -19,28 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.filechooser;
+package java.desktop.share.classes.javax.swing.filechooser;
+
 
 import java.awt.Image;
 import java.awt.image.AbstractMultiResolutionImage;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.ref.WeakReference;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.text.MessageFormat;
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
-import javax.swing.JFileChooser;
-import javax.swing.UIManager;
-
-import jdk.internal.ref.CleanerFactory;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.desktop.share.classes.javax.swing.Icon;
+import java.desktop.share.classes.javax.swing.ImageIcon;
+import java.desktop.share.classes.javax.swing.JFileChooser;
+import java.desktop.share.classes.javax.swing.UIManager;
+import java.base.share.classes.jdk.internal.ref.CleanerFactory;
 import sun.awt.shell.ShellFolder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * FileSystemView is JFileChooser's gateway to the

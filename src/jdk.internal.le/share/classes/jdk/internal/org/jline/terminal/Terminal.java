@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.terminal;
+
+package jdk.internal.le.share.classes.jdk.internal.org.jline.terminal;
+
 
 import java.io.Closeable;
 import java.io.Flushable;
@@ -28,10 +30,23 @@ import java.io.PrintWriter;
 import java.nio.charset.Charset;
 import java.util.function.IntConsumer;
 import java.util.function.IntSupplier;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl.NativeSignalHandler;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.InfoCmp.Capability;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.NonBlockingReader;
 
-import jdk.internal.org.jline.terminal.impl.NativeSignalHandler;
-import jdk.internal.org.jline.utils.InfoCmp.Capability;
-import jdk.internal.org.jline.utils.NonBlockingReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A terminal representing a virtual terminal on the computer.

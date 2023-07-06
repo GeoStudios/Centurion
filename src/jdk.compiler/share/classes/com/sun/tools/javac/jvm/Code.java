@@ -19,34 +19,47 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.jvm;
+package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
 
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
 
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
 import java.util.function.ToIntBiFunction;
 import java.util.function.ToIntFunction;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.BOT;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.INT;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ByteCodes.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.CONSTANT_Class;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.CONSTANT_Double;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.CONSTANT_Fieldref;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.CONSTANT_Float;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.CONSTANT_Integer;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.CONSTANT_InterfaceMethodref;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.CONSTANT_Long;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.CONSTANT_MethodHandle;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.CONSTANT_MethodType;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.CONSTANT_Methodref;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.CONSTANT_String;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.UninitializedType.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassWriter.StackMapTableFrame;.extended
+import java.base.share.classes.java.util.Arrays;
 
-import static com.sun.tools.javac.code.TypeTag.BOT;
-import static com.sun.tools.javac.code.TypeTag.INT;
-import static com.sun.tools.javac.jvm.ByteCodes.*;
-import static com.sun.tools.javac.jvm.ClassFile.CONSTANT_Class;
-import static com.sun.tools.javac.jvm.ClassFile.CONSTANT_Double;
-import static com.sun.tools.javac.jvm.ClassFile.CONSTANT_Fieldref;
-import static com.sun.tools.javac.jvm.ClassFile.CONSTANT_Float;
-import static com.sun.tools.javac.jvm.ClassFile.CONSTANT_Integer;
-import static com.sun.tools.javac.jvm.ClassFile.CONSTANT_InterfaceMethodref;
-import static com.sun.tools.javac.jvm.ClassFile.CONSTANT_Long;
-import static com.sun.tools.javac.jvm.ClassFile.CONSTANT_MethodHandle;
-import static com.sun.tools.javac.jvm.ClassFile.CONSTANT_MethodType;
-import static com.sun.tools.javac.jvm.ClassFile.CONSTANT_Methodref;
-import static com.sun.tools.javac.jvm.ClassFile.CONSTANT_String;
-import static com.sun.tools.javac.jvm.UninitializedType.*;
-import static com.sun.tools.javac.jvm.ClassWriter.StackMapTableFrame;
-import java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** An internal structure that corresponds to the code attribute of
  *  methods in a classfile. The class also provides some utility operations to

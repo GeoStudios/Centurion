@@ -21,15 +21,28 @@
 
 package test;
 
+
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import java.lang.reflect.Constructor;
 import java.util.ServiceConfigurationError;
 import java.util.ServiceLoader;
-
 import org.testng.annotations.Test;
-import static org.testng.Assert.*;
+import static org.testng.Assert.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Basic test case for Module::addXXXX methods

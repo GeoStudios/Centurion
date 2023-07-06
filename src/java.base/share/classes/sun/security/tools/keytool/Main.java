@@ -19,12 +19,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.tools.keytool;
+package java.base.share.classes.sun.security.tools.keytool;
+
 
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.cert.Certificate;
 import java.security.cert.CertificateFactory;
 import java.security.cert.CertStoreException;
@@ -32,8 +33,6 @@ import java.security.cert.CRL;
 import java.security.cert.X509Certificate;
 import java.security.cert.CertificateException;
 import java.security.cert.URICertStoreParameters;
-
-
 import java.security.interfaces.ECKey;
 import java.security.interfaces.EdECKey;
 import java.security.spec.ECParameterSpec;
@@ -48,43 +47,53 @@ import java.net.URI;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.security.cert.CertStore;
-
 import java.security.cert.X509CRL;
 import java.security.cert.X509CRLEntry;
 import java.security.cert.X509CRLSelector;
 import javax.security.auth.x500.X500Principal;
 import java.util.Base64;
-
-import sun.security.pkcs12.PKCS12KeyStore;
-import sun.security.util.ECKeySizeParameterSpec;
-import sun.security.util.KeyUtil;
-import sun.security.util.NamedCurve;
-import sun.security.util.ObjectIdentifier;
-import sun.security.pkcs10.PKCS10;
-import sun.security.pkcs10.PKCS10Attribute;
-import sun.security.provider.X509Factory;
-import sun.security.provider.certpath.ssl.SSLServerCertStore;
-import sun.security.util.KnownOIDs;
-import sun.security.util.Password;
-import sun.security.util.SecurityProperties;
-import sun.security.util.SecurityProviderConstants;
-import sun.security.util.SignatureUtil;
+import java.base.share.classes.sun.security.pkcs12.PKCS12KeyStore;
+import java.base.share.classes.sun.security.util.ECKeySizeParameterSpec;
+import java.base.share.classes.sun.security.util.KeyUtil;
+import java.base.share.classes.sun.security.util.NamedCurve;
+import java.base.share.classes.sun.security.util.ObjectIdentifier;
+import java.base.share.classes.sun.security.pkcs10.PKCS10;
+import java.base.share.classes.sun.security.pkcs10.PKCS10Attribute;
+import java.base.share.classes.sun.security.provider.X509Factory;
+import java.base.share.classes.sun.security.provider.certpath.ssl.SSLServerCertStore;
+import java.base.share.classes.sun.security.util.KnownOIDs;
+import java.base.share.classes.sun.security.util.Password;
+import java.base.share.classes.sun.security.util.SecurityProperties;
+import java.base.share.classes.sun.security.util.SecurityProviderConstants;
+import java.base.share.classes.sun.security.util.SignatureUtil;
 import javax.crypto.KeyGenerator;
-import javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.SecretKey;
 import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.PBEKeySpec;
+import java.base.share.classes.sun.security.pkcs.PKCS9Attribute;
+import java.base.share.classes.sun.security.tools.KeyStoreUtil;
+import java.base.share.classes.sun.security.tools.Pathjava.util.java.util.java.util.List;
+import java.base.share.classes.sun.security.util.DerValue;
+import java.base.share.classes.sun.security.util.Pem;
+import java.base.share.classes.sun.security.x509.*;
+import static java.security.KeyStore.*;.extended
+import static java.base.share.classes.sun.security.tools.keytool.Main.Command.*;.extended
+import static java.base.share.classes.sun.security.tools.keytool.Main.Option.*;.extended
+import java.base.share.classes.sun.security.util.DisabledAlgorithmConstraints;
 
-import sun.security.pkcs.PKCS9Attribute;
-import sun.security.tools.KeyStoreUtil;
-import sun.security.tools.PathList;
-import sun.security.util.DerValue;
-import sun.security.util.Pem;
-import sun.security.x509.*;
 
-import static java.security.KeyStore.*;
-import static sun.security.tools.keytool.Main.Command.*;
-import static sun.security.tools.keytool.Main.Option.*;
-import sun.security.util.DisabledAlgorithmConstraints;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This tool manages keystores.

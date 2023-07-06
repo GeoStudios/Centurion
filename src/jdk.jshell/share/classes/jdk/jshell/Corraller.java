@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jshell;
+package jdk.jshell.share.classes.jdk.jshell;
+
 
 import com.sun.source.tree.ClassTree;
 import com.sun.source.tree.MethodTree;
@@ -31,22 +32,35 @@ import com.sun.tools.javac.tree.JCTree.JCClassDecl;
 import com.sun.tools.javac.tree.JCTree.JCMethodDecl;
 import com.sun.tools.javac.tree.JCTree.JCVariableDecl;
 import com.sun.tools.javac.tree.JCTree.Visitor;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.ListBuffer;
-import static com.sun.tools.javac.code.Flags.FINAL;
-import static com.sun.tools.javac.code.Flags.PUBLIC;
-import static com.sun.tools.javac.code.Flags.STATIC;
-import static com.sun.tools.javac.code.Flags.INTERFACE;
-import static com.sun.tools.javac.code.Flags.ENUM;
-import static com.sun.tools.javac.code.Flags.RECORD;
-import static com.sun.tools.javac.code.Flags.SYNTHETIC;
+import com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import com.sun.tools.javac.util.java.util.ListBuffer;
+import static com.sun.tools.javac.code.Flags.FINAL;.extended
+import static com.sun.tools.javac.code.Flags.PUBLIC;.extended
+import static com.sun.tools.javac.code.Flags.STATIC;.extended
+import static com.sun.tools.javac.code.Flags.INTERFACE;.extended
+import static com.sun.tools.javac.code.Flags.ENUM;.extended
+import static com.sun.tools.javac.code.Flags.RECORD;.extended
+import static com.sun.tools.javac.code.Flags.SYNTHETIC;.extended
 import com.sun.tools.javac.tree.JCTree.Tag;
 import com.sun.tools.javac.tree.TreeInfo;
-import jdk.jshell.Wrap.CompoundWrap;
-import jdk.jshell.Wrap.Range;
-import jdk.jshell.Wrap.RangeWrap;
-
+import jdk.jshell.share.classes.jdk.jshell.Wrap.CompoundWrap;
+import jdk.jshell.share.classes.jdk.jshell.Wrap.Range;
+import jdk.jshell.share.classes.jdk.jshell.Wrap.RangeWrap;
 import java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Produce a corralled version of the Wrap for a snippet.

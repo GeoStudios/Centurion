@@ -19,24 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jgss.krb5;
+package java.security.jgss.share.classes.sun.security.jgss.krb5;
+
 
 import javax.security.auth.kerberos.KerberosTicket;
 import javax.security.auth.kerberos.KerberosKey;
 import javax.security.auth.kerberos.KerberosPrincipal;
 import javax.security.auth.kerberos.KeyTab;
 import javax.security.auth.Subject;
-
-import sun.security.krb5.Credentials;
-import sun.security.krb5.EncryptionKey;
-import sun.security.krb5.KrbException;
-import java.io.IOException;
-import java.util.ArrayList;
+import java.security.jgss.share.classes.sun.security.krb5.Credentials;
+import java.security.jgss.share.classes.sun.security.krb5.EncryptionKey;
+import java.security.jgss.share.classes.sun.security.krb5.KrbException;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
-import sun.security.krb5.*;
-import sun.security.krb5.internal.Krb5;
+import java.security.jgss.share.classes.sun.security.krb5.*;
+import java.security.jgss.share.classes.sun.security.krb5.internal.Krb5;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Credentials of a kerberos acceptor. A KerberosPrincipal object (kp) is

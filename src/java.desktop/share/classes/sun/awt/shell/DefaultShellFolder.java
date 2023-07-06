@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.shell;
+package java.desktop.share.classes.sun.awt.shell;
+
 
 import java.io.File;
 import java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

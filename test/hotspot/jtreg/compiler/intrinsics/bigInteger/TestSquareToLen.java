@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.bigInteger;
+
+
+import java.math.BigInteger;
+import java.util.Random;
+import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @key randomness
@@ -38,11 +58,7 @@
  *      compiler.intrinsics.bigInteger.TestSquareToLen
  */
 
-package compiler.intrinsics.bigInteger;
 
-import java.math.BigInteger;
-import java.util.Random;
-import jdk.test.lib.Utils;
 
 public class TestSquareToLen {
 

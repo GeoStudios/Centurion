@@ -18,14 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.code;
+
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code;
+
 
 import java.nio.ByteOrder;
 import java.util.Set;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code.Register.RegisterCategory;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.JavaKind;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.PlatformKind;
 
-import jdk.vm.ci.code.Register.RegisterCategory;
-import jdk.vm.ci.meta.JavaKind;
-import jdk.vm.ci.meta.PlatformKind;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a CPU architecture, including information such as its endianness, CPU registers, word

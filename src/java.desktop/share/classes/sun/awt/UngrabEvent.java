@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.share.classes.sun.awt;
+
 
 import java.awt.AWTEvent;
 import java.awt.Component;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Sent when one of the following events occur on the grabbed window: <ul>

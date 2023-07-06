@@ -19,12 +19,9 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.management.share.classes.javax.management.openmbean;
 
-package javax.management.openmbean;
 
-
-// java import
-//
 import java.io.InvalidObjectException;
 import java.io.ObjectStreamException;
 import java.math.BigDecimal;
@@ -32,10 +29,27 @@ import java.math.BigInteger;
 import java.util.Date;
 import java.util.Map;
 import java.util.HashMap;
+import java.management.share.classes.javax.management.ObjectName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// java import
+//
 
 // jmx import
 //
-import javax.management.ObjectName;
 
 
 /**

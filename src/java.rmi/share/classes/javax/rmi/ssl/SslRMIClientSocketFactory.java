@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.rmi.ssl;
+package java.rmi.share.classes.javax.rmi.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.Serializable;
-import java.net.Socket;
-import java.rmi.server.RMIClientSocketFactory;
+import java.net.java.net.java.net.java.net.Socket;
+import java.rmi.server.RMIClientjava.net.SocketFactory;
 import java.util.StringTokenizer;
-import javax.net.SocketFactory;
-import javax.net.ssl.SSLSocket;
-import javax.net.ssl.SSLSocketFactory;
+import java.rmi.share.classes.javax.net.java.net.SocketFactory;
+import java.rmi.share.classes.javax.net.ssl.SSLjava.net.java.net.java.net.Socket;
+import java.rmi.share.classes.javax.net.ssl.SSLjava.net.SocketFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>An <code>SslRMIClientSocketFactory</code> instance is used by the RMI

@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap;
+package java.naming.share.classes.com.sun.jndi.ldap;
+
 
 import javax.naming.directory.SearchControls;
 import javax.naming.event.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class holds the information in an event registration/deregistration
@@ -40,7 +55,7 @@ final class NotifierArgs {
     static final int CHANGED_MASK = 0x4;
     static final int RENAMED_MASK = 0x8;
 
-    // these fields are package private; used by NamingEventNotifier
+    // these fields are  used by NamingEventNotifier
     String name;
     String filter;
     SearchControls controls;

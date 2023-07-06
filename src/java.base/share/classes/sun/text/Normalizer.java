@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.text;
+package java.base.share.classes.sun.text;
+
 
 import jdk.internal.icu.lang.UCharacter;
 import jdk.internal.icu.text.NormalizerBase;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This Normalizer is for Unicode 3.2 support for IDNA only.

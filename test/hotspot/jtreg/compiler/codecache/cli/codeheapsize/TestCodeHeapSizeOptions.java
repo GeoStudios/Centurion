@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codecache.cli.codeheapsize;
+
+
+import compiler.codecache.cli.common.CodeCacheCLITestBase;
+import compiler.codecache.cli.common.CodeCacheCLITestCase;
+import jdk.test.lib.Platform;
+import sun.hotspot.code.BlobType;
+import java.util.EnumSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @key randomness
@@ -33,14 +55,8 @@
  * @run driver/timeout=240 compiler.codecache.cli.codeheapsize.TestCodeHeapSizeOptions
  */
 
-package compiler.codecache.cli.codeheapsize;
 
-import compiler.codecache.cli.common.CodeCacheCLITestBase;
-import compiler.codecache.cli.common.CodeCacheCLITestCase;
-import jdk.test.lib.Platform;
-import sun.hotspot.code.BlobType;
 
-import java.util.EnumSet;
 
 public class TestCodeHeapSizeOptions extends CodeCacheCLITestBase {
     private static final CodeCacheCLITestCase JVM_STARTUP

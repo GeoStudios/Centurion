@@ -18,8 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package vm.share.options;
+
+
 import java.lang.annotation.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This is an auxilary declaration for use with @Factory annotation,
  * allows to add a particular class to the factory.

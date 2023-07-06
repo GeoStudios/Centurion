@@ -21,6 +21,7 @@
 
 package compiler.compilercontrol.share.scenario;
 
+
 import compiler.compilercontrol.share.method.MethodDescriptor;
 import compiler.compilercontrol.share.pool.PoolHelper;
 import compiler.compilercontrol.share.processors.CommandProcessor;
@@ -30,17 +31,29 @@ import compiler.compilercontrol.share.processors.PrintProcessor;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.util.Pair;
-
 import java.lang.reflect.Executable;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedHashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.Callable;
 import java.util.function.Consumer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test scenario

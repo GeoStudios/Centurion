@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.basic;
+package java.desktop.share.classes.javax.swing.plaf.basic;
+
 
 import java.awt.event.ActionEvent;
 import java.awt.KeyboardFocusManager;
@@ -27,11 +28,25 @@ import java.awt.Component;
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import javax.swing.*;
-import javax.swing.plaf.*;
+import java.beans.PropertyChangejava.util.Listener;
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.plaf.*;
 import sun.swing.DefaultLookup;
 import sun.swing.UIAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Basic implementation of RootPaneUI, there is one shared between all

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.compiler.jbe.hoist.hoist02;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,7 +47,6 @@
  * @run main/othervm vm.compiler.jbe.hoist.hoist02.hoist02
  */
 
-package vm.compiler.jbe.hoist.hoist02;
 
 // hoist02.java
 

@@ -21,8 +21,22 @@
 
 package jdk.jfr.event.gc.detailed;
 
-import java.util.List;
-import java.util.LinkedList;
+
+import java.util.java.util.java.util.java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper class which triggers and handles out of memory error to generate

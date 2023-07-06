@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.explorer;
+
 
 import java.awt.AWTEvent;
 import java.awt.AWTException;
@@ -33,17 +35,17 @@ import java.awt.Rectangle;
 import java.awt.Robot;
 import java.awt.Window;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.event.ComponentEvent;
-import java.awt.event.ComponentListener;
+import java.awt.event.Componentjava.util.Listener;
 import java.awt.event.WindowEvent;
-import java.awt.event.WindowListener;
+import java.awt.event.Windowjava.util.Listener;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
@@ -51,14 +53,13 @@ import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Hashtable;
 import java.util.Properties;
 import java.util.Vector;
-
-import javax.swing.DefaultListModel;
+import javax.swing.Defaultjava.util.ListModel;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
@@ -66,7 +67,7 @@ import javax.swing.JDialog;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JList;
+import javax.swing.Jjava.util.java.util.java.util.List;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JSplitPane;
@@ -75,26 +76,38 @@ import javax.swing.JTable;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.JTree;
-import javax.swing.ListCellRenderer;
+import javax.swing.java.util.ListCellRenderer;
 import javax.swing.border.BevelBorder;
 import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
-import javax.swing.event.TreeModelListener;
+import javax.swing.event.Changejava.util.Listener;
+import javax.swing.event.java.util.ListSelectionEvent;
+import javax.swing.event.java.util.ListSelectionjava.util.Listener;
+import javax.swing.event.TreeModeljava.util.Listener;
 import javax.swing.event.TreeSelectionEvent;
-import javax.swing.event.TreeSelectionListener;
+import javax.swing.event.TreeSelectionjava.util.Listener;
 import javax.swing.filechooser.FileFilter;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.tree.TreeCellRenderer;
 import javax.swing.tree.TreeModel;
 import javax.swing.tree.TreePath;
-
 import org.netbeans.jemmy.ClassReference;
 import org.netbeans.jemmy.QueueTool;
 import org.netbeans.jemmy.TestOut;
 import org.netbeans.jemmy.operators.Operator;
 import org.netbeans.jemmy.util.Dumper;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An application allowing to explore a Java GUI application. Could be executed

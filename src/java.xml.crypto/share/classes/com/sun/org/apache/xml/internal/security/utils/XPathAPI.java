@@ -19,16 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils;
+
+
+import javax.xml.transform.TransformerException;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.utils;
 
-import javax.xml.transform.TransformerException;
 
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+
 
 /**
  * An interface to abstract XPath evaluation

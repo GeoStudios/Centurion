@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import sun.swing.SwingUtilities2;
-
 import javax.swing.*;
 import java.awt.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // Superclass is not serializable across versions
 class AquaComboBoxRendererInternal<E> extends JLabel implements ListCellRenderer<E> {

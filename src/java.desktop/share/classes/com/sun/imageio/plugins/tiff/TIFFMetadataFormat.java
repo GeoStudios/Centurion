@@ -18,14 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.imageio.plugins.tiff;
+
+package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
+
 
 import java.util.HashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 import javax.imageio.metadata.IIOMetadataFormat;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class TIFFMetadataFormat implements IIOMetadataFormat {
 

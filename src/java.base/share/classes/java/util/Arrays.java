@@ -19,29 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
-import jdk.internal.util.ArraysSupport;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
 
-import java.io.Serializable;
-import java.lang.reflect.Array;
-import java.util.concurrent.ForkJoinPool;
-import java.util.function.BinaryOperator;
-import java.util.function.Consumer;
-import java.util.function.DoubleBinaryOperator;
-import java.util.function.IntBinaryOperator;
-import java.util.function.IntFunction;
-import java.util.function.IntToDoubleFunction;
-import java.util.function.IntToLongFunction;
-import java.util.function.IntUnaryOperator;
-import java.util.function.LongBinaryOperator;
-import java.util.function.UnaryOperator;
-import java.util.stream.DoubleStream;
-import java.util.stream.IntStream;
-import java.util.stream.LongStream;
-import java.util.stream.Stream;
-import java.util.stream.StreamSupport;
+import jdk.internal.util.java.util.ArraysSupport;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.java.io.Serializable;
+import java.base.share.classes.java.lang.reflect.Array;
+import java.base.share.classes.java.util.concurrent.ForkJoinPool;
+import java.base.share.classes.java.util.function.BinaryOperator;
+import java.base.share.classes.java.util.function.Consumer;
+import java.base.share.classes.java.util.function.DoubleBinaryOperator;
+import java.base.share.classes.java.util.function.IntBinaryOperator;
+import java.base.share.classes.java.util.function.IntFunction;
+import java.base.share.classes.java.util.function.IntToDoubleFunction;
+import java.base.share.classes.java.util.function.IntToLongFunction;
+import java.base.share.classes.java.util.function.IntUnaryOperator;
+import java.base.share.classes.java.util.function.LongBinaryOperator;
+import java.base.share.classes.java.util.function.UnaryOperator;
+import java.base.share.classes.java.util.stream.DoubleStream;
+import java.base.share.classes.java.util.stream.IntStream;
+import java.base.share.classes.java.util.stream.LongStream;
+import java.base.share.classes.java.util.stream.Stream;
+import java.base.share.classes.java.util.stream.StreamSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains various methods for manipulating arrays (such as

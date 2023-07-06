@@ -18,36 +18,38 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.view;
 
-import com.sun.hotspot.igv.data.ChangedEvent;
-import com.sun.hotspot.igv.data.ChangedListener;
-import com.sun.hotspot.igv.data.GraphDocument;
-import com.sun.hotspot.igv.data.Group;
-import com.sun.hotspot.igv.data.InputNode;
-import com.sun.hotspot.igv.data.Properties;
-import com.sun.hotspot.igv.data.Properties.PropertyMatcher;
-import com.sun.hotspot.igv.data.services.InputGraphProvider;
-import com.sun.hotspot.igv.filter.FilterChain;
-import com.sun.hotspot.igv.filter.FilterChainProvider;
-import com.sun.hotspot.igv.graph.Diagram;
-import com.sun.hotspot.igv.graph.Figure;
-import com.sun.hotspot.igv.graph.services.DiagramProvider;
-import com.sun.hotspot.igv.svg.BatikSVG;
-import com.sun.hotspot.igv.util.LookupHistory;
-import com.sun.hotspot.igv.util.RangeSlider;
-import com.sun.hotspot.igv.view.actions.*;
-import java.awt.*;
-import java.awt.event.HierarchyBoundsListener;
-import java.awt.event.HierarchyEvent;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import java.io.*;
-import java.nio.charset.StandardCharsets;
-import java.util.List;
-import java.util.*;
+package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view;
+
+
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.ChangedEvent;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.Changedjava.util.Listener;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.GraphDocument;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.Group;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.InputNode;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.Properties;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.Properties.PropertyMatcher;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.services.InputGraphProvider;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.filter.FilterChain;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.filter.FilterChainProvider;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.graph.Diagram;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.graph.Figure;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.graph.services.DiagramProvider;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.svg.BatikSVG;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.util.LookupHistory;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.util.RangeSlider;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.actions.*;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.*;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.event.HierarchyBoundsjava.util.Listener;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.event.HierarchyEvent;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.event.KeyEvent;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.event.Keyjava.util.Listener;
+import utils.IdealGraphVisualizer.View.src.main.java.beans.PropertyChangeEvent;
+import utils.IdealGraphVisualizer.View.src.main.java.beans.PropertyChangejava.util.Listener;
+import utils.IdealGraphVisualizer.View.src.main.java.io.*;
+import utils.IdealGraphVisualizer.View.src.main.java.nio.charset.StandardCharsets;
+import utils.IdealGraphVisualizer.View.src.main.java.util.java.util.java.util.java.util.List;
+import utils.IdealGraphVisualizer.View.src.main.java.util.*;
 import javax.swing.*;
 import javax.swing.border.Border;
 import org.openide.DialogDisplayer;
@@ -67,6 +69,20 @@ import org.openide.util.lookup.ProxyLookup;
 import org.openide.windows.Mode;
 import org.openide.windows.TopComponent;
 import org.openide.windows.WindowManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

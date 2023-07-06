@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.coordinator.actions;
 
-import com.sun.hotspot.igv.data.InputGraph;
+package utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator.actions;
+
+
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.data.InputGraph;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class GraphRemoveCookie implements RemoveCookie {
     private final InputGraph graph;

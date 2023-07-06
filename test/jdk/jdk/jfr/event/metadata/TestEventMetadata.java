@@ -21,15 +21,28 @@
 
 package jdk.jfr.event.metadata;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
 
+import java.util.HashSet;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Set;
 import jdk.jfr.EventType;
 import jdk.jfr.FlightRecorder;
 import jdk.jfr.ValueDescriptor;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.jfr.EventNames;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

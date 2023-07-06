@@ -19,20 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.rsa;
+package java.base.share.classes.sun.security.rsa;
+
 
 import java.math.BigInteger;
-
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.RSAKeyGenParameterSpec;
+import static java.math.BigInteger.*;.extended
+import java.base.share.classes.sun.security.jca.JCAUtil;
+import java.base.share.classes.sun.security.rsa.RSAUtil.KeyType;
+import static java.base.share.classes.sun.security.util.SecurityProviderConstants.DEF_RSA_KEY_SIZE;.extended
+import static java.base.share.classes.sun.security.util.SecurityProviderConstants.DEF_RSASSA_PSS_KEY_SIZE;.extended
 
-import static java.math.BigInteger.*;
-import sun.security.jca.JCAUtil;
-import sun.security.rsa.RSAUtil.KeyType;
 
-import static sun.security.util.SecurityProviderConstants.DEF_RSA_KEY_SIZE;
-import static sun.security.util.SecurityProviderConstants.DEF_RSASSA_PSS_KEY_SIZE;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * RSA keypair generation. Standard algorithm, minimum key length 512 bit.

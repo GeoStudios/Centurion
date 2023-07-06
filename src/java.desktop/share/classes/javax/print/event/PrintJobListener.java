@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.print.event;
+package java.desktop.share.classes.javax.print.event;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementations of this listener interface should be attached to a

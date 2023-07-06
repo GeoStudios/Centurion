@@ -18,27 +18,41 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d.demos.Transforms;
+
+package demo.share.jfc.J2Ddemo.java2d.demos.Transforms;
 
 
-import static java.awt.Color.BLACK;
-import static java.awt.Color.BLUE;
-import static java.awt.Color.GRAY;
-import static java.awt.Color.LIGHT_GRAY;
-import static java.awt.Color.WHITE;
-import static java.awt.Color.YELLOW;
+import static java.awt.Color.BLACK;.extended
+import static java.awt.Color.BLUE;.extended
+import static java.awt.Color.GRAY;.extended
+import static java.awt.Color.LIGHT_GRAY;.extended
+import static java.awt.Color.WHITE;.extended
+import static java.awt.Color.YELLOW;.extended
 import java.awt.BasicStroke;
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.Graphics2D;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Ellipse2D;
-import java2d.ControlsSurface;
-import java2d.CustomControls;
+import demo.share.jfc.J2Ddemo.java2d.ControlsSurface;
+import demo.share.jfc.J2Ddemo.java2d.CustomControls;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

@@ -21,12 +21,25 @@
 
 package compiler.testlibrary;
 
-import java.util.Arrays;
+
+import java.base.share.classes.java.util.Arrays;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.Platform;
 import sun.hotspot.WhiteBox;
-
 import java.util.stream.IntStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CompilerUtils {
 

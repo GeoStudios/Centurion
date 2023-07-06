@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http.common;
+package java.net.http.share.classes.jdk.internal.net.http.common;
+
 
 import java.io.Closeable;
 import java.nio.ByteBuffer;
-import java.util.List;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.Flow;
 import java.util.concurrent.Flow.Subscriber;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.atomic.AtomicReference;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A wrapper for a Flow.Subscriber. This wrapper delivers data to the wrapped

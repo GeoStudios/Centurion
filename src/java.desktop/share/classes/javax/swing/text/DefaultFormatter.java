@@ -18,15 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text;
+
+package java.desktop.share.classes.javax.swing.text;
+
 
 import sun.reflect.misc.ReflectUtil;
 import sun.swing.SwingUtilities2;
-
 import java.io.Serializable;
 import java.lang.reflect.*;
 import java.text.ParseException;
-import javax.swing.*;
+import java.desktop.share.classes.javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>DefaultFormatter</code> formats arbitrary objects. Formatting is done

@@ -19,14 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.beans.editors;
+package java.desktop.share.classes.com.sun.beans.editors;
+
+
+import java.beans.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract Property editor for a java builtin number types.
  *
  */
 
-import java.beans.*;
 
 public abstract class NumberEditor extends PropertyEditorSupport {
 

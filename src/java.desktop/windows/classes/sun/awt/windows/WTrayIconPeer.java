@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.windows;
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.awt.Graphics2D;
 import java.awt.AWTEvent;
@@ -32,11 +33,24 @@ import java.awt.Image;
 import java.awt.geom.AffineTransform;
 import java.awt.peer.TrayIconPeer;
 import java.awt.image.*;
+import java.desktop.windows.classes.sun.awt.AWTAccessor;
+import java.desktop.windows.classes.sun.awt.SunToolkit;
+import java.desktop.windows.classes.sun.awt.image.IntegerComponentRaster;
+import java.desktop.windows.classes.sun.java2d.pipe.Region;
 
-import sun.awt.AWTAccessor;
-import sun.awt.SunToolkit;
-import sun.awt.image.IntegerComponentRaster;
-import sun.java2d.pipe.Region;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class WTrayIconPeer extends WObjectPeer implements TrayIconPeer {
     static final int TRAY_ICON_WIDTH = 16;

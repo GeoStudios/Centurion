@@ -19,24 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.windows.classes.sun.awt;
 
-package sun.awt;
 
 import java.awt.FontFormatException;
 import java.awt.GraphicsEnvironment;
 import java.io.File;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.NoSuchElementException;
 import java.util.StringTokenizer;
+import java.desktop.windows.classes.sun.awt.windows.WFontConfiguration;
+import java.desktop.windows.classes.sun.font.FontManager;
+import java.desktop.windows.classes.sun.font.SunFontManager;
+import java.desktop.windows.classes.sun.font.TrueTypeFont;
 
-import sun.awt.windows.WFontConfiguration;
-import sun.font.FontManager;
-import sun.font.SunFontManager;
-import sun.font.TrueTypeFont;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The X11 implementation of {@link FontManager}.

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts.superword;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8074981
@@ -70,7 +87,6 @@
  *      compiler.loopopts.superword.SumRed_Int
  */
 
-package compiler.loopopts.superword;
 
 public class SumRed_Int {
     public static void main(String[] args) throws Exception {

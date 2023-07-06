@@ -18,15 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.tools.jdeps;
 
-import com.sun.tools.classfile.Dependencies;
-import com.sun.tools.classfile.Dependency;
-import com.sun.tools.classfile.Dependency.Location;
+package jdk.jdeps.share.classes.com.sun.tools.jdeps;
 
+
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Dependencies;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Dependency;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Dependency.Location;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.Pattern;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Filter configured based on the input jdeps option

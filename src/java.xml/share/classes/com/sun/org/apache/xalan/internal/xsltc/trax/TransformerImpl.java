@@ -19,28 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.trax;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax;
 
-import com.sun.org.apache.xalan.internal.utils.XMLSecurityManager;
-import com.sun.org.apache.xalan.internal.xsltc.DOM;
-import com.sun.org.apache.xalan.internal.xsltc.DOMCache;
-import com.sun.org.apache.xalan.internal.xsltc.StripFilter;
-import com.sun.org.apache.xalan.internal.xsltc.Translet;
-import com.sun.org.apache.xalan.internal.xsltc.TransletException;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
-import com.sun.org.apache.xalan.internal.xsltc.dom.DOMWSFilter;
-import com.sun.org.apache.xalan.internal.xsltc.dom.SAXImpl;
-import com.sun.org.apache.xalan.internal.xsltc.dom.XSLTCDTMManager;
-import com.sun.org.apache.xalan.internal.xsltc.runtime.AbstractTranslet;
-import com.sun.org.apache.xalan.internal.xsltc.runtime.output.TransletOutputHandlerFactory;
-import com.sun.org.apache.xml.internal.dtm.DTMWSFilter;
-import com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory;
-import com.sun.org.apache.xml.internal.serializer.SerializationHandler;
-import com.sun.org.apache.xml.internal.utils.SystemIDResolver;
-import com.sun.org.apache.xml.internal.utils.XMLReaderManager;
+
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.utils.XMLSecurityManager;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOMCache;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.StripFilter;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.Translet;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.TransletException;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom.DOMWSFilter;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom.SAXImpl;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom.XSLTCDTMManager;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime.AbstractTranslet;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime.output.TransletOutputHandlerFactory;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMWSFilter;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.SerializationHandler;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.SystemIDResolver;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLReaderManager;
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.Reader;
@@ -51,10 +52,10 @@ import java.net.URLConnection;
 import java.net.UnknownServiceException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Enumeration;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Properties;
 import java.util.StringTokenizer;
@@ -68,7 +69,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.XMLStreamReader;
-import javax.xml.transform.ErrorListener;
+import javax.xml.transform.Errorjava.util.Listener;
 import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Result;
 import javax.xml.transform.Source;
@@ -84,19 +85,33 @@ import javax.xml.transform.stax.StAXSource;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 import jdk.xml.internal.JdkConstants;
-import static jdk.xml.internal.JdkConstants.SP_XSLTC_IS_STANDALONE;
+import static jdk.xml.internal.JdkConstants.SP_XSLTC_IS_STANDALONE;.extended
 import jdk.xml.internal.JdkProperty;
 import jdk.xml.internal.JdkXmlFeatures;
 import jdk.xml.internal.JdkXmlUtils;
 import jdk.xml.internal.JdkProperty.ImplPropMap;
 import jdk.xml.internal.JdkProperty.State;
 import jdk.xml.internal.SecuritySupport;
-import jdk.xml.internal.TransformErrorListener;
-import org.xml.sax.ContentHandler;
-import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
-import org.xml.sax.XMLReader;
-import org.xml.sax.ext.LexicalHandler;
+import jdk.xml.internal.TransformErrorjava.util.Listener;
+import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
+import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @LastModified: June 2021

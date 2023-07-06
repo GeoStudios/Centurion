@@ -19,17 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- */
+package java.desktop.unix.classes.sun.font;
 
-package sun.font;
 
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetEncoder;
 import java.nio.charset.CoderResult;
-import sun.nio.cs.Surrogate;
+import java.desktop.unix.classes.sun.nio.cs.Surrogate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ */
+
+
+
 
 public abstract class DoubleByteEncoder
     extends CharsetEncoder

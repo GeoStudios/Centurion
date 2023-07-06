@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.wbmp;
+package java.desktop.share.classes.com.sun.imageio.plugins.wbmp;
+
 
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
@@ -27,21 +28,32 @@ import java.awt.image.DataBufferByte;
 import java.awt.image.MultiPixelPackedSampleModel;
 import java.awt.image.Raster;
 import java.awt.image.WritableRaster;
-
-import javax.imageio.IIOException;
+import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import javax.imageio.ImageReader;
 import javax.imageio.ImageReadParam;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.spi.ImageReaderSpi;
 import javax.imageio.stream.ImageInputStream;
-
-import java.io.IOException;
-import java.util.ArrayList;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
+import java.desktop.share.classes.com.sun.imageio.plugins.common.I18N;
+import java.desktop.share.classes.com.sun.imageio.plugins.common.ReaderUtil;
 
-import com.sun.imageio.plugins.common.I18N;
-import com.sun.imageio.plugins.common.ReaderUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This class is the Java Image IO plugin reader for WBMP images.
  *  It may subsample the image, clip the image,

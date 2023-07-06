@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.access.foreign;
+package java.base.share.classes.jdk.internal.access.foreign;
 
-import jdk.internal.misc.ScopedMemoryAccess;
+
+import java.base.share.classes.jdk.internal.misc.ScopedMemoryAccess;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This abstract class is required to allow implementations of the {@code MemorySegment} interface (which is defined inside

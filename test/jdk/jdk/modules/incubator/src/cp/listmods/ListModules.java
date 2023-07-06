@@ -21,7 +21,21 @@
 
 package listmods;
 
-import static java.util.stream.Collectors.joining;
+
+import static java.util.stream.Collectors.joining;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ListModules {
     public static void main(String[] args) throws Exception {

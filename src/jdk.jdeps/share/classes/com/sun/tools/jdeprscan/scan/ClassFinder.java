@@ -19,12 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdeprscan.scan;
+package jdk.jdeps.share.classes.com.sun.tools.jdeprscan.scan;
 
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.ConstantPoolException;
 
-import java.io.IOException;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ClassFile;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPoolException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.URI;
 import java.nio.file.FileSystem;
 import java.nio.file.FileSystems;
@@ -32,12 +32,26 @@ import java.nio.file.Files;
 import java.nio.file.NoSuchFileException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Optional;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A simple search path for classes.

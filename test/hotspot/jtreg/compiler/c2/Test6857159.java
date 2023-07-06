@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6857159
@@ -33,9 +51,7 @@
  *      compiler.c2.Test6857159
  */
 
-package compiler.c2;
 
-import sun.hotspot.WhiteBox;
 
 public class Test6857159 extends Thread {
     public static void main(String[] args) throws Exception {

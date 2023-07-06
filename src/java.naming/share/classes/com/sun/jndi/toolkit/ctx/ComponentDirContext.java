@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.toolkit.ctx;
+package java.naming.share.classes.com.sun.jndi.toolkit.ctx;
+
 
 import javax.naming.*;
 import javax.naming.directory.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Direct subclasses of ComponentDirContext must provide implementations for
  * the abstract c_ DirContext methods, and override the c_ Context methods

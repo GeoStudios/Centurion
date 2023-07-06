@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.lib;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.lib;
 
-import com.sun.org.apache.xpath.internal.NodeSet;
 
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.NodeSet;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains EXSLT math extension functions.

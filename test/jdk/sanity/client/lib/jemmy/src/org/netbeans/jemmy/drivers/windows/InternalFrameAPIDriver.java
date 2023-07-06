@@ -21,14 +21,27 @@
 
 package org.netbeans.jemmy.drivers.windows;
 
-import java.awt.Component;
 
+import java.awt.Component;
 import org.netbeans.jemmy.drivers.FrameDriver;
 import org.netbeans.jemmy.drivers.InternalFrameDriver;
 import org.netbeans.jemmy.drivers.LightSupportiveDriver;
 import org.netbeans.jemmy.drivers.WindowDriver;
 import org.netbeans.jemmy.operators.ComponentOperator;
 import org.netbeans.jemmy.operators.JInternalFrameOperator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * InternalFrameDriver to do all actions using internal frame APIs.

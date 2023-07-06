@@ -19,22 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jdi.request;
+package jdk.jdi.share.classes.com.sun.jdi.request;
 
-import java.util.List;
 
-import com.sun.jdi.Field;
-import com.sun.jdi.Location;
-import com.sun.jdi.Mirror;
-import com.sun.jdi.NativeMethodException;
-import com.sun.jdi.ReferenceType;
-import com.sun.jdi.ThreadReference;
-import com.sun.jdi.VirtualMachine;
-import com.sun.jdi.event.BreakpointEvent;
-import com.sun.jdi.event.Event;
-import com.sun.jdi.event.EventSet;
-import com.sun.jdi.event.ExceptionEvent;
-import com.sun.jdi.event.VMDeathEvent;
+import java.util.java.util.java.util.java.util.List;
+import jdk.jdi.share.classes.com.sun.jdi.Field;
+import jdk.jdi.share.classes.com.sun.jdi.Location;
+import jdk.jdi.share.classes.com.sun.jdi.Mirror;
+import jdk.jdi.share.classes.com.sun.jdi.NativeMethodException;
+import jdk.jdi.share.classes.com.sun.jdi.ReferenceType;
+import jdk.jdi.share.classes.com.sun.jdi.ThreadReference;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+import jdk.jdi.share.classes.com.sun.jdi.event.BreakpointEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.Event;
+import jdk.jdi.share.classes.com.sun.jdi.event.EventSet;
+import jdk.jdi.share.classes.com.sun.jdi.event.ExceptionEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.VMDeathEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Manages the creation and deletion of {@link EventRequest}s. A single

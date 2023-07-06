@@ -18,20 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.explorer;
+
 
 import java.awt.AWTEvent;
 import java.awt.Component;
 import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
+import java.awt.event.Keyjava.util.Listener;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.event.MouseMotionListener;
-
+import java.awt.event.Mousejava.util.Listener;
+import java.awt.event.MouseMotionjava.util.Listener;
 import org.netbeans.jemmy.JemmyProperties;
 import org.netbeans.jemmy.Outputable;
 import org.netbeans.jemmy.QueueTool;
 import org.netbeans.jemmy.TestOut;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Auxiliary class to find an event sequence which should be posted to reproduce

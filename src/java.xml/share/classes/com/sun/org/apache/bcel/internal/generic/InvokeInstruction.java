@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.bcel.internal.generic;
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
+
 
 import java.util.StringTokenizer;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Constant;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantCP;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantPool;
 
-import com.sun.org.apache.bcel.internal.Const;
-import com.sun.org.apache.bcel.internal.classfile.Constant;
-import com.sun.org.apache.bcel.internal.classfile.ConstantCP;
-import com.sun.org.apache.bcel.internal.classfile.ConstantPool;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Super class for the INVOKExxx family of instructions.

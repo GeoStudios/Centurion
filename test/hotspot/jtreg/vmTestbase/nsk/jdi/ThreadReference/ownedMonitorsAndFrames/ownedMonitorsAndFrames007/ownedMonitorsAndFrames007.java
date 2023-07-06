@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.ThreadReference.ownedMonitorsAndFrames.ownedMonitorsAndFrames007;
+
+
+import java.io.PrintStream;
+import java.util.*;
+import com.sun.jdi.*;
+import nsk.share.Consts;
+import nsk.share.jdi.OwnedMonitorsDebuggee;
+import nsk.share.jdi.OwnedMonitorsDebugger;
+import nsk.share.locks.LockingThread;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -59,15 +83,7 @@
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
 
-package nsk.jdi.ThreadReference.ownedMonitorsAndFrames.ownedMonitorsAndFrames007;
 
-import java.io.PrintStream;
-import java.util.*;
-import com.sun.jdi.*;
-import nsk.share.Consts;
-import nsk.share.jdi.OwnedMonitorsDebuggee;
-import nsk.share.jdi.OwnedMonitorsDebugger;
-import nsk.share.locks.LockingThread;
 
 public class ownedMonitorsAndFrames007 extends OwnedMonitorsDebugger {
     public static void main(String argv[]) {

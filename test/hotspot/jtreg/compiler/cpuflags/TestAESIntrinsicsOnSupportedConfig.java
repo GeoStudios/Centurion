@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.cpuflags;
+
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.Platform;
+import jdk.test.lib.process.ProcessTools;
+import sun.hotspot.WhiteBox;
+import static jdk.test.lib.cli.CommandLineOptionTest.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @library /test/lib /
@@ -33,13 +55,7 @@
  *                   compiler.cpuflags.TestAESIntrinsicsOnSupportedConfig
  */
 
-package compiler.cpuflags;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.Platform;
-import jdk.test.lib.process.ProcessTools;
-import sun.hotspot.WhiteBox;
-import static jdk.test.lib.cli.CommandLineOptionTest.*;
 
 public class TestAESIntrinsicsOnSupportedConfig extends AESIntrinsicsBase {
 

@@ -21,6 +21,24 @@
 
 package gc.class_unloading;
 
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8049831
@@ -34,9 +52,6 @@ package gc.class_unloading;
  * @summary Test that -XX:-ClassUnloadingWithConcurrentMark will trigger a Full GC when more than MetaspaceSize metadata is allocated.
  */
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import sun.hotspot.WhiteBox;
 
 public class TestG1ClassUnloadingHWM {
   private static long MetaspaceSize = 32 * 1024 * 1024;

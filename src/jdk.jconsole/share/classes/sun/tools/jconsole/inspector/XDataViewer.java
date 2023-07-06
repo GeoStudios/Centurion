@@ -19,18 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole.inspector;
+package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
+
 
 import javax.swing.JTable;
 import javax.swing.JScrollPane;
 import javax.swing.JButton;
-
-import java.awt.event.MouseListener;
+import java.awt.event.Mousejava.util.Listener;
 import java.awt.Component;
 import java.awt.Container;
+import jdk.jconsole.share.classes.sun.tools.jconsole.MBeansTab;
+import jdk.jconsole.share.classes.sun.tools.jconsole.Messages;
 
-import sun.tools.jconsole.MBeansTab;
-import sun.tools.jconsole.Messages;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class XDataViewer {
 

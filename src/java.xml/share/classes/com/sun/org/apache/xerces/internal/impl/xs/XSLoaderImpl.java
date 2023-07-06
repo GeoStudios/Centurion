@@ -19,29 +19,47 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
+
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XSGrammarPool;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.Grammar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XSGrammar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.LSInputjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.Stringjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSConstants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSLoader;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSModel;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSNamedMap;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObjectjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMConfiguration;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMStringjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSInput;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.impl.xs;
 
-import com.sun.org.apache.xerces.internal.impl.xs.util.XSGrammarPool;
-import com.sun.org.apache.xerces.internal.xni.grammars.Grammar;
-import com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription;
-import com.sun.org.apache.xerces.internal.xni.grammars.XSGrammar;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
-import com.sun.org.apache.xerces.internal.xs.LSInputList;
-import com.sun.org.apache.xerces.internal.xs.StringList;
-import com.sun.org.apache.xerces.internal.xs.XSConstants;
-import com.sun.org.apache.xerces.internal.xs.XSLoader;
-import com.sun.org.apache.xerces.internal.xs.XSModel;
-import com.sun.org.apache.xerces.internal.xs.XSNamedMap;
-import com.sun.org.apache.xerces.internal.xs.XSObjectList;
-import com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
-import org.w3c.dom.DOMConfiguration;
-import org.w3c.dom.DOMException;
-import org.w3c.dom.DOMStringList;
-import org.w3c.dom.ls.LSInput;
+
 
 /**
  * <p>An implementation of XSLoader which wraps XMLSchemaLoader.</p>

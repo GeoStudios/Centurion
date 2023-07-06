@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codecache;
+
+
+import jdk.test.lib.Asserts;
+import sun.hotspot.WhiteBox;
+import sun.hotspot.code.BlobType;
+import sun.hotspot.code.CodeBlob;
+import java.lang.management.MemoryPoolMXBean;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.EnumSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test OverflowCodeCacheTest
  * @bug 8059550
@@ -39,16 +63,8 @@
  *                   compiler.codecache.OverflowCodeCacheTest
  */
 
-package compiler.codecache;
 
-import jdk.test.lib.Asserts;
-import sun.hotspot.WhiteBox;
-import sun.hotspot.code.BlobType;
-import sun.hotspot.code.CodeBlob;
 
-import java.lang.management.MemoryPoolMXBean;
-import java.util.ArrayList;
-import java.util.EnumSet;
 
 public class OverflowCodeCacheTest {
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();

@@ -21,6 +21,28 @@
 
 package gc.g1;
 
+
+import java.lang.Math;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.Asserts;
+import jdk.test.lib.Platform;
+import jtreg.SkippedException;
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestLargePageUseForAuxMemory.java
  * @summary Test that auxiliary data structures are allocated using large pages if available.
@@ -34,13 +56,6 @@ package gc.g1;
  * @run main/othervm -Xbootclasspath/a:. -XX:+UseG1GC -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI -XX:+IgnoreUnrecognizedVMOptions -XX:+UseLargePages gc.g1.TestLargePageUseForAuxMemory
  */
 
-import java.lang.Math;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.Asserts;
-import jdk.test.lib.Platform;
-import jtreg.SkippedException;
-import sun.hotspot.WhiteBox;
 
 public class TestLargePageUseForAuxMemory {
     static final long HEAP_REGION_SIZE = 1 * 1024 * 1024;

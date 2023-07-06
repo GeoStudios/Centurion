@@ -19,19 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.d3d;
+package java.desktop.windows.classes.sun.java2d.d3d;
+
 
 import java.awt.Transparency;
 import java.awt.geom.Path2D;
-import sun.java2d.InvalidPipeException;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.loops.GraphicsPrimitive;
-import sun.java2d.pipe.BufferedPaints;
-import sun.java2d.pipe.BufferedRenderPipe;
-import sun.java2d.pipe.RenderQueue;
-import sun.java2d.pipe.SpanIterator;
-import sun.java2d.pipe.ParallelogramPipe;
-import static sun.java2d.pipe.BufferedOpCodes.*;
+import java.desktop.windows.classes.sun.java2d.InvalidPipeException;
+import java.desktop.windows.classes.sun.java2d.SunGraphics2D;
+import java.desktop.windows.classes.sun.java2d.loops.GraphicsPrimitive;
+import java.desktop.windows.classes.sun.java2d.pipe.BufferedPaints;
+import java.desktop.windows.classes.sun.java2d.pipe.BufferedRenderPipe;
+import java.desktop.windows.classes.sun.java2d.pipe.RenderQueue;
+import java.desktop.windows.classes.sun.java2d.pipe.SpanIterator;
+import java.desktop.windows.classes.sun.java2d.pipe.ParallelogramPipe;
+import static java.desktop.windows.classes.sun.java2d.pipe.BufferedOpCodes.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class D3DRenderer extends BufferedRenderPipe {
 

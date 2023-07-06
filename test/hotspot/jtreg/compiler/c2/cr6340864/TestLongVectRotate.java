@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2.cr6340864;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8248830
@@ -31,7 +48,6 @@
  * @run main/othervm -Xbatch -XX:CompileCommand=exclude,*::test() -Xmx128m -XX:+IgnoreUnrecognizedVMOptions -XX:UseAVX=3 compiler.c2.cr6340864.TestLongVectRotate
  */
 
-package compiler.c2.cr6340864;
 
 public class TestLongVectRotate {
   private static final int ARRLEN = 997;

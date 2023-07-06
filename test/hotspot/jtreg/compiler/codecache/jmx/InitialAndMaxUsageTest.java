@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codecache.jmx;
+
+
+import jdk.test.lib.Asserts;
+import sun.hotspot.code.BlobType;
+import java.lang.management.MemoryPoolMXBean;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test InitialAndMaxUsageTest
  * @summary testing of initial and max usage
@@ -40,14 +62,8 @@
  *     compiler.codecache.jmx.InitialAndMaxUsageTest
  */
 
-package compiler.codecache.jmx;
 
-import jdk.test.lib.Asserts;
-import sun.hotspot.code.BlobType;
 
-import java.lang.management.MemoryPoolMXBean;
-import java.util.ArrayList;
-import java.util.List;
 
 public class InitialAndMaxUsageTest {
 

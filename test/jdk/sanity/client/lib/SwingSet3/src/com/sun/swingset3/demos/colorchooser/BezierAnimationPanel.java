@@ -21,17 +21,30 @@
 
 package com.sun.swingset3.demos.colorchooser;
 
+
 import java.awt.*;
 import java.awt.event.HierarchyEvent;
-import java.awt.event.HierarchyListener;
+import java.awt.event.Hierarchyjava.util.Listener;
 import java.awt.geom.GeneralPath;
 import java.awt.image.BufferedImage;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Hashtable;
 import java.util.Map;
 import javax.swing.*;
+import static com.sun.swingset3.demos.colorchooser.BezierAnimationPanel.BezierColor.*;.extended
 
-import static com.sun.swingset3.demos.colorchooser.BezierAnimationPanel.BezierColor.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * BezierAnimationPanel

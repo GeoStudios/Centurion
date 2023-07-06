@@ -19,6 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.classUnloading.hiddenClass;
+
+
+import sun.hotspot.WhiteBox;
+import java.io.java.io.java.io.java.io.IOException;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodHandles.Lookup;
+import static java.lang.invoke.MethodHandles.Lookup.ClassOption.*;.extended
+import java.lang.reflect.Method;
+import java.net.URL;
+import java.net.URLConnection;
+import compiler.whitebox.CompilerWhiteBoxTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @summary Test unloading of hidden classes.
@@ -32,18 +58,8 @@
  *      compiler.classUnloading.hiddenClass.TestHiddenClassUnloading
  */
 
-package compiler.classUnloading.hiddenClass;
 
-import sun.hotspot.WhiteBox;
 
-import java.io.IOException;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodHandles.Lookup;
-import static java.lang.invoke.MethodHandles.Lookup.ClassOption.*;
-import java.lang.reflect.Method;
-import java.net.URL;
-import java.net.URLConnection;
-import compiler.whitebox.CompilerWhiteBoxTest;
 
 public class TestHiddenClassUnloading {
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();

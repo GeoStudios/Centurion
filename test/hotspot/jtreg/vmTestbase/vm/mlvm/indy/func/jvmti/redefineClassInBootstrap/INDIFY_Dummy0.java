@@ -21,12 +21,25 @@
 
 package vm.mlvm.indy.func.jvmti.redefineClassInBootstrap;
 
+
 import java.lang.invoke.CallSite;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
-
 import vm.mlvm.share.MlvmTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class INDIFY_Dummy0 {
 

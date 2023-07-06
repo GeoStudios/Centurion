@@ -18,17 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text.html;
 
-import javax.swing.text.*;
+package java.desktop.share.classes.javax.swing.text.html;
+
+
+import java.desktop.share.classes.javax.swing.text.*;
 import java.io.Writer;
-import java.util.Stack;
-import java.util.Enumeration;
-import java.util.Vector;
-import java.io.IOException;
-import java.util.StringTokenizer;
-import java.util.NoSuchElementException;
+import java.util.*;
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.URL;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is a writer for HTMLDocuments.
@@ -737,7 +749,7 @@ public class HTMLWriter extends AbstractWriter {
         if (attr != null && attr.isDefined(t)) {
             Object newValue = attr.getAttribute(t);
 
-            return (tagValue == null) ? (newValue != null) : (!tagValue.equals(newValue));
+            return !Objects.equals(tagValue, newValue);
         }
         return true;
     }

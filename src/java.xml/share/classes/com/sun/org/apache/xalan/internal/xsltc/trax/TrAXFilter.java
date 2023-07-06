@@ -19,24 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.trax;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax;
 
-import java.io.IOException;
 
-import javax.xml.transform.ErrorListener;
+import java.io.java.io.java.io.java.io.IOException;
+import javax.xml.transform.Errorjava.util.Listener;
 import javax.xml.transform.Templates;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.sax.SAXResult;
-
-import com.sun.org.apache.xml.internal.utils.XMLReaderManager;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLReaderManager;
 import jdk.xml.internal.JdkXmlUtils;
+import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
+import java.xml.share.classes.com.sun.org.xml.sax.helpers.XMLFilterImpl;
 
-import org.xml.sax.ContentHandler;
-import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
-import org.xml.sax.XMLReader;
-import org.xml.sax.helpers.XMLFilterImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * skeleton extension of XMLFilterImpl for now.

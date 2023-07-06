@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.naming.ldap;
+package java.naming.share.classes.javax.naming.ldap;
 
-import javax.naming.event.NamingListener;
+
+import java.naming.share.classes.javax.naming.event.Namingjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface is for handling {@code UnsolicitedNotificationEvent}.

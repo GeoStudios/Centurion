@@ -18,15 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.tools.jdi;
 
-import java.io.IOException;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.Map;
+import jdk.jdi.share.classes.com.sun.jdi.connect.Connector;
+import jdk.jdi.share.classes.com.sun.jdi.connect.IllegalConnectorArgumentsException;
+import jdk.jdi.share.classes.com.sun.jdi.connect.Transport;
+import jdk.jdi.share.classes.com.sun.jdi.connect.spi.TransportService;
 
-import com.sun.jdi.connect.Connector;
-import com.sun.jdi.connect.IllegalConnectorArgumentsException;
-import com.sun.jdi.connect.Transport;
-import com.sun.jdi.connect.spi.TransportService;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * A ListeningConnector that uses the SocketTransportService

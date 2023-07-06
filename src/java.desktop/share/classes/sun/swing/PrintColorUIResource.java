@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.swing;
+package java.desktop.share.classes.sun.swing;
+
 
 import java.awt.Color;
 import java.io.Serial;
-
 import javax.swing.plaf.ColorUIResource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A subclass of ColorUIResource that wraps an alternate color

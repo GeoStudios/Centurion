@@ -18,31 +18,47 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.jpackage.internal;
 
-import java.io.IOException;
+package jdk.jpackage.linux.classes.jdk.jpackage.internal;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.InvalidPathException;
 import java.nio.file.Path;
 import java.nio.file.Files;
 import java.text.MessageFormat;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import static jdk.jpackage.internal.DesktopIntegration.*;
-import static jdk.jpackage.internal.StandardBundlerParam.PREDEFINED_RUNTIME_IMAGE;
-import static jdk.jpackage.internal.StandardBundlerParam.VERSION;
-import static jdk.jpackage.internal.StandardBundlerParam.RELEASE;
-import static jdk.jpackage.internal.StandardBundlerParam.VENDOR;
-import static jdk.jpackage.internal.StandardBundlerParam.DESCRIPTION;
-import static jdk.jpackage.internal.StandardBundlerParam.INSTALL_DIR;
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.DesktopIntegration.*;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.PREDEFINED_RUNTIME_IMAGE;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.VERSION;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.RELEASE;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.VENDOR;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.DESCRIPTION;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.INSTALL_DIR;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class LinuxPackageBundler extends AbstractBundler {
 

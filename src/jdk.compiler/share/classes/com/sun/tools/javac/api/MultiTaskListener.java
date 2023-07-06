@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.api;
+package jdk.compiler.share.classes.com.sun.tools.javac.api;
 
-import java.util.Arrays;
+
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
+import jdk.compiler.share.classes.com.sun.source.util.TaskEvent;
+import jdk.compiler.share.classes.com.sun.source.util.Taskjava.util.Listener;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.DeferredCompletionFailureHandler;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.DeferredCompletionFailureHandler.Handler;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
 
-import com.sun.source.util.TaskEvent;
-import com.sun.source.util.TaskListener;
-import com.sun.tools.javac.code.DeferredCompletionFailureHandler;
-import com.sun.tools.javac.code.DeferredCompletionFailureHandler.Handler;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.DefinedBy;
-import com.sun.tools.javac.util.DefinedBy.Api;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A collection of currently registered {@link TaskListener}s. Events passed to this TaskListener

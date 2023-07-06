@@ -18,11 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.meta;
+
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
+
 
 import java.lang.reflect.AnnotatedElement;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta.Assumptions.AssumptionResult;
 
-import jdk.vm.ci.meta.Assumptions.AssumptionResult;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a resolved Java type. Types include primitives, objects, {@code void}, and arrays

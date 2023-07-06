@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.icu.text;
+package java.base.share.classes.jdk.internal.icu.text;
+
 
 import java.text.ParsePosition;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.TreeSet;
+import java.base.share.classes.jdk.internal.icu.impl.BMPSet;
+import java.base.share.classes.jdk.internal.icu.impl.UCharacterProperty;
+import java.base.share.classes.jdk.internal.icu.impl.UnicodeSetStringSpan;
+import java.base.share.classes.jdk.internal.icu.impl.Utility;
+import java.base.share.classes.jdk.internal.icu.lang.UCharacter;
+import java.base.share.classes.jdk.internal.icu.util.OutputInt;
+import java.base.share.classes.jdk.internal.icu.util.VersionInfo;
 
-import jdk.internal.icu.impl.BMPSet;
-import jdk.internal.icu.impl.UCharacterProperty;
-import jdk.internal.icu.impl.UnicodeSetStringSpan;
-import jdk.internal.icu.impl.Utility;
-import jdk.internal.icu.lang.UCharacter;
-import jdk.internal.icu.util.OutputInt;
-import jdk.internal.icu.util.VersionInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A mutable set of Unicode characters and multicharacter strings.

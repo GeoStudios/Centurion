@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr;
+package jdk.jfr.share.classes.jdk.jfr;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Indicates a state in the life cycle of a recording.

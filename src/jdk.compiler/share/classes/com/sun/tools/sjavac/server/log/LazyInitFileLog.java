@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac.server.log;
+package jdk.compiler.share.classes.com.sun.tools.sjavac.server.log;
 
-import com.sun.tools.sjavac.Log;
 
+import jdk.compiler.share.classes.com.sun.tools.sjavac.Log;
 import java.io.FileWriter;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class LazyInitFileLog extends Log {
 

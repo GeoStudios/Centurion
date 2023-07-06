@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts;
+
+
+import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
+import java.util.HashMap;
+import java.util.function.Function;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8080289 8189067
@@ -29,12 +50,7 @@
  *      compiler.loopopts.TestMoveStoresOutOfLoops
  */
 
-package compiler.loopopts;
 
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
-import java.util.HashMap;
-import java.util.function.Function;
 
 public class TestMoveStoresOutOfLoops {
 

@@ -19,8 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.logging.share.classes.java.util.logging;
 
-package java.util.logging;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Formatter provides support for formatting LogRecords.

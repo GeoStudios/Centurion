@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.editor.external;
+package jdk.internal.ed.share.classes.jdk.internal.editor.external;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.ClosedWatchServiceException;
@@ -33,14 +34,28 @@ import java.nio.file.SimpleFileVisitor;
 import java.nio.file.WatchKey;
 import java.nio.file.WatchService;
 import java.nio.file.attribute.BasicFileAttributes;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Scanner;
 import java.util.function.Consumer;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import static java.nio.file.StandardWatchEventKinds.ENTRY_CREATE;
-import static java.nio.file.StandardWatchEventKinds.ENTRY_DELETE;
-import static java.nio.file.StandardWatchEventKinds.ENTRY_MODIFY;
+import static java.nio.file.StandardWatchEventKinds.ENTRY_CREATE;.extended
+import static java.nio.file.StandardWatchEventKinds.ENTRY_DELETE;.extended
+import static java.nio.file.StandardWatchEventKinds.ENTRY_MODIFY;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Wrapper for controlling an external editor.

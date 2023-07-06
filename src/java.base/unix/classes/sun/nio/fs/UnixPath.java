@@ -19,19 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.fs;
+package java.base.unix.classes.sun.nio.fs;
+
 
 import java.nio.file.*;
 import java.nio.charset.*;
 import java.io.*;
 import java.net.URI;
 import java.util.*;
-
 import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import static java.base.unix.classes.sun.nio.fs.UnixNativeDispatcher.*;.extended
+import static java.base.unix.classes.sun.nio.fs.UnixConstants.*;.extended
 
-import static sun.nio.fs.UnixNativeDispatcher.*;
-import static sun.nio.fs.UnixConstants.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Linux/Mac implementation of java.nio.file.Path

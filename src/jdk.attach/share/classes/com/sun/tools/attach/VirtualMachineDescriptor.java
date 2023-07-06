@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.attach;
+package jdk.attach.share.classes.com.sun.tools.attach;
 
-import com.sun.tools.attach.spi.AttachProvider;
+
+import jdk.attach.share.classes.com.sun.tools.attach.spi.AttachProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Describes a Java virtual machine.

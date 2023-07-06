@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.util;
+package java.base.share.classes.sun.security.util;
 
-import java.io.IOException;
-import java.security.*;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.security.*;
 import java.security.interfaces.EdECKey;
 import java.security.interfaces.EdECPrivateKey;
 import java.security.interfaces.RSAKey;
-import java.security.spec.*;
-import java.util.Locale;
+import java.base.share.classes.java.security.spec.*;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.sun.security.rsa.RSAUtil;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.sun.security.x509.AlgorithmId;
 
-import sun.security.rsa.RSAUtil;
-import jdk.internal.access.SharedSecrets;
-import sun.security.x509.AlgorithmId;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class for Signature related operations. Currently used by various

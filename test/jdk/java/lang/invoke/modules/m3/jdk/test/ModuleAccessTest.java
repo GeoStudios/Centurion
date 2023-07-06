@@ -21,14 +21,13 @@
 
 package jdk.test;
 
+
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandles.Lookup;
-
 import java.lang.invoke.MethodType;
 import java.lang.reflect.Method;
 import java.util.HashMap;
@@ -36,11 +35,22 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
 import e1.CrackM5Access;
+import static java.lang.invoke.MethodHandles.Lookup.*;.extended
+import static org.testng.Assert.*;.extended
 
-import static java.lang.invoke.MethodHandles.Lookup.*;
-import static org.testng.Assert.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ModuleAccessTest {
     static ModuleLookup m3;

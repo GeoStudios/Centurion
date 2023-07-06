@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.fs;
+package java.base.macosx.classes.sun.nio.fs;
+
 
 import java.util.regex.Pattern;
+import static java.base.macosx.classes.sun.nio.fs.MacOSXNativeDispatcher.*;.extended
 
-import static sun.nio.fs.MacOSXNativeDispatcher.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * MacOS implementation of FileSystem

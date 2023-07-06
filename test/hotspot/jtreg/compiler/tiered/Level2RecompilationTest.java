@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.tiered;
+
+
+import compiler.whitebox.CompilerWhiteBoxTest;
+import jtreg.SkippedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test Level2RecompilationTest
  * @summary Test downgrading mechanism from level 3 to level 2 for those profiled methods.
@@ -38,10 +57,7 @@
  *                   compiler.tiered.Level2RecompilationTest
  */
 
-package compiler.tiered;
 
-import compiler.whitebox.CompilerWhiteBoxTest;
-import jtreg.SkippedException;
 
 public class Level2RecompilationTest extends CompLevelsTest {
     public static void main(String[] args) throws Throwable {

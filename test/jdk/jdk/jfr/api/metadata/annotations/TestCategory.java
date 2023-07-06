@@ -21,12 +21,25 @@
 
 package jdk.jfr.api.metadata.annotations;
 
-import java.util.Arrays;
 
+import java.base.share.classes.java.util.Arrays;
 import jdk.jfr.Category;
 import jdk.jfr.Event;
 import jdk.jfr.EventType;
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

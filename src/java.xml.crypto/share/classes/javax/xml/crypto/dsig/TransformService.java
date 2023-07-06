@@ -18,22 +18,41 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-/*
- * $Id: TransformService.java,v 1.6.4.1 2005/09/15 12:42:11 mullan Exp $
- */
-package javax.xml.crypto.dsig;
+
+package java.xml.crypto.share.classes.javax.xml.crypto.dsig;
+
 
 import java.security.InvalidAlgorithmParameterException;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.NoSuchProviderException;
 import java.security.Provider;
 import java.security.Provider.Service;
 import java.security.Security;
 import java.util.*;
-import javax.xml.crypto.MarshalException;
-import javax.xml.crypto.XMLStructure;
-import javax.xml.crypto.XMLCryptoContext;
-import javax.xml.crypto.dsig.spec.TransformParameterSpec;
+import java.xml.crypto.share.classes.javax.xml.crypto.MarshalException;
+import java.xml.crypto.share.classes.javax.xml.crypto.XMLStructure;
+import java.xml.crypto.share.classes.javax.xml.crypto.XMLCryptoContext;
+import java.xml.crypto.share.classes.javax.xml.crypto.dsig.spec.TransformParameterSpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * $Id: TransformService.java,v 1.6.4.1 2005/09/15 12:42:11 mullan Exp $
+ */
+
+
 
 
 /**

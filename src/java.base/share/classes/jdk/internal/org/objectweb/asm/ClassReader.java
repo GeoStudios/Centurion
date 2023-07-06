@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.org.objectweb.asm;
+package java.base.share.classes.jdk.internal.org.objectweb.asm;
+
 
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A parser to make a {@link ClassVisitor} visit a ClassFile structure, as defined in the Java

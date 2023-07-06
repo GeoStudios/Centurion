@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.jdeprscan;
+
+
+import com.sun.tools.javac.platform.JDKPlatformProvider;
+import com.sun.tools.jdeprscan.Main;
+import org.testng.annotations.Test;
+import static org.testng.Assert.assertFalse;.extended
+import static org.testng.Assert.assertTrue;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8167965 8194308
@@ -31,14 +53,8 @@
  * @run testng jdk.jdeprscan.TestRelease
  */
 
-package jdk.jdeprscan;
 
-import com.sun.tools.javac.platform.JDKPlatformProvider;
-import com.sun.tools.jdeprscan.Main;
-import org.testng.annotations.Test;
 
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertTrue;
 
 public class TestRelease {
     static boolean invoke(String arg) {

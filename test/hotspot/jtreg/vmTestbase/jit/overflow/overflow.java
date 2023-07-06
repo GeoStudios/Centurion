@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.overflow;
+
+
+import java.lang.*;
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,7 +49,6 @@
  * @run main/othervm jit.overflow.overflow
  */
 
-package jit.overflow;
 
 /*
    This test checks if a JIT can still detect stack overflow. Method
@@ -39,9 +57,7 @@ package jit.overflow;
    don't loose some error handling ability in doing so.
 */
 
-import java.lang.*;
 
-import nsk.share.TestFailure;
 
 public class overflow {
     public static void main(String[] args) {

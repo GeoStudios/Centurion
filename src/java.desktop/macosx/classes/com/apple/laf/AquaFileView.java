@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
 import java.util.Map.Entry;
-
 import javax.swing.Icon;
 import javax.swing.filechooser.FileView;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
 
-import com.apple.laf.AquaUtils.RecyclableSingleton;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings({"removal","serial"}) // JDK implementation class
 class AquaFileView extends FileView {

@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.vectorization;
+
+
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.VarHandle;
+import java.nio.ByteBuffer;
+import java.nio.ByteOrder;
+import java.nio.IntBuffer;
+import jdk.test.lib.Platform;
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.process.OutputAnalyzer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8257531
@@ -37,18 +62,9 @@
  * @run driver compiler.vectorization.TestBufferVectorization arrayView
  */
 
-package compiler.vectorization;
 
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.VarHandle;
 
-import java.nio.ByteBuffer;
-import java.nio.ByteOrder;
-import java.nio.IntBuffer;
 
-import jdk.test.lib.Platform;
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.process.OutputAnalyzer;
 
 public class TestBufferVectorization {
     final static int N = 500;

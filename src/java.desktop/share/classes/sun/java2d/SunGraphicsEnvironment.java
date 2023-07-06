@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d;
+package java.desktop.share.classes.sun.java2d;
+
 
 import java.awt.AWTError;
 import java.awt.Color;
@@ -37,16 +38,29 @@ import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
 import java.awt.peer.ComponentPeer;
 import java.security.AccessController;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.TreeMap;
+import java.desktop.share.classes.sun.awt.DisplayChangedjava.util.Listener;
+import java.desktop.share.classes.sun.awt.SunDisplayChanger;
+import java.desktop.share.classes.sun.font.FontManager;
+import java.desktop.share.classes.sun.font.FontManagerFactory;
+import java.desktop.share.classes.sun.font.FontManagerForSGE;
+import java.desktop.share.classes.sun.java2d.pipe.Region;
+import java.desktop.share.classes.sun.security.action.GetPropertyAction;
 
-import sun.awt.DisplayChangedListener;
-import sun.awt.SunDisplayChanger;
-import sun.font.FontManager;
-import sun.font.FontManagerFactory;
-import sun.font.FontManagerForSGE;
-import sun.java2d.pipe.Region;
-import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is an implementation of a GraphicsEnvironment object for the

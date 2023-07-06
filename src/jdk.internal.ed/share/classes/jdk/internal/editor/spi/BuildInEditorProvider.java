@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.editor.spi;
+package jdk.internal.ed.share.classes.jdk.internal.editor.spi;
+
 
 import java.util.function.Consumer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines the provider of a built-in editor.

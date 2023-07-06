@@ -19,11 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.keys.content;
+
 
 /**
  * Empty interface just to identify Elements that can be children of ds:KeyInfo.

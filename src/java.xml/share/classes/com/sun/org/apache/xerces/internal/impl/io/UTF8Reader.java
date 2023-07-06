@@ -19,22 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io;
+
+
+import java.io.InputStream;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Reader;
+import java.base.share.classes.java.util.Locale;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.MessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
+import java.xml.share.classes.com.sun.xml.internal.stream.util.BufferAllocator;
+import java.xml.share.classes.com.sun.xml.internal.stream.util.ThreadLocalBufferAllocator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.impl.io;
 
-import java.io.InputStream;
-import java.io.IOException;
-import java.io.Reader;
 
-import java.util.Locale;
-import com.sun.org.apache.xerces.internal.util.MessageFormatter;
-import com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
 
-import com.sun.xml.internal.stream.util.BufferAllocator;
-import com.sun.xml.internal.stream.util.ThreadLocalBufferAllocator;
+
 
 /**
  * <p>A UTF-8 reader.</p>

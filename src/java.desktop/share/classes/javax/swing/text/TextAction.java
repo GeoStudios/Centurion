@@ -18,16 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text;
+
+package java.desktop.share.classes.javax.swing.text;
+
 
 import java.awt.event.ActionEvent;
 import java.awt.KeyboardFocusManager;
 import java.awt.Component;
 import java.util.Hashtable;
 import java.util.Enumeration;
-import javax.swing.Action;
-import javax.swing.AbstractAction;
-import javax.swing.KeyStroke;
+import java.desktop.share.classes.javax.swing.Action;
+import java.desktop.share.classes.javax.swing.AbstractAction;
+import java.desktop.share.classes.javax.swing.KeyStroke;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An Action implementation useful for key bindings that are

@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdwp.ReferenceType.Instances.instances001;
+
+
+import nsk.share.Consts;
+import nsk.share.jdwp.CommandPacket;
+import nsk.share.jdwp.JDWP;
+import nsk.share.jdwp.ReplyPacket;
+import nsk.share.jdwp.TestDebuggerType1;
+import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -72,15 +95,8 @@
  *      -debugee.vmkeys="-Xmx128M ${test.vm.opts} ${test.java.opts}"
  */
 
-package nsk.jdwp.ReferenceType.Instances.instances001;
 
-import nsk.share.Consts;
-import nsk.share.jdwp.CommandPacket;
-import nsk.share.jdwp.JDWP;
-import nsk.share.jdwp.ReplyPacket;
-import nsk.share.jdwp.TestDebuggerType1;
 
-import java.io.PrintStream;
 
 public class instances001 extends TestDebuggerType1 {
     protected String getDebugeeClassName() {

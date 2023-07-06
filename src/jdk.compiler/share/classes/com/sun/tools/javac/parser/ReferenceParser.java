@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.parser;
+package jdk.compiler.share.classes.com.sun.tools.javac.parser;
 
-import com.sun.tools.javac.parser.Tokens.TokenKind;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.ListBuffer;
-import com.sun.tools.javac.util.Log;
-import com.sun.tools.javac.util.Name;
+
+import jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.TokenKind;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.ListBuffer;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Name;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  A utility class to parse a string in a doc comment containing a

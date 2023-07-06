@@ -18,24 +18,40 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.terminal.impl.jna.win;
 
-import java.io.IOException;
+package jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna.win;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.Writer;
+import jdk.internal.le.windows.classes.jdk.internal.org.jline.utils.AnsiWriter;
+import jdk.internal.le.windows.classes.jdk.internal.org.jline.utils.Colors;
+import static jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna.win.Kernel32.BACKGROUND_BLUE;.extended
+import static jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna.win.Kernel32.BACKGROUND_GREEN;.extended
+import static jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna.win.Kernel32.BACKGROUND_INTENSITY;.extended
+import static jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna.win.Kernel32.BACKGROUND_RED;.extended
+import static jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna.win.Kernel32.FOREGROUND_BLUE;.extended
+import static jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna.win.Kernel32.FOREGROUND_GREEN;.extended
+import static jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna.win.Kernel32.FOREGROUND_INTENSITY;.extended
+import static jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna.win.Kernel32.FOREGROUND_RED;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //import com.sun.jna.Pointer;
 //import com.sun.jna.ptr.IntByReference;
-import jdk.internal.org.jline.utils.AnsiWriter;
-import jdk.internal.org.jline.utils.Colors;
 
-import static jdk.internal.org.jline.terminal.impl.jna.win.Kernel32.BACKGROUND_BLUE;
-import static jdk.internal.org.jline.terminal.impl.jna.win.Kernel32.BACKGROUND_GREEN;
-import static jdk.internal.org.jline.terminal.impl.jna.win.Kernel32.BACKGROUND_INTENSITY;
-import static jdk.internal.org.jline.terminal.impl.jna.win.Kernel32.BACKGROUND_RED;
-import static jdk.internal.org.jline.terminal.impl.jna.win.Kernel32.FOREGROUND_BLUE;
-import static jdk.internal.org.jline.terminal.impl.jna.win.Kernel32.FOREGROUND_GREEN;
-import static jdk.internal.org.jline.terminal.impl.jna.win.Kernel32.FOREGROUND_INTENSITY;
-import static jdk.internal.org.jline.terminal.impl.jna.win.Kernel32.FOREGROUND_RED;
 
 
 /**

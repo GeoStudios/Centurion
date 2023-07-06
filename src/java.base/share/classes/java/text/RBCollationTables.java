@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
 
-import java.util.Vector;
+
+import java.base.share.classes.java.util.Vector;
 import sun.text.UCompactIntArray;
 import sun.text.IntHashtable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains the static state of a RuleBasedCollator: The various

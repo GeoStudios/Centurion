@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xpath.internal;
+package java.xml.share.classes.com.sun.org.apache.xpath.internal;
 
-import com.sun.org.apache.xpath.internal.functions.FuncExtFunction;
-import com.sun.org.apache.xpath.internal.objects.XObject;
-import java.util.List;
+
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.functions.FuncExtFunction;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface that XPath objects can call to obtain access to an

@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package org.jcp.xml.dsig.internal.dom;
+
+package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
+
 
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -29,9 +31,23 @@ import java.security.Security;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The secure validation policy as specified by the

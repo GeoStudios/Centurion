@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.org.objectweb.asm.tree.analysis;
+package java.base.share.classes.jdk.internal.org.objectweb.asm.tree.analysis;
 
-import java.util.List;
-import jdk.internal.org.objectweb.asm.Type;
+
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Type;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An extended {@link BasicVerifier} that performs more precise verifications. This verifier

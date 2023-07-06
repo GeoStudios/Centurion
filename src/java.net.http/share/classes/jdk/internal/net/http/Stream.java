@@ -19,18 +19,19 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
+
 
 import java.io.EOFException;
-import java.io.IOException;
-import java.io.UncheckedIOException;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
 import java.net.URI;
 import java.nio.ByteBuffer;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ConcurrentLinkedDeque;
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -44,9 +45,23 @@ import java.net.http.HttpHeaders;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.net.http.HttpResponse.BodySubscriber;
-import jdk.internal.net.http.common.*;
-import jdk.internal.net.http.frame.*;
-import jdk.internal.net.http.hpack.DecodingCallback;
+import java.net.http.share.classes.jdk.internal.net.http.common.*;
+import java.net.http.share.classes.jdk.internal.net.http.frame.*;
+import java.net.http.share.classes.jdk.internal.net.http.hpack.DecodingCallback;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Http/2 Stream handling.

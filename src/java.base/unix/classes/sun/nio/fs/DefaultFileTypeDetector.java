@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.fs;
+package java.base.unix.classes.sun.nio.fs;
+
 
 import java.nio.file.FileSystems;
 import java.nio.file.spi.FileTypeDetector;
 import java.nio.file.spi.FileSystemProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class DefaultFileTypeDetector {
     private DefaultFileTypeDetector() { }

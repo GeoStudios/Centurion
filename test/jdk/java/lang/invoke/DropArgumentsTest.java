@@ -19,22 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/* @test
- * @bug  8158169
- * @summary unit tests for java.lang.invoke.MethodHandles
- * @run testng test.java.lang.invoke.DropArgumentsTest
- */
 package test.java.lang.invoke;
+
 
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import java.util.Collections;
-import java.util.List;
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
-import static org.testng.AssertJUnit.*;
+import java.util.java.util.java.util.java.util.List;
+import static java.lang.invoke.MethodHandles.*;.extended
+import static java.lang.invoke.MethodType.*;.extended
+import static org.testng.AssertJUnit.*;.extended
 import org.testng.annotations.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @test
+ * @bug  8158169
+ * @summary unit tests for java.lang.invoke.MethodHandles
+ * @run testng test.java.lang.invoke.DropArgumentsTest
+ */
+
 
 public class DropArgumentsTest {
 

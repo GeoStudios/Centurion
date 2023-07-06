@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5;
+package java.security.jgss.share.classes.sun.security.krb5;
 
-import sun.security.krb5.internal.*;
-import sun.security.krb5.internal.crypto.KeyUsage;
-import sun.security.krb5.internal.crypto.EType;
-import sun.security.util.*;
-import java.io.IOException;
-import java.util.Objects;
+
+import java.security.jgss.share.classes.sun.security.krb5.internal.*;
+import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.KeyUsage;
+import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.EType;
+import java.security.jgss.share.classes.sun.security.util.*;
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.util.Objects;
 import javax.security.auth.kerberos.KeyTab;
-import sun.security.jgss.krb5.Krb5Util;
+import java.security.jgss.share.classes.sun.security.jgss.krb5.Krb5Util;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class encapsulates a AS-REP message that the KDC sends to the

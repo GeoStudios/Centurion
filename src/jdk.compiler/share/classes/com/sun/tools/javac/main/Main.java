@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.main;
+package jdk.compiler.share.classes.com.sun.tools.javac.main;
+
 
 import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.io.Writer;
@@ -34,28 +35,40 @@ import java.nio.file.Paths;
 import java.security.CodeSource;
 import java.security.DigestInputStream;
 import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 import javax.tools.JavaFileManager;
+import jdk.compiler.share.classes.com.sun.tools.javac.api.BasicJavacTask;
+import jdk.compiler.share.classes.com.sun.tools.javac.file.CacheFSInfo;
+import jdk.compiler.share.classes.com.sun.tools.javac.file.BaseFileManager;
+import jdk.compiler.share.classes.com.sun.tools.javac.file.JavacFileManager;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.Target;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.CommandLine.UnmatchedQuote;
+import jdk.compiler.share.classes.com.sun.tools.javac.platform.PlatformDescription;
+import jdk.compiler.share.classes.com.sun.tools.javac.processing.AnnotationProcessingError;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticInfo;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log.PrefixKind;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log.WriterKind;
 
-import com.sun.tools.javac.api.BasicJavacTask;
-import com.sun.tools.javac.file.CacheFSInfo;
-import com.sun.tools.javac.file.BaseFileManager;
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.jvm.Target;
-import com.sun.tools.javac.main.CommandLine.UnmatchedQuote;
-import com.sun.tools.javac.platform.PlatformDescription;
-import com.sun.tools.javac.processing.AnnotationProcessingError;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticInfo;
-import com.sun.tools.javac.util.Log.PrefixKind;
-import com.sun.tools.javac.util.Log.WriterKind;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This class provides a command line interface to the javac compiler.
  *

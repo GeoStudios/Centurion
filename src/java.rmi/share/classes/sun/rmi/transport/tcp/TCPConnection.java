@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.rmi.transport.tcp;
+package java.rmi.share.classes.sun.rmi.transport.tcp;
+
 
 import java.io.*;
-import java.net.Socket;
+import java.net.java.net.java.net.java.net.Socket;
 import java.rmi.*;
-import sun.rmi.runtime.Log;
-import sun.rmi.transport.*;
+import java.rmi.share.classes.sun.rmi.runtime.Log;
+import java.rmi.share.classes.sun.rmi.transport.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TCPConnection implements Connection {
 

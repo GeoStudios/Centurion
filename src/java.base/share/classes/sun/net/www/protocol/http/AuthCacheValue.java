@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.protocol.http;
+package java.base.share.classes.sun.net.www.protocol.http;
+
 
 import java.io.Serializable;
 import java.net.PasswordAuthentication;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * AuthCacheValue: interface to minimize exposure to authentication cache

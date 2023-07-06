@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http.common;
+package java.net.http.share.classes.jdk.internal.net.http.common;
+
 
 import java.util.function.Supplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An internal {@code System.Logger} that is used for internal

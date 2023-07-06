@@ -19,24 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.code;
+package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
-import com.sun.tools.javac.code.Kinds.Kind;
+
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind;
 import java.lang.ref.WeakReference;
 import java.util.*;
 import java.util.function.BiConsumer;
 import java.util.function.Predicate;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.CompletionFailure;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.TypeSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCImport;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.LookupKind.RECURSIVE;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.util.Iterators.createCompoundIterator;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.util.Iterators.createFilterIterator;.extended
 
-import com.sun.tools.javac.code.Symbol.CompletionFailure;
-import com.sun.tools.javac.code.Symbol.TypeSymbol;
-import com.sun.tools.javac.tree.JCTree.JCImport;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.List;
 
-import static com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;
-import static com.sun.tools.javac.code.Scope.LookupKind.RECURSIVE;
-import static com.sun.tools.javac.util.Iterators.createCompoundIterator;
-import static com.sun.tools.javac.util.Iterators.createFilterIterator;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A scope represents an area of visibility in a Java program. The
  *  Scope class is a container for symbols which provides

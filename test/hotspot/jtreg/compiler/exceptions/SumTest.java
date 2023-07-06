@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.exceptions;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8066900
@@ -27,7 +44,6 @@
  * @run main/othervm -Xbatch compiler.exceptions.SumTest
  */
 
-package compiler.exceptions;
 
 public class SumTest {
     private static class Sum {

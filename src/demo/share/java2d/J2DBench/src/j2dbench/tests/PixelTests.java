@@ -19,24 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * This source code is provided to illustrate the usage of a given feature
- * or technique and has been deliberately simplified. Additional steps
- * required for a production-quality application, such as security checks,
- * input validation and proper error handling, might not be present in
- * this sample code.
- */
+package demo.share.java2d.J2DBench.src.j2dbench.tests;
 
 
-package j2dbench.tests;
-
-import j2dbench.Destinations;
-import j2dbench.Group;
-import j2dbench.Modifier;
-import j2dbench.Option;
-import j2dbench.Test;
-import j2dbench.Result;
-import j2dbench.TestEnvironment;
+import demo.share.java2d.J2DBench.src.j2dbench.Destinations;
+import demo.share.java2d.J2DBench.src.j2dbench.Group;
+import demo.share.java2d.J2DBench.src.j2dbench.Modifier;
+import demo.share.java2d.J2DBench.src.j2dbench.Option;
+import demo.share.java2d.J2DBench.src.j2dbench.Test;
+import demo.share.java2d.J2DBench.src.j2dbench.Result;
+import demo.share.java2d.J2DBench.src.j2dbench.TestEnvironment;
 import java.awt.Graphics2D;
 import java.awt.Color;
 import java.awt.GraphicsConfiguration;
@@ -50,6 +42,32 @@ import java.awt.image.DataBufferInt;
 import java.awt.image.Raster;
 import java.awt.image.WritableRaster;
 import java.awt.image.IndexColorModel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * This source code is provided to illustrate the usage of a given feature
+ * or technique and has been deliberately simplified. Additional steps
+ * required for a production-quality application, such as security checks,
+ * input validation and proper error handling, might not be present in
+ * this sample code.
+ */
+
+
+
+
 
 public abstract class PixelTests extends Test {
     static Group pixelroot;

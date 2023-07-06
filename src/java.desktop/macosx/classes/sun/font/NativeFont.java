@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.macosx.classes.sun.font;
+
 
 import java.awt.FontFormatException;
 import java.awt.font.FontRenderContext;
 import java.awt.geom.GeneralPath;
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This class should never be invoked on the windows implementation

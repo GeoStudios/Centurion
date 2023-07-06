@@ -21,6 +21,21 @@
 
 package diamond;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //6256068
 public interface A {
     /**

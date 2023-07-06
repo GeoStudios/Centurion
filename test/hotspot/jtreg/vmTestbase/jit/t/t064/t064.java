@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.t.t064;
+
+
+import nsk.share.TestFailure;
+import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,10 +49,7 @@
  * @run main/othervm jit.t.t064.t064
  */
 
-package jit.t.t064;
 
-import nsk.share.TestFailure;
-import nsk.share.GoldChecker;
 
 // Main() does getstatics of k.b and putstatics of l.b.  K.set() does putstatics
 // of k.b; l.show() does getstatics of l.b.  The idea is, you jit only

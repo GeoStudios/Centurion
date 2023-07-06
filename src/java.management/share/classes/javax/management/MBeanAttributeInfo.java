@@ -19,14 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management;
+package java.management.share.classes.javax.management;
+
 
 import java.lang.reflect.Method;
 import java.security.AccessController;
-
 import com.sun.jmx.mbeanserver.GetPropertyAction;
 import com.sun.jmx.mbeanserver.Introspector;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

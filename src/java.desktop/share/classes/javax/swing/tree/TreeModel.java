@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.tree;
 
-import javax.swing.event.*;
+package java.desktop.share.classes.javax.swing.tree;
+
+
+import java.desktop.share.classes.javax.swing.event.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The model used by <code>JTree</code>.

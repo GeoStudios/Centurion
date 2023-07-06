@@ -19,61 +19,74 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.api;
+package jdk.compiler.share.classes.com.sun.tools.javac.api;
+
 
 import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.io.Writer;
 import java.util.ArrayDeque;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Queue;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
-
 import javax.tools.Diagnostic;
-import javax.tools.DiagnosticListener;
+import javax.tools.Diagnosticjava.util.Listener;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileObject;
 import javax.tools.StandardLocation;
+import jdk.compiler.share.classes.com.sun.source.tree.ClassTree;
+import jdk.compiler.share.classes.com.sun.source.tree.CompilationUnitTree;
+import jdk.compiler.share.classes.com.sun.source.tree.Tree;
+import jdk.compiler.share.classes.com.sun.source.util.JavacTask;
+import jdk.compiler.share.classes.com.sun.source.util.TaskEvent;
+import jdk.compiler.share.classes.com.sun.source.util.TaskEvent.Kind;
+import jdk.compiler.share.classes.com.sun.source.util.Taskjava.util.Listener;
+import jdk.compiler.share.classes.com.sun.source.util.TreeScanner;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Preview;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symtab;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.ClassType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Types;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Annotate;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Check;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.CompileStates;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Enter;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Modules;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Arguments;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.JavaCompiler;
+import jdk.compiler.share.classes.com.sun.tools.javac.model.JavacElements;
+import jdk.compiler.share.classes.com.sun.tools.javac.platform.PlatformDescription;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCClassDecl;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.LetExpr;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Options;
 
-import com.sun.source.tree.ClassTree;
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.tree.Tree;
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.TaskEvent;
-import com.sun.source.util.TaskEvent.Kind;
-import com.sun.source.util.TaskListener;
-import com.sun.source.util.TreeScanner;
-import com.sun.tools.javac.code.Kinds;
-import com.sun.tools.javac.code.Preview;
-import com.sun.tools.javac.code.Symbol;
-import com.sun.tools.javac.code.Symtab;
-import com.sun.tools.javac.code.Type;
-import com.sun.tools.javac.code.Type.ClassType;
-import com.sun.tools.javac.code.TypeTag;
-import com.sun.tools.javac.code.Types;
-import com.sun.tools.javac.comp.Annotate;
-import com.sun.tools.javac.comp.Check;
-import com.sun.tools.javac.comp.CompileStates;
-import com.sun.tools.javac.comp.Enter;
-import com.sun.tools.javac.comp.Modules;
-import com.sun.tools.javac.main.Arguments;
-import com.sun.tools.javac.main.JavaCompiler;
-import com.sun.tools.javac.model.JavacElements;
-import com.sun.tools.javac.platform.PlatformDescription;
-import com.sun.tools.javac.tree.JCTree.JCClassDecl;
-import com.sun.tools.javac.tree.JCTree.LetExpr;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.DefinedBy;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.Log;
-import com.sun.tools.javac.util.Options;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A pool of reusable JavacTasks. When a task is no valid anymore, it is returned to the pool,

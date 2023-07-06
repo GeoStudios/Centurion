@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.JumbleGC002;
+
+
+import java.io.*;
+import java.util.*;
+import nsk.share.*;
+import nsk.share.gc.*;
+import nsk.share.test.LocalRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -51,14 +73,8 @@
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.JumbleGC002.JumbleGC002
  */
 
-package gc.gctests.JumbleGC002;
 
-import java.io.*;
-import java.util.*;
 
-import nsk.share.*;
-import nsk.share.gc.*;
-import nsk.share.test.LocalRandom;
 
 /**
  * This test simply does Algorithms.eatMemory() in a loop

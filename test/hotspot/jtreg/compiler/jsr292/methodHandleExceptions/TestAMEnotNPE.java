@@ -19,6 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jsr292.methodHandleExceptions;
+
+
+import p.Dok;
+import jdk.internal.org.objectweb.asm.ClassWriter;
+import jdk.internal.org.objectweb.asm.Handle;
+import jdk.internal.org.objectweb.asm.MethodVisitor;
+import jdk.internal.org.objectweb.asm.Opcodes;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PRIVATE;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PUBLIC;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_STATIC;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_SUPER;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ALOAD;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ILOAD;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.INVOKESPECIAL;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.INVOKEVIRTUAL;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.IRETURN;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.LLOAD;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.RETURN;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.V1_8;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8025260 8016839 8046171
@@ -39,31 +77,9 @@
 // will either succeed or fail based on what other implementations are found in the inheritance
 // hierarchy. This is explained for each test below.
 
-package compiler.jsr292.methodHandleExceptions;
 
-import p.Dok;
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.org.objectweb.asm.Handle;
-import jdk.internal.org.objectweb.asm.MethodVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
 
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.util.ArrayList;
-import java.util.List;
 
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PRIVATE;
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PUBLIC;
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_STATIC;
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_SUPER;
-import static jdk.internal.org.objectweb.asm.Opcodes.ALOAD;
-import static jdk.internal.org.objectweb.asm.Opcodes.ILOAD;
-import static jdk.internal.org.objectweb.asm.Opcodes.INVOKESPECIAL;
-import static jdk.internal.org.objectweb.asm.Opcodes.INVOKEVIRTUAL;
-import static jdk.internal.org.objectweb.asm.Opcodes.IRETURN;
-import static jdk.internal.org.objectweb.asm.Opcodes.LLOAD;
-import static jdk.internal.org.objectweb.asm.Opcodes.RETURN;
-import static jdk.internal.org.objectweb.asm.Opcodes.V1_8;
 
 public class TestAMEnotNPE {
 

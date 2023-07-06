@@ -19,17 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
+
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.URI;
+import java.xml.share.classes.com.sun.org.w3c.dom.DocumentType;
+import java.xml.share.classes.com.sun.org.w3c.dom.EntityReference;
+import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.dom;
 
-import com.sun.org.apache.xerces.internal.util.URI;
-import org.w3c.dom.DocumentType;
-import org.w3c.dom.EntityReference;
-import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
+
 
 /**
  * EntityReference models the XML &entityname; syntax, when used for

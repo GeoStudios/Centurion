@@ -19,11 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package sun.security.pkcs11.wrapper;
+
 
 
 
@@ -82,8 +100,7 @@ public class CK_DATE implements Cloneable {
             copy = (CK_DATE) super.clone();
         } catch (CloneNotSupportedException cnse) {
             // re-throw as RuntimeException
-            throw (RuntimeException)
-                (new RuntimeException("Clone error", cnse));
+            throw new RuntimeException("Clone error", cnse);
         }
         copy.year = this.year.clone();
         copy.month = this.month.clone();

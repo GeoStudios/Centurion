@@ -18,15 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.bench.javax.xml;
+
 
 import org.openjdk.jmh.annotations.Benchmark;
 import org.xml.sax.InputSource;
 import org.xml.sax.XMLReader;
-
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 import java.io.ByteArrayInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Micro testing SAXParser performance using the JDK classes

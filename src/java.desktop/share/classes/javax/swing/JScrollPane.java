@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.Component;
 import java.awt.ComponentOrientation;
@@ -30,21 +31,34 @@ import java.awt.Rectangle;
 import java.beans.BeanProperty;
 import java.beans.JavaBean;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.beans.Transient;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.io.Serial;
+import java.desktop.share.classes.javax.accessibility.Accessible;
+import java.desktop.share.classes.javax.accessibility.AccessibleContext;
+import java.desktop.share.classes.javax.accessibility.AccessibleRelation;
+import java.desktop.share.classes.javax.accessibility.AccessibleRole;
+import java.desktop.share.classes.javax.swing.border.Border;
+import java.desktop.share.classes.javax.swing.event.ChangeEvent;
+import java.desktop.share.classes.javax.swing.event.Changejava.util.Listener;
+import java.desktop.share.classes.javax.swing.plaf.ScrollPaneUI;
+import java.desktop.share.classes.javax.swing.plaf.UIResource;
 
-import javax.accessibility.Accessible;
-import javax.accessibility.AccessibleContext;
-import javax.accessibility.AccessibleRelation;
-import javax.accessibility.AccessibleRole;
-import javax.swing.border.Border;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-import javax.swing.plaf.ScrollPaneUI;
-import javax.swing.plaf.UIResource;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides a scrollable view of a lightweight component.

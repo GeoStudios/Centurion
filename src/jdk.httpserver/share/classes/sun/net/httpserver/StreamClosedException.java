@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.httpserver;
+package jdk.httpserver.share.classes.sun.net.httpserver;
+
 
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class StreamClosedException extends IOException {
     private static final long serialVersionUID = -4485921499356327937L;

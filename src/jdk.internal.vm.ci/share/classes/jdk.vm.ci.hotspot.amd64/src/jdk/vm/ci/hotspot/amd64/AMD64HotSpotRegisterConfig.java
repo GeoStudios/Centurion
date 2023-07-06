@@ -18,50 +18,64 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.hotspot.amd64;
 
-import static jdk.vm.ci.amd64.AMD64.r12;
-import static jdk.vm.ci.amd64.AMD64.r15;
-import static jdk.vm.ci.amd64.AMD64.r8;
-import static jdk.vm.ci.amd64.AMD64.r9;
-import static jdk.vm.ci.amd64.AMD64.rax;
-import static jdk.vm.ci.amd64.AMD64.rcx;
-import static jdk.vm.ci.amd64.AMD64.rdi;
-import static jdk.vm.ci.amd64.AMD64.rdx;
-import static jdk.vm.ci.amd64.AMD64.rsi;
-import static jdk.vm.ci.amd64.AMD64.rsp;
-import static jdk.vm.ci.amd64.AMD64.xmm0;
-import static jdk.vm.ci.amd64.AMD64.xmm1;
-import static jdk.vm.ci.amd64.AMD64.xmm2;
-import static jdk.vm.ci.amd64.AMD64.xmm3;
-import static jdk.vm.ci.amd64.AMD64.xmm4;
-import static jdk.vm.ci.amd64.AMD64.xmm5;
-import static jdk.vm.ci.amd64.AMD64.xmm6;
-import static jdk.vm.ci.amd64.AMD64.xmm7;
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.hotspot.amd64;
 
-import java.util.ArrayList;
+
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.amd64.AMD64.r12;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.amd64.AMD64.r15;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.amd64.AMD64.r8;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.amd64.AMD64.r9;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.amd64.AMD64.rax;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.amd64.AMD64.rcx;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.amd64.AMD64.rdi;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.amd64.AMD64.rdx;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.amd64.AMD64.rsi;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.amd64.AMD64.rsp;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.amd64.AMD64.xmm0;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.amd64.AMD64.xmm1;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.amd64.AMD64.xmm2;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.amd64.AMD64.xmm3;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.amd64.AMD64.xmm4;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.amd64.AMD64.xmm5;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.amd64.AMD64.xmm6;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.amd64.AMD64.xmm7;.extended
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.code.Architecture;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.code.CallingConvention;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.code.CallingConvention.Type;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.code.Register;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.code.RegisterArray;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.code.RegisterAttributes;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.code.RegisterConfig;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.code.StackSlot;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.code.TargetDescription;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.code.ValueKindFactory;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.common.JVMCIError;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.hotspot.HotSpotCallingConventionType;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.meta.AllocatableValue;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.meta.JavaKind;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.meta.JavaType;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.meta.PlatformKind;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.meta.Value;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.meta.ValueKind;
 
-import jdk.vm.ci.code.Architecture;
-import jdk.vm.ci.code.CallingConvention;
-import jdk.vm.ci.code.CallingConvention.Type;
-import jdk.vm.ci.code.Register;
-import jdk.vm.ci.code.RegisterArray;
-import jdk.vm.ci.code.RegisterAttributes;
-import jdk.vm.ci.code.RegisterConfig;
-import jdk.vm.ci.code.StackSlot;
-import jdk.vm.ci.code.TargetDescription;
-import jdk.vm.ci.code.ValueKindFactory;
-import jdk.vm.ci.common.JVMCIError;
-import jdk.vm.ci.hotspot.HotSpotCallingConventionType;
-import jdk.vm.ci.meta.AllocatableValue;
-import jdk.vm.ci.meta.JavaKind;
-import jdk.vm.ci.meta.JavaType;
-import jdk.vm.ci.meta.PlatformKind;
-import jdk.vm.ci.meta.Value;
-import jdk.vm.ci.meta.ValueKind;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AMD64HotSpotRegisterConfig implements RegisterConfig {
 

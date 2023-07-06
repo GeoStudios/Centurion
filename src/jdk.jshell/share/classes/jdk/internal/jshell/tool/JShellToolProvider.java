@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.jshell.tool;
+package jdk.jshell.share.classes.jdk.internal.jshell.tool;
+
 
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -29,7 +30,21 @@ import java.util.EnumSet;
 import java.util.Set;
 import javax.lang.model.SourceVersion;
 import javax.tools.Tool;
-import jdk.jshell.tool.JavaShellToolBuilder;
+import jdk.jshell.share.classes.jdk.jshell.tool.JavaShellToolBuilder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provider for launching the jshell tool.

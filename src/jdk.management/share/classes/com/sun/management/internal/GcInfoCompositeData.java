@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.management.internal;
+package jdk.management.share.classes.com.sun.management.internal;
+
 
 import java.lang.management.MemoryUsage;
 import java.lang.reflect.Method;
@@ -33,13 +34,27 @@ import javax.management.openmbean.TabularData;
 import javax.management.openmbean.SimpleType;
 import javax.management.openmbean.OpenType;
 import javax.management.openmbean.OpenDataException;
-import com.sun.management.GcInfo;
+import jdk.management.share.classes.com.sun.management.GcInfo;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import sun.management.LazyCompositeData;
-import static sun.management.LazyCompositeData.getLong;
-import sun.management.MappedMXBeanType;
-import sun.management.Util;
+import jdk.management.share.classes.com.sun.management.LazyCompositeData;
+import static jdk.management.share.classes.com.sun.management.LazyCompositeData.getLong;.extended
+import jdk.management.share.classes.com.sun.management.MappedMXBeanType;
+import jdk.management.share.classes.com.sun.management.Util;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A CompositeData for GcInfo for the local management support.

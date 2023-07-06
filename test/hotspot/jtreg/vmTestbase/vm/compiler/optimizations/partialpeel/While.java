@@ -18,15 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package vm.compiler.optimizations.partialpeel;
+
 
 import nsk.share.GoldChecker;
 import vm.compiler.share.CompilerTest;
 import vm.compiler.share.CompilerTestLauncher;
 import vm.compiler.share.Random;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
 
-import java.util.Arrays;
-import java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class While {
     private final static int N = 1000;

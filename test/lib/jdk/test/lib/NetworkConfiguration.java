@@ -21,27 +21,40 @@
 
 package jdk.test.lib;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintStream;
-import java.io.UncheckedIOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.net.Inet4Address;
 import java.net.Inet6Address;
 import java.net.InetAddress;
 import java.net.NetworkInterface;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
+import static java.net.NetworkInterface.getNetworkInterfaces;.extended
+import static java.util.Collections.list;.extended
 
-import static java.net.NetworkInterface.getNetworkInterfaces;
-import static java.util.Collections.list;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper class for retrieving network interfaces and local addresses

@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.protocol.http;
+package java.base.share.classes.sun.net.www.protocol.http;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.reflect.Constructor;
-import sun.util.logging.PlatformLogger;
+import java.base.share.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This abstract class is a bridge to connect NegotiteAuthentication and

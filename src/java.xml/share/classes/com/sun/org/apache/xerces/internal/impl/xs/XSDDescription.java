@@ -19,17 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
+
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLResourceIdentifierImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLAttributes;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLSchemaDescription;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.impl.xs;
 
-import com.sun.org.apache.xerces.internal.util.XMLResourceIdentifierImpl;
-import com.sun.org.apache.xerces.internal.xni.QName;
-import com.sun.org.apache.xerces.internal.xni.XMLAttributes;
-import com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription;
-import com.sun.org.apache.xerces.internal.xni.grammars.XMLSchemaDescription;
+
 
 /**
  * All information specific to XML Schema grammars.

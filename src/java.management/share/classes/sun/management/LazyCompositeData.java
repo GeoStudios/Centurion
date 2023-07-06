@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.management;
+package java.management.share.classes.sun.management;
+
 
 import java.io.Serializable;
 import java.util.*;
@@ -28,6 +29,20 @@ import javax.management.openmbean.CompositeData;
 import javax.management.openmbean.CompositeType;
 import javax.management.openmbean.OpenType;
 import javax.management.openmbean.TabularType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This abstract class provides the implementation of the CompositeData

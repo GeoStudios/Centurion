@@ -19,13 +19,14 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.share.classes.sun.font;
+
 
 import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.Point;
 import java.awt.Rectangle;
-import static java.awt.RenderingHints.*;
+import static java.awt.RenderingHints.*;.extended
 import java.awt.Shape;
 import java.awt.font.FontRenderContext;
 import java.awt.font.GlyphMetrics;
@@ -41,9 +42,22 @@ import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
 import java.lang.ref.SoftReference;
 import java.text.CharacterIterator;
+import java.desktop.share.classes.sun.awt.SunHints;
+import java.desktop.share.classes.sun.java2d.loops.FontInfo;
 
-import sun.awt.SunHints;
-import sun.java2d.loops.FontInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Standard implementation of GlyphVector used by Font, GlyphList, and
@@ -322,7 +336,7 @@ public class StandardGlyphVector extends GlyphVector {
         }
 
         // if arraycopy were faster, we wouldn't code this
-        System.arraycopy(userGlyphs, 0 + start, result, 0, count);
+        System.arraycopy(userGlyphs, start, result, 0, count);
 
         return result;
     }
@@ -359,7 +373,7 @@ public class StandardGlyphVector extends GlyphVector {
                 }
             }
         } else {
-            System.arraycopy(charIndices, 0 + start, result, 0, count);
+            System.arraycopy(charIndices, start, result, 0, count);
         }
         return result;
     }

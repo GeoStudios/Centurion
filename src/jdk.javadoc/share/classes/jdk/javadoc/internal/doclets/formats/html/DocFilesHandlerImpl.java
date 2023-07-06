@@ -19,39 +19,51 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.formats.html;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
+
 
 import com.sun.source.doctree.DocTree;
 import com.sun.source.doctree.EndElementTree;
 import com.sun.source.doctree.StartElementTree;
 import com.sun.source.util.DocTreeFactory;
-import jdk.javadoc.internal.doclets.formats.html.markup.BodyContents;
-import jdk.javadoc.internal.doclets.formats.html.markup.ContentBuilder;
-import jdk.javadoc.internal.doclets.formats.html.markup.HtmlTree;
-import jdk.javadoc.internal.doclets.toolkit.Content;
-import jdk.javadoc.internal.doclets.toolkit.DocFileElement;
-import jdk.javadoc.internal.doclets.toolkit.DocFilesHandler;
-import jdk.javadoc.internal.doclets.toolkit.util.DocFile;
-import jdk.javadoc.internal.doclets.toolkit.util.DocFileIOException;
-import jdk.javadoc.internal.doclets.toolkit.util.DocPath;
-import jdk.javadoc.internal.doclets.toolkit.util.DocPaths;
-import jdk.javadoc.internal.doclets.toolkit.util.DocletConstants;
-import jdk.javadoc.internal.doclets.toolkit.util.Utils;
-import jdk.javadoc.internal.doclint.HtmlTag;
-
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.BodyContents;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.ContentBuilder;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.HtmlTree;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.DocFileElement;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.DocFilesHandler;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFile;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFilejava.io.java.io.java.io.IOException;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPath;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPaths;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocletConstants;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclint.HtmlTag;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ModuleElement;
 import javax.lang.model.element.PackageElement;
 import javax.tools.FileObject;
 import javax.tools.JavaFileManager.Location;
-
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.Navigation.PageMode;
 
-import jdk.javadoc.internal.doclets.formats.html.Navigation.PageMode;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class DocFilesHandlerImpl implements DocFilesHandler {
 

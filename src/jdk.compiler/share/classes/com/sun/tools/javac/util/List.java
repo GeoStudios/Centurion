@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.util;
+package jdk.compiler.share.classes.com.sun.tools.javac.util;
+
 
 import java.lang.reflect.Array;
 import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A class for generic linked lists. Links are supposed to be
  *  immutable, the only exception being the incremental construction of

@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.x509;
+package java.base.share.classes.sun.security.x509;
 
-import java.io.IOException;
-import java.security.PublicKey;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.security.PublicKey;
 import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.sun.security.util.HexDumpEncoder;
+import java.base.share.classes.sun.security.util.*;
 
-import sun.security.util.HexDumpEncoder;
-import sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represent the Key Identifier ASN.1 object.

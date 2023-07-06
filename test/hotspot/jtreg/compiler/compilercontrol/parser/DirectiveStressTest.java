@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.compilercontrol.parser;
+
+
+import compiler.compilercontrol.share.AbstractTestBase;
+import compiler.compilercontrol.share.JSONFile;
+import compiler.compilercontrol.share.method.MethodDescriptor;
+import compiler.compilercontrol.share.pool.PoolHelper;
+import compiler.compilercontrol.share.scenario.DirectiveWriter;
+import jdk.test.lib.process.OutputAnalyzer;
+import java.util.java.util.java.util.java.util.List;
+import java.util.stream.Collectors;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key randomness
@@ -30,17 +55,8 @@
  * @run driver compiler.compilercontrol.parser.DirectiveStressTest
  */
 
-package compiler.compilercontrol.parser;
 
-import compiler.compilercontrol.share.AbstractTestBase;
-import compiler.compilercontrol.share.JSONFile;
-import compiler.compilercontrol.share.method.MethodDescriptor;
-import compiler.compilercontrol.share.pool.PoolHelper;
-import compiler.compilercontrol.share.scenario.DirectiveWriter;
-import jdk.test.lib.process.OutputAnalyzer;
 
-import java.util.List;
-import java.util.stream.Collectors;
 
 public class DirectiveStressTest {
     private static final int AMOUNT = Integer.getInteger(

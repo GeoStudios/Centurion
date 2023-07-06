@@ -19,20 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
 
 import java.awt.*;
 import java.awt.geom.Dimension2D;
 import java.awt.image.*;
-
-import java.util.Arrays;
-import java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
 import java.awt.image.MultiResolutionImage;
 import java.util.concurrent.atomic.AtomicReference;
+import java.desktop.macosx.classes.sun.awt.image.MultiResolutionCachedImage;
+import java.desktop.macosx.classes.sun.awt.image.SunWritableRaster;
 
-import sun.awt.image.MultiResolutionCachedImage;
 
-import sun.awt.image.SunWritableRaster;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CImage extends CFRetainedResource {
     private static native long nativeCreateNSImageFromArray(int[] buffer, int w, int h);

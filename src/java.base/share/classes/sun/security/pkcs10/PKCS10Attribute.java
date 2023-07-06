@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs10;
+package java.base.share.classes.sun.security.pkcs10;
+
 
 import java.io.OutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.sun.security.pkcs.PKCS9Attribute;
+import java.base.share.classes.sun.security.util.*;
 
-import sun.security.pkcs.PKCS9Attribute;
-import sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represent a PKCS#10 Attribute.

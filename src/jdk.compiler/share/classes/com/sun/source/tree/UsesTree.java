@@ -1,4 +1,3 @@
-
 /*
  * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
@@ -20,7 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.source.tree;
+package jdk.compiler.share.classes.com.sun.source.tree;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A tree node for a 'uses' directive in a module declaration.

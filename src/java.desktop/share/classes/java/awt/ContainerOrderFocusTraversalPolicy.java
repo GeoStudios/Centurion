@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.io.Serial;
-import java.util.ArrayList;
-import java.util.List;
 
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.List;
 import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A FocusTraversalPolicy that determines traversal order based on the order

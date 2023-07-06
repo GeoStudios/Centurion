@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.tools.jlink.plugin;
 
-import java.util.Objects;
+package jdk.jlink.share.classes.jdk.tools.jlink.plugin;
+
+
+import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The module view of a ResourcePool.

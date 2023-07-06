@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.mbeanserver;
+package java.management.share.classes.com.sun.jmx.mbeanserver;
+
+
 import java.io.InvalidObjectException;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Type;
-
 import javax.management.Descriptor;
 import javax.management.MBeanException;
 import javax.management.openmbean.OpenDataException;
 import javax.management.openmbean.OpenType;
-import sun.reflect.misc.MethodUtil;
+import java.management.share.classes.com.sun.reflect.misc.MethodUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class ConvertingMethod {
     static ConvertingMethod from(Method m) {

@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.xr;
+package java.desktop.unix.classes.sun.java2d.xr;
+
 
 import java.awt.*;
 import java.awt.MultipleGradientPaint.*;
 import java.awt.geom.*;
 import java.awt.image.*;
-import sun.java2d.*;
-import sun.java2d.loops.*;
-import sun.java2d.xr.XRSurfaceData.XRInternalSurfaceData;
+import java.desktop.unix.classes.sun.java2d.*;
+import java.desktop.unix.classes.sun.java2d.loops.*;
+import java.desktop.unix.classes.sun.java2d.xr.XRSurfaceData.XRInternalSurfaceData;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class XRPaints {
     static XRCompositeManager xrCompMan;

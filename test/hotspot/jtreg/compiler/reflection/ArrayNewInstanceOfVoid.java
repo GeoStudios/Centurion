@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.reflection;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8029366
@@ -27,7 +44,6 @@
  * @run main compiler.reflection.ArrayNewInstanceOfVoid
  */
 
-package compiler.reflection;
 
 public class ArrayNewInstanceOfVoid {
     public static void main(String[] args) {

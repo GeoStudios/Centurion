@@ -21,6 +21,21 @@
 
 package pkg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface Foo  {
     default void m1() { Impl.m1(this); }
     default void m2() { Impl.m2(this); }

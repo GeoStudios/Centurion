@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.gc.g1;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.g1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface HeapRegionClosure {
     void doHeapRegion(HeapRegion hr);

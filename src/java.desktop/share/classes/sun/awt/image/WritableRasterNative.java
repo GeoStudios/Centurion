@@ -19,9 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.share.classes.sun.awt.image;
 
-
-package sun.awt.image;
 
 import java.awt.Point;
 import java.awt.image.BufferedImage;
@@ -32,7 +31,21 @@ import java.awt.image.PixelInterleavedSampleModel;
 import java.awt.image.SampleModel;
 import java.awt.image.SinglePixelPackedSampleModel;
 import java.awt.image.WritableRaster;
-import sun.java2d.SurfaceData;
+import java.desktop.share.classes.sun.java2d.SurfaceData;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * WritableRasterNative

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import java.applet.Applet;
 import java.awt.AWTEvent;
@@ -40,21 +41,21 @@ import java.awt.RenderingHints;
 import java.awt.Shape;
 import java.awt.Window;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.event.ContainerEvent;
-import java.awt.event.ContainerListener;
+import java.awt.event.Containerjava.util.Listener;
 import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
+import java.awt.event.Focusjava.util.Listener;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 import java.beans.BeanProperty;
 import java.beans.JavaBean;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.beans.Transient;
-import java.beans.VetoableChangeListener;
+import java.beans.VetoableChangejava.util.Listener;
 import java.beans.VetoableChangeSupport;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InvalidObjectException;
 import java.io.ObjectInputStream;
 import java.io.ObjectInputValidation;
@@ -62,39 +63,50 @@ import java.io.ObjectOutputStream;
 import java.io.Serial;
 import java.io.Serializable;
 import java.util.Enumeration;
-import java.util.EventListener;
+import java.util.Eventjava.util.Listener;
 import java.util.HashSet;
 import java.util.Hashtable;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Set;
 import java.util.Vector;
 import java.util.concurrent.atomic.AtomicBoolean;
-
-import javax.accessibility.Accessible;
-import javax.accessibility.AccessibleComponent;
-import javax.accessibility.AccessibleContext;
-import javax.accessibility.AccessibleExtendedComponent;
-import javax.accessibility.AccessibleKeyBinding;
-import javax.accessibility.AccessibleRole;
-import javax.accessibility.AccessibleState;
-import javax.accessibility.AccessibleStateSet;
-import javax.swing.border.AbstractBorder;
-import javax.swing.border.Border;
-import javax.swing.border.CompoundBorder;
-import javax.swing.border.TitledBorder;
-import javax.swing.event.AncestorEvent;
-import javax.swing.event.AncestorListener;
-import javax.swing.event.EventListenerList;
-import javax.swing.plaf.ComponentUI;
-
+import java.desktop.share.classes.javax.accessibility.Accessible;
+import java.desktop.share.classes.javax.accessibility.AccessibleComponent;
+import java.desktop.share.classes.javax.accessibility.AccessibleContext;
+import java.desktop.share.classes.javax.accessibility.AccessibleExtendedComponent;
+import java.desktop.share.classes.javax.accessibility.AccessibleKeyBinding;
+import java.desktop.share.classes.javax.accessibility.AccessibleRole;
+import java.desktop.share.classes.javax.accessibility.AccessibleState;
+import java.desktop.share.classes.javax.accessibility.AccessibleStateSet;
+import java.desktop.share.classes.javax.swing.border.AbstractBorder;
+import java.desktop.share.classes.javax.swing.border.Border;
+import java.desktop.share.classes.javax.swing.border.CompoundBorder;
+import java.desktop.share.classes.javax.swing.border.TitledBorder;
+import java.desktop.share.classes.javax.swing.event.AncestorEvent;
+import java.desktop.share.classes.javax.swing.event.Ancestorjava.util.Listener;
+import java.desktop.share.classes.javax.swing.event.Eventjava.util.Listenerjava.util.java.util.java.util.List;
+import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
 import sun.awt.AWTAccessor;
 import sun.awt.SunToolkit;
 import sun.swing.SwingAccessor;
 import sun.swing.SwingUtilities2;
+import static java.desktop.share.classes.javax.swing.ClientPropertyKey.JComponent_ANCESTOR_NOTIFIER;.extended
+import static java.desktop.share.classes.javax.swing.ClientPropertyKey.JComponent_INPUT_VERIFIER;.extended
+import static java.desktop.share.classes.javax.swing.ClientPropertyKey.JComponent_TRANSFER_HANDLER;.extended
 
-import static javax.swing.ClientPropertyKey.JComponent_ANCESTOR_NOTIFIER;
-import static javax.swing.ClientPropertyKey.JComponent_INPUT_VERIFIER;
-import static javax.swing.ClientPropertyKey.JComponent_TRANSFER_HANDLER;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The base class for all Swing components except top-level containers.

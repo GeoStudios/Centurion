@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.ref;
+package java.base.share.classes.java.lang.ref;
 
-import java.util.function.Consumer;
+
+import java.base.share.classes.java.util.function.Consumer;
 import jdk.internal.misc.VM;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Reference queues, to which registered reference objects are appended by the

@@ -19,18 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.event.ActionEvent;
 import java.util.*;
-
 import javax.swing.*;
 import javax.swing.UIDefaults.LazyValue;
 import javax.swing.text.*;
 import javax.swing.text.DefaultEditorKit.DefaultKeyTypedAction;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingletonFromDefaultConstructor;
 
-import com.apple.laf.AquaUtils.RecyclableSingleton;
-import com.apple.laf.AquaUtils.RecyclableSingletonFromDefaultConstructor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaKeyBindings {
     private static final RecyclableSingleton<AquaKeyBindings> instance = new RecyclableSingletonFromDefaultConstructor<AquaKeyBindings>(AquaKeyBindings.class);

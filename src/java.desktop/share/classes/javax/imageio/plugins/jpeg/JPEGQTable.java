@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.imageio.plugins.jpeg;
+package java.desktop.share.classes.javax.imageio.plugins.jpeg;
 
-import java.util.Arrays;
+
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class encapsulating a single JPEG quantization table.

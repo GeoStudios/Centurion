@@ -21,12 +21,24 @@
 
 package test.java.time.format;
 
-import static org.testng.Assert.assertEquals;
 
+import static org.testng.Assert.assertEquals;.extended
 import java.time.DateTimeException;
 import java.time.LocalDate;
-
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test PadPrinterDecorator.

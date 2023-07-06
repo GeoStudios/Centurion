@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.imageio.metadata;
+package java.desktop.share.classes.javax.imageio.metadata;
 
-import java.util.Locale;
-import javax.imageio.ImageTypeSpecifier;
+
+import java.base.share.classes.java.util.Locale;
+import java.desktop.share.classes.javax.imageio.ImageTypeSpecifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An object describing the structure of metadata documents returned

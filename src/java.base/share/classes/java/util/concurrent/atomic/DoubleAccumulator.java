@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.java.util.concurrent.atomic;
+
+
+import static java.base.share.classes.java.lang.Double.doubleToRawLongBits;.extended
+import static java.base.share.classes.java.lang.Double.longBitsToDouble;.extended
+import java.base.share.classes.java.io.Serializable;
+import java.base.share.classes.java.util.function.DoubleBinaryOperator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -30,13 +52,9 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent.atomic;
 
-import static java.lang.Double.doubleToRawLongBits;
-import static java.lang.Double.longBitsToDouble;
 
-import java.io.Serializable;
-import java.util.function.DoubleBinaryOperator;
+
 
 /**
  * One or more variables that together maintain a running {@code double}

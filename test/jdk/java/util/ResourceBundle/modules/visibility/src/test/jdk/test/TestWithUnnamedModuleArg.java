@@ -21,9 +21,23 @@
 
 package jdk.test;
 
-import java.util.Locale;
+
+import java.base.share.classes.java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TestWithUnnamedModuleArg {
     public static void main(String[] args) throws Exception {

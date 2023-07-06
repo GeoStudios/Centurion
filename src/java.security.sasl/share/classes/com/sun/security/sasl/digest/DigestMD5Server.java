@@ -19,23 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.security.sasl.digest;
+package java.security.sasl.share.classes.com.sun.security.sasl.digest;
+
 
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.security.NoSuchAlgorithmException;
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.util.StringTokenizer;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Arrays;
-
+import java.base.share.classes.java.util.Arrays;
 import java.util.logging.Level;
-
 import javax.security.sasl.*;
 import javax.security.auth.callback.*;
+import static java.nio.charset.StandardCharsets.*;.extended
 
-import static java.nio.charset.StandardCharsets.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of the DIGEST-MD5 server SASL mechanism.

@@ -18,12 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.beans.finder;
+
+package java.desktop.share.classes.com.sun.beans.finder;
+
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
+import static java.desktop.share.classes.com.sun.reflect.misc.ReflectUtil.isPackageAccessible;.extended
 
-import static sun.reflect.misc.ReflectUtil.isPackageAccessible;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This utility class provides {@code static} methods

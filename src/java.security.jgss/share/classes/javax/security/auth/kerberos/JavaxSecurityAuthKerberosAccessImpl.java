@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.security.auth.kerberos;
+package java.security.jgss.share.classes.javax.security.auth.kerberos;
+
 
 import sun.security.krb5.JavaxSecurityAuthKerberosAccess;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class JavaxSecurityAuthKerberosAccessImpl
         implements JavaxSecurityAuthKerberosAccess {

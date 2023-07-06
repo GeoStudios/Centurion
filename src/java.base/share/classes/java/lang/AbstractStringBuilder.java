@@ -19,21 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
+
 
 import jdk.internal.math.FloatingDecimal;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.Spliterator;
+import java.base.share.classes.java.util.stream.IntStream;
+import java.base.share.classes.java.util.stream.StreamSupport;
+import jdk.internal.util.java.util.ArraysSupport;
+import static java.base.share.classes.java.lang.String.COMPACT_STRINGS;.extended
+import static java.base.share.classes.java.lang.String.UTF16;.extended
+import static java.base.share.classes.java.lang.String.LATIN1;.extended
+import static java.base.share.classes.java.lang.String.checkIndex;.extended
+import static java.base.share.classes.java.lang.String.checkOffset;.extended
 
-import java.util.Arrays;
-import java.util.Spliterator;
-import java.util.stream.IntStream;
-import java.util.stream.StreamSupport;
-import jdk.internal.util.ArraysSupport;
 
-import static java.lang.String.COMPACT_STRINGS;
-import static java.lang.String.UTF16;
-import static java.lang.String.LATIN1;
-import static java.lang.String.checkIndex;
-import static java.lang.String.checkOffset;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A mutable sequence of characters.

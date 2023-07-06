@@ -19,34 +19,47 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.code;
+package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
-import com.sun.tools.javac.code.Lint.LintCategory;
-import com.sun.tools.javac.code.Source.Feature;
-import com.sun.tools.javac.jvm.Target;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.resources.CompilerProperties.Warnings;
-import com.sun.tools.javac.util.Assert;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
-import com.sun.tools.javac.util.JCDiagnostic.Error;
-import com.sun.tools.javac.util.JCDiagnostic.SimpleDiagnosticPosition;
-import com.sun.tools.javac.util.JCDiagnostic.Warning;
-import com.sun.tools.javac.util.Log;
-import com.sun.tools.javac.util.MandatoryWarningHandler;
-import com.sun.tools.javac.util.Options;
 
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Lint.LintCategory;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Source.Feature;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.Target;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Warnings;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Error;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.SimpleDiagnosticPosition;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Warning;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.MandatoryWarningHandler;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Options;
 import javax.tools.JavaFileObject;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.RECORD;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.SEALED;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.NON_SEALED;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.PREVIEW;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic;
 
-import static com.sun.tools.javac.code.Flags.RECORD;
-import static com.sun.tools.javac.code.Flags.SEALED;
-import static com.sun.tools.javac.code.Flags.NON_SEALED;
-import static com.sun.tools.javac.main.Option.PREVIEW;
-import com.sun.tools.javac.util.JCDiagnostic;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper class to handle preview language features. This class maps certain language features

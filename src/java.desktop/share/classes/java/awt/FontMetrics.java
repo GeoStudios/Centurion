@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.font.FontRenderContext;
-import java.awt.font.LineMetrics;
-import java.awt.geom.Rectangle2D;
-import java.io.Serial;
-import java.text.CharacterIterator;
+
+import java.desktop.share.classes.java.awt.font.FontRenderContext;
+import java.desktop.share.classes.java.awt.font.LineMetrics;
+import java.desktop.share.classes.java.awt.geom.Rectangle2D;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.text.CharacterIterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code FontMetrics} class defines a font metrics object, which

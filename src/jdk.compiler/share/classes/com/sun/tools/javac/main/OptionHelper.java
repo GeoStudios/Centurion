@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.main;
+package jdk.compiler.share.classes.com.sun.tools.javac.main;
+
 
 import java.nio.file.Path;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Error;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log.PrefixKind;
 
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.util.JCDiagnostic;
-import com.sun.tools.javac.util.JCDiagnostic.Error;
-import com.sun.tools.javac.util.Log;
-import com.sun.tools.javac.util.Log.PrefixKind;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper object to be used by {@link Option#process}, providing access to

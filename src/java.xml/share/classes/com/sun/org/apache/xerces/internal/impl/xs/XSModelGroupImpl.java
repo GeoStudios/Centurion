@@ -19,18 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
+
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XSObjectjava.util.ListImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSAnnotation;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSConstants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSModelGroup;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSNamespaceItem;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObjectjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.impl.xs;
 
-import com.sun.org.apache.xerces.internal.impl.xs.util.XSObjectListImpl;
-import com.sun.org.apache.xerces.internal.xs.XSAnnotation;
-import com.sun.org.apache.xerces.internal.xs.XSConstants;
-import com.sun.org.apache.xerces.internal.xs.XSModelGroup;
-import com.sun.org.apache.xerces.internal.xs.XSNamespaceItem;
-import com.sun.org.apache.xerces.internal.xs.XSObjectList;
+
 
 /**
  * Store schema model group declaration.

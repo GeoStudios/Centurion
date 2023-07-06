@@ -19,39 +19,53 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
-import java.io.Closeable;
-import java.io.File;
-import java.io.FilePermission;
-import java.io.IOException;
-import java.io.InputStream;
-import java.security.AccessControlContext;
-import java.security.AccessController;
-import java.security.CodeSigner;
-import java.security.CodeSource;
-import java.security.Permission;
-import java.security.PermissionCollection;
-import java.security.PrivilegedAction;
-import java.security.PrivilegedExceptionAction;
-import java.security.SecureClassLoader;
-import java.util.Enumeration;
-import java.util.List;
-import java.util.NoSuchElementException;
-import java.util.Objects;
-import java.util.Set;
-import java.util.WeakHashMap;
-import java.util.jar.Attributes;
-import java.util.jar.Attributes.Name;
-import java.util.jar.JarFile;
-import java.util.jar.Manifest;
 
+import java.base.share.classes.java.io.Closeable;
+import java.base.share.classes.java.io.File;
+import java.base.share.classes.java.io.FilePermission;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.InputStream;
+import java.base.share.classes.java.security.AccessControlContext;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.CodeSigner;
+import java.base.share.classes.java.security.CodeSource;
+import java.base.share.classes.java.security.Permission;
+import java.base.share.classes.java.security.PermissionCollection;
+import java.base.share.classes.java.security.PrivilegedAction;
+import java.base.share.classes.java.security.PrivilegedExceptionAction;
+import java.base.share.classes.java.security.SecureClassLoader;
+import java.base.share.classes.java.util.Enumeration;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.NoSuchElementException;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Set;
+import java.base.share.classes.java.util.WeakHashMap;
+import java.base.share.classes.java.util.jar.Attributes;
+import java.base.share.classes.java.util.jar.Attributes.Name;
+import java.base.share.classes.java.util.jar.JarFile;
+import java.base.share.classes.java.util.jar.Manifest;
 import jdk.internal.loader.Resource;
 import jdk.internal.loader.URLClassPath;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.perf.PerfCounter;
 import sun.net.www.ParseUtil;
 import sun.security.util.SecurityConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class loader is used to load classes and resources from a search

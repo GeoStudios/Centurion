@@ -19,16 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.logging;
-import java.time.Instant;
-import java.util.*;
-import java.util.concurrent.atomic.AtomicLong;
-import java.io.*;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.time.Clock;
-import java.util.function.Predicate;
-import static jdk.internal.logger.SurrogateLogger.isFilteredFrame;
+package java.logging.share.classes.java.util.logging;
+
+
+import java.logging.share.classes.java.time.Instant;
+import java.logging.share.classes.java.util.*;
+import java.logging.share.classes.java.util.concurrent.atomic.AtomicLong;
+import java.logging.share.classes.java.io.*;
+import java.logging.share.classes.java.security.AccessController;
+import java.logging.share.classes.java.security.PrivilegedAction;
+import java.logging.share.classes.java.time.Clock;
+import java.logging.share.classes.java.util.function.Predicate;
+import static jdk.internal.logger.SurrogateLogger.isFilteredFrame;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * LogRecord objects are used to pass logging requests between

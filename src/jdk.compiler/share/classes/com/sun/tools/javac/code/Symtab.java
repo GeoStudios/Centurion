@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.code;
+package jdk.compiler.share.classes.com.sun.tools.javac.code;
+
 
 import java.util.Collection;
 import java.util.Collections;
@@ -27,44 +28,55 @@ import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
-
 import javax.lang.model.element.ElementVisitor;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.WriteableScope;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Source.Feature;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ClassSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.Completer;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.CompletionFailure;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.MethodSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ModuleSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.PackageSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.RootPackageSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.TypeSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.VarSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.BottomType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.ClassType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.ErrorType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.JCPrimitiveType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.JCVoidType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.MethodType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.UnknownType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Types.UniqueType;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Modules;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.Target;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Convert;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Iterators;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JavacMessages;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Name;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Names;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.extended
 
-import com.sun.tools.javac.code.Scope.WriteableScope;
-import com.sun.tools.javac.code.Source.Feature;
-import com.sun.tools.javac.code.Symbol.ClassSymbol;
-import com.sun.tools.javac.code.Symbol.Completer;
-import com.sun.tools.javac.code.Symbol.CompletionFailure;
-import com.sun.tools.javac.code.Symbol.MethodSymbol;
-import com.sun.tools.javac.code.Symbol.ModuleSymbol;
-import com.sun.tools.javac.code.Symbol.PackageSymbol;
-import com.sun.tools.javac.code.Symbol.RootPackageSymbol;
-import com.sun.tools.javac.code.Symbol.TypeSymbol;
-import com.sun.tools.javac.code.Symbol.VarSymbol;
-import com.sun.tools.javac.code.Type.BottomType;
-import com.sun.tools.javac.code.Type.ClassType;
-import com.sun.tools.javac.code.Type.ErrorType;
-import com.sun.tools.javac.code.Type.JCPrimitiveType;
-import com.sun.tools.javac.code.Type.JCVoidType;
-import com.sun.tools.javac.code.Type.MethodType;
-import com.sun.tools.javac.code.Type.UnknownType;
-import com.sun.tools.javac.code.Types.UniqueType;
-import com.sun.tools.javac.comp.Modules;
-import com.sun.tools.javac.jvm.Target;
-import com.sun.tools.javac.util.Assert;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.Convert;
-import com.sun.tools.javac.util.DefinedBy;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.Iterators;
-import com.sun.tools.javac.util.JavacMessages;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.Name;
-import com.sun.tools.javac.util.Names;
 
-import static com.sun.tools.javac.code.Flags.*;
-import static com.sun.tools.javac.code.Kinds.Kind.*;
-import static com.sun.tools.javac.code.TypeTag.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A class that defines all predefined constants and operators
  *  as well as special classes such as java.lang.Object, which need

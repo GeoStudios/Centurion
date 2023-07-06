@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jca;
+package java.base.share.classes.sun.security.jca;
+
 
 import java.security.Provider;
-import sun.security.x509.AlgorithmId;
+import java.base.share.classes.sun.security.x509.AlgorithmId;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Collection of methods to get and set provider list. Also includes

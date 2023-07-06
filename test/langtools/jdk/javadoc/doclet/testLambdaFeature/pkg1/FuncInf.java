@@ -21,6 +21,21 @@
 
 package pkg1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @FunctionalInterface
 public interface FuncInf<V> {
 

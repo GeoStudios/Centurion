@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.x11;
+package java.desktop.unix.classes.sun.java2d.x11;
+
 
 import java.awt.GraphicsConfiguration;
 import java.awt.ImageCapabilities;
 import java.awt.Transparency;
 import java.awt.image.ColorModel;
+import java.desktop.unix.classes.sun.awt.X11GraphicsConfig;
+import java.desktop.unix.classes.sun.awt.image.SunVolatileImage;
+import java.desktop.unix.classes.sun.awt.image.VolatileSurfaceManager;
+import java.desktop.unix.classes.sun.java2d.SurfaceData;
 
-import sun.awt.X11GraphicsConfig;
-import sun.awt.image.SunVolatileImage;
-import sun.awt.image.VolatileSurfaceManager;
-import sun.java2d.SurfaceData;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * X11 platform implementation of the VolatileSurfaceManager class.

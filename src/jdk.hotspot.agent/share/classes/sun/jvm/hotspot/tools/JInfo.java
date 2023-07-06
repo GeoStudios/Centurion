@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.tools;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools;
 
-import sun.jvm.hotspot.debugger.JVMDebugger;
-import sun.jvm.hotspot.runtime.Arguments;
-import sun.jvm.hotspot.runtime.VM;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.JVMDebugger;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.Arguments;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VM;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JInfo extends Tool {
     public JInfo() {

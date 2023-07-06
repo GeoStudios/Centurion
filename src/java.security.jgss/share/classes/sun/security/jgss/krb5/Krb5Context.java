@@ -19,22 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jgss.krb5;
+package java.security.jgss.share.classes.sun.security.jgss.krb5;
+
 
 import org.ietf.jgss.*;
-import sun.security.util.HexDumpEncoder;
-import sun.security.jgss.GSSUtil;
-import sun.security.jgss.GSSCaller;
-import sun.security.jgss.spi.*;
-import sun.security.jgss.TokenTracker;
-import sun.security.krb5.*;
+import java.security.jgss.share.classes.sun.security.util.HexDumpEncoder;
+import java.security.jgss.share.classes.sun.security.jgss.GSSUtil;
+import java.security.jgss.share.classes.sun.security.jgss.GSSCaller;
+import java.security.jgss.share.classes.sun.security.jgss.spi.*;
+import java.security.jgss.share.classes.sun.security.jgss.TokenTracker;
+import java.security.jgss.share.classes.sun.security.krb5.*;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.Provider;
 import java.security.AccessController;
 import java.security.AccessControlContext;
-import java.security.Key;
+import java.base.share.classes.java.security.Key;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
 import javax.security.auth.Subject;
@@ -42,8 +43,22 @@ import javax.security.auth.kerberos.ServicePermission;
 import javax.security.auth.kerberos.KerberosCredMessage;
 import javax.security.auth.kerberos.KerberosPrincipal;
 import javax.security.auth.kerberos.KerberosTicket;
-import sun.security.krb5.internal.Ticket;
-import sun.security.krb5.internal.AuthorizationData;
+import java.security.jgss.share.classes.sun.security.krb5.internal.Ticket;
+import java.security.jgss.share.classes.sun.security.krb5.internal.AuthorizationData;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements the mechanism specific context class for the Kerberos v5

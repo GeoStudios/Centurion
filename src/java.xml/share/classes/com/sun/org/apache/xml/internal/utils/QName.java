@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.utils;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
-import com.sun.org.apache.xml.internal.res.XMLErrorResources;
-import com.sun.org.apache.xml.internal.res.XMLMessages;
+
+import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLErrorResources;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLMessages;
 import java.util.Stack;
 import java.util.StringTokenizer;
-import org.w3c.dom.Element;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class to represent a qualified name: "The name of an internal XSLT object,

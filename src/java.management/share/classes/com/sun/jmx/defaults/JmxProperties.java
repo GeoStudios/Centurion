@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.defaults;
+package java.management.share.classes.com.sun.jmx.defaults;
+
 
 import java.lang.System.Logger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This contains the property list defined for this

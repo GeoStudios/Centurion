@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.unsafe;
+
+
+import jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8155635
@@ -27,9 +45,7 @@
  * @run main/othervm -Xbatch compiler.unsafe.MixedUnsafeStoreObject
  */
 
-package compiler.unsafe;
 
-import jdk.internal.misc.Unsafe;
 
 public class MixedUnsafeStoreObject {
     static final Unsafe UNSAFE = Unsafe.getUnsafe();

@@ -21,16 +21,28 @@
 
 package jdk.jfr.api.event;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Collections;
+import java.util.java.util.java.util.java.util.List;
 import jdk.jfr.AnnotationElement;
 import jdk.jfr.EventFactory;
 import jdk.jfr.EventType;
 import jdk.jfr.FlightRecorder;
 import jdk.jfr.Registered;
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

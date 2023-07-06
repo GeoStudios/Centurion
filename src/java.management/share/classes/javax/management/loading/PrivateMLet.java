@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.loading;
+package java.management.share.classes.javax.management.loading;
+
 
 import java.net.URL;
 import java.net.URLStreamHandlerFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An MLet that is not added to the {@link ClassLoaderRepository}.

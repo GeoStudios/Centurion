@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-import com.sun.jdi.VirtualMachine;
-import com.sun.jdi.VoidType;
+
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+import jdk.jdi.share.classes.com.sun.jdi.VoidType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class VoidTypeImpl extends TypeImpl implements VoidType {
 

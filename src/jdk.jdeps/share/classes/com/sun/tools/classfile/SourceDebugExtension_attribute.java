@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.classfile;
+package jdk.jdeps.share.classes.com.sun.tools.classfile;
+
 
 import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * See JVMS, section 4.8.15.

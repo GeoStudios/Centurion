@@ -19,33 +19,48 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
+
 
 import java.io.EOFException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
-import java.io.InterruptedIOException;
+import java.io.Interruptedjava.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.net.InetAddress;
-import java.net.InetSocketAddress;
-import java.net.Socket;
-import java.net.SocketAddress;
-import java.net.SocketException;
+import java.net.Inetjava.net.SocketAddress;
+import java.net.java.net.java.net.java.net.Socket;
+import java.net.java.net.SocketAddress;
+import java.net.java.net.SocketException;
 import java.nio.ByteBuffer;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.function.BiFunction;
-import javax.net.ssl.HandshakeCompletedListener;
+import javax.net.ssl.HandshakeCompletedjava.util.Listener;
 import javax.net.ssl.SSLException;
 import javax.net.ssl.SSLHandshakeException;
 import javax.net.ssl.SSLParameters;
 import javax.net.ssl.SSLProtocolException;
-import javax.net.ssl.SSLServerSocket;
+import javax.net.ssl.SSLjava.net.java.net.Serverjava.net.java.net.Socket;
 import javax.net.ssl.SSLSession;
-import javax.net.ssl.SSLSocket;
+import javax.net.ssl.SSLjava.net.java.net.java.net.Socket;
 import jdk.internal.access.JavaNetInetAddressAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of an SSL socket.

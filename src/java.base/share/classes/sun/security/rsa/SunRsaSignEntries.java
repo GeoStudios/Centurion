@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.rsa;
+package java.base.share.classes.sun.security.rsa;
+
 
 import java.util.*;
 import java.security.Provider;
-import static sun.security.util.SecurityProviderConstants.getAliases;
+import static java.base.share.classes.sun.security.util.SecurityProviderConstants.getAliases;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines the entries of the SunRsaSign provider.

@@ -19,28 +19,43 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.security.*;
+
+import java.base.share.classes.java.security.*;
 import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.ECParameterSpec;
 import java.security.spec.MGF1ParameterSpec;
 import java.security.spec.PSSParameterSpec;
 import java.util.AbstractMap.SimpleImmutableEntry;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.EnumSet;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
-import sun.security.ssl.NamedGroup.NamedGroupSpec;
-import sun.security.ssl.SupportedGroupsExtension.SupportedGroups;
-import sun.security.ssl.X509Authentication.X509Possession;
-import sun.security.util.KeyUtil;
-import sun.security.util.SignatureUtil;
+import java.base.share.classes.sun.security.ssl.NamedGroup.NamedGroupSpec;
+import java.base.share.classes.sun.security.ssl.SupportedGroupsExtension.SupportedGroups;
+import java.base.share.classes.sun.security.ssl.X509Authentication.X509Possession;
+import java.base.share.classes.sun.security.util.KeyUtil;
+import java.base.share.classes.sun.security.util.SignatureUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 enum SignatureScheme {
     // ECDSA algorithms

@@ -18,21 +18,23 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.security.ssl;
 
-import java.io.IOException;
+package java.base.share.classes.sun.security.ssl;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.security.AccessController;
 import java.security.cert.Extension;
 import java.security.cert.X509Certificate;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Executors;
@@ -41,18 +43,32 @@ import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
-import sun.security.action.GetBooleanAction;
-import sun.security.action.GetIntegerAction;
-import sun.security.action.GetPropertyAction;
-import sun.security.provider.certpath.CertId;
-import sun.security.provider.certpath.OCSP;
-import sun.security.provider.certpath.OCSPResponse;
-import sun.security.provider.certpath.ResponderId;
-import sun.security.util.Cache;
-import sun.security.x509.PKIXExtensions;
-import sun.security.x509.SerialNumber;
-import sun.security.ssl.X509Authentication.X509Possession;
-import static sun.security.ssl.CertStatusExtension.*;
+import java.base.share.classes.sun.security.action.GetBooleanAction;
+import java.base.share.classes.sun.security.action.GetIntegerAction;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.security.provider.certpath.CertId;
+import java.base.share.classes.sun.security.provider.certpath.OCSP;
+import java.base.share.classes.sun.security.provider.certpath.OCSPResponse;
+import java.base.share.classes.sun.security.provider.certpath.ResponderId;
+import java.base.share.classes.sun.security.util.Cache;
+import java.base.share.classes.sun.security.x509.PKIXExtensions;
+import java.base.share.classes.sun.security.x509.SerialNumber;
+import java.base.share.classes.sun.security.ssl.X509Authentication.X509Possession;
+import static java.base.share.classes.sun.security.ssl.CertStatusExtension.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class StatusResponseManager {
     private static final int DEFAULT_CORE_THREADS = 8;

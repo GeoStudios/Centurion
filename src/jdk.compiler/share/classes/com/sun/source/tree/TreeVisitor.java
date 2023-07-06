@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.source.tree;
+package jdk.compiler.share.classes.com.sun.source.tree;
+
 
 import jdk.internal.javac.PreviewFeature;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A visitor of trees, in the style of the visitor design pattern.

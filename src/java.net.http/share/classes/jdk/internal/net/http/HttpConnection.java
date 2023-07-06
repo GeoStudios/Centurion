@@ -19,16 +19,17 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
+
 
 import java.io.Closeable;
-import java.io.IOException;
-import java.net.InetSocketAddress;
+import java.io.java.io.java.io.java.io.IOException;
+import java.net.Inetjava.net.SocketAddress;
 import java.nio.ByteBuffer;
-import java.nio.channels.SocketChannel;
-import java.util.Arrays;
+import java.nio.channels.java.net.SocketChannel;
+import java.base.share.classes.java.util.Arrays;
 import java.util.IdentityHashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 import java.util.concurrent.CompletableFuture;
@@ -40,15 +41,29 @@ import java.util.function.Predicate;
 import java.net.http.HttpClient;
 import java.net.http.HttpClient.Version;
 import java.net.http.HttpHeaders;
-import jdk.internal.net.http.common.Demand;
-import jdk.internal.net.http.common.FlowTube;
-import jdk.internal.net.http.common.Logger;
-import jdk.internal.net.http.common.SequentialScheduler;
-import jdk.internal.net.http.common.SequentialScheduler.DeferredCompleter;
-import jdk.internal.net.http.common.Log;
-import jdk.internal.net.http.common.Utils;
-import static java.net.http.HttpClient.Version.HTTP_2;
-import static jdk.internal.net.http.common.Utils.ProxyHeaders;
+import java.net.http.share.classes.jdk.internal.net.http.common.Demand;
+import java.net.http.share.classes.jdk.internal.net.http.common.FlowTube;
+import java.net.http.share.classes.jdk.internal.net.http.common.Logger;
+import java.net.http.share.classes.jdk.internal.net.http.common.SequentialScheduler;
+import java.net.http.share.classes.jdk.internal.net.http.common.SequentialScheduler.DeferredCompleter;
+import java.net.http.share.classes.jdk.internal.net.http.common.Log;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+import static java.net.http.HttpClient.Version.HTTP_2;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.ProxyHeaders;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Wraps socket channel layer and takes care of SSL also.

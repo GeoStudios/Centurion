@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package sampleapi.generator;
+
 
 import com.sun.source.tree.ModuleTree.ModuleKind;
 import com.sun.tools.javac.code.Symbol;
@@ -31,20 +33,31 @@ import com.sun.tools.javac.tree.JCTree.JCExpression;
 import com.sun.tools.javac.tree.TreeMaker;
 import com.sun.tools.javac.util.Context;
 import com.sun.tools.javac.util.Names;
-import com.sun.tools.javac.util.ListBuffer;
-import java.io.IOException;
+import com.sun.tools.javac.util.java.util.ListBuffer;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.List;
-import java.util.ArrayList;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
-
+import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import sampleapi.SampleApi;
 import sampleapi.util.PoorDocCommentTable;
+import static com.sun.tools.javac.parser.Tokens.Comment.CommentStyle.JAVADOC;.extended
 
-import static com.sun.tools.javac.parser.Tokens.Comment.CommentStyle.JAVADOC;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

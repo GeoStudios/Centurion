@@ -19,12 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http.common;
+package java.net.http.share.classes.jdk.internal.net.http.common;
+
 
 import sun.net.NetProperties;
 import sun.net.util.IPAddressUtil;
 import sun.net.www.HeaderParser;
-
 import javax.net.ssl.ExtendedSSLSession;
 import javax.net.ssl.SSLException;
 import javax.net.ssl.SSLHandshakeException;
@@ -32,12 +32,12 @@ import javax.net.ssl.SSLParameters;
 import javax.net.ssl.SSLSession;
 import java.io.ByteArrayOutputStream;
 import java.io.Closeable;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintStream;
-import java.io.UncheckedIOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.lang.System.Logger.Level;
 import java.net.ConnectException;
-import java.net.InetSocketAddress;
+import java.net.Inetjava.net.SocketAddress;
 import java.net.URI;
 import java.net.URLPermission;
 import java.net.http.HttpClient;
@@ -52,11 +52,11 @@ import java.nio.charset.StandardCharsets;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.text.Normalizer;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HexFormat;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 import java.util.concurrent.CompletableFuture;
@@ -68,11 +68,24 @@ import java.util.function.Predicate;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import static java.lang.String.format;.extended
+import static java.nio.charset.StandardCharsets.US_ASCII;.extended
+import static java.util.stream.Collectors.joining;.extended
+import java.net.http.share.classes.jdk.internal.net.http.HttpRequestImpl;
 
-import static java.lang.String.format;
-import static java.nio.charset.StandardCharsets.US_ASCII;
-import static java.util.stream.Collectors.joining;
-import jdk.internal.net.http.HttpRequestImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Miscellaneous utilities

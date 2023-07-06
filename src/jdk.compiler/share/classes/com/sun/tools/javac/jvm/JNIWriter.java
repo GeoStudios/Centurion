@@ -19,38 +19,50 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.jvm;
+package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
-import java.util.List;
-
+import java.util.java.util.java.util.java.util.List;
 import javax.tools.FileObject;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileManager.Location;
 import javax.tools.StandardLocation;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Attribute;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Flags;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ClassSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ModuleSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.VarSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symtab;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Types;
+import jdk.compiler.share.classes.com.sun.tools.javac.model.JavacElements;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Options;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Pair;
+import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;.extended
 
-import com.sun.tools.javac.code.Attribute;
-import com.sun.tools.javac.code.Flags;
-import com.sun.tools.javac.code.Symbol;
-import com.sun.tools.javac.code.Symbol.ClassSymbol;
-import com.sun.tools.javac.code.Symbol.ModuleSymbol;
-import com.sun.tools.javac.code.Symbol.VarSymbol;
-import com.sun.tools.javac.code.Symtab;
-import com.sun.tools.javac.code.Type;
-import com.sun.tools.javac.code.Types;
-import com.sun.tools.javac.model.JavacElements;
-import com.sun.tools.javac.util.Assert;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.Log;
-import com.sun.tools.javac.util.Options;
-import com.sun.tools.javac.util.Pair;
 
-import static com.sun.tools.javac.main.Option.*;
-import static com.sun.tools.javac.code.Kinds.Kind.*;
-import static com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This class provides operations to write native header files for classes.
  *

@@ -19,13 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.rmi.registry;
+package jdk.naming.rmi.share.classes.com.sun.jndi.rmi.registry;
 
 
 import java.rmi.*;
 import java.rmi.server.UnicastRemoteObject;
-
 import javax.naming.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

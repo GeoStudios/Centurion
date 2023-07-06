@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.naming.spi;
+package java.naming.share.classes.javax.naming.spi;
+
 
 import java.util.Hashtable;
-import javax.naming.NamingException;
+import java.naming.share.classes.javax.naming.NamingException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This interface represents a builder that creates initial context factories.

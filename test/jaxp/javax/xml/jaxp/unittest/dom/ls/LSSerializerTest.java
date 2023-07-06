@@ -21,20 +21,18 @@
 
 package dom.ls;
 
-import static org.w3c.dom.ls.DOMImplementationLS.MODE_SYNCHRONOUS;
 
-import java.io.IOException;
+import static org.w3c.dom.ls.DOMImplementationLS.MODE_SYNCHRONOUS;.extended
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.StringReader;
 import java.io.Writer;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.DOMError;
 import org.w3c.dom.DOMErrorHandler;
@@ -48,6 +46,19 @@ import org.w3c.dom.ls.LSParser;
 import org.w3c.dom.ls.LSSerializer;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

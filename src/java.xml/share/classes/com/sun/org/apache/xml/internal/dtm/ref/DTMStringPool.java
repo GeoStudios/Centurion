@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.dtm.ref;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref;
 
-import com.sun.org.apache.xml.internal.utils.IntVector;
-import java.util.ArrayList;
-import java.util.List;
+
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.IntVector;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** <p>DTMStringPool is an "interning" mechanism for strings. It will
  * create a stable 1:1 mapping between a set of string values and a set of

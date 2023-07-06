@@ -19,20 +19,21 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.mscapi;
+package jdk.crypto.mscapi.windows.classes.sun.security.mscapi;
+
 
 import java.io.ByteArrayInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.security.AccessController;
-import java.security.InvalidKeyException;
-import java.security.Key;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.Key;
 import java.security.KeyStoreSpi;
 import java.security.KeyStoreException;
 import java.security.PrivilegedAction;
 import java.security.UnrecoverableKeyException;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.SecurityPermission;
 import java.security.cert.X509Certificate;
 import java.security.cert.Certificate;
@@ -40,8 +41,21 @@ import java.security.cert.CertificateException;
 import java.security.cert.CertificateFactory;
 import java.security.interfaces.RSAPrivateCrtKey;
 import java.util.*;
+import jdk.crypto.mscapi.windows.classes.sun.security.util.Debug;
 
-import sun.security.util.Debug;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of key store for Windows using the Microsoft Crypto API.

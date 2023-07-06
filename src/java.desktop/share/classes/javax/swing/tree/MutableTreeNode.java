@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.tree;
+package java.desktop.share.classes.javax.swing.tree;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines the requirements for a tree node object that can change --

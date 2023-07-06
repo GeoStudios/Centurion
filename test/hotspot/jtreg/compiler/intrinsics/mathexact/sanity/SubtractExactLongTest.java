@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.mathexact.sanity;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @library /test/lib /
@@ -39,7 +56,6 @@
  * @run driver compiler.testlibrary.intrinsics.Verifier hs_neg.log hs.log
  */
 
-package compiler.intrinsics.mathexact.sanity;
 
 public class SubtractExactLongTest {
 

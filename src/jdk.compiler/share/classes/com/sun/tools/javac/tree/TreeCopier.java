@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.tree;
+package jdk.compiler.share.classes.com.sun.tools.javac.tree;
 
-import com.sun.source.tree.*;
-import com.sun.tools.javac.tree.JCTree.*;
-import com.sun.tools.javac.util.DefinedBy;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.ListBuffer;
 
-import java.util.Objects;
+import jdk.compiler.share.classes.com.sun.source.tree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.ListBuffer;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Creates a copy of a tree, using a given TreeMaker.

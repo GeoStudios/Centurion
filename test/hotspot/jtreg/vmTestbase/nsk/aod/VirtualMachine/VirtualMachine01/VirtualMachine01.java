@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.aod.VirtualMachine.VirtualMachine01;
+
+
+import com.sun.tools.attach.AttachNotSupportedException;
+import com.sun.tools.attach.VirtualMachine;
+import com.sun.tools.attach.VirtualMachineDescriptor;
+import com.sun.tools.attach.spi.AttachProvider;
+import nsk.share.aod.AODTestRunner;
+import nsk.share.test.TestUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -46,14 +69,7 @@
  *      -target nsk.share.aod.DummyTargetApplication
  */
 
-package nsk.aod.VirtualMachine.VirtualMachine01;
 
-import com.sun.tools.attach.AttachNotSupportedException;
-import com.sun.tools.attach.VirtualMachine;
-import com.sun.tools.attach.VirtualMachineDescriptor;
-import com.sun.tools.attach.spi.AttachProvider;
-import nsk.share.aod.AODTestRunner;
-import nsk.share.test.TestUtils;
 
 /*
  * Test provokes exception which should be thrown by VirtualMachine methods:

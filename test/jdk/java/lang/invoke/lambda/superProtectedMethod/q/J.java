@@ -21,8 +21,22 @@
 
 package q;
 
+
 import java.nio.file.Path;
 import java.util.function.Function;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class J {
     protected final Function<Path,String> fileReader;

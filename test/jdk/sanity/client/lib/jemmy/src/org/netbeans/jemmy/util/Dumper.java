@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.util;
+
 
 import java.awt.Component;
 import java.awt.Container;
@@ -28,13 +30,25 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
 import java.io.PrintWriter;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Hashtable;
-
 import org.netbeans.jemmy.JemmyProperties;
 import org.netbeans.jemmy.QueueTool;
 import org.netbeans.jemmy.QueueTool.QueueAction;
 import org.netbeans.jemmy.operators.Operator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Allows to "dump" current GUI state into XML file. Uses operators' getDump

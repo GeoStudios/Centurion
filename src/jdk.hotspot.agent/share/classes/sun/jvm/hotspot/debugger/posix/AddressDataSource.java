@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.jvm.hotspot.debugger.posix;
+
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.posix;
+
 
 import java.io.*;
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.debugger.posix.elf.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.posix.elf.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class AddressDataSource implements DataSource {
     AddressDataSource(Address addr) {
@@ -36,10 +52,10 @@ class AddressDataSource implements DataSource {
             ++offset;
             return res;
         } catch (UnmappedAddressException e) {
-            throw (IOException) new IOException("Unmapped address at 0x"
+            throw new IOException("Unmapped address at 0x"
                     + Long.toHexString(e.getAddress()), e);
         } catch (DebuggerException e) {
-            throw (IOException) new IOException(e);
+            throw new IOException(e);
         }
     }
 

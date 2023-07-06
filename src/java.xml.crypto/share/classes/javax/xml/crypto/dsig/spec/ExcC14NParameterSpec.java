@@ -18,15 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package java.xml.crypto.share.classes.javax.xml.crypto.dsig.spec;
+
+
+import java.xml.crypto.share.classes.javax.xml.crypto.dsig.CanonicalizationMethod;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Collections;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: ExcC14NParameterSpec.java,v 1.7 2005/05/13 18:45:42 mullan Exp $
  */
-package javax.xml.crypto.dsig.spec;
 
-import javax.xml.crypto.dsig.CanonicalizationMethod;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+
 
 /**
  * Parameters for the W3C Recommendation:

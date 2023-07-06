@@ -19,10 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.java_cup.internal.runtime;
 
-package com.sun.java_cup.internal.runtime;
 
 import java.util.Stack;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This class implements a skeleton table driven LR parser.  In general,
  *  LR parsers are a form of bottom up shift-reduce parsers.  Shift-reduce

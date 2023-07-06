@@ -21,6 +21,21 @@
 
 package pkg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class ClassWithStaticMembers implements InterfaceWithStaticMembers {
 
     /** A hider inner class */

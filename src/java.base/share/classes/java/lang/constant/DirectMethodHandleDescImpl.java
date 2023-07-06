@@ -18,18 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang.constant;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodType;
-import java.util.Objects;
+package java.base.share.classes.java.lang.constant;
 
-import static java.lang.constant.ConstantDescs.CD_void;
-import static java.lang.constant.ConstantUtils.validateClassOrInterface;
-import static java.lang.constant.ConstantUtils.validateMemberName;
-import static java.lang.constant.DirectMethodHandleDesc.Kind.CONSTRUCTOR;
-import static java.util.Objects.requireNonNull;
+
+import java.base.share.classes.java.lang.invoke.MethodHandle;
+import java.base.share.classes.java.lang.invoke.MethodHandles;
+import java.base.share.classes.java.lang.invoke.MethodType;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import static java.base.share.classes.java.lang.constant.ConstantDescs.CD_void;.extended
+import static java.base.share.classes.java.lang.constant.ConstantUtils.validateClassOrInterface;.extended
+import static java.base.share.classes.java.lang.constant.ConstantUtils.validateMemberName;.extended
+import static java.base.share.classes.java.lang.constant.DirectMethodHandleDesc.Kind.CONSTRUCTOR;.extended
+import static java.base.share.classes.java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A <a href="package-summary.html#nominal">nominal descriptor</a> for a direct

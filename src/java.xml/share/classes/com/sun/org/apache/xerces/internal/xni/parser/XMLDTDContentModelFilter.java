@@ -19,13 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser;
+
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDTDContentModelHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.xni.parser;
 
-import com.sun.org.apache.xerces.internal.xni.XMLDTDContentModelHandler;
+
 
 /**
  * Defines a DTD content model filter that acts as both a receiver and

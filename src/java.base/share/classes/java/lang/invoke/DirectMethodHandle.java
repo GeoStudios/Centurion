@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
+
 
 import jdk.internal.misc.Unsafe;
 import jdk.internal.vm.annotation.ForceInline;
@@ -28,18 +29,30 @@ import sun.invoke.util.ValueConversions;
 import sun.invoke.util.VerifyAccess;
 import sun.invoke.util.VerifyType;
 import sun.invoke.util.Wrapper;
+import java.base.share.classes.java.lang.ref.WeakReference;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.function.Function;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.*;.extended
+import static java.base.share.classes.java.lang.invoke.LambdaForm.Kind.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.UNSAFE;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newInternalError;.extended
+import static java.base.share.classes.java.lang.invoke.MethodTypeForm.*;.extended
 
-import java.lang.ref.WeakReference;
-import java.util.Arrays;
-import java.util.Objects;
-import java.util.function.Function;
 
-import static java.lang.invoke.LambdaForm.*;
-import static java.lang.invoke.LambdaForm.Kind.*;
-import static java.lang.invoke.MethodHandleNatives.Constants.*;
-import static java.lang.invoke.MethodHandleStatics.UNSAFE;
-import static java.lang.invoke.MethodHandleStatics.newInternalError;
-import static java.lang.invoke.MethodTypeForm.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The flavor of method handle which implements a constant reference

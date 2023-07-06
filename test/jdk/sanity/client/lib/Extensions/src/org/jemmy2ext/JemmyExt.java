@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.jemmy2ext;
+
 
 import java.awt.AWTException;
 import java.awt.Component;
@@ -34,14 +36,14 @@ import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Date;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.logging.Level;
@@ -75,7 +77,20 @@ import org.netbeans.jemmy.operators.JLabelOperator;
 import org.netbeans.jemmy.operators.Operator;
 import org.netbeans.jemmy.util.Dumper;
 import org.netbeans.jemmy.util.PNGEncoder;
-import static org.testng.AssertJUnit.*;
+import static org.testng.AssertJUnit.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class solves two tasks: 1. It adds functionality that is missing in

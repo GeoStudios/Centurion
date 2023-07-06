@@ -19,14 +19,15 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.xml.internal.stream.events;
+package java.xml.share.classes.com.sun.xml.internal.stream.events;
 
-import com.sun.xml.internal.stream.util.ReadOnlyIterator;
-import java.util.ArrayList;
+
+import java.xml.share.classes.com.sun.xml.internal.stream.util.ReadOnlyIterator;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import javax.xml.namespace.NamespaceContext;
 import javax.xml.namespace.QName;
@@ -34,6 +35,20 @@ import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.events.Attribute;
 import javax.xml.stream.events.Namespace;
 import javax.xml.stream.events.StartElement;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of StartElementEvent.

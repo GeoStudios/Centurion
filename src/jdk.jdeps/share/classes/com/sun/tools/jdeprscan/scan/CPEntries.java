@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdeprscan.scan;
+package jdk.jdeps.share.classes.com.sun.tools.jdeprscan.scan;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Formatter;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ClassFile;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool;
+import static jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.CPInfo;.extended
 
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.ConstantPool;
 
-import static com.sun.tools.classfile.ConstantPool.CPInfo;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A container for selected constant pool entries. There are currently

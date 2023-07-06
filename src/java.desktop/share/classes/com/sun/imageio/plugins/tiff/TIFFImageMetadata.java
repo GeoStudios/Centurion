@@ -18,16 +18,18 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.imageio.plugins.tiff;
 
-import java.io.IOException;
+package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.StringTokenizer;
 import javax.imageio.metadata.IIOMetadata;
@@ -37,12 +39,26 @@ import javax.imageio.metadata.IIOMetadataNode;
 import javax.imageio.stream.ImageInputStream;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import javax.imageio.plugins.tiff.BaselineTIFFTagSet;
 import javax.imageio.plugins.tiff.ExifParentTIFFTagSet;
 import javax.imageio.plugins.tiff.TIFFField;
 import javax.imageio.plugins.tiff.TIFFTag;
 import javax.imageio.plugins.tiff.TIFFTagSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TIFFImageMetadata extends IIOMetadata {
 

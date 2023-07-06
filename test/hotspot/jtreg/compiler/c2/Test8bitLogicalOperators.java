@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8213479
@@ -28,7 +45,6 @@
  *      compiler.c2.Test8bitLogicalOperators
  */
 
-package compiler.c2;
 
 public class Test8bitLogicalOperators {
     private static byte and = 0b0011, or = 0b0011, xor = 0b0011;

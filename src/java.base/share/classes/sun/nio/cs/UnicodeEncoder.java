@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.cs;
+package java.base.share.classes.sun.nio.cs;
+
 
 import java.nio.*;
 import java.nio.charset.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base class for different flavors of UTF-16 encoders

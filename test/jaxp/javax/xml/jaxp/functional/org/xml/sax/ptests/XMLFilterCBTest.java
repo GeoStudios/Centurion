@@ -18,22 +18,21 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.xml.sax.ptests;
 
-import static jaxp.library.JAXPTestUtilities.USER_DIR;
-import static jaxp.library.JAXPTestUtilities.compareWithGold;
-import static org.testng.Assert.assertTrue;
-import static org.xml.sax.ptests.SAXTestConst.GOLDEN_DIR;
-import static org.xml.sax.ptests.SAXTestConst.XML_DIR;
 
+import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
+import static jaxp.library.JAXPTestUtilities.compareWithGold;.extended
+import static org.testng.Assert.assertTrue;.extended
+import static org.xml.sax.ptests.SAXTestConst.GOLDEN_DIR;.extended
+import static org.xml.sax.ptests.SAXTestConst.XML_DIR;.extended
 import java.io.BufferedWriter;
 import java.io.FileInputStream;
 import java.io.FileWriter;
-import java.io.IOException;
-
+import java.io.java.io.java.io.java.io.IOException;
 import javax.xml.parsers.SAXParserFactory;
-
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.Attributes;
 import org.xml.sax.InputSource;
@@ -42,6 +41,19 @@ import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLFilterImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Set parent of XMLFilter to XMLReader. Parsing on XML file will invoke XMLFilter

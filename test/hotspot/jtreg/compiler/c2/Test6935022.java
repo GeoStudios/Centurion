@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6935022
@@ -27,7 +44,6 @@
  * @run main compiler.c2.Test6935022
  */
 
-package compiler.c2;
 
 public class Test6935022 {
     public static final void main(String[] args) throws Exception {

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2.cr7192963;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7192963
@@ -27,7 +44,6 @@
  * @run main/othervm/timeout=400 -Xbatch -Xmx128m compiler.c2.cr7192963.TestByteVect
  */
 
-package compiler.c2.cr7192963;
 
 public class TestByteVect {
   private static final int ARRLEN = 997;

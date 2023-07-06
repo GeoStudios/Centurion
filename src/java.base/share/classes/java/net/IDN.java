@@ -18,16 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.net;
 
-import java.io.InputStream;
-import java.io.IOException;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
+package java.base.share.classes.java.net;
 
+
+import java.base.share.classes.java.io.InputStream;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.PrivilegedAction;
 import jdk.internal.icu.impl.Punycode;
 import jdk.internal.icu.text.StringPrep;
 import jdk.internal.icu.text.UCharacterIterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides methods to convert internationalized domain names (IDNs) between

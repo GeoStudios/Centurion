@@ -21,7 +21,21 @@
 
 package pkg2;
 
+
 import java.lang.annotation.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @deprecated annotation_test1 passes.

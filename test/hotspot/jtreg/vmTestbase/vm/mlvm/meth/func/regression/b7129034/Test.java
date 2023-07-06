@@ -21,12 +21,24 @@
 
 package vm.mlvm.mixed.func.regression.b7129034;
 
-import java.util.List;
 
+import java.util.java.util.java.util.java.util.List;
 import java.lang.invoke.*;
 import java.lang.reflect.*;
-
 import vm.mlvm.share.MlvmTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Test extends MlvmTest {
 

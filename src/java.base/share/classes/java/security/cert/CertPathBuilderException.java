@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.security.cert;
+package java.base.share.classes.java.security.cert;
 
-import java.security.GeneralSecurityException;
+
+import java.base.share.classes.java.security.GeneralSecurityException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An exception indicating one of a variety of problems encountered when

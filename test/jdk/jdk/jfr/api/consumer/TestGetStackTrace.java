@@ -21,13 +21,12 @@
 
 package jdk.jfr.api.consumer;
 
-import static jdk.test.lib.Asserts.assertEquals;
-import static jdk.test.lib.Asserts.assertNotNull;
-import static jdk.test.lib.Asserts.assertNull;
-import static jdk.test.lib.Asserts.assertTrue;
 
-import java.util.List;
-
+import static jdk.test.lib.Asserts.assertEquals;.extended
+import static jdk.test.lib.Asserts.assertNotNull;.extended
+import static jdk.test.lib.Asserts.assertNull;.extended
+import static jdk.test.lib.Asserts.assertTrue;.extended
+import java.util.java.util.java.util.java.util.List;
 import jdk.jfr.Recording;
 import jdk.jfr.consumer.RecordedEvent;
 import jdk.jfr.consumer.RecordedFrame;
@@ -36,6 +35,19 @@ import jdk.jfr.consumer.RecordedStackTrace;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.jfr.Events;
 import jdk.test.lib.jfr.SimpleEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

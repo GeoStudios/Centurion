@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8181872
@@ -32,7 +49,6 @@
  *                   -XX:CompileCommand=dontinline,compiler.c1.MultiplyByMaxInt::test
  *                   compiler.c1.MultiplyByMaxInt
  */
-package compiler.c1;
 
 public class MultiplyByMaxInt {
     static int test(int x) {

@@ -19,11 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.openmbean;
+package java.management.share.classes.javax.management.openmbean;
+
+
+import java.management.share.classes.javax.management.JMException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // jmx import
 //
-import javax.management.JMException;
 
 /**
  * This checked exception is thrown when an <i>open type</i>, an <i>open data</i>  or an <i>open MBean metadata info</i> instance

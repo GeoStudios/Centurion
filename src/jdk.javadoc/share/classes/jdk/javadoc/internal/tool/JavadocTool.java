@@ -19,22 +19,21 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.tool;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.tool;
+
 
 import java.nio.file.Files;
 import java.nio.file.InvalidPathException;
 import java.nio.file.Paths;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
-
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ElementKind;
 import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
-
 import com.sun.tools.javac.code.ClassFinder;
 import com.sun.tools.javac.code.DeferredCompletionFailureHandler;
 import com.sun.tools.javac.code.Symbol.Completer;
@@ -46,11 +45,24 @@ import com.sun.tools.javac.tree.JCTree.JCClassDecl;
 import com.sun.tools.javac.tree.JCTree.JCCompilationUnit;
 import com.sun.tools.javac.util.Abort;
 import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.ListBuffer;
+import com.sun.tools.javac.util.java.util.ListBuffer;
 import com.sun.tools.javac.util.Position;
-import jdk.javadoc.doclet.DocletEnvironment;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.DocletEnvironment;
+import static jdk.javadoc.share.classes.jdk.javadoc.internal.tool.Main.Result.*;.extended
 
-import static jdk.javadoc.internal.tool.Main.Result.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  This class could be the main entry point for Javadoc when Javadoc is used as a

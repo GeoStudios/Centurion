@@ -21,11 +21,25 @@
 
 package jdk.jfr.api.metadata.annotations;
 
+
 import jdk.jfr.Registered;
 import jdk.test.lib.Asserts;
 import jdk.jfr.Event;
 import jdk.jfr.EventType;
 import jdk.jfr.FlightRecorder;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

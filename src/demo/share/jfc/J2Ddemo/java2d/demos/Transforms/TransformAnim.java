@@ -19,23 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.jfc.J2Ddemo.java2d.demos.Transforms;
 
-package java2d.demos.Transforms;
 
-import static java.awt.Color.BLACK;
-import static java.awt.Color.BLUE;
-import static java.awt.Color.CYAN;
-import static java.awt.Color.GREEN;
-import static java.awt.Color.LIGHT_GRAY;
-import static java.awt.Color.MAGENTA;
-import static java.awt.Color.ORANGE;
-import static java.awt.Color.PINK;
-import static java.awt.Color.RED;
-import static java.awt.Color.WHITE;
-import static java.awt.Color.YELLOW;
-import static java.awt.Font.BOLD;
-import static java.awt.Font.ITALIC;
-import static java.awt.Font.PLAIN;
+import static java.awt.Color.BLACK;.extended
+import static java.awt.Color.BLUE;.extended
+import static java.awt.Color.CYAN;.extended
+import static java.awt.Color.GREEN;.extended
+import static java.awt.Color.LIGHT_GRAY;.extended
+import static java.awt.Color.MAGENTA;.extended
+import static java.awt.Color.ORANGE;.extended
+import static java.awt.Color.PINK;.extended
+import static java.awt.Color.RED;.extended
+import static java.awt.Color.WHITE;.extended
+import static java.awt.Color.YELLOW;.extended
+import static java.awt.Font.BOLD;.extended
+import static java.awt.Font.ITALIC;.extended
+import static java.awt.Font.PLAIN;.extended
 import java.awt.BasicStroke;
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -50,7 +50,7 @@ import java.awt.RenderingHints;
 import java.awt.Shape;
 import java.awt.TexturePaint;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Arc2D;
 import java.awt.geom.CubicCurve2D;
@@ -60,10 +60,10 @@ import java.awt.geom.QuadCurve2D;
 import java.awt.geom.Rectangle2D;
 import java.awt.geom.RoundRectangle2D;
 import java.awt.image.BufferedImage;
-import java.util.ArrayList;
-import java.util.List;
-import java2d.AnimatingControlsSurface;
-import java2d.CustomControls;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import demo.share.jfc.J2Ddemo.java2d.AnimatingControlsSurface;
+import demo.share.jfc.J2Ddemo.java2d.CustomControls;
 import javax.swing.AbstractButton;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
@@ -74,8 +74,22 @@ import javax.swing.SwingConstants;
 import javax.swing.border.EtchedBorder;
 import javax.swing.border.TitledBorder;
 import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
+import javax.swing.event.Changejava.util.Listener;
 import javax.swing.plaf.metal.MetalBorders.ButtonBorder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Animation of shapes, text and images rotating, scaling and translating

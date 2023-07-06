@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.remote.security;
+package java.management.share.classes.com.sun.jmx.remote.security;
+
 
 import java.security.AccessController;
 import java.security.AccessControlContext;
@@ -27,10 +28,22 @@ import java.security.Permission;
 import java.security.Principal;
 import java.security.PrivilegedAction;
 import javax.security.auth.Subject;
-
 import javax.management.remote.SubjectDelegationPermission;
-
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SubjectDelegator {
     /* Return the AccessControlContext appropriate to execute an

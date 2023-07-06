@@ -21,11 +21,24 @@
 
 package nsk.jdi.StringReference.value;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the value001a JDI test.

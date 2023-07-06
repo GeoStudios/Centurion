@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.eliminateAutobox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6934604
@@ -38,7 +55,6 @@
  *                   compiler.eliminateAutobox.TestDoubleBoxing
  */
 
-package compiler.eliminateAutobox;
 
 public class TestDoubleBoxing {
 

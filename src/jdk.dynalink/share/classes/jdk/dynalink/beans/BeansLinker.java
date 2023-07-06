@@ -19,6 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.dynalink.share.classes.jdk.dynalink.beans;
+
+
+import java.lang.invoke.MethodHandles.Lookup;
+import java.util.Collections;
+import java.util.Set;
+import jdk.dynalink.share.classes.jdk.dynalink.DynamicLinkerFactory;
+import jdk.dynalink.share.classes.jdk.dynalink.StandardNamespace;
+import jdk.dynalink.share.classes.jdk.dynalink.StandardOperation;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.GuardedInvocation;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.GuardingDynamicLinker;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkRequest;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkerServices;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.TypeBasedGuardingDynamicLinker;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -26,19 +55,8 @@
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-package jdk.dynalink.beans;
 
-import java.lang.invoke.MethodHandles.Lookup;
-import java.util.Collections;
-import java.util.Set;
-import jdk.dynalink.DynamicLinkerFactory;
-import jdk.dynalink.StandardNamespace;
-import jdk.dynalink.StandardOperation;
-import jdk.dynalink.linker.GuardedInvocation;
-import jdk.dynalink.linker.GuardingDynamicLinker;
-import jdk.dynalink.linker.LinkRequest;
-import jdk.dynalink.linker.LinkerServices;
-import jdk.dynalink.linker.TypeBasedGuardingDynamicLinker;
+
 
 /**
  * A linker for ordinary Java objects. Normally used as the ultimate fallback

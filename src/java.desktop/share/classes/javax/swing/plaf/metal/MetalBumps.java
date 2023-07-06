@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.metal;
+package java.desktop.share.classes.javax.swing.plaf.metal;
+
 
 import java.awt.*;
 import java.awt.image.*;
-import javax.swing.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.desktop.share.classes.javax.swing.*;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import sun.awt.AppContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements the bumps used throughout the Metal Look and Feel.

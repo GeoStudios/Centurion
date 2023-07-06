@@ -19,6 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.PhantomReference.PhantomReferenceEvilTest;
+
+
+import gc.gctests.PhantomReference.PhantomHelper;
+import gc.gctests.PhantomReference.PRHelper;
+import java.lang.ref.ReferenceQueue;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Random;
+import java.util.HashMap;
+import nsk.share.TestFailure;
+import nsk.share.gc.GC;
+import nsk.share.gc.GCTestBase;
+import nsk.share.gc.Memory;
+import nsk.share.gc.gp.GarbageUtils;
+import nsk.share.test.Stresser;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -42,20 +71,7 @@
  *      gc.gctests.PhantomReference.PhantomReferenceEvilTest.PhantomReferenceEvilTest
  */
 
-package gc.gctests.PhantomReference.PhantomReferenceEvilTest;
 
-import gc.gctests.PhantomReference.PhantomHelper;
-import gc.gctests.PhantomReference.PRHelper;
-import java.lang.ref.ReferenceQueue;
-import java.util.ArrayList;
-import java.util.Random;
-import java.util.HashMap;
-import nsk.share.TestFailure;
-import nsk.share.gc.GC;
-import nsk.share.gc.GCTestBase;
-import nsk.share.gc.Memory;
-import nsk.share.gc.gp.GarbageUtils;
-import nsk.share.test.Stresser;
 
 /**
  * Tests for the PhantomReference handling in a more evil way.

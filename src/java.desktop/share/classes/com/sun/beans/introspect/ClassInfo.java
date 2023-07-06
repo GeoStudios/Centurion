@@ -19,15 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.beans.introspect;
+package java.desktop.share.classes.com.sun.beans.introspect;
+
 
 import java.lang.reflect.Method;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
+import java.desktop.share.classes.com.sun.beans.util.Cache;
+import static java.desktop.share.classes.com.sun.reflect.misc.ReflectUtil.checkPackageAccess;.extended
 
-import com.sun.beans.util.Cache;
 
-import static sun.reflect.misc.ReflectUtil.checkPackageAccess;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class ClassInfo {
     private static final ClassInfo DEFAULT = new ClassInfo(null);

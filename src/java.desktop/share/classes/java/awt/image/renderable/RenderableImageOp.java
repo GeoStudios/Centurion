@@ -19,13 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.image.renderable;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.Rectangle2D;
-import java.awt.image.RenderedImage;
-import java.awt.RenderingHints;
-import java.util.Hashtable;
-import java.util.Vector;
+package java.desktop.share.classes.java.awt.image.renderable;
+
+
+import java.desktop.share.classes.java.awt.geom.AffineTransform;
+import java.desktop.share.classes.java.awt.geom.Rectangle2D;
+import java.desktop.share.classes.java.awt.image.RenderedImage;
+import java.desktop.share.classes.java.awt.RenderingHints;
+import java.desktop.share.classes.java.util.Hashtable;
+import java.desktop.share.classes.java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class handles the renderable aspects of an operation with help

@@ -19,12 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.media.sound;
+package java.desktop.share.classes.com.sun.media.sound;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
-import java.util.List;
-
+import java.util.java.util.java.util.java.util.List;
 import javax.sound.midi.InvalidMidiDataException;
 import javax.sound.midi.MidiDevice;
 import javax.sound.midi.MidiDeviceReceiver;
@@ -33,6 +33,19 @@ import javax.sound.midi.MidiMessage;
 import javax.sound.midi.MidiUnavailableException;
 import javax.sound.midi.Receiver;
 import javax.sound.midi.Transmitter;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

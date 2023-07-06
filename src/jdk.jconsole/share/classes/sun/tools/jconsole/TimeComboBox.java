@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole;
+package jdk.jconsole.share.classes.sun.tools.jconsole;
+
 
 import java.awt.event.*;
 import java.beans.*;
 import java.util.*;
-
 import javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A combo box to control the visible time range for one or more Plotter components.

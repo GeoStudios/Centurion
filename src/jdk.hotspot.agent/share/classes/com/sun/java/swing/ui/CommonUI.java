@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.hotspot.agent.share.classes.com.sun.java.swing.ui;
 
-package com.sun.java.swing.ui;
 
-import java.awt.*;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyListener;
-import java.util.StringTokenizer;
-import java.util.Vector;
+import jdk.hotspot.agent.share.classes.com.sun.java.awt.*;
+import jdk.hotspot.agent.share.classes.com.sun.java.awt.event.Actionjava.util.Listener;
+import jdk.hotspot.agent.share.classes.com.sun.java.awt.event.Keyjava.util.Listener;
+import jdk.hotspot.agent.share.classes.com.sun.java.util.StringTokenizer;
+import jdk.hotspot.agent.share.classes.com.sun.java.util.Vector;
 import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.text.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CommonUI
 {

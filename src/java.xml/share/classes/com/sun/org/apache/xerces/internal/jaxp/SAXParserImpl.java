@@ -19,43 +19,58 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.jaxp;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp;
 
-import com.sun.org.apache.xerces.internal.impl.Constants;
-import com.sun.org.apache.xerces.internal.impl.validation.ValidationManager;
-import com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator;
-import com.sun.org.apache.xerces.internal.jaxp.validation.XSGrammarPoolContainer;
-import com.sun.org.apache.xerces.internal.util.SAXMessageFormatter;
-import com.sun.org.apache.xerces.internal.util.Status;
-import com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
-import com.sun.org.apache.xerces.internal.utils.XMLSecurityPropertyManager;
-import com.sun.org.apache.xerces.internal.xni.XMLDocumentHandler;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponent;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentSource;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLParserConfiguration;
-import com.sun.org.apache.xerces.internal.xs.AttributePSVI;
-import com.sun.org.apache.xerces.internal.xs.ElementPSVI;
-import com.sun.org.apache.xerces.internal.xs.PSVIProvider;
-import java.io.IOException;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.validation.ValidationManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.validation.XSGrammarPoolContainer;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SAXMessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.Status;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityPropertyManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDocumentHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponent;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentSource;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLParserConfiguration;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.AttributePSVI;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.ElementPSVI;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.PSVIProvider;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.HashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import javax.xml.XMLConstants;
 import javax.xml.validation.Schema;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkProperty;
-import org.xml.sax.EntityResolver;
-import org.xml.sax.ErrorHandler;
-import org.xml.sax.HandlerBase;
-import org.xml.sax.InputSource;
-import org.xml.sax.Parser;
-import org.xml.sax.SAXException;
-import org.xml.sax.SAXNotRecognizedException;
-import org.xml.sax.SAXNotSupportedException;
-import org.xml.sax.XMLReader;
-import org.xml.sax.helpers.DefaultHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.EntityResolver;
+import java.xml.share.classes.com.sun.org.xml.sax.ErrorHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.HandlerBase;
+import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
+import java.xml.share.classes.com.sun.org.xml.sax.Parser;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXNotRecognizedException;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXNotSupportedException;
+import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
+import java.xml.share.classes.com.sun.org.xml.sax.helpers.DefaultHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the implementation specific class for the

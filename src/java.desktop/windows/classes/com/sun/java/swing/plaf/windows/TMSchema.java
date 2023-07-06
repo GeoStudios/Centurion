@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
+
+
+import java.desktop.windows.classes.com.sun.java.awt.*;
+import java.desktop.windows.classes.com.sun.java.util.*;
+import javax.swing.*;
+import java.desktop.windows.classes.com.sun.awt.windows.ThemeReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * <p>These classes are designed to be used while the
  * corresponding <code>LookAndFeel</code> class has been installed
@@ -34,14 +56,10 @@
  *
  */
 
-package com.sun.java.swing.plaf.windows;
 
-import java.awt.*;
-import java.util.*;
 
-import javax.swing.*;
 
-import sun.awt.windows.ThemeReader;
+
 
 /**
  * Implements Windows Parts and their States and Properties for the Windows Look and Feel.

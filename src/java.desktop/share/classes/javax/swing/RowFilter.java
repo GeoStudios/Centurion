@@ -18,16 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing;
 
-import java.util.ArrayList;
+package java.desktop.share.classes.javax.swing;
+
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.Date;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>RowFilter</code> is used to filter out entries from the

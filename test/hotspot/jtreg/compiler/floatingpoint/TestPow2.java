@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.floatingpoint;
+
+
+import compiler.whitebox.CompilerWhiteBoxTest;
+import sun.hotspot.WhiteBox;
+import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8063086
@@ -34,12 +54,8 @@
  *                   compiler.floatingpoint.TestPow2
  */
 
-package compiler.floatingpoint;
 
-import compiler.whitebox.CompilerWhiteBoxTest;
-import sun.hotspot.WhiteBox;
 
-import java.lang.reflect.Method;
 
 public class TestPow2 {
 

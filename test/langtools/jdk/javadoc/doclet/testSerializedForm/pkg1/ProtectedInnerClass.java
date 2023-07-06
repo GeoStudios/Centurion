@@ -21,7 +21,21 @@
 
 package pkg1;
 
+
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A test class where outer class is package private and the inner class is

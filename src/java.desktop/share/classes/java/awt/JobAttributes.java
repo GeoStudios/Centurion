@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A set of attributes which control a print job.
@@ -37,7 +53,7 @@ package java.awt;
  * has a public constructor. For example, to set the print dialog type to
  * the cross-platform, pure Java print dialog, use the following code:
  * <pre>
- * import java.awt.JobAttributes;
+ * import java.desktop.share.classes.java.awt.JobAttributes;
  *
  * public class PureJavaPrintDialogExample {
  *     public void setPureJavaPrintDialog(JobAttributes jobAttributes) {

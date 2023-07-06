@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.util;
+package java.base.share.classes.sun.security.util;
+
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -31,9 +32,22 @@ import java.util.Collections;
 import java.util.Enumeration;
 import java.util.HashSet;
 import java.util.Set;
-
 import javax.security.auth.x500.X500Principal;
-import sun.security.x509.X509CertImpl;
+import java.base.share.classes.sun.security.x509.X509CertImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The purpose of this class is to determine the trust anchor certificates is in

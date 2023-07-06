@@ -19,9 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package pkg1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Part of test ../ProtecteInner.java
 
-package pkg1;
 
 public class Base {
     protected void baseMethod() {

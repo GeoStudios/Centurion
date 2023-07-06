@@ -21,6 +21,23 @@
 
 package gc.startup_warnings;
 
+
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.process.OutputAnalyzer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestParallelGC
  * @bug 8006398
@@ -32,8 +49,6 @@ package gc.startup_warnings;
  * @run driver gc.startup_warnings.TestParallelGC
  */
 
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.process.OutputAnalyzer;
 
 
 public class TestParallelGC {

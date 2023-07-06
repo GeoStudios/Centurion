@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javap;
+package jdk.jdeps.share.classes.com.sun.tools.javap;
 
-import java.util.ArrayList;
-import java.util.List;
 
-import com.sun.tools.classfile.AccessFlags;
-import com.sun.tools.classfile.Code_attribute;
-import com.sun.tools.classfile.ConstantPool;
-import com.sun.tools.classfile.ConstantPoolException;
-import com.sun.tools.classfile.DescriptorException;
-import com.sun.tools.classfile.Instruction;
-import com.sun.tools.classfile.Instruction.TypeKind;
-import com.sun.tools.classfile.Method;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.AccessFlags;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Code_attribute;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPoolException;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.DescriptorException;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Instruction;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Instruction.TypeKind;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  *  Write the contents of a Code attribute.

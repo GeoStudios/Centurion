@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.arraycopy;
+
+
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8074676
@@ -28,9 +46,7 @@
  *                   compiler.arraycopy.TestArrayCopyOfStopped
  */
 
-package compiler.arraycopy;
 
-import java.util.Arrays;
 
 public class TestArrayCopyOfStopped {
     static class A {

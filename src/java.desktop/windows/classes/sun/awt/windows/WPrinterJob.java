@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.windows;
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.awt.Color;
 import java.awt.Font;
@@ -32,17 +33,15 @@ import java.awt.Button;
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.FileDialog;
 import java.awt.Dialog;
 import java.awt.Label;
 import java.awt.Panel;
 import java.awt.Rectangle;
 import java.awt.Window;
-
 import java.awt.image.BufferedImage;
 import java.awt.image.IndexColorModel;
-
 import java.awt.print.Pageable;
 import java.awt.print.PageFormat;
 import java.awt.print.Paper;
@@ -50,20 +49,15 @@ import java.awt.print.Printable;
 import java.awt.print.PrinterJob;
 import java.awt.print.PrinterException;
 import javax.print.PrintService;
-
 import java.io.File;
-
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
-
-import sun.awt.AWTAccessor;
-import sun.awt.AWTAccessor.ComponentAccessor;
-import sun.print.PeekGraphics;
-import sun.print.PeekMetrics;
-
+import java.desktop.windows.classes.sun.awt.AWTAccessor;
+import java.desktop.windows.classes.sun.awt.AWTAccessor.ComponentAccessor;
+import java.desktop.windows.classes.sun.print.PeekGraphics;
+import java.desktop.windows.classes.sun.print.PeekMetrics;
 import java.net.URI;
 import java.net.URISyntaxException;
-
 import javax.print.PrintServiceLookup;
 import javax.print.attribute.PrintRequestAttributeSet;
 import javax.print.attribute.HashPrintRequestAttributeSet;
@@ -82,23 +76,33 @@ import javax.print.attribute.standard.MediaSizeName;
 import javax.print.attribute.standard.MediaSize;
 import javax.print.attribute.standard.MediaTray;
 import javax.print.attribute.standard.PageRanges;
-
-import sun.awt.Win32FontManager;
-
-import sun.print.RasterPrinterJob;
-import sun.print.SunAlternateMedia;
-import sun.print.SunPageSelection;
-import sun.print.Win32MediaTray;
-import sun.print.Win32PrintService;
-import sun.print.PrintServiceLookupProvider;
-import sun.print.ServiceDialog;
-
+import java.desktop.windows.classes.sun.awt.Win32FontManager;
+import java.desktop.windows.classes.sun.print.RasterPrinterJob;
+import java.desktop.windows.classes.sun.print.SunAlternateMedia;
+import java.desktop.windows.classes.sun.print.SunPageSelection;
+import java.desktop.windows.classes.sun.print.Win32MediaTray;
+import java.desktop.windows.classes.sun.print.Win32PrintService;
+import java.desktop.windows.classes.sun.print.PrintServiceLookupProvider;
+import java.desktop.windows.classes.sun.print.ServiceDialog;
 import java.awt.Frame;
 import java.io.FilePermission;
+import java.desktop.windows.classes.sun.java2d.Disposer;
+import java.desktop.windows.classes.sun.java2d.DisposerRecord;
+import java.desktop.windows.classes.sun.java2d.DisposerTarget;
 
-import sun.java2d.Disposer;
-import sun.java2d.DisposerRecord;
-import sun.java2d.DisposerTarget;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class which initiates and executes a Win32 printer job.

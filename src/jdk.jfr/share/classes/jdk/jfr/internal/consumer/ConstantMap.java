@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.consumer;
+package jdk.jfr.share.classes.jdk.jfr.internal.consumer;
 
-import jdk.jfr.internal.LogLevel;
-import jdk.jfr.internal.LogTag;
-import jdk.jfr.internal.Logger;
 
-import jdk.jfr.internal.LongMap;
+import jdk.jfr.share.classes.jdk.jfr.internal.LogLevel;
+import jdk.jfr.share.classes.jdk.jfr.internal.LogTag;
+import jdk.jfr.share.classes.jdk.jfr.internal.Logger;
+import jdk.jfr.share.classes.jdk.jfr.internal.LongMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Holds mapping between a set of keys and their corresponding object.

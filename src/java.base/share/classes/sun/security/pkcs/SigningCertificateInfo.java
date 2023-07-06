@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs;
+package java.base.share.classes.sun.security.pkcs;
 
-import java.io.IOException;
-import java.util.ArrayList;
 
-import sun.security.util.HexDumpEncoder;
-import sun.security.util.DerInputStream;
-import sun.security.util.DerValue;
-import sun.security.x509.GeneralNames;
-import sun.security.x509.SerialNumber;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.sun.security.util.HexDumpEncoder;
+import java.base.share.classes.sun.security.util.DerInputStream;
+import java.base.share.classes.sun.security.util.DerValue;
+import java.base.share.classes.sun.security.x509.GeneralNames;
+import java.base.share.classes.sun.security.x509.SerialNumber;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents a signing certificate attribute.

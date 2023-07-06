@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
+
 
 import java.nio.ByteBuffer;
-
 import javax.crypto.MacSpi;
-import javax.crypto.SecretKey;
-import java.security.*;
-import java.security.spec.*;
+import java.base.share.classes.javax.crypto.SecretKey;
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.java.security.spec.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is an implementation of the HMAC-MD5 algorithm.

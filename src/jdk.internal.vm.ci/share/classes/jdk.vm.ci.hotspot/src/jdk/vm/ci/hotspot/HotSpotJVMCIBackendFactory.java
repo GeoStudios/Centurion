@@ -18,16 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.hotspot;
 
-import java.util.ArrayList;
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
+
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.EnumSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.common.JVMCIError;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.runtime.JVMCIBackend;
 
-import jdk.vm.ci.common.JVMCIError;
-import jdk.vm.ci.runtime.JVMCIBackend;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface HotSpotJVMCIBackendFactory {
 

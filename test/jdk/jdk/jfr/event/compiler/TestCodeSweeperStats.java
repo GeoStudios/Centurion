@@ -21,13 +21,13 @@
 
 package jdk.jfr.event.compiler;
 
+
 import java.io.File;
 import java.lang.reflect.Method;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.file.Paths;
-import java.util.List;
-
+import java.util.java.util.java.util.java.util.List;
 import sun.hotspot.WhiteBox;
 import jdk.jfr.Recording;
 import jdk.jfr.consumer.RecordedEvent;
@@ -36,6 +36,19 @@ import jdk.test.lib.classloader.ParentLastURLClassLoader;
 import jdk.test.lib.jfr.EventNames;
 import jdk.test.lib.jfr.Events;
 import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test TestCodeSweeperStats

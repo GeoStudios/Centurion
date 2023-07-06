@@ -19,21 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.timer;
+package java.management.share.classes.javax.management.timer;
 
-import static com.sun.jmx.defaults.JmxProperties.TIMER_LOGGER;
 
+import static com.sun.jmx.defaults.JmxProperties.TIMER_LOGGER;.extended
 import java.util.*;
 import java.lang.System.Logger.Level;
+import java.management.share.classes.javax.management.InstanceNotFoundException;
+import java.management.share.classes.javax.management.MBeanNotificationInfo;
+import java.management.share.classes.javax.management.MBeanRegistration;
+import java.management.share.classes.javax.management.MBeanServer;
+import java.management.share.classes.javax.management.NotificationBroadcasterSupport;
+import java.management.share.classes.javax.management.ObjectName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // jmx imports
 //
-import javax.management.InstanceNotFoundException;
-import javax.management.MBeanNotificationInfo;
-import javax.management.MBeanRegistration;
-import javax.management.MBeanServer;
-import javax.management.NotificationBroadcasterSupport;
-import javax.management.ObjectName;
 
 /**
  *

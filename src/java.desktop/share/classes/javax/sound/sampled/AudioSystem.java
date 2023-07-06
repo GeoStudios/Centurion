@@ -19,28 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.sound.sampled;
+package java.desktop.share.classes.javax.sound.sampled;
+
 
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.URL;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashSet;
-import java.util.List;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.Properties;
 import java.util.Set;
 import java.util.Vector;
-
-import javax.sound.sampled.spi.AudioFileReader;
-import javax.sound.sampled.spi.AudioFileWriter;
-import javax.sound.sampled.spi.FormatConversionProvider;
-import javax.sound.sampled.spi.MixerProvider;
-
+import java.desktop.share.classes.javax.sound.sampled.spi.AudioFileReader;
+import java.desktop.share.classes.javax.sound.sampled.spi.AudioFileWriter;
+import java.desktop.share.classes.javax.sound.sampled.spi.FormatConversionProvider;
+import java.desktop.share.classes.javax.sound.sampled.spi.MixerProvider;
 import com.sun.media.sound.JDK13Services;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* $fb TODO:
  * - consistent usage of (typed) collections
@@ -1231,7 +1244,7 @@ public class AudioSystem {
      */
     @SuppressWarnings("unchecked")
     private static List<MixerProvider> getMixerProviders() {
-        return (List<MixerProvider>) getProviders(MixerProvider.class);
+        return getProviders(MixerProvider.class);
     }
 
     /**
@@ -1244,7 +1257,7 @@ public class AudioSystem {
      */
     @SuppressWarnings("unchecked")
     private static List<FormatConversionProvider> getFormatConversionProviders() {
-        return (List<FormatConversionProvider>) getProviders(FormatConversionProvider.class);
+        return getProviders(FormatConversionProvider.class);
     }
 
     /**
@@ -1257,7 +1270,7 @@ public class AudioSystem {
      */
     @SuppressWarnings("unchecked")
     private static List<AudioFileReader> getAudioFileReaders() {
-        return (List<AudioFileReader>)getProviders(AudioFileReader.class);
+        return getProviders(AudioFileReader.class);
     }
 
     /**
@@ -1270,7 +1283,7 @@ public class AudioSystem {
      */
     @SuppressWarnings("unchecked")
     private static List<AudioFileWriter> getAudioFileWriters() {
-        return (List<AudioFileWriter>)getProviders(AudioFileWriter.class);
+        return getProviders(AudioFileWriter.class);
     }
 
     /**

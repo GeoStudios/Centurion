@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.unix.classes.sun.font;
 
-package sun.font;
 
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetEncoder;
 import java.nio.charset.CharsetDecoder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class X11SunUnicode_0 extends Charset {
     public X11SunUnicode_0 () {

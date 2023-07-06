@@ -19,14 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.beans.editors;
+package java.desktop.share.classes.com.sun.beans.editors;
+
+
+import java.beans.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Property editor for a java builtin "int" type.
  *
  */
 
-import java.beans.*;
 
 public class IntegerEditor extends NumberEditor {
 

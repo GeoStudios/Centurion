@@ -19,60 +19,69 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.jvm;
+package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
+
 
 import java.io.*;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.nio.CharBuffer;
 import java.nio.file.ClosedFileSystemException;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 import java.util.function.IntFunction;
-
 import javax.lang.model.element.Modifier;
 import javax.lang.model.element.NestingKind;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileObject;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Source.Feature;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Annotate;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Annotate.AnnotationTypeCompleter;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Directive.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Lint.LintCategory;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.WriteableScope;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symtab;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Annotate.AnnotationTypeMetadata;
+import jdk.compiler.share.classes.com.sun.tools.javac.file.BaseFileManager;
+import jdk.compiler.share.classes.com.sun.tools.javac.file.PathFileObject;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.Version;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.PoolConstant.NameAndType;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Option;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Warnings;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.LookupKind;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.ARRAY;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.CLASS;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.TYPEVAR;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.Version.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.PARAMETERS;.extended
 
-import com.sun.tools.javac.code.Source.Feature;
-import com.sun.tools.javac.comp.Annotate;
-import com.sun.tools.javac.comp.Annotate.AnnotationTypeCompleter;
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.Directive.*;
-import com.sun.tools.javac.code.Lint.LintCategory;
-import com.sun.tools.javac.code.Scope.WriteableScope;
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.code.Symtab;
-import com.sun.tools.javac.code.Type.*;
-import com.sun.tools.javac.comp.Annotate.AnnotationTypeMetadata;
-import com.sun.tools.javac.file.BaseFileManager;
-import com.sun.tools.javac.file.PathFileObject;
-import com.sun.tools.javac.jvm.ClassFile.Version;
-import com.sun.tools.javac.jvm.PoolConstant.NameAndType;
-import com.sun.tools.javac.main.Option;
-import com.sun.tools.javac.resources.CompilerProperties.Fragments;
-import com.sun.tools.javac.resources.CompilerProperties.Warnings;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
 
-import static com.sun.tools.javac.code.Flags.*;
-import static com.sun.tools.javac.code.Kinds.Kind.*;
 
-import com.sun.tools.javac.code.Scope.LookupKind;
 
-import static com.sun.tools.javac.code.TypeTag.ARRAY;
-import static com.sun.tools.javac.code.TypeTag.CLASS;
-import static com.sun.tools.javac.code.TypeTag.TYPEVAR;
-import static com.sun.tools.javac.jvm.ClassFile.*;
-import static com.sun.tools.javac.jvm.ClassFile.Version.*;
 
-import static com.sun.tools.javac.main.Option.PARAMETERS;
+
+
+
+
+
+
+
+
+
 
 /** This class provides operations to read a classfile into an internal
  *  representation. The internal representation is anchored in a

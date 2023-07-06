@@ -18,15 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package gc.g1.unloading.keepref;
+
 
 import gc.g1.unloading.bytecode.BytecodeMutatorFactory;
 import gc.g1.unloading.bytecode.TemplateClassWithStaticField;
 import gc.g1.unloading.classloaders.DoItYourselfClassLoader;
-
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.concurrent.atomic.AtomicLong;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This holder prevents class from being collected by keeping link in static field of another class.

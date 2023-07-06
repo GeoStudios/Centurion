@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.security.AccessController;
-
 import jdk.internal.misc.Unsafe;
-import sun.security.action.GetPropertyAction;
+import java.desktop.unix.classes.sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class XlibWrapper {
 

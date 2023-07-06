@@ -18,24 +18,37 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.security.pkcs11;
+
+package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11;
+
 
 import java.io.ByteArrayOutputStream;
 import java.nio.ByteBuffer;
-import java.util.Arrays;
-import java.util.Locale;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.java.security.spec.*;
+import java.base.share.classes.javax.crypto.*;
+import java.base.share.classes.javax.crypto.spec.*;
+import jdk.crypto.cryptoki.share.classes.sun.nio.ch.DirectBuffer;
+import jdk.crypto.cryptoki.share.classes.sun.security.jca.JCAUtil;
+import jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.*;
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Constants.*;.extended
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Exception.*;.extended
 
-import java.security.*;
-import java.security.spec.*;
 
-import javax.crypto.*;
-import javax.crypto.spec.*;
 
-import sun.nio.ch.DirectBuffer;
-import sun.security.jca.JCAUtil;
-import sun.security.pkcs11.wrapper.*;
-import static sun.security.pkcs11.wrapper.PKCS11Constants.*;
-import static sun.security.pkcs11.wrapper.PKCS11Exception.*;
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * P11 AEAD Cipher implementation class. This class currently supports

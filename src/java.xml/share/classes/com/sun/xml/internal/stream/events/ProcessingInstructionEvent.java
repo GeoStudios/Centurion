@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.xml.internal.stream.events ;
+package java.xml.share.classes.com.sun.xml.internal.stream.events;
+
 
 import java.io.Writer;
 import javax.xml.stream.Location;
 import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.events.ProcessingInstruction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Implements Processing Instruction Event
  *

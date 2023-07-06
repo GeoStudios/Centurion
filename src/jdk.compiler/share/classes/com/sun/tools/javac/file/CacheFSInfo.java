@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.file;
+package jdk.compiler.share.classes.com.sun.tools.javac.file;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.attribute.BasicFileAttributes;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context.Factory;
 
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.Context.Factory;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Caching implementation of FSInfo.

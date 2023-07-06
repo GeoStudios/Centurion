@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.share.classes.sun.awt;
+
 
 import java.awt.Font;
 import java.io.DataInputStream;
@@ -27,26 +28,40 @@ import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetEncoder;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Hashtable;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map.Entry;
 import java.util.Properties;
 import java.util.Set;
 import java.util.Vector;
-import sun.font.CompositeFontDescriptor;
-import sun.font.SunFontManager;
-import sun.font.FontManagerFactory;
-import sun.font.FontUtilities;
-import sun.util.logging.PlatformLogger;
+import java.desktop.share.classes.sun.font.CompositeFontDescriptor;
+import java.desktop.share.classes.sun.font.SunFontManager;
+import java.desktop.share.classes.sun.font.FontManagerFactory;
+import java.desktop.share.classes.sun.font.FontUtilities;
+import java.desktop.share.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the definitions of the five logical fonts: Serif, SansSerif,
@@ -1821,7 +1836,7 @@ public abstract class FontConfiguration {
                         table_sequences[k * NUM_FONTS + i] = v[0];
                     }
                 } else {
-                    System.arraycopy(v, 0, table_sequences, k * 5 + 0, NUM_FONTS);
+                    System.arraycopy(v, 0, table_sequences, k * 5, NUM_FONTS);
                 }
             }
             //(4)

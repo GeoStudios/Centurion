@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider.certpath;
+package java.base.share.classes.sun.security.provider.certpath;
+
 
 import java.io.*;
 import java.net.URI;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.cert.*;
 import javax.security.auth.x500.X500Principal;
 import java.util.*;
+import java.base.share.classes.sun.security.util.Debug;
+import java.base.share.classes.sun.security.util.Event;
+import java.base.share.classes.sun.security.validator.Validator;
+import static java.base.share.classes.sun.security.x509.PKIXExtensions.*;.extended
+import java.base.share.classes.sun.security.x509.*;
 
-import sun.security.util.Debug;
-import sun.security.util.Event;
-import sun.security.validator.Validator;
-import static sun.security.x509.PKIXExtensions.*;
-import sun.security.x509.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class to obtain CRLs via the CRLDistributionPoints extension.
@@ -362,8 +376,8 @@ public class DistributionPointFetcher {
         X500Name pointCrlIssuer = null;
         if (pointCrlIssuers != null) {
             if (idpExt == null ||
-                ((Boolean) idpExt.get
-                    (IssuingDistributionPointExtension.INDIRECT_CRL)).equals
+                idpExt.get
+                    (IssuingDistributionPointExtension.INDIRECT_CRL).equals
                         (Boolean.FALSE)) {
                 return false;
             }

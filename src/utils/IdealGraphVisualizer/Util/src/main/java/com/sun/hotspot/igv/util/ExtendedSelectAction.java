@@ -18,9 +18,11 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.util;
 
-import java.awt.event.MouseEvent;
+package utils.IdealGraphVisualizer.Util.src.main.java.com.sun.hotspot.igv.util;
+
+
+import utils.IdealGraphVisualizer.Util.src.main.java.awt.event.MouseEvent;
 import javax.swing.JPanel;
 import org.netbeans.api.visual.action.ActionFactory;
 import org.netbeans.api.visual.action.SelectProvider;
@@ -29,6 +31,20 @@ import org.netbeans.api.visual.action.WidgetAction.State;
 import org.netbeans.api.visual.action.WidgetAction.WidgetKeyEvent;
 import org.netbeans.api.visual.action.WidgetAction.WidgetMouseEvent;
 import org.netbeans.api.visual.widget.Widget;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

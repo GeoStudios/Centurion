@@ -19,13 +19,14 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javap;
+package jdk.jdeps.share.classes.com.sun.tools.javap;
+
 
 import java.io.BufferedReader;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.StringReader;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.util.SortedMap;
 import java.util.SortedSet;
@@ -35,14 +36,26 @@ import javax.tools.JavaFileManager;
 import javax.tools.JavaFileManager.Location;
 import javax.tools.JavaFileObject;
 import javax.tools.StandardLocation;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Attribute;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ClassFile;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Code_attribute;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPoolException;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Instruction;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.LineNumberTable_attribute;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.SourceFile_attribute;
 
-import com.sun.tools.classfile.Attribute;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.Code_attribute;
-import com.sun.tools.classfile.ConstantPoolException;
-import com.sun.tools.classfile.Instruction;
-import com.sun.tools.classfile.LineNumberTable_attribute;
-import com.sun.tools.classfile.SourceFile_attribute;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

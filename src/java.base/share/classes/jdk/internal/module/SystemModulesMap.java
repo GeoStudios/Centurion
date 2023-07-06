@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.module;
+package java.base.share.classes.jdk.internal.module;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is generated/overridden at link time to return the names of the

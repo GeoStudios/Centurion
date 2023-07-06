@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.gtk;
+package java.desktop.share.classes.com.sun.java.swing.plaf.gtk;
 
-import java.awt.*;
-import java.awt.geom.AffineTransform;
+
+import java.desktop.share.classes.com.sun.java.awt.*;
+import java.desktop.share.classes.com.sun.java.awt.geom.AffineTransform;
 import javax.swing.plaf.FontUIResource;
-import java.util.StringTokenizer;
+import java.desktop.share.classes.com.sun.java.util.StringTokenizer;
+import java.desktop.share.classes.com.sun.font.FontConfigManager;
+import java.desktop.share.classes.com.sun.font.FontUtilities;
 
-import sun.font.FontConfigManager;
-import sun.font.FontUtilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

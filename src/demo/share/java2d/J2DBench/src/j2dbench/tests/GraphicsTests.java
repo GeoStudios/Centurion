@@ -19,16 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * This source code is provided to illustrate the usage of a given feature
- * or technique and has been deliberately simplified. Additional steps
- * required for a production-quality application, such as security checks,
- * input validation and proper error handling, might not be present in
- * this sample code.
- */
+package demo.share.java2d.J2DBench.src.j2dbench.tests;
 
-
-package j2dbench.tests;
 
 import java.awt.Graphics;
 import java.awt.Graphics2D;
@@ -40,13 +32,39 @@ import java.awt.Dimension;
 import java.awt.geom.Point2D;
 import java.awt.geom.AffineTransform;
 import java.lang.reflect.Field;
+import demo.share.java2d.J2DBench.src.j2dbench.Destinations;
+import demo.share.java2d.J2DBench.src.j2dbench.Group;
+import demo.share.java2d.J2DBench.src.j2dbench.Option;
+import demo.share.java2d.J2DBench.src.j2dbench.Result;
+import demo.share.java2d.J2DBench.src.j2dbench.Test;
+import demo.share.java2d.J2DBench.src.j2dbench.TestEnvironment;
 
-import j2dbench.Destinations;
-import j2dbench.Group;
-import j2dbench.Option;
-import j2dbench.Result;
-import j2dbench.Test;
-import j2dbench.TestEnvironment;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * This source code is provided to illustrate the usage of a given feature
+ * or technique and has been deliberately simplified. Additional steps
+ * required for a production-quality application, such as security checks,
+ * input validation and proper error handling, might not be present in
+ * this sample code.
+ */
+
+
+
+
+
 
 public abstract class GraphicsTests extends Test {
     public static boolean hasGraphics2D;

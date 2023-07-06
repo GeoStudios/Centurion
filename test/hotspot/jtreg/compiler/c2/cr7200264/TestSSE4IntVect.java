@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2.cr7200264;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7200264
@@ -29,7 +46,6 @@
  * @run driver compiler.c2.cr7200264.TestSSE4IntVect
  */
 
-package compiler.c2.cr7200264;
 
 public class TestSSE4IntVect {
     public static void main(String[] args) throws Throwable {

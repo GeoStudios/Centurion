@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package p.q;
+
+
+import java.io.*;
+import java.net.*;
+import java.util.*;
+import com.sun.tools.classfile.ClassFile;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This class is intended to be run in the single source-file launcher
  * mode defined by JEP 330. It checks the operation of the getResource*
@@ -33,12 +54,7 @@
  *      --add-exports jdk.jdeps/com.sun.tools.classfile=ALL-UNNAMED
  *      /path/to/CLTest.java
  */
-package p.q;
 
-import java.io.*;
-import java.net.*;
-import java.util.*;
-import com.sun.tools.classfile.ClassFile;
 
 public class CLTest {
     public static void main(String... args) throws Exception {

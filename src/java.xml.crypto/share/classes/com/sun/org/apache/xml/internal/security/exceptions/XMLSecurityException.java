@@ -19,15 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions;
+
+
+import java.text.MessageFormat;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.I18n;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.exceptions;
 
-import java.text.MessageFormat;
 
-import com.sun.org.apache.xml.internal.security.utils.I18n;
+
 
 /**
  * The mother of all Exceptions in this bundle. It allows exceptions to have

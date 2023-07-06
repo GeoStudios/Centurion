@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www;
+package java.base.share.classes.sun.net.www;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.URL;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class to represent an active connection to an object

@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.unsafe;
+
+
+import jdk.internal.misc.Unsafe;
+import java.lang.reflect.Field;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8016474
@@ -29,11 +48,8 @@
  *                   compiler.unsafe.GetUnsafeObjectG1PreBarrier
  */
 
-package compiler.unsafe;
 
-import jdk.internal.misc.Unsafe;
 
-import java.lang.reflect.Field;
 
 public class GetUnsafeObjectG1PreBarrier {
     private static final Unsafe unsafe;

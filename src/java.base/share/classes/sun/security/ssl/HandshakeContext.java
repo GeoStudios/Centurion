@@ -19,32 +19,47 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.BufferOverflowException;
 import java.nio.BufferUnderflowException;
 import java.nio.ByteBuffer;
 import java.security.AlgorithmConstraints;
 import java.security.CryptoPrimitive;
 import java.util.AbstractMap.SimpleImmutableEntry;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.EnumMap;
 import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Queue;
-import javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.SecretKey;
 import javax.net.ssl.SNIServerName;
 import javax.net.ssl.SSLHandshakeException;
 import javax.security.auth.x500.X500Principal;
-import sun.security.ssl.NamedGroup.NamedGroupSpec;
-import static sun.security.ssl.NamedGroup.NamedGroupSpec.*;
-import sun.security.ssl.SupportedGroupsExtension.SupportedGroups;
+import java.base.share.classes.sun.security.ssl.NamedGroup.NamedGroupSpec;
+import static java.base.share.classes.sun.security.ssl.NamedGroup.NamedGroupSpec.*;.extended
+import java.base.share.classes.sun.security.ssl.SupportedGroupsExtension.SupportedGroups;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class HandshakeContext implements ConnectionContext {
     // System properties

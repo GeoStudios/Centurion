@@ -19,10 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.share.classes.sun.print;
+
 
 import java.io.FilePermission;
-
 import java.awt.Color;
 import java.awt.Dialog;
 import java.awt.Frame;
@@ -47,11 +47,10 @@ import java.awt.print.PrinterException;
 import java.awt.print.PrinterJob;
 import java.awt.Window;
 import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Locale;
-import sun.awt.image.ByteInterleavedRaster;
-
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
+import java.desktop.share.classes.sun.awt.image.ByteInterleavedRaster;
 import javax.print.Doc;
 import javax.print.DocFlavor;
 import javax.print.DocPrintJob;
@@ -88,6 +87,20 @@ import javax.print.attribute.standard.PrinterIsAcceptingJobs;
 import javax.print.attribute.standard.RequestingUserName;
 import javax.print.attribute.standard.SheetCollate;
 import javax.print.attribute.standard.Sides;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class which rasterizes a printer job.

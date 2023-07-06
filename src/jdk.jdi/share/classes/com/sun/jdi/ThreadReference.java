@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jdi;
+package jdk.jdi.share.classes.com.sun.jdi;
 
-import java.util.List;
 
-import com.sun.jdi.event.EventSet;
+import java.util.java.util.java.util.java.util.List;
+import jdk.jdi.share.classes.com.sun.jdi.event.EventSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A thread object from the target VM.

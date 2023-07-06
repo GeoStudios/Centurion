@@ -18,7 +18,23 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.share.jvmti.RetransformClasses.LinearHierarchy;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Class2 extends Class3 {
     final int var_1 = 279651512;

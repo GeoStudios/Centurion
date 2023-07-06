@@ -19,17 +19,18 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.unix.classes.sun.print;
+
 
 import java.net.URL;
 import java.net.HttpURLConnection;
 import java.io.OutputStream;
 import java.io.InputStream;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import sun.print.IPPPrintService;
-import sun.print.CustomMediaSizeName;
-import sun.print.CustomMediaTray;
+import java.desktop.unix.classes.sun.print.IPPPrintService;
+import java.desktop.unix.classes.sun.print.CustomMediaSizeName;
+import java.desktop.unix.classes.sun.print.CustomMediaTray;
 import javax.print.attribute.standard.Media;
 import javax.print.attribute.standard.MediaSizeName;
 import javax.print.attribute.standard.MediaSize;
@@ -40,6 +41,19 @@ import javax.print.attribute.Size2DSyntax;
 import javax.print.attribute.Attribute;
 import javax.print.attribute.EnumSyntax;
 import javax.print.attribute.standard.PrinterName;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @SuppressWarnings("removal")

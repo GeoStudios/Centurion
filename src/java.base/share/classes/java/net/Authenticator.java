@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
+
 
 import sun.net.www.protocol.http.AuthenticatorKeys;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The class Authenticator represents an object that knows how to obtain

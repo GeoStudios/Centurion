@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jshell;
+package jdk.jshell.share.classes.jdk.jshell;
 
-import jdk.jshell.Snippet.Kind;
-import jdk.jshell.Snippet.SubKind;
+
+import jdk.jshell.share.classes.jdk.jshell.Snippet.Kind;
+import jdk.jshell.share.classes.jdk.jshell.Snippet.SubKind;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Key is unique for a given signature.  Used internal to the implementation

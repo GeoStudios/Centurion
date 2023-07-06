@@ -19,21 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5;
+package java.security.jgss.share.classes.sun.security.krb5;
 
-import sun.security.krb5.internal.Krb5;
 
+import java.security.jgss.share.classes.sun.security.krb5.internal.Krb5;
 import java.security.AccessController;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Hashtable;
 import java.util.Random;
 import java.util.StringTokenizer;
-
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.spi.NamingManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class discovers the location of Kerberos services by querying DNS,

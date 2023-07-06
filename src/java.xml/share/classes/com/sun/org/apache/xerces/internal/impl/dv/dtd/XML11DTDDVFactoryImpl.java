@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.dv.dtd;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.dtd;
 
-import com.sun.org.apache.xerces.internal.impl.dv.DatatypeValidator;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.DatatypeValidator;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * the factory to create/return built-in XML 1.1 DVs and create user-defined DVs

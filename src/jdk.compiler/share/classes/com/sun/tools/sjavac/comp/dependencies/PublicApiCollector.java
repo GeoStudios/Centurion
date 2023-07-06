@@ -19,27 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac.comp.dependencies;
+package jdk.compiler.share.classes.com.sun.tools.sjavac.comp.dependencies;
+
 
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
-
 import javax.tools.JavaFileObject;
+import jdk.compiler.share.classes.com.sun.source.tree.Tree;
+import jdk.compiler.share.classes.com.sun.source.util.TaskEvent;
+import jdk.compiler.share.classes.com.sun.source.util.Taskjava.util.Listener;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ClassSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCClassDecl;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCCompilationUnit;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.Log;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.comp.PubAPIs;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.pubapi.PubApi;
 
-import com.sun.source.tree.Tree;
-import com.sun.source.util.TaskEvent;
-import com.sun.source.util.TaskListener;
-import com.sun.tools.javac.code.Symbol.ClassSymbol;
-import com.sun.tools.javac.tree.JCTree.JCClassDecl;
-import com.sun.tools.javac.tree.JCTree.JCCompilationUnit;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.DefinedBy;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.sjavac.Log;
-import com.sun.tools.sjavac.comp.PubAPIs;
-import com.sun.tools.sjavac.pubapi.PubApi;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class PublicApiCollector implements TaskListener {

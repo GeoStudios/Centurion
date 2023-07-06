@@ -19,11 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider.certpath;
+package java.base.share.classes.sun.security.provider.certpath;
+
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.security.cert.CertificateEncodingException;
 import java.security.cert.Certificate;
@@ -32,14 +33,27 @@ import java.security.cert.CertificateFactory;
 import java.security.cert.CertPath;
 import java.security.cert.X509Certificate;
 import java.util.*;
+import java.base.share.classes.sun.security.pkcs.ContentInfo;
+import java.base.share.classes.sun.security.pkcs.PKCS7;
+import java.base.share.classes.sun.security.pkcs.SignerInfo;
+import java.base.share.classes.sun.security.x509.AlgorithmId;
+import java.base.share.classes.sun.security.util.DerValue;
+import java.base.share.classes.sun.security.util.DerOutputStream;
+import java.base.share.classes.sun.security.util.DerInputStream;
 
-import sun.security.pkcs.ContentInfo;
-import sun.security.pkcs.PKCS7;
-import sun.security.pkcs.SignerInfo;
-import sun.security.x509.AlgorithmId;
-import sun.security.util.DerValue;
-import sun.security.util.DerOutputStream;
-import sun.security.util.DerInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@link java.security.cert.CertPath CertPath} (certification path)

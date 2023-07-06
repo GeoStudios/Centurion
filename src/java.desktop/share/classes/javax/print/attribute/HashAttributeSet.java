@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.print.attribute;
+package java.desktop.share.classes.javax.print.attribute;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serial;
 import java.io.Serializable;
 import java.util.HashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class {@code HashAttributeSet} provides an {@code AttributeSet}

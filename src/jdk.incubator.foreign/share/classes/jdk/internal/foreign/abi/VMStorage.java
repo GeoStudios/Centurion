@@ -18,11 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.foreign.abi;
 
-import jdk.internal.invoke.VMStorageProxy;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi;
 
-import java.util.Objects;
+
+import jdk.incubator.foreign.share.classes.jdk.internal.invoke.VMStorageProxy;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class VMStorage implements VMStorageProxy {
     private final int type;

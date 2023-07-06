@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.prefs;
+package java.prefs.macosx.classes.java.util.prefs;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Timer;
-import java.util.TimerTask;
-import java.lang.ref.WeakReference;
+
+import java.prefs.macosx.classes.java.util.HashMap;
+import java.prefs.macosx.classes.java.util.HashSet;
+import java.prefs.macosx.classes.java.util.Iterator;
+import java.prefs.macosx.classes.java.util.Timer;
+import java.prefs.macosx.classes.java.util.TimerTask;
+import java.prefs.macosx.classes.java.lang.ref.WeakReference;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*

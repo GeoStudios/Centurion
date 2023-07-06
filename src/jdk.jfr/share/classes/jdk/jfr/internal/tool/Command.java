@@ -19,28 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.tool;
+package jdk.jfr.share.classes.jdk.jfr.internal.tool;
+
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOError;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintStream;
 import java.io.RandomAccessFile;
 import java.nio.file.Files;
 import java.nio.file.InvalidPathException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Deque;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 import java.util.function.Predicate;
+import jdk.jfr.share.classes.jdk.jfr.EventType;
 
-import jdk.jfr.EventType;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class Command {
     public static final String title = "Tool for working with Flight Recorder files";

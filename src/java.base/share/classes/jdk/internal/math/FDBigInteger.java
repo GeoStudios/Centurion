@@ -18,12 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.math;
 
-import jdk.internal.misc.CDS;
+package java.base.share.classes.jdk.internal.math;
 
+
+import java.base.share.classes.jdk.internal.misc.CDS;
 import java.math.BigInteger;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //@ model import org.jmlspecs.models.JMLMath;
 
 /**

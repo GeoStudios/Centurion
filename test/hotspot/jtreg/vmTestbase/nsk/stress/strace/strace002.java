@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.stress.strace;
+
+
+import nsk.share.ArgumentParser;
+import nsk.share.Failure;
+import nsk.share.Log;
+import java.io.PrintStream;
+import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -46,14 +67,8 @@
  */
 
 
-package nsk.stress.strace;
 
-import nsk.share.ArgumentParser;
-import nsk.share.Failure;
-import nsk.share.Log;
 
-import java.io.PrintStream;
-import java.util.Map;
 
 /**
  * The test check up <code>java.lang.Thread.getAllStackTraces()</code> method for many

@@ -19,12 +19,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.fs;
+package java.base.linux.classes.sun.nio.fs;
 
-import java.nio.file.*;
-import java.io.IOException;
-import java.util.*;
-import static sun.nio.fs.LinuxNativeDispatcher.*;
+
+import java.base.share.classes.java.nio.file.*;
+import java.base.share.classes.java.io.IOException;
+import java.base.share.classes.java.util.*;
+import static java.base.linux.classes.sun.nio.fs.LinuxNativeDispatcher.*;
 
 /**
  * Linux implementation of FileSystem

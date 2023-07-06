@@ -19,23 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole;
+package jdk.jconsole.share.classes.sun.tools.jconsole;
+
 
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.*;
 import java.lang.reflect.*;
 import java.util.*;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Timer;
 import javax.swing.*;
 import javax.swing.plaf.*;
-
-
 import com.sun.tools.jconsole.JConsolePlugin;
 import com.sun.tools.jconsole.JConsoleContext;
+import static jdk.jconsole.share.classes.sun.tools.jconsole.ProxyClient.*;.extended
 
-import static sun.tools.jconsole.ProxyClient.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public class VMPanel extends JTabbedPane implements PropertyChangeListener {

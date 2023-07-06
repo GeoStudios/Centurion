@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 7179138
@@ -30,7 +47,6 @@
  * @author Skip Balk
  */
 
-package compiler.c2;
 
 public class Test7179138_2 {
     public static void main(String[] args) throws Exception {

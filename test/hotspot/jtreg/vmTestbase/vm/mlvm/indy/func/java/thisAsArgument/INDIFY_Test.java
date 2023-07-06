@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.mlvm.indy.func.java.thisAsArgument;
+
+
+import java.lang.invoke.CallSite;
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+import java.base.share.classes.java.util.Arrays;
+import vm.mlvm.share.MlvmTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -63,15 +85,8 @@
  * @run main/othervm vm.mlvm.indy.func.java.thisAsArgument.INDIFY_Test
  */
 
-package vm.mlvm.indy.func.java.thisAsArgument;
 
-import java.lang.invoke.CallSite;
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodType;
-import java.util.Arrays;
 
-import vm.mlvm.share.MlvmTest;
 
 public class INDIFY_Test extends MlvmTest {
 

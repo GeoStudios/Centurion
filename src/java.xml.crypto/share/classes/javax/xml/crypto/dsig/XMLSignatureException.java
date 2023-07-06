@@ -18,13 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-/*
- * $Id: XMLSignatureException.java,v 1.5 2005/05/10 16:03:48 mullan Exp $
- */
-package javax.xml.crypto.dsig;
+
+package java.xml.crypto.share.classes.javax.xml.crypto.dsig;
+
 
 import java.io.PrintStream;
 import java.io.PrintWriter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * $Id: XMLSignatureException.java,v 1.5 2005/05/10 16:03:48 mullan Exp $
+ */
+
+
 
 /**
  * Indicates an exceptional condition that occurred during the XML

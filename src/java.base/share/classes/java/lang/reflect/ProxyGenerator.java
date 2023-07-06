@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.reflect;
+package java.base.share.classes.java.lang.reflect;
+
 
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.Label;
@@ -27,21 +28,33 @@ import jdk.internal.org.objectweb.asm.MethodVisitor;
 import jdk.internal.org.objectweb.asm.Opcodes;
 import jdk.internal.org.objectweb.asm.Type;
 import sun.security.action.GetBooleanAction;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.lang.invoke.MethodType;
+import java.base.share.classes.java.nio.file.Files;
+import java.base.share.classes.java.nio.file.Path;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.HashMap;
+import java.base.share.classes.java.util.LinkedHashMap;
+import java.base.share.classes.java.util.Linkedjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.java.util.ListIterator;
+import java.base.share.classes.java.util.Map;
+import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
 
-import java.io.IOException;
-import java.lang.invoke.MethodType;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.Map;
 
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ProxyGenerator contains the code to generate a dynamic proxy class

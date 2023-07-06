@@ -18,15 +18,17 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.tests.java.util.stream;
+
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedDeque;
 import java.util.concurrent.ConcurrentLinkedQueue;
-import java.util.concurrent.ConcurrentSkipListMap;
-import java.util.concurrent.ConcurrentSkipListSet;
-import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.ConcurrentSkipjava.util.ListMap;
+import java.util.concurrent.ConcurrentSkipjava.util.ListSet;
+import java.util.concurrent.CopyOnWriteArrayjava.util.java.util.java.util.List;
 import java.util.concurrent.CopyOnWriteArraySet;
 import java.util.concurrent.LinkedBlockingDeque;
 import java.util.concurrent.LinkedBlockingQueue;
@@ -36,12 +38,23 @@ import java.util.function.Supplier;
 import java.util.stream.LambdaTestHelpers;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import java.util.*;
 import java.util.stream.Stream;
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertTrue;.extended
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Tests laziness of stream operations -- mutations to the source after the stream() but prior to terminal operations

@@ -19,34 +19,47 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.remote.rmi;
+package java.management.rmi.share.classes.javax.management.remote.rmi;
+
 
 import java.io.Closeable;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.rmi.MarshalledObject;
 import java.rmi.Remote;
 import java.util.Set;
+import java.management.rmi.share.classes.javax.management.Attributejava.util.java.util.java.util.List;
+import java.management.rmi.share.classes.javax.management.AttributeNotFoundException;
+import java.management.rmi.share.classes.javax.management.InstanceAlreadyExistsException;
+import java.management.rmi.share.classes.javax.management.InstanceNotFoundException;
+import java.management.rmi.share.classes.javax.management.IntrospectionException;
+import java.management.rmi.share.classes.javax.management.InvalidAttributeValueException;
+import java.management.rmi.share.classes.javax.management.java.util.ListenerNotFoundException;
+import java.management.rmi.share.classes.javax.management.MBeanException;
+import java.management.rmi.share.classes.javax.management.MBeanInfo;
+import java.management.rmi.share.classes.javax.management.MBeanRegistrationException;
+import java.management.rmi.share.classes.javax.management.MBeanServerConnection;
+import java.management.rmi.share.classes.javax.management.NotCompliantMBeanException;
+import java.management.rmi.share.classes.javax.management.ObjectInstance;
+import java.management.rmi.share.classes.javax.management.ObjectName;
+import java.management.rmi.share.classes.javax.management.ReflectionException;
+import java.management.rmi.share.classes.javax.management.RuntimeMBeanException;
+import java.management.rmi.share.classes.javax.management.RuntimeOperationsException;
+import java.management.rmi.share.classes.javax.management.remote.NotificationResult;
+import java.management.rmi.share.classes.javax.security.auth.Subject;
 
-import javax.management.AttributeList;
-import javax.management.AttributeNotFoundException;
-import javax.management.InstanceAlreadyExistsException;
-import javax.management.InstanceNotFoundException;
-import javax.management.IntrospectionException;
-import javax.management.InvalidAttributeValueException;
-import javax.management.ListenerNotFoundException;
-import javax.management.MBeanException;
-import javax.management.MBeanInfo;
-import javax.management.MBeanRegistrationException;
-import javax.management.MBeanServerConnection;
-import javax.management.NotCompliantMBeanException;
 
-import javax.management.ObjectInstance;
-import javax.management.ObjectName;
-import javax.management.ReflectionException;
-import javax.management.RuntimeMBeanException;
-import javax.management.RuntimeOperationsException;
-import javax.management.remote.NotificationResult;
-import javax.security.auth.Subject;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>RMI object used to forward an MBeanServer request from a client

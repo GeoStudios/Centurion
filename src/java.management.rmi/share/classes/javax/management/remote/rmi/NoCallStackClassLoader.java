@@ -19,9 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.remote.rmi;
+package java.management.rmi.share.classes.javax.management.remote.rmi;
+
 
 import java.security.ProtectionDomain;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
     <p>A class loader that only knows how to define a limited number
@@ -224,9 +242,6 @@ insert-buffer'd into a Java program."
 Alternatively, the following class reads a class file and outputs a string
 that can be used by the stringToBytes method above.
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
 
 public class BytesToString {
 

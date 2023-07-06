@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-import com.sun.jdi.InvalidTypeException;
-import com.sun.jdi.LongValue;
-import com.sun.jdi.Type;
-import com.sun.jdi.VirtualMachine;
+
+import jdk.jdi.share.classes.com.sun.jdi.InvalidTypeException;
+import jdk.jdi.share.classes.com.sun.jdi.LongValue;
+import jdk.jdi.share.classes.com.sun.jdi.Type;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class LongValueImpl extends PrimitiveValueImpl
                            implements LongValue {

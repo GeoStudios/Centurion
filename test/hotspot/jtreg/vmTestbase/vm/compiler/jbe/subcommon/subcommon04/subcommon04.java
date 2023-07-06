@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.compiler.jbe.subcommon.subcommon04;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,7 +47,6 @@
  * @run main/othervm vm.compiler.jbe.subcommon.subcommon04.subcommon04
  */
 
-package vm.compiler.jbe.subcommon.subcommon04;
 
 /* Tests the Global Common Sub-expression Elimination optimization, including duplicate
    calls to math function.

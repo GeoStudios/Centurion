@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8229855 8238812
@@ -34,7 +51,6 @@
  *                   compiler.c2.TestJumpTable
  */
 
-package compiler.c2;
 
 public class TestJumpTable {
 

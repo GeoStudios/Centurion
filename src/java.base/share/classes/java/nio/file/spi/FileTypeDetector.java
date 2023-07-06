@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.nio.file.spi;
+package java.base.share.classes.java.nio.file.spi;
 
-import java.nio.file.Path;
-import java.io.IOException;
+
+import java.base.share.classes.java.nio.file.Path;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A file type detector for probing a file to guess its file type.

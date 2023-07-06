@@ -21,9 +21,55 @@
 
 package build.tools.generatecharacter;
 
-import java.util.regex.*;
-import java.util.*;
-import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A PropList object contains the lists of code points that have

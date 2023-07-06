@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr;
+package jdk.jfr.share.classes.jdk.jfr;
+
 
 import java.lang.annotation.Annotation;
-import java.util.List;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
+import jdk.jfr.share.classes.jdk.jfr.internal.AnnotationConstruct;
+import jdk.jfr.share.classes.jdk.jfr.internal.Type;
 
-import jdk.jfr.internal.AnnotationConstruct;
-import jdk.jfr.internal.Type;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Describes an event setting.

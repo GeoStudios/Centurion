@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.settings;
+package jdk.jfr.share.classes.jdk.jfr.internal.settings;
+
 
 import java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper class for settings that use boolean numbers

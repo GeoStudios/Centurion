@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.zip;
+
+
+import java.nio.ByteBuffer;
+import java.util.zip.CRC32;
+import java.util.zip.Checksum;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8143012
@@ -27,11 +47,7 @@
  * @run main/othervm/timeout=720 -Xbatch compiler.intrinsics.zip.TestCRC32 -m
  */
 
-package compiler.intrinsics.zip;
 
-import java.nio.ByteBuffer;
-import java.util.zip.CRC32;
-import java.util.zip.Checksum;
 
 public class TestCRC32 {
     // standard CRC32 polynomial

@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import java.util.EventObject;
-import javax.swing.event.*;
+import java.desktop.share.classes.javax.swing.event.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface defines the methods any general editor should be able

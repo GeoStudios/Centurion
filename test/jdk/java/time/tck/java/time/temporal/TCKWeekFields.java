@@ -21,21 +21,21 @@
 
 package tck.java.time.temporal;
 
-import static java.time.format.ResolverStyle.LENIENT;
-import static java.time.format.ResolverStyle.SMART;
-import static java.time.format.ResolverStyle.STRICT;
-import static java.time.temporal.ChronoField.DAY_OF_MONTH;
-import static java.time.temporal.ChronoField.DAY_OF_WEEK;
-import static java.time.temporal.ChronoField.DAY_OF_YEAR;
-import static java.time.temporal.ChronoField.MONTH_OF_YEAR;
-import static java.time.temporal.ChronoField.YEAR;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertNotEquals;
-import static org.testng.Assert.assertSame;
-import static org.testng.Assert.assertTrue;
 
-import java.io.IOException;
+import static java.time.format.ResolverStyle.LENIENT;.extended
+import static java.time.format.ResolverStyle.SMART;.extended
+import static java.time.format.ResolverStyle.STRICT;.extended
+import static java.time.temporal.ChronoField.DAY_OF_MONTH;.extended
+import static java.time.temporal.ChronoField.DAY_OF_WEEK;.extended
+import static java.time.temporal.ChronoField.DAY_OF_YEAR;.extended
+import static java.time.temporal.ChronoField.MONTH_OF_YEAR;.extended
+import static java.time.temporal.ChronoField.YEAR;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertFalse;.extended
+import static org.testng.Assert.assertNotEquals;.extended
+import static org.testng.Assert.assertSame;.extended
+import static org.testng.Assert.assertTrue;.extended
+import java.io.java.io.java.io.java.io.IOException;
 import java.time.DateTimeException;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
@@ -45,10 +45,22 @@ import java.time.temporal.ChronoUnit;
 import java.time.temporal.TemporalField;
 import java.time.temporal.ValueRange;
 import java.time.temporal.WeekFields;
-
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import tck.java.time.AbstractTCKTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test WeekFields.

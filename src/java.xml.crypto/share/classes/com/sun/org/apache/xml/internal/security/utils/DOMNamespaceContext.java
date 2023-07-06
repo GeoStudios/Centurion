@@ -19,25 +19,43 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils;
+
+
+import java.util.Iterator;
+import java.base.share.classes.java.util.Objects;
+import javax.xml.namespace.NamespaceContext;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
+import static javax.xml.XMLConstants.DEFAULT_NS_PREFIX;.extended
+import static javax.xml.XMLConstants.NULL_NS_URI;.extended
+import static javax.xml.XMLConstants.XMLNS_ATTRIBUTE;.extended
+import static javax.xml.XMLConstants.XMLNS_ATTRIBUTE_NS_URI;.extended
+import static javax.xml.XMLConstants.XML_NS_PREFIX;.extended
+import static javax.xml.XMLConstants.XML_NS_URI;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.utils;
 
-import java.util.Iterator;
-import java.util.Objects;
 
-import javax.xml.namespace.NamespaceContext;
 
-import org.w3c.dom.Node;
 
-import static javax.xml.XMLConstants.DEFAULT_NS_PREFIX;
-import static javax.xml.XMLConstants.NULL_NS_URI;
-import static javax.xml.XMLConstants.XMLNS_ATTRIBUTE;
-import static javax.xml.XMLConstants.XMLNS_ATTRIBUTE_NS_URI;
-import static javax.xml.XMLConstants.XML_NS_PREFIX;
-import static javax.xml.XMLConstants.XML_NS_URI;
+
 
 /**
  * This class adapts the {@link Node} namespace/prefix lookup API to that of {@link NamespaceContext}.

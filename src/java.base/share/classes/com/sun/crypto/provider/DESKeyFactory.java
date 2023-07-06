@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
-import javax.crypto.SecretKey;
-import javax.crypto.SecretKeyFactorySpi;
+
+import java.base.share.classes.javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.SecretKeyFactorySpi;
 import javax.crypto.spec.DESKeySpec;
-import java.security.InvalidKeyException;
-import java.security.spec.KeySpec;
-import java.security.spec.InvalidKeySpecException;
-import java.util.Arrays;
-import javax.crypto.spec.SecretKeySpec;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.spec.KeySpec;
+import java.base.share.classes.java.security.spec.InvalidKeySpecException;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.javax.crypto.spec.SecretKeySpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements the DES key factory of the Sun provider.

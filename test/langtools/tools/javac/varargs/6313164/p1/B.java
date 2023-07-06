@@ -21,6 +21,21 @@
 
 package p1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @SuppressWarnings("unchecked")
 public class B extends A {
     public void foo1(A... args) { }

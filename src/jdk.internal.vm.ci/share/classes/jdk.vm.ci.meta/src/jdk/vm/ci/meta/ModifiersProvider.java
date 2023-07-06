@@ -18,13 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.meta;
+
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
+
 
 import java.lang.reflect.Modifier;
+import static java.lang.reflect.Modifier.PRIVATE;.extended
+import static java.lang.reflect.Modifier.PROTECTED;.extended
+import static java.lang.reflect.Modifier.PUBLIC;.extended
 
-import static java.lang.reflect.Modifier.PRIVATE;
-import static java.lang.reflect.Modifier.PROTECTED;
-import static java.lang.reflect.Modifier.PUBLIC;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Java element (i.e., a class, interface, field or method) that is described by a set of Java

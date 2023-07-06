@@ -19,6 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci.compilerToVM;
+
+
+import compiler.jvmci.common.testcases.AbstractClass;
+import compiler.jvmci.common.testcases.AbstractClassExtender;
+import compiler.jvmci.common.testcases.DoNotExtendClass;
+import compiler.jvmci.common.testcases.MultipleImplementersInterfaceExtender;
+import compiler.jvmci.common.testcases.SingleImplementer;
+import compiler.jvmci.common.testcases.SingleImplementerInterface;
+import jdk.test.lib.Asserts;
+import jdk.test.lib.Utils;
+import jdk.vm.ci.hotspot.CompilerToVMHelper;
+import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
+import jdk.vm.ci.hotspot.HotSpotResolvedObjectType;
+import java.util.HashSet;
+import java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8136421
@@ -33,22 +63,8 @@
  *                   compiler.jvmci.compilerToVM.GetClassInitializerTest
  */
 
-package compiler.jvmci.compilerToVM;
 
-import compiler.jvmci.common.testcases.AbstractClass;
-import compiler.jvmci.common.testcases.AbstractClassExtender;
-import compiler.jvmci.common.testcases.DoNotExtendClass;
-import compiler.jvmci.common.testcases.MultipleImplementersInterfaceExtender;
-import compiler.jvmci.common.testcases.SingleImplementer;
-import compiler.jvmci.common.testcases.SingleImplementerInterface;
-import jdk.test.lib.Asserts;
-import jdk.test.lib.Utils;
-import jdk.vm.ci.hotspot.CompilerToVMHelper;
-import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
-import jdk.vm.ci.hotspot.HotSpotResolvedObjectType;
 
-import java.util.HashSet;
-import java.util.Set;
 
 public class GetClassInitializerTest {
 

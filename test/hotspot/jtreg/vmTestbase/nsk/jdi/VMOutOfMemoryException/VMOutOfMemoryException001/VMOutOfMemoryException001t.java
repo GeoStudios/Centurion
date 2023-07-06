@@ -18,10 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.jdi.VMOutOfMemoryException.VMOutOfMemoryException001;
+
 
 import nsk.share.Consts;
 import nsk.share.jdi.AbstractJDIDebuggee;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This test verifies that a VMOutOfMemoryException is thrown when the debugge runs out of memory.

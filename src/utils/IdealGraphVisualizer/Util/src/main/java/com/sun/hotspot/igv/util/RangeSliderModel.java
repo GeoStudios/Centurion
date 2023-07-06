@@ -18,14 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.util;
 
-import com.sun.hotspot.igv.data.ChangedEvent;
-import com.sun.hotspot.igv.data.ChangedEventProvider;
-import java.awt.Color;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+package utils.IdealGraphVisualizer.Util.src.main.java.com.sun.hotspot.igv.util;
+
+
+import utils.IdealGraphVisualizer.Util.src.main.java.com.sun.hotspot.igv.data.ChangedEvent;
+import utils.IdealGraphVisualizer.Util.src.main.java.com.sun.hotspot.igv.data.ChangedEventProvider;
+import utils.IdealGraphVisualizer.Util.src.main.java.awt.Color;
+import utils.IdealGraphVisualizer.Util.src.main.java.util.Arrayjava.util.java.util.java.util.List;
+import utils.IdealGraphVisualizer.Util.src.main.java.util.Collections;
+import utils.IdealGraphVisualizer.Util.src.main.java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.arguments;
+
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test CheckCheckCICompilerCount
  * @bug 8130858 8132525 8162881
@@ -30,10 +49,7 @@
  * @run driver compiler.arguments.CheckCICompilerCount
  */
 
-package compiler.arguments;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class CheckCICompilerCount {
     private static final String[][] NON_TIERED_ARGUMENTS = {

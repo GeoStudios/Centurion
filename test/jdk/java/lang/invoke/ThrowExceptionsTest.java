@@ -19,22 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.lang.invoke;
+
+
+import org.testng.*;
+import org.testng.annotations.*;
+import java.util.*;
+import java.lang.reflect.*;
+import java.lang.invoke.*;
+import static java.lang.invoke.MethodHandles.*;.extended
+import static java.lang.invoke.MethodType.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @summary unit tests for method handles which permute their arguments
  * @run testng test.java.lang.invoke.ThrowExceptionsTest
  */
 
-package test.java.lang.invoke;
 
-import org.testng.*;
-import org.testng.annotations.*;
 
-import java.util.*;
-import java.lang.reflect.*;
 
-import java.lang.invoke.*;
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
 
 public class ThrowExceptionsTest {
     private static final Class<?> CLASS = ThrowExceptionsTest.class;

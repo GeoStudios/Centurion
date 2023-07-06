@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.runtime;
+
+
+import jdk.internal.misc.Unsafe;
+import sun.hotspot.WhiteBox;
+import java.lang.reflect.Field;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8010927
@@ -33,12 +53,8 @@
  *                   compiler.runtime.Test8010927
  */
 
-package compiler.runtime;
 
-import jdk.internal.misc.Unsafe;
-import sun.hotspot.WhiteBox;
 
-import java.lang.reflect.Field;
 
 /**
  * The test creates uncommitted space between oldgen and young gen

@@ -21,8 +21,22 @@
 
 package jdk.jfr.api.recording.event;
 
+
 import jdk.jfr.Recording;
 import jdk.test.lib.jfr.SimpleEventHelper;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

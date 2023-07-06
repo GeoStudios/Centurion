@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package ntype;
+
+
+import java.lang.annotation.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 5008452
@@ -28,9 +46,7 @@
  * @compile NType.java
  */
 
-package ntype;
 
-import java.lang.annotation.*;
 
 @Retention(RetentionPolicy.RUNTIME)
 @interface NestedEnum1 {

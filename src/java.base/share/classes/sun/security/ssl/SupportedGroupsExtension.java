@@ -19,25 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.security.AlgorithmConstraints;
 import java.text.MessageFormat;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Locale;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import javax.net.ssl.SSLProtocolException;
-import sun.security.action.GetPropertyAction;
-import sun.security.ssl.NamedGroup.NamedGroupSpec;
-import static sun.security.ssl.SSLExtension.CH_SUPPORTED_GROUPS;
-import static sun.security.ssl.SSLExtension.EE_SUPPORTED_GROUPS;
-import sun.security.ssl.SSLExtension.ExtensionConsumer;
-import sun.security.ssl.SSLExtension.SSLExtensionSpec;
-import sun.security.ssl.SSLHandshake.HandshakeMessage;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.security.ssl.NamedGroup.NamedGroupSpec;
+import static java.base.share.classes.sun.security.ssl.SSLExtension.CH_SUPPORTED_GROUPS;.extended
+import static java.base.share.classes.sun.security.ssl.SSLExtension.EE_SUPPORTED_GROUPS;.extended
+import java.base.share.classes.sun.security.ssl.SSLExtension.ExtensionConsumer;
+import java.base.share.classes.sun.security.ssl.SSLExtension.SSLExtensionSpec;
+import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

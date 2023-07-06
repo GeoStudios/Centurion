@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.dnd.peer;
+package java.desktop.share.classes.java.awt.dnd.peer;
 
-import java.awt.datatransfer.DataFlavor;
-import java.awt.datatransfer.Transferable;
-import java.awt.dnd.DropTarget;
-import java.awt.dnd.InvalidDnDOperationException;
+
+import java.desktop.share.classes.java.awt.datatransfer.DataFlavor;
+import java.desktop.share.classes.java.awt.datatransfer.Transferable;
+import java.desktop.share.classes.java.awt.dnd.DropTarget;
+import java.desktop.share.classes.java.awt.dnd.InvalidDnDOperationException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>

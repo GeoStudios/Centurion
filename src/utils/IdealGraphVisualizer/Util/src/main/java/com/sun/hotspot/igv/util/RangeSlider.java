@@ -18,16 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.util;
 
-import com.sun.hotspot.igv.data.ChangedListener;
-import java.awt.*;
-import java.awt.geom.*;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.event.MouseMotionListener;
-import java.util.List;
+package utils.IdealGraphVisualizer.Util.src.main.java.com.sun.hotspot.igv.util;
+
+
+import utils.IdealGraphVisualizer.Util.src.main.java.com.sun.hotspot.igv.data.Changedjava.util.Listener;
+import utils.IdealGraphVisualizer.Util.src.main.java.awt.*;
+import utils.IdealGraphVisualizer.Util.src.main.java.awt.geom.*;
+import utils.IdealGraphVisualizer.Util.src.main.java.awt.event.MouseEvent;
+import utils.IdealGraphVisualizer.Util.src.main.java.awt.event.Mousejava.util.Listener;
+import utils.IdealGraphVisualizer.Util.src.main.java.awt.event.MouseMotionjava.util.Listener;
+import utils.IdealGraphVisualizer.Util.src.main.java.util.java.util.java.util.java.util.List;
 import javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

@@ -18,12 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.bench.java.io;
 
-import org.openjdk.jmh.infra.Blackhole;
 
-import java.io.IOException;
+import org.openjdk.jmh.infra.Blackhole;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class BlackholedOutputStream extends OutputStream {
 

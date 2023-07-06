@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import java.beans.BeanProperty;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.io.Serial;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+import java.desktop.share.classes.javax.accessibility.Accessible;
+import java.desktop.share.classes.javax.accessibility.AccessibleContext;
+import java.desktop.share.classes.javax.accessibility.AccessibleRole;
+import java.desktop.share.classes.javax.swing.plaf.ToolTipUI;
 
-import javax.accessibility.Accessible;
-import javax.accessibility.AccessibleContext;
-import javax.accessibility.AccessibleRole;
-import javax.swing.plaf.ToolTipUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Used to display a "Tip" for a Component. Typically components provide api

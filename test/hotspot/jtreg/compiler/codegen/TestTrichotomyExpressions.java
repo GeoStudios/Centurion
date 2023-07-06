@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codegen;
+
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+import java.lang.reflect.Method;
+import java.util.Random;
+import jdk.test.lib.Asserts;
+import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @key randomness
@@ -30,17 +55,8 @@
  *                   compiler.codegen.TestTrichotomyExpressions
  */
 
-package compiler.codegen;
 
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
-import java.lang.reflect.Method;
-import java.util.Random;
 
-import jdk.test.lib.Asserts;
-import jdk.test.lib.Utils;
 
 enum Operation { SMALLER, SMALLER_EQUAL, EQUAL, GREATER_EQUAL, GREATER, ALWAYS_FALSE }
 

@@ -21,9 +21,22 @@
 
 package catalog;
 
-import javax.xml.catalog.CatalogResolver;
 
+import javax.xml.catalog.CatalogResolver;
 import org.testng.Assert;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Utilities for checking catalog resolution.

@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.print;
+package java.desktop.share.classes.javax.print;
 
-import javax.print.attribute.PrintJobAttributeSet;
-import javax.print.attribute.PrintRequestAttributeSet;
-import javax.print.event.PrintJobAttributeListener;
-import javax.print.event.PrintJobListener;
+
+import java.desktop.share.classes.javax.print.attribute.PrintJobAttributeSet;
+import java.desktop.share.classes.javax.print.attribute.PrintRequestAttributeSet;
+import java.desktop.share.classes.javax.print.event.PrintJobAttributejava.util.Listener;
+import java.desktop.share.classes.javax.print.event.PrintJobjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface represents a print job that can print a specified document

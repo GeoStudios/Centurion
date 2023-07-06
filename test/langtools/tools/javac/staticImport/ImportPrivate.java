@@ -21,7 +21,21 @@
 
 package importPrivate;
 
-import static importPrivate.A.m;
+
+import static importPrivate.A.m;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class A {
     private static int m() {

@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci.compilerToVM;
+
+
+import jdk.test.lib.Asserts;
+import jdk.vm.ci.hotspot.CompilerToVMHelper;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8136421
@@ -40,10 +59,7 @@
  *                   compiler.jvmci.compilerToVM.CollectCountersTest
  */
 
-package compiler.jvmci.compilerToVM;
 
-import jdk.test.lib.Asserts;
-import jdk.vm.ci.hotspot.CompilerToVMHelper;
 
 public class CollectCountersTest {
     private static final int EXPECTED = Integer.getInteger(

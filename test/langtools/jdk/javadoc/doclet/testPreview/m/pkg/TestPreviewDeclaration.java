@@ -21,6 +21,21 @@
 
 package pkg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public sealed interface TestPreviewDeclaration permits Impl {
 }
 class Impl implements TestPreviewDeclaration {}

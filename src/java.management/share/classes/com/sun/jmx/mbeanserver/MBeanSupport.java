@@ -19,11 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.mbeanserver;
+package java.management.share.classes.com.sun.jmx.mbeanserver;
 
 
 import javax.management.Attribute;
-import javax.management.AttributeList;
+import javax.management.Attributejava.util.java.util.java.util.List;
 import javax.management.AttributeNotFoundException;
 import javax.management.InvalidAttributeValueException;
 import javax.management.MBeanException;
@@ -33,8 +33,22 @@ import javax.management.MBeanServer;
 import javax.management.NotCompliantMBeanException;
 import javax.management.ObjectName;
 import javax.management.ReflectionException;
-import com.sun.jmx.mbeanserver.MXBeanMappingFactory;
-import sun.reflect.misc.ReflectUtil;
+import java.management.share.classes.com.sun.jmx.mbeanserver.MXBeanMappingFactory;
+import java.management.share.classes.com.sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base class for MBeans.  There is one instance of this class for

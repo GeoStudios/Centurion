@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdb.hidden_class.hc001;
+
+
+import java.io.*;
+import java.util.*;
+import nsk.share.*;
+import nsk.share.jdb.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @summary JDB test for hidden classes
@@ -41,12 +62,7 @@
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
 
-package nsk.jdb.hidden_class.hc001;
 
-import java.io.*;
-import java.util.*;
-import nsk.share.*;
-import nsk.share.jdb.*;
 
 public class hc001 extends JdbTest {
     static final String DEBUGGEE_CLASS    = hc001a.class.getTypeName();

@@ -19,27 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.concurrent;
+package java.base.share.classes.java.util.concurrent;
 
-import java.lang.invoke.VarHandle;
-import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Comparator;
-import java.util.ConcurrentModificationException;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.NoSuchElementException;
-import java.util.Objects;
-import java.util.RandomAccess;
-import java.util.Spliterator;
-import java.util.Spliterators;
-import java.util.function.Consumer;
-import java.util.function.Predicate;
-import java.util.function.UnaryOperator;
-import jdk.internal.access.SharedSecrets;
+
+import java.base.share.classes.java.lang.invoke.VarHandle;
+import java.base.share.classes.java.lang.reflect.Field;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.Collection;
+import java.base.share.classes.java.util.Comparator;
+import java.base.share.classes.java.util.ConcurrentModificationException;
+import java.base.share.classes.java.util.Iterator;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.java.util.ListIterator;
+import java.base.share.classes.java.util.NoSuchElementException;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.RandomAccess;
+import java.base.share.classes.java.util.Spliterator;
+import java.base.share.classes.java.util.Spliterators;
+import java.base.share.classes.java.util.function.Consumer;
+import java.base.share.classes.java.util.function.Predicate;
+import java.base.share.classes.java.util.function.UnaryOperator;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A thread-safe variant of {@link java.util.ArrayList} in which all mutative

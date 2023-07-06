@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.sql.rowset.spi;
+package java.sql.rowset.share.classes.javax.sql.rowset.spi;
 
-import javax.sql.RowSet;
+
+import java.sql.rowset.share.classes.javax.sql.RowSet;
 import java.sql.SQLException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines a framework that allows applications to use a manual decision tree

@@ -19,36 +19,48 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.formats.html;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-import java.util.List;
-import java.util.ListIterator;
+
+import java.util.java.util.java.util.java.util.List;
+import java.util.java.util.ListIterator;
 import java.util.SortedSet;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ElementKind;
 import javax.lang.model.element.ModuleElement;
 import javax.lang.model.element.PackageElement;
 import javax.lang.model.element.TypeElement;
-
 import com.sun.source.doctree.DeprecatedTree;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.BodyContents;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.ContentBuilder;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.Entity;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.HtmlStyle;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.TagName;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.HtmlTree;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.Navigation.PageMode;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.Text;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFilejava.io.java.io.java.io.IOException;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPath;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPaths;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.IndexBuilder;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.IndexItem;
 
-import jdk.javadoc.internal.doclets.formats.html.markup.BodyContents;
-import jdk.javadoc.internal.doclets.formats.html.markup.ContentBuilder;
-import jdk.javadoc.internal.doclets.formats.html.markup.Entity;
-import jdk.javadoc.internal.doclets.formats.html.markup.HtmlStyle;
-import jdk.javadoc.internal.doclets.formats.html.markup.TagName;
-import jdk.javadoc.internal.doclets.formats.html.markup.HtmlTree;
-import jdk.javadoc.internal.doclets.formats.html.Navigation.PageMode;
-import jdk.javadoc.internal.doclets.formats.html.markup.Text;
-import jdk.javadoc.internal.doclets.toolkit.Content;
-import jdk.javadoc.internal.doclets.toolkit.util.DocFileIOException;
-import jdk.javadoc.internal.doclets.toolkit.util.DocPath;
-import jdk.javadoc.internal.doclets.toolkit.util.DocPaths;
-import jdk.javadoc.internal.doclets.toolkit.util.IndexBuilder;
-import jdk.javadoc.internal.doclets.toolkit.util.IndexItem;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Generator for either a single index or split index for all

@@ -18,24 +18,37 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.java2d.metal;
 
-import sun.java2d.SunGraphics2D;
-import sun.java2d.SurfaceData;
-import sun.java2d.loops.CompositeType;
+package java.desktop.macosx.classes.sun.java2d.metal;
 
+
+import java.desktop.macosx.classes.sun.java2d.SunGraphics2D;
+import java.desktop.macosx.classes.sun.java2d.SurfaceData;
+import java.desktop.macosx.classes.sun.java2d.loops.CompositeType;
 import java.awt.LinearGradientPaint;
 import java.awt.MultipleGradientPaint;
 import java.awt.TexturePaint;
-
 import java.awt.MultipleGradientPaint.ColorSpaceType;
 import java.awt.MultipleGradientPaint.CycleMethod;
 import java.awt.image.BufferedImage;
 import java.util.HashMap;
 import java.util.Map;
+import static java.desktop.macosx.classes.sun.java2d.metal.MTLContext.MTLContextCaps.CAPS_EXT_GRAD_SHADER;.extended
+import static java.desktop.macosx.classes.sun.java2d.pipe.BufferedPaints.MULTI_MAX_FRACTIONS;.extended
 
-import static sun.java2d.metal.MTLContext.MTLContextCaps.CAPS_EXT_GRAD_SHADER;
-import static sun.java2d.pipe.BufferedPaints.MULTI_MAX_FRACTIONS;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class MTLPaints {
 

@@ -19,22 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt;
+package java.desktop.macosx.classes.sun.lwawt;
+
 
 import java.awt.*;
-import java.awt.List;
+import java.awt.java.util.java.util.java.util.List;
 import java.awt.datatransfer.*;
 import java.awt.dnd.DropTarget;
 import java.awt.image.*;
 import java.awt.peer.*;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.util.*;
+import java.desktop.macosx.classes.sun.awt.*;
+import java.desktop.macosx.classes.sun.print.*;
+import java.desktop.macosx.classes.sun.awt.util.ThreadGroupUtils;
+import static java.desktop.macosx.classes.sun.lwawt.LWWindowPeer.PeerType;.extended
 
-import sun.awt.*;
-import sun.print.*;
-import sun.awt.util.ThreadGroupUtils;
 
-import static sun.lwawt.LWWindowPeer.PeerType;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class LWToolkit extends SunToolkit implements Runnable {
 

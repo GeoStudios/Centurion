@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.jpeg;
+package java.desktop.share.classes.com.sun.imageio.plugins.jpeg;
+
 
 import java.awt.Dimension;
 import java.awt.Rectangle;
@@ -35,12 +36,11 @@ import java.awt.image.IndexColorModel;
 import java.awt.image.Raster;
 import java.awt.image.RenderedImage;
 import java.awt.image.WritableRaster;
-import java.io.IOException;
-import java.util.ArrayList;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
-import java.util.List;
-
-import javax.imageio.IIOException;
+import java.util.java.util.java.util.java.util.List;
+import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import javax.imageio.IIOImage;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.ImageWriteParam;
@@ -53,11 +53,24 @@ import javax.imageio.plugins.jpeg.JPEGImageWriteParam;
 import javax.imageio.plugins.jpeg.JPEGQTable;
 import javax.imageio.spi.ImageWriterSpi;
 import javax.imageio.stream.ImageOutputStream;
-
-import com.sun.imageio.plugins.common.ImageUtil;
+import java.desktop.share.classes.com.sun.imageio.plugins.common.ImageUtil;
 import org.w3c.dom.Node;
-import sun.java2d.Disposer;
-import sun.java2d.DisposerRecord;
+import java.desktop.share.classes.com.sun.java2d.Disposer;
+import java.desktop.share.classes.com.sun.java2d.DisposerRecord;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JPEGImageWriter extends ImageWriter {
 

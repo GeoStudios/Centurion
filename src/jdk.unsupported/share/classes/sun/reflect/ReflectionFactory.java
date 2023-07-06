@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.reflect;
+package jdk.unsupported.share.classes.sun.reflect;
+
 
 import java.io.OptionalDataException;
 import java.lang.invoke.MethodHandle;
@@ -28,6 +29,20 @@ import java.lang.reflect.InvocationTargetException;
 import java.security.AccessController;
 import java.security.Permission;
 import java.security.PrivilegedAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ReflectionFactory supports custom serialization.

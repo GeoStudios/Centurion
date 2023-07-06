@@ -18,27 +18,43 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.util.stream;
 
-import java.util.LongSummaryStatistics;
-import java.util.Objects;
-import java.util.OptionalDouble;
-import java.util.OptionalLong;
-import java.util.PrimitiveIterator;
-import java.util.Spliterator;
-import java.util.Spliterators;
-import java.util.function.BiConsumer;
-import java.util.function.BinaryOperator;
-import java.util.function.IntFunction;
-import java.util.function.LongBinaryOperator;
-import java.util.function.LongConsumer;
-import java.util.function.LongFunction;
-import java.util.function.LongPredicate;
-import java.util.function.LongToDoubleFunction;
-import java.util.function.LongToIntFunction;
-import java.util.function.LongUnaryOperator;
-import java.util.function.ObjLongConsumer;
-import java.util.function.Supplier;
+package java.base.share.classes.java.util.stream;
+
+
+import java.base.share.classes.java.util.LongSummaryStatistics;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.OptionalDouble;
+import java.base.share.classes.java.util.OptionalLong;
+import java.base.share.classes.java.util.PrimitiveIterator;
+import java.base.share.classes.java.util.Spliterator;
+import java.base.share.classes.java.util.Spliterators;
+import java.base.share.classes.java.util.function.BiConsumer;
+import java.base.share.classes.java.util.function.BinaryOperator;
+import java.base.share.classes.java.util.function.IntFunction;
+import java.base.share.classes.java.util.function.LongBinaryOperator;
+import java.base.share.classes.java.util.function.LongConsumer;
+import java.base.share.classes.java.util.function.LongFunction;
+import java.base.share.classes.java.util.function.LongPredicate;
+import java.base.share.classes.java.util.function.LongToDoubleFunction;
+import java.base.share.classes.java.util.function.LongToIntFunction;
+import java.base.share.classes.java.util.function.LongUnaryOperator;
+import java.base.share.classes.java.util.function.ObjLongConsumer;
+import java.base.share.classes.java.util.function.Supplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract base class for an intermediate pipeline stage or pipeline source

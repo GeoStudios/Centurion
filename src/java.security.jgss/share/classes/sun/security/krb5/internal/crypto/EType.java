@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal.crypto;
+package java.security.jgss.share.classes.sun.security.krb5.internal.crypto;
 
-import sun.security.krb5.internal.*;
-import sun.security.krb5.Config;
-import sun.security.krb5.EncryptedData;
-import sun.security.krb5.EncryptionKey;
-import sun.security.krb5.KrbException;
-import sun.security.krb5.KrbCryptoException;
-import javax.crypto.*;
-import java.util.Arrays;
-import java.util.List;
-import java.util.ArrayList;
+
+import java.security.jgss.share.classes.sun.security.krb5.internal.*;
+import java.security.jgss.share.classes.sun.security.krb5.Config;
+import java.security.jgss.share.classes.sun.security.krb5.EncryptedData;
+import java.security.jgss.share.classes.sun.security.krb5.EncryptionKey;
+import java.security.jgss.share.classes.sun.security.krb5.KrbException;
+import java.security.jgss.share.classes.sun.security.krb5.KrbCryptoException;
+import java.base.share.classes.javax.crypto.*;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //only needed if dataSize() implementation changes back to spec;
 //see dataSize() below

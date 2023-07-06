@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.protocol.file;
+package java.base.windows.classes.sun.net.www.protocol.file;
+
 
 import java.io.File;
 import java.io.FilePermission;
 import java.net.URL;
 import java.security.Permission;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class UNCFileURLConnection extends FileURLConnection {
 

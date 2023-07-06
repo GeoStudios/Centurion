@@ -19,16 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.metal;
+package java.desktop.macosx.classes.sun.java2d.metal;
 
-import sun.java2d.pipe.BufferedContext;
-import sun.java2d.pipe.RenderBuffer;
-import sun.java2d.pipe.RenderQueue;
-import sun.java2d.pipe.hw.ContextCapabilities;
 
+import java.desktop.macosx.classes.sun.java2d.pipe.BufferedContext;
+import java.desktop.macosx.classes.sun.java2d.pipe.RenderBuffer;
+import java.desktop.macosx.classes.sun.java2d.pipe.RenderQueue;
+import java.desktop.macosx.classes.sun.java2d.pipe.hw.ContextCapabilities;
 import java.lang.annotation.Native;
+import static java.desktop.macosx.classes.sun.java2d.pipe.BufferedOpCodes.SET_SCRATCH_SURFACE;.extended
 
-import static sun.java2d.pipe.BufferedOpCodes.SET_SCRATCH_SURFACE;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Note that the RenderQueue lock must be acquired before calling any of

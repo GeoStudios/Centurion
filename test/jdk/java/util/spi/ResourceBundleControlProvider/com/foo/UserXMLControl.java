@@ -21,10 +21,24 @@
 
 package com.foo;
 
+
 import java.io.*;
 import java.net.*;
 import java.util.*;
-import static java.util.ResourceBundle.Control.*;
+import static java.util.ResourceBundle.Control.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class UserXMLControl extends ResourceBundle.Control {
     @Override

@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.jaxp.validation;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.validation;
+
 
 import java.lang.ref.Reference;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.SoftReference;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.Grammar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLSchemaDescription;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarPool;
 
-import com.sun.org.apache.xerces.internal.xni.grammars.Grammar;
-import com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription;
-import com.sun.org.apache.xerces.internal.xni.grammars.XMLSchemaDescription;
-import com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarPool;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>This grammar pool is a memory sensitive cache. The grammars
@@ -46,10 +60,10 @@ final class SoftReferenceGrammarPool implements XMLGrammarPool {
     //
 
     /** Default size. */
-    protected static final int TABLE_SIZE = 11;
+    private static final int TABLE_SIZE = 11;
 
     /** Zero length grammar array. */
-    protected static final Grammar [] ZERO_LENGTH_GRAMMAR_ARRAY = new Grammar [0];
+    private static final Grammar [] ZERO_LENGTH_GRAMMAR_ARRAY = new Grammar [0];
 
     //
     // Data
@@ -59,13 +73,13 @@ final class SoftReferenceGrammarPool implements XMLGrammarPool {
     private Entry [] fGrammars = null;
 
     /** Flag indicating whether this pool is locked */
-    protected boolean fPoolIsLocked;
+    private boolean fPoolIsLocked;
 
     /** The number of grammars in the pool */
-    protected int fGrammarCount = 0;
+    private int fGrammarCount = 0;
 
     /** Reference queue for cleared grammar references */
-    protected final ReferenceQueue<Grammar> fReferenceQueue = new ReferenceQueue<>();
+    private final ReferenceQueue<Grammar> fReferenceQueue = new ReferenceQueue<>();
 
     //
     // Constructors
@@ -400,7 +414,7 @@ final class SoftReferenceGrammarPool implements XMLGrammarPool {
 
         // clear this entry; useful to promote garbage collection
         // since reduces reference count of objects to be destroyed
-        protected void clear () {
+        private void clear() {
             desc = null;
             grammar = null;
             if(next != null) {

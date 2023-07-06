@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.stringopts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8237950
@@ -26,7 +43,6 @@
  * @run main/othervm -Xbatch compiler.stringopts.TestLongStringConcat
  */
 
-package compiler.stringopts;
 
 public class TestLongStringConcat {
 

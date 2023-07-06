@@ -19,51 +19,64 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.source.util;
+package jdk.compiler.share.classes.com.sun.source.util;
 
-import java.util.List;
 
+import java.util.java.util.java.util.java.util.List;
 import javax.lang.model.element.Name;
 import javax.tools.Diagnostic;
 import javax.tools.JavaFileObject;
+import jdk.compiler.share.classes.com.sun.source.doctree.AttributeTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.AttributeTree.ValueKind;
+import jdk.compiler.share.classes.com.sun.source.doctree.AuthorTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.CommentTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.DeprecatedTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.DocCommentTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.DocRootTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.DocTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.DocTypeTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.EndElementTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.EntityTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.ErroneousTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.HiddenTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.IdentifierTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.IndexTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.InheritDocTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.LinkTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.LiteralTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.ParamTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.ProvidesTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.ReferenceTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.ReturnTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.SeeTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.SerialDataTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.SerialFieldTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.SerialTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.SinceTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.StartElementTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.SummaryTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.SystemPropertyTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.TextTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.ThrowsTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.UnknownBlockTagTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.UnknownInlineTagTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.UsesTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.ValueTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.VersionTree;
 
-import com.sun.source.doctree.AttributeTree;
-import com.sun.source.doctree.AttributeTree.ValueKind;
-import com.sun.source.doctree.AuthorTree;
-import com.sun.source.doctree.CommentTree;
-import com.sun.source.doctree.DeprecatedTree;
-import com.sun.source.doctree.DocCommentTree;
-import com.sun.source.doctree.DocRootTree;
-import com.sun.source.doctree.DocTree;
-import com.sun.source.doctree.DocTypeTree;
-import com.sun.source.doctree.EndElementTree;
-import com.sun.source.doctree.EntityTree;
-import com.sun.source.doctree.ErroneousTree;
-import com.sun.source.doctree.HiddenTree;
-import com.sun.source.doctree.IdentifierTree;
-import com.sun.source.doctree.IndexTree;
-import com.sun.source.doctree.InheritDocTree;
-import com.sun.source.doctree.LinkTree;
-import com.sun.source.doctree.LiteralTree;
-import com.sun.source.doctree.ParamTree;
-import com.sun.source.doctree.ProvidesTree;
-import com.sun.source.doctree.ReferenceTree;
-import com.sun.source.doctree.ReturnTree;
-import com.sun.source.doctree.SeeTree;
-import com.sun.source.doctree.SerialDataTree;
-import com.sun.source.doctree.SerialFieldTree;
-import com.sun.source.doctree.SerialTree;
-import com.sun.source.doctree.SinceTree;
-import com.sun.source.doctree.StartElementTree;
-import com.sun.source.doctree.SummaryTree;
-import com.sun.source.doctree.SystemPropertyTree;
-import com.sun.source.doctree.TextTree;
-import com.sun.source.doctree.ThrowsTree;
-import com.sun.source.doctree.UnknownBlockTagTree;
-import com.sun.source.doctree.UnknownInlineTagTree;
-import com.sun.source.doctree.UsesTree;
-import com.sun.source.doctree.ValueTree;
-import com.sun.source.doctree.VersionTree;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Factory for creating {@code DocTree} nodes.

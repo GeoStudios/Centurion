@@ -19,20 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jgss.krb5;
+package java.security.jgss.share.classes.sun.security.jgss.krb5;
+
 
 import org.ietf.jgss.*;
 import javax.security.auth.kerberos.DelegationPermission;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.InetAddress;
 import java.net.Inet4Address;
 import java.net.Inet6Address;
 import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.util.Arrays;
-import sun.security.krb5.*;
-import sun.security.krb5.internal.Krb5;
-import sun.security.jgss.krb5.internal.TlsChannelBindingImpl;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.util.Arrays;
+import java.security.jgss.share.classes.sun.security.krb5.*;
+import java.security.jgss.share.classes.sun.security.krb5.internal.Krb5;
+import java.security.jgss.share.classes.sun.security.jgss.krb5.internal.TlsChannelBindingImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class InitialToken extends Krb5Token {
 

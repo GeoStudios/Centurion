@@ -19,14 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.macosx.classes.sun.lwawt;
 
-package sun.lwawt;
 
 import java.awt.Component;
 import java.awt.Graphics;
+import java.desktop.macosx.classes.sun.awt.AWTAccessor;
+import java.desktop.macosx.classes.sun.awt.RepaintArea;
 
-import sun.awt.AWTAccessor;
-import sun.awt.RepaintArea;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Emulates appearance of heavyweight components before call of the user code.

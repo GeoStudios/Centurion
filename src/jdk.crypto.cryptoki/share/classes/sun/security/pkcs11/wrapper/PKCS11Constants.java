@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs11.wrapper;
+package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface holds constants of the PKCS#11 v3.00 standard.

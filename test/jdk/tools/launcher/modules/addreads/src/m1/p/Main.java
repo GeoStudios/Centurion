@@ -21,7 +21,21 @@
 
 package p;
 
-import static org.junit.Assert.assertEquals;
+
+import static org.junit.Assert.assertEquals;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Main {
     public static void main(String[] args) {

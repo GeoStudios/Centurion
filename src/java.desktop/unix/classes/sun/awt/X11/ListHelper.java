@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseWheelEvent;
 import java.awt.event.AdjustmentEvent;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
-import sun.util.logging.PlatformLogger;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // FIXME: implement multi-select
 /*
@@ -451,7 +466,7 @@ final class ListHelper implements XScrollbarClient {
             g.dispose();
 
         }
-        else if ((XHorizontalScrollbar)obj == hsb) {
+        else if (obj == hsb) {
             hsb.setValue(v);
             // FIXME: how are we going to paint!?
         }

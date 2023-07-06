@@ -18,8 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.jvmti.scenarios.hotswap.HS204.hs204t001;
+
+
 import java.util.concurrent.atomic.AtomicBoolean;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class hs204t001R extends Thread {
       static public AtomicBoolean suspend = new AtomicBoolean(false);
       static public AtomicBoolean run = new AtomicBoolean(true);

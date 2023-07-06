@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package qualifiedNewScope;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4406269
@@ -28,7 +45,6 @@
  * @compile QualifiedNewScope.java
  */
 
-package qualifiedNewScope;
 
 class A {
     class B {

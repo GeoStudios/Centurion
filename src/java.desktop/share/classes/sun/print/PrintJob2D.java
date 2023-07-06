@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.share.classes.sun.print;
+
 
 import java.awt.Dimension;
 import java.awt.Frame;
@@ -30,23 +31,18 @@ import java.awt.JobAttributes;
 import java.awt.JobAttributes.*;
 import java.awt.PageAttributes;
 import java.awt.PageAttributes.*;
-
 import java.awt.print.PageFormat;
 import java.awt.print.Paper;
 import java.awt.print.Printable;
 import java.awt.print.PrinterException;
 import java.awt.print.PrinterJob;
-
 import java.io.File;
 import java.io.FilePermission;
-import java.io.IOException;
-
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
-
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Properties;
-
 import javax.print.PrintService;
 import javax.print.attribute.HashPrintRequestAttributeSet;
 import javax.print.attribute.PrintRequestAttributeSet;
@@ -67,9 +63,22 @@ import javax.print.attribute.standard.Media;
 import javax.print.attribute.standard.OrientationRequested;
 import javax.print.attribute.standard.MediaSizeName;
 import javax.print.attribute.standard.PageRanges;
+import java.desktop.share.classes.sun.print.SunPageSelection;
+import java.desktop.share.classes.sun.print.SunMinMaxPage;
 
-import sun.print.SunPageSelection;
-import sun.print.SunMinMaxPage;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class which initiates and executes a print job using

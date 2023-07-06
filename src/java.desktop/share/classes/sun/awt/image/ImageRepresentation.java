@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.image;
+package java.desktop.share.classes.sun.awt.image;
+
 
 import java.awt.Color;
 import java.awt.Graphics;
@@ -32,16 +33,30 @@ import java.awt.image.DirectColorModel;
 import java.awt.image.IndexColorModel;
 import java.awt.image.ImageConsumer;
 import java.awt.image.ImageObserver;
-import sun.awt.image.ByteComponentRaster;
-import sun.awt.image.IntegerComponentRaster;
+import java.desktop.share.classes.sun.awt.image.ByteComponentRaster;
+import java.desktop.share.classes.sun.awt.image.IntegerComponentRaster;
 import java.awt.image.Raster;
 import java.awt.image.WritableRaster;
 import java.awt.image.DataBuffer;
 import java.awt.image.DataBufferInt;
 import java.awt.Graphics2D;
 import java.awt.geom.AffineTransform;
-import sun.awt.image.ImageWatched;
+import java.desktop.share.classes.sun.awt.image.ImageWatched;
 import java.util.Hashtable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ImageRepresentation extends ImageWatched implements ImageConsumer
 {

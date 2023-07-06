@@ -21,17 +21,28 @@
 
 package nsk.jdi.ModificationWatchpointEvent.valueToBe;
 
+
 import com.sun.jdi.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
-
 import java.io.*;
 import java.util.Iterator;
-import java.util.List;
-
+import java.util.java.util.java.util.java.util.List;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // This class is the debugger in the test

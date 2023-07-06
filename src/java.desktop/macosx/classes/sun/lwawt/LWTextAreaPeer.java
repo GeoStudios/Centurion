@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt;
+package java.desktop.macosx.classes.sun.lwawt;
+
 
 import java.awt.Component;
 import java.awt.Cursor;
@@ -29,15 +30,27 @@ import java.awt.Point;
 import java.awt.TextArea;
 import java.awt.event.TextEvent;
 import java.awt.peer.TextAreaPeer;
-
 import javax.swing.JScrollBar;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.ScrollPaneConstants;
 import javax.swing.TransferHandler;
 import javax.swing.text.Document;
+import java.desktop.macosx.classes.sun.awt.AWTAccessor;
 
-import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Lightweight implementation of {@link TextAreaPeer}. Delegates most of the

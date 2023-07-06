@@ -18,17 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.drivers.windows;
+
 
 import java.awt.Frame;
 import java.awt.Window;
 import java.awt.event.WindowEvent;
-
 import org.netbeans.jemmy.drivers.FrameDriver;
 import org.netbeans.jemmy.drivers.LightSupportiveDriver;
 import org.netbeans.jemmy.drivers.input.EventDriver;
 import org.netbeans.jemmy.operators.ComponentOperator;
 import org.netbeans.jemmy.operators.FrameOperator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class DefaultFrameDriver extends LightSupportiveDriver implements FrameDriver {
 

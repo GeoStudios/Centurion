@@ -18,13 +18,14 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text.html.parser;
+
+package java.desktop.share.classes.javax.swing.text.html.parser;
+
 
 import sun.awt.AppContext;
-
-import javax.swing.text.html.HTMLEditorKit;
+import java.desktop.share.classes.javax.swing.text.html.HTMLEditorKit;
 import java.io.BufferedInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.DataInputStream;
 import java.io.ObjectInputStream;
@@ -33,6 +34,20 @@ import java.io.Serial;
 import java.io.Serializable;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Responsible for starting up a new DocumentParser

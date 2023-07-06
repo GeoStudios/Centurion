@@ -19,28 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap;
+package java.naming.share.classes.com.sun.jndi.ldap;
+
 
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.spi.DirectoryManager;
 import javax.naming.spi.DirStateFactory;
-
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.ObjectStreamClass;
 import java.io.InputStream;
-
 import java.util.Base64;
 import java.util.Hashtable;
 import java.util.Vector;
 import java.util.StringTokenizer;
-
 import java.lang.reflect.Proxy;
 import java.lang.reflect.Modifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * Class containing static methods and constants for dealing with
@@ -51,7 +63,7 @@ final class Obj {
 
     private Obj () {} // Make sure no one can create one
 
-    // package private; used by Connection
+    //  used by Connection
     static VersionHelper helper = VersionHelper.getVersionHelper();
 
     // LDAP attributes used to support Java objects.

@@ -19,19 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.security.auth.callback;
+package jdk.security.auth.share.classes.com.sun.security.auth.callback;
 
-/* JAAS imports */
+
 import javax.security.auth.callback.Callback;
 import javax.security.auth.callback.CallbackHandler;
-import javax.security.auth.callback.NameCallback;        // javadoc
-import javax.security.auth.callback.PasswordCallback;    // javadoc
+import javax.security.auth.callback.NameCallback;        // javadoc.extended
+import javax.security.auth.callback.PasswordCallback;    // javadoc.extended
 import javax.security.auth.callback.UnsupportedCallbackException;
+import java.io.java.io.java.io.java.io.IOException;
+import jdk.security.auth.share.classes.com.sun.security.util.ConsoleCallbackHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* JAAS imports */
 
 /* Java imports */
-import java.io.IOException;
 
-import sun.security.util.ConsoleCallbackHandler;
 
 /**
  * Prompts and reads from the command line for answers to authentication

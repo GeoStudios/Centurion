@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.runtime.posix;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.posix;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class POSIXSignals {
   private static final String[] signalNames = {

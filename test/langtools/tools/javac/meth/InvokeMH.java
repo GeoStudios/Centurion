@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package meth;
+
+
+import java.lang.invoke.MethodHandle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6754038 6979327
@@ -38,9 +56,7 @@
  * </code>
  */
 
-package meth;
 
-import java.lang.invoke.MethodHandle;
 
 public class InvokeMH {
     void test(MethodHandle mh_SiO,

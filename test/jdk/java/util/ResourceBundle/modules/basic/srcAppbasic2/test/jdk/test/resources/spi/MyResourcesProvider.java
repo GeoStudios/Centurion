@@ -22,9 +22,22 @@
 package jdk.test.resources.spi;
 
 
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.ResourceBundle;
 import java.util.spi.AbstractResourceBundleProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class MyResourcesProvider extends AbstractResourceBundleProvider {
     protected MyResourcesProvider(String... formats) {

@@ -20,6 +20,22 @@
  */
 
 package example;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class ServiceImpl implements example.SomeService {
     public ServiceImpl() {}
     public void foo() {}

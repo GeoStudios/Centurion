@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.metal;
+package java.desktop.share.classes.javax.swing.plaf.metal;
 
-import javax.swing.plaf.*;
-import javax.swing.plaf.basic.*;
-import javax.swing.plaf.metal.*;
-import javax.swing.*;
-import javax.swing.border.*;
+
+import java.desktop.share.classes.javax.swing.plaf.*;
+import java.desktop.share.classes.javax.swing.plaf.basic.*;
+import java.desktop.share.classes.javax.swing.plaf.metal.*;
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.border.*;
 import java.awt.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A high contrast theme. This is used on Windows if the system property

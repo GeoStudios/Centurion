@@ -19,9 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.image.renderable;
-import java.awt.geom.Rectangle2D;
-import java.awt.image.RenderedImage;
+package java.desktop.share.classes.java.awt.image.renderable;
+
+
+import java.desktop.share.classes.java.awt.geom.Rectangle2D;
+import java.desktop.share.classes.java.awt.image.RenderedImage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ContextualRenderedImageFactory provides an interface for the

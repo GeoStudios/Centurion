@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.hashcode.HashCodeTestC;
+
+
+import gc.hashcode.HCHelper;
+import nsk.share.TestFailure;
+import nsk.share.gc.GC;
+import nsk.share.gc.GCTestBase;
+import nsk.share.test.Stresser;
+import nsk.share.gc.gp.GarbageUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -38,14 +61,7 @@
  * @run main/othervm -XX:-UseGCOverheadLimit gc.hashcode.HashCodeTestC.HashCodeTestC
  */
 
-package gc.hashcode.HashCodeTestC;
 
-import gc.hashcode.HCHelper;
-import nsk.share.TestFailure;
-import nsk.share.gc.GC;
-import nsk.share.gc.GCTestBase;
-import nsk.share.test.Stresser;
-import nsk.share.gc.gp.GarbageUtils;
 
 /**
  * Test that verifies external hash codes. This class tests the scenario

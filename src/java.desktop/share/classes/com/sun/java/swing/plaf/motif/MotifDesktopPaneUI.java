@@ -19,17 +19,17 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.motif;
+package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Insets;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.io.Serializable;
 
+import java.desktop.share.classes.com.sun.java.awt.Color;
+import java.desktop.share.classes.com.sun.java.awt.Component;
+import java.desktop.share.classes.com.sun.java.awt.Dimension;
+import java.desktop.share.classes.com.sun.java.awt.Graphics;
+import java.desktop.share.classes.com.sun.java.awt.Insets;
+import java.desktop.share.classes.com.sun.java.awt.Point;
+import java.desktop.share.classes.com.sun.java.awt.Rectangle;
+import java.desktop.share.classes.com.sun.java.io.Serializable;
 import javax.swing.DefaultDesktopManager;
 import javax.swing.JComponent;
 import javax.swing.JDesktopPane;
@@ -38,6 +38,20 @@ import javax.swing.JLayeredPane;
 import javax.swing.SwingUtilities;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.UIResource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Motif desktop pane.

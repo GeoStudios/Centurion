@@ -21,9 +21,23 @@
 
 package jdk.test.lib.security.timestamp;
 
-import java.security.PrivateKey;
+
+import java.base.share.classes.java.security.PrivateKey;
 import java.security.cert.X509Certificate;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A carrier for the TSA signer private key and certificate chain.

@@ -19,13 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.remote.internal;
+package java.management.share.classes.com.sun.jmx.remote.internal;
+
 
 import javax.management.NotificationFilter;
-import javax.management.NotificationListener;
+import javax.management.Notificationjava.util.Listener;
 import javax.management.ObjectName;
-
 import javax.security.auth.Subject;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

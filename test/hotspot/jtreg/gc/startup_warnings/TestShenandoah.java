@@ -21,6 +21,23 @@
 
 package gc.startup_warnings;
 
+
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.process.OutputAnalyzer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 * @test TestShenandoah
 * @requires vm.gc.Shenandoah
@@ -32,8 +49,6 @@ package gc.startup_warnings;
 * @run driver gc.startup_warnings.TestShenandoah
 */
 
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.process.OutputAnalyzer;
 
 public class TestShenandoah {
 

@@ -21,6 +21,25 @@
 
 package gc;
 
+
+import java.lang.ref.Reference;
+import java.lang.ref.ReferenceQueue;
+import java.lang.ref.WeakReference;
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @bug 8256517
  * @requires vm.gc.Z | vm.gc.Shenandoah
@@ -34,10 +53,6 @@ package gc;
  *      gc.TestReferenceClearDuringReferenceProcessing
  */
 
-import java.lang.ref.Reference;
-import java.lang.ref.ReferenceQueue;
-import java.lang.ref.WeakReference;
-import sun.hotspot.WhiteBox;
 
 public class TestReferenceClearDuringReferenceProcessing {
     private static final WhiteBox WB = WhiteBox.getWhiteBox();

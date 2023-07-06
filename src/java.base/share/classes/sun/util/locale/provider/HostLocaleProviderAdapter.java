@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.util.locale.provider;
+package java.base.share.classes.sun.util.locale.provider;
+
 
 import java.lang.reflect.InvocationTargetException;
 import java.text.DecimalFormat;
 import java.util.ServiceConfigurationError;
 import java.util.spi.LocaleServiceProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * LocaleProviderAdapter implementation for the host locale data.

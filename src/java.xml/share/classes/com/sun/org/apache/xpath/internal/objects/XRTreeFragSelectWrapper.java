@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xpath.internal.objects;
+package java.xml.share.classes.com.sun.org.apache.xpath.internal.objects;
 
-import com.sun.org.apache.xalan.internal.res.XSLMessages;
-import com.sun.org.apache.xml.internal.dtm.DTMIterator;
-import com.sun.org.apache.xml.internal.utils.QName;
-import com.sun.org.apache.xml.internal.utils.XMLString;
-import com.sun.org.apache.xpath.internal.Expression;
-import com.sun.org.apache.xpath.internal.XPathContext;
-import com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
-import java.util.List;
+
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMIterator;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLString;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.Expression;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class makes an select statement act like an result tree fragment.

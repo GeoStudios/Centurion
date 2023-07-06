@@ -19,26 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac.comp;
+package jdk.compiler.share.classes.com.sun.tools.sjavac.comp;
 
-import static javax.lang.model.element.Modifier.PRIVATE;
 
-import java.util.List;
+import static javax.lang.model.element.Modifier.PRIVATE;.extended
+import java.util.java.util.java.util.java.util.List;
 import java.util.stream.Collectors;
-
 import javax.lang.model.element.*;
 import javax.lang.model.type.TypeMirror;
 import javax.lang.model.util.ElementScanner14;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ClassSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.pubapi.PubApi;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.pubapi.PubApiTypeParam;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.pubapi.PubMethod;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.pubapi.PubType;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.pubapi.PubVar;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.pubapi.TypeDesc;
 
-import com.sun.tools.javac.code.Symbol.ClassSymbol;
-import com.sun.tools.javac.util.DefinedBy;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.sjavac.pubapi.PubApi;
-import com.sun.tools.sjavac.pubapi.PubApiTypeParam;
-import com.sun.tools.sjavac.pubapi.PubMethod;
-import com.sun.tools.sjavac.pubapi.PubType;
-import com.sun.tools.sjavac.pubapi.PubVar;
-import com.sun.tools.sjavac.pubapi.TypeDesc;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Utility class that constructs a textual representation
  * of the public api of a class.

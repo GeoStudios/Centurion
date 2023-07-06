@@ -19,23 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
+
 
 import java.net.ProtocolException;
 import java.nio.BufferUnderflowException;
 import java.nio.ByteBuffer;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.net.http.HttpHeaders;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+import static java.lang.String.format;.extended
+import static java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.ACCEPT_ALL;.extended
 
-import jdk.internal.net.http.common.Utils;
 
-import static java.lang.String.format;
-import static java.util.Objects.requireNonNull;
-import static jdk.internal.net.http.common.Utils.ACCEPT_ALL;
+
+
+
+
+
+
+
+
+
+
+
+
 
 class Http1HeaderParser {
 

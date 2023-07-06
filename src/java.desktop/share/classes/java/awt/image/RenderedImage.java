@@ -19,10 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.image;
-import java.awt.Rectangle;
-import java.util.Dictionary;
-import java.util.Vector;
+package java.desktop.share.classes.java.awt.image;
+
+
+import java.desktop.share.classes.java.awt.Rectangle;
+import java.desktop.share.classes.java.util.Dictionary;
+import java.desktop.share.classes.java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * RenderedImage is a common interface for objects which contain

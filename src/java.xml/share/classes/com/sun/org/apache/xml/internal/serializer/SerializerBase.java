@@ -19,24 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.serializer;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
-import com.sun.org.apache.xml.internal.serializer.utils.MsgKey;
-import com.sun.org.apache.xml.internal.serializer.utils.Utils;
-import java.io.IOException;
+
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.MsgKey;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.Utils;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.HashMap;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
-import javax.xml.transform.ErrorListener;
+import javax.xml.transform.Errorjava.util.Listener;
 import javax.xml.transform.OutputKeys;
 import javax.xml.transform.SourceLocator;
 import javax.xml.transform.Transformer;
-import org.xml.sax.Attributes;
-import org.xml.sax.ContentHandler;
-import org.xml.sax.Locator;
-import org.xml.sax.SAXException;
-import org.xml.sax.SAXParseException;
-import org.xml.sax.ext.Locator2;
+import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
+import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.Locator;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXParseException;
+import java.xml.share.classes.com.sun.org.xml.sax.ext.Locator2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class acts as a base class for the XML "serializers"

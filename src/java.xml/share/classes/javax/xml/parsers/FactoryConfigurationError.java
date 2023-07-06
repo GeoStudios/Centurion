@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.parsers;
+package java.xml.share.classes.javax.xml.parsers;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Thrown when a problem with configuration with the Parser Factories

@@ -19,17 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
+
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarPool;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.parsers;
 
-import com.sun.org.apache.xerces.internal.impl.Constants;
-import com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarPool;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
-import com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
+
 
 /**
  * This configuration allows Xerces to behave in a security-conscious manner; that is,

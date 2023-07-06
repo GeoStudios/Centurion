@@ -19,20 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.parsers;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
 
-import java.io.IOException;
 
-import com.sun.org.apache.xerces.internal.impl.Constants;
-import com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
-import com.sun.org.apache.xerces.internal.utils.XMLSecurityPropertyManager;
-import com.sun.org.apache.xerces.internal.xni.XNIException;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLParserConfiguration;
+import java.io.java.io.java.io.java.io.IOException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityPropertyManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLParserConfiguration;
 import jdk.xml.internal.JdkConstants;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXNotSupportedException;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXNotRecognizedException;
 
-import org.xml.sax.SAXNotSupportedException;
-import org.xml.sax.SAXNotRecognizedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base class of all XML-related parsers.

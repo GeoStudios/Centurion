@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
+
 
 import java.io.*;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.cert.*;
 import java.util.*;
 import javax.net.ssl.*;
-import sun.security.validator.TrustStoreUtil;
-import sun.security.validator.Validator;
+import java.base.share.classes.sun.security.validator.TrustStoreUtil;
+import java.base.share.classes.sun.security.validator.Validator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class TrustManagerFactoryImpl extends TrustManagerFactorySpi {
 

@@ -19,8 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.net;
-import java.io.IOException;
+package java.base.share.classes.java.net;
+
+
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Package private interface to "implementation" used by
  * {@link InetAddress}.

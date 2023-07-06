@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.text;
+package java.desktop.share.classes.javax.swing.text;
+
 
 import java.text.BreakIterator;
 import java.text.CharacterIterator;
 import java.text.StringCharacterIterator;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A simple whitespace-based BreakIterator implementation.

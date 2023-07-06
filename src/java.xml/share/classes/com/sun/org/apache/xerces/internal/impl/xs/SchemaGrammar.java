@@ -19,50 +19,65 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.xs;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
 
-import com.sun.org.apache.xerces.internal.impl.Constants;
-import com.sun.org.apache.xerces.internal.impl.dv.SchemaDVFactory;
-import com.sun.org.apache.xerces.internal.impl.dv.ValidatedInfo;
-import com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType;
-import com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl;
-import com.sun.org.apache.xerces.internal.impl.xs.identity.IdentityConstraint;
-import com.sun.org.apache.xerces.internal.impl.xs.util.ObjectListImpl;
-import com.sun.org.apache.xerces.internal.impl.xs.util.SimpleLocator;
-import com.sun.org.apache.xerces.internal.impl.xs.util.StringListImpl;
-import com.sun.org.apache.xerces.internal.impl.xs.util.XSNamedMap4Types;
-import com.sun.org.apache.xerces.internal.impl.xs.util.XSNamedMapImpl;
-import com.sun.org.apache.xerces.internal.impl.xs.util.XSObjectListImpl;
-import com.sun.org.apache.xerces.internal.parsers.DOMParser;
-import com.sun.org.apache.xerces.internal.parsers.SAXParser;
-import com.sun.org.apache.xerces.internal.parsers.XML11Configuration;
-import com.sun.org.apache.xerces.internal.util.SymbolHash;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
-import com.sun.org.apache.xerces.internal.xni.NamespaceContext;
-import com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription;
-import com.sun.org.apache.xerces.internal.xni.grammars.XSGrammar;
-import com.sun.org.apache.xerces.internal.xs.StringList;
-import com.sun.org.apache.xerces.internal.xs.XSAnnotation;
-import com.sun.org.apache.xerces.internal.xs.XSAttributeDeclaration;
-import com.sun.org.apache.xerces.internal.xs.XSAttributeGroupDefinition;
-import com.sun.org.apache.xerces.internal.xs.XSConstants;
-import com.sun.org.apache.xerces.internal.xs.XSElementDeclaration;
-import com.sun.org.apache.xerces.internal.xs.XSIDCDefinition;
-import com.sun.org.apache.xerces.internal.xs.XSModel;
-import com.sun.org.apache.xerces.internal.xs.XSModelGroupDefinition;
-import com.sun.org.apache.xerces.internal.xs.XSNamedMap;
-import com.sun.org.apache.xerces.internal.xs.XSNamespaceItem;
-import com.sun.org.apache.xerces.internal.xs.XSNotationDeclaration;
-import com.sun.org.apache.xerces.internal.xs.XSObjectList;
-import com.sun.org.apache.xerces.internal.xs.XSParticle;
-import com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
-import com.sun.org.apache.xerces.internal.xs.XSWildcard;
-import com.sun.org.apache.xerces.internal.xs.datatypes.ObjectList;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.SchemaDVFactory;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.ValidatedInfo;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.identity.IdentityConstraint;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.Objectjava.util.ListImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.SimpleLocator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.Stringjava.util.ListImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XSNamedMap4Types;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XSNamedMapImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XSObjectjava.util.ListImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers.DOMParser;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers.SAXParser;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers.XML11Configuration;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolHash;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XSGrammar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.Stringjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSAnnotation;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSAttributeDeclaration;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSAttributeGroupDefinition;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSConstants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSElementDeclaration;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSIDCDefinition;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSModel;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSModelGroupDefinition;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSNamedMap;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSNamespaceItem;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSNotationDeclaration;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObjectjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSParticle;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSWildcard;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.datatypes.Objectjava.util.java.util.java.util.List;
 import java.lang.ref.SoftReference;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
-import org.xml.sax.SAXException;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.util.concurrent.CopyOnWriteArrayjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is to hold all schema component declaration that are declared

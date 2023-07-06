@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.t.t099;
+
+
+import nsk.share.TestFailure;
+import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,10 +49,7 @@
  * @run main/othervm jit.t.t099.t099
  */
 
-package jit.t.t099;
 
-import nsk.share.TestFailure;
-import nsk.share.GoldChecker;
 
 public class t099
 {

@@ -18,17 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.xml.sax.ptests;
 
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertTrue;
 
+import static org.testng.Assert.assertFalse;.extended
+import static org.testng.Assert.assertTrue;.extended
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
-
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.XMLReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class containing the test cases for Namespace Table defined at

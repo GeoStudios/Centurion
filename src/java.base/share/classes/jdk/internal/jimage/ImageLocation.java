@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.jimage;
+package java.base.share.classes.jdk.internal.jimage;
+
 
 import java.nio.ByteBuffer;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @implNote This class needs to maintain JDK 8 source compatibility.

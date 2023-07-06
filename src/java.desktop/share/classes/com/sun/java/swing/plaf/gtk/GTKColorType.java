@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.java.swing.plaf.gtk;
+
+package java.desktop.share.classes.com.sun.java.swing.plaf.gtk;
+
 
 import javax.swing.plaf.synth.ColorType;
-import java.awt.Color;
+import java.desktop.share.classes.com.sun.java.awt.Color;
 import javax.swing.plaf.ColorUIResource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

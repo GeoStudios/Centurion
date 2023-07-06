@@ -21,6 +21,24 @@
 
 package gc.arguments;
 
+
+import jdk.test.lib.Platform;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestNewSizeThreadIncrease
  * @bug 8144527
@@ -34,9 +52,6 @@ package gc.arguments;
  */
 
 
-import jdk.test.lib.Platform;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 
 // Range of NewSizeThreadIncrease is 0 ~ max_uintx.

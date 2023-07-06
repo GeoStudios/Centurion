@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.bcel.internal.generic;
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
+
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Utility;
 
-import com.sun.org.apache.bcel.internal.classfile.Utility;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Instances of this class give users a handle to the instructions contained in

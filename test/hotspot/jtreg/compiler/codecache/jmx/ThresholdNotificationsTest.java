@@ -19,6 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codecache.jmx;
+
+
+import jdk.test.lib.Asserts;
+import jdk.test.lib.Utils;
+import sun.hotspot.code.BlobType;
+import javax.management.java.util.ListenerNotFoundException;
+import javax.management.Notification;
+import javax.management.NotificationEmitter;
+import javax.management.Notificationjava.util.Listener;
+import java.lang.management.ManagementFactory;
+import java.lang.management.MemoryNotificationInfo;
+import java.lang.management.MemoryPoolMXBean;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test ThresholdNotificationsTest
  * @summary testing of getUsageThreshold()
@@ -38,19 +65,8 @@
  *     compiler.codecache.jmx.ThresholdNotificationsTest
  */
 
-package compiler.codecache.jmx;
 
-import jdk.test.lib.Asserts;
-import jdk.test.lib.Utils;
-import sun.hotspot.code.BlobType;
 
-import javax.management.ListenerNotFoundException;
-import javax.management.Notification;
-import javax.management.NotificationEmitter;
-import javax.management.NotificationListener;
-import java.lang.management.ManagementFactory;
-import java.lang.management.MemoryNotificationInfo;
-import java.lang.management.MemoryPoolMXBean;
 
 public class ThresholdNotificationsTest implements NotificationListener {
 

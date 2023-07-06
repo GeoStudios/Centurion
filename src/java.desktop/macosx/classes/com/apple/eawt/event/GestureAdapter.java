@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.eawt.event;
+package java.desktop.macosx.classes.com.apple.eawt.event;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract adapter class for receiving gesture events. This class is provided

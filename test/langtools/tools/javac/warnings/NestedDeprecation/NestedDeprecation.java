@@ -21,12 +21,26 @@
 
 package p;
 
+
 import p.Dep1.A;
-import static p.Dep1.B;
-import static p.Dep1.method;
-import static p.Dep1.field;
+import static p.Dep1.B;.extended
+import static p.Dep1.method;.extended
+import static p.Dep1.field;.extended
 import p.Dep2.C;
 import p.Dep2.D;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class NestedDeprecation {
     Dep1 f1;

@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.bcel.internal.generic;
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
+
 
 import java.io.DataInput;
 import java.io.DataOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.AnnotationElementValue;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.AnnotationEntry;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ArrayElementValue;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ClassElementValue;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ElementValue;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.EnumElementValue;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.SimpleElementValue;
 
-import com.sun.org.apache.bcel.internal.classfile.AnnotationElementValue;
-import com.sun.org.apache.bcel.internal.classfile.AnnotationEntry;
-import com.sun.org.apache.bcel.internal.classfile.ArrayElementValue;
-import com.sun.org.apache.bcel.internal.classfile.ClassElementValue;
-import com.sun.org.apache.bcel.internal.classfile.ElementValue;
-import com.sun.org.apache.bcel.internal.classfile.EnumElementValue;
-import com.sun.org.apache.bcel.internal.classfile.SimpleElementValue;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @LastModified: May 2021

@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.module;
+package java.base.share.classes.jdk.internal.module;
+
 
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintStream;
 import java.lang.module.FindException;
 import java.lang.module.ModuleDescriptor;
@@ -39,6 +40,20 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A validator to check for errors and conflicts between modules.

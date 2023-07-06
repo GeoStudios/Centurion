@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.beans;
+package java.desktop.share.classes.java.beans;
 
-import java.lang.ref.ReferenceQueue;
-import java.lang.ref.WeakReference;
+
+import java.desktop.share.classes.java.lang.ref.ReferenceQueue;
+import java.desktop.share.classes.java.lang.ref.WeakReference;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Hash table based mapping, which uses weak references to store keys

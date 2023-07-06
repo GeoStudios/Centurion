@@ -19,10 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.image.renderable;
-import java.util.Vector;
-import java.awt.RenderingHints;
-import java.awt.image.*;
+package java.desktop.share.classes.java.awt.image.renderable;
+
+
+import java.desktop.share.classes.java.util.Vector;
+import java.desktop.share.classes.java.awt.RenderingHints;
+import java.desktop.share.classes.java.awt.image.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A RenderableImage is a common interface for rendering-independent

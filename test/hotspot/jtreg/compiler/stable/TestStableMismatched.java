@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.stable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestStableMismatched
  * @bug 8158228
@@ -32,7 +49,6 @@
  *                   compiler.stable.TestStableMismatched
  */
 
-package compiler.stable;
 
 public class TestStableMismatched {
     public static void main(String args[]) {

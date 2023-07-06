@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.mlvm.indy.stress.jdi.breakpointInCompiledCode;
+
+
+import vm.mlvm.share.jdi.ArgumentHandler;
+import vm.mlvm.share.jdi.BreakpointInfo;
+import vm.mlvm.share.jdi.JDIBreakpointTest;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -52,14 +74,8 @@
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
 
-package vm.mlvm.indy.stress.jdi.breakpointInCompiledCode;
 
-import vm.mlvm.share.jdi.ArgumentHandler;
-import vm.mlvm.share.jdi.BreakpointInfo;
-import vm.mlvm.share.jdi.JDIBreakpointTest;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class Test extends JDIBreakpointTest {
     // bootstrap,runDebuggee=>(indyWrapper:S5000,~target,stop)

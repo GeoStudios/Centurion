@@ -18,13 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.bench.vm.compiler;
+
 
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.infra.*;
-
 import java.util.concurrent.TimeUnit;
 import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @BenchmarkMode(Mode.Throughput)
 @OutputTimeUnit(TimeUnit.SECONDS)

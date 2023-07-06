@@ -21,8 +21,22 @@
 
 package p;
 
-import static p.A.*;
-import static p.B.*;
+
+import static p.A.*;.extended
+import static p.B.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 interface A {
     int K = 3;

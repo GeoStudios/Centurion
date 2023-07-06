@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.transform.dom;
+package java.xml.share.classes.javax.xml.transform.dom;
 
-import javax.xml.transform.Source;
 
+import java.xml.share.classes.javax.xml.transform.Source;
 import org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Acts as a holder for a transformation Source tree in the

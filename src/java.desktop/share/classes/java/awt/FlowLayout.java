@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.Serial;
+
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A flow layout arranges components in a directional flow, much
@@ -57,8 +72,8 @@ import java.io.Serial;
  * Here is the code for this applet:
  *
  * <hr><blockquote><pre>
- * import java.awt.*;
- * import java.applet.Applet;
+ * import java.desktop.share.classes.java.awt.*;
+ * import java.desktop.share.classes.java.applet.Applet;
  *
  * public class myButtons extends Applet {
  *     Button button1, button2, button3;

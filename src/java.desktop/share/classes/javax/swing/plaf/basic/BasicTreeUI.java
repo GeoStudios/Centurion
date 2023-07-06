@@ -19,30 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.basic;
+package java.desktop.share.classes.javax.swing.plaf.basic;
 
-import javax.swing.*;
-import javax.swing.event.*;
+
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.event.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.datatransfer.*;
 import java.beans.*;
 import java.util.Enumeration;
 import java.util.Hashtable;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Comparator;
-import javax.swing.plaf.ComponentUI;
-import javax.swing.plaf.UIResource;
-import javax.swing.plaf.TreeUI;
-import javax.swing.tree.*;
-import javax.swing.text.Position;
-import javax.swing.plaf.basic.DragRecognitionSupport.BeforeDrag;
+import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
+import java.desktop.share.classes.javax.swing.plaf.UIResource;
+import java.desktop.share.classes.javax.swing.plaf.TreeUI;
+import java.desktop.share.classes.javax.swing.tree.*;
+import java.desktop.share.classes.javax.swing.text.Position;
+import java.desktop.share.classes.javax.swing.plaf.basic.DragRecognitionSupport.BeforeDrag;
 import sun.awt.AWTAccessor;
 import sun.swing.SwingUtilities2;
-
 import sun.swing.DefaultLookup;
 import sun.swing.UIAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The basic L&amp;F for a hierarchical data structure.

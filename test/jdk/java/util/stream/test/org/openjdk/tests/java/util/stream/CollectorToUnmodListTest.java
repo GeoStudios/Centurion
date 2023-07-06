@@ -18,16 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.tests.java.util.stream;
 
-import java.util.ArrayList;
-import java.util.List;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.function.Function;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
-
 import org.testng.annotations.Test;
-import static org.testng.Assert.*;
+import static org.testng.Assert.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

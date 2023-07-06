@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text;
+
+package java.desktop.share.classes.javax.swing.text;
+
 
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Shape;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An interface for an object that allows one to mark up the background

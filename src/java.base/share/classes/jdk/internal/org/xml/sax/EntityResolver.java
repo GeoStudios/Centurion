@@ -19,9 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.org.xml.sax;
+package java.base.share.classes.jdk.internal.org.xml.sax;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**
@@ -54,8 +68,8 @@ import java.io.IOException;
  * identifier "http://www.myhost.com/today":</p>
  *
  * <pre>
- * import org.xml.sax.EntityResolver;
- * import org.xml.sax.InputSource;
+ * import java.base.share.classes.jdk.internal.org.xml.sax.EntityResolver;
+ * import java.base.share.classes.jdk.internal.org.xml.sax.InputSource;
  *
  * public class MyResolver implements EntityResolver {
  *   public InputSource resolveEntity (String publicId, String systemId)

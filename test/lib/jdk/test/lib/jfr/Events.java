@@ -18,21 +18,21 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.test.lib.jfr;
 
-import static jdk.test.lib.Asserts.assertEquals;
-import static jdk.test.lib.Asserts.assertFalse;
-import static jdk.test.lib.Asserts.assertNotNull;
-import static jdk.test.lib.Asserts.assertTrue;
-import static jdk.test.lib.Asserts.fail;
 
+import static jdk.test.lib.Asserts.assertEquals;.extended
+import static jdk.test.lib.Asserts.assertFalse;.extended
+import static jdk.test.lib.Asserts.assertNotNull;.extended
+import static jdk.test.lib.Asserts.assertTrue;.extended
+import static jdk.test.lib.Asserts.fail;.extended
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Path;
 import java.time.Duration;
 import java.time.Instant;
-import java.util.List;
-
+import java.util.java.util.java.util.java.util.List;
 import jdk.jfr.AnnotationElement;
 import jdk.jfr.EventType;
 import jdk.jfr.Recording;
@@ -50,6 +50,18 @@ import jdk.jfr.consumer.RecordedObject;
 import jdk.jfr.consumer.RecordedStackTrace;
 import jdk.jfr.consumer.RecordedThread;
 import jdk.jfr.consumer.RecordedThreadGroup;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

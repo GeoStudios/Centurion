@@ -19,14 +19,15 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.png;
+package java.desktop.share.classes.com.sun.imageio.plugins.png;
+
 
 import java.awt.image.ColorModel;
 import java.awt.image.IndexColorModel;
 import java.awt.image.SampleModel;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.StringTokenizer;
-import java.util.ListIterator;
+import java.util.java.util.ListIterator;
 import java.time.LocalDateTime;
 import java.time.OffsetDateTime;
 import java.time.ZoneId;
@@ -40,6 +41,20 @@ import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
 import javax.imageio.metadata.IIOMetadataNode;
 import org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PNGMetadata extends IIOMetadata implements Cloneable {
 

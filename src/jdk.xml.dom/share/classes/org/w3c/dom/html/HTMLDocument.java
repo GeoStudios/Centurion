@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.w3c.dom.html;
+package jdk.xml.dom.share.classes.org.w3c.dom.html;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.NodeList;
+
+import jdk.xml.dom.share.classes.org.w3c.dom.Document;
+import jdk.xml.dom.share.classes.org.w3c.dom.Nodejava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  An <code>HTMLDocument</code> is the root of the HTML hierarchy and holds

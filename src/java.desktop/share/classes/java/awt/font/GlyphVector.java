@@ -19,21 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.share.classes.java.awt.font;
+
+
+import java.desktop.share.classes.java.awt.Graphics2D;
+import java.desktop.share.classes.java.awt.Font;
+import java.desktop.share.classes.java.awt.Polygon;        // remind - need a floating point version.extended
+import java.desktop.share.classes.java.awt.Rectangle;
+import java.desktop.share.classes.java.awt.geom.Point2D;
+import java.desktop.share.classes.java.awt.geom.Rectangle2D;
+import java.desktop.share.classes.java.awt.geom.AffineTransform;
+import java.desktop.share.classes.java.awt.Shape;
+import java.desktop.share.classes.java.awt.font.GlyphMetrics;
+import java.desktop.share.classes.java.awt.font.GlyphJustificationInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  */
 
-package java.awt.font;
 
-import java.awt.Graphics2D;
-import java.awt.Font;
-import java.awt.Polygon;        // remind - need a floating point version
-import java.awt.Rectangle;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
-import java.awt.geom.AffineTransform;
-import java.awt.Shape;
-import java.awt.font.GlyphMetrics;
-import java.awt.font.GlyphJustificationInfo;
+
 
 /**
  * A {@code GlyphVector} object is a collection of glyphs

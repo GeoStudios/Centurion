@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.print;
+package java.desktop.share.classes.javax.print;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface {@code MultiDoc} specifies the interface for an object that

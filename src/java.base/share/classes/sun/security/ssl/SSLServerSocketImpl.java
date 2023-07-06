@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.InetAddress;
-import java.net.Socket;
+import java.net.java.net.java.net.java.net.Socket;
 import java.util.concurrent.locks.ReentrantLock;
 import javax.net.ssl.SSLParameters;
-import javax.net.ssl.SSLServerSocket;
+import javax.net.ssl.SSLjava.net.java.net.Serverjava.net.java.net.Socket;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides a simple way for servers to support conventional

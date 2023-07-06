@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.remote.internal;
+package java.management.share.classes.com.sun.jmx.remote.internal;
 
-import java.io.IOException;
-import java.io.InterruptedIOException;
 
-import com.sun.jmx.remote.util.ClassLogger;
-import com.sun.jmx.remote.util.EnvHelp;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Interruptedjava.io.java.io.java.io.IOException;
+import java.management.share.classes.com.sun.jmx.remote.util.ClassLogger;
+import java.management.share.classes.com.sun.jmx.remote.util.EnvHelp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class ClientCommunicatorAdmin {
     private static volatile long threadNo = 1;

@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.FinalizeTest01;
+
+
+import java.lang.management.ManagementFactory;
+import java.lang.management.MemoryMXBean;
+import nsk.share.gc.*;
+import nsk.share.TestFailure;
+import nsk.share.test.ExecutionController;
+import nsk.share.test.Stresser;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -31,14 +54,7 @@
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.FinalizeTest01.FinalizeTest01
  */
 
-package gc.gctests.FinalizeTest01;
 
-import java.lang.management.ManagementFactory;
-import java.lang.management.MemoryMXBean;
-import nsk.share.gc.*;
-import nsk.share.TestFailure;
-import nsk.share.test.ExecutionController;
-import nsk.share.test.Stresser;
 
 /**
  * Tests that GC works correctly with finalizers.

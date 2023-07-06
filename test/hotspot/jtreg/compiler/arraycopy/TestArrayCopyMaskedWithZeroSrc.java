@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.arraycopy;
+
+
+import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8258272
@@ -28,9 +46,7 @@
  *                   compiler.arraycopy.TestArrayCopyMaskedWithZeroSrc
  */
 
-package compiler.arraycopy;
 
-import java.util.*;
 
 public class TestArrayCopyMaskedWithZeroSrc {
 

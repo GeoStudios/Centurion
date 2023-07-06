@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net;
+package java.base.share.classes.sun.net;
+
 
 import java.net.Proxy;
-import java.net.SocketAddress;
+import java.net.java.net.SocketAddress;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Proxy wrapper class so that we can determine application set

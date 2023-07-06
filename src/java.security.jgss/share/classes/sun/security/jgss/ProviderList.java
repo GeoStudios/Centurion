@@ -19,21 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jgss;
+package java.security.jgss.share.classes.sun.security.jgss;
+
 
 import java.lang.reflect.InvocationTargetException;
 import org.ietf.jgss.*;
 import java.security.Provider;
 import java.security.Security;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashSet;
 import java.util.HashMap;
 import java.util.Enumeration;
 import java.util.Iterator;
-import sun.security.jgss.spi.*;
-import sun.security.jgss.wrapper.NativeGSSFactory;
-import sun.security.jgss.wrapper.SunNativeProvider;
-import sun.security.action.GetPropertyAction;
+import java.security.jgss.share.classes.sun.security.jgss.spi.*;
+import java.security.jgss.share.classes.sun.security.jgss.wrapper.NativeGSSFactory;
+import java.security.jgss.share.classes.sun.security.jgss.wrapper.SunNativeProvider;
+import java.security.jgss.share.classes.sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class stores the list of providers that this

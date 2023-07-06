@@ -19,24 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.dom;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom;
 
-import com.sun.org.apache.xalan.internal.xsltc.DOM;
-import com.sun.org.apache.xalan.internal.xsltc.DOMCache;
-import com.sun.org.apache.xalan.internal.xsltc.DOMEnhancedForDTM;
-import com.sun.org.apache.xalan.internal.xsltc.TransletException;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
-import com.sun.org.apache.xalan.internal.xsltc.runtime.AbstractTranslet;
-import com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl;
-import com.sun.org.apache.xml.internal.dtm.DTM;
-import com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
-import com.sun.org.apache.xml.internal.dtm.DTMManager;
-import com.sun.org.apache.xml.internal.dtm.ref.EmptyIterator;
-import com.sun.org.apache.xml.internal.utils.SystemIDResolver;
+
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOMCache;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOMEnhancedForDTM;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.TransletException;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime.AbstractTranslet;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMManager;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.EmptyIterator;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.SystemIDResolver;
 import java.io.FileNotFoundException;
 import javax.xml.transform.stream.StreamSource;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @LastModified: May 2021

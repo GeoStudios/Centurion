@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
 
 import java.awt.Component;
 import java.awt.Event;
 import java.awt.Point;
 import java.awt.PopupMenu;
 import java.awt.peer.PopupMenuPeer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class CPopupMenu extends CMenu implements PopupMenuPeer {
 

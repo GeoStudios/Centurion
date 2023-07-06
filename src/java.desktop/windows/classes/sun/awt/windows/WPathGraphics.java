@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.windows;
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -30,18 +31,15 @@ import java.awt.Image;
 import java.awt.Shape;
 import java.awt.Stroke;
 import java.awt.Transparency;
-
 import java.awt.font.FontRenderContext;
 import java.awt.font.GlyphVector;
 import java.awt.font.TextLayout;
-
 import java.awt.geom.AffineTransform;
 import java.awt.geom.NoninvertibleTransformException;
 import java.awt.geom.PathIterator;
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
 import java.awt.geom.Line2D;
-
 import java.awt.image.BufferedImage;
 import java.awt.image.ColorModel;
 import java.awt.image.DataBuffer;
@@ -50,25 +48,35 @@ import java.awt.image.WritableRaster;
 import java.awt.image.ComponentSampleModel;
 import java.awt.image.MultiPixelPackedSampleModel;
 import java.awt.image.SampleModel;
-
-import sun.awt.image.ByteComponentRaster;
-import sun.awt.image.BytePackedRaster;
+import java.desktop.windows.classes.sun.awt.image.ByteComponentRaster;
+import java.desktop.windows.classes.sun.awt.image.BytePackedRaster;
 import java.awt.print.PageFormat;
 import java.awt.print.Printable;
 import java.awt.print.PrinterException;
 import java.awt.print.PrinterJob;
+import java.base.share.classes.java.util.Arrays;
+import java.desktop.windows.classes.sun.font.CharToGlyphMapper;
+import java.desktop.windows.classes.sun.font.CompositeFont;
+import java.desktop.windows.classes.sun.font.Font2D;
+import java.desktop.windows.classes.sun.font.FontUtilities;
+import java.desktop.windows.classes.sun.font.PhysicalFont;
+import java.desktop.windows.classes.sun.font.TrueTypeFont;
+import java.desktop.windows.classes.sun.print.PathGraphics;
+import java.desktop.windows.classes.sun.print.ProxyGraphics2D;
 
-import java.util.Arrays;
 
-import sun.font.CharToGlyphMapper;
-import sun.font.CompositeFont;
-import sun.font.Font2D;
-import sun.font.FontUtilities;
-import sun.font.PhysicalFont;
-import sun.font.TrueTypeFont;
 
-import sun.print.PathGraphics;
-import sun.print.ProxyGraphics2D;
+
+
+
+
+
+
+
+
+
+
+
 
 final class WPathGraphics extends PathGraphics {
 

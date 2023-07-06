@@ -19,24 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.launcher;
+package java.base.share.classes.sun.launcher;
 
-/*
- *
- *  <p><b>This is NOT part of any API supported by Sun Microsystems.
- *  If you write code that depends on this, you do so at your own
- *  risk.  This code and its internal interfaces are subject to change
- *  or deletion without notice.</b>
- *
- */
-
-/**
- * A utility package for the java(1), javaw(1) launchers.
- * The following are helper methods that the native launcher uses
- * to perform checks etc. using JNI, see src/share/bin/java.c
- */
-import java.io.File;
-import java.io.IOException;
+import java.base.share.classes.java.io.File;
+import java.base.share.classes.java.io.IOException;
 import java.io.PrintStream;
 import java.io.UnsupportedEncodingException;
 import java.lang.module.Configuration;
@@ -60,12 +46,12 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.text.MessageFormat;
 import java.text.Normalizer;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Iterator;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Locale.Category;
 import java.util.Optional;
 import java.util.Properties;
@@ -77,12 +63,41 @@ import java.util.jar.JarFile;
 import java.util.jar.Manifest;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
 import jdk.internal.misc.VM;
 import jdk.internal.module.ModuleBootstrap;
 import jdk.internal.module.Modules;
 import jdk.internal.platform.Container;
 import jdk.internal.platform.Metrics;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ *
+ *  <p><b>This is NOT part of any API supported by Sun Microsystems.
+ *  If you write code that depends on this, you do so at your own
+ *  risk.  This code and its internal interfaces are subject to change
+ *  or deletion without notice.</b>
+ *
+ */
+
+/**
+ * A utility package for the java(1), javaw(1) launchers.
+ * The following are helper methods that the native launcher uses
+ * to perform checks etc. using JNI, see src/share/bin/java.c
+ */
+
 
 
 public final class LauncherHelper {

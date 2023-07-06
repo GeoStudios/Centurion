@@ -19,20 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.rmi.registry;
+package java.rmi.share.classes.java.rmi.registry;
 
-import java.rmi.RemoteException;
-import java.rmi.server.ObjID;
-import java.rmi.server.RMIClientSocketFactory;
-import java.rmi.server.RMIServerSocketFactory;
-import java.rmi.server.RemoteRef;
-import java.rmi.server.UnicastRemoteObject;
+
+import java.rmi.share.classes.java.rmi.RemoteException;
+import java.rmi.share.classes.java.rmi.server.ObjID;
+import java.rmi.share.classes.java.rmi.server.RMIClientjava.net.SocketFactory;
+import java.rmi.share.classes.java.rmi.server.RMIjava.net.ServerSocketFactory;
+import java.rmi.share.classes.java.rmi.server.RemoteRef;
+import java.rmi.share.classes.java.rmi.server.UnicastRemoteObject;
 import sun.rmi.registry.RegistryImpl;
 import sun.rmi.server.UnicastRef2;
 import sun.rmi.server.UnicastRef;
 import sun.rmi.server.Util;
 import sun.rmi.transport.LiveRef;
 import sun.rmi.transport.tcp.TCPEndpoint;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>LocateRegistry</code> is used to obtain a reference to a bootstrap

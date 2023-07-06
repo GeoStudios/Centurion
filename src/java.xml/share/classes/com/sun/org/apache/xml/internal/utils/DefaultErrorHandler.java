@@ -19,25 +19,43 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
+
+
+import java.io.PrintStream;
+import java.io.PrintWriter;
+import javax.xml.transform.Errorjava.util.Listener;
+import javax.xml.transform.SourceLocator;
+import javax.xml.transform.TransformerException;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLErrorResources;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLMessages;
+import java.xml.share.classes.com.sun.org.xml.sax.ErrorHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXParseException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.utils;
 
-import java.io.PrintStream;
-import java.io.PrintWriter;
 
-import javax.xml.transform.ErrorListener;
-import javax.xml.transform.SourceLocator;
-import javax.xml.transform.TransformerException;
 
-import com.sun.org.apache.xml.internal.res.XMLErrorResources;
-import com.sun.org.apache.xml.internal.res.XMLMessages;
 
-import org.xml.sax.ErrorHandler;
-import org.xml.sax.SAXException;
-import org.xml.sax.SAXParseException;
+
 
 
 /**

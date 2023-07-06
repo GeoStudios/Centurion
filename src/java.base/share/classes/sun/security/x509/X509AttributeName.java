@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.x509;
+package java.base.share.classes.sun.security.x509;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to parse attribute names like "x509.info.extensions".

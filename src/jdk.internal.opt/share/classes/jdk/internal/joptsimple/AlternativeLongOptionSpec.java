@@ -19,15 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.joptsimple;
+package jdk.internal.opt.share.classes.jdk.internal.joptsimple;
 
-import jdk.internal.joptsimple.internal.Messages;
 
-import java.util.Locale;
+import jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.Messages;
+import java.base.share.classes.java.util.Locale;
+import static java.util.Collections.*;.extended
+import static jdk.internal.opt.share.classes.jdk.internal.joptsimple.ParserRules.*;.extended
 
-import static java.util.Collections.*;
 
-import static jdk.internal.joptsimple.ParserRules.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents the {@code "-W"} form of long option specification.

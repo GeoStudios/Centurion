@@ -19,22 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.security.auth.login;
+package java.base.share.classes.javax.security.auth.login;
+
 
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.Map;
 import java.util.HashMap;
 import java.text.MessageFormat;
-import javax.security.auth.Subject;
-import javax.security.auth.AuthPermission;
-import javax.security.auth.callback.*;
-import javax.security.auth.spi.LoginModule;
+import java.base.share.classes.javax.security.auth.Subject;
+import java.base.share.classes.javax.security.auth.AuthPermission;
+import java.base.share.classes.javax.security.auth.callback.*;
+import java.base.share.classes.javax.security.auth.spi.LoginModule;
 import java.security.AccessControlContext;
 import java.util.ServiceLoader;
-
 import sun.security.util.PendingException;
 import sun.security.util.ResourcesMgr;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p> The {@code LoginContext} class describes the basic methods used

@@ -19,37 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.io.InputStream;
-import java.io.IOException;
-import java.io.UncheckedIOException;
-import java.io.File;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
-import java.net.URL;
-import java.security.AccessController;
-import java.security.AccessControlContext;
-import java.security.CodeSource;
-import java.security.PrivilegedAction;
-import java.security.ProtectionDomain;
-import java.security.cert.Certificate;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Enumeration;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.NoSuchElementException;
-import java.util.Objects;
-import java.util.Set;
-import java.util.Spliterator;
-import java.util.Spliterators;
-import java.util.WeakHashMap;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.function.Supplier;
-import java.util.stream.Stream;
-import java.util.stream.StreamSupport;
 
+import java.base.share.classes.java.io.InputStream;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.Uncheckedjava.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.File;
+import java.base.share.classes.java.lang.reflect.Constructor;
+import java.base.share.classes.java.lang.reflect.InvocationTargetException;
+import java.base.share.classes.java.net.URL;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.AccessControlContext;
+import java.base.share.classes.java.security.CodeSource;
+import java.base.share.classes.java.security.PrivilegedAction;
+import java.base.share.classes.java.security.ProtectionDomain;
+import java.base.share.classes.java.security.cert.Certificate;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Collections;
+import java.base.share.classes.java.util.Enumeration;
+import java.base.share.classes.java.util.HashMap;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.NoSuchElementException;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Set;
+import java.base.share.classes.java.util.Spliterator;
+import java.base.share.classes.java.util.Spliterators;
+import java.base.share.classes.java.util.WeakHashMap;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.function.Supplier;
+import java.base.share.classes.java.util.stream.Stream;
+import java.base.share.classes.java.util.stream.StreamSupport;
 import jdk.internal.loader.BootLoader;
 import jdk.internal.loader.BuiltinClassLoader;
 import jdk.internal.loader.ClassLoaders;
@@ -63,6 +63,20 @@ import jdk.internal.reflect.Reflection;
 import jdk.internal.util.StaticProperty;
 import sun.reflect.misc.ReflectUtil;
 import sun.security.util.SecurityConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class loader is an object that is responsible for loading classes. The
@@ -2056,7 +2070,7 @@ public abstract class ClassLoader {
      */
     Package definePackage(String name, Module m) {
         if (name.isEmpty() && m.isNamed()) {
-            throw new InternalError("unnamed package in  " + m);
+            throw new InternalError("unnamed 
         }
 
         // check if Package object is already defined
@@ -2549,7 +2563,7 @@ public abstract class ClassLoader {
      * If the named class has had its assertion status set, the most recent
      * setting will be returned; otherwise, if any package default assertion
      * status pertains to this class, the most recent setting for the most
-     * specific pertinent package default assertion status is returned;
+     * specific pertinent 
      * otherwise, this class loader's default assertion status is returned.
      * </p>
      *

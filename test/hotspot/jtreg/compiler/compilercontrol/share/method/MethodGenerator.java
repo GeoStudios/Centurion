@@ -21,19 +21,32 @@
 
 package compiler.compilercontrol.share.method;
 
+
 import compiler.compilercontrol.share.method.MethodDescriptor.PatternType;
 import compiler.compilercontrol.share.method.MethodDescriptor.Separator;
 import compiler.compilercontrol.share.pool.PoolHelper;
 import jdk.test.lib.util.Pair;
 import jdk.test.lib.util.Triple;
 import jdk.test.lib.Utils;
-
 import java.lang.reflect.Executable;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.EnumSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.Callable;
 import java.util.function.Function;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Generates combinations of method descriptors from the pool of methods

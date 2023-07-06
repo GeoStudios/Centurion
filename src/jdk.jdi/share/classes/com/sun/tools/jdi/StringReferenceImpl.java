@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-import com.sun.jdi.StringReference;
-import com.sun.jdi.Value;
-import com.sun.jdi.VirtualMachine;
+
+import jdk.jdi.share.classes.com.sun.jdi.StringReference;
+import jdk.jdi.share.classes.com.sun.jdi.Value;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class StringReferenceImpl extends ObjectReferenceImpl
     implements StringReference

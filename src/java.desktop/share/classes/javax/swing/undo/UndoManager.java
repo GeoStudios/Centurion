@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.undo;
+package java.desktop.share.classes.javax.swing.undo;
 
-import javax.swing.event.*;
-import javax.swing.UIManager;
+
+import java.desktop.share.classes.javax.swing.event.*;
+import java.desktop.share.classes.javax.swing.UIManager;
 import java.util.*;
 import sun.swing.text.UndoableEditLockSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code UndoManager} manages a list of {@code UndoableEdits},

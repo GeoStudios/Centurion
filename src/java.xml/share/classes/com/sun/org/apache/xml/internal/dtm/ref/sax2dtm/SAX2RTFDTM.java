@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.dtm.ref.sax2dtm;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.sax2dtm;
 
-import com.sun.org.apache.xml.internal.dtm.DTM;
-import com.sun.org.apache.xml.internal.dtm.DTMManager;
-import com.sun.org.apache.xml.internal.dtm.DTMWSFilter;
-import com.sun.org.apache.xml.internal.utils.IntStack;
-import com.sun.org.apache.xml.internal.utils.IntVector;
-import com.sun.org.apache.xml.internal.utils.StringVector;
-import com.sun.org.apache.xml.internal.utils.XMLStringFactory;
+
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMManager;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMWSFilter;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.IntStack;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.IntVector;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.StringVector;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLStringFactory;
 import java.util.Vector;
 import javax.xml.transform.Source;
-import org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is a subclass of SAX2DTM which has been modified to meet the needs of

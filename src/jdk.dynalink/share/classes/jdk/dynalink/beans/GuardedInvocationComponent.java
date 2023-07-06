@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.dynalink.share.classes.jdk.dynalink.beans;
+
+
+import java.lang.invoke.MethodHandle;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.GuardedInvocation;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -26,10 +46,8 @@
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-package jdk.dynalink.beans;
 
-import java.lang.invoke.MethodHandle;
-import jdk.dynalink.linker.GuardedInvocation;
+
 
 /**
  * Represents one component for a GuardedInvocation of a potentially multi-namespace operation of an

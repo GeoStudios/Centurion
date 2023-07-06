@@ -19,6 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.jfc.Font2DTest;
+
+
+import java.awt.BorderLayout;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.Actionjava.util.Listener;
+import java.awt.event.ItemEvent;
+import java.awt.event.Itemjava.util.Listener;
+import javax.swing.*;
+import java.util.*;
+import java.util.regex.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -31,17 +58,8 @@
 /*
  */
 
-import java.awt.BorderLayout;
-import java.awt.Font;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
 
-import javax.swing.*;
 
-import java.util.*;
-import java.util.regex.*;
 
 /**
  * RangeMenu.java

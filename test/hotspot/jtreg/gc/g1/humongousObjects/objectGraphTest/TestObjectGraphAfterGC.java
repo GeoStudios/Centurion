@@ -21,11 +21,11 @@
 
 package gc.g1.humongousObjects.objectGraphTest;
 
+
 import jdk.test.lib.process.OutputAnalyzer;
 import sun.hotspot.WhiteBox;
-
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.ref.Reference;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.SoftReference;
@@ -33,13 +33,25 @@ import java.lang.ref.WeakReference;
 import java.nio.file.Files;
 import java.util.Map;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.compiler.jbe.dead.dead04;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,7 +47,6 @@
  * @run main/othervm vm.compiler.jbe.dead.dead04.dead04
  */
 
-package vm.compiler.jbe.dead.dead04;
 /* -- Test the elimination of dead assignment to class fields
 In the example below, the values assigned to i1-i7 in struct are never used,thus can be eliminated.
 

@@ -19,10 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package apple.security;
+package java.base.macosx.classes.apple.security;
 
-import java.security.*;
-import static sun.security.util.SecurityConstants.PROVIDER_VER;
+
+import java.base.share.classes.java.security.*;
+import static java.base.share.classes.sun.security.util.SecurityConstants.PROVIDER_VER;
+
 
 /**
  * The Apple Security Provider.

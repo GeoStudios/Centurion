@@ -19,12 +19,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.toolkit.util;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util;
+
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.BufferedWriter;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
@@ -34,22 +35,34 @@ import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
-
 import javax.tools.DocumentationTool;
 import javax.tools.FileObject;
 import javax.tools.JavaFileManager.Location;
 import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.StandardLocation;
-
 import com.sun.tools.javac.util.Assert;
-import jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of DocFileFactory using a {@link StandardJavaFileManager}.

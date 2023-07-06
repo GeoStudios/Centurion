@@ -18,16 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text.html;
+
+package java.desktop.share.classes.javax.swing.text.html;
+
 
 import java.awt.*;
 import java.awt.event.*;
 import java.net.URLEncoder;
 import java.net.MalformedURLException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.URL;
-import javax.swing.text.*;
-import javax.swing.*;
+import java.desktop.share.classes.javax.swing.text.*;
+import java.desktop.share.classes.javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

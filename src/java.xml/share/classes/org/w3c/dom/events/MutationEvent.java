@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.w3c.dom.events;
+package java.xml.share.classes.org.w3c.dom.events;
 
-import org.w3c.dom.Node;
+
+import java.xml.share.classes.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The <code>MutationEvent</code> interface provides specific contextual

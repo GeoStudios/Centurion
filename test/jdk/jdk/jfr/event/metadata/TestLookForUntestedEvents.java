@@ -18,25 +18,39 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.jfr.event.metadata;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.reflect.Field;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
 import jdk.jfr.EventType;
 import jdk.jfr.Experimental;
 import jdk.jfr.FlightRecorder;
 import jdk.test.lib.Utils;
 import jdk.test.lib.jfr.EventNames;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test Check for JFR events not covered by tests

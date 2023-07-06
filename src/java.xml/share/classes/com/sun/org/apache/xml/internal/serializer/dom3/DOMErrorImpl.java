@@ -19,14 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.dom3;
+
+
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMError;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMLocator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.serializer.dom3;
 
-import org.w3c.dom.DOMError;
-import org.w3c.dom.DOMLocator;
+
 
 /**
  * Implementation of the DOM Level 3 DOMError interface.

@@ -21,17 +21,30 @@
 
 package gc.g1.humongousObjects;
 
+
 import gc.testlibrary.Helpers;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.Utils;
 import sun.hotspot.WhiteBox;
-
 import java.io.PrintStream;
 import java.math.BigInteger;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test TestHumongousMovement

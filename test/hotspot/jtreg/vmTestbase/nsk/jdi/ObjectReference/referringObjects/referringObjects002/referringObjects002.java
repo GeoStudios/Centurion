@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.ObjectReference.referringObjects.referringObjects002;
+
+
+import java.io.PrintStream;
+import com.sun.jdi.*;
+import nsk.share.Consts;
+import nsk.share.TestBug;
+import nsk.share.jdi.HeapwalkingDebuggee;
+import nsk.share.jdi.HeapwalkingDebugger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key randomness
@@ -65,14 +88,7 @@
  *      -testClassPath ${test.class.path}
  */
 
-package nsk.jdi.ObjectReference.referringObjects.referringObjects002;
 
-import java.io.PrintStream;
-import com.sun.jdi.*;
-import nsk.share.Consts;
-import nsk.share.TestBug;
-import nsk.share.jdi.HeapwalkingDebuggee;
-import nsk.share.jdi.HeapwalkingDebugger;
 
 public class referringObjects002 extends HeapwalkingDebugger {
 

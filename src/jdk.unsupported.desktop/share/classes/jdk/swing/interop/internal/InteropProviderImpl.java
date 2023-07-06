@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.swing.interop.internal;
+package jdk.unsupported.desktop.share.classes.jdk.swing.interop.internal;
+
 
 import sun.swing.InteropProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

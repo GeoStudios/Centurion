@@ -19,27 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.datatransfer;
+package java.datatransfer.share.classes.java.awt.datatransfer;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.lang.ref.SoftReference;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Set;
 
+import java.datatransfer.share.classes.java.io.BufferedReader;
+import java.datatransfer.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.datatransfer.share.classes.java.io.InputStream;
+import java.datatransfer.share.classes.java.io.InputStreamReader;
+import java.datatransfer.share.classes.java.lang.ref.SoftReference;
+import java.datatransfer.share.classes.java.security.AccessController;
+import java.datatransfer.share.classes.java.security.PrivilegedAction;
+import java.datatransfer.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.datatransfer.share.classes.java.util.Collections;
+import java.datatransfer.share.classes.java.util.HashMap;
+import java.datatransfer.share.classes.java.util.HashSet;
+import java.datatransfer.share.classes.java.util.LinkedHashSet;
+import java.datatransfer.share.classes.java.util.java.util.java.util.java.util.List;
+import java.datatransfer.share.classes.java.util.Map;
+import java.datatransfer.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.datatransfer.share.classes.java.util.Set;
 import sun.datatransfer.DataFlavorUtil;
 import sun.datatransfer.DesktopDatatransferService;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The SystemFlavorMap is a configurable map between "natives" (Strings), which

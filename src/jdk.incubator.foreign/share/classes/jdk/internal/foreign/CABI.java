@@ -18,12 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.foreign;
+
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
+
 
 import sun.security.action.GetPropertyAction;
+import static jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryLayouts.ADDRESS;.extended
+import static sun.security.action.GetPropertyAction.privilegedGetProperty;.extended
 
-import static jdk.incubator.foreign.MemoryLayouts.ADDRESS;
-import static sun.security.action.GetPropertyAction.privilegedGetProperty;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public enum CABI {
     SysV,

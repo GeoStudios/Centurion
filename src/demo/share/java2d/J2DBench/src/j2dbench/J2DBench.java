@@ -19,16 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * This source code is provided to illustrate the usage of a given feature
- * or technique and has been deliberately simplified. Additional steps
- * required for a production-quality application, such as security checks,
- * input validation and proper error handling, might not be present in
- * this sample code.
- */
+package demo.share.java2d.J2DBench.src.j2dbench;
 
-
-package j2dbench;
 
 import java.awt.GraphicsEnvironment;
 import java.awt.Rectangle;
@@ -37,12 +29,12 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.LineNumberReader;
 import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.File;
 import java.awt.Frame;
 import java.awt.Dimension;
 import java.awt.BorderLayout;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.event.ActionEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
@@ -54,21 +46,47 @@ import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 import javax.swing.WindowConstants;
-
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import demo.share.java2d.J2DBench.src.j2dbench.tests.GraphicsTests;
+import demo.share.java2d.J2DBench.src.j2dbench.tests.ImageTests;
+import demo.share.java2d.J2DBench.src.j2dbench.tests.MiscTests;
+import demo.share.java2d.J2DBench.src.j2dbench.tests.RenderTests;
+import demo.share.java2d.J2DBench.src.j2dbench.tests.PixelTests;
+import demo.share.java2d.J2DBench.src.j2dbench.tests.iio.IIOTests;
+import demo.share.java2d.J2DBench.src.j2dbench.tests.cmm.CMMTests;
+import demo.share.java2d.J2DBench.src.j2dbench.tests.text.TextConstructionTests;
+import demo.share.java2d.J2DBench.src.j2dbench.tests.text.TextMeasureTests;
+import demo.share.java2d.J2DBench.src.j2dbench.tests.text.TextRenderTests;
+import demo.share.java2d.J2DBench.src.j2dbench.tests.text.TextTests;
 
-import j2dbench.tests.GraphicsTests;
-import j2dbench.tests.ImageTests;
-import j2dbench.tests.MiscTests;
-import j2dbench.tests.RenderTests;
-import j2dbench.tests.PixelTests;
-import j2dbench.tests.iio.IIOTests;
-import j2dbench.tests.cmm.CMMTests;
-import j2dbench.tests.text.TextConstructionTests;
-import j2dbench.tests.text.TextMeasureTests;
-import j2dbench.tests.text.TextRenderTests;
-import j2dbench.tests.text.TextTests;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * This source code is provided to illustrate the usage of a given feature
+ * or technique and has been deliberately simplified. Additional steps
+ * required for a production-quality application, such as security checks,
+ * input validation and proper error handling, might not be present in
+ * this sample code.
+ */
+
+
+
+
+
+
 
 public class J2DBench {
     static Group progoptroot;
@@ -355,7 +373,7 @@ public class J2DBench {
                      usage(1);
                 }
             } else {
-                String reason = Group.root.setOption(arg);
+                String reason = Group.setOption(arg);
                 if (reason != null) {
                     System.err.println("Option "+arg+" ignored: "+reason);
                 }
@@ -500,7 +518,7 @@ public class J2DBench {
         String line;
         try {
             while ((line = lnr.readLine()) != null) {
-                String reason = Group.root.setOption(line);
+                String reason = Group.setOption(line);
                 if (reason != null) {
                     System.err.println("Option "+line+
                                        " at line "+lnr.getLineNumber()+

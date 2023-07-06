@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.util.function.Consumer;
+
+import java.base.share.classes.java.util.function.Consumer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An iterator over a collection.  {@code Iterator} takes the place of

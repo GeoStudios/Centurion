@@ -19,22 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.modelmbean;
+package java.management.share.classes.javax.management.modelmbean;
 
-import static com.sun.jmx.defaults.JmxProperties.MODELMBEAN_LOGGER;
+
+import static com.sun.jmx.defaults.JmxProperties.MODELMBEAN_LOGGER;.extended
 import com.sun.jmx.mbeanserver.GetPropertyAction;
-
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.ObjectStreamField;
 import java.security.AccessController;
 import java.lang.System.Logger.Level;
+import java.management.share.classes.javax.management.Descriptor;
+import java.management.share.classes.javax.management.DescriptorAccess;
+import java.management.share.classes.javax.management.MBeanNotificationInfo;
+import java.management.share.classes.javax.management.RuntimeOperationsException;
 
-import javax.management.Descriptor;
-import javax.management.DescriptorAccess;
-import javax.management.MBeanNotificationInfo;
-import javax.management.RuntimeOperationsException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>The ModelMBeanNotificationInfo object describes a notification emitted

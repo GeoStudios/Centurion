@@ -21,6 +21,27 @@
 
 package gc.g1;
 
+
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import static jdk.test.lib.Asserts.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestEagerReclaimHumongousRegionsWithRefs
  * @bug 8048179
@@ -36,13 +57,7 @@ package gc.g1;
  * @run driver gc.g1.TestEagerReclaimHumongousRegionsWithRefs
  */
 
-import java.util.regex.Pattern;
-import java.util.regex.Matcher;
-import java.util.LinkedList;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import static jdk.test.lib.Asserts.*;
 
 class RefHolder {
   Object ref;

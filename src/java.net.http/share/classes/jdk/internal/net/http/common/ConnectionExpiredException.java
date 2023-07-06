@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http.common;
+package java.net.http.share.classes.jdk.internal.net.http.common;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Signals that an end of file or end of stream has been reached

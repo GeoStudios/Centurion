@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.synth;
+package java.desktop.share.classes.javax.swing.plaf.synth;
+
 
 import java.awt.Color;
 import java.awt.Component;
@@ -30,25 +31,38 @@ import java.awt.Graphics;
 import java.awt.Insets;
 import java.awt.Rectangle;
 import java.awt.event.ComponentEvent;
-import java.awt.event.ComponentListener;
+import java.awt.event.Componentjava.util.Listener;
 import java.awt.event.ContainerEvent;
-import java.awt.event.ContainerListener;
+import java.awt.event.Containerjava.util.Listener;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.beans.PropertyVetoException;
+import java.desktop.share.classes.javax.swing.DefaultDesktopManager;
+import java.desktop.share.classes.javax.swing.DesktopManager;
+import java.desktop.share.classes.javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.JDesktopPane;
+import java.desktop.share.classes.javax.swing.JInternalFrame;
+import java.desktop.share.classes.javax.swing.JLayeredPane;
+import java.desktop.share.classes.javax.swing.JPanel;
+import java.desktop.share.classes.javax.swing.UIManager;
+import java.desktop.share.classes.javax.swing.border.BevelBorder;
+import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
+import java.desktop.share.classes.javax.swing.plaf.UIResource;
+import java.desktop.share.classes.javax.swing.plaf.basic.BasicDesktopPaneUI;
 
-import javax.swing.DefaultDesktopManager;
-import javax.swing.DesktopManager;
-import javax.swing.JComponent;
-import javax.swing.JDesktopPane;
-import javax.swing.JInternalFrame;
-import javax.swing.JLayeredPane;
-import javax.swing.JPanel;
-import javax.swing.UIManager;
-import javax.swing.border.BevelBorder;
-import javax.swing.plaf.ComponentUI;
-import javax.swing.plaf.UIResource;
-import javax.swing.plaf.basic.BasicDesktopPaneUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the Synth L&amp;F UI delegate for

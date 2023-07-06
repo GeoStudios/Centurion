@@ -21,15 +21,29 @@
 
 package jdk.test.lib.jittester.factories;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.CastOperator;
 import jdk.test.lib.jittester.IRNode;
 import jdk.test.lib.jittester.ProductionFailedException;
 import jdk.test.lib.jittester.SymbolTable;
 import jdk.test.lib.jittester.Type;
-import jdk.test.lib.jittester.TypeList;
+import jdk.test.lib.jittester.Typejava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.PseudoRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class CastOperatorFactory extends OperatorFactory<CastOperator> {
     private final Type resultType;

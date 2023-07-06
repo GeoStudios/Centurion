@@ -21,10 +21,23 @@
 
 package jdk.jfr.jmx;
 
-import java.util.List;
 
+import java.util.java.util.java.util.java.util.List;
 import jdk.management.jfr.FlightRecorderMXBean;
 import jdk.management.jfr.RecordingInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

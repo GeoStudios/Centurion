@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.net;
+package jdk.net.share.classes.jdk.net;
+
 
 import java.security.BasicPermission;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents permission to access the extended networking capabilities

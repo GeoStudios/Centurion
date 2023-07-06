@@ -18,7 +18,24 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.services;
+
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.services.src.jdk.vm.ci.services;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Marker interface for methods which are called from the JVM.

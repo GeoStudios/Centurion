@@ -19,6 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.ReferenceType.instances.instances003;
+
+
+import java.io.PrintStream;
+import java.util.*;
+import com.sun.jdi.ObjectCollectedException;
+import com.sun.jdi.ObjectReference;
+import com.sun.jdi.ReferenceType;
+import nsk.share.Consts;
+import nsk.share.ObjectInstancesManager;
+import nsk.share.TestBug;
+import nsk.share.jdi.HeapwalkingDebuggee;
+import nsk.share.jdi.HeapwalkingDebugger;
+import nsk.share.jpda.AbstractDebuggeeTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -54,21 +82,9 @@
  *      -testClassNames nsk.jdi.ReferenceType.instances.instances003.instances003$TestClassLoader:java.lang.String:java.lang.Thread
  */
 
-package nsk.jdi.ReferenceType.instances.instances003;
 
-import java.io.PrintStream;
-import java.util.*;
 
-import com.sun.jdi.ObjectCollectedException;
-import com.sun.jdi.ObjectReference;
-import com.sun.jdi.ReferenceType;
 
-import nsk.share.Consts;
-import nsk.share.ObjectInstancesManager;
-import nsk.share.TestBug;
-import nsk.share.jdi.HeapwalkingDebuggee;
-import nsk.share.jdi.HeapwalkingDebugger;
-import nsk.share.jpda.AbstractDebuggeeTest;
 
 public class instances003 extends HeapwalkingDebugger {
     // use subclass of java.lang.ClassLoader to be sure that there are no its instances in debuggee VM

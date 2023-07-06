@@ -18,14 +18,15 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d.demos.Lines;
+
+package demo.share.jfc.J2Ddemo.java2d.demos.Lines;
 
 
-import static java.awt.Color.BLACK;
-import static java.awt.Color.GRAY;
-import static java.awt.Color.LIGHT_GRAY;
-import static java.awt.Color.PINK;
-import static java.awt.Color.WHITE;
+import static java.awt.Color.BLACK;.extended
+import static java.awt.Color.GRAY;.extended
+import static java.awt.Color.LIGHT_GRAY;.extended
+import static java.awt.Color.PINK;.extended
+import static java.awt.Color.WHITE;.extended
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Graphics2D;
@@ -35,7 +36,20 @@ import java.awt.geom.GeneralPath;
 import java.awt.geom.Line2D;
 import java.awt.geom.PathIterator;
 import java.awt.geom.Point2D;
-import java2d.AnimatingSurface;
+import demo.share.jfc.J2Ddemo.java2d.AnimatingSurface;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

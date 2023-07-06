@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.lang.model.element;
+package java.compiler.share.classes.javax.lang.model.element;
 
 
-import java.util.List;
-import javax.lang.model.type.TypeMirror;
-import javax.lang.model.util.*;
+import java.util.java.util.java.util.java.util.List;
+import java.compiler.share.classes.javax.lang.model.type.TypeMirror;
+import java.compiler.share.classes.javax.lang.model.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A visitor of the values of annotation interface elements, using a

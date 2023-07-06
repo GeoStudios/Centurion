@@ -18,12 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.view;
 
-import java.awt.*;
-import java.awt.event.*;
+package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view;
+
+
+import utils.IdealGraphVisualizer.View.src.main.java.awt.*;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.event.*;
 import javax.swing.JComponent;
 import org.netbeans.api.visual.widget.Scene;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

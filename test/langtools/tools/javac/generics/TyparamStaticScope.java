@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package typaram.static_.scope;
+
+
+import java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4994261
@@ -28,9 +46,7 @@
  * @compile  TyparamStaticScope.java
  */
 
-package typaram.static_.scope;
 
-import java.util.Set;
 
 class JBug<T> {
     abstract class Inner1 implements Set<T> { }

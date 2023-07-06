@@ -19,20 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.colorchooser;
+package java.desktop.share.classes.javax.swing.colorchooser;
+
 
 import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
+import java.awt.event.Focusjava.util.Listener;
 import java.text.ParseException;
-import static java.util.Locale.ENGLISH;
-import javax.swing.JFormattedTextField;
-import javax.swing.JFormattedTextField.AbstractFormatter;
-import javax.swing.SwingConstants;
-import javax.swing.SwingUtilities;
-import javax.swing.text.AttributeSet;
-import javax.swing.text.BadLocationException;
-import javax.swing.text.DefaultFormatterFactory;
-import javax.swing.text.DocumentFilter;
+import static java.util.Locale.ENGLISH;.extended
+import java.desktop.share.classes.javax.swing.JFormattedTextField;
+import java.desktop.share.classes.javax.swing.JFormattedTextField.AbstractFormatter;
+import java.desktop.share.classes.javax.swing.SwingConstants;
+import java.desktop.share.classes.javax.swing.SwingUtilities;
+import java.desktop.share.classes.javax.swing.text.AttributeSet;
+import java.desktop.share.classes.javax.swing.text.BadLocationException;
+import java.desktop.share.classes.javax.swing.text.DefaultFormatterFactory;
+import java.desktop.share.classes.javax.swing.text.DocumentFilter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // Same-version serialization only
 final class ValueFormatter extends AbstractFormatter implements FocusListener, Runnable {

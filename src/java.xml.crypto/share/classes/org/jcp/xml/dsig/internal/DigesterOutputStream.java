@@ -19,19 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal;
+
+
+import java.io.ByteArrayInputStream;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.security.MessageDigest;
+import com.sun.org.apache.xml.internal.security.utils.UnsyncByteArrayOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package org.jcp.xml.dsig.internal;
 
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.security.MessageDigest;
 
-import com.sun.org.apache.xml.internal.security.utils.UnsyncByteArrayOutputStream;
+
 
 /**
  * This class has been modified slightly to use java.security.MessageDigest

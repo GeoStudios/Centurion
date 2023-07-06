@@ -21,9 +21,9 @@
 
 package jdk.jfr.jvm;
 
-import java.io.IOException;
-import java.util.List;
 
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.java.util.java.util.java.util.List;
 import jdk.jfr.Event;
 import jdk.jfr.Recording;
 import jdk.jfr.ValueDescriptor;
@@ -31,6 +31,19 @@ import jdk.jfr.consumer.RecordedEvent;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.jfr.EventNames;
 import jdk.test.lib.jfr.Events;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test TestFatEvent

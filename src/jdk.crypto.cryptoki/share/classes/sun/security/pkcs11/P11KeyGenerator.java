@@ -19,16 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs11;
+package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11;
 
-import java.security.*;
+
+import java.base.share.classes.java.security.*;
 import java.security.spec.AlgorithmParameterSpec;
+import java.base.share.classes.javax.crypto.*;
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.TemplateManager.*;.extended
+import jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.*;
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Constants.*;.extended
 
-import javax.crypto.*;
 
-import static sun.security.pkcs11.TemplateManager.*;
-import sun.security.pkcs11.wrapper.*;
-import static sun.security.pkcs11.wrapper.PKCS11Constants.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * KeyGenerator implementation class. This class currently supports
@@ -327,8 +340,7 @@ final class P11KeyGenerator extends KeyGeneratorSpi {
         try {
             newSignificantKeySize = checkKeySize(mechanism, keySize, range);
         } catch (InvalidAlgorithmParameterException iape) {
-            throw (InvalidParameterException)
-                    (new InvalidParameterException(iape));
+            throw new InvalidParameterException(iape);
         }
         if ((mechanism == CKM_DES2_KEY_GEN) ||
             (mechanism == CKM_DES3_KEY_GEN))  {

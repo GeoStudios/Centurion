@@ -19,14 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * This file is available under and governed by the GNU General Public
- * License version 2 only, as published by the Free Software Foundation.
- * However, the following notice accompanied the original version of this
- * file, and Oracle licenses the original version of this file under the BSD
- * license:
- */
-package jdk.dynalink.beans;
+package jdk.dynalink.share.classes.jdk.dynalink.beans;
+
 
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
@@ -38,10 +32,34 @@ import java.lang.reflect.Modifier;
 import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import jdk.dynalink.CallSiteDescriptor;
-import jdk.dynalink.SecureLookupSupplier;
-import jdk.dynalink.internal.AccessControlContextFactory;
-import jdk.dynalink.linker.support.Lookup;
+import jdk.dynalink.share.classes.jdk.dynalink.CallSiteDescriptor;
+import jdk.dynalink.share.classes.jdk.dynalink.SecureLookupSupplier;
+import jdk.dynalink.share.classes.jdk.dynalink.internal.AccessControlContextFactory;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.support.Lookup;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * This file is available under and governed by the GNU General Public
+ * License version 2 only, as published by the Free Software Foundation.
+ * However, the following notice accompanied the original version of this
+ * file, and Oracle licenses the original version of this file under the BSD
+ * license:
+ */
+
+
 
 /**
  * A dynamic method bound to exactly one Java method or constructor that is caller sensitive. Since the target method is

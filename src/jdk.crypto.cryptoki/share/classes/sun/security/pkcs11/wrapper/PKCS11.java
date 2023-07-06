@@ -19,19 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs11.wrapper;
+package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper;
+
 
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.*;
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
+import jdk.crypto.cryptoki.share.classes.sun.security.util.Debug;
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Constants.*;.extended
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Exception.*;.extended
 
-import sun.security.util.Debug;
 
-import static sun.security.pkcs11.wrapper.PKCS11Constants.*;
-import static sun.security.pkcs11.wrapper.PKCS11Exception.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the default implementation of the PKCS11 interface. IT connects to

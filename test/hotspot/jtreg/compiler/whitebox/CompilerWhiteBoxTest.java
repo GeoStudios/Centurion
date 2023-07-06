@@ -21,14 +21,27 @@
 
 package compiler.whitebox;
 
+
 import jdk.test.lib.Platform;
 import sun.hotspot.WhiteBox;
 import sun.hotspot.code.NMethod;
-
 import java.lang.reflect.Executable;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.Callable;
 import java.util.function.Function;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract class for WhiteBox testing of JIT.

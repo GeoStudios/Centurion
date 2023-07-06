@@ -21,14 +21,14 @@
 
 package util;
 
+
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileReader;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.StringReader;
 import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
-
 import javax.xml.stream.XMLEventFactory;
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLOutputFactory;
@@ -37,8 +37,20 @@ import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 import javax.xml.stream.events.XMLEvent;
-
 import org.testng.Assert;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base class for all StaxTest unit test classes. Contains shared

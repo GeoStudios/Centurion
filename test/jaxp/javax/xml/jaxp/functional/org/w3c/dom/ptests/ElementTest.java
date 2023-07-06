@@ -18,33 +18,45 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.w3c.dom.ptests;
 
-import static javax.xml.XMLConstants.XML_NS_URI;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertNull;
-import static org.testng.Assert.assertTrue;
-import static org.testng.Assert.fail;
-import static org.w3c.dom.DOMException.INUSE_ATTRIBUTE_ERR;
-import static org.w3c.dom.ptests.DOMTestUtil.DOMEXCEPTION_EXPECTED;
-import static org.w3c.dom.ptests.DOMTestUtil.createDOM;
-import static org.w3c.dom.ptests.DOMTestUtil.createDOMWithNS;
-import static org.w3c.dom.ptests.DOMTestUtil.createNewDocument;
 
+import static javax.xml.XMLConstants.XML_NS_URI;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertNull;.extended
+import static org.testng.Assert.assertTrue;.extended
+import static org.testng.Assert.fail;.extended
+import static org.w3c.dom.DOMException.INUSE_ATTRIBUTE_ERR;.extended
+import static org.w3c.dom.ptests.DOMTestUtil.DOMEXCEPTION_EXPECTED;.extended
+import static org.w3c.dom.ptests.DOMTestUtil.createDOM;.extended
+import static org.w3c.dom.ptests.DOMTestUtil.createDOMWithNS;.extended
+import static org.w3c.dom.ptests.DOMTestUtil.createNewDocument;.extended
 import java.io.StringReader;
-
 import javax.xml.parsers.DocumentBuilderFactory;
-
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.Attr;
 import org.w3c.dom.DOMException;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import org.xml.sax.InputSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

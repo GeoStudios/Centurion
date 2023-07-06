@@ -18,12 +18,13 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.jfr.event.gc.stacktrace;
+
 
 import javax.management.MBeanServer;
 import java.lang.management.ManagementFactory;
 import com.sun.management.GarbageCollectorMXBean;
-
 import jdk.jfr.Recording;
 import jdk.jfr.consumer.RecordedEvent;
 import jdk.jfr.consumer.RecordedStackTrace;
@@ -32,15 +33,26 @@ import jdk.jfr.consumer.RecordedMethod;
 import jdk.jfr.consumer.RecordedThread;
 import jdk.test.lib.jfr.EventNames;
 import jdk.test.lib.jfr.Events;
-
-import java.util.List;
-import java.util.ArrayList;
-
+import java.util.java.util.java.util.java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class MemoryAllocator {
 

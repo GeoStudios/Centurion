@@ -19,18 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.security.cert;
+package java.base.share.classes.java.security.cert;
 
-import java.util.Arrays;
 
-import java.security.Provider;
-import java.security.PublicKey;
-import java.security.NoSuchAlgorithmException;
-import java.security.NoSuchProviderException;
-import java.security.InvalidKeyException;
-import java.security.SignatureException;
-
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.security.Provider;
+import java.base.share.classes.java.security.PublicKey;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchProviderException;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.SignatureException;
 import sun.security.x509.X509CertImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Abstract class for managing a variety of identity certificates.

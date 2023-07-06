@@ -21,6 +21,21 @@
 
 package pkg2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Fields<E> implements java.io.Serializable {
     /** Some doc. */
     public Class<E> someClass;

@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.datatransfer;
+package java.desktop.share.classes.sun.awt.datatransfer;
 
-import sun.awt.AppContext;
-import sun.datatransfer.DesktopDatatransferService;
 
+import java.desktop.share.classes.sun.awt.AppContext;
+import java.desktop.share.classes.sun.datatransfer.DesktopDatatransferService;
 import java.awt.EventQueue;
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.FlavorMap;
 import java.util.LinkedHashSet;
 import java.util.function.Supplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides desktop services to the datatransfer module according to

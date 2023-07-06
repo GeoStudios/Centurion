@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.test.whitebox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test WhiteBox
  * @bug 8011675
@@ -31,7 +48,6 @@
  * @run main/othervm -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI -XX:-CheckIntrinsics jdk.test.whitebox.WhiteBox
  */
 
-package jdk.test.whitebox;
 
 public class WhiteBox {
     @SuppressWarnings("serial")

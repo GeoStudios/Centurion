@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8214239
@@ -32,7 +49,6 @@
  *                   compiler.c2.TestBitSetAndReset
  */
 
-package compiler.c2;
 
 public class TestBitSetAndReset {
     private static final int COUNT = 10_000;

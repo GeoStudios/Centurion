@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.sql.rowset;
+package java.sql.rowset.share.classes.javax.sql.rowset;
+
 
 import java.sql.SQLException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An interface that defines the implementation of a factory that is used

@@ -18,10 +18,12 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.management.jfr;
+
+package jdk.management.jfr.share.classes.jdk.management.jfr;
+
 
 import java.io.Closeable;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
@@ -35,16 +37,29 @@ import java.time.LocalDateTime;
 import java.time.OffsetDateTime;
 import java.time.ZoneOffset;
 import java.util.ArrayDeque;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Deque;
 import java.util.Iterator;
-import java.util.List;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.Queue;
+import jdk.management.jfr.share.classes.jdk.jfr.internal.management.ChunkFilename;
+import jdk.management.jfr.share.classes.jdk.jfr.internal.management.ManagementSupport;
 
-import jdk.jfr.internal.management.ChunkFilename;
-import jdk.jfr.internal.management.ManagementSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class DiskRepository implements Closeable {
 

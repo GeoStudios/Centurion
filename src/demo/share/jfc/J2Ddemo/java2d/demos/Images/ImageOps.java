@@ -18,7 +18,8 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d.demos.Images;
+
+package demo.share.jfc.J2Ddemo.java2d.demos.Images;
 
 
 import java.awt.BorderLayout;
@@ -29,7 +30,7 @@ import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.Image;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
 import java.awt.image.BufferedImageOp;
@@ -38,13 +39,26 @@ import java.awt.image.ConvolveOp;
 import java.awt.image.Kernel;
 import java.awt.image.LookupOp;
 import java.awt.image.RescaleOp;
-import java2d.ControlsSurface;
-import java2d.CustomControls;
+import demo.share.jfc.J2Ddemo.java2d.ControlsSurface;
+import demo.share.jfc.J2Ddemo.java2d.CustomControls;
 import javax.swing.JComboBox;
 import javax.swing.JSlider;
 import javax.swing.SwingConstants;
 import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
+import javax.swing.event.Changejava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

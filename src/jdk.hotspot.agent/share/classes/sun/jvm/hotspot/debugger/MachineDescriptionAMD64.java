@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MachineDescriptionAMD64 extends MachineDescriptionTwosComplement implements MachineDescription {
   public long getAddressSize() {

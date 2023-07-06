@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.cs;
+package java.base.share.classes.sun.nio.cs;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * FastPath char[]/byte[] -> byte[] encoder, REPLACE on malformed input or

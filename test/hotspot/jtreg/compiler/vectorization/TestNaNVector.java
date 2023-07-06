@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.vectorization;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8160425
@@ -29,7 +46,6 @@
  *      -XX:MaxVectorSize=4 compiler.vectorization.TestNaNVector
  */
 
-package compiler.vectorization;
 
 public class TestNaNVector {
     private char[] array;

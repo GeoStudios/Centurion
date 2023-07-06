@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.dnd;
+package java.desktop.share.classes.sun.awt.dnd;
+
 
 import java.awt.AWTEvent;
 import java.awt.Component;
@@ -27,9 +28,7 @@ import java.awt.Cursor;
 import java.awt.EventQueue;
 import java.awt.Image;
 import java.awt.Point;
-
 import java.awt.datatransfer.Transferable;
-
 import java.awt.dnd.DnDConstants;
 import java.awt.dnd.DragSourceContext;
 import java.awt.dnd.DragSourceEvent;
@@ -37,18 +36,27 @@ import java.awt.dnd.DragSourceDropEvent;
 import java.awt.dnd.DragSourceDragEvent;
 import java.awt.dnd.DragGestureEvent;
 import java.awt.dnd.InvalidDnDOperationException;
-
 import java.awt.dnd.peer.DragSourceContextPeer;
-
 import java.awt.event.InputEvent;
 import java.awt.event.MouseEvent;
-
 import java.util.Map;
 import java.util.SortedMap;
-
-import sun.awt.SunToolkit;
-import sun.awt.datatransfer.DataTransferer;
+import java.desktop.share.classes.sun.awt.SunToolkit;
+import java.desktop.share.classes.sun.awt.datatransfer.DataTransferer;
 import java.awt.datatransfer.DataFlavor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

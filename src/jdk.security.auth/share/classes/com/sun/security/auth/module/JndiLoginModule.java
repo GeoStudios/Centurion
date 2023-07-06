@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.security.auth.module;
+package jdk.security.auth.share.classes.com.sun.security.auth.module;
+
 
 import javax.security.auth.*;
 import javax.security.auth.callback.*;
@@ -27,15 +28,26 @@ import javax.security.auth.login.*;
 import javax.security.auth.spi.*;
 import javax.naming.*;
 import javax.naming.directory.*;
-
 import java.nio.charset.StandardCharsets;
 import java.util.Map;
-import java.util.LinkedList;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import jdk.security.auth.share.classes.com.sun.security.auth.UnixPrincipal;
+import jdk.security.auth.share.classes.com.sun.security.auth.UnixNumericUserPrincipal;
+import jdk.security.auth.share.classes.com.sun.security.auth.UnixNumericGroupPrincipal;
+import static jdk.security.auth.share.classes.com.sun.security.util.ResourcesMgr.getAuthResourceString;.extended
 
-import com.sun.security.auth.UnixPrincipal;
-import com.sun.security.auth.UnixNumericUserPrincipal;
-import com.sun.security.auth.UnixNumericGroupPrincipal;
-import static sun.security.util.ResourcesMgr.getAuthResourceString;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

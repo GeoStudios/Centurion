@@ -19,16 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.parser;
+package jdk.compiler.share.classes.com.sun.tools.javac.parser;
+
 
 import java.nio.CharBuffer;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Lint;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Preview;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Source;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Names;
 
-import com.sun.tools.javac.code.Lint;
-import com.sun.tools.javac.code.Preview;
-import com.sun.tools.javac.code.Source;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.Log;
-import com.sun.tools.javac.util.Names;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

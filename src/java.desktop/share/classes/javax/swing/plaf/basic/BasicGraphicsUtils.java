@@ -18,9 +18,11 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.plaf.basic;
 
-import javax.swing.*;
+package java.desktop.share.classes.javax.swing.plaf.basic;
+
+
+import java.desktop.share.classes.javax.swing.*;
 import java.awt.Component;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -32,8 +34,20 @@ import java.awt.Insets;
 import java.awt.Rectangle;
 import java.awt.Toolkit;
 import java.awt.event.InputEvent;
-
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.attach;
+package jdk.attach.share.classes.com.sun.tools.attach;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The exception thrown when an agent fails to initialize in the target

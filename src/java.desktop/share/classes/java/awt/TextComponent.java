@@ -19,19 +19,19 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.event.TextEvent;
-import java.awt.event.TextListener;
-import java.awt.im.InputMethodRequests;
-import java.awt.peer.TextComponentPeer;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serial;
-import java.text.BreakIterator;
-import java.util.EventListener;
 
+import java.desktop.share.classes.java.awt.event.TextEvent;
+import java.desktop.share.classes.java.awt.event.Textjava.util.Listener;
+import java.desktop.share.classes.java.awt.im.InputMethodRequests;
+import java.desktop.share.classes.java.awt.peer.TextComponentPeer;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.ObjectOutputStream;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.text.BreakIterator;
+import java.desktop.share.classes.java.util.Eventjava.util.Listener;
 import javax.accessibility.Accessible;
 import javax.accessibility.AccessibleContext;
 import javax.accessibility.AccessibleRole;
@@ -39,9 +39,22 @@ import javax.accessibility.AccessibleState;
 import javax.accessibility.AccessibleStateSet;
 import javax.accessibility.AccessibleText;
 import javax.swing.text.AttributeSet;
-
 import sun.awt.AWTPermissions;
 import sun.awt.InputMethodSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code TextComponent} class is the superclass of

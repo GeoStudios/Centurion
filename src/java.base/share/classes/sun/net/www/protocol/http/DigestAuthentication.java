@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.protocol.http;
+package java.base.share.classes.sun.net.www.protocol.http;
+
 
 import java.io.*;
 import java.net.PasswordAuthentication;
@@ -27,17 +28,29 @@ import java.net.ProtocolException;
 import java.net.URL;
 import java.security.AccessController;
 import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.PrivilegedAction;
-import java.util.Arrays;
-import java.util.Objects;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.java.util.Objects;
 import java.util.Random;
+import java.base.share.classes.sun.net.NetProperties;
+import java.base.share.classes.sun.net.www.HeaderParser;
+import java.base.share.classes.sun.nio.cs.ISO_8859_1;
+import static java.base.share.classes.sun.net.www.protocol.http.HttpURLConnection.HTTP_CONNECT;.extended
 
-import sun.net.NetProperties;
-import sun.net.www.HeaderParser;
-import sun.nio.cs.ISO_8859_1;
 
-import static sun.net.www.protocol.http.HttpURLConnection.HTTP_CONNECT;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * DigestAuthentication: Encapsulate an http server authentication using

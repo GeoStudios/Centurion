@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-import com.sun.jdi.BooleanValue;
-import com.sun.jdi.ClassNotLoadedException;
-import com.sun.jdi.InternalException;
-import com.sun.jdi.InvalidTypeException;
-import com.sun.jdi.PrimitiveValue;
-import com.sun.jdi.VirtualMachine;
+
+import jdk.jdi.share.classes.com.sun.jdi.BooleanValue;
+import jdk.jdi.share.classes.com.sun.jdi.ClassNotLoadedException;
+import jdk.jdi.share.classes.com.sun.jdi.InternalException;
+import jdk.jdi.share.classes.com.sun.jdi.InvalidTypeException;
+import jdk.jdi.share.classes.com.sun.jdi.PrimitiveValue;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class PrimitiveValueImpl extends ValueImpl
                                          implements PrimitiveValue

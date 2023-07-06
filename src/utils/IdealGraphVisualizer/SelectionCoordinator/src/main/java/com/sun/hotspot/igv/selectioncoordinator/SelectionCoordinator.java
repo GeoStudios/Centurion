@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.hotspot.igv.selectioncoordinator;
+package utils.IdealGraphVisualizer.SelectionCoordinator.src.main.java.com.sun.hotspot.igv.selectioncoordinator;
 
-import com.sun.hotspot.igv.data.ChangedEvent;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Set;
+
+import utils.IdealGraphVisualizer.SelectionCoordinator.src.main.java.com.sun.hotspot.igv.data.ChangedEvent;
+import utils.IdealGraphVisualizer.SelectionCoordinator.src.main.java.util.Collections;
+import utils.IdealGraphVisualizer.SelectionCoordinator.src.main.java.util.HashSet;
+import utils.IdealGraphVisualizer.SelectionCoordinator.src.main.java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

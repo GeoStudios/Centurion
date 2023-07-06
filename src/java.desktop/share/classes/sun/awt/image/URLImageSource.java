@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.image;
+package java.desktop.share.classes.sun.awt.image;
+
 
 import java.io.InputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
 import java.net.MalformedURLException;
-import sun.net.util.URLUtil;
+import java.desktop.share.classes.sun.net.util.URLUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class URLImageSource extends InputStreamImageSource {
     URL url;

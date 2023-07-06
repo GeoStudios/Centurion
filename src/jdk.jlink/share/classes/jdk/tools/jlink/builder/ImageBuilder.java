@@ -18,14 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.tools.jlink.builder;
+
+package jdk.jlink.share.classes.jdk.tools.jlink.builder;
+
 
 import java.io.DataOutputStream;
 import java.util.Properties;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.ExecutableImage;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.PluginException;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePool;
 
-import jdk.tools.jlink.internal.ExecutableImage;
-import jdk.tools.jlink.plugin.PluginException;
-import jdk.tools.jlink.plugin.ResourcePool;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implement this interface to develop your own image layout. First the jimage

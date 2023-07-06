@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.macosx.classes.sun.font;
+
 
 import java.awt.Rectangle;
 import java.awt.geom.*;
 import java.util.*;
+import java.desktop.macosx.classes.sun.awt.SunHints;
 
-import sun.awt.SunHints;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class CStrike extends PhysicalStrike {
 

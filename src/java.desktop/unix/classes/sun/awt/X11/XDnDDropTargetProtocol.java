@@ -19,27 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.Point;
-
 import java.awt.dnd.DnDConstants;
-
 import java.awt.event.MouseEvent;
-
-import java.io.IOException;
-
-import sun.util.logging.PlatformLogger;
-
+import java.io.java.io.java.io.java.io.IOException;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 import jdk.internal.misc.Unsafe;
-
 import java.awt.Rectangle;
-
 import java.awt.GraphicsDevice;
-
 import java.awt.GraphicsEnvironment;
+import java.desktop.unix.classes.sun.awt.X11GraphicsConfig;
 
-import sun.awt.X11GraphicsConfig;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * XDropTargetProtocol implementation for XDnD protocol.
@@ -1034,7 +1040,7 @@ class XDnDDropTargetProtocol extends XDropTargetProtocol {
         if (xclient != null) {
             int size = new XClientMessageEvent(nativeCtxt).getSize();
 
-            nativeCtxt = unsafe.allocateMemory(size + 4 * Native.getLongSize());
+            nativeCtxt = unsafe.allocateMemory(size + 4L * Native.getLongSize());
 
             unsafe.copyMemory(xclient.pData, nativeCtxt, size);
 
@@ -1046,9 +1052,9 @@ class XDnDDropTargetProtocol extends XDropTargetProtocol {
             Native.putLong(nativeCtxt + size, data1);
             Native.putLong(nativeCtxt + size + Native.getLongSize(),
                            sourceFormats.length > 0 ? sourceFormats[0] : 0);
-            Native.putLong(nativeCtxt + size + 2 * Native.getLongSize(),
+            Native.putLong(nativeCtxt + size + 2L * Native.getLongSize(),
                            sourceFormats.length > 1 ? sourceFormats[1] : 0);
-            Native.putLong(nativeCtxt + size + 3 * Native.getLongSize(),
+            Native.putLong(nativeCtxt + size + 3L * Native.getLongSize(),
                            sourceFormats.length > 2 ? sourceFormats[2] : 0);
         }
 
@@ -1094,8 +1100,8 @@ class XDnDDropTargetProtocol extends XDropTargetProtocol {
             if (!overXEmbedClient) {
                 long data1 = Native.getLong(ctxt + size);
                 long data2 = Native.getLong(ctxt + size + Native.getLongSize());
-                long data3 = Native.getLong(ctxt + size + 2 * Native.getLongSize());
-                long data4 = Native.getLong(ctxt + size + 3 * Native.getLongSize());
+                long data3 = Native.getLong(ctxt + size + 2L * Native.getLongSize());
+                long data4 = Native.getLong(ctxt + size + 3L * Native.getLongSize());
 
                 if (logger.isLoggable(PlatformLogger.Level.FINEST)) {
                     logger.finest("         1 "
@@ -1207,9 +1213,9 @@ class XDnDDropTargetProtocol extends XDropTargetProtocol {
         }
 
         if (ctxt != 0 && overXEmbedClient) {
-            prevCtxt = unsafe.allocateMemory(size + 4 * Native.getLongSize());
+            prevCtxt = unsafe.allocateMemory(size + 4L * Native.getLongSize());
 
-            unsafe.copyMemory(ctxt, prevCtxt, size + 4 * Native.getLongSize());
+            unsafe.copyMemory(ctxt, prevCtxt, size + 4L * Native.getLongSize());
         }
 
         return true;

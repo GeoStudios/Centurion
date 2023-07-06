@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.image;
+package java.desktop.share.classes.sun.awt.image;
+
 
 import java.awt.Image;
 import java.awt.image.ImageObserver;
 import java.awt.image.MultiResolutionImage;
 import java.lang.ref.WeakReference;
-import java.util.Arrays;
-import java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.WeakHashMap;
 import java.util.function.Function;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MultiResolutionToolkitImage extends ToolkitImage implements MultiResolutionImage {
 

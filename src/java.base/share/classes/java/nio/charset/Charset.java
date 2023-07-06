@@ -19,30 +19,43 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.nio.charset;
+package java.base.share.classes.java.nio.charset;
+
 
 import jdk.internal.misc.VM;
 import sun.nio.cs.ThreadLocalCoders;
 import sun.security.action.GetPropertyAction;
+import java.base.share.classes.java.nio.ByteBuffer;
+import java.base.share.classes.java.nio.CharBuffer;
+import java.base.share.classes.java.nio.charset.spi.CharsetProvider;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.PrivilegedAction;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.Collections;
+import java.base.share.classes.java.util.HashSet;
+import java.base.share.classes.java.util.Iterator;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.NoSuchElementException;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.ServiceConfigurationError;
+import java.base.share.classes.java.util.ServiceLoader;
+import java.base.share.classes.java.util.Set;
+import java.base.share.classes.java.util.SortedMap;
+import java.base.share.classes.java.util.TreeMap;
 
-import java.nio.ByteBuffer;
-import java.nio.CharBuffer;
-import java.nio.charset.spi.CharsetProvider;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Locale;
-import java.util.Map;
-import java.util.NoSuchElementException;
-import java.util.Objects;
-import java.util.ServiceConfigurationError;
-import java.util.ServiceLoader;
-import java.util.Set;
-import java.util.SortedMap;
-import java.util.TreeMap;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

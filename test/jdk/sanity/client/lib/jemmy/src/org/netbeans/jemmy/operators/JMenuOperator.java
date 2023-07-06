@@ -18,17 +18,17 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.operators;
+
 
 import java.awt.Component;
 import java.awt.Container;
 import java.util.Hashtable;
-
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
 import javax.swing.JPopupMenu;
-import javax.swing.event.MenuListener;
-
+import javax.swing.event.Menujava.util.Listener;
 import org.netbeans.jemmy.Action;
 import org.netbeans.jemmy.ComponentChooser;
 import org.netbeans.jemmy.Outputable;
@@ -39,6 +39,19 @@ import org.netbeans.jemmy.Timeouts;
 import org.netbeans.jemmy.drivers.DescriptablePathChooser;
 import org.netbeans.jemmy.drivers.DriverManager;
 import org.netbeans.jemmy.drivers.MenuDriver;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <BR><BR>Timeouts used: <BR>

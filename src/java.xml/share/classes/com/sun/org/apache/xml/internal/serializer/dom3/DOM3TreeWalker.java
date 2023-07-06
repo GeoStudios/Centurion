@@ -19,15 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.serializer.dom3;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.dom3;
 
-import com.sun.org.apache.xerces.internal.util.XML11Char;
-import com.sun.org.apache.xerces.internal.util.XMLChar;
-import com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory;
-import com.sun.org.apache.xml.internal.serializer.SerializationHandler;
-import com.sun.org.apache.xml.internal.serializer.utils.MsgKey;
-import com.sun.org.apache.xml.internal.serializer.utils.Utils;
-import java.io.IOException;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XML11Char;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.SerializationHandler;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.MsgKey;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.Utils;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.Writer;
 import java.util.Collections;
 import java.util.Enumeration;
@@ -35,27 +36,41 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 import jdk.xml.internal.JdkXmlUtils;
-import org.w3c.dom.Attr;
-import org.w3c.dom.CDATASection;
-import org.w3c.dom.Comment;
-import org.w3c.dom.DOMError;
-import org.w3c.dom.DOMErrorHandler;
-import org.w3c.dom.Document;
-import org.w3c.dom.DocumentType;
-import org.w3c.dom.Element;
-import org.w3c.dom.Entity;
-import org.w3c.dom.EntityReference;
-import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.w3c.dom.ProcessingInstruction;
-import org.w3c.dom.Text;
-import org.w3c.dom.ls.LSSerializerFilter;
-import org.w3c.dom.traversal.NodeFilter;
-import org.xml.sax.Locator;
-import org.xml.sax.SAXException;
-import org.xml.sax.ext.LexicalHandler;
-import org.xml.sax.helpers.LocatorImpl;
+import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
+import java.xml.share.classes.com.sun.org.w3c.dom.CDATASection;
+import java.xml.share.classes.com.sun.org.w3c.dom.Comment;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMError;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMErrorHandler;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.w3c.dom.DocumentType;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.share.classes.com.sun.org.w3c.dom.Entity;
+import java.xml.share.classes.com.sun.org.w3c.dom.EntityReference;
+import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.w3c.dom.ProcessingInstruction;
+import java.xml.share.classes.com.sun.org.w3c.dom.Text;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSSerializerFilter;
+import java.xml.share.classes.com.sun.org.w3c.dom.traversal.NodeFilter;
+import java.xml.share.classes.com.sun.org.xml.sax.Locator;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.helpers.LocatorImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Built on org.apache.xml.serializer.TreeWalker and adds functionality to
@@ -128,10 +143,10 @@ final class DOM3TreeWalker {
     private static final String XML_PREFIX = "xml";
 
     /** stores namespaces in scope */
-    private NamespaceSupport fNSBinder;
+    private final NamespaceSupport fNSBinder;
 
     /** stores all namespace bindings on the current element */
-    protected NamespaceSupport fLocalNSBinder;
+    private final NamespaceSupport fLocalNSBinder;
 
     /** stores the current element depth */
     private int fElementDepth = 0;
@@ -1098,7 +1113,7 @@ final class DOM3TreeWalker {
      * elements and attributes and so on using the XMLCharacterProperties
      * utility class
      */
-    protected boolean isXMLName(String s, boolean xml11Version) {
+    private boolean isXMLName(String s, boolean xml11Version) {
 
         if (s == null) {
             return false;
@@ -1118,10 +1133,10 @@ final class DOM3TreeWalker {
      * @param prefix prefix of qualified name
      * @param local local part of qualified name
      */
-    protected boolean isValidQName(
-        String prefix,
-        String local,
-        boolean xml11Version) {
+    private boolean isValidQName(
+            String prefix,
+            String local,
+            boolean xml11Version) {
 
         // check that both prefix and local part match NCName
         if (local == null)
@@ -1271,7 +1286,7 @@ final class DOM3TreeWalker {
      * @param data The contents of the comment node
      * @return a boolean indiacating if the comment is well-formed or not.
      */
-    protected void isCommentWellFormed(String data) {
+    private void isCommentWellFormed(String data) {
         if (data == null || (data.length() == 0)) {
             return;
         }
@@ -1386,7 +1401,7 @@ final class DOM3TreeWalker {
      * @param data The contents of the comment node
      * @return a boolean indiacating if the comment is well-formed or not.
      */
-    protected void isElementWellFormed(Node node) {
+    private void isElementWellFormed(Node node) {
         boolean isNameWF = false;
         if ((fFeatures & NAMESPACES) != 0) {
             isNameWF =
@@ -1424,7 +1439,7 @@ final class DOM3TreeWalker {
      * @param data The contents of the comment node
      * @return a boolean indiacating if the comment is well-formed or not.
      */
-    protected void isAttributeWellFormed(Node node) {
+    private void isAttributeWellFormed(Node node) {
         boolean isNameWF = false;
         if ((fFeatures & NAMESPACES) != 0) {
             isNameWF =
@@ -1570,7 +1585,7 @@ final class DOM3TreeWalker {
      *
      * @param data The contents of the comment node
      */
-    protected void isCDATASectionWellFormed(CDATASection node) {
+    private void isCDATASectionWellFormed(CDATASection node) {
         // Does the data valid XML character data
         Character invalidChar = isWFXMLChar(node.getData());
         //if (!isWFXMLChar(node.getData(), invalidChar)) {
@@ -1599,7 +1614,7 @@ final class DOM3TreeWalker {
      *
      * @param data The contents of the comment node
      */
-    protected void isTextWellFormed(Text node) {
+    private void isTextWellFormed(Text node) {
         // Does the data valid XML character data
         Character invalidChar = isWFXMLChar(node.getData());
         if (invalidChar != null) {

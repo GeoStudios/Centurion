@@ -19,23 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content;
+
+
+import java.base.share.classes.java.security.PublicKey;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.keyvalues.DSAKeyValue;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.keyvalues.ECKeyValue;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.keyvalues.RSAKeyValue;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.Constants;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.SignatureElementProxy;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.XMLUtils;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.keys.content;
 
-import java.security.PublicKey;
 
-import com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
-import com.sun.org.apache.xml.internal.security.keys.content.keyvalues.DSAKeyValue;
-import com.sun.org.apache.xml.internal.security.keys.content.keyvalues.ECKeyValue;
-import com.sun.org.apache.xml.internal.security.keys.content.keyvalues.RSAKeyValue;
-import com.sun.org.apache.xml.internal.security.utils.Constants;
-import com.sun.org.apache.xml.internal.security.utils.SignatureElementProxy;
-import com.sun.org.apache.xml.internal.security.utils.XMLUtils;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
+
 
 /**
  * The KeyValue element contains a single public key that may be useful in

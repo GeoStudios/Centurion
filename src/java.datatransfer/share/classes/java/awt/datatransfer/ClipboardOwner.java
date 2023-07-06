@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.datatransfer;
+package java.datatransfer.share.classes.java.awt.datatransfer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines the interface for classes that will provide data to a clipboard. An

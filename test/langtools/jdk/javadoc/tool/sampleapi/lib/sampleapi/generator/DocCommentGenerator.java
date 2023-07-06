@@ -21,17 +21,30 @@
 
 package sampleapi.generator;
 
+
 import java.io.File;
 import java.io.BufferedInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.Set;
 import javax.lang.model.element.Modifier;
-
 import com.sun.tools.javac.tree.JCTree;
 import com.sun.tools.javac.tree.JCTree.*;
-import com.sun.tools.javac.util.List;
+import com.sun.tools.javac.util.java.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class DocCommentGenerator {
 

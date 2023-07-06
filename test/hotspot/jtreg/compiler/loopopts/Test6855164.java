@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6855164
@@ -27,7 +44,6 @@
  * @run main/othervm -Xbatch compiler.loopopts.Test6855164
  */
 
-package compiler.loopopts;
 
 public class Test6855164 {
     public static void main(String[] args) throws Exception {

@@ -21,7 +21,21 @@
 
 package annotations;
 
+
 import com.sun.tools.javac.util.Dependencies.CompletionCause;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public enum Phase {
     IMPORTS(CompletionCause.IMPORTS_PHASE),

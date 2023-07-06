@@ -19,27 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.windows;
+package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Insets;
-import java.awt.KeyboardFocusManager;
-import java.awt.Rectangle;
-import java.awt.event.InputEvent;
-import java.awt.event.KeyEvent;
-import java.util.HashSet;
-import java.util.Set;
 
+import java.desktop.windows.classes.com.sun.java.awt.Graphics;
+import java.desktop.windows.classes.com.sun.java.awt.Graphics2D;
+import java.desktop.windows.classes.com.sun.java.awt.Insets;
+import java.desktop.windows.classes.com.sun.java.awt.KeyboardFocusManager;
+import java.desktop.windows.classes.com.sun.java.awt.Rectangle;
+import java.desktop.windows.classes.com.sun.java.awt.event.InputEvent;
+import java.desktop.windows.classes.com.sun.java.awt.event.KeyEvent;
+import java.desktop.windows.classes.com.sun.java.util.HashSet;
+import java.desktop.windows.classes.com.sun.java.util.Set;
 import javax.swing.JComponent;
 import javax.swing.KeyStroke;
 import javax.swing.UIManager;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicTabbedPaneUI;
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Part;.extended
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.State;.extended
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.Skin;.extended
 
-import static com.sun.java.swing.plaf.windows.TMSchema.Part;
-import static com.sun.java.swing.plaf.windows.TMSchema.State;
-import static com.sun.java.swing.plaf.windows.XPStyle.Skin;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Windows rendition of the component.

@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap;
+package java.naming.share.classes.com.sun.jndi.ldap;
 
-import java.util.Arrays; // JDK 1.2
+
+import java.base.share.classes.java.util.Arrays; // JDK 1.2.extended
 import java.util.Hashtable;
-
 import java.io.OutputStream;
 import javax.naming.ldap.Control;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Extends SimpleClientId to add property values specific for Digest-MD5.

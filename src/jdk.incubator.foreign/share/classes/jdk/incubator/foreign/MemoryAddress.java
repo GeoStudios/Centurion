@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.incubator.foreign;
+package jdk.incubator.foreign.share.classes.jdk.incubator.foreign;
 
-import jdk.internal.foreign.MemoryAddressImpl;
-import jdk.internal.ref.CleanerFactory;
-import jdk.internal.reflect.CallerSensitive;
 
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.MemoryAddressImpl;
+import jdk.incubator.foreign.share.classes.jdk.internal.ref.CleanerFactory;
+import jdk.incubator.foreign.share.classes.jdk.internal.reflect.CallerSensitive;
 import java.lang.ref.Cleaner;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A memory address models a reference into a memory location. Memory addresses are typically obtained using the

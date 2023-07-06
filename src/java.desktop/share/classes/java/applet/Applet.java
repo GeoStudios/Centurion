@@ -19,28 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.applet;
+package java.desktop.share.classes.java.applet;
 
-import java.awt.AWTPermission;
-import java.awt.Dimension;
-import java.awt.GraphicsEnvironment;
-import java.awt.HeadlessException;
-import java.awt.Image;
-import java.awt.Panel;
-import java.awt.event.ComponentEvent;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.Serial;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.Locale;
 
+import java.desktop.share.classes.java.awt.AWTPermission;
+import java.desktop.share.classes.java.awt.Dimension;
+import java.desktop.share.classes.java.awt.GraphicsEnvironment;
+import java.desktop.share.classes.java.awt.HeadlessException;
+import java.desktop.share.classes.java.awt.Image;
+import java.desktop.share.classes.java.awt.Panel;
+import java.desktop.share.classes.java.awt.event.ComponentEvent;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.net.MalformedURLException;
+import java.desktop.share.classes.java.net.URL;
+import java.desktop.share.classes.java.util.Locale;
 import javax.accessibility.AccessibleContext;
 import javax.accessibility.AccessibleRole;
 import javax.accessibility.AccessibleState;
 import javax.accessibility.AccessibleStateSet;
-
 import com.sun.media.sound.JavaSoundAudioClip;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An applet is a small program that is intended not to be run on its own, but

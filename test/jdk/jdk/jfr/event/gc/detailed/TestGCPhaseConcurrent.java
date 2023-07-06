@@ -21,12 +21,25 @@
 
 package jdk.jfr.event.gc.detailed;
 
-import java.util.List;
 
+import java.util.java.util.java.util.java.util.List;
 import jdk.jfr.Recording;
 import jdk.jfr.consumer.RecordedEvent;
 import jdk.test.lib.jfr.EventNames;
 import jdk.test.lib.jfr.Events;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test TestGCPhaseConcurrent

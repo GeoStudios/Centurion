@@ -19,23 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.misc;
+package java.base.share.classes.jdk.internal.misc;
+
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.InputStreamReader;
 import java.io.InputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintStream;
-import java.util.Arrays;
-import java.util.ArrayList;
-import java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.stream.Stream;
+import java.base.share.classes.jdk.internal.access.JavaLangInvokeAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
-import jdk.internal.access.JavaLangInvokeAccess;
-import jdk.internal.access.SharedSecrets;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CDS {
     private static final boolean isDumpingClassList;

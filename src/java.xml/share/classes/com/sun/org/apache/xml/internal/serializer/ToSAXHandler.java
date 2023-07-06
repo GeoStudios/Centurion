@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.serializer;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
-import java.util.List;
-import org.xml.sax.Attributes;
-import org.xml.sax.ContentHandler;
-import org.xml.sax.ErrorHandler;
-import org.xml.sax.SAXException;
-import org.xml.sax.SAXParseException;
-import org.xml.sax.ext.LexicalHandler;
+
+import java.util.java.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
+import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.ErrorHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXParseException;
+import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to provide a base behavior to be inherited

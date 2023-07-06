@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.share.classes.sun.font;
+
 
 import java.awt.Font;
 import java.awt.FontFormatException;
@@ -27,30 +28,42 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FilenameFilter;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStreamReader;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Hashtable;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.StringTokenizer;
 import java.util.TreeMap;
 import java.util.Vector;
 import java.util.concurrent.ConcurrentHashMap;
-
 import javax.swing.plaf.FontUIResource;
+import java.desktop.share.classes.sun.awt.FontConfiguration;
+import java.desktop.share.classes.sun.awt.SunToolkit;
+import java.desktop.share.classes.sun.awt.util.ThreadGroupUtils;
+import java.desktop.share.classes.sun.java2d.FontSupport;
+import java.desktop.share.classes.sun.util.logging.PlatformLogger;
 
-import sun.awt.FontConfiguration;
-import sun.awt.SunToolkit;
-import sun.awt.util.ThreadGroupUtils;
-import sun.java2d.FontSupport;
-import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The base implementation of the {@link FontManager} interface. It implements

@@ -21,9 +21,22 @@
 
 package jdk.jfr.jvm;
 
-import static jdk.test.lib.Asserts.assertEquals;
 
+import static jdk.test.lib.Asserts.assertEquals;.extended
 import jdk.jfr.internal.JVM;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test TestPid

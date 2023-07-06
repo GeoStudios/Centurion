@@ -18,10 +18,11 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.swing.table;
 
-import sun.swing.DefaultLookup;
+package java.desktop.share.classes.sun.swing.table;
 
+
+import java.desktop.share.classes.sun.swing.DefaultLookup;
 import java.awt.Component;
 import java.awt.Color;
 import java.awt.FontMetrics;
@@ -34,6 +35,20 @@ import javax.swing.*;
 import javax.swing.plaf.UIResource;
 import javax.swing.border.Border;
 import javax.swing.table.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // JDK-implementation class
 public class DefaultTableCellHeaderRenderer extends DefaultTableCellRenderer

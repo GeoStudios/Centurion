@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.runtime;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6863420
@@ -30,7 +47,6 @@
  * Notice the internal timeout in timeout thread Test6863420.TOT.
  */
 
-package compiler.runtime;
 
 public class Test6863420 {
 

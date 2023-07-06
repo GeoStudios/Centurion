@@ -19,17 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * A Simple ListeningConnector with default arguments of all types used by
- * nsk/jdi/PlugConnectors/MultiConnectors/plugMultiConnect001 test
- */
-
 package nsk.jdi.PlugConnectors.MultiConnectors.plugMultiConnect001.connectors;
+
 
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * A Simple ListeningConnector with default arguments of all types used by
+ * nsk/jdi/PlugConnectors/MultiConnectors/plugMultiConnect001 test
+ */
+
+
 
 public class PlugListenConnector001_02 extends PlugConnectors implements ListeningConnector {
 

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8256934
@@ -28,7 +45,6 @@
  *                   compiler.loopopts.TestPartialPeelingSinkNodes
  */
 
-package compiler.loopopts;
 
 public class TestPartialPeelingSinkNodes {
     static int i5 = 168, iFld = 2, x, y;

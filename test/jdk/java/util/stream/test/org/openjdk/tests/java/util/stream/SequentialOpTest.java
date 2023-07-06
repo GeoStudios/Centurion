@@ -18,13 +18,14 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.tests.java.util.stream;
+
 
 import java.util.stream.LambdaTestHelpers;
 import java.util.stream.OpTestCase;
 import java.util.stream.StreamTestDataProvider;
 import org.testng.annotations.Test;
-
 import java.util.Iterator;
 import java.util.Comparator;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -34,9 +35,21 @@ import java.util.function.UnaryOperator;
 import java.util.Spliterator;
 import java.util.stream.Stream;
 import java.util.stream.TestData;
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertTrue;.extended
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * SequentialOpTest

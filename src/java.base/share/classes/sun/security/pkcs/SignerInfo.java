@@ -19,32 +19,46 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs;
+package java.base.share.classes.sun.security.pkcs;
+
 
 import java.io.OutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
 import java.security.cert.CertPathValidatorException;
 import java.security.cert.CertificateException;
 import java.security.cert.CertificateFactory;
 import java.security.cert.CertPath;
 import java.security.cert.X509Certificate;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.spec.PSSParameterSpec;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
+import java.base.share.classes.sun.security.provider.SHAKE256;
+import java.base.share.classes.sun.security.timestamp.TimestampToken;
+import java.base.share.classes.sun.security.util.*;
+import java.base.share.classes.sun.security.x509.AlgorithmId;
+import java.base.share.classes.sun.security.x509.X500Name;
+import java.base.share.classes.sun.security.x509.KeyUsageExtension;
 
-import sun.security.provider.SHAKE256;
-import sun.security.timestamp.TimestampToken;
-import sun.security.util.*;
-import sun.security.x509.AlgorithmId;
-import sun.security.x509.X500Name;
-import sun.security.x509.KeyUsageExtension;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A SignerInfo, as defined in PKCS#7's signedData type.

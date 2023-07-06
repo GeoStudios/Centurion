@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.rmi.server;
+package java.rmi.share.classes.sun.rmi.server;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectStreamClass;
@@ -31,6 +32,20 @@ import java.security.AccessControlException;
 import java.security.Permission;
 import java.rmi.server.RMIClassLoader;
 import java.security.PrivilegedAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * MarshalInputStream is an extension of ObjectInputStream.  When resolving

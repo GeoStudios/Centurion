@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.unix.classes.sun.font;
+
 
 import java.awt.FontFormatException;
 import java.awt.font.FontRenderContext;
 import java.awt.geom.GeneralPath;
 import java.awt.geom.Rectangle2D;
 import java.util.HashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.nio.charset.*;
 import java.nio.CharBuffer;
 import java.nio.ByteBuffer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class XMap {
 

@@ -19,31 +19,47 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-// this test has been disabled because of timeout issues.
-// see JDK-8006746
-
 package org.openjdk.tests.vm;
 
-import java.util.*;
 
+import java.util.*;
 import org.testng.ITestResult;
 import org.testng.annotations.Test;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
-
 import org.openjdk.tests.separate.*;
 import org.openjdk.tests.separate.Compiler;
-
 import org.openjdk.tests.shapegen.Hierarchy;
 import org.openjdk.tests.shapegen.HierarchyGenerator;
 import org.openjdk.tests.shapegen.ClassCase;
+import static org.testng.Assert.*;.extended
+import static org.openjdk.tests.separate.SourceModel.*;.extended
+import static org.openjdk.tests.separate.SourceModel.Class;.extended
+import static org.openjdk.tests.separate.SourceModel.Method;.extended
+import static org.openjdk.tests.separate.SourceModel.Type;.extended
 
-import static org.testng.Assert.*;
-import static org.openjdk.tests.separate.SourceModel.*;
-import static org.openjdk.tests.separate.SourceModel.Class;
-import static org.openjdk.tests.separate.SourceModel.Method;
-import static org.openjdk.tests.separate.SourceModel.Type;
+
+
+
+
+
+
+
+
+
+
+
+
+
+// this test has been disabled because of timeout issues.
+// see JDK-8006746
+
+
+
+
+
+
 
 public class FDSeparateCompilationTest extends TestHarness {
 

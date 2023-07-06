@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.tools.jlink.internal;
+package jdk.jlink.share.classes.jdk.tools.jlink.internal;
 
-import jdk.tools.jlink.plugin.ResourcePoolEntry;
 
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry;
 import java.io.InputStream;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A symbolic link ResourcePoolEntry.  It will be created in the image

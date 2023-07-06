@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.www.content.audio;
+package java.desktop.share.classes.sun.awt.www.content.audio;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.ContentHandler;
 import java.net.URLConnection;
-
 import com.sun.media.sound.JavaSoundAudioClip;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Basic .au and .snd audio handler returns an JavaSoundAudioClip object.

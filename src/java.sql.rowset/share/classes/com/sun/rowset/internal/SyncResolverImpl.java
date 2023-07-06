@@ -19,19 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.rowset.internal;
+package java.sql.rowset.share.classes.com.sun.rowset.internal;
+
 
 import java.sql.*;
 import javax.sql.*;
 import java.util.*;
 import java.math.BigDecimal;
-
 import javax.sql.rowset.*;
 import javax.sql.rowset.spi.*;
-
-import com.sun.rowset.*;
-import java.io.IOException;
+import java.sql.rowset.share.classes.com.sun.rowset.*;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * There will be two sets of data which will be maintained by the rowset at the

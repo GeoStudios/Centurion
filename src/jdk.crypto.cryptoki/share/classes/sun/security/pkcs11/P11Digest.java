@@ -19,21 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs11;
+package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11;
+
 
 import java.util.*;
 import java.nio.ByteBuffer;
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.javax.crypto.SecretKey;
+import jdk.crypto.cryptoki.share.classes.sun.nio.ch.DirectBuffer;
+import jdk.crypto.cryptoki.share.classes.sun.security.util.MessageDigestSpi2;
+import jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.*;
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Constants.*;.extended
 
-import java.security.*;
 
-import javax.crypto.SecretKey;
 
-import sun.nio.ch.DirectBuffer;
 
-import sun.security.util.MessageDigestSpi2;
 
-import sun.security.pkcs11.wrapper.*;
-import static sun.security.pkcs11.wrapper.PKCS11Constants.*;
+
+
+
+
+
+
+
+
+
 
 /**
  * MessageDigest implementation class. This class currently supports
@@ -246,10 +256,9 @@ final class P11Digest extends MessageDigestSpi implements Cloneable,
         // SunJSSE calls this method only if the key does not have a RAW
         // encoding, i.e. if it is sensitive. Therefore, no point in calling
         // SecretKeyFactory to try to convert it. Just verify it ourselves.
-        if (!(key instanceof P11Key)) {
+        if (!(key instanceof P11Key p11Key)) {
             throw new InvalidKeyException("Not a P11Key: " + key);
         }
-        P11Key p11Key = (P11Key)key;
         if (p11Key.token != token) {
             throw new InvalidKeyException("Not a P11Key of this provider: " +
                     key);

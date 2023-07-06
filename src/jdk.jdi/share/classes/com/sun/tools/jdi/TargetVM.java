@@ -19,21 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-import java.io.IOException;
-import java.util.ArrayList;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
+import jdk.jdi.share.classes.com.sun.jdi.VMDisconnectedException;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+import jdk.jdi.share.classes.com.sun.jdi.connect.spi.Connection;
+import jdk.jdi.share.classes.com.sun.jdi.event.EventQueue;
+import jdk.jdi.share.classes.com.sun.jdi.event.EventSet;
 
-import com.sun.jdi.VMDisconnectedException;
-import com.sun.jdi.VirtualMachine;
-import com.sun.jdi.connect.spi.Connection;
-import com.sun.jdi.event.EventQueue;
-import com.sun.jdi.event.EventSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TargetVM implements Runnable {
     private final Map<String, Packet> waitingQueue = new HashMap<>(32,0.75f);

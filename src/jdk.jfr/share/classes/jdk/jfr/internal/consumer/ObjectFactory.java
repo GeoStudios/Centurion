@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.consumer;
+package jdk.jfr.share.classes.jdk.jfr.internal.consumer;
 
-import jdk.jfr.consumer.RecordedClass;
-import jdk.jfr.consumer.RecordedClassLoader;
-import jdk.jfr.consumer.RecordedFrame;
-import jdk.jfr.consumer.RecordedMethod;
-import jdk.jfr.consumer.RecordedStackTrace;
-import jdk.jfr.consumer.RecordedThread;
-import jdk.jfr.consumer.RecordedThreadGroup;
-import jdk.jfr.internal.Type;
+
+import jdk.jfr.share.classes.jdk.jfr.consumer.RecordedClass;
+import jdk.jfr.share.classes.jdk.jfr.consumer.RecordedClassLoader;
+import jdk.jfr.share.classes.jdk.jfr.consumer.RecordedFrame;
+import jdk.jfr.share.classes.jdk.jfr.consumer.RecordedMethod;
+import jdk.jfr.share.classes.jdk.jfr.consumer.RecordedStackTrace;
+import jdk.jfr.share.classes.jdk.jfr.consumer.RecordedThread;
+import jdk.jfr.share.classes.jdk.jfr.consumer.RecordedThreadGroup;
+import jdk.jfr.share.classes.jdk.jfr.internal.Type;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract factory for creating specialized types

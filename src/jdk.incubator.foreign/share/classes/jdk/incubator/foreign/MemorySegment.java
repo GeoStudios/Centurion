@@ -19,25 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.incubator.foreign;
+package jdk.incubator.foreign.share.classes.jdk.incubator.foreign;
 
-import java.io.UncheckedIOException;
+
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
-
-import jdk.internal.foreign.AbstractMemorySegmentImpl;
-import jdk.internal.foreign.HeapMemorySegmentImpl;
-import jdk.internal.foreign.MappedMemorySegmentImpl;
-import jdk.internal.foreign.ResourceScopeImpl;
-import jdk.internal.foreign.NativeMemorySegmentImpl;
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.Reflection;
-
-import java.io.IOException;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.AbstractMemorySegmentImpl;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.HeapMemorySegmentImpl;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.MappedMemorySegmentImpl;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.ResourceScopeImpl;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.NativeMemorySegmentImpl;
+import jdk.incubator.foreign.share.classes.jdk.internal.reflect.CallerSensitive;
+import jdk.incubator.foreign.share.classes.jdk.internal.reflect.Reflection;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.channels.FileChannel;
 import java.nio.file.Path;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Spliterator;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A memory segment models a contiguous region of memory. A memory segment is associated with both spatial

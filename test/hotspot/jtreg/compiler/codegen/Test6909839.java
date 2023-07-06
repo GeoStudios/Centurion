@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codegen;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6909839
@@ -27,7 +44,6 @@
  * @run main/othervm -XX:+IgnoreUnrecognizedVMOptions -XX:+EliminateAutoBox -XX:AutoBoxCacheMax=20000 -Xbatch compiler.codegen.Test6909839
  */
 
-package compiler.codegen;
 
 public class Test6909839 {
     public static void main(String[] args) {

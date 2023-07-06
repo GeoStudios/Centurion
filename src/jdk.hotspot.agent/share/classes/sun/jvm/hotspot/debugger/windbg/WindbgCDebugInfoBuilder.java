@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.windbg;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.windbg;
+
 
 import java.util.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.basic.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Assert;
 
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.debugger.win32.coff.*;
-import sun.jvm.hotspot.debugger.cdbg.*;
-import sun.jvm.hotspot.debugger.cdbg.basic.*;
-import sun.jvm.hotspot.utilities.Assert;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class WindbgCDebugInfoBuilder
   implements DebugVC50SubsectionTypes, DebugVC50TypeLeafIndices, DebugVC50TypeEnums, DebugVC50SymbolTypes, DebugVC50MemberAttributes, CVAttributes, AccessControl {

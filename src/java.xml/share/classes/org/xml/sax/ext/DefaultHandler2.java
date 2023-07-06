@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.xml.sax.ext;
+package java.xml.share.classes.org.xml.sax.ext;
 
-import java.io.IOException;
-import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
-import org.xml.sax.helpers.DefaultHandler;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.xml.share.classes.org.xml.sax.InputSource;
+import java.xml.share.classes.org.xml.sax.SAXException;
+import java.xml.share.classes.org.xml.sax.helpers.DefaultHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

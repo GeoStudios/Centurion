@@ -19,14 +19,15 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
+
 
 import java.io.EOFException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.util.concurrent.ConcurrentLinkedDeque;
 import java.util.concurrent.Executor;
@@ -36,14 +37,27 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.function.Consumer;
-import jdk.internal.net.http.common.Demand;
-import jdk.internal.net.http.common.FlowTube.TubeSubscriber;
-import jdk.internal.net.http.common.Log;
-import jdk.internal.net.http.common.Logger;
-import jdk.internal.net.http.common.MinimalFuture;
-import jdk.internal.net.http.common.SequentialScheduler;
-import jdk.internal.net.http.common.ConnectionExpiredException;
-import jdk.internal.net.http.common.Utils;
+import java.net.http.share.classes.jdk.internal.net.http.common.Demand;
+import java.net.http.share.classes.jdk.internal.net.http.common.FlowTube.TubeSubscriber;
+import java.net.http.share.classes.jdk.internal.net.http.common.Log;
+import java.net.http.share.classes.jdk.internal.net.http.common.Logger;
+import java.net.http.share.classes.jdk.internal.net.http.common.MinimalFuture;
+import java.net.http.share.classes.jdk.internal.net.http.common.SequentialScheduler;
+import java.net.http.share.classes.jdk.internal.net.http.common.ConnectionExpiredException;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

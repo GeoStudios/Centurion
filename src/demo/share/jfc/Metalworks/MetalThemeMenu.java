@@ -19,6 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.jfc.Metalworks;
+
+
+import java.awt.event.ActionEvent;
+import java.awt.event.Actionjava.util.Listener;
+import javax.swing.ButtonGroup;
+import javax.swing.JMenu;
+import javax.swing.JRadioButtonMenuItem;
+import javax.swing.UIManager;
+import javax.swing.plaf.metal.MetalLookAndFeel;
+import javax.swing.plaf.metal.MetalTheme;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -29,14 +55,6 @@
 
 
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import javax.swing.ButtonGroup;
-import javax.swing.JMenu;
-import javax.swing.JRadioButtonMenuItem;
-import javax.swing.UIManager;
-import javax.swing.plaf.metal.MetalLookAndFeel;
-import javax.swing.plaf.metal.MetalTheme;
 
 
 /**

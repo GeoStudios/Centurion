@@ -19,21 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.comp;
+package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-import com.sun.tools.javac.code.Symbol;
-import com.sun.tools.javac.code.Symbol.BindingSymbol;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.JCTree.JCGuardPattern;
-import com.sun.tools.javac.tree.JCTree.Tag;
-import com.sun.tools.javac.tree.TreeScanner;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.Log;
 
-import static com.sun.tools.javac.code.Flags.CLASH;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.BindingSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCGuardPattern;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeScanner;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.CLASH;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class MatchBindingsComputer extends TreeScanner {

@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.jpeg;
+package java.desktop.share.classes.com.sun.imageio.plugins.jpeg;
 
-import javax.imageio.IIOException;
+
+import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import javax.imageio.ImageReader;
 import javax.imageio.ImageReadParam;
 import javax.imageio.ImageTypeSpecifier;
@@ -31,7 +32,6 @@ import javax.imageio.stream.ImageInputStream;
 import javax.imageio.plugins.jpeg.JPEGImageReadParam;
 import javax.imageio.plugins.jpeg.JPEGQTable;
 import javax.imageio.plugins.jpeg.JPEGHuffmanTable;
-
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.color.ColorSpace;
@@ -46,14 +46,27 @@ import java.awt.image.DataBufferByte;
 import java.awt.image.ColorModel;
 import java.awt.image.IndexColorModel;
 import java.awt.image.ColorConvertOp;
-import java.io.IOException;
-import java.util.List;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Iterator;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.NoSuchElementException;
+import java.desktop.share.classes.com.sun.java2d.Disposer;
+import java.desktop.share.classes.com.sun.java2d.DisposerRecord;
 
-import sun.java2d.Disposer;
-import sun.java2d.DisposerRecord;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JPEGImageReader extends ImageReader {
 

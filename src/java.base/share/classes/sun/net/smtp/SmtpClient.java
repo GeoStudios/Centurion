@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.smtp;
+package java.base.share.classes.sun.net.smtp;
+
 
 import java.io.*;
 import java.net.*;
-import sun.net.TransferProtocolClient;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.net.TransferProtocolClient;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements the SMTP client.

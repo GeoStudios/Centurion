@@ -18,25 +18,40 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.java.swing.plaf.gtk;
 
-import sun.awt.ModalExclude;
-import sun.awt.SunToolkit;
-import sun.awt.UNIXToolkit;
+package java.desktop.share.classes.com.sun.java.swing.plaf.gtk;
 
+
+import java.desktop.share.classes.com.sun.awt.ModalExclude;
+import java.desktop.share.classes.com.sun.awt.SunToolkit;
+import java.desktop.share.classes.com.sun.awt.UNIXToolkit;
 import javax.swing.plaf.synth.*;
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.plaf.*;
-import com.sun.java.swing.plaf.gtk.GTKConstants.ArrowType;
-import com.sun.java.swing.plaf.gtk.GTKConstants.ExpanderStyle;
-import com.sun.java.swing.plaf.gtk.GTKConstants.Orientation;
-import com.sun.java.swing.plaf.gtk.GTKConstants.PositionType;
-import com.sun.java.swing.plaf.gtk.GTKConstants.ShadowType;
-import java.awt.image.BufferedImage;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
+import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKConstants.ArrowType;
+import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKConstants.ExpanderStyle;
+import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKConstants.Orientation;
+import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKConstants.PositionType;
+import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKConstants.ShadowType;
+import java.desktop.share.classes.com.sun.java.awt.image.BufferedImage;
+import java.desktop.share.classes.com.sun.java.lang.reflect.InvocationTargetException;
+import java.desktop.share.classes.com.sun.java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

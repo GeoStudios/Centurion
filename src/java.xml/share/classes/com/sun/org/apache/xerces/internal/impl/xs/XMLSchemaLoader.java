@@ -19,59 +19,60 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.xs;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
 
-import com.sun.org.apache.xerces.internal.dom.DOMErrorImpl;
-import com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
-import com.sun.org.apache.xerces.internal.dom.DOMStringListImpl;
-import com.sun.org.apache.xerces.internal.impl.Constants;
-import com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
-import com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
-import com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
-import com.sun.org.apache.xerces.internal.impl.dv.SchemaDVFactory;
-import com.sun.org.apache.xerces.internal.impl.dv.xs.SchemaDVFactoryImpl;
-import com.sun.org.apache.xerces.internal.impl.xs.models.CMBuilder;
-import com.sun.org.apache.xerces.internal.impl.xs.models.CMNodeFactory;
-import com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler;
-import com.sun.org.apache.xerces.internal.util.DOMEntityResolverWrapper;
-import com.sun.org.apache.xerces.internal.util.DOMErrorHandlerWrapper;
-import com.sun.org.apache.xerces.internal.util.DefaultErrorHandler;
-import com.sun.org.apache.xerces.internal.util.MessageFormatter;
-import com.sun.org.apache.xerces.internal.util.ParserConfigurationSettings;
-import com.sun.org.apache.xerces.internal.util.Status;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
-import com.sun.org.apache.xerces.internal.util.URI.MalformedURIException;
-import com.sun.org.apache.xerces.internal.util.XMLSymbols;
-import com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
-import com.sun.org.apache.xerces.internal.utils.XMLSecurityPropertyManager;
-import com.sun.org.apache.xerces.internal.xni.QName;
-import com.sun.org.apache.xerces.internal.xni.XNIException;
-import com.sun.org.apache.xerces.internal.xni.grammars.Grammar;
-import com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription;
-import com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarLoader;
-import com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarPool;
-import com.sun.org.apache.xerces.internal.xni.grammars.XSGrammar;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponent;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLEntityResolver;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLErrorHandler;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
-import com.sun.org.apache.xerces.internal.xs.LSInputList;
-import com.sun.org.apache.xerces.internal.xs.StringList;
-import com.sun.org.apache.xerces.internal.xs.XSLoader;
-import com.sun.org.apache.xerces.internal.xs.XSModel;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMErrorImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMStringjava.util.ListImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.SchemaDVFactory;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs.SchemaDVFactoryImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.models.CMBuilder;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.models.CMNodeFactory;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.DOMEntityResolverWrapper;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.DOMErrorHandlerWrapper;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.DefaultErrorHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.MessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.ParserConfigurationSettings;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.Status;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.URI.MalformedURIException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLSymbols;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityPropertyManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.Grammar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarLoader;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarPool;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XSGrammar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponent;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLEntityResolver;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLErrorHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.LSInputjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.Stringjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSLoader;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSModel;
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.Reader;
 import java.io.StringReader;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.StringTokenizer;
 import java.util.WeakHashMap;
@@ -80,14 +81,28 @@ import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkXmlFeatures;
 import jdk.xml.internal.JdkXmlUtils;
 import jdk.xml.internal.SecuritySupport;
-import org.w3c.dom.DOMConfiguration;
-import org.w3c.dom.DOMError;
-import org.w3c.dom.DOMErrorHandler;
-import org.w3c.dom.DOMException;
-import org.w3c.dom.DOMStringList;
-import org.w3c.dom.ls.LSInput;
-import org.w3c.dom.ls.LSResourceResolver;
-import org.xml.sax.InputSource;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMConfiguration;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMError;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMErrorHandler;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMStringjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSInput;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSResourceResolver;
+import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements xni.grammars.XMLGrammarLoader.

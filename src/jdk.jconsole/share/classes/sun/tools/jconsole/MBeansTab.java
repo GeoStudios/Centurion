@@ -19,13 +19,14 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole;
+package jdk.jconsole.share.classes.sun.tools.jconsole;
+
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
+import java.awt.event.Mousejava.util.Listener;
 import java.beans.*;
 import java.io.*;
 import java.util.Set;
@@ -33,10 +34,23 @@ import javax.management.*;
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.tree.*;
-import sun.tools.jconsole.ProxyClient.SnapshotMBeanServerConnection;
-import sun.tools.jconsole.inspector.*;
-
+import jdk.jconsole.share.classes.sun.tools.jconsole.ProxyClient.SnapshotMBeanServerConnection;
+import jdk.jconsole.share.classes.sun.tools.jconsole.inspector.*;
 import com.sun.tools.jconsole.JConsoleContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public class MBeansTab extends Tab implements

@@ -18,14 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.jvmti.ResourceExhausted;
+
 
 import java.io.*;
 import java.util.Random;
 import jdk.test.lib.Utils;
-
 import nsk.share.Consts;
 import jtreg.SkippedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class resexhausted004 {
     public static int run(String args[], PrintStream out) {

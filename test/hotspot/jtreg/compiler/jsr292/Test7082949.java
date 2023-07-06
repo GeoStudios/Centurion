@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jsr292;
+
+
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import static java.lang.invoke.MethodType.methodType;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7082949
@@ -27,12 +47,8 @@
  * @run main compiler.jsr292.Test7082949
  */
 
-package compiler.jsr292;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
 
-import static java.lang.invoke.MethodType.methodType;
 
 public class Test7082949 implements Runnable {
     public static void main(String... args) throws Throwable {

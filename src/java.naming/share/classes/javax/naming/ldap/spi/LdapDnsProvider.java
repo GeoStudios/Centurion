@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.naming.ldap.spi;
+package java.naming.share.classes.javax.naming.ldap.spi;
 
-import javax.naming.Context;
-import javax.naming.NamingException;
+
+import java.naming.share.classes.javax.naming.Context;
+import java.naming.share.classes.javax.naming.NamingException;
 import java.util.Map;
 import java.util.Optional;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Service-provider class for DNS lookups when performing LDAP operations.

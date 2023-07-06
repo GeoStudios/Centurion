@@ -21,6 +21,7 @@
 
 package jdk.jfr.api.metadata.eventtype;
 
+
 import jdk.jfr.Enabled;
 import jdk.jfr.Event;
 import jdk.jfr.Name;
@@ -29,6 +30,19 @@ import jdk.jfr.SettingDefinition;
 import jdk.jfr.StackTrace;
 import jdk.jfr.Threshold;
 import jdk.test.lib.jfr.SimpleSetting;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @Period("10 s")
 @Threshold("100 ms")

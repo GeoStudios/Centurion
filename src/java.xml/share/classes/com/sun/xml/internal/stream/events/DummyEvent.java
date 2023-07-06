@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.xml.internal.stream.events ;
+package java.xml.share.classes.com.sun.xml.internal.stream.events;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.Writer;
 import javax.xml.stream.events.XMLEvent;
 import javax.xml.stream.events.Characters;
@@ -30,6 +31,20 @@ import javax.xml.stream.events.StartElement;
 import javax.xml.namespace.QName;
 import javax.xml.stream.Location;
 import javax.xml.stream.XMLStreamException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** DummyEvent is an abstract class. It provides functionality for most of the
  * function of XMLEvent.

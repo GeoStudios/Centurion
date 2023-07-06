@@ -18,19 +18,19 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.astro;
 
-import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;
-import static test.astro.AstroConstants.DEC_MAX;
-import static test.astro.AstroConstants.DEC_MIN;
-import static test.astro.AstroConstants.JAXP_SCHEMA_LANGUAGE;
-import static test.astro.AstroConstants.JAXP_SCHEMA_SOURCE;
-import static test.astro.AstroConstants.RA_MAX;
-import static test.astro.AstroConstants.RA_MIN;
 
+import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;.extended
+import static test.astro.AstroConstants.DEC_MAX;.extended
+import static test.astro.AstroConstants.DEC_MIN;.extended
+import static test.astro.AstroConstants.JAXP_SCHEMA_LANGUAGE;.extended
+import static test.astro.AstroConstants.JAXP_SCHEMA_SOURCE;.extended
+import static test.astro.AstroConstants.RA_MAX;.extended
+import static test.astro.AstroConstants.RA_MIN;.extended
 import java.io.File;
-import java.io.IOException;
-
+import java.io.java.io.java.io.java.io.IOException;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
@@ -38,12 +38,24 @@ import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.sax.SAXResult;
 import javax.xml.transform.sax.TransformerHandler;
 import javax.xml.transform.stream.StreamResult;
-
 import org.xml.sax.ErrorHandler;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 import org.xml.sax.XMLReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * AstroProcessor is to carry out the user's query with filters and produce a table of

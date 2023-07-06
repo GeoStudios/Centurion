@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.integerArithmetic;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestIntegerComparison
  * @bug 8043284 8042786
@@ -29,7 +46,6 @@
  *      -XX:CompileCommand=compileonly,compiler.integerArithmetic.TestIntegerComparison::testUnsigned
  *      compiler.integerArithmetic.TestIntegerComparison
  */
-package compiler.integerArithmetic;
 
 public class TestIntegerComparison {
     /**

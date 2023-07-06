@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management;
+package java.management.share.classes.javax.management;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.security.BasicPermission;
 import java.security.Permission;
@@ -30,6 +31,20 @@ import java.util.Collections;
 import java.util.Enumeration;
 import java.util.Set;
 import java.util.StringTokenizer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A Permission to perform actions related to MBeanServers.
     The <em>name</em> of the permission specifies the operation requested

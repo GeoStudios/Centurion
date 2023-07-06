@@ -19,19 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.windows;
+package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-import java.awt.*;
+
+import java.desktop.windows.classes.com.sun.java.awt.*;
 import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.plaf.*;
 import javax.swing.plaf.basic.*;
 import javax.swing.table.*;
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.*;.extended
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.*;.extended
+import java.desktop.windows.classes.com.sun.swing.table.*;
+import java.desktop.windows.classes.com.sun.swing.SwingUtilities2;
 
-import static com.sun.java.swing.plaf.windows.TMSchema.*;
-import static com.sun.java.swing.plaf.windows.XPStyle.*;
-import sun.swing.table.*;
-import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class WindowsTableHeaderUI extends BasicTableHeaderUI {

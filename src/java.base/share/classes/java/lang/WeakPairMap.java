@@ -18,15 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang;
 
-import java.lang.ref.Reference;
-import java.lang.ref.ReferenceQueue;
-import java.lang.ref.WeakReference;
-import java.util.Collection;
-import java.util.Objects;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.function.BiFunction;
+package java.base.share.classes.java.lang;
+
+
+import java.base.share.classes.java.lang.ref.Reference;
+import java.base.share.classes.java.lang.ref.ReferenceQueue;
+import java.base.share.classes.java.lang.ref.WeakReference;
+import java.base.share.classes.java.util.Collection;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.function.BiFunction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A WeakHashMap-like data structure that uses a pair of weakly-referenced keys

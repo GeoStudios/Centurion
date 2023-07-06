@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.vectorization;
+
+
+import java.util.stream.IntStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8249749
@@ -32,9 +50,7 @@
  * @run main compiler.vectorization.TestComplexAddrExpr test6
  */
 
-package compiler.vectorization;
 
-import java.util.stream.IntStream;
 
 public class TestComplexAddrExpr {
 

@@ -19,21 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.beans.beancontext;
+package java.desktop.share.classes.java.beans.beancontext;
 
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serial;
-import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Locale;
-import java.util.Map;
-import java.util.TooManyListenersException;
+
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.ObjectOutputStream;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.io.Serializable;
+import java.desktop.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.desktop.share.classes.java.util.Collection;
+import java.desktop.share.classes.java.util.HashMap;
+import java.desktop.share.classes.java.util.HashSet;
+import java.desktop.share.classes.java.util.Iterator;
+import java.desktop.share.classes.java.util.Locale;
+import java.desktop.share.classes.java.util.Map;
+import java.desktop.share.classes.java.util.TooManyjava.util.ListenersException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>

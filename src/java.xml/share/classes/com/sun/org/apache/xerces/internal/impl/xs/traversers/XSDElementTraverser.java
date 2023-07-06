@@ -19,31 +19,45 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.xs.traversers;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.traversers;
 
-import java.util.Locale;
 
-import com.sun.org.apache.xerces.internal.impl.dv.ValidatedInfo;
-import com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType;
-import com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar;
-import com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
-import com.sun.org.apache.xerces.internal.impl.xs.XSAnnotationImpl;
-import com.sun.org.apache.xerces.internal.impl.xs.XSComplexTypeDecl;
-import com.sun.org.apache.xerces.internal.impl.xs.XSConstraints;
-import com.sun.org.apache.xerces.internal.impl.xs.XSElementDecl;
-import com.sun.org.apache.xerces.internal.impl.xs.XSParticleDecl;
-import com.sun.org.apache.xerces.internal.impl.xs.util.XInt;
-import com.sun.org.apache.xerces.internal.impl.xs.util.XSObjectListImpl;
-import com.sun.org.apache.xerces.internal.util.DOMUtil;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
-import com.sun.org.apache.xerces.internal.util.XMLChar;
-import com.sun.org.apache.xerces.internal.xni.QName;
-import com.sun.org.apache.xerces.internal.xs.XSConstants;
-import com.sun.org.apache.xerces.internal.xs.XSObject;
-import com.sun.org.apache.xerces.internal.xs.XSObjectList;
-import com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
-import org.w3c.dom.Attr;
-import org.w3c.dom.Element;
+import java.base.share.classes.java.util.Locale;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.ValidatedInfo;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSAnnotationImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSComplexTypeDecl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSConstraints;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSElementDecl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSParticleDecl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XInt;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XSObjectjava.util.ListImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.DOMUtil;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSConstants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObject;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObjectjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
+import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The element declaration schema component traverser.

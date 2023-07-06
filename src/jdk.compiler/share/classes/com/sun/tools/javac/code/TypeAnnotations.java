@@ -19,59 +19,72 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.code;
+package jdk.compiler.share.classes.com.sun.tools.javac.code;
+
 
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ElementKind;
 import javax.lang.model.type.TypeKind;
 import javax.tools.JavaFileObject;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Attribute.TypeCompound;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ClassSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.TypeSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.ArrayType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.CapturedType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.ClassType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.ErrorType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.ForAll;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.MethodType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.PackageType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.TypeVar;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.UndetVar;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.Visitor;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.WildcardType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.TypeAnnotationPosition.TypePathEntry;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.TypeAnnotationPosition.TypePathEntryKind;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.VarSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.MethodSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.ModuleType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.TypeMetadata.Entry.Kind;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Annotate;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Attr;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.AttrContext;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Env;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeInfo;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCBlock;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCClassDecl;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCExpression;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCLambda;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCMethodDecl;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCMethodInvocation;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCNewClass;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCTypeApply;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCVariableDecl;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeScanner;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.ListBuffer;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Names;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
 
-import com.sun.tools.javac.code.Attribute.TypeCompound;
-import com.sun.tools.javac.code.Symbol.ClassSymbol;
-import com.sun.tools.javac.code.Symbol.TypeSymbol;
-import com.sun.tools.javac.code.Type.ArrayType;
-import com.sun.tools.javac.code.Type.CapturedType;
-import com.sun.tools.javac.code.Type.ClassType;
-import com.sun.tools.javac.code.Type.ErrorType;
-import com.sun.tools.javac.code.Type.ForAll;
-import com.sun.tools.javac.code.Type.MethodType;
-import com.sun.tools.javac.code.Type.PackageType;
-import com.sun.tools.javac.code.Type.TypeVar;
-import com.sun.tools.javac.code.Type.UndetVar;
-import com.sun.tools.javac.code.Type.Visitor;
-import com.sun.tools.javac.code.Type.WildcardType;
-import com.sun.tools.javac.code.TypeAnnotationPosition.TypePathEntry;
-import com.sun.tools.javac.code.TypeAnnotationPosition.TypePathEntryKind;
-import com.sun.tools.javac.code.Symbol.VarSymbol;
-import com.sun.tools.javac.code.Symbol.MethodSymbol;
-import com.sun.tools.javac.code.Type.ModuleType;
-import com.sun.tools.javac.code.TypeMetadata.Entry.Kind;
-import com.sun.tools.javac.comp.Annotate;
-import com.sun.tools.javac.comp.Attr;
-import com.sun.tools.javac.comp.AttrContext;
-import com.sun.tools.javac.comp.Env;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.TreeInfo;
-import com.sun.tools.javac.tree.JCTree.JCBlock;
-import com.sun.tools.javac.tree.JCTree.JCClassDecl;
-import com.sun.tools.javac.tree.JCTree.JCExpression;
-import com.sun.tools.javac.tree.JCTree.JCLambda;
-import com.sun.tools.javac.tree.JCTree.JCMethodDecl;
-import com.sun.tools.javac.tree.JCTree.JCMethodInvocation;
-import com.sun.tools.javac.tree.JCTree.JCNewClass;
-import com.sun.tools.javac.tree.JCTree.JCTypeApply;
-import com.sun.tools.javac.tree.JCTree.JCVariableDecl;
-import com.sun.tools.javac.tree.TreeScanner;
-import com.sun.tools.javac.tree.JCTree.*;
-import com.sun.tools.javac.util.Assert;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.ListBuffer;
-import com.sun.tools.javac.util.Log;
-import com.sun.tools.javac.util.Names;
 
-import static com.sun.tools.javac.code.Kinds.Kind.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Contains operations specific to processing type annotations.

@@ -18,13 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.nio.fs;
+
+package java.base.windows.classes.sun.nio.fs;
+
 
 import java.nio.file.attribute.*;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
+import static java.base.windows.classes.sun.nio.fs.WindowsConstants.*;.extended
+import static java.base.windows.classes.sun.nio.fs.WindowsNativeDispatcher.*;.extended
 
-import static sun.nio.fs.WindowsConstants.*;
-import static sun.nio.fs.WindowsNativeDispatcher.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class WindowsUserPrincipals {
     private WindowsUserPrincipals() { }

@@ -21,15 +21,29 @@
 
 package javadoc.tester;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintStream;
 import java.io.StringReader;
 import java.nio.file.Path;
 import java.util.LinkedHashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.function.Function;
 import java.util.regex.Pattern;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A basic HTML parser. Override the protected methods as needed to get notified

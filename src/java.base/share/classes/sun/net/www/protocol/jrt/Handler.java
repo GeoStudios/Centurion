@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.protocol.jrt;
+package java.base.share.classes.sun.net.www.protocol.jrt;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.net.URLStreamHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Protocol handler for accessing resources in the runtime image.

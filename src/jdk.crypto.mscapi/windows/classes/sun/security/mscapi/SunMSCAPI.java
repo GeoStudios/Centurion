@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.mscapi;
+package jdk.crypto.mscapi.windows.classes.sun.security.mscapi;
+
 
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.security.Provider;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.InvalidParameterException;
-import java.security.ProviderException;
+import java.base.share.classes.java.security.ProviderException;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import static jdk.crypto.mscapi.windows.classes.sun.security.util.SecurityConstants.PROVIDER_VER;.extended
+import static jdk.crypto.mscapi.windows.classes.sun.security.util.SecurityProviderConstants.getAliases;.extended
 
-import static sun.security.util.SecurityConstants.PROVIDER_VER;
-import static sun.security.util.SecurityProviderConstants.getAliases;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Cryptographic Service Provider for the Microsoft Crypto API.

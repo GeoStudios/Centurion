@@ -19,20 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.x11;
+package java.desktop.unix.classes.sun.java2d.x11;
 
-import sun.awt.SunToolkit;
-import sun.java2d.loops.GraphicsPrimitive;
-import sun.java2d.loops.GraphicsPrimitiveMgr;
-import sun.java2d.loops.GraphicsPrimitiveProxy;
-import sun.java2d.loops.CompositeType;
-import sun.java2d.loops.SurfaceType;
-import sun.java2d.loops.Blit;
-import sun.java2d.loops.MaskBlit;
-import sun.java2d.pipe.Region;
-import sun.java2d.SurfaceData;
+
+import java.desktop.unix.classes.sun.awt.SunToolkit;
+import java.desktop.unix.classes.sun.java2d.loops.GraphicsPrimitive;
+import java.desktop.unix.classes.sun.java2d.loops.GraphicsPrimitiveMgr;
+import java.desktop.unix.classes.sun.java2d.loops.GraphicsPrimitiveProxy;
+import java.desktop.unix.classes.sun.java2d.loops.CompositeType;
+import java.desktop.unix.classes.sun.java2d.loops.SurfaceType;
+import java.desktop.unix.classes.sun.java2d.loops.Blit;
+import java.desktop.unix.classes.sun.java2d.loops.MaskBlit;
+import java.desktop.unix.classes.sun.java2d.pipe.Region;
+import java.desktop.unix.classes.sun.java2d.SurfaceData;
 import java.awt.Composite;
 import java.awt.image.IndexColorModel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * X11PMBlitLoops

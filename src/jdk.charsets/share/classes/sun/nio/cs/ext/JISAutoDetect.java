@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.cs.ext;
+package jdk.charsets.share.classes.sun.nio.cs.ext;
+
 
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
@@ -29,12 +30,25 @@ import java.nio.charset.CharsetEncoder;
 import java.nio.charset.CoderResult;
 import java.nio.charset.CharacterCodingException;
 import java.nio.charset.MalformedInputException;
-import sun.nio.cs.DelegatableDecoder;
-import sun.nio.cs.HistoricallyNamedCharset;
+import jdk.charsets.share.classes.sun.nio.cs.DelegatableDecoder;
+import jdk.charsets.share.classes.sun.nio.cs.HistoricallyNamedCharset;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import sun.nio.cs.*;
-import static java.lang.Character.UnicodeBlock;
+import jdk.charsets.share.classes.sun.nio.cs.*;
+import static java.lang.Character.UnicodeBlock;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class JISAutoDetect

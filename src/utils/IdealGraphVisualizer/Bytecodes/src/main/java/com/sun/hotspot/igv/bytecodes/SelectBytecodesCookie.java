@@ -18,12 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.bytecodes;
 
-import com.sun.hotspot.igv.data.InputNode;
-import java.util.Collections;
-import java.util.Set;
+package utils.IdealGraphVisualizer.Bytecodes.src.main.java.com.sun.hotspot.igv.bytecodes;
+
+
+import utils.IdealGraphVisualizer.Bytecodes.src.main.java.com.sun.hotspot.igv.data.InputNode;
+import utils.IdealGraphVisualizer.Bytecodes.src.main.java.util.Collections;
+import utils.IdealGraphVisualizer.Bytecodes.src.main.java.util.Set;
 import org.openide.nodes.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

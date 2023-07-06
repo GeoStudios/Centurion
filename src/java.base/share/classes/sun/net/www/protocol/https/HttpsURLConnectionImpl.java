@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.protocol.https;
+package java.base.share.classes.sun.net.www.protocol.https;
+
 
 import java.net.URL;
 import java.net.Proxy;
@@ -31,10 +32,24 @@ import javax.net.ssl.*;
 import java.security.Permission;
 import java.security.Principal;
 import java.util.Map;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Optional;
-import sun.net.util.IPAddressUtil;
-import sun.net.www.http.HttpClient;
+import java.base.share.classes.sun.net.util.IPAddressUtil;
+import java.base.share.classes.sun.net.www.http.HttpClient;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class to represent an HTTP connection to a remote object.

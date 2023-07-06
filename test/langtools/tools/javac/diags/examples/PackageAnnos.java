@@ -19,9 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package p;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // key: compiler.err.pkg.annotations.sb.in.package-info.java
 
 @Deprecated
-package p;
 
 class PackageAnnos { }

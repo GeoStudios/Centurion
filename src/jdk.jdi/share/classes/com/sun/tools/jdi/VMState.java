@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
+
 
 import java.lang.ref.WeakReference;
 import java.util.*;
+import jdk.jdi.share.classes.com.sun.jdi.ThreadGroupReference;
+import jdk.jdi.share.classes.com.sun.jdi.ThreadReference;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
 
-import com.sun.jdi.ThreadGroupReference;
-import com.sun.jdi.ThreadReference;
-import com.sun.jdi.VirtualMachine;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class VMState {
     private final VirtualMachineImpl vm;

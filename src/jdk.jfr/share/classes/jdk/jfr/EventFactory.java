@@ -19,21 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr;
+package jdk.jfr.share.classes.jdk.jfr;
+
 
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashSet;
-import java.util.List;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
+import jdk.jfr.share.classes.jdk.jfr.internal.EventClassBuilder;
+import jdk.jfr.share.classes.jdk.jfr.internal.JVMSupport;
+import jdk.jfr.share.classes.jdk.jfr.internal.MetadataRepository;
+import jdk.jfr.share.classes.jdk.jfr.internal.Type;
+import jdk.jfr.share.classes.jdk.jfr.internal.Utils;
 
-import jdk.jfr.internal.EventClassBuilder;
-import jdk.jfr.internal.JVMSupport;
-import jdk.jfr.internal.MetadataRepository;
-import jdk.jfr.internal.Type;
-import jdk.jfr.internal.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class for defining an event at runtime.

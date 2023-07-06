@@ -18,7 +18,24 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.management.jdp;
+
+package jdk.management.agent.share.classes.sun.management.jdp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An Exception thrown if a JDP implementation encounters a problem.

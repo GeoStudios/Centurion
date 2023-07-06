@@ -21,6 +21,21 @@
 
 package pkg2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @deprecated class_test1 passes.
  */

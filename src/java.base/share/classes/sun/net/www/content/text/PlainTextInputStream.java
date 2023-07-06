@@ -19,9 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.content.text;
+package java.base.share.classes.sun.net.www.content.text;
+
+
 import java.io.InputStream;
 import java.io.FilterInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * PlainTextInputStream class extends the FilterInputStream class.

@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.net.httpserver.spi;
+package jdk.httpserver.share.classes.com.sun.net.httpserver.spi;
 
-import com.sun.net.httpserver.HttpServer;
-import com.sun.net.httpserver.HttpsServer;
 
-import java.io.IOException;
-import java.net.InetSocketAddress;
+import jdk.httpserver.share.classes.com.sun.net.httpserver.HttpServer;
+import jdk.httpserver.share.classes.com.sun.net.httpserver.HttpsServer;
+import java.io.java.io.java.io.java.io.IOException;
+import java.net.Inetjava.net.SocketAddress;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.Iterator;
 import java.util.ServiceConfigurationError;
 import java.util.ServiceLoader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Service provider class for HttpServer.

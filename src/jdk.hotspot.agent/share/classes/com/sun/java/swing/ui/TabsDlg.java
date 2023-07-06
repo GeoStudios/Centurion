@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.hotspot.agent.share.classes.com.sun.java.swing.ui;
 
-package com.sun.java.swing.ui;
 
-import com.sun.java.swing.action.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.Vector;
+import jdk.hotspot.agent.share.classes.com.sun.java.swing.action.*;
+import jdk.hotspot.agent.share.classes.com.sun.java.awt.*;
+import jdk.hotspot.agent.share.classes.com.sun.java.awt.event.ActionEvent;
+import jdk.hotspot.agent.share.classes.com.sun.java.awt.event.Actionjava.util.Listener;
+import jdk.hotspot.agent.share.classes.com.sun.java.util.Vector;
 import javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Referenced classes of package com.sun.java.swing.ui:
 //            CommonUI

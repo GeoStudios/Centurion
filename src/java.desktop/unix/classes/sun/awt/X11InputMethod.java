@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.unix.classes.sun.awt;
+
 
 import java.awt.AWTException;
 import java.awt.event.InputMethodEvent;
@@ -27,8 +28,21 @@ import java.awt.font.TextAttribute;
 import java.awt.font.TextHitInfo;
 import java.awt.peer.ComponentPeer;
 import java.text.AttributedString;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 
-import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Input Method Adapter for XIM

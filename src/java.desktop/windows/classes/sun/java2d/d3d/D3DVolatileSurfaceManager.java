@@ -19,26 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.d3d;
+package java.desktop.windows.classes.sun.java2d.d3d;
+
 
 import java.awt.Component;
 import java.awt.GraphicsConfiguration;
 import java.awt.Image;
 import java.awt.Transparency;
 import java.awt.image.ColorModel;
+import java.desktop.windows.classes.sun.awt.AWTAccessor;
+import java.desktop.windows.classes.sun.awt.AWTAccessor.ComponentAccessor;
+import java.desktop.windows.classes.sun.awt.Win32GraphicsConfig;
+import java.desktop.windows.classes.sun.awt.image.SunVolatileImage;
+import java.desktop.windows.classes.sun.awt.image.SurfaceManager;
+import java.desktop.windows.classes.sun.awt.image.VolatileSurfaceManager;
+import java.desktop.windows.classes.sun.awt.windows.WComponentPeer;
+import java.desktop.windows.classes.sun.java2d.InvalidPipeException;
+import java.desktop.windows.classes.sun.java2d.SurfaceData;
+import static java.desktop.windows.classes.sun.java2d.pipe.hw.AccelSurface.*;.extended
+import static java.desktop.windows.classes.sun.java2d.d3d.D3DContext.D3DContextCaps.*;.extended
+import java.desktop.windows.classes.sun.java2d.windows.GDIWindowSurfaceData;
 
-import sun.awt.AWTAccessor;
-import sun.awt.AWTAccessor.ComponentAccessor;
-import sun.awt.Win32GraphicsConfig;
-import sun.awt.image.SunVolatileImage;
-import sun.awt.image.SurfaceManager;
-import sun.awt.image.VolatileSurfaceManager;
-import sun.awt.windows.WComponentPeer;
-import sun.java2d.InvalidPipeException;
-import sun.java2d.SurfaceData;
-import static sun.java2d.pipe.hw.AccelSurface.*;
-import static sun.java2d.d3d.D3DContext.D3DContextCaps.*;
-import sun.java2d.windows.GDIWindowSurfaceData;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class D3DVolatileSurfaceManager
     extends VolatileSurfaceManager

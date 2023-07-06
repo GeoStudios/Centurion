@@ -18,14 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text;
 
-import java.util.Arrays;
+package java.desktop.share.classes.javax.swing.text;
+
+
+import java.base.share.classes.java.util.Arrays;
 import java.awt.*;
 import java.awt.font.TextAttribute;
 import java.awt.geom.Rectangle2D;
-import javax.swing.event.*;
-import javax.swing.SizeRequirements;
+import java.desktop.share.classes.javax.swing.event.*;
+import java.desktop.share.classes.javax.swing.SizeRequirements;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * View of a simple line-wrapping paragraph that supports

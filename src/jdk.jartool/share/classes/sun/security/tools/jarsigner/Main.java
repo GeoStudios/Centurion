@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.tools.jarsigner;
+package jdk.jartool.share.classes.sun.security.tools.jarsigner;
+
 
 import java.io.*;
 import java.net.UnknownHostException;
@@ -35,9 +36,8 @@ import java.text.MessageFormat;
 import java.security.cert.Certificate;
 import java.security.cert.X509Certificate;
 import java.security.cert.CertificateException;
-import java.security.*;
-
-import java.net.SocketTimeoutException;
+import java.base.share.classes.java.security.*;
+import java.net.java.net.SocketTimeoutException;
 import java.net.URL;
 import java.security.cert.CertPath;
 import java.security.cert.CertificateExpiredException;
@@ -45,19 +45,31 @@ import java.security.cert.CertificateFactory;
 import java.security.cert.CertificateNotYetValidException;
 import java.security.cert.TrustAnchor;
 import java.util.Map.Entry;
-
 import jdk.internal.access.JavaUtilZipFileAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.security.jarsigner.JarSigner;
 import jdk.security.jarsigner.JarSignerException;
-import sun.security.pkcs.PKCS7;
-import sun.security.pkcs.SignerInfo;
-import sun.security.timestamp.TimestampToken;
-import sun.security.tools.KeyStoreUtil;
-import sun.security.validator.Validator;
-import sun.security.validator.ValidatorException;
-import sun.security.x509.*;
-import sun.security.util.*;
+import jdk.jartool.share.classes.sun.security.pkcs.PKCS7;
+import jdk.jartool.share.classes.sun.security.pkcs.SignerInfo;
+import jdk.jartool.share.classes.sun.security.timestamp.TimestampToken;
+import jdk.jartool.share.classes.sun.security.tools.KeyStoreUtil;
+import jdk.jartool.share.classes.sun.security.validator.Validator;
+import jdk.jartool.share.classes.sun.security.validator.ValidatorException;
+import jdk.jartool.share.classes.sun.security.x509.*;
+import jdk.jartool.share.classes.sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

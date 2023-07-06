@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.runtime.criticalnatives.argumentcorruption;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* @test
  * @bug 8167409
  * @requires (os.arch != "aarch64") & (os.arch != "arm") & (vm.flavor != "zero")
  * @run main/othervm/native -Xcomp -XX:+CriticalJNINatives compiler.runtime.criticalnatives.argumentcorruption.CheckLongArgs
  */
-package compiler.runtime.criticalnatives.argumentcorruption;
 public class CheckLongArgs {
     static {
         System.loadLibrary("CNCheckLongArgs");

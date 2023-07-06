@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider;
+package java.base.share.classes.sun.security.provider;
+
 
 import java.io.*;
 import java.security.GeneralSecurityException;
 import java.security.Principal;
 import java.util.*;
 import javax.security.auth.x500.X500Principal;
+import java.base.share.classes.sun.security.util.Debug;
+import java.base.share.classes.sun.security.util.PropertyExpander;
+import java.base.share.classes.sun.security.util.LocalizedMessage;
 
-import sun.security.util.Debug;
-import sun.security.util.PropertyExpander;
-import sun.security.util.LocalizedMessage;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The policy for a Java runtime (specifying

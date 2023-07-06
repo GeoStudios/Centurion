@@ -19,11 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package com.sun.org.apache.xalan.internal.xsltc.dom;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom;
+
 
 import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.XMLStreamReader;
@@ -32,23 +29,44 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.sax.SAXSource;
 import javax.xml.transform.stream.StreamSource;
 import javax.xml.transform.stax.StAXSource;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.DTMDefaultBase;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMException;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMWSFilter;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.DTMManagerDefault;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLErrorResources;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLMessages;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.SystemIDResolver;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax.DOM2SAX;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax.StAXEvent2SAX;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax.StAXStream2SAX;
+import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXNotRecognizedException;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXNotSupportedException;
+import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
 
-import com.sun.org.apache.xml.internal.dtm.DTM;
-import com.sun.org.apache.xml.internal.dtm.ref.DTMDefaultBase;
-import com.sun.org.apache.xml.internal.dtm.DTMException;
-import com.sun.org.apache.xml.internal.dtm.DTMWSFilter;
-import com.sun.org.apache.xml.internal.dtm.ref.DTMManagerDefault;
-import com.sun.org.apache.xml.internal.res.XMLErrorResources;
-import com.sun.org.apache.xml.internal.res.XMLMessages;
-import com.sun.org.apache.xml.internal.utils.SystemIDResolver;
-import com.sun.org.apache.xalan.internal.xsltc.trax.DOM2SAX;
-import com.sun.org.apache.xalan.internal.xsltc.trax.StAXEvent2SAX;
-import com.sun.org.apache.xalan.internal.xsltc.trax.StAXStream2SAX;
 
-import org.xml.sax.InputSource;
-import org.xml.sax.SAXNotRecognizedException;
-import org.xml.sax.SAXNotSupportedException;
-import org.xml.sax.XMLReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
+
 
 /**
  * The default implementation for the DTMManager.

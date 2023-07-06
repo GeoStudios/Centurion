@@ -21,10 +21,23 @@
 
 package nsk.jvmti.scenarios.general_functions.GF08;
 
-import java.io.PrintStream;
 
+import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class gf08t002 extends DebugeeClass {
 

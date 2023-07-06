@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.text.MessageFormat;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import javax.net.ssl.SSLException;
 import javax.net.ssl.SSLHandshakeException;
 import javax.net.ssl.SSLProtocolException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * SSL/(D)TLS Alter description

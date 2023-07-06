@@ -18,23 +18,39 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.graph;
 
-import com.sun.hotspot.igv.data.InputNode;
-import com.sun.hotspot.igv.data.Properties;
-import com.sun.hotspot.igv.data.Source;
-import com.sun.hotspot.igv.layout.Port;
-import com.sun.hotspot.igv.layout.Vertex;
-import com.sun.hotspot.igv.util.StringUtils;
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.Graphics;
-import java.awt.image.BufferedImage;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+package utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.graph;
+
+
+import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.data.InputNode;
+import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.data.Properties;
+import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.data.Source;
+import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.layout.Port;
+import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.layout.Vertex;
+import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.util.StringUtils;
+import utils.IdealGraphVisualizer.Graph.src.main.java.awt.Color;
+import utils.IdealGraphVisualizer.Graph.src.main.java.awt.Font;
+import utils.IdealGraphVisualizer.Graph.src.main.java.awt.FontMetrics;
+import utils.IdealGraphVisualizer.Graph.src.main.java.awt.Graphics;
+import utils.IdealGraphVisualizer.Graph.src.main.java.awt.image.BufferedImage;
+import utils.IdealGraphVisualizer.Graph.src.main.java.util.Arrayjava.util.java.util.java.util.List;
+import utils.IdealGraphVisualizer.Graph.src.main.java.util.Collections;
+import utils.IdealGraphVisualizer.Graph.src.main.java.util.Comparator;
+import utils.IdealGraphVisualizer.Graph.src.main.java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

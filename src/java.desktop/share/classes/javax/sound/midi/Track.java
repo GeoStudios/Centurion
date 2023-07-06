@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.sound.midi;
+package java.desktop.share.classes.javax.sound.midi;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashSet;
-
 import com.sun.media.sound.MidiUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A MIDI track is an independent stream of MIDI events (time-stamped MIDI data)

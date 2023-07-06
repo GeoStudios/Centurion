@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.filechooser;
+package java.desktop.share.classes.javax.swing.filechooser;
+
 
 import java.io.File;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>FileFilter</code> is an abstract class used by {@code JFileChooser}

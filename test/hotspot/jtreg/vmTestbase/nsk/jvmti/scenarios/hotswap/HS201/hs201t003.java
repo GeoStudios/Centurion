@@ -21,10 +21,24 @@
 
 package nsk.jvmti.scenarios.hotswap.HS201;
 
+
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test implements the JVMTI <i>hotswap</i> scenario <code>HS201</code>:

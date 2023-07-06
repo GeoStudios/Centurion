@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-import java.util.ArrayList;
-import java.util.List;
 
-import com.sun.jdi.AbsentInformationException;
-import com.sun.jdi.InternalException;
-import com.sun.jdi.LocalVariable;
-import com.sun.jdi.Location;
-import com.sun.jdi.VirtualMachine;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import jdk.jdi.share.classes.com.sun.jdi.AbsentInformationException;
+import jdk.jdi.share.classes.com.sun.jdi.InternalException;
+import jdk.jdi.share.classes.com.sun.jdi.LocalVariable;
+import jdk.jdi.share.classes.com.sun.jdi.Location;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents non-concrete (that is, native or abstract) methods.

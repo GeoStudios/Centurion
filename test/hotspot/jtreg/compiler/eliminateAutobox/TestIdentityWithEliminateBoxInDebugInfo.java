@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8261137
@@ -28,9 +46,7 @@
  *
  * @run main/othervm -Xbatch compiler.c2.TestIdentityWithEliminateBoxInDebugInfo
  */
-package compiler.c2;
 
-import jdk.test.lib.Asserts;
 
 public class TestIdentityWithEliminateBoxInDebugInfo {
     interface TestF {

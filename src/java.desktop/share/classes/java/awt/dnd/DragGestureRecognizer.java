@@ -19,19 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.dnd;
+package java.desktop.share.classes.java.awt.dnd;
 
-import java.awt.Component;
-import java.awt.Point;
-import java.awt.event.InputEvent;
-import java.io.IOException;
-import java.io.InvalidObjectException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serial;
-import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.TooManyListenersException;
+
+import java.desktop.share.classes.java.awt.Component;
+import java.desktop.share.classes.java.awt.Point;
+import java.desktop.share.classes.java.awt.event.InputEvent;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.InvalidObjectException;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.ObjectOutputStream;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.io.Serializable;
+import java.desktop.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.desktop.share.classes.java.util.TooManyjava.util.ListenersException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code DragGestureRecognizer} is an

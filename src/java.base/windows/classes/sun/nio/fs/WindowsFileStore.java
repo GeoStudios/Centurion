@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.fs;
+package java.base.windows.classes.sun.nio.fs;
+
 
 import java.nio.file.FileStore;
 import java.nio.file.FileSystemException;
@@ -30,11 +31,24 @@ import java.nio.file.attribute.FileAttributeView;
 import java.nio.file.attribute.FileOwnerAttributeView;
 import java.nio.file.attribute.FileStoreAttributeView;
 import java.nio.file.attribute.UserDefinedFileAttributeView;
-import java.io.IOException;
-import java.util.Locale;
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.util.Locale;
+import static java.base.windows.classes.sun.nio.fs.WindowsConstants.*;.extended
+import static java.base.windows.classes.sun.nio.fs.WindowsNativeDispatcher.*;.extended
 
-import static sun.nio.fs.WindowsConstants.*;
-import static sun.nio.fs.WindowsNativeDispatcher.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Windows implementation of FileStore.

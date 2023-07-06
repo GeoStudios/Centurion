@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
-import sun.security.ssl.SSLHandshake.HandshakeMessage;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface for handshake message or extension absence on handshake

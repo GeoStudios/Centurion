@@ -19,41 +19,54 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.jaxp.validation;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.validation;
+
 
 import java.util.HashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
-
 import javax.xml.XMLConstants;
-
-import com.sun.org.apache.xerces.internal.impl.Constants;
-import com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
-import com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
-import com.sun.org.apache.xerces.internal.impl.validation.ValidationManager;
-import com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator;
-import com.sun.org.apache.xerces.internal.impl.xs.XSMessageFormatter;
-import com.sun.org.apache.xerces.internal.util.DOMEntityResolverWrapper;
-import com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper;
-import com.sun.org.apache.xerces.internal.util.FeatureState;
-import com.sun.org.apache.xerces.internal.util.NamespaceSupport;
-import com.sun.org.apache.xerces.internal.util.ParserConfigurationSettings;
-import com.sun.org.apache.xerces.internal.util.PropertyState;
-import com.sun.org.apache.xerces.internal.util.Status;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
-import com.sun.org.apache.xerces.internal.utils.XMLSecurityPropertyManager;
-import com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
-import com.sun.org.apache.xerces.internal.xni.NamespaceContext;
-import com.sun.org.apache.xerces.internal.xni.XNIException;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponent;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.validation.ValidationManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSMessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.DOMEntityResolverWrapper;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.FeatureState;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.NamespaceSupport;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.ParserConfigurationSettings;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.PropertyState;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.Status;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityPropertyManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponent;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
 import javax.xml.catalog.CatalogFeatures;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkProperty;
 import jdk.xml.internal.JdkXmlUtils;
-import org.w3c.dom.ls.LSResourceResolver;
-import org.xml.sax.ErrorHandler;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSResourceResolver;
+import java.xml.share.classes.com.sun.org.xml.sax.ErrorHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>An implementation of XMLComponentManager for a schema validator.</p>
@@ -78,7 +91,7 @@ final class XMLSchemaValidatorComponentManager extends ParserConfigurationSettin
         Constants.XERCES_FEATURE_PREFIX + Constants.USE_GRAMMAR_POOL_ONLY_FEATURE;
 
     /** Feature identifier: whether to ignore xsi:type attributes until a global element declaration is encountered */
-    protected static final String IGNORE_XSI_TYPE =
+    private static final String IGNORE_XSI_TYPE =
         Constants.XERCES_FEATURE_PREFIX + Constants.IGNORE_XSI_TYPE_FEATURE;
 
     /** Feature identifier: whether to ignore ID/IDREF errors */
@@ -86,11 +99,11 @@ final class XMLSchemaValidatorComponentManager extends ParserConfigurationSettin
         Constants.XERCES_FEATURE_PREFIX + Constants.ID_IDREF_CHECKING_FEATURE;
 
     /** Feature identifier: whether to ignore unparsed entity errors */
-    protected static final String UNPARSED_ENTITY_CHECKING =
+    private static final String UNPARSED_ENTITY_CHECKING =
         Constants.XERCES_FEATURE_PREFIX + Constants.UNPARSED_ENTITY_CHECKING_FEATURE;
 
     /** Feature identifier: whether to ignore identity constraint errors */
-    protected static final String IDENTITY_CONSTRAINT_CHECKING =
+    private static final String IDENTITY_CONSTRAINT_CHECKING =
         Constants.XERCES_FEATURE_PREFIX + Constants.IDC_CHECKING_FEATURE;
 
     /** Feature identifier: disallow DOCTYPE declaration */

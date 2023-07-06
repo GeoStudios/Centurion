@@ -19,20 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs;
+
+
+import java.math.BigDecimal;
+import java.math.BigInteger;
+import javax.xml.datatype.DatatypeConstants;
+import javax.xml.datatype.Duration;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.ValidationContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.impl.dv.xs;
 
-import java.math.BigDecimal;
-import java.math.BigInteger;
 
-import javax.xml.datatype.DatatypeConstants;
-import javax.xml.datatype.Duration;
 
-import com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
-import com.sun.org.apache.xerces.internal.impl.dv.ValidationContext;
+
 
 /**
  * Used to validate the <dayTimeDuration> type

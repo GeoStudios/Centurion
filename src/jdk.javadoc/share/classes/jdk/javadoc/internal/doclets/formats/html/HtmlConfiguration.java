@@ -19,16 +19,17 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.formats.html;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Date;
 import java.util.EnumSet;
 import java.util.HashMap;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -38,26 +39,39 @@ import javax.lang.model.element.TypeElement;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
-
 import com.sun.source.util.DocTreePath;
-import jdk.javadoc.doclet.Doclet;
-import jdk.javadoc.doclet.DocletEnvironment;
-import jdk.javadoc.doclet.Reporter;
-import jdk.javadoc.doclet.StandardDoclet;
-import jdk.javadoc.doclet.Taglet;
-import jdk.javadoc.internal.Versions;
-import jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
-import jdk.javadoc.internal.doclets.toolkit.BaseOptions;
-import jdk.javadoc.internal.doclets.toolkit.DocletException;
-import jdk.javadoc.internal.doclets.toolkit.Messages;
-import jdk.javadoc.internal.doclets.toolkit.Resources;
-import jdk.javadoc.internal.doclets.toolkit.WriterFactory;
-import jdk.javadoc.internal.doclets.toolkit.util.DeprecatedAPIListBuilder;
-import jdk.javadoc.internal.doclets.toolkit.util.DocFile;
-import jdk.javadoc.internal.doclets.toolkit.util.DocPath;
-import jdk.javadoc.internal.doclets.toolkit.util.DocPaths;
-import jdk.javadoc.internal.doclets.toolkit.util.NewAPIBuilder;
-import jdk.javadoc.internal.doclets.toolkit.util.PreviewAPIListBuilder;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.Doclet;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.DocletEnvironment;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.Reporter;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.StandardDoclet;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.Taglet;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.Versions;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.BaseOptions;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.DocletException;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Messages;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Resources;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.WriterFactory;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DeprecatedAPIjava.util.ListBuilder;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFile;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPath;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPaths;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.NewAPIBuilder;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.PreviewAPIjava.util.ListBuilder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Configure the output based on the command-line options.

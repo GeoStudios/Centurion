@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jvmti.scenarios.hotswap.HS204.hs204t001;
+
+
+import java.io.PrintStream;
+import nsk.share.Log;
+import nsk.share.Consts;
+import nsk.share.jvmti.ArgumentHandler;
+import nsk.share.jvmti.DebugeeClass;
+import java.util.concurrent.atomic.AtomicBoolean;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -54,13 +77,6 @@
  *      nsk.jvmti.scenarios.hotswap.HS204.hs204t001.hs204t001
  */
 
-package nsk.jvmti.scenarios.hotswap.HS204.hs204t001;
-import java.io.PrintStream;
-import nsk.share.Log;
-import nsk.share.Consts;
-import nsk.share.jvmti.ArgumentHandler;
-import nsk.share.jvmti.DebugeeClass;
-import java.util.concurrent.atomic.AtomicBoolean;
 
 public class hs204t001 extends DebugeeClass {
     static int status = Consts.TEST_PASSED;

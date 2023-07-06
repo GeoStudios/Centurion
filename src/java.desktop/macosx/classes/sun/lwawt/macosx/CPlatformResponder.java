@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-import sun.awt.SunToolkit;
-import sun.lwawt.LWWindowPeer;
-import sun.lwawt.PlatformEventNotifier;
 
+import java.desktop.macosx.classes.sun.awt.SunToolkit;
+import java.desktop.macosx.classes.sun.lwawt.LWWindowPeer;
+import java.desktop.macosx.classes.sun.lwawt.PlatformEventNotifier;
 import java.awt.Toolkit;
 import java.awt.event.MouseEvent;
 import java.awt.event.InputEvent;
 import java.awt.event.MouseWheelEvent;
 import java.awt.event.KeyEvent;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Translates NSEvents/NPCocoaEvents into AWT events.

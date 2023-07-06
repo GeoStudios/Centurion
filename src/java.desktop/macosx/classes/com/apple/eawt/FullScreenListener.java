@@ -19,10 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.eawt;
+package java.desktop.macosx.classes.com.apple.eawt;
 
-import com.apple.eawt.event.FullScreenEvent;
-import java.util.EventListener;
+
+import java.desktop.macosx.classes.com.apple.eawt.event.FullScreenEvent;
+import java.util.Eventjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

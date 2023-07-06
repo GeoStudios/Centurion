@@ -21,7 +21,21 @@
 
 package jdk.jdeprusage;
 
+
 import jdk.deprcases.types.DeprecatedEnum;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class UseEnum {
     static class ReturnValue {

@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.awt.regtesthelpers;
+
+
+import java.awt.*;
+import java.util.HashMap;
+import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * <p> This class is used to test a focus traversal policy implementation.
  * <p> When using jtreg you should include this class via something like:
@@ -30,11 +50,7 @@
  * <p> And put "import test.java.awt.regtesthelpers.AbstractPolicyTest;" into the test.
  */
 
-package test.java.awt.regtesthelpers;
 
-import java.awt.*;
-import java.util.HashMap;
-import java.util.Map;
 
 public abstract class AbstractPolicyTest {
 

@@ -18,12 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.beans;
 
-import java.util.*;
-import java.lang.reflect.*;
-import java.util.Objects;
+package java.desktop.share.classes.java.beans;
+
+
+import java.desktop.share.classes.java.util.*;
+import java.desktop.share.classes.java.lang.reflect.*;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.Objects;
 import sun.reflect.misc.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

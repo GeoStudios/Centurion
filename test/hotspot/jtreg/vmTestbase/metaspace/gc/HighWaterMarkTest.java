@@ -21,8 +21,22 @@
 
 package metaspace.gc;
 
-import java.util.Arrays;
+
+import java.base.share.classes.java.util.Arrays;
 import vm.share.VMRuntimeEnvUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test metaspace ergonomic.

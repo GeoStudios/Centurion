@@ -19,25 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.xs;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
 
-import com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
-import com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
-import com.sun.org.apache.xerces.internal.impl.dv.ValidatedInfo;
-import com.sun.org.apache.xerces.internal.impl.dv.ValidationContext;
-import com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType;
-import com.sun.org.apache.xerces.internal.impl.xs.models.CMBuilder;
-import com.sun.org.apache.xerces.internal.impl.xs.models.XSCMValidator;
-import com.sun.org.apache.xerces.internal.impl.xs.util.SimpleLocator;
-import com.sun.org.apache.xerces.internal.impl.xs.util.XSObjectListImpl;
-import com.sun.org.apache.xerces.internal.util.SymbolHash;
-import com.sun.org.apache.xerces.internal.xs.XSConstants;
-import com.sun.org.apache.xerces.internal.xs.XSObjectList;
-import com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
-import java.util.ArrayList;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.ValidatedInfo;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.ValidationContext;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.models.CMBuilder;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.models.XSCMValidator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.SimpleLocator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XSObjectjava.util.ListImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolHash;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSConstants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObjectjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Constaints shared by traversers and validator

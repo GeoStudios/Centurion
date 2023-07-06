@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.share.jdi;
+
 
 import com.sun.jdi.ObjectCollectedException;
 import com.sun.jdi.event.Event;
@@ -26,6 +28,19 @@ import com.sun.jdi.event.MonitorContendedEnterEvent;
 import com.sun.jdi.event.MonitorContendedEnteredEvent;
 import com.sun.jdi.event.MonitorWaitEvent;
 import com.sun.jdi.event.MonitorWaitedEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Class contains debugger classes based on JDIEventsDebugger intended for JDI events testing

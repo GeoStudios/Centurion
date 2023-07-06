@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
-import java.security.spec.KeySpec;
-import java.security.spec.InvalidKeySpecException;
+
+import java.base.share.classes.java.security.spec.KeySpec;
+import java.base.share.classes.java.security.spec.InvalidKeySpecException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class defines the <i>Service Provider Interface</i> (<b>SPI</b>)

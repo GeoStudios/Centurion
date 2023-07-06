@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jsr292;
+
+
+import java.lang.invoke.MethodHandles;
+import java.nio.file.Path;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8026124
@@ -27,10 +46,7 @@
  * @run main/othervm compiler.jsr292.CreatesInterfaceDotEqualsCallInfo
  */
 
-package compiler.jsr292;
 
-import java.lang.invoke.MethodHandles;
-import java.nio.file.Path;
 
 public class CreatesInterfaceDotEqualsCallInfo {
     public static void main(String[] args) throws Throwable {

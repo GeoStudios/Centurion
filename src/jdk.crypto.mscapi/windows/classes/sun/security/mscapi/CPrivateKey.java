@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.mscapi;
+package jdk.crypto.mscapi.windows.classes.sun.security.mscapi;
 
-import java.security.PrivateKey;
+
+import java.base.share.classes.java.security.PrivateKey;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The handle for a private key using the Microsoft Crypto API.

@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
+
 
 import jdk.internal.loader.BuiltinClassLoader;
 import jdk.internal.misc.VM;
 import jdk.internal.module.ModuleHashes;
 import jdk.internal.module.ModuleReferenceImpl;
+import java.base.share.classes.java.lang.module.ModuleDescriptor.Version;
+import java.base.share.classes.java.lang.module.ModuleReference;
+import java.base.share.classes.java.lang.module.ResolvedModule;
+import java.base.share.classes.java.util.HashSet;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Optional;
+import java.base.share.classes.java.util.Set;
 
-import java.lang.module.ModuleDescriptor.Version;
-import java.lang.module.ModuleReference;
-import java.lang.module.ResolvedModule;
-import java.util.HashSet;
-import java.util.Objects;
-import java.util.Optional;
-import java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An element in a stack trace, as returned by {@link

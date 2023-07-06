@@ -19,15 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.util;
+
+
+import java.util.Stack;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.JavaClass;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.bcel.internal.util;
 
-import java.util.Stack;
 
-import com.sun.org.apache.bcel.internal.classfile.JavaClass;
+
 
 /**
  * Utility class implementing a (typesafe) stack of JavaClass objects.

@@ -21,6 +21,21 @@
 
 package rare5;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class A<T> {
     class B<U> {
     }

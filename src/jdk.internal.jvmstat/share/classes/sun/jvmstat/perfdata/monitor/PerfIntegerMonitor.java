@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvmstat.perfdata.monitor;
+package jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor;
 
-import sun.jvmstat.monitor.*;
+
+import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.*;
 import java.nio.IntBuffer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class for monitoring a PerfData Integer instrument.

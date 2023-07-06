@@ -19,19 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.beans.beancontext;
+package java.desktop.share.classes.java.beans.beancontext;
 
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import java.beans.PropertyChangeSupport;
-import java.beans.PropertyVetoException;
-import java.beans.VetoableChangeListener;
-import java.beans.VetoableChangeSupport;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serial;
-import java.io.Serializable;
+
+import java.desktop.share.classes.java.beans.PropertyChangeEvent;
+import java.desktop.share.classes.java.beans.PropertyChangejava.util.Listener;
+import java.desktop.share.classes.java.beans.PropertyChangeSupport;
+import java.desktop.share.classes.java.beans.PropertyVetoException;
+import java.desktop.share.classes.java.beans.VetoableChangejava.util.Listener;
+import java.desktop.share.classes.java.beans.VetoableChangeSupport;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.ObjectOutputStream;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>

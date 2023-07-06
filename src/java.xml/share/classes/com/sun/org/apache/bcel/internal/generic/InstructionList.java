@@ -19,20 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.bcel.internal.generic;
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-import com.sun.org.apache.bcel.internal.Const;
-import com.sun.org.apache.bcel.internal.classfile.Constant;
-import com.sun.org.apache.bcel.internal.util.ByteSequence;
+
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Constant;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.ByteSequence;
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
-import java.io.IOException;
-import java.util.ArrayList;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.NoSuchElementException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is a container for a list of <a

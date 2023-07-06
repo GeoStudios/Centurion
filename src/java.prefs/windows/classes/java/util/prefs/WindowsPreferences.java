@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.prefs;
+package java.prefs.windows.classes.java.util.prefs;
 
-import java.util.StringTokenizer;
-import java.io.ByteArrayOutputStream;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
 
+import java.prefs.windows.classes.java.util.StringTokenizer;
+import java.prefs.windows.classes.java.io.ByteArrayOutputStream;
+import java.prefs.windows.classes.java.security.AccessController;
+import java.prefs.windows.classes.java.security.PrivilegedAction;
 import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Windows registry based implementation of  {@code Preferences}.

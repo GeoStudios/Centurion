@@ -19,40 +19,58 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.OutputStream;
+import java.base.share.classes.java.security.Key;
+import java.security.Provider;
+import java.base.share.classes.java.security.PublicKey;
+import java.security.cert.X509Certificate;
+import java.security.spec.AlgorithmParameterSpec;
+import java.base.share.classes.javax.crypto.SecretKey;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms.SignatureAlgorithm;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.Canonicalizer;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.KeyInfo;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.X509Data;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.Transforms;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.Constants;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.I18n;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.SignatureElementProxy;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.SignerOutputStream;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.UnsyncBufferedOutputStream;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.XMLUtils;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver.ResourceResolverSpi;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Attr;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Text;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.signature;
 
-import java.io.IOException;
-import java.io.OutputStream;
-import java.security.Key;
-import java.security.Provider;
-import java.security.PublicKey;
-import java.security.cert.X509Certificate;
-import java.security.spec.AlgorithmParameterSpec;
 
-import javax.crypto.SecretKey;
 
-import com.sun.org.apache.xml.internal.security.algorithms.SignatureAlgorithm;
-import com.sun.org.apache.xml.internal.security.c14n.Canonicalizer;
-import com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
-import com.sun.org.apache.xml.internal.security.keys.KeyInfo;
-import com.sun.org.apache.xml.internal.security.keys.content.X509Data;
-import com.sun.org.apache.xml.internal.security.transforms.Transforms;
-import com.sun.org.apache.xml.internal.security.utils.Constants;
-import com.sun.org.apache.xml.internal.security.utils.I18n;
-import com.sun.org.apache.xml.internal.security.utils.SignatureElementProxy;
-import com.sun.org.apache.xml.internal.security.utils.SignerOutputStream;
-import com.sun.org.apache.xml.internal.security.utils.UnsyncBufferedOutputStream;
-import com.sun.org.apache.xml.internal.security.utils.XMLUtils;
-import com.sun.org.apache.xml.internal.security.utils.resolver.ResourceResolverSpi;
-import org.w3c.dom.Attr;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.Text;
+
 
 /**
  * Handles {@code &lt;ds:Signature&gt;} elements.

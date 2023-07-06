@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.vectorization;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8199421
@@ -29,7 +46,6 @@
  *      -XX:MaxVectorSize=8 compiler.vectorization.TestPopCountVector
  */
 
-package compiler.vectorization;
 
 public class TestPopCountVector {
     private int[] input;

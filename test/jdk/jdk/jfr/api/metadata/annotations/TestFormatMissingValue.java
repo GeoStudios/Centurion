@@ -21,6 +21,7 @@
 
 package jdk.jfr.api.metadata.annotations;
 
+
 import jdk.jfr.DataAmount;
 import jdk.jfr.Event;
 import jdk.jfr.Frequency;
@@ -29,6 +30,19 @@ import jdk.jfr.StackTrace;
 import jdk.jfr.consumer.RecordedEvent;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.jfr.Events;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

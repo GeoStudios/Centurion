@@ -19,23 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.dtm.ref;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref;
+
 
 import javax.xml.transform.SourceLocator;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisTraverser;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMManager;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMWSFilter;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.FastStringBuffer;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLString;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLStringFactory;
+import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
+import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.Locator;
+import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
 
-import com.sun.org.apache.xml.internal.dtm.DTM;
-import com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
-import com.sun.org.apache.xml.internal.dtm.DTMAxisTraverser;
-import com.sun.org.apache.xml.internal.dtm.DTMManager;
-import com.sun.org.apache.xml.internal.dtm.DTMWSFilter;
-import com.sun.org.apache.xml.internal.utils.FastStringBuffer;
-import com.sun.org.apache.xml.internal.utils.XMLString;
-import com.sun.org.apache.xml.internal.utils.XMLStringFactory;
 
-import org.xml.sax.Attributes;
-import org.xml.sax.ContentHandler;
-import org.xml.sax.Locator;
-import org.xml.sax.ext.LexicalHandler;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the implementation of the DTM document interface.  It receives

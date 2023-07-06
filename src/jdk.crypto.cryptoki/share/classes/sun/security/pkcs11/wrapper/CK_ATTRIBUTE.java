@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs11.wrapper;
+package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper;
+
 
 import java.math.BigInteger;
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Constants.*;.extended
 
-import static sun.security.pkcs11.wrapper.PKCS11Constants.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * class CK_ATTRIBUTE includes the type, value and length of an attribute.<p>

@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.naming.internal;
+package java.naming.share.classes.com.sun.naming.internal;
 
-import java.util.List;
+
+import java.util.java.util.java.util.java.util.List;
 import javax.naming.NamingException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * The FactoryEnumeration is used for returning factory instances.

@@ -19,18 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.tool;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.tool;
 
 
 import java.util.*;
-
 import javax.lang.model.element.Element;
 import javax.lang.model.element.TypeElement;
 import javax.lang.model.util.Elements;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileObject;
 import javax.tools.JavaFileObject.Kind;
-
 import com.sun.source.util.DocTrees;
 import com.sun.source.util.TreePath;
 import com.sun.tools.javac.api.JavacTrees;
@@ -57,6 +55,20 @@ import com.sun.tools.javac.util.Context;
 import com.sun.tools.javac.util.Convert;
 import com.sun.tools.javac.util.Name;
 import com.sun.tools.javac.util.Names;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Holds the environment for a run of javadoc.

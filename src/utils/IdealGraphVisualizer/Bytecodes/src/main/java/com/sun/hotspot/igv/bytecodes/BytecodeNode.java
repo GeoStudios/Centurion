@@ -18,22 +18,38 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.bytecodes;
 
-import com.sun.hotspot.igv.data.InputBytecode;
-import com.sun.hotspot.igv.data.InputGraph;
-import com.sun.hotspot.igv.data.InputNode;
-import com.sun.hotspot.igv.data.Properties;
-import com.sun.hotspot.igv.data.Properties.StringPropertyMatcher;
-import java.awt.Image;
-import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Set;
+package utils.IdealGraphVisualizer.Bytecodes.src.main.java.com.sun.hotspot.igv.bytecodes;
+
+
+import utils.IdealGraphVisualizer.Bytecodes.src.main.java.com.sun.hotspot.igv.data.InputBytecode;
+import utils.IdealGraphVisualizer.Bytecodes.src.main.java.com.sun.hotspot.igv.data.InputGraph;
+import utils.IdealGraphVisualizer.Bytecodes.src.main.java.com.sun.hotspot.igv.data.InputNode;
+import utils.IdealGraphVisualizer.Bytecodes.src.main.java.com.sun.hotspot.igv.data.Properties;
+import utils.IdealGraphVisualizer.Bytecodes.src.main.java.com.sun.hotspot.igv.data.Properties.StringPropertyMatcher;
+import utils.IdealGraphVisualizer.Bytecodes.src.main.java.awt.Image;
+import utils.IdealGraphVisualizer.Bytecodes.src.main.java.util.LinkedHashSet;
+import utils.IdealGraphVisualizer.Bytecodes.src.main.java.util.java.util.java.util.java.util.List;
+import utils.IdealGraphVisualizer.Bytecodes.src.main.java.util.Set;
 import javax.swing.Action;
 import org.openide.nodes.AbstractNode;
 import org.openide.nodes.Children;
 import org.openide.nodes.Node;
 import org.openide.util.ImageUtilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.org.objectweb.asm.util;
+package java.base.share.classes.jdk.internal.org.objectweb.asm.util;
+
 
 import java.util.EnumSet;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.signature.SignatureVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.signature.SignatureVisitor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@link SignatureVisitor} that checks that its methods are properly used.

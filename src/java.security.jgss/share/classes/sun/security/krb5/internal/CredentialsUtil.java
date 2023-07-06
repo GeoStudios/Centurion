@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal;
+package java.security.jgss.share.classes.sun.security.krb5.internal;
 
-import sun.security.krb5.*;
-import sun.security.util.DerValue;
 
-import java.io.IOException;
-import java.util.LinkedList;
-import java.util.List;
+import java.security.jgss.share.classes.sun.security.krb5.*;
+import java.security.jgss.share.classes.sun.security.util.DerValue;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is a utility that contains much of the TGS-Exchange

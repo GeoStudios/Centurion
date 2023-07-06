@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdeps;
+package jdk.jdeps.share.classes.com.sun.tools.jdeps;
+
 
 import java.io.*;
 import java.util.spi.ToolProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

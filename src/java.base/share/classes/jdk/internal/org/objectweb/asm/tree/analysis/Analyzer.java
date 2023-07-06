@@ -19,24 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.org.objectweb.asm.tree.analysis;
+package java.base.share.classes.jdk.internal.org.objectweb.asm.tree.analysis;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.Type;
-import jdk.internal.org.objectweb.asm.tree.AbstractInsnNode;
-import jdk.internal.org.objectweb.asm.tree.IincInsnNode;
-import jdk.internal.org.objectweb.asm.tree.InsnList;
-import jdk.internal.org.objectweb.asm.tree.JumpInsnNode;
-import jdk.internal.org.objectweb.asm.tree.LabelNode;
-import jdk.internal.org.objectweb.asm.tree.LookupSwitchInsnNode;
-import jdk.internal.org.objectweb.asm.tree.MethodNode;
-import jdk.internal.org.objectweb.asm.tree.TableSwitchInsnNode;
-import jdk.internal.org.objectweb.asm.tree.TryCatchBlockNode;
-import jdk.internal.org.objectweb.asm.tree.VarInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Type;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.AbstractInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.IincInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.Insnjava.util.java.util.java.util.List;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.JumpInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.LabelNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.LookupSwitchInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.MethodNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.TableSwitchInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.TryCatchBlockNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.VarInsnNode;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A semantic bytecode analyzer. <i>This class does not fully check that JSR and RET instructions
@@ -101,7 +116,7 @@ public class Analyzer<V extends Value> implements Opcodes {
         }
         insnList = method.instructions;
         insnListSize = insnList.size();
-        handlers = (List<TryCatchBlockNode>[]) new List<?>[insnListSize];
+        handlers = new List<?>[insnListSize];
         frames = (Frame<V>[]) new Frame<?>[insnListSize];
         subroutines = new Subroutine[insnListSize];
         inInstructionsToProcess = new boolean[insnListSize];

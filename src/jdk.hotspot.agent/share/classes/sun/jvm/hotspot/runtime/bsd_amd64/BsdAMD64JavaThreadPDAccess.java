@@ -19,21 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.runtime.bsd_amd64;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.bsd_amd64;
+
 
 import java.io.*;
 import java.util.*;
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.debugger.amd64.*;
-import sun.jvm.hotspot.debugger.bsd.BsdDebugger;
-import sun.jvm.hotspot.debugger.bsd.BsdDebuggerLocal;
-import sun.jvm.hotspot.runtime.*;
-import sun.jvm.hotspot.runtime.amd64.*;
-import sun.jvm.hotspot.runtime.x86.*;
-import sun.jvm.hotspot.types.*;
-import sun.jvm.hotspot.utilities.*;
-import sun.jvm.hotspot.utilities.Observable;
-import sun.jvm.hotspot.utilities.Observer;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.amd64.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.bsd.BsdDebugger;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.bsd.BsdDebuggerLocal;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.amd64.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.x86.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class BsdAMD64JavaThreadPDAccess implements JavaThreadPDAccess {
   private static AddressField  lastJavaFPField;

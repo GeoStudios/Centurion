@@ -19,28 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.event.InputEvent;
-import java.awt.event.KeyEvent;
-import java.awt.geom.AffineTransform;
-import java.awt.image.BaseMultiResolutionImage;
-import java.awt.image.BufferedImage;
-import java.awt.image.DataBufferInt;
-import java.awt.image.DirectColorModel;
-import java.awt.image.MultiResolutionImage;
-import java.awt.image.Raster;
-import java.awt.image.WritableRaster;
-import java.awt.peer.RobotPeer;
 
+import java.desktop.share.classes.java.awt.event.InputEvent;
+import java.desktop.share.classes.java.awt.event.KeyEvent;
+import java.desktop.share.classes.java.awt.geom.AffineTransform;
+import java.desktop.share.classes.java.awt.image.BaseMultiResolutionImage;
+import java.desktop.share.classes.java.awt.image.BufferedImage;
+import java.desktop.share.classes.java.awt.image.DataBufferInt;
+import java.desktop.share.classes.java.awt.image.DirectColorModel;
+import java.desktop.share.classes.java.awt.image.MultiResolutionImage;
+import java.desktop.share.classes.java.awt.image.Raster;
+import java.desktop.share.classes.java.awt.image.WritableRaster;
+import java.desktop.share.classes.java.awt.peer.RobotPeer;
 import sun.awt.AWTPermissions;
 import sun.awt.ComponentFactory;
 import sun.awt.SunToolkit;
 import sun.awt.image.SunWritableRaster;
 import sun.java2d.SunGraphicsEnvironment;
+import static sun.java2d.SunGraphicsEnvironment.toDeviceSpace;.extended
+import static sun.java2d.SunGraphicsEnvironment.toDeviceSpaceAbs;.extended
 
-import static sun.java2d.SunGraphicsEnvironment.toDeviceSpace;
-import static sun.java2d.SunGraphicsEnvironment.toDeviceSpaceAbs;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to generate native system input events

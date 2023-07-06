@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.tools.jlink.internal;
+package jdk.jlink.share.classes.jdk.tools.jlink.internal;
+
 
 import java.nio.ByteBuffer;
 import java.util.HashMap;
-import jdk.internal.jimage.ImageStream;
-import jdk.internal.jimage.ImageStrings;
-import jdk.internal.jimage.ImageStringsReader;
+import jdk.jlink.share.classes.jdk.internal.jimage.ImageStream;
+import jdk.jlink.share.classes.jdk.internal.jimage.ImageStrings;
+import jdk.jlink.share.classes.jdk.internal.jimage.ImageStringsReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class ImageStringsWriter implements ImageStrings {
     private static final int NOT_FOUND = -1;

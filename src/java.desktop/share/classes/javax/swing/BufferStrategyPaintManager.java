@@ -18,22 +18,36 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing;
+
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.image.*;
 import java.lang.ref.WeakReference;
 import java.util.*;
-
 import com.sun.java.swing.SwingUtilities3;
 import sun.awt.AWTAccessor;
-
 import sun.awt.SubRegionShowable;
 import sun.java2d.SunGraphics2D;
 import sun.java2d.pipe.hw.ExtendedBufferCapabilities;
 import sun.awt.SunToolkit;
 import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A PaintManager implementation that uses a BufferStrategy for

@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.eawt;
+package java.desktop.macosx.classes.com.apple.eawt;
+
 
 import java.awt.desktop.QuitEvent;
 import java.awt.desktop.QuitHandler;
 import java.awt.desktop.QuitResponse;
 import java.awt.desktop.QuitStrategy;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Used to respond to a request to quit the application.

@@ -19,19 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.lib;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.lib;
 
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.TimeZone;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XBoolean;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XNumber;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 
-import com.sun.org.apache.xpath.internal.objects.XBoolean;
-import com.sun.org.apache.xpath.internal.objects.XNumber;
-import com.sun.org.apache.xpath.internal.objects.XObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains EXSLT dates and times extension functions.

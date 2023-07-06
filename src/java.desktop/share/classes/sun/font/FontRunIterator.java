@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.share.classes.sun.font;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Iterates over runs of fonts in a CompositeFont, optionally taking script runs into account.

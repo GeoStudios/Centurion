@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.rtm.method_options;
+
+
+import compiler.testlibrary.rtm.AbortProvoker;
+import compiler.testlibrary.rtm.AbortType;
+import compiler.testlibrary.rtm.RTMLockingStatistics;
+import compiler.testlibrary.rtm.RTMTestBase;
+import jdk.test.lib.Asserts;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.cli.CommandLineOptionTest;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8031320
@@ -35,17 +60,8 @@
  *                          compiler.rtm.method_options.TestNoRTMLockElidingOption
  */
 
-package compiler.rtm.method_options;
 
-import compiler.testlibrary.rtm.AbortProvoker;
-import compiler.testlibrary.rtm.AbortType;
-import compiler.testlibrary.rtm.RTMLockingStatistics;
-import compiler.testlibrary.rtm.RTMTestBase;
-import jdk.test.lib.Asserts;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.cli.CommandLineOptionTest;
 
-import java.util.List;
 
 /**
  * Test verifies that method tagged with option <i>NoRTMLockElidingOption</i>

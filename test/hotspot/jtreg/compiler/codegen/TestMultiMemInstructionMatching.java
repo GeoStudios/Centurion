@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codegen;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8240905
@@ -27,7 +44,6 @@
  *                   compiler.codegen.TestMultiMemInstructionMatching
  */
 
-package compiler.codegen;
 
 public class TestMultiMemInstructionMatching {
 

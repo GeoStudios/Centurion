@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.dnd;
+package java.desktop.share.classes.java.awt.dnd;
 
-import java.io.OutputStream;
-import java.io.ObjectOutputStream;
-import java.io.IOException;
-import java.io.Serializable;
+
+import java.desktop.share.classes.java.io.OutputStream;
+import java.desktop.share.classes.java.io.ObjectOutputStream;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Tests if an object can truly be serialized by serializing it to a null
@@ -32,7 +47,7 @@ import java.io.Serializable;
  *
  */
 final class SerializationTester {
-    private static ObjectOutputStream stream;
+    private static final ObjectOutputStream stream;
     static {
         try {
             stream = new ObjectOutputStream(new OutputStream() {

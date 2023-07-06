@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.table;
+package java.desktop.share.classes.javax.swing.table;
 
-import javax.swing.*;
-import javax.swing.event.*;
+
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.event.*;
 import java.io.Serializable;
-import java.util.EventListener;
+import java.util.Eventjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  This abstract class provides default implementations for most of

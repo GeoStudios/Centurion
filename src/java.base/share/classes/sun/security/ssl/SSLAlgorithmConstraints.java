@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
+
 
 import java.security.AlgorithmConstraints;
 import java.security.AlgorithmParameters;
 import java.security.CryptoPrimitive;
-import java.security.Key;
+import java.base.share.classes.java.security.Key;
 import java.util.Set;
 import javax.net.ssl.*;
-import sun.security.util.DisabledAlgorithmConstraints;
-import static sun.security.util.DisabledAlgorithmConstraints.*;
+import java.base.share.classes.sun.security.util.DisabledAlgorithmConstraints;
+import static java.base.share.classes.sun.security.util.DisabledAlgorithmConstraints.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Algorithm constraints for disabled algorithms property

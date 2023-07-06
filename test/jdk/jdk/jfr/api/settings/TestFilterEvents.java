@@ -21,14 +21,27 @@
 
 package jdk.jfr.api.settings;
 
+
 import jdk.jfr.Description;
 import jdk.jfr.Event;
 import jdk.jfr.Label;
 import jdk.jfr.Recording;
 import jdk.jfr.SettingDefinition;
 import jdk.test.lib.jfr.Events;
+import static jdk.test.lib.Asserts.assertEquals;.extended
 
-import static jdk.test.lib.Asserts.assertEquals;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

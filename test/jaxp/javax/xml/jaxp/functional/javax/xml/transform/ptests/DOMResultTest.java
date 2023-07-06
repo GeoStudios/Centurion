@@ -21,31 +21,42 @@
 
 package javax.xml.transform.ptests;
 
-import static javax.xml.transform.ptests.TransformerTestConst.GOLDEN_DIR;
-import static javax.xml.transform.ptests.TransformerTestConst.XML_DIR;
-import static jaxp.library.JAXPTestUtilities.USER_DIR;
-import static jaxp.library.JAXPTestUtilities.compareWithGold;
-import static org.testng.Assert.assertTrue;
 
+import static javax.xml.transform.ptests.TransformerTestConst.GOLDEN_DIR;.extended
+import static javax.xml.transform.ptests.TransformerTestConst.XML_DIR;.extended
+import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
+import static jaxp.library.JAXPTestUtilities.compareWithGold;.extended
+import static org.testng.Assert.assertTrue;.extended
 import java.io.BufferedWriter;
 import java.io.FileWriter;
-import java.io.IOException;
-
+import java.io.java.io.java.io.java.io.IOException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMResult;
 import javax.xml.transform.sax.SAXSource;
 import javax.xml.transform.sax.SAXTransformerFactory;
 import javax.xml.transform.sax.TransformerHandler;
-
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.Attr;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import org.xml.sax.InputSource;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * DOM parse on test file to be compared with golden output file. No Exception

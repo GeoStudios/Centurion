@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.share.classes.sun.font;
+
 
 import java.awt.Font;
-
 import java.awt.font.FontRenderContext;
 import java.text.Bidi;
 
-  /**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
    * A factory for text labels.  Basically this just holds onto the stuff that
    * doesn't change-- the render context, context, and bidi info for the context-- and gets
    * called for each subrange you want to create.

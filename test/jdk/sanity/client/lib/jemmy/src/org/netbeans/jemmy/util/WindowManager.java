@@ -18,13 +18,14 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.util;
+
 
 import java.awt.Component;
 import java.awt.Dialog;
 import java.awt.Window;
 import java.util.Vector;
-
 import org.netbeans.jemmy.JemmyProperties;
 import org.netbeans.jemmy.Outputable;
 import org.netbeans.jemmy.TestOut;
@@ -32,6 +33,19 @@ import org.netbeans.jemmy.Timeoutable;
 import org.netbeans.jemmy.Timeouts;
 import org.netbeans.jemmy.WindowWaiter;
 import org.netbeans.jemmy.operators.WindowOperator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class allows to make periodical window jobs like error window closing.

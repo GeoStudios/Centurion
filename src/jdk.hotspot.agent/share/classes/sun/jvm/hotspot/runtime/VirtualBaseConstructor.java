@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.runtime;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime;
+
 
 import java.util.*;
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.debugger.cdbg.CDebugger;
-import sun.jvm.hotspot.debugger.cdbg.ClosestSymbol;
-import sun.jvm.hotspot.debugger.cdbg.LoadObject;
-import sun.jvm.hotspot.types.*;
-import sun.jvm.hotspot.HotSpotTypeDataBase;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.CDebugger;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.ClosestSymbol;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.LoadObject;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.HotSpotTypeDataBase;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This provides a factory to create instances where the base virtual
  * type is know and the expected subclasses are within a particular

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.ui;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
+
 
 import java.util.*;
 import java.io.*;
@@ -27,11 +28,24 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.text.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
 
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.oops.*;
-import sun.jvm.hotspot.runtime.*;
-import sun.jvm.hotspot.utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Finds a given (Address) value in the heap. Only intended for use
     in a debugging system. */

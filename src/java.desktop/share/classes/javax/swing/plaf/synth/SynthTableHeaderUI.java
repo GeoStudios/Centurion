@@ -19,25 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.synth;
+package java.desktop.share.classes.javax.swing.plaf.synth;
+
 
 import java.awt.Component;
 import java.awt.Graphics;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JTable;
-import javax.swing.RowSorter;
-import javax.swing.border.Border;
-import javax.swing.plaf.ComponentUI;
-import javax.swing.plaf.UIResource;
-import javax.swing.plaf.basic.BasicTableHeaderUI;
-import javax.swing.table.JTableHeader;
-import javax.swing.table.TableCellRenderer;
-
+import java.beans.PropertyChangejava.util.Listener;
+import java.desktop.share.classes.javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.JLabel;
+import java.desktop.share.classes.javax.swing.JTable;
+import java.desktop.share.classes.javax.swing.RowSorter;
+import java.desktop.share.classes.javax.swing.border.Border;
+import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
+import java.desktop.share.classes.javax.swing.plaf.UIResource;
+import java.desktop.share.classes.javax.swing.plaf.basic.BasicTableHeaderUI;
+import java.desktop.share.classes.javax.swing.table.JTableHeader;
+import java.desktop.share.classes.javax.swing.table.TableCellRenderer;
 import sun.swing.table.DefaultTableCellHeaderRenderer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the Synth L&amp;F UI delegate for

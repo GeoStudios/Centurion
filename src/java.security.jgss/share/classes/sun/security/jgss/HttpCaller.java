@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jgss;
+package java.security.jgss.share.classes.sun.security.jgss;
 
-import sun.net.www.protocol.http.HttpCallerInfo;
+
+import java.security.jgss.share.classes.sun.net.www.protocol.http.HttpCallerInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A special kind of GSSCaller, which origins from HTTP/Negotiate and contains

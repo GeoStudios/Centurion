@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.remote.internal;
+package java.management.share.classes.com.sun.jmx.remote.internal;
 
-import java.util.AbstractList;
+
+import java.util.Abstractjava.util.java.util.java.util.List;
 import java.util.Iterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ArrayQueue<T> extends AbstractList<T> {
     public ArrayQueue(int capacity) {

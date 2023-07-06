@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
-import java.util.List;
-import java.util.NoSuchElementException;
-import java.util.function.IntFunction;
+
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.NoSuchElementException;
+import java.base.share.classes.java.util.function.IntFunction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An ordered sequence of constants, some of which may not yet

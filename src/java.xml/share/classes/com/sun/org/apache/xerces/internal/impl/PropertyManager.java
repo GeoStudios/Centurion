@@ -19,11 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
 
-import com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
-import com.sun.org.apache.xerces.internal.utils.XMLSecurityPropertyManager;
-import com.sun.xml.internal.stream.StaxEntityResolverWrapper;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityPropertyManager;
+import java.xml.share.classes.com.sun.xml.internal.stream.StaxEntityResolverWrapper;
 import java.util.HashMap;
 import javax.xml.XMLConstants;
 import javax.xml.catalog.CatalogFeatures;
@@ -33,6 +34,20 @@ import javax.xml.stream.XMLResolver;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkProperty;
 import jdk.xml.internal.JdkXmlUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class manages different properties related to Stax specification and its implementation.

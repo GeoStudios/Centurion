@@ -19,18 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ec;
+package jdk.crypto.ec.share.classes.sun.security.ec;
 
-import java.io.IOException;
 
-import java.security.*;
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.security.*;
 import java.security.interfaces.*;
-import java.security.spec.*;
+import java.base.share.classes.java.security.spec.*;
+import jdk.crypto.ec.share.classes.sun.security.util.ECParameters;
+import jdk.crypto.ec.share.classes.sun.security.util.ECUtil;
+import jdk.crypto.ec.share.classes.sun.security.x509.*;
 
-import sun.security.util.ECParameters;
-import sun.security.util.ECUtil;
 
-import sun.security.x509.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Key implementation for EC public keys.

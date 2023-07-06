@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.Robert;
+
+
+import java.io.*;
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,10 +49,7 @@
  * @run main/othervm jit.Robert.Robert
  */
 
-package jit.Robert;
 
-import java.io.*;
-import nsk.share.TestFailure;
 
 public class Robert
    {

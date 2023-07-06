@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.t.t109;
+
+
+import nsk.share.GoldChecker;
+import java.io.PrintWriter;
+import java.io.StringWriter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -36,12 +56,8 @@
  *      jit.t.t109.t109
  */
 
-package jit.t.t109;
 
-import nsk.share.GoldChecker;
 
-import java.io.PrintWriter;
-import java.io.StringWriter;
 
 // THIS TEST IS LINE NUMBER SENSITIVE
 

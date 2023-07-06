@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jshell;
+package jdk.jshell.share.classes.jdk.jshell;
+
 
 import com.sun.tools.javac.code.Source;
 import com.sun.tools.javac.parser.Scanner;
@@ -39,16 +40,29 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.EnumMap;
 import java.util.Iterator;
-import jdk.jshell.SourceCodeAnalysis.Completeness;
+import jdk.jshell.share.classes.jdk.jshell.SourceCodeAnalysis.Completeness;
 import com.sun.source.tree.Tree;
-import static jdk.jshell.CompletenessAnalyzer.TK.*;
-import jdk.jshell.TaskFactory.ParseTask;
-import jdk.jshell.TaskFactory.Worker;
-import java.util.List;
+import static jdk.jshell.share.classes.jdk.jshell.CompletenessAnalyzer.TK.*;.extended
+import jdk.jshell.share.classes.jdk.jshell.TaskFactory.ParseTask;
+import jdk.jshell.share.classes.jdk.jshell.TaskFactory.Worker;
+import java.util.java.util.java.util.java.util.List;
 import java.util.function.Function;
 import java.util.function.Supplier;
-
 import com.sun.tools.javac.util.Names;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Low level scanner to determine completeness of input.

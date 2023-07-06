@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management;
+package java.management.share.classes.javax.management;
 
-import javax.management.loading.ClassLoaderRepository;
+
+import java.management.share.classes.javax.management.loading.ClassLoaderRepository;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Keeps the list of Class Loaders registered in the MBean Server.

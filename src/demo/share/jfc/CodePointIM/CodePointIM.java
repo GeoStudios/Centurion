@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.jfc.CodePointIM;
+
+
+import java.base.share.classes.java.util.Locale;
+import java.util.MissingResourceException;
+import java.util.ResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -29,9 +50,6 @@
 
 
 
-import java.util.Locale;
-import java.util.MissingResourceException;
-import java.util.ResourceBundle;
 
 
 public class CodePointIM {

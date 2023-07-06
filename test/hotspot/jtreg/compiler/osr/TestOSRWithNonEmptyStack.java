@@ -19,6 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.osr;
+
+
+import jdk.internal.org.objectweb.asm.ClassWriter;
+import jdk.internal.org.objectweb.asm.Label;
+import jdk.internal.org.objectweb.asm.MethodVisitor;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PUBLIC;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ALOAD;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.DUP;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.IADD;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ICONST_0;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ICONST_1;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.IF_ICMPLT;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ILOAD;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.INVOKESPECIAL;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ISTORE;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.POP;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.RETURN;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8051344
@@ -28,27 +62,9 @@
  *                   compiler.osr.TestOSRWithNonEmptyStack
  */
 
-package compiler.osr;
 
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.org.objectweb.asm.Label;
-import jdk.internal.org.objectweb.asm.MethodVisitor;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Method;
 
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PUBLIC;
-import static jdk.internal.org.objectweb.asm.Opcodes.ALOAD;
-import static jdk.internal.org.objectweb.asm.Opcodes.DUP;
-import static jdk.internal.org.objectweb.asm.Opcodes.IADD;
-import static jdk.internal.org.objectweb.asm.Opcodes.ICONST_0;
-import static jdk.internal.org.objectweb.asm.Opcodes.ICONST_1;
-import static jdk.internal.org.objectweb.asm.Opcodes.IF_ICMPLT;
-import static jdk.internal.org.objectweb.asm.Opcodes.ILOAD;
-import static jdk.internal.org.objectweb.asm.Opcodes.INVOKESPECIAL;
-import static jdk.internal.org.objectweb.asm.Opcodes.ISTORE;
-import static jdk.internal.org.objectweb.asm.Opcodes.POP;
-import static jdk.internal.org.objectweb.asm.Opcodes.RETURN;
 
 public class TestOSRWithNonEmptyStack extends ClassLoader {
     private static final int CLASS_FILE_VERSION = 52;

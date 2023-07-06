@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.hotspot.tools.compiler;
+package utils.LogCompilation.src.main.java.com.sun.hotspot.tools.compiler;
 
-import java.io.PrintStream;
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.List;
+
+import utils.LogCompilation.src.main.java.io.PrintStream;
+import utils.LogCompilation.src.main.java.util.ArrayDeque;
+import utils.LogCompilation.src.main.java.util.Arrayjava.util.java.util.java.util.List;
+import utils.LogCompilation.src.main.java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Representation of a compilation scope in a compilation log. This class is a
@@ -182,7 +197,7 @@ public class CallSite {
             stream.print("  @ " + getBci() + " " + m + " " + getReason());
         }
         stream.print(getIntrinsicOrEmptyString());
-        if (LogCompilation.compare == false) {
+        if (!LogCompilation.compare) {
             // The timestamp is not useful for log comparison
             stream.printf(" (end time: %6.4f", getTimeStamp());
         }

@@ -19,19 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xpath.internal;
+package java.xml.share.classes.com.sun.org.apache.xpath.internal;
+
 
 import javax.xml.transform.TransformerException;
-
-import com.sun.org.apache.xml.internal.utils.PrefixResolver;
-import com.sun.org.apache.xml.internal.utils.PrefixResolverDefault;
-import com.sun.org.apache.xpath.internal.objects.XObject;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.PrefixResolver;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.PrefixResolverDefault;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 import jdk.xml.internal.JdkConstants;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.w3c.dom.traversal.NodeIterator;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.w3c.dom.traversal.NodeIterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The methods in this class are convenience methods into the

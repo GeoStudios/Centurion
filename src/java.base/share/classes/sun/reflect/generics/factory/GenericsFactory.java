@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.reflect.generics.factory;
+package java.base.share.classes.sun.reflect.generics.factory;
+
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.lang.reflect.TypeVariable;
 import java.lang.reflect.WildcardType;
-import sun.reflect.generics.tree.FieldTypeSignature;
+import java.base.share.classes.sun.reflect.generics.tree.FieldTypeSignature;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A factory interface for reflective objects representing generic types.

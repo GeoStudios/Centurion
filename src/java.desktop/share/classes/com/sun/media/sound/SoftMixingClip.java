@@ -19,13 +19,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.media.sound;
+package java.desktop.share.classes.com.sun.media.sound;
+
 
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
-import java.util.Arrays;
-
+import java.base.share.classes.java.util.Arrays;
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
@@ -33,6 +33,20 @@ import javax.sound.sampled.Clip;
 import javax.sound.sampled.DataLine;
 import javax.sound.sampled.LineEvent;
 import javax.sound.sampled.LineUnavailableException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Clip implementation for the SoftMixingMixer.

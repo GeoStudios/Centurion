@@ -19,36 +19,49 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac.comp;
+package jdk.compiler.share.classes.com.sun.tools.sjavac.comp;
+
 
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.net.URI;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
-
 import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.StandardLocation;
 import javax.tools.ToolProvider;
+import jdk.compiler.share.classes.com.sun.tools.javac.api.JavacTaskImpl;
+import jdk.compiler.share.classes.com.sun.tools.javac.api.JavacTool;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Main;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Main.Result;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Dependencies;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.ListBuffer;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.Log;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.Util;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.comp.dependencies.NewDependencyCollector;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.comp.dependencies.PublicApiCollector;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.server.CompilationSubResult;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.server.SysInfo;
 
-import com.sun.tools.javac.api.JavacTaskImpl;
-import com.sun.tools.javac.api.JavacTool;
-import com.sun.tools.javac.main.Main;
-import com.sun.tools.javac.main.Main.Result;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.Dependencies;
-import com.sun.tools.javac.util.ListBuffer;
-import com.sun.tools.sjavac.Log;
-import com.sun.tools.sjavac.Util;
-import com.sun.tools.sjavac.comp.dependencies.NewDependencyCollector;
-import com.sun.tools.sjavac.comp.dependencies.PublicApiCollector;
-import com.sun.tools.sjavac.server.CompilationSubResult;
-import com.sun.tools.sjavac.server.SysInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  <p><b>This is NOT part of any supported API.

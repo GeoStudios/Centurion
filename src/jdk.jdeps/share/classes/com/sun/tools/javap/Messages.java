@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javap;
+package jdk.jdeps.share.classes.com.sun.tools.javap;
 
-import java.util.Locale;
+
+import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  Access to javap messages.

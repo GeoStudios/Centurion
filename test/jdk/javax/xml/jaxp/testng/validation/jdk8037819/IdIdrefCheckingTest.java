@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package validation.jdk8037819;
+
 
 import com.sun.org.apache.xerces.internal.dom.PSVIElementNSImpl;
 import com.sun.org.apache.xerces.internal.xs.ItemPSVI;
@@ -27,6 +29,19 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import validation.BaseTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // duplicate IDs
 // reference to non-existent ID

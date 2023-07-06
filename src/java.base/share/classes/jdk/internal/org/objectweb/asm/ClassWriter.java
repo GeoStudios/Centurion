@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.org.objectweb.asm;
+package java.base.share.classes.jdk.internal.org.objectweb.asm;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@link ClassVisitor} that generates a corresponding ClassFile structure, as defined in the Java

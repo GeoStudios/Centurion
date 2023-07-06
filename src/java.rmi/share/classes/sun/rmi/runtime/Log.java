@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.rmi.runtime;
+package java.rmi.share.classes.sun.rmi.runtime;
+
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
@@ -34,6 +35,20 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.logging.LogRecord;
 import java.util.logging.StreamHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility which provides an abstract "logger" like RMI internal API

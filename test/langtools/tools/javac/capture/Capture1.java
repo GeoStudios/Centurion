@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package capture1;
+
+
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 5011312
@@ -28,9 +46,7 @@
  * @compile -Xlint:unchecked -Werror Capture1.java
  */
 
-package capture1;
 
-import java.util.List;
 
 class C {
     public static <T> void copy1(List<? super T> dest, List<? extends T> src) {

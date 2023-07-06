@@ -21,6 +21,21 @@
 
 package compiler.jvmci.common.testcases;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class MultipleImplementer1 implements MultipleImplementersInterface {
 
     @Override

@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.beans.introspect;
+package java.desktop.share.classes.com.sun.beans.introspect;
+
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.lang.reflect.Type;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.desktop.share.classes.com.sun.beans.TypeResolver;
+import java.desktop.share.classes.com.sun.beans.finder.MethodFinder;
 
-import com.sun.beans.TypeResolver;
-import com.sun.beans.finder.MethodFinder;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class MethodInfo {
     final Method method;

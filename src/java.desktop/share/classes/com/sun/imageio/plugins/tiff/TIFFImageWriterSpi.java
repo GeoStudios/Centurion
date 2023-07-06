@@ -18,14 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.imageio.plugins.tiff;
 
-import java.util.Locale;
+package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
+
+
+import java.base.share.classes.java.util.Locale;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.ImageWriter;
 import javax.imageio.spi.ImageWriterSpi;
 import javax.imageio.spi.ServiceRegistry;
 import javax.imageio.stream.ImageOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TIFFImageWriterSpi extends ImageWriterSpi {
 

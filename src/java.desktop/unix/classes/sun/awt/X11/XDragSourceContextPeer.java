@@ -19,28 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.Component;
 import java.awt.Cursor;
 import java.awt.Window;
-
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
-
 import java.awt.dnd.DnDConstants;
 import java.awt.dnd.DragGestureEvent;
 import java.awt.dnd.InvalidDnDOperationException;
-
 import java.util.*;
+import java.desktop.unix.classes.sun.java2d.pipe.Region;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+import java.desktop.unix.classes.sun.awt.dnd.SunDragSourceContextPeer;
+import java.desktop.unix.classes.sun.awt.dnd.SunDropTargetContextPeer;
+import java.desktop.unix.classes.sun.awt.SunToolkit;
+import java.desktop.unix.classes.sun.awt.AWTAccessor;
 
-import sun.java2d.pipe.Region;
-import sun.util.logging.PlatformLogger;
 
-import sun.awt.dnd.SunDragSourceContextPeer;
-import sun.awt.dnd.SunDropTargetContextPeer;
-import sun.awt.SunToolkit;
-import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The XDragSourceContextPeer class is the class responsible for handling

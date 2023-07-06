@@ -18,7 +18,24 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.net.www.http;
+
+package java.base.share.classes.sun.net.www.http;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A <code>Hurryable</code> is a class that has been instructed to complete

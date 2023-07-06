@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.mathexact;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8026844
@@ -30,7 +47,6 @@
  * @run main compiler.intrinsics.mathexact.SubExactICondTest
  */
 
-package compiler.intrinsics.mathexact;
 
 public class SubExactICondTest {
   public static int result = 0;

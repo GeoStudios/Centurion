@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package inheritance.conflict2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4984158
@@ -28,7 +45,6 @@
  * @compile  InheritanceConflict2.java
  */
 
-package inheritance.conflict2;
 
 class A<T> {
     void f(String s) {}

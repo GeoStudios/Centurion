@@ -19,14 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.jdk.internal.icu.text;
+
+
+import java.text.Bidi;
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Written by Simon Montagu, Matitiahu Allouche
  * (ported from C code written by Markus W. Scherer)
  */
 
-package jdk.internal.icu.text;
 
-import java.text.Bidi;
-import java.util.Arrays;
+
 
 final class BidiLine {
 

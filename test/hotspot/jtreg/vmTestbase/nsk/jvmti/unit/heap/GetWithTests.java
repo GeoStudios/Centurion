@@ -19,15 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jvmti.unit.heap;
+
+
+import nsk.share.jvmti.unit.*;
+import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Unit tests for JVMTI GetObjectsWithTags function
  *
  */
 
-package nsk.jvmti.unit.heap;
 
-import nsk.share.jvmti.unit.*;
-import java.io.PrintStream;
 
 public class GetWithTests {
 

@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.color;
+package java.desktop.share.classes.java.awt.color;
 
-import java.io.Serial;
 
+import java.desktop.share.classes.java.io.Serial;
 import sun.java2d.cmm.Profile;
 import sun.java2d.cmm.ProfileDeferralInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code ICC_ProfileGray} class is a subclass of the {@code ICC_Profile}

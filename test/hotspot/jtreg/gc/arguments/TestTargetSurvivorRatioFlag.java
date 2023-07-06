@@ -21,6 +21,33 @@
 
 package gc.arguments;
 
+
+import java.lang.management.GarbageCollectorMXBean;
+import java.base.share.classes.java.util.Arrays;
+import java.util.Collections;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import jdk.internal.misc.Unsafe;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.Utils;
+import sun.hotspot.WhiteBox;
+import static gc.testlibrary.Allocation.blackHole;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestTargetSurvivorRatioFlag
  * @summary Verify that option TargetSurvivorRatio affects survivor space occupancy after minor GC.
@@ -36,18 +63,6 @@ package gc.arguments;
  * @run driver gc.arguments.TestTargetSurvivorRatioFlag
  */
 
-import java.lang.management.GarbageCollectorMXBean;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-import jdk.internal.misc.Unsafe;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.Utils;
-import sun.hotspot.WhiteBox;
-import static gc.testlibrary.Allocation.blackHole;
 
 /* In order to test that TargetSurvivorRatio affects survivor space occupancy
  * we setup fixed MaxTenuringThreshold and then verifying that if size of allocated

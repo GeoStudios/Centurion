@@ -19,23 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.rmi;
+package java.rmi.share.classes.java.rmi;
 
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.ObjectInputFilter;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.ObjectStreamConstants;
-import java.io.OutputStream;
-import java.io.Serializable;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
 
+import java.rmi.share.classes.java.io.ByteArrayInputStream;
+import java.rmi.share.classes.java.io.ByteArrayOutputStream;
+import java.rmi.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.rmi.share.classes.java.io.InputStream;
+import java.rmi.share.classes.java.io.ObjectInputFilter;
+import java.rmi.share.classes.java.io.ObjectInputStream;
+import java.rmi.share.classes.java.io.ObjectOutputStream;
+import java.rmi.share.classes.java.io.ObjectStreamConstants;
+import java.rmi.share.classes.java.io.OutputStream;
+import java.rmi.share.classes.java.io.Serializable;
+import java.rmi.share.classes.java.security.AccessController;
+import java.rmi.share.classes.java.security.PrivilegedAction;
 import sun.rmi.server.MarshalInputStream;
 import sun.rmi.server.MarshalOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A <code>MarshalledObject</code> contains a byte stream with the serialized

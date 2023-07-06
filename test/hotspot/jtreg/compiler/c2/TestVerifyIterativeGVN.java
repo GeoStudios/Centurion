@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8238756
@@ -27,7 +44,6 @@
  *
  * @run main/othervm/timeout=300 -Xbatch -Xcomp -XX:+VerifyIterativeGVN compiler.c2.TestVerifyIterativeGVN
  */
-package compiler.c2;
 
 public class TestVerifyIterativeGVN {
     public static void main(String[] args) {

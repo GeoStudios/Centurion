@@ -19,15 +19,15 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.foreign;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
 
-import jdk.incubator.foreign.MemorySegment;
-import jdk.internal.access.foreign.UnmapperProxy;
-import jdk.internal.misc.ExtendedMapMode;
-import jdk.internal.misc.ScopedMemoryAccess;
+
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
+import jdk.incubator.foreign.share.classes.jdk.internal.access.foreign.UnmapperProxy;
+import jdk.incubator.foreign.share.classes.jdk.internal.misc.ExtendedMapMode;
+import jdk.incubator.foreign.share.classes.jdk.internal.misc.ScopedMemoryAccess;
 import sun.nio.ch.FileChannelImpl;
-
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.nio.file.FileSystem;
@@ -35,7 +35,21 @@ import java.nio.file.FileSystems;
 import java.nio.file.OpenOption;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation for a mapped memory segments. A mapped memory segment is a native memory segment, which

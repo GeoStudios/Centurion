@@ -19,81 +19,96 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.comp;
+package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-import com.sun.tools.javac.code.Symbol;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.JCTree.JCAnnotatedType;
-import com.sun.tools.javac.tree.JCTree.JCAnnotation;
-import com.sun.tools.javac.tree.JCTree.JCArrayAccess;
-import com.sun.tools.javac.tree.JCTree.JCArrayTypeTree;
-import com.sun.tools.javac.tree.JCTree.JCAssert;
-import com.sun.tools.javac.tree.JCTree.JCAssign;
-import com.sun.tools.javac.tree.JCTree.JCAssignOp;
-import com.sun.tools.javac.tree.JCTree.JCBinary;
-import com.sun.tools.javac.tree.JCTree.JCBindingPattern;
-import com.sun.tools.javac.tree.JCTree.JCBlock;
-import com.sun.tools.javac.tree.JCTree.JCBreak;
-import com.sun.tools.javac.tree.JCTree.JCCase;
-import com.sun.tools.javac.tree.JCTree.JCCatch;
-import com.sun.tools.javac.tree.JCTree.JCClassDecl;
-import com.sun.tools.javac.tree.JCTree.JCCompilationUnit;
-import com.sun.tools.javac.tree.JCTree.JCConditional;
-import com.sun.tools.javac.tree.JCTree.JCContinue;
-import com.sun.tools.javac.tree.JCTree.JCDefaultCaseLabel;
-import com.sun.tools.javac.tree.JCTree.JCDoWhileLoop;
-import com.sun.tools.javac.tree.JCTree.JCEnhancedForLoop;
-import com.sun.tools.javac.tree.JCTree.JCErroneous;
-import com.sun.tools.javac.tree.JCTree.JCExports;
-import com.sun.tools.javac.tree.JCTree.JCExpressionStatement;
-import com.sun.tools.javac.tree.JCTree.JCFieldAccess;
-import com.sun.tools.javac.tree.JCTree.JCForLoop;
-import com.sun.tools.javac.tree.JCTree.JCIdent;
-import com.sun.tools.javac.tree.JCTree.JCIf;
-import com.sun.tools.javac.tree.JCTree.JCImport;
-import com.sun.tools.javac.tree.JCTree.JCInstanceOf;
-import com.sun.tools.javac.tree.JCTree.JCLabeledStatement;
-import com.sun.tools.javac.tree.JCTree.JCLambda;
-import com.sun.tools.javac.tree.JCTree.JCLiteral;
-import com.sun.tools.javac.tree.JCTree.JCMemberReference;
-import com.sun.tools.javac.tree.JCTree.JCMethodDecl;
-import com.sun.tools.javac.tree.JCTree.JCMethodInvocation;
-import com.sun.tools.javac.tree.JCTree.JCModifiers;
-import com.sun.tools.javac.tree.JCTree.JCModuleDecl;
-import com.sun.tools.javac.tree.JCTree.JCNewArray;
-import com.sun.tools.javac.tree.JCTree.JCNewClass;
-import com.sun.tools.javac.tree.JCTree.JCOpens;
-import com.sun.tools.javac.tree.JCTree.JCPackageDecl;
-import com.sun.tools.javac.tree.JCTree.JCPrimitiveTypeTree;
-import com.sun.tools.javac.tree.JCTree.JCProvides;
-import com.sun.tools.javac.tree.JCTree.JCRequires;
-import com.sun.tools.javac.tree.JCTree.JCReturn;
-import com.sun.tools.javac.tree.JCTree.JCSwitch;
-import com.sun.tools.javac.tree.JCTree.JCSwitchExpression;
-import com.sun.tools.javac.tree.JCTree.JCSynchronized;
-import com.sun.tools.javac.tree.JCTree.JCThrow;
-import com.sun.tools.javac.tree.JCTree.JCTry;
-import com.sun.tools.javac.tree.JCTree.JCTypeApply;
-import com.sun.tools.javac.tree.JCTree.JCTypeCast;
-import com.sun.tools.javac.tree.JCTree.JCTypeIntersection;
-import com.sun.tools.javac.tree.JCTree.JCTypeParameter;
-import com.sun.tools.javac.tree.JCTree.JCTypeUnion;
-import com.sun.tools.javac.tree.JCTree.JCUnary;
-import com.sun.tools.javac.tree.JCTree.JCUses;
-import com.sun.tools.javac.tree.JCTree.JCVariableDecl;
-import com.sun.tools.javac.tree.JCTree.JCWhileLoop;
-import com.sun.tools.javac.tree.JCTree.JCWildcard;
-import com.sun.tools.javac.tree.JCTree.JCYield;
-import com.sun.tools.javac.tree.JCTree.LetExpr;
-import com.sun.tools.javac.tree.JCTree.TypeBoundKind;
-import com.sun.tools.javac.tree.TreeInfo;
-import com.sun.tools.javac.tree.TreeScanner;
-import com.sun.tools.javac.util.List;
+
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCAnnotatedType;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCAnnotation;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCArrayAccess;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCArrayTypeTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCAssert;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCAssign;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCAssignOp;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCBinary;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCBindingPattern;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCBlock;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCBreak;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCCase;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCCatch;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCClassDecl;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCCompilationUnit;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCConditional;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCContinue;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCDefaultCaseLabel;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCDoWhileLoop;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCEnhancedForLoop;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCErroneous;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCExports;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCExpressionStatement;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCFieldAccess;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCForLoop;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCIdent;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCIf;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCImport;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCInstanceOf;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCLabeledStatement;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCLambda;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCLiteral;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCMemberReference;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCMethodDecl;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCMethodInvocation;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCModifiers;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCModuleDecl;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCNewArray;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCNewClass;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCOpens;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCPackageDecl;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCPrimitiveTypeTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCProvides;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCRequires;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCReturn;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCSwitch;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCSwitchExpression;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCSynchronized;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCThrow;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCTry;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCTypeApply;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCTypeCast;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCTypeIntersection;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCTypeParameter;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCTypeUnion;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCUnary;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCUses;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCVariableDecl;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCWhileLoop;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCWildcard;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCYield;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.LetExpr;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.TypeBoundKind;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeInfo;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeScanner;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A visitor that compares two lambda bodies for structural equality. */
 public class TreeDiffer extends TreeScanner {

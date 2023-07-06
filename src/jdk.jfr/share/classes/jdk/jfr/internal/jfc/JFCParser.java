@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.jfc;
+package jdk.jfr.share.classes.jdk.jfr.internal.jfc;
+
 
 import java.io.CharArrayReader;
 import java.io.CharArrayWriter;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.Reader;
 import java.text.ParseException;
-import jdk.internal.org.xml.sax.InputSource;
-import jdk.internal.org.xml.sax.SAXException;
-import jdk.internal.util.xml.SAXParser;
-import jdk.internal.util.xml.impl.SAXParserImpl;
-import jdk.jfr.Configuration;
+import jdk.jfr.share.classes.jdk.internal.org.xml.sax.InputSource;
+import jdk.jfr.share.classes.jdk.internal.org.xml.sax.SAXException;
+import jdk.jfr.share.classes.jdk.internal.util.xml.SAXParser;
+import jdk.jfr.share.classes.jdk.internal.util.xml.impl.SAXParserImpl;
+import jdk.jfr.share.classes.jdk.jfr.Configuration;
+import jdk.jfr.share.classes.jdk.jfr.internal.PrivateAccess;
 
-import jdk.jfr.internal.PrivateAccess;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Parses a JDK Flight Recorder Configuration file (.jfc)

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package one;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4686148
@@ -29,7 +46,6 @@
  * @compile/fail/ref=Test.out -XDrawDiagnostics  ConcreteTest.java
  */
 
-package one;
 
 public interface Test
 {

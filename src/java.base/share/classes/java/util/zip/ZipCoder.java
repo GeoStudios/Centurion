@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.zip;
+package java.base.share.classes.java.util.zip;
 
-import java.nio.ByteBuffer;
-import java.nio.CharBuffer;
-import java.nio.charset.Charset;
-import java.nio.charset.CharsetDecoder;
-import java.nio.charset.CharsetEncoder;
-import java.nio.charset.CharacterCodingException;
-import java.nio.charset.CodingErrorAction;
-import java.util.Arrays;
 
+import java.base.share.classes.java.nio.ByteBuffer;
+import java.base.share.classes.java.nio.CharBuffer;
+import java.base.share.classes.java.nio.charset.Charset;
+import java.base.share.classes.java.nio.charset.CharsetDecoder;
+import java.base.share.classes.java.nio.charset.CharsetEncoder;
+import java.base.share.classes.java.nio.charset.CharacterCodingException;
+import java.base.share.classes.java.nio.charset.CodingErrorAction;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
 import sun.nio.cs.UTF_8;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class for zipfile name and comment decoding and encoding

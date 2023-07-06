@@ -18,33 +18,47 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.test.lib.hexdump;
+
 
 import java.io.CharArrayWriter;
 import java.io.DataInputStream;
 import java.io.EOFException;
 import java.io.InputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectStreamConstants;
 import java.io.PrintWriter;
 import java.io.UTFDataFormatException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.LinkedHashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.StringJoiner;
 import java.util.function.BiConsumer;
+import static java.io.ObjectStreamConstants.STREAM_MAGIC;.extended
+import static java.io.ObjectStreamConstants.TC_BLOCKDATA;.extended
+import static java.io.ObjectStreamConstants.TC_BLOCKDATALONG;.extended
+import static java.io.ObjectStreamConstants.TC_ENDBLOCKDATA;.extended
+import static java.io.ObjectStreamConstants.TC_MAX;.extended
+import static java.io.ObjectStreamConstants.TC_NULL;.extended
+import static java.io.ObjectStreamConstants.baseWireHandle;.extended
 
-import static java.io.ObjectStreamConstants.STREAM_MAGIC;
-import static java.io.ObjectStreamConstants.TC_BLOCKDATA;
-import static java.io.ObjectStreamConstants.TC_BLOCKDATALONG;
-import static java.io.ObjectStreamConstants.TC_ENDBLOCKDATA;
-import static java.io.ObjectStreamConstants.TC_MAX;
-import static java.io.ObjectStreamConstants.TC_NULL;
-import static java.io.ObjectStreamConstants.baseWireHandle;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Object Serialization stream annotation printer.

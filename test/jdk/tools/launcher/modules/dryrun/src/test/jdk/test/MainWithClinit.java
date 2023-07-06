@@ -21,6 +21,21 @@
 
 package jdk.test;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class MainWithClinit {
     static {
         fail();

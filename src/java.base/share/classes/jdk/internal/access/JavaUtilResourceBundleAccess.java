@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.access;
+package java.base.share.classes.jdk.internal.access;
 
-import java.util.Locale;
+
+import java.base.share.classes.java.util.Locale;
 import java.util.ResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides access to non-public methods in java.util.ResourceBundle.

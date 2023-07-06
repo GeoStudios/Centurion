@@ -19,20 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms;
+
+
+import java.security.MessageDigest;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.security.NoSuchProviderException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.XMLSignatureException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.Constants;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.EncryptionConstants;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.algorithms;
 
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.security.NoSuchProviderException;
 
-import com.sun.org.apache.xml.internal.security.signature.XMLSignatureException;
-import com.sun.org.apache.xml.internal.security.utils.Constants;
-import com.sun.org.apache.xml.internal.security.utils.EncryptionConstants;
-import org.w3c.dom.Document;
+
 
 /**
  * Digest Message wrapper and selector class.

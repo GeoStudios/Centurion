@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.serialize;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serialize;
 
-import com.sun.org.apache.xerces.internal.utils.ObjectFactory;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.ObjectFactory;
 import java.io.OutputStream;
 import java.io.UnsupportedEncodingException;
 import java.io.Writer;
@@ -30,6 +31,20 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.StringTokenizer;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

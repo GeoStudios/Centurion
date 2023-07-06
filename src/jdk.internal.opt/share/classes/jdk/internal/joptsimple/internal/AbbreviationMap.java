@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.joptsimple.internal;
+package jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal;
+
 
 import java.util.Map;
 import java.util.TreeMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>A map whose keys are strings; when a key/value pair is added to the map, the longest unique abbreviations of that

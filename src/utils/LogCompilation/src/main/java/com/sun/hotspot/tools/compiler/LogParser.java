@@ -19,31 +19,49 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/**
- * A SAX based parser of LogCompilation output from HotSpot.  It takes a complete
- */
+package utils.LogCompilation.src.main.java.com.sun.hotspot.tools.compiler;
 
-package com.sun.hotspot.tools.compiler;
 
-import java.io.FileReader;
-import java.io.PrintStream;
-import java.io.Reader;
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.Deque;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.regex.Pattern;
-
+import utils.LogCompilation.src.main.java.io.FileReader;
+import utils.LogCompilation.src.main.java.io.PrintStream;
+import utils.LogCompilation.src.main.java.io.Reader;
+import utils.LogCompilation.src.main.java.util.ArrayDeque;
+import utils.LogCompilation.src.main.java.util.Arrayjava.util.java.util.java.util.List;
+import utils.LogCompilation.src.main.java.util.Comparator;
+import utils.LogCompilation.src.main.java.util.Deque;
+import utils.LogCompilation.src.main.java.util.HashMap;
+import utils.LogCompilation.src.main.java.util.LinkedHashMap;
+import utils.LogCompilation.src.main.java.util.regex.Pattern;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
-
 import org.xml.sax.Attributes;
 import org.xml.sax.ErrorHandler;
 import org.xml.sax.InputSource;
 import org.xml.sax.Locator;
 import org.xml.sax.helpers.DefaultHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * A SAX based parser of LogCompilation output from HotSpot.  It takes a complete
+ */
+
+
+
+
+
 
 /**
  * A SAX parser for HotSpot compilation logs. The bulk of the parsing and event

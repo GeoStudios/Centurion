@@ -19,16 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.util.jar;
+package java.base.share.classes.jdk.internal.util.jar;
+
 
 import sun.nio.cs.UTF_8;
-
 import java.io.*;
 import java.util.*;
 import java.util.jar.*;
 import java.util.zip.*;
+import static sun.security.action.GetPropertyAction.privilegedGetProperty;.extended
 
-import static sun.security.action.GetPropertyAction.privilegedGetProperty;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to maintain mappings from packages, classes

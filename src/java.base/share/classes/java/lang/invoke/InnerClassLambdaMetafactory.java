@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
+
 
 import jdk.internal.misc.CDS;
 import jdk.internal.org.objectweb.asm.*;
@@ -27,23 +28,35 @@ import sun.invoke.util.BytecodeDescriptor;
 import sun.invoke.util.VerifyAccess;
 import sun.security.action.GetPropertyAction;
 import sun.security.action.GetBooleanAction;
+import java.base.share.classes.java.io.FilePermission;
+import java.base.share.classes.java.io.Serializable;
+import java.base.share.classes.java.lang.constant.ConstantDescs;
+import java.base.share.classes.java.lang.invoke.MethodHandles.Lookup;
+import java.base.share.classes.java.lang.reflect.Constructor;
+import java.base.share.classes.java.lang.reflect.Modifier;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.PrivilegedAction;
+import java.base.share.classes.java.util.LinkedHashSet;
+import java.base.share.classes.java.util.concurrent.atomic.AtomicInteger;
+import java.base.share.classes.java.util.PropertyPermission;
+import java.base.share.classes.java.util.Set;
+import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.ClassOption.NESTMATE;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.ClassOption.STRONG;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
 
-import java.io.FilePermission;
-import java.io.Serializable;
-import java.lang.constant.ConstantDescs;
-import java.lang.invoke.MethodHandles.Lookup;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Modifier;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.LinkedHashSet;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.PropertyPermission;
-import java.util.Set;
 
-import static java.lang.invoke.MethodHandles.Lookup.ClassOption.NESTMATE;
-import static java.lang.invoke.MethodHandles.Lookup.ClassOption.STRONG;
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Lambda metafactory implementation which dynamically creates an

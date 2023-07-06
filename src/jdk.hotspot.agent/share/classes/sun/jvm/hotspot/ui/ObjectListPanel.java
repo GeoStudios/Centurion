@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.ui;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
+
 
 import java.io.*;
 import java.util.*;
@@ -27,13 +28,26 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.table.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.table.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.tree.*;
 
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.oops.*;
-import sun.jvm.hotspot.runtime.*;
-import sun.jvm.hotspot.utilities.*;
-import sun.jvm.hotspot.ui.table.*;
-import sun.jvm.hotspot.ui.tree.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Lists objects along with their types */
 

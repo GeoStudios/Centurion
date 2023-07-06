@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.util;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
-import com.sun.org.apache.xerces.internal.xni.NamespaceContext;
-import java.util.ArrayList;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Enumeration;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.NoSuchElementException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Namespace support for XML document handlers. This class doesn't

@@ -21,16 +21,29 @@
 
 package jdk.test.lib.jittester.factories;
 
+
 import jdk.test.lib.util.Pair;
 import jdk.test.lib.jittester.OperatorKind;
 import jdk.test.lib.jittester.ProductionFailedException;
 import jdk.test.lib.jittester.Type;
-import jdk.test.lib.jittester.TypeList;
+import jdk.test.lib.jittester.Typejava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.PseudoRandom;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 
-import java.util.ArrayList;
-import java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
 
 class BinaryEqualityOperatorFactory extends BinaryOperatorFactory {
     BinaryEqualityOperatorFactory(OperatorKind opKind, long complexityLimit, int operatorLimit,

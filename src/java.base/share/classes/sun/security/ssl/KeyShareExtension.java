@@ -19,25 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.security.GeneralSecurityException;
 import java.text.MessageFormat;
 import java.util.Collections;
 import java.util.EnumSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Locale;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import javax.net.ssl.SSLProtocolException;
-import sun.security.ssl.NamedGroup.NamedGroupSpec;
-import sun.security.ssl.SSLExtension.ExtensionConsumer;
-import sun.security.ssl.SSLExtension.SSLExtensionSpec;
-import sun.security.ssl.SSLHandshake.HandshakeMessage;
-import sun.security.ssl.SupportedGroupsExtension.SupportedGroups;
-import sun.security.util.HexDumpEncoder;
+import java.base.share.classes.sun.security.ssl.NamedGroup.NamedGroupSpec;
+import java.base.share.classes.sun.security.ssl.SSLExtension.ExtensionConsumer;
+import java.base.share.classes.sun.security.ssl.SSLExtension.SSLExtensionSpec;
+import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
+import java.base.share.classes.sun.security.ssl.SupportedGroupsExtension.SupportedGroups;
+import java.base.share.classes.sun.security.util.HexDumpEncoder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Pack of the "key_share" extensions.

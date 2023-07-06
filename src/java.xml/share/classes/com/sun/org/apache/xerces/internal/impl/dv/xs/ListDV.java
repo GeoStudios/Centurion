@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.dv.xs;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs;
 
-import com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
-import com.sun.org.apache.xerces.internal.impl.dv.ValidationContext;
-import com.sun.org.apache.xerces.internal.xs.datatypes.ObjectList;
-import java.util.AbstractList;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.ValidationContext;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.datatypes.Objectjava.util.java.util.java.util.List;
+import java.util.Abstractjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represent the schema list types

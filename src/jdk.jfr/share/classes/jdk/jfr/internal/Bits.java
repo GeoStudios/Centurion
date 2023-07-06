@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal;
+package jdk.jfr.share.classes.jdk.jfr.internal;
 
-import jdk.internal.misc.Unsafe;
+
+import jdk.jfr.share.classes.jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class Bits {                            // package-private
 

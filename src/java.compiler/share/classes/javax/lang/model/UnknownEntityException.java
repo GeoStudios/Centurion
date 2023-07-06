@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.lang.model;
+package java.compiler.share.classes.javax.lang.model;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Superclass of exceptions which indicate that an unknown kind of

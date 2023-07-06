@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.rowset;
+package java.sql.rowset.share.classes.com.sun.rowset;
+
 
 import java.sql.*;
 import javax.sql.*;
@@ -27,10 +28,23 @@ import javax.naming.*;
 import java.io.*;
 import java.math.*;
 import java.util.*;
-
 import javax.sql.rowset.*;
 import javax.sql.rowset.spi.SyncProvider;
 import javax.sql.rowset.spi.SyncProviderException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The standard implementation of the <code>JoinRowSet</code>

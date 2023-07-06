@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.protocol.http;
+package java.base.share.classes.sun.net.www.protocol.http;
+
 
 import java.net.Authenticator;
 import java.net.Authenticator.RequestorType;
 import java.net.InetAddress;
 import java.net.URL;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Used in HTTP/Negotiate, to feed HTTP request info into JGSS as a HttpCaller,

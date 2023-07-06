@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.loader;
+package java.base.share.classes.jdk.internal.loader;
+
 
 import java.io.EOFException;
 import java.net.URL;
-import java.io.IOException;
-import java.io.InterruptedIOException;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Interruptedjava.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.security.CodeSigner;
 import java.util.jar.Manifest;
 import java.nio.ByteBuffer;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import sun.nio.ByteBuffered;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to represent a Resource that has been loaded

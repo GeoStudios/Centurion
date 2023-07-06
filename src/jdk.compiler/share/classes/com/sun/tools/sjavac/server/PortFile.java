@@ -19,21 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac.server;
+package jdk.compiler.share.classes.com.sun.tools.sjavac.server;
+
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.channels.ClosedChannelException;
 import java.nio.channels.FileChannel;
 import java.nio.channels.FileLock;
 import java.nio.channels.FileLockInterruptionException;
 import java.util.concurrent.Semaphore;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.Log;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.client.PortFileInaccessibleException;
 
-import com.sun.tools.javac.util.Assert;
-import com.sun.tools.sjavac.Log;
-import com.sun.tools.sjavac.client.PortFileInaccessibleException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The PortFile class mediates access to a short binary file containing the tcp/ip port (for the localhost)

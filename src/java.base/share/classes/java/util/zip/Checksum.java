@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.util.zip;
 
-import java.nio.ByteBuffer;
+package java.base.share.classes.java.util.zip;
+
+
+import java.base.share.classes.java.nio.ByteBuffer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An interface representing a data checksum.

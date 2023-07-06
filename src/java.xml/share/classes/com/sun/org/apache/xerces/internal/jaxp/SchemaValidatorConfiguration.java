@@ -19,22 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp;
+
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.validation.ValidationManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSMessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.validation.XSGrammarPoolContainer;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.FeatureState;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.PropertyState;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarPool;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.jaxp;
 
-import com.sun.org.apache.xerces.internal.impl.Constants;
-import com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
-import com.sun.org.apache.xerces.internal.impl.validation.ValidationManager;
-import com.sun.org.apache.xerces.internal.impl.xs.XSMessageFormatter;
-import com.sun.org.apache.xerces.internal.jaxp.validation.XSGrammarPoolContainer;
-import com.sun.org.apache.xerces.internal.util.FeatureState;
-import com.sun.org.apache.xerces.internal.util.PropertyState;
-import com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarPool;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
+
 
 /**
  * <p>Parser configuration for Xerces' XMLSchemaValidator.</p>

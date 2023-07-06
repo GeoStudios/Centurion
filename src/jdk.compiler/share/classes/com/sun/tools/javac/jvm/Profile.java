@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.jvm;
+package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
 
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.Options;
+
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Options;
 import java.util.EnumSet;
 import java.util.Set;
+import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.PROFILE;.extended
 
-import static com.sun.tools.javac.main.Option.PROFILE;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** The target profile.
  *

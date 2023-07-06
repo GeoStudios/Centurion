@@ -21,8 +21,22 @@
 
 package nsk.jdi.EventIterator.nextEvent;
 
+
 import nsk.share.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the nextevent001 JDI test.

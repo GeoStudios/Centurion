@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.WeakReference.weak006;
+
+
+import nsk.share.test.*;
+import nsk.share.gc.*;
+import nsk.share.TestFailure;
+import java.lang.ref.WeakReference;
+import java.lang.ref.SoftReference;
+import java.lang.ref.PhantomReference;
+import java.lang.ref.Reference;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -31,15 +55,7 @@
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.WeakReference.weak006.weak006 -t 1
  */
 
-package gc.gctests.WeakReference.weak006;
 
-import nsk.share.test.*;
-import nsk.share.gc.*;
-import nsk.share.TestFailure;
-import java.lang.ref.WeakReference;
-import java.lang.ref.SoftReference;
-import java.lang.ref.PhantomReference;
-import java.lang.ref.Reference;
 
 /**
  * Test that GC correctly clears references.

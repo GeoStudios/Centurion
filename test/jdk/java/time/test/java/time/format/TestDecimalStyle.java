@@ -21,12 +21,24 @@
 
 package test.java.time.format;
 
-import static org.testng.Assert.assertSame;
 
+import static org.testng.Assert.assertSame;.extended
 import java.time.format.DecimalStyle;
-import java.util.Locale;
-
+import java.base.share.classes.java.util.Locale;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test DecimalStyle.

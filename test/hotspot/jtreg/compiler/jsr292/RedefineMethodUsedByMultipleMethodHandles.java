@@ -19,30 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/**
- * @test
- * @bug 8042235
- * @summary redefining method used by multiple MethodHandles crashes VM
- * @library /
- * @modules java.base/jdk.internal.org.objectweb.asm
- *          java.compiler
- *          java.instrument
- *          jdk.attach
- * @requires vm.jvmti
- *
- * @run main/othervm -Djdk.attach.allowAttachSelf compiler.jsr292.RedefineMethodUsedByMultipleMethodHandles
- */
-
 package compiler.jsr292;
+
 
 import jdk.internal.org.objectweb.asm.ClassReader;
 import jdk.internal.org.objectweb.asm.ClassVisitor;
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.MethodVisitor;
 import jdk.internal.org.objectweb.asm.Opcodes;
-
 import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.lang.instrument.ClassFileTransformer;
 import java.lang.instrument.IllegalClassFormatException;
@@ -58,6 +44,36 @@ import java.util.jar.Attributes;
 import java.util.jar.JarEntry;
 import java.util.jar.JarOutputStream;
 import java.util.jar.Manifest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * @test
+ * @bug 8042235
+ * @summary redefining method used by multiple MethodHandles crashes VM
+ * @library /
+ * @modules java.base/jdk.internal.org.objectweb.asm
+ *          java.compiler
+ *          java.instrument
+ *          jdk.attach
+ * @requires vm.jvmti
+ *
+ * @run main/othervm -Djdk.attach.allowAttachSelf compiler.jsr292.RedefineMethodUsedByMultipleMethodHandles
+ */
+
+
+
 
 public class RedefineMethodUsedByMultipleMethodHandles {
 

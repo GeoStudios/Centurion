@@ -18,9 +18,11 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package client;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.Principal;
 import javax.security.auth.callback.Callback;
 import javax.security.auth.callback.CallbackHandler;
@@ -30,6 +32,19 @@ import javax.security.auth.callback.UnsupportedCallbackException;
 import javax.security.auth.login.LoginException;
 import javax.security.auth.login.LoginContext;
 import com.sun.security.auth.UserPrincipal;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * JAAS client which will try to authenticate a user through a custom JAAS LOGIN

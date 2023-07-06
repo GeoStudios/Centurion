@@ -19,27 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.toolkit.builders;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.builders;
 
 
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.SortedSet;
 import java.util.TreeSet;
-
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ExecutableElement;
 import javax.lang.model.element.PackageElement;
 import javax.lang.model.element.TypeElement;
 import javax.lang.model.element.VariableElement;
 import javax.lang.model.type.TypeMirror;
-
 import com.sun.source.doctree.SerialFieldTree;
 import com.sun.source.doctree.SerialTree;
-import jdk.javadoc.internal.doclets.toolkit.Content;
-import jdk.javadoc.internal.doclets.toolkit.DocletException;
-import jdk.javadoc.internal.doclets.toolkit.SerializedFormWriter;
-import jdk.javadoc.internal.doclets.toolkit.util.CommentHelper;
-import jdk.javadoc.internal.doclets.toolkit.util.Utils;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.DocletException;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.SerializedFormWriter;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.CommentHelper;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Builds the serialized form.

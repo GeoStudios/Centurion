@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.media.sound;
+package java.desktop.share.classes.com.sun.media.sound;
+
 
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.StringTokenizer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Audio configuration class for exposing attributes specific to the platform or system.

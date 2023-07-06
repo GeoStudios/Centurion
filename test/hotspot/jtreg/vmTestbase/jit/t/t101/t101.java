@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.t.t101;
+
+
+import nsk.share.TestFailure;
+import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,10 +49,7 @@
  * @run main/othervm jit.t.t101.t101
  */
 
-package jit.t.t101;
 
-import nsk.share.TestFailure;
-import nsk.share.GoldChecker;
 
 // int2char when the int resides in esi.  The temptation is to emit, say,
 //

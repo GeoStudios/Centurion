@@ -19,12 +19,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.swing.interop;
+package jdk.unsupported.desktop.share.classes.jdk.swing.interop;
+
 
 import java.awt.AWTEvent;
 import java.awt.Container;
 import java.awt.Component;
-import java.awt.event.WindowFocusListener;
+import java.awt.event.WindowFocusjava.util.Listener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseWheelEvent;
 import java.awt.event.KeyEvent;
@@ -32,6 +33,20 @@ import sun.awt.LightweightFrame;
 import sun.awt.UngrabEvent;
 import sun.awt.AWTAccessor;
 import sun.swing.JLightweightFrame;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class wraps sun.swing.JLightweightFrame and implements

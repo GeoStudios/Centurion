@@ -19,22 +19,22 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jpackage.internal;
+package jdk.jpackage.linux.classes.jdk.jpackage.internal;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.FileVisitResult;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
-
 import java.nio.file.attribute.PosixFilePermission;
 import java.nio.file.attribute.PosixFilePermissions;
 import java.text.MessageFormat;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
@@ -42,14 +42,28 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import static jdk.jpackage.internal.OverridableResource.createResource;
-import static jdk.jpackage.internal.StandardBundlerParam.ABOUT_URL;
-import static jdk.jpackage.internal.StandardBundlerParam.INSTALLER_NAME;
-import static jdk.jpackage.internal.StandardBundlerParam.VERSION;
-import static jdk.jpackage.internal.StandardBundlerParam.RELEASE;
-import static jdk.jpackage.internal.StandardBundlerParam.VENDOR;
-import static jdk.jpackage.internal.StandardBundlerParam.LICENSE_FILE;
-import static jdk.jpackage.internal.StandardBundlerParam.COPYRIGHT;
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.OverridableResource.createResource;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.ABOUT_URL;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.INSTALLER_NAME;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.VERSION;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.RELEASE;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.VENDOR;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.LICENSE_FILE;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.COPYRIGHT;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class LinuxDebBundler extends LinuxPackageBundler {
 

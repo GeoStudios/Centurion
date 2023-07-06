@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics;
+
+
+import jdk.test.lib.Platform;
+import sun.hotspot.WhiteBox;
+import compiler.whitebox.CompilerWhiteBoxTest;
+import java.lang.reflect.Executable;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8138651
@@ -58,14 +80,8 @@
  *                   compiler.intrinsics.IntrinsicDisabledTest
 */
 
-package compiler.intrinsics;
 
-import jdk.test.lib.Platform;
-import sun.hotspot.WhiteBox;
-import compiler.whitebox.CompilerWhiteBoxTest;
 
-import java.lang.reflect.Executable;
-import java.util.Objects;
 
 public class IntrinsicDisabledTest {
 

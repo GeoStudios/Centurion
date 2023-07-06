@@ -19,24 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.imageio;
+package java.desktop.share.classes.javax.imageio;
+
 
 import java.awt.Dimension;
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
 import java.awt.image.RenderedImage;
 import java.awt.image.Raster;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
-import javax.imageio.event.IIOWriteWarningListener;
-import javax.imageio.event.IIOWriteProgressListener;
-import javax.imageio.metadata.IIOMetadata;
-import javax.imageio.stream.ImageOutputStream;
-import javax.imageio.spi.ImageWriterSpi;
+import java.desktop.share.classes.javax.imageio.event.IIOWriteWarningjava.util.Listener;
+import java.desktop.share.classes.javax.imageio.event.IIOWriteProgressjava.util.Listener;
+import java.desktop.share.classes.javax.imageio.metadata.IIOMetadata;
+import java.desktop.share.classes.javax.imageio.stream.ImageOutputStream;
+import java.desktop.share.classes.javax.imageio.spi.ImageWriterSpi;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An abstract superclass for encoding and writing images.  This class

@@ -21,10 +21,23 @@
 
 package nsk.jvmti.scenarios.general_functions.GF06;
 
-import java.io.PrintStream;
 
+import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class gf06t001 extends DebugeeClass {
 

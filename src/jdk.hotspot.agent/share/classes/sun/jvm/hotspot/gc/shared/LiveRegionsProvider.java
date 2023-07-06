@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.gc.shared;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared;
 
-import java.util.List;
 
-import sun.jvm.hotspot.memory.MemRegion;
+import java.util.java.util.java.util.java.util.List;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.memory.MemRegion;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface LiveRegionsProvider {
   List<MemRegion> getLiveRegions();

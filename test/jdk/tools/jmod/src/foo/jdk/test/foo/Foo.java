@@ -21,4 +21,19 @@
 
 package jdk.test.foo;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Foo { }

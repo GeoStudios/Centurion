@@ -21,14 +21,28 @@
 
 package jdk.internal.net.http;
 
-import java.net.InetSocketAddress;
+
+import java.net.Inetjava.net.SocketAddress;
 import java.net.Proxy;
 import java.net.ProxySelector;
 import java.net.URI;
 import java.net.http.HttpClient;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import org.testng.annotations.Test;
-import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertEquals;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class DefaultProxy {
 

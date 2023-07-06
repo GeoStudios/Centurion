@@ -18,18 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package com.sun.swingset3.demos.list;
+
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.FocusAdapter;
 import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
+import java.awt.event.Focusjava.util.Listener;
 import java.util.Vector;
 import javax.swing.*;
-
 import com.sun.swingset3.DemoProperties;
 import com.sun.swingset3.demos.ResourceManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * List Demo. This demo shows that it is not always necessary to have an array

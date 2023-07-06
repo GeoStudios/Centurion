@@ -19,7 +19,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.net;
+package java.base.macosx.classes.java.net;
+
+
+import java.base.macosx.classes.java.security.AccessController;
+import java.base.macosx.classes.java.security.PrivilegedAction;
+import java.base.macosx.classes.java.util.Enumeration;
+import java.base.macosx.classes.java.io.java.io.java.io.java.io.IOException;
 
 /**
  * Choose a network interface to be the default for
@@ -33,10 +39,6 @@ package java.net;
  * that returns null.
  */
 
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.Enumeration;
-import java.io.IOException;
 
 class DefaultInterface {
 

@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www;
-import jdk.internal.util.StaticProperty;
+package java.base.share.classes.sun.net.www;
 
+
+import jdk.internal.util.StaticProperty;
 import java.io.*;
 import java.net.FileNameMap;
 import java.util.Hashtable;
 import java.util.Enumeration;
 import java.util.Properties;
 import java.util.StringTokenizer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("removal")
 public class MimeTable implements FileNameMap {

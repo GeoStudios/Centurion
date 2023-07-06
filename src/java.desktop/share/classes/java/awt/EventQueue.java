@@ -19,32 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.event.*;
 
-import java.awt.peer.ComponentPeer;
-
-import java.lang.ref.WeakReference;
-import java.lang.reflect.InvocationTargetException;
-
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-
-import java.util.EmptyStackException;
-
+import java.desktop.share.classes.java.awt.event.*;
+import java.desktop.share.classes.java.awt.peer.ComponentPeer;
+import java.desktop.share.classes.java.lang.ref.WeakReference;
+import java.desktop.share.classes.java.lang.reflect.InvocationTargetException;
+import java.desktop.share.classes.java.security.AccessController;
+import java.desktop.share.classes.java.security.PrivilegedAction;
+import java.desktop.share.classes.java.util.EmptyStackException;
 import sun.awt.*;
 import sun.awt.dnd.SunDropTargetEvent;
 import sun.util.logging.PlatformLogger;
-
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.atomic.AtomicInteger;
-
-import java.security.AccessControlContext;
-
-import jdk.internal.access.SharedSecrets;
+import java.desktop.share.classes.java.util.concurrent.locks.Condition;
+import java.desktop.share.classes.java.util.concurrent.locks.Lock;
+import java.desktop.share.classes.java.util.concurrent.atomic.AtomicInteger;
+import java.desktop.share.classes.java.security.AccessControlContext;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.access.JavaSecurityAccess;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code EventQueue} is a platform-independent class

@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.stress.stack;
+
+
+import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress
@@ -47,10 +65,8 @@
  * @run main/othervm/timeout=900 nsk.stress.stack.stack007
  */
 
-package nsk.stress.stack;
 
 
-import java.io.PrintStream;
 
 public class stack007 implements stack007i {
     final static int ITERATIONS = 1000;

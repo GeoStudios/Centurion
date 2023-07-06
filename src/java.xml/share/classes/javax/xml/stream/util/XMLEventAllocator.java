@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.stream.util;
+package java.xml.share.classes.javax.xml.stream.util;
 
-import javax.xml.stream.events.XMLEvent;
-import javax.xml.stream.XMLStreamReader;
-import javax.xml.stream.XMLStreamException;
+
+import java.xml.share.classes.javax.xml.stream.events.XMLEvent;
+import java.xml.share.classes.javax.xml.stream.XMLStreamReader;
+import java.xml.share.classes.javax.xml.stream.XMLStreamException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface defines a class that allows a user to register

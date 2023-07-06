@@ -19,7 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.util.locale.provider;
+package java.base.share.classes.sun.util.locale.provider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * CollationRules contains the default en_US collation rules as a base
  * for building other collation tables.

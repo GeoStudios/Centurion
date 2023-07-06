@@ -19,9 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.ClassObjectReference.reflectedType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // this class will be loaded and then onloaded to check
 // the reflectedType() method of ClassObjectReference interface for UNLOADED class
 
-package nsk.jdi.ClassObjectReference.reflectedType;
 
 class reflectype002b {}

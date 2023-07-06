@@ -19,20 +19,21 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.management.internal;
+package jdk.management.share.classes.com.sun.management.internal;
 
-import com.sun.management.DiagnosticCommandMBean;
+
+import jdk.management.share.classes.com.sun.management.DiagnosticCommandMBean;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.security.Permission;
 import java.util.*;
 import javax.management.Attribute;
-import javax.management.AttributeList;
+import javax.management.Attributejava.util.java.util.java.util.List;
 import javax.management.AttributeNotFoundException;
 import javax.management.Descriptor;
 import javax.management.ImmutableDescriptor;
 import javax.management.InvalidAttributeValueException;
-import javax.management.ListenerNotFoundException;
+import javax.management.java.util.ListenerNotFoundException;
 import javax.management.MBeanException;
 import javax.management.MBeanInfo;
 import javax.management.MBeanNotificationInfo;
@@ -41,12 +42,26 @@ import javax.management.MBeanParameterInfo;
 import javax.management.MalformedObjectNameException;
 import javax.management.Notification;
 import javax.management.NotificationFilter;
-import javax.management.NotificationListener;
+import javax.management.Notificationjava.util.Listener;
 import javax.management.ObjectName;
 import javax.management.ReflectionException;
-import sun.management.ManagementFactoryHelper;
-import sun.management.NotificationEmitterSupport;
-import sun.management.VMManagement;
+import jdk.management.share.classes.com.sun.management.ManagementFactoryHelper;
+import jdk.management.share.classes.com.sun.management.NotificationEmitterSupport;
+import jdk.management.share.classes.com.sun.management.VMManagement;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation class for the diagnostic commands subsystem.

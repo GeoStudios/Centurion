@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.exceptions;
+
+
+import java.security.AccessController;
+import java.security.PrivilegedAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4165973
@@ -30,10 +49,7 @@
  * @run main/othervm -Djava.security.manager=allow compiler.exceptions.ExceptionInInit
  */
 
-package compiler.exceptions;
 
-import java.security.AccessController;
-import java.security.PrivilegedAction;
 
 public class ExceptionInInit {
 

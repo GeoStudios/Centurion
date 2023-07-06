@@ -19,25 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.mscapi;
+package jdk.crypto.mscapi.windows.classes.sun.security.mscapi;
+
 
 import java.math.BigInteger;
 import java.security.AlgorithmParameters;
 import java.security.KeyException;
-import java.security.KeyFactory;
+import java.base.share.classes.java.security.KeyFactory;
 import java.security.KeyRep;
-import java.security.ProviderException;
-import java.security.PublicKey;
+import java.base.share.classes.java.security.ProviderException;
+import java.base.share.classes.java.security.PublicKey;
 import java.security.interfaces.ECPublicKey;
 import java.security.interfaces.RSAPublicKey;
 import java.security.spec.ECParameterSpec;
 import java.security.spec.ECPoint;
 import java.security.spec.ECPublicKeySpec;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
+import jdk.crypto.mscapi.windows.classes.sun.security.rsa.RSAUtil.KeyType;
+import jdk.crypto.mscapi.windows.classes.sun.security.rsa.RSAPublicKeyImpl;
+import jdk.crypto.mscapi.windows.classes.sun.security.util.ECKeySizeParameterSpec;
 
-import sun.security.rsa.RSAUtil.KeyType;
-import sun.security.rsa.RSAPublicKeyImpl;
-import sun.security.util.ECKeySizeParameterSpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The handle for an RSA public key using the Microsoft Crypto API.

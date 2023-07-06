@@ -19,26 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdeps;
+package jdk.jdeps.share.classes.com.sun.tools.jdeps;
 
-import com.sun.tools.classfile.Dependency.Location;
 
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Dependency.Location;
 import java.io.BufferedReader;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.UncheckedIOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.lang.module.ModuleDescriptor;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Dependency Analyzer.

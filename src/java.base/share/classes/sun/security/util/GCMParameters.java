@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.util;
+package java.base.share.classes.sun.security.util;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.AlgorithmParametersSpi;
 import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.InvalidParameterSpecException;
 import javax.crypto.spec.GCMParameterSpec;
-import sun.security.util.HexDumpEncoder;
-import sun.security.util.*;
+import java.base.share.classes.sun.security.util.HexDumpEncoder;
+import java.base.share.classes.sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements the parameter set used with

@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.management;
+package java.management.share.classes.sun.management;
 
-import sun.management.counter.*;
+
+import java.management.share.classes.sun.management.counter.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation class of HotspotClassLoadingMBean interface.

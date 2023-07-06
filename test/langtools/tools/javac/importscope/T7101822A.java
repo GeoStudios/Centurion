@@ -19,16 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package a;
+
+
+import a.T7101822A.B.C;
+import z.T7101822Z;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7101822
  * @summary Verify that imports are declarations are processed in the correct order.
  * @compile T7101822A.java T7101822Z.java
  */
-package a;
 
-import a.T7101822A.B.C;
-import z.T7101822Z;
 
 public class T7101822A {
 

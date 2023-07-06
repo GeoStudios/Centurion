@@ -18,17 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package com.sun.swingset3.demos.slider;
+
 
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.border.BevelBorder;
 import javax.swing.border.TitledBorder;
 import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
+import javax.swing.event.Changejava.util.Listener;
 import com.sun.swingset3.DemoProperties;
 import com.sun.swingset3.demos.ResourceManager;
 import com.sun.swingset3.demos.textfield.TextFieldDemo;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * JSlider Demo

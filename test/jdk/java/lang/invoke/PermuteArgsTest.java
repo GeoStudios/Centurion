@@ -19,6 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.lang.invoke;
+
+
+import org.testng.annotations.Test;
+import test.java.lang.invoke.lib.CodeCacheOverflowProcessor;
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodType;
+import java.lang.invoke.WrongMethodTypeException;
+import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+import static java.lang.invoke.MethodHandles.Lookup;.extended
+import static java.lang.invoke.MethodHandles.lookup;.extended
+import static java.lang.invoke.MethodHandles.permuteArguments;.extended
+import static java.lang.invoke.MethodType.methodType;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @summary unit tests for method handles which permute their arguments
  * @library /test/lib /java/lang/invoke/common
@@ -31,25 +63,9 @@
  * java test.java.lang.invoke.PermuteArgsTest list3I[2,0,1] listJLJ[2,0,1]
  */
 
-package test.java.lang.invoke;
 
-import org.testng.annotations.Test;
-import test.java.lang.invoke.lib.CodeCacheOverflowProcessor;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodType;
-import java.lang.invoke.WrongMethodTypeException;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
 
-import static java.lang.invoke.MethodHandles.Lookup;
-import static java.lang.invoke.MethodHandles.lookup;
-import static java.lang.invoke.MethodHandles.permuteArguments;
-import static java.lang.invoke.MethodType.methodType;
 
 public class PermuteArgsTest {
     private static final Class<?> CLASS = PermuteArgsTest.class;

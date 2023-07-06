@@ -19,17 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.lang.invoke;
+
+
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @bug 8160717
  * @run main/othervm -ea -esa -Djava.lang.invoke.MethodHandle.COMPILE_THRESHOLD=-1 test.java.lang.invoke.LoopCombinatorLongSignatureTest
  * @run main/othervm -ea -esa test.java.lang.invoke.LoopCombinatorLongSignatureTest
  */
 
-package test.java.lang.invoke;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.util.Arrays;
 
 /**
  * If a loop with an excessive amount of clauses is created, so that the number of parameters to the resulting loop

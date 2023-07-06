@@ -19,8 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.macosx.classes.sun.lwawt;
 
-package sun.lwawt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Can be used to store information about native resource related to the

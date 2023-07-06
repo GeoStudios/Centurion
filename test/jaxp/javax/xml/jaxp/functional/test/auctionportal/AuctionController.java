@@ -18,25 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.auctionportal;
 
-import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;
-import static jaxp.library.JAXPTestUtilities.bomStream;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertTrue;
-import static test.auctionportal.HiBidConstants.JAXP_SCHEMA_LANGUAGE;
-import static test.auctionportal.HiBidConstants.JAXP_SCHEMA_SOURCE;
-import static test.auctionportal.HiBidConstants.PORTAL_ACCOUNT_NS;
-import static test.auctionportal.HiBidConstants.XML_DIR;
 
+import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;.extended
+import static jaxp.library.JAXPTestUtilities.bomStream;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertFalse;.extended
+import static org.testng.Assert.assertTrue;.extended
+import static test.auctionportal.HiBidConstants.JAXP_SCHEMA_LANGUAGE;.extended
+import static test.auctionportal.HiBidConstants.JAXP_SCHEMA_SOURCE;.extended
+import static test.auctionportal.HiBidConstants.PORTAL_ACCOUNT_NS;.extended
+import static test.auctionportal.HiBidConstants.XML_DIR;.extended
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.math.BigInteger;
 import java.nio.file.Paths;
 import java.util.GregorianCalendar;
-
 import javax.xml.datatype.DatatypeConstants;
 import javax.xml.datatype.DatatypeFactory;
 import javax.xml.datatype.Duration;
@@ -49,18 +49,30 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;
 import javax.xml.validation.Validator;
-
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.Attr;
 import org.w3c.dom.DOMConfiguration;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
+import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import org.w3c.dom.TypeInfo;
 import org.w3c.dom.bootstrap.DOMImplementationRegistry;
 import org.w3c.dom.ls.DOMImplementationLS;
 import org.w3c.dom.ls.LSSerializer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the user controller  class for the Auction portal HiBid.com.

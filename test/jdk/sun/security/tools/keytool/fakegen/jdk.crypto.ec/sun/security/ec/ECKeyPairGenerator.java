@@ -21,14 +21,27 @@
 
 package sun.security.ec;
 
+
 import java.math.BigInteger;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.ECParameterSpec;
 import java.security.spec.ECPoint;
-
 import sun.security.util.ECUtil;
-import static sun.security.util.SecurityProviderConstants.DEF_EC_KEY_SIZE;
+import static sun.security.util.SecurityProviderConstants.DEF_EC_KEY_SIZE;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A fake EC keypair generator.

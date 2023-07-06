@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javap;
+package jdk.jdeps.share.classes.com.sun.tools.javap;
 
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.ConstantPool;
-import com.sun.tools.classfile.ConstantPoolException;
 
-import static com.sun.tools.classfile.ConstantPool.*;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ClassFile;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPoolException;
+import static jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  *  Write a constant pool entry.

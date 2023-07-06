@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.beans.beancontext;
+package java.desktop.share.classes.java.beans.beancontext;
 
-import java.io.Serial;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Iterator;
+
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.desktop.share.classes.java.util.Collection;
+import java.desktop.share.classes.java.util.Iterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code BeanContextMembershipEvent} encapsulates

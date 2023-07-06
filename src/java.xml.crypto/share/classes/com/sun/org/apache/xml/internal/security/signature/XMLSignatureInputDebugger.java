@@ -19,27 +19,45 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.StringWriter;
+import java.io.Writer;
+import java.base.share.classes.java.util.Arrays;
+import java.util.Set;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.helper.AttrCompare;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.XMLUtils;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Attr;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Comment;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.ProcessingInstruction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.signature;
 
-import java.io.IOException;
-import java.io.StringWriter;
-import java.io.Writer;
-import java.util.Arrays;
-import java.util.Set;
 
-import com.sun.org.apache.xml.internal.security.c14n.helper.AttrCompare;
-import com.sun.org.apache.xml.internal.security.utils.XMLUtils;
-import org.w3c.dom.Attr;
-import org.w3c.dom.Comment;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
-import org.w3c.dom.ProcessingInstruction;
+
 
 /**
  * Class XMLSignatureInputDebugger

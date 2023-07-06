@@ -21,17 +21,17 @@
 
 package tck.java.time.format;
 
-import static java.time.temporal.ChronoField.DAY_OF_MONTH;
-import static java.time.temporal.ChronoField.DAY_OF_WEEK;
-import static java.time.temporal.ChronoField.DAY_OF_YEAR;
-import static java.time.temporal.ChronoField.HOUR_OF_DAY;
-import static java.time.temporal.ChronoField.MONTH_OF_YEAR;
-import static java.time.temporal.ChronoField.YEAR;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertNull;
-import static org.testng.Assert.assertTrue;
-import static org.testng.Assert.fail;
 
+import static java.time.temporal.ChronoField.DAY_OF_MONTH;.extended
+import static java.time.temporal.ChronoField.DAY_OF_WEEK;.extended
+import static java.time.temporal.ChronoField.DAY_OF_YEAR;.extended
+import static java.time.temporal.ChronoField.HOUR_OF_DAY;.extended
+import static java.time.temporal.ChronoField.MONTH_OF_YEAR;.extended
+import static java.time.temporal.ChronoField.YEAR;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertNull;.extended
+import static org.testng.Assert.assertTrue;.extended
+import static org.testng.Assert.fail;.extended
 import java.text.Format;
 import java.text.ParseException;
 import java.text.ParsePosition;
@@ -62,14 +62,26 @@ import java.time.temporal.TemporalAccessor;
 import java.time.temporal.TemporalField;
 import java.time.temporal.TemporalQuery;
 import java.time.temporal.UnsupportedTemporalTypeException;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashSet;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Set;
-
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test DateTimeFormatter.

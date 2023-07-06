@@ -19,22 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.lang.invoke;
+
+
+import java.lang.invoke.*;
+import static java.lang.invoke.MethodHandles.*;.extended
+import static java.lang.invoke.MethodType.*;.extended
+import java.lang.reflect.*;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import org.junit.*;
+import static org.junit.Assert.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @summary white-box testing of method handle sub-primitives
  * @modules java.base/java.lang.invoke:open
  * @run junit test.java.lang.invoke.PrivateInvokeTest
  */
 
-package test.java.lang.invoke;
 
-import java.lang.invoke.*;
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
-import java.lang.reflect.*;
-import java.util.ArrayList;
-import java.util.Arrays;
-import org.junit.*;
-import static org.junit.Assert.*;
 
 public class PrivateInvokeTest {
     // Utility functions

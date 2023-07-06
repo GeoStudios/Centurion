@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.security.PrivateKey;
-import java.security.PublicKey;
+
+import java.base.share.classes.java.security.PrivateKey;
+import java.base.share.classes.java.security.PublicKey;
 import java.security.cert.X509Certificate;
 import java.security.interfaces.ECKey;
 import java.security.interfaces.ECPublicKey;
@@ -33,9 +34,23 @@ import java.security.spec.NamedParameterSpec;
 import java.util.AbstractMap.SimpleImmutableEntry;
 import java.util.Map;
 import javax.net.ssl.SSLEngine;
-import javax.net.ssl.SSLSocket;
+import javax.net.ssl.SSLjava.net.java.net.java.net.Socket;
 import javax.net.ssl.X509ExtendedKeyManager;
-import sun.security.ssl.SupportedGroupsExtension.SupportedGroups;
+import java.base.share.classes.sun.security.ssl.SupportedGroupsExtension.SupportedGroups;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 enum X509Authentication implements SSLAuthentication {
     // Require rsaEncryption public key

@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.tool;
+package jdk.jfr.share.classes.jdk.jfr.internal.tool;
 
-import java.util.Arrays;
+
+import java.base.share.classes.java.util.Arrays;
 import java.util.Deque;
-import java.util.LinkedList;
+import java.util.Linkedjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Launcher class for the JDK_HOME\bin\jfr tool

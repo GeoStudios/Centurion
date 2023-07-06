@@ -21,15 +21,27 @@
 
 package tck.java.time.serial;
 
-import static org.testng.Assert.assertTrue;
 
+import static org.testng.Assert.assertTrue;.extended
 import org.testng.annotations.Test;
 import tck.java.time.AbstractTCKTest;
-
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
 import java.io.Serializable;
 import java.time.Duration;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test Duration serialization.

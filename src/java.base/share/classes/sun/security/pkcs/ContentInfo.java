@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs;
+package java.base.share.classes.sun.security.pkcs;
+
 
 import java.io.*;
+import java.base.share.classes.sun.security.util.*;
 
-import sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A ContentInfo type, as defined in PKCS#7.

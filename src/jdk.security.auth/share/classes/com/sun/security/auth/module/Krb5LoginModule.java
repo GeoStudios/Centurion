@@ -19,13 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.security.auth.share.classes.com.sun.security.auth.module;
 
-package com.sun.security.auth.module;
 
 import java.io.*;
 import java.text.MessageFormat;
 import java.util.*;
-
 import javax.security.auth.*;
 import javax.security.auth.kerberos.KerberosTicket;
 import javax.security.auth.kerberos.KerberosPrincipal;
@@ -34,12 +33,25 @@ import javax.security.auth.kerberos.KeyTab;
 import javax.security.auth.callback.*;
 import javax.security.auth.login.*;
 import javax.security.auth.spi.*;
+import jdk.security.auth.share.classes.com.sun.security.krb5.*;
+import jdk.security.auth.share.classes.com.sun.security.jgss.krb5.Krb5Util;
+import jdk.security.auth.share.classes.com.sun.security.krb5.Credentials;
+import jdk.security.auth.share.classes.com.sun.security.util.HexDumpEncoder;
+import static jdk.security.auth.share.classes.com.sun.security.util.ResourcesMgr.getAuthResourceString;.extended
 
-import sun.security.krb5.*;
-import sun.security.jgss.krb5.Krb5Util;
-import sun.security.krb5.Credentials;
-import sun.security.util.HexDumpEncoder;
-import static sun.security.util.ResourcesMgr.getAuthResourceString;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This {@code LoginModule} authenticates users using

@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
-import javax.crypto.IllegalBlockSizeException;
-import javax.crypto.ShortBufferException;
+
+import java.base.share.classes.javax.crypto.IllegalBlockSizeException;
+import java.base.share.classes.javax.crypto.ShortBufferException;
 
 /**
  * This class represents ciphers in cipher text stealing (CTS) mode.

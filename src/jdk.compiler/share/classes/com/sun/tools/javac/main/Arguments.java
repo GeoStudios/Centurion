@@ -19,13 +19,14 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.main;
+package jdk.compiler.share.classes.com.sun.tools.javac.main;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.EnumSet;
 import java.util.HashSet;
@@ -38,7 +39,6 @@ import java.util.function.Predicate;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
-
 import javax.lang.model.SourceVersion;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileManager.Location;
@@ -46,29 +46,42 @@ import javax.tools.JavaFileObject;
 import javax.tools.JavaFileObject.Kind;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.StandardLocation;
+import jdk.compiler.share.classes.com.sun.tools.doclint.DocLint;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Lint.LintCategory;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Source;
+import jdk.compiler.share.classes.com.sun.tools.javac.file.BaseFileManager;
+import jdk.compiler.share.classes.com.sun.tools.javac.file.JavacFileManager;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.Profile;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.Target;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.OptionHelper.GrumpyHelper;
+import jdk.compiler.share.classes.com.sun.tools.javac.platform.PlatformDescription;
+import jdk.compiler.share.classes.com.sun.tools.javac.platform.PlatformUtils;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Warnings;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticInfo;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.ListBuffer;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log.PrefixKind;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log.WriterKind;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Options;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.PropagatedException;
 
-import com.sun.tools.doclint.DocLint;
-import com.sun.tools.javac.code.Lint.LintCategory;
-import com.sun.tools.javac.code.Source;
-import com.sun.tools.javac.file.BaseFileManager;
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.jvm.Profile;
-import com.sun.tools.javac.jvm.Target;
-import com.sun.tools.javac.main.OptionHelper.GrumpyHelper;
-import com.sun.tools.javac.platform.PlatformDescription;
-import com.sun.tools.javac.platform.PlatformUtils;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.resources.CompilerProperties.Warnings;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.JCDiagnostic;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticInfo;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.ListBuffer;
-import com.sun.tools.javac.util.Log;
-import com.sun.tools.javac.util.Log.PrefixKind;
-import com.sun.tools.javac.util.Log.WriterKind;
-import com.sun.tools.javac.util.Options;
-import com.sun.tools.javac.util.PropagatedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Shared option and argument handling for command line and API usage of javac.

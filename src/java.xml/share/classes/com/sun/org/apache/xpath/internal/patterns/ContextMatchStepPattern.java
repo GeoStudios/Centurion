@@ -19,15 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xpath.internal.patterns;
+package java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns;
 
-import com.sun.org.apache.xml.internal.dtm.Axis;
-import com.sun.org.apache.xml.internal.dtm.DTM;
-import com.sun.org.apache.xml.internal.dtm.DTMAxisTraverser;
-import com.sun.org.apache.xml.internal.dtm.DTMFilter;
-import com.sun.org.apache.xpath.internal.XPathContext;
-import com.sun.org.apache.xpath.internal.axes.WalkerFactory;
-import com.sun.org.apache.xpath.internal.objects.XObject;
+
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.Axis;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisTraverser;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMFilter;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.axes.WalkerFactory;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Special context node pattern matcher.
  *

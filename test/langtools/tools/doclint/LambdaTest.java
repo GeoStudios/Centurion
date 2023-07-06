@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package acme;
+
+
+import java.base.share.classes.java.util.Arrays;
+import java.util.Set;
+import java.util.function.Function;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8194069
@@ -28,11 +48,7 @@
  * @run main DocLintTester -Xmsgs:all SyntheticTest.java
  */
 
-package acme;
 
-import java.util.Arrays;
-import java.util.Set;
-import java.util.function.Function;
 
 /**
  * The class has docs.

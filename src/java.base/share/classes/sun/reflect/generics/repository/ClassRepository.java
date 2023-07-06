@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.reflect.generics.repository;
+package java.base.share.classes.sun.reflect.generics.repository;
+
 
 import java.lang.reflect.Type;
-import sun.reflect.generics.factory.GenericsFactory;
-import sun.reflect.generics.tree.ClassSignature;
-import sun.reflect.generics.tree.TypeTree;
-import sun.reflect.generics.visitor.Reifier;
-import sun.reflect.generics.parser.SignatureParser;
+import java.base.share.classes.sun.reflect.generics.factory.GenericsFactory;
+import java.base.share.classes.sun.reflect.generics.tree.ClassSignature;
+import java.base.share.classes.sun.reflect.generics.tree.TypeTree;
+import java.base.share.classes.sun.reflect.generics.visitor.Reifier;
+import java.base.share.classes.sun.reflect.generics.parser.SignatureParser;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

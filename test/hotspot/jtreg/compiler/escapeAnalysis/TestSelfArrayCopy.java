@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.escapeAnalysis;
+
+
+import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key randomness
@@ -29,9 +47,7 @@
  *                   compiler.escapeAnalysis.TestSelfArrayCopy
  */
 
-package compiler.escapeAnalysis;
 
-import jdk.test.lib.Utils;
 
 public class TestSelfArrayCopy {
     private static boolean b = false;

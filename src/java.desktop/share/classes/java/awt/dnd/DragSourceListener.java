@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.dnd;
+package java.desktop.share.classes.java.awt.dnd;
 
-import java.util.EventListener;
+
+import java.desktop.share.classes.java.util.Eventjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code DragSourceListener} defines the

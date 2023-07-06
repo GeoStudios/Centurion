@@ -18,11 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.security.util;
+
+package java.base.share.classes.sun.security.util;
+
 
 import java.security.spec.AlgorithmParameterSpec;
+import java.base.share.classes.sun.security.util.ObjectIdentifier;
 
-import sun.security.util.ObjectIdentifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This immutable class is used when randomly generating a key pair and the

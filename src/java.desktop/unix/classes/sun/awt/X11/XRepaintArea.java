@@ -19,14 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.unix.classes.sun.awt.X11;
 
-package sun.awt.X11;
 
 import java.awt.Component;
 import java.awt.Graphics;
+import java.desktop.unix.classes.sun.awt.AWTAccessor;
+import java.desktop.unix.classes.sun.awt.RepaintArea;
 
-import sun.awt.AWTAccessor;
-import sun.awt.RepaintArea;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code RepaintArea} is a geometric construct created for the

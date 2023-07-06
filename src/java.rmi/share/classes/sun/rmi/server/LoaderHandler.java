@@ -19,11 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.rmi.server;
+package java.rmi.share.classes.sun.rmi.server;
+
 
 import java.io.File;
 import java.io.FilePermission;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
@@ -31,7 +32,7 @@ import java.lang.reflect.Modifier;
 import java.lang.reflect.Proxy;
 import java.net.JarURLConnection;
 import java.net.MalformedURLException;
-import java.net.SocketPermission;
+import java.net.java.net.SocketPermission;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.net.URLConnection;
@@ -44,7 +45,7 @@ import java.security.Policy;
 import java.security.ProtectionDomain;
 import java.rmi.server.LogStream;
 import java.security.PrivilegedAction;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.Enumeration;
 import java.util.HashMap;
@@ -52,8 +53,22 @@ import java.util.IdentityHashMap;
 import java.util.Map;
 import java.util.StringTokenizer;
 import java.util.WeakHashMap;
-import sun.reflect.misc.ReflectUtil;
-import sun.rmi.runtime.Log;
+import java.rmi.share.classes.sun.reflect.misc.ReflectUtil;
+import java.rmi.share.classes.sun.rmi.runtime.Log;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>LoaderHandler</code> provides the implementation of the static

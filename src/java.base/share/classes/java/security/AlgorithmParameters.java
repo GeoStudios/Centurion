@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
-import java.io.*;
-import java.security.spec.AlgorithmParameterSpec;
-import java.security.spec.InvalidParameterSpecException;
-import java.util.Objects;
+
+import java.base.share.classes.java.io.*;
+import java.base.share.classes.java.security.spec.AlgorithmParameterSpec;
+import java.base.share.classes.java.security.spec.InvalidParameterSpecException;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as an opaque representation of cryptographic parameters.

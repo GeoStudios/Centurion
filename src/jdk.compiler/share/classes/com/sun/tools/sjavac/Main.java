@@ -19,14 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac;
+package jdk.compiler.share.classes.com.sun.tools.sjavac;
 
-import static com.sun.tools.sjavac.options.Option.STARTSERVER;
 
-import java.util.Arrays;
+import static jdk.compiler.share.classes.com.sun.tools.sjavac.options.Option.STARTSERVER;.extended
+import java.base.share.classes.java.util.Arrays;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.client.ClientMain;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.server.ServerMain;
 
-import com.sun.tools.sjavac.client.ClientMain;
-import com.sun.tools.sjavac.server.ServerMain;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The application entry point of the smart javac wrapper tool.

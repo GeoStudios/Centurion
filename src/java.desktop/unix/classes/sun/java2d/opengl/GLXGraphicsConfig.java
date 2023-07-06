@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.opengl;
+package java.desktop.unix.classes.sun.java2d.opengl;
+
 
 import java.awt.AWTException;
 import java.awt.BufferCapabilities;
@@ -37,27 +38,39 @@ import java.awt.image.DataBuffer;
 import java.awt.image.DirectColorModel;
 import java.awt.image.VolatileImage;
 import java.awt.image.WritableRaster;
+import java.desktop.unix.classes.sun.awt.X11ComponentPeer;
+import java.desktop.unix.classes.sun.awt.X11GraphicsConfig;
+import java.desktop.unix.classes.sun.awt.X11GraphicsDevice;
+import java.desktop.unix.classes.sun.awt.X11GraphicsEnvironment;
+import java.desktop.unix.classes.sun.awt.image.OffScreenImage;
+import java.desktop.unix.classes.sun.awt.image.SunVolatileImage;
+import java.desktop.unix.classes.sun.awt.image.SurfaceManager;
+import java.desktop.unix.classes.sun.java2d.SunGraphics2D;
+import java.desktop.unix.classes.sun.java2d.Surface;
+import java.desktop.unix.classes.sun.java2d.SurfaceData;
+import java.desktop.unix.classes.sun.java2d.opengl.GLXSurfaceData.GLXVSyncOffScreenSurfaceData;
+import java.desktop.unix.classes.sun.java2d.pipe.hw.AccelSurface;
+import java.desktop.unix.classes.sun.java2d.pipe.hw.AccelTypedVolatileImage;
+import java.desktop.unix.classes.sun.java2d.pipe.hw.ContextCapabilities;
+import static java.desktop.unix.classes.sun.java2d.opengl.OGLContext.OGLContextCaps;.extended
+import static java.desktop.unix.classes.sun.java2d.opengl.OGLContext.OGLContextCaps.CAPS_DOUBLEBUFFERED;.extended
+import static java.desktop.unix.classes.sun.java2d.opengl.OGLContext.OGLContextCaps.CAPS_EXT_FBOBJECT;.extended
+import static java.desktop.unix.classes.sun.java2d.opengl.OGLSurfaceData.FBOBJECT;.extended
+import static java.desktop.unix.classes.sun.java2d.opengl.OGLSurfaceData.TEXTURE;.extended
 
-import sun.awt.X11ComponentPeer;
-import sun.awt.X11GraphicsConfig;
-import sun.awt.X11GraphicsDevice;
-import sun.awt.X11GraphicsEnvironment;
-import sun.awt.image.OffScreenImage;
-import sun.awt.image.SunVolatileImage;
-import sun.awt.image.SurfaceManager;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.Surface;
-import sun.java2d.SurfaceData;
-import sun.java2d.opengl.GLXSurfaceData.GLXVSyncOffScreenSurfaceData;
-import sun.java2d.pipe.hw.AccelSurface;
-import sun.java2d.pipe.hw.AccelTypedVolatileImage;
-import sun.java2d.pipe.hw.ContextCapabilities;
 
-import static sun.java2d.opengl.OGLContext.OGLContextCaps;
-import static sun.java2d.opengl.OGLContext.OGLContextCaps.CAPS_DOUBLEBUFFERED;
-import static sun.java2d.opengl.OGLContext.OGLContextCaps.CAPS_EXT_FBOBJECT;
-import static sun.java2d.opengl.OGLSurfaceData.FBOBJECT;
-import static sun.java2d.opengl.OGLSurfaceData.TEXTURE;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class GLXGraphicsConfig
     extends X11GraphicsConfig

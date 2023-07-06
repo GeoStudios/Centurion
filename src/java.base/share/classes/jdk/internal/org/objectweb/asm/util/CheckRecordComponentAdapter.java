@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.org.objectweb.asm.util;
+package java.base.share.classes.jdk.internal.org.objectweb.asm.util;
 
-import jdk.internal.org.objectweb.asm.AnnotationVisitor;
-import jdk.internal.org.objectweb.asm.Attribute;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.RecordComponentVisitor;
-import jdk.internal.org.objectweb.asm.TypePath;
-import jdk.internal.org.objectweb.asm.TypeReference;
+
+import java.base.share.classes.jdk.internal.org.objectweb.asm.AnnotationVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Attribute;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.RecordComponentVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.TypePath;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.TypeReference;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@link RecordComponentVisitor} that checks that its methods are properly used.

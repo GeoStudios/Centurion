@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codegen;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6378821
@@ -29,7 +46,6 @@
  *      compiler.codegen.Test6378821
  */
 
-package compiler.codegen;
 
 public class Test6378821 {
     static final int[]  ia = new int[]  { 0x12345678 };

@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package rawClient;
+
+
+import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 5011073
@@ -28,9 +46,7 @@
  * @compile  RawClient.java
  */
 
-package rawClient;
 
-import java.util.*;
 
 // vendor's library - generified
 class Vend {

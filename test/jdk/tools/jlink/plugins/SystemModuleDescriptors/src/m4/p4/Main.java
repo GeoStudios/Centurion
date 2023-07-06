@@ -21,7 +21,8 @@
 
 package p4;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.lang.module.ModuleDescriptor;
 import java.lang.module.ModuleFinder;
@@ -32,9 +33,21 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Map;
 import java.util.Set;
-
 import jdk.internal.module.ModuleInfo;
 import jdk.internal.module.ModuleInfo.Attributes;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Main {
     private static boolean hasModuleTarget(InputStream in) throws IOException {

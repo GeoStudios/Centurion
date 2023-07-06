@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package com.p2;
+
+
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.java.security.spec.*;
+import java.base.share.classes.javax.crypto.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * test
  * @bug 6370923
@@ -26,11 +46,7 @@
  * @author Brad R. Wetmore
  */
 
-package com.p2;
 
-import java.security.*;
-import java.security.spec.*;
-import javax.crypto.*;
 
 public class P2SecretKeyFactory extends SecretKeyFactorySpi {
 

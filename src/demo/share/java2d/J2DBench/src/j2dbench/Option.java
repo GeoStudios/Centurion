@@ -19,6 +19,45 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.java2d.J2DBench.src.j2dbench;
+
+
+import java.awt.BorderLayout;
+import java.awt.Toolkit;
+import java.awt.Color;
+import java.awt.event.ItemEvent;
+import java.awt.event.Itemjava.util.Listener;
+import javax.swing.JComponent;
+import javax.swing.JCheckBox;
+import javax.swing.JComboBox;
+import javax.swing.JTextField;
+import javax.swing.JPanel;
+import javax.swing.JLabel;
+import javax.swing.Jjava.util.java.util.java.util.List;
+import javax.swing.event.java.util.ListSelectionEvent;
+import javax.swing.event.java.util.ListSelectionjava.util.Listener;
+import javax.swing.text.BadLocationException;
+import javax.swing.text.PlainDocument;
+import javax.swing.text.AttributeSet;
+import javax.swing.border.LineBorder;
+import java.io.PrintWriter;
+import java.util.NoSuchElementException;
+import java.util.StringTokenizer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -28,29 +67,8 @@
  */
 
 
-package j2dbench;
 
-import java.awt.BorderLayout;
-import java.awt.Toolkit;
-import java.awt.Color;
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
-import javax.swing.JComponent;
-import javax.swing.JCheckBox;
-import javax.swing.JComboBox;
-import javax.swing.JTextField;
-import javax.swing.JPanel;
-import javax.swing.JLabel;
-import javax.swing.JList;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
-import javax.swing.text.BadLocationException;
-import javax.swing.text.PlainDocument;
-import javax.swing.text.AttributeSet;
-import javax.swing.border.LineBorder;
-import java.io.PrintWriter;
-import java.util.NoSuchElementException;
-import java.util.StringTokenizer;
+
 
 public abstract class Option extends Node implements Modifier {
     public Option(Group parent, String nodeName, String description) {

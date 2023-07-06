@@ -19,10 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.script;
-import java.util.List;
+package java.scripting.share.classes.javax.script;
+
+
+import java.util.java.util.java.util.java.util.List;
 import java.io.Writer;
 import java.io.Reader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The interface whose implementing classes are used to connect Script Engines

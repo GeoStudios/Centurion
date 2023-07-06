@@ -19,13 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*-
- *      Reads xbitmap format images into a DIBitmap structure.
- */
-package sun.awt.image;
+package java.desktop.share.classes.sun.awt.image;
+
 
 import java.io.*;
 import java.awt.image.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-
+ *      Reads xbitmap format images into a DIBitmap structure.
+ */
+
+
 
 /**
  * Parse files of the form:

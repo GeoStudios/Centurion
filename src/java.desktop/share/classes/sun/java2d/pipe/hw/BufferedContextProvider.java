@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.pipe.hw;
+package java.desktop.share.classes.sun.java2d.pipe.hw;
 
-import sun.java2d.pipe.BufferedContext;
+
+import java.desktop.share.classes.sun.java2d.pipe.BufferedContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Classes implementing this interface can provide the {@code BufferedContext}

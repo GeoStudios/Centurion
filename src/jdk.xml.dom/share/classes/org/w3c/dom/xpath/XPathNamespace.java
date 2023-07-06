@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.w3c.dom.xpath;
+package jdk.xml.dom.share.classes.org.w3c.dom.xpath;
 
 
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
+import jdk.xml.dom.share.classes.org.w3c.dom.Element;
+import jdk.xml.dom.share.classes.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The <code>XPathNamespace</code> interface is returned by

@@ -19,19 +19,20 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.formats.html;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.Locale;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.util.java.util.ListIterator;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -51,7 +52,6 @@ import javax.lang.model.type.TypeMirror;
 import javax.lang.model.util.SimpleAnnotationValueVisitor9;
 import javax.lang.model.util.SimpleElementVisitor14;
 import javax.lang.model.util.SimpleTypeVisitor9;
-
 import com.sun.source.doctree.AttributeTree;
 import com.sun.source.doctree.AttributeTree.ValueKind;
 import com.sun.source.doctree.CommentTree;
@@ -73,49 +73,60 @@ import com.sun.source.doctree.SystemPropertyTree;
 import com.sun.source.doctree.TextTree;
 import com.sun.source.util.DocTreePath;
 import com.sun.source.util.SimpleDocTreeVisitor;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.ContentBuilder;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.Entity;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.Head;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.HtmlDocument;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.HtmlId;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.HtmlStyle;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.HtmlTree;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.Links;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.RawHtml;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.Script;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.TagName;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.Text;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.ClassWriter;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Messages;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.PackageSummaryWriter;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Resources;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.taglets.DocRootTaglet;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.taglets.Taglet;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.taglets.TagletWriter;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.CommentHelper;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Comparators;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFile;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFilejava.io.java.io.java.io.IOException;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocLink;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPath;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPaths;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocletConstants;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils.DeclarationPreviewLanguageFeatures;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils.ElementFlag;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils.PreviewSummary;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclint.HtmlTag;
+import static com.sun.source.doctree.DocTree.Kind.CODE;.extended
+import static com.sun.source.doctree.DocTree.Kind.COMMENT;.extended
+import static com.sun.source.doctree.DocTree.Kind.LINK;.extended
+import static com.sun.source.doctree.DocTree.Kind.LINK_PLAIN;.extended
+import static com.sun.source.doctree.DocTree.Kind.SEE;.extended
+import static com.sun.source.doctree.DocTree.Kind.TEXT;.extended
+import static jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.CommentHelper.SPACER;.extended
 
-import jdk.javadoc.internal.doclets.formats.html.markup.ContentBuilder;
-import jdk.javadoc.internal.doclets.formats.html.markup.Entity;
-import jdk.javadoc.internal.doclets.formats.html.markup.Head;
-import jdk.javadoc.internal.doclets.formats.html.markup.HtmlDocument;
-import jdk.javadoc.internal.doclets.formats.html.markup.HtmlId;
-import jdk.javadoc.internal.doclets.formats.html.markup.HtmlStyle;
-import jdk.javadoc.internal.doclets.formats.html.markup.HtmlTree;
-import jdk.javadoc.internal.doclets.formats.html.markup.Links;
-import jdk.javadoc.internal.doclets.formats.html.markup.RawHtml;
-import jdk.javadoc.internal.doclets.formats.html.markup.Script;
-import jdk.javadoc.internal.doclets.formats.html.markup.TagName;
-import jdk.javadoc.internal.doclets.formats.html.markup.Text;
-import jdk.javadoc.internal.doclets.toolkit.ClassWriter;
-import jdk.javadoc.internal.doclets.toolkit.Content;
-import jdk.javadoc.internal.doclets.toolkit.Messages;
-import jdk.javadoc.internal.doclets.toolkit.PackageSummaryWriter;
-import jdk.javadoc.internal.doclets.toolkit.Resources;
-import jdk.javadoc.internal.doclets.toolkit.taglets.DocRootTaglet;
-import jdk.javadoc.internal.doclets.toolkit.taglets.Taglet;
-import jdk.javadoc.internal.doclets.toolkit.taglets.TagletWriter;
-import jdk.javadoc.internal.doclets.toolkit.util.CommentHelper;
-import jdk.javadoc.internal.doclets.toolkit.util.Comparators;
-import jdk.javadoc.internal.doclets.toolkit.util.DocFile;
-import jdk.javadoc.internal.doclets.toolkit.util.DocFileIOException;
-import jdk.javadoc.internal.doclets.toolkit.util.DocLink;
-import jdk.javadoc.internal.doclets.toolkit.util.DocPath;
-import jdk.javadoc.internal.doclets.toolkit.util.DocPaths;
-import jdk.javadoc.internal.doclets.toolkit.util.DocletConstants;
-import jdk.javadoc.internal.doclets.toolkit.util.Utils;
-import jdk.javadoc.internal.doclets.toolkit.util.Utils.DeclarationPreviewLanguageFeatures;
-import jdk.javadoc.internal.doclets.toolkit.util.Utils.ElementFlag;
-import jdk.javadoc.internal.doclets.toolkit.util.Utils.PreviewSummary;
-import jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable;
-import jdk.javadoc.internal.doclint.HtmlTag;
 
-import static com.sun.source.doctree.DocTree.Kind.CODE;
-import static com.sun.source.doctree.DocTree.Kind.COMMENT;
-import static com.sun.source.doctree.DocTree.Kind.LINK;
-import static com.sun.source.doctree.DocTree.Kind.LINK_PLAIN;
-import static com.sun.source.doctree.DocTree.Kind.SEE;
-import static com.sun.source.doctree.DocTree.Kind.TEXT;
-import static jdk.javadoc.internal.doclets.toolkit.util.CommentHelper.SPACER;
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

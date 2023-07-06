@@ -18,14 +18,16 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package optionsvalidation;
+
 
 import com.sun.tools.attach.VirtualMachine;
 import com.sun.tools.attach.AttachOperationFailedException;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import jdk.test.lib.management.DynamicVMOption;
 import jdk.test.lib.process.OutputAnalyzer;
@@ -34,11 +36,23 @@ import jdk.test.lib.dcmd.CommandExecutor;
 import jdk.test.lib.dcmd.JMXExecutor;
 import jdk.test.lib.Platform;
 import sun.tools.attach.HotSpotVirtualMachine;
+import static optionsvalidation.JVMOptionsUtils.failedMessage;.extended
+import static optionsvalidation.JVMOptionsUtils.GCType;.extended
+import static optionsvalidation.JVMOptionsUtils.printOutputContent;.extended
+import static optionsvalidation.JVMOptionsUtils.VMType;.extended
 
-import static optionsvalidation.JVMOptionsUtils.failedMessage;
-import static optionsvalidation.JVMOptionsUtils.GCType;
-import static optionsvalidation.JVMOptionsUtils.printOutputContent;
-import static optionsvalidation.JVMOptionsUtils.VMType;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class JVMOption {
 

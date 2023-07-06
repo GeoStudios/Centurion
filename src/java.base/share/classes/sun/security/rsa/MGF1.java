@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.security.rsa;
 
-import java.security.*;
+package java.base.share.classes.sun.security.rsa;
+
+
+import java.base.share.classes.java.security.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements the MGF1 mask generation function defined in PKCS#1

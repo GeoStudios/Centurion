@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package runtime.Locals;
+
+
+import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8265756
@@ -27,9 +45,7 @@
  * @run main runtime.Locals.TestLargeLocalVarsStackRegion
  */
 
-package runtime.Locals;
 
-import jdk.test.lib.Asserts;
 
 public class TestLargeLocalVarsStackRegion {
 

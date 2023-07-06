@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.accessibility.util;
+package jdk.accessibility.share.classes.com.sun.java.accessibility.util;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * EventID contains integer constants that map to event support in

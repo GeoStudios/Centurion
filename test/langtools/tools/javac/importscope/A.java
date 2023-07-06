@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package p1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4912075 4979456
@@ -28,7 +45,6 @@
  * @compile A.java B.java
  */
 
-package p1;
 
 public class A {
     public static char c = 'A';

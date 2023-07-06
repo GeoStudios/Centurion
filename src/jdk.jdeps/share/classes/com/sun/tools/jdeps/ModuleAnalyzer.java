@@ -18,16 +18,16 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.tools.jdeps;
 
-import static com.sun.tools.jdeps.JdepsFilter.DEFAULT_FILTER;
-import static com.sun.tools.jdeps.Module.*;
-import static java.lang.module.ModuleDescriptor.Requires.Modifier.*;
-import static java.util.stream.Collectors.*;
+package jdk.jdeps.share.classes.com.sun.tools.jdeps;
 
-import com.sun.tools.classfile.Dependency;
 
-import java.io.IOException;
+import static jdk.jdeps.share.classes.com.sun.tools.jdeps.JdepsFilter.DEFAULT_FILTER;.extended
+import static jdk.jdeps.share.classes.com.sun.tools.jdeps.Module.*;.extended
+import static java.lang.module.ModuleDescriptor.Requires.Modifier.*;.extended
+import static java.util.stream.Collectors.*;.extended
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Dependency;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.lang.module.ModuleDescriptor;
 import java.util.Comparator;
@@ -39,6 +39,20 @@ import java.util.Set;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Analyze module dependences and compare with module descriptor.

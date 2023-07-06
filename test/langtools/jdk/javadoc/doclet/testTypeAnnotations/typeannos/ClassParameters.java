@@ -21,7 +21,21 @@
 
 package typeannos;
 
+
 import java.lang.annotation.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This class is replicated from test/tools/javac/annotations/typeAnnotations/newlocations.

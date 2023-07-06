@@ -21,13 +21,26 @@
 
 package sun.hotspot.cpuinfo;
 
-import java.util.List;
-import java.util.Arrays;
+
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
-
 import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Information about CPU on test box.

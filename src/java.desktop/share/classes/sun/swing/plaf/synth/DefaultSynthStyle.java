@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.swing.plaf.synth;
+
+package java.desktop.share.classes.sun.swing.plaf.synth;
+
 
 import javax.swing.plaf.synth.*;
 import java.awt.*;
 import java.util.*;
 import javax.swing.*;
 import javax.swing.plaf.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Default implementation of SynthStyle. Has setters for the various

@@ -18,14 +18,15 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d;
+
+package demo.share.jfc.J2Ddemo.java2d;
 
 
-import static java2d.CustomControlsContext.State.START;
-import static java2d.CustomControlsContext.State.STOP;
-import static java2d.DemoImages.newDemoImages;
-import static java2d.DemoFonts.newDemoFonts;
-import static java2d.RunWindow.RunWindowSettings;
+import static demo.share.jfc.J2Ddemo.java2d.CustomControlsContext.State.START;.extended
+import static demo.share.jfc.J2Ddemo.java2d.CustomControlsContext.State.STOP;.extended
+import static demo.share.jfc.J2Ddemo.java2d.DemoImages.newDemoImages;.extended
+import static demo.share.jfc.J2Ddemo.java2d.DemoFonts.newDemoFonts;.extended
+import static demo.share.jfc.J2Ddemo.java2d.RunWindow.RunWindowSettings;.extended
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
@@ -40,12 +41,12 @@ import java.awt.Insets;
 import java.awt.RenderingHints;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
+import java.awt.event.Itemjava.util.Listener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-import java.awt.event.WindowListener;
+import java.awt.event.Windowjava.util.Listener;
 import java.awt.font.FontRenderContext;
 import java.awt.font.TextLayout;
 import javax.swing.Box;
@@ -67,6 +68,19 @@ import javax.swing.JTabbedPane;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.border.EtchedBorder;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

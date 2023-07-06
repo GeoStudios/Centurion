@@ -19,20 +19,17 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * $Id: DocumentCache.java,v 1.2.4.1 2005/09/06 06:15:22 pvedula Exp $
- */
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom;
 
-package com.sun.org.apache.xalan.internal.xsltc.dom;
 
-import com.sun.org.apache.xalan.internal.xsltc.DOM;
-import com.sun.org.apache.xalan.internal.xsltc.DOMCache;
-import com.sun.org.apache.xalan.internal.xsltc.DOMEnhancedForDTM;
-import com.sun.org.apache.xalan.internal.xsltc.Translet;
-import com.sun.org.apache.xalan.internal.xsltc.runtime.AbstractTranslet;
-import com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary;
-import com.sun.org.apache.xalan.internal.xsltc.runtime.Constants;
-import com.sun.org.apache.xml.internal.utils.SystemIDResolver;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOMCache;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOMEnhancedForDTM;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.Translet;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime.AbstractTranslet;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime.Constants;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.SystemIDResolver;
 import java.io.File;
 import java.io.PrintWriter;
 import java.net.URL;
@@ -46,9 +43,30 @@ import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.sax.SAXSource;
-import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
-import org.xml.sax.XMLReader;
+import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * $Id: DocumentCache.java,v 1.2.4.1 2005/09/06 06:15:22 pvedula Exp $
+ */
+
+
+
 
 /**
  */

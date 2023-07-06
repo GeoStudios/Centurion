@@ -19,12 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.utilities;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
+
+
+import java.util.Comparator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** An interval is an immutable data structure defined by its two
     endpoints. */
 
-import java.util.Comparator;
 
 public class Interval {
   private final Object lowEndpoint;

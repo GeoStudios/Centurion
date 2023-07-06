@@ -21,10 +21,23 @@
 
 package jdk.jfr.api.consumer.security;
 
-import java.nio.file.Paths;
 
+import java.nio.file.Paths;
 import jdk.jfr.Recording;
 import jdk.test.lib.jfr.EventNames;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Driver that dumps a recording with a JVMInformation event

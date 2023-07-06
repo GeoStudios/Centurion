@@ -1,4 +1,0 @@
-javac -d bin map/map.java stmt/ArrayLiteral.java stmt/BooleanLiteral.java stmt/IntLiteral.java stmt/NullLiteral.java stmt/ObjectLiteral.java stmt/Program.java stmt/Property.java stmt/Stmt.java stmt/StringLiteral.java lexer.java main.java parser.java mapper.java
-
-cd bin && java main
-cd ../

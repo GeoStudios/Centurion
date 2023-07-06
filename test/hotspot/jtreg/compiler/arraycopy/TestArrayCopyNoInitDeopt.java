@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.arraycopy;
+
+
+import compiler.whitebox.CompilerWhiteBoxTest;
+import jdk.test.lib.Platform;
+import sun.hotspot.WhiteBox;
+import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8072016
@@ -35,13 +56,8 @@
  *                   compiler.arraycopy.TestArrayCopyNoInitDeopt
  */
 
-package compiler.arraycopy;
 
-import compiler.whitebox.CompilerWhiteBoxTest;
-import jdk.test.lib.Platform;
-import sun.hotspot.WhiteBox;
 
-import java.lang.reflect.Method;
 
 public class TestArrayCopyNoInitDeopt {
 

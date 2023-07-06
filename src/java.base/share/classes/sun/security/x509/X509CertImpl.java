@@ -19,28 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.x509;
+package java.base.share.classes.sun.security.x509;
+
 
 import java.io.BufferedReader;
 import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.math.BigInteger;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.cert.*;
 import java.security.cert.Certificate;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
-
 import javax.security.auth.x500.X500Principal;
+import java.base.share.classes.sun.security.util.*;
+import java.base.share.classes.sun.security.provider.X509Factory;
+import static java.nio.charset.StandardCharsets.US_ASCII;.extended
 
-import sun.security.util.*;
-import sun.security.provider.X509Factory;
 
-import static java.nio.charset.StandardCharsets.US_ASCII;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The X509CertImpl class represents an X.509 certificate. These certificates

@@ -18,15 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.beans.decoder;
 
-import com.sun.beans.finder.ConstructorFinder;
+package java.desktop.share.classes.com.sun.beans.decoder;
 
+
+import java.desktop.share.classes.com.sun.beans.finder.ConstructorFinder;
 import java.lang.reflect.Array;
 import java.lang.reflect.Constructor;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 
-import java.util.ArrayList;
-import java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is intended to handle &lt;new&gt; element.

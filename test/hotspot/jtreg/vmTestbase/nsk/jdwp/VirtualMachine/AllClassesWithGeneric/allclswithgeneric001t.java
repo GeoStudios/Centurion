@@ -21,11 +21,24 @@
 
 package nsk.jdwp.VirtualMachine.AllClassesWithGeneric;
 
-import java.io.*;
 
+import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class allclswithgeneric001t {
     public static void main(String args[]) {

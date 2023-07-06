@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.mbeanserver;
+package java.management.share.classes.com.sun.jmx.mbeanserver;
+
 
 import javax.management.openmbean.*;
-import com.sun.jmx.mbeanserver.MXBeanMapping;
-import com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory;
+import java.management.share.classes.com.sun.jmx.mbeanserver.MXBeanMapping;
+import java.management.share.classes.com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory;
 import java.lang.reflect.Type;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Defines how types are mapped for a given MXBean or set of MXBeans.

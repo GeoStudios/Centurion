@@ -19,6 +19,45 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serialize;
+
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.NamespaceSupport;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLSymbols;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.OutputStream;
+import java.io.Writer;
+import java.util.Map;
+import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMError;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.traversal.NodeFilter;
+import java.xml.share.classes.com.sun.org.xml.sax.Attributejava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.helpers.AttributesImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Sep 14, 2000:
 //  Fixed problem with namespace handling. Contributed by
 //  David Blondeau <blondeau@intalio.com>
@@ -32,29 +71,8 @@
 // Aug 21, 2000:
 //  Added ability to omit DOCTYPE declaration.
 
-package com.sun.org.apache.xml.internal.serialize;
 
-import com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
-import com.sun.org.apache.xerces.internal.util.NamespaceSupport;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
-import com.sun.org.apache.xerces.internal.util.XMLChar;
-import com.sun.org.apache.xerces.internal.util.XMLSymbols;
-import com.sun.org.apache.xerces.internal.xni.NamespaceContext;
-import java.io.IOException;
-import java.io.OutputStream;
-import java.io.Writer;
-import java.util.Map;
-import org.w3c.dom.Attr;
-import org.w3c.dom.DOMError;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
-import org.w3c.dom.traversal.NodeFilter;
-import org.xml.sax.AttributeList;
-import org.xml.sax.Attributes;
-import org.xml.sax.SAXException;
-import org.xml.sax.helpers.AttributesImpl;
+
 
 /**
  * Implements an XML serializer supporting both DOM and SAX pretty

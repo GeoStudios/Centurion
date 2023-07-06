@@ -21,6 +21,23 @@
 
 package gc;
 
+
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.process.OutputAnalyzer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test TestVerifyDuringStartup.java
  * @bug 8010463 8011343 8011898
  * @summary Simple test run with -XX:+VerifyDuringStartup -XX:-UseTLAB to verify 8010463
@@ -30,8 +47,6 @@ package gc;
  * @run driver gc.TestVerifyDuringStartup
  */
 
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.process.OutputAnalyzer;
 
 public class TestVerifyDuringStartup {
   public static void main(String args[]) throws Exception {

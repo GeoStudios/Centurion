@@ -19,18 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.sun.security.util;
 
-package sun.security.util;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
 import java.io.OutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
+import static java.nio.charset.StandardCharsets.ISO_8859_1;.extended
 
-import static java.nio.charset.StandardCharsets.ISO_8859_1;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class encodes a buffer into the classic: "Hexadecimal Dump" format of

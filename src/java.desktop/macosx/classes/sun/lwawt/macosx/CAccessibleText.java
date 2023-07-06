@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
 
 import java.awt.Component;
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.geom.Rectangle2D;
 import java.util.concurrent.Callable;
-
 import javax.accessibility.Accessible;
 import javax.accessibility.AccessibleContext;
 import javax.accessibility.AccessibleEditableText;
 import javax.accessibility.AccessibleText;
 import javax.swing.text.Element;
 import javax.swing.text.JTextComponent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class CAccessibleText {
     static AccessibleEditableText getAccessibleEditableText(final Accessible a, final Component c) {

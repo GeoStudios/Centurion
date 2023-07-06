@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.ObjectStreamField;
-import java.io.Serializable;
-import java.security.*;
-import java.util.Enumeration;
-import java.util.Hashtable;
-import java.util.concurrent.ConcurrentHashMap;
+
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.ObjectInputStream;
+import java.base.share.classes.java.io.ObjectOutputStream;
+import java.base.share.classes.java.io.ObjectStreamField;
+import java.base.share.classes.java.io.Serializable;
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.java.util.Enumeration;
+import java.base.share.classes.java.util.Hashtable;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
 import sun.security.util.SecurityConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is for property permissions.

@@ -21,7 +21,21 @@
 
 package nsk.jvmti.IsMethodNative;
 
+
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class isnative001 {
 

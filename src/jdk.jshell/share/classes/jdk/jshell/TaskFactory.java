@@ -19,30 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jshell;
+package jdk.jshell.share.classes.jdk.jshell;
+
 
 import com.sun.source.tree.CompilationUnitTree;
 import com.sun.source.tree.Tree;
 import com.sun.source.util.Trees;
 import com.sun.tools.javac.api.JavacTaskImpl;
 import com.sun.tools.javac.util.Context;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import javax.tools.Diagnostic;
 import javax.tools.DiagnosticCollector;
 import javax.tools.JavaCompiler;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileObject;
 import javax.tools.ToolProvider;
-import static jdk.jshell.Util.*;
+import static jdk.jshell.share.classes.jdk.jshell.Util.*;.extended
 import com.sun.source.tree.ImportTree;
 import com.sun.tools.javac.code.Types;
 import com.sun.tools.javac.util.JavacMessages;
-import jdk.jshell.MemoryFileManager.OutputMemoryJavaFileObject;
+import jdk.jshell.share.classes.jdk.jshell.MemoryFileManager.OutputMemoryJavaFileObject;
 import java.util.Collections;
-import java.util.Locale;
-import static javax.tools.StandardLocation.CLASS_OUTPUT;
-import static jdk.internal.jshell.debug.InternalDebugControl.DBG_GEN;
+import java.base.share.classes.java.util.Locale;
+import static javax.tools.StandardLocation.CLASS_OUTPUT;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.debug.InternalDebugControl.DBG_GEN;.extended
 import java.io.File;
 import java.util.Collection;
 import java.util.HashMap;
@@ -51,14 +52,14 @@ import java.util.Map;
 import java.util.stream.Stream;
 import javax.lang.model.util.Elements;
 import javax.tools.FileObject;
-import jdk.jshell.MemoryFileManager.SourceMemoryJavaFileObject;
+import jdk.jshell.share.classes.jdk.jshell.MemoryFileManager.SourceMemoryJavaFileObject;
 import java.lang.Runtime.Version;
 import java.nio.CharBuffer;
 import java.util.function.BiFunction;
 import com.sun.source.tree.ClassTree;
 import com.sun.source.tree.Tree.Kind;
 import com.sun.source.util.TaskEvent;
-import com.sun.source.util.TaskListener;
+import com.sun.source.util.Taskjava.util.Listener;
 import com.sun.tools.javac.api.JavacTaskPool;
 import com.sun.tools.javac.code.ClassFinder;
 import com.sun.tools.javac.code.Kinds;
@@ -85,8 +86,22 @@ import com.sun.tools.javac.util.Context.Factory;
 import com.sun.tools.javac.util.Log;
 import com.sun.tools.javac.util.Log.DiscardDiagnosticHandler;
 import com.sun.tools.javac.util.Names;
-import static jdk.internal.jshell.debug.InternalDebugControl.DBG_FMGR;
-import jdk.jshell.Snippet.Status;
+import static jdk.jshell.share.classes.jdk.internal.jshell.debug.InternalDebugControl.DBG_FMGR;.extended
+import jdk.jshell.share.classes.jdk.jshell.Snippet.Status;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The primary interface to the compiler API.  Parsing, analysis, and

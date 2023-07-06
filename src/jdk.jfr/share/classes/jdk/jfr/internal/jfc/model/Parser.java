@@ -18,23 +18,38 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.jfr.internal.jfc.model;
+
+package jdk.jfr.share.classes.jdk.jfr.internal.jfc.model;
+
 
 import java.io.FileReader;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
 import java.text.ParseException;
 import java.util.ArrayDeque;
 import java.util.Deque;
+import jdk.jfr.share.classes.jdk.internal.org.xml.sax.Attributes;
+import jdk.jfr.share.classes.jdk.internal.org.xml.sax.InputSource;
+import jdk.jfr.share.classes.jdk.internal.org.xml.sax.SAXException;
+import jdk.jfr.share.classes.jdk.internal.org.xml.sax.helpers.DefaultHandler;
+import jdk.jfr.share.classes.jdk.internal.util.xml.SAXParser;
+import jdk.jfr.share.classes.jdk.internal.util.xml.impl.SAXParserImpl;
 
-import jdk.internal.org.xml.sax.Attributes;
-import jdk.internal.org.xml.sax.InputSource;
-import jdk.internal.org.xml.sax.SAXException;
-import jdk.internal.org.xml.sax.helpers.DefaultHandler;
-import jdk.internal.util.xml.SAXParser;
-import jdk.internal.util.xml.impl.SAXParserImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class Parser {
 

@@ -21,7 +21,21 @@
 
 package app2;
 
+
 import javax.ws.rs.Client;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Main {
 

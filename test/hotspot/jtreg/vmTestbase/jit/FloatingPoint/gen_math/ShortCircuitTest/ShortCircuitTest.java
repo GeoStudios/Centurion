@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.FloatingPoint.gen_math.ShortCircuitTest;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,7 +48,6 @@
  * @run main/othervm jit.FloatingPoint.gen_math.ShortCircuitTest.ShortCircuitTest
  */
 
-package jit.FloatingPoint.gen_math.ShortCircuitTest;
 
 ////////////////////////////////////////////////////////////////////////////////
 // A complete set of tests for the binary Java operators {&&, ||, &, |} to
@@ -50,7 +67,6 @@ package jit.FloatingPoint.gen_math.ShortCircuitTest;
 // short circuit evaluation of AND (&&).  Avoid it by slightly tedious
 // if-then-else statements, and similarly for the rest of the file.
 
-import nsk.share.TestFailure;
 
 public class ShortCircuitTest {
     private static int f = 0, t = 0;

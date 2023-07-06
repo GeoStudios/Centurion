@@ -19,21 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.geom.AffineTransform;
 import java.beans.*;
-
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.plaf.*;
 import javax.swing.text.View;
-
 import sun.swing.SwingUtilities2;
-import apple.laf.*;
-import apple.laf.JRSUIConstants.*;
+import java.desktop.macosx.classes.com.apple.laf.*;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaTabbedPaneUI extends AquaTabbedPaneCopyFromBasicUI {
     private static final int kSmallTabHeight = 20; // height of a small tab
@@ -94,8 +107,7 @@ public class AquaTabbedPaneUI extends AquaTabbedPaneCopyFromBasicUI {
     @Override
     protected void uninstallListeners() {
         // We're not just a mouseListener, we're a mouseMotionListener
-        if (mouseListener instanceof  MouseHandler) {
-            final MouseHandler mh = (MouseHandler) mouseListener;
+        if (mouseListener instanceof MouseHandler mh) {
             mh.dispose();
             tabPane.removeMouseMotionListener(mh);
         }

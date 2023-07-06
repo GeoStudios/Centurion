@@ -21,9 +21,23 @@
 
 package jdk.test.lib;
 
-import java.security.*;
-import java.security.spec.*;
+
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.java.security.spec.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Utility class used by various Signature related regression tests for

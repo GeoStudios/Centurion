@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.loader;
+package java.base.macosx.classes.jdk.internal.loader;
+
 
 import java.io.File;
-import java.util.ArrayList;
+import java.base.share.classes.java.util.List;
 
 class ClassLoaderHelper {
 

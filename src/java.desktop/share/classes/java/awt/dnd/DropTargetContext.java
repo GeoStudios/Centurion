@@ -19,21 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.dnd;
+package java.desktop.share.classes.java.awt.dnd;
 
-import java.awt.Component;
-import java.awt.datatransfer.DataFlavor;
-import java.awt.datatransfer.Transferable;
-import java.awt.datatransfer.UnsupportedFlavorException;
-import java.awt.dnd.peer.DropTargetContextPeer;
-import java.io.IOException;
-import java.io.Serial;
-import java.io.Serializable;
-import java.util.Arrays;
-import java.util.List;
 
+import java.desktop.share.classes.java.awt.Component;
+import java.desktop.share.classes.java.awt.datatransfer.DataFlavor;
+import java.desktop.share.classes.java.awt.datatransfer.Transferable;
+import java.desktop.share.classes.java.awt.datatransfer.UnsupportedFlavorException;
+import java.desktop.share.classes.java.awt.dnd.peer.DropTargetContextPeer;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.io.Serializable;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.List;
 import sun.awt.AWTAccessor;
 import sun.awt.AWTAccessor.DropTargetContextAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code DropTargetContext} is created

@@ -19,14 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package p1.p2;
+
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6304128
  * @summary verify that annotations inside foreach statements do not cause AssertionError
  * @compile T6304128.java
  */
-package p1.p2;
-import java.util.ArrayList;
 
 public class T6304128 {
     private void testme( boolean check ) {

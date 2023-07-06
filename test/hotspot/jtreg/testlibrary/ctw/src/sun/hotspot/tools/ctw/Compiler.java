@@ -21,17 +21,30 @@
 
 package sun.hotspot.tools.ctw;
 
-import jdk.internal.access.SharedSecrets;
+
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.misc.Unsafe;
 import jdk.internal.reflect.ConstantPool;
 import sun.hotspot.WhiteBox;
-
 import java.lang.reflect.Executable;
-import java.util.Arrays;
-import java.util.Objects;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.Executor;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.stream.Collectors;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provide method to compile whole class.

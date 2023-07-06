@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.ui;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
+
 
 import java.awt.*;
 import java.awt.font.*;
 import java.awt.geom.*;
 import java.util.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
 
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This can be extended, along with AnnotatedMemoryPanel, to be an
     arbitrarily complex mechanism, supporting user interaction,

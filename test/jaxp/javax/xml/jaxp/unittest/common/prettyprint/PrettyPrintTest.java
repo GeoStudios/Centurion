@@ -18,20 +18,19 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package common.prettyprint;
 
+
 import java.io.ByteArrayInputStream;
-import static jaxp.library.JAXPTestUtilities.clearSystemProperty;
-import static jaxp.library.JAXPTestUtilities.setSystemProperty;
-
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
-
-import java.io.IOException;
+import static jaxp.library.JAXPTestUtilities.clearSystemProperty;.extended
+import static jaxp.library.JAXPTestUtilities.setSystemProperty;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertTrue;.extended
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.StringReader;
 import java.io.StringWriter;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -41,10 +40,9 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
-
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.DOMConfiguration;
 import org.w3c.dom.DOMImplementation;
@@ -58,6 +56,18 @@ import org.w3c.dom.ls.LSOutput;
 import org.w3c.dom.ls.LSSerializer;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*

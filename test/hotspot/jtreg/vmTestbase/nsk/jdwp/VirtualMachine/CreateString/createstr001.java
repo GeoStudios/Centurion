@@ -21,12 +21,25 @@
 
 package nsk.jdwp.VirtualMachine.CreateString;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
-
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class createstr001 {
     static final int JCK_STATUS_BASE = 95;

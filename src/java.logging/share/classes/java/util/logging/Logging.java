@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.logging;
+package java.logging.share.classes.java.util.logging;
 
-import java.util.Enumeration;
-import java.util.List;
-import java.util.ArrayList;
+
+import java.logging.share.classes.java.util.Enumeration;
+import java.logging.share.classes.java.util.java.util.java.util.java.util.List;
+import java.logging.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Logging is the implementation class of LoggingMXBean.

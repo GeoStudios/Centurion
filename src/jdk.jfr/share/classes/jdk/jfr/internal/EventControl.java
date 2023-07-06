@@ -19,34 +19,48 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal;
+package jdk.jfr.share.classes.jdk.jfr.internal;
+
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import jdk.jfr.share.classes.jdk.internal.module.Modules;
+import jdk.jfr.share.classes.jdk.jfr.AnnotationElement;
+import jdk.jfr.share.classes.jdk.jfr.Enabled;
+import jdk.jfr.share.classes.jdk.jfr.Name;
+import jdk.jfr.share.classes.jdk.jfr.Period;
+import jdk.jfr.share.classes.jdk.jfr.SettingControl;
+import jdk.jfr.share.classes.jdk.jfr.SettingDefinition;
+import jdk.jfr.share.classes.jdk.jfr.StackTrace;
+import jdk.jfr.share.classes.jdk.jfr.Threshold;
+import jdk.jfr.share.classes.jdk.jfr.events.ActiveSettingEvent;
+import jdk.jfr.share.classes.jdk.jfr.internal.EventInstrumentation.SettingInfo;
+import jdk.jfr.share.classes.jdk.jfr.internal.settings.CutoffSetting;
+import jdk.jfr.share.classes.jdk.jfr.internal.settings.EnabledSetting;
+import jdk.jfr.share.classes.jdk.jfr.internal.settings.PeriodSetting;
+import jdk.jfr.share.classes.jdk.jfr.internal.settings.StackTraceSetting;
+import jdk.jfr.share.classes.jdk.jfr.internal.settings.ThresholdSetting;
+import jdk.jfr.share.classes.jdk.jfr.internal.settings.ThrottleSetting;
 
-import jdk.internal.module.Modules;
-import jdk.jfr.AnnotationElement;
-import jdk.jfr.Enabled;
-import jdk.jfr.Name;
-import jdk.jfr.Period;
-import jdk.jfr.SettingControl;
-import jdk.jfr.SettingDefinition;
-import jdk.jfr.StackTrace;
-import jdk.jfr.Threshold;
-import jdk.jfr.events.ActiveSettingEvent;
-import jdk.jfr.internal.EventInstrumentation.SettingInfo;
-import jdk.jfr.internal.settings.CutoffSetting;
-import jdk.jfr.internal.settings.EnabledSetting;
-import jdk.jfr.internal.settings.PeriodSetting;
-import jdk.jfr.internal.settings.StackTraceSetting;
-import jdk.jfr.internal.settings.ThresholdSetting;
-import jdk.jfr.internal.settings.ThrottleSetting;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // This class can't have a hard reference from PlatformEventType, since it
 // holds SettingControl instances that need to be released

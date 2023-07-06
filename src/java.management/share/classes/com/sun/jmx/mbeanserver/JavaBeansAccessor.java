@@ -18,12 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.jmx.mbeanserver;
+
+package java.management.share.classes.com.sun.jmx.mbeanserver;
+
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import jdk.internal.access.JavaBeansAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A centralized place for gaining access to java.beans related functionality -

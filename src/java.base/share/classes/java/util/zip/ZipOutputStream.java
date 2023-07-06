@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.zip;
+package java.base.share.classes.java.util.zip;
 
-import java.io.OutputStream;
-import java.io.IOException;
-import java.nio.charset.Charset;
-import java.util.Vector;
-import java.util.HashSet;
-import static java.util.zip.ZipConstants64.*;
-import static java.util.zip.ZipUtils.*;
+
+import java.base.share.classes.java.io.OutputStream;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.nio.charset.Charset;
+import java.base.share.classes.java.util.Vector;
+import java.base.share.classes.java.util.HashSet;
+import static java.base.share.classes.java.util.zip.ZipConstants64.*;.extended
+import static java.base.share.classes.java.util.zip.ZipUtils.*;.extended
 import sun.nio.cs.UTF_8;
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements an output stream filter for writing files in the

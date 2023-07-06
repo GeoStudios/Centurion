@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A class representing an arbitrary-sized page which can be linked
     into a list. Used by the PageCache. */

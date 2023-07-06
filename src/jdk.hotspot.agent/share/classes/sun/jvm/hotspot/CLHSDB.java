@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot;
 
-import sun.jvm.hotspot.*;
-import sun.jvm.hotspot.debugger.*;
 
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CLHSDB {
 

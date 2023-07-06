@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.org.objectweb.asm.commons;
+package java.base.share.classes.jdk.internal.org.objectweb.asm.commons;
+
 
 import java.util.HashMap;
 import java.util.Map;
-import jdk.internal.org.objectweb.asm.Type;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Type;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A named method descriptor.

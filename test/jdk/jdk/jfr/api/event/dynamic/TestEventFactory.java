@@ -21,18 +21,18 @@
 
 package jdk.jfr.api.event.dynamic;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-
 import jdk.jfr.AnnotationElement;
 import jdk.jfr.Event;
 import jdk.jfr.EventFactory;
@@ -47,6 +47,18 @@ import jdk.jfr.consumer.RecordingFile;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.jfr.EventTypePrototype;
 import jdk.test.lib.jfr.Events;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

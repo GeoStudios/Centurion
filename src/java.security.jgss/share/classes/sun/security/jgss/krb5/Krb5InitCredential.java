@@ -19,21 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jgss.krb5;
+package java.security.jgss.share.classes.sun.security.jgss.krb5;
+
 
 import org.ietf.jgss.*;
-import sun.security.jgss.GSSCaller;
-import sun.security.jgss.spi.*;
-import sun.security.krb5.*;
+import java.security.jgss.share.classes.sun.security.jgss.GSSCaller;
+import java.security.jgss.share.classes.sun.security.jgss.spi.*;
+import java.security.jgss.share.classes.sun.security.krb5.*;
 import javax.security.auth.kerberos.KerberosTicket;
 import javax.security.auth.kerberos.KerberosPrincipal;
 import java.net.InetAddress;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.Date;
 import java.security.AccessController;
 import java.security.AccessControlContext;
 import java.security.PrivilegedExceptionAction;
 import java.security.PrivilegedActionException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements the krb5 initiator credential element.

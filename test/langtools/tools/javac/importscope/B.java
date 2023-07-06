@@ -21,7 +21,21 @@
 
 package p2;
 
-import static p1.A.*;
+
+import static p1.A.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class X extends p1.A {
     private static char c = 'X';

@@ -19,27 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.dom;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom;
 
-import com.sun.org.apache.xalan.internal.xsltc.DOM;
-import com.sun.org.apache.xalan.internal.xsltc.StripFilter;
-import com.sun.org.apache.xalan.internal.xsltc.TransletException;
-import com.sun.org.apache.xml.internal.dtm.Axis;
-import com.sun.org.apache.xml.internal.dtm.DTM;
-import com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
-import com.sun.org.apache.xml.internal.dtm.DTMAxisTraverser;
-import com.sun.org.apache.xml.internal.dtm.DTMManager;
-import com.sun.org.apache.xml.internal.dtm.ref.DTMAxisIteratorBase;
-import com.sun.org.apache.xml.internal.dtm.ref.DTMManagerDefault;
-import com.sun.org.apache.xml.internal.serializer.EmptySerializer;
-import com.sun.org.apache.xml.internal.serializer.SerializationHandler;
-import com.sun.org.apache.xml.internal.utils.XMLString;
-import com.sun.org.apache.xml.internal.utils.XMLStringDefault;
+
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.StripFilter;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.TransletException;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.Axis;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisTraverser;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMManager;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.DTMAxisIteratorBase;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.DTMManagerDefault;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.EmptySerializer;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.SerializationHandler;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLString;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLStringDefault;
 import java.util.Map;
 import javax.xml.transform.SourceLocator;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents a light-weight DOM model for simple result tree fragment(RTF).

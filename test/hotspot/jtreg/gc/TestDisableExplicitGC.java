@@ -21,6 +21,24 @@
 
 package gc;
 
+
+import java.lang.management.GarbageCollectorMXBean;
+import java.util.java.util.java.util.java.util.List;
+import static jdk.test.lib.Asserts.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestDisableExplicitGC
  * @requires vm.opt.DisableExplicitGC == null
@@ -32,9 +50,6 @@ package gc;
  * @run main/othervm/fail -XX:+DisableExplicitGC -Xlog:gc=debug gc.TestDisableExplicitGC
  * @run main/othervm      -XX:-DisableExplicitGC -Xlog:gc=debug gc.TestDisableExplicitGC
  */
-import java.lang.management.GarbageCollectorMXBean;
-import java.util.List;
-import static jdk.test.lib.Asserts.*;
 
 public class TestDisableExplicitGC {
 

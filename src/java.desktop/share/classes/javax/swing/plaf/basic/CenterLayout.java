@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.basic;
+package java.desktop.share.classes.javax.swing.plaf.basic;
 
 
 import java.awt.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * Center-positioning layout manager.

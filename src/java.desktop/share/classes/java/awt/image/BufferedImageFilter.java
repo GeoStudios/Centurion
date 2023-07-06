@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.image;
+package java.desktop.share.classes.java.awt.image;
 
-import java.util.Hashtable;
-import java.awt.image.ImageConsumer;
-import java.awt.image.ImageFilter;
+
+import java.desktop.share.classes.java.util.Hashtable;
+import java.desktop.share.classes.java.awt.image.ImageConsumer;
+import java.desktop.share.classes.java.awt.image.ImageFilter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code BufferedImageFilter} class subclasses an

@@ -19,23 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.joptsimple;
+package jdk.internal.opt.share.classes.jdk.internal.joptsimple;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
 import java.util.*;
+import jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.AbbreviationMap;
+import jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.SimpleOptionNameMap;
+import jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.OptionNameMap;
+import jdk.internal.opt.share.classes.jdk.internal.joptsimple.util.KeyValuePair;
+import static java.util.Collections.*;.extended
+import static jdk.internal.opt.share.classes.jdk.internal.joptsimple.OptionException.*;.extended
+import static jdk.internal.opt.share.classes.jdk.internal.joptsimple.OptionParserState.*;.extended
+import static jdk.internal.opt.share.classes.jdk.internal.joptsimple.ParserRules.*;.extended
 
-import jdk.internal.joptsimple.internal.AbbreviationMap;
-import jdk.internal.joptsimple.internal.SimpleOptionNameMap;
-import jdk.internal.joptsimple.internal.OptionNameMap;
-import jdk.internal.joptsimple.util.KeyValuePair;
 
-import static java.util.Collections.*;
-import static jdk.internal.joptsimple.OptionException.*;
-import static jdk.internal.joptsimple.OptionParserState.*;
-import static jdk.internal.joptsimple.ParserRules.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Parses command line arguments, using a syntax that attempts to take from the best of POSIX {@code getopt()}

@@ -19,11 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole.inspector;
+package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
+
+
+import javax.swing.*;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // java import
-import javax.swing.*;
-import java.util.Objects;
 
 /**
  * This provides a wrapper to the Object class to allow it to be

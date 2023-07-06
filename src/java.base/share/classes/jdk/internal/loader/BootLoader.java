@@ -18,9 +18,11 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.loader;
 
-import java.io.IOException;
+package java.base.share.classes.jdk.internal.loader;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.lang.module.ModuleReference;
 import java.net.MalformedURLException;
@@ -30,18 +32,31 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Enumeration;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.jar.JarInputStream;
 import java.util.jar.Manifest;
 import java.util.stream.Stream;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.module.Modules;
+import java.base.share.classes.jdk.internal.module.ServicesCatalog;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
 
-import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.module.Modules;
-import jdk.internal.module.ServicesCatalog;
-import jdk.internal.util.StaticProperty;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Find resources and packages in modules defined to the boot class loader or
@@ -245,7 +260,7 @@ public class BootLoader {
             if (module != null) {
                 // named module from runtime image or exploded module
                 if (name.isEmpty())
-                    throw new InternalError("empty package in " + location);
+                    throw new InternalError("empty 
                 return JLA.definePackage(ClassLoaders.bootLoader(), name, module);
             }
 

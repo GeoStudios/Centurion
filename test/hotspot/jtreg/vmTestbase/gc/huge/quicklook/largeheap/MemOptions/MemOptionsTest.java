@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.huge.quicklook.largeheap.MemOptions;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Collections;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -31,14 +52,8 @@
  * @run driver gc.huge.quicklook.largeheap.MemOptions.MemOptionsTest
  */
 
-package gc.huge.quicklook.largeheap.MemOptions;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collections;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 /*
  * Test JVM startup with different memory options.

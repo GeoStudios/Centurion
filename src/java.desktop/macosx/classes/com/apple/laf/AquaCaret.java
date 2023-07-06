@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.Graphics;
 import java.awt.Insets;
@@ -28,8 +29,7 @@ import java.awt.event.FocusEvent;
 import java.awt.event.MouseEvent;
 import java.awt.geom.Rectangle2D;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-
+import java.beans.PropertyChangejava.util.Listener;
 import javax.swing.JEditorPane;
 import javax.swing.JTextArea;
 import javax.swing.border.Border;
@@ -38,6 +38,20 @@ import javax.swing.text.DefaultCaret;
 import javax.swing.text.Highlighter;
 import javax.swing.text.JTextComponent;
 import javax.swing.SwingUtilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // Superclass is not serializable across versions
 public class AquaCaret extends DefaultCaret

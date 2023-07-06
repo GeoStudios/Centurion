@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.windows;
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class WingDings extends Charset {
     public WingDings () {

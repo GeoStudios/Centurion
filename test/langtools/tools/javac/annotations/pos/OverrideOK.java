@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package overrideOK;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4901275 4989669
@@ -28,7 +45,6 @@
  * @compile OverrideOK.java
  */
 
-package overrideOK;
 
 abstract class A {
     abstract void f();

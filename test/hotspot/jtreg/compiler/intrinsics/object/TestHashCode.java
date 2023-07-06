@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.object;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8011646
@@ -30,7 +47,6 @@
  *      compiler.intrinsics.object.TestHashCode
  */
 
-package compiler.intrinsics.object;
 
 public class TestHashCode {
     static class A {

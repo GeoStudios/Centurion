@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.deoptimization.test05;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,9 +48,7 @@
  * @run main/othervm jit.deoptimization.test05.test05
  */
 
-package jit.deoptimization.test05;
 
-import nsk.share.TestFailure;
 
 /*
  *

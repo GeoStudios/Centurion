@@ -21,6 +21,21 @@
 
 package MyPackage;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @summary Verifies the JVMTI Heap Monitor does not work without the required capability.

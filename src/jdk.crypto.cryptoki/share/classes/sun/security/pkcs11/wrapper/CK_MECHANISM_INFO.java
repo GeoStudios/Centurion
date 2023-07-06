@@ -19,13 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper;
+
+
+import java.base.share.classes.java.security.ProviderException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package sun.security.pkcs11.wrapper;
 
-import java.security.ProviderException;
+
 
 /**
  * class CK_MECHANISM_INFO provides information about a particular mechanism.

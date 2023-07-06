@@ -21,6 +21,21 @@
 
 package pkg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @DocAnnotation(a2={TestPreviewDeclaration.class})
 public class DocAnnotationUse2 {
 }

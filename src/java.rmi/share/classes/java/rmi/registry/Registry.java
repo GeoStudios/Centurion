@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.rmi.registry;
 
-import java.rmi.AccessException;
-import java.rmi.AlreadyBoundException;
-import java.rmi.NotBoundException;
-import java.rmi.Remote;
-import java.rmi.RemoteException;
+package java.rmi.share.classes.java.rmi.registry;
+
+
+import java.rmi.share.classes.java.rmi.AccessException;
+import java.rmi.share.classes.java.rmi.AlreadyBoundException;
+import java.rmi.share.classes.java.rmi.NotBoundException;
+import java.rmi.share.classes.java.rmi.Remote;
+import java.rmi.share.classes.java.rmi.RemoteException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>Registry</code> is a remote interface to a simple remote

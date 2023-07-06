@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.sha.cli;
+
+
+import compiler.intrinsics.sha.cli.testcases.GenericTestCaseForOtherCPU;
+import compiler.intrinsics.sha.cli.testcases.GenericTestCaseForUnsupportedAArch64CPU;
+import compiler.intrinsics.sha.cli.testcases.GenericTestCaseForUnsupportedX86CPU;
+import compiler.intrinsics.sha.cli.testcases.UseSHAIntrinsicsSpecificTestCaseForUnsupportedCPU;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8035968
@@ -33,12 +54,7 @@
  *                   compiler.intrinsics.sha.cli.TestUseSHA1IntrinsicsOptionOnUnsupportedCPU
  */
 
-package compiler.intrinsics.sha.cli;
 
-import compiler.intrinsics.sha.cli.testcases.GenericTestCaseForOtherCPU;
-import compiler.intrinsics.sha.cli.testcases.GenericTestCaseForUnsupportedAArch64CPU;
-import compiler.intrinsics.sha.cli.testcases.GenericTestCaseForUnsupportedX86CPU;
-import compiler.intrinsics.sha.cli.testcases.UseSHAIntrinsicsSpecificTestCaseForUnsupportedCPU;
 
 public class TestUseSHA1IntrinsicsOptionOnUnsupportedCPU {
     public static void main(String args[]) throws Throwable {

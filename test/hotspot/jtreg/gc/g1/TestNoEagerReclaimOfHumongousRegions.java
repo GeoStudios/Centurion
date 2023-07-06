@@ -21,6 +21,23 @@
 
 package gc.g1;
 
+
+import java.util.Linkedjava.util.java.util.java.util.List;
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestNoEagerReclaimOfHumongousRegions
  * @bug 8139424
@@ -35,9 +52,7 @@ package gc.g1;
  * @run main/othervm -Xbootclasspath/a:. -Xlog:gc,gc+humongous=debug -XX:+UseG1GC -XX:MaxTenuringThreshold=0 -XX:G1RSetSparseRegionEntries=32 -XX:G1HeapRegionSize=1m -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI gc.g1.TestNoEagerReclaimOfHumongousRegions
  */
 
-import java.util.LinkedList;
 
-import sun.hotspot.WhiteBox;
 
 public class TestNoEagerReclaimOfHumongousRegions {
     // Helper class to keep reference to humongous byte[].

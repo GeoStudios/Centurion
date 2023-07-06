@@ -19,16 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-package sun.lwawt.macosx;
 
 import java.awt.AWTKeyStroke;
 import java.awt.Toolkit;
 import java.lang.reflect.InvocationTargetException;
+import java.desktop.macosx.classes.sun.awt.AWTAccessor;
+import java.desktop.macosx.classes.sun.awt.EmbeddedFrame;
+import java.desktop.macosx.classes.sun.lwawt.LWWindowPeer;
 
-import sun.awt.AWTAccessor;
-import sun.awt.EmbeddedFrame;
-import sun.lwawt.LWWindowPeer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * The CViewEmbeddedFrame class is used in the SWT_AWT bridge.

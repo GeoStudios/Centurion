@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.management;
+package java.management.share.classes.sun.management;
+
 
 import java.util.Map;
 import java.util.HashMap;
-import sun.management.counter.Counter;
+import java.management.share.classes.sun.management.counter.Counter;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

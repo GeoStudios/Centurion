@@ -21,9 +21,23 @@
 
 package jdk.jfr.api.metadata.annotations;
 
+
 import jdk.jfr.Event;
 import jdk.jfr.Recording;
 import jdk.jfr.Registered;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test Tests that commit doesn't throw exception when an event has not been registered.

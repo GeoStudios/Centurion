@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.sound.sampled;
+package java.desktop.share.classes.javax.sound.sampled;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A target data line is a type of {@link DataLine} from which audio data can be

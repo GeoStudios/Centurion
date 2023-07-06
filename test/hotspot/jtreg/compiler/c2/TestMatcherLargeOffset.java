@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8202952
@@ -27,7 +44,6 @@
  * @run main/othervm -XX:-TieredCompilation -Xcomp -XX:CompileOnly=::test
  *      compiler.c2.TestMatcherLargeOffset
  */
-package compiler.c2;
 
 public class TestMatcherLargeOffset {
     public static final int N = 400;

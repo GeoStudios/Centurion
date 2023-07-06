@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.w3c.dom.html;
+package jdk.xml.dom.share.classes.org.w3c.dom.html;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  For the <code>Q</code> and <code>BLOCKQUOTE</code> elements. See the  Q

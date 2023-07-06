@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.unix.classes.sun.font;
+
 
 import java.awt.geom.AffineTransform;
 import java.awt.geom.GeneralPath;
@@ -27,6 +28,20 @@ import java.awt.geom.Point2D;
 import java.awt.Rectangle;
 import java.awt.geom.Rectangle2D;
 import java.awt.geom.NoninvertibleTransformException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class NativeStrike extends PhysicalStrike {
 

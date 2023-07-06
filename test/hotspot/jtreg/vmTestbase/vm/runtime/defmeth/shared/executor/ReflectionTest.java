@@ -21,6 +21,7 @@
 
 package vm.runtime.defmeth.shared.executor;
 
+
 import nsk.share.TestFailure;
 import nsk.share.test.TestUtils;
 import vm.runtime.defmeth.shared.builder.TestBuilder;
@@ -41,14 +42,25 @@ import vm.runtime.defmeth.shared.data.method.body.ReturnIntBody;
 import vm.runtime.defmeth.shared.data.method.body.ThrowExBody;
 import vm.runtime.defmeth.shared.data.method.result.IntResult;
 import vm.runtime.defmeth.shared.data.method.result.ThrowExResult;
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
-
+import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
 import java.lang.reflect.*;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import static java.lang.String.format;.extended
 
-import static java.lang.String.format;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test runner for invocation mode through Reflection API (Method.invoke).

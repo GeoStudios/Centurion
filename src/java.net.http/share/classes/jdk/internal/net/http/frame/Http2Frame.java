@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http.frame;
+package java.net.http.share.classes.jdk.internal.net.http.frame;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * When sending a frame, the length field must be set in sub-class

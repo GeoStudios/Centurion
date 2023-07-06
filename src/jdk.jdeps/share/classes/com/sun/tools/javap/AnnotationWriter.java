@@ -19,19 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javap;
+package jdk.jdeps.share.classes.com.sun.tools.javap;
 
-import com.sun.tools.classfile.Annotation;
-import com.sun.tools.classfile.TypeAnnotation;
-import com.sun.tools.classfile.Annotation.Annotation_element_value;
-import com.sun.tools.classfile.Annotation.Array_element_value;
-import com.sun.tools.classfile.Annotation.Class_element_value;
-import com.sun.tools.classfile.Annotation.Enum_element_value;
-import com.sun.tools.classfile.Annotation.Primitive_element_value;
-import com.sun.tools.classfile.ConstantPool;
-import com.sun.tools.classfile.ConstantPoolException;
-import com.sun.tools.classfile.Descriptor;
-import com.sun.tools.classfile.Descriptor.InvalidDescriptor;
+
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Annotation;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.TypeAnnotation;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Annotation.Annotation_element_value;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Annotation.Array_element_value;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Annotation.Class_element_value;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Annotation.Enum_element_value;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Annotation.Primitive_element_value;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPoolException;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Descriptor;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Descriptor.InvalidDescriptor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  A writer for writing annotations as text.

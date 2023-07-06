@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.share.classes.sun.awt.image;
 
-package sun.awt.image;
 
 import java.awt.image.DataBuffer;
-import sun.java2d.SurfaceData;
+import java.desktop.share.classes.sun.java2d.SurfaceData;
 import java.awt.Rectangle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class extends {@code DataBuffer} and allows access to

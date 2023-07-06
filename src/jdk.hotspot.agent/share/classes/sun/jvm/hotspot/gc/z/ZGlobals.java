@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.gc.z;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.z;
 
-import sun.jvm.hotspot.runtime.VM;
-import sun.jvm.hotspot.types.Field;
-import sun.jvm.hotspot.types.Type;
-import sun.jvm.hotspot.types.TypeDataBase;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VM;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.Field;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.Type;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.TypeDataBase;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ZGlobals {
     private static Field instanceField;

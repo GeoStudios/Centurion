@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.icu.impl;
+package java.base.share.classes.jdk.internal.icu.impl;
+
 
 import java.io.DataInputStream;
 import java.io.InputStream;
-import java.io.IOException;
-import java.io.UncheckedIOException;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
+import java.base.share.classes.jdk.internal.icu.util.VersionInfo;
 
-import jdk.internal.icu.util.VersionInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class ICUBinary {
 

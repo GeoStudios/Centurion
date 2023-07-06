@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.whitebox;
+
+
+import compiler.testlibrary.CompilerUtils;
+import sun.hotspot.WhiteBox;
+import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8150646 8153013
@@ -40,12 +60,8 @@
  *        compiler.whitebox.BlockingCompilation
  */
 
-package compiler.whitebox;
 
-import compiler.testlibrary.CompilerUtils;
-import sun.hotspot.WhiteBox;
 
-import java.lang.reflect.Method;
 
 public class BlockingCompilation {
     private static final WhiteBox WB = WhiteBox.getWhiteBox();

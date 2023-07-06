@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.memory.Nio;
+
+
+import java.lang.management.ManagementFactory;
+import java.nio.ByteBuffer;
+import jdk.internal.misc.VM;
+import com.sun.management.HotSpotDiagnosticMXBean;
+import java.io.File;
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @modules java.base/jdk.internal.misc
@@ -32,14 +55,7 @@
  * @run main/othervm -XX:MaxDirectMemorySize=50M gc.memory.Nio.Nio
  */
 
-package gc.memory.Nio;
 
-import java.lang.management.ManagementFactory;
-import java.nio.ByteBuffer;
-import jdk.internal.misc.VM;
-import com.sun.management.HotSpotDiagnosticMXBean;
-import java.io.File;
-import java.io.IOException;
 
 /**
  * Test that uses java.nio.ByteBuffer to allocate native memory.

@@ -19,20 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.windows;
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.awt.Color;
 import java.awt.Font;
-import static java.awt.RenderingHints.*;
+import static java.awt.RenderingHints.*;.extended
 import java.awt.RenderingHints;
-
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import java.desktop.windows.classes.sun.util.logging.PlatformLogger;
+import java.desktop.windows.classes.sun.awt.SunToolkit;
 
-import sun.util.logging.PlatformLogger;
 
-import sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Class encapsulating Windows desktop properties.;

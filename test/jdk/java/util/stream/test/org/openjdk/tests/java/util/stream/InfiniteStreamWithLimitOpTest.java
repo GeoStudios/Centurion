@@ -18,16 +18,17 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.tests.java.util.stream;
+
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Spliterator;
 import java.util.function.Function;
 import java.util.function.UnaryOperator;
@@ -43,8 +44,19 @@ import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 import java.util.stream.StreamTestScenario;
 import java.util.stream.TestData;
+import static java.util.stream.LambdaTestHelpers.assertUnique;.extended
 
-import static java.util.stream.LambdaTestHelpers.assertUnique;
+
+
+
+
+
+
+
+
+
+
+
 
 
 @Test

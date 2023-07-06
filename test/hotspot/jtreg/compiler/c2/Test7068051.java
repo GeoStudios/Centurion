@@ -19,6 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import jdk.test.lib.JDKToolLauncher;
+import jdk.test.lib.process.OutputAnalyzer;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.InputStream;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Enumeration;
+import java.util.java.util.java.util.java.util.List;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipFile;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7068051
@@ -30,22 +60,8 @@
  * @run main/othervm -showversion -Xbatch compiler.c2.Test7068051
  */
 
-package compiler.c2;
 
-import jdk.test.lib.JDKToolLauncher;
-import jdk.test.lib.process.OutputAnalyzer;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.nio.file.StandardCopyOption;
-import java.util.ArrayList;
-import java.util.Enumeration;
-import java.util.List;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipFile;
 
 public class Test7068051 {
     private static final String SELF_NAME = Test7068051.class.getSimpleName();

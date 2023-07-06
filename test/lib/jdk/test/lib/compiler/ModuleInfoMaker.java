@@ -21,14 +21,28 @@
 
 package jdk.test.lib.compiler;
 
+
 import java.io.BufferedWriter;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class for creating test modules.

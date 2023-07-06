@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.invoke;
+package java.base.share.classes.jdk.internal.invoke;
+
 
 import java.lang.invoke.MethodType;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class describes a native call, including arguments/return shuffle moves, PC entry point and

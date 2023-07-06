@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.org.objectweb.asm.signature;
+package java.base.share.classes.jdk.internal.org.objectweb.asm.signature;
 
-import jdk.internal.org.objectweb.asm.Opcodes;
+
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A SignatureVisitor that generates signature literals, as defined in the Java Virtual Machine

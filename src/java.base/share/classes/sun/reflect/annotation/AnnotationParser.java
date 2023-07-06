@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.reflect.annotation;
+package java.base.share.classes.sun.reflect.annotation;
+
 
 import java.lang.annotation.*;
 import java.lang.reflect.*;
@@ -30,13 +31,26 @@ import java.util.function.Supplier;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import jdk.internal.reflect.ConstantPool;
+import java.base.share.classes.sun.reflect.generics.parser.SignatureParser;
+import java.base.share.classes.sun.reflect.generics.tree.TypeSignature;
+import java.base.share.classes.sun.reflect.generics.factory.GenericsFactory;
+import java.base.share.classes.sun.reflect.generics.factory.CoreReflectionFactory;
+import java.base.share.classes.sun.reflect.generics.visitor.Reifier;
+import java.base.share.classes.sun.reflect.generics.scope.ClassScope;
 
-import sun.reflect.generics.parser.SignatureParser;
-import sun.reflect.generics.tree.TypeSignature;
-import sun.reflect.generics.factory.GenericsFactory;
-import sun.reflect.generics.factory.CoreReflectionFactory;
-import sun.reflect.generics.visitor.Reifier;
-import sun.reflect.generics.scope.ClassScope;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Parser for Java programming language annotations.  Translates

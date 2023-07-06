@@ -18,12 +18,13 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.jfr.api.metadata.settingdescriptor;
+
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Comparator;
-
 import jdk.jfr.Description;
 import jdk.jfr.EventType;
 import jdk.jfr.Label;
@@ -34,6 +35,19 @@ import jdk.jfr.SettingDescriptor;
 import jdk.jfr.Timespan;
 import jdk.jfr.consumer.RecordingFile;
 import jdk.test.lib.jfr.Events;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class CustomEvent extends BaseEvent {
 

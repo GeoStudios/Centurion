@@ -19,14 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import jdk.internal.misc.Unsafe;
-
-import sun.util.logging.PlatformLogger;
-
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 import java.awt.AWTKeyStroke;
 import java.awt.event.InputEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Common class for all XEmbed protocol participating classes.

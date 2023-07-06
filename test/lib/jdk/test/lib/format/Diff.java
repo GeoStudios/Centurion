@@ -19,10 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.test.lib.format;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Represents a possible difference between two objects.
  */
-package jdk.test.lib.format;
 
 /**
  * An abstraction representing formattable difference between two or more objects

@@ -18,11 +18,12 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.jfr.event.gc.detailed;
 
-import java.nio.file.Paths;
-import java.util.List;
 
+import java.nio.file.Paths;
+import java.util.java.util.java.util.java.util.List;
 import jdk.jfr.EventType;
 import jdk.jfr.FlightRecorder;
 import jdk.jfr.Recording;
@@ -31,6 +32,19 @@ import jdk.test.lib.Asserts;
 import jdk.test.lib.jfr.EventNames;
 import jdk.test.lib.jfr.Events;
 import jdk.test.lib.jfr.GCHelper;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TestG1HeapRegionInformationEvent {
     private final static String EVENT_NAME = EventNames.G1HeapRegionInformation;

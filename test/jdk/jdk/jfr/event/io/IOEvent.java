@@ -21,15 +21,28 @@
 
 package jdk.jfr.event.io;
 
-import java.io.File;
-import java.io.IOException;
-import java.net.Socket;
 
+import java.io.File;
+import java.io.java.io.java.io.java.io.IOException;
+import java.net.java.net.java.net.java.net.Socket;
 import jdk.jfr.consumer.RecordedEvent;
 import jdk.jfr.consumer.RecordedThread;
 import jdk.test.lib.jfr.EventField;
 import jdk.test.lib.jfr.EventNames;
 import jdk.test.lib.jfr.Events;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Contains data from a JFR IO event.
 public class IOEvent {

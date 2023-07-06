@@ -19,36 +19,54 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.security.PrivateKey;
+import java.base.share.classes.java.security.PublicKey;
+import java.security.cert.X509Certificate;
+import java.base.share.classes.javax.crypto.SecretKey;
+import javax.xml.namespace.QName;
+import javax.xml.parsers.ParserConfigurationException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.CanonicalizationException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.KeyInfo;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.KeyInfoReference;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.keyresolver.KeyResolverException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.keyresolver.KeyResolverSpi;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.storage.StorageResolver;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.XMLSignatureInput;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.Constants;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.XMLUtils;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver.ResourceResolver;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver.ResourceResolverContext;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Attr;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.crypto.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations;
 
-import java.io.IOException;
-import java.security.PrivateKey;
-import java.security.PublicKey;
-import java.security.cert.X509Certificate;
 
-import javax.crypto.SecretKey;
-import javax.xml.namespace.QName;
-import javax.xml.parsers.ParserConfigurationException;
 
-import com.sun.org.apache.xml.internal.security.c14n.CanonicalizationException;
-import com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
-import com.sun.org.apache.xml.internal.security.keys.KeyInfo;
-import com.sun.org.apache.xml.internal.security.keys.content.KeyInfoReference;
-import com.sun.org.apache.xml.internal.security.keys.keyresolver.KeyResolverException;
-import com.sun.org.apache.xml.internal.security.keys.keyresolver.KeyResolverSpi;
-import com.sun.org.apache.xml.internal.security.keys.storage.StorageResolver;
-import com.sun.org.apache.xml.internal.security.signature.XMLSignatureInput;
-import com.sun.org.apache.xml.internal.security.utils.Constants;
-import com.sun.org.apache.xml.internal.security.utils.XMLUtils;
-import com.sun.org.apache.xml.internal.security.utils.resolver.ResourceResolver;
-import com.sun.org.apache.xml.internal.security.utils.resolver.ResourceResolverContext;
-import org.w3c.dom.Attr;
-import org.w3c.dom.Element;
-import org.xml.sax.SAXException;
+
 
 /**
  * KeyResolverSpi implementation which resolves public keys, private keys, secret keys, and X.509 certificates from a

@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal;
+package jdk.jfr.share.classes.jdk.jfr.internal;
+
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintWriter;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.ClassReader;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.MethodVisitor;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.Type;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.commons.Method;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.util.TraceClassVisitor;
+import jdk.jfr.share.classes.jdk.jfr.ValueDescriptor;
+import jdk.jfr.share.classes.jdk.jfr.internal.EventInstrumentation.FieldInfo;
 
-import jdk.internal.org.objectweb.asm.ClassReader;
-import jdk.internal.org.objectweb.asm.MethodVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.Type;
-import jdk.internal.org.objectweb.asm.commons.Method;
-import jdk.internal.org.objectweb.asm.util.TraceClassVisitor;
-import jdk.jfr.ValueDescriptor;
-import jdk.jfr.internal.EventInstrumentation.FieldInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class ASMToolkit {
     private static final Type TYPE_STRING = Type.getType(String.class);

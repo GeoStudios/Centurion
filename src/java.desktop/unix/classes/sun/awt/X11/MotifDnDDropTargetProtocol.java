@@ -19,17 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.Point;
-
 import java.awt.dnd.DnDConstants;
-
 import java.awt.event.MouseEvent;
-
-import java.io.IOException;
-
+import java.io.java.io.java.io.java.io.IOException;
 import jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * XDropTargetProtocol implementation for Motif DnD protocol.
@@ -1053,7 +1064,7 @@ class MotifDnDDropTargetProtocol extends XDropTargetProtocol {
         if (xclient != null) {
             int size = XClientMessageEvent.getSize();
 
-            nativeCtxt = unsafe.allocateMemory(size + 4 * Native.getLongSize());
+            nativeCtxt = unsafe.allocateMemory(size + 4L * Native.getLongSize());
 
             unsafe.copyMemory(xclient.pData, nativeCtxt, size);
         }

@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.transform.sax;
+package java.xml.share.classes.javax.xml.transform.sax;
 
-import javax.xml.transform.Source;
-import javax.xml.transform.stream.StreamSource;
 
+import java.xml.share.classes.javax.xml.transform.Source;
+import java.xml.share.classes.javax.xml.transform.stream.StreamSource;
 import org.xml.sax.InputSource;
 import org.xml.sax.XMLReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Acts as an holder for SAX-style Source.</p>

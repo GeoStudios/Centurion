@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.StringGC;
+
+
+import nsk.share.test.*;
+import nsk.share.gc.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -32,10 +50,7 @@
  * @run main/othervm gc.gctests.StringGC.StringGC
  */
 
-package gc.gctests.StringGC;
 
-import nsk.share.test.*;
-import nsk.share.gc.*;
 
 /**
  * Test that added strings are collected.

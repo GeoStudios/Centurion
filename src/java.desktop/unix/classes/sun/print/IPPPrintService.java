@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.unix.classes.sun.print;
+
 
 import java.awt.GraphicsEnvironment;
 import java.awt.Toolkit;
@@ -30,16 +31,15 @@ import javax.print.DocPrintJob;
 import javax.print.PrintService;
 import javax.print.ServiceUIFactory;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Date;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.security.AccessController;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
-import javax.print.event.PrintServiceAttributeListener;
-
+import javax.print.event.PrintServiceAttributejava.util.Listener;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
@@ -55,10 +55,22 @@ import java.io.ByteArrayInputStream;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.nio.charset.Charset;
-
 import java.util.Iterator;
 import java.util.HashSet;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class IPPPrintService implements PrintService, SunPrinterJobService {
@@ -81,7 +93,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
         debugPrint = "true".equalsIgnoreCase(debugStr);
     }
 
-    private String printer;
+    private final String printer;
     private URI    myURI;
     private URL    myURL;
     private transient ServiceNotifier notifier = null;
@@ -586,7 +598,7 @@ public class IPPPrintService implements PrintService, SunPrinterJobService {
 
             System.arraycopy(mediaSizeNames, 0, allMedia, 0, mediaSizeNames.length);
 
-            System.arraycopy(mediaTrays, 0, allMedia, 0 + mediaSizeNames.length, mediaTrays.length);
+            System.arraycopy(mediaTrays, 0, allMedia, mediaSizeNames.length, mediaTrays.length);
 
             if (allMedia.length == 0) {
                 allMedia = new Media[1];

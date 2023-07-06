@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.undo;
+package java.desktop.share.classes.javax.swing.undo;
+
 
 import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <P>StateEdit is a general edit for objects that change state.

@@ -19,9 +19,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.io;
-
-import java.io.IOException;
+package java.base.share.classes.java.io;
 
 /**
  * A {@code Closeable} is a source or destination of data that can be closed.
@@ -29,6 +27,7 @@ import java.io.IOException;
  * holding (such as open files).
  *
  */
+
 public interface Closeable extends AutoCloseable {
 
     /**

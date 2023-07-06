@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.mallocWithGC2;
+
+
+import nsk.share.test.*;
+import nsk.share.gc.*;
+import nsk.share.TestFailure;
+import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -51,12 +71,7 @@
  * @run main/othervm/native gc.gctests.mallocWithGC2.mallocWithGC2
  */
 
-package gc.gctests.mallocWithGC2;
 
-import nsk.share.test.*;
-import nsk.share.gc.*;
-import nsk.share.TestFailure;
-import java.util.Vector;
 
 public class mallocWithGC2 extends TestBase {
         static {

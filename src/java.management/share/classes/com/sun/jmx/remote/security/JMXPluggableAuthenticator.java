@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.remote.security;
+package java.management.share.classes.com.sun.jmx.remote.security;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.AccessController;
 import java.security.Principal;
 import java.security.PrivilegedAction;
@@ -39,8 +40,22 @@ import javax.security.auth.login.Configuration;
 import javax.security.auth.login.LoginContext;
 import javax.security.auth.login.LoginException;
 import javax.security.auth.spi.LoginModule;
-import com.sun.jmx.remote.util.ClassLogger;
-import com.sun.jmx.remote.util.EnvHelp;
+import java.management.share.classes.com.sun.jmx.remote.util.ClassLogger;
+import java.management.share.classes.com.sun.jmx.remote.util.EnvHelp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>This class represents a

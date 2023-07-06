@@ -19,7 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.utilities;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
+
+
+import java.io.PrintStream;
+import java.util.Comparator;
+import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** <P> This class implements a Red-Black tree as described in Cormen,
     Leiserson, Rivest, <I>Introduction to Algorithms</I>, MIT Press:
@@ -48,9 +67,6 @@ package sun.jvm.hotspot.utilities;
 
 */
 
-import java.io.PrintStream;
-import java.util.Comparator;
-import java.util.Random;
 
 public class RBTree {
   private RBNode root;

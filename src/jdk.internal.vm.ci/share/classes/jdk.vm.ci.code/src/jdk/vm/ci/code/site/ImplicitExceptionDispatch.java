@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.code.site;
 
-import jdk.vm.ci.code.DebugInfo;
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code.site;
+
+
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code.DebugInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents an implicit exception dispatch in the code. Implicit exception dispatch is a

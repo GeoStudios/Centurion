@@ -19,17 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.prefs;
+package java.prefs.share.classes.java.util.prefs;
 
-import java.util.*;
-import java.io.*;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
+
+import java.prefs.share.classes.java.util.*;
+import java.prefs.share.classes.java.io.*;
+import java.prefs.share.classes.java.security.AccessController;
+import java.prefs.share.classes.java.security.PrivilegedAction;
+import java.prefs.share.classes.java.lang.Integer;
+import java.prefs.share.classes.java.lang.Long;
+import java.prefs.share.classes.java.lang.Float;
+import java.prefs.share.classes.java.lang.Double;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // These imports needed only as a workaround for a JavaDoc bug
-import java.lang.Integer;
-import java.lang.Long;
-import java.lang.Float;
-import java.lang.Double;
 
 /**
  * This class provides a skeletal implementation of the {@link Preferences}

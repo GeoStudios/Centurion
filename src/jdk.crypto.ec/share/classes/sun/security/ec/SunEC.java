@@ -19,31 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ec;
+package jdk.crypto.ec.share.classes.sun.security.ec;
+
 
 import java.security.AccessController;
 import java.security.InvalidParameterException;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.PrivilegedAction;
 import java.security.Provider;
-import java.security.ProviderException;
-import java.util.ArrayList;
+import java.base.share.classes.java.security.ProviderException;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import jdk.crypto.ec.share.classes.sun.security.ec.ed.EdDSAAlgorithmParameters;
+import jdk.crypto.ec.share.classes.sun.security.ec.ed.EdDSAKeyFactory;
+import jdk.crypto.ec.share.classes.sun.security.ec.ed.EdDSAKeyPairGenerator;
+import jdk.crypto.ec.share.classes.sun.security.ec.ed.EdDSASignature;
+import jdk.crypto.ec.share.classes.sun.security.util.CurveDB;
+import jdk.crypto.ec.share.classes.sun.security.util.KnownOIDs;
+import jdk.crypto.ec.share.classes.sun.security.util.NamedCurve;
+import static jdk.crypto.ec.share.classes.sun.security.util.SecurityConstants.PROVIDER_VER;.extended
+import static jdk.crypto.ec.share.classes.sun.security.util.SecurityProviderConstants.*;.extended
 
-import sun.security.ec.ed.EdDSAAlgorithmParameters;
-import sun.security.ec.ed.EdDSAKeyFactory;
-import sun.security.ec.ed.EdDSAKeyPairGenerator;
-import sun.security.ec.ed.EdDSASignature;
-import sun.security.util.CurveDB;
-import sun.security.util.KnownOIDs;
-import sun.security.util.NamedCurve;
 
-import static sun.security.util.SecurityConstants.PROVIDER_VER;
-import static sun.security.util.SecurityProviderConstants.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provider class for the Elliptic Curve provider.

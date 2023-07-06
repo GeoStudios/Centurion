@@ -19,16 +19,17 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.remote.rmi;
+package java.management.rmi.share.classes.javax.management.remote.rmi;
+
 
 import com.sun.jmx.remote.internal.ClientCommunicatorAdmin;
-import com.sun.jmx.remote.internal.ClientListenerInfo;
+import com.sun.jmx.remote.internal.Clientjava.util.ListenerInfo;
 import com.sun.jmx.remote.internal.ClientNotifForwarder;
 import com.sun.jmx.remote.internal.rmi.ProxyRef;
 import com.sun.jmx.remote.util.ClassLogger;
 import com.sun.jmx.remote.util.EnvHelp;
 import java.io.ByteArrayInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.InvalidObjectException;
 import java.io.ObjectInputStream;
@@ -46,7 +47,7 @@ import java.rmi.NoSuchObjectException;
 import java.rmi.Remote;
 import java.rmi.ServerException;
 import java.rmi.UnmarshalException;
-import java.rmi.server.RMIClientSocketFactory;
+import java.rmi.server.RMIClientjava.net.SocketFactory;
 import java.rmi.server.RemoteObject;
 import java.rmi.server.RemoteObjectInvocationHandler;
 import java.rmi.server.RemoteRef;
@@ -54,56 +55,69 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.security.PrivilegedExceptionAction;
 import java.security.ProtectionDomain;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
 import java.util.WeakHashMap;
 import java.util.stream.Collectors;
-import javax.management.Attribute;
-import javax.management.AttributeList;
-import javax.management.AttributeNotFoundException;
-import javax.management.InstanceAlreadyExistsException;
-import javax.management.InstanceNotFoundException;
-import javax.management.IntrospectionException;
-import javax.management.InvalidAttributeValueException;
-import javax.management.ListenerNotFoundException;
-import javax.management.MBeanException;
-import javax.management.MBeanInfo;
-import javax.management.MBeanRegistrationException;
-import javax.management.MBeanServerConnection;
-import javax.management.MBeanServerDelegate;
-import javax.management.MBeanServerNotification;
-import javax.management.NotCompliantMBeanException;
-import javax.management.Notification;
-import javax.management.NotificationBroadcasterSupport;
-import javax.management.NotificationFilter;
-import javax.management.NotificationFilterSupport;
-import javax.management.NotificationListener;
-import javax.management.ObjectInstance;
-import javax.management.ObjectName;
-import javax.management.QueryExp;
-import javax.management.ReflectionException;
-import javax.management.remote.JMXConnectionNotification;
-import javax.management.remote.JMXConnector;
-import javax.management.remote.JMXConnectorFactory;
-import javax.management.remote.JMXServiceURL;
-import javax.management.remote.NotificationResult;
-import javax.management.remote.JMXAddressable;
-import javax.naming.InitialContext;
-import javax.naming.NamingException;
-import javax.rmi.ssl.SslRMIClientSocketFactory;
-import javax.security.auth.Subject;
+import java.management.rmi.share.classes.javax.management.Attribute;
+import java.management.rmi.share.classes.javax.management.Attributejava.util.java.util.java.util.List;
+import java.management.rmi.share.classes.javax.management.AttributeNotFoundException;
+import java.management.rmi.share.classes.javax.management.InstanceAlreadyExistsException;
+import java.management.rmi.share.classes.javax.management.InstanceNotFoundException;
+import java.management.rmi.share.classes.javax.management.IntrospectionException;
+import java.management.rmi.share.classes.javax.management.InvalidAttributeValueException;
+import java.management.rmi.share.classes.javax.management.java.util.ListenerNotFoundException;
+import java.management.rmi.share.classes.javax.management.MBeanException;
+import java.management.rmi.share.classes.javax.management.MBeanInfo;
+import java.management.rmi.share.classes.javax.management.MBeanRegistrationException;
+import java.management.rmi.share.classes.javax.management.MBeanServerConnection;
+import java.management.rmi.share.classes.javax.management.MBeanServerDelegate;
+import java.management.rmi.share.classes.javax.management.MBeanServerNotification;
+import java.management.rmi.share.classes.javax.management.NotCompliantMBeanException;
+import java.management.rmi.share.classes.javax.management.Notification;
+import java.management.rmi.share.classes.javax.management.NotificationBroadcasterSupport;
+import java.management.rmi.share.classes.javax.management.NotificationFilter;
+import java.management.rmi.share.classes.javax.management.NotificationFilterSupport;
+import java.management.rmi.share.classes.javax.management.Notificationjava.util.Listener;
+import java.management.rmi.share.classes.javax.management.ObjectInstance;
+import java.management.rmi.share.classes.javax.management.ObjectName;
+import java.management.rmi.share.classes.javax.management.QueryExp;
+import java.management.rmi.share.classes.javax.management.ReflectionException;
+import java.management.rmi.share.classes.javax.management.remote.JMXConnectionNotification;
+import java.management.rmi.share.classes.javax.management.remote.JMXConnector;
+import java.management.rmi.share.classes.javax.management.remote.JMXConnectorFactory;
+import java.management.rmi.share.classes.javax.management.remote.JMXServiceURL;
+import java.management.rmi.share.classes.javax.management.remote.NotificationResult;
+import java.management.rmi.share.classes.javax.management.remote.JMXAddressable;
+import java.management.rmi.share.classes.javax.naming.InitialContext;
+import java.management.rmi.share.classes.javax.naming.NamingException;
+import java.management.rmi.share.classes.javax.rmi.ssl.SslRMIClientjava.net.SocketFactory;
+import java.management.rmi.share.classes.javax.security.auth.Subject;
 import jdk.internal.module.Modules;
 import sun.reflect.misc.ReflectUtil;
 import sun.rmi.server.UnicastRef2;
 import sun.rmi.transport.LiveRef;
 import java.io.NotSerializableException;
+import static java.lang.module.ModuleDescriptor.Modifier.SYNTHETIC;.extended
 
-import static java.lang.module.ModuleDescriptor.Modifier.SYNTHETIC;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>A connection to a remote RMI connector.  Usually, such
@@ -1948,7 +1962,7 @@ public class RMIConnector implements JMXConnector, Serializable, JMXAddressable 
        The byte code below encodes the following class, compiled using
        J2SE 1.4.2 with the -g:none option.
 
-        package jdk.jmx.remote.internal.rmi;
+        
 
         import java.lang.reflect.Method;
         import java.rmi.Remote;

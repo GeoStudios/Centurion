@@ -21,6 +21,21 @@
 
 package inheritDist;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface B extends A {
     /**
      * m1-B

@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.dom;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom;
 
-import com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary;
-import com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
-import com.sun.org.apache.xml.internal.dtm.ref.DTMAxisIteratorBase;
+
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.DTMAxisIteratorBase;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This iterator is a wrapper that always returns the position of

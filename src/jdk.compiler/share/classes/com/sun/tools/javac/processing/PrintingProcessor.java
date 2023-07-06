@@ -19,26 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.processing;
+package jdk.compiler.share.classes.com.sun.tools.javac.processing;
+
 
 import javax.annotation.processing.*;
 import javax.lang.model.*;
 import javax.lang.model.element.*;
-import static javax.lang.model.element.ElementKind.*;
-import static javax.lang.model.element.NestingKind.*;
-import static javax.lang.model.element.ModuleElement.*;
+import static javax.lang.model.element.ElementKind.*;.extended
+import static javax.lang.model.element.NestingKind.*;.extended
+import static javax.lang.model.element.ModuleElement.*;.extended
 import javax.lang.model.type.*;
 import javax.lang.model.util.*;
-
 import java.io.PrintWriter;
 import java.io.Writer;
 import java.util.*;
 import java.util.stream.Collectors;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.StringUtils;
 
 
-import com.sun.tools.javac.util.DefinedBy;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.StringUtils;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A processor which prints out elements.  Used to implement the

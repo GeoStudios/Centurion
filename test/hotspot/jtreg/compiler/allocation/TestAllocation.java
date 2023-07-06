@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.allocation;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8237581
@@ -29,7 +46,6 @@
  *                   compiler.allocation.TestAllocation
  */
 
-package compiler.allocation;
 
 public class TestAllocation {
 

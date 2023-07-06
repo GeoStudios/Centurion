@@ -19,50 +19,64 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xpath.internal.compiler;
+package java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler;
 
-import javax.xml.transform.ErrorListener;
+
+import javax.xml.transform.Errorjava.util.Listener;
 import javax.xml.transform.SourceLocator;
 import javax.xml.transform.TransformerException;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.Axis;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMFilter;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMIterator;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.PrefixResolver;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.SAXSourceLocator;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.Expression;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.axes.UnionPathIterator;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.axes.WalkerFactory;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.functions.FuncExtFunction;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.functions.FuncExtFunctionAvailable;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.functions.Function;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.functions.WrongNumberArgsException;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XNumber;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XString;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.And;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Div;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Equals;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Gt;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Gte;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Lt;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Lte;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Minus;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Mod;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Mult;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Neg;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.NotEquals;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Operation;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Or;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Plus;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.UnaryOperation;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Variable;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns.FunctionPattern;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns.NodeTest;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns.StepPattern;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns.UnionPattern;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
 
-import com.sun.org.apache.xalan.internal.res.XSLMessages;
-import com.sun.org.apache.xml.internal.dtm.Axis;
-import com.sun.org.apache.xml.internal.dtm.DTMFilter;
-import com.sun.org.apache.xml.internal.dtm.DTMIterator;
-import com.sun.org.apache.xml.internal.utils.PrefixResolver;
-import com.sun.org.apache.xml.internal.utils.QName;
-import com.sun.org.apache.xml.internal.utils.SAXSourceLocator;
-import com.sun.org.apache.xpath.internal.Expression;
-import com.sun.org.apache.xpath.internal.axes.UnionPathIterator;
-import com.sun.org.apache.xpath.internal.axes.WalkerFactory;
-import com.sun.org.apache.xpath.internal.functions.FuncExtFunction;
-import com.sun.org.apache.xpath.internal.functions.FuncExtFunctionAvailable;
-import com.sun.org.apache.xpath.internal.functions.Function;
-import com.sun.org.apache.xpath.internal.functions.WrongNumberArgsException;
-import com.sun.org.apache.xpath.internal.objects.XNumber;
-import com.sun.org.apache.xpath.internal.objects.XString;
-import com.sun.org.apache.xpath.internal.operations.And;
-import com.sun.org.apache.xpath.internal.operations.Div;
-import com.sun.org.apache.xpath.internal.operations.Equals;
-import com.sun.org.apache.xpath.internal.operations.Gt;
-import com.sun.org.apache.xpath.internal.operations.Gte;
-import com.sun.org.apache.xpath.internal.operations.Lt;
-import com.sun.org.apache.xpath.internal.operations.Lte;
-import com.sun.org.apache.xpath.internal.operations.Minus;
-import com.sun.org.apache.xpath.internal.operations.Mod;
-import com.sun.org.apache.xpath.internal.operations.Mult;
-import com.sun.org.apache.xpath.internal.operations.Neg;
-import com.sun.org.apache.xpath.internal.operations.NotEquals;
-import com.sun.org.apache.xpath.internal.operations.Operation;
-import com.sun.org.apache.xpath.internal.operations.Or;
-import com.sun.org.apache.xpath.internal.operations.Plus;
-import com.sun.org.apache.xpath.internal.operations.UnaryOperation;
-import com.sun.org.apache.xpath.internal.operations.Variable;
-import com.sun.org.apache.xpath.internal.patterns.FunctionPattern;
-import com.sun.org.apache.xpath.internal.patterns.NodeTest;
-import com.sun.org.apache.xpath.internal.patterns.StepPattern;
-import com.sun.org.apache.xpath.internal.patterns.UnionPattern;
-import com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An instance of this class compiles an XPath string expression into

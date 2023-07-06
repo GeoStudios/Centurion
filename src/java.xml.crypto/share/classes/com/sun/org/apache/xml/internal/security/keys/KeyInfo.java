@@ -19,46 +19,64 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys;
+
+
+import java.base.share.classes.java.security.PrivateKey;
+import java.base.share.classes.java.security.PublicKey;
+import java.security.cert.X509Certificate;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Iterator;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.javax.crypto.SecretKey;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.DEREncodedKeyValue;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.KeyInfoReference;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.KeyName;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.KeyValue;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.MgmtData;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.PGPData;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.RetrievalMethod;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.SPKIData;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.X509Data;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.keyvalues.DSAKeyValue;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.keyvalues.RSAKeyValue;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.keyresolver.KeyResolver;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.keyresolver.KeyResolverException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.keyresolver.KeyResolverSpi;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.storage.StorageResolver;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.Transforms;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.Constants;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.ElementProxy;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.SignatureElementProxy;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.XMLUtils;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Attr;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.keys;
 
-import java.security.PrivateKey;
-import java.security.PublicKey;
-import java.security.cert.X509Certificate;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 
-import javax.crypto.SecretKey;
 
-import com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
-import com.sun.org.apache.xml.internal.security.keys.content.DEREncodedKeyValue;
-import com.sun.org.apache.xml.internal.security.keys.content.KeyInfoReference;
-import com.sun.org.apache.xml.internal.security.keys.content.KeyName;
-import com.sun.org.apache.xml.internal.security.keys.content.KeyValue;
-import com.sun.org.apache.xml.internal.security.keys.content.MgmtData;
-import com.sun.org.apache.xml.internal.security.keys.content.PGPData;
-import com.sun.org.apache.xml.internal.security.keys.content.RetrievalMethod;
-import com.sun.org.apache.xml.internal.security.keys.content.SPKIData;
-import com.sun.org.apache.xml.internal.security.keys.content.X509Data;
-import com.sun.org.apache.xml.internal.security.keys.content.keyvalues.DSAKeyValue;
-import com.sun.org.apache.xml.internal.security.keys.content.keyvalues.RSAKeyValue;
-import com.sun.org.apache.xml.internal.security.keys.keyresolver.KeyResolver;
-import com.sun.org.apache.xml.internal.security.keys.keyresolver.KeyResolverException;
-import com.sun.org.apache.xml.internal.security.keys.keyresolver.KeyResolverSpi;
-import com.sun.org.apache.xml.internal.security.keys.storage.StorageResolver;
-import com.sun.org.apache.xml.internal.security.transforms.Transforms;
-import com.sun.org.apache.xml.internal.security.utils.Constants;
-import com.sun.org.apache.xml.internal.security.utils.ElementProxy;
-import com.sun.org.apache.xml.internal.security.utils.SignatureElementProxy;
-import com.sun.org.apache.xml.internal.security.utils.XMLUtils;
-import org.w3c.dom.Attr;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
+
 
 /**
  * This class stand for KeyInfo Element that may contain keys, names,

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole;
+package jdk.jconsole.share.classes.sun.tools.jconsole;
+
 
 import java.awt.event.KeyEvent;
 import java.lang.reflect.Field;
@@ -30,6 +31,20 @@ import java.util.IdentityHashMap;
 import java.util.Map;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Toolkit that provides resource support for JConsole.

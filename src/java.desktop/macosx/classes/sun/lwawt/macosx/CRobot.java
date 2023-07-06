@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
 
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.peer.RobotPeer;
+import java.desktop.macosx.classes.sun.awt.CGraphicsDevice;
 
-import sun.awt.CGraphicsDevice;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class CRobot implements RobotPeer {
 

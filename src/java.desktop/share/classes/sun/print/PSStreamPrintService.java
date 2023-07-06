@@ -19,12 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.share.classes.sun.print;
+
 
 import java.io.OutputStream;
 import java.util.Iterator;
-import java.util.Locale;
-
+import java.base.share.classes.java.util.Locale;
 import javax.print.DocFlavor;
 import javax.print.DocPrintJob;
 import javax.print.StreamPrintService;
@@ -38,7 +38,7 @@ import javax.print.attribute.HashPrintServiceAttributeSet;
 import javax.print.attribute.PrintServiceAttribute;
 import javax.print.attribute.PrintServiceAttributeSet;
 import javax.print.attribute.Size2DSyntax;
-import javax.print.event.PrintServiceAttributeListener;
+import javax.print.event.PrintServiceAttributejava.util.Listener;
 import javax.print.attribute.standard.JobName;
 import javax.print.attribute.standard.RequestingUserName;
 import javax.print.attribute.standard.Chromaticity;
@@ -54,6 +54,20 @@ import javax.print.attribute.standard.OrientationRequested;
 import javax.print.attribute.standard.PageRanges;
 import javax.print.attribute.standard.SheetCollate;
 import javax.print.attribute.standard.Sides;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PSStreamPrintService extends StreamPrintService
     implements SunPrinterJobService {

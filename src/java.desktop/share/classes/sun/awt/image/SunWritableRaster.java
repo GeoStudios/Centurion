@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.image;
+package java.desktop.share.classes.sun.awt.image;
+
 
 import java.awt.Point;
 import java.awt.Rectangle;
@@ -30,10 +31,23 @@ import java.awt.image.DataBufferUShort;
 import java.awt.image.DataBufferInt;
 import java.awt.image.SampleModel;
 import java.awt.image.WritableRaster;
+import java.desktop.share.classes.sun.java2d.StateTrackable.State;
+import java.desktop.share.classes.sun.java2d.SurfaceData;
+import java.desktop.share.classes.sun.java2d.StateTrackableDelegate;
 
-import sun.java2d.StateTrackable.State;
-import sun.java2d.SurfaceData;
-import sun.java2d.StateTrackableDelegate;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class exists as a middle layer between WritableRaster and its

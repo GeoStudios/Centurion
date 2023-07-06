@@ -19,28 +19,46 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content;
+
+
+import java.math.BigInteger;
+import java.security.cert.X509Certificate;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.x509.XMLX509CRL;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.x509.XMLX509Certificate;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.x509.XMLX509Digest;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.x509.XMLX509IssuerSerial;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.x509.XMLX509SKI;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.x509.XMLX509SubjectName;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.Constants;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.SignatureElementProxy;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.XMLUtils;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.keys.content;
 
-import java.math.BigInteger;
-import java.security.cert.X509Certificate;
 
-import com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
-import com.sun.org.apache.xml.internal.security.keys.content.x509.XMLX509CRL;
-import com.sun.org.apache.xml.internal.security.keys.content.x509.XMLX509Certificate;
-import com.sun.org.apache.xml.internal.security.keys.content.x509.XMLX509Digest;
-import com.sun.org.apache.xml.internal.security.keys.content.x509.XMLX509IssuerSerial;
-import com.sun.org.apache.xml.internal.security.keys.content.x509.XMLX509SKI;
-import com.sun.org.apache.xml.internal.security.keys.content.x509.XMLX509SubjectName;
-import com.sun.org.apache.xml.internal.security.utils.Constants;
-import com.sun.org.apache.xml.internal.security.utils.SignatureElementProxy;
-import com.sun.org.apache.xml.internal.security.utils.XMLUtils;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
+
 
 public class X509Data extends SignatureElementProxy implements KeyInfoContent {
 

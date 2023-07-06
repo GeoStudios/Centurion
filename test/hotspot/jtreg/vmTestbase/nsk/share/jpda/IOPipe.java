@@ -21,8 +21,22 @@
 
 package nsk.share.jpda;
 
+
 import nsk.share.*;
 import nsk.share.jdi.Binder;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements communicational channel between

@@ -21,6 +21,21 @@
 
 package nsk.jdi.ReferenceType.visibleFields;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class is loaded by visibfield002aClassLoader .
  */

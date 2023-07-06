@@ -19,11 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.share.classes.sun.font;
 
-import static sun.font.EAttribute.*;
-import static java.lang.Math.*;
 
+import static java.desktop.share.classes.sun.font.EAttribute.*;.extended
+import static java.lang.Math.*;.extended
 import java.awt.Font;
 import java.awt.Paint;
 import java.awt.Toolkit;
@@ -41,7 +41,21 @@ import java.text.AttributedCharacterIterator.Attribute;
 import java.util.Map;
 import java.util.HashMap;
 import java.util.Hashtable;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class AttributeValues implements Cloneable {
     private int defined;

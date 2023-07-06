@@ -19,24 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.loading;
+package java.management.share.classes.javax.management.loading;
 
-import static com.sun.jmx.defaults.JmxProperties.MLET_LOGGER;
 
+import static com.sun.jmx.defaults.JmxProperties.MLET_LOGGER;.extended
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.net.URL;
 import java.net.URLConnection;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.lang.System.Logger.Level;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used for parsing URLs.

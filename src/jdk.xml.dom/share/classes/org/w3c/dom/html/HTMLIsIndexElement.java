@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.w3c.dom.html;
+package jdk.xml.dom.share.classes.org.w3c.dom.html;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  This element is used for single-line text input. See the  ISINDEX element

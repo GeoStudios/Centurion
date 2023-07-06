@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.net.ssl;
+package java.base.share.classes.javax.net.ssl;
 
-import java.util.List;
+
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Extends the {@code SSLSession} interface to support additional

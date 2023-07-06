@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.marlin;
+package java.desktop.share.classes.sun.java2d.marlin;
+
 
 import java.awt.BasicStroke;
 import java.awt.Shape;
@@ -27,16 +28,30 @@ import java.awt.geom.AffineTransform;
 import java.awt.geom.Path2D;
 import java.awt.geom.PathIterator;
 import java.security.AccessController;
-import java.util.Arrays;
-import sun.awt.geom.PathConsumer2D;
-import static sun.java2d.marlin.MarlinUtils.logInfo;
-import sun.java2d.ReentrantContextProvider;
-import sun.java2d.ReentrantContextProviderCLQ;
-import sun.java2d.ReentrantContextProviderTL;
-import sun.java2d.pipe.AATileGenerator;
-import sun.java2d.pipe.Region;
-import sun.java2d.pipe.RenderingEngine;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.java.util.Arrays;
+import java.desktop.share.classes.sun.awt.geom.PathConsumer2D;
+import static java.desktop.share.classes.sun.java2d.marlin.MarlinUtils.logInfo;.extended
+import java.desktop.share.classes.sun.java2d.ReentrantContextProvider;
+import java.desktop.share.classes.sun.java2d.ReentrantContextProviderCLQ;
+import java.desktop.share.classes.sun.java2d.ReentrantContextProviderTL;
+import java.desktop.share.classes.sun.java2d.pipe.AATileGenerator;
+import java.desktop.share.classes.sun.java2d.pipe.Region;
+import java.desktop.share.classes.sun.java2d.pipe.RenderingEngine;
+import java.desktop.share.classes.sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Marlin RendererEngine implementation (derived from Pisces)

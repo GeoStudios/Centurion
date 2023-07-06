@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.util;
+package jdk.compiler.share.classes.com.sun.tools.javac.util;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Access to the compiler's name table.  Standard names are defined,

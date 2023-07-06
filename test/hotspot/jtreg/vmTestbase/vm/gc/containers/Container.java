@@ -18,12 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package vm.gc.containers;
+
 
 import nsk.share.gc.Memory;
 import nsk.share.gc.gp.GarbageProducer;
 import nsk.share.gc.gp.MemoryStrategy;
 import nsk.share.test.ExecutionController;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface Container {
     public void setExecutionController(ExecutionController stresser);

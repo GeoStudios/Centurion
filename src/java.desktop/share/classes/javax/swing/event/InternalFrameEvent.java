@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.event;
+
+package java.desktop.share.classes.javax.swing.event;
+
 
 import java.awt.AWTEvent;
-import javax.swing.JInternalFrame;
+import java.desktop.share.classes.javax.swing.JInternalFrame;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An <code>AWTEvent</code> that adds support for

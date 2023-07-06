@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.eio;
+package java.desktop.macosx.classes.com.apple.eio;
+
 
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides functionality to query and modify Mac-specific file attributes. The methods in this class are based on Finder

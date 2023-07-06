@@ -21,6 +21,21 @@
 
 package test;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Invoked by tests for the {@code java --add-modules} option to check that types
  * are visible.

@@ -19,20 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.share.classes.java.awt;
 
-package java.awt;
 
-import java.awt.image.BufferedImage;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.Locale;
-
+import java.desktop.share.classes.java.awt.image.BufferedImage;
+import java.desktop.share.classes.java.security.AccessController;
+import java.desktop.share.classes.java.security.PrivilegedAction;
+import java.desktop.share.classes.java.util.Locale;
 import sun.awt.PlatformGraphicsInfo;
 import sun.font.FontManager;
 import sun.font.FontManagerFactory;
 import sun.java2d.HeadlessGraphicsEnvironment;
 import sun.java2d.SunGraphicsEnvironment;
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

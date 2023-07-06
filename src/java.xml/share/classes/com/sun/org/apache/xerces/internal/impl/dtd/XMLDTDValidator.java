@@ -19,41 +19,55 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.dtd;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd;
+
 
 import java.util.Iterator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.RevalidationHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.ContentModelValidator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.DTDDVFactory;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.DatatypeValidator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.validation.ValidationManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.validation.ValidationState;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLSymbols;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.Augmentations;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLAttributes;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDocumentHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLLocator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLString;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.Grammar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarPool;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponent;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentFilter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentSource;
 
-import com.sun.org.apache.xerces.internal.impl.Constants;
-import com.sun.org.apache.xerces.internal.impl.RevalidationHandler;
-import com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
-import com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
-import com.sun.org.apache.xerces.internal.impl.dtd.models.ContentModelValidator;
-import com.sun.org.apache.xerces.internal.impl.dv.DTDDVFactory;
-import com.sun.org.apache.xerces.internal.impl.dv.DatatypeValidator;
-import com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
-import com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
-import com.sun.org.apache.xerces.internal.impl.validation.ValidationManager;
-import com.sun.org.apache.xerces.internal.impl.validation.ValidationState;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
-import com.sun.org.apache.xerces.internal.util.XMLChar;
-import com.sun.org.apache.xerces.internal.util.XMLSymbols;
-import com.sun.org.apache.xerces.internal.xni.Augmentations;
-import com.sun.org.apache.xerces.internal.xni.NamespaceContext;
-import com.sun.org.apache.xerces.internal.xni.QName;
-import com.sun.org.apache.xerces.internal.xni.XMLAttributes;
-import com.sun.org.apache.xerces.internal.xni.XMLDocumentHandler;
-import com.sun.org.apache.xerces.internal.xni.XMLLocator;
-import com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
-import com.sun.org.apache.xerces.internal.xni.XMLString;
-import com.sun.org.apache.xerces.internal.xni.XNIException;
-import com.sun.org.apache.xerces.internal.xni.grammars.Grammar;
-import com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription;
-import com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarPool;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponent;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentFilter;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The DTD validator. The validator implements a document

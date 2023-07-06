@@ -18,29 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.view;
 
-import com.sun.hotspot.igv.data.ChangedListener;
-import com.sun.hotspot.igv.data.ControllableChangedListener;
-import com.sun.hotspot.igv.data.InputBlock;
-import com.sun.hotspot.igv.data.InputNode;
-import com.sun.hotspot.igv.data.Pair;
-import com.sun.hotspot.igv.data.Properties;
-import com.sun.hotspot.igv.data.services.Scheduler;
-import com.sun.hotspot.igv.graph.*;
-import com.sun.hotspot.igv.hierarchicallayout.HierarchicalClusterLayoutManager;
-import com.sun.hotspot.igv.hierarchicallayout.HierarchicalLayoutManager;
-import com.sun.hotspot.igv.layout.LayoutGraph;
-import com.sun.hotspot.igv.selectioncoordinator.SelectionCoordinator;
-import com.sun.hotspot.igv.util.ColorIcon;
-import com.sun.hotspot.igv.util.DoubleClickAction;
-import com.sun.hotspot.igv.util.PropertiesSheet;
-import com.sun.hotspot.igv.view.actions.CustomizablePanAction;
-import com.sun.hotspot.igv.view.widgets.*;
-import java.awt.*;
-import java.awt.event.*;
-import java.util.List;
-import java.util.*;
+package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view;
+
+
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.Changedjava.util.Listener;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.ControllableChangedjava.util.Listener;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.InputBlock;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.InputNode;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.Pair;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.Properties;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.services.Scheduler;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.graph.*;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.hierarchicallayout.HierarchicalClusterLayoutManager;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.hierarchicallayout.HierarchicalLayoutManager;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.layout.LayoutGraph;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.selectioncoordinator.SelectionCoordinator;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.util.ColorIcon;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.util.DoubleClickAction;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.util.PropertiesSheet;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.actions.CustomizablePanAction;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.widgets.*;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.*;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.event.*;
+import utils.IdealGraphVisualizer.View.src.main.java.util.java.util.java.util.java.util.List;
+import utils.IdealGraphVisualizer.View.src.main.java.util.*;
 import javax.swing.*;
 import javax.swing.event.UndoableEditEvent;
 import javax.swing.undo.AbstractUndoableEdit;
@@ -59,6 +61,20 @@ import org.openide.nodes.Sheet;
 import org.openide.util.Lookup;
 import org.openide.util.lookup.AbstractLookup;
 import org.openide.util.lookup.InstanceContent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

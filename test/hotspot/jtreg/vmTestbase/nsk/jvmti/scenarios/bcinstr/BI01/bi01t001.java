@@ -21,20 +21,32 @@
 
 package nsk.jvmti.scenarios.bcinstr.BI01;
 
+
 import java.io.PrintStream;
 import java.io.FileInputStream;
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Field;
-
 import nsk.share.Consts;
 import nsk.share.Log;
 import nsk.share.Failure;
 import nsk.share.CustomClassLoader;
-
 import nsk.share.jvmti.ArgumentHandler;
 import nsk.share.jvmti.DebugeeClass;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class bi01t001 extends DebugeeClass {
 

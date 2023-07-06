@@ -19,44 +19,57 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javap;
+package jdk.jdeps.share.classes.com.sun.tools.javap;
+
 
 import java.net.URI;
 import java.text.DateFormat;
 import java.util.Collection;
 import java.util.Date;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.AccessFlags;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Attribute;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Attributes;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ClassFile;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Code_attribute;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPoolException;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantValue_attribute;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Descriptor;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Descriptor.InvalidDescriptor;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Exceptions_attribute;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Field;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Method;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Module_attribute;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Signature;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Signature_attribute;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.SourceFile_attribute;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Type;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Type.ArrayType;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Type.ClassSigType;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Type.ClassType;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Type.MethodType;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Type.SimpleType;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Type.TypeParamType;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Type.WildcardType;
+import static jdk.jdeps.share.classes.com.sun.tools.classfile.AccessFlags.*;.extended
+import static jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.CONSTANT_Module;.extended
+import static jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.CONSTANT_Package;.extended
 
-import com.sun.tools.classfile.AccessFlags;
-import com.sun.tools.classfile.Attribute;
-import com.sun.tools.classfile.Attributes;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.Code_attribute;
-import com.sun.tools.classfile.ConstantPool;
-import com.sun.tools.classfile.ConstantPoolException;
-import com.sun.tools.classfile.ConstantValue_attribute;
-import com.sun.tools.classfile.Descriptor;
-import com.sun.tools.classfile.Descriptor.InvalidDescriptor;
-import com.sun.tools.classfile.Exceptions_attribute;
-import com.sun.tools.classfile.Field;
-import com.sun.tools.classfile.Method;
-import com.sun.tools.classfile.Module_attribute;
-import com.sun.tools.classfile.Signature;
-import com.sun.tools.classfile.Signature_attribute;
-import com.sun.tools.classfile.SourceFile_attribute;
-import com.sun.tools.classfile.Type;
-import com.sun.tools.classfile.Type.ArrayType;
-import com.sun.tools.classfile.Type.ClassSigType;
-import com.sun.tools.classfile.Type.ClassType;
-import com.sun.tools.classfile.Type.MethodType;
-import com.sun.tools.classfile.Type.SimpleType;
-import com.sun.tools.classfile.Type.TypeParamType;
-import com.sun.tools.classfile.Type.WildcardType;
 
-import static com.sun.tools.classfile.AccessFlags.*;
-import static com.sun.tools.classfile.ConstantPool.CONSTANT_Module;
-import static com.sun.tools.classfile.ConstantPool.CONSTANT_Package;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  *  The main javap class to write the contents of a class file as text.

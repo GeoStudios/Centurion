@@ -19,19 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.x509;
+package java.base.share.classes.sun.security.x509;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.cert.CRLException;
 import java.security.cert.CRLReason;
 import java.security.cert.X509CRLEntry;
 import java.math.BigInteger;
 import java.util.*;
-
 import javax.security.auth.x500.X500Principal;
+import java.base.share.classes.sun.security.util.*;
+import java.base.share.classes.sun.security.util.HexDumpEncoder;
 
-import sun.security.util.*;
-import sun.security.util.HexDumpEncoder;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Abstract class for a revoked certificate in a CRL.

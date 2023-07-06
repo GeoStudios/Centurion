@@ -19,25 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.remote.internal;
+package java.management.share.classes.com.sun.jmx.remote.internal;
 
-import com.sun.jmx.remote.security.NotificationAccessController;
-import com.sun.jmx.remote.util.ClassLogger;
-import com.sun.jmx.remote.util.EnvHelp;
-import java.io.IOException;
+
+import java.management.share.classes.com.sun.jmx.remote.security.NotificationAccessController;
+import java.management.share.classes.com.sun.jmx.remote.util.ClassLogger;
+import java.management.share.classes.com.sun.jmx.remote.util.EnvHelp;
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import javax.management.InstanceNotFoundException;
-import javax.management.ListenerNotFoundException;
+import javax.management.java.util.ListenerNotFoundException;
 import javax.management.MBeanPermission;
 import javax.management.MBeanServer;
 import javax.management.MBeanServerDelegate;
@@ -51,6 +52,20 @@ import javax.management.remote.NotificationResult;
 import javax.management.remote.TargetedNotification;
 import javax.management.MalformedObjectNameException;
 import javax.security.auth.Subject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ServerNotifForwarder {
 

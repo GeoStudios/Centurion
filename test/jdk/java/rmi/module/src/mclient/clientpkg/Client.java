@@ -21,10 +21,23 @@
 
 package clientpkg;
 
+
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
-
 import serverpkg.Hello;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Client {
     int port;

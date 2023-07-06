@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.event;
+package java.desktop.share.classes.javax.swing.event;
 
-import java.util.EventListener;
-import javax.swing.tree.ExpandVetoException;
+
+import java.util.Eventjava.util.Listener;
+import java.desktop.share.classes.javax.swing.tree.ExpandVetoException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * The listener that's notified when a tree expands or collapses

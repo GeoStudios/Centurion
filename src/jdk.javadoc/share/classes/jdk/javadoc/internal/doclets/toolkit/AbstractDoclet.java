@@ -19,33 +19,45 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.toolkit;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit;
+
 
 import java.util.Map;
 import java.util.SortedSet;
 import java.util.TreeSet;
 import java.util.function.Function;
-
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.PackageElement;
 import javax.lang.model.element.TypeElement;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.Doclet;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.DocletEnvironment;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.StandardDoclet;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.HtmlDoclet;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.builders.AbstractBuilder;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.builders.BuilderFactory;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.ClassTree;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFilejava.io.java.io.java.io.IOException;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.UncheckedDocletException;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.InternalException;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Elementjava.util.ListWriter;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Resourcejava.io.java.io.java.io.IOException;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.SimpleDocletException;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils;
+import static javax.tools.Diagnostic.Kind.*;.extended
 
-import jdk.javadoc.doclet.Doclet;
-import jdk.javadoc.doclet.DocletEnvironment;
-import jdk.javadoc.doclet.StandardDoclet;
-import jdk.javadoc.internal.doclets.formats.html.HtmlDoclet;
-import jdk.javadoc.internal.doclets.toolkit.builders.AbstractBuilder;
-import jdk.javadoc.internal.doclets.toolkit.builders.BuilderFactory;
-import jdk.javadoc.internal.doclets.toolkit.util.ClassTree;
-import jdk.javadoc.internal.doclets.toolkit.util.DocFileIOException;
-import jdk.javadoc.internal.doclets.toolkit.util.UncheckedDocletException;
-import jdk.javadoc.internal.doclets.toolkit.util.InternalException;
-import jdk.javadoc.internal.doclets.toolkit.util.ElementListWriter;
-import jdk.javadoc.internal.doclets.toolkit.util.ResourceIOException;
-import jdk.javadoc.internal.doclets.toolkit.util.SimpleDocletException;
-import jdk.javadoc.internal.doclets.toolkit.util.Utils;
 
-import static javax.tools.Diagnostic.Kind.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An abstract implementation of a Doclet.

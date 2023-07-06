@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.localedata.share.classes.sun.text.resources.ext;
+
+
+import java.util.java.util.ListResourceBundle;
+import java.util.MissingResourceException;
+import java.net.URL;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  */
 
@@ -28,11 +49,8 @@
  * are used on runtime instead.
  */
 
-package sun.text.resources.ext;
 
-import java.util.ListResourceBundle;
-import java.util.MissingResourceException;
-import java.net.URL;
+
 
 public class BreakIteratorRules_th extends ListResourceBundle {
     protected final Object[][] getContents() {

@@ -18,7 +18,24 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.jshell.tool;
+
+package jdk.jshell.share.classes.jdk.internal.jshell.tool;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**A support class to the ConsoleIOContext, containing callbacks called
  * on important points in ConsoleIOContext.

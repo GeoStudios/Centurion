@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.jrtfs;
+
+package java.base.share.classes.jdk.internal.jrtfs;
+
 
 import java.io.*;
 import java.net.MalformedURLException;
@@ -34,9 +36,23 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.ExecutorService;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * File system provider for jrt file systems. Conditionally creates jrt fs on

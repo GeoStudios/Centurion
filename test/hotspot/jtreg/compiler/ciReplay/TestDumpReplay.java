@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.ciReplay;
+
+
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @library /test/lib
@@ -32,9 +50,7 @@
  *                   compiler.ciReplay.TestDumpReplay
  */
 
-package compiler.ciReplay;
 
-import sun.hotspot.WhiteBox;
 
 public class TestDumpReplay {
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();

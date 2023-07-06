@@ -21,6 +21,7 @@
 
 package jdk.jfr.api.metadata.annotations;
 
+
 import jdk.jfr.AnnotationElement;
 import jdk.jfr.BooleanFlag;
 import jdk.jfr.Category;
@@ -46,6 +47,19 @@ import jdk.jfr.TransitionFrom;
 import jdk.jfr.TransitionTo;
 import jdk.jfr.Unsigned;
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

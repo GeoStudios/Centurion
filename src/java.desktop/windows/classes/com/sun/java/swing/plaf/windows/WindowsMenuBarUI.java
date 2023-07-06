@@ -19,18 +19,18 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.windows;
+package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-import java.awt.Component;
-import java.awt.Graphics;
-import java.awt.Window;
-import java.awt.event.ActionEvent;
-import java.awt.event.HierarchyEvent;
-import java.awt.event.HierarchyListener;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-import java.awt.event.WindowListener;
 
+import java.desktop.windows.classes.com.sun.java.awt.Component;
+import java.desktop.windows.classes.com.sun.java.awt.Graphics;
+import java.desktop.windows.classes.com.sun.java.awt.Window;
+import java.desktop.windows.classes.com.sun.java.awt.event.ActionEvent;
+import java.desktop.windows.classes.com.sun.java.awt.event.HierarchyEvent;
+import java.desktop.windows.classes.com.sun.java.awt.event.Hierarchyjava.util.Listener;
+import java.desktop.windows.classes.com.sun.java.awt.event.WindowAdapter;
+import java.desktop.windows.classes.com.sun.java.awt.event.WindowEvent;
+import java.desktop.windows.classes.com.sun.java.awt.event.Windowjava.util.Listener;
 import javax.swing.AbstractAction;
 import javax.swing.ActionMap;
 import javax.swing.JComponent;
@@ -43,10 +43,23 @@ import javax.swing.SwingUtilities;
 import javax.swing.plaf.ActionMapUIResource;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicMenuBarUI;
+import java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Part;
+import java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.State;
+import java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.Skin;
 
-import com.sun.java.swing.plaf.windows.TMSchema.Part;
-import com.sun.java.swing.plaf.windows.TMSchema.State;
-import com.sun.java.swing.plaf.windows.XPStyle.Skin;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Windows rendition of the component.

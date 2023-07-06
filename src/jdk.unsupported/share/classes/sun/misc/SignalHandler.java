@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.misc;
+package jdk.unsupported.share.classes.sun.misc;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the signal handler interface expected in <code>Signal.handle</code>.

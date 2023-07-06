@@ -19,27 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.PasswordAuthentication;
 import java.net.URI;
-import java.net.InetSocketAddress;
+import java.net.Inetjava.net.SocketAddress;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.Base64;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Objects;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.WeakHashMap;
 import java.net.http.HttpHeaders;
-import jdk.internal.net.http.common.Log;
-import jdk.internal.net.http.common.Utils;
-import static java.net.Authenticator.RequestorType.PROXY;
-import static java.net.Authenticator.RequestorType.SERVER;
-import static java.nio.charset.StandardCharsets.ISO_8859_1;
-import static java.nio.charset.StandardCharsets.UTF_8;
+import java.net.http.share.classes.jdk.internal.net.http.common.Log;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+import static java.net.Authenticator.RequestorType.PROXY;.extended
+import static java.net.Authenticator.RequestorType.SERVER;.extended
+import static java.nio.charset.StandardCharsets.ISO_8859_1;.extended
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of Http Basic authentication.

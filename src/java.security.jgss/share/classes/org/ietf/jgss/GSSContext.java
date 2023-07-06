@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.ietf.jgss;
+package java.security.jgss.share.classes.org.ietf.jgss;
+
 
 import java.io.InputStream;
 import java.io.OutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface encapsulates the GSS-API security context and provides

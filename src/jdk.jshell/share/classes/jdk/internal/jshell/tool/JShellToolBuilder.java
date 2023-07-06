@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.jshell.tool;
+package jdk.jshell.share.classes.jdk.internal.jshell.tool;
+
 
 import java.io.InputStream;
 import java.io.PrintStream;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
 import java.util.prefs.BackingStoreException;
 import java.util.prefs.Preferences;
-import jdk.jshell.tool.JavaShellToolBuilder;
+import jdk.jshell.share.classes.jdk.jshell.tool.JavaShellToolBuilder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Builder for programmatically building the jshell tool.

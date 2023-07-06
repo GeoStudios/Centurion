@@ -21,6 +21,28 @@
 
 package gc.arguments;
 
+
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.Collections;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.Utils;
+import jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestMaxMinHeapFreeRatioFlags
  * @summary Verify that heap size changes according to max and min heap free ratios.
@@ -32,13 +54,6 @@ package gc.arguments;
  * @run driver/timeout=240 gc.arguments.TestMaxMinHeapFreeRatioFlags
  */
 
-import java.util.LinkedList;
-import java.util.Arrays;
-import java.util.Collections;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.Utils;
-import jdk.internal.misc.Unsafe;
 
 public class TestMaxMinHeapFreeRatioFlags {
 

@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.util.math.intpoly;
+package java.base.share.classes.sun.security.util.math.intpoly;
+
 
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
 import java.math.BigInteger;
 import java.nio.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An IntegerFieldModuloP designed for use with the Poly1305 authenticator.

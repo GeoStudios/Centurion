@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.share.classes.sun.awt;
+
 
 import java.awt.AWTException;
 import java.awt.Button;
@@ -61,7 +62,7 @@ import java.awt.peer.FontPeer;
 import java.awt.peer.FramePeer;
 import java.awt.peer.LabelPeer;
 import java.awt.peer.LightweightPeer;
-import java.awt.peer.ListPeer;
+import java.awt.peer.java.util.ListPeer;
 import java.awt.peer.MenuBarPeer;
 import java.awt.peer.MenuItemPeer;
 import java.awt.peer.MenuPeer;
@@ -75,8 +76,21 @@ import java.awt.peer.TaskbarPeer;
 import java.awt.peer.TextAreaPeer;
 import java.awt.peer.TextFieldPeer;
 import java.awt.peer.WindowPeer;
+import java.desktop.share.classes.sun.awt.datatransfer.DataTransferer;
 
-import sun.awt.datatransfer.DataTransferer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class LightweightPeerHolder {
     static final LightweightPeer lightweightMarker = new NullComponentPeer();

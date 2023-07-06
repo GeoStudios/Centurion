@@ -19,10 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management;
+package java.management.share.classes.javax.management;
+
+
+import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // java import
-import java.io.Serializable;
 
 /**
  * Allows a query to be performed in the context of a specific MBean server.

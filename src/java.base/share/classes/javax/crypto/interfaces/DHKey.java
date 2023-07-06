@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.crypto.interfaces;
+package java.base.share.classes.javax.crypto.interfaces;
 
-import javax.crypto.spec.DHParameterSpec;
+
+import java.base.share.classes.javax.crypto.spec.DHParameterSpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The interface to a Diffie-Hellman key.

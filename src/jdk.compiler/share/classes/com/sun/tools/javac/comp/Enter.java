@@ -19,31 +19,43 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.comp;
+package jdk.compiler.share.classes.com.sun.tools.javac.comp;
+
 
 import java.util.Map;
 import java.util.Optional;
-
 import javax.tools.JavaFileObject;
 import javax.tools.JavaFileManager;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.KindName;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.KindSelector;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Option.PkgInfo;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Warnings;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
 
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.Kinds.KindName;
-import com.sun.tools.javac.code.Kinds.KindSelector;
-import com.sun.tools.javac.code.Scope.*;
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.code.Type.*;
-import com.sun.tools.javac.main.Option.PkgInfo;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.resources.CompilerProperties.Warnings;
-import com.sun.tools.javac.tree.*;
-import com.sun.tools.javac.tree.JCTree.*;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
-import com.sun.tools.javac.util.List;
 
-import static com.sun.tools.javac.code.Flags.*;
-import static com.sun.tools.javac.code.Kinds.Kind.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This class enters symbols for all encountered definitions into
  *  the symbol table. The pass consists of high-level two phases,

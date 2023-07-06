@@ -18,10 +18,12 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.jshell;
 
-import static com.sun.tools.javac.code.Flags.COMPOUND;
-import static com.sun.tools.javac.code.Kinds.Kind.PCK;
+package jdk.jshell.share.classes.jdk.jshell;
+
+
+import static com.sun.tools.javac.code.Flags.COMPOUND;.extended
+import static com.sun.tools.javac.code.Kinds.Kind.PCK;.extended
 import com.sun.tools.javac.code.Printer;
 import com.sun.tools.javac.code.Symbol;
 import com.sun.tools.javac.code.Symbol.ClassSymbol;
@@ -32,10 +34,23 @@ import com.sun.tools.javac.code.Type.ClassType;
 import com.sun.tools.javac.code.Type.IntersectionClassType;
 import com.sun.tools.javac.code.Types;
 import com.sun.tools.javac.util.JavacMessages;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.function.BinaryOperator;
 import java.util.function.Function;
 import java.util.stream.Collectors;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

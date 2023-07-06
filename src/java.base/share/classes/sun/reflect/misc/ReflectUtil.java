@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.sun.reflect.misc;
 
-package sun.reflect.misc;
 
 import java.lang.reflect.Member;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.lang.reflect.Proxy;
 import jdk.internal.reflect.Reflection;
-import sun.security.util.SecurityConstants;
+import java.base.share.classes.sun.security.util.SecurityConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class ReflectUtil {
 

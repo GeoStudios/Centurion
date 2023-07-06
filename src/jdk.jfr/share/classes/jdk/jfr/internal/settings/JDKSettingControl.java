@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.settings;
+package jdk.jfr.share.classes.jdk.jfr.internal.settings;
 
-import jdk.jfr.SettingControl;
+
+import jdk.jfr.share.classes.jdk.jfr.SettingControl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * SettingControls that derive from this class avoids executing settings

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4063078
@@ -26,7 +43,6 @@
  * @run main/othervm -Xmx128m -Xms32m gc.ArraySize
  */
 
-package gc;
 
 public class ArraySize {
 

@@ -21,12 +21,25 @@
 
 package jdk.jfr.event.oldobject;
 
-import java.util.ArrayList;
-import java.util.List;
 
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import jdk.jfr.Recording;
 import jdk.jfr.internal.test.WhiteBox;
 import jdk.test.lib.jfr.EventNames;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

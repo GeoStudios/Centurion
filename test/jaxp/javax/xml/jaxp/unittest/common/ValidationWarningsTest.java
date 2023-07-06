@@ -21,11 +21,10 @@
 
 package common;
 
-import static jaxp.library.JAXPTestUtilities.setSystemProperty;
 
+import static jaxp.library.JAXPTestUtilities.setSystemProperty;.extended
 import java.io.ByteArrayInputStream;
 import java.io.StringReader;
-
 import javax.xml.XMLConstants;
 import javax.xml.transform.Source;
 import javax.xml.transform.sax.SAXSource;
@@ -33,11 +32,23 @@ import javax.xml.transform.stream.StreamSource;
 import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;
 import javax.xml.validation.Validator;
-
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.InputSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

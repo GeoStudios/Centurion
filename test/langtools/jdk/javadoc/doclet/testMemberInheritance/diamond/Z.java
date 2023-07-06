@@ -21,6 +21,21 @@
 
 package diamond;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface Z extends X, C {
     /**
      * zDoc.

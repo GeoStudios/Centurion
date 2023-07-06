@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.image;
+package java.desktop.share.classes.java.awt.image;
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.GraphicsConfiguration;
-import java.awt.GraphicsDevice;
-import java.awt.Image;
-import java.awt.ImageCapabilities;
-import java.awt.Toolkit;
-import java.awt.Transparency;
+
+import java.desktop.share.classes.java.awt.Color;
+import java.desktop.share.classes.java.awt.Graphics;
+import java.desktop.share.classes.java.awt.Graphics2D;
+import java.desktop.share.classes.java.awt.GraphicsConfiguration;
+import java.desktop.share.classes.java.awt.GraphicsDevice;
+import java.desktop.share.classes.java.awt.Image;
+import java.desktop.share.classes.java.awt.ImageCapabilities;
+import java.desktop.share.classes.java.awt.Toolkit;
+import java.desktop.share.classes.java.awt.Transparency;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * VolatileImage is an image which can lose its

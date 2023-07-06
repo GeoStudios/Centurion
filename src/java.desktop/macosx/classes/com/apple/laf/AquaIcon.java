@@ -19,21 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
-
 import javax.swing.*;
 import javax.swing.plaf.*;
-
-import apple.laf.JRSUIConstants.Size;
-import apple.laf.*;
-
-import com.apple.laf.AquaUtilControlSize.*;
-import com.apple.laf.AquaUtils.RecyclableSingleton;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.Size;
+import java.desktop.macosx.classes.com.apple.laf.*;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtilControlSize.*;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
 import sun.lwawt.macosx.CImage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaIcon {
     interface InvertableIcon extends Icon {

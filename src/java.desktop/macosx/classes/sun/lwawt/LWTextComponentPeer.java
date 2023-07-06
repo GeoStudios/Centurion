@@ -19,8 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.macosx.classes.sun.lwawt;
 
-package sun.lwawt;
 
 import java.awt.Dimension;
 import java.awt.FontMetrics;
@@ -28,17 +28,30 @@ import java.awt.Insets;
 import java.awt.SystemColor;
 import java.awt.TextComponent;
 import java.awt.event.TextEvent;
-import java.awt.event.InputMethodListener;
+import java.awt.event.InputMethodjava.util.Listener;
 import java.awt.event.InputMethodEvent;
 import java.awt.im.InputMethodRequests;
 import java.awt.peer.TextComponentPeer;
-import sun.awt.AWTAccessor;
-
+import java.desktop.macosx.classes.sun.awt.AWTAccessor;
 import javax.swing.JComponent;
 import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
+import javax.swing.event.Documentjava.util.Listener;
 import javax.swing.text.Document;
 import javax.swing.text.JTextComponent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Lightweight implementation of {@link TextComponentPeer}. Provides useful

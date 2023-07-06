@@ -19,21 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.security.auth.login;
+package java.base.share.classes.javax.security.auth.login;
 
-import javax.security.auth.AuthPermission;
 
+import java.base.share.classes.javax.security.auth.AuthPermission;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.security.PrivilegedExceptionAction;
 import java.security.PrivilegedActionException;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.NoSuchProviderException;
 import java.security.Provider;
 import java.security.Security;
-import java.util.Objects;
-
+import java.base.share.classes.java.util.Objects;
 import sun.security.jca.GetInstance;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Configuration object is responsible for specifying which LoginModules

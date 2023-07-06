@@ -18,12 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package java.xml.crypto.share.classes.javax.xml.crypto;
+
+
+import java.base.share.classes.java.security.Key;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: KeySelectorResult.java,v 1.3 2005/05/10 15:47:42 mullan Exp $
  */
-package javax.xml.crypto;
 
-import java.security.Key;
+
 
 /**
  * The result returned by the {@link KeySelector#select KeySelector.select}

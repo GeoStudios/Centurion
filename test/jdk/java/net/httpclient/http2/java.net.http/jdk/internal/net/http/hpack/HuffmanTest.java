@@ -18,27 +18,40 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.internal.net.http.hpack;
+
 
 import jdk.internal.net.http.hpack.Huffman.Reader;
 import jdk.internal.net.http.hpack.Huffman.Writer;
 import org.testng.annotations.Test;
-
-import java.io.IOException;
-import java.io.UncheckedIOException;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.SortedMap;
 import java.util.TreeMap;
 import java.util.function.Supplier;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import static jdk.internal.net.http.hpack.HPACK.bytesForBits;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertTrue;.extended
 
-import static jdk.internal.net.http.hpack.HPACK.bytesForBits;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class HuffmanTest {
 

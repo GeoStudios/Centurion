@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.management.share.classes.javax.management.openmbean;
 
-package javax.management.openmbean;
+
+import java.base.share.classes.java.util.Arrays;
+import java.management.share.classes.javax.management.Descriptor;
+import java.management.share.classes.javax.management.ImmutableDescriptor;
+import java.management.share.classes.javax.management.MBeanOperationInfo;
+import java.management.share.classes.javax.management.MBeanParameterInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // java import
 //
-import java.util.Arrays;
 
-import javax.management.Descriptor;
-import javax.management.ImmutableDescriptor;
-import javax.management.MBeanOperationInfo;
-import javax.management.MBeanParameterInfo;
 
 
 /**

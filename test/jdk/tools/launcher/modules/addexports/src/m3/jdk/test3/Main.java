@@ -21,6 +21,21 @@
 
 package jdk.test3;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Main {
     public static void main(String[] args) throws Exception {
         Class<?> c = Class.forName("jdk.test4.Type");

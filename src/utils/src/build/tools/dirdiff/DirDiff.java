@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package build.tools.dirdiff;
+package utils.src.build.tools.dirdiff;
+
 
 import java.io.File;
 import java.util.TreeSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class DirDiff implements Runnable {
     private final static String FILE_SEPARATOR = System.getProperty("file.separator");

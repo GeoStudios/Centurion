@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.basic;
+package java.desktop.share.classes.javax.swing.plaf.basic;
+
 
 import java.awt.Font;
 import java.awt.Color;
@@ -40,41 +41,52 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.*;
 import java.lang.reflect.*;
-import javax.sound.sampled.*;
-
+import java.desktop.share.classes.javax.sound.sampled.*;
 import sun.awt.AppContext;
 import sun.awt.SunToolkit;
 import sun.swing.SwingAccessor;
 import sun.swing.SwingUtilities2;
 import sun.swing.icon.SortArrowIcon;
-
-import javax.swing.LookAndFeel;
-import javax.swing.AbstractAction;
-import javax.swing.Action;
-import javax.swing.ActionMap;
-import javax.swing.BorderFactory;
-import javax.swing.JComponent;
-import javax.swing.ImageIcon;
-import javax.swing.UIDefaults;
-import javax.swing.UIManager;
-import javax.swing.KeyStroke;
-import javax.swing.JTextField;
-import javax.swing.DefaultListCellRenderer;
-import javax.swing.FocusManager;
-import javax.swing.LayoutFocusTraversalPolicy;
-import javax.swing.SwingUtilities;
-import javax.swing.MenuSelectionManager;
-import javax.swing.MenuElement;
-import javax.swing.border.*;
-import javax.swing.plaf.*;
-import javax.swing.text.JTextComponent;
-import javax.swing.text.DefaultEditorKit;
-import javax.swing.JInternalFrame;
-import static javax.swing.UIDefaults.LazyValue;
+import java.desktop.share.classes.javax.swing.LookAndFeel;
+import java.desktop.share.classes.javax.swing.AbstractAction;
+import java.desktop.share.classes.javax.swing.Action;
+import java.desktop.share.classes.javax.swing.ActionMap;
+import java.desktop.share.classes.javax.swing.BorderFactory;
+import java.desktop.share.classes.javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.ImageIcon;
+import java.desktop.share.classes.javax.swing.UIDefaults;
+import java.desktop.share.classes.javax.swing.UIManager;
+import java.desktop.share.classes.javax.swing.KeyStroke;
+import java.desktop.share.classes.javax.swing.JTextField;
+import java.desktop.share.classes.javax.swing.Defaultjava.util.ListCellRenderer;
+import java.desktop.share.classes.javax.swing.FocusManager;
+import java.desktop.share.classes.javax.swing.LayoutFocusTraversalPolicy;
+import java.desktop.share.classes.javax.swing.SwingUtilities;
+import java.desktop.share.classes.javax.swing.MenuSelectionManager;
+import java.desktop.share.classes.javax.swing.MenuElement;
+import java.desktop.share.classes.javax.swing.border.*;
+import java.desktop.share.classes.javax.swing.plaf.*;
+import java.desktop.share.classes.javax.swing.text.JTextComponent;
+import java.desktop.share.classes.javax.swing.text.DefaultEditorKit;
+import java.desktop.share.classes.javax.swing.JInternalFrame;
+import static java.desktop.share.classes.javax.swing.UIDefaults.LazyValue;.extended
 import java.beans.PropertyVetoException;
 import java.awt.Window;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.beans.PropertyChangeEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

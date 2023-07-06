@@ -21,6 +21,26 @@
 
 package gc;
 
+
+import sun.hotspot.WhiteBox;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestNumWorkerOutputG1
  * @bug 8165292
@@ -33,13 +53,8 @@ package gc;
  * @run driver gc.TestNumWorkerOutput UseG1GC
  */
 
-import sun.hotspot.WhiteBox;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class TestNumWorkerOutput {
 

@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.net.ssl;
+package java.base.share.classes.javax.net.ssl;
 
-import java.security.*;
+
+import java.base.share.classes.java.security.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class defines the <i>Service Provider Interface</i> (<b>SPI</b>)

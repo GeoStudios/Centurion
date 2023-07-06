@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.share.classes.sun.print;
+
 
 import java.awt.Color;
 import java.awt.Font;
@@ -29,10 +30,22 @@ import java.awt.Image;
 import java.awt.Polygon;
 import java.awt.Rectangle;
 import java.awt.Shape;
-
 import java.awt.image.ImageObserver;
-
 import java.text.AttributedCharacterIterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements the Graphics API but does all

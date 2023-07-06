@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.beans;
+package java.desktop.share.classes.java.beans;
 
-import java.lang.ref.Reference;
-import java.lang.ref.WeakReference;
-import java.lang.reflect.Method;
-import java.util.List;
-import java.util.ArrayList;
+
+import java.desktop.share.classes.java.lang.ref.Reference;
+import java.desktop.share.classes.java.lang.ref.WeakReference;
+import java.desktop.share.classes.java.lang.reflect.Method;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.List;
+import java.desktop.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A MethodDescriptor describes a particular method that a Java Bean

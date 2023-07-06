@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7103261
@@ -27,7 +44,6 @@
  * @run main compiler.c1.Test7103261
  */
 
-package compiler.c1;
 
 // exercise implicit null checking in the compiler for various field types
 public class Test7103261 {

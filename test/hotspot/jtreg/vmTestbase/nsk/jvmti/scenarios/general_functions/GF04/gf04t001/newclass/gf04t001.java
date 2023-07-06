@@ -21,9 +21,22 @@
 
 package nsk.jvmti.scenarios.general_functions.GF04;
 
-import java.io.PrintStream;
 
+import java.io.PrintStream;
 import nsk.share.Consts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Debuggee class for this test. */
 public class gf04t001 {

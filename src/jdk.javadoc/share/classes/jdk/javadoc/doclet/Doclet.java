@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.doclet;
+package jdk.javadoc.share.classes.jdk.javadoc.doclet;
 
-import java.util.List;
-import java.util.Locale;
+
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Set;
-
 import javax.lang.model.SourceVersion;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The user doclet must implement this interface, as described in the

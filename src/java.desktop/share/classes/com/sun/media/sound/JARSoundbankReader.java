@@ -19,23 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.media.sound;
+package java.desktop.share.classes.com.sun.media.sound;
+
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLClassLoader;
-import java.util.ArrayList;
-import java.util.Objects;
-
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import javax.sound.midi.InvalidMidiDataException;
 import javax.sound.midi.Soundbank;
 import javax.sound.midi.spi.SoundbankReader;
+import java.desktop.share.classes.com.sun.reflect.misc.ReflectUtil;
 
-import sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * JarSoundbankReader is used to read soundbank object from jar files.

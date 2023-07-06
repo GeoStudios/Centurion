@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.whitebox;
+
+
+import sun.hotspot.WhiteBox;
+import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test DeoptimizeMultipleOSRTest
@@ -37,11 +55,8 @@
  *                   compiler.whitebox.DeoptimizeMultipleOSRTest
  */
 
-package compiler.whitebox;
 
-import sun.hotspot.WhiteBox;
 
-import java.lang.reflect.Method;
 
 public class DeoptimizeMultipleOSRTest {
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();

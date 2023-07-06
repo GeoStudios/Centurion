@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap;
+package java.naming.share.classes.com.sun.jndi.ldap;
 
-import com.sun.jndi.toolkit.ctx.Continuation;
+
+import java.naming.share.classes.com.sun.jndi.toolkit.ctx.Continuation;
 import java.util.NoSuchElementException;
 import java.util.Vector;
-
 import javax.naming.*;
 import javax.naming.directory.Attributes;
 import javax.naming.ldap.Control;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Basic enumeration for NameClassPair, Binding, and SearchResults.

@@ -19,13 +19,14 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javap;
+package jdk.jdeps.share.classes.com.sun.tools.javap;
+
 
 import java.io.EOFException;
 import java.io.FileNotFoundException;
 import java.io.FilterInputStream;
 import java.io.InputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.io.Reader;
@@ -38,32 +39,44 @@ import java.net.URLConnection;
 import java.nio.file.NoSuchFileException;
 import java.security.DigestInputStream;
 import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.text.MessageFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.MissingResourceException;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.ResourceBundle;
 import java.util.Set;
-
 import javax.lang.model.element.Modifier;
 import javax.lang.model.element.NestingKind;
 import javax.tools.Diagnostic;
-import javax.tools.DiagnosticListener;
+import javax.tools.Diagnosticjava.util.Listener;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileManager.Location;
 import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.StandardLocation;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.*;
 
-import com.sun.tools.classfile.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  "Main" class for javap, normally accessed from the command line

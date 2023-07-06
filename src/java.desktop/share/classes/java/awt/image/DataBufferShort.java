@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.image;
+package java.desktop.share.classes.java.awt.image;
 
-import static sun.java2d.StateTrackable.State.*;
+
+import static sun.java2d.StateTrackable.State.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class extends {@code DataBuffer} and stores data internally as shorts.

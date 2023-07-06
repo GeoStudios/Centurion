@@ -19,15 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Serializable;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.util;
 
-import java.io.IOException;
-import java.io.Serializable;
-import java.util.Objects;
+
 
 /**********************************************************************
 * A class to represent a Uniform Resource Identifier (URI). This class

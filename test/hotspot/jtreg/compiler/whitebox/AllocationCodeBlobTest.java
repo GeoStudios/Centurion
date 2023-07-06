@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.whitebox;
+
+
+import jdk.test.lib.Asserts;
+import jdk.test.lib.InfiniteLoop;
+import sun.hotspot.WhiteBox;
+import sun.hotspot.code.BlobType;
+import java.lang.management.MemoryPoolMXBean;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.EnumSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test AllocationCodeBlobTest
  * @summary testing of WB::allocate/freeCodeBlob()
@@ -38,16 +62,8 @@
  *                   compiler.whitebox.AllocationCodeBlobTest
  */
 
-package compiler.whitebox;
 
-import jdk.test.lib.Asserts;
-import jdk.test.lib.InfiniteLoop;
-import sun.hotspot.WhiteBox;
-import sun.hotspot.code.BlobType;
 
-import java.lang.management.MemoryPoolMXBean;
-import java.util.ArrayList;
-import java.util.EnumSet;
 
 public class AllocationCodeBlobTest {
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();

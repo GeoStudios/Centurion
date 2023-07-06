@@ -19,33 +19,48 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.bcel.internal.generic;
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-import com.sun.org.apache.bcel.internal.Const;
-import com.sun.org.apache.bcel.internal.classfile.AnnotationEntry;
-import com.sun.org.apache.bcel.internal.classfile.Annotations;
-import com.sun.org.apache.bcel.internal.classfile.Attribute;
-import com.sun.org.apache.bcel.internal.classfile.Code;
-import com.sun.org.apache.bcel.internal.classfile.CodeException;
-import com.sun.org.apache.bcel.internal.classfile.ExceptionTable;
-import com.sun.org.apache.bcel.internal.classfile.LineNumber;
-import com.sun.org.apache.bcel.internal.classfile.LineNumberTable;
-import com.sun.org.apache.bcel.internal.classfile.LocalVariable;
-import com.sun.org.apache.bcel.internal.classfile.LocalVariableTable;
-import com.sun.org.apache.bcel.internal.classfile.LocalVariableTypeTable;
-import com.sun.org.apache.bcel.internal.classfile.Method;
-import com.sun.org.apache.bcel.internal.classfile.ParameterAnnotationEntry;
-import com.sun.org.apache.bcel.internal.classfile.ParameterAnnotations;
-import com.sun.org.apache.bcel.internal.classfile.RuntimeVisibleParameterAnnotations;
-import com.sun.org.apache.bcel.internal.classfile.Utility;
-import com.sun.org.apache.bcel.internal.util.BCELComparator;
-import java.util.ArrayList;
-import java.util.Arrays;
+
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.AnnotationEntry;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Annotations;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Attribute;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Code;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.CodeException;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ExceptionTable;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.LineNumber;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.LineNumberTable;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.LocalVariable;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.LocalVariableTable;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.LocalVariableTypeTable;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Method;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ParameterAnnotationEntry;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ParameterAnnotations;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.RuntimeVisibleParameterAnnotations;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Utility;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.BCELComparator;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Stack;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Template class for building up a method. This is done by defining exception

@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package compiler.cha;
+
 
 import jdk.internal.misc.Unsafe;
 import jdk.internal.org.objectweb.asm.ClassWriter;
@@ -26,8 +28,7 @@ import jdk.internal.org.objectweb.asm.MethodVisitor;
 import jdk.internal.vm.annotation.DontInline;
 import sun.hotspot.WhiteBox;
 import sun.hotspot.code.NMethod;
-
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.invoke.MethodHandle;
@@ -35,11 +36,23 @@ import java.lang.invoke.MethodHandles;
 import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.concurrent.Callable;
+import static jdk.internal.org.objectweb.asm.ClassWriter.COMPUTE_FRAMES;.extended
+import static jdk.internal.org.objectweb.asm.ClassWriter.COMPUTE_MAXS;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
+import static jdk.test.lib.Asserts.assertTrue;.extended
 
-import static jdk.internal.org.objectweb.asm.ClassWriter.COMPUTE_FRAMES;
-import static jdk.internal.org.objectweb.asm.ClassWriter.COMPUTE_MAXS;
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
-import static jdk.test.lib.Asserts.assertTrue;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Utils {
     public static final Unsafe U = Unsafe.getUnsafe();

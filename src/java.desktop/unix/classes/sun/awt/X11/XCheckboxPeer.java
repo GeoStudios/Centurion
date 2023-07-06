@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.*;
 import java.awt.peer.*;
@@ -27,9 +28,22 @@ import java.awt.event.*;
 import java.awt.image.BufferedImage;
 import javax.swing.plaf.basic.BasicGraphicsUtils;
 import java.awt.geom.AffineTransform;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 
-import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class XCheckboxPeer extends XComponentPeer implements CheckboxPeer {
 

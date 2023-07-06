@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.mscapi;
+package jdk.crypto.mscapi.windows.classes.sun.security.mscapi;
 
-import sun.security.util.KeyUtil;
-import sun.security.util.Length;
 
+import jdk.crypto.mscapi.windows.classes.sun.security.util.KeyUtil;
+import jdk.crypto.mscapi.windows.classes.sun.security.util.Length;
 import java.math.BigInteger;
-import java.security.Key;
+import java.base.share.classes.java.security.Key;
 import java.security.interfaces.ECPrivateKey;
 import java.security.interfaces.ECPublicKey;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The handle for a key using the Microsoft Crypto API.

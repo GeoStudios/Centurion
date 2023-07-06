@@ -18,21 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.internal.net.http.hpack;
+
 
 import org.testng.annotations.Test;
 import jdk.internal.net.http.hpack.SimpleHeaderTable.CircularBuffer;
-
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Queue;
 import java.util.Random;
 import java.util.concurrent.ArrayBlockingQueue;
+import static jdk.internal.net.http.common.Utils.pow2Size;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static jdk.internal.net.http.hpack.TestHelper.assertVoidThrows;.extended
+import static jdk.internal.net.http.hpack.TestHelper.newRandom;.extended
+import static org.testng.Assert.assertTrue;.extended
 
-import static jdk.internal.net.http.common.Utils.pow2Size;
-import static org.testng.Assert.assertEquals;
-import static jdk.internal.net.http.hpack.TestHelper.assertVoidThrows;
-import static jdk.internal.net.http.hpack.TestHelper.newRandom;
-import static org.testng.Assert.assertTrue;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class CircularBufferTest {
 

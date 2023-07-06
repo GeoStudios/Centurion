@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.desktop;
+package java.desktop.share.classes.java.awt.desktop;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementors receive notification when the app has been asked to open again.

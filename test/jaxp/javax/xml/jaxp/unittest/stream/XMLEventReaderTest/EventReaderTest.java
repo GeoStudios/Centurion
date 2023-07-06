@@ -21,19 +21,30 @@
 
 package stream.XMLEventReaderTest;
 
+
 import java.io.StringReader;
 import java.util.NoSuchElementException;
 import javax.xml.stream.XMLEventReader;
-
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.events.StartDocument;
-
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+import static org.testng.Assert.assertEquals;.extended
 
-import static org.testng.Assert.assertEquals;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

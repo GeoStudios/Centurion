@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.Component;
 import java.awt.Graphics;
@@ -30,21 +31,33 @@ import java.awt.event.MouseEvent;
 import java.beans.BeanProperty;
 import java.beans.JavaBean;
 import java.beans.Transient;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serial;
 import java.io.Serializable;
 import java.util.Vector;
-
-import javax.accessibility.Accessible;
-import javax.accessibility.AccessibleContext;
-import javax.accessibility.AccessibleRole;
-import javax.accessibility.AccessibleSelection;
-import javax.accessibility.AccessibleStateSet;
-import javax.swing.plaf.MenuBarUI;
-
+import java.desktop.share.classes.javax.accessibility.Accessible;
+import java.desktop.share.classes.javax.accessibility.AccessibleContext;
+import java.desktop.share.classes.javax.accessibility.AccessibleRole;
+import java.desktop.share.classes.javax.accessibility.AccessibleSelection;
+import java.desktop.share.classes.javax.accessibility.AccessibleStateSet;
+import java.desktop.share.classes.javax.swing.plaf.MenuBarUI;
 import sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of a menu bar. You add <code>JMenu</code> objects to the

@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.text.html.parser;
+package java.desktop.share.classes.javax.swing.text.html.parser;
+
 
 import java.util.Vector;
 import java.util.Enumeration;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

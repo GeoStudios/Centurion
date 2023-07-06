@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.code;
 
-import java.util.Arrays;
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code;
+
+
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A collection of register attributes. The specific attribute values for a register may be local to

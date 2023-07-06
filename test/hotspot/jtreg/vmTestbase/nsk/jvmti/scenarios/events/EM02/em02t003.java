@@ -21,15 +21,26 @@
 
 package nsk.jvmti.scenarios.events.EM02;
 
+
 import java.lang.reflect.Method;
 import java.io.PrintStream;
-
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
 import java.util.*;
 import java.math.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class em02t003 extends DebugeeClass {
 

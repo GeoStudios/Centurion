@@ -19,22 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.time.zone;
+package java.base.share.classes.java.time.zone;
 
-import java.io.DataInput;
-import java.io.DataOutput;
-import java.io.IOException;
-import java.io.InvalidObjectException;
-import java.io.ObjectInputStream;
-import java.io.Serializable;
-import java.time.Duration;
-import java.time.Instant;
-import java.time.LocalDateTime;
-import java.time.ZoneOffset;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.Objects;
+
+import java.base.share.classes.java.io.DataInput;
+import java.base.share.classes.java.io.DataOutput;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.InvalidObjectException;
+import java.base.share.classes.java.io.ObjectInputStream;
+import java.base.share.classes.java.io.Serializable;
+import java.base.share.classes.java.time.Duration;
+import java.base.share.classes.java.time.Instant;
+import java.base.share.classes.java.time.LocalDateTime;
+import java.base.share.classes.java.time.ZoneOffset;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.Collections;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A transition between two offsets caused by a discontinuity in the local time-line.

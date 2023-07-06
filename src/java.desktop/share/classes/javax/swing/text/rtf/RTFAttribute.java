@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text.rtf;
 
-import javax.swing.text.AttributeSet;
-import javax.swing.text.MutableAttributeSet;
-import java.io.IOException;
+package java.desktop.share.classes.javax.swing.text.rtf;
+
+
+import java.desktop.share.classes.javax.swing.text.AttributeSet;
+import java.desktop.share.classes.javax.swing.text.MutableAttributeSet;
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface describes a class which defines a 1-1 mapping between

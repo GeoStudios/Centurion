@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jvmti.AttachOnDemand.attach050;
+
+
+import nsk.share.Failure;
+import nsk.share.aod.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -37,10 +56,7 @@
  *      -na attach050Agent00
  */
 
-package nsk.jvmti.AttachOnDemand.attach050;
 
-import nsk.share.Failure;
-import nsk.share.aod.*;
 
 public class attach050TestRunner extends AODTestRunner {
 

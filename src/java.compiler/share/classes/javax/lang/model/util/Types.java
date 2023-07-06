@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.lang.model.util;
+package java.compiler.share.classes.javax.lang.model.util;
+
 
 import java.lang.annotation.Annotation;
 import java.lang.annotation.AnnotationTypeMismatchException;
 import java.lang.annotation.IncompleteAnnotationException;
-import java.util.List;
-import javax.lang.model.element.*;
-import javax.lang.model.type.*;
+import java.util.java.util.java.util.java.util.List;
+import java.compiler.share.classes.javax.lang.model.element.*;
+import java.compiler.share.classes.javax.lang.model.type.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility methods for operating on types.

@@ -19,35 +19,53 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations;
+
+
+import java.base.share.classes.java.security.Key;
+import java.security.KeyStore;
+import java.security.KeyStoreException;
+import java.base.share.classes.java.security.PrivateKey;
+import java.base.share.classes.java.security.PublicKey;
+import java.security.cert.Certificate;
+import java.security.cert.CertificateEncodingException;
+import java.security.cert.X509Certificate;
+import java.base.share.classes.java.util.Arrays;
+import java.util.Enumeration;
+import java.base.share.classes.javax.crypto.SecretKey;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.X509Data;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.x509.XMLX509Certificate;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.x509.XMLX509IssuerSerial;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.x509.XMLX509SKI;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.x509.XMLX509SubjectName;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.keyresolver.KeyResolverException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.keyresolver.KeyResolverSpi;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.storage.StorageResolver;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.Constants;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.XMLUtils;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations;
 
-import java.security.Key;
-import java.security.KeyStore;
-import java.security.KeyStoreException;
-import java.security.PrivateKey;
-import java.security.PublicKey;
-import java.security.cert.Certificate;
-import java.security.cert.CertificateEncodingException;
-import java.security.cert.X509Certificate;
-import java.util.Arrays;
-import java.util.Enumeration;
-import javax.crypto.SecretKey;
-import com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
-import com.sun.org.apache.xml.internal.security.keys.content.X509Data;
-import com.sun.org.apache.xml.internal.security.keys.content.x509.XMLX509Certificate;
-import com.sun.org.apache.xml.internal.security.keys.content.x509.XMLX509IssuerSerial;
-import com.sun.org.apache.xml.internal.security.keys.content.x509.XMLX509SKI;
-import com.sun.org.apache.xml.internal.security.keys.content.x509.XMLX509SubjectName;
-import com.sun.org.apache.xml.internal.security.keys.keyresolver.KeyResolverException;
-import com.sun.org.apache.xml.internal.security.keys.keyresolver.KeyResolverSpi;
-import com.sun.org.apache.xml.internal.security.keys.storage.StorageResolver;
-import com.sun.org.apache.xml.internal.security.utils.Constants;
-import com.sun.org.apache.xml.internal.security.utils.XMLUtils;
-import org.w3c.dom.Element;
+
 
 /**
  * Resolves a PrivateKey within a KeyStore based on the KeyInfo hints.

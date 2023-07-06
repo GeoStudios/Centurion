@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package transform;
+
+
+import java.util.PropertyPermission;
+import jaxp.library.JAXPTestUtilities;
+import org.testng.annotations.java.util.Listeners;
+import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @library /javax/xml/jaxp/libs /javax/xml/jaxp/unittest
@@ -27,14 +48,9 @@
  * @summary Test internal transform CLI.
  */
 
-package transform;
 
-import java.util.PropertyPermission;
 
-import jaxp.library.JAXPTestUtilities;
 
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
 
 @Listeners({ jaxp.library.FilePolicy.class })
 public class CLITest {

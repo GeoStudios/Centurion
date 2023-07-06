@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.compiler.jbe.dead.dead12;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,7 +47,6 @@
  * @run main/othervm vm.compiler.jbe.dead.dead12.dead12
  */
 
-package vm.compiler.jbe.dead.dead12;
 
 // dead12.java
 

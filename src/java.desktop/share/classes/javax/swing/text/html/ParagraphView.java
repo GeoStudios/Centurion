@@ -18,19 +18,35 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text.html;
+
+package java.desktop.share.classes.javax.swing.text.html;
+
 
 import java.awt.*;
-import javax.swing.SizeRequirements;
-import javax.swing.event.DocumentEvent;
-import javax.swing.text.Document;
-import javax.swing.text.Element;
-import javax.swing.text.AttributeSet;
-import javax.swing.text.StyleConstants;
-import javax.swing.text.View;
-import javax.swing.text.ViewFactory;
-import javax.swing.text.BadLocationException;
-import javax.swing.text.JTextComponent;
+import java.desktop.share.classes.javax.swing.SizeRequirements;
+import java.desktop.share.classes.javax.swing.event.DocumentEvent;
+import java.desktop.share.classes.javax.swing.text.Document;
+import java.desktop.share.classes.javax.swing.text.Element;
+import java.desktop.share.classes.javax.swing.text.AttributeSet;
+import java.desktop.share.classes.javax.swing.text.StyleConstants;
+import java.desktop.share.classes.javax.swing.text.View;
+import java.desktop.share.classes.javax.swing.text.ViewFactory;
+import java.desktop.share.classes.javax.swing.text.BadLocationException;
+import java.desktop.share.classes.javax.swing.text.JTextComponent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Displays the a paragraph, and uses css attributes for its

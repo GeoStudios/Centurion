@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.imageio.plugins.tiff;
+
+package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
+
 
 import java.awt.Point;
 import java.awt.Rectangle;
@@ -32,13 +34,13 @@ import java.awt.image.Raster;
 import java.awt.image.RenderedImage;
 import java.awt.image.SampleModel;
 import java.io.EOFException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteOrder;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
-import javax.imageio.IIOException;
+import java.util.java.util.java.util.java.util.List;
+import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import javax.imageio.ImageIO;
 import javax.imageio.ImageReader;
 import javax.imageio.ImageReadParam;
@@ -47,11 +49,25 @@ import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.spi.ImageReaderSpi;
 import javax.imageio.stream.ImageInputStream;
 import org.w3c.dom.Node;
-import com.sun.imageio.plugins.common.ImageUtil;
+import java.desktop.share.classes.com.sun.imageio.plugins.common.ImageUtil;
 import javax.imageio.plugins.tiff.BaselineTIFFTagSet;
 import javax.imageio.plugins.tiff.TIFFField;
 import javax.imageio.plugins.tiff.TIFFImageReadParam;
 import javax.imageio.plugins.tiff.TIFFTagSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TIFFImageReader extends ImageReader {
 

@@ -18,10 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.share.locks;
+
 
 import java.util.concurrent.locks.ReentrantLock;
 import nsk.share.Wicket;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  *  Class used for deadlock creation, acquires java.util.concurrent.locks.ReentrantLock

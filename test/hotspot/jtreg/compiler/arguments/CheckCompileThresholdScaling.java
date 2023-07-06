@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.arguments;
+
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test CheckCompileThresholdScaling
  * @bug 8059604
@@ -31,10 +50,7 @@
  * @run driver compiler.arguments.CheckCompileThresholdScaling
  */
 
-package compiler.arguments;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class CheckCompileThresholdScaling {
 

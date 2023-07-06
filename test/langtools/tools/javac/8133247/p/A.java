@@ -21,6 +21,21 @@
 
 package p;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class A<T> implements I<T> {
     public void f(T t) {}
 }

@@ -19,16 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.windows;
+package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-import java.awt.*;
 
+import java.desktop.windows.classes.com.sun.java.awt.*;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.*;
 import javax.swing.*;
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Part;.extended
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.Skin;.extended
 
-import static com.sun.java.swing.plaf.windows.TMSchema.Part;
-import static com.sun.java.swing.plaf.windows.XPStyle.Skin;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

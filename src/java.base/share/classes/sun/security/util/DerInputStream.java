@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.util;
+package java.base.share.classes.sun.security.util;
+
 
 import java.io.InputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Date;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A DER input stream, used for parsing ASN.1 DER-encoded data such as

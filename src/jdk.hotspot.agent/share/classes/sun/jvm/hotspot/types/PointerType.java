@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.types;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types;
+
 
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This interface describes C pointer types, specifically to be able
     to model pointer fields within types more accurately. */

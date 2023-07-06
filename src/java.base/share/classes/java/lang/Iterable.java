@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang;
 
-import java.util.Iterator;
-import java.util.Objects;
-import java.util.Spliterator;
-import java.util.Spliterators;
-import java.util.function.Consumer;
+package java.base.share.classes.java.lang;
+
+
+import java.base.share.classes.java.util.Iterator;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Spliterator;
+import java.base.share.classes.java.util.Spliterators;
+import java.base.share.classes.java.util.function.Consumer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementing this interface allows an object to be the target of the enhanced

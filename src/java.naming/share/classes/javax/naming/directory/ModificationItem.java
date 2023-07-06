@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.naming.directory;
+package java.naming.share.classes.javax.naming.directory;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This class represents a modification item.
@@ -108,13 +124,13 @@ public class ModificationItem implements java.io.Serializable {
     public String toString() {
         switch (mod_op) {
         case DirContext.ADD_ATTRIBUTE:
-            return ("Add attribute: " + attr.toString());
+            return ("Add attribute: " + attr);
 
         case DirContext.REPLACE_ATTRIBUTE:
-            return ("Replace attribute: " + attr.toString());
+            return ("Replace attribute: " + attr);
 
         case DirContext.REMOVE_ATTRIBUTE:
-            return ("Remove attribute: " + attr.toString());
+            return ("Remove attribute: " + attr);
         }
         return "";      // should never happen
     }

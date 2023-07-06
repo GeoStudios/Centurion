@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.xml.internal.stream;
+package java.xml.share.classes.com.sun.xml.internal.stream;
 
-import com.sun.xml.internal.stream.events.XMLEventAllocatorImpl;
+
+import java.xml.share.classes.com.sun.xml.internal.stream.events.XMLEventAllocatorImpl;
 import java.util.NoSuchElementException;
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamConstants;
@@ -30,6 +31,20 @@ import javax.xml.stream.XMLStreamReader;
 import javax.xml.stream.events.EntityReference;
 import javax.xml.stream.events.XMLEvent;
 import javax.xml.stream.util.XMLEventAllocator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

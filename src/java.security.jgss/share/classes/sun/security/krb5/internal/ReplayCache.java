@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal;
+package java.security.jgss.share.classes.sun.security.krb5.internal;
 
-import sun.security.action.GetPropertyAction;
-import sun.security.krb5.internal.rcache.AuthTimeWithHash;
-import sun.security.krb5.internal.rcache.MemoryCache;
-import sun.security.krb5.internal.rcache.DflCache;
+
+import java.security.jgss.share.classes.sun.security.action.GetPropertyAction;
+import java.security.jgss.share.classes.sun.security.krb5.internal.rcache.AuthTimeWithHash;
+import java.security.jgss.share.classes.sun.security.krb5.internal.rcache.MemoryCache;
+import java.security.jgss.share.classes.sun.security.krb5.internal.rcache.DflCache;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Models the replay cache of an acceptor as described in

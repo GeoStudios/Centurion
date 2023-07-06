@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
-import java.util.List;
-import sun.security.ssl.SSLExtension.ExtensionConsumer;
-import sun.security.ssl.SSLHandshake.HandshakeMessage;
-import sun.security.ssl.SignatureAlgorithmsExtension.SignatureSchemesSpec;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.sun.security.ssl.SSLExtension.ExtensionConsumer;
+import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
+import java.base.share.classes.sun.security.ssl.SignatureAlgorithmsExtension.SignatureSchemesSpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Pack of the "signature_algorithms_cert" extensions.

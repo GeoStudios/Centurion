@@ -18,9 +18,11 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.security.provider.certpath;
 
-import java.io.IOException;
+package java.base.share.classes.sun.security.provider.certpath;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.net.URI;
 import java.net.URL;
@@ -37,21 +39,34 @@ import java.security.cert.X509Certificate;
 import java.util.Base64;
 import java.util.Collections;
 import java.util.Date;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
+import java.base.share.classes.sun.security.action.GetIntegerAction;
+import java.base.share.classes.sun.security.util.Debug;
+import java.base.share.classes.sun.security.util.Event;
+import java.base.share.classes.sun.security.util.IOUtils;
+import java.base.share.classes.sun.security.validator.Validator;
+import java.base.share.classes.sun.security.x509.AccessDescription;
+import java.base.share.classes.sun.security.x509.AuthorityInfoAccessExtension;
+import java.base.share.classes.sun.security.x509.GeneralName;
+import java.base.share.classes.sun.security.x509.GeneralNameInterface;
+import java.base.share.classes.sun.security.x509.PKIXExtensions;
+import java.base.share.classes.sun.security.x509.URIName;
+import java.base.share.classes.sun.security.x509.X509CertImpl;
 
-import sun.security.action.GetIntegerAction;
-import sun.security.util.Debug;
-import sun.security.util.Event;
-import sun.security.util.IOUtils;
-import sun.security.validator.Validator;
-import sun.security.x509.AccessDescription;
-import sun.security.x509.AuthorityInfoAccessExtension;
-import sun.security.x509.GeneralName;
-import sun.security.x509.GeneralNameInterface;
-import sun.security.x509.PKIXExtensions;
-import sun.security.x509.URIName;
-import sun.security.x509.X509CertImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is a class that checks the revocation status of a certificate(s) using

@@ -18,9 +18,24 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.jvmti.AttachOnDemand.attach002;
 
+
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ClassToRedefine {
     public int getSize() {

@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.bench.jdk.incubator.foreign.points.support;
+
 
 import jdk.incubator.foreign.FunctionDescriptor;
 import jdk.incubator.foreign.SymbolLookup;
@@ -27,13 +29,24 @@ import jdk.incubator.foreign.MemoryLayout;
 import jdk.incubator.foreign.MemorySegment;
 import jdk.incubator.foreign.CLinker;
 import jdk.incubator.foreign.ResourceScope;
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.VarHandle;
+import static java.lang.invoke.MethodType.methodType;.extended
+import static jdk.incubator.foreign.MemoryLayout.PathElement.groupElement;.extended
+import static jdk.incubator.foreign.CLinker.*;.extended
 
-import static java.lang.invoke.MethodType.methodType;
-import static jdk.incubator.foreign.MemoryLayout.PathElement.groupElement;
-import static jdk.incubator.foreign.CLinker.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PanamaPoint implements AutoCloseable {
 

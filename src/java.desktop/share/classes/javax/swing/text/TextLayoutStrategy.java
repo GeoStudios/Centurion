@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text;
+
+package java.desktop.share.classes.javax.swing.text;
+
 
 import java.util.*;
 import java.awt.*;
@@ -26,9 +28,23 @@ import java.text.AttributedCharacterIterator;
 import java.text.BreakIterator;
 import java.awt.font.*;
 import java.awt.geom.AffineTransform;
-import javax.swing.JComponent;
-import javax.swing.event.DocumentEvent;
+import java.desktop.share.classes.javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.event.DocumentEvent;
 import sun.font.BidiUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A flow strategy that uses java.awt.font.LineBreakMeasureer to

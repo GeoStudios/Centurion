@@ -19,15 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.utils;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
-import org.w3c.dom.Attr;
-import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
 
-import org.xml.sax.Attributes;
+import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
+import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
+import java.base.share.classes.java.util.Objects;
 
-import java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Wraps a DOM attribute list in a SAX Attributes.

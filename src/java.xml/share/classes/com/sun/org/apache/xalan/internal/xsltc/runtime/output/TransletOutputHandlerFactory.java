@@ -19,34 +19,45 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.runtime.output;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime.output;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.Writer;
-
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.stream.XMLEventWriter;
 import javax.xml.stream.util.XMLEventConsumer;
 import javax.xml.stream.XMLStreamWriter;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax.SAX2DOM;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax.SAX2StAXEventWriter;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax.SAX2StAXStreamWriter;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.ToHTMLSAXHandler;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.ToHTMLStream;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.ToTextSAXHandler;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.ToTextStream;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.ToUnknownStream;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.ToXMLSAXHandler;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.ToXMLStream;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.SerializationHandler;
+import javax.xml.transform.Errorjava.util.Listener;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
 
-import com.sun.org.apache.xalan.internal.xsltc.trax.SAX2DOM;
-import com.sun.org.apache.xalan.internal.xsltc.trax.SAX2StAXEventWriter;
-import com.sun.org.apache.xalan.internal.xsltc.trax.SAX2StAXStreamWriter;
 
-import com.sun.org.apache.xml.internal.serializer.ToHTMLSAXHandler;
-import com.sun.org.apache.xml.internal.serializer.ToHTMLStream;
-import com.sun.org.apache.xml.internal.serializer.ToTextSAXHandler;
-import com.sun.org.apache.xml.internal.serializer.ToTextStream;
-import com.sun.org.apache.xml.internal.serializer.ToUnknownStream;
-import com.sun.org.apache.xml.internal.serializer.ToXMLSAXHandler;
-import com.sun.org.apache.xml.internal.serializer.ToXMLStream;
-import com.sun.org.apache.xml.internal.serializer.SerializationHandler;
-import javax.xml.transform.ErrorListener;
-import org.w3c.dom.Node;
 
-import org.xml.sax.ContentHandler;
-import org.xml.sax.ext.LexicalHandler;
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @LastModified: Aug 2019

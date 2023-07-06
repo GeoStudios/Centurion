@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.xs;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.xs;
 
-import java.util.List;
+
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  The <code>ShortList</code> is an immutable ordered collection of

@@ -21,19 +21,31 @@
 
 package compiler.compilercontrol.share;
 
+
 import compiler.compilercontrol.share.method.MethodDescriptor;
 import compiler.compilercontrol.share.scenario.Command;
 import compiler.compilercontrol.share.scenario.CommandGenerator;
 import compiler.compilercontrol.share.scenario.CompileCommand;
 import compiler.compilercontrol.share.scenario.Scenario;
 import jdk.test.lib.Utils;
-
 import java.lang.reflect.Executable;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import static compiler.compilercontrol.share.IntrinsicCommand.VALID_INTRINSIC_SAMPLES;.extended
+import static compiler.compilercontrol.share.IntrinsicCommand.INVALID_INTRINSIC_SAMPLES;.extended
 
-import static compiler.compilercontrol.share.IntrinsicCommand.VALID_INTRINSIC_SAMPLES;
-import static compiler.compilercontrol.share.IntrinsicCommand.INVALID_INTRINSIC_SAMPLES;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MultiCommand extends AbstractTestBase {
     private final List<CompileCommand> testCases;

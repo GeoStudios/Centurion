@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Thrown by {@code String} methods to indicate that an index is either negative

@@ -19,17 +19,17 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.media.sound;
+package java.desktop.share.classes.com.sun.media.sound;
+
 
 import java.io.BufferedInputStream;
 import java.io.DataInputStream;
 import java.io.EOFException;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
-
 import javax.sound.midi.InvalidMidiDataException;
 import javax.sound.midi.MetaMessage;
 import javax.sound.midi.MidiEvent;
@@ -39,6 +39,20 @@ import javax.sound.midi.Sequence;
 import javax.sound.midi.SysexMessage;
 import javax.sound.midi.Track;
 import javax.sound.midi.spi.MidiFileReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * MIDI file reader.

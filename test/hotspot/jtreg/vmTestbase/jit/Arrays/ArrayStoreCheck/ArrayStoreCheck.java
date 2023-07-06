@@ -18,6 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package jit.Arrays.ArrayStoreCheck;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // A simple program checking whether ArrayStoreExceptions are thrown
 
 
@@ -32,9 +51,7 @@
  * @run main/othervm jit.Arrays.ArrayStoreCheck.ArrayStoreCheck
  */
 
-package jit.Arrays.ArrayStoreCheck;
 
-import nsk.share.TestFailure;
 
 class A {}
 

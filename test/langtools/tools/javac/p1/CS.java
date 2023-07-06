@@ -19,11 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package p1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Auxiliary file for QualifiedThisAndSuper_1.java, et. al.
  */
 
-package p1;
 
 public class CS {
     protected String u = "csu";

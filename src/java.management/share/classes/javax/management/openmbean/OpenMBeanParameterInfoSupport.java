@@ -19,23 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.management.share.classes.javax.management.openmbean;
 
-package javax.management.openmbean;
+
+import java.util.Set;
+import java.management.share.classes.javax.management.Descriptor;
+import java.management.share.classes.javax.management.DescriptorRead;  // for Javadoc.extended
+import java.management.share.classes.javax.management.ImmutableDescriptor;
+import java.management.share.classes.javax.management.MBeanParameterInfo;
+import static java.management.share.classes.javax.management.openmbean.OpenMBeanAttributeInfoSupport.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // java import
 //
-import java.util.Set;
-import javax.management.Descriptor;
-import javax.management.DescriptorRead;  // for Javadoc
-import javax.management.ImmutableDescriptor;
-import javax.management.MBeanParameterInfo;
 
 // OpenMBeanAttributeInfoSupport and this class are very similar
 // but can't easily be refactored because there's no multiple inheritance.
 // The best we can do for refactoring is to put a bunch of static methods
 // in OpenMBeanAttributeInfoSupport and import them here.
-import static javax.management.openmbean.OpenMBeanAttributeInfoSupport.*;
 
 /**
  * Describes a parameter used in one or more operations or

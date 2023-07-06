@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.mlvm.anonloader.stress.byteMutation;
+
+
+import vm.mlvm.anonloader.share.AnonkTestee01;
+import vm.mlvm.anonloader.share.StressClassLoadingTest;
+import vm.share.FileUtils;
+import vm.share.options.Option;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -38,12 +58,7 @@
  * @run main/othervm vm.mlvm.anonloader.stress.byteMutation.Test -stressIterationsFactor 100000
  */
 
-package vm.mlvm.anonloader.stress.byteMutation;
 
-import vm.mlvm.anonloader.share.AnonkTestee01;
-import vm.mlvm.anonloader.share.StressClassLoadingTest;
-import vm.share.FileUtils;
-import vm.share.options.Option;
 
 /**
  * The test does the following in a cycle:

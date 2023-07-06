@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.peer.TextFieldPeer;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serial;
-import java.util.EventListener;
 
+import java.desktop.share.classes.java.awt.event.ActionEvent;
+import java.desktop.share.classes.java.awt.event.Actionjava.util.Listener;
+import java.desktop.share.classes.java.awt.peer.TextFieldPeer;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.ObjectOutputStream;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.util.Eventjava.util.Listener;
 import javax.accessibility.AccessibleContext;
 import javax.accessibility.AccessibleState;
 import javax.accessibility.AccessibleStateSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code TextField} object is a text component

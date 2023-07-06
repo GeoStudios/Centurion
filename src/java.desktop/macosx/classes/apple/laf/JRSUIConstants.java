@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package apple.laf;
+package java.desktop.macosx.classes.apple.laf;
+
 
 import java.nio.ByteBuffer;
-
 import java.lang.annotation.Native;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class JRSUIConstants {
 

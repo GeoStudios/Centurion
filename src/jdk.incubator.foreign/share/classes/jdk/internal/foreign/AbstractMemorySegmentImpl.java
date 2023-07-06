@@ -19,18 +19,18 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.foreign;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
 
-import jdk.incubator.foreign.*;
-import jdk.internal.access.JavaNioAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.access.foreign.MemorySegmentProxy;
-import jdk.internal.access.foreign.UnmapperProxy;
-import jdk.internal.misc.ScopedMemoryAccess;
-import jdk.internal.util.ArraysSupport;
-import jdk.internal.vm.annotation.ForceInline;
+
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.*;
+import jdk.incubator.foreign.share.classes.jdk.internal.access.JavaNioAccess;
+import jdk.incubator.foreign.share.classes.jdk.internal.access.SharedSecrets;
+import jdk.incubator.foreign.share.classes.jdk.internal.access.foreign.MemorySegmentProxy;
+import jdk.incubator.foreign.share.classes.jdk.internal.access.foreign.UnmapperProxy;
+import jdk.incubator.foreign.share.classes.jdk.internal.misc.ScopedMemoryAccess;
+import jdk.incubator.foreign.share.classes.jdk.internal.util.java.util.ArraysSupport;
+import jdk.incubator.foreign.share.classes.jdk.internal.vm.annotation.ForceInline;
 import sun.security.action.GetPropertyAction;
-
 import java.nio.ByteBuffer;
 import java.util.*;
 import java.util.function.Consumer;
@@ -38,6 +38,20 @@ import java.util.function.Function;
 import java.util.function.IntFunction;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This abstract class provides an immutable implementation for the {@code MemorySegment} interface. This class contains information

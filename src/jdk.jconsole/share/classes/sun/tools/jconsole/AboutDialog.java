@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole;
+package jdk.jconsole.share.classes.sun.tools.jconsole;
+
 
 import java.awt.BasicStroke;
 import java.awt.BorderLayout;
@@ -33,7 +34,7 @@ import java.awt.Shape;
 import java.awt.Stroke;
 import java.awt.event.ActionEvent;
 import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
+import java.awt.event.Focusjava.util.Listener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.geom.Rectangle2D;
@@ -51,20 +52,32 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.event.HyperlinkEvent;
-import javax.swing.event.HyperlinkListener;
+import javax.swing.event.Hyperlinkjava.util.Listener;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.DefaultHighlighter;
 import javax.swing.text.Document;
 import javax.swing.text.Highlighter;
 import javax.swing.text.JTextComponent;
 import javax.swing.text.View;
+import static java.awt.BorderLayout.CENTER;.extended
+import static java.awt.BorderLayout.NORTH;.extended
+import static java.awt.BorderLayout.SOUTH;.extended
+import static jdk.jconsole.share.classes.sun.tools.jconsole.Utilities.setAccessibleDescription;.extended
+import static jdk.jconsole.share.classes.sun.tools.jconsole.Utilities.setAccessibleName;.extended
 
-import static java.awt.BorderLayout.CENTER;
-import static java.awt.BorderLayout.NORTH;
-import static java.awt.BorderLayout.SOUTH;
 
-import static sun.tools.jconsole.Utilities.setAccessibleDescription;
-import static sun.tools.jconsole.Utilities.setAccessibleName;
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public class AboutDialog extends InternalDialog {

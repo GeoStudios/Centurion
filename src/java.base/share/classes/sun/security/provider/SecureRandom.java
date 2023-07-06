@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider;
+package java.base.share.classes.sun.security.provider;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.MessageDigest;
 import java.security.SecureRandomSpi;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.NoSuchProviderException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>This class provides a crytpographically strong pseudo-random number

@@ -20,4 +20,20 @@
  */
 
 package foo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @interface Foo {}

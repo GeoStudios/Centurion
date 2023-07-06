@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.rmi;
+package java.rmi.share.classes.java.rmi;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An <code>UnexpectedException</code> is thrown if the client of a

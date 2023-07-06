@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.utils;
 
-import java.io.IOException;
-import java.io.InterruptedIOException;
+package jdk.internal.le.share.classes.jdk.internal.org.jline.utils;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Interruptedjava.io.java.io.java.io.IOException;
 import java.io.Reader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class wraps a regular reader and allows it to appear as if it

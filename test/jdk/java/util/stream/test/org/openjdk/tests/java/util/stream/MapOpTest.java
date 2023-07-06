@@ -18,13 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.tests.java.util.stream;
 
+
 import org.testng.annotations.Test;
-
 import java.util.stream.*;
+import static java.util.stream.LambdaTestHelpers.*;.extended
 
-import static java.util.stream.LambdaTestHelpers.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * MapOpTest

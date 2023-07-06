@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.image;
+package java.desktop.share.classes.java.awt.image;
 
-import java.awt.geom.Rectangle2D;
-import java.awt.AlphaComposite;
-import java.awt.Graphics2D;
-import java.awt.geom.Point2D;
-import java.awt.RenderingHints;
+
+import java.desktop.share.classes.java.awt.geom.Rectangle2D;
+import java.desktop.share.classes.java.awt.AlphaComposite;
+import java.desktop.share.classes.java.awt.Graphics2D;
+import java.desktop.share.classes.java.awt.geom.Point2D;
+import java.desktop.share.classes.java.awt.RenderingHints;
 import sun.awt.image.ImagingLib;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class performs a pixel-by-pixel rescaling of the data in the

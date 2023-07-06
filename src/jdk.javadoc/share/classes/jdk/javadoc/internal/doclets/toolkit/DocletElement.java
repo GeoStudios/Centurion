@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.toolkit;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit;
+
 
 import javax.lang.model.element.AnnotationMirror;
 import javax.lang.model.element.Element;
@@ -31,8 +32,22 @@ import javax.lang.model.element.PackageElement;
 import javax.lang.model.type.TypeMirror;
 import javax.tools.FileObject;
 import java.lang.annotation.Annotation;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface DocletElement extends Element {
 

@@ -21,6 +21,21 @@
 
 package pkg3;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Test class for member and nested class summaries
  */

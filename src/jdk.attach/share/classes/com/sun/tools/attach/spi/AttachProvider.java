@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.attach.spi;
+package jdk.attach.share.classes.com.sun.tools.attach.spi;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.Collections;
 import java.util.Iterator;
-import java.util.ArrayList;
-import java.util.List;
-import com.sun.tools.attach.VirtualMachine;
-import com.sun.tools.attach.VirtualMachineDescriptor;
-import com.sun.tools.attach.AttachPermission;
-import com.sun.tools.attach.AttachNotSupportedException;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import jdk.attach.share.classes.com.sun.tools.attach.VirtualMachine;
+import jdk.attach.share.classes.com.sun.tools.attach.VirtualMachineDescriptor;
+import jdk.attach.share.classes.com.sun.tools.attach.AttachPermission;
+import jdk.attach.share.classes.com.sun.tools.attach.AttachNotSupportedException;
 import java.util.ServiceLoader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Attach provider class for attaching to a Java virtual machine.

@@ -18,16 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text.html;
+
+package java.desktop.share.classes.javax.swing.text.html;
+
 
 import java.awt.*;
 import java.util.BitSet;
 import java.util.Vector;
-import java.util.Arrays;
-import javax.swing.SizeRequirements;
-import javax.swing.event.DocumentEvent;
+import java.base.share.classes.java.util.Arrays;
+import java.desktop.share.classes.javax.swing.SizeRequirements;
+import java.desktop.share.classes.javax.swing.event.DocumentEvent;
+import java.desktop.share.classes.javax.swing.text.*;
 
-import javax.swing.text.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * HTML table view.
@@ -479,7 +494,7 @@ import javax.swing.text.*;
              * this table cell.... calculate the adjustments.
              */
             SizeRequirements[] reqs = new SizeRequirements[ncols];
-            System.arraycopy(columnRequirements, col + 0, reqs, 0, ncols);
+            System.arraycopy(columnRequirements, col, reqs, 0, ncols);
             int[] spans = new int[ncols];
             int[] offsets = new int[ncols];
             SizeRequirements.calculateTiledPositions(cmin, null, reqs,
@@ -501,7 +516,7 @@ import javax.swing.text.*;
              * this table cell.... calculate the adjustments.
              */
             SizeRequirements[] reqs = new SizeRequirements[ncols];
-            System.arraycopy(columnRequirements, col + 0, reqs, 0, ncols);
+            System.arraycopy(columnRequirements, col, reqs, 0, ncols);
             int[] spans = new int[ncols];
             int[] offsets = new int[ncols];
             SizeRequirements.calculateTiledPositions(cpref, null, reqs,

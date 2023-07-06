@@ -21,6 +21,23 @@
 
 package gc.z;
 
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestUncommit
  * @requires vm.gc.Z
@@ -29,8 +46,6 @@ package gc.z;
  * @run main/othervm -XX:+UseZGC -Xlog:gc*,gc+heap=debug,gc+stats=off -Xms128M -Xmx512M -XX:ZUncommitDelay=10 gc.z.TestUncommit
  */
 
-import java.util.ArrayList;
-import jdk.test.lib.Utils;
 
 public class TestUncommit {
     private static final int delay = 10 * 1000; // milliseconds

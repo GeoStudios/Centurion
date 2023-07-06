@@ -21,6 +21,27 @@
 
 package gc.g1;
 
+
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestEagerReclaimHumongousRegions
  * @bug 8027959
@@ -33,13 +54,7 @@ package gc.g1;
  * @run driver gc.g1.TestEagerReclaimHumongousRegions
  */
 
-import java.util.regex.Pattern;
-import java.util.regex.Matcher;
-import java.util.LinkedList;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.Asserts;
 
 class TestEagerReclaimHumongousRegionsReclaimRegionFast {
     public static final int M = 1024*1024;

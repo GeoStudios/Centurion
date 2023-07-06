@@ -21,11 +21,24 @@
 
 package jdk.jfr.api.flightrecorder;
 
-import static jdk.test.lib.Asserts.assertEquals;
 
-import jdk.jfr.FlightRecorderListener;
+import static jdk.test.lib.Asserts.assertEquals;.extended
+import jdk.jfr.FlightRecorderjava.util.Listener;
 import jdk.jfr.Recording;
 import jdk.jfr.RecordingState;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MyListener implements FlightRecorderListener {
     public RecordingState state = RecordingState.NEW;

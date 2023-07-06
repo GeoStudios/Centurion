@@ -21,15 +21,29 @@
 
 package jdk.test.lib.jittester.types;
 
+
 import java.util.Collection;
 import java.util.HashSet;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.TreeSet;
 import jdk.test.lib.jittester.ProductionParams;
 import jdk.test.lib.jittester.Symbol;
 import jdk.test.lib.jittester.SymbolTable;
 import jdk.test.lib.jittester.Type;
-import jdk.test.lib.jittester.TypeList;
+import jdk.test.lib.jittester.Typejava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TypeKlass extends Type {
     private TypeKlass parentKlass;

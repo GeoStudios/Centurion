@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
+
 
 import jdk.internal.access.JavaLangInvokeAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.invoke.NativeEntryPoint;
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.MethodVisitor;
@@ -35,25 +36,37 @@ import sun.invoke.empty.Empty;
 import sun.invoke.util.ValueConversions;
 import sun.invoke.util.VerifyType;
 import sun.invoke.util.Wrapper;
+import java.base.share.classes.java.lang.invoke.MethodHandles.Lookup;
+import java.base.share.classes.java.lang.reflect.Array;
+import java.base.share.classes.java.nio.ByteOrder;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.Collections;
+import java.base.share.classes.java.util.HashMap;
+import java.base.share.classes.java.util.Iterator;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.function.Function;
+import java.base.share.classes.java.util.stream.Stream;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
 
-import java.lang.invoke.MethodHandles.Lookup;
-import java.lang.reflect.Array;
-import java.nio.ByteOrder;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.function.Function;
-import java.util.stream.Stream;
 
-import static java.lang.invoke.LambdaForm.*;
-import static java.lang.invoke.MethodHandleStatics.*;
-import static java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Trusted implementation code for MethodHandle.
@@ -623,11 +636,11 @@ abstract class MethodHandleImpl {
                 int[] counts = new int[2];
                 mh = (BoundMethodHandle)
                         BoundMethodHandle.speciesData_LLLL().factory().invokeBasic(type, form,
-                                (Object) test, (Object) profile(target), (Object) profile(fallback), counts);
+                                test, profile(target), profile(fallback), counts);
             } else {
                 mh = (BoundMethodHandle)
                         BoundMethodHandle.speciesData_LLL().factory().invokeBasic(type, form,
-                                (Object) test, (Object) profile(target), (Object) profile(fallback));
+                                test, profile(target), profile(fallback));
             }
         } catch (Throwable ex) {
             throw uncaughtException(ex);
@@ -924,8 +937,8 @@ abstract class MethodHandleImpl {
         BoundMethodHandle.SpeciesData data = BoundMethodHandle.speciesData_LLLLL();
         BoundMethodHandle mh;
         try {
-            mh = (BoundMethodHandle) data.factory().invokeBasic(type, form, (Object) target, (Object) exType,
-                    (Object) catcher, (Object) collectArgs, (Object) unboxResult);
+            mh = (BoundMethodHandle) data.factory().invokeBasic(type, form, target, exType,
+                    catcher, collectArgs, unboxResult);
         } catch (Throwable ex) {
             throw uncaughtException(ex);
         }
@@ -1545,8 +1558,8 @@ abstract class MethodHandleImpl {
         BoundMethodHandle.SpeciesData data = BoundMethodHandle.speciesData_LLL();
         BoundMethodHandle mh;
         try {
-            mh = (BoundMethodHandle) data.factory().invokeBasic(type, form, (Object) clauseData,
-                    (Object) collectArgs, (Object) unboxResult);
+            mh = (BoundMethodHandle) data.factory().invokeBasic(type, form, clauseData,
+                    collectArgs, unboxResult);
         } catch (Throwable ex) {
             throw uncaughtException(ex);
         }
@@ -1788,8 +1801,8 @@ abstract class MethodHandleImpl {
         BoundMethodHandle.SpeciesData data = BoundMethodHandle.speciesData_LLLL();
         BoundMethodHandle mh;
         try {
-            mh = (BoundMethodHandle) data.factory().invokeBasic(type, form, (Object) target, (Object) cleanup,
-                    (Object) collectArgs, (Object) unboxResult);
+            mh = (BoundMethodHandle) data.factory().invokeBasic(type, form, target, cleanup,
+                    collectArgs, unboxResult);
         } catch (Throwable ex) {
             throw uncaughtException(ex);
         }
@@ -1900,7 +1913,7 @@ abstract class MethodHandleImpl {
         BoundMethodHandle.SpeciesData data = BoundMethodHandle.speciesData_L();
         BoundMethodHandle mh;
         try {
-            mh = (BoundMethodHandle) data.factory().invokeBasic(type, form, (Object) newArray);
+            mh = (BoundMethodHandle) data.factory().invokeBasic(type, form, newArray);
         } catch (Throwable ex) {
             throw uncaughtException(ex);
         }
@@ -1988,8 +2001,8 @@ abstract class MethodHandleImpl {
         BoundMethodHandle mh;
         CasesHolder caseHolder =  new CasesHolder(caseActions);
         try {
-            mh = (BoundMethodHandle) data.factory().invokeBasic(type, form, (Object) defaultCase, (Object) collectArgs,
-                                                                (Object) unboxResult, (Object) caseHolder);
+            mh = (BoundMethodHandle) data.factory().invokeBasic(type, form, defaultCase, collectArgs,
+                    unboxResult, caseHolder);
         } catch (Throwable ex) {
             throw uncaughtException(ex);
         }

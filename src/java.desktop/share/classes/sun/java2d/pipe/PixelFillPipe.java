@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.pipe;
+package java.desktop.share.classes.sun.java2d.pipe;
 
-import sun.java2d.SunGraphics2D;
+
+import java.desktop.share.classes.sun.java2d.SunGraphics2D;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface defines the set of calls that pipeline objects

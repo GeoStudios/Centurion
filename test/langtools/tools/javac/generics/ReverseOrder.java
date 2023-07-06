@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.reverseOrder;
+
+
+import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4898502
@@ -28,9 +46,7 @@
  * @compile  ReverseOrder.java
  */
 
-package test.reverseOrder;
 
-import java.util.*;
 
 class ReverseOrder {
     static {

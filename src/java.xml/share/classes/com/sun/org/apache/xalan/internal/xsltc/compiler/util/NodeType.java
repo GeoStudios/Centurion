@@ -19,25 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.compiler.util;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util;
 
-import com.sun.org.apache.bcel.internal.generic.BranchHandle;
-import com.sun.org.apache.bcel.internal.generic.CHECKCAST;
-import com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
-import com.sun.org.apache.bcel.internal.generic.GETFIELD;
-import com.sun.org.apache.bcel.internal.generic.GOTO;
-import com.sun.org.apache.bcel.internal.generic.IFEQ;
-import com.sun.org.apache.bcel.internal.generic.ILOAD;
-import com.sun.org.apache.bcel.internal.generic.INVOKEINTERFACE;
-import com.sun.org.apache.bcel.internal.generic.INVOKESPECIAL;
-import com.sun.org.apache.bcel.internal.generic.ISTORE;
-import com.sun.org.apache.bcel.internal.generic.Instruction;
-import com.sun.org.apache.bcel.internal.generic.InstructionList;
-import com.sun.org.apache.bcel.internal.generic.NEW;
-import com.sun.org.apache.bcel.internal.generic.PUSH;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.Constants;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.FlowList;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.NodeTest;
+
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.BranchHandle;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.CHECKCAST;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.GETFIELD;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.GOTO;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.IFEQ;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ILOAD;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.INVOKEINTERFACE;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.INVOKESPECIAL;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ISTORE;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Instruction;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Instructionjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.NEW;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.PUSH;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.Constants;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.Flowjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.NodeTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @LastModified: Oct 2017

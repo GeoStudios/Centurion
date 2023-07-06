@@ -21,11 +21,24 @@
 
 package java.lang.invoke;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
-import static java.lang.invoke.MethodHandleNatives.Constants.*;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
+import static java.lang.invoke.MethodHandleNatives.Constants.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper class, injected into java.lang.invoke,

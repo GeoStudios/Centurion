@@ -19,11 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole.inspector;
+package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
-// java import
+
 import java.awt.*;
 import javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// java import
 //
 
 public class ThreadDialog implements Runnable {

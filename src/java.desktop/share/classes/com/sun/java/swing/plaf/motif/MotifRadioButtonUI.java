@@ -19,20 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.motif;
+package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Rectangle;
 
+import java.desktop.share.classes.com.sun.java.awt.Color;
+import java.desktop.share.classes.com.sun.java.awt.Dimension;
+import java.desktop.share.classes.com.sun.java.awt.Graphics;
+import java.desktop.share.classes.com.sun.java.awt.Rectangle;
 import javax.swing.AbstractButton;
 import javax.swing.JComponent;
 import javax.swing.UIManager;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicRadioButtonUI;
+import java.desktop.share.classes.com.sun.awt.AppContext;
 
-import sun.awt.AppContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * RadioButtonUI implementation for MotifRadioButtonUI

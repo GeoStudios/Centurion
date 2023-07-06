@@ -21,14 +21,27 @@
 
 package jdk.jfr.event.gc.detailed;
 
+
 import java.io.File;
 import java.nio.file.Paths;
-import java.util.List;
-
+import java.util.java.util.java.util.java.util.List;
 import jdk.jfr.consumer.RecordedEvent;
 import jdk.jfr.consumer.RecordingFile;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.jfr.Events;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PromotionFailedEvent {
 

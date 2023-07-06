@@ -18,20 +18,36 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.connection;
 
-import com.sun.hotspot.igv.data.GraphDocument;
-import com.sun.hotspot.igv.data.services.GroupCallback;
-import com.sun.hotspot.igv.settings.Settings;
-import java.io.IOException;
-import java.net.InetSocketAddress;
-import java.nio.channels.ServerSocketChannel;
-import java.nio.channels.SocketChannel;
-import java.util.prefs.PreferenceChangeEvent;
-import java.util.prefs.PreferenceChangeListener;
+package utils.IdealGraphVisualizer.NetworkConnection.src.main.java.com.sun.hotspot.igv.connection;
+
+
+import utils.IdealGraphVisualizer.NetworkConnection.src.main.java.com.sun.hotspot.igv.data.GraphDocument;
+import utils.IdealGraphVisualizer.NetworkConnection.src.main.java.com.sun.hotspot.igv.data.services.GroupCallback;
+import utils.IdealGraphVisualizer.NetworkConnection.src.main.java.com.sun.hotspot.igv.settings.Settings;
+import utils.IdealGraphVisualizer.NetworkConnection.src.main.java.io.java.io.java.io.java.io.IOException;
+import utils.IdealGraphVisualizer.NetworkConnection.src.main.java.net.Inetjava.net.SocketAddress;
+import utils.IdealGraphVisualizer.NetworkConnection.src.main.java.nio.channels.java.net.ServerSocketChannel;
+import utils.IdealGraphVisualizer.NetworkConnection.src.main.java.nio.channels.java.net.SocketChannel;
+import utils.IdealGraphVisualizer.NetworkConnection.src.main.java.util.prefs.PreferenceChangeEvent;
+import utils.IdealGraphVisualizer.NetworkConnection.src.main.java.util.prefs.PreferenceChangejava.util.Listener;
 import org.openide.DialogDisplayer;
 import org.openide.NotifyDescriptor;
 import org.openide.util.RequestProcessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

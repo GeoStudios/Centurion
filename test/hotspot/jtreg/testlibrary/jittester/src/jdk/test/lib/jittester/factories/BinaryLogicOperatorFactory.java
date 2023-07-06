@@ -21,6 +21,7 @@
 
 package jdk.test.lib.jittester.factories;
 
+
 import jdk.test.lib.util.Pair;
 import jdk.test.lib.jittester.BinaryOperator;
 import jdk.test.lib.jittester.IRNode;
@@ -28,9 +29,22 @@ import jdk.test.lib.jittester.OperatorKind;
 import jdk.test.lib.jittester.ProductionFailedException;
 import jdk.test.lib.jittester.SymbolTable;
 import jdk.test.lib.jittester.Type;
-import jdk.test.lib.jittester.TypeList;
+import jdk.test.lib.jittester.Typejava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.PseudoRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class BinaryLogicOperatorFactory extends BinaryOperatorFactory {
     BinaryLogicOperatorFactory(OperatorKind opKind, long complexityLimit, int operatorLimit,

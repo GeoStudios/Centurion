@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.common;
 
-import java.util.ArrayList;
-import java.util.Locale;
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.common.src.jdk.vm.ci.common;
+
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Indicates a condition in JVMCI related code that should never occur during normal operation.

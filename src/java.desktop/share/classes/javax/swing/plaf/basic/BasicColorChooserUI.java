@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.basic;
+package java.desktop.share.classes.javax.swing.plaf.basic;
 
-import javax.swing.*;
-import javax.swing.colorchooser.*;
-import javax.swing.event.*;
-import javax.swing.border.*;
-import javax.swing.plaf.*;
+
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.colorchooser.*;
+import java.desktop.share.classes.javax.swing.event.*;
+import java.desktop.share.classes.javax.swing.border.*;
+import java.desktop.share.classes.javax.swing.plaf.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-
+import java.beans.PropertyChangejava.util.Listener;
 import sun.swing.DefaultLookup;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the basic look and feel for a JColorChooser.

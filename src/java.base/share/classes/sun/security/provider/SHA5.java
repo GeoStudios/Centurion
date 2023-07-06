@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider;
+package java.base.share.classes.sun.security.provider;
 
-import java.util.Arrays;
-import java.util.Objects;
 
-import jdk.internal.vm.annotation.IntrinsicCandidate;
-import static sun.security.provider.ByteArrayAccess.*;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.java.util.Objects;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+import static java.base.share.classes.sun.security.provider.ByteArrayAccess.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements the Secure Hash Algorithm SHA-384 and SHA-512

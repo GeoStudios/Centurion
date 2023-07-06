@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.util.math.intpoly;
+package java.base.share.classes.sun.security.util.math.intpoly;
+
 
 import java.math.BigInteger;
 import java.nio.ByteBuffer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The field of integers modulo a binomial prime. This is a general-purpose

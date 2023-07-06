@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.http;
+package java.base.share.classes.sun.net.www.http;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.NotSerializableException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -29,14 +30,27 @@ import java.net.URL;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.ArrayDeque;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
-
 import jdk.internal.misc.InnocuousThread;
-import sun.security.action.GetIntegerAction;
+import java.base.share.classes.sun.security.action.GetIntegerAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class that implements a cache of idle Http connections for keep-alive

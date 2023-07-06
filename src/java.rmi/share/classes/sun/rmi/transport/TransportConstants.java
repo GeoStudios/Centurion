@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.rmi.transport;
+package java.rmi.share.classes.sun.rmi.transport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TransportConstants {
     /** Transport magic number: "JRMI"*/

@@ -19,6 +19,50 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.vm.ci.runtime.test;
+
+
+import static org.junit.Assert.assertArrayEquals;.extended
+import static org.junit.Assert.assertEquals;.extended
+import static org.junit.Assert.assertFalse;.extended
+import static org.junit.Assert.assertNotNull;.extended
+import static org.junit.Assert.assertTrue;.extended
+import java.lang.annotation.Annotation;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Member;
+import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
+import java.lang.reflect.Type;
+import java.base.share.classes.java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+import org.junit.Assert;
+import org.junit.Test;
+import jdk.vm.ci.meta.ConstantPool;
+import jdk.vm.ci.meta.ExceptionHandler;
+import jdk.vm.ci.meta.ResolvedJavaMethod;
+import jdk.vm.ci.meta.ResolvedJavaMethod.Parameter;
+import jdk.vm.ci.meta.ResolvedJavaType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @requires vm.jvmci
@@ -30,38 +74,10 @@
  * @run junit/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler jdk.vm.ci.runtime.test.TestResolvedJavaMethod
  */
 
-package jdk.vm.ci.runtime.test;
 
-import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertTrue;
 
-import java.lang.annotation.Annotation;
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Member;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
-import java.lang.reflect.Type;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
 
-import org.junit.Assert;
-import org.junit.Test;
 
-import jdk.vm.ci.meta.ConstantPool;
-import jdk.vm.ci.meta.ExceptionHandler;
-import jdk.vm.ci.meta.ResolvedJavaMethod;
-import jdk.vm.ci.meta.ResolvedJavaMethod.Parameter;
-import jdk.vm.ci.meta.ResolvedJavaType;
 
 /**
  * Tests for {@link ResolvedJavaMethod}.

@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.StackFrame.getArgumentValues.getArgumentValues003;
+
+
+import java.io.*;
+import com.sun.jdi.*;
+import nsk.share.Consts;
+import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -43,12 +64,7 @@
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
 
-package nsk.jdi.StackFrame.getArgumentValues.getArgumentValues003;
 
-import java.io.*;
-import com.sun.jdi.*;
-import nsk.share.Consts;
-import nsk.share.jdi.*;
 
 /*
  * Test checks that method 'StackFrame.getArgumentValues()' throws InvalidStackFrameException if this stack

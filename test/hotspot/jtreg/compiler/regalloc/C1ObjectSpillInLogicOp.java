@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.regalloc;
+
+
+import java.util.concurrent.atomic.AtomicReferenceArray;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8027751
@@ -28,9 +46,7 @@
  * @run main/othervm -XX:+UseG1GC compiler.regalloc.C1ObjectSpillInLogicOp
  */
 
-package compiler.regalloc;
 
-import java.util.concurrent.atomic.AtomicReferenceArray;
 
 /*
  * G1 barriers use logical operators (xor) on T_OBJECT mixed with T_LONG or T_INT.

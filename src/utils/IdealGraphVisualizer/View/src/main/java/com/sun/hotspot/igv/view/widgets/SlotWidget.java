@@ -18,24 +18,40 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.view.widgets;
 
-import com.sun.hotspot.igv.graph.Figure;
-import com.sun.hotspot.igv.graph.OutputSlot;
-import com.sun.hotspot.igv.graph.Slot;
-import com.sun.hotspot.igv.util.DoubleClickHandler;
-import com.sun.hotspot.igv.view.DiagramScene;
-import java.awt.BasicStroke;
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Graphics2D;
-import java.awt.Rectangle;
-import java.awt.geom.Rectangle2D;
-import java.util.HashSet;
-import java.util.Set;
+package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.widgets;
+
+
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.graph.Figure;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.graph.OutputSlot;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.graph.Slot;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.util.DoubleClickHandler;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.DiagramScene;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.BasicStroke;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.Color;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.Font;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.Graphics2D;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.Rectangle;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.geom.Rectangle2D;
+import utils.IdealGraphVisualizer.View.src.main.java.util.HashSet;
+import utils.IdealGraphVisualizer.View.src.main.java.util.Set;
 import org.netbeans.api.visual.action.WidgetAction;
 import org.netbeans.api.visual.model.ObjectState;
 import org.netbeans.api.visual.widget.Widget;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

@@ -19,18 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.rsa;
+package java.base.share.classes.sun.security.rsa;
+
 
 import java.util.*;
-
-import java.security.*;
-import java.security.spec.*;
-
-import javax.crypto.BadPaddingException;
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.java.security.spec.*;
+import java.base.share.classes.javax.crypto.BadPaddingException;
 import javax.crypto.spec.PSource;
 import javax.crypto.spec.OAEPParameterSpec;
+import java.base.share.classes.sun.security.jca.JCAUtil;
 
-import sun.security.jca.JCAUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * RSA padding and unpadding.

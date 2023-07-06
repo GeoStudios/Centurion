@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
-import java.lang.reflect.Field;
+
+import java.base.share.classes.java.lang.reflect.Field;
 import jdk.internal.reflect.CallerSensitive;
 import jdk.internal.reflect.Reflection;
 import sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A description of a Serializable field from a Serializable class.  An array

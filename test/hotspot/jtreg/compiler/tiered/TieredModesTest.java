@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.tiered;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TieredModesTest
  * @summary Check that non-default tiered compilation modes tolerate invalid TieredStopAtLevel values
@@ -36,7 +53,6 @@
  *                   compiler.tiered.TieredModesTest
  */
 
-package compiler.tiered;
 
 public class TieredModesTest {
     public static int sideEffect = 0;

@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.startup;
+
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.Platform;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8034775
@@ -31,11 +51,7 @@
  * @run driver compiler.startup.NumCompilerThreadsCheck
  */
 
-package compiler.startup;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.Platform;
-import jdk.test.lib.process.ProcessTools;
 
 public class NumCompilerThreadsCheck {
 

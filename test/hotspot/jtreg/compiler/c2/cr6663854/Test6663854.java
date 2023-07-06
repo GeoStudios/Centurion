@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2.cr6663854;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6663854
@@ -27,7 +44,6 @@
  * @run main/othervm -Xcomp compiler.c2.cr6663854.Test6663854
  */
 
-package compiler.c2.cr6663854;
 // This is a randomly generated test that exposed a crash so don't try
 // to make sense of what's it's doing.  The output produced is likely
 // to be stable but it is not being checked as part of this test.

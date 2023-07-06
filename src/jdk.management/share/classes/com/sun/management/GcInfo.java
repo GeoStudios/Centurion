@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.management;
+package jdk.management.share.classes.com.sun.management;
+
 
 import java.lang.management.MemoryUsage;
 import javax.management.openmbean.CompositeData;
@@ -29,8 +30,22 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
-import com.sun.management.internal.GcInfoCompositeData;
-import com.sun.management.internal.GcInfoBuilder;
+import jdk.management.share.classes.com.sun.management.internal.GcInfoCompositeData;
+import jdk.management.share.classes.com.sun.management.internal.GcInfoBuilder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Garbage collection information.  It contains the following

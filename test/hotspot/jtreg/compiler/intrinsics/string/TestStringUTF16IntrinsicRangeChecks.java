@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.string;
+
+
+import java.lang.reflect.Field;
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8158168
@@ -28,10 +47,7 @@
  * @run main/othervm -Xbatch -XX:CompileThreshold=100 -XX:+UnlockDiagnosticVMOptions -XX:DisableIntrinsic=_getCharStringU,_putCharStringU compiler.intrinsics.string.TestStringUTF16IntrinsicRangeChecks
  * @run main/othervm -Xbatch -XX:CompileThreshold=100 -esa -ea -XX:+UnlockDiagnosticVMOptions -XX:DisableIntrinsic=_getCharStringU,_putCharStringU compiler.intrinsics.string.TestStringUTF16IntrinsicRangeChecks
  */
-package compiler.intrinsics.string;
 
-import java.lang.reflect.Field;
-import java.util.Arrays;
 
 public class TestStringUTF16IntrinsicRangeChecks {
 

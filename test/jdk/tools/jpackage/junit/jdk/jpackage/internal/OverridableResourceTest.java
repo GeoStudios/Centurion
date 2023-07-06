@@ -21,26 +21,40 @@
 
 package jdk.jpackage.internal;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import jdk.jpackage.internal.resources.ResourceLocator;
-import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.CoreMatchers.not;
-import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.assertThat;
+import static org.hamcrest.CoreMatchers.is;.extended
+import static org.hamcrest.CoreMatchers.not;.extended
+import static org.junit.Assert.assertArrayEquals;.extended
+import static org.junit.Assert.assertEquals;.extended
+import static org.junit.Assert.assertFalse;.extended
+import static org.junit.Assert.assertTrue;.extended
+import static org.junit.Assert.assertThat;.extended
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TemporaryFolder;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class OverridableResourceTest {
 

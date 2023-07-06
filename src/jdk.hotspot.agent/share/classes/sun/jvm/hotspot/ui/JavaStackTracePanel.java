@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.ui;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
+
 
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.event.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.classbrowser.*;
 
-import sun.jvm.hotspot.runtime.*;
-import sun.jvm.hotspot.ui.classbrowser.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Provides Java stack trace of a Java Thread */
 

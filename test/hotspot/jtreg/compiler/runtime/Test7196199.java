@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.runtime;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7196199
@@ -31,7 +48,6 @@
  *      compiler.runtime.Test7196199
  */
 
-package compiler.runtime;
 
 public class Test7196199 {
     private static final int ARRLEN = 97;

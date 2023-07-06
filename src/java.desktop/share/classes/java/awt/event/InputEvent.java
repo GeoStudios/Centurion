@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.event;
+package java.desktop.share.classes.java.awt.event;
 
-import java.awt.Component;
-import java.awt.Event;
-import java.awt.GraphicsEnvironment;
-import java.awt.Toolkit;
-import java.io.Serial;
-import java.util.Arrays;
 
+import java.desktop.share.classes.java.awt.Component;
+import java.desktop.share.classes.java.awt.Event;
+import java.desktop.share.classes.java.awt.GraphicsEnvironment;
+import java.desktop.share.classes.java.awt.Toolkit;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays;
 import sun.awt.AWTAccessor;
 import sun.awt.AWTPermissions;
 import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The root event class for all component-level input events.

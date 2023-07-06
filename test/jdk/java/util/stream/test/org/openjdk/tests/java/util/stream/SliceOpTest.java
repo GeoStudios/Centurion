@@ -19,15 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * @test
- * @bug 8148250 8265029
- */
-
 package org.openjdk.tests.java.util.stream;
 
-import org.testng.annotations.Test;
 
+import org.testng.annotations.Test;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Consumer;
@@ -42,8 +37,29 @@ import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 import java.util.stream.StreamTestDataProvider;
 import java.util.stream.TestData;
+import static java.util.stream.LambdaTestHelpers.*;.extended
 
-import static java.util.stream.LambdaTestHelpers.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * @test
+ * @bug 8148250 8265029
+ */
+
+
+
+
 
 /**
  * SliceOpTest

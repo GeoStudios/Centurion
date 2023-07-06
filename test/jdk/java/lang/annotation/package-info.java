@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package foo.bar;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4901290 5037531
@@ -30,6 +47,5 @@
  */
 
 @Deprecated
-package foo.bar;
 
 class Baz {}

@@ -19,14 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.opti;
+
+
+import java.xml.share.classes.com.sun.org.w3c.dom.Text;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.impl.xs.opti;
 
-import org.w3c.dom.Text;
-import org.w3c.dom.DOMException;
+
 
 /*
  */

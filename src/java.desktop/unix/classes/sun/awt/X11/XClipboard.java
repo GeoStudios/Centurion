@@ -19,20 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.DataFlavor;
 import java.util.SortedMap;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.AccessController;
 import java.util.HashMap;
 import java.util.Map;
-import sun.awt.UNIXToolkit;
-import sun.awt.datatransfer.DataTransferer;
-import sun.awt.datatransfer.SunClipboard;
-import sun.awt.datatransfer.ClipboardTransferable;
-import sun.security.action.GetIntegerAction;
+import java.desktop.unix.classes.sun.awt.UNIXToolkit;
+import java.desktop.unix.classes.sun.awt.datatransfer.DataTransferer;
+import java.desktop.unix.classes.sun.awt.datatransfer.SunClipboard;
+import java.desktop.unix.classes.sun.awt.datatransfer.ClipboardTransferable;
+import java.desktop.unix.classes.sun.security.action.GetIntegerAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class which interfaces with the X11 selection service in order to support

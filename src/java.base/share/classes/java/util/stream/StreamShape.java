@@ -18,7 +18,24 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.util.stream;
+
+package java.base.share.classes.java.util.stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An enum describing the known shape specializations for stream abstractions.

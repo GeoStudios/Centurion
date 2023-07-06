@@ -21,8 +21,22 @@
 
 package pkg;
 
+
 import java.lang.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TestTagInheritence extends TestAbstractClass implements TestInterface{
 

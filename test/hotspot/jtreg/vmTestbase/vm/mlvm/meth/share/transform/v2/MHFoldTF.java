@@ -21,13 +21,26 @@
 
 package vm.mlvm.meth.share.transform.v2;
 
+
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
-import java.util.Arrays;
-
+import java.base.share.classes.java.util.Arrays;
 import nsk.share.test.TestUtils;
 import vm.mlvm.meth.share.Argument;
 import vm.mlvm.meth.share.MHUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MHFoldTF extends MHNaryTF {
 

@@ -19,26 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.compiler;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-import com.sun.org.apache.bcel.internal.classfile.JavaClass;
-import com.sun.org.apache.xalan.internal.utils.XMLSecurityManager;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.Util;
-import com.sun.org.apache.xml.internal.dtm.DTM;
+
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.JavaClass;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.utils.XMLSecurityManager;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.Util;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Properties;
 import java.util.jar.Attributes;
 import java.util.jar.JarEntry;
@@ -50,8 +51,22 @@ import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkXmlFeatures;
 import jdk.xml.internal.JdkXmlUtils;
 import jdk.xml.internal.SecuritySupport;
-import org.xml.sax.InputSource;
-import org.xml.sax.XMLReader;
+import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
+import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @LastModified: May 2021

@@ -19,31 +19,46 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.parsers;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
 
-import com.sun.org.apache.xerces.internal.impl.Constants;
-import com.sun.org.apache.xerces.internal.util.FeatureState;
-import com.sun.org.apache.xerces.internal.util.ParserConfigurationSettings;
-import com.sun.org.apache.xerces.internal.util.PropertyState;
-import com.sun.org.apache.xerces.internal.util.Status;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
-import com.sun.org.apache.xerces.internal.xni.XMLDTDContentModelHandler;
-import com.sun.org.apache.xerces.internal.xni.XMLDTDHandler;
-import com.sun.org.apache.xerces.internal.xni.XMLDocumentHandler;
-import com.sun.org.apache.xerces.internal.xni.XNIException;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponent;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentSource;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLEntityResolver;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLErrorHandler;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLParserConfiguration;
-import java.io.IOException;
-import java.util.ArrayList;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.FeatureState;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.ParserConfigurationSettings;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.PropertyState;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.Status;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDTDContentModelHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDTDHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDocumentHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponent;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentSource;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLEntityResolver;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLErrorHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLParserConfiguration;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A very basic parser configuration. This configuration class can

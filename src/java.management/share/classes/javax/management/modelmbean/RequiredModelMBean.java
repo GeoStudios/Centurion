@@ -19,62 +19,78 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.modelmbean;
+package java.management.share.classes.javax.management.modelmbean;
 
-/* java imports */
 
-import static com.sun.jmx.defaults.JmxProperties.MODELMBEAN_LOGGER;
+import static com.sun.jmx.defaults.JmxProperties.MODELMBEAN_LOGGER;.extended
 import java.io.FileOutputStream;
 import java.io.PrintStream;
 import java.lang.reflect.InvocationTargetException;
-
 import java.lang.reflect.Method;
 import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-
 import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.lang.System.Logger.Level;
 import java.util.Map;
 import java.util.Set;
-
 import java.util.Vector;
-import javax.management.Attribute;
-import javax.management.AttributeChangeNotification;
-import javax.management.AttributeChangeNotificationFilter;
-import javax.management.AttributeList;
-import javax.management.AttributeNotFoundException;
-import javax.management.Descriptor;
-import javax.management.InstanceNotFoundException;
-import javax.management.InvalidAttributeValueException;
-import javax.management.ListenerNotFoundException;
-import javax.management.MBeanAttributeInfo;
-import javax.management.MBeanConstructorInfo;
-import javax.management.MBeanException;
-import javax.management.MBeanInfo;
-import javax.management.MBeanNotificationInfo;
-import javax.management.MBeanOperationInfo;
-import javax.management.MBeanRegistration;
-import javax.management.MBeanServer;
-import javax.management.MBeanServerFactory;
-import javax.management.Notification;
-import javax.management.NotificationBroadcasterSupport;
-import javax.management.NotificationEmitter;
-import javax.management.NotificationFilter;
-import javax.management.NotificationListener;
-import javax.management.ObjectName;
-import javax.management.ReflectionException;
-import javax.management.RuntimeErrorException;
-import javax.management.RuntimeOperationsException;
-import javax.management.ServiceNotFoundException;
-import javax.management.loading.ClassLoaderRepository;
+import java.management.share.classes.javax.management.Attribute;
+import java.management.share.classes.javax.management.AttributeChangeNotification;
+import java.management.share.classes.javax.management.AttributeChangeNotificationFilter;
+import java.management.share.classes.javax.management.Attributejava.util.java.util.java.util.List;
+import java.management.share.classes.javax.management.AttributeNotFoundException;
+import java.management.share.classes.javax.management.Descriptor;
+import java.management.share.classes.javax.management.InstanceNotFoundException;
+import java.management.share.classes.javax.management.InvalidAttributeValueException;
+import java.management.share.classes.javax.management.java.util.ListenerNotFoundException;
+import java.management.share.classes.javax.management.MBeanAttributeInfo;
+import java.management.share.classes.javax.management.MBeanConstructorInfo;
+import java.management.share.classes.javax.management.MBeanException;
+import java.management.share.classes.javax.management.MBeanInfo;
+import java.management.share.classes.javax.management.MBeanNotificationInfo;
+import java.management.share.classes.javax.management.MBeanOperationInfo;
+import java.management.share.classes.javax.management.MBeanRegistration;
+import java.management.share.classes.javax.management.MBeanServer;
+import java.management.share.classes.javax.management.MBeanServerFactory;
+import java.management.share.classes.javax.management.Notification;
+import java.management.share.classes.javax.management.NotificationBroadcasterSupport;
+import java.management.share.classes.javax.management.NotificationEmitter;
+import java.management.share.classes.javax.management.NotificationFilter;
+import java.management.share.classes.javax.management.Notificationjava.util.Listener;
+import java.management.share.classes.javax.management.ObjectName;
+import java.management.share.classes.javax.management.ReflectionException;
+import java.management.share.classes.javax.management.RuntimeErrorException;
+import java.management.share.classes.javax.management.RuntimeOperationsException;
+import java.management.share.classes.javax.management.ServiceNotFoundException;
+import java.management.share.classes.javax.management.loading.ClassLoaderRepository;
 import jdk.internal.access.JavaSecurityAccess;
-import jdk.internal.access.SharedSecrets;
-
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import sun.reflect.misc.MethodUtil;
 import sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* java imports */
+
+
+
+
+
 
 /**
  * This class is the implementation of a ModelMBean. An appropriate
@@ -2353,7 +2369,7 @@ public class RequiredModelMBean
         //
         final int count  = currInfo.length;
         final int offset = inserted;
-        System.arraycopy(currInfo, 0, respInfo, offset + 0, count);
+        System.arraycopy(currInfo, 0, respInfo, offset, count);
 
         if (MODELMBEAN_LOGGER.isLoggable(Level.TRACE)) {
             MODELMBEAN_LOGGER.log(Level.TRACE, "Exit");

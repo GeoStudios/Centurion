@@ -19,30 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
 
-import com.sun.org.apache.xerces.internal.util.NamespaceContextWrapper;
-import com.sun.org.apache.xerces.internal.util.NamespaceSupport;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
-import com.sun.org.apache.xerces.internal.util.XMLAttributesImpl;
-import com.sun.org.apache.xerces.internal.util.XMLChar;
-import com.sun.org.apache.xerces.internal.util.XMLStringBuffer;
-import com.sun.org.apache.xerces.internal.xni.XNIException;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
-import com.sun.xml.internal.stream.Entity;
-import com.sun.xml.internal.stream.StaxErrorReporter;
-import com.sun.xml.internal.stream.XMLEntityStorage;
-import com.sun.xml.internal.stream.dtd.nonvalidating.DTDGrammar;
-import com.sun.xml.internal.stream.dtd.nonvalidating.XMLNotationDecl;
-import com.sun.xml.internal.stream.events.EntityDeclarationImpl;
-import com.sun.xml.internal.stream.events.NotationDeclarationImpl;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.NamespaceContextWrapper;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.NamespaceSupport;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLAttributesImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLStringBuffer;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
+import java.xml.share.classes.com.sun.xml.internal.stream.Entity;
+import java.xml.share.classes.com.sun.xml.internal.stream.StaxErrorReporter;
+import java.xml.share.classes.com.sun.xml.internal.stream.XMLEntityStorage;
+import java.xml.share.classes.com.sun.xml.internal.stream.dtd.nonvalidating.DTDGrammar;
+import java.xml.share.classes.com.sun.xml.internal.stream.dtd.nonvalidating.XMLNotationDecl;
+import java.xml.share.classes.com.sun.xml.internal.stream.events.EntityDeclarationImpl;
+import java.xml.share.classes.com.sun.xml.internal.stream.events.NotationDeclarationImpl;
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.Reader;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import javax.xml.XMLConstants;
 import javax.xml.namespace.NamespaceContext;
@@ -54,6 +55,20 @@ import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.events.EntityDeclaration;
 import javax.xml.stream.events.NotationDeclaration;
 import javax.xml.stream.events.XMLEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements javax.xml.stream.XMLStreamReader. It makes use of

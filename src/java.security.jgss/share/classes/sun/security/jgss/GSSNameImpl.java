@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jgss;
+package java.security.jgss.share.classes.sun.security.jgss;
+
 
 import org.ietf.jgss.*;
-import sun.security.jgss.spi.*;
+import java.security.jgss.share.classes.sun.security.jgss.spi.*;
 import java.util.Set;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Arrays;
-import java.io.IOException;
-import sun.security.util.ObjectIdentifier;
-import sun.security.util.DerInputStream;
-import sun.security.util.DerOutputStream;
+import java.base.share.classes.java.util.Arrays;
+import java.io.java.io.java.io.java.io.IOException;
+import java.security.jgss.share.classes.sun.security.util.ObjectIdentifier;
+import java.security.jgss.share.classes.sun.security.util.DerInputStream;
+import java.security.jgss.share.classes.sun.security.util.DerOutputStream;
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
 
-import static java.nio.charset.StandardCharsets.UTF_8;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the implementation class for GSSName. Conceptually the

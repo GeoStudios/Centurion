@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.jfr.internal.jfc.model;
+
+package jdk.jfr.share.classes.jdk.jfr.internal.jfc.model;
+
 
 import java.text.ParseException;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Corresponds to <test>
 final class XmlTest extends XmlExpression {

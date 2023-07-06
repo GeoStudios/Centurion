@@ -19,20 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal.crypto.dk;
+package java.security.jgss.share.classes.sun.security.krb5.internal.crypto.dk;
 
-import javax.crypto.Cipher;
+
+import java.base.share.classes.javax.crypto.Cipher;
 import javax.crypto.Mac;
 import javax.crypto.SecretKeyFactory;
-import javax.crypto.SecretKey;
-import javax.crypto.spec.SecretKeySpec;
+import java.base.share.classes.javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.spec.SecretKeySpec;
 import javax.crypto.spec.DESKeySpec;
-import javax.crypto.spec.DESedeKeySpec;
+import java.base.share.classes.javax.crypto.spec.DESedeKeySpec;
 import javax.crypto.spec.IvParameterSpec;
-import java.security.spec.KeySpec;
+import java.base.share.classes.java.security.spec.KeySpec;
 import java.security.GeneralSecurityException;
-import java.security.InvalidKeyException;
-import java.util.Arrays;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Des3DkCrypto extends DkCrypto {
 

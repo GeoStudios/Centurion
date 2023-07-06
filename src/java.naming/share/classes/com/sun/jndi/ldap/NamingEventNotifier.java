@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap;
+package java.naming.share.classes.com.sun.jndi.ldap;
+
 
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.event.*;
 import javax.naming.ldap.*;
 import javax.naming.ldap.LdapName;
-
 import java.util.Vector;
-import com.sun.jndi.toolkit.ctx.Continuation;
+import java.naming.share.classes.com.sun.jndi.toolkit.ctx.Continuation;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * Gathers information to generate events by using the Persistent Search
@@ -52,7 +66,7 @@ final class NamingEventNotifier implements Runnable {
     private final EventSupport support;
     private NamingEnumeration<SearchResult> results;
 
-    // package private; used by EventSupport to remove it
+    //  used by EventSupport to remove it
     NotifierArgs info;
 
     NamingEventNotifier(EventSupport support, LdapCtx ctx, NotifierArgs info,
@@ -86,17 +100,17 @@ final class NamingEventNotifier implements Runnable {
         worker.start();
     }
 
-    // package private; used by EventSupport; namingListener already synchronized
+    //  used by EventSupport; namingListener already synchronized
     void addNamingListener(NamingListener l) {
         namingListeners.addElement(l);
     }
 
-    // package private; used by EventSupport; namingListener already synchronized
+    //  used by EventSupport; namingListener already synchronized
     void removeNamingListener(NamingListener l) {
         namingListeners.removeElement(l);
     }
 
-    // package private; used by EventSupport; namingListener already synchronized
+    //  used by EventSupport; namingListener already synchronized
     boolean hasNamingListeners() {
         return namingListeners.size() > 0;
     }
@@ -198,7 +212,7 @@ final class NamingEventNotifier implements Runnable {
 
     /**
      * Stop the dispatcher so we can be destroyed.
-     * package private; used by EventSupport
+     *  used by EventSupport
      */
     void stop() {
         if (debug) System.err.println("NamingEventNotifier being stopping");

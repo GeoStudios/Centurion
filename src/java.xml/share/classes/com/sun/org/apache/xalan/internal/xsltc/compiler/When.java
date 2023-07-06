@@ -19,19 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
+
+
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.BooleanType;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ClassGenerator;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.MethodGenerator;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.TypeCheckError;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.Util;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.BooleanType;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ClassGenerator;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.MethodGenerator;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.TypeCheckError;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.Util;
+
 
 /**
  */

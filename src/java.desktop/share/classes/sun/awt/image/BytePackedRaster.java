@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.image;
+package java.desktop.share.classes.sun.awt.image;
+
 
 import java.awt.Point;
 import java.awt.Rectangle;
@@ -30,6 +31,20 @@ import java.awt.image.Raster;
 import java.awt.image.RasterFormatException;
 import java.awt.image.SampleModel;
 import java.awt.image.WritableRaster;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is useful for describing 1, 2, or 4 bit image data

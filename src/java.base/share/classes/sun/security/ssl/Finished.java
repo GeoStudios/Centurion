@@ -19,35 +19,49 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.security.GeneralSecurityException;
-import java.security.InvalidKeyException;
+import java.base.share.classes.java.security.InvalidKeyException;
 import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.security.ProviderException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.ProviderException;
 import java.security.spec.AlgorithmParameterSpec;
 import java.text.MessageFormat;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import javax.crypto.KeyGenerator;
 import javax.crypto.Mac;
-import javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.SecretKey;
 import javax.crypto.spec.IvParameterSpec;
-import javax.crypto.spec.SecretKeySpec;
+import java.base.share.classes.javax.crypto.spec.SecretKeySpec;
 import javax.net.ssl.SSLPeerUnverifiedException;
-
 import jdk.internal.event.EventHelper;
 import jdk.internal.event.TLSHandshakeEvent;
-import sun.security.internal.spec.TlsPrfParameterSpec;
-import sun.security.ssl.CipherSuite.HashAlg;
-import static sun.security.ssl.CipherSuite.HashAlg.H_NONE;
-import sun.security.ssl.SSLBasicKeyDerivation.SecretSizeSpec;
-import sun.security.ssl.SSLCipher.SSLReadCipher;
-import sun.security.ssl.SSLCipher.SSLWriteCipher;
-import sun.security.ssl.SSLHandshake.HandshakeMessage;
-import sun.security.util.HexDumpEncoder;
+import java.base.share.classes.sun.security.internal.spec.TlsPrfParameterSpec;
+import java.base.share.classes.sun.security.ssl.CipherSuite.HashAlg;
+import static java.base.share.classes.sun.security.ssl.CipherSuite.HashAlg.H_NONE;.extended
+import java.base.share.classes.sun.security.ssl.SSLBasicKeyDerivation.SecretSizeSpec;
+import java.base.share.classes.sun.security.ssl.SSLCipher.SSLReadCipher;
+import java.base.share.classes.sun.security.ssl.SSLCipher.SSLWriteCipher;
+import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
+import java.base.share.classes.sun.security.util.HexDumpEncoder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Pack of the Finished handshake message.

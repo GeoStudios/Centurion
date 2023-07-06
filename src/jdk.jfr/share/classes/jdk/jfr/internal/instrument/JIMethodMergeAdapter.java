@@ -19,24 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.instrument;
+package jdk.jfr.share.classes.jdk.jfr.internal.instrument;
+
 
 import java.lang.reflect.Method;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.ClassVisitor;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.MethodVisitor;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.Type;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.commons.RemappingMethodAdapter;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.commons.SimpleRemapper;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.tree.ClassNode;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.tree.MethodNode;
+import jdk.jfr.share.classes.jdk.jfr.internal.LogLevel;
+import jdk.jfr.share.classes.jdk.jfr.internal.LogTag;
+import jdk.jfr.share.classes.jdk.jfr.internal.Logger;
 
-import jdk.internal.org.objectweb.asm.ClassVisitor;
-import jdk.internal.org.objectweb.asm.MethodVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.Type;
-import jdk.internal.org.objectweb.asm.commons.RemappingMethodAdapter;
-import jdk.internal.org.objectweb.asm.commons.SimpleRemapper;
-import jdk.internal.org.objectweb.asm.tree.ClassNode;
-import jdk.internal.org.objectweb.asm.tree.MethodNode;
-import jdk.jfr.internal.LogLevel;
-import jdk.jfr.internal.LogTag;
-import jdk.jfr.internal.Logger;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class will merge (some) methods from one class into another one.

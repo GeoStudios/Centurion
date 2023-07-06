@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.ref;
+package java.base.share.classes.java.lang.ref;
 
 
-import java.util.Map;
-import java.util.HashMap;
-import java.util.Arrays;
-import java.util.Comparator;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.HashMap;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.Comparator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This FinalizerHistogram class is for GC.finalizer_info diagnostic command support.

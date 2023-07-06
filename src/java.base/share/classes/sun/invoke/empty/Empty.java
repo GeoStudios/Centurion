@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.invoke.empty;
+package java.base.share.classes.sun.invoke.empty;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An empty class in an empty package.

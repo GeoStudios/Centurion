@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.reflect;
+package java.base.share.classes.jdk.internal.reflect;
+
 
 import java.lang.annotation.*;
-import static java.lang.annotation.ElementType.*;
+import static java.lang.annotation.ElementType.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A method annotated @CallerSensitive is sensitive to its calling class,

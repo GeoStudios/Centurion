@@ -19,23 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.motif;
+package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-import java.awt.Point;
-import java.awt.event.MouseEvent;
-import java.io.Serializable;
 
+import java.desktop.share.classes.com.sun.java.awt.Point;
+import java.desktop.share.classes.com.sun.java.awt.event.MouseEvent;
+import java.desktop.share.classes.com.sun.java.io.Serializable;
 import javax.swing.JComponent;
 import javax.swing.JMenuItem;
 import javax.swing.LookAndFeel;
 import javax.swing.MenuSelectionManager;
 import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-import javax.swing.event.MouseInputListener;
+import javax.swing.event.Changejava.util.Listener;
+import javax.swing.event.MouseInputjava.util.Listener;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicRadioButtonMenuItemUI;
+import java.desktop.share.classes.com.sun.swing.SwingUtilities2;
 
-import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * MotifRadioButtonMenuItem implementation

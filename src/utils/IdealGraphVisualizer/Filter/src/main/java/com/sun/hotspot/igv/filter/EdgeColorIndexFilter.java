@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.filter;
 
-import com.sun.hotspot.igv.graph.*;
-import java.awt.Color;
-import java.util.List;
+package utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.filter;
+
+
+import utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.graph.*;
+import utils.IdealGraphVisualizer.Filter.src.main.java.awt.Color;
+import utils.IdealGraphVisualizer.Filter.src.main.java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class EdgeColorIndexFilter extends AbstractFilter {
 

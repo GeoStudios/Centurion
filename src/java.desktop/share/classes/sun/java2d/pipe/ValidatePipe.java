@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.pipe;
+package java.desktop.share.classes.sun.java2d.pipe;
+
 
 import java.awt.Color;
 import java.awt.Image;
@@ -28,8 +29,22 @@ import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
 import java.awt.image.BufferedImageOp;
 import java.awt.image.ImageObserver;
-import sun.java2d.SunGraphics2D;
+import java.desktop.share.classes.sun.java2d.SunGraphics2D;
 import java.awt.font.GlyphVector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to force a revalidation of the pipelines of

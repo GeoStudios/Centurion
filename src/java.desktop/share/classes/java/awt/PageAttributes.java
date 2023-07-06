@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.util.Locale;
+
+import java.desktop.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A set of attributes which control the output of a printed page.
@@ -38,7 +53,7 @@ import java.util.Locale;
  * has a public constructor. For example, to set the color state to
  * monochrome, use the following code:
  * <pre>
- * import java.awt.PageAttributes;
+ * import java.desktop.share.classes.java.awt.PageAttributes;
  *
  * public class MonochromeExample {
  *     public void setMonochrome(PageAttributes pageAttributes) {

@@ -18,14 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.settings;
 
-import java.beans.PropertyChangeListener;
-import java.beans.PropertyChangeSupport;
+package utils.IdealGraphVisualizer.Settings.src.main.java.com.sun.hotspot.igv.settings;
+
+
+import utils.IdealGraphVisualizer.Settings.src.main.java.beans.PropertyChangejava.util.Listener;
+import utils.IdealGraphVisualizer.Settings.src.main.java.beans.PropertyChangeSupport;
 import javax.swing.JComponent;
 import org.netbeans.spi.options.OptionsPanelController;
 import org.openide.util.HelpCtx;
 import org.openide.util.Lookup;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

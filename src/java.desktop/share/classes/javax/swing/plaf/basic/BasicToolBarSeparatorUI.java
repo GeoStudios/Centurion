@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.basic;
+package java.desktop.share.classes.javax.swing.plaf.basic;
 
-import javax.swing.*;
+
+import java.desktop.share.classes.javax.swing.*;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Insets;
 import java.awt.Rectangle;
-import javax.swing.JToolBar;
-import javax.swing.plaf.*;
-import javax.swing.plaf.basic.BasicSeparatorUI;
+import java.desktop.share.classes.javax.swing.JToolBar;
+import java.desktop.share.classes.javax.swing.plaf.*;
+import java.desktop.share.classes.javax.swing.plaf.basic.BasicSeparatorUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

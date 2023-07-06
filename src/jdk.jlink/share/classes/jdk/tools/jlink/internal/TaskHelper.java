@@ -18,9 +18,11 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.tools.jlink.internal;
 
-import java.io.IOException;
+package jdk.jlink.share.classes.jdk.tools.jlink.internal;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -31,27 +33,39 @@ import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.HashSet;
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.stream.Stream;
 import java.util.Collections;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.ResourceBundle;
 import java.util.MissingResourceException;
 import java.util.Comparator;
+import jdk.jlink.share.classes.jdk.tools.jlink.builder.DefaultImageBuilder;
+import jdk.jlink.share.classes.jdk.tools.jlink.builder.ImageBuilder;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.Jlink.PluginsConfiguration;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins.DefaultCompressPlugin;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins.DefaultStripDebugPlugin;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins.ExcludeJmodSectionPlugin;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins.PluginsResourceBundle;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.Plugin;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.Plugin.Category;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.PluginException;
 
 
-import jdk.tools.jlink.builder.DefaultImageBuilder;
-import jdk.tools.jlink.builder.ImageBuilder;
-import jdk.tools.jlink.internal.Jlink.PluginsConfiguration;
-import jdk.tools.jlink.internal.plugins.DefaultCompressPlugin;
-import jdk.tools.jlink.internal.plugins.DefaultStripDebugPlugin;
-import jdk.tools.jlink.internal.plugins.ExcludeJmodSectionPlugin;
-import jdk.tools.jlink.internal.plugins.PluginsResourceBundle;
-import jdk.tools.jlink.plugin.Plugin;
-import jdk.tools.jlink.plugin.Plugin.Category;
-import jdk.tools.jlink.plugin.PluginException;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

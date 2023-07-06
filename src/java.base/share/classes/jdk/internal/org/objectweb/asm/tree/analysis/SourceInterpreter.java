@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.org.objectweb.asm.tree.analysis;
+package java.base.share.classes.jdk.internal.org.objectweb.asm.tree.analysis;
+
 
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.Type;
-import jdk.internal.org.objectweb.asm.tree.AbstractInsnNode;
-import jdk.internal.org.objectweb.asm.tree.FieldInsnNode;
-import jdk.internal.org.objectweb.asm.tree.InvokeDynamicInsnNode;
-import jdk.internal.org.objectweb.asm.tree.LdcInsnNode;
-import jdk.internal.org.objectweb.asm.tree.MethodInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Type;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.AbstractInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.FieldInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.InvokeDynamicInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.LdcInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.MethodInsnNode;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An {@link Interpreter} for {@link SourceValue} values.

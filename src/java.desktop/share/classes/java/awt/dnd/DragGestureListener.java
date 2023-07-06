@@ -19,11 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.share.classes.java.awt.dnd;
 
 
-package java.awt.dnd;
+import java.desktop.share.classes.java.util.Eventjava.util.Listener;
 
-import java.util.EventListener;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The listener interface for receiving drag gesture events.

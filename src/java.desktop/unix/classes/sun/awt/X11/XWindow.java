@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.AWTEvent;
 import java.awt.AWTKeyStroke;
@@ -46,17 +47,30 @@ import java.awt.event.PaintEvent;
 import java.awt.image.ColorModel;
 import java.awt.peer.ComponentPeer;
 import java.lang.ref.WeakReference;
+import java.desktop.unix.classes.sun.awt.AWTAccessor;
+import java.desktop.unix.classes.sun.awt.AWTAccessor.ComponentAccessor;
+import java.desktop.unix.classes.sun.awt.PaintEventDispatcher;
+import java.desktop.unix.classes.sun.awt.PeerEvent;
+import java.desktop.unix.classes.sun.awt.SunToolkit;
+import java.desktop.unix.classes.sun.awt.X11ComponentPeer;
+import java.desktop.unix.classes.sun.awt.X11GraphicsConfig;
+import java.desktop.unix.classes.sun.java2d.SunGraphics2D;
+import java.desktop.unix.classes.sun.java2d.SurfaceData;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 
-import sun.awt.AWTAccessor;
-import sun.awt.AWTAccessor.ComponentAccessor;
-import sun.awt.PaintEventDispatcher;
-import sun.awt.PeerEvent;
-import sun.awt.SunToolkit;
-import sun.awt.X11ComponentPeer;
-import sun.awt.X11GraphicsConfig;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.SurfaceData;
-import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class XWindow extends XBaseWindow implements X11ComponentPeer {
     private static final PlatformLogger log = PlatformLogger.getLogger("sun.awt.X11.XWindow");

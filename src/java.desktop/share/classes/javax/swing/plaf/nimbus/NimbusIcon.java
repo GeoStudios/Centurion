@@ -18,22 +18,37 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.plaf.nimbus;
 
-import javax.swing.JComponent;
-import javax.swing.JMenu;
-import javax.swing.JToolBar;
-import javax.swing.Painter;
-import javax.swing.UIManager;
-import javax.swing.plaf.UIResource;
-import javax.swing.plaf.synth.SynthContext;
-import javax.swing.plaf.synth.SynthIcon;
+package java.desktop.share.classes.javax.swing.plaf.nimbus;
 
+
+import java.desktop.share.classes.javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.JMenu;
+import java.desktop.share.classes.javax.swing.JToolBar;
+import java.desktop.share.classes.javax.swing.Painter;
+import java.desktop.share.classes.javax.swing.UIManager;
+import java.desktop.share.classes.javax.swing.plaf.UIResource;
+import java.desktop.share.classes.javax.swing.plaf.synth.SynthContext;
+import java.desktop.share.classes.javax.swing.plaf.synth.SynthIcon;
 import java.awt.BorderLayout;
 import java.awt.Component;
 import java.awt.Graphics2D;
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An icon that delegates to a painter.

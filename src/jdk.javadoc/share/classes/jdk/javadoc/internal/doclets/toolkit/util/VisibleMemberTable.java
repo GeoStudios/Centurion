@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.toolkit.util;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util;
+
 
 import javax.lang.model.element.AnnotationMirror;
 import javax.lang.model.element.Element;
@@ -38,7 +39,7 @@ import javax.lang.model.util.Elements;
 import javax.lang.model.util.SimpleElementVisitor14;
 import javax.lang.model.util.SimpleTypeVisitor14;
 import java.lang.ref.SoftReference;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.EnumMap;
 import java.util.EnumSet;
@@ -46,15 +47,28 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.BaseOptions;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.PropertyUtils;
 
-import jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
-import jdk.javadoc.internal.doclets.toolkit.BaseOptions;
-import jdk.javadoc.internal.doclets.toolkit.PropertyUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class computes the main data structure for the doclet's

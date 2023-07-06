@@ -19,23 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import sun.awt.AWTAccessor;
-
-import javax.swing.plaf.LayerUI;
-import javax.swing.border.Border;
-import javax.accessibility.*;
+import java.desktop.share.classes.javax.swing.plaf.LayerUI;
+import java.desktop.share.classes.javax.swing.border.Border;
+import java.desktop.share.classes.javax.accessibility.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import java.io.IOException;
+import java.beans.PropertyChangejava.util.Listener;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.Serial;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code JLayer} is a universal decorator for Swing components
@@ -54,8 +68,8 @@ import java.security.PrivilegedAction;
  * {@code JLayer} is a good solution if you only need to do custom painting
  * over compound component or catch input events from its subcomponents.
  * <pre>
- * import javax.swing.*;
- * import javax.swing.plaf.LayerUI;
+ * import java.desktop.share.classes.javax.swing.*;
+ * import java.desktop.share.classes.javax.swing.plaf.LayerUI;
  * import java.awt.*;
  *
  * public class JLayerSample {

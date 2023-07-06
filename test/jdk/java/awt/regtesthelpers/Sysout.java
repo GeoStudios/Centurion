@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.awt.regtesthelpers;
+
+
+import java.awt.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
    This class creates a dialog (with the instructions) and is the interface
    for sending text messages to the user.
@@ -31,9 +49,7 @@
    as standalone.
    @build TestDialog
  */
-package test.java.awt.regtesthelpers;
 
-import java.awt.*;
 
 public final class Sysout
 {

@@ -18,15 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text;
+
+package java.desktop.share.classes.javax.swing.text;
+
 
 import java.awt.*;
 import java.util.BitSet;
 import java.util.Vector;
-import javax.swing.SizeRequirements;
-import javax.swing.event.DocumentEvent;
+import java.desktop.share.classes.javax.swing.SizeRequirements;
+import java.desktop.share.classes.javax.swing.event.DocumentEvent;
+import java.desktop.share.classes.javax.swing.text.html.HTML;
 
-import javax.swing.text.html.HTML;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>

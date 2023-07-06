@@ -19,18 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.*;
-
 import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.plaf.UIResource;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIState;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.*;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
 
-import apple.laf.JRSUIState;
-import apple.laf.JRSUIConstants.*;
 
-import com.apple.laf.AquaUtils.RecyclableSingleton;
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // Superclass is not serializable across versions
 public class AquaTableHeaderBorder extends AbstractBorder {

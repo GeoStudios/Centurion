@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang.constant;
 
-import java.lang.invoke.MethodType;
-import java.lang.invoke.TypeDescriptor;
-import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+package java.base.share.classes.java.lang.constant;
+
+
+import java.base.share.classes.java.lang.invoke.MethodType;
+import java.base.share.classes.java.lang.invoke.TypeDescriptor;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.stream.Collectors;
+import java.base.share.classes.java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A <a href="package-summary.html#nominal">nominal descriptor</a> for a

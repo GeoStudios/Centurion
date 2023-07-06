@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.compilercontrol.jcmd;
+
+
+import compiler.compilercontrol.share.SingleCommand;
+import compiler.compilercontrol.share.scenario.Command;
+import compiler.compilercontrol.share.scenario.Scenario;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key randomness
@@ -32,11 +52,7 @@
  * @run driver compiler.compilercontrol.jcmd.AddLogTest
  */
 
-package compiler.compilercontrol.jcmd;
 
-import compiler.compilercontrol.share.SingleCommand;
-import compiler.compilercontrol.share.scenario.Command;
-import compiler.compilercontrol.share.scenario.Scenario;
 
 public class AddLogTest {
     public static void main(String[] args) {

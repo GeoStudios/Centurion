@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.dom;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-import com.sun.org.apache.xerces.internal.impl.dv.ValidatedInfo;
-import com.sun.org.apache.xerces.internal.impl.xs.AttributePSVImpl;
-import com.sun.org.apache.xerces.internal.impl.xs.util.StringListImpl;
-import com.sun.org.apache.xerces.internal.xs.*;
-import com.sun.org.apache.xerces.internal.xs.AttributePSVI;
-import java.io.IOException;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.ValidatedInfo;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.AttributePSVImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.Stringjava.util.ListImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.*;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.AttributePSVI;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.NotSerializableException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Attribute namespace implementation; stores PSVI attribute items.

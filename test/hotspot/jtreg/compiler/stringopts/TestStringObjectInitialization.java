@@ -19,6 +19,21 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.stringopts;
+
+
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -36,9 +51,7 @@
  *                               compiler.stringopts.TestStringObjectInitialization
  */
 
-package compiler.stringopts;
 
-import java.util.Arrays;
 
 public class TestStringObjectInitialization {
 

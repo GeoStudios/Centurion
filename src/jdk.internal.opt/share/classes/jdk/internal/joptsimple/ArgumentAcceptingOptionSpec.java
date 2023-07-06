@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.joptsimple;
+package jdk.internal.opt.share.classes.jdk.internal.joptsimple;
 
-import java.util.ArrayList;
-import java.util.List;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.StringTokenizer;
+import static java.util.Collections.*;.extended
+import static java.util.java.util.java.util.java.util.Objects.*;.extended
+import static jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.Reflection.*;.extended
+import static jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.Strings.*;.extended
 
-import static java.util.Collections.*;
-import static java.util.Objects.*;
 
-import static jdk.internal.joptsimple.internal.Reflection.*;
-import static jdk.internal.joptsimple.internal.Strings.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Specification of an option that accepts an argument.</p>

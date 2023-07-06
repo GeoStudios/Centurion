@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package code;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug     5073060 8075610
@@ -28,7 +45,6 @@
  * @compile GenericsAndPackages.java
  */
 
-package code;
 
 interface HasColor {
     String getColor();

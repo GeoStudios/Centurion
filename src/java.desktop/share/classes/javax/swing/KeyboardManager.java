@@ -18,7 +18,8 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing;
+
+package java.desktop.share.classes.javax.swing;
 
 
 import java.util.*;
@@ -26,8 +27,22 @@ import java.awt.*;
 import java.awt.event.*;
 import java.applet.*;
 import java.beans.*;
-import javax.swing.event.*;
+import java.desktop.share.classes.javax.swing.event.*;
 import sun.awt.EmbeddedFrame;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * The KeyboardManager class is used to help dispatch keyboard actions for the

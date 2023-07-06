@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codegen;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8005033
@@ -30,7 +47,6 @@
  * @author Richard Reingruber richard DOT reingruber AT sap DOT com
  */
 
-package compiler.codegen;
 
 public class Test8005033 {
     public static int MINUS_ONE = -1;

@@ -19,14 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.prefs;
-import java.util.*;
-import java.io.*;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.security.PrivilegedExceptionAction;
-import java.security.PrivilegedActionException;
+package java.prefs.unix.classes.java.util.prefs;
+
+
+import java.prefs.unix.classes.java.util.*;
+import java.prefs.unix.classes.java.io.*;
+import java.prefs.unix.classes.java.security.AccessController;
+import java.prefs.unix.classes.java.security.PrivilegedAction;
+import java.prefs.unix.classes.java.security.PrivilegedExceptionAction;
+import java.prefs.unix.classes.java.security.PrivilegedActionException;
 import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Preferences implementation for Unix.  Preferences are stored in the file

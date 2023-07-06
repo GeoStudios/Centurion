@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger;
+
 
 import java.util.*;
-import sun.jvm.hotspot.debugger.cdbg.CDebugger;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.CDebugger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface Debugger extends SymbolLookup, ThreadAccess {
   /** Indicates whether this underlying debugger can provide a list of

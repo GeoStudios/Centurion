@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
 
 import java.awt.Font;
 import java.awt.FontMetrics;
@@ -31,14 +32,27 @@ import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.Window;
 import java.awt.event.FocusEvent;
+import java.desktop.macosx.classes.sun.awt.CGraphicsDevice;
+import java.desktop.macosx.classes.sun.awt.CGraphicsEnvironment;
+import java.desktop.macosx.classes.sun.awt.LightweightFrame;
+import java.desktop.macosx.classes.sun.java2d.SurfaceData;
+import java.desktop.macosx.classes.sun.lwawt.LWLightweightFramePeer;
+import java.desktop.macosx.classes.sun.lwawt.LWWindowPeer;
+import java.desktop.macosx.classes.sun.lwawt.PlatformWindow;
 
-import sun.awt.CGraphicsDevice;
-import sun.awt.CGraphicsEnvironment;
-import sun.awt.LightweightFrame;
-import sun.java2d.SurfaceData;
-import sun.lwawt.LWLightweightFramePeer;
-import sun.lwawt.LWWindowPeer;
-import sun.lwawt.PlatformWindow;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CPlatformLWWindow extends CPlatformWindow {
 

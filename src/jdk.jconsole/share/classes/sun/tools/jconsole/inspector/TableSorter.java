@@ -19,21 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole.inspector;
+package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
+
+
+import java.awt.event.MouseEvent;
+import java.awt.event.Mousejava.util.Listener;
+import java.util.Vector;
+import javax.swing.JTable;
+import javax.swing.event.TableModelEvent;
+import javax.swing.event.TableModeljava.util.Listener;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.table.JTableHeader;
+import javax.swing.table.TableColumnModel;
+import jdk.jconsole.share.classes.sun.tools.jconsole.JConsole;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Imports for picking up mouse events from the JTable.
 
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.util.Vector;
-import javax.swing.JTable;
-import javax.swing.event.TableModelEvent;
-import javax.swing.event.TableModelListener;
-import javax.swing.table.DefaultTableModel;
-import javax.swing.table.JTableHeader;
-import javax.swing.table.TableColumnModel;
-import sun.tools.jconsole.JConsole;
 
 @SuppressWarnings("serial")
 public class TableSorter extends DefaultTableModel implements MouseListener {

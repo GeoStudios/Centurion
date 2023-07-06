@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap.sasl;
+package java.naming.share.classes.com.sun.jndi.ldap.sasl;
+
 
 import javax.security.sasl.Sasl;
 import javax.security.sasl.SaslClient;
 import javax.security.sasl.SaslException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.FilterOutputStream;
 import java.io.OutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class SaslOutputStream extends FilterOutputStream {
     private static final boolean debug = false;

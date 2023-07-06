@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.sun.security.util;
+
+
+import java.util.Comparator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ByteArrayTagOrder: a class for comparing two DER encodings by the
@@ -26,9 +44,8 @@
  *
  */
 
-package sun.security.util;
 
-import java.util.Comparator;
+
 
 public class ByteArrayTagOrder implements Comparator<byte[]> {
 

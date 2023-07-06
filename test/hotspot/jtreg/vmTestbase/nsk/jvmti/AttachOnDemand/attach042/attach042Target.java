@@ -18,9 +18,24 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.jvmti.AttachOnDemand.attach042;
 
+
 import nsk.share.aod.TargetApplicationWaitingAgents;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class attach042Target extends TargetApplicationWaitingAgents {
     static class TestThread extends Thread {

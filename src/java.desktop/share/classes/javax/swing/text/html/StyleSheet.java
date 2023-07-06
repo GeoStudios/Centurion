@@ -18,19 +18,35 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text.html;
+
+package java.desktop.share.classes.javax.swing.text.html;
+
 
 import sun.swing.SwingUtilities2;
 import java.util.*;
 import java.awt.*;
 import java.io.*;
 import java.net.*;
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
-import javax.swing.UIManager;
-import javax.swing.border.*;
-import javax.swing.event.ChangeListener;
-import javax.swing.text.*;
+import java.desktop.share.classes.javax.swing.Icon;
+import java.desktop.share.classes.javax.swing.ImageIcon;
+import java.desktop.share.classes.javax.swing.UIManager;
+import java.desktop.share.classes.javax.swing.border.*;
+import java.desktop.share.classes.javax.swing.event.Changejava.util.Listener;
+import java.desktop.share.classes.javax.swing.text.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Support for defining the visual characteristics of
@@ -73,8 +89,8 @@ import javax.swing.text.*;
  * <pre><code>
  * &nbsp;
  * &nbsp; import java.util.*;
- * &nbsp; import javax.swing.text.*;
- * &nbsp; import javax.swing.text.html.*;
+ * &nbsp; import java.desktop.share.classes.javax.swing.text.*;
+ * &nbsp; import java.desktop.share.classes.javax.swing.text.html.*;
  * &nbsp;
  * &nbsp; public class ShowStyles {
  * &nbsp;

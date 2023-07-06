@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.plaf.synth;
 
-import javax.swing.JComponent;
+package java.desktop.share.classes.javax.swing.plaf.synth;
+
+
+import java.desktop.share.classes.javax.swing.JComponent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Factory used for obtaining <code>SynthStyle</code>s.  Each of the

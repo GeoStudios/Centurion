@@ -21,9 +21,23 @@
 
 package nsk.jdi.Location.sourceName_s;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the sourcename_s001 JDI test.

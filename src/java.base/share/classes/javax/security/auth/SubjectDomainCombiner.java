@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.security.auth;
+package java.base.share.classes.javax.security.auth;
+
 
 import java.security.AccessController;
 import java.security.Principal;
@@ -28,6 +29,20 @@ import java.security.ProtectionDomain;
 import java.util.Set;
 import java.util.WeakHashMap;
 import java.lang.ref.WeakReference;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code SubjectDomainCombiner} updates ProtectionDomains

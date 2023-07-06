@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.AWTKeyStroke;
-import sun.awt.SunToolkit;
+import java.desktop.unix.classes.sun.awt.SunToolkit;
 import java.awt.Component;
 import java.awt.Container;
-import sun.util.logging.PlatformLogger;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+import java.desktop.unix.classes.sun.awt.X11GraphicsConfig;
+import java.desktop.unix.classes.sun.awt.X11GraphicsDevice;
 
-import sun.awt.X11GraphicsConfig;
-import sun.awt.X11GraphicsDevice;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper class implementing XEmbed protocol handling routines(client side)

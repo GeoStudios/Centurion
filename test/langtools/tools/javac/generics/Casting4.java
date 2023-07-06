@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package Casting4;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 5041230
@@ -28,7 +45,6 @@
  * @compile -Werror -Xlint:unchecked  Casting4.java
  */
 
-package Casting4;
 
 class Casting4 {
     <M> Integer f(Comparable<M> c) {

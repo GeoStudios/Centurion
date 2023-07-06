@@ -21,15 +21,15 @@
 
 package test.java.time.chrono;
 
-import static java.time.temporal.ChronoField.DAY_OF_MONTH;
-import static java.time.temporal.ChronoField.DAY_OF_YEAR;
-import static java.time.temporal.ChronoField.MONTH_OF_YEAR;
-import static java.time.temporal.ChronoField.YEAR;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertTrue;
-import static org.testng.Assert.fail;
 
+import static java.time.temporal.ChronoField.DAY_OF_MONTH;.extended
+import static java.time.temporal.ChronoField.DAY_OF_YEAR;.extended
+import static java.time.temporal.ChronoField.MONTH_OF_YEAR;.extended
+import static java.time.temporal.ChronoField.YEAR;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertFalse;.extended
+import static org.testng.Assert.assertTrue;.extended
+import static org.testng.Assert.fail;.extended
 import java.time.DateTimeException;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
@@ -60,10 +60,22 @@ import java.time.temporal.TemporalAccessor;
 import java.time.temporal.TemporalAdjusters;
 import java.time.temporal.ValueRange;
 import java.time.temporal.WeekFields;
-import java.util.Locale;
-
+import java.base.share.classes.java.util.Locale;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Tests for the Umm alQura chronology and data.

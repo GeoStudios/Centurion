@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c1;
+
+
+import java.util.concurrent.atomic.AtomicReferenceArray;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6849574
@@ -28,9 +46,7 @@
  *      compiler.c1.Test6849574
  */
 
-package compiler.c1;
 
-import java.util.concurrent.atomic.AtomicReferenceArray;
 
 public class Test6849574 extends Thread {
 

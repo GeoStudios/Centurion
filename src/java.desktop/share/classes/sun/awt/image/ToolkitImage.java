@@ -19,11 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.image;
+package java.desktop.share.classes.sun.awt.image;
+
 
 import java.util.Hashtable;
 import java.util.Enumeration;
-
 import java.awt.Component;
 import java.awt.Color;
 import java.awt.Graphics;
@@ -33,8 +33,22 @@ import java.awt.image.ColorModel;
 import java.awt.image.ImageProducer;
 import java.awt.image.ImageConsumer;
 import java.awt.image.ImageObserver;
-import sun.awt.image.ImageRepresentation;
-import sun.awt.image.FileImageSource;
+import java.desktop.share.classes.sun.awt.image.ImageRepresentation;
+import java.desktop.share.classes.sun.awt.image.FileImageSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ToolkitImage extends Image {
 

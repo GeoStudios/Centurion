@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.io.DataInputStream;
-import java.io.InputStream;
-import java.lang.ref.SoftReference;
-import java.util.Arrays;
-import java.util.Locale;
-import java.util.zip.InflaterInputStream;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
+
+import java.base.share.classes.java.io.DataInputStream;
+import java.base.share.classes.java.io.InputStream;
+import java.base.share.classes.java.lang.ref.SoftReference;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.zip.InflaterInputStream;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.PrivilegedAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class CharacterName {
 

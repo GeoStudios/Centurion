@@ -21,6 +21,26 @@
 
 package gc.g1;
 
+
+import sun.hotspot.WhiteBox;
+import java.base.share.classes.java.util.Arrays;
+import jdk.test.lib.Asserts;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestEagerReclaimHumongousRegionsLog
  * @summary Check that G1 reports humongous eager reclaim statistics correctly.
@@ -33,13 +53,8 @@ package gc.g1;
  * @run driver gc.g1.TestEagerReclaimHumongousRegionsLog
  */
 
-import sun.hotspot.WhiteBox;
 
-import java.util.Arrays;
-import jdk.test.lib.Asserts;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class TestEagerReclaimHumongousRegionsLog {
 

@@ -19,24 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ec.ed;
+package jdk.crypto.ec.share.classes.sun.security.ec.ed;
 
-//import java.security.*;
+
 import java.security.InvalidAlgorithmParameterException;
-import java.security.InvalidKeyException;
+import java.base.share.classes.java.security.InvalidKeyException;
 import java.security.InvalidParameterException;
 import java.security.KeyPair;
 import java.security.KeyPairGeneratorSpi;
-import java.security.NoSuchAlgorithmException;
-import java.security.ProviderException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.ProviderException;
 import java.security.SecureRandom;
 import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.EdECPoint;
 import java.security.spec.NamedParameterSpec;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
+import jdk.crypto.ec.share.classes.sun.security.jca.JCAUtil;
+import jdk.crypto.ec.share.classes.sun.security.util.SecurityProviderConstants;
 
-import sun.security.jca.JCAUtil;
-import sun.security.util.SecurityProviderConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//import java.base.share.classes.java.security.*;
+
 
 /**
  * Key pair generator for the EdDSA signature algorithm.

@@ -21,17 +21,29 @@
 
 package nsk.jdi.VirtualMachine.redefineClasses;
 
+
 import jdk.test.lib.Utils;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
 import com.sun.jdi.*;
 import com.sun.jdi.request.*;
 import com.sun.jdi.event.*;
-
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test against the method <code>com.sun.jdi.VirtualMachine.redefineClasses()</code>

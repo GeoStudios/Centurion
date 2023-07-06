@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.t.t075;
+
+
+import nsk.share.TestFailure;
+import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,10 +49,7 @@
  * @run main/othervm jit.t.t075.t075
  */
 
-package jit.t.t075;
 
-import nsk.share.TestFailure;
-import nsk.share.GoldChecker;
 
 public class t075{
     public static final GoldChecker goldChecker = new GoldChecker( "t075" );

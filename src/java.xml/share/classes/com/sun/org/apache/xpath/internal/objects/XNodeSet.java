@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xpath.internal.objects;
+package java.xml.share.classes.com.sun.org.apache.xpath.internal.objects;
 
-import com.sun.org.apache.xml.internal.dtm.DTM;
-import com.sun.org.apache.xml.internal.dtm.DTMIterator;
-import com.sun.org.apache.xml.internal.dtm.DTMManager;
-import com.sun.org.apache.xml.internal.utils.XMLString;
-import com.sun.org.apache.xpath.internal.NodeSetDTM;
-import com.sun.org.apache.xpath.internal.axes.NodeSequence;
-import java.util.ArrayList;
-import java.util.List;
-import org.w3c.dom.NodeList;
-import org.w3c.dom.traversal.NodeIterator;
+
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMIterator;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMManager;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLString;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.NodeSetDTM;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.axes.NodeSequence;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.w3c.dom.traversal.NodeIterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents an XPath nodeset object, and is capable of

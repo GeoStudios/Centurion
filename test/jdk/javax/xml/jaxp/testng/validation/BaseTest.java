@@ -21,10 +21,10 @@
 
 package validation;
 
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.net.URL;
-
 import javax.xml.XMLConstants;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -35,8 +35,6 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;
 import javax.xml.validation.Validator;
-
-
 import com.sun.org.apache.xerces.internal.dom.PSVIElementNSImpl;
 import com.sun.org.apache.xerces.internal.impl.Constants;
 import com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar;
@@ -48,6 +46,19 @@ import java.security.Policy;
 import javax.xml.transform.stream.StreamSource;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class BaseTest {
     protected final static String ROOT_TYPE = Constants.XERCES_PROPERTY_PREFIX

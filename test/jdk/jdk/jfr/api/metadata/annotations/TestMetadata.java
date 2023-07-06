@@ -21,11 +21,11 @@
 
 package jdk.jfr.api.metadata.annotations;
 
+
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
-
 import jdk.jfr.AnnotationElement;
 import jdk.jfr.Event;
 import jdk.jfr.EventType;
@@ -33,6 +33,19 @@ import jdk.jfr.MetadataDefinition;
 import jdk.jfr.ValueDescriptor;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.jfr.Events;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

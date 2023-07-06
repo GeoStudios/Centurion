@@ -19,25 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider;
+package java.base.share.classes.sun.security.provider;
+
 
 import java.util.*;
 import java.io.*;
 import java.math.BigInteger;
-import java.security.InvalidKeyException;
-import java.security.ProviderException;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.ProviderException;
 import java.security.AlgorithmParameters;
 import java.security.spec.DSAParameterSpec;
 import java.security.spec.InvalidParameterSpecException;
 import java.security.interfaces.DSAParams;
+import java.base.share.classes.sun.security.x509.X509Key;
+import java.base.share.classes.sun.security.x509.AlgIdDSA;
+import java.base.share.classes.sun.security.util.BitArray;
+import java.base.share.classes.sun.security.util.Debug;
+import java.base.share.classes.sun.security.util.DerValue;
+import java.base.share.classes.sun.security.util.DerInputStream;
+import java.base.share.classes.sun.security.util.DerOutputStream;
 
-import sun.security.x509.X509Key;
-import sun.security.x509.AlgIdDSA;
-import sun.security.util.BitArray;
-import sun.security.util.Debug;
-import sun.security.util.DerValue;
-import sun.security.util.DerInputStream;
-import sun.security.util.DerOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An X.509 public key for the Digital Signature Algorithm.

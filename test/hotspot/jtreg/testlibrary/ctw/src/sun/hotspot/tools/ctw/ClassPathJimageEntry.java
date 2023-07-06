@@ -21,14 +21,27 @@
 
 package sun.hotspot.tools.ctw;
 
+
 import jdk.internal.jimage.ImageLocation;
 import jdk.internal.jimage.ImageReader;
-
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Handler for jimage-files containing classes to compile.

@@ -19,21 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.io.*;
-import java.math.BigInteger;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-import java.util.stream.Collectors;
-import java.util.List;
-import java.util.Optional;
-import java.util.StringTokenizer;
 
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.java.io.*;
+import java.base.share.classes.java.math.BigInteger;
+import java.base.share.classes.java.util.regex.Matcher;
+import java.base.share.classes.java.util.regex.Pattern;
+import java.base.share.classes.java.util.stream.Collectors;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Optional;
+import java.base.share.classes.java.util.StringTokenizer;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.loader.NativeLibrary;
 import jdk.internal.reflect.CallerSensitive;
 import jdk.internal.reflect.Reflection;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Every Java application has a single instance of class

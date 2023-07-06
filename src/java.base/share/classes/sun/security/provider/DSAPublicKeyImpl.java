@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider;
+package java.base.share.classes.sun.security.provider;
+
 
 import java.math.BigInteger;
 import java.security.KeyRep;
-import java.security.InvalidKeyException;
+import java.base.share.classes.java.security.InvalidKeyException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An X.509 public key for the Digital Signature Algorithm.

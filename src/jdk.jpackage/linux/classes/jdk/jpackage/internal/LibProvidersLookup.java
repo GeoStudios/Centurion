@@ -18,23 +18,39 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.jpackage.internal;
 
-import java.io.IOException;
+package jdk.jpackage.linux.classes.jdk.jpackage.internal;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Collection;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Collections;
 import java.util.Set;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
 import java.util.function.Predicate;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Builds list of packages providing dynamic libraries for the given set of files.

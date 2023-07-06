@@ -18,11 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package com.sun.org.apache.xerces.internal.dom;
+
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.DOMImplementation;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class DocumentImpl implements Document, Node {
 

@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.monitoring.ThreadMXBean.ThreadInfo.Multi.Multi001;
+
+
+import java.lang.management.*;
+import nsk.share.runner.*;
+import nsk.monitoring.share.*;
+import nsk.monitoring.share.thread.*;
+import nsk.share.TestFailure;
+import nsk.share.test.Stresser;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -32,14 +55,7 @@
  * @run main/othervm nsk.monitoring.ThreadMXBean.ThreadInfo.Multi.Multi001.Multi001
  */
 
-package nsk.monitoring.ThreadMXBean.ThreadInfo.Multi.Multi001;
 
-import java.lang.management.*;
-import nsk.share.runner.*;
-import nsk.monitoring.share.*;
-import nsk.monitoring.share.thread.*;
-import nsk.share.TestFailure;
-import nsk.share.test.Stresser;
 
 /**
  * This test starts huge number of scenarios of different types. Each

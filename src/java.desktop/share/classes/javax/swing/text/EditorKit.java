@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text;
+
+package java.desktop.share.classes.javax.swing.text;
+
 
 import java.io.*;
-import javax.swing.Action;
-import javax.swing.JEditorPane;
+import java.desktop.share.classes.javax.swing.Action;
+import java.desktop.share.classes.javax.swing.JEditorPane;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Establishes the set of things needed by a text component

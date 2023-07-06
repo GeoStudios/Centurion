@@ -21,10 +21,24 @@
 
 package jdk.test.lib.jittester.classes;
 
+
 import jdk.test.lib.jittester.IRNode;
-import jdk.test.lib.jittester.TypeList;
+import jdk.test.lib.jittester.Typejava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.visitors.Visitor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Interface extends IRNode {
     private final String name;

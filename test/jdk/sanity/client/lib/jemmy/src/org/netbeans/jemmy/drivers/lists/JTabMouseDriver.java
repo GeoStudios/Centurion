@@ -18,19 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.drivers.lists;
 
+
 import java.awt.Rectangle;
-
 import javax.swing.JTabbedPane;
-
 import org.netbeans.jemmy.QueueTool;
 import org.netbeans.jemmy.drivers.DriverManager;
 import org.netbeans.jemmy.drivers.LightSupportiveDriver;
-import org.netbeans.jemmy.drivers.ListDriver;
+import org.netbeans.jemmy.drivers.java.util.ListDriver;
 import org.netbeans.jemmy.operators.ComponentOperator;
 import org.netbeans.jemmy.operators.JTabbedPaneOperator;
 import org.netbeans.jemmy.operators.Operator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * List driver for javax.swing.JTabbedPane component type.

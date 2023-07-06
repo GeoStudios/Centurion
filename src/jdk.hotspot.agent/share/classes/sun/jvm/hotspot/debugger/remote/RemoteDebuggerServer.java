@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.remote;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.remote;
+
 
 import java.io.*;
 import java.rmi.*;
 import java.rmi.server.*;
 import java.util.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.*;
 
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.tools.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** The implementation of the RemoteDebugger interface. This
     delegates to a local debugger */

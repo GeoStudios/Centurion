@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.sdp;
+package java.base.unix.classes.sun.net.sdp;
 
-import sun.net.NetHooks;
+
+import java.base.unix.classes.sun.net.NetHooks;
 import java.net.InetAddress;
 import java.net.Inet4Address;
 import java.net.UnknownHostException;
 import java.util.*;
 import java.io.File;
 import java.io.FileDescriptor;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintStream;
+import java.base.unix.classes.sun.net.sdp.SdpSupport;
+import java.base.unix.classes.sun.security.action.GetPropertyAction;
 
-import sun.net.sdp.SdpSupport;
-import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A NetHooks provider that converts sockets from the TCP to SDP protocol prior

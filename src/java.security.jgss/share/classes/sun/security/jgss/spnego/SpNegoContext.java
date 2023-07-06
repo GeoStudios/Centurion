@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jgss.spnego;
+package java.security.jgss.share.classes.sun.security.jgss.spnego;
+
 
 import java.io.*;
 import java.security.Provider;
 import org.ietf.jgss.*;
-import sun.security.action.GetBooleanAction;
-import sun.security.jgss.*;
-import sun.security.jgss.spi.*;
-import sun.security.util.*;
+import java.security.jgss.share.classes.sun.security.action.GetBooleanAction;
+import java.security.jgss.share.classes.sun.security.jgss.*;
+import java.security.jgss.share.classes.sun.security.jgss.spi.*;
+import java.security.jgss.share.classes.sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements the mechanism specific context class for SPNEGO

@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
 
 import com.apple.eawt.Application;
 import java.awt.Image;
 import java.awt.PopupMenu;
 import java.awt.Taskbar.Feature;
 import java.awt.peer.TaskbarPeer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class CTaskbarPeer implements TaskbarPeer {
 

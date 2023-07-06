@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.regression.b4427606;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4427606
@@ -31,9 +49,7 @@
  * @run main/othervm jit.regression.b4427606.b4427606
  */
 
-package jit.regression.b4427606;
 
-import nsk.share.TestFailure;
 
 /*
  *  This is a reproducible case for a few bugs reported in merlin.

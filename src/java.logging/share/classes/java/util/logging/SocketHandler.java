@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.logging.share.classes.java.util.logging;
 
-package java.util.logging;
 
-import java.io.*;
-import java.net.*;
+import java.logging.share.classes.java.io.*;
+import java.logging.share.classes.java.net.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Simple network logging {@code Handler}.

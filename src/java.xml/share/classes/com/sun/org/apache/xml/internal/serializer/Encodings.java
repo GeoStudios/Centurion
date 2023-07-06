@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.serializer;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
+
 
 import java.io.BufferedWriter;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
@@ -41,6 +42,20 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.StringTokenizer;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides information about encodings. Depends on the Java runtime

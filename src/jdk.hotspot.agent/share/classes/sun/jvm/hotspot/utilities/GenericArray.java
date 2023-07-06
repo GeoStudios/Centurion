@@ -19,20 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.utilities;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
-import sun.jvm.hotspot.debugger.Address;
-import sun.jvm.hotspot.oops.ArrayKlass;
-import sun.jvm.hotspot.oops.CIntField;
-import sun.jvm.hotspot.oops.Oop;
-import sun.jvm.hotspot.runtime.VM;
-import sun.jvm.hotspot.runtime.VMObject;
-import sun.jvm.hotspot.types.AddressField;
-import sun.jvm.hotspot.types.Type;
-import sun.jvm.hotspot.types.TypeDataBase;
-import sun.jvm.hotspot.types.WrongTypeException;
-import sun.jvm.hotspot.utilities.Observable;
-import sun.jvm.hotspot.utilities.Observer;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Address;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.ArrayKlass;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.CIntField;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.Oop;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VM;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VMObject;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.AddressField;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.Type;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.TypeDataBase;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.WrongTypeException;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The base class for the mirrors of the Array<T> C++ classes.

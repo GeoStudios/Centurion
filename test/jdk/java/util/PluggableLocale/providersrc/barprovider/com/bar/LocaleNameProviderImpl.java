@@ -18,17 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-/*
- *
- */
 
 package com.bar;
+
 
 import java.text.*;
 import java.util.*;
 import java.util.spi.*;
-
 import com.foobar.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ *
+ */
+
+
+
 
 public class LocaleNameProviderImpl extends LocaleNameProvider {
     static Locale[] avail = {Locale.JAPANESE,

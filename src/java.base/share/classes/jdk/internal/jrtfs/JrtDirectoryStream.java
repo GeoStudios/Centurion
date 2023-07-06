@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.jrtfs;
+
+package java.base.share.classes.jdk.internal.jrtfs;
+
 
 import java.nio.file.DirectoryStream;
 import java.nio.file.ClosedDirectoryStreamException;
@@ -26,9 +28,23 @@ import java.nio.file.DirectoryIteratorException;
 import java.nio.file.NotDirectoryException;
 import java.nio.file.Path;
 import java.util.Iterator;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.NoSuchElementException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * DirectoryStream implementation for jrt file system implementations.
@@ -46,10 +62,7 @@ final class JrtDirectoryStream implements DirectoryStream<Path> {
     private boolean isClosed;
     private Iterator<Path> itr;
 
-    JrtDirectoryStream(JrtPath dir,
-            DirectoryStream.Filter<? super java.nio.file.Path> filter)
-            throws IOException
-    {
+    JrtDirectoryStream(JrtPath dir, DirectoryStream.Filter<? super java.nio.file.Path> filter) throws IOException {
         this.dir = dir;
         if (!dir.jrtfs.isDirectory(dir, true)) {  // sanity check
             throw new NotDirectoryException(dir.toString());

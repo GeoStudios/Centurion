@@ -19,24 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs11;
+package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11;
+
 
 import java.math.BigInteger;
-
-import java.security.*;
-import java.security.spec.*;
-
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.java.security.spec.*;
 import javax.crypto.spec.DHParameterSpec;
+import jdk.crypto.cryptoki.share.classes.sun.security.provider.ParameterCache;
+import static jdk.crypto.cryptoki.share.classes.sun.security.util.SecurityProviderConstants.*;.extended
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.TemplateManager.*;.extended
+import jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.*;
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Constants.*;.extended
+import jdk.crypto.cryptoki.share.classes.sun.security.rsa.RSAKeyFactory;
 
-import sun.security.provider.ParameterCache;
-import static sun.security.util.SecurityProviderConstants.*;
-
-import static sun.security.pkcs11.TemplateManager.*;
-import sun.security.pkcs11.wrapper.*;
-import static sun.security.pkcs11.wrapper.PKCS11Constants.*;
 
 
-import sun.security.rsa.RSAKeyFactory;
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * KeyPairGenerator implementation class. This class currently supports
@@ -161,21 +170,18 @@ final class P11KeyPairGenerator extends KeyPairGeneratorSpi {
         token.ensureValid();
         int tmpKeySize;
         if (algorithm.equals("DH")) {
-            if (!(params instanceof DHParameterSpec)) {
+            if (!(params instanceof DHParameterSpec dhParams)) {
                 throw new InvalidAlgorithmParameterException
                         ("DHParameterSpec required for Diffie-Hellman");
             }
-            DHParameterSpec dhParams = (DHParameterSpec) params;
             tmpKeySize = dhParams.getP().bitLength();
             checkKeySize(tmpKeySize, dhParams);
             // XXX sanity check params
         } else if (algorithm.equals("RSA")) {
-            if (!(params instanceof RSAKeyGenParameterSpec)) {
+            if (!(params instanceof RSAKeyGenParameterSpec rsaParams)) {
                 throw new InvalidAlgorithmParameterException
                         ("RSAKeyGenParameterSpec required for RSA");
             }
-            RSAKeyGenParameterSpec rsaParams =
-                (RSAKeyGenParameterSpec) params;
             tmpKeySize = rsaParams.getKeysize();
             checkKeySize(tmpKeySize, rsaParams);
             // override the supplied params to null
@@ -183,11 +189,10 @@ final class P11KeyPairGenerator extends KeyPairGeneratorSpi {
             this.rsaPublicExponent = rsaParams.getPublicExponent();
             // XXX sanity check params
         } else if (algorithm.equals("DSA")) {
-            if (!(params instanceof DSAParameterSpec)) {
+            if (!(params instanceof DSAParameterSpec dsaParams)) {
                 throw new InvalidAlgorithmParameterException
                         ("DSAParameterSpec required for DSA");
             }
-            DSAParameterSpec dsaParams = (DSAParameterSpec) params;
             tmpKeySize = dsaParams.getP().bitLength();
             checkKeySize(tmpKeySize, dsaParams);
             // XXX sanity check params

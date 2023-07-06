@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.relocations;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8044538
@@ -32,7 +49,6 @@
  * entries (-XX:+PrintRelocations) to make sure the printing works.
  */
 
-package compiler.relocations;
 
 public class TestPrintRelocations {
 

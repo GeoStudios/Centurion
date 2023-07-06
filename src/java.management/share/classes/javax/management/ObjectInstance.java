@@ -19,13 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management;
+package java.management.share.classes.javax.management;
+
+
+import java.io.Serializable;
+import java.management.share.classes.javax.management.ObjectName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // java import
-import java.io.Serializable;
 
 // RI import
-import javax.management.ObjectName;
 
 
 /**

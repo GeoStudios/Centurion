@@ -19,23 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package org.jcp.xml.dsig.internal.dom;
+package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
+
 
 import javax.xml.crypto.MarshalException;
 import javax.xml.crypto.dom.DOMCryptoContext;
 import javax.xml.crypto.dsig.XMLSignature;
 import javax.xml.crypto.dsig.keyinfo.X509IssuerSerial;
-
 import java.math.BigInteger;
-
 import javax.security.auth.x500.X500Principal;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
+import java.xml.crypto.share.classes.org.w3c.dom.Document;
+import java.xml.crypto.share.classes.org.w3c.dom.Element;
+import java.xml.crypto.share.classes.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
+
 
 /**
  * DOM-based implementation of X509IssuerSerial.

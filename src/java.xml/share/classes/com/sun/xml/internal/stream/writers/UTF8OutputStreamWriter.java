@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.xml.internal.stream.writers;
+package java.xml.share.classes.com.sun.xml.internal.stream.writers;
+
 
 import java.io.Writer;
 import java.io.OutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
 
-import com.sun.org.apache.xerces.internal.util.XMLChar;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>This class is used to write a stream of chars as a stream of

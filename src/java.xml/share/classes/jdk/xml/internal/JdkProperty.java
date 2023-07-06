@@ -18,24 +18,40 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.xml.internal;
 
-import static jdk.xml.internal.JdkConstants.FQ_IS_STANDALONE;
-import static jdk.xml.internal.JdkConstants.JDK_DEBUG_LIMIT;
-import static jdk.xml.internal.JdkConstants.JDK_ENTITY_COUNT_INFO;
-import static jdk.xml.internal.JdkConstants.JDK_EXTENSION_CLASSLOADER;
-import static jdk.xml.internal.JdkConstants.JDK_EXT_CLASSLOADER;
-import static jdk.xml.internal.JdkConstants.JDK_IS_STANDALONE;
-import static jdk.xml.internal.JdkConstants.ORACLE_IS_STANDALONE;
-import static jdk.xml.internal.JdkConstants.SP_IS_STANDALONE;
-import static jdk.xml.internal.JdkConstants.SP_XSLTC_IS_STANDALONE;
-import static jdk.xml.internal.JdkConstants.ORACLE_ENABLE_EXTENSION_FUNCTION;
-import static jdk.xml.internal.JdkConstants.ORACLE_FEATURE_SERVICE_MECHANISM;
-import static jdk.xml.internal.JdkConstants.SP_ENABLE_EXTENSION_FUNCTION;
-import static jdk.xml.internal.JdkConstants.SP_ENABLE_EXTENSION_FUNCTION_SPEC;
-import static jdk.xml.internal.JdkConstants.CDATA_CHUNK_SIZE;
-import static jdk.xml.internal.JdkConstants.OVERRIDE_PARSER;
-import static jdk.xml.internal.JdkConstants.RESET_SYMBOL_TABLE;
+package java.xml.share.classes.jdk.xml.internal;
+
+
+import static java.xml.share.classes.jdk.xml.internal.JdkConstants.FQ_IS_STANDALONE;.extended
+import static java.xml.share.classes.jdk.xml.internal.JdkConstants.JDK_DEBUG_LIMIT;.extended
+import static java.xml.share.classes.jdk.xml.internal.JdkConstants.JDK_ENTITY_COUNT_INFO;.extended
+import static java.xml.share.classes.jdk.xml.internal.JdkConstants.JDK_EXTENSION_CLASSLOADER;.extended
+import static java.xml.share.classes.jdk.xml.internal.JdkConstants.JDK_EXT_CLASSLOADER;.extended
+import static java.xml.share.classes.jdk.xml.internal.JdkConstants.JDK_IS_STANDALONE;.extended
+import static java.xml.share.classes.jdk.xml.internal.JdkConstants.ORACLE_IS_STANDALONE;.extended
+import static java.xml.share.classes.jdk.xml.internal.JdkConstants.SP_IS_STANDALONE;.extended
+import static java.xml.share.classes.jdk.xml.internal.JdkConstants.SP_XSLTC_IS_STANDALONE;.extended
+import static java.xml.share.classes.jdk.xml.internal.JdkConstants.ORACLE_ENABLE_EXTENSION_FUNCTION;.extended
+import static java.xml.share.classes.jdk.xml.internal.JdkConstants.ORACLE_FEATURE_SERVICE_MECHANISM;.extended
+import static java.xml.share.classes.jdk.xml.internal.JdkConstants.SP_ENABLE_EXTENSION_FUNCTION;.extended
+import static java.xml.share.classes.jdk.xml.internal.JdkConstants.SP_ENABLE_EXTENSION_FUNCTION_SPEC;.extended
+import static java.xml.share.classes.jdk.xml.internal.JdkConstants.CDATA_CHUNK_SIZE;.extended
+import static java.xml.share.classes.jdk.xml.internal.JdkConstants.OVERRIDE_PARSER;.extended
+import static java.xml.share.classes.jdk.xml.internal.JdkConstants.RESET_SYMBOL_TABLE;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a JDK Implementation Specific Property. This class holds the name

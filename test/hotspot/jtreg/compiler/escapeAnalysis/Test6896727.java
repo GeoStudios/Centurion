@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.escapeAnalysis;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6896727
@@ -28,7 +45,6 @@
  *      compiler.escapeAnalysis.Test6896727
  */
 
-package compiler.escapeAnalysis;
 
 public class Test6896727 {
 

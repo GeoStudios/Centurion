@@ -21,10 +21,22 @@
 
 package jdk.test.lib.security;
 
-import java.io.*;
 
+import java.io.*;
 import javax.net.ssl.SSLSession;
-import javax.net.ssl.SSLSocket;
+import javax.net.ssl.SSLjava.net.java.net.java.net.Socket;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public final class TestTLSHandshake extends SSLSocketTest {

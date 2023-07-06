@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.classfile;
+package jdk.jdeps.share.classes.com.sun.tools.classfile;
 
-import java.io.IOException;
 
-import com.sun.tools.classfile.ConstantPool.*;
+import java.io.java.io.java.io.java.io.IOException;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * See JVMS, section 4.8.6.

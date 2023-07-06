@@ -18,22 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.w3c.dom.ptests;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.fail;
-import static org.w3c.dom.DOMException.INDEX_SIZE_ERR;
-import static org.w3c.dom.ptests.DOMTestUtil.DOMEXCEPTION_EXPECTED;
 
-import java.io.IOException;
-
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.fail;.extended
+import static org.w3c.dom.DOMException.INDEX_SIZE_ERR;.extended
+import static org.w3c.dom.ptests.DOMTestUtil.DOMEXCEPTION_EXPECTED;.extended
+import java.io.java.io.java.io.java.io.IOException;
 import javax.xml.parsers.ParserConfigurationException;
-
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.w3c.dom.CharacterData;
 import org.w3c.dom.DOMException;
 import org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @summary common test for the CharacterData Interface

@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.PlugConnectors.ListenConnector.plugListenConnect002;
+
+
+import nsk.jdi.PlugConnectors.java.util.ListenConnector.plugjava.util.ListenConnect002.connectors.*;
+import nsk.share.*;
+import nsk.share.jdi.*;
+import com.sun.jdi.*;
+import com.sun.jdi.connect.*;
+import java.util.*;
+import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -73,17 +96,9 @@
  *      -transport.address=dynamic
  */
 
-package nsk.jdi.PlugConnectors.ListenConnector.plugListenConnect002;
 
-import nsk.jdi.PlugConnectors.ListenConnector.plugListenConnect002.connectors.*;
 
-import nsk.share.*;
-import nsk.share.jdi.*;
 
-import com.sun.jdi.*;
-import com.sun.jdi.connect.*;
-import java.util.*;
-import java.io.*;
 
 /**
  * The test for the mechanism for creating pluggable Connectors        <BR>

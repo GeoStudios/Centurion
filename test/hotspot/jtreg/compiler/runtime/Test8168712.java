@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.runtime;
+
+
+import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @requires vm.debug
@@ -26,9 +44,7 @@
  *
  * @run main/othervm -XX:CompileCommand=compileonly,Test8168712.* -XX:CompileCommand=compileonly,*Object.* -XX:+DTraceMethodProbes -XX:-UseOnStackReplacement -XX:+DeoptimizeRandom compiler.runtime.Test8168712
  */
-package compiler.runtime;
 
-import java.util.*;
 
 public class Test8168712 {
     static HashSet<Test8168712> m = new HashSet<>();

@@ -19,28 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.classfile;
+package jdk.jdeps.share.classes.com.sun.tools.classfile;
+
 
 import java.util.Map;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.CONSTANT_Class_info;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.CONSTANT_Dynamic_info;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.CONSTANT_Double_info;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.CONSTANT_Fieldref_info;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.CONSTANT_Float_info;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.CONSTANT_Integer_info;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.CONSTANT_InterfaceMethodref_info;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.CONSTANT_InvokeDynamic_info;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.CONSTANT_Long_info;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.CONSTANT_MethodHandle_info;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.CONSTANT_MethodType_info;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.CONSTANT_Methodref_info;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.CONSTANT_Module_info;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.CONSTANT_NameAndType_info;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.CONSTANT_Package_info;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.CONSTANT_String_info;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.CONSTANT_Utf8_info;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.CPInfo;
 
-import com.sun.tools.classfile.ConstantPool.CONSTANT_Class_info;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_Dynamic_info;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_Double_info;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_Fieldref_info;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_Float_info;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_Integer_info;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_InterfaceMethodref_info;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_InvokeDynamic_info;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_Long_info;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_MethodHandle_info;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_MethodType_info;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_Methodref_info;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_Module_info;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_NameAndType_info;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_Package_info;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_String_info;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_Utf8_info;
-import com.sun.tools.classfile.ConstantPool.CPInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Rewrites a class file using a map of translations.

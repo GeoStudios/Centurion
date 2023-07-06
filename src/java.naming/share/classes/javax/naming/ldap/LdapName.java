@@ -19,22 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.naming.ldap;
+package java.naming.share.classes.javax.naming.ldap;
 
-import javax.naming.Name;
-import javax.naming.InvalidNameException;
 
+import java.naming.share.classes.javax.naming.Name;
+import java.naming.share.classes.javax.naming.InvalidNameException;
 import java.util.Enumeration;
 import java.util.Collection;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Iterator;
-import java.util.ListIterator;
+import java.util.java.util.ListIterator;
 import java.util.Collections;
-
 import java.io.ObjectOutputStream;
 import java.io.ObjectInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents a distinguished name as specified by

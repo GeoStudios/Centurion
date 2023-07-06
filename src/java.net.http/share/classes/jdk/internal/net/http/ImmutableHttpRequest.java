@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
+
 
 import java.net.URI;
 import java.net.http.HttpHeaders;
 import java.net.http.HttpRequest;
 import java.time.Duration;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.net.http.HttpClient.Version;
-import static jdk.internal.net.http.common.Utils.ALLOWED_HEADERS;
+import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.ALLOWED_HEADERS;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class ImmutableHttpRequest extends HttpRequest {
 

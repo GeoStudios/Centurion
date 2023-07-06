@@ -19,19 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
 
 
-import javax.swing.event.*;
+import java.desktop.share.classes.javax.swing.event.*;
 import java.awt.event.*;
-
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Window;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.beans.PropertyChangeEvent;
-
 import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

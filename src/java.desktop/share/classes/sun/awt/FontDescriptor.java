@@ -18,14 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.awt;
+
+package java.desktop.share.classes.sun.awt;
+
 
 import java.io.ByteArrayOutputStream;
 import java.io.OutputStreamWriter;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetEncoder;
 import java.nio.charset.StandardCharsets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class FontDescriptor implements Cloneable {
 

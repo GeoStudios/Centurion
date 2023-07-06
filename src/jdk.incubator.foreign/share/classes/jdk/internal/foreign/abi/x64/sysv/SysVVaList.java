@@ -18,27 +18,41 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.foreign.abi.x64.sysv;
 
-import jdk.incubator.foreign.*;
-import jdk.internal.foreign.Utils;
-import jdk.internal.foreign.abi.SharedUtils;
-import jdk.internal.misc.Unsafe;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.x64.sysv;
 
+
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.*;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.Utils;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.SharedUtils;
+import jdk.incubator.foreign.share.classes.jdk.internal.misc.Unsafe;
 import java.lang.invoke.VarHandle;
 import java.lang.ref.Cleaner;
 import java.nio.ByteOrder;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
+import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.PlatformLayouts.SysV;.extended
+import static jdk.incubator.foreign.share.classes.jdk.incubator.foreign.CLinker.Vajava.util.java.util.java.util.List;.extended
+import static jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryLayout.PathElement.groupElement;.extended
+import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.SharedUtils.SimpleVaArg;.extended
+import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.SharedUtils.THROWING_ALLOCATOR;.extended
+import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.SharedUtils.checkCompatibleType;.extended
+import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.SharedUtils.vhPrimitiveOrAddress;.extended
 
-import static jdk.internal.foreign.PlatformLayouts.SysV;
-import static jdk.incubator.foreign.CLinker.VaList;
-import static jdk.incubator.foreign.MemoryLayout.PathElement.groupElement;
-import static jdk.internal.foreign.abi.SharedUtils.SimpleVaArg;
-import static jdk.internal.foreign.abi.SharedUtils.THROWING_ALLOCATOR;
-import static jdk.internal.foreign.abi.SharedUtils.checkCompatibleType;
-import static jdk.internal.foreign.abi.SharedUtils.vhPrimitiveOrAddress;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // See https://software.intel.com/sites/default/files/article/402129/mpx-linux64-abi.pdf "3.5.7 Variable Argument Lists"
 public non-sealed class SysVVaList implements VaList {

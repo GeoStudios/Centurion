@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.security.spec;
 
-import java.util.Objects;
+package java.base.share.classes.java.security.spec;
+
+
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class representing elliptic curve private keys as defined in RFC 7748,

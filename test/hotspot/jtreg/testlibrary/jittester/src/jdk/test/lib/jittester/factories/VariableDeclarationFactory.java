@@ -21,16 +21,29 @@
 
 package jdk.test.lib.jittester.factories;
 
-import java.util.LinkedList;
 
+import java.util.Linkedjava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.ProductionFailedException;
 import jdk.test.lib.jittester.SymbolTable;
 import jdk.test.lib.jittester.Type;
-import jdk.test.lib.jittester.TypeList;
+import jdk.test.lib.jittester.Typejava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.VariableDeclaration;
 import jdk.test.lib.jittester.VariableInfo;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.PseudoRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class VariableDeclarationFactory extends Factory<VariableDeclaration> {
     private final boolean isStatic;

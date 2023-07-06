@@ -19,29 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.rmi.registry;
+package java.rmi.share.classes.sun.rmi.registry;
+
 
 import java.io.ObjectInputFilter;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.security.PrivilegedAction;
 import java.security.Security;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Enumeration;
 import java.util.Hashtable;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 import java.io.File;
 import java.io.FilePermission;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.*;
 import java.rmi.*;
 import java.rmi.server.ObjID;
 import java.rmi.server.ServerNotActiveException;
 import java.rmi.registry.Registry;
-import java.rmi.server.RMIClientSocketFactory;
-import java.rmi.server.RMIServerSocketFactory;
+import java.rmi.server.RMIClientjava.net.SocketFactory;
+import java.rmi.server.RMIjava.net.ServerSocketFactory;
 import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.security.CodeSource;
@@ -52,13 +53,26 @@ import java.security.PermissionCollection;
 import java.security.Permissions;
 import java.security.ProtectionDomain;
 import java.text.MessageFormat;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.rmi.share.classes.sun.rmi.runtime.Log;
+import java.rmi.share.classes.sun.rmi.server.UnicastRef;
+import java.rmi.share.classes.sun.rmi.server.UnicastServerRef;
+import java.rmi.share.classes.sun.rmi.server.UnicastServerRef2;
+import java.rmi.share.classes.sun.rmi.transport.LiveRef;
 
-import jdk.internal.access.SharedSecrets;
-import sun.rmi.runtime.Log;
-import sun.rmi.server.UnicastRef;
-import sun.rmi.server.UnicastServerRef;
-import sun.rmi.server.UnicastServerRef2;
-import sun.rmi.transport.LiveRef;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A "registry" exists on every node that allows RMI connections to

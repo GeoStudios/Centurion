@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf;
+package java.desktop.share.classes.javax.swing.plaf;
+
 
 import java.awt.Color;
 import java.beans.ConstructorProperties;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A subclass of Color that implements UIResource.  UI

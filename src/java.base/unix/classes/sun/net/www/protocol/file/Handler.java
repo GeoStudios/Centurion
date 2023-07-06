@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.protocol.file;
+package java.base.unix.classes.sun.net.www.protocol.file;
+
 
 import java.net.InetAddress;
 import java.net.URLConnection;
@@ -28,9 +29,23 @@ import java.net.Proxy;
 import java.net.MalformedURLException;
 import java.net.URLStreamHandler;
 import java.io.InputStream;
-import java.io.IOException;
-import sun.net.www.ParseUtil;
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.unix.classes.sun.net.www.ParseUtil;
 import java.io.File;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Open an file input stream given a URL.

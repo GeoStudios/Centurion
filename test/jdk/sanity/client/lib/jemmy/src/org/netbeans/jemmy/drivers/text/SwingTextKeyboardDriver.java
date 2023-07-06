@@ -18,11 +18,12 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.drivers.text;
+
 
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
-
 import org.netbeans.jemmy.Timeout;
 import org.netbeans.jemmy.drivers.DriverManager;
 import org.netbeans.jemmy.drivers.KeyDriver;
@@ -30,6 +31,19 @@ import org.netbeans.jemmy.operators.ComponentOperator;
 import org.netbeans.jemmy.operators.JEditorPaneOperator;
 import org.netbeans.jemmy.operators.JTextAreaOperator;
 import org.netbeans.jemmy.operators.JTextComponentOperator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * TextDriver for swing text component types. Uses keyboard operations.

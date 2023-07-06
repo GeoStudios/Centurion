@@ -19,14 +19,14 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.unix.classes.sun.font;
 
-import sun.awt.FontConfiguration;
-import sun.awt.X11FontManager;
-import sun.font.FontUtilities;
-import sun.font.SunFontManager;
-import sun.util.logging.PlatformLogger;
 
+import java.desktop.unix.classes.sun.awt.FontConfiguration;
+import java.desktop.unix.classes.sun.awt.X11FontManager;
+import java.desktop.unix.classes.sun.font.FontUtilities;
+import java.desktop.unix.classes.sun.font.SunFontManager;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 import java.io.File;
 import java.io.FileInputStream;
 import java.nio.charset.Charset;
@@ -34,6 +34,20 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Properties;
 import java.util.Scanner;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MFontConfiguration extends FontConfiguration {
 

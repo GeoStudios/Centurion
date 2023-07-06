@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
+
 
 import java.util.Collection;
+import jdk.jdi.share.classes.com.sun.jdi.Mirror;
+import jdk.jdi.share.classes.com.sun.jdi.VMMismatchException;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
 
-import com.sun.jdi.Mirror;
-import com.sun.jdi.VMMismatchException;
-import com.sun.jdi.VirtualMachine;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class MirrorImpl implements Mirror {
 

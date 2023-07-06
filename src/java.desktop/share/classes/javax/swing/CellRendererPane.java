@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Graphics;
 import java.awt.Rectangle;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.io.Serial;
+import java.desktop.share.classes.javax.accessibility.Accessible;
+import java.desktop.share.classes.javax.accessibility.AccessibleContext;
+import java.desktop.share.classes.javax.accessibility.AccessibleRole;
 
-import javax.accessibility.Accessible;
-import javax.accessibility.AccessibleContext;
-import javax.accessibility.AccessibleRole;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is inserted in between cell renderers and the components that

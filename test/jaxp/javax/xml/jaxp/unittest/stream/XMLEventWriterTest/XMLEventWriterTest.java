@@ -21,10 +21,10 @@
 
 package stream.XMLEventWriterTest;
 
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
-
 import javax.xml.namespace.QName;
 import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.XMLEventWriter;
@@ -32,10 +32,22 @@ import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLOutputFactory;
 import javax.xml.stream.events.XMLEvent;
 import javax.xml.transform.stream.StreamSource;
-
 import org.testng.Assert;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

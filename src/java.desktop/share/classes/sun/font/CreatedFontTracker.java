@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.share.classes.sun.font;
+
 
 import java.io.File;
 import java.io.OutputStream;
@@ -29,9 +30,22 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
+import java.desktop.share.classes.sun.awt.AppContext;
+import java.desktop.share.classes.sun.awt.util.ThreadGroupUtils;
 
-import sun.awt.AppContext;
-import sun.awt.util.ThreadGroupUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CreatedFontTracker {
 

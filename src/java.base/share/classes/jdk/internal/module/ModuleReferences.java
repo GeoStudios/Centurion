@@ -19,21 +19,22 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.module;
+package java.base.share.classes.jdk.internal.module;
+
 
 import java.io.File;
 import java.io.IOError;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
-import java.io.UncheckedIOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.lang.module.ModuleReader;
 import java.lang.module.ModuleReference;
 import java.net.URI;
 import java.nio.ByteBuffer;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.List;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReadWriteLock;
@@ -43,10 +44,22 @@ import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 import java.util.stream.Stream;
 import java.util.zip.ZipFile;
-
-import jdk.internal.jmod.JmodFile;
-import jdk.internal.module.ModuleHashes.HashSupplier;
+import java.base.share.classes.jdk.internal.jmod.JmodFile;
+import java.base.share.classes.jdk.internal.module.ModuleHashes.HashSupplier;
 import sun.net.www.ParseUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

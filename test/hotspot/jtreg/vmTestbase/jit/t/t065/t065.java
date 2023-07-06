@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.t.t065;
+
+
+import nsk.share.TestFailure;
+import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,10 +49,7 @@
  * @run main/othervm jit.t.t065.t065
  */
 
-package jit.t.t065;
 
-import nsk.share.TestFailure;
-import nsk.share.GoldChecker;
 
 // Main() does getfields of k.b and putfields of l.b.  K.set() does putfields
 // of k.b; l.show() does getfields of l.b.  The idea is, you jit only

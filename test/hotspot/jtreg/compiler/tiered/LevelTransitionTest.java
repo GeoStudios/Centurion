@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.tiered;
+
+
+import compiler.whitebox.CompilerWhiteBoxTest;
+import compiler.whitebox.SimpleTestCase;
+import jdk.test.lib.Platform;
+import jtreg.SkippedException;
+import java.lang.reflect.Executable;
+import java.lang.reflect.Method;
+import java.util.concurrent.Callable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test LevelTransitionTest
  * @requires vm.compMode != "Xcomp"
@@ -38,16 +62,8 @@
  *                   compiler.tiered.LevelTransitionTest
  */
 
-package compiler.tiered;
 
-import compiler.whitebox.CompilerWhiteBoxTest;
-import compiler.whitebox.SimpleTestCase;
-import jdk.test.lib.Platform;
-import jtreg.SkippedException;
 
-import java.lang.reflect.Executable;
-import java.lang.reflect.Method;
-import java.util.concurrent.Callable;
 
 public class LevelTransitionTest extends TieredLevelsTest {
     /**

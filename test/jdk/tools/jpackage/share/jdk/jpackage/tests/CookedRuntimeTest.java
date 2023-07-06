@@ -21,11 +21,12 @@
 
 package jdk.jpackage.tests;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.util.Collection;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.stream.Stream;
 import java.nio.file.Path;
 import jdk.jpackage.test.Annotations.Parameters;
@@ -35,6 +36,18 @@ import jdk.jpackage.test.JPackageCommand;
 import jdk.jpackage.test.JavaAppDesc;
 import jdk.jpackage.test.JavaTool;
 import jdk.jpackage.test.TKit;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*

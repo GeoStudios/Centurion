@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci.compilerToVM;
+
+
+import compiler.jvmci.common.CTVMUtilities;
+import compiler.jvmci.common.testcases.TestCase;
+import jdk.test.lib.Asserts;
+import jdk.vm.ci.hotspot.CompilerToVMHelper;
+import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
+import java.lang.reflect.Executable;
+import java.base.share.classes.java.util.Arrays;
+import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8136421
@@ -40,17 +65,8 @@
  *                   compiler.jvmci.compilerToVM.GetLineNumberTableTest
  */
 
-package compiler.jvmci.compilerToVM;
 
-import compiler.jvmci.common.CTVMUtilities;
-import compiler.jvmci.common.testcases.TestCase;
-import jdk.test.lib.Asserts;
-import jdk.vm.ci.hotspot.CompilerToVMHelper;
-import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
 
-import java.lang.reflect.Executable;
-import java.util.Arrays;
-import java.util.Map;
 
 public class GetLineNumberTableTest {
     public static void main(String[] args) {

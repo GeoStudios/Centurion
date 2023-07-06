@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.compilercontrol;
+
+
+import compiler.testlibrary.CompilerUtils;
+import compiler.whitebox.CompilerWhiteBoxTest;
+import jdk.test.lib.dcmd.CommandExecutor;
+import jdk.test.lib.dcmd.JMXExecutor;
+import org.testng.annotations.Test;
+import sun.hotspot.WhiteBox;
+import java.io.File;
+import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestCompilerDirectivesCompatibilityBase
  * @bug 8137167
@@ -35,17 +60,8 @@
  *      compiler.compilercontrol.TestCompilerDirectivesCompatibilityBase
  */
 
-package compiler.compilercontrol;
 
-import compiler.testlibrary.CompilerUtils;
-import compiler.whitebox.CompilerWhiteBoxTest;
-import jdk.test.lib.dcmd.CommandExecutor;
-import jdk.test.lib.dcmd.JMXExecutor;
-import org.testng.annotations.Test;
-import sun.hotspot.WhiteBox;
 
-import java.io.File;
-import java.lang.reflect.Method;
 
 public class TestCompilerDirectivesCompatibilityBase {
 

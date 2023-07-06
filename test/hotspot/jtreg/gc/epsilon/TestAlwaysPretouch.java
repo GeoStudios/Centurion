@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.epsilon;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestAlwaysPretouch
  * @requires vm.gc.Epsilon
@@ -31,7 +48,6 @@
  * @run main/othervm          -Xmx1g -XX:+AlwaysPreTouch -XX:+UnlockExperimentalVMOptions -XX:+UseEpsilonGC gc.epsilon.TestAlwaysPretouch
  */
 
-package gc.epsilon;
 
 public class TestAlwaysPretouch {
   public static void main(String[] args) throws Exception {

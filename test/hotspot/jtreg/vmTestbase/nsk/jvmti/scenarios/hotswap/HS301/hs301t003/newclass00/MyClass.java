@@ -18,7 +18,24 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.jvmti.scenarios.hotswap.HS301.hs301t003;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 This class object is immutable class so
 all method calls should be call bty value.

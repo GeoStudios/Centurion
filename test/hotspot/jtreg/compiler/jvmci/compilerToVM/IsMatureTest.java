@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci.compilerToVM;
+
+
+import compiler.jvmci.common.testcases.SimpleClass;
+import compiler.whitebox.CompilerWhiteBoxTest;
+import jdk.test.lib.Asserts;
+import jdk.test.lib.Platform;
+import jdk.vm.ci.hotspot.CompilerToVMHelper;
+import sun.hotspot.WhiteBox;
+import java.lang.reflect.Executable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8136421
@@ -37,16 +61,8 @@
  *                   compiler.jvmci.compilerToVM.IsMatureTest
  */
 
-package compiler.jvmci.compilerToVM;
 
-import compiler.jvmci.common.testcases.SimpleClass;
-import compiler.whitebox.CompilerWhiteBoxTest;
-import jdk.test.lib.Asserts;
-import jdk.test.lib.Platform;
-import jdk.vm.ci.hotspot.CompilerToVMHelper;
-import sun.hotspot.WhiteBox;
 
-import java.lang.reflect.Executable;
 
 public class IsMatureTest {
     private static final WhiteBox WB = WhiteBox.getWhiteBox();

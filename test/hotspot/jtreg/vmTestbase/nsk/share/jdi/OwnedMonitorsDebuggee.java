@@ -18,12 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.share.jdi;
+
 
 import java.io.*;
 import java.util.*;
 import nsk.share.locks.LockingThread;
 import nsk.share.TestBug;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  *  Class is used as base debuggee in tests for ThreadReference.ownedMonitorsAndFrames().

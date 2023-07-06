@@ -21,6 +21,21 @@
 
 package errs;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // class with 10 errors
 class Errors {
     X m0() { }

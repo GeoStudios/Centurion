@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.naming.spi;
+package java.naming.share.classes.javax.naming.spi;
 
-import javax.naming.Name;
-import javax.naming.Context;
-import javax.naming.CompositeName;
-import javax.naming.InvalidNameException;
+
+import java.naming.share.classes.javax.naming.Name;
+import java.naming.share.classes.javax.naming.Context;
+import java.naming.share.classes.javax.naming.CompositeName;
+import java.naming.share.classes.javax.naming.InvalidNameException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This class represents the result of resolution of a name.

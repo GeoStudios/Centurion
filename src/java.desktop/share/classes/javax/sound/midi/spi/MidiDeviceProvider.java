@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.sound.midi.spi;
+package java.desktop.share.classes.javax.sound.midi.spi;
 
-import java.util.Arrays;
 
-import javax.sound.midi.MidiDevice;
+import java.base.share.classes.java.util.Arrays;
+import java.desktop.share.classes.javax.sound.midi.MidiDevice;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code MidiDeviceProvider} is a factory or provider for a particular type

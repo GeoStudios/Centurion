@@ -19,15 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-// generated from vm/mlvm/indy/func/java/rawRetypes/INDIFY_Test6998541.jmpp
-
 package vm.mlvm.indy.func.java.rawRetypes;
+
 
 import java.lang.invoke.CallSite;
 import java.lang.invoke.ConstantCallSite;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// generated from vm/mlvm/indy/func/java/rawRetypes/INDIFY_Test6998541.jmpp
+
+
 
  public class INDIFY_Test6998541 {
      private static final int N = 100000;

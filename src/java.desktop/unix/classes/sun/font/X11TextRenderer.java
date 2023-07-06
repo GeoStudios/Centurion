@@ -19,20 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.unix.classes.sun.font;
+
 
 import java.awt.Rectangle;
 import java.awt.font.FontRenderContext;
 import java.awt.font.GlyphVector;
-import sun.awt.SunHints;
-import sun.awt.SunToolkit;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.SurfaceData;
-import sun.java2d.pipe.GlyphListPipe;
-import sun.java2d.pipe.Region;
-import sun.java2d.loops.FontInfo;
-import sun.java2d.loops.GraphicsPrimitive;
-import sun.java2d.x11.X11SurfaceData;
+import java.desktop.unix.classes.sun.awt.SunHints;
+import java.desktop.unix.classes.sun.awt.SunToolkit;
+import java.desktop.unix.classes.sun.java2d.SunGraphics2D;
+import java.desktop.unix.classes.sun.java2d.SurfaceData;
+import java.desktop.unix.classes.sun.java2d.pipe.Glyphjava.util.ListPipe;
+import java.desktop.unix.classes.sun.java2d.pipe.Region;
+import java.desktop.unix.classes.sun.java2d.loops.FontInfo;
+import java.desktop.unix.classes.sun.java2d.loops.GraphicsPrimitive;
+import java.desktop.unix.classes.sun.java2d.x11.X11SurfaceData;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A delegate pipe of SG2D for drawing text with

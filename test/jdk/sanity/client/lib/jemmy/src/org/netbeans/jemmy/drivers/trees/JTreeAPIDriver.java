@@ -18,10 +18,11 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.drivers.trees;
 
-import javax.swing.text.JTextComponent;
 
+import javax.swing.text.JTextComponent;
 import org.netbeans.jemmy.Timeout;
 import org.netbeans.jemmy.drivers.DriverManager;
 import org.netbeans.jemmy.drivers.LightSupportiveDriver;
@@ -30,6 +31,19 @@ import org.netbeans.jemmy.drivers.TreeDriver;
 import org.netbeans.jemmy.operators.ComponentOperator;
 import org.netbeans.jemmy.operators.JTextComponentOperator;
 import org.netbeans.jemmy.operators.JTreeOperator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * TreeDriver for javax.swing.JTree component type. Uses API calls.

@@ -21,10 +21,10 @@
 
 package stream.EventsTest;
 
+
 import java.io.StringReader;
 import java.util.Iterator;
-import java.util.List;
-
+import java.util.java.util.java.util.java.util.List;
 import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLOutputFactory;
@@ -33,10 +33,22 @@ import javax.xml.stream.events.DTD;
 import javax.xml.stream.events.EntityDeclaration;
 import javax.xml.stream.events.NotationDeclaration;
 import javax.xml.stream.events.XMLEvent;
-
 import org.testng.Assert;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

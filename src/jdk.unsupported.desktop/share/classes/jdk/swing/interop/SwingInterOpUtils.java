@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.swing.interop;
+package jdk.unsupported.desktop.share.classes.jdk.swing.interop;
+
 
 import java.awt.Toolkit;
 import java.awt.Window;
@@ -27,6 +28,20 @@ import java.awt.AWTEvent;
 import sun.awt.SunToolkit;
 import sun.awt.AppContext;
 import sun.awt.UngrabEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides static utility methods to be used by FX swing interop

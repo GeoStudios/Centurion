@@ -21,7 +21,21 @@
 
 package psi;
 
-import static psi.Foo.*;
+
+import static psi.Foo.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class Foo {
     private static int FOO_VALUE = 55;

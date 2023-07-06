@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
-import java.security.spec.AlgorithmParameterSpec;
-import java.util.Objects;
+
+import java.base.share.classes.java.security.spec.AlgorithmParameterSpec;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import sun.security.jca.JCAUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code AlgorithmParameterGenerator} class is used to generate a

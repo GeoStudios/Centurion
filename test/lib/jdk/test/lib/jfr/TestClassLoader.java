@@ -21,9 +21,23 @@
 
 package jdk.test.lib.jfr;
 
+
 import java.io.DataInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Custom class loader which will try to load the class via getResourceAsStream().

@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.util.resources.ext;
+package jdk.localedata.share.classes.sun.util.resources.ext;
 
-import java.util.Locale;
+
+import java.base.share.classes.java.util.Locale;
 import java.util.ResourceBundle;
-import sun.util.locale.provider.LocaleProviderAdapter;
-import sun.util.locale.provider.ResourceBundleBasedAdapter;
-import sun.util.resources.OpenListResourceBundle;
+import jdk.localedata.share.classes.sun.util.locale.provider.LocaleProviderAdapter;
+import jdk.localedata.share.classes.sun.util.locale.provider.ResourceBundleBasedAdapter;
+import jdk.localedata.share.classes.sun.util.resources.Openjava.util.ListResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class CurrencyNames_zh_SG extends OpenListResourceBundle {
 

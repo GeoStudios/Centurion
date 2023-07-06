@@ -19,34 +19,47 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal;
+package jdk.jfr.share.classes.jdk.jfr.internal;
 
-import static jdk.jfr.internal.MetadataDescriptor.ATTRIBUTE_CONSTANT_POOL;
-import static jdk.jfr.internal.MetadataDescriptor.ATTRIBUTE_DIMENSION;
-import static jdk.jfr.internal.MetadataDescriptor.ATTRIBUTE_ID;
-import static jdk.jfr.internal.MetadataDescriptor.ATTRIBUTE_NAME;
-import static jdk.jfr.internal.MetadataDescriptor.ATTRIBUTE_SIMPLE_TYPE;
-import static jdk.jfr.internal.MetadataDescriptor.ATTRIBUTE_SUPER_TYPE;
-import static jdk.jfr.internal.MetadataDescriptor.ATTRIBUTE_TYPE_ID;
-import static jdk.jfr.internal.MetadataDescriptor.ELEMENT_ANNOTATION;
-import static jdk.jfr.internal.MetadataDescriptor.ELEMENT_FIELD;
-import static jdk.jfr.internal.MetadataDescriptor.ELEMENT_SETTING;
-import static jdk.jfr.internal.MetadataDescriptor.ELEMENT_TYPE;
 
+import static jdk.jfr.share.classes.jdk.jfr.internal.MetadataDescriptor.ATTRIBUTE_CONSTANT_POOL;.extended
+import static jdk.jfr.share.classes.jdk.jfr.internal.MetadataDescriptor.ATTRIBUTE_DIMENSION;.extended
+import static jdk.jfr.share.classes.jdk.jfr.internal.MetadataDescriptor.ATTRIBUTE_ID;.extended
+import static jdk.jfr.share.classes.jdk.jfr.internal.MetadataDescriptor.ATTRIBUTE_NAME;.extended
+import static jdk.jfr.share.classes.jdk.jfr.internal.MetadataDescriptor.ATTRIBUTE_SIMPLE_TYPE;.extended
+import static jdk.jfr.share.classes.jdk.jfr.internal.MetadataDescriptor.ATTRIBUTE_SUPER_TYPE;.extended
+import static jdk.jfr.share.classes.jdk.jfr.internal.MetadataDescriptor.ATTRIBUTE_TYPE_ID;.extended
+import static jdk.jfr.share.classes.jdk.jfr.internal.MetadataDescriptor.ELEMENT_ANNOTATION;.extended
+import static jdk.jfr.share.classes.jdk.jfr.internal.MetadataDescriptor.ELEMENT_FIELD;.extended
+import static jdk.jfr.share.classes.jdk.jfr.internal.MetadataDescriptor.ELEMENT_SETTING;.extended
+import static jdk.jfr.share.classes.jdk.jfr.internal.MetadataDescriptor.ELEMENT_TYPE;.extended
 import java.io.DataInput;
-import java.io.IOException;
-import java.util.ArrayList;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
+import jdk.jfr.share.classes.jdk.jfr.AnnotationElement;
+import jdk.jfr.share.classes.jdk.jfr.SettingDescriptor;
+import jdk.jfr.share.classes.jdk.jfr.ValueDescriptor;
+import jdk.jfr.share.classes.jdk.jfr.internal.MetadataDescriptor.Element;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.RecordingInput;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.StringParser;
 
-import jdk.jfr.AnnotationElement;
-import jdk.jfr.SettingDescriptor;
-import jdk.jfr.ValueDescriptor;
-import jdk.jfr.internal.MetadataDescriptor.Element;
-import jdk.jfr.internal.consumer.RecordingInput;
-import jdk.jfr.internal.consumer.StringParser;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Parses metadata.

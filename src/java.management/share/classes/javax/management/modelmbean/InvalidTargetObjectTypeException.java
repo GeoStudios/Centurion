@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.modelmbean;
+package java.management.share.classes.javax.management.modelmbean;
+
 
 import com.sun.jmx.mbeanserver.GetPropertyAction;
-
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.ObjectStreamField;
 import java.security.AccessController;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Exception thrown when an invalid target object type is specified.

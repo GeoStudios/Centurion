@@ -18,12 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.tools.jlink.plugin;
+
+package jdk.jlink.share.classes.jdk.tools.jlink.plugin;
+
 
 import java.lang.module.ModuleDescriptor;
 import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * Link-time representation of a module.

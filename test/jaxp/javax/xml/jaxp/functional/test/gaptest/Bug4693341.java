@@ -21,28 +21,39 @@
 
 package test.gaptest;
 
-import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
-import static jaxp.library.JAXPTestUtilities.USER_DIR;
-import static jaxp.library.JAXPTestUtilities.compareDocumentWithGold;
-import static org.testng.Assert.assertTrue;
-import static test.gaptest.GapTestConst.GOLDEN_DIR;
-import static test.gaptest.GapTestConst.XML_DIR;
 
+import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;.extended
+import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
+import static jaxp.library.JAXPTestUtilities.compareDocumentWithGold;.extended
+import static org.testng.Assert.assertTrue;.extended
+import static test.gaptest.GapTestConst.GOLDEN_DIR;.extended
+import static test.gaptest.GapTestConst.XML_DIR;.extended
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
-
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

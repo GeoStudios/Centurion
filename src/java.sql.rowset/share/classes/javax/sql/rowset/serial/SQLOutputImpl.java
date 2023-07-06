@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.sql.rowset.serial;
+package java.sql.rowset.share.classes.javax.sql.rowset.serial;
+
 
 import java.io.BufferedReader;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStreamReader;
 import java.sql.*;
 import java.util.Map;
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The output stream for writing the attributes of a

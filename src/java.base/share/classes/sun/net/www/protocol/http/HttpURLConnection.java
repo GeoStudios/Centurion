@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.protocol.http;
+package java.base.share.classes.sun.net.www.protocol.http;
+
 
 import java.security.PrivilegedAction;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.net.URL;
 import java.net.URLConnection;
 import java.net.ProtocolException;
@@ -32,12 +33,12 @@ import java.net.Authenticator;
 import java.net.HttpCookie;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
-import java.net.SocketTimeoutException;
-import java.net.SocketPermission;
+import java.net.java.net.SocketTimeoutException;
+import java.net.java.net.SocketPermission;
 import java.net.Proxy;
 import java.net.ProxySelector;
 import java.net.URI;
-import java.net.InetSocketAddress;
+import java.net.Inetjava.net.SocketAddress;
 import java.net.CookieHandler;
 import java.net.ResponseCache;
 import java.net.CacheResponse;
@@ -49,12 +50,12 @@ import java.security.AccessController;
 import java.security.PrivilegedExceptionAction;
 import java.security.PrivilegedActionException;
 import java.io.*;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Date;
 import java.util.Map;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.StringTokenizer;
 import java.util.Iterator;
 import java.util.HashSet;
@@ -62,31 +63,44 @@ import java.util.HashMap;
 import java.util.Set;
 import java.util.StringJoiner;
 import jdk.internal.access.JavaNetHttpCookieAccess;
-import jdk.internal.access.SharedSecrets;
-import sun.net.*;
-import sun.net.util.IPAddressUtil;
-import sun.net.www.*;
-import sun.net.www.http.HttpClient;
-import sun.net.www.http.PosterOutputStream;
-import sun.net.www.http.ChunkedInputStream;
-import sun.net.www.http.ChunkedOutputStream;
-import sun.util.logging.PlatformLogger;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.sun.net.*;
+import java.base.share.classes.sun.net.util.IPAddressUtil;
+import java.base.share.classes.sun.net.www.*;
+import java.base.share.classes.sun.net.www.http.HttpClient;
+import java.base.share.classes.sun.net.www.http.PosterOutputStream;
+import java.base.share.classes.sun.net.www.http.ChunkedInputStream;
+import java.base.share.classes.sun.net.www.http.ChunkedOutputStream;
+import java.base.share.classes.sun.util.logging.PlatformLogger;
 import java.text.SimpleDateFormat;
 import java.util.TimeZone;
 import java.net.MalformedURLException;
 import java.nio.ByteBuffer;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Properties;
 import java.util.concurrent.locks.ReentrantLock;
+import static java.base.share.classes.sun.net.www.protocol.http.AuthScheme.BASIC;.extended
+import static java.base.share.classes.sun.net.www.protocol.http.AuthScheme.DIGEST;.extended
+import static java.base.share.classes.sun.net.www.protocol.http.AuthScheme.NTLM;.extended
+import static java.base.share.classes.sun.net.www.protocol.http.AuthScheme.NEGOTIATE;.extended
+import static java.base.share.classes.sun.net.www.protocol.http.AuthScheme.KERBEROS;.extended
+import static java.base.share.classes.sun.net.www.protocol.http.AuthScheme.UNKNOWN;.extended
+import java.base.share.classes.sun.security.action.GetIntegerAction;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
-import static sun.net.www.protocol.http.AuthScheme.BASIC;
-import static sun.net.www.protocol.http.AuthScheme.DIGEST;
-import static sun.net.www.protocol.http.AuthScheme.NTLM;
-import static sun.net.www.protocol.http.AuthScheme.NEGOTIATE;
-import static sun.net.www.protocol.http.AuthScheme.KERBEROS;
-import static sun.net.www.protocol.http.AuthScheme.UNKNOWN;
-import sun.security.action.GetIntegerAction;
-import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class to represent an HTTP connection to a remote object.

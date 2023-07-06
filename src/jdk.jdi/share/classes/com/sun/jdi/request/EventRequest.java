@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jdi.request;
+package jdk.jdi.share.classes.com.sun.jdi.request;
 
-import com.sun.jdi.Mirror;
-import com.sun.jdi.ThreadReference;
-import com.sun.jdi.VMDisconnectedException;
-import com.sun.jdi.VMOutOfMemoryException;
-import com.sun.jdi.VirtualMachine;
-import com.sun.jdi.event.BreakpointEvent;
-import com.sun.jdi.event.EventQueue;
-import com.sun.jdi.event.EventSet;
-import com.sun.jdi.event.VMDisconnectEvent;
+
+import jdk.jdi.share.classes.com.sun.jdi.Mirror;
+import jdk.jdi.share.classes.com.sun.jdi.ThreadReference;
+import jdk.jdi.share.classes.com.sun.jdi.VMDisconnectedException;
+import jdk.jdi.share.classes.com.sun.jdi.VMOutOfMemoryException;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+import jdk.jdi.share.classes.com.sun.jdi.event.BreakpointEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.EventQueue;
+import jdk.jdi.share.classes.com.sun.jdi.event.EventSet;
+import jdk.jdi.share.classes.com.sun.jdi.event.VMDisconnectEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a request for notification of an event.  Examples include

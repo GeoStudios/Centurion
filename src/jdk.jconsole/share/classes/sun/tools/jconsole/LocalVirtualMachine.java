@@ -19,23 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole;
+package jdk.jconsole.share.classes.sun.tools.jconsole;
+
 
 import java.util.*;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.File;
-
 import com.sun.tools.attach.VirtualMachine;
 import com.sun.tools.attach.VirtualMachineDescriptor;
 import com.sun.tools.attach.AttachNotSupportedException;
-
 import jdk.internal.agent.ConnectorAddressLink;
-import sun.jvmstat.monitor.HostIdentifier;
-import sun.jvmstat.monitor.MonitoredHost;
-import sun.jvmstat.monitor.MonitoredVm;
-import sun.jvmstat.monitor.MonitoredVmUtil;
-import sun.jvmstat.monitor.MonitorException;
-import sun.jvmstat.monitor.VmIdentifier;
+import jdk.jconsole.share.classes.sun.jvmstat.monitor.HostIdentifier;
+import jdk.jconsole.share.classes.sun.jvmstat.monitor.MonitoredHost;
+import jdk.jconsole.share.classes.sun.jvmstat.monitor.MonitoredVm;
+import jdk.jconsole.share.classes.sun.jvmstat.monitor.MonitoredVmUtil;
+import jdk.jconsole.share.classes.sun.jvmstat.monitor.MonitorException;
+import jdk.jconsole.share.classes.sun.jvmstat.monitor.VmIdentifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class LocalVirtualMachine {
     private String address;

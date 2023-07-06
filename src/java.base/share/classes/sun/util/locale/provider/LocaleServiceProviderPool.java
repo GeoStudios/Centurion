@@ -19,21 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.util.locale.provider;
+package java.base.share.classes.sun.util.locale.provider;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.IllformedLocaleException;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Locale.Builder;
 import java.util.ResourceBundle.Control;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 import java.util.spi.LocaleServiceProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An instance of this class holds a set of the third party implementations of a particular

@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.tools.jlink.internal;
+
+package jdk.jlink.share.classes.jdk.tools.jlink.internal;
+
 
 import java.security.BasicPermission;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The permission required to use jlink API. The permission target_name is

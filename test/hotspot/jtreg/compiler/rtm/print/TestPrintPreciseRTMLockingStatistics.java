@@ -19,6 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.rtm.print;
+
+
+import compiler.testlibrary.rtm.AbortProvoker;
+import compiler.testlibrary.rtm.AbortType;
+import compiler.testlibrary.rtm.RTMLockingStatistics;
+import compiler.testlibrary.rtm.RTMTestBase;
+import jdk.test.lib.Asserts;
+import jdk.test.lib.process.OutputAnalyzer;
+import java.util.Collections;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8031320
@@ -38,18 +64,8 @@
  */
 
 
-package compiler.rtm.print;
 
-import compiler.testlibrary.rtm.AbortProvoker;
-import compiler.testlibrary.rtm.AbortType;
-import compiler.testlibrary.rtm.RTMLockingStatistics;
-import compiler.testlibrary.rtm.RTMTestBase;
-import jdk.test.lib.Asserts;
-import jdk.test.lib.process.OutputAnalyzer;
 
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
 
 /**
  * Test verifies that VM output does not contain RTM locking statistics when it

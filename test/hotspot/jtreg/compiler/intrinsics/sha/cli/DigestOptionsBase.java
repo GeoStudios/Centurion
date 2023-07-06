@@ -21,11 +21,24 @@
 
 package compiler.intrinsics.sha.cli;
 
+
 import compiler.testlibrary.sha.predicate.IntrinsicPredicates;
 import jdk.test.lib.Platform;
 import jdk.test.lib.cli.CommandLineOptionTest;
-
 import java.util.function.BooleanSupplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base class for all CLI tests on SHA-related options.

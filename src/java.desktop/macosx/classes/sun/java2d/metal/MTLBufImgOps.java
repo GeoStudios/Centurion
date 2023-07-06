@@ -19,21 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.metal;
+package java.desktop.macosx.classes.sun.java2d.metal;
 
-import sun.java2d.SunGraphics2D;
-import sun.java2d.SurfaceData;
-import sun.java2d.loops.CompositeType;
-import sun.java2d.pipe.BufferedBufImgOps;
 
+import java.desktop.macosx.classes.sun.java2d.SunGraphics2D;
+import java.desktop.macosx.classes.sun.java2d.SurfaceData;
+import java.desktop.macosx.classes.sun.java2d.loops.CompositeType;
+import java.desktop.macosx.classes.sun.java2d.pipe.BufferedBufImgOps;
 import java.awt.image.AffineTransformOp;
 import java.awt.image.BufferedImage;
 import java.awt.image.BufferedImageOp;
 import java.awt.image.ConvolveOp;
 import java.awt.image.LookupOp;
 import java.awt.image.RescaleOp;
+import static java.desktop.macosx.classes.sun.java2d.metal.MTLContext.MTLContextCaps.CAPS_EXT_BIOP_SHADER;.extended
 
-import static sun.java2d.metal.MTLContext.MTLContextCaps.CAPS_EXT_BIOP_SHADER;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class MTLBufImgOps extends BufferedBufImgOps {
 

@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.net.ssl;
+package java.base.share.classes.javax.net.ssl;
+
 
 import java.util.EventObject;
 import java.security.cert.Certificate;
 import java.security.Principal;
 import java.security.cert.X509Certificate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This event indicates that an SSL handshake completed on a given

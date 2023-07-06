@@ -19,25 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xpath.internal.objects;
+package java.xml.share.classes.com.sun.org.apache.xpath.internal.objects;
 
-import com.sun.org.apache.xalan.internal.res.XSLMessages;
-import com.sun.org.apache.xml.internal.dtm.DTM;
-import com.sun.org.apache.xml.internal.dtm.DTMIterator;
-import com.sun.org.apache.xml.internal.utils.QName;
-import com.sun.org.apache.xml.internal.utils.XMLString;
-import com.sun.org.apache.xpath.internal.Expression;
-import com.sun.org.apache.xpath.internal.ExpressionOwner;
-import com.sun.org.apache.xpath.internal.NodeSetDTM;
-import com.sun.org.apache.xpath.internal.XPathContext;
-import com.sun.org.apache.xpath.internal.XPathException;
-import com.sun.org.apache.xpath.internal.XPathVisitor;
-import com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
+
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMIterator;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLString;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.Expression;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.ExpressionOwner;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.NodeSetDTM;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathException;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathVisitor;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
 import java.io.Serializable;
-import java.util.List;
-import org.w3c.dom.DocumentFragment;
-import org.w3c.dom.NodeList;
-import org.w3c.dom.traversal.NodeIterator;
+import java.util.java.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.w3c.dom.DocumentFragment;
+import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.w3c.dom.traversal.NodeIterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents an XPath object, and is capable of

@@ -18,10 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package java.util.stream;
 
-import static org.testng.Assert.assertNotNull;
-import static org.testng.Assert.assertTrue;
+
+import static org.testng.Assert.assertNotNull;.extended
+import static org.testng.Assert.assertTrue;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class ThrowableHelper {
 

@@ -21,11 +21,24 @@
 
 package sun.security.provider;
 
-import java.math.BigInteger;
 
-import java.security.*;
+import java.math.BigInteger;
+import java.base.share.classes.java.security.*;
 import java.security.SecureRandom;
 import java.security.spec.AlgorithmParameterSpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A fake DSA key pair generator

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
 
 import java.awt.MenuItem;
 import java.awt.MenuShortcut;
@@ -28,9 +29,22 @@ import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.awt.peer.MenuItemPeer;
 import java.util.concurrent.atomic.AtomicBoolean;
+import java.desktop.macosx.classes.sun.awt.SunToolkit;
+import java.desktop.macosx.classes.sun.lwawt.LWToolkit;
 
-import sun.awt.SunToolkit;
-import sun.lwawt.LWToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CMenuItem extends CMenuComponent implements MenuItemPeer {
 

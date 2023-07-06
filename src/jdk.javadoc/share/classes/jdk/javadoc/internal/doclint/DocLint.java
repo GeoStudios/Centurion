@@ -19,18 +19,17 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclint;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclint;
+
 
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.util.*;
-
 import javax.lang.model.element.Name;
 import javax.lang.model.util.Elements;
 import javax.lang.model.util.Types;
 import javax.tools.StandardLocation;
-
 import com.sun.source.doctree.DocCommentTree;
 import com.sun.source.tree.BlockTree;
 import com.sun.source.tree.ClassTree;
@@ -44,7 +43,7 @@ import com.sun.source.tree.VariableTree;
 import com.sun.source.util.DocTrees;
 import com.sun.source.util.JavacTask;
 import com.sun.source.util.TaskEvent;
-import com.sun.source.util.TaskListener;
+import com.sun.source.util.Taskjava.util.Listener;
 import com.sun.source.util.TreePath;
 import com.sun.source.util.TreePathScanner;
 import com.sun.tools.javac.api.JavacTaskImpl;
@@ -54,6 +53,20 @@ import com.sun.tools.javac.main.JavaCompiler;
 import com.sun.tools.javac.util.Context;
 import com.sun.tools.javac.util.DefinedBy;
 import com.sun.tools.javac.util.DefinedBy.Api;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Multi-function entry point for the doc check utility.

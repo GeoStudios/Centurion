@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdeps;
+package jdk.jdeps.share.classes.com.sun.tools.jdeps;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.module.ModuleDescriptor;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Build the profile information.
@@ -82,7 +97,7 @@ enum Profile {
     }
 
     /**
-     * Returns the Profile for the given package name; null if not found.
+     * Returns the Profile for the given  null if not found.
      */
     public static Profile getProfile(String pn) {
         for (Profile p : Profile.values()) {

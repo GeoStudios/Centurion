@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.arguments;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8214025
@@ -27,7 +44,6 @@
  *                   -XX:ScavengeRootsInCode=1 compiler.arguments.TestScavengeRootsInCode
  */
 
-package compiler.arguments;
 
 public class TestScavengeRootsInCode {
 

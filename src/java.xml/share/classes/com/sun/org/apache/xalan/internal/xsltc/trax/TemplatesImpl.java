@@ -19,19 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * $Id: TemplatesImpl.java,v 1.8 2007/03/26 20:12:27 spericas Exp $
- */
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax;
 
-package com.sun.org.apache.xalan.internal.xsltc.trax;
 
-import com.sun.org.apache.xalan.internal.utils.ObjectFactory;
-import com.sun.org.apache.xalan.internal.xsltc.DOM;
-import com.sun.org.apache.xalan.internal.xsltc.Translet;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.Constants;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
-import com.sun.org.apache.xalan.internal.xsltc.runtime.AbstractTranslet;
-import java.io.IOException;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.utils.ObjectFactory;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.Translet;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.Constants;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime.AbstractTranslet;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.NotSerializableException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -50,7 +47,7 @@ import java.security.CodeSource;
 import java.security.PermissionCollection;
 import java.security.PrivilegedAction;
 import java.security.ProtectionDomain;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
@@ -63,6 +60,27 @@ import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.URIResolver;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * $Id: TemplatesImpl.java,v 1.8 2007/03/26 20:12:27 spericas Exp $
+ */
+
+
+
 
 
 /**

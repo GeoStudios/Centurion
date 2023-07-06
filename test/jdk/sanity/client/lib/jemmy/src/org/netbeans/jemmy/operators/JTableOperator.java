@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.operators;
+
 
 import java.awt.Color;
 import java.awt.Component;
@@ -28,13 +30,12 @@ import java.awt.Point;
 import java.awt.Rectangle;
 import java.util.EventObject;
 import java.util.Hashtable;
-
 import javax.swing.JPopupMenu;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
-import javax.swing.ListSelectionModel;
+import javax.swing.java.util.ListSelectionModel;
 import javax.swing.event.ChangeEvent;
-import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.java.util.ListSelectionEvent;
 import javax.swing.event.TableColumnModelEvent;
 import javax.swing.event.TableModelEvent;
 import javax.swing.plaf.TableUI;
@@ -44,7 +45,6 @@ import javax.swing.table.TableCellRenderer;
 import javax.swing.table.TableColumn;
 import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
-
 import org.netbeans.jemmy.ComponentChooser;
 import org.netbeans.jemmy.ComponentSearcher;
 import org.netbeans.jemmy.JemmyException;
@@ -58,6 +58,19 @@ import org.netbeans.jemmy.Waiter;
 import org.netbeans.jemmy.drivers.DriverManager;
 import org.netbeans.jemmy.drivers.TableDriver;
 import org.netbeans.jemmy.util.EmptyVisualizer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <BR><BR>Timeouts used: <BR>

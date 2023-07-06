@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package com;
+
+
+import java.net.*;
+import java.io.*;
+import javax.net.ssl.*;
+import java.security.cert.*;
+import java.base.share.classes.java.security.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This class may have some race conditions that I haven't
  * accounted for.  I've tried to put in sufficient sleeps and triggers
@@ -31,13 +53,7 @@
  * client and interested threads should receive the same
  * session notification.
  */
-package com;
 
-import java.net.*;
-import java.io.*;
-import javax.net.ssl.*;
-import java.security.cert.*;
-import java.security.*;
 
 public class NotifyHandshakeTest implements HandshakeCompletedListener {
 

@@ -21,6 +21,21 @@
 
 package inheritDist;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //6270645
 public interface A {
     /**

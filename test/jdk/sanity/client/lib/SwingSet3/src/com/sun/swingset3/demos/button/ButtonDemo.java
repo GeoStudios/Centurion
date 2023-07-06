@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package com.sun.swingset3.demos.button;
+
 
 import java.awt.Color;
 import java.awt.FlowLayout;
@@ -31,10 +33,22 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
-
 import com.sun.swingset3.DemoProperties;
 import com.sun.swingset3.demos.JHyperlink;
 import java.lang.reflect.InvocationTargetException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

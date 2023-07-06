@@ -21,9 +21,23 @@
 
 package annot;
 
+
 import java.lang.annotation.*;
-import static java.lang.annotation.ElementType.*;
-import static java.lang.annotation.RetentionPolicy.*;
+import static java.lang.annotation.ElementType.*;.extended
+import static java.lang.annotation.RetentionPolicy.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Hold information about the set of elements expected to be annotated

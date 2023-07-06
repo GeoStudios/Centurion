@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.rmi.server;
 
-import java.rmi.*;
+package java.rmi.share.classes.java.rmi.server;
+
+
+import java.rmi.share.classes.java.rmi.*;
 import sun.rmi.server.UnicastServerRef;
 import sun.rmi.runtime.Log;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The <code>RemoteServer</code> class is the common superclass to server

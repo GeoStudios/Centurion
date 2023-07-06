@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr;
+package jdk.jfr.share.classes.jdk.jfr;
+
 
 import java.time.Duration;
 import java.util.Map;
+import jdk.jfr.share.classes.jdk.jfr.internal.management.EventSettingsModifier;
 
-import jdk.jfr.internal.management.EventSettingsModifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Convenience class for applying event settings to a recording.

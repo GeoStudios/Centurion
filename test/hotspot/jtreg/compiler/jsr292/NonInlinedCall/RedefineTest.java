@@ -19,6 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jsr292.NonInlinedCall;
+
+
+import jdk.internal.org.objectweb.asm.ClassWriter;
+import jdk.internal.org.objectweb.asm.MethodVisitor;
+import jdk.internal.vm.annotation.DontInline;
+import sun.hotspot.WhiteBox;
+import java.lang.instrument.ClassDefinition;
+import java.lang.instrument.Instrumentation;
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandleHelper;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PUBLIC;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_STATIC;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_SUPER;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.IRETURN;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8072008
@@ -43,24 +74,9 @@
  *                                 compiler.jsr292.NonInlinedCall.RedefineTest
  */
 
-package compiler.jsr292.NonInlinedCall;
 
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.org.objectweb.asm.MethodVisitor;
-import jdk.internal.vm.annotation.DontInline;
-import sun.hotspot.WhiteBox;
 
-import java.lang.instrument.ClassDefinition;
-import java.lang.instrument.Instrumentation;
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandleHelper;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodType;
 
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PUBLIC;
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_STATIC;
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_SUPER;
-import static jdk.internal.org.objectweb.asm.Opcodes.IRETURN;
 
 public class RedefineTest {
     static final MethodHandles.Lookup LOOKUP = MethodHandleHelper.IMPL_LOOKUP;

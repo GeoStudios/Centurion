@@ -21,41 +21,52 @@
 
 package catalog;
 
+
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.net.InetAddress;
-import java.net.InetSocketAddress;
+import java.net.Inetjava.net.SocketAddress;
 import java.net.URI;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-
 import javax.xml.catalog.Catalog;
 import javax.xml.catalog.CatalogException;
 import javax.xml.catalog.CatalogFeatures;
 import javax.xml.catalog.CatalogManager;
 import javax.xml.catalog.CatalogResolver;
-
-import static java.nio.file.StandardOpenOption.APPEND;
-import static java.nio.file.StandardOpenOption.CREATE;
-import static jaxp.library.JAXPTestUtilities.getSystemProperty;
-
+import static java.nio.file.StandardOpenOption.APPEND;.extended
+import static java.nio.file.StandardOpenOption.CREATE;.extended
+import static jaxp.library.JAXPTestUtilities.getSystemProperty;.extended
 import jdk.test.lib.util.JarUtils;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.InputSource;
 import jdk.test.lib.net.SimpleHttpServer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

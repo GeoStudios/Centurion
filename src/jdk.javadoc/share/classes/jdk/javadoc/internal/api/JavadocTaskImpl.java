@@ -19,22 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.api;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.api;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.concurrent.atomic.AtomicBoolean;
-
 import javax.tools.DocumentationTool.DocumentationTask;
 import javax.tools.JavaFileObject;
-
 import com.sun.tools.javac.main.Option;
 import com.sun.tools.javac.util.ClientCodeException;
 import com.sun.tools.javac.util.Context;
 import com.sun.tools.javac.util.Options;
-import jdk.javadoc.internal.tool.Start;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.tool.Start;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides access to functionality specific to the JDK documentation tool,

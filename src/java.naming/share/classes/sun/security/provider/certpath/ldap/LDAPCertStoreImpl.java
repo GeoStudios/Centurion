@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider.certpath.ldap;
+package java.naming.share.classes.sun.security.provider.certpath.ldap;
+
 
 import java.io.ByteArrayInputStream;
 import java.net.URI;
@@ -33,20 +34,32 @@ import javax.naming.NameNotFoundException;
 import javax.naming.directory.Attribute;
 import javax.naming.directory.Attributes;
 import javax.naming.directory.BasicAttributes;
-
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.cert.Certificate;
 import java.security.cert.*;
 import javax.naming.CommunicationException;
 import javax.naming.ldap.InitialLdapContext;
 import javax.naming.ldap.LdapContext;
 import javax.security.auth.x500.X500Principal;
-
 import com.sun.jndi.ldap.LdapReferralException;
-import sun.security.util.HexDumpEncoder;
-import sun.security.provider.certpath.X509CertificatePair;
-import sun.security.util.Cache;
-import sun.security.util.Debug;
+import java.naming.share.classes.sun.security.util.HexDumpEncoder;
+import java.naming.share.classes.sun.security.provider.certpath.X509CertificatePair;
+import java.naming.share.classes.sun.security.util.Cache;
+import java.naming.share.classes.sun.security.util.Debug;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Core implementation of a LDAP Cert Store.

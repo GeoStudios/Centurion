@@ -19,7 +19,22 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.xml.sax;
+package java.xml.share.classes.org.xml.sax;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**
@@ -49,7 +64,7 @@ package org.xml.sax;
  * package; that means that it's probably a bad idea to do</p>
  *
  * <pre>import java.net.*;
- * import org.xml.sax.*;
+ * import java.xml.share.classes.org.xml.sax.*;
  * </pre>
  *
  * <p>In fact, "import ...*" is usually a sign of sloppy programming

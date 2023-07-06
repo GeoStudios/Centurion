@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.io.IOException;
+
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code Formattable} interface must be implemented by any class that
@@ -33,11 +48,11 @@ import java.io.IOException;
  * stock's name depending on the flags and length constraints:
  *
  * <pre> {@code
- *   import java.nio.CharBuffer;
- *   import java.util.Formatter;
- *   import java.util.Formattable;
- *   import java.util.Locale;
- *   import static java.util.FormattableFlags.*;
+ *   import java.base.share.classes.java.nio.CharBuffer;
+ *   import java.base.share.classes.java.util.Formatter;
+ *   import java.base.share.classes.java.util.Formattable;
+ *   import java.base.share.classes.java.util.Locale;
+ *   import static java.base.share.classes.java.util.FormattableFlags.*;
  *
  *   ...
  *

@@ -19,15 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole;
+package jdk.jconsole.share.classes.sun.tools.jconsole;
+
 
 import com.sun.management.HotSpotDiagnosticMXBean;
 import com.sun.tools.jconsole.JConsoleContext;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.beans.PropertyChangeEvent;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.management.*;
-import static java.lang.management.ManagementFactory.*;
+import static java.lang.management.ManagementFactory.*;.extended
 import java.lang.ref.WeakReference;
 import java.lang.reflect.*;
 import java.rmi.*;
@@ -37,10 +38,24 @@ import java.util.*;
 import javax.management.*;
 import javax.management.remote.*;
 import javax.management.remote.rmi.*;
-import javax.rmi.ssl.SslRMIClientSocketFactory;
+import javax.rmi.ssl.SslRMIClientjava.net.SocketFactory;
 import javax.swing.event.SwingPropertyChangeSupport;
-import sun.rmi.server.UnicastRef2;
-import sun.rmi.transport.LiveRef;
+import jdk.jconsole.share.classes.sun.rmi.server.UnicastRef2;
+import jdk.jconsole.share.classes.sun.rmi.transport.LiveRef;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ProxyClient implements JConsoleContext {
 

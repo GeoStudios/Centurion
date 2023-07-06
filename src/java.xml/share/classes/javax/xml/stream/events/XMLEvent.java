@@ -19,10 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.stream.events;
+package java.xml.share.classes.javax.xml.stream.events;
+
 
 import java.io.Writer;
-import javax.xml.namespace.QName;
+import java.xml.share.classes.javax.xml.namespace.QName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This is the base event interface for handling markup events.
  * Events are value objects that are used to communicate the

@@ -21,6 +21,21 @@
 
 package vm.mlvm.anonloader.share;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class AnonkTestee02 extends AnonkTestee01 {
     public AnonkTestee02() {}
 }

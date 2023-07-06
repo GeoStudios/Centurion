@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.StringIntern;
+
+
+import nsk.share.test.*;
+import nsk.share.gc.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -32,10 +50,7 @@
  * @run main/othervm gc.gctests.StringIntern.StringIntern
  */
 
-package gc.gctests.StringIntern;
 
-import nsk.share.test.*;
-import nsk.share.gc.*;
 
 /**
  * Test that strings returned by String.intern() can be collected.

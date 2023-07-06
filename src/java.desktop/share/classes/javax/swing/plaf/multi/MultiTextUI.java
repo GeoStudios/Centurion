@@ -18,25 +18,41 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.plaf.multi;
+
+package java.desktop.share.classes.javax.swing.plaf.multi;
+
 
 import java.util.Vector;
-import javax.swing.plaf.TextUI;
+import java.desktop.share.classes.javax.swing.plaf.TextUI;
 import java.lang.String;
-import javax.swing.text.JTextComponent;
+import java.desktop.share.classes.javax.swing.text.JTextComponent;
 import java.awt.Point;
 import java.awt.Rectangle;
-import javax.swing.text.BadLocationException;
-import javax.swing.text.Position;
-import javax.swing.text.EditorKit;
-import javax.swing.text.View;
-import javax.swing.plaf.ComponentUI;
-import javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.text.BadLocationException;
+import java.desktop.share.classes.javax.swing.text.Position;
+import java.desktop.share.classes.javax.swing.text.EditorKit;
+import java.desktop.share.classes.javax.swing.text.View;
+import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
+import java.desktop.share.classes.javax.swing.JComponent;
 import java.awt.Graphics;
 import java.awt.Dimension;
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
-import javax.accessibility.Accessible;
+import java.desktop.share.classes.javax.accessibility.Accessible;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A multiplexing UI used to combine <code>TextUI</code>s.

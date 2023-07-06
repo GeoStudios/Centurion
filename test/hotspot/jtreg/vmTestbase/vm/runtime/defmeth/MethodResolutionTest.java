@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.runtime.defmeth;
+
+
+import java.util.Set;
+import vm.runtime.defmeth.shared.data.*;
+import vm.runtime.defmeth.shared.data.method.param.*;
+import vm.runtime.defmeth.shared.DefMethTest;
+import vm.runtime.defmeth.shared.builder.TestBuilder;
+import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
+import static vm.runtime.defmeth.shared.ExecutionMode.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -34,17 +58,9 @@
  *      -javaagent:retransform.jar
  *      vm.runtime.defmeth.MethodResolutionTest
  */
-package vm.runtime.defmeth;
 
-import java.util.Set;
 
-import vm.runtime.defmeth.shared.data.*;
-import vm.runtime.defmeth.shared.data.method.param.*;
-import vm.runtime.defmeth.shared.DefMethTest;
-import vm.runtime.defmeth.shared.builder.TestBuilder;
 
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
-import static vm.runtime.defmeth.shared.ExecutionMode.*;
 
 /**
  * Tests on method resolution in presence of default methods in the hierarchy.

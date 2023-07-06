@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
-import java.security.InvalidKeyException;
-import java.security.ProviderException;
-import sun.security.util.ArrayUtil;
-import java.util.Objects;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.ProviderException;
+import java.base.share.classes.com.sun.security.util.ArrayUtil;
+import java.base.share.classes.java.util.Objects;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents ciphers in electronic codebook (ECB) mode.

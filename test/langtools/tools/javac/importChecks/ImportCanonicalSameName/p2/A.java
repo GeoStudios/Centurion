@@ -20,6 +20,22 @@
  */
 
 package p2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class A {
     public static class I {}
 }

@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.event;
+package java.desktop.share.classes.javax.swing.event;
 
-import javax.swing.undo.*;
+
+import java.desktop.share.classes.javax.swing.undo.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An event indicating that an operation which can be undone has occurred.

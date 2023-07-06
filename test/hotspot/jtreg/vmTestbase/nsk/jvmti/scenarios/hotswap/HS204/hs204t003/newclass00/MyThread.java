@@ -18,7 +18,24 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.jvmti.scenarios.hotswap.HS204.hs204t003;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class MyThread extends Thread {
         private static volatile int intState=0;
     public static int count=100;

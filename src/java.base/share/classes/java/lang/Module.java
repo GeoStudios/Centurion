@@ -19,35 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.lang.annotation.Annotation;
-import java.lang.module.Configuration;
-import java.lang.module.ModuleReference;
-import java.lang.module.ModuleDescriptor;
-import java.lang.module.ModuleDescriptor.Exports;
-import java.lang.module.ModuleDescriptor.Opens;
-import java.lang.module.ModuleDescriptor.Version;
-import java.lang.module.ResolvedModule;
-import java.lang.reflect.AnnotatedElement;
-import java.net.URI;
-import java.net.URL;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Optional;
-import java.util.Set;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.function.Function;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.InputStream;
+import java.base.share.classes.java.lang.annotation.Annotation;
+import java.base.share.classes.java.lang.module.Configuration;
+import java.base.share.classes.java.lang.module.ModuleReference;
+import java.base.share.classes.java.lang.module.ModuleDescriptor;
+import java.base.share.classes.java.lang.module.ModuleDescriptor.Exports;
+import java.base.share.classes.java.lang.module.ModuleDescriptor.Opens;
+import java.base.share.classes.java.lang.module.ModuleDescriptor.Version;
+import java.base.share.classes.java.lang.module.ResolvedModule;
+import java.base.share.classes.java.lang.reflect.AnnotatedElement;
+import java.base.share.classes.java.net.URI;
+import java.base.share.classes.java.net.URL;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.PrivilegedAction;
+import java.base.share.classes.java.util.HashMap;
+import java.base.share.classes.java.util.HashSet;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Optional;
+import java.base.share.classes.java.util.Set;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.function.Function;
+import java.base.share.classes.java.util.stream.Collectors;
+import java.base.share.classes.java.util.stream.Stream;
 import jdk.internal.loader.BuiltinClassLoader;
 import jdk.internal.loader.BootLoader;
 import jdk.internal.loader.ClassLoaders;
@@ -65,6 +65,20 @@ import jdk.internal.org.objectweb.asm.Opcodes;
 import jdk.internal.reflect.CallerSensitive;
 import jdk.internal.reflect.Reflection;
 import sun.security.util.SecurityConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a run-time module, either {@link #isNamed() named} or unnamed.
@@ -760,7 +774,7 @@ public final class Module implements AnnotatedElement {
     @CallerSensitive
     public Module addExports(String pn, Module other) {
         if (pn == null)
-            throw new IllegalArgumentException("package is null");
+            throw new IllegalArgumentException("
         Objects.requireNonNull(other);
 
         if (isNamed()) {
@@ -814,7 +828,7 @@ public final class Module implements AnnotatedElement {
     @CallerSensitive
     public Module addOpens(String pn, Module other) {
         if (pn == null)
-            throw new IllegalArgumentException("package is null");
+            throw new IllegalArgumentException("
         Objects.requireNonNull(other);
 
         if (isNamed()) {

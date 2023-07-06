@@ -19,34 +19,52 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package com.sun.org.apache.xml.internal.security.algorithms;
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms;
+
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
-import java.security.Key;
+import java.base.share.classes.java.security.Key;
 import java.security.Provider;
 import java.security.SecureRandom;
 import java.security.spec.AlgorithmParameterSpec;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms.implementations.IntegrityHmac;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms.implementations.SignatureBaseRSA;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms.implementations.SignatureDSA;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms.implementations.SignatureECDSA;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions.AlgorithmAlreadyRegisteredException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.XMLSignature;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.XMLSignatureException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.Constants;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.JavaUtils;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Attr;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
 
-import com.sun.org.apache.xml.internal.security.algorithms.implementations.IntegrityHmac;
-import com.sun.org.apache.xml.internal.security.algorithms.implementations.SignatureBaseRSA;
-import com.sun.org.apache.xml.internal.security.algorithms.implementations.SignatureDSA;
-import com.sun.org.apache.xml.internal.security.algorithms.implementations.SignatureECDSA;
-import com.sun.org.apache.xml.internal.security.exceptions.AlgorithmAlreadyRegisteredException;
-import com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
-import com.sun.org.apache.xml.internal.security.signature.XMLSignature;
-import com.sun.org.apache.xml.internal.security.signature.XMLSignatureException;
-import com.sun.org.apache.xml.internal.security.utils.Constants;
-import com.sun.org.apache.xml.internal.security.utils.JavaUtils;
-import org.w3c.dom.Attr;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
 
 /**
  * Allows selection of digital signature's algorithm, private keys, other

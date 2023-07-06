@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nonexistent.pack;
+
+
+import nonexistent.pack.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4093217
@@ -28,9 +46,7 @@
  * @compile DuplicateImport.java
  */
 
-package nonexistent.pack;
 
-import nonexistent.pack.*;
 
 class DuplicateImport {
 }

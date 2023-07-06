@@ -21,7 +21,21 @@
 
 package jdk.jdeprusage;
 
+
 import jdk.deprcases.types.DeprecatedClass;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class UseClass {
     static class Extends extends DeprecatedClass {

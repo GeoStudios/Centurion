@@ -19,25 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.geom.AffineTransform;
 import java.beans.*;
-
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.plaf.*;
-
 import sun.swing.SwingUtilities2;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIStateFactory;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.*;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIState.ValueState;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtilControlSize.*;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
 
-import apple.laf.JRSUIStateFactory;
-import apple.laf.JRSUIConstants.*;
-import apple.laf.JRSUIState.ValueState;
 
-import com.apple.laf.AquaUtilControlSize.*;
-import com.apple.laf.AquaUtils.RecyclableSingleton;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaProgressBarUI extends ProgressBarUI implements ChangeListener, PropertyChangeListener, AncestorListener, Sizeable {
     private static final boolean ADJUSTTIMER = true;

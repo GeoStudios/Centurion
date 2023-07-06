@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management;
+package java.management.share.classes.javax.management;
+
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -27,26 +28,40 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 import java.lang.reflect.RecordComponent;
-
-// remaining imports are for Javadoc
 import java.io.InvalidObjectException;
 import java.lang.management.MemoryUsage;
 import java.lang.reflect.UndeclaredThrowableException;
-import java.util.Arrays;
-import java.util.List;
-import javax.management.openmbean.ArrayType;
-import javax.management.openmbean.CompositeData;
-import javax.management.openmbean.CompositeDataInvocationHandler;
-import javax.management.openmbean.CompositeDataSupport;
-import javax.management.openmbean.CompositeDataView;
-import javax.management.openmbean.CompositeType;
-import javax.management.openmbean.OpenDataException;
-import javax.management.openmbean.OpenMBeanInfo;
-import javax.management.openmbean.OpenType;
-import javax.management.openmbean.SimpleType;
-import javax.management.openmbean.TabularData;
-import javax.management.openmbean.TabularDataSupport;
-import javax.management.openmbean.TabularType;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
+import java.management.share.classes.javax.management.openmbean.ArrayType;
+import java.management.share.classes.javax.management.openmbean.CompositeData;
+import java.management.share.classes.javax.management.openmbean.CompositeDataInvocationHandler;
+import java.management.share.classes.javax.management.openmbean.CompositeDataSupport;
+import java.management.share.classes.javax.management.openmbean.CompositeDataView;
+import java.management.share.classes.javax.management.openmbean.CompositeType;
+import java.management.share.classes.javax.management.openmbean.OpenDataException;
+import java.management.share.classes.javax.management.openmbean.OpenMBeanInfo;
+import java.management.share.classes.javax.management.openmbean.OpenType;
+import java.management.share.classes.javax.management.openmbean.SimpleType;
+import java.management.share.classes.javax.management.openmbean.TabularData;
+import java.management.share.classes.javax.management.openmbean.TabularDataSupport;
+import java.management.share.classes.javax.management.openmbean.TabularType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// remaining imports are for Javadoc
 
 /**
     <p>Annotation to mark an interface explicitly as being an MXBean

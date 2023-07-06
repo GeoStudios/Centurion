@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.peer;
+package java.desktop.share.classes.java.awt.peer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The peer interface for fonts. This is only a marker interface and not

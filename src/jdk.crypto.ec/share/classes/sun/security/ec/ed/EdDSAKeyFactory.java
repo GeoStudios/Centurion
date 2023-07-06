@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ec.ed;
+package jdk.crypto.ec.share.classes.sun.security.ec.ed;
+
 
 import java.security.KeyFactorySpi;
-import java.security.Key;
-import java.security.PublicKey;
-import java.security.PrivateKey;
-import java.security.InvalidKeyException;
-import java.security.ProviderException;
+import java.base.share.classes.java.security.Key;
+import java.base.share.classes.java.security.PublicKey;
+import java.base.share.classes.java.security.PrivateKey;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.ProviderException;
 import java.security.interfaces.*;
-import java.security.spec.*;
-import java.util.Arrays;
+import java.base.share.classes.java.security.spec.*;
+import java.base.share.classes.java.util.Arrays;
 import java.util.function.Function;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class EdDSAKeyFactory extends KeyFactorySpi {
 

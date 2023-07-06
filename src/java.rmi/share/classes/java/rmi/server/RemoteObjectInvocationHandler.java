@@ -18,19 +18,35 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.rmi.server;
 
-import java.io.InvalidObjectException;
-import java.lang.reflect.InvocationHandler;
-import java.lang.reflect.Method;
-import java.lang.reflect.Proxy;
-import java.rmi.Remote;
-import java.rmi.RemoteException;
-import java.rmi.UnexpectedException;
-import java.util.Map;
-import java.util.WeakHashMap;
+package java.rmi.share.classes.java.rmi.server;
+
+
+import java.rmi.share.classes.java.io.InvalidObjectException;
+import java.rmi.share.classes.java.lang.reflect.InvocationHandler;
+import java.rmi.share.classes.java.lang.reflect.Method;
+import java.rmi.share.classes.java.lang.reflect.Proxy;
+import java.rmi.share.classes.java.rmi.Remote;
+import java.rmi.share.classes.java.rmi.RemoteException;
+import java.rmi.share.classes.java.rmi.UnexpectedException;
+import java.rmi.share.classes.java.util.Map;
+import java.rmi.share.classes.java.util.WeakHashMap;
 import sun.rmi.server.Util;
 import sun.rmi.server.WeakClassHashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of the <code>InvocationHandler</code> interface for
@@ -215,8 +231,7 @@ public class RemoteObjectInvocationHandler
                     method = cl.getMethod(method.getName(),
                                           method.getParameterTypes());
                 } catch (NoSuchMethodException nsme) {
-                    throw (IllegalArgumentException)
-                            new IllegalArgumentException(nsme);
+                    throw new IllegalArgumentException(nsme);
                 }
                 Class<?> thrownType = e.getClass();
                 for (Class<?> declaredType : method.getExceptionTypes()) {

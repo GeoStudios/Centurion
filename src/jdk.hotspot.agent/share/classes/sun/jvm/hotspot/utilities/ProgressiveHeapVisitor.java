@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.utilities;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
-import sun.jvm.hotspot.memory.*;
-import sun.jvm.hotspot.oops.*;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.memory.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This class wraps a user's chosen HeapVisitor with the
     functionality that a chosen "thunk" is called periodically during

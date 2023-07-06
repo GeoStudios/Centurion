@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @requires vm.flavor == "server"
@@ -28,7 +45,6 @@
  *                     compiler.c2.UpcastTest
  */
 
-package compiler.c2;
 
 public class UpcastTest {
     static class Test1 {

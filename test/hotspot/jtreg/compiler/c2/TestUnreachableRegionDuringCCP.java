@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8210387
@@ -29,9 +47,7 @@
  *                   compiler.c2.TestUnreachableRegionDuringCCP
  */
 
-package compiler.c2;
 
-import jdk.test.lib.Asserts;
 
 public class TestUnreachableRegionDuringCCP {
     static int iFld1 = -1;

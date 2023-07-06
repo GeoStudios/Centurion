@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.peer.TrayIconPeer;
-import sun.awt.*;
+import java.desktop.unix.classes.sun.awt.*;
 import java.awt.image.*;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.lang.reflect.InvocationTargetException;
-import sun.util.logging.PlatformLogger;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class XTrayIconPeer implements TrayIconPeer,
        InfoWindow.Balloon.LiveArguments,

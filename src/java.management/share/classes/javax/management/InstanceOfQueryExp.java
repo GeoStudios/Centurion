@@ -19,7 +19,22 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management;
+package java.management.share.classes.javax.management;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**
@@ -110,6 +125,6 @@ class InstanceOfQueryExp extends QueryEval implements QueryExp {
      * @return a string representation of this InstanceOfQueryExp.
      */
     public String toString() {
-       return "InstanceOf " + classNameValue.toString();
+       return "InstanceOf " + classNameValue;
    }
 }

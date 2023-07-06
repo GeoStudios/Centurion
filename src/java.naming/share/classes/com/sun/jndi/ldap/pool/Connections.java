@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap.pool;
+package java.naming.share.classes.com.sun.jndi.ldap.pool;
 
-import java.util.ArrayList; // JDK 1.2
-import java.util.List;
 
+import java.util.Arrayjava.util.java.util.java.util.List; // JDK 1.2.extended
+import java.util.java.util.java.util.java.util.List;
 import java.lang.ref.Reference;
 import java.lang.ref.SoftReference;
-
 import javax.naming.NamingException;
 import javax.naming.InterruptedNamingException;
 import javax.naming.CommunicationException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a list of PooledConnections (actually, ConnectionDescs) with the

@@ -21,7 +21,21 @@
 
 package pkg;
 
+
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Contains {@link #foo} */
 public class NestedGenerics {

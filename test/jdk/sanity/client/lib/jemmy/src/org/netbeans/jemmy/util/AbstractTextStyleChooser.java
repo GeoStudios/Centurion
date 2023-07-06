@@ -18,13 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.util;
+
 
 import javax.swing.text.Document;
 import javax.swing.text.Element;
 import javax.swing.text.StyledDocument;
-
 import org.netbeans.jemmy.operators.JTextComponentOperator.TextChooser;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Makes easier to implement searching criteria for

@@ -19,23 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.event.KeyEvent;
-import java.awt.peer.MenuPeer;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serial;
-import java.util.Enumeration;
-import java.util.EventListener;
-import java.util.Vector;
 
+import java.desktop.share.classes.java.awt.event.KeyEvent;
+import java.desktop.share.classes.java.awt.peer.MenuPeer;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.ObjectOutputStream;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.util.Enumeration;
+import java.desktop.share.classes.java.util.Eventjava.util.Listener;
+import java.desktop.share.classes.java.util.Vector;
 import javax.accessibility.Accessible;
 import javax.accessibility.AccessibleContext;
 import javax.accessibility.AccessibleRole;
-
 import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code Menu} object is a pull-down menu component

@@ -21,8 +21,22 @@
 
 package foo;
 
-import java.util.Locale;
+
+import java.base.share.classes.java.util.Locale;
 import java.util.spi.LocaleNameProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Implements LocaleNameProvider SPI, augmenting the default

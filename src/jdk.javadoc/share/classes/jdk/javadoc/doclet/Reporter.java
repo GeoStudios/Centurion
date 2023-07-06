@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.doclet;
+package jdk.javadoc.share.classes.jdk.javadoc.doclet;
+
 
 import java.io.PrintWriter;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import javax.lang.model.element.Element;
 import javax.tools.Diagnostic;
 import javax.tools.FileObject;
-
 import com.sun.source.util.DocTreePath;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface for reporting diagnostics and other messages.

@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.protocol.jar;
+package java.base.windows.classes.sun.net.www.protocol.jar;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.FileNotFoundException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.HashMap;
 import java.util.jar.JarFile;
 import java.security.Permission;
-import sun.net.util.URLUtil;
+import java.base.windows.classes.sun.net.util.URLUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* A factory for cached JAR file. This class is used to both retrieve
  * and cache Jar files.

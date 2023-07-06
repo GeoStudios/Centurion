@@ -19,23 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.dom;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.util.Map;
-import org.w3c.dom.DOMException;
-import org.w3c.dom.Document;
-import org.w3c.dom.DocumentType;
-import org.w3c.dom.Element;
-import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.w3c.dom.UserDataHandler;
-import org.w3c.dom.events.Event;
-import org.w3c.dom.events.EventListener;
-import org.w3c.dom.events.EventTarget;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.w3c.dom.DocumentType;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.w3c.dom.UserDataHandler;
+import java.xml.share.classes.com.sun.org.w3c.dom.events.Event;
+import java.xml.share.classes.com.sun.org.w3c.dom.events.Eventjava.util.Listener;
+import java.xml.share.classes.com.sun.org.w3c.dom.events.EventTarget;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * NodeImpl provides the basic structure of a DOM tree. It is never used

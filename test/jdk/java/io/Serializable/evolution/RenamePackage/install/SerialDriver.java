@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package install;
+
+
+import java.io.*;
+import extension.ExtendedObjectInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  *
  * @bug 4087295
@@ -30,10 +49,7 @@
  * for instructions on how to run this test.
  */
 
-package install;
 
-import java.io.*;
-import extension.ExtendedObjectInputStream;
 
 public class SerialDriver implements Serializable {
     private static final long serialVersionUID = 1L;

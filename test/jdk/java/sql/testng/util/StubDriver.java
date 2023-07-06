@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package util;
+
 
 import java.sql.Connection;
 import java.sql.Driver;
@@ -27,6 +29,19 @@ import java.sql.SQLException;
 import java.sql.SQLFeatureNotSupportedException;
 import java.util.Properties;
 import java.util.logging.Logger;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class StubDriver implements Driver {
 

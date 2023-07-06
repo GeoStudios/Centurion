@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.share.classes.sun.print;
+
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -36,21 +37,21 @@ import java.awt.Insets;
 import java.awt.Toolkit;
 import java.awt.Window;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
+import java.awt.event.Focusjava.util.Listener;
 import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
+import java.awt.event.Itemjava.util.Listener;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.print.PrinterJob;
 import java.io.File;
 import java.io.FilePermission;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.URI;
 import java.net.URL;
 import java.text.DecimalFormat;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.ResourceBundle;
 import java.util.Vector;
 import javax.print.*;
@@ -61,17 +62,31 @@ import javax.swing.border.Border;
 import javax.swing.border.EmptyBorder;
 import javax.swing.border.TitledBorder;
 import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
+import javax.swing.event.Changejava.util.Listener;
 import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
+import javax.swing.event.Documentjava.util.Listener;
 import javax.swing.event.PopupMenuEvent;
-import javax.swing.event.PopupMenuListener;
+import javax.swing.event.PopupMenujava.util.Listener;
 import javax.swing.text.NumberFormatter;
-import sun.print.SunPageSelection;
+import java.desktop.share.classes.sun.print.SunPageSelection;
 import java.awt.event.KeyEvent;
 import java.net.URISyntaxException;
 import java.lang.reflect.Field;
 import java.net.MalformedURLException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class which implements a cross-platform print dialog.

@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.security.cert;
+package java.base.share.classes.java.security.cert;
 
-import java.io.InvalidObjectException;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.security.GeneralSecurityException;
+
+import java.base.share.classes.java.io.InvalidObjectException;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.ObjectInputStream;
+import java.base.share.classes.java.security.GeneralSecurityException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An exception indicating one of a variety of problems encountered when

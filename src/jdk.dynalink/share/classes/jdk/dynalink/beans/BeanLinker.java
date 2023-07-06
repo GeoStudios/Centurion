@@ -19,14 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * This file is available under and governed by the GNU General Public
- * License version 2 only, as published by the Free Software Foundation.
- * However, the following notice accompanied the original version of this
- * file, and Oracle licenses the original version of this file under the BSD
- * license:
- */
-package jdk.dynalink.beans;
+package jdk.dynalink.share.classes.jdk.dynalink.beans;
+
 
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
@@ -34,21 +28,45 @@ import java.lang.invoke.MethodType;
 import java.lang.reflect.Array;
 import java.util.Collection;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.function.Function;
-import jdk.dynalink.CallSiteDescriptor;
-import jdk.dynalink.Namespace;
-import jdk.dynalink.Operation;
-import jdk.dynalink.StandardNamespace;
-import jdk.dynalink.StandardOperation;
-import jdk.dynalink.beans.GuardedInvocationComponent.ValidationType;
-import jdk.dynalink.linker.GuardedInvocation;
-import jdk.dynalink.linker.LinkerServices;
-import jdk.dynalink.linker.TypeBasedGuardingDynamicLinker;
-import jdk.dynalink.linker.support.Guards;
-import jdk.dynalink.linker.support.Lookup;
-import jdk.dynalink.linker.support.TypeUtilities;
+import jdk.dynalink.share.classes.jdk.dynalink.CallSiteDescriptor;
+import jdk.dynalink.share.classes.jdk.dynalink.Namespace;
+import jdk.dynalink.share.classes.jdk.dynalink.Operation;
+import jdk.dynalink.share.classes.jdk.dynalink.StandardNamespace;
+import jdk.dynalink.share.classes.jdk.dynalink.StandardOperation;
+import jdk.dynalink.share.classes.jdk.dynalink.beans.GuardedInvocationComponent.ValidationType;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.GuardedInvocation;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkerServices;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.TypeBasedGuardingDynamicLinker;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.support.Guards;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.support.Lookup;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.support.TypeUtilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * This file is available under and governed by the GNU General Public
+ * License version 2 only, as published by the Free Software Foundation.
+ * However, the following notice accompanied the original version of this
+ * file, and Oracle licenses the original version of this file under the BSD
+ * license:
+ */
+
+
 
 /**
  * A class that provides linking capabilities for a single POJO class. Normally not used directly, but managed by

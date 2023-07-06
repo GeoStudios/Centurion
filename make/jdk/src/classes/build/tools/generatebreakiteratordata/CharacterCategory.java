@@ -19,18 +19,64 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package build.tools.generatebreakiteratordata;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This is a tool to generate categoryNames and categoryMap which are used in
  * CharSet.java.
  */
 
-package build.tools.generatebreakiteratordata;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.util.StringTokenizer;
 
 class CharacterCategory {
 

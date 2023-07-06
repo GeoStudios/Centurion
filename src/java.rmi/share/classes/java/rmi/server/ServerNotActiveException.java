@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.rmi.server;
+package java.rmi.share.classes.java.rmi.server;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An <code>ServerNotActiveException</code> is an <code>Exception</code>

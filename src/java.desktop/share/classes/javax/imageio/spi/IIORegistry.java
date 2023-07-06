@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.imageio.spi;
+package java.desktop.share.classes.javax.imageio.spi;
+
 
 import java.security.PrivilegedAction;
 import java.security.AccessController;
@@ -50,6 +51,20 @@ import com.sun.imageio.plugins.tiff.TIFFImageWriterSpi;
 import sun.awt.AppContext;
 import java.util.ServiceLoader;
 import java.util.ServiceConfigurationError;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A registry for Image I/O service provider instances.  Service provider

@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.remote.rmi;
+package java.management.rmi.share.classes.javax.management.remote.rmi;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>RMI object used to establish connections to an RMI connector.

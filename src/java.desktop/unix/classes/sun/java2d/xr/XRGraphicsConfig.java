@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.xr;
+package java.desktop.unix.classes.sun.java2d.xr;
+
 
 import java.awt.Transparency;
-import sun.awt.X11GraphicsConfig;
-import sun.awt.X11ComponentPeer;
-import sun.awt.X11GraphicsDevice;
-import sun.awt.X11GraphicsEnvironment;
-import sun.awt.image.SurfaceManager;
-import sun.java2d.SurfaceData;
-import sun.java2d.loops.SurfaceType;
+import java.desktop.unix.classes.sun.awt.X11GraphicsConfig;
+import java.desktop.unix.classes.sun.awt.X11ComponentPeer;
+import java.desktop.unix.classes.sun.awt.X11GraphicsDevice;
+import java.desktop.unix.classes.sun.awt.X11GraphicsEnvironment;
+import java.desktop.unix.classes.sun.awt.image.SurfaceManager;
+import java.desktop.unix.classes.sun.java2d.SurfaceData;
+import java.desktop.unix.classes.sun.java2d.loops.SurfaceType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class XRGraphicsConfig extends X11GraphicsConfig implements
         SurfaceManager.ProxiedGraphicsConfig {

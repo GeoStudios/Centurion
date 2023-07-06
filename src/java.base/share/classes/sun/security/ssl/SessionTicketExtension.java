@@ -19,30 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import sun.security.action.GetPropertyAction;
-import sun.security.ssl.SSLExtension.ExtensionConsumer;
-import sun.security.ssl.SSLExtension.SSLExtensionSpec;
-import sun.security.ssl.SSLHandshake.HandshakeMessage;
-import sun.security.ssl.SupportedGroupsExtension.SupportedGroups;
-import sun.security.util.HexDumpEncoder;
 
-import javax.crypto.Cipher;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.security.ssl.SSLExtension.ExtensionConsumer;
+import java.base.share.classes.sun.security.ssl.SSLExtension.SSLExtensionSpec;
+import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
+import java.base.share.classes.sun.security.ssl.SupportedGroupsExtension.SupportedGroups;
+import java.base.share.classes.sun.security.util.HexDumpEncoder;
+import java.base.share.classes.javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
-import javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.SecretKey;
 import javax.crypto.spec.GCMParameterSpec;
 import javax.net.ssl.SSLProtocolException;
-
-import static sun.security.ssl.SSLExtension.CH_SESSION_TICKET;
-import static sun.security.ssl.SSLExtension.SH_SESSION_TICKET;
-
-import java.io.IOException;
+import static java.base.share.classes.sun.security.ssl.SSLExtension.CH_SESSION_TICKET;.extended
+import static java.base.share.classes.sun.security.ssl.SSLExtension.SH_SESSION_TICKET;.extended
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.text.MessageFormat;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * SessionTicketExtension is an implementation of RFC 5077 with some internals

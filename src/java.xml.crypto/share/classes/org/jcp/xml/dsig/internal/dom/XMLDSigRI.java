@@ -19,16 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
+
+
+import java.util.*;
+import java.base.share.classes.java.security.*;
+import javax.xml.crypto.dsig.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package org.jcp.xml.dsig.internal.dom;
 
-import java.util.*;
-import java.security.*;
 
-import javax.xml.crypto.dsig.*;
+
 
 /**
  * The XMLDSig RI Provider.

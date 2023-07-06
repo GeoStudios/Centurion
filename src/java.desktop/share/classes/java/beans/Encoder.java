@@ -18,13 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.beans;
+
+package java.desktop.share.classes.java.beans;
+
 
 import com.sun.beans.finder.PersistenceDelegateFinder;
+import java.desktop.share.classes.java.util.HashMap;
+import java.desktop.share.classes.java.util.IdentityHashMap;
+import java.desktop.share.classes.java.util.Map;
 
-import java.util.HashMap;
-import java.util.IdentityHashMap;
-import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An {@code Encoder} is a class which can be used to create

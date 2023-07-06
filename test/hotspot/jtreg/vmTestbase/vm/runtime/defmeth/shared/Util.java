@@ -21,6 +21,7 @@
 
 package vm.runtime.defmeth.shared;
 
+
 import vm.runtime.defmeth.shared.data.Clazz;
 import java.io.PrintWriter;
 import java.lang.instrument.ClassFileTransformer;
@@ -28,14 +29,26 @@ import java.lang.instrument.IllegalClassFormatException;
 import java.lang.instrument.Instrumentation;
 import java.lang.instrument.UnmodifiableClassException;
 import java.security.ProtectionDomain;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import nsk.share.Pair;
 import nsk.share.TestFailure;
 import vm.runtime.defmeth.shared.data.method.param.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

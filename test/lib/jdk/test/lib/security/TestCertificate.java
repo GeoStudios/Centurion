@@ -21,6 +21,7 @@
 
 package jdk.test.lib.security;
 
+
 import java.io.ByteArrayInputStream;
 import java.security.cert.CertPath;
 import java.security.cert.CertPathValidator;
@@ -31,7 +32,20 @@ import java.security.cert.TrustAnchor;
 import java.security.cert.X509Certificate;
 import java.util.Collections;
 import java.util.Date;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Certificates taken from old ValWithAnchorByName testcase ***
 public enum TestCertificate {

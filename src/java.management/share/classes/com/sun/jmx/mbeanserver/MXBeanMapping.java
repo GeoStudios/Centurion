@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.mbeanserver;
+package java.management.share.classes.com.sun.jmx.mbeanserver;
+
 
 import java.io.InvalidObjectException;
 import java.lang.reflect.Type;
 import javax.management.openmbean.OpenDataException;
 import javax.management.openmbean.OpenType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>A custom mapping between Java types and Open types for use in MXBeans.

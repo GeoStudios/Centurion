@@ -19,17 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xpath.internal.operations;
+
+
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMManager;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.Expression;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XNodeSet;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xpath.internal.operations;
 
-import com.sun.org.apache.xml.internal.dtm.DTMManager;
-import com.sun.org.apache.xpath.internal.Expression;
-import com.sun.org.apache.xpath.internal.XPathContext;
-import com.sun.org.apache.xpath.internal.objects.XNodeSet;
-import com.sun.org.apache.xpath.internal.objects.XObject;
+
 
 
 /**

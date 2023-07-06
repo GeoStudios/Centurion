@@ -18,23 +18,36 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.internal.net.http.hpack;
 
-import org.testng.annotations.Test;
 
-import java.io.IOException;
-import java.io.UncheckedIOException;
+import org.testng.annotations.Test;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Random;
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.fail;.extended
+import static jdk.internal.net.http.hpack.BuffersTestingKit.*;.extended
+import static jdk.internal.net.http.hpack.TestHelper.newRandom;.extended
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.fail;
-import static jdk.internal.net.http.hpack.BuffersTestingKit.*;
-import static jdk.internal.net.http.hpack.TestHelper.newRandom;
+
+
+
+
+
+
+
+
+
+
+
+
 
 //
 // Some of the tests below overlap in what they test. This allows to diagnose

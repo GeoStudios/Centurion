@@ -18,10 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package preview;
+
 
 import jdk.internal.javac.PreviewFeature;
 import jdk.internal.javac.PreviewFeature.Feature;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public record CoreRecordComponent(@PreviewFeature(feature=Feature.TEST) int i) {
 }

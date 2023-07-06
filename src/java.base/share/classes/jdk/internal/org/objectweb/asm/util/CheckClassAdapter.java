@@ -19,37 +19,52 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.org.objectweb.asm.util;
+package java.base.share.classes.jdk.internal.org.objectweb.asm.util;
+
 
 import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import jdk.internal.org.objectweb.asm.AnnotationVisitor;
-import jdk.internal.org.objectweb.asm.Attribute;
-import jdk.internal.org.objectweb.asm.ClassReader;
-import jdk.internal.org.objectweb.asm.ClassVisitor;
-import jdk.internal.org.objectweb.asm.FieldVisitor;
-import jdk.internal.org.objectweb.asm.Label;
-import jdk.internal.org.objectweb.asm.MethodVisitor;
-import jdk.internal.org.objectweb.asm.ModuleVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.RecordComponentVisitor;
-import jdk.internal.org.objectweb.asm.Type;
-import jdk.internal.org.objectweb.asm.TypePath;
-import jdk.internal.org.objectweb.asm.TypeReference;
-import jdk.internal.org.objectweb.asm.tree.ClassNode;
-import jdk.internal.org.objectweb.asm.tree.MethodNode;
-import jdk.internal.org.objectweb.asm.tree.TryCatchBlockNode;
-import jdk.internal.org.objectweb.asm.tree.analysis.Analyzer;
-import jdk.internal.org.objectweb.asm.tree.analysis.AnalyzerException;
-import jdk.internal.org.objectweb.asm.tree.analysis.BasicValue;
-import jdk.internal.org.objectweb.asm.tree.analysis.Frame;
-import jdk.internal.org.objectweb.asm.tree.analysis.SimpleVerifier;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.AnnotationVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Attribute;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ClassReader;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ClassVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.FieldVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Label;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.MethodVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ModuleVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.RecordComponentVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Type;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.TypePath;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.TypeReference;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.ClassNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.MethodNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.TryCatchBlockNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.analysis.Analyzer;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.analysis.AnalyzerException;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.analysis.BasicValue;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.analysis.Frame;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.analysis.SimpleVerifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@link ClassVisitor} that checks that its methods are properly used. More precisely this class

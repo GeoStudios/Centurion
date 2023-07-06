@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.Component;
 import java.awt.event.*;
 import java.beans.ConstructorProperties;
 import java.lang.Boolean;
-import javax.swing.table.*;
-import javax.swing.event.*;
+import java.desktop.share.classes.javax.swing.table.*;
+import java.desktop.share.classes.javax.swing.event.*;
 import java.util.EventObject;
-import javax.swing.tree.*;
+import java.desktop.share.classes.javax.swing.tree.*;
 import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The default editor for table and tree cells.

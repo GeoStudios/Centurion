@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.ThreadGC;
+
+
+import nsk.share.gc.*;
+import nsk.share.gc.gp.*;
+import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -38,11 +57,7 @@
  * @run main/othervm gc.gctests.ThreadGC.ThreadGC -gp random(arrays) -ms low
  */
 
-package gc.gctests.ThreadGC;
 
-import nsk.share.gc.*;
-import nsk.share.gc.gp.*;
-import java.util.*;
 
 public class ThreadGC extends ThreadedGCTest implements GarbageProducerAware, MemoryStrategyAware {
         private GarbageProducer garbageProducer;

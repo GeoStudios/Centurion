@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jpackage.internal;
+package jdk.jpackage.share.classes.jdk.jpackage.internal;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Path;
 import java.util.Map;
-import static jdk.jpackage.internal.OverridableResource.createResource;
-import static jdk.jpackage.internal.StandardBundlerParam.APP_NAME;
-import static jdk.jpackage.internal.StandardBundlerParam.ICON;
-import static jdk.jpackage.internal.StandardBundlerParam.SOURCE_DIR;
-import jdk.jpackage.internal.resources.ResourceLocator;
+import static jdk.jpackage.share.classes.jdk.jpackage.internal.OverridableResource.createResource;.extended
+import static jdk.jpackage.share.classes.jdk.jpackage.internal.StandardBundlerParam.APP_NAME;.extended
+import static jdk.jpackage.share.classes.jdk.jpackage.internal.StandardBundlerParam.ICON;.extended
+import static jdk.jpackage.share.classes.jdk.jpackage.internal.StandardBundlerParam.SOURCE_DIR;.extended
+import jdk.jpackage.share.classes.jdk.jpackage.internal.resources.ResourceLocator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * AbstractAppImageBuilder

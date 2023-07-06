@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javap;
+package jdk.jdeps.share.classes.com.sun.tools.javap;
+
 
 import java.io.PrintWriter;
 import java.nio.charset.Charset;
-import javax.tools.DiagnosticListener;
+import javax.tools.Diagnosticjava.util.Listener;
 import javax.tools.JavaFileObject;
+import jdk.jdeps.share.classes.com.sun.tools.javac.file.JavacFileManager;
+import jdk.jdeps.share.classes.com.sun.tools.javac.util.Context;
 
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.util.Context;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  javap's implementation of JavaFileManager.

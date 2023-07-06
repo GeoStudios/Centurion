@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test;
+
+
+import java.util.Set;
+import static jdk.test.lib.Asserts.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @library /test/lib
@@ -28,10 +47,7 @@
  *          module does not include the packages for named modules
  */
 
-package test;
 
-import java.util.Set;
-import static jdk.test.lib.Asserts.*;
 
 public class GetPackagesTest {
     public static void main(String... args) throws Exception {

@@ -18,23 +18,35 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.tests.java.util.stream;
+
 
 import java.util.Spliterator;
 import java.util.stream.BaseStream;
 import java.util.stream.OpTestCase;
 import java.util.stream.StreamTestDataProvider;
-
 import org.testng.annotations.Test;
-
 import java.util.stream.Stream;
 import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 import java.util.stream.DoubleStream;
 import java.util.stream.TestData;
+import static java.util.stream.LambdaTestHelpers.*;.extended
+import static org.testng.Assert.assertEquals;.extended
 
-import static java.util.stream.LambdaTestHelpers.*;
-import static org.testng.Assert.assertEquals;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

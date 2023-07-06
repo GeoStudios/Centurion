@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.filter;
 
-import com.sun.hotspot.igv.data.ChangedEvent;
-import com.sun.hotspot.igv.data.ChangedEventProvider;
-import com.sun.hotspot.igv.data.Properties;
-import com.sun.hotspot.igv.graph.Diagram;
+package utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.filter;
+
+
+import utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.data.ChangedEvent;
+import utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.data.ChangedEventProvider;
+import utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.data.Properties;
+import utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.graph.Diagram;
 import org.openide.cookies.OpenCookie;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

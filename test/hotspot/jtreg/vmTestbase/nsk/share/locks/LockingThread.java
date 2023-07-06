@@ -18,16 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.share.locks;
+
 
 import java.util.*;
 import java.util.concurrent.locks.ReentrantLock;
-
 import nsk.share.Consts;
 import nsk.share.Log;
 import nsk.share.TestBug;
 import nsk.share.TestJNIError;
 import nsk.share.Wicket;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  Thread with possibility acquiring monitors in different ways:

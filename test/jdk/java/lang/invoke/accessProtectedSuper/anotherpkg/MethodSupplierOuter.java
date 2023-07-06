@@ -21,6 +21,21 @@
 
 package anotherpkg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class MethodSupplierOuter {
     // MethodSupplier is "public" for javac compilation, modified to "protected" for test.
     public static class MethodSupplier {

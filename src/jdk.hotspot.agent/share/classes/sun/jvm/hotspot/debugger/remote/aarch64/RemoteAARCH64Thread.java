@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.remote.aarch64;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.remote.aarch64;
 
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.debugger.aarch64.*;
-import sun.jvm.hotspot.debugger.remote.*;
-import sun.jvm.hotspot.utilities.*;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.aarch64.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.remote.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class RemoteAARCH64Thread extends RemoteThread  {
   public RemoteAARCH64Thread(RemoteDebuggerClient debugger, Address addr) {

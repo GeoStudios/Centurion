@@ -18,18 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.tests.java.util.stream;
+
 
 import java.util.stream.IntStream;
 import java.util.stream.IntStreamTestDataProvider;
 import java.util.stream.OpTestCase;
 import org.testng.annotations.Test;
-
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.OptionalInt;
 import java.util.stream.TestData;
+import static java.util.stream.LambdaTestHelpers.*;.extended
 
-import static java.util.stream.LambdaTestHelpers.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class IntReduceTest extends OpTestCase {
     public void testReduce() {

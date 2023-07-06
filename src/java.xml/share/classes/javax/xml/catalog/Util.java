@@ -18,24 +18,40 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.xml.catalog;
+
+package java.xml.share.classes.javax.xml.catalog;
+
 
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.util.Iterator;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
-import static javax.xml.catalog.CatalogFeatures.DEFER_FALSE;
-import static javax.xml.catalog.CatalogFeatures.DEFER_TRUE;
-import javax.xml.catalog.CatalogFeatures.Feature;
-import static javax.xml.catalog.CatalogFeatures.PREFER_PUBLIC;
-import static javax.xml.catalog.CatalogFeatures.PREFER_SYSTEM;
-import static javax.xml.catalog.CatalogFeatures.RESOLVE_CONTINUE;
-import static javax.xml.catalog.CatalogFeatures.RESOLVE_IGNORE;
-import static javax.xml.catalog.CatalogFeatures.RESOLVE_STRICT;
+import static java.xml.share.classes.javax.xml.catalog.CatalogFeatures.DEFER_FALSE;.extended
+import static java.xml.share.classes.javax.xml.catalog.CatalogFeatures.DEFER_TRUE;.extended
+import java.xml.share.classes.javax.xml.catalog.CatalogFeatures.Feature;
+import static java.xml.share.classes.javax.xml.catalog.CatalogFeatures.PREFER_PUBLIC;.extended
+import static java.xml.share.classes.javax.xml.catalog.CatalogFeatures.PREFER_SYSTEM;.extended
+import static java.xml.share.classes.javax.xml.catalog.CatalogFeatures.RESOLVE_CONTINUE;.extended
+import static java.xml.share.classes.javax.xml.catalog.CatalogFeatures.RESOLVE_IGNORE;.extended
+import static java.xml.share.classes.javax.xml.catalog.CatalogFeatures.RESOLVE_STRICT;.extended
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

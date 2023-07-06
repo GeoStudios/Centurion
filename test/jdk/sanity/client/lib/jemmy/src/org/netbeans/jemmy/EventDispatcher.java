@@ -18,19 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy;
+
 
 import java.awt.AWTEvent;
 import java.awt.Component;
 import java.awt.Toolkit;
 import java.awt.Window;
-import java.awt.event.AWTEventListener;
+import java.awt.event.AWTEventjava.util.Listener;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 import java.awt.event.WindowEvent;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides low level functions for reproducing user actions. One dispatch model

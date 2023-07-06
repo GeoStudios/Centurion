@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.filechooser;
+package java.desktop.share.classes.javax.swing.filechooser;
+
 
 import java.io.File;
-import javax.swing.*;
+import java.desktop.share.classes.javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>FileView</code> defines an abstract class that can be implemented

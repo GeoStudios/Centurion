@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.escapeAnalysis;
+
+
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.concurrent.CopyOnWriteArrayjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6895383
@@ -27,10 +46,7 @@
  * @run main/othervm -Xcomp compiler.escapeAnalysis.Test6895383
  */
 
-package compiler.escapeAnalysis;
 
-import java.util.LinkedList;
-import java.util.concurrent.CopyOnWriteArrayList;
 
 public class Test6895383 {
     public static void main(String argv[]) {

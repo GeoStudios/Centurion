@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.ReferenceType.defaultStratum.defaultStratum004;
+
+
+import java.io.*;
+import java.util.*;
+import com.sun.jdi.request.StepRequest;
+import nsk.share.Consts;
+import nsk.share.TestBug;
+import nsk.share.jdi.EventHandler;
+import nsk.share.jdi.sde.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @modules java.base/jdk.internal.misc:+open
@@ -55,15 +79,7 @@
  *      -testWorkDir .
  */
 
-package nsk.jdi.ReferenceType.defaultStratum.defaultStratum004;
 
-import java.io.*;
-import java.util.*;
-import com.sun.jdi.request.StepRequest;
-import nsk.share.Consts;
-import nsk.share.TestBug;
-import nsk.share.jdi.EventHandler;
-import nsk.share.jdi.sde.*;
 
 public class defaultStratum004 extends SDEDebugger {
     public static void main(String argv[]) {

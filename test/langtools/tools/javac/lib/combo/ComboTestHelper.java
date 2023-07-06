@@ -21,28 +21,39 @@
 
 package combo;
 
+
 import javax.tools.JavaCompiler;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.ToolProvider;
-
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.Writer;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Stack;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
-
-import javax.tools.DiagnosticListener;
+import javax.tools.Diagnosticjava.util.Listener;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileObject;
-
 import com.sun.source.util.JavacTask;
 import com.sun.tools.javac.api.JavacTaskPool;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An helper class for defining combinatorial (aka "combo" tests). A combo test is made up of one

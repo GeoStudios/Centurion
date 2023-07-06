@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.data.serialization;
 
-import com.sun.hotspot.igv.data.GraphDocument;
-import java.io.IOException;
+package utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data.serialization;
+
+
+import utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data.GraphDocument;
+import utils.IdealGraphVisualizer.Data.src.main.java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface GraphParser {
     GraphDocument parse() throws IOException;

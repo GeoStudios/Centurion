@@ -19,7 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.runtime;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime;
+
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This is only used internally to this package and its operating
     system- and CPU-specific subpackages to be able to instantiate the
@@ -27,8 +45,6 @@ package sun.jvm.hotspot.runtime;
     handles the last Java frame pointer and other constructs
     properly. */
 
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.types.*;
 
 public interface JavaThreadFactory {
   JavaThread createJavaThreadWrapper(Address realThreadObjAddr, TypeDataBase db);

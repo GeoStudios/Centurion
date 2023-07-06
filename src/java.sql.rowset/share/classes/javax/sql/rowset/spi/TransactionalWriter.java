@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.sql.rowset.spi;
+package java.sql.rowset.share.classes.javax.sql.rowset.spi;
+
 
 import java.sql.SQLException;
 import java.io.Reader;
-
-import javax.sql.RowSetWriter;
-import javax.sql.rowset.*;
+import java.sql.rowset.share.classes.javax.sql.RowSetWriter;
+import java.sql.rowset.share.classes.javax.sql.rowset.*;
 import java.sql.Savepoint;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A specialized interface that facilitates an extension of the standard

@@ -19,19 +19,18 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.toolkit.util;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.stream.Collectors;
-
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ModuleElement;
 import javax.lang.model.element.PackageElement;
 import javax.lang.model.element.TypeElement;
 import javax.lang.model.type.TypeMirror;
-
 import com.sun.source.doctree.AttributeTree;
 import com.sun.source.doctree.AttributeTree.ValueKind;
 import com.sun.source.doctree.AuthorTree;
@@ -66,9 +65,22 @@ import com.sun.source.util.DocTreePath;
 import com.sun.source.util.DocTrees;
 import com.sun.source.util.SimpleDocTreeVisitor;
 import com.sun.source.util.TreePath;
-import jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
+import static com.sun.source.doctree.DocTree.Kind.*;.extended
 
-import static com.sun.source.doctree.DocTree.Kind.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  A utility class.

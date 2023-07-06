@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package java.util.stream;
+
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
@@ -66,11 +68,22 @@ import java.util.function.ObjLongConsumer;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 import java.util.function.ToDoubleFunction;
-
 import java.util.function.ToIntFunction;
 import java.util.function.ToLongFunction;
+import static java.util.stream.Collectors.*;.extended
 
-import static java.util.stream.Collectors.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class DefaultMethodStreams {
 

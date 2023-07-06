@@ -18,12 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.jshell;
 
-import java.util.Arrays;
+package jdk.jshell.share.classes.jdk.jshell;
+
+
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
-import java.util.Objects;
-import jdk.jshell.spi.ExecutionControl.ClassBytecodes;
+import java.base.share.classes.java.util.Objects;
+import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionControl.ClassBytecodes;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Tracks the state of a class.

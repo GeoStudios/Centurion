@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.tool;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.tool;
 
-import static jdk.javadoc.internal.tool.Main.Result.CMDERR;
+
+import static jdk.javadoc.share.classes.jdk.javadoc.internal.tool.Main.Result.CMDERR;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides a mechanism for the javadoc tool to indicate an option

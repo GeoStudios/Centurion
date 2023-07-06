@@ -19,22 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.math;
+package java.base.share.classes.java.math;
 
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.ObjectStreamField;
-import java.util.Arrays;
-import java.util.Objects;
-import java.util.Random;
-import java.util.concurrent.ThreadLocalRandom;
 
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.ObjectInputStream;
+import java.base.share.classes.java.io.ObjectOutputStream;
+import java.base.share.classes.java.io.ObjectStreamField;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Random;
+import java.base.share.classes.java.util.concurrent.ThreadLocalRandom;
 import jdk.internal.math.DoubleConsts;
 import jdk.internal.math.FloatConsts;
 import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 import jdk.internal.vm.annotation.Stable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Immutable arbitrary-precision integers.  All operations behave as if

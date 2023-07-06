@@ -19,43 +19,56 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.jvm;
+package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
 
-import com.sun.tools.javac.code.Kinds.Kind;
-import com.sun.tools.javac.code.Symbol;
-import com.sun.tools.javac.code.Symbol.ClassSymbol;
-import com.sun.tools.javac.code.Symbol.DynamicMethodSymbol;
-import com.sun.tools.javac.code.Symbol.MethodHandleSymbol;
-import com.sun.tools.javac.code.Symbol.ModuleSymbol;
-import com.sun.tools.javac.code.Symbol.PackageSymbol;
-import com.sun.tools.javac.code.Type;
-import com.sun.tools.javac.code.Types;
-import com.sun.tools.javac.jvm.ClassWriter.PoolOverflow;
-import com.sun.tools.javac.jvm.ClassWriter.StringOverflow;
-import com.sun.tools.javac.jvm.PoolConstant.LoadableConstant;
-import com.sun.tools.javac.jvm.PoolConstant.LoadableConstant.BasicConstant;
-import com.sun.tools.javac.jvm.PoolConstant.Dynamic;
-import com.sun.tools.javac.jvm.PoolConstant.Dynamic.BsmKey;
-import com.sun.tools.javac.jvm.PoolConstant.NameAndType;
-import com.sun.tools.javac.util.ByteBuffer;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.Name;
-import com.sun.tools.javac.util.Names;
 
-import java.io.IOException;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ClassSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.DynamicMethodSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.MethodHandleSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ModuleSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.PackageSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Types;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassWriter.PoolOverflow;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassWriter.StringOverflow;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.PoolConstant.LoadableConstant;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.PoolConstant.LoadableConstant.BasicConstant;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.PoolConstant.Dynamic;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.PoolConstant.Dynamic.BsmKey;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.PoolConstant.NameAndType;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.ByteBuffer;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Name;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Names;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.util.ArrayDeque;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.TYP;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.ARRAY;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.CLASS;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.CONSTANT_Class;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.CONSTANT_MethodType;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.externalize;.extended
 
-import static com.sun.tools.javac.code.Kinds.Kind.TYP;
-import static com.sun.tools.javac.code.TypeTag.ARRAY;
-import static com.sun.tools.javac.code.TypeTag.CLASS;
-import static com.sun.tools.javac.jvm.ClassFile.CONSTANT_Class;
-import static com.sun.tools.javac.jvm.ClassFile.CONSTANT_MethodType;
-import static com.sun.tools.javac.jvm.ClassFile.externalize;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Pool interface towards {@code ClassWriter}. Exposes methods to encode and write javac entities

@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.awt.X11;
+
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.AlphaComposite;
 import java.awt.Dimension;
@@ -36,11 +38,24 @@ import java.awt.image.DataBufferInt;
 import java.awt.image.DataBufferUShort;
 import java.awt.image.ImageObserver;
 import java.awt.image.WritableRaster;
+import java.desktop.unix.classes.sun.awt.IconInfo;
+import java.desktop.unix.classes.sun.awt.image.ImageRepresentation;
+import java.desktop.unix.classes.sun.awt.image.ToolkitImage;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 
-import sun.awt.IconInfo;
-import sun.awt.image.ImageRepresentation;
-import sun.awt.image.ToolkitImage;
-import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class XIconWindow extends XBaseWindow {
     private static final PlatformLogger log = PlatformLogger.getLogger("sun.awt.X11.XIconWindow");

@@ -19,18 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac.comp;
+package jdk.compiler.share.classes.com.sun.tools.sjavac.comp;
+
 
 import java.io.*;
 import java.net.URI;
 import java.nio.file.NoSuchFileException;
-
 import javax.lang.model.element.Modifier;
 import javax.lang.model.element.NestingKind;
 import javax.tools.JavaFileObject;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
 
-import com.sun.tools.javac.util.DefinedBy;
-import com.sun.tools.javac.util.DefinedBy.Api;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The SmartFileObject will return an outputstream that cache the written data

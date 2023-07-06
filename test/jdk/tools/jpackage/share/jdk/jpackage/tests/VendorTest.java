@@ -21,9 +21,23 @@
 
 package jdk.jpackage.tests;
 
+
 import jdk.jpackage.test.PackageTest;
 import jdk.jpackage.test.PackageType;
 import jdk.jpackage.test.Annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test --vendor parameter. Output of the test should be

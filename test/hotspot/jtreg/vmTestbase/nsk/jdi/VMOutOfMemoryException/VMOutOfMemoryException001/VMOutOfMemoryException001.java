@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.VMOutOfMemoryException.VMOutOfMemoryException001;
+
+
+import java.io.*;
+import java.util.*;
+import com.sun.jdi.*;
+import nsk.share.Consts;
+import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -47,13 +69,7 @@
  *      -debugee.vmkeys="-Xmx256M ${test.vm.opts} ${test.java.opts}"
  */
 
-package nsk.jdi.VMOutOfMemoryException.VMOutOfMemoryException001;
 
-import java.io.*;
-import java.util.*;
-import com.sun.jdi.*;
-import nsk.share.Consts;
-import nsk.share.jdi.*;
 
 public class VMOutOfMemoryException001 extends TestDebuggerType2 {
     public static void main(String argv[]) {

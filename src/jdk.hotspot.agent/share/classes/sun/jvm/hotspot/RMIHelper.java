@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot;
+
 
 import java.io.*;
 import java.net.*;
 import java.rmi.*;
 import java.rmi.registry.*;
 import java.util.regex.*;
-import sun.jvm.hotspot.debugger.DebuggerException;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.DebuggerException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class RMIHelper {
     private static final boolean startRegistry;

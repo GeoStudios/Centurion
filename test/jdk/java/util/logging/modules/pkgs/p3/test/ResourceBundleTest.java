@@ -21,12 +21,25 @@
 
 package p3.test;
 
+
 import java.util.logging.Logger;
 import java.util.MissingResourceException;
 import java.util.PropertyResourceBundle;
 import java.util.ResourceBundle;
-
 import p2.test.ModuleLoggerAccess;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Test Logger.getLogger + logger.getResourceBundle in unnamed/named module,

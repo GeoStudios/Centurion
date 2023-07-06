@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jpackage.internal;
+package jdk.jpackage.share.classes.jdk.jpackage.internal;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.text.MessageFormat;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.function.Function;
-import static jdk.jpackage.internal.StandardBundlerParam.PREDEFINED_APP_IMAGE;
-import static jdk.jpackage.internal.StandardBundlerParam.PREDEFINED_RUNTIME_IMAGE;
-import static jdk.jpackage.internal.StandardBundlerParam.LAUNCHER_DATA;
-import static jdk.jpackage.internal.StandardBundlerParam.APP_NAME;
+import static jdk.jpackage.share.classes.jdk.jpackage.internal.StandardBundlerParam.PREDEFINED_APP_IMAGE;.extended
+import static jdk.jpackage.share.classes.jdk.jpackage.internal.StandardBundlerParam.PREDEFINED_RUNTIME_IMAGE;.extended
+import static jdk.jpackage.share.classes.jdk.jpackage.internal.StandardBundlerParam.LAUNCHER_DATA;.extended
+import static jdk.jpackage.share.classes.jdk.jpackage.internal.StandardBundlerParam.APP_NAME;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 class AppImageBundler extends AbstractBundler {

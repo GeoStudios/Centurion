@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.lang.ref.WeakReference;
-import java.lang.ref.ReferenceQueue;
-import java.util.function.BiConsumer;
-import java.util.function.BiFunction;
-import java.util.function.Consumer;
+
+import java.base.share.classes.java.lang.ref.WeakReference;
+import java.base.share.classes.java.lang.ref.ReferenceQueue;
+import java.base.share.classes.java.util.function.BiConsumer;
+import java.base.share.classes.java.util.function.BiFunction;
+import java.base.share.classes.java.util.function.Consumer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

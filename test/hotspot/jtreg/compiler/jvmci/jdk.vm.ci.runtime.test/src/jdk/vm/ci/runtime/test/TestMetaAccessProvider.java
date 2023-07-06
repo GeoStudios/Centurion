@@ -19,6 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.vm.ci.runtime.test;
+
+
+import static jdk.vm.ci.meta.MetaUtil.toInternalName;.extended
+import static org.junit.Assert.assertEquals;.extended
+import static org.junit.Assert.assertNotNull;.extended
+import static org.junit.Assert.assertNull;.extended
+import static org.junit.Assert.assertTrue;.extended
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import org.junit.Test;
+import jdk.vm.ci.meta.DeoptimizationAction;
+import jdk.vm.ci.meta.DeoptimizationReason;
+import jdk.vm.ci.meta.JavaConstant;
+import jdk.vm.ci.meta.JavaKind;
+import jdk.vm.ci.meta.MetaAccessProvider;
+import jdk.vm.ci.meta.ResolvedJavaField;
+import jdk.vm.ci.meta.ResolvedJavaMethod;
+import jdk.vm.ci.meta.ResolvedJavaType;
+import jdk.vm.ci.meta.Signature;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @requires vm.jvmci
@@ -29,28 +63,10 @@
  * @run junit/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler jdk.vm.ci.runtime.test.TestMetaAccessProvider
  */
 
-package jdk.vm.ci.runtime.test;
 
-import static jdk.vm.ci.meta.MetaUtil.toInternalName;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertTrue;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
 
-import org.junit.Test;
 
-import jdk.vm.ci.meta.DeoptimizationAction;
-import jdk.vm.ci.meta.DeoptimizationReason;
-import jdk.vm.ci.meta.JavaConstant;
-import jdk.vm.ci.meta.JavaKind;
-import jdk.vm.ci.meta.MetaAccessProvider;
-import jdk.vm.ci.meta.ResolvedJavaField;
-import jdk.vm.ci.meta.ResolvedJavaMethod;
-import jdk.vm.ci.meta.ResolvedJavaType;
-import jdk.vm.ci.meta.Signature;
 
 /**
  * Tests for {@link MetaAccessProvider}.

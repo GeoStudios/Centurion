@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.jaxp.validation;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.validation;
 
-import org.xml.sax.SAXException;
+
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Wraps {@link SAXException} and make it an unchecked exception.

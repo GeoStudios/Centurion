@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.code;
+package jdk.compiler.share.classes.com.sun.tools.javac.code;
+
 
 import java.lang.annotation.Annotation;
 import java.lang.annotation.Inherited;
@@ -31,7 +32,6 @@ import java.util.Set;
 import java.util.concurrent.Callable;
 import java.util.function.Supplier;
 import java.util.function.Predicate;
-
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ElementKind;
 import javax.lang.model.element.ElementVisitor;
@@ -46,38 +46,50 @@ import javax.lang.model.element.TypeParameterElement;
 import javax.lang.model.element.VariableElement;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileObject;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Annotate.AnnotationTypeMetadata;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Attr;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.AttrContext;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Env;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.PoolConstant;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCAnnotation;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCFieldAccess;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCVariableDecl;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Name;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.WriteableScope;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.CLASS;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.FORALL;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.TYPEVAR;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ByteCodes.iadd;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ByteCodes.ishll;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ByteCodes.lushrl;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ByteCodes.lxor;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ByteCodes.string_add;.extended
 
-import com.sun.tools.javac.code.Kinds.Kind;
-import com.sun.tools.javac.comp.Annotate.AnnotationTypeMetadata;
-import com.sun.tools.javac.code.Type.*;
-import com.sun.tools.javac.comp.Attr;
-import com.sun.tools.javac.comp.AttrContext;
-import com.sun.tools.javac.comp.Env;
-import com.sun.tools.javac.jvm.*;
-import com.sun.tools.javac.jvm.PoolConstant;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.JCTree.JCAnnotation;
-import com.sun.tools.javac.tree.JCTree.JCFieldAccess;
-import com.sun.tools.javac.tree.JCTree.JCVariableDecl;
-import com.sun.tools.javac.tree.JCTree.Tag;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.Name;
 
-import static com.sun.tools.javac.code.Flags.*;
-import static com.sun.tools.javac.code.Kinds.*;
-import static com.sun.tools.javac.code.Kinds.Kind.*;
-import static com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;
-import com.sun.tools.javac.code.Scope.WriteableScope;
-import static com.sun.tools.javac.code.TypeTag.CLASS;
-import static com.sun.tools.javac.code.TypeTag.FORALL;
-import static com.sun.tools.javac.code.TypeTag.TYPEVAR;
-import static com.sun.tools.javac.jvm.ByteCodes.iadd;
-import static com.sun.tools.javac.jvm.ByteCodes.ishll;
-import static com.sun.tools.javac.jvm.ByteCodes.lushrl;
-import static com.sun.tools.javac.jvm.ByteCodes.lxor;
-import static com.sun.tools.javac.jvm.ByteCodes.string_add;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Root class for Java symbols. It contains subclasses
  *  for specific sorts of symbols, such as variables, methods and operators,

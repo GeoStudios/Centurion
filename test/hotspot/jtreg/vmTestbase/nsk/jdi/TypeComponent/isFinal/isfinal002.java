@@ -19,16 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-
 package nsk.jdi.TypeComponent.isFinal;
+
 
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class isfinal002 {
     final static String IS_FINAL = "true";

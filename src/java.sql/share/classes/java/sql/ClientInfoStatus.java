@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.sql;
+package java.sql.share.classes.java.sql;
 
-import java.util.*;
+
+import java.sql.share.classes.java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Enumeration for status of the reason that a property could not be set

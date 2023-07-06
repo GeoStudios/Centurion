@@ -18,7 +18,8 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d.demos.Paint;
+
+package demo.share.jfc.J2Ddemo.java2d.demos.Paint;
 
 
 import java.awt.Color;
@@ -31,11 +32,24 @@ import java.awt.MultipleGradientPaint.CycleMethod;
 import java.awt.Paint;
 import java.awt.RadialGradientPaint;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.geom.Point2D;
-import java2d.AnimatingControlsSurface;
-import java2d.CustomControls;
+import demo.share.jfc.J2Ddemo.java2d.AnimatingControlsSurface;
+import demo.share.jfc.J2Ddemo.java2d.CustomControls;
 import javax.swing.JComboBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

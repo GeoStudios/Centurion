@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.remote.util;
+package java.management.share.classes.com.sun.jmx.remote.util;
+
 
 import java.lang.System.Logger;
 import java.lang.System.Logger.Level;
 import java.util.ResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ClassLogger implements System.Logger {
 

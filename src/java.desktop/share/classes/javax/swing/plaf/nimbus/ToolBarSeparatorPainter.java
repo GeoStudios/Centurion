@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.nimbus;
+package java.desktop.share.classes.javax.swing.plaf.nimbus;
 
-import javax.swing.plaf.nimbus.AbstractRegionPainter.PaintContext.CacheMode;
+
+import java.desktop.share.classes.javax.swing.plaf.nimbus.AbstractRegionPainter.PaintContext.CacheMode;
 import java.awt.Dimension;
 import java.awt.Graphics2D;
 import java.awt.Insets;
-import javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.JComponent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A special painter implementation for tool bar separators in Nimbus.

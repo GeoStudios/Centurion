@@ -21,10 +21,24 @@
 
 package version;
 
+
 import java.security.AccessControlException;
 import java.security.AccessController;
 import java.security.Permission;
 import java.security.PrivilegedAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Version {
     private static final Permission PERM1 = new RuntimePermission("setIO");

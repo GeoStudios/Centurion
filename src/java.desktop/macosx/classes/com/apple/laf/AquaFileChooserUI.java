@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -43,28 +44,27 @@ import java.awt.dnd.DropTargetDragEvent;
 import java.awt.dnd.DropTargetDropEvent;
 import java.awt.event.ActionEvent;
 import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
+import java.awt.event.Focusjava.util.Listener;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
+import java.awt.event.Mousejava.util.Listener;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.io.File;
 import java.net.URI;
 import java.text.DateFormat;
 import java.util.Date;
-import java.util.Locale;
-import java.util.Objects;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.Objects;
 import java.util.Vector;
-
 import javax.swing.AbstractAction;
-import javax.swing.AbstractListModel;
+import javax.swing.Abstractjava.util.ListModel;
 import javax.swing.Action;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.ComboBoxModel;
-import javax.swing.DefaultListSelectionModel;
+import javax.swing.Defaultjava.util.ListSelectionModel;
 import javax.swing.Icon;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
@@ -72,7 +72,7 @@ import javax.swing.JComponent;
 import javax.swing.JDialog;
 import javax.swing.JFileChooser;
 import javax.swing.JLabel;
-import javax.swing.JList;
+import javax.swing.Jjava.util.java.util.java.util.List;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JRootPane;
@@ -81,19 +81,19 @@ import javax.swing.JSeparator;
 import javax.swing.JTable;
 import javax.swing.JTextField;
 import javax.swing.KeyStroke;
-import javax.swing.ListCellRenderer;
-import javax.swing.ListSelectionModel;
+import javax.swing.java.util.ListCellRenderer;
+import javax.swing.java.util.ListSelectionModel;
 import javax.swing.ScrollPaneConstants;
 import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.border.Border;
 import javax.swing.event.AncestorEvent;
-import javax.swing.event.AncestorListener;
+import javax.swing.event.Ancestorjava.util.Listener;
 import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
+import javax.swing.event.Documentjava.util.Listener;
+import javax.swing.event.java.util.ListSelectionEvent;
+import javax.swing.event.java.util.ListSelectionjava.util.Listener;
 import javax.swing.filechooser.FileFilter;
 import javax.swing.filechooser.FileSystemView;
 import javax.swing.filechooser.FileView;
@@ -105,8 +105,21 @@ import javax.swing.table.JTableHeader;
 import javax.swing.table.TableCellRenderer;
 import javax.swing.table.TableColumn;
 import javax.swing.table.TableColumnModel;
-
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaFileChooserUI extends FileChooserUI {
     /* FileView icons */

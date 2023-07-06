@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.List;
-import sun.util.logging.PlatformLogger;
-
+import java.util.java.util.java.util.java.util.List;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 import java.awt.Point;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

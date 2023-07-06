@@ -19,21 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.api;
+package jdk.compiler.share.classes.com.sun.tools.javac.api;
+
 
 import java.util.function.Predicate;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ExecutableElement;
 import javax.lang.model.element.TypeElement;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.CompoundScope;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.AttrContext;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Env;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
 
-import com.sun.tools.javac.code.Kinds.Kind;
-import com.sun.tools.javac.code.Scope.CompoundScope;
-import com.sun.tools.javac.code.Symbol;
-import com.sun.tools.javac.comp.AttrContext;
-import com.sun.tools.javac.comp.Env;
-import com.sun.tools.javac.util.DefinedBy;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.Assert;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides an implementation of Scope.

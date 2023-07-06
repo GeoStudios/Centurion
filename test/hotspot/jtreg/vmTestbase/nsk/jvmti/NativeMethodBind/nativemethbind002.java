@@ -21,10 +21,23 @@
 
 package nsk.jvmti.NativeMethodBind;
 
-import java.io.*;
 
+import java.io.*;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This test exercises the JVMTI event <code>NativeMethodBind</code>.

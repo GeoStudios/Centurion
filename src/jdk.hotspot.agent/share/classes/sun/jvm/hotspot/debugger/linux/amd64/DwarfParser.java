@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.linux.amd64;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.linux.amd64;
+
 
 import java.lang.ref.Cleaner;
-import sun.jvm.hotspot.debugger.Address;
-import sun.jvm.hotspot.debugger.DebuggerException;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Address;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.DebuggerException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class DwarfParser {
   private final long p_dwarf_context; // native dwarf context handle

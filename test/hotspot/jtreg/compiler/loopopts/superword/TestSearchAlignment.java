@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts.superword;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8235762
@@ -29,7 +46,6 @@
  *      compiler.loopopts.superword.TestSearchAlignment
  */
 
-package compiler.loopopts.superword;
 
 public class TestSearchAlignment {
 

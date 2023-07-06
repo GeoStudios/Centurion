@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.applet;
+package java.desktop.share.classes.java.applet;
 
-import java.net.URL;
+
+import java.desktop.share.classes.java.net.URL;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * When an applet is first created, an applet stub is attached to it using the

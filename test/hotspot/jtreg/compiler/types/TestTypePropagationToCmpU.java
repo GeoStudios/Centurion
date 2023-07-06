@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.types;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8080156 8060036
@@ -27,7 +44,6 @@
  * @run main compiler.types.TestTypePropagationToCmpU
  */
 
-package compiler.types;
 
 public class TestTypePropagationToCmpU {
     public static void main(String[] args) {

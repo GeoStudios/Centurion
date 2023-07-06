@@ -21,13 +21,25 @@
 
 package nsk.jdi.IntegerValue.compareTo;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
 import com.sun.jdi.*;
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class compareto001 {

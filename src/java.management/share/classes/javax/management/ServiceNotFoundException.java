@@ -19,10 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management;
+package java.management.share.classes.javax.management;
+
+
+import java.management.share.classes.javax.management.OperationsException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //RI import
-import javax.management.OperationsException;
 
 
 /**

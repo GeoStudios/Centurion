@@ -21,6 +21,21 @@
 
 package m;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Foo extends Bar implements c.I {
    public void foo() throws e.E {
    }

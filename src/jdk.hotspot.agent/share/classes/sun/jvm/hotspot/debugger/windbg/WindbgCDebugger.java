@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.windbg;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.windbg;
+
 
 import java.io.*;
 import java.util.*;
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.debugger.cdbg.*;
-import sun.jvm.hotspot.debugger.x86.*;
-import sun.jvm.hotspot.debugger.amd64.*;
-import sun.jvm.hotspot.debugger.windows.x86.*;
-import sun.jvm.hotspot.debugger.windows.amd64.*;
-import sun.jvm.hotspot.utilities.AddressOps;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.x86.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.amd64.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.windows.x86.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.windows.amd64.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.AddressOps;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class WindbgCDebugger implements CDebugger {
   // FIXME: think about how to make this work in a remote debugging

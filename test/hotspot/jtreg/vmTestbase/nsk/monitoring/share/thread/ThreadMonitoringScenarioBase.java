@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.monitoring.share.thread;
+
 
 import java.lang.management.ThreadMXBean;
 import java.lang.management.ThreadInfo;
@@ -31,6 +33,19 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.locks.Lock;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base class for all threads that are used in monitoring testing.

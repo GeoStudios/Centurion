@@ -18,11 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.jdi.ReferenceType.defaultStratum.defaultStratum004;
+
 
 import java.util.*;
 import nsk.share.TestBug;
 import nsk.share.jdi.sde.SDEDebuggee;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class defaultStratum004a extends SDEDebuggee {
     public static void main(String[] args) {

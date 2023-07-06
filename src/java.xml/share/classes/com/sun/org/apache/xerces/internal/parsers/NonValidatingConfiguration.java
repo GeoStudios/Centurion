@@ -19,39 +19,53 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.parsers;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
 
-import java.io.IOException;
-import java.util.Locale;
 
-import com.sun.org.apache.xerces.internal.impl.Constants;
-import com.sun.org.apache.xerces.internal.impl.XMLDTDScannerImpl;
-import com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl;
-import com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
-import com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
-import com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl;
-import com.sun.org.apache.xerces.internal.impl.dv.DTDDVFactory;
-import com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
-import com.sun.org.apache.xerces.internal.impl.validation.ValidationManager;
-import com.sun.org.apache.xerces.internal.util.FeatureState;
-import com.sun.org.apache.xerces.internal.util.PropertyState;
-import com.sun.org.apache.xerces.internal.util.Status;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
-import com.sun.org.apache.xerces.internal.utils.XMLSecurityPropertyManager;
-import com.sun.org.apache.xerces.internal.xni.XMLLocator;
-import com.sun.org.apache.xerces.internal.xni.XNIException;
-import com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarPool;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponent;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLDTDScanner;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentScanner;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLPullParserConfiguration;
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.util.Locale;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLDTDScannerImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.DTDDVFactory;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.validation.ValidationManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.FeatureState;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.PropertyState;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.Status;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityPropertyManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLLocator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarPool;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponent;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDTDScanner;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentScanner;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLPullParserConfiguration;
 import javax.xml.XMLConstants;
 import javax.xml.catalog.CatalogFeatures;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkXmlUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the non validating parser configuration. It extends the basic

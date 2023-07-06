@@ -19,51 +19,66 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodType;
-import java.lang.ref.Reference;
-import java.lang.ref.ReferenceQueue;
-import java.lang.ref.SoftReference;
-import java.lang.ref.WeakReference;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.RecordComponent;
-import java.lang.reflect.UndeclaredThrowableException;
-import java.lang.reflect.Member;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
-import java.lang.reflect.Proxy;
-import java.security.AccessControlContext;
-import java.security.AccessController;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.security.PermissionCollection;
-import java.security.Permissions;
-import java.security.PrivilegedAction;
-import java.security.PrivilegedActionException;
-import java.security.PrivilegedExceptionAction;
-import java.security.ProtectionDomain;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
+
+import java.base.share.classes.java.lang.invoke.MethodHandle;
+import java.base.share.classes.java.lang.invoke.MethodHandles;
+import java.base.share.classes.java.lang.invoke.MethodType;
+import java.base.share.classes.java.lang.ref.Reference;
+import java.base.share.classes.java.lang.ref.ReferenceQueue;
+import java.base.share.classes.java.lang.ref.SoftReference;
+import java.base.share.classes.java.lang.ref.WeakReference;
+import java.base.share.classes.java.lang.reflect.Constructor;
+import java.base.share.classes.java.lang.reflect.Field;
+import java.base.share.classes.java.lang.reflect.InvocationTargetException;
+import java.base.share.classes.java.lang.reflect.RecordComponent;
+import java.base.share.classes.java.lang.reflect.UndeclaredThrowableException;
+import java.base.share.classes.java.lang.reflect.Member;
+import java.base.share.classes.java.lang.reflect.Method;
+import java.base.share.classes.java.lang.reflect.Modifier;
+import java.base.share.classes.java.lang.reflect.Proxy;
+import java.base.share.classes.java.security.AccessControlContext;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.MessageDigest;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.PermissionCollection;
+import java.base.share.classes.java.security.Permissions;
+import java.base.share.classes.java.security.PrivilegedAction;
+import java.base.share.classes.java.security.PrivilegedActionException;
+import java.base.share.classes.java.security.PrivilegedExceptionAction;
+import java.base.share.classes.java.security.ProtectionDomain;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.Collections;
+import java.base.share.classes.java.util.Comparator;
+import java.base.share.classes.java.util.HashSet;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.Set;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.concurrent.ConcurrentMap;
 import jdk.internal.misc.Unsafe;
 import jdk.internal.reflect.CallerSensitive;
 import jdk.internal.reflect.Reflection;
 import jdk.internal.reflect.ReflectionFactory;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.access.JavaSecurityAccess;
 import sun.reflect.misc.ReflectUtil;
-import static java.io.ObjectStreamField.*;
+import static java.base.share.classes.java.io.ObjectStreamField.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Serialization's descriptor for classes.  It contains the name and

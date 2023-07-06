@@ -19,22 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.motif;
+package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
+
 
 import javax.swing.*;
 import javax.swing.filechooser.*;
 import javax.swing.event.*;
 import javax.swing.plaf.*;
 import javax.swing.plaf.basic.*;
-import java.awt.*;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.beans.*;
-import java.io.File;
-import java.io.IOException;
-import java.util.*;
-import sun.awt.shell.ShellFolder;
-import sun.swing.SwingUtilities2;
+import java.desktop.share.classes.com.sun.java.awt.*;
+import java.desktop.share.classes.com.sun.java.awt.event.MouseAdapter;
+import java.desktop.share.classes.com.sun.java.awt.event.MouseEvent;
+import java.desktop.share.classes.com.sun.java.beans.*;
+import java.desktop.share.classes.com.sun.java.io.File;
+import java.desktop.share.classes.com.sun.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.com.sun.java.util.*;
+import java.desktop.share.classes.com.sun.awt.shell.ShellFolder;
+import java.desktop.share.classes.com.sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Motif FileChooserUI.

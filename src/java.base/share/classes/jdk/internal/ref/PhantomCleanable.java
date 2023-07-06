@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.ref;
+package java.base.share.classes.jdk.internal.ref;
+
 
 import java.lang.ref.Cleaner;
 import java.lang.ref.Reference;
 import java.lang.ref.PhantomReference;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * PhantomCleanable subclasses efficiently encapsulate cleanup state and

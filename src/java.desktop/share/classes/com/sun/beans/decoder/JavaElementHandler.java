@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.beans.decoder;
+
+package java.desktop.share.classes.com.sun.beans.decoder;
+
 
 import java.beans.XMLDecoder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is intended to handle &lt;java&gt; element.

@@ -19,13 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.jdk.internal.icu.lang;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // CHANGELOG
 //      2005-05-19 Edward Wang
 //          - copy this file from icu4jsrc_3_2/src/com/ibm/icu/lang/UCharacterDirection.java
 //          - move from package com.ibm.icu.lang to package sun.net.idn
 //
 
-package jdk.internal.icu.lang;
+
 
 /**
  * Enumerated Unicode character linguistic direction constants.

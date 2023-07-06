@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs11;
+package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11;
+
 
 import java.util.*;
 import java.util.concurrent.*;
+import jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.*;
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Constants.*;.extended
 
-import sun.security.pkcs11.wrapper.*;
-import static sun.security.pkcs11.wrapper.PKCS11Constants.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * TemplateManager class.
@@ -145,10 +159,9 @@ final class TemplateManager {
             if (this == obj) {
                 return true;
             }
-            if (!(obj instanceof TemplateKey)) {
+            if (!(obj instanceof TemplateKey other)) {
                 return false;
             }
-            TemplateKey other = (TemplateKey)obj;
             boolean match = this.operation.equals(other.operation)
                         && (this.keyType == other.keyType)
                         && (this.keyAlgorithm == other.keyAlgorithm);

@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.print.attribute.standard;
+package java.desktop.share.classes.javax.print.attribute.standard;
+
 
 import java.io.Serial;
+import java.desktop.share.classes.javax.print.attribute.Attribute;
+import java.desktop.share.classes.javax.print.attribute.IntegerSyntax;
+import java.desktop.share.classes.javax.print.attribute.PrintJobAttribute;
 
-import javax.print.attribute.Attribute;
-import javax.print.attribute.IntegerSyntax;
-import javax.print.attribute.PrintJobAttribute;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class {@code JobKOctetsProcessed} is an integer valued printing attribute

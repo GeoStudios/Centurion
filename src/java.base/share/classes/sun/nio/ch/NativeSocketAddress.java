@@ -19,22 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.ch;
+package java.base.share.classes.sun.nio.ch;
+
 
 import java.net.Inet4Address;
 import java.net.Inet6Address;
 import java.net.InetAddress;
-import java.net.InetSocketAddress;
+import java.net.Inetjava.net.SocketAddress;
 import java.net.ProtocolFamily;
-import java.net.SocketException;
+import java.net.java.net.SocketException;
 import java.net.StandardProtocolFamily;
 import java.net.UnknownHostException;
 import java.nio.channels.UnsupportedAddressTypeException;
-
 import jdk.internal.access.JavaNetInetAddressAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.misc.Unsafe;
-import jdk.internal.util.ArraysSupport;
+import jdk.internal.util.java.util.ArraysSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A native socket address that is the union of struct sockaddr, struct sockaddr_in,

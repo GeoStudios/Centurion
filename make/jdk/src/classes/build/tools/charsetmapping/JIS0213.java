@@ -21,10 +21,55 @@
 
 package build.tools.charsetmapping;
 
-import java.io.*;
-import java.util.regex.*;
-import java.util.*;
-import static build.tools.charsetmapping.Utils.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JIS0213 {
 

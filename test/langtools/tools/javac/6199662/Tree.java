@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package p;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6199662 6325201 6726015
@@ -43,7 +60,6 @@
  * @compile -XDshould-stop.ifError=ATTR -XDshould-stop.ifNoError=ATTR  TreeInfo.java TreeScanner.java Tree.java
  */
 
-package p;
 
 public abstract class Tree {
 

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6877254
@@ -27,7 +44,6 @@
  * @run main/othervm -Xcomp compiler.c2.Test6877254
  */
 
-package compiler.c2;
 
 public class Test6877254 {
     static byte var_1;

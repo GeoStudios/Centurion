@@ -18,18 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.tools.jlink.internal.plugins;
+
+package jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins;
+
 
 import java.util.Map;
 import java.util.function.Function;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.ResourcePoolManager.ResourcePoolImpl;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePool;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolBuilder;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.ImagePluginStack;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.ResourcePoolManager;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.ResourcePrevisitor;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.StringTable;
 
-import jdk.tools.jlink.internal.ResourcePoolManager.ResourcePoolImpl;
-import jdk.tools.jlink.plugin.ResourcePool;
-import jdk.tools.jlink.plugin.ResourcePoolBuilder;
-import jdk.tools.jlink.internal.ImagePluginStack;
-import jdk.tools.jlink.internal.ResourcePoolManager;
-import jdk.tools.jlink.internal.ResourcePrevisitor;
-import jdk.tools.jlink.internal.StringTable;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

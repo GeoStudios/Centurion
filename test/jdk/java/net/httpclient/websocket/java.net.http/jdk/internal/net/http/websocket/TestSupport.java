@@ -18,22 +18,36 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.internal.net.http.websocket;
 
+
 import java.nio.ByteBuffer;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Stack;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 import java.util.regex.Pattern;
+import static java.util.java.util.java.util.java.util.List.of;.extended
+import static java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
 
-import static java.util.List.of;
-import static java.util.Objects.requireNonNull;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Auxiliary test infrastructure

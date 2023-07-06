@@ -21,9 +21,23 @@
 
 package nsk.jdi.VirtualMachine.canGetSourceDebugExtension;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the cangetsde001 JDI test.

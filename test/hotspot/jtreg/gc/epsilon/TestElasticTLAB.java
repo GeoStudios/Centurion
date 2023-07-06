@@ -21,6 +21,23 @@
 
 package gc.epsilon;
 
+
+import java.util.Random;
+import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestElasticTLAB
  * @key randomness
@@ -36,8 +53,6 @@ package gc.epsilon;
  * @run main/othervm -Xmx1g -XX:+UnlockExperimentalVMOptions -XX:+UseEpsilonGC -XX:+EpsilonElasticTLAB -XX:EpsilonTLABElasticity=100 gc.epsilon.TestElasticTLAB
  */
 
-import java.util.Random;
-import jdk.test.lib.Utils;
 
 public class TestElasticTLAB {
   static int COUNT = Integer.getInteger("count", 3000); // ~500 MB allocation

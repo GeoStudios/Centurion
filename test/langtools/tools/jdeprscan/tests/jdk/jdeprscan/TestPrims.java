@@ -19,6 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.jdeprscan;
+
+
+import com.sun.tools.jdeprscan.Main;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.PrintStream;
+import java.util.regex.Pattern;
+import org.testng.annotations.Test;
+import static org.testng.Assert.assertFalse;.extended
+import static org.testng.Assert.assertTrue;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8168444
@@ -28,19 +55,8 @@
  * @run testng jdk.jdeprscan.TestPrims
  */
 
-package jdk.jdeprscan;
 
-import com.sun.tools.jdeprscan.Main;
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.IOException;
-import java.io.PrintStream;
-import java.util.regex.Pattern;
-import org.testng.annotations.Test;
 
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertTrue;
 
 public class TestPrims {
 

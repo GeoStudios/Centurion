@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.tools.jlink.internal;
 
-import java.io.IOException;
+package jdk.jlink.share.classes.jdk.tools.jlink.internal;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Path;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An Archive of all content, classes, resources, configuration files, and

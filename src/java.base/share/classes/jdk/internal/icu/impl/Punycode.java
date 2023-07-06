@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.jdk.internal.icu.impl;
+
+
+import java.text.ParseException;
+import java.base.share.classes.jdk.internal.icu.lang.UCharacter;
+import java.base.share.classes.jdk.internal.icu.text.UTF16;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //
 // CHANGELOG
 //      2005-05-19 Edward Wang
@@ -28,11 +49,8 @@
 //      2007-08-14 Martin Buchholz
 //          - remove redundant casts
 //
-package jdk.internal.icu.impl;
 
-import java.text.ParseException;
-import jdk.internal.icu.lang.UCharacter;
-import jdk.internal.icu.text.UTF16;
+
 
 /**
  * Ported code from ICU punycode.c

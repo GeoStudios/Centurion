@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.inlining;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8031695
@@ -27,7 +44,6 @@
  * @run main/othervm -Xbatch compiler.inlining.DefaultAndConcreteMethodsCHA
  */
 
-package compiler.inlining;
 
 public class DefaultAndConcreteMethodsCHA {
     interface I {

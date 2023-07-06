@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xpath.internal.jaxp;
+package java.xml.share.classes.com.sun.org.apache.xpath.internal.jaxp;
 
-import com.sun.org.apache.xpath.internal.*;
-import com.sun.org.apache.xpath.internal.objects.XObject;
+
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.*;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 import javax.xml.namespace.NamespaceContext;
 import javax.xml.namespace.QName;
 import javax.xml.transform.TransformerException;
@@ -33,8 +34,22 @@ import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFunctionResolver;
 import javax.xml.xpath.XPathVariableResolver;
 import jdk.xml.internal.JdkXmlFeatures;
-import org.w3c.dom.Document;
-import org.xml.sax.InputSource;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The XPathImpl class provides implementation for the methods defined  in

@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.datatype;
+package java.xml.share.classes.javax.xml.datatype;
 
-import javax.xml.XMLConstants;
-import javax.xml.namespace.QName;
+
+import java.xml.share.classes.javax.xml.XMLConstants;
+import java.xml.share.classes.javax.xml.namespace.QName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Utility class to contain basic Datatype values as constants.</p>

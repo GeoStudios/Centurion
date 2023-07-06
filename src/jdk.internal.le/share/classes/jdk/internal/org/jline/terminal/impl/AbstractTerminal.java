@@ -18,32 +18,47 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.terminal.impl;
 
-import java.io.IOException;
-import java.io.InterruptedIOException;
+package jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Interruptedjava.io.java.io.java.io.IOException;
 import java.nio.charset.Charset;
 import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
 import java.util.function.IntConsumer;
 import java.util.function.IntSupplier;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Attributes;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Attributes.ControlChar;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Attributes.InputFlag;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Attributes.LocalFlag;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Cursor;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.MouseEvent;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Terminal;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.Curses;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.InfoCmp;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.InfoCmp.Capability;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.Log;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.Status;
 
-import jdk.internal.org.jline.terminal.Attributes;
-import jdk.internal.org.jline.terminal.Attributes.ControlChar;
-import jdk.internal.org.jline.terminal.Attributes.InputFlag;
-import jdk.internal.org.jline.terminal.Attributes.LocalFlag;
-import jdk.internal.org.jline.terminal.Cursor;
-import jdk.internal.org.jline.terminal.MouseEvent;
-import jdk.internal.org.jline.terminal.Terminal;
-import jdk.internal.org.jline.utils.Curses;
-import jdk.internal.org.jline.utils.InfoCmp;
-import jdk.internal.org.jline.utils.InfoCmp.Capability;
-import jdk.internal.org.jline.utils.Log;
-import jdk.internal.org.jline.utils.Status;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class AbstractTerminal implements Terminal {
 

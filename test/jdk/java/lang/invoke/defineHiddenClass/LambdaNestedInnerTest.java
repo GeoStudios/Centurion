@@ -19,6 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package p;
+
+
+import java.io.File;
+import java.io.java.io.java.io.java.io.IOException;
+import java.net.URL;
+import java.net.URLClassLoader;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.base.share.classes.java.util.Arrays;
+import java.util.Set;
+import java.util.stream.Collectors;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;.extended
+import static org.testng.Assert.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @summary define a lambda proxy class whose target class has an invalid
@@ -26,24 +57,9 @@
  * @run testng/othervm p.LambdaNestedInnerTest
  */
 
-package p;
 
-import java.io.File;
-import java.io.IOException;
-import java.net.URL;
-import java.net.URLClassLoader;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.Arrays;
-import java.util.Set;
-import java.util.stream.Collectors;
 
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
 
-import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
-import static org.testng.Assert.*;
 
 public class LambdaNestedInnerTest {
     private static final String INNER_CLASSNAME = "p.LambdaNestedInnerTest$Inner";

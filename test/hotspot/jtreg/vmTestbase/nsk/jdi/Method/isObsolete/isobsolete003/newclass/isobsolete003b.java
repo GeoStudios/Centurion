@@ -21,6 +21,21 @@
 
 package nsk.jdi.Method.isObsolete;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This is the redefining class for isobsolete003 JDI test.
  */

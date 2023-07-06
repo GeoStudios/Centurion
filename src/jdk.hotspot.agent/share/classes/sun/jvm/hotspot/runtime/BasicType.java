@@ -19,9 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.runtime;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime;
 
-import sun.jvm.hotspot.types.TypeDataBase;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.TypeDataBase;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /** Encapsulates the BasicType enum in globalDefinitions.hpp in the

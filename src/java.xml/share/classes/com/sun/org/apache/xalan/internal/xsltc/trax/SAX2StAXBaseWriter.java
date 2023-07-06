@@ -19,20 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.trax;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax;
 
-import java.util.ArrayList;
-import java.util.List;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import javax.xml.stream.Location;
 import javax.xml.stream.XMLReporter;
 import javax.xml.stream.XMLStreamException;
-import org.xml.sax.Attributes;
-import org.xml.sax.Locator;
-import org.xml.sax.SAXException;
-import org.xml.sax.SAXParseException;
-import org.xml.sax.ext.LexicalHandler;
-import org.xml.sax.ext.Locator2;
-import org.xml.sax.helpers.DefaultHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
+import java.xml.share.classes.com.sun.org.xml.sax.Locator;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXParseException;
+import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.ext.Locator2;
+import java.xml.share.classes.com.sun.org.xml.sax.helpers.DefaultHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class SAX2StAXBaseWriter extends DefaultHandler
         implements

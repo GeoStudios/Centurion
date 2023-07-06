@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.tiered;
+
+
+import compiler.whitebox.CompilerWhiteBoxTest;
+import jtreg.SkippedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TieredLevelsTest
  * @summary Verify that all levels &lt; 'TieredStopAtLevel' can be used
@@ -34,10 +53,7 @@
  *                   compiler.tiered.TieredLevelsTest
  */
 
-package compiler.tiered;
 
-import compiler.whitebox.CompilerWhiteBoxTest;
-import jtreg.SkippedException;
 
 public class TieredLevelsTest extends CompLevelsTest {
     public static void main(String[] args) throws Throwable {

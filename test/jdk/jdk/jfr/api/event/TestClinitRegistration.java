@@ -21,9 +21,9 @@
 
 package jdk.jfr.api.event;
 
-import java.io.IOException;
-import java.util.List;
 
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.java.util.java.util.java.util.List;
 import jdk.jfr.Event;
 import jdk.jfr.EventType;
 import jdk.jfr.FlightRecorder;
@@ -32,6 +32,19 @@ import jdk.jfr.Registered;
 import jdk.jfr.consumer.RecordedEvent;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.jfr.Events;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

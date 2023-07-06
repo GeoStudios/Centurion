@@ -19,26 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.naming.ldap;
+package java.naming.share.classes.javax.naming.ldap;
+
 
 import java.nio.charset.StandardCharsets;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-import java.util.ArrayList;
-import java.util.Locale;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Collections;
-
-import javax.naming.InvalidNameException;
-import javax.naming.directory.BasicAttributes;
-import javax.naming.directory.Attributes;
-import javax.naming.directory.Attribute;
-import javax.naming.NamingEnumeration;
-import javax.naming.NamingException;
-
+import java.naming.share.classes.javax.naming.InvalidNameException;
+import java.naming.share.classes.javax.naming.directory.BasicAttributes;
+import java.naming.share.classes.javax.naming.directory.Attributes;
+import java.naming.share.classes.javax.naming.directory.Attribute;
+import java.naming.share.classes.javax.naming.NamingEnumeration;
+import java.naming.share.classes.javax.naming.NamingException;
 import java.io.Serializable;
 import java.io.ObjectOutputStream;
 import java.io.ObjectInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents a relative distinguished name, or RDN, which is a

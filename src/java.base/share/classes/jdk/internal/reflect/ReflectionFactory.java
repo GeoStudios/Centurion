@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.reflect;
+package java.base.share.classes.jdk.internal.reflect;
+
 
 import java.io.Externalizable;
 import java.io.ObjectInputStream;
@@ -37,12 +38,26 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.security.PrivilegedAction;
 import java.util.Properties;
-import jdk.internal.access.JavaLangReflectAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.access.JavaLangReflectAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.VM;
 import sun.reflect.misc.ReflectUtil;
 import sun.security.action.GetPropertyAction;
 import sun.security.util.SecurityConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** <P> The master factory for all reflective objects, both those in
     java.lang.reflect (Fields, Methods, Constructors) as well as their

@@ -18,10 +18,12 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.tools.jlink.internal.plugins;
+
+package jdk.jlink.linux.classes.jdk.tools.jlink.internal.plugins;
+
 
 import java.io.InputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.ProcessBuilder.Redirect;
 import java.nio.file.FileVisitResult;
 import java.nio.file.Files;
@@ -30,21 +32,34 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.MissingResourceException;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.util.ResourceBundle;
+import jdk.jlink.linux.classes.jdk.tools.jlink.plugin.PluginException;
+import jdk.jlink.linux.classes.jdk.tools.jlink.plugin.ResourcePool;
+import jdk.jlink.linux.classes.jdk.tools.jlink.plugin.ResourcePoolBuilder;
+import jdk.jlink.linux.classes.jdk.tools.jlink.plugin.ResourcePoolEntry;
 
-import jdk.tools.jlink.plugin.PluginException;
-import jdk.tools.jlink.plugin.ResourcePool;
-import jdk.tools.jlink.plugin.ResourcePoolBuilder;
-import jdk.tools.jlink.plugin.ResourcePoolEntry;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Platform specific jlink plugin for stripping debug symbols from native

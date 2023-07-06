@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.pipe;
+package java.desktop.share.classes.sun.java2d.pipe;
+
 
 import java.awt.Rectangle;
 import java.awt.Shape;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Rectangle2D;
 import java.awt.geom.RectangularShape;
+import java.desktop.share.classes.sun.java2d.loops.TransformHelper;
+import static java.lang.Double.isNaN;.extended
 
-import sun.java2d.loops.TransformHelper;
 
-import static java.lang.Double.isNaN;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class encapsulates a definition of a two dimensional region which

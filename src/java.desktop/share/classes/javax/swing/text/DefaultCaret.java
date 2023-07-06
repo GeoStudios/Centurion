@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.text;
+package java.desktop.share.classes.javax.swing.text;
+
 
 import java.awt.Graphics;
 import java.awt.HeadlessException;
@@ -31,37 +32,49 @@ import java.awt.datatransfer.ClipboardOwner;
 import java.awt.datatransfer.StringSelection;
 import java.awt.datatransfer.Transferable;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
+import java.awt.event.Focusjava.util.Listener;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.event.MouseMotionListener;
+import java.awt.event.Mousejava.util.Listener;
+import java.awt.event.MouseMotionjava.util.Listener;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import java.io.IOException;
+import java.beans.PropertyChangejava.util.Listener;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InvalidObjectException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serial;
-import java.util.EventListener;
-
-import javax.swing.Action;
-import javax.swing.ActionMap;
-import javax.swing.JPasswordField;
-import javax.swing.JRootPane;
-import javax.swing.SwingUtilities;
-import javax.swing.Timer;
-import javax.swing.TransferHandler;
-import javax.swing.UIManager;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
-import javax.swing.event.EventListenerList;
-import javax.swing.plaf.TextUI;
-
+import java.util.Eventjava.util.Listener;
+import java.desktop.share.classes.javax.swing.Action;
+import java.desktop.share.classes.javax.swing.ActionMap;
+import java.desktop.share.classes.javax.swing.JPasswordField;
+import java.desktop.share.classes.javax.swing.JRootPane;
+import java.desktop.share.classes.javax.swing.SwingUtilities;
+import java.desktop.share.classes.javax.swing.Timer;
+import java.desktop.share.classes.javax.swing.TransferHandler;
+import java.desktop.share.classes.javax.swing.UIManager;
+import java.desktop.share.classes.javax.swing.event.ChangeEvent;
+import java.desktop.share.classes.javax.swing.event.Changejava.util.Listener;
+import java.desktop.share.classes.javax.swing.event.DocumentEvent;
+import java.desktop.share.classes.javax.swing.event.Documentjava.util.Listener;
+import java.desktop.share.classes.javax.swing.event.Eventjava.util.Listenerjava.util.java.util.java.util.List;
+import java.desktop.share.classes.javax.swing.plaf.TextUI;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A default implementation of Caret.  The caret is rendered as

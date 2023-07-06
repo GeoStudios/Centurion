@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.xinclude;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.xinclude;
 
-import com.sun.org.apache.xerces.internal.util.NamespaceSupport;
-import com.sun.org.apache.xerces.internal.util.XMLSymbols;
-import com.sun.org.apache.xerces.internal.xni.NamespaceContext;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.NamespaceSupport;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLSymbols;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
 import java.util.Enumeration;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This implementation of NamespaceContext has the ability to maintain multiple

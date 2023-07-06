@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.sound.midi;
+package java.desktop.share.classes.javax.sound.midi;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A hardware or software device that plays back a MIDI

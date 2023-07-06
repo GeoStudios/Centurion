@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.vm.ci.hotspot.test;
+
+
+import sun.hotspot.WhiteBox;
+import jdk.vm.ci.meta.Constant;
+import jdk.vm.ci.meta.JavaKind;
+import jdk.vm.ci.meta.MemoryAccessProvider;
+import jdk.vm.ci.runtime.JVMCI;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8152341
@@ -38,16 +62,8 @@
  *      -XX:-UseJVMCICompiler jdk.vm.ci.hotspot.test.MemoryAccessProviderTest
  */
 
-package jdk.vm.ci.hotspot.test;
 
-import sun.hotspot.WhiteBox;
 
-import jdk.vm.ci.meta.Constant;
-import jdk.vm.ci.meta.JavaKind;
-import jdk.vm.ci.meta.MemoryAccessProvider;
-import jdk.vm.ci.runtime.JVMCI;
-import org.testng.Assert;
-import org.testng.annotations.Test;
 
 public class MemoryAccessProviderTest {
     private static final MemoryAccessProvider PROVIDER = JVMCI.getRuntime().getHostJVMCIBackend().getConstantReflection().getMemoryAccessProvider();

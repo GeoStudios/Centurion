@@ -19,16 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.rmi.registry;
+package jdk.naming.rmi.share.classes.com.sun.jndi.rmi.registry;
 
 
 import java.util.Enumeration;
 import java.util.Hashtable;
-
 import javax.naming.*;
 import javax.naming.spi.*;
+import jdk.naming.rmi.share.classes.com.sun.jndi.url.rmi.rmiURLContextFactory;
 
-import com.sun.jndi.url.rmi.rmiURLContextFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A RegistryContextFactory takes an RMI registry reference, and

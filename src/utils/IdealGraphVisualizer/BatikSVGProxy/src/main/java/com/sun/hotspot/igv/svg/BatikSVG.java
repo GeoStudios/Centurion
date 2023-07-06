@@ -18,18 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.svg;
 
-import java.awt.Graphics2D;
-import java.io.Writer;
-import java.io.File;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.net.URLClassLoader;
+package utils.IdealGraphVisualizer.BatikSVGProxy.src.main.java.com.sun.hotspot.igv.svg;
+
+
+import utils.IdealGraphVisualizer.BatikSVGProxy.src.main.java.awt.Graphics2D;
+import utils.IdealGraphVisualizer.BatikSVGProxy.src.main.java.io.Writer;
+import utils.IdealGraphVisualizer.BatikSVGProxy.src.main.java.io.File;
+import utils.IdealGraphVisualizer.BatikSVGProxy.src.main.java.lang.reflect.Constructor;
+import utils.IdealGraphVisualizer.BatikSVGProxy.src.main.java.lang.reflect.InvocationTargetException;
+import utils.IdealGraphVisualizer.BatikSVGProxy.src.main.java.lang.reflect.Method;
+import utils.IdealGraphVisualizer.BatikSVGProxy.src.main.java.net.MalformedURLException;
+import utils.IdealGraphVisualizer.BatikSVGProxy.src.main.java.net.URL;
+import utils.IdealGraphVisualizer.BatikSVGProxy.src.main.java.net.URLClassLoader;
 import org.w3c.dom.DOMImplementation;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class

@@ -19,20 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.code;
+package jdk.compiler.share.classes.com.sun.tools.javac.code;
+
 
 import java.util.EnumSet;
 import java.util.Set;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
+import jdk.compiler.share.classes.com.sun.source.tree.MemberReferenceTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.api.Formattable;
+import jdk.compiler.share.classes.com.sun.tools.javac.api.Messages;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.CLASS;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.PACKAGE;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.TYPEVAR;.extended
 
-import com.sun.source.tree.MemberReferenceTree;
-import com.sun.tools.javac.api.Formattable;
-import com.sun.tools.javac.api.Messages;
 
-import static com.sun.tools.javac.code.Flags.*;
-import static com.sun.tools.javac.code.TypeTag.CLASS;
-import static com.sun.tools.javac.code.TypeTag.PACKAGE;
-import static com.sun.tools.javac.code.TypeTag.TYPEVAR;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Internal symbol kinds, which distinguish between elements of
  *  different subclasses of Symbol. Symbol kinds are organized so they can be

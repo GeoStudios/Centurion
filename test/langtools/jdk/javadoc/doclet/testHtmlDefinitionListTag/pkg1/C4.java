@@ -21,7 +21,21 @@
 
 package pkg1;
 
+
 import java.lang.annotation.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * The @Inherited annotation has no effect when applied to an interface.

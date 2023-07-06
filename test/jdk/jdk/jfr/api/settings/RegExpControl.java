@@ -21,10 +21,23 @@
 
 package jdk.jfr.api.settings;
 
+
 import java.util.Set;
 import java.util.regex.Pattern;
-
 import jdk.jfr.SettingControl;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class RegExpControl extends SettingControl {
     private Pattern pattern = Pattern.compile(".*");

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.arraycopy;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8268362
@@ -30,7 +47,6 @@
  * @run main/othervm -XX:-PrintCompilation compiler.arraycopy.TestNegArrayLengthAsIndex1
  */
 
-package compiler.arraycopy;
 public class TestNegArrayLengthAsIndex1 {
 
     public static void main(String[] args) throws Exception {

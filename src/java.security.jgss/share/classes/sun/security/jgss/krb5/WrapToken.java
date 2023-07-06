@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jgss.krb5;
+package java.security.jgss.share.classes.sun.security.jgss.krb5;
+
 
 import org.ietf.jgss.*;
-import sun.security.jgss.*;
+import java.security.jgss.share.classes.sun.security.jgss.*;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ByteArrayOutputStream;
-import sun.security.krb5.Confounder;
+import java.security.jgss.share.classes.sun.security.krb5.Confounder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents a token emitted by the GSSContext.wrap()

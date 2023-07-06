@@ -18,18 +18,18 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.operators;
+
 
 import java.awt.Component;
 import java.awt.Container;
-import java.awt.event.AdjustmentListener;
+import java.awt.event.Adjustmentjava.util.Listener;
 import java.util.Hashtable;
-
 import javax.swing.BoundedRangeModel;
 import javax.swing.JButton;
 import javax.swing.JScrollBar;
 import javax.swing.plaf.ScrollBarUI;
-
 import org.netbeans.jemmy.Action;
 import org.netbeans.jemmy.ComponentChooser;
 import org.netbeans.jemmy.ComponentSearcher;
@@ -43,6 +43,19 @@ import org.netbeans.jemmy.drivers.DriverManager;
 import org.netbeans.jemmy.drivers.ScrollDriver;
 import org.netbeans.jemmy.drivers.scrolling.ScrollAdjuster;
 import org.netbeans.jemmy.util.EmptyVisualizer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ec.ed;
+package jdk.crypto.ec.share.classes.sun.security.ec.ed;
 
-import java.io.IOException;
-import java.security.InvalidKeyException;
-import java.security.ProviderException;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.ProviderException;
 import java.security.interfaces.EdECPrivateKey;
 import java.util.Optional;
 import java.security.spec.NamedParameterSpec;
+import jdk.crypto.ec.share.classes.sun.security.pkcs.PKCS8Key;
+import jdk.crypto.ec.share.classes.sun.security.x509.AlgorithmId;
+import jdk.crypto.ec.share.classes.sun.security.util.*;
 
-import sun.security.pkcs.PKCS8Key;
-import sun.security.x509.AlgorithmId;
-import sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class EdDSAPrivateKeyImpl
         extends PKCS8Key implements EdECPrivateKey {

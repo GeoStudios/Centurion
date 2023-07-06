@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d;
+package java.desktop.macosx.classes.sun.java2d;
+
 
 import java.awt.image.DataBuffer;
 import java.nio.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class DataBufferNIOInt extends DataBuffer {
 

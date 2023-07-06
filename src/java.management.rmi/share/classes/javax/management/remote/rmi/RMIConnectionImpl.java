@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.remote.rmi;
+package java.management.rmi.share.classes.javax.management.remote.rmi;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.rmi.MarshalledObject;
 import java.rmi.UnmarshalException;
 import java.rmi.server.Unreferenced;
@@ -33,18 +34,16 @@ import java.security.PrivilegedAction;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
 import java.security.ProtectionDomain;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.Map;
 import java.util.Set;
-
-import javax.management.*;
-import javax.management.remote.JMXServerErrorException;
-import javax.management.remote.NotificationResult;
-import javax.security.auth.Subject;
+import java.management.rmi.share.classes.javax.management.*;
+import java.management.rmi.share.classes.javax.management.remote.JMXServerErrorException;
+import java.management.rmi.share.classes.javax.management.remote.NotificationResult;
+import java.management.rmi.share.classes.javax.security.auth.Subject;
 import sun.reflect.misc.ReflectUtil;
-
-import static javax.management.remote.rmi.RMIConnector.Util.cast;
+import static java.management.rmi.share.classes.javax.management.remote.rmi.RMIConnector.Util.cast;.extended
 import com.sun.jmx.remote.internal.ServerCommunicatorAdmin;
 import com.sun.jmx.remote.internal.ServerNotifForwarder;
 import com.sun.jmx.remote.security.JMXSubjectDomainCombiner;
@@ -53,7 +52,21 @@ import com.sun.jmx.remote.util.ClassLoaderWithRepository;
 import com.sun.jmx.remote.util.ClassLogger;
 import com.sun.jmx.remote.util.EnvHelp;
 import com.sun.jmx.remote.util.OrderClassLoaders;
-import javax.management.loading.ClassLoaderRepository;
+import java.management.rmi.share.classes.javax.management.loading.ClassLoaderRepository;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Implementation of the {@link RMIConnection} interface.  User

@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.lang.invoke;
+
+
+import java.lang.reflect.*;
+import java.lang.invoke.*;
+import static java.lang.invoke.MethodHandles.*;.extended
+import static java.lang.invoke.MethodType.*;.extended
+import static java.lang.invoke.MethodHandleInfo.*;.extended
+import java.util.*;
+import static org.junit.Assert.*;.extended
+import org.junit.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @summary verify Lookup.revealDirect on a variety of input handles
@@ -37,16 +62,7 @@
  * $ $JAVA8X_HOME/bin/java  -cp $JUNIT4_JAR:../../../.. -ea -esa    -Djava.security.manager test.java.lang.invoke.RevealDirectTest
  */
 
-package test.java.lang.invoke;
 
-import java.lang.reflect.*;
-import java.lang.invoke.*;
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
-import static java.lang.invoke.MethodHandleInfo.*;
-import java.util.*;
-import static org.junit.Assert.*;
-import org.junit.*;
 
 public class RevealDirectTest {
     public static void main(String... av) throws Throwable {

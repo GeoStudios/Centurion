@@ -19,20 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.zip;
+package java.base.share.classes.java.util.zip;
 
-import java.nio.ByteBuffer;
-import java.nio.file.attribute.FileTime;
-import java.time.DateTimeException;
-import java.time.Instant;
-import java.time.LocalDateTime;
-import java.time.ZoneId;
-import java.util.Date;
-import java.util.concurrent.TimeUnit;
 
-import static java.util.zip.ZipConstants.ENDHDR;
-
+import java.base.share.classes.java.nio.ByteBuffer;
+import java.base.share.classes.java.nio.file.attribute.FileTime;
+import java.base.share.classes.java.time.DateTimeException;
+import java.base.share.classes.java.time.Instant;
+import java.base.share.classes.java.time.LocalDateTime;
+import java.base.share.classes.java.time.ZoneId;
+import java.base.share.classes.java.util.Date;
+import java.base.share.classes.java.util.concurrent.TimeUnit;
+import static java.base.share.classes.java.util.zip.ZipConstants.ENDHDR;.extended
 import jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class ZipUtils {
 
@@ -130,10 +143,10 @@ class ZipUtils {
     private static long javaToDosTime(LocalDateTime ldt) {
         int year = ldt.getYear() - 1980;
         return ((long) year << 25 |
-            ldt.getMonthValue() << 21 |
-            ldt.getDayOfMonth() << 16 |
-            ldt.getHour() << 11 |
-            ldt.getMinute() << 5 |
+                (long) ldt.getMonthValue() << 21 |
+                (long) ldt.getDayOfMonth() << 16 |
+                (long) ldt.getHour() << 11 |
+                (long) ldt.getMinute() << 5 |
             ldt.getSecond() >> 1) & 0xffffffffL;
     }
 

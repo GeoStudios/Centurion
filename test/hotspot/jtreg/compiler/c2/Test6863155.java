@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6863155
@@ -29,7 +46,6 @@
  *      compiler.c2.Test6863155
  */
 
-package compiler.c2;
 
 public class Test6863155 {
     private static long test(byte b) {

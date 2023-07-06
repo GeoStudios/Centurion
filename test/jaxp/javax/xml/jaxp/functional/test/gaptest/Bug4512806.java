@@ -21,19 +21,30 @@
 
 package test.gaptest;
 
-import static javax.xml.transform.OutputKeys.ENCODING;
-import static javax.xml.transform.OutputKeys.INDENT;
-import static org.testng.Assert.assertEquals;
 
+import static javax.xml.transform.OutputKeys.ENCODING;.extended
+import static javax.xml.transform.OutputKeys.INDENT;.extended
+import static org.testng.Assert.assertEquals;.extended
 import java.io.StringReader;
-
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamSource;
-
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

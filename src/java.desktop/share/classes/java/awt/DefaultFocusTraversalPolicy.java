@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.peer.ComponentPeer;
-import java.io.Serial;
+
+import java.desktop.share.classes.java.awt.peer.ComponentPeer;
+import java.desktop.share.classes.java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A FocusTraversalPolicy that determines traversal order based on the order

@@ -21,6 +21,23 @@
 
 package gc.epsilon;
 
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestDieDefault
  * @requires vm.gc.Epsilon
@@ -29,8 +46,6 @@ package gc.epsilon;
  * @run driver gc.epsilon.TestDieDefault
  */
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class TestDieDefault {
 

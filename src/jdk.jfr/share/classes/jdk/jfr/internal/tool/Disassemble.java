@@ -19,26 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.tool;
+package jdk.jfr.share.classes.jdk.jfr.internal.tool;
+
 
 import java.io.BufferedInputStream;
 import java.io.DataInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintStream;
 import java.nio.file.Files;
 import java.nio.file.InvalidPathException;
 import java.nio.file.Path;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Deque;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.ChunkHeader;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.FileAccess;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.RecordingInput;
 
-import jdk.jfr.internal.consumer.ChunkHeader;
-import jdk.jfr.internal.consumer.FileAccess;
-import jdk.jfr.internal.consumer.RecordingInput;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class Disassemble extends Command {
 

@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.rmi.server;
+package java.rmi.share.classes.sun.rmi.server;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInput;
 import java.io.ObjectOutput;
-import sun.rmi.transport.LiveRef;
+import java.rmi.share.classes.sun.rmi.transport.LiveRef;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * NOTE: There is a JDK-internal dependency on the existence of this

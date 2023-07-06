@@ -18,15 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.coordinator.actions;
 
-import com.sun.hotspot.igv.data.InputGraph;
-import com.sun.hotspot.igv.data.services.GraphViewer;
-import com.sun.hotspot.igv.data.services.InputGraphProvider;
-import com.sun.hotspot.igv.difference.Difference;
-import com.sun.hotspot.igv.util.LookupHistory;
+package utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator.actions;
+
+
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.data.InputGraph;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.data.services.GraphViewer;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.data.services.InputGraphProvider;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.difference.Difference;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.util.LookupHistory;
 import org.openide.nodes.Node;
 import org.openide.util.Lookup;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

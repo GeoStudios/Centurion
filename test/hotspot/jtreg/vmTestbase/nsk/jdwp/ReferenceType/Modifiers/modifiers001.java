@@ -21,12 +21,25 @@
 
 package nsk.jdwp.ReferenceType.Modifiers;
 
+
 import java.io.*;
 import java.util.*;
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class modifiers001 {
     static final int JCK_STATUS_BASE = 95;

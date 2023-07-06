@@ -21,15 +21,28 @@
 
 package compiler.intrinsics.sha.sanity;
 
+
 import compiler.intrinsics.sha.TestDigest;
 import compiler.testlibrary.intrinsics.Verifier;
 import sun.hotspot.WhiteBox;
-
 import java.io.FileOutputStream;
-import java.io.IOException;
-import java.util.Objects;
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.util.Objects;
 import java.util.Properties;
 import java.util.function.BooleanSupplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base class for sanity tests on SHA intrinsics support.

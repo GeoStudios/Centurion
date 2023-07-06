@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.reflect.generics.tree;
+package java.base.share.classes.sun.reflect.generics.tree;
 
-import sun.reflect.generics.visitor.TypeTreeVisitor;
+
+import java.base.share.classes.sun.reflect.generics.visitor.TypeTreeVisitor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Wildcard implements TypeArgument {
     private final FieldTypeSignature[] upperBounds;

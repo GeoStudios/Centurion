@@ -21,7 +21,21 @@
 
 package jdk.test.lib.containers.docker;
 
+
 import jdk.test.lib.Platform;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Use the following properties to specify docker base image at test execution time:
 // Image name: jdk.test.docker.image.name

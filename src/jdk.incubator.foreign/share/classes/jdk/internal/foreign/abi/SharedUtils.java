@@ -18,31 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.foreign.abi;
 
-import jdk.incubator.foreign.Addressable;
-import jdk.incubator.foreign.FunctionDescriptor;
-import jdk.incubator.foreign.GroupLayout;
-import jdk.incubator.foreign.MemoryAccess;
-import jdk.incubator.foreign.MemoryAddress;
-import jdk.incubator.foreign.MemoryHandles;
-import jdk.incubator.foreign.MemoryLayout;
-import jdk.incubator.foreign.MemorySegment;
-import jdk.incubator.foreign.ResourceScope;
-import jdk.incubator.foreign.SegmentAllocator;
-import jdk.incubator.foreign.SequenceLayout;
-import jdk.incubator.foreign.CLinker;
-import jdk.incubator.foreign.ValueLayout;
-import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.foreign.CABI;
-import jdk.internal.foreign.MemoryAddressImpl;
-import jdk.internal.foreign.Utils;
-import jdk.internal.foreign.abi.aarch64.linux.LinuxAArch64Linker;
-import jdk.internal.foreign.abi.aarch64.macos.MacOsAArch64Linker;
-import jdk.internal.foreign.abi.x64.sysv.SysVx64Linker;
-import jdk.internal.foreign.abi.x64.windows.Windowsx64Linker;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi;
 
+
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.Addressable;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.FunctionDescriptor;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.GroupLayout;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryAccess;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryAddress;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryHandles;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryLayout;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.ResourceScope;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.SegmentAllocator;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.SequenceLayout;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.CLinker;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.ValueLayout;
+import jdk.incubator.foreign.share.classes.jdk.internal.access.JavaLangAccess;
+import jdk.incubator.foreign.share.classes.jdk.internal.access.SharedSecrets;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.CABI;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.MemoryAddressImpl;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.Utils;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.aarch64.linux.LinuxAArch64Linker;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.aarch64.macos.MacOsAArch64Linker;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.x64.sysv.SysVx64Linker;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.x64.windows.Windowsx64Linker;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
@@ -50,26 +51,39 @@ import java.lang.invoke.VarHandle;
 import java.lang.ref.Reference;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
-import java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.function.Consumer;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+import static java.lang.invoke.MethodHandles.collectArguments;.extended
+import static java.lang.invoke.MethodHandles.constant;.extended
+import static java.lang.invoke.MethodHandles.dropArguments;.extended
+import static java.lang.invoke.MethodHandles.dropReturn;.extended
+import static java.lang.invoke.MethodHandles.empty;.extended
+import static java.lang.invoke.MethodHandles.filterArguments;.extended
+import static java.lang.invoke.MethodHandles.identity;.extended
+import static java.lang.invoke.MethodHandles.insertArguments;.extended
+import static java.lang.invoke.MethodHandles.permuteArguments;.extended
+import static java.lang.invoke.MethodHandles.tryFinally;.extended
+import static java.lang.invoke.MethodType.methodType;.extended
+import static jdk.incubator.foreign.share.classes.jdk.incubator.foreign.CLinker.*;.extended
 
-import static java.lang.invoke.MethodHandles.collectArguments;
-import static java.lang.invoke.MethodHandles.constant;
-import static java.lang.invoke.MethodHandles.dropArguments;
-import static java.lang.invoke.MethodHandles.dropReturn;
-import static java.lang.invoke.MethodHandles.empty;
-import static java.lang.invoke.MethodHandles.filterArguments;
-import static java.lang.invoke.MethodHandles.identity;
-import static java.lang.invoke.MethodHandles.insertArguments;
-import static java.lang.invoke.MethodHandles.permuteArguments;
-import static java.lang.invoke.MethodHandles.tryFinally;
-import static java.lang.invoke.MethodType.methodType;
-import static jdk.incubator.foreign.CLinker.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SharedUtils {
 

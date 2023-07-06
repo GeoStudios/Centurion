@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.utilities;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** <p> A two-way unbounded-length message queue useful for
     communication between threads. Messages written on one side become

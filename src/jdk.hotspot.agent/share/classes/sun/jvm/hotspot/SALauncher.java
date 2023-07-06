@@ -19,21 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.function.Consumer;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.DebuggerException;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.JStack;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.JMap;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.JInfo;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.JSnap;
 
-import sun.jvm.hotspot.debugger.DebuggerException;
-import sun.jvm.hotspot.tools.JStack;
-import sun.jvm.hotspot.tools.JMap;
-import sun.jvm.hotspot.tools.JInfo;
-import sun.jvm.hotspot.tools.JSnap;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SALauncher {
 

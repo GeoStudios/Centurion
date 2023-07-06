@@ -21,6 +21,21 @@
 
 package capture2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class R<T extends R<T>> {
     T f() { return null; }
     T t;

@@ -19,15 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package org.jcp.xml.dsig.internal;
+package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal;
+
 
 import java.io.ByteArrayOutputStream;
 import java.security.Signature;
 import java.security.SignatureException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
 
 /**
  * Derived from Apache sources and changed to use java.security.Signature

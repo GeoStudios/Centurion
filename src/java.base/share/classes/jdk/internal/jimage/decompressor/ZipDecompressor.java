@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.jimage.decompressor;
+
+package java.base.share.classes.jdk.internal.jimage.decompressor;
+
 
 import java.io.ByteArrayOutputStream;
 import java.util.zip.Inflater;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

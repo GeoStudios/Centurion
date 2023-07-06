@@ -19,30 +19,43 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
+
 
 import sun.invoke.util.Wrapper;
+import java.base.share.classes.java.lang.reflect.Constructor;
+import java.base.share.classes.java.lang.reflect.Field;
+import java.base.share.classes.java.lang.reflect.Method;
+import java.base.share.classes.java.lang.reflect.Modifier;
+import java.base.share.classes.java.lang.reflect.Parameter;
+import java.base.share.classes.java.nio.ByteOrder;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.LinkedHashMap;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.concurrent.ConcurrentMap;
+import java.base.share.classes.java.util.stream.Stream;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.UNSAFE;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.VAR_HANDLE_IDENTITY_ADAPT;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newIllegalArgumentException;.extended
+import static java.base.share.classes.java.util.stream.Collectors.joining;.extended
+import static java.base.share.classes.java.util.stream.Collectors.tojava.util.java.util.java.util.List;.extended
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
-import java.lang.reflect.Parameter;
-import java.nio.ByteOrder;
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
-import java.util.stream.Stream;
 
-import static java.lang.invoke.MethodHandleStatics.UNSAFE;
-import static java.lang.invoke.MethodHandleStatics.VAR_HANDLE_IDENTITY_ADAPT;
-import static java.lang.invoke.MethodHandleStatics.newIllegalArgumentException;
-import static java.util.stream.Collectors.joining;
-import static java.util.stream.Collectors.toList;
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class VarHandles {
 
@@ -739,7 +752,7 @@ final class VarHandles {
 //         * @param args parameters
 //         */
 //        public static void main(String[] args) {
-//            System.out.println("package java.lang.invoke;");
+//            System.out.println("");
 //            System.out.println();
 //            System.out.println("import jdk.internal.vm.annotation.ForceInline;");
 //            System.out.println("import jdk.internal.vm.annotation.Hidden;");

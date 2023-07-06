@@ -18,11 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-/**
- * This test set up -XX:MaxMetaspaceSize option and try to to generate OOME
- * in metaspace. It also could crash with OOM. This is expected behavior.
- */
+
 package metaspace.flags.maxMetaspaceSize;
+
 
 import nsk.share.gc.GC;
 import nsk.share.gc.GCTestBase;
@@ -30,6 +28,25 @@ import nsk.share.gc.gp.*;
 import nsk.share.gc.gp.classload.GeneratedClassProducer;
 import nsk.share.test.Stresser;
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * This test set up -XX:MaxMetaspaceSize option and try to to generate OOME
+ * in metaspace. It also could crash with OOM. This is expected behavior.
+ */
+
 
 public class maxMetaspaceSize extends GCTestBase {
     @Override

@@ -18,12 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.awt.dnd;
 
-import java.awt.AWTEventMulticaster;
-import java.io.ObjectOutputStream;
-import java.io.IOException;
-import java.util.EventListener;
+package java.desktop.share.classes.java.awt.dnd;
+
+
+import java.desktop.share.classes.java.awt.AWTEventMulticaster;
+import java.desktop.share.classes.java.io.ObjectOutputStream;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.util.Eventjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

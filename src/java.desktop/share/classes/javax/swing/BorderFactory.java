@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing;
+
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Paint;
-import javax.swing.border.*;
+import java.desktop.share.classes.javax.swing.border.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Factory class for vending standard <code>Border</code> objects.  Wherever

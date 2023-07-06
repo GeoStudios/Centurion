@@ -19,10 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac.pubapi;
+package jdk.compiler.share.classes.com.sun.tools.sjavac.pubapi;
+
 
 import java.io.Serializable;
-
 import javax.lang.model.type.ArrayType;
 import javax.lang.model.type.DeclaredType;
 import javax.lang.model.type.ErrorType;
@@ -33,11 +33,24 @@ import javax.lang.model.type.TypeMirror;
 import javax.lang.model.type.TypeVariable;
 import javax.lang.model.type.TypeVisitor;
 import javax.lang.model.util.SimpleTypeVisitor14;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.ClassType;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.StringUtils;
 
-import com.sun.tools.javac.code.Type.ClassType;
-import com.sun.tools.javac.util.DefinedBy;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.StringUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class TypeDesc implements Serializable {
 
@@ -78,7 +91,7 @@ public abstract class TypeDesc implements Serializable {
             return "#" + ((TypeVarTypeDesc) td).identifier;
 
         if (td.typeKind == TypeKind.DECLARED)
-            return ((ReferenceTypeDesc) td).javaType.toString();
+            return ((ReferenceTypeDesc) td).javaType;
 
         throw new AssertionError("Unhandled type: " + td.typeKind);
     }

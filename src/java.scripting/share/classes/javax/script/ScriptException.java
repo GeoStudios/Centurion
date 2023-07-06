@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.script;
+package java.scripting.share.classes.javax.script;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The generic <code>Exception</code> class for the Scripting APIs.  Checked

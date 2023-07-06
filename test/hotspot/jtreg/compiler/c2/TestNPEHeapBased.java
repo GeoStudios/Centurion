@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8176518
@@ -30,7 +47,6 @@
  * @requires vm.bits == "64"
  */
 
-package compiler.c2;
 public class TestNPEHeapBased {
 
     TestNPEHeapBased instance = null;

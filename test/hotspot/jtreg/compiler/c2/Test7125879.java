@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7125879
@@ -27,7 +44,6 @@
  * @run main/othervm -Xcomp compiler.c2.Test7125879
  */
 
-package compiler.c2;
 
 public class Test7125879 {
     String var_1 = "abc";

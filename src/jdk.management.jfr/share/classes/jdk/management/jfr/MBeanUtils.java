@@ -18,24 +18,38 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.management.jfr;
 
-import java.io.IOException;
+package jdk.management.jfr.share.classes.jdk.management.jfr;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.management.ManagementPermission;
 import java.security.Permission;
 import java.time.DateTimeException;
 import java.time.Duration;
 import java.time.Instant;
 import java.time.format.DateTimeParseException;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-
 import javax.management.MalformedObjectNameException;
 import javax.management.ObjectName;
+import jdk.management.jfr.share.classes.jdk.jfr.Recording;
+import jdk.management.jfr.share.classes.jdk.jfr.internal.management.ManagementSupport;
 
-import jdk.jfr.Recording;
-import jdk.jfr.internal.management.ManagementSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class MBeanUtils {
 

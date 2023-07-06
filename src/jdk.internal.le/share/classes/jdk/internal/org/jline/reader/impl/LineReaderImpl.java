@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.reader.impl;
+
+package jdk.internal.le.share.classes.jdk.internal.org.jline.reader.impl;
+
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -26,9 +28,9 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.Flushable;
 import java.io.IOError;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
-import java.io.InterruptedIOException;
+import java.io.Interruptedjava.io.java.io.java.io.IOException;
 import java.lang.reflect.Constructor;
 import java.time.Instant;
 import java.util.*;
@@ -41,34 +43,46 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.keymap.BindingReader;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.keymap.KeyMap;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.*;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.Parser.ParseContext;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.impl.history.DefaultHistory;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.*;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Attributes.ControlChar;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Terminal.Signal;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Terminal.SignalHandler;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl.AbstractWindowsTerminal;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedString;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedStringBuilder;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedStyle;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.Curses;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.Display;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.InfoCmp.Capability;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.Levenshtein;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.Log;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.Status;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.WCWidth;
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.keymap.KeyMap.alt;.extended
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.keymap.KeyMap.ctrl;.extended
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.keymap.KeyMap.del;.extended
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.keymap.KeyMap.esc;.extended
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.keymap.KeyMap.range;.extended
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.keymap.KeyMap.translate;.extended
 
-import jdk.internal.org.jline.keymap.BindingReader;
-import jdk.internal.org.jline.keymap.KeyMap;
-import jdk.internal.org.jline.reader.*;
-import jdk.internal.org.jline.reader.Parser.ParseContext;
-import jdk.internal.org.jline.reader.impl.history.DefaultHistory;
-import jdk.internal.org.jline.terminal.*;
-import jdk.internal.org.jline.terminal.Attributes.ControlChar;
-import jdk.internal.org.jline.terminal.Terminal.Signal;
-import jdk.internal.org.jline.terminal.Terminal.SignalHandler;
-import jdk.internal.org.jline.terminal.impl.AbstractWindowsTerminal;
-import jdk.internal.org.jline.utils.AttributedString;
-import jdk.internal.org.jline.utils.AttributedStringBuilder;
-import jdk.internal.org.jline.utils.AttributedStyle;
-import jdk.internal.org.jline.utils.Curses;
-import jdk.internal.org.jline.utils.Display;
-import jdk.internal.org.jline.utils.InfoCmp.Capability;
-import jdk.internal.org.jline.utils.Levenshtein;
-import jdk.internal.org.jline.utils.Log;
-import jdk.internal.org.jline.utils.Status;
-import jdk.internal.org.jline.utils.WCWidth;
 
-import static jdk.internal.org.jline.keymap.KeyMap.alt;
-import static jdk.internal.org.jline.keymap.KeyMap.ctrl;
-import static jdk.internal.org.jline.keymap.KeyMap.del;
-import static jdk.internal.org.jline.keymap.KeyMap.esc;
-import static jdk.internal.org.jline.keymap.KeyMap.range;
-import static jdk.internal.org.jline.keymap.KeyMap.translate;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A reader for terminal applications. It supports custom tab-completion,

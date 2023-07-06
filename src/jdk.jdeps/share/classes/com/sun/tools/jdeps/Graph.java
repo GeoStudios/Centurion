@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.tools.jdeps;
+
+package jdk.jdeps.share.classes.com.sun.tools.jdeps;
+
 
 import java.io.PrintWriter;
 import java.util.ArrayDeque;
@@ -31,6 +33,20 @@ import java.util.Set;
 import java.util.function.Consumer;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class Graph<T> {
     private final Set<T> nodes;

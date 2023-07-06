@@ -21,18 +21,30 @@
 
 package catalog;
 
-import static catalog.CatalogTestUtils.PREFER_PUBLIC;
-import static catalog.CatalogTestUtils.PREFER_SYSTEM;
-import static catalog.CatalogTestUtils.catalogResolver;
-import static javax.xml.catalog.CatalogFeatures.Feature.PREFER;
 
+import static catalog.CatalogTestUtils.PREFER_PUBLIC;.extended
+import static catalog.CatalogTestUtils.PREFER_SYSTEM;.extended
+import static catalog.CatalogTestUtils.catalogResolver;.extended
+import static javax.xml.catalog.CatalogFeatures.Feature.PREFER;.extended
 import javax.xml.catalog.CatalogException;
 import javax.xml.catalog.CatalogFeatures;
 import javax.xml.catalog.CatalogResolver;
-
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

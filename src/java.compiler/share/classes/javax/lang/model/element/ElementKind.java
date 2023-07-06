@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.lang.model.element;
+package java.compiler.share.classes.javax.lang.model.element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code kind} of an element.

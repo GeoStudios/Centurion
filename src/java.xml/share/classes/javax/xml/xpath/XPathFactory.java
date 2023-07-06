@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.xpath;
+package java.xml.share.classes.javax.xml.xpath;
+
 
 import com.sun.org.apache.xpath.internal.jaxp.XPathFactoryImpl;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>An {@code XPathFactory} instance can be used to create

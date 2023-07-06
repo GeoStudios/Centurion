@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.mlvm.indy.stress.java.relinkMutableCallSiteFreq;
+
+
+import java.lang.invoke.CallSite;
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MutableCallSite;
+import vm.mlvm.indy.share.INDIFY_RelinkCallSiteFreqTest;
+import vm.mlvm.share.MlvmTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -36,14 +57,8 @@
  * @run main/othervm vm.mlvm.indy.stress.java.relinkMutableCallSiteFreq.Test
  */
 
-package vm.mlvm.indy.stress.java.relinkMutableCallSiteFreq;
 
-import java.lang.invoke.CallSite;
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MutableCallSite;
 
-import vm.mlvm.indy.share.INDIFY_RelinkCallSiteFreqTest;
-import vm.mlvm.share.MlvmTest;
 
 /**
  * The test creates a mutable call site and relinks it from one thread while calling the current

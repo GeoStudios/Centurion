@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.stress.numeric.numeric001;
+
+
+import java.io.PrintStream;
+import java.util.Random;
+import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -51,11 +71,7 @@
  * @run main/othervm nsk.stress.numeric.numeric001.numeric001 300 300
  */
 
-package nsk.stress.numeric.numeric001;
 
-import java.io.PrintStream;
-import java.util.Random;
-import jdk.test.lib.Utils;
 
 /**
  * This test calculates the product <b>A</b><sup>.</sup><b>A</b> for

@@ -18,11 +18,12 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.drivers.scrolling;
+
 
 import javax.swing.JButton;
 import javax.swing.JSplitPane;
-
 import org.netbeans.jemmy.ComponentSearcher;
 import org.netbeans.jemmy.drivers.ButtonDriver;
 import org.netbeans.jemmy.drivers.DriverManager;
@@ -33,6 +34,19 @@ import org.netbeans.jemmy.operators.ContainerOperator;
 import org.netbeans.jemmy.operators.JButtonOperator;
 import org.netbeans.jemmy.operators.JSplitPaneOperator;
 import org.netbeans.jemmy.operators.Operator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ScrollDriver for javax.swing.JSplitPane component type.

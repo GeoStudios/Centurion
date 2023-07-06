@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.management.internal;
+package jdk.management.windows.classes.com.sun.management.internal;
 
-import com.sun.management.OperatingSystemMXBean;
-import sun.management.BaseOperatingSystemImpl;
-import sun.management.VMManagement;
+
+import jdk.management.windows.classes.com.sun.management.OperatingSystemMXBean;
+import jdk.management.windows.classes.com.sun.management.BaseOperatingSystemImpl;
+import jdk.management.windows.classes.com.sun.management.VMManagement;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation class for the operating system.

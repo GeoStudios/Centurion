@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8011706
@@ -28,7 +45,6 @@
  *      compiler.c1.Test8011706
  */
 
-package compiler.c1;
 
 public class Test8011706 {
     int[] array;

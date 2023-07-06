@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.blackhole;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import jdk.test.lib.Platform;
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.process.OutputAnalyzer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @library /test/lib /
@@ -26,15 +50,7 @@
  * @run driver compiler.blackhole.BlackholeExperimentalUnlockTest
  */
 
-package compiler.blackhole;
 
-import java.io.IOException;
-import java.util.List;
-import java.util.Arrays;
-import java.util.ArrayList;
-import jdk.test.lib.Platform;
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.process.OutputAnalyzer;
 
 public class BlackholeExperimentalUnlockTest {
 

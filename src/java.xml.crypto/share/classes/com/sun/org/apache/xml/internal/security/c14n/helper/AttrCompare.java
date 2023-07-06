@@ -19,16 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.helper;
+
+
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.Constants;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Attr;
+import java.io.Serializable;
+import java.util.Comparator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.c14n.helper;
 
-import com.sun.org.apache.xml.internal.security.utils.Constants;
-import org.w3c.dom.Attr;
-import java.io.Serializable;
-import java.util.Comparator;
+
 
 /**
  * Compares two attributes based on the C14n specification.

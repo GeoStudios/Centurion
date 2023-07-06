@@ -18,15 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.utils;
 
-import java.util.Locale;
+package jdk.internal.le.share.classes.jdk.internal.org.jline.utils;
+
+
+import java.base.share.classes.java.util.Locale;
 import java.util.function.Function;
+import static java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedStyle.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //import java.util.logging.Level;
 //import java.util.logging.Logger;
 
-import static java.util.Objects.requireNonNull;
-import static jdk.internal.org.jline.utils.AttributedStyle.*;
 
 // TODO: document style specification
 

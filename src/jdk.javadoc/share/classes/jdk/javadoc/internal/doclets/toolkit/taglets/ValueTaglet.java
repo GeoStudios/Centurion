@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.toolkit.taglets;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.taglets;
+
 
 import java.util.EnumSet;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.VariableElement;
-
 import com.sun.source.doctree.DocTree;
-import jdk.javadoc.doclet.Taglet.Location;
-import jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
-import jdk.javadoc.internal.doclets.toolkit.Content;
-import jdk.javadoc.internal.doclets.toolkit.Messages;
-import jdk.javadoc.internal.doclets.toolkit.util.CommentHelper;
-import jdk.javadoc.internal.doclets.toolkit.util.Utils;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.Taglet.Location;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Messages;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.CommentHelper;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An inline Taglet representing the value tag. This tag should only be used with

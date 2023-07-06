@@ -21,6 +21,29 @@
 
 package gc.g1;
 
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Collections;
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.Asserts;
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestMixedGCLiveThreshold
  * @summary Test G1MixedGCLiveThresholdPercent. Fill up a region to at least 1/3 region-size,
@@ -32,15 +55,7 @@ package gc.g1;
  * @run driver gc.g1.TestMixedGCLiveThreshold
  */
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.regex.Pattern;
-import java.util.regex.Matcher;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.Asserts;
-import sun.hotspot.WhiteBox;
 
 public class TestMixedGCLiveThreshold {
     private static final String pattern = "Remembered Set Tracking update regions total ([0-9]+), selected ([0-9]+)$";

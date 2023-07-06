@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.validation;
+package java.xml.share.classes.javax.xml.validation;
+
 
 import com.sun.org.apache.xerces.internal.jaxp.validation.XMLSchemaFactory;
 import java.io.File;
@@ -34,6 +35,20 @@ import java.util.ServiceConfigurationError;
 import java.util.ServiceLoader;
 import java.util.function.Supplier;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of {@link SchemaFactory#newInstance(String)}.

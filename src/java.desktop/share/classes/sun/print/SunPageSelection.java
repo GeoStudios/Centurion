@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.share.classes.sun.print;
+
 
 import javax.print.attribute.Attribute;
 import javax.print.attribute.PrintRequestAttribute;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * A class used to determine the range of pages to be printed.

@@ -18,18 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.jfr.internal.consumer;
 
-import java.io.IOException;
+package jdk.jfr.share.classes.jdk.jfr.internal.consumer;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.file.Path;
+import jdk.jfr.share.classes.jdk.jfr.Recording;
+import jdk.jfr.share.classes.jdk.jfr.RecordingState;
+import jdk.jfr.share.classes.jdk.jfr.internal.SecuritySupport;
+import jdk.jfr.share.classes.jdk.jfr.internal.SecuritySupport.SafePath;
+import jdk.jfr.share.classes.jdk.jfr.internal.management.EventByteStream;
+import jdk.jfr.share.classes.jdk.jfr.internal.management.ManagementSupport;
 
-import jdk.jfr.Recording;
-import jdk.jfr.RecordingState;
-import jdk.jfr.internal.SecuritySupport;
-import jdk.jfr.internal.SecuritySupport.SafePath;
-import jdk.jfr.internal.management.EventByteStream;
-import jdk.jfr.internal.management.ManagementSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class OngoingStream extends EventByteStream {
 

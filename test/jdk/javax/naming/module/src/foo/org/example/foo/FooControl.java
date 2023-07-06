@@ -19,13 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package org.example.foo;
+
+
+import javax.naming.ldap.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This is a dummy LDAP control.
  */
 
-package org.example.foo;
 
-import javax.naming.ldap.*;
 
 public class FooControl extends BasicControl {
 

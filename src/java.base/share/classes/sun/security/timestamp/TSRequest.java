@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.timestamp;
+package java.base.share.classes.sun.security.timestamp;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
 import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.cert.X509Extension;
-import sun.security.util.DerValue;
-import sun.security.util.DerOutputStream;
-import sun.security.util.ObjectIdentifier;
-import sun.security.x509.AlgorithmId;
+import java.base.share.classes.sun.security.util.DerValue;
+import java.base.share.classes.sun.security.util.DerOutputStream;
+import java.base.share.classes.sun.security.util.ObjectIdentifier;
+import java.base.share.classes.sun.security.x509.AlgorithmId;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides a timestamp request, as defined in

@@ -19,16 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
+
 
 import jdk.internal.misc.CDS;
 import jdk.internal.misc.Unsafe;
 import sun.security.action.GetPropertyAction;
+import java.base.share.classes.java.util.Properties;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.basicTypeSignature;.extended
+import static java.base.share.classes.java.lang.invoke.LambdaForm.shortenSignature;.extended
 
-import java.util.Properties;
 
-import static java.lang.invoke.LambdaForm.basicTypeSignature;
-import static java.lang.invoke.LambdaForm.shortenSignature;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class consists exclusively of static names internal to the

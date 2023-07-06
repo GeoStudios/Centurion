@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package utils;
+
+
+import common.ToolResults;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Results of running the JstatGcTool ("jstat -gc <pid>")
  *
@@ -48,9 +66,7 @@
  * GCT     Total garbage collection time.
  *
  */
-package utils;
 
-import common.ToolResults;
 
 public class JstatGcResults extends JstatResults {
 

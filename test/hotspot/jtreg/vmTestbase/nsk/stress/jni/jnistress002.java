@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.stress.jni;
+
+
+import nsk.share.Consts;
+import nsk.share.Debug;
+import nsk.share.test.StressOptions;
+import jdk.test.lib.Utils;
+import java.lang.reflect.Field;
+import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * jnistress002 is a class that sets up classes that do the work
  * for the test.
@@ -53,15 +76,8 @@
  *      -numIteration 260
  */
 
-package nsk.stress.jni;
 
-import nsk.share.Consts;
-import nsk.share.Debug;
-import nsk.share.test.StressOptions;
-import jdk.test.lib.Utils;
 
-import java.lang.reflect.Field;
-import java.util.Random;
 
 public class jnistress002 extends Thread {
 

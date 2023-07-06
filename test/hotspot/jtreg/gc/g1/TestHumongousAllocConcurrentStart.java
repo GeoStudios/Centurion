@@ -21,6 +21,23 @@
 
 package gc.g1;
 
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestHumongousAllocConcurrentStart
  * @bug 7168848
@@ -32,8 +49,6 @@ package gc.g1;
  * @run driver gc.g1.TestHumongousAllocConcurrentStart
  */
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class TestHumongousAllocConcurrentStart {
     // Heap sizes < 224 MB are increased to 224 MB if vm_page_size == 64K to

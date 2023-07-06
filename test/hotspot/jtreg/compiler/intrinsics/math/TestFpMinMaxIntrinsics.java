@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.math;
+
+
+import java.base.share.classes.java.util.Arrays;
+import java.util.Random;
+import java.lang.reflect.Method;
+import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8212043
@@ -46,12 +67,7 @@
  *                   compiler.intrinsics.math.TestFpMinMaxIntrinsics reductionTests 100
  */
 
-package compiler.intrinsics.math;
 
-import java.util.Arrays;
-import java.util.Random;
-import java.lang.reflect.Method;
-import jdk.test.lib.Utils;
 
 public class TestFpMinMaxIntrinsics {
 

@@ -21,6 +21,21 @@
 
 package pkg2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface A {
     void f(Object x);
     <T> void f(T[] x);

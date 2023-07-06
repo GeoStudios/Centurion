@@ -19,11 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package org.jcp.xml.dsig.internal.dom;
+package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
+
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -31,20 +28,41 @@ import java.io.OutputStream;
 import java.security.spec.AlgorithmParameterSpec;
 import java.security.InvalidAlgorithmParameterException;
 import java.util.Set;
-
 import javax.xml.crypto.*;
 import javax.xml.crypto.dom.DOMCryptoContext;
 import javax.xml.crypto.dsig.TransformException;
 import javax.xml.crypto.dsig.TransformService;
 import javax.xml.crypto.dsig.spec.C14NMethodParameterSpec;
-
 import com.sun.org.apache.xml.internal.security.c14n.Canonicalizer;
 import com.sun.org.apache.xml.internal.security.c14n.InvalidCanonicalizerException;
 import com.sun.org.apache.xml.internal.security.signature.XMLSignatureInput;
 import com.sun.org.apache.xml.internal.security.transforms.Transform;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
+import java.xml.crypto.share.classes.org.w3c.dom.Document;
+import java.xml.crypto.share.classes.org.w3c.dom.Element;
+import java.xml.crypto.share.classes.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
+
 
 public abstract class ApacheCanonicalizer extends TransformService {
 

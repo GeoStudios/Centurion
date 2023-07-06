@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.tree;
+package java.desktop.share.classes.javax.swing.tree;
+
 
 import java.io.*;
 import java.beans.ConstructorProperties;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code TreePath} represents an array of objects that uniquely

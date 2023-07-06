@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.image;
+package java.desktop.share.classes.java.awt.image;
 
-import java.awt.color.ColorSpace;
-import java.awt.Transparency;
+
+import java.desktop.share.classes.java.awt.color.ColorSpace;
+import java.desktop.share.classes.java.awt.Transparency;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code DirectColorModel} class is a {@code ColorModel}

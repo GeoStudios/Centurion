@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
 
-import java.lang.ref.SoftReference;
-import java.text.spi.BreakIteratorProvider;
-import java.util.Locale;
+
+import java.base.share.classes.java.lang.ref.SoftReference;
+import java.base.share.classes.java.text.spi.BreakIteratorProvider;
+import java.base.share.classes.java.util.Locale;
 import sun.util.locale.provider.LocaleProviderAdapter;
 import sun.util.locale.provider.LocaleServiceProviderPool;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

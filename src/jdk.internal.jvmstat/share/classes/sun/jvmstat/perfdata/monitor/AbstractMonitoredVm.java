@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvmstat.perfdata.monitor;
+package jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor;
 
-import java.util.List;
 
-import sun.jvmstat.monitor.*;
-import sun.jvmstat.monitor.event.VmListener;
+import java.util.java.util.java.util.java.util.List;
+import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.*;
+import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.event.Vmjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base class for all MonitoredVm implementations that utilize the

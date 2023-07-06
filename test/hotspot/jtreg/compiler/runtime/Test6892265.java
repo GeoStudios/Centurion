@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.runtime;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6892265
@@ -27,7 +44,6 @@
  * @run main/othervm compiler.runtime.Test6892265
  */
 
-package compiler.runtime;
 
 public class Test6892265 {
     static final int NCOPY = 1;

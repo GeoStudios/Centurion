@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.tree;
+package java.desktop.share.classes.javax.swing.tree;
+
 
 import java.awt.Color;
 import java.awt.Component;
@@ -28,19 +29,33 @@ import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Insets;
 import java.awt.Rectangle;
-import javax.swing.plaf.BorderUIResource.EmptyBorderUIResource;
-import javax.swing.plaf.ColorUIResource;
-import javax.swing.plaf.FontUIResource;
-import javax.swing.plaf.UIResource;
-import javax.swing.plaf.basic.BasicGraphicsUtils;
-import javax.swing.Icon;
-import javax.swing.JLabel;
-import javax.swing.JTree;
-import javax.swing.LookAndFeel;
-import javax.swing.UIManager;
-import javax.swing.border.EmptyBorder;
+import java.desktop.share.classes.javax.swing.plaf.BorderUIResource.EmptyBorderUIResource;
+import java.desktop.share.classes.javax.swing.plaf.ColorUIResource;
+import java.desktop.share.classes.javax.swing.plaf.FontUIResource;
+import java.desktop.share.classes.javax.swing.plaf.UIResource;
+import java.desktop.share.classes.javax.swing.plaf.basic.BasicGraphicsUtils;
+import java.desktop.share.classes.javax.swing.Icon;
+import java.desktop.share.classes.javax.swing.JLabel;
+import java.desktop.share.classes.javax.swing.JTree;
+import java.desktop.share.classes.javax.swing.LookAndFeel;
+import java.desktop.share.classes.javax.swing.UIManager;
+import java.desktop.share.classes.javax.swing.border.EmptyBorder;
 import sun.swing.DefaultLookup;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Displays an entry in a tree.

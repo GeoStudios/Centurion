@@ -18,15 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.view.actions;
 
-import com.sun.hotspot.igv.view.EditorTopComponent;
-import java.awt.event.InputEvent;
-import java.awt.event.KeyEvent;
+package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.actions;
+
+
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.EditorTopComponent;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.event.InputEvent;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.event.KeyEvent;
 import javax.swing.Action;
 import javax.swing.KeyStroke;
 import org.openide.util.HelpCtx;
 import org.openide.util.actions.CallableSystemAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

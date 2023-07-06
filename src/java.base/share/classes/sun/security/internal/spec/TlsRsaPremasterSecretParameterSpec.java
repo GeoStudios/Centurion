@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.internal.spec;
+package java.base.share.classes.sun.security.internal.spec;
 
-import sun.security.action.GetBooleanAction;
 
+import java.base.share.classes.sun.security.action.GetBooleanAction;
 import java.security.spec.AlgorithmParameterSpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Parameters for SSL/TLS RSA premaster secret.

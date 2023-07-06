@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.logger;
+package java.base.share.classes.jdk.internal.logger;
+
 
 import java.util.ResourceBundle;
 import java.util.function.Supplier;
 import java.lang.System.Logger;
 import java.lang.System.Logger.Level;
 import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of {@link System.Logger System.Logger}

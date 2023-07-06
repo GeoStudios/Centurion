@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.plaf.basic;
+
+package java.desktop.share.classes.javax.swing.plaf.basic;
+
 
 import java.util.*;
 import java.awt.*;
@@ -29,18 +31,31 @@ import java.awt.geom.Rectangle2D;
 import java.awt.im.InputContext;
 import java.beans.*;
 import java.io.*;
-import javax.swing.*;
-import javax.swing.plaf.*;
-import javax.swing.text.*;
-import javax.swing.event.*;
-import javax.swing.border.Border;
-import javax.swing.plaf.UIResource;
-import javax.swing.plaf.synth.SynthUI;
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.plaf.*;
+import java.desktop.share.classes.javax.swing.text.*;
+import java.desktop.share.classes.javax.swing.event.*;
+import java.desktop.share.classes.javax.swing.border.Border;
+import java.desktop.share.classes.javax.swing.plaf.UIResource;
+import java.desktop.share.classes.javax.swing.plaf.synth.SynthUI;
 import sun.swing.DefaultLookup;
 import sun.awt.AppContext;
 import sun.swing.SwingUtilities2;
+import java.desktop.share.classes.javax.swing.plaf.basic.DragRecognitionSupport.BeforeDrag;
 
-import javax.swing.plaf.basic.DragRecognitionSupport.BeforeDrag;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>

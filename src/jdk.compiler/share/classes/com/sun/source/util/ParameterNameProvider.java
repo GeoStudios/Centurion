@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.source.util;
+package jdk.compiler.share.classes.com.sun.source.util;
+
 
 import javax.lang.model.element.VariableElement;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A provider for parameter names when the parameter names are not determined from

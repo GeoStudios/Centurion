@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.protocol.jar;
+package java.base.share.classes.sun.net.www.protocol.jar;
+
 
 import java.io.InputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.FileNotFoundException;
 import java.io.BufferedInputStream;
 import java.net.URL;
@@ -31,11 +32,25 @@ import java.net.MalformedURLException;
 import java.net.UnknownServiceException;
 import java.util.Enumeration;
 import java.util.Map;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 import java.util.jar.Manifest;
 import java.security.Permission;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

@@ -19,46 +19,60 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.bcel.internal.util;
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.util;
+
 
 import java.io.PrintWriter;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Utility;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.AllocationInstruction;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ArrayInstruction;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ArrayType;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.BranchHandle;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.BranchInstruction;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.CHECKCAST;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.CPInstruction;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.CodeExceptionGen;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConstantPushInstruction;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.EmptyVisitor;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.FieldInstruction;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.IINC;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.INSTANCEOF;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Instruction;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.InstructionConst;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.InstructionHandle;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.InvokeInstruction;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.LDC;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.LDC2_W;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.LocalVariableInstruction;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.MULTIANEWARRAY;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.MethodGen;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.NEWARRAY;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ObjectType;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.RET;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ReturnInstruction;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Select;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Type;
 
-import com.sun.org.apache.bcel.internal.Const;
-import com.sun.org.apache.bcel.internal.classfile.Utility;
-import com.sun.org.apache.bcel.internal.generic.AllocationInstruction;
-import com.sun.org.apache.bcel.internal.generic.ArrayInstruction;
-import com.sun.org.apache.bcel.internal.generic.ArrayType;
-import com.sun.org.apache.bcel.internal.generic.BranchHandle;
-import com.sun.org.apache.bcel.internal.generic.BranchInstruction;
-import com.sun.org.apache.bcel.internal.generic.CHECKCAST;
-import com.sun.org.apache.bcel.internal.generic.CPInstruction;
-import com.sun.org.apache.bcel.internal.generic.CodeExceptionGen;
-import com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
-import com.sun.org.apache.bcel.internal.generic.ConstantPushInstruction;
-import com.sun.org.apache.bcel.internal.generic.EmptyVisitor;
-import com.sun.org.apache.bcel.internal.generic.FieldInstruction;
-import com.sun.org.apache.bcel.internal.generic.IINC;
-import com.sun.org.apache.bcel.internal.generic.INSTANCEOF;
-import com.sun.org.apache.bcel.internal.generic.Instruction;
-import com.sun.org.apache.bcel.internal.generic.InstructionConst;
-import com.sun.org.apache.bcel.internal.generic.InstructionHandle;
-import com.sun.org.apache.bcel.internal.generic.InvokeInstruction;
-import com.sun.org.apache.bcel.internal.generic.LDC;
-import com.sun.org.apache.bcel.internal.generic.LDC2_W;
-import com.sun.org.apache.bcel.internal.generic.LocalVariableInstruction;
-import com.sun.org.apache.bcel.internal.generic.MULTIANEWARRAY;
-import com.sun.org.apache.bcel.internal.generic.MethodGen;
-import com.sun.org.apache.bcel.internal.generic.NEWARRAY;
-import com.sun.org.apache.bcel.internal.generic.ObjectType;
-import com.sun.org.apache.bcel.internal.generic.RET;
-import com.sun.org.apache.bcel.internal.generic.ReturnInstruction;
-import com.sun.org.apache.bcel.internal.generic.Select;
-import com.sun.org.apache.bcel.internal.generic.Type;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Factory creates il.append() statements, and sets instruction targets.

@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.arraycopy;
+
+
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6912521
@@ -36,9 +54,7 @@
  *                   compiler.arraycopy.TestArrayCopyAsLoadsStores
  */
 
-package compiler.arraycopy;
 
-import java.util.Arrays;
 
 public class TestArrayCopyAsLoadsStores extends TestArrayCopyUtils {
 

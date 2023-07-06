@@ -19,13 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.share.classes.sun.java2d.pipe;
+
+
+import java.desktop.share.classes.sun.java2d.SunGraphics2D;
+import java.awt.font.GlyphVector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  */
 
-package sun.java2d.pipe;
 
-import sun.java2d.SunGraphics2D;
-import java.awt.font.GlyphVector;
+
 
 /**
  * This interface defines the set of calls that pipeline objects

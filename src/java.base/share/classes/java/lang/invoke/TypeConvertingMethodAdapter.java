@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
+
 
 import jdk.internal.org.objectweb.asm.MethodVisitor;
 import jdk.internal.org.objectweb.asm.Opcodes;
 import jdk.internal.org.objectweb.asm.Type;
 import sun.invoke.util.BytecodeDescriptor;
 import sun.invoke.util.Wrapper;
-import static sun.invoke.util.Wrapper.*;
+import static sun.invoke.util.Wrapper.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class TypeConvertingMethodAdapter extends MethodVisitor {
 

@@ -18,12 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.net.http.hpack;
+
+package java.net.http.share.classes.jdk.internal.net.http.hpack;
+
 
 import java.nio.ByteBuffer;
 import java.util.Iterator;
+import static java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
 
-import static java.util.Objects.requireNonNull;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class BulkSizeUpdateWriter implements BinaryRepresentationWriter {
 

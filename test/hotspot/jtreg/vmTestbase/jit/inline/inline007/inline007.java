@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.inline.inline007;
+
+
+import java.io.ByteArrayOutputStream;
+import java.io.java.io.java.io.java.io.IOException;
+import nsk.share.TestFailure;
+import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -34,14 +55,9 @@
  * @run main/othervm jit.inline.inline007.inline007
  */
 
-package jit.inline.inline007;
 
 
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
 
-import nsk.share.TestFailure;
-import nsk.share.GoldChecker;
 
 class inline007_1 {
         final protected static int[] inlineObj = { 1, 2 };

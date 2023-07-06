@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.relation;
+package java.management.share.classes.javax.management.relation;
 
-import javax.management.JMException;
+
+import java.management.share.classes.javax.management.JMException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is the superclass of any exception which can be raised during

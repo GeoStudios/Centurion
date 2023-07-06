@@ -19,30 +19,48 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLErrorResources;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLMessages;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.ThreadControllerWrapper;
+import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
+import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.DTDHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.ErrorHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
+import java.xml.share.classes.com.sun.org.xml.sax.Locator;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXNotRecognizedException;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXNotSupportedException;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXParseException;
+import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
+import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.dtm.ref;
 
-import java.io.IOException;
 
-import com.sun.org.apache.xml.internal.res.XMLErrorResources;
-import com.sun.org.apache.xml.internal.res.XMLMessages;
-import com.sun.org.apache.xml.internal.utils.ThreadControllerWrapper;
 
-import org.xml.sax.Attributes;
-import org.xml.sax.ContentHandler;
-import org.xml.sax.DTDHandler;
-import org.xml.sax.ErrorHandler;
-import org.xml.sax.InputSource;
-import org.xml.sax.Locator;
-import org.xml.sax.SAXException;
-import org.xml.sax.SAXNotRecognizedException;
-import org.xml.sax.SAXNotSupportedException;
-import org.xml.sax.SAXParseException;
-import org.xml.sax.XMLReader;
-import org.xml.sax.ext.LexicalHandler;
+
 
 /** <p>IncrementalSAXSource_Filter implements IncrementalSAXSource, using a
  * standard SAX2 event source as its input and parcelling out those

@@ -18,13 +18,14 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d.demos.Images;
+
+package demo.share.jfc.J2Ddemo.java2d.demos.Images;
 
 
-import static java.awt.Color.BLACK;
-import static java.awt.Color.GREEN;
-import static java.awt.Color.RED;
-import static java.awt.Color.WHITE;
+import static java.awt.Color.BLACK;.extended
+import static java.awt.Color.GREEN;.extended
+import static java.awt.Color.RED;.extended
+import static java.awt.Color.WHITE;.extended
 import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.Image;
@@ -33,16 +34,29 @@ import java.awt.geom.Path2D;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import java2d.Surface;
+import demo.share.jfc.J2Ddemo.java2d.Surface;
 import javax.imageio.IIOImage;
 import javax.imageio.ImageIO;
 import javax.imageio.ImageWriteParam;
 import javax.imageio.ImageWriter;
 import javax.imageio.plugins.jpeg.JPEGImageWriteParam;
 import javax.imageio.stream.ImageOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

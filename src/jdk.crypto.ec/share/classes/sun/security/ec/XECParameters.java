@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ec;
+package jdk.crypto.ec.share.classes.sun.security.ec;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
 import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.NamedParameterSpec;
 import java.util.Map;
 import java.util.HashMap;
 import java.util.function.Function;
+import jdk.crypto.ec.share.classes.sun.security.util.KnownOIDs;
+import jdk.crypto.ec.share.classes.sun.security.util.ObjectIdentifier;
+import jdk.crypto.ec.share.classes.sun.security.x509.AlgorithmId;
 
-import sun.security.util.KnownOIDs;
-import sun.security.util.ObjectIdentifier;
-import sun.security.x509.AlgorithmId;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class XECParameters {
 

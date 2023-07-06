@@ -18,11 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package metaspace.stressHierarchy.common;
+
 
 import nsk.share.test.ExecutionController;
 import nsk.share.test.Tests;
 import metaspace.stressHierarchy.common.classloader.tree.Tree;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test checks that ancestors will not be reclaimed while references on descenders are alive.

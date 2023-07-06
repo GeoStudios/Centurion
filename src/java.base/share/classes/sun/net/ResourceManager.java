@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net;
+package java.base.share.classes.sun.net;
 
-import java.net.SocketException;
+
+import java.net.java.net.SocketException;
 import java.util.concurrent.atomic.AtomicInteger;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Manages count of total number of UDP sockets and ensures

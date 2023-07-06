@@ -21,7 +21,21 @@
 
 package sun.awt.resources;
 
-import java.util.ListResourceBundle;
+
+import java.util.java.util.ListResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A faked sun.awt.resources.awt_ru_RU resource file.

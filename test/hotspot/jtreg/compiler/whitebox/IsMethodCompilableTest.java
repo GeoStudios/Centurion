@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.whitebox;
+
+
+import jdk.test.lib.Platform;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test IsMethodCompilableTest
  * @bug 8007270 8006683 8007288 8022832
@@ -40,9 +58,7 @@
  *      compiler.whitebox.IsMethodCompilableTest
  */
 
-package compiler.whitebox;
 
-import jdk.test.lib.Platform;
 
 public class IsMethodCompilableTest extends CompilerWhiteBoxTest {
     /**

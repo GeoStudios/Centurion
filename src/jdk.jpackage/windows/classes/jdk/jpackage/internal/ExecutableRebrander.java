@@ -18,31 +18,46 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.jpackage.internal;
+
+package jdk.jpackage.windows.classes.jdk.jpackage.internal;
+
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
 import java.text.MessageFormat;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Properties;
 import java.util.ResourceBundle;
 import java.util.function.Supplier;
-import static jdk.jpackage.internal.OverridableResource.createResource;
-import static jdk.jpackage.internal.StandardBundlerParam.APP_NAME;
-import static jdk.jpackage.internal.StandardBundlerParam.COPYRIGHT;
-import static jdk.jpackage.internal.StandardBundlerParam.DESCRIPTION;
-import static jdk.jpackage.internal.StandardBundlerParam.TEMP_ROOT;
-import static jdk.jpackage.internal.StandardBundlerParam.VENDOR;
-import static jdk.jpackage.internal.StandardBundlerParam.VERSION;
-import static jdk.jpackage.internal.WindowsAppImageBuilder.ICON_ICO;
+import static jdk.jpackage.windows.classes.jdk.jpackage.internal.OverridableResource.createResource;.extended
+import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundlerParam.APP_NAME;.extended
+import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundlerParam.COPYRIGHT;.extended
+import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundlerParam.DESCRIPTION;.extended
+import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundlerParam.TEMP_ROOT;.extended
+import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundlerParam.VENDOR;.extended
+import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundlerParam.VERSION;.extended
+import static jdk.jpackage.windows.classes.jdk.jpackage.internal.WindowsAppImageBuilder.ICON_ICO;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 final class ExecutableRebrander {

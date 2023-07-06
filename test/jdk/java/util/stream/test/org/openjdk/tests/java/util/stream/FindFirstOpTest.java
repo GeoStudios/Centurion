@@ -19,21 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package org.openjdk.tests.java.util.stream;
+
+
+import java.util.*;
+import java.util.stream.*;
+import org.testng.annotations.Test;
+import java.util.function.Function;
+import static java.util.stream.LambdaTestHelpers.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8148115
  */
 
-package org.openjdk.tests.java.util.stream;
 
-import java.util.*;
-import java.util.stream.*;
 
-import org.testng.annotations.Test;
 
-import java.util.function.Function;
 
-import static java.util.stream.LambdaTestHelpers.*;
 
 
 /**

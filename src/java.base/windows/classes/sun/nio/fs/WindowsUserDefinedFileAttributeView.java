@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.fs;
+package java.base.windows.classes.sun.nio.fs;
+
 
 import java.nio.file.*;
-import static java.nio.file.StandardOpenOption.*;
+import static java.nio.file.StandardOpenOption.*;.extended
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.*;
 import jdk.internal.misc.Unsafe;
+import static java.base.windows.classes.sun.nio.fs.WindowsNativeDispatcher.*;.extended
+import static java.base.windows.classes.sun.nio.fs.WindowsConstants.*;.extended
 
-import static sun.nio.fs.WindowsNativeDispatcher.*;
-import static sun.nio.fs.WindowsConstants.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Windows emulation of NamedAttributeView using Alternative Data Streams

@@ -18,12 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.management.internal;
 
-import com.sun.management.ThreadMXBean;
-import sun.management.ManagementFactoryHelper;
-import sun.management.ThreadImpl;
-import sun.management.VMManagement;
+package jdk.management.share.classes.com.sun.management.internal;
+
+
+import jdk.management.share.classes.com.sun.management.ThreadMXBean;
+import jdk.management.share.classes.com.sun.management.ManagementFactoryHelper;
+import jdk.management.share.classes.com.sun.management.ThreadImpl;
+import jdk.management.share.classes.com.sun.management.VMManagement;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

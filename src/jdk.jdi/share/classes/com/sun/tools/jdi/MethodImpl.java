@@ -19,22 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-import java.util.ArrayList;
-import java.util.List;
 
-import com.sun.jdi.AbsentInformationException;
-import com.sun.jdi.ArrayReference;
-import com.sun.jdi.ArrayType;
-import com.sun.jdi.ClassNotLoadedException;
-import com.sun.jdi.InterfaceType;
-import com.sun.jdi.InvalidTypeException;
-import com.sun.jdi.Location;
-import com.sun.jdi.Method;
-import com.sun.jdi.Type;
-import com.sun.jdi.Value;
-import com.sun.jdi.VirtualMachine;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import jdk.jdi.share.classes.com.sun.jdi.AbsentInformationException;
+import jdk.jdi.share.classes.com.sun.jdi.ArrayReference;
+import jdk.jdi.share.classes.com.sun.jdi.ArrayType;
+import jdk.jdi.share.classes.com.sun.jdi.ClassNotLoadedException;
+import jdk.jdi.share.classes.com.sun.jdi.InterfaceType;
+import jdk.jdi.share.classes.com.sun.jdi.InvalidTypeException;
+import jdk.jdi.share.classes.com.sun.jdi.Location;
+import jdk.jdi.share.classes.com.sun.jdi.Method;
+import jdk.jdi.share.classes.com.sun.jdi.Type;
+import jdk.jdi.share.classes.com.sun.jdi.Value;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class MethodImpl extends TypeComponentImpl
                                  implements Method

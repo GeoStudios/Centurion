@@ -21,11 +21,55 @@
 
 package build.tools.charsetmapping;
 
-import java.io.*;
-import java.util.ArrayList;
-import java.util.Scanner;
-import java.util.LinkedHashMap;
-import java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Main {
 

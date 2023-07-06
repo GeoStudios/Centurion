@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.security.spec;
 
-import java.math.BigInteger;
+package java.base.share.classes.java.security.spec;
+
+
+import java.base.share.classes.java.math.BigInteger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This immutable class represents a point on an elliptic curve (EC)

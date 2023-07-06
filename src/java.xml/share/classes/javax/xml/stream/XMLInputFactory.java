@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.stream;
+package java.xml.share.classes.javax.xml.stream;
+
 
 import com.sun.xml.internal.stream.XMLInputFactoryImpl;
-import javax.xml.stream.util.XMLEventAllocator;
-import javax.xml.transform.Source;
+import java.xml.share.classes.javax.xml.stream.util.XMLEventAllocator;
+import java.xml.share.classes.javax.xml.transform.Source;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines an abstract implementation of a factory for getting streams.

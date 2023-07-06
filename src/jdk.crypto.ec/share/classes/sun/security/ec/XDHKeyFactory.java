@@ -19,27 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ec;
+package jdk.crypto.ec.share.classes.sun.security.ec;
+
 
 import java.security.KeyFactorySpi;
-import java.security.Key;
-import java.security.PublicKey;
-import java.security.PrivateKey;
-import java.security.InvalidKeyException;
-import java.security.ProviderException;
+import java.base.share.classes.java.security.Key;
+import java.base.share.classes.java.security.PublicKey;
+import java.base.share.classes.java.security.PrivateKey;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.ProviderException;
 import java.security.interfaces.XECKey;
 import java.security.interfaces.XECPrivateKey;
 import java.security.interfaces.XECPublicKey;
 import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.NamedParameterSpec;
-import java.security.spec.KeySpec;
-import java.security.spec.InvalidKeySpecException;
-import java.security.spec.PKCS8EncodedKeySpec;
-import java.security.spec.X509EncodedKeySpec;
+import java.base.share.classes.java.security.spec.KeySpec;
+import java.base.share.classes.java.security.spec.InvalidKeySpecException;
+import java.base.share.classes.java.security.spec.PKCS8EncodedKeySpec;
+import java.base.share.classes.java.security.spec.X509EncodedKeySpec;
 import java.security.spec.XECPublicKeySpec;
 import java.security.spec.XECPrivateKeySpec;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.function.Function;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class XDHKeyFactory extends KeyFactorySpi {
 

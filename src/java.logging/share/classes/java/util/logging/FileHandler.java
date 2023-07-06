@@ -19,30 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.logging;
+package java.logging.share.classes.java.util.logging;
 
-import static java.nio.file.StandardOpenOption.APPEND;
-import static java.nio.file.StandardOpenOption.CREATE_NEW;
-import static java.nio.file.StandardOpenOption.WRITE;
 
-import java.io.BufferedOutputStream;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.OutputStream;
-import java.nio.channels.FileChannel;
-import java.nio.channels.OverlappingFileLockException;
-import java.nio.file.AccessDeniedException;
-import java.nio.file.FileAlreadyExistsException;
-import java.nio.file.Files;
-import java.nio.file.LinkOption;
-import java.nio.file.NoSuchFileException;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.HashSet;
-import java.util.Set;
+import static java.logging.share.classes.java.nio.file.StandardOpenOption.APPEND;.extended
+import static java.logging.share.classes.java.nio.file.StandardOpenOption.CREATE_NEW;.extended
+import static java.logging.share.classes.java.nio.file.StandardOpenOption.WRITE;.extended
+import java.logging.share.classes.java.io.BufferedOutputStream;
+import java.logging.share.classes.java.io.File;
+import java.logging.share.classes.java.io.FileOutputStream;
+import java.logging.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.logging.share.classes.java.io.OutputStream;
+import java.logging.share.classes.java.nio.channels.FileChannel;
+import java.logging.share.classes.java.nio.channels.OverlappingFileLockException;
+import java.logging.share.classes.java.nio.file.AccessDeniedException;
+import java.logging.share.classes.java.nio.file.FileAlreadyExistsException;
+import java.logging.share.classes.java.nio.file.Files;
+import java.logging.share.classes.java.nio.file.LinkOption;
+import java.logging.share.classes.java.nio.file.NoSuchFileException;
+import java.logging.share.classes.java.nio.file.Path;
+import java.logging.share.classes.java.nio.file.Paths;
+import java.logging.share.classes.java.security.AccessController;
+import java.logging.share.classes.java.security.PrivilegedAction;
+import java.logging.share.classes.java.util.HashSet;
+import java.logging.share.classes.java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Simple file logging {@code Handler}.

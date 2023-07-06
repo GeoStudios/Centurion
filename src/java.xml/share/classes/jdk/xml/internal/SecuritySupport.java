@@ -18,12 +18,14 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.xml.internal;
+
+package java.xml.share.classes.jdk.xml.internal;
+
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.security.AccessController;
@@ -32,10 +34,24 @@ import java.security.PrivilegedAction;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
 import java.text.MessageFormat;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.Properties;
 import java.util.ResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains utility methods for reading resources in the JAXP packages

@@ -21,8 +21,22 @@
 
 package jdk.deprcases.members;
 
+
 import java.lang.annotation.*;
-import static java.lang.annotation.ElementType.*;
+import static java.lang.annotation.ElementType.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @Retention(value=RetentionPolicy.RUNTIME)
 @Target({TYPE, METHOD, FIELD})

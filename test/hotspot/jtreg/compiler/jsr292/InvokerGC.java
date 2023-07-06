@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jsr292;
+
+
+import sun.hotspot.WhiteBox;
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8067247
@@ -31,13 +52,8 @@
  *      compiler.jsr292.InvokerGC
  */
 
-package compiler.jsr292;
 
-import sun.hotspot.WhiteBox;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodType;
 
 public class InvokerGC {
     static final WhiteBox WB = WhiteBox.getWhiteBox();

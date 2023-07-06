@@ -21,24 +21,35 @@
 
 package jdk.jfr.api.modules;
 
+
 import java.nio.file.Paths;
-
-import static jdk.test.lib.Asserts.assertTrue;
-
-import java.io.IOException;
+import static jdk.test.lib.Asserts.assertTrue;.extended
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.stream.Collectors;
 import javax.tools.JavaCompiler;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.StandardLocation;
 import javax.tools.ToolProvider;
-
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TestModularizedEvent {
 

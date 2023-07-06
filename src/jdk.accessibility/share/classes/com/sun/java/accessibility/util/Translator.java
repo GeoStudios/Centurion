@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.accessibility.share.classes.com.sun.java.accessibility.util;
 
-package com.sun.java.accessibility.util;
 
-import com.sun.java.accessibility.util.internal.*;
-import java.beans.*;
-import java.util.*;
-import java.awt.*;
-import java.awt.event.*;
+import jdk.accessibility.share.classes.com.sun.java.accessibility.util.internal.*;
+import jdk.accessibility.share.classes.com.sun.java.beans.*;
+import jdk.accessibility.share.classes.com.sun.java.util.*;
+import jdk.accessibility.share.classes.com.sun.java.awt.*;
+import jdk.accessibility.share.classes.com.sun.java.awt.event.*;
+import javax.accessibility.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Do not import Swing classes.  This module is intended to work
 // with both Swing and AWT.
 // import javax.swing.*;
-import javax.accessibility.*;
 
 /**
  * <p>The {@code Translator} class provides a translation to interface

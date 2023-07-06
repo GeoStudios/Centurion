@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.util;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
+
 
 import java.util.Random;
 import java.util.stream.IntStream;
 
- /**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
  * Fills an array with a random sequence of prime numbers.
   */
 final class PrimeNumberSequenceGenerator {

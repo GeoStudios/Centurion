@@ -22,6 +22,20 @@
 package jdk.test.lib.jittester.loops;
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Just a structure to hold the values needed to handle basic loop production
 public class Loop {
     public CounterInitializer initialization;

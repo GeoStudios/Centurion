@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.types;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class WrongTypeException extends RuntimeException {
   public WrongTypeException() {

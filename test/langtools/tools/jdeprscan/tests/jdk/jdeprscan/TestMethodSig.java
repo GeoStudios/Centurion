@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.jdeprscan;
+
+
+import org.testng.annotations.Test;
+import static org.testng.Assert.assertEquals;.extended
+import static com.sun.tools.jdeprscan.scan.MethodSig.fromDesc;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @summary Simple tests for method signature parsing
@@ -27,11 +47,7 @@
  * @run testng jdk.jdeprscan.TestMethodSig
  */
 
-package jdk.jdeprscan;
 
-import org.testng.annotations.Test;
-import static org.testng.Assert.assertEquals;
-import static com.sun.tools.jdeprscan.scan.MethodSig.fromDesc;
 
 public class TestMethodSig {
     @Test

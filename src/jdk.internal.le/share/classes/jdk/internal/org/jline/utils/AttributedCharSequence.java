@@ -18,32 +18,46 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.utils;
 
-import java.util.ArrayList;
-import java.util.List;
+package jdk.internal.le.share.classes.jdk.internal.org.jline.utils;
 
-import jdk.internal.org.jline.terminal.Terminal;
-import jdk.internal.org.jline.terminal.impl.AbstractWindowsTerminal;
-import jdk.internal.org.jline.utils.InfoCmp.Capability;
 
-import static jdk.internal.org.jline.utils.AttributedStyle.BG_COLOR;
-import static jdk.internal.org.jline.utils.AttributedStyle.BG_COLOR_EXP;
-import static jdk.internal.org.jline.utils.AttributedStyle.FG_COLOR;
-import static jdk.internal.org.jline.utils.AttributedStyle.FG_COLOR_EXP;
-import static jdk.internal.org.jline.utils.AttributedStyle.F_BACKGROUND;
-import static jdk.internal.org.jline.utils.AttributedStyle.F_BLINK;
-import static jdk.internal.org.jline.utils.AttributedStyle.F_BOLD;
-import static jdk.internal.org.jline.utils.AttributedStyle.F_CONCEAL;
-import static jdk.internal.org.jline.utils.AttributedStyle.F_CROSSED_OUT;
-import static jdk.internal.org.jline.utils.AttributedStyle.F_FAINT;
-import static jdk.internal.org.jline.utils.AttributedStyle.F_FOREGROUND;
-import static jdk.internal.org.jline.utils.AttributedStyle.F_INVERSE;
-import static jdk.internal.org.jline.utils.AttributedStyle.F_ITALIC;
-import static jdk.internal.org.jline.utils.AttributedStyle.F_UNDERLINE;
-import static jdk.internal.org.jline.utils.AttributedStyle.F_HIDDEN;
-import static jdk.internal.org.jline.utils.AttributedStyle.MASK;
-import static jdk.internal.org.jline.terminal.TerminalBuilder.PROP_DISABLE_ALTERNATE_CHARSET;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Terminal;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl.AbstractWindowsTerminal;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.InfoCmp.Capability;
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedStyle.BG_COLOR;.extended
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedStyle.BG_COLOR_EXP;.extended
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedStyle.FG_COLOR;.extended
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedStyle.FG_COLOR_EXP;.extended
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedStyle.F_BACKGROUND;.extended
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedStyle.F_BLINK;.extended
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedStyle.F_BOLD;.extended
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedStyle.F_CONCEAL;.extended
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedStyle.F_CROSSED_OUT;.extended
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedStyle.F_FAINT;.extended
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedStyle.F_FOREGROUND;.extended
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedStyle.F_INVERSE;.extended
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedStyle.F_ITALIC;.extended
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedStyle.F_UNDERLINE;.extended
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedStyle.F_HIDDEN;.extended
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedStyle.MASK;.extended
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.TerminalBuilder.PROP_DISABLE_ALTERNATE_CHARSET;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class AttributedCharSequence implements CharSequence {
 

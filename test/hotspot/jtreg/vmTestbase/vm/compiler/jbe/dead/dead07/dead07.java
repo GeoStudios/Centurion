@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.compiler.jbe.dead.dead07;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,7 +47,6 @@
  * @run main/othervm vm.compiler.jbe.dead.dead07.dead07
  */
 
-package vm.compiler.jbe.dead.dead07;
 
 /* -- Test the elimination of dead assignment to static variable within an IF statement
       Example:

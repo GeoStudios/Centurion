@@ -21,12 +21,25 @@
 
 package jdk.jfr.event.gc.objectcount;
 
-import java.util.List;
-import java.util.HashMap;
 
+import java.util.java.util.java.util.java.util.List;
+import java.util.HashMap;
 import jdk.jfr.consumer.RecordedEvent;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.jfr.Events;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class Foo {
 }

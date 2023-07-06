@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6851282
@@ -28,10 +47,7 @@
  *    compiler.c2.Test6851282
  */
 
-package compiler.c2;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class Test6851282 {
   void foo(A a, A[] as) {

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8260284
@@ -27,7 +44,6 @@
  * @run main/othervm -Xcomp -XX:-TieredCompilation -XX:CompileOnly=compiler/loopopts/TestDivWithTopDivisor compiler.loopopts.TestDivWithTopDivisor
  */
 
-package compiler.loopopts;
 
 public class TestDivWithTopDivisor {
     static boolean bFld;

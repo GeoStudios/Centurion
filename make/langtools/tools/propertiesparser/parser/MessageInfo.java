@@ -21,13 +21,26 @@
 
 package propertiesparser.parser;
 
+
 import propertiesparser.parser.MessageType.CompoundType;
 import propertiesparser.parser.MessageType.OrType;
 import propertiesparser.parser.MessageType.SimpleType;
 import propertiesparser.parser.MessageType.UnionType;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 
-import java.util.ArrayList;
-import java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An object to represent the comment that may precede the property

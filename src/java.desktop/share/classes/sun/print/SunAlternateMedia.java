@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.share.classes.sun.print;
+
 
 import java.io.Serial;
-
 import javax.print.attribute.Attribute;
 import javax.print.attribute.PrintRequestAttribute;
 import javax.print.attribute.standard.Media;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * An implementation class used by services which can distinguish media

@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
+
 
 import java.util.HashSet;
 import java.util.Set;
-import sun.security.ssl.CipherSuite.HashAlg;
-import sun.security.ssl.CipherSuite.KeyExchange;
-import sun.security.ssl.CipherSuite.MacAlg;
-import sun.security.util.AlgorithmDecomposer;
+import java.base.share.classes.sun.security.ssl.CipherSuite.HashAlg;
+import java.base.share.classes.sun.security.ssl.CipherSuite.KeyExchange;
+import java.base.share.classes.sun.security.ssl.CipherSuite.MacAlg;
+import java.base.share.classes.sun.security.util.AlgorithmDecomposer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The class decomposes standard SSL/TLS cipher suites into sub-elements.

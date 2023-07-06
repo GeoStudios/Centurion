@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf;
+package java.desktop.share.classes.javax.swing.plaf;
 
-import javax.swing.*;
-import javax.swing.filechooser.FileFilter;
-import javax.swing.filechooser.FileView;
+
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.filechooser.FileFilter;
+import java.desktop.share.classes.javax.swing.filechooser.FileView;
 import java.io.File;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Pluggable look and feel interface for <code>JFileChooser</code>.

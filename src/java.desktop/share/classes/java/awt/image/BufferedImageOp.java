@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.image;
+package java.desktop.share.classes.java.awt.image;
 
-import java.awt.geom.Rectangle2D;
-import java.awt.geom.Point2D;
-import java.awt.RenderingHints;
+
+import java.desktop.share.classes.java.awt.geom.Rectangle2D;
+import java.desktop.share.classes.java.awt.geom.Point2D;
+import java.desktop.share.classes.java.awt.RenderingHints;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface describes single-input/single-output

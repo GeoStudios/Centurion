@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
 
 import java.awt.*;
 import java.awt.dnd.*;
+import java.desktop.macosx.classes.sun.lwawt.*;
 
-import sun.lwawt.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CPrinterDialogPeer extends LWWindowPeer {
     static {

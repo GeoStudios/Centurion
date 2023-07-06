@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.management.counter.perf;
+package java.management.share.classes.sun.management.counter.perf;
+
 
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A typesafe enumeration for the data types supported for

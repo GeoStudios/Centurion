@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal;
+package jdk.javadoc.share.classes.jdk.javadoc.internal;
+
 
 import java.util.ResourceBundle;
 import java.util.stream.Collectors;
+import static java.util.ResourceBundle.getBundle;.extended
 
-import static java.util.ResourceBundle.getBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class Versions {
 
@@ -53,7 +67,7 @@ public final class Versions {
          * non-localized and represented by a class compiled from a source like this:
          *
          * $ cat build/.../support/gensrc/jdk.javadoc/jdk/javadoc/internal/tool/resources/version.java
-         * package jdk.javadoc.internal.tool.resources;
+         * 
          *
          * public final class version extends java.util.ListResourceBundle {
          *     protected final Object[][] getContents() {

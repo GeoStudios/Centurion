@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.net.ssl;
+package java.base.share.classes.javax.net.ssl;
+
 
 import java.net.IDN;
 import java.nio.ByteBuffer;
@@ -27,9 +28,23 @@ import java.nio.charset.CodingErrorAction;
 import java.nio.charset.StandardCharsets;
 import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CharacterCodingException;
-import java.util.Locale;
-import java.util.Objects;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.Objects;
 import java.util.regex.Pattern;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Instances of this class represent a server name of type

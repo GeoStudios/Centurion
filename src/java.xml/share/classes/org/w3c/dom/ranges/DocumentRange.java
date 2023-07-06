@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.w3c.dom.ranges;
+package java.xml.share.classes.org.w3c.dom.ranges;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>See also the <a href='http://www.w3.org/TR/2000/REC-DOM-Level-2-Traversal-Range-20001113'>Document Object Model (DOM) Level 2 Traversal and Range Specification</a>.

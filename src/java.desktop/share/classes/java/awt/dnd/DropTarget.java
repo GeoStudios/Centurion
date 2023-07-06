@@ -19,35 +19,48 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.dnd;
+package java.desktop.share.classes.java.awt.dnd;
 
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.GraphicsEnvironment;
-import java.awt.HeadlessException;
-import java.awt.Insets;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.Toolkit;
-import java.awt.datatransfer.FlavorMap;
-import java.awt.datatransfer.SystemFlavorMap;
-import java.awt.dnd.peer.DropTargetPeer;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.peer.ComponentPeer;
-import java.awt.peer.LightweightPeer;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serial;
-import java.io.Serializable;
-import java.util.Objects;
-import java.util.TooManyListenersException;
 
+import java.desktop.share.classes.java.awt.Component;
+import java.desktop.share.classes.java.awt.Dimension;
+import java.desktop.share.classes.java.awt.GraphicsEnvironment;
+import java.desktop.share.classes.java.awt.HeadlessException;
+import java.desktop.share.classes.java.awt.Insets;
+import java.desktop.share.classes.java.awt.Point;
+import java.desktop.share.classes.java.awt.Rectangle;
+import java.desktop.share.classes.java.awt.Toolkit;
+import java.desktop.share.classes.java.awt.datatransfer.FlavorMap;
+import java.desktop.share.classes.java.awt.datatransfer.SystemFlavorMap;
+import java.desktop.share.classes.java.awt.dnd.peer.DropTargetPeer;
+import java.desktop.share.classes.java.awt.event.ActionEvent;
+import java.desktop.share.classes.java.awt.event.Actionjava.util.Listener;
+import java.desktop.share.classes.java.awt.peer.ComponentPeer;
+import java.desktop.share.classes.java.awt.peer.LightweightPeer;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.ObjectOutputStream;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.io.Serializable;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.desktop.share.classes.java.util.TooManyjava.util.ListenersException;
 import javax.swing.Timer;
-
 import sun.awt.AWTAccessor;
 import sun.awt.AWTAccessor.ComponentAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code DropTarget} is associated

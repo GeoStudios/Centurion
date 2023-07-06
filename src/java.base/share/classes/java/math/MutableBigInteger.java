@@ -19,7 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.math;
+package java.base.share.classes.java.math;
+
+
+import static java.base.share.classes.java.math.BigDecimal.INFLATED;.extended
+import static java.base.share.classes.java.math.BigInteger.LONG_MASK;.extended
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class used to represent multiprecision integers that makes efficient
@@ -35,9 +54,6 @@ package java.math;
  * @see     BigInteger
  */
 
-import static java.math.BigDecimal.INFLATED;
-import static java.math.BigInteger.LONG_MASK;
-import java.util.Arrays;
 
 class MutableBigInteger {
     /**

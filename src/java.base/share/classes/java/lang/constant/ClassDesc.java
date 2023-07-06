@@ -18,19 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang.constant;
 
-import java.lang.invoke.TypeDescriptor;
-import java.util.stream.Stream;
+package java.base.share.classes.java.lang.constant;
 
+
+import java.base.share.classes.java.lang.invoke.TypeDescriptor;
+import java.base.share.classes.java.util.stream.Stream;
 import sun.invoke.util.Wrapper;
+import static java.base.share.classes.java.lang.constant.ConstantUtils.binaryToInternal;.extended
+import static java.base.share.classes.java.lang.constant.ConstantUtils.dropLastChar;.extended
+import static java.base.share.classes.java.lang.constant.ConstantUtils.internalToBinary;.extended
+import static java.base.share.classes.java.lang.constant.ConstantUtils.validateMemberName;.extended
+import static java.base.share.classes.java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
+import static java.base.share.classes.java.util.stream.Collectors.joining;.extended
 
-import static java.lang.constant.ConstantUtils.binaryToInternal;
-import static java.lang.constant.ConstantUtils.dropLastChar;
-import static java.lang.constant.ConstantUtils.internalToBinary;
-import static java.lang.constant.ConstantUtils.validateMemberName;
-import static java.util.Objects.requireNonNull;
-import static java.util.stream.Collectors.joining;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A <a href="package-summary.html#nominal">nominal descriptor</a> for a
@@ -78,7 +92,7 @@ public sealed interface ClassDesc
      * given a package name and the unqualified (simple) name for the
      * class or interface.
      *
-     * @param packageName the package name (dot-separated); if the package
+     * @param packageName the  if the package
      *                    name is the empty string, the class is considered to
      *                    be in the unnamed package
      * @param className the unqualified (simple) class name

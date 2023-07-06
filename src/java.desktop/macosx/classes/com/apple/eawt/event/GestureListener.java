@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.eawt.event;
+package java.desktop.macosx.classes.com.apple.eawt.event;
 
-import java.util.EventListener;
+
+import java.util.Eventjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Marker interface for all gesture sub-types.

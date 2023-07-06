@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.security.auth.kerberos;
+package java.security.jgss.share.classes.javax.security.auth.kerberos;
 
-import java.util.Arrays;
-import javax.crypto.SecretKey;
-import javax.security.auth.DestroyFailedException;
+
+import java.base.share.classes.java.util.Arrays;
+import java.security.jgss.share.classes.javax.crypto.SecretKey;
+import java.security.jgss.share.classes.javax.security.auth.DestroyFailedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class encapsulates a long term secret key for a Kerberos
@@ -266,7 +281,7 @@ public class KerberosKey implements SecretKey {
         }
         return "Kerberos Principal " + principal +
                 "Key Version " + versionNum +
-                "key "  + key.toString();
+                "key "  + key;
     }
 
     /**

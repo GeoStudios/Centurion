@@ -19,7 +19,22 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.module;
+package java.base.share.classes.jdk.internal.module;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Constants in module-info.class files

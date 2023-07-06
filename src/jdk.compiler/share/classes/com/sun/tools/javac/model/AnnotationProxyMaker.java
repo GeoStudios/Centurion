@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.model;
+package jdk.compiler.share.classes.com.sun.tools.javac.model;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.lang.annotation.*;
 import java.lang.reflect.Array;
@@ -29,19 +30,30 @@ import java.lang.reflect.Method;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
-import sun.reflect.annotation.*;
-
+import jdk.compiler.share.classes.com.sun.reflect.annotation.*;
 import javax.lang.model.type.MirroredTypeException;
 import javax.lang.model.type.MirroredTypesException;
 import javax.lang.model.type.TypeMirror;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.ArrayType;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
 
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.code.Type.ArrayType;
-import com.sun.tools.javac.util.*;
 
-import static com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;
-import static com.sun.tools.javac.code.Kinds.Kind.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A generator of dynamic proxy implementations of

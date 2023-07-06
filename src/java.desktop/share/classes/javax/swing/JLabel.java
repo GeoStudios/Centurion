@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.Component;
 import java.awt.Image;
@@ -31,28 +32,41 @@ import java.awt.geom.Rectangle2D;
 import java.beans.BeanProperty;
 import java.beans.JavaBean;
 import java.beans.Transient;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.io.Serial;
 import java.text.BreakIterator;
+import java.desktop.share.classes.javax.accessibility.Accessible;
+import java.desktop.share.classes.javax.accessibility.AccessibleContext;
+import java.desktop.share.classes.javax.accessibility.AccessibleExtendedComponent;
+import java.desktop.share.classes.javax.accessibility.AccessibleIcon;
+import java.desktop.share.classes.javax.accessibility.AccessibleKeyBinding;
+import java.desktop.share.classes.javax.accessibility.AccessibleRelation;
+import java.desktop.share.classes.javax.accessibility.AccessibleRelationSet;
+import java.desktop.share.classes.javax.accessibility.AccessibleRole;
+import java.desktop.share.classes.javax.accessibility.AccessibleText;
+import java.desktop.share.classes.javax.swing.plaf.LabelUI;
+import java.desktop.share.classes.javax.swing.text.AttributeSet;
+import java.desktop.share.classes.javax.swing.text.BadLocationException;
+import java.desktop.share.classes.javax.swing.text.Document;
+import java.desktop.share.classes.javax.swing.text.Element;
+import java.desktop.share.classes.javax.swing.text.Position;
+import java.desktop.share.classes.javax.swing.text.StyledDocument;
+import java.desktop.share.classes.javax.swing.text.View;
 
-import javax.accessibility.Accessible;
-import javax.accessibility.AccessibleContext;
-import javax.accessibility.AccessibleExtendedComponent;
-import javax.accessibility.AccessibleIcon;
-import javax.accessibility.AccessibleKeyBinding;
-import javax.accessibility.AccessibleRelation;
-import javax.accessibility.AccessibleRelationSet;
-import javax.accessibility.AccessibleRole;
-import javax.accessibility.AccessibleText;
-import javax.swing.plaf.LabelUI;
-import javax.swing.text.AttributeSet;
-import javax.swing.text.BadLocationException;
-import javax.swing.text.Document;
-import javax.swing.text.Element;
-import javax.swing.text.Position;
-import javax.swing.text.StyledDocument;
-import javax.swing.text.View;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A display area for a short text string or an image,

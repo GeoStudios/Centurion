@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.utils;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.utils;
+
 
 import java.util.function.Supplier;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is duplicated for each JAXP subpackage so keep it in sync.

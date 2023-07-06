@@ -21,11 +21,24 @@
 
 package nsk.jdi.MethodEntryEvent.method;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //    THIS TEST IS LINE NUMBER SENSITIVE
 // This class is the debugged application in the test

@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.jfr.api.consumer;
+
+
+import java.io.InputStream;
+import jdk.jfr.Recording;
+import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestChunkInputStreamAvailable
  * @key jfr
@@ -26,12 +46,8 @@
  * @library /test/lib
  * @run main/othervm jdk.jfr.api.consumer.TestChunkInputStreamAvailable
  */
-package jdk.jfr.api.consumer;
 
-import java.io.InputStream;
 
-import jdk.jfr.Recording;
-import jdk.test.lib.Asserts;
 
 public class TestChunkInputStreamAvailable {
 

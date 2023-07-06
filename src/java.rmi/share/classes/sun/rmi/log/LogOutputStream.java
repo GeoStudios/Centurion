@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.rmi.log;
+package java.rmi.share.classes.sun.rmi.log;
+
 
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public
 class LogOutputStream extends OutputStream {

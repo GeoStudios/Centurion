@@ -19,15 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider.certpath.ssl;
+package java.base.share.classes.sun.security.provider.certpath.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.URI;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.security.GeneralSecurityException;
 import java.security.InvalidAlgorithmParameterException;
 import java.security.Provider;
@@ -40,16 +41,30 @@ import java.security.cert.CertStoreSpi;
 import java.security.cert.CRLSelector;
 import java.security.cert.X509Certificate;
 import java.security.cert.X509CRL;
-import java.net.Socket;
+import java.net.java.net.java.net.java.net.Socket;
 import java.net.URLConnection;
 import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.HttpsURLConnection;
-import javax.net.ssl.SSLContext;
+import javax.net.ssl.javax.net.ssl.javax.net.ssl.javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLSession;
 import javax.net.ssl.SSLEngine;
-import javax.net.ssl.SSLSocketFactory;
+import javax.net.ssl.SSLjava.net.SocketFactory;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509ExtendedTrustManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A CertStore that retrieves an SSL server's certificate chain.

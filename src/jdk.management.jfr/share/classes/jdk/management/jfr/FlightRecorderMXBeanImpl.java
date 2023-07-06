@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.management.jfr;
+package jdk.management.jfr.share.classes.jdk.management.jfr;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.StringReader;
 import java.nio.file.Path;
@@ -31,43 +32,55 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.text.ParseException;
 import java.time.Instant;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.CopyOnWriteArrayjava.util.java.util.java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
-
 import javax.management.AttributeChangeNotification;
 import javax.management.AttributeNotFoundException;
-import javax.management.ListenerNotFoundException;
+import javax.management.java.util.ListenerNotFoundException;
 import javax.management.MBeanException;
 import javax.management.MBeanNotificationInfo;
 import javax.management.Notification;
 import javax.management.NotificationBroadcasterSupport;
 import javax.management.NotificationEmitter;
 import javax.management.NotificationFilter;
-import javax.management.NotificationListener;
+import javax.management.Notificationjava.util.Listener;
 import javax.management.ObjectName;
 import javax.management.ReflectionException;
 import javax.management.StandardEmitterMBean;
+import jdk.management.jfr.share.classes.jdk.jfr.Configuration;
+import jdk.management.jfr.share.classes.jdk.jfr.EventType;
+import jdk.management.jfr.share.classes.jdk.jfr.FlightRecorder;
+import jdk.management.jfr.share.classes.jdk.jfr.FlightRecorderjava.util.Listener;
+import jdk.management.jfr.share.classes.jdk.jfr.FlightRecorderPermission;
+import jdk.management.jfr.share.classes.jdk.jfr.Recording;
+import jdk.management.jfr.share.classes.jdk.jfr.RecordingState;
+import jdk.management.jfr.share.classes.jdk.jfr.internal.management.ManagementSupport;
+import jdk.management.jfr.share.classes.jdk.jfr.internal.management.StreamManager;
 
-import jdk.jfr.Configuration;
-import jdk.jfr.EventType;
-import jdk.jfr.FlightRecorder;
-import jdk.jfr.FlightRecorderListener;
-import jdk.jfr.FlightRecorderPermission;
-import jdk.jfr.Recording;
-import jdk.jfr.RecordingState;
-import jdk.jfr.internal.management.ManagementSupport;
-import jdk.jfr.internal.management.StreamManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Instantiated by service provider
 final class FlightRecorderMXBeanImpl extends StandardEmitterMBean implements FlightRecorderMXBean, NotificationEmitter {

@@ -19,15 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.smartcardio;
+package java.smartcardio.share.classes.sun.security.smartcardio;
+
 
 import java.nio.*;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-
 import javax.smartcardio.*;
+import static java.smartcardio.share.classes.sun.security.smartcardio.PCSC.*;.extended
 
-import static sun.security.smartcardio.PCSC.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * CardChannel implementation.

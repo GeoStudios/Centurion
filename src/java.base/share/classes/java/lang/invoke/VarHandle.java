@@ -19,29 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
-import java.lang.constant.ClassDesc;
-import java.lang.constant.Constable;
-import java.lang.constant.ConstantDesc;
-import java.lang.constant.ConstantDescs;
-import java.lang.constant.DirectMethodHandleDesc;
-import java.lang.constant.DynamicConstantDesc;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Optional;
-import java.util.function.BiFunction;
-import java.util.function.Function;
 
+import java.base.share.classes.java.lang.constant.ClassDesc;
+import java.base.share.classes.java.lang.constant.Constable;
+import java.base.share.classes.java.lang.constant.ConstantDesc;
+import java.base.share.classes.java.lang.constant.ConstantDescs;
+import java.base.share.classes.java.lang.constant.DirectMethodHandleDesc;
+import java.base.share.classes.java.lang.constant.DynamicConstantDesc;
+import java.base.share.classes.java.util.HashMap;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Optional;
+import java.base.share.classes.java.util.function.BiFunction;
+import java.base.share.classes.java.util.function.Function;
 import jdk.internal.util.Preconditions;
 import jdk.internal.vm.annotation.DontInline;
 import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 import jdk.internal.vm.annotation.Stable;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.UNSAFE;.extended
 
-import static java.lang.invoke.MethodHandleStatics.UNSAFE;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A VarHandle is a dynamically strongly typed reference to a variable, or to a

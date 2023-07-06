@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.image;
+package java.desktop.share.classes.sun.awt.image;
+
 
 import java.awt.AlphaComposite;
 import java.awt.Color;
@@ -32,12 +33,26 @@ import java.awt.Transparency;
 import java.awt.image.BufferedImage;
 import java.awt.image.ImageObserver;
 import java.awt.image.VolatileImage;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.SurfaceManagerFactory;
-import sun.java2d.DestSurfaceProvider;
-import sun.java2d.Surface;
-import sun.java2d.pipe.Region;
-import static sun.java2d.pipe.hw.AccelSurface.*;
+import java.desktop.share.classes.sun.java2d.SunGraphics2D;
+import java.desktop.share.classes.sun.java2d.SurfaceManagerFactory;
+import java.desktop.share.classes.sun.java2d.DestSurfaceProvider;
+import java.desktop.share.classes.sun.java2d.Surface;
+import java.desktop.share.classes.sun.java2d.pipe.Region;
+import static java.desktop.share.classes.sun.java2d.pipe.hw.AccelSurface.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is the base implementation of the VolatileImage

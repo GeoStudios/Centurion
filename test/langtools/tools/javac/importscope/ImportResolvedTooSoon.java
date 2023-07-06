@@ -19,15 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package pkg;
+
+
+import static pkg.B.SubInner.Foo;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7101822
  * @summary Verify that imports are declarations are processed in the correct order.
  * @compile ImportResolvedTooSoon.java
  */
-package pkg;
 
-import static pkg.B.SubInner.Foo;
 
 class B extends A {
      static class SubInner extends Inner { }

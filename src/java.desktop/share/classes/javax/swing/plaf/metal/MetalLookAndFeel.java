@@ -19,29 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.metal;
+package java.desktop.share.classes.javax.swing.plaf.metal;
+
 
 import java.awt.*;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import javax.swing.plaf.*;
-import javax.swing.*;
-import javax.swing.plaf.basic.*;
-import javax.swing.text.DefaultEditorKit;
-
+import java.beans.PropertyChangejava.util.Listener;
+import java.desktop.share.classes.javax.swing.plaf.*;
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.plaf.basic.*;
+import java.desktop.share.classes.javax.swing.text.DefaultEditorKit;
 import java.awt.Color;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.WeakReference;
-
 import java.security.AccessController;
-
 import sun.awt.*;
 import sun.security.action.GetPropertyAction;
 import sun.swing.DefaultLayoutStyle;
-import static javax.swing.UIDefaults.LazyValue;
-
+import static java.desktop.share.classes.javax.swing.UIDefaults.LazyValue;.extended
 import sun.swing.SwingAccessor;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Java Look and Feel, otherwise known as Metal.

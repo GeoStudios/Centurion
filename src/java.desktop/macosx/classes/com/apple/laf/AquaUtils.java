@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.*;
 import java.awt.image.*;
@@ -28,21 +29,31 @@ import java.lang.reflect.Method;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.*;
-
 import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.plaf.UIResource;
-
 import sun.awt.AppContext;
-
 import sun.lwawt.macosx.CPlatformWindow;
 import sun.reflect.misc.ReflectUtil;
 import sun.security.action.GetPropertyAction;
 import sun.swing.SwingUtilities2;
-
-import com.apple.laf.AquaImageFactory.SlicedImageControl;
+import java.desktop.macosx.classes.com.apple.laf.AquaImageFactory.SlicedImageControl;
 import sun.awt.image.MultiResolutionCachedImage;
 import sun.swing.SwingAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class AquaUtils {
 

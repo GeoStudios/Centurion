@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package java.util.stream;
+
 
 import java.util.*;
 import java.util.function.BiConsumer;
@@ -42,11 +44,23 @@ import java.util.function.Supplier;
 import java.util.function.ToDoubleFunction;
 import java.util.function.ToIntFunction;
 import java.util.function.ToLongFunction;
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertTrue;.extended
+import static org.testng.Assert.assertFalse;.extended
+import static org.testng.Assert.fail;.extended
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.fail;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * LambdaTestHelpers -- assertion methods and useful objects for lambda test cases

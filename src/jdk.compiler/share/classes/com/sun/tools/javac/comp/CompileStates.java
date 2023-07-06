@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.comp;
+package jdk.compiler.share.classes.com.sun.tools.javac.comp;
+
 
 import java.util.HashMap;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
 
-import com.sun.tools.javac.util.Context;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Partial map to record which compiler phases have been executed
  *  for each compilation unit. Used for ATTR and FLOW phases.

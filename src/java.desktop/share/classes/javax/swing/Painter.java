@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing;
+
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.Graphics2D;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>A painting delegate. The Painter interface defines exactly one method,

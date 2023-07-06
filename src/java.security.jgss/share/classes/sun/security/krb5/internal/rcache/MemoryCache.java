@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal.rcache;
+package java.security.jgss.share.classes.sun.security.krb5.internal.rcache;
+
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+import java.security.jgss.share.classes.sun.security.krb5.internal.KerberosTime;
+import java.security.jgss.share.classes.sun.security.krb5.internal.KrbApErrException;
+import java.security.jgss.share.classes.sun.security.krb5.internal.ReplayCache;
 
-import sun.security.krb5.internal.KerberosTime;
-import sun.security.krb5.internal.KrbApErrException;
-import sun.security.krb5.internal.ReplayCache;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class stores replay caches. AuthTimeWithHash objects are categorized

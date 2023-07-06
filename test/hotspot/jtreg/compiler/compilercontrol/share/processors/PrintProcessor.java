@@ -21,21 +21,34 @@
 
 package compiler.compilercontrol.share.processors;
 
+
 import com.sun.management.HotSpotDiagnosticMXBean;
 import compiler.compilercontrol.share.method.MethodDescriptor;
 import compiler.compilercontrol.share.method.MethodGenerator;
 import compiler.compilercontrol.share.pool.PoolHelper;
 import compiler.compilercontrol.share.scenario.State;
 import jdk.test.lib.process.OutputAnalyzer;
-
 import java.lang.management.ManagementFactory;
 import java.lang.reflect.Executable;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.function.Consumer;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Process output to find compiled methods assemblies printed by print command

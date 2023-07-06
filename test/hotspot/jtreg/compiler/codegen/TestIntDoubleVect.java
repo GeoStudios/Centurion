@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codegen;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7119644
@@ -29,7 +46,6 @@
  *    compiler.codegen.TestIntDoubleVect
  */
 
-package compiler.codegen;
 
 public class TestIntDoubleVect {
   private static final int ARRLEN = 997;

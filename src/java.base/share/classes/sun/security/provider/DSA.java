@@ -19,23 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider;
+package java.base.share.classes.sun.security.provider;
+
 
 import java.io.*;
 import java.util.*;
 import java.math.BigInteger;
 import java.nio.ByteBuffer;
-
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.SecureRandom;
 import java.security.interfaces.*;
-import java.security.spec.*;
+import java.base.share.classes.java.security.spec.*;
+import java.base.share.classes.sun.security.util.Debug;
+import java.base.share.classes.sun.security.util.DerValue;
+import java.base.share.classes.sun.security.util.DerInputStream;
+import java.base.share.classes.sun.security.util.DerOutputStream;
+import java.base.share.classes.sun.security.jca.JCAUtil;
 
-import sun.security.util.Debug;
-import sun.security.util.DerValue;
-import sun.security.util.DerInputStream;
-import sun.security.util.DerOutputStream;
-import sun.security.jca.JCAUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Digital Signature Standard (using the Digital Signature

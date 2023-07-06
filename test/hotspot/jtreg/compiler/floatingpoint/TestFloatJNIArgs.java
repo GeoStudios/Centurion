@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.floatingpoint;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @bug 8139258 8165673
  * @summary Regression test for passing float args to a jni function.
@@ -36,7 +53,6 @@
  * @run main/othervm/native -XX:-TieredCompilation -Xcomp compiler.floatingpoint.TestFloatJNIArgs
  */
 
-package compiler.floatingpoint;
 
 public class TestFloatJNIArgs {
     static {

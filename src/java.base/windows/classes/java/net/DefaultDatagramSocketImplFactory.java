@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.net;
 
-import java.util.Properties;
+package java.base.windows.classes.java.net;
+
+
+import java.base.windows.classes.java.util.Properties;
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class defines a factory for creating DatagramSocketImpls. It defaults

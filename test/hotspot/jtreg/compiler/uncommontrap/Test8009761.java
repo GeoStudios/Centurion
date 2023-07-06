@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.uncommontrap;
+
+
+import sun.hotspot.WhiteBox;
+import java.lang.reflect.Method;
+import compiler.whitebox.CompilerWhiteBoxTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8009761
@@ -35,11 +55,7 @@
  *      compiler.uncommontrap.Test8009761
  */
 
-package compiler.uncommontrap;
 
-import sun.hotspot.WhiteBox;
-import java.lang.reflect.Method;
-import compiler.whitebox.CompilerWhiteBoxTest;
 
 public class Test8009761 {
 

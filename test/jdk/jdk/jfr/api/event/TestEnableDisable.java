@@ -21,16 +21,29 @@
 
 package jdk.jfr.api.event;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Iterator;
+import java.util.java.util.java.util.java.util.List;
 import jdk.jfr.Event;
 import jdk.jfr.EventType;
 import jdk.jfr.Recording;
 import jdk.jfr.consumer.RecordedEvent;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.jfr.Events;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

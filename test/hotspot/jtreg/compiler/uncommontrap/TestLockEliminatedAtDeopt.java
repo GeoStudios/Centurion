@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.uncommontrap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8032011
@@ -30,7 +47,6 @@
  *      compiler.uncommontrap.TestLockEliminatedAtDeopt
  */
 
-package compiler.uncommontrap;
 
 public class TestLockEliminatedAtDeopt {
 

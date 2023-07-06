@@ -18,10 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.share.jdi;
+
 
 import com.sun.jdi.*;
 import com.sun.jdi.event.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Classes included in this class represent JDI events on debugger VM's side

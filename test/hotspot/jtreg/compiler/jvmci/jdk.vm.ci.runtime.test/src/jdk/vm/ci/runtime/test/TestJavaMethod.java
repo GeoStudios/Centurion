@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.vm.ci.runtime.test;
+
+
+import jdk.vm.ci.meta.JavaMethod;
+import jdk.vm.ci.meta.ResolvedJavaMethod;
+import jdk.vm.ci.meta.ResolvedJavaType;
+import org.junit.Test;
+import java.lang.reflect.Method;
+import java.util.Map;
+import static org.junit.Assert.assertEquals;.extended
+import static org.junit.Assert.assertTrue;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @requires vm.jvmci
@@ -29,18 +54,9 @@
  * @run junit/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler jdk.vm.ci.runtime.test.TestJavaMethod
  */
 
-package jdk.vm.ci.runtime.test;
 
-import jdk.vm.ci.meta.JavaMethod;
-import jdk.vm.ci.meta.ResolvedJavaMethod;
-import jdk.vm.ci.meta.ResolvedJavaType;
-import org.junit.Test;
 
-import java.lang.reflect.Method;
-import java.util.Map;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 /**
  * Tests for {@link JavaMethod}.

@@ -19,11 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.swing.interop;
+package jdk.unsupported.desktop.share.classes.jdk.swing.interop;
+
 
 import java.awt.Component;
 import java.awt.dnd.DragGestureRecognizer;
-import java.awt.dnd.DragGestureListener;
+import java.awt.dnd.DragGesturejava.util.Listener;
 import java.awt.dnd.DragSource;
 import java.awt.dnd.DragGestureEvent;
 import java.awt.dnd.InvalidDnDOperationException;
@@ -31,6 +32,20 @@ import java.awt.dnd.peer.DragSourceContextPeer;
 import java.awt.dnd.DropTarget;
 import javax.swing.JComponent;
 import sun.swing.LightweightContent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides a wrapper over inner LightweightContentProxy class

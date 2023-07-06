@@ -18,26 +18,39 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package java.util.stream;
 
-import org.testng.annotations.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import org.testng.annotations.Test;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Comparator;
 import java.util.EnumSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Spliterator;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.ToDoubleFunction;
 import java.util.function.ToIntFunction;
 import java.util.function.ToLongFunction;
+import static java.util.stream.Collectors.tojava.util.java.util.java.util.List;.extended
+import static java.util.stream.StreamOpFlag.*;.extended
+import static org.testng.Assert.*;.extended
+import static org.testng.Assert.assertEquals;.extended
 
-import static java.util.stream.Collectors.toList;
-import static java.util.stream.StreamOpFlag.*;
-import static org.testng.Assert.*;
-import static org.testng.Assert.assertEquals;
+
+
+
+
+
+
+
+
+
+
+
+
 
 @Test
 public class StreamOpFlagsTest {

@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.MatrixJuggleGC;
+
+
+import nsk.share.test.*;
+import nsk.share.gc.*;
+import java.util.Stack;
+import java.util.EmptyStackException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -80,12 +100,7 @@
  * @run main/othervm gc.gctests.MatrixJuggleGC.MatrixJuggleGC -iterations 1000000
  */
 
-package gc.gctests.MatrixJuggleGC;
 
-import nsk.share.test.*;
-import nsk.share.gc.*;
-import java.util.Stack;
-import java.util.EmptyStackException;
 
 public class MatrixJuggleGC extends GCTestBase {
         private int threadCount = 5;

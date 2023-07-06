@@ -19,33 +19,47 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
 
-import com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDDescription;
-import com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException;
-import com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
-import com.sun.org.apache.xerces.internal.impl.validation.ValidationManager;
-import com.sun.org.apache.xerces.internal.util.NamespaceSupport;
-import com.sun.org.apache.xerces.internal.util.XMLChar;
-import com.sun.org.apache.xerces.internal.util.XMLResourceIdentifierImpl;
-import com.sun.org.apache.xerces.internal.util.XMLStringBuffer;
-import com.sun.org.apache.xerces.internal.xni.Augmentations;
-import com.sun.org.apache.xerces.internal.xni.NamespaceContext;
-import com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
-import com.sun.org.apache.xerces.internal.xni.XNIException;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLDTDScanner;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
-import com.sun.xml.internal.stream.Entity;
-import com.sun.xml.internal.stream.StaxXMLInputSource;
-import com.sun.xml.internal.stream.dtd.DTDGrammarUtil;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDDescription;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.validation.ValidationManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.NamespaceSupport;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLResourceIdentifierImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLStringBuffer;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.Augmentations;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDTDScanner;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
+import java.xml.share.classes.com.sun.xml.internal.stream.Entity;
+import java.xml.share.classes.com.sun.xml.internal.stream.StaxXMLInputSource;
+import java.xml.share.classes.com.sun.xml.internal.stream.dtd.DTDGrammarUtil;
 import java.io.CharConversionException;
 import java.io.EOFException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.events.XMLEvent;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

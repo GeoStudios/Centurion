@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.reflect;
+package java.base.share.classes.jdk.internal.reflect;
+
 
 import java.lang.reflect.*;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.VM;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Common utility routines used by both java.lang and
     java.lang.reflect */

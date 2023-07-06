@@ -19,17 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
+
+
+import java.io.DataInput;
+import java.io.DataOutputStream;
+import java.io.java.io.java.io.java.io.IOException;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.bcel.internal.classfile;
 
-import java.io.DataInput;
-import java.io.DataOutputStream;
-import java.io.IOException;
 
-import com.sun.org.apache.bcel.internal.Const;
+
 
 /**
  * This class is derived from <em>Attribute</em> and denotes that this class

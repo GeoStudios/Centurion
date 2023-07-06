@@ -19,21 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/**
- * Demonstrate Java object storage and retrieval using an LDAP directory.
- * The Fruit object and its associated object factory is supplied by a
- * third-party module. The Fruit object implements javax.naming.Referenceable.
- */
-
 package test;
+
 
 import java.io.PrintStream;
 import java.net.*;
 import java.util.*;
 import javax.naming.*;
 import javax.naming.directory.*;
-
 import org.example.fruit.Fruit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Demonstrate Java object storage and retrieval using an LDAP directory.
+ * The Fruit object and its associated object factory is supplied by a
+ * third-party module. The Fruit object implements javax.naming.Referenceable.
+ */
+
+
+
 
 public class StoreFruit {
 

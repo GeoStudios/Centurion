@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.net.www.protocol.http;
+
+package java.base.share.classes.sun.net.www.protocol.http;
+
 
 import java.net.URL;
 import java.net.PasswordAuthentication;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
-import sun.util.logging.PlatformLogger;
+import java.base.share.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Proxy class for loading NTLMAuthentication, so as to remove static

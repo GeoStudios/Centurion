@@ -21,8 +21,22 @@
 
 package jdk.test;
 
+
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Main {
     static final String MAIN_BUNDLES_RESOURCE = "jdk.test.resources.MyResources";

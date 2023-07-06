@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import java.applet.Applet;
 import java.awt.AWTEvent;
@@ -32,9 +33,22 @@ import java.awt.HeadlessException;
 import java.awt.LayoutManager;
 import java.beans.BeanProperty;
 import java.beans.JavaBean;
+import java.desktop.share.classes.javax.accessibility.Accessible;
+import java.desktop.share.classes.javax.accessibility.AccessibleContext;
 
-import javax.accessibility.Accessible;
-import javax.accessibility.AccessibleContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An extended version of <code>java.applet.Applet</code> that adds support for

@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.share.classes.sun.font;
+
 
 import java.awt.Font;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Remind: need to enhance to extend component list with a fallback
  * list, which is not used in metrics or queries on the composite, but

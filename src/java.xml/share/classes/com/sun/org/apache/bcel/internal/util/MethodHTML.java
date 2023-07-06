@@ -19,24 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.util;
+
+
+import java.io.FileOutputStream;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.PrintWriter;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Attribute;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Code;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantValue;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ExceptionTable;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Field;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Method;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Utility;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.bcel.internal.util;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.PrintWriter;
 
-import com.sun.org.apache.bcel.internal.Const;
-import com.sun.org.apache.bcel.internal.classfile.Attribute;
-import com.sun.org.apache.bcel.internal.classfile.Code;
-import com.sun.org.apache.bcel.internal.classfile.ConstantValue;
-import com.sun.org.apache.bcel.internal.classfile.ExceptionTable;
-import com.sun.org.apache.bcel.internal.classfile.Field;
-import com.sun.org.apache.bcel.internal.classfile.Method;
-import com.sun.org.apache.bcel.internal.classfile.Utility;
+
 
 /**
  * Convert methods and fields into HTML file.
@@ -97,7 +115,7 @@ final class MethodHTML {
         }
         for (int i = 0; i < attributes.length; i++) {
             if (attributes[i].getTag() == Const.ATTR_CONSTANT_VALUE) { // Default value
-                final String str = ((ConstantValue) attributes[i]).toString();
+                final String str = attributes[i].toString();
                 // Reference attribute in _attributes.html
                 file.print("<TD>= <A HREF=\"" + className + "_attributes.html#" + name + "@" + i
                         + "\" TARGET=\"Attributes\">" + str + "</TD>\n");

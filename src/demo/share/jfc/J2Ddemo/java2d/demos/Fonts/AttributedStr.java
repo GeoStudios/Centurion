@@ -18,18 +18,19 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d.demos.Fonts;
+
+package demo.share.jfc.J2Ddemo.java2d.demos.Fonts;
 
 
-import static java.awt.Font.BOLD;
-import static java.awt.Font.ITALIC;
-import static java.awt.Font.PLAIN;
-import static java.awt.font.TextAttribute.BACKGROUND;
-import static java.awt.font.TextAttribute.CHAR_REPLACEMENT;
-import static java.awt.font.TextAttribute.FONT;
-import static java.awt.font.TextAttribute.FOREGROUND;
-import static java.awt.font.TextAttribute.UNDERLINE;
-import static java.awt.font.TextAttribute.UNDERLINE_ON;
+import static java.awt.Font.BOLD;.extended
+import static java.awt.Font.ITALIC;.extended
+import static java.awt.Font.PLAIN;.extended
+import static java.awt.font.TextAttribute.BACKGROUND;.extended
+import static java.awt.font.TextAttribute.CHAR_REPLACEMENT;.extended
+import static java.awt.font.TextAttribute.FONT;.extended
+import static java.awt.font.TextAttribute.FOREGROUND;.extended
+import static java.awt.font.TextAttribute.UNDERLINE;.extended
+import static java.awt.font.TextAttribute.UNDERLINE_ON;.extended
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.GradientPaint;
@@ -48,7 +49,20 @@ import java.awt.geom.Ellipse2D;
 import java.awt.image.BufferedImage;
 import java.text.AttributedCharacterIterator;
 import java.text.AttributedString;
-import java2d.Surface;
+import demo.share.jfc.J2Ddemo.java2d.Surface;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

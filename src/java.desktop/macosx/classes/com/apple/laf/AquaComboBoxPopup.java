@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.Component;
 import java.awt.Dimension;
@@ -32,15 +33,27 @@ import java.awt.Rectangle;
 import java.awt.Toolkit;
 import java.awt.event.InputEvent;
 import java.awt.event.MouseEvent;
-
 import javax.swing.Box;
 import javax.swing.JComboBox;
-import javax.swing.JList;
-import javax.swing.ListCellRenderer;
+import javax.swing.Jjava.util.java.util.java.util.List;
+import javax.swing.java.util.ListCellRenderer;
 import javax.swing.SwingUtilities;
 import javax.swing.plaf.basic.BasicComboPopup;
-
 import sun.lwawt.macosx.CPlatformWindow;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // Superclass is not serializable across versions
 final class AquaComboBoxPopup extends BasicComboPopup {

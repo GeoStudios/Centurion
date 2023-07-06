@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.runtime;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime;
 
-import com.sun.org.apache.xalan.internal.xsltc.DOM;
-import org.xml.sax.AttributeList;
+
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
+import java.xml.share.classes.com.sun.org.xml.sax.Attributejava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

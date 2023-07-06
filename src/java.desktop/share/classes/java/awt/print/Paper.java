@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.print;
+package java.desktop.share.classes.java.awt.print;
 
-import java.awt.geom.Rectangle2D;
+
+import java.desktop.share.classes.java.awt.geom.Rectangle2D;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code Paper} class describes the physical characteristics of

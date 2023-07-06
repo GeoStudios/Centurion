@@ -28,23 +28,32 @@ import nsk.share.TestFailure;
 import nsk.share.test.TestUtils;
 import jdk.internal.org.objectweb.asm.Label;
 import jdk.internal.org.objectweb.asm.MethodVisitor;
-
-import static java.lang.invoke.MethodHandleInfo.REF_newInvokeSpecial;
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
+import static java.lang.invoke.MethodHandleInfo.REF_newInvokeSpecial;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
 import jdk.internal.org.objectweb.asm.ClassWriter;
-import static jdk.internal.org.objectweb.asm.ClassWriter.*;
-
+import static jdk.internal.org.objectweb.asm.ClassWriter.*;.extended
 import vm.runtime.defmeth.shared.data.*;
 import vm.runtime.defmeth.shared.data.method.*;
 import vm.runtime.defmeth.shared.data.method.body.*;
 import vm.runtime.defmeth.shared.data.method.param.*;
 import vm.runtime.defmeth.shared.data.method.result.*;
-
 import java.lang.invoke.CallSite;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
+import static vm.runtime.defmeth.shared.ExecutionMode.*;.extended
 
-import static vm.runtime.defmeth.shared.ExecutionMode.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Constructs class file from {@code Clazz} instance.

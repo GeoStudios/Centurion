@@ -18,11 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.common;
+
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.common.src.jdk.vm.ci.common;
+
 
 import java.util.concurrent.atomic.AtomicInteger;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.common.src.jdk.vm.ci.services.Services;
 
-import jdk.vm.ci.services.Services;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A facility for timing a step in the runtime initialization sequence. This is independent from all

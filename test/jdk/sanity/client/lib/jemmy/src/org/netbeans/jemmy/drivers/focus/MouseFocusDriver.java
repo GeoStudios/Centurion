@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.drivers.focus;
+
 
 import org.netbeans.jemmy.QueueTool;
 import org.netbeans.jemmy.drivers.DriverManager;
@@ -26,6 +28,19 @@ import org.netbeans.jemmy.drivers.FocusDriver;
 import org.netbeans.jemmy.drivers.LightSupportiveDriver;
 import org.netbeans.jemmy.operators.ComponentOperator;
 import org.netbeans.jemmy.operators.Operator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MouseFocusDriver extends LightSupportiveDriver implements FocusDriver {
 

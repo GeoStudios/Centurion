@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger;
+
 
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is a copy of java.util.HashMap which uses longs as keys

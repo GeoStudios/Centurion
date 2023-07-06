@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
-import jdk.internal.access.SharedSecrets;
+
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.misc.Unsafe;
 import jdk.internal.misc.VM;
 import jdk.internal.org.objectweb.asm.ClassReader;
@@ -35,32 +36,70 @@ import sun.invoke.util.VerifyAccess;
 import sun.invoke.util.Wrapper;
 import sun.reflect.misc.ReflectUtil;
 import sun.security.util.SecurityConstants;
+import java.base.share.classes.java.lang.constant.ConstantDescs;
+import java.base.share.classes.java.lang.invoke.LambdaForm.BasicType;
+import java.base.share.classes.java.lang.reflect.Constructor;
+import java.base.share.classes.java.lang.reflect.Field;
+import java.base.share.classes.java.lang.reflect.Member;
+import java.base.share.classes.java.lang.reflect.Method;
+import java.base.share.classes.java.lang.reflect.Modifier;
+import java.base.share.classes.java.lang.reflect.ReflectPermission;
+import java.base.share.classes.java.nio.ByteOrder;
+import java.base.share.classes.java.security.ProtectionDomain;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.BitSet;
+import java.base.share.classes.java.util.Iterator;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Set;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.stream.Stream;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType.V_TYPE;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleImpl.Intrinsic;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newIllegalArgumentException;.extended
+import static java.base.share.classes.java.lang.invoke.MethodType.methodType;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodType.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodType.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodType.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodType.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodType.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodType.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodType.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodType.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodType.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodType.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodType.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodType.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandles.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodType.*;.extended
 
-import java.lang.constant.ConstantDescs;
-import java.lang.invoke.LambdaForm.BasicType;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
-import java.lang.reflect.Member;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
-import java.lang.reflect.ReflectPermission;
-import java.nio.ByteOrder;
-import java.security.ProtectionDomain;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.BitSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Objects;
-import java.util.Set;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.stream.Stream;
 
-import static java.lang.invoke.LambdaForm.BasicType.V_TYPE;
-import static java.lang.invoke.MethodHandleImpl.Intrinsic;
-import static java.lang.invoke.MethodHandleNatives.Constants.*;
-import static java.lang.invoke.MethodHandleStatics.newIllegalArgumentException;
-import static java.lang.invoke.MethodType.methodType;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class consists exclusively of static methods that operate on or return
@@ -247,7 +286,7 @@ public class MethodHandles {
                 throw new IllegalAccessException(callerModule + " does not read " + targetModule);
             if (targetModule.isNamed()) {
                 String pn = targetClass.getPackageName();
-                assert !pn.isEmpty() : "unnamed package cannot be in named module";
+                assert !pn.isEmpty() : "unnamed 
                 if (!targetModule.isOpen(pn, callerModule))
                     throw new IllegalAccessException(targetModule + " does not open " + pn + " to " + callerModule);
             }
@@ -2261,7 +2300,7 @@ public class MethodHandles {
                 int index = name.lastIndexOf('.');
                 String pn = (index == -1) ? "" : name.substring(0, index);
                 if (!pn.equals(pkgName)) {
-                    throw newIllegalArgumentException(name + " not in same package as lookup class");
+                    throw newIllegalArgumentException(name + " not in same 
                 }
 
                 return new ClassFile(name, accessFlags, bytes);
@@ -2545,8 +2584,6 @@ public class MethodHandles {
          * be initialized, if it has not already been initialized.
          * <p><b>Example:</b>
          * <blockquote><pre>{@code
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
 ...
 MethodHandle MH_asList = publicLookup().findStatic(Arrays.class,
   "asList", methodType(List.class, Object[].class));
@@ -2610,8 +2647,6 @@ assertEquals("[x, y]", MH_asList.invoke("x", "y").toString());
          * <p>
          * <b>Example:</b>
          * <blockquote><pre>{@code
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
 ...
 MethodHandle MH_concat = publicLookup().findVirtual(String.class,
   "concat", methodType(String.class, String.class));
@@ -2696,8 +2731,6 @@ assertEquals("", (String) MH_newString.invokeExact());
          * be initialized, if it has not already been initialized.
          * <p><b>Example:</b>
          * <blockquote><pre>{@code
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
 ...
 MethodHandle MH_newArrayList = publicLookup().findConstructor(
   ArrayList.class, methodType(void.class, Collection.class));
@@ -2921,8 +2954,6 @@ assertEquals("[x, y, z]", pb.command().toString());
          * to access instance initialization methods in a safe manner.)</em>
          * <p><b>Example:</b>
          * <blockquote><pre>{@code
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
 ...
 static class Listie extends ArrayList {
   public String toString() { return "[wee Listie]"; }
@@ -3239,8 +3270,6 @@ assertEquals(""+l, (String) MH_this.invokeExact(subl)); // Listie method
          * <p>
          * This is almost equivalent to the following code, with some differences noted below:
          * <blockquote><pre>{@code
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
 ...
 MethodHandle mh0 = lookup().findVirtual(defc, name, type);
 MethodHandle mh1 = mh0.bindTo(receiver);
@@ -4781,8 +4810,6 @@ return invoker;
      * incoming arguments which are not mentioned in the reordering array
      * may be of any type, as determined only by {@code newType}.
      * <blockquote><pre>{@code
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
 ...
 MethodType intfn1 = methodType(int.class, int.class);
 MethodType intfn2 = methodType(int.class, int.class, int.class);
@@ -5181,8 +5208,6 @@ assert((int)twice.invokeExact(21) == 42);
      * <p>
      * <b>Example:</b>
      * <blockquote><pre>{@code
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
 ...
 MethodHandle cat = lookup().findVirtual(String.class,
   "concat", methodType(String.class, String.class));
@@ -5257,8 +5282,6 @@ assertEquals("yz", (String) d0.invokeExact(123, "x", "y", "z"));
      * they will come after.
      * @apiNote
      * <blockquote><pre>{@code
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
 ...
 MethodHandle cat = lookup().findVirtual(String.class,
   "concat", methodType(String.class, String.class));
@@ -5367,8 +5390,6 @@ assertEquals("xz", (String) d12.invokeExact("x", 12, true, "z"));
      * Two method handles whose argument lists are "effectively identical" (i.e., identical in a common prefix) may be
      * mutually converted to a common type by two calls to {@code dropArgumentsToMatch}, as follows:
      * <blockquote><pre>{@code
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
 ...
 ...
 MethodHandle h0 = constant(boolean.class, true);
@@ -5451,8 +5472,6 @@ assertEquals("xy", h3.invoke("x", "y", 1, "a", "b", "c"));
      * which do not correspond to argument positions in the target.
      * <p><b>Example:</b>
      * <blockquote><pre>{@code
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
 ...
 MethodHandle cat = lookup().findVirtual(String.class,
   "concat", methodType(String.class, String.class));
@@ -5611,8 +5630,6 @@ assertEquals("XY", (String) f2.invokeExact("x", "y")); // XY
      * {@code pos} must also be less than or equal to the target's arity.
      * <p><b>Example:</b>
      * <blockquote><pre>{@code
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
 ...
 MethodHandle deepToString = publicLookup()
   .findStatic(Arrays.class, "deepToString", methodType(String.class, Object[].class));
@@ -5745,8 +5762,6 @@ assertEquals("[top, [[up, down, strange], charm], bottom]",
      * return type of the target.
      * <p><b>Example:</b>
      * <blockquote><pre>{@code
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
 ...
 MethodHandle cat = lookup().findVirtual(String.class,
   "concat", methodType(String.class, String.class));
@@ -5883,8 +5898,6 @@ System.out.println((int) f0.invokeExact("x", "y")); // 2
      * target.)
      * <p><b>Example:</b>
      * <blockquote><pre>{@code
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
 ...
 MethodHandle trace = publicLookup().findVirtual(java.io.PrintStream.class,
   "println", methodType(void.class, String.class))
@@ -5951,8 +5964,8 @@ assertEquals("boojum", (String) catTrace.invokeExact("boo", "jum"));
      *
      * @apiNote Example:
      * <blockquote><pre>{@code
-    import static java.lang.invoke.MethodHandles.*;
-    import static java.lang.invoke.MethodType.*;
+    import static java.base.share.classes.java.lang.invoke.MethodHandles.*;
+    import static java.base.share.classes.java.lang.invoke.MethodType.*;
     ...
     MethodHandle trace = publicLookup().findVirtual(java.io.PrintStream.class,
     "println", methodType(void.class, String.class))

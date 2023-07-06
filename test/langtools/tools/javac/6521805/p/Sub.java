@@ -21,6 +21,21 @@
 
 package p;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class Inner extends Outer.Super {
     Inner(Outer t) {
         t.super();

@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.security.spec;
+package java.base.share.classes.java.security.spec;
 
-import java.math.BigInteger;
-import java.security.spec.AlgorithmParameterSpec;
+
+import java.base.share.classes.java.math.BigInteger;
+import java.base.share.classes.java.security.spec.AlgorithmParameterSpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class specifies the set of parameters used to generate an RSA

@@ -21,10 +21,24 @@
 
 package javadoc.tester;
 
+
 import java.io.PrintStream;
 import java.nio.file.Path;
 import java.util.Map;
 import java.util.function.Function;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ShowHeadings extends HtmlChecker {
 

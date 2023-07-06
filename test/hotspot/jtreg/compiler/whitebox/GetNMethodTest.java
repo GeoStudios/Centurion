@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.whitebox;
+
+
+import jdk.test.lib.Asserts;
+import sun.hotspot.code.BlobType;
+import sun.hotspot.code.NMethod;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test GetNMethodTest
  * @bug 8038240
@@ -37,11 +57,7 @@
  *                   compiler.whitebox.GetNMethodTest
  */
 
-package compiler.whitebox;
 
-import jdk.test.lib.Asserts;
-import sun.hotspot.code.BlobType;
-import sun.hotspot.code.NMethod;
 
 public class GetNMethodTest extends CompilerWhiteBoxTest {
     public static void main(String[] args) throws Exception {

@@ -19,18 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.serializer;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
-import java.io.IOException;
 
-import javax.xml.transform.ErrorListener;
+import java.io.java.io.java.io.java.io.IOException;
+import javax.xml.transform.Errorjava.util.Listener;
 import javax.xml.transform.Result;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerException;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.MsgKey;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.Utils;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 
-import com.sun.org.apache.xml.internal.serializer.utils.MsgKey;
-import com.sun.org.apache.xml.internal.serializer.utils.Utils;
-import org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class converts SAX or SAX-like calls to a

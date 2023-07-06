@@ -21,32 +21,43 @@
 
 package javax.xml.datatype.ptests;
 
-import static javax.xml.datatype.DatatypeConstants.DAYS;
-import static javax.xml.datatype.DatatypeConstants.HOURS;
-import static javax.xml.datatype.DatatypeConstants.MINUTES;
-import static javax.xml.datatype.DatatypeConstants.MONTHS;
-import static javax.xml.datatype.DatatypeConstants.SECONDS;
-import static javax.xml.datatype.DatatypeConstants.YEARS;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertTrue;
 
+import static javax.xml.datatype.DatatypeConstants.DAYS;.extended
+import static javax.xml.datatype.DatatypeConstants.HOURS;.extended
+import static javax.xml.datatype.DatatypeConstants.MINUTES;.extended
+import static javax.xml.datatype.DatatypeConstants.MONTHS;.extended
+import static javax.xml.datatype.DatatypeConstants.SECONDS;.extended
+import static javax.xml.datatype.DatatypeConstants.YEARS;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertFalse;.extended
+import static org.testng.Assert.assertTrue;.extended
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.Calendar;
 import java.util.function.Function;
-
 import javax.xml.datatype.DatatypeConfigurationException;
 import javax.xml.datatype.DatatypeConstants;
 import javax.xml.datatype.DatatypeFactory;
 import javax.xml.datatype.Duration;
 import javax.xml.namespace.QName;
-
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

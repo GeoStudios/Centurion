@@ -21,7 +21,21 @@
 
 package propertiesparser.parser;
 
+
 import java.util.regex.Pattern;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A line of text within the message file.

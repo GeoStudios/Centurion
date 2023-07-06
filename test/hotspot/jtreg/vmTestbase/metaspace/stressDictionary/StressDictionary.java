@@ -19,6 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package metaspace.stressDictionary;
+
+
+import java.util.*;
+import java.lang.management.ManagementFactory;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.concurrent.*;
+import java.util.concurrent.atomic.AtomicLong;
+import nsk.share.gc.GCTestBase;
+import nsk.share.test.*;
+import vm.share.InMemoryJavaCompiler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key randomness
@@ -30,18 +56,8 @@
  * @run main/othervm/timeout=600 metaspace.stressDictionary.StressDictionary -stressTime 30
  */
 
-package metaspace.stressDictionary;
 
-import java.util.*;
-import java.lang.management.ManagementFactory;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.util.concurrent.*;
-import java.util.concurrent.atomic.AtomicLong;
 
-import nsk.share.gc.GCTestBase;
-import nsk.share.test.*;
-import vm.share.InMemoryJavaCompiler;
 
 /**
  * There is a data structure named "dictionary" in class BlockFreelist. It stores

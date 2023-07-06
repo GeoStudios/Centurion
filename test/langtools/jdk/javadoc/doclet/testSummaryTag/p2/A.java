@@ -21,5 +21,20 @@
 
 package p2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** The lonely class. */
 public class A {}

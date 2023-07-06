@@ -19,26 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.relation;
-
+package java.management.share.classes.javax.management.relation;
 
 
 import java.lang.System.Logger.Level;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-import java.util.List;
-
+import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
-import static com.sun.jmx.defaults.JmxProperties.RELATION_LOGGER;
-import static com.sun.jmx.mbeanserver.Util.cast;
-import javax.management.InstanceNotFoundException;
-import javax.management.MBeanException;
-import javax.management.MBeanRegistration;
-import javax.management.MBeanServer;
-import javax.management.ObjectName;
-import javax.management.ReflectionException;
+import static com.sun.jmx.defaults.JmxProperties.RELATION_LOGGER;.extended
+import static com.sun.jmx.mbeanserver.Util.cast;.extended
+import java.management.share.classes.javax.management.InstanceNotFoundException;
+import java.management.share.classes.javax.management.MBeanException;
+import java.management.share.classes.javax.management.MBeanRegistration;
+import java.management.share.classes.javax.management.MBeanServer;
+import java.management.share.classes.javax.management.ObjectName;
+import java.management.share.classes.javax.management.ReflectionException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A RelationSupport object is used internally by the Relation Service to

@@ -18,21 +18,36 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.rowset.joinrowset;
+
 
 import java.sql.SQLException;
 import java.sql.Types;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import javax.sql.RowSet;
 import javax.sql.rowset.CachedRowSet;
 import javax.sql.rowset.JoinRowSet;
 import javax.sql.rowset.RowSetMetaDataImpl;
 import javax.sql.rowset.WebRowSet;
-import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertEquals;.extended
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import test.rowset.webrowset.CommonWebRowSetTests;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JoinRowSetTests extends CommonWebRowSetTests {
 

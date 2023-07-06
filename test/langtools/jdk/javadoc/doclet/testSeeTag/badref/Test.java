@@ -21,6 +21,21 @@
 
 package badref;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @see Object[]
  * @see Foo<String>

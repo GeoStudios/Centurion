@@ -19,19 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http.websocket;
+package java.net.http.share.classes.jdk.internal.net.http.websocket;
 
-import jdk.internal.net.http.common.Log;
 
+import java.net.http.share.classes.jdk.internal.net.http.common.Log;
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.CharacterCodingException;
 import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CoderResult;
 import java.nio.charset.CodingErrorAction;
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.EMPTY_BYTEBUFFER;.extended
 
-import static java.nio.charset.StandardCharsets.UTF_8;
-import static jdk.internal.net.http.common.Utils.EMPTY_BYTEBUFFER;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class UTF8AccumulatingDecoder {
 

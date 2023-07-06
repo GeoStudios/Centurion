@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.MTasyncGC;
+
+
+import java.util.Vector;
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -38,10 +57,7 @@
  * @run main/othervm gc.gctests.MTasyncGC.MTasyncGC
  */
 
-package gc.gctests.MTasyncGC;
 
-import java.util.Vector;
-import nsk.share.TestFailure;
 
 // Each thread creates 1Meg of garbage in the run() method.
 

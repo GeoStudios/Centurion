@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jps;
+package jdk.jcmd.share.classes.sun.tools.jps;
+
 
 import java.util.*;
 import java.net.*;
-import sun.jvmstat.monitor.*;
+import jdk.jcmd.share.classes.sun.jvmstat.monitor.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Application to provide a listing of monitorable java processes.

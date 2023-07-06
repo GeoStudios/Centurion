@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8230185
@@ -30,7 +47,6 @@
  *      compiler.loopopts.TestIrreducibleLoopWithVNNI
  */
 
-package compiler.loopopts;
 
 public class TestIrreducibleLoopWithVNNI {
     public static boolean condition = false;

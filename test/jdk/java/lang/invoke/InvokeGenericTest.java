@@ -19,22 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.lang.invoke;
+
+
+import java.lang.invoke.*;
+import static java.lang.invoke.MethodHandles.*;.extended
+import static java.lang.invoke.MethodType.*;.extended
+import java.lang.reflect.*;
+import java.util.*;
+import org.testng.*;
+import static org.testng.AssertJUnit.*;.extended
+import org.testng.annotations.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @summary unit tests for java.lang.invoke.MethodHandle.invoke
  * @compile InvokeGenericTest.java
  * @run testng/othervm test.java.lang.invoke.InvokeGenericTest
  */
 
-package test.java.lang.invoke;
 
-import java.lang.invoke.*;
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
-import java.lang.reflect.*;
-import java.util.*;
-import org.testng.*;
-import static org.testng.AssertJUnit.*;
-import org.testng.annotations.*;
 
 /**
  *

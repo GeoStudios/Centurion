@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.xs.util;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util;
 
-import com.sun.org.apache.xerces.internal.util.SymbolHash;
-import com.sun.org.apache.xerces.internal.xs.XSNamedMap;
-import com.sun.org.apache.xerces.internal.xs.XSObject;
 
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolHash;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSNamedMap;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObject;
 import java.util.*;
 import javax.xml.XMLConstants;
 import javax.xml.namespace.QName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Containts the map between qnames and XSObject's.

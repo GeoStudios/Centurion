@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.comp;
+package jdk.compiler.share.classes.com.sun.tools.javac.comp;
+
 
 import java.util.AbstractQueue;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.LinkedList;
+import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Queue;
 import javax.tools.JavaFileObject;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
 
-import com.sun.tools.javac.util.Context;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A queue of all as yet unattributed classes.
  *

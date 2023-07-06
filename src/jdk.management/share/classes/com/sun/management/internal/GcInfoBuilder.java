@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.management.internal;
+
+package jdk.management.share.classes.com.sun.management.internal;
+
 
 import java.lang.management.GarbageCollectorMXBean;
 import java.lang.management.MemoryUsage;
@@ -26,8 +28,22 @@ import javax.management.openmbean.OpenType;
 import javax.management.openmbean.SimpleType;
 import javax.management.openmbean.CompositeType;
 import javax.management.openmbean.OpenDataException;
-import com.sun.management.GcInfo;
-import sun.management.Util;
+import jdk.management.share.classes.com.sun.management.GcInfo;
+import jdk.management.share.classes.com.sun.management.Util;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper class to build composite data.

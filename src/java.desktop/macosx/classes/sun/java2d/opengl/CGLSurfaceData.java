@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.opengl;
+package java.desktop.macosx.classes.sun.java2d.opengl;
+
 
 import java.awt.GraphicsConfiguration;
 import java.awt.Image;
 import java.awt.Rectangle;
 import java.awt.image.ColorModel;
+import java.desktop.macosx.classes.sun.java2d.SurfaceData;
 
-import sun.java2d.SurfaceData;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class CGLSurfaceData extends OGLSurfaceData {
 

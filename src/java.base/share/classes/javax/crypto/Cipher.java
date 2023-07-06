@@ -19,29 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.crypto;
+package java.base.share.classes.javax.crypto;
+
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 import java.util.regex.*;
-
-
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.Provider.Service;
 import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.InvalidParameterSpecException;
 import java.security.cert.Certificate;
 import java.security.cert.X509Certificate;
-
-import javax.crypto.spec.*;
-
+import java.base.share.classes.javax.crypto.spec.*;
 import java.nio.ByteBuffer;
 import java.nio.ReadOnlyBufferException;
-
 import sun.security.util.Debug;
 import sun.security.jca.*;
 import sun.security.util.KnownOIDs;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides the functionality of a cryptographic cipher for

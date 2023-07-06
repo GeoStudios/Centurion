@@ -18,12 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package com.sun.swingset3.demos;
+
 
 import java.awt.*;
 import java.net.URI;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @author Pavel Porvatov

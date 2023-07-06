@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.w3c.dom.css;
+package jdk.xml.dom.share.classes.org.w3c.dom.css;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  The <code>Rect</code> interface is used to represent any rect value. This

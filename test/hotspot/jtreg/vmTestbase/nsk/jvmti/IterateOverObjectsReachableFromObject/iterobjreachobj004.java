@@ -21,10 +21,23 @@
 
 package nsk.jvmti.IterateOverObjectsReachableFromObject;
 
-import java.io.PrintStream;
 
+import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class iterobjreachobj004 extends DebugeeClass {
 

@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.synth;
+package java.desktop.share.classes.javax.swing.plaf.synth;
+
 
 import java.awt.*;
 import java.beans.*;
-import javax.swing.*;
-import javax.swing.plaf.basic.*;
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.plaf.basic.*;
 import sun.swing.DefaultLookup;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Synth's SplitPaneDivider.

@@ -19,13 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.print;
+package java.desktop.share.classes.javax.print;
+
 
 import java.util.*;
-
-import javax.print.attribute.AttributeSet;
-
+import java.desktop.share.classes.javax.print.attribute.AttributeSet;
 import sun.awt.AppContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementations of this class provide lookup services for print services

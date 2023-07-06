@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7199742
@@ -27,7 +44,6 @@
  * @run main/othervm -Xmx128m -Xbatch compiler.c2.Test7199742
  */
 
-package compiler.c2;
 
 public class Test7199742 {
     private static final int ITERS = 10000000;

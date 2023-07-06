@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jpackage.internal;
+package jdk.jpackage.windows.classes.jdk.jpackage.internal;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.text.MessageFormat;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.ResourceBundle;
+import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundlerParam.APP_NAME;.extended
+import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundlerParam.ICON;.extended
+import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundlerParam.ADD_LAUNCHERS;.extended
 
-import static jdk.jpackage.internal.StandardBundlerParam.APP_NAME;
-import static jdk.jpackage.internal.StandardBundlerParam.ICON;
-import static jdk.jpackage.internal.StandardBundlerParam.ADD_LAUNCHERS;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class WindowsAppImageBuilder extends AbstractAppImageBuilder {
     private static final ResourceBundle I18N = ResourceBundle.getBundle(

@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package p;
+
+
+import org.testng.annotations.Test;
+import org.testng.annotations.DataProvider;
+import static org.testng.Assert.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @compile Basic.java
@@ -26,11 +46,7 @@
  * @summary Basic test for java.lang.Class::getPackageName
  */
 
-package p;
 
-import org.testng.annotations.Test;
-import org.testng.annotations.DataProvider;
-import static org.testng.Assert.*;
 
 public class Basic {
 

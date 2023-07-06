@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.print;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8073154
@@ -30,7 +47,6 @@
  *          without a crash disregard to an exact class knowledge.
  */
 
-package compiler.print;
 
 public class TestProfileReturnTypePrinting {
     private static final int ITERATIONS = 1_000_000;

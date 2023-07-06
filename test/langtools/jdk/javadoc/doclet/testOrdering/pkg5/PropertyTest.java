@@ -21,6 +21,21 @@
 
 package pkg5;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class PropertyTest {
     public int oneProperty() { return 1; }
     public int twoProperty() { return 2; }

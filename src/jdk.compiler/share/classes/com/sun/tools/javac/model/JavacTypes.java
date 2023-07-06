@@ -19,25 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.model;
+package jdk.compiler.share.classes.com.sun.tools.javac.model;
+
 
 import java.util.Collection;
 import java.util.Collections;
 import java.util.EnumSet;
 import java.util.LinkedHashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
-
 import javax.lang.model.element.*;
 import javax.lang.model.type.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
 
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.DefinedBy.Api;
 
-import static com.sun.tools.javac.code.Kinds.Kind.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility methods for operating on types.

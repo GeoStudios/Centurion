@@ -19,32 +19,46 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
+package java.base.windows.classes.java.lang;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
-import java.io.File;
-import java.io.FileDescriptor;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.lang.ProcessBuilder.Redirect;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.ArrayList;
-import java.util.Locale;
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.TimeUnit;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
+import java.base.windows.classes.java.io.BufferedInputStream;
+import java.base.windows.classes.java.io.BufferedOutputStream;
+import java.base.windows.classes.java.io.File;
+import java.base.windows.classes.java.io.FileDescriptor;
+import java.base.windows.classes.java.io.FileInputStream;
+import java.base.windows.classes.java.io.FileOutputStream;
+import java.base.windows.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.windows.classes.java.io.InputStream;
+import java.base.windows.classes.java.io.OutputStream;
+import java.base.windows.classes.java.lang.ProcessBuilder.Redirect;
+import java.base.windows.classes.java.security.AccessController;
+import java.base.windows.classes.java.security.PrivilegedAction;
+import java.base.windows.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.windows.classes.java.util.Locale;
+import java.base.windows.classes.java.util.concurrent.CompletableFuture;
+import java.base.windows.classes.java.util.concurrent.TimeUnit;
+import java.base.windows.classes.java.util.regex.Matcher;
+import java.base.windows.classes.java.util.regex.Pattern;
 import jdk.internal.access.JavaIOFileDescriptorAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.ref.CleanerFactory;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.ref.CleanerFactory;
 import sun.security.action.GetBooleanAction;
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* This class is for the exclusive use of ProcessBuilder.start() to
  * create new processes.

@@ -19,15 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.comp;
+package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.jvm.*;
-import com.sun.tools.javac.util.*;
 
-import static com.sun.tools.javac.code.TypeTag.BOOLEAN;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.BOOLEAN;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ByteCodes.*;.extended
 
-import static com.sun.tools.javac.jvm.ByteCodes.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Helper class for constant folding, used by the attribution phase.
  *  This class is marked strictfp as mandated by JLS 15.4.

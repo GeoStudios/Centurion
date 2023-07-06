@@ -21,7 +21,21 @@
 
 package bad.covar;
 
+
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 interface A{
         List<? extends A> f();

@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.imageio.plugins.tiff;
 
-import java.util.ArrayList;
-import java.util.List;
+package java.desktop.share.classes.javax.imageio.plugins.tiff;
+
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class representing the extra tags found in a

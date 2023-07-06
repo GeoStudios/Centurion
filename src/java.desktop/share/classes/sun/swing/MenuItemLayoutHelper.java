@@ -19,10 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.swing;
+package java.desktop.share.classes.sun.swing;
 
-import static sun.swing.SwingUtilities2.BASICMENUITEMUI_MAX_TEXT_OFFSET;
 
+import static java.desktop.share.classes.sun.swing.SwingUtilities2.BASICMENUITEMUI_MAX_TEXT_OFFSET;.extended
 import javax.swing.*;
 import javax.swing.plaf.basic.BasicHTML;
 import javax.swing.text.View;
@@ -30,6 +30,20 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.util.Map;
 import java.util.HashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Calculates preferred size and layouts menu items.

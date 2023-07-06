@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.security.sasl;
+package java.security.sasl.share.classes.javax.security.sasl;
+
 
 import java.util.Map;
-import javax.security.auth.callback.CallbackHandler;
+import java.security.sasl.share.classes.javax.security.auth.callback.CallbackHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An interface for creating instances of {@code SaslServer}.

@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.FloatingPoint.gen_math.Matrix_3d;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,12 +48,10 @@
  * @run main/othervm jit.FloatingPoint.gen_math.Matrix_3d.Matrix_3d
  */
 
-package jit.FloatingPoint.gen_math.Matrix_3d;
 
 // Test working with 3D matrix.
 // There are no data dependences in code.
 
-import nsk.share.TestFailure;
 
 public class Matrix_3d
 {

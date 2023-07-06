@@ -19,27 +19,45 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
+
+
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.INVOKESPECIAL;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.INVOKEVIRTUAL;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Instruction;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Instructionjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.NEW;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ClassGenerator;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.MethodGenerator;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.TypeCheckError;
+import java.util.Iterator;
+import java.util.java.util.java.util.java.util.List;
+import java.util.NoSuchElementException;
+import java.util.StringTokenizer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: AttributeValueTemplate.java,v 1.2.4.1 2005/09/01 10:26:57 pvedula Exp $
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-import com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
-import com.sun.org.apache.bcel.internal.generic.INVOKESPECIAL;
-import com.sun.org.apache.bcel.internal.generic.INVOKEVIRTUAL;
-import com.sun.org.apache.bcel.internal.generic.Instruction;
-import com.sun.org.apache.bcel.internal.generic.InstructionList;
-import com.sun.org.apache.bcel.internal.generic.NEW;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ClassGenerator;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.MethodGenerator;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.TypeCheckError;
-import java.util.Iterator;
-import java.util.List;
-import java.util.NoSuchElementException;
-import java.util.StringTokenizer;
+
 
 /**
  * @LastModified: Oct 2017

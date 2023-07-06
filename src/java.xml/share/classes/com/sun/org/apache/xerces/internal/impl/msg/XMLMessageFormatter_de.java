@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.msg;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.msg;
 
-import com.sun.org.apache.xerces.internal.util.MessageFormatter;
-import java.util.Locale;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.MessageFormatter;
+import java.base.share.classes.java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.PropertyResourceBundle;
 import java.util.ResourceBundle;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * XMLMessageFormatter provides error messages for the XML 1.0 Recommendation and for

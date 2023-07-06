@@ -19,18 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
 
 import com.apple.eawt.Application;
-
 import javax.swing.*;
 import java.awt.Desktop.Action;
 import java.awt.desktop.*;
 import java.awt.peer.DesktopPeer;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.URI;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

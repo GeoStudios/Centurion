@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
-import java.io.Serializable;
-import java.util.Enumeration;
-import java.util.Properties;
+
+import java.base.share.classes.java.io.Serializable;
+import java.base.share.classes.java.util.Enumeration;
+import java.base.share.classes.java.util.Properties;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>This class represents a scope for identities. It is an Identity

@@ -19,6 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.jdeprscan;
+
+
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
+import java.io.UnsupportedEncodingException;
+import java.util.java.util.java.util.java.util.List;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertTrue;.extended
+import com.sun.tools.jdeprscan.CSV;
+import com.sun.tools.jdeprscan.CSVParseException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @summary Basic tests CSV printing and parsing
@@ -27,22 +55,10 @@
  * @run testng jdk.jdeprscan.TestCSV
  */
 
-package jdk.jdeprscan;
 
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
-import java.io.UnsupportedEncodingException;
 
-import java.util.List;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
 
-import com.sun.tools.jdeprscan.CSV;
-import com.sun.tools.jdeprscan.CSVParseException;
 
 @Test
 public class TestCSV {

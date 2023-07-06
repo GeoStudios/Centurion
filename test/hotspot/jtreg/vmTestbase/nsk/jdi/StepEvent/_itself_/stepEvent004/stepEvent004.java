@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.StepEvent._itself_.stepEvent004;
+
+
+import java.io.*;
+import java.util.*;
+import com.sun.jdi.request.StepRequest;
+import nsk.share.Consts;
+import nsk.share.jdi.EventHandler;
+import nsk.share.jdi.sde.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @modules java.base/jdk.internal.misc:+open
@@ -73,14 +96,7 @@
  *      -testStratumCount 3
  */
 
-package nsk.jdi.StepEvent._itself_.stepEvent004;
 
-import java.io.*;
-import java.util.*;
-import com.sun.jdi.request.StepRequest;
-import nsk.share.Consts;
-import nsk.share.jdi.EventHandler;
-import nsk.share.jdi.sde.*;
 
 public class stepEvent004 extends SDEDebugger {
     private static final int INIT_LINE = 31;

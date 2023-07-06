@@ -21,11 +21,23 @@
 
 package nsk.jvmti.scenarios.capability.CM03;
 
-import java.io.PrintStream;
 
+import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
 import nsk.share.jvmti.ThreadState;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class cm03t001 extends DebugeeClass {

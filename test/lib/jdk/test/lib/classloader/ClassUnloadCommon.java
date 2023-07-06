@@ -19,6 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.test.lib.classloader;
+
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.java.io.java.io.java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLClassLoader;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * To use ClassUnloadCommon from a sub-process, see hotspot/test/runtime/logging/ClassLoadUnloadTest.java
@@ -26,18 +52,7 @@
  */
 
 
-package jdk.test.lib.classloader;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.net.URLClassLoader;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.stream.Stream;
 
 public class ClassUnloadCommon {
     public static class TestFailure extends RuntimeException {

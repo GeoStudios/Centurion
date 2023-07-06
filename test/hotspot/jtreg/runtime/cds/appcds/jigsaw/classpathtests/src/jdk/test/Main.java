@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.test;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Tests loading an archived class that has the same class name as one in the
  * jimage. The class should normally fail to load since a classpath class is not
@@ -26,7 +43,6 @@
  * if --limit-modules was used then archived class should be loaded.
  */
 
-package jdk.test;
 
 public class Main {
     static final ClassLoader BOOT_LOADER     = null;

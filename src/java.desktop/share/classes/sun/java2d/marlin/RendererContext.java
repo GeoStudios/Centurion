@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.marlin;
+package java.desktop.share.classes.sun.java2d.marlin;
+
 
 import java.awt.geom.Path2D;
 import java.lang.ref.WeakReference;
 import java.util.concurrent.atomic.AtomicInteger;
-import sun.java2d.ReentrantContext;
-import sun.java2d.marlin.ArrayCacheConst.CacheStats;
-import sun.java2d.marlin.DMarlinRenderingEngine.NormalizingPathIterator;
-import sun.java2d.marlin.TransformingPathConsumer2D.CurveBasicMonotonizer;
-import sun.java2d.marlin.TransformingPathConsumer2D.CurveClipSplitter;
+import java.desktop.share.classes.sun.java2d.ReentrantContext;
+import java.desktop.share.classes.sun.java2d.marlin.ArrayCacheConst.CacheStats;
+import java.desktop.share.classes.sun.java2d.marlin.DMarlinRenderingEngine.NormalizingPathIterator;
+import java.desktop.share.classes.sun.java2d.marlin.TransformingPathConsumer2D.CurveBasicMonotonizer;
+import java.desktop.share.classes.sun.java2d.marlin.TransformingPathConsumer2D.CurveClipSplitter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is a renderer context dedicated to a single thread

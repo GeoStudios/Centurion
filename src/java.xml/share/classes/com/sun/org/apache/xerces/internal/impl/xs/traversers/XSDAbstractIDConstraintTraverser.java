@@ -19,20 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.traversers;
+
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xpath.XPathException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.identity.Field;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.identity.IdentityConstraint;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.identity.Selector;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.DOMUtil;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.impl.xs.traversers;
 
-import com.sun.org.apache.xerces.internal.impl.xpath.XPathException;
-import com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
-import com.sun.org.apache.xerces.internal.impl.xs.identity.Field;
-import com.sun.org.apache.xerces.internal.impl.xs.identity.IdentityConstraint;
-import com.sun.org.apache.xerces.internal.impl.xs.identity.Selector;
-import com.sun.org.apache.xerces.internal.util.DOMUtil;
-import com.sun.org.apache.xerces.internal.util.XMLChar;
-import org.w3c.dom.Element;
+
 
 /**
  * This class contains code that all three IdentityConstraint

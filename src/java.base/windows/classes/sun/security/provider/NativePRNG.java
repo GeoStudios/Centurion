@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider;
+package java.base.windows.classes.sun.security.provider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Native PRNG implementation for Windows. Currently a dummy, we do

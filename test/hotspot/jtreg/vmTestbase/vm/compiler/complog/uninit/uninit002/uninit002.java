@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.compiler.complog.uninit.uninit002;
+
+
+import vm.compiler.complog.share.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -38,9 +56,7 @@
  *      -parserOptions "-classFilter=.*uninit.*"
  */
 
-package vm.compiler.complog.uninit.uninit002;
 
-import vm.compiler.complog.share.*;
 
 /**
  * Provoke OSR for loop with 'new' call of uninitialized class

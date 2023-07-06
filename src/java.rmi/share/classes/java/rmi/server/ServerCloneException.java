@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.rmi.server;
+package java.rmi.share.classes.java.rmi.server;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code ServerCloneException} is thrown if a remote exception occurs

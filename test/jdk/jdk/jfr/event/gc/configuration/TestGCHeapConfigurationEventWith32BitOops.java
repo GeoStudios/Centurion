@@ -21,10 +21,24 @@
 
 package jdk.jfr.event.gc.configuration;
 
+
 import jdk.jfr.consumer.RecordedEvent;
 import jdk.test.lib.jfr.EventVerifier;
 import jdk.test.lib.jfr.GCHelper;
 import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test TestGCHeapConfigurationEventWith32BitOops

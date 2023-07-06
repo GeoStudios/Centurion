@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.membars;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @key stress randomness
@@ -38,7 +55,6 @@
  * Run 3 times since the failure is intermittent.
  */
 
-package compiler.membars;
 
 public class DekkerTest {
 

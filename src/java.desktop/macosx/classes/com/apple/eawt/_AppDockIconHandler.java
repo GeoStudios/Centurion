@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.eawt;
+package java.desktop.macosx.classes.com.apple.eawt;
+
 
 import java.awt.*;
 import java.lang.reflect.*;
-
 import sun.awt.AWTAccessor;
 import sun.lwawt.macosx.*;
 import sun.lwawt.macosx.CImage.Creator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class _AppDockIconHandler {
     private static native void nativeSetDockMenu(final long cmenu);

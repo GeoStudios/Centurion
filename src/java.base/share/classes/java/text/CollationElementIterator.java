@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
 
-import java.lang.Character;
-import java.util.Vector;
+
+import java.base.share.classes.java.lang.Character;
+import java.base.share.classes.java.util.Vector;
 import sun.text.CollatorUtilities;
 import jdk.internal.icu.text.NormalizerBase;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code CollationElementIterator} class is used as an iterator

@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.events;
+package jdk.jfr.share.classes.jdk.jfr.events;
 
-import jdk.internal.misc.VM.BufferPool;
-import jdk.internal.misc.VM;
-import jdk.jfr.*;
+
+import jdk.jfr.share.classes.jdk.internal.misc.VM.BufferPool;
+import jdk.jfr.share.classes.jdk.internal.misc.VM;
+import jdk.jfr.share.classes.jdk.jfr.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @Category({ "Java Application", "Statistics" })
 public abstract class AbstractBufferStatisticsEvent extends AbstractJDKEvent {

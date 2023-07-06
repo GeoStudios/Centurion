@@ -18,14 +18,15 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.tests.java.util.stream;
+
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.function.Function;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
@@ -34,9 +35,21 @@ import java.util.stream.LongStream;
 import java.util.stream.OpTestCase;
 import java.util.stream.Stream;
 import java.util.stream.TestData;
+import static java.util.stream.Collectors.tojava.util.java.util.java.util.List;.extended
+import static java.util.stream.ThrowableHelper.checkISE;.extended
 
-import static java.util.stream.Collectors.toList;
-import static java.util.stream.ThrowableHelper.checkISE;
+
+
+
+
+
+
+
+
+
+
+
+
 
 @Test
 public class StreamBuilderTest extends OpTestCase {

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -30,7 +47,6 @@
  *                   -XX:CompileCommand=compileonly,compiler.loopopts.TestPeelingRemoveDominatedTest compiler.loopopts.TestPeelingRemoveDominatedTest
  */
 
-package compiler.loopopts;
 
 public class TestPeelingRemoveDominatedTest {
     public static int N = 400;

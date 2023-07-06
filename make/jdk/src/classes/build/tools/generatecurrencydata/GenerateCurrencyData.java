@@ -21,19 +21,55 @@
 
 package build.tools.generatecurrencydata;
 
-import java.io.IOException;
-import java.io.FileNotFoundException;
-import java.io.DataOutputStream;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.InputStream;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Locale;
-import java.util.Objects;
-import java.util.Properties;
-import java.util.TimeZone;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Reads currency data in properties format from the file specified in the

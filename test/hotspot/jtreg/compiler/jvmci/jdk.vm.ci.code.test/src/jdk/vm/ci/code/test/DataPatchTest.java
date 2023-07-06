@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.vm.ci.code.test;
+
+
+import jdk.vm.ci.code.Register;
+import jdk.vm.ci.code.site.DataSectionReference;
+import jdk.vm.ci.hotspot.HotSpotConstant;
+import jdk.vm.ci.meta.ResolvedJavaType;
+import org.junit.Assume;
+import org.junit.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @requires vm.jvmci
@@ -35,14 +58,7 @@
  * @run junit/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler jdk.vm.ci.code.test.DataPatchTest
  */
 
-package jdk.vm.ci.code.test;
 
-import jdk.vm.ci.code.Register;
-import jdk.vm.ci.code.site.DataSectionReference;
-import jdk.vm.ci.hotspot.HotSpotConstant;
-import jdk.vm.ci.meta.ResolvedJavaType;
-import org.junit.Assume;
-import org.junit.Test;
 
 /**
  * Test code installation with data patches.

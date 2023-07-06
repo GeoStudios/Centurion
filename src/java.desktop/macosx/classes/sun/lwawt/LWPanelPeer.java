@@ -19,13 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.macosx.classes.sun.lwawt;
 
-package sun.lwawt;
 
 import java.awt.Panel;
 import java.awt.peer.PanelPeer;
-
 import javax.swing.JPanel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Lightweight implementation of {@link PanelPeer}. Delegates most of the work

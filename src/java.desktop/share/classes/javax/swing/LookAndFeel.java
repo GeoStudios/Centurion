@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.Font;
 import java.awt.event.InputEvent;
@@ -29,17 +30,27 @@ import java.awt.Component;
 import java.awt.SystemColor;
 import java.awt.Toolkit;
 import sun.awt.SunToolkit;
-
-import javax.swing.text.*;
-import javax.swing.border.*;
-import javax.swing.plaf.*;
-
+import java.desktop.share.classes.javax.swing.text.*;
+import java.desktop.share.classes.javax.swing.border.*;
+import java.desktop.share.classes.javax.swing.plaf.*;
 import java.net.URL;
 import sun.swing.SwingUtilities2;
 import sun.swing.DefaultLayoutStyle;
 import sun.swing.ImageIconUIResource;
-
 import java.util.StringTokenizer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

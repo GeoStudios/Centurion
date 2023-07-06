@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.unix.classes.sun.font;
+
 
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class X11Dingbats extends Charset {
     public X11Dingbats () {

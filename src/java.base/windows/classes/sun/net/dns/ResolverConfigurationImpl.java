@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.dns;
+package java.base.windows.classes.sun.net.dns;
 
-import java.util.ArrayList;
-import java.util.List;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.TimeUnit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * An implementation of sun.net.ResolverConfiguration for Windows.

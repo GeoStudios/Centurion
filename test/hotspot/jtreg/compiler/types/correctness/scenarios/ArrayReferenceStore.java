@@ -21,9 +21,22 @@
 
 package compiler.types.correctness.scenarios;
 
-import compiler.types.correctness.hierarchies.TypeHierarchy;
 
-import java.util.Arrays;
+import compiler.types.correctness.hierarchies.TypeHierarchy;
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Tests aastore bytecode

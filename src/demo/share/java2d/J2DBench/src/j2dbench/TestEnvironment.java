@@ -19,16 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * This source code is provided to illustrate the usage of a given feature
- * or technique and has been deliberately simplified. Additional steps
- * required for a production-quality application, such as security checks,
- * input validation and proper error handling, might not be present in
- * this sample code.
- */
+package demo.share.java2d.J2DBench.src.j2dbench;
 
-
-package j2dbench;
 
 import java.awt.Canvas;
 import java.awt.Image;
@@ -39,8 +31,34 @@ import java.awt.AlphaComposite;
 import java.awt.Color;
 import java.awt.Toolkit;
 import java.util.Hashtable;
+import demo.share.java2d.J2DBench.src.j2dbench.tests.GraphicsTests;
 
-import j2dbench.tests.GraphicsTests;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * This source code is provided to illustrate the usage of a given feature
+ * or technique and has been deliberately simplified. Additional steps
+ * required for a production-quality application, such as security checks,
+ * input validation and proper error handling, might not be present in
+ * this sample code.
+ */
+
+
+
+
+
 
 public class TestEnvironment implements Node.Visitor {
     static Group globaloptroot;

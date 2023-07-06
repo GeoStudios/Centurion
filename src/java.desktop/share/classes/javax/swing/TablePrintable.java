@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
 
-import javax.swing.table.*;
+
+import java.desktop.share.classes.javax.swing.table.*;
 import java.awt.*;
 import java.awt.print.*;
 import java.awt.geom.*;
 import java.text.MessageFormat;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of <code>Printable</code> for printing

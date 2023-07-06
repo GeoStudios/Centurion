@@ -19,26 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.bcel.internal.classfile;
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
+
 
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
-import java.util.ArrayList;
-import java.util.Objects;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.StringTokenizer;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Type;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.BCELComparator;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.ClassQueue;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.SyntheticRepository;
 
-import com.sun.org.apache.bcel.internal.Const;
-import com.sun.org.apache.bcel.internal.generic.Type;
-import com.sun.org.apache.bcel.internal.util.BCELComparator;
-import com.sun.org.apache.bcel.internal.util.ClassQueue;
-import com.sun.org.apache.bcel.internal.util.SyntheticRepository;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a Java class, i.e., the data structures, constant pool,

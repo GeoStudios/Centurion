@@ -19,14 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-
-/*
- * The Original Code is HAT. The Initial Developer of the
- * Original Code is Bill Foote, with contributions from others
- * at JavaSoft/Sun.
- */
-
 package jdk.test.lib.hprof.parser;
+
 
 import java.io.*;
 import java.util.Date;
@@ -34,6 +28,27 @@ import java.util.Hashtable;
 import java.util.Map;
 import jdk.test.lib.hprof.model.ArrayTypeCodes;
 import jdk.test.lib.hprof.model.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * The Original Code is HAT. The Initial Developer of the
+ * Original Code is Bill Foote, with contributions from others
+ * at JavaSoft/Sun.
+ */
+
+
 
 /**
  * Object that's used to read a hprof file.

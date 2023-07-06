@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvmstat.monitor.event;
+package jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.event;
+
 
 import java.util.EventObject;
-import sun.jvmstat.monitor.MonitoredHost;
+import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.MonitoredHost;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base class for events emitted by a {@link MonitoredHost}.

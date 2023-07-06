@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.pipe;
+package java.desktop.share.classes.sun.java2d.pipe;
+
 
 import java.awt.AlphaComposite;
 import java.awt.Color;
@@ -37,21 +38,34 @@ import java.awt.image.ImageObserver;
 import java.awt.image.IndexColorModel;
 import java.awt.image.Raster;
 import java.awt.image.VolatileImage;
+import java.desktop.share.classes.sun.awt.SunHints;
+import java.desktop.share.classes.sun.awt.image.ImageRepresentation;
+import java.desktop.share.classes.sun.awt.image.SurfaceManager;
+import java.desktop.share.classes.sun.awt.image.ToolkitImage;
+import java.desktop.share.classes.sun.java2d.InvalidPipeException;
+import java.desktop.share.classes.sun.java2d.SunGraphics2D;
+import java.desktop.share.classes.sun.java2d.SurfaceData;
+import java.desktop.share.classes.sun.java2d.loops.Blit;
+import java.desktop.share.classes.sun.java2d.loops.BlitBg;
+import java.desktop.share.classes.sun.java2d.loops.CompositeType;
+import java.desktop.share.classes.sun.java2d.loops.MaskBlit;
+import java.desktop.share.classes.sun.java2d.loops.ScaledBlit;
+import java.desktop.share.classes.sun.java2d.loops.SurfaceType;
+import java.desktop.share.classes.sun.java2d.loops.TransformHelper;
 
-import sun.awt.SunHints;
-import sun.awt.image.ImageRepresentation;
-import sun.awt.image.SurfaceManager;
-import sun.awt.image.ToolkitImage;
-import sun.java2d.InvalidPipeException;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.SurfaceData;
-import sun.java2d.loops.Blit;
-import sun.java2d.loops.BlitBg;
-import sun.java2d.loops.CompositeType;
-import sun.java2d.loops.MaskBlit;
-import sun.java2d.loops.ScaledBlit;
-import sun.java2d.loops.SurfaceType;
-import sun.java2d.loops.TransformHelper;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class DrawImage implements DrawImagePipe
 {

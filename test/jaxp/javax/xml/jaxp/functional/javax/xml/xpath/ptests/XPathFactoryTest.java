@@ -21,24 +21,35 @@
 
 package javax.xml.xpath.ptests;
 
-import static javax.xml.xpath.XPathConstants.DOM_OBJECT_MODEL;
-import static javax.xml.xpath.XPathFactory.DEFAULT_OBJECT_MODEL_URI;
-import static org.testng.Assert.assertNotNull;
-import static org.testng.Assert.assertNotSame;
-import static org.testng.Assert.assertSame;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
-import static org.testng.Assert.assertFalse;
 
+import static javax.xml.xpath.XPathConstants.DOM_OBJECT_MODEL;.extended
+import static javax.xml.xpath.XPathFactory.DEFAULT_OBJECT_MODEL_URI;.extended
+import static org.testng.Assert.assertNotNull;.extended
+import static org.testng.Assert.assertNotSame;.extended
+import static org.testng.Assert.assertSame;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertTrue;.extended
+import static org.testng.Assert.assertFalse;.extended
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathFactory;
 import javax.xml.xpath.XPathFactoryConfigurationException;
-
 import jaxp.library.JAXPDataProvider;
-
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class containing the test cases for XPathFactory API.

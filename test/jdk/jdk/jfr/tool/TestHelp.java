@@ -21,7 +21,21 @@
 
 package jdk.jfr.tool;
 
+
 import jdk.test.lib.process.OutputAnalyzer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

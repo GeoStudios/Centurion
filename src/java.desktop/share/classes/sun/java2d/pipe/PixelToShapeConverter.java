@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.pipe;
+package java.desktop.share.classes.sun.java2d.pipe;
+
 
 import java.awt.Rectangle;
 import java.awt.Shape;
@@ -28,7 +29,21 @@ import java.awt.geom.Ellipse2D;
 import java.awt.geom.Line2D;
 import java.awt.geom.RoundRectangle2D;
 import java.awt.geom.GeneralPath;
-import sun.java2d.SunGraphics2D;
+import java.desktop.share.classes.sun.java2d.SunGraphics2D;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class converts calls to the basic pixel rendering methods

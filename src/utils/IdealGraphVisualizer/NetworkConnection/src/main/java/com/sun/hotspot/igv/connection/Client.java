@@ -18,15 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.connection;
 
-import com.sun.hotspot.igv.data.GraphDocument;
-import com.sun.hotspot.igv.data.serialization.BinaryParser;
-import com.sun.hotspot.igv.data.serialization.Parser;
-import com.sun.hotspot.igv.data.services.GroupCallback;
-import java.io.IOException;
-import java.nio.channels.SocketChannel;
+package utils.IdealGraphVisualizer.NetworkConnection.src.main.java.com.sun.hotspot.igv.connection;
+
+
+import utils.IdealGraphVisualizer.NetworkConnection.src.main.java.com.sun.hotspot.igv.data.GraphDocument;
+import utils.IdealGraphVisualizer.NetworkConnection.src.main.java.com.sun.hotspot.igv.data.serialization.BinaryParser;
+import utils.IdealGraphVisualizer.NetworkConnection.src.main.java.com.sun.hotspot.igv.data.serialization.Parser;
+import utils.IdealGraphVisualizer.NetworkConnection.src.main.java.com.sun.hotspot.igv.data.services.GroupCallback;
+import utils.IdealGraphVisualizer.NetworkConnection.src.main.java.io.java.io.java.io.java.io.IOException;
+import utils.IdealGraphVisualizer.NetworkConnection.src.main.java.nio.channels.java.net.SocketChannel;
 import org.openide.util.Exceptions;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Client implements Runnable {
     private final boolean binary;

@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.accessibility;
+package java.desktop.share.classes.javax.accessibility;
 
-import java.util.ListResourceBundle;
+
+import java.util.java.util.ListResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A resource bundle containing the localized strings in the accessibility

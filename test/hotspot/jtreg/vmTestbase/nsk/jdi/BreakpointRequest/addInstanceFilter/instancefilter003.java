@@ -21,14 +21,26 @@
 
 package nsk.jdi.BreakpointRequest.addInstanceFilter;
 
+
 import nsk.share.*;
 import nsk.share.jdi.*;
-
 import com.sun.jdi.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
-
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>

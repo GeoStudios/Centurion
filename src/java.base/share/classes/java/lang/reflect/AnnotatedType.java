@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.reflect;
+package java.base.share.classes.java.lang.reflect;
 
-import java.lang.annotation.Annotation;
+
+import java.base.share.classes.java.lang.annotation.Annotation;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code AnnotatedType} represents the potentially annotated use of a type in

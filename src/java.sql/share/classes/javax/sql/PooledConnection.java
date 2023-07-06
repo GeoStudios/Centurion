@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.sql;
+package java.sql.share.classes.javax.sql;
+
 
 import java.sql.Connection;
 import java.sql.SQLException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An object that provides hooks for connection pool management.

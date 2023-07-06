@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.runtime.safepoints;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8148490
@@ -30,7 +47,6 @@
  *                   compiler.runtime.safepoints.TestRegisterRestoring
  */
 
-package compiler.runtime.safepoints;
 
 public class TestRegisterRestoring {
     public static void main(String args[]) throws Exception {

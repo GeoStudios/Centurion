@@ -19,16 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs;
+
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.ValidationContext;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.util.Bytejava.util.ListImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.impl.dv.xs;
 
-import com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
-import com.sun.org.apache.xerces.internal.impl.dv.ValidationContext;
-import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
-import com.sun.org.apache.xerces.internal.impl.dv.util.ByteListImpl;
+
 
 /**
  * Represent the schema type "base64Binary"

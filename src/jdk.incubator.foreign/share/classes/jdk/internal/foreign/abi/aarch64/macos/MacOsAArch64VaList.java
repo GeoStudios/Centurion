@@ -18,22 +18,36 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.foreign.abi.aarch64.macos;
 
-import jdk.incubator.foreign.*;
-import jdk.incubator.foreign.CLinker.VaList;
-import jdk.internal.foreign.ResourceScopeImpl;
-import jdk.internal.foreign.abi.SharedUtils;
-import jdk.internal.foreign.abi.SharedUtils.SimpleVaArg;
-import jdk.internal.foreign.abi.aarch64.*;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.aarch64.macos;
 
+
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.*;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.CLinker.Vajava.util.java.util.java.util.List;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.ResourceScopeImpl;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.SharedUtils;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.SharedUtils.SimpleVaArg;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.aarch64.*;
 import java.lang.invoke.VarHandle;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
+import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.PlatformLayouts.AArch64.C_POINTER;.extended
+import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.SharedUtils.alignUp;.extended
 
-import static jdk.internal.foreign.PlatformLayouts.AArch64.C_POINTER;
-import static jdk.internal.foreign.abi.SharedUtils.alignUp;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Simplified va_list implementation used on macOS where all variadic

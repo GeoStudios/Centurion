@@ -19,8 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.util;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // key: compiler.err.package.in.other.module
 
-package java.util;
 
 class PackageInOtherModule {}

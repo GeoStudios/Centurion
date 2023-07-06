@@ -19,21 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.OutputStream;
+import javax.xml.parsers.ParserConfigurationException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.CanonicalizationException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.InvalidCanonicalizerException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.XMLSignatureInput;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.crypto.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.transforms;
 
-import java.io.IOException;
-import java.io.OutputStream;
-import javax.xml.parsers.ParserConfigurationException;
 
-import com.sun.org.apache.xml.internal.security.c14n.CanonicalizationException;
-import com.sun.org.apache.xml.internal.security.c14n.InvalidCanonicalizerException;
-import com.sun.org.apache.xml.internal.security.signature.XMLSignatureInput;
-import org.w3c.dom.Element;
-import org.xml.sax.SAXException;
+
 
 /**
  * Base class which all Transform algorithms extend. The common methods that

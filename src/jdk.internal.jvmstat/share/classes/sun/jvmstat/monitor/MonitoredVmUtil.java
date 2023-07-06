@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvmstat.monitor;
+package jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class proving concenience methods for extracting various

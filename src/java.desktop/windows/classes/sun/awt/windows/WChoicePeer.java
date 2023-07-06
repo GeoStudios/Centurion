@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.windows;
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.awt.Choice;
 import java.awt.Component;
@@ -29,11 +30,24 @@ import java.awt.Window;
 import java.awt.event.ItemEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-import java.awt.event.WindowListener;
+import java.awt.event.Windowjava.util.Listener;
 import java.awt.peer.ChoicePeer;
+import java.desktop.windows.classes.sun.awt.AWTAccessor;
+import java.desktop.windows.classes.sun.awt.SunToolkit;
 
-import sun.awt.AWTAccessor;
-import sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class WChoicePeer extends WComponentPeer implements ChoicePeer {
 

@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jvmti.Allocate.alloc001;
+
+
+import jdk.test.lib.Platform;
+import jdk.test.lib.Utils;
+import jdk.test.lib.process.ProcessTools;
+import jtreg.SkippedException;
+import java.io.File;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -44,14 +65,8 @@
  * @run main/native nsk.jvmti.Allocate.alloc001.alloc001
  */
 
-package nsk.jvmti.Allocate.alloc001;
 
-import jdk.test.lib.Platform;
-import jdk.test.lib.Utils;
-import jdk.test.lib.process.ProcessTools;
-import jtreg.SkippedException;
 
-import java.io.File;
 
 class Test {
     static {

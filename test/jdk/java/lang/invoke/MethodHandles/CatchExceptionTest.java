@@ -21,24 +21,37 @@
 
 package test.java.lang.invoke.MethodHandles;
 
+
 import jdk.test.lib.TimeLimitedRunner;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.Utils;
 import test.java.lang.invoke.lib.CodeCacheOverflowProcessor;
 import test.java.lang.invoke.lib.Helper;
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 import java.util.function.Supplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* @test
  * @library /java/lang/invoke/common /test/lib

@@ -19,22 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http.websocket;
+package java.net.http.share.classes.jdk.internal.net.http.websocket;
 
-import jdk.internal.net.http.common.Logger;
-import jdk.internal.net.http.common.Utils;
-import jdk.internal.net.http.websocket.Frame.Opcode;
 
+import java.net.http.share.classes.jdk.internal.net.http.common.Logger;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+import java.net.http.share.classes.jdk.internal.net.http.websocket.Frame.Opcode;
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.CharacterCodingException;
+import static java.lang.String.format;.extended
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
+import static java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.dump;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.websocket.StatusCodes.NO_STATUS_CODE;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.websocket.StatusCodes.isLegalToReceiveFromServer;.extended
 
-import static java.lang.String.format;
-import static java.nio.charset.StandardCharsets.UTF_8;
-import static java.util.Objects.requireNonNull;
-import static jdk.internal.net.http.common.Utils.dump;
-import static jdk.internal.net.http.websocket.StatusCodes.NO_STATUS_CODE;
-import static jdk.internal.net.http.websocket.StatusCodes.isLegalToReceiveFromServer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Consumes frame parts and notifies a message consumer, when there is

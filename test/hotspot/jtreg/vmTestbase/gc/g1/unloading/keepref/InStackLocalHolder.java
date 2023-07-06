@@ -18,9 +18,24 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package gc.g1.unloading.keepref;
 
+
 import gc.g1.unloading.check.cleanup.UnusedThreadKiller;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This holder prevents class from being unloaded by keeping reference in stack local.

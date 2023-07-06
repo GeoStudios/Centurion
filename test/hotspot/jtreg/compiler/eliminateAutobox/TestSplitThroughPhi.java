@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.eliminateAutobox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8224957
@@ -28,7 +45,6 @@
  *                   compiler.eliminateAutobox.TestSplitThroughPhi
  */
 
-package compiler.eliminateAutobox;
 
 public class TestSplitThroughPhi {
 

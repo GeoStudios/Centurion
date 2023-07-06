@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.random;
+package java.base.share.classes.java.util.random;
 
-import java.math.BigInteger;
-import java.security.SecureRandom;
-import java.util.Objects;
-import java.util.concurrent.ThreadLocalRandom;
+
+import java.base.share.classes.java.math.BigInteger;
+import java.base.share.classes.java.security.SecureRandom;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.concurrent.ThreadLocalRandom;
 import jdk.internal.util.random.RandomSupport;
 import jdk.internal.util.random.RandomSupport.*;
+import java.base.share.classes.java.util.stream.DoubleStream;
+import java.base.share.classes.java.util.stream.IntStream;
+import java.base.share.classes.java.util.stream.LongStream;
+import java.base.share.classes.java.util.stream.Stream;
 
-import java.util.stream.DoubleStream;
-import java.util.stream.IntStream;
-import java.util.stream.LongStream;
-import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@link RandomGenerator} interface is designed to provide a common

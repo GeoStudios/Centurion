@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.image;
+package java.desktop.share.classes.sun.awt.image;
+
 
 import java.util.Hashtable;
 import java.awt.image.ImageConsumer;
@@ -31,6 +32,20 @@ import java.awt.image.IndexColorModel;
 import java.awt.image.DirectColorModel;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBuffer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class OffScreenImageSource implements ImageProducer {
     BufferedImage image;

@@ -18,12 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.plaf.nimbus;
+
+package java.desktop.share.classes.javax.swing.plaf.nimbus;
+
 
 import sun.awt.AppContext;
-
 import java.awt.image.BufferedImage;
 import java.lang.ref.SoftReference;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Effect

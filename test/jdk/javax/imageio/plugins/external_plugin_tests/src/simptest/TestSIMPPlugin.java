@@ -21,9 +21,10 @@
 
 package simptest;
 
+
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.Iterator;
 import javax.imageio.ImageIO;
 import javax.imageio.ImageReader;
@@ -32,6 +33,19 @@ import javax.imageio.metadata.IIOMetadataFormat;
 import javax.imageio.spi.ImageReaderSpi;
 import javax.imageio.stream.ImageInputStream;
 import javax.imageio.stream.MemoryCacheImageInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TestSIMPPlugin {
 

@@ -19,10 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.remote.internal;
+package java.management.share.classes.com.sun.jmx.remote.internal;
 
 
-import com.sun.jmx.remote.util.ClassLogger;
+import java.management.share.classes.com.sun.jmx.remote.util.ClassLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class ServerCommunicatorAdmin {
     public ServerCommunicatorAdmin(long timeout) {

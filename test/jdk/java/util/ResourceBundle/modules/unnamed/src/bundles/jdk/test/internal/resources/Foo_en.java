@@ -21,7 +21,21 @@
 
 package jdk.test.internal.resources;
 
-import java.util.ListResourceBundle;
+
+import java.util.java.util.ListResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Foo_en extends ListResourceBundle {
     @Override

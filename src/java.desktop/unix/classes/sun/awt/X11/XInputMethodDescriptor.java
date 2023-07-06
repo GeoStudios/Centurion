@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.unix.classes.sun.awt.X11;
 
-package sun.awt.X11;
 
 import java.awt.im.spi.InputMethod;
-import sun.awt.X11InputMethodDescriptor;
+import java.desktop.unix.classes.sun.awt.X11InputMethodDescriptor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class XInputMethodDescriptor extends X11InputMethodDescriptor {
 

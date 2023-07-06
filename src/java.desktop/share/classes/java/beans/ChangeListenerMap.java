@@ -18,17 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.beans;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.EventListener;
-import java.util.EventListenerProxy;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Set;
+package java.desktop.share.classes.java.beans;
+
+
+import java.desktop.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.desktop.share.classes.java.util.Collections;
+import java.desktop.share.classes.java.util.Eventjava.util.Listener;
+import java.desktop.share.classes.java.util.Eventjava.util.ListenerProxy;
+import java.desktop.share.classes.java.util.HashMap;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.List;
+import java.desktop.share.classes.java.util.Map;
+import java.desktop.share.classes.java.util.Map.Entry;
+import java.desktop.share.classes.java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is an abstract class that provides base functionality

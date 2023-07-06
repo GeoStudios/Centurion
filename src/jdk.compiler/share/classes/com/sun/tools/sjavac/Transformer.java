@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac;
+package jdk.compiler.share.classes.com.sun.tools.sjavac;
+
 
 import java.io.Writer;
 import java.net.URI;
 import java.util.Map;
 import java.util.Set;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.comp.CompilationService;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.options.Options;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.pubapi.PubApi;
 
-import com.sun.tools.sjavac.comp.CompilationService;
-import com.sun.tools.sjavac.options.Options;
-import com.sun.tools.sjavac.pubapi.PubApi;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The transform interface is used to transform content inside a package, from one form to another.

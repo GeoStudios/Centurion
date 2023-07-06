@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.code;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code;
+
 
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A Location value describes a value in a given location; i.e. the
     corresponding logical entity (e.g., a method temporary) lives in

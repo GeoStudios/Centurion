@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package P;
+
+
+import static P.Outer.Nested.*;.extended
+import static P.Q.C.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8075274
@@ -30,10 +49,7 @@
  * @compile Outer.java D.java C.java
  * @compile Outer.java C.java D.java
  */
-package P;
 
-import static P.Outer.Nested.*;
-import static P.Q.C.*;
 
 public class Outer {
   public static class Nested implements I {

@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.vm.ci.runtime.test;
+
 
 import jdk.internal.misc.Unsafe;
 import jdk.vm.ci.meta.ConstantReflectionProvider;
@@ -28,32 +30,43 @@ import jdk.vm.ci.meta.ResolvedJavaField;
 import jdk.vm.ci.meta.ResolvedJavaType;
 import jdk.vm.ci.runtime.JVMCI;
 import org.junit.Test;
-
 import java.io.Serializable;
 import java.lang.reflect.Array;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.AbstractCollection;
-import java.util.AbstractList;
+import java.util.Abstractjava.util.java.util.java.util.List;
 import java.util.ArrayDeque;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.IdentityHashMap;
 import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Queue;
 import java.util.Set;
 import java.util.TreeMap;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
+import static java.lang.reflect.Modifier.isFinal;.extended
+import static java.lang.reflect.Modifier.isStatic;.extended
 
-import static java.lang.reflect.Modifier.isFinal;
-import static java.lang.reflect.Modifier.isStatic;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Context for type related tests.

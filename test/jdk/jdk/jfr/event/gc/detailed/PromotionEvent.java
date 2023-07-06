@@ -18,22 +18,35 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.jfr.event.gc.detailed;
 
-import static jdk.test.lib.Asserts.assertEquals;
-import static jdk.test.lib.Asserts.assertNotEquals;
-import static jdk.test.lib.Asserts.assertNotNull;
-import static jdk.test.lib.Asserts.assertTrue;
 
+import static jdk.test.lib.Asserts.assertEquals;.extended
+import static jdk.test.lib.Asserts.assertNotEquals;.extended
+import static jdk.test.lib.Asserts.assertNotNull;.extended
+import static jdk.test.lib.Asserts.assertTrue;.extended
 import java.lang.management.GarbageCollectorMXBean;
 import java.lang.management.ManagementFactory;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
-
 import jdk.jfr.Recording;
 import jdk.jfr.consumer.RecordedEvent;
 import jdk.test.lib.jfr.EventNames;
 import jdk.test.lib.jfr.Events;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is a base class for testing Promotion Events

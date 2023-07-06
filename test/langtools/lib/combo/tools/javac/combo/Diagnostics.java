@@ -21,12 +21,25 @@
 
 package tools.javac.combo;
 
+
 import javax.tools.Diagnostic;
 import javax.tools.JavaFileObject;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import static java.util.stream.Collectors.tojava.util.java.util.java.util.List;.extended
 
-import static java.util.stream.Collectors.toList;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
 * A container for compiler diagnostics, separated into errors and warnings,

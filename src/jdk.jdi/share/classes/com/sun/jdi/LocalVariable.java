@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jdi;
+package jdk.jdi.share.classes.com.sun.jdi;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A local variable in the target VM. Each variable declared within a

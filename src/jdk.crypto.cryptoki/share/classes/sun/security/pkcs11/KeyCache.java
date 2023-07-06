@@ -19,14 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs11;
+package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11;
+
 
 import java.util.*;
 import java.lang.ref.*;
+import java.base.share.classes.java.security.Key;
+import jdk.crypto.cryptoki.share.classes.sun.security.util.Cache;
 
-import java.security.Key;
 
-import sun.security.util.Cache;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Key to P11Key translation cache. The PKCS#11 token can only perform
@@ -59,10 +72,9 @@ final class KeyCache {
             if (this == o) {
                 return true;
             }
-            if (!(o instanceof IdentityWrapper)) {
+            if (!(o instanceof IdentityWrapper other)) {
                 return false;
             }
-            IdentityWrapper other = (IdentityWrapper)o;
             return this.obj == other.obj;
         }
         public int hashCode() {

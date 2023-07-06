@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.im;
+package java.desktop.share.classes.sun.awt.im;
+
 
 import java.awt.AWTException;
 import java.awt.CheckboxMenuItem;
@@ -31,9 +32,9 @@ import java.awt.PopupMenu;
 import java.awt.Menu;
 import java.awt.MenuItem;
 import java.awt.Toolkit;
-import sun.awt.AppContext;
+import java.desktop.share.classes.sun.awt.AppContext;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.event.InvocationEvent;
 import java.awt.im.spi.InputMethodDescriptor;
 import java.lang.reflect.InvocationTargetException;
@@ -43,14 +44,28 @@ import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
 import java.util.Hashtable;
 import java.util.Iterator;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.ServiceLoader;
 import java.util.Vector;
 import java.util.Set;
 import java.util.prefs.BackingStoreException;
 import java.util.prefs.Preferences;
-import sun.awt.InputMethodSupport;
-import sun.awt.SunToolkit;
+import java.desktop.share.classes.sun.awt.InputMethodSupport;
+import java.desktop.share.classes.sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code InputMethodManager} is an abstract class that manages the input

@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.font;
+package java.desktop.share.classes.java.awt.font;
 
-import java.text.CharacterIterator;
+
+import java.desktop.share.classes.java.text.CharacterIterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class CharArrayIterator implements CharacterIterator {
 

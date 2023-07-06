@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.share.classes.sun.awt;
+
 
 import java.awt.AWTEvent;
 import java.security.AccessController;
@@ -28,9 +29,22 @@ import java.util.HashSet;
 import java.util.IdentityHashMap;
 import java.util.Map;
 import java.util.Set;
+import java.desktop.share.classes.sun.awt.util.ThreadGroupUtils;
+import java.desktop.share.classes.sun.util.logging.PlatformLogger;
 
-import sun.awt.util.ThreadGroupUtils;
-import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is to let AWT shutdown automatically when a user is done

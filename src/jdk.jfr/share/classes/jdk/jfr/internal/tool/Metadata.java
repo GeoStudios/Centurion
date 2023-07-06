@@ -19,30 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.tool;
+package jdk.jfr.share.classes.jdk.jfr.internal.tool;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Deque;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.function.Predicate;
+import jdk.jfr.share.classes.jdk.jfr.EventType;
+import jdk.jfr.share.classes.jdk.jfr.FlightRecorder;
+import jdk.jfr.share.classes.jdk.jfr.consumer.RecordingFile;
+import jdk.jfr.share.classes.jdk.jfr.internal.PlatformEventType;
+import jdk.jfr.share.classes.jdk.jfr.internal.PrivateAccess;
+import jdk.jfr.share.classes.jdk.jfr.internal.Type;
+import jdk.jfr.share.classes.jdk.jfr.internal.TypeLibrary;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.JdkJfrConsumer;
 
-import jdk.jfr.EventType;
-import jdk.jfr.FlightRecorder;
-import jdk.jfr.consumer.RecordingFile;
-import jdk.jfr.internal.PlatformEventType;
-import jdk.jfr.internal.PrivateAccess;
-import jdk.jfr.internal.Type;
-import jdk.jfr.internal.TypeLibrary;
-import jdk.jfr.internal.consumer.JdkJfrConsumer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class Metadata extends Command {
 

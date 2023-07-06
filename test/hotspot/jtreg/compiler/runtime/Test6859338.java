@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.runtime;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6859338
@@ -30,7 +47,6 @@
  *      compiler.runtime.Test6859338
  */
 
-package compiler.runtime;
 
 public class Test6859338 {
     static Object[] o = new Object[] { new Object(), null };

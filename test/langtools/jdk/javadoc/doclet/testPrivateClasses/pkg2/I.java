@@ -21,6 +21,21 @@
 
 package pkg2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 interface I<T> {
         /**
          * This comment should get copied to the implementing class

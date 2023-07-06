@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.imageio.plugins.common;
+
+package java.desktop.share.classes.com.sun.imageio.plugins.common;
+
 
 import java.awt.Point;
 import java.awt.Rectangle;
@@ -31,6 +33,20 @@ import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class SimpleRenderedImage implements RenderedImage {
     /** The X coordinate of the image's upper-left pixel. */

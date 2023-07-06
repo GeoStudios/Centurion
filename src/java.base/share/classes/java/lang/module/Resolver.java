@@ -19,30 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.module;
+package java.base.share.classes.java.lang.module;
 
-import java.io.PrintStream;
-import java.lang.module.ModuleDescriptor.Provides;
-import java.lang.module.ModuleDescriptor.Requires.Modifier;
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Deque;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.HexFormat;
-import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-import java.util.Set;
-import java.util.stream.Collectors;
 
+import java.base.share.classes.java.io.PrintStream;
+import java.base.share.classes.java.lang.module.ModuleDescriptor.Provides;
+import java.base.share.classes.java.lang.module.ModuleDescriptor.Requires.Modifier;
+import java.base.share.classes.java.util.ArrayDeque;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.Collection;
+import java.base.share.classes.java.util.Deque;
+import java.base.share.classes.java.util.HashMap;
+import java.base.share.classes.java.util.HashSet;
+import java.base.share.classes.java.util.HexFormat;
+import java.base.share.classes.java.util.LinkedHashSet;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.Optional;
+import java.base.share.classes.java.util.Set;
+import java.base.share.classes.java.util.stream.Collectors;
 import jdk.internal.module.ModuleHashes;
 import jdk.internal.module.ModuleReferenceImpl;
 import jdk.internal.module.ModuleResolution;
 import jdk.internal.module.ModuleTarget;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The resolver used by {@link Configuration#resolve} and {@link

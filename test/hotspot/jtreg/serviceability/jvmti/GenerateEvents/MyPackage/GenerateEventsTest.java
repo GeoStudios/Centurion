@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package MyPackage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8222072
@@ -28,7 +45,6 @@
  * @run main/othervm/native -agentlib:GenerateEvents1 -agentlib:GenerateEvents2 MyPackage.GenerateEventsTest
  */
 
-package MyPackage;
 
 public class GenerateEventsTest {
   static native void agent1GenerateEvents();

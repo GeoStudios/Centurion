@@ -21,6 +21,21 @@
 
 package pkg5;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public enum EnumTest {
     ONE,
     TWO,

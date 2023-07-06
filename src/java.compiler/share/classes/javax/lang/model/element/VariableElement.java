@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.lang.model.element;
+package java.compiler.share.classes.javax.lang.model.element;
 
-import javax.lang.model.util.Elements;
-import javax.lang.model.type.TypeMirror;
-import javax.lang.model.type.TypeKind;
+
+import java.compiler.share.classes.javax.lang.model.util.Elements;
+import java.compiler.share.classes.javax.lang.model.type.TypeMirror;
+import java.compiler.share.classes.javax.lang.model.type.TypeKind;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a field, {@code enum} constant, method or constructor

@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xpath.internal.axes;
+package java.xml.share.classes.com.sun.org.apache.xpath.internal.axes;
 
-import com.sun.org.apache.xml.internal.dtm.DTM;
-import com.sun.org.apache.xml.internal.utils.PrefixResolver;
-import com.sun.org.apache.xml.internal.utils.QName;
-import com.sun.org.apache.xpath.internal.Expression;
-import com.sun.org.apache.xpath.internal.ExpressionOwner;
-import com.sun.org.apache.xpath.internal.VariableStack;
-import com.sun.org.apache.xpath.internal.XPathVisitor;
-import com.sun.org.apache.xpath.internal.compiler.Compiler;
-import com.sun.org.apache.xpath.internal.compiler.OpMap;
-import java.util.List;
+
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.PrefixResolver;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.Expression;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.ExpressionOwner;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.VariableStack;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathVisitor;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.Compiler;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.OpMap;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Location path iterator that uses Walkers.

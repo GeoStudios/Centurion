@@ -19,34 +19,49 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.compiler;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-import com.sun.org.apache.bcel.internal.classfile.Field;
-import com.sun.org.apache.bcel.internal.generic.ASTORE;
-import com.sun.org.apache.bcel.internal.generic.CHECKCAST;
-import com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
-import com.sun.org.apache.bcel.internal.generic.GETFIELD;
-import com.sun.org.apache.bcel.internal.generic.INVOKESPECIAL;
-import com.sun.org.apache.bcel.internal.generic.InstructionList;
-import com.sun.org.apache.bcel.internal.generic.LocalVariableGen;
-import com.sun.org.apache.bcel.internal.generic.NEW;
-import com.sun.org.apache.bcel.internal.generic.PUSH;
-import com.sun.org.apache.bcel.internal.generic.PUTFIELD;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.BooleanType;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ClassGenerator;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.FilterGenerator;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.IntType;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.MethodGenerator;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.NumberType;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ReferenceType;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ResultTreeType;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.TestGenerator;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.TypeCheckError;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.Util;
-import com.sun.org.apache.xalan.internal.xsltc.runtime.Operators;
-import java.util.ArrayList;
-import java.util.List;
+
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Field;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ASTORE;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.CHECKCAST;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.GETFIELD;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.INVOKESPECIAL;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Instructionjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.LocalVariableGen;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.NEW;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.PUSH;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.PUTFIELD;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.BooleanType;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ClassGenerator;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.FilterGenerator;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.IntType;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.MethodGenerator;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.NumberType;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ReferenceType;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ResultTreeType;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.TestGenerator;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.TypeCheckError;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.Util;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime.Operators;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @LastModified: Oct 2017

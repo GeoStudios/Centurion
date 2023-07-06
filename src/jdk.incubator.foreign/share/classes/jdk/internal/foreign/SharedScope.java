@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.foreign;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
 
-import jdk.incubator.foreign.ResourceScope;
-import jdk.internal.misc.ScopedMemoryAccess;
 
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.ResourceScope;
+import jdk.incubator.foreign.share.classes.jdk.internal.misc.ScopedMemoryAccess;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
 import java.lang.ref.Cleaner;
 import java.lang.ref.Reference;
 import java.util.concurrent.atomic.AtomicBoolean;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A shared scope, which can be shared across multiple threads. Closing a shared scope has to ensure that

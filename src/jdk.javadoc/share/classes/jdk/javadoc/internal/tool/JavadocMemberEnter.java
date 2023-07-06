@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.tool;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.tool;
+
 
 import com.sun.source.util.TreePath;
 import com.sun.tools.javac.code.Flags;
@@ -29,10 +30,23 @@ import com.sun.tools.javac.tree.JCTree;
 import com.sun.tools.javac.tree.JCTree.*;
 import com.sun.tools.javac.tree.TreeInfo;
 import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.List;
+import com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import static com.sun.tools.javac.code.Flags.*;.extended
+import static com.sun.tools.javac.code.Kinds.Kind.*;.extended
 
-import static com.sun.tools.javac.code.Flags.*;
-import static com.sun.tools.javac.code.Kinds.Kind.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  Javadoc's own memberEnter phase does a few things above and beyond that

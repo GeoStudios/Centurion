@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.toolkit.util;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util;
+
 
 import java.lang.annotation.Documented;
 import java.lang.ref.SoftReference;
@@ -29,7 +30,7 @@ import java.text.Collator;
 import java.text.ParseException;
 import java.text.RuleBasedCollator;
 import java.util.ArrayDeque;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Deque;
@@ -39,18 +40,17 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
 import java.util.SortedSet;
 import java.util.TreeMap;
 import java.util.TreeSet;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
-
 import javax.lang.model.AnnotatedConstruct;
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.AnnotationMirror;
@@ -86,7 +86,6 @@ import javax.tools.FileObject;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileManager.Location;
 import javax.tools.StandardLocation;
-
 import com.sun.source.doctree.BlockTagTree;
 import com.sun.source.doctree.DeprecatedTree;
 import com.sun.source.doctree.DocCommentTree;
@@ -111,20 +110,32 @@ import com.sun.source.util.DocSourcePositions;
 import com.sun.source.util.DocTrees;
 import com.sun.source.util.TreePath;
 import com.sun.tools.javac.model.JavacTypes;
-import jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
-import jdk.javadoc.internal.doclets.toolkit.BaseOptions;
-import jdk.javadoc.internal.doclets.toolkit.CommentUtils;
-import jdk.javadoc.internal.doclets.toolkit.CommentUtils.DocCommentInfo;
-import jdk.javadoc.internal.doclets.toolkit.Resources;
-import jdk.javadoc.internal.doclets.toolkit.taglets.BaseTaglet;
-import jdk.javadoc.internal.doclets.toolkit.taglets.Taglet;
-import jdk.javadoc.internal.tool.DocEnvImpl;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.BaseOptions;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.CommentUtils;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.CommentUtils.DocCommentInfo;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Resources;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.taglets.BaseTaglet;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.taglets.Taglet;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.tool.DocEnvImpl;
+import static javax.lang.model.element.ElementKind.*;.extended
+import static javax.lang.model.type.TypeKind.*;.extended
+import static com.sun.source.doctree.DocTree.Kind.*;.extended
+import static jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.builders.ConstantsSummaryBuilder.MAX_CONSTANT_VALUE_INDEX_LENGTH;.extended
 
-import static javax.lang.model.element.ElementKind.*;
-import static javax.lang.model.type.TypeKind.*;
 
-import static com.sun.source.doctree.DocTree.Kind.*;
-import static jdk.javadoc.internal.doclets.toolkit.builders.ConstantsSummaryBuilder.MAX_CONSTANT_VALUE_INDEX_LENGTH;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utilities Class for Doclets.
@@ -2354,7 +2365,7 @@ public class Utils {
     }
 
     /**
-     * Get the package name for a given package element. An unnamed package is returned as &lt;Unnamed&gt;
+     * Get the 
      * Use {@link jdk.javadoc.internal.doclets.formats.html.HtmlDocletWriter#getLocalizedPackageName(PackageElement)}
      * to get a localized string for the unnamed package instead.
      *

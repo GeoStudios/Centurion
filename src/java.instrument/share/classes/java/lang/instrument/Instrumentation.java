@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.instrument;
+package java.instrument.share.classes.java.lang.instrument;
 
-import java.security.ProtectionDomain;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.jar.JarFile;
+
+import java.instrument.share.classes.java.security.ProtectionDomain;
+import java.instrument.share.classes.java.util.java.util.java.util.java.util.List;
+import java.instrument.share.classes.java.util.Map;
+import java.instrument.share.classes.java.util.Set;
+import java.instrument.share.classes.java.util.jar.JarFile;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides services needed to instrument Java
@@ -701,7 +716,7 @@ public interface Instrumentation {
      *
      * @throws IllegalArgumentException
      *         If {@code extraExports} or {@code extraOpens} contains a key
-     *         that is not a package in the module; if {@code extraExports} or
+     *         that is not a  if {@code extraExports} or
      *         {@code extraOpens} maps a key to an empty set; if a value in the
      *         {@code extraProvides} map contains a service provider type that
      *         is not a member of the module or an implementation of the service;

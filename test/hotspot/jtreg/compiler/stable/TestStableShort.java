@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.stable;
+
+
+import jdk.internal.vm.annotation.Stable;
+import java.lang.reflect.InvocationTargetException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestStableShort
  * @summary tests on stable fields and arrays
@@ -50,11 +69,8 @@
  *                                 compiler.stable.TestStableShort
  */
 
-package compiler.stable;
 
-import jdk.internal.vm.annotation.Stable;
 
-import java.lang.reflect.InvocationTargetException;
 
 public class TestStableShort {
     static final boolean isStableEnabled    = StableConfiguration.isStableEnabled;

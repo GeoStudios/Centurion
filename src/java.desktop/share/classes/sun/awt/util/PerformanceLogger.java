@@ -19,15 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.share.classes.sun.awt.util;
 
-
-package sun.awt.util;
 
 import java.util.Vector;
 import java.io.FileWriter;
 import java.io.File;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is intended to be a central place for the jdk to

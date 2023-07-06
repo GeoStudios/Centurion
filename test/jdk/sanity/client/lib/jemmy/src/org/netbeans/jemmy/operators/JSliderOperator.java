@@ -18,17 +18,17 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.operators;
+
 
 import java.awt.Container;
 import java.util.Dictionary;
 import java.util.Hashtable;
-
 import javax.swing.BoundedRangeModel;
 import javax.swing.JSlider;
-import javax.swing.event.ChangeListener;
+import javax.swing.event.Changejava.util.Listener;
 import javax.swing.plaf.SliderUI;
-
 import org.netbeans.jemmy.Action;
 import org.netbeans.jemmy.ComponentChooser;
 import org.netbeans.jemmy.ComponentSearcher;
@@ -40,6 +40,19 @@ import org.netbeans.jemmy.Timeouts;
 import org.netbeans.jemmy.drivers.DriverManager;
 import org.netbeans.jemmy.drivers.ScrollDriver;
 import org.netbeans.jemmy.drivers.scrolling.ScrollAdjuster;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Covers {@code javax.swing.JSlider} component.

@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.util.xml.impl;
+package java.base.share.classes.jdk.internal.util.xml.impl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
-import jdk.internal.org.xml.sax.InputSource;
-import jdk.internal.org.xml.sax.SAXException;
-import jdk.internal.org.xml.sax.XMLReader;
-import jdk.internal.org.xml.sax.helpers.DefaultHandler;
-import jdk.internal.util.xml.SAXParser;
+import java.base.share.classes.jdk.internal.org.xml.sax.InputSource;
+import java.base.share.classes.jdk.internal.org.xml.sax.SAXException;
+import java.base.share.classes.jdk.internal.org.xml.sax.XMLReader;
+import java.base.share.classes.jdk.internal.org.xml.sax.helpers.DefaultHandler;
+import java.base.share.classes.jdk.internal.util.xml.SAXParser;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SAXParserImpl extends SAXParser {
 

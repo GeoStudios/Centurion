@@ -19,21 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.parsers;
+package java.xml.share.classes.javax.xml.parsers;
+
 
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
-
-import javax.xml.validation.Schema;
-
+import java.xml.share.classes.javax.xml.validation.Schema;
 import org.w3c.dom.Document;
 import org.w3c.dom.DOMImplementation;
-
 import org.xml.sax.EntityResolver;
 import org.xml.sax.ErrorHandler;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines the API to obtain DOM Document instances from an XML

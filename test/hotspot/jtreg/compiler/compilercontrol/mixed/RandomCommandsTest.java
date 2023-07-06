@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.compilercontrol.mixed;
+
+
+import compiler.compilercontrol.share.MultiCommand;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key randomness
@@ -32,9 +50,7 @@
  * @run driver/timeout=1200 compiler.compilercontrol.mixed.RandomCommandsTest
  */
 
-package compiler.compilercontrol.mixed;
 
-import compiler.compilercontrol.share.MultiCommand;
 
 public class RandomCommandsTest {
     public static void main(String[] args) {

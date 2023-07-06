@@ -18,21 +18,36 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.module;
 
-import java.io.IOException;
+package java.base.share.classes.jdk.internal.module;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.lang.module.ModuleDescriptor;
 import java.nio.ByteBuffer;
 import java.util.Map;
 import java.util.stream.Stream;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ClassWriter;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ModuleVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.commons.ModuleResolutionAttribute;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.commons.ModuleTargetAttribute;
+import static java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes.*;.extended
 
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.org.objectweb.asm.ModuleVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.commons.ModuleResolutionAttribute;
-import jdk.internal.org.objectweb.asm.commons.ModuleTargetAttribute;
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class to write a ModuleDescriptor as a module-info.class.

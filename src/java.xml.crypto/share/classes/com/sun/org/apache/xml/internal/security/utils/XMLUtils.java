@@ -19,39 +19,57 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package com.sun.org.apache.xml.internal.security.utils;
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.lang.reflect.InvocationTargetException;
 import java.math.BigInteger;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Base64;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.CanonicalizationException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.Canonicalizer;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.InvalidCanonicalizerException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.parser.XMLParser;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.parser.XMLParserException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.parser.XMLParserImpl;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Attr;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Text;
 
-import com.sun.org.apache.xml.internal.security.c14n.CanonicalizationException;
-import com.sun.org.apache.xml.internal.security.c14n.Canonicalizer;
-import com.sun.org.apache.xml.internal.security.c14n.InvalidCanonicalizerException;
-import com.sun.org.apache.xml.internal.security.parser.XMLParser;
-import com.sun.org.apache.xml.internal.security.parser.XMLParserException;
-import com.sun.org.apache.xml.internal.security.parser.XMLParserImpl;
-import org.w3c.dom.Attr;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.w3c.dom.Text;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
 
 /**
  * DOM and XML accessibility and comfort functions.

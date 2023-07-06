@@ -19,20 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.text.MessageFormat;
-import java.util.Arrays;
-import java.util.Locale;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.java.util.Locale;
 import javax.net.ssl.SSLProtocolException;
-import sun.security.ssl.ClientHello.ClientHelloMessage;
-import static sun.security.ssl.SSLExtension.CH_RENEGOTIATION_INFO;
-import sun.security.ssl.SSLExtension.ExtensionConsumer;
-import static sun.security.ssl.SSLExtension.SH_RENEGOTIATION_INFO;
-import sun.security.ssl.SSLExtension.SSLExtensionSpec;
-import sun.security.ssl.SSLHandshake.HandshakeMessage;
+import java.base.share.classes.sun.security.ssl.ClientHello.ClientHelloMessage;
+import static java.base.share.classes.sun.security.ssl.SSLExtension.CH_RENEGOTIATION_INFO;.extended
+import java.base.share.classes.sun.security.ssl.SSLExtension.ExtensionConsumer;
+import static java.base.share.classes.sun.security.ssl.SSLExtension.SH_RENEGOTIATION_INFO;.extended
+import java.base.share.classes.sun.security.ssl.SSLExtension.SSLExtensionSpec;
+import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Pack of the "renegotiation_info" extensions [RFC 5746].

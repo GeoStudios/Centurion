@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.jar;
+package java.base.share.classes.java.util.jar;
 
-import java.io.*;
-import java.net.URL;
-import java.util.*;
-import java.security.*;
-import java.security.cert.CertificateException;
-import java.util.zip.ZipEntry;
 
+import java.base.share.classes.java.io.*;
+import java.base.share.classes.java.net.URL;
+import java.base.share.classes.java.util.*;
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.java.security.cert.CertificateException;
+import java.base.share.classes.java.util.zip.ZipEntry;
 import jdk.internal.util.jar.JarIndex;
 import sun.security.util.ManifestDigester;
 import sun.security.util.ManifestEntryVerifier;
 import sun.security.util.SignatureFileVerifier;
 import sun.security.util.Debug;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

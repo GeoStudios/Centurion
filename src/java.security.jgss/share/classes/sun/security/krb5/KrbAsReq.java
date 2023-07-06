@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5;
+package java.security.jgss.share.classes.sun.security.krb5;
 
-import sun.security.krb5.internal.*;
-import sun.security.krb5.internal.crypto.Nonce;
-import sun.security.krb5.internal.crypto.KeyUsage;
-import java.io.IOException;
+
+import java.security.jgss.share.classes.sun.security.krb5.internal.*;
+import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.Nonce;
+import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.KeyUsage;
+import java.io.java.io.java.io.java.io.IOException;
 import java.time.Instant;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class encapsulates the KRB-AS-REQ message that the client

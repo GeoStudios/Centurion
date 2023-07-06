@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.event.*;
 import java.beans.*;
-
 import javax.swing.JComponent;
 import javax.swing.border.Border;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaSplitPaneUI extends BasicSplitPaneUI implements MouseListener, PropertyChangeListener {
     static final String DIVIDER_PAINTER_KEY = "JSplitPane.dividerPainter";

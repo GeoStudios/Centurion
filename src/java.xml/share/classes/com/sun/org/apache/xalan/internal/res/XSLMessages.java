@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.res;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.res;
 
-import com.sun.org.apache.xpath.internal.res.XPATHMessages;
+
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHMessages;
 import java.util.ResourceBundle;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Sets things up for issuing error messages. This class is misnamed, and should

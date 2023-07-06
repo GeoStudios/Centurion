@@ -21,17 +21,30 @@
 
 package jdk.test.lib.jittester.factories;
 
-import java.util.ArrayList;
 
+import java.util.Arrayjava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.Operator;
 import jdk.test.lib.jittester.OperatorKind;
 import jdk.test.lib.jittester.ProductionFailedException;
 import jdk.test.lib.jittester.Rule;
 import jdk.test.lib.jittester.SymbolTable;
 import jdk.test.lib.jittester.Type;
-import jdk.test.lib.jittester.TypeList;
+import jdk.test.lib.jittester.Typejava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.PseudoRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class AssignmentOperatorFactory extends Factory<Operator> {
     private final int operatorLimit;

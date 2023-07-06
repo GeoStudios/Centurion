@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.jfr.jvm;
+
+
+import jdk.test.lib.dcmd.PidJcmdExecutor;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8157032
@@ -30,12 +50,8 @@
  * @run driver jdk.jfr.jvm.TestJfrJavaBase
  */
 
-package jdk.jfr.jvm;
 
 
-import jdk.test.lib.dcmd.PidJcmdExecutor;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class TestJfrJavaBase {
 

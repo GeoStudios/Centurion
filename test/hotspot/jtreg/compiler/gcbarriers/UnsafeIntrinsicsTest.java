@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.gcbarriers;
+
+
+import java.lang.reflect.Field;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Random;
+import jdk.test.lib.Utils;
+import sun.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test id=z
  * @key randomness
@@ -52,13 +74,7 @@
  *                   compiler.gcbarriers.UnsafeIntrinsicsTest
  */
 
-package compiler.gcbarriers;
 
-import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.Random;
-import jdk.test.lib.Utils;
-import sun.misc.Unsafe;
 
 public class UnsafeIntrinsicsTest {
 

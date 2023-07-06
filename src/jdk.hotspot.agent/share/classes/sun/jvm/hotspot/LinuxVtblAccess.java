@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot;
 
-import sun.jvm.hotspot.debugger.SymbolLookup;
-import sun.jvm.hotspot.types.Type;
-import sun.jvm.hotspot.types.basic.BasicVtblAccess;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.SymbolLookup;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.Type;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.basic.BasicVtblAccess;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class LinuxVtblAccess extends BasicVtblAccess {
   private final String vt;

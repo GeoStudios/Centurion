@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.icu.impl;
+package java.base.share.classes.jdk.internal.icu.impl;
 
-import jdk.internal.icu.text.UTF16;
 
+import java.base.share.classes.jdk.internal.icu.text.UTF16;
 import java.io.DataInputStream;
 import java.io.InputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Trie implementation which stores data in char, 16 bits.

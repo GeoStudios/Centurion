@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.jdeprscan;
+
+
+import com.sun.tools.jdeprscan.Main;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.PrintStream;
+import java.util.Scanner;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8168444
@@ -27,15 +51,7 @@
  * @run main jdk.jdeprscan.TestNotFound
  */
 
-package jdk.jdeprscan;
 
-import com.sun.tools.jdeprscan.Main;
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.IOException;
-import java.io.PrintStream;
-import java.util.Scanner;
 
 public class TestNotFound {
 

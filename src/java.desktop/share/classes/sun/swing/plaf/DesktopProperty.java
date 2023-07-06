@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.swing.plaf;
+package java.desktop.share.classes.sun.swing.plaf;
+
 
 import java.awt.Color;
 import java.awt.Font;
@@ -27,18 +28,30 @@ import java.awt.Frame;
 import java.awt.Toolkit;
 import java.awt.Window;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.WeakReference;
-
 import javax.swing.LookAndFeel;
 import javax.swing.SwingUtilities;
 import javax.swing.UIDefaults;
 import javax.swing.UIManager;
 import javax.swing.plaf.ColorUIResource;
 import javax.swing.plaf.FontUIResource;
+import java.desktop.share.classes.sun.awt.AppContext;
 
-import sun.awt.AppContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Wrapper for a value from the desktop. The value is lazily looked up, and

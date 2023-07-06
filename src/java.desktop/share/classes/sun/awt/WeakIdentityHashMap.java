@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.share.classes.sun.awt;
+
 
 import java.lang.ref.Reference;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.WeakReference;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // A weak key reference hash map that uses System.identityHashCode() and "=="
 // instead of hashCode() and equals(Object)

@@ -19,13 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package p;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Auxiliary file for test for 087314.
  * Test access checking within 'extends' and 'implements' clause.
  *
  */
 
-package p;
 
 public class ExtendsAccess {
     class defaultClass { }

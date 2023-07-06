@@ -18,17 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.plaf.nimbus;
 
-import javax.swing.Painter;
+package java.desktop.share.classes.javax.swing.plaf.nimbus;
 
-import javax.swing.JComponent;
-import javax.swing.UIManager;
-import javax.swing.plaf.UIResource;
+
+import java.desktop.share.classes.javax.swing.Painter;
+import java.desktop.share.classes.javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.UIManager;
+import java.desktop.share.classes.javax.swing.plaf.UIResource;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Color;
 import java.awt.image.BufferedImage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * TableScrollPaneCorner - A simple component that paints itself using the table

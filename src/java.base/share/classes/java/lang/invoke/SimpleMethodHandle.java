@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
+
 
 import jdk.internal.vm.annotation.Stable;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;.extended
 
-import static java.lang.invoke.LambdaForm.BasicType.*;
-import static java.lang.invoke.MethodHandleStatics.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A method handle whose behavior is determined only by its LambdaForm.

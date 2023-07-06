@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.mlvm.anonloader.stress.oome.metaspace;
+
+
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodHandles.Lookup;
+import java.util.java.util.java.util.java.util.List;
+import java.io.java.io.java.io.java.io.IOException;
+import vm.mlvm.anonloader.share.AnonkTestee01;
+import vm.mlvm.share.MlvmOOMTest;
+import vm.mlvm.share.MlvmTestExecutor;
+import vm.mlvm.share.Env;
+import vm.share.FileUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -38,18 +63,8 @@
  *                   -XX:MaxMetaspaceSize=20m vm.mlvm.anonloader.stress.oome.metaspace.Test
  */
 
-package vm.mlvm.anonloader.stress.oome.metaspace;
 
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodHandles.Lookup;
-import java.util.List;
-import java.io.IOException;
 
-import vm.mlvm.anonloader.share.AnonkTestee01;
-import vm.mlvm.share.MlvmOOMTest;
-import vm.mlvm.share.MlvmTestExecutor;
-import vm.mlvm.share.Env;
-import vm.share.FileUtils;
 
 /**
  * This test loads classes using defineHiddenClass and stores them,

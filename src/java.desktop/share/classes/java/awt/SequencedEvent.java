@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.io.Serial;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.LinkedList;
 
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.security.AccessController;
+import java.desktop.share.classes.java.security.PrivilegedAction;
+import java.desktop.share.classes.java.util.Linkedjava.util.java.util.java.util.List;
 import sun.awt.AWTAccessor;
 import sun.awt.AppContext;
 import sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A mechanism for ensuring that a series of AWTEvents are executed in a

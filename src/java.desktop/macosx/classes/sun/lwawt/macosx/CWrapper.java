@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class CWrapper {
     private CWrapper() { }

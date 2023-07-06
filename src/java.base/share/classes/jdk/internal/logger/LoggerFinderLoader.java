@@ -18,18 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.logger;
+
+package java.base.share.classes.jdk.internal.logger;
+
 
 import java.io.FilePermission;
 import java.security.AccessController;
 import java.security.Permission;
 import java.security.PrivilegedAction;
 import java.util.Iterator;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.ServiceConfigurationError;
 import java.util.ServiceLoader;
 import sun.security.util.SecurityConstants;
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper class used to load the {@link java.lang.System.LoggerFinder}.

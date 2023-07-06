@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.runtime;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class to express failed assertions and similar for the xsltc runtime.

@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.security.spec;
+package java.base.share.classes.java.security.spec;
+
 
 import jdk.internal.access.JavaSecuritySpecAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
 
-import java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents a public or private key in encoded format.

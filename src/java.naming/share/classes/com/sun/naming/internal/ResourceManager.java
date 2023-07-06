@@ -19,21 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.naming.internal;
+package java.naming.share.classes.com.sun.naming.internal;
+
 
 import java.io.InputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.ref.WeakReference;
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
 import java.util.Properties;
 import java.util.StringTokenizer;
-import java.util.List;
-import java.util.ArrayList;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.WeakHashMap;
-
 import javax.naming.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * The ResourceManager class facilitates the reading of JNDI resource files.

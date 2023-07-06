@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.util.stream;
 
-import java.util.function.Supplier;
+package java.base.share.classes.java.util.stream;
+
+
+import java.base.share.classes.java.util.function.Supplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@link Sink} which accumulates state as elements are accepted, and allows

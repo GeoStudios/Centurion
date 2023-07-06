@@ -19,20 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.openmbean;
+package java.management.share.classes.javax.management.openmbean;
+
 
 import com.sun.jmx.mbeanserver.GetPropertyAction;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InvalidObjectException;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
-import javax.management.Descriptor;
-import javax.management.ImmutableDescriptor;
+import java.util.java.util.java.util.java.util.List;
+import java.management.share.classes.javax.management.Descriptor;
+import java.management.share.classes.javax.management.ImmutableDescriptor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The <code>OpenType</code> class is the parent abstract class of all classes which describe the actual <i>open type</i>

@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.java2d;
+
+package java.desktop.share.classes.sun.java2d;
+
 
 import java.lang.ref.Reference;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
 * This ReentrantContextProvider implementation uses a ThreadLocal to hold

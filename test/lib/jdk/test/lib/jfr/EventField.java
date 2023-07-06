@@ -18,15 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.test.lib.jfr;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
 
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
+import java.util.stream.Collectors;
 import jdk.jfr.ValueDescriptor;
 import jdk.jfr.consumer.RecordedObject;
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public final class EventField {

@@ -18,21 +18,37 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text;
+
+package java.desktop.share.classes.javax.swing.text;
+
 
 import java.io.Serial;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Vector;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
-import javax.swing.undo.AbstractUndoableEdit;
-import javax.swing.undo.CannotRedoException;
-import javax.swing.undo.CannotUndoException;
-import javax.swing.undo.UndoableEdit;
-import javax.swing.SwingUtilities;
+import java.desktop.share.classes.javax.swing.undo.AbstractUndoableEdit;
+import java.desktop.share.classes.javax.swing.undo.CannotRedoException;
+import java.desktop.share.classes.javax.swing.undo.CannotUndoException;
+import java.desktop.share.classes.javax.swing.undo.UndoableEdit;
+import java.desktop.share.classes.javax.swing.SwingUtilities;
 import java.lang.ref.WeakReference;
 import java.lang.ref.ReferenceQueue;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of the AbstractDocument.Content interface
@@ -863,7 +879,7 @@ public class GapContent extends GapVector implements AbstractDocument.Content, S
         /** Previous Offset of rec. */
         protected int undoLocation;
         /** Mark to reset offset. */
-        protected MarkData rec;
+        private final MarkData rec;
     } // End of GapContent.UndoPosRef
 
 

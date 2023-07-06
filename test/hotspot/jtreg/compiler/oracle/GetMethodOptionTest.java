@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.oracle;
+
+
+import jdk.test.lib.Asserts;
+import sun.hotspot.WhiteBox;
+import java.lang.reflect.Executable;
+import java.util.function.BiFunction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8074980
@@ -52,13 +73,8 @@
  *                   compiler.oracle.GetMethodOptionTest
  */
 
-package compiler.oracle;
 
-import jdk.test.lib.Asserts;
-import sun.hotspot.WhiteBox;
 
-import java.lang.reflect.Executable;
-import java.util.function.BiFunction;
 
 public class GetMethodOptionTest {
     private static final  WhiteBox WB = WhiteBox.getWhiteBox();

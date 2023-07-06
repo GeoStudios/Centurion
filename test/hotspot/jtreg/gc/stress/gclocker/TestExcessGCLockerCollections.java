@@ -21,6 +21,29 @@
 
 package gc.stress.gclocker;
 
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.zip.Deflater;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import jdk.test.lib.Asserts;
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.process.OutputAnalyzer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestExcessGCLockerCollections
  * @bug 8048556
@@ -34,17 +57,9 @@ package gc.stress.gclocker;
  * @run driver/timeout=1000 gc.stress.gclocker.TestExcessGCLockerCollections 300 4 2
  */
 
-import java.util.HashMap;
-import java.util.Map;
 
-import java.util.zip.Deflater;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 
-import jdk.test.lib.Asserts;
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.process.OutputAnalyzer;
 
 class TestExcessGCLockerCollectionsAux {
     static private final int LARGE_MAP_SIZE = 64 * 1024;

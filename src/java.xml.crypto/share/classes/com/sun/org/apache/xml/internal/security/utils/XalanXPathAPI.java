@@ -19,31 +19,49 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package com.sun.org.apache.xml.internal.security.utils;
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils;
+
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
-
-import javax.xml.transform.ErrorListener;
+import javax.xml.transform.Errorjava.util.Listener;
 import javax.xml.transform.SourceLocator;
 import javax.xml.transform.TransformerException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.implementations.FuncHere;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.utils.PrefixResolver;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.utils.PrefixResolverDefault;
+import java.xml.crypto.share.classes.com.sun.org.apache.xpath.internal.Expression;
+import java.xml.crypto.share.classes.com.sun.org.apache.xpath.internal.XPath;
+import java.xml.crypto.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
+import java.xml.crypto.share.classes.com.sun.org.apache.xpath.internal.compiler.FunctionTable;
+import java.xml.crypto.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
 
-import com.sun.org.apache.xml.internal.security.transforms.implementations.FuncHere;
-import com.sun.org.apache.xml.internal.utils.PrefixResolver;
-import com.sun.org.apache.xml.internal.utils.PrefixResolverDefault;
-import com.sun.org.apache.xpath.internal.Expression;
-import com.sun.org.apache.xpath.internal.XPath;
-import com.sun.org.apache.xpath.internal.XPathContext;
-import com.sun.org.apache.xpath.internal.compiler.FunctionTable;
-import com.sun.org.apache.xpath.internal.objects.XObject;
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
+
 
 /**
  * An implementation of XPathAPI using Xalan. This supports the "here()" function defined in the digital

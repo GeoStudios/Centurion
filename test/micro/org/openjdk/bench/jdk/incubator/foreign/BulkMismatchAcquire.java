@@ -21,6 +21,7 @@
 
 package org.openjdk.bench.jdk.incubator.foreign;
 
+
 import jdk.incubator.foreign.ResourceScope;
 import jdk.incubator.foreign.SegmentAllocator;
 import org.openjdk.jmh.annotations.Benchmark;
@@ -35,13 +36,24 @@ import org.openjdk.jmh.annotations.State;
 import org.openjdk.jmh.annotations.TearDown;
 import org.openjdk.jmh.annotations.Warmup;
 import sun.misc.Unsafe;
-
 import jdk.incubator.foreign.MemorySegment;
 import java.nio.ByteBuffer;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Supplier;
+import static jdk.incubator.foreign.MemoryLayouts.JAVA_INT;.extended
 
-import static jdk.incubator.foreign.MemoryLayouts.JAVA_INT;
+
+
+
+
+
+
+
+
+
+
+
+
 
 @BenchmarkMode(Mode.AverageTime)
 @Warmup(iterations = 5, time = 500, timeUnit = TimeUnit.MILLISECONDS)

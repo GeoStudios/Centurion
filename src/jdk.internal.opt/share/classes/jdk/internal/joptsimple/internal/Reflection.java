@@ -19,17 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.joptsimple.internal;
+package jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal;
+
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import static java.lang.reflect.Modifier.*;.extended
+import jdk.internal.opt.share.classes.jdk.internal.joptsimple.ValueConverter;
+import static jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.Classes.*;.extended
 
-import static java.lang.reflect.Modifier.*;
 
-import jdk.internal.joptsimple.ValueConverter;
 
-import static jdk.internal.joptsimple.internal.Classes.*;
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper methods for reflection.

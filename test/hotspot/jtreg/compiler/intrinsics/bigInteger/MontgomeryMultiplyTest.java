@@ -19,6 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.bigInteger;
+
+
+import jdk.test.lib.Platform;
+import sun.hotspot.WhiteBox;
+import compiler.whitebox.CompilerWhiteBoxTest;
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Executable;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import java.math.BigInteger;
+import java.base.share.classes.java.util.Arrays;
+import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8130150 8131779 8139907
@@ -34,21 +63,8 @@
  *      compiler.intrinsics.bigInteger.MontgomeryMultiplyTest
  */
 
-package compiler.intrinsics.bigInteger;
 
-import jdk.test.lib.Platform;
-import sun.hotspot.WhiteBox;
-import compiler.whitebox.CompilerWhiteBoxTest;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Executable;
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import java.math.BigInteger;
-import java.util.Arrays;
-import java.util.Random;
 
 public class MontgomeryMultiplyTest {
 

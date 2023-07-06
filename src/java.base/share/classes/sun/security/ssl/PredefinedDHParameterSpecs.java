@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
+
 
 import java.math.BigInteger;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import javax.crypto.spec.DHParameterSpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Predefined default DH ephemeral parameters.

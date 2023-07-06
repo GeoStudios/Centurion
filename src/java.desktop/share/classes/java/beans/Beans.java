@@ -19,33 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.beans;
+package java.desktop.share.classes.java.beans;
+
 
 import com.sun.beans.finder.ClassFinder;
+import java.desktop.share.classes.java.applet.Applet;
+import java.desktop.share.classes.java.applet.AppletContext;
+import java.desktop.share.classes.java.applet.AppletStub;
+import java.desktop.share.classes.java.applet.AudioClip;
+import java.desktop.share.classes.java.awt.Image;
+import java.desktop.share.classes.java.beans.beancontext.BeanContext;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.InputStream;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.ObjectStreamClass;
+import java.desktop.share.classes.java.io.StreamCorruptedException;
+import java.desktop.share.classes.java.lang.reflect.Modifier;
+import java.desktop.share.classes.java.net.URL;
+import java.desktop.share.classes.java.util.Enumeration;
+import java.desktop.share.classes.java.util.Hashtable;
+import java.desktop.share.classes.java.util.Iterator;
+import java.desktop.share.classes.java.util.Vector;
 
-import java.applet.Applet;
-import java.applet.AppletContext;
-import java.applet.AppletStub;
-import java.applet.AudioClip;
 
-import java.awt.Image;
 
-import java.beans.beancontext.BeanContext;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectStreamClass;
-import java.io.StreamCorruptedException;
 
-import java.lang.reflect.Modifier;
 
-import java.net.URL;
 
-import java.util.Enumeration;
-import java.util.Hashtable;
-import java.util.Iterator;
-import java.util.Vector;
+
+
+
+
+
+
+
 
 /**
  * This class provides some general purpose beans control methods.

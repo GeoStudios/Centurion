@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.operators;
+
 
 import java.awt.Component;
 import java.awt.Container;
@@ -28,16 +30,14 @@ import java.awt.Window;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 import java.util.Hashtable;
-
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
 import javax.swing.JPopupMenu;
 import javax.swing.MenuElement;
 import javax.swing.MenuSelectionManager;
 import javax.swing.SingleSelectionModel;
-import javax.swing.event.PopupMenuListener;
+import javax.swing.event.PopupMenujava.util.Listener;
 import javax.swing.plaf.PopupMenuUI;
-
 import org.netbeans.jemmy.Action;
 import org.netbeans.jemmy.ComponentChooser;
 import org.netbeans.jemmy.ComponentSearcher;
@@ -52,6 +52,19 @@ import org.netbeans.jemmy.Timeouts;
 import org.netbeans.jemmy.WindowWaiter;
 import org.netbeans.jemmy.drivers.DriverManager;
 import org.netbeans.jemmy.drivers.MenuDriver;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <BR><BR>Timeouts used: <BR>

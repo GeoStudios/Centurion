@@ -18,28 +18,44 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.util.stream;
 
-import java.util.Arrays;
-import java.util.IntSummaryStatistics;
-import java.util.Objects;
-import java.util.OptionalDouble;
-import java.util.OptionalInt;
-import java.util.PrimitiveIterator;
-import java.util.Spliterator;
-import java.util.Spliterators;
-import java.util.function.BiConsumer;
-import java.util.function.Function;
-import java.util.function.IntBinaryOperator;
-import java.util.function.IntConsumer;
-import java.util.function.IntFunction;
-import java.util.function.IntPredicate;
-import java.util.function.IntSupplier;
-import java.util.function.IntToDoubleFunction;
-import java.util.function.IntToLongFunction;
-import java.util.function.IntUnaryOperator;
-import java.util.function.ObjIntConsumer;
-import java.util.function.Supplier;
+package java.base.share.classes.java.util.stream;
+
+
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.IntSummaryStatistics;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.OptionalDouble;
+import java.base.share.classes.java.util.OptionalInt;
+import java.base.share.classes.java.util.PrimitiveIterator;
+import java.base.share.classes.java.util.Spliterator;
+import java.base.share.classes.java.util.Spliterators;
+import java.base.share.classes.java.util.function.BiConsumer;
+import java.base.share.classes.java.util.function.Function;
+import java.base.share.classes.java.util.function.IntBinaryOperator;
+import java.base.share.classes.java.util.function.IntConsumer;
+import java.base.share.classes.java.util.function.IntFunction;
+import java.base.share.classes.java.util.function.IntPredicate;
+import java.base.share.classes.java.util.function.IntSupplier;
+import java.base.share.classes.java.util.function.IntToDoubleFunction;
+import java.base.share.classes.java.util.function.IntToLongFunction;
+import java.base.share.classes.java.util.function.IntUnaryOperator;
+import java.base.share.classes.java.util.function.ObjIntConsumer;
+import java.base.share.classes.java.util.function.Supplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A sequence of primitive int-valued elements supporting sequential and parallel

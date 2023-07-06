@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr;
+package jdk.jfr.share.classes.jdk.jfr;
+
 
 import java.security.AccessControlContext;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+import jdk.jfr.share.classes.jdk.jfr.internal.PlatformEventType;
+import jdk.jfr.share.classes.jdk.jfr.internal.PlatformRecorder;
+import jdk.jfr.share.classes.jdk.jfr.internal.PlatformRecording;
+import jdk.jfr.share.classes.jdk.jfr.internal.PrivateAccess;
+import jdk.jfr.share.classes.jdk.jfr.internal.Type;
+import jdk.jfr.share.classes.jdk.jfr.internal.Utils;
+import jdk.jfr.share.classes.jdk.jfr.internal.management.EventSettingsModifier;
 
-import jdk.jfr.internal.PlatformEventType;
-import jdk.jfr.internal.PlatformRecorder;
-import jdk.jfr.internal.PlatformRecording;
-import jdk.jfr.internal.PrivateAccess;
-import jdk.jfr.internal.Type;
-import jdk.jfr.internal.Utils;
-import jdk.jfr.internal.management.EventSettingsModifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Permission for controlling access to Flight Recorder.

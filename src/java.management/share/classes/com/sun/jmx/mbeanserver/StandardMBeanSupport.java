@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.mbeanserver;
+package java.management.share.classes.com.sun.jmx.mbeanserver;
+
 
 import java.lang.reflect.Method;
-
 import javax.management.MBeanInfo;
 import javax.management.MBeanServer;
 import javax.management.NotCompliantMBeanException;
 import javax.management.ObjectName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base class for Standard MBeans.

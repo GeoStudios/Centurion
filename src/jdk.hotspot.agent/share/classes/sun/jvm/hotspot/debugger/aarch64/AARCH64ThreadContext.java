@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.aarch64;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.aarch64;
+
 
 import java.lang.annotation.Native;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
 
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.debugger.cdbg.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Specifies the thread context on aarch64 platforms; only a sub-portion
  * of the context is guaranteed to be present on all operating

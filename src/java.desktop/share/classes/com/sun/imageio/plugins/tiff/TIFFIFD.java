@@ -18,17 +18,19 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.imageio.plugins.tiff;
+
+package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
+
 
 import java.io.EOFException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
-import javax.imageio.IIOException;
+import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import javax.imageio.stream.ImageInputStream;
 import javax.imageio.stream.ImageOutputStream;
 import javax.imageio.plugins.tiff.BaselineTIFFTagSet;
@@ -36,6 +38,20 @@ import javax.imageio.plugins.tiff.TIFFDirectory;
 import javax.imageio.plugins.tiff.TIFFField;
 import javax.imageio.plugins.tiff.TIFFTag;
 import javax.imageio.plugins.tiff.TIFFTagSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TIFFIFD extends TIFFDirectory {
     private static final long MAX_SAMPLES_PER_PIXEL = 0xffff;

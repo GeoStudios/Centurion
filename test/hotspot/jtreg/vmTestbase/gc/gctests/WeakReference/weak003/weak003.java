@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.WeakReference.weak003;
+
+
+import java.lang.ref.Reference;
+import nsk.share.test.*;
+import nsk.share.TestFailure;
+import nsk.share.gc.*;
+import java.lang.ref.WeakReference;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -31,13 +53,7 @@
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.WeakReference.weak003.weak003 -t 1
  */
 
-package gc.gctests.WeakReference.weak003;
 
-import java.lang.ref.Reference;
-import nsk.share.test.*;
-import nsk.share.TestFailure;
-import nsk.share.gc.*;
-import java.lang.ref.WeakReference;
 
 /**
  * Test that GC clears weak references before throwing OOM.

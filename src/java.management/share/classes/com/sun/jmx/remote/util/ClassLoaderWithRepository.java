@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.remote.util;
+package java.management.share.classes.com.sun.jmx.remote.util;
+
 
 import javax.management.loading.ClassLoaderRepository;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ClassLoaderWithRepository extends ClassLoader {
     public ClassLoaderWithRepository(ClassLoaderRepository clr,

@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.java.accessibility.internal;
+
+package jdk.accessibility.windows.classes.com.sun.java.accessibility.internal;
+
 
 import javax.accessibility.AccessibilityProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* This class provided methods to identify and activate the mapping from the
  * JavaAccessBridge API to the Java Accessibility API.

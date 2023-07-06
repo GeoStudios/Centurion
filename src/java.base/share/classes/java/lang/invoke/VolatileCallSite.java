@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code VolatileCallSite} is a {@link CallSite} whose target acts like a volatile variable.

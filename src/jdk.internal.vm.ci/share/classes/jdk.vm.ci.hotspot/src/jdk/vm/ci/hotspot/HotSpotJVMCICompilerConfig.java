@@ -18,23 +18,37 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.hotspot;
 
-import java.util.List;
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
+
+
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.code.CompilationRequest;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.common.JVMCIError;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.common.NativeImageReinitialize;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.Option;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.runtime.JVMCICompiler;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.runtime.JVMCICompilerFactory;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.runtime.JVMCIRuntime;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.services.JVMCIPermission;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.services.JVMCIServiceLocator;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.services.Services;
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.services.Services.IS_IN_NATIVE_IMAGE;.extended
 
-import jdk.vm.ci.code.CompilationRequest;
-import jdk.vm.ci.common.JVMCIError;
-import jdk.vm.ci.common.NativeImageReinitialize;
-import jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.Option;
-import jdk.vm.ci.runtime.JVMCICompiler;
-import jdk.vm.ci.runtime.JVMCICompilerFactory;
-import jdk.vm.ci.runtime.JVMCIRuntime;
-import jdk.vm.ci.services.JVMCIPermission;
-import jdk.vm.ci.services.JVMCIServiceLocator;
-import jdk.vm.ci.services.Services;
 
-import static jdk.vm.ci.services.Services.IS_IN_NATIVE_IMAGE;
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class HotSpotJVMCICompilerConfig {
 

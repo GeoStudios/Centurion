@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.inlining;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8026735
@@ -29,7 +46,6 @@
  *      compiler.inlining.InlineDefaultMethod
  */
 
-package compiler.inlining;
 public class InlineDefaultMethod {
     interface InterfaceWithDefaultMethod0 {
         default public int defaultMethod() {

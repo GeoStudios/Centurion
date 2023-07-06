@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.unsafe;
+
+
+import org.testng.annotations.Test;
+import java.lang.reflect.Field;
+import static org.testng.Assert.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8143628
@@ -31,13 +51,9 @@
  * @run testng/othervm -Diters=20000                         compiler.unsafe.SunMiscUnsafeAccessTestDouble
  */
 
-package compiler.unsafe;
 
-import org.testng.annotations.Test;
 
-import java.lang.reflect.Field;
 
-import static org.testng.Assert.*;
 
 public class SunMiscUnsafeAccessTestDouble {
     static final int ITERS = Integer.getInteger("iters", 1);

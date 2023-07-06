@@ -19,23 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider;
+package java.base.share.classes.sun.security.provider;
 
-import java.io.IOException;
-import java.security.Key;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.security.Key;
 import java.security.KeyStoreException;
 import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.security.UnrecoverableKeyException;
 import java.util.*;
+import java.base.share.classes.sun.security.pkcs.PKCS8Key;
+import java.base.share.classes.sun.security.pkcs.EncryptedPrivateKeyInfo;
+import java.base.share.classes.sun.security.x509.AlgorithmId;
+import java.base.share.classes.sun.security.util.ObjectIdentifier;
+import java.base.share.classes.sun.security.util.KnownOIDs;
+import java.base.share.classes.sun.security.util.DerValue;
 
-import sun.security.pkcs.PKCS8Key;
-import sun.security.pkcs.EncryptedPrivateKeyInfo;
-import sun.security.x509.AlgorithmId;
-import sun.security.util.ObjectIdentifier;
-import sun.security.util.KnownOIDs;
-import sun.security.util.DerValue;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is an implementation of a Sun proprietary, exportable algorithm

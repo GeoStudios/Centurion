@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.platform;
+
+package java.base.share.classes.jdk.internal.platform;
+
 
 import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Operating System Metrics class

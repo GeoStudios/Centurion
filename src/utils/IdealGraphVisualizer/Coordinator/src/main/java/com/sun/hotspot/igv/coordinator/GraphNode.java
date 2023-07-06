@@ -18,19 +18,21 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.coordinator;
 
-import com.sun.hotspot.igv.coordinator.actions.CloneGraphAction;
-import com.sun.hotspot.igv.coordinator.actions.DiffGraphAction;
-import com.sun.hotspot.igv.coordinator.actions.DiffGraphCookie;
-import com.sun.hotspot.igv.coordinator.actions.GraphCloneCookie;
-import com.sun.hotspot.igv.coordinator.actions.GraphOpenCookie;
-import com.sun.hotspot.igv.coordinator.actions.GraphRemoveCookie;
-import com.sun.hotspot.igv.data.InputGraph;
-import com.sun.hotspot.igv.data.Properties;
-import com.sun.hotspot.igv.data.services.GraphViewer;
-import com.sun.hotspot.igv.util.PropertiesSheet;
-import java.awt.Image;
+package utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator;
+
+
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator.actions.CloneGraphAction;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator.actions.DiffGraphAction;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator.actions.DiffGraphCookie;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator.actions.GraphCloneCookie;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator.actions.GraphOpenCookie;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator.actions.GraphRemoveCookie;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.data.InputGraph;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.data.Properties;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.data.services.GraphViewer;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.util.PropertiesSheet;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.awt.Image;
 import javax.swing.Action;
 import org.openide.actions.OpenAction;
 import org.openide.nodes.AbstractNode;
@@ -43,6 +45,20 @@ import org.openide.util.ImageUtilities;
 import org.openide.util.Lookup;
 import org.openide.util.lookup.AbstractLookup;
 import org.openide.util.lookup.InstanceContent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

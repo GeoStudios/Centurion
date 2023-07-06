@@ -19,41 +19,52 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.security.sasl.digest;
+package java.security.sasl.share.classes.com.sun.security.sasl.digest;
+
 
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
 import java.nio.charset.Charset;
 import java.util.Map;
-import java.util.Arrays;
-import java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
 import java.util.logging.Level;
 import java.util.Random;
 import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.security.InvalidKeyException;
-import java.security.spec.KeySpec;
-import java.security.spec.InvalidKeySpecException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.spec.KeySpec;
+import java.base.share.classes.java.security.spec.InvalidKeySpecException;
 import java.security.InvalidAlgorithmParameterException;
-
-import static java.nio.charset.StandardCharsets.*;
-
-import javax.crypto.Cipher;
-import javax.crypto.SecretKey;
+import static java.nio.charset.StandardCharsets.*;.extended
+import java.base.share.classes.javax.crypto.Cipher;
+import java.base.share.classes.javax.crypto.SecretKey;
 import javax.crypto.Mac;
 import javax.crypto.SecretKeyFactory;
 import javax.crypto.NoSuchPaddingException;
-import javax.crypto.IllegalBlockSizeException;
+import java.base.share.classes.javax.crypto.IllegalBlockSizeException;
 import javax.crypto.spec.IvParameterSpec;
-import javax.crypto.spec.SecretKeySpec;
+import java.base.share.classes.javax.crypto.spec.SecretKeySpec;
 import javax.crypto.spec.DESKeySpec;
-import javax.crypto.spec.DESedeKeySpec;
-
+import java.base.share.classes.javax.crypto.spec.DESedeKeySpec;
 import javax.security.auth.callback.CallbackHandler;
 import javax.security.sasl.*;
+import java.security.sasl.share.classes.com.sun.security.sasl.util.AbstractSaslImpl;
 
-import com.sun.security.sasl.util.AbstractSaslImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class for DIGEST-MD5 mechanism. Provides utility methods

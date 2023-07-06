@@ -18,15 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.beans;
 
-import java.io.*;
-import java.util.*;
-import java.lang.reflect.*;
-import java.nio.charset.Charset;
-import java.nio.charset.CharsetEncoder;
-import java.nio.charset.IllegalCharsetNameException;
-import java.nio.charset.UnsupportedCharsetException;
+package java.desktop.share.classes.java.beans;
+
+
+import java.desktop.share.classes.java.io.*;
+import java.desktop.share.classes.java.util.*;
+import java.desktop.share.classes.java.lang.reflect.*;
+import java.desktop.share.classes.java.nio.charset.Charset;
+import java.desktop.share.classes.java.nio.charset.CharsetEncoder;
+import java.desktop.share.classes.java.nio.charset.IllegalCharsetNameException;
+import java.desktop.share.classes.java.nio.charset.UnsupportedCharsetException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code XMLEncoder} class is a complementary alternative to

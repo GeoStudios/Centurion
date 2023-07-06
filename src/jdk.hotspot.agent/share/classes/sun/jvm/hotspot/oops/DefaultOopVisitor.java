@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.oops;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A DefaultOopVisitor implements basic no-op OopVisitor
     functionality except that the setObj() and getObj() methods are

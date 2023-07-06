@@ -18,10 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.jpackage.internal;
+
+package jdk.jpackage.share.classes.jdk.jpackage.internal;
+
 
 import java.nio.file.Path;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

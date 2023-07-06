@@ -18,13 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang.constant;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
+package java.base.share.classes.java.lang.constant;
 
-import static java.util.Objects.requireNonNull;
+
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Set;
+import static java.base.share.classes.java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper methods for the implementation of {@code java.lang.constant}.

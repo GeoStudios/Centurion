@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.accessibility;
+package java.desktop.share.classes.javax.accessibility;
 
-import java.util.Locale;
+
+import java.base.share.classes.java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
-
 import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base class used to maintain a strongly typed enumeration. This is the

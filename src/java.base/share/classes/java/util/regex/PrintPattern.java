@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.regex;
+package java.base.share.classes.java.util.regex;
 
-import java.util.HashMap;
-import java.util.regex.Pattern.CharPredicate;
-import static java.util.regex.ASCII.*;
+
+import java.base.share.classes.java.util.HashMap;
+import java.base.share.classes.java.util.regex.Pattern.CharPredicate;
+import static java.base.share.classes.java.util.regex.ASCII.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A utility class to print out the pattern node tree.

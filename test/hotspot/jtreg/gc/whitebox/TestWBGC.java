@@ -21,6 +21,25 @@
 
 package gc.whitebox;
 
+
+import jdk.test.lib.Asserts;
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.process.OutputAnalyzer;
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8055098
@@ -33,10 +52,6 @@ package gc.whitebox;
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run driver gc.whitebox.TestWBGC
  */
-import jdk.test.lib.Asserts;
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.process.OutputAnalyzer;
-import sun.hotspot.WhiteBox;
 
 public class TestWBGC {
 

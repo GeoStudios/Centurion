@@ -21,6 +21,21 @@
 
 package pkg1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * <pre>
  *  Result:  {@value pkg1.Class1#TEST_7_PASSES}

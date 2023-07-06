@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.dynalink.linker;
+package jdk.dynalink.share.classes.jdk.dynalink.linker;
+
 
 import java.security.Permission;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.ServiceLoader;
 import java.util.function.Supplier;
-import jdk.dynalink.DynamicLinkerFactory;
+import jdk.dynalink.share.classes.jdk.dynalink.DynamicLinkerFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class acting as a supplier of guarding dynamic linkers that can be

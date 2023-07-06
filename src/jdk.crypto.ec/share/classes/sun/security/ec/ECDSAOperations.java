@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ec;
+package jdk.crypto.ec.share.classes.sun.security.ec;
 
-import sun.security.ec.point.*;
-import sun.security.util.ArrayUtil;
-import sun.security.util.math.*;
-import static sun.security.ec.ECOperations.IntermediateValueException;
 
-import java.security.ProviderException;
-import java.security.spec.*;
-import java.util.Arrays;
+import jdk.crypto.ec.share.classes.sun.security.ec.point.*;
+import jdk.crypto.ec.share.classes.sun.security.util.ArrayUtil;
+import jdk.crypto.ec.share.classes.sun.security.util.math.*;
+import static jdk.crypto.ec.share.classes.sun.security.ec.ECOperations.IntermediateValueException;.extended
+import java.base.share.classes.java.security.ProviderException;
+import java.base.share.classes.java.security.spec.*;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Optional;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ECDSAOperations {
 

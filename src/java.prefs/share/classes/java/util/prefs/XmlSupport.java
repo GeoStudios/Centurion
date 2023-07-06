@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.prefs;
+package java.prefs.share.classes.java.util.prefs;
 
-import java.util.*;
-import java.io.*;
+
+import java.prefs.share.classes.java.util.*;
+import java.prefs.share.classes.java.io.*;
 import javax.xml.parsers.*;
 import javax.xml.transform.*;
 import javax.xml.transform.dom.*;
 import javax.xml.transform.stream.*;
 import org.xml.sax.*;
 import org.w3c.dom.*;
+import static java.prefs.share.classes.java.nio.charset.StandardCharsets.UTF_8;.extended
 
-import static java.nio.charset.StandardCharsets.UTF_8;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * XML Support for java.util.prefs. Methods to import and export preference

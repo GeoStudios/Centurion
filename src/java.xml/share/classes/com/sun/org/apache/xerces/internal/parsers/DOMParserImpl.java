@@ -19,56 +19,70 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.parsers;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
 
-import com.sun.org.apache.xerces.internal.dom.DOMErrorImpl;
-import com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
-import com.sun.org.apache.xerces.internal.dom.DOMStringListImpl;
-import com.sun.org.apache.xerces.internal.impl.Constants;
-import com.sun.org.apache.xerces.internal.util.DOMEntityResolverWrapper;
-import com.sun.org.apache.xerces.internal.util.DOMErrorHandlerWrapper;
-import com.sun.org.apache.xerces.internal.util.DOMUtil;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
-import com.sun.org.apache.xerces.internal.util.XMLSymbols;
-import com.sun.org.apache.xerces.internal.xni.Augmentations;
-import com.sun.org.apache.xerces.internal.xni.NamespaceContext;
-import com.sun.org.apache.xerces.internal.xni.QName;
-import com.sun.org.apache.xerces.internal.xni.XMLAttributes;
-import com.sun.org.apache.xerces.internal.xni.XMLDTDContentModelHandler;
-import com.sun.org.apache.xerces.internal.xni.XMLDTDHandler;
-import com.sun.org.apache.xerces.internal.xni.XMLDocumentHandler;
-import com.sun.org.apache.xerces.internal.xni.XMLLocator;
-import com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
-import com.sun.org.apache.xerces.internal.xni.XMLString;
-import com.sun.org.apache.xerces.internal.xni.XNIException;
-import com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarPool;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLDTDContentModelSource;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLDTDSource;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentSource;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLEntityResolver;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLParseException;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLParserConfiguration;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMErrorImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMStringjava.util.ListImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.DOMEntityResolverWrapper;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.DOMErrorHandlerWrapper;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.DOMUtil;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLSymbols;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.Augmentations;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLAttributes;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDTDContentModelHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDTDHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDocumentHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLLocator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLString;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarPool;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDTDContentModelSource;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDTDSource;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentSource;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLEntityResolver;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLParseException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLParserConfiguration;
 import java.io.StringReader;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Stack;
 import java.util.StringTokenizer;
-import org.w3c.dom.DOMConfiguration;
-import org.w3c.dom.DOMError;
-import org.w3c.dom.DOMErrorHandler;
-import org.w3c.dom.DOMException;
-import org.w3c.dom.DOMStringList;
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
-import org.w3c.dom.ls.LSException;
-import org.w3c.dom.ls.LSInput;
-import org.w3c.dom.ls.LSParser;
-import org.w3c.dom.ls.LSParserFilter;
-import org.w3c.dom.ls.LSResourceResolver;
-import org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMConfiguration;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMError;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMErrorHandler;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMStringjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSException;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSInput;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSParser;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSParserFilter;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSResourceResolver;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

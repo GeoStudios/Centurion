@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.swing.plaf.windows;
+
+package java.desktop.windows.classes.sun.swing.plaf.windows;
+
 
 import java.awt.Color;
 import java.awt.Component;
@@ -27,6 +29,20 @@ import java.io.Serializable;
 import javax.swing.Icon;
 import javax.swing.UIManager;
 import javax.swing.plaf.UIResource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Classic sort icons.

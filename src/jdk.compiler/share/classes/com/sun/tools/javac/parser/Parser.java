@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.parser;
+package jdk.compiler.share.classes.com.sun.tools.javac.parser;
 
-import com.sun.tools.javac.tree.JCTree.JCCompilationUnit;
-import com.sun.tools.javac.tree.JCTree.JCExpression;
-import com.sun.tools.javac.tree.JCTree.JCStatement;
+
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCCompilationUnit;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCExpression;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCStatement;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Reads syntactic units from source code.

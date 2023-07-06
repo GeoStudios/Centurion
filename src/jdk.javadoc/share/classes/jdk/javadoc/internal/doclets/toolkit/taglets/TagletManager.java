@@ -19,24 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.toolkit.taglets;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.taglets;
+
 
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintStream;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.EnumMap;
 import java.util.EnumSet;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.ServiceLoader;
 import java.util.Set;
 import java.util.TreeMap;
-
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ExecutableElement;
 import javax.lang.model.element.ModuleElement;
@@ -46,36 +46,47 @@ import javax.lang.model.element.VariableElement;
 import javax.lang.model.util.SimpleElementVisitor14;
 import javax.tools.JavaFileManager;
 import javax.tools.StandardJavaFileManager;
-
 import com.sun.source.doctree.DocTree;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.Doclet;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.DocletEnvironment;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.Taglet.Location;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.BaseOptions;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.DocletElement;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Messages;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Resources;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.CommentHelper;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils;
+import static com.sun.source.doctree.DocTree.Kind.AUTHOR;.extended
+import static com.sun.source.doctree.DocTree.Kind.EXCEPTION;.extended
+import static com.sun.source.doctree.DocTree.Kind.HIDDEN;.extended
+import static com.sun.source.doctree.DocTree.Kind.LINK;.extended
+import static com.sun.source.doctree.DocTree.Kind.LINK_PLAIN;.extended
+import static com.sun.source.doctree.DocTree.Kind.PARAM;.extended
+import static com.sun.source.doctree.DocTree.Kind.PROVIDES;.extended
+import static com.sun.source.doctree.DocTree.Kind.SEE;.extended
+import static com.sun.source.doctree.DocTree.Kind.SERIAL;.extended
+import static com.sun.source.doctree.DocTree.Kind.SERIAL_DATA;.extended
+import static com.sun.source.doctree.DocTree.Kind.SERIAL_FIELD;.extended
+import static com.sun.source.doctree.DocTree.Kind.SINCE;.extended
+import static com.sun.source.doctree.DocTree.Kind.THROWS;.extended
+import static com.sun.source.doctree.DocTree.Kind.USES;.extended
+import static com.sun.source.doctree.DocTree.Kind.VERSION;.extended
+import static javax.tools.DocumentationTool.Location.TAGLET_PATH;.extended
 
-import jdk.javadoc.doclet.Doclet;
-import jdk.javadoc.doclet.DocletEnvironment;
-import jdk.javadoc.doclet.Taglet.Location;
-import jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
-import jdk.javadoc.internal.doclets.toolkit.BaseOptions;
-import jdk.javadoc.internal.doclets.toolkit.DocletElement;
-import jdk.javadoc.internal.doclets.toolkit.Messages;
-import jdk.javadoc.internal.doclets.toolkit.Resources;
-import jdk.javadoc.internal.doclets.toolkit.util.CommentHelper;
-import jdk.javadoc.internal.doclets.toolkit.util.Utils;
 
-import static com.sun.source.doctree.DocTree.Kind.AUTHOR;
-import static com.sun.source.doctree.DocTree.Kind.EXCEPTION;
-import static com.sun.source.doctree.DocTree.Kind.HIDDEN;
-import static com.sun.source.doctree.DocTree.Kind.LINK;
-import static com.sun.source.doctree.DocTree.Kind.LINK_PLAIN;
-import static com.sun.source.doctree.DocTree.Kind.PARAM;
-import static com.sun.source.doctree.DocTree.Kind.PROVIDES;
-import static com.sun.source.doctree.DocTree.Kind.SEE;
-import static com.sun.source.doctree.DocTree.Kind.SERIAL;
-import static com.sun.source.doctree.DocTree.Kind.SERIAL_DATA;
-import static com.sun.source.doctree.DocTree.Kind.SERIAL_FIELD;
-import static com.sun.source.doctree.DocTree.Kind.SINCE;
-import static com.sun.source.doctree.DocTree.Kind.THROWS;
-import static com.sun.source.doctree.DocTree.Kind.USES;
-import static com.sun.source.doctree.DocTree.Kind.VERSION;
-import static javax.tools.DocumentationTool.Location.TAGLET_PATH;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Manages the {@code Taglet}s used by doclets.

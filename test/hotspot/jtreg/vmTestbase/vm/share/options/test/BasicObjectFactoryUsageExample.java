@@ -18,19 +18,36 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package vm.share.options.test;
+
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Collection;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import vm.share.options.BasicOptionObjectFactory;
+import vm.share.options.FClass;
+import vm.share.options.Factory;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
 
-package vm.share.options.test;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.LinkedList;
-import vm.share.options.BasicOptionObjectFactory;
-import vm.share.options.FClass;
-import vm.share.options.Factory;
 
 /**
  * This is a simple example of BasicObjectFactory utility class,

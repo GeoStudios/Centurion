@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package pkg;
+
+
+import static pkg.A.Outer.Inner;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7101822
@@ -26,9 +44,7 @@
  *          are not a problem.
  * @compile TypeParamCycle3.java
  */
-package pkg;
 
-import static pkg.A.Outer.Inner;
 
 class A {
    static class Outer<X extends Inner> extends B { }

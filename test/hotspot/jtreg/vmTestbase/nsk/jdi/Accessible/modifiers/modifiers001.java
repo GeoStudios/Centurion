@@ -21,13 +21,26 @@
 
 package nsk.jdi.Accessible.modifiers;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The modifiers001 test checks the method <code>modifiers()</code>

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.util.cldr;
+package java.base.share.classes.sun.util.cldr;
+
 
 import java.security.AccessController;
 import java.security.PrivilegedAction;
@@ -27,11 +28,11 @@ import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
 import java.text.spi.BreakIteratorProvider;
 import java.text.spi.CollatorProvider;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.Optional;
 import java.util.ServiceLoader;
@@ -41,9 +42,23 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.spi.CalendarDataProvider;
 import java.util.spi.CalendarNameProvider;
 import java.util.spi.TimeZoneNameProvider;
-import sun.util.locale.provider.JRELocaleProviderAdapter;
-import sun.util.locale.provider.LocaleDataMetaInfo;
-import sun.util.locale.provider.LocaleProviderAdapter;
+import java.base.share.classes.sun.util.locale.provider.JRELocaleProviderAdapter;
+import java.base.share.classes.sun.util.locale.provider.LocaleDataMetaInfo;
+import java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * LocaleProviderAdapter implementation for the CLDR locale data.

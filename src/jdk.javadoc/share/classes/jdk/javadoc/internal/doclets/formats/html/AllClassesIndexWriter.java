@@ -19,27 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.formats.html;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-import java.util.ArrayList;
-import java.util.List;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
-
 import javax.lang.model.element.TypeElement;
-
 import com.sun.source.doctree.DeprecatedTree;
-import jdk.javadoc.internal.doclets.formats.html.markup.BodyContents;
-import jdk.javadoc.internal.doclets.formats.html.markup.ContentBuilder;
-import jdk.javadoc.internal.doclets.formats.html.markup.HtmlStyle;
-import jdk.javadoc.internal.doclets.formats.html.markup.HtmlTree;
-import jdk.javadoc.internal.doclets.formats.html.Navigation.PageMode;
-import jdk.javadoc.internal.doclets.toolkit.Content;
-import jdk.javadoc.internal.doclets.toolkit.util.DocFileIOException;
-import jdk.javadoc.internal.doclets.toolkit.util.DocPath;
-import jdk.javadoc.internal.doclets.toolkit.util.DocPaths;
-import jdk.javadoc.internal.doclets.toolkit.util.IndexBuilder;
-import jdk.javadoc.internal.doclets.toolkit.util.IndexItem;
-import jdk.javadoc.internal.doclets.toolkit.util.Utils.ElementFlag;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.BodyContents;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.ContentBuilder;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.HtmlStyle;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.HtmlTree;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.Navigation.PageMode;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFilejava.io.java.io.java.io.IOException;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPath;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPaths;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.IndexBuilder;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.IndexItem;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils.ElementFlag;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Generate the file with list of all the classes in this run.

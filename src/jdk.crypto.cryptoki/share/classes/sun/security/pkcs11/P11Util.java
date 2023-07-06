@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs11;
+package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11;
+
 
 import java.math.BigInteger;
-import java.security.*;
+import java.base.share.classes.java.security.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Collection of static utility methods.

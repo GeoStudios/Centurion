@@ -21,9 +21,6 @@
 
 package jdk.test.lib.containers.docker;
 
-/*
- * Methods and definitions common to docker tests container in this directory
- */
 
 import java.io.File;
 import java.nio.file.Files;
@@ -33,6 +30,24 @@ import jdk.test.lib.containers.docker.DockerRunOptions;
 import jdk.test.lib.containers.docker.DockerTestUtils;
 import jdk.test.lib.Utils;
 import jdk.test.lib.process.OutputAnalyzer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * Methods and definitions common to docker tests container in this directory
+ */
+
 
 
 public class Common {

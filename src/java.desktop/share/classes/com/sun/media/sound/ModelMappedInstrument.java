@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.media.sound;
+package java.desktop.share.classes.com.sun.media.sound;
+
 
 import javax.sound.midi.MidiChannel;
 import javax.sound.midi.Patch;
 import javax.sound.sampled.AudioFormat;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to map instrument to another patch.

@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.xpath.regex;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xpath.regex;
+
 
 import java.text.CharacterIterator;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Stack;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.IntStack;
 
-import com.sun.org.apache.xerces.internal.util.IntStack;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A regular expression matching engine using Non-deterministic Finite Automaton (NFA).

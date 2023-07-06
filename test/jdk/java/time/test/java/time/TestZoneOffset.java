@@ -21,11 +21,23 @@
 
 package test.java.time;
 
-import static org.testng.Assert.assertSame;
 
+import static org.testng.Assert.assertSame;.extended
 import java.time.ZoneOffset;
-
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test ZoneOffset.

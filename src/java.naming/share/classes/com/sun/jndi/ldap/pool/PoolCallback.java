@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap.pool;
+package java.naming.share.classes.com.sun.jndi.ldap.pool;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a callback used to release or remove a PooledConnection back

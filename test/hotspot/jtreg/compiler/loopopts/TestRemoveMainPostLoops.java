@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8233529
@@ -28,7 +45,6 @@
  *                   compiler.loopopts.TestRemoveMainPostLoops
  */
 
-package compiler.loopopts;
 
 public class TestRemoveMainPostLoops {
     static int cnt1 = 0;

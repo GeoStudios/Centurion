@@ -21,6 +21,21 @@
 
 package inheritDist;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class C implements B {
     public void m1() {}
 }

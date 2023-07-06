@@ -19,10 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.logging.share.classes.java.util.logging;
 
-package java.util.logging;
 
-import java.security.*;
+import java.logging.share.classes.java.security.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The permission which the SecurityManager will check when code

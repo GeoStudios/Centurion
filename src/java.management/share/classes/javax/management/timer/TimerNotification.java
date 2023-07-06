@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.timer;
+package java.management.share.classes.javax.management.timer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides definitions of the notifications sent by timer MBeans.

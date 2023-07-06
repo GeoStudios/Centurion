@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.desktop;
+package java.desktop.share.classes.java.awt.desktop;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementor can respond to requests to print documents that the app has

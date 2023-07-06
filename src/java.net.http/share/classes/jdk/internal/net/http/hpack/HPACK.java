@@ -18,23 +18,37 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.net.http.hpack;
 
-import jdk.internal.net.http.common.Utils;
-import jdk.internal.net.http.hpack.HPACK.Logger.Level;
+package java.net.http.share.classes.jdk.internal.net.http.hpack;
 
+
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+import java.net.http.share.classes.jdk.internal.net.http.hpack.HPACK.Logger.Level;
 import java.nio.ByteBuffer;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.Map;
 import java.util.ResourceBundle;
 import java.util.function.Supplier;
+import static java.lang.String.format;.extended
+import static java.util.stream.Collectors.joining;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.hpack.HPACK.Logger.Level.EXTRA;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.hpack.HPACK.Logger.Level.NONE;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.hpack.HPACK.Logger.Level.NORMAL;.extended
 
-import static java.lang.String.format;
-import static java.util.stream.Collectors.joining;
-import static jdk.internal.net.http.hpack.HPACK.Logger.Level.EXTRA;
-import static jdk.internal.net.http.hpack.HPACK.Logger.Level.NONE;
-import static jdk.internal.net.http.hpack.HPACK.Logger.Level.NORMAL;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Internal utilities and stuff.

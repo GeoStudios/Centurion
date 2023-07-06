@@ -19,61 +19,75 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
+
 
 import java.lang.ref.Reference;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.SoftReference;
 import java.text.MessageFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.function.Consumer;
+import jdk.jdi.share.classes.com.sun.jdi.BooleanType;
+import jdk.jdi.share.classes.com.sun.jdi.BooleanValue;
+import jdk.jdi.share.classes.com.sun.jdi.ByteType;
+import jdk.jdi.share.classes.com.sun.jdi.ByteValue;
+import jdk.jdi.share.classes.com.sun.jdi.CharType;
+import jdk.jdi.share.classes.com.sun.jdi.CharValue;
+import jdk.jdi.share.classes.com.sun.jdi.ClassLoaderReference;
+import jdk.jdi.share.classes.com.sun.jdi.ClassNotLoadedException;
+import jdk.jdi.share.classes.com.sun.jdi.DoubleType;
+import jdk.jdi.share.classes.com.sun.jdi.DoubleValue;
+import jdk.jdi.share.classes.com.sun.jdi.FloatType;
+import jdk.jdi.share.classes.com.sun.jdi.FloatValue;
+import jdk.jdi.share.classes.com.sun.jdi.IntegerType;
+import jdk.jdi.share.classes.com.sun.jdi.IntegerValue;
+import jdk.jdi.share.classes.com.sun.jdi.InternalException;
+import jdk.jdi.share.classes.com.sun.jdi.LongType;
+import jdk.jdi.share.classes.com.sun.jdi.LongValue;
+import jdk.jdi.share.classes.com.sun.jdi.ModuleReference;
+import jdk.jdi.share.classes.com.sun.jdi.ObjectCollectedException;
+import jdk.jdi.share.classes.com.sun.jdi.PathSearchingVirtualMachine;
+import jdk.jdi.share.classes.com.sun.jdi.PrimitiveType;
+import jdk.jdi.share.classes.com.sun.jdi.ReferenceType;
+import jdk.jdi.share.classes.com.sun.jdi.ShortType;
+import jdk.jdi.share.classes.com.sun.jdi.ShortValue;
+import jdk.jdi.share.classes.com.sun.jdi.StringReference;
+import jdk.jdi.share.classes.com.sun.jdi.ThreadGroupReference;
+import jdk.jdi.share.classes.com.sun.jdi.ThreadReference;
+import jdk.jdi.share.classes.com.sun.jdi.Type;
+import jdk.jdi.share.classes.com.sun.jdi.VMDisconnectedException;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachineManager;
+import jdk.jdi.share.classes.com.sun.jdi.VoidType;
+import jdk.jdi.share.classes.com.sun.jdi.VoidValue;
+import jdk.jdi.share.classes.com.sun.jdi.connect.spi.Connection;
+import jdk.jdi.share.classes.com.sun.jdi.event.EventQueue;
+import jdk.jdi.share.classes.com.sun.jdi.request.BreakpointRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.EventRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.EventRequestManager;
 
-import com.sun.jdi.BooleanType;
-import com.sun.jdi.BooleanValue;
-import com.sun.jdi.ByteType;
-import com.sun.jdi.ByteValue;
-import com.sun.jdi.CharType;
-import com.sun.jdi.CharValue;
-import com.sun.jdi.ClassLoaderReference;
-import com.sun.jdi.ClassNotLoadedException;
-import com.sun.jdi.DoubleType;
-import com.sun.jdi.DoubleValue;
-import com.sun.jdi.FloatType;
-import com.sun.jdi.FloatValue;
-import com.sun.jdi.IntegerType;
-import com.sun.jdi.IntegerValue;
-import com.sun.jdi.InternalException;
-import com.sun.jdi.LongType;
-import com.sun.jdi.LongValue;
-import com.sun.jdi.ModuleReference;
-import com.sun.jdi.ObjectCollectedException;
-import com.sun.jdi.PathSearchingVirtualMachine;
-import com.sun.jdi.PrimitiveType;
-import com.sun.jdi.ReferenceType;
-import com.sun.jdi.ShortType;
-import com.sun.jdi.ShortValue;
-import com.sun.jdi.StringReference;
-import com.sun.jdi.ThreadGroupReference;
-import com.sun.jdi.ThreadReference;
-import com.sun.jdi.Type;
-import com.sun.jdi.VMDisconnectedException;
-import com.sun.jdi.VirtualMachine;
-import com.sun.jdi.VirtualMachineManager;
-import com.sun.jdi.VoidType;
-import com.sun.jdi.VoidValue;
-import com.sun.jdi.connect.spi.Connection;
-import com.sun.jdi.event.EventQueue;
-import com.sun.jdi.request.BreakpointRequest;
-import com.sun.jdi.request.EventRequest;
-import com.sun.jdi.request.EventRequestManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class VirtualMachineImpl extends MirrorImpl
              implements PathSearchingVirtualMachine, ThreadListener {

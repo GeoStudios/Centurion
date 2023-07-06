@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs;
+package java.base.share.classes.sun.security.pkcs;
+
 
 import java.io.*;
-import sun.security.x509.*;
-import sun.security.util.DerValue;
-import sun.security.util.DerOutputStream;
+import java.base.share.classes.sun.security.x509.*;
+import java.base.share.classes.sun.security.util.DerValue;
+import java.base.share.classes.sun.security.util.DerOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements the <code>EncryptedPrivateKeyInfo</code> type,

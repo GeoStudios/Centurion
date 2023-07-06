@@ -18,19 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.foreign;
 
-import jdk.incubator.foreign.Addressable;
-import jdk.incubator.foreign.CLinker;
-import jdk.incubator.foreign.FunctionDescriptor;
-import jdk.incubator.foreign.MemorySegment;
-import jdk.incubator.foreign.SegmentAllocator;
-import jdk.internal.foreign.abi.SharedUtils;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
 
+
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.Addressable;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.CLinker;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.FunctionDescriptor;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.SegmentAllocator;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.SharedUtils;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract non-sealed class AbstractCLinker implements CLinker {
 

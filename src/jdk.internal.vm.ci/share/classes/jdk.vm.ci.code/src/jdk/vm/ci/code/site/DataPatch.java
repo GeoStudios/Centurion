@@ -18,11 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.code.site;
 
-import java.util.Objects;
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code.site;
 
-import jdk.vm.ci.meta.VMConstant;
+
+import java.base.share.classes.java.util.Objects;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.VMConstant;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a code site that references some data. The associated data can be either a

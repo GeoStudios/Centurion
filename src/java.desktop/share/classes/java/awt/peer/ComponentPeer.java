@@ -19,27 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.peer;
+package java.desktop.share.classes.java.awt.peer;
 
-import java.awt.AWTEvent;
-import java.awt.AWTException;
-import java.awt.BufferCapabilities;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.EventQueue;
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.Graphics;
-import java.awt.GraphicsConfiguration;
-import java.awt.Image;
-import java.awt.Point;
-import java.awt.event.FocusEvent.Cause;
-import java.awt.event.PaintEvent;
-import java.awt.image.ColorModel;
-import java.awt.image.VolatileImage;
 
+import java.desktop.share.classes.java.awt.AWTEvent;
+import java.desktop.share.classes.java.awt.AWTException;
+import java.desktop.share.classes.java.awt.BufferCapabilities;
+import java.desktop.share.classes.java.awt.Color;
+import java.desktop.share.classes.java.awt.Component;
+import java.desktop.share.classes.java.awt.Dimension;
+import java.desktop.share.classes.java.awt.EventQueue;
+import java.desktop.share.classes.java.awt.Font;
+import java.desktop.share.classes.java.awt.FontMetrics;
+import java.desktop.share.classes.java.awt.Graphics;
+import java.desktop.share.classes.java.awt.GraphicsConfiguration;
+import java.desktop.share.classes.java.awt.Image;
+import java.desktop.share.classes.java.awt.Point;
+import java.desktop.share.classes.java.awt.event.FocusEvent.Cause;
+import java.desktop.share.classes.java.awt.event.PaintEvent;
+import java.desktop.share.classes.java.awt.image.ColorModel;
+import java.desktop.share.classes.java.awt.image.VolatileImage;
 import sun.java2d.pipe.Region;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The peer interface for {@link Component}. This is the top level peer

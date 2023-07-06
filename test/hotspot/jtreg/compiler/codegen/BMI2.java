@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codegen;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @summary Support BMI2 instructions on x86/x64
@@ -28,7 +45,6 @@
  *      compiler.codegen.BMI2
  */
 
-package compiler.codegen;
 
 public class BMI2 {
     private final static int ITERATIONS = 30000;

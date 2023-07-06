@@ -18,11 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.java.lang.invoke.remote;
+
 
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandles.Lookup;
 import test.java.lang.invoke.MethodHandlesTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Out-of-package access into protected members of test.java.lang.invoke.remote.MethodHandle.PubExample.

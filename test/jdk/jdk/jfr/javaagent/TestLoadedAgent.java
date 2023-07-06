@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.jfr.javaagent;
+
+
+import com.sun.tools.attach.VirtualMachine;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @key jfr
@@ -36,9 +54,7 @@
  * @run main/othervm -Djdk.attach.allowAttachSelf=true jdk.jfr.javaagent.TestLoadedAgent
  */
 
-package jdk.jfr.javaagent;
 
-import com.sun.tools.attach.VirtualMachine;
 
 
 public class TestLoadedAgent {

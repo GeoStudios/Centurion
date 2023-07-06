@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.tools.jlink.internal;
+
+package jdk.jlink.share.classes.jdk.tools.jlink.internal;
+
 
 import java.lang.module.ModuleDescriptor;
 import java.nio.ByteBuffer;
@@ -26,21 +28,35 @@ import java.nio.ByteOrder;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Stream;
-import jdk.internal.jimage.decompressor.CompressedResourceHeader;
-import jdk.internal.module.Resources;
-import jdk.internal.module.ModuleInfo;
-import jdk.internal.module.ModuleInfo.Attributes;
-import jdk.internal.module.ModuleTarget;
-import jdk.tools.jlink.plugin.ResourcePool;
-import jdk.tools.jlink.plugin.ResourcePoolBuilder;
-import jdk.tools.jlink.plugin.ResourcePoolEntry;
-import jdk.tools.jlink.plugin.ResourcePoolModule;
-import jdk.tools.jlink.plugin.ResourcePoolModuleView;
-import jdk.tools.jlink.plugin.PluginException;
+import jdk.jlink.share.classes.jdk.internal.jimage.decompressor.CompressedResourceHeader;
+import jdk.jlink.share.classes.jdk.internal.module.Resources;
+import jdk.jlink.share.classes.jdk.internal.module.ModuleInfo;
+import jdk.jlink.share.classes.jdk.internal.module.ModuleInfo.Attributes;
+import jdk.jlink.share.classes.jdk.internal.module.ModuleTarget;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePool;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolBuilder;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolModule;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolModuleView;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.PluginException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A manager for pool of resources.

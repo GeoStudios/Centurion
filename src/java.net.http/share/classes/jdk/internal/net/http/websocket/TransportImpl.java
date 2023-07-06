@@ -19,16 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http.websocket;
+package java.net.http.share.classes.jdk.internal.net.http.websocket;
 
-import jdk.internal.net.http.common.Demand;
-import jdk.internal.net.http.common.Logger;
-import jdk.internal.net.http.common.MinimalFuture;
-import jdk.internal.net.http.common.SequentialScheduler;
-import jdk.internal.net.http.common.SequentialScheduler.CompleteRestartableTask;
-import jdk.internal.net.http.common.Utils;
 
-import java.io.IOException;
+import java.net.http.share.classes.jdk.internal.net.http.common.Demand;
+import java.net.http.share.classes.jdk.internal.net.http.common.Logger;
+import java.net.http.share.classes.jdk.internal.net.http.common.MinimalFuture;
+import java.net.http.share.classes.jdk.internal.net.http.common.SequentialScheduler;
+import java.net.http.share.classes.jdk.internal.net.http.common.SequentialScheduler.CompleteRestartableTask;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.System.Logger.Level;
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
@@ -38,11 +38,24 @@ import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.function.BiConsumer;
 import java.util.function.Supplier;
+import static java.net.http.share.classes.jdk.internal.net.http.websocket.TransportImpl.ChannelState.AVAILABLE;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.websocket.TransportImpl.ChannelState.CLOSED;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.websocket.TransportImpl.ChannelState.UNREGISTERED;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.websocket.TransportImpl.ChannelState.WAITING;.extended
 
-import static jdk.internal.net.http.websocket.TransportImpl.ChannelState.AVAILABLE;
-import static jdk.internal.net.http.websocket.TransportImpl.ChannelState.CLOSED;
-import static jdk.internal.net.http.websocket.TransportImpl.ChannelState.UNREGISTERED;
-import static jdk.internal.net.http.websocket.TransportImpl.ChannelState.WAITING;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TransportImpl implements Transport {
 

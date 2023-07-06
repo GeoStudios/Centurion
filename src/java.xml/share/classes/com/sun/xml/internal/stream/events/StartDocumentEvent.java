@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.xml.internal.stream.events ;
+package java.xml.share.classes.com.sun.xml.internal.stream.events;
+
 
 import javax.xml.stream.events.StartDocument;
 import javax.xml.stream.Location;
 import javax.xml.stream.XMLStreamConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Implementation of StartDocumentEvent.
  *

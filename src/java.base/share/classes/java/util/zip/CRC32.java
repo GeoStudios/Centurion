@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.zip;
+package java.base.share.classes.java.util.zip;
 
-import java.lang.ref.Reference;
-import java.nio.ByteBuffer;
-import java.util.Objects;
 
+import java.base.share.classes.java.lang.ref.Reference;
+import java.base.share.classes.java.nio.ByteBuffer;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import sun.nio.ch.DirectBuffer;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class that can be used to compute the CRC-32 of a data stream.

@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.MethodExitEvent.returnValue.returnValue004;
+
+
+import java.io.*;
+import java.util.*;
+import com.sun.jdi.*;
+import com.sun.jdi.event.*;
+import com.sun.jdi.request.*;
+import nsk.share.*;
+import nsk.share.jdi.*;
+import nsk.share.jpda.NativeMethodsTestThread;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @modules java.base/jdk.internal.misc:+open
@@ -55,16 +80,7 @@
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
 
-package nsk.jdi.MethodExitEvent.returnValue.returnValue004;
 
-import java.io.*;
-import java.util.*;
-import com.sun.jdi.*;
-import com.sun.jdi.event.*;
-import com.sun.jdi.request.*;
-import nsk.share.*;
-import nsk.share.jdi.*;
-import nsk.share.jpda.NativeMethodsTestThread;
 
 /*
  * Test checks that method 'MethodExitEvent.returnValue()' returns the value that the method will return

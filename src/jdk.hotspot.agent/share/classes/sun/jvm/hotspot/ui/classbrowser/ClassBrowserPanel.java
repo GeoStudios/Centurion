@@ -19,22 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.ui.classbrowser;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.classbrowser;
+
 
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.*;
-import sun.jvm.hotspot.oops.*;
-import sun.jvm.hotspot.ui.*;
-import sun.jvm.hotspot.ui.action.*;
-import sun.jvm.hotspot.utilities.*;
-
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.action.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
 import com.sun.java.swing.ui.StatusBar;
 import com.sun.java.swing.ui.CommonToolBar;
-
 import com.sun.java.swing.action.ActionManager;
 import com.sun.java.swing.action.DelegateAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ClassBrowserPanel extends JPanel implements ActionListener {
    private final StatusBar           statusBar;

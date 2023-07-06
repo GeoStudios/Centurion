@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.hotspot.igv.data.serialization;
+package utils.IdealGraphVisualizer.Data.src.test.java.com.sun.hotspot.igv.data.serialization;
 
-import com.sun.hotspot.igv.data.*;
-import java.io.*;
-import java.nio.channels.Channels;
-import java.nio.charset.StandardCharsets;
 
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.fail;
+import utils.IdealGraphVisualizer.Data.src.test.java.com.sun.hotspot.igv.data.*;
+import utils.IdealGraphVisualizer.Data.src.test.java.io.*;
+import utils.IdealGraphVisualizer.Data.src.test.java.nio.channels.Channels;
+import utils.IdealGraphVisualizer.Data.src.test.java.nio.charset.StandardCharsets;
+import static org.junit.Assert.assertTrue;.extended
+import static org.junit.Assert.fail;.extended
 import org.junit.*;
 import org.openide.util.Exceptions;
 import org.xml.sax.InputSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

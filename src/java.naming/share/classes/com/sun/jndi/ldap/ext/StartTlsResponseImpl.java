@@ -19,25 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap.ext;
+package java.naming.share.classes.com.sun.jndi.ldap.ext;
+
 
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.io.IOException;
-
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.Principal;
 import java.security.cert.X509Certificate;
 import java.security.cert.CertificateException;
-
 import javax.net.ssl.SSLSession;
-import javax.net.ssl.SSLSocket;
-import javax.net.ssl.SSLSocketFactory;
+import javax.net.ssl.SSLjava.net.java.net.java.net.Socket;
+import javax.net.ssl.SSLjava.net.SocketFactory;
 import javax.net.ssl.SSLPeerUnverifiedException;
 import javax.net.ssl.HostnameVerifier;
-import sun.security.util.HostnameChecker;
-
+import java.naming.share.classes.com.sun.security.util.HostnameChecker;
 import javax.naming.ldap.*;
-import com.sun.jndi.ldap.Connection;
+import java.naming.share.classes.com.sun.jndi.ldap.Connection;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements the LDAPv3 Extended Response for StartTLS as
@@ -430,11 +442,10 @@ public final class StartTlsResponseImpl extends StartTlsResponse {
             /*
              * Pass up the cause of the failure
              */
-            throw(SSLPeerUnverifiedException)
-                    new SSLPeerUnverifiedException("hostname of the server '" +
-                                    hostname +
-                                    "' does not match the hostname in the " +
-                                    "server's certificate.", e);
+            throw new SSLPeerUnverifiedException("hostname of the server '" +
+                            hostname +
+                            "' does not match the hostname in the " +
+                            "server's certificate.", e);
         }
     }
 

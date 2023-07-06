@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.AWTEvent;
 import java.awt.Dimension;
@@ -29,27 +30,40 @@ import java.awt.FontMetrics;
 import java.awt.Insets;
 import java.awt.Rectangle;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.event.InputEvent;
 import java.beans.BeanProperty;
 import java.beans.JavaBean;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import java.io.IOException;
+import java.beans.PropertyChangejava.util.Listener;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.io.Serial;
 import java.io.Serializable;
+import java.desktop.share.classes.javax.accessibility.AccessibleContext;
+import java.desktop.share.classes.javax.accessibility.AccessibleState;
+import java.desktop.share.classes.javax.accessibility.AccessibleStateSet;
+import java.desktop.share.classes.javax.swing.event.ChangeEvent;
+import java.desktop.share.classes.javax.swing.event.Changejava.util.Listener;
+import java.desktop.share.classes.javax.swing.event.Eventjava.util.Listenerjava.util.java.util.java.util.List;
+import java.desktop.share.classes.javax.swing.text.Document;
+import java.desktop.share.classes.javax.swing.text.JTextComponent;
+import java.desktop.share.classes.javax.swing.text.PlainDocument;
+import java.desktop.share.classes.javax.swing.text.TextAction;
 
-import javax.accessibility.AccessibleContext;
-import javax.accessibility.AccessibleState;
-import javax.accessibility.AccessibleStateSet;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-import javax.swing.event.EventListenerList;
-import javax.swing.text.Document;
-import javax.swing.text.JTextComponent;
-import javax.swing.text.PlainDocument;
-import javax.swing.text.TextAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>JTextField</code> is a lightweight component that allows the editing

@@ -18,14 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d.demos.Arcs_Curves;
+
+package demo.share.jfc.J2Ddemo.java2d.demos.Arcs_Curves;
 
 
 import java.awt.*;
 import java.awt.geom.Arc2D;
 import java.awt.geom.AffineTransform;
-import java2d.AnimatingSurface;
-import static java.awt.Color.*;
+import demo.share.jfc.J2Ddemo.java2d.AnimatingSurface;
+import static java.awt.Color.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

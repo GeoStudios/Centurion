@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.png;
+package java.desktop.share.classes.com.sun.imageio.plugins.png;
+
 
 import java.awt.Rectangle;
 import java.awt.image.IndexColorModel;
@@ -28,13 +29,13 @@ import java.awt.image.WritableRaster;
 import java.awt.image.RenderedImage;
 import java.awt.image.SampleModel;
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.Iterator;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.zip.Deflater;
 import java.util.zip.DeflaterOutputStream;
-import javax.imageio.IIOException;
+import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import javax.imageio.IIOImage;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.ImageWriteParam;
@@ -43,6 +44,20 @@ import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.spi.ImageWriterSpi;
 import javax.imageio.stream.ImageOutputStream;
 import javax.imageio.stream.ImageOutputStreamImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class CRC {
 

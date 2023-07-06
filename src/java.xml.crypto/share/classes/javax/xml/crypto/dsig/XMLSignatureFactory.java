@@ -18,30 +18,49 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-/*
- * $Id: XMLSignatureFactory.java,v 1.14 2005/09/15 14:29:01 mullan Exp $
- */
-package javax.xml.crypto.dsig;
 
-import javax.xml.crypto.Data;
-import javax.xml.crypto.MarshalException;
-import javax.xml.crypto.NoSuchMechanismException;
-import javax.xml.crypto.URIDereferencer;
-import javax.xml.crypto.XMLStructure;
-import javax.xml.crypto.dom.DOMStructure;
-import javax.xml.crypto.dsig.keyinfo.KeyInfo;
-import javax.xml.crypto.dsig.keyinfo.KeyInfoFactory;
-import javax.xml.crypto.dsig.spec.*;
-import javax.xml.crypto.dsig.dom.DOMValidateContext;
-import javax.xml.crypto.dsig.dom.DOMSignContext;
+package java.xml.crypto.share.classes.javax.xml.crypto.dsig;
 
+
+import java.xml.crypto.share.classes.javax.xml.crypto.Data;
+import java.xml.crypto.share.classes.javax.xml.crypto.MarshalException;
+import java.xml.crypto.share.classes.javax.xml.crypto.NoSuchMechanismException;
+import java.xml.crypto.share.classes.javax.xml.crypto.URIDereferencer;
+import java.xml.crypto.share.classes.javax.xml.crypto.XMLStructure;
+import java.xml.crypto.share.classes.javax.xml.crypto.dom.DOMStructure;
+import java.xml.crypto.share.classes.javax.xml.crypto.dsig.keyinfo.KeyInfo;
+import java.xml.crypto.share.classes.javax.xml.crypto.dsig.keyinfo.KeyInfoFactory;
+import java.xml.crypto.share.classes.javax.xml.crypto.dsig.spec.*;
+import java.xml.crypto.share.classes.javax.xml.crypto.dsig.dom.DOMValidateContext;
+import java.xml.crypto.share.classes.javax.xml.crypto.dsig.dom.DOMSignContext;
 import java.security.InvalidAlgorithmParameterException;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.NoSuchProviderException;
 import java.security.Provider;
 import java.security.Provider.Service;
 import java.security.Security;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * $Id: XMLSignatureFactory.java,v 1.14 2005/09/15 14:29:01 mullan Exp $
+ */
+
+
+
 
 
 /**

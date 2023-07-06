@@ -21,6 +21,21 @@
 
 package pkg2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Class3 {
 
     public static final String TEST_12_PASSES  = "Test 12 passes";

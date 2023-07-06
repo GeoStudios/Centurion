@@ -19,26 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclint;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclint;
+
 
 import java.io.PrintWriter;
 import java.text.MessageFormat;
 import java.util.Comparator;
 import java.util.HashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
-
 import javax.tools.Diagnostic;
-
 import com.sun.source.doctree.DocTree;
 import com.sun.source.tree.Tree;
 import com.sun.tools.javac.util.StringUtils;
-import jdk.javadoc.internal.doclint.Env.AccessKind;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclint.Env.AccessKind;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Message reporting for DocLint.

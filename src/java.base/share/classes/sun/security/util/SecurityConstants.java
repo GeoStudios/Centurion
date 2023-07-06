@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.util;
+package java.base.share.classes.sun.security.util;
+
 
 import java.lang.reflect.ReflectPermission;
-import java.net.SocketPermission;
+import java.net.java.net.SocketPermission;
 import java.net.NetPermission;
 import java.security.Permission;
 import java.security.SecurityPermission;
 import java.security.AllPermission;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Permission constants and string constants used to create permissions

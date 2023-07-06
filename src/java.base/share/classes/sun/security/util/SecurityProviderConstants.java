@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.util;
+package java.base.share.classes.sun.security.util;
+
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.regex.PatternSyntaxException;
 import java.security.InvalidParameterException;
-import java.security.ProviderException;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.java.security.ProviderException;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Various constants such as version number, default key length, used by

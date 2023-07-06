@@ -18,14 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.filterwindow;
 
-import java.awt.*;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
+package utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filterwindow;
+
+
+import utils.IdealGraphVisualizer.FilterWindow.src.main.java.awt.*;
+import utils.IdealGraphVisualizer.FilterWindow.src.main.java.awt.event.MouseAdapter;
+import utils.IdealGraphVisualizer.FilterWindow.src.main.java.awt.event.MouseEvent;
 import javax.swing.JCheckBox;
-import javax.swing.JList;
-import javax.swing.ListCellRenderer;
+import javax.swing.Jjava.util.java.util.java.util.List;
+import javax.swing.java.util.ListCellRenderer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

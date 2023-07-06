@@ -21,6 +21,23 @@
 
 package gc.arguments;
 
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestUseNUMAInterleaving
  * @summary Tests that UseNUMAInterleaving enabled for all collectors by
@@ -32,8 +49,6 @@ package gc.arguments;
  *          java.management
  * @run driver gc.arguments.TestUseNUMAInterleaving
  */
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class TestUseNUMAInterleaving {
 

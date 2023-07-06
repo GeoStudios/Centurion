@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.tools.compiler;
 
-import java.io.PrintStream;
+package utils.LogCompilation.src.main.java.com.sun.hotspot.tools.compiler;
+
+
+import utils.LogCompilation.src.main.java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * In a compilation log, represent the event of making a given compiled method

@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.fs;
+package java.base.windows.classes.sun.nio.fs;
+
 
 import java.net.URI;
 import java.net.URISyntaxException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility methods to convert between Path and URIs.

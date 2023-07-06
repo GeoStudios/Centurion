@@ -19,24 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.basic;
+package java.desktop.share.classes.javax.swing.plaf.basic;
+
 
 import sun.swing.SwingUtilities2;
-
-import javax.swing.*;
-import javax.swing.event.*;
-import javax.swing.plaf.*;
-import javax.swing.text.View;
-
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.event.*;
+import java.desktop.share.classes.javax.swing.plaf.*;
+import java.desktop.share.classes.javax.swing.text.View;
 import java.awt.*;
 import java.awt.event.*;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.beans.PropertyChangeEvent;
 import java.util.Vector;
 import java.util.Hashtable;
-
 import sun.swing.DefaultLookup;
 import sun.swing.UIAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Basic L&amp;F implementation of TabbedPaneUI.

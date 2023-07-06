@@ -19,21 +19,19 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.mbeanserver;
+package java.management.share.classes.com.sun.jmx.mbeanserver;
 
 
-import static com.sun.jmx.mbeanserver.Util.*;
-
+import static java.management.share.classes.com.sun.jmx.mbeanserver.Util.*;.extended
 import java.lang.ref.WeakReference;
 import java.lang.reflect.Array;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Type;
-import java.util.Arrays;
-import java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
 import java.util.WeakHashMap;
-
 import javax.management.Descriptor;
 import javax.management.ImmutableDescriptor;
 import javax.management.IntrospectionException;
@@ -47,7 +45,21 @@ import javax.management.MBeanOperationInfo;
 import javax.management.NotCompliantMBeanException;
 import javax.management.NotificationBroadcaster;
 import javax.management.ReflectionException;
-import sun.reflect.misc.ReflectUtil;
+import java.management.share.classes.com.sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An introspector for MBeans of a certain type.  There is one instance

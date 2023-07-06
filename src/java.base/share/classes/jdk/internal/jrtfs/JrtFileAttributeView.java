@@ -18,14 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.jrtfs;
+
+package java.base.share.classes.jdk.internal.jrtfs;
+
 
 import java.nio.file.LinkOption;
 import java.nio.file.attribute.*;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * File attribute view for jrt file system.

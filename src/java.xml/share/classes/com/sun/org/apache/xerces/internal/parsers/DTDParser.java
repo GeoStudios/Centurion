@@ -19,23 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
+
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.DTDGrammar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.Augmentations;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLString;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDTDContentModelHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDTDHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLLocator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDTDScanner;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.parsers;
 
-import com.sun.org.apache.xerces.internal.impl.dtd.DTDGrammar;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
 
-import com.sun.org.apache.xerces.internal.xni.Augmentations;
-import com.sun.org.apache.xerces.internal.xni.XMLString;
-import com.sun.org.apache.xerces.internal.xni.XMLDTDContentModelHandler;
-import com.sun.org.apache.xerces.internal.xni.XMLDTDHandler;
-import com.sun.org.apache.xerces.internal.xni.XMLLocator;
-import com.sun.org.apache.xerces.internal.xni.XNIException;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLDTDScanner;
-import com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
+
 
 /**
  */

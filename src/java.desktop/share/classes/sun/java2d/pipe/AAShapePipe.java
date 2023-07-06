@@ -18,17 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.java2d.pipe;
+
+package java.desktop.share.classes.sun.java2d.pipe;
+
 
 import java.awt.BasicStroke;
 import java.awt.Rectangle;
 import java.awt.Shape;
 import java.awt.geom.Rectangle2D;
-import sun.awt.SunHints;
-import sun.java2d.ReentrantContext;
-import sun.java2d.ReentrantContextProvider;
-import sun.java2d.ReentrantContextProviderTL;
-import sun.java2d.SunGraphics2D;
+import java.desktop.share.classes.sun.awt.SunHints;
+import java.desktop.share.classes.sun.java2d.ReentrantContext;
+import java.desktop.share.classes.sun.java2d.ReentrantContextProvider;
+import java.desktop.share.classes.sun.java2d.ReentrantContextProviderTL;
+import java.desktop.share.classes.sun.java2d.SunGraphics2D;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to convert raw geometry into 8-bit alpha tiles

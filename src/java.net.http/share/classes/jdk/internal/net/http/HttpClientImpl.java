@@ -19,14 +19,15 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
 
-import javax.net.ssl.SSLContext;
+
+import javax.net.ssl.javax.net.ssl.javax.net.ssl.javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLException;
 import javax.net.ssl.SSLHandshakeException;
 import javax.net.ssl.SSLParameters;
-import java.io.IOException;
-import java.io.UncheckedIOException;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;
 import java.net.Authenticator;
@@ -41,20 +42,20 @@ import java.nio.channels.ClosedChannelException;
 import java.nio.channels.SelectableChannel;
 import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
-import java.nio.channels.SocketChannel;
+import java.nio.channels.java.net.SocketChannel;
 import java.security.AccessControlContext;
 import java.security.AccessController;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.PrivilegedAction;
 import java.time.Duration;
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Objects;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
 import java.util.TreeSet;
@@ -74,16 +75,30 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.net.http.HttpResponse.BodyHandler;
 import java.net.http.HttpResponse.PushPromiseHandler;
-import java.net.http.WebSocket;
-import jdk.internal.net.http.common.BufferSupplier;
-import jdk.internal.net.http.common.Log;
-import jdk.internal.net.http.common.Logger;
-import jdk.internal.net.http.common.Pair;
-import jdk.internal.net.http.common.Utils;
-import jdk.internal.net.http.common.OperationTrackers.Trackable;
-import jdk.internal.net.http.common.OperationTrackers.Tracker;
-import jdk.internal.net.http.websocket.BuilderImpl;
-import jdk.internal.misc.InnocuousThread;
+import java.net.http.Webjava.net.java.net.java.net.Socket;
+import java.net.http.share.classes.jdk.internal.net.http.common.BufferSupplier;
+import java.net.http.share.classes.jdk.internal.net.http.common.Log;
+import java.net.http.share.classes.jdk.internal.net.http.common.Logger;
+import java.net.http.share.classes.jdk.internal.net.http.common.Pair;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+import java.net.http.share.classes.jdk.internal.net.http.common.OperationTrackers.Trackable;
+import java.net.http.share.classes.jdk.internal.net.http.common.OperationTrackers.Tracker;
+import java.net.http.share.classes.jdk.internal.net.http.websocket.BuilderImpl;
+import java.net.http.share.classes.jdk.internal.misc.InnocuousThread;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Client implementation. Contains all configuration information and also

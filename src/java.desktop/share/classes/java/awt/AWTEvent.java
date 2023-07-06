@@ -19,27 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.AdjustmentEvent;
-import java.awt.event.ComponentEvent;
-import java.awt.event.FocusEvent;
-import java.awt.event.InputEvent;
-import java.awt.event.InputMethodEvent;
-import java.awt.event.ItemEvent;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseEvent;
-import java.awt.event.TextEvent;
-import java.awt.event.WindowEvent;
-import java.awt.peer.ComponentPeer;
-import java.awt.peer.LightweightPeer;
-import java.io.Serial;
-import java.security.AccessControlContext;
-import java.security.AccessController;
-import java.util.EventObject;
 
+import java.desktop.share.classes.java.awt.event.ActionEvent;
+import java.desktop.share.classes.java.awt.event.AdjustmentEvent;
+import java.desktop.share.classes.java.awt.event.ComponentEvent;
+import java.desktop.share.classes.java.awt.event.FocusEvent;
+import java.desktop.share.classes.java.awt.event.InputEvent;
+import java.desktop.share.classes.java.awt.event.InputMethodEvent;
+import java.desktop.share.classes.java.awt.event.ItemEvent;
+import java.desktop.share.classes.java.awt.event.KeyEvent;
+import java.desktop.share.classes.java.awt.event.MouseEvent;
+import java.desktop.share.classes.java.awt.event.TextEvent;
+import java.desktop.share.classes.java.awt.event.WindowEvent;
+import java.desktop.share.classes.java.awt.peer.ComponentPeer;
+import java.desktop.share.classes.java.awt.peer.LightweightPeer;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.security.AccessControlContext;
+import java.desktop.share.classes.java.security.AccessController;
+import java.desktop.share.classes.java.util.EventObject;
 import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The root event class for all AWT events.

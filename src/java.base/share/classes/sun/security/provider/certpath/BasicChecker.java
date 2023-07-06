@@ -19,15 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider.certpath;
+package java.base.share.classes.sun.security.provider.certpath;
+
 
 import java.math.BigInteger;
 import java.util.Collection;
 import java.util.Date;
 import java.util.Set;
 import java.security.GeneralSecurityException;
-import java.security.KeyFactory;
-import java.security.PublicKey;
+import java.base.share.classes.java.security.KeyFactory;
+import java.base.share.classes.java.security.PublicKey;
 import java.security.SignatureException;
 import java.security.cert.Certificate;
 import java.security.cert.CertificateExpiredException;
@@ -42,8 +43,22 @@ import java.security.interfaces.DSAParams;
 import java.security.interfaces.DSAPublicKey;
 import java.security.spec.DSAPublicKeySpec;
 import javax.security.auth.x500.X500Principal;
-import sun.security.x509.X500Name;
-import sun.security.util.Debug;
+import java.base.share.classes.sun.security.x509.X500Name;
+import java.base.share.classes.sun.security.util.Debug;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * BasicChecker is a PKIXCertPathChecker that checks the basic information

@@ -19,15 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.util.cldr;
+package java.base.share.classes.sun.util.cldr;
 
-import static sun.util.locale.provider.LocaleProviderAdapter.Type;
 
-import java.util.Locale;
+import static java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter.Type;.extended
+import java.base.share.classes.java.util.Locale;
 import java.util.Set;
-import sun.util.locale.provider.AvailableLanguageTags;
-import sun.util.locale.provider.CalendarNameProviderImpl;
-import sun.util.locale.provider.LocaleProviderAdapter;
+import java.base.share.classes.sun.util.locale.provider.AvailableLanguageTags;
+import java.base.share.classes.sun.util.locale.provider.CalendarNameProviderImpl;
+import java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class CLDRCalendarNameProviderImpl extends CalendarNameProviderImpl implements AvailableLanguageTags{

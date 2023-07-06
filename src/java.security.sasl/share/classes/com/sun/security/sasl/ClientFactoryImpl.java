@@ -19,20 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.security.sasl;
+package java.security.sasl.share.classes.com.sun.security.sasl;
+
 
 import javax.security.sasl.*;
-import com.sun.security.sasl.util.PolicyUtils;
-
+import java.security.sasl.share.classes.com.sun.security.sasl.util.PolicyUtils;
 import java.util.Map;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import javax.security.auth.callback.Callback;
 import javax.security.auth.callback.CallbackHandler;
 import javax.security.auth.callback.NameCallback;
 import javax.security.auth.callback.PasswordCallback;
 import javax.security.auth.callback.UnsupportedCallbackException;
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
 
-import static java.nio.charset.StandardCharsets.UTF_8;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Client factory for EXTERNAL, CRAM-MD5, PLAIN.

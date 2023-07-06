@@ -19,6 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.java2d.J2DBench.src.j2dbench.tests.cmm;
+
+
+import java.awt.image.BufferedImage;
+import java.io.java.io.java.io.java.io.IOException;
+import java.net.URL;
+import javax.imageio.ImageIO;
+import javax.imageio.ImageReader;
+import javax.imageio.stream.ImageInputStream;
+import demo.share.java2d.J2DBench.src.j2dbench.Group;
+import demo.share.java2d.J2DBench.src.j2dbench.Option;
+import demo.share.java2d.J2DBench.src.j2dbench.Result;
+import demo.share.java2d.J2DBench.src.j2dbench.TestEnvironment;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -27,20 +55,10 @@
  * this sample code.
  */
 
-package j2dbench.tests.cmm;
 
-import java.awt.image.BufferedImage;
-import java.io.IOException;
-import java.net.URL;
 
-import javax.imageio.ImageIO;
-import javax.imageio.ImageReader;
-import javax.imageio.stream.ImageInputStream;
 
-import j2dbench.Group;
-import j2dbench.Option;
-import j2dbench.Result;
-import j2dbench.TestEnvironment;
+
 
 /* This benchmark verifies how changes in cmm library affects image decoding */
 public class EmbeddedProfileTests extends ColorConversionTests {

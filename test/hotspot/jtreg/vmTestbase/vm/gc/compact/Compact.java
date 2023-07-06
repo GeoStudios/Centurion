@@ -18,14 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package vm.gc.compact;
 
-import java.util.*;
 
+import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import nsk.share.test.*;
 import nsk.share.gc.*;
 import nsk.share.gc.gp.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test garbage collector compaction.

@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.interpreter;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.interpreter;
 
-import sun.jvm.hotspot.oops.*;
-import sun.jvm.hotspot.utilities.*;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class BytecodeGetField extends BytecodeGetPut {
   BytecodeGetField(Method method, int bci) {

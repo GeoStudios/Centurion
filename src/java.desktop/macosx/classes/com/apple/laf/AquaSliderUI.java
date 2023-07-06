@@ -19,23 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.*;
 import java.awt.event.MouseEvent;
-
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicSliderUI;
+import java.desktop.macosx.classes.com.apple.laf.*;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIUtils.NineSliceMetricsProvider;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.*;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtilControlSize.*;
+import java.desktop.macosx.classes.com.apple.laf.AquaImageFactory.NineSliceMetrics;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
 
-import apple.laf.*;
-import apple.laf.JRSUIUtils.NineSliceMetricsProvider;
-import apple.laf.JRSUIConstants.*;
 
-import com.apple.laf.AquaUtilControlSize.*;
-import com.apple.laf.AquaImageFactory.NineSliceMetrics;
-import com.apple.laf.AquaUtils.RecyclableSingleton;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaSliderUI extends BasicSliderUI implements Sizeable {
 //    static final Dimension roundThumbSize = new Dimension(21 + 4, 21 + 4); // +2px on both sides for focus fuzz

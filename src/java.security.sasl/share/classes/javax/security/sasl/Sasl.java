@@ -19,26 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.security.sasl;
+package java.security.sasl.share.classes.javax.security.sasl;
 
-import javax.security.auth.callback.CallbackHandler;
+
+import java.security.sasl.share.classes.javax.security.auth.callback.CallbackHandler;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Enumeration;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.HashSet;
 import java.util.Collections;
 import java.security.InvalidParameterException;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.Provider;
 import java.security.Provider.Service;
 import java.security.Security;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A static class for creating SASL clients and servers.

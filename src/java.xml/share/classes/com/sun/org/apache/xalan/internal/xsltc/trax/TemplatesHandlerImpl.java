@@ -19,16 +19,17 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.trax;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax;
 
-import com.sun.org.apache.xalan.internal.xsltc.compiler.CompilerException;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.Parser;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.SourceLoader;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.Stylesheet;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.SyntaxTreeNode;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.XSLTC;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
-import java.util.ArrayList;
+
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.CompilerException;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.Parser;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.SourceLoader;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.Stylesheet;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.SyntaxTreeNode;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.XSLTC;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import javax.xml.XMLConstants;
 import javax.xml.catalog.CatalogFeatures;
 import javax.xml.transform.Source;
@@ -38,11 +39,25 @@ import javax.xml.transform.URIResolver;
 import javax.xml.transform.sax.TemplatesHandler;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkXmlFeatures;
-import org.xml.sax.Attributes;
-import org.xml.sax.ContentHandler;
-import org.xml.sax.InputSource;
-import org.xml.sax.Locator;
-import org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
+import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
+import java.xml.share.classes.com.sun.org.xml.sax.Locator;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of a JAXP1.1 TemplatesHandler

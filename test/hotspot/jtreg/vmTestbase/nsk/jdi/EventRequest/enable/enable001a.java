@@ -21,9 +21,23 @@
 
 package nsk.jdi.EventRequest.enable;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the enable001 JDI test.

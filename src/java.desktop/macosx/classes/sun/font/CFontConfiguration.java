@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.macosx.classes.sun.font;
+
 
 import java.nio.charset.Charset;
 import java.util.HashMap;
-import sun.awt.FontConfiguration;
-import sun.font.CompositeFontDescriptor;
-import sun.font.SunFontManager;
+import java.desktop.macosx.classes.sun.awt.FontConfiguration;
+import java.desktop.macosx.classes.sun.font.CompositeFontDescriptor;
+import java.desktop.macosx.classes.sun.font.SunFontManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class CFontConfiguration extends FontConfiguration {
 

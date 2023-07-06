@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.compiler.CodeCacheInfo;
+
+
+import sun.hotspot.WhiteBox;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -41,11 +60,7 @@
  *      vm.compiler.CodeCacheInfo.Test
  */
 
-package vm.compiler.CodeCacheInfo;
 
-import sun.hotspot.WhiteBox;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class Test {
     private static final String SEG_REGEXP;

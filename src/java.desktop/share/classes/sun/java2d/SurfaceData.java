@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d;
+package java.desktop.share.classes.sun.java2d;
+
 
 import java.awt.Color;
 import java.awt.Rectangle;
@@ -29,50 +30,63 @@ import java.awt.Image;
 import java.awt.image.ColorModel;
 import java.awt.image.IndexColorModel;
 import java.awt.image.Raster;
+import java.desktop.share.classes.sun.font.FontUtilities;
+import java.desktop.share.classes.sun.java2d.loops.RenderCache;
+import java.desktop.share.classes.sun.java2d.loops.RenderLoops;
+import java.desktop.share.classes.sun.java2d.loops.CompositeType;
+import java.desktop.share.classes.sun.java2d.loops.SurfaceType;
+import java.desktop.share.classes.sun.java2d.loops.MaskFill;
+import java.desktop.share.classes.sun.java2d.loops.DrawLine;
+import java.desktop.share.classes.sun.java2d.loops.FillRect;
+import java.desktop.share.classes.sun.java2d.loops.DrawRect;
+import java.desktop.share.classes.sun.java2d.loops.DrawPolygons;
+import java.desktop.share.classes.sun.java2d.loops.DrawPath;
+import java.desktop.share.classes.sun.java2d.loops.FillPath;
+import java.desktop.share.classes.sun.java2d.loops.FillSpans;
+import java.desktop.share.classes.sun.java2d.loops.FillParallelogram;
+import java.desktop.share.classes.sun.java2d.loops.DrawParallelogram;
+import java.desktop.share.classes.sun.java2d.loops.FontInfo;
+import java.desktop.share.classes.sun.java2d.loops.DrawGlyphjava.util.java.util.java.util.List;
+import java.desktop.share.classes.sun.java2d.loops.DrawGlyphjava.util.ListAA;
+import java.desktop.share.classes.sun.java2d.loops.DrawGlyphjava.util.ListLCD;
+import java.desktop.share.classes.sun.java2d.loops.DrawGlyphjava.util.ListColor;
+import java.desktop.share.classes.sun.java2d.pipe.LoopPipe;
+import java.desktop.share.classes.sun.java2d.pipe.ShapeDrawPipe;
+import java.desktop.share.classes.sun.java2d.pipe.ParallelogramPipe;
+import java.desktop.share.classes.sun.java2d.pipe.CompositePipe;
+import java.desktop.share.classes.sun.java2d.pipe.GeneralCompositePipe;
+import java.desktop.share.classes.sun.java2d.pipe.SpanClipRenderer;
+import java.desktop.share.classes.sun.java2d.pipe.SpanShapeRenderer;
+import java.desktop.share.classes.sun.java2d.pipe.AAShapePipe;
+import java.desktop.share.classes.sun.java2d.pipe.AlphaPaintPipe;
+import java.desktop.share.classes.sun.java2d.pipe.AlphaColorPipe;
+import java.desktop.share.classes.sun.java2d.pipe.PixelToShapeConverter;
+import java.desktop.share.classes.sun.java2d.pipe.PixelToParallelogramConverter;
+import java.desktop.share.classes.sun.java2d.pipe.TextPipe;
+import java.desktop.share.classes.sun.java2d.pipe.TextRenderer;
+import java.desktop.share.classes.sun.java2d.pipe.AATextRenderer;
+import java.desktop.share.classes.sun.java2d.pipe.LCDTextRenderer;
+import java.desktop.share.classes.sun.java2d.pipe.SolidTextRenderer;
+import java.desktop.share.classes.sun.java2d.pipe.OutlineTextRenderer;
+import java.desktop.share.classes.sun.java2d.pipe.DrawImagePipe;
+import java.desktop.share.classes.sun.java2d.pipe.DrawImage;
+import java.desktop.share.classes.sun.awt.SunHints;
+import java.desktop.share.classes.sun.awt.image.SurfaceManager;
+import java.desktop.share.classes.sun.java2d.pipe.LoopBasedPipe;
 
-import sun.font.FontUtilities;
-import sun.java2d.loops.RenderCache;
-import sun.java2d.loops.RenderLoops;
-import sun.java2d.loops.CompositeType;
-import sun.java2d.loops.SurfaceType;
-import sun.java2d.loops.MaskFill;
-import sun.java2d.loops.DrawLine;
-import sun.java2d.loops.FillRect;
-import sun.java2d.loops.DrawRect;
-import sun.java2d.loops.DrawPolygons;
-import sun.java2d.loops.DrawPath;
-import sun.java2d.loops.FillPath;
-import sun.java2d.loops.FillSpans;
-import sun.java2d.loops.FillParallelogram;
-import sun.java2d.loops.DrawParallelogram;
-import sun.java2d.loops.FontInfo;
-import sun.java2d.loops.DrawGlyphList;
-import sun.java2d.loops.DrawGlyphListAA;
-import sun.java2d.loops.DrawGlyphListLCD;
-import sun.java2d.loops.DrawGlyphListColor;
-import sun.java2d.pipe.LoopPipe;
-import sun.java2d.pipe.ShapeDrawPipe;
-import sun.java2d.pipe.ParallelogramPipe;
-import sun.java2d.pipe.CompositePipe;
-import sun.java2d.pipe.GeneralCompositePipe;
-import sun.java2d.pipe.SpanClipRenderer;
-import sun.java2d.pipe.SpanShapeRenderer;
-import sun.java2d.pipe.AAShapePipe;
-import sun.java2d.pipe.AlphaPaintPipe;
-import sun.java2d.pipe.AlphaColorPipe;
-import sun.java2d.pipe.PixelToShapeConverter;
-import sun.java2d.pipe.PixelToParallelogramConverter;
-import sun.java2d.pipe.TextPipe;
-import sun.java2d.pipe.TextRenderer;
-import sun.java2d.pipe.AATextRenderer;
-import sun.java2d.pipe.LCDTextRenderer;
-import sun.java2d.pipe.SolidTextRenderer;
-import sun.java2d.pipe.OutlineTextRenderer;
-import sun.java2d.pipe.DrawImagePipe;
-import sun.java2d.pipe.DrawImage;
-import sun.awt.SunHints;
-import sun.awt.image.SurfaceManager;
-import sun.java2d.pipe.LoopBasedPipe;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides various pieces of information relevant to a

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.macronodes;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8046698
@@ -27,7 +44,6 @@
  *                   compiler.macronodes.TestEliminateAllocationPhi
  */
 
-package compiler.macronodes;
 
 public class TestEliminateAllocationPhi {
 

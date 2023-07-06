@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.protocol.http;
+package java.base.share.classes.sun.net.www.protocol.http;
+
 
 import java.net.URL;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.Authenticator.RequestorType;
 import java.util.Base64;
 import java.util.HashMap;
 import java.util.concurrent.locks.ReentrantLock;
+import java.base.share.classes.sun.net.www.HeaderParser;
+import static java.base.share.classes.sun.net.www.protocol.http.AuthScheme.NEGOTIATE;.extended
+import static java.base.share.classes.sun.net.www.protocol.http.AuthScheme.KERBEROS;.extended
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
-import sun.net.www.HeaderParser;
-import static sun.net.www.protocol.http.AuthScheme.NEGOTIATE;
-import static sun.net.www.protocol.http.AuthScheme.KERBEROS;
-import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * NegotiateAuthentication:

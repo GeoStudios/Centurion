@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package varargs.warning.warn2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 5035307
@@ -28,7 +45,6 @@
  * @compile -Werror  Warn2.java
  */
 
-package varargs.warning.warn2;
 
 class Warn2 {
     void f(String... args) {}

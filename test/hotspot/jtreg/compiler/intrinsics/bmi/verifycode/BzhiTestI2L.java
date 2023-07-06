@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.bmi.verifycode;
+
+
+import compiler.intrinsics.bmi.TestBzhiI2L;
+import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @requires vm.simpleArch == "x64" & vm.flavor == "server" & !vm.emulatedClient & !vm.graal.enabled
@@ -33,11 +52,8 @@
  *      compiler.intrinsics.bmi.verifycode.BzhiTestI2L
  */
 
-package compiler.intrinsics.bmi.verifycode;
 
-import compiler.intrinsics.bmi.TestBzhiI2L;
 
-import java.lang.reflect.Method;
 
 public class BzhiTestI2L extends BmiIntrinsicBase.BmiTestCase_x64 {
 

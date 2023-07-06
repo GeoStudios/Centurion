@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.annotation.processing;
+package java.compiler.share.classes.javax.annotation.processing;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A suggested {@linkplain Processor#getCompletions <em>completion</em>} for an

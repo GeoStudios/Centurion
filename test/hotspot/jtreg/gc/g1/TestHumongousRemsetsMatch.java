@@ -21,6 +21,22 @@
 
 package gc.g1;
 
+
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestHumongousRemSetsMatch
  * @bug 8205426
@@ -32,7 +48,6 @@ package gc.g1;
  * @run main/othervm -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions -Xmx512M -Xms512M -Xmn10M -XX:ParallelGCThreads=2 -XX:-UseDynamicNumberOfGCThreads -XX:+UseG1GC -XX:+WhiteBoxAPI -XX:G1HeapRegionSize=1M -XX:+VerifyAfterGC -Xlog:gc,gc+remset+tracking=trace gc.g1.TestHumongousRemsetsMatch
  */
 
-import sun.hotspot.WhiteBox;
 
 public class TestHumongousRemsetsMatch {
 

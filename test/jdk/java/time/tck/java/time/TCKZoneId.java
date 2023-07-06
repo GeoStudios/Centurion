@@ -21,9 +21,9 @@
 
 package tck.java.time;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.fail;
 
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.fail;.extended
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
@@ -42,12 +42,24 @@ import java.time.temporal.TemporalQueries;
 import java.time.temporal.TemporalQuery;
 import java.time.zone.ZoneRulesException;
 import java.util.HashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.Set;
-
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test ZoneId.

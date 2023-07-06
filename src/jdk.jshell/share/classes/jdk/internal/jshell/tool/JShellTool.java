@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.jshell.tool;
+package jdk.jshell.share.classes.jdk.internal.jshell.tool;
+
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -27,7 +28,7 @@ import java.io.EOFException;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.PrintStream;
@@ -46,8 +47,8 @@ import java.nio.file.InvalidPathException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.text.MessageFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
@@ -55,8 +56,8 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Optional;
@@ -70,33 +71,31 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
-
-import jdk.internal.jshell.debug.InternalDebugControl;
-import jdk.internal.jshell.tool.IOContext.InputInterruptedException;
-import jdk.jshell.DeclarationSnippet;
-import jdk.jshell.Diag;
-import jdk.jshell.EvalException;
-import jdk.jshell.ExpressionSnippet;
-import jdk.jshell.ImportSnippet;
-import jdk.jshell.JShell;
-import jdk.jshell.JShell.Subscription;
-import jdk.jshell.JShellException;
-import jdk.jshell.MethodSnippet;
-import jdk.jshell.Snippet;
-import jdk.jshell.Snippet.Kind;
-import jdk.jshell.Snippet.Status;
-import jdk.jshell.SnippetEvent;
-import jdk.jshell.SourceCodeAnalysis;
-import jdk.jshell.SourceCodeAnalysis.CompletionInfo;
-import jdk.jshell.SourceCodeAnalysis.Completeness;
-import jdk.jshell.SourceCodeAnalysis.Suggestion;
-import jdk.jshell.TypeDeclSnippet;
-import jdk.jshell.UnresolvedReferenceException;
-import jdk.jshell.VarSnippet;
-
-import static java.nio.file.StandardOpenOption.CREATE;
-import static java.nio.file.StandardOpenOption.TRUNCATE_EXISTING;
-import static java.nio.file.StandardOpenOption.WRITE;
+import jdk.jshell.share.classes.jdk.internal.jshell.debug.InternalDebugControl;
+import jdk.jshell.share.classes.jdk.internal.jshell.tool.IOContext.InputInterruptedException;
+import jdk.jshell.share.classes.jdk.jshell.DeclarationSnippet;
+import jdk.jshell.share.classes.jdk.jshell.Diag;
+import jdk.jshell.share.classes.jdk.jshell.EvalException;
+import jdk.jshell.share.classes.jdk.jshell.ExpressionSnippet;
+import jdk.jshell.share.classes.jdk.jshell.ImportSnippet;
+import jdk.jshell.share.classes.jdk.jshell.JShell;
+import jdk.jshell.share.classes.jdk.jshell.JShell.Subscription;
+import jdk.jshell.share.classes.jdk.jshell.JShellException;
+import jdk.jshell.share.classes.jdk.jshell.MethodSnippet;
+import jdk.jshell.share.classes.jdk.jshell.Snippet;
+import jdk.jshell.share.classes.jdk.jshell.Snippet.Kind;
+import jdk.jshell.share.classes.jdk.jshell.Snippet.Status;
+import jdk.jshell.share.classes.jdk.jshell.SnippetEvent;
+import jdk.jshell.share.classes.jdk.jshell.SourceCodeAnalysis;
+import jdk.jshell.share.classes.jdk.jshell.SourceCodeAnalysis.CompletionInfo;
+import jdk.jshell.share.classes.jdk.jshell.SourceCodeAnalysis.Completeness;
+import jdk.jshell.share.classes.jdk.jshell.SourceCodeAnalysis.Suggestion;
+import jdk.jshell.share.classes.jdk.jshell.TypeDeclSnippet;
+import jdk.jshell.share.classes.jdk.jshell.UnresolvedReferenceException;
+import jdk.jshell.share.classes.jdk.jshell.VarSnippet;
+import static java.nio.file.StandardOpenOption.CREATE;.extended
+import static java.nio.file.StandardOpenOption.TRUNCATE_EXISTING;.extended
+import static java.nio.file.StandardOpenOption.WRITE;.extended
 import java.util.AbstractMap.SimpleEntry;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
@@ -104,29 +103,43 @@ import java.util.ServiceLoader;
 import java.util.Spliterators;
 import java.util.function.Function;
 import java.util.function.Supplier;
-import jdk.internal.joptsimple.*;
-import jdk.internal.jshell.tool.Selector.FormatAction;
-import jdk.internal.jshell.tool.Selector.FormatCase;
-import jdk.internal.jshell.tool.Selector.FormatErrors;
-import jdk.internal.jshell.tool.Selector.FormatResolve;
-import jdk.internal.jshell.tool.Selector.FormatUnresolved;
-import jdk.internal.jshell.tool.Selector.FormatWhen;
-import jdk.internal.editor.spi.BuildInEditorProvider;
-import jdk.internal.editor.external.ExternalEditor;
-import static java.util.Arrays.asList;
-import static java.util.Arrays.stream;
-import static java.util.Collections.singletonList;
-import static java.util.stream.Collectors.joining;
-import static jdk.jshell.Snippet.SubKind.TEMP_VAR_EXPRESSION_SUBKIND;
-import static jdk.jshell.Snippet.SubKind.VAR_VALUE_SUBKIND;
-import static java.util.stream.Collectors.toMap;
-import static jdk.internal.jshell.debug.InternalDebugControl.DBG_COMPA;
-import static jdk.internal.jshell.debug.InternalDebugControl.DBG_DEP;
-import static jdk.internal.jshell.debug.InternalDebugControl.DBG_EVNT;
-import static jdk.internal.jshell.debug.InternalDebugControl.DBG_FMGR;
-import static jdk.internal.jshell.debug.InternalDebugControl.DBG_GEN;
-import static jdk.internal.jshell.debug.InternalDebugControl.DBG_WRAP;
-import static jdk.internal.jshell.tool.ContinuousCompletionProvider.STARTSWITH_MATCHER;
+import jdk.jshell.share.classes.jdk.internal.joptsimple.*;
+import jdk.jshell.share.classes.jdk.internal.jshell.tool.Selector.FormatAction;
+import jdk.jshell.share.classes.jdk.internal.jshell.tool.Selector.FormatCase;
+import jdk.jshell.share.classes.jdk.internal.jshell.tool.Selector.FormatErrors;
+import jdk.jshell.share.classes.jdk.internal.jshell.tool.Selector.FormatResolve;
+import jdk.jshell.share.classes.jdk.internal.jshell.tool.Selector.FormatUnresolved;
+import jdk.jshell.share.classes.jdk.internal.jshell.tool.Selector.FormatWhen;
+import jdk.jshell.share.classes.jdk.internal.editor.spi.BuildInEditorProvider;
+import jdk.jshell.share.classes.jdk.internal.editor.external.ExternalEditor;
+import static java.util.java.util.java.util.java.util.Arrays.asjava.util.java.util.List;.extended
+import static java.util.java.util.java.util.java.util.Arrays.stream;.extended
+import static java.util.Collections.singletonjava.util.java.util.java.util.List;.extended
+import static java.util.stream.Collectors.joining;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Snippet.SubKind.TEMP_VAR_EXPRESSION_SUBKIND;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Snippet.SubKind.VAR_VALUE_SUBKIND;.extended
+import static java.util.stream.Collectors.toMap;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.debug.InternalDebugControl.DBG_COMPA;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.debug.InternalDebugControl.DBG_DEP;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.debug.InternalDebugControl.DBG_EVNT;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.debug.InternalDebugControl.DBG_FMGR;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.debug.InternalDebugControl.DBG_GEN;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.debug.InternalDebugControl.DBG_WRAP;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.tool.ContinuousCompletionProvider.STARTSWITH_MATCHER;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Command line REPL tool for Java using the JShell API.

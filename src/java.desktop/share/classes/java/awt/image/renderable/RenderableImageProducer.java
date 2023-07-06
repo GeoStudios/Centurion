@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.image.renderable;
+package java.desktop.share.classes.java.awt.image.renderable;
 
-import java.awt.image.ColorModel;
-import java.awt.image.DataBuffer;
-import java.awt.image.ImageConsumer;
-import java.awt.image.ImageProducer;
-import java.awt.image.Raster;
-import java.awt.image.RenderedImage;
-import java.awt.image.SampleModel;
-import java.util.Enumeration;
-import java.util.Vector;
+
+import java.desktop.share.classes.java.awt.image.ColorModel;
+import java.desktop.share.classes.java.awt.image.DataBuffer;
+import java.desktop.share.classes.java.awt.image.ImageConsumer;
+import java.desktop.share.classes.java.awt.image.ImageProducer;
+import java.desktop.share.classes.java.awt.image.Raster;
+import java.desktop.share.classes.java.awt.image.RenderedImage;
+import java.desktop.share.classes.java.awt.image.SampleModel;
+import java.desktop.share.classes.java.util.Enumeration;
+import java.desktop.share.classes.java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An adapter class that implements ImageProducer to allow the

@@ -19,19 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
+
 
 import jdk.internal.misc.CDS;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.java.lang.constant.Constable;
+import java.base.share.classes.java.lang.constant.DynamicConstantDesc;
+import java.base.share.classes.java.util.Optional;
+import static java.base.share.classes.java.lang.constant.ConstantDescs.BSM_EXPLICIT_CAST;.extended
+import static java.base.share.classes.java.lang.constant.ConstantDescs.CD_byte;.extended
+import static java.base.share.classes.java.lang.constant.ConstantDescs.CD_int;.extended
+import static java.base.share.classes.java.lang.constant.ConstantDescs.DEFAULT_NAME;.extended
 
-import java.lang.constant.Constable;
-import java.lang.constant.DynamicConstantDesc;
-import java.util.Optional;
 
-import static java.lang.constant.ConstantDescs.BSM_EXPLICIT_CAST;
-import static java.lang.constant.ConstantDescs.CD_byte;
-import static java.lang.constant.ConstantDescs.CD_int;
-import static java.lang.constant.ConstantDescs.DEFAULT_NAME;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

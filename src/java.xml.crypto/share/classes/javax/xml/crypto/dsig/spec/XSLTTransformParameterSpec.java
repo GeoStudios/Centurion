@@ -18,13 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package java.xml.crypto.share.classes.javax.xml.crypto.dsig.spec;
+
+
+import java.xml.crypto.share.classes.javax.xml.crypto.dsig.Transform;
+import java.xml.crypto.share.classes.javax.xml.crypto.XMLStructure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: XSLTTransformParameterSpec.java,v 1.4 2005/05/10 16:40:18 mullan Exp $
  */
-package javax.xml.crypto.dsig.spec;
 
-import javax.xml.crypto.dsig.Transform;
-import javax.xml.crypto.XMLStructure;
+
 
 /**
  * Parameters for the <a href="http://www.w3.org/TR/1999/REC-xslt-19991116">

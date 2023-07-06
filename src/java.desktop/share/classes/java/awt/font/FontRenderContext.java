@@ -19,15 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.share.classes.java.awt.font;
+
+
+import java.desktop.share.classes.java.awt.RenderingHints;
+import static java.desktop.share.classes.java.awt.RenderingHints.*;.extended
+import java.desktop.share.classes.java.awt.geom.AffineTransform;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  */
 
-package java.awt.font;
 
-import java.awt.RenderingHints;
-import static java.awt.RenderingHints.*;
-import java.awt.geom.AffineTransform;
-import java.util.Objects;
+
 
 /**
 *   The {@code FontRenderContext} class is a container for the

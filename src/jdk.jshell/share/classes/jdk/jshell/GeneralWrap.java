@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jshell;
+package jdk.jshell.share.classes.jdk.jshell;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Common interface for all wrappings of snippet source to Java source.

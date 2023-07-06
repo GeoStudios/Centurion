@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.code;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code;
+
 
 import java.io.*;
 import java.util.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
 
-import sun.jvm.hotspot.runtime.*;
-import sun.jvm.hotspot.types.*;
-import sun.jvm.hotspot.utilities.*;
-import sun.jvm.hotspot.utilities.Observable;
-import sun.jvm.hotspot.utilities.Observer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** <P> A Location describes a concrete machine variable location
     (such as integer or floating point register or a stack-held

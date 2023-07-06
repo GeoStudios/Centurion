@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jdi;
+package jdk.jdi.share.classes.com.sun.jdi;
 
-import com.sun.jdi.connect.Connector;
-import com.sun.tools.jdi.VirtualMachineManagerImpl;
+
+import jdk.jdi.share.classes.com.sun.jdi.connect.Connector;
+import jdk.jdi.share.classes.com.sun.tools.jdi.VirtualMachineManagerImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Initial class that provides access to the default implementation

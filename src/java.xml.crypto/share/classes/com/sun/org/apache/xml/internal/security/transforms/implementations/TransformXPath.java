@@ -19,29 +19,47 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.implementations;
+
+
+import java.io.OutputStream;
+import javax.xml.transform.TransformerException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityRuntimeException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.NodeFilter;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.XMLSignatureInput;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.TransformSpi;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.TransformationException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.Transforms;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.Constants;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.XMLUtils;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.XPathAPI;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.XPathFactory;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.DOMException;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.transforms.implementations;
 
-import java.io.OutputStream;
 
-import javax.xml.transform.TransformerException;
 
-import com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityRuntimeException;
-import com.sun.org.apache.xml.internal.security.signature.NodeFilter;
-import com.sun.org.apache.xml.internal.security.signature.XMLSignatureInput;
-import com.sun.org.apache.xml.internal.security.transforms.TransformSpi;
-import com.sun.org.apache.xml.internal.security.transforms.TransformationException;
-import com.sun.org.apache.xml.internal.security.transforms.Transforms;
-import com.sun.org.apache.xml.internal.security.utils.Constants;
-import com.sun.org.apache.xml.internal.security.utils.XMLUtils;
-import com.sun.org.apache.xml.internal.security.utils.XPathAPI;
-import com.sun.org.apache.xml.internal.security.utils.XPathFactory;
-import org.w3c.dom.DOMException;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
+
 
 /**
  * Class TransformXPath

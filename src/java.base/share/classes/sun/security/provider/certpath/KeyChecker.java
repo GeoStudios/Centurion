@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider.certpath;
+package java.base.share.classes.sun.security.provider.certpath;
+
 
 import java.util.*;
 import java.security.cert.*;
 import java.security.cert.PKIXReason;
+import java.base.share.classes.sun.security.util.Debug;
+import static java.base.share.classes.sun.security.x509.PKIXExtensions.*;.extended
 
-import sun.security.util.Debug;
-import static sun.security.x509.PKIXExtensions.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * KeyChecker is a <code>PKIXCertPathChecker</code> that checks that the

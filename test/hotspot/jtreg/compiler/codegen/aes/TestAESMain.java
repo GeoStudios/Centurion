@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codegen.aes;
+
+
+import compiler.whitebox.CompilerWhiteBoxTest;
+import sun.hotspot.code.Compiler;
+import jtreg.SkippedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7184394
@@ -122,11 +142,7 @@
  * @author Tom Deneau
  */
 
-package compiler.codegen.aes;
 
-import compiler.whitebox.CompilerWhiteBoxTest;
-import sun.hotspot.code.Compiler;
-import jtreg.SkippedException;
 
 public class TestAESMain {
     public static void main(String[] args) {

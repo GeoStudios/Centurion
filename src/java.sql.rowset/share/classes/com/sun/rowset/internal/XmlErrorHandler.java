@@ -19,13 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.rowset.internal;
+package java.sql.rowset.share.classes.com.sun.rowset.internal;
+
 
 import org.xml.sax.*;
 import org.xml.sax.helpers.DefaultHandler;
-
-import com.sun.rowset.*;
+import java.sql.rowset.share.classes.com.sun.rowset.*;
 import javax.sql.rowset.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

@@ -19,19 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.*;
-
-import java.util.LinkedList;
+import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.Iterator;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+import java.desktop.unix.classes.sun.awt.EmbeddedFrame;
+import java.desktop.unix.classes.sun.awt.SunToolkit;
+import static java.desktop.unix.classes.sun.awt.X11.XConstants.*;.extended
 
-import sun.util.logging.PlatformLogger;
 
-import sun.awt.EmbeddedFrame;
-import sun.awt.SunToolkit;
 
-import static sun.awt.X11.XConstants.*;
+
+
+
+
+
+
+
+
+
+
+
 
 public class XEmbeddedFramePeer extends XFramePeer {
 

@@ -18,20 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.tests.java.util.stream;
+
 
 import jdk.incubator.foreign.MemorySegment;
 import jdk.incubator.foreign.ResourceScope;
 import jdk.incubator.foreign.SequenceLayout;
 import org.testng.annotations.Test;
-
 import java.util.function.Supplier;
 import java.util.Spliterator;
 import java.util.SpliteratorTestHelper;
 import java.util.stream.*;
+import static org.testng.Assert.*;.extended
+import static org.testng.Assert.assertEquals;.extended
 
-import static org.testng.Assert.*;
-import static org.testng.Assert.assertEquals;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * SpliteratorTest

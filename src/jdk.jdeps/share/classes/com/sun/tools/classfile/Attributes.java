@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.classfile;
+package jdk.jdeps.share.classes.com.sun.tools.classfile;
 
-import java.io.IOException;
-import java.util.Arrays;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  *  <p><b>This is NOT part of any supported API.

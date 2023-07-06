@@ -19,25 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.basic;
+package java.desktop.share.classes.javax.swing.plaf.basic;
+
 
 import sun.swing.DefaultLookup;
 import sun.swing.UIAction;
-import javax.swing.border.Border;
-import javax.swing.border.EmptyBorder;
-import javax.swing.*;
-import javax.swing.event.*;
-import javax.swing.plaf.ActionMapUIResource;
-import javax.swing.plaf.ComponentUI;
-import javax.swing.plaf.OptionPaneUI;
+import java.desktop.share.classes.javax.swing.border.Border;
+import java.desktop.share.classes.javax.swing.border.EmptyBorder;
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.event.*;
+import java.desktop.share.classes.javax.swing.plaf.ActionMapUIResource;
+import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
+import java.desktop.share.classes.javax.swing.plaf.OptionPaneUI;
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import java.util.Locale;
+import java.beans.PropertyChangejava.util.Listener;
+import java.base.share.classes.java.util.Locale;
 import java.security.AccessController;
-
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

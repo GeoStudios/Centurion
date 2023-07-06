@@ -18,18 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.aarch64;
+
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.aarch64.src.jdk.vm.ci.aarch64;
+
 
 import java.nio.ByteOrder;
 import java.util.EnumSet;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.aarch64.src.jdk.vm.ci.code.Architecture;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.aarch64.src.jdk.vm.ci.code.CPUFeatureName;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.aarch64.src.jdk.vm.ci.code.Register;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.aarch64.src.jdk.vm.ci.code.Register.RegisterCategory;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.aarch64.src.jdk.vm.ci.code.RegisterArray;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.aarch64.src.jdk.vm.ci.meta.JavaKind;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.aarch64.src.jdk.vm.ci.meta.PlatformKind;
 
-import jdk.vm.ci.code.Architecture;
-import jdk.vm.ci.code.CPUFeatureName;
-import jdk.vm.ci.code.Register;
-import jdk.vm.ci.code.Register.RegisterCategory;
-import jdk.vm.ci.code.RegisterArray;
-import jdk.vm.ci.meta.JavaKind;
-import jdk.vm.ci.meta.PlatformKind;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents the AArch64 architecture.

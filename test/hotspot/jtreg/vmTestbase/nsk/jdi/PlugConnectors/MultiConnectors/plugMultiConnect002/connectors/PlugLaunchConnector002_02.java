@@ -19,17 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * A Simple LaunchingConnector with default arguments of all types used by
- * nsk/jdi/PlugConnectors/MultiConnectors/plugMultiConnect002 test
- */
-
 package nsk.jdi.PlugConnectors.MultiConnectors.plugMultiConnect002.connectors;
+
 
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * A Simple LaunchingConnector with default arguments of all types used by
+ * nsk/jdi/PlugConnectors/MultiConnectors/plugMultiConnect002 test
+ */
+
+
 
 public class PlugLaunchConnector002_02 extends PlugConnectors implements LaunchingConnector {
 

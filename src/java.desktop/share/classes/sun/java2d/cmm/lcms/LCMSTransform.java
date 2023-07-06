@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.cmm.lcms;
+package java.desktop.share.classes.sun.java2d.cmm.lcms;
+
 
 import java.awt.color.CMMException;
 import java.awt.color.ColorSpace;
@@ -30,10 +31,22 @@ import java.awt.image.DataBuffer;
 import java.awt.image.Raster;
 import java.awt.image.SampleModel;
 import java.awt.image.WritableRaster;
+import java.desktop.share.classes.sun.java2d.cmm.ColorTransform;
+import static java.desktop.share.classes.sun.java2d.cmm.lcms.LCMSImageLayout.ImageLayoutException;.extended
 
-import sun.java2d.cmm.ColorTransform;
 
-import static sun.java2d.cmm.lcms.LCMSImageLayout.ImageLayoutException;
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class LCMSTransform implements ColorTransform {
     long ID;

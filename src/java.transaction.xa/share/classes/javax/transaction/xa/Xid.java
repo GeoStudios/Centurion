@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.transaction.xa;
+package java.transaction.xa.share.classes.javax.transaction.xa;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Xid interface is a Java mapping of the X/Open transaction identifier

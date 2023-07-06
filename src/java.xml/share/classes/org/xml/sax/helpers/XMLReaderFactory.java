@@ -19,22 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.xml.sax.helpers;
+package java.xml.share.classes.org.xml.sax.helpers;
+
 
 import java.io.BufferedReader;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.Iterator;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.ServiceConfigurationError;
 import java.util.ServiceLoader;
 import jdk.xml.internal.SecuritySupport;
-import org.xml.sax.SAXException;
-import org.xml.sax.XMLReader;
+import java.xml.share.classes.org.xml.sax.SAXException;
+import java.xml.share.classes.org.xml.sax.XMLReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

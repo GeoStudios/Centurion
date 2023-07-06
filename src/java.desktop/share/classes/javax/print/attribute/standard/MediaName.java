@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.print.attribute.standard;
+package java.desktop.share.classes.javax.print.attribute.standard;
+
 
 import java.io.Serial;
+import java.desktop.share.classes.javax.print.attribute.Attribute;
+import java.desktop.share.classes.javax.print.attribute.EnumSyntax;
 
-import javax.print.attribute.Attribute;
-import javax.print.attribute.EnumSyntax;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class {@code MediaName} is a subclass of {@code Media}, a printing attribute

@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http.common;
+package java.net.http.share.classes.jdk.internal.net.http.common;
+
 
 import java.io.PrintStream;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.ResourceBundle;
 import java.util.function.Supplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code System.Logger} that forwards all messages to an underlying

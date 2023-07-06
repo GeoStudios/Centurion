@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.FloatingPoint.gen_math.Filtering;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,9 +48,7 @@
  * @run main/othervm jit.FloatingPoint.gen_math.Filtering.Filtering
  */
 
-package jit.FloatingPoint.gen_math.Filtering;
 
-import nsk.share.TestFailure;
 
 public class Filtering
 {

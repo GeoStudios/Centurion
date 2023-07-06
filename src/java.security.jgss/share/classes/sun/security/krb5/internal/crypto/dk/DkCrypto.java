@@ -19,23 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal.crypto.dk;
+package java.security.jgss.share.classes.sun.security.krb5.internal.crypto.dk;
 
-import javax.crypto.Cipher;
+
+import java.base.share.classes.javax.crypto.Cipher;
 import javax.crypto.Mac;
 import java.security.GeneralSecurityException;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.nio.charset.Charset;
 import java.nio.CharBuffer;
 import java.nio.ByteBuffer;
-import sun.security.util.HexDumpEncoder;
-import sun.security.krb5.Confounder;
-import sun.security.krb5.internal.crypto.KeyUsage;
-import sun.security.krb5.KrbCryptoException;
+import java.security.jgss.share.classes.sun.security.util.HexDumpEncoder;
+import java.security.jgss.share.classes.sun.security.krb5.Confounder;
+import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.KeyUsage;
+import java.security.jgss.share.classes.sun.security.krb5.KrbCryptoException;
+import static java.nio.charset.StandardCharsets.*;.extended
 
-import static java.nio.charset.StandardCharsets.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements Derive Key cryptography functionality as defined in RFC 3961.

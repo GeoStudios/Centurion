@@ -18,16 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.share.jdi;
+
 
 import java.io.PrintStream;
 import java.lang.reflect.*;
 import java.util.*;
-
 import com.sun.jdi.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import nsk.share.TestBug;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  *  Class is used as base debugger in tests for following events and event requests:

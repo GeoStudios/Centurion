@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.vm.ci.hotspot.test;
+
+
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import java.util.HashMap;
+import java.util.Map;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import jdk.vm.ci.services.Services;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @requires vm.jvmci
@@ -29,17 +53,9 @@
  *      jdk.vm.ci.hotspot.test.TestServices
  */
 
-package jdk.vm.ci.hotspot.test;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import java.util.HashMap;
-import java.util.Map;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
 
-import jdk.vm.ci.services.Services;
 
 public class TestServices {
 

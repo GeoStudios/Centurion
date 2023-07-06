@@ -19,17 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs11;
+package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11;
+
 
 import java.io.*;
 import java.util.*;
-
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.KeyStore.*;
 import java.security.cert.X509Certificate;
+import jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.*;
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Constants.*;.extended
 
-import sun.security.pkcs11.wrapper.*;
-import static sun.security.pkcs11.wrapper.PKCS11Constants.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**
@@ -740,10 +752,9 @@ public final class Secmod {
             if (this == o) {
                 return true;
             }
-            if (!(o instanceof Bytes)) {
+            if (!(o instanceof Bytes other)) {
                 return false;
             }
-            Bytes other = (Bytes)o;
             return Arrays.equals(this.b, other.b);
         }
     }

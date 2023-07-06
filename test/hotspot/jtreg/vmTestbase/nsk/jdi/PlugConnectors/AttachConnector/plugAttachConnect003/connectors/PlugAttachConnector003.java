@@ -19,17 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * A Simple AttachingConnector used by
- * nsk/jdi/PlugConnectors/AttachConnector/plugAttachConnect003 test
- */
-
 package nsk.jdi.PlugConnectors.AttachConnector.plugAttachConnect003.connectors;
+
 
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * A Simple AttachingConnector used by
+ * nsk/jdi/PlugConnectors/AttachConnector/plugAttachConnect003 test
+ */
+
+
 
 public class PlugAttachConnector003 extends PlugConnectors implements AttachingConnector {
 

@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvmstat.perfdata.monitor;
+package jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor;
+
 
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility methods for use with {@link CountedTimerTask} instances.

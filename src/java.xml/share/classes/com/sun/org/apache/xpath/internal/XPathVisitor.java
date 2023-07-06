@@ -19,23 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xpath.internal;
+
+
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.axes.LocPathIterator;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.axes.UnionPathIterator;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.functions.Function;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XNumber;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XString;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Operation;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.UnaryOperation;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Variable;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns.NodeTest;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns.StepPattern;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns.UnionPattern;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xpath.internal;
 
-import com.sun.org.apache.xpath.internal.axes.LocPathIterator;
-import com.sun.org.apache.xpath.internal.axes.UnionPathIterator;
-import com.sun.org.apache.xpath.internal.functions.Function;
-import com.sun.org.apache.xpath.internal.objects.XNumber;
-import com.sun.org.apache.xpath.internal.objects.XString;
-import com.sun.org.apache.xpath.internal.operations.Operation;
-import com.sun.org.apache.xpath.internal.operations.UnaryOperation;
-import com.sun.org.apache.xpath.internal.operations.Variable;
-import com.sun.org.apache.xpath.internal.patterns.NodeTest;
-import com.sun.org.apache.xpath.internal.patterns.StepPattern;
-import com.sun.org.apache.xpath.internal.patterns.UnionPattern;
+
 
 /**
  * A derivation from this class can be passed to a class that implements

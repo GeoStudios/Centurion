@@ -19,19 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.protocol.http.spnego;
+package java.security.jgss.share.classes.sun.net.www.protocol.http.spnego;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.Authenticator;
 import java.net.PasswordAuthentication;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import javax.security.auth.callback.Callback;
 import javax.security.auth.callback.CallbackHandler;
 import javax.security.auth.callback.NameCallback;
 import javax.security.auth.callback.PasswordCallback;
 import javax.security.auth.callback.UnsupportedCallbackException;
-import sun.net.www.protocol.http.HttpCallerInfo;
-import sun.security.jgss.LoginConfigImpl;
+import java.security.jgss.share.classes.sun.net.www.protocol.http.HttpCallerInfo;
+import java.security.jgss.share.classes.sun.security.jgss.LoginConfigImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Special callback handler used in JGSS for the HttpCaller.

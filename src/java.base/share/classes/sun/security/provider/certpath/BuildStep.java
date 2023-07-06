@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider.certpath;
+package java.base.share.classes.sun.security.provider.certpath;
+
 
 import java.security.cert.X509Certificate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Describes one step of a certification path build, consisting of a

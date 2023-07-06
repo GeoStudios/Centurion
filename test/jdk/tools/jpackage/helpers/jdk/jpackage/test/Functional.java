@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.jpackage.test;
+
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.function.BiConsumer;
@@ -26,6 +28,18 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class Functional {

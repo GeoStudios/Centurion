@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.settings;
+
+package utils.IdealGraphVisualizer.Settings.src.main.java.com.sun.hotspot.igv.settings;
+
 
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
@@ -26,6 +28,20 @@ import org.netbeans.spi.options.OptionsCategory;
 import org.netbeans.spi.options.OptionsPanelController;
 import org.openide.util.ImageUtilities;
 import org.openide.util.NbBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

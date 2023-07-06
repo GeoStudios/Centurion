@@ -18,15 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.security.ssl;
 
-import java.io.IOException;
+package java.base.share.classes.sun.security.ssl;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.interfaces.XECPublicKey;
-import java.security.spec.*;
-import sun.security.ssl.NamedGroup.NamedGroupSpec;
-import sun.security.util.*;
+import java.base.share.classes.java.security.spec.*;
+import java.base.share.classes.sun.security.ssl.NamedGroup.NamedGroupSpec;
+import java.base.share.classes.sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Specifics for XEC/XDH Keys/Exchanges

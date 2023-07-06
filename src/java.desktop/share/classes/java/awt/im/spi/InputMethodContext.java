@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.im.spi;
+package java.desktop.share.classes.java.awt.im.spi;
 
-import java.awt.HeadlessException;
-import java.awt.Window;
-import java.awt.font.TextHitInfo;
-import java.awt.im.InputMethodRequests;
-import java.text.AttributedCharacterIterator;
+
+import java.desktop.share.classes.java.awt.HeadlessException;
+import java.desktop.share.classes.java.awt.Window;
+import java.desktop.share.classes.java.awt.font.TextHitInfo;
+import java.desktop.share.classes.java.awt.im.InputMethodRequests;
+import java.desktop.share.classes.java.text.AttributedCharacterIterator;
 import javax.swing.JFrame;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides methods that input methods

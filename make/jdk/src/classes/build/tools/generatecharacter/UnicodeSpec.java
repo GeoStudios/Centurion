@@ -21,14 +21,55 @@
 
 package build.tools.generatecharacter;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.StringTokenizer;
-import java.io.File;
-import java.util.regex.Pattern;
-import java.util.ArrayList;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The UnicodeSpec class provides a way to read in Unicode character

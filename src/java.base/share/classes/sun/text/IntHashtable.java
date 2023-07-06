@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.text;
+package java.base.share.classes.sun.text;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Simple internal class for doing hash mapping. Much, much faster than the
  * standard Hashtable for integer to integer mappings,

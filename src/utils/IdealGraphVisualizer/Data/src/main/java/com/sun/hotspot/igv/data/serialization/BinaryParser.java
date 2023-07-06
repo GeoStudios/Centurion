@@ -18,23 +18,39 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.data.serialization;
 
-import com.sun.hotspot.igv.data.*;
-import com.sun.hotspot.igv.data.Properties;
-import com.sun.hotspot.igv.data.services.GroupCallback;
-import java.io.EOFException;
-import java.io.IOException;
-import java.nio.ByteBuffer;
-import java.nio.channels.ReadableByteChannel;
-import java.nio.charset.Charset;
-import java.nio.charset.StandardCharsets;
-import java.util.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+package utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data.serialization;
+
+
+import utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data.*;
+import utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data.Properties;
+import utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data.services.GroupCallback;
+import utils.IdealGraphVisualizer.Data.src.main.java.io.EOFException;
+import utils.IdealGraphVisualizer.Data.src.main.java.io.java.io.java.io.java.io.IOException;
+import utils.IdealGraphVisualizer.Data.src.main.java.nio.ByteBuffer;
+import utils.IdealGraphVisualizer.Data.src.main.java.nio.channels.ReadableByteChannel;
+import utils.IdealGraphVisualizer.Data.src.main.java.nio.charset.Charset;
+import utils.IdealGraphVisualizer.Data.src.main.java.nio.charset.StandardCharsets;
+import utils.IdealGraphVisualizer.Data.src.main.java.util.*;
+import utils.IdealGraphVisualizer.Data.src.main.java.util.regex.Matcher;
+import utils.IdealGraphVisualizer.Data.src.main.java.util.regex.Pattern;
 import javax.swing.SwingUtilities;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
+import utils.IdealGraphVisualizer.Data.src.main.java.security.MessageDigest;
+import utils.IdealGraphVisualizer.Data.src.main.java.security.NoSuchAlgorithmException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class BinaryParser implements GraphParser {
     private static final int BEGIN_GROUP = 0x00;
@@ -77,7 +93,7 @@ public class BinaryParser implements GraphParser {
     private final Deque<byte[]> hashStack;
     private final ParseMonitor monitor;
 
-    private MessageDigest digest;
+    private final MessageDigest digest;
 
     private enum Length {
         S,

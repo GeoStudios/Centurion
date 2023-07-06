@@ -19,19 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac.comp;
+package jdk.compiler.share.classes.com.sun.tools.sjavac.comp;
+
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
-
 import javax.lang.model.element.Element;
 import javax.tools.JavaFileObject;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ClassSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.pubapi.PubApi;
 
-import com.sun.tools.javac.code.Symbol.ClassSymbol;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.Log;
-import com.sun.tools.sjavac.pubapi.PubApi;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class containing public API information.

@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.tools;
+package java.compiler.share.classes.javax.tools;
 
-import javax.lang.model.element.NestingKind;
-import javax.lang.model.element.Modifier;
-import java.util.Objects;
+
+import java.compiler.share.classes.javax.lang.model.element.NestingKind;
+import java.compiler.share.classes.javax.lang.model.element.Modifier;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * File abstraction for tools operating on Java programming language

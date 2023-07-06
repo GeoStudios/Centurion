@@ -18,15 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.net;
 
-import java.net.SocketException;
+package jdk.net.linux.classes.jdk.net;
+
+
+import java.net.java.net.SocketException;
 import java.nio.file.attribute.UserPrincipal;
 import java.nio.file.attribute.GroupPrincipal;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import jdk.net.ExtendedSocketOptions.PlatformSocketOptions;
+import jdk.net.linux.classes.jdk.net.Extendedjava.net.SocketOptions.Platformjava.net.SocketOptions;
 import sun.nio.fs.UnixUserPrincipals;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("removal")
 class LinuxSocketOptions extends PlatformSocketOptions {

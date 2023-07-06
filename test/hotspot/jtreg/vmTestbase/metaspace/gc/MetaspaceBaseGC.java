@@ -21,7 +21,8 @@
 
 package metaspace.gc;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryPoolMXBean;
 import java.lang.management.MemoryUsage;
@@ -35,10 +36,23 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test that checks how GC works with Metaspace and "Compared Class Space".

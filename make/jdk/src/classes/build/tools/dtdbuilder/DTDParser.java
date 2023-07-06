@@ -21,15 +21,55 @@
 
 package build.tools.dtdbuilder;
 
-import javax.swing.text.html.parser.*;
-import java.net.URL;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.Enumeration;
-import java.util.Vector;
-import java.util.Hashtable;
-import java.util.BitSet;
-import java.text.MessageFormat;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A parser for DTDs. This parser roughly corresponds to the

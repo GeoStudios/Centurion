@@ -19,6 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.escape.LockElision.MatMul;
+
+
+import java.util.*;
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import nsk.share.Consts;
+import nsk.share.Log;
+import nsk.share.Pair;
+import nsk.share.test.StressOptions;
+import vm.share.options.Option;
+import vm.share.options.OptionSupport;
+import vm.share.options.Options;
+import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key randomness
@@ -42,22 +71,9 @@
  * @run main/othervm jit.escape.LockElision.MatMul.MatMul -dim 30 -threadCount 10
  */
 
-package jit.escape.LockElision.MatMul;
 
-import java.util.*;
-import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
-import nsk.share.Consts;
-import nsk.share.Log;
-import nsk.share.Pair;
-import nsk.share.test.StressOptions;
-import vm.share.options.Option;
-import vm.share.options.OptionSupport;
-import vm.share.options.Options;
 
-import jdk.test.lib.Utils;
 
 public class MatMul {
 

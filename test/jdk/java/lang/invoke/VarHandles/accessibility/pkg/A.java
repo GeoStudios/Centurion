@@ -25,6 +25,19 @@ package pkg;
 import java.lang.invoke.MethodHandles;
 import java.util.Set;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class A {
     public static Object f_public_static;
     protected static Object f_protected_static;

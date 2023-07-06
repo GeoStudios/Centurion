@@ -18,20 +18,36 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.controlflow;
 
-import com.sun.hotspot.igv.data.InputBlock;
-import com.sun.hotspot.igv.layout.Cluster;
-import com.sun.hotspot.igv.layout.Port;
-import com.sun.hotspot.igv.layout.Vertex;
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.Point;
-import java.awt.Rectangle;
+package utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.controlflow;
+
+
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.data.InputBlock;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.layout.Cluster;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.layout.Port;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.layout.Vertex;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.awt.Color;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.awt.Dimension;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.awt.Font;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.awt.Point;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.awt.Rectangle;
 import org.netbeans.api.visual.border.BorderFactory;
 import org.netbeans.api.visual.model.ObjectState;
 import org.netbeans.api.visual.widget.LabelWidget;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

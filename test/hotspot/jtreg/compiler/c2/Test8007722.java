@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import java.util.concurrent.atomic.AtomicReference;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8007722
@@ -28,9 +46,7 @@
  *      compiler.c2.Test8007722
  */
 
-package compiler.c2;
 
-import java.util.concurrent.atomic.AtomicReference;
 
 public class Test8007722 {
 

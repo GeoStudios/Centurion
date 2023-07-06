@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
-import java.security.InvalidKeyException;
+
+import java.base.share.classes.java.security.InvalidKeyException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of the RC2(tm) algorithm as described in RFC 2268.

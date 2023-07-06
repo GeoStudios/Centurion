@@ -19,20 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.formats.html;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
+
 
 import java.util.Collection;
 import java.util.EnumMap;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.ContentBuilder;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.Entity;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.Text;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Resources;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable;
 
-import jdk.javadoc.internal.doclets.formats.html.markup.ContentBuilder;
-import jdk.javadoc.internal.doclets.formats.html.markup.Entity;
-import jdk.javadoc.internal.doclets.formats.html.markup.Text;
-import jdk.javadoc.internal.doclets.toolkit.Content;
-import jdk.javadoc.internal.doclets.toolkit.Resources;
-import jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.sql.rowset.spi;
+package java.sql.rowset.share.classes.javax.sql.rowset.spi;
+
 
 import java.sql.SQLException;
-import javax.sql.rowset.*;
+import java.sql.rowset.share.classes.javax.sql.rowset.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Indicates an error with the <code>SyncProvider</code> mechanism. This exception

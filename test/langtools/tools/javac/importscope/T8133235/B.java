@@ -21,7 +21,21 @@
 
 package pkg;
 
+
 import pkg.A;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class B extends A {
   public static interface Two {

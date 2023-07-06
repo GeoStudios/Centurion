@@ -21,8 +21,55 @@
 
 package build.tools.generatenimbus;
 
-import javax.xml.stream.XMLStreamReader;
-import java.util.Optional;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class Matte extends Paint {
     private int red;

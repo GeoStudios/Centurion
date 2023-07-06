@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ec;
+package jdk.crypto.ec.share.classes.sun.security.ec;
+
 
 import java.io.*;
 import java.security.interfaces.XECPrivateKey;
 import java.util.Optional;
-import java.security.*;
-import java.security.spec.*;
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.java.security.spec.*;
+import jdk.crypto.ec.share.classes.sun.security.pkcs.PKCS8Key;
+import jdk.crypto.ec.share.classes.sun.security.x509.AlgorithmId;
+import jdk.crypto.ec.share.classes.sun.security.util.*;
 
-import sun.security.pkcs.PKCS8Key;
-import sun.security.x509.AlgorithmId;
-import sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class XDHPrivateKeyImpl extends PKCS8Key implements XECPrivateKey {
 

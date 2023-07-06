@@ -19,6 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.compilercontrol.jcmd;
+
+
+import compiler.compilercontrol.share.AbstractTestBase;
+import compiler.compilercontrol.share.method.MethodDescriptor;
+import compiler.compilercontrol.share.scenario.Command;
+import compiler.compilercontrol.share.scenario.CommandGenerator;
+import compiler.compilercontrol.share.scenario.CompileCommand;
+import compiler.compilercontrol.share.scenario.JcmdCommand;
+import compiler.compilercontrol.share.scenario.Scenario;
+import jdk.test.lib.Utils;
+import java.lang.reflect.Executable;
+import static compiler.compilercontrol.share.IntrinsicCommand.VALID_INTRINSIC_SAMPLES;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key randomness
@@ -33,20 +60,9 @@
  * @run driver compiler.compilercontrol.jcmd.PrintDirectivesTest
  */
 
-package compiler.compilercontrol.jcmd;
 
-import compiler.compilercontrol.share.AbstractTestBase;
-import compiler.compilercontrol.share.method.MethodDescriptor;
-import compiler.compilercontrol.share.scenario.Command;
-import compiler.compilercontrol.share.scenario.CommandGenerator;
-import compiler.compilercontrol.share.scenario.CompileCommand;
-import compiler.compilercontrol.share.scenario.JcmdCommand;
-import compiler.compilercontrol.share.scenario.Scenario;
-import jdk.test.lib.Utils;
 
-import java.lang.reflect.Executable;
 
-import static compiler.compilercontrol.share.IntrinsicCommand.VALID_INTRINSIC_SAMPLES;
 
 public class PrintDirectivesTest extends AbstractTestBase {
     private static final int AMOUNT = Utils.getRandomInstance().nextInt(

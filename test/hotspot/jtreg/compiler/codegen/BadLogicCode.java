@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codegen;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4157675
@@ -27,7 +44,6 @@
  * @run main compiler.codegen.BadLogicCode
  */
 
-package compiler.codegen;
 
 public class BadLogicCode {
     static int values[] = {Integer.MIN_VALUE, -1, 0, 1, 4, 16, 31,

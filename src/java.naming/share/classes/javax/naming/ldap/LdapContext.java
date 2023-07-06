@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.naming.ldap;
+package java.naming.share.classes.javax.naming.ldap;
 
-import javax.naming.NamingException;
-import javax.naming.directory.DirContext;
+
+import java.naming.share.classes.javax.naming.NamingException;
+import java.naming.share.classes.javax.naming.directory.DirContext;
 import java.util.Hashtable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface represents a context in which you can perform

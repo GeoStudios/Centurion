@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.png;
+package java.desktop.share.classes.com.sun.imageio.plugins.png;
+
 
 import java.awt.Point;
 import java.awt.Rectangle;
@@ -35,27 +36,41 @@ import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
 import java.io.EOFException;
 import java.io.InputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.SequenceInputStream;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Enumeration;
 import java.util.Iterator;
 import java.util.zip.Inflater;
 import java.util.zip.InflaterInputStream;
-import javax.imageio.IIOException;
+import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import javax.imageio.ImageReader;
 import javax.imageio.ImageReadParam;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.spi.ImageReaderSpi;
 import javax.imageio.stream.ImageInputStream;
-import com.sun.imageio.plugins.common.InputStreamAdapter;
-import com.sun.imageio.plugins.common.ReaderUtil;
-import com.sun.imageio.plugins.common.SubImageInputStream;
+import java.desktop.share.classes.com.sun.imageio.plugins.common.InputStreamAdapter;
+import java.desktop.share.classes.com.sun.imageio.plugins.common.ReaderUtil;
+import java.desktop.share.classes.com.sun.imageio.plugins.common.SubImageInputStream;
 import java.io.ByteArrayOutputStream;
-import sun.awt.image.ByteInterleavedRaster;
+import java.desktop.share.classes.com.sun.awt.image.ByteInterleavedRaster;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class PNGImageDataEnumeration implements Enumeration<InputStream> {
 

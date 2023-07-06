@@ -19,79 +19,91 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.tree;
+package jdk.compiler.share.classes.com.sun.tools.javac.tree;
+
 
 import java.text.BreakIterator;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.EnumSet;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.java.util.java.util.java.util.List;
+import java.util.java.util.ListIterator;
 import java.util.Set;
-
 import javax.lang.model.element.Name;
 import javax.tools.Diagnostic;
 import javax.tools.JavaFileObject;
+import jdk.compiler.share.classes.com.sun.source.doctree.AttributeTree.ValueKind;
+import jdk.compiler.share.classes.com.sun.source.doctree.DocTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.DocTree.Kind;
+import jdk.compiler.share.classes.com.sun.source.doctree.EndElementTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.IdentifierTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.ReferenceTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.StartElementTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.TextTree;
+import jdk.compiler.share.classes.com.sun.source.util.DocTreeFactory;
+import jdk.compiler.share.classes.com.sun.tools.javac.api.JavacTrees;
+import jdk.compiler.share.classes.com.sun.tools.javac.parser.ParserFactory;
+import jdk.compiler.share.classes.com.sun.tools.javac.parser.ReferenceParser;
+import jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.Comment;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCAttribute;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCAuthor;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCComment;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCDeprecated;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCDocComment;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCDocRoot;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCDocType;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCEndElement;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCEntity;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCErroneous;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCHidden;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCIdentifier;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCIndex;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCInheritDoc;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCLink;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCLiteral;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCParam;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCProvides;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCReference;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCReturn;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCSee;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCSerial;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCSerialData;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCSerialField;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCSince;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCStartElement;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCSummary;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCSystemProperty;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCText;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCThrows;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCUnknownBlockTag;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCUnknownInlineTag;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCUses;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCValue;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCVersion;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DiagnosticSource;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.ListBuffer;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Pair;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Position;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.StringUtils;
 
-import com.sun.source.doctree.AttributeTree.ValueKind;
-import com.sun.source.doctree.DocTree;
-import com.sun.source.doctree.DocTree.Kind;
-import com.sun.source.doctree.EndElementTree;
-import com.sun.source.doctree.IdentifierTree;
-import com.sun.source.doctree.ReferenceTree;
-import com.sun.source.doctree.StartElementTree;
-import com.sun.source.doctree.TextTree;
-import com.sun.source.util.DocTreeFactory;
-import com.sun.tools.javac.api.JavacTrees;
-import com.sun.tools.javac.parser.ParserFactory;
-import com.sun.tools.javac.parser.ReferenceParser;
-import com.sun.tools.javac.parser.Tokens.Comment;
-import com.sun.tools.javac.tree.DCTree.DCAttribute;
-import com.sun.tools.javac.tree.DCTree.DCAuthor;
-import com.sun.tools.javac.tree.DCTree.DCComment;
-import com.sun.tools.javac.tree.DCTree.DCDeprecated;
-import com.sun.tools.javac.tree.DCTree.DCDocComment;
-import com.sun.tools.javac.tree.DCTree.DCDocRoot;
-import com.sun.tools.javac.tree.DCTree.DCDocType;
-import com.sun.tools.javac.tree.DCTree.DCEndElement;
-import com.sun.tools.javac.tree.DCTree.DCEntity;
-import com.sun.tools.javac.tree.DCTree.DCErroneous;
-import com.sun.tools.javac.tree.DCTree.DCHidden;
-import com.sun.tools.javac.tree.DCTree.DCIdentifier;
-import com.sun.tools.javac.tree.DCTree.DCIndex;
-import com.sun.tools.javac.tree.DCTree.DCInheritDoc;
-import com.sun.tools.javac.tree.DCTree.DCLink;
-import com.sun.tools.javac.tree.DCTree.DCLiteral;
-import com.sun.tools.javac.tree.DCTree.DCParam;
-import com.sun.tools.javac.tree.DCTree.DCProvides;
-import com.sun.tools.javac.tree.DCTree.DCReference;
-import com.sun.tools.javac.tree.DCTree.DCReturn;
-import com.sun.tools.javac.tree.DCTree.DCSee;
-import com.sun.tools.javac.tree.DCTree.DCSerial;
-import com.sun.tools.javac.tree.DCTree.DCSerialData;
-import com.sun.tools.javac.tree.DCTree.DCSerialField;
-import com.sun.tools.javac.tree.DCTree.DCSince;
-import com.sun.tools.javac.tree.DCTree.DCStartElement;
-import com.sun.tools.javac.tree.DCTree.DCSummary;
-import com.sun.tools.javac.tree.DCTree.DCSystemProperty;
-import com.sun.tools.javac.tree.DCTree.DCText;
-import com.sun.tools.javac.tree.DCTree.DCThrows;
-import com.sun.tools.javac.tree.DCTree.DCUnknownBlockTag;
-import com.sun.tools.javac.tree.DCTree.DCUnknownInlineTag;
-import com.sun.tools.javac.tree.DCTree.DCUses;
-import com.sun.tools.javac.tree.DCTree.DCValue;
-import com.sun.tools.javac.tree.DCTree.DCVersion;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.DefinedBy;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.DiagnosticSource;
-import com.sun.tools.javac.util.JCDiagnostic;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
-import com.sun.tools.javac.util.ListBuffer;
-import com.sun.tools.javac.util.Pair;
-import com.sun.tools.javac.util.Position;
-import com.sun.tools.javac.util.StringUtils;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**
@@ -723,6 +735,6 @@ public class DocTreeMaker implements DocTreeFactory {
 
     @SuppressWarnings("unchecked")
     private List<DCTree> cast(List<? extends DocTree> list) {
-        return (List<DCTree>) list;
+        return list;
     }
 }

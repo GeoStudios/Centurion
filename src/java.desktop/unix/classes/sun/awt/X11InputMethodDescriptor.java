@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.unix.classes.sun.awt;
 
-package sun.awt;
 
 import java.awt.Image;
 import java.awt.Toolkit;
 import java.awt.im.spi.InputMethod;
 import java.awt.im.spi.InputMethodDescriptor;
 import java.security.AccessController;
-import java.util.Locale;
-import sun.awt.SunToolkit;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.java.util.Locale;
+import java.desktop.unix.classes.sun.awt.SunToolkit;
+import java.desktop.unix.classes.sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides sufficient information about an input method

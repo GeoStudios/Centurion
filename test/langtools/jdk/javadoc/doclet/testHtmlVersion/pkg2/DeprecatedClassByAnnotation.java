@@ -21,6 +21,21 @@
 
 package pkg2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @Deprecated
 public class DeprecatedClassByAnnotation {
 

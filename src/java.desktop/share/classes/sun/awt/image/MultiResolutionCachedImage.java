@@ -18,19 +18,35 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.awt.image;
+
+package java.desktop.share.classes.sun.awt.image;
+
 
 import java.awt.Dimension;
 import java.awt.Image;
 import java.awt.geom.Dimension2D;
 import java.awt.image.ImageObserver;
-import java.util.Arrays;
-import java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
 import java.util.function.Function;
 import java.util.function.BiFunction;
 import java.util.stream.Collectors;
 import java.awt.image.MultiResolutionImage;
 import java.awt.image.AbstractMultiResolutionImage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MultiResolutionCachedImage extends AbstractMultiResolutionImage {
 

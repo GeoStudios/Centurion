@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.image;
-import java.awt.Rectangle;
-import java.awt.Point;
+package java.desktop.share.classes.java.awt.image;
 
+
+import java.desktop.share.classes.java.awt.Rectangle;
+import java.desktop.share.classes.java.awt.Point;
 import sun.awt.image.ByteInterleavedRaster;
 import sun.awt.image.ShortInterleavedRaster;
 import sun.awt.image.IntegerInterleavedRaster;
@@ -30,6 +31,20 @@ import sun.awt.image.ByteBandedRaster;
 import sun.awt.image.ShortBandedRaster;
 import sun.awt.image.BytePackedRaster;
 import sun.awt.image.SunWritableRaster;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class representing a rectangular array of pixels.  A Raster

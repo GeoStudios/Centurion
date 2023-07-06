@@ -19,24 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.tree;
+package jdk.compiler.share.classes.com.sun.tools.javac.tree;
+
 
 import java.util.Iterator;
+import jdk.compiler.share.classes.com.sun.source.tree.CaseTree;
+import jdk.compiler.share.classes.com.sun.source.tree.ModuleTree.ModuleKind;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Attribute.UnresolvedClass;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.extended
 
-import com.sun.source.tree.CaseTree;
-import com.sun.source.tree.ModuleTree.ModuleKind;
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.Attribute.UnresolvedClass;
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.code.Type.*;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
 
-import com.sun.tools.javac.tree.JCTree.*;
 
-import static com.sun.tools.javac.code.Flags.*;
-import static com.sun.tools.javac.code.Kinds.Kind.*;
-import static com.sun.tools.javac.code.TypeTag.*;
+
+
+
+
+
+
+
+
+
+
+
 
 /** Factory class for trees.
  *

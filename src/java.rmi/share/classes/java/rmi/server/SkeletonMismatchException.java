@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.rmi.server;
+package java.rmi.share.classes.java.rmi.server;
 
-import java.rmi.RemoteException;
+
+import java.rmi.share.classes.java.rmi.RemoteException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This exception is thrown when a call is received that does not

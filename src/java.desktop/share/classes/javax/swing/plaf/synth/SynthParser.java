@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.plaf.synth;
+
+package java.desktop.share.classes.javax.swing.plaf.synth;
+
 
 import java.awt.Color;
 import java.awt.Component;
@@ -28,42 +30,53 @@ import java.awt.Image;
 import java.awt.Insets;
 import java.awt.Toolkit;
 import java.io.BufferedInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.text.ParseException;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.StringTokenizer;
 import java.util.regex.PatternSyntaxException;
-
-import javax.swing.ImageIcon;
-import javax.swing.JSplitPane;
-import javax.swing.SwingConstants;
-import javax.swing.UIDefaults;
-import javax.swing.plaf.ColorUIResource;
-import javax.swing.plaf.DimensionUIResource;
-import javax.swing.plaf.FontUIResource;
-import javax.swing.plaf.InsetsUIResource;
-import javax.swing.plaf.UIResource;
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.parsers.SAXParser;
-import javax.xml.parsers.SAXParserFactory;
-
+import java.desktop.share.classes.javax.swing.ImageIcon;
+import java.desktop.share.classes.javax.swing.JSplitPane;
+import java.desktop.share.classes.javax.swing.SwingConstants;
+import java.desktop.share.classes.javax.swing.UIDefaults;
+import java.desktop.share.classes.javax.swing.plaf.ColorUIResource;
+import java.desktop.share.classes.javax.swing.plaf.DimensionUIResource;
+import java.desktop.share.classes.javax.swing.plaf.FontUIResource;
+import java.desktop.share.classes.javax.swing.plaf.InsetsUIResource;
+import java.desktop.share.classes.javax.swing.plaf.UIResource;
+import java.desktop.share.classes.javax.xml.parsers.ParserConfigurationException;
+import java.desktop.share.classes.javax.xml.parsers.SAXParser;
+import java.desktop.share.classes.javax.xml.parsers.SAXParserFactory;
 import org.xml.sax.Attributes;
 import org.xml.sax.InputSource;
 import org.xml.sax.Locator;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 import org.xml.sax.helpers.DefaultHandler;
-
 import com.sun.beans.decoder.DocumentHandler;
 import sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class SynthParser extends DefaultHandler {
     //

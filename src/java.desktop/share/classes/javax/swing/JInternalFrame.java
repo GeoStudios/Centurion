@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.BorderLayout;
 import java.awt.Component;
@@ -35,23 +36,35 @@ import java.awt.Window;
 import java.beans.BeanProperty;
 import java.beans.JavaBean;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.beans.PropertyVetoException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.io.Serial;
-
-import javax.accessibility.Accessible;
-import javax.accessibility.AccessibleContext;
-import javax.accessibility.AccessibleRole;
-import javax.accessibility.AccessibleValue;
-import javax.swing.event.InternalFrameEvent;
-import javax.swing.event.InternalFrameListener;
-import javax.swing.plaf.DesktopIconUI;
-import javax.swing.plaf.InternalFrameUI;
-
+import java.desktop.share.classes.javax.accessibility.Accessible;
+import java.desktop.share.classes.javax.accessibility.AccessibleContext;
+import java.desktop.share.classes.javax.accessibility.AccessibleRole;
+import java.desktop.share.classes.javax.accessibility.AccessibleValue;
+import java.desktop.share.classes.javax.swing.event.InternalFrameEvent;
+import java.desktop.share.classes.javax.swing.event.InternalFramejava.util.Listener;
+import java.desktop.share.classes.javax.swing.plaf.DesktopIconUI;
+import java.desktop.share.classes.javax.swing.plaf.InternalFrameUI;
 import sun.awt.AppContext;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A lightweight object that provides many of the features of

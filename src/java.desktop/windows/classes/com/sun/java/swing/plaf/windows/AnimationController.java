@@ -19,26 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.windows;
+package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-import java.security.AccessController;
-import sun.security.action.GetBooleanAction;
 
+import java.desktop.windows.classes.com.sun.java.security.AccessController;
+import java.desktop.windows.classes.com.sun.security.action.GetBooleanAction;
 import java.util.*;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.beans.PropertyChangeEvent;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
+import java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.State;
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.State.*;.extended
+import java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Part;
+import java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Prop;
+import java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.Skin;
+import java.desktop.windows.classes.com.sun.awt.AppContext;
 
 
-import com.sun.java.swing.plaf.windows.TMSchema.State;
-import static com.sun.java.swing.plaf.windows.TMSchema.State.*;
-import com.sun.java.swing.plaf.windows.TMSchema.Part;
-import com.sun.java.swing.plaf.windows.TMSchema.Prop;
-import com.sun.java.swing.plaf.windows.XPStyle.Skin;
 
-import sun.awt.AppContext;
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class to help mimic Vista theme animations.  The only kind of

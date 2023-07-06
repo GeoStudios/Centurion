@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.sql;
+package java.sql.share.classes.java.sql;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An interface that must be implemented when a {@linkplain Driver} wants to be

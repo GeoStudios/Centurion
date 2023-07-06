@@ -18,19 +18,35 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.imageio.plugins.tiff;
+
+package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
+
 
 import java.awt.image.BufferedImage;
 import java.awt.image.ColorModel;
 import java.io.ByteArrayInputStream;
 import java.io.EOFException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import javax.imageio.ImageReader;
 import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.stream.MemoryCacheImageInputStream;
 import javax.imageio.stream.ImageInputStream;
 import javax.imageio.plugins.tiff.BaselineTIFFTagSet;
 import javax.imageio.plugins.tiff.TIFFField;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TIFFYCbCrDecompressor extends TIFFDecompressor {
     // Store constants in S15.16 format

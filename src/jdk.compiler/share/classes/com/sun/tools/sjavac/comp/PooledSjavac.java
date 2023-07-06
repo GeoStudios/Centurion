@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac.comp;
+package jdk.compiler.share.classes.com.sun.tools.sjavac.comp;
 
-import com.sun.tools.javac.main.Main.Result;
-import com.sun.tools.sjavac.Log;
-import com.sun.tools.sjavac.server.Sjavac;
 
-import java.util.Objects;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Main.Result;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.Log;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.server.Sjavac;
+import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An sjavac implementation that limits the number of concurrent calls by

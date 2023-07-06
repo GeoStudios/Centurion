@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.print;
+package java.desktop.share.classes.javax.print;
+
 
 import java.io.ByteArrayInputStream;
 import java.io.CharArrayReader;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.Reader;
 import java.io.StringReader;
+import java.desktop.share.classes.javax.print.attribute.AttributeSetUtilities;
+import java.desktop.share.classes.javax.print.attribute.DocAttributeSet;
 
-import javax.print.attribute.AttributeSetUtilities;
-import javax.print.attribute.DocAttributeSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is an implementation of interface {@code Doc} that can be used in

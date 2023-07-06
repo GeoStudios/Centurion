@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.cha;
+
+
+import static compiler.cha.Utils.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @requires !vm.graal.enabled & vm.opt.final.UseVtableBasedCHA == true
@@ -46,9 +64,7 @@
  *                   -XX:+TieredCompilation -XX:TieredStopAtLevel=1
  *                      compiler.cha.AbstractRootMethod
  */
-package compiler.cha;
 
-import static compiler.cha.Utils.*;
 
 public class AbstractRootMethod {
     public static void main(String[] args) {

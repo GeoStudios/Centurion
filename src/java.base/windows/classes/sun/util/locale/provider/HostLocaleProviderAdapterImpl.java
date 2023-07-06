@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.util.locale.provider;
+
+package java.base.windows.classes.sun.util.locale.provider;
+
 
 import java.lang.ref.SoftReference;
 import java.text.DateFormat;
@@ -36,7 +38,7 @@ import java.util.Collections;
 import java.util.Currency;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.ResourceBundle.Control;
 import java.util.Set;
@@ -48,8 +50,22 @@ import java.util.spi.CalendarDataProvider;
 import java.util.spi.CalendarNameProvider;
 import java.util.spi.CurrencyNameProvider;
 import java.util.spi.LocaleNameProvider;
-import sun.text.spi.JavaTimeDateTimePatternProvider;
-import sun.util.spi.CalendarProvider;
+import java.base.windows.classes.sun.text.spi.JavaTimeDateTimePatternProvider;
+import java.base.windows.classes.sun.util.spi.CalendarProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * LocaleProviderdapter implementation for the Windows locale data.

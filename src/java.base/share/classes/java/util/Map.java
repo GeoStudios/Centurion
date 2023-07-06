@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.util.function.BiConsumer;
-import java.util.function.BiFunction;
-import java.util.function.Function;
-import java.io.Serializable;
+
+import java.base.share.classes.java.util.function.BiConsumer;
+import java.base.share.classes.java.util.function.BiFunction;
+import java.base.share.classes.java.util.function.Function;
+import java.base.share.classes.java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An object that maps keys to values.  A map cannot contain duplicate keys;
@@ -1591,7 +1606,7 @@ public interface Map<K, V> {
      * For example,
      *
      * <pre>{@code
-     *     import static java.util.Map.entry;
+     *     import static java.base.share.classes.java.util.Map.entry;
      *
      *     Map<Integer,String> map = Map.ofEntries(
      *         entry(1, "a"),

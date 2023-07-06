@@ -21,12 +21,25 @@
 
 package jdk.test.failurehandler.action;
 
+
 import jdk.test.failurehandler.value.InvalidValueException;
 import jdk.test.failurehandler.HtmlSection;
 import jdk.test.failurehandler.value.Value;
 import jdk.test.failurehandler.value.ValueHandler;
-
 import java.util.Properties;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PatternAction implements Action {
     @Value(name = "pattern")

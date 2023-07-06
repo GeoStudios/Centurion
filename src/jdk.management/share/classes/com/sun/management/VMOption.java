@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.management;
+package jdk.management.share.classes.com.sun.management;
 
-import com.sun.management.internal.VMOptionCompositeData;
+
+import jdk.management.share.classes.com.sun.management.internal.VMOptionCompositeData;
 import javax.management.openmbean.CompositeData;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Information about a VM option including its value and

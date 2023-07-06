@@ -18,29 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.operators;
+
 
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Window;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.ItemListener;
+import java.awt.event.Actionjava.util.Listener;
+import java.awt.event.Itemjava.util.Listener;
 import java.awt.event.KeyEvent;
 import java.util.Hashtable;
-
 import javax.swing.ComboBoxEditor;
 import javax.swing.ComboBoxModel;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
-import javax.swing.JList;
+import javax.swing.Jjava.util.java.util.java.util.List;
 import javax.swing.JTextField;
-import javax.swing.ListCellRenderer;
+import javax.swing.java.util.ListCellRenderer;
 import javax.swing.JComboBox.KeySelectionManager;
-import javax.swing.event.ListDataEvent;
+import javax.swing.event.java.util.ListDataEvent;
 import javax.swing.plaf.ComboBoxUI;
 import javax.swing.plaf.basic.ComboPopup;
-
 import org.netbeans.jemmy.ComponentChooser;
 import org.netbeans.jemmy.ComponentSearcher;
 import org.netbeans.jemmy.JemmyException;
@@ -52,8 +52,21 @@ import org.netbeans.jemmy.Timeouts;
 import org.netbeans.jemmy.Waiter;
 import org.netbeans.jemmy.WindowWaiter;
 import org.netbeans.jemmy.drivers.DriverManager;
-import org.netbeans.jemmy.drivers.ListDriver;
+import org.netbeans.jemmy.drivers.java.util.ListDriver;
 import org.netbeans.jemmy.util.EmptyVisualizer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <BR><BR>Timeouts used: <BR>

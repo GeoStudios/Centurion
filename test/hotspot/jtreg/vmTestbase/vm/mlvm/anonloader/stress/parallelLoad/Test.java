@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.mlvm.anonloader.stress.parallelLoad;
+
+
+import vm.mlvm.anonloader.share.StressClassLoadingTest;
+import vm.mlvm.anonloader.share.AnonkTestee01;
+import vm.mlvm.share.MlvmTestExecutor;
+import vm.mlvm.share.MultiThreadedTest;
+import vm.share.FileUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -43,13 +64,7 @@
  *      -hiddenLoad true
  */
 
-package vm.mlvm.anonloader.stress.parallelLoad;
 
-import vm.mlvm.anonloader.share.StressClassLoadingTest;
-import vm.mlvm.anonloader.share.AnonkTestee01;
-import vm.mlvm.share.MlvmTestExecutor;
-import vm.mlvm.share.MultiThreadedTest;
-import vm.share.FileUtils;
 
 /**
  * Verifies that loading classes in parallel from several threads using

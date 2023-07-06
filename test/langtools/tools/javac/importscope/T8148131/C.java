@@ -21,4 +21,19 @@
 
 package pkg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class C extends D {}

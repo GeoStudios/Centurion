@@ -18,18 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.plaf.synth;
+
+package java.desktop.share.classes.javax.swing.plaf.synth;
+
 
 import java.awt.*;
-import javax.swing.*;
-import javax.swing.border.Border;
-import javax.swing.plaf.UIResource;
-import javax.swing.plaf.basic.BasicLookAndFeel;
-import javax.swing.text.DefaultEditorKit;
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.border.Border;
+import java.desktop.share.classes.javax.swing.plaf.UIResource;
+import java.desktop.share.classes.javax.swing.plaf.basic.BasicLookAndFeel;
+import java.desktop.share.classes.javax.swing.text.DefaultEditorKit;
 import java.util.HashMap;
 import java.util.Map;
-import javax.swing.text.JTextComponent;
+import java.desktop.share.classes.javax.swing.text.JTextComponent;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>SynthStyle</code> is a set of style properties.

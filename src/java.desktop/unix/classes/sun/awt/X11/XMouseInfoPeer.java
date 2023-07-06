@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.GraphicsDevice;
 import java.awt.GraphicsEnvironment;
 import java.awt.Point;
 import java.awt.Window;
 import java.awt.peer.MouseInfoPeer;
+import java.desktop.unix.classes.sun.awt.AWTAccessor;
+import java.desktop.unix.classes.sun.awt.X11GraphicsDevice;
 
-import sun.awt.AWTAccessor;
-import sun.awt.X11GraphicsDevice;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class XMouseInfoPeer implements MouseInfoPeer {
 

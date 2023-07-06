@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.Color;
 import java.awt.Component;
@@ -34,14 +35,14 @@ import java.awt.IllegalComponentStateException;
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.event.ActionEvent;
-import java.awt.event.FocusListener;
+import java.awt.event.Focusjava.util.Listener;
 import java.awt.event.MouseEvent;
 import java.beans.BeanProperty;
 import java.beans.ConstructorProperties;
 import java.beans.JavaBean;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import java.io.IOException;
+import java.beans.PropertyChangejava.util.Listener;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serial;
@@ -49,50 +50,61 @@ import java.io.Serializable;
 import java.util.Collections;
 import java.util.Enumeration;
 import java.util.Hashtable;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Set;
 import java.util.Stack;
 import java.util.Vector;
-
-import javax.accessibility.Accessible;
-import javax.accessibility.AccessibleAction;
-import javax.accessibility.AccessibleComponent;
-import javax.accessibility.AccessibleContext;
-import javax.accessibility.AccessibleRole;
-import javax.accessibility.AccessibleSelection;
-import javax.accessibility.AccessibleState;
-import javax.accessibility.AccessibleStateSet;
-import javax.accessibility.AccessibleText;
-import javax.accessibility.AccessibleValue;
-import javax.swing.event.EventListenerList;
-import javax.swing.event.TreeExpansionEvent;
-import javax.swing.event.TreeExpansionListener;
-import javax.swing.event.TreeModelEvent;
-import javax.swing.event.TreeModelListener;
-import javax.swing.event.TreeSelectionEvent;
-import javax.swing.event.TreeSelectionListener;
-import javax.swing.event.TreeWillExpandListener;
-import javax.swing.plaf.TreeUI;
-import javax.swing.text.Position;
-import javax.swing.tree.DefaultMutableTreeNode;
-import javax.swing.tree.DefaultTreeModel;
-import javax.swing.tree.DefaultTreeSelectionModel;
-import javax.swing.tree.ExpandVetoException;
-import javax.swing.tree.RowMapper;
-import javax.swing.tree.TreeCellEditor;
-import javax.swing.tree.TreeCellRenderer;
-import javax.swing.tree.TreeModel;
-import javax.swing.tree.TreeNode;
-import javax.swing.tree.TreePath;
-import javax.swing.tree.TreeSelectionModel;
-
+import java.desktop.share.classes.javax.accessibility.Accessible;
+import java.desktop.share.classes.javax.accessibility.AccessibleAction;
+import java.desktop.share.classes.javax.accessibility.AccessibleComponent;
+import java.desktop.share.classes.javax.accessibility.AccessibleContext;
+import java.desktop.share.classes.javax.accessibility.AccessibleRole;
+import java.desktop.share.classes.javax.accessibility.AccessibleSelection;
+import java.desktop.share.classes.javax.accessibility.AccessibleState;
+import java.desktop.share.classes.javax.accessibility.AccessibleStateSet;
+import java.desktop.share.classes.javax.accessibility.AccessibleText;
+import java.desktop.share.classes.javax.accessibility.AccessibleValue;
+import java.desktop.share.classes.javax.swing.event.Eventjava.util.Listenerjava.util.java.util.java.util.List;
+import java.desktop.share.classes.javax.swing.event.TreeExpansionEvent;
+import java.desktop.share.classes.javax.swing.event.TreeExpansionjava.util.Listener;
+import java.desktop.share.classes.javax.swing.event.TreeModelEvent;
+import java.desktop.share.classes.javax.swing.event.TreeModeljava.util.Listener;
+import java.desktop.share.classes.javax.swing.event.TreeSelectionEvent;
+import java.desktop.share.classes.javax.swing.event.TreeSelectionjava.util.Listener;
+import java.desktop.share.classes.javax.swing.event.TreeWillExpandjava.util.Listener;
+import java.desktop.share.classes.javax.swing.plaf.TreeUI;
+import java.desktop.share.classes.javax.swing.text.Position;
+import java.desktop.share.classes.javax.swing.tree.DefaultMutableTreeNode;
+import java.desktop.share.classes.javax.swing.tree.DefaultTreeModel;
+import java.desktop.share.classes.javax.swing.tree.DefaultTreeSelectionModel;
+import java.desktop.share.classes.javax.swing.tree.ExpandVetoException;
+import java.desktop.share.classes.javax.swing.tree.RowMapper;
+import java.desktop.share.classes.javax.swing.tree.TreeCellEditor;
+import java.desktop.share.classes.javax.swing.tree.TreeCellRenderer;
+import java.desktop.share.classes.javax.swing.tree.TreeModel;
+import java.desktop.share.classes.javax.swing.tree.TreeNode;
+import java.desktop.share.classes.javax.swing.tree.TreePath;
+import java.desktop.share.classes.javax.swing.tree.TreeSelectionModel;
 import sun.awt.AWTAccessor;
 import sun.awt.AWTAccessor.MouseEventAccessor;
 import sun.swing.SwingUtilities2;
 import sun.swing.SwingUtilities2.Section;
+import static sun.swing.SwingUtilities2.Section.LEADING;.extended
+import static sun.swing.SwingUtilities2.Section.TRAILING;.extended
 
-import static sun.swing.SwingUtilities2.Section.LEADING;
-import static sun.swing.SwingUtilities2.Section.TRAILING;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A control that displays a set of hierarchical data as an outline.

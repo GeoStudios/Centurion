@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import sun.misc.Unsafe;
+import java.lang.reflect.Field;
+import java.security.AccessController;
+import java.security.PrivilegedAction;
+import jtreg.SkippedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8202414
@@ -28,13 +50,7 @@
  * @run main/othervm compiler.c2.Test8202414
  */
 
-package compiler.c2;
 
-import sun.misc.Unsafe;
-import java.lang.reflect.Field;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import jtreg.SkippedException;
 
 public class Test8202414 {
 

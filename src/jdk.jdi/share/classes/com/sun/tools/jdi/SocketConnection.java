@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.net.Socket;
+import java.net.java.net.java.net.java.net.Socket;
+import jdk.jdi.share.classes.com.sun.jdi.connect.spi.ClosedConnectionException;
+import jdk.jdi.share.classes.com.sun.jdi.connect.spi.Connection;
 
-import com.sun.jdi.connect.spi.ClosedConnectionException;
-import com.sun.jdi.connect.spi.Connection;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * The Connection returned by attach and accept is one of these

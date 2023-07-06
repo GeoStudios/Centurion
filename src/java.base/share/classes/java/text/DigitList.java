@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
 
-import java.math.BigDecimal;
-import java.math.BigInteger;
-import java.math.RoundingMode;
+
+import java.base.share.classes.java.math.BigDecimal;
+import java.base.share.classes.java.math.BigInteger;
+import java.base.share.classes.java.math.RoundingMode;
 import jdk.internal.math.FloatingDecimal;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Digit List. Private to DecimalFormat.

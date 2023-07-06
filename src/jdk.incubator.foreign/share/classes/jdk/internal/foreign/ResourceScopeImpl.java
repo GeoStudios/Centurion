@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.foreign;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
 
-import jdk.incubator.foreign.MemorySegment;
-import jdk.incubator.foreign.ResourceScope;
-import jdk.incubator.foreign.SegmentAllocator;
-import jdk.internal.misc.ScopedMemoryAccess;
-import jdk.internal.ref.CleanerFactory;
 
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.ResourceScope;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.SegmentAllocator;
+import jdk.incubator.foreign.share.classes.jdk.internal.misc.ScopedMemoryAccess;
+import jdk.incubator.foreign.share.classes.jdk.internal.ref.CleanerFactory;
 import java.lang.ref.Cleaner;
 import java.lang.ref.Reference;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class manages the temporal bounds associated with a memory segment as well

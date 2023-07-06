@@ -18,17 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.security.ssl;
 
-import java.io.IOException;
+package java.base.share.classes.sun.security.ssl;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.text.MessageFormat;
 import java.util.*;
 import javax.net.ssl.SSLProtocolException;
-import sun.security.ssl.SSLExtension.ExtensionConsumer;
+import java.base.share.classes.sun.security.ssl.SSLExtension.ExtensionConsumer;
+import java.base.share.classes.sun.security.ssl.SSLExtension.SSLExtensionSpec;
+import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
 
-import sun.security.ssl.SSLExtension.SSLExtensionSpec;
-import sun.security.ssl.SSLHandshake.HandshakeMessage;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Pack of the "psk_key_exchange_modes" extensions.

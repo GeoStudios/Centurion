@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider.certpath;
+package java.base.share.classes.sun.security.provider.certpath;
+
 
 import java.io.*;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.cert.CertificateException;
 import java.security.cert.CertificateParsingException;
 import java.security.cert.CertPathValidatorException;
@@ -30,20 +31,33 @@ import java.security.cert.CertPathValidatorException.BasicReason;
 import java.security.cert.CRLReason;
 import java.security.cert.TrustAnchor;
 import java.security.cert.X509Certificate;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import javax.security.auth.x500.X500Principal;
+import java.base.share.classes.sun.security.util.HexDumpEncoder;
+import java.base.share.classes.sun.security.action.GetIntegerAction;
+import java.base.share.classes.sun.security.x509.*;
+import java.base.share.classes.sun.security.util.*;
 
-import sun.security.util.HexDumpEncoder;
-import sun.security.action.GetIntegerAction;
-import sun.security.x509.*;
-import sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to process an OCSP response.

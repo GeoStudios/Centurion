@@ -19,13 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.share.classes.sun.font;
 
-//
-// This is the 'simple' mapping implementation.  It does things the most
-// straightforward way even if that is a bit slow.  It won't
-// handle complex paths efficiently, and doesn't handle closed paths.
-//
 
 import java.awt.Shape;
 import java.awt.font.LayoutPath;
@@ -35,11 +30,32 @@ import java.awt.geom.NoninvertibleTransformException;
 import java.awt.geom.PathIterator;
 import java.awt.geom.Point2D;
 import java.util.Formatter;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import static java.awt.geom.PathIterator.*;.extended
+import static java.lang.Math.abs;.extended
+import static java.lang.Math.sqrt;.extended
 
-import static java.awt.geom.PathIterator.*;
-import static java.lang.Math.abs;
-import static java.lang.Math.sqrt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+// This is the 'simple' mapping implementation.  It does things the most
+// straightforward way even if that is a bit slow.  It won't
+// handle complex paths efficiently, and doesn't handle closed paths.
+//
+
+
 
 public abstract class LayoutPathImpl extends LayoutPath {
 

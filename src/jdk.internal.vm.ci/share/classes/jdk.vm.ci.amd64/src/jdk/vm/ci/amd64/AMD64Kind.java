@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.amd64;
 
-import jdk.vm.ci.meta.PlatformKind;
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.amd64.src.jdk.vm.ci.amd64;
+
+
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.amd64.src.jdk.vm.ci.meta.PlatformKind;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public enum AMD64Kind implements PlatformKind {
 

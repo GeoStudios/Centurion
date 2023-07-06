@@ -19,40 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.dnd.DropTarget;
-import java.awt.event.AWTEventListener;
-import java.awt.event.ComponentEvent;
-import java.awt.event.ContainerEvent;
-import java.awt.event.ContainerListener;
-import java.awt.event.FocusEvent;
-import java.awt.event.HierarchyEvent;
-import java.awt.event.InputEvent;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseWheelEvent;
-import java.awt.peer.ComponentPeer;
-import java.awt.peer.ContainerPeer;
-import java.awt.peer.LightweightPeer;
-import java.beans.PropertyChangeListener;
-import java.io.IOException;
-import java.io.InvalidObjectException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.ObjectStreamField;
-import java.io.PrintStream;
-import java.io.PrintWriter;
-import java.io.Serial;
-import java.io.Serializable;
-import java.lang.ref.WeakReference;
-import java.security.AccessController;
-import java.util.*;
 
+import java.desktop.share.classes.java.awt.dnd.DropTarget;
+import java.desktop.share.classes.java.awt.event.AWTEventjava.util.Listener;
+import java.desktop.share.classes.java.awt.event.ComponentEvent;
+import java.desktop.share.classes.java.awt.event.ContainerEvent;
+import java.desktop.share.classes.java.awt.event.Containerjava.util.Listener;
+import java.desktop.share.classes.java.awt.event.FocusEvent;
+import java.desktop.share.classes.java.awt.event.HierarchyEvent;
+import java.desktop.share.classes.java.awt.event.InputEvent;
+import java.desktop.share.classes.java.awt.event.KeyEvent;
+import java.desktop.share.classes.java.awt.event.MouseEvent;
+import java.desktop.share.classes.java.awt.event.MouseWheelEvent;
+import java.desktop.share.classes.java.awt.peer.ComponentPeer;
+import java.desktop.share.classes.java.awt.peer.ContainerPeer;
+import java.desktop.share.classes.java.awt.peer.LightweightPeer;
+import java.desktop.share.classes.java.beans.PropertyChangejava.util.Listener;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.InvalidObjectException;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.ObjectOutputStream;
+import java.desktop.share.classes.java.io.ObjectStreamField;
+import java.desktop.share.classes.java.io.PrintStream;
+import java.desktop.share.classes.java.io.PrintWriter;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.io.Serializable;
+import java.desktop.share.classes.java.lang.ref.WeakReference;
+import java.desktop.share.classes.java.security.AccessController;
+import java.desktop.share.classes.java.util.*;
 import javax.accessibility.Accessible;
 import javax.accessibility.AccessibleComponent;
 import javax.accessibility.AccessibleContext;
-
 import sun.awt.AWTAccessor;
 import sun.awt.AWTAccessor.MouseEventAccessor;
 import sun.awt.AppContext;
@@ -62,6 +61,20 @@ import sun.awt.dnd.SunDropTargetEvent;
 import sun.java2d.pipe.Region;
 import sun.security.action.GetBooleanAction;
 import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A generic Abstract Window Toolkit(AWT) container object is a component

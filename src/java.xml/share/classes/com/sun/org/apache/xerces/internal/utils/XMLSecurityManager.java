@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.utils;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.utils;
 
-import com.sun.org.apache.xerces.internal.util.SecurityManager;
-import java.util.concurrent.CopyOnWriteArrayList;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SecurityManager;
+import java.util.concurrent.CopyOnWriteArrayjava.util.java.util.java.util.List;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkProperty.State;
 import jdk.xml.internal.JdkProperty.ImplPropMap;
 import jdk.xml.internal.SecuritySupport;
-import org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class manages standard and implementation-specific limitations.

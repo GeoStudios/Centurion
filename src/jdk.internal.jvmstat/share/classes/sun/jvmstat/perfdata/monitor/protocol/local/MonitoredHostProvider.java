@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvmstat.perfdata.monitor.protocol.local;
+package jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor.protocol.local;
 
-import sun.jvmstat.monitor.*;
-import sun.jvmstat.monitor.event.*;
-import sun.jvmstat.perfdata.monitor.*;
+
+import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.*;
+import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.event.*;
+import jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor.*;
 import java.util.*;
 import java.net.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Concrete implementation of the MonitoredHost interface for the
@@ -76,7 +91,7 @@ public class MonitoredHostProvider extends MonitoredHost {
              * URISyntaxException here is most likely a programming error.
              */
             throw new IllegalArgumentException("Malformed URI: "
-                                               + vmid.toString(), e);
+                                               + vmid, e);
         }
     }
 

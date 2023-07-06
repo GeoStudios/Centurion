@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.*;
-import sun.awt.*;
+import java.desktop.unix.classes.sun.awt.*;
 import java.util.*;
-import sun.util.logging.PlatformLogger;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class XBaseWindow {
     private static final PlatformLogger log = PlatformLogger.getLogger("sun.awt.X11.XBaseWindow");

@@ -19,9 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-// generated from vm/mlvm/mixed/stress/java/findDeadlock/INDIFY_Test.jmpp
-
 package vm.mlvm.mixed.stress.java.findDeadlock;
+
 
 import java.lang.invoke.CallSite;
 import java.lang.invoke.MethodHandle;
@@ -34,10 +33,27 @@ import java.lang.reflect.Method;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.locks.ReentrantLock;
-
 import nsk.share.test.Stresser;
 import vm.mlvm.share.Env;
 import vm.mlvm.share.MlvmTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// generated from vm/mlvm/mixed/stress/java/findDeadlock/INDIFY_Test.jmpp
+
+
+
 
 public class INDIFY_Test extends MlvmTest {
 

@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5;
+package java.security.jgss.share.classes.sun.security.krb5;
 
-import sun.security.util.*;
-import sun.security.krb5.internal.*;
-import sun.security.krb5.internal.crypto.*;
-import java.io.IOException;
+
+import java.security.jgss.share.classes.sun.security.util.*;
+import java.security.jgss.share.classes.sun.security.krb5.internal.*;
+import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.*;
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.GeneralSecurityException;
-import java.util.Arrays;
-import sun.security.krb5.internal.ktab.KeyTab;
-import sun.security.krb5.internal.ccache.CCacheOutputStream;
+import java.base.share.classes.java.util.Arrays;
+import java.security.jgss.share.classes.sun.security.krb5.internal.ktab.KeyTab;
+import java.security.jgss.share.classes.sun.security.krb5.internal.ccache.CCacheOutputStream;
 import javax.crypto.spec.DESKeySpec;
-import javax.crypto.spec.DESedeKeySpec;
+import java.base.share.classes.javax.crypto.spec.DESedeKeySpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class encapsulates the concept of an EncryptionKey. An encryption

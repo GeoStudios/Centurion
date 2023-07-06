@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jdi.event;
+package jdk.jdi.share.classes.com.sun.jdi.event;
 
-import com.sun.jdi.VirtualMachine;
+
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Notification of a class unload in the target VM.

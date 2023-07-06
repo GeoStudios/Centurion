@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.jfr.javaagent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @key jfr
@@ -36,7 +53,6 @@
  * @run main/othervm -javaagent:EventEmitterAgent.jar jdk.jfr.javaagent.TestPremainAgent
  */
 
-package jdk.jfr.javaagent;
 
 
 public class TestPremainAgent {

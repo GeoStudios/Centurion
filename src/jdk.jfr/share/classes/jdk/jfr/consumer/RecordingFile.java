@@ -19,25 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.consumer;
+package jdk.jfr.share.classes.jdk.jfr.consumer;
+
 
 import java.io.Closeable;
 import java.io.EOFException;
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.NoSuchFileException;
 import java.nio.file.Path;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import jdk.jfr.share.classes.jdk.jfr.EventType;
+import jdk.jfr.share.classes.jdk.jfr.internal.MetadataDescriptor;
+import jdk.jfr.share.classes.jdk.jfr.internal.Type;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.ChunkHeader;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.ChunkParser;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.FileAccess;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.RecordingInput;
 
-import jdk.jfr.EventType;
-import jdk.jfr.internal.MetadataDescriptor;
-import jdk.jfr.internal.Type;
-import jdk.jfr.internal.consumer.ChunkHeader;
-import jdk.jfr.internal.consumer.ChunkParser;
-import jdk.jfr.internal.consumer.FileAccess;
-import jdk.jfr.internal.consumer.RecordingInput;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A recording file.

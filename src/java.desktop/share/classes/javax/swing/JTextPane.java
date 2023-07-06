@@ -19,27 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.Component;
 import java.beans.BeanProperty;
 import java.beans.JavaBean;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.io.Serial;
+import java.desktop.share.classes.javax.swing.text.AbstractDocument;
+import java.desktop.share.classes.javax.swing.text.AttributeSet;
+import java.desktop.share.classes.javax.swing.text.BadLocationException;
+import java.desktop.share.classes.javax.swing.text.Caret;
+import java.desktop.share.classes.javax.swing.text.Document;
+import java.desktop.share.classes.javax.swing.text.EditorKit;
+import java.desktop.share.classes.javax.swing.text.Element;
+import java.desktop.share.classes.javax.swing.text.MutableAttributeSet;
+import java.desktop.share.classes.javax.swing.text.Style;
+import java.desktop.share.classes.javax.swing.text.StyleConstants;
+import java.desktop.share.classes.javax.swing.text.StyledDocument;
+import java.desktop.share.classes.javax.swing.text.StyledEditorKit;
 
-import javax.swing.text.AbstractDocument;
-import javax.swing.text.AttributeSet;
-import javax.swing.text.BadLocationException;
-import javax.swing.text.Caret;
-import javax.swing.text.Document;
-import javax.swing.text.EditorKit;
-import javax.swing.text.Element;
-import javax.swing.text.MutableAttributeSet;
-import javax.swing.text.Style;
-import javax.swing.text.StyleConstants;
-import javax.swing.text.StyledDocument;
-import javax.swing.text.StyledEditorKit;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A text component that can be marked up with attributes that are

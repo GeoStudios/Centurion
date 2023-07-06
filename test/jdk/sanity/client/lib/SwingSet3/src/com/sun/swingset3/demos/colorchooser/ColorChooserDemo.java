@@ -21,15 +21,28 @@
 
 package com.sun.swingset3.demos.colorchooser;
 
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
-
 import com.sun.swingset3.demos.JGridPanel;
 import com.sun.swingset3.demos.ResourceManager;
 import com.sun.swingset3.DemoProperties;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * JColorChooserDemo

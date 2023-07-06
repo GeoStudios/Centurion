@@ -19,11 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.util;
+package java.base.share.classes.sun.util;
 
-import sun.nio.cs.ISO_8859_1;
-import sun.nio.cs.UTF_8;
 
+import java.base.share.classes.sun.nio.cs.ISO_8859_1;
+import java.base.share.classes.sun.nio.cs.UTF_8;
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.Charset;
@@ -32,7 +32,21 @@ import java.nio.charset.CharsetEncoder;
 import java.nio.charset.CoderResult;
 import java.nio.charset.CodingErrorAction;
 import java.nio.charset.StandardCharsets;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Charset implementation for reading PropertyResourceBundle, in order

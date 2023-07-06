@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.awt.X11;
+
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import jdk.internal.misc.Unsafe;
-import sun.util.logging.PlatformLogger;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class UnsafeXDisposerRecord implements sun.java2d.DisposerRecord {
     private static final PlatformLogger log = PlatformLogger.getLogger("sun.awt.X11.UnsafeXDisposerRecord");

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jstatd;
+package jdk.jstatd.share.classes.sun.tools.jstatd;
+
 
 import java.util.*;
 import java.nio.*;
@@ -27,9 +28,23 @@ import java.io.*;
 import java.net.*;
 import java.rmi.*;
 import java.rmi.server.*;
-import sun.jvmstat.monitor.*;
-import sun.jvmstat.monitor.event.*;
-import sun.jvmstat.monitor.remote.*;
+import jdk.jstatd.share.classes.sun.jvmstat.monitor.*;
+import jdk.jstatd.share.classes.sun.jvmstat.monitor.event.*;
+import jdk.jstatd.share.classes.sun.jvmstat.monitor.remote.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Concrete implementation of the RemoteHost interface for the HotSpot
@@ -42,7 +57,7 @@ import sun.jvmstat.monitor.remote.*;
  */
 public class RemoteHostImpl implements RemoteHost, HostListener {
 
-    private MonitoredHost monitoredHost;
+    private final MonitoredHost monitoredHost;
     private final Set<Integer> activeVms;
     private static RemoteVm rvm;
     private final int rmiPort;

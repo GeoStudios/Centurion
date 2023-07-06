@@ -19,12 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.windows;
+package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-import java.awt.Component;
-import java.awt.Graphics;
-import java.awt.Insets;
 
+import java.desktop.windows.classes.com.sun.java.awt.Component;
+import java.desktop.windows.classes.com.sun.java.awt.Graphics;
+import java.desktop.windows.classes.com.sun.java.awt.Insets;
 import javax.swing.DesktopManager;
 import javax.swing.JComponent;
 import javax.swing.JInternalFrame;
@@ -33,10 +33,23 @@ import javax.swing.UIManager;
 import javax.swing.border.AbstractBorder;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicInternalFrameUI;
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Part;.extended
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.State;.extended
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.Skin;.extended
 
-import static com.sun.java.swing.plaf.windows.TMSchema.Part;
-import static com.sun.java.swing.plaf.windows.TMSchema.State;
-import static com.sun.java.swing.plaf.windows.XPStyle.Skin;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Windows rendition of the component.

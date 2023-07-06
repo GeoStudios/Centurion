@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.string;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8142303
@@ -31,7 +48,6 @@
  *      compiler.intrinsics.string.TestStringConstruction
  */
 
-package compiler.intrinsics.string;
 
 public class TestStringConstruction {
 

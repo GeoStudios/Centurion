@@ -18,13 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.beans.finder;
+
+package java.desktop.share.classes.com.sun.beans.finder;
+
 
 import java.lang.reflect.Executable;
 import java.lang.reflect.Modifier;
-
 import java.util.HashMap;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This abstract class provides functionality

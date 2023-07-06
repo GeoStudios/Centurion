@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.operators;
+
 
 import java.awt.Component;
 import java.awt.Container;
@@ -27,13 +29,12 @@ import java.awt.Point;
 import java.awt.Rectangle;
 import java.util.Enumeration;
 import java.util.Hashtable;
-
 import javax.swing.JPopupMenu;
 import javax.swing.JScrollPane;
 import javax.swing.JTree;
-import javax.swing.event.TreeExpansionListener;
-import javax.swing.event.TreeSelectionListener;
-import javax.swing.event.TreeWillExpandListener;
+import javax.swing.event.TreeExpansionjava.util.Listener;
+import javax.swing.event.TreeSelectionjava.util.Listener;
+import javax.swing.event.TreeWillExpandjava.util.Listener;
 import javax.swing.plaf.TreeUI;
 import javax.swing.tree.ExpandVetoException;
 import javax.swing.tree.TreeCellEditor;
@@ -41,7 +42,6 @@ import javax.swing.tree.TreeCellRenderer;
 import javax.swing.tree.TreeModel;
 import javax.swing.tree.TreePath;
 import javax.swing.tree.TreeSelectionModel;
-
 import org.netbeans.jemmy.ComponentChooser;
 import org.netbeans.jemmy.ComponentSearcher;
 import org.netbeans.jemmy.JemmyException;
@@ -57,6 +57,19 @@ import org.netbeans.jemmy.Waiter;
 import org.netbeans.jemmy.drivers.DriverManager;
 import org.netbeans.jemmy.drivers.TreeDriver;
 import org.netbeans.jemmy.util.EmptyVisualizer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <BR><BR>Timeouts used: <BR>

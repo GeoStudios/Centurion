@@ -18,14 +18,15 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.tests.java.util.stream;
 
-import org.testng.annotations.Test;
 
-import java.util.ArrayList;
+import org.testng.annotations.Test;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Comparator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Optional;
 import java.util.Spliterator;
 import java.util.Spliterators;
@@ -40,8 +41,20 @@ import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 import java.util.stream.StreamTestDataProvider;
 import java.util.stream.TestData;
+import static java.util.stream.LambdaTestHelpers.*;.extended
 
-import static java.util.stream.LambdaTestHelpers.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * DistinctOpTest

@@ -19,6 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2.aarch64;
+
+
+import java.util.java.util.java.util.java.util.List;
+import java.util.java.util.ListIterator;
+import java.util.Iterator;
+import java.util.regex.Pattern;
+import java.io.*;
+import jdk.test.lib.Asserts;
+import jdk.test.lib.compiler.InMemoryJavaCompiler;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * common code to run and validate tests of code generation for
  * volatile ops on AArch64
@@ -41,19 +68,8 @@
  */
 
 
-package compiler.c2.aarch64;
 
-import java.util.List;
-import java.util.ListIterator;
-import java.util.Iterator;
-import java.util.regex.Pattern;
-import java.io.*;
 
-import jdk.test.lib.Asserts;
-import jdk.test.lib.compiler.InMemoryJavaCompiler;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import sun.hotspot.WhiteBox;
 
 // runner class that spawns a new JVM to exercises a combination of
 // volatile MemOp and GC. The ops are compiled with the dmb -->

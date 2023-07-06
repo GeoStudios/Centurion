@@ -19,24 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole;
+package jdk.jconsole.share.classes.sun.tools.jconsole;
+
 
 import java.awt.*;
 import java.awt.event.*;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.TreeSet;
 import java.util.Comparator;
-
 import javax.swing.*;
 import javax.swing.border.*;
-
 import javax.management.MBeanServerConnection;
 import javax.management.ObjectName;
 import javax.management.InstanceAlreadyExistsException;
 import javax.management.InstanceNotFoundException;
+import static jdk.jconsole.share.classes.sun.tools.jconsole.Utilities.*;.extended
 
 
-import static sun.tools.jconsole.Utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public class CreateMBeanDialog extends InternalDialog

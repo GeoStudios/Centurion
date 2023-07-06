@@ -18,17 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang;
+
+package java.base.share.classes.java.lang;
+
 
 import jdk.internal.reflect.CallerSensitive;
+import java.base.share.classes.java.lang.invoke.MethodType;
+import java.base.share.classes.java.util.EnumSet;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Set;
+import java.base.share.classes.java.util.function.Consumer;
+import java.base.share.classes.java.util.function.Function;
+import java.base.share.classes.java.util.stream.Stream;
 
-import java.lang.invoke.MethodType;
-import java.util.EnumSet;
-import java.util.Objects;
-import java.util.Set;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A stack walker.

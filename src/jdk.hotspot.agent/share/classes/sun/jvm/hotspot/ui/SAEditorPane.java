@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.ui;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
+
 
 import java.io.*;
 import java.awt.event.*;
@@ -28,6 +29,20 @@ import java.awt.datatransfer.*;
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.text.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A simple subclass of JEditorPane for displaying uneditable html
  */

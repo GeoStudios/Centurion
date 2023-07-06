@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.jfr.internal.jfc.model;
+
+package jdk.jfr.share.classes.jdk.jfr.internal.jfc.model;
+
 
 import java.io.PrintWriter;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class PrettyPrinter {
     private final PrintWriter out;

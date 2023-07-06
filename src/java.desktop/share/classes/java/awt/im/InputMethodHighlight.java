@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.im;
+package java.desktop.share.classes.java.awt.im;
 
-import java.awt.font.TextAttribute;
-import java.util.Map;
+
+import java.desktop.share.classes.java.awt.font.TextAttribute;
+import java.desktop.share.classes.java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
 * An InputMethodHighlight is used to describe the highlight

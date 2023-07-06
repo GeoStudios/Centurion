@@ -18,14 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.plaf.synth;
+
+package java.desktop.share.classes.javax.swing.plaf.synth;
+
 
 import java.awt.*;
 import java.lang.ref.WeakReference;
 import java.net.*;
-import javax.swing.*;
+import java.desktop.share.classes.javax.swing.*;
 import sun.awt.AppContext;
 import sun.swing.plaf.synth.Paint9Painter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ImagePainter fills in the specified region using an Image. The Image

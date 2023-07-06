@@ -21,6 +21,7 @@
 
 package org.openjdk.bench.java.util.zip;
 
+
 import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.BenchmarkMode;
 import org.openjdk.jmh.annotations.Mode;
@@ -30,17 +31,29 @@ import org.openjdk.jmh.annotations.Param;
 import org.openjdk.jmh.annotations.Scope;
 import org.openjdk.jmh.annotations.Setup;
 import org.openjdk.jmh.annotations.State;
-
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 import java.util.zip.Inflater;
 import java.util.zip.InflaterOutputStream;
 import java.util.zip.DeflaterOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test the average execution time of "InflaterOutputStream.write()" depending

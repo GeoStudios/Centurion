@@ -21,6 +21,25 @@
 
 package gc.g1;
 
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.Platform;
+import jdk.test.lib.process.ProcessTools;
+import sun.hotspot.code.Compiler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestGCLogMessages
  * @bug 8035406 8027295 8035398 8019342 8027959 8048179 8027962 8069330 8076463 8150630 8160055 8177059 8166191
@@ -36,10 +55,6 @@ package gc.g1;
  *                   gc.g1.TestGCLogMessages
  */
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.Platform;
-import jdk.test.lib.process.ProcessTools;
-import sun.hotspot.code.Compiler;
 
 public class TestGCLogMessages {
 

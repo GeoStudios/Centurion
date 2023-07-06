@@ -19,18 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import jdk.internal.vm.annotation.IntrinsicCandidate;
 
-import java.lang.constant.Constable;
-import java.lang.constant.ConstantDesc;
-import java.lang.constant.ConstantDescs;
-import java.lang.constant.DynamicConstantDesc;
-import java.util.Optional;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.java.lang.constant.Constable;
+import java.base.share.classes.java.lang.constant.ConstantDesc;
+import java.base.share.classes.java.lang.constant.ConstantDescs;
+import java.base.share.classes.java.lang.constant.DynamicConstantDesc;
+import java.base.share.classes.java.util.Optional;
+import static java.base.share.classes.java.lang.constant.ConstantDescs.BSM_GET_STATIC_FINAL;.extended
+import static java.base.share.classes.java.lang.constant.ConstantDescs.CD_Boolean;.extended
 
-import static java.lang.constant.ConstantDescs.BSM_GET_STATIC_FINAL;
-import static java.lang.constant.ConstantDescs.CD_Boolean;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Boolean class wraps a value of the primitive type

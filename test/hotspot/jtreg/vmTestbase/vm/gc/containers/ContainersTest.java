@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package vm.gc.containers;
+
 
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryUsage;
@@ -30,6 +32,19 @@ import nsk.share.gc.gp.GarbageProducerAware;
 import nsk.share.gc.gp.MemoryStrategy;
 import nsk.share.gc.gp.MemoryStrategyAware;
 import nsk.share.test.ExecutionController;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * The main class and launcher for all containers tests.

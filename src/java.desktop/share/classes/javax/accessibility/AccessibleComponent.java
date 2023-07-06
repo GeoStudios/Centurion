@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.accessibility;
+package java.desktop.share.classes.javax.accessibility;
+
 
 import java.awt.Color;
 import java.awt.Cursor;
@@ -28,7 +29,21 @@ import java.awt.Font;
 import java.awt.FontMetrics;
 import java.awt.Point;
 import java.awt.Rectangle;
-import java.awt.event.FocusListener;
+import java.awt.event.Focusjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code AccessibleComponent} interface should be supported by any object

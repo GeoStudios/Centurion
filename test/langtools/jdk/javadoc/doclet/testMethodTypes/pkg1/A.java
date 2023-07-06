@@ -21,6 +21,21 @@
 
 package pkg1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class has a mixture of different types of methods. The methods summary
  * table should appear with "All Methods", "Static Methods", "Instance Methods",

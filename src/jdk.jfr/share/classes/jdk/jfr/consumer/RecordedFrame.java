@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.consumer;
+package jdk.jfr.share.classes.jdk.jfr.consumer;
+
 
 import java.lang.reflect.Modifier;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.ObjectContext;
 
-import jdk.jfr.internal.consumer.ObjectContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A recorded frame in a stack trace.

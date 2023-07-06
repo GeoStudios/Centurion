@@ -18,12 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package metaspace.stressHierarchy.common;
+
 
 import metaspace.stressHierarchy.common.classloader.tree.Tree;
 import metaspace.stressHierarchy.common.exceptions.ClassNotUnloadedException;
 import nsk.share.test.ExecutionController;
 import nsk.share.test.Tests;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test case checks that presence of ancestors does not prevent descenders of being reclaimed.

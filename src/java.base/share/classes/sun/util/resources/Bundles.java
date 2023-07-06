@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.util.resources;
+package java.base.share.classes.sun.util.resources;
+
 
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.SoftReference;
@@ -27,10 +28,10 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.Enumeration;
 import java.util.Iterator;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.MissingResourceException;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.ResourceBundle;
 import java.util.ServiceConfigurationError;
 import java.util.ServiceLoader;
@@ -38,7 +39,21 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 import java.util.spi.ResourceBundleProvider;
 import jdk.internal.access.JavaUtilResourceBundleAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

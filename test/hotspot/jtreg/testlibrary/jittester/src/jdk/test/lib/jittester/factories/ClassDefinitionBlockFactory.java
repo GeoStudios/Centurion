@@ -21,9 +21,10 @@
 
 package jdk.test.lib.jittester.factories;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.stream.Collectors;
 import jdk.test.lib.jittester.Block;
 import jdk.test.lib.jittester.IRNode;
@@ -35,6 +36,19 @@ import jdk.test.lib.jittester.classes.ClassDefinitionBlock;
 import jdk.test.lib.jittester.classes.Klass;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.PseudoRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class ClassDefinitionBlockFactory extends Factory<ClassDefinitionBlock> {
     private final String prefix;

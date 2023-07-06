@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.MTLinkedListGC;
+
+
+import java.util.Vector;
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress
@@ -37,10 +56,7 @@
  * @run main/othervm gc.gctests.MTLinkedListGC.MTLinkedListGC
  */
 
-package gc.gctests.MTLinkedListGC;
 
-import java.util.Vector;
-import nsk.share.TestFailure;
 
 class CircularLinkedList {
         synchronized void addElement(String info) {

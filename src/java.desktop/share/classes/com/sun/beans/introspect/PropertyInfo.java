@@ -19,22 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.beans.introspect;
+package java.desktop.share.classes.com.sun.beans.introspect;
+
 
 import java.beans.BeanProperty;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.lang.reflect.Type;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.EnumMap;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
+import static java.desktop.share.classes.com.sun.beans.finder.ClassFinder.findClass;.extended
 
-import static com.sun.beans.finder.ClassFinder.findClass;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class PropertyInfo {
 

@@ -19,21 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
+
 
 import sun.invoke.util.BytecodeDescriptor;
 import sun.invoke.util.VerifyAccess;
+import java.base.share.classes.java.lang.reflect.Constructor;
+import java.base.share.classes.java.lang.reflect.Field;
+import java.base.share.classes.java.lang.reflect.Member;
+import java.base.share.classes.java.lang.reflect.Method;
+import java.base.share.classes.java.lang.reflect.Modifier;
+import java.base.share.classes.java.util.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newIllegalArgumentException;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newInternalError;.extended
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
-import java.lang.reflect.Member;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
-import java.util.*;
 
-import static java.lang.invoke.MethodHandleNatives.Constants.*;
-import static java.lang.invoke.MethodHandleStatics.newIllegalArgumentException;
-import static java.lang.invoke.MethodHandleStatics.newInternalError;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code MemberName} is a compact symbolic datum which fully characterizes

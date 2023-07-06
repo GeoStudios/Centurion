@@ -18,30 +18,41 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing;
+
+package java.desktop.share.classes.javax.swing;
+
 
 import sun.reflect.misc.ReflectUtil;
 import sun.swing.SwingUtilities2;
 import sun.swing.UIAction;
-
 import java.applet.*;
-
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.dnd.DropTarget;
-
 import java.lang.reflect.*;
-
-import javax.accessibility.*;
-import javax.swing.event.MenuDragMouseEvent;
-import javax.swing.plaf.UIResource;
-import javax.swing.text.View;
+import java.desktop.share.classes.javax.accessibility.*;
+import java.desktop.share.classes.javax.swing.event.MenuDragMouseEvent;
+import java.desktop.share.classes.javax.swing.plaf.UIResource;
+import java.desktop.share.classes.javax.swing.text.View;
 import java.security.AccessController;
 import sun.security.action.GetPropertyAction;
-
 import sun.awt.AppContext;
 import sun.awt.AWTAccessor;
 import sun.awt.AWTAccessor.MouseEventAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A collection of utility methods for Swing.

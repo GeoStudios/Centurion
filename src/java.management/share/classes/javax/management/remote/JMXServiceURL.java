@@ -19,28 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-
-package javax.management.remote;
+package java.management.share.classes.javax.management.remote;
 
 
 import com.sun.jmx.remote.util.ClassLogger;
 import com.sun.jmx.remote.util.EnvHelp;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InvalidObjectException;
 import java.io.ObjectInputStream;
-
 import java.io.Serializable;
 import java.net.Inet4Address;
 import java.net.Inet6Address;
 import java.net.InetAddress;
 import java.net.MalformedURLException;
 import java.net.NetworkInterface;
-import java.net.SocketException;
+import java.net.java.net.SocketException;
 import java.net.UnknownHostException;
 import java.util.BitSet;
 import java.util.Enumeration;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.StringTokenizer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>The address of a JMX API connector server.  Instances of this class

@@ -21,6 +21,25 @@
 
 package gc.g1;
 
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import jdk.test.lib.Platform;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestPLABSizeBounds
  * @bug 8134857
@@ -32,11 +51,7 @@ package gc.g1;
  * @run driver gc.g1.TestPLABSizeBounds
  */
 
-import java.util.ArrayList;
 
-import jdk.test.lib.Platform;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class TestPLABSizeBounds {
 

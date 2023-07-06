@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.utilities;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
+
 
 import java.util.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
 
-import sun.jvm.hotspot.oops.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class FindObjectByType implements HeapVisitor {
   private final Klass type;

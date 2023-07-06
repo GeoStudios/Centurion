@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.rowset;
+package java.sql.rowset.share.classes.com.sun.rowset;
+
 
 import java.sql.*;
 import javax.sql.*;
@@ -30,15 +31,27 @@ import java.text.*;
 import java.security.AccessController;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
-
 import javax.sql.rowset.*;
 import javax.sql.rowset.spi.*;
 import javax.sql.rowset.serial.*;
-import com.sun.rowset.internal.*;
-import com.sun.rowset.providers.*;
-import sun.reflect.misc.ReflectUtil;
+import java.sql.rowset.share.classes.com.sun.rowset.internal.*;
+import java.sql.rowset.share.classes.com.sun.rowset.providers.*;
+import java.sql.rowset.share.classes.com.sun.reflect.misc.ReflectUtil;
+import static java.nio.charset.StandardCharsets.US_ASCII;.extended
 
-import static java.nio.charset.StandardCharsets.US_ASCII;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The standard implementation of the <code>CachedRowSet</code> interface.

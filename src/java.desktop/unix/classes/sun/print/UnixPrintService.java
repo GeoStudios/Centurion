@@ -19,15 +19,15 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.unix.classes.sun.print;
+
 
 import java.io.File;
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
-import java.util.Locale;
-
+import java.base.share.classes.java.util.Locale;
 import java.awt.GraphicsEnvironment;
 import java.awt.Toolkit;
 import javax.print.DocFlavor;
@@ -68,7 +68,20 @@ import javax.print.attribute.standard.PrinterStateReasons;
 import javax.print.attribute.standard.Severity;
 import javax.print.attribute.standard.SheetCollate;
 import javax.print.attribute.standard.Sides;
-import javax.print.event.PrintServiceAttributeListener;
+import javax.print.event.PrintServiceAttributejava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @SuppressWarnings("removal")

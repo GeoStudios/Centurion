@@ -19,16 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.logger;
+package java.base.share.classes.jdk.internal.logger;
 
-import jdk.internal.misc.VM;
 
+import java.base.share.classes.jdk.internal.misc.VM;
 import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.lang.System.LoggerFinder;
 import java.lang.System.Logger;
 import java.lang.ref.ReferenceQueue;
@@ -36,6 +36,20 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.Collection;
 import java.util.ResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Internal Service Provider Interface (SPI) that makes it possible to use

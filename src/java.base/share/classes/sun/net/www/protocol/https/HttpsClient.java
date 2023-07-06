@@ -19,40 +19,49 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.sun.net.www.protocol.https;
 
-package sun.net.www.protocol.https;
 
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.io.PrintStream;
 import java.io.BufferedOutputStream;
 import java.net.InetAddress;
-import java.net.Socket;
-import java.net.SocketException;
+import java.net.java.net.java.net.java.net.Socket;
+import java.net.java.net.SocketException;
 import java.net.URL;
 import java.net.UnknownHostException;
-import java.net.InetSocketAddress;
+import java.net.Inetjava.net.SocketAddress;
 import java.net.Proxy;
 import java.security.Principal;
 import java.security.cert.*;
-import java.util.List;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.StringTokenizer;
 import java.util.Vector;
-
 import javax.security.auth.x500.X500Principal;
-
 import javax.net.ssl.*;
-import sun.net.www.http.HttpClient;
-import sun.net.www.protocol.http.AuthenticatorKeys;
-import sun.net.www.protocol.http.HttpURLConnection;
-import sun.security.action.*;
+import java.base.share.classes.sun.net.www.http.HttpClient;
+import java.base.share.classes.sun.net.www.protocol.http.AuthenticatorKeys;
+import java.base.share.classes.sun.net.www.protocol.http.HttpURLConnection;
+import java.base.share.classes.sun.security.action.*;
+import java.base.share.classes.sun.security.util.HostnameChecker;
+import java.base.share.classes.sun.security.ssl.SSLjava.net.SocketImpl;
+import java.base.share.classes.sun.util.logging.PlatformLogger;
+import static java.base.share.classes.sun.net.www.protocol.http.HttpURLConnection.TunnelState.*;.extended
 
-import sun.security.util.HostnameChecker;
-import sun.security.ssl.SSLSocketImpl;
 
-import sun.util.logging.PlatformLogger;
-import static sun.net.www.protocol.http.HttpURLConnection.TunnelState.*;
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

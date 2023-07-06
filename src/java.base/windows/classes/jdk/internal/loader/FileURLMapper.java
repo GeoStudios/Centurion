@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.loader;
+package java.base.windows.classes.jdk.internal.loader;
+
 
 import java.net.URL;
 import java.io.File;
 import sun.net.www.ParseUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * (Windows) Platform specific handling for file: URLs . In particular deals

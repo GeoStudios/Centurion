@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jshell;
+package jdk.jshell.share.classes.jdk.jshell;
+
 
 import com.sun.source.tree.ClassTree;
 import com.sun.source.tree.IdentifierTree;
@@ -34,6 +35,20 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 import javax.lang.model.element.Name;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Search a compiler API parse tree for dependencies.

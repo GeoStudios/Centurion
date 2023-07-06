@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xpath.internal.objects;
+package java.xml.share.classes.com.sun.org.apache.xpath.internal.objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents an XPath boolean object, and is capable of

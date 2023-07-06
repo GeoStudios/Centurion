@@ -19,29 +19,43 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.consumer;
+package jdk.jfr.share.classes.jdk.jfr.internal.consumer;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.time.Duration;
 import java.time.Instant;
-import java.util.List;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.function.Consumer;
+import jdk.jfr.share.classes.jdk.jfr.Configuration;
+import jdk.jfr.share.classes.jdk.jfr.EventType;
+import jdk.jfr.share.classes.jdk.jfr.consumer.EventStream;
+import jdk.jfr.share.classes.jdk.jfr.consumer.MetadataEvent;
+import jdk.jfr.share.classes.jdk.jfr.consumer.RecordedEvent;
+import jdk.jfr.share.classes.jdk.jfr.internal.LogLevel;
+import jdk.jfr.share.classes.jdk.jfr.internal.LogTag;
+import jdk.jfr.share.classes.jdk.jfr.internal.Logger;
+import jdk.jfr.share.classes.jdk.jfr.internal.PlatformRecording;
+import jdk.jfr.share.classes.jdk.jfr.internal.SecuritySupport;
 
-import jdk.jfr.Configuration;
-import jdk.jfr.EventType;
-import jdk.jfr.consumer.EventStream;
-import jdk.jfr.consumer.MetadataEvent;
-import jdk.jfr.consumer.RecordedEvent;
-import jdk.jfr.internal.LogLevel;
-import jdk.jfr.internal.LogTag;
-import jdk.jfr.internal.Logger;
-import jdk.jfr.internal.PlatformRecording;
-import jdk.jfr.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Purpose of this class is to simplify the implementation of

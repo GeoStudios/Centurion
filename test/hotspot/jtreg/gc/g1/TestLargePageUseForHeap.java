@@ -21,6 +21,25 @@
 
 package gc.g1;
 
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import jtreg.SkippedException;
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestLargePageUseForHeap.java
  * @summary Test that Java heap is allocated using large pages of the appropriate size if available.
@@ -35,10 +54,6 @@ package gc.g1;
         -XX:+IgnoreUnrecognizedVMOptions -XX:+UseLargePages gc.g1.TestLargePageUseForHeap
  */
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import jtreg.SkippedException;
-import sun.hotspot.WhiteBox;
 
 public class TestLargePageUseForHeap {
     static long largePageSize;

@@ -18,14 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text.html;
+
+package java.desktop.share.classes.javax.swing.text.html;
+
 
 import java.util.Enumeration;
 import java.awt.*;
-import javax.swing.SizeRequirements;
-import javax.swing.border.*;
-import javax.swing.event.DocumentEvent;
-import javax.swing.text.*;
+import java.desktop.share.classes.javax.swing.SizeRequirements;
+import java.desktop.share.classes.javax.swing.border.*;
+import java.desktop.share.classes.javax.swing.event.DocumentEvent;
+import java.desktop.share.classes.javax.swing.text.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A view implementation to display a block (as a box)

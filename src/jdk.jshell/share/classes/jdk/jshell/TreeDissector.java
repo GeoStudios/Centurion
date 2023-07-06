@@ -19,7 +19,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jshell;
+package jdk.jshell.share.classes.jdk.jshell;
 
 
 import com.sun.source.tree.ClassTree;
@@ -35,17 +35,29 @@ import com.sun.tools.javac.code.Type.MethodType;
 import com.sun.tools.javac.code.Types;
 import com.sun.tools.javac.tree.JCTree.JCMethodDecl;
 import com.sun.tools.javac.util.Name;
-import static jdk.jshell.Util.isDoIt;
-import jdk.jshell.TaskFactory.AnalyzeTask;
-import jdk.jshell.Wrap.Range;
-
-import java.util.List;
-
+import static jdk.jshell.share.classes.jdk.jshell.Util.isDoIt;.extended
+import jdk.jshell.share.classes.jdk.jshell.TaskFactory.AnalyzeTask;
+import jdk.jshell.share.classes.jdk.jshell.Wrap.Range;
+import java.util.java.util.java.util.java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
 import javax.lang.model.type.TypeMirror;
-import jdk.jshell.TypePrinter.AnonymousTypeKind;
-import jdk.jshell.Util.Pair;
+import jdk.jshell.share.classes.jdk.jshell.TypePrinter.AnonymousTypeKind;
+import jdk.jshell.share.classes.jdk.jshell.Util.Pair;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utilities for analyzing compiler API parse trees.

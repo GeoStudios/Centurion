@@ -21,20 +21,32 @@
 
 package jdk.jfr.event.io;
 
-import static jdk.test.lib.Asserts.assertEquals;
 
+import static jdk.test.lib.Asserts.assertEquals;.extended
 import java.io.File;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.time.Duration;
-import java.util.ArrayList;
-import java.util.List;
-
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import jdk.jfr.Recording;
 import jdk.jfr.consumer.RecordedEvent;
 import jdk.test.lib.Utils;
 import jdk.test.lib.jfr.Events;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

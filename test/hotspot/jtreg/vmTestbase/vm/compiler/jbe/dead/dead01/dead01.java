@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.compiler.jbe.dead.dead01;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,7 +47,6 @@
  * @run main/othervm vm.compiler.jbe.dead.dead01.dead01
  */
 
-package vm.compiler.jbe.dead.dead01;
 
 /* -- Test the elimination of dead assignment to local variables
 In the example below, the value assigned to i is never used, all dead stores to local can be eliminated, and the last return statement in f() is unreachable; Both dead/unused stores and unreachable statement can be eliminated.

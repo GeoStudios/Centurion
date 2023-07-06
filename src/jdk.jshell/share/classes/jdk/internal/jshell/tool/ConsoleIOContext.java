@@ -19,29 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.jshell.tool;
+package jdk.jshell.share.classes.jdk.internal.jshell.tool;
 
-import jdk.jshell.SourceCodeAnalysis.Documentation;
-import jdk.jshell.SourceCodeAnalysis.QualifiedNames;
-import jdk.jshell.SourceCodeAnalysis.Suggestion;
 
-import java.io.IOException;
+import jdk.jshell.share.classes.jdk.jshell.SourceCodeAnalysis.Documentation;
+import jdk.jshell.share.classes.jdk.jshell.SourceCodeAnalysis.QualifiedNames;
+import jdk.jshell.share.classes.jdk.jshell.SourceCodeAnalysis.Suggestion;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
-import java.io.InterruptedIOException;
+import java.io.Interruptedjava.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.PrintStream;
 import java.net.URI;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.time.Instant;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.java.util.java.util.java.util.List;
+import java.util.java.util.ListIterator;
 import java.util.Map;
 import java.util.Optional;
 import java.util.function.Consumer;
@@ -49,43 +49,56 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
-import javax.tools.DiagnosticListener;
+import javax.tools.Diagnosticjava.util.Listener;
 import javax.tools.JavaFileObject;
 import javax.tools.SimpleJavaFileObject;
+import jdk.jshell.share.classes.jdk.internal.shellsupport.doc.JavadocFormatter;
+import jdk.jshell.share.classes.jdk.internal.jshell.tool.StopDetectingInputStream.State;
+import jdk.jshell.share.classes.jdk.internal.misc.Signal;
+import jdk.jshell.share.classes.jdk.internal.misc.Signal.Handler;
+import jdk.jshell.share.classes.jdk.internal.org.jline.keymap.KeyMap;
+import jdk.jshell.share.classes.jdk.internal.org.jline.reader.Binding;
+import jdk.jshell.share.classes.jdk.internal.org.jline.reader.EOFError;
+import jdk.jshell.share.classes.jdk.internal.org.jline.reader.EndOfFileException;
+import jdk.jshell.share.classes.jdk.internal.org.jline.reader.History;
+import jdk.jshell.share.classes.jdk.internal.org.jline.reader.LineReader;
+import jdk.jshell.share.classes.jdk.internal.org.jline.reader.LineReader.Option;
+import jdk.jshell.share.classes.jdk.internal.org.jline.reader.Parser;
+import jdk.jshell.share.classes.jdk.internal.org.jline.reader.UserInterruptException;
+import jdk.jshell.share.classes.jdk.internal.org.jline.reader.Widget;
+import jdk.jshell.share.classes.jdk.internal.org.jline.reader.impl.LineReaderImpl;
+import jdk.jshell.share.classes.jdk.internal.org.jline.reader.impl.completer.ArgumentCompleter.ArgumentLine;
+import jdk.jshell.share.classes.jdk.internal.org.jline.reader.impl.history.DefaultHistory;
+import jdk.jshell.share.classes.jdk.internal.org.jline.terminal.impl.LineDisciplineTerminal;
+import jdk.jshell.share.classes.jdk.internal.org.jline.terminal.Attributes;
+import jdk.jshell.share.classes.jdk.internal.org.jline.terminal.Attributes.ControlChar;
+import jdk.jshell.share.classes.jdk.internal.org.jline.terminal.Attributes.LocalFlag;
+import jdk.jshell.share.classes.jdk.internal.org.jline.terminal.Size;
+import jdk.jshell.share.classes.jdk.internal.org.jline.terminal.Terminal;
+import jdk.jshell.share.classes.jdk.internal.org.jline.terminal.TerminalBuilder;
+import jdk.jshell.share.classes.jdk.internal.org.jline.utils.Display;
+import jdk.jshell.share.classes.jdk.internal.org.jline.utils.NonBlocking;
+import jdk.jshell.share.classes.jdk.internal.org.jline.utils.NonBlockingInputStreamImpl;
+import jdk.jshell.share.classes.jdk.internal.org.jline.utils.NonBlockingReader;
+import jdk.jshell.share.classes.jdk.jshell.ExpressionSnippet;
+import jdk.jshell.share.classes.jdk.jshell.Snippet;
+import jdk.jshell.share.classes.jdk.jshell.Snippet.SubKind;
+import jdk.jshell.share.classes.jdk.jshell.SourceCodeAnalysis.CompletionInfo;
+import jdk.jshell.share.classes.jdk.jshell.VarSnippet;
 
-import jdk.internal.shellsupport.doc.JavadocFormatter;
-import jdk.internal.jshell.tool.StopDetectingInputStream.State;
-import jdk.internal.misc.Signal;
-import jdk.internal.misc.Signal.Handler;
-import jdk.internal.org.jline.keymap.KeyMap;
-import jdk.internal.org.jline.reader.Binding;
-import jdk.internal.org.jline.reader.EOFError;
-import jdk.internal.org.jline.reader.EndOfFileException;
-import jdk.internal.org.jline.reader.History;
-import jdk.internal.org.jline.reader.LineReader;
-import jdk.internal.org.jline.reader.LineReader.Option;
-import jdk.internal.org.jline.reader.Parser;
-import jdk.internal.org.jline.reader.UserInterruptException;
-import jdk.internal.org.jline.reader.Widget;
-import jdk.internal.org.jline.reader.impl.LineReaderImpl;
-import jdk.internal.org.jline.reader.impl.completer.ArgumentCompleter.ArgumentLine;
-import jdk.internal.org.jline.reader.impl.history.DefaultHistory;
-import jdk.internal.org.jline.terminal.impl.LineDisciplineTerminal;
-import jdk.internal.org.jline.terminal.Attributes;
-import jdk.internal.org.jline.terminal.Attributes.ControlChar;
-import jdk.internal.org.jline.terminal.Attributes.LocalFlag;
-import jdk.internal.org.jline.terminal.Size;
-import jdk.internal.org.jline.terminal.Terminal;
-import jdk.internal.org.jline.terminal.TerminalBuilder;
-import jdk.internal.org.jline.utils.Display;
-import jdk.internal.org.jline.utils.NonBlocking;
-import jdk.internal.org.jline.utils.NonBlockingInputStreamImpl;
-import jdk.internal.org.jline.utils.NonBlockingReader;
-import jdk.jshell.ExpressionSnippet;
-import jdk.jshell.Snippet;
-import jdk.jshell.Snippet.SubKind;
-import jdk.jshell.SourceCodeAnalysis.CompletionInfo;
-import jdk.jshell.VarSnippet;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class ConsoleIOContext extends IOContext {
 

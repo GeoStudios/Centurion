@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.management;
+package jdk.management.share.classes.com.sun.management;
+
 
 import javax.management.openmbean.CompositeData;
 import javax.management.openmbean.CompositeDataView;
 import javax.management.openmbean.CompositeType;
-import com.sun.management.internal.GarbageCollectionNotifInfoCompositeData;
+import jdk.management.share.classes.com.sun.management.internal.GarbageCollectionNotifInfoCompositeData;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The information about a garbage collection

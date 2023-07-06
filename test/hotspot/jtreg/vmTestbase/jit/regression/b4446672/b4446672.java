@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.regression.b4446672;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4446672
@@ -31,9 +49,7 @@
  * @run main/othervm jit.regression.b4446672.b4446672
  */
 
-package jit.regression.b4446672;
 
-import nsk.share.TestFailure;
 
 public class b4446672 {
 

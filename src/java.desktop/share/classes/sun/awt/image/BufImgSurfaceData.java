@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.image;
+package java.desktop.share.classes.sun.awt.image;
+
 
 import java.awt.Rectangle;
 import java.awt.GraphicsConfiguration;
@@ -30,12 +31,24 @@ import java.awt.image.IndexColorModel;
 import java.awt.image.Raster;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBuffer;
+import java.desktop.share.classes.sun.java2d.SurfaceData;
+import java.desktop.share.classes.sun.java2d.SunGraphics2D;
+import java.desktop.share.classes.sun.java2d.loops.SurfaceType;
+import java.desktop.share.classes.sun.java2d.loops.CompositeType;
+import java.desktop.share.classes.sun.java2d.loops.RenderLoops;
 
-import sun.java2d.SurfaceData;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.loops.SurfaceType;
-import sun.java2d.loops.CompositeType;
-import sun.java2d.loops.RenderLoops;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class BufImgSurfaceData extends SurfaceData {

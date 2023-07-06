@@ -18,7 +18,23 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.jvmti.scenarios.hotswap.HS301.hs301t001;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MyClass {
   public int size=100;

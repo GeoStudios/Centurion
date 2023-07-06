@@ -18,17 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing;
+
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.*;
 import java.util.*;
 import java.awt.event.*;
-import javax.swing.event.*;
-
+import java.desktop.share.classes.javax.swing.event.*;
 import sun.awt.AppContext;
 import sun.awt.AWTAccessor;
 import sun.awt.AWTAccessor.MouseEventAccessor;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A MenuSelectionManager owns the selection in menu hierarchy.

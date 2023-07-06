@@ -18,8 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package vm.share.options;
+
+
 import java.lang.annotation.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This annotation is the most useful one of the whole API.
  * It is used to mark non-static fields of the object and to declare the

@@ -18,10 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package javax.xml.validation.ptests;
+
 
 import org.xml.sax.ErrorHandler;
 import org.xml.sax.SAXParseException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class MyErrorHandler implements ErrorHandler {
     public void error(SAXParseException exception) throws SAXParseException {

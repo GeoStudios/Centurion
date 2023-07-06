@@ -19,40 +19,58 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-//todo: one might eliminate uninits.andSets when monotonic
+package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-package com.sun.tools.javac.comp;
 
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.StreamSupport;
+import jdk.compiler.share.classes.com.sun.source.tree.LambdaExpressionTree.BodyKind;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.WriteableScope;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Source.Feature;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Warnings;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeInfo.PatternPrimaryType;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Error;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Warning;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.BLOCK;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.TypeVar;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.BOOLEAN;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.VOID;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments;
+import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.*;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Fragment;
 
-import com.sun.source.tree.LambdaExpressionTree.BodyKind;
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.Scope.WriteableScope;
-import com.sun.tools.javac.code.Source.Feature;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.resources.CompilerProperties.Warnings;
-import com.sun.tools.javac.tree.*;
-import com.sun.tools.javac.tree.TreeInfo.PatternPrimaryType;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
-import com.sun.tools.javac.util.JCDiagnostic.Error;
-import com.sun.tools.javac.util.JCDiagnostic.Warning;
 
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.tree.JCTree.*;
 
-import static com.sun.tools.javac.code.Flags.*;
-import static com.sun.tools.javac.code.Flags.BLOCK;
-import static com.sun.tools.javac.code.Kinds.Kind.*;
-import com.sun.tools.javac.code.Type.TypeVar;
-import static com.sun.tools.javac.code.TypeTag.BOOLEAN;
-import static com.sun.tools.javac.code.TypeTag.VOID;
-import com.sun.tools.javac.resources.CompilerProperties.Fragments;
-import static com.sun.tools.javac.tree.JCTree.Tag.*;
-import com.sun.tools.javac.util.JCDiagnostic.Fragment;
+
+
+
+
+
+
+
+
+
+
+
+
+//todo: one might eliminate uninits.andSets when monotonic
+
+
+
+
+
+
 
 /** This pass implements dataflow analysis for Java programs though
  *  different AST visitor steps. Liveness analysis (see AliveAnalyzer) checks that

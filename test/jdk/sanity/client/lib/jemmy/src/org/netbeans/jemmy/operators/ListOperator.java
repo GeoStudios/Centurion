@@ -18,22 +18,36 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.operators;
+
 
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Dimension;
-import java.awt.List;
-import java.awt.event.ActionListener;
-import java.awt.event.ItemListener;
+import java.awt.java.util.java.util.java.util.List;
+import java.awt.event.Actionjava.util.Listener;
+import java.awt.event.Itemjava.util.Listener;
 import java.util.Hashtable;
-
 import org.netbeans.jemmy.ComponentChooser;
 import org.netbeans.jemmy.Outputable;
 import org.netbeans.jemmy.TestOut;
 import org.netbeans.jemmy.TimeoutExpiredException;
 import org.netbeans.jemmy.drivers.DriverManager;
-import org.netbeans.jemmy.drivers.MultiSelListDriver;
+import org.netbeans.jemmy.drivers.MultiSeljava.util.ListDriver;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <BR><BR>Timeouts used: <BR>

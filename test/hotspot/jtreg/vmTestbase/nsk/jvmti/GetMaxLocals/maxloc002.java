@@ -21,7 +21,21 @@
 
 package nsk.jvmti.GetMaxLocals;
 
+
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class maxloc002 {
 

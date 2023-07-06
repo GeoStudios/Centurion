@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.common;
+package java.desktop.share.classes.com.sun.imageio.plugins.common;
+
 
 import java.awt.Point;
 import java.awt.Rectangle;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import javax.imageio.stream.ImageInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains utility methods that may be useful to ImageReader

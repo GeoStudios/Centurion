@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.unsafe;
+
+
+import jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8142386
@@ -29,9 +47,7 @@
  *      compiler.intrinsics.unsafe.TestUnsafeMismatchedArrayFieldAccess
  */
 
-package compiler.intrinsics.unsafe;
 
-import jdk.internal.misc.Unsafe;
 
 public class TestUnsafeMismatchedArrayFieldAccess {
 

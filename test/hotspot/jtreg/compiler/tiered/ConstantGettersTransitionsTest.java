@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.tiered;
+
+
+import compiler.whitebox.CompilerWhiteBoxTest;
+import jtreg.SkippedException;
+import java.lang.reflect.Executable;
+import java.util.concurrent.Callable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test ConstantGettersTransitionsTest
  * @summary Test the correctness of compilation level transitions for constant getters methods
@@ -35,13 +56,8 @@
  *      compiler.tiered.ConstantGettersTransitionsTest
  */
 
-package compiler.tiered;
 
-import compiler.whitebox.CompilerWhiteBoxTest;
-import jtreg.SkippedException;
 
-import java.lang.reflect.Executable;
-import java.util.concurrent.Callable;
 
 public class ConstantGettersTransitionsTest extends LevelTransitionTest {
     public static void main(String[] args) {

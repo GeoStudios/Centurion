@@ -19,25 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.runtime;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime;
+
 
 import java.util.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.win32_x86.Win32X86JavaThreadPDAccess;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.win32_amd64.Win32AMD64JavaThreadPDAccess;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.win32_aarch64.Win32AARCH64JavaThreadPDAccess;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.linux_x86.LinuxX86JavaThreadPDAccess;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.linux_amd64.LinuxAMD64JavaThreadPDAccess;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.linux_aarch64.LinuxAARCH64JavaThreadPDAccess;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.linux_ppc64.LinuxPPC64JavaThreadPDAccess;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.bsd_x86.BsdX86JavaThreadPDAccess;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.bsd_amd64.BsdAMD64JavaThreadPDAccess;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.bsd_aarch64.BsdAARCH64JavaThreadPDAccess;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
 
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.types.*;
-import sun.jvm.hotspot.runtime.win32_x86.Win32X86JavaThreadPDAccess;
-import sun.jvm.hotspot.runtime.win32_amd64.Win32AMD64JavaThreadPDAccess;
-import sun.jvm.hotspot.runtime.win32_aarch64.Win32AARCH64JavaThreadPDAccess;
-import sun.jvm.hotspot.runtime.linux_x86.LinuxX86JavaThreadPDAccess;
-import sun.jvm.hotspot.runtime.linux_amd64.LinuxAMD64JavaThreadPDAccess;
-import sun.jvm.hotspot.runtime.linux_aarch64.LinuxAARCH64JavaThreadPDAccess;
-import sun.jvm.hotspot.runtime.linux_ppc64.LinuxPPC64JavaThreadPDAccess;
-import sun.jvm.hotspot.runtime.bsd_x86.BsdX86JavaThreadPDAccess;
-import sun.jvm.hotspot.runtime.bsd_amd64.BsdAMD64JavaThreadPDAccess;
-import sun.jvm.hotspot.runtime.bsd_aarch64.BsdAARCH64JavaThreadPDAccess;
-import sun.jvm.hotspot.utilities.*;
-import sun.jvm.hotspot.utilities.Observable;
-import sun.jvm.hotspot.utilities.Observer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class ThreadsList extends VMObject {
     private static AddressField  threadsField;

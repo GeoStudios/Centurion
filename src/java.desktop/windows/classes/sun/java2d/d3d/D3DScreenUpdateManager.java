@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.d3d;
+package java.desktop.windows.classes.sun.java2d.d3d;
+
 
 import java.awt.Color;
 import java.awt.Component;
@@ -30,21 +31,34 @@ import java.awt.Rectangle;
 import java.awt.Window;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
+import java.desktop.windows.classes.sun.awt.AWTAccessor;
+import java.desktop.windows.classes.sun.awt.AWTAccessor.ComponentAccessor;
+import java.desktop.windows.classes.sun.awt.util.ThreadGroupUtils;
+import java.desktop.windows.classes.sun.awt.Win32GraphicsConfig;
+import java.desktop.windows.classes.sun.awt.windows.WComponentPeer;
+import java.desktop.windows.classes.sun.java2d.InvalidPipeException;
+import java.desktop.windows.classes.sun.java2d.ScreenUpdateManager;
+import java.desktop.windows.classes.sun.java2d.SunGraphics2D;
+import java.desktop.windows.classes.sun.java2d.SurfaceData;
+import java.desktop.windows.classes.sun.java2d.windows.GDIWindowSurfaceData;
+import java.desktop.windows.classes.sun.java2d.d3d.D3DSurfaceData.D3DWindowSurfaceData;
+import java.desktop.windows.classes.sun.java2d.windows.WindowsFlags;
 
-import sun.awt.AWTAccessor;
-import sun.awt.AWTAccessor.ComponentAccessor;
-import sun.awt.util.ThreadGroupUtils;
-import sun.awt.Win32GraphicsConfig;
-import sun.awt.windows.WComponentPeer;
-import sun.java2d.InvalidPipeException;
-import sun.java2d.ScreenUpdateManager;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.SurfaceData;
-import sun.java2d.windows.GDIWindowSurfaceData;
-import sun.java2d.d3d.D3DSurfaceData.D3DWindowSurfaceData;
-import sun.java2d.windows.WindowsFlags;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class handles rendering to the screen with the D3D pipeline.

@@ -21,6 +21,21 @@
 
 package warns;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // class with 10 warnings
 public class Warnings {
     /** @param x */

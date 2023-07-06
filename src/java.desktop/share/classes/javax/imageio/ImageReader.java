@@ -19,28 +19,43 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.imageio;
+package java.desktop.share.classes.javax.imageio;
+
 
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
 import java.awt.image.Raster;
 import java.awt.image.RenderedImage;
-import java.io.IOException;
-import java.util.ArrayList;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 import java.util.Set;
-import javax.imageio.spi.ImageReaderSpi;
-import javax.imageio.event.IIOReadWarningListener;
-import javax.imageio.event.IIOReadProgressListener;
-import javax.imageio.event.IIOReadUpdateListener;
-import javax.imageio.metadata.IIOMetadata;
-import javax.imageio.metadata.IIOMetadataFormatImpl;
-import javax.imageio.stream.ImageInputStream;
+import java.desktop.share.classes.javax.imageio.spi.ImageReaderSpi;
+import java.desktop.share.classes.javax.imageio.event.IIOReadWarningjava.util.Listener;
+import java.desktop.share.classes.javax.imageio.event.IIOReadProgressjava.util.Listener;
+import java.desktop.share.classes.javax.imageio.event.IIOReadUpdatejava.util.Listener;
+import java.desktop.share.classes.javax.imageio.metadata.IIOMetadata;
+import java.desktop.share.classes.javax.imageio.metadata.IIOMetadataFormatImpl;
+import java.desktop.share.classes.javax.imageio.stream.ImageInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An abstract superclass for parsing and decoding of images.  This

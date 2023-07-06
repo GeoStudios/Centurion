@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.math;
+
+
+import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @summary Test compiler intrinsics for signum
@@ -34,9 +52,7 @@
  *      compiler.intrinsics.math.TestSignumIntrinsic
  */
 
-package compiler.intrinsics.math;
 
-import jdk.test.lib.Asserts;
 
 public class TestSignumIntrinsic {
 

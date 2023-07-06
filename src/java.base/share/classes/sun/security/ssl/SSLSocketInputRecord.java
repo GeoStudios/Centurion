@@ -19,22 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
+
 
 import java.io.EOFException;
-import java.io.InterruptedIOException;
-import java.io.IOException;
+import java.io.Interruptedjava.io.java.io.java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.nio.ByteBuffer;
 import java.security.GeneralSecurityException;
-import java.util.ArrayList;
-import javax.crypto.BadPaddingException;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.javax.crypto.BadPaddingException;
 import javax.net.ssl.SSLException;
 import javax.net.ssl.SSLHandshakeException;
 import javax.net.ssl.SSLProtocolException;
+import java.base.share.classes.sun.security.ssl.SSLCipher.SSLReadCipher;
 
-import sun.security.ssl.SSLCipher.SSLReadCipher;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code InputRecord} implementation for {@code SSLSocket}.

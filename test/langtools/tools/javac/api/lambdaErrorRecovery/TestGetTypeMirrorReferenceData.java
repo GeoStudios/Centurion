@@ -21,6 +21,21 @@
 
 package test/*getTypeMirror:PACKAGE:test*/;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class TestGetTypeMirrorReferenceData {
 
     private static void test() {

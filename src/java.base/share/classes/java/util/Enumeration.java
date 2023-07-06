@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An object that implements the Enumeration interface generates a

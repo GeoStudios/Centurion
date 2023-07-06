@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.serializer;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
+
 
 import java.util.Properties;
 import javax.xml.transform.OutputKeys;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is a factory to generate a set of default properties

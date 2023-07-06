@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.print;
+package java.desktop.share.classes.javax.print;
 
-import javax.print.attribute.PrintRequestAttributeSet;
+
+import java.desktop.share.classes.javax.print.attribute.PrintRequestAttributeSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Obtained from a {@code MultiDocPrintService}, a {@code MultiDocPrintJob} can

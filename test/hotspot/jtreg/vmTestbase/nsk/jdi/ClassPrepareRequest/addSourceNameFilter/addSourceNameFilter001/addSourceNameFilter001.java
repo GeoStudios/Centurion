@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.ClassPrepareRequest.addSourceNameFilter.addSourceNameFilter001;
+
+
+import java.io.*;
+import com.sun.jdi.event.*;
+import com.sun.jdi.request.*;
+import nsk.share.Consts;
+import nsk.share.TestBug;
+import nsk.share.jdi.*;
+import nsk.share.jpda.AbstractDebuggeeTest;
+import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @modules java.base/jdk.internal.misc:+open
@@ -58,16 +83,7 @@
  *      -testClassPath ${test.class.path}
  */
 
-package nsk.jdi.ClassPrepareRequest.addSourceNameFilter.addSourceNameFilter001;
 
-import java.io.*;
-import com.sun.jdi.event.*;
-import com.sun.jdi.request.*;
-import nsk.share.Consts;
-import nsk.share.TestBug;
-import nsk.share.jdi.*;
-import nsk.share.jpda.AbstractDebuggeeTest;
-import java.util.*;
 
 public class addSourceNameFilter001 extends TestDebuggerType2 {
     public static void main(String argv[]) {

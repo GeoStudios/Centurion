@@ -19,24 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.peer.ButtonPeer;
-import java.beans.BeanProperty;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serial;
-import java.util.EventListener;
-import java.util.Objects;
 
+import java.desktop.share.classes.java.awt.event.ActionEvent;
+import java.desktop.share.classes.java.awt.event.Actionjava.util.Listener;
+import java.desktop.share.classes.java.awt.peer.ButtonPeer;
+import java.desktop.share.classes.java.beans.BeanProperty;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.ObjectOutputStream;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.util.Eventjava.util.Listener;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.Objects;
 import javax.accessibility.Accessible;
 import javax.accessibility.AccessibleAction;
 import javax.accessibility.AccessibleContext;
 import javax.accessibility.AccessibleRole;
 import javax.accessibility.AccessibleValue;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class creates a labeled button. The application can cause

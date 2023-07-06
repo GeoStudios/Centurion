@@ -18,15 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.awt;
+
+package java.desktop.share.classes.sun.awt;
+
+
 import java.awt.*;
 import java.awt.color.*;
 import java.awt.geom.AffineTransform;
 import java.awt.image.*;
-import sun.awt.image.ToolkitImage;
-import sun.awt.image.ImageRepresentation;
-import java.util.Arrays;
-import sun.java2d.pipe.Region;
+import java.desktop.share.classes.sun.awt.image.ToolkitImage;
+import java.desktop.share.classes.sun.awt.image.ImageRepresentation;
+import java.base.share.classes.java.util.Arrays;
+import java.desktop.share.classes.sun.java2d.pipe.Region;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class IconInfo {
     /**

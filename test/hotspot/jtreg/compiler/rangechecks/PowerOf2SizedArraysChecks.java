@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.rangechecks;
+
+
+import java.util.function.BiFunction;
+import java.util.function.Function;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8003585
@@ -29,10 +48,7 @@
  *                   compiler.rangechecks.PowerOf2SizedArraysChecks
  */
 
-package compiler.rangechecks;
 
-import java.util.function.BiFunction;
-import java.util.function.Function;
 
 public class PowerOf2SizedArraysChecks {
 

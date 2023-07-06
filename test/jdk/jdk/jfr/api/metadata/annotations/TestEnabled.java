@@ -21,11 +21,25 @@
 
 package jdk.jfr.api.metadata.annotations;
 
+
 import jdk.jfr.Enabled;
 import jdk.jfr.Event;
 import jdk.jfr.EventType;
 import jdk.jfr.Recording;
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

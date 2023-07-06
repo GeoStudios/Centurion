@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.module;
+package java.base.share.classes.jdk.internal.module;
+
 
 import java.lang.module.ModuleReference;
-import static jdk.internal.module.ClassFileConstants.*;
+import static java.base.share.classes.jdk.internal.module.ClassFileConstants.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents the Module Resolution flags.

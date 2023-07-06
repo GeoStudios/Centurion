@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.tree;
+package java.desktop.share.classes.javax.swing.tree;
 
-import javax.swing.event.TreeModelEvent;
+
+import java.desktop.share.classes.javax.swing.event.TreeModelEvent;
 import java.awt.Rectangle;
 import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.NoSuchElementException;
 import java.util.Stack;
-
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * NOTE: This will become more open in a future release.

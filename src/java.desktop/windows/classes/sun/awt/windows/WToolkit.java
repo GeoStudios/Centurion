@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.windows;
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.awt.AWTEvent;
 import java.awt.AWTException;
@@ -46,7 +47,7 @@ import java.awt.Image;
 import java.awt.Insets;
 import java.awt.JobAttributes;
 import java.awt.Label;
-import java.awt.List;
+import java.awt.java.util.java.util.java.util.List;
 import java.awt.Menu;
 import java.awt.MenuBar;
 import java.awt.MenuItem;
@@ -68,7 +69,7 @@ import java.awt.TrayIcon;
 import java.awt.Window;
 import java.awt.datatransfer.Clipboard;
 import java.awt.dnd.DragGestureEvent;
-import java.awt.dnd.DragGestureListener;
+import java.awt.dnd.DragGesturejava.util.Listener;
 import java.awt.dnd.DragGestureRecognizer;
 import java.awt.dnd.DragSource;
 import java.awt.dnd.InvalidDnDOperationException;
@@ -92,7 +93,7 @@ import java.awt.peer.FontPeer;
 import java.awt.peer.FramePeer;
 import java.awt.peer.KeyboardFocusManagerPeer;
 import java.awt.peer.LabelPeer;
-import java.awt.peer.ListPeer;
+import java.awt.peer.java.util.ListPeer;
 import java.awt.peer.MenuBarPeer;
 import java.awt.peer.MenuItemPeer;
 import java.awt.peer.MenuPeer;
@@ -108,38 +109,50 @@ import java.awt.peer.TextAreaPeer;
 import java.awt.peer.TextFieldPeer;
 import java.awt.peer.TrayIconPeer;
 import java.awt.peer.WindowPeer;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.lang.ref.WeakReference;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.Hashtable;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
 import javax.swing.text.JTextComponent;
+import java.desktop.windows.classes.sun.awt.AWTAccessor;
+import java.desktop.windows.classes.sun.awt.AWTAutoShutdown;
+import java.desktop.windows.classes.sun.awt.AWTPermissions;
+import java.desktop.windows.classes.sun.awt.AppContext;
+import java.desktop.windows.classes.sun.awt.DisplayChangedjava.util.Listener;
+import java.desktop.windows.classes.sun.awt.LightweightFrame;
+import java.desktop.windows.classes.sun.awt.SunToolkit;
+import java.desktop.windows.classes.sun.awt.Win32GraphicsDevice;
+import java.desktop.windows.classes.sun.awt.Win32GraphicsEnvironment;
+import java.desktop.windows.classes.sun.awt.datatransfer.DataTransferer;
+import java.desktop.windows.classes.sun.awt.util.PerformanceLogger;
+import java.desktop.windows.classes.sun.awt.util.ThreadGroupUtils;
+import java.desktop.windows.classes.sun.font.FontManager;
+import java.desktop.windows.classes.sun.font.FontManagerFactory;
+import java.desktop.windows.classes.sun.font.SunFontManager;
+import java.desktop.windows.classes.sun.java2d.d3d.D3DRenderQueue;
+import java.desktop.windows.classes.sun.java2d.opengl.OGLRenderQueue;
+import java.desktop.windows.classes.sun.print.PrintJob2D;
+import java.desktop.windows.classes.sun.util.logging.PlatformLogger;
 
-import sun.awt.AWTAccessor;
-import sun.awt.AWTAutoShutdown;
-import sun.awt.AWTPermissions;
-import sun.awt.AppContext;
-import sun.awt.DisplayChangedListener;
-import sun.awt.LightweightFrame;
-import sun.awt.SunToolkit;
-import sun.awt.Win32GraphicsDevice;
-import sun.awt.Win32GraphicsEnvironment;
-import sun.awt.datatransfer.DataTransferer;
-import sun.awt.util.PerformanceLogger;
-import sun.awt.util.ThreadGroupUtils;
-import sun.font.FontManager;
-import sun.font.FontManagerFactory;
-import sun.font.SunFontManager;
-import sun.java2d.d3d.D3DRenderQueue;
-import sun.java2d.opengl.OGLRenderQueue;
-import sun.print.PrintJob2D;
-import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class WToolkit extends SunToolkit implements Runnable {
 

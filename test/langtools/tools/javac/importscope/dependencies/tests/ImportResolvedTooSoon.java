@@ -21,9 +21,22 @@
 
 package pkg;
 
-import annotations.*;
 
-import static pkg.B.SubInner.Foo;
+import annotations.*;
+import static pkg.B.SubInner.Foo;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @TriggersComplete(of=A.class, at=Phase.HIERARCHY)
 @TriggersComplete(of=B.SubInner.class, at=Phase.IMPORTS)

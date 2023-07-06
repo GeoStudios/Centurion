@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.net.ftp;
+
+package java.base.share.classes.sun.net.ftp;
+
 
 import java.util.Date;
 import java.util.HashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code FtpDirEntry} is a class agregating all the information that the FTP client

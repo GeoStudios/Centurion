@@ -18,16 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.util.stream;
 
-import java.util.Optional;
-import java.util.OptionalDouble;
-import java.util.OptionalInt;
-import java.util.OptionalLong;
-import java.util.Spliterator;
-import java.util.concurrent.CountedCompleter;
-import java.util.function.Predicate;
-import java.util.function.Supplier;
+package java.base.share.classes.java.util.stream;
+
+
+import java.base.share.classes.java.util.Optional;
+import java.base.share.classes.java.util.OptionalDouble;
+import java.base.share.classes.java.util.OptionalInt;
+import java.base.share.classes.java.util.OptionalLong;
+import java.base.share.classes.java.util.Spliterator;
+import java.base.share.classes.java.util.concurrent.CountedCompleter;
+import java.base.share.classes.java.util.function.Predicate;
+import java.base.share.classes.java.util.function.Supplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Factory for instances of a short-circuiting {@code TerminalOp} that searches

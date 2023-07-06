@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.xml.internal.stream.util;
+package java.xml.share.classes.com.sun.xml.internal.stream.util;
+
 
 import java.lang.ref.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Buffer allocator for buffers of sizes 128 B, 2 KB and 8 KB. Includes

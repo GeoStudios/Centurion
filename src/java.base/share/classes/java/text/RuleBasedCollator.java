@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
 
-import java.text.Normalizer;
-import java.util.Vector;
-import java.util.Locale;
+
+import java.base.share.classes.java.text.Normalizer;
+import java.base.share.classes.java.util.Vector;
+import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code RuleBasedCollator} class is a concrete subclass of

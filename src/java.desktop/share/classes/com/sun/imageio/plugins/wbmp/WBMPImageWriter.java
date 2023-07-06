@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.wbmp;
+package java.desktop.share.classes.com.sun.imageio.plugins.wbmp;
+
 
 import java.awt.Point;
 import java.awt.Rectangle;
@@ -31,7 +32,7 @@ import java.awt.image.Raster;
 import java.awt.image.RenderedImage;
 import java.awt.image.SampleModel;
 import java.awt.image.WritableRaster;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import javax.imageio.IIOImage;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.ImageWriteParam;
@@ -39,8 +40,21 @@ import javax.imageio.ImageWriter;
 import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.spi.ImageWriterSpi;
 import javax.imageio.stream.ImageOutputStream;
+import java.desktop.share.classes.com.sun.imageio.plugins.common.I18N;
 
-import com.sun.imageio.plugins.common.I18N;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Java Image IO plugin writer for encoding a binary RenderedImage into

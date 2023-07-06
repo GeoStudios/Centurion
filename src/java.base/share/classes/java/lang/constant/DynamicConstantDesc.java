@@ -18,27 +18,42 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang.constant;
 
-import java.lang.Enum.EnumDesc;
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.VarHandle;
-import java.lang.invoke.VarHandle.VarHandleDesc;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
-import java.util.function.Function;
-import java.util.stream.Stream;
+package java.base.share.classes.java.lang.constant;
 
-import static java.lang.constant.ConstantDescs.CD_Class;
-import static java.lang.constant.ConstantDescs.CD_VarHandle;
-import static java.lang.constant.ConstantDescs.DEFAULT_NAME;
-import static java.lang.constant.ConstantUtils.EMPTY_CONSTANTDESC;
-import static java.lang.constant.ConstantUtils.validateMemberName;
-import static java.util.Objects.requireNonNull;
-import static java.util.stream.Collectors.joining;
+
+import java.base.share.classes.java.lang.Enum.EnumDesc;
+import java.base.share.classes.java.lang.invoke.MethodHandle;
+import java.base.share.classes.java.lang.invoke.MethodHandles;
+import java.base.share.classes.java.lang.invoke.VarHandle;
+import java.base.share.classes.java.lang.invoke.VarHandle.VarHandleDesc;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.function.Function;
+import java.base.share.classes.java.util.stream.Stream;
+import static java.base.share.classes.java.lang.constant.ConstantDescs.CD_Class;.extended
+import static java.base.share.classes.java.lang.constant.ConstantDescs.CD_VarHandle;.extended
+import static java.base.share.classes.java.lang.constant.ConstantDescs.DEFAULT_NAME;.extended
+import static java.base.share.classes.java.lang.constant.ConstantUtils.EMPTY_CONSTANTDESC;.extended
+import static java.base.share.classes.java.lang.constant.ConstantUtils.validateMemberName;.extended
+import static java.base.share.classes.java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
+import static java.base.share.classes.java.util.stream.Collectors.joining;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A <a href="package-summary.html#nominal">nominal descriptor</a> for a

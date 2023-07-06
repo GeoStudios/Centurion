@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.util.resources.provider;
+package jdk.localedata.share.classes.sun.util.resources.provider;
 
-import java.util.Locale;
+
+import java.base.share.classes.java.util.Locale;
 import java.util.ResourceBundle;
-import sun.util.resources.LocaleData;
+import jdk.localedata.share.classes.sun.util.resources.LocaleData;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Service Provider for loading JavaTimeSupplementary resource bundles in jdk.localedata.

@@ -21,12 +21,12 @@
 
 package jdk.jfr.api.metadata.annotations;
 
+
 import java.nio.file.Path;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-
 import jdk.jfr.Category;
 import jdk.jfr.Enabled;
 import jdk.jfr.Event;
@@ -43,6 +43,19 @@ import jdk.test.lib.Asserts;
 import jdk.test.lib.Utils;
 import jdk.test.lib.jfr.EventNames;
 import jdk.test.lib.jfr.Events;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

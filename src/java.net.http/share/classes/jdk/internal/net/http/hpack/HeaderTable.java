@@ -18,14 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.net.http.hpack;
 
-import jdk.internal.net.http.hpack.HPACK.Logger;
+package java.net.http.share.classes.jdk.internal.net.http.hpack;
 
+
+import java.net.http.share.classes.jdk.internal.net.http.hpack.HPACK.Logger;
 import java.util.Deque;
 import java.util.HashMap;
-import java.util.LinkedList;
+import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Adds reverse lookup to SimpleHeaderTable. Separated from SimpleHeaderTable

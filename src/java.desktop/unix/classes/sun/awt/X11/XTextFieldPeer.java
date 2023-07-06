@@ -19,27 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.*;
 import java.awt.peer.*;
 import java.awt.event.*;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.event.TextEvent;
 import javax.swing.text.*;
-import javax.swing.event.DocumentListener;
+import javax.swing.event.Documentjava.util.Listener;
 import javax.swing.event.DocumentEvent;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.InputMap;
 import javax.swing.JPasswordField;
 import javax.swing.SwingUtilities;
 import javax.swing.TransferHandler;
-
 import java.awt.event.MouseEvent;
 import java.awt.event.FocusEvent;
 import java.awt.event.KeyEvent;
-
 import javax.swing.plaf.UIResource;
 import javax.swing.UIDefaults;
 import javax.swing.JTextField;
@@ -47,10 +46,22 @@ import javax.swing.JComponent;
 import javax.swing.border.Border;
 import com.sun.java.swing.plaf.motif.*;
 import java.awt.im.InputMethodRequests;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+import java.desktop.unix.classes.sun.awt.AWTAccessor;
 
-import sun.util.logging.PlatformLogger;
 
-import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class XTextFieldPeer extends XComponentPeer implements TextFieldPeer {
     private static final PlatformLogger log = PlatformLogger.getLogger("sun.awt.X11.XTextField");

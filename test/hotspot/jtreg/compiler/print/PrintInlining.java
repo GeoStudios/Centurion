@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.print;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8022585
@@ -28,7 +45,6 @@
  *
  */
 
-package compiler.print;
 
 public class PrintInlining {
     public static void main(String[] args) {

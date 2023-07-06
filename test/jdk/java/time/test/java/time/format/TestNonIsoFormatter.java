@@ -19,17 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- *
- * @test
- * @bug 8206120
- * @modules jdk.localedata
- */
-
 package test.java.time.format;
 
-import static org.testng.Assert.assertEquals;
 
+import static org.testng.Assert.assertEquals;.extended
 import java.time.LocalDate;
 import java.time.chrono.ChronoLocalDate;
 import java.time.chrono.Chronology;
@@ -47,11 +40,34 @@ import java.time.format.ResolverStyle;
 import java.time.format.TextStyle;
 import java.time.temporal.TemporalAccessor;
 import java.time.temporal.TemporalQueries;
-import java.util.Locale;
-
+import java.base.share.classes.java.util.Locale;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ *
+ * @test
+ * @bug 8206120
+ * @modules jdk.localedata
+ */
+
+
+
+
 
 /**
  * Test DateTimeFormatter with non-ISO chronology.

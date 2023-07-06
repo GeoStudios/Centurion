@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.reflect;
+package java.base.share.classes.java.lang.reflect;
 
-import jdk.internal.access.SharedSecrets;
+
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import sun.reflect.annotation.AnnotationParser;
 import sun.reflect.annotation.TypeAnnotation;
 import sun.reflect.annotation.TypeAnnotationParser;
@@ -29,9 +30,23 @@ import sun.reflect.generics.factory.CoreReflectionFactory;
 import sun.reflect.generics.factory.GenericsFactory;
 import sun.reflect.generics.repository.FieldRepository;
 import sun.reflect.generics.scope.ClassScope;
-import java.lang.annotation.Annotation;
-import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.lang.annotation.Annotation;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code RecordComponent} provides information about, and dynamic access to, a

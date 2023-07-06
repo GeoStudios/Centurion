@@ -19,27 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.lang.module.Configuration;
-import java.lang.module.ModuleDescriptor;
-import java.lang.module.ResolvedModule;
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Deque;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Optional;
-import java.util.Set;
-import java.util.concurrent.CopyOnWriteArrayList;
-import java.util.function.Function;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
+import java.base.share.classes.java.lang.module.Configuration;
+import java.base.share.classes.java.lang.module.ModuleDescriptor;
+import java.base.share.classes.java.lang.module.ResolvedModule;
+import java.base.share.classes.java.util.ArrayDeque;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Collections;
+import java.base.share.classes.java.util.Deque;
+import java.base.share.classes.java.util.HashMap;
+import java.base.share.classes.java.util.HashSet;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Optional;
+import java.base.share.classes.java.util.Set;
+import java.base.share.classes.java.util.concurrent.CopyOnWriteArrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.function.Function;
+import java.base.share.classes.java.util.stream.Collectors;
+import java.base.share.classes.java.util.stream.Stream;
 import jdk.internal.loader.ClassLoaderValue;
 import jdk.internal.loader.Loader;
 import jdk.internal.loader.LoaderPool;
@@ -47,6 +47,19 @@ import jdk.internal.module.ServicesCatalog;
 import jdk.internal.misc.CDS;
 import jdk.internal.vm.annotation.Stable;
 import sun.security.util.SecurityConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

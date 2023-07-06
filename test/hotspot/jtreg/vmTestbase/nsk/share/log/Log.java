@@ -21,6 +21,21 @@
 
 package nsk.share.log;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Log interface.
  */

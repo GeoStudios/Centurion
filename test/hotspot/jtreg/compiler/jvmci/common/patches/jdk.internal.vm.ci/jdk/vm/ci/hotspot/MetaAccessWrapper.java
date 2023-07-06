@@ -21,8 +21,22 @@
 
 package jdk.vm.ci.hotspot;
 
+
 import jdk.vm.ci.meta.JVMCIMetaAccessContext;
 import jdk.vm.ci.meta.ResolvedJavaType;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * A JVMCIMetaAccessContext wrapper class to mark context

@@ -19,9 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.ReferenceType.methods;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // this class will be loaded and then onloaded to check
 // the methods() method of ReferenceType interface for UNLOADED class
 
-package nsk.jdi.ReferenceType.methods;
 
 class methods003b {}

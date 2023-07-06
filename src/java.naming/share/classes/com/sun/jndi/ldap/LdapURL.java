@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap;
+package java.naming.share.classes.com.sun.jndi.ldap;
+
 
 import javax.naming.*;
 import java.net.MalformedURLException;
 import java.io.UnsupportedEncodingException;
 import java.util.StringTokenizer;
-import com.sun.jndi.toolkit.url.Uri;
-import com.sun.jndi.toolkit.url.UrlUtil;
+import java.naming.share.classes.com.sun.jndi.toolkit.url.Uri;
+import java.naming.share.classes.com.sun.jndi.toolkit.url.UrlUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Extract components of an LDAP URL.

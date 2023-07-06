@@ -19,26 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.random;
+package java.base.share.classes.java.util.random;
 
-import java.lang.reflect.Constructor;
-import java.math.BigInteger;
-import java.security.AccessController;
-import java.security.PrivilegedActionException;
-import java.security.PrivilegedExceptionAction;
-import java.util.Objects;
-import java.util.function.Function;
-import java.util.Map;
-import java.util.random.RandomGenerator.ArbitrarilyJumpableGenerator;
-import java.util.random.RandomGenerator.JumpableGenerator;
-import java.util.random.RandomGenerator.LeapableGenerator;
-import java.util.random.RandomGenerator.SplittableGenerator;
-import java.util.random.RandomGenerator.StreamableGenerator;
-import java.util.ServiceLoader;
-import java.util.ServiceLoader.Provider;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+
+import java.base.share.classes.java.lang.reflect.Constructor;
+import java.base.share.classes.java.math.BigInteger;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.PrivilegedActionException;
+import java.base.share.classes.java.security.PrivilegedExceptionAction;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.function.Function;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.random.RandomGenerator.ArbitrarilyJumpableGenerator;
+import java.base.share.classes.java.util.random.RandomGenerator.JumpableGenerator;
+import java.base.share.classes.java.util.random.RandomGenerator.LeapableGenerator;
+import java.base.share.classes.java.util.random.RandomGenerator.SplittableGenerator;
+import java.base.share.classes.java.util.random.RandomGenerator.StreamableGenerator;
+import java.base.share.classes.java.util.ServiceLoader;
+import java.base.share.classes.java.util.ServiceLoader.Provider;
+import java.base.share.classes.java.util.stream.Collectors;
+import java.base.share.classes.java.util.stream.Stream;
 import jdk.internal.util.random.RandomSupport.RandomGeneratorProperties;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is a factory class for generating multiple random number generators

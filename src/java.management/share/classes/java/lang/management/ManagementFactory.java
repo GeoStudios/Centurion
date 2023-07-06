@@ -19,9 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.management;
-import java.io.FilePermission;
-import java.io.IOException;
+package java.management.share.classes.java.lang.management;
+
+
+import java.management.share.classes.java.io.FilePermission;
+import java.management.share.classes.java.io.java.io.java.io.java.io.IOException;
 import javax.management.DynamicMBean;
 import javax.management.MBeanServer;
 import javax.management.MBeanServerConnection;
@@ -33,27 +35,41 @@ import javax.management.InstanceNotFoundException;
 import javax.management.MalformedObjectNameException;
 import javax.management.StandardEmitterMBean;
 import javax.management.StandardMBean;
-import java.security.AccessController;
-import java.security.Permission;
-import java.security.PrivilegedAction;
-import java.security.PrivilegedActionException;
-import java.security.PrivilegedExceptionAction;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-import java.util.ServiceLoader;
-import java.util.Set;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+import java.management.share.classes.java.security.AccessController;
+import java.management.share.classes.java.security.Permission;
+import java.management.share.classes.java.security.PrivilegedAction;
+import java.management.share.classes.java.security.PrivilegedActionException;
+import java.management.share.classes.java.security.PrivilegedExceptionAction;
+import java.management.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.management.share.classes.java.util.Collection;
+import java.management.share.classes.java.util.Collections;
+import java.management.share.classes.java.util.HashMap;
+import java.management.share.classes.java.util.HashSet;
+import java.management.share.classes.java.util.java.util.java.util.java.util.List;
+import java.management.share.classes.java.util.Map;
+import java.management.share.classes.java.util.Optional;
+import java.management.share.classes.java.util.ServiceLoader;
+import java.management.share.classes.java.util.Set;
+import java.management.share.classes.java.util.stream.Collectors;
+import java.management.share.classes.java.util.stream.Stream;
 import javax.management.JMX;
 import sun.management.Util;
 import sun.management.spi.PlatformMBeanProvider;
 import sun.management.spi.PlatformMBeanProvider.PlatformComponent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code ManagementFactory} class is a factory class for getting

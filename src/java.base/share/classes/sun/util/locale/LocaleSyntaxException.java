@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.util.locale;
+package java.base.share.classes.sun.util.locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class LocaleSyntaxException extends Exception {
 

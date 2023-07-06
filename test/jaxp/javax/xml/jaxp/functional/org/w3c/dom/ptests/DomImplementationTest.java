@@ -18,19 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.w3c.dom.ptests;
 
-import static org.testng.Assert.assertEquals;
-import static org.w3c.dom.ptests.DOMTestUtil.createNewDocument;
 
+import static org.testng.Assert.assertEquals;.extended
+import static org.w3c.dom.ptests.DOMTestUtil.createNewDocument;.extended
 import javax.xml.parsers.ParserConfigurationException;
-
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.DOMImplementation;
 import org.w3c.dom.Document;
 import org.w3c.dom.DocumentType;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

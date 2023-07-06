@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.InvalidAlgorithmParameterException;
-import java.security.NoSuchAlgorithmException;
-import java.security.ProviderException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.ProviderException;
 import java.security.spec.AlgorithmParameterSpec;
 import javax.crypto.KeyGenerator;
-import javax.crypto.SecretKey;
-import sun.security.internal.spec.TlsMasterSecretParameterSpec;
-import sun.security.ssl.CipherSuite.HashAlg;
-import static sun.security.ssl.CipherSuite.HashAlg.H_NONE;
+import java.base.share.classes.javax.crypto.SecretKey;
+import java.base.share.classes.sun.security.internal.spec.TlsMasterSecretParameterSpec;
+import java.base.share.classes.sun.security.ssl.CipherSuite.HashAlg;
+import static java.base.share.classes.sun.security.ssl.CipherSuite.HashAlg.H_NONE;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 enum SSLMasterKeyDerivation implements SSLKeyDerivationGenerator {
     SSL30       ("kdf_ssl30"),

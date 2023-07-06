@@ -21,4 +21,19 @@
 
 package pkg1.pkg2.packageToExclude;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class DummyClass {}

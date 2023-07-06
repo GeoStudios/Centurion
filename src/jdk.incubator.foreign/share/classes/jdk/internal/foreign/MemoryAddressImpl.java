@@ -18,15 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.foreign;
 
-import jdk.incubator.foreign.MemoryAddress;
-import jdk.incubator.foreign.MemorySegment;
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.Reflection;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
 
-import jdk.incubator.foreign.ResourceScope;
-import java.util.Objects;
+
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryAddress;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
+import jdk.incubator.foreign.share.classes.jdk.internal.reflect.CallerSensitive;
+import jdk.incubator.foreign.share.classes.jdk.internal.reflect.Reflection;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.ResourceScope;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides an immutable implementation for the {@code MemoryAddress} interface. This class contains information

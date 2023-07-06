@@ -21,6 +21,27 @@
 
 package gc.logging;
 
+
+import java.lang.ref.SoftReference;
+import java.math.BigDecimal;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestPrintReferences
  * @bug 8136991 8186402 8186465 8188245
@@ -32,12 +53,6 @@ package gc.logging;
  * @run driver gc.logging.TestPrintReferences
  */
 
-import java.lang.ref.SoftReference;
-import java.math.BigDecimal;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import java.util.regex.Pattern;
-import java.util.regex.Matcher;
 
 public class TestPrintReferences {
     static String output;

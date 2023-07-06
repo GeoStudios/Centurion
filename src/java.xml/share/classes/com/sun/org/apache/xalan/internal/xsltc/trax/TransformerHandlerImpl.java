@@ -19,35 +19,53 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package com.sun.org.apache.xalan.internal.xsltc.trax;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax;
+
 
 import javax.xml.transform.Result;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.sax.TransformerHandler;
 import javax.xml.transform.dom.DOMResult;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.StripFilter;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom.DOMWSFilter;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom.SAXImpl;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom.XSLTCDTMManager;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime.AbstractTranslet;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMWSFilter;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.SerializationHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
+import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.DTDHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.Locator;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.ext.DeclHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.helpers.DefaultHandler;
 
-import com.sun.org.apache.xalan.internal.xsltc.StripFilter;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
-import com.sun.org.apache.xalan.internal.xsltc.dom.DOMWSFilter;
-import com.sun.org.apache.xalan.internal.xsltc.dom.SAXImpl;
-import com.sun.org.apache.xalan.internal.xsltc.dom.XSLTCDTMManager;
-import com.sun.org.apache.xalan.internal.xsltc.runtime.AbstractTranslet;
-import com.sun.org.apache.xml.internal.dtm.DTMWSFilter;
-import com.sun.org.apache.xml.internal.serializer.SerializationHandler;
 
-import org.xml.sax.Attributes;
-import org.xml.sax.ContentHandler;
-import org.xml.sax.DTDHandler;
-import org.xml.sax.Locator;
-import org.xml.sax.SAXException;
-import org.xml.sax.ext.DeclHandler;
-import org.xml.sax.ext.LexicalHandler;
-import org.xml.sax.helpers.DefaultHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
+
 
 /**
  * Implementation of a JAXP1.1 TransformerHandler

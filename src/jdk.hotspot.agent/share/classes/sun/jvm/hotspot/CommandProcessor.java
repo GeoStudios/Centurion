@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot;
+
 
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
@@ -27,11 +28,11 @@ import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintStream;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -39,68 +40,81 @@ import java.util.Iterator;
 import java.util.Stack;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ci.ciEnv;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code.CodeBlob;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code.CodeCacheVisitor;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code.NMethod;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Address;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.OopHandle;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.classfile.ClassLoaderDataGraph;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.memory.FileMapInfo;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.memory.SystemDictionary;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.memory.Universe;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared.CollectedHeap;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.g1.G1CollectedHeap;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.DefaultHeapVisitor;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.HeapVisitor;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.InstanceKlass;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.Klass;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.Metadata;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.Method;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.MethodData;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.Oop;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.RawHeapVisitor;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.Symbol;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.UnknownOopException;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.opto.Compile;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.opto.InlineTree;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.CompiledVFrame;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.CompilerThread;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.JavaThread;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.JavaVFrame;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.Threads;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VM;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.ObjectHistogram;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.JMap;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.PMap;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.PStack;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.StackTrace;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.SysPropsDumper;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.jcore.ClassDump;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.jcore.ClassFilter;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.jcore.ClassWriter;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.CIntegerType;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.Field;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.Type;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.basic.BasicType;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.classbrowser.HTMLGenerator;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.tree.CTypeTreeNodeAdapter;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.tree.OopTreeNodeAdapter;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.tree.SimpleTreeNode;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.AddressOps;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Assert;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.CompactHashTable;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.HeapProgressThunk;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.LivenessPathElement;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.MethodArray;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.ObjectReader;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.PointerFinder;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.PointerLocation;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.ReversePtrs;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.ReversePtrsAnalysis;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.RobustOopDeterminator;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.SystemDictionaryHelper;
 
-import sun.jvm.hotspot.ci.ciEnv;
-import sun.jvm.hotspot.code.CodeBlob;
-import sun.jvm.hotspot.code.CodeCacheVisitor;
-import sun.jvm.hotspot.code.NMethod;
-import sun.jvm.hotspot.debugger.Address;
-import sun.jvm.hotspot.debugger.OopHandle;
-import sun.jvm.hotspot.classfile.ClassLoaderDataGraph;
-import sun.jvm.hotspot.memory.FileMapInfo;
-import sun.jvm.hotspot.memory.SystemDictionary;
-import sun.jvm.hotspot.memory.Universe;
-import sun.jvm.hotspot.gc.shared.CollectedHeap;
-import sun.jvm.hotspot.gc.g1.G1CollectedHeap;
-import sun.jvm.hotspot.oops.DefaultHeapVisitor;
-import sun.jvm.hotspot.oops.HeapVisitor;
-import sun.jvm.hotspot.oops.InstanceKlass;
-import sun.jvm.hotspot.oops.Klass;
-import sun.jvm.hotspot.oops.Metadata;
-import sun.jvm.hotspot.oops.Method;
-import sun.jvm.hotspot.oops.MethodData;
-import sun.jvm.hotspot.oops.Oop;
-import sun.jvm.hotspot.oops.RawHeapVisitor;
-import sun.jvm.hotspot.oops.Symbol;
-import sun.jvm.hotspot.oops.UnknownOopException;
-import sun.jvm.hotspot.opto.Compile;
-import sun.jvm.hotspot.opto.InlineTree;
-import sun.jvm.hotspot.runtime.CompiledVFrame;
-import sun.jvm.hotspot.runtime.CompilerThread;
-import sun.jvm.hotspot.runtime.JavaThread;
-import sun.jvm.hotspot.runtime.JavaVFrame;
-import sun.jvm.hotspot.runtime.Threads;
-import sun.jvm.hotspot.runtime.VM;
-import sun.jvm.hotspot.tools.ObjectHistogram;
-import sun.jvm.hotspot.tools.JMap;
-import sun.jvm.hotspot.tools.PMap;
-import sun.jvm.hotspot.tools.PStack;
-import sun.jvm.hotspot.tools.StackTrace;
-import sun.jvm.hotspot.tools.SysPropsDumper;
-import sun.jvm.hotspot.tools.jcore.ClassDump;
-import sun.jvm.hotspot.tools.jcore.ClassFilter;
-import sun.jvm.hotspot.tools.jcore.ClassWriter;
-import sun.jvm.hotspot.types.CIntegerType;
-import sun.jvm.hotspot.types.Field;
-import sun.jvm.hotspot.types.Type;
-import sun.jvm.hotspot.types.basic.BasicType;
-import sun.jvm.hotspot.ui.classbrowser.HTMLGenerator;
-import sun.jvm.hotspot.ui.tree.CTypeTreeNodeAdapter;
-import sun.jvm.hotspot.ui.tree.OopTreeNodeAdapter;
-import sun.jvm.hotspot.ui.tree.SimpleTreeNode;
-import sun.jvm.hotspot.utilities.AddressOps;
-import sun.jvm.hotspot.utilities.Assert;
-import sun.jvm.hotspot.utilities.CompactHashTable;
-import sun.jvm.hotspot.utilities.HeapProgressThunk;
-import sun.jvm.hotspot.utilities.LivenessPathElement;
-import sun.jvm.hotspot.utilities.MethodArray;
-import sun.jvm.hotspot.utilities.ObjectReader;
-import sun.jvm.hotspot.utilities.PointerFinder;
-import sun.jvm.hotspot.utilities.PointerLocation;
-import sun.jvm.hotspot.utilities.ReversePtrs;
-import sun.jvm.hotspot.utilities.ReversePtrsAnalysis;
-import sun.jvm.hotspot.utilities.RobustOopDeterminator;
-import sun.jvm.hotspot.utilities.SystemDictionaryHelper;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CommandProcessor {
 
@@ -677,7 +691,7 @@ public class CommandProcessor {
                           });
                     for (int i = 0; i < keys.length; i++) {
                         out.print("  ");
-                        out.println(((Command)commands.get(keys[i])).usage);
+                        out.println(commands.get(keys[i]).usage);
                     }
                 }
             }

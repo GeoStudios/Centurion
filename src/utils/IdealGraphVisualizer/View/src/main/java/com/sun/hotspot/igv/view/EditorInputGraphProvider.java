@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.view;
 
-import com.sun.hotspot.igv.data.InputGraph;
-import com.sun.hotspot.igv.data.InputNode;
-import com.sun.hotspot.igv.data.services.InputGraphProvider;
-import java.util.Set;
+package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view;
+
+
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.InputGraph;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.InputNode;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.services.InputGraphProvider;
+import utils.IdealGraphVisualizer.View.src.main.java.util.Set;
 import org.openide.util.lookup.ServiceProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

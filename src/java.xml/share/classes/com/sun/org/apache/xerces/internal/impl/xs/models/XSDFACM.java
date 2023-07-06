@@ -19,23 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.xs.models;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.models;
 
-import com.sun.org.apache.xerces.internal.impl.dtd.models.CMNode;
-import com.sun.org.apache.xerces.internal.impl.dtd.models.CMStateSet;
-import com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
-import com.sun.org.apache.xerces.internal.impl.xs.SubstitutionGroupHandler;
-import com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaException;
-import com.sun.org.apache.xerces.internal.impl.xs.XSConstraints;
-import com.sun.org.apache.xerces.internal.impl.xs.XSElementDecl;
-import com.sun.org.apache.xerces.internal.impl.xs.XSModelGroupImpl;
-import com.sun.org.apache.xerces.internal.impl.xs.XSParticleDecl;
-import com.sun.org.apache.xerces.internal.impl.xs.XSWildcardDecl;
-import com.sun.org.apache.xerces.internal.xni.QName;
-import java.util.ArrayList;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.CMNode;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.CMStateSet;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SubstitutionGroupHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSConstraints;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSElementDecl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSModelGroupImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSParticleDecl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSWildcardDecl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * DFAContentModel is the implementation of XSCMValidator that does

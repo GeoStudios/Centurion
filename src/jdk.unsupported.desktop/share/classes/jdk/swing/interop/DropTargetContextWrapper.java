@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.swing.interop;
+package jdk.unsupported.desktop.share.classes.jdk.swing.interop;
+
 
 import java.awt.dnd.peer.DropTargetContextPeer;
 import java.awt.dnd.DropTarget;
@@ -28,6 +29,20 @@ import java.awt.dnd.DropTargetContext;
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
 import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides a wrapper over inner class DropTargetContextPeerProxy

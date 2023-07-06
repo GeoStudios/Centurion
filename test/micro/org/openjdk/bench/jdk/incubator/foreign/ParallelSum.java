@@ -21,6 +21,7 @@
 
 package org.openjdk.bench.jdk.incubator.foreign;
 
+
 import jdk.incubator.foreign.MemoryLayout;
 import jdk.incubator.foreign.MemoryLayouts;
 import jdk.incubator.foreign.ResourceScope;
@@ -36,11 +37,10 @@ import org.openjdk.jmh.annotations.Setup;
 import org.openjdk.jmh.annotations.State;
 import org.openjdk.jmh.annotations.TearDown;
 import org.openjdk.jmh.annotations.Warmup;
-
 import jdk.incubator.foreign.MemorySegment;
 import java.lang.invoke.VarHandle;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Optional;
 import java.util.Spliterator;
 import java.util.concurrent.CountedCompleter;
@@ -48,9 +48,21 @@ import java.util.concurrent.RecursiveTask;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Predicate;
 import java.util.function.ToIntFunction;
+import static jdk.incubator.foreign.MemoryLayout.PathElement.sequenceElement;.extended
+import static jdk.incubator.foreign.MemoryLayouts.JAVA_INT;.extended
 
-import static jdk.incubator.foreign.MemoryLayout.PathElement.sequenceElement;
-import static jdk.incubator.foreign.MemoryLayouts.JAVA_INT;
+
+
+
+
+
+
+
+
+
+
+
+
 
 @BenchmarkMode(Mode.AverageTime)
 @Warmup(iterations = 5, time = 500, timeUnit = TimeUnit.MILLISECONDS)

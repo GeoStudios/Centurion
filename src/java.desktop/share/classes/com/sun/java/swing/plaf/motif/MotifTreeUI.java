@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.motif;
+package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Graphics;
-import java.io.Serializable;
 
+import java.desktop.share.classes.com.sun.java.awt.Color;
+import java.desktop.share.classes.com.sun.java.awt.Component;
+import java.desktop.share.classes.com.sun.java.awt.Graphics;
+import java.desktop.share.classes.com.sun.java.io.Serializable;
 import javax.swing.Icon;
 import javax.swing.JComponent;
 import javax.swing.UIManager;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicTreeUI;
 import javax.swing.tree.TreeCellRenderer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Motif rendition of the tree component.

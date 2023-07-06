@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xpath.internal;
+package java.xml.share.classes.com.sun.org.apache.xpath.internal;
+
 
 import javax.xml.transform.TransformerException;
-import org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements an exception object that all

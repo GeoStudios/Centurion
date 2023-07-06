@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.security.jgss.krb5.internal;
+
+package java.security.jgss.share.classes.sun.security.jgss.krb5.internal;
+
 
 import org.ietf.jgss.ChannelBinding;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * TLS Channel Binding wrapper class to determine internal

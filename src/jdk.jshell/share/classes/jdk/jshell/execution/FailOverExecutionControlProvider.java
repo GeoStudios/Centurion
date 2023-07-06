@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jshell.execution;
+package jdk.jshell.share.classes.jdk.jshell.execution;
+
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -27,9 +28,23 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import jdk.jshell.spi.ExecutionControl;
-import jdk.jshell.spi.ExecutionControlProvider;
-import jdk.jshell.spi.ExecutionEnv;
+import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionControl;
+import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionControlProvider;
+import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionEnv;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Tries other providers in sequence until one works.

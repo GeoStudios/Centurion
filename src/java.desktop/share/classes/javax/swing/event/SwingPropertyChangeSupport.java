@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.event;
+package java.desktop.share.classes.javax.swing.event;
+
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeSupport;
 import java.io.Serial;
+import java.desktop.share.classes.javax.swing.SwingUtilities;
 
-import javax.swing.SwingUtilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This subclass of {@code java.beans.PropertyChangeSupport} is almost

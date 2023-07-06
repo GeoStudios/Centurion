@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.hotspot.agent.share.classes.com.sun.java.swing.ui;
 
-package com.sun.java.swing.ui;
 
-import java.awt.*;
+import jdk.hotspot.agent.share.classes.com.sun.java.awt.*;
 import javax.swing.ImageIcon;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SplashScreen extends Window
 {

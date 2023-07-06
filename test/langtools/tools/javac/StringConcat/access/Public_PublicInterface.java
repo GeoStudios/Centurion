@@ -21,6 +21,21 @@
 
 package p1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Public_PublicInterface implements PublicInterface {
     public String toString() {
         return "passed";

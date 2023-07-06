@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text.html;
+
+package java.desktop.share.classes.javax.swing.text.html;
+
 
 import java.awt.Polygon;
 import java.io.Serializable;
 import java.util.StringTokenizer;
 import java.util.Vector;
-import javax.swing.text.AttributeSet;
+import java.desktop.share.classes.javax.swing.text.AttributeSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Map is used to represent a map element that is part of an HTML document.

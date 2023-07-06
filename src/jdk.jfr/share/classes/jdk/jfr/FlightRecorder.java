@@ -19,29 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr;
+package jdk.jfr.share.classes.jdk.jfr;
 
-import static jdk.jfr.internal.LogLevel.DEBUG;
-import static jdk.jfr.internal.LogLevel.INFO;
-import static jdk.jfr.internal.LogTag.JFR;
 
+import static jdk.jfr.share.classes.jdk.jfr.internal.LogLevel.DEBUG;.extended
+import static jdk.jfr.share.classes.jdk.jfr.internal.LogLevel.INFO;.extended
+import static jdk.jfr.share.classes.jdk.jfr.internal.LogTag.JFR;.extended
 import java.security.AccessControlContext;
 import java.security.AccessController;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
-import java.util.List;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
+import jdk.jfr.share.classes.jdk.jfr.internal.JVM;
+import jdk.jfr.share.classes.jdk.jfr.internal.JVMSupport;
+import jdk.jfr.share.classes.jdk.jfr.internal.Logger;
+import jdk.jfr.share.classes.jdk.jfr.internal.MetadataRepository;
+import jdk.jfr.share.classes.jdk.jfr.internal.Options;
+import jdk.jfr.share.classes.jdk.jfr.internal.PlatformRecorder;
+import jdk.jfr.share.classes.jdk.jfr.internal.PlatformRecording;
+import jdk.jfr.share.classes.jdk.jfr.internal.Repository;
+import jdk.jfr.share.classes.jdk.jfr.internal.RequestEngine;
+import jdk.jfr.share.classes.jdk.jfr.internal.Utils;
 
-import jdk.jfr.internal.JVM;
-import jdk.jfr.internal.JVMSupport;
-import jdk.jfr.internal.Logger;
-import jdk.jfr.internal.MetadataRepository;
-import jdk.jfr.internal.Options;
-import jdk.jfr.internal.PlatformRecorder;
-import jdk.jfr.internal.PlatformRecording;
-import jdk.jfr.internal.Repository;
-import jdk.jfr.internal.RequestEngine;
-import jdk.jfr.internal.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class for accessing, controlling, and managing Flight Recorder.

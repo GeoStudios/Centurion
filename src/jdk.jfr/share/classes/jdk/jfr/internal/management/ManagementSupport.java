@@ -19,37 +19,51 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.management;
+package jdk.jfr.share.classes.jdk.jfr.internal.management;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.function.Consumer;
 import java.security.AccessControlContext;
+import jdk.jfr.share.classes.jdk.jfr.Configuration;
+import jdk.jfr.share.classes.jdk.jfr.EventSettings;
+import jdk.jfr.share.classes.jdk.jfr.EventType;
+import jdk.jfr.share.classes.jdk.jfr.Recording;
+import jdk.jfr.share.classes.jdk.jfr.consumer.EventStream;
+import jdk.jfr.share.classes.jdk.jfr.internal.JVMSupport;
+import jdk.jfr.share.classes.jdk.jfr.internal.LogLevel;
+import jdk.jfr.share.classes.jdk.jfr.internal.LogTag;
+import jdk.jfr.share.classes.jdk.jfr.internal.Logger;
+import jdk.jfr.share.classes.jdk.jfr.internal.MetadataRepository;
+import jdk.jfr.share.classes.jdk.jfr.internal.PlatformRecording;
+import jdk.jfr.share.classes.jdk.jfr.internal.PrivateAccess;
+import jdk.jfr.share.classes.jdk.jfr.internal.SecuritySupport.SafePath;
+import jdk.jfr.share.classes.jdk.jfr.internal.Utils;
+import jdk.jfr.share.classes.jdk.jfr.internal.WriteableUserPath;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.EventDirectoryStream;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.FileAccess;
+import jdk.jfr.share.classes.jdk.jfr.internal.instrument.JDKEvents;
 
-import jdk.jfr.Configuration;
-import jdk.jfr.EventSettings;
-import jdk.jfr.EventType;
-import jdk.jfr.Recording;
-import jdk.jfr.consumer.EventStream;
-import jdk.jfr.internal.JVMSupport;
-import jdk.jfr.internal.LogLevel;
-import jdk.jfr.internal.LogTag;
-import jdk.jfr.internal.Logger;
-import jdk.jfr.internal.MetadataRepository;
-import jdk.jfr.internal.PlatformRecording;
-import jdk.jfr.internal.PrivateAccess;
-import jdk.jfr.internal.SecuritySupport.SafePath;
-import jdk.jfr.internal.Utils;
-import jdk.jfr.internal.WriteableUserPath;
-import jdk.jfr.internal.consumer.EventDirectoryStream;
-import jdk.jfr.internal.consumer.FileAccess;
-import jdk.jfr.internal.instrument.JDKEvents;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The management API in module jdk.management.jfr should be built on top of the

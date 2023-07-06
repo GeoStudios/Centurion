@@ -21,6 +21,21 @@
 
 package annotations;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public @interface TriggersCompleteRepeat {
     TriggersComplete[] value();
 }

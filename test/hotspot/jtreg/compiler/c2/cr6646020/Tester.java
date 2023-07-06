@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2.cr6646020;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6646020
@@ -27,7 +44,6 @@
  * @run main compiler.c2.cr6646020.Tester
  */
 
-package compiler.c2.cr6646020;
 
 /* Complexity upper bound: 3361 ops */
 

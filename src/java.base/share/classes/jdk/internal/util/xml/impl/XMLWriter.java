@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.util.xml.impl;
+package java.base.share.classes.jdk.internal.util.xml.impl;
+
 
 import java.io.BufferedOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.UnsupportedEncodingException;
 import java.io.Writer;
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetEncoder;
-import jdk.internal.util.xml.XMLStreamException;
+import java.base.share.classes.jdk.internal.util.xml.XMLStreamException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

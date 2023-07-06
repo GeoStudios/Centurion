@@ -19,15 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.smartcardio;
+package java.smartcardio.share.classes.sun.security.smartcardio;
+
 
 import java.util.*;
 import java.lang.ref.*;
-
 import javax.smartcardio.*;
-import static javax.smartcardio.CardTerminals.State.*;
+import static javax.smartcardio.CardTerminals.State.*;.extended
+import static java.smartcardio.share.classes.sun.security.smartcardio.PCSC.*;.extended
 
-import static sun.security.smartcardio.PCSC.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * TerminalFactorySpi implementation class.
@@ -214,11 +227,10 @@ final class PCSCTerminals extends CardTerminals {
         String[] names = new String[terminals.size()];
         int i = 0;
         for (CardTerminal terminal : terminals) {
-            if (!(terminal instanceof TerminalImpl)) {
+            if (!(terminal instanceof TerminalImpl impl)) {
                 throw new IllegalArgumentException
                     ("Invalid terminal type: " + terminal.getClass().getName());
             }
-            TerminalImpl impl = (TerminalImpl)terminal;
             names[i++] = impl.name;
         }
 

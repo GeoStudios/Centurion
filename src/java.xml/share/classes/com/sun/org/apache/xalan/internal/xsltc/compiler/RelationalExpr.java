@@ -19,27 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.compiler;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-import com.sun.org.apache.bcel.internal.generic.BranchInstruction;
-import com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
-import com.sun.org.apache.bcel.internal.generic.INVOKESTATIC;
-import com.sun.org.apache.bcel.internal.generic.InstructionList;
-import com.sun.org.apache.bcel.internal.generic.PUSH;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.BooleanType;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ClassGenerator;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.IntType;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.MethodGenerator;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.MethodType;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.NodeSetType;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.NodeType;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.RealType;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ReferenceType;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ResultTreeType;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.TypeCheckError;
-import com.sun.org.apache.xalan.internal.xsltc.runtime.Operators;
+
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.BranchInstruction;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.INVOKESTATIC;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Instructionjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.PUSH;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.BooleanType;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ClassGenerator;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.IntType;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.MethodGenerator;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.MethodType;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.NodeSetType;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.NodeType;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.RealType;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ReferenceType;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ResultTreeType;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.TypeCheckError;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime.Operators;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @LastModified: Oct 2017

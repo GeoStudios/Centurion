@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jdi.connect.spi;
+package jdk.jdi.share.classes.com.sun.jdi.connect.spi;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This exception may be thrown as a result of an asynchronous

@@ -19,14 +19,14 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdeps;
+package jdk.jdeps.share.classes.com.sun.tools.jdeps;
 
-import com.sun.tools.jdeps.Analyzer.Type;
-import static com.sun.tools.jdeps.Analyzer.Type.*;
-import static com.sun.tools.jdeps.JdepsWriter.*;
-import static java.util.stream.Collectors.*;
 
-import java.io.IOException;
+import jdk.jdeps.share.classes.com.sun.tools.jdeps.Analyzer.Type;
+import static jdk.jdeps.share.classes.com.sun.tools.jdeps.Analyzer.Type.*;.extended
+import static jdk.jdeps.share.classes.com.sun.tools.jdeps.JdepsWriter.*;.extended
+import static java.util.stream.Collectors.*;.extended
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.lang.module.ResolutionException;
 import java.nio.file.Files;
@@ -36,6 +36,20 @@ import java.text.MessageFormat;
 import java.util.*;
 import java.util.jar.JarFile;
 import java.util.regex.Pattern;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation for the jdeps tool for static class dependency analysis.

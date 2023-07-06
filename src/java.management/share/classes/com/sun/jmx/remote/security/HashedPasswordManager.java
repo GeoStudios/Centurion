@@ -18,10 +18,11 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.jmx.remote.security;
 
-import com.sun.jmx.remote.util.ClassLogger;
+package java.management.share.classes.com.sun.jmx.remote.security;
 
+
+import java.management.share.classes.com.sun.jmx.remote.util.ClassLogger;
 import java.io.*;
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
@@ -29,13 +30,27 @@ import java.nio.channels.FileLock;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Base64;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicBoolean;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * HashedPasswordManager loads passwords from the password file and optionally

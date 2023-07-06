@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.rmi;
+package java.rmi.share.classes.java.rmi;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The <code>Remote</code> interface serves to identify interfaces whose

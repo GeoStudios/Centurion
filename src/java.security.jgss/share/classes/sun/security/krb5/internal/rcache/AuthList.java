@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal.rcache;
+package java.security.jgss.share.classes.sun.security.krb5.internal.rcache;
 
-import sun.security.krb5.internal.Krb5;
 
+import java.security.jgss.share.classes.sun.security.krb5.internal.Krb5;
 import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.ListIterator;
-import sun.security.krb5.internal.KerberosTime;
-import sun.security.krb5.internal.KrbApErrException;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.ListIterator;
+import java.security.jgss.share.classes.sun.security.krb5.internal.KerberosTime;
+import java.security.jgss.share.classes.sun.security.krb5.internal.KrbApErrException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides an efficient caching mechanism to store AuthTimeWithHash

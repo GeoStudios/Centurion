@@ -18,18 +18,20 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.plaf.nimbus;
+
+package java.desktop.share.classes.javax.swing.plaf.nimbus;
+
 
 import java.awt.BorderLayout;
-import static java.awt.BorderLayout.*;
-import javax.swing.JComponent;
-import javax.swing.UIDefaults;
-import javax.swing.UIManager;
-import javax.swing.plaf.synth.Region;
-import javax.swing.plaf.synth.SynthLookAndFeel;
-import javax.swing.plaf.synth.SynthStyle;
-import javax.swing.plaf.synth.SynthStyleFactory;
-import javax.swing.plaf.UIResource;
+import static java.awt.BorderLayout.*;.extended
+import java.desktop.share.classes.javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.UIDefaults;
+import java.desktop.share.classes.javax.swing.UIManager;
+import java.desktop.share.classes.javax.swing.plaf.synth.Region;
+import java.desktop.share.classes.javax.swing.plaf.synth.SynthLookAndFeel;
+import java.desktop.share.classes.javax.swing.plaf.synth.SynthStyle;
+import java.desktop.share.classes.javax.swing.plaf.synth.SynthStyleFactory;
+import java.desktop.share.classes.javax.swing.plaf.UIResource;
 import java.security.AccessController;
 import java.awt.Color;
 import java.awt.Container;
@@ -37,19 +39,33 @@ import java.awt.Graphics2D;
 import java.awt.LayoutManager;
 import java.awt.image.BufferedImage;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.util.*;
-import javax.swing.GrayFilter;
-import javax.swing.Icon;
-import javax.swing.JToolBar;
-import javax.swing.border.TitledBorder;
-import javax.swing.plaf.BorderUIResource;
-import javax.swing.plaf.ColorUIResource;
+import java.desktop.share.classes.javax.swing.GrayFilter;
+import java.desktop.share.classes.javax.swing.Icon;
+import java.desktop.share.classes.javax.swing.JToolBar;
+import java.desktop.share.classes.javax.swing.border.TitledBorder;
+import java.desktop.share.classes.javax.swing.plaf.BorderUIResource;
+import java.desktop.share.classes.javax.swing.plaf.ColorUIResource;
 import sun.swing.ImageIconUIResource;
-import javax.swing.plaf.synth.SynthIcon;
+import java.desktop.share.classes.javax.swing.plaf.synth.SynthIcon;
 import sun.swing.plaf.GTKKeybindings;
 import sun.swing.plaf.WindowsKeybindings;
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>The NimbusLookAndFeel class.</p>

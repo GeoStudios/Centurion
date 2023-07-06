@@ -18,37 +18,53 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.tools.javac.comp;
 
-import com.sun.tools.javac.code.Flags;
-import com.sun.tools.javac.code.Symbol;
-import com.sun.tools.javac.code.Symbol.TypeSymbol;
-import com.sun.tools.javac.code.Symtab;
-import com.sun.tools.javac.code.Type;
-import com.sun.tools.javac.code.Type.ArrayType;
-import com.sun.tools.javac.code.Type.ErrorType;
-import com.sun.tools.javac.code.TypeTag;
-import com.sun.tools.javac.code.Types;
-import com.sun.tools.javac.comp.Attr.ResultInfo;
-import com.sun.tools.javac.comp.DeferredAttr.AttrMode;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.JCTree.JCBlock;
-import com.sun.tools.javac.tree.JCTree.JCClassDecl;
-import com.sun.tools.javac.tree.JCTree.JCErroneous;
-import com.sun.tools.javac.tree.JCTree.JCExpression;
-import com.sun.tools.javac.tree.JCTree.JCLambda;
-import com.sun.tools.javac.tree.JCTree.JCMethodInvocation;
-import com.sun.tools.javac.tree.JCTree.JCReturn;
-import com.sun.tools.javac.tree.JCTree.JCVariableDecl;
-import com.sun.tools.javac.tree.JCTree.Tag;
-import com.sun.tools.javac.tree.TreeInfo;
-import com.sun.tools.javac.tree.TreeMaker;
-import com.sun.tools.javac.tree.TreeTranslator;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.JCDiagnostic;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.ListBuffer;
-import com.sun.tools.javac.util.Names;
+package jdk.compiler.share.classes.com.sun.tools.javac.comp;
+
+
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Flags;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.TypeSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symtab;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.ArrayType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.ErrorType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Types;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Attr.ResultInfo;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.DeferredAttr.AttrMode;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCBlock;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCClassDecl;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCErroneous;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCExpression;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCLambda;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCMethodInvocation;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCReturn;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCVariableDecl;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeInfo;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeMaker;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeTranslator;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.ListBuffer;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Names;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This is an error recovery addon for Attr. Currently, it recovers
  *  method invocations with lambdas, that require type inference.

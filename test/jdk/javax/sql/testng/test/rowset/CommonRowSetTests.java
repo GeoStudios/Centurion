@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.rowset;
+
 
 import java.io.InputStream;
 import java.io.Reader;
@@ -36,10 +38,10 @@ import java.sql.Types;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Calendar;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import javax.sql.RowSet;
 import javax.sql.rowset.BaseRowSet;
@@ -48,8 +50,8 @@ import javax.sql.rowset.RowSetFactory;
 import javax.sql.rowset.RowSetMetaDataImpl;
 import javax.sql.rowset.RowSetProvider;
 import org.testng.Assert;
-import static org.testng.Assert.assertNull;
-import static org.testng.Assert.assertTrue;
+import static org.testng.Assert.assertNull;.extended
+import static org.testng.Assert.assertTrue;.extended
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import util.BaseTest;
@@ -57,6 +59,19 @@ import util.StubBlob;
 import util.StubClob;
 import util.StubNClob;
 import util.StubSQLXML;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class CommonRowSetTests extends BaseTest {
 

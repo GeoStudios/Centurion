@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.opengl;
+package java.desktop.macosx.classes.sun.java2d.opengl;
+
 
 import java.awt.GraphicsConfiguration;
 import java.awt.Transparency;
 import java.awt.image.ColorModel;
+import java.desktop.macosx.classes.sun.awt.image.SunVolatileImage;
+import java.desktop.macosx.classes.sun.awt.image.VolatileSurfaceManager;
+import java.desktop.macosx.classes.sun.java2d.SurfaceData;
+import static java.desktop.macosx.classes.sun.java2d.opengl.OGLContext.OGLContextCaps.CAPS_EXT_FBOBJECT;.extended
 
-import sun.awt.image.SunVolatileImage;
-import sun.awt.image.VolatileSurfaceManager;
-import sun.java2d.SurfaceData;
 
-import static sun.java2d.opengl.OGLContext.OGLContextCaps.CAPS_EXT_FBOBJECT;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CGLVolatileSurfaceManager extends VolatileSurfaceManager {
 

@@ -19,24 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.metal;
+package java.desktop.macosx.classes.sun.java2d.metal;
 
-import sun.awt.CGraphicsConfig;
-import sun.awt.CGraphicsDevice;
-import sun.awt.image.OffScreenImage;
-import sun.awt.image.SunVolatileImage;
-import sun.awt.image.SurfaceManager;
-import sun.java2d.Disposer;
-import sun.java2d.DisposerRecord;
-import sun.java2d.Surface;
-import sun.java2d.SurfaceData;
-import sun.java2d.pipe.hw.AccelGraphicsConfig;
-import sun.java2d.pipe.hw.AccelSurface;
-import sun.java2d.pipe.hw.AccelTypedVolatileImage;
-import sun.java2d.pipe.hw.ContextCapabilities;
-import sun.lwawt.LWComponentPeer;
-import sun.lwawt.macosx.CFRetainedResource;
 
+import java.desktop.macosx.classes.sun.awt.CGraphicsConfig;
+import java.desktop.macosx.classes.sun.awt.CGraphicsDevice;
+import java.desktop.macosx.classes.sun.awt.image.OffScreenImage;
+import java.desktop.macosx.classes.sun.awt.image.SunVolatileImage;
+import java.desktop.macosx.classes.sun.awt.image.SurfaceManager;
+import java.desktop.macosx.classes.sun.java2d.Disposer;
+import java.desktop.macosx.classes.sun.java2d.DisposerRecord;
+import java.desktop.macosx.classes.sun.java2d.Surface;
+import java.desktop.macosx.classes.sun.java2d.SurfaceData;
+import java.desktop.macosx.classes.sun.java2d.pipe.hw.AccelGraphicsConfig;
+import java.desktop.macosx.classes.sun.java2d.pipe.hw.AccelSurface;
+import java.desktop.macosx.classes.sun.java2d.pipe.hw.AccelTypedVolatileImage;
+import java.desktop.macosx.classes.sun.java2d.pipe.hw.ContextCapabilities;
+import java.desktop.macosx.classes.sun.lwawt.LWComponentPeer;
+import java.desktop.macosx.classes.sun.lwawt.macosx.CFRetainedResource;
 import java.awt.AWTException;
 import java.awt.BufferCapabilities;
 import java.awt.Component;
@@ -46,7 +46,6 @@ import java.awt.Image;
 import java.awt.ImageCapabilities;
 import java.awt.Rectangle;
 import java.awt.Transparency;
-
 import java.awt.color.ColorSpace;
 import java.awt.image.BufferedImage;
 import java.awt.image.ColorModel;
@@ -57,13 +56,25 @@ import java.awt.image.WritableRaster;
 import java.io.File;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
+import static java.desktop.macosx.classes.sun.java2d.metal.MTLContext.MTLContextCaps.CAPS_EXT_GRAD_SHADER;.extended
+import static java.desktop.macosx.classes.sun.java2d.pipe.hw.AccelSurface.TEXTURE;.extended
+import static java.desktop.macosx.classes.sun.java2d.pipe.hw.AccelSurface.RT_TEXTURE;.extended
+import static java.desktop.macosx.classes.sun.java2d.pipe.hw.ContextCapabilities.*;.extended
+import static java.desktop.macosx.classes.sun.java2d.metal.MTLContext.MTLContextCaps.CAPS_EXT_BIOP_SHADER;.extended
 
-import static sun.java2d.metal.MTLContext.MTLContextCaps.CAPS_EXT_GRAD_SHADER;
-import static sun.java2d.pipe.hw.AccelSurface.TEXTURE;
-import static sun.java2d.pipe.hw.AccelSurface.RT_TEXTURE;
-import static sun.java2d.pipe.hw.ContextCapabilities.*;
 
-import static sun.java2d.metal.MTLContext.MTLContextCaps.CAPS_EXT_BIOP_SHADER;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class MTLGraphicsConfig extends CGraphicsConfig
         implements AccelGraphicsConfig, SurfaceManager.ProxiedGraphicsConfig

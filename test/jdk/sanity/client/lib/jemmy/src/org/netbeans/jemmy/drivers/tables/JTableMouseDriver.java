@@ -18,13 +18,13 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.drivers.tables;
+
 
 import java.awt.Point;
 import java.awt.event.KeyEvent;
-
 import javax.swing.text.JTextComponent;
-
 import org.netbeans.jemmy.QueueTool;
 import org.netbeans.jemmy.drivers.DriverManager;
 import org.netbeans.jemmy.drivers.LightSupportiveDriver;
@@ -34,6 +34,19 @@ import org.netbeans.jemmy.operators.ComponentOperator;
 import org.netbeans.jemmy.operators.JTableOperator;
 import org.netbeans.jemmy.operators.JTextComponentOperator;
 import org.netbeans.jemmy.operators.Operator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * TableDriver for javax.swing.JTableDriver component type.

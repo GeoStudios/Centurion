@@ -18,41 +18,50 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.awt;
 
-import java.awt.event.FocusEvent;
-import java.awt.event.InputEvent;
-import java.awt.event.KeyEvent;
-import java.awt.event.WindowEvent;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.peer.KeyboardFocusManagerPeer;
-import java.awt.peer.LightweightPeer;
 
-import java.beans.PropertyChangeListener;
-import java.beans.PropertyChangeSupport;
-import java.beans.PropertyVetoException;
-import java.beans.VetoableChangeListener;
-import java.beans.VetoableChangeSupport;
-
-import java.lang.ref.WeakReference;
-
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.Set;
-import java.util.StringTokenizer;
-import java.util.WeakHashMap;
-
+import java.desktop.share.classes.java.awt.event.FocusEvent;
+import java.desktop.share.classes.java.awt.event.InputEvent;
+import java.desktop.share.classes.java.awt.event.KeyEvent;
+import java.desktop.share.classes.java.awt.event.WindowEvent;
+import java.desktop.share.classes.java.awt.peer.KeyboardFocusManagerPeer;
+import java.desktop.share.classes.java.awt.peer.LightweightPeer;
+import java.desktop.share.classes.java.beans.PropertyChangejava.util.Listener;
+import java.desktop.share.classes.java.beans.PropertyChangeSupport;
+import java.desktop.share.classes.java.beans.PropertyVetoException;
+import java.desktop.share.classes.java.beans.VetoableChangejava.util.Listener;
+import java.desktop.share.classes.java.beans.VetoableChangeSupport;
+import java.desktop.share.classes.java.lang.ref.WeakReference;
+import java.desktop.share.classes.java.security.AccessController;
+import java.desktop.share.classes.java.security.PrivilegedAction;
+import java.desktop.share.classes.java.util.Collections;
+import java.desktop.share.classes.java.util.HashSet;
+import java.desktop.share.classes.java.util.Iterator;
+import java.desktop.share.classes.java.util.Linkedjava.util.java.util.java.util.List;
+import java.desktop.share.classes.java.util.Set;
+import java.desktop.share.classes.java.util.StringTokenizer;
+import java.desktop.share.classes.java.util.WeakHashMap;
 import sun.util.logging.PlatformLogger;
-
 import sun.awt.AppContext;
 import sun.awt.SunToolkit;
 import sun.awt.KeyboardFocusManagerPeerProvider;
 import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The KeyboardFocusManager is responsible for managing the active and focused

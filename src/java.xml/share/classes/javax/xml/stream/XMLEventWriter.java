@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.stream;
+package java.xml.share.classes.javax.xml.stream;
 
-import javax.xml.stream.events.*;
-import javax.xml.stream.util.XMLEventConsumer;
-import javax.xml.namespace.NamespaceContext;
+
+import java.xml.share.classes.javax.xml.stream.events.*;
+import java.xml.share.classes.javax.xml.stream.util.XMLEventConsumer;
+import java.xml.share.classes.javax.xml.namespace.NamespaceContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

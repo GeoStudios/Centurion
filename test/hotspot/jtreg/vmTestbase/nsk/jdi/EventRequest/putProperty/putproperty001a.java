@@ -21,9 +21,23 @@
 
 package nsk.jdi.EventRequest.putProperty;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the putproperty001 JDI test.

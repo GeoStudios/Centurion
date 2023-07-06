@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.dynalink.share.classes.jdk.dynalink.linker;
+
+
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodType;
+import java.util.java.util.java.util.java.util.List;
+import jdk.dynalink.share.classes.jdk.dynalink.DynamicLinkerFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -26,12 +48,8 @@
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-package jdk.dynalink.linker;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodType;
-import java.util.List;
-import jdk.dynalink.DynamicLinkerFactory;
+
 
 /**
  * The base interface for language-specific dynamic linkers. Such linkers

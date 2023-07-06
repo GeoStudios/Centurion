@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.lang.model;
+package java.compiler.share.classes.javax.lang.model;
+
 
 import java.lang.annotation.*;
-import java.util.List;
-import javax.lang.model.element.*;
-import javax.lang.model.type.*;
+import java.util.java.util.java.util.java.util.List;
+import java.compiler.share.classes.javax.lang.model.element.*;
+import java.compiler.share.classes.javax.lang.model.type.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a construct that can be annotated.

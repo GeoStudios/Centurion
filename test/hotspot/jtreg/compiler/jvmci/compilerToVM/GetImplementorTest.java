@@ -19,21 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * @test
- * @bug 8136421
- * @requires vm.jvmci
- * @library / /test/lib/
- * @library ../common/patches
- * @modules java.base/jdk.internal.misc
- * @modules jdk.internal.vm.ci/jdk.vm.ci.hotspot
- * @build jdk.internal.vm.ci/jdk.vm.ci.hotspot.CompilerToVMHelper
- * @run main/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI
- *                   -XX:-UseJVMCICompiler
- *                   compiler.jvmci.compilerToVM.GetImplementorTest
- */
-
 package compiler.jvmci.compilerToVM;
+
 
 import compiler.jvmci.common.testcases.AbstractClass;
 import compiler.jvmci.common.testcases.AbstractClassExtender;
@@ -50,10 +37,39 @@ import jdk.test.lib.Asserts;
 import jdk.test.lib.Utils;
 import jdk.vm.ci.hotspot.CompilerToVMHelper;
 import jdk.vm.ci.hotspot.HotSpotResolvedObjectType;
-
 import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * @test
+ * @bug 8136421
+ * @requires vm.jvmci
+ * @library / /test/lib/
+ * @library ../common/patches
+ * @modules java.base/jdk.internal.misc
+ * @modules jdk.internal.vm.ci/jdk.vm.ci.hotspot
+ * @build jdk.internal.vm.ci/jdk.vm.ci.hotspot.CompilerToVMHelper
+ * @run main/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI
+ *                   -XX:-UseJVMCICompiler
+ *                   compiler.jvmci.compilerToVM.GetImplementorTest
+ */
+
+
+
 
 public class GetImplementorTest {
     public static void main(String args[]) {

@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.net.http;
+package java.net.http.share.classes.java.net.http;
 
-import java.io.IOException;
-import java.net.URI;
-import java.nio.ByteBuffer;
-import java.time.Duration;
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.CompletionStage;
+
+import java.net.http.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.net.http.share.classes.java.net.URI;
+import java.net.http.share.classes.java.nio.ByteBuffer;
+import java.net.http.share.classes.java.time.Duration;
+import java.net.http.share.classes.java.util.concurrent.CompletableFuture;
+import java.net.http.share.classes.java.util.concurrent.CompletionStage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A WebSocket Client.

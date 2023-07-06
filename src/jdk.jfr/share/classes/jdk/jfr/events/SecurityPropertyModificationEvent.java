@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.events;
+package jdk.jfr.share.classes.jdk.jfr.events;
 
-import jdk.jfr.*;
-import jdk.jfr.internal.MirrorEvent;
+
+import jdk.jfr.share.classes.jdk.jfr.*;
+import jdk.jfr.share.classes.jdk.jfr.internal.MirrorEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @Category({"Java Development Kit", "Security"})
 @Label("Security Property Modification")

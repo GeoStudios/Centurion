@@ -19,31 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.classfile;
+package jdk.jdeps.share.classes.com.sun.tools.classfile;
+
 
 import java.util.Deque;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.regex.Pattern;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Dependency.Filter;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Dependency.Finder;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Dependency.Location;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Type.ArrayType;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Type.ClassSigType;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Type.ClassType;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Type.MethodType;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Type.SimpleType;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Type.TypeParamType;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Type.WildcardType;
+import static jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.*;.extended
 
-import com.sun.tools.classfile.Dependency.Filter;
-import com.sun.tools.classfile.Dependency.Finder;
-import com.sun.tools.classfile.Dependency.Location;
-import com.sun.tools.classfile.Type.ArrayType;
-import com.sun.tools.classfile.Type.ClassSigType;
-import com.sun.tools.classfile.Type.ClassType;
-import com.sun.tools.classfile.Type.MethodType;
-import com.sun.tools.classfile.Type.SimpleType;
-import com.sun.tools.classfile.Type.TypeParamType;
-import com.sun.tools.classfile.Type.WildcardType;
 
-import static com.sun.tools.classfile.ConstantPool.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A framework for determining {@link Dependency dependencies} between class files.

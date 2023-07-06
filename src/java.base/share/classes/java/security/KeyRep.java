@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
-import java.io.*;
-import java.util.Locale;
 
-import java.security.spec.PKCS8EncodedKeySpec;
-import java.security.spec.X509EncodedKeySpec;
-import java.security.spec.InvalidKeySpecException;
-
+import java.base.share.classes.java.io.*;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.security.spec.PKCS8EncodedKeySpec;
+import java.base.share.classes.java.security.spec.X509EncodedKeySpec;
+import java.base.share.classes.java.security.spec.InvalidKeySpecException;
 import javax.crypto.SecretKeyFactory;
-import javax.crypto.spec.SecretKeySpec;
+import java.base.share.classes.javax.crypto.spec.SecretKeySpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Standardized representation for serialized Key objects.

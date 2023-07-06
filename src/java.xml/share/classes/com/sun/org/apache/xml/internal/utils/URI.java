@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.utils;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.Serializable;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLErrorResources;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLMessages;
+import java.base.share.classes.java.util.Objects;
 
-import com.sun.org.apache.xml.internal.res.XMLErrorResources;
-import com.sun.org.apache.xml.internal.res.XMLMessages;
-import java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class to represent a Uniform Resource Identifier (URI). This class

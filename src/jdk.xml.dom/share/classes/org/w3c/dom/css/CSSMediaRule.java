@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.w3c.dom.css;
+package jdk.xml.dom.share.classes.org.w3c.dom.css;
 
-import org.w3c.dom.DOMException;
-import org.w3c.dom.stylesheets.MediaList;
+
+import jdk.xml.dom.share.classes.org.w3c.dom.DOMException;
+import jdk.xml.dom.share.classes.org.w3c.dom.stylesheets.Mediajava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  The <code>CSSMediaRule</code> interface represents a @media rule in a CSS

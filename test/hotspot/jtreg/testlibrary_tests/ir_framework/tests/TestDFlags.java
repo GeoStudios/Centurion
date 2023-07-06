@@ -21,8 +21,23 @@
 
 package ir_framework.tests;
 
+
 import compiler.lib.ir_framework.Test;
 import compiler.lib.ir_framework.TestFramework;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @requires vm.debug == true & vm.compMode != "Xint" & vm.compiler2.enabled & vm.flagless

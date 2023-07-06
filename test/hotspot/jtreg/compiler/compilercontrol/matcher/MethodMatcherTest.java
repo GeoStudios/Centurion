@@ -19,6 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.compilercontrol.matcher;
+
+
+import compiler.compilercontrol.share.method.MethodDescriptor;
+import compiler.compilercontrol.share.method.MethodGenerator;
+import compiler.compilercontrol.share.pool.PoolHelper;
+import jdk.test.lib.util.Pair;
+import sun.hotspot.WhiteBox;
+import java.lang.reflect.Executable;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.util.concurrent.Callable;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key randomness
@@ -33,20 +61,8 @@
  *           -XX:+WhiteBoxAPI compiler.compilercontrol.matcher.MethodMatcherTest
  */
 
-package compiler.compilercontrol.matcher;
 
-import compiler.compilercontrol.share.method.MethodDescriptor;
-import compiler.compilercontrol.share.method.MethodGenerator;
-import compiler.compilercontrol.share.pool.PoolHelper;
-import jdk.test.lib.util.Pair;
-import sun.hotspot.WhiteBox;
 
-import java.lang.reflect.Executable;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.Callable;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class MethodMatcherTest {
     private static final WhiteBox WB = WhiteBox.getWhiteBox();

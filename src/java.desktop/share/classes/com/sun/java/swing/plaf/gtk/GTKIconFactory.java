@@ -18,21 +18,37 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.java.swing.plaf.gtk;
+
+package java.desktop.share.classes.com.sun.java.swing.plaf.gtk;
+
 
 import javax.swing.plaf.synth.SynthIcon;
-import java.util.*;
+import java.desktop.share.classes.com.sun.java.util.*;
 import javax.swing.plaf.synth.*;
-import java.awt.*;
-import java.awt.image.BufferedImage;
-import java.lang.reflect.*;
+import java.desktop.share.classes.com.sun.java.awt.*;
+import java.desktop.share.classes.com.sun.java.awt.image.BufferedImage;
+import java.desktop.share.classes.com.sun.java.lang.reflect.*;
 import javax.swing.*;
 import javax.swing.plaf.*;
-import sun.swing.plaf.synth.*;
-import com.sun.java.swing.plaf.gtk.GTKConstants.ArrowType;
-import com.sun.java.swing.plaf.gtk.GTKConstants.ExpanderStyle;
-import com.sun.java.swing.plaf.gtk.GTKConstants.Orientation;
-import com.sun.java.swing.plaf.gtk.GTKConstants.ShadowType;
+import java.desktop.share.classes.com.sun.swing.plaf.synth.*;
+import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKConstants.ArrowType;
+import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKConstants.ExpanderStyle;
+import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKConstants.Orientation;
+import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKConstants.ShadowType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

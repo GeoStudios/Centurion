@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package _enum.def;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 5051679
@@ -28,7 +45,6 @@
  * @compile Def.java
  */
 
-package _enum.def;
 
 enum Def {
     red;

@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.awt.windows;
+
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.awt.Color;
 import java.awt.Component;
@@ -27,9 +29,22 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.GraphicsConfiguration;
 import java.awt.peer.CanvasPeer;
+import java.desktop.windows.classes.sun.awt.PaintEventDispatcher;
+import java.desktop.windows.classes.sun.awt.SunToolkit;
 
-import sun.awt.PaintEventDispatcher;
-import sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class WCanvasPeer extends WComponentPeer implements CanvasPeer {
 

@@ -19,15 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package runtime.invokedynamic;
+
+
+import java.lang.invoke.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8188145
  * @compile MethodHandleConstantHelper.jasm
  * @run main runtime.invokedynamic.MethodHandleConstantTest
  */
-package runtime.invokedynamic;
 
-import java.lang.invoke.*;
 
 public class MethodHandleConstantTest {
     static final MethodHandles.Lookup LOOKUP = MethodHandles.lookup();

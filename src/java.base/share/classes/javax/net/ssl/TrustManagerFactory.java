@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.net.ssl;
+package java.base.share.classes.javax.net.ssl;
+
 
 import java.security.Security;
-import java.security.*;
-import java.util.Objects;
-
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.java.util.Objects;
 import sun.security.jca.GetInstance;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class acts as a factory for trust managers based on a

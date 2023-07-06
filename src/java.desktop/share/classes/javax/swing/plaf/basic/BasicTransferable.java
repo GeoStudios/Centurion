@@ -18,13 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.plaf.basic;
+
+package java.desktop.share.classes.javax.swing.plaf.basic;
+
 
 import sun.datatransfer.DataFlavorUtil;
-
 import java.io.*;
 import java.awt.datatransfer.*;
-import javax.swing.plaf.UIResource;
+import java.desktop.share.classes.javax.swing.plaf.UIResource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A transferable implementation for the default data transfer of some Swing

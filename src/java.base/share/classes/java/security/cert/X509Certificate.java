@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.security.cert;
+package java.base.share.classes.java.security.cert;
 
-import java.math.BigInteger;
-import java.security.*;
-import java.security.spec.*;
-import java.util.Collection;
-import java.util.Date;
-import java.util.List;
+
+import java.base.share.classes.java.math.BigInteger;
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.java.security.spec.*;
+import java.base.share.classes.java.util.Collection;
+import java.base.share.classes.java.util.Date;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
 import javax.security.auth.x500.X500Principal;
-
 import sun.security.x509.X509CertImpl;
 import sun.security.util.SignatureUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>

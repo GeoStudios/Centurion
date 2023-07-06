@@ -21,11 +21,25 @@
 
 package compiler.compilercontrol.share.scenario;
 
-import java.util.function.Function;
-import java.util.List;
-import java.util.stream.Collectors;
 
-import static compiler.compilercontrol.share.method.MethodDescriptor.Separator.COMMA;
+import java.util.function.Function;
+import java.util.java.util.java.util.java.util.List;
+import java.util.stream.Collectors;
+import static compiler.compilercontrol.share.method.MethodDescriptor.Separator.COMMA;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Creates VM options by adding CompileCommand prefix to commands
  */

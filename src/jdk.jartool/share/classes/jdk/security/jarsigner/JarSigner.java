@@ -19,30 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.security.jarsigner;
+package jdk.jartool.share.classes.jdk.security.jarsigner;
+
 
 import com.sun.jarsigner.ContentSigner;
 import com.sun.jarsigner.ContentSignerParameters;
-import jdk.internal.access.JavaUtilZipFileAccess;
-import jdk.internal.access.SharedSecrets;
+import jdk.jartool.share.classes.jdk.internal.access.JavaUtilZipFileAccess;
+import jdk.jartool.share.classes.jdk.internal.access.SharedSecrets;
 import sun.security.pkcs.PKCS7;
 import sun.security.pkcs.PKCS9Attribute;
 import sun.security.pkcs.PKCS9Attributes;
 import sun.security.timestamp.HttpTimestamper;
-import sun.security.tools.PathList;
+import sun.security.tools.Pathjava.util.java.util.java.util.List;
 import sun.security.util.Event;
 import sun.security.util.ManifestDigester;
 import sun.security.util.SignatureFileVerifier;
 import sun.security.util.SignatureUtil;
 import sun.security.x509.AlgorithmId;
-
 import java.io.*;
 import java.lang.reflect.InvocationTargetException;
-import java.net.SocketTimeoutException;
+import java.net.java.net.SocketTimeoutException;
 import java.net.URI;
 import java.net.URL;
 import java.net.URLClassLoader;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.cert.CertPath;
 import java.security.cert.Certificate;
 import java.security.cert.CertificateException;
@@ -58,6 +58,20 @@ import java.util.jar.Manifest;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 import java.util.zip.ZipOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An immutable utility class to sign a jar file.

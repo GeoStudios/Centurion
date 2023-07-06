@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jvmti.scenarios.hotswap.HS104.hs104t002;
+
+
+import nsk.share.jvmti.RedefineAgent;
+import nsk.share.Wicket;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -48,10 +67,7 @@
  *      nsk.jvmti.scenarios.hotswap.HS104.hs104t002.hs104t002
  */
 
-package nsk.jvmti.scenarios.hotswap.HS104.hs104t002;
 
-import nsk.share.jvmti.RedefineAgent;
-import nsk.share.Wicket;
 
 /**
  * This class extends <b>RedefineAgent</b>.

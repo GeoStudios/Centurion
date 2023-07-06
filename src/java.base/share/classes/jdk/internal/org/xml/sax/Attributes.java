@@ -19,13 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.jdk.internal.org.xml.sax;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Attributes.java - attribute list with Namespace support
 // http://www.saxproject.org
 // Written by David Megginson
 // NO WARRANTY!  This class is in the public domain.
 // $Id: Attributes.java,v 1.2 2004/11/03 22:44:51 jsuttor Exp $
 
-package jdk.internal.org.xml.sax;
+
 
 
 /**

@@ -18,20 +18,21 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d.demos.Composite;
+
+package demo.share.jfc.J2Ddemo.java2d.demos.Composite;
 
 
-import static java.awt.Color.BLACK;
-import static java.awt.Color.BLUE;
-import static java.awt.Color.CYAN;
-import static java.awt.Color.GREEN;
-import static java.awt.Color.LIGHT_GRAY;
-import static java.awt.Color.MAGENTA;
-import static java.awt.Color.ORANGE;
-import static java.awt.Color.PINK;
-import static java.awt.Color.RED;
-import static java.awt.Color.WHITE;
-import static java.awt.Color.YELLOW;
+import static java.awt.Color.BLACK;.extended
+import static java.awt.Color.BLUE;.extended
+import static java.awt.Color.CYAN;.extended
+import static java.awt.Color.GREEN;.extended
+import static java.awt.Color.LIGHT_GRAY;.extended
+import static java.awt.Color.MAGENTA;.extended
+import static java.awt.Color.ORANGE;.extended
+import static java.awt.Color.PINK;.extended
+import static java.awt.Color.RED;.extended
+import static java.awt.Color.WHITE;.extended
+import static java.awt.Color.YELLOW;.extended
 import java.awt.AlphaComposite;
 import java.awt.BasicStroke;
 import java.awt.BorderLayout;
@@ -55,10 +56,10 @@ import java.awt.geom.QuadCurve2D;
 import java.awt.geom.Rectangle2D;
 import java.awt.geom.RoundRectangle2D;
 import java.awt.image.BufferedImage;
-import java.util.ArrayList;
-import java.util.List;
-import java2d.AnimatingControlsSurface;
-import java2d.CustomControls;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import demo.share.jfc.J2Ddemo.java2d.AnimatingControlsSurface;
+import demo.share.jfc.J2Ddemo.java2d.CustomControls;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.JSlider;
@@ -67,7 +68,20 @@ import javax.swing.SwingConstants;
 import javax.swing.border.EtchedBorder;
 import javax.swing.border.TitledBorder;
 import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
+import javax.swing.event.Changejava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

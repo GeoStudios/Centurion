@@ -19,12 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/**
- * Demonstrate Java Remote object storage and retrieval using an LDAP directory.
- * The RMI object is supplied by a third-party module.
- */
-
 package test;
+
 
 import java.io.*;
 import java.net.*;
@@ -33,8 +29,28 @@ import java.rmi.server.UnicastRemoteObject;
 import java.util.*;
 import javax.naming.*;
 import javax.naming.directory.*;
-
 import org.example.hello.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Demonstrate Java Remote object storage and retrieval using an LDAP directory.
+ * The RMI object is supplied by a third-party module.
+ */
+
+
+
 
 public class StoreRemote {
 

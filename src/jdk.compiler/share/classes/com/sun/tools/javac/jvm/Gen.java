@@ -19,37 +19,49 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.jvm;
+package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
+
 
 import java.util.HashMap;
 import java.util.Map;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.PoolConstant.LoadableConstant;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeInfo.PosKind;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Attribute.TypeCompound;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.VarSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.Code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.Items.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.EndPosTable;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ByteCodes.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.CRTFlags.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.*;.extended
 
-import com.sun.tools.javac.jvm.PoolConstant.LoadableConstant;
-import com.sun.tools.javac.tree.TreeInfo.PosKind;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.Attribute.TypeCompound;
-import com.sun.tools.javac.code.Symbol.VarSymbol;
-import com.sun.tools.javac.comp.*;
-import com.sun.tools.javac.tree.*;
 
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.code.Type.*;
-import com.sun.tools.javac.jvm.Code.*;
-import com.sun.tools.javac.jvm.Items.*;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.tree.EndPosTable;
-import com.sun.tools.javac.tree.JCTree.*;
 
-import static com.sun.tools.javac.code.Flags.*;
-import static com.sun.tools.javac.code.Kinds.Kind.*;
-import static com.sun.tools.javac.code.TypeTag.*;
-import static com.sun.tools.javac.jvm.ByteCodes.*;
-import static com.sun.tools.javac.jvm.CRTFlags.*;
-import static com.sun.tools.javac.main.Option.*;
-import static com.sun.tools.javac.tree.JCTree.Tag.*;
+
+
+
+
+
+
+
+
+
+
+
 
 /** This pass maps flat Java (i.e. without inner classes) to bytecodes.
  *

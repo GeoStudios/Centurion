@@ -19,28 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ec;
+package jdk.crypto.ec.share.classes.sun.security.ec;
 
-import sun.security.ec.point.AffinePoint;
-import sun.security.ec.point.Point;
-import sun.security.util.ArrayUtil;
-import sun.security.util.CurveDB;
-import sun.security.util.NamedCurve;
-import sun.security.util.math.ImmutableIntegerModuloP;
-import sun.security.util.math.IntegerFieldModuloP;
-import sun.security.util.math.MutableIntegerModuloP;
-import sun.security.util.math.SmallValue;
 
+import jdk.crypto.ec.share.classes.sun.security.ec.point.AffinePoint;
+import jdk.crypto.ec.share.classes.sun.security.ec.point.Point;
+import jdk.crypto.ec.share.classes.sun.security.util.ArrayUtil;
+import jdk.crypto.ec.share.classes.sun.security.util.CurveDB;
+import jdk.crypto.ec.share.classes.sun.security.util.NamedCurve;
+import jdk.crypto.ec.share.classes.sun.security.util.math.ImmutableIntegerModuloP;
+import jdk.crypto.ec.share.classes.sun.security.util.math.IntegerFieldModuloP;
+import jdk.crypto.ec.share.classes.sun.security.util.math.MutableIntegerModuloP;
+import jdk.crypto.ec.share.classes.sun.security.util.math.SmallValue;
 import javax.crypto.KeyAgreementSpi;
-import javax.crypto.SecretKey;
-import javax.crypto.ShortBufferException;
-import javax.crypto.spec.SecretKeySpec;
+import java.base.share.classes.javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.ShortBufferException;
+import java.base.share.classes.javax.crypto.spec.SecretKeySpec;
 import java.math.BigInteger;
 import java.security.InvalidAlgorithmParameterException;
-import java.security.InvalidKeyException;
-import java.security.Key;
-import java.security.NoSuchAlgorithmException;
-import java.security.PrivateKey;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.Key;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.PrivateKey;
 import java.security.SecureRandom;
 import java.security.interfaces.ECPrivateKey;
 import java.security.interfaces.ECPublicKey;
@@ -48,6 +48,20 @@ import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.ECParameterSpec;
 import java.security.spec.EllipticCurve;
 import java.util.Optional;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * KeyAgreement implementation for ECDH.

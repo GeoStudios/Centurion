@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.util;
 
-import java.util.function.IntConsumer;
-import java.util.stream.Collector;
+package java.base.share.classes.java.util;
+
+
+import java.base.share.classes.java.util.function.IntConsumer;
+import java.base.share.classes.java.util.stream.Collector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A state object for collecting statistics such as count, min, max, sum, and

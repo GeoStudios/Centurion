@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.windows;
+package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-import java.awt.Graphics;
-import java.awt.Window;
 
+import java.desktop.windows.classes.com.sun.java.awt.Graphics;
+import java.desktop.windows.classes.com.sun.java.awt.Window;
 import javax.swing.JWindow;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class which tags a window with a particular semantic usage,

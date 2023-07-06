@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codecache.jmx;
+
+
+import sun.hotspot.code.BlobType;
+import java.lang.management.MemoryPoolMXBean;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test UsageThresholdNotExceededTest
  * @summary verifying that usage threshold not exceeded while allocating less
@@ -41,11 +60,8 @@
  *     compiler.codecache.jmx.UsageThresholdNotExceededTest
  */
 
-package compiler.codecache.jmx;
 
-import sun.hotspot.code.BlobType;
 
-import java.lang.management.MemoryPoolMXBean;
 
 public class UsageThresholdNotExceededTest {
 

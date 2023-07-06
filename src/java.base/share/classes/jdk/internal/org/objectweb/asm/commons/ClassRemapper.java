@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.org.objectweb.asm.commons;
+package java.base.share.classes.jdk.internal.org.objectweb.asm.commons;
 
-import java.util.List;
-import jdk.internal.org.objectweb.asm.AnnotationVisitor;
-import jdk.internal.org.objectweb.asm.Attribute;
-import jdk.internal.org.objectweb.asm.ClassVisitor;
-import jdk.internal.org.objectweb.asm.FieldVisitor;
-import jdk.internal.org.objectweb.asm.MethodVisitor;
-import jdk.internal.org.objectweb.asm.ModuleVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.RecordComponentVisitor;
-import jdk.internal.org.objectweb.asm.TypePath;
+
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.AnnotationVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Attribute;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ClassVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.FieldVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.MethodVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ModuleVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.RecordComponentVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.TypePath;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@link ClassVisitor} that remaps types with a {@link Remapper}.

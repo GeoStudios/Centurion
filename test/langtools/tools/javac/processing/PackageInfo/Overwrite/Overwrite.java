@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package p;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8193037
@@ -29,6 +46,5 @@
  * @compile package-info.java
  * @compile -processor Processor Overwrite.java
  */
-package p;
 
 public class Overwrite {}

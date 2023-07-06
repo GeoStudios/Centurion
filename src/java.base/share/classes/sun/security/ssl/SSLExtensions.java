@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.text.MessageFormat;
 import java.util.*;
+import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
+import java.base.share.classes.sun.security.util.HexDumpEncoder;
 
-import sun.security.ssl.SSLHandshake.HandshakeMessage;
-import sun.security.util.HexDumpEncoder;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * SSL/(D)TLS extensions in a handshake message.

@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.xml.sax.helpers;
+package java.xml.share.classes.org.xml.sax.helpers;
+
 
 import java.lang.reflect.InvocationTargetException;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Create a new instance of a class by name.

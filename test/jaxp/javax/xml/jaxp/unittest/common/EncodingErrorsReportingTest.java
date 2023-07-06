@@ -19,6 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package common;
+
+
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.InputStream;
+import java.util.function.Function;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.SAXParser;
+import javax.xml.parsers.SAXParserFactory;
+import org.xml.sax.EntityResolver;
+import org.xml.sax.InputSource;
+import org.xml.sax.SAXException;
+import org.xml.sax.SAXParseException;
+import org.xml.sax.XMLReader;
+import org.xml.sax.helpers.DefaultHandler;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.java.util.Listeners;
+import org.testng.annotations.Test;
+import org.testng.Assert;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @bug 8038043
  * @library /javax/xml/jaxp/libs /javax/xml/jaxp/unittest
@@ -27,29 +63,9 @@
  * @summary Verifies that parsers reports location of wrong UTF-8 symbols in
  *          XML files parsed and included via xi:include element
  */
-package common;
 
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.function.Function;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.SAXParser;
-import javax.xml.parsers.SAXParserFactory;
 
-import org.xml.sax.EntityResolver;
-import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
-import org.xml.sax.SAXParseException;
-import org.xml.sax.XMLReader;
-import org.xml.sax.helpers.DefaultHandler;
 
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
-import org.testng.Assert;
 
 @Listeners({jaxp.library.BasePolicy.class})
 public class EncodingErrorsReportingTest implements EntityResolver {

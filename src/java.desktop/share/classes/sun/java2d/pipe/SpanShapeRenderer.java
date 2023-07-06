@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.pipe;
+package java.desktop.share.classes.sun.java2d.pipe;
 
-import sun.java2d.SunGraphics2D;
-import sun.java2d.SurfaceData;
+
+import java.desktop.share.classes.sun.java2d.SunGraphics2D;
+import java.desktop.share.classes.sun.java2d.SurfaceData;
 import java.awt.Rectangle;
 import java.awt.Shape;
 import java.awt.BasicStroke;
 import java.awt.geom.PathIterator;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Rectangle2D;
-import sun.awt.SunHints;
+import java.desktop.share.classes.sun.awt.SunHints;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to convert raw geometry into a span iterator

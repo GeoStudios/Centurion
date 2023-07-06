@@ -21,6 +21,37 @@
 
 package gc.stress;
 
+
+import java.lang.management.ManagementFactory;
+import java.lang.management.MemoryMXBean;
+import java.time.Duration;
+import java.time.Instant;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Collections;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.concurrent.ConcurrentLinkedQueue;
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
+import com.sun.management.ThreadMXBean;
+import jdk.test.lib.Asserts;
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.process.OutputAnalyzer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestStressUncommit
  * @key stress
@@ -31,23 +62,7 @@ package gc.stress;
  * @run driver/timeout=1300 gc.stress.TestStressG1Uncommit
  */
 
-import java.lang.management.ManagementFactory;
-import java.lang.management.MemoryMXBean;
-import java.time.Duration;
-import java.time.Instant;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.concurrent.ConcurrentLinkedQueue;
-import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
-import com.sun.management.ThreadMXBean;
 
-import jdk.test.lib.Asserts;
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.process.OutputAnalyzer;
 
 public class TestStressG1Uncommit {
     public static void main(String[] args) throws Exception {

@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.xr;
+package java.desktop.unix.classes.sun.java2d.xr;
 
-import static java.lang.Math.min;
-import static java.lang.Math.max;
-import static sun.java2d.xr.MaskTileManager.MASK_SIZE;
+
+import static java.lang.Math.min;.extended
+import static java.lang.Math.max;.extended
+import static java.desktop.unix.classes.sun.java2d.xr.MaskTileManager.MASK_SIZE;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements region tracking, used by the tiled-mask code.

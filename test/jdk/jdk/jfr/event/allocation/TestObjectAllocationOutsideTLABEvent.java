@@ -21,13 +21,26 @@
 
 package jdk.jfr.event.allocation;
 
-import static java.lang.Math.floor;
 
+import static java.lang.Math.floor;.extended
 import jdk.jfr.Recording;
 import jdk.jfr.consumer.RecordedEvent;
 import jdk.test.lib.jfr.EventNames;
 import jdk.test.lib.jfr.Events;
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

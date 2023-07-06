@@ -19,26 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.lang.invoke;
+
+
+import org.junit.Test;
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+import java.lang.invoke.WrongMethodTypeException;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.Collections;
+import java.base.share.classes.java.util.Objects;
+import static org.junit.Assert.assertEquals;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @summary High arity invocations
  * @compile BigArityTest.java
  * @run junit/othervm/timeout=2500 -XX:+IgnoreUnrecognizedVMOptions -XX:-VerifyDependencies -esa -DBigArityTest.ITERATION_COUNT=1 test.java.lang.invoke.BigArityTest
  */
 
-package test.java.lang.invoke;
 
-import org.junit.Test;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodType;
-import java.lang.invoke.WrongMethodTypeException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Objects;
 
-import static org.junit.Assert.assertEquals;
 
 public class BigArityTest {
 

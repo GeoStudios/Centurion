@@ -18,10 +18,12 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.rmi.server;
+
+package java.rmi.share.classes.sun.rmi.server;
+
 
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.DataOutputStream;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationHandler;
@@ -34,7 +36,7 @@ import java.rmi.StubNotFoundException;
 import java.rmi.registry.Registry;
 import java.rmi.server.LogStream;
 import java.rmi.server.ObjID;
-import java.rmi.server.RMIClientSocketFactory;
+import java.rmi.server.RMIClientjava.net.SocketFactory;
 import java.rmi.server.RemoteObjectInvocationHandler;
 import java.rmi.server.RemoteRef;
 import java.rmi.server.RemoteStub;
@@ -43,16 +45,30 @@ import java.rmi.server.SkeletonNotFoundException;
 import java.security.AccessController;
 import java.security.MessageDigest;
 import java.security.DigestOutputStream;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.PrivilegedAction;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Map;
 import java.util.WeakHashMap;
-import sun.rmi.registry.RegistryImpl;
-import sun.rmi.runtime.Log;
-import sun.rmi.transport.LiveRef;
-import sun.rmi.transport.tcp.TCPEndpoint;
+import java.rmi.share.classes.sun.rmi.registry.RegistryImpl;
+import java.rmi.share.classes.sun.rmi.runtime.Log;
+import java.rmi.share.classes.sun.rmi.transport.LiveRef;
+import java.rmi.share.classes.sun.rmi.transport.tcp.TCPEndpoint;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A utility class with static methods for creating stubs/proxies and

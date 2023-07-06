@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.print.attribute.standard;
+package java.desktop.share.classes.javax.print.attribute.standard;
+
 
 import java.io.File;
 import java.io.Serial;
 import java.net.URI;
+import java.desktop.share.classes.javax.print.attribute.Attribute;
+import java.desktop.share.classes.javax.print.attribute.PrintJobAttribute;
+import java.desktop.share.classes.javax.print.attribute.PrintRequestAttribute;
+import java.desktop.share.classes.javax.print.attribute.URISyntax;
 
-import javax.print.attribute.Attribute;
-import javax.print.attribute.PrintJobAttribute;
-import javax.print.attribute.PrintRequestAttribute;
-import javax.print.attribute.URISyntax;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class {@code Destination} is a printing attribute class, a {@code URI}, that

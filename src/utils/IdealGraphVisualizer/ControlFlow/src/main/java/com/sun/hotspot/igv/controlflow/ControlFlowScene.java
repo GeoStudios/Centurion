@@ -18,20 +18,22 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.controlflow;
 
-import com.sun.hotspot.igv.data.InputBlockEdge;
-import com.sun.hotspot.igv.data.InputBlock;
-import com.sun.hotspot.igv.data.InputGraph;
-import com.sun.hotspot.igv.data.services.InputGraphProvider;
-import com.sun.hotspot.igv.data.InputNode;
-import com.sun.hotspot.igv.util.LookupHistory;
-import java.awt.Color;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Set;
+package utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.controlflow;
+
+
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.data.InputBlockEdge;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.data.InputBlock;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.data.InputGraph;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.data.services.InputGraphProvider;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.data.InputNode;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.util.LookupHistory;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.awt.Color;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.awt.Point;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.awt.Rectangle;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.util.Arrayjava.util.java.util.java.util.List;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.util.HashSet;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.util.Set;
 import javax.swing.BorderFactory;
 import org.netbeans.api.visual.action.ActionFactory;
 import org.netbeans.api.visual.action.MoveProvider;
@@ -49,6 +51,20 @@ import org.netbeans.api.visual.graph.layout.GraphLayout;
 import org.netbeans.api.visual.layout.LayoutFactory;
 import org.netbeans.api.visual.layout.SceneLayout;
 import org.netbeans.api.visual.widget.ConnectionWidget;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

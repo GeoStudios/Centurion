@@ -21,11 +21,25 @@
 
 package jdk.test.lib.dcmd;
 
+
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Arrays;
-import java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Executes Diagnostic Commands on the target VM (specified by pid) using the jcmd tool and its ability to read

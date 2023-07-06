@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.main;
+package jdk.compiler.share.classes.com.sun.tools.javac.main;
+
 
 import java.io.*;
 import java.util.Collection;
@@ -34,61 +35,68 @@ import java.util.Queue;
 import java.util.ResourceBundle;
 import java.util.Set;
 import java.util.function.Function;
-
 import javax.annotation.processing.Processor;
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.ElementVisitor;
-import javax.tools.DiagnosticListener;
+import javax.tools.Diagnosticjava.util.Listener;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileObject;
 import javax.tools.JavaFileObject.Kind;
 import javax.tools.StandardLocation;
+import jdk.compiler.share.classes.com.sun.source.util.TaskEvent;
+import jdk.compiler.share.classes.com.sun.tools.javac.api.MultiTaskjava.util.Listener;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Lint.LintCategory;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Source.Feature;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ClassSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.CompletionFailure;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.PackageSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.CompileStates.CompileState;
+import jdk.compiler.share.classes.com.sun.tools.javac.file.JavacFileManager;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.parser.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.platform.PlatformDescription;
+import jdk.compiler.share.classes.com.sun.tools.javac.processing.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCClassDecl;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCCompilationUnit;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCExpression;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCLambda;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCMemberReference;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCMethodDecl;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCVariableDecl;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Factory;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log.DiagnosticHandler;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log.DiscardDiagnosticHandler;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log.WriterKind;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ModuleSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Notes;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Warnings;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.CLASS;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag.*;.extended
+import static javax.tools.StandardLocation.CLASS_OUTPUT;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCModuleDecl;
 
-import com.sun.source.util.TaskEvent;
-import com.sun.tools.javac.api.MultiTaskListener;
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.Lint.LintCategory;
-import com.sun.tools.javac.code.Source.Feature;
-import com.sun.tools.javac.code.Symbol.ClassSymbol;
-import com.sun.tools.javac.code.Symbol.CompletionFailure;
-import com.sun.tools.javac.code.Symbol.PackageSymbol;
-import com.sun.tools.javac.comp.*;
-import com.sun.tools.javac.comp.CompileStates.CompileState;
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.jvm.*;
-import com.sun.tools.javac.parser.*;
-import com.sun.tools.javac.platform.PlatformDescription;
-import com.sun.tools.javac.processing.*;
-import com.sun.tools.javac.tree.*;
-import com.sun.tools.javac.tree.JCTree.JCClassDecl;
-import com.sun.tools.javac.tree.JCTree.JCCompilationUnit;
-import com.sun.tools.javac.tree.JCTree.JCExpression;
-import com.sun.tools.javac.tree.JCTree.JCLambda;
-import com.sun.tools.javac.tree.JCTree.JCMemberReference;
-import com.sun.tools.javac.tree.JCTree.JCMethodDecl;
-import com.sun.tools.javac.tree.JCTree.JCVariableDecl;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.JCDiagnostic.Factory;
-import com.sun.tools.javac.util.Log.DiagnosticHandler;
-import com.sun.tools.javac.util.Log.DiscardDiagnosticHandler;
-import com.sun.tools.javac.util.Log.WriterKind;
 
-import static com.sun.tools.javac.code.Kinds.Kind.*;
 
-import com.sun.tools.javac.code.Symbol.ModuleSymbol;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.resources.CompilerProperties.Fragments;
-import com.sun.tools.javac.resources.CompilerProperties.Notes;
-import com.sun.tools.javac.resources.CompilerProperties.Warnings;
 
-import static com.sun.tools.javac.code.TypeTag.CLASS;
-import static com.sun.tools.javac.main.Option.*;
-import static com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag.*;
 
-import static javax.tools.StandardLocation.CLASS_OUTPUT;
 
-import com.sun.tools.javac.tree.JCTree.JCModuleDecl;
+
+
+
+
+
+
+
+
 
 /** This class could be the main entry point for GJC when GJC is used as a
  *  component in a larger software system. It provides operations to

@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jvmti.AttachOnDemand.attach036;
+
+
+import com.sun.tools.attach.AgentInitializationException;
+import nsk.share.*;
+import nsk.share.aod.*;
+import nsk.share.test.TestUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -51,12 +72,7 @@
  *      -ja attach036Agent00.jar
  */
 
-package nsk.jvmti.AttachOnDemand.attach036;
 
-import com.sun.tools.attach.AgentInitializationException;
-import nsk.share.*;
-import nsk.share.aod.*;
-import nsk.share.test.TestUtils;
 
 /*
  * Negative test: checks that java agent fails to attach if main agent class

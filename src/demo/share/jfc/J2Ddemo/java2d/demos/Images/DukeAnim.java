@@ -18,14 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d.demos.Images;
+
+package demo.share.jfc.J2Ddemo.java2d.demos.Images;
 
 
 import java.awt.*;
 import javax.swing.JButton;
 import java.awt.image.ImageObserver;
-import java2d.AnimatingSurface;
-import java2d.DemoPanel;
+import demo.share.jfc.J2Ddemo.java2d.AnimatingSurface;
+import demo.share.jfc.J2Ddemo.java2d.DemoPanel;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

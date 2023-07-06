@@ -18,14 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.net;
+
+package java.base.share.classes.sun.net;
+
 
 import jdk.internal.util.StaticProperty;
-
 import java.io.*;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.Properties;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This class allows for centralized access to Networking properties.

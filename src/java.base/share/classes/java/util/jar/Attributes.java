@@ -19,22 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.jar;
+package java.base.share.classes.java.util.jar;
 
-import java.io.DataOutputStream;
-import java.io.IOException;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Set;
 
+import java.base.share.classes.java.io.DataOutputStream;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.util.Collection;
+import java.base.share.classes.java.util.HashMap;
+import java.base.share.classes.java.util.LinkedHashMap;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Set;
 import jdk.internal.misc.CDS;
 import jdk.internal.vm.annotation.Stable;
-
 import sun.nio.cs.UTF_8;
 import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Attributes class maps Manifest attribute names to associated string

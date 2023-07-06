@@ -19,23 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.util.Arrays;
-import java.util.Locale;
-import java.util.Objects;
-import java.util.Spliterator;
-import java.util.function.Consumer;
-import java.util.function.IntConsumer;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
-import java.util.stream.StreamSupport;
-import jdk.internal.util.ArraysSupport;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
 
-import static java.lang.String.LATIN1;
-import static java.lang.String.UTF16;
-import static java.lang.String.checkOffset;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Spliterator;
+import java.base.share.classes.java.util.function.Consumer;
+import java.base.share.classes.java.util.function.IntConsumer;
+import java.base.share.classes.java.util.stream.IntStream;
+import java.base.share.classes.java.util.stream.Stream;
+import java.base.share.classes.java.util.stream.StreamSupport;
+import jdk.internal.util.java.util.ArraysSupport;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+import static java.base.share.classes.java.lang.String.LATIN1;.extended
+import static java.base.share.classes.java.lang.String.UTF16;.extended
+import static java.base.share.classes.java.lang.String.checkOffset;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class StringLatin1 {
 

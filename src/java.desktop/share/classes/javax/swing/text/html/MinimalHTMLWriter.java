@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.text.html;
+package java.desktop.share.classes.javax.swing.text.html;
+
 
 import java.io.Writer;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.*;
 import java.awt.Color;
-import javax.swing.text.*;
+import java.desktop.share.classes.javax.swing.text.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * MinimalHTMLWriter is a fallback writer used by the

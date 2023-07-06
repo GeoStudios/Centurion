@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.share.classes.sun.awt;
+
 
 import java.awt.AWTEvent;
 import java.awt.AWTException;
@@ -71,15 +72,15 @@ import java.awt.peer.KeyboardFocusManagerPeer;
 import java.awt.peer.SystemTrayPeer;
 import java.awt.peer.TrayIconPeer;
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.InvocationTargetException;
 import java.net.URL;
 import java.security.AccessController;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Iterator;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.Vector;
 import java.util.WeakHashMap;
@@ -87,27 +88,39 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
+import java.desktop.share.classes.sun.awt.im.InputContext;
+import java.desktop.share.classes.sun.awt.image.ByteArrayImageSource;
+import java.desktop.share.classes.sun.awt.image.FileImageSource;
+import java.desktop.share.classes.sun.awt.image.ImageRepresentation;
+import java.desktop.share.classes.sun.awt.image.MultiResolutionToolkitImage;
+import java.desktop.share.classes.sun.awt.image.ToolkitImage;
+import java.desktop.share.classes.sun.awt.image.URLImageSource;
+import java.desktop.share.classes.sun.font.FontDesignMetrics;
+import java.desktop.share.classes.sun.net.util.URLUtil;
+import java.desktop.share.classes.sun.security.action.GetBooleanAction;
+import java.desktop.share.classes.sun.security.action.GetPropertyAction;
+import java.desktop.share.classes.sun.util.logging.PlatformLogger;
+import static java.awt.RenderingHints.KEY_TEXT_ANTIALIASING;.extended
+import static java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_GASP;.extended
+import static java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_LCD_HBGR;.extended
+import static java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_LCD_HRGB;.extended
+import static java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_LCD_VBGR;.extended
+import static java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_LCD_VRGB;.extended
+import static java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_ON;.extended
 
-import sun.awt.im.InputContext;
-import sun.awt.image.ByteArrayImageSource;
-import sun.awt.image.FileImageSource;
-import sun.awt.image.ImageRepresentation;
-import sun.awt.image.MultiResolutionToolkitImage;
-import sun.awt.image.ToolkitImage;
-import sun.awt.image.URLImageSource;
-import sun.font.FontDesignMetrics;
-import sun.net.util.URLUtil;
-import sun.security.action.GetBooleanAction;
-import sun.security.action.GetPropertyAction;
-import sun.util.logging.PlatformLogger;
 
-import static java.awt.RenderingHints.KEY_TEXT_ANTIALIASING;
-import static java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_GASP;
-import static java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_LCD_HBGR;
-import static java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_LCD_HRGB;
-import static java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_LCD_VBGR;
-import static java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_LCD_VRGB;
-import static java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_ON;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class SunToolkit extends Toolkit
     implements ComponentFactory, InputMethodSupport, KeyboardFocusManagerPeerProvider {

@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.security.sasl;
+package java.security.sasl.share.classes.com.sun.security.sasl;
+
 
 import javax.security.sasl.*;
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
 
-import static java.nio.charset.StandardCharsets.UTF_8;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements the EXTERNAL SASL client mechanism.

@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.bench.jdk.incubator.foreign;
+
 
 import jdk.incubator.foreign.FunctionDescriptor;
 import jdk.incubator.foreign.MemoryAddress;
@@ -33,16 +35,27 @@ import org.openjdk.jmh.annotations.Mode;
 import org.openjdk.jmh.annotations.OutputTimeUnit;
 import org.openjdk.jmh.annotations.State;
 import org.openjdk.jmh.annotations.Warmup;
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodType;
 import java.util.concurrent.TimeUnit;
+import static java.lang.invoke.MethodHandles.lookup;.extended
+import static jdk.incubator.foreign.CLinker.C_DOUBLE;.extended
+import static jdk.incubator.foreign.CLinker.C_INT;.extended
+import static jdk.incubator.foreign.CLinker.C_LONG_LONG;.extended
+import static jdk.incubator.foreign.CLinker.C_POINTER;.extended
 
-import static java.lang.invoke.MethodHandles.lookup;
-import static jdk.incubator.foreign.CLinker.C_DOUBLE;
-import static jdk.incubator.foreign.CLinker.C_INT;
-import static jdk.incubator.foreign.CLinker.C_LONG_LONG;
-import static jdk.incubator.foreign.CLinker.C_POINTER;
+
+
+
+
+
+
+
+
+
+
+
+
 
 @BenchmarkMode(Mode.AverageTime)
 @Warmup(iterations = 5, time = 500, timeUnit = TimeUnit.MILLISECONDS)

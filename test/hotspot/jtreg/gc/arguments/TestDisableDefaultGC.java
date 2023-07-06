@@ -21,6 +21,22 @@
 
 package gc.arguments;
 
+
+import jdk.test.lib.process.OutputAnalyzer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestDisableDefaultGC
  * @summary Test that the VM complains when the default GC is disabled and no other GC is specified
@@ -33,7 +49,6 @@ package gc.arguments;
  * @run driver gc.arguments.TestDisableDefaultGC
  */
 
-import jdk.test.lib.process.OutputAnalyzer;
 
 public class TestDisableDefaultGC {
     public static void main(String[] args) throws Exception {

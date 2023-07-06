@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
+
 
 import jdk.internal.util.Preconditions;
 import jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.java.util.function.Supplier;
 
-import java.util.function.Supplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class consists of {@code static} utility methods for operating

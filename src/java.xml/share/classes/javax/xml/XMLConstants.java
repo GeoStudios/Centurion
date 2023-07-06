@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml;
+package java.xml.share.classes.javax.xml;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Utility class to contain basic XML values as constants.

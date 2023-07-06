@@ -21,6 +21,29 @@
 
 package gc.metaspace;
 
+
+import jdk.test.lib.JDKToolLauncher;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.SA.SATestUtils;
+import java.nio.file.*;
+import java.io.File;
+import java.nio.charset.Charset;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test CompressedClassSpaceSizeInJmapHeap
  * @bug 8004924
@@ -33,14 +56,6 @@ package gc.metaspace;
  * @run main/othervm -XX:+IgnoreUnrecognizedVMOptions -XX:CompressedClassSpaceSize=48m gc.metaspace.CompressedClassSpaceSizeInJmapHeap
  */
 
-import jdk.test.lib.JDKToolLauncher;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.SA.SATestUtils;
-import java.nio.file.*;
-import java.io.File;
-import java.nio.charset.Charset;
-import java.util.List;
 
 public class CompressedClassSpaceSizeInJmapHeap {
     // Note that on some platforms it may require root privileges to run this test.

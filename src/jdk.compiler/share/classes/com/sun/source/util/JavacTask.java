@@ -19,10 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.source.util;
+package jdk.compiler.share.classes.com.sun.source.util;
 
-import java.io.IOException;
 
+import java.io.java.io.java.io.java.io.IOException;
 import javax.annotation.processing.ProcessingEnvironment;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.VariableElement;
@@ -31,12 +31,25 @@ import javax.lang.model.util.Elements;
 import javax.lang.model.util.Types;
 import javax.tools.JavaCompiler.CompilationTask;
 import javax.tools.JavaFileObject;
+import jdk.compiler.share.classes.com.sun.source.tree.CompilationUnitTree;
+import jdk.compiler.share.classes.com.sun.source.tree.Tree;
+import jdk.compiler.share.classes.com.sun.tools.javac.api.BasicJavacTask;
+import jdk.compiler.share.classes.com.sun.tools.javac.processing.JavacProcessingEnvironment;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
 
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.tree.Tree;
-import com.sun.tools.javac.api.BasicJavacTask;
-import com.sun.tools.javac.processing.JavacProcessingEnvironment;
-import com.sun.tools.javac.util.Context;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides access to functionality specific to the JDK Java Compiler, javac.

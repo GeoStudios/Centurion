@@ -19,6 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codegen.aes;
+
+
+import java.io.PrintStream;
+import java.base.share.classes.java.security.*;
+import java.util.Random;
+import java.lang.reflect.Method;
+import java.base.share.classes.javax.crypto.Cipher;
+import java.base.share.classes.javax.crypto.SecretKey;
+import javax.crypto.SecretKeyFactory;
+import javax.crypto.spec.PBEKeySpec;
+import compiler.whitebox.CompilerWhiteBoxTest;
+import sun.hotspot.code.Compiler;
+import jdk.test.lib.Utils;
+import jtreg.SkippedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @key randomness
@@ -33,21 +62,8 @@
  *      compiler.codegen.aes.TestCipherBlockChainingEncrypt
  */
 
-package compiler.codegen.aes;
 
-import java.io.PrintStream;
-import java.security.*;
-import java.util.Random;
-import java.lang.reflect.Method;
-import javax.crypto.Cipher;
-import javax.crypto.SecretKey;
-import javax.crypto.SecretKeyFactory;
-import javax.crypto.spec.PBEKeySpec;
 
-import compiler.whitebox.CompilerWhiteBoxTest;
-import sun.hotspot.code.Compiler;
-import jdk.test.lib.Utils;
-import jtreg.SkippedException;
 
 public class TestCipherBlockChainingEncrypt {
     private static String algorithm = "PBEWithHmacSHA1AndAES_256";

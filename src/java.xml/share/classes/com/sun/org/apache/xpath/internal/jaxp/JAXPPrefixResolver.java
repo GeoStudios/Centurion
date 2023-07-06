@@ -19,17 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xpath.internal.jaxp;
+
+
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.PrefixResolver;
+import javax.xml.namespace.NamespaceContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xpath.internal.jaxp;
 
-import org.w3c.dom.Node;
-import org.w3c.dom.NamedNodeMap;
-import com.sun.org.apache.xml.internal.utils.PrefixResolver;
 
-import javax.xml.namespace.NamespaceContext;
+
 
 /**
  * <meta name="usage" content="general"/>

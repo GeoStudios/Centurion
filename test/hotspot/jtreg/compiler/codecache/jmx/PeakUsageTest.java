@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codecache.jmx;
+
+
+import sun.hotspot.code.BlobType;
+import java.lang.management.MemoryPoolMXBean;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test PeakUsageTest
  * @library /test/lib /
@@ -39,11 +58,8 @@
  *     segmented code cache
  */
 
-package compiler.codecache.jmx;
 
-import sun.hotspot.code.BlobType;
 
-import java.lang.management.MemoryPoolMXBean;
 
 
 public class PeakUsageTest {

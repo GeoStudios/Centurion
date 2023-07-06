@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.motif;
+package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-import sun.swing.SwingUtilities2;
+
+import java.desktop.share.classes.com.sun.swing.SwingUtilities2;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -29,11 +30,24 @@ import javax.swing.border.*;
 import javax.swing.plaf.*;
 import javax.swing.plaf.basic.*;
 import java.beans.*;
-import java.util.EventListener;
+import java.util.Eventjava.util.Listener;
 import java.io.Serializable;
+import java.desktop.share.classes.com.sun.awt.AWTAccessor;
+import java.desktop.share.classes.com.sun.awt.AWTAccessor.MouseEventAccessor;
 
-import sun.awt.AWTAccessor;
-import sun.awt.AWTAccessor.MouseEventAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Motif rendition of the component.

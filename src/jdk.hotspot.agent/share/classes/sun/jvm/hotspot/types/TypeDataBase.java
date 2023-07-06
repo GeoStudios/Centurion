@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.types;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types;
+
 
 import java.util.Iterator;
-import sun.jvm.hotspot.debugger.Address;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Address;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface TypeDataBase {
   /** Equivalent to lookupType(cTypeName, true) */

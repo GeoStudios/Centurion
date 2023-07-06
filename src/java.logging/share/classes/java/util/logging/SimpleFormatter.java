@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.logging.share.classes.java.util.logging;
 
-package java.util.logging;
 
-import java.io.*;
-import java.time.ZoneId;
-import java.time.ZonedDateTime;
+import java.logging.share.classes.java.io.*;
+import java.logging.share.classes.java.time.ZoneId;
+import java.logging.share.classes.java.time.ZonedDateTime;
 import jdk.internal.logger.SurrogateLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Print a brief summary of the {@code LogRecord} in a human readable

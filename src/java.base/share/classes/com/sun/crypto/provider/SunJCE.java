@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
+
 
 import java.security.AccessController;
 import java.security.Provider;
 import java.security.SecureRandom;
 import java.security.PrivilegedAction;
 import java.util.HashMap;
-import java.util.List;
-import static sun.security.util.SecurityConstants.PROVIDER_VER;
-import static sun.security.util.SecurityProviderConstants.*;
+import java.util.java.util.java.util.java.util.List;
+import static java.base.share.classes.com.sun.security.util.SecurityConstants.PROVIDER_VER;.extended
+import static java.base.share.classes.com.sun.security.util.SecurityProviderConstants.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The "SunJCE" Cryptographic Service Provider.

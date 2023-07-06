@@ -19,15 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xpath.internal;
+
+
+import javax.xml.transform.SourceLocator;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.PrefixResolver;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xpath.internal;
 
-import javax.xml.transform.SourceLocator;
 
-import com.sun.org.apache.xml.internal.utils.PrefixResolver;
+
 
 /**
  * Factory class for creating an XPath.  Implementors of XPath derivatives

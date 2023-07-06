@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.Component;
 import java.awt.Point;
 import java.awt.dnd.DnDConstants;
-import java.awt.dnd.DragGestureListener;
+import java.awt.dnd.DragGesturejava.util.Listener;
 import java.awt.dnd.DragSource;
 import java.awt.dnd.MouseDragGestureRecognizer;
 import java.awt.event.InputEvent;
 import java.awt.event.MouseEvent;
 import java.io.Serial;
+import java.desktop.unix.classes.sun.awt.dnd.SunDragSourceContextPeer;
 
-import sun.awt.dnd.SunDragSourceContextPeer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>

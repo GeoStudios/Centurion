@@ -21,6 +21,21 @@
 
 package pkg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Child<CE> extends Parent<CE> {
 
     public int method() {

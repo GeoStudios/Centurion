@@ -21,6 +21,21 @@
 
 package annComma;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @ann1(isStatic=false,type="class" ,)
 class TestM4 {
     @ann1(type="class",isStatic=false,) public void myMethod() {

@@ -19,25 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5;
+package java.security.jgss.share.classes.sun.security.krb5;
+
 
 import java.security.PrivilegedAction;
 import java.security.Security;
-import java.util.Locale;
-import sun.security.krb5.internal.Krb5;
-import sun.security.krb5.internal.NetClient;
-import java.io.IOException;
-import java.net.SocketTimeoutException;
+import java.base.share.classes.java.util.Locale;
+import java.security.jgss.share.classes.sun.security.krb5.internal.Krb5;
+import java.security.jgss.share.classes.sun.security.krb5.internal.NetClient;
+import java.io.java.io.java.io.java.io.IOException;
+import java.net.java.net.SocketTimeoutException;
 import java.util.StringTokenizer;
 import java.security.AccessController;
 import java.security.PrivilegedExceptionAction;
 import java.security.PrivilegedActionException;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.util.HashSet;
 import java.util.Iterator;
-import sun.security.krb5.internal.KRBError;
+import java.security.jgss.share.classes.sun.security.krb5.internal.KRBError;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * KDC-REQ/KDC-REP communication. No more base class for KrbAsReq and

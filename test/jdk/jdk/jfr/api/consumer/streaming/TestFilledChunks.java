@@ -21,10 +21,23 @@
 
 package jdk.jfr.api.consumer.streaming;
 
-import java.util.Random;
 
+import java.util.Random;
 import jdk.jfr.Event;
 import jdk.jfr.consumer.RecordingStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

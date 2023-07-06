@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.metal;
+package java.desktop.share.classes.javax.swing.plaf.metal;
+
 
 import java.awt.Font;
-
 import sun.swing.plaf.DesktopProperty;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * DesktopProperty that only uses font height in configuring font. This

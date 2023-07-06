@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.incubator.foreign;
+package jdk.incubator.foreign.share.classes.jdk.incubator.foreign;
 
-import jdk.internal.foreign.ArenaAllocator;
-import jdk.internal.foreign.AbstractMemorySegmentImpl;
-import jdk.internal.foreign.ResourceScopeImpl;
-import jdk.internal.foreign.Utils;
 
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.ArenaAllocator;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.AbstractMemorySegmentImpl;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.ResourceScopeImpl;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.Utils;
 import java.lang.invoke.VarHandle;
 import java.lang.reflect.Array;
 import java.nio.ByteOrder;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.function.Function;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface models a memory allocator. Clients implementing this interface

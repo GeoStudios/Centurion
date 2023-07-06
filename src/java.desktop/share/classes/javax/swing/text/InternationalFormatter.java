@@ -18,14 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text;
+
+package java.desktop.share.classes.javax.swing.text;
+
 
 import java.awt.event.ActionEvent;
 import java.io.*;
 import java.text.*;
 import java.text.AttributedCharacterIterator.Attribute;
 import java.util.*;
-import javax.swing.*;
+import java.desktop.share.classes.javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>InternationalFormatter</code> extends <code>DefaultFormatter</code>,

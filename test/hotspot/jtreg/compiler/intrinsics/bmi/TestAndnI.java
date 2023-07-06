@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.bmi;
+
+
+import sun.hotspot.cpuinfo.CPUInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @key randomness
@@ -34,9 +52,7 @@
  *                   -XX:+WhiteBoxAPI compiler.intrinsics.bmi.TestAndnI
  */
 
-package compiler.intrinsics.bmi;
 
-import sun.hotspot.cpuinfo.CPUInfo;
 
 public class TestAndnI {
 

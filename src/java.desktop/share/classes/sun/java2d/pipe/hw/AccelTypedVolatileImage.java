@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.pipe.hw;
+package java.desktop.share.classes.sun.java2d.pipe.hw;
+
 
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.GraphicsConfiguration;
-import sun.awt.image.SunVolatileImage;
-import static sun.java2d.pipe.hw.AccelSurface.*;
+import java.desktop.share.classes.sun.awt.image.SunVolatileImage;
+import static java.desktop.share.classes.sun.java2d.pipe.hw.AccelSurface.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is an image with forced type of the accelerated surface.

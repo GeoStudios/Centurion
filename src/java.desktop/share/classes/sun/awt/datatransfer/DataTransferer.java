@@ -19,35 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.datatransfer;
+package java.desktop.share.classes.sun.awt.datatransfer;
+
 
 import java.awt.EventQueue;
 import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.Toolkit;
-
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.FlavorMap;
 import java.awt.datatransfer.FlavorTable;
 import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.UnsupportedFlavorException;
-
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Reader;
 import java.io.SequenceInputStream;
 import java.io.StringReader;
-
 import java.net.URI;
 import java.net.URISyntaxException;
-
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.Charset;
@@ -55,46 +52,48 @@ import java.nio.charset.CharsetEncoder;
 import java.nio.charset.IllegalCharsetNameException;
 import java.nio.charset.StandardCharsets;
 import java.nio.charset.UnsupportedCharsetException;
-
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Modifier;
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
 import java.security.ProtectionDomain;
-
 import java.util.*;
-
-import sun.datatransfer.DataFlavorUtil;
-
-import sun.awt.AppContext;
-import sun.awt.ComponentFactory;
-import sun.awt.SunToolkit;
-
+import java.desktop.share.classes.sun.datatransfer.DataFlavorUtil;
+import java.desktop.share.classes.sun.awt.AppContext;
+import java.desktop.share.classes.sun.awt.ComponentFactory;
+import java.desktop.share.classes.sun.awt.SunToolkit;
 import java.awt.image.BufferedImage;
 import java.awt.image.ImageObserver;
 import java.awt.image.RenderedImage;
 import java.awt.image.WritableRaster;
 import java.awt.image.ColorModel;
-
 import javax.imageio.ImageIO;
 import javax.imageio.ImageReader;
 import javax.imageio.ImageReadParam;
 import javax.imageio.ImageWriter;
 import javax.imageio.ImageTypeSpecifier;
-
 import javax.imageio.spi.ImageWriterSpi;
-
 import javax.imageio.stream.ImageInputStream;
 import javax.imageio.stream.ImageOutputStream;
-
-import sun.awt.image.ImageRepresentation;
-import sun.awt.image.ToolkitImage;
-
+import java.desktop.share.classes.sun.awt.image.ImageRepresentation;
+import java.desktop.share.classes.sun.awt.image.ToolkitImage;
 import java.io.FilePermission;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

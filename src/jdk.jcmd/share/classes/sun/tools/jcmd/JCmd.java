@@ -19,29 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jcmd;
+package jdk.jcmd.share.classes.sun.tools.jcmd;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
 import java.util.Collection;
 import java.util.Comparator;
 import java.net.URISyntaxException;
-
 import com.sun.tools.attach.AttachOperationFailedException;
 import com.sun.tools.attach.VirtualMachine;
 import com.sun.tools.attach.VirtualMachineDescriptor;
 import com.sun.tools.attach.AttachNotSupportedException;
+import jdk.jcmd.share.classes.sun.tools.attach.HotSpotVirtualMachine;
+import jdk.jcmd.share.classes.sun.tools.common.ProcessArgumentMatcher;
+import jdk.jcmd.share.classes.sun.tools.common.PrintStreamPrinter;
+import jdk.jcmd.share.classes.sun.tools.jstat.JStatLogger;
+import jdk.jcmd.share.classes.sun.jvmstat.monitor.Monitor;
+import jdk.jcmd.share.classes.sun.jvmstat.monitor.MonitoredHost;
+import jdk.jcmd.share.classes.sun.jvmstat.monitor.MonitoredVm;
+import jdk.jcmd.share.classes.sun.jvmstat.monitor.MonitorException;
+import jdk.jcmd.share.classes.sun.jvmstat.monitor.VmIdentifier;
 
-import sun.tools.attach.HotSpotVirtualMachine;
-import sun.tools.common.ProcessArgumentMatcher;
-import sun.tools.common.PrintStreamPrinter;
-import sun.tools.jstat.JStatLogger;
-import sun.jvmstat.monitor.Monitor;
-import sun.jvmstat.monitor.MonitoredHost;
-import sun.jvmstat.monitor.MonitoredVm;
-import sun.jvmstat.monitor.MonitorException;
-import sun.jvmstat.monitor.VmIdentifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JCmd {
     public static void main(String[] args) {

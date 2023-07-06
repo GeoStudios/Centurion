@@ -21,12 +21,26 @@
 
 package simp;
 
-import java.io.IOException;
-import java.util.Locale;
-import javax.imageio.IIOException;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.util.Locale;
+import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import javax.imageio.ImageReader;
 import javax.imageio.spi.ImageReaderSpi;
 import javax.imageio.stream.ImageInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SIMPImageReaderSpi extends ImageReaderSpi {
 

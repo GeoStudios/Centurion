@@ -19,10 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
+
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // This class serves as the base class for all the wrappers.
-import sun.util.logging.PlatformLogger;
 
 abstract class XWrapperBase {
     static final PlatformLogger log = PlatformLogger.getLogger("sun.awt.X11.wrappers");
@@ -45,7 +61,7 @@ abstract class XWrapperBase {
     public void zero() {
         log.finest("Cleaning memory");
         if (getPData() != 0) {
-            XlibWrapper.unsafe.setMemory(getPData(), (long)getDataSize(), (byte)0);
+            XlibWrapper.unsafe.setMemory(getPData(), getDataSize(), (byte)0);
         }
     }
     public abstract int getDataSize();

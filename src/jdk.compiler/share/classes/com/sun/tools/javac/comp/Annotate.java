@@ -19,47 +19,57 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.comp;
+package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.Attribute.Compound;
-import com.sun.tools.javac.code.Attribute.TypeCompound;
-import com.sun.tools.javac.code.Kinds.KindSelector;
-import com.sun.tools.javac.code.Scope.WriteableScope;
-import com.sun.tools.javac.code.Source.Feature;
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.code.TypeMetadata.Entry.Kind;
-import com.sun.tools.javac.comp.Check.CheckContext;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.resources.CompilerProperties.Fragments;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.JCTree.*;
-import com.sun.tools.javac.tree.TreeInfo;
-import com.sun.tools.javac.tree.TreeMaker;
-import com.sun.tools.javac.tree.TreeScanner;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
-import com.sun.tools.javac.util.List;
 
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Attribute.Compound;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Attribute.TypeCompound;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.KindSelector;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.WriteableScope;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Source.Feature;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.TypeMetadata.Entry.Kind;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Check.CheckContext;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeInfo;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeMaker;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeScanner;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
 import javax.tools.JavaFileObject;
-
 import java.util.*;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.SYNTHETIC;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.MDL;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.MTH;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.PCK;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.TYP;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.VAR;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.ARRAY;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.CLASS;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.ANNOTATION;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.ASSIGN;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.IDENT;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.NEWARRAY;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag;
 
-import static com.sun.tools.javac.code.Flags.SYNTHETIC;
-import static com.sun.tools.javac.code.Kinds.Kind.MDL;
-import static com.sun.tools.javac.code.Kinds.Kind.MTH;
-import static com.sun.tools.javac.code.Kinds.Kind.PCK;
-import static com.sun.tools.javac.code.Kinds.Kind.TYP;
-import static com.sun.tools.javac.code.Kinds.Kind.VAR;
-import static com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;
-import static com.sun.tools.javac.code.TypeTag.ARRAY;
-import static com.sun.tools.javac.code.TypeTag.CLASS;
-import static com.sun.tools.javac.tree.JCTree.Tag.ANNOTATION;
-import static com.sun.tools.javac.tree.JCTree.Tag.ASSIGN;
-import static com.sun.tools.javac.tree.JCTree.Tag.IDENT;
-import static com.sun.tools.javac.tree.JCTree.Tag.NEWARRAY;
 
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag;
+
+
+
+
+
+
+
+
+
+
+
 
 
 /** Enter annotations onto symbols and types (and trees).

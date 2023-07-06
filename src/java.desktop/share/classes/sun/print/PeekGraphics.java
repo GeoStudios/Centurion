@@ -19,10 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.share.classes.sun.print;
+
 
 import java.util.Map;
-
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Composite;
@@ -40,10 +40,8 @@ import java.awt.Shape;
 import java.awt.Stroke;
 import java.awt.RenderingHints;
 import java.awt.RenderingHints.Key;
-
 import java.awt.font.GlyphVector;
 import java.awt.font.TextLayout;
-
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Line2D;
 import java.awt.geom.Point2D;
@@ -56,10 +54,22 @@ import java.awt.image.RenderedImage;
 import java.awt.image.renderable.RenderableImage;
 import java.awt.print.PrinterGraphics;
 import java.awt.print.PrinterJob;
-
 import java.text.AttributedCharacterIterator;
+import java.desktop.share.classes.sun.java2d.Spans;
 
-import sun.java2d.Spans;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PeekGraphics extends Graphics2D
                           implements PrinterGraphics,

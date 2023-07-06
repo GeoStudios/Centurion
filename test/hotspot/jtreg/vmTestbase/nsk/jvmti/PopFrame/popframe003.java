@@ -21,8 +21,22 @@
 
 package nsk.jvmti.PopFrame;
 
+
 import nsk.share.Wicket;
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This test checks that after popping a method's frame by the JVMTI

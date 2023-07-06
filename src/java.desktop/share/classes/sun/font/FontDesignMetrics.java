@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.share.classes.sun.font;
+
 
 import java.awt.Font;
 import java.awt.FontMetrics;
@@ -28,16 +29,29 @@ import java.awt.font.FontRenderContext;
 import java.awt.font.TextLayout;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Rectangle2D;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serial;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.SoftReference;
 import java.util.concurrent.ConcurrentHashMap;
+import java.desktop.share.classes.sun.java2d.Disposer;
+import java.desktop.share.classes.sun.java2d.DisposerRecord;
 
-import sun.java2d.Disposer;
-import sun.java2d.DisposerRecord;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This class provides a summary of the glyph measurements  for a Font

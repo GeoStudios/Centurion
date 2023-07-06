@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.lang.model.util;
+package java.compiler.share.classes.javax.lang.model.util;
 
-import javax.annotation.processing.SupportedSourceVersion;
-import javax.lang.model.SourceVersion;
-import javax.lang.model.type.*;
-import static javax.lang.model.SourceVersion.*;
+
+import java.compiler.share.classes.javax.annotation.processing.SupportedSourceVersion;
+import java.compiler.share.classes.javax.lang.model.SourceVersion;
+import java.compiler.share.classes.javax.lang.model.type.*;
+import static java.compiler.share.classes.javax.lang.model.SourceVersion.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A visitor of types based on their {@linkplain TypeKind kind} with

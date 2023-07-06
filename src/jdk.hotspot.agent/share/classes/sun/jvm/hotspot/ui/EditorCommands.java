@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.ui;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** The debugger supplies an implementation of this interface to
     Editors it requests be opened by the EditorFactory. Using this

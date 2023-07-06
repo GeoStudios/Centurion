@@ -19,14 +19,15 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xpath.internal.jaxp;
+package java.xml.share.classes.com.sun.org.apache.xpath.internal.jaxp;
 
-import com.sun.org.apache.xalan.internal.res.XSLMessages;
-import com.sun.org.apache.xml.internal.dtm.DTM;
-import com.sun.org.apache.xpath.internal.axes.LocPathIterator;
-import com.sun.org.apache.xpath.internal.objects.XObject;
-import com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
-import java.io.IOException;
+
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.axes.LocPathIterator;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
+import java.io.java.io.java.io.java.io.IOException;
 import javax.xml.namespace.QName;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -39,11 +40,25 @@ import javax.xml.xpath.XPathNodes;
 import javax.xml.xpath.XPathVariableResolver;
 import jdk.xml.internal.JdkXmlFeatures;
 import jdk.xml.internal.JdkXmlUtils;
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
-import org.w3c.dom.traversal.NodeIterator;
-import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.traversal.NodeIterator;
+import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains several utility methods used by XPathImpl and

@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.modelmbean;
+package java.management.share.classes.javax.management.modelmbean;
 
-import javax.management.DynamicMBean;
-import javax.management.InstanceNotFoundException;
-import javax.management.MBeanException;
-import javax.management.PersistentMBean;
-import javax.management.RuntimeOperationsException;
+
+import java.management.share.classes.javax.management.DynamicMBean;
+import java.management.share.classes.javax.management.InstanceNotFoundException;
+import java.management.share.classes.javax.management.MBeanException;
+import java.management.share.classes.javax.management.PersistentMBean;
+import java.management.share.classes.javax.management.RuntimeOperationsException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface must be implemented by the ModelMBeans. An implementation of this interface

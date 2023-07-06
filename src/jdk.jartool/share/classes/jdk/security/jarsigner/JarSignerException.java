@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.security.jarsigner;
+package jdk.jartool.share.classes.jdk.security.jarsigner;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This exception is thrown when {@link JarSigner#sign} fails.

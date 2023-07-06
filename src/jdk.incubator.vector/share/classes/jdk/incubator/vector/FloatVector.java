@@ -18,26 +18,39 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.incubator.vector;
+
+package jdk.incubator.vector.share.classes.jdk.incubator.vector;
+
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.ReadOnlyBufferException;
-import java.util.Arrays;
-import java.util.Objects;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.java.util.Objects;
 import java.util.function.BinaryOperator;
 import java.util.function.Function;
 import java.util.function.UnaryOperator;
+import jdk.incubator.vector.share.classes.jdk.internal.misc.ScopedMemoryAccess;
+import jdk.incubator.vector.share.classes.jdk.internal.misc.Unsafe;
+import jdk.incubator.vector.share.classes.jdk.internal.vm.annotation.ForceInline;
+import jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport;
+import static jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport.*;.extended
+import static jdk.incubator.vector.share.classes.jdk.incubator.vector.VectorIntrinsics.*;.extended
+import static jdk.incubator.vector.share.classes.jdk.incubator.vector.VectorOperators.*;.extended
 
-import jdk.internal.misc.ScopedMemoryAccess;
-import jdk.internal.misc.Unsafe;
-import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.vector.VectorSupport;
 
-import static jdk.internal.vm.vector.VectorSupport.*;
-import static jdk.incubator.vector.VectorIntrinsics.*;
 
-import static jdk.incubator.vector.VectorOperators.*;
+
+
+
+
+
+
+
+
+
+
+
 
 // -- This file was mechanically generated: Do not edit! -- //
 
@@ -2347,13 +2360,13 @@ public abstract class FloatVector extends AbstractVector<Float> {
             REDUCE_IMPL.find(op, opc, (opc_) -> {
               switch (opc_) {
               case VECTOR_OP_ADD: return v ->
-                      toBits(v.rOp((float)0, (i, a, b) -> (float)(a + b)));
+                      toBits(v.rOp((float)0, (i, a, b) -> a + b));
               case VECTOR_OP_MUL: return v ->
-                      toBits(v.rOp((float)1, (i, a, b) -> (float)(a * b)));
+                      toBits(v.rOp((float)1, (i, a, b) -> a * b));
               case VECTOR_OP_MIN: return v ->
-                      toBits(v.rOp(MAX_OR_INF, (i, a, b) -> (float) Math.min(a, b)));
+                      toBits(v.rOp(MAX_OR_INF, (i, a, b) -> Math.min(a, b)));
               case VECTOR_OP_MAX: return v ->
-                      toBits(v.rOp(MIN_OR_INF, (i, a, b) -> (float) Math.max(a, b)));
+                      toBits(v.rOp(MIN_OR_INF, (i, a, b) -> Math.max(a, b)));
               default: return null;
               }})));
     }

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.colorchooser;
+package java.desktop.share.classes.javax.swing.colorchooser;
+
 
 import java.awt.Color;
 import java.awt.Component;
@@ -27,12 +28,26 @@ import java.awt.Container;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import javax.swing.Icon;
-import javax.swing.JComponent;
-import javax.swing.JFormattedTextField;
-import javax.swing.JLabel;
-import javax.swing.SwingConstants;
+import java.beans.PropertyChangejava.util.Listener;
+import java.desktop.share.classes.javax.swing.Icon;
+import java.desktop.share.classes.javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.JFormattedTextField;
+import java.desktop.share.classes.javax.swing.JLabel;
+import java.desktop.share.classes.javax.swing.SwingConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // Superclass is not serializable across versions
 final class ColorChooserPanel extends AbstractColorChooserPanel implements PropertyChangeListener {

@@ -19,23 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package org.openjdk.tests.java.util.stream;
+
+
+import java.base.share.classes.java.util.Arrays;
+import java.util.stream.OpTestCase;
+import java.util.stream.Stream;
+import org.testng.annotations.Test;
+import static java.util.stream.LambdaTestHelpers.countTo;.extended
+import static java.util.stream.ThrowableHelper.checkNPE;.extended
+import static java.util.stream.ThrowableHelper.checkISE;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @summary close handlers and closing streams
  * @bug 8044047 8147505
  */
 
-package org.openjdk.tests.java.util.stream;
 
-import java.util.Arrays;
-import java.util.stream.OpTestCase;
-import java.util.stream.Stream;
 
-import org.testng.annotations.Test;
 
-import static java.util.stream.LambdaTestHelpers.countTo;
-import static java.util.stream.ThrowableHelper.checkNPE;
-import static java.util.stream.ThrowableHelper.checkISE;
 
 @Test(groups = { "serialization-hostile" })
 public class StreamCloseTest extends OpTestCase {

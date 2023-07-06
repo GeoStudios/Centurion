@@ -21,14 +21,14 @@
 
 package jdk.jfr.jcmd;
 
+
 import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-
 import jdk.jfr.Enabled;
 import jdk.jfr.Recording;
 import jdk.jfr.consumer.RecordedEvent;
@@ -36,6 +36,19 @@ import jdk.jfr.consumer.RecordedObject;
 import jdk.jfr.consumer.RecordingFile;
 import jdk.jfr.internal.test.WhiteBox;
 import jdk.test.lib.jfr.EventNames;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

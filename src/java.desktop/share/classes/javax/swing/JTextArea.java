@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.Dimension;
 import java.awt.Font;
@@ -29,19 +30,32 @@ import java.awt.Rectangle;
 import java.awt.TextComponent;
 import java.beans.BeanProperty;
 import java.beans.JavaBean;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.io.Serial;
+import java.desktop.share.classes.javax.accessibility.AccessibleContext;
+import java.desktop.share.classes.javax.accessibility.AccessibleState;
+import java.desktop.share.classes.javax.accessibility.AccessibleStateSet;
+import java.desktop.share.classes.javax.swing.text.AbstractDocument;
+import java.desktop.share.classes.javax.swing.text.BadLocationException;
+import java.desktop.share.classes.javax.swing.text.Document;
+import java.desktop.share.classes.javax.swing.text.Element;
+import java.desktop.share.classes.javax.swing.text.JTextComponent;
+import java.desktop.share.classes.javax.swing.text.PlainDocument;
 
-import javax.accessibility.AccessibleContext;
-import javax.accessibility.AccessibleState;
-import javax.accessibility.AccessibleStateSet;
-import javax.swing.text.AbstractDocument;
-import javax.swing.text.BadLocationException;
-import javax.swing.text.Document;
-import javax.swing.text.Element;
-import javax.swing.text.JTextComponent;
-import javax.swing.text.PlainDocument;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A <code>JTextArea</code> is a multi-line area that displays plain text.

@@ -18,12 +18,13 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d;
+
+package demo.share.jfc.J2Ddemo.java2d;
 
 
-import static java.awt.Color.BLACK;
-import static java.awt.Color.GREEN;
-import static java.awt.Color.YELLOW;
+import static java.awt.Color.BLACK;.extended
+import static java.awt.Color.GREEN;.extended
+import static java.awt.Color.YELLOW;.extended
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -36,7 +37,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-import java.awt.event.WindowListener;
+import java.awt.event.Windowjava.util.Listener;
 import java.awt.geom.Line2D;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
@@ -48,6 +49,19 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.border.EtchedBorder;
 import javax.swing.border.TitledBorder;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

@@ -19,6 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.jfc.SwingSet2;
+
 
 import javax.swing.*;
 import javax.swing.event.*;
@@ -27,13 +29,26 @@ import javax.swing.border.*;
 import javax.swing.colorchooser.*;
 import javax.swing.filechooser.*;
 import javax.accessibility.*;
-
 import java.awt.*;
 import java.awt.font.*;
 import java.awt.geom.*;
 import java.awt.image.*;
 import java.lang.reflect.InvocationTargetException;
 import java.awt.event.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * BezierAnimationPanel

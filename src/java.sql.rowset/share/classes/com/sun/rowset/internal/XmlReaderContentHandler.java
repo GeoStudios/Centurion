@@ -19,20 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.rowset.internal;
+package java.sql.rowset.share.classes.com.sun.rowset.internal;
+
 
 import java.util.*;
-
 import org.xml.sax.*;
 import org.xml.sax.helpers.*;
-
 import java.sql.*;
 import javax.sql.*;
-
 import javax.sql.rowset.*;
-import com.sun.rowset.*;
-import java.io.IOException;
+import java.sql.rowset.share.classes.com.sun.rowset.*;
+import java.io.java.io.java.io.java.io.IOException;
 import java.text.MessageFormat;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The document handler that receives parse events that an XML parser sends while it

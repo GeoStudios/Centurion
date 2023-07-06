@@ -19,32 +19,45 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal;
+package jdk.jfr.share.classes.jdk.jfr.internal;
 
-import static jdk.jfr.internal.LogLevel.DEBUG;
-import static jdk.jfr.internal.LogTag.JFR_SYSTEM;
 
+import static jdk.jfr.share.classes.jdk.jfr.internal.LogLevel.DEBUG;.extended
+import static jdk.jfr.share.classes.jdk.jfr.internal.LogTag.JFR_SYSTEM;.extended
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.time.Instant;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
+import jdk.jfr.share.classes.jdk.jfr.AnnotationElement;
+import jdk.jfr.share.classes.jdk.jfr.Event;
+import jdk.jfr.share.classes.jdk.jfr.EventType;
+import jdk.jfr.share.classes.jdk.jfr.Period;
+import jdk.jfr.share.classes.jdk.jfr.StackTrace;
+import jdk.jfr.share.classes.jdk.jfr.Threshold;
+import jdk.jfr.share.classes.jdk.jfr.ValueDescriptor;
+import jdk.jfr.share.classes.jdk.jfr.internal.RequestEngine.RequestHook;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.RepositoryFiles;
+import jdk.jfr.share.classes.jdk.jfr.internal.handlers.EventHandler;
 
-import jdk.jfr.AnnotationElement;
-import jdk.jfr.Event;
-import jdk.jfr.EventType;
-import jdk.jfr.Period;
-import jdk.jfr.StackTrace;
-import jdk.jfr.Threshold;
-import jdk.jfr.ValueDescriptor;
-import jdk.jfr.internal.RequestEngine.RequestHook;
-import jdk.jfr.internal.consumer.RepositoryFiles;
-import jdk.jfr.internal.handlers.EventHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class MetadataRepository {
 

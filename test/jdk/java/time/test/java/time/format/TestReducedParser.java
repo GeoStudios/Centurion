@@ -21,16 +21,16 @@
 
 package test.java.time.format;
 
-import static java.time.temporal.ChronoField.DAY_OF_MONTH;
-import static java.time.temporal.ChronoField.DAY_OF_YEAR;
-import static java.time.temporal.ChronoField.MONTH_OF_YEAR;
-import static java.time.temporal.ChronoField.YEAR;
-import static java.time.temporal.ChronoField.YEAR_OF_ERA;
-import static java.time.temporal.ChronoUnit.YEARS;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
-import static org.testng.Assert.assertNotNull;
 
+import static java.time.temporal.ChronoField.DAY_OF_MONTH;.extended
+import static java.time.temporal.ChronoField.DAY_OF_YEAR;.extended
+import static java.time.temporal.ChronoField.MONTH_OF_YEAR;.extended
+import static java.time.temporal.ChronoField.YEAR;.extended
+import static java.time.temporal.ChronoField.YEAR_OF_ERA;.extended
+import static java.time.temporal.ChronoUnit.YEARS;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertTrue;.extended
+import static org.testng.Assert.assertNotNull;.extended
 import java.text.ParsePosition;
 import java.time.LocalDate;
 import java.time.chrono.Chronology;
@@ -46,9 +46,21 @@ import java.time.format.DateTimeFormatterBuilder;
 import java.time.temporal.TemporalAccessor;
 import java.time.temporal.TemporalField;
 import java.time.temporal.TemporalQueries;
-
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test ReducedPrinterParser.

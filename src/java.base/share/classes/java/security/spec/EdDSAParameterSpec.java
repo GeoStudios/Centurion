@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.security.spec;
+package java.base.share.classes.java.security.spec;
 
-import java.security.InvalidParameterException;
-import java.util.Objects;
-import java.util.Optional;
+
+import java.base.share.classes.java.security.InvalidParameterException;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Optional;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class used to specify EdDSA signature and verification parameters. All

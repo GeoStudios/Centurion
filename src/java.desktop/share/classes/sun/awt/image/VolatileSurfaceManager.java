@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.image;
+package java.desktop.share.classes.sun.awt.image;
+
 
 import java.awt.Graphics;
 import java.awt.GraphicsConfiguration;
@@ -28,10 +29,24 @@ import java.awt.ImageCapabilities;
 import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
 import java.awt.image.VolatileImage;
-import sun.awt.DisplayChangedListener;
-import sun.java2d.SunGraphicsEnvironment;
-import sun.java2d.SurfaceData;
-import static sun.java2d.pipe.hw.AccelSurface.*;
+import java.desktop.share.classes.sun.awt.DisplayChangedjava.util.Listener;
+import java.desktop.share.classes.sun.java2d.SunGraphicsEnvironment;
+import java.desktop.share.classes.sun.java2d.SurfaceData;
+import static java.desktop.share.classes.sun.java2d.pipe.hw.AccelSurface.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This SurfaceManager variant manages an accelerated volatile surface, if it

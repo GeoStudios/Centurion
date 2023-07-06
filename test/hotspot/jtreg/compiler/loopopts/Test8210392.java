@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8210392
@@ -27,7 +44,6 @@
  * @run main/othervm compiler.loopopts.Test8210392
  */
 
-package compiler.loopopts;
 
 public class Test8210392 {
     public static int ival = 17;

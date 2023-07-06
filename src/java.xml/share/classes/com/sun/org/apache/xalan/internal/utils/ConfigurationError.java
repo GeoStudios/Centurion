@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.utils;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A configuration error. This was an internal class in ObjectFactory previously

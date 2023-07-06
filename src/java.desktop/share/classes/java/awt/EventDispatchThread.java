@@ -19,17 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.event.MouseEvent;
-import java.awt.event.ActionEvent;
-import java.awt.event.WindowEvent;
 
-import java.util.ArrayList;
-
+import java.desktop.share.classes.java.awt.event.MouseEvent;
+import java.desktop.share.classes.java.awt.event.ActionEvent;
+import java.desktop.share.classes.java.awt.event.WindowEvent;
+import java.desktop.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
 import sun.util.logging.PlatformLogger;
-
 import sun.awt.dnd.SunDragSourceContextPeer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * EventDispatchThread is a package-private AWT class which takes

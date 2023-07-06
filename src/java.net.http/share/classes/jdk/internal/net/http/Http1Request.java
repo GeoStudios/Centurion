@@ -19,29 +19,43 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.nio.ByteBuffer;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.net.InetSocketAddress;
-import java.util.Objects;
+import java.net.Inetjava.net.SocketAddress;
+import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.Flow;
 import java.util.function.BiPredicate;
 import java.net.http.HttpHeaders;
 import java.net.http.HttpRequest;
-import jdk.internal.net.http.Http1Exchange.Http1BodySubscriber;
-import jdk.internal.net.http.common.HttpHeadersBuilder;
-import jdk.internal.net.http.common.Log;
-import jdk.internal.net.http.common.Logger;
-import jdk.internal.net.http.common.Utils;
+import java.net.http.share.classes.jdk.internal.net.http.Http1Exchange.Http1BodySubscriber;
+import java.net.http.share.classes.jdk.internal.net.http.common.HttpHeadersBuilder;
+import java.net.http.share.classes.jdk.internal.net.http.common.Log;
+import java.net.http.share.classes.jdk.internal.net.http.common.Logger;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+import static java.lang.String.format;.extended
+import static java.nio.charset.StandardCharsets.US_ASCII;.extended
 
-import static java.lang.String.format;
-import static java.nio.charset.StandardCharsets.US_ASCII;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  An HTTP/1.1 request.

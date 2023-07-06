@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.security.*;
+
+import java.base.share.classes.java.security.*;
 import java.security.spec.AlgorithmParameterSpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Signature implementation for the SSL/TLS RSA Signature variant with both

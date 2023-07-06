@@ -19,15 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac;
+package jdk.compiler.share.classes.com.sun.tools.sjavac;
+
 
 import java.io.File;
 import java.net.URI;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Random;
 import java.util.Set;
@@ -36,13 +37,26 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Main.Result;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.comp.CompilationService;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.options.Options;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.pubapi.PubApi;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.server.CompilationSubResult;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.server.SysInfo;
 
-import com.sun.tools.javac.main.Main.Result;
-import com.sun.tools.sjavac.comp.CompilationService;
-import com.sun.tools.sjavac.options.Options;
-import com.sun.tools.sjavac.pubapi.PubApi;
-import com.sun.tools.sjavac.server.CompilationSubResult;
-import com.sun.tools.sjavac.server.SysInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This transform compiles a set of packages containing Java sources.

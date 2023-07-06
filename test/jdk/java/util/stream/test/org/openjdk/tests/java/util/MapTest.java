@@ -21,19 +21,31 @@
 
 package org.openjdk.tests.java.util;
 
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 import java.util.stream.LambdaTestHelpers;
-
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import static org.testng.Assert.assertEquals;.extended
 
-import static org.testng.Assert.assertEquals;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Unit tests for extension methods on Map

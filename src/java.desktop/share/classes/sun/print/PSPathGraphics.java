@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.share.classes.sun.print;
+
 
 import java.awt.Color;
 import java.awt.Font;
@@ -28,24 +29,34 @@ import java.awt.Graphics2D;
 import java.awt.Image;
 import java.awt.Shape;
 import java.awt.Transparency;
-
 import java.awt.font.FontRenderContext;
 import java.awt.font.TextLayout;
-
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Area;
 import java.awt.geom.PathIterator;
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
 import java.awt.geom.Line2D;
-
 import java.awt.image.BufferedImage;
-import sun.awt.image.ByteComponentRaster;
-
+import java.desktop.share.classes.sun.awt.image.ByteComponentRaster;
 import java.awt.print.PageFormat;
 import java.awt.print.Printable;
 import java.awt.print.PrinterException;
 import java.awt.print.PrinterJob;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class converts paths into PostScript

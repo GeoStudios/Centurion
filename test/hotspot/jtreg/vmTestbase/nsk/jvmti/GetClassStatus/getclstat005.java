@@ -21,7 +21,21 @@
 
 package nsk.jvmti.GetClassStatus;
 
+
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class getclstat005 {
 

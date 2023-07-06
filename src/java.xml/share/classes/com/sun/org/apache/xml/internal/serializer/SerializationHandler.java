@@ -19,20 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import javax.xml.transform.Transformer;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.ErrorHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.ext.DeclHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: SerializationHandler.java,v 1.2.4.1 2005/09/15 08:15:22 suresh_emailid Exp $
  */
-package com.sun.org.apache.xml.internal.serializer;
 
-import java.io.IOException;
 
-import javax.xml.transform.Transformer;
 
-import org.w3c.dom.Node;
-import org.xml.sax.ContentHandler;
-import org.xml.sax.ErrorHandler;
-import org.xml.sax.SAXException;
-import org.xml.sax.ext.DeclHandler;
+
 
 /**
  * This interface is the one that a serializer implements. It is a group of

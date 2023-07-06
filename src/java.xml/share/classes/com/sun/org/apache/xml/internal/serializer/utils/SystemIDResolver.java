@@ -19,17 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils;
+
+
+import java.io.File;
+import javax.xml.transform.TransformerException;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.URI.MalformedURIException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.serializer.utils;
 
-import java.io.File;
 
-import javax.xml.transform.TransformerException;
 
-import com.sun.org.apache.xml.internal.serializer.utils.URI.MalformedURIException;
+
 
 /**
  * This class is used to resolve relative URIs and SystemID

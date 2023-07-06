@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.MemoryEaterMT;
+
+
+import nsk.share.gc.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -31,9 +49,7 @@
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.MemoryEaterMT.MemoryEaterMT
  */
 
-package gc.gctests.MemoryEaterMT;
 
-import nsk.share.gc.*;
 
 /**
  * This test simply does Algorithms.eatMemory() in a loop

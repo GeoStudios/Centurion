@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.jaxp.datatype;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.datatype;
 
-import com.sun.org.apache.xerces.internal.util.DatatypeMessageFormatter;
-import java.io.IOException;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.DatatypeMessageFormatter;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
 import java.math.BigDecimal;
@@ -31,13 +32,27 @@ import java.math.RoundingMode;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.TimeZone;
 import javax.xml.datatype.DatatypeConstants;
 import javax.xml.datatype.Duration;
 import javax.xml.datatype.XMLGregorianCalendar;
 import javax.xml.namespace.QName;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Representation for W3C XML Schema 1.0 date/time datatypes.

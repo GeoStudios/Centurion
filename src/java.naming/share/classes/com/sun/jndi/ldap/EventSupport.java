@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap;
+package java.naming.share.classes.com.sun.jndi.ldap;
+
 
 import java.util.Hashtable;
 import java.util.Vector;
 import java.util.EventObject;
 import java.util.Iterator;
 import java.util.Map;
-
 import javax.naming.*;
 import javax.naming.event.*;
 import javax.naming.directory.SearchControls;
-import javax.naming.ldap.UnsolicitedNotificationListener;
+import javax.naming.ldap.UnsolicitedNotificationjava.util.Listener;
 import javax.naming.ldap.UnsolicitedNotificationEvent;
 import javax.naming.ldap.UnsolicitedNotification;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is a utility class that can be used by a context that supports
@@ -128,7 +142,7 @@ final class EventSupport {
      * <em>Do we need to record the name of the target context?
      * Or can we assume that EventSupport is called on a resolved
      * context? Do we need other add/remove-NamingListener methods?
-     * package private;
+     * 
      */
     EventSupport(LdapCtx ctx) {
         this.ctx = ctx;
@@ -237,7 +251,7 @@ final class EventSupport {
     }
 
     /**
-      * package private;
+      * 
       * Called by NamingEventNotifier to remove itself when it encounters
       * a NamingException.
       */
@@ -255,7 +269,7 @@ final class EventSupport {
 
     /**
      * Fire an event to unsolicited listeners.
-     * package private;
+     * 
      * Called by LdapCtx when its clnt receives an unsolicited notification.
      */
     synchronized void fireUnsolicited(Object obj) {

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole;
+package jdk.jconsole.share.classes.sun.tools.jconsole;
+
 
 import java.awt.*;
 import java.awt.event.*;
@@ -28,16 +29,27 @@ import java.lang.management.*;
 import java.lang.reflect.*;
 import java.util.*;
 import java.util.concurrent.*;
-
 import javax.accessibility.*;
 import javax.management.*;
 import javax.management.openmbean.CompositeData;
 import javax.swing.*;
 import javax.swing.border.*;
+import static jdk.jconsole.share.classes.sun.tools.jconsole.Formatter.*;.extended
+import static jdk.jconsole.share.classes.sun.tools.jconsole.Utilities.*;.extended
 
 
-import static sun.tools.jconsole.Formatter.*;
-import static sun.tools.jconsole.Utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 class MemoryTab extends Tab implements ActionListener, ItemListener {

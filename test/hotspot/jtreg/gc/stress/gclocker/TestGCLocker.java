@@ -21,17 +21,32 @@
 
 package gc.stress.gclocker;
 
-// Stress the GC locker by calling GetPrimitiveArrayCritical while
-// concurrently filling up old gen.
 
 import java.lang.management.MemoryPoolMXBean;
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryUsage;
 import java.util.ArrayDeque;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Queue;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Stress the GC locker by calling GetPrimitiveArrayCritical while
+// concurrently filling up old gen.
+
 
 final class ThreadUtils {
     public static void sleep(long durationMS) {

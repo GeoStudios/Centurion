@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.dv.xs;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs;
 
-import com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType;
-import com.sun.org.apache.xerces.internal.util.SymbolHash;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolHash;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A special factory to create/return built-in schema DVs and create user-defined DVs

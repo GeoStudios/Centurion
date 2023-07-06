@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.tree;
+package java.desktop.share.classes.javax.swing.tree;
+
 
 import java.awt.Component;
-import javax.swing.CellEditor;
-import javax.swing.JTree;
+import java.desktop.share.classes.javax.swing.CellEditor;
+import java.desktop.share.classes.javax.swing.JTree;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * Adds to CellEditor the extensions necessary to configure an editor

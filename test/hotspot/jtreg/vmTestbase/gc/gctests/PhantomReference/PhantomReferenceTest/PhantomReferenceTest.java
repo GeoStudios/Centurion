@@ -19,6 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.PhantomReference.PhantomReferenceTest;
+
+
+import gc.gctests.PhantomReference.PRHelper;
+import gc.gctests.PhantomReference.PhantomHelper;
+import java.lang.ref.ReferenceQueue;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.HashMap;
+import java.util.Random;
+import nsk.share.TestFailure;
+import nsk.share.gc.GC;
+import nsk.share.gc.GCTestBase;
+import nsk.share.gc.gp.GarbageUtils;
+import nsk.share.test.Stresser;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -39,19 +67,7 @@
  *      gc.gctests.PhantomReference.PhantomReferenceTest.PhantomReferenceTest
  */
 
-package gc.gctests.PhantomReference.PhantomReferenceTest;
 
-import gc.gctests.PhantomReference.PRHelper;
-import gc.gctests.PhantomReference.PhantomHelper;
-import java.lang.ref.ReferenceQueue;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Random;
-import nsk.share.TestFailure;
-import nsk.share.gc.GC;
-import nsk.share.gc.GCTestBase;
-import nsk.share.gc.gp.GarbageUtils;
-import nsk.share.test.Stresser;
 
 /**
  * Tests for the PhantomReference handling in JRockit.

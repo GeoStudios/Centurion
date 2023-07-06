@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.text;
+package java.base.share.classes.sun.text;
+
 
 import java.nio.BufferUnderflowException;
 import java.nio.ByteBuffer;
@@ -27,8 +28,22 @@ import java.text.BreakIterator;
 import java.text.CharacterIterator;
 import java.text.StringCharacterIterator;
 import java.util.MissingResourceException;
-import sun.text.CompactByteArray;
-import sun.text.SupplementaryCharacterData;
+import java.base.share.classes.sun.text.CompactByteArray;
+import java.base.share.classes.sun.text.SupplementaryCharacterData;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>A subclass of BreakIterator whose behavior is specified using a list of rules.</p>

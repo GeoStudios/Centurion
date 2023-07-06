@@ -19,18 +19,15 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package com.sun.org.apache.xml.internal.security.keys.content.keyvalues;
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.keyvalues;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
-import java.security.Key;
-import java.security.KeyFactory;
-import java.security.NoSuchAlgorithmException;
-import java.security.PublicKey;
+import java.base.share.classes.java.security.Key;
+import java.base.share.classes.java.security.KeyFactory;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.PublicKey;
 import java.security.interfaces.ECPublicKey;
 import java.security.spec.ECField;
 import java.security.spec.ECFieldFp;
@@ -38,21 +35,42 @@ import java.security.spec.ECParameterSpec;
 import java.security.spec.ECPoint;
 import java.security.spec.ECPublicKeySpec;
 import java.security.spec.EllipticCurve;
-import java.security.spec.InvalidKeySpecException;
-import java.util.Arrays;
-
+import java.base.share.classes.java.security.spec.InvalidKeySpecException;
+import java.base.share.classes.java.util.Arrays;
 import javax.xml.crypto.MarshalException;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Text;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.Constants;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.I18n;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.Signature11ElementProxy;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.XMLUtils;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.Text;
 
-import com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
-import com.sun.org.apache.xml.internal.security.utils.Constants;
-import com.sun.org.apache.xml.internal.security.utils.I18n;
-import com.sun.org.apache.xml.internal.security.utils.Signature11ElementProxy;
-import com.sun.org.apache.xml.internal.security.utils.XMLUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
+
+
 
 public class ECKeyValue extends Signature11ElementProxy implements KeyValueContent {
 

@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.applet;
+package java.desktop.share.classes.java.applet;
 
-import java.awt.Image;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.URL;
-import java.util.Enumeration;
-import java.util.Iterator;
+
+import java.desktop.share.classes.java.awt.Image;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.InputStream;
+import java.desktop.share.classes.java.net.URL;
+import java.desktop.share.classes.java.util.Enumeration;
+import java.desktop.share.classes.java.util.Iterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface corresponds to an applet's environment: the document

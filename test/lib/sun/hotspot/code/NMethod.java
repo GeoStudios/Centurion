@@ -21,8 +21,22 @@
 
 package sun.hotspot.code;
 
+
 import java.lang.reflect.Executable;
 import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @Deprecated
 public class NMethod extends CodeBlob {

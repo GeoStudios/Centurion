@@ -21,10 +21,23 @@
 
 package nsk.jvmti.AddCapabilities;
 
-import java.io.PrintStream;
 
+import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class addcaps001 extends DebugeeClass {
 

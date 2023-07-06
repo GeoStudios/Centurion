@@ -18,9 +18,11 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package java.util.stream;
 
-import java.util.Arrays;
+
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.PrimitiveIterator;
@@ -32,6 +34,19 @@ import java.util.function.IntConsumer;
 import java.util.function.LongConsumer;
 import java.util.function.Supplier;
 import java.util.function.ToIntFunction;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Describes a test data set for use in stream tests */
 public interface TestData<T, S extends BaseStream<T, S>>

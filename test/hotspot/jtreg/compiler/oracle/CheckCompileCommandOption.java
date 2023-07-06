@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.oracle;
+
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import java.io.File;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test CheckCompileCommandOption
  * @summary Checks parsing of -XX:CompileCommand=option
@@ -31,12 +51,8 @@
  * @run driver compiler.oracle.CheckCompileCommandOption
  */
 
-package compiler.oracle;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
-import java.io.File;
 
 public class CheckCompileCommandOption {
 

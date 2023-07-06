@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.windows.classes.sun.awt.windows;
 
-package sun.awt.windows;
 
 import java.awt.Image;
 import java.awt.Toolkit;
 import java.awt.im.spi.InputMethod;
 import java.awt.im.spi.InputMethodDescriptor;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides sufficient information about an input method

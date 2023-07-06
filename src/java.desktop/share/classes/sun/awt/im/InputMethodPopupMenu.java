@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.im;
+package java.desktop.share.classes.sun.awt.im;
+
 
 import java.awt.AWTException;
 import java.awt.CheckboxMenuItem;
@@ -30,9 +31,9 @@ import java.awt.Menu;
 import java.awt.MenuItem;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.im.spi.InputMethodDescriptor;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import javax.swing.JCheckBoxMenuItem;
 import javax.swing.JComponent;
 import javax.swing.JDialog;
@@ -40,6 +41,20 @@ import javax.swing.JFrame;
 import javax.swing.JPopupMenu;
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code InputMethodPopupMenu} provides the popup selection menu

@@ -19,20 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
+
+
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ArithmeticInstruction;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ArrayInstruction;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConversionInstruction;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Instruction;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.InstructionConst;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.LocalVariableInstruction;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ReturnInstruction;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.StackInstruction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: Constants.java,v 1.7 2006/06/19 19:49:04 spericas Exp $
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-import com.sun.org.apache.bcel.internal.generic.ArithmeticInstruction;
-import com.sun.org.apache.bcel.internal.generic.ArrayInstruction;
-import com.sun.org.apache.bcel.internal.generic.ConversionInstruction;
-import com.sun.org.apache.bcel.internal.generic.Instruction;
-import com.sun.org.apache.bcel.internal.generic.InstructionConst;
-import com.sun.org.apache.bcel.internal.generic.LocalVariableInstruction;
-import com.sun.org.apache.bcel.internal.generic.ReturnInstruction;
-import com.sun.org.apache.bcel.internal.generic.StackInstruction;
+
 
 /**
  */

@@ -19,6 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.compilercontrol.jcmd;
+
+
+import compiler.compilercontrol.share.AbstractTestBase;
+import compiler.compilercontrol.share.method.MethodDescriptor;
+import compiler.compilercontrol.share.scenario.Command;
+import compiler.compilercontrol.share.scenario.CommandGenerator;
+import compiler.compilercontrol.share.scenario.CompileCommand;
+import compiler.compilercontrol.share.scenario.JcmdCommand;
+import compiler.compilercontrol.share.scenario.Scenario;
+import jdk.test.lib.Utils;
+import sun.hotspot.WhiteBox;
+import java.lang.reflect.Executable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key randomness
@@ -35,19 +62,8 @@
  *                   compiler.compilercontrol.jcmd.ClearDirectivesFileStackTest
  */
 
-package compiler.compilercontrol.jcmd;
 
-import compiler.compilercontrol.share.AbstractTestBase;
-import compiler.compilercontrol.share.method.MethodDescriptor;
-import compiler.compilercontrol.share.scenario.Command;
-import compiler.compilercontrol.share.scenario.CommandGenerator;
-import compiler.compilercontrol.share.scenario.CompileCommand;
-import compiler.compilercontrol.share.scenario.JcmdCommand;
-import compiler.compilercontrol.share.scenario.Scenario;
-import jdk.test.lib.Utils;
-import sun.hotspot.WhiteBox;
 
-import java.lang.reflect.Executable;
 
 public class ClearDirectivesFileStackTest extends AbstractTestBase {
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();

@@ -19,40 +19,47 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.Image;
-
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
-
 import java.awt.image.BufferedImage;
 import java.awt.image.ColorModel;
 import java.awt.image.WritableRaster;
-
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.IOException;
-
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
-
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
-
 import javax.imageio.ImageIO;
 import javax.imageio.ImageReader;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.ImageWriter;
 import javax.imageio.spi.ImageWriterSpi;
-
-import sun.datatransfer.DataFlavorUtil;
-import sun.awt.datatransfer.DataTransferer;
-import sun.awt.datatransfer.ToolkitThreadBlockedHandler;
-
+import java.desktop.unix.classes.sun.datatransfer.DataFlavorUtil;
+import java.desktop.unix.classes.sun.awt.datatransfer.DataTransferer;
+import java.desktop.unix.classes.sun.awt.datatransfer.ToolkitThreadBlockedHandler;
 import java.io.ByteArrayOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Platform-specific support for the data transfer subsystem.

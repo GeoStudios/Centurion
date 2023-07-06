@@ -19,12 +19,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.serializer;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
-import com.sun.org.apache.xml.internal.serializer.utils.MsgKey;
-import com.sun.org.apache.xml.internal.serializer.utils.SystemIDResolver;
-import com.sun.org.apache.xml.internal.serializer.utils.Utils;
-import com.sun.org.apache.xml.internal.serializer.utils.WrappedRuntimeException;
+
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.MsgKey;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.SystemIDResolver;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.Utils;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.WrappedRuntimeException;
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -33,12 +34,26 @@ import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.Enumeration;
 import java.util.HashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.PropertyResourceBundle;
 import java.util.ResourceBundle;
 import javax.xml.transform.TransformerException;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides services that tell if a character should have

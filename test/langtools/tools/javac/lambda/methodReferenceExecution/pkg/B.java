@@ -20,6 +20,22 @@
  */
 
 package pkg;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class A {
     public static void m() {
         B.result += "A.m()";

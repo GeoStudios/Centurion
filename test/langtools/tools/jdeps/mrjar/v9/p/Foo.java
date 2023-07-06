@@ -21,6 +21,21 @@
 
 package p;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // dependencies: Object, q.Bar
 public class Foo {
     void crash() {

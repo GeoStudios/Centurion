@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.tree;
+package jdk.compiler.share.classes.com.sun.tools.javac.tree;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Specifies the methods to access a mappings of syntax trees to end positions.

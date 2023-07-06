@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.icu.util;
+package java.base.share.classes.jdk.internal.icu.util;
+
 
 import java.util.HashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class to store version numbers of the form major.minor.milli.micro.

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @summary Check that methods are printed properly.
@@ -27,7 +44,6 @@
  * @run main/othervm -Xbootclasspath/a:. test.TestPrintingMethods
  */
 
-package test;
 
 public class TestPrintingMethods {
 

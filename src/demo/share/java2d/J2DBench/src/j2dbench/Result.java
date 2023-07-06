@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.java2d.J2DBench.src.j2dbench;
+
+
+import java.util.Vector;
+import java.util.Hashtable;
+import java.util.Enumeration;
+import java.io.PrintWriter;
+import java.util.HashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -28,13 +51,8 @@
  */
 
 
-package j2dbench;
 
-import java.util.Vector;
-import java.util.Hashtable;
-import java.util.Enumeration;
-import java.io.PrintWriter;
-import java.util.HashMap;
+
 
 public class Result {
     public static final int RATE_UNKNOWN    = 0;

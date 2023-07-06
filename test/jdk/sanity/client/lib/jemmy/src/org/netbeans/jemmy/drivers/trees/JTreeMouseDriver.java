@@ -18,14 +18,14 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.drivers.trees;
+
 
 import java.awt.Point;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
-
 import javax.swing.text.JTextComponent;
-
 import org.netbeans.jemmy.QueueTool;
 import org.netbeans.jemmy.Timeout;
 import org.netbeans.jemmy.drivers.DriverManager;
@@ -37,6 +37,19 @@ import org.netbeans.jemmy.operators.ComponentOperator;
 import org.netbeans.jemmy.operators.JTextComponentOperator;
 import org.netbeans.jemmy.operators.JTreeOperator;
 import org.netbeans.jemmy.operators.Operator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * TreeDriver for javax.swing.JTree component type. Uses mouse operations.

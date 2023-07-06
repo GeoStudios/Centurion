@@ -18,26 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package javax.xml.validation.ptests;
 
-import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;
-import static javax.xml.validation.ptests.ValidationTestConst.XML_DIR;
-import static org.testng.Assert.assertNotNull;
-import static org.testng.Assert.assertNull;
-import static org.testng.Assert.assertSame;
-import static org.testng.Assert.assertTrue;
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertNotSame;
-import static org.testng.Assert.assertEquals;
 
+import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;.extended
+import static javax.xml.validation.ptests.ValidationTestConst.XML_DIR;.extended
+import static org.testng.Assert.assertNotNull;.extended
+import static org.testng.Assert.assertNull;.extended
+import static org.testng.Assert.assertSame;.extended
+import static org.testng.Assert.assertTrue;.extended
+import static org.testng.Assert.assertFalse;.extended
+import static org.testng.Assert.assertNotSame;.extended
+import static org.testng.Assert.assertEquals;.extended
 import java.io.ByteArrayInputStream;
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -50,12 +50,10 @@ import javax.xml.transform.stax.StAXSource;
 import javax.xml.transform.stream.StreamSource;
 import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;
-
 import jaxp.library.JAXPDataProvider;
-
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.Document;
 import org.xml.sax.ErrorHandler;
@@ -64,6 +62,19 @@ import org.xml.sax.SAXException;
 import org.xml.sax.SAXNotRecognizedException;
 import org.xml.sax.SAXNotSupportedException;
 import org.xml.sax.SAXParseException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

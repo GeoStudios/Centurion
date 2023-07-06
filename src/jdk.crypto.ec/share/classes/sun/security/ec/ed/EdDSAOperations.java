@@ -18,24 +18,39 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.security.ec.ed;
 
-import sun.security.ec.point.AffinePoint;
-import sun.security.ec.point.Point;
-import sun.security.util.ArrayUtil;
-import sun.security.util.math.IntegerFieldModuloP;
-import sun.security.util.math.IntegerModuloP;
-import sun.security.util.math.MutableIntegerModuloP;
+package jdk.crypto.ec.share.classes.sun.security.ec.ed;
 
+
+import jdk.crypto.ec.share.classes.sun.security.ec.point.AffinePoint;
+import jdk.crypto.ec.share.classes.sun.security.ec.point.Point;
+import jdk.crypto.ec.share.classes.sun.security.util.ArrayUtil;
+import jdk.crypto.ec.share.classes.sun.security.util.math.IntegerFieldModuloP;
+import jdk.crypto.ec.share.classes.sun.security.util.math.IntegerModuloP;
+import jdk.crypto.ec.share.classes.sun.security.util.math.MutableIntegerModuloP;
 import java.math.BigInteger;
-import java.security.InvalidKeyException;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.security.SignatureException;
 import java.security.spec.EdDSAParameterSpec;
 import java.security.spec.EdECPoint;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.function.Function;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * A class containing the operations of the EdDSA signature scheme. The

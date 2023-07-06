@@ -18,17 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.awt.windows;
+
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.awt.*;
 import java.awt.event.AdjustmentEvent;
 import java.awt.peer.ScrollPanePeer;
+import java.desktop.windows.classes.sun.awt.AWTAccessor;
+import java.desktop.windows.classes.sun.awt.AWTAccessor.ComponentAccessor;
+import java.desktop.windows.classes.sun.awt.PeerEvent;
+import java.desktop.windows.classes.sun.util.logging.PlatformLogger;
 
-import sun.awt.AWTAccessor;
-import sun.awt.AWTAccessor.ComponentAccessor;
-import sun.awt.PeerEvent;
 
-import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class WScrollPanePeer extends WPanelPeer implements ScrollPanePeer {
 

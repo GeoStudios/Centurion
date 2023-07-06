@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
-import java.io.FileDescriptor;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.nio.channels.FileChannel;
+
+import java.base.share.classes.java.io.FileDescriptor;
+import java.base.share.classes.java.io.FileOutputStream;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.nio.channels.FileChannel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This stream extends FileOutputStream to implement a

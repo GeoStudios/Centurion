@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
 
 import java.awt.*;
 import java.awt.image.*;
 import java.awt.print.PageFormat;
 import java.nio.ByteBuffer;
+import java.desktop.macosx.classes.sun.java2d.*;
+import java.desktop.macosx.classes.sun.java2d.loops.SurfaceType;
 
-import sun.java2d.*;
-import sun.java2d.loops.SurfaceType;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CPrinterSurfaceData extends OSXSurfaceData{
     public static final String DESC_INT_RGB_PQ = "Integer RGB Printer Quartz";

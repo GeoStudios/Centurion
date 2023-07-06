@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jdi;
+package jdk.jdi.share.classes.com.sun.jdi;
 
-import com.sun.jdi.event.EventQueue;
-import com.sun.jdi.event.VMDisconnectEvent;
+
+import jdk.jdi.share.classes.com.sun.jdi.event.EventQueue;
+import jdk.jdi.share.classes.com.sun.jdi.event.VMDisconnectEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A module in the target VM.

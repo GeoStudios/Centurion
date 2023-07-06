@@ -19,21 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.util;
+package jdk.compiler.share.classes.com.sun.tools.javac.util;
+
 
 import java.util.Collection;
 import java.util.EnumSet;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Set;
 import javax.tools.JavaFileObject;
+import jdk.compiler.share.classes.com.sun.tools.javac.api.DiagnosticFormatter.Configuration.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.api.Formattable;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Source;
+import jdk.compiler.share.classes.com.sun.tools.javac.file.PathFileObject;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
+import static jdk.compiler.share.classes.com.sun.tools.javac.api.DiagnosticFormatter.PositionKind.*;.extended
 
-import com.sun.tools.javac.api.DiagnosticFormatter.Configuration.*;
-import com.sun.tools.javac.api.Formattable;
-import com.sun.tools.javac.code.Source;
-import com.sun.tools.javac.file.PathFileObject;
-import com.sun.tools.javac.tree.JCTree.*;
 
-import static com.sun.tools.javac.api.DiagnosticFormatter.PositionKind.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A raw formatter for diagnostic messages.

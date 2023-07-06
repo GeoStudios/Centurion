@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.util;
 
-import com.sun.hotspot.igv.data.Properties;
-import com.sun.hotspot.igv.data.Property;
-import java.lang.reflect.InvocationTargetException;
+package utils.IdealGraphVisualizer.Util.src.main.java.com.sun.hotspot.igv.util;
+
+
+import utils.IdealGraphVisualizer.Util.src.main.java.com.sun.hotspot.igv.data.Properties;
+import utils.IdealGraphVisualizer.Util.src.main.java.com.sun.hotspot.igv.data.Property;
+import utils.IdealGraphVisualizer.Util.src.main.java.lang.reflect.InvocationTargetException;
 import org.openide.nodes.Node;
 import org.openide.nodes.Sheet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

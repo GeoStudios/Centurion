@@ -21,6 +21,21 @@
 
 package nsk.jvmti.scenarios.hotswap.HS201;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class hs201t002a extends Exception {
 
     public hs201t002a () {

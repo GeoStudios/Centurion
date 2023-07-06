@@ -18,18 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.java.swing.plaf.motif;
 
-import java.awt.*;
-import java.awt.event.*;
+package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
+
+
+import java.desktop.share.classes.com.sun.java.awt.*;
+import java.desktop.share.classes.com.sun.java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.plaf.*;
 import javax.swing.border.*;
 import javax.swing.plaf.basic.*;
-
-
 import javax.swing.plaf.basic.BasicMenuUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Motif {@literal L&F} implementation of MenuUI.

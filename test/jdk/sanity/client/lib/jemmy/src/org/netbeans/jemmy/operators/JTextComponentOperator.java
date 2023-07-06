@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.operators;
+
 
 import java.awt.Color;
 import java.awt.Component;
@@ -27,13 +29,12 @@ import java.awt.Dimension;
 import java.awt.Insets;
 import java.awt.Point;
 import java.awt.Rectangle;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.Reader;
 import java.io.Writer;
 import java.util.Hashtable;
-
 import javax.swing.JScrollPane;
-import javax.swing.event.CaretListener;
+import javax.swing.event.Caretjava.util.Listener;
 import javax.swing.plaf.TextUI;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.Caret;
@@ -41,7 +42,6 @@ import javax.swing.text.Document;
 import javax.swing.text.Highlighter;
 import javax.swing.text.JTextComponent;
 import javax.swing.text.Keymap;
-
 import org.netbeans.jemmy.Action;
 import org.netbeans.jemmy.ComponentChooser;
 import org.netbeans.jemmy.ComponentSearcher;
@@ -55,6 +55,19 @@ import org.netbeans.jemmy.Timeouts;
 import org.netbeans.jemmy.drivers.DriverManager;
 import org.netbeans.jemmy.drivers.TextDriver;
 import org.netbeans.jemmy.util.EmptyVisualizer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

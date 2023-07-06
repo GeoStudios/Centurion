@@ -19,6 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package p;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
+import java.lang.annotation.Annotation;
+import java.net.URL;
+import java.net.URLClassLoader;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+import org.w3c.dom.css.CSSRule;
+import javax.tools.JavaCompiler;
+import javax.tools.JavaFileObject;
+import javax.tools.StandardJavaFileManager;
+import javax.tools.ToolProvider;
+import static org.testng.Assert.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @summary Basic test of package-info in named module and duplicate
@@ -33,30 +69,10 @@
  * @run testng p.PackageInfoTest
  */
 
-package p;
 
-import java.io.IOException;
-import java.io.UncheckedIOException;
-import java.lang.annotation.Annotation;
-import java.net.URL;
-import java.net.URLClassLoader;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
-import org.w3c.dom.css.CSSRule;
 
-import javax.tools.JavaCompiler;
-import javax.tools.JavaFileObject;
-import javax.tools.StandardJavaFileManager;
-import javax.tools.ToolProvider;
 
-import static org.testng.Assert.*;
 
 public class PackageInfoTest {
     @DataProvider(name = "jdkClasses")

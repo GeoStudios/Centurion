@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.awt.windows;
+
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.util.ResourceBundle;
 import java.util.MissingResourceException;
@@ -27,7 +29,21 @@ import java.awt.peer.*;
 import java.awt.event.ActionEvent;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import sun.util.logging.PlatformLogger;
+import java.desktop.windows.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("removal")
 class WMenuItemPeer extends WObjectPeer implements MenuItemPeer {

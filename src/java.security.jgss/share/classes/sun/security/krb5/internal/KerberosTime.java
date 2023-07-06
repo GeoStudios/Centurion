@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal;
+package java.security.jgss.share.classes.sun.security.krb5.internal;
 
-import sun.security.krb5.Asn1Exception;
-import sun.security.krb5.Config;
-import sun.security.krb5.KrbException;
-import sun.security.util.DerInputStream;
-import sun.security.util.DerOutputStream;
-import sun.security.util.DerValue;
 
-import java.io.IOException;
+import java.security.jgss.share.classes.sun.security.krb5.Asn1Exception;
+import java.security.jgss.share.classes.sun.security.krb5.Config;
+import java.security.jgss.share.classes.sun.security.krb5.KrbException;
+import java.security.jgss.share.classes.sun.security.util.DerInputStream;
+import java.security.jgss.share.classes.sun.security.util.DerOutputStream;
+import java.security.jgss.share.classes.sun.security.util.DerValue;
+import java.io.java.io.java.io.java.io.IOException;
 import java.time.Instant;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.TimeZone;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements the ASN.1 KerberosTime type. This is an immutable class.

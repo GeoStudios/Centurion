@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.org.objectweb.asm;
+package java.base.share.classes.jdk.internal.org.objectweb.asm;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The JVM opcodes, access flags and array type codes. This interface does not define all the JVM

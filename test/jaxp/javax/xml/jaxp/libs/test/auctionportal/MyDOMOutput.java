@@ -18,11 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.auctionportal;
+
 
 import org.w3c.dom.ls.LSOutput;
 import java.io.OutputStream;
 import java.io.Writer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Thread-safe LS output destination for DOM processing. LSOutput objects

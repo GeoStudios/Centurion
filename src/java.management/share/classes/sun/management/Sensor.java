@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.management;
+package java.management.share.classes.sun.management;
+
 
 import java.lang.management.MemoryUsage;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.HashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An abstract sensor.

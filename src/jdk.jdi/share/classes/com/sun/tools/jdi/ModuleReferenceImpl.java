@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-import com.sun.jdi.ClassLoaderReference;
-import com.sun.jdi.ModuleReference;
-import com.sun.jdi.VirtualMachine;
+
+import jdk.jdi.share.classes.com.sun.jdi.ClassLoaderReference;
+import jdk.jdi.share.classes.com.sun.jdi.ModuleReference;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class ModuleReferenceImpl extends ObjectReferenceImpl implements ModuleReference {
 

@@ -21,11 +21,25 @@
 
 package jdk.jfr.api.metadata.annotations;
 
+
 import jdk.jfr.AnnotationElement;
 import jdk.jfr.Label;
 import jdk.jfr.MetadataDefinition;
 import jdk.jfr.Timestamp;
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jarsigner;
+package jdk.jartool.share.classes.com.sun.jarsigner;
+
 
 import java.net.URI;
 import java.security.cert.X509Certificate;
 import java.util.zip.ZipFile;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface encapsulates the parameters for a ContentSigner object.

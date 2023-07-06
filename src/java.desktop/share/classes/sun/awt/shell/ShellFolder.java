@@ -19,13 +19,14 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.shell;
+package java.desktop.share.classes.sun.awt.shell;
+
 
 import java.awt.Image;
 import java.awt.Toolkit;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.Serial;
 import java.nio.file.Files;
 import java.nio.file.LinkOption;
@@ -33,11 +34,24 @@ import java.nio.file.Paths;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Vector;
 import java.util.concurrent.Callable;
-
 import javax.swing.SwingConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

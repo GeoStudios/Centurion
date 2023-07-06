@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jpackage.internal;
+package jdk.jpackage.share.classes.jdk.jpackage.internal;
+
 
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.lang.module.Configuration;
@@ -31,10 +32,10 @@ import java.lang.module.ModuleFinder;
 import java.lang.module.ModuleReference;
 import java.lang.module.ResolvedModule;
 import java.nio.file.Path;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.function.Supplier;
@@ -43,7 +44,20 @@ import java.util.regex.Matcher;
 import java.util.spi.ToolProvider;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import jdk.internal.module.ModulePath;
+import jdk.jpackage.share.classes.jdk.internal.module.ModulePath;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 final class JLinkBundlerHelper {

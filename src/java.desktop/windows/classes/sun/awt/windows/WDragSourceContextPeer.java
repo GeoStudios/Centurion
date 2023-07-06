@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.windows;
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.awt.Component;
 import java.awt.Cursor;
@@ -28,17 +29,26 @@ import java.awt.Point;
 import java.awt.datatransfer.DataFlavor;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferInt;
-
 import java.awt.datatransfer.Transferable;
-
 import java.awt.dnd.DragGestureEvent;
 import java.awt.dnd.InvalidDnDOperationException;
-
 import java.awt.event.InputEvent;
-
 import java.util.Map;
+import java.desktop.windows.classes.sun.awt.dnd.SunDragSourceContextPeer;
 
-import sun.awt.dnd.SunDragSourceContextPeer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>

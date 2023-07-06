@@ -19,39 +19,52 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
-import java.net.URL;
-import java.net.URLConnection;
-import java.security.AccessControlContext;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.security.PrivilegedActionException;
-import java.security.PrivilegedExceptionAction;
-import java.util.function.Consumer;
-import java.util.function.Supplier;
-import java.util.stream.Stream;
-import java.util.stream.StreamSupport;
 
+import java.base.share.classes.java.io.BufferedReader;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.InputStream;
+import java.base.share.classes.java.io.InputStreamReader;
+import java.base.share.classes.java.lang.reflect.Constructor;
+import java.base.share.classes.java.lang.reflect.InvocationTargetException;
+import java.base.share.classes.java.lang.reflect.Method;
+import java.base.share.classes.java.lang.reflect.Modifier;
+import java.base.share.classes.java.net.URL;
+import java.base.share.classes.java.net.URLConnection;
+import java.base.share.classes.java.security.AccessControlContext;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.PrivilegedAction;
+import java.base.share.classes.java.security.PrivilegedActionException;
+import java.base.share.classes.java.security.PrivilegedExceptionAction;
+import java.base.share.classes.java.util.function.Consumer;
+import java.base.share.classes.java.util.function.Supplier;
+import java.base.share.classes.java.util.stream.Stream;
+import java.base.share.classes.java.util.stream.StreamSupport;
 import sun.nio.cs.UTF_8;
-
 import jdk.internal.loader.BootLoader;
 import jdk.internal.loader.ClassLoaders;
 import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.misc.VM;
 import jdk.internal.module.ServicesCatalog;
 import jdk.internal.module.ServicesCatalog.ServiceProvider;
 import jdk.internal.reflect.CallerSensitive;
 import jdk.internal.reflect.Reflection;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A facility to load implementations of a service.
@@ -87,7 +100,7 @@ import jdk.internal.reflect.Reflection;
  * interface that defines methods for producing encoders and decoders:
  *
  * <pre>{@code
- *     package com.example;
+ *     
  *     public interface CodecFactory {
  *         Encoder getEncoder(String encodingName);
  *         Decoder getDecoder(String encodingName);

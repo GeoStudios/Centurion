@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.uncommontrap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8026775
@@ -55,7 +72,6 @@
  * StringBuilder is performed.
  */
 
-package compiler.uncommontrap;
 
 public class UncommonTrapStackBang extends Thread {
     class Foo { }

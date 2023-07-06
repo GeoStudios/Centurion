@@ -18,12 +18,13 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.operators;
+
 
 import java.awt.Container;
 import java.awt.Scrollbar;
-import java.awt.event.AdjustmentListener;
-
+import java.awt.event.Adjustmentjava.util.Listener;
 import org.netbeans.jemmy.Action;
 import org.netbeans.jemmy.ComponentChooser;
 import org.netbeans.jemmy.ComponentSearcher;
@@ -36,6 +37,19 @@ import org.netbeans.jemmy.Waitable;
 import org.netbeans.jemmy.drivers.DriverManager;
 import org.netbeans.jemmy.drivers.ScrollDriver;
 import org.netbeans.jemmy.drivers.scrolling.ScrollAdjuster;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <BR><BR>Timeouts used: <BR>

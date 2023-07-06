@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.jfc.SwingSet2;
 
 
 import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An object that implements a cheesy pseudorandom permutation of the integers

@@ -18,17 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text;
+
+package java.desktop.share.classes.javax.swing.text;
+
 
 import java.awt.*;
 import java.text.BreakIterator;
-import javax.swing.event.*;
+import java.desktop.share.classes.javax.swing.event.*;
 import java.util.BitSet;
-import java.util.Locale;
-
-import javax.swing.UIManager;
+import java.base.share.classes.java.util.Locale;
+import java.desktop.share.classes.javax.swing.UIManager;
 import sun.swing.SwingUtilities2;
-import static sun.swing.SwingUtilities2.IMPLIED_CR;
+import static sun.swing.SwingUtilities2.IMPLIED_CR;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A GlyphView is a styled chunk of text that represents a view

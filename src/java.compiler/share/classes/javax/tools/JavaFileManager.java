@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.tools;
+package java.compiler.share.classes.javax.tools;
+
 
 import java.io.Closeable;
 import java.io.Flushable;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.Iterator;
 import java.util.ServiceLoader;
 import java.util.Set;
+import static java.compiler.share.classes.javax.tools.JavaFileObject.Kind;.extended
 
-import static javax.tools.JavaFileObject.Kind;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * File manager for tools operating on Java programming language

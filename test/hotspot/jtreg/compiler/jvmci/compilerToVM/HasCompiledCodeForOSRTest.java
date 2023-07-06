@@ -19,6 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci.compilerToVM;
+
+
+import compiler.jvmci.common.CTVMUtilities;
+import compiler.testlibrary.CompilerUtils;
+import jdk.test.lib.Asserts;
+import jdk.test.lib.Utils;
+import jdk.vm.ci.hotspot.CompilerToVMHelper;
+import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
+import sun.hotspot.code.NMethod;
+import java.lang.reflect.Executable;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @key randomness
@@ -43,19 +70,8 @@
  *                   compiler.jvmci.compilerToVM.HasCompiledCodeForOSRTest
  */
 
-package compiler.jvmci.compilerToVM;
 
-import compiler.jvmci.common.CTVMUtilities;
-import compiler.testlibrary.CompilerUtils;
-import jdk.test.lib.Asserts;
-import jdk.test.lib.Utils;
-import jdk.vm.ci.hotspot.CompilerToVMHelper;
-import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
-import sun.hotspot.code.NMethod;
 
-import java.lang.reflect.Executable;
-import java.util.ArrayList;
-import java.util.List;
 
 public class HasCompiledCodeForOSRTest {
     public static void main(String[] args) {

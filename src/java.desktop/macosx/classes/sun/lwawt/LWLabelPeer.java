@@ -19,14 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.macosx.classes.sun.lwawt;
 
-package sun.lwawt;
 
 import java.awt.Label;
 import java.awt.peer.LabelPeer;
-
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Lightweight implementation of {@link LabelPeer}. Delegates most of the work

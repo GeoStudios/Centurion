@@ -19,9 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-//    THIS TEST IS LINE NUMBER SENSITIVE
-
 package nsk.share.jpda;
+
 
 import java.io.*;
 import java.util.*;
@@ -29,6 +28,23 @@ import nsk.share.*;
 import nsk.share.test.*;
 import java.lang.management.GarbageCollectorMXBean;
 import java.lang.management.ManagementFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//    THIS TEST IS LINE NUMBER SENSITIVE
+
+
 /*
  * Class can be used as base debuggee class in jdi and jdwp tests.
  * Class contains common method for initializing log, pipe, vm, and several common auxiliary methods.  Subclass should implement parseCommand() and, if needed, doInit(parse command line parameters)

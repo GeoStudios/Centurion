@@ -21,10 +21,24 @@
 
 package nsk.share.gc.gp.list;
 
+
 import nsk.share.gc.LinkedMemoryObject;
 import nsk.share.gc.Memory;
 import nsk.share.gc.gp.GarbageProducer;
 import nsk.share.gc.gp.MemoryStrategy;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Garbage producer that produces circular linked lists.

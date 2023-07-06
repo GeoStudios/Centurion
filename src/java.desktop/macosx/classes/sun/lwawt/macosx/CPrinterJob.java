@@ -19,7 +19,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
 
 
 import java.awt.*;
@@ -29,7 +29,6 @@ import java.awt.print.*;
 import java.net.URI;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-
 import javax.print.*;
 import javax.print.attribute.PrintRequestAttributeSet;
 import javax.print.attribute.HashPrintRequestAttributeSet;
@@ -41,9 +40,22 @@ import javax.print.attribute.standard.MediaSize;
 import javax.print.attribute.standard.MediaSizeName;
 import javax.print.attribute.standard.PageRanges;
 import javax.print.attribute.Attribute;
+import java.desktop.macosx.classes.sun.java2d.*;
+import java.desktop.macosx.classes.sun.print.*;
 
-import sun.java2d.*;
-import sun.print.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class CPrinterJob extends RasterPrinterJob {
     // NOTE: This uses RasterPrinterJob as a base, but it doesn't use

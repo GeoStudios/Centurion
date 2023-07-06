@@ -21,5 +21,20 @@
 
 package pkg1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public record Record0() {
 }

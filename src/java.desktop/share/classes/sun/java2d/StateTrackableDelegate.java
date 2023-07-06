@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d;
+package java.desktop.share.classes.sun.java2d;
 
-import sun.java2d.StateTrackable.State;
-import static sun.java2d.StateTrackable.State.*;
+
+import java.desktop.share.classes.sun.java2d.StateTrackable.State;
+import static java.desktop.share.classes.sun.java2d.StateTrackable.State.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides a basic pre-packaged implementation of the

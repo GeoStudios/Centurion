@@ -18,26 +18,42 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.terminal.impl.jna.win;
+
+package jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna.win;
+
 
 import java.io.BufferedWriter;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.Writer;
 import java.nio.charset.Charset;
 import java.util.function.Function;
 import java.util.function.IntConsumer;
+import jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.Cursor;
+import jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.Size;
+import jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.Terminal;
+import jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.AbstractWindowsTerminal;
+import jdk.internal.le.windows.classes.jdk.internal.org.jline.utils.InfoCmp;
+import jdk.internal.le.windows.classes.jdk.internal.org.jline.utils.OSUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //import com.sun.jna.LastErrorException;
 //import com.sun.jna.Pointer;
 //import com.sun.jna.ptr.IntByReference;
 
-import jdk.internal.org.jline.terminal.Cursor;
-import jdk.internal.org.jline.terminal.Size;
-import jdk.internal.org.jline.terminal.Terminal;
-import jdk.internal.org.jline.terminal.impl.AbstractWindowsTerminal;
-import jdk.internal.org.jline.utils.InfoCmp;
-import jdk.internal.org.jline.utils.OSUtils;
 
 public class JnaWinSysTerminal extends AbstractWindowsTerminal {
 

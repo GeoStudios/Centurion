@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.arraycopy;
+
+
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8267904
@@ -27,8 +45,6 @@
  * @run main/othervm compiler.arraycopy.TestNegativeArrayCopyAfterLoop
  */
 
-package compiler.arraycopy;
-import java.util.Arrays;
 
 class test {
     public static int exp_count = 0;

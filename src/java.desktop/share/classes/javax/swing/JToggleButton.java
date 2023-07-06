@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.AWTEvent;
 import java.awt.Component;
@@ -28,19 +29,32 @@ import java.awt.event.ActionEvent;
 import java.awt.event.FocusEvent;
 import java.awt.event.InputEvent;
 import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
+import java.awt.event.Itemjava.util.Listener;
 import java.beans.BeanProperty;
 import java.beans.JavaBean;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.io.Serial;
 import java.util.Iterator;
+import java.desktop.share.classes.javax.accessibility.Accessible;
+import java.desktop.share.classes.javax.accessibility.AccessibleContext;
+import java.desktop.share.classes.javax.accessibility.AccessibleRole;
+import java.desktop.share.classes.javax.accessibility.AccessibleState;
+import java.desktop.share.classes.javax.swing.plaf.ButtonUI;
 
-import javax.accessibility.Accessible;
-import javax.accessibility.AccessibleContext;
-import javax.accessibility.AccessibleRole;
-import javax.accessibility.AccessibleState;
-import javax.swing.plaf.ButtonUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of a two-state button.

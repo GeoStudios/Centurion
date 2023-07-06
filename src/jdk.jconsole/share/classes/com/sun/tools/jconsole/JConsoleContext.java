@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jconsole;
+package jdk.jconsole.share.classes.com.sun.tools.jconsole;
+
 
 import javax.management.MBeanServerConnection;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import javax.swing.event.SwingPropertyChangeSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code JConsoleContext} represents a JConsole connection to a target

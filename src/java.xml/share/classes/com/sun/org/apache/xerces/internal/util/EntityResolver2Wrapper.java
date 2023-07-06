@@ -19,26 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
+
+
+import java.io.InputStream;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Reader;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.ExternalSubsetResolver;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLEntityDescription;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLDTDDescription;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
+import java.xml.share.classes.com.sun.org.xml.sax.ext.EntityResolver2;
+import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.util;
 
-import java.io.InputStream;
-import java.io.IOException;
-import java.io.Reader;
 
-import com.sun.org.apache.xerces.internal.impl.ExternalSubsetResolver;
-import com.sun.org.apache.xerces.internal.impl.XMLEntityDescription;
-import com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
-import com.sun.org.apache.xerces.internal.xni.XNIException;
-import com.sun.org.apache.xerces.internal.xni.grammars.XMLDTDDescription;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
 
-import org.xml.sax.ext.EntityResolver2;
-import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
+
 
 /**
  * <p>This class wraps a SAX entity resolver (EntityResolver2) in an XNI entity resolver.</p>

@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.misc;
+package java.base.windows.classes.jdk.internal.misc;
+
 
 import sun.io.Win32ErrorMode;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class OSEnvironment {
 

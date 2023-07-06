@@ -21,6 +21,21 @@
 
 package my.impl;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class StandardMessageService implements com.message.spi.MessageService {
     @Override
     public String message() {

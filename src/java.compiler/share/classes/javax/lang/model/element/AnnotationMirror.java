@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.lang.model.element;
+package java.compiler.share.classes.javax.lang.model.element;
+
 
 import java.util.Map;
-import javax.lang.model.type.DeclaredType;
+import java.compiler.share.classes.javax.lang.model.type.DeclaredType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents an annotation.  An annotation associates a value with

@@ -21,10 +21,9 @@
 
 package jdk.vm.ci.hotspot.test;
 
+
 import java.lang.reflect.Field;
-
 import org.testng.annotations.DataProvider;
-
 import sun.hotspot.WhiteBox;
 import jdk.internal.misc.Unsafe;
 import jdk.vm.ci.hotspot.CompilerToVMHelper;
@@ -36,10 +35,23 @@ import jdk.vm.ci.meta.Constant;
 import jdk.vm.ci.meta.JavaConstant;
 import jdk.vm.ci.meta.JavaKind;
 import jdk.vm.ci.runtime.JVMCI;
-import java.util.List;
-import java.util.ArrayList;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.HashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MemoryAccessProviderData {
     private static final Unsafe UNSAFE = Unsafe.getUnsafe();

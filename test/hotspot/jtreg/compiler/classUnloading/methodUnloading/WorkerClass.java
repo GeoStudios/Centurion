@@ -19,11 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.classUnloading.methodUnloading;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Worker class that is dynamically loaded/unloaded by TestMethodUnloading.
  */
 
-package compiler.classUnloading.methodUnloading;
 
 public class WorkerClass {
     /**

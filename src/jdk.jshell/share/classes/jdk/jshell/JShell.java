@@ -19,38 +19,52 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jshell;
+package jdk.jshell.share.classes.jdk.jshell;
 
-import jdk.jshell.spi.ExecutionControl;
+
+import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionControl;
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
-import java.io.InterruptedIOException;
+import java.io.Interruptedjava.io.java.io.java.io.IOException;
 import java.io.PrintStream;
 import java.net.InetAddress;
 import java.text.MessageFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.MissingResourceException;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.ResourceBundle;
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
-
 import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.stream.Stream;
 import javax.tools.StandardJavaFileManager;
-import jdk.internal.jshell.debug.InternalDebugControl;
-import jdk.jshell.Snippet.Status;
-import jdk.jshell.spi.ExecutionControl.EngineTerminationException;
-import jdk.jshell.spi.ExecutionControl.ExecutionControlException;
-import jdk.jshell.spi.ExecutionControlProvider;
-import jdk.jshell.spi.ExecutionEnv;
-import static jdk.jshell.Util.expunge;
+import jdk.jshell.share.classes.jdk.internal.jshell.debug.InternalDebugControl;
+import jdk.jshell.share.classes.jdk.jshell.Snippet.Status;
+import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionControl.EngineTerminationException;
+import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionControl.ExecutionControlException;
+import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionControlProvider;
+import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionEnv;
+import static jdk.jshell.share.classes.jdk.jshell.Util.expunge;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The JShell evaluation state engine.  This is the central class in the JShell

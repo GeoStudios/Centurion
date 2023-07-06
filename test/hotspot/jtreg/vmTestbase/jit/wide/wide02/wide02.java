@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.wide.wide02;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,9 +48,7 @@
  * @run main/othervm jit.wide.wide02.wide02
  */
 
-package jit.wide.wide02;
 
-import nsk.share.TestFailure;
 
 /*
      Check for intermediate results that are too wide.

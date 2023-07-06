@@ -18,18 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.security.provider.certpath;
+
+package java.base.share.classes.sun.security.provider.certpath;
+
 
 import java.security.InvalidAlgorithmParameterException;
-import java.security.PublicKey;
+import java.base.share.classes.java.security.PublicKey;
 import java.security.Timestamp;
 import java.security.cert.*;
 import java.security.interfaces.DSAPublicKey;
 import java.util.*;
 import javax.security.auth.x500.X500Principal;
+import java.base.share.classes.sun.security.util.Debug;
+import java.base.share.classes.sun.security.validator.Validator;
 
-import sun.security.util.Debug;
-import sun.security.validator.Validator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Common utility methods and classes used by the PKIX CertPathValidator and

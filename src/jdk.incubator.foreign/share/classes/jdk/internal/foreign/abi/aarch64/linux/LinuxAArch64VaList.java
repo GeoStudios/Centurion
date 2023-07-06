@@ -18,29 +18,43 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.foreign.abi.aarch64.linux;
 
-import jdk.incubator.foreign.*;
-import jdk.internal.foreign.Utils;
-import jdk.internal.foreign.abi.SharedUtils;
-import jdk.internal.foreign.abi.aarch64.*;
-import jdk.internal.misc.Unsafe;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.aarch64.linux;
 
+
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.*;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.Utils;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.SharedUtils;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.aarch64.*;
+import jdk.incubator.foreign.share.classes.jdk.internal.misc.Unsafe;
 import java.lang.invoke.VarHandle;
 import java.lang.ref.Cleaner;
 import java.nio.ByteOrder;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
+import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.PlatformLayouts.AArch64;.extended
+import static jdk.incubator.foreign.share.classes.jdk.incubator.foreign.CLinker.Vajava.util.java.util.java.util.List;.extended
+import static jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryLayout.PathElement.groupElement;.extended
+import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.SharedUtils.SimpleVaArg;.extended
+import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.SharedUtils.THROWING_ALLOCATOR;.extended
+import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.SharedUtils.checkCompatibleType;.extended
+import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.SharedUtils.vhPrimitiveOrAddress;.extended
+import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.aarch64.CallArranger.MAX_REGISTER_ARGUMENTS;.extended
 
-import static jdk.internal.foreign.PlatformLayouts.AArch64;
-import static jdk.incubator.foreign.CLinker.VaList;
-import static jdk.incubator.foreign.MemoryLayout.PathElement.groupElement;
-import static jdk.internal.foreign.abi.SharedUtils.SimpleVaArg;
-import static jdk.internal.foreign.abi.SharedUtils.THROWING_ALLOCATOR;
-import static jdk.internal.foreign.abi.SharedUtils.checkCompatibleType;
-import static jdk.internal.foreign.abi.SharedUtils.vhPrimitiveOrAddress;
-import static jdk.internal.foreign.abi.aarch64.CallArranger.MAX_REGISTER_ARGUMENTS;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Standard va_list implementation as defined by AAPCS document and used on

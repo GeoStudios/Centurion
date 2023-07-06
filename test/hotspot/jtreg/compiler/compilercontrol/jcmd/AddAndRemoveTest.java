@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.compilercontrol.jcmd;
+
+
+import compiler.compilercontrol.share.AbstractTestBase;
+import compiler.compilercontrol.share.method.MethodDescriptor;
+import compiler.compilercontrol.share.scenario.Command;
+import compiler.compilercontrol.share.scenario.CompileCommand;
+import compiler.compilercontrol.share.scenario.JcmdCommand;
+import compiler.compilercontrol.share.scenario.Scenario;
+import jdk.test.lib.Utils;
+import java.lang.reflect.Executable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key randomness
@@ -32,17 +57,8 @@
  * @run driver compiler.compilercontrol.jcmd.AddAndRemoveTest
  */
 
-package compiler.compilercontrol.jcmd;
 
-import compiler.compilercontrol.share.AbstractTestBase;
-import compiler.compilercontrol.share.method.MethodDescriptor;
-import compiler.compilercontrol.share.scenario.Command;
-import compiler.compilercontrol.share.scenario.CompileCommand;
-import compiler.compilercontrol.share.scenario.JcmdCommand;
-import compiler.compilercontrol.share.scenario.Scenario;
-import jdk.test.lib.Utils;
 
-import java.lang.reflect.Executable;
 
 public class AddAndRemoveTest extends AbstractTestBase {
     private static final int AMOUNT = Integer.getInteger(

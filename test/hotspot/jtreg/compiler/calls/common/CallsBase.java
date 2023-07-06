@@ -21,12 +21,25 @@
 
 package compiler.calls.common;
 
+
 import compiler.testlibrary.CompilerUtils;
 import jdk.test.lib.Asserts;
 import sun.hotspot.WhiteBox;
-
 import java.lang.reflect.Method;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A common class for Invoke* classes

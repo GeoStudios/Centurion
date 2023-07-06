@@ -19,6 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.ReferenceType.instances.instances002;
+
+
+import java.io.*;
+import java.util.*;
+import com.sun.jdi.*;
+import com.sun.jdi.event.*;
+import nsk.share.Consts;
+import nsk.share.ObjectInstancesManager;
+import nsk.share.jdi.HeapwalkingDebuggee;
+import nsk.share.jdi.HeapwalkingDebugger;
+import nsk.share.jpda.AbstractDebuggeeTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -49,17 +75,7 @@
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
 
-package nsk.jdi.ReferenceType.instances.instances002;
 
-import java.io.*;
-import java.util.*;
-import com.sun.jdi.*;
-import com.sun.jdi.event.*;
-import nsk.share.Consts;
-import nsk.share.ObjectInstancesManager;
-import nsk.share.jdi.HeapwalkingDebuggee;
-import nsk.share.jdi.HeapwalkingDebugger;
-import nsk.share.jpda.AbstractDebuggeeTest;
 
 public class instances002 extends HeapwalkingDebugger {
 

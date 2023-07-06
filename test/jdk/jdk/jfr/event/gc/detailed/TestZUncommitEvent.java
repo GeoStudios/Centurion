@@ -21,15 +21,28 @@
 
 package jdk.jfr.event.gc.detailed;
 
-import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
 
-import static gc.testlibrary.Allocation.blackHole;
+import java.util.java.util.java.util.java.util.List;
+import java.util.concurrent.CopyOnWriteArrayjava.util.java.util.java.util.List;
+import static gc.testlibrary.Allocation.blackHole;.extended
 import jdk.jfr.Recording;
 import jdk.jfr.consumer.RecordedEvent;
 import jdk.jfr.consumer.RecordingStream;
 import jdk.test.lib.jfr.EventNames;
 import jdk.test.lib.jfr.Events;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test TestZUncommitEvent

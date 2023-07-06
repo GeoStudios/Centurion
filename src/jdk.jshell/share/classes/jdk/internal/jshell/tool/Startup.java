@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.jshell.tool;
+package jdk.jshell.share.classes.jdk.internal.jshell.tool;
+
 
 import java.nio.file.AccessDeniedException;
 import java.nio.file.Files;
@@ -27,15 +28,29 @@ import java.nio.file.NoSuchFileException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
-import java.util.List;
-import java.util.Objects;
-import static java.util.stream.Collectors.joining;
-import static jdk.internal.jshell.tool.JShellTool.RECORD_SEPARATOR;
-import static jdk.internal.jshell.tool.JShellTool.getResource;
-import static jdk.internal.jshell.tool.JShellTool.readResource;
-import static jdk.internal.jshell.tool.JShellTool.toPathResolvingUserHome;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
+import static java.util.stream.Collectors.joining;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.tool.JShellTool.RECORD_SEPARATOR;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.tool.JShellTool.getResource;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.tool.JShellTool.readResource;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.tool.JShellTool.toPathResolvingUserHome;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Processing start-up "script" information.  The startup may consist of several

@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.xr;
+package java.desktop.unix.classes.sun.java2d.xr;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class to efficiently store glyph information for laid out glyphs,
@@ -37,11 +53,11 @@ public class GrowableEltArray extends GrowableIntArray {
     }
 
     public final int getCharCnt(int index) {
-        return array[getCellIndex(index) + 0];
+        return array[getCellIndex(index)];
     }
 
     public final void setCharCnt(int index, int cnt) {
-        array[getCellIndex(index) + 0] = cnt;
+        array[getCellIndex(index)] = cnt;
     }
 
     public final int getXOff(int index) {

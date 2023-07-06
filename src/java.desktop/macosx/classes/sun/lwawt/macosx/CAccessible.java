@@ -19,32 +19,43 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
 
 import java.awt.Component;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-
+import java.beans.PropertyChangejava.util.Listener;
 import javax.accessibility.Accessible;
 import javax.accessibility.AccessibleContext;
 import javax.swing.JProgressBar;
 import javax.swing.JTabbedPane;
 import javax.swing.JSlider;
 import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-
-import static javax.accessibility.AccessibleContext.ACCESSIBLE_ACTIVE_DESCENDANT_PROPERTY;
-import static javax.accessibility.AccessibleContext.ACCESSIBLE_CARET_PROPERTY;
-import static javax.accessibility.AccessibleContext.ACCESSIBLE_SELECTION_PROPERTY;
-import static javax.accessibility.AccessibleContext.ACCESSIBLE_STATE_PROPERTY;
-import static javax.accessibility.AccessibleContext.ACCESSIBLE_TABLE_MODEL_CHANGED;
-import static javax.accessibility.AccessibleContext.ACCESSIBLE_TEXT_PROPERTY;
-import static javax.accessibility.AccessibleContext.ACCESSIBLE_NAME_PROPERTY;
-import static javax.accessibility.AccessibleContext.ACCESSIBLE_VALUE_PROPERTY;
-
+import javax.swing.event.Changejava.util.Listener;
+import static javax.accessibility.AccessibleContext.ACCESSIBLE_ACTIVE_DESCENDANT_PROPERTY;.extended
+import static javax.accessibility.AccessibleContext.ACCESSIBLE_CARET_PROPERTY;.extended
+import static javax.accessibility.AccessibleContext.ACCESSIBLE_SELECTION_PROPERTY;.extended
+import static javax.accessibility.AccessibleContext.ACCESSIBLE_STATE_PROPERTY;.extended
+import static javax.accessibility.AccessibleContext.ACCESSIBLE_TABLE_MODEL_CHANGED;.extended
+import static javax.accessibility.AccessibleContext.ACCESSIBLE_TEXT_PROPERTY;.extended
+import static javax.accessibility.AccessibleContext.ACCESSIBLE_NAME_PROPERTY;.extended
+import static javax.accessibility.AccessibleContext.ACCESSIBLE_VALUE_PROPERTY;.extended
 import javax.accessibility.AccessibleRole;
 import javax.accessibility.AccessibleState;
-import sun.awt.AWTAccessor;
+import java.desktop.macosx.classes.sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 class CAccessible extends CFRetainedResource implements Accessible {

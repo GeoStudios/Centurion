@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.loading;
+package java.management.share.classes.javax.management.loading;
+
+
+import java.io.*;
+import java.lang.reflect.Array;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // java import
 
-import java.io.*;
-import java.lang.reflect.Array;
 
 
 /**

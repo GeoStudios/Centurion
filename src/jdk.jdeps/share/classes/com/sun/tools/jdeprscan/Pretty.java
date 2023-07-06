@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdeprscan;
+package jdk.jdeps.share.classes.com.sun.tools.jdeprscan;
+
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class for pretty-printing various bits of API syntax.

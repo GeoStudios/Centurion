@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package members;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4981309
@@ -28,7 +45,6 @@
  * @compile Members.java
  */
 
-package members;
 
 @interface Members {
     public static final int N = 2;

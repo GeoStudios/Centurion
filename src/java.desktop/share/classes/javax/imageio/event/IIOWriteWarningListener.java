@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.imageio.event;
+package java.desktop.share.classes.javax.imageio.event;
 
-import java.util.EventListener;
-import javax.imageio.ImageWriter;
+
+import java.util.Eventjava.util.Listener;
+import java.desktop.share.classes.javax.imageio.ImageWriter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An interface used by {@code ImageWriter} implementations to

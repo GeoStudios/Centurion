@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.util.locale;
+package java.base.share.classes.sun.util.locale;
+
 
 import java.util.Collections;
 import java.util.Map;
@@ -29,9 +30,21 @@ import java.util.SortedMap;
 import java.util.SortedSet;
 import java.util.TreeMap;
 import java.util.TreeSet;
+import java.base.share.classes.sun.util.locale.InternalLocaleBuilder.CaseInsensitiveChar;
+import java.base.share.classes.sun.util.locale.InternalLocaleBuilder.CaseInsensitiveString;
 
-import sun.util.locale.InternalLocaleBuilder.CaseInsensitiveChar;
-import sun.util.locale.InternalLocaleBuilder.CaseInsensitiveString;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class LocaleExtensions {

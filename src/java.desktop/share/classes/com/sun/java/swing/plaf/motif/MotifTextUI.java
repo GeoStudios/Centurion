@@ -19,16 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.motif;
+package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Rectangle;
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
-import java.awt.event.InputEvent;
-import java.awt.event.KeyEvent;
 
+import java.desktop.share.classes.com.sun.java.awt.Color;
+import java.desktop.share.classes.com.sun.java.awt.Graphics;
+import java.desktop.share.classes.com.sun.java.awt.Rectangle;
+import java.desktop.share.classes.com.sun.java.awt.event.FocusEvent;
+import java.desktop.share.classes.com.sun.java.awt.event.Focusjava.util.Listener;
+import java.desktop.share.classes.com.sun.java.awt.event.InputEvent;
+import java.desktop.share.classes.com.sun.java.awt.event.KeyEvent;
 import javax.swing.KeyStroke;
 import javax.swing.plaf.TextUI;
 import javax.swing.plaf.UIResource;
@@ -37,6 +37,20 @@ import javax.swing.text.Caret;
 import javax.swing.text.DefaultCaret;
 import javax.swing.text.DefaultEditorKit;
 import javax.swing.text.JTextComponent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the look and feel features that are common across

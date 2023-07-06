@@ -21,6 +21,28 @@
 
 package gc.class_unloading;
 
+
+import java.io.File;
+import java.io.java.io.java.io.java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import sun.hotspot.WhiteBox;
+import static jdk.test.lib.Asserts.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestClassUnloadingDisabledSerial
  * @bug 8114823
@@ -87,15 +109,8 @@ package gc.class_unloading;
  *                   -XX:-ClassUnloading -XX:+UnlockExperimentalVMOptions -XX:+UseShenandoahGC gc.class_unloading.TestClassUnloadingDisabled
  */
 
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 
-import sun.hotspot.WhiteBox;
 
-import static jdk.test.lib.Asserts.*;
 
 public class TestClassUnloadingDisabled {
     public static void main(String args[]) throws Exception {

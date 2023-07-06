@@ -19,9 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.image.renderable;
-import java.awt.image.RenderedImage;
-import java.awt.RenderingHints;
+package java.desktop.share.classes.java.awt.image.renderable;
+
+
+import java.desktop.share.classes.java.awt.image.RenderedImage;
+import java.desktop.share.classes.java.awt.RenderingHints;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The RenderedImageFactory interface (often abbreviated RIF) is

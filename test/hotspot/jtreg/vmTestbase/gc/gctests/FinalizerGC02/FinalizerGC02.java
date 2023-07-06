@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.FinalizerGC02;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -35,9 +52,7 @@
  * @run main/othervm gc.gctests.FinalizerGC02.FinalizerGC02
  */
 
-package gc.gctests.FinalizerGC02;
 
-import nsk.share.TestFailure;
 
 class node {
     byte [] arr;

@@ -19,25 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.image;
+package java.desktop.share.classes.java.awt.image;
 
-import java.awt.Graphics2D;
-import java.awt.GraphicsEnvironment;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.Transparency;
-import java.awt.color.ColorSpace;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.Hashtable;
-import java.util.Set;
-import java.util.Vector;
 
+import java.desktop.share.classes.java.awt.Graphics2D;
+import java.desktop.share.classes.java.awt.GraphicsEnvironment;
+import java.desktop.share.classes.java.awt.Point;
+import java.desktop.share.classes.java.awt.Rectangle;
+import java.desktop.share.classes.java.awt.Transparency;
+import java.desktop.share.classes.java.awt.color.ColorSpace;
+import java.desktop.share.classes.java.security.AccessController;
+import java.desktop.share.classes.java.security.PrivilegedAction;
+import java.desktop.share.classes.java.util.Hashtable;
+import java.desktop.share.classes.java.util.Set;
+import java.desktop.share.classes.java.util.Vector;
 import sun.awt.image.ByteComponentRaster;
 import sun.awt.image.BytePackedRaster;
 import sun.awt.image.IntegerComponentRaster;
 import sun.awt.image.OffScreenImageSource;
 import sun.awt.image.ShortComponentRaster;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

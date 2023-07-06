@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.bsd.aarch64;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.bsd.aarch64;
 
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.debugger.aarch64.*;
-import sun.jvm.hotspot.debugger.bsd.*;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.aarch64.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.bsd.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class BsdAARCH64ThreadContext extends AARCH64ThreadContext {
   private final BsdDebugger debugger;

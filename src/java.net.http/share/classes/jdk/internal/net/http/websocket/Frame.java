@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http.websocket;
+package java.net.http.share.classes.jdk.internal.net.http.websocket;
+
 
 import java.nio.ByteBuffer;
+import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.dump;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.websocket.Frame.Opcode.ofCode;.extended
 
-import static jdk.internal.net.http.common.Utils.dump;
-import static jdk.internal.net.http.websocket.Frame.Opcode.ofCode;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * A collection of utilities for reading, writing, and masking frames.

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.logger;
+package java.base.share.classes.jdk.internal.logger;
+
 
 import java.io.PrintStream;
 import java.io.PrintWriter;
@@ -38,6 +39,20 @@ import java.util.function.Supplier;
 import sun.security.action.GetPropertyAction;
 import sun.util.logging.PlatformLogger;
 import sun.util.logging.PlatformLogger.ConfigurableBridge.LoggerConfiguration;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A simple console logger to emulate the behavior of JUL loggers when

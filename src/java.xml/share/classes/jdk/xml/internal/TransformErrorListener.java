@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.xml.internal;
+package java.xml.share.classes.jdk.xml.internal;
 
-import javax.xml.transform.ErrorListener;
+
+import javax.xml.transform.Errorjava.util.Listener;
 import javax.xml.transform.TransformerException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements an ErrorListener for use by the JDK as the default ErrorListener.

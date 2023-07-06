@@ -19,13 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.util;
+package jdk.compiler.share.classes.com.sun.tools.javac.util;
+
 
 import java.util.BitSet;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import static jdk.compiler.share.classes.com.sun.tools.javac.util.LayoutCharacters.*;.extended
 
-import com.sun.tools.javac.util.DefinedBy.Api;
 
-import static com.sun.tools.javac.util.LayoutCharacters.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A class that defines source code positions as simple character
  *  offsets from the beginning of the file. The first character

@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.stream;
+package java.xml.share.classes.javax.xml.stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface is used to resolve resources during an XML parse.  If an application wishes to

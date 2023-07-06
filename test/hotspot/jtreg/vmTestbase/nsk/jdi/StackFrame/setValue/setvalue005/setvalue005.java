@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.StackFrame.setValue.setvalue005;
+
+
+import com.sun.jdi.*;
+import com.sun.jdi.event.*;
+import com.sun.jdi.request.*;
+import java.util.*;
+import java.io.*;
+import nsk.share.*;
+import nsk.share.jpda.*;
+import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -63,18 +87,9 @@
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
 
-package nsk.jdi.StackFrame.setValue.setvalue005;
 
-import com.sun.jdi.*;
-import com.sun.jdi.event.*;
-import com.sun.jdi.request.*;
 
-import java.util.*;
-import java.io.*;
 
-import nsk.share.*;
-import nsk.share.jpda.*;
-import nsk.share.jdi.*;
 
 /**
  * The test checks that the JDI method:<br>

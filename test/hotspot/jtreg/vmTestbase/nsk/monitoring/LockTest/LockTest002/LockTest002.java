@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.monitoring.LockTest.LockTest002;
+
+
+import java.lang.management.ThreadInfo;
+import java.lang.management.ManagementFactory;
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,12 +50,8 @@
  * @run main/othervm nsk.monitoring.LockTest.LockTest002.LockTest002
  */
 
-package nsk.monitoring.LockTest.LockTest002;
 
-import java.lang.management.ThreadInfo;
-import java.lang.management.ManagementFactory;
 
-import nsk.share.TestFailure;
 
 public class LockTest002
 {

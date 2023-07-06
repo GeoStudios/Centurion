@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.escapeAnalysis;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8242895
@@ -26,7 +43,6 @@
  * @run main/othervm -Xbatch -XX:CompileCommand=dontinline,*DataA.m1 compiler.escapeAnalysis.TestIdealAllocShape
  */
 
-package compiler.escapeAnalysis;
 
 public class TestIdealAllocShape {
     static volatile DataA f1;

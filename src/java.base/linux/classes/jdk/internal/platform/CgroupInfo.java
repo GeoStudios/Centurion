@@ -19,7 +19,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.platform;
+package java.base.linux.classes.jdk.internal.platform;
 
 /**
  * Data structure to hold info from /proc/self/cgroup,

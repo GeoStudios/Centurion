@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.code;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code;
+
 
 import java.io.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
 
-import sun.jvm.hotspot.utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** <P> Classes used for serializing debugging information. These
     abstractions are introducted to provide symmetric read and write

@@ -18,16 +18,17 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.jfr.api.metadata.eventtype;
+
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-
 import jdk.jfr.AnnotationElement;
 import jdk.jfr.BooleanFlag;
 import jdk.jfr.Category;
@@ -57,6 +58,19 @@ import jdk.jfr.TransitionTo;
 import jdk.jfr.Unsigned;
 import jdk.jfr.ValueDescriptor;
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

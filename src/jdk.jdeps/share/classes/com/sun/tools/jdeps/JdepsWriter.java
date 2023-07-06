@@ -18,13 +18,14 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.tools.jdeps;
 
-import static com.sun.tools.jdeps.Analyzer.Type.*;
+package jdk.jdeps.share.classes.com.sun.tools.jdeps;
 
-import java.io.IOException;
+
+import static jdk.jdeps.share.classes.com.sun.tools.jdeps.Analyzer.Type.*;.extended
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
-import java.io.UncheckedIOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.lang.module.ModuleDescriptor.Requires;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -34,6 +35,20 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class JdepsWriter {
     public static JdepsWriter newDotWriter(Path outputdir, Analyzer.Type type) {

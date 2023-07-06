@@ -19,22 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xpath.internal.axes;
+package java.xml.share.classes.com.sun.org.apache.xpath.internal.axes;
 
-import com.sun.org.apache.xpath.internal.Expression;
-import com.sun.org.apache.xpath.internal.ExpressionOwner;
-import com.sun.org.apache.xpath.internal.XPathVisitor;
-import com.sun.org.apache.xpath.internal.functions.FuncLast;
-import com.sun.org.apache.xpath.internal.functions.FuncPosition;
-import com.sun.org.apache.xpath.internal.functions.Function;
-import com.sun.org.apache.xpath.internal.objects.XNumber;
-import com.sun.org.apache.xpath.internal.operations.Div;
-import com.sun.org.apache.xpath.internal.operations.Minus;
-import com.sun.org.apache.xpath.internal.operations.Mod;
-import com.sun.org.apache.xpath.internal.operations.Mult;
-import com.sun.org.apache.xpath.internal.operations.Plus;
-import com.sun.org.apache.xpath.internal.operations.Quo;
-import com.sun.org.apache.xpath.internal.operations.Variable;
+
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.Expression;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.ExpressionOwner;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathVisitor;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.functions.FuncLast;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.functions.FuncPosition;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.functions.Function;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XNumber;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Div;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Minus;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Mod;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Mult;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Plus;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Quo;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.operations.Variable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("deprecation")
 public class HasPositionalPredChecker extends XPathVisitor

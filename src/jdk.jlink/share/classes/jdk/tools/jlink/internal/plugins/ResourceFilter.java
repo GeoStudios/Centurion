@@ -18,20 +18,36 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.tools.jlink.internal.plugins;
+
+package jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins;
+
 
 import java.io.File;
-import java.io.IOException;
-import java.io.UncheckedIOException;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.PathMatcher;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
-import java.util.List;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.function.Predicate;
-import jdk.tools.jlink.internal.Utils;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

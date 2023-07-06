@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.java2d.J2DBench.src.j2dbench;
+
+
+import java.io.PrintWriter;
+import javax.swing.JLabel;
+import javax.swing.JComponent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -28,11 +49,8 @@
  */
 
 
-package j2dbench;
 
-import java.io.PrintWriter;
-import javax.swing.JLabel;
-import javax.swing.JComponent;
+
 
 public abstract class Node {
     private String nodeName;

@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.w3c.dom.stylesheets;
+package jdk.xml.dom.share.classes.org.w3c.dom.stylesheets;
 
-import org.w3c.dom.DOMException;
+
+import jdk.xml.dom.share.classes.org.w3c.dom.DOMException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  The <code>MediaList</code> interface provides the abstraction of an

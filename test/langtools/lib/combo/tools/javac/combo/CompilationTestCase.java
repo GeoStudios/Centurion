@@ -18,22 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package tools.javac.combo;
 
-import java.io.File;
-import java.io.IOException;
 
-import java.util.Arrays;
+import java.io.File;
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.util.Arrays;
 import java.util.function.Consumer;
 import java.util.stream.IntStream;
-
 import javax.tools.Diagnostic;
-
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
+import static java.util.stream.Collectors.tojava.util.java.util.java.util.List;.extended
 
-import static java.util.stream.Collectors.toList;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base class for negative and positive compilation tests.

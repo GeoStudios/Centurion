@@ -21,6 +21,21 @@
 
 package rare3;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class A<T> {
     class B<U> {
     }

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8255058
@@ -27,7 +44,6 @@
  * @run main/othervm -Xcomp -XX:TieredStopAtLevel=1 -XX:CompileCommand=dontinline,compiler.c1.TestPinnedConstantExceptionEdge::dontInline
  *                   -XX:CompileCommand=compileonly,compiler.c1.TestPinnedConstantExceptionEdge::* compiler.c1.TestPinnedConstantExceptionEdge
  */
-package compiler.c1;
 
 public class TestPinnedConstantExceptionEdge {
 

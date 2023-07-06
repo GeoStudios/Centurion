@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.windows;
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.awt.Component;
 import java.awt.Graphics;
 import java.awt.dnd.DropTarget;
 import java.awt.event.ComponentEvent;
 import java.awt.event.MouseEvent;
+import java.desktop.windows.classes.sun.awt.LightweightFrame;
+import java.desktop.windows.classes.sun.awt.OverrideNativeWindowHandle;
+import java.desktop.windows.classes.sun.swing.JLightweightFrame;
+import java.desktop.windows.classes.sun.swing.SwingAccessor;
 
-import sun.awt.LightweightFrame;
-import sun.awt.OverrideNativeWindowHandle;
-import sun.swing.JLightweightFrame;
-import sun.swing.SwingAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class WLightweightFramePeer extends WFramePeer implements OverrideNativeWindowHandle {
 

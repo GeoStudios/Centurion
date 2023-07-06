@@ -18,23 +18,21 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.swing;
+
+package java.desktop.share.classes.sun.swing;
+
 
 import java.awt.Dimension;
 import java.awt.Insets;
 import java.awt.Color;
 import java.awt.Image;
-
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
+import java.awt.event.Actionjava.util.Listener;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-
+import java.beans.PropertyChangejava.util.Listener;
 import java.io.File;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-
 import javax.swing.JToolBar;
 import javax.swing.JFileChooser;
 import javax.swing.JToggleButton;
@@ -44,13 +42,25 @@ import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JComponent;
 import javax.swing.Box;
-
 import javax.swing.border.EmptyBorder;
 import javax.swing.border.BevelBorder;
 import javax.swing.filechooser.FileSystemView;
+import java.desktop.share.classes.sun.awt.shell.ShellFolder;
+import java.desktop.share.classes.sun.awt.OSInfo;
 
-import sun.awt.shell.ShellFolder;
-import sun.awt.OSInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <b>WARNING:</b> This class is an implementation detail and is only

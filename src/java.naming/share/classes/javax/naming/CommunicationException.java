@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.naming;
+package java.naming.share.classes.javax.naming;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This exception is thrown when the client is

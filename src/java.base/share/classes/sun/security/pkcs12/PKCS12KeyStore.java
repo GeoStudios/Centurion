@@ -19,19 +19,20 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs12;
+package java.base.share.classes.sun.security.pkcs12;
+
 
 import java.io.*;
 import java.security.AccessController;
 import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.security.Key;
-import java.security.KeyFactory;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.Key;
+import java.base.share.classes.java.security.KeyFactory;
 import java.security.KeyStore;
 import java.security.KeyStoreSpi;
 import java.security.KeyStoreException;
 import java.security.PKCS12Attribute;
-import java.security.PrivateKey;
+import java.base.share.classes.java.security.PrivateKey;
 import java.security.PrivilegedAction;
 import java.security.UnrecoverableEntryException;
 import java.security.UnrecoverableKeyException;
@@ -43,33 +44,43 @@ import java.security.cert.X509Certificate;
 import java.security.cert.CertificateException;
 import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.InvalidParameterSpecException;
-import java.security.spec.KeySpec;
-import java.security.spec.PKCS8EncodedKeySpec;
+import java.base.share.classes.java.security.spec.KeySpec;
+import java.base.share.classes.java.security.spec.PKCS8EncodedKeySpec;
 import java.util.*;
-
-import static java.nio.charset.StandardCharsets.UTF_8;
-
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
 import java.security.AlgorithmParameters;
 import java.security.InvalidAlgorithmParameterException;
 import javax.crypto.spec.PBEParameterSpec;
 import javax.crypto.spec.PBEKeySpec;
-import javax.crypto.spec.SecretKeySpec;
+import java.base.share.classes.javax.crypto.spec.SecretKeySpec;
 import javax.crypto.SecretKeyFactory;
-import javax.crypto.SecretKey;
-import javax.crypto.Cipher;
+import java.base.share.classes.javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.Cipher;
 import javax.crypto.Mac;
 import javax.security.auth.DestroyFailedException;
 import javax.security.auth.x500.X500Principal;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.security.tools.KeyStoreUtil;
+import java.base.share.classes.sun.security.util.*;
+import java.base.share.classes.sun.security.pkcs.ContentInfo;
+import java.base.share.classes.sun.security.x509.AlgorithmId;
+import java.base.share.classes.sun.security.pkcs.EncryptedPrivateKeyInfo;
+import java.base.share.classes.sun.security.provider.JavaKeyStore.JKS;
+import java.base.share.classes.sun.security.x509.AuthorityKeyIdentifierExtension;
 
-import jdk.internal.access.SharedSecrets;
-import sun.security.action.GetPropertyAction;
-import sun.security.tools.KeyStoreUtil;
-import sun.security.util.*;
-import sun.security.pkcs.ContentInfo;
-import sun.security.x509.AlgorithmId;
-import sun.security.pkcs.EncryptedPrivateKeyInfo;
-import sun.security.provider.JavaKeyStore.JKS;
-import sun.security.x509.AuthorityKeyIdentifierExtension;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

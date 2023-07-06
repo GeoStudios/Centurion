@@ -19,19 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
- /*
+package java.desktop.unix.classes.sun.awt.X11;
+
+
+import java.util.*;
+import java.awt.*;
+import java.desktop.unix.classes.sun.awt.XSettings;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
    * This code is ported to XAWT from MAWT based on awt_mgrsel.c
    * and XSettings.java code written originally by Valeriy Ushakov
    * Author : Bino George
    */
 
 
-package sun.awt.X11;
 
-import java.util.*;
-import java.awt.*;
-import sun.awt.XSettings;
-import sun.util.logging.PlatformLogger;
+
 
 
 class XAWTXSettings extends XSettings implements XMSelectionListener {

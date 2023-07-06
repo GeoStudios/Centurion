@@ -19,11 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.naming.event;
-import javax.naming.Name;
-import javax.naming.NamingException;
-import javax.naming.directory.DirContext;
-import javax.naming.directory.SearchControls;
+package java.naming.share.classes.javax.naming.event;
+
+
+import java.naming.share.classes.javax.naming.Name;
+import java.naming.share.classes.javax.naming.NamingException;
+import java.naming.share.classes.javax.naming.directory.DirContext;
+import java.naming.share.classes.javax.naming.directory.SearchControls;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Contains methods for registering listeners to be notified

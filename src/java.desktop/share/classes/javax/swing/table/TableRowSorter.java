@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.table;
+
+package java.desktop.share.classes.javax.swing.table;
+
 
 import java.text.Collator;
 import java.util.*;
-import javax.swing.DefaultRowSorter;
-import javax.swing.RowFilter;
-import javax.swing.SortOrder;
+import java.desktop.share.classes.javax.swing.DefaultRowSorter;
+import java.desktop.share.classes.javax.swing.RowFilter;
+import java.desktop.share.classes.javax.swing.SortOrder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of <code>RowSorter</code> that provides sorting

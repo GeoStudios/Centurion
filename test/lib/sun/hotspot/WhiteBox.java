@@ -21,16 +21,29 @@
 
 package sun.hotspot;
 
+
 import java.lang.management.MemoryUsage;
 import java.lang.reflect.Executable;
-import java.util.Arrays;
-import java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 import java.security.BasicPermission;
-import java.util.Objects;
-
+import java.base.share.classes.java.util.Objects;
 import jdk.test.whitebox.parser.DiagnosticCommand;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @Deprecated
 public class WhiteBox {

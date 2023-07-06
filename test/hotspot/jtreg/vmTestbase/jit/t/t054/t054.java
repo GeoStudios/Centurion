@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.t.t054;
+
+
+import nsk.share.TestFailure;
+import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,10 +49,7 @@
  * @run main/othervm jit.t.t054.t054
  */
 
-package jit.t.t054;
 
-import nsk.share.TestFailure;
-import nsk.share.GoldChecker;
 
 
 // A more comprehensive test for the tomcatv bug, that being failure

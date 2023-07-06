@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
+
 
 import sun.awt.AWTPermissions;
 import sun.awt.ComponentFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code MouseInfo}  provides methods for getting information about the mouse,

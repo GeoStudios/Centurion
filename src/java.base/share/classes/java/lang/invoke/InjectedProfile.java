@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
-import java.lang.annotation.*;
+
+import java.base.share.classes.java.lang.annotation.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Internal marker for some methods in the JSR 292 implementation.

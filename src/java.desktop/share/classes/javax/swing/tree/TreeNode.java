@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.tree;
+package java.desktop.share.classes.javax.swing.tree;
+
 
 import java.util.Enumeration;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines the requirements for an object that can be used as a

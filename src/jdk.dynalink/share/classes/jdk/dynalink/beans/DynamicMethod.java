@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.dynalink.share.classes.jdk.dynalink.beans;
+
+
+import java.lang.invoke.MethodHandle;
+import jdk.dynalink.share.classes.jdk.dynalink.CallSiteDescriptor;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkerServices;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -26,11 +47,8 @@
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-package jdk.dynalink.beans;
 
-import java.lang.invoke.MethodHandle;
-import jdk.dynalink.CallSiteDescriptor;
-import jdk.dynalink.linker.LinkerServices;
+
 
 /**
  * Represents a single dynamic method. A "dynamic" method can be bound to a single Java method, or can be bound to all

@@ -21,7 +21,21 @@
 
 package p;
 
-import static p.T6537020.C.s;
+
+import static p.T6537020.C.s;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class T6537020 {
 

@@ -19,17 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/* @test
- * @run testng/othervm -ea -esa test.java.lang.invoke.ArrayLengthTest
- */
 package test.java.lang.invoke;
+
 
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
-
-import static org.testng.AssertJUnit.*;
-
+import static org.testng.AssertJUnit.*;.extended
 import org.testng.annotations.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @test
+ * @run testng/othervm -ea -esa test.java.lang.invoke.ArrayLengthTest
+ */
+
+
+
 
 public class ArrayLengthTest {
 

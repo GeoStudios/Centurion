@@ -19,12 +19,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.share.classes.sun.font;
+
 
 import java.lang.ref.WeakReference;
 import java.awt.FontFormatException;
 import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.RandomAccessFile;
 import java.io.UnsupportedEncodingException;
 import java.lang.ref.WeakReference;
@@ -33,14 +34,27 @@ import java.nio.ByteOrder;
 import java.nio.BufferUnderflowException;
 import java.nio.channels.ClosedChannelException;
 import java.nio.channels.FileChannel;
-import sun.java2d.Disposer;
-import sun.java2d.DisposerRecord;
-
+import java.desktop.share.classes.sun.java2d.Disposer;
+import java.desktop.share.classes.sun.java2d.DisposerRecord;
 import java.nio.charset.StandardCharsets;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.HashMap;
 import java.awt.Font;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Adobe Technical Note 5040 details the format of PFB files.

@@ -18,16 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.coordinator.actions;
 
-import com.sun.hotspot.igv.coordinator.OutlineTopComponent;
-import java.awt.event.InputEvent;
-import java.awt.event.KeyEvent;
+package utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator.actions;
+
+
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator.OutlineTopComponent;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.awt.event.InputEvent;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.awt.event.KeyEvent;
 import javax.swing.Action;
 import javax.swing.KeyStroke;
 import org.openide.util.HelpCtx;
 import org.openide.util.NbBundle;
 import org.openide.util.actions.CallableSystemAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

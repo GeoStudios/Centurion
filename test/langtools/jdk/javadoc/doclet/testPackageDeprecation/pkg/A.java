@@ -21,6 +21,21 @@
 
 package pkg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class A {
    /** Test constant. */
    public static final String DEMO= "y";

@@ -21,7 +21,21 @@
 
 package jar1;
 
+
 import java.io.InputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class GetResource {
 

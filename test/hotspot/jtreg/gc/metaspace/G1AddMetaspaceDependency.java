@@ -21,6 +21,22 @@
 
 package gc.metaspace;
 
+
+import java.io.InputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test G1AddMetaspaceDependency
  * @bug 8010196
@@ -30,7 +46,6 @@ package gc.metaspace;
  * @run main/othervm -XX:+UseG1GC -XX:G1UpdateBufferSize=1 gc.metaspace.G1AddMetaspaceDependency
  */
 
-import java.io.InputStream;
 
 public class G1AddMetaspaceDependency {
 

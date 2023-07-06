@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.accessibility.util;
+package jdk.accessibility.share.classes.com.sun.java.accessibility.util;
 
-import java.awt.*;
-import java.util.EventListener;
+
+import jdk.accessibility.share.classes.com.sun.java.awt.*;
+import jdk.accessibility.share.classes.com.sun.java.util.Eventjava.util.Listener;
 import javax.accessibility.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**
@@ -37,9 +51,7 @@ import javax.accessibility.*;
  * @see EventQueueMonitor#removeGUIInitializedListener
  *
  */
-class GUIInitializedMulticaster
-    extends AWTEventMulticaster implements GUIInitializedListener
-{
+class GUIInitializedMulticaster extends AWTEventMulticaster implements GUIInitializedListener {
     protected GUIInitializedMulticaster(EventListener a, EventListener b) {
         super(a, b);
     }
@@ -67,7 +79,7 @@ class GUIInitializedMulticaster
         if (l == oldl || l == null) {
             return null;
         } else if (l instanceof GUIInitializedMulticaster) {
-            return ((GUIInitializedMulticaster)l).remove(oldl);
+            return remove(oldl);
         } else {
             return l;           // it's not here
         }

@@ -19,6 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci.compilerToVM;
+
+
+import jdk.test.lib.Utils;
+import compiler.jvmci.common.CTVMUtilities;
+import compiler.jvmci.common.testcases.TestCase;
+import jdk.vm.ci.hotspot.CompilerToVMHelper;
+import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
+import jdk.vm.ci.hotspot.HotSpotResolvedObjectType;
+import jdk.vm.ci.meta.ConstantPool;
+import java.lang.reflect.Field;
+import java.lang.reflect.Executable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8136421
@@ -40,18 +66,8 @@
  *                   -XX:-UseJVMCICompiler
  *                   compiler.jvmci.compilerToVM.GetConstantPoolTest
  */
-package compiler.jvmci.compilerToVM;
 
-import jdk.test.lib.Utils;
-import compiler.jvmci.common.CTVMUtilities;
-import compiler.jvmci.common.testcases.TestCase;
-import jdk.vm.ci.hotspot.CompilerToVMHelper;
-import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
-import jdk.vm.ci.hotspot.HotSpotResolvedObjectType;
-import jdk.vm.ci.meta.ConstantPool;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.Executable;
 
 /**
  * Tests for jdk.vm.ci.hotspot.CompilerToVM::getConstantPool method

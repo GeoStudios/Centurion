@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.jimage;
+package java.base.share.classes.jdk.internal.jimage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @implNote This interface needs to maintain JDK 8 source compatibility.

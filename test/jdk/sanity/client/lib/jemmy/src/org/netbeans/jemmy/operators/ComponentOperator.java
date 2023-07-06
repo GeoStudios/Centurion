@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.operators;
+
 
 import java.awt.AWTEvent;
 import java.awt.Color;
@@ -38,23 +40,22 @@ import java.awt.Rectangle;
 import java.awt.Toolkit;
 import java.awt.Window;
 import java.awt.dnd.DropTarget;
-import java.awt.event.ComponentListener;
-import java.awt.event.FocusListener;
-import java.awt.event.InputMethodListener;
-import java.awt.event.KeyListener;
-import java.awt.event.MouseListener;
-import java.awt.event.MouseMotionListener;
+import java.awt.event.Componentjava.util.Listener;
+import java.awt.event.Focusjava.util.Listener;
+import java.awt.event.InputMethodjava.util.Listener;
+import java.awt.event.Keyjava.util.Listener;
+import java.awt.event.Mousejava.util.Listener;
+import java.awt.event.MouseMotionjava.util.Listener;
 import java.awt.im.InputContext;
 import java.awt.im.InputMethodRequests;
 import java.awt.image.ColorModel;
 import java.awt.image.ImageObserver;
 import java.awt.image.ImageProducer;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.util.Hashtable;
-import java.util.Locale;
-
+import java.base.share.classes.java.util.Locale;
 import org.netbeans.jemmy.CharBindingMap;
 import org.netbeans.jemmy.ComponentChooser;
 import org.netbeans.jemmy.ComponentSearcher;
@@ -73,8 +74,20 @@ import org.netbeans.jemmy.drivers.DriverManager;
 import org.netbeans.jemmy.drivers.FocusDriver;
 import org.netbeans.jemmy.drivers.KeyDriver;
 import org.netbeans.jemmy.drivers.MouseDriver;
-
 import javax.accessibility.AccessibleContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Root class for all component operators.

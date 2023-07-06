@@ -19,14 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.lang.invoke;
+
+
+import java.lang.invoke.MethodHandles;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @bug 8139885
  * @run main/othervm/policy=getclassloader.policy/secure=java.lang.SecurityManager -ea -esa test.java.lang.invoke.FindClassSecurityManager
  */
 
-package test.java.lang.invoke;
 
-import java.lang.invoke.MethodHandles;
 
 public class FindClassSecurityManager {
     public static void main(String[] args) throws Throwable {

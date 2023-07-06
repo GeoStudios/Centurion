@@ -19,13 +19,14 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.im;
+package java.desktop.share.classes.sun.awt.im;
+
 
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Rectangle;
 import java.awt.event.InputMethodEvent;
-import java.awt.event.InputMethodListener;
+import java.awt.event.InputMethodjava.util.Listener;
 import java.awt.font.TextAttribute;
 import java.awt.font.TextHitInfo;
 import java.awt.im.InputMethodRequests;
@@ -33,6 +34,20 @@ import java.lang.ref.WeakReference;
 import java.text.AttributedCharacterIterator;
 import java.text.AttributedCharacterIterator.Attribute;
 import java.text.AttributedString;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A composition area handler handles events and input method requests for

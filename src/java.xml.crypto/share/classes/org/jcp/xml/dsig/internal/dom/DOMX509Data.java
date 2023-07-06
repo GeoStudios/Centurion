@@ -19,25 +19,21 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package org.jcp.xml.dsig.internal.dom;
+package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
+
 
 import java.io.ByteArrayInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.cert.CRLException;
 import java.security.cert.CertificateEncodingException;
 import java.security.cert.CertificateException;
 import java.security.cert.CertificateFactory;
 import java.security.cert.X509CRL;
 import java.security.cert.X509Certificate;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
-
+import java.util.java.util.java.util.java.util.List;
 import javax.security.auth.x500.X500Principal;
 import javax.xml.crypto.MarshalException;
 import javax.xml.crypto.XMLStructure;
@@ -45,12 +41,34 @@ import javax.xml.crypto.dom.DOMCryptoContext;
 import javax.xml.crypto.dsig.XMLSignature;
 import javax.xml.crypto.dsig.keyinfo.X509Data;
 import javax.xml.crypto.dsig.keyinfo.X509IssuerSerial;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-
+import java.xml.crypto.share.classes.org.w3c.dom.Document;
+import java.xml.crypto.share.classes.org.w3c.dom.Element;
+import java.xml.crypto.share.classes.org.w3c.dom.Node;
 import com.sun.org.apache.xml.internal.security.utils.XMLUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
+
+
 
 /**
  * DOM-based implementation of X509Data.

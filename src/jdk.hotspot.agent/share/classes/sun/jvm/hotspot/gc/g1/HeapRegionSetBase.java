@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.gc.g1;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.g1;
+
 
 import java.util.Iterator;
-import sun.jvm.hotspot.utilities.Observable;
-import sun.jvm.hotspot.utilities.Observer;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Address;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VM;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VMObject;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VMObjectFactory;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.AddressField;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.CIntegerField;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.Type;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.TypeDataBase;
 
-import sun.jvm.hotspot.debugger.Address;
-import sun.jvm.hotspot.runtime.VM;
-import sun.jvm.hotspot.runtime.VMObject;
-import sun.jvm.hotspot.runtime.VMObjectFactory;
-import sun.jvm.hotspot.types.AddressField;
-import sun.jvm.hotspot.types.CIntegerField;
-import sun.jvm.hotspot.types.Type;
-import sun.jvm.hotspot.types.TypeDataBase;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Mirror class for HeapRegionSetBase. Represents a group of regions.
 

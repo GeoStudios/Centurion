@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.SoftReference.soft004;
+
+
+import nsk.share.gc.*;
+import java.lang.ref.SoftReference;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -31,10 +50,7 @@
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.SoftReference.soft004.soft004 -t 1
  */
 
-package gc.gctests.SoftReference.soft004;
 
-import nsk.share.gc.*;
-import java.lang.ref.SoftReference;
 
 /**
  * Test that GC correctly clears soft references.

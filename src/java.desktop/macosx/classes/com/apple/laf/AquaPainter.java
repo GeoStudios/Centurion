@@ -19,22 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.*;
 import java.awt.image.*;
 import java.util.HashMap;
-
-import com.apple.laf.AquaImageFactory.RecyclableSlicedImageControl;
-import com.apple.laf.AquaImageFactory.NineSliceMetrics;
-import com.apple.laf.AquaImageFactory.SlicedImageControl;
-
+import java.desktop.macosx.classes.com.apple.laf.AquaImageFactory.RecyclableSlicedImageControl;
+import java.desktop.macosx.classes.com.apple.laf.AquaImageFactory.NineSliceMetrics;
+import java.desktop.macosx.classes.com.apple.laf.AquaImageFactory.SlicedImageControl;
 import sun.awt.image.*;
 import sun.java2d.*;
 import sun.print.*;
-import apple.laf.*;
-import apple.laf.JRSUIUtils.NineSliceMetricsProvider;
+import java.desktop.macosx.classes.com.apple.laf.*;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIUtils.NineSliceMetricsProvider;
 import sun.awt.image.ImageCache;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class AquaPainter <T extends JRSUIState> {
     static <T extends JRSUIState> AquaPainter<T> create(final T state) {

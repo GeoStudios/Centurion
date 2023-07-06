@@ -19,13 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.sun.net.www.content.text;
+
+
+import java.net.*;
+import java.io.InputStream;
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Plain text file handler.
  */
-package sun.net.www.content.text;
-import java.net.*;
-import java.io.InputStream;
-import java.io.IOException;
+
 
 public class plain extends ContentHandler {
     /**

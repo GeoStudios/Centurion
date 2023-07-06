@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdeprscan;
+package jdk.jdeps.share.classes.com.sun.tools.jdeprscan;
+
 
 import java.io.PrintStream;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
 import java.util.stream.Collectors;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class for manipulating comma-separated-value (CSV) data.

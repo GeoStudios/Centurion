@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.nio.file.attribute;
+package java.base.share.classes.java.nio.file.attribute;
 
-import static java.nio.file.attribute.PosixFilePermission.*;
-import java.util.*;
+
+import static java.base.share.classes.java.nio.file.attribute.PosixFilePermission.*;.extended
+import java.base.share.classes.java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class consists exclusively of static methods that operate on sets of

@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.lang.model;
+package java.compiler.share.classes.javax.lang.model;
+
 
 import java.util.Collections;
 import java.util.Set;
 import java.util.HashSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Source versions of the Java programming language.

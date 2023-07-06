@@ -19,20 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.lang.annotation.Annotation;
-import java.lang.reflect.AnnotatedElement;
-import java.net.MalformedURLException;
-import java.net.URI;
-import java.net.URL;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.Objects;
 
+import java.base.share.classes.java.lang.annotation.Annotation;
+import java.base.share.classes.java.lang.reflect.AnnotatedElement;
+import java.base.share.classes.java.net.MalformedURLException;
+import java.base.share.classes.java.net.URI;
+import java.base.share.classes.java.net.URL;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.PrivilegedAction;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import jdk.internal.loader.BootLoader;
 import jdk.internal.reflect.CallerSensitive;
 import jdk.internal.reflect.Reflection;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

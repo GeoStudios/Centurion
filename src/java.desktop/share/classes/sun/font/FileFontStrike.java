@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.share.classes.sun.font;
+
 
 import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
@@ -32,7 +33,20 @@ import java.awt.geom.NoninvertibleTransformException;
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
 import java.util.concurrent.ConcurrentHashMap;
-import static sun.awt.SunHints.*;
+import static java.desktop.share.classes.sun.awt.SunHints.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class FileFontStrike extends PhysicalStrike {

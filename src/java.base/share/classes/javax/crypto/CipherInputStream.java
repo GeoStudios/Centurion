@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.crypto;
+package java.base.share.classes.javax.crypto;
+
 
 import java.io.InputStream;
 import java.io.FilterInputStream;
-import java.io.IOException;
-import javax.crypto.BadPaddingException;
-import javax.crypto.IllegalBlockSizeException;
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.javax.crypto.BadPaddingException;
+import java.base.share.classes.javax.crypto.IllegalBlockSizeException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A CipherInputStream is composed of an InputStream and a Cipher so

@@ -18,14 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing;
+
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.image.*;
 import java.io.Serializable;
-import java.util.EventListener;
-import javax.swing.event.*;
+import java.util.Eventjava.util.Listener;
+import java.desktop.share.classes.javax.swing.event.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The default implementation of a <code>Button</code> component's data model.

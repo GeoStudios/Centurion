@@ -19,16 +19,17 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.eawt;
+package java.desktop.macosx.classes.com.apple.eawt;
+
 
 import java.awt.Image;
 import java.awt.PopupMenu;
 import java.awt.Toolkit;
 import java.awt.Window;
 import java.awt.desktop.AboutHandler;
-import java.awt.desktop.AppForegroundListener;
-import java.awt.desktop.AppHiddenListener;
-import java.awt.desktop.AppReopenedListener;
+import java.awt.desktop.AppForegroundjava.util.Listener;
+import java.awt.desktop.AppHiddenjava.util.Listener;
+import java.awt.desktop.AppReopenedjava.util.Listener;
 import java.awt.desktop.OpenFilesEvent;
 import java.awt.desktop.OpenFilesHandler;
 import java.awt.desktop.OpenURIEvent;
@@ -39,17 +40,29 @@ import java.awt.desktop.PrintFilesHandler;
 import java.awt.desktop.QuitHandler;
 import java.awt.desktop.QuitResponse;
 import java.awt.desktop.QuitStrategy;
-import java.awt.desktop.ScreenSleepListener;
-import java.awt.desktop.SystemEventListener;
-import java.awt.desktop.SystemSleepListener;
-import java.awt.desktop.UserSessionListener;
+import java.awt.desktop.ScreenSleepjava.util.Listener;
+import java.awt.desktop.SystemEventjava.util.Listener;
+import java.awt.desktop.SystemSleepjava.util.Listener;
+import java.awt.desktop.UserSessionjava.util.Listener;
 import java.beans.Beans;
-
 import javax.swing.JMenuBar;
-
 import sun.awt.AWTAccessor;
 import sun.lwawt.LWWindowPeer;
 import sun.lwawt.macosx.CPlatformWindow;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code Application} class allows you to integrate your Java application with the native Mac OS X environment.

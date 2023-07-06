@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.File;
-import java.io.OutputStream;
-import java.util.Hashtable;
-import java.util.Objects;
+
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.InputStream;
+import java.base.share.classes.java.io.File;
+import java.base.share.classes.java.io.OutputStream;
+import java.base.share.classes.java.util.Hashtable;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import sun.net.util.IPAddressUtil;
 import sun.net.www.ParseUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The abstract class {@code URLStreamHandler} is the common

@@ -18,25 +18,41 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.util.stream;
 
-import java.util.Objects;
-import java.util.Optional;
-import java.util.OptionalDouble;
-import java.util.OptionalInt;
-import java.util.OptionalLong;
-import java.util.Spliterator;
-import java.util.concurrent.CountedCompleter;
-import java.util.function.BiConsumer;
-import java.util.function.BiFunction;
-import java.util.function.BinaryOperator;
-import java.util.function.DoubleBinaryOperator;
-import java.util.function.IntBinaryOperator;
-import java.util.function.LongBinaryOperator;
-import java.util.function.ObjDoubleConsumer;
-import java.util.function.ObjIntConsumer;
-import java.util.function.ObjLongConsumer;
-import java.util.function.Supplier;
+package java.base.share.classes.java.util.stream;
+
+
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Optional;
+import java.base.share.classes.java.util.OptionalDouble;
+import java.base.share.classes.java.util.OptionalInt;
+import java.base.share.classes.java.util.OptionalLong;
+import java.base.share.classes.java.util.Spliterator;
+import java.base.share.classes.java.util.concurrent.CountedCompleter;
+import java.base.share.classes.java.util.function.BiConsumer;
+import java.base.share.classes.java.util.function.BiFunction;
+import java.base.share.classes.java.util.function.BinaryOperator;
+import java.base.share.classes.java.util.function.DoubleBinaryOperator;
+import java.base.share.classes.java.util.function.IntBinaryOperator;
+import java.base.share.classes.java.util.function.LongBinaryOperator;
+import java.base.share.classes.java.util.function.ObjDoubleConsumer;
+import java.base.share.classes.java.util.function.ObjIntConsumer;
+import java.base.share.classes.java.util.function.ObjLongConsumer;
+import java.base.share.classes.java.util.function.Supplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Factory for creating instances of {@code TerminalOp} that implement

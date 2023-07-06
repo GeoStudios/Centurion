@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6663621
@@ -27,7 +44,6 @@
  * @run main compiler.c2.IVTest
  */
 
-package compiler.c2;
 
 public class IVTest {
     static int paddedSize;

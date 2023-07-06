@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.java2d.J2DBench.src.j2dbench.report;
+
+
+import java.io.*;
+import java.text.DecimalFormat;
+import java.util.*;
+import demo.share.java2d.J2DBench.src.j2dbench.report.J2DAnalyzer.ResultHolder;
+import demo.share.java2d.J2DBench.src.j2dbench.report.J2DAnalyzer.ResultSetHolder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -28,13 +51,8 @@
  */
 
 
-package j2dbench.report;
 
-import java.io.*;
-import java.text.DecimalFormat;
-import java.util.*;
-import j2dbench.report.J2DAnalyzer.ResultHolder;
-import j2dbench.report.J2DAnalyzer.ResultSetHolder;
+
 
 /**
  * This simple utility generates a wiki- or html-formatted table, which

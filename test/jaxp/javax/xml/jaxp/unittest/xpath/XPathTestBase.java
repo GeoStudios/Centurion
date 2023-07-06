@@ -18,32 +18,44 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package xpath;
+
 
 import java.io.ByteArrayInputStream;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
-
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathFactory;
-import static javax.xml.xpath.XPathConstants.BOOLEAN;
-import static javax.xml.xpath.XPathConstants.NUMBER;
-import static javax.xml.xpath.XPathConstants.STRING;
-import static javax.xml.xpath.XPathConstants.NODE;
-import static javax.xml.xpath.XPathConstants.NODESET;
+import static javax.xml.xpath.XPathConstants.BOOLEAN;.extended
+import static javax.xml.xpath.XPathConstants.NUMBER;.extended
+import static javax.xml.xpath.XPathConstants.STRING;.extended
+import static javax.xml.xpath.XPathConstants.NODE;.extended
+import static javax.xml.xpath.XPathConstants.NODESET;.extended
 import javax.xml.xpath.XPathNodes;
 import javax.xml.xpath.XPathEvaluationResult;
-
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertTrue;
-
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertFalse;.extended
+import static org.testng.Assert.assertTrue;.extended
 import org.testng.annotations.DataProvider;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Base class for XPath test

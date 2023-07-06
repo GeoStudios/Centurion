@@ -21,13 +21,13 @@
 
 package tck.java.time;
 
-import static java.time.DayOfWeek.MONDAY;
-import static java.time.DayOfWeek.SUNDAY;
-import static java.time.DayOfWeek.WEDNESDAY;
-import static java.time.temporal.ChronoField.DAY_OF_WEEK;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertSame;
 
+import static java.time.DayOfWeek.MONDAY;.extended
+import static java.time.DayOfWeek.SUNDAY;.extended
+import static java.time.DayOfWeek.WEDNESDAY;.extended
+import static java.time.temporal.ChronoField.DAY_OF_WEEK;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertSame;.extended
 import java.time.DateTimeException;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
@@ -41,14 +41,26 @@ import java.time.temporal.TemporalAccessor;
 import java.time.temporal.TemporalField;
 import java.time.temporal.TemporalQueries;
 import java.time.temporal.TemporalQuery;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Locale;
-
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test DayOfWeek.

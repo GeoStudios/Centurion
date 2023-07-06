@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.linux;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.linux;
 
-import java.util.List;
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.debugger.cdbg.*;
+
+import java.util.java.util.java.util.java.util.List;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** An extension of the JVMDebugger interface with a few additions to
     support 32-bit vs. 64-bit debugging as well as features required

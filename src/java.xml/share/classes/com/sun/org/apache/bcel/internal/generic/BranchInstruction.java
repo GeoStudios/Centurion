@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.bcel.internal.generic;
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
+
 
 import java.io.DataOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.ByteSequence;
 
-import com.sun.org.apache.bcel.internal.util.ByteSequence;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract super class for branching instructions like GOTO, IFEQ, etc..

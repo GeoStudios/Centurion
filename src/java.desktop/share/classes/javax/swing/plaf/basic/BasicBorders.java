@@ -19,21 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.basic;
+package java.desktop.share.classes.javax.swing.plaf.basic;
 
-import javax.swing.*;
-import javax.swing.border.*;
-import javax.swing.plaf.*;
-import javax.swing.text.JTextComponent;
 
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.border.*;
+import java.desktop.share.classes.javax.swing.plaf.*;
+import java.desktop.share.classes.javax.swing.text.JTextComponent;
 import java.awt.Component;
 import java.awt.Insets;
 import java.awt.Dimension;
 import java.awt.Rectangle;
 import java.awt.Color;
 import java.awt.Graphics;
-
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Factory object that can vend Borders appropriate for the basic L &amp; F.

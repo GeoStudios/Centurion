@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac.comp;
+package jdk.compiler.share.classes.com.sun.tools.sjavac.comp;
 
-import com.sun.tools.sjavac.Log;
 
+import jdk.compiler.share.classes.com.sun.tools.sjavac.Log;
 import java.io.*;
 import javax.tools.JavaFileObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The SmartWriter will cache the written data and when the writer is closed,

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.profiling;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8251458
@@ -28,7 +45,6 @@
  *                   compiler.profiling.TestMultiBranchDataOverflow
  */
 
-package compiler.profiling;
 
 public class TestMultiBranchDataOverflow {
 

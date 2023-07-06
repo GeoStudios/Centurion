@@ -18,25 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.operators;
+
 
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 import java.util.Hashtable;
-
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
 import javax.swing.KeyStroke;
 import javax.swing.MenuElement;
 import javax.swing.MenuSelectionManager;
 import javax.swing.event.MenuDragMouseEvent;
-import javax.swing.event.MenuDragMouseListener;
+import javax.swing.event.MenuDragMousejava.util.Listener;
 import javax.swing.event.MenuKeyEvent;
-import javax.swing.event.MenuKeyListener;
+import javax.swing.event.MenuKeyjava.util.Listener;
 import javax.swing.plaf.MenuItemUI;
-
 import org.netbeans.jemmy.ComponentChooser;
 import org.netbeans.jemmy.JemmyProperties;
 import org.netbeans.jemmy.Outputable;
@@ -45,6 +45,19 @@ import org.netbeans.jemmy.TimeoutExpiredException;
 import org.netbeans.jemmy.Timeoutable;
 import org.netbeans.jemmy.Timeouts;
 import org.netbeans.jemmy.util.EmptyVisualizer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

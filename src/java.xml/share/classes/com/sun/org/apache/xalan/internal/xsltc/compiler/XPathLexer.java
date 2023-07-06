@@ -19,11 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
+
+
+import java.xml.share.classes.com.sun.java_cup.internal.runtime.Symbol;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  *
  */
-package com.sun.org.apache.xalan.internal.xsltc.compiler;
-import com.sun.java_cup.internal.runtime.Symbol;
+
 
 
 /**

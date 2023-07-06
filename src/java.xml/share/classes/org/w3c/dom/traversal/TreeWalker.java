@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.w3c.dom.traversal;
+package java.xml.share.classes.org.w3c.dom.traversal;
 
-import org.w3c.dom.Node;
-import org.w3c.dom.DOMException;
+
+import java.xml.share.classes.org.w3c.dom.Node;
+import java.xml.share.classes.org.w3c.dom.DOMException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>TreeWalker</code> objects are used to navigate a document tree or

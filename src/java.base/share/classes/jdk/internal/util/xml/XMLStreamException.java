@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.util.xml;
+package java.base.share.classes.jdk.internal.util.xml;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A copy of the StAX XMLStreamException without Location support

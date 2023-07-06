@@ -18,12 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package java.xml.crypto.share.classes.javax.xml.crypto;
+
+
+import java.xml.crypto.share.classes.javax.xml.crypto.dsig.Transform;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: Data.java,v 1.4 2005/05/10 15:47:41 mullan Exp $
  */
-package javax.xml.crypto;
 
-import javax.xml.crypto.dsig.Transform;
+
 
 /**
  * An abstract representation of the result of dereferencing a

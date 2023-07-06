@@ -18,26 +18,41 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.tools.jlink.internal.plugins;
+
+package jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins;
+
 
 import java.nio.file.Path;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.EnumSet;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.ModuleSorter;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.Utils;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.PluginException;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePool;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolBuilder;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry.Type;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolModule;
 
-import jdk.tools.jlink.internal.ModuleSorter;
-import jdk.tools.jlink.internal.Utils;
-import jdk.tools.jlink.plugin.PluginException;
-import jdk.tools.jlink.plugin.ResourcePool;
-import jdk.tools.jlink.plugin.ResourcePoolBuilder;
-import jdk.tools.jlink.plugin.ResourcePoolEntry;
-import jdk.tools.jlink.plugin.ResourcePoolEntry.Type;
-import jdk.tools.jlink.plugin.ResourcePoolModule;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A plugin to de-duplicate the legal notices from JMOD files.

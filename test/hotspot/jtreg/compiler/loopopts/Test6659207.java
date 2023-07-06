@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6659207
@@ -27,7 +44,6 @@
  * @run main compiler.loopopts.Test6659207
  */
 
-package compiler.loopopts;
 
 public class Test6659207 {
     static int[] array = new int[12];

@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.pipe;
+package java.desktop.share.classes.sun.java2d.pipe;
+
 
 import java.awt.Rectangle;
 import java.awt.Shape;
-import sun.java2d.SunGraphics2D;
+import java.desktop.share.classes.sun.java2d.SunGraphics2D;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements a CompositePipe that renders path alpha tiles

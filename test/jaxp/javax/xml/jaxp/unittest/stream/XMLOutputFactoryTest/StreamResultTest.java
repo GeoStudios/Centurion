@@ -21,20 +21,31 @@
 
 package stream.XMLOutputFactoryTest;
 
-import static jaxp.library.JAXPTestUtilities.getSystemProperty;
 
+import static jaxp.library.JAXPTestUtilities.getSystemProperty;.extended
 import java.io.ByteArrayOutputStream;
-
 import javax.xml.stream.XMLEventFactory;
 import javax.xml.stream.XMLEventWriter;
 import javax.xml.stream.XMLOutputFactory;
 import javax.xml.stream.XMLStreamWriter;
 import javax.xml.transform.stax.StAXResult;
 import javax.xml.transform.stream.StreamResult;
-
 import org.testng.Assert;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

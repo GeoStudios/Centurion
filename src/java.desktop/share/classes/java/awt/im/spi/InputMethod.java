@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.im.spi;
+package java.desktop.share.classes.java.awt.im.spi;
 
-import java.util.Locale;
-import java.awt.AWTEvent;
-import java.awt.Rectangle;
-import java.lang.Character.Subset;
+
+import java.desktop.share.classes.java.util.Locale;
+import java.desktop.share.classes.java.awt.AWTEvent;
+import java.desktop.share.classes.java.awt.Rectangle;
+import java.desktop.share.classes.java.lang.Character.Subset;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

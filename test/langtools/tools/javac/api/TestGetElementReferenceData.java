@@ -20,9 +20,25 @@
  */
 
 package test/*getElement:PACKAGE:test*/.nested/*getElement:PACKAGE:test.nested*/;
-/*getElement:PACKAGE:test.nested*/
+
+
 import java.lang.annotation.*;
-import static test.nested.TestGetElementReferenceData.Sub.*;
+import static test.nested.TestGetElementReferenceData.Sub.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*getElement:PACKAGE:test.nested*/
 
 public class TestGetElementReferenceData {
 

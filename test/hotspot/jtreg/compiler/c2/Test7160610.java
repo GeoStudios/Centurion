@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import jdk.test.lib.Utils;
+import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @key randomness
@@ -28,11 +47,8 @@
  * @run main/othervm -XX:+IgnoreUnrecognizedVMOptions -XX:-OptimizeFill compiler.c2.Test7160610
  */
 
-package compiler.c2;
 
-import jdk.test.lib.Utils;
 
-import java.util.Random;
 
 public class Test7160610 {
   private static final byte[] BYTE_ARRAY = new byte[7];

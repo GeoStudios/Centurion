@@ -18,18 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.terminal.impl;
 
-import jdk.internal.org.jline.terminal.Attributes;
-import jdk.internal.org.jline.terminal.Cursor;
-import jdk.internal.org.jline.terminal.Size;
+package jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl;
 
-import java.io.IOException;
+
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Attributes;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Cursor;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Size;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.nio.charset.Charset;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.IntConsumer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Console implementation with embedded line disciplined.

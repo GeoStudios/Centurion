@@ -18,10 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.jvmti.unit.FollowReferences;
+
 
 import java.lang.ref.*;
 import java.lang.reflect.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // 2 superinterfaces
 // (Henri Cartier-Bresson, Alex Webb and Bruno Barbey are famous photographers)

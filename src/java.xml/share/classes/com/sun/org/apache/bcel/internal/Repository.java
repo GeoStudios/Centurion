@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.bcel.internal;
+package java.xml.share.classes.com.sun.org.apache.bcel.internal;
 
 
-import com.sun.org.apache.bcel.internal.classfile.JavaClass;
-import com.sun.org.apache.bcel.internal.util.SyntheticRepository;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.JavaClass;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.SyntheticRepository;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The repository maintains informations about class interdependencies, e.g.,

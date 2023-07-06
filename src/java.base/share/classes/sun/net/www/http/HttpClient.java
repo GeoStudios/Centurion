@@ -19,26 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.http;
+package java.base.share.classes.sun.net.www.http;
+
 
 import java.io.*;
 import java.net.*;
-import java.util.Locale;
-import java.util.Objects;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.Objects;
 import java.util.Properties;
 import java.util.concurrent.locks.ReentrantLock;
+import java.base.share.classes.sun.net.NetworkClient;
+import java.base.share.classes.sun.net.ProgressSource;
+import java.base.share.classes.sun.net.www.MessageHeader;
+import java.base.share.classes.sun.net.www.HeaderParser;
+import java.base.share.classes.sun.net.www.MeteredStream;
+import java.base.share.classes.sun.net.www.ParseUtil;
+import java.base.share.classes.sun.net.www.protocol.http.AuthenticatorKeys;
+import java.base.share.classes.sun.net.www.protocol.http.HttpURLConnection;
+import java.base.share.classes.sun.util.logging.PlatformLogger;
+import static java.base.share.classes.sun.net.www.protocol.http.HttpURLConnection.TunnelState.*;.extended
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
-import sun.net.NetworkClient;
-import sun.net.ProgressSource;
-import sun.net.www.MessageHeader;
-import sun.net.www.HeaderParser;
-import sun.net.www.MeteredStream;
-import sun.net.www.ParseUtil;
-import sun.net.www.protocol.http.AuthenticatorKeys;
-import sun.net.www.protocol.http.HttpURLConnection;
-import sun.util.logging.PlatformLogger;
-import static sun.net.www.protocol.http.HttpURLConnection.TunnelState.*;
-import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

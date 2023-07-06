@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider.certpath;
+package java.base.share.classes.sun.security.provider.certpath;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.cert.Certificate;
 import java.security.cert.CertificateException;
 import java.security.cert.CertPathValidatorException;
@@ -31,17 +32,30 @@ import java.security.cert.PolicyNode;
 import java.security.cert.PolicyQualifierInfo;
 import java.security.cert.X509Certificate;
 import java.util.*;
+import java.base.share.classes.sun.security.util.Debug;
+import java.base.share.classes.sun.security.util.KnownOIDs;
+import java.base.share.classes.sun.security.x509.CertificatePoliciesExtension;
+import java.base.share.classes.sun.security.x509.PolicyConstraintsExtension;
+import java.base.share.classes.sun.security.x509.PolicyMappingsExtension;
+import java.base.share.classes.sun.security.x509.CertificatePolicyMap;
+import static java.base.share.classes.sun.security.x509.PKIXExtensions.*;.extended
+import java.base.share.classes.sun.security.x509.PolicyInformation;
+import java.base.share.classes.sun.security.x509.X509CertImpl;
+import java.base.share.classes.sun.security.x509.InhibitAnyPolicyExtension;
 
-import sun.security.util.Debug;
-import sun.security.util.KnownOIDs;
-import sun.security.x509.CertificatePoliciesExtension;
-import sun.security.x509.PolicyConstraintsExtension;
-import sun.security.x509.PolicyMappingsExtension;
-import sun.security.x509.CertificatePolicyMap;
-import static sun.security.x509.PKIXExtensions.*;
-import sun.security.x509.PolicyInformation;
-import sun.security.x509.X509CertImpl;
-import sun.security.x509.InhibitAnyPolicyExtension;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * PolicyChecker is a <code>PKIXCertPathChecker</code> that checks policy

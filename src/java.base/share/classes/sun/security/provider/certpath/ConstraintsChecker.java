@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider.certpath;
+package java.base.share.classes.sun.security.provider.certpath;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.cert.Certificate;
 import java.security.cert.CertificateException;
 import java.security.cert.CertPathValidatorException;
@@ -32,11 +33,24 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
+import java.base.share.classes.sun.security.util.Debug;
+import static java.base.share.classes.sun.security.x509.PKIXExtensions.*;.extended
+import java.base.share.classes.sun.security.x509.NameConstraintsExtension;
+import java.base.share.classes.sun.security.x509.X509CertImpl;
 
-import sun.security.util.Debug;
-import static sun.security.x509.PKIXExtensions.*;
-import sun.security.x509.NameConstraintsExtension;
-import sun.security.x509.X509CertImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ConstraintsChecker is a <code>PKIXCertPathChecker</code> that checks

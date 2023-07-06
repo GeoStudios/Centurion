@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.naming.ldap;
+package java.naming.share.classes.javax.naming.ldap;
 
-import javax.naming.ReferralException;
-import javax.naming.Context;
-import javax.naming.NamingException;
+
+import java.naming.share.classes.javax.naming.ReferralException;
+import java.naming.share.classes.javax.naming.Context;
+import java.naming.share.classes.javax.naming.NamingException;
 import java.util.Hashtable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This abstract class is used to represent an LDAP referral exception.

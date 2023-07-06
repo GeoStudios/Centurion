@@ -21,7 +21,55 @@
 
 package build.tools.generatenimbus;
 
-import javax.xml.stream.XMLStreamReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class Shape {
     PaintPoints paintPoints;

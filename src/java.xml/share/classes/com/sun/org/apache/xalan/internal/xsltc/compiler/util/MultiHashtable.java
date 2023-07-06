@@ -19,16 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * $Id: MultiHashtable.java,v 1.2.4.1 2005/09/05 11:18:51 pvedula Exp $
- */
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util;
 
-package com.sun.org.apache.xalan.internal.xsltc.compiler.util;
 
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * $Id: MultiHashtable.java,v 1.2.4.1 2005/09/05 11:18:51 pvedula Exp $
+ */
+
+
+
 
 /**
  * @param <K>

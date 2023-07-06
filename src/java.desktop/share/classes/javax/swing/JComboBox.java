@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.AWTEvent;
 import java.awt.Component;
@@ -27,47 +28,60 @@ import java.awt.EventQueue;
 import java.awt.IllegalComponentStateException;
 import java.awt.ItemSelectable;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.event.InputEvent;
 import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
+import java.awt.event.Itemjava.util.Listener;
 import java.awt.event.KeyEvent;
 import java.beans.BeanProperty;
 import java.beans.JavaBean;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.beans.Transient;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.io.Serial;
 import java.io.Serializable;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Vector;
+import java.desktop.share.classes.javax.accessibility.Accessible;
+import java.desktop.share.classes.javax.accessibility.AccessibleAction;
+import java.desktop.share.classes.javax.accessibility.AccessibleComponent;
+import java.desktop.share.classes.javax.accessibility.AccessibleContext;
+import java.desktop.share.classes.javax.accessibility.AccessibleEditableText;
+import java.desktop.share.classes.javax.accessibility.AccessibleIcon;
+import java.desktop.share.classes.javax.accessibility.AccessibleRelationSet;
+import java.desktop.share.classes.javax.accessibility.AccessibleRole;
+import java.desktop.share.classes.javax.accessibility.AccessibleSelection;
+import java.desktop.share.classes.javax.accessibility.AccessibleState;
+import java.desktop.share.classes.javax.accessibility.AccessibleStateSet;
+import java.desktop.share.classes.javax.accessibility.AccessibleTable;
+import java.desktop.share.classes.javax.accessibility.AccessibleText;
+import java.desktop.share.classes.javax.accessibility.AccessibleValue;
+import java.desktop.share.classes.javax.swing.event.AncestorEvent;
+import java.desktop.share.classes.javax.swing.event.Ancestorjava.util.Listener;
+import java.desktop.share.classes.javax.swing.event.Eventjava.util.Listenerjava.util.java.util.java.util.List;
+import java.desktop.share.classes.javax.swing.event.java.util.ListDataEvent;
+import java.desktop.share.classes.javax.swing.event.java.util.ListDatajava.util.Listener;
+import java.desktop.share.classes.javax.swing.event.java.util.ListSelectionEvent;
+import java.desktop.share.classes.javax.swing.event.java.util.ListSelectionjava.util.Listener;
+import java.desktop.share.classes.javax.swing.event.PopupMenuEvent;
+import java.desktop.share.classes.javax.swing.event.PopupMenujava.util.Listener;
+import java.desktop.share.classes.javax.swing.plaf.ComboBoxUI;
 
-import javax.accessibility.Accessible;
-import javax.accessibility.AccessibleAction;
-import javax.accessibility.AccessibleComponent;
-import javax.accessibility.AccessibleContext;
-import javax.accessibility.AccessibleEditableText;
-import javax.accessibility.AccessibleIcon;
-import javax.accessibility.AccessibleRelationSet;
-import javax.accessibility.AccessibleRole;
-import javax.accessibility.AccessibleSelection;
-import javax.accessibility.AccessibleState;
-import javax.accessibility.AccessibleStateSet;
-import javax.accessibility.AccessibleTable;
-import javax.accessibility.AccessibleText;
-import javax.accessibility.AccessibleValue;
-import javax.swing.event.AncestorEvent;
-import javax.swing.event.AncestorListener;
-import javax.swing.event.EventListenerList;
-import javax.swing.event.ListDataEvent;
-import javax.swing.event.ListDataListener;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
-import javax.swing.event.PopupMenuEvent;
-import javax.swing.event.PopupMenuListener;
-import javax.swing.plaf.ComboBoxUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A component that combines a button or editable field and a drop-down list.

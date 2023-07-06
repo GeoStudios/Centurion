@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.unix.classes.sun.font;
 
-import java.util.Locale;
 
-import sun.awt.SunHints;
-import sun.awt.SunToolkit;
-import sun.util.logging.PlatformLogger;
+import java.base.share.classes.java.util.Locale;
+import java.desktop.unix.classes.sun.awt.SunHints;
+import java.desktop.unix.classes.sun.awt.SunToolkit;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Small utility class to manage FontConfig.

@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.mbeanserver;
+package java.management.share.classes.com.sun.jmx.mbeanserver;
+
 
 import java.security.AccessController;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import javax.management.AttributeNotFoundException;
 import javax.management.InvalidAttributeValueException;
 import javax.management.MBeanException;
 import javax.management.MBeanInfo;
 import javax.management.ReflectionException;
+import static java.management.share.classes.com.sun.jmx.mbeanserver.Util.*;.extended
 
-import static com.sun.jmx.mbeanserver.Util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Per-MBean-interface behavior.  A single instance of this class can be shared

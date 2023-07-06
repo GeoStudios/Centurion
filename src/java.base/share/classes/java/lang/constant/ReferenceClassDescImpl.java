@@ -18,13 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang.constant;
 
-import java.lang.invoke.MethodHandles;
+package java.base.share.classes.java.lang.constant;
 
-import static java.lang.constant.ConstantUtils.dropFirstAndLastChar;
-import static java.lang.constant.ConstantUtils.internalToBinary;
-import static java.util.Objects.requireNonNull;
+
+import java.base.share.classes.java.lang.invoke.MethodHandles;
+import static java.base.share.classes.java.lang.constant.ConstantUtils.dropFirstAndLastChar;.extended
+import static java.base.share.classes.java.lang.constant.ConstantUtils.internalToBinary;.extended
+import static java.base.share.classes.java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A <a href="package-summary.html#nominal">nominal descriptor</a> for a class,

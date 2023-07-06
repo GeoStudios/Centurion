@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.lang.annotation.*;
-import static java.lang.annotation.ElementType.*;
+
+import java.base.share.classes.java.lang.annotation.*;
+import static java.base.share.classes.java.lang.annotation.ElementType.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Indicates that the named compiler warnings should be suppressed in the

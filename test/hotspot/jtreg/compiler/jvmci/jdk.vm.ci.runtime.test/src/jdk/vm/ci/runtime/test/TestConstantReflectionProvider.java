@@ -19,6 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.vm.ci.runtime.test;
+
+
+import jdk.vm.ci.meta.ConstantReflectionProvider;
+import jdk.vm.ci.meta.JavaConstant;
+import jdk.vm.ci.meta.JavaKind;
+import org.junit.Test;
+import java.lang.reflect.Array;
+import java.util.java.util.java.util.java.util.List;
+import static org.junit.Assert.assertEquals;.extended
+import static org.junit.Assert.assertFalse;.extended
+import static org.junit.Assert.assertNotNull;.extended
+import static org.junit.Assert.assertNull;.extended
+import static org.junit.Assert.assertTrue;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @requires vm.jvmci
@@ -29,21 +57,9 @@
  * @run junit/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler jdk.vm.ci.runtime.test.TestConstantReflectionProvider
  */
 
-package jdk.vm.ci.runtime.test;
 
-import jdk.vm.ci.meta.ConstantReflectionProvider;
-import jdk.vm.ci.meta.JavaConstant;
-import jdk.vm.ci.meta.JavaKind;
-import org.junit.Test;
 
-import java.lang.reflect.Array;
-import java.util.List;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertTrue;
 
 /**
  * Tests for {@link ConstantReflectionProvider}. It assumes an implementation of the interface that

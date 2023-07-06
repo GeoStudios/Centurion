@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jshell;
+package jdk.jshell.share.classes.jdk.jshell;
+
 
 import com.sun.tools.javac.code.Source;
 import com.sun.tools.javac.code.Source.Feature;
@@ -29,17 +30,17 @@ import com.sun.tools.javac.parser.Tokens.Comment;
 import com.sun.tools.javac.parser.Tokens.Comment.CommentStyle;
 import com.sun.tools.javac.parser.Tokens.Token;
 import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import static com.sun.tools.javac.parser.Tokens.TokenKind.CLASS;
-import static com.sun.tools.javac.parser.Tokens.TokenKind.COLON;
-import static com.sun.tools.javac.parser.Tokens.TokenKind.ENUM;
-import static com.sun.tools.javac.parser.Tokens.TokenKind.EOF;
-import static com.sun.tools.javac.parser.Tokens.TokenKind.IMPORT;
-import static com.sun.tools.javac.parser.Tokens.TokenKind.INTERFACE;
-import static com.sun.tools.javac.parser.Tokens.TokenKind.LPAREN;
-import static com.sun.tools.javac.parser.Tokens.TokenKind.MONKEYS_AT;
-import static com.sun.tools.javac.parser.Tokens.TokenKind.SEMI;
-import static com.sun.tools.javac.parser.Tokens.TokenKind.SWITCH;
-import static com.sun.tools.javac.parser.Tokens.TokenKind.VOID;
+import static com.sun.tools.javac.parser.Tokens.TokenKind.CLASS;.extended
+import static com.sun.tools.javac.parser.Tokens.TokenKind.COLON;.extended
+import static com.sun.tools.javac.parser.Tokens.TokenKind.ENUM;.extended
+import static com.sun.tools.javac.parser.Tokens.TokenKind.EOF;.extended
+import static com.sun.tools.javac.parser.Tokens.TokenKind.IMPORT;.extended
+import static com.sun.tools.javac.parser.Tokens.TokenKind.INTERFACE;.extended
+import static com.sun.tools.javac.parser.Tokens.TokenKind.LPAREN;.extended
+import static com.sun.tools.javac.parser.Tokens.TokenKind.MONKEYS_AT;.extended
+import static com.sun.tools.javac.parser.Tokens.TokenKind.SEMI;.extended
+import static com.sun.tools.javac.parser.Tokens.TokenKind.SWITCH;.extended
+import static com.sun.tools.javac.parser.Tokens.TokenKind.VOID;.extended
 import com.sun.tools.javac.tree.JCTree;
 import com.sun.tools.javac.tree.JCTree.JCAnnotation;
 import com.sun.tools.javac.tree.JCTree.JCCompilationUnit;
@@ -49,11 +50,25 @@ import com.sun.tools.javac.tree.JCTree.JCModifiers;
 import com.sun.tools.javac.tree.JCTree.JCStatement;
 import com.sun.tools.javac.tree.JCTree.JCTypeParameter;
 import com.sun.tools.javac.tree.JCTree.Tag;
-import static com.sun.tools.javac.tree.JCTree.Tag.IDENT;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.ListBuffer;
+import static com.sun.tools.javac.tree.JCTree.Tag.IDENT;.extended
+import com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import com.sun.tools.javac.util.java.util.ListBuffer;
 import com.sun.tools.javac.util.Name;
 import com.sun.tools.javac.util.Position;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is a subclass of JavacParser which overrides one method with a modified

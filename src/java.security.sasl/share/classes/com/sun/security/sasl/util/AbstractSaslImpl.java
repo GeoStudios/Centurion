@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.security.sasl.util;
+package java.security.sasl.share.classes.com.sun.security.sasl.util;
+
 
 import javax.security.sasl.*;
 import java.io.*;
 import java.util.Map;
 import java.util.StringTokenizer;
-
 import java.util.logging.Logger;
 import java.util.logging.Level;
+import java.security.sasl.share.classes.com.sun.security.util.HexDumpEncoder;
 
-import sun.security.util.HexDumpEncoder;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The base class used by client and server implementations of SASL

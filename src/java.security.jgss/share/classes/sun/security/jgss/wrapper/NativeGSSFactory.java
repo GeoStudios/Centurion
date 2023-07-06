@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jgss.wrapper;
+package java.security.jgss.share.classes.sun.security.jgss.wrapper;
+
 
 import java.security.Provider;
 import java.util.Vector;
 import org.ietf.jgss.*;
-import sun.security.jgss.GSSUtil;
-import sun.security.jgss.GSSCaller;
-import sun.security.jgss.GSSExceptionImpl;
-import sun.security.jgss.spi.*;
+import java.security.jgss.share.classes.sun.security.jgss.GSSUtil;
+import java.security.jgss.share.classes.sun.security.jgss.GSSCaller;
+import java.security.jgss.share.classes.sun.security.jgss.GSSExceptionImpl;
+import java.security.jgss.share.classes.sun.security.jgss.spi.*;
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
 
-import static java.nio.charset.StandardCharsets.UTF_8;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * JGSS plugin for generic mechanisms provided through native GSS framework.

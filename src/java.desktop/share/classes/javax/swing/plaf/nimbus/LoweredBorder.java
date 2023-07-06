@@ -18,10 +18,12 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.plaf.nimbus;
 
-import javax.swing.border.Border;
-import javax.swing.JComponent;
+package java.desktop.share.classes.javax.swing.plaf.nimbus;
+
+
+import java.desktop.share.classes.javax.swing.border.Border;
+import java.desktop.share.classes.javax.swing.JComponent;
 import java.awt.Insets;
 import java.awt.Component;
 import java.awt.Graphics;
@@ -30,6 +32,20 @@ import java.awt.Color;
 import java.awt.RenderingHints;
 import java.awt.Dimension;
 import java.awt.image.BufferedImage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * LoweredBorder - A recessed rounded inner shadowed border. Used as the

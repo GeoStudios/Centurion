@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package InnerInterface1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4452899
@@ -28,7 +45,6 @@
  * @compile  InnerInterface1.java
  */
 
-package InnerInterface1;
 
 interface Iterator<E> {
 }

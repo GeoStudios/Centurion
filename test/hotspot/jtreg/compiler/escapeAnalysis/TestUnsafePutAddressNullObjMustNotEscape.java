@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.escapeAnalysis;
+
+
+import jdk.internal.misc.Unsafe;
+import java.lang.reflect.Field;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8038048
@@ -32,11 +51,8 @@
  * @author Richard Reingruber richard DOT reingruber AT sap DOT com
  */
 
-package compiler.escapeAnalysis;
 
-import jdk.internal.misc.Unsafe;
 
-import java.lang.reflect.Field;
 
 public class TestUnsafePutAddressNullObjMustNotEscape {
 

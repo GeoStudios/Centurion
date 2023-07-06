@@ -19,20 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.font;
+package java.desktop.share.classes.java.awt.font;
 
-import java.awt.Font;
-import java.awt.Toolkit;
-import java.awt.im.InputMethodHighlight;
-import java.text.Annotation;
-import java.text.AttributedCharacterIterator;
-import java.text.AttributedCharacterIterator.Attribute;
-import java.util.Vector;
-import java.util.HashMap;
-import java.util.Map;
+
+import java.desktop.share.classes.java.awt.Font;
+import java.desktop.share.classes.java.awt.Toolkit;
+import java.desktop.share.classes.java.awt.im.InputMethodHighlight;
+import java.desktop.share.classes.java.text.Annotation;
+import java.desktop.share.classes.java.text.AttributedCharacterIterator;
+import java.desktop.share.classes.java.text.AttributedCharacterIterator.Attribute;
+import java.desktop.share.classes.java.util.Vector;
+import java.desktop.share.classes.java.util.HashMap;
+import java.desktop.share.classes.java.util.Map;
 import sun.font.CodePointIterator;
 import sun.font.Decoration;
 import sun.font.FontResolver;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class stores Font, GraphicAttribute, and Decoration intervals

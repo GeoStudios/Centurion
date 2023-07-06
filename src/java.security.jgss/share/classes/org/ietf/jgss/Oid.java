@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.ietf.jgss;
+package java.security.jgss.share.classes.org.ietf.jgss;
+
 
 import java.io.InputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import sun.security.util.DerValue;
 import sun.security.util.DerOutputStream;
 import sun.security.util.ObjectIdentifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents Universal Object Identifiers (Oids) and their

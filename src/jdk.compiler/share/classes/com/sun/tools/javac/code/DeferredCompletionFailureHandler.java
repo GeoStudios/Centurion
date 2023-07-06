@@ -18,18 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.tools.javac.code;
+
+package jdk.compiler.share.classes.com.sun.tools.javac.code;
+
 
 import java.util.HashMap;
 import java.util.Map;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.WriteableScope;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ClassSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.Completer;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.CompletionFailure;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
 
-import com.sun.tools.javac.code.Kinds.Kind;
-import com.sun.tools.javac.code.Scope.WriteableScope;
-import com.sun.tools.javac.code.Symbol;
-import com.sun.tools.javac.code.Symbol.ClassSymbol;
-import com.sun.tools.javac.code.Symbol.Completer;
-import com.sun.tools.javac.code.Symbol.CompletionFailure;
-import com.sun.tools.javac.util.Context;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** When a CompletionFailure is thrown when user code is running, it shouldn't be
  *  thrown out to the client code, but rather skipped, and then rethrown later if javac

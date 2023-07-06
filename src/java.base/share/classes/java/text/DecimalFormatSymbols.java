@@ -19,20 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
 
-import java.io.InvalidObjectException;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.Serializable;
-import java.text.spi.DecimalFormatSymbolsProvider;
-import java.util.Currency;
-import java.util.Locale;
-import java.util.Objects;
+
+import java.base.share.classes.java.io.InvalidObjectException;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.ObjectInputStream;
+import java.base.share.classes.java.io.Serializable;
+import java.base.share.classes.java.text.spi.DecimalFormatSymbolsProvider;
+import java.base.share.classes.java.util.Currency;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import sun.util.locale.provider.CalendarDataUtility;
 import sun.util.locale.provider.LocaleProviderAdapter;
 import sun.util.locale.provider.LocaleServiceProviderPool;
 import sun.util.locale.provider.ResourceBundleBasedAdapter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents the set of symbols (such as the decimal separator,

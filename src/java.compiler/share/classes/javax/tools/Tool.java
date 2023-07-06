@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.tools;
+package java.compiler.share.classes.javax.tools;
+
 
 import java.util.Set;
 import java.io.InputStream;
 import java.io.OutputStream;
-import javax.lang.model.SourceVersion;
+import java.compiler.share.classes.javax.lang.model.SourceVersion;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Common interface for tools that can be invoked from a program.

@@ -18,10 +18,12 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.tests.java.util.stream;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
@@ -29,14 +31,14 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.IntSummaryStatistics;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 import java.util.StringJoiner;
 import java.util.TreeMap;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentSkipListMap;
+import java.util.concurrent.ConcurrentSkipjava.util.ListMap;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.BiFunction;
 import java.util.function.BinaryOperator;
@@ -51,25 +53,36 @@ import java.util.stream.Stream;
 import java.util.stream.StreamOpFlagTestHelper;
 import java.util.stream.StreamTestDataProvider;
 import java.util.stream.TestData;
-
 import org.testng.annotations.Test;
+import static java.util.stream.Collectors.collectingAndThen;.extended
+import static java.util.stream.Collectors.flatMapping;.extended
+import static java.util.stream.Collectors.filtering;.extended
+import static java.util.stream.Collectors.groupingBy;.extended
+import static java.util.stream.Collectors.groupingByConcurrent;.extended
+import static java.util.stream.Collectors.mapping;.extended
+import static java.util.stream.Collectors.partitioningBy;.extended
+import static java.util.stream.Collectors.reducing;.extended
+import static java.util.stream.Collectors.toCollection;.extended
+import static java.util.stream.Collectors.toConcurrentMap;.extended
+import static java.util.stream.Collectors.tojava.util.java.util.java.util.List;.extended
+import static java.util.stream.Collectors.toMap;.extended
+import static java.util.stream.Collectors.toSet;.extended
+import static java.util.stream.LambdaTestHelpers.assertContents;.extended
+import static java.util.stream.LambdaTestHelpers.assertContentsUnordered;.extended
+import static java.util.stream.LambdaTestHelpers.mDoubler;.extended
 
-import static java.util.stream.Collectors.collectingAndThen;
-import static java.util.stream.Collectors.flatMapping;
-import static java.util.stream.Collectors.filtering;
-import static java.util.stream.Collectors.groupingBy;
-import static java.util.stream.Collectors.groupingByConcurrent;
-import static java.util.stream.Collectors.mapping;
-import static java.util.stream.Collectors.partitioningBy;
-import static java.util.stream.Collectors.reducing;
-import static java.util.stream.Collectors.toCollection;
-import static java.util.stream.Collectors.toConcurrentMap;
-import static java.util.stream.Collectors.toList;
-import static java.util.stream.Collectors.toMap;
-import static java.util.stream.Collectors.toSet;
-import static java.util.stream.LambdaTestHelpers.assertContents;
-import static java.util.stream.LambdaTestHelpers.assertContentsUnordered;
-import static java.util.stream.LambdaTestHelpers.mDoubler;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

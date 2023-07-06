@@ -18,8 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.jvmti.scenarios.hotswap.HS203.hs203t001;
+
+
 import java.util.concurrent.atomic.AtomicBoolean;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class MyThread extends Thread {
         public static AtomicBoolean resume = new AtomicBoolean(false);
         public int threadState=10;

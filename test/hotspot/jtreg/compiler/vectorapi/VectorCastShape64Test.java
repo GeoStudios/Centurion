@@ -21,8 +21,8 @@
 
 package compiler.vectorapi;
 
-import java.util.Random;
 
+import java.util.Random;
 import jdk.incubator.vector.ByteVector;
 import jdk.incubator.vector.DoubleVector;
 import jdk.incubator.vector.FloatVector;
@@ -30,9 +30,21 @@ import jdk.incubator.vector.IntVector;
 import jdk.incubator.vector.LongVector;
 import jdk.incubator.vector.ShortVector;
 import jdk.incubator.vector.VectorSpecies;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

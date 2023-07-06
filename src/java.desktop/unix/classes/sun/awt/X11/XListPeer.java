@@ -19,18 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.unix.classes.sun.awt.X11;
 
-// Very much based on XListPeer from javaos
-
-package sun.awt.X11;
 
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.peer.*;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Vector;
 import java.awt.image.*;
-import sun.util.logging.PlatformLogger;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Very much based on XListPeer from javaos
+
+
+
 
 // TODO: some input actions should do nothing if Shift or Control are down
 
@@ -956,7 +973,7 @@ class XListPeer extends XComponentPeer implements ListPeer, XScrollbarClient {
               // say: "AWT also generates an action event when the user presses
               // the return key while an item in the list is selected."
               if (selected.length > 0) {
-                  postEvent(new ActionEvent((List)target,
+                  postEvent(new ActionEvent(target,
                                             ActionEvent.ACTION_PERFORMED,
                                             items.elementAt(getFocusIndex()),
                                             e.getWhen(),
@@ -993,7 +1010,7 @@ class XListPeer extends XComponentPeer implements ListPeer, XScrollbarClient {
                 repaint(PAINT_FOCUS);
             }
 
-        } else if ((XHorizontalScrollbar)obj == hsb) {
+        } else if (obj == hsb) {
             scrollHorizontal(v - value);
         }
 

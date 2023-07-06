@@ -19,22 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.mbeanserver;
+package java.management.share.classes.com.sun.jmx.mbeanserver;
 
 
-import static com.sun.jmx.defaults.JmxProperties.MBEANSERVER_LOGGER;
+import static java.management.share.classes.com.sun.jmx.defaults.JmxProperties.MBEANSERVER_LOGGER;.extended
 import java.security.Permission;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Hashtable;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.lang.System.Logger.Level;
 import javax.management.MBeanPermission;
-
 import javax.management.ObjectName;
 import javax.management.loading.PrivateClassLoader;
-import sun.reflect.misc.ReflectUtil;
+import java.management.share.classes.com.sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class keeps the list of Class Loaders registered in the MBean Server.

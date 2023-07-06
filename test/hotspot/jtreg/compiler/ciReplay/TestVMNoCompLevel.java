@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.ciReplay;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.Path;
+import java.nio.file.StandardOpenOption;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8011675
@@ -32,14 +55,7 @@
  *      compiler.ciReplay.TestVMNoCompLevel
  */
 
-package compiler.ciReplay;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.nio.file.Path;
-import java.nio.file.StandardOpenOption;
-import java.util.List;
 
 public class TestVMNoCompLevel extends CiReplayBase {
     public static void main(String args[]) {

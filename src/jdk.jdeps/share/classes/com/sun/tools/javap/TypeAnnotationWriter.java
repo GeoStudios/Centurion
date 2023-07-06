@@ -19,22 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javap;
+package jdk.jdeps.share.classes.com.sun.tools.javap;
 
-import com.sun.tools.classfile.Attribute;
-import com.sun.tools.classfile.Code_attribute;
-import com.sun.tools.classfile.TypeAnnotation;
-import com.sun.tools.classfile.TypeAnnotation.Position;
-import com.sun.tools.classfile.Instruction;
-import com.sun.tools.classfile.Method;
-import com.sun.tools.classfile.RuntimeInvisibleTypeAnnotations_attribute;
-import com.sun.tools.classfile.RuntimeTypeAnnotations_attribute;
-import com.sun.tools.classfile.RuntimeVisibleTypeAnnotations_attribute;
-import java.util.ArrayList;
+
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Attribute;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Code_attribute;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.TypeAnnotation;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.TypeAnnotation.Position;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Instruction;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Method;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.RuntimeInvisibleTypeAnnotations_attribute;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.RuntimeTypeAnnotations_attribute;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.RuntimeVisibleTypeAnnotations_attribute;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import com.sun.tools.javac.util.StringUtils;
+import jdk.jdeps.share.classes.com.sun.tools.javac.util.StringUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Annotate instructions with details about type annotations.

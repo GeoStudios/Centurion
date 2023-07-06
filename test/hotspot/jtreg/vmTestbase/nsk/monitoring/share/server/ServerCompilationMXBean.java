@@ -21,8 +21,22 @@
 
 package nsk.monitoring.share.server;
 
+
 import javax.management.MBeanServer;
 import java.lang.management.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ServerCompilationMXBean extends ServerMXBean implements CompilationMXBean {
         private static final String NAME = "Name";

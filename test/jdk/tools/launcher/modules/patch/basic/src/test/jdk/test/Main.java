@@ -19,12 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.test;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Used with --patch-module to exercise the replacement or addition of classes
  * in modules that are linked into the runtime image.
  */
 
-package jdk.test;
 
 public class Main {
 

@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.FloatingPoint.gen_math.Loops04;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,10 +48,8 @@
  * @run main/othervm jit.FloatingPoint.gen_math.Loops04.Loops04
  */
 
-package jit.FloatingPoint.gen_math.Loops04;
 
 // Test working with nested loops.
-import nsk.share.TestFailure;
 
 public class Loops04
 {

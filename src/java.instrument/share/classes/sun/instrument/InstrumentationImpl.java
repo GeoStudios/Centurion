@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.instrument;
+package java.instrument.share.classes.sun.instrument;
+
 
 import java.lang.instrument.UnmodifiableModuleException;
 import java.lang.reflect.Method;
@@ -32,16 +33,29 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.security.ProtectionDomain;
 import java.util.Collections;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.jar.JarFile;
-
 import jdk.internal.module.Modules;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Java side of the JPLIS implementation. Works in concert with a native JVMTI agent
@@ -329,7 +343,7 @@ public class InstrumentationImpl implements Instrumentation {
         for (Map.Entry<String, Set<Module>> e : map.entrySet()) {
             String pkg = e.getKey();
             if (pkg == null)
-                throw new NullPointerException("package cannot be null");
+                throw new NullPointerException("
             if (!packages.contains(pkg))
                 throw new IllegalArgumentException(pkg + " not in module");
             Set<Module> targets = new HashSet<>(e.getValue());

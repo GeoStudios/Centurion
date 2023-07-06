@@ -21,9 +21,23 @@
 
 package nsk.jdi.CharType._itself_;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the chartype001 JDI test.

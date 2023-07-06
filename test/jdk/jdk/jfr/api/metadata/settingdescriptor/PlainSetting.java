@@ -18,11 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.jfr.api.metadata.settingdescriptor;
 
-import java.util.Set;
 
+import java.util.Set;
 import jdk.jfr.SettingControl;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PlainSetting extends SettingControl {
 

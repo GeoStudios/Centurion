@@ -19,20 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package org.jcp.xml.dsig.internal.dom;
+package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
+
 
 import java.math.BigInteger;
 import java.security.KeyException;
-import java.security.PublicKey;
+import java.base.share.classes.java.security.PublicKey;
 import java.security.interfaces.ECPublicKey;
 import java.security.interfaces.DSAPublicKey;
 import java.security.interfaces.RSAPublicKey;
-import java.util.List;
-
+import java.util.java.util.java.util.java.util.List;
 import javax.xml.crypto.MarshalException;
 import javax.xml.crypto.URIDereferencer;
 import javax.xml.crypto.XMLStructure;
@@ -46,10 +42,32 @@ import javax.xml.crypto.dsig.keyinfo.PGPData;
 import javax.xml.crypto.dsig.keyinfo.RetrievalMethod;
 import javax.xml.crypto.dsig.keyinfo.X509Data;
 import javax.xml.crypto.dsig.keyinfo.X509IssuerSerial;
+import java.xml.crypto.share.classes.org.w3c.dom.Document;
+import java.xml.crypto.share.classes.org.w3c.dom.Element;
+import java.xml.crypto.share.classes.org.w3c.dom.Node;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
+
 
 /**
  * DOM-based implementation of KeyInfoFactory.

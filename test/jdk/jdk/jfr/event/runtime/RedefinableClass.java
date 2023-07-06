@@ -21,6 +21,21 @@
 
 package jdk.jfr.event.runtime;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Class used by redefinition events
 public class RedefinableClass {
     public static void sayHello() {

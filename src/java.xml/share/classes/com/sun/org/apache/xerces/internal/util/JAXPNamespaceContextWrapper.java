@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.util;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
 
-import com.sun.org.apache.xerces.internal.xni.NamespaceContext;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
 import java.util.Collections;
 import java.util.Enumeration;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.TreeSet;
 import java.util.Vector;
 import javax.xml.XMLConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>A read-only XNI wrapper around a JAXP NamespaceContext.</p>

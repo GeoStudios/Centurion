@@ -21,6 +21,7 @@
 
 package org.openjdk.bench.java.net;
 
+
 import org.openjdk.jmh.annotations.State;
 import org.openjdk.jmh.annotations.Scope;
 import org.openjdk.jmh.annotations.Benchmark;
@@ -30,14 +31,25 @@ import org.openjdk.jmh.annotations.BenchmarkMode;
 import org.openjdk.jmh.annotations.Mode;
 import org.openjdk.jmh.annotations.OutputTimeUnit;
 import org.openjdk.jmh.annotations.Setup;
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.net.URI;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
+import static java.lang.invoke.MethodType.methodType;.extended
 
-import static java.lang.invoke.MethodType.methodType;
+
+
+
+
+
+
+
+
+
+
+
+
 
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.NANOSECONDS)

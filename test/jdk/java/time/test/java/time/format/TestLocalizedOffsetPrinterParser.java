@@ -19,6 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.time.format;
+
+
+import static org.testng.Assert.assertEquals;.extended
+import java.time.LocalDateTime;
+import java.time.OffsetDateTime;
+import java.time.ZoneOffset;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeFormatterBuilder;
+import java.time.format.TextStyle;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.Objects;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8154520
@@ -31,22 +60,9 @@
  * @modules jdk.localedata
  */
 
-package test.java.time.format;
 
-import static org.testng.Assert.assertEquals;
 
-import java.time.LocalDateTime;
-import java.time.OffsetDateTime;
-import java.time.ZoneOffset;
-import java.time.ZonedDateTime;
-import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeFormatterBuilder;
-import java.time.format.TextStyle;
-import java.util.Locale;
-import java.util.Objects;
 
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
 
 /**
  * Test DateTimeFormatterBuilder.appendOffset().

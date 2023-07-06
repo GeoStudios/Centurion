@@ -18,18 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.beans;
 
-import java.lang.reflect.InvocationHandler;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Proxy;
-import java.lang.reflect.Method;
-import java.security.AccessControlContext;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
+package java.desktop.share.classes.java.beans;
 
+
+import java.desktop.share.classes.java.lang.reflect.InvocationHandler;
+import java.desktop.share.classes.java.lang.reflect.InvocationTargetException;
+import java.desktop.share.classes.java.lang.reflect.Proxy;
+import java.desktop.share.classes.java.lang.reflect.Method;
+import java.desktop.share.classes.java.security.AccessControlContext;
+import java.desktop.share.classes.java.security.AccessController;
+import java.desktop.share.classes.java.security.PrivilegedAction;
 import sun.reflect.misc.MethodUtil;
 import sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code EventHandler} class provides

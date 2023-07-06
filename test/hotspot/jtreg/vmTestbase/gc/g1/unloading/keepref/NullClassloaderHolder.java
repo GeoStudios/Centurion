@@ -18,10 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package gc.g1.unloading.keepref;
+
 
 import java.lang.reflect.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This holder keeps class from being collected by saving link in static field of class loaded by null classloader.

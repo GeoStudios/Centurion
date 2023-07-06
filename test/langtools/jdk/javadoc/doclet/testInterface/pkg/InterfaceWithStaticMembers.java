@@ -21,6 +21,21 @@
 
 package pkg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface InterfaceWithStaticMembers {
 
     /** A static nested class */

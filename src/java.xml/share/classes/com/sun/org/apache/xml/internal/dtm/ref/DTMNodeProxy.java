@@ -19,36 +19,54 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref;
+
+
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMDOMException;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.NodeSet;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
+import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
+import java.xml.share.classes.com.sun.org.w3c.dom.CDATASection;
+import java.xml.share.classes.com.sun.org.w3c.dom.Comment;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMConfiguration;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMImplementation;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.w3c.dom.DocumentFragment;
+import java.xml.share.classes.com.sun.org.w3c.dom.DocumentType;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.share.classes.com.sun.org.w3c.dom.EntityReference;
+import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.w3c.dom.ProcessingInstruction;
+import java.xml.share.classes.com.sun.org.w3c.dom.Text;
+import java.xml.share.classes.com.sun.org.w3c.dom.TypeInfo;
+import java.xml.share.classes.com.sun.org.w3c.dom.UserDataHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: DTMNodeProxy.java,v
  */
 
-package com.sun.org.apache.xml.internal.dtm.ref;
 
-import com.sun.org.apache.xml.internal.dtm.DTM;
-import com.sun.org.apache.xml.internal.dtm.DTMDOMException;
-import com.sun.org.apache.xpath.internal.NodeSet;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
-import org.w3c.dom.Attr;
-import org.w3c.dom.CDATASection;
-import org.w3c.dom.Comment;
-import org.w3c.dom.DOMConfiguration;
-import org.w3c.dom.DOMException;
-import org.w3c.dom.DOMImplementation;
-import org.w3c.dom.Document;
-import org.w3c.dom.DocumentFragment;
-import org.w3c.dom.DocumentType;
-import org.w3c.dom.Element;
-import org.w3c.dom.EntityReference;
-import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.w3c.dom.ProcessingInstruction;
-import org.w3c.dom.Text;
-import org.w3c.dom.TypeInfo;
-import org.w3c.dom.UserDataHandler;
+
 
 /**
  * <code>DTMNodeProxy</code> presents a DOM Node API front-end to the DTM model.

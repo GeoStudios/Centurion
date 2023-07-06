@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.windows;
+package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-import java.awt.*;
 
+import java.desktop.windows.classes.com.sun.java.awt.*;
 import javax.swing.*;
 import javax.swing.plaf.basic.BasicPopupMenuSeparatorUI;
 import javax.swing.plaf.ComponentUI;
+import java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Part;
+import java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.State;
+import java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.Skin;
 
-import com.sun.java.swing.plaf.windows.TMSchema.Part;
-import com.sun.java.swing.plaf.windows.TMSchema.State;
-import com.sun.java.swing.plaf.windows.XPStyle.Skin;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Windows {@literal L&F} implementation of PopupMenuSeparatorUI.

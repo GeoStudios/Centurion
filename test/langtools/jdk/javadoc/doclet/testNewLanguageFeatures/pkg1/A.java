@@ -21,9 +21,23 @@
 
 package pkg1;
 
+
 import pkg.Coin;
 import pkg.*;
 import java.lang.annotation.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @Documented public @interface A {
     int i();

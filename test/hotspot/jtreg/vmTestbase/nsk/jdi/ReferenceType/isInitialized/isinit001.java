@@ -21,12 +21,25 @@
 
 package nsk.jdi.ReferenceType.isInitialized;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
 import com.sun.jdi.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This test checks the method <code>isInitialized()</code>

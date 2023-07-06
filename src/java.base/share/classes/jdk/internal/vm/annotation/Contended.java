@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.vm.annotation;
+package java.base.share.classes.jdk.internal.vm.annotation;
+
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>An annotation expressing that objects and/or their fields are

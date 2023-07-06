@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.datatype;
+package java.xml.share.classes.javax.xml.datatype;
 
-import javax.xml.namespace.QName;
+
+import java.xml.share.classes.javax.xml.namespace.QName;
 import java.math.BigDecimal;
 import java.math.BigInteger;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.TimeZone;
 import java.util.GregorianCalendar;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Representation for W3C XML Schema 1.0 date/time datatypes.

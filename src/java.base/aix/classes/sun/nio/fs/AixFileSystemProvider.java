@@ -19,9 +19,9 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.fs;
+package java.base.aix.classes.sun.nio.fs;
 
-import java.io.IOException;
+import java.base.share.classes.java.io.IOException;
 
 /**
  * AIX implementation of FileSystemProvider

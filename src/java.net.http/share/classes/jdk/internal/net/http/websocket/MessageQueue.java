@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http.websocket;
+package java.net.http.share.classes.jdk.internal.net.http.websocket;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.BiConsumer;
 import java.util.function.Supplier;
+import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.pow2Size;.extended
 
-import static jdk.internal.net.http.common.Utils.pow2Size;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * A FIFO message storage facility.

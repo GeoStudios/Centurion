@@ -19,26 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.font;
+package java.desktop.share.classes.java.awt.font;
 
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Graphics2D;
-import java.awt.Rectangle;
-import java.awt.Shape;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.GeneralPath;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
-import java.awt.im.InputMethodHighlight;
-import java.awt.image.BufferedImage;
-import java.text.Annotation;
-import java.text.AttributedCharacterIterator;
-import java.text.AttributedCharacterIterator.Attribute;
-import java.text.Bidi;
-import java.text.CharacterIterator;
-import java.util.Hashtable;
-import java.util.Map;
+
+import java.desktop.share.classes.java.awt.Color;
+import java.desktop.share.classes.java.awt.Font;
+import java.desktop.share.classes.java.awt.Graphics2D;
+import java.desktop.share.classes.java.awt.Rectangle;
+import java.desktop.share.classes.java.awt.Shape;
+import java.desktop.share.classes.java.awt.geom.AffineTransform;
+import java.desktop.share.classes.java.awt.geom.GeneralPath;
+import java.desktop.share.classes.java.awt.geom.Point2D;
+import java.desktop.share.classes.java.awt.geom.Rectangle2D;
+import java.desktop.share.classes.java.awt.im.InputMethodHighlight;
+import java.desktop.share.classes.java.awt.image.BufferedImage;
+import java.desktop.share.classes.java.text.Annotation;
+import java.desktop.share.classes.java.text.AttributedCharacterIterator;
+import java.desktop.share.classes.java.text.AttributedCharacterIterator.Attribute;
+import java.desktop.share.classes.java.text.Bidi;
+import java.desktop.share.classes.java.text.CharacterIterator;
+import java.desktop.share.classes.java.util.Hashtable;
+import java.desktop.share.classes.java.util.Map;
 import sun.font.AttributeValues;
 import sun.font.BidiUtils;
 import sun.font.CodePointIterator;
@@ -52,8 +53,21 @@ import sun.font.LayoutPathImpl.EmptyPath;
 import sun.font.LayoutPathImpl.SegmentPathBuilder;
 import sun.font.TextLabelFactory;
 import sun.font.TextLineComponent;
+import java.desktop.share.classes.java.awt.geom.Line2D;
 
-import java.awt.geom.Line2D;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class TextLine {
 

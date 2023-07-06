@@ -19,12 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- */
+package java.base.share.classes.sun.nio.cs;
 
-package sun.nio.cs;
 
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
 import java.io.Reader;
@@ -38,6 +36,26 @@ import java.nio.charset.CoderResult;
 import java.nio.charset.CodingErrorAction;
 import java.nio.charset.IllegalCharsetNameException;
 import java.nio.charset.UnsupportedCharsetException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ */
+
+
+
 
 public class StreamDecoder extends Reader {
 

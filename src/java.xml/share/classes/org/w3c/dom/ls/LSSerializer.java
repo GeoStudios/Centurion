@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.w3c.dom.ls;
+package java.xml.share.classes.org.w3c.dom.ls;
 
-import org.w3c.dom.DOMConfiguration;
-import org.w3c.dom.Node;
-import org.w3c.dom.DOMException;
+
+import java.xml.share.classes.org.w3c.dom.DOMConfiguration;
+import java.xml.share.classes.org.w3c.dom.Node;
+import java.xml.share.classes.org.w3c.dom.DOMException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  A <code>LSSerializer</code> provides an API for serializing (writing) a

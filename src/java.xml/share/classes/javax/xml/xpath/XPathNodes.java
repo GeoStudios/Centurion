@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.xpath;
+package java.xml.share.classes.javax.xml.xpath;
+
 
 import java.util.Iterator;
 import org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * XPathNodes represents a set of nodes selected by a location path as specified

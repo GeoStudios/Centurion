@@ -19,7 +19,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.rmi.registry;
+package jdk.naming.rmi.share.classes.com.sun.jndi.rmi.registry;
 
 
 import java.util.Hashtable;
@@ -30,9 +30,21 @@ import java.rmi.registry.Registry;
 import java.rmi.registry.LocateRegistry;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-
 import javax.naming.*;
 import javax.naming.spi.NamingManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.AWTEvent;
 import java.awt.AWTException;
@@ -53,18 +54,30 @@ import java.awt.image.VolatileImage;
 import java.awt.peer.ComponentPeer;
 import java.awt.peer.ContainerPeer;
 import java.util.Collection;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
+import java.desktop.unix.classes.sun.awt.AWTAccessor;
+import java.desktop.unix.classes.sun.awt.AWTAccessor.ComponentAccessor;
+import java.desktop.unix.classes.sun.awt.SunToolkit;
+import java.desktop.unix.classes.sun.awt.X11GraphicsConfig;
+import java.desktop.unix.classes.sun.awt.event.IgnorePaintEvent;
+import java.desktop.unix.classes.sun.awt.image.SunVolatileImage;
+import java.desktop.unix.classes.sun.java2d.BackBufferCapsProvider;
+import java.desktop.unix.classes.sun.java2d.pipe.Region;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 
-import sun.awt.AWTAccessor;
-import sun.awt.AWTAccessor.ComponentAccessor;
-import sun.awt.SunToolkit;
-import sun.awt.X11GraphicsConfig;
-import sun.awt.event.IgnorePaintEvent;
-import sun.awt.image.SunVolatileImage;
-import sun.java2d.BackBufferCapsProvider;
-import sun.java2d.pipe.Region;
-import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class XComponentPeer extends XWindow implements ComponentPeer, DropTargetPeer,

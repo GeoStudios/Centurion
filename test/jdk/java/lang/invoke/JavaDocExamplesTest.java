@@ -19,23 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.lang.invoke;
+
+
+import java.io.StringWriter;
+import java.lang.invoke.*;
+import static java.lang.invoke.MethodHandles.*;.extended
+import static java.lang.invoke.MethodType.*;.extended
+import java.util.*;
+import org.testng.*;
+import org.testng.annotations.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @summary example code used in javadoc for java.lang.invoke API
  * @compile JavaDocExamplesTest.java
  * @run testng/othervm test.java.lang.invoke.JavaDocExamplesTest
  */
 
-package test.java.lang.invoke;
 
-import java.io.StringWriter;
-import java.lang.invoke.*;
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
 
-import java.util.*;
 
-import org.testng.*;
-import org.testng.annotations.*;
 
 /**
  * @author jrose

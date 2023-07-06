@@ -18,14 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text;
+
+package java.desktop.share.classes.javax.swing.text;
+
 
 import java.awt.Component;
-import javax.swing.event.ChangeListener;
-import javax.swing.event.ChangeEvent;
-
+import java.desktop.share.classes.javax.swing.event.Changejava.util.Listener;
+import java.desktop.share.classes.javax.swing.event.ChangeEvent;
 import java.util.Enumeration;
 import java.util.Hashtable;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

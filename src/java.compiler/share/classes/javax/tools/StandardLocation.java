@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.tools;
+package java.compiler.share.classes.javax.tools;
 
-import javax.tools.JavaFileManager.Location;
 
+import java.compiler.share.classes.javax.tools.JavaFileManager.Location;
 import java.util.concurrent.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Standard locations of file objects.

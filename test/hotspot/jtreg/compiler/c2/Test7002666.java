@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7002666
@@ -30,7 +47,6 @@
  *      compiler.c2.Test7002666
  */
 
-package compiler.c2;
 /*
  * This will only reliably fail with a fastdebug build since it relies
  * on seeing garbage in the heap to die.  It could be made more

@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.w3c.dom.html;
+package jdk.xml.dom.share.classes.org.w3c.dom.html;
 
-import org.w3c.dom.Node;
+
+import jdk.xml.dom.share.classes.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  An <code>HTMLCollection</code> is a list of nodes. An individual node may

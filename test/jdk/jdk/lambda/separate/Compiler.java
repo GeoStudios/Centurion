@@ -21,24 +21,36 @@
 
 package separate;
 
+
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.ConcurrentHashMap;
 import java.io.*;
 import java.net.URI;
 import javax.tools.*;
-
 import com.sun.source.util.JavacTask;
 import java.nio.file.FileVisitResult;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
+import static separate.SourceModel.Type;.extended
+import static separate.SourceModel.Class;.extended
+import static separate.SourceModel.Extends;.extended
+import static separate.SourceModel.SourceProcessor;.extended
 
-import static separate.SourceModel.Type;
-import static separate.SourceModel.Class;
-import static separate.SourceModel.Extends;
-import static separate.SourceModel.SourceProcessor;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Compiler {
 

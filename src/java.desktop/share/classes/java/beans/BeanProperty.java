@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.beans;
+package java.desktop.share.classes.java.beans;
 
-import java.lang.annotation.Documented;
-import java.lang.annotation.Retention;
-import java.lang.annotation.Target;
 
-import static java.lang.annotation.ElementType.METHOD;
-import static java.lang.annotation.RetentionPolicy.RUNTIME;
+import java.desktop.share.classes.java.lang.annotation.Documented;
+import java.desktop.share.classes.java.lang.annotation.Retention;
+import java.desktop.share.classes.java.lang.annotation.Target;
+import static java.desktop.share.classes.java.lang.annotation.ElementType.METHOD;.extended
+import static java.desktop.share.classes.java.lang.annotation.RetentionPolicy.RUNTIME;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An annotation used to specify some property-related information for the

@@ -19,11 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package org.jcp.xml.dsig.internal.dom;
+package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
+
 
 import javax.xml.crypto.*;
 import javax.xml.crypto.dom.*;
@@ -31,22 +28,43 @@ import javax.xml.crypto.dsig.*;
 import javax.xml.crypto.dsig.dom.DOMSignContext;
 import javax.xml.crypto.dsig.dom.DOMValidateContext;
 import javax.xml.crypto.dsig.keyinfo.KeyInfo;
-
-import java.security.InvalidKeyException;
-import java.security.Key;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.Key;
 import java.security.Provider;
 import java.util.Collections;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-
-import org.w3c.dom.Attr;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-
+import java.xml.crypto.share.classes.org.w3c.dom.Attr;
+import java.xml.crypto.share.classes.org.w3c.dom.Document;
+import java.xml.crypto.share.classes.org.w3c.dom.Element;
+import java.xml.crypto.share.classes.org.w3c.dom.Node;
 import com.sun.org.apache.xml.internal.security.utils.XMLUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
+
+
 
 /**
  * DOM-based implementation of XMLSignature.

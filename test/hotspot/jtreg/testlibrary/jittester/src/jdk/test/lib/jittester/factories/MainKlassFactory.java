@@ -21,8 +21,9 @@
 
 package jdk.test.lib.jittester.factories;
 
-import java.util.ArrayList;
-import java.util.List;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.stream.Collectors;
 import jdk.test.lib.jittester.Block;
 import jdk.test.lib.jittester.IRNode;
@@ -31,12 +32,25 @@ import jdk.test.lib.jittester.ProductionParams;
 import jdk.test.lib.jittester.Symbol;
 import jdk.test.lib.jittester.SymbolTable;
 import jdk.test.lib.jittester.Type;
-import jdk.test.lib.jittester.TypeList;
+import jdk.test.lib.jittester.Typejava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.VariableInfo;
 import jdk.test.lib.jittester.classes.MainKlass;
 import jdk.test.lib.jittester.functions.FunctionInfo;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.PseudoRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class MainKlassFactory extends Factory<MainKlass> {
     private final String name;

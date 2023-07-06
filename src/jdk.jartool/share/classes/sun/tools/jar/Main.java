@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jar;
+package jdk.jartool.share.classes.sun.tools.jar;
+
 
 import java.io.*;
 import java.lang.module.Configuration;
@@ -63,11 +64,24 @@ import jdk.internal.module.ModuleInfoExtender;
 import jdk.internal.module.ModuleResolution;
 import jdk.internal.module.ModuleTarget;
 import jdk.internal.util.jar.JarIndex;
+import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;.extended
+import static java.util.jar.JarFile.MANIFEST_NAME;.extended
+import static java.util.stream.Collectors.joining;.extended
+import static jdk.internal.util.jar.JarIndex.INDEX_NAME;.extended
 
-import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
-import static java.util.jar.JarFile.MANIFEST_NAME;
-import static java.util.stream.Collectors.joining;
-import static jdk.internal.util.jar.JarIndex.INDEX_NAME;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements a simple utility for creating files in the JAR

@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.bmi.verifycode;
+
+
+import compiler.intrinsics.bmi.TestBlsmskI;
+import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8031321
@@ -34,10 +53,7 @@
  *      compiler.intrinsics.bmi.verifycode.BlsmskTestI
  */
 
-package compiler.intrinsics.bmi.verifycode;
-import compiler.intrinsics.bmi.TestBlsmskI;
 
-import java.lang.reflect.Method;
 
 public class BlsmskTestI extends BmiIntrinsicBase.BmiTestCase {
 

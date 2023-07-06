@@ -19,12 +19,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.jaxp;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp;
 
-import com.sun.org.apache.xerces.internal.parsers.DOMParser;
-import com.sun.org.apache.xerces.internal.util.SAXMessageFormatter;
-import com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
-import com.sun.org.apache.xerces.internal.utils.XMLSecurityPropertyManager;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers.DOMParser;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SAXMessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityPropertyManager;
 import java.util.HashMap;
 import java.util.Map;
 import javax.xml.XMLConstants;
@@ -33,9 +34,23 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.validation.Schema;
 import jdk.xml.internal.JdkProperty;
-import org.xml.sax.SAXException;
-import org.xml.sax.SAXNotRecognizedException;
-import org.xml.sax.SAXNotSupportedException;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXNotRecognizedException;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXNotSupportedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @LastModified: May 2021

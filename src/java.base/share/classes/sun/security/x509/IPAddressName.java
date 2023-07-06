@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.x509;
+package java.base.share.classes.sun.security.x509;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.Integer;
 import java.net.InetAddress;
-import java.util.Arrays;
-import sun.security.util.HexDumpEncoder;
-import sun.security.util.BitArray;
-import sun.security.util.DerOutputStream;
-import sun.security.util.DerValue;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.sun.security.util.HexDumpEncoder;
+import java.base.share.classes.sun.security.util.BitArray;
+import java.base.share.classes.sun.security.util.DerOutputStream;
+import java.base.share.classes.sun.security.util.DerValue;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements the IPAddressName as required by the GeneralNames

@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jdi.request;
+package jdk.jdi.share.classes.com.sun.jdi.request;
 
-import com.sun.jdi.ReferenceType;
-import com.sun.jdi.VirtualMachine;
-import com.sun.jdi.event.ClassPrepareEvent;
-import com.sun.jdi.event.EventQueue;
-import com.sun.jdi.event.EventSet;
+
+import jdk.jdi.share.classes.com.sun.jdi.ReferenceType;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+import jdk.jdi.share.classes.com.sun.jdi.event.ClassPrepareEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.EventQueue;
+import jdk.jdi.share.classes.com.sun.jdi.event.EventSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Request for notification when a class is prepared in the target VM.

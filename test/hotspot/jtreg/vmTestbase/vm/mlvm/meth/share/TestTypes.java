@@ -21,14 +21,27 @@
 
 package vm.mlvm.meth.share;
 
+
 import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
-
 import nsk.share.test.TestUtils;
 import vm.mlvm.share.Env;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TestTypes {
 

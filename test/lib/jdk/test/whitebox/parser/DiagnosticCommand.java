@@ -21,6 +21,21 @@
 
 package jdk.test.whitebox.parser;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class DiagnosticCommand {
 
     public enum DiagnosticArgumentType {

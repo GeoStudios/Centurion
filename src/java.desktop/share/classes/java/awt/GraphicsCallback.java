@@ -19,10 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.peer.LightweightPeer;
+
+import java.desktop.share.classes.java.awt.peer.LightweightPeer;
 import sun.awt.SunGraphicsCallback;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 abstract class GraphicsCallback extends SunGraphicsCallback {

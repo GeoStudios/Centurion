@@ -19,9 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package p4;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Small class used by multiple hotspot/runtime/modules/AccessCheck/* tests.
 
-package p4;
 
 public class c4 {
     // Add a read edge from c4's module to given module m

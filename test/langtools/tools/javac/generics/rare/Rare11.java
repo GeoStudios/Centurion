@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package rare11;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 5024308
@@ -28,7 +45,6 @@
  * @compile  Rare11.java
  */
 
-package rare11;
 
 class A {
     class B {

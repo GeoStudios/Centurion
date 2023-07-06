@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.marlin;
+package java.desktop.share.classes.sun.java2d.marlin;
 
-import static sun.java2d.marlin.OffHeapArray.SIZE_INT;
+
+import static java.desktop.share.classes.sun.java2d.marlin.OffHeapArray.SIZE_INT;.extended
 import jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class Renderer implements DPathConsumer2D, MarlinConst {
 

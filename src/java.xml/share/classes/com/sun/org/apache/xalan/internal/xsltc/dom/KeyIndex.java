@@ -19,23 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom;
+
+
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOMEnhancedForDTM;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.util.IntegerArray;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.Axis;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.DTMAxisIteratorBase;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.StringTokenizer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: KeyIndex.java,v 1.6 2006/06/19 19:49:02 spericas Exp $
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.dom;
 
-import com.sun.org.apache.xalan.internal.xsltc.DOM;
-import com.sun.org.apache.xalan.internal.xsltc.DOMEnhancedForDTM;
-import com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary;
-import com.sun.org.apache.xalan.internal.xsltc.util.IntegerArray;
-import com.sun.org.apache.xml.internal.dtm.Axis;
-import com.sun.org.apache.xml.internal.dtm.DTM;
-import com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
-import com.sun.org.apache.xml.internal.dtm.ref.DTMAxisIteratorBase;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.StringTokenizer;
+
 
 /**
  * Stores mappings of key values or IDs to DTM nodes.

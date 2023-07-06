@@ -21,6 +21,21 @@
 
 package q;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface Bar {
    default String name() {
        return "";

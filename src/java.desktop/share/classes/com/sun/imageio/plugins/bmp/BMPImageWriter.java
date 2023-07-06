@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.bmp;
+package java.desktop.share.classes.com.sun.imageio.plugins.bmp;
+
 
 import java.awt.Rectangle;
 import java.awt.image.ColorModel;
@@ -38,12 +39,10 @@ import java.awt.image.RenderedImage;
 import java.awt.image.SampleModel;
 import java.awt.image.SinglePixelPackedSampleModel;
 import java.awt.image.BufferedImage;
-
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ByteArrayOutputStream;
 import java.nio.ByteOrder;
 import java.util.Iterator;
-
 import javax.imageio.IIOImage;
 import javax.imageio.ImageIO;
 import javax.imageio.ImageTypeSpecifier;
@@ -52,13 +51,25 @@ import javax.imageio.ImageWriter;
 import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.spi.ImageWriterSpi;
 import javax.imageio.stream.ImageOutputStream;
-import javax.imageio.event.IIOWriteProgressListener;
-import javax.imageio.event.IIOWriteWarningListener;
-
-
+import javax.imageio.event.IIOWriteProgressjava.util.Listener;
+import javax.imageio.event.IIOWriteWarningjava.util.Listener;
 import javax.imageio.plugins.bmp.BMPImageWriteParam;
-import com.sun.imageio.plugins.common.ImageUtil;
-import com.sun.imageio.plugins.common.I18N;
+import java.desktop.share.classes.com.sun.imageio.plugins.common.ImageUtil;
+import java.desktop.share.classes.com.sun.imageio.plugins.common.I18N;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Java Image IO plugin writer for encoding a binary RenderedImage into

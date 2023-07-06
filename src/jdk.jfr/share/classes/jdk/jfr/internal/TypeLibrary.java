@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal;
+package jdk.jfr.share.classes.jdk.jfr.internal;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.annotation.Annotation;
 import java.lang.annotation.Repeatable;
 import java.lang.reflect.Field;
@@ -29,30 +30,43 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.util.ArrayDeque;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Queue;
 import java.util.Set;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
+import jdk.jfr.share.classes.jdk.jfr.AnnotationElement;
+import jdk.jfr.share.classes.jdk.jfr.Description;
+import jdk.jfr.share.classes.jdk.jfr.Label;
+import jdk.jfr.share.classes.jdk.jfr.MetadataDefinition;
+import jdk.jfr.share.classes.jdk.jfr.Name;
+import jdk.jfr.share.classes.jdk.jfr.SettingControl;
+import jdk.jfr.share.classes.jdk.jfr.SettingDescriptor;
+import jdk.jfr.share.classes.jdk.jfr.Timespan;
+import jdk.jfr.share.classes.jdk.jfr.Timestamp;
+import jdk.jfr.share.classes.jdk.jfr.ValueDescriptor;
 
-import jdk.jfr.AnnotationElement;
-import jdk.jfr.Description;
-import jdk.jfr.Label;
-import jdk.jfr.MetadataDefinition;
-import jdk.jfr.Name;
-import jdk.jfr.SettingControl;
-import jdk.jfr.SettingDescriptor;
-import jdk.jfr.Timespan;
-import jdk.jfr.Timestamp;
-import jdk.jfr.ValueDescriptor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class TypeLibrary {
 

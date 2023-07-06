@@ -19,6 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.mlvm.meth.stress.gc.callSequencesDuringGC;
+
+
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+import java.util.java.util.java.util.java.util.List;
+import nsk.share.gc.gp.GarbageProducer;
+import nsk.share.gc.gp.GarbageProducers;
+import nsk.share.test.Stresser;
+import vm.mlvm.meth.share.Argument;
+import vm.mlvm.meth.share.MHTransformationGen;
+import vm.mlvm.meth.share.RandomArgumentsGen;
+import vm.mlvm.share.MlvmTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -46,20 +73,8 @@
  * @run main/othervm vm.mlvm.meth.stress.gc.callSequencesDuringGC.Test -stressIterationsFactor 1000
  */
 
-package vm.mlvm.meth.stress.gc.callSequencesDuringGC;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodType;
-import java.util.List;
 
-import nsk.share.gc.gp.GarbageProducer;
-import nsk.share.gc.gp.GarbageProducers;
-import nsk.share.test.Stresser;
-import vm.mlvm.meth.share.Argument;
-import vm.mlvm.meth.share.MHTransformationGen;
-import vm.mlvm.meth.share.RandomArgumentsGen;
-import vm.mlvm.share.MlvmTest;
 
 public class Test extends MlvmTest {
 

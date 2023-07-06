@@ -18,16 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package vm.share.options;
+
+
+import java.util.HashMap;
+import java.util.Map;
+import nsk.share.TestBug;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
 
-package vm.share.options;
 
-import java.util.HashMap;
-import java.util.Map;
-import nsk.share.TestBug;
 
 /**
  * This class allows user to create an {@link ObjectFactory} implementation

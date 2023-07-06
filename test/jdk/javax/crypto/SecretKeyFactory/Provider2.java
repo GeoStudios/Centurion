@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package com.p2;
+
+
+import java.base.share.classes.java.security.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * test
  * @bug 6370923 8130181
@@ -26,9 +44,7 @@
  * @author Brad R. Wetmore
  */
 
-package com.p2;
 
-import java.security.*;
 
 public class Provider2 extends Provider {
 

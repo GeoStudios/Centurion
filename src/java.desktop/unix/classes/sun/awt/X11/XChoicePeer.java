@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.Color;
 import java.awt.Insets;
@@ -34,17 +35,28 @@ import java.awt.Component;
 import java.awt.AWTEvent;
 import java.awt.Insets;
 import java.awt.Font;
-
 import java.awt.peer.ChoicePeer;
-
 import java.awt.event.FocusEvent;
 import java.awt.event.InvocationEvent;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseWheelEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.ItemEvent;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 
-import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // FIXME: tab traversal should be disabled when mouse is captured (4816336)
 

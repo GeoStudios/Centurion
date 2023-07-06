@@ -19,13 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.imageio.metadata;
+package java.desktop.share.classes.javax.imageio.metadata;
+
 
 import java.io.Serial;
-
-import javax.imageio.IIOException;
-
+import java.desktop.share.classes.javax.imageio.Ijava.io.java.io.java.io.IOException;
 import org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An {@code IIOInvalidTreeException} is thrown when an attempt

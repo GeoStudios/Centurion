@@ -19,11 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.util;
+package java.base.share.classes.sun.security.util;
+
 
 import java.security.AlgorithmParameters;
-import java.security.Key;
-import java.security.InvalidKeyException;
+import java.base.share.classes.java.security.Key;
+import java.base.share.classes.java.security.InvalidKeyException;
 import java.security.interfaces.ECKey;
 import java.security.interfaces.EdECKey;
 import java.security.interfaces.EdECPublicKey;
@@ -33,19 +34,32 @@ import java.security.interfaces.DSAParams;
 import java.security.interfaces.XECKey;
 import java.security.SecureRandom;
 import java.security.spec.AlgorithmParameterSpec;
-import java.security.spec.KeySpec;
+import java.base.share.classes.java.security.spec.KeySpec;
 import java.security.spec.ECParameterSpec;
 import java.security.spec.InvalidParameterSpecException;
-import javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.SecretKey;
 import javax.crypto.interfaces.DHKey;
 import javax.crypto.interfaces.DHPublicKey;
 import javax.crypto.spec.DHParameterSpec;
 import javax.crypto.spec.DHPublicKeySpec;
 import java.math.BigInteger;
 import java.security.spec.NamedParameterSpec;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.sun.security.jca.JCAUtil;
 
-import sun.security.jca.JCAUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A utility class to get key length, valiate keys, etc.

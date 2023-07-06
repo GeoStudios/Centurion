@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.awt.image;
 
-import java.awt.Image;
-import java.util.List;
+package java.desktop.share.classes.java.awt.image;
+
+
+import java.desktop.share.classes.java.awt.Image;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface is designed to be an optional additional API supported by

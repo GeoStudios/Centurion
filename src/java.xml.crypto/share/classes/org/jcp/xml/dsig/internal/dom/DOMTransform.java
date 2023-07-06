@@ -19,18 +19,14 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package org.jcp.xml.dsig.internal.dom;
+package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
+
 
 import java.io.OutputStream;
 import java.security.InvalidAlgorithmParameterException;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.Provider;
 import java.security.spec.AlgorithmParameterSpec;
-
 import javax.xml.crypto.Data;
 import javax.xml.crypto.MarshalException;
 import javax.xml.crypto.XMLCryptoContext;
@@ -40,10 +36,32 @@ import javax.xml.crypto.dsig.TransformException;
 import javax.xml.crypto.dsig.TransformService;
 import javax.xml.crypto.dsig.XMLSignature;
 import javax.xml.crypto.dsig.dom.DOMSignContext;
+import java.xml.crypto.share.classes.org.w3c.dom.Document;
+import java.xml.crypto.share.classes.org.w3c.dom.Element;
+import java.xml.crypto.share.classes.org.w3c.dom.Node;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
+
 
 /**
  * DOM-based abstract implementation of Transform.

@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.remote;
+package java.management.share.classes.javax.management.remote;
+
 
 import java.io.Closeable;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.Map;
-import javax.management.ListenerNotFoundException;
-import javax.management.MBeanServerConnection;
-import javax.management.NotificationFilter;
-import javax.management.NotificationListener;
-import javax.security.auth.Subject;
+import java.management.share.classes.javax.management.java.util.ListenerNotFoundException;
+import java.management.share.classes.javax.management.MBeanServerConnection;
+import java.management.share.classes.javax.management.NotificationFilter;
+import java.management.share.classes.javax.management.Notificationjava.util.Listener;
+import java.management.share.classes.javax.security.auth.Subject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>The client end of a JMX API connector.  An object of this type can

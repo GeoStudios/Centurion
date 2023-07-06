@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codecache.stress;
+
+
+import sun.hotspot.code.BlobType;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Random;
+import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test RandomAllocationTest
  * @key stress randomness
@@ -41,13 +62,8 @@
  *                   compiler.codecache.stress.RandomAllocationTest
  */
 
-package compiler.codecache.stress;
 
-import sun.hotspot.code.BlobType;
 
-import java.util.ArrayList;
-import java.util.Random;
-import jdk.test.lib.Utils;
 
 public class RandomAllocationTest implements Runnable {
     private static final long CODE_CACHE_SIZE

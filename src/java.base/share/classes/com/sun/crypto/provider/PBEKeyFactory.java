@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
-import java.security.InvalidKeyException;
-import java.security.spec.KeySpec;
-import java.security.spec.InvalidKeySpecException;
-import javax.crypto.SecretKey;
-import javax.crypto.SecretKeyFactorySpi;
+
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.spec.KeySpec;
+import java.base.share.classes.java.security.spec.InvalidKeySpecException;
+import java.base.share.classes.javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.SecretKeyFactorySpi;
 import javax.crypto.spec.PBEKeySpec;
 import java.util.HashSet;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements a key factory for PBE keys according to PKCS#5,

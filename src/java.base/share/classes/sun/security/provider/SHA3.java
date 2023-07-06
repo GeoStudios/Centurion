@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider;
+package java.base.share.classes.sun.security.provider;
 
-import jdk.internal.vm.annotation.IntrinsicCandidate;
-import static sun.security.provider.ByteArrayAccess.*;
+
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+import static java.base.share.classes.sun.security.provider.ByteArrayAccess.*;.extended
 import java.nio.*;
 import java.util.*;
-import java.security.*;
+import java.base.share.classes.java.security.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements the Secure Hash Algorithm SHA-3 developed by

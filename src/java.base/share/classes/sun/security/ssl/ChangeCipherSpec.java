@@ -19,20 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.security.GeneralSecurityException;
-import java.security.InvalidKeyException;
-import java.security.NoSuchAlgorithmException;
-import javax.crypto.SecretKey;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.javax.crypto.SecretKey;
 import javax.crypto.spec.IvParameterSpec;
 import javax.net.ssl.SSLException;
-import sun.security.ssl.SSLCipher.SSLReadCipher;
-import sun.security.ssl.SSLCipher.SSLWriteCipher;
-import sun.security.ssl.SSLHandshake.HandshakeMessage;
-import sun.security.ssl.SSLTrafficKeyDerivation.LegacyTrafficKeyDerivation;
+import java.base.share.classes.sun.security.ssl.SSLCipher.SSLReadCipher;
+import java.base.share.classes.sun.security.ssl.SSLCipher.SSLWriteCipher;
+import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
+import java.base.share.classes.sun.security.ssl.SSLTrafficKeyDerivation.LegacyTrafficKeyDerivation;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Pack of the ChangeCipherSpec message.

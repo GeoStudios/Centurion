@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jdi;
+package jdk.jdi.share.classes.com.sun.jdi;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A string object from the target VM.

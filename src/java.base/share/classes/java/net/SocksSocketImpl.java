@@ -18,20 +18,35 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.net;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.BufferedOutputStream;
-import java.nio.charset.StandardCharsets;
-import java.security.AccessController;
-import java.util.Iterator;
+package java.base.share.classes.java.net;
 
+
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.InputStream;
+import java.base.share.classes.java.io.OutputStream;
+import java.base.share.classes.java.io.BufferedOutputStream;
+import java.base.share.classes.java.nio.charset.StandardCharsets;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.util.Iterator;
 import jdk.internal.util.StaticProperty;
 import sun.net.SocksProxy;
 import sun.net.spi.DefaultProxySelector;
 import sun.net.www.ParseUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * SOCKS (V4 & V5) TCP socket implementation (RFC 1928).

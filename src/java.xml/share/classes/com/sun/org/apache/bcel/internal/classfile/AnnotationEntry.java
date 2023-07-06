@@ -19,20 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
+
+
+import java.io.DataInput;
+import java.io.DataOutputStream;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Collections;
+import java.util.java.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.bcel.internal.classfile;
 
-import java.io.DataInput;
-import java.io.DataOutputStream;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 
-import com.sun.org.apache.bcel.internal.Const;
+
 
 /**
  * represents one annotation in the annotation table

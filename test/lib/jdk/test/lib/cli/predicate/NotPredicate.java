@@ -21,7 +21,21 @@
 
 package jdk.test.lib.cli.predicate;
 
+
 import java.util.function.BooleanSupplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class NotPredicate implements BooleanSupplier {
     private final BooleanSupplier s;

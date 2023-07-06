@@ -21,7 +21,21 @@
 
 package pkg1;
 
+
 import pkg2.UndocumentedParent;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A visible class, extending invisible classes.

@@ -19,6 +19,43 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.java.util.concurrent;
+
+
+import java.base.share.classes.java.lang.invoke.MethodHandles;
+import java.base.share.classes.java.lang.invoke.VarHandle;
+import java.base.share.classes.java.util.AbstractQueue;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.Collection;
+import java.base.share.classes.java.util.Comparator;
+import java.base.share.classes.java.util.Iterator;
+import java.base.share.classes.java.util.NoSuchElementException;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.PriorityQueue;
+import java.base.share.classes.java.util.Queue;
+import java.base.share.classes.java.util.SortedSet;
+import java.base.share.classes.java.util.Spliterator;
+import java.base.share.classes.java.util.concurrent.locks.Condition;
+import java.base.share.classes.java.util.concurrent.locks.ReentrantLock;
+import java.base.share.classes.java.util.function.Consumer;
+import java.base.share.classes.java.util.function.Predicate;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import jdk.internal.util.java.util.ArraysSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -30,27 +67,8 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent;
 
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.VarHandle;
-import java.util.AbstractQueue;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Comparator;
-import java.util.Iterator;
-import java.util.NoSuchElementException;
-import java.util.Objects;
-import java.util.PriorityQueue;
-import java.util.Queue;
-import java.util.SortedSet;
-import java.util.Spliterator;
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.ReentrantLock;
-import java.util.function.Consumer;
-import java.util.function.Predicate;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.util.ArraysSupport;
+
 
 /**
  * An unbounded {@linkplain BlockingQueue blocking queue} that uses

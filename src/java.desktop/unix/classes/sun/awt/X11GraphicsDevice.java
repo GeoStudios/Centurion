@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.unix.classes.sun.awt;
+
 
 import java.awt.AWTPermission;
 import java.awt.DisplayMode;
@@ -30,16 +31,29 @@ import java.awt.Rectangle;
 import java.awt.Window;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.desktop.unix.classes.sun.awt.util.ThreadGroupUtils;
+import java.desktop.unix.classes.sun.java2d.SunGraphicsEnvironment;
+import java.desktop.unix.classes.sun.java2d.loops.SurfaceType;
+import java.desktop.unix.classes.sun.java2d.opengl.GLXGraphicsConfig;
+import java.desktop.unix.classes.sun.java2d.pipe.Region;
+import java.desktop.unix.classes.sun.java2d.xr.XRGraphicsConfig;
 
-import sun.awt.util.ThreadGroupUtils;
-import sun.java2d.SunGraphicsEnvironment;
-import sun.java2d.loops.SurfaceType;
-import sun.java2d.opengl.GLXGraphicsConfig;
-import sun.java2d.pipe.Region;
-import sun.java2d.xr.XRGraphicsConfig;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is an implementation of a GraphicsDevice object for a single

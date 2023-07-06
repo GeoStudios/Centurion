@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.arraycopy;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @summary Test that overflowed integers passed to arraycopy don't do any harm. This might
@@ -31,7 +48,6 @@
  *                   compiler.arraycopy.TestArrayCopyOverflowArguments
  */
 
-package compiler.arraycopy;
 
 public class TestArrayCopyOverflowArguments {
 

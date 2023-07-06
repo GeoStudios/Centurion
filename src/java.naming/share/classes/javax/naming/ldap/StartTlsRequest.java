@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.naming.ldap;
+package java.naming.share.classes.javax.naming.ldap;
+
 
 import java.util.Iterator;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import javax.naming.ConfigurationException;
-import javax.naming.NamingException;
+import java.naming.share.classes.javax.naming.ConfigurationException;
+import java.naming.share.classes.javax.naming.NamingException;
 import com.sun.naming.internal.VersionHelper;
 import java.util.ServiceLoader;
 import java.util.ServiceConfigurationError;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements the LDAPv3 Extended Request for StartTLS as
@@ -44,7 +59,7 @@ import java.util.ServiceConfigurationError;
  * the JNDI context on which {@code extendedOperation()} is invoked.
  * Typically, a JNDI program uses these classes as follows.
  * <blockquote><pre>
- * import javax.naming.ldap.*;
+ * import java.naming.share.classes.javax.naming.ldap.*;
  *
  * // Open an LDAP association
  * LdapContext ctx = new InitialLdapContext();

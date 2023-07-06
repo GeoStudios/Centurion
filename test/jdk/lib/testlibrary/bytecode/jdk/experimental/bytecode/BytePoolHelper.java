@@ -21,13 +21,27 @@
 
 package jdk.experimental.bytecode;
 
+
 import java.lang.invoke.MethodHandleInfo;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.ToIntBiFunction;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A helper for building and tracking constant pools whose entries are

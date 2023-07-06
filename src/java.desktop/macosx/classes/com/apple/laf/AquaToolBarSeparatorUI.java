@@ -19,15 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.*;
-
 import javax.swing.*;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicToolBarSeparatorUI;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.*;
 
-import com.apple.laf.AquaUtils.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaToolBarSeparatorUI extends BasicToolBarSeparatorUI {
     private static final RecyclableSingleton<AquaToolBarSeparatorUI> instance = new RecyclableSingletonFromDefaultConstructor<AquaToolBarSeparatorUI>(AquaToolBarSeparatorUI.class);

@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.naming.spi;
+package java.naming.share.classes.javax.naming.spi;
+
 
 import java.util.Hashtable;
-import javax.naming.*;
-import javax.naming.directory.Attributes;
+import java.naming.share.classes.javax.naming.*;
+import java.naming.share.classes.javax.naming.directory.Attributes;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This interface represents a factory for creating an object given

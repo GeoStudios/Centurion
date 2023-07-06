@@ -1,4 +1,3 @@
-
 /*
  * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
@@ -20,10 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
 
 import java.awt.*;
-
 import java.io.*;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -35,7 +34,22 @@ import java.util.*;
 import java.util.regex.*;
 import java.awt.datatransfer.*;
 import java.nio.charset.StandardCharsets;
-import sun.awt.datatransfer.*;
+import java.desktop.macosx.classes.sun.awt.datatransfer.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CDataTransferer extends DataTransferer {
     private static final Map<String, Long> predefinedClipboardNameMap;

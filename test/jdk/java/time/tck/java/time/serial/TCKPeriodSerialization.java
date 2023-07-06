@@ -21,10 +21,23 @@
 
 package tck.java.time.serial;
 
+
 import org.testng.annotations.Test;
 import tck.java.time.AbstractTCKTest;
-
 import java.time.Period;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test serialization of Period.

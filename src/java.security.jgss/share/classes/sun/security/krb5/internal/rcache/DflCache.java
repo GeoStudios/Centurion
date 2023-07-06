@@ -19,8 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.security.jgss.share.classes.sun.security.krb5.internal.rcache;
 
-package sun.security.krb5.internal.rcache;
 
 import java.io.*;
 import java.nio.BufferUnderflowException;
@@ -33,12 +33,24 @@ import java.nio.file.StandardCopyOption;
 import java.nio.file.StandardOpenOption;
 import java.nio.file.attribute.PosixFilePermission;
 import java.util.*;
+import java.security.jgss.share.classes.sun.security.action.GetPropertyAction;
+import java.security.jgss.share.classes.sun.security.krb5.internal.KerberosTime;
+import java.security.jgss.share.classes.sun.security.krb5.internal.Krb5;
+import java.security.jgss.share.classes.sun.security.krb5.internal.KrbApErrException;
+import java.security.jgss.share.classes.sun.security.krb5.internal.ReplayCache;
 
-import sun.security.action.GetPropertyAction;
-import sun.security.krb5.internal.KerberosTime;
-import sun.security.krb5.internal.Krb5;
-import sun.security.krb5.internal.KrbApErrException;
-import sun.security.krb5.internal.ReplayCache;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.image.BufferedImage;
-import sun.awt.SunToolkit;
-import sun.awt.X11GraphicsConfig;
-import sun.util.logging.PlatformLogger;
+import java.desktop.unix.classes.sun.awt.SunToolkit;
+import java.desktop.unix.classes.sun.awt.X11GraphicsConfig;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
 * A simple vertical scroll bar.
@@ -405,7 +420,6 @@ abstract class XScrollbar {
 
           case AdjustmentEvent.BLOCK_INCREMENT:
               notifyValue(val + page);
-              return;
         }
     }
 

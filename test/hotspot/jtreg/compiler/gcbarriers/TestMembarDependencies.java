@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.membars;
+
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestMembarDependencies
  * @bug 8172850
@@ -29,10 +48,7 @@
  * @run driver compiler.membars.TestMembarDependencies
  */
 
-package compiler.membars;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class TestMembarDependencies {
     private static TestMembarDependencies f1;

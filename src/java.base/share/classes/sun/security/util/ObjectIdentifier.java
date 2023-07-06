@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.util;
+package java.base.share.classes.sun.security.util;
+
 
 import java.io.*;
 import java.math.BigInteger;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.concurrent.ConcurrentHashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represent an ISO Object Identifier.

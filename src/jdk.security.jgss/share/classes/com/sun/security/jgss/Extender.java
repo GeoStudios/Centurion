@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.security.jgss;
+package jdk.security.jgss.share.classes.com.sun.security.jgss;
+
 
 import org.ietf.jgss.GSSContext;
 import org.ietf.jgss.GSSCredential;
-import sun.security.jgss.GSSContextImpl;
-import sun.security.jgss.GSSCredentialImpl;
-import sun.security.jgss.JgssExtender;
+import jdk.security.jgss.share.classes.com.sun.security.jgss.GSSContextImpl;
+import jdk.security.jgss.share.classes.com.sun.security.jgss.GSSCredentialImpl;
+import jdk.security.jgss.share.classes.com.sun.security.jgss.JgssExtender;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // The com.sun.security.jgss extension to JGSS-API
 class Extender extends JgssExtender {

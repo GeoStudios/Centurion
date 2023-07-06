@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.util.resources;
+package java.base.share.classes.sun.util.resources;
+
 
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.spi.ResourceBundleProvider;
-import sun.util.locale.provider.JRELocaleProviderAdapter;
-import sun.util.locale.provider.LocaleProviderAdapter;
-import static sun.util.locale.provider.LocaleProviderAdapter.Type.CLDR;
-import static sun.util.locale.provider.LocaleProviderAdapter.Type.JRE;
-import sun.util.locale.provider.ResourceBundleBasedAdapter;
+import java.base.share.classes.sun.util.locale.provider.JRELocaleProviderAdapter;
+import java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter;
+import static java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter.Type.CLDR;.extended
+import static java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter.Type.JRE;.extended
+import java.base.share.classes.sun.util.locale.provider.ResourceBundleBasedAdapter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides information about and access to resource bundles in the

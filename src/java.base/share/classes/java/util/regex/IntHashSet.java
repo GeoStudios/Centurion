@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.regex;
+package java.base.share.classes.java.util.regex;
 
-import java.util.Arrays;
+
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A lightweight hashset implementation for positive 'int'. Not safe for

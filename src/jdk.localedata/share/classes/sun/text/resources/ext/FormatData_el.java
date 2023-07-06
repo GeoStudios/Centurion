@@ -19,12 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.localedata.share.classes.sun.text.resources.ext;
+
+
+import jdk.localedata.share.classes.sun.util.resources.Paralleljava.util.ListResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  */
 
-package sun.text.resources.ext;
 
-import sun.util.resources.ParallelListResourceBundle;
+
 
 public class FormatData_el extends ParallelListResourceBundle {
     /**

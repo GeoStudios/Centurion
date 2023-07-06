@@ -18,13 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.util;
 
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+package java.base.share.classes.jdk.internal.util;
 
-import java.util.List;
+
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.util.java.util.java.util.java.util.List;
 import java.util.function.BiFunction;
 import java.util.function.Function;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility methods to check if state or arguments are correct.

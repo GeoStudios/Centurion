@@ -18,15 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package vm.share;
+
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
-
 import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class RandomEx extends Random {
     private final Map<Class<?>, Supplier<?>> map = new HashMap<>();

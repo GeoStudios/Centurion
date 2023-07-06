@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.internal.reflect.constantPool;
+
+
+import java.util.HashMap;
+import java.util.Map;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import jdk.internal.reflect.ConstantPool;
+import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8141615
@@ -30,13 +52,7 @@
  * @run main jdk.internal.reflect.constantPool.ConstantPoolTest
  */
 
-package jdk.internal.reflect.constantPool;
 
-import java.util.HashMap;
-import java.util.Map;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.reflect.ConstantPool;
-import jdk.test.lib.Asserts;
 
 public class ConstantPoolTest {
 

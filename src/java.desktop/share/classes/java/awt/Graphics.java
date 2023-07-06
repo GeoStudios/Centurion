@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.awt;
 
-import java.io.*;
-import java.lang.*;
-import java.util.*;
-import java.awt.image.ImageObserver;
-import java.text.AttributedCharacterIterator;
+package java.desktop.share.classes.java.awt;
+
+
+import java.desktop.share.classes.java.io.*;
+import java.desktop.share.classes.java.lang.*;
+import java.desktop.share.classes.java.util.*;
+import java.desktop.share.classes.java.awt.image.ImageObserver;
+import java.desktop.share.classes.java.text.AttributedCharacterIterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code Graphics} class is the abstract base class for

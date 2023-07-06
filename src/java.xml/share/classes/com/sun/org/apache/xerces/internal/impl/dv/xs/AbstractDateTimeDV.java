@@ -19,21 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs;
+
+
+import java.math.BigDecimal;
+import javax.xml.datatype.DatatypeFactory;
+import javax.xml.datatype.Duration;
+import javax.xml.datatype.XMLGregorianCalendar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.datatype.DatatypeFactoryImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.datatypes.XSDateTime;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.impl.dv.xs;
 
-import java.math.BigDecimal;
 
-import javax.xml.datatype.DatatypeFactory;
-import javax.xml.datatype.Duration;
-import javax.xml.datatype.XMLGregorianCalendar;
 
-import com.sun.org.apache.xerces.internal.impl.Constants;
-import com.sun.org.apache.xerces.internal.jaxp.datatype.DatatypeFactoryImpl;
-import com.sun.org.apache.xerces.internal.xs.datatypes.XSDateTime;
+
 
 /**
  * This is the base class of all date/time datatype validators.

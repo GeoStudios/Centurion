@@ -21,9 +21,23 @@
 
 package nsk.jdi.PathSearchingVirtualMachine.bootClassPath;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the bootpath001 JDI test.

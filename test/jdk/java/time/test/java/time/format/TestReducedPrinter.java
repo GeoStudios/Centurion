@@ -21,20 +21,32 @@
 
 package test.java.time.format;
 
-import static java.time.temporal.ChronoField.YEAR;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.fail;
 
+import static java.time.temporal.ChronoField.YEAR;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.fail;.extended
 import java.time.DateTimeException;
 import java.time.LocalDate;
 import java.time.chrono.MinguoDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeFormatterBuilder;
 import java.time.temporal.TemporalField;
-
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import test.java.time.temporal.MockFieldValue;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test ReducedPrinterParser.

@@ -19,17 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
+
+
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantCP;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantNameAndType;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantPool;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantUtf8;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.bcel.internal.generic;
 
-import com.sun.org.apache.bcel.internal.Const;
-import com.sun.org.apache.bcel.internal.classfile.ConstantCP;
-import com.sun.org.apache.bcel.internal.classfile.ConstantNameAndType;
-import com.sun.org.apache.bcel.internal.classfile.ConstantPool;
-import com.sun.org.apache.bcel.internal.classfile.ConstantUtf8;
+
 
 /**
  * Super class for InvokeInstruction and FieldInstruction, since they have

@@ -19,32 +19,45 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.util;
+package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
-import com.sun.tools.javac.code.Symbol;
-import com.sun.tools.javac.code.Symbol.ClassSymbol;
-import com.sun.tools.javac.code.Symbol.Completer;
-import com.sun.tools.javac.code.Symbol.CompletionFailure;
-import com.sun.tools.javac.main.JavaCompiler;
-import com.sun.tools.javac.util.GraphUtils.DependencyKind;
-import com.sun.tools.javac.util.GraphUtils.DotVisitor;
-import com.sun.tools.javac.util.GraphUtils.NodeVisitor;
 
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ClassSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.Completer;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.CompletionFailure;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.JavaCompiler;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.GraphUtils.DependencyKind;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.GraphUtils.DotVisitor;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.GraphUtils.NodeVisitor;
 import java.io.Closeable;
 import java.io.FileWriter;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.EnumMap;
 import java.util.EnumSet;
 import java.util.LinkedHashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Properties;
 import java.util.Stack;
-
 import javax.tools.JavaFileObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  This class is used to track dependencies in the javac symbol completion process.

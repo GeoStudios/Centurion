@@ -19,12 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.sun.text.resources;
+
+
+import java.util.java.util.ListResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  */
 
-package sun.text.resources;
 
-import java.util.ListResourceBundle;
+
 
 /**
  * Default break-iterator rules.  These rules are more or less general for

@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.mscapi;
+package jdk.crypto.mscapi.windows.classes.sun.security.mscapi;
+
 
 import java.util.UUID;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.RSAKeyGenParameterSpec;
+import jdk.crypto.mscapi.windows.classes.sun.security.rsa.RSAKeyFactory;
+import static jdk.crypto.mscapi.windows.classes.sun.security.util.SecurityProviderConstants.DEF_RSA_KEY_SIZE;.extended
 
-import sun.security.rsa.RSAKeyFactory;
-import static sun.security.util.SecurityProviderConstants.DEF_RSA_KEY_SIZE;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * RSA keypair generator.

@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.desktop;
+package java.desktop.share.classes.java.awt.desktop;
 
-import java.awt.Desktop;
-import java.awt.GraphicsEnvironment;
-import java.awt.HeadlessException;
-import java.io.File;
-import java.io.Serial;
-import java.util.List;
+
+import java.desktop.share.classes.java.awt.Desktop;
+import java.desktop.share.classes.java.awt.GraphicsEnvironment;
+import java.desktop.share.classes.java.awt.HeadlessException;
+import java.desktop.share.classes.java.io.File;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Event sent when the app is asked to print a list of files.

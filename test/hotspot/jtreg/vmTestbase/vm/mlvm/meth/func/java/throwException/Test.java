@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.mlvm.meth.func.java.throwException;
+
+
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+import vm.mlvm.meth.share.Argument;
+import vm.mlvm.meth.share.MHTransformationGen;
+import vm.mlvm.meth.share.RandomArgumentGen;
+import vm.mlvm.meth.share.RandomArgumentsGen;
+import vm.mlvm.meth.share.transform.v2.MHMacroTF;
+import vm.mlvm.share.MlvmTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -42,18 +67,8 @@
  * @run main/othervm vm.mlvm.meth.func.java.throwException.Test
  */
 
-package vm.mlvm.meth.func.java.throwException;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodType;
 
-import vm.mlvm.meth.share.Argument;
-import vm.mlvm.meth.share.MHTransformationGen;
-import vm.mlvm.meth.share.RandomArgumentGen;
-import vm.mlvm.meth.share.RandomArgumentsGen;
-import vm.mlvm.meth.share.transform.v2.MHMacroTF;
-import vm.mlvm.share.MlvmTest;
 
 public class Test extends MlvmTest {
 

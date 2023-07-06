@@ -19,6 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci.compilerToVM;
+
+
+import compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes;
+import compiler.jvmci.compilerToVM.ConstantPoolTestCase.TestedCPEntry;
+import compiler.jvmci.compilerToVM.ConstantPoolTestCase.Validator;
+import compiler.jvmci.compilerToVM.ConstantPoolTestsHelper.DummyClasses;
+import jdk.vm.ci.hotspot.CompilerToVMHelper;
+import jdk.vm.ci.hotspot.HotSpotResolvedObjectType;
+import jdk.vm.ci.meta.ConstantPool;
+import java.util.HashMap;
+import java.util.Map;
+import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CONSTANT_CLASS;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8136421
@@ -42,20 +69,9 @@
  *                   compiler.jvmci.compilerToVM.ResolveTypeInPoolTest
  */
 
-package compiler.jvmci.compilerToVM;
 
-import compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes;
-import compiler.jvmci.compilerToVM.ConstantPoolTestCase.TestedCPEntry;
-import compiler.jvmci.compilerToVM.ConstantPoolTestCase.Validator;
-import compiler.jvmci.compilerToVM.ConstantPoolTestsHelper.DummyClasses;
-import jdk.vm.ci.hotspot.CompilerToVMHelper;
-import jdk.vm.ci.hotspot.HotSpotResolvedObjectType;
-import jdk.vm.ci.meta.ConstantPool;
 
-import java.util.HashMap;
-import java.util.Map;
 
-import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CONSTANT_CLASS;
 
 /**
  * Test for {@code jdk.vm.ci.hotspot.CompilerToVM.resolveTypeInPool} method

@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ec.ed;
+package jdk.crypto.ec.share.classes.sun.security.ec.ed;
 
-import sun.security.ec.point.*;
-import sun.security.util.math.IntegerModuloP;
-import sun.security.util.math.MutableIntegerModuloP;
 
+import jdk.crypto.ec.share.classes.sun.security.ec.point.*;
+import jdk.crypto.ec.share.classes.sun.security.util.math.IntegerModuloP;
+import jdk.crypto.ec.share.classes.sun.security.util.math.MutableIntegerModuloP;
 import java.util.function.Function;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Base class for Edwards curve ECC implementations.

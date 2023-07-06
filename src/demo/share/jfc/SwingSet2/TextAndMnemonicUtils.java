@@ -19,9 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-import java.io.IOException;
+package demo.share.jfc.SwingSet2;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.Properties;
 import java.util.ResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>TextAndMnemonicUtils</code> allows to extract text and mnemonic values

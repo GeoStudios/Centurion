@@ -19,32 +19,46 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.spi.URLStreamHandlerProvider;
-import java.nio.file.Path;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.Hashtable;
-import java.io.InvalidObjectException;
-import java.io.ObjectStreamException;
-import java.io.ObjectStreamField;
-import java.io.ObjectInputStream.GetField;
-import java.util.Iterator;
-import java.util.Locale;
-import java.util.NoSuchElementException;
-import java.util.ServiceConfigurationError;
-import java.util.ServiceLoader;
 
+import java.base.share.classes.java.io.File;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.InputStream;
+import java.base.share.classes.java.net.spi.URLStreamHandlerProvider;
+import java.base.share.classes.java.nio.file.Path;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.PrivilegedAction;
+import java.base.share.classes.java.util.Hashtable;
+import java.base.share.classes.java.io.InvalidObjectException;
+import java.base.share.classes.java.io.ObjectStreamException;
+import java.base.share.classes.java.io.ObjectStreamField;
+import java.base.share.classes.java.io.ObjectInputStream.GetField;
+import java.base.share.classes.java.util.Iterator;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.NoSuchElementException;
+import java.base.share.classes.java.util.ServiceConfigurationError;
+import java.base.share.classes.java.util.ServiceLoader;
 import jdk.internal.access.JavaNetURLAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.misc.VM;
 import sun.net.util.IPAddressUtil;
 import sun.security.util.SecurityConstants;
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class {@code URL} represents a Uniform Resource

@@ -19,26 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
 import java.nio.ByteBuffer;
 import java.security.CryptoPrimitive;
 import java.security.GeneralSecurityException;
-import java.security.KeyFactory;
+import java.base.share.classes.java.security.KeyFactory;
 import java.text.MessageFormat;
 import java.util.EnumSet;
-import java.util.Locale;
-import javax.crypto.SecretKey;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.javax.crypto.SecretKey;
 import javax.crypto.interfaces.DHPublicKey;
 import javax.crypto.spec.DHParameterSpec;
 import javax.crypto.spec.DHPublicKeySpec;
 import javax.net.ssl.SSLHandshakeException;
-import sun.security.ssl.DHKeyExchange.DHECredentials;
-import sun.security.ssl.DHKeyExchange.DHEPossession;
-import sun.security.ssl.SSLHandshake.HandshakeMessage;
-import sun.security.util.HexDumpEncoder;
+import java.base.share.classes.sun.security.ssl.DHKeyExchange.DHECredentials;
+import java.base.share.classes.sun.security.ssl.DHKeyExchange.DHEPossession;
+import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
+import java.base.share.classes.sun.security.util.HexDumpEncoder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Pack of the "ClientKeyExchange" handshake message.

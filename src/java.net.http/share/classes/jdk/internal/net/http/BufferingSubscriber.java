@@ -19,21 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
+
 
 import java.nio.ByteBuffer;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.util.java.util.ListIterator;
+import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.CompletionStage;
 import java.util.concurrent.Flow;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.net.http.HttpResponse.BodySubscriber;
-import jdk.internal.net.http.common.Demand;
-import jdk.internal.net.http.common.SequentialScheduler;
-import jdk.internal.net.http.ResponseSubscribers.TrustedSubscriber;
+import java.net.http.share.classes.jdk.internal.net.http.common.Demand;
+import java.net.http.share.classes.jdk.internal.net.http.common.SequentialScheduler;
+import java.net.http.share.classes.jdk.internal.net.http.ResponseSubscribers.TrustedSubscriber;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A buffering BodySubscriber. When subscribed, accumulates ( buffers ) a given

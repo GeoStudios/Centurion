@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.util.resources.ext;
+package jdk.localedata.share.classes.sun.util.resources.ext;
 
-import sun.util.resources.TimeZoneNamesBundle;
+
+import jdk.localedata.share.classes.sun.util.resources.TimeZoneNamesBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class TimeZoneNames_en_GB extends TimeZoneNamesBundle {
 

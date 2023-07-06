@@ -18,16 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.xml.sax.ptests;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertNull;
 
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertNull;.extended
 import java.util.Enumeration;
-
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.helpers.NamespaceSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Unit test cases for NamespaceSupport API

@@ -18,11 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.jdwp.ObjectReference.ReferringObjects.referringObjects002;
+
 
 import nsk.share.ObjectInstancesManager;
 import nsk.share.ReferringObject;
 import nsk.share.jdwp.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class referringObjects002a extends AbstractJDWPDebuggee {
     public static Object testInstance = new Object();

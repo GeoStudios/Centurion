@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.vectorization;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8261022
@@ -26,7 +43,6 @@
  * @run main/othervm compiler.vectorization.TestAbsCharVector
  */
 
-package compiler.vectorization;
 
 public class TestAbsCharVector {
 

@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.comp;
+package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-import com.sun.tools.javac.tree.*;
+
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.*;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A class for environments, instances of which are passed as
  *  arguments to tree visitors.  Environments refer to important ancestors

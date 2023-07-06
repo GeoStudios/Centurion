@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.jfr.jvm;
+
+
+import java.lang.reflect.Method;
+import java.base.share.classes.java.util.Arrays;
+import java.util.stream.IntStream;
+import jdk.jfr.internal.JVM;
+import jdk.test.lib.Platform;
+import sun.hotspot.WhiteBox;
+import sun.hotspot.code.NMethod;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @summary Intrinsic for JFR
@@ -41,15 +65,7 @@
  *      jdk.jfr.jvm.TestJFRIntrinsic
  */
 
-package jdk.jfr.jvm;
 
-import java.lang.reflect.Method;
-import java.util.Arrays;
-import java.util.stream.IntStream;
-import jdk.jfr.internal.JVM;
-import jdk.test.lib.Platform;
-import sun.hotspot.WhiteBox;
-import sun.hotspot.code.NMethod;
 
 public class TestJFRIntrinsic {
 

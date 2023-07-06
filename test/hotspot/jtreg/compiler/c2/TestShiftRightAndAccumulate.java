@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import java.util.Random;
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8260585
@@ -28,10 +47,7 @@
  * @run main/othervm -XX:-SuperWordLoopUnrollAnalysis compiler.c2.TestShiftRightAndAccumulate
  */
 
-package compiler.c2;
 
-import java.util.Random;
-import java.util.Arrays;
 
 public class TestShiftRightAndAccumulate {
     private static final int SMALL_LEN = 16;

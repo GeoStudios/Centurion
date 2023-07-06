@@ -21,6 +21,21 @@
 
 package diamond;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface C extends B {
     /**
      * cDoc.

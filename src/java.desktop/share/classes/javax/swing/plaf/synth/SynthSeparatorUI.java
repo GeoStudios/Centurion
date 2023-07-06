@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.synth;
+package java.desktop.share.classes.javax.swing.plaf.synth;
+
 
 import java.beans.*;
-import javax.swing.*;
+import java.desktop.share.classes.javax.swing.*;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Insets;
-import javax.swing.plaf.ComponentUI;
-import javax.swing.plaf.SeparatorUI;
-import javax.swing.plaf.UIResource;
-import javax.swing.plaf.DimensionUIResource;
+import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
+import java.desktop.share.classes.javax.swing.plaf.SeparatorUI;
+import java.desktop.share.classes.javax.swing.plaf.UIResource;
+import java.desktop.share.classes.javax.swing.plaf.DimensionUIResource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the Synth L&amp;F UI delegate for

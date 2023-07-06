@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.parsers;
+package java.xml.share.classes.javax.xml.parsers;
+
 
 import com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl;
-import javax.xml.validation.Schema;
+import java.xml.share.classes.javax.xml.validation.Schema;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines a factory API that enables applications to obtain a

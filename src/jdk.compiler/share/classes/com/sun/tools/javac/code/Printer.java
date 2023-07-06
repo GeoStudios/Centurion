@@ -19,22 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.code;
+package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
-import java.util.Locale;
 
-import com.sun.tools.javac.api.Messages;
-import com.sun.tools.javac.code.Type.ArrayType;
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.code.Type.*;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.ListBuffer;
+import java.base.share.classes.java.util.Locale;
+import jdk.compiler.share.classes.com.sun.tools.javac.api.Messages;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.ArrayType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.ListBuffer;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.BoundKind.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.CLASS;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.FORALL;.extended
 
-import static com.sun.tools.javac.code.BoundKind.*;
-import static com.sun.tools.javac.code.Flags.*;
-import static com.sun.tools.javac.code.Kinds.Kind.*;
-import static com.sun.tools.javac.code.TypeTag.CLASS;
-import static com.sun.tools.javac.code.TypeTag.FORALL;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A combined type/symbol visitor for generating non-trivial localized string

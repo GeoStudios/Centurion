@@ -18,18 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.plaf.multi;
+
+package java.desktop.share.classes.javax.swing.plaf.multi;
+
 
 import java.util.Vector;
-import javax.swing.plaf.ListUI;
-import javax.swing.JList;
+import java.desktop.share.classes.javax.swing.plaf.java.util.ListUI;
+import java.desktop.share.classes.javax.swing.Jjava.util.java.util.java.util.List;
 import java.awt.Point;
 import java.awt.Rectangle;
-import javax.swing.plaf.ComponentUI;
-import javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
+import java.desktop.share.classes.javax.swing.JComponent;
 import java.awt.Graphics;
 import java.awt.Dimension;
-import javax.accessibility.Accessible;
+import java.desktop.share.classes.javax.accessibility.Accessible;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A multiplexing UI used to combine <code>ListUI</code>s.

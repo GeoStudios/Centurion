@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.org.objectweb.asm.util;
+package java.base.share.classes.jdk.internal.org.objectweb.asm.util;
+
 
 import java.util.HashSet;
-import jdk.internal.org.objectweb.asm.ModuleVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ModuleVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@link ModuleVisitor} that checks that its methods are properly used.
@@ -124,7 +139,7 @@ public class CheckModuleAdapter extends ModuleVisitor {
     @Override
     public void visitExport(final String packaze, final int access, final String... modules) {
         checkVisitEndNotCalled();
-        CheckMethodAdapter.checkInternalName(Opcodes.V9, packaze, "package name");
+        CheckMethodAdapter.checkInternalName(Opcodes.V9, packaze, "
         exportedPackages.checkNameNotAlreadyDeclared(packaze);
         CheckClassAdapter.checkAccess(access, Opcodes.ACC_SYNTHETIC | Opcodes.ACC_MANDATED);
         if (modules != null) {
@@ -141,7 +156,7 @@ public class CheckModuleAdapter extends ModuleVisitor {
         if (isOpen) {
             throw new UnsupportedOperationException("An open module can not use open directive");
         }
-        CheckMethodAdapter.checkInternalName(Opcodes.V9, packaze, "package name");
+        CheckMethodAdapter.checkInternalName(Opcodes.V9, packaze, "
         openedPackages.checkNameNotAlreadyDeclared(packaze);
         CheckClassAdapter.checkAccess(access, Opcodes.ACC_SYNTHETIC | Opcodes.ACC_MANDATED);
         if (modules != null) {

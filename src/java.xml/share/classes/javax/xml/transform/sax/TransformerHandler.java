@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.transform.sax;
+package java.xml.share.classes.javax.xml.transform.sax;
 
-import javax.xml.transform.Result;
-import javax.xml.transform.Transformer;
 
+import java.xml.share.classes.javax.xml.transform.Result;
+import java.xml.share.classes.javax.xml.transform.Transformer;
 import org.xml.sax.ContentHandler;
 import org.xml.sax.DTDHandler;
 import org.xml.sax.ext.LexicalHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A TransformerHandler

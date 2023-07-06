@@ -21,18 +21,29 @@
 
 package nsk.jdi.EventSet.resume;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
 import com.sun.jdi.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
-
 import java.util.*;
 import java.io.*;
+import static nsk.share.Consts.TEST_FAILED;.extended
 
-import static nsk.share.Consts.TEST_FAILED;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type

@@ -21,5 +21,20 @@
 
 package pkg.nested.var;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class A {
 }

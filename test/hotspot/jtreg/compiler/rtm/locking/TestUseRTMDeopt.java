@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.rtm.locking;
+
+
+import compiler.testlibrary.rtm.AbortProvoker;
+import compiler.testlibrary.rtm.AbortType;
+import compiler.testlibrary.rtm.RTMTestBase;
+import jdk.test.lib.Asserts;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.cli.CommandLineOptionTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8031320
@@ -35,14 +58,7 @@
  *                          compiler.rtm.locking.TestUseRTMDeopt
  */
 
-package compiler.rtm.locking;
 
-import compiler.testlibrary.rtm.AbortProvoker;
-import compiler.testlibrary.rtm.AbortType;
-import compiler.testlibrary.rtm.RTMTestBase;
-import jdk.test.lib.Asserts;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.cli.CommandLineOptionTest;
 
 /**
  * Test verifies that usage of UseRTMDeopt option affects uncommon traps usage

@@ -21,9 +21,23 @@
 
 package jdk.test.lib.artifacts;
 
+
 import java.nio.file.Path;
 import java.util.HashMap;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ArtifactResolver {
     public static Map<String, Path> resolve(Class<?> klass) throws ArtifactResolverException {

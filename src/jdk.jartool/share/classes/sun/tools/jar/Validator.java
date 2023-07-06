@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jar;
+package jdk.jartool.share.classes.sun.tools.jar;
+
 
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.lang.module.ModuleDescriptor;
 import java.lang.module.ModuleDescriptor.Exports;
@@ -32,7 +33,7 @@ import java.lang.module.ModuleDescriptor.Requires;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
@@ -40,15 +41,28 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
+import static java.util.jar.JarFile.MANIFEST_NAME;.extended
+import static jdk.jartool.share.classes.sun.tools.jar.Main.VERSIONS_DIR;.extended
+import static jdk.jartool.share.classes.sun.tools.jar.Main.VERSIONS_DIR_LENGTH;.extended
+import static jdk.jartool.share.classes.sun.tools.jar.Main.MODULE_INFO;.extended
+import static jdk.jartool.share.classes.sun.tools.jar.Main.getMsg;.extended
+import static jdk.jartool.share.classes.sun.tools.jar.Main.formatMsg;.extended
+import static jdk.jartool.share.classes.sun.tools.jar.Main.formatMsg2;.extended
+import static jdk.jartool.share.classes.sun.tools.jar.Main.toBinaryName;.extended
 
-import static java.util.jar.JarFile.MANIFEST_NAME;
-import static sun.tools.jar.Main.VERSIONS_DIR;
-import static sun.tools.jar.Main.VERSIONS_DIR_LENGTH;
-import static sun.tools.jar.Main.MODULE_INFO;
-import static sun.tools.jar.Main.getMsg;
-import static sun.tools.jar.Main.formatMsg;
-import static sun.tools.jar.Main.formatMsg2;
-import static sun.tools.jar.Main.toBinaryName;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class Validator {
 

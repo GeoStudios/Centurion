@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.im;
+package java.desktop.share.classes.sun.awt.im;
+
 
 import java.awt.AWTEvent;
 import java.awt.AWTKeyStroke;
@@ -30,13 +31,13 @@ import java.awt.Rectangle;
 import java.awt.Toolkit;
 import java.awt.Window;
 import java.awt.event.ComponentEvent;
-import java.awt.event.ComponentListener;
+import java.awt.event.Componentjava.util.Listener;
 import java.awt.event.FocusEvent;
 import java.awt.event.InputEvent;
 import java.awt.event.InputMethodEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.WindowEvent;
-import java.awt.event.WindowListener;
+import java.awt.event.Windowjava.util.Listener;
 import java.awt.im.InputMethodRequests;
 import java.awt.im.spi.InputMethod;
 import java.lang.Character.Subset;
@@ -45,11 +46,25 @@ import java.security.PrivilegedAction;
 import java.text.MessageFormat;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.prefs.BackingStoreException;
 import java.util.prefs.Preferences;
-import sun.util.logging.PlatformLogger;
-import sun.awt.SunToolkit;
+import java.desktop.share.classes.sun.util.logging.PlatformLogger;
+import java.desktop.share.classes.sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This InputContext class contains parts of the implementation of

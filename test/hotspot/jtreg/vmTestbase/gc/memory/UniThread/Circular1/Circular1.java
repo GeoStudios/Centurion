@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.memory.UniThread.Circular1;
+
+
+import nsk.share.gc.*;
+import nsk.share.test.Stresser;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -32,10 +50,7 @@
  * @run main/othervm gc.memory.UniThread.Circular1.Circular1 -iterations 5
  */
 
-package gc.memory.UniThread.Circular1;
 
-import nsk.share.gc.*;
-import nsk.share.test.Stresser;
 
 /**
  * Test GC collection of circular linked lists.

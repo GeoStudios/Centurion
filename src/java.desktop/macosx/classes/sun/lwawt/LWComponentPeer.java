@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt;
+package java.desktop.macosx.classes.sun.lwawt;
+
 
 import java.awt.AWTEvent;
 import java.awt.AWTException;
@@ -40,7 +41,7 @@ import java.awt.Toolkit;
 import java.awt.Window;
 import java.awt.dnd.DropTarget;
 import java.awt.dnd.peer.DropTargetPeer;
-import java.awt.event.AWTEventListener;
+import java.awt.event.AWTEventjava.util.Listener;
 import java.awt.event.ComponentEvent;
 import java.awt.event.FocusEvent;
 import java.awt.event.InputEvent;
@@ -56,27 +57,39 @@ import java.awt.peer.KeyboardFocusManagerPeer;
 import java.lang.reflect.Field;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.atomic.AtomicBoolean;
-
 import javax.swing.JComponent;
 import javax.swing.RepaintManager;
 import javax.swing.SwingUtilities;
-
 import com.sun.java.swing.SwingUtilities3;
-import sun.awt.AWTAccessor;
-import sun.awt.CGraphicsDevice;
-import sun.awt.PaintEventDispatcher;
-import sun.awt.RepaintArea;
-import sun.awt.SunToolkit;
-import sun.awt.event.IgnorePaintEvent;
-import sun.awt.image.SunVolatileImage;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.metal.MTLRenderQueue;
-import sun.java2d.opengl.OGLRenderQueue;
-import sun.java2d.pipe.Region;
-import sun.java2d.pipe.RenderQueue;
-import sun.util.logging.PlatformLogger;
+import java.desktop.macosx.classes.sun.awt.AWTAccessor;
+import java.desktop.macosx.classes.sun.awt.CGraphicsDevice;
+import java.desktop.macosx.classes.sun.awt.PaintEventDispatcher;
+import java.desktop.macosx.classes.sun.awt.RepaintArea;
+import java.desktop.macosx.classes.sun.awt.SunToolkit;
+import java.desktop.macosx.classes.sun.awt.event.IgnorePaintEvent;
+import java.desktop.macosx.classes.sun.awt.image.SunVolatileImage;
+import java.desktop.macosx.classes.sun.java2d.SunGraphics2D;
+import java.desktop.macosx.classes.sun.java2d.metal.MTLRenderQueue;
+import java.desktop.macosx.classes.sun.java2d.opengl.OGLRenderQueue;
+import java.desktop.macosx.classes.sun.java2d.pipe.Region;
+import java.desktop.macosx.classes.sun.java2d.pipe.RenderQueue;
+import java.desktop.macosx.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class LWComponentPeer<T extends Component, D extends JComponent>
     implements ComponentPeer, DropTargetPeer

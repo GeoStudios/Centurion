@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.marlin.stats;
+package java.desktop.share.classes.sun.java2d.marlin.stats;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Generic monitor ie gathers time statistics as nanos.

@@ -21,8 +21,55 @@
 
 package build.tools.charsetmapping;
 
-import java.io.*;
-import java.util.Scanner;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SRC {
 

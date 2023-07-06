@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.reflect;
+package java.base.share.classes.jdk.internal.reflect;
+
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Base class for jdk.internal.misc.Unsafe-based FieldAccessors. The
     observation is that there are only nine types of fields from the

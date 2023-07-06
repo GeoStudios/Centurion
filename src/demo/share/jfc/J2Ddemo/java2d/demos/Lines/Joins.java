@@ -18,11 +18,12 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d.demos.Lines;
+
+package demo.share.jfc.J2Ddemo.java2d.demos.Lines;
 
 
-import static java.awt.Color.BLACK;
-import static java.awt.Color.WHITE;
+import static java.awt.Color.BLACK;.extended
+import static java.awt.Color.WHITE;.extended
 import java.awt.BasicStroke;
 import java.awt.BorderLayout;
 import java.awt.Component;
@@ -32,10 +33,10 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.geom.GeneralPath;
-import java2d.ControlsSurface;
-import java2d.CustomControls;
+import demo.share.jfc.J2Ddemo.java2d.ControlsSurface;
+import demo.share.jfc.J2Ddemo.java2d.CustomControls;
 import javax.swing.Icon;
 import javax.swing.JLabel;
 import javax.swing.JMenu;
@@ -47,7 +48,20 @@ import javax.swing.SwingConstants;
 import javax.swing.border.CompoundBorder;
 import javax.swing.border.EmptyBorder;
 import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
+import javax.swing.event.Changejava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

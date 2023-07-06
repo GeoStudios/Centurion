@@ -21,15 +21,27 @@
 
 package vm;
 
-import java.io.*;
 
+import java.io.*;
 import org.testng.annotations.Test;
 import separate.*;
 import separate.Compiler;
+import static org.testng.Assert.*;.extended
+import static separate.SourceModel.*;.extended
+import static separate.SourceModel.Class;.extended
 
-import static org.testng.Assert.*;
-import static separate.SourceModel.*;
-import static separate.SourceModel.Class;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class InterfaceAccessFlagsTest extends TestHarness {
     public InterfaceAccessFlagsTest() {

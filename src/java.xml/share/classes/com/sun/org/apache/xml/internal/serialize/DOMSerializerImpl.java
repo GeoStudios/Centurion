@@ -19,47 +19,62 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.serialize;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serialize;
 
-import com.sun.org.apache.xerces.internal.dom.AbortException;
-import com.sun.org.apache.xerces.internal.dom.CoreDocumentImpl;
-import com.sun.org.apache.xerces.internal.dom.DOMErrorImpl;
-import com.sun.org.apache.xerces.internal.dom.DOMLocatorImpl;
-import com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
-import com.sun.org.apache.xerces.internal.dom.DOMNormalizer;
-import com.sun.org.apache.xerces.internal.dom.DOMStringListImpl;
-import com.sun.org.apache.xerces.internal.impl.Constants;
-import com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
-import com.sun.org.apache.xerces.internal.util.DOMUtil;
-import com.sun.org.apache.xerces.internal.util.NamespaceSupport;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
-import com.sun.org.apache.xerces.internal.util.XML11Char;
-import com.sun.org.apache.xerces.internal.util.XMLChar;
-import java.io.IOException;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.AbortException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.CoreDocumentImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMErrorImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMLocatorImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMNormalizer;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMStringjava.util.ListImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.DOMUtil;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.NamespaceSupport;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XML11Char;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.StringWriter;
 import java.io.UnsupportedEncodingException;
 import java.io.Writer;
 import java.lang.reflect.Method;
-import java.util.ArrayList;
-import java.util.List;
-import org.w3c.dom.Attr;
-import org.w3c.dom.Comment;
-import org.w3c.dom.DOMConfiguration;
-import org.w3c.dom.DOMError;
-import org.w3c.dom.DOMErrorHandler;
-import org.w3c.dom.DOMException;
-import org.w3c.dom.DOMStringList;
-import org.w3c.dom.Document;
-import org.w3c.dom.DocumentFragment;
-import org.w3c.dom.Element;
-import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
-import org.w3c.dom.ProcessingInstruction;
-import org.w3c.dom.ls.LSException;
-import org.w3c.dom.ls.LSOutput;
-import org.w3c.dom.ls.LSSerializer;
-import org.w3c.dom.ls.LSSerializerFilter;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
+import java.xml.share.classes.com.sun.org.w3c.dom.Comment;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMConfiguration;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMError;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMErrorHandler;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMStringjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.w3c.dom.DocumentFragment;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.ProcessingInstruction;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSException;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSOutput;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSSerializer;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSSerializerFilter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * EXPERIMENTAL: Implemenatation of DOM Level 3 org.w3c.ls.LSSerializer by

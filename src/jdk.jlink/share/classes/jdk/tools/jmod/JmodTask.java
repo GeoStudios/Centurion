@@ -19,16 +19,17 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.tools.jmod;
+package jdk.jlink.share.classes.jdk.tools.jmod;
+
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PrintWriter;
-import java.io.UncheckedIOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.lang.module.Configuration;
 import java.lang.module.FindException;
 import java.lang.module.ModuleDescriptor;
@@ -58,28 +59,40 @@ import java.util.stream.Collectors;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipException;
 import java.util.zip.ZipFile;
+import jdk.jlink.share.classes.jdk.internal.jmod.JmodFile;
+import jdk.jlink.share.classes.jdk.internal.jmod.JmodFile.Section;
+import jdk.jlink.share.classes.jdk.internal.joptsimple.BuiltinHelpFormatter;
+import jdk.jlink.share.classes.jdk.internal.joptsimple.NonOptionArgumentSpec;
+import jdk.jlink.share.classes.jdk.internal.joptsimple.OptionDescriptor;
+import jdk.jlink.share.classes.jdk.internal.joptsimple.OptionException;
+import jdk.jlink.share.classes.jdk.internal.joptsimple.OptionParser;
+import jdk.jlink.share.classes.jdk.internal.joptsimple.OptionSet;
+import jdk.jlink.share.classes.jdk.internal.joptsimple.OptionSpec;
+import jdk.jlink.share.classes.jdk.internal.joptsimple.ValueConverter;
+import jdk.jlink.share.classes.jdk.internal.module.ModuleHashes;
+import jdk.jlink.share.classes.jdk.internal.module.ModuleHashesBuilder;
+import jdk.jlink.share.classes.jdk.internal.module.ModuleInfo;
+import jdk.jlink.share.classes.jdk.internal.module.ModuleInfoExtender;
+import jdk.jlink.share.classes.jdk.internal.module.ModulePath;
+import jdk.jlink.share.classes.jdk.internal.module.ModuleResolution;
+import jdk.jlink.share.classes.jdk.internal.module.ModuleTarget;
+import jdk.jlink.share.classes.jdk.internal.module.Resources;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.Utils;
+import static java.util.stream.Collectors.joining;.extended
 
-import jdk.internal.jmod.JmodFile;
-import jdk.internal.jmod.JmodFile.Section;
-import jdk.internal.joptsimple.BuiltinHelpFormatter;
-import jdk.internal.joptsimple.NonOptionArgumentSpec;
-import jdk.internal.joptsimple.OptionDescriptor;
-import jdk.internal.joptsimple.OptionException;
-import jdk.internal.joptsimple.OptionParser;
-import jdk.internal.joptsimple.OptionSet;
-import jdk.internal.joptsimple.OptionSpec;
-import jdk.internal.joptsimple.ValueConverter;
-import jdk.internal.module.ModuleHashes;
-import jdk.internal.module.ModuleHashesBuilder;
-import jdk.internal.module.ModuleInfo;
-import jdk.internal.module.ModuleInfoExtender;
-import jdk.internal.module.ModulePath;
-import jdk.internal.module.ModuleResolution;
-import jdk.internal.module.ModuleTarget;
-import jdk.internal.module.Resources;
-import jdk.tools.jlink.internal.Utils;
 
-import static java.util.stream.Collectors.joining;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation for the jmod tool.

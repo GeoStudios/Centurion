@@ -19,25 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.bcel.internal.generic;
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
+
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.DataInput;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.AnnotationEntry;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Attribute;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantUtf8;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ElementValuePair;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.RuntimeInvisibleAnnotations;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.RuntimeInvisibleParameterAnnotations;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.RuntimeVisibleAnnotations;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.RuntimeVisibleParameterAnnotations;
 
-import com.sun.org.apache.bcel.internal.classfile.AnnotationEntry;
-import com.sun.org.apache.bcel.internal.classfile.Attribute;
-import com.sun.org.apache.bcel.internal.classfile.ConstantUtf8;
-import com.sun.org.apache.bcel.internal.classfile.ElementValuePair;
-import com.sun.org.apache.bcel.internal.classfile.RuntimeInvisibleAnnotations;
-import com.sun.org.apache.bcel.internal.classfile.RuntimeInvisibleParameterAnnotations;
-import com.sun.org.apache.bcel.internal.classfile.RuntimeVisibleAnnotations;
-import com.sun.org.apache.bcel.internal.classfile.RuntimeVisibleParameterAnnotations;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @LastModified: Jan 2020

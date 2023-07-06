@@ -18,6 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package gc.gctests.gctest02;
+
+
+import nsk.share.TestFailure;
+import nsk.share.TestBug;
+import nsk.share.test.LocalRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //gctest02.java
 
 
@@ -33,11 +54,7 @@
  * @run main/othervm gc.gctests.gctest02.gctest02 100
  */
 
-package gc.gctests.gctest02;
 
-import nsk.share.TestFailure;
-import nsk.share.TestBug;
-import nsk.share.test.LocalRandom;
 
 /*  stress testing
  create 16 memory evil threads requesting to allocate

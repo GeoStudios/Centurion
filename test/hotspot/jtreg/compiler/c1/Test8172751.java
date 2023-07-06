@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c1;
+
+
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MutableCallSite;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8172751
@@ -27,11 +47,7 @@
  * @run main/othervm -XX:-BackgroundCompilation compiler.c1.Test8172751
  */
 
-package compiler.c1;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MutableCallSite;
 
 public class Test8172751 {
     private static final MethodHandle CONSTANT_TRUE = MethodHandles.constant(boolean.class, true);

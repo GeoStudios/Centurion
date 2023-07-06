@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5;
+package java.security.jgss.share.classes.sun.security.krb5;
 
-import sun.security.krb5.internal.*;
-import sun.security.krb5.internal.crypto.KeyUsage;
-import sun.security.util.*;
-import java.io.IOException;
+
+import java.security.jgss.share.classes.sun.security.krb5.internal.*;
+import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.KeyUsage;
+import java.security.jgss.share.classes.sun.security.util.*;
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class encapsulates a TGS-REP that is sent from the KDC to the

@@ -18,15 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.javadoc.internal.doclets.toolkit.util;
+
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util;
+
 
 import java.util.*;
-
 import javax.lang.model.element.Element;
 import javax.lang.model.element.PackageElement;
 import javax.lang.model.element.TypeElement;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
 
-import jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class acts as an artificial container for classes specified on the command line when

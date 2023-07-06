@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jarsigner;
+package jdk.jartool.share.classes.com.sun.jarsigner;
 
-import java.io.IOException;
-import java.security.NoSuchAlgorithmException;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.cert.CertificateException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class defines a content signing service.

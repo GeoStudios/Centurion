@@ -19,32 +19,46 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.time;
+package java.base.share.classes.java.time;
 
-import static java.time.LocalTime.MINUTES_PER_HOUR;
-import static java.time.LocalTime.SECONDS_PER_HOUR;
-import static java.time.LocalTime.SECONDS_PER_MINUTE;
-import static java.time.temporal.ChronoField.OFFSET_SECONDS;
 
-import java.io.DataInput;
-import java.io.DataOutput;
-import java.io.IOException;
-import java.io.InvalidObjectException;
-import java.io.ObjectInputStream;
-import java.io.Serializable;
-import java.time.temporal.ChronoField;
-import java.time.temporal.Temporal;
-import java.time.temporal.TemporalAccessor;
-import java.time.temporal.TemporalAdjuster;
-import java.time.temporal.TemporalField;
-import java.time.temporal.TemporalQueries;
-import java.time.temporal.TemporalQuery;
-import java.time.temporal.UnsupportedTemporalTypeException;
-import java.time.temporal.ValueRange;
-import java.time.zone.ZoneRules;
-import java.util.Objects;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
+import static java.base.share.classes.java.time.LocalTime.MINUTES_PER_HOUR;.extended
+import static java.base.share.classes.java.time.LocalTime.SECONDS_PER_HOUR;.extended
+import static java.base.share.classes.java.time.LocalTime.SECONDS_PER_MINUTE;.extended
+import static java.base.share.classes.java.time.temporal.ChronoField.OFFSET_SECONDS;.extended
+import java.base.share.classes.java.io.DataInput;
+import java.base.share.classes.java.io.DataOutput;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.InvalidObjectException;
+import java.base.share.classes.java.io.ObjectInputStream;
+import java.base.share.classes.java.io.Serializable;
+import java.base.share.classes.java.time.temporal.ChronoField;
+import java.base.share.classes.java.time.temporal.Temporal;
+import java.base.share.classes.java.time.temporal.TemporalAccessor;
+import java.base.share.classes.java.time.temporal.TemporalAdjuster;
+import java.base.share.classes.java.time.temporal.TemporalField;
+import java.base.share.classes.java.time.temporal.TemporalQueries;
+import java.base.share.classes.java.time.temporal.TemporalQuery;
+import java.base.share.classes.java.time.temporal.UnsupportedTemporalTypeException;
+import java.base.share.classes.java.time.temporal.ValueRange;
+import java.base.share.classes.java.time.zone.ZoneRules;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.concurrent.ConcurrentMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A time-zone offset from Greenwich/UTC, such as {@code +02:00}.

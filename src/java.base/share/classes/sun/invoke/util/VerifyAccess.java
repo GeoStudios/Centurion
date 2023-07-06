@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.invoke.util;
+package java.base.share.classes.sun.invoke.util;
+
 
 import java.lang.reflect.Modifier;
-import static java.lang.reflect.Modifier.*;
+import static java.lang.reflect.Modifier.*;.extended
 import jdk.internal.reflect.Reflection;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class centralizes information about the JVM's linkage access control.

@@ -21,6 +21,23 @@
 
 package gc.whitebox;
 
+
+import static jdk.test.lib.Asserts.assertTrue;.extended
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestConMarkCycleWB
  * @bug 8065579
@@ -35,8 +52,6 @@ package gc.whitebox;
  * @run main/othervm -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI -XX:+UseG1GC gc.whitebox.TestConcMarkCycleWB
  * @summary Verifies that ConcurrentMarking-related WB works properly
  */
-import static jdk.test.lib.Asserts.assertTrue;
-import sun.hotspot.WhiteBox;
 
 public class TestConcMarkCycleWB {
 

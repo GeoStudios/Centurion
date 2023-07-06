@@ -19,9 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.comp;
+package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-import com.sun.tools.javac.tree.JCTree;
+
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /** {@code Env<A>} specialized as {@code Env<AttrContext>}

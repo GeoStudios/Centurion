@@ -18,35 +18,44 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.beans.decoder;
 
-import com.sun.beans.finder.ClassFinder;
+package java.desktop.share.classes.com.sun.beans.decoder;
 
-import java.beans.ExceptionListener;
 
-import java.io.IOException;
+import java.desktop.share.classes.com.sun.beans.finder.ClassFinder;
+import java.beans.Exceptionjava.util.Listener;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.StringReader;
-
 import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;
-
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParserFactory;
-
 import org.xml.sax.Attributes;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
-import jdk.internal.access.SharedSecrets;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The main class to parse JavaBeans XML archive.

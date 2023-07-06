@@ -18,28 +18,40 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.gaptest;
 
-import static jaxp.library.JAXPTestUtilities.filenameToURL;
-import static org.testng.Assert.assertEquals;
-import static test.gaptest.GapTestConst.GOLDEN_DIR;
-import static test.gaptest.GapTestConst.XML_DIR;
 
-import java.io.IOException;
+import static jaxp.library.JAXPTestUtilities.filenameToURL;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static test.gaptest.GapTestConst.GOLDEN_DIR;.extended
+import static test.gaptest.GapTestConst.XML_DIR;.extended
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMResult;
 import javax.xml.transform.stream.StreamSource;
-
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+import org.w3c.dom.Nodejava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

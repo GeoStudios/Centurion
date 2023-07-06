@@ -18,35 +18,49 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.foreign.abi.x64.sysv;
 
-import jdk.incubator.foreign.FunctionDescriptor;
-import jdk.incubator.foreign.GroupLayout;
-import jdk.incubator.foreign.MemoryAddress;
-import jdk.incubator.foreign.MemoryLayout;
-import jdk.incubator.foreign.MemorySegment;
-import jdk.internal.foreign.abi.CallingSequenceBuilder;
-import jdk.internal.foreign.abi.UpcallHandler;
-import jdk.internal.foreign.abi.ABIDescriptor;
-import jdk.internal.foreign.abi.Binding;
-import jdk.internal.foreign.abi.CallingSequence;
-import jdk.internal.foreign.abi.ProgrammableInvoker;
-import jdk.internal.foreign.abi.ProgrammableUpcallHandler;
-import jdk.internal.foreign.abi.VMStorage;
-import jdk.internal.foreign.abi.x64.X86_64Architecture;
-import jdk.internal.foreign.abi.SharedUtils;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.x64.sysv;
 
+
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.FunctionDescriptor;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.GroupLayout;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryAddress;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryLayout;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.CallingSequenceBuilder;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.UpcallHandler;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.ABIDescriptor;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.Binding;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.CallingSequence;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.ProgrammableInvoker;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.ProgrammableUpcallHandler;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.VMStorage;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.x64.X86_64Architecture;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.SharedUtils;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Optional;
+import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.PlatformLayouts.*;.extended
+import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.Binding.*;.extended
+import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.x64.X86_64Architecture.*;.extended
+import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.x64.sysv.SysVx64Linker.MAX_INTEGER_ARGUMENT_REGISTERS;.extended
+import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.x64.sysv.SysVx64Linker.MAX_VECTOR_ARGUMENT_REGISTERS;.extended
 
-import static jdk.internal.foreign.PlatformLayouts.*;
-import static jdk.internal.foreign.abi.Binding.*;
-import static jdk.internal.foreign.abi.x64.X86_64Architecture.*;
-import static jdk.internal.foreign.abi.x64.sysv.SysVx64Linker.MAX_INTEGER_ARGUMENT_REGISTERS;
-import static jdk.internal.foreign.abi.x64.sysv.SysVx64Linker.MAX_VECTOR_ARGUMENT_REGISTERS;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * For the SysV x64 C ABI specifically, this class uses the ProgrammableInvoker API, namely CallingSequenceBuilder2

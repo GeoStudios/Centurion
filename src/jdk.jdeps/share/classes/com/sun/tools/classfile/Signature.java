@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.classfile;
+package jdk.jdeps.share.classes.com.sun.tools.classfile;
 
-import java.util.ArrayList;
-import java.util.List;
-import com.sun.tools.classfile.Type.*;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Type.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * See JVMS 4.4.4.

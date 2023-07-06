@@ -21,6 +21,24 @@
 
 package gc.arguments;
 
+
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestShrinkHeapInSteps
  * @summary Verify that -XX:-ShrinkHeapInSteps works properly.
@@ -32,9 +50,6 @@ package gc.arguments;
  * @run driver/timeout=240 gc.arguments.TestShrinkHeapInSteps
  */
 
-import java.util.LinkedList;
-import java.util.Arrays;
-import jdk.test.lib.Utils;
 
 public class TestShrinkHeapInSteps {
     public static void main(String args[]) throws Exception {

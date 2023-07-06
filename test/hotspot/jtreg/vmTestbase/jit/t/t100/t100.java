@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.t.t100;
+
+
+import java.lang.*;
+import nsk.share.TestFailure;
+import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,7 +50,6 @@
  * @run main/othervm jit.t.t100.t100
  */
 
-package jit.t.t100;
 
 /*
    This test check it a JIT can still detect stack overflow. Method
@@ -39,9 +58,6 @@ package jit.t.t100;
    don't loose some error handling ability in doing so.
 */
 
-import java.lang.*;
-import nsk.share.TestFailure;
-import nsk.share.GoldChecker;
 
 public class t100 {
     public static final GoldChecker goldChecker = new GoldChecker( "t100" );

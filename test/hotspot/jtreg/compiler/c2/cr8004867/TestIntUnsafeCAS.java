@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2.cr8004867;
+
+
+import jdk.internal.misc.Unsafe;
+import java.lang.reflect.Field;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8004867
@@ -33,11 +52,8 @@
  *    compiler.c2.cr8004867.TestIntUnsafeCAS
  */
 
-package compiler.c2.cr8004867;
 
-import jdk.internal.misc.Unsafe;
 
-import java.lang.reflect.Field;
 
 public class TestIntUnsafeCAS {
   private static final int ARRLEN = 97;

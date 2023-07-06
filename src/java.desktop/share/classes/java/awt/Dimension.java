@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.geom.Dimension2D;
-import java.beans.Transient;
-import java.io.Serial;
+
+import java.desktop.share.classes.java.awt.geom.Dimension2D;
+import java.desktop.share.classes.java.beans.Transient;
+import java.desktop.share.classes.java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code Dimension} class encapsulates the width and

@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.jndi.toolkit.dir;
+
+package java.naming.share.classes.com.sun.jndi.toolkit.dir;
+
 
 import javax.naming.*;
 import javax.naming.directory.*;
@@ -26,7 +28,21 @@ import java.util.Enumeration;
 import java.util.HexFormat;
 import java.util.StringTokenizer;
 import java.util.Vector;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * A class for parsing LDAP search filters (defined in RFC 1960, 2254)

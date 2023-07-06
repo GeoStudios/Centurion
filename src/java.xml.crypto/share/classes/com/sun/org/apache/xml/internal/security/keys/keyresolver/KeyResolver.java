@@ -19,37 +19,55 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.keyresolver;
+
+
+import java.lang.reflect.InvocationTargetException;
+import java.base.share.classes.java.security.PublicKey;
+import java.security.cert.X509Certificate;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Iterator;
+import java.util.java.util.java.util.java.util.List;
+import java.util.concurrent.CopyOnWriteArrayjava.util.java.util.java.util.List;
+import java.util.concurrent.atomic.AtomicBoolean;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations.DEREncodedKeyValueResolver;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations.DSAKeyValueResolver;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations.ECKeyValueResolver;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations.KeyInfoReferenceResolver;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations.RSAKeyValueResolver;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations.RetrievalMethodResolver;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations.X509CertificateResolver;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations.X509DigestResolver;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations.X509IssuerSerialResolver;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations.X509SKIResolver;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations.X509SubjectNameResolver;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.storage.StorageResolver;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.JavaUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.keys.keyresolver;
 
-import java.lang.reflect.InvocationTargetException;
-import java.security.PublicKey;
-import java.security.cert.X509Certificate;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
-import java.util.concurrent.atomic.AtomicBoolean;
 
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
 
-import com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations.DEREncodedKeyValueResolver;
-import com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations.DSAKeyValueResolver;
-import com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations.ECKeyValueResolver;
-import com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations.KeyInfoReferenceResolver;
-import com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations.RSAKeyValueResolver;
-import com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations.RetrievalMethodResolver;
-import com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations.X509CertificateResolver;
-import com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations.X509DigestResolver;
-import com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations.X509IssuerSerialResolver;
-import com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations.X509SKIResolver;
-import com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations.X509SubjectNameResolver;
-import com.sun.org.apache.xml.internal.security.keys.storage.StorageResolver;
-import com.sun.org.apache.xml.internal.security.utils.JavaUtils;
+
 
 /**
  * KeyResolver is factory class for subclass of KeyResolverSpi that
@@ -204,7 +222,7 @@ public class KeyResolver {
         }
 
         if (ex != null) {
-            throw (IllegalArgumentException) new
+            throw new
                     IllegalArgumentException("Invalid KeyResolver class name", ex);
         }
     }

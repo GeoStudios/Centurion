@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.filechooser;
+package java.desktop.share.classes.javax.swing.filechooser;
+
 
 import java.io.File;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of {@code FileFilter} that filters using a

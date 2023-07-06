@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.nio;
+package java.base.share.classes.java.nio;
+
 
 import jdk.internal.access.JavaNioAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.access.foreign.MemorySegmentProxy;
 import jdk.internal.access.foreign.UnmapperProxy;
 import jdk.internal.misc.ScopedMemoryAccess;
@@ -30,10 +31,23 @@ import jdk.internal.misc.ScopedMemoryAccess.Scope;
 import jdk.internal.misc.Unsafe;
 import jdk.internal.misc.VM.BufferPool;
 import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.java.io.FileDescriptor;
+import java.base.share.classes.java.util.Spliterator;
 
-import java.io.FileDescriptor;
-import java.util.Spliterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A container for data of a specific primitive type.

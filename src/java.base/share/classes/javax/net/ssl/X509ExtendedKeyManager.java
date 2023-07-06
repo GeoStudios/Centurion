@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.net.ssl;
+package java.base.share.classes.javax.net.ssl;
+
 
 import java.security.Principal;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract class that provides for extension of the X509KeyManager

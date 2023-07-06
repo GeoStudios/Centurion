@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import java.nio.LongBuffer;
+import java.util.Random;
+import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key randomness
@@ -29,11 +49,7 @@
  * @run main compiler.c2.Test6661247
  */
 
-package compiler.c2;
 
-import java.nio.LongBuffer;
-import java.util.Random;
-import jdk.test.lib.Utils;
 
 // This isn't a completely reliable test for 6661247 since the results
 // depend on what the local schedule looks like but it does reproduce

@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
-import static java.lang.invoke.MethodHandleStatics.*;
-import static java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
 
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;.extended
 import jdk.internal.vm.annotation.Stable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code CallSite} is a holder for a variable {@link MethodHandle},

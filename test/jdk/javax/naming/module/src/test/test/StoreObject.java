@@ -19,13 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/**
- * Demonstrate Java object storage and retrieval using an LDAP directory.
- * The ActionEvent object is serializable and is supplied by the java.desktop
- * module.
- */
-
 package test;
+
 
 import java.awt.event.ActionEvent;
 import java.io.PrintStream;
@@ -33,6 +28,27 @@ import java.net.*;
 import java.util.*;
 import javax.naming.*;
 import javax.naming.directory.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Demonstrate Java object storage and retrieval using an LDAP directory.
+ * The ActionEvent object is serializable and is supplied by the java.desktop
+ * module.
+ */
+
+
 
 public class StoreObject {
 

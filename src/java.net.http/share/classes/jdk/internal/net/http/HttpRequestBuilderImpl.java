@@ -19,22 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
+
 
 import java.net.URI;
 import java.time.Duration;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Optional;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpRequest.BodyPublisher;
+import java.net.http.share.classes.jdk.internal.net.http.common.HttpHeadersBuilder;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+import static java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.isValidName;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.isValidValue;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.newIAE;.extended
 
-import jdk.internal.net.http.common.HttpHeadersBuilder;
-import jdk.internal.net.http.common.Utils;
-import static java.util.Objects.requireNonNull;
-import static jdk.internal.net.http.common.Utils.isValidName;
-import static jdk.internal.net.http.common.Utils.isValidValue;
-import static jdk.internal.net.http.common.Utils.newIAE;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class HttpRequestBuilderImpl implements HttpRequest.Builder {
 

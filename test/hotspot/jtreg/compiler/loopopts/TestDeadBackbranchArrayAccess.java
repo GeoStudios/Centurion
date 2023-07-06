@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8054478
@@ -29,7 +46,6 @@
  *      compiler.loopopts.TestDeadBackbranchArrayAccess
  */
 
-package compiler.loopopts;
 
 public class TestDeadBackbranchArrayAccess {
     static char[] pattern0 = {0};

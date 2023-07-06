@@ -19,14 +19,15 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.nio.zipfs;
+package jdk.zipfs.share.classes.jdk.nio.zipfs;
+
 
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.EOFException;
 import java.io.FilterOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.lang.Runtime.Version;
@@ -58,18 +59,31 @@ import java.util.zip.DeflaterOutputStream;
 import java.util.zip.Inflater;
 import java.util.zip.InflaterInputStream;
 import java.util.zip.ZipException;
+import static java.lang.Boolean.TRUE;.extended
+import static java.nio.file.StandardCopyOption.COPY_ATTRIBUTES;.extended
+import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;.extended
+import static java.nio.file.StandardOpenOption.APPEND;.extended
+import static java.nio.file.StandardOpenOption.CREATE;.extended
+import static java.nio.file.StandardOpenOption.CREATE_NEW;.extended
+import static java.nio.file.StandardOpenOption.READ;.extended
+import static java.nio.file.StandardOpenOption.TRUNCATE_EXISTING;.extended
+import static java.nio.file.StandardOpenOption.WRITE;.extended
+import static jdk.zipfs.share.classes.jdk.nio.zipfs.ZipConstants.*;.extended
+import static jdk.zipfs.share.classes.jdk.nio.zipfs.ZipUtils.*;.extended
 
-import static java.lang.Boolean.TRUE;
-import static java.nio.file.StandardCopyOption.COPY_ATTRIBUTES;
-import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
-import static java.nio.file.StandardOpenOption.APPEND;
-import static java.nio.file.StandardOpenOption.CREATE;
-import static java.nio.file.StandardOpenOption.CREATE_NEW;
-import static java.nio.file.StandardOpenOption.READ;
-import static java.nio.file.StandardOpenOption.TRUNCATE_EXISTING;
-import static java.nio.file.StandardOpenOption.WRITE;
-import static jdk.nio.zipfs.ZipConstants.*;
-import static jdk.nio.zipfs.ZipUtils.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A FileSystem built on a zip file

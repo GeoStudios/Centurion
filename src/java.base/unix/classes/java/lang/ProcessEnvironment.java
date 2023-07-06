@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.unix.classes.java.lang;
+
+
+import java.base.unix.classes.java.io.*;
+import java.base.unix.classes.java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* We use APIs that access the standard Unix environ array, which
  * is defined by UNIX98 to look like:
  *
@@ -46,10 +66,8 @@
  *
  */
 
-package java.lang;
 
-import java.io.*;
-import java.util.*;
+
 
 
 final class ProcessEnvironment

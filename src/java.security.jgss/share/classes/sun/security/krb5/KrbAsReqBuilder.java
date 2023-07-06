@@ -19,19 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5;
+package java.security.jgss.share.classes.sun.security.krb5;
 
-import java.io.IOException;
-import java.util.Arrays;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.util.Arrays;
 import javax.security.auth.kerberos.KeyTab;
-import sun.security.jgss.krb5.Krb5Util;
-import sun.security.krb5.internal.HostAddresses;
-import sun.security.krb5.internal.KDCOptions;
-import sun.security.krb5.internal.KRBError;
-import sun.security.krb5.internal.KerberosTime;
-import sun.security.krb5.internal.Krb5;
-import sun.security.krb5.internal.PAData;
-import sun.security.krb5.internal.crypto.EType;
+import java.security.jgss.share.classes.sun.security.jgss.krb5.Krb5Util;
+import java.security.jgss.share.classes.sun.security.krb5.internal.HostAddresses;
+import java.security.jgss.share.classes.sun.security.krb5.internal.KDCOptions;
+import java.security.jgss.share.classes.sun.security.krb5.internal.KRBError;
+import java.security.jgss.share.classes.sun.security.krb5.internal.KerberosTime;
+import java.security.jgss.share.classes.sun.security.krb5.internal.Krb5;
+import java.security.jgss.share.classes.sun.security.krb5.internal.PAData;
+import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.EType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A manager class for AS-REQ communications.

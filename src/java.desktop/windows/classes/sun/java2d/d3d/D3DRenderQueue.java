@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.d3d;
+package java.desktop.windows.classes.sun.java2d.d3d;
 
-import sun.java2d.ScreenUpdateManager;
-import sun.java2d.pipe.RenderBuffer;
-import sun.java2d.pipe.RenderQueue;
-import static sun.java2d.pipe.BufferedOpCodes.*;
+
+import java.desktop.windows.classes.sun.java2d.ScreenUpdateManager;
+import java.desktop.windows.classes.sun.java2d.pipe.RenderBuffer;
+import java.desktop.windows.classes.sun.java2d.pipe.RenderQueue;
+import static java.desktop.windows.classes.sun.java2d.pipe.BufferedOpCodes.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * D3D-specific implementation of RenderQueue.

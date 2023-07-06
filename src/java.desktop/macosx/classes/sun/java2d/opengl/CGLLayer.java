@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.opengl;
+package java.desktop.macosx.classes.sun.java2d.opengl;
+
 
 import java.awt.GraphicsConfiguration;
-import sun.awt.CGraphicsConfig;
-import sun.java2d.NullSurfaceData;
-import sun.lwawt.LWWindowPeer;
-import sun.java2d.SurfaceData;
-import sun.lwawt.macosx.CFLayer;
+import java.desktop.macosx.classes.sun.awt.CGraphicsConfig;
+import java.desktop.macosx.classes.sun.java2d.NullSurfaceData;
+import java.desktop.macosx.classes.sun.lwawt.LWWindowPeer;
+import java.desktop.macosx.classes.sun.java2d.SurfaceData;
+import java.desktop.macosx.classes.sun.lwawt.macosx.CFLayer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CGLLayer extends CFLayer {
 

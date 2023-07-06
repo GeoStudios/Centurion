@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.security.validator;
+
+package java.base.share.classes.sun.security.validator;
+
 
 import java.security.cert.X509Certificate;
 import java.time.LocalDate;
@@ -27,8 +29,21 @@ import java.time.ZoneOffset;
 import java.util.Date;
 import java.util.Map;
 import java.util.Set;
+import java.base.share.classes.sun.security.x509.X509CertImpl;
 
-import sun.security.x509.X509CertImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class checks if Symantec issued TLS Server certificates should be

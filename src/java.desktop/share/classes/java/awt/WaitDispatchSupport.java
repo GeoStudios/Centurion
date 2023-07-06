@@ -19,18 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.util.Timer;
-import java.util.TimerTask;
-import java.util.concurrent.atomic.AtomicBoolean;
 
-import java.security.PrivilegedAction;
-import java.security.AccessController;
-
+import java.desktop.share.classes.java.util.Timer;
+import java.desktop.share.classes.java.util.TimerTask;
+import java.desktop.share.classes.java.util.concurrent.atomic.AtomicBoolean;
+import java.desktop.share.classes.java.security.PrivilegedAction;
+import java.desktop.share.classes.java.security.AccessController;
 import sun.awt.PeerEvent;
-
 import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This utility class is used to suspend execution on a thread

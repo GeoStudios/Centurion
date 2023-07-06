@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvmstat.monitor;
+package jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor;
 
-import java.util.List;
 
-import sun.jvmstat.monitor.event.VmListener;
+import java.util.java.util.java.util.java.util.List;
+import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.event.Vmjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface for interacting with a monitorable Java Virtual Machine.

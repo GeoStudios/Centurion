@@ -19,11 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.jaxp.validation;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.validation;
 
-import com.sun.org.apache.xerces.internal.impl.Constants;
-import com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
-import java.io.IOException;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
+import java.io.java.io.java.io.java.io.IOException;
 import javax.xml.transform.Result;
 import javax.xml.transform.Source;
 import javax.xml.transform.Transformer;
@@ -36,7 +37,21 @@ import javax.xml.transform.sax.TransformerHandler;
 import javax.xml.transform.stax.StAXResult;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkXmlUtils;
-import org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>A validator helper for <code>StAXSource</code>s.</p>

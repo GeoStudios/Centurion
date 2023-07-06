@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8257182
@@ -29,7 +46,6 @@
  *                   -XX:CompileCommand=inline,compiler.c2.TestRotateNegativeEvenValues::test
  *                   -Xcomp -XX:-TieredCompilation compiler.c2.TestRotateNegativeEvenValues
  */
-package compiler.c2;
 
 public class TestRotateNegativeEvenValues {
 

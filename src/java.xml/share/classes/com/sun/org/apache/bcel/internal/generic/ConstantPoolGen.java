@@ -19,27 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.bcel.internal.generic;
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
+
 
 import java.util.HashMap;
 import java.util.Map;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Constant;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantCP;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantClass;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantDouble;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantFieldref;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantFloat;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantInteger;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantInterfaceMethodref;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantInvokeDynamic;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantLong;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantMethodref;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantNameAndType;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantPool;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantString;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantUtf8;
 
-import com.sun.org.apache.bcel.internal.Const;
-import com.sun.org.apache.bcel.internal.classfile.Constant;
-import com.sun.org.apache.bcel.internal.classfile.ConstantCP;
-import com.sun.org.apache.bcel.internal.classfile.ConstantClass;
-import com.sun.org.apache.bcel.internal.classfile.ConstantDouble;
-import com.sun.org.apache.bcel.internal.classfile.ConstantFieldref;
-import com.sun.org.apache.bcel.internal.classfile.ConstantFloat;
-import com.sun.org.apache.bcel.internal.classfile.ConstantInteger;
-import com.sun.org.apache.bcel.internal.classfile.ConstantInterfaceMethodref;
-import com.sun.org.apache.bcel.internal.classfile.ConstantInvokeDynamic;
-import com.sun.org.apache.bcel.internal.classfile.ConstantLong;
-import com.sun.org.apache.bcel.internal.classfile.ConstantMethodref;
-import com.sun.org.apache.bcel.internal.classfile.ConstantNameAndType;
-import com.sun.org.apache.bcel.internal.classfile.ConstantPool;
-import com.sun.org.apache.bcel.internal.classfile.ConstantString;
-import com.sun.org.apache.bcel.internal.classfile.ConstantUtf8;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to build up a constant pool. The user adds

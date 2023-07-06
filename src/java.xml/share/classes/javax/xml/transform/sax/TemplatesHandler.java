@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.transform.sax;
+package java.xml.share.classes.javax.xml.transform.sax;
 
-import javax.xml.transform.*;
 
+import java.xml.share.classes.javax.xml.transform.*;
 import org.xml.sax.ContentHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A SAX ContentHandler that may be used to process SAX

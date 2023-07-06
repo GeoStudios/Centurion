@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package pkg;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @bug 4348213
  * @summary Verify that deserialization allows an incoming class descriptor
@@ -27,7 +44,6 @@
  *          vice-versa.
  */
 
-package pkg;
 
 public class A implements java.io.Serializable {
     private static final long serialVersionUID = 0L;

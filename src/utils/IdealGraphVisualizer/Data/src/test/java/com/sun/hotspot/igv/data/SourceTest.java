@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.hotspot.igv.data;
+package utils.IdealGraphVisualizer.Data.src.test.java.com.sun.hotspot.igv.data;
 
-import java.util.Arrays;
-import java.util.LinkedHashSet;
-import java.util.List;
 
-import static org.junit.Assert.assertEquals;
+import utils.IdealGraphVisualizer.Data.src.test.java.util.java.util.java.util.java.util.Arrays;
+import utils.IdealGraphVisualizer.Data.src.test.java.util.LinkedHashSet;
+import utils.IdealGraphVisualizer.Data.src.test.java.util.java.util.java.util.java.util.List;
+import static org.junit.Assert.assertEquals;.extended
 import org.junit.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

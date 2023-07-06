@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.print.attribute.standard;
+package java.desktop.share.classes.javax.print.attribute.standard;
+
 
 import java.io.Serial;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
+import java.desktop.share.classes.javax.print.attribute.Attribute;
+import java.desktop.share.classes.javax.print.attribute.PrintServiceAttribute;
+import java.desktop.share.classes.javax.print.attribute.TextSyntax;
 
-import javax.print.attribute.Attribute;
-import javax.print.attribute.PrintServiceAttribute;
-import javax.print.attribute.TextSyntax;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class {@code PrinterLocation} is a printing attribute class, a text

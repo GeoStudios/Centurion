@@ -21,20 +21,31 @@
 
 package javax.xml.transform.ptests;
 
-import static javax.xml.transform.ptests.TransformerTestConst.XML_DIR;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.fail;
 
+import static javax.xml.transform.ptests.TransformerTestConst.XML_DIR;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.fail;.extended
 import java.io.File;
-
-import javax.xml.transform.ErrorListener;
+import javax.xml.transform.Errorjava.util.Listener;
 import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamSource;
-
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class containing the test cases for ErrorListener interface

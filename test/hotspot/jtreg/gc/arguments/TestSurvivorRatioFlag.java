@@ -21,6 +21,29 @@
 
 package gc.arguments;
 
+
+import java.lang.management.MemoryUsage;
+import java.base.share.classes.java.util.Arrays;
+import java.util.Collections;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.Utils;
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestSurvivorRatioFlag
  * @summary Verify that actual survivor ratio is equal to specified SurvivorRatio value
@@ -34,14 +57,6 @@ package gc.arguments;
  * @run driver gc.arguments.TestSurvivorRatioFlag
  */
 
-import java.lang.management.MemoryUsage;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.LinkedList;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.Utils;
-import sun.hotspot.WhiteBox;
 
 public class TestSurvivorRatioFlag {
 

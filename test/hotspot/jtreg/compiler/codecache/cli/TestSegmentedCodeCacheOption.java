@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codecache.cli;
+
+
+import compiler.codecache.cli.common.CodeCacheOptions;
+import jdk.test.lib.process.ExitCode;
+import jdk.test.lib.Platform;
+import jdk.test.lib.cli.CommandLineOptionTest;
+import sun.hotspot.code.BlobType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8015774
@@ -32,13 +54,7 @@
  * @run driver compiler.codecache.cli.TestSegmentedCodeCacheOption
  */
 
-package compiler.codecache.cli;
 
-import compiler.codecache.cli.common.CodeCacheOptions;
-import jdk.test.lib.process.ExitCode;
-import jdk.test.lib.Platform;
-import jdk.test.lib.cli.CommandLineOptionTest;
-import sun.hotspot.code.BlobType;
 
 public class TestSegmentedCodeCacheOption {
     private static final String INT_MODE = "-Xint";

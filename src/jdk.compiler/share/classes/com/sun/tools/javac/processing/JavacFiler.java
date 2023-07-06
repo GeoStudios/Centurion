@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.processing;
+package jdk.compiler.share.classes.com.sun.tools.javac.processing;
+
 
 import java.io.Closeable;
 import java.io.FileNotFoundException;
@@ -30,11 +31,9 @@ import java.io.Reader;
 import java.io.Writer;
 import java.io.FilterWriter;
 import java.io.PrintWriter;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.*;
-
-import static java.util.Collections.*;
-
+import static java.util.Collections.*;.extended
 import javax.annotation.processing.*;
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.NestingKind;
@@ -42,24 +41,35 @@ import javax.lang.model.element.Modifier;
 import javax.lang.model.element.Element;
 import javax.tools.*;
 import javax.tools.JavaFileManager.Location;
+import static javax.tools.StandardLocation.SOURCE_OUTPUT;.extended
+import static javax.tools.StandardLocation.CLASS_OUTPUT;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Lint;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ClassSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ModuleSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.TypeSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symtab;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Modules;
+import jdk.compiler.share.classes.com.sun.tools.javac.model.JavacElements;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Warnings;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Lint.LintCategory.PROCESSING;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.PackageSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Option;
 
-import static javax.tools.StandardLocation.SOURCE_OUTPUT;
-import static javax.tools.StandardLocation.CLASS_OUTPUT;
 
-import com.sun.tools.javac.code.Lint;
-import com.sun.tools.javac.code.Symbol.ClassSymbol;
-import com.sun.tools.javac.code.Symbol.ModuleSymbol;
-import com.sun.tools.javac.code.Symbol.TypeSymbol;
-import com.sun.tools.javac.code.Symtab;
-import com.sun.tools.javac.comp.Modules;
-import com.sun.tools.javac.model.JavacElements;
-import com.sun.tools.javac.resources.CompilerProperties.Warnings;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.DefinedBy.Api;
 
-import static com.sun.tools.javac.code.Lint.LintCategory.PROCESSING;
-import com.sun.tools.javac.code.Symbol.PackageSymbol;
-import com.sun.tools.javac.main.Option;
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The FilerImplementation class must maintain a number of
@@ -731,7 +741,7 @@ public class JavacFiler implements Filer, Closeable {
             log.warning(Warnings.ProcTypeAlreadyExists(typename));
         }
         if (!mod.isUnnamed() && !typename.contains(".")) {
-            throw new FilerException("Attempt to create a type in unnamed package of a named module: " + typename);
+            throw new FilerException("Attempt to create a type in unnamed 
         }
     }
 

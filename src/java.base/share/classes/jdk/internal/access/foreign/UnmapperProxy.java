@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.access.foreign;
+package java.base.share.classes.jdk.internal.access.foreign;
+
 
 import java.io.FileDescriptor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This proxy interface is required to allow instances of the {@code FileChannelImpl.Unmapper} interface (which is a non-public class

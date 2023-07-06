@@ -19,18 +19,18 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.windows;
+package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-import java.awt.BasicStroke;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.RenderingHints;
-import java.awt.Stroke;
-import java.io.Serializable;
 
+import java.desktop.windows.classes.com.sun.java.awt.BasicStroke;
+import java.desktop.windows.classes.com.sun.java.awt.Color;
+import java.desktop.windows.classes.com.sun.java.awt.Component;
+import java.desktop.windows.classes.com.sun.java.awt.Dimension;
+import java.desktop.windows.classes.com.sun.java.awt.Graphics;
+import java.desktop.windows.classes.com.sun.java.awt.Graphics2D;
+import java.desktop.windows.classes.com.sun.java.awt.RenderingHints;
+import java.desktop.windows.classes.com.sun.java.awt.Stroke;
+import java.desktop.windows.classes.com.sun.java.io.Serializable;
 import javax.swing.AbstractButton;
 import javax.swing.ButtonModel;
 import javax.swing.Icon;
@@ -44,13 +44,25 @@ import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.plaf.ButtonUI;
 import javax.swing.plaf.UIResource;
+import java.desktop.windows.classes.com.sun.swing.MenuItemCheckIconFactory;
+import java.desktop.windows.classes.com.sun.swing.SwingUtilities2;
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Part;.extended
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.State;.extended
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.Skin;.extended
 
-import sun.swing.MenuItemCheckIconFactory;
-import sun.swing.SwingUtilities2;
 
-import static com.sun.java.swing.plaf.windows.TMSchema.Part;
-import static com.sun.java.swing.plaf.windows.TMSchema.State;
-import static com.sun.java.swing.plaf.windows.XPStyle.Skin;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Factory object that can vend Icons appropriate for the Windows {@literal L & F}.

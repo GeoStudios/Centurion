@@ -21,129 +21,63 @@
 
 package build.tools.symbolgenerator;
 
-import build.tools.symbolgenerator.CreateSymbols
-                                  .ModuleHeaderDescription
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ModuleHeaderDescription
                                   .ProvidesDescription;
-import build.tools.symbolgenerator.CreateSymbols
                                   .ModuleHeaderDescription
                                   .RequiresDescription;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedReader;
-import java.io.BufferedOutputStream;
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.StringWriter;
-import java.io.Writer;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.FileVisitResult;
-import java.nio.file.FileVisitor;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.nio.file.attribute.BasicFileAttributes;
-import java.util.stream.Stream;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Calendar;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.EnumSet;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Locale;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Objects;
-import java.util.Set;
-import java.util.TimeZone;
-import java.util.TreeMap;
-import java.util.TreeSet;
-import java.util.function.Function;
-import java.util.function.Predicate;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-import java.util.stream.Collectors;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipOutputStream;
 
-import javax.tools.JavaFileManager;
-import javax.tools.JavaFileManager.Location;
-import javax.tools.JavaFileObject;
-import javax.tools.JavaFileObject.Kind;
-import javax.tools.StandardLocation;
 
-import com.sun.source.util.JavacTask;
-import com.sun.tools.classfile.AccessFlags;
-import com.sun.tools.classfile.Annotation;
-import com.sun.tools.classfile.Annotation.Annotation_element_value;
-import com.sun.tools.classfile.Annotation.Array_element_value;
-import com.sun.tools.classfile.Annotation.Class_element_value;
-import com.sun.tools.classfile.Annotation.Enum_element_value;
-import com.sun.tools.classfile.Annotation.Primitive_element_value;
-import com.sun.tools.classfile.Annotation.element_value;
-import com.sun.tools.classfile.Annotation.element_value_pair;
-import com.sun.tools.classfile.AnnotationDefault_attribute;
-import com.sun.tools.classfile.Attribute;
-import com.sun.tools.classfile.Attributes;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.ClassWriter;
-import com.sun.tools.classfile.ConstantPool;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_Class_info;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_Double_info;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_Float_info;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_Integer_info;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_Long_info;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_Module_info;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_Package_info;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_String_info;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_Utf8_info;
-import com.sun.tools.classfile.ConstantPool.CPInfo;
-import com.sun.tools.classfile.ConstantPool.InvalidIndex;
-import com.sun.tools.classfile.ConstantPoolException;
-import com.sun.tools.classfile.ConstantValue_attribute;
-import com.sun.tools.classfile.Deprecated_attribute;
-import com.sun.tools.classfile.Descriptor;
-import com.sun.tools.classfile.Exceptions_attribute;
-import com.sun.tools.classfile.Field;
-import com.sun.tools.classfile.InnerClasses_attribute;
-import com.sun.tools.classfile.InnerClasses_attribute.Info;
-import com.sun.tools.classfile.Method;
-import com.sun.tools.classfile.MethodParameters_attribute;
-import com.sun.tools.classfile.ModuleResolution_attribute;
-import com.sun.tools.classfile.ModuleTarget_attribute;
-import com.sun.tools.classfile.Module_attribute;
-import com.sun.tools.classfile.Module_attribute.ExportsEntry;
-import com.sun.tools.classfile.Module_attribute.OpensEntry;
-import com.sun.tools.classfile.Module_attribute.ProvidesEntry;
-import com.sun.tools.classfile.Module_attribute.RequiresEntry;
-import com.sun.tools.classfile.NestHost_attribute;
-import com.sun.tools.classfile.NestMembers_attribute;
-import com.sun.tools.classfile.PermittedSubclasses_attribute;
-import com.sun.tools.classfile.Record_attribute;
-import com.sun.tools.classfile.Record_attribute.ComponentInfo;
-import com.sun.tools.classfile.RuntimeAnnotations_attribute;
-import com.sun.tools.classfile.RuntimeInvisibleAnnotations_attribute;
-import com.sun.tools.classfile.RuntimeInvisibleParameterAnnotations_attribute;
-import com.sun.tools.classfile.RuntimeParameterAnnotations_attribute;
-import com.sun.tools.classfile.RuntimeVisibleAnnotations_attribute;
-import com.sun.tools.classfile.RuntimeVisibleParameterAnnotations_attribute;
-import com.sun.tools.classfile.Signature_attribute;
-import com.sun.tools.javac.api.JavacTool;
-import com.sun.tools.javac.jvm.Target;
-import com.sun.tools.javac.util.Assert;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.Pair;
-import java.util.Optional;
 
 /**
  * A tool for processing the .sym.txt files.

@@ -21,6 +21,22 @@
 
 package gc.g1;
 
+
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestEdenSurvivorLessThanMax
  * @bug 8152724
@@ -32,7 +48,6 @@ package gc.g1;
  * @run main/othervm -Xbootclasspath/a:. -Xlog:gc+heap=debug -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI -XX:+UseG1GC -Xmx64M -Xms64M -Xmn50M -XX:SurvivorRatio=1 gc.g1.TestEdenSurvivorLessThanMax
  */
 
-import sun.hotspot.WhiteBox;
 
 // The test fills the heap in a way that previous to 8152724 the maximum number of survivor regions
 // for that young gc was higher than there was free space left which is impossible.

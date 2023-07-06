@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts;
+
+
+import jdk.test.lib.Platform;
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.process.OutputAnalyzer;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.Collections;
+import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6869327
@@ -32,16 +57,7 @@
  * @run driver compiler.loopopts.UseCountedLoopSafepointsTest
  */
 
-package compiler.loopopts;
 
-import jdk.test.lib.Platform;
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.process.OutputAnalyzer;
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import jdk.test.lib.Asserts;
 
 /* Idea of this test is to check if ideal graph has CountedLoopEnd->SafePoint edge in case
    of UseCountedLoopSafepoint enabled and has no such edge in case it's disabled. Restricting

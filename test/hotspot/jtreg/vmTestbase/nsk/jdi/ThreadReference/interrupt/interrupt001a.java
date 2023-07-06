@@ -21,8 +21,22 @@
 
 package nsk.jdi.ThreadReference.interrupt;
 
+
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the interrupt001 JDI test.

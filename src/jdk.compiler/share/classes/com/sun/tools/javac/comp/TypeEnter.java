@@ -19,48 +19,57 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.comp;
+package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashSet;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
 import java.util.function.BiConsumer;
 import java.util.stream.Collectors;
-
 import javax.tools.JavaFileObject;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Lint.LintCategory;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.ImportFilter;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.NamedImportScope;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.StarImportScope;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.WriteableScope;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Source.Feature;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Annotate.AnnotationTypeMetadata;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.ANNOTATION;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.CLASS;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.ERROR;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.*;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Dependencies.CompletionCause;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
 
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.Lint.LintCategory;
-import com.sun.tools.javac.code.Scope.ImportFilter;
-import com.sun.tools.javac.code.Scope.NamedImportScope;
-import com.sun.tools.javac.code.Scope.StarImportScope;
-import com.sun.tools.javac.code.Scope.WriteableScope;
-import com.sun.tools.javac.code.Source.Feature;
-import com.sun.tools.javac.comp.Annotate.AnnotationTypeMetadata;
-import com.sun.tools.javac.tree.*;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.DefinedBy.Api;
 
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.code.Type.*;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.tree.JCTree.*;
 
-import static com.sun.tools.javac.code.Flags.*;
-import static com.sun.tools.javac.code.Flags.ANNOTATION;
-import static com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;
-import static com.sun.tools.javac.code.Kinds.Kind.*;
-import static com.sun.tools.javac.code.TypeTag.CLASS;
-import static com.sun.tools.javac.code.TypeTag.ERROR;
-import com.sun.tools.javac.resources.CompilerProperties.Fragments;
 
-import static com.sun.tools.javac.code.TypeTag.*;
-import static com.sun.tools.javac.tree.JCTree.Tag.*;
 
-import com.sun.tools.javac.util.Dependencies.CompletionCause;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
+
+
+
+
+
+
+
+
+
 
 /** This is the second phase of Enter, in which classes are completed
  *  by resolving their headers and entering their members in the into

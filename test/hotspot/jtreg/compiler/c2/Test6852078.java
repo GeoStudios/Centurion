@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import com.sun.corba.se.impl.encoding.ByteBufferWithInfo;
+import com.sun.jndi.toolkit.corba.CorbaUtils;
+import java.nio.ByteBuffer;
+import java.util.Hashtable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6852078
@@ -30,13 +51,8 @@
  * @run main compiler.c2.Test6852078
  */
 
-package compiler.c2;
 
-import com.sun.corba.se.impl.encoding.ByteBufferWithInfo;
-import com.sun.jndi.toolkit.corba.CorbaUtils;
 
-import java.nio.ByteBuffer;
-import java.util.Hashtable;
 
 public class Test6852078 {
 

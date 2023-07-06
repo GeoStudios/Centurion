@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.access;
+package java.base.share.classes.jdk.internal.access;
 
-import jdk.internal.access.foreign.MemorySegmentProxy;
-import jdk.internal.access.foreign.UnmapperProxy;
-import jdk.internal.misc.ScopedMemoryAccess.Scope;
-import jdk.internal.misc.VM.BufferPool;
 
+import java.base.share.classes.jdk.internal.access.foreign.MemorySegmentProxy;
+import java.base.share.classes.jdk.internal.access.foreign.UnmapperProxy;
+import java.base.share.classes.jdk.internal.misc.ScopedMemoryAccess.Scope;
+import java.base.share.classes.jdk.internal.misc.VM.BufferPool;
 import java.io.FileDescriptor;
 import java.nio.Buffer;
 import java.nio.ByteBuffer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface JavaNioAccess {
 

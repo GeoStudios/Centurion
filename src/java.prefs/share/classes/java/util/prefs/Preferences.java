@@ -19,24 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.prefs;
+package java.prefs.share.classes.java.util.prefs;
 
-import java.io.InputStream;
-import java.io.IOException;
-import java.io.OutputStream;
-import java.security.AccessController;
-import java.security.Permission;
-import java.security.PrivilegedAction;
-import java.util.Iterator;
-import java.util.ServiceLoader;
-import java.util.ServiceConfigurationError;
+
+import java.prefs.share.classes.java.io.InputStream;
+import java.prefs.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.prefs.share.classes.java.io.OutputStream;
+import java.prefs.share.classes.java.security.AccessController;
+import java.prefs.share.classes.java.security.Permission;
+import java.prefs.share.classes.java.security.PrivilegedAction;
+import java.prefs.share.classes.java.util.Iterator;
+import java.prefs.share.classes.java.util.ServiceLoader;
+import java.prefs.share.classes.java.util.ServiceConfigurationError;
+import java.prefs.share.classes.java.lang.RuntimePermission;
+import java.prefs.share.classes.java.lang.Integer;
+import java.prefs.share.classes.java.lang.Long;
+import java.prefs.share.classes.java.lang.Float;
+import java.prefs.share.classes.java.lang.Double;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // These imports needed only as a workaround for a JavaDoc bug
-import java.lang.RuntimePermission;
-import java.lang.Integer;
-import java.lang.Long;
-import java.lang.Float;
-import java.lang.Double;
 
 /**
  * A node in a hierarchical collection of preference data.  This class

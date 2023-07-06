@@ -18,60 +18,74 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.hotspot.aarch64;
 
-import static jdk.vm.ci.aarch64.AArch64.lr;
-import static jdk.vm.ci.aarch64.AArch64.r0;
-import static jdk.vm.ci.aarch64.AArch64.r1;
-import static jdk.vm.ci.aarch64.AArch64.r2;
-import static jdk.vm.ci.aarch64.AArch64.r3;
-import static jdk.vm.ci.aarch64.AArch64.r4;
-import static jdk.vm.ci.aarch64.AArch64.r5;
-import static jdk.vm.ci.aarch64.AArch64.r6;
-import static jdk.vm.ci.aarch64.AArch64.r7;
-import static jdk.vm.ci.aarch64.AArch64.rscratch1;
-import static jdk.vm.ci.aarch64.AArch64.rscratch2;
-import static jdk.vm.ci.aarch64.AArch64.r12;
-import static jdk.vm.ci.aarch64.AArch64.r18;
-import static jdk.vm.ci.aarch64.AArch64.r27;
-import static jdk.vm.ci.aarch64.AArch64.r28;
-import static jdk.vm.ci.aarch64.AArch64.r29;
-import static jdk.vm.ci.aarch64.AArch64.r31;
-import static jdk.vm.ci.aarch64.AArch64.sp;
-import static jdk.vm.ci.aarch64.AArch64.v0;
-import static jdk.vm.ci.aarch64.AArch64.v1;
-import static jdk.vm.ci.aarch64.AArch64.v2;
-import static jdk.vm.ci.aarch64.AArch64.v3;
-import static jdk.vm.ci.aarch64.AArch64.v4;
-import static jdk.vm.ci.aarch64.AArch64.v5;
-import static jdk.vm.ci.aarch64.AArch64.v6;
-import static jdk.vm.ci.aarch64.AArch64.v7;
-import static jdk.vm.ci.aarch64.AArch64.zr;
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.hotspot.aarch64;
 
-import java.util.ArrayList;
+
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.lr;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.r0;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.r1;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.r2;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.r3;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.r4;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.r5;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.r6;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.r7;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.rscratch1;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.rscratch2;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.r12;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.r18;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.r27;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.r28;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.r29;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.r31;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.sp;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.v0;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.v1;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.v2;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.v3;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.v4;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.v5;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.v6;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.v7;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64.zr;.extended
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.aarch64.AArch64;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.code.Architecture;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.code.CallingConvention;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.code.CallingConvention.Type;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.code.Register;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.code.RegisterArray;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.code.RegisterAttributes;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.code.RegisterConfig;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.code.StackSlot;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.code.TargetDescription;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.code.ValueKindFactory;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.common.JVMCIError;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.hotspot.HotSpotCallingConventionType;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.meta.AllocatableValue;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.meta.JavaKind;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.meta.JavaType;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.meta.PlatformKind;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.meta.Value;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.aarch64.src.jdk.vm.ci.meta.ValueKind;
 
-import jdk.vm.ci.aarch64.AArch64;
-import jdk.vm.ci.code.Architecture;
-import jdk.vm.ci.code.CallingConvention;
-import jdk.vm.ci.code.CallingConvention.Type;
-import jdk.vm.ci.code.Register;
-import jdk.vm.ci.code.RegisterArray;
-import jdk.vm.ci.code.RegisterAttributes;
-import jdk.vm.ci.code.RegisterConfig;
-import jdk.vm.ci.code.StackSlot;
-import jdk.vm.ci.code.TargetDescription;
-import jdk.vm.ci.code.ValueKindFactory;
-import jdk.vm.ci.common.JVMCIError;
-import jdk.vm.ci.hotspot.HotSpotCallingConventionType;
-import jdk.vm.ci.meta.AllocatableValue;
-import jdk.vm.ci.meta.JavaKind;
-import jdk.vm.ci.meta.JavaType;
-import jdk.vm.ci.meta.PlatformKind;
-import jdk.vm.ci.meta.Value;
-import jdk.vm.ci.meta.ValueKind;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AArch64HotSpotRegisterConfig implements RegisterConfig {
 

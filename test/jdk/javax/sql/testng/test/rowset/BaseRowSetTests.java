@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.rowset;
+
 
 import java.io.InputStream;
 import java.io.Reader;
@@ -43,7 +45,7 @@ import javax.sql.rowset.serial.SerialArray;
 import javax.sql.rowset.serial.SerialBlob;
 import javax.sql.rowset.serial.SerialClob;
 import javax.sql.rowset.serial.SerialRef;
-import static org.testng.Assert.*;
+import static org.testng.Assert.*;.extended
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import util.StubArray;
@@ -51,7 +53,20 @@ import util.StubBaseRowSet;
 import util.StubBlob;
 import util.StubClob;
 import util.StubRef;
-import util.TestRowSetListener;
+import util.TestRowSetjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class BaseRowSetTests extends CommonRowSetTests {
 

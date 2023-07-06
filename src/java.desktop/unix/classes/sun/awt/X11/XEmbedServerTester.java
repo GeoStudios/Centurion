@@ -19,14 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
 
-//import static sun.awt.X11.XEmbed.*;
+
 import java.awt.*;
 import java.awt.event.*;
-import sun.util.logging.PlatformLogger;
-import static sun.awt.X11.XConstants.*;
-import java.util.LinkedList;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+import static java.desktop.unix.classes.sun.awt.X11.XConstants.*;.extended
+import java.util.Linkedjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//import static java.desktop.unix.classes.sun.awt.X11.XEmbed.*;
 
 /**
  * Test XEmbed server implementation. See file:///home/dom/bugs/4931668/test_plan.html for

@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.event;
+package java.desktop.share.classes.javax.swing.event;
 
-import java.awt.event.MouseListener;
-import java.awt.event.MouseMotionListener;
+
+import java.awt.event.Mousejava.util.Listener;
+import java.awt.event.MouseMotionjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A listener implementing all the methods in both the {@code MouseListener} and

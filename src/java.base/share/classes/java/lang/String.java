@@ -19,43 +19,56 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.io.ObjectStreamField;
-import java.io.UnsupportedEncodingException;
-import java.lang.annotation.Native;
-import java.lang.invoke.MethodHandles;
-import java.lang.constant.Constable;
-import java.lang.constant.ConstantDesc;
-import java.nio.ByteBuffer;
-import java.nio.CharBuffer;
-import java.nio.charset.*;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.Formatter;
-import java.util.List;
-import java.util.Locale;
-import java.util.Objects;
-import java.util.Optional;
-import java.util.Spliterator;
-import java.util.function.Function;
-import java.util.regex.Pattern;
-import java.util.regex.PatternSyntaxException;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
-import java.util.stream.StreamSupport;
 
+import java.base.share.classes.java.io.ObjectStreamField;
+import java.base.share.classes.java.io.UnsupportedEncodingException;
+import java.base.share.classes.java.lang.annotation.Native;
+import java.base.share.classes.java.lang.invoke.MethodHandles;
+import java.base.share.classes.java.lang.constant.Constable;
+import java.base.share.classes.java.lang.constant.ConstantDesc;
+import java.base.share.classes.java.nio.ByteBuffer;
+import java.base.share.classes.java.nio.CharBuffer;
+import java.base.share.classes.java.nio.charset.*;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.Comparator;
+import java.base.share.classes.java.util.Formatter;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Optional;
+import java.base.share.classes.java.util.Spliterator;
+import java.base.share.classes.java.util.function.Function;
+import java.base.share.classes.java.util.regex.Pattern;
+import java.base.share.classes.java.util.regex.PatternSyntaxException;
+import java.base.share.classes.java.util.stream.Collectors;
+import java.base.share.classes.java.util.stream.IntStream;
+import java.base.share.classes.java.util.stream.Stream;
+import java.base.share.classes.java.util.stream.StreamSupport;
 import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 import jdk.internal.vm.annotation.Stable;
 import sun.nio.cs.ArrayDecoder;
 import sun.nio.cs.ArrayEncoder;
-
 import sun.nio.cs.ISO_8859_1;
 import sun.nio.cs.US_ASCII;
 import sun.nio.cs.UTF_8;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code String} class represents character strings. All

@@ -21,18 +21,19 @@
 
 package jdk.jpackage.test;
 
+
 import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.security.SecureRandom;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.HashMap;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.java.util.java.util.java.util.List;
+import java.util.java.util.ListIterator;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
 import java.util.function.Consumer;
@@ -48,6 +49,19 @@ import jdk.jpackage.internal.ApplicationLayout;
 import jdk.jpackage.test.Functional.ThrowingConsumer;
 import jdk.jpackage.test.Functional.ThrowingFunction;
 import jdk.jpackage.test.Functional.ThrowingSupplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * jpackage command line with prerequisite actions. Prerequisite actions can be

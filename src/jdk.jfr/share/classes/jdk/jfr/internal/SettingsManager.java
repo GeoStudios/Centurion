@@ -19,21 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal;
+package jdk.jfr.share.classes.jdk.jfr.internal;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.StringJoiner;
+import jdk.jfr.share.classes.jdk.jfr.internal.EventControl.NamedControl;
+import jdk.jfr.share.classes.jdk.jfr.internal.handlers.EventHandler;
 
-import jdk.jfr.internal.EventControl.NamedControl;
-import jdk.jfr.internal.handlers.EventHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class SettingsManager {
 

@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.imageio;
+package java.desktop.share.classes.javax.imageio;
+
 
 import java.awt.Dimension;
 import java.awt.image.BufferedImage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class describing how a stream is to be decoded.  Instances of

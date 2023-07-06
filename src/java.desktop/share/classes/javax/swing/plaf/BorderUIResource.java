@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf;
+package java.desktop.share.classes.javax.swing.plaf;
+
 
 import java.awt.Component;
 import java.awt.Insets;
@@ -27,11 +28,23 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;
 import java.io.Serializable;
-
 import java.beans.ConstructorProperties;
-import javax.swing.border.*;
-import javax.swing.Icon;
-import javax.swing.plaf.UIResource;
+import java.desktop.share.classes.javax.swing.border.*;
+import java.desktop.share.classes.javax.swing.Icon;
+import java.desktop.share.classes.javax.swing.plaf.UIResource;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

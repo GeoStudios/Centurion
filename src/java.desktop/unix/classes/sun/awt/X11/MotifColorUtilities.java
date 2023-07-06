@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.*;
 import java.io.*;
-import sun.security.action.GetPropertyAction;
+import java.desktop.unix.classes.sun.security.action.GetPropertyAction;
 import java.security.AccessController;
-import sun.awt.OSInfo;
+import java.desktop.unix.classes.sun.awt.OSInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   *
@@ -357,8 +372,7 @@ class MotifColorUtilities {
         }
         else {
             // medium
-            f = XmCOLOR_LO_SEL_FACTOR + (0
-                    / XmMAX_SHORT);
+            f = XmCOLOR_LO_SEL_FACTOR;
 
             color_value = br;
             color_value -= (color_value * f) / 100;

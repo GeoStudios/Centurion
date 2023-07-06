@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang;
 
-import java.lang.module.Configuration;
-import java.lang.module.ModuleReference;
-import java.net.URI;
+package java.base.share.classes.java.lang;
+
+
+import java.base.share.classes.java.lang.module.Configuration;
+import java.base.share.classes.java.lang.module.ModuleReference;
+import java.base.share.classes.java.net.URI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A NamedPackage represents a package by name in a specific module.
@@ -42,7 +58,7 @@ class NamedPackage {
 
     NamedPackage(String pn, Module module) {
         if (pn.isEmpty() && module.isNamed()) {
-            throw new InternalError("unnamed package in  " + module);
+            throw new InternalError("unnamed 
         }
         this.name = pn.intern();
         this.module = module;

@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.table;
+package java.desktop.share.classes.javax.swing.table;
+
 
 import java.io.Serializable;
 import java.util.Vector;
 import java.util.Enumeration;
-import javax.swing.event.TableModelEvent;
+import java.desktop.share.classes.javax.swing.event.TableModelEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

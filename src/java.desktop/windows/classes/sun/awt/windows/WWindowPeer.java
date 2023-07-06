@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.windows;
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.awt.AWTEvent;
 import java.awt.AWTEventMulticaster;
@@ -42,27 +43,39 @@ import java.awt.SystemColor;
 import java.awt.Window;
 import java.awt.event.FocusEvent;
 import java.awt.event.WindowEvent;
-import java.awt.event.WindowListener;
+import java.awt.event.Windowjava.util.Listener;
 import java.awt.geom.AffineTransform;
 import java.awt.image.DataBufferInt;
 import java.awt.peer.WindowPeer;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import java.util.LinkedList;
-import java.util.List;
+import java.beans.PropertyChangejava.util.Listener;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.desktop.windows.classes.sun.awt.AWTAccessor;
+import java.desktop.windows.classes.sun.awt.AppContext;
+import java.desktop.windows.classes.sun.awt.DisplayChangedjava.util.Listener;
+import java.desktop.windows.classes.sun.awt.SunToolkit;
+import java.desktop.windows.classes.sun.awt.TimedWindowEvent;
+import java.desktop.windows.classes.sun.awt.Win32GraphicsConfig;
+import java.desktop.windows.classes.sun.awt.Win32GraphicsDevice;
+import java.desktop.windows.classes.sun.awt.Win32GraphicsEnvironment;
+import java.desktop.windows.classes.sun.java2d.pipe.Region;
+import java.desktop.windows.classes.sun.util.logging.PlatformLogger;
+import static java.desktop.windows.classes.sun.java2d.SunGraphicsEnvironment.toUserSpace;.extended
 
-import sun.awt.AWTAccessor;
-import sun.awt.AppContext;
-import sun.awt.DisplayChangedListener;
-import sun.awt.SunToolkit;
-import sun.awt.TimedWindowEvent;
-import sun.awt.Win32GraphicsConfig;
-import sun.awt.Win32GraphicsDevice;
-import sun.awt.Win32GraphicsEnvironment;
-import sun.java2d.pipe.Region;
-import sun.util.logging.PlatformLogger;
 
-import static sun.java2d.SunGraphicsEnvironment.toUserSpace;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class WWindowPeer extends WPanelPeer implements WindowPeer,
        DisplayChangedListener

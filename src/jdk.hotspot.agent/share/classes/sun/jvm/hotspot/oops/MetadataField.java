@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.oops;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
-import sun.jvm.hotspot.runtime.VMObject;
-import sun.jvm.hotspot.debugger.*;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VMObject;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MetadataField extends Field {
 

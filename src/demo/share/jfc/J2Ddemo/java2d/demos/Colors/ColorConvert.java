@@ -18,19 +18,20 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d.demos.Colors;
+
+package demo.share.jfc.J2Ddemo.java2d.demos.Colors;
 
 
-import static java.awt.Color.black;
-import static java.awt.Color.blue;
-import static java.awt.Color.cyan;
-import static java.awt.Color.green;
-import static java.awt.Color.magenta;
-import static java.awt.Color.orange;
-import static java.awt.Color.pink;
-import static java.awt.Color.red;
-import static java.awt.Color.white;
-import static java.awt.Color.yellow;
+import static java.awt.Color.black;.extended
+import static java.awt.Color.blue;.extended
+import static java.awt.Color.cyan;.extended
+import static java.awt.Color.green;.extended
+import static java.awt.Color.magenta;.extended
+import static java.awt.Color.orange;.extended
+import static java.awt.Color.pink;.extended
+import static java.awt.Color.red;.extended
+import static java.awt.Color.white;.extended
+import static java.awt.Color.yellow;.extended
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics2D;
@@ -43,7 +44,20 @@ import java.awt.font.TextLayout;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.awt.image.ColorConvertOp;
-import java2d.Surface;
+import demo.share.jfc.J2Ddemo.java2d.Surface;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

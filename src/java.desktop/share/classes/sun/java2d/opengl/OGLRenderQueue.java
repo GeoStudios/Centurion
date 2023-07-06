@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.opengl;
+package java.desktop.share.classes.sun.java2d.opengl;
 
-import sun.awt.util.ThreadGroupUtils;
-import sun.java2d.pipe.RenderBuffer;
-import sun.java2d.pipe.RenderQueue;
 
-import static sun.java2d.pipe.BufferedOpCodes.*;
+import java.desktop.share.classes.sun.awt.util.ThreadGroupUtils;
+import java.desktop.share.classes.sun.java2d.pipe.RenderBuffer;
+import java.desktop.share.classes.sun.java2d.pipe.RenderQueue;
+import static java.desktop.share.classes.sun.java2d.pipe.BufferedOpCodes.*;.extended
 import java.security.AccessController;
 import java.security.PrivilegedAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * OGL-specific implementation of RenderQueue.  This class provides a

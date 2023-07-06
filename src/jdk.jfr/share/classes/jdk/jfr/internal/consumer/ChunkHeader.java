@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.consumer;
+package jdk.jfr.share.classes.jdk.jfr.internal.consumer;
 
-import java.io.IOException;
 
-import jdk.jfr.internal.LogLevel;
-import jdk.jfr.internal.LogTag;
-import jdk.jfr.internal.Logger;
-import jdk.jfr.internal.MetadataDescriptor;
-import jdk.jfr.internal.Utils;
+import java.io.java.io.java.io.java.io.IOException;
+import jdk.jfr.share.classes.jdk.jfr.internal.LogLevel;
+import jdk.jfr.share.classes.jdk.jfr.internal.LogTag;
+import jdk.jfr.share.classes.jdk.jfr.internal.Logger;
+import jdk.jfr.share.classes.jdk.jfr.internal.MetadataDescriptor;
+import jdk.jfr.share.classes.jdk.jfr.internal.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class ChunkHeader {
     static final long HEADER_SIZE = 68;

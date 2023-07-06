@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d;
+package java.desktop.share.classes.sun.java2d;
+
 
 import java.awt.Composite;
 import java.awt.CompositeContext;
@@ -28,10 +29,24 @@ import java.awt.image.ColorModel;
 import java.awt.image.BufferedImage;
 import java.awt.image.Raster;
 import java.awt.image.WritableRaster;
-import sun.awt.image.BufImgSurfaceData;
-import sun.java2d.loops.XORComposite;
-import sun.java2d.loops.CompositeType;
-import sun.java2d.loops.Blit;
+import java.desktop.share.classes.sun.awt.image.BufImgSurfaceData;
+import java.desktop.share.classes.sun.java2d.loops.XORComposite;
+import java.desktop.share.classes.sun.java2d.loops.CompositeType;
+import java.desktop.share.classes.sun.java2d.loops.Blit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SunCompositeContext implements CompositeContext {
     ColorModel srcCM;

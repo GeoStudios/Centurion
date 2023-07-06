@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.consumer;
+package jdk.jfr.share.classes.jdk.jfr.internal.consumer;
+
 
 import java.time.DateTimeException;
 import java.time.ZoneOffset;
+import jdk.jfr.share.classes.jdk.jfr.internal.LogLevel;
+import jdk.jfr.share.classes.jdk.jfr.internal.LogTag;
+import jdk.jfr.share.classes.jdk.jfr.internal.Logger;
 
-import jdk.jfr.internal.LogLevel;
-import jdk.jfr.internal.LogTag;
-import jdk.jfr.internal.Logger;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Converts ticks to nanoseconds

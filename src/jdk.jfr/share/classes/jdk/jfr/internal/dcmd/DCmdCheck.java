@@ -18,21 +18,36 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.jfr.internal.dcmd;
+
+package jdk.jfr.share.classes.jdk.jfr.internal.dcmd;
+
 
 import java.time.Duration;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.StringJoiner;
+import jdk.jfr.share.classes.jdk.jfr.EventType;
+import jdk.jfr.share.classes.jdk.jfr.Recording;
+import jdk.jfr.share.classes.jdk.jfr.SettingDescriptor;
+import jdk.jfr.share.classes.jdk.jfr.internal.Utils;
 
-import jdk.jfr.EventType;
-import jdk.jfr.Recording;
-import jdk.jfr.SettingDescriptor;
-import jdk.jfr.internal.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * JFR.check - invoked from native

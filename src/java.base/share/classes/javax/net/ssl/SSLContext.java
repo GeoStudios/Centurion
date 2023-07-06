@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.net.ssl;
+package java.base.share.classes.javax.net.ssl;
 
-import java.security.*;
+
+import java.base.share.classes.java.security.*;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import sun.security.jca.GetInstance;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Instances of this class represent a secure socket protocol

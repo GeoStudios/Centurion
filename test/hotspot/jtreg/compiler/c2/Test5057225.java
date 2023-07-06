@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 5057225
@@ -31,8 +49,6 @@
  *      compiler.c2.Test5057225
  */
 
-package compiler.c2;
-import jdk.test.lib.Utils;
 
 public class Test5057225 {
     static byte[]  ba = new byte[]  { -1 };

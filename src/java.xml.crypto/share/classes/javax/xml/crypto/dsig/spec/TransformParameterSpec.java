@@ -18,13 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package java.xml.crypto.share.classes.javax.xml.crypto.dsig.spec;
+
+
+import java.xml.crypto.share.classes.javax.xml.crypto.dsig.Transform;
+import java.security.spec.AlgorithmParameterSpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: TransformParameterSpec.java,v 1.3 2005/05/10 16:40:17 mullan Exp $
  */
-package javax.xml.crypto.dsig.spec;
 
-import javax.xml.crypto.dsig.Transform;
-import java.security.spec.AlgorithmParameterSpec;
+
 
 /**
  * A specification of algorithm parameters for a {@link Transform}

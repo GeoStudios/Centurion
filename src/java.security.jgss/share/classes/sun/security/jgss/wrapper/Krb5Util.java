@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.security.jgss.wrapper;
+
+package java.security.jgss.share.classes.sun.security.jgss.wrapper;
+
 
 import org.ietf.jgss.*;
 import javax.security.auth.kerberos.ServicePermission;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is an utility class for Kerberos related stuff.

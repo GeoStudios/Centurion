@@ -21,6 +21,24 @@
 
 package gc.g1;
 
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test Test2GbHeap
  * @bug 8031686
@@ -34,10 +52,7 @@ package gc.g1;
  * @run driver gc.g1.Test2GbHeap
  */
 
-import java.util.ArrayList;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class Test2GbHeap {
   public static void main(String[] args) throws Exception {

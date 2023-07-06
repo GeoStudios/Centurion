@@ -19,59 +19,71 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.comp;
+package jdk.compiler.share.classes.com.sun.tools.javac.comp;
+
 
 import java.util.*;
 import java.util.function.BiConsumer;
-
 import javax.lang.model.element.ElementKind;
 import javax.tools.JavaFileObject;
+import jdk.compiler.share.classes.com.sun.source.tree.CaseTree;
+import jdk.compiler.share.classes.com.sun.source.tree.IdentifierTree;
+import jdk.compiler.share.classes.com.sun.source.tree.MemberReferenceTree.ReferenceMode;
+import jdk.compiler.share.classes.com.sun.source.tree.MemberSelectTree;
+import jdk.compiler.share.classes.com.sun.source.tree.TreeVisitor;
+import jdk.compiler.share.classes.com.sun.source.util.SimpleTreeVisitor;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Lint.LintCategory;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.WriteableScope;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Source.Feature;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.TypeMetadata.Annotations;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Types.FunctionDescriptorLookupError;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.ArgumentAttr.LocalCacheContext;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Check.CheckContext;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.DeferredAttr.AttrMode;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.MatchBindingsComputer.MatchBindings;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.*;
+import static jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments.Diamond;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments.DiamondInvalidArg;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments.DiamondInvalidArgs;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Warnings;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCPolyExpression.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Error;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Fragment;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Warning;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.ANNOTATION;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.BLOCK;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.WILDCARD;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.*;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag;
 
-import com.sun.source.tree.CaseTree;
-import com.sun.source.tree.IdentifierTree;
-import com.sun.source.tree.MemberReferenceTree.ReferenceMode;
-import com.sun.source.tree.MemberSelectTree;
-import com.sun.source.tree.TreeVisitor;
-import com.sun.source.util.SimpleTreeVisitor;
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.Lint.LintCategory;
-import com.sun.tools.javac.code.Scope.WriteableScope;
-import com.sun.tools.javac.code.Source.Feature;
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.code.Type.*;
-import com.sun.tools.javac.code.TypeMetadata.Annotations;
-import com.sun.tools.javac.code.Types.FunctionDescriptorLookupError;
-import com.sun.tools.javac.comp.ArgumentAttr.LocalCacheContext;
-import com.sun.tools.javac.comp.Check.CheckContext;
-import com.sun.tools.javac.comp.DeferredAttr.AttrMode;
-import com.sun.tools.javac.comp.MatchBindingsComputer.MatchBindings;
-import com.sun.tools.javac.jvm.*;
-import static com.sun.tools.javac.resources.CompilerProperties.Fragments.Diamond;
-import static com.sun.tools.javac.resources.CompilerProperties.Fragments.DiamondInvalidArg;
-import static com.sun.tools.javac.resources.CompilerProperties.Fragments.DiamondInvalidArgs;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.resources.CompilerProperties.Fragments;
-import com.sun.tools.javac.resources.CompilerProperties.Warnings;
-import com.sun.tools.javac.tree.*;
-import com.sun.tools.javac.tree.JCTree.*;
-import com.sun.tools.javac.tree.JCTree.JCPolyExpression.*;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
-import com.sun.tools.javac.util.JCDiagnostic.Error;
-import com.sun.tools.javac.util.JCDiagnostic.Fragment;
-import com.sun.tools.javac.util.JCDiagnostic.Warning;
-import com.sun.tools.javac.util.List;
 
-import static com.sun.tools.javac.code.Flags.*;
-import static com.sun.tools.javac.code.Flags.ANNOTATION;
-import static com.sun.tools.javac.code.Flags.BLOCK;
-import static com.sun.tools.javac.code.Kinds.*;
-import static com.sun.tools.javac.code.Kinds.Kind.*;
-import static com.sun.tools.javac.code.TypeTag.*;
-import static com.sun.tools.javac.code.TypeTag.WILDCARD;
-import static com.sun.tools.javac.tree.JCTree.Tag.*;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This is the main context-dependent analysis phase in GJC. It
  *  encompasses name resolution, type checking and constant folding as

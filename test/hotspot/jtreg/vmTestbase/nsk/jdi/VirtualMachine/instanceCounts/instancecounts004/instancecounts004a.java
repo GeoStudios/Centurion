@@ -18,14 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.jdi.VirtualMachine.instanceCounts.instancecounts004;
+
 
 import nsk.share.Consts;
 import nsk.share.TestBug;
 import nsk.share.jdi.*;
-
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  *  This debuggee class handle requests for start/stop thread which provokes GC

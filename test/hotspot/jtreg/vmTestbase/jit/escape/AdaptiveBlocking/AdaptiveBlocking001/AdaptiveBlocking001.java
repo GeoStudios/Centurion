@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.escape.AdaptiveBlocking.AdaptiveBlocking001;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -39,9 +57,7 @@
  *             jit.escape.AdaptiveBlocking.AdaptiveBlocking001.AdaptiveBlocking001 -numRounds 10
  */
 
-package jit.escape.AdaptiveBlocking.AdaptiveBlocking001;
 
-import nsk.share.TestFailure;
 
 class AdaptiveBlocking001
 {

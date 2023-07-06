@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6795465
@@ -27,7 +44,6 @@
  * @run main compiler.c1.Test6795465
  */
 
-package compiler.c1;
 
 public class Test6795465 {
     static long var_1 = -1;

@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf;
+package java.desktop.share.classes.javax.swing.plaf;
 
-import javax.swing.JList;
+
+import java.desktop.share.classes.javax.swing.Jjava.util.java.util.java.util.List;
 import java.awt.Point;
 import java.awt.Rectangle;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

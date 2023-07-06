@@ -19,23 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs11;
+package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11;
+
 
 import java.io.*;
-import static java.io.StreamTokenizer.*;
+import static java.io.StreamTokenizer.*;.extended
 import java.math.BigInteger;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
+import java.base.share.classes.java.security.*;
+import jdk.crypto.cryptoki.share.classes.sun.security.util.PropertyExpander;
+import jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.*;
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Constants.*;.extended
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.CK_ATTRIBUTE.*;.extended
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.TemplateManager.*;.extended
 
-import java.security.*;
 
-import sun.security.util.PropertyExpander;
 
-import sun.security.pkcs11.wrapper.*;
-import static sun.security.pkcs11.wrapper.PKCS11Constants.*;
-import static sun.security.pkcs11.wrapper.CK_ATTRIBUTE.*;
 
-import static sun.security.pkcs11.TemplateManager.*;
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Configuration container and file parsing.

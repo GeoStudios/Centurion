@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.xml.internal.stream.writers;
+package java.xml.share.classes.com.sun.xml.internal.stream.writers;
 
-import com.sun.org.apache.xerces.internal.dom.CoreDocumentImpl;
-import com.sun.org.apache.xerces.internal.dom.DocumentImpl;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.CoreDocumentImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DocumentImpl;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import javax.xml.XMLConstants;
@@ -30,16 +31,30 @@ import javax.xml.namespace.NamespaceContext;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamWriter;
 import javax.xml.transform.dom.DOMResult;
-import org.w3c.dom.Attr;
-import org.w3c.dom.CDATASection;
-import org.w3c.dom.Comment;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.EntityReference;
-import org.w3c.dom.Node;
-import org.w3c.dom.ProcessingInstruction;
-import org.w3c.dom.Text;
-import org.xml.sax.helpers.NamespaceSupport;
+import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
+import java.xml.share.classes.com.sun.org.w3c.dom.CDATASection;
+import java.xml.share.classes.com.sun.org.w3c.dom.Comment;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.share.classes.com.sun.org.w3c.dom.EntityReference;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.ProcessingInstruction;
+import java.xml.share.classes.com.sun.org.w3c.dom.Text;
+import java.xml.share.classes.com.sun.org.xml.sax.helpers.NamespaceSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides support to build a DOM tree using XMLStreamWriter API's.

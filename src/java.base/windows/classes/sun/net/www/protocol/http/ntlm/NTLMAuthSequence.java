@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.protocol.http.ntlm;
+package java.base.windows.classes.sun.net.www.protocol.http.ntlm;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.Base64;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Hooks into Windows implementation of NTLM.

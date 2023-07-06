@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.swing;
+package java.desktop.share.classes.sun.swing;
+
 
 import java.awt.AWTEvent;
 import java.awt.Color;
@@ -54,7 +55,7 @@ import java.awt.geom.Rectangle2D;
 import java.awt.print.PrinterGraphics;
 import java.beans.PropertyChangeEvent;
 import java.io.BufferedInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Modifier;
 import java.security.AccessController;
@@ -64,18 +65,17 @@ import java.text.AttributedString;
 import java.text.BreakIterator;
 import java.text.CharacterIterator;
 import java.util.HashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.Callable;
 import java.util.concurrent.Future;
 import java.util.concurrent.FutureTask;
-
 import javax.swing.JComponent;
-import javax.swing.JList;
+import javax.swing.Jjava.util.java.util.java.util.List;
 import javax.swing.JTable;
-import javax.swing.ListCellRenderer;
-import javax.swing.ListSelectionModel;
+import javax.swing.java.util.ListCellRenderer;
+import javax.swing.java.util.ListSelectionModel;
 import javax.swing.SwingUtilities;
 import javax.swing.UIDefaults;
 import javax.swing.UIManager;
@@ -88,26 +88,38 @@ import javax.swing.text.Highlighter;
 import javax.swing.text.JTextComponent;
 import javax.swing.tree.TreeModel;
 import javax.swing.tree.TreePath;
+import java.desktop.share.classes.sun.awt.AWTAccessor;
+import java.desktop.share.classes.sun.awt.AWTPermissions;
+import java.desktop.share.classes.sun.awt.AppContext;
+import java.desktop.share.classes.sun.awt.SunToolkit;
+import java.desktop.share.classes.sun.font.FontDesignMetrics;
+import java.desktop.share.classes.sun.font.FontUtilities;
+import java.desktop.share.classes.sun.java2d.SunGraphicsEnvironment;
+import java.desktop.share.classes.sun.print.ProxyPrintGraphics;
+import static java.awt.RenderingHints.KEY_TEXT_ANTIALIASING;.extended
+import static java.awt.RenderingHints.KEY_TEXT_LCD_CONTRAST;.extended
+import static java.awt.RenderingHints.VALUE_FRACTIONALMETRICS_DEFAULT;.extended
+import static java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_DEFAULT;.extended
+import static java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_LCD_HBGR;.extended
+import static java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_LCD_HRGB;.extended
+import static java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_OFF;.extended
+import static java.awt.geom.AffineTransform.TYPE_FLIP;.extended
+import static java.awt.geom.AffineTransform.TYPE_MASK_SCALE;.extended
+import static java.awt.geom.AffineTransform.TYPE_TRANSLATION;.extended
 
-import sun.awt.AWTAccessor;
-import sun.awt.AWTPermissions;
-import sun.awt.AppContext;
-import sun.awt.SunToolkit;
-import sun.font.FontDesignMetrics;
-import sun.font.FontUtilities;
-import sun.java2d.SunGraphicsEnvironment;
-import sun.print.ProxyPrintGraphics;
 
-import static java.awt.RenderingHints.KEY_TEXT_ANTIALIASING;
-import static java.awt.RenderingHints.KEY_TEXT_LCD_CONTRAST;
-import static java.awt.RenderingHints.VALUE_FRACTIONALMETRICS_DEFAULT;
-import static java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_DEFAULT;
-import static java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_LCD_HBGR;
-import static java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_LCD_HRGB;
-import static java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_OFF;
-import static java.awt.geom.AffineTransform.TYPE_FLIP;
-import static java.awt.geom.AffineTransform.TYPE_MASK_SCALE;
-import static java.awt.geom.AffineTransform.TYPE_TRANSLATION;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A collection of utility methods for Swing.

@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import java.lang.reflect.Constructor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6792161
@@ -27,9 +45,7 @@
  * @run main/othervm/timeout=600 -Xcomp -XX:-TieredCompilation -XX:+IgnoreUnrecognizedVMOptions -XX:MaxInlineSize=120 compiler.c2.Test6792161
  */
 
-package compiler.c2;
 
-import java.lang.reflect.Constructor;
 
 public class Test6792161 {
     static Constructor test(Class cls) throws Exception {

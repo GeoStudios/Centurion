@@ -18,21 +18,23 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.data.serialization;
 
-import com.sun.hotspot.igv.data.*;
-import com.sun.hotspot.igv.data.serialization.XMLParser.ElementHandler;
-import com.sun.hotspot.igv.data.serialization.XMLParser.HandoverElementHandler;
-import com.sun.hotspot.igv.data.serialization.XMLParser.TopElementHandler;
-import com.sun.hotspot.igv.data.services.GroupCallback;
-import java.io.IOException;
-import java.io.InputStream;
-import java.nio.channels.Channels;
-import java.nio.channels.ReadableByteChannel;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Locale;
-import java.util.Map;
+package utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data.serialization;
+
+
+import utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data.*;
+import utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data.serialization.XMLParser.ElementHandler;
+import utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data.serialization.XMLParser.HandoverElementHandler;
+import utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data.serialization.XMLParser.TopElementHandler;
+import utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data.services.GroupCallback;
+import utils.IdealGraphVisualizer.Data.src.main.java.io.java.io.java.io.java.io.IOException;
+import utils.IdealGraphVisualizer.Data.src.main.java.io.InputStream;
+import utils.IdealGraphVisualizer.Data.src.main.java.nio.channels.Channels;
+import utils.IdealGraphVisualizer.Data.src.main.java.nio.channels.ReadableByteChannel;
+import utils.IdealGraphVisualizer.Data.src.main.java.util.Arrayjava.util.java.util.java.util.List;
+import utils.IdealGraphVisualizer.Data.src.main.java.util.HashMap;
+import utils.IdealGraphVisualizer.Data.src.main.java.util.Locale;
+import utils.IdealGraphVisualizer.Data.src.main.java.util.Map;
 import javax.swing.SwingUtilities;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParserFactory;
@@ -43,6 +45,20 @@ import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 import org.xml.sax.XMLReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

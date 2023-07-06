@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.print.attribute;
+package java.desktop.share.classes.javax.print.attribute;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface {@code PrintRequestAttributeSet} specifies the interface for a set

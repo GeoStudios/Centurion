@@ -18,8 +18,8 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.net.ftp.impl;
 
+package java.base.share.classes.sun.net.ftp.impl;
 
 
 import java.io.BufferedInputStream;
@@ -27,7 +27,7 @@ import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.Closeable;
 import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
@@ -35,11 +35,11 @@ import java.io.PrintStream;
 import java.io.UnsupportedEncodingException;
 import java.net.Inet6Address;
 import java.net.InetAddress;
-import java.net.InetSocketAddress;
+import java.net.Inetjava.net.SocketAddress;
 import java.net.Proxy;
-import java.net.ServerSocket;
-import java.net.Socket;
-import java.net.SocketAddress;
+import java.net.java.net.java.net.Serverjava.net.java.net.Socket;
+import java.net.java.net.java.net.java.net.Socket;
+import java.net.java.net.SocketAddress;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.security.PrivilegedExceptionAction;
@@ -48,24 +48,37 @@ import java.time.ZoneOffset;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Base64;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Vector;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import javax.net.ssl.SSLSocket;
-import javax.net.ssl.SSLSocketFactory;
-import sun.net.ftp.FtpDirEntry;
-import sun.net.ftp.FtpDirParser;
-import sun.net.ftp.FtpProtocolException;
-import sun.net.ftp.FtpReplyCode;
-import sun.net.util.IPAddressUtil;
-import sun.util.logging.PlatformLogger;
+import javax.net.ssl.SSLjava.net.java.net.java.net.Socket;
+import javax.net.ssl.SSLjava.net.SocketFactory;
+import java.base.share.classes.sun.net.ftp.FtpDirEntry;
+import java.base.share.classes.sun.net.ftp.FtpDirParser;
+import java.base.share.classes.sun.net.ftp.FtpProtocolException;
+import java.base.share.classes.sun.net.ftp.FtpReplyCode;
+import java.base.share.classes.sun.net.util.IPAddressUtil;
+import java.base.share.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class FtpClient extends sun.net.ftp.FtpClient {

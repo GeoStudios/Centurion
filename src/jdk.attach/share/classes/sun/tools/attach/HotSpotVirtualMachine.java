@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.attach;
+package jdk.attach.share.classes.sun.tools.attach;
+
 
 import com.sun.tools.attach.AttachNotSupportedException;
 import com.sun.tools.attach.VirtualMachine;
@@ -27,15 +28,28 @@ import com.sun.tools.attach.AgentLoadException;
 import com.sun.tools.attach.AgentInitializationException;
 import com.sun.tools.attach.spi.AttachProvider;
 import jdk.internal.misc.VM;
-
 import java.io.BufferedReader;
 import java.io.InputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStreamReader;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.Properties;
 import java.util.stream.Collectors;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * The HotSpot implementation of com.sun.tools.attach.VirtualMachine.

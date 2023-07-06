@@ -19,20 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt;
+package java.desktop.macosx.classes.sun.lwawt;
+
 
 import java.awt.Dimension;
 import java.awt.Point;
 import java.awt.TextField;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.event.FocusEvent;
 import java.awt.peer.TextFieldPeer;
-
 import javax.swing.*;
 import javax.swing.text.JTextComponent;
+import java.desktop.macosx.classes.sun.awt.AWTAccessor;
 
-import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Lightweight implementation of {@link TextFieldPeer}. Delegates most of the

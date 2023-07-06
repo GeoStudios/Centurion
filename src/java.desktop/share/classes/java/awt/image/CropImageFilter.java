@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.image;
+package java.desktop.share.classes.java.awt.image;
 
-import java.awt.image.ImageConsumer;
-import java.awt.image.ColorModel;
-import java.util.Hashtable;
-import java.awt.Rectangle;
+
+import java.desktop.share.classes.java.awt.image.ImageConsumer;
+import java.desktop.share.classes.java.awt.image.ColorModel;
+import java.desktop.share.classes.java.util.Hashtable;
+import java.desktop.share.classes.java.awt.Rectangle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An ImageFilter class for cropping images.

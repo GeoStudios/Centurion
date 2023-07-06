@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.security.sasl.util;
+package java.security.sasl.share.classes.com.sun.security.sasl.util;
+
 
 import javax.security.sasl.Sasl;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Static class that contains utilities for dealing with Java SASL

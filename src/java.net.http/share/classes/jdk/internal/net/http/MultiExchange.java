@@ -19,17 +19,18 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.ref.WeakReference;
 import java.net.ConnectException;
 import java.net.http.HttpConnectTimeoutException;
 import java.time.Duration;
 import java.util.Iterator;
-import java.util.LinkedList;
+import java.util.Linkedjava.util.java.util.java.util.List;
 import java.security.AccessControlContext;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.util.concurrent.CancellationException;
 import java.util.concurrent.CompletableFuture;
@@ -42,7 +43,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.function.Function;
-
 import java.net.http.HttpClient;
 import java.net.http.HttpHeaders;
 import java.net.http.HttpRequest;
@@ -50,14 +50,28 @@ import java.net.http.HttpResponse;
 import java.net.http.HttpResponse.BodySubscriber;
 import java.net.http.HttpResponse.PushPromiseHandler;
 import java.net.http.HttpTimeoutException;
-import jdk.internal.net.http.common.Cancelable;
-import jdk.internal.net.http.common.Log;
-import jdk.internal.net.http.common.Logger;
-import jdk.internal.net.http.common.MinimalFuture;
-import jdk.internal.net.http.common.ConnectionExpiredException;
-import jdk.internal.net.http.common.Utils;
-import static jdk.internal.net.http.common.MinimalFuture.completedFuture;
-import static jdk.internal.net.http.common.MinimalFuture.failedFuture;
+import java.net.http.share.classes.jdk.internal.net.http.common.Cancelable;
+import java.net.http.share.classes.jdk.internal.net.http.common.Log;
+import java.net.http.share.classes.jdk.internal.net.http.common.Logger;
+import java.net.http.share.classes.jdk.internal.net.http.common.MinimalFuture;
+import java.net.http.share.classes.jdk.internal.net.http.common.ConnectionExpiredException;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+import static java.net.http.share.classes.jdk.internal.net.http.common.MinimalFuture.completedFuture;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.common.MinimalFuture.failedFuture;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Encapsulates multiple Exchanges belonging to one HttpRequestImpl.

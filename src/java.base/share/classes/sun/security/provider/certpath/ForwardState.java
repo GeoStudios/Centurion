@@ -19,26 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider.certpath;
+package java.base.share.classes.sun.security.provider.certpath;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.cert.CertificateException;
 import java.security.cert.CertPathValidatorException;
 import java.security.cert.PKIXCertPathChecker;
 import java.security.cert.X509Certificate;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashSet;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.java.util.java.util.java.util.List;
+import java.util.java.util.ListIterator;
 import javax.security.auth.x500.X500Principal;
+import java.base.share.classes.sun.security.util.Debug;
+import java.base.share.classes.sun.security.x509.SubjectAlternativeNameExtension;
+import java.base.share.classes.sun.security.x509.GeneralNames;
+import java.base.share.classes.sun.security.x509.GeneralName;
+import java.base.share.classes.sun.security.x509.GeneralNameInterface;
+import java.base.share.classes.sun.security.x509.X500Name;
+import java.base.share.classes.sun.security.x509.X509CertImpl;
 
-import sun.security.util.Debug;
-import sun.security.x509.SubjectAlternativeNameExtension;
-import sun.security.x509.GeneralNames;
-import sun.security.x509.GeneralName;
-import sun.security.x509.GeneralNameInterface;
-import sun.security.x509.X500Name;
-import sun.security.x509.X509CertImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A specification of a forward PKIX validation state

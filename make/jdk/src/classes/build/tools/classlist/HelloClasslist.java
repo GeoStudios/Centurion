@@ -19,31 +19,66 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package build.tools.classlist;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This application is meant to be run to create a classlist file representing
  * common use.
  *
  * The classlist is produced by adding -XX:DumpLoadedClassList=classlist
  */
-package build.tools.classlist;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodType;
-import java.net.InetAddress;
-import java.nio.file.FileSystems;
-import java.time.LocalDateTime;
-import java.time.ZoneId;
-import java.time.format.DateTimeFormatter;
-import java.util.stream.Stream;
-import java.util.logging.*;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
-import java.util.Locale;
-import java.text.DateFormat;
 
-import static java.util.stream.Collectors.*;
 
 /**
  * This class is used to generate a classlist during build. Intent

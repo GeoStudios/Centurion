@@ -19,27 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
+
 
 import java.util.*;
 import java.lang.*;
 import java.math.BigInteger;
 import java.security.AccessController;
 import java.security.InvalidAlgorithmParameterException;
-import java.security.InvalidKeyException;
-import java.security.Key;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.Key;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.security.PrivilegedAction;
-import java.security.ProviderException;
+import java.base.share.classes.java.security.ProviderException;
 import java.security.spec.AlgorithmParameterSpec;
-import java.security.spec.InvalidKeySpecException;
+import java.base.share.classes.java.security.spec.InvalidKeySpecException;
 import javax.crypto.KeyAgreementSpi;
-import javax.crypto.ShortBufferException;
-import javax.crypto.SecretKey;
-import javax.crypto.spec.*;
+import java.base.share.classes.javax.crypto.ShortBufferException;
+import java.base.share.classes.javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.spec.*;
+import java.base.share.classes.com.sun.security.util.KeyUtil;
 
-import sun.security.util.KeyUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements the Diffie-Hellman key agreement protocol between

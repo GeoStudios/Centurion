@@ -21,23 +21,35 @@
 
 package test.jfr.main;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.List;
 
+import java.io.File;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.java.util.java.util.java.util.List;
 import jdk.jfr.AnnotationElement;
 import jdk.jfr.EventType;
 import jdk.jfr.FlightRecorder;
 import jdk.jfr.Recording;
 import jdk.jfr.ValueDescriptor;
 import jdk.jfr.consumer.RecordedEvent;
-
 import test.jfr.annotation.ModularizedAnnotation;
 import test.jfr.event.ModularizedOrdinaryEvent;
 import test.jfr.event.ModularizedPeriodicEvent;
 import java.nio.file.Path;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import jdk.jfr.consumer.RecordingFile;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MainTest {
 

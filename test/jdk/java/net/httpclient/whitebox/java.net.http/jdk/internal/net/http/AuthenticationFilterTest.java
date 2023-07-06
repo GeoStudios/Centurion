@@ -21,14 +21,14 @@
 
 package jdk.internal.net.http;
 
+
 import jdk.internal.net.http.common.HttpHeadersBuilder;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.annotations.AfterClass;
-
 import java.lang.ref.Reference;
 import java.net.Authenticator;
-import java.net.InetSocketAddress;
+import java.net.Inetjava.net.SocketAddress;
 import java.net.PasswordAuthentication;
 import java.net.ProxySelector;
 import java.net.URI;
@@ -37,7 +37,7 @@ import java.net.http.HttpHeaders;
 import java.net.http.HttpResponse;
 import java.net.http.HttpResponse.BodyHandlers;
 import java.security.AccessController;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Base64;
 import java.util.Collections;
 import java.util.Map;
@@ -46,15 +46,27 @@ import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.atomic.AtomicLong;
 import java.net.http.HttpClient.Version;
 import java.util.function.BiPredicate;
+import static java.lang.String.format;.extended
+import static java.lang.System.out;.extended
+import static java.nio.charset.StandardCharsets.US_ASCII;.extended
+import static java.util.stream.Collectors.joining;.extended
+import static java.net.http.HttpClient.Version.HTTP_1_1;.extended
+import static java.net.http.HttpClient.Version.HTTP_2;.extended
+import static java.net.http.HttpClient.Builder.NO_PROXY;.extended
+import static org.testng.Assert.*;.extended
 
-import static java.lang.String.format;
-import static java.lang.System.out;
-import static java.nio.charset.StandardCharsets.US_ASCII;
-import static java.util.stream.Collectors.joining;
-import static java.net.http.HttpClient.Version.HTTP_1_1;
-import static java.net.http.HttpClient.Version.HTTP_2;
-import static java.net.http.HttpClient.Builder.NO_PROXY;
-import static org.testng.Assert.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AuthenticationFilterTest {
 

@@ -19,12 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.jfc.J2Ddemo.java2d;
 
-package java2d;
 
-
-import static java2d.CustomControlsContext.State.START;
+import static demo.share.jfc.J2Ddemo.java2d.CustomControlsContext.State.START;.extended
 import java.awt.Component;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

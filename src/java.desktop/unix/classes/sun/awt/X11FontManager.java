@@ -19,32 +19,46 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.unix.classes.sun.awt;
+
 
 import java.awt.GraphicsEnvironment;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.StreamTokenizer;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.StringTokenizer;
 import java.util.Vector;
-
 import javax.swing.plaf.FontUIResource;
-import sun.font.MFontConfiguration;
-import sun.font.CompositeFont;
-import sun.font.FontManager;
-import sun.font.SunFontManager;
-import sun.font.FcFontConfiguration;
-import sun.font.FontAccess;
-import sun.font.FontUtilities;
-import sun.font.NativeFont;
-import sun.util.logging.PlatformLogger;
+import java.desktop.unix.classes.sun.font.MFontConfiguration;
+import java.desktop.unix.classes.sun.font.CompositeFont;
+import java.desktop.unix.classes.sun.font.FontManager;
+import java.desktop.unix.classes.sun.font.SunFontManager;
+import java.desktop.unix.classes.sun.font.FcFontConfiguration;
+import java.desktop.unix.classes.sun.font.FontAccess;
+import java.desktop.unix.classes.sun.font.FontUtilities;
+import java.desktop.unix.classes.sun.font.NativeFont;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The X11 implementation of {@link FontManager}.

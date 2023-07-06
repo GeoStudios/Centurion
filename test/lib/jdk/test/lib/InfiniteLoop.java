@@ -21,7 +21,21 @@
 
 package jdk.test.lib;
 
-import java.util.Objects;
+
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class which runs another Runnable in infinite loop with certain pauses

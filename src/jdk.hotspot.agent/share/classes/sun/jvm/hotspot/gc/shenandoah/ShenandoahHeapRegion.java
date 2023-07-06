@@ -19,25 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.gc.shenandoah;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shenandoah;
 
-import sun.jvm.hotspot.debugger.OopHandle;
-import sun.jvm.hotspot.gc.shared.ContiguousSpace;
-import sun.jvm.hotspot.gc.shared.LiveRegionsProvider;
-import sun.jvm.hotspot.memory.MemRegion;
-import sun.jvm.hotspot.oops.Mark;
-import sun.jvm.hotspot.oops.Oop;
-import sun.jvm.hotspot.oops.UnknownOopException;
-import sun.jvm.hotspot.types.*;
-import sun.jvm.hotspot.runtime.VM;
-import sun.jvm.hotspot.runtime.VMObject;
-import sun.jvm.hotspot.debugger.Address;
-import sun.jvm.hotspot.utilities.AddressOps;
 
-import java.util.ArrayList;
-import java.util.List;
-import sun.jvm.hotspot.utilities.Observable;
-import sun.jvm.hotspot.utilities.Observer;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.OopHandle;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared.ContiguousSpace;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared.LiveRegionsProvider;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.memory.MemRegion;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.Mark;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.Oop;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.UnknownOopException;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VM;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VMObject;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Address;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.AddressOps;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class ShenandoahHeapRegion extends VMObject implements LiveRegionsProvider {

@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.dynalink.internal;
+package jdk.dynalink.share.classes.jdk.dynalink.internal;
+
 
 import java.security.AccessControlContext;
 import java.security.Permission;
 import java.security.Permissions;
 import java.security.ProtectionDomain;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class for creating permission-restricting {@link AccessControlContext}s.

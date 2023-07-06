@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.whitebox;
+
+
+import jdk.test.lib.Asserts;
+import sun.hotspot.WhiteBox;
+import sun.hotspot.code.BlobType;
+import sun.hotspot.code.CodeBlob;
+import java.base.share.classes.java.util.Arrays;
+import java.util.EnumSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test GetCodeHeapEntriesTest
  * @bug 8059624
@@ -36,15 +59,8 @@
  *                   compiler.whitebox.GetCodeHeapEntriesTest
  */
 
-package compiler.whitebox;
 
-import jdk.test.lib.Asserts;
-import sun.hotspot.WhiteBox;
-import sun.hotspot.code.BlobType;
-import sun.hotspot.code.CodeBlob;
 
-import java.util.Arrays;
-import java.util.EnumSet;
 
 public class GetCodeHeapEntriesTest {
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();

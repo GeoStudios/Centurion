@@ -19,26 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac.comp;
+package jdk.compiler.share.classes.com.sun.tools.sjavac.comp;
+
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
-
 import javax.tools.JavaFileObject;
+import jdk.compiler.share.classes.com.sun.source.tree.CompilationUnitTree;
+import jdk.compiler.share.classes.com.sun.source.util.TaskEvent;
+import jdk.compiler.share.classes.com.sun.source.util.Taskjava.util.Listener;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCFieldAccess;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCIdent;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Name;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.Log;
 
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.util.TaskEvent;
-import com.sun.source.util.TaskListener;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.JCTree.JCFieldAccess;
-import com.sun.tools.javac.tree.JCTree.JCIdent;
-import com.sun.tools.javac.util.DefinedBy;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.Name;
-import com.sun.tools.sjavac.Log;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PathAndPackageVerifier implements TaskListener {
 

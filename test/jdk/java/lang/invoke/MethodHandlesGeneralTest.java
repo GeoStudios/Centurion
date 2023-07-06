@@ -19,23 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/* @test
- * @bug 8216558
- * @summary unit tests for java.lang.invoke.MethodHandles
- * @library /test/lib /java/lang/invoke/common
- * @compile MethodHandlesTest.java MethodHandlesGeneralTest.java remote/RemoteExample.java
- * @run junit/othervm/timeout=2500 -XX:+IgnoreUnrecognizedVMOptions
- *                                 -XX:-VerifyDependencies
- *                                 -esa
- *                                 test.java.lang.invoke.MethodHandlesGeneralTest
- */
-
 package test.java.lang.invoke;
+
 
 import org.junit.*;
 import test.java.lang.invoke.lib.CodeCacheOverflowProcessor;
 import test.java.lang.invoke.remote.RemoteExample;
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandleProxies;
 import java.lang.invoke.MethodHandles;
@@ -47,16 +36,43 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.lang.reflect.UndeclaredThrowableException;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.Formatter;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
+import static java.lang.invoke.MethodType.methodType;.extended
+import static org.junit.Assert.*;.extended
 
-import static java.lang.invoke.MethodType.methodType;
-import static org.junit.Assert.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @test
+ * @bug 8216558
+ * @summary unit tests for java.lang.invoke.MethodHandles
+ * @library /test/lib /java/lang/invoke/common
+ * @compile MethodHandlesTest.java MethodHandlesGeneralTest.java remote/RemoteExample.java
+ * @run junit/othervm/timeout=2500 -XX:+IgnoreUnrecognizedVMOptions
+ *                                 -XX:-VerifyDependencies
+ *                                 -esa
+ *                                 test.java.lang.invoke.MethodHandlesGeneralTest
+ */
+
+
+
+
 
 public class MethodHandlesGeneralTest extends MethodHandlesTest {
 

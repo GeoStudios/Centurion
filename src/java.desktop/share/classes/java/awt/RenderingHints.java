@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.lang.ref.WeakReference;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
 
+import java.desktop.share.classes.java.lang.ref.WeakReference;
+import java.desktop.share.classes.java.util.Collection;
+import java.desktop.share.classes.java.util.Collections;
+import java.desktop.share.classes.java.util.HashMap;
+import java.desktop.share.classes.java.util.Map;
+import java.desktop.share.classes.java.util.Set;
 import sun.awt.SunHints;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code RenderingHints} class defines and manages collections of

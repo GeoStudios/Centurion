@@ -19,13 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
-import java.nio.channels.FileChannel;
 
+import java.base.share.classes.java.nio.channels.FileChannel;
 import jdk.internal.access.JavaIORandomAccessFileAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import sun.nio.ch.FileChannelImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

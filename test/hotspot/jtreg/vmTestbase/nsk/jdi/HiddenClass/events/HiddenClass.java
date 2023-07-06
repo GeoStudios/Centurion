@@ -21,13 +21,26 @@
 
 package nsk.jdi.HiddenClass.events;
 
+
 import java.io.File;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandles.Lookup;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-
 import nsk.share.classload.ClassLoadUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Interface for tested hidden class to implement. */
 interface HCInterf {

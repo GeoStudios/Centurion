@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xpath.internal.functions;
+package java.xml.share.classes.com.sun.org.apache.xpath.internal.functions;
 
-import com.sun.org.apache.xml.internal.utils.QName;
-import com.sun.org.apache.xpath.internal.XPathContext;
-import com.sun.org.apache.xpath.internal.objects.XBoolean;
-import com.sun.org.apache.xpath.internal.objects.XObject;
-import java.util.List;
+
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XBoolean;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Execute the True() function.

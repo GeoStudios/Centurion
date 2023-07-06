@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.escapeAnalysis.cr6716441;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6716441
@@ -30,7 +47,6 @@
 
 /* Complexity upper bound: 70070 ops */
 
-package compiler.escapeAnalysis.cr6716441;
 
 class Tester_Class_0 {
     Object var_1;

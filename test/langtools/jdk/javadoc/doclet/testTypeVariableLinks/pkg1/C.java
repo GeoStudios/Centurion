@@ -21,7 +21,21 @@
 
 package pkg1;
 
-import java.util.List;
+
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class C<T, F extends List<String>, G extends Additional & I> {
     /**

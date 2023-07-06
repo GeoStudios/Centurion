@@ -19,12 +19,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.jfc.SwingSet2;
+
 
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.tree.*;
 import javax.accessibility.*;
-
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.*;
@@ -33,6 +34,20 @@ import java.util.*;
 import java.io.*;
 import java.applet.*;
 import java.net.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * JTree Demo

@@ -19,20 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.implementations;
+
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.java.util.java.util.java.util.List;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Attr;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.c14n.implementations;
-
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
 
 
-import org.w3c.dom.Attr;
-import org.w3c.dom.Node;
+
+
 
 /**
  * A stack based Symbol Table.

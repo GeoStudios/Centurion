@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.imageio.spi;
+package java.desktop.share.classes.javax.imageio.spi;
 
-import java.util.Locale;
-import javax.imageio.spi.RegisterableService;
-import javax.imageio.spi.ServiceRegistry;
+
+import java.base.share.classes.java.util.Locale;
+import java.desktop.share.classes.javax.imageio.spi.RegisterableService;
+import java.desktop.share.classes.javax.imageio.spi.ServiceRegistry;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A superinterface for functionality common to all Image I/O service

@@ -19,11 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.sun.nio.ch;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * An object that interrupts a thread blocked in an I/O operation.
  */
 
-package sun.nio.ch;
+
 
 public interface Interruptible {
 

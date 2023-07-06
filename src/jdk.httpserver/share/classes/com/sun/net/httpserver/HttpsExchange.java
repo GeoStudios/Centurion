@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.net.httpserver;
+package jdk.httpserver.share.classes.com.sun.net.httpserver;
+
 
 import javax.net.ssl.SSLSession;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class encapsulates a HTTPS request received and a response to be

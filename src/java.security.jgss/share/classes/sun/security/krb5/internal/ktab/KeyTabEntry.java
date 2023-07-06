@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal.ktab;
+package java.security.jgss.share.classes.sun.security.krb5.internal.ktab;
 
-import sun.security.krb5.*;
-import sun.security.krb5.internal.*;
 
-import static java.nio.charset.StandardCharsets.ISO_8859_1;
+import java.security.jgss.share.classes.sun.security.krb5.*;
+import java.security.jgss.share.classes.sun.security.krb5.internal.*;
+import static java.nio.charset.StandardCharsets.ISO_8859_1;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents a Key Table entry. Each entry contains the service principal of

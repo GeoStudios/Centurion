@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.code;
+package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Path;
 import java.util.EnumSet;
 import java.util.HashMap;
@@ -30,7 +31,6 @@ import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.Set;
 import java.util.function.Supplier;
-
 import javax.lang.model.SourceVersion;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileManager.Location;
@@ -38,33 +38,43 @@ import javax.tools.JavaFileObject;
 import javax.tools.JavaFileObject.Kind;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.StandardLocation;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.WriteableScope;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ClassSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.Completer;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.CompletionFailure;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ModuleSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.PackageSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.TypeSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Annotate;
+import jdk.compiler.share.classes.com.sun.tools.javac.file.JRTIndex;
+import jdk.compiler.share.classes.com.sun.tools.javac.file.JavacFileManager;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassReader;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.Profile;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Option;
+import jdk.compiler.share.classes.com.sun.tools.javac.platform.PlatformDescription;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import static javax.tools.StandardLocation.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.CompletionFailure;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.DelegatingJavaFileManager;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Dependencies.CompletionCause;
 
-import com.sun.tools.javac.code.Scope.WriteableScope;
-import com.sun.tools.javac.code.Symbol.ClassSymbol;
-import com.sun.tools.javac.code.Symbol.Completer;
-import com.sun.tools.javac.code.Symbol.CompletionFailure;
-import com.sun.tools.javac.code.Symbol.ModuleSymbol;
-import com.sun.tools.javac.code.Symbol.PackageSymbol;
-import com.sun.tools.javac.code.Symbol.TypeSymbol;
-import com.sun.tools.javac.comp.Annotate;
-import com.sun.tools.javac.file.JRTIndex;
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.jvm.ClassReader;
-import com.sun.tools.javac.jvm.Profile;
-import com.sun.tools.javac.main.Option;
-import com.sun.tools.javac.platform.PlatformDescription;
-import com.sun.tools.javac.resources.CompilerProperties.Fragments;
-import com.sun.tools.javac.util.*;
 
-import static javax.tools.StandardLocation.*;
 
-import static com.sun.tools.javac.code.Flags.*;
-import static com.sun.tools.javac.code.Kinds.Kind.*;
-import com.sun.tools.javac.code.Symbol;
-import com.sun.tools.javac.code.Symbol.CompletionFailure;
-import com.sun.tools.javac.main.DelegatingJavaFileManager;
 
-import com.sun.tools.javac.util.Dependencies.CompletionCause;
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  This class provides operations to locate class definitions

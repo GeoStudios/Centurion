@@ -18,7 +18,24 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.net.www.protocol.http;
+
+package java.base.share.classes.sun.net.www.protocol.http;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Authentication schemes supported by the http implementation. New schemes, if
  * supported, should be defined here.

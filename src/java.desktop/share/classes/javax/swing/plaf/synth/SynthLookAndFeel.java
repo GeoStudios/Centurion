@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.synth;
+package java.desktop.share.classes.javax.swing.plaf.synth;
+
 
 import java.awt.Color;
 import java.awt.Component;
@@ -33,8 +34,8 @@ import java.awt.Rectangle;
 import java.awt.Toolkit;
 import java.awt.Window;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import java.io.IOException;
+import java.beans.PropertyChangejava.util.Listener;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.NotSerializableException;
 import java.io.Serial;
@@ -44,25 +45,37 @@ import java.lang.ref.WeakReference;
 import java.net.URL;
 import java.text.ParseException;
 import java.util.HashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
-
-import javax.swing.JComponent;
-import javax.swing.JMenu;
-import javax.swing.LookAndFeel;
-import javax.swing.SwingUtilities;
-import javax.swing.UIDefaults;
-import javax.swing.UIManager;
-import javax.swing.plaf.ComponentUI;
-import javax.swing.plaf.InsetsUIResource;
-import javax.swing.plaf.basic.BasicLookAndFeel;
-
+import java.desktop.share.classes.javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.JMenu;
+import java.desktop.share.classes.javax.swing.LookAndFeel;
+import java.desktop.share.classes.javax.swing.SwingUtilities;
+import java.desktop.share.classes.javax.swing.UIDefaults;
+import java.desktop.share.classes.javax.swing.UIManager;
+import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
+import java.desktop.share.classes.javax.swing.plaf.InsetsUIResource;
+import java.desktop.share.classes.javax.swing.plaf.basic.BasicLookAndFeel;
 import sun.awt.AppContext;
 import sun.awt.SunToolkit;
 import sun.swing.DefaultLookup;
 import sun.swing.SwingAccessor;
 import sun.swing.SwingUtilities2;
 import sun.swing.plaf.synth.SynthFileChooserUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * SynthLookAndFeel provides the basis for creating a customized look and

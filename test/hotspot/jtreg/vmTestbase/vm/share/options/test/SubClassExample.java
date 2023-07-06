@@ -18,13 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-/*
- * This is a very simple test for our framework.
- */
+
 package vm.share.options.test;
+
 
 import vm.share.options.Option;
 import vm.share.options.OptionSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * This is a very simple test for our framework.
+ */
+
 
 /**
  * This is an example with annotated superclasses

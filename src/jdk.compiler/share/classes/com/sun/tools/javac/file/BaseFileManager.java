@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.file;
+package jdk.compiler.share.classes.com.sun.tools.javac.file;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.lang.ref.SoftReference;
 import java.lang.reflect.Constructor;
@@ -43,23 +44,35 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
-
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileObject;
 import javax.tools.JavaFileObject.Kind;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Option;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.OptionHelper;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.OptionHelper.GrumpyHelper;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Abort;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Options;
 
-import com.sun.tools.javac.main.Option;
-import com.sun.tools.javac.main.OptionHelper;
-import com.sun.tools.javac.main.OptionHelper.GrumpyHelper;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.util.Abort;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.DefinedBy;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.Log;
-import com.sun.tools.javac.util.Options;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility methods for building a file manager.

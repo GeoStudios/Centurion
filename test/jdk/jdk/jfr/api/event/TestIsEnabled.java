@@ -21,10 +21,24 @@
 
 package jdk.jfr.api.event;
 
+
 import jdk.jfr.EventType;
 import jdk.jfr.Recording;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.jfr.SimpleEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

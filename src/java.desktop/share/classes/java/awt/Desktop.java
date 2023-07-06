@@ -19,33 +19,46 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.desktop.AboutEvent;
-import java.awt.desktop.AboutHandler;
-import java.awt.desktop.OpenFilesHandler;
-import java.awt.desktop.OpenURIEvent;
-import java.awt.desktop.OpenURIHandler;
-import java.awt.desktop.PreferencesEvent;
-import java.awt.desktop.PreferencesHandler;
-import java.awt.desktop.PrintFilesHandler;
-import java.awt.desktop.QuitHandler;
-import java.awt.desktop.QuitStrategy;
-import java.awt.desktop.SystemEventListener;
-import java.awt.peer.DesktopPeer;
-import java.io.File;
-import java.io.FilePermission;
-import java.io.IOException;
-import java.net.URI;
-import java.net.URISyntaxException;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.Objects;
 
+import java.desktop.share.classes.java.awt.desktop.AboutEvent;
+import java.desktop.share.classes.java.awt.desktop.AboutHandler;
+import java.desktop.share.classes.java.awt.desktop.OpenFilesHandler;
+import java.desktop.share.classes.java.awt.desktop.OpenURIEvent;
+import java.desktop.share.classes.java.awt.desktop.OpenURIHandler;
+import java.desktop.share.classes.java.awt.desktop.PreferencesEvent;
+import java.desktop.share.classes.java.awt.desktop.PreferencesHandler;
+import java.desktop.share.classes.java.awt.desktop.PrintFilesHandler;
+import java.desktop.share.classes.java.awt.desktop.QuitHandler;
+import java.desktop.share.classes.java.awt.desktop.QuitStrategy;
+import java.desktop.share.classes.java.awt.desktop.SystemEventjava.util.Listener;
+import java.desktop.share.classes.java.awt.peer.DesktopPeer;
+import java.desktop.share.classes.java.io.File;
+import java.desktop.share.classes.java.io.FilePermission;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.net.URI;
+import java.desktop.share.classes.java.net.URISyntaxException;
+import java.desktop.share.classes.java.security.AccessController;
+import java.desktop.share.classes.java.security.PrivilegedAction;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.Objects;
 import javax.swing.JMenuBar;
-
 import sun.awt.SunToolkit;
 import sun.security.util.SecurityConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code Desktop} class allows interact with various desktop capabilities.

@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.lang.model.element;
+package java.compiler.share.classes.javax.lang.model.element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The <i>nesting kind</i> of a type element.
@@ -36,8 +52,8 @@ package javax.lang.model.element;
  *
  * import java.lang.annotation.*;
  * import static java.lang.annotation.RetentionPolicy.*;
- * import javax.lang.model.element.*;
- * import static javax.lang.model.element.NestingKind.*;
+ * import java.compiler.share.classes.javax.lang.model.element.*;
+ * import static java.compiler.share.classes.javax.lang.model.element.NestingKind.*;
  *
  * &#64;Nesting(TOP_LEVEL)
  * public class NestingExamples {

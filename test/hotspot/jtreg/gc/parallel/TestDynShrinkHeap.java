@@ -21,6 +21,29 @@
 
 package gc.parallel;
 
+
+import jdk.test.lib.management.DynamicVMOption;
+import java.lang.management.ManagementFactory;
+import java.lang.management.MemoryUsage;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.text.NumberFormat;
+import static jdk.test.lib.Asserts.assertLessThan;.extended
+import com.sun.management.HotSpotDiagnosticMXBean;
+import gc.testlibrary.Helpers;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestDynShrinkHeap
  * @bug 8016479
@@ -31,14 +54,6 @@ package gc.parallel;
  * @library /test/lib /
  * @run main/othervm -XX:+UseAdaptiveSizePolicyWithSystemGC -XX:+UseParallelGC -XX:MinHeapFreeRatio=0 -XX:MaxHeapFreeRatio=100 -Xmx1g -verbose:gc gc.parallel.TestDynShrinkHeap
  */
-import jdk.test.lib.management.DynamicVMOption;
-import java.lang.management.ManagementFactory;
-import java.lang.management.MemoryUsage;
-import java.util.ArrayList;
-import java.text.NumberFormat;
-import static jdk.test.lib.Asserts.assertLessThan;
-import com.sun.management.HotSpotDiagnosticMXBean;
-import gc.testlibrary.Helpers;
 
 public class TestDynShrinkHeap {
 

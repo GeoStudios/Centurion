@@ -18,26 +18,42 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.view;
 
-import com.sun.hotspot.igv.data.InputGraph;
-import com.sun.hotspot.igv.data.InputNode;
-import com.sun.hotspot.igv.data.Properties;
-import com.sun.hotspot.igv.data.Properties.RegexpPropertyMatcher;
-import com.sun.hotspot.igv.data.services.InputGraphProvider;
-import com.sun.hotspot.igv.settings.Settings;
-import com.sun.hotspot.igv.util.LookupHistory;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-import java.util.regex.Pattern;
+package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view;
+
+
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.InputGraph;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.InputNode;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.Properties;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.Properties.RegexpPropertyMatcher;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.services.InputGraphProvider;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.settings.Settings;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.util.LookupHistory;
+import utils.IdealGraphVisualizer.View.src.main.java.util.Collections;
+import utils.IdealGraphVisualizer.View.src.main.java.util.HashSet;
+import utils.IdealGraphVisualizer.View.src.main.java.util.java.util.java.util.java.util.List;
+import utils.IdealGraphVisualizer.View.src.main.java.util.Set;
+import utils.IdealGraphVisualizer.View.src.main.java.util.regex.Pattern;
 import org.netbeans.spi.quicksearch.SearchProvider;
 import org.netbeans.spi.quicksearch.SearchRequest;
 import org.netbeans.spi.quicksearch.SearchResponse;
 import org.openide.DialogDisplayer;
 import org.openide.NotifyDescriptor;
 import org.openide.NotifyDescriptor.Message;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

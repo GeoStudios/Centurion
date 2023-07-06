@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.remote.security;
+package java.management.share.classes.com.sun.jmx.remote.security;
+
 
 import javax.management.Notification;
 import javax.management.ObjectName;
 import javax.security.auth.Subject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>This interface allows to control remote access to the

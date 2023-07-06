@@ -18,25 +18,41 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.filterwindow;
 
-import com.sun.hotspot.igv.data.ChangedListener;
-import com.sun.hotspot.igv.filter.Filter;
-import com.sun.hotspot.igv.filter.FilterChain;
-import com.sun.hotspot.igv.filterwindow.actions.MoveFilterDownAction;
-import com.sun.hotspot.igv.filterwindow.actions.MoveFilterUpAction;
-import com.sun.hotspot.igv.filterwindow.actions.RemoveFilterAction;
-import com.sun.hotspot.igv.util.PropertiesSheet;
+package utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filterwindow;
+
+
+import utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.data.Changedjava.util.Listener;
+import utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filter.Filter;
+import utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filter.FilterChain;
+import utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filterwindow.actions.MoveFilterDownAction;
+import utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filterwindow.actions.MoveFilterUpAction;
+import utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filterwindow.actions.RemoveFilterAction;
+import utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.util.PropertiesSheet;
 import javax.swing.Action;
 import org.openide.actions.OpenAction;
 import org.openide.nodes.Children;
 import org.openide.nodes.Sheet;
 import org.openide.util.Lookup;
 import org.openide.util.LookupEvent;
-import org.openide.util.LookupListener;
+import org.openide.util.Lookupjava.util.Listener;
 import org.openide.util.Utilities;
 import org.openide.util.lookup.AbstractLookup;
 import org.openide.util.lookup.InstanceContent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

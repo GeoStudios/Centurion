@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.share.classes.sun.print;
+
 
 import java.awt.Graphics;
 import java.awt.Graphics2D;
@@ -29,6 +30,20 @@ import java.awt.print.Printable;
 import java.net.URL;
 import java.io.InputStream;
 import javax.imageio.ImageIO;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class ImagePrinter implements Printable {
 

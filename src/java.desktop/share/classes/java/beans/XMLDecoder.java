@@ -18,19 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.beans;
+
+package java.desktop.share.classes.java.beans;
+
 
 import com.sun.beans.decoder.DocumentHandler;
-
-import java.io.Closeable;
-import java.io.InputStream;
-import java.io.IOException;
-import java.security.AccessControlContext;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-
+import java.desktop.share.classes.java.io.Closeable;
+import java.desktop.share.classes.java.io.InputStream;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.security.AccessControlContext;
+import java.desktop.share.classes.java.security.AccessController;
+import java.desktop.share.classes.java.security.PrivilegedAction;
 import org.xml.sax.InputSource;
 import org.xml.sax.helpers.DefaultHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code XMLDecoder} class is used to read XML documents

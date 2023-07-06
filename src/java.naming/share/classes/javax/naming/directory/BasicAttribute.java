@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.naming.directory;
+package java.naming.share.classes.javax.naming.directory;
+
 
 import java.util.Vector;
 import java.util.Enumeration;
 import java.util.NoSuchElementException;
 import java.lang.reflect.Array;
+import java.naming.share.classes.javax.naming.NamingException;
+import java.naming.share.classes.javax.naming.NamingEnumeration;
+import java.naming.share.classes.javax.naming.OperationNotSupportedException;
 
-import javax.naming.NamingException;
-import javax.naming.NamingEnumeration;
-import javax.naming.OperationNotSupportedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This class provides a basic implementation of the {@code Attribute} interface.

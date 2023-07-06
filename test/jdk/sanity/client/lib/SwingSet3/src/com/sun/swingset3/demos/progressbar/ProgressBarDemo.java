@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package com.sun.swingset3.demos.progressbar;
+
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
@@ -26,9 +28,21 @@ import java.awt.event.ActionEvent;
 import javax.swing.*;
 import javax.swing.border.BevelBorder;
 import javax.swing.border.SoftBevelBorder;
-
 import com.sun.swingset3.DemoProperties;
 import com.sun.swingset3.demos.ResourceManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * JProgressBar Demo

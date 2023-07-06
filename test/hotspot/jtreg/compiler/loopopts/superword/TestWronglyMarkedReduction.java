@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts.superword;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8261147
@@ -26,7 +43,6 @@
  * @run main/othervm -Xcomp -XX:CompileCommand=compileonly,compiler.loopopts.superword.TestWronglyMarkedReduction::*
  *                   compiler.loopopts.superword.TestWronglyMarkedReduction
  */
-package compiler.loopopts.superword;
 
 public class TestWronglyMarkedReduction {
     public static long b = 0;

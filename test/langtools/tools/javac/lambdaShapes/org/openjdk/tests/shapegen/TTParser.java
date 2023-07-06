@@ -21,16 +21,29 @@
 
 package org.openjdk.tests.shapegen;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.io.IOException;
-import java.io.StringReader;
 
-import static java.lang.Character.isLetter;
-import static java.lang.Character.isUpperCase;
-import static java.lang.Character.isWhitespace;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.HashMap;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Map;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.StringReader;
+import static java.lang.Character.isLetter;.extended
+import static java.lang.Character.isUpperCase;.extended
+import static java.lang.Character.isWhitespace;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Parse a type template definition string

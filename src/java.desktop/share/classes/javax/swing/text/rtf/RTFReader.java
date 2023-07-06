@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text.rtf;
+
+package java.desktop.share.classes.javax.swing.text.rtf;
+
 
 import java.lang.*;
 import java.nio.charset.StandardCharsets;
@@ -27,7 +29,21 @@ import java.io.*;
 import java.awt.Color;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import javax.swing.text.*;
+import java.desktop.share.classes.javax.swing.text.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Takes a sequence of RTF tokens and text and appends the text

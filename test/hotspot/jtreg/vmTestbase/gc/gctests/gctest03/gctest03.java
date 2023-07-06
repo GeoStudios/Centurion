@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.gctest03;
+
+
+import nsk.share.test.*;
+import nsk.share.gc.*;
+import nsk.share.TestFailure;
+import nsk.share.TestBug;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*  stress testing
  Redthreads keep removing new nodes from a binary sort tree(
  all nodes of its left subtree is less than itself, all nodes
@@ -45,12 +66,7 @@
  * @run main/othervm gc.gctests.gctest03.gctest03 10000
  */
 
-package gc.gctests.gctest03;
 
-import nsk.share.test.*;
-import nsk.share.gc.*;
-import nsk.share.TestFailure;
-import nsk.share.TestBug;
 
 //import Tree;
 //import Redthread;

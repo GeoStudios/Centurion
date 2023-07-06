@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jgss.krb5;
+package java.security.jgss.share.classes.sun.security.jgss.krb5;
 
-import java.io.IOException;
-import sun.security.util.*;
-import sun.security.jgss.*;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.security.jgss.share.classes.sun.security.util.*;
+import java.security.jgss.share.classes.sun.security.jgss.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents a base class for all Kerberos v5 GSS-API

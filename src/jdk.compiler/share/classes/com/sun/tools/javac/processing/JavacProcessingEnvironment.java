@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.processing;
+package jdk.compiler.share.classes.com.sun.tools.javac.processing;
+
 
 import java.io.Closeable;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.lang.reflect.Method;
@@ -34,7 +35,6 @@ import java.util.Map.Entry;
 import java.util.function.Predicate;
 import java.util.regex.*;
 import java.util.stream.Collectors;
-
 import javax.annotation.processing.*;
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.*;
@@ -43,58 +43,69 @@ import javax.tools.JavaFileManager;
 import javax.tools.JavaFileObject;
 import javax.tools.JavaFileObject.Kind;
 import javax.tools.StandardJavaFileManager;
+import static javax.tools.StandardLocation.*;.extended
+import jdk.compiler.share.classes.com.sun.source.util.TaskEvent;
+import jdk.compiler.share.classes.com.sun.tools.javac.api.MultiTaskjava.util.Listener;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.DeferredCompletionFailureHandler.Handler;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.WriteableScope;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Source.Feature;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.ClassType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Types;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.AttrContext;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Check;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Enter;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Env;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Modules;
+import jdk.compiler.share.classes.com.sun.tools.javac.file.JavacFileManager;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.JavaCompiler;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Option;
+import jdk.compiler.share.classes.com.sun.tools.javac.model.JavacElements;
+import jdk.compiler.share.classes.com.sun.tools.javac.model.JavacTypes;
+import jdk.compiler.share.classes.com.sun.tools.javac.platform.PlatformDescription;
+import jdk.compiler.share.classes.com.sun.tools.javac.platform.PlatformDescription.PluginInfo;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Warnings;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Abort;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.ClientCodeException;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Convert;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Iterators;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JavacMessages;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.MatchingUtils;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.ModuleHelper;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Name;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Names;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Options;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Lint.LintCategory.PROCESSING;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Annotate;
+import static jdk.compiler.share.classes.com.sun.tools.javac.comp.CompileStates.CompileState;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag.*;.extended
 
-import static javax.tools.StandardLocation.*;
 
-import com.sun.source.util.TaskEvent;
-import com.sun.tools.javac.api.MultiTaskListener;
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.DeferredCompletionFailureHandler.Handler;
-import com.sun.tools.javac.code.Scope.WriteableScope;
-import com.sun.tools.javac.code.Source.Feature;
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.code.Type.ClassType;
-import com.sun.tools.javac.code.Types;
-import com.sun.tools.javac.comp.AttrContext;
-import com.sun.tools.javac.comp.Check;
-import com.sun.tools.javac.comp.Enter;
-import com.sun.tools.javac.comp.Env;
-import com.sun.tools.javac.comp.Modules;
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.main.JavaCompiler;
-import com.sun.tools.javac.main.Option;
-import com.sun.tools.javac.model.JavacElements;
-import com.sun.tools.javac.model.JavacTypes;
-import com.sun.tools.javac.platform.PlatformDescription;
-import com.sun.tools.javac.platform.PlatformDescription.PluginInfo;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.resources.CompilerProperties.Warnings;
-import com.sun.tools.javac.tree.*;
-import com.sun.tools.javac.tree.JCTree.*;
-import com.sun.tools.javac.util.Abort;
-import com.sun.tools.javac.util.Assert;
-import com.sun.tools.javac.util.ClientCodeException;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.Convert;
-import com.sun.tools.javac.util.DefinedBy;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.Iterators;
-import com.sun.tools.javac.util.JCDiagnostic;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag;
-import com.sun.tools.javac.util.JavacMessages;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.Log;
-import com.sun.tools.javac.util.MatchingUtils;
-import com.sun.tools.javac.util.ModuleHelper;
-import com.sun.tools.javac.util.Name;
-import com.sun.tools.javac.util.Names;
-import com.sun.tools.javac.util.Options;
 
-import static com.sun.tools.javac.code.Lint.LintCategory.PROCESSING;
-import static com.sun.tools.javac.code.Kinds.Kind.*;
-import com.sun.tools.javac.comp.Annotate;
-import static com.sun.tools.javac.comp.CompileStates.CompileState;
-import static com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag.*;
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Objects of this class hold and manage the state needed to support

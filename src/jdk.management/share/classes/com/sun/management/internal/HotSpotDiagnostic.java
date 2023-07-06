@@ -18,18 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.management.internal;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+package jdk.management.share.classes.com.sun.management.internal;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import javax.management.ObjectName;
-
-import com.sun.management.HotSpotDiagnosticMXBean;
-import com.sun.management.VMOption;
+import jdk.management.share.classes.com.sun.management.HotSpotDiagnosticMXBean;
+import jdk.management.share.classes.com.sun.management.VMOption;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import sun.management.Util;
+import jdk.management.share.classes.com.sun.management.Util;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of the diagnostic MBean for Hotspot VM.

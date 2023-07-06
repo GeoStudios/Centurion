@@ -19,17 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * @test
- * @bug 8176841 8202537 8244245
- * @summary Tests java.time classes deals with Unicode extensions
- *      correctly.
- * @modules jdk.localedata
- */
 package test.java.time.format;
 
-import static org.testng.Assert.assertEquals;
 
+import static org.testng.Assert.assertEquals;.extended
 import java.time.DayOfWeek;
 import java.time.ZonedDateTime;
 import java.time.ZoneId;
@@ -43,14 +36,37 @@ import java.time.format.FormatStyle;
 import java.time.temporal.ChronoField;
 import java.time.temporal.TemporalField;
 import java.time.temporal.WeekFields;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.TimeZone;
 import java.util.stream.Stream;
-
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * @test
+ * @bug 8176841 8202537 8244245
+ * @summary Tests java.time classes deals with Unicode extensions
+ *      correctly.
+ * @modules jdk.localedata
+ */
+
+
+
 
 /**
  * Test JavaTime with BCP47 U extensions

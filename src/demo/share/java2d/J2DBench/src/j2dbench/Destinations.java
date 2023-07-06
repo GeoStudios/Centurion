@@ -19,16 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * This source code is provided to illustrate the usage of a given feature
- * or technique and has been deliberately simplified. Additional steps
- * required for a production-quality application, such as security checks,
- * input validation and proper error handling, might not be present in
- * this sample code.
- */
+package demo.share.java2d.J2DBench.src.j2dbench;
 
-
-package j2dbench;
 
 import java.awt.Component;
 import java.awt.Frame;
@@ -41,11 +33,37 @@ import java.awt.image.BufferedImage;
 import java.awt.image.ComponentColorModel;
 import java.awt.image.DataBuffer;
 import java.awt.image.WritableRaster;
-
 import javax.swing.SwingUtilities;
+import demo.share.java2d.J2DBench.src.j2dbench.tests.GraphicsTests;
+import demo.share.java2d.J2DBench.src.j2dbench.tests.ImageTests;
 
-import j2dbench.tests.GraphicsTests;
-import j2dbench.tests.ImageTests;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * This source code is provided to illustrate the usage of a given feature
+ * or technique and has been deliberately simplified. Additional steps
+ * required for a production-quality application, such as security checks,
+ * input validation and proper error handling, might not be present in
+ * this sample code.
+ */
+
+
+
+
+
+
 
 public abstract class Destinations extends Option.Enable {
     public static Group.EnableSet destroot;

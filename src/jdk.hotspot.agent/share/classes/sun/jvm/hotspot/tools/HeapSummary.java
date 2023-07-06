@@ -19,21 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.tools;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools;
+
 
 import java.io.*;
 import java.util.*;
-import sun.jvm.hotspot.gc.epsilon.*;
-import sun.jvm.hotspot.gc.g1.*;
-import sun.jvm.hotspot.gc.parallel.*;
-import sun.jvm.hotspot.gc.serial.*;
-import sun.jvm.hotspot.gc.shenandoah.*;
-import sun.jvm.hotspot.gc.shared.*;
-import sun.jvm.hotspot.gc.z.*;
-import sun.jvm.hotspot.debugger.JVMDebugger;
-import sun.jvm.hotspot.memory.*;
-import sun.jvm.hotspot.oops.*;
-import sun.jvm.hotspot.runtime.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.epsilon.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.g1.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.parallel.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.serial.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shenandoah.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.z.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.JVMDebugger;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.memory.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class HeapSummary extends Tool {
 

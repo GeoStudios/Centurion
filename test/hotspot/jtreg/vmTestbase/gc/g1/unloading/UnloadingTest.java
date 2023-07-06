@@ -21,13 +21,13 @@
 
 package gc.g1.unloading;
 
+
 import java.lang.Thread.UncaughtExceptionHandler;
 import java.lang.management.*;
 import java.util.Collection;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Random;
 import java.util.concurrent.atomic.AtomicLong;
-
 import gc.g1.unloading.check.Assertion;
 import gc.g1.unloading.check.AssertionContainer;
 import gc.g1.unloading.check.ClassAssertion;
@@ -37,8 +37,20 @@ import nsk.share.gc.GCTestBase;
 import nsk.share.test.ExecutionController;
 import nsk.share.test.Stresser;
 import nsk.share.test.Tests;
-
 import jtreg.SkippedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains main method. It's entry point for all configurations.

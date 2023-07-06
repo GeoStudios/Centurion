@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.share.classes.sun.font;
+
 
 import java.lang.ref.Reference;
 import java.util.concurrent.ConcurrentHashMap;
-import sun.java2d.Disposer;
-import sun.java2d.DisposerRecord;
+import java.desktop.share.classes.sun.java2d.Disposer;
+import java.desktop.share.classes.sun.java2d.DisposerRecord;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This keeps track of data that needs to be cleaned up once a

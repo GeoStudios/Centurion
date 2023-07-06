@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.naming.internal;
+package java.naming.share.classes.com.sun.naming.internal;
 
-import sun.security.util.SecurityProperties;
 
+import java.naming.share.classes.com.sun.security.util.SecurityProperties;
 import javax.naming.Reference;
 import java.io.ObjectInputFilter;
 import java.io.ObjectInputFilter.FilterInfo;
 import java.io.ObjectInputFilter.Status;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements the filter that validates object factories classes instantiated

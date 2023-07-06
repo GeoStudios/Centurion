@@ -21,9 +21,23 @@
 
 package jdk.jpackage.test;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class LauncherIconVerifier {
     public LauncherIconVerifier() {

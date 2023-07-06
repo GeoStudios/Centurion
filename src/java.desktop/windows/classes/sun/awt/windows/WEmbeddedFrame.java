@@ -19,20 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.windows;
+package java.desktop.windows.classes.sun.awt.windows;
 
-import sun.awt.*;
+
+import java.desktop.windows.classes.sun.awt.*;
 import java.awt.*;
 import java.awt.event.InvocationEvent;
 import java.awt.peer.ComponentPeer;
 import java.awt.image.*;
-
-import sun.awt.image.ByteInterleavedRaster;
-import sun.security.action.GetPropertyAction;
-
+import java.desktop.windows.classes.sun.awt.image.ByteInterleavedRaster;
+import java.desktop.windows.classes.sun.security.action.GetPropertyAction;
 import java.awt.peer.FramePeer;
 import java.security.PrivilegedAction;
 import  java.security.AccessController;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // JDK-implementation class
 public class WEmbeddedFrame extends EmbeddedFrame {

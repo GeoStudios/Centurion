@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.im;
+package java.desktop.share.classes.java.awt.im;
 
-import java.awt.Component;
-import java.util.Locale;
-import java.awt.AWTEvent;
-import java.beans.Transient;
-import java.lang.Character.Subset;
+
+import java.desktop.share.classes.java.awt.Component;
+import java.desktop.share.classes.java.util.Locale;
+import java.desktop.share.classes.java.awt.AWTEvent;
+import java.desktop.share.classes.java.beans.Transient;
+import java.desktop.share.classes.java.lang.Character.Subset;
 import sun.awt.im.InputMethodContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides methods to control text input facilities such as input

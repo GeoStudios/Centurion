@@ -21,8 +21,22 @@
 
 package jdk.test;
 
-import java.util.Locale;
+
+import java.base.share.classes.java.util.Locale;
 import java.util.ResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ResourceBundleDelegate {
     public static ResourceBundle getBundle(String baseName, Locale locale) {

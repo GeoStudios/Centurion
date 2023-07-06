@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.parser;
+package jdk.compiler.share.classes.com.sun.tools.javac.parser;
+
 
 import java.util.HashSet;
 import java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Methods used to support text blocks lint.

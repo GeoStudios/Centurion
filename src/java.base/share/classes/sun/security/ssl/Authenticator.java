@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
+
 
 import java.nio.ByteBuffer;
-import java.security.InvalidKeyException;
-import java.security.NoSuchAlgorithmException;
-import java.util.Arrays;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.util.Arrays;
 import javax.crypto.Mac;
-import javax.crypto.SecretKey;
-import sun.security.ssl.CipherSuite.MacAlg;
+import java.base.share.classes.javax.crypto.SecretKey;
+import java.base.share.classes.sun.security.ssl.CipherSuite.MacAlg;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents an SSL/TLS/DTLS message authentication token,

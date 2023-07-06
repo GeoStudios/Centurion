@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.coordinator.actions;
 
-import com.sun.hotspot.igv.data.InputGraph;
-import com.sun.hotspot.igv.data.services.GraphViewer;
+package utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator.actions;
+
+
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.data.InputGraph;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.data.services.GraphViewer;
 import org.openide.nodes.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class GraphCloneCookie implements Node.Cookie {
 

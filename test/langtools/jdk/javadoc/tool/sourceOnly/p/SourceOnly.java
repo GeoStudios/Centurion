@@ -21,18 +21,30 @@
 
 package p;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Locale;
-import java.util.Set;
 
+import java.base.share.classes.java.util.Arrays;
+import java.util.Collections;
+import java.base.share.classes.java.util.Locale;
+import java.util.Set;
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.TypeElement;
 import javax.lang.model.util.ElementFilter;
-
 import jdk.javadoc.doclet.Doclet;
 import jdk.javadoc.doclet.DocletEnvironment;
 import jdk.javadoc.doclet.Reporter;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Test that when running javadoc on a package, we only get
  *  documentation for those classes for which source was provided.

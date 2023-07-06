@@ -21,9 +21,23 @@
 
 package nsk.jdi.VirtualMachine.redefineClasses;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  <code>redefineclasses021a</code> is deugee's part of the redefineclasses021.

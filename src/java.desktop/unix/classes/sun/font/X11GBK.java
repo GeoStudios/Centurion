@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.unix.classes.sun.font;
+
 
 import java.nio.charset.*;
-import sun.nio.cs.*;
-import static sun.nio.cs.CharsetMapping.*;
+import java.desktop.unix.classes.sun.nio.cs.*;
+import static java.desktop.unix.classes.sun.nio.cs.CharsetMapping.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class X11GBK extends Charset {
     public X11GBK () {

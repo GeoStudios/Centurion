@@ -19,17 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.lang.invoke;
+
+
+import org.testng.*;
+import static org.testng.AssertJUnit.*;.extended
+import org.testng.annotations.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @summary tests for class-specific values
  * @compile ClassValueTest.java
  * @run testng/othervm test.java.lang.invoke.ClassValueTest
  */
 
-package test.java.lang.invoke;
 
-import org.testng.*;
-import static org.testng.AssertJUnit.*;
-import org.testng.annotations.*;
 
 /**
  * @author jrose

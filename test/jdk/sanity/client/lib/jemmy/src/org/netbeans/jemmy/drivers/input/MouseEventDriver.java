@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.drivers.input;
+
 
 import java.awt.Component;
 import java.awt.event.MouseEvent;
@@ -26,6 +28,19 @@ import org.netbeans.jemmy.Timeout;
 import org.netbeans.jemmy.drivers.MouseDriver;
 import org.netbeans.jemmy.operators.ComponentOperator;
 import org.netbeans.jemmy.operators.Operator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * MouseDriver using event dispatching.

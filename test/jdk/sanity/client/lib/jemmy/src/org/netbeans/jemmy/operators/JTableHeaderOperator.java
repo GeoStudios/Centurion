@@ -18,22 +18,22 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.operators;
+
 
 import java.awt.Component;
 import java.awt.Point;
 import java.awt.Rectangle;
-
 import javax.swing.JTable;
 import javax.swing.event.ChangeEvent;
-import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.java.util.ListSelectionEvent;
 import javax.swing.event.TableColumnModelEvent;
 import javax.swing.plaf.TableHeaderUI;
 import javax.swing.table.JTableHeader;
 import javax.swing.table.TableCellRenderer;
 import javax.swing.table.TableColumn;
 import javax.swing.table.TableColumnModel;
-
 import org.netbeans.jemmy.ComponentChooser;
 import org.netbeans.jemmy.ComponentSearcher;
 import org.netbeans.jemmy.Outputable;
@@ -41,7 +41,20 @@ import org.netbeans.jemmy.TestOut;
 import org.netbeans.jemmy.Timeoutable;
 import org.netbeans.jemmy.Timeouts;
 import org.netbeans.jemmy.drivers.DriverManager;
-import org.netbeans.jemmy.drivers.OrderedListDriver;
+import org.netbeans.jemmy.drivers.Orderedjava.util.ListDriver;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ComponentOperator.BeforeDragTimeout - time to sleep before column moving <BR>

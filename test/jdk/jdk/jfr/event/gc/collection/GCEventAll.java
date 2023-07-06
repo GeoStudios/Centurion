@@ -21,17 +21,17 @@
 
 package jdk.jfr.event.gc.collection;
 
+
 import java.lang.management.ManagementFactory;
 import java.time.Duration;
 import java.time.Instant;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Random;
 import java.util.Set;
 import java.util.stream.Collectors;
-
 import jdk.jfr.EventType;
 import jdk.jfr.FlightRecorder;
 import jdk.jfr.Recording;
@@ -40,6 +40,19 @@ import jdk.test.lib.Asserts;
 import jdk.test.lib.jfr.EventNames;
 import jdk.test.lib.jfr.Events;
 import jdk.test.lib.jfr.GCHelper;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Tests for event garbage_collection.

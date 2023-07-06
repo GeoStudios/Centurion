@@ -18,25 +18,37 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.gaptest;
 
-import static jaxp.library.JAXPTestUtilities.filenameToURL;
-import static test.gaptest.GapTestConst.XML_DIR;
 
-import java.io.IOException;
-
+import static jaxp.library.JAXPTestUtilities.filenameToURL;.extended
+import static test.gaptest.GapTestConst.XML_DIR;.extended
+import java.io.java.io.java.io.java.io.IOException;
 import javax.xml.XMLConstants;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
-
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.ErrorHandler;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 import org.xml.sax.XMLReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.management;
+package java.management.share.classes.sun.management;
 
-import javax.management.ListenerNotFoundException;
+
+import javax.management.java.util.ListenerNotFoundException;
 import javax.management.MBeanNotificationInfo;
 import javax.management.Notification;
 import javax.management.NotificationEmitter;
 import javax.management.NotificationFilter;
-import javax.management.NotificationListener;
-
-import java.util.List;
-import java.util.ArrayList;
+import javax.management.Notificationjava.util.Listener;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract helper class for notification emitter support.

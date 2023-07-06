@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.share.classes.javax.swing;
 
-package javax.swing;
 
 import java.awt.event.*;
 import java.awt.*;
-import java.util.Objects;
-import javax.swing.event.MenuKeyEvent;
-import javax.swing.event.MenuKeyListener;
+import java.base.share.classes.java.util.Objects;
+import java.desktop.share.classes.javax.swing.event.MenuKeyEvent;
+import java.desktop.share.classes.javax.swing.event.MenuKeyjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Manages all the <code>ToolTips</code> in the system.

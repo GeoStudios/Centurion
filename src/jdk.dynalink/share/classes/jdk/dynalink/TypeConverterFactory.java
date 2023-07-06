@@ -19,6 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.dynalink.share.classes.jdk.dynalink;
+
+
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodHandles.Lookup;
+import java.lang.invoke.MethodType;
+import java.lang.invoke.WrongMethodTypeException;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.util.function.Supplier;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.ConversionComparator;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.ConversionComparator.Comparison;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.GuardedInvocation;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.GuardingTypeConverterFactory;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkerServices;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.MethodTypeConversionStrategy;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.support.TypeUtilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -26,23 +59,8 @@
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-package jdk.dynalink;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodHandles.Lookup;
-import java.lang.invoke.MethodType;
-import java.lang.invoke.WrongMethodTypeException;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.function.Supplier;
-import jdk.dynalink.linker.ConversionComparator;
-import jdk.dynalink.linker.ConversionComparator.Comparison;
-import jdk.dynalink.linker.GuardedInvocation;
-import jdk.dynalink.linker.GuardingTypeConverterFactory;
-import jdk.dynalink.linker.LinkerServices;
-import jdk.dynalink.linker.MethodTypeConversionStrategy;
-import jdk.dynalink.linker.support.TypeUtilities;
+
 
 /**
  * A factory for type converters. This class is the main implementation behind the

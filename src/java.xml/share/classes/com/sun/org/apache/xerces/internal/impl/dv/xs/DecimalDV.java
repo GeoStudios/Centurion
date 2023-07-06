@@ -19,19 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs;
+
+
+import java.math.BigDecimal;
+import java.math.BigInteger;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.ValidationContext;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.datatypes.XSDecimal;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.impl.dv.xs;
 
-import java.math.BigDecimal;
-import java.math.BigInteger;
 
-import com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
-import com.sun.org.apache.xerces.internal.impl.dv.ValidationContext;
-import com.sun.org.apache.xerces.internal.xs.datatypes.XSDecimal;
-import java.util.Objects;
+
 
 /**
  * Represent the schema type "decimal"

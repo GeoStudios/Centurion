@@ -19,6 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
+import java.lang.constant.*;
+import java.lang.invoke.*;
+import java.lang.invoke.MethodHandles.Lookup;
+import java.lang.reflect.Array;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import static java.lang.invoke.MethodType.*;.extended
+import org.testng.annotations.Test;
+import org.testng.annotations.DataProvider;
+import static org.testng.Assert.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8242013
@@ -28,21 +57,8 @@
  *          MethodTypeDesc factory methods
  */
 
-package test;
 
-import java.io.IOException;
-import java.io.UncheckedIOException;
-import java.lang.constant.*;
-import java.lang.invoke.*;
-import java.lang.invoke.MethodHandles.Lookup;
-import java.lang.reflect.Array;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import static java.lang.invoke.MethodType.*;
 
-import org.testng.annotations.Test;
-import org.testng.annotations.DataProvider;
-import static org.testng.Assert.*;
 
 public class TypeDescriptorTest {
     private static final Lookup HC_LOOKUP = defineHiddenClass();

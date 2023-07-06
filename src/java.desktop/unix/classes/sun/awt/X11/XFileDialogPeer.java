@@ -19,21 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
 import java.awt.peer.*;
 import java.io.*;
-import java.util.Locale;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.Arrays;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
+import java.desktop.unix.classes.sun.awt.AWTAccessor.ComponentAccessor;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+import java.desktop.unix.classes.sun.awt.AWTAccessor;
 
-import sun.awt.AWTAccessor.ComponentAccessor;
-import sun.util.logging.PlatformLogger;
-import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class XFileDialogPeer extends XDialogPeer
         implements FileDialogPeer, ActionListener, ItemListener,
@@ -131,7 +145,7 @@ class XFileDialogPeer extends XDialogPeer
     }
 
     XFileDialogPeer(FileDialog target) {
-        super((Dialog)target);
+        super(target);
         this.target = target;
     }
 

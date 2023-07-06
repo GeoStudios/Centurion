@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.ThreadReference.forceEarlyReturn.forceEarlyReturn005;
+
+
+import java.io.PrintStream;
+import com.sun.jdi.ReferenceType;
+import com.sun.jdi.ThreadReference;
+import com.sun.jdi.event.BreakpointEvent;
+import com.sun.jdi.request.BreakpointRequest;
+import com.sun.jdi.request.EventRequest;
+import nsk.share.Consts;
+import nsk.share.jdi.ForceEarlyReturnDebugger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -59,16 +84,7 @@
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
 
-package nsk.jdi.ThreadReference.forceEarlyReturn.forceEarlyReturn005;
 
-import java.io.PrintStream;
-import com.sun.jdi.ReferenceType;
-import com.sun.jdi.ThreadReference;
-import com.sun.jdi.event.BreakpointEvent;
-import com.sun.jdi.request.BreakpointRequest;
-import com.sun.jdi.request.EventRequest;
-import nsk.share.Consts;
-import nsk.share.jdi.ForceEarlyReturnDebugger;
 
 public class forceEarlyReturn005 extends ForceEarlyReturnDebugger {
     public static void main(String argv[]) {

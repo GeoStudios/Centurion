@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5;
+package java.security.jgss.share.classes.sun.security.krb5;
+
 
 import java.io.*;
 import java.nio.file.DirectoryStream;
@@ -34,12 +35,25 @@ import java.security.AccessController;
 import java.security.PrivilegedExceptionAction;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.security.jgss.share.classes.sun.net.dns.ResolverConfiguration;
+import java.security.jgss.share.classes.sun.security.action.GetPropertyAction;
+import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.EType;
+import java.security.jgss.share.classes.sun.security.krb5.internal.Krb5;
+import java.security.jgss.share.classes.sun.security.util.SecurityProperties;
 
-import sun.net.dns.ResolverConfiguration;
-import sun.security.action.GetPropertyAction;
-import sun.security.krb5.internal.crypto.EType;
-import sun.security.krb5.internal.Krb5;
-import sun.security.util.SecurityProperties;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class maintains key-value pairs of Kerberos configurable constants

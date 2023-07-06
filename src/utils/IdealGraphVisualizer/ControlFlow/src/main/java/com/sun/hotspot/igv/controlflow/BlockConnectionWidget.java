@@ -18,17 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.controlflow;
 
-import com.sun.hotspot.igv.data.InputBlockEdge;
-import com.sun.hotspot.igv.layout.Link;
-import com.sun.hotspot.igv.layout.Port;
-import java.awt.BasicStroke;
-import java.awt.Point;
-import java.awt.Stroke;
-import java.util.ArrayList;
-import java.util.List;
+package utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.controlflow;
+
+
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.data.InputBlockEdge;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.layout.Link;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.layout.Port;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.awt.BasicStroke;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.awt.Point;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.awt.Stroke;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.util.Arrayjava.util.java.util.java.util.List;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.util.java.util.java.util.java.util.List;
 import org.netbeans.api.visual.widget.ConnectionWidget;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

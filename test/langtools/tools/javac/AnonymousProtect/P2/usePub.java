@@ -21,6 +21,21 @@
 
 package P2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class usePub extends P1.pub {
     void bar () {
         P1.pubExposePriv pd = new P1.pubExposePriv(new P1.pub());

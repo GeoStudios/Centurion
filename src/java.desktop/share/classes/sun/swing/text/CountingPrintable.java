@@ -18,10 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.swing.text;
+
+package java.desktop.share.classes.sun.swing.text;
 
 
 import java.awt.print.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Printable which counts the number of pages.

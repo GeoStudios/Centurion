@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.gif;
+package java.desktop.share.classes.com.sun.imageio.plugins.gif;
 
-import java.io.IOException;
-import java.util.Locale;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.util.Locale;
 import java.util.Iterator;
 import javax.imageio.ImageReader;
 import javax.imageio.metadata.IIOMetadataFormat;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
 import javax.imageio.spi.ImageReaderSpi;
 import javax.imageio.stream.ImageInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class GIFImageReaderSpi extends ImageReaderSpi {
 

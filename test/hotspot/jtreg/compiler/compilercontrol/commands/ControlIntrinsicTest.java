@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.compilercontrol.commands;
+
+
+import compiler.compilercontrol.share.IntrinsicCommand;
+import compiler.compilercontrol.share.IntrinsicCommand.IntrinsicId;
+import compiler.compilercontrol.share.scenario.Scenario;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8247732
@@ -31,11 +51,7 @@
  * @run driver compiler.compilercontrol.commands.ControlIntrinsicTest
  */
 
-package compiler.compilercontrol.commands;
 
-import compiler.compilercontrol.share.IntrinsicCommand;
-import compiler.compilercontrol.share.IntrinsicCommand.IntrinsicId;
-import compiler.compilercontrol.share.scenario.Scenario;
 
 public class ControlIntrinsicTest {
     public static void main(String[] args) {

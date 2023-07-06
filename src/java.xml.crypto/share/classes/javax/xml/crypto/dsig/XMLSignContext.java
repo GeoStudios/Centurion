@@ -18,13 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package java.xml.crypto.share.classes.javax.xml.crypto.dsig;
+
+
+import java.xml.crypto.share.classes.javax.xml.crypto.KeySelector;
+import java.xml.crypto.share.classes.javax.xml.crypto.XMLCryptoContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: XMLSignContext.java,v 1.8 2005/05/10 16:03:48 mullan Exp $
  */
-package javax.xml.crypto.dsig;
 
-import javax.xml.crypto.KeySelector;
-import javax.xml.crypto.XMLCryptoContext;
+
 
 /**
  * Contains context information for generating XML Signatures. This interface

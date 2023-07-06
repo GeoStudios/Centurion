@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
 
 import java.awt.Component;
 import java.awt.Container;
@@ -29,14 +30,13 @@ import java.awt.Point;
 import java.awt.Window;
 import java.awt.event.KeyEvent;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.lang.reflect.InvocationTargetException;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.Callable;
-
 import javax.accessibility.Accessible;
 import javax.accessibility.AccessibleAction;
 import javax.accessibility.AccessibleComponent;
@@ -55,9 +55,22 @@ import javax.swing.JLabel;
 import javax.swing.JMenuItem;
 import javax.swing.JTextArea;
 import javax.swing.KeyStroke;
+import java.desktop.macosx.classes.sun.awt.AWTAccessor;
+import java.desktop.macosx.classes.sun.lwawt.LWWindowPeer;
 
-import sun.awt.AWTAccessor;
-import sun.lwawt.LWWindowPeer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("removal")
 class CAccessibility implements PropertyChangeListener {

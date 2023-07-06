@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.profiling;
+
+
+import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8031752
@@ -34,9 +52,7 @@
  *                   compiler.profiling.TestSpecTrapClassUnloading
  */
 
-package compiler.profiling;
 
-import java.lang.reflect.Method;
 
 public class TestSpecTrapClassUnloading {
     static class B {

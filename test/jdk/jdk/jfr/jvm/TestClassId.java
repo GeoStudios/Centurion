@@ -21,11 +21,24 @@
 
 package jdk.jfr.jvm;
 
-import static jdk.test.lib.Asserts.assertGreaterThan;
-import static jdk.test.lib.Asserts.assertNE;
 
+import static jdk.test.lib.Asserts.assertGreaterThan;.extended
+import static jdk.test.lib.Asserts.assertNE;.extended
 import jdk.jfr.internal.JVM;
 import jdk.jfr.internal.Type;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test TestClassId

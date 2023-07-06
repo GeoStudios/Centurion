@@ -19,22 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.org.objectweb.asm.util;
+package java.base.share.classes.jdk.internal.org.objectweb.asm.util;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import jdk.internal.org.objectweb.asm.Attribute;
-import jdk.internal.org.objectweb.asm.ConstantDynamic;
-import jdk.internal.org.objectweb.asm.Handle;
-import jdk.internal.org.objectweb.asm.Label;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.Type;
-import jdk.internal.org.objectweb.asm.TypePath;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Attribute;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ConstantDynamic;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Handle;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Label;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Type;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.TypePath;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@link Printer} that prints the ASM code to generate the classes if visits.
@@ -185,23 +200,23 @@ public class ASMifier extends Printer {
             if (lastSlashIndex == -1) {
                 simpleName = name;
             } else {
-                text.add("package asm." + name.substring(0, lastSlashIndex).replace('/', '.') + ";\n");
+                text.add("
                 simpleName = name.substring(lastSlashIndex + 1).replaceAll("[-\\(\\)]", "_");
             }
         }
-        text.add("import jdk.internal.org.objectweb.asm.AnnotationVisitor;\n");
-        text.add("import jdk.internal.org.objectweb.asm.Attribute;\n");
-        text.add("import jdk.internal.org.objectweb.asm.ClassReader;\n");
-        text.add("import jdk.internal.org.objectweb.asm.ClassWriter;\n");
-        text.add("import jdk.internal.org.objectweb.asm.ConstantDynamic;\n");
-        text.add("import jdk.internal.org.objectweb.asm.FieldVisitor;\n");
-        text.add("import jdk.internal.org.objectweb.asm.Handle;\n");
-        text.add("import jdk.internal.org.objectweb.asm.Label;\n");
-        text.add("import jdk.internal.org.objectweb.asm.MethodVisitor;\n");
-        text.add("import jdk.internal.org.objectweb.asm.Opcodes;\n");
-        text.add("import jdk.internal.org.objectweb.asm.RecordComponentVisitor;\n");
-        text.add("import jdk.internal.org.objectweb.asm.Type;\n");
-        text.add("import jdk.internal.org.objectweb.asm.TypePath;\n");
+        text.add("import java.base.share.classes.jdk.internal.org.objectweb.asm.AnnotationVisitor\n");
+        text.add("import java.base.share.classes.jdk.internal.org.objectweb.asm.Attribute;\n");
+        text.add("import java.base.share.classes.jdk.internal.org.objectweb.asm.ClassReader\n");
+        text.add("import java.base.share.classes.jdk.internal.org.objectweb.asm.ClassWriter\n");
+        text.add("import java.base.share.classes.jdk.internal.org.objectweb.asm.ConstantDynamic;\n");
+        text.add("import java.base.share.classes.jdk.internal.org.objectweb.asm.FieldVisitor\n");
+        text.add("import java.base.share.classes.jdk.internal.org.objectweb.asm.Handle;\n");
+        text.add("import java.base.share.classes.jdk.internal.org.objectweb.asm.Label;\n");
+        text.add("import java.base.share.classes.jdk.internal.org.objectweb.asm.MethodVisitor\n");
+        text.add("import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;\n");
+        text.add("import java.base.share.classes.jdk.internal.org.objectweb.asm.RecordComponentVisitor\n");
+        text.add("import java.base.share.classes.jdk.internal.org.objectweb.asm.Type;\n");
+        text.add("import java.base.share.classes.jdk.internal.org.objectweb.asm.TypePath;\n");
         text.add("public class " + simpleName + "Dump implements Opcodes {\n\n");
         text.add("public static byte[] dump () throws Exception {\n\n");
         text.add("ClassWriter classWriter = new ClassWriter(0);\n");

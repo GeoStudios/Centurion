@@ -19,23 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jshell;
+package jdk.jshell.share.classes.jdk.jshell;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.stream.Stream;
+import static jdk.jshell.share.classes.jdk.jshell.Util.PREFIX_PATTERN;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Util.REPL_PACKAGE;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.debug.InternalDebugControl.DBG_DEP;.extended
 
-import static jdk.jshell.Util.PREFIX_PATTERN;
-import static jdk.jshell.Util.REPL_PACKAGE;
-import static jdk.internal.jshell.debug.InternalDebugControl.DBG_DEP;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Maintain relationships between the significant entities: Snippets,

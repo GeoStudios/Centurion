@@ -18,17 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.code;
+
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code;
+
 
 import java.util.Collections;
 import java.util.IdentityHashMap;
 import java.util.Set;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.common.JVMCIError;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.JavaKind;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.JavaValue;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.ResolvedJavaField;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.ResolvedJavaType;
 
-import jdk.vm.ci.common.JVMCIError;
-import jdk.vm.ci.meta.JavaKind;
-import jdk.vm.ci.meta.JavaValue;
-import jdk.vm.ci.meta.ResolvedJavaField;
-import jdk.vm.ci.meta.ResolvedJavaType;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An instance of this class represents an object whose allocation was removed by escape analysis.

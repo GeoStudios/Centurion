@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.lang.model.type;
+package java.compiler.share.classes.javax.lang.model.type;
 
-import javax.lang.model.element.*;
-import javax.lang.model.util.*;
+
+import java.compiler.share.classes.javax.lang.model.element.*;
+import java.compiler.share.classes.javax.lang.model.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A visitor of types, in the style of the

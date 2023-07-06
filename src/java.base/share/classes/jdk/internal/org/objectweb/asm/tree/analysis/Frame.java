@@ -19,19 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.org.objectweb.asm.tree.analysis;
+package java.base.share.classes.jdk.internal.org.objectweb.asm.tree.analysis;
 
-import java.util.ArrayList;
-import java.util.List;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.Type;
-import jdk.internal.org.objectweb.asm.tree.AbstractInsnNode;
-import jdk.internal.org.objectweb.asm.tree.IincInsnNode;
-import jdk.internal.org.objectweb.asm.tree.InvokeDynamicInsnNode;
-import jdk.internal.org.objectweb.asm.tree.LabelNode;
-import jdk.internal.org.objectweb.asm.tree.MethodInsnNode;
-import jdk.internal.org.objectweb.asm.tree.MultiANewArrayInsnNode;
-import jdk.internal.org.objectweb.asm.tree.VarInsnNode;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Type;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.AbstractInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.IincInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.InvokeDynamicInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.LabelNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.MethodInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.MultiANewArrayInsnNode;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.VarInsnNode;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A symbolic execution stack frame. A stack frame contains a set of local variable slots, and an

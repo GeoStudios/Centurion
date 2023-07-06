@@ -21,6 +21,21 @@
 
 package PrimitiveVariant;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 interface I {
     double m();
 }

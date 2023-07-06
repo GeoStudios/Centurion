@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.org.xml.sax;
+package java.base.share.classes.jdk.internal.org.xml.sax;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InvalidClassException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.ObjectStreamField;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Encapsulate a general SAX error or warning.

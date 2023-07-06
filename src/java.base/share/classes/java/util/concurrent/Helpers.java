@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.java.util.concurrent;
+
+
+import java.base.share.classes.java.util.Collection;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -30,9 +49,8 @@
  * explained at http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent;
 
-import java.util.Collection;
+
 
 /** Shared implementation code for java.util.concurrent. */
 class Helpers {

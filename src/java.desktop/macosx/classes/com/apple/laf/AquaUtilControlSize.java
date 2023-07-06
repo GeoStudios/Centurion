@@ -19,22 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.*;
 import java.beans.*;
 import java.security.AccessController;
-
 import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.plaf.*;
-
-import apple.laf.*;
-import apple.laf.JRSUIConstants.*;
-
-import com.apple.laf.AquaUtils.RecyclableSingleton;
-import com.apple.laf.AquaUtils.RecyclableSingletonFromDefaultConstructor;
+import java.desktop.macosx.classes.com.apple.laf.*;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.*;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingletonFromDefaultConstructor;
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaUtilControlSize {
     protected static final String CLIENT_PROPERTY_KEY = "JComponent.sizeVariant";

@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.access;
+package java.base.share.classes.jdk.internal.access;
+
 
 import java.security.AccessControlContext;
 import java.security.PermissionCollection;
 import java.security.PrivilegedAction;
 import java.security.ProtectionDomain;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface JavaSecurityAccess {
 

@@ -21,27 +21,26 @@
 
 package javax.xml.parsers.ptests;
 
-import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;
-import static javax.xml.parsers.ptests.ParserTestConst.GOLDEN_DIR;
-import static javax.xml.parsers.ptests.ParserTestConst.XML_DIR;
-import static jaxp.library.JAXPTestUtilities.USER_DIR;
-import static jaxp.library.JAXPTestUtilities.compareWithGold;
-import static jaxp.library.JAXPTestUtilities.filenameToURL;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertNotNull;
-import static org.testng.Assert.assertNull;
-import static org.testng.Assert.assertTrue;
-import static org.testng.Assert.assertSame;
-import static org.testng.Assert.assertNotSame;
 
+import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;.extended
+import static javax.xml.parsers.ptests.ParserTestConst.GOLDEN_DIR;.extended
+import static javax.xml.parsers.ptests.ParserTestConst.XML_DIR;.extended
+import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
+import static jaxp.library.JAXPTestUtilities.compareWithGold;.extended
+import static jaxp.library.JAXPTestUtilities.filenameToURL;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertFalse;.extended
+import static org.testng.Assert.assertNotNull;.extended
+import static org.testng.Assert.assertNull;.extended
+import static org.testng.Assert.assertTrue;.extended
+import static org.testng.Assert.assertSame;.extended
+import static org.testng.Assert.assertNotSame;.extended
 import java.io.BufferedReader;
 import java.io.Closeable;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.FactoryConfigurationError;
@@ -52,18 +51,29 @@ import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.sax.SAXResult;
-
 import jaxp.library.JAXPDataProvider;
-
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
+import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @bug 8080907 8169778

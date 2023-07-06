@@ -18,15 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.tools.compiler;
 
-import java.util.Arrays;
-import java.util.Collection;
+package utils.LogCompilation.src.test.java.com.sun.hotspot.tools.compiler;
+
+
+import utils.LogCompilation.src.test.java.util.java.util.java.util.java.util.Arrays;
+import utils.LogCompilation.src.test.java.util.Collection;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @RunWith(value = Parameterized.class)
 public class TestCompare {

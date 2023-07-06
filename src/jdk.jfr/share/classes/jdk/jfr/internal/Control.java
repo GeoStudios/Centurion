@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal;
+package jdk.jfr.share.classes.jdk.jfr.internal;
+
 
 import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.Collections;
 import java.util.HashSet;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
+import jdk.jfr.share.classes.jdk.jfr.SettingControl;
+import jdk.jfr.share.classes.jdk.jfr.internal.settings.JDKSettingControl;
 
-import jdk.jfr.SettingControl;
-import jdk.jfr.internal.settings.JDKSettingControl;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class Control {
     @SuppressWarnings("removal")

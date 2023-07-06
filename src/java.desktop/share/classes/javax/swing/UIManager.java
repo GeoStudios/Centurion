@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing;
+
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.Component;
 import java.awt.Font;
@@ -28,36 +30,42 @@ import java.awt.Dimension;
 import java.awt.KeyboardFocusManager;
 import java.awt.KeyEventPostProcessor;
 import java.awt.Toolkit;
-
 import java.awt.event.KeyEvent;
-
 import java.security.AccessController;
-
-import javax.swing.plaf.ComponentUI;
-import javax.swing.border.Border;
-
-import javax.swing.event.SwingPropertyChangeSupport;
-import java.beans.PropertyChangeListener;
-
+import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
+import java.desktop.share.classes.javax.swing.border.Border;
+import java.desktop.share.classes.javax.swing.event.SwingPropertyChangeSupport;
+import java.beans.PropertyChangejava.util.Listener;
 import java.io.Serializable;
 import java.io.File;
 import java.io.FileInputStream;
-
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Properties;
 import java.util.StringTokenizer;
 import java.util.Vector;
-import java.util.Locale;
-
+import java.base.share.classes.java.util.Locale;
 import sun.awt.SunToolkit;
 import sun.awt.OSInfo;
 import sun.security.action.GetPropertyAction;
 import sun.swing.SwingUtilities2;
 import java.lang.reflect.Method;
 import java.util.HashMap;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import sun.awt.AppContext;
 import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

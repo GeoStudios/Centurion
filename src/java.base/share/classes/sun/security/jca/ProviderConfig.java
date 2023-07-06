@@ -19,15 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jca;
+package java.base.share.classes.sun.security.jca;
+
 
 import java.io.File;
 import java.lang.reflect.*;
 import java.util.*;
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.sun.security.util.PropertyExpander;
 
-import java.security.*;
 
-import sun.security.util.PropertyExpander;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class representing a configured provider which encapsulates configuration

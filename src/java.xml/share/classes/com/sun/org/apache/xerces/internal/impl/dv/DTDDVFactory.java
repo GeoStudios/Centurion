@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.dv;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv;
 
-import com.sun.org.apache.xerces.internal.impl.dv.dtd.DTDDVFactoryImpl;
-import com.sun.org.apache.xerces.internal.impl.dv.dtd.XML11DTDDVFactoryImpl;
-import com.sun.org.apache.xerces.internal.utils.ObjectFactory;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.dtd.DTDDVFactoryImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.dtd.XML11DTDDVFactoryImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.ObjectFactory;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The factory to create and return DTD types. The implementation should

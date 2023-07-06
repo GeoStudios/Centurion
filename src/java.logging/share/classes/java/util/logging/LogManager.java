@@ -19,26 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.logging;
+package java.logging.share.classes.java.util.logging;
 
-import java.io.*;
-import java.util.*;
-import java.security.*;
-import java.lang.ref.ReferenceQueue;
-import java.lang.ref.WeakReference;
-import java.util.concurrent.ConcurrentHashMap;
-import java.nio.file.Paths;
-import java.util.concurrent.CopyOnWriteArrayList;
-import java.util.concurrent.locks.ReentrantLock;
-import java.util.function.BiFunction;
-import java.util.function.Function;
-import java.util.function.Predicate;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+
+import java.logging.share.classes.java.io.*;
+import java.logging.share.classes.java.util.*;
+import java.logging.share.classes.java.security.*;
+import java.logging.share.classes.java.lang.ref.ReferenceQueue;
+import java.logging.share.classes.java.lang.ref.WeakReference;
+import java.logging.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.logging.share.classes.java.nio.file.Paths;
+import java.logging.share.classes.java.util.concurrent.CopyOnWriteArrayjava.util.java.util.java.util.List;
+import java.logging.share.classes.java.util.concurrent.locks.ReentrantLock;
+import java.logging.share.classes.java.util.function.BiFunction;
+import java.logging.share.classes.java.util.function.Function;
+import java.logging.share.classes.java.util.function.Predicate;
+import java.logging.share.classes.java.util.stream.Collectors;
+import java.logging.share.classes.java.util.stream.Stream;
 import jdk.internal.access.JavaAWTAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import sun.util.logging.internal.LoggingProviderImpl;
-import static jdk.internal.logger.DefaultLoggerFinder.isSystem;
+import static jdk.internal.logger.DefaultLoggerFinder.isSystem;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * There is a single global LogManager object that is used to
@@ -1015,7 +1030,7 @@ public class LogManager {
                 handlers.add(hdl);
             } catch (Exception ex) {
                 System.err.println("Can't load log handler \"" + type + "\"");
-                System.err.println(String.valueOf(ex));
+                System.err.println(ex);
                 ex.printStackTrace();
             }
         }
@@ -1369,7 +1384,7 @@ public class LogManager {
                 }
             } catch (Exception ex) {
                 System.err.println("Logging configuration class \"" + cname + "\" failed");
-                System.err.println(String.valueOf(ex));
+                System.err.println(ex);
                 // keep going and useful config file.
             }
         }
@@ -1600,7 +1615,7 @@ public class LogManager {
                         Object witness = clz.newInstance();
                     } catch (Exception ex) {
                         System.err.println("Can't load config class \"" + word + "\"");
-                        System.err.println(String.valueOf(ex));
+                        System.err.println(ex);
                         // ex.printStackTrace();
                     }
                 }

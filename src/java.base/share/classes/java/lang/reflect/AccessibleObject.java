@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.reflect;
+package java.base.share.classes.java.lang.reflect;
 
-import java.lang.annotation.Annotation;
-import java.lang.invoke.MethodHandle;
-import java.lang.ref.WeakReference;
-import java.security.AccessController;
 
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.java.lang.annotation.Annotation;
+import java.base.share.classes.java.lang.invoke.MethodHandle;
+import java.base.share.classes.java.lang.ref.WeakReference;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.misc.VM;
 import jdk.internal.reflect.CallerSensitive;
 import jdk.internal.reflect.Reflection;
 import jdk.internal.reflect.ReflectionFactory;
 import sun.security.action.GetPropertyAction;
 import sun.security.util.SecurityConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code AccessibleObject} class is the base class for {@code Field},
@@ -44,8 +58,8 @@ import sun.security.util.SecurityConstants;
  * in a manner that would normally be prohibited.
  *
  * <p> Java language access control prevents use of private members outside
- * their top-level class; package access members outside their package; protected members
- * outside their package or subclasses; and public members outside their
+ * their top-level class;  protected members
+ * outside their  and public members outside their
  * module unless they are declared in an {@link Module#isExported(String,Module)
  * exported} package and the user {@link Module#canRead reads} their module. By
  * default, Java language access control is enforced (with one variation) when

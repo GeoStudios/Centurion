@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.w3c.dom.ls;
+package java.xml.share.classes.org.w3c.dom.ls;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  This interface represents an output destination for data.

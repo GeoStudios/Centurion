@@ -19,13 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.util;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
-import com.sun.xml.internal.stream.XMLBufferListener;
-import com.sun.org.apache.xerces.internal.xni.Augmentations;
-import com.sun.org.apache.xerces.internal.xni.QName;
-import com.sun.org.apache.xerces.internal.xni.XMLAttributes;
-import com.sun.org.apache.xerces.internal.xni.XMLString;
+
+import java.util.Objects;
+import java.xml.share.classes.com.sun.xml.internal.stream.XMLBufferjava.util.Listener;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.Augmentations;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLAttributes;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLString;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The XMLAttributesImpl class is an implementation of the XMLAttributes
  * interface which defines a collection of attributes for an element.
@@ -605,8 +622,7 @@ implements XMLAttributes, XMLBufferListener {
             Attribute attribute = fAttributes[i];
             if (attribute.name.localpart != null &&
                 attribute.name.localpart.equals(localPart) &&
-                ((uri==attribute.name.uri) ||
-            (attribute.name.uri != null && attribute.name.uri.equals(uri)))) {
+                (Objects.equals(attribute.name.uri, uri))) {
                 return i;
             }
         }

@@ -18,19 +18,35 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.graph;
 
-import com.sun.hotspot.igv.data.InputBlock;
-import com.sun.hotspot.igv.data.InputGraph;
-import com.sun.hotspot.igv.data.InputNode;
-import com.sun.hotspot.igv.data.Properties;
-import com.sun.hotspot.igv.data.Source;
-import com.sun.hotspot.igv.layout.Cluster;
-import com.sun.hotspot.igv.layout.Vertex;
-import java.awt.*;
-import java.awt.image.BufferedImage;
-import java.util.List;
-import java.util.*;
+package utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.graph;
+
+
+import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.data.InputBlock;
+import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.data.InputGraph;
+import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.data.InputNode;
+import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.data.Properties;
+import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.data.Source;
+import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.layout.Cluster;
+import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.layout.Vertex;
+import utils.IdealGraphVisualizer.Graph.src.main.java.awt.*;
+import utils.IdealGraphVisualizer.Graph.src.main.java.awt.image.BufferedImage;
+import utils.IdealGraphVisualizer.Graph.src.main.java.util.java.util.java.util.java.util.List;
+import utils.IdealGraphVisualizer.Graph.src.main.java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Figure extends Properties.Entity implements Source.Provider, Vertex {
 

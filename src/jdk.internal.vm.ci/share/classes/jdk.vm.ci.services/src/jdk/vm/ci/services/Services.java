@@ -18,24 +18,39 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.services;
+
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.services.src.jdk.vm.ci.services;
+
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Formatter;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.ServiceLoader;
 import java.util.Set;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.services.src.jdk.internal.misc.VM;
 
-import jdk.internal.misc.VM;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides utilities needed by JVMCI clients.

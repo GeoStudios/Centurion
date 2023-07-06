@@ -19,34 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.tree;
+package jdk.compiler.share.classes.com.sun.tools.javac.tree;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.StringWriter;
 import java.util.*;
-
 import javax.lang.model.element.Modifier;
 import javax.lang.model.type.TypeKind;
 import javax.tools.JavaFileObject;
-
-import com.sun.source.tree.*;
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.Directive.RequiresDirective;
-import com.sun.tools.javac.code.Scope.*;
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
-import com.sun.tools.javac.util.List;
-
-import static com.sun.tools.javac.tree.JCTree.Tag.*;
-
+import jdk.compiler.share.classes.com.sun.source.tree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Directive.RequiresDirective;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.*;.extended
 import javax.tools.JavaFileManager.Location;
+import jdk.compiler.share.classes.com.sun.source.tree.ModuleTree.ModuleKind;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Directive.ExportsDirective;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Directive.OpensDirective;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.ModuleType;
 
-import com.sun.source.tree.ModuleTree.ModuleKind;
-import com.sun.tools.javac.code.Directive.ExportsDirective;
-import com.sun.tools.javac.code.Directive.OpensDirective;
-import com.sun.tools.javac.code.Type.ModuleType;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Root class for abstract syntax tree nodes. It provides definitions

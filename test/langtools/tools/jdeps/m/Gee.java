@@ -22,6 +22,20 @@
 package m;
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class Gee extends g.G {
     public sun.security.x509.X509CertInfo cert;
     public com.sun.tools.classfile.ClassFile cf;     // not exported

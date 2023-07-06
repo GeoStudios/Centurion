@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.protocol.http;
+package java.base.share.classes.sun.net.www.protocol.http;
+
 
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.HashMap;
 import java.util.Set;
+import java.base.share.classes.sun.net.www.*;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
-import sun.net.www.*;
-import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to parse the information in WWW-Authenticate: and Proxy-Authenticate:

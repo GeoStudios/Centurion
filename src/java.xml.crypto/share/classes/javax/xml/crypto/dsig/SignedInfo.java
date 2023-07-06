@@ -18,14 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package java.xml.crypto.share.classes.javax.xml.crypto.dsig;
+
+
+import java.xml.crypto.share.classes.javax.xml.crypto.XMLStructure;
+import java.io.InputStream;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: SignedInfo.java,v 1.7 2005/05/10 16:03:47 mullan Exp $
  */
-package javax.xml.crypto.dsig;
 
-import javax.xml.crypto.XMLStructure;
-import java.io.InputStream;
-import java.util.List;
+
 
 /**
  * An representation of the XML <code>SignedInfo</code> element as

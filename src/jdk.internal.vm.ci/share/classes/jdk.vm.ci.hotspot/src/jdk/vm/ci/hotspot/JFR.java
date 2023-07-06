@@ -19,15 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.vm.ci.hotspot;
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
 
-import static jdk.vm.ci.hotspot.CompilerToVM.compilerToVM;
 
-import java.util.Arrays;
-import java.util.ArrayList;
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot.CompilerToVM.compilerToVM;.extended
+import java.base.share.classes.java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.ResolvedJavaMethod;
 
-import jdk.vm.ci.meta.ResolvedJavaMethod;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper methods for interacting with the Java Flight Recorder (JFR) to register events and notify

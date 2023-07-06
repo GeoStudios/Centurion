@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.beans;
+package java.desktop.share.classes.java.beans;
+
 
 import com.sun.beans.finder.BeanInfoFinder;
 import com.sun.beans.finder.PropertyEditorFinder;
+import java.desktop.share.classes.java.awt.GraphicsEnvironment;
+import java.desktop.share.classes.java.util.Map;
+import java.desktop.share.classes.java.util.WeakHashMap;
 
-import java.awt.GraphicsEnvironment;
-import java.util.Map;
-import java.util.WeakHashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code ThreadGroupContext} is an application-dependent

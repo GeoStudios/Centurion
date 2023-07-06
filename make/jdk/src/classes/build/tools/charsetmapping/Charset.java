@@ -21,6 +21,56 @@
 
 package build.tools.charsetmapping;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class Charset {
     String   pkgName;
     String   clzName;

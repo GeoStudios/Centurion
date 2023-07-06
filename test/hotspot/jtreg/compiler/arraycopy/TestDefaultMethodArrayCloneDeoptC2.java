@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.arraycopy;
+
+
+import sun.hotspot.WhiteBox;
+import java.lang.reflect.Method;
+import compiler.whitebox.CompilerWhiteBoxTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8170455
@@ -33,11 +53,7 @@
  *                   compiler.arraycopy.TestDefaultMethodArrayCloneDeoptC2
  */
 
-package compiler.arraycopy;
 
-import sun.hotspot.WhiteBox;
-import java.lang.reflect.Method;
-import compiler.whitebox.CompilerWhiteBoxTest;
 
 
 

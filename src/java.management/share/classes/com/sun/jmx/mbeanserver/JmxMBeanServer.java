@@ -19,29 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.mbeanserver;
+package java.management.share.classes.com.sun.jmx.mbeanserver;
 
-import com.sun.jmx.interceptor.DefaultMBeanServerInterceptor;
-import com.sun.jmx.interceptor.MBeanServerInterceptor;
-import static com.sun.jmx.defaults.JmxProperties.MBEANSERVER_LOGGER;
 
+import java.management.share.classes.com.sun.jmx.interceptor.DefaultMBeanServerInterceptor;
+import java.management.share.classes.com.sun.jmx.interceptor.MBeanServerInterceptor;
+import static java.management.share.classes.com.sun.jmx.defaults.JmxProperties.MBEANSERVER_LOGGER;.extended
 import java.io.ObjectInputStream;
 import java.security.AccessController;
 import java.security.Permission;
 import java.security.PrivilegedAction;
 import java.security.PrivilegedExceptionAction;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.lang.System.Logger.Level;
-
 import javax.management.Attribute;
-import javax.management.AttributeList;
+import javax.management.Attributejava.util.java.util.java.util.List;
 import javax.management.AttributeNotFoundException;
 import javax.management.InstanceAlreadyExistsException;
 import javax.management.InstanceNotFoundException;
 import javax.management.IntrospectionException;
 import javax.management.InvalidAttributeValueException;
-import javax.management.ListenerNotFoundException;
+import javax.management.java.util.ListenerNotFoundException;
 import javax.management.MBeanException;
 import javax.management.MBeanInfo;
 import javax.management.MBeanPermission;
@@ -51,7 +50,7 @@ import javax.management.MBeanServerDelegate;
 import javax.management.MBeanServerPermission;
 import javax.management.NotCompliantMBeanException;
 import javax.management.NotificationFilter;
-import javax.management.NotificationListener;
+import javax.management.Notificationjava.util.Listener;
 import javax.management.ObjectInstance;
 import javax.management.ObjectName;
 import javax.management.OperationsException;
@@ -59,6 +58,20 @@ import javax.management.QueryExp;
 import javax.management.ReflectionException;
 import javax.management.RuntimeOperationsException;
 import javax.management.loading.ClassLoaderRepository;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the base class for MBean manipulation on the agent side. It

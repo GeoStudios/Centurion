@@ -19,19 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package org.openjdk.tests.java.util.stream;
+
+
+import java.util.stream.LongStream;
+import org.testng.annotations.Test;
+import static org.testng.Assert.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @summary Tests counting of streams containing Integer.MAX_VALUE + 1 elements
  * @bug 8031187 8067969
  */
 
-package org.openjdk.tests.java.util.stream;
 
-import java.util.stream.LongStream;
 
-import org.testng.annotations.Test;
 
-import static org.testng.Assert.*;
 
 @Test
 public class CountLargeTest {

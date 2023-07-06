@@ -21,10 +21,23 @@
 
 package nsk.jvmti.scenarios.contention.TC01;
 
-import java.io.PrintStream;
 
+import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class tc01t001 extends DebugeeClass {
 

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.startup;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8154151
@@ -28,7 +45,6 @@
  *                   compiler.startup.TieredStopAtLevel0SanityTest
  */
 
-package compiler.startup;
 
 public class TieredStopAtLevel0SanityTest {
     public static void main(String[] args) throws Exception {

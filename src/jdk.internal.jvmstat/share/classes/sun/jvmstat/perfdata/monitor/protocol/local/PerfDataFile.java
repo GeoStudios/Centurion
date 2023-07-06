@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvmstat.perfdata.monitor.protocol.local;
+package jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor.protocol.local;
+
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.stream.Collectors;
 import java.io.FilenameFilter;
-import sun.jvmstat.PlatformSupport;
+import jdk.internal.jvmstat.share.classes.sun.jvmstat.PlatformSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class to provide translations from the local Vm Identifier

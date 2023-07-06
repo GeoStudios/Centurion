@@ -19,13 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
+
+
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.StringToIntTable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.serializer;
 
-import com.sun.org.apache.xml.internal.serializer.utils.StringToIntTable;
+
 
 /**
  * This class has a series of flags (bit values) that describe an HTML element

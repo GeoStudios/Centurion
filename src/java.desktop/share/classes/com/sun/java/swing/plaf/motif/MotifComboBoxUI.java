@@ -19,33 +19,47 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.motif;
+package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Insets;
-import java.awt.LayoutManager;
-import java.awt.Rectangle;
-import java.awt.event.KeyListener;
-import java.awt.event.MouseMotionAdapter;
-import java.awt.event.MouseMotionListener;
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import java.io.Serializable;
 
+import java.desktop.share.classes.com.sun.java.awt.Color;
+import java.desktop.share.classes.com.sun.java.awt.Component;
+import java.desktop.share.classes.com.sun.java.awt.Container;
+import java.desktop.share.classes.com.sun.java.awt.Dimension;
+import java.desktop.share.classes.com.sun.java.awt.Graphics;
+import java.desktop.share.classes.com.sun.java.awt.Insets;
+import java.desktop.share.classes.com.sun.java.awt.LayoutManager;
+import java.desktop.share.classes.com.sun.java.awt.Rectangle;
+import java.desktop.share.classes.com.sun.java.awt.event.Keyjava.util.Listener;
+import java.desktop.share.classes.com.sun.java.awt.event.MouseMotionAdapter;
+import java.desktop.share.classes.com.sun.java.awt.event.MouseMotionjava.util.Listener;
+import java.desktop.share.classes.com.sun.java.beans.PropertyChangeEvent;
+import java.desktop.share.classes.com.sun.java.beans.PropertyChangejava.util.Listener;
+import java.desktop.share.classes.com.sun.java.io.Serializable;
 import javax.swing.Icon;
 import javax.swing.JComboBox;
 import javax.swing.JComponent;
-import javax.swing.ListCellRenderer;
+import javax.swing.java.util.ListCellRenderer;
 import javax.swing.UIManager;
 import javax.swing.border.Border;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicComboBoxUI;
 import javax.swing.plaf.basic.BasicComboPopup;
 import javax.swing.plaf.basic.ComboPopup;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ComboBox motif look and feel.

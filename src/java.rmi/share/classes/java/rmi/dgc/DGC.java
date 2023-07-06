@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.rmi.dgc;
 
-import java.rmi.*;
-import java.rmi.server.ObjID;
+package java.rmi.share.classes.java.rmi.dgc;
+
+
+import java.rmi.share.classes.java.rmi.*;
+import java.rmi.share.classes.java.rmi.server.ObjID;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The DGC abstraction is used for the server side of the distributed

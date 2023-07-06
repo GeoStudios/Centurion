@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java_cup.internal.runtime;
+package java.xml.share.classes.com.sun.java_cup.internal.runtime;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines the Scanner interface, which CUP uses in the default

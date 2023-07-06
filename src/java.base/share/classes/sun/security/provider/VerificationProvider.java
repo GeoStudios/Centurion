@@ -19,13 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider;
+package java.base.share.classes.sun.security.provider;
+
 
 import java.util.*;
-import java.security.*;
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.sun.security.rsa.SunRsaSignEntries;
+import static java.base.share.classes.sun.security.util.SecurityConstants.PROVIDER_VER;.extended
 
-import sun.security.rsa.SunRsaSignEntries;
-import static sun.security.util.SecurityConstants.PROVIDER_VER;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

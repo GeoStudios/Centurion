@@ -18,11 +18,13 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.nio.ch.sctp;
 
-import java.net.SocketAddress;
+package jdk.sctp.macosx.classes.sun.nio.ch.sctp;
+
+
+import java.net.java.net.SocketAddress;
 import java.net.InetAddress;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.Set;
 import java.nio.ByteBuffer;
 import java.nio.channels.spi.SelectorProvider;
@@ -31,7 +33,21 @@ import com.sun.nio.sctp.SctpChannel;
 import com.sun.nio.sctp.MessageInfo;
 import com.sun.nio.sctp.NotificationHandler;
 import com.sun.nio.sctp.SctpMultiChannel;
-import com.sun.nio.sctp.SctpSocketOption;
+import com.sun.nio.sctp.Sctpjava.net.SocketOption;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Unimplemented.

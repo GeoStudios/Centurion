@@ -19,26 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-import java.io.IOException;
-import java.util.ArrayList;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.ResourceBundle;
 import java.util.ServiceLoader;
+import jdk.jdi.share.classes.com.sun.jdi.JDIPermission;
+import jdk.jdi.share.classes.com.sun.jdi.VMDisconnectedException;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachineManager;
+import jdk.jdi.share.classes.com.sun.jdi.connect.AttachingConnector;
+import jdk.jdi.share.classes.com.sun.jdi.connect.Connector;
+import jdk.jdi.share.classes.com.sun.jdi.connect.LaunchingConnector;
+import jdk.jdi.share.classes.com.sun.jdi.connect.java.util.ListeningConnector;
+import jdk.jdi.share.classes.com.sun.jdi.connect.spi.Connection;
+import jdk.jdi.share.classes.com.sun.jdi.connect.spi.TransportService;
 
-import com.sun.jdi.JDIPermission;
-import com.sun.jdi.VMDisconnectedException;
-import com.sun.jdi.VirtualMachine;
-import com.sun.jdi.VirtualMachineManager;
-import com.sun.jdi.connect.AttachingConnector;
-import com.sun.jdi.connect.Connector;
-import com.sun.jdi.connect.LaunchingConnector;
-import com.sun.jdi.connect.ListeningConnector;
-import com.sun.jdi.connect.spi.Connection;
-import com.sun.jdi.connect.spi.TransportService;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Public for use by com.sun.jdi.Bootstrap */
 public class VirtualMachineManagerImpl implements VirtualMachineManagerService {

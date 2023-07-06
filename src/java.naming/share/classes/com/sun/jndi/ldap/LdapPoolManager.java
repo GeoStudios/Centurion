@@ -19,23 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap;
+package java.naming.share.classes.com.sun.jndi.ldap;
+
 
 import java.io.PrintStream;
 import java.io.OutputStream;
 import java.util.Hashtable;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.StringTokenizer;
-
 import javax.naming.ldap.Control;
 import javax.naming.NamingException;
 import javax.naming.CommunicationException;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-
-import com.sun.jndi.ldap.pool.PoolCleaner;
-import com.sun.jndi.ldap.pool.Pool;
+import java.naming.share.classes.com.sun.jndi.ldap.pool.PoolCleaner;
+import java.naming.share.classes.com.sun.jndi.ldap.pool.Pool;
 import jdk.internal.misc.InnocuousThread;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Contains utilities for managing connection pools of LdapClient.

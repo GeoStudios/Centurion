@@ -18,20 +18,35 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.jfr.internal.jfc.model;
 
-import java.io.IOException;
+package jdk.jfr.share.classes.jdk.jfr.internal.jfc.model;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.text.ParseException;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.LinkedHashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
+import jdk.jfr.share.classes.jdk.jfr.internal.SecuritySupport.SafePath;
 
-import jdk.jfr.internal.SecuritySupport.SafePath;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Holds the structure of a .jfc file similar to an XML DOM.
 public final class JFCModel {

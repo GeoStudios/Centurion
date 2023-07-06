@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal.tools;
+package java.security.jgss.windows.classes.sun.security.krb5.internal.tools;
+
 
 import java.io.File;
-import sun.security.krb5.*;
-import sun.security.krb5.internal.*;
-import sun.security.krb5.internal.ccache.*;
-import java.io.IOException;
-import java.util.Arrays;
-import sun.security.util.Password;
+import java.security.jgss.windows.classes.sun.security.krb5.*;
+import java.security.jgss.windows.classes.sun.security.krb5.internal.*;
+import java.security.jgss.windows.classes.sun.security.krb5.internal.ccache.*;
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.util.Arrays;
+import java.security.jgss.windows.classes.sun.security.util.Password;
 import javax.security.auth.kerberos.KeyTab;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Kinit tool for obtaining Kerberos v5 tickets.

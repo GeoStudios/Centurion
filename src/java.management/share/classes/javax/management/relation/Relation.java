@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.relation;
+package java.management.share.classes.javax.management.relation;
 
-import java.util.List;
+
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
+import java.management.share.classes.javax.management.ObjectName;
 
-import javax.management.ObjectName;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface has to be implemented by any MBean class expected to

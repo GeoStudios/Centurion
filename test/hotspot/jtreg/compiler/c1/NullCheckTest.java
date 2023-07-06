@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6478991
@@ -30,7 +47,6 @@
  *      compiler.c1.NullCheckTest
  */
 
-package compiler.c1;
 
 public class NullCheckTest {
     static class A {

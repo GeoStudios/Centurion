@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jvmti.scenarios.hotswap.HS103.hs103t002;
+
+
+import java.util.concurrent.atomic.AtomicInteger;
+import nsk.share.jvmti.RedefineAgent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -42,7 +61,6 @@
  *      nsk.jvmti.scenarios.hotswap.HS103.hs103t002.hs103t002
  */
 
-package nsk.jvmti.scenarios.hotswap.HS103.hs103t002;
 /*
 
    Periodically hotswap class(es) with a changed version in
@@ -50,8 +68,6 @@ package nsk.jvmti.scenarios.hotswap.HS103.hs103t002;
    works in default mode.
 */
 
-import java.util.concurrent.atomic.AtomicInteger;
-import nsk.share.jvmti.RedefineAgent;
 
 public class hs103t002 extends RedefineAgent {
     private static final int size = 10;

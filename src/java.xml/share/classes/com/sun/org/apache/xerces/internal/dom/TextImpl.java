@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.dom;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-import org.w3c.dom.CharacterData;
-import org.w3c.dom.DOMException;
-import org.w3c.dom.Node;
-import org.w3c.dom.Text;
+
+import java.xml.share.classes.com.sun.org.w3c.dom.CharacterData;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.Text;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Text nodes hold the non-markup, non-Entity content of

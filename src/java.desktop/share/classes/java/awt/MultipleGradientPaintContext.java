@@ -19,24 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.MultipleGradientPaint.CycleMethod;
-import java.awt.MultipleGradientPaint.ColorSpaceType;
-import java.awt.color.ColorSpace;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.NoninvertibleTransformException;
-import java.awt.geom.Rectangle2D;
-import java.awt.image.ColorModel;
-import java.awt.image.DataBuffer;
-import java.awt.image.DataBufferInt;
-import java.awt.image.DirectColorModel;
-import java.awt.image.Raster;
-import java.awt.image.SinglePixelPackedSampleModel;
-import java.awt.image.WritableRaster;
-import java.lang.ref.SoftReference;
-import java.lang.ref.WeakReference;
-import java.util.Arrays;
+
+import java.desktop.share.classes.java.awt.MultipleGradientPaint.CycleMethod;
+import java.desktop.share.classes.java.awt.MultipleGradientPaint.ColorSpaceType;
+import java.desktop.share.classes.java.awt.color.ColorSpace;
+import java.desktop.share.classes.java.awt.geom.AffineTransform;
+import java.desktop.share.classes.java.awt.geom.NoninvertibleTransformException;
+import java.desktop.share.classes.java.awt.geom.Rectangle2D;
+import java.desktop.share.classes.java.awt.image.ColorModel;
+import java.desktop.share.classes.java.awt.image.DataBuffer;
+import java.desktop.share.classes.java.awt.image.DataBufferInt;
+import java.desktop.share.classes.java.awt.image.DirectColorModel;
+import java.desktop.share.classes.java.awt.image.Raster;
+import java.desktop.share.classes.java.awt.image.SinglePixelPackedSampleModel;
+import java.desktop.share.classes.java.awt.image.WritableRaster;
+import java.desktop.share.classes.java.lang.ref.SoftReference;
+import java.desktop.share.classes.java.lang.ref.WeakReference;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the superclass for all PaintContexts which use a multiple color

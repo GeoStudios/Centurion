@@ -19,16 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util;
+
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSComplexTypeDecl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSSimpleTypeDefinition;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.impl.xs.util;
 
-import com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl;
-import com.sun.org.apache.xerces.internal.impl.xs.XSComplexTypeDecl;
-import com.sun.org.apache.xerces.internal.xs.XSSimpleTypeDefinition;
-import com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
+
 
 /**
  * Class defining utility/helper methods to support XML Schema 1.0 implementation.

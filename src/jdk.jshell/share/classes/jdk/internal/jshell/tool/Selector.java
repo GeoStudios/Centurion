@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.jshell.tool;
+package jdk.jshell.share.classes.jdk.internal.jshell.tool;
+
 
 import java.util.*;
 import java.util.function.BiConsumer;
@@ -27,6 +28,20 @@ import java.util.function.BinaryOperator;
 import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.stream.Collector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Selector is the representation of the selector in a "/set format" command.  This class, among other things, provides

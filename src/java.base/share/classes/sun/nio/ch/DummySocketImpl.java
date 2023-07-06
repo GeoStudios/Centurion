@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.ch;
+package java.base.share.classes.sun.nio.ch;
+
 
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.InetAddress;
-import java.net.SocketAddress;
-import java.net.SocketImpl;
-import java.net.SocketOption;
+import java.net.java.net.SocketAddress;
+import java.net.java.net.SocketImpl;
+import java.net.java.net.SocketOption;
 import java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Dummy SocketImpl for use by the socket adaptors. All methods are overridden

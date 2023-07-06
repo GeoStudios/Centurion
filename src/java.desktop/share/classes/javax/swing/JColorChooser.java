@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -32,7 +33,7 @@ import java.awt.GraphicsEnvironment;
 import java.awt.HeadlessException;
 import java.awt.Window;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
 import java.awt.event.KeyEvent;
@@ -40,23 +41,35 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.beans.BeanProperty;
 import java.beans.JavaBean;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.io.Serial;
 import java.io.Serializable;
-import java.util.Arrays;
-import java.util.Locale;
-
-import javax.accessibility.Accessible;
-import javax.accessibility.AccessibleContext;
-import javax.accessibility.AccessibleRole;
-import javax.swing.colorchooser.AbstractColorChooserPanel;
-import javax.swing.colorchooser.ColorChooserComponentFactory;
-import javax.swing.colorchooser.ColorSelectionModel;
-import javax.swing.colorchooser.DefaultColorSelectionModel;
-import javax.swing.plaf.ColorChooserUI;
-
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.java.util.Locale;
+import java.desktop.share.classes.javax.accessibility.Accessible;
+import java.desktop.share.classes.javax.accessibility.AccessibleContext;
+import java.desktop.share.classes.javax.accessibility.AccessibleRole;
+import java.desktop.share.classes.javax.swing.colorchooser.AbstractColorChooserPanel;
+import java.desktop.share.classes.javax.swing.colorchooser.ColorChooserComponentFactory;
+import java.desktop.share.classes.javax.swing.colorchooser.ColorSelectionModel;
+import java.desktop.share.classes.javax.swing.colorchooser.DefaultColorSelectionModel;
+import java.desktop.share.classes.javax.swing.plaf.ColorChooserUI;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>JColorChooser</code> provides a pane of controls designed to allow

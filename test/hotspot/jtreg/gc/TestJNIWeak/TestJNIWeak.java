@@ -21,6 +21,25 @@
 
 package gc.TestJNIWeak;
 
+
+import sun.hotspot.gc.GC;
+import sun.hotspot.WhiteBox;
+import jtreg.SkippedException;
+import java.lang.ref.Reference;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @bug 8166188 8178813
  * @summary Test return of JNI weak global refs during concurrent
@@ -41,10 +60,6 @@ package gc.TestJNIWeak;
  *    gc.TestJNIWeak.TestJNIWeak
  */
 
-import sun.hotspot.gc.GC;
-import sun.hotspot.WhiteBox;
-import jtreg.SkippedException;
-import java.lang.ref.Reference;
 
 public final class TestJNIWeak {
 

@@ -18,19 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.test.lib.hprof.parser;
+
 
 import java.io.ByteArrayOutputStream;
 import java.io.Closeable;
 import java.io.EOFException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.RandomAccessFile;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.zip.DataFormatException;
 import java.util.zip.Inflater;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class GzipRandomAccess implements AutoCloseable, Closeable {
     // A comparator which compares chunks by their file offset.

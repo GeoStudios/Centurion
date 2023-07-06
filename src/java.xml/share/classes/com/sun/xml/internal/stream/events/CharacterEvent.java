@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.xml.internal.stream.events ;
+package java.xml.share.classes.com.sun.xml.internal.stream.events;
+
 
 import javax.xml.stream.events.Characters;
 import java.io.Writer;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import javax.xml.stream.events.XMLEvent;
-import com.sun.org.apache.xerces.internal.util.XMLChar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Implementation of Character event.
  *

@@ -21,7 +21,21 @@
 
 package pkg;
 
+
 import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@link com.package1.Class1#publicStaticMethod().

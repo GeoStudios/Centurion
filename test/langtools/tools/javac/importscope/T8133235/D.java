@@ -21,7 +21,21 @@
 
 package pkg;
 
-import static pkg.C.*;
+
+import static pkg.C.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class D implements C.N2 {
 }

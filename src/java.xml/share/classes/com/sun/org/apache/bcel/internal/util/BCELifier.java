@@ -19,29 +19,47 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.util;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.OutputStream;
+import java.io.PrintWriter;
+import java.base.share.classes.java.util.Locale;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.Repository;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ClassParser;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantValue;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Field;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.JavaClass;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Method;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Utility;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ArrayType;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.MethodGen;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Type;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.bcel.internal.util;
 
-import java.io.IOException;
-import java.io.OutputStream;
-import java.io.PrintWriter;
-import java.util.Locale;
 
-import com.sun.org.apache.bcel.internal.Const;
-import com.sun.org.apache.bcel.internal.Repository;
-import com.sun.org.apache.bcel.internal.classfile.ClassParser;
-import com.sun.org.apache.bcel.internal.classfile.ConstantValue;
-import com.sun.org.apache.bcel.internal.classfile.Field;
-import com.sun.org.apache.bcel.internal.classfile.JavaClass;
-import com.sun.org.apache.bcel.internal.classfile.Method;
-import com.sun.org.apache.bcel.internal.classfile.Utility;
-import com.sun.org.apache.bcel.internal.generic.ArrayType;
-import com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
-import com.sun.org.apache.bcel.internal.generic.MethodGen;
-import com.sun.org.apache.bcel.internal.generic.Type;
+
 
 /**
  * This class takes a given JavaClass object and converts it to a
@@ -62,7 +80,7 @@ public class BCELifier extends com.sun.org.apache.bcel.internal.classfile.EmptyV
         METHOD,
     }
 
-    // The base package name for imports; assumes Const is at the top level
+    // The base  assumes Const is at the top level
     // N.B we use the class so renames will be detected by the compiler/IDE
     private static final String BASE_PACKAGE = Const.class.getPackage().getName();
     private static final String CONSTANT_PREFIX = Const.class.getSimpleName()+".";

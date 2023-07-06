@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package a;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4362349
@@ -28,7 +45,6 @@
  * @compile CrossPackageImplA.java CrossPackageImplB.java
  */
 
-package a;
 
 public abstract class CrossPackageImplA {
     public static void main(String[] args) {

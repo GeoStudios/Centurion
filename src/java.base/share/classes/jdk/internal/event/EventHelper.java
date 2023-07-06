@@ -19,11 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.event;
+package java.base.share.classes.jdk.internal.event;
 
-import jdk.internal.access.JavaUtilJarAccess;
-import jdk.internal.access.SharedSecrets;
 
+import java.base.share.classes.jdk.internal.access.JavaUtilJarAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
 import java.time.Duration;
@@ -31,6 +31,20 @@ import java.time.Instant;
 import java.util.Date;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A helper class to have events logged to a JDK Event Logger.

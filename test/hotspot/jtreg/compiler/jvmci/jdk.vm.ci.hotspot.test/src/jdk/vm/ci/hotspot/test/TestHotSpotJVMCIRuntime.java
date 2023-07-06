@@ -19,6 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.vm.ci.hotspot.test;
+
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
+import java.util.function.Predicate;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import jdk.vm.ci.hotspot.HotSpotJVMCIRuntime;
+import jdk.vm.ci.meta.MetaAccessProvider;
+import jdk.vm.ci.meta.ResolvedJavaType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @requires vm.jvmci
@@ -34,19 +60,9 @@
  *      jdk.vm.ci.hotspot.test.TestHotSpotJVMCIRuntime
  */
 
-package jdk.vm.ci.hotspot.test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.function.Predicate;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
 
-import jdk.vm.ci.hotspot.HotSpotJVMCIRuntime;
-import jdk.vm.ci.meta.MetaAccessProvider;
-import jdk.vm.ci.meta.ResolvedJavaType;
 
 public class TestHotSpotJVMCIRuntime {
 

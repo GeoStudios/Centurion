@@ -21,11 +21,24 @@
 
 package nsk.jdi.Scenarios.invokeMethod;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  <code>popframes001a</code> is deugee's part of the popframes001.

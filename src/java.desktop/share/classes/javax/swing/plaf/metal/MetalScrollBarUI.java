@@ -19,25 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.metal;
+package java.desktop.share.classes.javax.swing.plaf.metal;
+
 
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Rectangle;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
+import java.desktop.share.classes.javax.swing.JButton;
+import java.desktop.share.classes.javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.JScrollBar;
+import java.desktop.share.classes.javax.swing.UIManager;
+import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
+import java.desktop.share.classes.javax.swing.plaf.basic.BasicScrollBarUI;
+import static sun.swing.SwingUtilities2.drawHLine;.extended
+import static sun.swing.SwingUtilities2.drawRect;.extended
+import static sun.swing.SwingUtilities2.drawVLine;.extended
 
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.JScrollBar;
-import javax.swing.UIManager;
-import javax.swing.plaf.ComponentUI;
-import javax.swing.plaf.basic.BasicScrollBarUI;
 
-import static sun.swing.SwingUtilities2.drawHLine;
-import static sun.swing.SwingUtilities2.drawRect;
-import static sun.swing.SwingUtilities2.drawVLine;
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

@@ -19,6 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci.compilerToVM;
+
+
+import compiler.jvmci.common.CTVMUtilities;
+import jdk.test.lib.Asserts;
+import jdk.vm.ci.hotspot.CompilerToVMHelper;
+import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
+import java.io.java.io.java.io.java.io.IOException;
+import java.lang.reflect.Executable;
+import java.net.java.net.java.net.java.net.Socket;
+import java.util.HashMap;
+import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8136421
@@ -39,18 +65,8 @@
  *                   compiler.jvmci.compilerToVM.GetExceptionTableTest
  */
 
-package compiler.jvmci.compilerToVM;
 
-import compiler.jvmci.common.CTVMUtilities;
-import jdk.test.lib.Asserts;
-import jdk.vm.ci.hotspot.CompilerToVMHelper;
-import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
 
-import java.io.IOException;
-import java.lang.reflect.Executable;
-import java.net.Socket;
-import java.util.HashMap;
-import java.util.Map;
 
 public class GetExceptionTableTest {
 

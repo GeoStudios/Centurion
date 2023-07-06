@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package p;
+
+
+import p.ImportOfOwnClass;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4081024 4662489
@@ -28,9 +46,7 @@
  * @compile ImportOfOwnClass.java
  */
 
-package p;
 
-import p.ImportOfOwnClass;
 
 public class ImportOfOwnClass {  // name clashes with import
     ImportOfOwnClass() {}

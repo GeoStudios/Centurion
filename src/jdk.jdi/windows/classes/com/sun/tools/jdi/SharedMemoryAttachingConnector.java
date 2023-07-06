@@ -18,14 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.tools.jdi;
 
-import com.sun.jdi.VirtualMachine;
-import com.sun.jdi.connect.*;
-import com.sun.jdi.connect.spi.*;
-import java.io.IOException;
+package jdk.jdi.windows.classes.com.sun.tools.jdi;
+
+
+import jdk.jdi.windows.classes.com.sun.jdi.VirtualMachine;
+import jdk.jdi.windows.classes.com.sun.jdi.connect.*;
+import jdk.jdi.windows.classes.com.sun.jdi.connect.spi.*;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.Map;
 import java.util.HashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * An AttachingConnector that uses the SharedMemoryTransportService

@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
-import java.io.ObjectOutput;
-import java.io.ObjectInput;
+
+import java.base.share.classes.java.io.ObjectOutput;
+import java.base.share.classes.java.io.ObjectInput;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Only the identity of the class of an Externalizable instance is

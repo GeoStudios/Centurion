@@ -19,16 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
+
+
+import java.io.Serializable;
+import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
+import java.xml.share.classes.com.sun.org.xml.sax.helpers.AttributesImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.utils;
 
-import java.io.Serializable;
 
-import org.xml.sax.Attributes;
-import org.xml.sax.helpers.AttributesImpl;
+
 
 /**
  * Mutable version of AttributesImpl.

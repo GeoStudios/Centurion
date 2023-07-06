@@ -21,7 +21,21 @@
 
 package test.logmanager;
 
+
 import java.util.logging.LogManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A dummy LogManager that simply extends the standard class.

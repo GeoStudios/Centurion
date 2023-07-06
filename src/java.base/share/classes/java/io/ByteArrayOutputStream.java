@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
-import java.nio.charset.Charset;
-import java.util.Arrays;
-import java.util.Objects;
 
-import jdk.internal.util.ArraysSupport;
+import java.base.share.classes.java.nio.charset.Charset;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import jdk.internal.util.java.util.ArraysSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements an output stream in which the data is

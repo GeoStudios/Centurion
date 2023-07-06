@@ -18,16 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.management.jfr;
 
-import java.io.IOException;
+package jdk.management.jfr.share.classes.jdk.management.jfr;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.channels.FileChannel;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 import java.util.ArrayDeque;
 import java.util.Queue;
+import jdk.management.jfr.share.classes.jdk.management.jfr.DiskRepository.DiskChunk;
 
-import jdk.management.jfr.DiskRepository.DiskChunk;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class FileDump {
     private final Queue<DiskChunk> chunks = new ArrayDeque<>();

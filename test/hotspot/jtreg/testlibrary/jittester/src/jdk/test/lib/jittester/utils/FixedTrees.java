@@ -21,11 +21,11 @@
 
 package jdk.test.lib.jittester.utils;
 
-import java.util.Arrays;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
 
+import java.base.share.classes.java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import jdk.test.lib.jittester.BinaryOperator;
 import jdk.test.lib.jittester.Block;
 import jdk.test.lib.jittester.CatchBlock;
@@ -42,7 +42,7 @@ import jdk.test.lib.jittester.StaticMemberVariable;
 import jdk.test.lib.jittester.Symbol;
 import jdk.test.lib.jittester.TryCatchBlock;
 import jdk.test.lib.jittester.Type;
-import jdk.test.lib.jittester.TypeList;
+import jdk.test.lib.jittester.Typejava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.VariableInfo;
 import jdk.test.lib.jittester.VariableInitialization;
 import jdk.test.lib.jittester.functions.ArgumentDeclaration;
@@ -58,6 +58,19 @@ import jdk.test.lib.jittester.loops.Loop;
 import jdk.test.lib.jittester.loops.LoopingCondition;
 import jdk.test.lib.jittester.types.TypeArray;
 import jdk.test.lib.jittester.types.TypeKlass;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class FixedTrees {
     private static final Literal EOL = new Literal("\n", TypeList.STRING);

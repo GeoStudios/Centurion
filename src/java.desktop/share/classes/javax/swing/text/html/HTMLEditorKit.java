@@ -18,26 +18,41 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text.html;
+
+package java.desktop.share.classes.javax.swing.text.html;
+
 
 import sun.awt.AppContext;
-
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
-import javax.swing.text.*;
-import javax.swing.*;
-import javax.swing.event.*;
-import javax.swing.plaf.TextUI;
+import java.desktop.share.classes.javax.swing.text.*;
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.event.*;
+import java.desktop.share.classes.javax.swing.plaf.TextUI;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
-import javax.accessibility.*;
+import java.desktop.share.classes.javax.accessibility.*;
 import java.lang.ref.*;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import javax.swing.text.html.parser.ParserDelegator;
+import java.desktop.share.classes.javax.swing.text.html.parser.ParserDelegator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Swing JEditorPane text component supports different kinds

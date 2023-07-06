@@ -18,13 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.beans;
+
+package java.desktop.share.classes.com.sun.beans;
+
 
 import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;
-
 import java.util.Map;
 import java.util.WeakHashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A hashtable-based cache with weak keys and weak values.

@@ -18,11 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.share.locks;
+
 
 import java.util.*;
 import nsk.share.TestBug;
 import nsk.share.Wicket;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Class used to create deadlocked threads. It is possible create 2 or more deadlocked thread, also

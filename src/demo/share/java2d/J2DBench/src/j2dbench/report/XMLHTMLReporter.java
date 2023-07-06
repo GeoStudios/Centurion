@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.java2d.J2DBench.src.j2dbench.report;
+
+
+import java.io.*;
+import java.util.*;
+import java.text.DecimalFormat;
+import java.text.SimpleDateFormat;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -35,12 +57,8 @@
  *
  */
 
-package j2dbench.report;
 
-import java.io.*;
-import java.util.*;
-import java.text.DecimalFormat;
-import java.text.SimpleDateFormat;
+
 
 public class XMLHTMLReporter {
 

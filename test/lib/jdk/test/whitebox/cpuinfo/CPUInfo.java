@@ -21,13 +21,26 @@
 
 package jdk.test.whitebox.cpuinfo;
 
-import java.util.List;
-import java.util.Arrays;
+
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
-
 import jdk.test.whitebox.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Information about CPU on test box.

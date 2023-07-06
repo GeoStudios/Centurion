@@ -21,11 +21,24 @@
 
 package jdk.jfr.api.recording.event;
 
-import java.util.ArrayList;
-import java.util.List;
 
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import jdk.jfr.Recording;
 import jdk.test.lib.jfr.SimpleEventHelper;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

@@ -18,12 +18,14 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.terminal;
+
+package jdk.internal.le.share.classes.jdk.internal.org.jline.terminal;
+
 
 import java.io.FileDescriptor;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.lang.reflect.Method;
@@ -33,19 +35,32 @@ import java.util.Optional;
 import java.util.ServiceLoader;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.function.Function;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl.AbstractPosixTerminal;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl.AbstractTerminal;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl.DumbTerminal;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl.ExecPty;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl.ExternalTerminal;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl.PosixPtyTerminal;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl.PosixSysTerminal;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.spi.JansiSupport;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.spi.JnaSupport;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.spi.Pty;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.Log;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.OSUtils;
 
-import jdk.internal.org.jline.terminal.impl.AbstractPosixTerminal;
-import jdk.internal.org.jline.terminal.impl.AbstractTerminal;
-import jdk.internal.org.jline.terminal.impl.DumbTerminal;
-import jdk.internal.org.jline.terminal.impl.ExecPty;
-import jdk.internal.org.jline.terminal.impl.ExternalTerminal;
-import jdk.internal.org.jline.terminal.impl.PosixPtyTerminal;
-import jdk.internal.org.jline.terminal.impl.PosixSysTerminal;
-import jdk.internal.org.jline.terminal.spi.JansiSupport;
-import jdk.internal.org.jline.terminal.spi.JnaSupport;
-import jdk.internal.org.jline.terminal.spi.Pty;
-import jdk.internal.org.jline.utils.Log;
-import jdk.internal.org.jline.utils.OSUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Builder class to create terminals.

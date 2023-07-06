@@ -19,8 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util;
-import java.util.Map.Entry;
+package java.base.share.classes.java.util;
+
+
+import java.base.share.classes.java.util.Map.Entry;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides a skeletal implementation of the {@code Map}

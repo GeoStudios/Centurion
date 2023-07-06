@@ -18,16 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.graph;
 
-import com.sun.hotspot.igv.data.InputBlock;
-import com.sun.hotspot.igv.data.InputEdge;
-import com.sun.hotspot.igv.data.InputGraph;
-import com.sun.hotspot.igv.data.InputNode;
-import com.sun.hotspot.igv.data.Properties;
-import com.sun.hotspot.igv.data.Properties.StringPropertyMatcher;
-import java.awt.Font;
-import java.util.*;
+package utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.graph;
+
+
+import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.data.InputBlock;
+import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.data.InputEdge;
+import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.data.InputGraph;
+import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.data.InputNode;
+import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.data.Properties;
+import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.data.Properties.StringPropertyMatcher;
+import utils.IdealGraphVisualizer.Graph.src.main.java.awt.Font;
+import utils.IdealGraphVisualizer.Graph.src.main.java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

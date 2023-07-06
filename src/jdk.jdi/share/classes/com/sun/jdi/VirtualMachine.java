@@ -19,27 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jdi;
+package jdk.jdi.share.classes.com.sun.jdi;
 
-import java.util.List;
+
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
+import jdk.jdi.share.classes.com.sun.jdi.connect.AttachingConnector;
+import jdk.jdi.share.classes.com.sun.jdi.connect.Connector;
+import jdk.jdi.share.classes.com.sun.jdi.connect.LaunchingConnector;
+import jdk.jdi.share.classes.com.sun.jdi.connect.spi.Connection;
+import jdk.jdi.share.classes.com.sun.jdi.event.EventQueue;
+import jdk.jdi.share.classes.com.sun.jdi.event.MethodExitEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.VMDisconnectEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.VMStartEvent;
+import jdk.jdi.share.classes.com.sun.jdi.request.BreakpointRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.ClassPrepareRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.EventRequestManager;
+import jdk.jdi.share.classes.com.sun.jdi.request.MonitorContendedEnterRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.MonitorContendedEnteredRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.MonitorWaitRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.MonitorWaitedRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.VMDeathRequest;
 
-import com.sun.jdi.connect.AttachingConnector;
-import com.sun.jdi.connect.Connector;
-import com.sun.jdi.connect.LaunchingConnector;
-import com.sun.jdi.connect.spi.Connection;
-import com.sun.jdi.event.EventQueue;
-import com.sun.jdi.event.MethodExitEvent;
-import com.sun.jdi.event.VMDisconnectEvent;
-import com.sun.jdi.event.VMStartEvent;
-import com.sun.jdi.request.BreakpointRequest;
-import com.sun.jdi.request.ClassPrepareRequest;
-import com.sun.jdi.request.EventRequestManager;
-import com.sun.jdi.request.MonitorContendedEnterRequest;
-import com.sun.jdi.request.MonitorContendedEnteredRequest;
-import com.sun.jdi.request.MonitorWaitRequest;
-import com.sun.jdi.request.MonitorWaitedRequest;
-import com.sun.jdi.request.VMDeathRequest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A virtual machine targeted for debugging.

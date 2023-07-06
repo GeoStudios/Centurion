@@ -19,22 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.Inet6Address;
 import java.net.InetAddress;
-import java.net.InetSocketAddress;
-import java.net.ServerSocket;
-import java.net.Socket;
-import java.net.SocketTimeoutException;
+import java.net.Inetjava.net.SocketAddress;
+import java.net.java.net.java.net.Serverjava.net.java.net.Socket;
+import java.net.java.net.java.net.java.net.Socket;
+import java.net.java.net.SocketTimeoutException;
 import java.net.UnknownHostException;
 import java.nio.charset.StandardCharsets;
 import java.util.ResourceBundle;
+import jdk.jdi.share.classes.com.sun.jdi.connect.TransportTimeoutException;
+import jdk.jdi.share.classes.com.sun.jdi.connect.spi.Connection;
+import jdk.jdi.share.classes.com.sun.jdi.connect.spi.TransportService;
 
-import com.sun.jdi.connect.TransportTimeoutException;
-import com.sun.jdi.connect.spi.Connection;
-import com.sun.jdi.connect.spi.TransportService;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * A transport service based on a TCP connection between the

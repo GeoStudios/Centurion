@@ -19,28 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.management.jmxremote;
+package jdk.management.agent.share.classes.sun.management.jmxremote;
+
 
 import java.lang.System.Logger;
 import java.lang.System.Logger.Level;
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.ObjectInputFilter;
 import java.lang.management.ManagementFactory;
 import java.net.InetAddress;
 import java.net.MalformedURLException;
-import java.net.Socket;
-import java.net.ServerSocket;
+import java.net.java.net.java.net.java.net.Socket;
+import java.net.java.net.java.net.Serverjava.net.java.net.Socket;
 import java.net.UnknownHostException;
 import java.rmi.NoSuchObjectException;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.rmi.registry.Registry;
-import java.rmi.server.RMIClientSocketFactory;
-import java.rmi.server.RMIServerSocketFactory;
+import java.rmi.server.RMIClientjava.net.SocketFactory;
+import java.rmi.server.RMIjava.net.ServerSocketFactory;
 import java.rmi.server.RemoteObject;
 import java.rmi.server.UnicastRemoteObject;
 import java.security.KeyStore;
@@ -51,7 +52,6 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
 import java.util.StringTokenizer;
-
 import javax.management.MBeanServer;
 import javax.management.remote.JMXAuthenticator;
 import javax.management.remote.JMXConnectorServer;
@@ -59,24 +59,38 @@ import javax.management.remote.JMXConnectorServerFactory;
 import javax.management.remote.JMXServiceURL;
 import javax.management.remote.rmi.RMIConnectorServer;
 import javax.net.ssl.KeyManagerFactory;
-import javax.net.ssl.SSLContext;
-import javax.net.ssl.SSLSocket;
-import javax.net.ssl.SSLSocketFactory;
+import javax.net.ssl.javax.net.ssl.javax.net.ssl.javax.net.ssl.SSLContext;
+import javax.net.ssl.SSLjava.net.java.net.java.net.Socket;
+import javax.net.ssl.SSLjava.net.SocketFactory;
 import javax.net.ssl.TrustManagerFactory;
-import javax.rmi.ssl.SslRMIClientSocketFactory;
-import javax.rmi.ssl.SslRMIServerSocketFactory;
+import javax.rmi.ssl.SslRMIClientjava.net.SocketFactory;
+import javax.rmi.ssl.SslRMIjava.net.ServerSocketFactory;
 import javax.security.auth.Subject;
 import com.sun.jmx.remote.internal.rmi.RMIExporter;
 import com.sun.jmx.remote.security.JMXPluggableAuthenticator;
 import jdk.internal.agent.Agent;
 import jdk.internal.agent.AgentConfigurationError;
-import static jdk.internal.agent.AgentConfigurationError.*;
+import static jdk.internal.agent.AgentConfigurationError.*;.extended
 import jdk.internal.agent.ConnectorAddressLink;
 import jdk.internal.agent.FileSystem;
-import sun.rmi.server.UnicastRef;
-import sun.rmi.server.UnicastServerRef;
-import sun.rmi.server.UnicastServerRef2;
-import sun.rmi.transport.LiveRef;
+import jdk.management.agent.share.classes.sun.rmi.server.UnicastRef;
+import jdk.management.agent.share.classes.sun.rmi.server.UnicastServerRef;
+import jdk.management.agent.share.classes.sun.rmi.server.UnicastServerRef2;
+import jdk.management.agent.share.classes.sun.rmi.transport.LiveRef;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class initializes and starts the RMIConnectorServer for JSR 163
@@ -979,8 +993,7 @@ public final class ConnectorBootstrap {
                 } catch (Exception e) {
                     final String msg = "Unable to check if the cipher suites " +
                             "and protocols to enable are supported";
-                    throw (IllegalArgumentException)
-                            new IllegalArgumentException(msg, e);
+                    throw new IllegalArgumentException(msg, e);
                 }
             }
 

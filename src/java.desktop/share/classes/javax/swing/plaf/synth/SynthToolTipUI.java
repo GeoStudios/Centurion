@@ -19,19 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.synth;
+package java.desktop.share.classes.javax.swing.plaf.synth;
+
 
 import java.awt.*;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-
-import javax.swing.*;
-import javax.swing.plaf.basic.BasicHTML;
-import javax.swing.plaf.basic.BasicToolTipUI;
-import javax.swing.plaf.ComponentUI;
-import javax.swing.text.View;
-
+import java.beans.PropertyChangejava.util.Listener;
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.plaf.basic.BasicHTML;
+import java.desktop.share.classes.javax.swing.plaf.basic.BasicToolTipUI;
+import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
+import java.desktop.share.classes.javax.swing.text.View;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the Synth L&amp;F UI delegate for

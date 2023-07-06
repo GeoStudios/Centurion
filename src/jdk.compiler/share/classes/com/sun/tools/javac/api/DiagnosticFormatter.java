@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.api;
+package jdk.compiler.share.classes.com.sun.tools.javac.api;
 
-import java.util.Locale;
+
+import java.base.share.classes.java.util.Locale;
 import java.util.Set;
 import javax.tools.Diagnostic;
-import com.sun.tools.javac.api.DiagnosticFormatter.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.api.DiagnosticFormatter.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides simple functionalities for javac diagnostic formatting.

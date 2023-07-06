@@ -18,12 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.util;
 
-import java.util.function.Consumer;
-import java.util.function.DoubleConsumer;
-import java.util.function.IntConsumer;
-import java.util.function.LongConsumer;
+package java.base.share.classes.java.util;
+
+
+import java.base.share.classes.java.util.function.Consumer;
+import java.base.share.classes.java.util.function.DoubleConsumer;
+import java.base.share.classes.java.util.function.IntConsumer;
+import java.base.share.classes.java.util.function.LongConsumer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An object for traversing and partitioning elements of a source.  The source

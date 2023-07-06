@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.PrintProperties;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,9 +48,7 @@
  * @run main/othervm jit.PrintProperties.PrintProperties
  */
 
-package jit.PrintProperties;
 
-import nsk.share.TestFailure;
 
 public class PrintProperties {
   public static void main(String[] args) {

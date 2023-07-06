@@ -19,30 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.color;
+package java.desktop.share.classes.java.awt.color;
 
-import java.io.BufferedInputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.FilePermission;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.ObjectStreamException;
-import java.io.OutputStream;
-import java.io.Serial;
-import java.io.Serializable;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.StringTokenizer;
 
+import java.desktop.share.classes.java.io.BufferedInputStream;
+import java.desktop.share.classes.java.io.File;
+import java.desktop.share.classes.java.io.FileInputStream;
+import java.desktop.share.classes.java.io.FileOutputStream;
+import java.desktop.share.classes.java.io.FilePermission;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.InputStream;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.ObjectOutputStream;
+import java.desktop.share.classes.java.io.ObjectStreamException;
+import java.desktop.share.classes.java.io.OutputStream;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.io.Serializable;
+import java.desktop.share.classes.java.security.AccessController;
+import java.desktop.share.classes.java.security.PrivilegedAction;
+import java.desktop.share.classes.java.util.StringTokenizer;
 import sun.java2d.cmm.CMSManager;
 import sun.java2d.cmm.PCMM;
 import sun.java2d.cmm.Profile;
 import sun.java2d.cmm.ProfileDataVerifier;
 import sun.java2d.cmm.ProfileDeferralInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A representation of color profile data for device independent and device

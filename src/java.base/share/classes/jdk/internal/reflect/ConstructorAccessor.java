@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.reflect;
+package java.base.share.classes.jdk.internal.reflect;
+
 
 import java.lang.reflect.InvocationTargetException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This interface provides the declaration for
     java.lang.reflect.Constructor.invoke(). Each Constructor object is

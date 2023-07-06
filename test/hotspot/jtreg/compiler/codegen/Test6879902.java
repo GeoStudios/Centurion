@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codegen;
+
+
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6879902
@@ -27,9 +45,7 @@
  * @run main compiler.codegen.Test6879902
  */
 
-package compiler.codegen;
 
-import java.util.Arrays;
 
 public class Test6879902 {
     public static void main(String[] args) {

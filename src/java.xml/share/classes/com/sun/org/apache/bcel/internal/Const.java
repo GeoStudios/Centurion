@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.bcel.internal;
+package java.xml.share.classes.com.sun.org.apache.bcel.internal;
 
-import java.util.Arrays;
+
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Constants for the project, mostly defined in the JVM specification.

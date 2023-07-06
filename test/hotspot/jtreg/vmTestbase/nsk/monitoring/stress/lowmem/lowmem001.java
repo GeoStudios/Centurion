@@ -18,15 +18,17 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.monitoring.stress.lowmem;
+
 
 import java.io.OutputStream;
 import java.io.PrintStream;
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryMXBean;
 import java.lang.management.MemoryType;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 import nsk.share.Log;
 import nsk.share.TestFailure;
@@ -37,6 +39,19 @@ import nsk.share.gc.gp.array.ByteArrayProducer;
 import nsk.share.gc.gp.classload.GeneratedClassProducer;
 import nsk.monitoring.share.*;
 import nsk.share.test.ExecutionController;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class lowmem001 extends ThreadedGCTest {
 

@@ -21,12 +21,25 @@
 
 package nsk.jdi.ClassObjectReference.reflectedType;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
 import com.sun.jdi.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This test checks the method <code>reflectedType()</code>

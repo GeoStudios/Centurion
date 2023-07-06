@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.crypto.spec;
+package java.base.share.classes.javax.crypto.spec;
+
 
 import java.math.BigInteger;
 import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.MGF1ParameterSpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class specifies the set of parameters used with OAEP Padding,

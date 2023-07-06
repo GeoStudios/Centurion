@@ -19,36 +19,51 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.imageio;
+package java.desktop.share.classes.javax.imageio;
+
 
 import java.awt.image.BufferedImage;
 import java.awt.image.RenderedImage;
 import java.io.File;
 import java.io.FilePermission;
 import java.io.InputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.lang.reflect.Method;
 import java.net.URL;
 import java.security.AccessController;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Set;
-import javax.imageio.spi.IIORegistry;
-import javax.imageio.spi.ImageReaderSpi;
-import javax.imageio.spi.ImageReaderWriterSpi;
-import javax.imageio.spi.ImageWriterSpi;
-import javax.imageio.spi.ImageInputStreamSpi;
-import javax.imageio.spi.ImageOutputStreamSpi;
-import javax.imageio.spi.ImageTranscoderSpi;
-import javax.imageio.spi.ServiceRegistry;
-import javax.imageio.stream.ImageInputStream;
-import javax.imageio.stream.ImageOutputStream;
+import java.desktop.share.classes.javax.imageio.spi.IIORegistry;
+import java.desktop.share.classes.javax.imageio.spi.ImageReaderSpi;
+import java.desktop.share.classes.javax.imageio.spi.ImageReaderWriterSpi;
+import java.desktop.share.classes.javax.imageio.spi.ImageWriterSpi;
+import java.desktop.share.classes.javax.imageio.spi.ImageInputStreamSpi;
+import java.desktop.share.classes.javax.imageio.spi.ImageOutputStreamSpi;
+import java.desktop.share.classes.javax.imageio.spi.ImageTranscoderSpi;
+import java.desktop.share.classes.javax.imageio.spi.ServiceRegistry;
+import java.desktop.share.classes.javax.imageio.stream.ImageInputStream;
+import java.desktop.share.classes.javax.imageio.stream.ImageOutputStream;
 import sun.awt.AppContext;
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class containing static convenience methods for locating

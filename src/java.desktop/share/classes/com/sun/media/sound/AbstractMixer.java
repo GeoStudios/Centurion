@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.media.sound;
+package java.desktop.share.classes.com.sun.media.sound;
+
 
 import java.util.Vector;
-
 import javax.sound.sampled.Control;
 import javax.sound.sampled.Line;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.Mixer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract Mixer.  Implements Mixer (with abstract methods) and specifies

@@ -21,6 +21,25 @@
 
 package gc.logging;
 
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import jtreg.SkippedException;
+import sun.hotspot.gc.GC;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestGCId
  * @bug 8043607
@@ -33,10 +52,6 @@ package gc.logging;
  * @run main/othervm -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI gc.logging.TestGCId
  */
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import jtreg.SkippedException;
-import sun.hotspot.gc.GC;
 
 public class TestGCId {
   public static void main(String[] args) throws Exception {

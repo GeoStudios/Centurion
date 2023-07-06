@@ -21,23 +21,34 @@
 
 package javax.xml.parsers.ptests;
 
-import static javax.xml.parsers.ptests.ParserTestConst.GOLDEN_DIR;
-import static javax.xml.parsers.ptests.ParserTestConst.XML_DIR;
-import static jaxp.library.JAXPTestUtilities.USER_DIR;
-import static jaxp.library.JAXPTestUtilities.compareWithGold;
-import static org.testng.Assert.assertTrue;
 
+import static javax.xml.parsers.ptests.ParserTestConst.GOLDEN_DIR;.extended
+import static javax.xml.parsers.ptests.ParserTestConst.XML_DIR;.extended
+import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
+import static jaxp.library.JAXPTestUtilities.compareWithGold;.extended
+import static org.testng.Assert.assertTrue;.extended
 import java.io.File;
-
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.sax.SAXResult;
-
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.Document;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This tests DocumentBuilderFactory for namespace processing and no-namespace

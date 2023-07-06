@@ -21,6 +21,21 @@
 
 package pkg1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This interface has different types of methods such as "Static Methods",
  * "Instance Methods", "Abstract Methods", "Default Methods".

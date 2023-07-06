@@ -18,12 +18,13 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.java.time.temporal;
 
-import static java.time.temporal.ChronoField.DAY_OF_WEEK;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
 
+import static java.time.temporal.ChronoField.DAY_OF_WEEK;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertTrue;.extended
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -36,9 +37,21 @@ import java.time.temporal.IsoFields;
 import java.time.temporal.TemporalField;
 import java.time.temporal.ValueRange;
 import java.time.temporal.WeekFields;
-
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test.

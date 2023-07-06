@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.util.NoSuchElementException;
-import java.util.Objects;
-import java.util.PrimitiveIterator;
-import java.util.Spliterator;
-import java.util.Spliterators;
-import java.util.function.IntConsumer;
-import java.util.stream.IntStream;
-import java.util.stream.StreamSupport;
+
+import java.base.share.classes.java.util.NoSuchElementException;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.PrimitiveIterator;
+import java.base.share.classes.java.util.Spliterator;
+import java.base.share.classes.java.util.Spliterators;
+import java.base.share.classes.java.util.function.IntConsumer;
+import java.base.share.classes.java.util.stream.IntStream;
+import java.base.share.classes.java.util.stream.StreamSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code CharSequence} is a readable sequence of {@code char} values. This

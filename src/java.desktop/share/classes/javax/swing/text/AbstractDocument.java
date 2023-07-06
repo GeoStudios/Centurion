@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.text;
+package java.desktop.share.classes.javax.swing.text;
+
 
 import java.awt.font.TextAttribute;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectInputValidation;
 import java.io.ObjectOutputStream;
@@ -35,26 +36,38 @@ import java.io.UnsupportedEncodingException;
 import java.text.Bidi;
 import java.util.Dictionary;
 import java.util.Enumeration;
-import java.util.EventListener;
+import java.util.Eventjava.util.Listener;
 import java.util.Hashtable;
 import java.util.Vector;
-
-import javax.swing.UIManager;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
-import javax.swing.event.EventListenerList;
-import javax.swing.event.UndoableEditEvent;
-import javax.swing.event.UndoableEditListener;
-import javax.swing.tree.TreeNode;
-import javax.swing.undo.AbstractUndoableEdit;
-import javax.swing.undo.CannotRedoException;
-import javax.swing.undo.CannotUndoException;
-import javax.swing.undo.CompoundEdit;
-import javax.swing.undo.UndoableEdit;
-
+import java.desktop.share.classes.javax.swing.UIManager;
+import java.desktop.share.classes.javax.swing.event.DocumentEvent;
+import java.desktop.share.classes.javax.swing.event.Documentjava.util.Listener;
+import java.desktop.share.classes.javax.swing.event.Eventjava.util.Listenerjava.util.java.util.java.util.List;
+import java.desktop.share.classes.javax.swing.event.UndoableEditEvent;
+import java.desktop.share.classes.javax.swing.event.UndoableEditjava.util.Listener;
+import java.desktop.share.classes.javax.swing.tree.TreeNode;
+import java.desktop.share.classes.javax.swing.undo.AbstractUndoableEdit;
+import java.desktop.share.classes.javax.swing.undo.CannotRedoException;
+import java.desktop.share.classes.javax.swing.undo.CannotUndoException;
+import java.desktop.share.classes.javax.swing.undo.CompoundEdit;
+import java.desktop.share.classes.javax.swing.undo.UndoableEdit;
 import sun.font.BidiUtils;
 import sun.swing.SwingUtilities2;
 import sun.swing.text.UndoableEditLockSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of the document interface to serve as a

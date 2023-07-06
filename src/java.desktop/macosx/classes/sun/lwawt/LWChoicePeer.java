@@ -19,19 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt;
+package java.desktop.macosx.classes.sun.lwawt;
+
 
 import java.awt.Point;
 import java.awt.Choice;
-
 import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
+import java.awt.event.Itemjava.util.Listener;
 import java.awt.peer.ChoicePeer;
-
 import javax.accessibility.Accessible;
 import javax.swing.JComboBox;
 import javax.swing.SwingUtilities;
 import javax.swing.JPopupMenu;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Lightweight implementation of {@link ChoicePeer}. Delegates most of the work

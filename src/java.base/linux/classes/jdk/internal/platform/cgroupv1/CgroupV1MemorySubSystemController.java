@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.platform.cgroupv1;
+package java.base.linux.classes.jdk.internal.platform.cgroupv1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CgroupV1MemorySubSystemController extends CgroupV1SubsystemController {
 

@@ -19,13 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package helper;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Helper class used for testing default/static method
  *
  * @author Yong Lu
  */
 
-package helper;
 
 public enum Declared {
     YES,

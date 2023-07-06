@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal.crypto;
+package java.security.jgss.share.classes.sun.security.krb5.internal.crypto;
 
-import sun.security.krb5.KrbCryptoException;
-import sun.security.krb5.internal.*;
+
+import java.security.jgss.share.classes.sun.security.krb5.KrbCryptoException;
+import java.security.jgss.share.classes.sun.security.krb5.internal.*;
 import java.security.GeneralSecurityException;
-import sun.security.krb5.EncryptedData;
-import sun.security.krb5.Checksum;
+import java.security.jgss.share.classes.sun.security.krb5.EncryptedData;
+import java.security.jgss.share.classes.sun.security.krb5.Checksum;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class Des3CbcHmacSha1KdEType extends EType {
 

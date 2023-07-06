@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.remote.internal;
+package java.management.share.classes.com.sun.jmx.remote.internal;
 
-import java.util.List;
+
+import java.util.java.util.java.util.java.util.List;
 import javax.management.Notification;
 import javax.management.ObjectName;
 import javax.management.remote.TargetedNotification;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface NotificationBufferFilter {
     /**

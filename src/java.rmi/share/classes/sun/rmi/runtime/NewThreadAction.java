@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.rmi.runtime;
+package java.rmi.share.classes.sun.rmi.runtime;
+
 
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import sun.security.util.SecurityConstants;
+import java.rmi.share.classes.sun.security.util.SecurityConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A PrivilegedAction for creating a new thread conveniently with an

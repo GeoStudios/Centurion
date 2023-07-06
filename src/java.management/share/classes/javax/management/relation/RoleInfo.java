@@ -19,21 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.relation;
+package java.management.share.classes.javax.management.relation;
 
 
 import com.sun.jmx.mbeanserver.GetPropertyAction;
-
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.ObjectStreamField;
 import java.io.Serializable;
 import java.security.AccessController;
+import java.management.share.classes.javax.management.MBeanServer;
+import java.management.share.classes.javax.management.NotCompliantMBeanException;
 
-import javax.management.MBeanServer;
 
-import javax.management.NotCompliantMBeanException;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A RoleInfo object summarises a role in a relation type.

@@ -19,33 +19,47 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.lang.module.ModuleDescriptor;
-import java.lang.module.ModuleDescriptor.Exports;
-import java.lang.module.ModuleDescriptor.Opens;
-import java.lang.reflect.Member;
-import java.io.FileDescriptor;
-import java.io.File;
-import java.io.FilePermission;
-import java.net.InetAddress;
-import java.net.SocketPermission;
-import java.security.AccessControlContext;
-import java.security.AccessController;
-import java.security.Permission;
-import java.security.PrivilegedAction;
-import java.security.Security;
-import java.security.SecurityPermission;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Objects;
-import java.util.PropertyPermission;
-import java.util.Set;
-import java.util.concurrent.ConcurrentHashMap;
 
+import java.base.share.classes.java.lang.module.ModuleDescriptor;
+import java.base.share.classes.java.lang.module.ModuleDescriptor.Exports;
+import java.base.share.classes.java.lang.module.ModuleDescriptor.Opens;
+import java.base.share.classes.java.lang.reflect.Member;
+import java.base.share.classes.java.io.FileDescriptor;
+import java.base.share.classes.java.io.File;
+import java.base.share.classes.java.io.FilePermission;
+import java.base.share.classes.java.net.InetAddress;
+import java.base.share.classes.java.net.java.net.SocketPermission;
+import java.base.share.classes.java.security.AccessControlContext;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.Permission;
+import java.base.share.classes.java.security.PrivilegedAction;
+import java.base.share.classes.java.security.Security;
+import java.base.share.classes.java.security.SecurityPermission;
+import java.base.share.classes.java.util.HashSet;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.PropertyPermission;
+import java.base.share.classes.java.util.Set;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
 import jdk.internal.module.ModuleLoaderMap;
 import jdk.internal.reflect.CallerSensitive;
 import sun.security.util.SecurityConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The security manager is a class that allows
@@ -1313,7 +1327,7 @@ public class SecurityManager {
      * @see        #checkPermission(Permission) checkPermission
      */
     public void checkPackageAccess(String pkg) {
-        Objects.requireNonNull(pkg, "package name can't be null");
+        Objects.requireNonNull(pkg, "
 
         // check if pkg is not exported to all modules
         if (nonExportedPkgs.containsKey(pkg)) {
@@ -1413,7 +1427,7 @@ public class SecurityManager {
      * @see        #checkPermission(Permission) checkPermission
      */
     public void checkPackageDefinition(String pkg) {
-        Objects.requireNonNull(pkg, "package name can't be null");
+        Objects.requireNonNull(pkg, "
 
         // check if pkg is not exported to all modules
         if (nonExportedPkgs.containsKey(pkg)) {

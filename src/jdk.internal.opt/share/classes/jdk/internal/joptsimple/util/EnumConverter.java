@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.joptsimple.util;
+package jdk.internal.opt.share.classes.jdk.internal.joptsimple.util;
+
 
 import java.text.MessageFormat;
 import java.util.EnumSet;
 import java.util.Iterator;
 import java.util.ResourceBundle;
+import jdk.internal.opt.share.classes.jdk.internal.joptsimple.ValueConversionException;
+import jdk.internal.opt.share.classes.jdk.internal.joptsimple.ValueConverter;
 
-import jdk.internal.joptsimple.ValueConversionException;
-import jdk.internal.joptsimple.ValueConverter;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Converts values to {@link java.lang.Enum}s.

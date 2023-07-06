@@ -19,6 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.vm.ci.hotspot.test;
+
+
+import jdk.vm.ci.hotspot.HotSpotConstantReflectionProvider;
+import jdk.vm.ci.meta.JavaConstant;
+import jdk.vm.ci.meta.MetaAccessProvider;
+import jdk.vm.ci.meta.MethodHandleAccessProvider;
+import jdk.vm.ci.meta.MethodHandleAccessProvider.IntrinsicMethod;
+import jdk.vm.ci.meta.ResolvedJavaMethod;
+import jdk.vm.ci.runtime.JVMCI;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8152343
@@ -33,21 +62,8 @@
  *      -XX:-UseJVMCICompiler jdk.vm.ci.hotspot.test.MethodHandleAccessProviderTest
  */
 
-package jdk.vm.ci.hotspot.test;
 
-import jdk.vm.ci.hotspot.HotSpotConstantReflectionProvider;
-import jdk.vm.ci.meta.JavaConstant;
-import jdk.vm.ci.meta.MetaAccessProvider;
-import jdk.vm.ci.meta.MethodHandleAccessProvider;
-import jdk.vm.ci.meta.MethodHandleAccessProvider.IntrinsicMethod;
-import jdk.vm.ci.meta.ResolvedJavaMethod;
-import jdk.vm.ci.runtime.JVMCI;
-import org.testng.Assert;
-import org.testng.annotations.Test;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.reflect.Method;
 
 public class MethodHandleAccessProviderTest {
     private static final HotSpotConstantReflectionProvider CONSTANT_REFLECTION = (HotSpotConstantReflectionProvider) JVMCI.getRuntime().getHostJVMCIBackend().getConstantReflection();

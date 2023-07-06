@@ -21,17 +21,17 @@
 
 package jdk.internal.net.http.websocket;
 
+
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.security.SecureRandom;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Objects;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.Queue;
 import java.util.Random;
 import java.util.concurrent.CompletableFuture;
@@ -42,12 +42,24 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.function.BiConsumer;
 import java.util.function.Supplier;
+import static jdk.internal.net.http.websocket.MessageQueue.effectiveCapacityOf;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertFalse;.extended
+import static org.testng.Assert.assertThrows;.extended
+import static org.testng.Assert.assertTrue;.extended
 
-import static jdk.internal.net.http.websocket.MessageQueue.effectiveCapacityOf;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertThrows;
-import static org.testng.Assert.assertTrue;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * A unit test for MessageQueue. The test is aware of the details of the queue

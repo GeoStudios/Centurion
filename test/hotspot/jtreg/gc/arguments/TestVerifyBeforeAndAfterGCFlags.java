@@ -21,6 +21,26 @@
 
 package gc.arguments;
 
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Collections;
+import jdk.test.lib.Utils;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestVerifyBeforeAndAfterGCFlags
  * @bug 8000831
@@ -35,12 +55,7 @@ package gc.arguments;
  * @run driver gc.arguments.TestVerifyBeforeAndAfterGCFlags
  */
 
-import java.util.ArrayList;
-import java.util.Collections;
 
-import jdk.test.lib.Utils;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class TestVerifyBeforeAndAfterGCFlags {
 

@@ -19,38 +19,52 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.util;
+package java.base.share.classes.sun.security.util;
+
 
 import java.io.ByteArrayInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.CodeSigner;
 import java.security.GeneralSecurityException;
 import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.security.PrivateKey;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.PrivateKey;
 import java.security.SignatureException;
 import java.security.cert.CertPath;
 import java.security.cert.X509Certificate;
 import java.security.cert.CertificateException;
 import java.security.cert.CertificateFactory;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Base64;
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.HexFormat;
 import java.util.Iterator;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 import java.util.jar.Attributes;
 import java.util.jar.JarException;
 import java.util.jar.JarFile;
 import java.util.jar.Manifest;
+import java.base.share.classes.sun.security.jca.Providers;
+import java.base.share.classes.sun.security.pkcs.PKCS7;
+import java.base.share.classes.sun.security.pkcs.SignerInfo;
 
-import sun.security.jca.Providers;
-import sun.security.pkcs.PKCS7;
-import sun.security.pkcs.SignerInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SignatureFileVerifier {
 

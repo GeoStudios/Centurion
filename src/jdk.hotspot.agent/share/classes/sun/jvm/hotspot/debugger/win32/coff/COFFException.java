@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.win32.coff;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Generic exception class for all exceptions which occur in this
     package. Since there is no mechanism built into this library for

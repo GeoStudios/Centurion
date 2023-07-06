@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci.events;
+
+
+import jdk.test.lib.Asserts;
+import jdk.vm.ci.services.JVMCIServiceLocator;
+import jdk.vm.ci.hotspot.HotSpotVMEventjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8156034
@@ -55,11 +75,7 @@
  *     compiler.jvmci.events.JvmciNotifyBootstrapFinishedEventTest
  */
 
-package compiler.jvmci.events;
 
-import jdk.test.lib.Asserts;
-import jdk.vm.ci.services.JVMCIServiceLocator;
-import jdk.vm.ci.hotspot.HotSpotVMEventListener;
 
 public class JvmciNotifyBootstrapFinishedEventTest extends JVMCIServiceLocator implements HotSpotVMEventListener {
     private static final boolean BOOTSTRAP = Boolean

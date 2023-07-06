@@ -20,6 +20,52 @@
  */
 
 package test.java.awt.regtesthelpers;
+
+
+import java.awt.Component;
+import java.awt.Frame;
+import java.awt.Dialog;
+import java.awt.Window;
+import java.awt.Button;
+import java.awt.Point;
+import java.awt.Dimension;
+import java.awt.Rectangle;
+import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.IllegalComponentStateException;
+import java.awt.AWTException;
+import java.awt.AWTEvent;
+import java.awt.Color;
+import java.awt.event.InputEvent;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.awt.event.ActionEvent;
+import java.awt.event.FocusEvent;
+import java.awt.event.Windowjava.util.Listener;
+import java.awt.event.WindowFocusjava.util.Listener;
+import java.awt.event.Focusjava.util.Listener;
+import java.awt.event.Actionjava.util.Listener;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.security.PrivilegedAction;
+import java.security.AccessController;
+import java.util.concurrent.atomic.AtomicBoolean;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * <p>This class contains utilities useful for regression testing.
  * <p>When using jtreg you would include this class into the build
@@ -36,40 +82,10 @@ package test.java.awt.regtesthelpers;
  * into the java source of test.
 */
 
-import java.awt.Component;
-import java.awt.Frame;
-import java.awt.Dialog;
-import java.awt.Window;
-import java.awt.Button;
-import java.awt.Point;
-import java.awt.Dimension;
-import java.awt.Rectangle;
-import java.awt.Robot;
-import java.awt.Toolkit;
-import java.awt.IllegalComponentStateException;
-import java.awt.AWTException;
-import java.awt.AWTEvent;
-import java.awt.Color;
 
-import java.awt.event.InputEvent;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-import java.awt.event.ActionEvent;
-import java.awt.event.FocusEvent;
-import java.awt.event.WindowListener;
-import java.awt.event.WindowFocusListener;
-import java.awt.event.FocusListener;
-import java.awt.event.ActionListener;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 
-import java.security.PrivilegedAction;
-import java.security.AccessController;
 
-import java.util.concurrent.atomic.AtomicBoolean;
 
 public final class Util {
     private Util() {} // this is a helper class with static methods :)

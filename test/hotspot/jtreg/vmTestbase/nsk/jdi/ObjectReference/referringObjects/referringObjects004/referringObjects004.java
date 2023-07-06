@@ -19,6 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.ObjectReference.referringObjects.referringObjects004;
+
+
+import java.io.PrintStream;
+import java.util.*;
+import com.sun.jdi.*;
+import nsk.share.Consts;
+import nsk.share.ObjectInstancesManager;
+import nsk.share.ReferringObject;
+import nsk.share.jdi.HeapwalkingDebuggee;
+import nsk.share.jdi.HeapwalkingDebugger;
+import nsk.share.jdi.TestClass1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -49,17 +75,7 @@
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
 
-package nsk.jdi.ObjectReference.referringObjects.referringObjects004;
 
-import java.io.PrintStream;
-import java.util.*;
-import com.sun.jdi.*;
-import nsk.share.Consts;
-import nsk.share.ObjectInstancesManager;
-import nsk.share.ReferringObject;
-import nsk.share.jdi.HeapwalkingDebuggee;
-import nsk.share.jdi.HeapwalkingDebugger;
-import nsk.share.jdi.TestClass1;
 
 public class referringObjects004 extends HeapwalkingDebugger {
 

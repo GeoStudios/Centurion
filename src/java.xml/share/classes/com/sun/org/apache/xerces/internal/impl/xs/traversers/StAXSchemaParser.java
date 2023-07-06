@@ -19,22 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.xs.traversers;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.traversers;
 
-import com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaDOMParser;
-import com.sun.org.apache.xerces.internal.util.JAXPNamespaceContextWrapper;
-import com.sun.org.apache.xerces.internal.util.StAXLocationWrapper;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
-import com.sun.org.apache.xerces.internal.util.XMLAttributesImpl;
-import com.sun.org.apache.xerces.internal.util.XMLStringBuffer;
-import com.sun.org.apache.xerces.internal.util.XMLSymbols;
-import com.sun.org.apache.xerces.internal.xni.NamespaceContext;
-import com.sun.org.apache.xerces.internal.xni.QName;
-import com.sun.org.apache.xerces.internal.xni.XMLString;
-import com.sun.org.apache.xerces.internal.xni.XNIException;
-import java.util.ArrayList;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaDOMParser;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.JAXPNamespaceContextWrapper;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.StAXLocationWrapper;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLAttributesImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLStringBuffer;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLSymbols;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLString;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
@@ -45,7 +46,21 @@ import javax.xml.stream.events.Namespace;
 import javax.xml.stream.events.ProcessingInstruction;
 import javax.xml.stream.events.StartElement;
 import javax.xml.stream.events.XMLEvent;
-import org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>StAXSchemaParser reads StAX events, converts them into XNI events

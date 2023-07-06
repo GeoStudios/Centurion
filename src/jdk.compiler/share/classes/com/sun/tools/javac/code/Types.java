@@ -19,12 +19,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.code;
+package jdk.compiler.share.classes.com.sun.tools.javac.code;
+
 
 import java.lang.ref.SoftReference;
 import java.util.HashSet;
 import java.util.HashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
@@ -33,32 +34,43 @@ import java.util.function.BiPredicate;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collector;
-
 import javax.tools.JavaFileObject;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Attribute.RetentionPolicy;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Lint.LintCategory;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Source.Feature;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.UndetVar.InferenceBound;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.TypeMetadata.Entry.Kind;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.AttrContext;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Check;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Enter;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Env;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.LambdaToMethod;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.BoundKind.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Type.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.externalize;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments;
 
-import com.sun.tools.javac.code.Attribute.RetentionPolicy;
-import com.sun.tools.javac.code.Lint.LintCategory;
-import com.sun.tools.javac.code.Source.Feature;
-import com.sun.tools.javac.code.Type.UndetVar.InferenceBound;
-import com.sun.tools.javac.code.TypeMetadata.Entry.Kind;
-import com.sun.tools.javac.comp.AttrContext;
-import com.sun.tools.javac.comp.Check;
-import com.sun.tools.javac.comp.Enter;
-import com.sun.tools.javac.comp.Env;
-import com.sun.tools.javac.comp.LambdaToMethod;
-import com.sun.tools.javac.jvm.ClassFile;
-import com.sun.tools.javac.util.*;
 
-import static com.sun.tools.javac.code.BoundKind.*;
-import static com.sun.tools.javac.code.Flags.*;
-import static com.sun.tools.javac.code.Kinds.Kind.*;
-import static com.sun.tools.javac.code.Scope.*;
-import static com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;
-import static com.sun.tools.javac.code.Symbol.*;
-import static com.sun.tools.javac.code.Type.*;
-import static com.sun.tools.javac.code.TypeTag.*;
-import static com.sun.tools.javac.jvm.ClassFile.externalize;
-import com.sun.tools.javac.resources.CompilerProperties.Fragments;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class containing various operations on types.

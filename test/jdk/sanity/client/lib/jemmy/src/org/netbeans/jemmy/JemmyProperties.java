@@ -18,11 +18,13 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy;
+
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.lang.reflect.InvocationTargetException;
@@ -31,13 +33,25 @@ import java.util.Hashtable;
 import java.util.Properties;
 import java.util.Stack;
 import java.util.StringTokenizer;
-
 import org.netbeans.jemmy.drivers.APIDriverInstaller;
 import org.netbeans.jemmy.drivers.DefaultDriverInstaller;
 import org.netbeans.jemmy.drivers.DriverInstaller;
 import org.netbeans.jemmy.drivers.InputDriverInstaller;
 import org.netbeans.jemmy.explorer.GUIBrowser;
 import org.netbeans.jemmy.util.Platform;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

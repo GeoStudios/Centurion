@@ -1,4 +1,3 @@
-
 /*
  * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
@@ -20,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.util.locale;
+package java.base.share.classes.sun.util.locale;
+
 
 import java.util.Collections;
 import java.util.Map;
@@ -29,6 +29,21 @@ import java.util.Set;
 import java.util.SortedMap;
 import java.util.SortedSet;
 import java.util.StringJoiner;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class UnicodeLocaleExtension extends Extension {
     public static final char SINGLETON = 'u';

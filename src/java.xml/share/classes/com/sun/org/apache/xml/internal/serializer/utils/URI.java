@@ -19,10 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.serializer.utils;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils;
 
-import java.io.IOException;
-import java.util.Objects;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

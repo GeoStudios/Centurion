@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.accessibility;
+package java.desktop.share.classes.javax.accessibility;
+
 
 import java.awt.IllegalComponentStateException;
 import java.beans.BeanProperty;
 import java.beans.JavaBean;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.beans.PropertyChangeSupport;
-import java.util.Locale;
-
+import java.base.share.classes.java.util.Locale;
 import sun.awt.AWTAccessor;
 import sun.awt.AppContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code AccessibleContext} represents the minimum information all accessible

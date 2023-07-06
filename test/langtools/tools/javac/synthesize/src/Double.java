@@ -21,6 +21,21 @@
 
 package java.lang;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Double extends Number
 {
     public static Double valueOf(double v) {

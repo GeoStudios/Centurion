@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.security.ntlm;
+package java.base.share.classes.com.sun.security.ntlm;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 enum Version {
     NTLM, NTLM2, NTLMv2

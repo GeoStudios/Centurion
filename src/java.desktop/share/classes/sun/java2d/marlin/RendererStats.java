@@ -19,19 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.marlin;
+package java.desktop.share.classes.sun.java2d.marlin;
+
 
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.Timer;
 import java.util.TimerTask;
 import java.util.concurrent.ConcurrentLinkedQueue;
-import jdk.internal.ref.CleanerFactory;
-import sun.java2d.marlin.ArrayCacheConst.CacheStats;
-import static sun.java2d.marlin.MarlinUtils.logInfo;
-import sun.java2d.marlin.stats.Histogram;
-import sun.java2d.marlin.stats.Monitor;
-import sun.java2d.marlin.stats.StatLong;
+import java.base.share.classes.jdk.internal.ref.CleanerFactory;
+import java.desktop.share.classes.sun.java2d.marlin.ArrayCacheConst.CacheStats;
+import static java.desktop.share.classes.sun.java2d.marlin.MarlinUtils.logInfo;.extended
+import java.desktop.share.classes.sun.java2d.marlin.stats.Histogram;
+import java.desktop.share.classes.sun.java2d.marlin.stats.Monitor;
+import java.desktop.share.classes.sun.java2d.marlin.stats.StatLong;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class gathers global rendering statistics for debugging purposes only

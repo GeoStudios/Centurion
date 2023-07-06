@@ -18,17 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.graal.filters;
 
-import com.sun.hotspot.igv.data.Properties;
-import com.sun.hotspot.igv.filter.AbstractFilter;
-import com.sun.hotspot.igv.graph.Connection;
-import com.sun.hotspot.igv.graph.Diagram;
-import com.sun.hotspot.igv.graph.Figure;
-import com.sun.hotspot.igv.graph.InputSlot;
-import com.sun.hotspot.igv.graph.OutputSlot;
-import java.util.HashSet;
-import java.util.Set;
+package utils.IdealGraphVisualizer.Graal.src.main.java.com.sun.hotspot.igv.graal.filters;
+
+
+import utils.IdealGraphVisualizer.Graal.src.main.java.com.sun.hotspot.igv.data.Properties;
+import utils.IdealGraphVisualizer.Graal.src.main.java.com.sun.hotspot.igv.filter.AbstractFilter;
+import utils.IdealGraphVisualizer.Graal.src.main.java.com.sun.hotspot.igv.graph.Connection;
+import utils.IdealGraphVisualizer.Graal.src.main.java.com.sun.hotspot.igv.graph.Diagram;
+import utils.IdealGraphVisualizer.Graal.src.main.java.com.sun.hotspot.igv.graph.Figure;
+import utils.IdealGraphVisualizer.Graal.src.main.java.com.sun.hotspot.igv.graph.InputSlot;
+import utils.IdealGraphVisualizer.Graal.src.main.java.com.sun.hotspot.igv.graph.OutputSlot;
+import utils.IdealGraphVisualizer.Graal.src.main.java.util.HashSet;
+import utils.IdealGraphVisualizer.Graal.src.main.java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class GraalCFGFilter extends AbstractFilter {
 

@@ -19,22 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
 
-import java.io.IOException;
-import java.net.InetSocketAddress;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.net.Inetjava.net.SocketAddress;
 import java.net.http.HttpTimeoutException;
 import java.nio.ByteBuffer;
-import java.nio.channels.SocketChannel;
+import java.nio.channels.java.net.SocketChannel;
 import java.time.Duration;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletionException;
 import java.util.function.Function;
 import java.net.http.HttpHeaders;
-import jdk.internal.net.http.common.FlowTube;
-import jdk.internal.net.http.common.MinimalFuture;
-import static java.net.http.HttpResponse.BodyHandlers.discarding;
-import static jdk.internal.net.http.common.Utils.ProxyHeaders;
+import java.net.http.share.classes.jdk.internal.net.http.common.FlowTube;
+import java.net.http.share.classes.jdk.internal.net.http.common.MinimalFuture;
+import static java.net.http.HttpResponse.BodyHandlers.discarding;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.ProxyHeaders;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A plain text socket tunnel through a proxy. Uses "CONNECT" but does not

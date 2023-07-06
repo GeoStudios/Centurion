@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.parser;
+package jdk.compiler.share.classes.com.sun.tools.javac.parser;
 
-import com.sun.tools.javac.parser.Tokens.Comment;
-import com.sun.tools.javac.parser.Tokens.Comment.CommentStyle;
-import com.sun.tools.javac.util.*;
 
+import jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.Comment;
+import jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.Comment.CommentStyle;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
 import java.nio.CharBuffer;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.regex.Pattern;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An extension to the base lexical analyzer (JavaTokenizer) that
@@ -215,7 +229,6 @@ public class JavadocTokenizer extends JavaTokenizer {
                          reset(begin_pos);
                      }
 
-                 textLoop:
                      // The textLoop processes the rest of the characters
                      // on the line, adding them to the extraction buffer.
                      while (isAvailable()) {
@@ -231,7 +244,7 @@ public class JavadocTokenizer extends JavaTokenizer {
                              accept('\r');
                              accept('\n');
                              break;
-                         } else if (is('\f')){
+                         } else if (is('\f')) {
                              next();
                              break; // treat as end of line
 

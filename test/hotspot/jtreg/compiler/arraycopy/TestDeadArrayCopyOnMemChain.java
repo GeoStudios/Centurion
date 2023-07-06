@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.arraycopy;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8080699
@@ -28,7 +45,6 @@
  *                   compiler.arraycopy.TestDeadArrayCopyOnMemChain
  */
 
-package compiler.arraycopy;
 
 public class TestDeadArrayCopyOnMemChain {
     static class A {

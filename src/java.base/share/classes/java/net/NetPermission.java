@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
-import java.security.*;
-import java.util.Enumeration;
-import java.util.Hashtable;
-import java.util.StringTokenizer;
+
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.java.util.Enumeration;
+import java.base.share.classes.java.util.Hashtable;
+import java.base.share.classes.java.util.StringTokenizer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is for various network permissions.

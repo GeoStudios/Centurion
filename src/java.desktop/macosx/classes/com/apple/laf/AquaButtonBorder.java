@@ -19,18 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.*;
-
 import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.plaf.*;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.*;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtilControlSize.*;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.*;
 
-import apple.laf.JRSUIConstants.*;
 
-import com.apple.laf.AquaUtilControlSize.*;
-import com.apple.laf.AquaUtils.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class AquaButtonBorder extends AquaBorder implements Border, UIResource {
     private static final RecyclableSingleton<Dynamic> fDynamic = new RecyclableSingletonFromDefaultConstructor<Dynamic>(Dynamic.class);

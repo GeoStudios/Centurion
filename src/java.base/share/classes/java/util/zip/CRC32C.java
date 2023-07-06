@@ -18,15 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.util.zip;
 
-import java.lang.ref.Reference;
-import java.nio.ByteBuffer;
-import java.nio.ByteOrder;
+package java.base.share.classes.java.util.zip;
 
+
+import java.base.share.classes.java.lang.ref.Reference;
+import java.base.share.classes.java.nio.ByteBuffer;
+import java.base.share.classes.java.nio.ByteOrder;
 import jdk.internal.misc.Unsafe;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 import sun.nio.ch.DirectBuffer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class that can be used to compute the CRC-32C of a data stream.

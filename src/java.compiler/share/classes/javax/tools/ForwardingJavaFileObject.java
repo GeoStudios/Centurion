@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.tools;
+package java.compiler.share.classes.javax.tools;
 
-import javax.lang.model.element.Modifier;
-import javax.lang.model.element.NestingKind;
+
+import java.compiler.share.classes.javax.lang.model.element.Modifier;
+import java.compiler.share.classes.javax.lang.model.element.NestingKind;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Forwards calls to a given file object.  Subclasses of this class

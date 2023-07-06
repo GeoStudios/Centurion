@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.awt.windows;
+
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.awt.AlphaComposite;
 import java.awt.Color;
@@ -32,20 +34,33 @@ import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferInt;
 import java.awt.image.VolatileImage;
 import java.security.AccessController;
-import sun.awt.image.BufImgSurfaceData;
-import sun.java2d.DestSurfaceProvider;
-import sun.java2d.InvalidPipeException;
-import sun.java2d.Surface;
-import sun.java2d.pipe.Region;
-import sun.java2d.pipe.RenderQueue;
-import sun.java2d.pipe.BufferedContext;
-import sun.java2d.pipe.hw.AccelGraphicsConfig;
-import sun.java2d.pipe.hw.AccelSurface;
-import sun.security.action.GetPropertyAction;
+import java.desktop.windows.classes.sun.awt.image.BufImgSurfaceData;
+import java.desktop.windows.classes.sun.java2d.DestSurfaceProvider;
+import java.desktop.windows.classes.sun.java2d.InvalidPipeException;
+import java.desktop.windows.classes.sun.java2d.Surface;
+import java.desktop.windows.classes.sun.java2d.pipe.Region;
+import java.desktop.windows.classes.sun.java2d.pipe.RenderQueue;
+import java.desktop.windows.classes.sun.java2d.pipe.BufferedContext;
+import java.desktop.windows.classes.sun.java2d.pipe.hw.AccelGraphicsConfig;
+import java.desktop.windows.classes.sun.java2d.pipe.hw.AccelSurface;
+import java.desktop.windows.classes.sun.security.action.GetPropertyAction;
+import static java.awt.image.VolatileImage.*;.extended
+import static java.desktop.windows.classes.sun.java2d.pipe.hw.AccelSurface.*;.extended
+import static java.desktop.windows.classes.sun.java2d.pipe.hw.ContextCapabilities.*;.extended
 
-import static java.awt.image.VolatileImage.*;
-import static sun.java2d.pipe.hw.AccelSurface.*;
-import static sun.java2d.pipe.hw.ContextCapabilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class handles the updates of the non-opaque windows.

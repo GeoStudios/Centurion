@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.security.jgss;
+package jdk.security.jgss.share.classes.com.sun.security.jgss;
+
 
 import javax.security.auth.Subject;
 import org.ietf.jgss.GSSName;
 import org.ietf.jgss.GSSCredential;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * GSS-API Utilities for using in conjunction with Sun Microsystem's

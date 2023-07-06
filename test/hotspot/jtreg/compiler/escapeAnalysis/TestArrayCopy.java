@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.escapeAnalysis;
+
+
+import sun.hotspot.WhiteBox;
+import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8159611
@@ -40,10 +59,7 @@
  * @author Volker Simonis
  */
 
-package compiler.escapeAnalysis;
 
-import sun.hotspot.WhiteBox;
-import java.lang.reflect.Method;
 
 public class TestArrayCopy {
 

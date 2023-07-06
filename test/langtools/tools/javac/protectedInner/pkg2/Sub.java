@@ -19,9 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package pkg2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Part of test ../ProtecteInner.java
 
-package pkg2;
 
 public class Sub extends pkg1.Base {
     private class Inner {

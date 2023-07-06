@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.code;
+package jdk.compiler.share.classes.com.sun.tools.javac.code;
+
 
 import java.util.Iterator;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCLambda;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
 
-import com.sun.tools.javac.tree.JCTree.JCLambda;
-import com.sun.tools.javac.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A type annotation position.
 *

@@ -19,36 +19,49 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.relation;
+package java.management.share.classes.javax.management.relation;
 
-import static com.sun.jmx.defaults.JmxProperties.RELATION_LOGGER;
-import static com.sun.jmx.mbeanserver.Util.cast;
 
-import java.util.ArrayList;
+import static com.sun.jmx.defaults.JmxProperties.RELATION_LOGGER;.extended
+import static com.sun.jmx.mbeanserver.Util.cast;.extended
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.atomic.AtomicLong;
 import java.lang.System.Logger.Level;
+import java.management.share.classes.javax.management.Attribute;
+import java.management.share.classes.javax.management.AttributeNotFoundException;
+import java.management.share.classes.javax.management.InstanceNotFoundException;
+import java.management.share.classes.javax.management.InvalidAttributeValueException;
+import java.management.share.classes.javax.management.MBeanException;
+import java.management.share.classes.javax.management.MBeanNotificationInfo;
+import java.management.share.classes.javax.management.MBeanRegistration;
+import java.management.share.classes.javax.management.MBeanServer;
+import java.management.share.classes.javax.management.MBeanServerDelegate;
+import java.management.share.classes.javax.management.MBeanServerNotification;
+import java.management.share.classes.javax.management.Notification;
+import java.management.share.classes.javax.management.NotificationBroadcasterSupport;
+import java.management.share.classes.javax.management.Notificationjava.util.Listener;
+import java.management.share.classes.javax.management.ObjectName;
+import java.management.share.classes.javax.management.ReflectionException;
 
-import javax.management.Attribute;
-import javax.management.AttributeNotFoundException;
-import javax.management.InstanceNotFoundException;
-import javax.management.InvalidAttributeValueException;
-import javax.management.MBeanException;
-import javax.management.MBeanNotificationInfo;
-import javax.management.MBeanRegistration;
-import javax.management.MBeanServer;
-import javax.management.MBeanServerDelegate;
-import javax.management.MBeanServerNotification;
-import javax.management.Notification;
-import javax.management.NotificationBroadcasterSupport;
-import javax.management.NotificationListener;
-import javax.management.ObjectName;
-import javax.management.ReflectionException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Relation Service is in charge of creating and deleting relation types

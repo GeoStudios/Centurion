@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package COM.foo.content.text;
+
+
+import java.net.ContentHandler;
+import java.io.InputStream;
+import java.net.URLConnection;
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Plain text file handler
@@ -37,12 +57,7 @@
  * 3) the class must be a subclass of ContentHandler.
  * 4) It must define the getContent function.
  */
-package COM.foo.content.text;
 
-import java.net.ContentHandler;
-import java.io.InputStream;
-import java.net.URLConnection;
-import java.io.IOException;
 
 public class plain extends ContentHandler {
     /**

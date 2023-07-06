@@ -21,8 +21,22 @@
 
 package compiler.types.correctness.scenarios;
 
+
 import compiler.types.correctness.hierarchies.TypeHierarchy;
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Receiver at invokes profiling and speculation

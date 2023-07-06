@@ -19,26 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.GeneralSecurityException;
 import java.security.InvalidAlgorithmParameterException;
-import java.security.InvalidKeyException;
+import java.base.share.classes.java.security.InvalidKeyException;
 import java.security.KeyPair;
-import java.security.NoSuchAlgorithmException;
-import java.security.PrivateKey;
-import java.security.PublicKey;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.PrivateKey;
+import java.base.share.classes.java.security.PublicKey;
 import java.security.SecureRandom;
 import java.security.interfaces.RSAPublicKey;
 import java.security.spec.AlgorithmParameterSpec;
-import javax.crypto.BadPaddingException;
-import javax.crypto.Cipher;
+import java.base.share.classes.javax.crypto.BadPaddingException;
+import java.base.share.classes.javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
-import javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.SecretKey;
 import javax.net.ssl.SSLHandshakeException;
-import sun.security.internal.spec.TlsRsaPremasterSecretParameterSpec;
-import sun.security.util.KeyUtil;
+import java.base.share.classes.sun.security.internal.spec.TlsRsaPremasterSecretParameterSpec;
+import java.base.share.classes.sun.security.util.KeyUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class RSAKeyExchange {
     static final SSLPossessionGenerator poGenerator =

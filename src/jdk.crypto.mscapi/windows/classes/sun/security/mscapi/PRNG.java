@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.mscapi;
+package jdk.crypto.mscapi.windows.classes.sun.security.mscapi;
+
 
 import java.lang.ref.Cleaner;
-import java.security.ProviderException;
+import java.base.share.classes.java.security.ProviderException;
 import java.security.SecureRandomSpi;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Native PRNG implementation for Windows using the Microsoft Crypto API.

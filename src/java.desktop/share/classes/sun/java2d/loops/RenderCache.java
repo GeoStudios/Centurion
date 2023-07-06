@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.loops;
+package java.desktop.share.classes.sun.java2d.loops;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class RenderCache {
     final class Entry {

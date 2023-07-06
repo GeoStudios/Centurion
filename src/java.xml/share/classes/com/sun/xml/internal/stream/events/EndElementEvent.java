@@ -18,17 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.xml.internal.stream.events;
 
-import java.util.List;
-import java.util.ArrayList;
+package java.xml.share.classes.com.sun.xml.internal.stream.events;
 
+
+import java.util.java.util.java.util.java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import javax.xml.namespace.QName;
 import javax.xml.stream.events.EndElement;
 import javax.xml.stream.events.Namespace;
 import java.util.Iterator;
 import javax.xml.stream.events.XMLEvent;
-import com.sun.xml.internal.stream.util.ReadOnlyIterator;
+import java.xml.share.classes.com.sun.xml.internal.stream.util.ReadOnlyIterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of EndElement event.

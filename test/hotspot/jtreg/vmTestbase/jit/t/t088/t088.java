@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.t.t088;
+
+
+import nsk.share.GoldChecker;
+import java.io.File;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -48,14 +67,11 @@
  *      -WorkDir ./jit/t/t088
  */
 
-package jit.t.t088;
 
 // Just like the one before except that the two patched calls
 // are attempted from distinct call sites.
 
-import nsk.share.GoldChecker;
 
-import java.io.File;
 
 class foo {
     static void bar() {

@@ -19,16 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.lib;
+
+
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.extensions.ExpressionContext;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMIterator;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.DTMNodeIterator;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.NodeSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xalan.internal.lib;
 
-import com.sun.org.apache.xalan.internal.extensions.ExpressionContext;
-import com.sun.org.apache.xml.internal.dtm.DTMIterator;
-import com.sun.org.apache.xml.internal.dtm.ref.DTMNodeIterator;
-import com.sun.org.apache.xpath.internal.NodeSet;
+
 
 /**
  * This class contains EXSLT common extension functions.

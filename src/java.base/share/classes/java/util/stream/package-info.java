@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.java.util.stream;
+
+
+import java.base.share.classes.java.util.function.BinaryOperator;
+import java.base.share.classes.java.util.function.UnaryOperator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Classes to support functional-style operations on streams of elements, such
  * as map-reduce transformations on collections.  For example:
@@ -745,7 +765,5 @@
  * for more details.
  *
  */
-package java.util.stream;
 
-import java.util.function.BinaryOperator;
-import java.util.function.UnaryOperator;
+

@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codecache.jmx;
+
+
+import jdk.test.lib.Asserts;
+import sun.hotspot.code.BlobType;
+import java.lang.management.MemoryPoolMXBean;
+import java.util.HashMap;
+import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test GetUsageTest
  * @summary testing of getUsage() for segmented code cache
@@ -40,14 +62,8 @@
  *     compiler.codecache.jmx.GetUsageTest
  */
 
-package compiler.codecache.jmx;
 
-import jdk.test.lib.Asserts;
-import sun.hotspot.code.BlobType;
 
-import java.lang.management.MemoryPoolMXBean;
-import java.util.HashMap;
-import java.util.Map;
 
 public class GetUsageTest {
 

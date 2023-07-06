@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.eliminateAutobox;
+
+
+import static jdk.test.lib.Asserts.assertEQ;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @modules java.base/jdk.internal.misc
@@ -29,9 +47,7 @@
  *                   compiler.eliminateAutobox.UnsignedLoads
  */
 
-package compiler.eliminateAutobox;
 
-import static jdk.test.lib.Asserts.assertEQ;
 
 public class UnsignedLoads {
     public static int testUnsignedByte() {

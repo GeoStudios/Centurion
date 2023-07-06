@@ -18,17 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.beans.introspect;
+
+package java.desktop.share.classes.com.sun.beans.introspect;
+
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.util.Collections;
-import java.util.EventListener;
+import java.util.Eventjava.util.Listener;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.TooManyListenersException;
+import java.util.TooManyjava.util.ListenersException;
 import java.util.TreeMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class EventSetInfo {
     private MethodInfo add;

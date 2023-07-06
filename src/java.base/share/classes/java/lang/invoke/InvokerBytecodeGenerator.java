@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
+
 
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.FieldVisitor;
@@ -31,23 +32,35 @@ import sun.invoke.util.VerifyAccess;
 import sun.invoke.util.VerifyType;
 import sun.invoke.util.Wrapper;
 import sun.reflect.misc.ReflectUtil;
+import java.base.share.classes.java.io.File;
+import java.base.share.classes.java.io.FileOutputStream;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.lang.reflect.Modifier;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.HashMap;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.stream.Stream;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType;.extended
+import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType.*;.extended
+import static java.base.share.classes.java.lang.invoke.LambdaForm.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.*;.extended
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.lang.reflect.Modifier;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.stream.Stream;
 
-import static java.lang.invoke.LambdaForm.BasicType;
-import static java.lang.invoke.LambdaForm.BasicType.*;
-import static java.lang.invoke.LambdaForm.*;
-import static java.lang.invoke.MethodHandleNatives.Constants.*;
-import static java.lang.invoke.MethodHandleStatics.*;
-import static java.lang.invoke.MethodHandles.Lookup.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Code generation backend for LambdaForm.

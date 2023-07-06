@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.net.ssl;
+package java.base.share.classes.javax.net.ssl;
 
-import java.security.PrivateKey;
+
+import java.base.share.classes.java.security.PrivateKey;
 import java.security.Principal;
 import java.security.cert.X509Certificate;
-import java.net.Socket;
+import java.net.java.net.java.net.java.net.Socket;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Instances of this interface manage which X509 certificate-based

@@ -19,22 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.validation;
+
+
+import javax.xml.transform.dom.DOMResult;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDocumentHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
+import java.xml.share.classes.com.sun.org.w3c.dom.CDATASection;
+import java.xml.share.classes.com.sun.org.w3c.dom.Comment;
+import java.xml.share.classes.com.sun.org.w3c.dom.DocumentType;
+import java.xml.share.classes.com.sun.org.w3c.dom.ProcessingInstruction;
+import java.xml.share.classes.com.sun.org.w3c.dom.Text;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.jaxp.validation;
 
-import javax.xml.transform.dom.DOMResult;
 
-import com.sun.org.apache.xerces.internal.xni.XMLDocumentHandler;
-import com.sun.org.apache.xerces.internal.xni.XNIException;
 
-import org.w3c.dom.CDATASection;
-import org.w3c.dom.Comment;
-import org.w3c.dom.DocumentType;
-import org.w3c.dom.ProcessingInstruction;
-import org.w3c.dom.Text;
+
 
 /**
  * <p>An extension to XMLDocumentHandler for building DOM structures.</p>

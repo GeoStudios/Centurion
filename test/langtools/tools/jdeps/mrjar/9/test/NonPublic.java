@@ -21,6 +21,21 @@
 
 package test;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class NonPublic {
     public String toString() {
         return "NonPublic";

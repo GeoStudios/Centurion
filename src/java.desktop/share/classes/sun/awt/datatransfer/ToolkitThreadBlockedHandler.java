@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.datatransfer;
+package java.desktop.share.classes.sun.awt.datatransfer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface ToolkitThreadBlockedHandler {
     void lock();

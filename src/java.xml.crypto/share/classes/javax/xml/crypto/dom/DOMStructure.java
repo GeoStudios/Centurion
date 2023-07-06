@@ -18,14 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package java.xml.crypto.share.classes.javax.xml.crypto.dom;
+
+
+import org.w3c.dom.Node;
+import java.xml.crypto.share.classes.javax.xml.crypto.XMLStructure;
+import java.xml.crypto.share.classes.javax.xml.crypto.dsig.XMLSignature;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: DOMStructure.java,v 1.6 2005/05/09 18:33:26 mullan Exp $
  */
-package javax.xml.crypto.dom;
 
-import org.w3c.dom.Node;
-import javax.xml.crypto.XMLStructure;
-import javax.xml.crypto.dsig.XMLSignature;
+
 
 /**
  * A DOM-specific {@link XMLStructure}. The purpose of this class is to

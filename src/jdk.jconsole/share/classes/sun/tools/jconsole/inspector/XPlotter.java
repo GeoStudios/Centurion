@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole.inspector;
+package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
-import sun.tools.jconsole.Plotter;
+
+import jdk.jconsole.share.classes.sun.tools.jconsole.Plotter;
 import javax.swing.JTable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public class XPlotter extends Plotter {

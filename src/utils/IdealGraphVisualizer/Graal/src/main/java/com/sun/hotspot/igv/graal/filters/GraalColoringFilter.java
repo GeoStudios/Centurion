@@ -18,14 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.graal.filters;
 
-import com.sun.hotspot.igv.data.Properties;
-import com.sun.hotspot.igv.filter.AbstractFilter;
-import com.sun.hotspot.igv.graph.Diagram;
-import com.sun.hotspot.igv.graph.Figure;
-import java.awt.Color;
-import java.util.List;
+package utils.IdealGraphVisualizer.Graal.src.main.java.com.sun.hotspot.igv.graal.filters;
+
+
+import utils.IdealGraphVisualizer.Graal.src.main.java.com.sun.hotspot.igv.data.Properties;
+import utils.IdealGraphVisualizer.Graal.src.main.java.com.sun.hotspot.igv.filter.AbstractFilter;
+import utils.IdealGraphVisualizer.Graal.src.main.java.com.sun.hotspot.igv.graph.Diagram;
+import utils.IdealGraphVisualizer.Graal.src.main.java.com.sun.hotspot.igv.graph.Figure;
+import utils.IdealGraphVisualizer.Graal.src.main.java.awt.Color;
+import utils.IdealGraphVisualizer.Graal.src.main.java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class GraalColoringFilter extends AbstractFilter {
 

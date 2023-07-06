@@ -19,14 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser;
+
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.FeatureState;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.PropertyState;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.xni.parser;
 
-import com.sun.org.apache.xerces.internal.util.FeatureState;
-import com.sun.org.apache.xerces.internal.util.PropertyState;
+
 
 /**
  * The component manager manages a parser configuration and the components

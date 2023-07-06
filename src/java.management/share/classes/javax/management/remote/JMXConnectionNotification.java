@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.management.share.classes.javax.management.remote;
 
-package javax.management.remote;
 
-import javax.management.Notification;
-import javax.management.ObjectName;
+import java.management.share.classes.javax.management.Notification;
+import java.management.share.classes.javax.management.ObjectName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Notification emitted when a client connection is opened or

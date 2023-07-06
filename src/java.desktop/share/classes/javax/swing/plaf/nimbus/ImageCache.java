@@ -18,18 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.plaf.nimbus;
+
+package java.desktop.share.classes.javax.swing.plaf.nimbus;
+
 
 import java.awt.GraphicsConfiguration;
 import java.awt.Image;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.SoftReference;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ImageCache - A fixed pixel count sized cache of Images keyed by arbitrary set of arguments. All images are held with

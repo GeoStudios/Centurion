@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci.compilerToVM;
+
+
+import jdk.test.lib.Asserts;
+import jdk.vm.ci.runtime.JVMCI;
+import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8136421
@@ -38,12 +58,8 @@
  *      compiler.jvmci.compilerToVM.JVM_RegisterJVMCINatives
  */
 
-package compiler.jvmci.compilerToVM;
 
-import jdk.test.lib.Asserts;
-import jdk.vm.ci.runtime.JVMCI;
 
-import java.lang.reflect.Method;
 
 public class JVM_RegisterJVMCINatives {
     private static final boolean IS_POSITIVE = Boolean.getBoolean(

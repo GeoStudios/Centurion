@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c1;
+
+
+import java.lang.reflect.Modifier;
+import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @author Yi Yang
@@ -51,11 +70,8 @@
  *                   compiler.c1.CanonicalizeGetModifiers
  */
 
-package compiler.c1;
 
-import java.lang.reflect.Modifier;
 
-import jdk.test.lib.Asserts;
 
 public class CanonicalizeGetModifiers {
     public static class T1 {

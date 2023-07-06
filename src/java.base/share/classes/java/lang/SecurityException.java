@@ -18,7 +18,24 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang;
+
+package java.base.share.classes.java.lang;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Thrown by the security manager to indicate a security violation.

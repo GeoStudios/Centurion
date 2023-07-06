@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.controldependency;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8262739
@@ -27,7 +44,6 @@
  *                   compiler.controldependency.TestAntiDependencyAfterStringInflation
  */
 
-package compiler.controldependency;
 
 public class TestAntiDependencyAfterStringInflation {
 

@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.unsafe;
+
+
+import jdk.internal.misc.Unsafe;
+import java.lang.reflect.Field;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8155781
@@ -45,11 +64,8 @@
  *                                 -XX:CompileCommand=dontinline,compiler.unsafe.OpaqueAccesses::test*
  *                                 compiler.unsafe.OpaqueAccesses
  */
-package compiler.unsafe;
 
-import jdk.internal.misc.Unsafe;
 
-import java.lang.reflect.Field;
 
 public class OpaqueAccesses {
     private static final Unsafe UNSAFE = Unsafe.getUnsafe();

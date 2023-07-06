@@ -21,9 +21,23 @@
 
 package nsk.jdi.ReferenceType.getValues;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the getvalues001 JDI test.

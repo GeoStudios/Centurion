@@ -19,14 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
+
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs.SchemaDVFactoryImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.impl.xs;
 
-import com.sun.org.apache.xerces.internal.impl.dv.xs.SchemaDVFactoryImpl;
-import com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl;
+
 
 /**
  * This class is pool that enables caching of XML Schema declaration objects.

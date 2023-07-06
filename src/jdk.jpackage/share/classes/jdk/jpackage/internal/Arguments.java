@@ -18,9 +18,11 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.jpackage.internal;
 
-import java.io.IOException;
+package jdk.jpackage.share.classes.jdk.jpackage.internal;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.Reader;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -32,6 +34,20 @@ import java.util.jar.JarFile;
 import java.util.jar.Manifest;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Arguments
@@ -115,7 +131,7 @@ public class Arguments {
 
         argList = new ArrayList<String>(args.length);
         Collections.addAll(argList, args);
-        Log.verbose ("\njpackage argument list: \n" + argList + "\n");
+        Log.verbose ("\nj
         pos = 0;
 
         deployParams = new DeployParams();

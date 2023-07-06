@@ -18,19 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.awt;
+
+package java.desktop.unix.classes.sun.awt;
+
 
 import java.awt.RenderingHints;
-import static java.awt.RenderingHints.*;
+import static java.awt.RenderingHints.*;.extended
 import java.awt.color.ColorSpace;
 import java.awt.image.*;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-
-import sun.security.action.GetIntegerAction;
+import java.desktop.unix.classes.sun.security.action.GetIntegerAction;
 import com.sun.java.swing.plaf.gtk.GTKConstants.TextDirection;
-import sun.java2d.opengl.OGLRenderQueue;
-import sun.security.action.GetPropertyAction;
+import java.desktop.unix.classes.sun.java2d.opengl.OGLRenderQueue;
+import java.desktop.unix.classes.sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class UNIXToolkit extends SunToolkit
 {

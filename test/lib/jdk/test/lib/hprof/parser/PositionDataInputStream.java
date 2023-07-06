@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.test.lib.hprof.parser;
+
+
+import java.io.DataInputStream;
+import java.io.InputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * The Original Code is HAT. The Initial Developer of the
@@ -26,10 +44,7 @@
  * at JavaSoft/Sun.
  */
 
-package jdk.test.lib.hprof.parser;
 
-import java.io.DataInputStream;
-import java.io.InputStream;
 
 /**
  * A DataInputStream that keeps track of total bytes read

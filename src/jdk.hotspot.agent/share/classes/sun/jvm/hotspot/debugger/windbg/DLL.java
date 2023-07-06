@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.windbg;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.windbg;
 
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.debugger.win32.coff.*;
-import sun.jvm.hotspot.debugger.cdbg.*;
-import sun.jvm.hotspot.utilities.Assert;
-import sun.jvm.hotspot.utilities.memo.*;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Assert;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.memo.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Provides a simple wrapper around the COFF library which handles
     relocation. A DLL can represent either a DLL or an EXE file. */

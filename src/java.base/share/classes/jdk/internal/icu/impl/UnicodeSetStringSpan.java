@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.icu.impl;
+package java.base.share.classes.jdk.internal.icu.impl;
 
-import java.util.ArrayList;
 
-import jdk.internal.icu.text.UTF16;
-import jdk.internal.icu.text.UnicodeSet;
-import jdk.internal.icu.text.UnicodeSet.SpanCondition;
-import jdk.internal.icu.util.OutputInt;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.jdk.internal.icu.text.UTF16;
+import java.base.share.classes.jdk.internal.icu.text.UnicodeSet;
+import java.base.share.classes.jdk.internal.icu.text.UnicodeSet.SpanCondition;
+import java.base.share.classes.jdk.internal.icu.util.OutputInt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Implement span() etc. for a set with strings.

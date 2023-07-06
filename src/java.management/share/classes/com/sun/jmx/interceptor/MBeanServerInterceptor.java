@@ -19,7 +19,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.interceptor;
+package java.management.share.classes.com.sun.jmx.interceptor;
 
 
 import java.io.ObjectInputStream;
@@ -30,6 +30,20 @@ import javax.management.ObjectName;
 import javax.management.OperationsException;
 import javax.management.ReflectionException;
 import javax.management.loading.ClassLoaderRepository;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>This interface specifies the behavior to be implemented by an

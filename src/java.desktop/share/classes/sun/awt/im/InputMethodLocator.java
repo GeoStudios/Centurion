@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.im;
+package java.desktop.share.classes.sun.awt.im;
+
 
 import java.awt.AWTException;
 import java.awt.im.spi.InputMethodDescriptor;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides complete information to make and handle the selection

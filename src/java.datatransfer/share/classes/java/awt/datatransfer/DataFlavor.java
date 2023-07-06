@@ -19,29 +19,43 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.datatransfer;
+package java.datatransfer.share.classes.java.awt.datatransfer;
 
-import java.io.ByteArrayInputStream;
-import java.io.CharArrayReader;
-import java.io.Externalizable;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.ObjectInput;
-import java.io.ObjectOutput;
-import java.io.OptionalDataException;
-import java.io.Reader;
-import java.io.Serial;
-import java.io.StringReader;
-import java.io.UnsupportedEncodingException;
-import java.nio.ByteBuffer;
-import java.nio.CharBuffer;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Objects;
 
+import java.datatransfer.share.classes.java.io.ByteArrayInputStream;
+import java.datatransfer.share.classes.java.io.CharArrayReader;
+import java.datatransfer.share.classes.java.io.Externalizable;
+import java.datatransfer.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.datatransfer.share.classes.java.io.InputStream;
+import java.datatransfer.share.classes.java.io.InputStreamReader;
+import java.datatransfer.share.classes.java.io.ObjectInput;
+import java.datatransfer.share.classes.java.io.ObjectOutput;
+import java.datatransfer.share.classes.java.io.OptionalDataException;
+import java.datatransfer.share.classes.java.io.Reader;
+import java.datatransfer.share.classes.java.io.Serial;
+import java.datatransfer.share.classes.java.io.StringReader;
+import java.datatransfer.share.classes.java.io.UnsupportedEncodingException;
+import java.datatransfer.share.classes.java.nio.ByteBuffer;
+import java.datatransfer.share.classes.java.nio.CharBuffer;
+import java.datatransfer.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.datatransfer.share.classes.java.util.Collections;
+import java.datatransfer.share.classes.java.util.java.util.java.util.java.util.Objects;
 import sun.datatransfer.DataFlavorUtil;
 import sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code DataFlavor} provides meta information about data. {@code DataFlavor}

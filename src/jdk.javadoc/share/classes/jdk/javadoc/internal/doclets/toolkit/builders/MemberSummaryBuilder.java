@@ -19,33 +19,45 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.toolkit.builders;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.builders;
+
 
 import java.text.MessageFormat;
 import java.util.*;
-
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ExecutableElement;
 import javax.lang.model.element.TypeElement;
 import javax.lang.model.element.VariableElement;
 import javax.lang.model.util.ElementFilter;
-
 import com.sun.source.doctree.DocCommentTree;
 import com.sun.source.doctree.DocTree;
 import com.sun.source.doctree.DocTree.Kind;
 import com.sun.source.doctree.SinceTree;
 import com.sun.source.doctree.UnknownBlockTagTree;
-import jdk.javadoc.internal.doclets.toolkit.ClassWriter;
-import jdk.javadoc.internal.doclets.toolkit.Content;
-import jdk.javadoc.internal.doclets.toolkit.MemberSummaryWriter;
-import jdk.javadoc.internal.doclets.toolkit.WriterFactory;
-import jdk.javadoc.internal.doclets.toolkit.util.CommentHelper;
-import jdk.javadoc.internal.doclets.toolkit.util.DocFinder;
-import jdk.javadoc.internal.doclets.toolkit.util.Utils;
-import jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable;
-import jdk.javadoc.internal.doclets.toolkit.CommentUtils;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.ClassWriter;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.MemberSummaryWriter;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.WriterFactory;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.CommentHelper;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFinder;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.CommentUtils;
+import static jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable.Kind.*;.extended
 
-import static jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable.Kind.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Builds the member summary.

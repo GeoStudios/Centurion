@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.utilities;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This class abstracts the notion of a worker thread which is fed
     tasks in the form of Runnables. */

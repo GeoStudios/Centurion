@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2.cr6589834;
+
+
+import jdk.test.lib.Asserts;
+import sun.hotspot.WhiteBox;
+import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6589834
@@ -40,12 +60,8 @@
  *      compiler.c2.cr6589834.Test_ia32
  */
 
-package compiler.c2.cr6589834;
 
-import jdk.test.lib.Asserts;
-import sun.hotspot.WhiteBox;
 
-import java.lang.reflect.Method;
 
 public class Test_ia32 {
     private static final int NUM_THREADS

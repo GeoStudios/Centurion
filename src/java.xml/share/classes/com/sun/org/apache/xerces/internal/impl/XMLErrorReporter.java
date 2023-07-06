@@ -19,21 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl;
-import com.sun.org.apache.xerces.internal.util.DefaultErrorHandler;
-import com.sun.org.apache.xerces.internal.util.ErrorHandlerProxy;
-import com.sun.org.apache.xerces.internal.util.MessageFormatter;
-import com.sun.org.apache.xerces.internal.xni.XMLLocator;
-import com.sun.org.apache.xerces.internal.xni.XNIException;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponent;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLErrorHandler;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLParseException;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
+
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.DefaultErrorHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.ErrorHandlerProxy;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.MessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLLocator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponent;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLErrorHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLParseException;
 import java.util.HashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
-import org.xml.sax.ErrorHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.ErrorHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is a common element of all parser configurations and is

@@ -18,14 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.util;
 
-import java.util.HashMap;
-import java.util.Map;
+package utils.IdealGraphVisualizer.Util.src.main.java.com.sun.hotspot.igv.util;
+
+
+import utils.IdealGraphVisualizer.Util.src.main.java.util.HashMap;
+import utils.IdealGraphVisualizer.Util.src.main.java.util.Map;
 import org.openide.util.Lookup.Result;
 import org.openide.util.LookupEvent;
-import org.openide.util.LookupListener;
+import org.openide.util.Lookupjava.util.Listener;
 import org.openide.util.Utilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

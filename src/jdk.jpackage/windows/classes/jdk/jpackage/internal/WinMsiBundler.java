@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jpackage.internal;
+package jdk.jpackage.windows.classes.jdk.jpackage.internal;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.Writer;
 import java.nio.charset.Charset;
@@ -31,12 +32,12 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.PathMatcher;
 import java.text.MessageFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedHashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
@@ -50,21 +51,34 @@ import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
-
-import static jdk.jpackage.internal.OverridableResource.createResource;
-import static jdk.jpackage.internal.StandardBundlerParam.ABOUT_URL;
-import static jdk.jpackage.internal.StandardBundlerParam.APP_NAME;
-import static jdk.jpackage.internal.StandardBundlerParam.INSTALLER_NAME;
-import static jdk.jpackage.internal.StandardBundlerParam.CONFIG_ROOT;
-import static jdk.jpackage.internal.StandardBundlerParam.DESCRIPTION;
-import static jdk.jpackage.internal.StandardBundlerParam.LICENSE_FILE;
-import static jdk.jpackage.internal.StandardBundlerParam.RESOURCE_DIR;
-import static jdk.jpackage.internal.StandardBundlerParam.TEMP_ROOT;
-import static jdk.jpackage.internal.StandardBundlerParam.VENDOR;
-import static jdk.jpackage.internal.StandardBundlerParam.VERSION;
+import static jdk.jpackage.windows.classes.jdk.jpackage.internal.OverridableResource.createResource;.extended
+import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundlerParam.ABOUT_URL;.extended
+import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundlerParam.APP_NAME;.extended
+import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundlerParam.INSTALLER_NAME;.extended
+import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundlerParam.CONFIG_ROOT;.extended
+import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundlerParam.DESCRIPTION;.extended
+import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundlerParam.LICENSE_FILE;.extended
+import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundlerParam.RESOURCE_DIR;.extended
+import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundlerParam.TEMP_ROOT;.extended
+import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundlerParam.VENDOR;.extended
+import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundlerParam.VERSION;.extended
 import org.w3c.dom.Document;
-import org.w3c.dom.NodeList;
+import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * WinMsiBundler

@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package com.sun.swingset3.demos.spinner;
+
 
 import javax.swing.*;
 import java.awt.*;
@@ -26,9 +28,21 @@ import java.awt.event.*;
 import java.awt.geom.Point2D;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferInt;
-import java.util.List;
-
+import java.util.java.util.java.util.java.util.List;
 import com.sun.swingset3.demos.ResourceManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @author Mikhail Lapshin

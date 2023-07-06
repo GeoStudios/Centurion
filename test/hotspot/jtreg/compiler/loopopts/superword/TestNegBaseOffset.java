@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts.superword;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8202948
@@ -30,7 +47,6 @@
  *                   compiler.loopopts.superword.TestNegBaseOffset
  */
 
-package compiler.loopopts.superword;
 
 public class TestNegBaseOffset {
     public static final int N = 400;

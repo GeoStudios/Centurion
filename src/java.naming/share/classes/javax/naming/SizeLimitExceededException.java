@@ -19,10 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.naming.share.classes.javax.naming;
 
-package javax.naming;
 
-import javax.naming.Name;
+import java.naming.share.classes.javax.naming.Name;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This exception is thrown when a method

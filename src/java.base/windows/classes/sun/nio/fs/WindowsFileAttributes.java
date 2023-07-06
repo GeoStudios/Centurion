@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.fs;
+package java.base.windows.classes.sun.nio.fs;
+
 
 import java.nio.file.attribute.*;
 import java.util.concurrent.TimeUnit;
 import jdk.internal.misc.Unsafe;
-import sun.security.action.GetPropertyAction;
+import java.base.windows.classes.sun.security.action.GetPropertyAction;
+import static java.base.windows.classes.sun.nio.fs.WindowsNativeDispatcher.*;.extended
+import static java.base.windows.classes.sun.nio.fs.WindowsConstants.*;.extended
 
-import static sun.nio.fs.WindowsNativeDispatcher.*;
-import static sun.nio.fs.WindowsConstants.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Windows implementation of DosFileAttributes/BasicFileAttributes

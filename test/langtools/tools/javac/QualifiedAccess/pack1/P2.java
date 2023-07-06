@@ -19,11 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package pack1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Support class for QualifiedAccess tests.
  */
 
-package pack1;
 
 class P2 {
         public int privatei = 0;

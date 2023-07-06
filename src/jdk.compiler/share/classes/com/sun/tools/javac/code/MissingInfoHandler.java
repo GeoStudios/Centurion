@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.code;
+package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
-import com.sun.source.util.ParameterNameProvider;
-import com.sun.tools.javac.code.Symbol.ParamSymbol;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.Name;
-import com.sun.tools.javac.util.Names;
+
+import jdk.compiler.share.classes.com.sun.source.util.ParameterNameProvider;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ParamSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Name;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Names;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Context class, that can return additional useful information for Symbols, currently

@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.dynalink.share.classes.jdk.dynalink.beans;
+
+
+import java.lang.invoke.MethodType;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.support.TypeUtilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -26,12 +48,8 @@
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-package jdk.dynalink.beans;
 
-import java.lang.invoke.MethodType;
-import java.util.LinkedList;
-import java.util.List;
-import jdk.dynalink.linker.support.TypeUtilities;
+
 
 /**
  * Represents overloaded methods applicable to a specific call site signature.

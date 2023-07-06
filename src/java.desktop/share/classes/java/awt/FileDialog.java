@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.peer.FileDialogPeer;
-import java.io.File;
-import java.io.FilenameFilter;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.Serial;
 
+import java.desktop.share.classes.java.awt.peer.FileDialogPeer;
+import java.desktop.share.classes.java.io.File;
+import java.desktop.share.classes.java.io.FilenameFilter;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.Serial;
 import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code FileDialog} class displays a dialog window

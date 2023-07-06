@@ -19,31 +19,45 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot;
+
 
 import java.rmi.RemoteException;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Debugger;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.DebuggerException;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.JVMDebugger;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.MachineDescription;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.MachineDescriptionAMD64;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.MachineDescriptionPPC64;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.MachineDescriptionAArch64;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.MachineDescriptionIntelX86;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.NoSuchSymbolException;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.bsd.BsdDebuggerLocal;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.linux.LinuxDebuggerLocal;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.remote.RemoteDebugger;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.remote.RemoteDebuggerClient;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.remote.RemoteDebuggerServer;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.windbg.WindbgDebuggerLocal;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VM;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.TypeDataBase;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.PlatformInfo;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.UnsupportedPlatformException;
 
-import sun.jvm.hotspot.debugger.Debugger;
-import sun.jvm.hotspot.debugger.DebuggerException;
-import sun.jvm.hotspot.debugger.JVMDebugger;
-import sun.jvm.hotspot.debugger.MachineDescription;
-import sun.jvm.hotspot.debugger.MachineDescriptionAMD64;
-import sun.jvm.hotspot.debugger.MachineDescriptionPPC64;
-import sun.jvm.hotspot.debugger.MachineDescriptionAArch64;
-import sun.jvm.hotspot.debugger.MachineDescriptionIntelX86;
-import sun.jvm.hotspot.debugger.NoSuchSymbolException;
-import sun.jvm.hotspot.debugger.bsd.BsdDebuggerLocal;
-import sun.jvm.hotspot.debugger.linux.LinuxDebuggerLocal;
-import sun.jvm.hotspot.debugger.remote.RemoteDebugger;
-import sun.jvm.hotspot.debugger.remote.RemoteDebuggerClient;
-import sun.jvm.hotspot.debugger.remote.RemoteDebuggerServer;
-import sun.jvm.hotspot.debugger.windbg.WindbgDebuggerLocal;
-import sun.jvm.hotspot.runtime.VM;
-import sun.jvm.hotspot.types.TypeDataBase;
-import sun.jvm.hotspot.utilities.PlatformInfo;
-import sun.jvm.hotspot.utilities.UnsupportedPlatformException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** <P> This class wraps much of the basic functionality and is the
  * highest-level factory for VM data structures. It makes it simple

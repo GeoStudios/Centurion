@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.colorchooser;
+package java.desktop.share.classes.javax.swing.colorchooser;
 
-import javax.swing.JComponent;
+
+import java.desktop.share.classes.javax.swing.JComponent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class designed to produce preconfigured "accessory" objects to

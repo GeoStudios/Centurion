@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.gctest04;
+
+
+import nsk.share.test.*;
+import nsk.share.TestFailure;
+import nsk.share.TestBug;
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -33,14 +53,9 @@
  * @run main/othervm gc.gctests.gctest04.gctest04
  */
 
-package gc.gctests.gctest04;
 
-import nsk.share.test.*;
-import nsk.share.TestFailure;
 //gctest04.java
 
-import nsk.share.TestBug;
-import nsk.share.TestFailure;
 
 
 // small objects ( 8 ~ 32k), short live time ( 5 ~ 10 ms)

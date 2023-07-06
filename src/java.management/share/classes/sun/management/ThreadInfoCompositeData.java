@@ -19,12 +19,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.management;
+package java.management.share.classes.sun.management;
+
 
 import java.lang.management.ThreadInfo;
 import java.lang.management.MonitorInfo;
 import java.lang.management.LockInfo;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Stream;
@@ -34,6 +35,20 @@ import javax.management.openmbean.CompositeData;
 import javax.management.openmbean.CompositeDataSupport;
 import javax.management.openmbean.OpenDataException;
 import javax.management.openmbean.OpenType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A CompositeData for ThreadInfo for the local management support.

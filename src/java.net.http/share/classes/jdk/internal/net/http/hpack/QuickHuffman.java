@@ -19,16 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http.hpack;
+package java.net.http.share.classes.jdk.internal.net.http.hpack;
 
-import jdk.internal.net.http.hpack.HPACK.BufferUpdateConsumer;
 
-import java.io.IOException;
+import java.net.http.share.classes.jdk.internal.net.http.hpack.HPACK.BufferUpdateConsumer;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
-import java.util.List;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
+import static java.net.http.share.classes.jdk.internal.net.http.hpack.HPACK.bytesForBits;.extended
 
-import static jdk.internal.net.http.hpack.HPACK.bytesForBits;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class QuickHuffman {
 

@@ -19,14 +19,15 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
+
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FilePermission;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
-import java.io.UncheckedIOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.lang.reflect.UndeclaredThrowableException;
 import java.net.http.HttpRequest.BodyPublisher;
 import java.nio.ByteBuffer;
@@ -38,12 +39,12 @@ import java.security.AccessController;
 import java.security.Permission;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.NoSuchElementException;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.Flow;
@@ -51,10 +52,23 @@ import java.util.concurrent.Flow.Publisher;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.function.Function;
 import java.util.function.Supplier;
+import java.net.http.share.classes.jdk.internal.net.http.common.Demand;
+import java.net.http.share.classes.jdk.internal.net.http.common.SequentialScheduler;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
 
-import jdk.internal.net.http.common.Demand;
-import jdk.internal.net.http.common.SequentialScheduler;
-import jdk.internal.net.http.common.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class RequestPublishers {
 

@@ -19,8 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap.pool;
+package java.naming.share.classes.com.sun.jndi.ldap.pool;
+
+
 import javax.naming.NamingException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a factory that creates PooledConnection.

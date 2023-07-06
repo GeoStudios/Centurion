@@ -19,26 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.platform;
+package java.base.linux.classes.jdk.internal.platform;
 
-import java.io.IOException;
-import java.io.UncheckedIOException;
-import java.lang.System.Logger;
-import java.lang.System.Logger.Level;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-import java.util.function.Consumer;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-import java.util.stream.Stream;
-
-import jdk.internal.platform.cgroupv1.CgroupV1Subsystem;
-import jdk.internal.platform.cgroupv2.CgroupV2Subsystem;
+import java.base.share.classes.java.io.IOException;
+import java.base.share.classes.java.io.UncheckedIOException;
+import java.base.share.classes.java.lang.System.Logger;
+import java.base.share.classes.java.lang.System.Logger.Level;
+import java.base.share.classes.java.nio.file.Path;
+import java.base.share.classes.java.nio.file.Paths;
+import java.base.share.classes.java.util.Collections;
+import java.base.share.classes.java.util.HashMap;
+import java.base.share.classes.java.util.List;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.Optional;
+import java.base.share.classes.java.util.function.Consumer;
+import java.base.share.classes.java.util.regex.Matcher;
+import java.base.share.classes.java.util.regex.Pattern;
+import java.base.share.classes.java.util.stream.Stream;
+import java.base.linux.classes.jdk.internal.platform.cgroupv1.CgroupV1Subsystem;
+import java.base.linux.classes.jdk.internal.platform.cgroupv2.CgroupV2Subsystem;
 
 public class CgroupSubsystemFactory {
 

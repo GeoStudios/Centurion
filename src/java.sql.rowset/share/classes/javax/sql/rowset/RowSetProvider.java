@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.sql.rowset;
+package java.sql.rowset.share.classes.javax.sql.rowset;
+
 
 import java.security.AccessController;
 import java.security.PrivilegedAction;
@@ -28,6 +29,20 @@ import java.util.PropertyPermission;
 import java.util.ServiceConfigurationError;
 import java.util.ServiceLoader;
 import sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A factory API that enables applications to obtain a

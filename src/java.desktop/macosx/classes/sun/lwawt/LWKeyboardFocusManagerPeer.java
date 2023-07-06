@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt;
+package java.desktop.macosx.classes.sun.lwawt;
+
 
 import java.awt.Component;
 import java.awt.Window;
-import sun.awt.KeyboardFocusManagerPeerImpl;
+import java.desktop.macosx.classes.sun.awt.KeyboardFocusManagerPeerImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class LWKeyboardFocusManagerPeer extends KeyboardFocusManagerPeerImpl {
     private static final LWKeyboardFocusManagerPeer inst = new LWKeyboardFocusManagerPeer();

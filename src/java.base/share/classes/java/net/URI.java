@@ -19,29 +19,43 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.InvalidObjectException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
-import java.nio.ByteBuffer;
-import java.nio.CharBuffer;
-import java.nio.charset.CharsetDecoder;
-import java.nio.charset.CharsetEncoder;
-import java.nio.charset.CoderResult;
-import java.nio.charset.CodingErrorAction;
-import java.nio.charset.CharacterCodingException;
-import java.nio.file.Path;
-import java.text.Normalizer;
+
+import java.base.share.classes.java.io.File;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.InvalidObjectException;
+import java.base.share.classes.java.io.ObjectInputStream;
+import java.base.share.classes.java.io.ObjectOutputStream;
+import java.base.share.classes.java.io.Serializable;
+import java.base.share.classes.java.nio.ByteBuffer;
+import java.base.share.classes.java.nio.CharBuffer;
+import java.base.share.classes.java.nio.charset.CharsetDecoder;
+import java.base.share.classes.java.nio.charset.CharsetEncoder;
+import java.base.share.classes.java.nio.charset.CoderResult;
+import java.base.share.classes.java.nio.charset.CodingErrorAction;
+import java.base.share.classes.java.nio.charset.CharacterCodingException;
+import java.base.share.classes.java.nio.file.Path;
+import java.base.share.classes.java.text.Normalizer;
 import jdk.internal.access.JavaNetUriAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import sun.nio.cs.UTF_8;
+import java.base.share.classes.java.lang.Character;             // for javadoc.extended
+import java.base.share.classes.java.lang.NullPointerException;  // for javadoc.extended
 
-import java.lang.Character;             // for javadoc
-import java.lang.NullPointerException;  // for javadoc
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a Uniform Resource Identifier (URI) reference.

@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac.client;
+package jdk.compiler.share.classes.com.sun.tools.sjavac.client;
+
 
 import java.io.OutputStreamWriter;
 import java.io.Writer;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Main;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Main.Result;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.AutoFlushWriter;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.Log;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.Util;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.comp.SjavacImpl;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.options.Options;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.server.Sjavac;
 
-import com.sun.tools.javac.main.Main;
-import com.sun.tools.javac.main.Main.Result;
-import com.sun.tools.sjavac.AutoFlushWriter;
-import com.sun.tools.sjavac.Log;
-import com.sun.tools.sjavac.Util;
-import com.sun.tools.sjavac.comp.SjavacImpl;
-import com.sun.tools.sjavac.options.Options;
-import com.sun.tools.sjavac.server.Sjavac;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  <p><b>This is NOT part of any supported API.

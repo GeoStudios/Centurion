@@ -20,7 +20,22 @@
  */
 
 package p;
+
+
 import java.lang.reflect.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ProxyMaker {
      public static Object invoke(Object proxy, Method method, Object... args)

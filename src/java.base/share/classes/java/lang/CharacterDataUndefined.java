@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** The CharacterData class encapsulates the large tables found in
     Java.lang.Character. */

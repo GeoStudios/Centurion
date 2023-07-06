@@ -19,21 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
-import java.io.InvalidObjectException;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.ObjectStreamField;
-import java.io.Serializable;
-import java.util.Enumeration;
-import java.util.Hashtable;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.NoSuchElementException;
-import java.util.concurrent.ConcurrentHashMap;
+
+import java.base.share.classes.java.io.InvalidObjectException;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.ObjectInputStream;
+import java.base.share.classes.java.io.ObjectOutputStream;
+import java.base.share.classes.java.io.ObjectStreamField;
+import java.base.share.classes.java.io.Serializable;
+import java.base.share.classes.java.util.Enumeration;
+import java.base.share.classes.java.util.Hashtable;
+import java.base.share.classes.java.util.Iterator;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.NoSuchElementException;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents a heterogeneous collection of Permissions. That is,

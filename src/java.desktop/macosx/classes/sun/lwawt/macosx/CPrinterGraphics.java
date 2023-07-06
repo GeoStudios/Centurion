@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
 
 import java.awt.*;
 import java.awt.image.*;
 import java.awt.print.*;
-import sun.print.*;
+import java.desktop.macosx.classes.sun.print.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CPrinterGraphics extends ProxyGraphics2D {
     // NOTE: This is a ProxyGraphics2D, and not a PathGraphics. However

@@ -21,8 +21,22 @@
 
 package jdk.test.lib.jittester.factories;
 
+
 import jdk.test.lib.jittester.Continue;
 import jdk.test.lib.jittester.ProductionFailedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class ContinueFactory extends Factory<Continue> {
     @Override

@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.types;
+
+
+import java.io.Serializable;
+import java.base.share.classes.java.util.Arrays;
+import java.util.function.Supplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8269285
@@ -30,11 +50,7 @@
  *        compiler.types.TestMethodHandleSpeculation
  */
 
-package compiler.types;
 
-import java.io.Serializable;
-import java.util.Arrays;
-import java.util.function.Supplier;
 
 public class TestMethodHandleSpeculation {
 

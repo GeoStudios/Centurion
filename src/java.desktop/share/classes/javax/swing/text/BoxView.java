@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text;
+
+package java.desktop.share.classes.javax.swing.text;
+
 
 import java.io.PrintStream;
 import java.util.Vector;
 import java.awt.*;
-import javax.swing.event.DocumentEvent;
-import javax.swing.SizeRequirements;
+import java.desktop.share.classes.javax.swing.event.DocumentEvent;
+import java.desktop.share.classes.javax.swing.SizeRequirements;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A view that arranges its children into a box shape by tiling

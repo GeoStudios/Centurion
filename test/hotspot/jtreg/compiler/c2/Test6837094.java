@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import java.util.HashSet;
+import java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6837094
@@ -31,10 +50,7 @@
  *    compiler.c2.Test6837094
  */
 
-package compiler.c2;
 
-import java.util.HashSet;
-import java.util.Set;
 
 public class Test6837094 {
 

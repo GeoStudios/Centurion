@@ -19,20 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.SystemColor;
-
 import javax.swing.*;
 import javax.swing.plaf.*;
 import javax.swing.border.*;
 import javax.swing.text.DefaultEditorKit;
-
 import javax.swing.plaf.basic.BasicBorders;
 import com.sun.java.swing.plaf.motif.*;
-import sun.awt.X11.XComponentPeer;
+import java.desktop.unix.classes.sun.awt.X11.XComponentPeer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings({"serial", "removal"}) // JDK-implementation class
 class XAWTLookAndFeel extends MotifLookAndFeel {

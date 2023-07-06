@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.formats.html.markup;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup;
 
-import jdk.javadoc.internal.doclets.toolkit.Content;
 
-import java.io.IOException;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.Writer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A representation of HTML entities.

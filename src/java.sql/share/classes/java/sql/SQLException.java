@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.sql;
+package java.sql.share.classes.java.sql;
 
-import java.util.Iterator;
-import java.util.NoSuchElementException;
-import java.util.concurrent.atomic.AtomicReferenceFieldUpdater;
+
+import java.sql.share.classes.java.util.Iterator;
+import java.sql.share.classes.java.util.NoSuchElementException;
+import java.sql.share.classes.java.util.concurrent.atomic.AtomicReferenceFieldUpdater;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <P>An exception that provides information on a database access

@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.xml.internal;
+
+package java.xml.share.classes.jdk.xml.internal;
+
 
 import com.sun.org.apache.xalan.internal.utils.XMLSecurityManager;
 import com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl;
@@ -36,12 +38,26 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParserFactory;
 import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.sax.SAXTransformerFactory;
-import static jdk.xml.internal.JdkConstants.OVERRIDE_PARSER;
+import static java.xml.share.classes.jdk.xml.internal.JdkConstants.OVERRIDE_PARSER;.extended
 import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXNotRecognizedException;
 import org.xml.sax.SAXNotSupportedException;
 import org.xml.sax.XMLReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Constants for use across JAXP processors.

@@ -18,10 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package javax.xml.validation.ptests;
 
-import static jaxp.library.JAXPTestUtilities.FILE_SEP;
-import static jaxp.library.JAXPTestUtilities.getPathByClassName;
+
+import static jaxp.library.JAXPTestUtilities.FILE_SEP;.extended
+import static jaxp.library.JAXPTestUtilities.getPathByClassName;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class defines the path constant

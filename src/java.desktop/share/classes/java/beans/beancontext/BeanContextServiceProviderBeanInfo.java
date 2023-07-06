@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.beans.beancontext;
+package java.desktop.share.classes.java.beans.beancontext;
 
-import java.beans.BeanInfo;
+
+import java.desktop.share.classes.java.beans.BeanInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A BeanContextServiceProvider implementor who wishes to provide explicit

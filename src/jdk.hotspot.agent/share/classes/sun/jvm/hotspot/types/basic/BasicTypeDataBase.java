@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.types.basic;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.basic;
+
 
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Address;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.MachineDescription;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VM;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.Type;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.TypeDataBase;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.memory.FileMapInfo;
 
-import sun.jvm.hotspot.debugger.Address;
-import sun.jvm.hotspot.debugger.MachineDescription;
-import sun.jvm.hotspot.runtime.VM;
-import sun.jvm.hotspot.types.Type;
-import sun.jvm.hotspot.types.TypeDataBase;
-import sun.jvm.hotspot.memory.FileMapInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** <P> This is a basic implementation of the TypeDataBase interface.
     It allows an external type database builder to add types to be

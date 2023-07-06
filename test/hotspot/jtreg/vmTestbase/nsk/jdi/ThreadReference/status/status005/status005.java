@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.ThreadReference.status.status005;
+
+
+import nsk.share.*;
+import nsk.share.jpda.*;
+import nsk.share.jdi.*;
+import com.sun.jdi.*;
+import com.sun.jdi.ThreadReference;
+import java.io.*;
+import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -67,20 +90,12 @@
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
 
-package nsk.jdi.ThreadReference.status.status005;
 
-import nsk.share.*;
-import nsk.share.jpda.*;
-import nsk.share.jdi.*;
 
-import com.sun.jdi.*;
-import com.sun.jdi.ThreadReference;
 
 //import com.sun.jdi.request.*;
 //import com.sun.jdi.event.*;
 //import com.sun.jdi.connect.*;
-import java.io.*;
-import java.util.*;
 
 /**
  * The debugger application of the test.

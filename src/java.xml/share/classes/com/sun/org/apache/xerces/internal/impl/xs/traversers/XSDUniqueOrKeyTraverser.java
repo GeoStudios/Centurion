@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.xs.traversers;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.traversers;
 
-import com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar;
-import com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
-import com.sun.org.apache.xerces.internal.impl.xs.XSElementDecl;
-import com.sun.org.apache.xerces.internal.impl.xs.identity.IdentityConstraint;
-import com.sun.org.apache.xerces.internal.impl.xs.identity.UniqueOrKey;
-import com.sun.org.apache.xerces.internal.util.DOMUtil;
-import org.w3c.dom.Element;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSElementDecl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.identity.IdentityConstraint;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.identity.UniqueOrKey;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.DOMUtil;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains code that is used to traverse both <key>s and

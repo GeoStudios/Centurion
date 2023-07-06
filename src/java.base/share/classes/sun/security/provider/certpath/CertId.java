@@ -19,19 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider.certpath;
+package java.base.share.classes.sun.security.provider.certpath;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
 import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.security.PublicKey;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.PublicKey;
 import java.security.cert.X509Certificate;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import javax.security.auth.x500.X500Principal;
-import sun.security.util.HexDumpEncoder;
-import sun.security.x509.*;
-import sun.security.util.*;
+import java.base.share.classes.sun.security.util.HexDumpEncoder;
+import java.base.share.classes.sun.security.x509.*;
+import java.base.share.classes.sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class corresponds to the CertId field in OCSP Request

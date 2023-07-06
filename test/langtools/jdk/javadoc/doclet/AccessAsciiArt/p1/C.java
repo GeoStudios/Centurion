@@ -21,5 +21,20 @@
 
 package p1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class C implements SI {
 }

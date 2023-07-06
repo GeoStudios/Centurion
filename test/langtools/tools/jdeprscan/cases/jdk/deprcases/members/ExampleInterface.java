@@ -21,6 +21,21 @@
 
 package jdk.deprcases.members;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface ExampleInterface {
     @Deprecated
     static final int DEP_FIELD1 = 1;

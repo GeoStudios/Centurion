@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.utilities;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
+
 
 import java.io.*;
-import sun.jvm.hotspot.code.*;
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.debugger.cdbg.*;
-import sun.jvm.hotspot.gc.shared.*;
-import sun.jvm.hotspot.interpreter.*;
-import sun.jvm.hotspot.memory.*;
-import sun.jvm.hotspot.oops.Metadata;
-import sun.jvm.hotspot.runtime.*;
-import sun.jvm.hotspot.types.Type;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.interpreter.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.memory.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.Metadata;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.Type;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This class attempts to describe possible locations of pointers in
     the VM. */

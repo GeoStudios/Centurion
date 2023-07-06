@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.vectorization;
+
+
+import jdk.test.lib.Utils;
+import java.util.Random;
+import java.util.concurrent.Callable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8241040
@@ -29,12 +49,8 @@
  *           -XX:CompileCommand=quiet -XX:CompileCommand=compileonly,*::test*
  *           -XX:+TraceNewVectors compiler.vectorization.TestMacroLogicVector
  */
-package compiler.vectorization;
 
-import jdk.test.lib.Utils;
 
-import java.util.Random;
-import java.util.concurrent.Callable;
 
 public class TestMacroLogicVector {
     static boolean booleanFunc1(boolean a, boolean b) {

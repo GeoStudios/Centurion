@@ -21,9 +21,22 @@
 
 package test.java.time.format;
 
-import static org.testng.Assert.assertEquals;
 
+import static org.testng.Assert.assertEquals;.extended
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test CharLiteralPrinterParser.

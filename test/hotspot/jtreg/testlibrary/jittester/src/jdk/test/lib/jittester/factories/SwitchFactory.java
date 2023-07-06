@@ -21,10 +21,10 @@
 
 package jdk.test.lib.jittester.factories;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
 
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.HashSet;
+import java.util.java.util.java.util.java.util.List;
 import jdk.test.lib.jittester.BuiltInType;
 import jdk.test.lib.jittester.IRNode;
 import jdk.test.lib.jittester.Literal;
@@ -33,10 +33,23 @@ import jdk.test.lib.jittester.ProductionFailedException;
 import jdk.test.lib.jittester.Rule;
 import jdk.test.lib.jittester.Switch;
 import jdk.test.lib.jittester.Type;
-import jdk.test.lib.jittester.TypeList;
+import jdk.test.lib.jittester.Typejava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.utils.TypeUtil;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.PseudoRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class SwitchFactory extends SafeFactory<Switch> {
     private final int statementLimit;

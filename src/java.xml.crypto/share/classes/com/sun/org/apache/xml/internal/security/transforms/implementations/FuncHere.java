@@ -19,28 +19,46 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.implementations;
+
+
+import javax.xml.transform.TransformerException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.I18n;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.XMLUtils;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.utils.QName;
+import java.xml.crypto.share.classes.com.sun.org.apache.xpath.internal.NodeSetDTM;
+import java.xml.crypto.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
+import java.xml.crypto.share.classes.com.sun.org.apache.xpath.internal.functions.Function;
+import java.xml.crypto.share.classes.com.sun.org.apache.xpath.internal.objects.XNodeSet;
+import java.xml.crypto.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
+import java.xml.crypto.share.classes.com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.transforms.implementations;
 
-import javax.xml.transform.TransformerException;
 
-import com.sun.org.apache.xml.internal.dtm.DTM;
-import com.sun.org.apache.xml.internal.security.utils.I18n;
-import com.sun.org.apache.xml.internal.security.utils.XMLUtils;
-import com.sun.org.apache.xml.internal.utils.QName;
-import com.sun.org.apache.xpath.internal.NodeSetDTM;
-import com.sun.org.apache.xpath.internal.XPathContext;
-import com.sun.org.apache.xpath.internal.functions.Function;
-import com.sun.org.apache.xpath.internal.objects.XNodeSet;
-import com.sun.org.apache.xpath.internal.objects.XObject;
-import com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
 
-import java.util.List;
+
 
 /**
  * The 'here()' function returns a node-set containing the attribute or

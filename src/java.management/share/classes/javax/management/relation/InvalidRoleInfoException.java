@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.relation;
+package java.management.share.classes.javax.management.relation;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This exception is raised when, in a role info, its minimum degree is greater

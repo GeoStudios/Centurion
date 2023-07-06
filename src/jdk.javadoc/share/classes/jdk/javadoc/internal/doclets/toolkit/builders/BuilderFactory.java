@@ -19,20 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.toolkit.builders;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.builders;
+
 
 import java.util.HashSet;
 import java.util.Set;
-
 import javax.lang.model.element.ModuleElement;
 import javax.lang.model.element.PackageElement;
 import javax.lang.model.element.TypeElement;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.ClassWriter;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.PropertyWriter;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.WriterFactory;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.ClassTree;
 
-import jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
-import jdk.javadoc.internal.doclets.toolkit.ClassWriter;
-import jdk.javadoc.internal.doclets.toolkit.PropertyWriter;
-import jdk.javadoc.internal.doclets.toolkit.WriterFactory;
-import jdk.javadoc.internal.doclets.toolkit.util.ClassTree;
+
+
+
+
+
+
+
+
+
+
 
 
 

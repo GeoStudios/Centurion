@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xpath.internal.objects;
+package java.xml.share.classes.com.sun.org.apache.xpath.internal.objects;
 
-import com.sun.org.apache.xpath.internal.ExpressionOwner;
-import com.sun.org.apache.xpath.internal.XPathContext;
-import com.sun.org.apache.xpath.internal.XPathVisitor;
+
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.ExpressionOwner;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathVisitor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents an XPath number, and is capable of

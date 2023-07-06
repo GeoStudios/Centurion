@@ -18,12 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.meta;
+
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
+
 
 import java.lang.reflect.Modifier;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta.JavaTypeProfile.ProfiledType;
 
-import jdk.vm.ci.meta.JavaTypeProfile.ProfiledType;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This profile object represents the type profile at a specific BCI. The precision of the supplied

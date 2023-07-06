@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.synth;
+package java.desktop.share.classes.javax.swing.plaf.synth;
+
 
 import java.awt.Color;
 import java.awt.Component;
@@ -27,24 +28,37 @@ import java.awt.Graphics;
 import java.awt.Insets;
 import java.awt.Rectangle;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.util.Enumeration;
+import java.desktop.share.classes.javax.swing.DefaultCellEditor;
+import java.desktop.share.classes.javax.swing.Icon;
+import java.desktop.share.classes.javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.JTextField;
+import java.desktop.share.classes.javax.swing.JTree;
+import java.desktop.share.classes.javax.swing.LookAndFeel;
+import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
+import java.desktop.share.classes.javax.swing.plaf.UIResource;
+import java.desktop.share.classes.javax.swing.plaf.basic.BasicTreeUI;
+import java.desktop.share.classes.javax.swing.tree.DefaultTreeCellEditor;
+import java.desktop.share.classes.javax.swing.tree.DefaultTreeCellRenderer;
+import java.desktop.share.classes.javax.swing.tree.TreeCellEditor;
+import java.desktop.share.classes.javax.swing.tree.TreeCellRenderer;
+import java.desktop.share.classes.javax.swing.tree.TreeModel;
+import java.desktop.share.classes.javax.swing.tree.TreePath;
 
-import javax.swing.DefaultCellEditor;
-import javax.swing.Icon;
-import javax.swing.JComponent;
-import javax.swing.JTextField;
-import javax.swing.JTree;
-import javax.swing.LookAndFeel;
-import javax.swing.plaf.ComponentUI;
-import javax.swing.plaf.UIResource;
-import javax.swing.plaf.basic.BasicTreeUI;
-import javax.swing.tree.DefaultTreeCellEditor;
-import javax.swing.tree.DefaultTreeCellRenderer;
-import javax.swing.tree.TreeCellEditor;
-import javax.swing.tree.TreeCellRenderer;
-import javax.swing.tree.TreeModel;
-import javax.swing.tree.TreePath;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the Synth L&amp;F UI delegate for

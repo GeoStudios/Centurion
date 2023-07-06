@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.timer;
+package java.management.share.classes.javax.management.timer;
+
 
 import java.util.Date;
 import java.lang.System.Logger.Level;
-import static com.sun.jmx.defaults.JmxProperties.TIMER_LOGGER;
+import static com.sun.jmx.defaults.JmxProperties.TIMER_LOGGER;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides a simple implementation of an alarm clock MBean.

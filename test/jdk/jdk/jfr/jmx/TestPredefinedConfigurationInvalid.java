@@ -21,11 +21,25 @@
 
 package jdk.jfr.jmx;
 
+
 import jdk.jfr.Configuration;
 import jdk.management.jfr.FlightRecorderMXBean;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.jfr.CommonHelper;
 import jdk.test.lib.jfr.VoidFunction;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

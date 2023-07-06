@@ -18,12 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package gc.g1.plab.lib;
+
 
 import java.util.EnumMap;
 import java.util.Map;
-
 import gc.g1.plab.lib.LogParser.ReportType;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class that represents PLAB statistics for a single GC.

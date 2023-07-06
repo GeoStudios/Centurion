@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.stable;
+
+
+import jdk.internal.vm.annotation.Stable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestStableMemoryBarrier
  * @bug 8139758
@@ -31,9 +49,7 @@
  * @author hui.shi@linaro.org
  */
 
-package compiler.stable;
 
-import jdk.internal.vm.annotation.Stable;
 
 public class TestStableMemoryBarrier {
     public static void main(String[] args) throws Exception {

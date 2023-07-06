@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.print;
+package java.desktop.share.classes.javax.print;
+
 
 import java.io.OutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class extends {@link PrintService} and represents a print service that

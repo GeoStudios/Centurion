@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.security.util;
+
+package java.base.share.classes.sun.security.util;
+
 
 import java.io.*;
 import java.security.AccessController;
@@ -26,9 +28,22 @@ import java.security.PrivilegedAction;
 import java.security.cert.X509Certificate;
 import java.security.cert.CertificateException;
 import java.util.Properties;
-
 import jdk.internal.util.StaticProperty;
-import sun.security.x509.X509CertImpl;
+import java.base.share.classes.sun.security.x509.X509CertImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A utility class to check if a certificate is untrusted. This is an internal

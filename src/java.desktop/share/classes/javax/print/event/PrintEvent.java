@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.print.event;
+package java.desktop.share.classes.javax.print.event;
+
 
 import java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class {@code PrintEvent} is the super class of all Print Service API events.

@@ -18,24 +18,39 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.security.ssl;
 
-import java.io.IOException;
+package java.base.share.classes.sun.security.ssl;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
 import java.nio.ByteBuffer;
 import java.security.GeneralSecurityException;
 import java.security.SecureRandom;
 import java.text.MessageFormat;
-import java.util.Locale;
-import javax.crypto.SecretKey;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.javax.crypto.SecretKey;
 import javax.net.ssl.SSLHandshakeException;
-import sun.security.ssl.PskKeyExchangeModesExtension.PskKeyExchangeMode;
-import sun.security.ssl.PskKeyExchangeModesExtension.PskKeyExchangeModesSpec;
-import sun.security.ssl.SessionTicketExtension.SessionTicketSpec;
-import sun.security.ssl.SSLHandshake.HandshakeMessage;
-import sun.security.util.HexDumpEncoder;
+import java.base.share.classes.sun.security.ssl.PskKeyExchangeModesExtension.PskKeyExchangeMode;
+import java.base.share.classes.sun.security.ssl.PskKeyExchangeModesExtension.PskKeyExchangeModesSpec;
+import java.base.share.classes.sun.security.ssl.SessionTicketExtension.SessionTicketSpec;
+import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
+import java.base.share.classes.sun.security.util.HexDumpEncoder;
+import static java.base.share.classes.sun.security.ssl.SSLHandshake.NEW_SESSION_TICKET;.extended
 
-import static sun.security.ssl.SSLHandshake.NEW_SESSION_TICKET;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Pack of the NewSessionTicket handshake message.

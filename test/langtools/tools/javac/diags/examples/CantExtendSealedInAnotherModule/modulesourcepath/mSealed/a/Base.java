@@ -21,4 +21,19 @@
 
 package a;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public sealed class Base permits b.Impl {}

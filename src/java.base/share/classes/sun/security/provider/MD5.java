@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider;
+package java.base.share.classes.sun.security.provider;
+
 
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
 import java.nio.ByteOrder;
-import java.util.Arrays;
-import java.util.Objects;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.java.util.Objects;
+import static java.base.share.classes.sun.security.provider.ByteArrayAccess.*;.extended
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 
-import static sun.security.provider.ByteArrayAccess.*;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The MD5 class is used to compute an MD5 message digest over a given

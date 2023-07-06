@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.toolkit.url;
+package java.naming.share.classes.com.sun.jndi.toolkit.url;
+
 
 import java.net.MalformedURLException;
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utilities for dealing with URLs.

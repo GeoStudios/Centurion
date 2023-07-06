@@ -18,11 +18,13 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.nio.sctp;
 
-import java.net.SocketAddress;
+package jdk.sctp.share.classes.com.sun.nio.sctp;
+
+
+import java.net.java.net.SocketAddress;
 import java.net.InetAddress;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.Set;
 import java.nio.ByteBuffer;
 import java.nio.channels.spi.AbstractSelectableChannel;
@@ -30,6 +32,20 @@ import java.nio.channels.spi.SelectorProvider;
 import java.nio.channels.ClosedChannelException;
 import java.nio.channels.NotYetBoundException;
 import java.nio.channels.SelectionKey;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A selectable channel for message-oriented SCTP sockets.

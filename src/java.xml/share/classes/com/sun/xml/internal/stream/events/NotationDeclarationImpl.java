@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.xml.internal.stream.events;
+package java.xml.share.classes.com.sun.xml.internal.stream.events;
+
 
 import javax.xml.stream.events.NotationDeclaration;
 import javax.xml.stream.events.XMLEvent;
-import com.sun.xml.internal.stream.dtd.nonvalidating.XMLNotationDecl;
+import java.xml.share.classes.com.sun.xml.internal.stream.dtd.nonvalidating.XMLNotationDecl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of NotationDeclaration event.

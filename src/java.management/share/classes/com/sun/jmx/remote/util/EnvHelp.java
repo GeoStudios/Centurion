@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.remote.util;
+package java.management.share.classes.com.sun.jmx.remote.util;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.io.OutputStream;
 import java.util.Collection;
@@ -34,18 +35,30 @@ import java.util.SortedSet;
 import java.util.StringTokenizer;
 import java.util.TreeMap;
 import java.util.TreeSet;
-
 import java.security.AccessController;
-
 import javax.management.ObjectName;
 import javax.management.MBeanServer;
 import javax.management.InstanceNotFoundException;
 import javax.management.remote.JMXConnectorFactory;
 import javax.management.remote.JMXConnectorServerFactory;
-import com.sun.jmx.mbeanserver.GetPropertyAction;
-import com.sun.jmx.remote.security.NotificationAccessController;
+import java.management.share.classes.com.sun.jmx.mbeanserver.GetPropertyAction;
+import java.management.share.classes.com.sun.jmx.remote.security.NotificationAccessController;
 import javax.management.remote.JMXConnector;
 import javax.management.remote.JMXConnectorServer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class EnvHelp {
 

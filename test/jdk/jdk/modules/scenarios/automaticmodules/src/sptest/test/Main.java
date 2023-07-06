@@ -21,6 +21,7 @@
 
 package test;
 
+
 import java.lang.module.ModuleDescriptor;
 import java.lang.module.ModuleDescriptor.Requires;
 import java.lang.module.ModuleDescriptor.Provides;
@@ -30,6 +31,19 @@ import java.util.ServiceLoader;
 import java.util.Set;
 import java.util.stream.Collectors;
 import javax.script.ScriptEngineFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test that the automatic module "bananascript" is in the boot layer and

@@ -18,19 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.terminal.impl.jna;
 
-import jdk.internal.org.jline.terminal.Attributes;
-import jdk.internal.org.jline.terminal.Size;
-import jdk.internal.org.jline.terminal.Terminal;
-import jdk.internal.org.jline.terminal.impl.jna.win.JnaWinSysTerminal;
-import jdk.internal.org.jline.terminal.spi.JnaSupport;
-import jdk.internal.org.jline.terminal.spi.Pty;
+package jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna;
 
-import java.io.IOException;
+
+import jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.Attributes;
+import jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.Size;
+import jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.Terminal;
+import jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna.win.JnaWinSysTerminal;
+import jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.spi.JnaSupport;
+import jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.spi.Pty;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.Charset;
 import java.util.function.Function;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JnaSupportImpl implements JnaSupport {
     @Override

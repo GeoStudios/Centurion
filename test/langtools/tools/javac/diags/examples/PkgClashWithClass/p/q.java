@@ -19,11 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package p;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // key: compiler.err.pkg.clashes.with.class.of.same.name
 // key: compiler.err.clash.with.pkg.of.same.name
 
 // Note: class p.q.C also exists
 
-package p;
 
 public class q { }

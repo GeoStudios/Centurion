@@ -18,15 +18,16 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.tools.jdeps;
 
-import static com.sun.tools.jdeps.JdepsTask.*;
-import static com.sun.tools.jdeps.Analyzer.*;
-import static com.sun.tools.jdeps.JdepsFilter.DEFAULT_FILTER;
+package jdk.jdeps.share.classes.com.sun.tools.jdeps;
 
-import java.io.IOException;
+
+import static jdk.jdeps.share.classes.com.sun.tools.jdeps.JdepsTask.*;.extended
+import static jdk.jdeps.share.classes.com.sun.tools.jdeps.Analyzer.*;.extended
+import static jdk.jdeps.share.classes.com.sun.tools.jdeps.JdepsFilter.DEFAULT_FILTER;.extended
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
-import java.io.UncheckedIOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.lang.module.ModuleDescriptor;
 import java.lang.module.ModuleDescriptor.Exports;
 import java.lang.module.ModuleDescriptor.Provides;
@@ -38,15 +39,28 @@ import java.nio.file.Paths;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import static java.util.stream.Collectors.*;
+import static java.util.stream.Collectors.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class ModuleInfoBuilder {

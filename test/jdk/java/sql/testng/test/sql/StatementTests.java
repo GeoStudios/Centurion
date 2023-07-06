@@ -18,16 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.sql;
 
+
 import java.sql.SQLException;
-import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertEquals;.extended
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import util.BaseTest;
 import util.StubStatement;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class StatementTests extends BaseTest {
 

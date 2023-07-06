@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.api;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.api;
+
 
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -29,24 +30,36 @@ import java.io.Writer;
 import java.nio.charset.Charset;
 import java.util.Collections;
 import java.util.EnumSet;
-import java.util.Locale;
-import java.util.Objects;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
-
 import javax.lang.model.SourceVersion;
-import javax.tools.DiagnosticListener;
+import javax.tools.Diagnosticjava.util.Listener;
 import javax.tools.DocumentationTool;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
-
 import com.sun.tools.javac.api.ClientCodeWrapper;
 import com.sun.tools.javac.file.JavacFileManager;
 import com.sun.tools.javac.file.BaseFileManager;
 import com.sun.tools.javac.util.ClientCodeException;
 import com.sun.tools.javac.util.Context;
 import com.sun.tools.javac.util.Log;
-import jdk.javadoc.internal.tool.ToolOptions;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.tool.ToolOptions;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides access to functionality specific to the JDK documentation tool,

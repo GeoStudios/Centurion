@@ -19,11 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-//    THIS TEST IS LINE NUMBER SENSITIVE
-
 package nsk.jdwp.Method.IsObsolete;
 
+
 import nsk.share.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//    THIS TEST IS LINE NUMBER SENSITIVE
+
+
 
 /**
  * This class is for redefinition.

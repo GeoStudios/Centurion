@@ -18,23 +18,35 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.xml.sax.ptests;
 
-import static org.testng.Assert.assertNotNull;
-import static org.testng.Assert.assertTrue;
-import static org.xml.sax.ptests.SAXTestConst.XML_DIR;
 
+import static org.testng.Assert.assertNotNull;.extended
+import static org.testng.Assert.assertTrue;.extended
+import static org.xml.sax.ptests.SAXTestConst.XML_DIR;.extended
 import java.io.FileInputStream;
-
 import javax.xml.parsers.SAXParserFactory;
-
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.HandlerBase;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderAdapter;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class containing the test cases for XMLReaderAdapter API

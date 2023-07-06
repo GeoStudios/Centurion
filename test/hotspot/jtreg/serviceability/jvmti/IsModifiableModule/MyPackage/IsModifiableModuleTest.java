@@ -21,6 +21,22 @@
 
 package MyPackage;
 
+
+import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @summary Verifies the JVMTI IsModifiableModule API
@@ -29,7 +45,6 @@ package MyPackage;
  * @run main/othervm/native -agentlib:IsModifiableModuleTest MyPackage.IsModifiableModuleTest
  */
 
-import java.io.PrintStream;
 
 public class IsModifiableModuleTest {
 

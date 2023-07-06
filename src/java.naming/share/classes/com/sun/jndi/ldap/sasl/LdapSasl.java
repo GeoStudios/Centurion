@@ -19,26 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap.sasl;
+package java.naming.share.classes.com.sun.jndi.ldap.sasl;
+
 
 import java.io.*;
 import java.security.cert.X509Certificate;
 import java.util.Vector;
 import java.util.Hashtable;
 import java.util.StringTokenizer;
-
 import javax.naming.AuthenticationException;
 import javax.naming.AuthenticationNotSupportedException;
 import javax.naming.NamingException;
-
 import javax.naming.ldap.Control;
-
 import javax.security.auth.callback.CallbackHandler;
 import javax.security.sasl.*;
-import com.sun.jndi.ldap.Connection;
-import com.sun.jndi.ldap.LdapClient;
-import com.sun.jndi.ldap.LdapResult;
-import com.sun.jndi.ldap.sasl.TlsChannelBinding.TlsChannelBindingType;
+import java.naming.share.classes.com.sun.jndi.ldap.Connection;
+import java.naming.share.classes.com.sun.jndi.ldap.LdapClient;
+import java.naming.share.classes.com.sun.jndi.ldap.LdapResult;
+import java.naming.share.classes.com.sun.jndi.ldap.sasl.TlsChannelBinding.TlsChannelBindingType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * Handles SASL support.

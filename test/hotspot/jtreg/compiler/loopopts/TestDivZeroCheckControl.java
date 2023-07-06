@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8229496
@@ -38,7 +55,6 @@
  *                   compiler.loopopts.TestDivZeroCheckControl
  */
 
-package compiler.loopopts;
 
 public class TestDivZeroCheckControl {
 

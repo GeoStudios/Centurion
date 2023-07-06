@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing;
+
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.Component;
 import java.awt.Container;
@@ -26,10 +28,24 @@ import java.awt.Dimension;
 import java.awt.Insets;
 import java.awt.LayoutManager2;
 import java.util.*;
-import static java.awt.Component.BaselineResizeBehavior;
-import static javax.swing.LayoutStyle.ComponentPlacement;
-import static javax.swing.SwingConstants.HORIZONTAL;
-import static javax.swing.SwingConstants.VERTICAL;
+import static java.awt.Component.BaselineResizeBehavior;.extended
+import static java.desktop.share.classes.javax.swing.LayoutStyle.ComponentPlacement;.extended
+import static java.desktop.share.classes.javax.swing.SwingConstants.HORIZONTAL;.extended
+import static java.desktop.share.classes.javax.swing.SwingConstants.VERTICAL;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code GroupLayout} is a {@code LayoutManager} that hierarchically

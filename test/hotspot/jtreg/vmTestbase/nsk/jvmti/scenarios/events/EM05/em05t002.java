@@ -21,10 +21,23 @@
 
 package nsk.jvmti.scenarios.events.EM05;
 
-import java.io.PrintStream;
 
+import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class em05t002 extends DebugeeClass {
 

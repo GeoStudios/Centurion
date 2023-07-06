@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.icu.text;
+package java.base.share.classes.jdk.internal.icu.text;
 
-import jdk.internal.icu.impl.CharacterIteratorWrapper;
-import jdk.internal.icu.impl.ReplaceableUCharacterIterator;
-import jdk.internal.icu.impl.UCharacterProperty;
 
+import java.base.share.classes.jdk.internal.icu.impl.CharacterIteratorWrapper;
+import java.base.share.classes.jdk.internal.icu.impl.ReplaceableUCharacterIterator;
+import java.base.share.classes.jdk.internal.icu.impl.UCharacterProperty;
 import java.text.CharacterIterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract class that defines an API for iteration on text objects.This is an

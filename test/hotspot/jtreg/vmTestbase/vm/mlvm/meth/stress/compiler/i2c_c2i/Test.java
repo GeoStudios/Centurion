@@ -19,6 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.mlvm.meth.stress.compiler.i2c_c2i;
+
+
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+import java.util.concurrent.CyclicBarrier;
+import vm.mlvm.meth.share.Argument;
+import vm.mlvm.meth.share.MHTransformationGen;
+import vm.mlvm.meth.share.RandomArgumentsGen;
+import vm.mlvm.meth.share.transform.v2.MHMacroTF;
+import vm.mlvm.share.Env;
+import vm.mlvm.share.MlvmTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -51,19 +77,8 @@
  * @run main/othervm vm.mlvm.meth.stress.compiler.i2c_c2i.Test
  */
 
-package vm.mlvm.meth.stress.compiler.i2c_c2i;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodType;
-import java.util.concurrent.CyclicBarrier;
 
-import vm.mlvm.meth.share.Argument;
-import vm.mlvm.meth.share.MHTransformationGen;
-import vm.mlvm.meth.share.RandomArgumentsGen;
-import vm.mlvm.meth.share.transform.v2.MHMacroTF;
-import vm.mlvm.share.Env;
-import vm.mlvm.share.MlvmTest;
 
 // TODO: check that i2c/c2i adapters are really created
 // TODO: check deopt using vm.mlvm.share.comp framework

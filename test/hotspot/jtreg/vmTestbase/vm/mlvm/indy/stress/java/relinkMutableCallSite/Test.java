@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.mlvm.indy.stress.java.relinkMutableCallSite;
+
+
+import java.lang.invoke.CallSite;
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MutableCallSite;
+import vm.mlvm.indy.share.INDIFY_RelinkCallSiteTest;
+import vm.mlvm.share.MlvmTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -49,14 +70,8 @@
  *      -stressIterationsFactor 100000
  */
 
-package vm.mlvm.indy.stress.java.relinkMutableCallSite;
 
-import java.lang.invoke.CallSite;
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MutableCallSite;
 
-import vm.mlvm.indy.share.INDIFY_RelinkCallSiteTest;
-import vm.mlvm.share.MlvmTest;
 
 public class Test extends INDIFY_RelinkCallSiteTest {
 

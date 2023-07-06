@@ -18,18 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.plaf.multi;
+
+package java.desktop.share.classes.javax.swing.plaf.multi;
+
 
 import java.util.Vector;
-import javax.swing.plaf.PopupMenuUI;
+import java.desktop.share.classes.javax.swing.plaf.PopupMenuUI;
 import java.awt.event.MouseEvent;
-import javax.swing.Popup;
-import javax.swing.JPopupMenu;
-import javax.swing.plaf.ComponentUI;
-import javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.Popup;
+import java.desktop.share.classes.javax.swing.JPopupMenu;
+import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
+import java.desktop.share.classes.javax.swing.JComponent;
 import java.awt.Graphics;
 import java.awt.Dimension;
-import javax.accessibility.Accessible;
+import java.desktop.share.classes.javax.accessibility.Accessible;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A multiplexing UI used to combine <code>PopupMenuUI</code>s.

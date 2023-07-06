@@ -19,36 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.font.FontRenderContext;
-import java.awt.font.GlyphVector;
-import java.awt.font.LineMetrics;
-import java.awt.font.TextAttribute;
-import java.awt.font.TextLayout;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
-import java.awt.peer.FontPeer;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.FilePermission;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.ObjectOutputStream;
-import java.io.OutputStream;
-import java.io.Serial;
-import java.lang.ref.SoftReference;
-import java.nio.file.Files;
-import java.security.AccessController;
-import java.security.PrivilegedExceptionAction;
-import java.text.AttributedCharacterIterator.Attribute;
-import java.text.CharacterIterator;
-import java.util.EventListener;
-import java.util.Hashtable;
-import java.util.Locale;
-import java.util.Map;
 
+import java.desktop.share.classes.java.awt.font.FontRenderContext;
+import java.desktop.share.classes.java.awt.font.GlyphVector;
+import java.desktop.share.classes.java.awt.font.LineMetrics;
+import java.desktop.share.classes.java.awt.font.TextAttribute;
+import java.desktop.share.classes.java.awt.font.TextLayout;
+import java.desktop.share.classes.java.awt.geom.AffineTransform;
+import java.desktop.share.classes.java.awt.geom.Point2D;
+import java.desktop.share.classes.java.awt.geom.Rectangle2D;
+import java.desktop.share.classes.java.awt.peer.FontPeer;
+import java.desktop.share.classes.java.io.File;
+import java.desktop.share.classes.java.io.FileOutputStream;
+import java.desktop.share.classes.java.io.FilePermission;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.InputStream;
+import java.desktop.share.classes.java.io.ObjectOutputStream;
+import java.desktop.share.classes.java.io.OutputStream;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.lang.ref.SoftReference;
+import java.desktop.share.classes.java.nio.file.Files;
+import java.desktop.share.classes.java.security.AccessController;
+import java.desktop.share.classes.java.security.PrivilegedExceptionAction;
+import java.desktop.share.classes.java.text.AttributedCharacterIterator.Attribute;
+import java.desktop.share.classes.java.text.CharacterIterator;
+import java.desktop.share.classes.java.util.Eventjava.util.Listener;
+import java.desktop.share.classes.java.util.Hashtable;
+import java.desktop.share.classes.java.util.Locale;
+import java.desktop.share.classes.java.util.Map;
 import sun.awt.ComponentFactory;
 import sun.font.AttributeMap;
 import sun.font.AttributeValues;
@@ -65,30 +65,43 @@ import sun.font.FontManagerFactory;
 import sun.font.FontUtilities;
 import sun.font.GlyphLayout;
 import sun.font.StandardGlyphVector;
+import static sun.font.EAttribute.EBACKGROUND;.extended
+import static sun.font.EAttribute.EBIDI_EMBEDDING;.extended
+import static sun.font.EAttribute.ECHAR_REPLACEMENT;.extended
+import static sun.font.EAttribute.EFAMILY;.extended
+import static sun.font.EAttribute.EFONT;.extended
+import static sun.font.EAttribute.EFOREGROUND;.extended
+import static sun.font.EAttribute.EINPUT_METHOD_HIGHLIGHT;.extended
+import static sun.font.EAttribute.EINPUT_METHOD_UNDERLINE;.extended
+import static sun.font.EAttribute.EJUSTIFICATION;.extended
+import static sun.font.EAttribute.EKERNING;.extended
+import static sun.font.EAttribute.ELIGATURES;.extended
+import static sun.font.EAttribute.ENUMERIC_SHAPING;.extended
+import static sun.font.EAttribute.EPOSTURE;.extended
+import static sun.font.EAttribute.ERUN_DIRECTION;.extended
+import static sun.font.EAttribute.ESIZE;.extended
+import static sun.font.EAttribute.ESTRIKETHROUGH;.extended
+import static sun.font.EAttribute.ESUPERSCRIPT;.extended
+import static sun.font.EAttribute.ESWAP_COLORS;.extended
+import static sun.font.EAttribute.ETRACKING;.extended
+import static sun.font.EAttribute.ETRANSFORM;.extended
+import static sun.font.EAttribute.EUNDERLINE;.extended
+import static sun.font.EAttribute.EWEIGHT;.extended
+import static sun.font.EAttribute.EWIDTH;.extended
 
-import static sun.font.EAttribute.EBACKGROUND;
-import static sun.font.EAttribute.EBIDI_EMBEDDING;
-import static sun.font.EAttribute.ECHAR_REPLACEMENT;
-import static sun.font.EAttribute.EFAMILY;
-import static sun.font.EAttribute.EFONT;
-import static sun.font.EAttribute.EFOREGROUND;
-import static sun.font.EAttribute.EINPUT_METHOD_HIGHLIGHT;
-import static sun.font.EAttribute.EINPUT_METHOD_UNDERLINE;
-import static sun.font.EAttribute.EJUSTIFICATION;
-import static sun.font.EAttribute.EKERNING;
-import static sun.font.EAttribute.ELIGATURES;
-import static sun.font.EAttribute.ENUMERIC_SHAPING;
-import static sun.font.EAttribute.EPOSTURE;
-import static sun.font.EAttribute.ERUN_DIRECTION;
-import static sun.font.EAttribute.ESIZE;
-import static sun.font.EAttribute.ESTRIKETHROUGH;
-import static sun.font.EAttribute.ESUPERSCRIPT;
-import static sun.font.EAttribute.ESWAP_COLORS;
-import static sun.font.EAttribute.ETRACKING;
-import static sun.font.EAttribute.ETRANSFORM;
-import static sun.font.EAttribute.EUNDERLINE;
-import static sun.font.EAttribute.EWEIGHT;
-import static sun.font.EAttribute.EWIDTH;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code Font} class represents fonts, which are used to

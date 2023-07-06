@@ -19,31 +19,45 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.beans;
+package java.desktop.share.classes.java.beans;
 
-import java.awt.Component;
-import java.lang.ref.Reference;
-import java.lang.ref.SoftReference;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.lang.reflect.Type;
-import java.util.ArrayList;
-import java.util.EventObject;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
 
+import java.desktop.share.classes.java.awt.Component;
+import java.desktop.share.classes.java.lang.ref.Reference;
+import java.desktop.share.classes.java.lang.ref.SoftReference;
+import java.desktop.share.classes.java.lang.reflect.Constructor;
+import java.desktop.share.classes.java.lang.reflect.InvocationTargetException;
+import java.desktop.share.classes.java.lang.reflect.Method;
+import java.desktop.share.classes.java.lang.reflect.Type;
+import java.desktop.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.desktop.share.classes.java.util.EventObject;
+import java.desktop.share.classes.java.util.HashMap;
+import java.desktop.share.classes.java.util.Iterator;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.List;
+import java.desktop.share.classes.java.util.Map;
+import java.desktop.share.classes.java.util.TreeMap;
 import com.sun.beans.TypeResolver;
 import com.sun.beans.finder.ClassFinder;
 import com.sun.beans.introspect.ClassInfo;
 import com.sun.beans.introspect.EventSetInfo;
 import com.sun.beans.introspect.PropertyInfo;
 import jdk.internal.access.JavaBeansAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Introspector class provides a standard way for tools to learn about

@@ -19,23 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.protocol.http.spnego;
+package java.security.jgss.share.classes.sun.net.www.protocol.http.spnego;
 
-import java.io.IOException;
 
+import java.io.java.io.java.io.java.io.IOException;
 import org.ietf.jgss.GSSContext;
 import org.ietf.jgss.GSSException;
 import org.ietf.jgss.GSSName;
 import org.ietf.jgss.Oid;
+import java.security.jgss.share.classes.sun.net.www.protocol.http.HttpCallerInfo;
+import java.security.jgss.share.classes.sun.net.www.protocol.http.Negotiator;
+import java.security.jgss.share.classes.sun.security.action.GetBooleanAction;
+import java.security.jgss.share.classes.sun.security.action.GetPropertyAction;
+import java.security.jgss.share.classes.sun.security.jgss.GSSManagerImpl;
+import java.security.jgss.share.classes.sun.security.jgss.GSSContextImpl;
+import java.security.jgss.share.classes.sun.security.jgss.GSSUtil;
+import java.security.jgss.share.classes.sun.security.jgss.HttpCaller;
 
-import sun.net.www.protocol.http.HttpCallerInfo;
-import sun.net.www.protocol.http.Negotiator;
-import sun.security.action.GetBooleanAction;
-import sun.security.action.GetPropertyAction;
-import sun.security.jgss.GSSManagerImpl;
-import sun.security.jgss.GSSContextImpl;
-import sun.security.jgss.GSSUtil;
-import sun.security.jgss.HttpCaller;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class encapsulates all JAAS and JGSS API calls in a separate class

@@ -20,4 +20,20 @@
  */
 
 package pkg1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public abstract class AnAbstract implements UsedInterface {}

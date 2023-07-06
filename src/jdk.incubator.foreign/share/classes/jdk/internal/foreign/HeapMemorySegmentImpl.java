@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.foreign;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
 
-import jdk.incubator.foreign.MemorySegment;
-import jdk.internal.access.JavaNioAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.Unsafe;
-import jdk.internal.vm.annotation.ForceInline;
 
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
+import jdk.incubator.foreign.share.classes.jdk.internal.access.JavaNioAccess;
+import jdk.incubator.foreign.share.classes.jdk.internal.access.SharedSecrets;
+import jdk.incubator.foreign.share.classes.jdk.internal.misc.Unsafe;
+import jdk.incubator.foreign.share.classes.jdk.internal.vm.annotation.ForceInline;
 import java.nio.ByteBuffer;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation for heap memory segments. An heap memory segment is composed by an offset and

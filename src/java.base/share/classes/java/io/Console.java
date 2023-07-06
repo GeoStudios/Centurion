@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
-import java.util.*;
-import java.nio.charset.Charset;
+
+import java.base.share.classes.java.util.*;
+import java.base.share.classes.java.nio.charset.Charset;
 import jdk.internal.access.JavaIOAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import sun.nio.cs.StreamDecoder;
 import sun.nio.cs.StreamEncoder;
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Methods to access the character-based console device, if any, associated

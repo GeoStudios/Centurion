@@ -19,30 +19,45 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.dtm.ref.sax2dtm;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.sax2dtm;
 
-import com.sun.org.apache.xml.internal.dtm.DTM;
-import com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
-import com.sun.org.apache.xml.internal.dtm.DTMException;
-import com.sun.org.apache.xml.internal.dtm.DTMManager;
-import com.sun.org.apache.xml.internal.dtm.DTMWSFilter;
-import com.sun.org.apache.xml.internal.dtm.ref.DTMDefaultBase;
-import com.sun.org.apache.xml.internal.dtm.ref.ExpandedNameTable;
-import com.sun.org.apache.xml.internal.dtm.ref.ExtendedType;
-import com.sun.org.apache.xml.internal.res.XMLErrorResources;
-import com.sun.org.apache.xml.internal.res.XMLMessages;
-import com.sun.org.apache.xml.internal.serializer.SerializationHandler;
-import com.sun.org.apache.xml.internal.utils.FastStringBuffer;
-import com.sun.org.apache.xml.internal.utils.SuballocatedIntVector;
-import com.sun.org.apache.xml.internal.utils.XMLString;
-import com.sun.org.apache.xml.internal.utils.XMLStringDefault;
-import com.sun.org.apache.xml.internal.utils.XMLStringFactory;
-import java.util.ArrayList;
-import java.util.List;
+
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMException;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMManager;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMWSFilter;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.DTMDefaultBase;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.ExpandedNameTable;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.ExtendedType;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLErrorResources;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLMessages;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.SerializationHandler;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.FastStringBuffer;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.SuballocatedIntVector;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLString;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLStringDefault;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLStringFactory;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import javax.xml.transform.Source;
-import org.xml.sax.Attributes;
-import org.xml.sax.ContentHandler;
-import org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
+import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * SAX2DTM2 is an optimized version of SAX2DTM which is used in non-incremental situation.

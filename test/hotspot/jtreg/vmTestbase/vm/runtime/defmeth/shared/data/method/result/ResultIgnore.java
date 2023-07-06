@@ -21,7 +21,21 @@
 
 package vm.runtime.defmeth.shared.data.method.result;
 
+
 import vm.runtime.defmeth.shared.data.Visitor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents an action: ignore result of a method call,

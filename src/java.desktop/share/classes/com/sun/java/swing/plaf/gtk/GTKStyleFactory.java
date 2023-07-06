@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.gtk;
+package java.desktop.share.classes.com.sun.java.swing.plaf.gtk;
 
-import java.awt.Font;
-import java.util.*;
+
+import java.desktop.share.classes.com.sun.java.awt.Font;
+import java.desktop.share.classes.com.sun.java.util.*;
 import javax.swing.*;
 import javax.swing.plaf.synth.*;
-import com.sun.java.swing.plaf.gtk.GTKEngine.WidgetType;
+import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKEngine.WidgetType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

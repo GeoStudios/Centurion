@@ -21,6 +21,28 @@
 
 package gc.arguments;
 
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import jdk.test.lib.Asserts;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import jtreg.SkippedException;
+import sun.hotspot.gc.GC;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestParallelGCThreads
  * @bug 8059527 8081382
@@ -34,13 +56,6 @@ package gc.arguments;
  * @run main/othervm -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI gc.arguments.TestParallelGCThreads
  */
 
-import java.util.ArrayList;
-import java.util.List;
-import jdk.test.lib.Asserts;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import jtreg.SkippedException;
-import sun.hotspot.gc.GC;
 
 public class TestParallelGCThreads {
 

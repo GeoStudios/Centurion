@@ -19,19 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.protocol.http;
+package java.base.share.classes.sun.net.www.protocol.http;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.net.PasswordAuthentication;
 import java.net.URL;
 import java.util.HashMap;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.function.Function;
+import java.base.share.classes.sun.net.www.HeaderParser;
 
-import sun.net.www.HeaderParser;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

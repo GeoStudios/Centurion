@@ -19,15 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.parser;
+package jdk.compiler.share.classes.com.sun.tools.javac.parser;
 
-import java.util.Arrays;
 
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.util.Log;
+import java.base.share.classes.java.util.Arrays;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
+import static jdk.compiler.share.classes.com.sun.tools.javac.util.LayoutCharacters.EOI;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.util.LayoutCharacters.tabulate;.extended
 
-import static com.sun.tools.javac.util.LayoutCharacters.EOI;
-import static com.sun.tools.javac.util.LayoutCharacters.tabulate;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The unicode character reader used by the javac/javadoc lexer/tokenizer, returns characters

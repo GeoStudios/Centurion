@@ -21,6 +21,21 @@
 
 package pkg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface TestInterfaceForAbstractClass extends TestSuperSuperInterface {
     /**
      * Test 21 passes.

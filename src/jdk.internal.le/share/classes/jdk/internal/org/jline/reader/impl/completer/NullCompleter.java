@@ -18,14 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.reader.impl.completer;
 
-import java.util.List;
+package jdk.internal.le.share.classes.jdk.internal.org.jline.reader.impl.completer;
 
-import jdk.internal.org.jline.reader.Candidate;
-import jdk.internal.org.jline.reader.Completer;
-import jdk.internal.org.jline.reader.LineReader;
-import jdk.internal.org.jline.reader.ParsedLine;
+
+import java.util.java.util.java.util.java.util.List;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.Candidate;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.Completer;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.LineReader;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.ParsedLine;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Null completer.

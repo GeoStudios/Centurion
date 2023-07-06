@@ -21,20 +21,55 @@
 
 package build.tools.cldrconverter;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.Arrays;
-import java.util.Formatter;
-import java.util.HashSet;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Locale;
-import java.util.Objects;
-import java.util.Set;
-import java.util.SortedSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class ResourceBundleGenerator implements BundleGenerator {
     // preferred timezones - keeping compatibility with JDK1.1 3 letter abbreviations
@@ -267,7 +302,7 @@ class ResourceBundleGenerator implements BundleGenerator {
             out.printf((CLDRConverter.isBaseModule ? "package sun.util.cldr;\n\n" :
                                   "package sun.util.resources.cldr.provider;\n\n")
                       + "import java.util.HashMap;\n"
-                      + "import java.util.Locale;\n"
+                      + "import java.base.share.classes.java.util.Locale;\n"
                       + "import java.util.Map;\n"
                       + "import sun.util.locale.provider.LocaleDataMetaInfo;\n"
                       + "import sun.util.locale.provider.LocaleProviderAdapter;\n\n");

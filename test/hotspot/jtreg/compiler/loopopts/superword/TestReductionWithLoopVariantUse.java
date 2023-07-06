@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts.superword;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8080976
@@ -27,7 +44,6 @@
  *      compiler.loopopts.superword.TestReductionWithLoopVariantUse
  */
 
-package compiler.loopopts.superword;
 
 public class TestReductionWithLoopVariantUse {
     static int m(int[] array) {

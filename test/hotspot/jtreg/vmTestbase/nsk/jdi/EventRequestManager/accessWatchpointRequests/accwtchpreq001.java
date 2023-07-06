@@ -21,6 +21,7 @@
 
 package nsk.jdi.EventRequestManager.accessWatchpointRequests;
 
+
 import com.sun.jdi.Field;
 import com.sun.jdi.ReferenceType;
 import com.sun.jdi.request.AccessWatchpointRequest;
@@ -28,14 +29,25 @@ import com.sun.jdi.request.EventRequestManager;
 import com.sun.jdi.VirtualMachine;
 import com.sun.jdi.VMDisconnectedException;
 import com.sun.jdi.event.*;
-
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.io.*;
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test checks that the JDI method

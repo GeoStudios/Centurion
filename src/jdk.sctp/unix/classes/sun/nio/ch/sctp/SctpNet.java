@@ -18,24 +18,40 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.nio.ch.sctp;
+
+package jdk.sctp.unix.classes.sun.nio.ch.sctp;
+
 
 import java.io.FileDescriptor;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.InetAddress;
-import java.net.InetSocketAddress;
-import java.net.SocketAddress;
+import java.net.Inetjava.net.SocketAddress;
+import java.net.java.net.SocketAddress;
 import java.nio.channels.AlreadyBoundException;
 import java.util.Collections;
 import java.util.Set;
 import java.util.HashSet;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import sun.net.util.IPAddressUtil;
-import sun.nio.ch.IOUtil;
-import sun.nio.ch.Net;
-import com.sun.nio.sctp.SctpSocketOption;
-import static com.sun.nio.sctp.SctpStandardSocketOptions.*;
+import jdk.sctp.unix.classes.sun.net.util.IPAddressUtil;
+import jdk.sctp.unix.classes.sun.nio.ch.IOUtil;
+import jdk.sctp.unix.classes.sun.nio.ch.Net;
+import com.sun.nio.sctp.Sctpjava.net.SocketOption;
+import static com.sun.nio.sctp.SctpStandardjava.net.SocketOptions.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("removal")
 public class SctpNet {

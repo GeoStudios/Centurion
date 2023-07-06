@@ -21,6 +21,21 @@
 
 package test;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // This class is loaded via Loader2. Using D_ambgs here will trigger
 // loading it's second version with Loader2.
 public class B implements A {

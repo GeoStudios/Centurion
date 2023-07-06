@@ -19,14 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.toolkit.builders;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.builders;
+
 
 import javax.lang.model.element.ModuleElement;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.DocFilesHandler;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.DocletException;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.ModuleSummaryWriter;
 
-import jdk.javadoc.internal.doclets.toolkit.Content;
-import jdk.javadoc.internal.doclets.toolkit.DocFilesHandler;
-import jdk.javadoc.internal.doclets.toolkit.DocletException;
-import jdk.javadoc.internal.doclets.toolkit.ModuleSummaryWriter;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

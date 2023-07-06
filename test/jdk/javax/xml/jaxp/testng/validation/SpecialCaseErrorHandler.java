@@ -21,12 +21,25 @@
 
 package validation;
 
+
 import java.util.HashMap;
 import java.util.Iterator;
-
 import org.xml.sax.ErrorHandler;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SpecialCaseErrorHandler implements ErrorHandler {
     public static final boolean DEBUG = false;

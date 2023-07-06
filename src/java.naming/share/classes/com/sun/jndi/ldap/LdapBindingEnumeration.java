@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap;
+package java.naming.share.classes.com.sun.jndi.ldap;
+
 
 import java.security.AccessControlContext;
 import java.security.AccessController;
@@ -30,8 +31,21 @@ import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.ldap.Control;
 import javax.naming.spi.*;
+import java.naming.share.classes.com.sun.jndi.toolkit.ctx.Continuation;
 
-import com.sun.jndi.toolkit.ctx.Continuation;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class LdapBindingEnumeration
         extends AbstractLdapNamingEnumeration<Binding> {

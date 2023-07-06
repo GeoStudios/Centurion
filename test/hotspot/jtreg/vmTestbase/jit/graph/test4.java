@@ -21,8 +21,22 @@
 
 package jit.graph;
 
+
 import java.lang.reflect.InvocationTargetException;
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class test4 extends test2 {
     private final int[] MethodID = {Globals.MethodID_Array[1], Globals.MethodID_Array[5], Globals.MethodID_Array[6]};

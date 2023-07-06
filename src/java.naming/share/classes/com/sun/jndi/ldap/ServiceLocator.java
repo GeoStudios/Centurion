@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap;
+package java.naming.share.classes.com.sun.jndi.ldap;
+
 
 import java.util.*;
-
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.spi.NamingManager;
 import javax.naming.ldap.LdapName;
 import javax.naming.ldap.Rdn;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class discovers the location of LDAP services by querying DNS.

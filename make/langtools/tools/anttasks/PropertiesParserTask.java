@@ -21,11 +21,11 @@
 
 package anttasks;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
+import java.io.File;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
 import propertiesparser.PropertiesParser;
 import propertiesparser.gen.ClassGenerator;
 import org.apache.tools.ant.BuildException;
@@ -34,6 +34,19 @@ import org.apache.tools.ant.Project;
 import org.apache.tools.ant.taskdefs.MatchingTask;
 import org.apache.tools.ant.types.Path;
 import org.apache.tools.ant.types.Resource;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PropertiesParserTask extends MatchingTask {
     public void addSrc(Path src) {

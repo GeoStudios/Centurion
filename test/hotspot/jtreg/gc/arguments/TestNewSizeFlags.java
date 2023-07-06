@@ -21,6 +21,30 @@
 
 package gc.arguments;
 
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.lang.management.MemoryUsage;
+import java.base.share.classes.java.util.Arrays;
+import java.util.Collections;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.Utils;
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestNewSizeFlags
  * @bug 8025166
@@ -35,15 +59,6 @@ package gc.arguments;
  * @run driver/timeout=240  gc.arguments.TestNewSizeFlags
  */
 
-import java.io.IOException;
-import java.lang.management.MemoryUsage;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.LinkedList;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.Utils;
-import sun.hotspot.WhiteBox;
 
 public class TestNewSizeFlags {
 

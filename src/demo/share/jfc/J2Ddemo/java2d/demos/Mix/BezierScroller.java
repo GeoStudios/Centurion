@@ -18,12 +18,13 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d.demos.Mix;
+
+package demo.share.jfc.J2Ddemo.java2d.demos.Mix;
 
 
-import static java.awt.Color.LIGHT_GRAY;
-import static java.awt.Color.WHITE;
-import static java.lang.Math.random;
+import static java.awt.Color.LIGHT_GRAY;.extended
+import static java.awt.Color.WHITE;.extended
+import static java.lang.Math.random;.extended
 import java.awt.AlphaComposite;
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -35,22 +36,35 @@ import java.awt.Graphics2D;
 import java.awt.Image;
 import java.awt.RenderingHints;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.geom.GeneralPath;
 import java.awt.geom.Path2D;
 import java.awt.geom.PathIterator;
 import java.awt.image.BufferedImage;
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import java2d.AnimatingControlsSurface;
-import java2d.CustomControls;
+import demo.share.jfc.J2Ddemo.java2d.AnimatingControlsSurface;
+import demo.share.jfc.J2Ddemo.java2d.CustomControls;
 import javax.swing.AbstractButton;
 import javax.swing.JToggleButton;
 import javax.swing.JToolBar;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

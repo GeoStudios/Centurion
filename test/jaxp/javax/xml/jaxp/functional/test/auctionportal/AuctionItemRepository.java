@@ -18,28 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.auctionportal;
 
-import static jaxp.library.JAXPTestUtilities.setSystemProperty;
 
-import static javax.xml.XMLConstants.FEATURE_SECURE_PROCESSING;
-import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;
-import static jaxp.library.JAXPTestUtilities.USER_DIR;
-import static jaxp.library.JAXPTestUtilities.compareDocumentWithGold;
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertTrue;
-import static test.auctionportal.HiBidConstants.GOLDEN_DIR;
-import static test.auctionportal.HiBidConstants.JAXP_SCHEMA_LANGUAGE;
-import static test.auctionportal.HiBidConstants.JAXP_SCHEMA_SOURCE;
-import static test.auctionportal.HiBidConstants.SP_ENTITY_EXPANSION_LIMIT;
-import static test.auctionportal.HiBidConstants.SP_MAX_OCCUR_LIMIT;
-import static test.auctionportal.HiBidConstants.XML_DIR;
-
+import static jaxp.library.JAXPTestUtilities.setSystemProperty;.extended
+import static javax.xml.XMLConstants.FEATURE_SECURE_PROCESSING;.extended
+import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;.extended
+import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
+import static jaxp.library.JAXPTestUtilities.compareDocumentWithGold;.extended
+import static org.testng.Assert.assertFalse;.extended
+import static org.testng.Assert.assertTrue;.extended
+import static test.auctionportal.HiBidConstants.GOLDEN_DIR;.extended
+import static test.auctionportal.HiBidConstants.JAXP_SCHEMA_LANGUAGE;.extended
+import static test.auctionportal.HiBidConstants.JAXP_SCHEMA_SOURCE;.extended
+import static test.auctionportal.HiBidConstants.SP_ENTITY_EXPANSION_LIMIT;.extended
+import static test.auctionportal.HiBidConstants.SP_MAX_OCCUR_LIMIT;.extended
+import static test.auctionportal.HiBidConstants.XML_DIR;.extended
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.InputStream;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.SAXParser;
@@ -47,11 +46,23 @@ import javax.xml.parsers.SAXParserFactory;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
-
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.Document;
 import org.xml.sax.SAXParseException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is a test class for the Auction portal HiBid.com.

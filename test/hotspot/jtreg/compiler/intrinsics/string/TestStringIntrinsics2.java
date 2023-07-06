@@ -19,6 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.string;
+
+
+import sun.hotspot.WhiteBox;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+import java.base.share.classes.java.util.Arrays;
+import java.util.function.Consumer;
+import static jdk.test.lib.Asserts.assertEquals;.extended
+import static jdk.test.lib.Asserts.assertFalse;.extended
+import static jdk.test.lib.Asserts.assertTrue;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8145336
@@ -40,20 +67,9 @@
  *        compiler.intrinsics.string.TestStringIntrinsics2
  */
 
-package compiler.intrinsics.string;
 
-import sun.hotspot.WhiteBox;
 
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
-import java.util.Arrays;
-import java.util.function.Consumer;
 
-import static jdk.test.lib.Asserts.assertEquals;
-import static jdk.test.lib.Asserts.assertFalse;
-import static jdk.test.lib.Asserts.assertTrue;
 
 public class TestStringIntrinsics2 {
     // ------------------------------------------------------------------------

@@ -18,16 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.bench.javax.crypto.full;
+
 
 import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.Param;
 import org.openjdk.jmh.annotations.Setup;
-
 import javax.crypto.KeyGenerator;
 import javax.crypto.Mac;
-import java.security.InvalidKeyException;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MacBench extends CryptoBase {
 

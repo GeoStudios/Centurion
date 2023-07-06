@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.io.*;
-import java.nio.ByteBuffer;
-import java.nio.ByteOrder;
-import java.nio.LongBuffer;
-import java.util.function.IntConsumer;
-import java.util.stream.IntStream;
-import java.util.stream.StreamSupport;
+
+import java.base.share.classes.java.io.*;
+import java.base.share.classes.java.nio.ByteBuffer;
+import java.base.share.classes.java.nio.ByteOrder;
+import java.base.share.classes.java.nio.LongBuffer;
+import java.base.share.classes.java.util.function.IntConsumer;
+import java.base.share.classes.java.util.stream.IntStream;
+import java.base.share.classes.java.util.stream.StreamSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements a vector of bits that grows as needed. Each

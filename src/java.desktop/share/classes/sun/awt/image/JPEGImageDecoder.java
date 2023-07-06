@@ -18,6 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package java.desktop.share.classes.sun.awt.image;
+
+
+import java.util.Vector;
+import java.util.Hashtable;
+import java.io.InputStream;
+import java.io.java.io.java.io.java.io.IOException;
+import java.awt.image.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*-
  *      Reads JPEG images from an InputStream and reports the
  *      image data to an InputStreamImageSource object.
@@ -25,13 +49,8 @@
  * The native implementation of the JPEG image decoder was adapted from
  * release 6 of the free JPEG software from the Independent JPEG Group.
  */
-package sun.awt.image;
 
-import java.util.Vector;
-import java.util.Hashtable;
-import java.io.InputStream;
-import java.io.IOException;
-import java.awt.image.*;
+
 
 /**
  * JPEG Image converter

@@ -19,22 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.basic;
+package java.desktop.share.classes.javax.swing.plaf.basic;
 
-import javax.swing.*;
-import javax.swing.plaf.*;
 
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.plaf.*;
 import java.beans.*;
-
 import java.awt.event.*;
 import java.awt.Dimension;
 import java.awt.Insets;
 import java.awt.Graphics;
 import java.awt.KeyboardFocusManager;
 import java.awt.*;
-
 import sun.swing.DefaultLookup;
 import sun.swing.UIAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Basic L&amp;F for a desktop.

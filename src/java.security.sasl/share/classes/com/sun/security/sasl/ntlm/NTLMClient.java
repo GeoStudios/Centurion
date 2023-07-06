@@ -19,23 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.security.sasl.ntlm;
+package java.security.sasl.share.classes.com.sun.security.sasl.ntlm;
 
-import com.sun.security.ntlm.Client;
-import com.sun.security.ntlm.NTLMException;
-import java.io.IOException;
+
+import java.security.sasl.share.classes.com.sun.security.ntlm.Client;
+import java.security.sasl.share.classes.com.sun.security.ntlm.NTLMException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.Map;
 import java.util.Random;
 import javax.security.auth.callback.Callback;
-
-
 import javax.security.sasl.*;
 import javax.security.auth.callback.CallbackHandler;
 import javax.security.auth.callback.NameCallback;
 import javax.security.auth.callback.PasswordCallback;
 import javax.security.auth.callback.UnsupportedCallbackException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Required callbacks:

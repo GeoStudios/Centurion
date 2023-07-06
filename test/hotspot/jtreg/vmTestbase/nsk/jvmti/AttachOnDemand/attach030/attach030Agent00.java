@@ -18,11 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.jvmti.AttachOnDemand.attach030;
+
 
 import nsk.share.TestBug;
 import nsk.share.aod.AbstractJarAgent;
 import java.lang.instrument.Instrumentation;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * First agent tries to redefine class loaded by the target application, then agent itself loads

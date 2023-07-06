@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.io.IOException;
-import java.io.InvalidObjectException;
-import java.io.Serializable;
-import java.lang.reflect.ParameterizedType;
-import java.lang.reflect.Type;
-import java.util.function.BiConsumer;
-import java.util.function.BiFunction;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import jdk.internal.access.SharedSecrets;
+
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.InvalidObjectException;
+import java.base.share.classes.java.io.Serializable;
+import java.base.share.classes.java.lang.reflect.ParameterizedType;
+import java.base.share.classes.java.lang.reflect.Type;
+import java.base.share.classes.java.util.function.BiConsumer;
+import java.base.share.classes.java.util.function.BiFunction;
+import java.base.share.classes.java.util.function.Consumer;
+import java.base.share.classes.java.util.function.Function;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Hash table based implementation of the {@code Map} interface.  This

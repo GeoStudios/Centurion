@@ -21,6 +21,26 @@
 
 package gc;
 
+
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.process.OutputAnalyzer;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Collections;
+import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test TestVerifySubSet.java
  * @bug 8072725
  * @summary Test VerifySubSet option
@@ -29,11 +49,6 @@ package gc;
  * @run main gc.TestVerifySubSet
  */
 
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.process.OutputAnalyzer;
-import java.util.ArrayList;
-import java.util.Collections;
-import jdk.test.lib.Utils;
 
 class TestVerifySubSetRunSystemGC {
     public static void main(String args[]) throws Exception {

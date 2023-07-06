@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.java.swing.plaf.motif;
 
-import java.awt.event.*;
+package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
+
+
+import java.desktop.share.classes.com.sun.java.awt.event.*;
 import javax.swing.MenuSelectionManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A default MouseListener for menu elements

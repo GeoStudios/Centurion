@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codecache.stress;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test UnexpectedDeoptimizationAllTest
  * @key stress
@@ -43,7 +60,6 @@
  *                   compiler.codecache.stress.UnexpectedDeoptimizationAllTest
  */
 
-package compiler.codecache.stress;
 
 public class UnexpectedDeoptimizationAllTest implements Runnable {
 

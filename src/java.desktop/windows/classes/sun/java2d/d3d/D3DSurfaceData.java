@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.d3d;
+package java.desktop.windows.classes.sun.java2d.d3d;
+
 
 import java.awt.AlphaComposite;
 import java.awt.BufferCapabilities;
@@ -36,40 +37,54 @@ import java.awt.image.DirectColorModel;
 import java.awt.image.Raster;
 import java.awt.image.SampleModel;
 import java.awt.image.SinglePixelPackedSampleModel;
-import sun.awt.SunHints;
-import sun.awt.image.DataBufferNative;
-import sun.awt.image.PixelConverter;
-import sun.awt.image.SurfaceManager;
-import sun.awt.image.WritableRasterNative;
-import sun.awt.windows.WComponentPeer;
-import sun.java2d.pipe.hw.AccelSurface;
-import sun.java2d.InvalidPipeException;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.SurfaceData;
-import sun.java2d.loops.GraphicsPrimitive;
-import sun.java2d.loops.MaskFill;
-import sun.java2d.loops.SurfaceType;
-import sun.java2d.loops.CompositeType;
-import sun.java2d.pipe.ParallelogramPipe;
-import sun.java2d.pipe.PixelToParallelogramConverter;
-import sun.java2d.pipe.RenderBuffer;
-import sun.java2d.pipe.TextPipe;
-import sun.java2d.pipe.Region;
-import static sun.java2d.pipe.BufferedOpCodes.*;
-import static sun.java2d.d3d.D3DContext.D3DContextCaps.*;
-import static sun.java2d.pipe.hw.ExtendedBufferCapabilities.VSyncType.*;
-import sun.java2d.pipe.hw.ExtendedBufferCapabilities.VSyncType;
+import java.desktop.windows.classes.sun.awt.SunHints;
+import java.desktop.windows.classes.sun.awt.image.DataBufferNative;
+import java.desktop.windows.classes.sun.awt.image.PixelConverter;
+import java.desktop.windows.classes.sun.awt.image.SurfaceManager;
+import java.desktop.windows.classes.sun.awt.image.WritableRasterNative;
+import java.desktop.windows.classes.sun.awt.windows.WComponentPeer;
+import java.desktop.windows.classes.sun.java2d.pipe.hw.AccelSurface;
+import java.desktop.windows.classes.sun.java2d.InvalidPipeException;
+import java.desktop.windows.classes.sun.java2d.SunGraphics2D;
+import java.desktop.windows.classes.sun.java2d.SurfaceData;
+import java.desktop.windows.classes.sun.java2d.loops.GraphicsPrimitive;
+import java.desktop.windows.classes.sun.java2d.loops.MaskFill;
+import java.desktop.windows.classes.sun.java2d.loops.SurfaceType;
+import java.desktop.windows.classes.sun.java2d.loops.CompositeType;
+import java.desktop.windows.classes.sun.java2d.pipe.ParallelogramPipe;
+import java.desktop.windows.classes.sun.java2d.pipe.PixelToParallelogramConverter;
+import java.desktop.windows.classes.sun.java2d.pipe.RenderBuffer;
+import java.desktop.windows.classes.sun.java2d.pipe.TextPipe;
+import java.desktop.windows.classes.sun.java2d.pipe.Region;
+import static java.desktop.windows.classes.sun.java2d.pipe.BufferedOpCodes.*;.extended
+import static java.desktop.windows.classes.sun.java2d.d3d.D3DContext.D3DContextCaps.*;.extended
+import static java.desktop.windows.classes.sun.java2d.pipe.hw.ExtendedBufferCapabilities.VSyncType.*;.extended
+import java.desktop.windows.classes.sun.java2d.pipe.hw.ExtendedBufferCapabilities.VSyncType;
 import java.awt.BufferCapabilities.FlipContents;
 import java.awt.Dimension;
 import java.awt.Window;
 import java.awt.geom.AffineTransform;
-import sun.awt.SunToolkit;
-import sun.awt.image.SunVolatileImage;
-import sun.awt.windows.WWindowPeer;
-import sun.java2d.ScreenUpdateManager;
-import sun.java2d.StateTracker;
-import sun.java2d.SurfaceDataProxy;
-import sun.java2d.pipe.hw.ExtendedBufferCapabilities;
+import java.desktop.windows.classes.sun.awt.SunToolkit;
+import java.desktop.windows.classes.sun.awt.image.SunVolatileImage;
+import java.desktop.windows.classes.sun.awt.windows.WWindowPeer;
+import java.desktop.windows.classes.sun.java2d.ScreenUpdateManager;
+import java.desktop.windows.classes.sun.java2d.StateTracker;
+import java.desktop.windows.classes.sun.java2d.SurfaceDataProxy;
+import java.desktop.windows.classes.sun.java2d.pipe.hw.ExtendedBufferCapabilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class describes a D3D "surface", that is, a region of pixels

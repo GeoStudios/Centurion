@@ -18,6 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package compiler.profiling;
+
+
+import jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8134918
@@ -28,9 +47,7 @@
  *                                 compiler.profiling.UnsafeAccess
  */
 
-package compiler.profiling;
 
-import jdk.internal.misc.Unsafe;
 
 public class UnsafeAccess {
     private static final Unsafe U = Unsafe.getUnsafe();

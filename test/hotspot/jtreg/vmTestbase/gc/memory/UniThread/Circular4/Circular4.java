@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.memory.UniThread.Circular4;
+
+
+import nsk.share.gc.*;
+import gc.memory.UniThread.Circular3.Circular3;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -31,10 +50,7 @@
  * @run main/othervm gc.memory.UniThread.Circular4.Circular4 -iterations 5
  */
 
-package gc.memory.UniThread.Circular4;
 
-import nsk.share.gc.*;
-import gc.memory.UniThread.Circular3.Circular3;
 
 /**
  * Test GC collection of circular linked lists.

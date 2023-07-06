@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.ui;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
+
 
 import java.awt.*;
 import java.awt.event.*;
@@ -29,6 +30,20 @@ import java.net.*;
 import java.util.*;
 import javax.swing.*;
 import javax.swing.text.BadLocationException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Panel supporting loading of and scrolling through source code.
     Contains convenience routines for implementing the Editor

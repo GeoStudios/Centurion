@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts.superword;
+
+
+import jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8078497
@@ -28,9 +46,7 @@
  * @run main compiler.loopopts.superword.TestVectorizationWithInvariant
  */
 
-package compiler.loopopts.superword;
 
-import jdk.internal.misc.Unsafe;
 
 public class TestVectorizationWithInvariant {
 

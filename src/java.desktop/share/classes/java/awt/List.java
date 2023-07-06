@@ -19,28 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.FocusListener;
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
-import java.awt.peer.ListPeer;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serial;
-import java.util.EventListener;
-import java.util.Locale;
-import java.util.Vector;
 
+import java.desktop.share.classes.java.awt.event.ActionEvent;
+import java.desktop.share.classes.java.awt.event.Actionjava.util.Listener;
+import java.desktop.share.classes.java.awt.event.Focusjava.util.Listener;
+import java.desktop.share.classes.java.awt.event.ItemEvent;
+import java.desktop.share.classes.java.awt.event.Itemjava.util.Listener;
+import java.desktop.share.classes.java.awt.peer.java.util.ListPeer;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.ObjectOutputStream;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.util.Eventjava.util.Listener;
+import java.desktop.share.classes.java.util.Locale;
+import java.desktop.share.classes.java.util.Vector;
 import javax.accessibility.Accessible;
 import javax.accessibility.AccessibleContext;
 import javax.accessibility.AccessibleRole;
 import javax.accessibility.AccessibleSelection;
 import javax.accessibility.AccessibleState;
 import javax.accessibility.AccessibleStateSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code List} component presents the user with a

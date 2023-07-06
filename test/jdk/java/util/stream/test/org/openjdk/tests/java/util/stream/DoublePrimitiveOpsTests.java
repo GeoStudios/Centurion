@@ -18,20 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.tests.java.util.stream;
+
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Random;
 import java.util.Spliterator;
 import java.util.stream.DoubleStream;
 import java.util.stream.LongStream;
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertFalse;.extended
+import static org.testng.Assert.assertTrue;.extended
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertTrue;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8215792
@@ -28,7 +45,6 @@
  * @run main/othervm -XX:-CompactStrings compiler.intrinsics.Test8215792
  */
 
-package compiler.intrinsics;
 
 public class Test8215792 {
 

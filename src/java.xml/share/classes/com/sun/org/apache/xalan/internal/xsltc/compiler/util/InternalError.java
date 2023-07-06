@@ -19,7 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.compiler.util;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Marks a class of errors in which XSLTC has reached some incorrect internal
  * state from which it cannot recover.

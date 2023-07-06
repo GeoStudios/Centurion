@@ -21,6 +21,27 @@
 
 package gc.g1;
 
+
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.Asserts;
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestSkipRebuildRemsetPhase
  * @summary Skip Rebuild Remset Phase if the Remark pause does not identify any rebuild candidates.
@@ -32,13 +53,7 @@ package gc.g1;
  * @run driver gc.g1.TestSkipRebuildRemsetPhase
  */
 
-import java.util.regex.Pattern;
-import java.util.regex.Matcher;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.Asserts;
-import sun.hotspot.WhiteBox;
 
 public class TestSkipRebuildRemsetPhase {
     public static void main(String[] args) throws Exception {

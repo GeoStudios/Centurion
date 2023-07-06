@@ -19,28 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http.websocket;
+package java.net.http.share.classes.jdk.internal.net.http.websocket;
 
-import jdk.internal.net.http.common.Demand;
-import jdk.internal.net.http.common.Log;
-import jdk.internal.net.http.common.Logger;
-import jdk.internal.net.http.common.MinimalFuture;
-import jdk.internal.net.http.common.SequentialScheduler;
-import jdk.internal.net.http.common.Utils;
-import jdk.internal.net.http.websocket.OpeningHandshake.Result;
 
-import java.io.IOException;
+import java.net.http.share.classes.jdk.internal.net.http.common.Demand;
+import java.net.http.share.classes.jdk.internal.net.http.common.Log;
+import java.net.http.share.classes.jdk.internal.net.http.common.Logger;
+import java.net.http.share.classes.jdk.internal.net.http.common.MinimalFuture;
+import java.net.http.share.classes.jdk.internal.net.http.common.SequentialScheduler;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+import java.net.http.share.classes.jdk.internal.net.http.websocket.OpeningHandshake.Result;
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.ref.Reference;
 import java.net.ProtocolException;
 import java.net.URI;
-import java.net.http.WebSocket;
+import java.net.http.Webjava.net.java.net.java.net.Socket;
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.CharacterCodingException;
 import java.nio.charset.CharsetEncoder;
 import java.nio.charset.CodingErrorAction;
 import java.nio.charset.StandardCharsets;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletionStage;
 import java.util.concurrent.atomic.AtomicBoolean;
@@ -48,21 +48,34 @@ import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.function.BiConsumer;
 import java.util.function.Function;
+import static java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.common.MinimalFuture.failedFuture;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.websocket.StatusCodes.CLOSED_ABNORMALLY;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.websocket.StatusCodes.NO_STATUS_CODE;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.websocket.StatusCodes.isLegalToSendFromClient;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.websocket.Webjava.net.SocketImpl.State.BINARY;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.websocket.Webjava.net.SocketImpl.State.CLOSE;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.websocket.Webjava.net.SocketImpl.State.ERROR;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.websocket.Webjava.net.SocketImpl.State.IDLE;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.websocket.Webjava.net.SocketImpl.State.OPEN;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.websocket.Webjava.net.SocketImpl.State.PING;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.websocket.Webjava.net.SocketImpl.State.PONG;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.websocket.Webjava.net.SocketImpl.State.TEXT;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.websocket.Webjava.net.SocketImpl.State.WAITING;.extended
 
-import static java.util.Objects.requireNonNull;
-import static jdk.internal.net.http.common.MinimalFuture.failedFuture;
-import static jdk.internal.net.http.websocket.StatusCodes.CLOSED_ABNORMALLY;
-import static jdk.internal.net.http.websocket.StatusCodes.NO_STATUS_CODE;
-import static jdk.internal.net.http.websocket.StatusCodes.isLegalToSendFromClient;
-import static jdk.internal.net.http.websocket.WebSocketImpl.State.BINARY;
-import static jdk.internal.net.http.websocket.WebSocketImpl.State.CLOSE;
-import static jdk.internal.net.http.websocket.WebSocketImpl.State.ERROR;
-import static jdk.internal.net.http.websocket.WebSocketImpl.State.IDLE;
-import static jdk.internal.net.http.websocket.WebSocketImpl.State.OPEN;
-import static jdk.internal.net.http.websocket.WebSocketImpl.State.PING;
-import static jdk.internal.net.http.websocket.WebSocketImpl.State.PONG;
-import static jdk.internal.net.http.websocket.WebSocketImpl.State.TEXT;
-import static jdk.internal.net.http.websocket.WebSocketImpl.State.WAITING;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * A WebSocket client.

@@ -19,19 +19,20 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.shell;
+package java.desktop.windows.classes.sun.awt.shell;
+
 
 import java.awt.Image;
 import java.awt.Toolkit;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
@@ -41,20 +42,33 @@ import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Stream;
+import java.desktop.windows.classes.sun.awt.OSInfo;
+import java.desktop.windows.classes.sun.awt.util.ThreadGroupUtils;
+import java.desktop.windows.classes.sun.util.logging.PlatformLogger;
+import static java.desktop.windows.classes.sun.awt.shell.Win32ShellFolder2.DESKTOP;.extended
+import static java.desktop.windows.classes.sun.awt.shell.Win32ShellFolder2.DRIVES;.extended
+import static java.desktop.windows.classes.sun.awt.shell.Win32ShellFolder2.Invoker;.extended
+import static java.desktop.windows.classes.sun.awt.shell.Win32ShellFolder2.LARGE_ICON_SIZE;.extended
+import static java.desktop.windows.classes.sun.awt.shell.Win32ShellFolder2.MultiResolutionIconImage;.extended
+import static java.desktop.windows.classes.sun.awt.shell.Win32ShellFolder2.NETWORK;.extended
+import static java.desktop.windows.classes.sun.awt.shell.Win32ShellFolder2.PERSONAL;.extended
+import static java.desktop.windows.classes.sun.awt.shell.Win32ShellFolder2.RECENT;.extended
+import static java.desktop.windows.classes.sun.awt.shell.Win32ShellFolder2.SMALL_ICON_SIZE;.extended
 
-import sun.awt.OSInfo;
-import sun.awt.util.ThreadGroupUtils;
-import sun.util.logging.PlatformLogger;
 
-import static sun.awt.shell.Win32ShellFolder2.DESKTOP;
-import static sun.awt.shell.Win32ShellFolder2.DRIVES;
-import static sun.awt.shell.Win32ShellFolder2.Invoker;
-import static sun.awt.shell.Win32ShellFolder2.LARGE_ICON_SIZE;
-import static sun.awt.shell.Win32ShellFolder2.MultiResolutionIconImage;
-import static sun.awt.shell.Win32ShellFolder2.NETWORK;
-import static sun.awt.shell.Win32ShellFolder2.PERSONAL;
-import static sun.awt.shell.Win32ShellFolder2.RECENT;
-import static sun.awt.shell.Win32ShellFolder2.SMALL_ICON_SIZE;
+
+
+
+
+
+
+
+
+
+
+
+
+
 // NOTE: This class supersedes Win32ShellFolderManager, which was removed
 //       from distribution after version 1.4.2.
 

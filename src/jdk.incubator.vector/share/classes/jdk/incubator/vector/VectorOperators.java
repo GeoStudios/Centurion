@@ -18,16 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.incubator.vector;
+
+package jdk.incubator.vector.share.classes.jdk.incubator.vector;
+
 
 import java.util.function.IntFunction;
 import java.util.HashMap;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import jdk.incubator.vector.share.classes.jdk.internal.vm.annotation.ForceInline;
+import jdk.incubator.vector.share.classes.jdk.internal.vm.annotation.Stable;
+import jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport;
 
-import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.annotation.Stable;
 
-import jdk.internal.vm.vector.VectorSupport;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class consists solely of static constants

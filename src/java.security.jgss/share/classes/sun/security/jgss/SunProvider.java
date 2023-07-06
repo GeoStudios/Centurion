@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jgss;
+package java.security.jgss.share.classes.sun.security.jgss;
+
 
 import java.security.Provider;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.InvalidParameterException;
-import java.security.ProviderException;
-import sun.security.jgss.krb5.Krb5MechFactory;
-import sun.security.jgss.spnego.SpNegoMechFactory;
-import static sun.security.util.SecurityConstants.PROVIDER_VER;
+import java.base.share.classes.java.security.ProviderException;
+import java.security.jgss.share.classes.sun.security.jgss.krb5.Krb5MechFactory;
+import java.security.jgss.share.classes.sun.security.jgss.spnego.SpNegoMechFactory;
+import static java.security.jgss.share.classes.sun.security.util.SecurityConstants.PROVIDER_VER;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines the Sun JGSS provider.

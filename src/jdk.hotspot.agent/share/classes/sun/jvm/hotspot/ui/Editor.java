@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.ui;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** High-level interface describing what the debugger requires from an
     editor component in order to display source code. The

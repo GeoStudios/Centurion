@@ -18,23 +18,37 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.amd64;
 
-import static jdk.vm.ci.code.MemoryBarriers.LOAD_LOAD;
-import static jdk.vm.ci.code.MemoryBarriers.LOAD_STORE;
-import static jdk.vm.ci.code.MemoryBarriers.STORE_STORE;
-import static jdk.vm.ci.code.Register.SPECIAL;
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.amd64.src.jdk.vm.ci.amd64;
 
+
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.amd64.src.jdk.vm.ci.code.MemoryBarriers.LOAD_LOAD;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.amd64.src.jdk.vm.ci.code.MemoryBarriers.LOAD_STORE;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.amd64.src.jdk.vm.ci.code.MemoryBarriers.STORE_STORE;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.amd64.src.jdk.vm.ci.code.Register.SPECIAL;.extended
 import java.nio.ByteOrder;
 import java.util.EnumSet;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.amd64.src.jdk.vm.ci.code.Architecture;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.amd64.src.jdk.vm.ci.code.CPUFeatureName;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.amd64.src.jdk.vm.ci.code.Register;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.amd64.src.jdk.vm.ci.code.Register.RegisterCategory;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.amd64.src.jdk.vm.ci.code.RegisterArray;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.amd64.src.jdk.vm.ci.meta.JavaKind;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.amd64.src.jdk.vm.ci.meta.PlatformKind;
 
-import jdk.vm.ci.code.Architecture;
-import jdk.vm.ci.code.CPUFeatureName;
-import jdk.vm.ci.code.Register;
-import jdk.vm.ci.code.Register.RegisterCategory;
-import jdk.vm.ci.code.RegisterArray;
-import jdk.vm.ci.meta.JavaKind;
-import jdk.vm.ci.meta.PlatformKind;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents the AMD64 architecture.

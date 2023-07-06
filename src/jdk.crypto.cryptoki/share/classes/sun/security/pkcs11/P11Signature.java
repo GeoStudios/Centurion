@@ -19,27 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs11;
+package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
 import java.nio.ByteBuffer;
-
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.interfaces.*;
 import java.security.spec.AlgorithmParameterSpec;
-import sun.nio.ch.DirectBuffer;
+import jdk.crypto.cryptoki.share.classes.sun.nio.ch.DirectBuffer;
+import jdk.crypto.cryptoki.share.classes.sun.security.util.*;
+import jdk.crypto.cryptoki.share.classes.sun.security.x509.AlgorithmId;
+import jdk.crypto.cryptoki.share.classes.sun.security.rsa.RSASignature;
+import jdk.crypto.cryptoki.share.classes.sun.security.rsa.RSAPadding;
+import jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.*;
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Constants.*;.extended
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Exception.*;.extended
+import jdk.crypto.cryptoki.share.classes.sun.security.util.KeyUtil;
 
-import sun.security.util.*;
-import sun.security.x509.AlgorithmId;
 
-import sun.security.rsa.RSASignature;
-import sun.security.rsa.RSAPadding;
 
-import sun.security.pkcs11.wrapper.*;
-import static sun.security.pkcs11.wrapper.PKCS11Constants.*;
-import static sun.security.pkcs11.wrapper.PKCS11Exception.*;
-import sun.security.util.KeyUtil;
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Signature implementation class. This class currently supports the

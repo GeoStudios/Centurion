@@ -21,6 +21,22 @@
 
 package gc.arguments;
 
+
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestSoftMaxHeapSizeFlag
  * @library /test/lib
@@ -29,7 +45,6 @@ package gc.arguments;
  * @run driver gc.arguments.TestSoftMaxHeapSizeFlag
  */
 
-import jdk.test.lib.process.ProcessTools;
 
 public class TestSoftMaxHeapSizeFlag {
     // Note: Xms and Xmx values get aligned up by HeapAlignment which is 32M with 64k pages.

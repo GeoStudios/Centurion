@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.w3c.dom.events;
+package java.xml.share.classes.org.w3c.dom.events;
 
-import org.w3c.dom.views.AbstractView;
+
+import java.xml.share.classes.org.w3c.dom.views.AbstractView;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The <code>MouseEvent</code> interface provides specific contextual

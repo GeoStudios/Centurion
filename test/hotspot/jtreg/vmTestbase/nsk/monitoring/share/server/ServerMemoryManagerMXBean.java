@@ -21,8 +21,22 @@
 
 package nsk.monitoring.share.server;
 
+
 import javax.management.*;
 import java.lang.management.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ServerMemoryManagerMXBean extends ServerMXBean implements MemoryManagerMXBean {
         private static final String MEMORY_POOL_NAMES = "MemoryPoolNames";

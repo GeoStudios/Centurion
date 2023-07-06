@@ -19,16 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package org.example.person;
+
+
+import javax.naming.*;
+import javax.naming.directory.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class has DirContext attributes and is used by the StorePerson test.
  * Implementation of the inetOrgPerson LDAP object class as defined in
  * <a href="http://www.ietf.org/internet-drafts/draft-smith-ldap-inetorgperson-03.txt">draft-smith-ldap-inetorgperson-03.txt</a>.
  */
 
-package org.example.person;
 
-import javax.naming.*;
-import javax.naming.directory.*;
 
 public class Person {
 

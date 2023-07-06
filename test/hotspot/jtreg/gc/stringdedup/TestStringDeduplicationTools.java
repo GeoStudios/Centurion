@@ -21,15 +21,30 @@
 
 package gc.stringdedup;
 
-/*
- * Common code for string deduplication tests
- */
 
 import java.lang.reflect.*;
 import java.util.*;
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.process.OutputAnalyzer;
 import sun.misc.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * Common code for string deduplication tests
+ */
+
 
 class TestStringDeduplicationTools {
     private static final String YoungGC = "YoungGC";

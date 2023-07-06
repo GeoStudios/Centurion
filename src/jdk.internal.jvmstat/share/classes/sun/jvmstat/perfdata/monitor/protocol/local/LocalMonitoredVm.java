@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvmstat.perfdata.monitor.protocol.local;
+package jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor.protocol.local;
+
 
 import java.util.*;
 import java.lang.reflect.*;
 import java.io.*;
+import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.*;
+import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.event.*;
+import jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor.*;
 
-import sun.jvmstat.monitor.*;
-import sun.jvmstat.monitor.event.*;
-import sun.jvmstat.perfdata.monitor.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Concrete implementation of the AbstractMonitoredVm class for the

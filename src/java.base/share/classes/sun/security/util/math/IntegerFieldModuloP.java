@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.util.math;
+package java.base.share.classes.sun.security.util.math;
+
 
 import java.math.BigInteger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An interface for the field of integers modulo a prime number. An

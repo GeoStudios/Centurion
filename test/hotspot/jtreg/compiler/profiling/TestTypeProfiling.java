@@ -19,7 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
- /**
+package compiler.profiling;
+
+
+import jdk.test.lib.Platform;
+import sun.hotspot.WhiteBox;
+import compiler.whitebox.CompilerWhiteBoxTest;
+import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
   * @test
   * @bug 8189439
   * @summary Parameters type profiling is not performed from aarch64 interpreter
@@ -45,12 +66,7 @@
   *                    compiler.profiling.TestTypeProfiling
   */
 
-package compiler.profiling;
 
-import jdk.test.lib.Platform;
-import sun.hotspot.WhiteBox;
-import compiler.whitebox.CompilerWhiteBoxTest;
-import java.lang.reflect.Method;
 
 public class TestTypeProfiling {
 

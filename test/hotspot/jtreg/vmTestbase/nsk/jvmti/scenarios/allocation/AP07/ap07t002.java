@@ -21,11 +21,24 @@
 
 package nsk.jvmti.scenarios.allocation.AP07;
 
+
 import java.io.*;
 import java.lang.reflect.*;
-
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ap07t002 extends DebugeeClass {
     /* number of interations to provoke garbage collecting */

@@ -21,6 +21,21 @@
 
 package gc;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestNUMAPageSize
  * @summary Make sure that start up with NUMA support does not cause problems.

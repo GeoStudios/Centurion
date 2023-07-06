@@ -21,15 +21,27 @@
 
 package jdk.jfr.api.flightrecorder;
 
-import static jdk.test.lib.Asserts.assertEquals;
-import static jdk.test.lib.Asserts.assertTrue;
 
+import static jdk.test.lib.Asserts.assertEquals;.extended
+import static jdk.test.lib.Asserts.assertTrue;.extended
 import java.time.Duration;
 import java.util.Map;
-
 import jdk.jfr.Event;
 import jdk.jfr.EventType;
 import jdk.jfr.Recording;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

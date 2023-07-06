@@ -19,31 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.time.chrono;
+package java.base.share.classes.java.time.chrono;
 
-import static java.time.chrono.JapaneseDate.MEIJI_6_ISODATE;
-import static java.time.temporal.ChronoField.ERA;
 
-import java.io.DataInput;
-import java.io.DataOutput;
-import java.io.IOException;
-import java.io.InvalidObjectException;
-import java.io.ObjectInputStream;
-import java.io.ObjectStreamException;
-import java.io.Serializable;
-import java.time.DateTimeException;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatterBuilder;
-import java.time.format.TextStyle;
-import java.time.temporal.ChronoField;
-import java.time.temporal.TemporalField;
-import java.time.temporal.UnsupportedTemporalTypeException;
-import java.time.temporal.ValueRange;
-import java.util.Arrays;
-import java.util.Locale;
-import java.util.Objects;
-
+import static java.base.share.classes.java.time.chrono.JapaneseDate.MEIJI_6_ISODATE;.extended
+import static java.base.share.classes.java.time.temporal.ChronoField.ERA;.extended
+import java.base.share.classes.java.io.DataInput;
+import java.base.share.classes.java.io.DataOutput;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.InvalidObjectException;
+import java.base.share.classes.java.io.ObjectInputStream;
+import java.base.share.classes.java.io.ObjectStreamException;
+import java.base.share.classes.java.io.Serializable;
+import java.base.share.classes.java.time.DateTimeException;
+import java.base.share.classes.java.time.LocalDate;
+import java.base.share.classes.java.time.format.DateTimeFormatterBuilder;
+import java.base.share.classes.java.time.format.TextStyle;
+import java.base.share.classes.java.time.temporal.ChronoField;
+import java.base.share.classes.java.time.temporal.TemporalField;
+import java.base.share.classes.java.time.temporal.UnsupportedTemporalTypeException;
+import java.base.share.classes.java.time.temporal.ValueRange;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import sun.util.calendar.CalendarDate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An era in the Japanese Imperial calendar system.

@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package util;
+
 
 import java.io.InputStream;
 import java.io.Reader;
@@ -41,6 +43,19 @@ import java.util.Calendar;
 import java.util.Map;
 import javax.sql.RowSet;
 import javax.sql.rowset.BaseRowSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class StubBaseRowSet extends BaseRowSet implements RowSet {
 

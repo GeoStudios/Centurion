@@ -18,19 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.foreign.abi.x64.sysv;
 
-import jdk.incubator.foreign.GroupLayout;
-import jdk.incubator.foreign.MemoryLayout;
-import jdk.incubator.foreign.SequenceLayout;
-import jdk.incubator.foreign.ValueLayout;
-import jdk.internal.foreign.PlatformLayouts;
-import jdk.internal.foreign.Utils;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.x64.sysv;
 
-import java.util.ArrayList;
-import java.util.List;
+
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.GroupLayout;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryLayout;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.SequenceLayout;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.ValueLayout;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.PlatformLayouts;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.Utils;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class TypeClass {
     enum Kind {

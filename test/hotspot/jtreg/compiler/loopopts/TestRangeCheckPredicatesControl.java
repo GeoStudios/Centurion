@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -30,7 +47,6 @@
  * @run main/othervm -XX:+UseZGC -XX:+UnlockDiagnosticVMOptions -XX:+IgnoreUnrecognizedVMOptions -XX:+StressGCM compiler.loopopts.TestRangeCheckPredicatesControl
  */
 
-package compiler.loopopts;
 
 public class TestRangeCheckPredicatesControl {
     static Wrapper w1 = new Wrapper();

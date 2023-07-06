@@ -19,33 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.comp;
+package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-import com.sun.source.tree.LambdaExpressionTree.BodyKind;
-import com.sun.source.tree.NewClassTree;
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.Type.ErrorType;
-import com.sun.tools.javac.code.Type.MethodType;
-import com.sun.tools.javac.code.Type.StructuralTypeMapping;
-import com.sun.tools.javac.code.Types.TypeMapping;
-import com.sun.tools.javac.comp.ArgumentAttr.LocalCacheContext;
-import com.sun.tools.javac.comp.Infer.GraphSolver.InferenceGraph;
-import com.sun.tools.javac.comp.Resolve.ResolveError;
-import com.sun.tools.javac.resources.CompilerProperties.Fragments;
-import com.sun.tools.javac.tree.*;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.GraphUtils.DependencyKind;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
-import com.sun.tools.javac.comp.Attr.ResultInfo;
-import com.sun.tools.javac.comp.Resolve.MethodResolutionPhase;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.tree.JCTree.*;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticType;
-import com.sun.tools.javac.util.Log.DeferredDiagnosticHandler;
-import com.sun.tools.javac.util.Log.DiagnosticHandler;
 
-import java.util.ArrayList;
+import jdk.compiler.share.classes.com.sun.source.tree.LambdaExpressionTree.BodyKind;
+import jdk.compiler.share.classes.com.sun.source.tree.NewClassTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.ErrorType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.MethodType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.StructuralTypeMapping;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Types.TypeMapping;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.ArgumentAttr.LocalCacheContext;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Infer.GraphSolver.InferenceGraph;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Resolve.ResolveError;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.GraphUtils.DependencyKind;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Attr.ResultInfo;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Resolve.MethodResolutionPhase;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticType;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log.DeferredDiagnosticHandler;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log.DiagnosticHandler;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.EnumSet;
@@ -56,14 +56,26 @@ import java.util.Set;
 import java.util.WeakHashMap;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
+import jdk.compiler.share.classes.com.sun.source.tree.MemberReferenceTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCMemberReference.OverloadKind;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Annotate.Queues;
+import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.*;.extended
 
-import com.sun.source.tree.MemberReferenceTree;
-import com.sun.tools.javac.code.Type;
-import com.sun.tools.javac.tree.JCTree.JCMemberReference.OverloadKind;
 
-import static com.sun.tools.javac.code.TypeTag.*;
-import com.sun.tools.javac.comp.Annotate.Queues;
-import static com.sun.tools.javac.tree.JCTree.Tag.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is an helper class that is used to perform deferred type-analysis.

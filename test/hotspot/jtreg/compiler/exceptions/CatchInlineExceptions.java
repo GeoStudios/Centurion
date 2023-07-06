@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.exceptions;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8059299
@@ -27,7 +44,6 @@
  * @run main/othervm -Xbatch compiler.exceptions.CatchInlineExceptions
  */
 
-package compiler.exceptions;
 
 public class CatchInlineExceptions {
     static class Exception1 extends Exception {};

@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.d3d;
+package java.desktop.windows.classes.sun.java2d.d3d;
+
 
 import java.awt.Composite;
-import sun.java2d.InvalidPipeException;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.loops.GraphicsPrimitive;
-import sun.java2d.loops.GraphicsPrimitiveMgr;
-import sun.java2d.loops.CompositeType;
-import sun.java2d.loops.SurfaceType;
-import sun.java2d.pipe.BufferedMaskFill;
-import static sun.java2d.loops.CompositeType.*;
-import static sun.java2d.loops.SurfaceType.*;
+import java.desktop.windows.classes.sun.java2d.InvalidPipeException;
+import java.desktop.windows.classes.sun.java2d.SunGraphics2D;
+import java.desktop.windows.classes.sun.java2d.loops.GraphicsPrimitive;
+import java.desktop.windows.classes.sun.java2d.loops.GraphicsPrimitiveMgr;
+import java.desktop.windows.classes.sun.java2d.loops.CompositeType;
+import java.desktop.windows.classes.sun.java2d.loops.SurfaceType;
+import java.desktop.windows.classes.sun.java2d.pipe.BufferedMaskFill;
+import static java.desktop.windows.classes.sun.java2d.loops.CompositeType.*;.extended
+import static java.desktop.windows.classes.sun.java2d.loops.SurfaceType.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class D3DMaskFill extends BufferedMaskFill {
 

@@ -19,21 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs11;
+package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11;
 
-import java.security.*;
+
+import java.base.share.classes.java.security.*;
 import java.security.spec.AlgorithmParameterSpec;
+import java.base.share.classes.javax.crypto.*;
+import java.base.share.classes.javax.crypto.spec.*;
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
+import jdk.crypto.cryptoki.share.classes.sun.security.internal.spec.TlsPrfParameterSpec;
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.TemplateManager.*;.extended
+import jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.*;
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Constants.*;.extended
 
-import javax.crypto.*;
-import javax.crypto.spec.*;
 
-import static java.nio.charset.StandardCharsets.UTF_8;
 
-import sun.security.internal.spec.TlsPrfParameterSpec;
 
-import static sun.security.pkcs11.TemplateManager.*;
-import sun.security.pkcs11.wrapper.*;
-import static sun.security.pkcs11.wrapper.PKCS11Constants.*;
+
+
+
+
+
+
+
+
+
+
 
 /**
  * KeyGenerator for the TLS PRF. Note that although the PRF is used in a number

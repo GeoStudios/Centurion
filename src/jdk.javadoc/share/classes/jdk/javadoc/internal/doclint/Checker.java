@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclint;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclint;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.StringWriter;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -29,14 +30,13 @@ import java.util.Deque;
 import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ElementKind;
 import javax.lang.model.element.ExecutableElement;
@@ -46,7 +46,6 @@ import javax.lang.model.type.TypeKind;
 import javax.lang.model.type.TypeMirror;
 import javax.tools.Diagnostic.Kind;
 import javax.tools.JavaFileObject;
-
 import com.sun.source.doctree.AttributeTree;
 import com.sun.source.doctree.AuthorTree;
 import com.sun.source.doctree.DocCommentTree;
@@ -85,10 +84,22 @@ import com.sun.tools.javac.tree.DocPretty;
 import com.sun.tools.javac.util.Assert;
 import com.sun.tools.javac.util.DefinedBy;
 import com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclint.HtmlTag.AttrKind;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclint.HtmlTag.ElemKind;
+import static jdk.javadoc.share.classes.jdk.javadoc.internal.doclint.Messages.Group.*;.extended
 
-import jdk.javadoc.internal.doclint.HtmlTag.AttrKind;
-import jdk.javadoc.internal.doclint.HtmlTag.ElemKind;
-import static jdk.javadoc.internal.doclint.Messages.Group.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

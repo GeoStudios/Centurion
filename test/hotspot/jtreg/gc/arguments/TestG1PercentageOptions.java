@@ -21,6 +21,23 @@
 
 package gc.arguments;
 
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestG1PercentageOptions
  * @bug 8068942
@@ -33,8 +50,6 @@ package gc.arguments;
  * @run driver gc.arguments.TestG1PercentageOptions
  */
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class TestG1PercentageOptions {
 

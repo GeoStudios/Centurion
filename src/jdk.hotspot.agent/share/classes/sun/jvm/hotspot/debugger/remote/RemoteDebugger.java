@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.remote;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.remote;
+
 
 import java.rmi.*;
 import java.util.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 
-import sun.jvm.hotspot.debugger.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** <P> This interface describes the methods which are used in a
     remote debugging scenario. It is only necessary because RMI

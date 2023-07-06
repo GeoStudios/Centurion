@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.net.httpserver;
+package jdk.httpserver.share.classes.com.sun.net.httpserver;
 
-import java.net.InetSocketAddress;
-import javax.net.ssl.SSLContext;
+
+import java.net.Inetjava.net.SocketAddress;
+import javax.net.ssl.javax.net.ssl.javax.net.ssl.javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLParameters;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents the set of parameters for each https connection negotiated with

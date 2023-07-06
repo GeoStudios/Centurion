@@ -21,14 +21,14 @@
 
 package jdk.jfr.jvm;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.time.Duration;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-
 import jdk.jfr.Event;
 import jdk.jfr.EventFactory;
 import jdk.jfr.Recording;
@@ -38,6 +38,19 @@ import jdk.test.lib.Asserts;
 import jdk.test.lib.jfr.EventTypePrototype;
 import jdk.test.lib.jfr.Events;
 import jdk.test.lib.jfr.Stressor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test TestLargeJavaEvent512k

@@ -21,8 +21,55 @@
 
 package build.tools.generatecharacter;
 
-import java.text.*;
-import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Utility {
     static byte peekByte(String s, int index) {

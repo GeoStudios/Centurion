@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.remote.protocol.rmi;
+package java.management.rmi.share.classes.com.sun.jmx.remote.protocol.rmi;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.MalformedURLException;
 import java.util.Map;
-
 import javax.management.MBeanServer;
 import javax.management.remote.JMXConnectorServer;
 import javax.management.remote.JMXConnectorServerProvider;
 import javax.management.remote.JMXServiceURL;
 import javax.management.remote.rmi.RMIConnectorServer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ServerProvider implements JMXConnectorServerProvider {
 

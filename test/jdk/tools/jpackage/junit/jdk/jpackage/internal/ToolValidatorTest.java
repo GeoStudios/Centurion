@@ -21,13 +21,26 @@
 
 package jdk.jpackage.internal;
 
+
 import java.nio.file.Path;
-import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.CoreMatchers.not;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertThat;
+import static org.hamcrest.CoreMatchers.is;.extended
+import static org.hamcrest.CoreMatchers.not;.extended
+import static org.junit.Assert.assertNull;.extended
+import static org.junit.Assert.assertNotNull;.extended
+import static org.junit.Assert.assertThat;.extended
 import org.junit.Test;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class ToolValidatorTest {

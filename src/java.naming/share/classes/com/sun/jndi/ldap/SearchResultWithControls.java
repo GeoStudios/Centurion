@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap;
+package java.naming.share.classes.com.sun.jndi.ldap;
+
 
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.ldap.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class SearchResultWithControls extends SearchResult implements HasControls {
     private final Control[] controls;

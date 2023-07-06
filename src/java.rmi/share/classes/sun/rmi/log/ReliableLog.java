@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.rmi.log;
+package java.rmi.share.classes.sun.rmi.log;
+
 
 import java.io.*;
 import java.lang.reflect.Constructor;
 import java.rmi.server.RMIClassLoader;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is a simple implementation of a reliable Log.  The
@@ -280,8 +295,7 @@ public class ReliableLog {
         } catch (IOException e) {
             throw e;
         } catch (Exception e) {
-            throw (IOException)
-                    new IOException("write update failed", e);
+            throw new IOException("write update failed", e);
         }
         log.sync();
 
@@ -542,7 +556,7 @@ public class ReliableLog {
                    new LogFile(logName, "rw") :
                    logClassConstructor.newInstance(logName, "rw"));
         } catch (Exception e) {
-            throw (IOException) new IOException(
+            throw new IOException(
                 "unable to construct LogFile instance", e);
         }
 

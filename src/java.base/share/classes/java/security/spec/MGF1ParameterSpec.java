@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.security.spec;
+package java.base.share.classes.java.security.spec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class specifies the set of parameters used with mask generation

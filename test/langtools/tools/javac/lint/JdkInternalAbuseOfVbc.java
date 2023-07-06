@@ -21,6 +21,21 @@
 
 package java.lang;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public final class JdkInternalAbuseOfVbc {
 
     public JdkInternalAbuseOfVbc() {}

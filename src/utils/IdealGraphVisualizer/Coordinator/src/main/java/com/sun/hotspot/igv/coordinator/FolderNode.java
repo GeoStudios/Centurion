@@ -18,13 +18,15 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.coordinator;
 
-import com.sun.hotspot.igv.coordinator.actions.RemoveCookie;
-import com.sun.hotspot.igv.data.*;
-import com.sun.hotspot.igv.util.PropertiesSheet;
-import java.awt.Image;
-import java.util.List;
+package utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator;
+
+
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator.actions.RemoveCookie;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.data.*;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.util.PropertiesSheet;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.awt.Image;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.util.java.util.java.util.java.util.List;
 import org.openide.nodes.AbstractNode;
 import org.openide.nodes.Children;
 import org.openide.nodes.Node;
@@ -32,6 +34,20 @@ import org.openide.nodes.Sheet;
 import org.openide.util.ImageUtilities;
 import org.openide.util.lookup.AbstractLookup;
 import org.openide.util.lookup.InstanceContent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

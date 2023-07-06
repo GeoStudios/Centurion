@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal.rcache;
+package java.security.jgss.share.classes.sun.security.krb5.internal.rcache;
 
-import sun.security.action.GetBooleanAction;
 
-import java.util.Objects;
+import java.security.jgss.share.classes.sun.security.action.GetBooleanAction;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The class represents a new style replay cache entry. It can be either used

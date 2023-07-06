@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole;
+package jdk.jconsole.share.classes.sun.tools.jconsole;
+
 
 import java.io.PrintStream;
-import sun.tools.jconsole.Messages;
+import jdk.jconsole.share.classes.sun.tools.jconsole.Messages;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Version {
     private static final String jconsole_version =

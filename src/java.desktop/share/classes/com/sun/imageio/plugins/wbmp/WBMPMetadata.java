@@ -19,21 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.wbmp;
+package java.desktop.share.classes.com.sun.imageio.plugins.wbmp;
+
 
 import java.io.UnsupportedEncodingException;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.metadata.IIOMetadataNode;
 import javax.imageio.metadata.IIOMetadataFormat;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
 import org.w3c.dom.Node;
-import com.sun.imageio.plugins.common.I18N;
+import java.desktop.share.classes.com.sun.imageio.plugins.common.I18N;
+import java.desktop.share.classes.com.sun.imageio.plugins.common.ImageUtil;
 
-import com.sun.imageio.plugins.common.ImageUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class WBMPMetadata extends IIOMetadata {
 

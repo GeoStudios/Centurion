@@ -21,10 +21,10 @@
 
 package crules;
 
-import java.util.Arrays;
+
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
-
 import com.sun.source.util.JavacTask;
 import com.sun.source.util.TaskEvent.Kind;
 import com.sun.tools.javac.code.Kinds;
@@ -39,6 +39,19 @@ import com.sun.tools.javac.tree.TreeInfo;
 import com.sun.tools.javac.tree.TreeScanner;
 import com.sun.tools.javac.util.AbstractLog;
 import com.sun.tools.javac.util.JCDiagnostic;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**This analyzer guards against legacy Log.error/warning/note methods that don't use the typed keys.*/
 public class LegacyLogMethodAnalyzer extends AbstractCodingRulesAnalyzer {

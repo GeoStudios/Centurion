@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.stream;
+package java.desktop.share.classes.com.sun.imageio.stream;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import javax.imageio.stream.ImageInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Small class to assist in properly closing an ImageInputStream instance

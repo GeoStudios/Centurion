@@ -19,22 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.lang.annotation.Native;
-import java.lang.invoke.MethodHandles;
-import java.lang.constant.Constable;
-import java.lang.constant.ConstantDesc;
-import java.math.*;
-import java.util.Objects;
-import java.util.Optional;
 
+import java.base.share.classes.java.lang.annotation.Native;
+import java.base.share.classes.java.lang.invoke.MethodHandles;
+import java.base.share.classes.java.lang.constant.Constable;
+import java.base.share.classes.java.lang.constant.ConstantDesc;
+import java.base.share.classes.java.math.*;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Optional;
 import jdk.internal.misc.CDS;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+import static java.base.share.classes.java.lang.String.COMPACT_STRINGS;.extended
+import static java.base.share.classes.java.lang.String.LATIN1;.extended
+import static java.base.share.classes.java.lang.String.UTF16;.extended
 
-import static java.lang.String.COMPACT_STRINGS;
-import static java.lang.String.LATIN1;
-import static java.lang.String.UTF16;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code Long} class wraps a value of the primitive type {@code

@@ -19,6 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test;
+
+
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.lang.instrument.ClassDefinition;
+import java.lang.instrument.Instrumentation;
+import java.util.concurrent.CountDownLatch;
+import java.util.jar.Attributes;
+import java.util.jar.JarEntry;
+import java.util.jar.JarOutputStream;
+import java.util.jar.Manifest;
+import com.sun.tools.attach.VirtualMachine;
+import jdk.test.lib.process.ProcessTools;
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8173743
@@ -44,24 +75,9 @@
  * @author volker.simonis@gmail.com
  */
 
-package test;
 
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.InputStream;
-import java.lang.instrument.ClassDefinition;
-import java.lang.instrument.Instrumentation;
-import java.util.concurrent.CountDownLatch;
-import java.util.jar.Attributes;
-import java.util.jar.JarEntry;
-import java.util.jar.JarOutputStream;
-import java.util.jar.Manifest;
 
-import com.sun.tools.attach.VirtualMachine;
 
-import jdk.test.lib.process.ProcessTools;
-import sun.hotspot.WhiteBox;
 
 public class DefineClass {
 

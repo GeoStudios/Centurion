@@ -21,9 +21,23 @@
 
 package selectionresolution;
 
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_ABSTRACT;
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_INTERFACE;
-import static jdk.internal.org.objectweb.asm.Opcodes.V1_8;
+
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_ABSTRACT;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_INTERFACE;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.V1_8;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class Interface extends ClassConstruct {
 

@@ -19,39 +19,53 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.dom;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom;
 
-import com.sun.org.apache.xalan.internal.xsltc.DOM;
-import com.sun.org.apache.xalan.internal.xsltc.DOMEnhancedForDTM;
-import com.sun.org.apache.xalan.internal.xsltc.StripFilter;
-import com.sun.org.apache.xalan.internal.xsltc.TransletException;
-import com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary;
-import com.sun.org.apache.xml.internal.dtm.Axis;
-import com.sun.org.apache.xml.internal.dtm.DTM;
-import com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
-import com.sun.org.apache.xml.internal.dtm.DTMManager;
-import com.sun.org.apache.xml.internal.dtm.DTMWSFilter;
-import com.sun.org.apache.xml.internal.dtm.ref.DTMAxisIterNodeList;
-import com.sun.org.apache.xml.internal.dtm.ref.DTMDefaultBase;
-import com.sun.org.apache.xml.internal.dtm.ref.DTMNodeProxy;
-import com.sun.org.apache.xml.internal.dtm.ref.EmptyIterator;
-import com.sun.org.apache.xml.internal.dtm.ref.sax2dtm.SAX2DTM2;
-import com.sun.org.apache.xml.internal.serializer.SerializationHandler;
-import com.sun.org.apache.xml.internal.serializer.ToXMLSAXHandler;
-import com.sun.org.apache.xml.internal.utils.SystemIDResolver;
-import com.sun.org.apache.xml.internal.utils.XMLStringFactory;
+
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOMEnhancedForDTM;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.StripFilter;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.TransletException;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.Axis;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMManager;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMWSFilter;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.DTMAxisIterNodejava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.DTMDefaultBase;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.DTMNodeProxy;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.EmptyIterator;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.sax2dtm.SAX2DTM2;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.SerializationHandler;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.ToXMLSAXHandler;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.SystemIDResolver;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLStringFactory;
 import java.util.HashMap;
 import java.util.Map;
 import javax.xml.transform.Source;
 import javax.xml.transform.dom.DOMSource;
-import org.w3c.dom.Document;
-import org.w3c.dom.DocumentType;
-import org.w3c.dom.Entity;
-import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.xml.sax.Attributes;
-import org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.w3c.dom.DocumentType;
+import java.xml.share.classes.com.sun.org.w3c.dom.Entity;
+import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

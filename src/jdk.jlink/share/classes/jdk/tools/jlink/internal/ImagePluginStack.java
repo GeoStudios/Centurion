@@ -18,24 +18,39 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.tools.jlink.internal;
+
+package jdk.jlink.share.classes.jdk.tools.jlink.internal;
+
 
 import java.io.DataOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.module.ModuleDescriptor;
 import java.nio.ByteOrder;
 import java.util.*;
 import java.util.stream.Stream;
+import jdk.jlink.share.classes.jdk.internal.jimage.decompressor.Decompressor;
+import jdk.jlink.share.classes.jdk.internal.module.ModuleInfo.Attributes;
+import jdk.jlink.share.classes.jdk.internal.module.ModuleTarget;
+import jdk.jlink.share.classes.jdk.tools.jlink.builder.ImageBuilder;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.Plugin;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.PluginException;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePool;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolModule;
 
-import jdk.internal.jimage.decompressor.Decompressor;
-import jdk.internal.module.ModuleInfo.Attributes;
-import jdk.internal.module.ModuleTarget;
-import jdk.tools.jlink.builder.ImageBuilder;
-import jdk.tools.jlink.plugin.Plugin;
-import jdk.tools.jlink.plugin.PluginException;
-import jdk.tools.jlink.plugin.ResourcePool;
-import jdk.tools.jlink.plugin.ResourcePoolEntry;
-import jdk.tools.jlink.plugin.ResourcePoolModule;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Plugins Stack. Plugins entry point to apply transformations onto resources

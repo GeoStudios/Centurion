@@ -18,15 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.tests.java.lang.invoke;
 
-import org.testng.annotations.Test;
 
+import org.testng.annotations.Test;
 import java.io.Serializable;
 import java.lang.invoke.SerializedLambda;
 import java.lang.reflect.Method;
+import static org.testng.Assert.fail;.extended
 
-import static org.testng.Assert.fail;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Ensure that the $deserializeLambda$ method is present when it should be, and absent otherwise

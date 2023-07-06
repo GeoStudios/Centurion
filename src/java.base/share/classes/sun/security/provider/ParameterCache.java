@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider;
+package java.base.share.classes.sun.security.provider;
+
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.math.BigInteger;
-
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.SecureRandom;
-import java.security.spec.*;
-
+import java.base.share.classes.java.security.spec.*;
 import javax.crypto.spec.DHParameterSpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Cache for DSA and DH parameter specs. Used by the KeyPairGenerators

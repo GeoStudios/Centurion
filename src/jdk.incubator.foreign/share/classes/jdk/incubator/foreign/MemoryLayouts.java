@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.incubator.foreign;
+package jdk.incubator.foreign.share.classes.jdk.incubator.foreign;
 
-import jdk.internal.misc.Unsafe;
 
+import jdk.incubator.foreign.share.classes.jdk.internal.misc.Unsafe;
 import java.nio.ByteOrder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class defines useful layout constants. Some of the constants defined in this class are explicit in both

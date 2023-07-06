@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.string;
+
+
+import jdk.test.lib.format.Format;
+import jdk.test.lib.format.ArrayCodec;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+import java.lang.reflect.Method;
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8054307
@@ -28,17 +53,8 @@
  * @run main/timeout=240 compiler.intrinsics.string.TestStringIntrinsics
  */
 
-package compiler.intrinsics.string;
 
-import jdk.test.lib.format.Format;
-import jdk.test.lib.format.ArrayCodec;
 
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
-import java.lang.reflect.Method;
-import java.util.Arrays;
 
 public class TestStringIntrinsics {
 

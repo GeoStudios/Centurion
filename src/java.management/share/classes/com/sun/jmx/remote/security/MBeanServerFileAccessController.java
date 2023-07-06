@@ -19,18 +19,19 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.remote.security;
+package java.management.share.classes.com.sun.jmx.remote.security;
+
 
 import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.security.Principal;
 import java.security.PrivilegedAction;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
@@ -39,6 +40,20 @@ import java.util.regex.Pattern;
 import javax.management.MBeanServer;
 import javax.management.ObjectName;
 import javax.security.auth.Subject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>An object of this class implements the MBeanServerAccessController

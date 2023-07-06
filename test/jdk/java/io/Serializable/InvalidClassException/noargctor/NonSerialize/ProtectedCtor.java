@@ -19,11 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package NonSerializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @bug 4093279
  */
 
-package NonSerializable;
 
 public class ProtectedCtor {
     protected ProtectedCtor() {

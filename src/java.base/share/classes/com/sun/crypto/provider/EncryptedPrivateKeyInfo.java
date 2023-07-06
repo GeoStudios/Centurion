@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
+
 
 import java.io.*;
-import sun.security.x509.AlgorithmId;
-import sun.security.util.*;
+import java.base.share.classes.com.sun.security.x509.AlgorithmId;
+import java.base.share.classes.com.sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements the <code>EncryptedPrivateKeyInfo</code> type,

@@ -18,6 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package jit.Arrays.ArrayTests;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // srm 961012
 // Test if array stores and reads are correct for
 // integral types and floating points
@@ -34,9 +53,7 @@
  * @run main/othervm jit.Arrays.ArrayTests.ArrayTests
  */
 
-package jit.Arrays.ArrayTests;
 
-import nsk.share.TestFailure;
 
 public class ArrayTests  {
   int base_array[];

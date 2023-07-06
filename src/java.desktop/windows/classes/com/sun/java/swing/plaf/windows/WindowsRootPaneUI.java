@@ -19,21 +19,19 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.windows;
+package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.Event;
-import java.awt.KeyEventPostProcessor;
-import java.awt.Window;
-import java.awt.Toolkit;
 
-import sun.awt.AWTAccessor;
-import sun.awt.SunToolkit;
-
+import java.desktop.windows.classes.com.sun.java.awt.Component;
+import java.desktop.windows.classes.com.sun.java.awt.Container;
+import java.desktop.windows.classes.com.sun.java.awt.Event;
+import java.desktop.windows.classes.com.sun.java.awt.KeyEventPostProcessor;
+import java.desktop.windows.classes.com.sun.java.awt.Window;
+import java.desktop.windows.classes.com.sun.java.awt.Toolkit;
+import java.desktop.windows.classes.com.sun.awt.AWTAccessor;
+import java.desktop.windows.classes.com.sun.awt.SunToolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
-
 import javax.swing.AbstractAction;
 import javax.swing.ActionMap;
 import javax.swing.InputMap;
@@ -49,13 +47,25 @@ import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.MenuElement;
 import javax.swing.MenuSelectionManager;
-
 import javax.swing.plaf.ActionMapUIResource;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.InputMapUIResource;
-
 import javax.swing.plaf.basic.BasicRootPaneUI;
 import javax.swing.plaf.basic.ComboPopup;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Windows implementation of RootPaneUI, there is one shared between all

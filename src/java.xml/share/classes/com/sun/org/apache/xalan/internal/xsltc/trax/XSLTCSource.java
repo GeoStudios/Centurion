@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.trax;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax;
 
-import com.sun.org.apache.xalan.internal.xsltc.DOM;
-import com.sun.org.apache.xalan.internal.xsltc.StripFilter;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
-import com.sun.org.apache.xalan.internal.xsltc.dom.DOMWSFilter;
-import com.sun.org.apache.xalan.internal.xsltc.dom.SAXImpl;
-import com.sun.org.apache.xalan.internal.xsltc.dom.XSLTCDTMManager;
-import com.sun.org.apache.xalan.internal.xsltc.runtime.AbstractTranslet;
+
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.StripFilter;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom.DOMWSFilter;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom.SAXImpl;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom.XSLTCDTMManager;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime.AbstractTranslet;
 import javax.xml.transform.Source;
 import javax.xml.transform.stream.StreamSource;
-import org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @LastModified: Nov 2017

@@ -19,17 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.lib;
+
+
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.DOM2Helper;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.NodeSet;
+import java.util.HashMap;
+import java.util.Map;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: ExsltSets.java,v 1.1.2.1 2005/08/01 02:08:50 jeffsuttor Exp $
  */
-package com.sun.org.apache.xalan.internal.lib;
 
-import com.sun.org.apache.xml.internal.utils.DOM2Helper;
-import com.sun.org.apache.xpath.internal.NodeSet;
-import java.util.HashMap;
-import java.util.Map;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+
 
 /**
  * This class contains EXSLT set extension functions.

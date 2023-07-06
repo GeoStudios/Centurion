@@ -18,10 +18,12 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.jrtfs;
 
-import java.io.IOException;
-import java.io.UncheckedIOException;
+package java.base.share.classes.jdk.internal.jrtfs;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.nio.file.DirectoryStream;
 import java.nio.file.FileSystem;
 import java.nio.file.FileSystemException;
@@ -29,13 +31,26 @@ import java.nio.file.FileSystems;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.attribute.BasicFileAttributes;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
+import java.base.share.classes.jdk.internal.jimage.ImageReader.Node;
 
-import jdk.internal.jimage.ImageReader.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A jrt file system built on $JAVA_HOME/modules directory ('exploded modules

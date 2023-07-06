@@ -19,33 +19,47 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot;
+
 
 import java.io.*;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import java.util.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.compiler.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.epsilon.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.parallel.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shenandoah.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.g1.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.z.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.interpreter.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.memory.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.tree.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.classbrowser.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
 
-import sun.jvm.hotspot.code.*;
-import sun.jvm.hotspot.compiler.*;
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.gc.epsilon.*;
-import sun.jvm.hotspot.gc.parallel.*;
-import sun.jvm.hotspot.gc.shared.*;
-import sun.jvm.hotspot.gc.shenandoah.*;
-import sun.jvm.hotspot.gc.g1.*;
-import sun.jvm.hotspot.gc.z.*;
-import sun.jvm.hotspot.interpreter.*;
-import sun.jvm.hotspot.memory.*;
-import sun.jvm.hotspot.oops.*;
-import sun.jvm.hotspot.runtime.*;
-import sun.jvm.hotspot.ui.*;
-import sun.jvm.hotspot.ui.tree.*;
-import sun.jvm.hotspot.ui.classbrowser.*;
-import sun.jvm.hotspot.utilities.*;
-import sun.jvm.hotspot.utilities.Observable;
-import sun.jvm.hotspot.utilities.Observer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** The top-level HotSpot Debugger. FIXME: make this an embeddable
     component! (Among other things, figure out what to do with the

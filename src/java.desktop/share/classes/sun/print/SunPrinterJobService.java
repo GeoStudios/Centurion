@@ -19,9 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.share.classes.sun.print;
 
- /*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
   * A interface which indicates this service is implemented
   * by delegating to a subclass of PrinterJob delivered with the JRE
   * implementation

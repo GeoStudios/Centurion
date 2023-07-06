@@ -19,26 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.windows;
+package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-import java.awt.*;
 
+import java.desktop.windows.classes.com.sun.java.awt.*;
 import javax.swing.AbstractButton;
 import javax.swing.JComponent;
 import javax.swing.JToggleButton;
 import javax.swing.UIDefaults;
 import javax.swing.UIManager;
-
 import javax.swing.border.Border;
 import javax.swing.border.CompoundBorder;
 import javax.swing.border.EmptyBorder;
-
 import javax.swing.plaf.*;
-
 import javax.swing.plaf.basic.BasicBorders;
 import javax.swing.plaf.basic.BasicToolBarUI;
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Part;.extended
 
-import static com.sun.java.swing.plaf.windows.TMSchema.Part;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class WindowsToolBarUI extends BasicToolBarUI {

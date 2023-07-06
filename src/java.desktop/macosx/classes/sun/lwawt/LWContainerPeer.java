@@ -19,11 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt;
+package java.desktop.macosx.classes.sun.lwawt;
 
-import sun.awt.SunGraphicsCallback;
-import sun.java2d.pipe.Region;
 
+import java.desktop.macosx.classes.sun.awt.SunGraphicsCallback;
+import java.desktop.macosx.classes.sun.java2d.pipe.Region;
 import java.awt.Color;
 import java.awt.Container;
 import java.awt.Font;
@@ -31,10 +31,23 @@ import java.awt.Graphics;
 import java.awt.Insets;
 import java.awt.Rectangle;
 import java.awt.peer.ContainerPeer;
-import java.util.LinkedList;
-import java.util.List;
-
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import javax.swing.JComponent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class LWContainerPeer<T extends Container, D extends JComponent>
         extends LWCanvasPeer<T, D> implements ContainerPeer {

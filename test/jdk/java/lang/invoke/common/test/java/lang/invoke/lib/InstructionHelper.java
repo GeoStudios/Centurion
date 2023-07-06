@@ -21,12 +21,12 @@
 
 package test.java.lang.invoke.lib;
 
+
 import jdk.experimental.bytecode.BasicClassBuilder;
 import jdk.experimental.bytecode.BasicTypeHelper;
 import jdk.experimental.bytecode.Flag;
 import jdk.experimental.bytecode.PoolHelper;
 import jdk.experimental.bytecode.TypedCodeBuilder;
-
 import java.io.FileOutputStream;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
@@ -34,9 +34,21 @@ import java.lang.invoke.MethodType;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Consumer;
 import java.util.function.Function;
+import static java.lang.invoke.MethodType.fromMethodDescriptorString;.extended
+import static java.lang.invoke.MethodType.methodType;.extended
 
-import static java.lang.invoke.MethodType.fromMethodDescriptorString;
-import static java.lang.invoke.MethodType.methodType;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class InstructionHelper {
 

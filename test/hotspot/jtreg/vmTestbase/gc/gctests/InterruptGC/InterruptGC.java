@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.InterruptGC;
+
+
+import nsk.share.gc.*;
+import nsk.share.test.*;
+import nsk.share.gc.gp.*;
+import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -37,13 +57,8 @@
  * @run main/othervm gc.gctests.InterruptGC.InterruptGC -gp random(arrays) -ms low
  */
 
-package gc.gctests.InterruptGC;
 
-import nsk.share.gc.*;
-import nsk.share.test.*;
-import nsk.share.gc.gp.*;
 
-import java.util.*;
 
 /**
  * The test starts one thread which generates garbage and several other

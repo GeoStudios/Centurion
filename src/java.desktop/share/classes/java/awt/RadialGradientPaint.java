@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.geom.AffineTransform;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
-import java.awt.image.ColorModel;
-import java.beans.ConstructorProperties;
+
+import java.desktop.share.classes.java.awt.geom.AffineTransform;
+import java.desktop.share.classes.java.awt.geom.Point2D;
+import java.desktop.share.classes.java.awt.geom.Rectangle2D;
+import java.desktop.share.classes.java.awt.image.ColorModel;
+import java.desktop.share.classes.java.beans.ConstructorProperties;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code RadialGradientPaint} class provides a way to fill a shape with

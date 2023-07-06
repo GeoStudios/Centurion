@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.script.shell;
+package java.scripting.share.classes.com.sun.tools.script.shell;
+
 
 import java.io.*;
 import java.net.*;
 import java.text.*;
 import java.util.*;
 import javax.script.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the main class for Java script shell.

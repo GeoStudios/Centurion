@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.print.attribute.standard;
+package java.desktop.share.classes.javax.print.attribute.standard;
+
 
 import java.io.Serial;
+import java.desktop.share.classes.javax.print.attribute.Attribute;
+import java.desktop.share.classes.javax.print.attribute.SetOfIntegerSyntax;
+import java.desktop.share.classes.javax.print.attribute.SupportedValuesAttribute;
 
-import javax.print.attribute.Attribute;
-import javax.print.attribute.SetOfIntegerSyntax;
-import javax.print.attribute.SupportedValuesAttribute;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class {@code CopiesSupported} is a printing attribute class, a set of

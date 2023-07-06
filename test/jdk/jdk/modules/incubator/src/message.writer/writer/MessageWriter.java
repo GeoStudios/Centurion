@@ -21,8 +21,22 @@
 
 package writer;
 
+
 import java.io.PrintStream;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MessageWriter {
     public static void writeOn(String message, PrintStream out) {

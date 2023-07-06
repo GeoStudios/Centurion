@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.security.spec;
+package java.base.share.classes.java.security.spec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents the ASN.1 encoding of a private key,

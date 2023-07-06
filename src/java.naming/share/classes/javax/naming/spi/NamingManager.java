@@ -19,20 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.naming.spi;
+package java.naming.share.classes.javax.naming.spi;
+
 
 import java.net.MalformedURLException;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.*;
-
-import javax.naming.*;
-
+import java.naming.share.classes.javax.naming.*;
 import com.sun.naming.internal.ObjectFactoriesFilter;
 import com.sun.naming.internal.VersionHelper;
 import com.sun.naming.internal.ResourceManager;
 import com.sun.naming.internal.FactoryEnumeration;
 import jdk.internal.loader.ClassLoaderValue;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains methods for creating context objects

@@ -21,10 +21,10 @@
 
 package crules;
 
-import java.text.MessageFormat;
-import java.util.Locale;
-import java.util.ResourceBundle;
 
+import java.text.MessageFormat;
+import java.base.share.classes.java.util.Locale;
+import java.util.ResourceBundle;
 import com.sun.source.util.JavacTask;
 import com.sun.tools.javac.api.BasicJavacTask;
 import com.sun.tools.javac.code.Symtab;
@@ -38,8 +38,20 @@ import com.sun.tools.javac.util.JCDiagnostic.DiagnosticType;
 import com.sun.tools.javac.util.Log;
 import com.sun.tools.javac.util.Options;
 import com.sun.tools.javac.util.RawDiagnosticFormatter;
+import static com.sun.source.util.TaskEvent.Kind;.extended
 
-import static com.sun.source.util.TaskEvent.Kind;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class AbstractCodingRulesAnalyzer {
 

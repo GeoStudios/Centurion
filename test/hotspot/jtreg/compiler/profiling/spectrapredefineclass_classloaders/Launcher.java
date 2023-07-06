@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.profiling.spectrapredefineclass_classloaders;
+
+
+import jdk.test.lib.JDKToolLauncher;
+import jdk.test.lib.process.OutputAnalyzer;
+import java.io.File;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.PrintWriter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8040237
@@ -38,14 +60,8 @@
  *                   compiler.profiling.spectrapredefineclass_classloaders.Agent
  */
 
-package compiler.profiling.spectrapredefineclass_classloaders;
 
-import jdk.test.lib.JDKToolLauncher;
-import jdk.test.lib.process.OutputAnalyzer;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.PrintWriter;
 
 public class Launcher {
     private static final String MANIFEST = "MANIFEST.MF";

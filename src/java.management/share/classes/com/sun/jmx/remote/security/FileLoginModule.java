@@ -18,26 +18,40 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.jmx.remote.security;
 
-import com.sun.jmx.mbeanserver.GetPropertyAction;
-import com.sun.jmx.mbeanserver.Util;
+package java.management.share.classes.com.sun.jmx.remote.security;
+
+
+import java.management.share.classes.com.sun.jmx.mbeanserver.GetPropertyAction;
+import java.management.share.classes.com.sun.jmx.mbeanserver.Util;
 import java.io.File;
 import java.io.FilePermission;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.AccessControlException;
 import java.security.AccessController;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Map;
-
 import javax.security.auth.*;
 import javax.security.auth.callback.*;
 import javax.security.auth.login.*;
 import javax.security.auth.spi.*;
 import javax.management.remote.JMXPrincipal;
+import java.management.share.classes.com.sun.jmx.remote.util.ClassLogger;
+import java.management.share.classes.com.sun.jmx.remote.util.EnvHelp;
 
-import com.sun.jmx.remote.util.ClassLogger;
-import com.sun.jmx.remote.util.EnvHelp;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This {@link LoginModule} performs file-based authentication.

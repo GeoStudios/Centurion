@@ -19,23 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.xs;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
 
-import com.sun.org.apache.xerces.internal.impl.dv.ValidatedInfo;
-import com.sun.org.apache.xerces.internal.impl.xs.identity.IdentityConstraint;
-import com.sun.org.apache.xerces.internal.impl.xs.util.XSNamedMapImpl;
-import com.sun.org.apache.xerces.internal.impl.xs.util.XSObjectListImpl;
-import com.sun.org.apache.xerces.internal.xni.QName;
-import com.sun.org.apache.xerces.internal.xs.ShortList;
-import com.sun.org.apache.xerces.internal.xs.XSAnnotation;
-import com.sun.org.apache.xerces.internal.xs.XSComplexTypeDefinition;
-import com.sun.org.apache.xerces.internal.xs.XSConstants;
-import com.sun.org.apache.xerces.internal.xs.XSElementDeclaration;
-import com.sun.org.apache.xerces.internal.xs.XSNamedMap;
-import com.sun.org.apache.xerces.internal.xs.XSNamespaceItem;
-import com.sun.org.apache.xerces.internal.xs.XSObjectList;
-import com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
-import com.sun.org.apache.xerces.internal.xs.XSValue;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.ValidatedInfo;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.identity.IdentityConstraint;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XSNamedMapImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XSObjectjava.util.ListImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.Shortjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSAnnotation;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSComplexTypeDefinition;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSConstants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSElementDeclaration;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSNamedMap;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSNamespaceItem;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObjectjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSValue;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The XML representation for an element declaration

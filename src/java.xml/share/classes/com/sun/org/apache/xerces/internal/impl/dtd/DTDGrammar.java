@@ -19,37 +19,52 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.dtd;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd;
 
-import com.sun.org.apache.xerces.internal.impl.dtd.models.CMAny;
-import com.sun.org.apache.xerces.internal.impl.dtd.models.CMBinOp;
-import com.sun.org.apache.xerces.internal.impl.dtd.models.CMLeaf;
-import com.sun.org.apache.xerces.internal.impl.dtd.models.CMNode;
-import com.sun.org.apache.xerces.internal.impl.dtd.models.CMUniOp;
-import com.sun.org.apache.xerces.internal.impl.dtd.models.ContentModelValidator;
-import com.sun.org.apache.xerces.internal.impl.dtd.models.DFAContentModel;
-import com.sun.org.apache.xerces.internal.impl.dtd.models.MixedContentModel;
-import com.sun.org.apache.xerces.internal.impl.dtd.models.SimpleContentModel;
-import com.sun.org.apache.xerces.internal.impl.dv.DatatypeValidator;
-import com.sun.org.apache.xerces.internal.impl.validation.EntityState;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
-import com.sun.org.apache.xerces.internal.xni.Augmentations;
-import com.sun.org.apache.xerces.internal.xni.QName;
-import com.sun.org.apache.xerces.internal.xni.XMLDTDContentModelHandler;
-import com.sun.org.apache.xerces.internal.xni.XMLDTDHandler;
-import com.sun.org.apache.xerces.internal.xni.XMLLocator;
-import com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
-import com.sun.org.apache.xerces.internal.xni.XMLString;
-import com.sun.org.apache.xerces.internal.xni.XNIException;
-import com.sun.org.apache.xerces.internal.xni.grammars.Grammar;
-import com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLDTDContentModelSource;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLDTDSource;
-import java.util.ArrayList;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.CMAny;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.CMBinOp;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.CMLeaf;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.CMNode;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.CMUniOp;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.ContentModelValidator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.DFAContentModel;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.MixedContentModel;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.SimpleContentModel;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.DatatypeValidator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.validation.EntityState;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.Augmentations;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDTDContentModelHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDTDHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLLocator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLString;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.Grammar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDTDContentModelSource;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDTDSource;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A DTD grammar. This class implements the XNI handler interfaces

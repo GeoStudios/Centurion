@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.x11;
+package java.desktop.unix.classes.sun.java2d.x11;
+
 
 import java.awt.Color;
 import java.awt.Transparency;
 import java.awt.image.ColorModel;
 import java.awt.image.DirectColorModel;
 import java.awt.image.IndexColorModel;
+import java.desktop.unix.classes.sun.awt.X11GraphicsConfig;
+import java.desktop.unix.classes.sun.java2d.SunGraphics2D;
+import java.desktop.unix.classes.sun.java2d.SurfaceData;
+import java.desktop.unix.classes.sun.java2d.SurfaceDataProxy;
+import java.desktop.unix.classes.sun.java2d.loops.CompositeType;
 
-import sun.awt.X11GraphicsConfig;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.SurfaceData;
-import sun.java2d.SurfaceDataProxy;
-import sun.java2d.loops.CompositeType;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The proxy class contains the logic for when to replace a

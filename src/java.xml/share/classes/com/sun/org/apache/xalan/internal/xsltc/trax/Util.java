@@ -19,11 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.trax;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax;
 
-import com.sun.org.apache.xalan.internal.utils.XMLSecurityManager;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.XSLTC;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
+
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.utils.XMLSecurityManager;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.XSLTC;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
 import java.io.InputStream;
 import java.io.Reader;
 import javax.xml.XMLConstants;
@@ -40,12 +41,26 @@ import javax.xml.transform.stream.StreamSource;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkXmlFeatures;
 import jdk.xml.internal.JdkXmlUtils;
-import org.w3c.dom.Document;
-import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
-import org.xml.sax.SAXNotRecognizedException;
-import org.xml.sax.SAXNotSupportedException;
-import org.xml.sax.XMLReader;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXNotRecognizedException;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXNotSupportedException;
+import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

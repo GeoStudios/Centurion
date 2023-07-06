@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.spi;
+package java.desktop.share.classes.com.sun.imageio.spi;
+
 
 import java.io.File;
 import java.io.InputStream;
-import java.io.IOException;
-import java.util.Locale;
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.util.Locale;
 import javax.imageio.spi.ImageInputStreamSpi;
 import javax.imageio.stream.ImageInputStream;
 import javax.imageio.stream.FileCacheImageInputStream;
 import javax.imageio.stream.MemoryCacheImageInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class InputStreamImageInputStreamSpi extends ImageInputStreamSpi {
 

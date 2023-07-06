@@ -19,15 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io;
+
+
+import java.io.CharConversionException;
+import java.base.share.classes.java.util.Locale;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.MessageFormatter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.impl.io;
 
-import java.io.CharConversionException;
-import java.util.Locale;
-import com.sun.org.apache.xerces.internal.util.MessageFormatter;
+
 
 /**
  * <p>Signals that a malformed byte sequence was detected

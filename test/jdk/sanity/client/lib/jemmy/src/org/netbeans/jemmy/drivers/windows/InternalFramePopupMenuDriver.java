@@ -21,12 +21,25 @@
 
 package org.netbeans.jemmy.drivers.windows;
 
-import javax.swing.UIManager;
 
+import javax.swing.UIManager;
 import org.netbeans.jemmy.operators.ComponentOperator;
 import org.netbeans.jemmy.operators.JInternalFrameOperator;
 import org.netbeans.jemmy.operators.JMenuItemOperator;
 import org.netbeans.jemmy.operators.JPopupMenuOperator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * InternalFrameDriver to do Close, Minimize, Maximize, and Restore actions

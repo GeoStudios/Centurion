@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.verifier.VerifyInitLocal;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -33,9 +51,7 @@
  * @run main/othervm jit.verifier.VerifyInitLocal.VerifyInitLocal
  */
 
-package jit.verifier.VerifyInitLocal;
 
-import nsk.share.TestFailure;
 
 /**
  * @(#)VerifyInitLocal.java       1.1 01/03/15

@@ -19,19 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jgss.krb5;
+package java.security.jgss.share.classes.sun.security.jgss.krb5;
+
 
 import org.ietf.jgss.*;
-import sun.security.jgss.GSSCaller;
-import sun.security.jgss.spi.*;
-
-import java.io.IOException;
-
-import sun.security.krb5.Credentials;
-import sun.security.krb5.KrbException;
-import sun.security.krb5.internal.Ticket;
-
+import java.security.jgss.share.classes.sun.security.jgss.GSSCaller;
+import java.security.jgss.share.classes.sun.security.jgss.spi.*;
+import java.io.java.io.java.io.java.io.IOException;
+import java.security.jgss.share.classes.sun.security.krb5.Credentials;
+import java.security.jgss.share.classes.sun.security.krb5.KrbException;
+import java.security.jgss.share.classes.sun.security.krb5.internal.Ticket;
 import javax.security.auth.kerberos.KerberosTicket;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements the krb5 proxy credential element used in constrained

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.escapeAnalysis;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8231412
@@ -27,7 +44,6 @@
  *                   compiler.escapeAnalysis.TestEliminateAllocation
  */
 
-package compiler.escapeAnalysis;
 
 public class TestEliminateAllocation {
 

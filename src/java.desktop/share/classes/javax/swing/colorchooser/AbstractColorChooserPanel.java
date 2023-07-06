@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.colorchooser;
+package java.desktop.share.classes.javax.swing.colorchooser;
+
 
 import java.awt.*;
 import java.beans.BeanProperty;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import javax.swing.*;
+import java.beans.PropertyChangejava.util.Listener;
+import java.desktop.share.classes.javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the abstract superclass for color choosers.  If you want to add

@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.concurrent.locks.ReentrantLock;
-import static sun.security.ssl.ClientHello.ClientHelloMessage;
+import static java.base.share.classes.sun.security.ssl.ClientHello.ClientHelloMessage;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  (D)TLS handshake cookie manager

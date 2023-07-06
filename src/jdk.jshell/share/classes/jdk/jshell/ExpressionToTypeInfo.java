@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jshell;
+package jdk.jshell.share.classes.jdk.jshell;
+
 
 import java.util.EnumSet;
 import java.util.HashMap;
@@ -53,13 +54,27 @@ import com.sun.tools.javac.code.Type;
 import com.sun.tools.javac.code.Types;
 import com.sun.tools.javac.tree.JCTree.JCClassDecl;
 import com.sun.tools.javac.tree.TreeInfo;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.ListBuffer;
+import com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import com.sun.tools.javac.util.java.util.ListBuffer;
 import java.util.function.BinaryOperator;
-import jdk.jshell.ExpressionToTypeInfo.ExpressionInfo.AnonymousDescription;
-import jdk.jshell.ExpressionToTypeInfo.ExpressionInfo.AnonymousDescription.VariableDesc;
-import jdk.jshell.TaskFactory.AnalyzeTask;
-import jdk.jshell.TypePrinter.AnonymousTypeKind;
+import jdk.jshell.share.classes.jdk.jshell.ExpressionToTypeInfo.ExpressionInfo.AnonymousDescription;
+import jdk.jshell.share.classes.jdk.jshell.ExpressionToTypeInfo.ExpressionInfo.AnonymousDescription.VariableDesc;
+import jdk.jshell.share.classes.jdk.jshell.TaskFactory.AnalyzeTask;
+import jdk.jshell.share.classes.jdk.jshell.TypePrinter.AnonymousTypeKind;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Compute information about an expression string, particularly its type name.

@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.sql;
+
+package java.sql.share.classes.javax.sql;
+
 
 import java.sql.SQLException;
 import java.sql.ShardingKey;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A builder created from a {@code XADataSource} object,

@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.management.internal;
+package jdk.management.share.classes.com.sun.management.internal;
 
-import com.sun.management.VMOption;
-import com.sun.management.VMOption.Origin;
+
+import jdk.management.share.classes.com.sun.management.VMOption;
+import jdk.management.share.classes.com.sun.management.VMOption.Origin;
 import javax.management.openmbean.CompositeType;
 import javax.management.openmbean.CompositeData;
 import javax.management.openmbean.CompositeDataSupport;
 import javax.management.openmbean.OpenDataException;
-import sun.management.LazyCompositeData;
-import sun.management.MappedMXBeanType;
+import jdk.management.share.classes.com.sun.management.LazyCompositeData;
+import jdk.management.share.classes.com.sun.management.MappedMXBeanType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A CompositeData for VMOption for the local management support.

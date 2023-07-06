@@ -23,14 +23,25 @@ package jdk.jfr.jmx.info;
 
 
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-
 import jdk.jfr.jmx.JmxHelper;
-
 import jdk.jfr.Configuration;
 import jdk.management.jfr.ConfigurationInfo;
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

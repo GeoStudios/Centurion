@@ -21,25 +21,38 @@
 
 package gc.g1;
 
+
 import jdk.test.lib.Asserts;
 import jdk.test.lib.Platform;
 import jdk.test.lib.Utils;
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.process.OutputAnalyzer;
 import jtreg.SkippedException;
-
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryUsage;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Random;
-import jdk.internal.misc.Unsafe; // for ADDRESS_SIZE
+import jdk.internal.misc.Unsafe; // for ADDRESS_SIZE.extended
 import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TestShrinkAuxiliaryData {
     private static final Random RNG = Utils.getRandomInstance();

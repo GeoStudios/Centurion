@@ -19,21 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ec;
+package jdk.crypto.ec.share.classes.sun.security.ec;
+
 
 import java.math.BigInteger;
 import java.security.KeyPairGeneratorSpi;
-import java.security.InvalidKeyException;
+import java.base.share.classes.java.security.InvalidKeyException;
 import java.security.InvalidParameterException;
 import java.security.InvalidAlgorithmParameterException;
 import java.security.KeyPair;
-import java.security.ProviderException;
+import java.base.share.classes.java.security.ProviderException;
 import java.security.SecureRandom;
 import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.NamedParameterSpec;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
+import jdk.crypto.ec.share.classes.sun.security.jca.JCAUtil;
 
-import sun.security.jca.JCAUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Key pair generator for the XDH key agreement algorithm.

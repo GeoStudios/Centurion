@@ -19,25 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider;
+package java.base.share.classes.sun.security.provider;
+
 
 import java.math.BigInteger;
 import java.security.AlgorithmParameterGeneratorSpi;
 import java.security.AlgorithmParameters;
 import java.security.InvalidAlgorithmParameterException;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.NoSuchProviderException;
 import java.security.InvalidParameterException;
 import java.security.MessageDigest;
 import java.security.SecureRandom;
-import java.security.ProviderException;
+import java.base.share.classes.java.security.ProviderException;
 import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.InvalidParameterSpecException;
 import java.security.spec.DSAParameterSpec;
 import java.security.spec.DSAGenParameterSpec;
+import static java.base.share.classes.sun.security.util.SecurityProviderConstants.DEF_DSA_KEY_SIZE;.extended
+import static java.base.share.classes.sun.security.util.SecurityProviderConstants.getDefDSASubprimeSize;.extended
 
-import static sun.security.util.SecurityProviderConstants.DEF_DSA_KEY_SIZE;
-import static sun.security.util.SecurityProviderConstants.getDefDSASubprimeSize;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.memory.Array.ArrayJuggle.Juggle1;
+
+
+import nsk.share.test.*;
+import nsk.share.gc.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -32,10 +50,7 @@
  * @run main/othervm -Xlog:gc=debug:gc.log gc.memory.Array.ArrayJuggle.Juggle1.Juggle1
  */
 
-package gc.memory.Array.ArrayJuggle.Juggle1;
 
-import nsk.share.test.*;
-import nsk.share.gc.*;
 
 /**
  * Test that tries to confuse the GC.

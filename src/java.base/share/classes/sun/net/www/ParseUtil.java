@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www;
+package java.base.share.classes.sun.net.www;
+
 
 import java.io.File;
 import java.net.MalformedURLException;
@@ -34,8 +35,21 @@ import java.nio.charset.CharsetEncoder;
 import java.nio.charset.CoderResult;
 import java.nio.charset.CodingErrorAction;
 import java.util.HexFormat;
+import java.base.share.classes.sun.nio.cs.UTF_8;
 
-import sun.nio.cs.UTF_8;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class that contains useful routines common to sun.net.www

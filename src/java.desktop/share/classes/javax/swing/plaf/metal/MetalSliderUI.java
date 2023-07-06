@@ -19,18 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.metal;
+package java.desktop.share.classes.javax.swing.plaf.metal;
 
-import javax.swing.plaf.basic.BasicSliderUI;
 
+import java.desktop.share.classes.javax.swing.plaf.basic.BasicSliderUI;
 import java.awt.Graphics;
 import java.awt.Dimension;
 import java.awt.Rectangle;
 import java.awt.Color;
 import java.beans.*;
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.plaf.*;
 
-import javax.swing.*;
-import javax.swing.plaf.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Java L&amp;F implementation of SliderUI.

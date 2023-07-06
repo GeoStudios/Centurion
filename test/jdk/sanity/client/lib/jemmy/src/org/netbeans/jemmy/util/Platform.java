@@ -21,6 +21,21 @@
 
 package org.netbeans.jemmy.util;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Class to provide platform related utility APIs
  */

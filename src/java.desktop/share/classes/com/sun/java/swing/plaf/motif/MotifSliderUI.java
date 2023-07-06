@@ -19,19 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.motif;
+package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Rectangle;
 
+import java.desktop.share.classes.com.sun.java.awt.Dimension;
+import java.desktop.share.classes.com.sun.java.awt.Graphics;
+import java.desktop.share.classes.com.sun.java.awt.Rectangle;
 import javax.swing.JComponent;
 import javax.swing.JSlider;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicSliderUI;
+import static java.desktop.share.classes.com.sun.swing.SwingUtilities2.drawHLine;.extended
+import static java.desktop.share.classes.com.sun.swing.SwingUtilities2.drawVLine;.extended
 
-import static sun.swing.SwingUtilities2.drawHLine;
-import static sun.swing.SwingUtilities2.drawVLine;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Motif Slider.

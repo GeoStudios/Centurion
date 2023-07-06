@@ -21,20 +21,32 @@
 
 package stream.XMLEventReaderTest;
 
+
 import java.io.StringReader;
 import javax.xml.stream.FactoryConfigurationError;
 import javax.xml.stream.XMLEventReader;
-
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.events.Characters;
 import javax.xml.stream.events.Comment;
 import javax.xml.stream.events.StartDocument;
 import javax.xml.stream.events.StartElement;
-
-import static org.testng.Assert.assertTrue;
-import org.testng.annotations.Listeners;
+import static org.testng.Assert.assertTrue;.extended
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

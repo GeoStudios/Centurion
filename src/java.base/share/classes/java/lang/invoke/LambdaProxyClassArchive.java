@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang.invoke;
+
+package java.base.share.classes.java.lang.invoke;
+
 
 import jdk.internal.loader.BuiltinClassLoader;
 import jdk.internal.misc.CDS;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class LambdaProxyClassArchive {
     /**

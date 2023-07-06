@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.swing;
+package java.desktop.share.classes.sun.swing;
+
 
 import javax.swing.ImageIcon;
 import javax.swing.plaf.UIResource;
 import java.awt.Image;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A subclass of <code>ImageIcon</code> that implements UIResource.

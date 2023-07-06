@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvmstat.monitor.remote;
+package jdk.jstatd.share.classes.sun.jvmstat.monitor.remote;
 
-import sun.jvmstat.monitor.*;
+
+import jdk.jstatd.share.classes.sun.jvmstat.monitor.*;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Remote Interface for discovering and attaching to remote

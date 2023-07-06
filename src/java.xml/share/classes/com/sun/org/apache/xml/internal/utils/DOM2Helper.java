@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.utils;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
-import com.sun.org.apache.xml.internal.dtm.ref.DTMNodeProxy;
-import org.w3c.dom.Attr;
-import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
+
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.DTMNodeProxy;
+import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
+import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

@@ -19,21 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.mscapi;
+package jdk.crypto.mscapi.windows.classes.sun.security.mscapi;
+
 
 import java.nio.ByteBuffer;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.interfaces.ECPublicKey;
 import java.security.interfaces.RSAPublicKey;
 import java.security.spec.AlgorithmParameterSpec;
 import java.math.BigInteger;
 import java.security.spec.MGF1ParameterSpec;
 import java.security.spec.PSSParameterSpec;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
+import jdk.crypto.mscapi.windows.classes.sun.security.rsa.RSAKeyFactory;
+import jdk.crypto.mscapi.windows.classes.sun.security.util.ECUtil;
+import jdk.crypto.mscapi.windows.classes.sun.security.util.KeyUtil;
 
-import sun.security.rsa.RSAKeyFactory;
-import sun.security.util.ECUtil;
-import sun.security.util.KeyUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Signature implementation.

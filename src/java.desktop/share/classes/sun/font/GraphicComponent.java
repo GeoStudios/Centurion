@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.share.classes.sun.font;
+
 
 import java.awt.Font;
 import java.awt.Graphics2D;
@@ -34,6 +35,20 @@ import java.awt.geom.GeneralPath;
 import java.awt.geom.Rectangle2D;
 import java.text.Bidi;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class GraphicComponent implements TextLineComponent,
                                                Decoration.Label {

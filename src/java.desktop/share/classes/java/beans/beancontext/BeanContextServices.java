@@ -19,17 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.beans.beancontext;
+package java.desktop.share.classes.java.beans.beancontext;
 
-import java.util.Iterator;
 
-import java.util.TooManyListenersException;
+import java.desktop.share.classes.java.util.Iterator;
+import java.desktop.share.classes.java.util.TooManyjava.util.ListenersException;
+import java.desktop.share.classes.java.beans.beancontext.BeanContext;
+import java.desktop.share.classes.java.beans.beancontext.BeanContextServiceProvider;
+import java.desktop.share.classes.java.beans.beancontext.BeanContextServicesjava.util.Listener;
 
-import java.beans.beancontext.BeanContext;
 
-import java.beans.beancontext.BeanContextServiceProvider;
 
-import java.beans.beancontext.BeanContextServicesListener;
+
+
+
+
+
+
+
+
+
+
 
 
 /**

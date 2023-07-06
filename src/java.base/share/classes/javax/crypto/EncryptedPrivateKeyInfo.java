@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.crypto;
+package java.base.share.classes.javax.crypto;
+
 
 import java.io.*;
-import java.security.*;
-import java.security.spec.*;
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.java.security.spec.*;
 import sun.security.x509.AlgorithmId;
 import sun.security.util.DerValue;
 import sun.security.util.DerInputStream;
 import sun.security.util.DerOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements the <code>EncryptedPrivateKeyInfo</code> type

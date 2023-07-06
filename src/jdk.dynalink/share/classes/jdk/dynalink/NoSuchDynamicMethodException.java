@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.dynalink.share.classes.jdk.dynalink;
+
+
+import jdk.dynalink.share.classes.jdk.dynalink.linker.GuardingDynamicLinker;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -26,9 +45,8 @@
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-package jdk.dynalink;
 
-import jdk.dynalink.linker.GuardingDynamicLinker;
+
 
 /**
  * Thrown at the invocation if the call site can not be linked by any available {@link GuardingDynamicLinker}.

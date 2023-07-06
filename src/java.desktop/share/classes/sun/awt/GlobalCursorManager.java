@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.share.classes.sun.awt;
+
 
 import java.awt.*;
 import java.awt.event.InputEvent;
 import java.awt.event.InvocationEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A stateless class which responds to native mouse moves, Component resizes,

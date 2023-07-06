@@ -19,59 +19,60 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.xinclude;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.xinclude;
 
-import com.sun.org.apache.xerces.internal.impl.Constants;
-import com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
-import com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
-import com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException;
-import com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
-import com.sun.org.apache.xerces.internal.parsers.XIncludeParserConfiguration;
-import com.sun.org.apache.xerces.internal.parsers.XPointerParserConfiguration;
-import com.sun.org.apache.xerces.internal.util.AugmentationsImpl;
-import com.sun.org.apache.xerces.internal.util.HTTPInputSource;
-import com.sun.org.apache.xerces.internal.util.IntStack;
-import com.sun.org.apache.xerces.internal.util.ParserConfigurationSettings;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
-import com.sun.org.apache.xerces.internal.util.URI.MalformedURIException;
-import com.sun.org.apache.xerces.internal.util.URI;
-import com.sun.org.apache.xerces.internal.util.XMLAttributesImpl;
-import com.sun.org.apache.xerces.internal.util.XMLChar;
-import com.sun.org.apache.xerces.internal.util.XMLLocatorWrapper;
-import com.sun.org.apache.xerces.internal.util.XMLResourceIdentifierImpl;
-import com.sun.org.apache.xerces.internal.util.XMLSymbols;
-import com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
-import com.sun.org.apache.xerces.internal.utils.XMLSecurityPropertyManager;
-import com.sun.org.apache.xerces.internal.xni.Augmentations;
-import com.sun.org.apache.xerces.internal.xni.NamespaceContext;
-import com.sun.org.apache.xerces.internal.xni.QName;
-import com.sun.org.apache.xerces.internal.xni.XMLAttributes;
-import com.sun.org.apache.xerces.internal.xni.XMLDTDHandler;
-import com.sun.org.apache.xerces.internal.xni.XMLDocumentHandler;
-import com.sun.org.apache.xerces.internal.xni.XMLLocator;
-import com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
-import com.sun.org.apache.xerces.internal.xni.XMLString;
-import com.sun.org.apache.xerces.internal.xni.XNIException;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponent;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLDTDFilter;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLDTDSource;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentFilter;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentSource;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLEntityResolver;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLParserConfiguration;
-import com.sun.org.apache.xerces.internal.xpointer.XPointerHandler;
-import com.sun.org.apache.xerces.internal.xpointer.XPointerProcessor;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers.XIncludeParserConfiguration;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers.XPointerParserConfiguration;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.AugmentationsImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.HTTPInputSource;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.IntStack;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.ParserConfigurationSettings;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.URI.MalformedURIException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.URI;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLAttributesImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLLocatorWrapper;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLResourceIdentifierImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLSymbols;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityPropertyManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.Augmentations;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLAttributes;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDTDHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDocumentHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLLocator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLString;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponent;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDTDFilter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDTDSource;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentFilter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentSource;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLEntityResolver;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLParserConfiguration;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xpointer.XPointerHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xpointer.XPointerProcessor;
 import java.io.CharConversionException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Enumeration;
-import java.util.List;
-import java.util.Locale;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.Objects;
 import java.util.Stack;
 import java.util.StringTokenizer;
 import javax.xml.XMLConstants;
@@ -82,7 +83,21 @@ import javax.xml.catalog.CatalogResolver;
 import javax.xml.transform.Source;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkXmlUtils;
-import org.xml.sax.InputSource;
+import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>
@@ -163,7 +178,7 @@ public class XIncludeHandler
         new QName(
             XMLSymbols.PREFIX_XML,
             XINCLUDE_BASE,
-            (XMLSymbols.PREFIX_XML + ":" + XINCLUDE_BASE).intern(),
+                (XMLSymbols.PREFIX_XML + ":" + XINCLUDE_BASE),
             NamespaceContext.XML_URI);
 
     // used for adding [language] attributes
@@ -172,7 +187,7 @@ public class XIncludeHandler
         new QName(
             XMLSymbols.PREFIX_XML,
             XINCLUDE_LANG,
-            (XMLSymbols.PREFIX_XML + ":" + XINCLUDE_LANG).intern(),
+                (XMLSymbols.PREFIX_XML + ":" + XINCLUDE_LANG),
             NamespaceContext.XML_URI);
 
     private final static QName NEW_NS_ATTR_QNAME =

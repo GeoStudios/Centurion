@@ -21,16 +21,28 @@
 
 package test.java.time.format;
 
-import static java.time.temporal.ChronoField.OFFSET_SECONDS;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
 
+import static java.time.temporal.ChronoField.OFFSET_SECONDS;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertTrue;.extended
 import java.text.ParsePosition;
 import java.time.ZoneOffset;
 import java.time.temporal.TemporalAccessor;
-
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test ZoneOffsetPrinterParser.

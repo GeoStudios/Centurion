@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jdi.connect;
+package jdk.jdi.share.classes.com.sun.jdi.connect;
 
-import com.sun.jdi.connect.spi.TransportService;
+
+import jdk.jdi.share.classes.com.sun.jdi.connect.spi.TransportService;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This exception may be thrown as a result of a timeout

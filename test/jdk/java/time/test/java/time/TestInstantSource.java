@@ -18,21 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.java.time;
 
-import static java.time.temporal.ChronoUnit.SECONDS;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertSame;
-import static org.testng.Assert.assertTrue;
 
+import static java.time.temporal.ChronoUnit.SECONDS;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertSame;.extended
+import static org.testng.Assert.assertTrue;.extended
 import java.time.Clock;
 import java.time.Duration;
 import java.time.Instant;
 import java.time.InstantSource;
 import java.time.ZoneId;
 import java.time.ZoneOffset;
-
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test instant source.

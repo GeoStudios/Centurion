@@ -19,15 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.OutputStream;
+import java.io.Writer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.serializer;
 
-import java.io.IOException;
-import java.io.OutputStream;
-import java.io.Writer;
+
 
 /**
  * This class wraps the real writer, it only purpose is to send

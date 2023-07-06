@@ -18,22 +18,36 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d.demos.Lines;
+
+package demo.share.jfc.J2Ddemo.java2d.demos.Lines;
 
 
-import static java.awt.BasicStroke.CAP_BUTT;
-import static java.awt.BasicStroke.CAP_ROUND;
-import static java.awt.BasicStroke.CAP_SQUARE;
-import static java.awt.BasicStroke.JOIN_MITER;
-import static java.awt.Color.BLACK;
-import static java.awt.Color.WHITE;
+import static java.awt.BasicStroke.CAP_BUTT;.extended
+import static java.awt.BasicStroke.CAP_ROUND;.extended
+import static java.awt.BasicStroke.CAP_SQUARE;.extended
+import static java.awt.BasicStroke.JOIN_MITER;.extended
+import static java.awt.Color.BLACK;.extended
+import static java.awt.Color.WHITE;.extended
 import java.awt.BasicStroke;
 import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.font.FontRenderContext;
 import java.awt.font.TextLayout;
 import java.awt.geom.Line2D;
-import java2d.Surface;
+import demo.share.jfc.J2Ddemo.java2d.Surface;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
 
 import java.awt.im.spi.*;
 import java.util.*;
@@ -33,12 +34,24 @@ import java.lang.reflect.InvocationTargetException;
 import java.text.AttributedCharacterIterator.Attribute;
 import java.text.*;
 import javax.swing.text.JTextComponent;
+import java.desktop.macosx.classes.sun.awt.AWTAccessor;
+import java.desktop.macosx.classes.sun.awt.im.InputMethodAdapter;
+import java.desktop.macosx.classes.sun.lwawt.*;
+import static java.desktop.macosx.classes.sun.awt.AWTAccessor.ComponentAccessor;.extended
 
-import sun.awt.AWTAccessor;
-import sun.awt.im.InputMethodAdapter;
-import sun.lwawt.*;
 
-import static sun.awt.AWTAccessor.ComponentAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CInputMethod extends InputMethodAdapter {
     private InputMethodContext fIMContext;
@@ -243,8 +256,7 @@ public class CInputMethod extends InputMethodAdapter {
     }
 
     long getNativeViewPtr(LWComponentPeer<?, ?> peer) {
-        if (peer.getPlatformWindow() instanceof CPlatformWindow) {
-            CPlatformWindow platformWindow = (CPlatformWindow) peer.getPlatformWindow();
+        if (peer.getPlatformWindow() instanceof CPlatformWindow platformWindow) {
             CPlatformView platformView = platformWindow.getContentView();
             return platformView.getAWTView();
         } else {

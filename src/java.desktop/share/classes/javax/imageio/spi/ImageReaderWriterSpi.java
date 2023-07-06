@@ -19,20 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.imageio.spi;
+package java.desktop.share.classes.javax.imageio.spi;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Iterator;
-import javax.imageio.ImageReader;
-import javax.imageio.metadata.IIOMetadata;
-import javax.imageio.metadata.IIOMetadataFormat;
-import javax.imageio.metadata.IIOMetadataFormatImpl;
-import javax.imageio.stream.ImageInputStream;
+import java.desktop.share.classes.javax.imageio.ImageReader;
+import java.desktop.share.classes.javax.imageio.metadata.IIOMetadata;
+import java.desktop.share.classes.javax.imageio.metadata.IIOMetadataFormat;
+import java.desktop.share.classes.javax.imageio.metadata.IIOMetadataFormatImpl;
+import java.desktop.share.classes.javax.imageio.stream.ImageInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A superclass containing instance variables and methods common to

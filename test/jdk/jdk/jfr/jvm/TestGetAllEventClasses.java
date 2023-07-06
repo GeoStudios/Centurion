@@ -21,10 +21,23 @@
 
 package jdk.jfr.jvm;
 
+
 import jdk.jfr.Event;
 import jdk.jfr.internal.JVM;
+import java.util.java.util.java.util.java.util.List;
 
-import java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test TestGetAllEventClasses

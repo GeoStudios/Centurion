@@ -19,6 +19,22 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts.superword;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test
@@ -30,7 +46,6 @@
  *      -XX:LoopMaxUnroll=16 compiler.loopopts.superword.CoLocatePackMemoryState
  */
 
-package compiler.loopopts.superword;
 
 public class CoLocatePackMemoryState {
 

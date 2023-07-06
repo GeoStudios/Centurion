@@ -21,7 +21,8 @@
 
 package jdk.test.lib;
 
-import java.util.Arrays;
+
+import java.base.share.classes.java.util.Arrays;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.regex.Pattern;
@@ -29,6 +30,19 @@ import java.util.stream.Collectors;
 import java.security.AccessController;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class OSVersion implements Comparable<OSVersion> {
     public static final OSVersion WINDOWS_95 = new OSVersion(4, 0);

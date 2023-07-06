@@ -21,19 +21,31 @@
 
 package org.openjdk.tests.separate;
 
+
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.ConcurrentHashMap;
 import java.io.*;
 import java.net.URI;
 import javax.tools.*;
-
 import com.sun.source.util.JavacTask;
+import static org.openjdk.tests.separate.SourceModel.Type;.extended
+import static org.openjdk.tests.separate.SourceModel.Class;.extended
+import static org.openjdk.tests.separate.SourceModel.Extends;.extended
+import static org.openjdk.tests.separate.SourceModel.SourceProcessor;.extended
 
-import static org.openjdk.tests.separate.SourceModel.Type;
-import static org.openjdk.tests.separate.SourceModel.Class;
-import static org.openjdk.tests.separate.SourceModel.Extends;
-import static org.openjdk.tests.separate.SourceModel.SourceProcessor;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Compiler {
 

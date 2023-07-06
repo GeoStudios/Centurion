@@ -19,24 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal;
+package java.security.jgss.share.classes.sun.security.krb5.internal;
+
 
 import java.io.ObjectOutputStream;
-import sun.security.krb5.PrincipalName;
-import sun.security.krb5.Checksum;
-import sun.security.krb5.Asn1Exception;
-import sun.security.krb5.Realm;
-import sun.security.krb5.RealmException;
-import sun.security.util.*;
-import java.io.IOException;
+import java.security.jgss.share.classes.sun.security.krb5.PrincipalName;
+import java.security.jgss.share.classes.sun.security.krb5.Checksum;
+import java.security.jgss.share.classes.sun.security.krb5.Asn1Exception;
+import java.security.jgss.share.classes.sun.security.krb5.Realm;
+import java.security.jgss.share.classes.sun.security.krb5.RealmException;
+import java.security.jgss.share.classes.sun.security.util.*;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.math.BigInteger;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Objects;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
+import java.security.jgss.share.classes.sun.security.krb5.internal.util.KerberosString;
 
-import sun.security.krb5.internal.util.KerberosString;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Implements the ASN.1 KRBError type.
  *

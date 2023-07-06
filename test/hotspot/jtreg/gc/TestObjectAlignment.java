@@ -21,6 +21,21 @@
 
 package gc;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestObjectAlignment
  * @bug 8021823

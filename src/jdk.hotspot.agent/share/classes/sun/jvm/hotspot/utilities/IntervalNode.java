@@ -19,11 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.utilities;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
+
+
+import java.util.Comparator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Derived from the example in Section 15.3 of CLR. */
 
-import java.util.Comparator;
 
 public class IntervalNode extends RBNode {
   private Interval   interval;

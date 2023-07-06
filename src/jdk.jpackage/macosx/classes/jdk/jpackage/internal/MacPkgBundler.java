@@ -19,34 +19,48 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jpackage.internal;
+package jdk.jpackage.macosx.classes.jdk.jpackage.internal;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.text.MessageFormat;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.util.ResourceBundle;
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.CONFIG_ROOT;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.TEMP_ROOT;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.VERBOSE;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.APP_NAME;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.LICENSE_FILE;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.VERSION;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.MacBaseInstallerBundler.SIGNING_KEYCHAIN;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.MacBaseInstallerBundler.SIGNING_KEY_USER;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.MacAppImageBuilder.APP_STORE;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.MacAppImageBuilder.MAC_CF_BUNDLE_IDENTIFIER;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.OverridableResource.createResource;.extended
 
-import static jdk.jpackage.internal.StandardBundlerParam.CONFIG_ROOT;
-import static jdk.jpackage.internal.StandardBundlerParam.TEMP_ROOT;
-import static jdk.jpackage.internal.StandardBundlerParam.VERBOSE;
-import static jdk.jpackage.internal.StandardBundlerParam.APP_NAME;
-import static jdk.jpackage.internal.StandardBundlerParam.LICENSE_FILE;
-import static jdk.jpackage.internal.StandardBundlerParam.VERSION;
-import static jdk.jpackage.internal.MacBaseInstallerBundler.SIGNING_KEYCHAIN;
-import static jdk.jpackage.internal.MacBaseInstallerBundler.SIGNING_KEY_USER;
-import static jdk.jpackage.internal.MacAppImageBuilder.APP_STORE;
-import static jdk.jpackage.internal.MacAppImageBuilder.MAC_CF_BUNDLE_IDENTIFIER;
-import static jdk.jpackage.internal.OverridableResource.createResource;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MacPkgBundler extends MacBaseInstallerBundler {
 

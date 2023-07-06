@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.beans;
+package java.desktop.share.classes.java.beans;
 
-import java.applet.Applet;
 
-import java.beans.beancontext.BeanContext;
+import java.desktop.share.classes.java.applet.Applet;
+import java.desktop.share.classes.java.beans.beancontext.BeanContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface is designed to work in collusion with java.beans.Beans.instantiate.

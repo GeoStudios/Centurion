@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.operators;
+
 
 import java.awt.Component;
 import java.awt.Container;
@@ -27,7 +29,6 @@ import java.awt.Point;
 import java.awt.Rectangle;
 import java.beans.PropertyVetoException;
 import java.util.Hashtable;
-
 import javax.swing.Icon;
 import javax.swing.JDesktopPane;
 import javax.swing.JInternalFrame;
@@ -36,9 +37,8 @@ import javax.swing.JLayeredPane;
 import javax.swing.JMenuBar;
 import javax.swing.JScrollPane;
 import javax.swing.UIManager;
-import javax.swing.event.InternalFrameListener;
+import javax.swing.event.InternalFramejava.util.Listener;
 import javax.swing.plaf.InternalFrameUI;
-
 import org.netbeans.jemmy.ComponentChooser;
 import org.netbeans.jemmy.ComponentSearcher;
 import org.netbeans.jemmy.JemmyInputException;
@@ -55,6 +55,19 @@ import org.netbeans.jemmy.drivers.WindowDriver;
 import org.netbeans.jemmy.util.EmptyVisualizer;
 import org.netbeans.jemmy.util.LookAndFeel;
 import org.netbeans.jemmy.util.Platform;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class provides necessary functionality to operate with

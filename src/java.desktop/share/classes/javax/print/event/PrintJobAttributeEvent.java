@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.print.event;
+package java.desktop.share.classes.javax.print.event;
+
 
 import java.io.Serial;
+import java.desktop.share.classes.javax.print.DocPrintJob;
+import java.desktop.share.classes.javax.print.attribute.AttributeSetUtilities;
+import java.desktop.share.classes.javax.print.attribute.PrintJobAttributeSet;
 
-import javax.print.DocPrintJob;
-import javax.print.attribute.AttributeSetUtilities;
-import javax.print.attribute.PrintJobAttributeSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class {@code PrintJobAttributeEvent} encapsulates an event a

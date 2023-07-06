@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.bench.java.util.stream.ops.ref;
+
 
 import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.BenchmarkMode;
@@ -28,10 +30,22 @@ import org.openjdk.jmh.annotations.Param;
 import org.openjdk.jmh.annotations.Scope;
 import org.openjdk.jmh.annotations.Setup;
 import org.openjdk.jmh.annotations.State;
-
 import java.util.concurrent.TimeUnit;
 import java.util.function.BinaryOperator;
 import java.util.stream.LongStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Benchmark for reduce()-base operation.

@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.whitebox;
+
+
+import jdk.test.lib.Asserts;
+import sun.hotspot.code.BlobType;
+import java.util.EnumSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8059624 8064669 8153265
@@ -39,12 +59,8 @@
  *                   compiler.whitebox.ForceNMethodSweepTest
  */
 
-package compiler.whitebox;
 
-import jdk.test.lib.Asserts;
-import sun.hotspot.code.BlobType;
 
-import java.util.EnumSet;
 
 public class ForceNMethodSweepTest extends CompilerWhiteBoxTest {
     public static void main(String[] args) throws Exception {

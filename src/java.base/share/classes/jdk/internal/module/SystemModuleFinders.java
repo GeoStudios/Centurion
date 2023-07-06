@@ -18,12 +18,14 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.module;
+
+package java.base.share.classes.jdk.internal.module;
+
 
 import java.io.ByteArrayInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
-import java.io.UncheckedIOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.lang.module.ModuleDescriptor;
 import java.lang.module.ModuleFinder;
 import java.lang.module.ModuleReader;
@@ -43,7 +45,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
 import java.util.Spliterator;
@@ -51,14 +53,27 @@ import java.util.function.Consumer;
 import java.util.function.Supplier;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
+import java.base.share.classes.jdk.internal.jimage.ImageLocation;
+import java.base.share.classes.jdk.internal.jimage.ImageReader;
+import java.base.share.classes.jdk.internal.jimage.ImageReaderFactory;
+import java.base.share.classes.jdk.internal.access.JavaNetUriAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.util.StaticProperty;
+import java.base.share.classes.jdk.internal.module.ModuleHashes.HashSupplier;
 
-import jdk.internal.jimage.ImageLocation;
-import jdk.internal.jimage.ImageReader;
-import jdk.internal.jimage.ImageReaderFactory;
-import jdk.internal.access.JavaNetUriAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.util.StaticProperty;
-import jdk.internal.module.ModuleHashes.HashSupplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The factory for SystemModules objects and for creating ModuleFinder objects

@@ -21,7 +21,21 @@
 
 package jdk.test.lib.security;
 
-import java.util.List;
+
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class JDKSecurityProperties {
 

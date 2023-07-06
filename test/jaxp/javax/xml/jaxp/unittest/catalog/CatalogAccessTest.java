@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package catalog;
+
 
 import java.net.URI;
 import javax.xml.catalog.CatalogFeatures;
@@ -26,10 +28,23 @@ import javax.xml.catalog.CatalogManager;
 import javax.xml.catalog.CatalogResolver;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.InputSource;
-import static jaxp.library.JAXPTestUtilities.tryRunWithAllPerm;
+import static jaxp.library.JAXPTestUtilities.tryRunWithAllPerm;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

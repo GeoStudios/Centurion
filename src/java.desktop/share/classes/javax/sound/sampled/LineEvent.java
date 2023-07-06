@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.sound.sampled;
+package java.desktop.share.classes.javax.sound.sampled;
+
 
 import java.io.Serial;
 import java.util.EventObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code LineEvent} class encapsulates information that a line sends its

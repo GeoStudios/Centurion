@@ -19,21 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider;
+package java.base.share.classes.sun.security.provider;
+
 
 import java.io.*;
 import java.math.BigInteger;
-import java.security.InvalidKeyException;
+import java.base.share.classes.java.security.InvalidKeyException;
 import java.security.AlgorithmParameters;
 import java.security.spec.DSAParameterSpec;
 import java.security.spec.InvalidParameterSpecException;
 import java.security.interfaces.DSAParams;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.sun.security.x509.AlgIdDSA;
+import java.base.share.classes.sun.security.pkcs.PKCS8Key;
+import java.base.share.classes.sun.security.util.DerValue;
+import java.base.share.classes.sun.security.util.DerInputStream;
 
-import sun.security.x509.AlgIdDSA;
-import sun.security.pkcs.PKCS8Key;
-import sun.security.util.DerValue;
-import sun.security.util.DerInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A PKCS#8 private key for the Digital Signature Algorithm.

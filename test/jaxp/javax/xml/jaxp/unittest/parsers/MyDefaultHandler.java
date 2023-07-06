@@ -21,10 +21,24 @@
 
 package parsers;
 
+
 import org.xml.sax.Attributes;
 import org.xml.sax.Locator;
 import org.xml.sax.ext.Locator2;
 import org.xml.sax.helpers.DefaultHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MyDefaultHandler extends DefaultHandler {
 

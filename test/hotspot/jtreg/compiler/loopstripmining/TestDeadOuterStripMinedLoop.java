@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopstripmining;
+
+
+import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8235452
@@ -28,9 +46,7 @@
  *                   compiler.loopstripmining.TestDeadOuterStripMinedLoop
  */
 
-package compiler.loopstripmining;
 
-import jdk.test.lib.Asserts;
 
 public class TestDeadOuterStripMinedLoop {
 

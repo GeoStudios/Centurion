@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package util;
+
 
 import java.io.FilePermission;
 import java.lang.reflect.ReflectPermission;
@@ -35,6 +37,19 @@ import java.util.Enumeration;
 import java.util.PropertyPermission;
 import java.util.StringJoiner;
 import java.util.logging.LoggingPermission;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Simple Policy class that supports the required Permissions to validate the

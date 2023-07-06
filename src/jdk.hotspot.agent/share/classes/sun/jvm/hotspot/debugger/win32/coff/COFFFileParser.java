@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.win32.coff;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
+
 
 import java.io.*;
 import java.nio.*;
 import java.nio.channels.*;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.memo.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Assert;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.DataSource;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.MappedByteBufferDataSource;
 
-import sun.jvm.hotspot.utilities.memo.*;
-import sun.jvm.hotspot.utilities.Assert;
-import sun.jvm.hotspot.debugger.DataSource;
-import sun.jvm.hotspot.debugger.MappedByteBufferDataSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Top-level factory which parses COFF files, including object files,
     Portable Executables and DLLs. Returns {@link
@@ -3384,7 +3398,7 @@ public class COFFFileParser {
           } else {
             int length = 0;
             // find last non-NULL
-            for (; length < tmpName.length && tmpName[length] != '\0';) {
+            while (length < tmpName.length && tmpName[length] != '\0') {
               length++;
             }
             // don't include NULL chars in returned name String

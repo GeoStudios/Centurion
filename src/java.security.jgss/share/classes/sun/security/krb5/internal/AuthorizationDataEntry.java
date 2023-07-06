@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal;
+package java.security.jgss.share.classes.sun.security.krb5.internal;
 
-import sun.security.util.*;
-import java.io.IOException;
-import sun.security.krb5.Asn1Exception;
-import sun.security.krb5.internal.ccache.CCacheOutputStream;
+
+import java.security.jgss.share.classes.sun.security.util.*;
+import java.io.java.io.java.io.java.io.IOException;
+import java.security.jgss.share.classes.sun.security.krb5.Asn1Exception;
+import java.security.jgss.share.classes.sun.security.krb5.internal.ccache.CCacheOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AuthorizationDataEntry implements Cloneable {
 

@@ -19,27 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal.ccache;
+package java.security.jgss.share.classes.sun.security.krb5.internal.ccache;
 
-import sun.security.action.GetPropertyAction;
-import sun.security.krb5.*;
-import sun.security.krb5.internal.*;
-import sun.security.util.SecurityProperties;
 
+import java.security.jgss.share.classes.sun.security.action.GetPropertyAction;
+import java.security.jgss.share.classes.sun.security.krb5.*;
+import java.security.jgss.share.classes.sun.security.krb5.internal.*;
+import java.security.jgss.share.classes.sun.security.util.SecurityProperties;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.StringTokenizer;
 import java.util.Vector;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import static java.nio.charset.StandardCharsets.ISO_8859_1;.extended
 
-import static java.nio.charset.StandardCharsets.ISO_8859_1;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * CredentialsCache stores credentials(tickets, session keys, etc) in a

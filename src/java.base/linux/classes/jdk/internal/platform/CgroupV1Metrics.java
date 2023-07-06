@@ -19,7 +19,9 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.platform;
+package java.base.linux.classes.jdk.internal.platform;
+
+import java.base.share.classes.jdk.internal.platform.Metrics;
 
 /**
  *

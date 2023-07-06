@@ -19,13 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.security.cert;
+package java.base.share.classes.java.security.cert;
 
-import java.util.*;
 
+import java.base.share.classes.java.util.*;
 import sun.security.provider.certpath.CertPathHelper;
-
 import sun.security.x509.GeneralNameInterface;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper class that allows the Sun CertPath provider to access

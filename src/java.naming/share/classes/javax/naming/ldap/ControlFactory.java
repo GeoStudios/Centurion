@@ -19,15 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.naming.ldap;
+package java.naming.share.classes.javax.naming.ldap;
 
-import javax.naming.NamingException;
-import javax.naming.Context;
 
+import java.naming.share.classes.javax.naming.NamingException;
+import java.naming.share.classes.javax.naming.Context;
 import java.util.Hashtable;
-
 import com.sun.naming.internal.FactoryEnumeration;
 import com.sun.naming.internal.ResourceManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

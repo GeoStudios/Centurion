@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.cdbg.basic;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.basic;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Type-safe enum for discriminating between classes, structs and
     unions, which are all represented as compound types */

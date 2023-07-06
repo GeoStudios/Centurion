@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.tools.jlink.internal;
+package jdk.jlink.share.classes.jdk.tools.jlink.internal;
 
-import jdk.internal.jimage.ImageLocation;
-import jdk.internal.jimage.ImageStream;
-import jdk.internal.jimage.ImageStringsReader;
+
+import jdk.jlink.share.classes.jdk.internal.jimage.ImageLocation;
+import jdk.jlink.share.classes.jdk.internal.jimage.ImageStream;
+import jdk.jlink.share.classes.jdk.internal.jimage.ImageStringsReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class ImageLocationWriter extends ImageLocation {
     private int locationOffset;

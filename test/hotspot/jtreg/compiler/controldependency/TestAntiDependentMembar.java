@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.controldependency;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8228772
@@ -32,7 +49,6 @@
  *                   compiler.controldependency.TestAntiDependentMembar
  */
 
-package compiler.controldependency;
 
 public class TestAntiDependentMembar {
 

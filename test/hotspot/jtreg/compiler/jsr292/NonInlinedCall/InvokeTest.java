@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jsr292.NonInlinedCall;
+
+
+import jdk.internal.vm.annotation.DontInline;
+import sun.hotspot.WhiteBox;
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandleHelper;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+import static jdk.test.lib.Asserts.assertEquals;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8072008
@@ -34,17 +58,9 @@
  *                                 compiler.jsr292.NonInlinedCall.InvokeTest
  */
 
-package compiler.jsr292.NonInlinedCall;
 
-import jdk.internal.vm.annotation.DontInline;
-import sun.hotspot.WhiteBox;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandleHelper;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodType;
 
-import static jdk.test.lib.Asserts.assertEquals;
 
 public class InvokeTest {
     static MethodHandles.Lookup LOOKUP = MethodHandleHelper.IMPL_LOOKUP;

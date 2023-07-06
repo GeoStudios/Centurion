@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.net;
+
+package java.base.windows.classes.sun.net;
+
 
 import java.net.InetAddress;
 import java.io.FileDescriptor;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines static methods to ensure that any installed net hooks are invoked

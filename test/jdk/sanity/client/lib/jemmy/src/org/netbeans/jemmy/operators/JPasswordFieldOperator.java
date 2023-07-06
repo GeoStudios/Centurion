@@ -18,15 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.operators;
+
 
 import java.awt.Container;
 import java.util.Hashtable;
-
 import javax.swing.JPasswordField;
-
 import org.netbeans.jemmy.ComponentChooser;
 import org.netbeans.jemmy.TimeoutExpiredException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <BR><BR>Timeouts used: <BR>

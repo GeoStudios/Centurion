@@ -19,35 +19,49 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
-import java.util.List;
-import java.util.NavigableSet;
-import java.util.ArrayList;
-import java.util.Objects;
-import java.util.Scanner;
-import java.io.File;
-import java.io.ObjectStreamException;
-import java.io.ObjectStreamField;
-import java.io.IOException;
-import java.io.InvalidObjectException;
-import java.io.ObjectInputStream;
-import java.io.ObjectInputStream.GetField;
-import java.io.ObjectOutputStream;
-import java.io.ObjectOutputStream.PutField;
-import java.lang.annotation.Native;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
-import java.util.concurrent.ConcurrentSkipListSet;
-import java.util.concurrent.atomic.AtomicLong;
-import java.util.Arrays;
 
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.NavigableSet;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Scanner;
+import java.base.share.classes.java.io.File;
+import java.base.share.classes.java.io.ObjectStreamException;
+import java.base.share.classes.java.io.ObjectStreamField;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.InvalidObjectException;
+import java.base.share.classes.java.io.ObjectInputStream;
+import java.base.share.classes.java.io.ObjectInputStream.GetField;
+import java.base.share.classes.java.io.ObjectOutputStream;
+import java.base.share.classes.java.io.ObjectOutputStream.PutField;
+import java.base.share.classes.java.lang.annotation.Native;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.concurrent.ConcurrentMap;
+import java.base.share.classes.java.util.concurrent.ConcurrentSkipjava.util.ListSet;
+import java.base.share.classes.java.util.concurrent.atomic.AtomicLong;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
 import jdk.internal.access.JavaNetInetAddressAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import sun.security.action.*;
 import sun.net.InetAddressCachePolicy;
 import sun.net.util.IPAddressUtil;
 import sun.nio.cs.UTF_8;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents an Internet Protocol (IP) address.

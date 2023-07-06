@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jdi;
+package jdk.jdi.share.classes.com.sun.jdi;
 
-import java.io.IOException;
-import java.util.List;
 
-import com.sun.jdi.connect.AttachingConnector;
-import com.sun.jdi.connect.Connector;
-import com.sun.jdi.connect.LaunchingConnector;
-import com.sun.jdi.connect.ListeningConnector;
-import com.sun.jdi.connect.Transport;
-import com.sun.jdi.connect.spi.Connection;
-import com.sun.jdi.connect.spi.TransportService;
-import com.sun.jdi.event.VMDisconnectEvent;
-import com.sun.jdi.event.VMStartEvent;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.java.util.java.util.java.util.List;
+import jdk.jdi.share.classes.com.sun.jdi.connect.AttachingConnector;
+import jdk.jdi.share.classes.com.sun.jdi.connect.Connector;
+import jdk.jdi.share.classes.com.sun.jdi.connect.LaunchingConnector;
+import jdk.jdi.share.classes.com.sun.jdi.connect.java.util.ListeningConnector;
+import jdk.jdi.share.classes.com.sun.jdi.connect.Transport;
+import jdk.jdi.share.classes.com.sun.jdi.connect.spi.Connection;
+import jdk.jdi.share.classes.com.sun.jdi.connect.spi.TransportService;
+import jdk.jdi.share.classes.com.sun.jdi.event.VMDisconnectEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.VMStartEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A manager of connections to target virtual machines. The

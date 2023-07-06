@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.plaf.synth;
+
+package java.desktop.share.classes.javax.swing.plaf.synth;
+
 
 import sun.swing.DefaultLookup;
-import javax.swing.JComponent;
-import javax.swing.plaf.ComponentUI;
+import java.desktop.share.classes.javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * SynthDefaultLookup redirects all lookup calls to the SynthContext.

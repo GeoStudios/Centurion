@@ -18,15 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.awt;
 
-import java.awt.event.*;
-import java.lang.reflect.Array;
-import java.util.EventListener;
-import java.io.Serializable;
-import java.io.ObjectOutputStream;
-import java.io.IOException;
-import java.util.EventListener;
+package java.desktop.share.classes.java.awt;
+
+
+import java.desktop.share.classes.java.awt.event.*;
+import java.desktop.share.classes.java.lang.reflect.Array;
+import java.desktop.share.classes.java.util.Eventjava.util.Listener;
+import java.desktop.share.classes.java.io.Serializable;
+import java.desktop.share.classes.java.io.ObjectOutputStream;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.util.Eventjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

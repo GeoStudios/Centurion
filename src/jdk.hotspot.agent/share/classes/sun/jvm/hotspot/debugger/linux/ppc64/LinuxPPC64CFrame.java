@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.linux.ppc64;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.linux.ppc64;
 
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.debugger.ppc64.*;
-import sun.jvm.hotspot.debugger.linux.*;
-import sun.jvm.hotspot.debugger.cdbg.*;
-import sun.jvm.hotspot.debugger.cdbg.basic.*;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.ppc64.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.linux.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.basic.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final public class LinuxPPC64CFrame extends BasicCFrame {
   // package/class internals only

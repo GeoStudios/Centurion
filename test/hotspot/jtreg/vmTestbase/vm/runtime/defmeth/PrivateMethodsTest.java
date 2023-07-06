@@ -19,6 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.runtime.defmeth;
+
+
+import java.util.Set;
+import vm.runtime.defmeth.shared.DefMethTest;
+import vm.runtime.defmeth.shared.annotation.NotApplicableFor;
+import vm.runtime.defmeth.shared.builder.TestBuilder;
+import vm.runtime.defmeth.shared.data.*;
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_SYNCHRONIZED;.extended
+import static vm.runtime.defmeth.shared.data.method.body.CallMethod.Invoke.*;.extended
+import static vm.runtime.defmeth.shared.data.method.body.CallMethod.IndexbyteOp.*;.extended
+import static vm.runtime.defmeth.shared.ExecutionMode.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -34,19 +60,9 @@
  *      -javaagent:retransform.jar
  *      vm.runtime.defmeth.PrivateMethodsTest
  */
-package vm.runtime.defmeth;
 
-import java.util.Set;
 
-import vm.runtime.defmeth.shared.DefMethTest;
-import vm.runtime.defmeth.shared.annotation.NotApplicableFor;
-import vm.runtime.defmeth.shared.builder.TestBuilder;
-import vm.runtime.defmeth.shared.data.*;
 
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_SYNCHRONIZED;
-import static vm.runtime.defmeth.shared.data.method.body.CallMethod.Invoke.*;
-import static vm.runtime.defmeth.shared.data.method.body.CallMethod.IndexbyteOp.*;
-import static vm.runtime.defmeth.shared.ExecutionMode.*;
 
 /**
  * Scenarios on private methods in interfaces.

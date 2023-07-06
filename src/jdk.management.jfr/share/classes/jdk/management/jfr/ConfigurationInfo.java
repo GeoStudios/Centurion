@@ -19,17 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.management.jfr;
+package jdk.management.jfr.share.classes.jdk.management.jfr;
+
 
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
-
 import javax.management.openmbean.CompositeData;
 import javax.management.openmbean.TabularData;
+import jdk.management.jfr.share.classes.jdk.jfr.Configuration;
 
-import jdk.jfr.Configuration;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

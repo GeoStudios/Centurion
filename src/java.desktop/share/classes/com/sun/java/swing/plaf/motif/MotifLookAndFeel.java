@@ -19,12 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.motif;
+package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.event.KeyEvent;
 
+import java.desktop.share.classes.com.sun.java.awt.Color;
+import java.desktop.share.classes.com.sun.java.awt.Font;
+import java.desktop.share.classes.com.sun.java.awt.event.KeyEvent;
 import javax.swing.JTextField;
 import javax.swing.UIDefaults;
 import javax.swing.border.Border;
@@ -35,9 +35,22 @@ import javax.swing.plaf.InsetsUIResource;
 import javax.swing.plaf.basic.BasicBorders;
 import javax.swing.plaf.basic.BasicLookAndFeel;
 import javax.swing.text.DefaultEditorKit;
+import java.desktop.share.classes.com.sun.swing.SwingAccessor;
+import java.desktop.share.classes.com.sun.swing.SwingUtilities2;
 
-import sun.swing.SwingAccessor;
-import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements the Motif Look and Feel.

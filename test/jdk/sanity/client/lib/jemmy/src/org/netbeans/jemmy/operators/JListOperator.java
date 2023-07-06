@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.operators;
+
 
 import java.awt.Color;
 import java.awt.Component;
@@ -28,15 +30,13 @@ import java.awt.Point;
 import java.awt.Rectangle;
 import java.util.Hashtable;
 import java.util.Vector;
-
-import javax.swing.JList;
+import javax.swing.Jjava.util.java.util.java.util.List;
 import javax.swing.JScrollPane;
-import javax.swing.ListCellRenderer;
-import javax.swing.ListModel;
-import javax.swing.ListSelectionModel;
-import javax.swing.event.ListSelectionListener;
-import javax.swing.plaf.ListUI;
-
+import javax.swing.java.util.ListCellRenderer;
+import javax.swing.java.util.ListModel;
+import javax.swing.java.util.ListSelectionModel;
+import javax.swing.event.java.util.ListSelectionjava.util.Listener;
+import javax.swing.plaf.java.util.ListUI;
 import org.netbeans.jemmy.ComponentChooser;
 import org.netbeans.jemmy.ComponentSearcher;
 import org.netbeans.jemmy.JemmyInputException;
@@ -45,8 +45,21 @@ import org.netbeans.jemmy.QueueTool;
 import org.netbeans.jemmy.TestOut;
 import org.netbeans.jemmy.TimeoutExpiredException;
 import org.netbeans.jemmy.drivers.DriverManager;
-import org.netbeans.jemmy.drivers.MultiSelListDriver;
+import org.netbeans.jemmy.drivers.MultiSeljava.util.ListDriver;
 import org.netbeans.jemmy.util.EmptyVisualizer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <BR><BR>Timeouts used: <BR>

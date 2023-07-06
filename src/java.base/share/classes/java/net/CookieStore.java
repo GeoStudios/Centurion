@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
-import java.util.List;
-import java.util.Map;
+
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A CookieStore object represents a storage for cookie. Can store and retrieve

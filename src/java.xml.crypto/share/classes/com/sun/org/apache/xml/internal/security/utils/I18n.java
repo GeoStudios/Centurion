@@ -19,15 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils;
+
+
+import java.text.MessageFormat;
+import java.base.share.classes.java.util.Locale;
+import java.util.ResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.utils;
 
-import java.text.MessageFormat;
-import java.util.Locale;
-import java.util.ResourceBundle;
+
 
 /**
  * The Internationalization (I18N) pack.

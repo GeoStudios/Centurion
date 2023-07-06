@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
-import java.net.*;
-import java.util.Formatter;
-import java.util.Locale;
+
+import java.base.share.classes.java.net.*;
+import java.base.share.classes.java.util.Formatter;
+import java.base.share.classes.java.util.Locale;
 import sun.net.util.IPAddressUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Parses a string containing a host/domain name and port range

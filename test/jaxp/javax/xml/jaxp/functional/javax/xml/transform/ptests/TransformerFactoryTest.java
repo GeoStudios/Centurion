@@ -18,21 +18,21 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package javax.xml.transform.ptests;
 
-import static javax.xml.transform.ptests.TransformerTestConst.GOLDEN_DIR;
-import static javax.xml.transform.ptests.TransformerTestConst.XML_DIR;
-import static jaxp.library.JAXPTestUtilities.USER_DIR;
-import static jaxp.library.JAXPTestUtilities.compareWithGold;
-import static org.testng.Assert.assertNotNull;
-import static org.testng.Assert.assertTrue;
-import static org.testng.Assert.assertNotSame;
-import static org.testng.Assert.assertSame;
-import static org.testng.Assert.assertEquals;
 
+import static javax.xml.transform.ptests.TransformerTestConst.GOLDEN_DIR;.extended
+import static javax.xml.transform.ptests.TransformerTestConst.XML_DIR;.extended
+import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
+import static jaxp.library.JAXPTestUtilities.compareWithGold;.extended
+import static org.testng.Assert.assertNotNull;.extended
+import static org.testng.Assert.assertTrue;.extended
+import static org.testng.Assert.assertNotSame;.extended
+import static org.testng.Assert.assertSame;.extended
+import static org.testng.Assert.assertEquals;.extended
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.transform.Source;
@@ -42,13 +42,24 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.TransformerFactoryConfigurationError;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
-
 import jaxp.library.JAXPDataProvider;
-
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.Document;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class containing the test cases for TransformerFactory API's

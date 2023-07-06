@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.colorchooser;
+package java.desktop.share.classes.javax.swing.colorchooser;
 
-import javax.swing.JComponent;
-import javax.swing.JSlider;
-import javax.swing.JSpinner;
-import javax.swing.JSpinner.DefaultEditor;
-import javax.swing.SpinnerNumberModel;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
+
+import java.desktop.share.classes.javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.JSlider;
+import java.desktop.share.classes.javax.swing.JSpinner;
+import java.desktop.share.classes.javax.swing.JSpinner.DefaultEditor;
+import java.desktop.share.classes.javax.swing.SpinnerNumberModel;
+import java.desktop.share.classes.javax.swing.event.ChangeEvent;
+import java.desktop.share.classes.javax.swing.event.Changejava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class SlidingSpinner implements ChangeListener {
 

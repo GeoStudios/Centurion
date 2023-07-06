@@ -19,28 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.module;
+package java.base.share.classes.java.lang.module;
 
-import java.io.PrintStream;
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Deque;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Objects;
-import java.util.Optional;
-import java.util.Set;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
+import java.base.share.classes.java.io.PrintStream;
+import java.base.share.classes.java.util.ArrayDeque;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Collection;
+import java.base.share.classes.java.util.Collections;
+import java.base.share.classes.java.util.Deque;
+import java.base.share.classes.java.util.HashSet;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.Map.Entry;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Optional;
+import java.base.share.classes.java.util.Set;
+import java.base.share.classes.java.util.stream.Collectors;
+import java.base.share.classes.java.util.stream.Stream;
 import jdk.internal.misc.CDS;
 import jdk.internal.module.ModuleReferenceImpl;
 import jdk.internal.module.ModuleTarget;
 import jdk.internal.vm.annotation.Stable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A configuration that is the result of <a href="package-summary.html#resolution">

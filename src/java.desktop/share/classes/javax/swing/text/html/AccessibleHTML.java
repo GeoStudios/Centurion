@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.text.html;
+package java.desktop.share.classes.javax.swing.text.html;
+
 
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.*;
 import java.util.*;
-import javax.swing.*;
-import javax.swing.event.*;
-import javax.swing.text.*;
-import javax.accessibility.*;
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.event.*;
+import java.desktop.share.classes.javax.swing.text.*;
+import java.desktop.share.classes.javax.accessibility.*;
 import java.text.BreakIterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * The AccessibleHTML class provide information about the contents

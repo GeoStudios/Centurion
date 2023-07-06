@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package util;
+
 
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -28,6 +30,19 @@ import java.sql.SQLException;
 import java.sql.SQLXML;
 import javax.xml.transform.Result;
 import javax.xml.transform.Source;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class StubSQLXML implements SQLXML{
 

@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.hotspot;
 
-import jdk.vm.ci.code.InstalledCode;
-import jdk.vm.ci.code.InvalidInstalledCodeException;
-import jdk.vm.ci.meta.ResolvedJavaMethod;
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
+
+
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.code.InstalledCode;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.code.InvalidInstalledCodeException;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.ResolvedJavaMethod;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of {@link InstalledCode} for code installed as a {@code RuntimeStub}. The address

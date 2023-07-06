@@ -18,11 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package vm.share.monitoring.data;
+
 
 import java.lang.management.*;
 import javax.management.*;
 import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MemoryManagerData implements MemoryManagerMXBean, Serializable {
         private String[] memoryPoolNames;

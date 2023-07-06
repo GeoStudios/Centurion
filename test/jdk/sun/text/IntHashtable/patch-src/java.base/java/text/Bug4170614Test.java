@@ -19,13 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.text;
+
+
+import sun.text.IntHashtable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
     (this test doesn't have an at-test tag because it's run by Bug4170614TestRun.java
      instead of directly by the test harness)
 */
 
-package java.text;
-import sun.text.IntHashtable;
 
 
 /**

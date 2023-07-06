@@ -21,22 +21,35 @@
 
 package org.openjdk.tests.vm;
 
+
 import org.openjdk.tests.separate.Compiler;
 import org.openjdk.tests.separate.TestHarness;
 import org.testng.annotations.Test;
+import static org.openjdk.tests.separate.SourceModel.AbstractMethod;.extended
+import static org.openjdk.tests.separate.SourceModel.AccessFlag;.extended
+import static org.openjdk.tests.separate.SourceModel.Class;.extended
+import static org.openjdk.tests.separate.SourceModel.ConcreteMethod;.extended
+import static org.openjdk.tests.separate.SourceModel.DefaultMethod;.extended
+import static org.openjdk.tests.separate.SourceModel.Extends;.extended
+import static org.openjdk.tests.separate.SourceModel.Interface;.extended
+import static org.openjdk.tests.separate.SourceModel.MethodParameter;.extended
+import static org.openjdk.tests.separate.SourceModel.TypeParameter;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertNotNull;.extended
+import static org.testng.Assert.fail;.extended
 
-import static org.openjdk.tests.separate.SourceModel.AbstractMethod;
-import static org.openjdk.tests.separate.SourceModel.AccessFlag;
-import static org.openjdk.tests.separate.SourceModel.Class;
-import static org.openjdk.tests.separate.SourceModel.ConcreteMethod;
-import static org.openjdk.tests.separate.SourceModel.DefaultMethod;
-import static org.openjdk.tests.separate.SourceModel.Extends;
-import static org.openjdk.tests.separate.SourceModel.Interface;
-import static org.openjdk.tests.separate.SourceModel.MethodParameter;
-import static org.openjdk.tests.separate.SourceModel.TypeParameter;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertNotNull;
-import static org.testng.Assert.fail;
+
+
+
+
+
+
+
+
+
+
+
+
 
 @Test(groups = "vm")
 public class DefaultMethodsTest extends TestHarness {

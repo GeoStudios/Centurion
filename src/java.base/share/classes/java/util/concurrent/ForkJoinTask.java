@@ -19,6 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.java.util.concurrent;
+
+
+import java.base.share.classes.java.io.Serializable;
+import java.base.share.classes.java.lang.invoke.MethodHandles;
+import java.base.share.classes.java.lang.invoke.VarHandle;
+import java.base.share.classes.java.lang.reflect.Constructor;
+import java.base.share.classes.java.util.Collection;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.RandomAccess;
+import java.base.share.classes.java.util.concurrent.locks.LockSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -30,16 +56,8 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent;
 
-import java.io.Serializable;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.VarHandle;
-import java.lang.reflect.Constructor;
-import java.util.Collection;
-import java.util.List;
-import java.util.RandomAccess;
-import java.util.concurrent.locks.LockSupport;
+
 
 /**
  * Abstract base class for tasks that run within a {@link ForkJoinPool}.
@@ -789,13 +807,10 @@ public abstract class ForkJoinTask<V> implements Future<V>, Serializable {
      * @throws NullPointerException if tasks or any element are null
      */
     public static <T extends ForkJoinTask<?>> Collection<T> invokeAll(Collection<T> tasks) {
-        if (!(tasks instanceof RandomAccess) || !(tasks instanceof List<?>)) {
+        if (!(tasks instanceof RandomAccess) || !(tasks instanceof @SuppressWarnings("unchecked")List<? extends ForkJoinTask<?>> ts)) {
             invokeAll(tasks.toArray(new ForkJoinTask<?>[0]));
             return tasks;
         }
-        @SuppressWarnings("unchecked")
-        List<? extends ForkJoinTask<?>> ts =
-            (List<? extends ForkJoinTask<?>>) tasks;
         Throwable ex = null;
         int last = ts.size() - 1;  // nearly same as array version
         for (int i = last; i >= 0; --i) {

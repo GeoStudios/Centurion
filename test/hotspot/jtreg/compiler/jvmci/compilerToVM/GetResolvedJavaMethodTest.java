@@ -19,7 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
- /*
+package compiler.jvmci.compilerToVM;
+
+
+import jdk.internal.misc.Unsafe;
+import jdk.test.lib.Asserts;
+import jdk.vm.ci.hotspot.CompilerToVMHelper;
+import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
+import jdk.vm.ci.hotspot.PublicMetaspaceWrapperObject;
+import sun.hotspot.WhiteBox;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
  * @test
  * @bug 8136421
  * @requires vm.jvmci
@@ -40,17 +65,8 @@
  *                   compiler.jvmci.compilerToVM.GetResolvedJavaMethodTest
  */
 
-package compiler.jvmci.compilerToVM;
 
-import jdk.internal.misc.Unsafe;
-import jdk.test.lib.Asserts;
-import jdk.vm.ci.hotspot.CompilerToVMHelper;
-import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
-import jdk.vm.ci.hotspot.PublicMetaspaceWrapperObject;
-import sun.hotspot.WhiteBox;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
 
 public class GetResolvedJavaMethodTest {
     private static enum TestCase {

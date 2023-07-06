@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.w3c.dom.xpath;
+package jdk.xml.dom.share.classes.org.w3c.dom.xpath;
 
 
-import org.w3c.dom.Node;
-import org.w3c.dom.DOMException;
+import jdk.xml.dom.share.classes.org.w3c.dom.Node;
+import jdk.xml.dom.share.classes.org.w3c.dom.DOMException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  The evaluation of XPath expressions is provided by

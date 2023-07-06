@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.sound.midi;
+package java.desktop.share.classes.javax.sound.midi;
 
-import javax.sound.sampled.AudioInputStream;
+
+import java.desktop.share.classes.javax.sound.sampled.AudioInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code SoundbankResource} represents any audio resource stored in a

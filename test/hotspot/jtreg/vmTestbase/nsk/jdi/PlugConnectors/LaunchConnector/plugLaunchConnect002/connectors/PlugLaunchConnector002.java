@@ -19,17 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * A Simple LaunchingConnector used by
- * nsk/jdi/PlugConnectors/LaunchConnector/plugLaunchConnect002 test
- */
-
 package nsk.jdi.PlugConnectors.LaunchConnector.plugLaunchConnect002.connectors;
+
 
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * A Simple LaunchingConnector used by
+ * nsk/jdi/PlugConnectors/LaunchConnector/plugLaunchConnect002 test
+ */
+
+
 
 public class PlugLaunchConnector002 extends PlugConnectors implements LaunchingConnector {
 

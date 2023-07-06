@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.net.httpserver;
+package jdk.httpserver.share.classes.com.sun.net.httpserver;
+
 
 import java.nio.charset.Charset;
 import java.util.Base64;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
 
-import static java.nio.charset.StandardCharsets.UTF_8;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * BasicAuthenticator provides an implementation of HTTP Basic

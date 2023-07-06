@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.comp;
+package jdk.compiler.share.classes.com.sun.tools.javac.comp;
+
 
 import java.util.Collections;
 import java.util.EnumSet;
@@ -30,26 +31,39 @@ import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
 import java.util.function.Predicate;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.ArrayType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.ClassType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.TypeVar;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.UndetVar;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.UndetVar.InferenceBound;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.WildcardType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Types;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Infer.FreeTypejava.util.Listener;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Infer.GraphSolver;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Infer.GraphStrategy;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Infer.InferenceException;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Infer.InferenceStep;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.ListBuffer;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Warner;
 
-import com.sun.tools.javac.code.Type;
-import com.sun.tools.javac.code.Type.ArrayType;
-import com.sun.tools.javac.code.Type.ClassType;
-import com.sun.tools.javac.code.Type.TypeVar;
-import com.sun.tools.javac.code.Type.UndetVar;
-import com.sun.tools.javac.code.Type.UndetVar.InferenceBound;
-import com.sun.tools.javac.code.Type.WildcardType;
-import com.sun.tools.javac.code.TypeTag;
-import com.sun.tools.javac.code.Types;
-import com.sun.tools.javac.comp.Infer.FreeTypeListener;
-import com.sun.tools.javac.comp.Infer.GraphSolver;
-import com.sun.tools.javac.comp.Infer.GraphStrategy;
-import com.sun.tools.javac.comp.Infer.InferenceException;
-import com.sun.tools.javac.comp.Infer.InferenceStep;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.util.Assert;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.ListBuffer;
-import com.sun.tools.javac.util.Warner;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An inference context keeps track of the set of variables that are free

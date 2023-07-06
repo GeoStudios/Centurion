@@ -19,15 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.print.attribute.standard;
+package java.desktop.share.classes.javax.print.attribute.standard;
+
 
 import java.awt.Window;
 import java.io.Serial;
-
-import javax.print.attribute.Attribute;
-import javax.print.attribute.PrintRequestAttribute;
-
+import java.desktop.share.classes.javax.print.attribute.Attribute;
+import java.desktop.share.classes.javax.print.attribute.PrintRequestAttribute;
 import sun.print.DialogOwnerAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An attribute class used to support requesting a print or page setup dialog

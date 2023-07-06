@@ -19,25 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
-import java.util.Arrays;
-import java.util.Locale;
 
-import java.security.*;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.security.*;
 import java.security.interfaces.*;
 import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.InvalidParameterSpecException;
 import java.security.spec.MGF1ParameterSpec;
-
-import javax.crypto.*;
+import java.base.share.classes.javax.crypto.*;
 import javax.crypto.spec.PSource;
 import javax.crypto.spec.OAEPParameterSpec;
+import java.base.share.classes.com.sun.security.rsa.*;
+import java.base.share.classes.com.sun.security.jca.Providers;
+import java.base.share.classes.com.sun.security.internal.spec.TlsRsaPremasterSecretParameterSpec;
+import java.base.share.classes.com.sun.security.util.KeyUtil;
 
-import sun.security.rsa.*;
-import sun.security.jca.Providers;
-import sun.security.internal.spec.TlsRsaPremasterSecretParameterSpec;
-import sun.security.util.KeyUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * RSA cipher implementation. Supports RSA en/decryption and signing/verifying

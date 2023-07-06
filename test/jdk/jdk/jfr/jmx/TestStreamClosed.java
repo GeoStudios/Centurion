@@ -21,11 +21,24 @@
 
 package jdk.jfr.jmx;
 
-import java.io.IOException;
 
+import java.io.java.io.java.io.java.io.IOException;
 import jdk.management.jfr.FlightRecorderMXBean;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.jfr.SimpleEventHelper;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

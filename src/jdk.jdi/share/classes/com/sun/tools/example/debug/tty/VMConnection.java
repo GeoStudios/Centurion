@@ -19,6 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.jdi.share.classes.com.sun.tools.example.debug.tty;
+
+
+import jdk.jdi.share.classes.com.sun.jdi.*;
+import jdk.jdi.share.classes.com.sun.jdi.connect.*;
+import jdk.jdi.share.classes.com.sun.jdi.request.EventRequestManager;
+import jdk.jdi.share.classes.com.sun.jdi.request.ThreadStartRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.ThreadDeathRequest;
+import java.util.*;
+import java.util.regex.*;
+import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -28,17 +54,9 @@
  */
 
 
-package com.sun.tools.example.debug.tty;
 
-import com.sun.jdi.*;
-import com.sun.jdi.connect.*;
-import com.sun.jdi.request.EventRequestManager;
-import com.sun.jdi.request.ThreadStartRequest;
-import com.sun.jdi.request.ThreadDeathRequest;
 
-import java.util.*;
-import java.util.regex.*;
-import java.io.*;
+
 
 class VMConnection {
 

@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www;
+package java.base.share.classes.sun.net.www;
+
 
 import java.util.Iterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* This is useful for the nightmare of parsing multi-part HTTP/RFC822 headers
  * sensibly:

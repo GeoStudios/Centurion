@@ -21,11 +21,26 @@
 
 package java.text;
 
+
+import java.util.Calendar;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Test validated that CalendarBuilder.toString does not throw an ArrayIndexOutOfBoundException.
  */
 
-import java.util.Calendar;
 
 public class CalendarBuilderTest {
     public static void testCalendarBuilderToString() {

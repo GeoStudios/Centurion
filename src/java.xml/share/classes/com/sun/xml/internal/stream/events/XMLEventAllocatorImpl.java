@@ -18,18 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.xml.internal.stream.events;
 
-import com.sun.org.apache.xerces.internal.impl.PropertyManager;
-import java.util.List;
+package java.xml.share.classes.com.sun.xml.internal.stream.events;
+
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.PropertyManager;
+import java.util.java.util.java.util.java.util.List;
 import javax.xml.stream.util.XMLEventAllocator;
 import javax.xml.stream.*;
 import javax.xml.stream.events.*;
 import javax.xml.XMLConstants;
 import javax.xml.namespace.QName;
-import com.sun.org.apache.xerces.internal.util.NamespaceContextWrapper;
-import com.sun.org.apache.xerces.internal.util.NamespaceSupport;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.NamespaceContextWrapper;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.NamespaceSupport;
 import javax.xml.stream.util.XMLEventConsumer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of XMLEvent Allocator.

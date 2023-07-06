@@ -19,19 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.marlin;
+package java.desktop.share.classes.sun.java2d.marlin;
 
-import static sun.java2d.marlin.ArrayCacheConst.ARRAY_SIZES;
-import static sun.java2d.marlin.ArrayCacheConst.BUCKETS;
-import static sun.java2d.marlin.ArrayCacheConst.MAX_ARRAY_SIZE;
-import static sun.java2d.marlin.MarlinUtils.logInfo;
-import static sun.java2d.marlin.MarlinUtils.logException;
 
+import static java.desktop.share.classes.sun.java2d.marlin.ArrayCacheConst.ARRAY_SIZES;.extended
+import static java.desktop.share.classes.sun.java2d.marlin.ArrayCacheConst.BUCKETS;.extended
+import static java.desktop.share.classes.sun.java2d.marlin.ArrayCacheConst.MAX_ARRAY_SIZE;.extended
+import static java.desktop.share.classes.sun.java2d.marlin.MarlinUtils.logInfo;.extended
+import static java.desktop.share.classes.sun.java2d.marlin.MarlinUtils.logException;.extended
 import java.lang.ref.WeakReference;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
+import java.desktop.share.classes.sun.java2d.marlin.ArrayCacheConst.BucketStats;
+import java.desktop.share.classes.sun.java2d.marlin.ArrayCacheConst.CacheStats;
 
-import sun.java2d.marlin.ArrayCacheConst.BucketStats;
-import sun.java2d.marlin.ArrayCacheConst.CacheStats;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Note that the [BYTE/INT/FLOAT/DOUBLE]ArrayCache files are nearly identical except

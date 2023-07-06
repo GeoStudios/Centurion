@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codecache.jmx;
+
+
+import jdk.test.lib.Asserts;
+import sun.hotspot.code.BlobType;
+import java.lang.management.ManagementFactory;
+import java.lang.management.MemoryManagerMXBean;
+import java.util.HashMap;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Map;
+import java.util.Optional;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test MemoryPoolsPresenceTest
  * @summary verify that MemoryManagerMXBean exists for every code cache segment
@@ -38,17 +63,8 @@
  *     compiler.codecache.jmx.MemoryPoolsPresenceTest
  */
 
-package compiler.codecache.jmx;
 
-import jdk.test.lib.Asserts;
-import sun.hotspot.code.BlobType;
 
-import java.lang.management.ManagementFactory;
-import java.lang.management.MemoryManagerMXBean;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
 
 public class MemoryPoolsPresenceTest {
 

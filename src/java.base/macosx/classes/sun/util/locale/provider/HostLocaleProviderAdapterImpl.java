@@ -19,33 +19,48 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.util.locale.provider;
+package java.base.macosx.classes.sun.util.locale.provider;
 
-import java.lang.ref.SoftReference;
-import java.text.*;
-import java.text.spi.DateFormatProvider;
-import java.text.spi.DateFormatSymbolsProvider;
-import java.text.spi.DecimalFormatSymbolsProvider;
-import java.text.spi.NumberFormatProvider;
-import java.util.Collections;
-import java.util.Calendar;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Locale;
-import java.util.Map;
-import java.util.ResourceBundle.Control;
-import java.util.Set;
-import java.util.TimeZone;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
-import java.util.concurrent.atomic.AtomicReferenceArray;
-import java.util.spi.CalendarDataProvider;
-import java.util.spi.CalendarNameProvider;
-import java.util.spi.CurrencyNameProvider;
-import java.util.spi.LocaleNameProvider;
-import java.util.spi.TimeZoneNameProvider;
-import sun.text.spi.JavaTimeDateTimePatternProvider;
-import sun.util.spi.CalendarProvider;
+
+import java.base.share.classes.java.lang.ref.SoftReference;
+import java.base.share.classes.java.text.*;
+import java.base.share.classes.java.text.spi.DateFormatProvider;
+import java.base.share.classes.java.text.spi.DateFormatSymbolsProvider;
+import java.base.share.classes.java.text.spi.DecimalFormatSymbolsProvider;
+import java.base.share.classes.java.text.spi.NumberFormatProvider;
+import java.base.share.classes.java.util.Collections;
+import java.base.share.classes.java.util.Calendar;
+import java.base.share.classes.java.util.HashMap;
+import java.base.share.classes.java.util.HashSet;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.ResourceBundle.Control;
+import java.base.share.classes.java.util.Set;
+import java.base.share.classes.java.util.TimeZone;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.concurrent.ConcurrentMap;
+import java.base.share.classes.java.util.concurrent.atomic.AtomicReferenceArray;
+import java.base.share.classes.java.util.spi.CalendarDataProvider;
+import java.base.share.classes.java.util.spi.CalendarNameProvider;
+import java.base.share.classes.java.util.spi.CurrencyNameProvider;
+import java.base.share.classes.java.util.spi.LocaleNameProvider;
+import java.base.share.classes.java.util.spi.TimeZoneNameProvider;
+import java.base.macosx.classes.sun.text.spi.JavaTimeDateTimePatternProvider;
+import java.base.macosx.classes.sun.util.spi.CalendarProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * LocaleProviderAdapter implementation for the Mac OS X locale data

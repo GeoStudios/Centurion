@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.formats.html;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.Writer;
 import java.nio.file.DirectoryStream;
@@ -30,29 +31,41 @@ import java.nio.file.InvalidPathException;
 import java.nio.file.Path;
 import java.util.*;
 import java.util.function.Function;
-
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.ModuleElement;
 import javax.lang.model.element.PackageElement;
 import javax.lang.model.element.TypeElement;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.Doclet;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.DocletEnvironment;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.Reporter;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.AbstractDoclet;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.DocletException;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Messages;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.builders.AbstractBuilder;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.builders.BuilderFactory;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.ClassTree;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DeprecatedAPIjava.util.ListBuilder;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFile;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFilejava.io.java.io.java.io.IOException;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPath;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPaths;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.IndexBuilder;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.NewAPIBuilder;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.PreviewAPIjava.util.ListBuilder;
 
-import jdk.javadoc.doclet.Doclet;
-import jdk.javadoc.doclet.DocletEnvironment;
-import jdk.javadoc.doclet.Reporter;
-import jdk.javadoc.internal.doclets.toolkit.AbstractDoclet;
-import jdk.javadoc.internal.doclets.toolkit.DocletException;
-import jdk.javadoc.internal.doclets.toolkit.Messages;
-import jdk.javadoc.internal.doclets.toolkit.builders.AbstractBuilder;
-import jdk.javadoc.internal.doclets.toolkit.builders.BuilderFactory;
-import jdk.javadoc.internal.doclets.toolkit.util.ClassTree;
-import jdk.javadoc.internal.doclets.toolkit.util.DeprecatedAPIListBuilder;
-import jdk.javadoc.internal.doclets.toolkit.util.DocFile;
-import jdk.javadoc.internal.doclets.toolkit.util.DocFileIOException;
-import jdk.javadoc.internal.doclets.toolkit.util.DocPath;
-import jdk.javadoc.internal.doclets.toolkit.util.DocPaths;
-import jdk.javadoc.internal.doclets.toolkit.util.IndexBuilder;
-import jdk.javadoc.internal.doclets.toolkit.util.NewAPIBuilder;
-import jdk.javadoc.internal.doclets.toolkit.util.PreviewAPIListBuilder;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The class with "start" method, calls individual Writers.

@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.module;
+
+package java.base.share.classes.jdk.internal.module;
+
 
 import java.lang.module.ModuleDescriptor;
 import java.lang.module.ModuleDescriptor.Exports;
@@ -26,11 +28,24 @@ import java.lang.module.ModuleDescriptor.Opens;
 import java.lang.module.ModuleDescriptor.Provides;
 import java.lang.module.ModuleDescriptor.Requires;
 import java.lang.module.ModuleDescriptor.Version;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
+import java.base.share.classes.jdk.internal.access.JavaLangModuleAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
-import jdk.internal.access.JavaLangModuleAccess;
-import jdk.internal.access.SharedSecrets;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This builder is optimized for reconstituting the {@code ModuleDescriptor}s

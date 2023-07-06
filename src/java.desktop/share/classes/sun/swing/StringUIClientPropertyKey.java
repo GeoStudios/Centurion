@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.swing;
+package java.desktop.share.classes.sun.swing;
+
 
 import javax.swing.UIClientPropertyKey;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of {@code UIClientPropertyKey} that wraps a {@code String}.

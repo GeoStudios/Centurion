@@ -19,24 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.gc.g1;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.g1;
+
 
 import java.io.PrintStream;
-import java.util.ArrayList;
-import java.util.List;
-import sun.jvm.hotspot.utilities.Observable;
-import sun.jvm.hotspot.utilities.Observer;
-import sun.jvm.hotspot.debugger.Address;
-import sun.jvm.hotspot.debugger.OopHandle;
-import sun.jvm.hotspot.gc.shared.CompactibleSpace;
-import sun.jvm.hotspot.gc.shared.LiveRegionsProvider;
-import sun.jvm.hotspot.memory.MemRegion;
-import sun.jvm.hotspot.runtime.VM;
-import sun.jvm.hotspot.runtime.VMObjectFactory;
-import sun.jvm.hotspot.types.AddressField;
-import sun.jvm.hotspot.types.CIntegerField;
-import sun.jvm.hotspot.types.Type;
-import sun.jvm.hotspot.types.TypeDataBase;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Address;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.OopHandle;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared.CompactibleSpace;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared.LiveRegionsProvider;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.memory.MemRegion;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VM;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VMObjectFactory;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.AddressField;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.CIntegerField;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.Type;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.TypeDataBase;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Mirror class for HeapRegion. Currently we don't actually include
 // any of its fields but only iterate over it.

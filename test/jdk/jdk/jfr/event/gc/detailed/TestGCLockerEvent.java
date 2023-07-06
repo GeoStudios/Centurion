@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.jfr.event.gc.detailed;
+
+
+import static jdk.test.lib.Asserts.assertTrue;.extended
+import java.util.concurrent.CountDownLatch;
+import jdk.jfr.Recording;
+import jdk.jfr.consumer.RecordedEvent;
+import jdk.test.lib.jfr.EventNames;
+import jdk.test.lib.jfr.Events;
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestGCLockerEvent
  * @key jfr
@@ -29,18 +53,10 @@
  * @run main/othervm -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI -Xmx32m -Xms32m -Xmn12m -XX:+UseG1GC jdk.jfr.event.gc.detailed.TestGCLockerEvent
  */
 
-package jdk.jfr.event.gc.detailed;
 
-import static jdk.test.lib.Asserts.assertTrue;
 
-import java.util.concurrent.CountDownLatch;
 
-import jdk.jfr.Recording;
-import jdk.jfr.consumer.RecordedEvent;
-import jdk.test.lib.jfr.EventNames;
-import jdk.test.lib.jfr.Events;
 
-import sun.hotspot.WhiteBox;
 
 public class TestGCLockerEvent {
 

@@ -19,6 +19,50 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.types.correctness;
+
+
+import compiler.types.correctness.execution.Execution;
+import compiler.types.correctness.execution.MethodHandleDelegate;
+import compiler.types.correctness.execution.TypeConflict;
+import compiler.types.correctness.execution.TypeProfile;
+import compiler.types.correctness.hierarchies.DefaultMethodInterface;
+import compiler.types.correctness.hierarchies.DefaultMethodInterface2;
+import compiler.types.correctness.hierarchies.Linear;
+import compiler.types.correctness.hierarchies.Linear2;
+import compiler.types.correctness.hierarchies.NullableType;
+import compiler.types.correctness.hierarchies.OneRank;
+import compiler.types.correctness.hierarchies.TypeHierarchy;
+import compiler.types.correctness.scenarios.ArrayCopy;
+import compiler.types.correctness.scenarios.ArrayReferenceStore;
+import compiler.types.correctness.scenarios.CheckCast;
+import compiler.types.correctness.scenarios.ClassIdentity;
+import compiler.types.correctness.scenarios.ClassInstanceOf;
+import compiler.types.correctness.scenarios.ClassIsInstance;
+import compiler.types.correctness.scenarios.ProfilingType;
+import compiler.types.correctness.scenarios.ReceiverAtInvokes;
+import compiler.types.correctness.scenarios.Scenario;
+import jdk.test.lib.Asserts;
+import jdk.test.lib.Platform;
+import sun.hotspot.WhiteBox;
+import java.lang.reflect.Method;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.util.function.BiFunction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test CorrectnessTest
  * @bug 8038418
@@ -50,36 +94,8 @@
  *                   compiler.types.correctness.CorrectnessTest ARGUMENTS
  */
 
-package compiler.types.correctness;
 
-import compiler.types.correctness.execution.Execution;
-import compiler.types.correctness.execution.MethodHandleDelegate;
-import compiler.types.correctness.execution.TypeConflict;
-import compiler.types.correctness.execution.TypeProfile;
-import compiler.types.correctness.hierarchies.DefaultMethodInterface;
-import compiler.types.correctness.hierarchies.DefaultMethodInterface2;
-import compiler.types.correctness.hierarchies.Linear;
-import compiler.types.correctness.hierarchies.Linear2;
-import compiler.types.correctness.hierarchies.NullableType;
-import compiler.types.correctness.hierarchies.OneRank;
-import compiler.types.correctness.hierarchies.TypeHierarchy;
-import compiler.types.correctness.scenarios.ArrayCopy;
-import compiler.types.correctness.scenarios.ArrayReferenceStore;
-import compiler.types.correctness.scenarios.CheckCast;
-import compiler.types.correctness.scenarios.ClassIdentity;
-import compiler.types.correctness.scenarios.ClassInstanceOf;
-import compiler.types.correctness.scenarios.ClassIsInstance;
-import compiler.types.correctness.scenarios.ProfilingType;
-import compiler.types.correctness.scenarios.ReceiverAtInvokes;
-import compiler.types.correctness.scenarios.Scenario;
-import jdk.test.lib.Asserts;
-import jdk.test.lib.Platform;
-import sun.hotspot.WhiteBox;
 
-import java.lang.reflect.Method;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.function.BiFunction;
 
 public class CorrectnessTest {
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();

@@ -21,11 +21,24 @@
 
 package test.jfr.event;
 
-import test.jfr.annotation.ModularizedAnnotation;
 
+import test.jfr.annotation.ModularizedAnnotation;
 import jdk.jfr.Event;
 import jdk.jfr.SettingDefinition;
 import test.jfr.setting.ModularizedSetting;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @ModularizedAnnotation("hello type")
 public class ModularizedPeriodicEvent extends Event {

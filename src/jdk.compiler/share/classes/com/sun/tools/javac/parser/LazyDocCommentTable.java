@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.parser;
+package jdk.compiler.share.classes.com.sun.tools.javac.parser;
+
 
 import java.util.HashMap;
 import java.util.Map;
+import jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.Comment;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCDocComment;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DocCommentTable;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DiagnosticSource;
 
-import com.sun.tools.javac.parser.Tokens.Comment;
-import com.sun.tools.javac.tree.DCTree.DCDocComment;
-import com.sun.tools.javac.tree.DocCommentTable;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.util.DiagnosticSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

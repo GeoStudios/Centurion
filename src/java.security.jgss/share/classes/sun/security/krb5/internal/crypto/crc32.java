@@ -19,12 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-// crc32.java
+package java.security.jgss.share.classes.sun.security.krb5.internal.crypto;
 
-package sun.security.krb5.internal.crypto;
 
 import java.security.MessageDigestSpi;
 import java.security.DigestException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// crc32.java
+
+
+
 
 public final class crc32 extends MessageDigestSpi implements Cloneable {
     private static final int CRC32_LENGTH = 4; //32-bit

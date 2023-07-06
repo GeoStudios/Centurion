@@ -21,6 +21,21 @@
 
 package varargs.warn1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class T {
     static void f(String fmt, Object... args) {}
 

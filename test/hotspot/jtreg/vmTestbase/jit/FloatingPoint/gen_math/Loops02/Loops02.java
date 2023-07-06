@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.FloatingPoint.gen_math.Loops02;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key randomness
@@ -31,10 +49,8 @@
  * @run main/othervm jit.FloatingPoint.gen_math.Loops02.Loops02
  */
 
-package jit.FloatingPoint.gen_math.Loops02;
 
 // Test working with  loops and random functions.
-import nsk.share.TestFailure;
 
 public class Loops02
 {

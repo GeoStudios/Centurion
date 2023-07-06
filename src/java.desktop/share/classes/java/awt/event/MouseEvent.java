@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.event;
+package java.desktop.share.classes.java.awt.event;
 
-import java.awt.Component;
-import java.awt.GraphicsEnvironment;
-import java.awt.IllegalComponentStateException;
-import java.awt.Point;
-import java.awt.Toolkit;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.Serial;
 
+import java.desktop.share.classes.java.awt.Component;
+import java.desktop.share.classes.java.awt.GraphicsEnvironment;
+import java.desktop.share.classes.java.awt.IllegalComponentStateException;
+import java.desktop.share.classes.java.awt.Point;
+import java.desktop.share.classes.java.awt.Toolkit;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.Serial;
 import sun.awt.AWTAccessor;
 import sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An event which indicates that a mouse action occurred in a component.

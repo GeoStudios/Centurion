@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.security.auth;
+package jdk.security.auth.share.classes.com.sun.security.auth;
+
 
 import java.security.Principal;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A user principal identified by a username or account name.

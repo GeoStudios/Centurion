@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.relation;
+package java.management.share.classes.javax.management.relation;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A RelationSupport object is used internally by the Relation Service to

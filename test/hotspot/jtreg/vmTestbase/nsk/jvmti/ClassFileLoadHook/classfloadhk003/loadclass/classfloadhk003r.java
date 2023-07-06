@@ -21,6 +21,21 @@
 
 package nsk.jvmti.ClassFileLoadHook;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** Tested class with dummy bytecode to be loaded in JVMTI tests. */
 public class classfloadhk003r {
 

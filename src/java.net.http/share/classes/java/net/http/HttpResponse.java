@@ -19,32 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.net.http;
+package java.net.http.share.classes.java.net.http;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.URI;
-import java.nio.ByteBuffer;
-import java.nio.charset.Charset;
-import java.nio.channels.FileChannel;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.OpenOption;
-import java.nio.file.Path;
-import java.util.List;
-import java.util.Objects;
-import java.util.Optional;
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.CompletionStage;
-import java.util.concurrent.ConcurrentMap;
-import java.util.concurrent.Flow;
-import java.util.concurrent.Flow.Subscriber;
-import java.util.concurrent.Flow.Publisher;
-import java.util.concurrent.Flow.Subscription;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.Supplier;
-import java.util.stream.Stream;
+
+import java.net.http.share.classes.java.io.BufferedReader;
+import java.net.http.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.net.http.share.classes.java.io.InputStream;
+import java.net.http.share.classes.java.net.URI;
+import java.net.http.share.classes.java.nio.ByteBuffer;
+import java.net.http.share.classes.java.nio.charset.Charset;
+import java.net.http.share.classes.java.nio.channels.FileChannel;
+import java.net.http.share.classes.java.nio.charset.StandardCharsets;
+import java.net.http.share.classes.java.nio.file.OpenOption;
+import java.net.http.share.classes.java.nio.file.Path;
+import java.net.http.share.classes.java.util.java.util.java.util.java.util.List;
+import java.net.http.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.net.http.share.classes.java.util.Optional;
+import java.net.http.share.classes.java.util.concurrent.CompletableFuture;
+import java.net.http.share.classes.java.util.concurrent.CompletionStage;
+import java.net.http.share.classes.java.util.concurrent.ConcurrentMap;
+import java.net.http.share.classes.java.util.concurrent.Flow;
+import java.net.http.share.classes.java.util.concurrent.Flow.Subscriber;
+import java.net.http.share.classes.java.util.concurrent.Flow.Publisher;
+import java.net.http.share.classes.java.util.concurrent.Flow.Subscription;
+import java.net.http.share.classes.java.util.function.Consumer;
+import java.net.http.share.classes.java.util.function.Function;
+import java.net.http.share.classes.java.util.function.Supplier;
+import java.net.http.share.classes.java.util.stream.Stream;
 import javax.net.ssl.SSLSession;
 import jdk.internal.net.http.BufferingSubscriber;
 import jdk.internal.net.http.LineSubscriberAdapter;
@@ -53,8 +54,22 @@ import jdk.internal.net.http.ResponseBodyHandlers.PathBodyHandler;
 import jdk.internal.net.http.ResponseBodyHandlers.PushPromisesHandlerWithMap;
 import jdk.internal.net.http.ResponseSubscribers;
 import jdk.internal.net.http.ResponseSubscribers.PathSubscriber;
-import static java.nio.file.StandardOpenOption.*;
-import static jdk.internal.net.http.common.Utils.charsetFrom;
+import static java.net.http.share.classes.java.nio.file.StandardOpenOption.*;.extended
+import static jdk.internal.net.http.common.Utils.charsetFrom;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An HTTP response.

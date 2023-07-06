@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jshell;
+package jdk.jshell.share.classes.jdk.jshell;
+
 
 import java.util.LinkedHashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import javax.tools.Diagnostic;
 import javax.tools.JavaFileObject;
-import jdk.jshell.Wrap.CompoundWrap;
+import jdk.jshell.share.classes.jdk.jshell.Wrap.CompoundWrap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The outer wrap for a set of snippets wrapped in a generated class

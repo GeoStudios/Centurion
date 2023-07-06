@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.vm.ci.runtime.test;
+
+
+import org.junit.Assert;
+import org.junit.Test;
+import jdk.vm.ci.meta.ResolvedJavaType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8238190
@@ -33,12 +53,8 @@
  * @run junit/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler jdk.vm.ci.runtime.test.TestSingleImplementor
  */
 
-package jdk.vm.ci.runtime.test;
 
-import org.junit.Assert;
-import org.junit.Test;
 
-import jdk.vm.ci.meta.ResolvedJavaType;
 
 
 public class TestSingleImplementor extends TypeUniverse {

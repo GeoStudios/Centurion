@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.synth;
+package java.desktop.share.classes.javax.swing.plaf.synth;
 
-import javax.swing.*;
-import javax.swing.text.*;
-import javax.swing.plaf.*;
-import javax.swing.plaf.basic.BasicTextAreaUI;
+
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.text.*;
+import java.desktop.share.classes.javax.swing.plaf.*;
+import java.desktop.share.classes.javax.swing.plaf.basic.BasicTextAreaUI;
 import java.awt.*;
-import java.awt.event.FocusListener;
+import java.awt.event.Focusjava.util.Listener;
 import java.awt.event.FocusEvent;
 import java.beans.PropertyChangeEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the look and feel for a plain text editor in the

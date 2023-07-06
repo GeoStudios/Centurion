@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.AWTKeyStroke;
 import java.awt.event.KeyEvent;
 import java.io.Serial;
-
 import sun.swing.SwingAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A KeyStroke represents a key action on the keyboard, or equivalent input

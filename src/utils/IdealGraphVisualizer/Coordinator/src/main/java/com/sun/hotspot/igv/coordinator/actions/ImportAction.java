@@ -19,23 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.hotspot.igv.coordinator.actions;
+package utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator.actions;
 
-import com.sun.hotspot.igv.coordinator.OutlineTopComponent;
-import com.sun.hotspot.igv.data.GraphDocument;
-import com.sun.hotspot.igv.data.serialization.BinaryParser;
-import com.sun.hotspot.igv.data.serialization.GraphParser;
-import com.sun.hotspot.igv.data.serialization.ParseMonitor;
-import com.sun.hotspot.igv.data.serialization.Parser;
-import com.sun.hotspot.igv.settings.Settings;
-import java.awt.event.ActionEvent;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.nio.channels.FileChannel;
-import java.nio.file.StandardOpenOption;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator.OutlineTopComponent;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.data.GraphDocument;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.data.serialization.BinaryParser;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.data.serialization.GraphParser;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.data.serialization.ParseMonitor;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.data.serialization.Parser;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.settings.Settings;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.awt.event.ActionEvent;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.io.File;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.io.FileNotFoundException;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.io.java.io.java.io.java.io.IOException;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.nio.channels.FileChannel;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.nio.file.StandardOpenOption;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.util.logging.Level;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.util.logging.Logger;
 import javax.swing.JFileChooser;
 import javax.swing.SwingUtilities;
 import javax.swing.filechooser.FileFilter;
@@ -50,6 +51,20 @@ import org.openide.awt.ActionRegistration;
 import org.openide.util.HelpCtx;
 import org.openide.util.NbBundle;
 import org.openide.util.actions.SystemAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

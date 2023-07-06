@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.lib;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.lib;
+
 
 import java.util.StringTokenizer;
-import com.sun.org.apache.xpath.internal.NodeSet;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.NodeSet;
 import jdk.xml.internal.JdkXmlUtils;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.w3c.dom.Text;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.w3c.dom.Text;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains EXSLT strings extension functions.

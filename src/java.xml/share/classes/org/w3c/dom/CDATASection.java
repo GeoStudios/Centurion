@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.w3c.dom;
+package java.xml.share.classes.org.w3c.dom;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * CDATA sections are used to escape blocks of text containing characters that

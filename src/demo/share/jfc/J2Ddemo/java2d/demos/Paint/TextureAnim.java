@@ -18,13 +18,14 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d.demos.Paint;
+
+package demo.share.jfc.J2Ddemo.java2d.demos.Paint;
 
 
-import static java.awt.Color.BLACK;
-import static java.awt.Color.GRAY;
-import static java.awt.Color.LIGHT_GRAY;
-import static java.awt.Color.WHITE;
+import static java.awt.Color.BLACK;.extended
+import static java.awt.Color.GRAY;.extended
+import static java.awt.Color.LIGHT_GRAY;.extended
+import static java.awt.Color.WHITE;.extended
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
@@ -34,10 +35,10 @@ import java.awt.Image;
 import java.awt.Rectangle;
 import java.awt.TexturePaint;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.image.BufferedImage;
-import java2d.AnimatingControlsSurface;
-import java2d.CustomControls;
+import demo.share.jfc.J2Ddemo.java2d.AnimatingControlsSurface;
+import demo.share.jfc.J2Ddemo.java2d.CustomControls;
 import javax.swing.AbstractButton;
 import javax.swing.Icon;
 import javax.swing.JComboBox;
@@ -47,6 +48,19 @@ import javax.swing.JMenuItem;
 import javax.swing.JToggleButton;
 import javax.swing.JToolBar;
 import javax.swing.plaf.metal.MetalBorders.ButtonBorder;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

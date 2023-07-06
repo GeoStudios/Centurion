@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jstat;
+package jdk.jcmd.share.classes.sun.tools.jstat;
 
-import sun.jvmstat.monitor.*;
+
+import jdk.jcmd.share.classes.sun.jvmstat.monitor.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class implementing the ExpressionEvaluator to resolve unresolved

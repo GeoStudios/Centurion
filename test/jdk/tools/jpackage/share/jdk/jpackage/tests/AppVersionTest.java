@@ -21,10 +21,11 @@
 
 package jdk.jpackage.tests;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.Collection;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
@@ -36,6 +37,19 @@ import jdk.jpackage.test.PackageTest;
 import jdk.jpackage.test.TKit;
 import jdk.jpackage.internal.AppImageFile;
 import org.w3c.dom.Document;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

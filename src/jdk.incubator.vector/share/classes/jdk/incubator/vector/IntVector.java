@@ -18,26 +18,39 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.incubator.vector;
+
+package jdk.incubator.vector.share.classes.jdk.incubator.vector;
+
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.ReadOnlyBufferException;
-import java.util.Arrays;
-import java.util.Objects;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.java.util.Objects;
 import java.util.function.BinaryOperator;
 import java.util.function.Function;
 import java.util.function.UnaryOperator;
+import jdk.incubator.vector.share.classes.jdk.internal.misc.ScopedMemoryAccess;
+import jdk.incubator.vector.share.classes.jdk.internal.misc.Unsafe;
+import jdk.incubator.vector.share.classes.jdk.internal.vm.annotation.ForceInline;
+import jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport;
+import static jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport.*;.extended
+import static jdk.incubator.vector.share.classes.jdk.incubator.vector.VectorIntrinsics.*;.extended
+import static jdk.incubator.vector.share.classes.jdk.incubator.vector.VectorOperators.*;.extended
 
-import jdk.internal.misc.ScopedMemoryAccess;
-import jdk.internal.misc.Unsafe;
-import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.vector.VectorSupport;
 
-import static jdk.internal.vm.vector.VectorSupport.*;
-import static jdk.incubator.vector.VectorIntrinsics.*;
 
-import static jdk.incubator.vector.VectorOperators.*;
+
+
+
+
+
+
+
+
+
+
+
 
 // -- This file was mechanically generated: Do not edit! -- //
 
@@ -2166,9 +2179,7 @@ public abstract class IntVector extends AbstractVector<Integer> {
     VectorShuffle<Integer> toShuffle0(IntSpecies dsp) {
         int[] a = toArray();
         int[] sa = new int[a.length];
-        for (int i = 0; i < a.length; i++) {
-            sa[i] = a[i];
-        }
+        System.arraycopy(a, 0, sa, 0, a.length);
         return VectorShuffle.fromArray(dsp, sa, 0);
     }
 
@@ -2439,19 +2450,19 @@ public abstract class IntVector extends AbstractVector<Integer> {
             REDUCE_IMPL.find(op, opc, (opc_) -> {
               switch (opc_) {
               case VECTOR_OP_ADD: return v ->
-                      toBits(v.rOp((int)0, (i, a, b) -> (int)(a + b)));
+                      toBits(v.rOp(0, (i, a, b) -> a + b));
               case VECTOR_OP_MUL: return v ->
-                      toBits(v.rOp((int)1, (i, a, b) -> (int)(a * b)));
+                      toBits(v.rOp(1, (i, a, b) -> a * b));
               case VECTOR_OP_MIN: return v ->
-                      toBits(v.rOp(MAX_OR_INF, (i, a, b) -> (int) Math.min(a, b)));
+                      toBits(v.rOp(MAX_OR_INF, (i, a, b) -> Math.min(a, b)));
               case VECTOR_OP_MAX: return v ->
-                      toBits(v.rOp(MIN_OR_INF, (i, a, b) -> (int) Math.max(a, b)));
+                      toBits(v.rOp(MIN_OR_INF, (i, a, b) -> Math.max(a, b)));
               case VECTOR_OP_AND: return v ->
-                      toBits(v.rOp((int)-1, (i, a, b) -> (int)(a & b)));
+                      toBits(v.rOp(-1, (i, a, b) -> a & b));
               case VECTOR_OP_OR: return v ->
-                      toBits(v.rOp((int)0, (i, a, b) -> (int)(a | b)));
+                      toBits(v.rOp(0, (i, a, b) -> a | b));
               case VECTOR_OP_XOR: return v ->
-                      toBits(v.rOp((int)0, (i, a, b) -> (int)(a ^ b)));
+                      toBits(v.rOp(0, (i, a, b) -> a ^ b));
               default: return null;
               }})));
     }

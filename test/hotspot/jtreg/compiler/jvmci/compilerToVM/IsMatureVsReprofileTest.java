@@ -19,6 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci.compilerToVM;
+
+
+import compiler.jvmci.common.CTVMUtilities;
+import compiler.jvmci.common.testcases.SimpleClass;
+import jdk.vm.ci.hotspot.CompilerToVMHelper;
+import jdk.test.lib.Asserts;
+import sun.hotspot.WhiteBox;
+import compiler.whitebox.CompilerWhiteBoxTest;
+import java.lang.reflect.Executable;
+import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
+import jdk.test.lib.Platform;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8136421
@@ -41,17 +67,7 @@
  *     compiler.jvmci.compilerToVM.IsMatureVsReprofileTest
  */
 
-package compiler.jvmci.compilerToVM;
 
-import compiler.jvmci.common.CTVMUtilities;
-import compiler.jvmci.common.testcases.SimpleClass;
-import jdk.vm.ci.hotspot.CompilerToVMHelper;
-import jdk.test.lib.Asserts;
-import sun.hotspot.WhiteBox;
-import compiler.whitebox.CompilerWhiteBoxTest;
-import java.lang.reflect.Executable;
-import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
-import jdk.test.lib.Platform;
 
 public class IsMatureVsReprofileTest {
     private static final WhiteBox WB = WhiteBox.getWhiteBox();

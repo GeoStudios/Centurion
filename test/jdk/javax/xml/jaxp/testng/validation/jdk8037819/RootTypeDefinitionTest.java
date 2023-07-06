@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package validation.jdk8037819;
+
 
 import javax.xml.namespace.QName;
 import com.sun.org.apache.xerces.internal.dom.PSVIElementNSImpl;
@@ -28,6 +30,19 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import validation.BaseTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class RootTypeDefinitionTest extends BaseTest {
     private QName unknownType;

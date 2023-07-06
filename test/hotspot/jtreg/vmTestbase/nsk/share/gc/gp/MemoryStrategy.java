@@ -21,7 +21,21 @@
 
 package nsk.share.gc.gp;
 
+
 import nsk.share.TestBug;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class encapsulates notions like "many objects of small size",

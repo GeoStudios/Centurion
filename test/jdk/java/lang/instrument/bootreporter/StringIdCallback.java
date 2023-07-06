@@ -19,8 +19,22 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-
 package bootreporter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface StringIdCallback {
     public void tracker(String name, int id);

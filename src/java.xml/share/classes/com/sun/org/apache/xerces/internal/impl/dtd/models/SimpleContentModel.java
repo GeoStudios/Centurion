@@ -19,15 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models;
+
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XMLContentSpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.impl.dtd.models;
 
-import com.sun.org.apache.xerces.internal.xni.QName;
 
-import com.sun.org.apache.xerces.internal.impl.dtd.XMLContentSpec;
+
 
 /**
  * SimpleContentModel is a derivative of the abstract content model base

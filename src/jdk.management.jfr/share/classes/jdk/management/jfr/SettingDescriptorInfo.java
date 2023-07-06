@@ -19,15 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.management.jfr;
+package jdk.management.jfr.share.classes.jdk.management.jfr;
+
 
 import java.util.concurrent.Callable;
-
 import javax.management.openmbean.CompositeData;
+import jdk.management.jfr.share.classes.jdk.jfr.EventType;
+import jdk.management.jfr.share.classes.jdk.jfr.SettingDescriptor;
+import jdk.management.jfr.share.classes.jdk.management.jfr.internal.FlightRecorderMXBeanProvider;
 
-import jdk.jfr.EventType;
-import jdk.jfr.SettingDescriptor;
-import jdk.management.jfr.internal.FlightRecorderMXBeanProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Management class that describes a setting, for example name, description and

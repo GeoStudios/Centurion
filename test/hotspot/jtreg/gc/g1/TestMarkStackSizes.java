@@ -21,6 +21,25 @@
 
 package gc.g1;
 
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Collections;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestMarkStackSizes
  * @bug 8238855
@@ -32,11 +51,7 @@ package gc.g1;
  * @run driver gc.g1.TestMarkStackSizes
  */
 
-import java.util.ArrayList;
-import java.util.Collections;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class TestMarkStackSizes {
     private static void runTest(boolean shouldSucceed, String... extraArgs) throws Exception {

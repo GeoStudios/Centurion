@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.reflect.generics.reflectiveObjects;
+package java.base.share.classes.sun.reflect.generics.reflectiveObjects;
+
 
 import java.lang.annotation.*;
 import java.lang.reflect.AnnotatedType;
@@ -32,14 +33,28 @@ import java.lang.reflect.Type;
 import java.lang.reflect.TypeVariable;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.Objects;
-import sun.reflect.annotation.AnnotationSupport;
-import sun.reflect.annotation.TypeAnnotationParser;
-import sun.reflect.annotation.AnnotationType;
-import sun.reflect.generics.factory.GenericsFactory;
-import sun.reflect.generics.tree.FieldTypeSignature;
-import sun.reflect.generics.visitor.Reifier;
-import sun.reflect.misc.ReflectUtil;
+import java.base.share.classes.java.util.Objects;
+import java.base.share.classes.sun.reflect.annotation.AnnotationSupport;
+import java.base.share.classes.sun.reflect.annotation.TypeAnnotationParser;
+import java.base.share.classes.sun.reflect.annotation.AnnotationType;
+import java.base.share.classes.sun.reflect.generics.factory.GenericsFactory;
+import java.base.share.classes.sun.reflect.generics.tree.FieldTypeSignature;
+import java.base.share.classes.sun.reflect.generics.visitor.Reifier;
+import java.base.share.classes.sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of {@code java.lang.reflect.TypeVariable} interface

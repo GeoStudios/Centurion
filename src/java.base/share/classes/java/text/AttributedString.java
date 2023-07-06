@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
 
-import java.util.*;
-import java.text.AttributedCharacterIterator.Attribute;
+
+import java.base.share.classes.java.util.*;
+import java.base.share.classes.java.text.AttributedCharacterIterator.Attribute;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An AttributedString holds text and related attribute information. It

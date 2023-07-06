@@ -19,9 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package p2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Small class used by multiple hotspot/runtime/modules/AccessCheck/* tests.
 
-package p2;
 
 public class c2 {
     public void method2() { }

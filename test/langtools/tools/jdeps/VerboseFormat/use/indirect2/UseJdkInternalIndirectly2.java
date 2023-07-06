@@ -21,7 +21,21 @@
 
 package use.indirect2;
 
+
 import use.internal.UseJdkInternalClass;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class UseJdkInternalIndirectly2 {
     static UseJdkInternalClass use = new UseJdkInternalClass();

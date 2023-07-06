@@ -19,7 +19,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole.inspector;
+package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
 
 import java.awt.Component;
@@ -27,25 +27,21 @@ import java.awt.EventQueue;
 import java.awt.Dimension;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.io.IOException;
-
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.reflect.Array;
-
 import java.util.EventObject;
 import java.util.HashMap;
 import java.util.WeakHashMap;
-
 import java.util.concurrent.ExecutionException;
 import java.lang.System.Logger;
 import java.lang.System.Logger.Level;
 import javax.management.JMException;
 import javax.management.MBeanInfo;
 import javax.management.MBeanAttributeInfo;
-import javax.management.AttributeList;
+import javax.management.Attributejava.util.java.util.java.util.List;
 import javax.management.Attribute;
 import javax.management.openmbean.CompositeData;
 import javax.management.openmbean.TabularData;
-
 import javax.swing.JComponent;
 import javax.swing.JOptionPane;
 import javax.swing.JTable;
@@ -53,7 +49,7 @@ import javax.swing.JTextField;
 import javax.swing.SwingWorker;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.TableModelEvent;
-import javax.swing.event.TableModelListener;
+import javax.swing.event.TableModeljava.util.Listener;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableCellEditor;
@@ -61,11 +57,24 @@ import javax.swing.table.TableCellRenderer;
 import javax.swing.table.TableColumn;
 import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
+import jdk.jconsole.share.classes.sun.tools.jconsole.MBeansTab;
+import jdk.jconsole.share.classes.sun.tools.jconsole.JConsole;
+import jdk.jconsole.share.classes.sun.tools.jconsole.Messages;
+import jdk.jconsole.share.classes.sun.tools.jconsole.ProxyClient.SnapshotMBeanServerConnection;
 
-import sun.tools.jconsole.MBeansTab;
-import sun.tools.jconsole.JConsole;
-import sun.tools.jconsole.Messages;
-import sun.tools.jconsole.ProxyClient.SnapshotMBeanServerConnection;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*IMPORTANT :
   There is a deadlock issue there if we don't synchronize well loadAttributes,

@@ -19,31 +19,45 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal;
+package jdk.jfr.share.classes.jdk.jfr.internal;
+
 
 import java.io.DataInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.annotation.Annotation;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+import jdk.jfr.share.classes.jdk.jfr.AnnotationElement;
+import jdk.jfr.share.classes.jdk.jfr.Category;
+import jdk.jfr.share.classes.jdk.jfr.Description;
+import jdk.jfr.share.classes.jdk.jfr.Enabled;
+import jdk.jfr.share.classes.jdk.jfr.Experimental;
+import jdk.jfr.share.classes.jdk.jfr.Label;
+import jdk.jfr.share.classes.jdk.jfr.Period;
+import jdk.jfr.share.classes.jdk.jfr.Relational;
+import jdk.jfr.share.classes.jdk.jfr.StackTrace;
+import jdk.jfr.share.classes.jdk.jfr.Threshold;
+import jdk.jfr.share.classes.jdk.jfr.TransitionFrom;
+import jdk.jfr.share.classes.jdk.jfr.TransitionTo;
+import jdk.jfr.share.classes.jdk.jfr.Unsigned;
 
-import jdk.jfr.AnnotationElement;
-import jdk.jfr.Category;
-import jdk.jfr.Description;
-import jdk.jfr.Enabled;
-import jdk.jfr.Experimental;
-import jdk.jfr.Label;
-import jdk.jfr.Period;
-import jdk.jfr.Relational;
-import jdk.jfr.StackTrace;
-import jdk.jfr.Threshold;
-import jdk.jfr.TransitionFrom;
-import jdk.jfr.TransitionTo;
-import jdk.jfr.Unsigned;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class MetadataLoader {
 

@@ -18,10 +18,12 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.jrtfs;
+
+package java.base.share.classes.jdk.internal.jrtfs;
+
 
 import java.io.ByteArrayInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.nio.ByteBuffer;
@@ -50,17 +52,31 @@ import java.nio.file.attribute.FileAttribute;
 import java.nio.file.attribute.FileTime;
 import java.nio.file.attribute.UserPrincipalLookupService;
 import java.nio.file.spi.FileSystemProvider;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
 import java.util.regex.Pattern;
-import jdk.internal.jimage.ImageReader.Node;
-import static java.util.stream.Collectors.toList;
+import java.base.share.classes.jdk.internal.jimage.ImageReader.Node;
+import static java.util.stream.Collectors.tojava.util.java.util.java.util.List;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * jrt file system implementation built on System jimage files.

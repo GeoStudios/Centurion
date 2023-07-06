@@ -21,8 +21,8 @@
 
 package tck.java.time.zone;
 
-import static org.testng.Assert.assertEquals;
 
+import static org.testng.Assert.assertEquals;.extended
 import java.time.DayOfWeek;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -31,9 +31,21 @@ import java.time.ZoneOffset;
 import java.time.zone.ZoneOffsetTransition;
 import java.time.zone.ZoneOffsetTransitionRule;
 import java.time.zone.ZoneOffsetTransitionRule.TimeDefinition;
-
 import org.testng.annotations.Test;
 import tck.java.time.AbstractTCKTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test ZoneOffsetTransitionRule.

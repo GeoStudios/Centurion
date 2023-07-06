@@ -20,14 +20,28 @@
  */
 
 package jdk.jfr.api.settings;
+
+
 import java.util.HashSet;
 import java.util.Set;
 import java.util.StringJoiner;
-
 import jdk.jfr.Description;
 import jdk.jfr.Label;
 import jdk.jfr.MetadataDefinition;
 import jdk.jfr.SettingControl;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @Label("String List")
 @Description("Accepts set of strings, such as \"text\" or \"text1\", \"text2\", or nothing to reject all strings")

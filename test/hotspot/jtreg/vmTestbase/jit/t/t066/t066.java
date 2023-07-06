@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.t.t066;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,9 +48,7 @@
  * @run main/othervm jit.t.t066.t066
  */
 
-package jit.t.t066;
 
-import nsk.share.TestFailure;
 
 // Time was when j86MakeDoubleUsable was screwing up the
 // offsets on the stores of the two halves of the double

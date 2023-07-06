@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management;
+package java.management.share.classes.javax.management;
+
 
 import java.lang.annotation.*;
-import static java.lang.annotation.ElementType.*;
-import static java.lang.annotation.RetentionPolicy.*;
+import static java.lang.annotation.ElementType.*;.extended
+import static java.lang.annotation.RetentionPolicy.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>

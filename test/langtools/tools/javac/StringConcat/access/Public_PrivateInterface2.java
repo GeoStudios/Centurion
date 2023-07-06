@@ -21,6 +21,21 @@
 
 package p1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Public_PrivateInterface2 implements PrivateInterface2 {
     public String toString() {
         return "passed";

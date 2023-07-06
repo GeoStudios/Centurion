@@ -19,33 +19,48 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
+package java.base.unix.classes.java.lang;
 
-import java.lang.ProcessBuilder.Redirect;
-import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
-import java.io.ByteArrayInputStream;
-import java.io.FileDescriptor;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.util.Arrays;
-import java.util.EnumSet;
-import java.util.Locale;
-import java.util.Set;
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.TimeUnit;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.security.PrivilegedActionException;
-import java.security.PrivilegedExceptionAction;
-import java.util.Properties;
+
+import java.base.unix.classes.java.lang.ProcessBuilder.Redirect;
+import java.base.unix.classes.java.io.BufferedInputStream;
+import java.base.unix.classes.java.io.BufferedOutputStream;
+import java.base.unix.classes.java.io.ByteArrayInputStream;
+import java.base.unix.classes.java.io.FileDescriptor;
+import java.base.unix.classes.java.io.FileInputStream;
+import java.base.unix.classes.java.io.FileOutputStream;
+import java.base.unix.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.unix.classes.java.io.InputStream;
+import java.base.unix.classes.java.io.OutputStream;
+import java.base.unix.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.unix.classes.java.util.EnumSet;
+import java.base.unix.classes.java.util.Locale;
+import java.base.unix.classes.java.util.Set;
+import java.base.unix.classes.java.util.concurrent.CompletableFuture;
+import java.base.unix.classes.java.util.concurrent.TimeUnit;
+import java.base.unix.classes.java.security.AccessController;
+import java.base.unix.classes.java.security.PrivilegedAction;
+import java.base.unix.classes.java.security.PrivilegedActionException;
+import java.base.unix.classes.java.security.PrivilegedExceptionAction;
+import java.base.unix.classes.java.util.Properties;
 import jdk.internal.access.JavaIOFileDescriptorAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.util.StaticProperty;
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * java.lang.Process subclass in the UNIX environment.

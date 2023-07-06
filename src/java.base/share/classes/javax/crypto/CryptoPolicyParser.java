@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.crypto;
+package java.base.share.classes.javax.crypto;
+
 
 import java.io.*;
 import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.Vector;
-import static java.util.Locale.ENGLISH;
-
+import static java.util.Locale.ENGLISH;.extended
 import java.security.GeneralSecurityException;
 import java.security.spec.AlgorithmParameterSpec;
 import java.lang.reflect.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * JCE has two pairs of jurisdiction policy files: one represents U.S. export

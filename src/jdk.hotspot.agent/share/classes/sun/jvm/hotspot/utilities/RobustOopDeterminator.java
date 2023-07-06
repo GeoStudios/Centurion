@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.utilities;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
+
 
 import java.util.*;
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.memory.*;
-import sun.jvm.hotspot.oops.Metadata;
-import sun.jvm.hotspot.oops.Klass;
-import sun.jvm.hotspot.runtime.*;
-import sun.jvm.hotspot.types.*;
-import sun.jvm.hotspot.utilities.Observable;
-import sun.jvm.hotspot.utilities.Observer;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.memory.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.Metadata;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.Klass;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This class determines to the best of its ability, and in a
     reasonably robust fashion, whether a given pointer is an intact

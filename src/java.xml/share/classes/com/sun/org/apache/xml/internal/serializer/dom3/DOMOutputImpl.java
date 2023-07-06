@@ -19,16 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.dom3;
+
+
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSOutput;
+import java.io.Writer;
+import java.io.OutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.serializer.dom3;
 
-import org.w3c.dom.ls.LSOutput;
 
-import java.io.Writer;
-import java.io.OutputStream;
+
 
 /**
  * This is a copy of the Xerces-2J class org.apache.xerces.dom.DOMOutputImpl.java

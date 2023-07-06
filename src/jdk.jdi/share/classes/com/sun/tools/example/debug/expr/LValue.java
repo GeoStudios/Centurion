@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.jdi.share.classes.com.sun.tools.example.debug.expr;
+
+
+import jdk.jdi.share.classes.com.sun.jdi.*;
+import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -28,10 +48,8 @@
  */
 
 
-package com.sun.tools.example.debug.expr;
 
-import com.sun.jdi.*;
-import java.util.*;
+
 
 abstract class LValue {
 

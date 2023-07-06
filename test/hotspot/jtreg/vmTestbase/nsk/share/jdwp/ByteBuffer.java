@@ -21,8 +21,22 @@
 
 package nsk.share.jdwp;
 
+
 import java.io.*;
 import nsk.share.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents a byte buffer of variable size.

@@ -21,11 +21,24 @@
 
 package nsk.jdb.thread.thread002;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdb.*;
-
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* This is debuggee aplication */
 public class thread002a {

@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.net.ssl;
+package java.base.share.classes.javax.net.ssl;
 
-import java.net.Socket;
-import javax.net.ssl.X509TrustManager;
 
+import java.net.java.net.java.net.java.net.Socket;
+import java.base.share.classes.javax.net.ssl.X509TrustManager;
 import java.security.cert.X509Certificate;
 import java.security.cert.CertificateException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Extensions to the {@code X509TrustManager} interface to support

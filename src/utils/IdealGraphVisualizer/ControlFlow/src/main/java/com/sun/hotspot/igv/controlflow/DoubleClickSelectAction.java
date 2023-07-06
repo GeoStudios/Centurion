@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.controlflow;
 
-import java.awt.Point;
-import java.awt.event.MouseEvent;
+package utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.controlflow;
+
+
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.awt.Point;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.awt.event.MouseEvent;
 import org.netbeans.api.visual.action.SelectProvider;
 import org.netbeans.api.visual.action.WidgetAction;
 import org.netbeans.api.visual.widget.Widget;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Selection action that acts on double-click only. Does not support aiming.

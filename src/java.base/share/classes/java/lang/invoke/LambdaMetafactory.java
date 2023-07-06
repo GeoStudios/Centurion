@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
-import java.io.Serializable;
-import java.util.Arrays;
-import java.lang.reflect.Array;
-import java.util.Objects;
+
+import java.base.share.classes.java.io.Serializable;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.lang.reflect.Array;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Methods to facilitate the creation of simple "function objects" that

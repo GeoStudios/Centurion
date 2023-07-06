@@ -19,36 +19,51 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.serializer;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
-import com.sun.org.apache.xml.internal.serializer.dom3.DOMConstants;
-import com.sun.org.apache.xml.internal.serializer.utils.MsgKey;
-import com.sun.org.apache.xml.internal.serializer.utils.Utils;
-import com.sun.org.apache.xml.internal.serializer.utils.WrappedRuntimeException;
-import java.io.IOException;
+
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.dom3.DOMConstants;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.MsgKey;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.Utils;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.WrappedRuntimeException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.UnsupportedEncodingException;
 import java.io.Writer;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.EmptyStackException;
 import java.util.Enumeration;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Properties;
 import java.util.Set;
 import java.util.StringTokenizer;
-import javax.xml.transform.ErrorListener;
+import javax.xml.transform.Errorjava.util.Listener;
 import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerException;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkXmlUtils;
-import org.w3c.dom.Node;
-import org.xml.sax.Attributes;
-import org.xml.sax.ContentHandler;
-import org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
+import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This abstract class is a base class for other stream

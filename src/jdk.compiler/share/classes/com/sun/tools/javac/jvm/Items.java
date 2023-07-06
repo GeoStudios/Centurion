@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.jvm;
+package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
 
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.code.Type.*;
-import com.sun.tools.javac.jvm.Code.*;
-import com.sun.tools.javac.jvm.PoolConstant.LoadableConstant;
-import com.sun.tools.javac.jvm.PoolConstant.LoadableConstant.BasicConstant;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.util.Assert;
 
-import static com.sun.tools.javac.jvm.ByteCodes.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.Code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.PoolConstant.LoadableConstant;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.PoolConstant.LoadableConstant.BasicConstant;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ByteCodes.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A helper class for code generation. Items are objects
  *  that stand for addressable entities in the bytecode. Each item

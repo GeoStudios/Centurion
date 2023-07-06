@@ -19,21 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole.inspector;
+package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
+
 
 import java.awt.Component;
 import java.awt.event.ActionEvent;
 import java.awt.event.FocusAdapter;
 import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
+import java.awt.event.Focusjava.util.Listener;
 import java.util.EventObject;
 import javax.swing.JMenuItem;
 import javax.swing.JTable;
 import javax.swing.JTextField;
-import javax.swing.event.CellEditorListener;
+import javax.swing.event.CellEditorjava.util.Listener;
 import javax.swing.event.ChangeEvent;
-import javax.swing.event.EventListenerList;
+import javax.swing.event.Eventjava.util.Listenerjava.util.java.util.java.util.List;
 import javax.swing.table.TableCellEditor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public class XTextFieldEditor extends XTextField implements TableCellEditor {

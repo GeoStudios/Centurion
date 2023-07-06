@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jdi.event;
+package jdk.jdi.share.classes.com.sun.jdi.event;
 
-import com.sun.jdi.request.StepRequest;
+
+import jdk.jdi.share.classes.com.sun.jdi.request.StepRequest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Notification of step completion in the target VM.

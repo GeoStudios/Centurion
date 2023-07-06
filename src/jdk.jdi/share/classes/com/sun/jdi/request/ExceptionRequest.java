@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jdi.request;
+package jdk.jdi.share.classes.com.sun.jdi.request;
 
-import com.sun.jdi.ObjectReference;
-import com.sun.jdi.ReferenceType;
-import com.sun.jdi.ThreadReference;
-import com.sun.jdi.VirtualMachine;
-import com.sun.jdi.event.EventQueue;
-import com.sun.jdi.event.EventSet;
-import com.sun.jdi.event.ExceptionEvent;
+
+import jdk.jdi.share.classes.com.sun.jdi.ObjectReference;
+import jdk.jdi.share.classes.com.sun.jdi.ReferenceType;
+import jdk.jdi.share.classes.com.sun.jdi.ThreadReference;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+import jdk.jdi.share.classes.com.sun.jdi.event.EventQueue;
+import jdk.jdi.share.classes.com.sun.jdi.event.EventSet;
+import jdk.jdi.share.classes.com.sun.jdi.event.ExceptionEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Request for notification when an exception occurs in the target VM.

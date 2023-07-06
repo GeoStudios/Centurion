@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.pipe;
+package java.desktop.share.classes.sun.java2d.pipe;
+
 
 import java.awt.AlphaComposite;
 import java.awt.CompositeContext;
@@ -31,12 +32,26 @@ import java.awt.image.ColorModel;
 import java.awt.image.BufferedImage;
 import java.awt.image.Raster;
 import java.awt.image.WritableRaster;
-import sun.awt.image.BufImgSurfaceData;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.SurfaceData;
-import sun.java2d.loops.Blit;
-import sun.java2d.loops.MaskBlit;
-import sun.java2d.loops.CompositeType;
+import java.desktop.share.classes.sun.awt.image.BufImgSurfaceData;
+import java.desktop.share.classes.sun.java2d.SunGraphics2D;
+import java.desktop.share.classes.sun.java2d.SurfaceData;
+import java.desktop.share.classes.sun.java2d.loops.Blit;
+import java.desktop.share.classes.sun.java2d.loops.MaskBlit;
+import java.desktop.share.classes.sun.java2d.loops.CompositeType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class GeneralCompositePipe implements CompositePipe {
     class TileContext {

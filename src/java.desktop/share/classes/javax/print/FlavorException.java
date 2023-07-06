@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.print;
+package java.desktop.share.classes.javax.print;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface {@code FlavorException} is a mixin interface which a subclass of

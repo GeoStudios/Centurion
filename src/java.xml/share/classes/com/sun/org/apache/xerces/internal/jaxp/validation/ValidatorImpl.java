@@ -19,10 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.jaxp.validation;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.validation;
 
-import java.io.IOException;
 
+import java.io.java.io.java.io.java.io.IOException;
 import javax.xml.transform.Result;
 import javax.xml.transform.Source;
 import javax.xml.transform.dom.DOMSource;
@@ -30,19 +30,32 @@ import javax.xml.transform.sax.SAXSource;
 import javax.xml.transform.stax.StAXSource;
 import javax.xml.transform.stream.StreamSource;
 import javax.xml.validation.Validator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SAXMessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.Status;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.AttributePSVI;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.ElementPSVI;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.PSVIProvider;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSResourceResolver;
+import java.xml.share.classes.com.sun.org.xml.sax.ErrorHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXNotRecognizedException;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXNotSupportedException;
 
-import com.sun.org.apache.xerces.internal.impl.Constants;
-import com.sun.org.apache.xerces.internal.util.SAXMessageFormatter;
-import com.sun.org.apache.xerces.internal.util.Status;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
-import com.sun.org.apache.xerces.internal.xs.AttributePSVI;
-import com.sun.org.apache.xerces.internal.xs.ElementPSVI;
-import com.sun.org.apache.xerces.internal.xs.PSVIProvider;
-import org.w3c.dom.ls.LSResourceResolver;
-import org.xml.sax.ErrorHandler;
-import org.xml.sax.SAXException;
-import org.xml.sax.SAXNotRecognizedException;
-import org.xml.sax.SAXNotSupportedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Implementation of Validator for W3C XML Schemas.</p>

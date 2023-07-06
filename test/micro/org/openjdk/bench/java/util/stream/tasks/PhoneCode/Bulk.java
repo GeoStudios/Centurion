@@ -21,13 +21,13 @@
 
 package org.openjdk.bench.java.util.stream.tasks.PhoneCode;
 
+
 import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.BenchmarkMode;
 import org.openjdk.jmh.annotations.Mode;
 import org.openjdk.jmh.annotations.OutputTimeUnit;
 import org.openjdk.jmh.annotations.Scope;
 import org.openjdk.jmh.annotations.State;
-
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashSet;
@@ -36,8 +36,20 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
+import static org.openjdk.bench.java.util.stream.tasks.PhoneCode.PhoneCodeProblem.wordsForNumber;.extended
 
-import static org.openjdk.bench.java.util.stream.tasks.PhoneCode.PhoneCodeProblem.wordsForNumber;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This benchmark compare various strategies solving the phone code problem.

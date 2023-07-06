@@ -19,14 +19,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * This source code is provided to illustrate the usage of a given feature
- * or technique and has been deliberately simplified. Additional steps
- * required for a production-quality application, such as security checks,
- * input validation and proper error handling, might not be present in
- * this sample code.
- */
-
+package demo.share.jfc.Notepad;
 
 
 import java.awt.*;
@@ -41,6 +34,31 @@ import javax.swing.undo.*;
 import javax.swing.text.*;
 import javax.swing.event.*;
 import javax.swing.UIManager.LookAndFeelInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * This source code is provided to illustrate the usage of a given feature
+ * or technique and has been deliberately simplified. Additional steps
+ * required for a production-quality application, such as security checks,
+ * input validation and proper error handling, might not be present in
+ * this sample code.
+ */
+
+
+
 
 
 /**

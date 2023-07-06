@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.sql;
+package java.sql.share.classes.java.sql;
 
-import java.util.regex.Pattern;
-import static java.util.stream.Collectors.joining;
+
+import java.sql.share.classes.java.util.regex.Pattern;
+import static java.sql.share.classes.java.util.stream.Collectors.joining;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <P>The object used for executing a static SQL statement

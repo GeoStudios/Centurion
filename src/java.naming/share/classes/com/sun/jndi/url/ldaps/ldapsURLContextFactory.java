@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.url.ldaps;
+package java.naming.share.classes.com.sun.jndi.url.ldaps;
 
-import com.sun.jndi.url.ldap.*;
+
+import java.naming.share.classes.com.sun.jndi.url.ldap.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An LDAP URL context factory that creates secure LDAP contexts (using SSL).

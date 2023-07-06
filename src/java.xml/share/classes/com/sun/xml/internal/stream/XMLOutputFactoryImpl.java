@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.xml.internal.stream;
+package java.xml.share.classes.com.sun.xml.internal.stream;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.Writer;
 import javax.xml.stream.XMLEventWriter;
@@ -32,11 +33,25 @@ import javax.xml.transform.Result;
 import javax.xml.transform.dom.DOMResult;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stax.StAXResult;
-import com.sun.org.apache.xerces.internal.impl.Constants;
-import com.sun.org.apache.xerces.internal.impl.PropertyManager;
-import com.sun.xml.internal.stream.writers.XMLDOMWriterImpl;
-import com.sun.xml.internal.stream.writers.XMLEventWriterImpl;
-import com.sun.xml.internal.stream.writers.XMLStreamWriterImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.PropertyManager;
+import java.xml.share.classes.com.sun.xml.internal.stream.writers.XMLDOMWriterImpl;
+import java.xml.share.classes.com.sun.xml.internal.stream.writers.XMLEventWriterImpl;
+import java.xml.share.classes.com.sun.xml.internal.stream.writers.XMLStreamWriterImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides the implementation of XMLOutputFactory.

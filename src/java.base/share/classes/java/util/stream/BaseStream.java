@@ -18,17 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.util.stream;
 
-import java.nio.charset.Charset;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.Spliterator;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.function.IntConsumer;
-import java.util.function.Predicate;
+package java.base.share.classes.java.util.stream;
+
+
+import java.base.share.classes.java.nio.charset.Charset;
+import java.base.share.classes.java.nio.file.Files;
+import java.base.share.classes.java.nio.file.Path;
+import java.base.share.classes.java.util.Collection;
+import java.base.share.classes.java.util.Iterator;
+import java.base.share.classes.java.util.Spliterator;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.function.IntConsumer;
+import java.base.share.classes.java.util.function.Predicate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base interface for streams, which are sequences of elements supporting

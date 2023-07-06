@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt;
+package java.desktop.macosx.classes.sun.lwawt;
+
 
 import javax.swing.*;
-import javax.swing.event.ChangeListener;
+import javax.swing.event.Changejava.util.Listener;
 import javax.swing.event.ChangeEvent;
 import java.awt.*;
 import java.awt.event.MouseWheelEvent;
 import java.awt.peer.ScrollPanePeer;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Lightweight implementation of {@link ScrollPanePeer}. Delegates most of the

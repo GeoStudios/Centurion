@@ -18,7 +18,8 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d.demos.Clipping;
+
+package demo.share.jfc.J2Ddemo.java2d.demos.Clipping;
 
 
 import java.awt.*;
@@ -26,10 +27,23 @@ import java.awt.event.*;
 import java.awt.geom.*;
 import java.awt.image.BufferedImage;
 import javax.swing.*;
-import java2d.AnimatingControlsSurface;
-import java2d.CustomControls;
-import static java.lang.Math.random;
-import static java.awt.Color.*;
+import demo.share.jfc.J2Ddemo.java2d.AnimatingControlsSurface;
+import demo.share.jfc.J2Ddemo.java2d.CustomControls;
+import static java.lang.Math.random;.extended
+import static java.awt.Color.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

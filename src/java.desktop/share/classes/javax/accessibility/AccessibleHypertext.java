@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.accessibility;
+package java.desktop.share.classes.javax.accessibility;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code AccessibleHypertext} class is the base class for all classes that

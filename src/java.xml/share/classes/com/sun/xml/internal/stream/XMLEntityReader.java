@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.xml.internal.stream;
+package java.xml.share.classes.com.sun.xml.internal.stream;
 
-import java.io.IOException;
 
-import com.sun.org.apache.xerces.internal.util.XMLStringBuffer;
-import com.sun.org.apache.xerces.internal.xni.*;
+import java.io.java.io.java.io.java.io.IOException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLStringBuffer;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class allows various parser scanners to scan basic XML constructs

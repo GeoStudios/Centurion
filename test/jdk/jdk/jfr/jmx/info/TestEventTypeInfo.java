@@ -23,16 +23,27 @@ package jdk.jfr.jmx.info;
 
 
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-
 import jdk.jfr.jmx.JmxHelper;
-
 import jdk.jfr.EventType;
 import jdk.jfr.FlightRecorder;
 import jdk.management.jfr.EventTypeInfo;
 import jdk.management.jfr.FlightRecorderMXBean;
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

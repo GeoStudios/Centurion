@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.ui.tree;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.tree;
+
 
 import java.util.*;
 import java.io.*;
-import sun.jvm.hotspot.oops.*;
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.runtime.*;
-import sun.jvm.hotspot.utilities.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Who directly points to this node. */
 

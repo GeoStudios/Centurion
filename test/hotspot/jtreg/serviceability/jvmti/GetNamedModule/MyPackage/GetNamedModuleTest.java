@@ -21,6 +21,22 @@
 
 package MyPackage;
 
+
+import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @summary Verifies the JVMTI GetNamedModule API
@@ -29,7 +45,6 @@ package MyPackage;
  * @run main/othervm/native -agentlib:GetNamedModuleTest MyPackage.GetNamedModuleTest
  */
 
-import java.io.PrintStream;
 
 public class GetNamedModuleTest {
 

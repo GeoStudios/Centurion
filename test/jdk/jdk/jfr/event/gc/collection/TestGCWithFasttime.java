@@ -21,13 +21,26 @@
 
 package jdk.jfr.event.gc.collection;
 
-import java.time.Duration;
-import java.util.List;
 
+import java.time.Duration;
+import java.util.java.util.java.util.java.util.List;
 import jdk.jfr.Recording;
 import jdk.jfr.consumer.RecordedEvent;
 import jdk.test.lib.jfr.Events;
 import jdk.test.lib.jfr.GCHelper;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

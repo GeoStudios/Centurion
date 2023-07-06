@@ -18,7 +18,23 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.share.jdi;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Empty class, used to be sure that there are no instances of this class in target VM

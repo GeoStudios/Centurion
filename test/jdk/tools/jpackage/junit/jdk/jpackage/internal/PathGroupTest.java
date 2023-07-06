@@ -21,28 +21,41 @@
 
 package jdk.jpackage.internal;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.function.Consumer;
 import java.util.function.UnaryOperator;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import static org.hamcrest.CoreMatchers.equalTo;
-import static org.hamcrest.CoreMatchers.not;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertThat;
+import static org.hamcrest.CoreMatchers.equalTo;.extended
+import static org.hamcrest.CoreMatchers.not;.extended
+import static org.junit.Assert.assertNull;.extended
+import static org.junit.Assert.assertEquals;.extended
+import static org.junit.Assert.assertTrue;.extended
+import static org.junit.Assert.assertFalse;.extended
+import static org.junit.Assert.assertArrayEquals;.extended
+import static org.junit.Assert.assertThat;.extended
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TemporaryFolder;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class PathGroupTest {

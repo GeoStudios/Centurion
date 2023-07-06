@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codegen;
+
+
+import jdk.internal.misc.Unsafe;
+import java.lang.reflect.Field;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8011901
@@ -28,11 +47,8 @@
  * @run main/othervm -XX:-BackgroundCompilation compiler.codegen.Test8011901
  */
 
-package compiler.codegen;
 
-import jdk.internal.misc.Unsafe;
 
-import java.lang.reflect.Field;
 
 public class Test8011901 {
 

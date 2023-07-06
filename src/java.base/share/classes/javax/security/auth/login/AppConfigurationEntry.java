@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.security.auth.login;
+package java.base.share.classes.javax.security.auth.login;
+
 
 import java.util.Map;
 import java.util.Collections;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents a single {@code LoginModule} entry

@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.relation;
+package java.management.share.classes.javax.management.relation;
 
-import java.util.ArrayList; // for Javadoc
-import java.util.List;
 
+import java.util.Arrayjava.util.java.util.java.util.List; // for Javadoc.extended
+import java.util.java.util.java.util.java.util.List;
 import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The RelationType interface has to be implemented by any class expected to

@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.lang.model.type;
+package java.compiler.share.classes.javax.lang.model.type;
+
 
 import java.lang.annotation.Annotation;
-import java.util.List;
-import javax.lang.model.element.*;
-import javax.lang.model.util.Types;
+import java.util.java.util.java.util.java.util.List;
+import java.compiler.share.classes.javax.lang.model.element.*;
+import java.compiler.share.classes.javax.lang.model.util.Types;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a type in the Java programming language.

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package good.covar;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 5007379 5034529
@@ -28,7 +45,6 @@
  * @compile GoodCovar.java
  */
 
-package good.covar;
 
 interface A {
     A f();

@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.classfile;
+package jdk.jdeps.share.classes.com.sun.tools.classfile;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashSet;
-import java.util.List;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
-import com.sun.tools.classfile.Instruction.TypeKind;
-import static com.sun.tools.classfile.ConstantPool.*;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Instruction.TypeKind;
+import static jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A utility class to find where in a ClassFile references

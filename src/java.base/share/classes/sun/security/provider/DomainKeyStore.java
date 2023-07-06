@@ -19,20 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider;
+package java.base.share.classes.sun.security.provider;
+
 
 import java.io.*;
 import java.net.*;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.cert.Certificate;
 import java.security.cert.CertificateFactory;
 import java.security.cert.CertificateException;
 import java.util.*;
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
+import java.base.share.classes.sun.security.pkcs.EncryptedPrivateKeyInfo;
+import java.base.share.classes.sun.security.util.PolicyUtil;
 
-import static java.nio.charset.StandardCharsets.UTF_8;
 
-import sun.security.pkcs.EncryptedPrivateKeyInfo;
-import sun.security.util.PolicyUtil;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides the domain keystore type identified as "DKS".

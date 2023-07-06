@@ -19,12 +19,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.unix.classes.sun.font;
+
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.nio.charset.Charset;
@@ -32,18 +33,32 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Properties;
 import java.util.Scanner;
-import sun.awt.FcFontManager;
-import sun.awt.FontConfiguration;
-import sun.awt.FontDescriptor;
-import sun.awt.SunToolkit;
-import sun.font.CompositeFontDescriptor;
-import sun.font.FontConfigManager.FontConfigInfo;
-import sun.font.FontConfigManager.FcCompFont;
-import sun.font.FontConfigManager.FontConfigFont;
-import sun.util.logging.PlatformLogger;
+import java.desktop.unix.classes.sun.awt.FcFontManager;
+import java.desktop.unix.classes.sun.awt.FontConfiguration;
+import java.desktop.unix.classes.sun.awt.FontDescriptor;
+import java.desktop.unix.classes.sun.awt.SunToolkit;
+import java.desktop.unix.classes.sun.font.CompositeFontDescriptor;
+import java.desktop.unix.classes.sun.font.FontConfigManager.FontConfigInfo;
+import java.desktop.unix.classes.sun.font.FontConfigManager.FcCompFont;
+import java.desktop.unix.classes.sun.font.FontConfigManager.FontConfigFont;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class FcFontConfiguration extends FontConfiguration {
 

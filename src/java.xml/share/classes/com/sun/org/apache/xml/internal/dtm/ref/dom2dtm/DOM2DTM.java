@@ -19,36 +19,51 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.dtm.ref.dom2dtm;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.dom2dtm;
 
-import com.sun.org.apache.xml.internal.dtm.DTM;
-import com.sun.org.apache.xml.internal.dtm.DTMManager;
-import com.sun.org.apache.xml.internal.dtm.DTMWSFilter;
-import com.sun.org.apache.xml.internal.dtm.ref.DTMDefaultBaseIterators;
-import com.sun.org.apache.xml.internal.dtm.ref.DTMManagerDefault;
-import com.sun.org.apache.xml.internal.dtm.ref.ExpandedNameTable;
-import com.sun.org.apache.xml.internal.dtm.ref.IncrementalSAXSource;
-import com.sun.org.apache.xml.internal.res.XMLErrorResources;
-import com.sun.org.apache.xml.internal.res.XMLMessages;
-import com.sun.org.apache.xml.internal.utils.FastStringBuffer;
-import com.sun.org.apache.xml.internal.utils.QName;
-import com.sun.org.apache.xml.internal.utils.StringBufferPool;
-import com.sun.org.apache.xml.internal.utils.TreeWalker;
-import com.sun.org.apache.xml.internal.utils.XMLCharacterRecognizer;
-import com.sun.org.apache.xml.internal.utils.XMLString;
-import com.sun.org.apache.xml.internal.utils.XMLStringFactory;
-import java.util.ArrayList;
-import java.util.List;
+
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMManager;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMWSFilter;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.DTMDefaultBaseIterators;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.DTMManagerDefault;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.ExpandedNameTable;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.IncrementalSAXSource;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLErrorResources;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLMessages;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.FastStringBuffer;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.StringBufferPool;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.TreeWalker;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLCharacterRecognizer;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLString;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLStringFactory;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import javax.xml.transform.SourceLocator;
 import javax.xml.transform.dom.DOMSource;
-import org.w3c.dom.Attr;
-import org.w3c.dom.Document;
-import org.w3c.dom.DocumentType;
-import org.w3c.dom.Element;
-import org.w3c.dom.Entity;
-import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
-import org.xml.sax.ContentHandler;
+import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.w3c.dom.DocumentType;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.share.classes.com.sun.org.w3c.dom.Entity;
+import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** The <code>DOM2DTM</code> class serves up a DOM's contents via the
  * DTM API.

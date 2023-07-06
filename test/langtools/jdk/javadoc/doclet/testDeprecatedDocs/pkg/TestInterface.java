@@ -21,9 +21,23 @@
 
 package pkg;
 
+
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @deprecated interface_test1 passes.

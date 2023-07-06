@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.hotspot.tools.compiler;
+package utils.LogCompilation.src.main.java.com.sun.hotspot.tools.compiler;
 
-import java.io.PrintStream;
+
+import utils.LogCompilation.src.main.java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The interface of an event from a HotSpot compilation log. Events can have a

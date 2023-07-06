@@ -21,7 +21,21 @@
 
 package pkg;
 
+
 import pkg.A.Outer.Inner;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @annotations.TriggersComplete(of=A.class, at=annotations.Phase.IMPORTS)
 @annotations.TriggersComplete(of=A.Outer.class, at=annotations.Phase.IMPORTS)

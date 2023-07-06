@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.metal;
+package java.desktop.share.classes.javax.swing.plaf.metal;
 
-import javax.swing.plaf.*;
-import javax.swing.*;
+
+import java.desktop.share.classes.javax.swing.plaf.*;
+import java.desktop.share.classes.javax.swing.*;
 import java.awt.*;
 import java.awt.image.*;
 import java.lang.ref.*;
 import java.util.*;
 import sun.swing.CachedPainter;
 import sun.swing.ImageIconUIResource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is a dumping ground for random stuff we want to use in several places.

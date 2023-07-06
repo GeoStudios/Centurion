@@ -1,4 +1,3 @@
-
 /*
  * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
@@ -20,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.share.classes.java.awt.image;
 
-package java.awt.image;
 
-import java.awt.color.ColorSpace;
-import java.awt.geom.Rectangle2D;
-import java.awt.Rectangle;
-import java.awt.RenderingHints;
-import java.awt.geom.Point2D;
+import java.desktop.share.classes.java.awt.color.ColorSpace;
+import java.desktop.share.classes.java.awt.geom.Rectangle2D;
+import java.desktop.share.classes.java.awt.Rectangle;
+import java.desktop.share.classes.java.awt.RenderingHints;
+import java.desktop.share.classes.java.awt.geom.Point2D;
 import sun.awt.image.ImagingLib;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements a lookup operation from the source

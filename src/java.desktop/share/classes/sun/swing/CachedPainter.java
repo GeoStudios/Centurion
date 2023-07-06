@@ -18,10 +18,12 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.swing;
 
-import sun.awt.image.SurfaceManager;
-import sun.java2d.SurfaceData;
+package java.desktop.share.classes.sun.swing;
+
+
+import java.desktop.share.classes.sun.awt.image.SurfaceManager;
+import java.desktop.share.classes.sun.java2d.SurfaceData;
 import java.awt.Component;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
@@ -32,10 +34,24 @@ import java.awt.image.AbstractMultiResolutionImage;
 import java.awt.image.BufferedImage;
 import java.awt.image.ImageObserver;
 import java.awt.image.VolatileImage;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A base class used for icons or images that are expensive to paint.

@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.hotspot.agent.share.classes.com.sun.java.swing.ui;
 
-package com.sun.java.swing.ui;
 
-import com.sun.java.swing.action.ActionManager;
-import com.sun.java.swing.action.StateChangeAction;
+import jdk.hotspot.agent.share.classes.com.sun.java.swing.action.ActionManager;
+import jdk.hotspot.agent.share.classes.com.sun.java.swing.action.StateChangeAction;
 import javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Referenced classes of package com.sun.java.swing.ui:
 //            ToggleActionPropertyChangeListener, StatusBar

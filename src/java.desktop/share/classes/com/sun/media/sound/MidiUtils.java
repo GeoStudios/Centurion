@@ -19,10 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.media.sound;
+package java.desktop.share.classes.com.sun.media.sound;
 
-import java.util.ArrayList;
 
+import java.util.Arrayjava.util.java.util.java.util.List;
 import javax.sound.midi.InvalidMidiDataException;
 import javax.sound.midi.MetaMessage;
 import javax.sound.midi.MidiDevice;
@@ -30,9 +30,22 @@ import javax.sound.midi.MidiEvent;
 import javax.sound.midi.MidiMessage;
 import javax.sound.midi.Sequence;
 import javax.sound.midi.Track;
+import static javax.sound.midi.SysexMessage.SPECIAL_SYSTEM_EXCLUSIVE;.extended
+import static javax.sound.midi.SysexMessage.SYSTEM_EXCLUSIVE;.extended
 
-import static javax.sound.midi.SysexMessage.SPECIAL_SYSTEM_EXCLUSIVE;
-import static javax.sound.midi.SysexMessage.SYSTEM_EXCLUSIVE;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // TODO:
 // - define and use a global symbolic constant for 60000000 (see convertTempo)

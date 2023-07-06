@@ -21,16 +21,27 @@
 
 package stream.XMLInputFactoryTest;
 
-import static jaxp.library.JAXPTestUtilities.runWithTmpPermission;
-import static jaxp.library.JAXPTestUtilities.setSystemProperty;
 
+import static jaxp.library.JAXPTestUtilities.runWithTmpPermission;.extended
+import static jaxp.library.JAXPTestUtilities.setSystemProperty;.extended
 import java.util.PropertyPermission;
-
 import javax.xml.stream.XMLInputFactory;
-
 import org.testng.Assert;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

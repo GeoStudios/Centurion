@@ -19,23 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.reflect;
+package java.base.share.classes.java.lang.reflect;
 
-import java.lang.annotation.*;
-import java.util.Arrays;
-import java.util.Map;
-import java.util.Objects;
-import java.util.StringJoiner;
-import java.util.stream.Stream;
-import java.util.stream.Collectors;
 
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.java.lang.annotation.*;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.StringJoiner;
+import java.base.share.classes.java.util.stream.Stream;
+import java.base.share.classes.java.util.stream.Collectors;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import sun.reflect.annotation.AnnotationParser;
 import sun.reflect.annotation.AnnotationSupport;
 import sun.reflect.annotation.TypeAnnotationParser;
 import sun.reflect.annotation.TypeAnnotation;
-import sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl;
+import sun.reflect.generics.reflectivejava.util.java.util.java.util.Objects.ParameterizedTypeImpl;
 import sun.reflect.generics.repository.ConstructorRepository;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A shared superclass for the common functionality of {@link Method}

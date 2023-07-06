@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.management;
+package java.management.share.classes.sun.management;
+
 
 import java.lang.management.MonitorInfo;
 import java.util.HashMap;
@@ -29,6 +30,20 @@ import javax.management.openmbean.CompositeData;
 import javax.management.openmbean.CompositeDataSupport;
 import javax.management.openmbean.OpenDataException;
 import javax.management.openmbean.OpenType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A CompositeData for MonitorInfo for the local management support.

@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.win32.coff;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface AuxFunctionDefinitionRecord extends AuxSymbolRecord {
   /** Symbol-table index of the corresponding .bf (begin function)

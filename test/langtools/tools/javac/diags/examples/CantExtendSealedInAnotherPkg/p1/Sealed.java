@@ -21,6 +21,20 @@
 
 package p1;
 
+
 import p2.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public sealed class Sealed permits p2.Sub {}

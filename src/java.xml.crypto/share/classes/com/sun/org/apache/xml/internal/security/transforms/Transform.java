@@ -19,44 +19,62 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package com.sun.org.apache.xml.internal.security.transforms;
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.lang.reflect.InvocationTargetException;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.Map;
 import javax.xml.parsers.ParserConfigurationException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.CanonicalizationException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.InvalidCanonicalizerException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions.AlgorithmAlreadyRegisteredException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.XMLSignatureInput;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.implementations.TransformBase64Decode;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.implementations.TransformC14N;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.implementations.TransformC14N11;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.implementations.TransformC14N11_WithComments;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.implementations.TransformC14NExclusive;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.implementations.TransformC14NExclusiveWithComments;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.implementations.TransformC14NWithComments;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.implementations.TransformEnvelopedSignature;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.implementations.TransformXPath;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.implementations.TransformXPath2Filter;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.implementations.TransformXSLT;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.Constants;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.HelperNodejava.util.java.util.java.util.List;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.JavaUtils;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.SignatureElementProxy;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.XMLUtils;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
+import java.xml.crypto.share.classes.com.sun.org.xml.sax.SAXException;
 
-import com.sun.org.apache.xml.internal.security.c14n.CanonicalizationException;
-import com.sun.org.apache.xml.internal.security.c14n.InvalidCanonicalizerException;
-import com.sun.org.apache.xml.internal.security.exceptions.AlgorithmAlreadyRegisteredException;
-import com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
-import com.sun.org.apache.xml.internal.security.signature.XMLSignatureInput;
-import com.sun.org.apache.xml.internal.security.transforms.implementations.TransformBase64Decode;
-import com.sun.org.apache.xml.internal.security.transforms.implementations.TransformC14N;
-import com.sun.org.apache.xml.internal.security.transforms.implementations.TransformC14N11;
-import com.sun.org.apache.xml.internal.security.transforms.implementations.TransformC14N11_WithComments;
-import com.sun.org.apache.xml.internal.security.transforms.implementations.TransformC14NExclusive;
-import com.sun.org.apache.xml.internal.security.transforms.implementations.TransformC14NExclusiveWithComments;
-import com.sun.org.apache.xml.internal.security.transforms.implementations.TransformC14NWithComments;
-import com.sun.org.apache.xml.internal.security.transforms.implementations.TransformEnvelopedSignature;
-import com.sun.org.apache.xml.internal.security.transforms.implementations.TransformXPath;
-import com.sun.org.apache.xml.internal.security.transforms.implementations.TransformXPath2Filter;
-import com.sun.org.apache.xml.internal.security.transforms.implementations.TransformXSLT;
-import com.sun.org.apache.xml.internal.security.utils.Constants;
-import com.sun.org.apache.xml.internal.security.utils.HelperNodeList;
-import com.sun.org.apache.xml.internal.security.utils.JavaUtils;
-import com.sun.org.apache.xml.internal.security.utils.SignatureElementProxy;
-import com.sun.org.apache.xml.internal.security.utils.XMLUtils;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
 
 /**
  * Implements the behaviour of the {@code ds:Transform} element.

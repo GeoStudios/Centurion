@@ -19,35 +19,50 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.runtime;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime;
 
-import com.sun.org.apache.xalan.internal.xsltc.DOM;
-import com.sun.org.apache.xalan.internal.xsltc.DOMCache;
-import com.sun.org.apache.xalan.internal.xsltc.DOMEnhancedForDTM;
-import com.sun.org.apache.xalan.internal.xsltc.Translet;
-import com.sun.org.apache.xalan.internal.xsltc.TransletException;
-import com.sun.org.apache.xalan.internal.xsltc.dom.DOMAdapter;
-import com.sun.org.apache.xalan.internal.xsltc.dom.KeyIndex;
-import com.sun.org.apache.xalan.internal.xsltc.runtime.output.TransletOutputHandlerFactory;
-import com.sun.org.apache.xml.internal.dtm.DTM;
-import com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
-import com.sun.org.apache.xml.internal.serializer.SerializationHandler;
+
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOMCache;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOMEnhancedForDTM;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.Translet;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.TransletException;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom.DOMAdapter;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom.KeyIndex;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime.output.TransletOutputHandlerFactory;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.SerializationHandler;
 import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.Templates;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkXmlUtils;
-import org.w3c.dom.DOMImplementation;
-import org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMImplementation;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @LastModified: May 2021

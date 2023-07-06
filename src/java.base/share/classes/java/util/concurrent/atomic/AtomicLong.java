@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.java.util.concurrent.atomic;
+
+
+import java.base.share.classes.java.lang.invoke.VarHandle;
+import java.base.share.classes.java.util.function.LongBinaryOperator;
+import java.base.share.classes.java.util.function.LongUnaryOperator;
+import jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -30,12 +52,8 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent.atomic;
 
-import java.lang.invoke.VarHandle;
-import java.util.function.LongBinaryOperator;
-import java.util.function.LongUnaryOperator;
-import jdk.internal.misc.Unsafe;
+
 
 /**
  * A {@code long} value that may be updated atomically.  See the

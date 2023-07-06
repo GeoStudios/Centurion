@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.FloatingPoint.FPCompare.TestFPBinop;
+
+
+import nsk.share.TestFailure;
+import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,10 +49,7 @@
  * @run main/othervm jit.FloatingPoint.FPCompare.TestFPBinop.TestFPBinop
  */
 
-package jit.FloatingPoint.FPCompare.TestFPBinop;
 
-import nsk.share.TestFailure;
-import nsk.share.GoldChecker;
 
 /** Test of Floating Point Binary Ops.
  ** This is intended to be run on a known-correct system and the

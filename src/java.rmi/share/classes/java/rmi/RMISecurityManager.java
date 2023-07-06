@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.rmi;
+package java.rmi.share.classes.java.rmi;
 
-import java.security.*;
+
+import java.rmi.share.classes.java.security.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code RMISecurityManager} implements a policy identical to the policy

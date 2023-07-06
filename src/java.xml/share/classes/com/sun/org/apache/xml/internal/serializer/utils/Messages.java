@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.serializer.utils;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils;
 
-import java.util.Locale;
+
+import java.base.share.classes.java.util.Locale;
 import java.util.ResourceBundle;
 import jdk.xml.internal.SecuritySupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A utility class for issuing error messages.

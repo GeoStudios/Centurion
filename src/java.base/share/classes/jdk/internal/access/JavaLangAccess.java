@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.access;
+package java.base.share.classes.jdk.internal.access;
+
 
 import java.lang.annotation.Annotation;
 import java.lang.invoke.MethodHandle;
@@ -33,16 +34,29 @@ import java.nio.charset.CharacterCodingException;
 import java.nio.charset.Charset;
 import java.security.AccessControlContext;
 import java.security.ProtectionDomain;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Stream;
-
-import jdk.internal.module.ServicesCatalog;
-import jdk.internal.reflect.ConstantPool;
+import java.base.share.classes.jdk.internal.module.ServicesCatalog;
+import java.base.share.classes.jdk.internal.reflect.ConstantPool;
 import sun.reflect.annotation.AnnotationType;
 import sun.nio.ch.Interruptible;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface JavaLangAccess {
 

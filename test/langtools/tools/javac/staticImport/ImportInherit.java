@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package importInherit;
+
+
+import static importInherit.B.x;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4965363
@@ -28,9 +46,7 @@
  * @compile  ImportInherit.java
  */
 
-package importInherit;
 
-import static importInherit.B.x;
 
 class A {
     static int x = 12;

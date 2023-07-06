@@ -18,11 +18,13 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.tools.jlink.internal.plugins;
+
+package jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins;
+
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.lang.module.Configuration;
 import java.lang.module.ModuleDescriptor;
@@ -36,16 +38,16 @@ import java.lang.module.ModuleReader;
 import java.lang.module.ModuleReference;
 import java.lang.module.ResolvedModule;
 import java.net.URI;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
 import java.util.TreeMap;
@@ -53,30 +55,41 @@ import java.util.TreeSet;
 import java.util.function.IntSupplier;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
+import jdk.jlink.share.classes.jdk.internal.module.Checks;
+import jdk.jlink.share.classes.jdk.internal.module.DefaultRoots;
+import jdk.jlink.share.classes.jdk.internal.module.Modules;
+import jdk.jlink.share.classes.jdk.internal.module.ModuleHashes;
+import jdk.jlink.share.classes.jdk.internal.module.ModuleInfo.Attributes;
+import jdk.jlink.share.classes.jdk.internal.module.ModuleInfoExtender;
+import jdk.jlink.share.classes.jdk.internal.module.ModuleReferenceImpl;
+import jdk.jlink.share.classes.jdk.internal.module.ModuleResolution;
+import jdk.jlink.share.classes.jdk.internal.module.ModuleTarget;
+import jdk.jlink.share.classes.jdk.internal.org.objectweb.asm.ClassReader;
+import jdk.jlink.share.classes.jdk.internal.org.objectweb.asm.ClassVisitor;
+import jdk.jlink.share.classes.jdk.internal.org.objectweb.asm.ClassWriter;
+import jdk.jlink.share.classes.jdk.internal.org.objectweb.asm.MethodVisitor;
+import jdk.jlink.share.classes.jdk.internal.org.objectweb.asm.ModuleVisitor;
+import jdk.jlink.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import static jdk.jlink.share.classes.jdk.internal.org.objectweb.asm.Opcodes.*;.extended
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.ModuleSorter;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.PluginException;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePool;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolBuilder;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry;
 
-import jdk.internal.module.Checks;
-import jdk.internal.module.DefaultRoots;
-import jdk.internal.module.Modules;
-import jdk.internal.module.ModuleHashes;
-import jdk.internal.module.ModuleInfo.Attributes;
-import jdk.internal.module.ModuleInfoExtender;
-import jdk.internal.module.ModuleReferenceImpl;
-import jdk.internal.module.ModuleResolution;
-import jdk.internal.module.ModuleTarget;
 
-import jdk.internal.org.objectweb.asm.ClassReader;
-import jdk.internal.org.objectweb.asm.ClassVisitor;
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.org.objectweb.asm.MethodVisitor;
-import jdk.internal.org.objectweb.asm.ModuleVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
 
-import jdk.tools.jlink.internal.ModuleSorter;
-import jdk.tools.jlink.plugin.PluginException;
-import jdk.tools.jlink.plugin.ResourcePool;
-import jdk.tools.jlink.plugin.ResourcePoolBuilder;
-import jdk.tools.jlink.plugin.ResourcePoolEntry;
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Jlink plugin to reconstitute module descriptors and other attributes for system

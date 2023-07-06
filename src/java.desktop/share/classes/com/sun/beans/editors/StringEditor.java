@@ -19,10 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.share.classes.com.sun.beans.editors;
 
-package com.sun.beans.editors;
 
 import java.beans.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class StringEditor extends PropertyEditorSupport {
 

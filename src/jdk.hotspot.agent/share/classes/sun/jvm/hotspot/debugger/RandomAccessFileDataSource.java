@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger;
+
 
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* This class is used by the Windows COFF and Posix ELF implementations. */
 public class RandomAccessFileDataSource implements DataSource {

@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.org.xml.sax;
+package java.base.share.classes.jdk.internal.org.xml.sax;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Receive notification of basic DTD-related events.

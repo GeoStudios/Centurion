@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-import java.util.Arrays;
-import java.util.List;
 
-import com.sun.jdi.ThreadGroupReference;
-import com.sun.jdi.ThreadReference;
-import com.sun.jdi.VirtualMachine;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
+import jdk.jdi.share.classes.com.sun.jdi.ThreadGroupReference;
+import jdk.jdi.share.classes.com.sun.jdi.ThreadReference;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ThreadGroupReferenceImpl extends ObjectReferenceImpl
     implements ThreadGroupReference

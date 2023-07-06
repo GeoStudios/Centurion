@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.rowset.providers;
+package java.sql.rowset.share.classes.com.sun.rowset.providers;
 
-import com.sun.rowset.JdbcRowSetResourceBundle;
+
+import java.sql.rowset.share.classes.com.sun.rowset.JdbcRowSetResourceBundle;
 import javax.sql.*;
 import java.io.*;
-
 import javax.sql.rowset.spi.*;
-import com.sun.rowset.internal.*;
+import java.sql.rowset.share.classes.com.sun.rowset.internal.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The reference implementation of a JDBC Rowset synchronization provider

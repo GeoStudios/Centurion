@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.w3c.dom.bootstrap;
+package java.xml.share.classes.org.w3c.dom.bootstrap;
+
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -28,12 +29,26 @@ import java.lang.reflect.InvocationTargetException;
 import java.nio.charset.StandardCharsets;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.StringTokenizer;
-import org.w3c.dom.DOMImplementation;
-import org.w3c.dom.DOMImplementationList;
-import org.w3c.dom.DOMImplementationSource;
+import java.xml.share.classes.org.w3c.dom.DOMImplementation;
+import java.xml.share.classes.org.w3c.dom.DOMImplementationjava.util.java.util.java.util.List;
+import java.xml.share.classes.org.w3c.dom.DOMImplementationSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A factory that enables applications to obtain instances of

@@ -21,21 +21,33 @@
 
 package javax.xml.parsers.ptests;
 
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertNotNull;
-import static org.testng.Assert.assertNull;
-import static org.testng.Assert.assertTrue;
 
+import static org.testng.Assert.assertFalse;.extended
+import static org.testng.Assert.assertNotNull;.extended
+import static org.testng.Assert.assertNull;.extended
+import static org.testng.Assert.assertTrue;.extended
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
-
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXNotSupportedException;
 import org.xml.sax.ext.DeclHandler;
 import org.xml.sax.ext.LexicalHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class contains the test cases for SAXParser API

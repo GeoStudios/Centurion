@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jdi.connect;
+package jdk.jdi.share.classes.com.sun.jdi.connect;
 
-import java.util.List;
-import java.util.ArrayList;
+
+import java.util.java.util.java.util.java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Thrown to indicate an invalid argument or

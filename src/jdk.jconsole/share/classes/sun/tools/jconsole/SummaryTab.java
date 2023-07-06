@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole;
+package jdk.jconsole.share.classes.sun.tools.jconsole;
+
 
 import java.awt.*;
 import java.io.*;
@@ -29,12 +30,23 @@ import java.text.*;
 import java.util.*;
 import java.util.concurrent.*;
 import java.util.function.LongSupplier;
-
 import javax.swing.*;
+import static jdk.jconsole.share.classes.sun.tools.jconsole.Formatter.*;.extended
+import static jdk.jconsole.share.classes.sun.tools.jconsole.Utilities.*;.extended
 
 
-import static sun.tools.jconsole.Formatter.*;
-import static sun.tools.jconsole.Utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 class SummaryTab extends Tab {

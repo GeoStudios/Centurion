@@ -19,26 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.xml.internal.stream.dtd;
-import com.sun.xml.internal.stream.dtd.nonvalidating.DTDGrammar;
-import com.sun.xml.internal.stream.dtd.nonvalidating.XMLAttributeDecl;
-import com.sun.xml.internal.stream.dtd.nonvalidating.XMLElementDecl;
-import com.sun.xml.internal.stream.dtd.nonvalidating.XMLSimpleType;
-import com.sun.org.apache.xerces.internal.impl.Constants;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
-import com.sun.org.apache.xerces.internal.util.XMLChar;
-import com.sun.org.apache.xerces.internal.util.XMLSymbols;
-import com.sun.org.apache.xerces.internal.xni.Augmentations;
-import com.sun.org.apache.xerces.internal.xni.QName;
-import com.sun.org.apache.xerces.internal.xni.NamespaceContext;
-import com.sun.org.apache.xerces.internal.xni.XMLAttributes;
-import com.sun.org.apache.xerces.internal.xni.XMLString;
-import com.sun.org.apache.xerces.internal.xni.XNIException;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
+package java.xml.share.classes.com.sun.xml.internal.stream.dtd;
+
+
+import java.xml.share.classes.com.sun.xml.internal.stream.dtd.nonvalidating.DTDGrammar;
+import java.xml.share.classes.com.sun.xml.internal.stream.dtd.nonvalidating.XMLAttributeDecl;
+import java.xml.share.classes.com.sun.xml.internal.stream.dtd.nonvalidating.XMLElementDecl;
+import java.xml.share.classes.com.sun.xml.internal.stream.dtd.nonvalidating.XMLSimpleType;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLSymbols;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.Augmentations;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLAttributes;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLString;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
 import javax.xml.XMLConstants;
 
- /*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
   */
 
 public class DTDGrammarUtil {

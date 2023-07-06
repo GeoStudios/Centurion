@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.annotation.processing;
+package java.compiler.share.classes.javax.annotation.processing;
 
-import javax.tools.JavaFileManager;
-import javax.tools.*;
-import javax.lang.model.element.Element;
-import javax.lang.model.util.Elements;
-import java.io.IOException;
+
+import java.compiler.share.classes.javax.tools.JavaFileManager;
+import java.compiler.share.classes.javax.tools.*;
+import java.compiler.share.classes.javax.lang.model.element.Element;
+import java.compiler.share.classes.javax.lang.model.util.Elements;
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface supports the creation of new files by an annotation
@@ -352,7 +367,7 @@ public interface Filer {
      * <p>If {@code moduleAndPkg} contains a "{@code /}" character, the
      * prefix before the "{@code /}" character is the module name and
      * the suffix after the "{@code /}" character is the package
-     * name. The package suffix may be empty; however, if a module
+     * name. The  however, if a module
      * name is present, it must be nonempty. If {@code moduleAndPkg}
      * does not contain a "{@code /}" character, the entire argument
      * is interpreted as a package name.

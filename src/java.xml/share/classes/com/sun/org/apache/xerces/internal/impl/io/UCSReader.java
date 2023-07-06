@@ -19,18 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io;
+
+
+import java.io.InputStream;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Reader;
+import java.xml.share.classes.com.sun.xml.internal.stream.util.BufferAllocator;
+import java.xml.share.classes.com.sun.xml.internal.stream.util.ThreadLocalBufferAllocator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.impl.io;
 
-import java.io.InputStream;
-import java.io.IOException;
-import java.io.Reader;
 
-import com.sun.xml.internal.stream.util.BufferAllocator;
-import com.sun.xml.internal.stream.util.ThreadLocalBufferAllocator;
+
 
 /**
  * Reader for UCS-2 and UCS-4 encodings.

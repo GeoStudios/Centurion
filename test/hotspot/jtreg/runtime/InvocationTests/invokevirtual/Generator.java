@@ -21,13 +21,26 @@
 
 package invokevirtual;
 
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_ABSTRACT;
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PUBLIC;
+
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_ABSTRACT;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PUBLIC;.extended
 import shared.AbstractGenerator;
 import shared.AccessType;
-
 import java.util.HashMap;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Generator extends AbstractGenerator {
     public Generator(String[] args) {

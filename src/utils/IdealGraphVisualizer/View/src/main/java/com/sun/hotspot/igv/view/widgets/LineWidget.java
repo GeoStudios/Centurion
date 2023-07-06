@@ -18,29 +18,45 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.view.widgets;
 
-import com.sun.hotspot.igv.graph.Connection;
-import com.sun.hotspot.igv.graph.Figure;
-import com.sun.hotspot.igv.graph.InputSlot;
-import com.sun.hotspot.igv.graph.OutputSlot;
-import com.sun.hotspot.igv.util.StringUtils;
-import com.sun.hotspot.igv.view.DiagramScene;
-import java.awt.*;
-import java.awt.geom.Line2D;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.widgets;
+
+
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.graph.Connection;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.graph.Figure;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.graph.InputSlot;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.graph.OutputSlot;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.util.StringUtils;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.DiagramScene;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.*;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.geom.Line2D;
+import utils.IdealGraphVisualizer.View.src.main.java.util.Arrayjava.util.java.util.java.util.List;
+import utils.IdealGraphVisualizer.View.src.main.java.util.HashSet;
+import utils.IdealGraphVisualizer.View.src.main.java.util.java.util.java.util.java.util.List;
+import utils.IdealGraphVisualizer.View.src.main.java.util.Set;
 import javax.swing.JPopupMenu;
 import javax.swing.event.PopupMenuEvent;
-import javax.swing.event.PopupMenuListener;
+import javax.swing.event.PopupMenujava.util.Listener;
 import org.netbeans.api.visual.action.ActionFactory;
 import org.netbeans.api.visual.action.PopupMenuProvider;
 import org.netbeans.api.visual.action.SelectProvider;
 import org.netbeans.api.visual.animator.SceneAnimator;
 import org.netbeans.api.visual.model.ObjectState;
 import org.netbeans.api.visual.widget.Widget;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

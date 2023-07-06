@@ -19,25 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.protocol.jrt;
+package java.base.share.classes.sun.net.www.protocol.jrt;
+
 
 import java.io.ByteArrayInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.security.AccessController;
 import java.security.Permission;
 import java.security.PrivilegedAction;
-
 import jdk.internal.jimage.ImageLocation;
 import jdk.internal.jimage.ImageReader;
 import jdk.internal.jimage.ImageReaderFactory;
-
 import jdk.internal.loader.URLClassPath;
 import jdk.internal.loader.Resource;
-import sun.net.www.ParseUtil;
-import sun.net.www.URLConnection;
+import java.base.share.classes.sun.net.www.ParseUtil;
+import java.base.share.classes.sun.net.www.URLConnection;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * URLConnection implementation that can be used to connect to resources

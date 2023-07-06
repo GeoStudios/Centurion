@@ -21,6 +21,26 @@
 
 package gc.arguments;
 
+
+import java.base.share.classes.java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import jdk.test.lib.process.OutputAnalyzer;
+import jtreg.SkippedException;
+import sun.hotspot.gc.GC;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestParallelRefProc
  * @summary Test defaults processing for -XX:+ParallelRefProcEnabled.
@@ -31,13 +51,8 @@ package gc.arguments;
  * @run main/othervm -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI gc.arguments.TestParallelRefProc
  */
 
-import java.util.Arrays;
-import java.util.ArrayList;
 
-import jdk.test.lib.process.OutputAnalyzer;
 
-import jtreg.SkippedException;
-import sun.hotspot.gc.GC;
 
 public class TestParallelRefProc {
 

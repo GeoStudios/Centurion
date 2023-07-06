@@ -19,6 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.jdk.internal.icu.text;
+
+
+import java.io.BufferedInputStream;
+import java.io.ByteArrayInputStream;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.InputStream;
+import java.text.ParseException;
+import sun.text.Normalizer;
+import java.base.share.classes.jdk.internal.icu.impl.CharTrie;
+import java.base.share.classes.jdk.internal.icu.impl.StringPrepDataReader;
+import java.base.share.classes.jdk.internal.icu.impl.Trie;
+import java.base.share.classes.jdk.internal.icu.lang.UCharacter;
+import java.base.share.classes.jdk.internal.icu.lang.UCharacterDirection;
+import java.base.share.classes.jdk.internal.icu.util.VersionInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //
 // CHANGELOG
 //      2005-05-19 Edward Wang
@@ -30,21 +60,9 @@
 //      2007-08-14 Martin Buchholz
 //          - remove redundant casts
 //
-package jdk.internal.icu.text;
 
-import java.io.BufferedInputStream;
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.text.ParseException;
 
-import sun.text.Normalizer;
-import jdk.internal.icu.impl.CharTrie;
-import jdk.internal.icu.impl.StringPrepDataReader;
-import jdk.internal.icu.impl.Trie;
-import jdk.internal.icu.lang.UCharacter;
-import jdk.internal.icu.lang.UCharacterDirection;
-import jdk.internal.icu.util.VersionInfo;
+
 
 /**
  * StringPrep API implements the StingPrep framework as described by

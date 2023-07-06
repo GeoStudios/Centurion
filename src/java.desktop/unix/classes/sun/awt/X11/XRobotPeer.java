@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.Rectangle;
 import java.awt.Toolkit;
 import java.awt.peer.RobotPeer;
 import java.security.AccessController;
+import java.desktop.unix.classes.sun.awt.AWTAccessor;
+import java.desktop.unix.classes.sun.awt.SunToolkit;
+import java.desktop.unix.classes.sun.awt.UNIXToolkit;
+import java.desktop.unix.classes.sun.awt.X11GraphicsConfig;
+import java.desktop.unix.classes.sun.awt.X11GraphicsDevice;
+import java.desktop.unix.classes.sun.security.action.GetPropertyAction;
 
-import sun.awt.AWTAccessor;
-import sun.awt.SunToolkit;
-import sun.awt.UNIXToolkit;
-import sun.awt.X11GraphicsConfig;
-import sun.awt.X11GraphicsDevice;
-import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("removal")
 final class XRobotPeer implements RobotPeer {

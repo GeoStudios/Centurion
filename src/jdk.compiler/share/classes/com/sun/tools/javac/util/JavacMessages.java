@@ -19,21 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.util;
+package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
-import com.sun.tools.javac.api.Messages;
 
+import jdk.compiler.share.classes.com.sun.tools.javac.api.Messages;
 import java.lang.ref.SoftReference;
 import java.util.ResourceBundle;
 import java.util.MissingResourceException;
 import java.text.MessageFormat;
 import java.util.HashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
+import jdk.compiler.share.classes.com.sun.tools.javac.api.DiagnosticFormatter;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Factory;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
 
-import com.sun.tools.javac.api.DiagnosticFormatter;
-import com.sun.tools.javac.util.JCDiagnostic.Factory;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  Support for formatted localized messages.

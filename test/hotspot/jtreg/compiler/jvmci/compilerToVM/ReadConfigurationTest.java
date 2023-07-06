@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci.compilerToVM;
+
+
+import jdk.test.lib.Asserts;
+import jdk.vm.ci.hotspot.VMField;
+import jdk.vm.ci.hotspot.HotSpotJVMCIRuntime;
+import jdk.vm.ci.hotspot.HotSpotVMConfigAccess;
+import jdk.vm.ci.hotspot.HotSpotVMConfigStore;
+import jdk.vm.ci.hotspot.VMIntrinsicMethod;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8136421
@@ -34,14 +57,7 @@
  *                   compiler.jvmci.compilerToVM.ReadConfigurationTest
  */
 
-package compiler.jvmci.compilerToVM;
 
-import jdk.test.lib.Asserts;
-import jdk.vm.ci.hotspot.VMField;
-import jdk.vm.ci.hotspot.HotSpotJVMCIRuntime;
-import jdk.vm.ci.hotspot.HotSpotVMConfigAccess;
-import jdk.vm.ci.hotspot.HotSpotVMConfigStore;
-import jdk.vm.ci.hotspot.VMIntrinsicMethod;
 
 public class ReadConfigurationTest {
     public static void main(String args[]) {

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.image;
+package java.desktop.share.classes.sun.awt.image;
+
 
 import java.awt.Component;
 import java.awt.Color;
@@ -32,8 +33,22 @@ import java.awt.image.BufferedImage;
 import java.awt.image.ImageProducer;
 import java.awt.image.ColorModel;
 import java.awt.image.WritableRaster;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.SurfaceData;
+import java.desktop.share.classes.sun.java2d.SunGraphics2D;
+import java.desktop.share.classes.sun.java2d.SurfaceData;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is a special variant of BufferedImage that keeps a reference to

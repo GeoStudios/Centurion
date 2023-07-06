@@ -18,13 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package vm.share.stack;
 
-import java.util.List;
-import java.util.Map;
 
+import java.util.java.util.java.util.java.util.List;
+import java.util.Map;
 import nsk.share.TestFailure;
 import nsk.share.log.Log;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class StackUtils {
         private StackUtils() {

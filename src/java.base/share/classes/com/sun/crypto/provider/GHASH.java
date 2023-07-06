@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
+
 
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
-import java.security.ProviderException;
+import java.base.share.classes.java.security.ProviderException;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents the GHASH function defined in NIST 800-38D

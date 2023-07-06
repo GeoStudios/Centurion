@@ -21,15 +21,29 @@
 
 package jdk.experimental.bytecode;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 import java.util.function.Consumer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MacroCodeBuilder<S, T, E, C extends MacroCodeBuilder<S, T, E, C>> extends CodeBuilder<S, T, E, C> {
 

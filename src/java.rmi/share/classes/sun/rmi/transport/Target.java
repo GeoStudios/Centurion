@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.rmi.transport;
+
+package java.rmi.share.classes.sun.rmi.transport;
+
 
 import java.rmi.Remote;
 import java.rmi.NoSuchObjectException;
@@ -29,9 +31,23 @@ import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.*;
-import sun.rmi.runtime.Log;
-import sun.rmi.runtime.NewThreadAction;
-import sun.rmi.server.Dispatcher;
+import java.rmi.share.classes.sun.rmi.runtime.Log;
+import java.rmi.share.classes.sun.rmi.runtime.NewThreadAction;
+import java.rmi.share.classes.sun.rmi.server.Dispatcher;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A target contains information pertaining to a remote object that

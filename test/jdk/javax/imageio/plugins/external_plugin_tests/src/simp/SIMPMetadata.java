@@ -21,10 +21,24 @@
 
 package simp;
 
+
 import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.metadata.IIOMetadataNode;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
 import org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SIMPMetadata extends IIOMetadata {
 

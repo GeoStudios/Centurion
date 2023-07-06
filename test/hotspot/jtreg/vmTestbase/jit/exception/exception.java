@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.exception;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,7 +48,6 @@
  * @run main/othervm jit.exception.exception
  */
 
-package jit.exception;
 
 /*
    This JIT buster test checks to see if a JIT doing register allocation
@@ -44,7 +61,6 @@ package jit.exception;
    block gets a little bit tougher.
 */
 
-import nsk.share.TestFailure;
 
 public class exception {
     public static void main(String[] args) {

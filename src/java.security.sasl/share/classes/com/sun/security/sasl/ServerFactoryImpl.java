@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.security.sasl;
+package java.security.sasl.share.classes.com.sun.security.sasl;
+
 
 import javax.security.sasl.*;
-import com.sun.security.sasl.util.PolicyUtils;
-
+import java.security.sasl.share.classes.com.sun.security.sasl.util.PolicyUtils;
 import java.util.Map;
 import javax.security.auth.callback.CallbackHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Server factory for CRAM-MD5.

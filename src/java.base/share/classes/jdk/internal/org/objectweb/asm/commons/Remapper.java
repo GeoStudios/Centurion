@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.org.objectweb.asm.commons;
+package java.base.share.classes.jdk.internal.org.objectweb.asm.commons;
 
-import jdk.internal.org.objectweb.asm.ConstantDynamic;
-import jdk.internal.org.objectweb.asm.Handle;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.Type;
-import jdk.internal.org.objectweb.asm.signature.SignatureReader;
-import jdk.internal.org.objectweb.asm.signature.SignatureVisitor;
-import jdk.internal.org.objectweb.asm.signature.SignatureWriter;
+
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ConstantDynamic;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Handle;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Type;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.signature.SignatureReader;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.signature.SignatureVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.signature.SignatureWriter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class responsible for remapping types and names.

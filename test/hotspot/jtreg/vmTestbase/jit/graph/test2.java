@@ -21,10 +21,23 @@
 
 package jit.graph;
 
-import nsk.share.TestFailure;
 
+import nsk.share.TestFailure;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class test2 {
     private final int[] MethodID = {Globals.MethodID_Array[1], Globals.MethodID_Array[2]};

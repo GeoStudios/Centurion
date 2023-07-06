@@ -19,7 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger;
+
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This class implements an LRU page-level cache of configurable page
     size and number of pages. It is configured with a PageFetcher
@@ -28,7 +45,6 @@ package sun.jvm.hotspot.debugger;
     cache. It is generic enough to be sharable among debugger
     implementations. */
 
-import sun.jvm.hotspot.utilities.*;
 
 public class PageCache {
   /** The pageSize must be a power of two and implicitly specifies the

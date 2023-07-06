@@ -19,13 +19,14 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.loader;
+package java.base.share.classes.jdk.internal.loader;
+
 
 import java.io.Closeable;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.JarURLConnection;
@@ -44,14 +45,14 @@ import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
 import java.security.cert.Certificate;
 import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Properties;
 import java.util.Set;
@@ -63,15 +64,28 @@ import java.util.jar.Manifest;
 import java.util.jar.Attributes;
 import java.util.jar.Attributes.Name;
 import java.util.zip.ZipFile;
-
-import jdk.internal.access.JavaNetURLAccess;
-import jdk.internal.access.JavaUtilZipFileAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.util.jar.InvalidJarIndexError;
-import jdk.internal.util.jar.JarIndex;
+import java.base.share.classes.jdk.internal.access.JavaNetURLAccess;
+import java.base.share.classes.jdk.internal.access.JavaUtilZipFileAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.util.jar.InvalidJarIndexError;
+import java.base.share.classes.jdk.internal.util.jar.JarIndex;
 import sun.net.util.URLUtil;
 import sun.net.www.ParseUtil;
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to maintain a search path of URLs for loading classes

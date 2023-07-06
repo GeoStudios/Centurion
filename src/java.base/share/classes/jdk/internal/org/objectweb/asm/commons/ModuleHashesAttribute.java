@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.org.objectweb.asm.commons;
+package java.base.share.classes.jdk.internal.org.objectweb.asm.commons;
 
-import java.util.ArrayList;
-import java.util.List;
-import jdk.internal.org.objectweb.asm.Attribute;
-import jdk.internal.org.objectweb.asm.ByteVector;
-import jdk.internal.org.objectweb.asm.ClassReader;
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.org.objectweb.asm.Label;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Attribute;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ByteVector;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ClassReader;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ClassWriter;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Label;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A ModuleHashes attribute. This attribute is specific to the OpenJDK and may change in the future.

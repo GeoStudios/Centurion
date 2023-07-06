@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codegen;
+
+
+import java.util.concurrent.atomic.AtomicLong;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7009231
@@ -27,9 +45,7 @@
  * @run main/othervm -Xbatch compiler.codegen.Test7009231
  */
 
-package compiler.codegen;
 
-import java.util.concurrent.atomic.AtomicLong;
 
 public class Test7009231 {
     public static void main(String[] args) throws InterruptedException {

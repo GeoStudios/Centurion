@@ -21,8 +21,22 @@
 
 package nsk.share.jdwp;
 
+
 import nsk.share.*;
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents a JDWP reply packet.

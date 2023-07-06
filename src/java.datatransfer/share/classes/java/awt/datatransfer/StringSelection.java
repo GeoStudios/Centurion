@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.datatransfer;
+package java.datatransfer.share.classes.java.awt.datatransfer;
 
-import java.io.IOException;
-import java.io.StringReader;
+
+import java.datatransfer.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.datatransfer.share.classes.java.io.StringReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code Transferable} which implements the capability required to transfer a

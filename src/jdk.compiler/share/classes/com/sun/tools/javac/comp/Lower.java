@@ -19,45 +19,56 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.comp;
+package jdk.compiler.share.classes.com.sun.tools.javac.comp;
+
 
 import java.util.*;
 import java.util.stream.Collectors;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.KindSelector;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.WriteableScope;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.PoolConstant.LoadableConstant;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Option.PkgInfo;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.OperatorSymbol.AccessCode;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.Target;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.EndPosTable;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.BLOCK;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ByteCodes.*;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCBreak;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCCase;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCExpression;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCExpressionStatement;
+import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCOperatorExpression.OperandPos.LEFT;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCSwitchExpression;
+import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.*;.extended
 
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.Kinds.KindSelector;
-import com.sun.tools.javac.code.Scope.WriteableScope;
-import com.sun.tools.javac.jvm.*;
-import com.sun.tools.javac.jvm.PoolConstant.LoadableConstant;
-import com.sun.tools.javac.main.Option.PkgInfo;
-import com.sun.tools.javac.resources.CompilerProperties.Fragments;
-import com.sun.tools.javac.tree.*;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
-import com.sun.tools.javac.util.List;
 
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.code.Symbol.OperatorSymbol.AccessCode;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.tree.JCTree.*;
-import com.sun.tools.javac.code.Type.*;
 
-import com.sun.tools.javac.jvm.Target;
-import com.sun.tools.javac.tree.EndPosTable;
 
-import static com.sun.tools.javac.code.Flags.*;
-import static com.sun.tools.javac.code.Flags.BLOCK;
-import static com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;
-import static com.sun.tools.javac.code.TypeTag.*;
-import static com.sun.tools.javac.code.Kinds.Kind.*;
-import static com.sun.tools.javac.jvm.ByteCodes.*;
-import com.sun.tools.javac.tree.JCTree.JCBreak;
-import com.sun.tools.javac.tree.JCTree.JCCase;
-import com.sun.tools.javac.tree.JCTree.JCExpression;
-import com.sun.tools.javac.tree.JCTree.JCExpressionStatement;
-import static com.sun.tools.javac.tree.JCTree.JCOperatorExpression.OperandPos.LEFT;
-import com.sun.tools.javac.tree.JCTree.JCSwitchExpression;
-import static com.sun.tools.javac.tree.JCTree.Tag.*;
+
+
+
+
+
+
+
+
+
+
 
 /** This pass translates away some syntactic sugar: inner classes,
  *  class literals, assertions, foreach loops, etc.

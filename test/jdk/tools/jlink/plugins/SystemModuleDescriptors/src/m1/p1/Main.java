@@ -21,8 +21,9 @@
 
 package p1;
 
+
 import java.io.InputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.module.ModuleDescriptor;
 import java.net.URI;
 import java.nio.file.FileSystem;
@@ -31,9 +32,21 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Collections;
 import java.util.Set;
-
 import jdk.internal.module.ModuleInfo;
 import jdk.internal.module.ModuleInfo.Attributes;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Main {
     private static boolean hasModuleTarget(InputStream in) throws IOException {

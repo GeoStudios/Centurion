@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.misctests.Pi;
+
+
+import java.util.Random;
+import nsk.share.TestFailure;
+import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key randomness
@@ -31,11 +51,7 @@
  * @run main/othervm jit.misctests.Pi.Pi
  */
 
-package jit.misctests.Pi;
 
-import java.util.Random;
-import nsk.share.TestFailure;
-import jdk.test.lib.Utils;
 
 public class Pi{
     static double pi;

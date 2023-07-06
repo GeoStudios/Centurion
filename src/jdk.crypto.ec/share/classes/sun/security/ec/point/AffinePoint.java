@@ -18,11 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.security.ec.point;
 
-import sun.security.util.math.ImmutableIntegerModuloP;
+package jdk.crypto.ec.share.classes.sun.security.ec.point;
 
-import java.util.Objects;
+
+import jdk.crypto.ec.share.classes.sun.security.util.math.ImmutableIntegerModuloP;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Elliptic curve point represented using affine coordinates (x, y). This class

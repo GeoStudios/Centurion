@@ -19,29 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.ch;
+package java.base.share.classes.sun.nio.ch;
+
 
 import java.io.FileDescriptor;
-import java.io.IOException;
-import java.io.UncheckedIOException;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
 import java.lang.ref.Cleaner.Cleanable;
 import java.lang.reflect.Method;
-import java.net.DatagramSocket;
+import java.net.Datagramjava.net.java.net.java.net.Socket;
 import java.net.Inet4Address;
 import java.net.Inet6Address;
 import java.net.InetAddress;
-import java.net.InetSocketAddress;
+import java.net.Inetjava.net.SocketAddress;
 import java.net.NetworkInterface;
 import java.net.PortUnreachableException;
 import java.net.ProtocolFamily;
-import java.net.SocketAddress;
-import java.net.SocketException;
-import java.net.SocketOption;
-import java.net.SocketTimeoutException;
+import java.net.java.net.SocketAddress;
+import java.net.java.net.SocketException;
+import java.net.java.net.SocketOption;
+import java.net.java.net.SocketTimeoutException;
 import java.net.StandardProtocolFamily;
-import java.net.StandardSocketOptions;
+import java.net.Standardjava.net.SocketOptions;
 import java.nio.ByteBuffer;
 import java.nio.channels.AlreadyBoundException;
 import java.nio.channels.AlreadyConnectedException;
@@ -60,15 +61,28 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.function.Consumer;
+import java.base.share.classes.jdk.internal.ref.CleanerFactory;
+import java.base.share.classes.sun.net.ResourceManager;
+import java.base.share.classes.sun.net.ext.Extendedjava.net.SocketOptions;
+import java.base.share.classes.sun.net.util.IPAddressUtil;
 
-import jdk.internal.ref.CleanerFactory;
-import sun.net.ResourceManager;
-import sun.net.ext.ExtendedSocketOptions;
-import sun.net.util.IPAddressUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of DatagramChannels.
@@ -1399,7 +1413,7 @@ class DatagramChannelImpl
         // restore all socket options (including those set in first pass)
         for (Map.Entry<SocketOption<?>, Object> e : map.entrySet()) {
             @SuppressWarnings("unchecked")
-            SocketOption<Object> option = (SocketOption<Object>) e.getKey();
+            SocketOption<Object> option = e.getKey();
             Object value = e.getValue();
             try {
                 setOption(option, value);

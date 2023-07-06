@@ -18,16 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.astro;
 
-import static javax.xml.XMLConstants.DEFAULT_NS_PREFIX;
-import static javax.xml.XMLConstants.NULL_NS_URI;
-import static org.testng.Assert.assertEquals;
 
+import static javax.xml.XMLConstants.DEFAULT_NS_PREFIX;.extended
+import static javax.xml.XMLConstants.NULL_NS_URI;.extended
+import static org.testng.Assert.assertEquals;.extended
 import javax.xml.namespace.QName;
-
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

@@ -21,7 +21,21 @@
 
 package vm.mlvm.share;
 
+
 import java.util.Collection;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TestSequence extends MlvmTest {
 

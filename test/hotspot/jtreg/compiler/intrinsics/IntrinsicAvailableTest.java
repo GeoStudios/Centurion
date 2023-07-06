@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics;
+
+
+import compiler.whitebox.CompilerWhiteBoxTest;
+import jdk.test.lib.Platform;
+import java.lang.reflect.Executable;
+import java.util.concurrent.Callable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8130832
@@ -59,13 +80,8 @@
  */
 
 
-package compiler.intrinsics;
 
-import compiler.whitebox.CompilerWhiteBoxTest;
-import jdk.test.lib.Platform;
 
-import java.lang.reflect.Executable;
-import java.util.concurrent.Callable;
 
 public class IntrinsicAvailableTest extends CompilerWhiteBoxTest {
 

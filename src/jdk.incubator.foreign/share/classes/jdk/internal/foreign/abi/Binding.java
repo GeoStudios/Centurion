@@ -18,31 +18,44 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.foreign.abi;
 
-import jdk.incubator.foreign.MemoryAddress;
-import jdk.incubator.foreign.MemoryHandles;
-import jdk.incubator.foreign.MemoryLayout;
-import jdk.incubator.foreign.MemorySegment;
-import jdk.incubator.foreign.ResourceScope;
-import jdk.incubator.foreign.SegmentAllocator;
-import jdk.internal.foreign.MemoryAddressImpl;
-import jdk.internal.foreign.ResourceScopeImpl;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi;
 
+
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryAddress;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryHandles;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryLayout;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.ResourceScope;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.SegmentAllocator;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.MemoryAddressImpl;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.ResourceScopeImpl;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Deque;
-import java.util.List;
-import java.util.Objects;
-
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.lang.invoke.VarHandle;
 import java.nio.ByteOrder;
+import static java.lang.invoke.MethodHandles.collectArguments;.extended
+import static java.lang.invoke.MethodHandles.filterArguments;.extended
+import static java.lang.invoke.MethodHandles.insertArguments;.extended
+import static java.lang.invoke.MethodType.methodType;.extended
 
-import static java.lang.invoke.MethodHandles.collectArguments;
-import static java.lang.invoke.MethodHandles.filterArguments;
-import static java.lang.invoke.MethodHandles.insertArguments;
-import static java.lang.invoke.MethodType.methodType;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The binding operators defined in the Binding class can be combined into argument and return value processing 'recipes'.

@@ -18,14 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.operators;
 
+
 import java.awt.Component;
-
 import javax.swing.JCheckBoxMenuItem;
-
 import org.netbeans.jemmy.ComponentChooser;
 import org.netbeans.jemmy.JemmyProperties;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

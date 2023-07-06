@@ -21,7 +21,21 @@
 
 package jdk.test.lib;
 
-import java.util.Objects;
+
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Asserts that can be used for verifying assumptions in tests.

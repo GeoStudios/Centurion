@@ -19,26 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.module;
+package java.base.share.classes.jdk.internal.module;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.lang.module.ModuleDescriptor.Version;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Attribute;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ClassReader;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ClassVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ClassWriter;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.ModuleVisitor;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.commons.ModuleHashesAttribute;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.commons.ModuleResolutionAttribute;
+import java.base.share.classes.jdk.internal.org.objectweb.asm.commons.ModuleTargetAttribute;
 
-import jdk.internal.org.objectweb.asm.Attribute;
-import jdk.internal.org.objectweb.asm.ClassReader;
-import jdk.internal.org.objectweb.asm.ClassVisitor;
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.org.objectweb.asm.ModuleVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.commons.ModuleHashesAttribute;
-import jdk.internal.org.objectweb.asm.commons.ModuleResolutionAttribute;
-import jdk.internal.org.objectweb.asm.commons.ModuleTargetAttribute;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class to extend a module-info.class with additional attributes.

@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.tools;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools;
+
 
 import java.io.PrintStream;
 import java.util.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.JVMDebugger;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
 
-import sun.jvm.hotspot.debugger.JVMDebugger;
-import sun.jvm.hotspot.runtime.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SysPropsDumper extends Tool {
 

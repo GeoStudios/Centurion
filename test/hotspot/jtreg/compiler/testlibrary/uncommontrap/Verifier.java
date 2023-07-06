@@ -21,17 +21,30 @@
 
 package compiler.testlibrary.uncommontrap;
 
-import jdk.test.lib.Asserts;
 
+import jdk.test.lib.Asserts;
 import java.io.FileReader;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Properties;
 import java.util.regex.Pattern;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility tool aimed to verify presence or absence of specified uncommon trap

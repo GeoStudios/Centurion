@@ -19,6 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.types;
+
+
+import compiler.whitebox.CompilerWhiteBoxTest;
+import jdk.internal.org.objectweb.asm.ClassWriter;
+import jdk.internal.org.objectweb.asm.MethodVisitor;
+import sun.hotspot.WhiteBox;
+import java.io.FileOutputStream;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import static jdk.internal.org.objectweb.asm.Opcodes.AALOAD;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PUBLIC;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_STATIC;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ALOAD;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ARETURN;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ASTORE;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.GETSTATIC;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ICONST_0;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.INVOKEINTERFACE;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.INVOKESPECIAL;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.INVOKESTATIC;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.INVOKEVIRTUAL;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.RETURN;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.V1_8;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8141551
@@ -77,31 +115,9 @@
  * @author volker.simonis@gmail.com
  */
 
-package compiler.types;
 
-import compiler.whitebox.CompilerWhiteBoxTest;
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.org.objectweb.asm.MethodVisitor;
-import sun.hotspot.WhiteBox;
 
-import java.io.FileOutputStream;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 
-import static jdk.internal.org.objectweb.asm.Opcodes.AALOAD;
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PUBLIC;
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_STATIC;
-import static jdk.internal.org.objectweb.asm.Opcodes.ALOAD;
-import static jdk.internal.org.objectweb.asm.Opcodes.ARETURN;
-import static jdk.internal.org.objectweb.asm.Opcodes.ASTORE;
-import static jdk.internal.org.objectweb.asm.Opcodes.GETSTATIC;
-import static jdk.internal.org.objectweb.asm.Opcodes.ICONST_0;
-import static jdk.internal.org.objectweb.asm.Opcodes.INVOKEINTERFACE;
-import static jdk.internal.org.objectweb.asm.Opcodes.INVOKESPECIAL;
-import static jdk.internal.org.objectweb.asm.Opcodes.INVOKESTATIC;
-import static jdk.internal.org.objectweb.asm.Opcodes.INVOKEVIRTUAL;
-import static jdk.internal.org.objectweb.asm.Opcodes.RETURN;
-import static jdk.internal.org.objectweb.asm.Opcodes.V1_8;
 
 public class TestMeetIncompatibleInterfaceArrays extends ClassLoader {
 

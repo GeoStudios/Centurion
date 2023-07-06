@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.geom;
+package java.desktop.share.classes.java.awt.geom;
 
-import java.awt.Shape;
-import java.awt.Rectangle;
-import java.util.Vector;
-import java.util.Enumeration;
-import java.util.NoSuchElementException;
+
+import java.desktop.share.classes.java.awt.Shape;
+import java.desktop.share.classes.java.awt.Rectangle;
+import java.desktop.share.classes.java.util.Vector;
+import java.desktop.share.classes.java.util.Enumeration;
+import java.desktop.share.classes.java.util.NoSuchElementException;
 import sun.awt.geom.Curve;
 import sun.awt.geom.Crossings;
 import sun.awt.geom.AreaOp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An {@code Area} object stores and manipulates a

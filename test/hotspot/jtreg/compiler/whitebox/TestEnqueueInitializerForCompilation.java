@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.whitebox;
+
+
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8264395
@@ -30,9 +48,7 @@
  *      -XX:+WhiteBoxAPI compiler.whitebox.TestEnqueueInitializerForCompilation
  */
 
-package compiler.whitebox;
 
-import sun.hotspot.WhiteBox;
 
 public class TestEnqueueInitializerForCompilation {
 

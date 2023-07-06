@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.share.classes.sun.font;
+
 
 import java.awt.Font;
 import java.lang.ref.SoftReference;
 import java.util.concurrent.ConcurrentHashMap;
 import java.security.AccessController;
-
 import java.security.PrivilegedAction;
 import javax.swing.plaf.FontUIResource;
+import java.desktop.share.classes.sun.util.logging.PlatformLogger;
 
-import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A collection of utility methods.

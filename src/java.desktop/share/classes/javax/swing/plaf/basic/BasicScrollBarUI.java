@@ -18,24 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.plaf.basic;
+
+package java.desktop.share.classes.javax.swing.plaf.basic;
 
 
 import sun.swing.DefaultLookup;
 import sun.swing.UIAction;
-
 import java.awt.*;
 import java.awt.event.*;
-
 import java.beans.*;
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.event.*;
+import java.desktop.share.classes.javax.swing.plaf.*;
+import static sun.swing.SwingUtilities2.drawHLine;.extended
+import static sun.swing.SwingUtilities2.drawRect;.extended
+import static sun.swing.SwingUtilities2.drawVLine;.extended
 
-import javax.swing.*;
-import javax.swing.event.*;
-import javax.swing.plaf.*;
 
-import static sun.swing.SwingUtilities2.drawHLine;
-import static sun.swing.SwingUtilities2.drawRect;
-import static sun.swing.SwingUtilities2.drawVLine;
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

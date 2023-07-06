@@ -21,6 +21,24 @@
 
 package gc.stress.TestJNIBlockFullGC;
 
+
+import java.lang.ref.SoftReference;
+import java.util.Random;
+import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestJNIBlockFullGC
  * @summary Check that in G1 a Full GC to reclaim space can not be blocked out by the GC locker.
@@ -30,9 +48,6 @@ package gc.stress.TestJNIBlockFullGC;
  * @run main/othervm/native -Xmx64m -XX:+UseG1GC -Xlog:gc=info,gc+alloc=trace -XX:MaxGCPauseMillis=10 gc.stress.TestJNIBlockFullGC.TestJNIBlockFullGC 10 10000 10000 10000 30000 10000 0.7
  */
 
-import java.lang.ref.SoftReference;
-import java.util.Random;
-import jdk.test.lib.Utils;
 
 public class TestJNIBlockFullGC {
     private static final Random rng = Utils.getRandomInstance();

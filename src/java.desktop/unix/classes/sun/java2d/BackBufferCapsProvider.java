@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d;
+package java.desktop.unix.classes.sun.java2d;
+
 
 import java.awt.BufferCapabilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides access to back-buffer's BufferCapabilities.

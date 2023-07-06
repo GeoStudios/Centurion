@@ -19,15 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.models;
+
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.CMNode;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.CMStateSet;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSModelGroupImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.impl.xs.models;
 
-import com.sun.org.apache.xerces.internal.impl.dtd.models.CMNode;
-import com.sun.org.apache.xerces.internal.impl.dtd.models.CMStateSet;
-import com.sun.org.apache.xerces.internal.impl.xs.XSModelGroupImpl;
+
 
 /**
  *

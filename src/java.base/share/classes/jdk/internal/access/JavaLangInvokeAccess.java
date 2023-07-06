@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.access;
+package java.base.share.classes.jdk.internal.access;
 
-import jdk.internal.invoke.NativeEntryPoint;
 
+import java.base.share.classes.jdk.internal.invoke.NativeEntryPoint;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodType;
 import java.lang.invoke.VarHandle;
 import java.nio.ByteOrder;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface JavaLangInvokeAccess {
     /**

@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.xs.models;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.models;
 
-import com.sun.org.apache.xerces.internal.impl.dtd.models.CMNode;
-import com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
-import com.sun.org.apache.xerces.internal.impl.xs.XSComplexTypeDecl;
-import com.sun.org.apache.xerces.internal.impl.xs.XSDeclarationPool;
-import com.sun.org.apache.xerces.internal.impl.xs.XSElementDecl;
-import com.sun.org.apache.xerces.internal.impl.xs.XSModelGroupImpl;
-import com.sun.org.apache.xerces.internal.impl.xs.XSParticleDecl;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.CMNode;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSComplexTypeDecl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSDeclarationPool;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSElementDecl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSModelGroupImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSParticleDecl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class constructs content models for a given grammar.

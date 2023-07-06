@@ -19,20 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.net.http;
+package java.net.http.share.classes.java.net.http;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
-import java.util.Map;
-import java.util.Optional;
-import java.util.OptionalLong;
-import java.util.TreeMap;
-import java.util.TreeSet;
-import java.util.function.BiPredicate;
-import static java.lang.String.CASE_INSENSITIVE_ORDER;
-import static java.util.Collections.unmodifiableMap;
-import static java.util.Objects.requireNonNull;
+
+import java.net.http.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.net.http.share.classes.java.util.java.util.java.util.java.util.List;
+import java.net.http.share.classes.java.util.Locale;
+import java.net.http.share.classes.java.util.Map;
+import java.net.http.share.classes.java.util.Optional;
+import java.net.http.share.classes.java.util.OptionalLong;
+import java.net.http.share.classes.java.util.TreeMap;
+import java.net.http.share.classes.java.util.TreeSet;
+import java.net.http.share.classes.java.util.function.BiPredicate;
+import static java.net.http.share.classes.java.lang.String.CASE_INSENSITIVE_ORDER;.extended
+import static java.net.http.share.classes.java.util.Collections.unmodifiableMap;.extended
+import static java.net.http.share.classes.java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A read-only view of a set of HTTP headers.

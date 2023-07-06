@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.compilercontrol.logcompilation;
+
+
+import compiler.compilercontrol.share.processors.LogProcessor;
+import compiler.compilercontrol.share.scenario.Scenario;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8137167
@@ -33,10 +52,7 @@
  * @run driver compiler.compilercontrol.logcompilation.LogTest
  */
 
-package compiler.compilercontrol.logcompilation;
 
-import compiler.compilercontrol.share.processors.LogProcessor;
-import compiler.compilercontrol.share.scenario.Scenario;
 
 public class LogTest {
     public static void main(String[] args) {

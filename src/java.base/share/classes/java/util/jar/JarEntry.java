@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.jar;
+package java.base.share.classes.java.util.jar;
 
-import java.io.IOException;
-import java.util.zip.ZipEntry;
-import java.security.CodeSigner;
-import java.security.cert.Certificate;
+
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.util.zip.ZipEntry;
+import java.base.share.classes.java.security.CodeSigner;
+import java.base.share.classes.java.security.cert.Certificate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to represent a JAR file entry.

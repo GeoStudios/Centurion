@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.util;
+package java.base.share.classes.sun.security.util;
+
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -27,23 +28,35 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
+import java.base.share.classes.sun.security.ssl.SSLLogger;
 
-import static java.nio.charset.StandardCharsets.UTF_8;
 
-import sun.security.ssl.SSLLogger;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Allows public suffixes and registered domains to be determined from a

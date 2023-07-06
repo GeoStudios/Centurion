@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.sound.midi;
+package java.desktop.share.classes.javax.sound.midi;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code Receiver} receives {@link MidiEvent} objects and typically does

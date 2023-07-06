@@ -18,17 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.jfr.jmx.streaming;
+
 
 import java.lang.management.ManagementFactory;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-
 import javax.management.MBeanServerConnection;
-
 import jdk.jfr.Event;
 import jdk.management.jfr.RemoteRecordingStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

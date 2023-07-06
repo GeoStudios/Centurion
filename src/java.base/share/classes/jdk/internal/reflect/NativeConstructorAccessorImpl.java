@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.reflect;
+package java.base.share.classes.jdk.internal.reflect;
+
 
 import sun.reflect.misc.ReflectUtil;
-
 import java.lang.reflect.*;
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Used only for the first few invocations of a Constructor;
     afterward, switches to bytecode-based implementation */

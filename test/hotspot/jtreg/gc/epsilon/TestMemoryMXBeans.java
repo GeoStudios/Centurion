@@ -21,6 +21,22 @@
 
 package gc.epsilon;
 
+
+import java.lang.management.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestMemoryMXBeans
  * @requires vm.gc.Epsilon
@@ -32,7 +48,6 @@ package gc.epsilon;
  * @run main/othervm -XX:+UnlockExperimentalVMOptions -XX:+UseEpsilonGC -Xms128m -Xmx1g gc.epsilon.TestMemoryMXBeans  128 1024
  */
 
-import java.lang.management.*;
 
 public class TestMemoryMXBeans {
 

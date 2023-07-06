@@ -19,23 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.bcel.internal.generic;
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
 
-import com.sun.org.apache.bcel.internal.Const;
-import com.sun.org.apache.bcel.internal.classfile.AnnotationEntry;
-import com.sun.org.apache.bcel.internal.classfile.Annotations;
-import com.sun.org.apache.bcel.internal.classfile.Attribute;
-import com.sun.org.apache.bcel.internal.classfile.Constant;
-import com.sun.org.apache.bcel.internal.classfile.ConstantObject;
-import com.sun.org.apache.bcel.internal.classfile.ConstantPool;
-import com.sun.org.apache.bcel.internal.classfile.ConstantValue;
-import com.sun.org.apache.bcel.internal.classfile.Field;
-import com.sun.org.apache.bcel.internal.classfile.Utility;
-import com.sun.org.apache.bcel.internal.util.BCELComparator;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.AnnotationEntry;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Annotations;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Attribute;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Constant;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantObject;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantPool;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantValue;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Field;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Utility;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.BCELComparator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Template class for building up a field.  The only extraordinary thing

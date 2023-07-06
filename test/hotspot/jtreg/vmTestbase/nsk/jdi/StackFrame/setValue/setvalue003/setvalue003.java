@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.StackFrame.setValue.setvalue003;
+
+
+import nsk.share.*;
+import nsk.share.jpda.*;
+import nsk.share.jdi.*;
+import com.sun.jdi.*;
+import java.util.*;
+import java.io.*;
+import com.sun.jdi.event.*;
+import com.sun.jdi.request.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -103,18 +127,9 @@
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
 
-package nsk.jdi.StackFrame.setValue.setvalue003;
 
-import nsk.share.*;
-import nsk.share.jpda.*;
-import nsk.share.jdi.*;
 
-import com.sun.jdi.*;
-import java.util.*;
-import java.io.*;
 
-import com.sun.jdi.event.*;
-import com.sun.jdi.request.*;
 
 /**
  * The test for the implementation of an object of the type     <BR>

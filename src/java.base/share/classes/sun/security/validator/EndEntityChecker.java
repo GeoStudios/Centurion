@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.validator;
+package java.base.share.classes.sun.security.validator;
+
 
 import java.util.*;
-
 import java.security.cert.*;
-import sun.security.util.KnownOIDs;
-import sun.security.x509.NetscapeCertTypeExtension;
+import java.base.share.classes.sun.security.util.KnownOIDs;
+import java.base.share.classes.sun.security.x509.NetscapeCertTypeExtension;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class to check if an end entity cert is suitable for use in some

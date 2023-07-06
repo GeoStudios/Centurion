@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jdi.request;
+package jdk.jdi.share.classes.com.sun.jdi.request;
 
-import com.sun.jdi.Locatable;
-import com.sun.jdi.Location;
-import com.sun.jdi.ObjectReference;
-import com.sun.jdi.ThreadReference;
-import com.sun.jdi.VirtualMachine;
-import com.sun.jdi.event.BreakpointEvent;
-import com.sun.jdi.event.EventQueue;
-import com.sun.jdi.event.EventSet;
+
+import jdk.jdi.share.classes.com.sun.jdi.Locatable;
+import jdk.jdi.share.classes.com.sun.jdi.Location;
+import jdk.jdi.share.classes.com.sun.jdi.ObjectReference;
+import jdk.jdi.share.classes.com.sun.jdi.ThreadReference;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+import jdk.jdi.share.classes.com.sun.jdi.event.BreakpointEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.EventQueue;
+import jdk.jdi.share.classes.com.sun.jdi.event.EventSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Identifies a {@link Location} in the target VM at which

@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf;
+package java.desktop.share.classes.javax.swing.plaf;
 
-import javax.swing.JSplitPane;
+
+import java.desktop.share.classes.javax.swing.JSplitPane;
 import java.awt.Graphics;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Pluggable look and feel interface for JSplitPane.

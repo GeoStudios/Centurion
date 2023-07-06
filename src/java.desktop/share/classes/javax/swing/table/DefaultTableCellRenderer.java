@@ -19,18 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.table;
+package java.desktop.share.classes.javax.swing.table;
 
-import javax.swing.*;
-import javax.swing.border.*;
 
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.border.*;
 import java.awt.Component;
 import java.awt.Color;
 import java.awt.Rectangle;
-
 import java.io.Serializable;
 import sun.swing.DefaultLookup;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The standard class for rendering (displaying) individual cells

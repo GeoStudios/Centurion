@@ -18,25 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.operators;
+
 
 import java.awt.Component;
 import java.awt.Container;
 import java.text.ParseException;
 import java.util.Date;
 import java.util.Hashtable;
-import java.util.List;
-
+import java.util.java.util.java.util.java.util.List;
 import javax.swing.JComponent;
 import javax.swing.JSpinner;
 import javax.swing.SpinnerDateModel;
-import javax.swing.SpinnerListModel;
+import javax.swing.Spinnerjava.util.ListModel;
 import javax.swing.SpinnerModel;
 import javax.swing.SpinnerNumberModel;
 import javax.swing.SwingConstants;
-import javax.swing.event.ChangeListener;
+import javax.swing.event.Changejava.util.Listener;
 import javax.swing.plaf.SpinnerUI;
-
 import org.netbeans.jemmy.Action;
 import org.netbeans.jemmy.ComponentChooser;
 import org.netbeans.jemmy.ComponentSearcher;
@@ -49,6 +49,19 @@ import org.netbeans.jemmy.Timeouts;
 import org.netbeans.jemmy.drivers.DriverManager;
 import org.netbeans.jemmy.drivers.ScrollDriver;
 import org.netbeans.jemmy.drivers.scrolling.ScrollAdjuster;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides methods to work with {@code javax.swing.JSpinner} component

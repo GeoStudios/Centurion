@@ -19,9 +19,9 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.fs;
+package java.base.linux.classes.sun.nio.fs;
 
-import java.nio.file.FileSystem;
+import java.base.share.classes.java.nio.file.FileSystem;
 
 /**
  * Creates this platform's default FileSystemProvider.

@@ -18,7 +18,23 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package gc.g1.unloading.keepref;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Classes implementing this interface hold reference to object in different ways. This is done to prevent something of being garbage collected/unloaded.

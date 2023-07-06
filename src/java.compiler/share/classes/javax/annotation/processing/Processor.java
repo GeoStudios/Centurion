@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.annotation.processing;
+package java.compiler.share.classes.javax.annotation.processing;
+
 
 import java.util.Set;
-import javax.lang.model.util.Elements;
-import javax.lang.model.AnnotatedConstruct;
-import javax.lang.model.element.*;
-import javax.lang.model.SourceVersion;
+import java.compiler.share.classes.javax.lang.model.util.Elements;
+import java.compiler.share.classes.javax.lang.model.AnnotatedConstruct;
+import java.compiler.share.classes.javax.lang.model.element.*;
+import java.compiler.share.classes.javax.lang.model.SourceVersion;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The interface for an annotation processor.
@@ -379,7 +394,7 @@ public interface Processor {
     *
     * <blockquote>
     * <pre>
-    * import static javax.annotation.processing.Completions.*;
+    * import static java.compiler.share.classes.javax.annotation.processing.Completions.*;
     * ...
     * return List.of({@link Completions#of(String) of}(&quot;3&quot;),
     *                of(&quot;7&quot;),

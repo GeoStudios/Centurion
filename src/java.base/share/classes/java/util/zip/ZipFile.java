@@ -19,56 +19,70 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.zip;
+package java.base.share.classes.java.util.zip;
 
-import java.io.Closeable;
-import java.io.InputStream;
-import java.io.IOException;
-import java.io.EOFException;
-import java.io.File;
-import java.io.RandomAccessFile;
-import java.io.UncheckedIOException;
-import java.lang.ref.Cleaner.Cleanable;
-import java.nio.charset.CharacterCodingException;
-import java.nio.charset.Charset;
-import java.nio.file.InvalidPathException;
-import java.nio.file.attribute.BasicFileAttributes;
-import java.nio.file.Files;
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Deque;
-import java.util.Enumeration;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Locale;
-import java.util.Objects;
-import java.util.NoSuchElementException;
-import java.util.Set;
-import java.util.Spliterator;
-import java.util.Spliterators;
-import java.util.TreeSet;
-import java.util.WeakHashMap;
-import java.util.function.Consumer;
-import java.util.function.IntFunction;
-import java.util.jar.JarEntry;
-import java.util.jar.JarFile;
-import java.util.stream.Stream;
-import java.util.stream.StreamSupport;
+
+import java.base.share.classes.java.io.Closeable;
+import java.base.share.classes.java.io.InputStream;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.EOFException;
+import java.base.share.classes.java.io.File;
+import java.base.share.classes.java.io.RandomAccessFile;
+import java.base.share.classes.java.io.Uncheckedjava.io.java.io.java.io.IOException;
+import java.base.share.classes.java.lang.ref.Cleaner.Cleanable;
+import java.base.share.classes.java.nio.charset.CharacterCodingException;
+import java.base.share.classes.java.nio.charset.Charset;
+import java.base.share.classes.java.nio.file.InvalidPathException;
+import java.base.share.classes.java.nio.file.attribute.BasicFileAttributes;
+import java.base.share.classes.java.nio.file.Files;
+import java.base.share.classes.java.util.ArrayDeque;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.Collections;
+import java.base.share.classes.java.util.Deque;
+import java.base.share.classes.java.util.Enumeration;
+import java.base.share.classes.java.util.HashMap;
+import java.base.share.classes.java.util.Iterator;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.NoSuchElementException;
+import java.base.share.classes.java.util.Set;
+import java.base.share.classes.java.util.Spliterator;
+import java.base.share.classes.java.util.Spliterators;
+import java.base.share.classes.java.util.TreeSet;
+import java.base.share.classes.java.util.WeakHashMap;
+import java.base.share.classes.java.util.function.Consumer;
+import java.base.share.classes.java.util.function.IntFunction;
+import java.base.share.classes.java.util.jar.JarEntry;
+import java.base.share.classes.java.util.jar.JarFile;
+import java.base.share.classes.java.util.stream.Stream;
+import java.base.share.classes.java.util.stream.StreamSupport;
 import jdk.internal.access.JavaUtilZipFileAccess;
 import jdk.internal.access.JavaUtilJarAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.misc.VM;
 import jdk.internal.perf.PerfCounter;
-import jdk.internal.ref.CleanerFactory;
+import java.base.share.classes.jdk.internal.ref.CleanerFactory;
 import jdk.internal.vm.annotation.Stable;
 import sun.nio.cs.UTF_8;
 import sun.security.util.SignatureFileVerifier;
+import static java.base.share.classes.java.util.zip.ZipConstants64.*;.extended
+import static java.base.share.classes.java.util.zip.ZipUtils.*;.extended
 
-import static java.util.zip.ZipConstants64.*;
-import static java.util.zip.ZipUtils.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to read entries from a zip file.

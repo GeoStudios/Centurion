@@ -19,12 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-// created: 2018may10 Markus W. Scherer
+package java.base.share.classes.jdk.internal.icu.util;
 
-package jdk.internal.icu.util;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// created: 2018may10 Markus W. Scherer
+
+
+
 
 /**
  * Abstract map from Unicode code points (U+0000..U+10FFFF) to integer values.

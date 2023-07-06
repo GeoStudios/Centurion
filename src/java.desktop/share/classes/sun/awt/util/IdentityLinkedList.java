@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.util;
+package java.desktop.share.classes.sun.awt.util;
 
-import java.util.AbstractSequentialList;
+
+import java.util.AbstractSequentialjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.ConcurrentModificationException;
 import java.util.Deque;
 import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.java.util.java.util.java.util.List;
+import java.util.java.util.ListIterator;
 import java.util.NoSuchElementException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Linked list implementation of the {@code List} interface.  Implements all

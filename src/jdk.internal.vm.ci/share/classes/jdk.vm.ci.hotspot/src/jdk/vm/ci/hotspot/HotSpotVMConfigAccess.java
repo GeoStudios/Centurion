@@ -18,12 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.hotspot;
+
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
+
 
 import java.util.Set;
 import java.util.stream.Collectors;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.common.JVMCIError;
 
-import jdk.vm.ci.common.JVMCIError;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Access to VM configuration data.

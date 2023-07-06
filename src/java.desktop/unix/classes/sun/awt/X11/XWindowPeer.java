@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.AWTEvent;
 import java.awt.Component;
@@ -47,22 +48,35 @@ import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 import java.util.Vector;
 import java.util.concurrent.atomic.AtomicBoolean;
+import java.desktop.unix.classes.sun.awt.AWTAccessor;
+import java.desktop.unix.classes.sun.awt.AWTAccessor.ComponentAccessor;
+import java.desktop.unix.classes.sun.awt.DisplayChangedjava.util.Listener;
+import java.desktop.unix.classes.sun.awt.IconInfo;
+import java.desktop.unix.classes.sun.awt.SunToolkit;
+import java.desktop.unix.classes.sun.awt.X11GraphicsDevice;
+import java.desktop.unix.classes.sun.awt.X11GraphicsEnvironment;
+import java.desktop.unix.classes.sun.java2d.pipe.Region;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 
-import sun.awt.AWTAccessor;
-import sun.awt.AWTAccessor.ComponentAccessor;
-import sun.awt.DisplayChangedListener;
-import sun.awt.IconInfo;
-import sun.awt.SunToolkit;
-import sun.awt.X11GraphicsDevice;
-import sun.awt.X11GraphicsEnvironment;
-import sun.java2d.pipe.Region;
-import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class XWindowPeer extends XPanelPeer implements WindowPeer,
                                                 DisplayChangedListener {
@@ -633,7 +647,7 @@ class XWindowPeer extends XPanelPeer implements WindowPeer,
         WindowEvent we = new WindowEvent((Window)target, WindowEvent.WINDOW_GAINED_FOCUS);
         /* wrap in Sequenced, then post*/
         XKeyboardFocusManagerPeer.getInstance().setCurrentFocusedWindow((Window) target);
-        postEvent(wrapInSequenced((AWTEvent) we));
+        postEvent(wrapInSequenced(we));
     }
 
     // NOTE: This method may be called by privileged threads.
@@ -643,7 +657,7 @@ class XWindowPeer extends XPanelPeer implements WindowPeer,
         XKeyboardFocusManagerPeer.getInstance().setCurrentFocusedWindow(null);
         XKeyboardFocusManagerPeer.getInstance().setCurrentFocusOwner(null);
         /* wrap in Sequenced, then post*/
-        postEvent(wrapInSequenced((AWTEvent) we));
+        postEvent(wrapInSequenced(we));
     }
     public void handleWindowFocusOutSync(Window oppositeWindow, long serial) {
         WindowEvent we = new WindowEvent((Window)target, WindowEvent.WINDOW_LOST_FOCUS, oppositeWindow);
@@ -1258,7 +1272,7 @@ class XWindowPeer extends XPanelPeer implements WindowPeer,
 
     final boolean isOLWMDecorBug() {
         return XWM.getWMID() == XWM.OPENLOOK_WM &&
-            winAttr.nativeDecor == false;
+                !winAttr.nativeDecor;
     }
 
     public void dispose() {

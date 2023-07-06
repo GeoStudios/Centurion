@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.util;
+package jdk.compiler.share.classes.com.sun.tools.javac.util;
+
 
 import java.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Option;
+import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.*;.extended
 
-import com.sun.tools.javac.main.Option;
-import static com.sun.tools.javac.main.Option.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A table of all command-line options.
  *  If an option has an argument, the option name is mapped to the argument.

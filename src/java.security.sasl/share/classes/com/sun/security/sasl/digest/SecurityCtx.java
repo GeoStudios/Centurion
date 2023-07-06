@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.security.sasl.digest;
+package java.security.sasl.share.classes.com.sun.security.sasl.digest;
+
 
 import javax.security.sasl.SaslException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface used for classes implementing integrity checking and privacy

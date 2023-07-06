@@ -19,23 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.metal;
+package java.desktop.macosx.classes.sun.java2d.metal;
 
-import sun.awt.SunHints;
-import sun.awt.image.PixelConverter;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.SurfaceData;
-import sun.java2d.SurfaceDataProxy;
-import sun.java2d.loops.CompositeType;
-import sun.java2d.loops.GraphicsPrimitive;
-import sun.java2d.loops.MaskFill;
-import sun.java2d.loops.SurfaceType;
-import sun.java2d.pipe.ParallelogramPipe;
-import sun.java2d.pipe.PixelToParallelogramConverter;
-import sun.java2d.pipe.RenderBuffer;
-import sun.java2d.pipe.TextPipe;
-import sun.java2d.pipe.hw.AccelSurface;
 
+import java.desktop.macosx.classes.sun.awt.SunHints;
+import java.desktop.macosx.classes.sun.awt.image.PixelConverter;
+import java.desktop.macosx.classes.sun.java2d.SunGraphics2D;
+import java.desktop.macosx.classes.sun.java2d.SurfaceData;
+import java.desktop.macosx.classes.sun.java2d.SurfaceDataProxy;
+import java.desktop.macosx.classes.sun.java2d.loops.CompositeType;
+import java.desktop.macosx.classes.sun.java2d.loops.GraphicsPrimitive;
+import java.desktop.macosx.classes.sun.java2d.loops.MaskFill;
+import java.desktop.macosx.classes.sun.java2d.loops.SurfaceType;
+import java.desktop.macosx.classes.sun.java2d.pipe.ParallelogramPipe;
+import java.desktop.macosx.classes.sun.java2d.pipe.PixelToParallelogramConverter;
+import java.desktop.macosx.classes.sun.java2d.pipe.RenderBuffer;
+import java.desktop.macosx.classes.sun.java2d.pipe.TextPipe;
+import java.desktop.macosx.classes.sun.java2d.pipe.hw.AccelSurface;
 import java.awt.AlphaComposite;
 import java.awt.Composite;
 import java.awt.GraphicsConfiguration;
@@ -43,14 +43,25 @@ import java.awt.GraphicsEnvironment;
 import java.awt.Image;
 import java.awt.Rectangle;
 import java.awt.Transparency;
-
 import java.awt.image.ColorModel;
 import java.awt.image.Raster;
+import static java.desktop.macosx.classes.sun.java2d.pipe.BufferedOpCodes.DISPOSE_SURFACE;.extended
+import static java.desktop.macosx.classes.sun.java2d.pipe.BufferedOpCodes.FLUSH_SURFACE;.extended
+import static java.desktop.macosx.classes.sun.java2d.pipe.hw.ContextCapabilities.CAPS_MULTITEXTURE;.extended
+import static java.desktop.macosx.classes.sun.java2d.pipe.hw.ContextCapabilities.CAPS_PS30;.extended
 
-import static sun.java2d.pipe.BufferedOpCodes.DISPOSE_SURFACE;
-import static sun.java2d.pipe.BufferedOpCodes.FLUSH_SURFACE;
-import static sun.java2d.pipe.hw.ContextCapabilities.CAPS_MULTITEXTURE;
-import static sun.java2d.pipe.hw.ContextCapabilities.CAPS_PS30;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public abstract class MTLSurfaceData extends SurfaceData

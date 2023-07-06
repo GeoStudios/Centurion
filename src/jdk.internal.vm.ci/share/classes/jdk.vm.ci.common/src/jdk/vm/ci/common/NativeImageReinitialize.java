@@ -18,12 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.common;
+
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.common.src.jdk.vm.ci.common;
+
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Denotes a field that should have the default value for its type in an ahead of time image.

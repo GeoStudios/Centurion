@@ -19,23 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs;
+package java.base.share.classes.sun.security.pkcs;
+
 
 import java.io.*;
-import java.security.Key;
+import java.base.share.classes.java.security.Key;
 import java.security.KeyRep;
-import java.security.PrivateKey;
-import java.security.KeyFactory;
+import java.base.share.classes.java.security.PrivateKey;
+import java.base.share.classes.java.security.KeyFactory;
 import java.security.MessageDigest;
-import java.security.InvalidKeyException;
-import java.security.NoSuchAlgorithmException;
-import java.security.spec.InvalidKeySpecException;
-import java.security.spec.PKCS8EncodedKeySpec;
-import java.util.Arrays;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.spec.InvalidKeySpecException;
+import java.base.share.classes.java.security.spec.PKCS8EncodedKeySpec;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.sun.security.x509.*;
+import java.base.share.classes.sun.security.util.*;
 
-import jdk.internal.access.SharedSecrets;
-import sun.security.x509.*;
-import sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Holds a PKCS#8 key, for example a private key

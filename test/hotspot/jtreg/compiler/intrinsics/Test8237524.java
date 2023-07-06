@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics;
+
+
+import java.lang.reflect.Constructor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8237524
@@ -29,9 +47,7 @@
  * @run main/othervm -XX:+CompactStrings compiler.intrinsics.Test8237524
  */
 
-package compiler.intrinsics;
 
-import java.lang.reflect.Constructor;
 
 public class Test8237524 {
 

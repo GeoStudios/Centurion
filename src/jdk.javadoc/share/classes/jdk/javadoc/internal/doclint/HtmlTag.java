@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclint;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclint;
+
 
 import java.util.Collections;
 import java.util.EnumMap;
@@ -28,10 +29,22 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 import javax.lang.model.element.Name;
-
 import com.sun.tools.javac.util.StringUtils;
+import static jdk.javadoc.share.classes.jdk.javadoc.internal.doclint.HtmlTag.Attr.*;.extended
 
-import static jdk.javadoc.internal.doclint.HtmlTag.Attr.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Enum representing HTML tags.

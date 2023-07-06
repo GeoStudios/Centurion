@@ -19,24 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.relation;
+package java.management.share.classes.javax.management.relation;
 
-import static com.sun.jmx.mbeanserver.Util.cast;
+
+import static com.sun.jmx.mbeanserver.Util.cast;.extended
 import com.sun.jmx.mbeanserver.GetPropertyAction;
-
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.ObjectStreamField;
 import java.io.Serializable;
-
 import java.security.AccessController;
-
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.management.share.classes.javax.management.ObjectName;
 
-import javax.management.ObjectName;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a role: includes a role name and referenced MBeans (via their

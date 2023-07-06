@@ -19,30 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.relation;
+package java.management.share.classes.javax.management.relation;
 
-import static com.sun.jmx.mbeanserver.Util.cast;
-import static com.sun.jmx.defaults.JmxProperties.RELATION_LOGGER;
+
+import static com.sun.jmx.mbeanserver.Util.cast;.extended
+import static com.sun.jmx.defaults.JmxProperties.RELATION_LOGGER;.extended
 import com.sun.jmx.mbeanserver.GetPropertyAction;
-
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.ObjectStreamField;
 import java.security.AccessController;
-
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Vector;
-
-import javax.management.MBeanServerNotification;
-
-import javax.management.Notification;
-import javax.management.NotificationFilterSupport;
-import javax.management.ObjectName;
-
-import java.util.List;
+import java.management.share.classes.javax.management.MBeanServerNotification;
+import java.management.share.classes.javax.management.Notification;
+import java.management.share.classes.javax.management.NotificationFilterSupport;
+import java.management.share.classes.javax.management.ObjectName;
+import java.util.java.util.java.util.java.util.List;
 import java.lang.System.Logger.Level;
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Filter for {@link MBeanServerNotification}.

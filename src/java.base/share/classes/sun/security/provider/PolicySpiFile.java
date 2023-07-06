@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider;
+package java.base.share.classes.sun.security.provider;
+
 
 import java.security.CodeSource;
 import java.security.Permission;
@@ -28,8 +29,21 @@ import java.security.Policy;
 import java.security.PolicySpi;
 import java.security.ProtectionDomain;
 import java.security.URIParameter;
-
 import java.net.MalformedURLException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class wraps the PolicyFile subclass implementation of Policy

@@ -21,11 +21,24 @@
 
 package com.evilprovider;
 
-import java.security.*;
-import java.security.spec.*;
-import java.nio.ByteBuffer;
 
-import javax.crypto.*;
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.java.security.spec.*;
+import java.nio.ByteBuffer;
+import java.base.share.classes.javax.crypto.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class EvilHmacSHA1 extends MacSpi {
     private final Mac internalMac;

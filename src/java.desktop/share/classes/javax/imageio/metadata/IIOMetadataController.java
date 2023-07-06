@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.imageio.metadata;
+package java.desktop.share.classes.javax.imageio.metadata;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An interface to be implemented by objects that can determine the

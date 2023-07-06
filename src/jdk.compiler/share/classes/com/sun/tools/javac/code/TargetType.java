@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.code;
+package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
-import com.sun.tools.javac.util.Assert;
+
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Describes the type of program element an extended annotation (or extended

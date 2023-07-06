@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.data;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+package utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data;
+
+
+import utils.IdealGraphVisualizer.Data.src.main.java.util.Arrayjava.util.java.util.java.util.List;
+import utils.IdealGraphVisualizer.Data.src.main.java.util.Collections;
+import utils.IdealGraphVisualizer.Data.src.main.java.util.java.util.java.util.java.util.List;
+import utils.IdealGraphVisualizer.Data.src.main.java.util.regex.Matcher;
+import utils.IdealGraphVisualizer.Data.src.main.java.util.regex.Pattern;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

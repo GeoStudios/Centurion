@@ -19,12 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/**
- * Demonstrate JNDI using the 'ldapv4' URL scheme supplied by a third-party
- * module.
- */
-
 package test;
+
 
 import java.io.PrintStream;
 import java.net.*;
@@ -32,6 +28,26 @@ import java.util.*;
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.ldap.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Demonstrate JNDI using the 'ldapv4' URL scheme supplied by a third-party
+ * module.
+ */
+
+
 
 public class ReadByUrl {
 

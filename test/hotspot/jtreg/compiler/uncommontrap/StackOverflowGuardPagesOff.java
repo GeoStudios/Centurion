@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.uncommontrap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8029383
@@ -31,7 +48,6 @@
  *      compiler.uncommontrap.StackOverflowGuardPagesOff
  */
 
-package compiler.uncommontrap;
 
 // This test calls m2 recursively until a stack overflow. Then calls
 // m3 that calls m1. m1 triggers B's class loading, as a result m1 and

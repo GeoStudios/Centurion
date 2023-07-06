@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang;
 
-import java.time.Duration;
-import java.time.Instant;
-import java.util.Optional;
-import java.util.concurrent.CompletableFuture;
-import java.util.stream.Stream;
+package java.base.share.classes.java.lang;
+
+
+import java.base.share.classes.java.time.Duration;
+import java.base.share.classes.java.time.Instant;
+import java.base.share.classes.java.util.Optional;
+import java.base.share.classes.java.util.concurrent.CompletableFuture;
+import java.base.share.classes.java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ProcessHandle identifies and provides control of native processes. Each

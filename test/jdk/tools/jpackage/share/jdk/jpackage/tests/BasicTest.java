@@ -21,11 +21,12 @@
 
 package jdk.jpackage.tests;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.List;
-import java.util.ArrayList;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
@@ -40,6 +41,19 @@ import jdk.jpackage.test.Executor;
 import jdk.jpackage.test.JavaTool;
 import jdk.jpackage.test.Annotations.Test;
 import jdk.jpackage.test.Annotations.Parameter;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

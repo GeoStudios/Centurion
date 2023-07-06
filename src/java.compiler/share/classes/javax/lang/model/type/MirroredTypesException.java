@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.lang.model.type;
+package java.compiler.share.classes.javax.lang.model.type;
 
-import java.util.ArrayList;
-import java.util.List;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Collections;
 import java.io.ObjectInputStream;
-import java.io.IOException;
-import javax.lang.model.element.Element;
+import java.io.java.io.java.io.java.io.IOException;
+import java.compiler.share.classes.javax.lang.model.element.Element;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

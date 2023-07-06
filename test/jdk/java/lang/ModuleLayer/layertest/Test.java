@@ -19,11 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package layertest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Supporting class for tests of java.lang.ModuleLayer.
  */
 
-package layertest;
 
 public class Test { }
 

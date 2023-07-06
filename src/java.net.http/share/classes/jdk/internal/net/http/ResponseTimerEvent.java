@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
+
 
 import java.net.ConnectException;
 import java.net.http.HttpConnectTimeoutException;
 import java.net.http.HttpTimeoutException;
-import jdk.internal.net.http.common.Logger;
-import jdk.internal.net.http.common.Utils;
+import java.net.http.share.classes.jdk.internal.net.http.common.Logger;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ResponseTimerEvent extends TimeoutEvent {
     private static final Logger debug =

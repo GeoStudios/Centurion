@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package common;
+
 
 import java.io.StringReader;
 import javax.xml.parsers.SAXParserFactory;
@@ -30,12 +32,25 @@ import javax.xml.stream.events.Characters;
 import javax.xml.stream.events.XMLEvent;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.ext.DefaultHandler2;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

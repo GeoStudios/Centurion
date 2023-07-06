@@ -21,11 +21,12 @@
 
 package jdk.jpackage.tests;
 
+
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Path;
 import java.util.Collection;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -37,6 +38,18 @@ import jdk.jpackage.test.PackageType;
 import jdk.jpackage.test.Annotations.Parameter;
 import jdk.jpackage.test.Annotations.Parameters;
 import jdk.jpackage.test.Annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*

@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import javax.swing.JComponent;
 import javax.swing.plaf.ComponentUI;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.*;
 
-import com.apple.laf.AquaUtils.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaButtonToggleUI extends AquaButtonUI {
     // Create PLAF

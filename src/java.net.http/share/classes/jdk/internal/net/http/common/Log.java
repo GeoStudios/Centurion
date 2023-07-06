@@ -19,22 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http.common;
+package java.net.http.share.classes.jdk.internal.net.http.common;
+
 
 import java.net.http.HttpHeaders;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 import java.util.function.Supplier;
-import jdk.internal.net.http.frame.DataFrame;
-import jdk.internal.net.http.frame.Http2Frame;
-import jdk.internal.net.http.frame.WindowUpdateFrame;
-
+import java.net.http.share.classes.jdk.internal.net.http.frame.DataFrame;
+import java.net.http.share.classes.jdk.internal.net.http.frame.Http2Frame;
+import java.net.http.share.classes.jdk.internal.net.http.frame.WindowUpdateFrame;
 import javax.net.ssl.SNIServerName;
 import javax.net.ssl.SSLParameters;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * -Djdk.httpclient.HttpClient.log=

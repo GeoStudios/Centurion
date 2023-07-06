@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.d3d;
+package java.desktop.windows.classes.sun.java2d.d3d;
+
 
 import java.awt.Dialog;
 import java.awt.DisplayMode;
@@ -30,20 +31,32 @@ import java.awt.Toolkit;
 import java.awt.Window;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-import java.awt.event.WindowListener;
+import java.awt.event.Windowjava.util.Listener;
 import java.awt.peer.WindowPeer;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.desktop.windows.classes.sun.awt.AWTAccessor;
+import java.desktop.windows.classes.sun.awt.AWTAccessor.ComponentAccessor;
+import java.desktop.windows.classes.sun.awt.Win32GraphicsDevice;
+import java.desktop.windows.classes.sun.awt.windows.WWindowPeer;
+import java.desktop.windows.classes.sun.java2d.d3d.D3DContext.D3DContextCaps;
+import java.desktop.windows.classes.sun.java2d.pipe.hw.ContextCapabilities;
+import java.desktop.windows.classes.sun.java2d.windows.WindowsFlags;
+import static java.desktop.windows.classes.sun.java2d.d3d.D3DContext.D3DContextCaps.CAPS_DEVICE_OK;.extended
+import static java.desktop.windows.classes.sun.java2d.d3d.D3DContext.D3DContextCaps.CAPS_EMPTY;.extended
 
-import sun.awt.AWTAccessor;
-import sun.awt.AWTAccessor.ComponentAccessor;
-import sun.awt.Win32GraphicsDevice;
-import sun.awt.windows.WWindowPeer;
-import sun.java2d.d3d.D3DContext.D3DContextCaps;
-import sun.java2d.pipe.hw.ContextCapabilities;
-import sun.java2d.windows.WindowsFlags;
 
-import static sun.java2d.d3d.D3DContext.D3DContextCaps.CAPS_DEVICE_OK;
-import static sun.java2d.d3d.D3DContext.D3DContextCaps.CAPS_EMPTY;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements D3D-specific functionality, such as fullscreen

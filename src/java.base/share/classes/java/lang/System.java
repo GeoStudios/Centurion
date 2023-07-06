@@ -18,50 +18,52 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
-import java.io.Console;
-import java.io.FileDescriptor;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.PrintStream;
-import java.io.UnsupportedEncodingException;
-import java.lang.annotation.Annotation;
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodType;
-import java.lang.invoke.StringConcatFactory;
-import java.lang.module.ModuleDescriptor;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Executable;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
-import java.net.URI;
-import java.net.URL;
-import java.nio.charset.CharacterCodingException;
-import java.nio.channels.Channel;
-import java.nio.channels.spi.SelectorProvider;
-import java.nio.charset.Charset;
-import java.security.AccessControlContext;
-import java.security.AccessController;
-import java.security.CodeSource;
-import java.security.PrivilegedAction;
-import java.security.ProtectionDomain;
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Properties;
-import java.util.PropertyPermission;
-import java.util.ResourceBundle;
-import java.util.Set;
-import java.util.WeakHashMap;
-import java.util.function.Supplier;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.stream.Stream;
+package java.base.share.classes.java.lang;
+
+
+import java.base.share.classes.java.io.BufferedInputStream;
+import java.base.share.classes.java.io.BufferedOutputStream;
+import java.base.share.classes.java.io.Console;
+import java.base.share.classes.java.io.FileDescriptor;
+import java.base.share.classes.java.io.FileInputStream;
+import java.base.share.classes.java.io.FileOutputStream;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.InputStream;
+import java.base.share.classes.java.io.PrintStream;
+import java.base.share.classes.java.io.UnsupportedEncodingException;
+import java.base.share.classes.java.lang.annotation.Annotation;
+import java.base.share.classes.java.lang.invoke.MethodHandle;
+import java.base.share.classes.java.lang.invoke.MethodType;
+import java.base.share.classes.java.lang.invoke.StringConcatFactory;
+import java.base.share.classes.java.lang.module.ModuleDescriptor;
+import java.base.share.classes.java.lang.reflect.Constructor;
+import java.base.share.classes.java.lang.reflect.Executable;
+import java.base.share.classes.java.lang.reflect.Method;
+import java.base.share.classes.java.lang.reflect.Modifier;
+import java.base.share.classes.java.net.URI;
+import java.base.share.classes.java.net.URL;
+import java.base.share.classes.java.nio.charset.CharacterCodingException;
+import java.base.share.classes.java.nio.channels.Channel;
+import java.base.share.classes.java.nio.channels.spi.SelectorProvider;
+import java.base.share.classes.java.nio.charset.Charset;
+import java.base.share.classes.java.security.AccessControlContext;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.CodeSource;
+import java.base.share.classes.java.security.PrivilegedAction;
+import java.base.share.classes.java.security.ProtectionDomain;
+import java.base.share.classes.java.util.Collections;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Properties;
+import java.base.share.classes.java.util.PropertyPermission;
+import java.base.share.classes.java.util.ResourceBundle;
+import java.base.share.classes.java.util.Set;
+import java.base.share.classes.java.util.WeakHashMap;
+import java.base.share.classes.java.util.function.Supplier;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.stream.Stream;
 import jdk.internal.misc.Unsafe;
 import jdk.internal.util.StaticProperty;
 import jdk.internal.module.ModuleBootstrap;
@@ -69,18 +71,32 @@ import jdk.internal.module.ServicesCatalog;
 import jdk.internal.reflect.CallerSensitive;
 import jdk.internal.reflect.Reflection;
 import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.misc.VM;
 import jdk.internal.logger.LoggerFinderLoader;
 import jdk.internal.logger.LazyLoggers;
 import jdk.internal.logger.LocalizedLoggerWrapper;
 import jdk.internal.util.SystemProps;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 import jdk.internal.vm.annotation.Stable;
 import sun.nio.fs.DefaultFileSystemProvider;
 import sun.reflect.annotation.AnnotationType;
 import sun.nio.ch.Interruptible;
 import sun.security.util.SecurityConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code System} class contains several useful class fields

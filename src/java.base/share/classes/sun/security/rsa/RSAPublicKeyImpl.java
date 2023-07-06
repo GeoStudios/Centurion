@@ -19,19 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.rsa;
+package java.base.share.classes.sun.security.rsa;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
-
-import java.security.*;
-import java.security.spec.*;
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.java.security.spec.*;
 import java.security.interfaces.*;
+import java.base.share.classes.sun.security.util.*;
+import java.base.share.classes.sun.security.x509.X509Key;
+import java.base.share.classes.sun.security.rsa.RSAUtil.KeyType;
 
-import sun.security.util.*;
-import sun.security.x509.X509Key;
 
-import sun.security.rsa.RSAUtil.KeyType;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * RSA public key implementation for "RSA", "RSASSA-PSS" algorithms.

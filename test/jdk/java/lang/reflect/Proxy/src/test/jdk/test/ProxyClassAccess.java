@@ -21,16 +21,29 @@
 
 package jdk.test;
 
+
 import jdk.test.internal.*;
 import jdk.test.internal.foo.*;
 import p.two.Bar;
 import p.three.P;
-
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.net.URL;
 import java.net.URLClassLoader;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test proxy class to have access to types referenced in the public methods.

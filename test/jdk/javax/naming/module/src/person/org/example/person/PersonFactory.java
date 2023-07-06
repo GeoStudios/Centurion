@@ -19,16 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * State factory and object factory for the Person class.
- */
-
 package org.example.person;
+
 
 import java.util.Hashtable;
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.spi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * State factory and object factory for the Person class.
+ */
+
+
 
 public class PersonFactory implements DirStateFactory, DirObjectFactory {
 

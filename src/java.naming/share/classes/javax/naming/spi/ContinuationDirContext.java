@@ -19,23 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.naming.spi;
+package java.naming.share.classes.javax.naming.spi;
+
 
 import java.util.Hashtable;
+import java.naming.share.classes.javax.naming.Name;
+import java.naming.share.classes.javax.naming.NamingEnumeration;
+import java.naming.share.classes.javax.naming.CompositeName;
+import java.naming.share.classes.javax.naming.NamingException;
+import java.naming.share.classes.javax.naming.CannotProceedException;
+import java.naming.share.classes.javax.naming.OperationNotSupportedException;
+import java.naming.share.classes.javax.naming.Context;
+import java.naming.share.classes.javax.naming.directory.DirContext;
+import java.naming.share.classes.javax.naming.directory.Attributes;
+import java.naming.share.classes.javax.naming.directory.SearchControls;
+import java.naming.share.classes.javax.naming.directory.SearchResult;
+import java.naming.share.classes.javax.naming.directory.ModificationItem;
 
-import javax.naming.Name;
-import javax.naming.NamingEnumeration;
-import javax.naming.CompositeName;
-import javax.naming.NamingException;
-import javax.naming.CannotProceedException;
-import javax.naming.OperationNotSupportedException;
-import javax.naming.Context;
 
-import javax.naming.directory.DirContext;
-import javax.naming.directory.Attributes;
-import javax.naming.directory.SearchControls;
-import javax.naming.directory.SearchResult;
-import javax.naming.directory.ModificationItem;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This class is the continuation context for invoking DirContext methods.

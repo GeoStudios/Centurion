@@ -21,7 +21,21 @@
 
 package myapp;
 
+
 import somelib.Invariants;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This test is modelled to use --patch-module to gain access to non-exported internals.

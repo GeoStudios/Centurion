@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text;
+
+package java.desktop.share.classes.javax.swing.text;
+
 
 import java.awt.Component;
 import java.awt.Rectangle;
@@ -28,15 +30,28 @@ import java.awt.Shape;
 import java.awt.Graphics2D;
 import java.awt.font.TextAttribute;
 import java.awt.geom.Rectangle2D;
-
 import java.text.*;
-import javax.swing.JComponent;
-import javax.swing.SwingConstants;
-import javax.swing.text.ParagraphView.Row;
+import java.desktop.share.classes.javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.SwingConstants;
+import java.desktop.share.classes.javax.swing.text.ParagraphView.Row;
 import sun.swing.SwingUtilities2;
-import static sun.swing.SwingUtilities2.drawChars;
-import static sun.swing.SwingUtilities2.getFontCharWidth;
-import static sun.swing.SwingUtilities2.getFontCharsWidth;
+import static sun.swing.SwingUtilities2.drawChars;.extended
+import static sun.swing.SwingUtilities2.getFontCharWidth;.extended
+import static sun.swing.SwingUtilities2.getFontCharsWidth;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A collection of methods to deal with various text

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.beans.editors;
+package java.desktop.share.classes.com.sun.beans.editors;
+
 
 import java.awt.Choice;
 import java.awt.Component;
@@ -30,9 +31,23 @@ import java.awt.FontMetrics;
 import java.awt.Label;
 import java.awt.Panel;
 import java.awt.Toolkit;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.beans.PropertyChangeSupport;
 import java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class FontEditor extends Panel implements java.beans.PropertyEditor {
 

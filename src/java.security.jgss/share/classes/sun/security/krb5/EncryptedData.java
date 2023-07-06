@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5;
+package java.security.jgss.share.classes.sun.security.krb5;
 
-import sun.security.util.*;
-import sun.security.krb5.internal.crypto.*;
-import sun.security.krb5.internal.*;
-import java.io.IOException;
+
+import java.security.jgss.share.classes.sun.security.util.*;
+import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.*;
+import java.security.jgss.share.classes.sun.security.krb5.internal.*;
+import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class encapsulates Kerberos encrypted data. It allows

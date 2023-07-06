@@ -21,18 +21,28 @@
 
 package jdk.jfr.event.io;
 
-import static jdk.test.lib.Asserts.assertEquals;
-import static jdk.test.lib.Asserts.assertTrue;
 
+import static jdk.test.lib.Asserts.assertEquals;.extended
+import static jdk.test.lib.Asserts.assertTrue;.extended
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.stream.Collectors;
-
 import jdk.jfr.event.io.IOEvent.EventType;
-
 import jdk.jfr.consumer.RecordedEvent;
 import jdk.test.lib.jfr.Events;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Helper class to match actual RecordedEvents to expected events.

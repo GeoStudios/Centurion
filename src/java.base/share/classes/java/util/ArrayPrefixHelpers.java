@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.java.util;
+
+
+import java.base.share.classes.java.util.concurrent.CountedCompleter;
+import java.base.share.classes.java.util.concurrent.ForkJoinPool;
+import java.base.share.classes.java.util.function.BinaryOperator;
+import java.base.share.classes.java.util.function.DoubleBinaryOperator;
+import java.base.share.classes.java.util.function.IntBinaryOperator;
+import java.base.share.classes.java.util.function.LongBinaryOperator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -30,14 +54,8 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util;
 
-import java.util.concurrent.CountedCompleter;
-import java.util.concurrent.ForkJoinPool;
-import java.util.function.BinaryOperator;
-import java.util.function.DoubleBinaryOperator;
-import java.util.function.IntBinaryOperator;
-import java.util.function.LongBinaryOperator;
+
 
 /**
  * ForkJoin tasks to perform Arrays.parallelPrefix operations.

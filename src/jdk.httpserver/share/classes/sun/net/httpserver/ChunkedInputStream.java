@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.httpserver;
+package jdk.httpserver.share.classes.sun.net.httpserver;
+
 
 import java.io.*;
 import java.net.*;
 import com.sun.net.httpserver.*;
 import com.sun.net.httpserver.spi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class ChunkedInputStream extends LeftOverInputStream {
     ChunkedInputStream (ExchangeImpl t, InputStream src) {

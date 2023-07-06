@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.windows.classes.java.lang;
+
+
+import java.base.windows.classes.java.io.*;
+import java.base.windows.classes.java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* We use APIs that access a so-called Windows "Environment Block",
  * which looks like an array of jchars like this:
  *
@@ -55,10 +75,8 @@
  *
  */
 
-package java.lang;
 
-import java.io.*;
-import java.util.*;
+
 
 final class ProcessEnvironment extends HashMap<String,String>
 {

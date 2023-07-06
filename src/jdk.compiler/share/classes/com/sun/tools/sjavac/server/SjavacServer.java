@@ -19,30 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac.server;
+package jdk.compiler.share.classes.com.sun.tools.sjavac.server;
+
 
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.net.InetAddress;
-import java.net.InetSocketAddress;
-import java.net.ServerSocket;
-import java.net.Socket;
-import java.net.SocketException;
+import java.net.Inetjava.net.SocketAddress;
+import java.net.java.net.java.net.Serverjava.net.java.net.Socket;
+import java.net.java.net.java.net.java.net.Socket;
+import java.net.java.net.SocketException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 import java.util.concurrent.atomic.AtomicBoolean;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Main;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Main.Result;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.Log;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.Util;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.client.PortFileInaccessibleException;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.comp.PooledSjavac;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.comp.SjavacImpl;
 
-import com.sun.tools.javac.main.Main;
-import com.sun.tools.javac.main.Main.Result;
-import com.sun.tools.sjavac.Log;
-import com.sun.tools.sjavac.Util;
-import com.sun.tools.sjavac.client.PortFileInaccessibleException;
-import com.sun.tools.sjavac.comp.PooledSjavac;
-import com.sun.tools.sjavac.comp.SjavacImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The JavacServer class contains methods both to setup a server that responds to requests and methods to connect to this server.
@@ -175,7 +189,7 @@ public class SjavacServer implements Terminable {
             sjavac = new PooledSjavac(sjavac, poolsize);
             sjavac = new IdleResetSjavac(sjavac,
                                          this,
-                                         keepalive * 1000);
+                                         keepalive * 1000L);
 
             serverSocket = new ServerSocket();
             InetAddress localhost = InetAddress.getByName(null);

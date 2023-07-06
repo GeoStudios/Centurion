@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.uncommontrap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6898462 8198826
@@ -31,7 +48,6 @@
  *      compiler.uncommontrap.TestDeoptOOM
  */
 
-package compiler.uncommontrap;
 
 public class TestDeoptOOM {
 

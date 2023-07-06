@@ -21,5 +21,20 @@
 
 package p;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class A extends Bogus {
 }

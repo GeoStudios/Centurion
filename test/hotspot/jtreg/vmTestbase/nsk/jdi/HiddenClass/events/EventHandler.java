@@ -21,12 +21,12 @@
 
 package nsk.jdi.HiddenClass.events;
 
+
 import com.sun.jdi.ClassType;
 import com.sun.jdi.Field;
 import com.sun.jdi.Method;
 import com.sun.jdi.ReferenceType;
 import com.sun.jdi.ThreadReference;
-
 import com.sun.jdi.event.Event;
 import com.sun.jdi.event.EventIterator;
 import com.sun.jdi.event.EventSet;
@@ -35,11 +35,22 @@ import com.sun.jdi.event.ClassPrepareEvent;
 import com.sun.jdi.event.ClassUnloadEvent;
 import com.sun.jdi.event.ModificationWatchpointEvent;
 import com.sun.jdi.request.EventRequest;
-
 import jdk.test.lib.Asserts;
 import nsk.jdi.HiddenClass.events.DebuggerBase;
-
 import nsk.share.Log;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* This is a special thread to handle hidden class related events.
  * The thread is looping on accepting events until all the expected

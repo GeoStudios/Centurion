@@ -18,21 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.bench.java.lang.invoke;
+
 
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.runner.Runner;
 import org.openjdk.jmh.runner.RunnerException;
 import org.openjdk.jmh.runner.options.Options;
 import org.openjdk.jmh.runner.options.OptionsBuilder;
-
 import java.lang.invoke.MethodHandles;
 import java.lang.reflect.Field;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.util.concurrent.TimeUnit;
+import static java.lang.invoke.MethodHandles.Lookup.ClassOption.*;.extended
 
-import static java.lang.invoke.MethodHandles.Lookup.ClassOption.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class LookupDefineClass {
     /**

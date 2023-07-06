@@ -21,6 +21,23 @@
 
 package MyPackage;
 
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @build Frame HeapMonitor
@@ -30,8 +47,6 @@ package MyPackage;
  * @run main/othervm/native -agentlib:HeapMonitorTest MyPackage.HeapMonitorThreadOnOffTest
  */
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class HeapMonitorThreadOnOffTest {
   public static void main(String[] args) {

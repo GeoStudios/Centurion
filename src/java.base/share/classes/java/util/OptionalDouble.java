@@ -18,12 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.util;
 
-import java.util.function.DoubleConsumer;
-import java.util.function.DoubleSupplier;
-import java.util.function.Supplier;
-import java.util.stream.DoubleStream;
+package java.base.share.classes.java.util;
+
+
+import java.base.share.classes.java.util.function.DoubleConsumer;
+import java.base.share.classes.java.util.function.DoubleSupplier;
+import java.base.share.classes.java.util.function.Supplier;
+import java.base.share.classes.java.util.stream.DoubleStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A container object which may or may not contain a {@code double} value.

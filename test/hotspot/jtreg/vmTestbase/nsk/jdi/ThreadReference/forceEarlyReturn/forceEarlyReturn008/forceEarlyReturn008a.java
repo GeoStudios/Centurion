@@ -18,9 +18,24 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.jdi.ThreadReference.forceEarlyReturn.forceEarlyReturn008;
 
+
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //    THIS TEST IS LINE NUMBER SENSITIVE
 public class forceEarlyReturn008a extends AbstractJDIDebuggee {

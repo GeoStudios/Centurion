@@ -18,28 +18,41 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.internal.net.http.hpack;
 
-import org.testng.annotations.Test;
 
-import java.io.IOException;
+import org.testng.annotations.Test;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.Buffer;
 import java.nio.ByteBuffer;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Function;
+import static jdk.internal.net.http.hpack.BuffersTestingKit.concat;.extended
+import static jdk.internal.net.http.hpack.BuffersTestingKit.forEachSplit;.extended
+import static jdk.internal.net.http.hpack.SpecHelper.toHexdump;.extended
+import static jdk.internal.net.http.hpack.TestHelper.assertVoidThrows;.extended
+import static java.util.java.util.java.util.java.util.Arrays.asjava.util.java.util.List;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertTrue;.extended
 
-import static jdk.internal.net.http.hpack.BuffersTestingKit.concat;
-import static jdk.internal.net.http.hpack.BuffersTestingKit.forEachSplit;
-import static jdk.internal.net.http.hpack.SpecHelper.toHexdump;
-import static jdk.internal.net.http.hpack.TestHelper.assertVoidThrows;
-import static java.util.Arrays.asList;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
+
+
+
+
+
+
+
+
+
+
+
+
 
 // TODO: map textual representation of commands from the spec to actual
 // calls to encoder (actually, this is a good idea for decoder as well)

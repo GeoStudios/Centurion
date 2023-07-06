@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
+
 
 import javax.security.auth.Subject;
 import javax.security.auth.login.LoginException;
 import javax.security.auth.callback.CallbackHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class defines login and logout methods for a provider.

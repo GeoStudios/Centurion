@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.unix.classes.sun.font;
+
 
 import java.awt.Font;
 import java.awt.FontFormatException;
@@ -31,7 +32,21 @@ import java.awt.geom.Rectangle2D;
 import java.io.UnsupportedEncodingException;
 import java.lang.ref.WeakReference;
 import java.nio.charset.StandardCharsets;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Ideally there would be no native fonts used, and this class would be

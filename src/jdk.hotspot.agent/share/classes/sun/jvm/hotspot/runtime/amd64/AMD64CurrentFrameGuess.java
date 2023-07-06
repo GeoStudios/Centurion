@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.runtime.amd64;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.amd64;
 
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.debugger.amd64.*;
-import sun.jvm.hotspot.code.*;
-import sun.jvm.hotspot.interpreter.*;
-import sun.jvm.hotspot.oops.*;
-import sun.jvm.hotspot.runtime.*;
-import sun.jvm.hotspot.runtime.x86.*;
-import sun.jvm.hotspot.types.*;
-import sun.jvm.hotspot.utilities.*;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.amd64.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.interpreter.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.x86.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** <P> Should be able to be used on all amd64 platforms we support
     (Linux/amd64) to implement JavaThread's

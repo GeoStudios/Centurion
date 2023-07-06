@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.instrument;
+package java.instrument.share.classes.java.lang.instrument;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Thrown to indicate that a module cannot be modified.

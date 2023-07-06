@@ -19,23 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.tool;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.tool;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.LinkedHashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import javax.lang.model.element.ElementKind;
-
 import com.sun.tools.javac.main.Option;
 import com.sun.tools.javac.main.Option.InvalidValueException;
 import com.sun.tools.javac.main.OptionHelper;
 import com.sun.tools.javac.util.Context;
 import com.sun.tools.javac.util.Options;
+import static jdk.javadoc.share.classes.jdk.javadoc.internal.tool.Main.Result.OK;.extended
+import static jdk.javadoc.share.classes.jdk.javadoc.internal.tool.ToolOptions.ToolOption.Kind.*;.extended
 
-import static jdk.javadoc.internal.tool.Main.Result.OK;
-import static jdk.javadoc.internal.tool.ToolOptions.ToolOption.Kind.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Storage and support for javadoc tool options, as distinct from

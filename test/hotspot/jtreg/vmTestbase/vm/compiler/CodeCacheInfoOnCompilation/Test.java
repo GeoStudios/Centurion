@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.compiler.CodeCacheInfoOnCompilation;
+
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -35,10 +53,7 @@
  * @run driver vm.compiler.CodeCacheInfoOnCompilation.Test
  */
 
-package vm.compiler.CodeCacheInfoOnCompilation;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class Test {
     private static String REGEXP = "^(CodeCache|(CodeHeap.*)): size=\\d+Kb used=\\d+Kb max_used=\\d+Kb free=\\d+Kb";

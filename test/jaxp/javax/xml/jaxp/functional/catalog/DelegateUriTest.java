@@ -21,16 +21,28 @@
 
 package catalog;
 
-import static catalog.CatalogTestUtils.catalogUriResolver;
-import static catalog.ResolutionChecker.checkUriResolution;
-import static catalog.ResolutionChecker.expectExceptionOnUri;
 
+import static catalog.CatalogTestUtils.catalogUriResolver;.extended
+import static catalog.ResolutionChecker.checkUriResolution;.extended
+import static catalog.ResolutionChecker.expectExceptionOnUri;.extended
 import javax.xml.catalog.CatalogResolver;
 import javax.xml.catalog.CatalogException;
-
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

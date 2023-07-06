@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole.inspector;
+package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
+
 
 import java.awt.Image;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
-import sun.tools.jconsole.JConsole;
+import jdk.jconsole.share.classes.sun.tools.jconsole.JConsole;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class IconManager {
 

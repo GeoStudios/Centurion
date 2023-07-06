@@ -19,24 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.windbg;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.windbg;
+
 
 import java.io.*;
 import java.net.*;
 import java.util.*;
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.debugger.aarch64.*;
-import sun.jvm.hotspot.debugger.amd64.*;
-import sun.jvm.hotspot.debugger.x86.*;
-import sun.jvm.hotspot.debugger.windbg.aarch64.*;
-import sun.jvm.hotspot.debugger.windbg.amd64.*;
-import sun.jvm.hotspot.debugger.windbg.x86.*;
-import sun.jvm.hotspot.debugger.win32.coff.*;
-import sun.jvm.hotspot.debugger.cdbg.*;
-import sun.jvm.hotspot.debugger.cdbg.basic.BasicDebugEvent;
-import sun.jvm.hotspot.utilities.*;
-import sun.jvm.hotspot.utilities.memo.*;
-import sun.jvm.hotspot.runtime.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.aarch64.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.amd64.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.x86.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.windbg.aarch64.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.windbg.amd64.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.windbg.x86.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.basic.BasicDebugEvent;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.memo.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** <P> An implementation of the JVMDebugger interface which talks to
     windbg and symbol table management is done in Java. </P>

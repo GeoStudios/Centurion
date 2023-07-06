@@ -21,7 +21,21 @@
 
 package examples;
 
+
 import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class with a record for a serialization proxy.

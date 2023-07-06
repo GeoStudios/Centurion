@@ -19,16 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole;
+package jdk.jconsole.share.classes.sun.tools.jconsole;
+
 
 import java.awt.*;
-
 import javax.swing.*;
+import static javax.swing.SwingConstants.*;.extended
+import static jdk.jconsole.share.classes.sun.tools.jconsole.JConsole.*;.extended
+import static jdk.jconsole.share.classes.sun.tools.jconsole.Utilities.*;.extended
 
 
-import static javax.swing.SwingConstants.*;
-import static sun.tools.jconsole.JConsole.*;
-import static sun.tools.jconsole.Utilities.*;
+
+
+
+
+
+
+
+
+
+
+
 
 
 @SuppressWarnings("serial")

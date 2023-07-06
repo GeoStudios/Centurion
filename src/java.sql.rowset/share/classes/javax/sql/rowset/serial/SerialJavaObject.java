@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.sql.rowset.serial;
+package java.sql.rowset.share.classes.javax.sql.rowset.serial;
+
 
 import java.io.*;
 import java.lang.reflect.*;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Vector;
-import javax.sql.rowset.RowSetWarning;
+import java.sql.rowset.share.classes.javax.sql.rowset.RowSetWarning;
 import jdk.internal.reflect.CallerSensitive;
 import jdk.internal.reflect.Reflection;
 import sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A serializable mapping in the Java programming language of an SQL

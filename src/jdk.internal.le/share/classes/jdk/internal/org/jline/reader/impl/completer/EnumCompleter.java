@@ -18,12 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.reader.impl.completer;
 
-import java.util.Objects;
+package jdk.internal.le.share.classes.jdk.internal.org.jline.reader.impl.completer;
 
-import jdk.internal.org.jline.reader.Candidate;
-import jdk.internal.org.jline.reader.Completer;
+
+import java.base.share.classes.java.util.Objects;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.Candidate;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.Completer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@link Completer} for {@link Enum} names.

@@ -19,32 +19,50 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature;
+
+
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.LinkedHashSet;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Set;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.CanonicalizationException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.implementations.Canonicalizer11_OmitComments;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.implementations.Canonicalizer20010315OmitComments;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.implementations.CanonicalizerBase;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityRuntimeException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.parser.XMLParserException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.JavaUtils;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.XMLUtils;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.signature;
 
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.util.ArrayList;
-import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Set;
 
-import com.sun.org.apache.xml.internal.security.c14n.CanonicalizationException;
-import com.sun.org.apache.xml.internal.security.c14n.implementations.Canonicalizer11_OmitComments;
-import com.sun.org.apache.xml.internal.security.c14n.implementations.Canonicalizer20010315OmitComments;
-import com.sun.org.apache.xml.internal.security.c14n.implementations.CanonicalizerBase;
-import com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityRuntimeException;
-import com.sun.org.apache.xml.internal.security.parser.XMLParserException;
-import com.sun.org.apache.xml.internal.security.utils.JavaUtils;
-import com.sun.org.apache.xml.internal.security.utils.XMLUtils;
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
+
 
 /**
  * Class XMLSignatureInput

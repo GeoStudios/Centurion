@@ -19,26 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.swing;
+package java.desktop.share.classes.sun.swing;
+
 
 import java.awt.*;
 import java.awt.dnd.DragGestureEvent;
-import java.awt.dnd.DragGestureListener;
+import java.awt.dnd.DragGesturejava.util.Listener;
 import java.awt.dnd.DragGestureRecognizer;
 import java.awt.dnd.DragSource;
 import java.awt.dnd.DropTarget;
 import java.awt.dnd.InvalidDnDOperationException;
 import java.awt.dnd.peer.DragSourceContextPeer;
 import java.awt.event.ContainerEvent;
-import java.awt.event.ContainerListener;
+import java.awt.event.Containerjava.util.Listener;
 import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferInt;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.security.AccessController;
 import javax.swing.JComponent;
-
 import javax.swing.JLayeredPane;
 import javax.swing.JPanel;
 import javax.swing.JRootPane;
@@ -46,13 +46,26 @@ import javax.swing.LayoutFocusTraversalPolicy;
 import javax.swing.RepaintManager;
 import javax.swing.RootPaneContainer;
 import javax.swing.SwingUtilities;
+import java.desktop.share.classes.sun.awt.AWTAccessor;
+import java.desktop.share.classes.sun.awt.DisplayChangedjava.util.Listener;
+import java.desktop.share.classes.sun.awt.LightweightFrame;
+import java.desktop.share.classes.sun.awt.OverrideNativeWindowHandle;
+import java.desktop.share.classes.sun.security.action.GetPropertyAction;
+import java.desktop.share.classes.sun.swing.SwingUtilities2.Repaintjava.util.Listener;
 
-import sun.awt.AWTAccessor;
-import sun.awt.DisplayChangedListener;
-import sun.awt.LightweightFrame;
-import sun.awt.OverrideNativeWindowHandle;
-import sun.security.action.GetPropertyAction;
-import sun.swing.SwingUtilities2.RepaintListener;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The frame serves as a lightweight container which paints its content

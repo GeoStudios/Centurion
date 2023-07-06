@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.table;
+package java.desktop.share.classes.javax.swing.table;
+
 
 import java.awt.Component;
-import javax.swing.CellEditor;
-import javax.swing.*;
+import java.desktop.share.classes.javax.swing.CellEditor;
+import java.desktop.share.classes.javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface defines the method any object that would like to be

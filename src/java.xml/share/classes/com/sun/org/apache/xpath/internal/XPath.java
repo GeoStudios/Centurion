@@ -19,23 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xpath.internal;
+package java.xml.share.classes.com.sun.org.apache.xpath.internal;
 
-import com.sun.org.apache.xalan.internal.res.XSLMessages;
-import com.sun.org.apache.xml.internal.dtm.DTM;
-import com.sun.org.apache.xml.internal.utils.PrefixResolver;
-import com.sun.org.apache.xml.internal.utils.QName;
-import com.sun.org.apache.xml.internal.utils.SAXSourceLocator;
-import com.sun.org.apache.xpath.internal.compiler.Compiler;
-import com.sun.org.apache.xpath.internal.compiler.FunctionTable;
-import com.sun.org.apache.xpath.internal.compiler.XPathParser;
-import com.sun.org.apache.xpath.internal.objects.XObject;
-import com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
+
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.PrefixResolver;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.SAXSourceLocator;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.Compiler;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.FunctionTable;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.XPathParser;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
 import java.io.Serializable;
-import java.util.List;
-import javax.xml.transform.ErrorListener;
+import java.util.java.util.java.util.java.util.List;
+import javax.xml.transform.Errorjava.util.Listener;
 import javax.xml.transform.SourceLocator;
 import javax.xml.transform.TransformerException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The XPath class wraps an expression object and provides general services

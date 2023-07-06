@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.synth;
+package java.desktop.share.classes.javax.swing.plaf.synth;
+
 
 import java.awt.Component;
 import java.awt.Dimension;
@@ -27,31 +28,44 @@ import java.awt.Graphics;
 import java.awt.Insets;
 import java.awt.Rectangle;
 import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
+import java.awt.event.Focusjava.util.Listener;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
+import java.awt.event.Mousejava.util.Listener;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
+import java.desktop.share.classes.javax.swing.ComboBoxEditor;
+import java.desktop.share.classes.javax.swing.DefaultButtonModel;
+import java.desktop.share.classes.javax.swing.Icon;
+import java.desktop.share.classes.javax.swing.JButton;
+import java.desktop.share.classes.javax.swing.JComboBox;
+import java.desktop.share.classes.javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.JLabel;
+import java.desktop.share.classes.javax.swing.Jjava.util.java.util.java.util.List;
+import java.desktop.share.classes.javax.swing.JPanel;
+import java.desktop.share.classes.javax.swing.JTextField;
+import java.desktop.share.classes.javax.swing.java.util.ListCellRenderer;
+import java.desktop.share.classes.javax.swing.SwingConstants;
+import java.desktop.share.classes.javax.swing.event.PopupMenuEvent;
+import java.desktop.share.classes.javax.swing.event.PopupMenujava.util.Listener;
+import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
+import java.desktop.share.classes.javax.swing.plaf.UIResource;
+import java.desktop.share.classes.javax.swing.plaf.basic.BasicComboBoxEditor;
+import java.desktop.share.classes.javax.swing.plaf.basic.BasicComboBoxUI;
+import java.desktop.share.classes.javax.swing.plaf.basic.ComboPopup;
 
-import javax.swing.ComboBoxEditor;
-import javax.swing.DefaultButtonModel;
-import javax.swing.Icon;
-import javax.swing.JButton;
-import javax.swing.JComboBox;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JList;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
-import javax.swing.ListCellRenderer;
-import javax.swing.SwingConstants;
-import javax.swing.event.PopupMenuEvent;
-import javax.swing.event.PopupMenuListener;
-import javax.swing.plaf.ComponentUI;
-import javax.swing.plaf.UIResource;
-import javax.swing.plaf.basic.BasicComboBoxEditor;
-import javax.swing.plaf.basic.BasicComboBoxUI;
-import javax.swing.plaf.basic.ComboPopup;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the Synth L&amp;F UI delegate for

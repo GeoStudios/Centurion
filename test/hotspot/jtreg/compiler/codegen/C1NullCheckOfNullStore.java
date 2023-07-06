@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codegen;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8039043
@@ -30,7 +47,6 @@
  *    compiler.codegen.C1NullCheckOfNullStore
  */
 
-package compiler.codegen;
 
 public class C1NullCheckOfNullStore {
     private static class Foo {

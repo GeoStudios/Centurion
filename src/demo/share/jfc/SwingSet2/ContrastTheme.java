@@ -19,6 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.jfc.SwingSet2;
+
 
 import javax.swing.plaf.*;
 import javax.swing.plaf.basic.*;
@@ -26,6 +28,20 @@ import javax.swing.plaf.metal.*;
 import javax.swing.*;
 import javax.swing.border.*;
 import java.awt.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class describes a higher-contrast Metal Theme.

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.management;
+package java.management.share.classes.sun.management;
+
 
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryPoolMXBean;
@@ -28,8 +29,21 @@ import java.lang.management.MemoryType;
 import java.lang.management.MemoryManagerMXBean;
 import javax.management.openmbean.CompositeData;
 import javax.management.ObjectName;
+import static java.lang.management.MemoryNotificationInfo.*;.extended
 
-import static java.lang.management.MemoryNotificationInfo.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation class for a memory pool.

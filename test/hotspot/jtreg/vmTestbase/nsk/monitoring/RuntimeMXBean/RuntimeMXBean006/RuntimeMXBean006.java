@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.monitoring.RuntimeMXBean.RuntimeMXBean006;
+
+
+import java.lang.management.RuntimeMXBean;
+import java.util.regex.Pattern;
+import nsk.monitoring.share.Monitoring;
+import nsk.monitoring.share.MonitoringTestBase;
+import nsk.share.test.Initializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -38,14 +60,8 @@
  *      -testMode=directly
  */
 
-package nsk.monitoring.RuntimeMXBean.RuntimeMXBean006;
 
-import java.lang.management.RuntimeMXBean;
-import java.util.regex.Pattern;
 
-import nsk.monitoring.share.Monitoring;
-import nsk.monitoring.share.MonitoringTestBase;
-import nsk.share.test.Initializable;
 
 public class RuntimeMXBean006 extends MonitoringTestBase implements Initializable {
     private RuntimeMXBean runtime;

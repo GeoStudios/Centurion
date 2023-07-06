@@ -21,6 +21,23 @@
 
 package gc.arguments;
 
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestSelectDefaultGC
  * @summary Test selection of GC when no GC option is specified
@@ -33,8 +50,6 @@ package gc.arguments;
  * @run driver gc.arguments.TestSelectDefaultGC
  */
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class TestSelectDefaultGC {
     public static void assertVMOption(OutputAnalyzer output, String option, boolean value) {

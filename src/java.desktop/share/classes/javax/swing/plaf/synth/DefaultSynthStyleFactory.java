@@ -18,15 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.plaf.synth;
 
-import javax.swing.*;
-import javax.swing.plaf.FontUIResource;
+package java.desktop.share.classes.javax.swing.plaf.synth;
+
+
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.plaf.FontUIResource;
 import java.awt.Font;
 import java.util.*;
 import java.util.regex.*;
 import sun.swing.plaf.synth.*;
-import sun.swing.BakedArrayList;
+import sun.swing.BakedArrayjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Factory used for obtaining styles. Supports associating a style based on

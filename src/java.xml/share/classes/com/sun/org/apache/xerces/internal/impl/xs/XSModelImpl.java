@@ -19,36 +19,51 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.xs;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
 
-import com.sun.org.apache.xerces.internal.impl.Constants;
-import com.sun.org.apache.xerces.internal.impl.xs.util.StringListImpl;
-import com.sun.org.apache.xerces.internal.impl.xs.util.XSNamedMap4Types;
-import com.sun.org.apache.xerces.internal.impl.xs.util.XSNamedMapImpl;
-import com.sun.org.apache.xerces.internal.impl.xs.util.XSObjectListImpl;
-import com.sun.org.apache.xerces.internal.util.SymbolHash;
-import com.sun.org.apache.xerces.internal.util.XMLSymbols;
-import com.sun.org.apache.xerces.internal.xs.StringList;
-import com.sun.org.apache.xerces.internal.xs.XSAttributeDeclaration;
-import com.sun.org.apache.xerces.internal.xs.XSAttributeGroupDefinition;
-import com.sun.org.apache.xerces.internal.xs.XSConstants;
-import com.sun.org.apache.xerces.internal.xs.XSElementDeclaration;
-import com.sun.org.apache.xerces.internal.xs.XSIDCDefinition;
-import com.sun.org.apache.xerces.internal.xs.XSModel;
-import com.sun.org.apache.xerces.internal.xs.XSModelGroupDefinition;
-import com.sun.org.apache.xerces.internal.xs.XSNamedMap;
-import com.sun.org.apache.xerces.internal.xs.XSNamespaceItem;
-import com.sun.org.apache.xerces.internal.xs.XSNamespaceItemList;
-import com.sun.org.apache.xerces.internal.xs.XSNotationDeclaration;
-import com.sun.org.apache.xerces.internal.xs.XSObject;
-import com.sun.org.apache.xerces.internal.xs.XSObjectList;
-import com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.Stringjava.util.ListImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XSNamedMap4Types;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XSNamedMapImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XSObjectjava.util.ListImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolHash;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLSymbols;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.Stringjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSAttributeDeclaration;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSAttributeGroupDefinition;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSConstants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSElementDeclaration;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSIDCDefinition;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSModel;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSModelGroupDefinition;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSNamedMap;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSNamespaceItem;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSNamespaceItemjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSNotationDeclaration;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObject;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObjectjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
 import java.lang.reflect.Array;
-import java.util.AbstractList;
+import java.util.Abstractjava.util.java.util.java.util.List;
 import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.java.util.java.util.java.util.List;
+import java.util.java.util.ListIterator;
 import java.util.NoSuchElementException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements XSModel:  a read-only interface that represents an XML Schema,

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4098578
@@ -27,7 +44,6 @@
  * @run main/othervm -Xmx128m gc.InfiniteList
  */
 
-package gc;
 
 public class InfiniteList {
     InfiniteList next;

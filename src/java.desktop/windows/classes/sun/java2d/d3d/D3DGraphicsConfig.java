@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.d3d;
+package java.desktop.windows.classes.sun.java2d.d3d;
+
 
 import java.awt.AWTException;
 import java.awt.BufferCapabilities;
@@ -32,18 +33,32 @@ import java.awt.image.ColorModel;
 import java.awt.image.DataBuffer;
 import java.awt.image.DirectColorModel;
 import java.awt.image.VolatileImage;
-import sun.awt.Win32GraphicsConfig;
-import sun.awt.image.SunVolatileImage;
-import sun.awt.image.SurfaceManager;
-import sun.awt.windows.WComponentPeer;
-import sun.java2d.Surface;
-import sun.java2d.SurfaceData;
-import sun.java2d.pipe.hw.AccelTypedVolatileImage;
-import sun.java2d.pipe.hw.AccelGraphicsConfig;
-import sun.java2d.pipe.hw.AccelSurface;
-import sun.java2d.pipe.hw.ContextCapabilities;
-import static sun.java2d.pipe.hw.AccelSurface.*;
-import static sun.java2d.d3d.D3DContext.D3DContextCaps.*;
+import java.desktop.windows.classes.sun.awt.Win32GraphicsConfig;
+import java.desktop.windows.classes.sun.awt.image.SunVolatileImage;
+import java.desktop.windows.classes.sun.awt.image.SurfaceManager;
+import java.desktop.windows.classes.sun.awt.windows.WComponentPeer;
+import java.desktop.windows.classes.sun.java2d.Surface;
+import java.desktop.windows.classes.sun.java2d.SurfaceData;
+import java.desktop.windows.classes.sun.java2d.pipe.hw.AccelTypedVolatileImage;
+import java.desktop.windows.classes.sun.java2d.pipe.hw.AccelGraphicsConfig;
+import java.desktop.windows.classes.sun.java2d.pipe.hw.AccelSurface;
+import java.desktop.windows.classes.sun.java2d.pipe.hw.ContextCapabilities;
+import static java.desktop.windows.classes.sun.java2d.pipe.hw.AccelSurface.*;.extended
+import static java.desktop.windows.classes.sun.java2d.d3d.D3DContext.D3DContextCaps.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class D3DGraphicsConfig
     extends Win32GraphicsConfig

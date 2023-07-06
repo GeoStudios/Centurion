@@ -21,15 +21,28 @@
 
 package gc.g1.humongousObjects;
 
+
 import gc.testlibrary.Helpers;
 import jdk.test.lib.Asserts;
 import sun.hotspot.WhiteBox;
-
 import java.lang.management.GarbageCollectorMXBean;
 import java.lang.management.ManagementFactory;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test TestHeapCounters

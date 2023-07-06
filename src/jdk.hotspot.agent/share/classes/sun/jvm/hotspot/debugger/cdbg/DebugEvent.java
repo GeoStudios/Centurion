@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.cdbg;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg;
 
-import sun.jvm.hotspot.debugger.*;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Describes in an abstract sense the kind of debug events which may
     be received from the target process. On UNIX platforms these are

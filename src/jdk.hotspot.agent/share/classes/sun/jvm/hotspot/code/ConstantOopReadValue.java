@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.code;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code;
+
 
 import java.io.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 
-import sun.jvm.hotspot.debugger.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A ConstantOopReadValue is created by the VM when reading debug
     information */

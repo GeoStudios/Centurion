@@ -18,19 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.incubator.vector;
+
+package jdk.incubator.vector.share.classes.jdk.incubator.vector;
+
 
 import java.nio.ByteBuffer;
-import java.util.Arrays;
-import java.util.Objects;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.java.util.Objects;
 import java.util.function.IntUnaryOperator;
+import jdk.incubator.vector.share.classes.jdk.internal.vm.annotation.ForceInline;
+import jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport;
+import static jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport.*;.extended
+import static jdk.incubator.vector.share.classes.jdk.incubator.vector.VectorOperators.*;.extended
 
-import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.vector.VectorSupport;
 
-import static jdk.internal.vm.vector.VectorSupport.*;
 
-import static jdk.incubator.vector.VectorOperators.*;
+
+
+
+
+
+
+
+
+
+
+
 
 // -- This file was mechanically generated: Do not edit! -- //
 
@@ -414,7 +427,7 @@ final class ShortMaxVector extends ShortVector {
         return (ShortMaxVector)
             super.rearrangeTemplate(ShortMaxShuffle.class,
                                     (ShortMaxShuffle) shuffle,
-                                    (ShortMaxMask) m);  // specialize
+                    m);  // specialize
     }
 
     @Override
@@ -503,7 +516,7 @@ final class ShortMaxVector extends ShortVector {
 
         private static boolean[] prepare(boolean[] bits, int offset) {
             boolean[] newBits = new boolean[VSPECIES.laneCount()];
-            System.arraycopy(bits, offset + 0, newBits, 0, newBits.length);
+            System.arraycopy(bits, offset, newBits, 0, newBits.length);
             return newBits;
         }
 

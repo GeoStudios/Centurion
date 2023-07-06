@@ -19,11 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.tree;
-   // ISSUE: this class depends on nothing in AWT -- move to java.util?
+package java.desktop.share.classes.javax.swing.tree;
+
 
 import java.beans.Transient;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serial;
@@ -34,6 +34,23 @@ import java.util.Enumeration;
 import java.util.NoSuchElementException;
 import java.util.Stack;
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ISSUE: this class depends on nothing in AWT -- move to java.util?
+
 
 /**
  * A <code>DefaultMutableTreeNode</code> is a general-purpose node in a tree data
@@ -1359,7 +1376,7 @@ public class DefaultMutableTreeNode implements Cloneable,
 
     final class PostorderEnumeration implements Enumeration<TreeNode> {
         protected TreeNode root;
-        protected Enumeration<? extends TreeNode> children;
+        private final Enumeration<? extends TreeNode> children;
         protected Enumeration<TreeNode> subtree;
 
         public PostorderEnumeration(TreeNode rootNode) {

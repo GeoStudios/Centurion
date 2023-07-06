@@ -19,24 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.basic;
+package java.desktop.share.classes.javax.swing.plaf.basic;
 
-import javax.swing.*;
-import javax.swing.filechooser.*;
-import javax.swing.filechooser.FileFilter;
-import javax.swing.event.*;
-import javax.swing.plaf.*;
+
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.filechooser.*;
+import java.desktop.share.classes.javax.swing.filechooser.FileFilter;
+import java.desktop.share.classes.javax.swing.event.*;
+import java.desktop.share.classes.javax.swing.plaf.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.datatransfer.*;
 import java.beans.*;
 import java.io.*;
 import java.util.*;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.regex.*;
 import sun.awt.shell.ShellFolder;
 import sun.swing.*;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Basic L&amp;F implementation of a FileChooser.

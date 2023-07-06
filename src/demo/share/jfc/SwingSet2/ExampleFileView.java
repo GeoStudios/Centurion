@@ -19,11 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.jfc.SwingSet2;
+
+
 import javax.swing.*;
 import javax.swing.filechooser.*;
-
 import java.io.File;
 import java.util.Hashtable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A convenience implementation of the FileView interface that

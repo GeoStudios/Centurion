@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.dnd;
+package java.desktop.share.classes.java.awt.dnd;
 
-import java.awt.Insets;
-import java.awt.Point;
+
+import java.desktop.share.classes.java.awt.Insets;
+import java.desktop.share.classes.java.awt.Point;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * During DnD operations it is possible that a user may wish to drop the

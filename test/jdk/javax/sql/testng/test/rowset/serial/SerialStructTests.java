@@ -18,19 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.rowset.serial;
 
+
 import java.sql.Struct;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import javax.sql.rowset.serial.SerialStruct;
-import static org.testng.Assert.*;
+import static org.testng.Assert.*;.extended
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import util.BaseTest;
 import util.StubStruct;
 import util.SuperHero;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SerialStructTests extends BaseTest {
 

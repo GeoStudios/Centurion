@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.w3c.dom;
+package java.xml.share.classes.org.w3c.dom;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  <code>DOMErrorHandler</code> is a callback interface that the DOM

@@ -19,6 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.jfc.TableExample;
+
+
+import javax.swing.table.TableModel;
+import javax.swing.event.TableModelEvent;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.event.InputEvent;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Date;
+import java.util.java.util.java.util.java.util.List;
+import javax.swing.JTable;
+import javax.swing.table.JTableHeader;
+import javax.swing.table.TableColumnModel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -29,17 +58,6 @@
 
 
 
-import javax.swing.table.TableModel;
-import javax.swing.event.TableModelEvent;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.InputEvent;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import javax.swing.JTable;
-import javax.swing.table.JTableHeader;
-import javax.swing.table.TableColumnModel;
 
 
 /**

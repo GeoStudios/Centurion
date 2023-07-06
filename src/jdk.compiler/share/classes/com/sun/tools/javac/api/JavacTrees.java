@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.api;
+package jdk.compiler.share.classes.com.sun.tools.javac.api;
+
 
 import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.text.BreakIterator;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -30,7 +31,6 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.WeakHashMap;
-
 import javax.annotation.processing.ProcessingEnvironment;
 import javax.lang.model.element.AnnotationMirror;
 import javax.lang.model.element.AnnotationValue;
@@ -52,102 +52,114 @@ import javax.tools.JavaFileManager;
 import javax.tools.JavaFileObject;
 import javax.tools.JavaFileObject.Kind;
 import javax.tools.StandardLocation;
+import jdk.compiler.share.classes.com.sun.source.doctree.DocCommentTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.DocTree;
+import jdk.compiler.share.classes.com.sun.source.doctree.EntityTree;
+import jdk.compiler.share.classes.com.sun.source.tree.CatchTree;
+import jdk.compiler.share.classes.com.sun.source.tree.ClassTree;
+import jdk.compiler.share.classes.com.sun.source.tree.CompilationUnitTree;
+import jdk.compiler.share.classes.com.sun.source.tree.Scope;
+import jdk.compiler.share.classes.com.sun.source.tree.Tree;
+import jdk.compiler.share.classes.com.sun.source.util.DocSourcePositions;
+import jdk.compiler.share.classes.com.sun.source.util.DocTreePath;
+import jdk.compiler.share.classes.com.sun.source.util.DocTreeScanner;
+import jdk.compiler.share.classes.com.sun.source.util.DocTrees;
+import jdk.compiler.share.classes.com.sun.source.util.JavacTask;
+import jdk.compiler.share.classes.com.sun.source.util.TreePath;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Flags;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.NamedImportScope;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.StarImportScope;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.WriteableScope;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ClassSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.MethodSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ModuleSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.PackageSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.TypeSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.VarSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symtab;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.ArrayType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.ClassType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.ErrorType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.UnionClassType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Types;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Types.TypeRelation;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Attr;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.AttrContext;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Check;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Enter;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Env;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.MemberEnter;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Modules;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Resolve;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.file.BaseFileManager;
+import jdk.compiler.share.classes.com.sun.tools.javac.model.JavacElements;
+import jdk.compiler.share.classes.com.sun.tools.javac.parser.DocCommentParser;
+import jdk.compiler.share.classes.com.sun.tools.javac.parser.ParserFactory;
+import jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.Comment;
+import jdk.compiler.share.classes.com.sun.tools.javac.processing.JavacProcessingEnvironment;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Notes;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Warnings;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCBlockTag;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCComment;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCDocComment;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCEndPosTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCEntity;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCErroneous;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCIdentifier;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCParam;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCReference;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCText;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DocCommentTable;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DocTreeMaker;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.EndPosTable;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCBlock;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCCatch;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCClassDecl;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCCompilationUnit;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCExpression;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCIdent;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCMethodDecl;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCVariableDecl;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeCopier;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeInfo;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeMaker;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeScanner;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Abort;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DiagnosticSource;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.ListBuffer;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Name;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Names;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Pair;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Position;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.extended
 
-import com.sun.source.doctree.DocCommentTree;
-import com.sun.source.doctree.DocTree;
-import com.sun.source.doctree.EntityTree;
-import com.sun.source.tree.CatchTree;
-import com.sun.source.tree.ClassTree;
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.tree.Scope;
-import com.sun.source.tree.Tree;
-import com.sun.source.util.DocSourcePositions;
-import com.sun.source.util.DocTreePath;
-import com.sun.source.util.DocTreeScanner;
-import com.sun.source.util.DocTrees;
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.TreePath;
-import com.sun.tools.javac.code.Flags;
-import com.sun.tools.javac.code.Scope.NamedImportScope;
-import com.sun.tools.javac.code.Scope.StarImportScope;
-import com.sun.tools.javac.code.Scope.WriteableScope;
-import com.sun.tools.javac.code.Symbol.ClassSymbol;
-import com.sun.tools.javac.code.Symbol.MethodSymbol;
-import com.sun.tools.javac.code.Symbol.ModuleSymbol;
-import com.sun.tools.javac.code.Symbol.PackageSymbol;
-import com.sun.tools.javac.code.Symbol.TypeSymbol;
-import com.sun.tools.javac.code.Symbol.VarSymbol;
-import com.sun.tools.javac.code.Symtab;
-import com.sun.tools.javac.code.Type;
-import com.sun.tools.javac.code.Type.ArrayType;
-import com.sun.tools.javac.code.Type.ClassType;
-import com.sun.tools.javac.code.Type.ErrorType;
-import com.sun.tools.javac.code.Type.UnionClassType;
-import com.sun.tools.javac.code.Types;
-import com.sun.tools.javac.code.Types.TypeRelation;
-import com.sun.tools.javac.comp.Attr;
-import com.sun.tools.javac.comp.AttrContext;
-import com.sun.tools.javac.comp.Check;
-import com.sun.tools.javac.comp.Enter;
-import com.sun.tools.javac.comp.Env;
-import com.sun.tools.javac.comp.MemberEnter;
-import com.sun.tools.javac.comp.Modules;
-import com.sun.tools.javac.comp.Resolve;
-import com.sun.tools.javac.code.Symbol;
-import com.sun.tools.javac.file.BaseFileManager;
-import com.sun.tools.javac.model.JavacElements;
-import com.sun.tools.javac.parser.DocCommentParser;
-import com.sun.tools.javac.parser.ParserFactory;
-import com.sun.tools.javac.parser.Tokens.Comment;
-import com.sun.tools.javac.processing.JavacProcessingEnvironment;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.resources.CompilerProperties.Notes;
-import com.sun.tools.javac.resources.CompilerProperties.Warnings;
-import com.sun.tools.javac.tree.DCTree;
-import com.sun.tools.javac.tree.DCTree.DCBlockTag;
-import com.sun.tools.javac.tree.DCTree.DCComment;
-import com.sun.tools.javac.tree.DCTree.DCDocComment;
-import com.sun.tools.javac.tree.DCTree.DCEndPosTree;
-import com.sun.tools.javac.tree.DCTree.DCEntity;
-import com.sun.tools.javac.tree.DCTree.DCErroneous;
-import com.sun.tools.javac.tree.DCTree.DCIdentifier;
-import com.sun.tools.javac.tree.DCTree.DCParam;
-import com.sun.tools.javac.tree.DCTree.DCReference;
-import com.sun.tools.javac.tree.DCTree.DCText;
-import com.sun.tools.javac.tree.DocCommentTable;
-import com.sun.tools.javac.tree.DocTreeMaker;
-import com.sun.tools.javac.tree.EndPosTable;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.JCTree.JCBlock;
-import com.sun.tools.javac.tree.JCTree.JCCatch;
-import com.sun.tools.javac.tree.JCTree.JCClassDecl;
-import com.sun.tools.javac.tree.JCTree.JCCompilationUnit;
-import com.sun.tools.javac.tree.JCTree.JCExpression;
-import com.sun.tools.javac.tree.JCTree.JCIdent;
-import com.sun.tools.javac.tree.JCTree.JCMethodDecl;
-import com.sun.tools.javac.tree.JCTree.JCVariableDecl;
-import com.sun.tools.javac.tree.TreeCopier;
-import com.sun.tools.javac.tree.TreeInfo;
-import com.sun.tools.javac.tree.TreeMaker;
-import com.sun.tools.javac.tree.TreeScanner;
-import com.sun.tools.javac.util.Abort;
-import com.sun.tools.javac.util.Assert;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.DefinedBy;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.DiagnosticSource;
-import com.sun.tools.javac.util.JCDiagnostic;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.ListBuffer;
-import com.sun.tools.javac.util.Log;
-import com.sun.tools.javac.util.Name;
-import com.sun.tools.javac.util.Names;
-import com.sun.tools.javac.util.Pair;
-import com.sun.tools.javac.util.Position;
 
-import static com.sun.tools.javac.code.Kinds.Kind.*;
-import static com.sun.tools.javac.code.TypeTag.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides an implementation of Trees.
@@ -559,7 +571,7 @@ public class JavacTrees extends DocTrees {
                 paramTypes = null;
             else {
                 ListBuffer<Type> lb = new ListBuffer<>();
-                for (List<JCTree> l = (List<JCTree>) ref.paramTypes; l.nonEmpty(); l = l.tail) {
+                for (List<JCTree> l = ref.paramTypes; l.nonEmpty(); l = l.tail) {
                     JCTree tree = l.head;
                     Type t = attr.attribType(tree, env);
                     lb.add(t);

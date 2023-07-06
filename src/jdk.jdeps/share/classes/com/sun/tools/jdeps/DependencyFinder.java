@@ -18,22 +18,22 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.tools.jdeps;
 
-import static com.sun.tools.jdeps.Module.*;
-import static com.sun.tools.jdeps.Analyzer.NOT_FOUND;
-import static java.util.stream.Collectors.*;
+package jdk.jdeps.share.classes.com.sun.tools.jdeps;
 
-import com.sun.tools.classfile.AccessFlags;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.ConstantPoolException;
-import com.sun.tools.classfile.Dependencies;
-import com.sun.tools.classfile.Dependencies.ClassFileError;
-import com.sun.tools.classfile.Dependency;
-import com.sun.tools.classfile.Dependency.Location;
 
-import java.io.IOException;
-import java.io.UncheckedIOException;
+import static jdk.jdeps.share.classes.com.sun.tools.jdeps.Module.*;.extended
+import static jdk.jdeps.share.classes.com.sun.tools.jdeps.Analyzer.NOT_FOUND;.extended
+import static java.util.stream.Collectors.*;.extended
+import jdk.jdeps.share.classes.com.sun.tools.classfile.AccessFlags;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ClassFile;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPoolException;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Dependencies;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Dependencies.ClassFileError;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Dependency;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Dependency.Location;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.nio.file.Paths;
 import java.util.Collections;
 import java.util.Deque;
@@ -50,6 +50,20 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.FutureTask;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Parses class files and finds dependences

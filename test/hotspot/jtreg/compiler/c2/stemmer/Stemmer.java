@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2.stemmer;
+
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7070134
@@ -74,11 +94,7 @@
 
 */
 
-package compiler.c2.stemmer;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 
 /**
   * Stemmer, implementing the Porter Stemming Algorithm

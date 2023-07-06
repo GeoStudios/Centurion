@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap;
+package java.naming.share.classes.com.sun.jndi.ldap;
+
 
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.spi.*;
 import javax.naming.ldap.*;
-
 import java.util.Hashtable;
 import java.util.StringTokenizer;
-import com.sun.jndi.toolkit.dir.SearchFilter;
+import java.naming.share.classes.com.sun.jndi.toolkit.dir.SearchFilter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A context for handling referrals.

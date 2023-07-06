@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.tools.jlink.internal;
+package jdk.jlink.share.classes.jdk.tools.jlink.internal;
 
-import java.util.Objects;
-import jdk.tools.jlink.plugin.ResourcePoolEntry;
+
+import java.base.share.classes.java.util.Objects;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A LinkResourcePoolEntry is the elementary unit of data inside an image. It is

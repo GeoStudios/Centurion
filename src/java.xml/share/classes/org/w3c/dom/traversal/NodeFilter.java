@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.w3c.dom.traversal;
+package java.xml.share.classes.org.w3c.dom.traversal;
 
-import org.w3c.dom.Node;
+
+import java.xml.share.classes.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Filters are objects that know how to "filter out" nodes. If a

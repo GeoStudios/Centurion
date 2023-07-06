@@ -21,7 +21,21 @@
 
 package somelib;
 
+
 import java.lang.module.ModuleDescriptor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Invariants {
     public static void test(String expectPatch) {

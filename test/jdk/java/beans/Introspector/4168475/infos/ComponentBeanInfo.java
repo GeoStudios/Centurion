@@ -21,10 +21,24 @@
 
 package infos;
 
+
 import java.awt.Component;
 import java.beans.IntrospectionException;
 import java.beans.PropertyDescriptor;
 import java.beans.SimpleBeanInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ComponentBeanInfo extends SimpleBeanInfo {
     public PropertyDescriptor[] getPropertyDescriptors() {

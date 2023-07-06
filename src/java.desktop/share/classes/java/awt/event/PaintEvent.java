@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.event;
+package java.desktop.share.classes.java.awt.event;
 
-import java.awt.Component;
-import java.awt.Rectangle;
-import java.io.Serial;
+
+import java.desktop.share.classes.java.awt.Component;
+import java.desktop.share.classes.java.awt.Rectangle;
+import java.desktop.share.classes.java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The component-level paint event.

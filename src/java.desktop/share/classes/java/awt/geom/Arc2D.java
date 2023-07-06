@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.geom;
+package java.desktop.share.classes.java.awt.geom;
 
-import java.io.IOException;
-import java.io.Serial;
-import java.io.Serializable;
+
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code Arc2D} is the abstract superclass for all objects that

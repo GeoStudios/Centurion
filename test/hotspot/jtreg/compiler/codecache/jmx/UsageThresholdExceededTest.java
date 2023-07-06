@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codecache.jmx;
+
+
+import sun.hotspot.code.BlobType;
+import java.lang.management.MemoryPoolMXBean;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test UsageThresholdExceededTest
  * @summary verifying that getUsageThresholdCount() returns correct value
@@ -41,11 +60,8 @@
  *     compiler.codecache.jmx.UsageThresholdExceededTest
  */
 
-package compiler.codecache.jmx;
 
-import sun.hotspot.code.BlobType;
 
-import java.lang.management.MemoryPoolMXBean;
 
 public class UsageThresholdExceededTest {
 

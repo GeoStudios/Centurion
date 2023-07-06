@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.util;
 
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.Predicate;
-import java.util.function.Supplier;
-import java.util.stream.Stream;
+package java.base.share.classes.java.util;
+
+
+import java.base.share.classes.java.util.function.Consumer;
+import java.base.share.classes.java.util.function.Function;
+import java.base.share.classes.java.util.function.Predicate;
+import java.base.share.classes.java.util.function.Supplier;
+import java.base.share.classes.java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A container object which may or may not contain a non-{@code null} value.

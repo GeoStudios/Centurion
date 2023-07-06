@@ -18,18 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.terminal.impl;
+
+package jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl;
+
 
 import java.io.IOError;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.charset.Charset;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.function.IntConsumer;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Attributes;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Cursor;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Size;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.spi.Pty;
 
-import jdk.internal.org.jline.terminal.Attributes;
-import jdk.internal.org.jline.terminal.Cursor;
-import jdk.internal.org.jline.terminal.Size;
-import jdk.internal.org.jline.terminal.spi.Pty;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class AbstractPosixTerminal extends AbstractTerminal {
 

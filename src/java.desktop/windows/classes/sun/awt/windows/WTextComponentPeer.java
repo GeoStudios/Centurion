@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.windows;
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.awt.*;
 import java.awt.peer.*;
 import java.awt.event.TextEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract
 class WTextComponentPeer extends WComponentPeer implements TextComponentPeer {

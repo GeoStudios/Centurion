@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvmstat.perfdata.monitor.v2_0;
+package jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor.v2_0;
 
-import sun.jvmstat.monitor.*;
-import sun.jvmstat.perfdata.monitor.*;
+
+import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.*;
+import jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor.*;
 import java.util.*;
 import java.util.regex.*;
 import java.nio.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The concrete implementation of version 2.0 of the HotSpot PerfData

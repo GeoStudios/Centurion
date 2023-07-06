@@ -19,23 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
+
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XMLNSDTDValidator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSMessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarPool;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponent;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentScanner;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.parsers;
 
-import com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl;
-import com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl;
-import com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator;
-import com.sun.org.apache.xerces.internal.impl.dtd.XMLNSDTDValidator;
-import com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator;
-import com.sun.org.apache.xerces.internal.impl.xs.XSMessageFormatter;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
-import com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarPool;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponent;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentScanner;
+
 
 /**
  * This is configuration uses a scanner that integrates both scanning of the document

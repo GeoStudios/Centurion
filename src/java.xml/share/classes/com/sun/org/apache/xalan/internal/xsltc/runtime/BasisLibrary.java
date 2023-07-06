@@ -19,45 +19,63 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * $Id: BasisLibrary.java,v 1.6 2006/06/20 21:51:58 spericas Exp $
- */
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime;
 
-package com.sun.org.apache.xalan.internal.xsltc.runtime;
 
-import com.sun.org.apache.xalan.internal.xsltc.DOM;
-import com.sun.org.apache.xalan.internal.xsltc.Translet;
-import com.sun.org.apache.xalan.internal.xsltc.dom.AbsoluteIterator;
-import com.sun.org.apache.xalan.internal.xsltc.dom.ArrayNodeListIterator;
-import com.sun.org.apache.xalan.internal.xsltc.dom.DOMAdapter;
-import com.sun.org.apache.xalan.internal.xsltc.dom.MultiDOM;
-import com.sun.org.apache.xalan.internal.xsltc.dom.SingletonIterator;
-import com.sun.org.apache.xalan.internal.xsltc.dom.StepIterator;
-import com.sun.org.apache.xml.internal.dtm.Axis;
-import com.sun.org.apache.xml.internal.dtm.DTM;
-import com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
-import com.sun.org.apache.xml.internal.dtm.DTMManager;
-import com.sun.org.apache.xml.internal.dtm.ref.DTMDefaultBase;
-import com.sun.org.apache.xml.internal.dtm.ref.DTMNodeProxy;
-import com.sun.org.apache.xml.internal.serializer.NamespaceMappings;
-import com.sun.org.apache.xml.internal.serializer.SerializationHandler;
-import com.sun.org.apache.xml.internal.utils.XML11Char;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.Translet;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom.AbsoluteIterator;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom.ArrayNodejava.util.ListIterator;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom.DOMAdapter;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom.MultiDOM;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom.SingletonIterator;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom.StepIterator;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.Axis;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMManager;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.DTMDefaultBase;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.DTMNodeProxy;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.NamespaceMappings;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.SerializationHandler;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XML11Char;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.text.FieldPosition;
 import java.text.MessageFormat;
 import java.text.NumberFormat;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.ResourceBundle;
 import java.util.concurrent.atomic.AtomicInteger;
 import javax.xml.transform.dom.DOMSource;
 import jdk.xml.internal.SecuritySupport;
-import org.w3c.dom.Attr;
-import org.w3c.dom.DOMException;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * $Id: BasisLibrary.java,v 1.6 2006/06/20 21:51:58 spericas Exp $
+ */
+
+
+
 
 /**
  * Standard XSLT functions. All standard functions expect the current node

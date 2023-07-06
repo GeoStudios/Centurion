@@ -21,10 +21,23 @@
 
 package nsk.jvmti.scenarios.capability.CM01;
 
-import java.io.PrintStream;
 
+import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class cm01t006 extends DebugeeClass {
 

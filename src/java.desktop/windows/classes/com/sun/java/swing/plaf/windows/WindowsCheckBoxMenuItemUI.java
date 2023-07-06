@@ -19,20 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.windows;
+package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Rectangle;
 
+import java.desktop.windows.classes.com.sun.java.awt.Color;
+import java.desktop.windows.classes.com.sun.java.awt.Graphics;
+import java.desktop.windows.classes.com.sun.java.awt.Rectangle;
 import javax.swing.ButtonModel;
 import javax.swing.JComponent;
 import javax.swing.JMenuItem;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicCheckBoxMenuItemUI;
+import java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Part;
+import java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.State;
 
-import com.sun.java.swing.plaf.windows.TMSchema.Part;
-import com.sun.java.swing.plaf.windows.TMSchema.State;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Windows check box menu item.

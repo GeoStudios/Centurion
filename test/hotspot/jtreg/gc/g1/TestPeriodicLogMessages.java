@@ -21,6 +21,23 @@
 
 package gc.g1;
 
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestPeriodicLogMessages
  * @bug 8216490
@@ -32,8 +49,6 @@ package gc.g1;
  * @run driver gc.g1.TestPeriodicLogMessages
  */
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class TestPeriodicLogMessages {
 

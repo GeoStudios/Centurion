@@ -19,18 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-//  Based on 1.3.1's AquaHighlighter, with the main difference that an inactive selection should be gray
-//  rather than a darker version of the current highlight color.
+package java.desktop.macosx.classes.com.apple.laf;
 
-package com.apple.laf;
 
 import java.awt.*;
-
 import javax.swing.*;
 import javax.swing.plaf.UIResource;
 import javax.swing.text.*;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
 
-import com.apple.laf.AquaUtils.RecyclableSingleton;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  Based on 1.3.1's AquaHighlighter, with the main difference that an inactive selection should be gray
+//  rather than a darker version of the current highlight color.
+
+
+
+
+
 
 public class AquaHighlighter extends DefaultHighlighter implements UIResource {
     private static final RecyclableSingleton<LayerPainter> instance = new RecyclableSingleton<LayerPainter>() {

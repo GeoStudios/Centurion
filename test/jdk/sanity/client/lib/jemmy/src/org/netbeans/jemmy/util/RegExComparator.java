@@ -18,13 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.util;
 
-import java.lang.reflect.InvocationTargetException;
 
+import java.lang.reflect.InvocationTargetException;
 import org.netbeans.jemmy.ClassReference;
 import org.netbeans.jemmy.JemmyException;
 import org.netbeans.jemmy.operators.Operator.StringComparator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Be executed under 1.4 uses {@code java.util.regex.Pattern}

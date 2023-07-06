@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider.certpath;
+package java.base.share.classes.sun.security.provider.certpath;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.cert.Extension;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.sun.security.util.HexDumpEncoder;
+import java.base.share.classes.sun.security.util.*;
+import java.base.share.classes.sun.security.x509.PKIXExtensions;
 
-import sun.security.util.HexDumpEncoder;
-import sun.security.util.*;
-import sun.security.x509.PKIXExtensions;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class can be used to generate an OCSP request and send it over

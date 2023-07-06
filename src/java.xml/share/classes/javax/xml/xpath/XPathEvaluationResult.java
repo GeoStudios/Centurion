@@ -18,11 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.xml.xpath;
 
-import java.util.Objects;
-import javax.xml.namespace.QName;
+package java.xml.share.classes.javax.xml.xpath;
+
+
+import java.base.share.classes.java.util.Objects;
+import java.xml.share.classes.javax.xml.namespace.QName;
 import org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The {@code XPathEvaluationResult} interface represents the result of the
  * evaluation of an XPath expression within the context of a particular node.

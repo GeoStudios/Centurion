@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.oops;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // from #defines in jvmdi.h. These are also part of JVMDI spec.
 // refer to GetClassStatus method of JVMDI spec.

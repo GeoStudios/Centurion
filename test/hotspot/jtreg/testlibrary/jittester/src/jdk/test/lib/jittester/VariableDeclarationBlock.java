@@ -21,9 +21,22 @@
 
 package jdk.test.lib.jittester;
 
-import java.util.ArrayList;
 
+import java.util.Arrayjava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.visitors.Visitor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class VariableDeclarationBlock extends IRNode {
     public VariableDeclarationBlock(ArrayList<? extends Declaration> content, int level) {

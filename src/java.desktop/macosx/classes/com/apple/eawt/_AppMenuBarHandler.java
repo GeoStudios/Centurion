@@ -19,22 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.eawt;
+package java.desktop.macosx.classes.com.apple.eawt;
+
 
 import java.awt.Container;
 import java.awt.Frame;
-
-
 import javax.swing.JFrame;
 import javax.swing.JLayeredPane;
 import javax.swing.JMenuBar;
 import javax.swing.plaf.MenuBarUI;
-
-import com.apple.laf.ScreenMenuBar;
+import java.desktop.macosx.classes.com.apple.laf.ScreenMenuBar;
 import sun.awt.AWTAccessor;
 import sun.lwawt.macosx.CMenuBar;
+import java.desktop.macosx.classes.com.apple.laf.AquaMenuBarUI;
 
-import com.apple.laf.AquaMenuBarUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class _AppMenuBarHandler {
     private static final int MENU_ABOUT = 1;

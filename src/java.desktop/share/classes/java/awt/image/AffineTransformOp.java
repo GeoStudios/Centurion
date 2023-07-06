@@ -19,19 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.image;
+package java.desktop.share.classes.java.awt.image;
 
-import java.awt.geom.AffineTransform;
-import java.awt.geom.NoninvertibleTransformException;
-import java.awt.geom.Rectangle2D;
-import java.awt.geom.Point2D;
-import java.awt.AlphaComposite;
-import java.awt.GraphicsEnvironment;
-import java.awt.Rectangle;
-import java.awt.RenderingHints;
-import java.awt.Transparency;
-import java.lang.annotation.Native;
+
+import java.desktop.share.classes.java.awt.geom.AffineTransform;
+import java.desktop.share.classes.java.awt.geom.NoninvertibleTransformException;
+import java.desktop.share.classes.java.awt.geom.Rectangle2D;
+import java.desktop.share.classes.java.awt.geom.Point2D;
+import java.desktop.share.classes.java.awt.AlphaComposite;
+import java.desktop.share.classes.java.awt.GraphicsEnvironment;
+import java.desktop.share.classes.java.awt.Rectangle;
+import java.desktop.share.classes.java.awt.RenderingHints;
+import java.desktop.share.classes.java.awt.Transparency;
+import java.desktop.share.classes.java.lang.annotation.Native;
 import sun.awt.image.ImagingLib;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class uses an affine transform to perform a linear mapping from

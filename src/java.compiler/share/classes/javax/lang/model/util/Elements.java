@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.lang.model.util;
+package java.compiler.share.classes.javax.lang.model.util;
+
 
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.LinkedHashSet;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+import java.compiler.share.classes.javax.lang.model.AnnotatedConstruct;
+import java.compiler.share.classes.javax.lang.model.element.*;
 
-import javax.lang.model.AnnotatedConstruct;
-import javax.lang.model.element.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**
@@ -97,7 +110,7 @@ public interface Elements {
      * #getPackageElement(CharSequence) getPackageElement(name)} is
      * called passing through the name argument. If {@code
      * getPackageElement(name)} is {@code null}, an empty set of
-     * package elements is returned; otherwise, a single-element set
+     *  otherwise, a single-element set
      * with the found package element is returned. If the set of
      * modules is nonempty, the modules are iterated over and any
      * non-{@code null} results of {@link

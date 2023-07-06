@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.rowset.cachedrowset;
+
 
 import java.math.BigDecimal;
 import java.sql.Array;
@@ -42,17 +44,30 @@ import javax.sql.rowset.serial.SerialRef;
 import javax.sql.rowset.spi.SyncFactory;
 import javax.sql.rowset.spi.SyncProvider;
 import javax.sql.rowset.spi.SyncProviderException;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertNull;
-import static org.testng.Assert.assertTrue;
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertFalse;.extended
+import static org.testng.Assert.assertNull;.extended
+import static org.testng.Assert.assertTrue;.extended
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import test.rowset.CommonRowSetTests;
 import util.StubArray;
 import util.StubRef;
 import util.StubSyncProvider;
-import util.TestRowSetListener;
+import util.TestRowSetjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class CommonCachedRowSetTests extends CommonRowSetTests {
 

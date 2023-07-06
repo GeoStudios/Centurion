@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package enum_init_;
+
+
+import java.base.share.classes.java.util.Arrays;
+import java.lang.annotation.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 5025833
@@ -28,11 +47,8 @@
  * @compile EnumInit.java
  */
 
-package enum_init_;
 
-import java.util.Arrays;
 
-import java.lang.annotation.*;
 
 @NestedEnum(getVehicles=NestedEnum.Vehicles.sports)
 class AnnotationDriverTest {}

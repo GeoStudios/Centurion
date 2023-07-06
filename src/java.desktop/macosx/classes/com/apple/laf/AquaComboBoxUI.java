@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.Color;
 import java.awt.Container;
@@ -30,11 +31,10 @@ import java.awt.LayoutManager;
 import java.awt.Rectangle;
 import java.awt.event.ActionEvent;
 import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
+import java.awt.event.Focusjava.util.Listener;
 import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
+import java.awt.event.Itemjava.util.Listener;
 import java.awt.event.KeyEvent;
-
 import javax.accessibility.Accessible;
 import javax.accessibility.AccessibleContext;
 import javax.accessibility.AccessibleState;
@@ -46,30 +46,43 @@ import javax.swing.InputMap;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JComponent;
-import javax.swing.JList;
+import javax.swing.Jjava.util.java.util.java.util.List;
 import javax.swing.JRootPane;
 import javax.swing.JTextField;
 import javax.swing.KeyStroke;
-import javax.swing.ListCellRenderer;
-import javax.swing.ListModel;
+import javax.swing.java.util.ListCellRenderer;
+import javax.swing.java.util.ListModel;
 import javax.swing.LookAndFeel;
 import javax.swing.SwingUtilities;
 import javax.swing.border.Border;
 import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
+import javax.swing.event.Documentjava.util.Listener;
 import javax.swing.plaf.ActionMapUIResource;
 import javax.swing.plaf.ComboBoxUI;
 import javax.swing.plaf.ComponentUI;
-import javax.swing.plaf.ListUI;
+import javax.swing.plaf.java.util.ListUI;
 import javax.swing.plaf.UIResource;
 import javax.swing.plaf.basic.BasicComboBoxEditor;
 import javax.swing.plaf.basic.BasicComboBoxUI;
 import javax.swing.plaf.basic.ComboPopup;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.Size;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtilControlSize.Sizeable;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
+import java.desktop.macosx.classes.com.apple.laf.ClientPropertyApplicator.Property;
 
-import apple.laf.JRSUIConstants.Size;
-import com.apple.laf.AquaUtilControlSize.Sizeable;
-import com.apple.laf.AquaUtils.RecyclableSingleton;
-import com.apple.laf.ClientPropertyApplicator.Property;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Inspired by MetalComboBoxUI, which also has a combined text-and-arrow button for noneditables
 public class AquaComboBoxUI extends BasicComboBoxUI implements Sizeable {

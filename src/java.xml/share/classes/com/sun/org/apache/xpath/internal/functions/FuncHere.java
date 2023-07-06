@@ -19,19 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xpath.internal.functions;
+package java.xml.share.classes.com.sun.org.apache.xpath.internal.functions;
 
-import com.sun.org.apache.xml.internal.dtm.DTM;
-import com.sun.org.apache.xml.internal.utils.QName;
-import com.sun.org.apache.xpath.internal.NodeSetDTM;
-import com.sun.org.apache.xpath.internal.XPathContext;
-import com.sun.org.apache.xpath.internal.objects.XNodeSet;
-import com.sun.org.apache.xpath.internal.objects.XObject;
-import com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
-import java.util.List;
+
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.NodeSetDTM;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XNodeSet;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
+import java.util.java.util.java.util.java.util.List;
 import javax.xml.transform.TransformerException;
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Execute the XML Signature here() function.

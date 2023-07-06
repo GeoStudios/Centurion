@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdb.interrupt.interrupt001;
+
+
+import nsk.share.*;
+import nsk.share.jdb.*;
+import java.io.*;
+import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import java.util.stream.Collectors;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -57,16 +80,8 @@
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
 
-package nsk.jdb.interrupt.interrupt001;
 
-import nsk.share.*;
-import nsk.share.jdb.*;
 
-import java.io.*;
-import java.util.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-import java.util.stream.Collectors;
 
 public class interrupt001 extends JdbTest {
 

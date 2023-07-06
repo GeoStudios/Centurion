@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.image;
+package java.desktop.share.classes.java.awt.image;
 
-import java.util.Hashtable;
-import java.awt.image.ImageProducer;
-import java.awt.image.ImageConsumer;
-import java.awt.image.ColorModel;
-import java.awt.Image;
+
+import java.desktop.share.classes.java.util.Hashtable;
+import java.desktop.share.classes.java.awt.image.ImageProducer;
+import java.desktop.share.classes.java.awt.image.ImageConsumer;
+import java.desktop.share.classes.java.awt.image.ColorModel;
+import java.desktop.share.classes.java.awt.Image;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The PixelGrabber class implements an ImageConsumer which can be attached

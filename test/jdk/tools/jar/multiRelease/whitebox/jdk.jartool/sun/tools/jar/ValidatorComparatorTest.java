@@ -19,18 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package sun.tools.jar;
+
+
+import java.util.java.util.java.util.java.util.List;
+import static java.util.stream.Collectors.tojava.util.java.util.java.util.List;.extended
+import static sun.tools.jar.Main.ENTRYNAME_COMPARATOR;.extended
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @summary White-box test for Validator.ENTRYNAME_COMPARATOR ( currently just
  *          checks module descriptors ).
  */
-package sun.tools.jar;
 
-import java.util.List;
-import static java.util.stream.Collectors.toList;
-import static sun.tools.jar.Main.ENTRYNAME_COMPARATOR;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
 
 public class ValidatorComparatorTest {
 

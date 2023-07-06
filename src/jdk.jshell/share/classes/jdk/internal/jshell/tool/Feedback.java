@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.jshell.tool;
+package jdk.jshell.share.classes.jdk.internal.jshell.tool;
+
 
 import java.util.*;
 import java.util.Map.Entry;
@@ -27,21 +28,32 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import jdk.jshell.share.classes.jdk.internal.jshell.tool.JShellTool.CompletionProvider;
+import static java.util.stream.Collectors.*;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.tool.ContinuousCompletionProvider.PERFECT_MATCHER;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.tool.JShellTool.EMPTY_COMPLETION_PROVIDER;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.tool.Selector.SelectorKind;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.tool.Selector.SelectorInstanceWithDoc;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.tool.Selector.SelectorBuilder;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.tool.Selector.FormatAction;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.tool.Selector.FormatCase;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.tool.Selector.FormatErrors;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.tool.Selector.FormatResolve;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.tool.Selector.FormatUnresolved;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.tool.Selector.FormatWhen;.extended
 
-import jdk.internal.jshell.tool.JShellTool.CompletionProvider;
 
-import static java.util.stream.Collectors.*;
-import static jdk.internal.jshell.tool.ContinuousCompletionProvider.PERFECT_MATCHER;
-import static jdk.internal.jshell.tool.JShellTool.EMPTY_COMPLETION_PROVIDER;
-import static jdk.internal.jshell.tool.Selector.SelectorKind;
-import static jdk.internal.jshell.tool.Selector.SelectorInstanceWithDoc;
-import static jdk.internal.jshell.tool.Selector.SelectorBuilder;
-import static jdk.internal.jshell.tool.Selector.FormatAction;
-import static jdk.internal.jshell.tool.Selector.FormatCase;
-import static jdk.internal.jshell.tool.Selector.FormatErrors;
-import static jdk.internal.jshell.tool.Selector.FormatResolve;
-import static jdk.internal.jshell.tool.Selector.FormatUnresolved;
-import static jdk.internal.jshell.tool.Selector.FormatWhen;
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.rmi.transport;
+package java.rmi.share.classes.sun.rmi.transport;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInput;
 import java.io.ObjectOutput;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.rmi.server.ObjID;
-import java.rmi.server.RMIClientSocketFactory;
-import java.rmi.server.RMIServerSocketFactory;
-import java.util.Arrays;
-import sun.rmi.transport.tcp.TCPEndpoint;
+import java.rmi.server.RMIClientjava.net.SocketFactory;
+import java.rmi.server.RMIjava.net.ServerSocketFactory;
+import java.base.share.classes.java.util.Arrays;
+import java.rmi.share.classes.sun.rmi.transport.tcp.TCPEndpoint;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * NOTE: There is a JDK-internal dependency on the existence of this

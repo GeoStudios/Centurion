@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.access;
+package java.base.share.classes.jdk.internal.access;
+
 
 import java.lang.reflect.*;
-import jdk.internal.reflect.*;
+import java.base.share.classes.jdk.internal.reflect.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** An interface which gives privileged packages Java-level access to
     internals of java.lang.reflect. */

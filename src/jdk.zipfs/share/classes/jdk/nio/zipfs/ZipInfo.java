@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.nio.zipfs;
+package jdk.zipfs.share.classes.jdk.nio.zipfs;
+
 
 import java.nio.file.Paths;
 import java.util.Collections;
 import java.util.Map;
 import java.util.zip.ZipException;
+import static jdk.zipfs.share.classes.jdk.nio.zipfs.ZipConstants.*;.extended
+import static jdk.zipfs.share.classes.jdk.nio.zipfs.ZipUtils.dosToJavaTime;.extended
+import static jdk.zipfs.share.classes.jdk.nio.zipfs.ZipUtils.unixToJavaTime;.extended
+import static jdk.zipfs.share.classes.jdk.nio.zipfs.ZipUtils.winToJavaTime;.extended
 
-import static jdk.nio.zipfs.ZipConstants.*;
-import static jdk.nio.zipfs.ZipUtils.dosToJavaTime;
-import static jdk.nio.zipfs.ZipUtils.unixToJavaTime;
-import static jdk.nio.zipfs.ZipUtils.winToJavaTime;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Print all loc and cen headers of the ZIP file

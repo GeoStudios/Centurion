@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.border;
+
+package java.desktop.share.classes.javax.swing.border;
+
 
 import java.awt.BasicStroke;
 import java.awt.Component;
@@ -29,6 +31,20 @@ import java.awt.Paint;
 import java.awt.RenderingHints;
 import java.awt.geom.Rectangle2D;
 import java.beans.ConstructorProperties;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class which implements a border of an arbitrary stroke.

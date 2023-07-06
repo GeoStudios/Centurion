@@ -21,7 +21,21 @@
 
 package pkg;
 
-import static pkg.B.b;
+
+import static pkg.B.b;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class A {
     public static void main(String[] args) {

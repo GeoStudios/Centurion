@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.event;
+package java.desktop.share.classes.java.awt.event;
 
-import java.awt.Window;
-import java.io.Serial;
-import java.lang.annotation.Native;
 
+import java.desktop.share.classes.java.awt.Window;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.lang.annotation.Native;
 import sun.awt.AppContext;
 import sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A low-level event that indicates that a window has changed its status. This

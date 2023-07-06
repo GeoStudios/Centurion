@@ -18,22 +18,37 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.security.ec.ed;
 
-import sun.security.ec.ParametersMap;
-import sun.security.provider.SHAKE256;
-import sun.security.util.ObjectIdentifier;
-import sun.security.util.KnownOIDs;
-import sun.security.util.math.*;
-import sun.security.util.math.intpoly.*;
-import sun.security.x509.AlgorithmId;
+package jdk.crypto.ec.share.classes.sun.security.ec.ed;
 
-import java.io.IOException;
+
+import jdk.crypto.ec.share.classes.sun.security.ec.ParametersMap;
+import jdk.crypto.ec.share.classes.sun.security.provider.SHAKE256;
+import jdk.crypto.ec.share.classes.sun.security.util.ObjectIdentifier;
+import jdk.crypto.ec.share.classes.sun.security.util.KnownOIDs;
+import jdk.crypto.ec.share.classes.sun.security.util.math.*;
+import jdk.crypto.ec.share.classes.sun.security.util.math.intpoly.*;
+import jdk.crypto.ec.share.classes.sun.security.x509.AlgorithmId;
+import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
 import java.nio.charset.StandardCharsets;
-import java.security.*;
-import java.security.spec.*;
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.java.security.spec.*;
 import java.util.function.Function;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * The set of parameters that defines an instance of the EdDSA signature

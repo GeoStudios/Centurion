@@ -19,16 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.lang.invoke;
+
+
+import java.lang.invoke.*;
+import org.junit.*;
+import static org.junit.Assert.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8027823
  * @run junit test.java.lang.invoke.TestCatchException
  */
-package test.java.lang.invoke;
 
-import java.lang.invoke.*;
-import org.junit.*;
-import static org.junit.Assert.*;
 
 public class TestCatchException {
     static final MethodHandles.Lookup LOOKUP = MethodHandles.lookup();

@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.beans.ConstructorProperties;
-import java.io.InputStream;
-import java.io.Serial;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.security.PrivilegedExceptionAction;
-import java.util.Hashtable;
-import java.util.Properties;
-import java.util.StringTokenizer;
 
+import java.desktop.share.classes.java.beans.ConstructorProperties;
+import java.desktop.share.classes.java.io.InputStream;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.security.AccessController;
+import java.desktop.share.classes.java.security.PrivilegedAction;
+import java.desktop.share.classes.java.security.PrivilegedExceptionAction;
+import java.desktop.share.classes.java.util.Hashtable;
+import java.desktop.share.classes.java.util.Properties;
+import java.desktop.share.classes.java.util.StringTokenizer;
 import sun.awt.AWTAccessor;
 import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class to encapsulate the bitmap representation of the mouse cursor.

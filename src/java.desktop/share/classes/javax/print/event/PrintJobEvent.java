@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.print.event;
+package java.desktop.share.classes.javax.print.event;
+
 
 import java.io.Serial;
+import java.desktop.share.classes.javax.print.DocPrintJob;
 
-import javax.print.DocPrintJob;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class {@code PrintJobEvent} encapsulates common events a print job reports to

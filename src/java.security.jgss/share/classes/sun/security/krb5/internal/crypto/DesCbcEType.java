@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal.crypto;
+package java.security.jgss.share.classes.sun.security.krb5.internal.crypto;
 
-import sun.security.krb5.Confounder;
-import sun.security.krb5.KrbCryptoException;
-import sun.security.krb5.internal.*;
+
+import java.security.jgss.share.classes.sun.security.krb5.Confounder;
+import java.security.jgss.share.classes.sun.security.krb5.KrbCryptoException;
+import java.security.jgss.share.classes.sun.security.krb5.internal.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class DesCbcEType extends EType {
     protected abstract byte[] calculateChecksum(byte[] data, int size)

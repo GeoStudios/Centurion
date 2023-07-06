@@ -18,16 +18,16 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.vm.ci.runtime.test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.function.Supplier;
-
 import org.junit.Assert;
 import org.junit.Test;
-
 import jdk.vm.ci.code.CodeCacheProvider;
 import jdk.vm.ci.meta.JavaConstant;
 import jdk.vm.ci.meta.ResolvedJavaMethod;
@@ -35,6 +35,19 @@ import jdk.vm.ci.meta.ResolvedJavaType;
 import jdk.vm.ci.meta.SpeculationLog;
 import jdk.vm.ci.meta.SpeculationLog.SpeculationReasonEncoding;
 import jdk.vm.ci.runtime.JVMCI;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TestSpeculationLog extends MethodUniverse {
 

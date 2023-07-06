@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.ObjectReference.referringObjects.referringObjects001;
+
+
+import java.io.PrintStream;
+import java.util.*;
+import nsk.share.*;
+import nsk.share.jdi.*;
+import com.sun.jdi.*;
+import nsk.share.jpda.AbstractDebuggeeTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -65,17 +88,10 @@
  *      -debugee.vmkeys="-Xmx128M ${test.vm.opts} ${test.java.opts}"
  */
 
-package nsk.jdi.ObjectReference.referringObjects.referringObjects001;
-
-import java.io.PrintStream;
-import java.util.*;
-
-import nsk.share.*;
-import nsk.share.jdi.*;
 
 
-import com.sun.jdi.*;
-import nsk.share.jpda.AbstractDebuggeeTest;
+
+
 
 public class referringObjects001 extends HeapwalkingDebugger {
 

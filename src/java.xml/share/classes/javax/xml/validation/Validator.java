@@ -19,18 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.validation;
+package java.xml.share.classes.javax.xml.validation;
 
-import java.io.IOException;
 
-import javax.xml.transform.Result;
-import javax.xml.transform.Source;
-
+import java.io.java.io.java.io.java.io.IOException;
+import java.xml.share.classes.javax.xml.transform.Result;
+import java.xml.share.classes.javax.xml.transform.Source;
 import org.w3c.dom.ls.LSResourceResolver;
 import org.xml.sax.ErrorHandler;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXNotRecognizedException;
 import org.xml.sax.SAXNotSupportedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A processor that checks an XML document against {@link Schema}.

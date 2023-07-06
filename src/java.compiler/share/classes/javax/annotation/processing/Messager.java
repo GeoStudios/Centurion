@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.annotation.processing;
+package java.compiler.share.classes.javax.annotation.processing;
 
-import javax.tools.Diagnostic;
-import javax.lang.model.element.*;
+
+import java.compiler.share.classes.javax.tools.Diagnostic;
+import java.compiler.share.classes.javax.lang.model.element.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code Messager} provides the way for an annotation processor to

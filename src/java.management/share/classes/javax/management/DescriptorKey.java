@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management;
+package java.management.share.classes.javax.management;
+
 
 import java.lang.annotation.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Meta-annotation that describes how an annotation element relates

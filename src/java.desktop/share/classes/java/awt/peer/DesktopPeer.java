@@ -18,24 +18,39 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.awt.peer;
 
-import java.awt.Desktop.Action;
-import java.awt.desktop.AboutHandler;
-import java.awt.desktop.OpenFilesHandler;
-import java.awt.desktop.OpenURIEvent;
-import java.awt.desktop.OpenURIHandler;
-import java.awt.desktop.PreferencesEvent;
-import java.awt.desktop.PreferencesHandler;
-import java.awt.desktop.PrintFilesHandler;
-import java.awt.desktop.QuitHandler;
-import java.awt.desktop.QuitStrategy;
-import java.awt.desktop.SystemEventListener;
-import java.io.File;
-import java.io.IOException;
-import java.net.URI;
+package java.desktop.share.classes.java.awt.peer;
 
+
+import java.desktop.share.classes.java.awt.Desktop.Action;
+import java.desktop.share.classes.java.awt.desktop.AboutHandler;
+import java.desktop.share.classes.java.awt.desktop.OpenFilesHandler;
+import java.desktop.share.classes.java.awt.desktop.OpenURIEvent;
+import java.desktop.share.classes.java.awt.desktop.OpenURIHandler;
+import java.desktop.share.classes.java.awt.desktop.PreferencesEvent;
+import java.desktop.share.classes.java.awt.desktop.PreferencesHandler;
+import java.desktop.share.classes.java.awt.desktop.PrintFilesHandler;
+import java.desktop.share.classes.java.awt.desktop.QuitHandler;
+import java.desktop.share.classes.java.awt.desktop.QuitStrategy;
+import java.desktop.share.classes.java.awt.desktop.SystemEventjava.util.Listener;
+import java.desktop.share.classes.java.io.File;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.net.URI;
 import javax.swing.JMenuBar;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code DesktopPeer} interface provides methods for the operation

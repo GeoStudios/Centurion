@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.share.classes.sun.font;
+
 
 import java.lang.ref.Reference;
 import java.awt.FontFormatException;
@@ -28,14 +29,27 @@ import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
 import java.io.File;
 import java.nio.ByteBuffer;
-import sun.java2d.Disposer;
-import sun.java2d.DisposerRecord;
-
-import java.io.IOException;
-import java.util.List;
+import java.desktop.share.classes.sun.java2d.Disposer;
+import java.desktop.share.classes.sun.java2d.DisposerRecord;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.java.util.java.util.java.util.List;
 import java.security.AccessController;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class FileFont extends PhysicalFont {
 

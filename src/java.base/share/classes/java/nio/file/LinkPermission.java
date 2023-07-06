@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.nio.file;
+package java.base.share.classes.java.nio.file;
 
-import java.security.BasicPermission;
+
+import java.base.share.classes.java.security.BasicPermission;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code Permission} class for link creation operations.

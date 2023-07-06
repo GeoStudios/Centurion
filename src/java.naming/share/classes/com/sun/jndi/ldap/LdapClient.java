@@ -19,22 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap;
+package java.naming.share.classes.com.sun.jndi.ldap;
+
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Vector;
 import java.util.Hashtable;
-
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.ldap.*;
+import java.naming.share.classes.com.sun.jndi.ldap.pool.PooledConnection;
+import java.naming.share.classes.com.sun.jndi.ldap.pool.PoolCallback;
+import java.naming.share.classes.com.sun.jndi.ldap.sasl.LdapSasl;
+import java.naming.share.classes.com.sun.jndi.ldap.sasl.SaslInputStream;
 
-import com.sun.jndi.ldap.pool.PooledConnection;
-import com.sun.jndi.ldap.pool.PoolCallback;
-import com.sun.jndi.ldap.sasl.LdapSasl;
-import com.sun.jndi.ldap.sasl.SaslInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * LDAP (RFC-1777) and LDAPv3 (RFC-2251) compliant client
@@ -755,7 +768,7 @@ public final class LdapClient implements PooledConnection {
             ((binaryAttrs != null) && (binaryAttrs.containsKey(id))));
     }
 
-    // package entry point; used by Connection
+    //  used by Connection
     static void parseResult(BerDecoder replyBer, LdapResult res,
             boolean isLdapv3) throws IOException {
 
@@ -786,7 +799,7 @@ public final class LdapClient implements PooledConnection {
         }
     }
 
-    // package entry point; used by Connection
+    //  used by Connection
     static Vector<Control> parseControls(BerDecoder replyBer) throws IOException {
 
         // handle LDAPv3 controls (if present)

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.share.classes.sun.font;
+
 
 import java.awt.FontFormatException;
 import java.awt.geom.GeneralPath;
@@ -29,6 +30,20 @@ import java.io.FileInputStream;
 import java.lang.ref.WeakReference;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class PhysicalFont extends Font2D {
 

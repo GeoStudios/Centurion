@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.crypto.spec;
+package java.base.share.classes.javax.crypto.spec;
 
-import java.security.InvalidKeyException;
+
+import java.base.share.classes.java.security.InvalidKeyException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class specifies a DES-EDE ("triple-DES") key.

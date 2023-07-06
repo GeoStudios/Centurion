@@ -18,6 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package jit.init.init02;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
    The init02.java test checks if a JIT changes the order in which
    classes are initialized. Java semantics do not allow a class to be
@@ -36,9 +55,7 @@
  * @run main/othervm jit.init.init02.init02
  */
 
-package jit.init.init02;
 
-import nsk.share.TestFailure;
 
 public class init02 {
     public static boolean failed = false;

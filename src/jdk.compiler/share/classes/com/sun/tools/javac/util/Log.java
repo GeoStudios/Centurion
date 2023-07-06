@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.util;
+package jdk.compiler.share.classes.com.sun.tools.javac.util;
+
 
 import java.io.*;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.EnumMap;
 import java.util.EnumSet;
 import java.util.HashSet;
@@ -30,20 +31,31 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.Set;
 import java.util.function.Predicate;
-
-import javax.tools.DiagnosticListener;
+import javax.tools.Diagnosticjava.util.Listener;
 import javax.tools.JavaFileObject;
+import jdk.compiler.share.classes.com.sun.tools.javac.api.DiagnosticFormatter;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Main;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Option;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.EndPosTable;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticInfo;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticType;
+import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.*;.extended
 
-import com.sun.tools.javac.api.DiagnosticFormatter;
-import com.sun.tools.javac.main.Main;
-import com.sun.tools.javac.main.Option;
-import com.sun.tools.javac.tree.EndPosTable;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticInfo;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticType;
 
-import static com.sun.tools.javac.main.Option.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A class for error logs. Reports errors and warnings, and
  *  keeps track of error numbers and positions.

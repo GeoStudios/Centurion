@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.tree;
+package jdk.compiler.share.classes.com.sun.tools.javac.tree;
 
-import com.sun.source.doctree.ErroneousTree;
-import com.sun.tools.javac.parser.Tokens.Comment;
-import com.sun.tools.javac.tree.DCTree.DCDocComment;
+
+import jdk.compiler.share.classes.com.sun.source.doctree.ErroneousTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.Comment;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCDocComment;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A table giving the doc comment, if any, for any tree node.

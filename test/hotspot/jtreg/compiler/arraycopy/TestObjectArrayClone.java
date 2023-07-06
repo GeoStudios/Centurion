@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.arraycopy;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8155643 8268125 8270461
@@ -34,7 +51,6 @@
  *                   compiler.arraycopy.TestObjectArrayClone
  */
 
-package compiler.arraycopy;
 
 class Payload implements Cloneable {
     boolean b;

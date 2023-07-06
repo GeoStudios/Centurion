@@ -19,34 +19,48 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
+
 
 import java.lang.ref.SoftReference;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
+import jdk.jdi.share.classes.com.sun.jdi.AbsentInformationException;
+import jdk.jdi.share.classes.com.sun.jdi.ClassLoaderReference;
+import jdk.jdi.share.classes.com.sun.jdi.ClassNotLoadedException;
+import jdk.jdi.share.classes.com.sun.jdi.ClassObjectReference;
+import jdk.jdi.share.classes.com.sun.jdi.Field;
+import jdk.jdi.share.classes.com.sun.jdi.InterfaceType;
+import jdk.jdi.share.classes.com.sun.jdi.InternalException;
+import jdk.jdi.share.classes.com.sun.jdi.Location;
+import jdk.jdi.share.classes.com.sun.jdi.Method;
+import jdk.jdi.share.classes.com.sun.jdi.ModuleReference;
+import jdk.jdi.share.classes.com.sun.jdi.ObjectReference;
+import jdk.jdi.share.classes.com.sun.jdi.ReferenceType;
+import jdk.jdi.share.classes.com.sun.jdi.Type;
+import jdk.jdi.share.classes.com.sun.jdi.Value;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
 
-import com.sun.jdi.AbsentInformationException;
-import com.sun.jdi.ClassLoaderReference;
-import com.sun.jdi.ClassNotLoadedException;
-import com.sun.jdi.ClassObjectReference;
-import com.sun.jdi.Field;
-import com.sun.jdi.InterfaceType;
-import com.sun.jdi.InternalException;
-import com.sun.jdi.Location;
-import com.sun.jdi.Method;
-import com.sun.jdi.ModuleReference;
-import com.sun.jdi.ObjectReference;
-import com.sun.jdi.ReferenceType;
-import com.sun.jdi.Type;
-import com.sun.jdi.Value;
-import com.sun.jdi.VirtualMachine;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class ReferenceTypeImpl extends TypeImpl implements ReferenceType {
     protected long ref;

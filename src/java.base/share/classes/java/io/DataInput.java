@@ -19,7 +19,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 /**
  * The {@code DataInput} interface provides
@@ -145,8 +145,8 @@ package java.io;
  * <li><a href="../lang/Character.html#unicode">Supplementary characters</a>
  *     are represented in the form of surrogate pairs.
  * </ul>
- * @see     java.io.DataInputStream
- * @see     java.io.DataOutput
+ * @see DataInputStream
+ * @see DataOutput
  */
 public interface DataInput {
     /**

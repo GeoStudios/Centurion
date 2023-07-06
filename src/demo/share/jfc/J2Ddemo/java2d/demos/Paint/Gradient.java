@@ -18,19 +18,20 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d.demos.Paint;
+
+package demo.share.jfc.J2Ddemo.java2d.demos.Paint;
 
 
-import static java.awt.Color.black;
-import static java.awt.Color.blue;
-import static java.awt.Color.cyan;
-import static java.awt.Color.green;
-import static java.awt.Color.lightGray;
-import static java.awt.Color.magenta;
-import static java.awt.Color.orange;
-import static java.awt.Color.red;
-import static java.awt.Color.white;
-import static java.awt.Color.yellow;
+import static java.awt.Color.black;.extended
+import static java.awt.Color.blue;.extended
+import static java.awt.Color.cyan;.extended
+import static java.awt.Color.green;.extended
+import static java.awt.Color.lightGray;.extended
+import static java.awt.Color.magenta;.extended
+import static java.awt.Color.orange;.extended
+import static java.awt.Color.red;.extended
+import static java.awt.Color.white;.extended
+import static java.awt.Color.yellow;.extended
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
@@ -39,14 +40,27 @@ import java.awt.GradientPaint;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.font.TextLayout;
-import java2d.ControlsSurface;
-import java2d.CustomControls;
+import demo.share.jfc.J2Ddemo.java2d.ControlsSurface;
+import demo.share.jfc.J2Ddemo.java2d.CustomControls;
 import javax.swing.Icon;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @SuppressWarnings("serial")

@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.java2d.J2DBench.src.j2dbench.report;
+
+
+import java.io.*;
+import java.util.*;
+import java.text.DecimalFormat;
+import java.text.SimpleDateFormat;
+import demo.share.java2d.J2DBench.src.j2dbench.report.J2DAnalyzer.ResultHolder;
+import demo.share.java2d.J2DBench.src.j2dbench.report.J2DAnalyzer.ResultSetHolder;
+import demo.share.java2d.J2DBench.src.j2dbench.report.J2DAnalyzer.SingleResultSetHolder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -34,16 +59,9 @@
  * Show series data in graphical form.
  */
 
-package j2dbench.report;
 
-import java.io.*;
-import java.util.*;
-import java.text.DecimalFormat;
-import java.text.SimpleDateFormat;
 
-import j2dbench.report.J2DAnalyzer.ResultHolder;
-import j2dbench.report.J2DAnalyzer.ResultSetHolder;
-import j2dbench.report.J2DAnalyzer.SingleResultSetHolder;
+
 
 public class HTMLSeriesReporter {
 

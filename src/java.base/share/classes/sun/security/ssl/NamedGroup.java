@@ -18,21 +18,36 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.security.ssl;
+
+package java.base.share.classes.sun.security.ssl;
+
 
 import javax.crypto.spec.DHParameterSpec;
 import javax.net.ssl.SSLException;
-import java.io.IOException;
-import java.security.*;
-import java.security.spec.*;
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.java.security.spec.*;
 import java.util.Collections;
 import java.util.EnumSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import javax.crypto.KeyAgreement;
-import sun.security.ssl.DHKeyExchange.DHEPossession;
-import sun.security.ssl.ECDHKeyExchange.ECDHEPossession;
-import sun.security.util.CurveDB;
+import java.base.share.classes.sun.security.ssl.DHKeyExchange.DHEPossession;
+import java.base.share.classes.sun.security.ssl.ECDHKeyExchange.ECDHEPossession;
+import java.base.share.classes.sun.security.util.CurveDB;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

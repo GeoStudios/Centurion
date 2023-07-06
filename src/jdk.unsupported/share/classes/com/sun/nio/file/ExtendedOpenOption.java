@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.nio.file;
+package jdk.unsupported.share.classes.com.sun.nio.file;
+
 
 import java.nio.file.OpenOption;
 import jdk.internal.misc.FileSystemOption;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines <em>extended</em> open options supported on some platforms

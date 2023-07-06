@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.eawt;
+package java.desktop.macosx.classes.com.apple.eawt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class _AppMiscHandlers {
     private static boolean isSuddenTerminationEnabled;

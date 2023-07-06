@@ -21,6 +21,21 @@
 
 package jdk.test4;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Type {
     public Type() { }
 }

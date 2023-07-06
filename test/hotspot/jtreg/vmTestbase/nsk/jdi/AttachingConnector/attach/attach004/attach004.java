@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.jdi.AttachingConnector.attach.attach004;
+
 
 import com.sun.jdi.connect.*;
 import java.io.*;
@@ -27,7 +29,20 @@ import nsk.share.*;
 import nsk.share.ArgumentParser.BadOption;
 import nsk.share.jdi.*;
 import nsk.share.jdi.ConnectorTest.ArgHandler;
-import nsk.share.jpda.SocketIOPipe;
+import nsk.share.jpda.java.net.SocketIOPipe;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * The test checks that debugger may establish connection with

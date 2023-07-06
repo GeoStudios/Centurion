@@ -19,28 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
+import jdk.jdi.share.classes.com.sun.jdi.AbsentInformationException;
+import jdk.jdi.share.classes.com.sun.jdi.ClassNotLoadedException;
+import jdk.jdi.share.classes.com.sun.jdi.IncompatibleThreadStateException;
+import jdk.jdi.share.classes.com.sun.jdi.InternalException;
+import jdk.jdi.share.classes.com.sun.jdi.InvalidStackFrameException;
+import jdk.jdi.share.classes.com.sun.jdi.InvalidTypeException;
+import jdk.jdi.share.classes.com.sun.jdi.LocalVariable;
+import jdk.jdi.share.classes.com.sun.jdi.Location;
+import jdk.jdi.share.classes.com.sun.jdi.ObjectReference;
+import jdk.jdi.share.classes.com.sun.jdi.StackFrame;
+import jdk.jdi.share.classes.com.sun.jdi.ThreadReference;
+import jdk.jdi.share.classes.com.sun.jdi.Value;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
 
-import com.sun.jdi.AbsentInformationException;
-import com.sun.jdi.ClassNotLoadedException;
-import com.sun.jdi.IncompatibleThreadStateException;
-import com.sun.jdi.InternalException;
-import com.sun.jdi.InvalidStackFrameException;
-import com.sun.jdi.InvalidTypeException;
-import com.sun.jdi.LocalVariable;
-import com.sun.jdi.Location;
-import com.sun.jdi.ObjectReference;
-import com.sun.jdi.StackFrame;
-import com.sun.jdi.ThreadReference;
-import com.sun.jdi.Value;
-import com.sun.jdi.VirtualMachine;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class StackFrameImpl extends MirrorImpl
                             implements StackFrame, ThreadListener

@@ -21,7 +21,21 @@
 
 package gc.arguments;
 
+
 import java.util.regex.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class FlagsValue {
   public static boolean getFlagBoolValue(String flag, String where) {

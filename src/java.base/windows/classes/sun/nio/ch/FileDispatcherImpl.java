@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.ch;
+package java.base.windows.classes.sun.nio.ch;
+
 
 import java.io.FileDescriptor;
-import java.io.IOException;
-import jdk.internal.access.SharedSecrets;
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.access.JavaIOFileDescriptorAccess;
-import sun.security.action.GetPropertyAction;
+import java.base.windows.classes.sun.security.action.GetPropertyAction;
 import java.io.File;
 import java.nio.CharBuffer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class FileDispatcherImpl extends FileDispatcher {
 

@@ -19,19 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.geom;
+package java.desktop.share.classes.java.awt.geom;
 
-import java.awt.Rectangle;
-import java.awt.Shape;
-import java.io.Serial;
-import java.io.Serializable;
-import java.util.Arrays;
 
+import java.desktop.share.classes.java.awt.Rectangle;
+import java.desktop.share.classes.java.awt.Shape;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.io.Serializable;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays;
 import sun.awt.geom.Curve;
+import static java.desktop.share.classes.java.lang.Math.abs;.extended
+import static java.desktop.share.classes.java.lang.Math.max;.extended
+import static java.desktop.share.classes.java.lang.Math.ulp;.extended
 
-import static java.lang.Math.abs;
-import static java.lang.Math.max;
-import static java.lang.Math.ulp;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code CubicCurve2D} class defines a cubic parametric curve

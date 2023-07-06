@@ -19,31 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.remote.rmi;
+package java.management.rmi.share.classes.javax.management.remote.rmi;
+
 
 import com.sun.jmx.remote.internal.ArrayNotificationBuffer;
 import com.sun.jmx.remote.internal.NotificationBuffer;
 import com.sun.jmx.remote.security.JMXPluggableAuthenticator;
 import com.sun.jmx.remote.util.ClassLogger;
-
 import java.io.Closeable;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.ref.WeakReference;
 import java.rmi.Remote;
 import java.rmi.server.RemoteServer;
 import java.rmi.server.ServerNotActiveException;
 import java.security.Principal;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.management.rmi.share.classes.javax.management.MBeanServer;
+import java.management.rmi.share.classes.javax.management.remote.JMXAuthenticator;
+import java.management.rmi.share.classes.javax.management.remote.JMXConnectorServer;
+import java.management.rmi.share.classes.javax.security.auth.Subject;
 
-import javax.management.MBeanServer;
-import javax.management.remote.JMXAuthenticator;
-import javax.management.remote.JMXConnectorServer;
-import javax.security.auth.Subject;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>An RMI object representing a connector server.  Remote clients

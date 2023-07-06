@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6860469
@@ -29,7 +46,6 @@
  *      compiler.loopopts.Test6860469
  */
 
-package compiler.loopopts;
 
 public class Test6860469 {
 

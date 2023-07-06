@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jsr.ret;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4933139
@@ -28,7 +45,6 @@
  * @compile JsrRet.java
  */
 
-package jsr.ret;
 
 class T {
     {

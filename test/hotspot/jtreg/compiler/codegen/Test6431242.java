@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codegen;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6431242
@@ -26,7 +43,6 @@
  * @run main compiler.codegen.Test6431242
  */
 
-package compiler.codegen;
 
 public class Test6431242 {
 

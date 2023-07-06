@@ -19,6 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test;
+
+
+import java.lang.reflect.*;
+import java.lang.invoke.MethodHandles.Lookup;
+import static java.lang.invoke.MethodHandles.*;.extended
+import static java.lang.invoke.MethodHandles.Lookup.*;.extended
+import java.base.share.classes.java.security.*;
+import jdk.internal.org.objectweb.asm.ClassWriter;
+import jdk.internal.org.objectweb.asm.MethodVisitor;
+import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
+import test.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @summary Test messages of IllegalAccessError.
@@ -32,19 +58,9 @@
 // Put this test into a package so we see qualified class names in
 // the error messages. Verify that classes are printed with '.' instead
 // of '/'.
-package test;
 
-import java.lang.reflect.*;
-import java.lang.invoke.MethodHandles.Lookup;
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodHandles.Lookup.*;
-import java.security.*;
 
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.org.objectweb.asm.MethodVisitor;
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
 
-import test.*;
 
 abstract public class IllegalAccessErrorTest {
 

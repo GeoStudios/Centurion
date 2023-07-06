@@ -19,16 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.mbeanserver;
+package java.management.share.classes.com.sun.jmx.mbeanserver;
 
-import com.sun.jmx.defaults.ServiceName;
-import static com.sun.jmx.defaults.JmxProperties.MBEANSERVER_LOGGER;
 
-import java.util.ArrayList;
+import java.management.share.classes.com.sun.jmx.defaults.ServiceName;
+import static java.management.share.classes.com.sun.jmx.defaults.JmxProperties.MBEANSERVER_LOGGER;.extended
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 import java.lang.System.Logger.Level;
 import java.util.Map;
@@ -39,6 +39,20 @@ import javax.management.InstanceNotFoundException;
 import javax.management.ObjectName;
 import javax.management.QueryExp;
 import javax.management.RuntimeOperationsException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This repository does not support persistency.

@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvmstat.perfdata.monitor;
+package jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor;
 
-import java.util.List;
-import sun.jvmstat.monitor.Monitor;
+
+import java.util.java.util.java.util.java.util.List;
+import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.Monitor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Immutable class containing the list of inserted and deleted

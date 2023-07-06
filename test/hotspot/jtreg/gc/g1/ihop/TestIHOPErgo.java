@@ -19,7 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
- /*
+package gc.g1.ihop;
+
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Collections;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import gc.g1.ihop.lib.IhopUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
  * @test TestIHOPErgo
  * @bug 8148397
  * @key stress
@@ -33,17 +57,9 @@
  * @modules java.management
  * @run driver/timeout=480 gc.g1.ihop.TestIHOPErgo
  */
-package gc.g1.ihop;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
-import gc.g1.ihop.lib.IhopUtils;
 
 /**
  * The test starts the AppIHOP multiple times varying settings of MaxHeapSize.

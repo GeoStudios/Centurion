@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.event;
+package java.desktop.share.classes.javax.swing.event;
+
 
 import java.util.EventObject;
-import javax.swing.table.*;
+import java.desktop.share.classes.javax.swing.table.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <B>TableColumnModelEvent</B> is used to notify listeners that a table

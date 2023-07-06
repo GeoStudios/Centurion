@@ -19,16 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole.inspector;
+package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
+
 
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
 import java.util.Timer;
-
 import javax.swing.*;
+import jdk.jconsole.share.classes.sun.tools.jconsole.*;
 
-import sun.tools.jconsole.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public class XPlottingViewer extends PlotterPanel implements ActionListener {

@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.undo;
+package java.desktop.share.classes.javax.swing.undo;
+
 
 import java.io.Serializable;
-import javax.swing.UIManager;
+import java.desktop.share.classes.javax.swing.UIManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An abstract implementation of <code>UndoableEdit</code>,

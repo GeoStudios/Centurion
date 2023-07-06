@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d;
+package java.desktop.macosx.classes.sun.java2d;
+
 
 import java.security.PrivilegedAction;
-import sun.java2d.metal.MTLGraphicsConfig;
-import sun.java2d.opengl.CGLGraphicsConfig;
+import java.desktop.macosx.classes.sun.java2d.metal.MTLGraphicsConfig;
+import java.desktop.macosx.classes.sun.java2d.opengl.CGLGraphicsConfig;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class MacOSFlags {

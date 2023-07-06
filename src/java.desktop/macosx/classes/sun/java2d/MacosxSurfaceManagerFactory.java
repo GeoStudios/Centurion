@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d;
+package java.desktop.macosx.classes.sun.java2d;
 
-import sun.awt.image.SunVolatileImage;
-import sun.awt.image.VolatileSurfaceManager;
-import sun.awt.CGraphicsDevice;
-import sun.java2d.metal.MTLVolatileSurfaceManager;
-import sun.java2d.opengl.CGLVolatileSurfaceManager;
+
+import java.desktop.macosx.classes.sun.awt.image.SunVolatileImage;
+import java.desktop.macosx.classes.sun.awt.image.VolatileSurfaceManager;
+import java.desktop.macosx.classes.sun.awt.CGraphicsDevice;
+import java.desktop.macosx.classes.sun.java2d.metal.MTLVolatileSurfaceManager;
+import java.desktop.macosx.classes.sun.java2d.opengl.CGLVolatileSurfaceManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is a factory class with static methods for creating a

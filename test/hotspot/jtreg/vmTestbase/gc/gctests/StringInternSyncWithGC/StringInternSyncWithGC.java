@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.StringInternSyncWithGC;
+
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import nsk.share.gc.*;
+import nsk.share.gc.gp.MemoryStrategy;
+import nsk.share.gc.gp.MemoryStrategyAware;
+import nsk.share.gc.gp.string.RandomStringProducer;
+import nsk.share.test.ExecutionController;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -42,16 +66,8 @@
  *      -capacityVerPart 2
  */
 
-package gc.gctests.StringInternSyncWithGC;
 
-import java.util.ArrayList;
-import java.util.List;
 
-import nsk.share.gc.*;
-import nsk.share.gc.gp.MemoryStrategy;
-import nsk.share.gc.gp.MemoryStrategyAware;
-import nsk.share.gc.gp.string.RandomStringProducer;
-import nsk.share.test.ExecutionController;
 
 public class StringInternSyncWithGC extends ThreadedGCTest implements MemoryStrategyAware {
 

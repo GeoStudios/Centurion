@@ -19,15 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
+
 
 import javax.crypto.KeyGeneratorSpi;
-import javax.crypto.SecretKey;
-import javax.crypto.spec.DESedeKeySpec;
+import java.base.share.classes.javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.spec.DESedeKeySpec;
 import java.security.SecureRandom;
 import java.security.InvalidParameterException;
 import java.security.InvalidAlgorithmParameterException;
-import java.security.InvalidKeyException;
+import java.base.share.classes.java.security.InvalidKeyException;
 import java.security.spec.AlgorithmParameterSpec;
 
 /**

@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.difference;
 
-import com.sun.hotspot.igv.data.Properties;
-import com.sun.hotspot.igv.data.*;
-import com.sun.hotspot.igv.data.services.Scheduler;
-import java.util.*;
+package utils.IdealGraphVisualizer.Difference.src.main.java.com.sun.hotspot.igv.difference;
+
+
+import utils.IdealGraphVisualizer.Difference.src.main.java.com.sun.hotspot.igv.data.Properties;
+import utils.IdealGraphVisualizer.Difference.src.main.java.com.sun.hotspot.igv.data.*;
+import utils.IdealGraphVisualizer.Difference.src.main.java.com.sun.hotspot.igv.data.services.Scheduler;
+import utils.IdealGraphVisualizer.Difference.src.main.java.util.*;
 import org.openide.util.Lookup;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

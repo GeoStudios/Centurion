@@ -19,32 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.trax;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax;
+
 
 import jdk.xml.internal.JdkConstants;
-import com.sun.org.apache.xalan.internal.utils.FeaturePropertyBase;
-import com.sun.org.apache.xalan.internal.utils.ObjectFactory;
-import com.sun.org.apache.xalan.internal.utils.XMLSecurityManager;
-import com.sun.org.apache.xalan.internal.utils.XMLSecurityPropertyManager.Property;
-import com.sun.org.apache.xalan.internal.utils.XMLSecurityPropertyManager;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.Constants;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.SourceLoader;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.XSLTC;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
-import com.sun.org.apache.xalan.internal.xsltc.dom.XSLTCDTMManager;
-import com.sun.org.apache.xml.internal.utils.StopParseException;
-import com.sun.org.apache.xml.internal.utils.StylesheetPIHandler;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.utils.FeaturePropertyBase;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.utils.ObjectFactory;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.utils.XMLSecurityManager;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.utils.XMLSecurityPropertyManager.Property;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.utils.XMLSecurityPropertyManager;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.Constants;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.SourceLoader;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.XSLTC;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom.XSLTCDTMManager;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.StopParseException;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.StylesheetPIHandler;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FilenameFilter;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Enumeration;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Properties;
 import java.util.zip.ZipEntry;
@@ -55,7 +56,7 @@ import javax.xml.catalog.CatalogFeatures.Feature;
 import javax.xml.catalog.CatalogFeatures;
 import javax.xml.catalog.CatalogManager;
 import javax.xml.catalog.CatalogResolver;
-import javax.xml.transform.ErrorListener;
+import javax.xml.transform.Errorjava.util.Listener;
 import javax.xml.transform.Source;
 import javax.xml.transform.Templates;
 import javax.xml.transform.Transformer;
@@ -78,11 +79,25 @@ import jdk.xml.internal.JdkXmlUtils;
 import jdk.xml.internal.JdkProperty.ImplPropMap;
 import jdk.xml.internal.JdkProperty.State;
 import jdk.xml.internal.SecuritySupport;
-import jdk.xml.internal.TransformErrorListener;
-import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
-import org.xml.sax.XMLFilter;
-import org.xml.sax.XMLReader;
+import jdk.xml.internal.TransformErrorjava.util.Listener;
+import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.XMLFilter;
+import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of a JAXP TransformerFactory for Translets.

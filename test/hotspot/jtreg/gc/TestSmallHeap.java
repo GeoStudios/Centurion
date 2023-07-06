@@ -21,6 +21,28 @@
 
 package gc;
 
+
+import jdk.test.lib.Asserts;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import jtreg.SkippedException;
+import sun.hotspot.WhiteBox;
+import sun.hotspot.gc.GC;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestSmallHeap
  * @bug 8067438 8152239
@@ -55,15 +77,8 @@ package gc;
  * Therefore we start the VM with 4M heap.
  */
 
-import jdk.test.lib.Asserts;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
-import java.util.LinkedList;
 
-import jtreg.SkippedException;
-import sun.hotspot.WhiteBox;
-import sun.hotspot.gc.GC;
 
 public class TestSmallHeap {
 

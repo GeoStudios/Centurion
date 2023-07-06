@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.AWTError;
 import java.awt.AWTException;
@@ -66,7 +67,7 @@ import java.awt.TrayIcon;
 import java.awt.Window;
 import java.awt.datatransfer.Clipboard;
 import java.awt.dnd.DragGestureEvent;
-import java.awt.dnd.DragGestureListener;
+import java.awt.dnd.DragGesturejava.util.Listener;
 import java.awt.dnd.DragGestureRecognizer;
 import java.awt.dnd.DragSource;
 import java.awt.dnd.InvalidDnDOperationException;
@@ -90,7 +91,7 @@ import java.awt.peer.FontPeer;
 import java.awt.peer.FramePeer;
 import java.awt.peer.KeyboardFocusManagerPeer;
 import java.awt.peer.LabelPeer;
-import java.awt.peer.ListPeer;
+import java.awt.peer.java.util.ListPeer;
 import java.awt.peer.MenuBarPeer;
 import java.awt.peer.MenuItemPeer;
 import java.awt.peer.MenuPeer;
@@ -106,14 +107,14 @@ import java.awt.peer.TextAreaPeer;
 import java.awt.peer.TextFieldPeer;
 import java.awt.peer.TrayIconPeer;
 import java.awt.peer.WindowPeer;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.LinkedList;
+import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.Properties;
@@ -121,32 +122,43 @@ import java.util.SortedMap;
 import java.util.TreeMap;
 import java.util.Vector;
 import java.util.concurrent.TimeUnit;
-
 import javax.swing.LookAndFeel;
 import javax.swing.UIDefaults;
+import java.desktop.unix.classes.sun.awt.AWTAccessor;
+import java.desktop.unix.classes.sun.awt.AWTPermissions;
+import java.desktop.unix.classes.sun.awt.AppContext;
+import java.desktop.unix.classes.sun.awt.DisplayChangedjava.util.Listener;
+import java.desktop.unix.classes.sun.awt.LightweightFrame;
+import java.desktop.unix.classes.sun.awt.SunToolkit;
+import java.desktop.unix.classes.sun.awt.UNIXToolkit;
+import java.desktop.unix.classes.sun.awt.X11GraphicsConfig;
+import java.desktop.unix.classes.sun.awt.X11GraphicsDevice;
+import java.desktop.unix.classes.sun.awt.X11GraphicsEnvironment;
+import java.desktop.unix.classes.sun.awt.XSettings;
+import java.desktop.unix.classes.sun.awt.datatransfer.DataTransferer;
+import java.desktop.unix.classes.sun.awt.util.PerformanceLogger;
+import java.desktop.unix.classes.sun.awt.util.ThreadGroupUtils;
+import java.desktop.unix.classes.sun.font.FontConfigManager;
+import java.desktop.unix.classes.sun.java2d.SunGraphicsEnvironment;
+import java.desktop.unix.classes.sun.print.PrintJob2D;
+import java.desktop.unix.classes.sun.security.action.GetBooleanAction;
+import java.desktop.unix.classes.sun.security.action.GetPropertyAction;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+import static java.desktop.unix.classes.sun.awt.X11.XlibUtil.scaleDown;.extended
 
-import sun.awt.AWTAccessor;
-import sun.awt.AWTPermissions;
-import sun.awt.AppContext;
-import sun.awt.DisplayChangedListener;
-import sun.awt.LightweightFrame;
-import sun.awt.SunToolkit;
-import sun.awt.UNIXToolkit;
-import sun.awt.X11GraphicsConfig;
-import sun.awt.X11GraphicsDevice;
-import sun.awt.X11GraphicsEnvironment;
-import sun.awt.XSettings;
-import sun.awt.datatransfer.DataTransferer;
-import sun.awt.util.PerformanceLogger;
-import sun.awt.util.ThreadGroupUtils;
-import sun.font.FontConfigManager;
-import sun.java2d.SunGraphicsEnvironment;
-import sun.print.PrintJob2D;
-import sun.security.action.GetBooleanAction;
-import sun.security.action.GetPropertyAction;
-import sun.util.logging.PlatformLogger;
 
-import static sun.awt.X11.XlibUtil.scaleDown;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class XToolkit extends UNIXToolkit implements Runnable {
     private static final PlatformLogger log = PlatformLogger.getLogger("sun.awt.X11.XToolkit");

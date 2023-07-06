@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
+
 
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
@@ -28,8 +29,8 @@ import java.nio.charset.Charset;
 import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CoderResult;
 import java.nio.charset.CodingErrorAction;
-import java.util.List;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletionStage;
 import java.util.concurrent.ConcurrentLinkedDeque;
@@ -40,10 +41,24 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.function.Function;
-import jdk.internal.net.http.common.Demand;
+import java.net.http.share.classes.jdk.internal.net.http.common.Demand;
 import java.net.http.HttpResponse.BodySubscriber;
-import jdk.internal.net.http.common.MinimalFuture;
-import jdk.internal.net.http.common.SequentialScheduler;
+import java.net.http.share.classes.jdk.internal.net.http.common.MinimalFuture;
+import java.net.http.share.classes.jdk.internal.net.http.common.SequentialScheduler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** An adapter between {@code BodySubscriber} and {@code Flow.Subscriber<String>}. */
 public final class LineSubscriberAdapter<S extends Subscriber<? super String>,R>

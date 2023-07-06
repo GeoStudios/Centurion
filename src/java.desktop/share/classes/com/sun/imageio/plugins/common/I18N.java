@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.common;
+package java.desktop.share.classes.com.sun.imageio.plugins.common;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class I18N extends I18NImpl {
     private static final String resource_name = "iio-plugin.properties";

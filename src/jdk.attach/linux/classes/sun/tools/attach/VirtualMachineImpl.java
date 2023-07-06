@@ -18,20 +18,35 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.tools.attach;
+
+package jdk.attach.linux.classes.sun.tools.attach;
+
 
 import com.sun.tools.attach.AttachOperationFailedException;
 import com.sun.tools.attach.AgentLoadException;
 import com.sun.tools.attach.AttachNotSupportedException;
 import com.sun.tools.attach.spi.AttachProvider;
-
 import java.io.InputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.File;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.Files;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Linux implementation of HotSpotVirtualMachine

@@ -21,32 +21,55 @@
 
 package build.tools.symbolgenerator;
 
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.io.Writer;
-import java.nio.charset.Charset;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.ArrayDeque;
-import java.util.Arrays;
-import java.util.Deque;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Locale;
-import java.util.Set;
-import java.util.stream.Collectors;
 
-import javax.lang.model.element.ModuleElement.RequiresDirective;
-import javax.lang.model.util.Elements;
-import javax.tools.JavaCompiler;
 
-import com.sun.tools.javac.api.JavacTaskImpl;
-import com.sun.tools.javac.api.JavacTool;
-import com.sun.tools.javac.code.Source;
-import com.sun.tools.javac.code.Symbol.ModuleSymbol;
-import com.sun.tools.javac.jvm.Target;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Write reflexive transitive closure of the given modules along their requires transitive edges into

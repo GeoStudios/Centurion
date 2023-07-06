@@ -21,8 +21,22 @@
 
 package p5;
 
+
 import p3.Foo;
 import p3.Lib;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This test verifies jlink support of requires static.

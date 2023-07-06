@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test;
+
+
+import sun.hotspot.WhiteBox;
+import compiler.whitebox.CompilerWhiteBoxTest;
+import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @summary Check that the verbose message of ICCE is printed correctly.
@@ -35,11 +55,7 @@
  *                   test.IncompatibleClassChangeErrorTest
  */
 
-package test;
 
-import sun.hotspot.WhiteBox;
-import compiler.whitebox.CompilerWhiteBoxTest;
-import java.lang.reflect.Method;
 
 // This test assembles an erroneous installation of classes.
 // First, compile the test by @compile. This results in a legal set

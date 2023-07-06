@@ -21,14 +21,15 @@
 
 package jdk.internal.net.http;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.io.UncheckedIOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.net.InetAddress;
-import java.net.InetSocketAddress;
-import java.net.ServerSocket;
-import java.net.Socket;
+import java.net.Inetjava.net.SocketAddress;
+import java.net.java.net.java.net.Serverjava.net.java.net.Socket;
+import java.net.java.net.java.net.java.net.Socket;
 import java.net.URI;
 import java.nio.ByteBuffer;
 import java.nio.channels.SelectionKey;
@@ -42,11 +43,24 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import jdk.internal.net.http.websocket.RawChannel;
-import jdk.internal.net.http.websocket.WebSocketRequest;
+import jdk.internal.net.http.websocket.Webjava.net.SocketRequest;
 import org.testng.annotations.Test;
-import static java.net.http.HttpResponse.BodyHandlers.discarding;
-import static java.util.concurrent.TimeUnit.SECONDS;
-import static org.testng.Assert.assertEquals;
+import static java.net.http.HttpResponse.BodyHandlers.discarding;.extended
+import static java.util.concurrent.TimeUnit.SECONDS;.extended
+import static org.testng.Assert.assertEquals;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This test exercises mechanics of _independent_ reads and writes on the

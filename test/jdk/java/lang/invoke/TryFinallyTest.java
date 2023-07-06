@@ -19,23 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/* @test
- * @bug 8139885 8150824 8150825 8194238 8233920
- * @run testng/othervm -ea -esa -Xverify:all test.java.lang.invoke.TryFinallyTest
- */
-
 package test.java.lang.invoke;
+
 
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandles.Lookup;
 import java.lang.invoke.MethodType;
-
-import static java.lang.invoke.MethodType.methodType;
-
-import static org.testng.AssertJUnit.*;
-
+import static java.lang.invoke.MethodType.methodType;.extended
+import static org.testng.AssertJUnit.*;.extended
 import org.testng.annotations.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @test
+ * @bug 8139885 8150824 8150825 8194238 8233920
+ * @run testng/othervm -ea -esa -Xverify:all test.java.lang.invoke.TryFinallyTest
+ */
+
+
+
+
+
 
 /**
  * Tests for the tryFinally method handle combinator introduced in JEP 274.

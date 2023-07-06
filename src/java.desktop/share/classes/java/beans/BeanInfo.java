@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.beans;
+package java.desktop.share.classes.java.beans;
 
-import java.awt.Image;
+
+import java.desktop.share.classes.java.awt.Image;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Use the {@code BeanInfo} interface

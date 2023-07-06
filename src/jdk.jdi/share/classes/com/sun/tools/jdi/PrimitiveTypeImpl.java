@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-import com.sun.jdi.InvalidTypeException;
-import com.sun.jdi.PrimitiveType;
-import com.sun.jdi.PrimitiveValue;
-import com.sun.jdi.VirtualMachine;
+
+import jdk.jdi.share.classes.com.sun.jdi.InvalidTypeException;
+import jdk.jdi.share.classes.com.sun.jdi.PrimitiveType;
+import jdk.jdi.share.classes.com.sun.jdi.PrimitiveValue;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class PrimitiveTypeImpl extends TypeImpl implements PrimitiveType {
 

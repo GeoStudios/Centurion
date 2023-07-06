@@ -21,7 +21,21 @@
 
 package org.openjdk.tests.separate;
 
+
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AttributeInjector implements ClassFilePreprocessor {
 

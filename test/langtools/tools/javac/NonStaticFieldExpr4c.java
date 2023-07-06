@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package p1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4781832
@@ -28,7 +45,6 @@
  * @compile NonStaticFieldExpr4c.java NonStaticFieldExpr4d.java
  */
 
-package p1;
 class NonStaticFieldExpr4a {
     protected int i;
 }

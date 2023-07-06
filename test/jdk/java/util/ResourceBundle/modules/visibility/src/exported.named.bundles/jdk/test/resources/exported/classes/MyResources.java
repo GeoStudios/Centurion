@@ -21,7 +21,21 @@
 
 package jdk.test.resources.exported.classes;
 
-import java.util.ListResourceBundle;
+
+import java.util.java.util.ListResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MyResources extends ListResourceBundle {
     @Override

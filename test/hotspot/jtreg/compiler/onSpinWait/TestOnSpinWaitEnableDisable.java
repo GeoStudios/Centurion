@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.onSpinWait;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestOnSpinWaitEnableDisable
  * @summary Test to ensure basic functioning of java.lang.Thread.onSpinWait
@@ -29,7 +46,6 @@
  *                   compiler.onSpinWait.TestOnSpinWaitEnableDisable
  */
 
-package compiler.onSpinWait;
 
 public class TestOnSpinWaitEnableDisable {
     public static void main(String[] args) {

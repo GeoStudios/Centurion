@@ -18,11 +18,12 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d.demos.Lines;
+
+package demo.share.jfc.J2Ddemo.java2d.demos.Lines;
 
 
-import static java.awt.Color.BLACK;
-import static java.awt.Color.WHITE;
+import static java.awt.Color.BLACK;.extended
+import static java.awt.Color.WHITE;.extended
 import java.awt.BasicStroke;
 import java.awt.Font;
 import java.awt.Graphics2D;
@@ -35,7 +36,20 @@ import java.awt.geom.Ellipse2D;
 import java.awt.geom.QuadCurve2D;
 import java.awt.geom.Rectangle2D;
 import java.awt.geom.RoundRectangle2D;
-import java2d.Surface;
+import demo.share.jfc.J2Ddemo.java2d.Surface;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

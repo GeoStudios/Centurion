@@ -19,12 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-//    THIS TEST IS LINE NUMBER SENSITIVE
-
 package nsk.share.jpda;
+
 
 import java.net.*;
 import nsk.share.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//    THIS TEST IS LINE NUMBER SENSITIVE
+
+
 
 // ForceEarlyReturnTestThread intended for testing ForceEarlyReturn functionality.
 //

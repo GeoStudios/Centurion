@@ -19,15 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.ConnectException;
-import java.net.InetSocketAddress;
-import java.net.StandardSocketOptions;
+import java.net.Inetjava.net.SocketAddress;
+import java.net.Standardjava.net.SocketOptions;
 import java.nio.channels.SelectableChannel;
 import java.nio.channels.SelectionKey;
-import java.nio.channels.SocketChannel;
+import java.nio.channels.java.net.SocketChannel;
 import java.security.AccessController;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
@@ -35,11 +36,24 @@ import java.time.Duration;
 import java.time.Instant;
 import java.util.concurrent.CompletableFuture;
 import java.util.function.Function;
+import java.net.http.share.classes.jdk.internal.net.http.common.FlowTube;
+import java.net.http.share.classes.jdk.internal.net.http.common.Log;
+import java.net.http.share.classes.jdk.internal.net.http.common.MinimalFuture;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
 
-import jdk.internal.net.http.common.FlowTube;
-import jdk.internal.net.http.common.Log;
-import jdk.internal.net.http.common.MinimalFuture;
-import jdk.internal.net.http.common.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Plain raw TCP connection direct to destination.

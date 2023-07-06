@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.unsafe;
+
+
+import jdk.internal.misc.Unsafe;
+import java.lang.reflect.Field;
+import java.nio.ByteOrder;
+import jtreg.SkippedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8158260
@@ -30,13 +51,8 @@
  * @author volker.simonis@gmail.com
  */
 
-package compiler.unsafe;
 
-import jdk.internal.misc.Unsafe;
 
-import java.lang.reflect.Field;
-import java.nio.ByteOrder;
-import jtreg.SkippedException;
 
 public class JdkInternalMiscUnsafeUnalignedAccess {
     static final int ITERS = Integer.getInteger("iters", 20_000);

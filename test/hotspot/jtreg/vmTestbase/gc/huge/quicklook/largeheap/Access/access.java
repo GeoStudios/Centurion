@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.huge.quicklook.largeheap.Access;
+
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import nsk.share.TestFailure;
+import nsk.share.gc.*;
+import nsk.share.test.LocalRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress
@@ -48,12 +69,7 @@
  * @run main/othervm -XX:-UseGCOverheadLimit gc.huge.quicklook.largeheap.Access.access
  */
 
-package gc.huge.quicklook.largeheap.Access;
 
-import java.util.ArrayList;
-import nsk.share.TestFailure;
-import nsk.share.gc.*;
-import nsk.share.test.LocalRandom;
 
 public class access extends ThreadedGCTest {
 

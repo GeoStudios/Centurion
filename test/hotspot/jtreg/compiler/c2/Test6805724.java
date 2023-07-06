@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6805724
@@ -32,9 +50,7 @@
  *      compiler.c2.Test6805724
  */
 
-package compiler.c2;
 
-import jdk.test.lib.Utils;
 
 public class Test6805724 implements Runnable {
     // Initialize DIVISOR so that it is final in this class.

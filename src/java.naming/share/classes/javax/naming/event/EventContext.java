@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.naming.event;
+package java.naming.share.classes.javax.naming.event;
 
-import javax.naming.Name;
-import javax.naming.Context;
-import javax.naming.NamingException;
+
+import java.naming.share.classes.javax.naming.Name;
+import java.naming.share.classes.javax.naming.Context;
+import java.naming.share.classes.javax.naming.NamingException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

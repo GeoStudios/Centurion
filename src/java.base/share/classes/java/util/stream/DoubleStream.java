@@ -18,27 +18,43 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.util.stream;
 
-import java.util.Arrays;
-import java.util.DoubleSummaryStatistics;
-import java.util.Objects;
-import java.util.OptionalDouble;
-import java.util.PrimitiveIterator;
-import java.util.Spliterator;
-import java.util.Spliterators;
-import java.util.function.BiConsumer;
-import java.util.function.DoubleBinaryOperator;
-import java.util.function.DoubleConsumer;
-import java.util.function.DoubleFunction;
-import java.util.function.DoublePredicate;
-import java.util.function.DoubleSupplier;
-import java.util.function.DoubleToIntFunction;
-import java.util.function.DoubleToLongFunction;
-import java.util.function.DoubleUnaryOperator;
-import java.util.function.Function;
-import java.util.function.ObjDoubleConsumer;
-import java.util.function.Supplier;
+package java.base.share.classes.java.util.stream;
+
+
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.DoubleSummaryStatistics;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.OptionalDouble;
+import java.base.share.classes.java.util.PrimitiveIterator;
+import java.base.share.classes.java.util.Spliterator;
+import java.base.share.classes.java.util.Spliterators;
+import java.base.share.classes.java.util.function.BiConsumer;
+import java.base.share.classes.java.util.function.DoubleBinaryOperator;
+import java.base.share.classes.java.util.function.DoubleConsumer;
+import java.base.share.classes.java.util.function.DoubleFunction;
+import java.base.share.classes.java.util.function.DoublePredicate;
+import java.base.share.classes.java.util.function.DoubleSupplier;
+import java.base.share.classes.java.util.function.DoubleToIntFunction;
+import java.base.share.classes.java.util.function.DoubleToLongFunction;
+import java.base.share.classes.java.util.function.DoubleUnaryOperator;
+import java.base.share.classes.java.util.function.Function;
+import java.base.share.classes.java.util.function.ObjDoubleConsumer;
+import java.base.share.classes.java.util.function.Supplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A sequence of primitive double-valued elements supporting sequential and parallel

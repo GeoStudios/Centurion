@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.rowset;
+
 
 import com.sun.rowset.RowSetFactoryImpl;
 import java.io.File;
@@ -27,7 +29,7 @@ import java.net.URLClassLoader;
 import java.sql.SQLException;
 import javax.sql.rowset.RowSetFactory;
 import javax.sql.rowset.RowSetProvider;
-import static org.testng.Assert.*;
+import static org.testng.Assert.*;.extended
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -35,6 +37,19 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import util.BaseTest;
 import util.StubRowSetFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class RowSetProviderTests extends BaseTest {
 

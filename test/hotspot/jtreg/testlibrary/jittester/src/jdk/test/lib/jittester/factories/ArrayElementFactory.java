@@ -21,19 +21,33 @@
 
 package jdk.test.lib.jittester.factories;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.IRNode;
 import jdk.test.lib.jittester.Literal;
 import jdk.test.lib.jittester.ProductionFailedException;
 import jdk.test.lib.jittester.ProductionParams;
 import jdk.test.lib.jittester.Type;
-import jdk.test.lib.jittester.TypeList;
+import jdk.test.lib.jittester.Typejava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.arrays.ArrayCreation;
 import jdk.test.lib.jittester.arrays.ArrayElement;
 import jdk.test.lib.jittester.arrays.ArrayExtraction;
 import jdk.test.lib.jittester.types.TypeArray;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.PseudoRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class ArrayElementFactory extends SafeFactory<ArrayElement> {
     private final long complexityLimit;

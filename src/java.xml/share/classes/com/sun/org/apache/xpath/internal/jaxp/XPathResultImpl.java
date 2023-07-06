@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xpath.internal.jaxp;
+package java.xml.share.classes.com.sun.org.apache.xpath.internal.jaxp;
 
-import com.sun.org.apache.xpath.internal.objects.XObject;
-import java.util.Objects;
+
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
+import java.base.share.classes.java.util.Objects;
 import javax.xml.transform.TransformerException;
 import javax.xml.xpath.XPathNodes;
 import javax.xml.xpath.XPathEvaluationResult;
 import javax.xml.xpath.XPathEvaluationResult.XPathResultType;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.w3c.dom.traversal.NodeIterator;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.w3c.dom.traversal.NodeIterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

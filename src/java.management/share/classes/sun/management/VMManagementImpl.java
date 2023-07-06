@@ -19,20 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.management;
+package java.management.share.classes.sun.management;
+
 
 import jdk.internal.perf.Perf;
-import sun.management.counter.*;
-import sun.management.counter.perf.*;
+import java.management.share.classes.sun.management.counter.*;
+import java.management.share.classes.sun.management.counter.perf.*;
 import java.nio.ByteBuffer;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
-import java.util.List;
-import java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of VMManagement interface that accesses the management

@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.event;
+package java.desktop.share.classes.java.awt.event;
 
-import java.util.EventListenerProxy;
-import java.awt.AWTEvent;
+
+import java.desktop.share.classes.java.util.Eventjava.util.ListenerProxy;
+import java.desktop.share.classes.java.awt.AWTEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class which extends the {@code EventListenerProxy}

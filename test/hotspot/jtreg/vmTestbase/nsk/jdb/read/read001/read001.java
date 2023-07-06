@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdb.read.read001;
+
+
+import nsk.share.*;
+import nsk.share.jdb.*;
+import jdk.test.lib.Utils;
+import java.io.*;
+import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -62,14 +83,8 @@
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
 
-package nsk.jdb.read.read001;
 
-import nsk.share.*;
-import nsk.share.jdb.*;
-import jdk.test.lib.Utils;
 
-import java.io.*;
-import java.util.*;
 
 public class read001 extends JdbTest {
 

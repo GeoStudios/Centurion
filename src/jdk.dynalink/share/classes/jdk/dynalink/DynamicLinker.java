@@ -19,6 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.dynalink.share.classes.jdk.dynalink;
+
+
+import java.lang.StackWalker.StackFrame;
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+import java.lang.invoke.MutableCallSite;
+import java.base.share.classes.java.util.Objects;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.GuardedInvocation;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.GuardedInvocationTransformer;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.GuardingDynamicLinker;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkRequest;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkerServices;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.support.Lookup;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.support.SimpleLinkRequest;
+import jdk.dynalink.share.classes.jdk.dynalink.support.ChainedCallSite;
+import jdk.dynalink.share.classes.jdk.dynalink.support.SimpleRelinkableCallSite;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -26,23 +59,8 @@
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-package jdk.dynalink;
 
-import java.lang.StackWalker.StackFrame;
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodType;
-import java.lang.invoke.MutableCallSite;
-import java.util.Objects;
-import jdk.dynalink.linker.GuardedInvocation;
-import jdk.dynalink.linker.GuardedInvocationTransformer;
-import jdk.dynalink.linker.GuardingDynamicLinker;
-import jdk.dynalink.linker.LinkRequest;
-import jdk.dynalink.linker.LinkerServices;
-import jdk.dynalink.linker.support.Lookup;
-import jdk.dynalink.linker.support.SimpleLinkRequest;
-import jdk.dynalink.support.ChainedCallSite;
-import jdk.dynalink.support.SimpleRelinkableCallSite;
+
 
 /**
  * The linker for {@link RelinkableCallSite} objects. A dynamic linker is a main

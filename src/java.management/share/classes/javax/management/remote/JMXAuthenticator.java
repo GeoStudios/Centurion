@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.remote;
+package java.management.share.classes.javax.management.remote;
+
 
 import java.security.Principal;
-import javax.security.auth.Subject;
+import java.management.share.classes.javax.security.auth.Subject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Interface to define how remote credentials are converted into a

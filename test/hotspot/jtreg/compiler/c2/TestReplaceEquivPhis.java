@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8243670
@@ -29,7 +46,6 @@
  *      -XX:-BackgroundCompilation compiler.c2.TestReplaceEquivPhis
  */
 
-package compiler.c2;
 
 public class TestReplaceEquivPhis {
 

@@ -21,13 +21,26 @@
 
 package jdk.test.lib.jittester.functions;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import jdk.test.lib.jittester.Symbol;
 import jdk.test.lib.jittester.Type;
 import jdk.test.lib.jittester.VariableInfo;
 import jdk.test.lib.jittester.types.TypeKlass;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class FunctionInfo extends Symbol {
     public ArrayList<VariableInfo> argTypes;

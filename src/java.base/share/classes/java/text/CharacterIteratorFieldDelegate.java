@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.text;
 
-import java.util.ArrayList;
+package java.base.share.classes.java.text;
+
+
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * CharacterIteratorFieldDelegate combines the notifications from a Format

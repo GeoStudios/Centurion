@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.pipe;
+package java.desktop.share.classes.sun.java2d.pipe;
+
 
 import java.awt.Shape;
 import java.awt.BasicStroke;
 import java.awt.geom.PathIterator;
 import java.awt.geom.AffineTransform;
-
 import java.security.AccessController;
-import sun.security.action.GetPropertyAction;
+import java.desktop.share.classes.sun.security.action.GetPropertyAction;
+import java.desktop.share.classes.sun.awt.geom.PathConsumer2D;
 
-import sun.awt.geom.PathConsumer2D;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class abstracts a number of features for which the Java 2D

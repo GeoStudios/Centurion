@@ -19,12 +19,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
+
 
 import java.io.EOFException;
 import java.lang.System.Logger.Level;
 import java.nio.ByteBuffer;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletionStage;
 import java.util.concurrent.Executor;
@@ -35,17 +36,31 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.net.http.HttpHeaders;
 import java.net.http.HttpResponse;
-import jdk.internal.net.http.ResponseContent.BodyParser;
-import jdk.internal.net.http.ResponseContent.UnknownLengthBodyParser;
-import jdk.internal.net.http.ResponseSubscribers.TrustedSubscriber;
-import jdk.internal.net.http.common.Log;
-import jdk.internal.net.http.common.Logger;
-import jdk.internal.net.http.common.MinimalFuture;
-import jdk.internal.net.http.common.Utils;
-import static java.net.http.HttpClient.Version.HTTP_1_1;
-import static java.net.http.HttpResponse.BodySubscribers.discarding;
-import static jdk.internal.net.http.common.Utils.wrapWithExtraDetail;
-import static jdk.internal.net.http.RedirectFilter.HTTP_NOT_MODIFIED;
+import java.net.http.share.classes.jdk.internal.net.http.ResponseContent.BodyParser;
+import java.net.http.share.classes.jdk.internal.net.http.ResponseContent.UnknownLengthBodyParser;
+import java.net.http.share.classes.jdk.internal.net.http.ResponseSubscribers.TrustedSubscriber;
+import java.net.http.share.classes.jdk.internal.net.http.common.Log;
+import java.net.http.share.classes.jdk.internal.net.http.common.Logger;
+import java.net.http.share.classes.jdk.internal.net.http.common.MinimalFuture;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+import static java.net.http.HttpClient.Version.HTTP_1_1;.extended
+import static java.net.http.HttpResponse.BodySubscribers.discarding;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.wrapWithExtraDetail;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.RedirectFilter.HTTP_NOT_MODIFIED;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Handles a HTTP/1.1 response (headers + body).

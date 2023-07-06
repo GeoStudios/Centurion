@@ -18,17 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.tools.attach;
+
+package jdk.attach.windows.classes.sun.tools.attach;
+
 
 import com.sun.tools.attach.VirtualMachine;
 import com.sun.tools.attach.VirtualMachineDescriptor;
 import com.sun.tools.attach.AttachNotSupportedException;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AttachProviderImpl extends HotSpotAttachProvider {
 

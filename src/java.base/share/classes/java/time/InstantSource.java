@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.time;
 
-import java.time.Clock.SourceClock;
-import java.time.Clock.SystemInstantSource;
-import java.util.Objects;
+package java.base.share.classes.java.time;
+
+
+import java.base.share.classes.java.time.Clock.SourceClock;
+import java.base.share.classes.java.time.Clock.SystemInstantSource;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides access to the current instant.

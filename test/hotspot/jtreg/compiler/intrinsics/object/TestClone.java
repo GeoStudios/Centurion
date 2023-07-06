@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.object;
+
+
+import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8033626 8246453 8248467
@@ -39,9 +57,7 @@
  *      compiler.intrinsics.object.TestClone
  */
 
-package compiler.intrinsics.object;
 
-import jdk.test.lib.Asserts;
 
 abstract class MyAbstract {
 

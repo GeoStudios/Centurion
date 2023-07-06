@@ -19,28 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.tool;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.tool;
+
 
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.text.BreakIterator;
 import java.text.Collator;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.IllformedLocaleException;
-import java.util.List;
-import java.util.Locale;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
-
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
-
 import com.sun.tools.javac.api.JavacTrees;
 import com.sun.tools.javac.file.BaseFileManager;
 import com.sun.tools.javac.file.JavacFileManager;
@@ -51,18 +50,29 @@ import com.sun.tools.javac.util.ClientCodeException;
 import com.sun.tools.javac.util.Context;
 import com.sun.tools.javac.util.Log;
 import com.sun.tools.javac.util.StringUtils;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.Doclet;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.Doclet.Option;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.DocletEnvironment;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.StandardDoclet;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.Versions;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.tool.Main.Result;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.tool.ToolOptions.ToolOption;
+import static javax.tools.DocumentationTool.Location.*;.extended
+import static jdk.javadoc.share.classes.jdk.javadoc.internal.tool.Main.Result.*;.extended
 
-import jdk.javadoc.doclet.Doclet;
-import jdk.javadoc.doclet.Doclet.Option;
-import jdk.javadoc.doclet.DocletEnvironment;
-import jdk.javadoc.doclet.StandardDoclet;
-import jdk.javadoc.internal.Versions;
-import jdk.javadoc.internal.tool.Main.Result;
-import jdk.javadoc.internal.tool.ToolOptions.ToolOption;
 
-import static javax.tools.DocumentationTool.Location.*;
 
-import static jdk.javadoc.internal.tool.Main.Result.*;
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Main program of Javadoc.

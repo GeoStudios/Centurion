@@ -19,6 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci.compilerToVM;
+
+
+import compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes;
+import compiler.jvmci.compilerToVM.ConstantPoolTestCase.TestedCPEntry;
+import compiler.jvmci.compilerToVM.ConstantPoolTestCase.Validator;
+import compiler.jvmci.compilerToVM.ConstantPoolTestsHelper.DummyClasses;
+import jdk.test.lib.Asserts;
+import jdk.vm.ci.hotspot.CompilerToVMHelper;
+import jdk.vm.ci.meta.ConstantPool;
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodType;
+import java.util.HashMap;
+import java.util.Map;
+import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CONSTANT_METHODHANDLE;.extended
+import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CONSTANT_METHODTYPE;.extended
+import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CONSTANT_STRING;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8138708
@@ -42,24 +73,9 @@
  *                   compiler.jvmci.compilerToVM.ResolvePossiblyCachedConstantInPoolTest
  */
 
-package compiler.jvmci.compilerToVM;
 
-import compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes;
-import compiler.jvmci.compilerToVM.ConstantPoolTestCase.TestedCPEntry;
-import compiler.jvmci.compilerToVM.ConstantPoolTestCase.Validator;
-import compiler.jvmci.compilerToVM.ConstantPoolTestsHelper.DummyClasses;
-import jdk.test.lib.Asserts;
-import jdk.vm.ci.hotspot.CompilerToVMHelper;
-import jdk.vm.ci.meta.ConstantPool;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodType;
-import java.util.HashMap;
-import java.util.Map;
 
-import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CONSTANT_METHODHANDLE;
-import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CONSTANT_METHODTYPE;
-import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CONSTANT_STRING;
 
 /**
  * Test for {@code jdk.vm.ci.hotspot.CompilerToVM.resolvePossiblyCachedConstantInPool} method

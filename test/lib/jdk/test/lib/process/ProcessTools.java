@@ -21,12 +21,12 @@
 
 package jdk.test.lib.process;
 
+
 import jdk.test.lib.JDKToolFinder;
 import jdk.test.lib.Platform;
 import jdk.test.lib.Utils;
-
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PrintStream;
@@ -37,10 +37,10 @@ import java.nio.file.Paths;
 import java.security.AccessController;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutionException;
@@ -50,6 +50,19 @@ import java.util.concurrent.TimeoutException;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class ProcessTools {
     private static final class LineForwarder extends StreamPumper.LinePump {

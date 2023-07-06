@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing;
+
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.AWTEvent;
 import java.awt.BorderLayout;
@@ -31,14 +33,26 @@ import java.awt.HeadlessException;
 import java.awt.Image;
 import java.awt.LayoutManager;
 import java.awt.event.WindowEvent;
-
 import java.beans.JavaBean;
 import java.beans.BeanProperty;
+import java.desktop.share.classes.javax.accessibility.Accessible;
+import java.desktop.share.classes.javax.accessibility.AccessibleContext;
+import java.desktop.share.classes.javax.accessibility.AccessibleState;
+import java.desktop.share.classes.javax.accessibility.AccessibleStateSet;
 
-import javax.accessibility.Accessible;
-import javax.accessibility.AccessibleContext;
-import javax.accessibility.AccessibleState;
-import javax.accessibility.AccessibleStateSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An extended version of <code>java.awt.Frame</code> that adds support for

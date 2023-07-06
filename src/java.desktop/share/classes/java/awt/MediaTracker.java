@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.image.ImageObserver;
-import java.io.Serial;
 
+import java.desktop.share.classes.java.awt.image.ImageObserver;
+import java.desktop.share.classes.java.io.Serial;
 import sun.awt.image.MultiResolutionToolkitImage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code MediaTracker} class is a utility class to track
@@ -64,11 +78,11 @@ import sun.awt.image.MultiResolutionToolkitImage;
  * Here is an example of using {@code MediaTracker}:
  *
  * <hr><blockquote><pre>{@code
- * import java.applet.Applet;
- * import java.awt.Color;
- * import java.awt.Image;
- * import java.awt.Graphics;
- * import java.awt.MediaTracker;
+ * import java.desktop.share.classes.java.applet.Applet;
+ * import java.desktop.share.classes.java.awt.Color;
+ * import java.desktop.share.classes.java.awt.Image;
+ * import java.desktop.share.classes.java.awt.Graphics;
+ * import java.desktop.share.classes.java.awt.MediaTracker;
  *
  * public class ImageBlaster extends Applet implements Runnable {
  *      MediaTracker tracker;

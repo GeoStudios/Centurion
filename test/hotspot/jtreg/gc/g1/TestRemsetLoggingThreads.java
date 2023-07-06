@@ -21,6 +21,25 @@
 
 package gc.g1;
 
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestRemsetLoggingThreads
  * @requires vm.gc.G1
@@ -33,11 +52,7 @@ package gc.g1;
  * @run driver gc.g1.TestRemsetLoggingThreads
  */
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class TestRemsetLoggingThreads {
 

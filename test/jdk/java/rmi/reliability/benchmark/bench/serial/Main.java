@@ -19,6 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package bench.serial;
+
+
+import bench.ConfigFormatException;
+import bench.Harness;
+import bench.HtmlReporter;
+import bench.Reporter;
+import bench.TextReporter;
+import bench.XmlReporter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.OutputStream;
+import java.io.PrintStream;
+import java.util.Timer;
+import java.util.TimerTask;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @summary The Serialization benchmark test. This java class is used to run the
@@ -49,24 +82,7 @@
 // The -Xss2m supplies additional stack space, as bench.serial.ClassDesc
 // consumes a considerable amount of stack.
 
-package bench.serial;
 
-import bench.ConfigFormatException;
-import bench.Harness;
-import bench.HtmlReporter;
-import bench.Reporter;
-import bench.TextReporter;
-import bench.XmlReporter;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.InputStream;
-import java.io.IOException;
-import java.io.OutputStream;
-import java.io.PrintStream;
-import java.util.Timer;
-import java.util.TimerTask;
 
 /**
  * Object serialization benchmark mainline.

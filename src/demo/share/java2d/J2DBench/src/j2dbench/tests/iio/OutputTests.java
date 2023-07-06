@@ -19,6 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.java2d.J2DBench.src.j2dbench.tests.iio;
+
+
+import java.io.BufferedOutputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.OutputStream;
+import javax.imageio.ImageIO;
+import javax.imageio.spi.IIORegistry;
+import javax.imageio.spi.ImageOutputStreamSpi;
+import javax.imageio.stream.FileCacheImageOutputStream;
+import javax.imageio.stream.FileImageOutputStream;
+import javax.imageio.stream.ImageOutputStream;
+import javax.imageio.stream.MemoryCacheImageOutputStream;
+import demo.share.java2d.J2DBench.src.j2dbench.Group;
+import demo.share.java2d.J2DBench.src.j2dbench.Option;
+import demo.share.java2d.J2DBench.src.j2dbench.Result;
+import demo.share.java2d.J2DBench.src.j2dbench.TestEnvironment;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -28,26 +63,9 @@
  */
 
 
-package j2dbench.tests.iio;
 
-import java.io.BufferedOutputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.OutputStream;
-import javax.imageio.ImageIO;
-import javax.imageio.spi.IIORegistry;
-import javax.imageio.spi.ImageOutputStreamSpi;
-import javax.imageio.stream.FileCacheImageOutputStream;
-import javax.imageio.stream.FileImageOutputStream;
-import javax.imageio.stream.ImageOutputStream;
-import javax.imageio.stream.MemoryCacheImageOutputStream;
 
-import j2dbench.Group;
-import j2dbench.Option;
-import j2dbench.Result;
-import j2dbench.TestEnvironment;
+
 
 abstract class OutputTests extends IIOTests {
 

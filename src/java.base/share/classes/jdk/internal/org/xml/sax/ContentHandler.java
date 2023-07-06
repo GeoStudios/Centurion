@@ -19,13 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.jdk.internal.org.xml.sax;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // ContentHandler.java - handle main document content.
 // http://www.saxproject.org
 // Written by David Megginson
 // NO WARRANTY!  This class is in the public domain.
 // $Id: ContentHandler.java,v 1.2 2004/11/03 22:44:51 jsuttor Exp $
 
-package jdk.internal.org.xml.sax;
+
 
 
 /**
@@ -62,7 +80,7 @@ package jdk.internal.org.xml.sax;
  * package; that means that it's probably a bad idea to do</p>
  *
  * <pre>import java.net.*;
- * import org.xml.sax.*;
+ * import java.base.share.classes.jdk.internal.org.xml.sax.*;
  * </pre>
  *
  * <p>In fact, "import ...*" is usually a sign of sloppy programming

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.AWTEvent;
 import java.awt.AWTException;
@@ -47,8 +48,21 @@ import java.awt.image.ColorModel;
 import java.awt.image.VolatileImage;
 import java.awt.peer.ComponentPeer;
 import java.awt.peer.ContainerPeer;
+import java.desktop.unix.classes.sun.java2d.pipe.Region;
 
-import sun.java2d.pipe.Region;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class XEmbedChildProxyPeer implements ComponentPeer, XEventDispatcher{
     XEmbeddingContainer container;
@@ -184,7 +198,7 @@ public class XEmbedChildProxyPeer implements ComponentPeer, XEventDispatcher{
                                       boolean focusedWindowChangeAllowed, long time)
     {
         if (lightweightChild == null) {
-            lightweightChild = (Component)proxy;
+            lightweightChild = proxy;
         }
         Component currentOwner = XKeyboardFocusManagerPeer.getInstance().getCurrentFocusOwner();
         if (currentOwner != null && !currentOwner.isDisplayable()) {

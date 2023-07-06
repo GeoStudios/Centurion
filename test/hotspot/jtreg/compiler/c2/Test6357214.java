@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6357214
@@ -27,7 +44,6 @@
  * @run main/othervm/timeout=60 -DshowAll=ffo -DeventID=444 compiler.c2.Test6357214
  */
 
-package compiler.c2;
 
 // The test hangs after few iterations before the fix. So it fails if timeout.
 public class Test6357214 {

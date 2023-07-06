@@ -21,34 +21,45 @@
 
 package catalog;
 
-import static catalog.CatalogTestUtils.DEFER_FALSE;
-import static catalog.CatalogTestUtils.FEATURE_DEFER;
-import static catalog.CatalogTestUtils.FEATURE_FILES;
-import static catalog.CatalogTestUtils.FEATURE_PREFER;
-import static catalog.CatalogTestUtils.FEATURE_RESOLVE;
-import static catalog.CatalogTestUtils.PREFER_SYSTEM;
-import static catalog.CatalogTestUtils.RESOLVE_CONTINUE;
-import static catalog.CatalogTestUtils.catalogResolver;
-import static catalog.CatalogTestUtils.catalogUriResolver;
-import static catalog.CatalogTestUtils.createPropsContent;
-import static catalog.CatalogTestUtils.deleteJAXPProps;
-import static catalog.CatalogTestUtils.generateJAXPProps;
-import static catalog.CatalogTestUtils.getCatalogPath;
 
+import static catalog.CatalogTestUtils.DEFER_FALSE;.extended
+import static catalog.CatalogTestUtils.FEATURE_DEFER;.extended
+import static catalog.CatalogTestUtils.FEATURE_FILES;.extended
+import static catalog.CatalogTestUtils.FEATURE_PREFER;.extended
+import static catalog.CatalogTestUtils.FEATURE_RESOLVE;.extended
+import static catalog.CatalogTestUtils.PREFER_SYSTEM;.extended
+import static catalog.CatalogTestUtils.RESOLVE_CONTINUE;.extended
+import static catalog.CatalogTestUtils.catalogResolver;.extended
+import static catalog.CatalogTestUtils.catalogUriResolver;.extended
+import static catalog.CatalogTestUtils.createPropsContent;.extended
+import static catalog.CatalogTestUtils.deleteJAXPProps;.extended
+import static catalog.CatalogTestUtils.generateJAXPProps;.extended
+import static catalog.CatalogTestUtils.getCatalogPath;.extended
 import java.io.BufferedReader;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-
 import javax.xml.catalog.CatalogResolver;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

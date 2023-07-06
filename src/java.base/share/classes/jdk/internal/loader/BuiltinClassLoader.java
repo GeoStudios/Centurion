@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.loader;
+package java.base.share.classes.jdk.internal.loader;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.lang.module.ModuleDescriptor;
 import java.lang.module.ModuleReference;
@@ -39,11 +40,11 @@ import java.security.PrivilegedAction;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
 import java.security.SecureClassLoader;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Enumeration;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.Optional;
@@ -52,13 +53,25 @@ import java.util.function.Function;
 import java.util.jar.Attributes;
 import java.util.jar.Manifest;
 import java.util.stream.Stream;
-
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.VM;
-import jdk.internal.module.ModulePatcher.PatchedModuleReader;
-import jdk.internal.module.Resources;
-import jdk.internal.vm.annotation.Stable;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.module.ModulePatcher.PatchedModuleReader;
+import java.base.share.classes.jdk.internal.module.Resources;
+import java.base.share.classes.jdk.internal.vm.annotation.Stable;
 import sun.security.util.LazyCodeSourcePermissionCollection;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

@@ -21,9 +21,23 @@
 
 package nsk.jdi.VirtualMachine.setDefaultStratum;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the setdefaultstratum001 JDI test.

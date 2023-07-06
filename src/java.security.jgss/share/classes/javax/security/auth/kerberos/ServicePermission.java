@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.security.auth.kerberos;
+package java.security.jgss.share.classes.javax.security.auth.kerberos;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.ObjectStreamField;
@@ -29,6 +30,20 @@ import java.security.Permission;
 import java.security.PermissionCollection;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to protect Kerberos services and the

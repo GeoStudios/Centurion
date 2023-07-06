@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing;
+
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.*;
 import java.awt.event.*;
@@ -27,26 +29,35 @@ import java.awt.dnd.*;
 import java.beans.*;
 import java.lang.reflect.*;
 import java.io.*;
-import java.util.TooManyListenersException;
-import javax.swing.plaf.UIResource;
-import javax.swing.event.*;
-import javax.swing.text.JTextComponent;
-
+import java.util.TooManyjava.util.ListenersException;
+import java.desktop.share.classes.javax.swing.plaf.UIResource;
+import java.desktop.share.classes.javax.swing.event.*;
+import java.desktop.share.classes.javax.swing.text.JTextComponent;
 import sun.reflect.misc.MethodUtil;
 import sun.swing.SwingUtilities2;
 import sun.awt.AppContext;
 import sun.swing.*;
 import sun.awt.SunToolkit;
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-
 import java.security.AccessControlContext;
-
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.access.JavaSecurityAccess;
-
 import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to handle the transfer of a <code>Transferable</code>

@@ -19,20 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.dom3;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.DOM3Serializer;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.SerializationHandler;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.WrappedRuntimeException;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMErrorHandler;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSSerializerFilter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.serializer.dom3;
 
-import java.io.IOException;
 
-import com.sun.org.apache.xml.internal.serializer.DOM3Serializer;
-import com.sun.org.apache.xml.internal.serializer.SerializationHandler;
-import com.sun.org.apache.xml.internal.serializer.utils.WrappedRuntimeException;
-import org.w3c.dom.DOMErrorHandler;
-import org.w3c.dom.Node;
-import org.w3c.dom.ls.LSSerializerFilter;
+
 
 /**
  * This class implements the DOM3Serializer interface.

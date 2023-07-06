@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.management.counter.perf;
+package java.management.share.classes.sun.management.counter.perf;
 
-import sun.management.counter.*;
+
+import java.management.share.classes.sun.management.counter.*;
 import java.nio.ByteBuffer;
 import java.nio.ReadOnlyBufferException;
 import java.nio.charset.Charset;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PerfStringCounter extends PerfByteArrayCounter
     implements StringCounter {

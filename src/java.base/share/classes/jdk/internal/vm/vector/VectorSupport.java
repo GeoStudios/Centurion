@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.vm.vector;
+package java.base.share.classes.jdk.internal.vm.vector;
 
-import jdk.internal.vm.annotation.IntrinsicCandidate;
-import jdk.internal.misc.Unsafe;
 
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
 import java.util.function.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class VectorSupport {
     static {

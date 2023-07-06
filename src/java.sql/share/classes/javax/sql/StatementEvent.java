@@ -19,14 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * Created on Apr 28, 2005
- */
-package javax.sql;
+package java.sql.share.classes.javax.sql;
+
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.EventObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * Created on Apr 28, 2005
+ */
+
+
 
 /**
  * A {@code StatementEvent} is sent to all {@code StatementEventListener}s which were

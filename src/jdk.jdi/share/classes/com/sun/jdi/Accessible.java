@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jdi;
+package jdk.jdi.share.classes.com.sun.jdi;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides information on the accessibility of a type or type component.
@@ -64,7 +80,7 @@ public interface Accessible {
      * For primitive classes, such as {@link java.lang.Integer#TYPE},
      * the return value is always false.
      *
-     * @return <code>true</code> for items with package private access;
+     * @return <code>true</code> for items with 
      * <code>false</code> otherwise.
      */
     boolean isPackagePrivate();

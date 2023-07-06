@@ -19,58 +19,73 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.parsers;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
 
-import com.sun.org.apache.xerces.internal.impl.Constants;
-import com.sun.org.apache.xerces.internal.impl.XML11DTDScannerImpl;
-import com.sun.org.apache.xerces.internal.impl.XML11DocumentScannerImpl;
-import com.sun.org.apache.xerces.internal.impl.XML11NSDocumentScannerImpl;
-import com.sun.org.apache.xerces.internal.impl.XMLDTDScannerImpl;
-import com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl;
-import com.sun.org.apache.xerces.internal.impl.XMLEntityHandler;
-import com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
-import com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
-import com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl;
-import com.sun.org.apache.xerces.internal.impl.XMLVersionDetector;
-import com.sun.org.apache.xerces.internal.impl.dtd.XML11DTDProcessor;
-import com.sun.org.apache.xerces.internal.impl.dtd.XML11DTDValidator;
-import com.sun.org.apache.xerces.internal.impl.dtd.XML11NSDTDValidator;
-import com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDProcessor;
-import com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator;
-import com.sun.org.apache.xerces.internal.impl.dtd.XMLNSDTDValidator;
-import com.sun.org.apache.xerces.internal.impl.dv.DTDDVFactory;
-import com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
-import com.sun.org.apache.xerces.internal.impl.validation.ValidationManager;
-import com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator;
-import com.sun.org.apache.xerces.internal.impl.xs.XSMessageFormatter;
-import com.sun.org.apache.xerces.internal.util.FeatureState;
-import com.sun.org.apache.xerces.internal.util.ParserConfigurationSettings;
-import com.sun.org.apache.xerces.internal.util.PropertyState;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
-import com.sun.org.apache.xerces.internal.xni.XMLDTDContentModelHandler;
-import com.sun.org.apache.xerces.internal.xni.XMLDTDHandler;
-import com.sun.org.apache.xerces.internal.xni.XMLDocumentHandler;
-import com.sun.org.apache.xerces.internal.xni.XMLLocator;
-import com.sun.org.apache.xerces.internal.xni.XNIException;
-import com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarPool;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponent;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLDTDScanner;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentScanner;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentSource;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLEntityResolver;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLErrorHandler;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLPullParserConfiguration;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XML11DTDScannerImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XML11DocumentScannerImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XML11NSDocumentScannerImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLDTDScannerImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLEntityHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLVersionDetector;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XML11DTDProcessor;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XML11DTDValidator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XML11NSDTDValidator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDProcessor;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XMLNSDTDValidator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.DTDDVFactory;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.validation.ValidationManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSMessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.FeatureState;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.ParserConfigurationSettings;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.PropertyState;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDTDContentModelHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDTDHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDocumentHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLLocator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarPool;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponent;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDTDScanner;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentScanner;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentSource;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLEntityResolver;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLErrorHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLPullParserConfiguration;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import javax.xml.XMLConstants;
 import javax.xml.catalog.CatalogFeatures;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkXmlUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is the configuration used to parse XML 1.0 and XML 1.1 documents.

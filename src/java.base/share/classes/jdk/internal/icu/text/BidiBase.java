@@ -19,6 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.jdk.internal.icu.text;
+
+
+import java.lang.reflect.Array;
+import java.text.AttributedCharacterIterator;
+import java.text.Bidi;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.jdk.internal.access.JavaAWTFontAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.icu.lang.UCharacter;
+import java.base.share.classes.jdk.internal.icu.impl.UBiDiProps;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* FOOD FOR THOUGHT: currently the reordering modes are a mixture of
  * algorithm for direct BiDi, algorithm for inverse Bidi and the bizarre
  * concept of RUNS_ONLY which is a double operation.
@@ -35,16 +61,8 @@
  * fallbacks for unsupported combinations.
  */
 
-package jdk.internal.icu.text;
 
-import java.lang.reflect.Array;
-import java.text.AttributedCharacterIterator;
-import java.text.Bidi;
-import java.util.Arrays;
-import jdk.internal.access.JavaAWTFontAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.icu.lang.UCharacter;
-import jdk.internal.icu.impl.UBiDiProps;
+
 
 /**
  *
@@ -189,7 +207,7 @@ import jdk.internal.icu.impl.UBiDiProps;
  *
  * <pre>{@code
  *
- *  package com.ibm.icu.dev.test.bidi;
+ *  
  *
  *  import com.ibm.icu.text.Bidi;
  *  import com.ibm.icu.text.BidiRun;

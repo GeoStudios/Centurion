@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.util.locale;
+package java.base.share.classes.sun.util.locale;
+
 
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.SoftReference;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class LocaleObjectCache<K, V> {
     private final ConcurrentMap<K, CacheEntry<K, V>> map;

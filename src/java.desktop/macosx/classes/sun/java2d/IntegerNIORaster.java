@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d;
+package java.desktop.macosx.classes.sun.java2d;
+
 
 import java.awt.*;
 import java.awt.image.*;
 import java.nio.IntBuffer;
-import sun.awt.image.SunWritableRaster;
+import java.desktop.macosx.classes.sun.awt.image.SunWritableRaster;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class IntegerNIORaster extends SunWritableRaster {
 

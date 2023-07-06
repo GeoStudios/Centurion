@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.windows;
+package java.desktop.windows.classes.sun.java2d.windows;
+
 
 import java.awt.Composite;
-import sun.java2d.loops.GraphicsPrimitive;
-import sun.java2d.loops.GraphicsPrimitiveMgr;
-import sun.java2d.loops.CompositeType;
-import sun.java2d.loops.SurfaceType;
-import sun.java2d.loops.Blit;
-import sun.java2d.pipe.Region;
-import sun.java2d.SurfaceData;
+import java.desktop.windows.classes.sun.java2d.loops.GraphicsPrimitive;
+import java.desktop.windows.classes.sun.java2d.loops.GraphicsPrimitiveMgr;
+import java.desktop.windows.classes.sun.java2d.loops.CompositeType;
+import java.desktop.windows.classes.sun.java2d.loops.SurfaceType;
+import java.desktop.windows.classes.sun.java2d.loops.Blit;
+import java.desktop.windows.classes.sun.java2d.pipe.Region;
+import java.desktop.windows.classes.sun.java2d.SurfaceData;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * GDIBlitLoops

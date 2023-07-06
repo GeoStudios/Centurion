@@ -18,14 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang.invoke;
+
+package java.base.share.classes.java.lang.invoke;
+
 
 import sun.invoke.util.Wrapper;
+import static java.base.share.classes.java.lang.invoke.MethodHandleInfo.*;.extended
+import static sun.invoke.util.Wrapper.forPrimitiveType;.extended
+import static sun.invoke.util.Wrapper.forWrapperType;.extended
+import static sun.invoke.util.Wrapper.isWrapperType;.extended
 
-import static java.lang.invoke.MethodHandleInfo.*;
-import static sun.invoke.util.Wrapper.forPrimitiveType;
-import static sun.invoke.util.Wrapper.forWrapperType;
-import static sun.invoke.util.Wrapper.isWrapperType;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract implementation of a lambda metafactory which provides parameter

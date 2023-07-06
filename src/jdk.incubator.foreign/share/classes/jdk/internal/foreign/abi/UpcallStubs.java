@@ -18,12 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.foreign.abi;
 
-import jdk.incubator.foreign.MemoryAddress;
-import jdk.incubator.foreign.MemorySegment;
-import jdk.internal.foreign.ResourceScopeImpl;
-import jdk.internal.foreign.NativeMemorySegmentImpl;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi;
+
+
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryAddress;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.ResourceScopeImpl;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.NativeMemorySegmentImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class UpcallStubs {
 

@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.modelmbean;
+package java.management.share.classes.javax.management.modelmbean;
 
-import javax.management.Attribute;
-import javax.management.AttributeChangeNotification;
-import javax.management.ListenerNotFoundException;
-import javax.management.MBeanException;
-import javax.management.Notification;
-import javax.management.NotificationBroadcaster;
-import javax.management.NotificationListener;
-import javax.management.RuntimeOperationsException;
+
+import java.management.share.classes.javax.management.Attribute;
+import java.management.share.classes.javax.management.AttributeChangeNotification;
+import java.management.share.classes.javax.management.java.util.ListenerNotFoundException;
+import java.management.share.classes.javax.management.MBeanException;
+import java.management.share.classes.javax.management.Notification;
+import java.management.share.classes.javax.management.NotificationBroadcaster;
+import java.management.share.classes.javax.management.Notificationjava.util.Listener;
+import java.management.share.classes.javax.management.RuntimeOperationsException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface must be implemented by the ModelMBeans. An implementation of this interface

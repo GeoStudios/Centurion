@@ -21,6 +21,7 @@
 
 package javax.naming.spi;
 
+
 import java.util.Hashtable;
 import javax.naming.Context;
 import javax.naming.NamingException;
@@ -29,6 +30,19 @@ import javax.naming.directory.Attributes;
 import javax.naming.directory.BasicAttribute;
 import javax.naming.directory.BasicAttributes;
 import javax.naming.directory.InitialDirContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A fake javax.naming.spi.NamingManager. It allows reading a DNS

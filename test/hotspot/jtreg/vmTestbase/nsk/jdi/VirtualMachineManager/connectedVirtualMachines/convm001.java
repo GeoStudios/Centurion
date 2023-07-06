@@ -21,19 +21,30 @@
 
 package nsk.jdi.VirtualMachineManager.connectedVirtualMachines;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.util.*;
 import java.io.*;
-
 import java.net.*;
-
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the implementation of an object of the type     <BR>

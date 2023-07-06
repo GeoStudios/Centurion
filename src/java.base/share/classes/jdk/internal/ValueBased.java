@@ -18,13 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal;
+
+package java.base.share.classes.jdk.internal;
+
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
+import static java.lang.annotation.ElementType.TYPE;.extended
 
-import static java.lang.annotation.ElementType.TYPE;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Indicates the API declaration in question is associated with a Value Based class.

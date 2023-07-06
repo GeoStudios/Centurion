@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
 
 import java.awt.AWTEvent;
 import java.awt.Button;
@@ -43,14 +44,25 @@ import java.awt.image.ImageObserver;
 import java.awt.peer.TrayIconPeer;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-
 import javax.swing.Icon;
 import javax.swing.UIManager;
+import java.desktop.macosx.classes.sun.awt.SunToolkit;
+import static java.desktop.macosx.classes.sun.awt.AWTAccessor.MenuComponentAccessor;.extended
+import static java.desktop.macosx.classes.sun.awt.AWTAccessor.getMenuComponentAccessor;.extended
 
-import sun.awt.SunToolkit;
 
-import static sun.awt.AWTAccessor.MenuComponentAccessor;
-import static sun.awt.AWTAccessor.getMenuComponentAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CTrayIcon extends CFRetainedResource implements TrayIconPeer {
     private TrayIcon target;

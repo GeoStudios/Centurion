@@ -19,21 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac.options;
+package jdk.compiler.share.classes.com.sun.tools.sjavac.options;
+
 
 import java.nio.file.Path;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.HashSet;
 import java.util.StringJoiner;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.Transformer;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.Util;
 
-import com.sun.tools.sjavac.Transformer;
-import com.sun.tools.sjavac.Util;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Instances of this class represent values for sjavac command line options.

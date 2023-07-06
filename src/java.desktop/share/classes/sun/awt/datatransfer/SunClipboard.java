@@ -19,32 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.datatransfer;
+package java.desktop.share.classes.sun.awt.datatransfer;
+
 
 import java.awt.EventQueue;
-
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.FlavorTable;
 import java.awt.datatransfer.SystemFlavorMap;
 import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.ClipboardOwner;
 import java.awt.datatransfer.DataFlavor;
-import java.awt.datatransfer.FlavorListener;
+import java.awt.datatransfer.Flavorjava.util.Listener;
 import java.awt.datatransfer.FlavorEvent;
 import java.awt.datatransfer.UnsupportedFlavorException;
-
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-
-import java.util.Arrays;
+import java.beans.PropertyChangejava.util.Listener;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Set;
 import java.util.HashSet;
+import java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.sun.awt.AppContext;
+import java.desktop.share.classes.sun.awt.PeerEvent;
+import java.desktop.share.classes.sun.awt.SunToolkit;
 
-import java.io.IOException;
 
-import sun.awt.AppContext;
-import sun.awt.PeerEvent;
-import sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

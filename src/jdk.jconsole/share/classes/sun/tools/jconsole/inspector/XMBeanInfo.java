@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole.inspector;
+package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
+
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -31,10 +32,22 @@ import javax.swing.*;
 import javax.swing.border.TitledBorder;
 import javax.swing.event.*;
 import javax.swing.table.*;
+import jdk.jconsole.share.classes.sun.tools.jconsole.Messages;
+import static jdk.jconsole.share.classes.sun.tools.jconsole.Utilities.*;.extended
 
-import sun.tools.jconsole.Messages;
 
-import static sun.tools.jconsole.Utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public class XMBeanInfo extends JPanel {

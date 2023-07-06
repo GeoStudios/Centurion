@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.annotation.processing;
+package java.compiler.share.classes.javax.annotation.processing;
 
-import java.util.List;
+
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.util.HashSet;
 import java.util.Collections;
-import java.util.Objects;
-import javax.lang.model.element.*;
-import javax.lang.model.SourceVersion;
-import javax.tools.Diagnostic;
+import java.base.share.classes.java.util.Objects;
+import java.compiler.share.classes.javax.lang.model.element.*;
+import java.compiler.share.classes.javax.lang.model.SourceVersion;
+import java.compiler.share.classes.javax.tools.Diagnostic;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An abstract annotation processor designed to be a convenient

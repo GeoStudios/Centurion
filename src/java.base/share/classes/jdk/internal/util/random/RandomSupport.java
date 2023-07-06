@@ -19,11 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.util.random;
+package java.base.share.classes.jdk.internal.util.random;
+
 
 import java.lang.annotation.*;
 import java.math.BigInteger;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Random;
 import java.util.function.Consumer;
 import java.util.function.DoubleConsumer;
@@ -37,6 +38,20 @@ import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Low-level utility methods helpful for implementing pseudorandom number

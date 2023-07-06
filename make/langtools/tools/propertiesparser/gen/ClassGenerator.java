@@ -21,8 +21,8 @@
 
 package propertiesparser.gen;
 
-import static java.util.stream.Collectors.toList;
 
+import static java.util.stream.Collectors.tojava.util.java.util.java.util.List;.extended
 import propertiesparser.parser.Message;
 import propertiesparser.parser.MessageFile;
 import propertiesparser.parser.MessageInfo;
@@ -33,16 +33,15 @@ import propertiesparser.parser.MessageType.CustomType;
 import propertiesparser.parser.MessageType.SimpleType;
 import propertiesparser.parser.MessageType.UnionType;
 import propertiesparser.parser.MessageType.Visitor;
-
 import java.io.File;
 import java.io.FileWriter;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.text.MessageFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
@@ -50,6 +49,19 @@ import java.util.TreeMap;
 import java.util.TreeSet;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ClassGenerator {
 

@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.compilercontrol;
+
+
+import jdk.test.lib.dcmd.CommandExecutor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestCompilerDirectivesCompatibilityCommandOn
  * @bug 8137167
@@ -35,9 +53,7 @@
  *      compiler.compilercontrol.TestCompilerDirectivesCompatibilityCommandOn
  */
 
-package compiler.compilercontrol;
 
-import jdk.test.lib.dcmd.CommandExecutor;
 
 public class TestCompilerDirectivesCompatibilityCommandOn extends TestCompilerDirectivesCompatibilityBase {
 

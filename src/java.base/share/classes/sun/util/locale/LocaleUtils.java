@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.util.locale;
+package java.base.share.classes.sun.util.locale;
 
-import java.util.List;
+
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Collection of static utility methods for Locale support. The

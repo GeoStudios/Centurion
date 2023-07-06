@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.xs.util;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util;
 
-import com.sun.org.apache.xerces.internal.xs.XSObject;
-import com.sun.org.apache.xerces.internal.xs.XSObjectList;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObject;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObjectjava.util.java.util.java.util.List;
 import java.lang.reflect.Array;
-import java.util.AbstractList;
+import java.util.Abstractjava.util.java.util.java.util.List;
 import java.util.Iterator;
-import java.util.ListIterator;
+import java.util.java.util.ListIterator;
 import java.util.NoSuchElementException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Containts a list of XSObject's.

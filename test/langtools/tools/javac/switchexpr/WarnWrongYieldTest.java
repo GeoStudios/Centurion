@@ -21,8 +21,23 @@
 
 package t;
 
-//ERROR - type called yield:
+
 import t.WarnWrongYieldTest.yield;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//ERROR - type called yield:
 
 public class WarnWrongYieldTest {
 

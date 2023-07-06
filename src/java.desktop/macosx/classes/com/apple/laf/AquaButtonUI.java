@@ -19,26 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.PropertyChangeEvent;
-
 import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.event.*;
 import javax.swing.plaf.*;
 import javax.swing.plaf.basic.*;
 import javax.swing.text.View;
-
 import sun.swing.SwingUtilities2;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.Size;
+import java.desktop.macosx.classes.com.apple.laf.AquaButtonExtendedTypes.TypeSpecifier;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtilControlSize.Sizeable;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.*;
 
-import apple.laf.JRSUIConstants.Size;
 
-import com.apple.laf.AquaButtonExtendedTypes.TypeSpecifier;
-import com.apple.laf.AquaUtilControlSize.Sizeable;
-import com.apple.laf.AquaUtils.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaButtonUI extends BasicButtonUI implements Sizeable {
     private static final String BUTTON_TYPE = "JButton.buttonType";

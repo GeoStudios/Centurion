@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.windows.classes.sun.awt;
+
 
 import java.awt.AWTPermission;
 import java.awt.DisplayMode;
@@ -32,19 +33,31 @@ import java.awt.Rectangle;
 import java.awt.Window;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-import java.awt.event.WindowListener;
+import java.awt.event.Windowjava.util.Listener;
 import java.awt.image.ColorModel;
 import java.awt.peer.WindowPeer;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Vector;
+import java.desktop.windows.classes.sun.awt.windows.WWindowPeer;
+import java.desktop.windows.classes.sun.java2d.SunGraphicsEnvironment;
+import java.desktop.windows.classes.sun.java2d.opengl.WGLGraphicsConfig;
+import java.desktop.windows.classes.sun.java2d.windows.WindowsFlags;
+import static java.desktop.windows.classes.sun.awt.Win32GraphicsEnvironment.debugScaleX;.extended
+import static java.desktop.windows.classes.sun.awt.Win32GraphicsEnvironment.debugScaleY;.extended
 
-import sun.awt.windows.WWindowPeer;
-import sun.java2d.SunGraphicsEnvironment;
-import sun.java2d.opengl.WGLGraphicsConfig;
-import sun.java2d.windows.WindowsFlags;
 
-import static sun.awt.Win32GraphicsEnvironment.debugScaleX;
-import static sun.awt.Win32GraphicsEnvironment.debugScaleY;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is an implementation of a GraphicsDevice object for a single

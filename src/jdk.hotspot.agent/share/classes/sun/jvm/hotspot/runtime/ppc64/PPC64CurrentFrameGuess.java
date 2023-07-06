@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.runtime.ppc64;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.ppc64;
 
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.debugger.ppc64.*;
-import sun.jvm.hotspot.code.*;
-import sun.jvm.hotspot.interpreter.*;
-import sun.jvm.hotspot.runtime.*;
-import sun.jvm.hotspot.runtime.ppc64.*;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.ppc64.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.interpreter.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.ppc64.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** <P> Should be able to be used on all ppc64 platforms we support
     (Linux/ppc64) to implement JavaThread's "currentFrameGuess()"

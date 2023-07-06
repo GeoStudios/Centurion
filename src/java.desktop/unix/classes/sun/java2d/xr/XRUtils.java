@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.xr;
+package java.desktop.unix.classes.sun.java2d.xr;
+
 
 import java.awt.*;
 import java.awt.geom.Point2D;
 import java.awt.MultipleGradientPaint.*;
 import java.awt.geom.AffineTransform;
 import java.awt.image.*;
-import sun.java2d.loops.*;
-import static java.awt.AlphaComposite.*;
+import java.desktop.unix.classes.sun.java2d.loops.*;
+import static java.awt.AlphaComposite.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * XRender constants and utility methods.

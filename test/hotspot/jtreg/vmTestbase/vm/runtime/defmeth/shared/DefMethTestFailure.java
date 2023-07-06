@@ -21,10 +21,24 @@
 
 package vm.runtime.defmeth.shared;
 
-import java.util.List;
+
+import java.util.java.util.java.util.java.util.List;
 import nsk.share.Pair;
 import nsk.share.TestFailure;
 import vm.runtime.defmeth.shared.data.Tester;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test failure in a test on default method.

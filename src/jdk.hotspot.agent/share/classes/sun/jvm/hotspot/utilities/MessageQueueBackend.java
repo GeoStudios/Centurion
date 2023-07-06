@@ -19,13 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.utilities;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
+
+
+import java.util.Linkedjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** The backend for the message queue abstraction. This class is
     instantiated first and queried to provide the two "sides" of the
     message queue. */
 
-import java.util.LinkedList;
 
 public class MessageQueueBackend {
   // The two queues

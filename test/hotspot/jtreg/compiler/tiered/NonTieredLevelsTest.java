@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.tiered;
+
+
+import java.util.function.IntPredicate;
+import compiler.whitebox.CompilerWhiteBoxTest;
+import jdk.test.lib.Platform;
+import jtreg.SkippedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test NonTieredLevelsTest
  * @summary Verify that only one level can be used
@@ -34,12 +55,7 @@
  *                   compiler.tiered.NonTieredLevelsTest
  */
 
-package compiler.tiered;
 
-import java.util.function.IntPredicate;
-import compiler.whitebox.CompilerWhiteBoxTest;
-import jdk.test.lib.Platform;
-import jtreg.SkippedException;
 
 public class NonTieredLevelsTest extends CompLevelsTest {
     private static final int AVAILABLE_COMP_LEVEL;

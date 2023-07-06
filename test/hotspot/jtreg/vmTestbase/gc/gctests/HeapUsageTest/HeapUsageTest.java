@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.HeapUsageTest;
+
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import nsk.share.TestFailure;
+import nsk.share.gc.GC;
+import nsk.share.gc.GCTestBase;
+import nsk.share.test.Stresser;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress
@@ -37,13 +59,7 @@
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.HeapUsageTest.HeapUsageTest
  */
 
-package gc.gctests.HeapUsageTest;
 
-import java.util.ArrayList;
-import nsk.share.TestFailure;
-import nsk.share.gc.GC;
-import nsk.share.gc.GCTestBase;
-import nsk.share.test.Stresser;
 
 /**
  * Micro benchmark that tests the heap usage.

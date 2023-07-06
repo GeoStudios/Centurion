@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.synth;
+package java.desktop.share.classes.javax.swing.plaf.synth;
 
-import javax.swing.plaf.basic.DefaultMenuLayout;
-import javax.swing.JPopupMenu;
+
+import java.desktop.share.classes.javax.swing.plaf.basic.DefaultMenuLayout;
+import java.desktop.share.classes.javax.swing.JPopupMenu;
 import java.awt.Container;
 import java.awt.Dimension;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@inheritDoc}

@@ -18,21 +18,36 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.terminal.impl;
 
-import java.io.IOException;
+package jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.nio.charset.Charset;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Attributes;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Attributes.ControlChar;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Size;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.NonBlocking;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.NonBlockingInputStream;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.NonBlockingReader;
 
-import jdk.internal.org.jline.terminal.Attributes;
-import jdk.internal.org.jline.terminal.Attributes.ControlChar;
-import jdk.internal.org.jline.terminal.Size;
-import jdk.internal.org.jline.utils.NonBlocking;
-import jdk.internal.org.jline.utils.NonBlockingInputStream;
-import jdk.internal.org.jline.utils.NonBlockingReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class DumbTerminal extends AbstractTerminal {
 

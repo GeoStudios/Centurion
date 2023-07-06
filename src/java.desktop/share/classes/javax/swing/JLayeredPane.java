@@ -18,20 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing;
+
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.Component;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Hashtable;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Rectangle;
 import java.beans.JavaBean;
 import java.beans.BeanProperty;
-
 import sun.awt.SunToolkit;
+import java.desktop.share.classes.javax.accessibility.*;
 
-import javax.accessibility.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>JLayeredPane</code> adds depth to a JFC/Swing container,

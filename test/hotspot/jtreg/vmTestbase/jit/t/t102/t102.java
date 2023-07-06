@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.t.t102;
+
+
+import nsk.share.TestFailure;
+import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,10 +49,7 @@
  * @run main/othervm jit.t.t102.t102
  */
 
-package jit.t.t102;
 
-import nsk.share.TestFailure;
-import nsk.share.GoldChecker;
 
 // Like t101.java except the short intege type is short instead of char.
 

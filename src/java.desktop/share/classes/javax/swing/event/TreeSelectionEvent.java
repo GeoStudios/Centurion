@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.event;
+package java.desktop.share.classes.javax.swing.event;
+
 
 import java.util.EventObject;
-import javax.swing.tree.TreePath;
+import java.desktop.share.classes.javax.swing.tree.TreePath;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An event that characterizes a change in the current

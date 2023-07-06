@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.macosx.classes.sun.font;
+
 
 import java.util.HashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CCharToGlyphMapper extends CharToGlyphMapper {
     private static native int countGlyphs(final long nativeFontPtr);

@@ -21,12 +21,25 @@
 
 package jdk.jpackage.test;
 
-import java.util.ArrayList;
-import java.util.List;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
-import static jdk.jpackage.test.TestBuilder.CMDLINE_ARG_PREFIX;
+import static jdk.jpackage.test.TestBuilder.CMDLINE_ARG_PREFIX;.extended
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public final class Main {

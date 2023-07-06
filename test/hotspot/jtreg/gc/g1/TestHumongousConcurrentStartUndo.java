@@ -21,6 +21,26 @@
 
 package gc.g1;
 
+
+import gc.testlibrary.Helpers;
+import sun.hotspot.WhiteBox;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import java.lang.ref.Reference;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestHumongousConcurrentStartUndo
  * @summary Tests an alternating sequence of Concurrent Mark and Concurrent Undo
@@ -37,13 +57,8 @@ package gc.g1;
  *                   gc.g1.TestHumongousConcurrentStartUndo
  */
 
-import gc.testlibrary.Helpers;
 
-import sun.hotspot.WhiteBox;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
-import java.lang.ref.Reference;
 
 public class TestHumongousConcurrentStartUndo {
     // Heap sizes < 224 MB are increased to 224 MB if vm_page_size == 64K to

@@ -19,16 +19,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package com.sun.org.apache.xml.internal.security.algorithms.implementations;
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms.implementations;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.InvalidAlgorithmParameterException;
-import java.security.Key;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.Key;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.NoSuchProviderException;
 import java.security.Provider;
 import java.security.SecureRandom;
@@ -36,14 +33,35 @@ import java.security.Signature;
 import java.security.SignatureException;
 import java.security.interfaces.DSAKey;
 import java.security.spec.AlgorithmParameterSpec;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms.JCEMapper;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms.SignatureAlgorithmSpi;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.XMLSignature;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.XMLSignatureException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.Constants;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.JavaUtils;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.XMLUtils;
 
-import com.sun.org.apache.xml.internal.security.algorithms.JCEMapper;
-import com.sun.org.apache.xml.internal.security.algorithms.SignatureAlgorithmSpi;
-import com.sun.org.apache.xml.internal.security.signature.XMLSignature;
-import com.sun.org.apache.xml.internal.security.signature.XMLSignatureException;
-import com.sun.org.apache.xml.internal.security.utils.Constants;
-import com.sun.org.apache.xml.internal.security.utils.JavaUtils;
-import com.sun.org.apache.xml.internal.security.utils.XMLUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
 
 public class SignatureDSA extends SignatureAlgorithmSpi {
 

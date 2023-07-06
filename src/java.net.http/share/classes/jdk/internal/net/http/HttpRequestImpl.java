@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
 
-import java.io.IOException;
-import java.net.InetSocketAddress;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.net.Inetjava.net.SocketAddress;
 import java.net.Proxy;
 import java.net.ProxySelector;
 import java.net.URI;
@@ -30,21 +31,33 @@ import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.time.Duration;
-import java.util.List;
-import java.util.Locale;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.net.http.HttpClient;
 import java.net.http.HttpHeaders;
 import java.net.http.HttpRequest;
+import java.net.http.share.classes.jdk.internal.net.http.common.HttpHeadersBuilder;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+import java.net.http.share.classes.jdk.internal.net.http.websocket.OpeningHandshake;
+import java.net.http.share.classes.jdk.internal.net.http.websocket.Webjava.net.SocketRequest;
+import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.ALLOWED_HEADERS;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.ProxyHeaders;.extended
 
-import jdk.internal.net.http.common.HttpHeadersBuilder;
-import jdk.internal.net.http.common.Utils;
-import jdk.internal.net.http.websocket.OpeningHandshake;
-import jdk.internal.net.http.websocket.WebSocketRequest;
 
-import static jdk.internal.net.http.common.Utils.ALLOWED_HEADERS;
-import static jdk.internal.net.http.common.Utils.ProxyHeaders;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class HttpRequestImpl extends HttpRequest implements WebSocketRequest {
 

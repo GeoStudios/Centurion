@@ -21,10 +21,11 @@
 
 package nsk.monitoring.MemoryNotificationInfo.from;
 
+
 import java.lang.management.*;
 import javax.management.*;
 import javax.management.openmbean.*;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.SynchronousQueue;
 import nsk.share.*;
@@ -33,6 +34,19 @@ import nsk.share.gc.Memory;
 import nsk.share.gc.gp.GarbageUtils;
 import nsk.monitoring.share.*;
 import nsk.share.test.Stresser;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class from001 {
 

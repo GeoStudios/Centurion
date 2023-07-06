@@ -21,10 +21,23 @@
 
 package jdk.jfr.jvm;
 
-import static jdk.test.lib.Asserts.assertNotNull;
 
+import static jdk.test.lib.Asserts.assertNotNull;.extended
 import jdk.jfr.internal.EventWriter;
 import jdk.jfr.internal.JVM;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test TestGetEventWriter

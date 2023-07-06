@@ -19,17 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.eawt.event;
+package java.desktop.macosx.classes.com.apple.eawt.event;
+
 
 import sun.awt.SunToolkit;
-
 import java.awt.*;
 import java.util.*;
-import java.util.List;
-
+import java.util.java.util.java.util.java.util.List;
 import javax.swing.*;
-
 import java.lang.annotation.Native;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class GestureHandler {
     private static final String CLIENT_PROPERTY = "com.apple.eawt.event.internalGestureHandler";

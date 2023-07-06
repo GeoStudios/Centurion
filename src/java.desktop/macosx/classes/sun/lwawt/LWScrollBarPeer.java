@@ -19,16 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.macosx.classes.sun.lwawt;
 
-package sun.lwawt;
 
 import java.awt.Adjustable;
 import java.awt.Scrollbar;
 import java.awt.event.AdjustmentEvent;
-import java.awt.event.AdjustmentListener;
+import java.awt.event.Adjustmentjava.util.Listener;
 import java.awt.peer.ScrollbarPeer;
-
 import javax.swing.JScrollBar;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Lightweight implementation of {@link ScrollbarPeer}. Delegates most of the

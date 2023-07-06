@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
 
-import java.lang.Character;
+
+import java.base.share.classes.java.lang.Character;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class for normalizing and merging patterns for collation.

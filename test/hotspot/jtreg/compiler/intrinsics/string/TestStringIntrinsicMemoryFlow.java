@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.string;
+
+
+import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8144212
@@ -29,9 +47,7 @@
  * @run main compiler.intrinsics.string.TestStringIntrinsicMemoryFlow
  */
 
-package compiler.intrinsics.string;
 
-import jdk.test.lib.Asserts;
 
 public class TestStringIntrinsicMemoryFlow {
 

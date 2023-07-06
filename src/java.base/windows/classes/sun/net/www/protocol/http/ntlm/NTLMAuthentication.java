@@ -19,21 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.protocol.http.ntlm;
+package java.base.windows.classes.sun.net.www.protocol.http.ntlm;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.InetAddress;
 import java.net.PasswordAuthentication;
 import java.net.UnknownHostException;
 import java.net.URL;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Properties;
-import sun.net.NetProperties;
-import sun.net.www.HeaderParser;
-import sun.net.www.protocol.http.AuthenticationInfo;
-import sun.net.www.protocol.http.AuthScheme;
-import sun.net.www.protocol.http.HttpURLConnection;
-import sun.security.action.GetPropertyAction;
+import java.base.windows.classes.sun.net.NetProperties;
+import java.base.windows.classes.sun.net.www.HeaderParser;
+import java.base.windows.classes.sun.net.www.protocol.http.AuthenticationInfo;
+import java.base.windows.classes.sun.net.www.protocol.http.AuthScheme;
+import java.base.windows.classes.sun.net.www.protocol.http.HttpURLConnection;
+import java.base.windows.classes.sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * NTLMAuthentication:

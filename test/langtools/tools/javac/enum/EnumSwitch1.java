@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package enumswitch1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4936393
@@ -28,7 +45,6 @@
  * @compile EnumSwitch1.java
  */
 
-package enumswitch1;
 
 enum E1 { a, b, c, d, e }
 

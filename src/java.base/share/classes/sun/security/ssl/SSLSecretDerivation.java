@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.security.GeneralSecurityException;
 import java.security.spec.AlgorithmParameterSpec;
-import javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.SecretKey;
 import javax.net.ssl.SSLHandshakeException;
-import sun.security.ssl.CipherSuite.HashAlg;
+import java.base.share.classes.sun.security.ssl.CipherSuite.HashAlg;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class SSLSecretDerivation implements SSLKeyDerivation {
     private static final byte[] sha256EmptyDigest = new byte[] {

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package ThrowsIntersection_3;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4042259
@@ -28,7 +45,6 @@
  * @run compile/fail ThrowsIntersection_3.java
  */
 
-package ThrowsIntersection_3;
 
 class Ex1 extends Exception {}
 class Ex2 extends Exception {}

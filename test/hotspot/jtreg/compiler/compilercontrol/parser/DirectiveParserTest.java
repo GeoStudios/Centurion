@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.compilercontrol.parser;
+
+
+import compiler.compilercontrol.share.JSONFile;
+import jdk.test.lib.Asserts;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8137167
@@ -29,12 +50,7 @@
  * @run driver compiler.compilercontrol.parser.DirectiveParserTest
  */
 
-package compiler.compilercontrol.parser;
 
-import compiler.compilercontrol.share.JSONFile;
-import jdk.test.lib.Asserts;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.Utils;
 
 public class DirectiveParserTest {
     private static final String ERROR_MSG = "VM should exit with error "

@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.share.classes.sun.print;
+
 
 import java.awt.Window;
 import java.awt.print.PrinterJob;
 import javax.print.PrintService;
 import javax.print.ServiceUIFactory;
 import javax.print.attribute.PrintRequestAttributeSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class DocumentPropertiesUI {
 

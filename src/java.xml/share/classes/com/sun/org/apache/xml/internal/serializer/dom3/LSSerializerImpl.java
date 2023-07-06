@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.serializer.dom3;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.dom3;
+
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -33,29 +34,42 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.Properties;
 import jdk.xml.internal.SecuritySupport;
-import com.sun.org.apache.xml.internal.serializer.DOM3Serializer;
-import com.sun.org.apache.xml.internal.serializer.Encodings;
-import com.sun.org.apache.xml.internal.serializer.Serializer;
-import com.sun.org.apache.xml.internal.serializer.ToXMLStream;
-import com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory;
-import com.sun.org.apache.xml.internal.serializer.utils.MsgKey;
-import com.sun.org.apache.xml.internal.serializer.utils.Utils;
-import com.sun.org.apache.xml.internal.serializer.utils.SystemIDResolver;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.DOM3Serializer;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.Encodings;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.Serializer;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.ToXMLStream;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.MsgKey;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.Utils;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.SystemIDResolver;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkProperty;
 import jdk.xml.internal.JdkProperty.ImplPropMap;
 import jdk.xml.internal.JdkProperty.State;
-import org.w3c.dom.DOMConfiguration;
-import org.w3c.dom.DOMError;
-import org.w3c.dom.DOMErrorHandler;
-import org.w3c.dom.DOMException;
-import org.w3c.dom.DOMStringList;
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
-import org.w3c.dom.ls.LSException;
-import org.w3c.dom.ls.LSOutput;
-import org.w3c.dom.ls.LSSerializer;
-import org.w3c.dom.ls.LSSerializerFilter;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMConfiguration;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMError;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMErrorHandler;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMStringjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSException;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSOutput;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSSerializer;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSSerializerFilter;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

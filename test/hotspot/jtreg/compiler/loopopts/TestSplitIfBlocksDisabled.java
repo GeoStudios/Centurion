@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestSplitIfBlocksDisabled
  * @bug 8086057
@@ -28,7 +45,6 @@
  *                   compiler.loopopts.TestSplitIfBlocksDisabled
  */
 
-package compiler.loopopts;
 
 public class TestSplitIfBlocksDisabled {
 

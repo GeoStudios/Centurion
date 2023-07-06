@@ -19,9 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.ReferenceType.visibleFields;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // this class will be loaded and then onloaded to check
 // the visibleFields() method of ReferenceType interface for UNLOADED class
 
-package nsk.jdi.ReferenceType.visibleFields;
 
 class visibfield003b {}

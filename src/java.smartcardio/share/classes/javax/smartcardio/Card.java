@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.smartcardio;
+package java.smartcardio.share.classes.javax.smartcardio;
+
 
 import java.nio.ByteBuffer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Smart Card with which a connection has been established. Card objects

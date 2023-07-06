@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.text.resources.ext;
+package jdk.localedata.share.classes.sun.text.resources.ext;
+
 
 import java.util.ResourceBundle;
-import sun.util.resources.BreakIteratorResourceBundle;
+import jdk.localedata.share.classes.sun.util.resources.BreakIteratorResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class BreakIteratorResources_th extends BreakIteratorResourceBundle {
     @Override

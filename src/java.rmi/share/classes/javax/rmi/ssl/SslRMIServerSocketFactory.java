@@ -19,19 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.rmi.ssl;
+package java.rmi.share.classes.javax.rmi.ssl;
 
-import java.io.IOException;
-import java.net.ServerSocket;
-import java.net.Socket;
-import java.rmi.server.RMIServerSocketFactory;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Objects;
-import javax.net.ssl.SSLContext;
-import javax.net.ssl.SSLServerSocketFactory;
-import javax.net.ssl.SSLSocket;
-import javax.net.ssl.SSLSocketFactory;
+
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.net.java.net.java.net.Serverjava.net.java.net.Socket;
+import java.net.java.net.java.net.java.net.Socket;
+import java.rmi.server.RMIjava.net.ServerSocketFactory;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
+import java.rmi.share.classes.javax.net.ssl.javax.net.ssl.javax.net.ssl.javax.net.ssl.SSLContext;
+import java.rmi.share.classes.javax.net.ssl.SSLjava.net.ServerSocketFactory;
+import java.rmi.share.classes.javax.net.ssl.SSLjava.net.java.net.java.net.Socket;
+import java.rmi.share.classes.javax.net.ssl.SSLjava.net.SocketFactory;
+
+
+
+
+
 
 /**
  * <p>An <code>SslRMIServerSocketFactory</code> instance is used by the RMI
@@ -180,8 +186,7 @@ public class SslRMIServerSocketFactory implements RMIServerSocketFactory {
             } catch (Exception e) {
                 final String msg = "Unable to check if the cipher suites " +
                         "and protocols to enable are supported";
-                throw (IllegalArgumentException)
-                        new IllegalArgumentException(msg, e);
+                throw new IllegalArgumentException(msg, e);
             }
         }
 

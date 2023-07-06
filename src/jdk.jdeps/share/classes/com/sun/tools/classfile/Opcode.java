@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.classfile;
+package jdk.jdeps.share.classes.com.sun.tools.classfile;
 
-import static com.sun.tools.classfile.Instruction.Kind.*;
-import static com.sun.tools.classfile.Opcode.Set.*;
+
+import static jdk.jdeps.share.classes.com.sun.tools.classfile.Instruction.Kind.*;.extended
+import static jdk.jdeps.share.classes.com.sun.tools.classfile.Opcode.Set.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * See JVMS, chapter 6.

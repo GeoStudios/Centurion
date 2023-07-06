@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvmstat.perfdata.monitor.protocol.file;
+package jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor.protocol.file;
 
-import sun.jvmstat.monitor.HostIdentifier;
-import sun.jvmstat.monitor.MonitorException;
-import sun.jvmstat.monitor.MonitoredHost;
-import sun.jvmstat.monitor.MonitoredHostService;
+
+import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.HostIdentifier;
+import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.MonitorException;
+import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.MonitoredHost;
+import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.MonitoredHostService;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class MonitoredHostFileService implements MonitoredHostService {
 

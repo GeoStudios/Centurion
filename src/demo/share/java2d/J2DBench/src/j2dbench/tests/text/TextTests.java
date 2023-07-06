@@ -19,16 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * This source code is provided to illustrate the usage of a given feature
- * or technique and has been deliberately simplified. Additional steps
- * required for a production-quality application, such as security checks,
- * input validation and proper error handling, might not be present in
- * this sample code.
- */
+package demo.share.java2d.J2DBench.src.j2dbench.tests.text;
 
-
-package j2dbench.tests.text;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -43,7 +35,7 @@ import java.awt.geom.AffineTransform;
 import java.io.InputStream;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
@@ -51,15 +43,41 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 import javax.swing.JComponent;
+import demo.share.java2d.J2DBench.src.j2dbench.Destinations;
+import demo.share.java2d.J2DBench.src.j2dbench.Group;
+import demo.share.java2d.J2DBench.src.j2dbench.Node;
+import demo.share.java2d.J2DBench.src.j2dbench.Option;
+import demo.share.java2d.J2DBench.src.j2dbench.Option.Objectjava.util.java.util.java.util.List;
+import demo.share.java2d.J2DBench.src.j2dbench.Result;
+import demo.share.java2d.J2DBench.src.j2dbench.Test;
+import demo.share.java2d.J2DBench.src.j2dbench.TestEnvironment;
 
-import j2dbench.Destinations;
-import j2dbench.Group;
-import j2dbench.Node;
-import j2dbench.Option;
-import j2dbench.Option.ObjectList;
-import j2dbench.Result;
-import j2dbench.Test;
-import j2dbench.TestEnvironment;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * This source code is provided to illustrate the usage of a given feature
+ * or technique and has been deliberately simplified. Additional steps
+ * required for a production-quality application, such as security checks,
+ * input validation and proper error handling, might not be present in
+ * this sample code.
+ */
+
+
+
+
+
 
 public abstract class TextTests extends Test {
     public static boolean hasGraphics2D;

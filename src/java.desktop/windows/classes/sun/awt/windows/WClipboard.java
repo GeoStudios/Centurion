@@ -19,16 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.windows;
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.UnsupportedFlavorException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.Map;
+import java.desktop.windows.classes.sun.awt.datatransfer.DataTransferer;
+import java.desktop.windows.classes.sun.awt.datatransfer.SunClipboard;
 
-import sun.awt.datatransfer.DataTransferer;
-import sun.awt.datatransfer.SunClipboard;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

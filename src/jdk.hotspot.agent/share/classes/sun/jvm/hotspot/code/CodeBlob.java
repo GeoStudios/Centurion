@@ -18,23 +18,38 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.jvm.hotspot.code;
 
-import sun.jvm.hotspot.compiler.ImmutableOopMap;
-import sun.jvm.hotspot.compiler.ImmutableOopMapSet;
-import sun.jvm.hotspot.debugger.Address;
-import sun.jvm.hotspot.runtime.VM;
-import sun.jvm.hotspot.runtime.VMObject;
-import sun.jvm.hotspot.types.AddressField;
-import sun.jvm.hotspot.types.CIntegerField;
-import sun.jvm.hotspot.types.Type;
-import sun.jvm.hotspot.types.TypeDataBase;
-import sun.jvm.hotspot.utilities.Assert;
-import sun.jvm.hotspot.utilities.CStringUtilities;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code;
 
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.compiler.ImmutableOopMap;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.compiler.ImmutableOopMapSet;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Address;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VM;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VMObject;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.AddressField;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.CIntegerField;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.Type;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.TypeDataBase;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Assert;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.CStringUtilities;
 import java.io.PrintStream;
-import sun.jvm.hotspot.utilities.Observable;
-import sun.jvm.hotspot.utilities.Observer;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CodeBlob extends VMObject {
   private static AddressField nameField;

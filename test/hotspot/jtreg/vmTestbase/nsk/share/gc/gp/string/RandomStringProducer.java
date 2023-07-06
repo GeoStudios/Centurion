@@ -18,11 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.share.gc.gp.string;
+
 
 import nsk.share.test.*;
 import nsk.share.gc.Memory;
 import nsk.share.gc.gp.GarbageProducer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Garbage producer that creates random strings.

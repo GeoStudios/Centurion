@@ -19,11 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal;
+package jdk.jfr.share.classes.jdk.jfr.internal;
+
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.RandomAccessFile;
 import java.io.Reader;
@@ -49,20 +50,33 @@ import java.security.Permission;
 import java.security.PrivilegedAction;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
-import java.util.List;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.PropertyPermission;
 import java.util.concurrent.Callable;
+import jdk.jfr.share.classes.jdk.internal.module.Modules;
+import jdk.jfr.share.classes.jdk.jfr.Event;
+import jdk.jfr.share.classes.jdk.jfr.FlightRecorder;
+import jdk.jfr.share.classes.jdk.jfr.FlightRecorderjava.util.Listener;
+import jdk.jfr.share.classes.jdk.jfr.FlightRecorderPermission;
+import jdk.jfr.share.classes.jdk.jfr.Recording;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.FileAccess;
 
-import jdk.internal.module.Modules;
-import jdk.jfr.Event;
-import jdk.jfr.FlightRecorder;
-import jdk.jfr.FlightRecorderListener;
-import jdk.jfr.FlightRecorderPermission;
-import jdk.jfr.Recording;
-import jdk.jfr.internal.consumer.FileAccess;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Contains JFR code that does

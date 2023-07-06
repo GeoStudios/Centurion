@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.java.util.concurrent.atomic;
+
+
+import java.base.share.classes.java.lang.invoke.MethodHandles;
+import java.base.share.classes.java.lang.invoke.VarHandle;
+import java.base.share.classes.java.lang.reflect.Array;
+import java.base.share.classes.java.lang.reflect.Field;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.function.BinaryOperator;
+import java.base.share.classes.java.util.function.UnaryOperator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -30,15 +55,8 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent.atomic;
 
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.VarHandle;
-import java.lang.reflect.Array;
-import java.lang.reflect.Field;
-import java.util.Arrays;
-import java.util.function.BinaryOperator;
-import java.util.function.UnaryOperator;
+
 
 /**
  * An array of object references in which elements may be updated

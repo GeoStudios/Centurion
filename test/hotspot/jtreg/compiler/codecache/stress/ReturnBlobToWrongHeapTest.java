@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codecache.stress;
+
+
+import sun.hotspot.code.BlobType;
+import java.util.Arrayjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test ReturnBlobToWrongHeapTest
  * @key stress
@@ -38,11 +57,8 @@
  *                   compiler.codecache.stress.ReturnBlobToWrongHeapTest
  */
 
-package compiler.codecache.stress;
 
-import sun.hotspot.code.BlobType;
 
-import java.util.ArrayList;
 
 public class ReturnBlobToWrongHeapTest {
     private static final long largeBlobSize = Helper.WHITE_BOX.getUintxVMFlag("ReservedCodeCacheSize") >> 6;

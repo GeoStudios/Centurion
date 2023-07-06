@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.module;
+package java.base.share.classes.jdk.internal.module;
+
 
 import java.io.PrintStream;
 import java.lang.module.Configuration;
@@ -31,19 +32,32 @@ import java.net.URI;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.Collection;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 import java.util.function.Function;
 import java.util.stream.Collectors;
+import java.base.share.classes.jdk.internal.access.JavaLangModuleAccess;
+import java.base.share.classes.jdk.internal.loader.BootLoader;
+import java.base.share.classes.jdk.internal.loader.BuiltinClassLoader;
+import java.base.share.classes.jdk.internal.loader.ClassLoaders;
+import java.base.share.classes.jdk.internal.access.JavaLangAccess;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
-import jdk.internal.access.JavaLangModuleAccess;
-import jdk.internal.loader.BootLoader;
-import jdk.internal.loader.BuiltinClassLoader;
-import jdk.internal.loader.ClassLoaders;
-import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A helper class for creating and updating modules. This class is intended to

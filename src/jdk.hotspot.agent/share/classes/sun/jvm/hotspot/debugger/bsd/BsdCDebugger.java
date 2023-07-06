@@ -19,19 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.bsd;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.bsd;
+
 
 import java.io.*;
 import java.util.*;
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.debugger.cdbg.*;
-import sun.jvm.hotspot.debugger.x86.*;
-import sun.jvm.hotspot.debugger.amd64.*;
-import sun.jvm.hotspot.debugger.aarch64.*;
-import sun.jvm.hotspot.debugger.bsd.x86.*;
-import sun.jvm.hotspot.debugger.bsd.amd64.*;
-import sun.jvm.hotspot.debugger.bsd.aarch64.*;
-import sun.jvm.hotspot.utilities.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.x86.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.amd64.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.aarch64.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.bsd.x86.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.bsd.amd64.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.bsd.aarch64.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class BsdCDebugger implements CDebugger {
   private final BsdDebugger dbg;

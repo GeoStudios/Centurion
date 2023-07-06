@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.posix.elf;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.posix.elf;
+
 
 import java.io.*;
 import java.util.*;
-import sun.jvm.hotspot.utilities.memo.*;
-import sun.jvm.hotspot.debugger.DataSource;
-import sun.jvm.hotspot.debugger.RandomAccessFileDataSource;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.memo.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.DataSource;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.RandomAccessFileDataSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ELFFileParser {
     private static ELFFileParser elfParser;

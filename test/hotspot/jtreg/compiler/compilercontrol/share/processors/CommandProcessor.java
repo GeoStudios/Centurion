@@ -21,14 +21,27 @@
 
 package compiler.compilercontrol.share.processors;
 
+
 import compiler.compilercontrol.share.scenario.Command;
 import compiler.compilercontrol.share.scenario.CompileCommand;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.process.OutputAnalyzer;
-
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.function.Consumer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Checks that output contains a string with commands and full method pattern

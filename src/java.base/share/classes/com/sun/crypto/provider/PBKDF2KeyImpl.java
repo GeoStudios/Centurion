@@ -19,26 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
+
 
 import java.io.ObjectStreamException;
 import java.lang.ref.Reference;
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
-import java.util.Arrays;
-import java.util.Locale;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.java.util.Locale;
 import java.security.MessageDigest;
 import java.security.KeyRep;
 import java.security.GeneralSecurityException;
-import java.security.NoSuchAlgorithmException;
-import java.security.spec.InvalidKeySpecException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.spec.InvalidKeySpecException;
 import javax.crypto.Mac;
-import javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.SecretKey;
 import javax.crypto.spec.PBEKeySpec;
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
+import java.base.share.classes.jdk.internal.ref.CleanerFactory;
 
-import static java.nio.charset.StandardCharsets.UTF_8;
 
-import jdk.internal.ref.CleanerFactory;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents a PBE key derived using PBKDF2 defined

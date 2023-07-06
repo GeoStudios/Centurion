@@ -21,10 +21,24 @@
 
 package org.openjdk.tests.separate;
 
+
 import java.util.HashMap;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class DirectedClassLoader extends ClassLoader {
 

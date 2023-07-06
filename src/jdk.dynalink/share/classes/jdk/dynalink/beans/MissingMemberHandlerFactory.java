@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.dynalink.beans;
+package jdk.dynalink.share.classes.jdk.dynalink.beans;
+
 
 import java.lang.invoke.MethodHandle;
-import jdk.dynalink.DynamicLinkerFactory;
-import jdk.dynalink.NamedOperation;
-import jdk.dynalink.NoSuchDynamicMethodException;
-import jdk.dynalink.StandardOperation;
-import jdk.dynalink.linker.LinkRequest;
-import jdk.dynalink.linker.LinkerServices;
+import jdk.dynalink.share.classes.jdk.dynalink.DynamicLinkerFactory;
+import jdk.dynalink.share.classes.jdk.dynalink.NamedOperation;
+import jdk.dynalink.share.classes.jdk.dynalink.NoSuchDynamicMethodException;
+import jdk.dynalink.share.classes.jdk.dynalink.StandardOperation;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkRequest;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkerServices;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A factory for creating method handles for linking missing member behavior

@@ -21,6 +21,23 @@
 
 package gc.z;
 
+
+import jdk.test.lib.process.ProcessTools;
+import static gc.testlibrary.Allocation.blackHole;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestSmallHeap
  * @requires vm.gc.Z
@@ -29,8 +46,6 @@ package gc.z;
  * @run driver gc.z.TestSmallHeap 8M 16M 32M 64M 128M 256M 512M 1024M
  */
 
-import jdk.test.lib.process.ProcessTools;
-import static gc.testlibrary.Allocation.blackHole;
 
 public class TestSmallHeap {
     public static class Test {

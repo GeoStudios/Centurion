@@ -19,29 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.windows.classes.sun.print;
+
 
 import java.net.URI;
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.InputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.Reader;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
 import java.util.Vector;
-
 import javax.print.CancelablePrintJob;
 import javax.print.Doc;
 import javax.print.DocFlavor;
 import javax.print.PrintService;
 import javax.print.PrintException;
 import javax.print.event.PrintJobEvent;
-import javax.print.event.PrintJobListener;
-import javax.print.event.PrintJobAttributeListener;
-
+import javax.print.event.PrintJobjava.util.Listener;
+import javax.print.event.PrintJobAttributejava.util.Listener;
 import javax.print.attribute.Attribute;
 import javax.print.attribute.AttributeSetUtilities;
 import javax.print.attribute.DocAttributeSet;
@@ -66,8 +65,21 @@ import javax.print.attribute.standard.PrinterIsAcceptingJobs;
 import javax.print.attribute.standard.PrinterState;
 import javax.print.attribute.standard.PrinterStateReason;
 import javax.print.attribute.standard.PrinterStateReasons;
-
 import java.awt.print.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Win32PrintJob implements CancelablePrintJob {
 

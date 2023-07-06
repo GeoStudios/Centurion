@@ -21,8 +21,8 @@
 
 package jdk.jfr.event.compiler;
 
-import java.util.List;
 
+import java.util.java.util.java.util.java.util.List;
 import jdk.jfr.Recording;
 import jdk.jfr.consumer.RecordedEvent;
 import jdk.test.lib.Asserts;
@@ -30,6 +30,19 @@ import jdk.test.lib.jfr.EventNames;
 import jdk.test.lib.jfr.Events;
 import sun.hotspot.WhiteBox;
 import sun.hotspot.code.BlobType;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test TestCodeCacheFull

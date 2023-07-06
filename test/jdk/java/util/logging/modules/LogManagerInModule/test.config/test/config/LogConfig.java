@@ -21,11 +21,25 @@
 
 package test.config;
 
-import java.util.ArrayList;
-import java.util.List;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
 import test.handlers.TestHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A dummy class that configures the logging system.

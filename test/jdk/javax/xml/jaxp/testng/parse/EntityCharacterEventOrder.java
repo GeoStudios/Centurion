@@ -21,12 +21,13 @@
 
 package parse;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.StringReader;
 import java.nio.charset.Charset;
-import java.util.ArrayList;
-import java.util.List;
-import static org.testng.Assert.assertEquals;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import static org.testng.Assert.assertEquals;.extended
 import org.testng.annotations.Test;
 import org.xml.sax.Attributes;
 import org.xml.sax.InputSource;
@@ -34,6 +35,19 @@ import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.ext.DefaultHandler2;
 import org.xml.sax.helpers.XMLReaderFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * JDK-6770436: Entity callback order differs between Java1.5 and Java1.6

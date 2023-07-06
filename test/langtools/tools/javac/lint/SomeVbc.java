@@ -21,6 +21,21 @@
 
 package java.lang;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @jdk.internal.ValueBased
 public final class SomeVbc {
 

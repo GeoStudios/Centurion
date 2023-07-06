@@ -18,20 +18,22 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.jshell.execution;
 
-import java.io.IOException;
+package jdk.jshell.share.classes.jdk.jshell.execution;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.ObjectInput;
 import java.io.ObjectOutput;
 import java.io.OutputStream;
 import java.net.InetAddress;
-import java.net.ServerSocket;
-import java.net.Socket;
-import java.util.ArrayList;
+import java.net.java.net.java.net.Serverjava.net.java.net.Socket;
+import java.net.java.net.java.net.java.net.Socket;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.function.Consumer;
 import com.sun.jdi.BooleanValue;
@@ -44,9 +46,23 @@ import com.sun.jdi.StackFrame;
 import com.sun.jdi.ThreadReference;
 import com.sun.jdi.VMDisconnectedException;
 import com.sun.jdi.VirtualMachine;
-import jdk.jshell.spi.ExecutionControl;
-import jdk.jshell.spi.ExecutionEnv;
-import static jdk.jshell.execution.Util.remoteInputOutput;
+import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionControl;
+import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionEnv;
+import static jdk.jshell.share.classes.jdk.jshell.execution.Util.remoteInputOutput;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The implementation of {@link jdk.jshell.spi.ExecutionControl} that the

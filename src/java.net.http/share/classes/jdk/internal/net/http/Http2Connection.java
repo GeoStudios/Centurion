@@ -19,23 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
+
 
 import java.io.EOFException;
-import java.io.IOException;
-import java.io.UncheckedIOException;
-import java.net.InetSocketAddress;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
+import java.net.Inetjava.net.SocketAddress;
 import java.net.URI;
 import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;
 import java.util.Iterator;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;
-import java.util.ArrayList;
-import java.util.Objects;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -46,36 +47,50 @@ import javax.net.ssl.SSLEngine;
 import javax.net.ssl.SSLException;
 import java.net.http.HttpClient;
 import java.net.http.HttpHeaders;
-import jdk.internal.net.http.HttpConnection.HttpPublisher;
-import jdk.internal.net.http.common.FlowTube;
-import jdk.internal.net.http.common.FlowTube.TubeSubscriber;
-import jdk.internal.net.http.common.HttpHeadersBuilder;
-import jdk.internal.net.http.common.Log;
-import jdk.internal.net.http.common.Logger;
-import jdk.internal.net.http.common.MinimalFuture;
-import jdk.internal.net.http.common.SequentialScheduler;
-import jdk.internal.net.http.common.Utils;
-import jdk.internal.net.http.frame.ContinuationFrame;
-import jdk.internal.net.http.frame.DataFrame;
-import jdk.internal.net.http.frame.ErrorFrame;
-import jdk.internal.net.http.frame.FramesDecoder;
-import jdk.internal.net.http.frame.FramesEncoder;
-import jdk.internal.net.http.frame.GoAwayFrame;
-import jdk.internal.net.http.frame.HeaderFrame;
-import jdk.internal.net.http.frame.HeadersFrame;
-import jdk.internal.net.http.frame.Http2Frame;
-import jdk.internal.net.http.frame.MalformedFrame;
-import jdk.internal.net.http.frame.OutgoingHeaders;
-import jdk.internal.net.http.frame.PingFrame;
-import jdk.internal.net.http.frame.PushPromiseFrame;
-import jdk.internal.net.http.frame.ResetFrame;
-import jdk.internal.net.http.frame.SettingsFrame;
-import jdk.internal.net.http.frame.WindowUpdateFrame;
-import jdk.internal.net.http.hpack.Encoder;
-import jdk.internal.net.http.hpack.Decoder;
-import jdk.internal.net.http.hpack.DecodingCallback;
-import static java.nio.charset.StandardCharsets.UTF_8;
-import static jdk.internal.net.http.frame.SettingsFrame.*;
+import java.net.http.share.classes.jdk.internal.net.http.HttpConnection.HttpPublisher;
+import java.net.http.share.classes.jdk.internal.net.http.common.FlowTube;
+import java.net.http.share.classes.jdk.internal.net.http.common.FlowTube.TubeSubscriber;
+import java.net.http.share.classes.jdk.internal.net.http.common.HttpHeadersBuilder;
+import java.net.http.share.classes.jdk.internal.net.http.common.Log;
+import java.net.http.share.classes.jdk.internal.net.http.common.Logger;
+import java.net.http.share.classes.jdk.internal.net.http.common.MinimalFuture;
+import java.net.http.share.classes.jdk.internal.net.http.common.SequentialScheduler;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+import java.net.http.share.classes.jdk.internal.net.http.frame.ContinuationFrame;
+import java.net.http.share.classes.jdk.internal.net.http.frame.DataFrame;
+import java.net.http.share.classes.jdk.internal.net.http.frame.ErrorFrame;
+import java.net.http.share.classes.jdk.internal.net.http.frame.FramesDecoder;
+import java.net.http.share.classes.jdk.internal.net.http.frame.FramesEncoder;
+import java.net.http.share.classes.jdk.internal.net.http.frame.GoAwayFrame;
+import java.net.http.share.classes.jdk.internal.net.http.frame.HeaderFrame;
+import java.net.http.share.classes.jdk.internal.net.http.frame.HeadersFrame;
+import java.net.http.share.classes.jdk.internal.net.http.frame.Http2Frame;
+import java.net.http.share.classes.jdk.internal.net.http.frame.MalformedFrame;
+import java.net.http.share.classes.jdk.internal.net.http.frame.OutgoingHeaders;
+import java.net.http.share.classes.jdk.internal.net.http.frame.PingFrame;
+import java.net.http.share.classes.jdk.internal.net.http.frame.PushPromiseFrame;
+import java.net.http.share.classes.jdk.internal.net.http.frame.ResetFrame;
+import java.net.http.share.classes.jdk.internal.net.http.frame.SettingsFrame;
+import java.net.http.share.classes.jdk.internal.net.http.frame.WindowUpdateFrame;
+import java.net.http.share.classes.jdk.internal.net.http.hpack.Encoder;
+import java.net.http.share.classes.jdk.internal.net.http.hpack.Decoder;
+import java.net.http.share.classes.jdk.internal.net.http.hpack.DecodingCallback;
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.frame.SettingsFrame.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An Http2Connection. Encapsulates the socket(channel) and any SSLEngine used

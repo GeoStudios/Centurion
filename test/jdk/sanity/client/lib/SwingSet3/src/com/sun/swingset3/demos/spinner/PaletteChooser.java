@@ -18,14 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package com.sun.swingset3.demos.spinner;
+
 
 import javax.swing.*;
 import java.awt.*;
-import javax.swing.event.ChangeListener;
+import javax.swing.event.Changejava.util.Listener;
 import javax.swing.event.ChangeEvent;
-
 import com.sun.swingset3.demos.ResourceManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @author Mikhail Lapshin

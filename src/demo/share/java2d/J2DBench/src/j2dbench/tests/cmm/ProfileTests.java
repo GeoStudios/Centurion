@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.java2d.J2DBench.src.j2dbench.tests.cmm;
+
+
+import java.awt.color.ICC_ColorSpace;
+import java.awt.color.ICC_Profile;
+import demo.share.java2d.J2DBench.src.j2dbench.Group;
+import demo.share.java2d.J2DBench.src.j2dbench.Result;
+import demo.share.java2d.J2DBench.src.j2dbench.TestEnvironment;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -26,14 +49,9 @@
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-package j2dbench.tests.cmm;
 
-import java.awt.color.ICC_ColorSpace;
-import java.awt.color.ICC_Profile;
 
-import j2dbench.Group;
-import j2dbench.Result;
-import j2dbench.TestEnvironment;
+
 
 public class ProfileTests extends CMMTests {
 

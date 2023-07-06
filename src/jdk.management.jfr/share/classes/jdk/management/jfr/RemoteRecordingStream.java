@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.management.jfr;
+package jdk.management.jfr.share.classes.jdk.management.jfr;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.channels.FileChannel;
 import java.nio.file.Files;
@@ -32,32 +33,45 @@ import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.time.Duration;
 import java.time.Instant;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.Future;
 import java.util.function.Consumer;
 import java.security.AccessControlException;
 import javax.management.JMX;
 import javax.management.MBeanServerConnection;
 import javax.management.ObjectName;
+import jdk.management.jfr.share.classes.jdk.jfr.Configuration;
+import jdk.management.jfr.share.classes.jdk.jfr.EventSettings;
+import jdk.management.jfr.share.classes.jdk.jfr.EventType;
+import jdk.management.jfr.share.classes.jdk.jfr.Recording;
+import jdk.management.jfr.share.classes.jdk.jfr.RecordingState;
+import jdk.management.jfr.share.classes.jdk.jfr.consumer.EventStream;
+import jdk.management.jfr.share.classes.jdk.jfr.consumer.MetadataEvent;
+import jdk.management.jfr.share.classes.jdk.jfr.consumer.RecordedEvent;
+import jdk.management.jfr.share.classes.jdk.jfr.consumer.RecordingStream;
+import jdk.management.jfr.share.classes.jdk.jfr.internal.management.EventSettingsModifier;
+import jdk.management.jfr.share.classes.jdk.jfr.internal.management.ManagementSupport;
+import jdk.management.jfr.share.classes.jdk.management.jfr.DiskRepository.DiskChunk;
+import jdk.management.jfr.share.classes.jdk.jfr.internal.management.EventByteStream;
 
-import jdk.jfr.Configuration;
-import jdk.jfr.EventSettings;
-import jdk.jfr.EventType;
-import jdk.jfr.Recording;
-import jdk.jfr.RecordingState;
-import jdk.jfr.consumer.EventStream;
-import jdk.jfr.consumer.MetadataEvent;
-import jdk.jfr.consumer.RecordedEvent;
-import jdk.jfr.consumer.RecordingStream;
-import jdk.jfr.internal.management.EventSettingsModifier;
-import jdk.jfr.internal.management.ManagementSupport;
-import jdk.management.jfr.DiskRepository.DiskChunk;
-import jdk.jfr.internal.management.EventByteStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of an {@link EventStream} that can serialize events over

@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.asm;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.asm;
+
 
 import java.io.PrintStream;
 import java.nio.file.Path;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Iterator;
 import java.util.Properties;
-import sun.jvm.hotspot.code.CodeBlob;
-import sun.jvm.hotspot.code.NMethod;
-import sun.jvm.hotspot.debugger.Address;
-import sun.jvm.hotspot.debugger.DebuggerException;
-import sun.jvm.hotspot.runtime.VM;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code.CodeBlob;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code.NMethod;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Address;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.DebuggerException;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VM;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Disassembler {
    private static final String options = "";

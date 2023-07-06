@@ -19,37 +19,51 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
-import sun.nio.ch.DirectBuffer;
-import sun.security.jca.JCAUtil;
-import sun.security.util.ArrayUtil;
 
+import java.base.share.classes.com.sun.nio.ch.DirectBuffer;
+import java.base.share.classes.com.sun.security.jca.JCAUtil;
+import java.base.share.classes.com.sun.security.util.ArrayUtil;
 import javax.crypto.AEADBadTagException;
-import javax.crypto.BadPaddingException;
-import javax.crypto.Cipher;
+import java.base.share.classes.javax.crypto.BadPaddingException;
+import java.base.share.classes.javax.crypto.Cipher;
 import javax.crypto.CipherSpi;
-import javax.crypto.IllegalBlockSizeException;
+import java.base.share.classes.javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
-import javax.crypto.ShortBufferException;
+import java.base.share.classes.javax.crypto.ShortBufferException;
 import javax.crypto.spec.GCMParameterSpec;
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.security.AlgorithmParameters;
 import java.security.InvalidAlgorithmParameterException;
-import java.security.InvalidKeyException;
-import java.security.Key;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.Key;
 import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.security.ProviderException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.ProviderException;
 import java.security.SecureRandom;
 import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.InvalidParameterSpecException;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents ciphers in GaloisCounter (GCM) mode.

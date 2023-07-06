@@ -19,25 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.*;
-
 import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.event.MouseInputAdapter;
 import javax.swing.plaf.*;
 import javax.swing.plaf.basic.BasicInternalFrameUI;
-
-import apple.laf.*;
-import apple.laf.JRSUIConstants.*;
-
-import com.apple.laf.AquaUtils.*;
-import com.apple.laf.AquaUtils.Painter;
-
+import java.desktop.macosx.classes.com.apple.laf.*;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.*;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.*;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.Painter;
 import sun.lwawt.macosx.CPlatformWindow;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * From AquaInternalFrameUI

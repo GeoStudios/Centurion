@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jdi;
+package jdk.jdi.share.classes.com.sun.jdi;
 
-import java.util.List;
+
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
+import jdk.jdi.share.classes.com.sun.jdi.event.EventQueue;
+import jdk.jdi.share.classes.com.sun.jdi.event.VMDisconnectEvent;
 
-import com.sun.jdi.event.EventQueue;
-import com.sun.jdi.event.VMDisconnectEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An object that currently exists in the target VM. An ObjectReference

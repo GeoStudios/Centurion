@@ -18,20 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.beans.finder;
 
-import com.sun.beans.WeakCache;
+package java.desktop.share.classes.com.sun.beans.finder;
 
+
+import java.desktop.share.classes.com.sun.beans.WeakCache;
 import java.beans.PropertyEditor;
+import java.desktop.share.classes.com.sun.beans.editors.BooleanEditor;
+import java.desktop.share.classes.com.sun.beans.editors.ByteEditor;
+import java.desktop.share.classes.com.sun.beans.editors.DoubleEditor;
+import java.desktop.share.classes.com.sun.beans.editors.EnumEditor;
+import java.desktop.share.classes.com.sun.beans.editors.FloatEditor;
+import java.desktop.share.classes.com.sun.beans.editors.IntegerEditor;
+import java.desktop.share.classes.com.sun.beans.editors.LongEditor;
+import java.desktop.share.classes.com.sun.beans.editors.ShortEditor;
 
-import com.sun.beans.editors.BooleanEditor;
-import com.sun.beans.editors.ByteEditor;
-import com.sun.beans.editors.DoubleEditor;
-import com.sun.beans.editors.EnumEditor;
-import com.sun.beans.editors.FloatEditor;
-import com.sun.beans.editors.IntegerEditor;
-import com.sun.beans.editors.LongEditor;
-import com.sun.beans.editors.ShortEditor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is utility class that provides functionality

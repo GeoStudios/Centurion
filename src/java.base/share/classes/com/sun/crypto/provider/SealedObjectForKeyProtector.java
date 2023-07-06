@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
-import jdk.internal.access.SharedSecrets;
 
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import java.io.*;
-import java.security.*;
-import javax.crypto.*;
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.javax.crypto.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class SealedObjectForKeyProtector extends SealedObject {
 

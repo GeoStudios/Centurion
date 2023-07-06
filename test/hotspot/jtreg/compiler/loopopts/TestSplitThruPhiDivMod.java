@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2.loopopts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8248552
@@ -27,7 +44,6 @@
  *
  * @run main/othervm -XX:CompileCommand=dontinline,compiler.c2.loopopts.TestSplitThruPhiDivMod::test* compiler.c2.loopopts.TestSplitThruPhiDivMod
  */
-package compiler.c2.loopopts;
 
 public class TestSplitThruPhiDivMod {
 

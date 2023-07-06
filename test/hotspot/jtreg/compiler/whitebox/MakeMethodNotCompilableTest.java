@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.whitebox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test MakeMethodNotCompilableTest
  * @bug 8012322 8006683 8007288 8022832
@@ -36,7 +53,6 @@
  *                   compiler.whitebox.MakeMethodNotCompilableTest
  */
 
-package compiler.whitebox;
 
 public class MakeMethodNotCompilableTest extends CompilerWhiteBoxTest {
     private int bci;

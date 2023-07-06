@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jsr292;
+
+
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8059556 8158639 8164508
@@ -28,11 +48,7 @@
  * @run main/othervm -Xbatch -XX:CompileCommand=compileonly,*::run compiler.jsr292.NullConstantReceiver
  */
 
-package compiler.jsr292;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodType;
 
 public class NullConstantReceiver {
     static final MethodHandle target;

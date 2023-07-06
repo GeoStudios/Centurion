@@ -19,29 +19,43 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal;
+package jdk.jfr.share.classes.jdk.jfr.internal;
+
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Modifier;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.StringJoiner;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.ClassWriter;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.Label;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.MethodVisitor;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.Type;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.commons.Method;
+import jdk.jfr.share.classes.jdk.jfr.Event;
+import jdk.jfr.share.classes.jdk.jfr.EventType;
+import jdk.jfr.share.classes.jdk.jfr.SettingControl;
+import jdk.jfr.share.classes.jdk.jfr.ValueDescriptor;
+import jdk.jfr.share.classes.jdk.jfr.internal.EventInstrumentation.FieldInfo;
+import jdk.jfr.share.classes.jdk.jfr.internal.EventInstrumentation.SettingInfo;
+import jdk.jfr.share.classes.jdk.jfr.internal.handlers.EventHandler;
 
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.org.objectweb.asm.Label;
-import jdk.internal.org.objectweb.asm.MethodVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.Type;
-import jdk.internal.org.objectweb.asm.commons.Method;
-import jdk.jfr.Event;
-import jdk.jfr.EventType;
-import jdk.jfr.SettingControl;
-import jdk.jfr.ValueDescriptor;
-import jdk.jfr.internal.EventInstrumentation.FieldInfo;
-import jdk.jfr.internal.EventInstrumentation.SettingInfo;
-import jdk.jfr.internal.handlers.EventHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class EventHandlerCreator {
     // TODO:
@@ -138,7 +152,7 @@ final class EventHandlerCreator {
         try {
             cc = handlerClass.getDeclaredConstructors()[0];
         } catch (Exception e) {
-            throw (Error) new InternalError("Could not get handler constructor for " + eventType.getName(), e);
+            throw new InternalError("Could not get handler constructor for " + eventType.getName(), e);
         }
         // Users should not be allowed to create instances of the event handler
         // so we need to unlock it here.
@@ -154,7 +168,7 @@ final class EventHandlerCreator {
             }
             return (EventHandler) cc.newInstance(arguments);
         } catch (InstantiationException | IllegalAccessException | IllegalArgumentException | InvocationTargetException e) {
-            throw (Error) new InternalError("Could not instantiate event handler for " + eventType.getName() + ". " + e.getMessage(), e);
+            throw new InternalError("Could not instantiate event handler for " + eventType.getName() + ". " + e.getMessage(), e);
         }
     }
 

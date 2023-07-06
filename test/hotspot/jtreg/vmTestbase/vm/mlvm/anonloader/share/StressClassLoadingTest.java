@@ -21,11 +21,11 @@
 
 package vm.mlvm.anonloader.share;
 
+
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandles.Lookup;
-
 import java.io.File;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -39,6 +39,19 @@ import vm.mlvm.share.MlvmTest;
 import vm.mlvm.share.CustomClassLoaders;
 import vm.share.FileUtils;
 import vm.share.UnsafeAccess;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Does stress-testing of class loading subsystem.

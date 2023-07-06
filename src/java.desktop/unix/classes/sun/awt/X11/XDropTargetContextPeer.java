@@ -19,25 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.Component;
 import java.awt.peer.ComponentPeer;
-
-import java.io.IOException;
-
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.Iterator;
-
-import sun.awt.AWTAccessor;
-import sun.util.logging.PlatformLogger;
-
-import sun.awt.AppContext;
-import sun.awt.SunToolkit;
-
-import sun.awt.dnd.SunDropTargetContextPeer;
-import sun.awt.dnd.SunDropTargetEvent;
-
+import java.desktop.unix.classes.sun.awt.AWTAccessor;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+import java.desktop.unix.classes.sun.awt.AppContext;
+import java.desktop.unix.classes.sun.awt.SunToolkit;
+import java.desktop.unix.classes.sun.awt.dnd.SunDropTargetContextPeer;
+import java.desktop.unix.classes.sun.awt.dnd.SunDropTargetEvent;
 import jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The XDropTargetContextPeer is the class responsible for handling

@@ -19,27 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.remote.security;
+package java.management.share.classes.com.sun.jmx.remote.security;
 
-import com.sun.jmx.mbeanserver.GetPropertyAction;
+
+import java.management.share.classes.com.sun.jmx.mbeanserver.GetPropertyAction;
 import java.io.ObjectInputStream;
 import java.security.AccessController;
 import java.util.Set;
 import javax.management.Attribute;
-import javax.management.AttributeList;
+import javax.management.Attributejava.util.java.util.java.util.List;
 import javax.management.AttributeNotFoundException;
 import javax.management.InstanceNotFoundException;
 import javax.management.InstanceAlreadyExistsException;
 import javax.management.IntrospectionException;
 import javax.management.InvalidAttributeValueException;
-import javax.management.ListenerNotFoundException;
+import javax.management.java.util.ListenerNotFoundException;
 import javax.management.MBeanException;
 import javax.management.MBeanInfo;
 import javax.management.MBeanRegistrationException;
 import javax.management.MBeanServer;
 import javax.management.NotCompliantMBeanException;
 import javax.management.NotificationFilter;
-import javax.management.NotificationListener;
+import javax.management.Notificationjava.util.Listener;
 import javax.management.ObjectInstance;
 import javax.management.ObjectName;
 import javax.management.OperationsException;
@@ -47,6 +48,20 @@ import javax.management.QueryExp;
 import javax.management.ReflectionException;
 import javax.management.loading.ClassLoaderRepository;
 import javax.management.remote.MBeanServerForwarder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>An object of this class implements the MBeanServer interface

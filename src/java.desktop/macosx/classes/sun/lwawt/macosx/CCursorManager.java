@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-import sun.lwawt.LWCursorManager;
 
+import java.desktop.macosx.classes.sun.lwawt.LWCursorManager;
 import java.awt.Cursor;
 import java.awt.Point;
 import java.awt.geom.Point2D;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class CCursorManager extends LWCursorManager {
 

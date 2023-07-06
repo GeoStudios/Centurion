@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
+
 
 import jdk.internal.vm.annotation.ForceInline;
 import jdk.internal.invoke.NativeEntryPoint;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.LM_TRUSTED;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.REF_invokeStatic;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newInternalError;.extended
 
-import static java.lang.invoke.LambdaForm.*;
-import static java.lang.invoke.MethodHandleNatives.Constants.LM_TRUSTED;
-import static java.lang.invoke.MethodHandleNatives.Constants.REF_invokeStatic;
-import static java.lang.invoke.MethodHandleStatics.newInternalError;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class models a method handle to a native function. A native method handle is made up of a {@link NativeEntryPoint},

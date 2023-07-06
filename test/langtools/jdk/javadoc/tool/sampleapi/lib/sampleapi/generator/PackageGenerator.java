@@ -21,25 +21,25 @@
 
 package sampleapi.generator;
 
+
 import java.io.File;
 import java.io.FileWriter;
-import java.io.IOException;
-import java.util.ArrayList;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.Map;
 import javax.xml.parsers.DocumentBuilderFactory;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-
+import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import com.sun.source.util.JavacTask;
 import com.sun.tools.javac.api.JavacTool;
 import com.sun.tools.javac.api.JavacTaskImpl;
 import com.sun.tools.javac.util.Context;
 import com.sun.tools.javac.util.Name;
 import com.sun.tools.javac.util.Names;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.ListBuffer;
+import com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import com.sun.tools.javac.util.java.util.ListBuffer;
 import com.sun.tools.javac.tree.TreeMaker;
 import com.sun.tools.javac.tree.JCTree;
 import com.sun.tools.javac.tree.JCTree.*;
@@ -49,8 +49,20 @@ import com.sun.tools.javac.code.TypeTag;
 import com.sun.tools.javac.code.Symbol;
 import com.sun.tools.javac.code.Symtab;
 import java.nio.file.Path;
-
 import sampleapi.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PackageGenerator {
 

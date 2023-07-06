@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.marlin;
+package java.desktop.share.classes.sun.java2d.marlin;
 
-import java.util.Arrays;
-import sun.java2d.marlin.Helpers.PolyStack;
-import sun.java2d.marlin.TransformingPathConsumer2D.CurveBasicMonotonizer;
-import sun.java2d.marlin.TransformingPathConsumer2D.CurveClipSplitter;
+
+import java.base.share.classes.java.util.Arrays;
+import java.desktop.share.classes.sun.java2d.marlin.Helpers.PolyStack;
+import java.desktop.share.classes.sun.java2d.marlin.TransformingPathConsumer2D.CurveBasicMonotonizer;
+import java.desktop.share.classes.sun.java2d.marlin.TransformingPathConsumer2D.CurveClipSplitter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // TODO: some of the arithmetic here is too verbose and prone to hard to
 // debug typos. We should consider making a small Point/Vector class that

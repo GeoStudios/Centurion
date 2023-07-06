@@ -21,7 +21,21 @@
 
 package jdk.test.lib.cli.predicate;
 
+
 import java.util.function.BooleanSupplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class OrPredicate implements BooleanSupplier {
     private final BooleanSupplier a;

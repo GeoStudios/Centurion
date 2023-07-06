@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.security.auth;
+package java.base.share.classes.javax.security.auth;
+
 
 import java.util.*;
 import java.io.*;
@@ -36,6 +37,20 @@ import java.security.PrivilegedExceptionAction;
 import java.security.PrivilegedActionException;
 import java.security.ProtectionDomain;
 import sun.security.util.ResourcesMgr;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p> A {@code Subject} represents a grouping of related information

@@ -19,19 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.toolkit.taglets;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.taglets;
 
-import java.util.List;
+
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
-
 import javax.lang.model.element.Element;
-
 import com.sun.source.doctree.DocTree;
-import jdk.javadoc.internal.doclets.formats.html.markup.RawHtml;
-import jdk.javadoc.internal.doclets.toolkit.Content;
-import jdk.javadoc.internal.doclets.toolkit.util.Utils;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.RawHtml;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils;
+import static jdk.javadoc.share.classes.jdk.javadoc.doclet.Taglet.Location.*;.extended
 
-import static jdk.javadoc.doclet.Taglet.Location.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A taglet wrapper, allows the public taglet {@link jdk.javadoc.doclet.Taglet}

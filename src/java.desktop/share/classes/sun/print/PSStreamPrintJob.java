@@ -19,14 +19,14 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.share.classes.sun.print;
+
 
 import java.net.URL;
 import java.io.InputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.Reader;
 import java.util.Vector;
-
 import javax.print.CancelablePrintJob;
 import javax.print.Doc;
 import javax.print.DocFlavor;
@@ -34,9 +34,8 @@ import javax.print.DocPrintJob;
 import javax.print.PrintService;
 import javax.print.PrintException;
 import javax.print.event.PrintJobEvent;
-import javax.print.event.PrintJobListener;
-import javax.print.event.PrintJobAttributeListener;
-
+import javax.print.event.PrintJobjava.util.Listener;
+import javax.print.event.PrintJobAttributejava.util.Listener;
 import javax.print.attribute.Attribute;
 import javax.print.attribute.AttributeSet;
 import javax.print.attribute.AttributeSetUtilities;
@@ -57,8 +56,21 @@ import javax.print.attribute.standard.MediaSize;
 import javax.print.attribute.standard.MediaSizeName;
 import javax.print.attribute.standard.OrientationRequested;
 import javax.print.attribute.standard.RequestingUserName;
-
 import java.awt.print.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PSStreamPrintJob implements CancelablePrintJob {
 

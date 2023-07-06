@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.stress.thread;
+
+
+import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress
@@ -33,9 +51,7 @@
  * @run main/othervm nsk.stress.thread.thread007 500 2m 5s
  */
 
-package nsk.stress.thread;
 
-import java.io.PrintStream;
 
 /**
  * Try to start the given number of threads starting simultaneously

@@ -19,22 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serialize;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.xml.sax.Attributejava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Sep 14, 2000:
 //  Fixed serializer to report IO exception directly, instead at
 //  the end of document processing.
 //  Reported by Patrick Higgins <phiggins@transzap.com>
 
 
-package com.sun.org.apache.xml.internal.serialize;
 
 
-import java.io.IOException;
 
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.xml.sax.AttributeList;
-import org.xml.sax.Attributes;
-import org.xml.sax.SAXException;
+
 
 
 /**

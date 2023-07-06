@@ -18,16 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.xml.catalog;
+
+package java.xml.share.classes.javax.xml.catalog;
+
 
 import java.io.InputStream;
-import javax.xml.stream.XMLResolver;
-import javax.xml.transform.Source;
-import javax.xml.transform.URIResolver;
+import java.xml.share.classes.javax.xml.stream.XMLResolver;
+import java.xml.share.classes.javax.xml.transform.Source;
+import java.xml.share.classes.javax.xml.transform.URIResolver;
 import org.w3c.dom.ls.LSInput;
 import org.w3c.dom.ls.LSResourceResolver;
 import org.xml.sax.EntityResolver;
 import org.xml.sax.InputSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Catalog Resolver that implements SAX {@link org.xml.sax.EntityResolver},

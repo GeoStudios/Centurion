@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts;
+
+
+import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8072753
@@ -27,9 +45,7 @@
  *
  */
 
-package compiler.loopopts;
 
-import java.util.Random;
 
 public class CountedLoopProblem {
     public static void main(String[] args) throws Exception {

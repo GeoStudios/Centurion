@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.*;
-
 import javax.swing.*;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicTextAreaUI;
 import javax.swing.text.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaTextAreaUI extends BasicTextAreaUI {
     public static ComponentUI createUI(final JComponent c) {

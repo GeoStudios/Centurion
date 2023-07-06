@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8062950
@@ -27,9 +45,7 @@
  * @run driver compiler.c2.Test8062950
  */
 
-package compiler.c2;
 
-import jdk.test.lib.process.ProcessTools;
 
 public class Test8062950 {
     private static final String CLASSNAME = "DoesNotExist";

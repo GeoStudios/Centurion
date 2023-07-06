@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal.util;
+package java.security.jgss.share.classes.sun.security.krb5.internal.util;
+
 
 import java.io.BufferedOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements a buffered output stream. It provides methods to write a chunck of

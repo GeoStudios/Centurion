@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole.inspector;
+package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import javax.management.*;
 import javax.swing.Icon;
-import sun.tools.jconsole.JConsole;
-import sun.tools.jconsole.MBeansTab;
-import sun.tools.jconsole.ProxyClient.SnapshotMBeanServerConnection;
+import jdk.jconsole.share.classes.sun.tools.jconsole.JConsole;
+import jdk.jconsole.share.classes.sun.tools.jconsole.MBeansTab;
+import jdk.jconsole.share.classes.sun.tools.jconsole.ProxyClient.SnapshotMBeanServerConnection;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class XMBean {
 

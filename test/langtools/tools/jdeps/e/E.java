@@ -21,6 +21,21 @@
 
 package e;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // use compact2
 public class E extends java.rmi.RemoteException {
 }

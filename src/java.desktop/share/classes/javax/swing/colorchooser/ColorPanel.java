@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.colorchooser;
+package java.desktop.share.classes.javax.swing.colorchooser;
+
 
 import java.awt.Color;
 import java.awt.ContainerOrderFocusTraversalPolicy;
@@ -27,13 +28,27 @@ import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import javax.swing.ButtonGroup;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JRadioButton;
-import javax.swing.border.EmptyBorder;
-import javax.swing.JSpinner.DefaultEditor;
+import java.awt.event.Actionjava.util.Listener;
+import java.desktop.share.classes.javax.swing.ButtonGroup;
+import java.desktop.share.classes.javax.swing.JLabel;
+import java.desktop.share.classes.javax.swing.JPanel;
+import java.desktop.share.classes.javax.swing.JRadioButton;
+import java.desktop.share.classes.javax.swing.border.EmptyBorder;
+import java.desktop.share.classes.javax.swing.JSpinner.DefaultEditor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // Superclass is not serializable across versions
 final class ColorPanel extends JPanel implements ActionListener {

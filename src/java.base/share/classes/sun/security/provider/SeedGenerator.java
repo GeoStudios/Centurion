@@ -19,7 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider;
+package java.base.share.classes.sun.security.provider;
+
+
+import java.base.share.classes.java.security.*;
+import java.io.*;
+import java.util.Properties;
+import java.util.Enumeration;
+import java.net.*;
+import java.nio.file.DirectoryStream;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.Random;
+import java.base.share.classes.sun.security.util.Debug;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class generates seeds for the SHA1PRNG cryptographically strong
@@ -60,16 +86,6 @@ package sun.security.provider;
  *
  */
 
-import java.security.*;
-import java.io.*;
-import java.util.Properties;
-import java.util.Enumeration;
-import java.net.*;
-import java.nio.file.DirectoryStream;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.Random;
-import sun.security.util.Debug;
 
 abstract class SeedGenerator {
 

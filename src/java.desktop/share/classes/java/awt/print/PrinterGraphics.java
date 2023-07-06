@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.print;
+package java.desktop.share.classes.java.awt.print;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code PrinterGraphics} interface is implemented by

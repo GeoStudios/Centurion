@@ -21,7 +21,21 @@
 
 package sun.hotspot.code;
 
+
 import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @Deprecated
 public class CodeBlob {

@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.datatransfer;
+package java.datatransfer.share.classes.java.awt.datatransfer;
 
-import java.io.Serial;
-import java.util.EventObject;
+
+import java.datatransfer.share.classes.java.io.Serial;
+import java.datatransfer.share.classes.java.util.EventObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code FlavorEvent} is used to notify interested parties that available

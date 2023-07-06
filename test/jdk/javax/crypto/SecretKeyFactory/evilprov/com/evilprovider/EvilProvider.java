@@ -21,7 +21,21 @@
 
 package com.evilprovider;
 
-import java.security.*;
+
+import java.base.share.classes.java.security.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class EvilProvider extends Provider {
 

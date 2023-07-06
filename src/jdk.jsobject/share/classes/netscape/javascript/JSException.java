@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package netscape.javascript;
+package jdk.jsobject.share.classes.netscape.javascript;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Thrown when an exception is raised in the JavaScript engine. This is merely

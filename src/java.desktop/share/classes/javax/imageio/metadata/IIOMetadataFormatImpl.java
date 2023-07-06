@@ -19,19 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.imageio.metadata;
+package java.desktop.share.classes.javax.imageio.metadata;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
-import javax.imageio.ImageTypeSpecifier;
+import java.desktop.share.classes.javax.imageio.ImageTypeSpecifier;
 import com.sun.imageio.plugins.common.StandardMetadataFormat;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A concrete class providing a reusable implementation of the

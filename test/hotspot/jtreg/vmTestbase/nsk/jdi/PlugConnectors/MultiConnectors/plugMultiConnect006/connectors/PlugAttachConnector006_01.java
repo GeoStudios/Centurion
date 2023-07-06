@@ -19,17 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * A Simple AttachingConnector without default arguments used by
- * nsk/jdi/PlugConnectors/MultiConnectors/plugMultiConnect006 test
- */
-
 package nsk.jdi.PlugConnectors.MultiConnectors.plugMultiConnect006.connectors;
+
 
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * A Simple AttachingConnector without default arguments used by
+ * nsk/jdi/PlugConnectors/MultiConnectors/plugMultiConnect006 test
+ */
+
+
 
 public class PlugAttachConnector006_01 extends PlugConnectors implements AttachingConnector {
 

@@ -21,33 +21,44 @@
 
 package javax.xml.xpath.ptests;
 
-import static javax.xml.xpath.XPathConstants.BOOLEAN;
-import static javax.xml.xpath.XPathConstants.NODE;
-import static javax.xml.xpath.XPathConstants.NODESET;
-import static javax.xml.xpath.XPathConstants.NUMBER;
-import static javax.xml.xpath.XPathConstants.STRING;
-import static javax.xml.xpath.ptests.XPathTestConst.XML_DIR;
-import static org.testng.Assert.assertEquals;
 
+import static javax.xml.xpath.XPathConstants.BOOLEAN;.extended
+import static javax.xml.xpath.XPathConstants.NODE;.extended
+import static javax.xml.xpath.XPathConstants.NODESET;.extended
+import static javax.xml.xpath.XPathConstants.NUMBER;.extended
+import static javax.xml.xpath.XPathConstants.STRING;.extended
+import static javax.xml.xpath.ptests.XPathTestConst.XML_DIR;.extended
+import static org.testng.Assert.assertEquals;.extended
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-
 import javax.xml.XMLConstants;
 import javax.xml.namespace.QName;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
-
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
-import org.w3c.dom.NodeList;
+import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import org.xml.sax.InputSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class containing the test cases for XPathExpression API.

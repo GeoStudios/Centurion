@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal;
+package jdk.jfr.share.classes.jdk.jfr.internal;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public enum LogLevel {
     TRACE(1),

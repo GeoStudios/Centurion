@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.text.spi;
+package java.base.share.classes.java.text.spi;
 
-import java.text.DateFormatSymbols;
-import java.util.Locale;
-import java.util.spi.LocaleServiceProvider;
+
+import java.base.share.classes.java.text.DateFormatSymbols;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.spi.LocaleServiceProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An abstract class for service providers that

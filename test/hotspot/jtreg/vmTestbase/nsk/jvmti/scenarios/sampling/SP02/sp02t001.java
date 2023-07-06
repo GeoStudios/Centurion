@@ -21,10 +21,23 @@
 
 package nsk.jvmti.scenarios.sampling.SP02;
 
-import java.io.PrintStream;
 
+import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class sp02t001 extends DebugeeClass {
 

@@ -21,18 +21,29 @@
 
 package vm.mlvm.mixed.func.regression.b7127687;
 
+
 import nsk.share.Consts;
 import vm.mlvm.share.MlvmTest;
 import vm.mlvm.share.Env;
 import vm.mlvm.share.CustomClassLoaders;
-
 import java.lang.invoke.MethodType;
-
-import java.util.List;
-import java.util.ArrayList;
-
+import java.util.java.util.java.util.java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import jdk.internal.org.objectweb.asm.ClassWriter;
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
+import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Test extends MlvmTest {
 

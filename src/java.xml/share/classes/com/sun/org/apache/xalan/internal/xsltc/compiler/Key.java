@@ -19,36 +19,54 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
+
+
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.BranchHandle;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.GOTO;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.IFEQ;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.IFGE;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.IFGT;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ILOAD;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.INVOKEINTERFACE;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.INVOKEVIRTUAL;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ISTORE;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.InstructionHandle;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Instructionjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.LocalVariableGen;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.PUSH;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ClassGenerator;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.MethodGenerator;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.NodeSetType;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.StringType;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.TypeCheckError;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.Util;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.Axis;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XML11Char;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: Key.java,v 1.6 2006/04/25 02:25:08 jeffsuttor Exp $
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-import com.sun.org.apache.bcel.internal.generic.BranchHandle;
-import com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
-import com.sun.org.apache.bcel.internal.generic.GOTO;
-import com.sun.org.apache.bcel.internal.generic.IFEQ;
-import com.sun.org.apache.bcel.internal.generic.IFGE;
-import com.sun.org.apache.bcel.internal.generic.IFGT;
-import com.sun.org.apache.bcel.internal.generic.ILOAD;
-import com.sun.org.apache.bcel.internal.generic.INVOKEINTERFACE;
-import com.sun.org.apache.bcel.internal.generic.INVOKEVIRTUAL;
-import com.sun.org.apache.bcel.internal.generic.ISTORE;
-import com.sun.org.apache.bcel.internal.generic.InstructionHandle;
-import com.sun.org.apache.bcel.internal.generic.InstructionList;
-import com.sun.org.apache.bcel.internal.generic.LocalVariableGen;
-import com.sun.org.apache.bcel.internal.generic.PUSH;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ClassGenerator;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.MethodGenerator;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.NodeSetType;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.StringType;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.TypeCheckError;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.Util;
-import com.sun.org.apache.xml.internal.dtm.Axis;
-import com.sun.org.apache.xml.internal.utils.XML11Char;
+
 
 /**
  * @LastModified: Oct 2017

@@ -21,6 +21,25 @@
 
 package gc.serial;
 
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.process.OutputAnalyzer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test HeapChangeLogging.java
  * @bug 8027440
@@ -31,11 +50,7 @@ package gc.serial;
  * @run driver gc.serial.HeapChangeLogging
  */
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.process.OutputAnalyzer;
 
 public class HeapChangeLogging {
   public static void main(String[] args) throws Exception {

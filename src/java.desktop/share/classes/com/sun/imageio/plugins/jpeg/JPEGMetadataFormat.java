@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.jpeg;
+package java.desktop.share.classes.com.sun.imageio.plugins.jpeg;
+
 
 import javax.imageio.metadata.IIOMetadataFormat;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.plugins.jpeg.JPEGQTable;
 import javax.imageio.plugins.jpeg.JPEGHuffmanTable;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
 
-import java.util.List;
-import java.util.ArrayList;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class JPEGMetadataFormat extends IIOMetadataFormatImpl {
     // 2-byte length reduces max to 65533

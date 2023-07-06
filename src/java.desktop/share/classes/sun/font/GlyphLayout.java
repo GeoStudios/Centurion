@@ -19,6 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.share.classes.sun.font;
+
+
+import java.lang.ref.SoftReference;
+import java.awt.Font;
+import java.awt.font.FontRenderContext;
+import java.awt.font.GlyphVector;
+import java.awt.geom.AffineTransform;
+import java.awt.geom.NoninvertibleTransformException;
+import java.awt.geom.Point2D;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.concurrent.ConcurrentHashMap;
+import static java.lang.Character.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * GlyphLayout is used to process a run of text into a run of run of
  * glyphs, optionally with position and char mapping info.
@@ -51,19 +79,9 @@
  * but it assists in reuse of the GlyphLayout.
  */
 
-package sun.font;
 
-import java.lang.ref.SoftReference;
-import java.awt.Font;
-import java.awt.font.FontRenderContext;
-import java.awt.font.GlyphVector;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.NoninvertibleTransformException;
-import java.awt.geom.Point2D;
-import java.util.ArrayList;
-import java.util.concurrent.ConcurrentHashMap;
 
-import static java.lang.Character.*;
+
 
 public final class GlyphLayout {
     // data for glyph vector

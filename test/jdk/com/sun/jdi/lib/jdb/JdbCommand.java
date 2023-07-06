@@ -21,9 +21,23 @@
 
 package lib.jdb;
 
-import java.util.Arrays;
+
+import java.base.share.classes.java.util.Arrays;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents list of commands of <code>jdb</code> from JDK1.4:

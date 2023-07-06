@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper class to ease the work with the lists of atoms.
@@ -45,7 +60,7 @@ class XAtomList {
     }
     private void init(long data, int count) {
         for (int i = 0; i < count; i++) {
-            add(new XAtom(XToolkit.getDisplay(), XAtom.getAtom(data+count*XAtom.getAtomSize())));
+            add(new XAtom(XToolkit.getDisplay(), XAtom.getAtom(data+ (long) count *XAtom.getAtomSize())));
         }
     }
 

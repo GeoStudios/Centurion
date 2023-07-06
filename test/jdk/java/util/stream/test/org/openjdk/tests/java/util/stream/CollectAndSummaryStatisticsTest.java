@@ -19,29 +19,45 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * @test
- * @summary primtive stream collection with summary statistics
- * @bug 8044047 8178117
- */
-
 package org.openjdk.tests.java.util.stream;
 
-import org.testng.annotations.Test;
 
-import java.util.ArrayList;
+import org.testng.annotations.Test;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.DoubleSummaryStatistics;
 import java.util.IntSummaryStatistics;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.LongSummaryStatistics;
 import java.util.stream.Collectors;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 import java.util.stream.OpTestCase;
+import static java.util.stream.LambdaTestHelpers.countTo;.extended
+import static java.util.stream.ThrowableHelper.checkNPE;.extended
 
-import static java.util.stream.LambdaTestHelpers.countTo;
-import static java.util.stream.ThrowableHelper.checkNPE;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * @test
+ * @summary primtive stream collection with summary statistics
+ * @bug 8044047 8178117
+ */
+
+
+
+
 
 @Test
 public class CollectAndSummaryStatisticsTest extends OpTestCase {

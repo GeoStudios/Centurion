@@ -18,12 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package util;
+
 
 import java.sql.SQLException;
 import java.sql.Struct;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class StubStruct implements Struct {
 

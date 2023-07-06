@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.foreign;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
 
-import jdk.incubator.foreign.MemorySegment;
-import jdk.incubator.foreign.SegmentAllocator;
-import jdk.incubator.foreign.ResourceScope;
+
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.SegmentAllocator;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.ResourceScope;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class ArenaAllocator implements SegmentAllocator {
 

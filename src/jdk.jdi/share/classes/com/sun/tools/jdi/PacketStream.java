@@ -19,30 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
+
 
 import java.io.ByteArrayOutputStream;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import jdk.jdi.share.classes.com.sun.jdi.BooleanValue;
+import jdk.jdi.share.classes.com.sun.jdi.ByteValue;
+import jdk.jdi.share.classes.com.sun.jdi.CharValue;
+import jdk.jdi.share.classes.com.sun.jdi.ClassType;
+import jdk.jdi.share.classes.com.sun.jdi.DoubleValue;
+import jdk.jdi.share.classes.com.sun.jdi.Field;
+import jdk.jdi.share.classes.com.sun.jdi.FloatValue;
+import jdk.jdi.share.classes.com.sun.jdi.IntegerValue;
+import jdk.jdi.share.classes.com.sun.jdi.InterfaceType;
+import jdk.jdi.share.classes.com.sun.jdi.InternalException;
+import jdk.jdi.share.classes.com.sun.jdi.InvalidTypeException;
+import jdk.jdi.share.classes.com.sun.jdi.Location;
+import jdk.jdi.share.classes.com.sun.jdi.LongValue;
+import jdk.jdi.share.classes.com.sun.jdi.ObjectReference;
+import jdk.jdi.share.classes.com.sun.jdi.PrimitiveValue;
+import jdk.jdi.share.classes.com.sun.jdi.ShortValue;
+import jdk.jdi.share.classes.com.sun.jdi.Value;
 
-import com.sun.jdi.BooleanValue;
-import com.sun.jdi.ByteValue;
-import com.sun.jdi.CharValue;
-import com.sun.jdi.ClassType;
-import com.sun.jdi.DoubleValue;
-import com.sun.jdi.Field;
-import com.sun.jdi.FloatValue;
-import com.sun.jdi.IntegerValue;
-import com.sun.jdi.InterfaceType;
-import com.sun.jdi.InternalException;
-import com.sun.jdi.InvalidTypeException;
-import com.sun.jdi.Location;
-import com.sun.jdi.LongValue;
-import com.sun.jdi.ObjectReference;
-import com.sun.jdi.PrimitiveValue;
-import com.sun.jdi.ShortValue;
-import com.sun.jdi.Value;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class PacketStream {
     final VirtualMachineImpl vm;

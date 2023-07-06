@@ -21,13 +21,26 @@
 
 package jdk.jfr.api.event;
 
-import java.time.Duration;
-import java.util.List;
 
+import java.time.Duration;
+import java.util.java.util.java.util.java.util.List;
 import jdk.jfr.Event;
 import jdk.jfr.Recording;
 import jdk.jfr.consumer.RecordedEvent;
 import jdk.test.lib.jfr.Events;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

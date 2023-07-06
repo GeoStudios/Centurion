@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jdi.connect;
+package jdk.jdi.share.classes.com.sun.jdi.connect;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A target VM was successfully launched, but terminated with an

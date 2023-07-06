@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.jfc.TableExample;
+
+
+import javax.swing.table.*;
+import javax.swing.event.TableModeljava.util.Listener;
+import javax.swing.event.TableModelEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -39,9 +60,6 @@
  * should have no effect.
  *
  */
-import javax.swing.table.*;
-import javax.swing.event.TableModelListener;
-import javax.swing.event.TableModelEvent;
 
 
 @SuppressWarnings("serial")

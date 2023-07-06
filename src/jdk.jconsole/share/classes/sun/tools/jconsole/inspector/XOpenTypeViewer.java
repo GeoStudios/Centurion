@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole.inspector;
+package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
+
 
 import javax.swing.*;
 import javax.swing.event.*;
@@ -33,12 +34,24 @@ import java.awt.event.*;
 import java.awt.Dimension;
 import java.util.*;
 import java.lang.reflect.Array;
-
 import javax.management.openmbean.*;
+import jdk.jconsole.share.classes.sun.tools.jconsole.JConsole;
+import jdk.jconsole.share.classes.sun.tools.jconsole.Messages;
+import jdk.jconsole.share.classes.sun.tools.jconsole.Resources;
 
-import sun.tools.jconsole.JConsole;
-import sun.tools.jconsole.Messages;
-import sun.tools.jconsole.Resources;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public class XOpenTypeViewer extends JPanel implements ActionListener {

@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.remote;
+package java.management.share.classes.javax.management.remote;
 
-import javax.management.MBeanServer;
+
+import java.management.share.classes.javax.management.MBeanServer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>An object of this class implements the MBeanServer interface and

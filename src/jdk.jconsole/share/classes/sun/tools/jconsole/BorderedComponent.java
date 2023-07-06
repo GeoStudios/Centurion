@@ -19,20 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole;
+package jdk.jconsole.share.classes.sun.tools.jconsole;
+
 
 import java.awt.*;
 import java.awt.event.*;
-
 import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.plaf.*;
 import javax.swing.plaf.basic.BasicGraphicsUtils;
+import static javax.swing.SwingConstants.*;.extended
+import static jdk.jconsole.share.classes.sun.tools.jconsole.JConsole.*;.extended
 
 
-import static javax.swing.SwingConstants.*;
 
-import static sun.tools.jconsole.JConsole.*;
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public class BorderedComponent extends JPanel implements ActionListener {

@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.rmi.transport.tcp;
+
+package java.rmi.share.classes.sun.rmi.transport.tcp;
+
 
 import java.lang.ref.Reference;
 import java.lang.ref.SoftReference;
@@ -27,19 +29,19 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.UndeclaredThrowableException;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.net.InetAddress;
-import java.net.ServerSocket;
-import java.net.Socket;
+import java.net.java.net.java.net.Serverjava.net.java.net.Socket;
+import java.net.java.net.java.net.java.net.Socket;
 import java.rmi.RemoteException;
 import java.rmi.server.ExportException;
 import java.rmi.server.LogStream;
 import java.rmi.server.RMIFailureHandler;
-import java.rmi.server.RMISocketFactory;
+import java.rmi.server.RMIjava.net.SocketFactory;
 import java.rmi.server.RemoteCall;
 import java.rmi.server.ServerNotActiveException;
 import java.rmi.server.UID;
@@ -48,9 +50,9 @@ import java.security.AccessController;
 import java.security.Permissions;
 import java.security.PrivilegedAction;
 import java.security.ProtectionDomain;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.WeakHashMap;
 import java.util.logging.Level;
@@ -61,16 +63,30 @@ import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
-import sun.rmi.runtime.Log;
-import sun.rmi.runtime.NewThreadAction;
-import sun.rmi.transport.Channel;
-import sun.rmi.transport.Connection;
-import sun.rmi.transport.DGCAckHandler;
-import sun.rmi.transport.Endpoint;
-import sun.rmi.transport.StreamRemoteCall;
-import sun.rmi.transport.Target;
-import sun.rmi.transport.Transport;
-import sun.rmi.transport.TransportConstants;
+import java.rmi.share.classes.sun.rmi.runtime.Log;
+import java.rmi.share.classes.sun.rmi.runtime.NewThreadAction;
+import java.rmi.share.classes.sun.rmi.transport.Channel;
+import java.rmi.share.classes.sun.rmi.transport.Connection;
+import java.rmi.share.classes.sun.rmi.transport.DGCAckHandler;
+import java.rmi.share.classes.sun.rmi.transport.Endpoint;
+import java.rmi.share.classes.sun.rmi.transport.StreamRemoteCall;
+import java.rmi.share.classes.sun.rmi.transport.Target;
+import java.rmi.share.classes.sun.rmi.transport.Transport;
+import java.rmi.share.classes.sun.rmi.transport.TransportConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * TCPTransport is the socket-based implementation of the RMI Transport

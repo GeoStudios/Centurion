@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package stream.XMLStreamWriterTest;
+
 
 import java.io.StringWriter;
 import javax.xml.parsers.DocumentBuilder;
@@ -26,17 +28,28 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.stream.XMLEventFactory;
 import javax.xml.stream.XMLEventWriter;
-
 import javax.xml.stream.XMLOutputFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamWriter;
 import javax.xml.stream.events.XMLEvent;
 import javax.xml.transform.dom.DOMResult;
-
 import org.testng.Assert;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.Document;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

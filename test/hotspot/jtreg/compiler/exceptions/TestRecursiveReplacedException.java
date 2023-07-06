@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.exceptions;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8054224
@@ -29,7 +46,6 @@
  *      compiler.exceptions.TestRecursiveReplacedException
  */
 
-package compiler.exceptions;
 
 public class TestRecursiveReplacedException {
 

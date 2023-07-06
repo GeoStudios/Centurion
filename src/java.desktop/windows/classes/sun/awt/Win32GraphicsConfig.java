@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.windows.classes.sun.awt;
+
 
 import java.awt.AWTException;
 import java.awt.BufferCapabilities;
@@ -36,16 +37,29 @@ import java.awt.image.ColorModel;
 import java.awt.image.DirectColorModel;
 import java.awt.image.VolatileImage;
 import java.awt.image.WritableRaster;
+import java.desktop.windows.classes.sun.awt.image.OffScreenImage;
+import java.desktop.windows.classes.sun.awt.image.SunVolatileImage;
+import java.desktop.windows.classes.sun.awt.image.SurfaceManager;
+import java.desktop.windows.classes.sun.awt.windows.WComponentPeer;
+import java.desktop.windows.classes.sun.java2d.SurfaceData;
+import java.desktop.windows.classes.sun.java2d.loops.CompositeType;
+import java.desktop.windows.classes.sun.java2d.loops.RenderLoops;
+import java.desktop.windows.classes.sun.java2d.loops.SurfaceType;
+import java.desktop.windows.classes.sun.java2d.windows.GDIWindowSurfaceData;
 
-import sun.awt.image.OffScreenImage;
-import sun.awt.image.SunVolatileImage;
-import sun.awt.image.SurfaceManager;
-import sun.awt.windows.WComponentPeer;
-import sun.java2d.SurfaceData;
-import sun.java2d.loops.CompositeType;
-import sun.java2d.loops.RenderLoops;
-import sun.java2d.loops.SurfaceType;
-import sun.java2d.windows.GDIWindowSurfaceData;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is an implementation of a GraphicsConfiguration object for a

@@ -19,8 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.prefs;
-import java.util.*;
+package java.prefs.share.classes.java.util.prefs;
+
+
+import java.prefs.share.classes.java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A factory object that generates Preferences objects.  Providers of

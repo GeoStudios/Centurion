@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.windows;
+package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Graphics;
 
+import java.desktop.windows.classes.com.sun.java.awt.Color;
+import java.desktop.windows.classes.com.sun.java.awt.Dimension;
+import java.desktop.windows.classes.com.sun.java.awt.Graphics;
 import javax.swing.UIManager;
 import javax.swing.plaf.basic.BasicSplitPaneDivider;
 import javax.swing.plaf.basic.BasicSplitPaneUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Divider used for Windows split pane.

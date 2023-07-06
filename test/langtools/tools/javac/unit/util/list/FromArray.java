@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package util.list;
+
+
+import com.sun.tools.javac.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug     6289436
@@ -30,9 +48,7 @@
  * @run main util.list.FromArray
  */
 
-package util.list;
 
-import com.sun.tools.javac.util.List;
 
 public class FromArray {
     public static void test(String... args) {

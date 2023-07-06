@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.reflect.generics.reflectiveObjects;
+package java.base.share.classes.sun.reflect.generics.reflectiveObjects;
 
-import sun.reflect.generics.tree.FieldTypeSignature;
 
+import java.base.share.classes.sun.reflect.generics.tree.FieldTypeSignature;
 import java.lang.reflect.MalformedParameterizedTypeException;
 import java.lang.reflect.Method;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.lang.reflect.TypeVariable;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.StringJoiner;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Implementing class for ParameterizedType interface. */
 

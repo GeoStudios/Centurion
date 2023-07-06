@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.platform;
+package jdk.compiler.share.classes.com.sun.tools.javac.platform;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A collection of platform descriptions that can be selected using {@code --release name}
  *  command line option.

@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.javax.net.ssl;
 
-package javax.net.ssl;
 
 import java.net.*;
-import javax.net.SocketFactory;
-import java.io.IOException;
+import java.base.share.classes.javax.net.java.net.SocketFactory;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
-import java.security.*;
-import java.util.Locale;
-
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.java.util.Locale;
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>SSLSocketFactory</code>s create <code>SSLSocket</code>s.

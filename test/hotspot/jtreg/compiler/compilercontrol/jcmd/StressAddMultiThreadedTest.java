@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.compilercontrol.jcmd;
+
+
+import jdk.test.lib.dcmd.PidJcmdExecutor;
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key randomness
@@ -33,15 +56,8 @@
  * @run driver compiler.compilercontrol.jcmd.StressAddMultiThreadedTest
  */
 
-package compiler.compilercontrol.jcmd;
 
-import jdk.test.lib.dcmd.PidJcmdExecutor;
 
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
 
 public class StressAddMultiThreadedTest extends StressAddJcmdBase {
     private static final int THREADS = Integer.getInteger(

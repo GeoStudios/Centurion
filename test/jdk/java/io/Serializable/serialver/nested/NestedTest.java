@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package serialver;
+
+
+import java.io.Serializable;
+import jdk.test.lib.JDKToolLauncher;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4312217 4785473
@@ -35,12 +55,8 @@
  *           notation instead of the '$' notation.
  */
 
-package serialver;
 
-import java.io.Serializable;
 
-import jdk.test.lib.JDKToolLauncher;
-import jdk.test.lib.process.ProcessTools;
 
 public class NestedTest implements Serializable {
     private static final long serialVersionUID = 1L;

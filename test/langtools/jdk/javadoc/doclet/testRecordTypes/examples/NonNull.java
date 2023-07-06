@@ -21,7 +21,21 @@
 
 package examples;
 
+
 import java.lang.annotation.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A simple annotation for demo use on record components.

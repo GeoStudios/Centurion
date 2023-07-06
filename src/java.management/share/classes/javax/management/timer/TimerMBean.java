@@ -19,21 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.timer;
+package java.management.share.classes.javax.management.timer;
+
+
+import java.util.Date;
+import java.util.Vector;
+import java.management.share.classes.javax.management.InstanceNotFoundException;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 // java imports
 //
-import java.util.Date;
-import java.util.Vector;
 // NPCTE fix for bugId 4464388, esc 0,  MR , to be added after modification of jmx spec
 //import java.io.Serializable;
 // end of NPCTE fix for bugId 4464388
 
 // jmx imports
 //
-import javax.management.InstanceNotFoundException;
 
 /**
  * Exposes the management interface of the timer MBean.

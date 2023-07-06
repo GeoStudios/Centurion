@@ -19,22 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.rsa;
+package java.base.share.classes.sun.security.rsa;
 
-import sun.security.jca.JCAUtil;
 
-import javax.crypto.BadPaddingException;
+import java.base.share.classes.sun.security.jca.JCAUtil;
+import java.base.share.classes.javax.crypto.BadPaddingException;
 import java.math.BigInteger;
 import java.security.SecureRandom;
 import java.security.interfaces.RSAKey;
 import java.security.interfaces.RSAPrivateCrtKey;
 import java.security.interfaces.RSAPrivateKey;
 import java.security.interfaces.RSAPublicKey;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Map;
 import java.util.WeakHashMap;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.locks.ReentrantLock;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Core of the RSA implementation. Has code to perform public and private key

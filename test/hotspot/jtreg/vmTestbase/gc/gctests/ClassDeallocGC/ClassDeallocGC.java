@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.ClassDeallocGC;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -49,9 +67,7 @@
  * @run main/othervm gc.gctests.ClassDeallocGC.ClassDeallocGC
  */
 
-package gc.gctests.ClassDeallocGC;
 
-import nsk.share.TestFailure;
 
 public class ClassDeallocGC
 {

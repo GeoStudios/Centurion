@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import javax.net.ssl.SSLProtocolException;
-import static sun.security.ssl.SSLExtension.CH_MAX_FRAGMENT_LENGTH;
-import static sun.security.ssl.SSLExtension.EE_MAX_FRAGMENT_LENGTH;
-import sun.security.ssl.SSLExtension.ExtensionConsumer;
-import static sun.security.ssl.SSLExtension.SH_MAX_FRAGMENT_LENGTH;
-import sun.security.ssl.SSLExtension.SSLExtensionSpec;
-import sun.security.ssl.SSLHandshake.HandshakeMessage;
+import static java.base.share.classes.sun.security.ssl.SSLExtension.CH_MAX_FRAGMENT_LENGTH;.extended
+import static java.base.share.classes.sun.security.ssl.SSLExtension.EE_MAX_FRAGMENT_LENGTH;.extended
+import java.base.share.classes.sun.security.ssl.SSLExtension.ExtensionConsumer;
+import static java.base.share.classes.sun.security.ssl.SSLExtension.SH_MAX_FRAGMENT_LENGTH;.extended
+import java.base.share.classes.sun.security.ssl.SSLExtension.SSLExtensionSpec;
+import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Pack of the "max_fragment_length" extensions [RFC6066].

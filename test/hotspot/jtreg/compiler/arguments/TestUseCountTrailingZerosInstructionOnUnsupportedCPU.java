@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.arguments;
+
+
+import jdk.test.lib.cli.CommandLineOptionTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8031321
@@ -36,9 +54,7 @@
  *                   compiler.arguments.TestUseCountTrailingZerosInstructionOnUnsupportedCPU
  */
 
-package compiler.arguments;
 
-import jdk.test.lib.cli.CommandLineOptionTest;
 
 public class TestUseCountTrailingZerosInstructionOnUnsupportedCPU
         extends BMIUnsupportedCPUTest {

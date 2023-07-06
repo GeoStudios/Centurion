@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.smartcardio;
+package java.smartcardio.share.classes.javax.smartcardio;
+
 
 import java.io.*;
 import java.util.StringJoiner;
 import java.security.Permission;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A permission for Smart Card operations. A CardPermission consists of the
@@ -220,10 +235,9 @@ public class CardPermission extends Permission {
      *   specified permission.
      */
     public boolean implies(Permission permission) {
-        if (!(permission instanceof CardPermission)) {
+        if (!(permission instanceof CardPermission other)) {
             return false;
         }
-        CardPermission other = (CardPermission)permission;
         if ((this.mask & other.mask) != other.mask) {
             return false;
         }
@@ -254,10 +268,9 @@ public class CardPermission extends Permission {
         if (this == obj) {
             return true;
         }
-        if (!(obj instanceof CardPermission)) {
+        if (!(obj instanceof CardPermission other)) {
             return false;
         }
-        CardPermission other = (CardPermission)obj;
         return this.getName().equals(other.getName()) && (this.mask == other.mask);
     }
 

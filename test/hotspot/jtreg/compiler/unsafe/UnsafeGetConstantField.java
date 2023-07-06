@@ -19,6 +19,55 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.unsafe;
+
+
+import jdk.internal.misc.Unsafe;
+import jdk.internal.org.objectweb.asm.ClassWriter;
+import jdk.internal.org.objectweb.asm.FieldVisitor;
+import jdk.internal.org.objectweb.asm.MethodVisitor;
+import jdk.internal.org.objectweb.asm.Opcodes;
+import jdk.internal.org.objectweb.asm.Type;
+import jdk.internal.vm.annotation.Stable;
+import jdk.test.lib.Asserts;
+import jdk.test.lib.Platform;
+import java.lang.invoke.MethodHandleHelper;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodHandles.Lookup;
+import java.io.java.io.java.io.java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_FINAL;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PUBLIC;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_STATIC;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ACONST_NULL;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ALOAD;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ARETURN;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.DUP;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.GETFIELD;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.GETSTATIC;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.INVOKESPECIAL;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.INVOKESTATIC;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.INVOKEVIRTUAL;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.NEW;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.PUTFIELD;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.PUTSTATIC;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.RETURN;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @summary tests on constant folding of unsafe get operations
@@ -53,42 +102,9 @@
  *                                 compiler.unsafe.UnsafeGetConstantField
  */
 
-package compiler.unsafe;
 
-import jdk.internal.misc.Unsafe;
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.org.objectweb.asm.FieldVisitor;
-import jdk.internal.org.objectweb.asm.MethodVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.Type;
-import jdk.internal.vm.annotation.Stable;
-import jdk.test.lib.Asserts;
-import jdk.test.lib.Platform;
 
-import java.lang.invoke.MethodHandleHelper;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodHandles.Lookup;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_FINAL;
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PUBLIC;
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_STATIC;
-import static jdk.internal.org.objectweb.asm.Opcodes.ACONST_NULL;
-import static jdk.internal.org.objectweb.asm.Opcodes.ALOAD;
-import static jdk.internal.org.objectweb.asm.Opcodes.ARETURN;
-import static jdk.internal.org.objectweb.asm.Opcodes.DUP;
-import static jdk.internal.org.objectweb.asm.Opcodes.GETFIELD;
-import static jdk.internal.org.objectweb.asm.Opcodes.GETSTATIC;
-import static jdk.internal.org.objectweb.asm.Opcodes.INVOKESPECIAL;
-import static jdk.internal.org.objectweb.asm.Opcodes.INVOKESTATIC;
-import static jdk.internal.org.objectweb.asm.Opcodes.INVOKEVIRTUAL;
-import static jdk.internal.org.objectweb.asm.Opcodes.NEW;
-import static jdk.internal.org.objectweb.asm.Opcodes.PUTFIELD;
-import static jdk.internal.org.objectweb.asm.Opcodes.PUTSTATIC;
-import static jdk.internal.org.objectweb.asm.Opcodes.RETURN;
 
 public class UnsafeGetConstantField {
     static final Class<?> THIS_CLASS = UnsafeGetConstantField.class;

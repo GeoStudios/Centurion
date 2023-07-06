@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci.events;
+
+
+import jdk.test.lib.process.ExitCode;
+import jdk.test.lib.cli.CommandLineOptionTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8136421
@@ -45,10 +64,7 @@
  *      compiler.jvmci.events.JvmciShutdownEventTest
  */
 
-package compiler.jvmci.events;
 
-import jdk.test.lib.process.ExitCode;
-import jdk.test.lib.cli.CommandLineOptionTest;
 
 public class JvmciShutdownEventTest {
     private final static String[] MESSAGE = new String[]{

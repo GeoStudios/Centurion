@@ -18,16 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text.rtf;
+
+package java.desktop.share.classes.javax.swing.text.rtf;
+
 
 import java.lang.*;
 import java.util.*;
 import java.awt.Color;
 import java.awt.Font;
 import java.io.OutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.javax.swing.text.*;
 
-import javax.swing.text.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Generates an RTF output stream (java.io.OutputStream) from rich text

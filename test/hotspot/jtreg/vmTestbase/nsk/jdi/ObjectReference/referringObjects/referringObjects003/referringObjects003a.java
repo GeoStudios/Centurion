@@ -18,14 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.jdi.ObjectReference.referringObjects.referringObjects003;
+
 
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
 import nsk.share.jdi.HeapwalkingDebuggee;
-
 import java.util.concurrent.atomic.AtomicBoolean;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  *  Test class handle request for start/stop test threads(threads are included in special thread group)

@@ -18,27 +18,41 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.foreign.abi.aarch64.macos;
 
-import jdk.incubator.foreign.Addressable;
-import jdk.incubator.foreign.FunctionDescriptor;
-import jdk.incubator.foreign.MemoryAddress;
-import jdk.incubator.foreign.MemoryLayout;
-import jdk.incubator.foreign.MemorySegment;
-import jdk.incubator.foreign.ResourceScope;
-import jdk.internal.foreign.AbstractCLinker;
-import jdk.internal.foreign.ResourceScopeImpl;
-import jdk.internal.foreign.abi.SharedUtils;
-import jdk.internal.foreign.abi.UpcallStubs;
-import jdk.internal.foreign.abi.aarch64.CallArranger;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.aarch64.macos;
 
+
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.Addressable;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.FunctionDescriptor;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryAddress;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryLayout;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.ResourceScope;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.AbstractCLinker;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.ResourceScopeImpl;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.SharedUtils;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.UpcallStubs;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.aarch64.CallArranger;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.function.Consumer;
+import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.PlatformLayouts.*;.extended
 
-import static jdk.internal.foreign.PlatformLayouts.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ABI implementation for macOS on Apple silicon. Based on AAPCS with

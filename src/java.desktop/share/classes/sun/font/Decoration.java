@@ -19,10 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.share.classes.sun.font;
+
 
 import java.util.Map;
-
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Graphics2D;
@@ -30,17 +30,28 @@ import java.awt.Paint;
 import java.awt.RenderingHints;
 import java.awt.Shape;
 import java.awt.Stroke;
-
 import java.awt.font.TextAttribute;
-
 import java.awt.geom.Area;
 import java.awt.geom.Line2D;
 import java.awt.geom.Rectangle2D;
 import java.awt.geom.GeneralPath;
 import java.text.AttributedCharacterIterator.Attribute;
+import static java.desktop.share.classes.sun.font.AttributeValues.*;.extended
+import static java.desktop.share.classes.sun.font.EAttribute.*;.extended
 
-import static sun.font.AttributeValues.*;
-import static sun.font.EAttribute.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class handles underlining, strikethrough, and foreground and

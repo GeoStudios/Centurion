@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.naming.spi;
 
-import javax.naming.*;
+package java.naming.share.classes.javax.naming.spi;
+
+
+import java.naming.share.classes.javax.naming.*;
 import java.util.Hashtable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This interface represents a factory for obtaining the state of an

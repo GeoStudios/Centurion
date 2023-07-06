@@ -21,9 +21,9 @@
 
 package compiler.profiling.spectrapredefineclass_classloaders;
 
+
 import com.sun.tools.attach.VirtualMachine;
 import jdk.test.lib.Utils;
-
 import java.lang.instrument.ClassFileTransformer;
 import java.lang.instrument.Instrumentation;
 import java.lang.reflect.Method;
@@ -33,6 +33,19 @@ import java.net.URLClassLoader;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.security.ProtectionDomain;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Agent implements ClassFileTransformer {
     public static final String AGENT_JAR = Paths.get(Utils.TEST_CLASSES, "agent.jar").toString();

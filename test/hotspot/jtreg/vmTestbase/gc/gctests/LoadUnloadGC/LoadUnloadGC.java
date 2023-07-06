@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.LoadUnloadGC;
+
+
+import nsk.share.test.*;
+import nsk.share.gc.*;
+import nsk.share.classload.ClassPathNonDelegatingClassLoader;
+import vm.share.monitoring.MemoryPoolFinder;
+import java.io.*;
+import java.util.*;
+import java.lang.management.MemoryPoolMXBean;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress
@@ -43,16 +67,8 @@
  *      gc.gctests.LoadUnloadGC.LoadUnloadGC
  */
 
-package gc.gctests.LoadUnloadGC;
 
-import nsk.share.test.*;
-import nsk.share.gc.*;
-import nsk.share.classload.ClassPathNonDelegatingClassLoader;
-import vm.share.monitoring.MemoryPoolFinder;
 
-import java.io.*;
-import java.util.*;
-import java.lang.management.MemoryPoolMXBean;
 
 /**
  * This test checks that classes are unloaded when loaded multiple times

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.interpreter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6539464
@@ -29,7 +46,6 @@
  *      compiler.interpreter.Test6539464
  */
 
-package compiler.interpreter;
 
 public class Test6539464 {
     static double log_value = 17197;

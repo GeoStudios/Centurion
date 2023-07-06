@@ -18,14 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.dynalink.internal;
 
-import java.util.ArrayList;
+package jdk.dynalink.share.classes.jdk.dynalink.internal;
+
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
-import jdk.dynalink.linker.support.TypeUtilities;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.support.TypeUtilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Various static utility methods for testing type relationships; internal to Dynalink.

@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.org.xml.sax;
+package java.base.share.classes.jdk.internal.org.xml.sax;
+
 
 import java.io.Reader;
 import java.io.InputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A single input source for an XML entity.

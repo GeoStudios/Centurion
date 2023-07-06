@@ -18,13 +18,13 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.javadoc.internal.doclets.toolkit.util;
+
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util;
 
 
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.function.Consumer;
-
 import com.sun.source.doctree.AttributeTree;
 import com.sun.source.doctree.DocCommentTree;
 import com.sun.source.doctree.DocTree;
@@ -35,6 +35,20 @@ import com.sun.source.util.DocTreePathScanner;
 import com.sun.source.util.TreePath;
 import com.sun.tools.javac.util.DefinedBy;
 import com.sun.tools.javac.util.DefinedBy.Api;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A DocTree scanner to detect use of JavaScript in a doc comment tree.

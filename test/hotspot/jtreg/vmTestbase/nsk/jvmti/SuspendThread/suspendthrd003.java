@@ -21,10 +21,23 @@
 
 package nsk.jvmti.SuspendThread;
 
-import java.io.PrintStream;
 
+import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class suspendthrd003 extends DebugeeClass {
     private final static String AGENT_LIB = "suspendthrd003";

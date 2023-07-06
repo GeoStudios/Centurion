@@ -21,6 +21,21 @@
 
 package nsk.share;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This loader's <tt>findClass()</tt> method is dummy.
  */

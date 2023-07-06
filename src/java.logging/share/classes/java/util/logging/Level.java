@@ -19,19 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.logging;
+package java.logging.share.classes.java.util.logging;
 
-import java.io.Serial;
-import java.lang.ref.Reference;
-import java.lang.ref.ReferenceQueue;
-import java.lang.ref.WeakReference;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.*;
-import java.util.function.Function;
+
+import java.logging.share.classes.java.io.Serial;
+import java.logging.share.classes.java.lang.ref.Reference;
+import java.logging.share.classes.java.lang.ref.ReferenceQueue;
+import java.logging.share.classes.java.lang.ref.WeakReference;
+import java.logging.share.classes.java.security.AccessController;
+import java.logging.share.classes.java.security.PrivilegedAction;
+import java.logging.share.classes.java.util.*;
+import java.logging.share.classes.java.util.function.Function;
 import jdk.internal.loader.ClassLoaderValue;
 import jdk.internal.access.JavaUtilResourceBundleAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Level class defines a set of standard logging levels that

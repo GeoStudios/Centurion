@@ -19,18 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.util;
+package java.base.share.classes.sun.security.util;
 
-import sun.nio.cs.UTF_32BE;
-import sun.util.calendar.CalendarDate;
-import sun.util.calendar.CalendarSystem;
 
+import java.base.share.classes.sun.nio.cs.UTF_32BE;
+import java.base.share.classes.sun.util.calendar.CalendarDate;
+import java.base.share.classes.sun.util.calendar.CalendarSystem;
 import java.io.*;
 import java.math.BigInteger;
 import java.nio.charset.Charset;
 import java.util.*;
+import static java.nio.charset.StandardCharsets.*;.extended
 
-import static java.nio.charset.StandardCharsets.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a single DER-encoded value.  DER encoding rules are a subset

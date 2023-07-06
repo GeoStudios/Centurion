@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ec.point;
+package jdk.crypto.ec.share.classes.sun.security.ec.point;
 
-import sun.security.util.math.IntegerFieldModuloP;
+
+import jdk.crypto.ec.share.classes.sun.security.util.math.IntegerFieldModuloP;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A base interface for points on an elliptic curve over a finite field.

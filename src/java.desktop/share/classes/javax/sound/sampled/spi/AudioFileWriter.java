@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.sound.sampled.spi;
+package java.desktop.share.classes.javax.sound.sampled.spi;
+
 
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
+import java.desktop.share.classes.javax.sound.sampled.AudioInputStream;
+import java.desktop.share.classes.javax.sound.sampled.AudioSystem;
+import static java.desktop.share.classes.javax.sound.sampled.AudioFileFormat.Type;.extended
 
-import javax.sound.sampled.AudioInputStream;
-import javax.sound.sampled.AudioSystem;
 
-import static javax.sound.sampled.AudioFileFormat.Type;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provider for audio file writing services. Classes providing concrete

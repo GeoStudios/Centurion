@@ -18,11 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package metaspace.stressHierarchy.common;
+
 
 import metaspace.stressHierarchy.common.classloader.tree.Tree;
 import nsk.share.test.ExecutionController;
 import nsk.share.test.Tests;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * 1. Test case cleans up all levels except bottom, then checks that bottom level is alive (and whole tree).

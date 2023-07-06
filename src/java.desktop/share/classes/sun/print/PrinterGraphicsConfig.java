@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.share.classes.sun.print;
+
 
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsDevice;
@@ -29,6 +30,20 @@ import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
 import java.awt.image.ColorModel;
 import java.awt.image.DirectColorModel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class PrinterGraphicsConfig extends GraphicsConfiguration {
 

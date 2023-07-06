@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt;
+package java.desktop.macosx.classes.sun.lwawt;
+
 
 import java.awt.AlphaComposite;
 import java.awt.Color;
@@ -53,28 +54,40 @@ import java.awt.peer.DialogPeer;
 import java.awt.peer.FramePeer;
 import java.awt.peer.KeyboardFocusManagerPeer;
 import java.awt.peer.WindowPeer;
-import java.util.List;
-
+import java.util.java.util.java.util.java.util.List;
 import javax.swing.JComponent;
+import java.desktop.macosx.classes.sun.awt.AWTAccessor;
+import java.desktop.macosx.classes.sun.awt.AWTAccessor.ComponentAccessor;
+import java.desktop.macosx.classes.sun.awt.AppContext;
+import java.desktop.macosx.classes.sun.awt.CGraphicsDevice;
+import java.desktop.macosx.classes.sun.awt.DisplayChangedjava.util.Listener;
+import java.desktop.macosx.classes.sun.awt.ExtendedKeyCodes;
+import java.desktop.macosx.classes.sun.awt.FullScreenCapable;
+import java.desktop.macosx.classes.sun.awt.SunToolkit;
+import java.desktop.macosx.classes.sun.awt.TimedWindowEvent;
+import java.desktop.macosx.classes.sun.awt.UngrabEvent;
+import java.desktop.macosx.classes.sun.java2d.NullSurfaceData;
+import java.desktop.macosx.classes.sun.java2d.SunGraphics2D;
+import java.desktop.macosx.classes.sun.java2d.SunGraphicsEnvironment;
+import java.desktop.macosx.classes.sun.java2d.SurfaceData;
+import java.desktop.macosx.classes.sun.java2d.loops.Blit;
+import java.desktop.macosx.classes.sun.java2d.loops.CompositeType;
+import java.desktop.macosx.classes.sun.java2d.pipe.Region;
+import java.desktop.macosx.classes.sun.util.logging.PlatformLogger;
 
-import sun.awt.AWTAccessor;
-import sun.awt.AWTAccessor.ComponentAccessor;
-import sun.awt.AppContext;
-import sun.awt.CGraphicsDevice;
-import sun.awt.DisplayChangedListener;
-import sun.awt.ExtendedKeyCodes;
-import sun.awt.FullScreenCapable;
-import sun.awt.SunToolkit;
-import sun.awt.TimedWindowEvent;
-import sun.awt.UngrabEvent;
-import sun.java2d.NullSurfaceData;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.SunGraphicsEnvironment;
-import sun.java2d.SurfaceData;
-import sun.java2d.loops.Blit;
-import sun.java2d.loops.CompositeType;
-import sun.java2d.pipe.Region;
-import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class LWWindowPeer
     extends LWContainerPeer<Window, JComponent>
@@ -212,8 +225,7 @@ public class LWWindowPeer
         super.initializeImpl();
 
 
-        if (getTarget() instanceof Frame) {
-            Frame frame = (Frame) getTarget();
+        if (getTarget() instanceof Frame frame) {
             setTitle(frame.getTitle());
             setState(frame.getExtendedState());
             setMaximizedBounds(frame.getMaximizedBounds());

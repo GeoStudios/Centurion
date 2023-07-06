@@ -19,27 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.event.FocusEvent;
-import java.awt.event.KeyEvent;
-import java.awt.event.WindowEvent;
-import java.awt.peer.ComponentPeer;
-import java.awt.peer.LightweightPeer;
-import java.io.Serial;
-import java.lang.ref.WeakReference;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.ListIterator;
-import java.util.Set;
 
+import java.desktop.share.classes.java.awt.event.FocusEvent;
+import java.desktop.share.classes.java.awt.event.KeyEvent;
+import java.desktop.share.classes.java.awt.event.WindowEvent;
+import java.desktop.share.classes.java.awt.peer.ComponentPeer;
+import java.desktop.share.classes.java.awt.peer.LightweightPeer;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.lang.ref.WeakReference;
+import java.desktop.share.classes.java.security.AccessController;
+import java.desktop.share.classes.java.security.PrivilegedAction;
+import java.desktop.share.classes.java.util.Iterator;
+import java.desktop.share.classes.java.util.Linkedjava.util.java.util.java.util.List;
+import java.desktop.share.classes.java.util.java.util.ListIterator;
+import java.desktop.share.classes.java.util.Set;
 import sun.awt.AWTAccessor;
 import sun.awt.AppContext;
 import sun.awt.SunToolkit;
 import sun.awt.TimedWindowEvent;
 import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The default KeyboardFocusManager for AWT applications. Focus traversal is

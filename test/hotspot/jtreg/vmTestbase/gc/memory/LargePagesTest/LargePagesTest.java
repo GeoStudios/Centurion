@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.memory.LargePagesTest;
+
+
+import java.io.PrintStream;
+import nsk.share.test.LocalRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -31,10 +50,7 @@
  * @run main/othervm gc.memory.LargePagesTest.LargePagesTest noThreads=5 duration=60
  */
 
-package gc.memory.LargePagesTest;
 
-import java.io.PrintStream;
-import nsk.share.test.LocalRandom;
 
 /*
  * Allocators purpose is to create pressure on the garbage collector

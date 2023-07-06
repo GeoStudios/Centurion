@@ -19,31 +19,45 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.consumer;
+package jdk.jfr.share.classes.jdk.jfr.consumer;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Path;
 import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.function.Consumer;
+import jdk.jfr.share.classes.jdk.jfr.Configuration;
+import jdk.jfr.share.classes.jdk.jfr.Event;
+import jdk.jfr.share.classes.jdk.jfr.EventSettings;
+import jdk.jfr.share.classes.jdk.jfr.EventType;
+import jdk.jfr.share.classes.jdk.jfr.Recording;
+import jdk.jfr.share.classes.jdk.jfr.RecordingState;
+import jdk.jfr.share.classes.jdk.jfr.internal.PlatformRecording;
+import jdk.jfr.share.classes.jdk.jfr.internal.PrivateAccess;
+import jdk.jfr.share.classes.jdk.jfr.internal.SecuritySupport;
+import jdk.jfr.share.classes.jdk.jfr.internal.Utils;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.EventDirectoryStream;
 
-import jdk.jfr.Configuration;
-import jdk.jfr.Event;
-import jdk.jfr.EventSettings;
-import jdk.jfr.EventType;
-import jdk.jfr.Recording;
-import jdk.jfr.RecordingState;
-import jdk.jfr.internal.PlatformRecording;
-import jdk.jfr.internal.PrivateAccess;
-import jdk.jfr.internal.SecuritySupport;
-import jdk.jfr.internal.Utils;
-import jdk.jfr.internal.consumer.EventDirectoryStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A recording stream produces events from the current JVM (Java Virtual

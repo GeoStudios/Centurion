@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.hotspot.tools.compiler;
+package utils.LogCompilation.src.main.java.com.sun.hotspot.tools.compiler;
 
-import java.util.Arrays;
 
-import static com.sun.hotspot.tools.compiler.Constants.*;
+import utils.LogCompilation.src.main.java.util.java.util.java.util.java.util.Arrays;
+import static com.sun.hotspot.tools.compiler.Constants.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Representation of a Java method in a compilation log.

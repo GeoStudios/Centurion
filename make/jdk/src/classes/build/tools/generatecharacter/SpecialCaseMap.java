@@ -21,9 +21,55 @@
 
 package build.tools.generatecharacter;
 
-import java.io.*;
-import java.util.*;
-import java.lang.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * SpecialCaseMap has the responsibility of storing the

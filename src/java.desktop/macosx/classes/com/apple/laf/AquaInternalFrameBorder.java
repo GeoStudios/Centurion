@@ -19,24 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.*;
 import java.beans.PropertyVetoException;
-
 import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.plaf.UIResource;
-
 import sun.swing.SwingUtilities2;
-
-import apple.laf.*;
-import apple.laf.JRSUIConstants.*;
-import apple.laf.JRSUIState.TitleBarHeightState;
-
-import com.apple.laf.AquaUtils.RecyclableSingleton;
-import com.apple.laf.AquaInternalFrameBorderMetrics;
+import java.desktop.macosx.classes.com.apple.laf.*;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.*;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIState.TitleBarHeightState;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
+import java.desktop.macosx.classes.com.apple.laf.AquaInternalFrameBorderMetrics;
 import java.awt.geom.AffineTransform;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaInternalFrameBorder implements Border, UIResource {
     private static final int kCloseButton = 0;

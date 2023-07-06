@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.internal.spec;
+package java.base.share.classes.sun.security.internal.spec;
+
 
 import java.security.spec.AlgorithmParameterSpec;
+import java.base.share.classes.javax.crypto.SecretKey;
 
-import javax.crypto.SecretKey;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Parameters for SSL/TLS key material generation.

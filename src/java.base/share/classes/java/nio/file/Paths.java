@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.nio.file;
+package java.base.share.classes.java.nio.file;
 
-import java.nio.file.spi.FileSystemProvider;
-import java.net.URI;
+
+import java.base.share.classes.java.nio.file.spi.FileSystemProvider;
+import java.base.share.classes.java.net.URI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class consists exclusively of static methods that return a {@link Path}

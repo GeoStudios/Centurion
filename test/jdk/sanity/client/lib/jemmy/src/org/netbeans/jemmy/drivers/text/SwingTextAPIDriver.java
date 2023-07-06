@@ -18,10 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.drivers.text;
+
 
 import org.netbeans.jemmy.operators.ComponentOperator;
 import org.netbeans.jemmy.operators.JTextComponentOperator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * TextDriver for swing component types. Uses API calls.

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package Casting3;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 5040403
@@ -28,7 +45,6 @@
  * @compile  Casting3.java
  */
 
-package Casting3;
 
 class A<T extends A<T>> {
     <U extends A<U>> void f() {

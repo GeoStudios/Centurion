@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.httpserver;
+package jdk.httpserver.share.classes.sun.net.httpserver;
+
 
 import java.net.*;
 import java.io.*;
 import com.sun.net.httpserver.*;
 import com.sun.net.httpserver.spi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class DefaultHttpServerProvider extends HttpServerProvider {
     public HttpServer createHttpServer (InetSocketAddress addr, int backlog) throws IOException {

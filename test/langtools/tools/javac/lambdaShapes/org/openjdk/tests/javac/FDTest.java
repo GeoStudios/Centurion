@@ -21,30 +21,40 @@
 
 package org.openjdk.tests.javac;
 
-import org.openjdk.tests.shapegen.*;
 
+import org.openjdk.tests.shapegen.*;
 import com.sun.source.util.JavacTask;
 import com.sun.tools.javac.util.Pair;
-
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.URI;
-import java.util.Arrays;
-import java.util.ArrayList;
+import java.base.share.classes.java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
-import java.util.List;
-
+import java.util.java.util.java.util.java.util.List;
 import javax.tools.Diagnostic;
 import javax.tools.JavaCompiler;
 import javax.tools.JavaFileObject;
 import javax.tools.SimpleJavaFileObject;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.ToolProvider;
-
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
-import static org.testng.Assert.*;
+import static org.testng.Assert.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class FDTest {
 

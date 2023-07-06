@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.test.lib.hprof.model;
+
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
+import java.io.BufferedReader;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Hashtable;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * The Original Code is HAT. The Initial Developer of the
@@ -26,16 +49,8 @@
  * at JavaSoft/Sun.
  */
 
-package jdk.test.lib.hprof.model;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.InputStreamReader;
-import java.io.Reader;
-import java.io.BufferedReader;
-import java.io.IOException;
 
-import java.util.Hashtable;
 
 /**
  * This represents a set of data members that should be excluded from the

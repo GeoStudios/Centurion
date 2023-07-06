@@ -19,24 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jpackage.internal;
+package jdk.jpackage.macosx.classes.jdk.jpackage.internal;
+
 
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.text.MessageFormat;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import static jdk.jpackage.internal.StandardBundlerParam.APP_NAME;
-import static jdk.jpackage.internal.StandardBundlerParam.INSTALLER_NAME;
-import static jdk.jpackage.internal.StandardBundlerParam.INSTALL_DIR;
-import static jdk.jpackage.internal.StandardBundlerParam.PREDEFINED_APP_IMAGE;
-import static jdk.jpackage.internal.StandardBundlerParam.VERSION;
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.APP_NAME;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.INSTALLER_NAME;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.INSTALL_DIR;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.PREDEFINED_APP_IMAGE;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.VERSION;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class MacBaseInstallerBundler extends AbstractBundler {
 

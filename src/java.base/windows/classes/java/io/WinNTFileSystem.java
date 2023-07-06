@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.io;
+package java.base.windows.classes.java.io;
 
-import java.io.File;
-import java.nio.file.Path;
-import java.util.BitSet;
-import java.util.Locale;
-import java.util.Properties;
+
+import java.base.windows.classes.java.io.File;
+import java.base.windows.classes.java.nio.file.Path;
+import java.base.windows.classes.java.util.BitSet;
+import java.base.windows.classes.java.util.Locale;
+import java.base.windows.classes.java.util.Properties;
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Unicode-aware FileSystem for Windows NT/2000.

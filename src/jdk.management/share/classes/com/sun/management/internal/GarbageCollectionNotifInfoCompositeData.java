@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.management.internal;
+package jdk.management.share.classes.com.sun.management.internal;
 
-import com.sun.management.GarbageCollectionNotificationInfo;
-import com.sun.management.GcInfo;
+
+import jdk.management.share.classes.com.sun.management.GarbageCollectionNotificationInfo;
+import jdk.management.share.classes.com.sun.management.GcInfo;
 import javax.management.openmbean.CompositeData;
 import javax.management.openmbean.CompositeType;
 import javax.management.openmbean.CompositeDataSupport;
@@ -33,9 +34,23 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.lang.reflect.Field;
 import java.util.HashMap;
-import sun.management.LazyCompositeData;
-import static sun.management.LazyCompositeData.getString;
-import sun.management.Util;
+import jdk.management.share.classes.com.sun.management.LazyCompositeData;
+import static jdk.management.share.classes.com.sun.management.LazyCompositeData.getString;.extended
+import jdk.management.share.classes.com.sun.management.Util;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A CompositeData for GarbageCollectionNotificationInfo for the local management support.

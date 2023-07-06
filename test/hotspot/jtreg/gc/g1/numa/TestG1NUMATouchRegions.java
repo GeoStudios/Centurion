@@ -21,6 +21,25 @@
 
 package gc.g1;
 
+
+import java.util.Linkedjava.util.java.util.java.util.List;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestG1NUMATouchRegions
  * @summary Ensure the bottom of the given heap regions are properly touched with requested NUMA id.
@@ -34,10 +53,6 @@ package gc.g1;
  * @run main/othervm -XX:+UseG1GC -Xbootclasspath/a:. -XX:+UseNUMA -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI gc.g1.TestG1NUMATouchRegions
  */
 
-import java.util.LinkedList;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import sun.hotspot.WhiteBox;
 
 public class TestG1NUMATouchRegions {
     enum NUMASupportStatus {

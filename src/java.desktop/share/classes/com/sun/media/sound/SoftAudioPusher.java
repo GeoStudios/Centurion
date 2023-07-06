@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.media.sound;
+package java.desktop.share.classes.com.sun.media.sound;
 
-import java.io.IOException;
 
+import java.io.java.io.java.io.java.io.IOException;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.SourceDataLine;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is a processor object that writes into SourceDataLine

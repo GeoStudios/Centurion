@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.vm.ci.runtime.test;
+
+
+import jdk.vm.ci.meta.JavaConstant;
+import org.junit.Assert;
+import org.junit.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @requires vm.jvmci
@@ -28,11 +48,7 @@
  *          java.base/jdk.internal.misc
  * @run junit/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler jdk.vm.ci.runtime.test.ConstantTest
  */
-package jdk.vm.ci.runtime.test;
 
-import jdk.vm.ci.meta.JavaConstant;
-import org.junit.Assert;
-import org.junit.Test;
 
 public class ConstantTest extends FieldUniverse {
 

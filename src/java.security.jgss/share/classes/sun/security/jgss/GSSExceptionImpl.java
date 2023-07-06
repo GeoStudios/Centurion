@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jgss;
+package java.security.jgss.share.classes.sun.security.jgss;
+
 
 import org.ietf.jgss.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class helps overcome a limitation of the org.ietf.jgss.GSSException

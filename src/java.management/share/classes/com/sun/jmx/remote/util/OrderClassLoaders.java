@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.remote.util;
+package java.management.share.classes.com.sun.jmx.remote.util;
 
-import sun.reflect.misc.ReflectUtil;
+
+import java.management.share.classes.com.sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class OrderClassLoaders extends ClassLoader {
     public OrderClassLoaders(ClassLoader cl1, ClassLoader cl2) {

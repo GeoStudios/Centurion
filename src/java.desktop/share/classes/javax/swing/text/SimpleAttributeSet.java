@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.text;
+package java.desktop.share.classes.javax.swing.text;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.Serial;
 import java.io.Serializable;
 import java.util.Collections;
 import java.util.Enumeration;
 import java.util.LinkedHashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A straightforward implementation of MutableAttributeSet using a

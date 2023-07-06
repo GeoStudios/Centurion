@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs;
+package java.base.share.classes.sun.security.pkcs;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.security.cert.CertificateException;
 import java.util.Date;
-import sun.security.x509.CertificateExtensions;
-import sun.security.util.*;
+import java.base.share.classes.sun.security.x509.CertificateExtensions;
+import java.base.share.classes.sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class supporting any PKCS9 attributes.

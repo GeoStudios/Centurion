@@ -21,11 +21,11 @@
 
 package jdk.jfr.api.metadata.eventtype;
 
+
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Path;
-
 import jdk.jfr.Event;
 import jdk.jfr.EventType;
 import jdk.jfr.FlightRecorder;
@@ -33,6 +33,19 @@ import jdk.jfr.Recording;
 import jdk.jfr.consumer.RecordingFile;
 import jdk.jfr.internal.JVM;
 import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

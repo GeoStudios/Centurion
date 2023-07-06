@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.smartcardio;
+package java.smartcardio.share.classes.sun.security.smartcardio;
+
 
 import java.security.AccessController;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Access to native PC/SC functions and definition of PC/SC constants.

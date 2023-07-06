@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package apple.laf;
+package java.desktop.macosx.classes.apple.laf;
+
 
 import java.security.AccessController;
-
-import apple.laf.JRSUIConstants.Hit;
-import apple.laf.JRSUIConstants.ScrollBarPart;
+import java.desktop.macosx.classes.apple.laf.JRSUIConstants.Hit;
+import java.desktop.macosx.classes.apple.laf.JRSUIConstants.ScrollBarPart;
 import com.apple.laf.AquaImageFactory.NineSliceMetrics;
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class JRSUIUtils {
 

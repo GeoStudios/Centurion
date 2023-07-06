@@ -19,15 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.share.classes.java.awt;
 
 
-package java.awt;
-
-import java.awt.image.ColorModel;
-import java.awt.image.Raster;
-import java.awt.image.WritableRaster;
+import java.desktop.share.classes.java.awt.image.ColorModel;
+import java.desktop.share.classes.java.awt.image.Raster;
+import java.desktop.share.classes.java.awt.image.WritableRaster;
 import sun.awt.image.IntegerComponentRaster;
-import java.util.Arrays;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class ColorPaintContext implements PaintContext {
     int color;

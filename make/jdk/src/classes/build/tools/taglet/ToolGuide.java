@@ -21,21 +21,55 @@
 
 package build.tools.taglet;
 
-import java.util.EnumSet;
-import java.util.List;
-import java.util.Set;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-import javax.lang.model.element.Element;
-import javax.lang.model.element.ModuleElement;
-import javax.lang.model.element.PackageElement;
 
-import com.sun.source.doctree.DocTree;
-import com.sun.source.doctree.UnknownBlockTagTree;
-import jdk.javadoc.doclet.Taglet;
 
-import static com.sun.source.doctree.DocTree.Kind.*;
-import static jdk.javadoc.doclet.Taglet.Location.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A block tag to insert a link to tool guide in a nearby directory.

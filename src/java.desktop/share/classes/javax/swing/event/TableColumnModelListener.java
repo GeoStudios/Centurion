@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.event;
+package java.desktop.share.classes.javax.swing.event;
 
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ChangeEvent;
-import java.util.EventListener;
+
+import java.desktop.share.classes.javax.swing.event.java.util.ListSelectionEvent;
+import java.desktop.share.classes.javax.swing.event.ChangeEvent;
+import java.util.Eventjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * TableColumnModelListener defines the interface for an object that listens

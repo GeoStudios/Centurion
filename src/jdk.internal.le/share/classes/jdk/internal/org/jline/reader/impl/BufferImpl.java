@@ -18,11 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.reader.impl;
 
-import java.util.Objects;
+package jdk.internal.le.share.classes.jdk.internal.org.jline.reader.impl;
 
-import jdk.internal.org.jline.reader.Buffer;
+
+import java.base.share.classes.java.util.Objects;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.Buffer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A holder for a {@link StringBuilder} that also contains the current cursor position.

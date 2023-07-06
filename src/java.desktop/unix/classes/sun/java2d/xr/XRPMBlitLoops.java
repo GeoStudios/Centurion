@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.xr;
+package java.desktop.unix.classes.sun.java2d.xr;
 
-import sun.awt.SunToolkit;
-import sun.awt.image.*;
-import sun.java2d.loops.*;
-import sun.java2d.pipe.*;
-import sun.java2d.*;
+
+import java.desktop.unix.classes.sun.awt.SunToolkit;
+import java.desktop.unix.classes.sun.awt.image.*;
+import java.desktop.unix.classes.sun.java2d.loops.*;
+import java.desktop.unix.classes.sun.java2d.pipe.*;
+import java.desktop.unix.classes.sun.java2d.*;
 import java.awt.*;
 import java.awt.geom.*;
 import java.lang.ref.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class XRPMBlitLoops {
 
@@ -212,7 +227,7 @@ class XRPMScaledBlit extends ScaledBlit {
             AffineTransform xForm = AffineTransform.getScaleInstance(1 / xScale, 1 / yScale);
 
             x11sdSrc.validateAsSource(xForm, XRUtils.RepeatNone, XRUtils.FAST);
-            x11sdDst.maskBuffer.compositeBlit(x11sdSrc, x11sdDst, (int) sx1, (int) sy1, (int) dx1, (int) dy1, (int) (dx2 - dx1), (int) (dy2 - dy1));
+            x11sdDst.maskBuffer.compositeBlit(x11sdSrc, x11sdDst, sx1, sy1, (int) dx1, (int) dy1, (int) (dx2 - dx1), (int) (dy2 - dy1));
         } finally {
             SunToolkit.awtUnlock();
         }

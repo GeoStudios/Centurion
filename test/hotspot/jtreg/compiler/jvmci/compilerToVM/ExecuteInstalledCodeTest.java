@@ -19,6 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci.compilerToVM;
+
+
+import jdk.test.lib.Asserts;
+import jdk.test.lib.util.Pair;
+import jdk.test.lib.Utils;
+import jdk.vm.ci.code.InstalledCode;
+import jdk.vm.ci.code.InvalidInstalledCodeException;
+import jdk.vm.ci.hotspot.CompilerToVMHelper;
+import sun.hotspot.code.NMethod;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Modifier;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8136421
@@ -40,20 +68,8 @@
  *                   compiler.jvmci.compilerToVM.ExecuteInstalledCodeTest
  */
 
-package compiler.jvmci.compilerToVM;
 
-import jdk.test.lib.Asserts;
-import jdk.test.lib.util.Pair;
-import jdk.test.lib.Utils;
-import jdk.vm.ci.code.InstalledCode;
-import jdk.vm.ci.code.InvalidInstalledCodeException;
-import jdk.vm.ci.hotspot.CompilerToVMHelper;
-import sun.hotspot.code.NMethod;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Modifier;
-import java.util.ArrayList;
-import java.util.List;
 
 public class ExecuteInstalledCodeTest {
 

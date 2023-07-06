@@ -19,22 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
 
-import java.io.IOException;
-import java.io.InvalidObjectException;
-import java.io.ObjectInputStream;
-import java.math.BigDecimal;
-import java.math.BigInteger;
-import java.math.RoundingMode;
-import java.text.spi.NumberFormatProvider;
-import java.util.ArrayList;
-import java.util.Currency;
-import java.util.Locale;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.atomic.AtomicLong;
+
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.InvalidObjectException;
+import java.base.share.classes.java.io.ObjectInputStream;
+import java.base.share.classes.java.math.BigDecimal;
+import java.base.share.classes.java.math.BigInteger;
+import java.base.share.classes.java.math.RoundingMode;
+import java.base.share.classes.java.text.spi.NumberFormatProvider;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Currency;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.concurrent.atomic.AtomicInteger;
+import java.base.share.classes.java.util.concurrent.atomic.AtomicLong;
 import sun.util.locale.provider.LocaleProviderAdapter;
 import sun.util.locale.provider.ResourceBundleBasedAdapter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code DecimalFormat} is a concrete subclass of

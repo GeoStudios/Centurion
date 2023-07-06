@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger;
+
 
 import java.io.*;
 import java.nio.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Implementation of DataSource using MappedByteBuffer. This works
     around a performance problem in JDK 1.4 where ByteBuffer's

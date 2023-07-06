@@ -19,22 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jshell;
+package jdk.jshell.share.classes.jdk.jshell;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.stream.Collectors;
-import jdk.jshell.Wrap.CompoundWrap;
-import static jdk.jshell.Util.PREFIX_PATTERN;
-import static jdk.jshell.Util.REPL_CLASS_PREFIX;
-import static jdk.jshell.Util.REPL_DOESNOTMATTER_CLASS_NAME;
-import static jdk.jshell.Util.asLetters;
+import jdk.jshell.share.classes.jdk.jshell.Wrap.CompoundWrap;
+import static jdk.jshell.share.classes.jdk.jshell.Util.PREFIX_PATTERN;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Util.REPL_CLASS_PREFIX;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Util.REPL_DOESNOTMATTER_CLASS_NAME;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Util.asLetters;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

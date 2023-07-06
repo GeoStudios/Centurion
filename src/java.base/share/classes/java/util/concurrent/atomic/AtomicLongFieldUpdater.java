@@ -19,6 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.java.util.concurrent.atomic;
+
+
+import java.base.share.classes.java.lang.reflect.Field;
+import java.base.share.classes.java.lang.reflect.Modifier;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.PrivilegedActionException;
+import java.base.share.classes.java.security.PrivilegedExceptionAction;
+import java.base.share.classes.java.util.function.LongBinaryOperator;
+import java.base.share.classes.java.util.function.LongUnaryOperator;
+import jdk.internal.misc.Unsafe;
+import jdk.internal.reflect.CallerSensitive;
+import jdk.internal.reflect.Reflection;
+import java.base.share.classes.java.lang.invoke.VarHandle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -30,19 +59,8 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent.atomic;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.Modifier;
-import java.security.AccessController;
-import java.security.PrivilegedActionException;
-import java.security.PrivilegedExceptionAction;
-import java.util.function.LongBinaryOperator;
-import java.util.function.LongUnaryOperator;
-import jdk.internal.misc.Unsafe;
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.Reflection;
-import java.lang.invoke.VarHandle;
+
 
 /**
  * A reflection-based utility that enables atomic updates to

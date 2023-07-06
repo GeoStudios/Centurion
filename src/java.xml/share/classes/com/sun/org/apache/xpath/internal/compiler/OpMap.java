@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xpath.internal.compiler;
+package java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler;
 
-import com.sun.org.apache.xalan.internal.res.XSLMessages;
-import com.sun.org.apache.xml.internal.utils.ObjectVector;
-import com.sun.org.apache.xpath.internal.patterns.NodeTest;
-import com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
+
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.ObjectVector;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns.NodeTest;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents the data structure basics of the XPath

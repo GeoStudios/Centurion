@@ -18,14 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.security.sasl;
+
+package java.security.sasl.share.classes.com.sun.security.sasl;
+
 
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.InvalidParameterException;
-import java.security.ProviderException;
-import static sun.security.util.SecurityConstants.PROVIDER_VER;
+import java.base.share.classes.java.security.ProviderException;
+import static java.security.sasl.share.classes.com.sun.security.util.SecurityConstants.PROVIDER_VER;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The SASL provider.

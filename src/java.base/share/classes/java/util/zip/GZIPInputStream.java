@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.zip;
+package java.base.share.classes.java.util.zip;
 
-import java.io.SequenceInputStream;
-import java.io.ByteArrayInputStream;
-import java.io.FilterInputStream;
-import java.io.InputStream;
-import java.io.IOException;
-import java.io.EOFException;
+
+import java.base.share.classes.java.io.SequenceInputStream;
+import java.base.share.classes.java.io.ByteArrayInputStream;
+import java.base.share.classes.java.io.FilterInputStream;
+import java.base.share.classes.java.io.InputStream;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.EOFException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements a stream filter for reading compressed data in

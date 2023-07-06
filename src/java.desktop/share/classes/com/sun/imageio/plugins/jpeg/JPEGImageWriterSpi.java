@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.jpeg;
+package java.desktop.share.classes.com.sun.imageio.plugins.jpeg;
+
 
 import javax.imageio.spi.ImageWriterSpi;
 import javax.imageio.spi.ServiceRegistry;
@@ -27,12 +28,25 @@ import javax.imageio.spi.IIORegistry;
 import javax.imageio.stream.ImageOutputStream;
 import javax.imageio.ImageWriter;
 import javax.imageio.ImageTypeSpecifier;
-import javax.imageio.IIOException;
-
+import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import java.awt.image.ColorModel;
 import java.awt.image.IndexColorModel;
 import java.awt.image.SampleModel;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JPEGImageWriterSpi extends ImageWriterSpi {
 

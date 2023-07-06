@@ -18,13 +18,14 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d;
+
+package demo.share.jfc.J2Ddemo.java2d;
 
 
-import static java.awt.Color.GRAY;
-import static java.awt.Color.GREEN;
-import static java.awt.Color.LIGHT_GRAY;
-import static java.awt.Color.WHITE;
+import static java.awt.Color.GRAY;.extended
+import static java.awt.Color.GREEN;.extended
+import static java.awt.Color.LIGHT_GRAY;.extended
+import static java.awt.Color.WHITE;.extended
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Component;
@@ -49,6 +50,19 @@ import java.awt.image.BufferedImage;
 import javax.swing.JPanel;
 import javax.swing.border.EtchedBorder;
 import javax.swing.border.TitledBorder;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

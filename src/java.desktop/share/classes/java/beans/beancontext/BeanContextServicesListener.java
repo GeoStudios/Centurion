@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.beans.beancontext;
+package java.desktop.share.classes.java.beans.beancontext;
 
-import java.beans.beancontext.BeanContextServiceAvailableEvent;
-import java.beans.beancontext.BeanContextServiceRevokedEvent;
-import java.beans.beancontext.BeanContextServiceRevokedListener;
+
+import java.desktop.share.classes.java.beans.beancontext.BeanContextServiceAvailableEvent;
+import java.desktop.share.classes.java.beans.beancontext.BeanContextServiceRevokedEvent;
+import java.desktop.share.classes.java.beans.beancontext.BeanContextServiceRevokedjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The listener interface for receiving

@@ -18,12 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.jvmti.ForceEarlyReturn;
+
 
 import nsk.share.Wicket;
 import java.io.PrintStream;
 import nsk.share.Consts;
 import java.util.concurrent.locks.ReentrantLock;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 enum MethodType { Object, Int, Long, Float, Double, Void };

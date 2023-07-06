@@ -21,8 +21,22 @@
 
 package com.foo;
 
+
 import java.util.ResourceBundle;
 import java.util.spi.ResourceBundleControlProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class UserControlProvider implements ResourceBundleControlProvider {
     static final ResourceBundle.Control XMLCONTROL = new UserXMLControl();

@@ -19,40 +19,53 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.api;
+package jdk.compiler.share.classes.com.sun.tools.javac.api;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.CharBuffer;
 import java.util.*;
 import java.util.concurrent.Callable;
 import java.util.concurrent.atomic.AtomicBoolean;
-
 import javax.annotation.processing.Processor;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.TypeElement;
 import javax.tools.*;
+import jdk.compiler.share.classes.com.sun.source.tree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.DeferredCompletionFailureHandler.Handler;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ClassSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.file.BaseFileManager;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.JavaCompiler;
+import jdk.compiler.share.classes.com.sun.tools.javac.parser.Parser;
+import jdk.compiler.share.classes.com.sun.tools.javac.parser.ParserFactory;
+import jdk.compiler.share.classes.com.sun.tools.javac.processing.AnnotationProcessingError;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCClassDecl;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCCompilationUnit;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCModuleDecl;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log.PrefixKind;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log.WriterKind;
 
-import com.sun.source.tree.*;
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.DeferredCompletionFailureHandler.Handler;
-import com.sun.tools.javac.code.Symbol.ClassSymbol;
-import com.sun.tools.javac.comp.*;
-import com.sun.tools.javac.file.BaseFileManager;
-import com.sun.tools.javac.main.*;
-import com.sun.tools.javac.main.JavaCompiler;
-import com.sun.tools.javac.parser.Parser;
-import com.sun.tools.javac.parser.ParserFactory;
-import com.sun.tools.javac.processing.AnnotationProcessingError;
-import com.sun.tools.javac.tree.*;
-import com.sun.tools.javac.tree.JCTree.JCClassDecl;
-import com.sun.tools.javac.tree.JCTree.JCCompilationUnit;
-import com.sun.tools.javac.tree.JCTree.JCModuleDecl;
-import com.sun.tools.javac.tree.JCTree.Tag;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.Log.PrefixKind;
-import com.sun.tools.javac.util.Log.WriterKind;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides access to functionality specific to the JDK Java Compiler, javac.

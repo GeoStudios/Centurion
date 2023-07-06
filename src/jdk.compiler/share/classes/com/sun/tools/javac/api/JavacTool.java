@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.api;
+package jdk.compiler.share.classes.com.sun.tools.javac.api;
+
 
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -29,27 +30,39 @@ import java.io.Writer;
 import java.nio.charset.Charset;
 import java.util.Collections;
 import java.util.EnumSet;
-import java.util.Locale;
-import java.util.Objects;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
-
 import javax.lang.model.SourceVersion;
 import javax.tools.*;
+import jdk.compiler.share.classes.com.sun.source.util.JavacTask;
+import jdk.compiler.share.classes.com.sun.tools.javac.file.JavacFileManager;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Arguments;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Option;
+import jdk.compiler.share.classes.com.sun.tools.javac.file.BaseFileManager;
+import jdk.compiler.share.classes.com.sun.tools.javac.file.CacheFSInfo;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.Target;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.ClientCodeException;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.PropagatedException;
 
-import com.sun.source.util.JavacTask;
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.main.Arguments;
-import com.sun.tools.javac.main.Option;
-import com.sun.tools.javac.file.BaseFileManager;
-import com.sun.tools.javac.file.CacheFSInfo;
-import com.sun.tools.javac.jvm.Target;
-import com.sun.tools.javac.util.ClientCodeException;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.DefinedBy;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.Log;
-import com.sun.tools.javac.util.PropagatedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * TODO: describe com.sun.tools.javac.api.Tool

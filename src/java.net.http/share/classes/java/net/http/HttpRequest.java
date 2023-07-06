@@ -19,29 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.net.http;
+package java.net.http.share.classes.java.net.http;
 
-import java.io.FileNotFoundException;
-import java.io.InputStream;
-import java.net.URI;
-import java.nio.ByteBuffer;
-import java.nio.charset.Charset;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.OpenOption;
-import java.nio.file.Path;
-import java.time.Duration;
-import java.util.Iterator;
-import java.util.Objects;
-import java.util.Optional;
-import java.util.concurrent.Flow;
-import java.util.function.BiPredicate;
-import java.util.function.Supplier;
 
+import java.net.http.share.classes.java.io.FileNotFoundException;
+import java.net.http.share.classes.java.io.InputStream;
+import java.net.http.share.classes.java.net.URI;
+import java.net.http.share.classes.java.nio.ByteBuffer;
+import java.net.http.share.classes.java.nio.charset.Charset;
+import java.net.http.share.classes.java.nio.charset.StandardCharsets;
+import java.net.http.share.classes.java.nio.file.Files;
+import java.net.http.share.classes.java.nio.file.OpenOption;
+import java.net.http.share.classes.java.nio.file.Path;
+import java.net.http.share.classes.java.time.Duration;
+import java.net.http.share.classes.java.util.Iterator;
+import java.net.http.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.net.http.share.classes.java.util.Optional;
+import java.net.http.share.classes.java.util.concurrent.Flow;
+import java.net.http.share.classes.java.util.function.BiPredicate;
+import java.net.http.share.classes.java.util.function.Supplier;
 import jdk.internal.net.http.HttpRequestBuilderImpl;
 import jdk.internal.net.http.RequestPublishers;
+import static java.net.http.share.classes.java.nio.charset.StandardCharsets.UTF_8;.extended
 
-import static java.nio.charset.StandardCharsets.UTF_8;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An HTTP request.

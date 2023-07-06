@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.jfc.CodePointIM.com.sun.inputmethods.internal.codepointim;
+
+
+import java.awt.Image;
+import java.awt.im.spi.InputMethodDescriptor;
+import java.awt.im.spi.InputMethod;
+import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -27,13 +49,9 @@
  * this sample code.
  */
 
-package com.sun.inputmethods.internal.codepointim;
 
 
-import java.awt.Image;
-import java.awt.im.spi.InputMethodDescriptor;
-import java.awt.im.spi.InputMethod;
-import java.util.Locale;
+
 
 
 /**

@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.events;
+package jdk.jfr.share.classes.jdk.jfr.events;
 
-import jdk.jfr.Label;
-import jdk.jfr.Relational;
 
+import jdk.jfr.share.classes.jdk.jfr.Label;
+import jdk.jfr.share.classes.jdk.jfr.Relational;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @Label("X509 Certificate Id")
 @Relational

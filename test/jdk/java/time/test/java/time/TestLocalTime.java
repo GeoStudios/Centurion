@@ -21,14 +21,26 @@
 
 package test.java.time;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertSame;
-import static org.testng.Assert.assertTrue;
 
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertSame;.extended
+import static org.testng.Assert.assertTrue;.extended
 import java.time.Clock;
 import java.time.LocalTime;
-
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test LocalTime.

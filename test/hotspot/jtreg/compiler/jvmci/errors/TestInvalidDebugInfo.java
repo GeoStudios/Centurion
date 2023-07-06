@@ -19,21 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/**
- * @test
- * @requires vm.jvmci
- * @modules jdk.internal.vm.ci/jdk.vm.ci.hotspot
- *          jdk.internal.vm.ci/jdk.vm.ci.code
- *          jdk.internal.vm.ci/jdk.vm.ci.code.site
- *          jdk.internal.vm.ci/jdk.vm.ci.meta
- *          jdk.internal.vm.ci/jdk.vm.ci.runtime
- *          jdk.internal.vm.ci/jdk.vm.ci.common
- * @compile CodeInstallerTest.java
- * @run junit/othervm -da:jdk.vm.ci... -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI
- *              -XX:-UseJVMCICompiler compiler.jvmci.errors.TestInvalidDebugInfo
- */
-
 package compiler.jvmci.errors;
+
 
 import jdk.vm.ci.code.Architecture;
 import jdk.vm.ci.code.BytecodeFrame;
@@ -58,6 +45,35 @@ import jdk.vm.ci.meta.ResolvedJavaType;
 import jdk.vm.ci.meta.Value;
 import jdk.vm.ci.meta.ValueKind;
 import org.junit.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * @test
+ * @requires vm.jvmci
+ * @modules jdk.internal.vm.ci/jdk.vm.ci.hotspot
+ *          jdk.internal.vm.ci/jdk.vm.ci.code
+ *          jdk.internal.vm.ci/jdk.vm.ci.code.site
+ *          jdk.internal.vm.ci/jdk.vm.ci.meta
+ *          jdk.internal.vm.ci/jdk.vm.ci.runtime
+ *          jdk.internal.vm.ci/jdk.vm.ci.common
+ * @compile CodeInstallerTest.java
+ * @run junit/othervm -da:jdk.vm.ci... -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI
+ *              -XX:-UseJVMCICompiler compiler.jvmci.errors.TestInvalidDebugInfo
+ */
+
+
 
 /**
  * Tests for errors in debug info.

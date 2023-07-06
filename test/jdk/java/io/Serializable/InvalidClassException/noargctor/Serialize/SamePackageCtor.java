@@ -19,11 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package Serialize;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @bug 4093279
  */
 
-package Serialize;
 
 public class SamePackageCtor {
     SamePackageCtor() {

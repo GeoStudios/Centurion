@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.print.attribute;
+package java.desktop.share.classes.javax.print.attribute;
+
 
 import java.io.InvalidObjectException;
 import java.io.ObjectStreamException;
 import java.io.Serial;
 import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class {@code EnumSyntax} is an abstract base class providing the common

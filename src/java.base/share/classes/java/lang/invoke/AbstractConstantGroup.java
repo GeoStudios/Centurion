@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
-import java.util.*;
+
+import java.base.share.classes.java.util.*;
 import jdk.internal.vm.annotation.Stable;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.rangeCheck1;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.rangeCheck2;.extended
 
-import static java.lang.invoke.MethodHandleStatics.rangeCheck1;
-import static java.lang.invoke.MethodHandleStatics.rangeCheck2;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Utility class for implementing ConstantGroup. */
 /*non-public*/

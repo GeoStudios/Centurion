@@ -18,14 +18,15 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package gc.g1.unloading.loading;
+
 
 import gc.g1.unloading.ExecutionTask;
 import gc.g1.unloading.bytecode.*;
 import gc.g1.unloading.check.Assertion;
 import gc.g1.unloading.check.ClassAssertion;
 import gc.g1.unloading.check.PhantomizedAssertion;
-
 import gc.g1.unloading.check.FinalizedAssertion;
 import gc.g1.unloading.check.PhantomizationServiceThread;
 import gc.g1.unloading.check.cleanup.UnusedThreadKiller;
@@ -39,17 +40,28 @@ import gc.g1.unloading.configuration.TestConfiguration;
 import gc.g1.unloading.keepref.*;
 import nsk.share.test.ExecutionController;
 import sun.hotspot.WhiteBox;
-
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandles.Lookup;
-
 import java.lang.ref.*;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Collection;
-import java.util.LinkedList;
+import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This helper performs dirty job: loads classes, instantiate objects, performs redefinition etc...

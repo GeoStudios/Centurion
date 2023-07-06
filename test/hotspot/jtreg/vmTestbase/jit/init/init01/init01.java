@@ -18,6 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package jit.init.init01;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // testing correct initialization order
 
 
@@ -32,9 +51,7 @@
  * @run main/othervm jit.init.init01.init01
  */
 
-package jit.init.init01;
 
-import nsk.share.TestFailure;
 
 class InitTest1 {
   static int ix1 = 0;

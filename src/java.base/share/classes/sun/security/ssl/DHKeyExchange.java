@@ -19,28 +19,43 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
 import java.security.GeneralSecurityException;
-import java.security.InvalidKeyException;
-import java.security.KeyFactory;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.KeyFactory;
 import java.security.KeyPair;
 import java.security.KeyPairGenerator;
-import java.security.NoSuchAlgorithmException;
-import java.security.PrivateKey;
-import java.security.PublicKey;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.PrivateKey;
+import java.base.share.classes.java.security.PublicKey;
 import java.security.SecureRandom;
-import java.security.spec.InvalidKeySpecException;
+import java.base.share.classes.java.security.spec.InvalidKeySpecException;
 import javax.crypto.interfaces.DHPublicKey;
 import javax.crypto.spec.DHParameterSpec;
 import javax.crypto.spec.DHPublicKeySpec;
-import sun.security.action.GetPropertyAction;
-import sun.security.ssl.NamedGroup.NamedGroupSpec;
-import sun.security.ssl.SupportedGroupsExtension.SupportedGroups;
-import sun.security.ssl.X509Authentication.X509Possession;
-import sun.security.util.KeyUtil;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.security.ssl.NamedGroup.NamedGroupSpec;
+import java.base.share.classes.sun.security.ssl.SupportedGroupsExtension.SupportedGroups;
+import java.base.share.classes.sun.security.ssl.X509Authentication.X509Possession;
+import java.base.share.classes.sun.security.util.KeyUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class DHKeyExchange {
     static final SSLPossessionGenerator poGenerator =

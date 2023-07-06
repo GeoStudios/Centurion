@@ -19,22 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
 
-import java.net.InetSocketAddress;
-import java.util.Arrays;
+
+import java.net.Inetjava.net.SocketAddress;
+import java.base.share.classes.java.util.Arrays;
 import java.util.ArrayDeque;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.CompletableFuture;
 import javax.net.ssl.SNIHostName;
-import javax.net.ssl.SSLContext;
+import javax.net.ssl.javax.net.ssl.javax.net.ssl.javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLEngine;
 import javax.net.ssl.SSLParameters;
+import java.net.http.share.classes.jdk.internal.net.http.common.SSLTube;
+import java.net.http.share.classes.jdk.internal.net.http.common.Log;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.ServerName;.extended
 
-import jdk.internal.net.http.common.SSLTube;
-import jdk.internal.net.http.common.Log;
-import jdk.internal.net.http.common.Utils;
-import static jdk.internal.net.http.common.Utils.ServerName;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Asynchronous version of SSLConnection.

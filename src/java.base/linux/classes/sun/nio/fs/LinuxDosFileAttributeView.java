@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.fs;
+package java.base.linux.classes.sun.nio.fs;
 
-import java.nio.file.attribute.*;
-import java.util.Map;
-import java.util.Set;
-import java.io.IOException;
-import jdk.internal.misc.Unsafe;
 
-import static sun.nio.fs.UnixNativeDispatcher.*;
-import static sun.nio.fs.UnixConstants.*;
+import java.base.share.classes.java.nio.file.attribute.*;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.Set;
+import java.base.share.classes.java.io.IOException;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import static java.base.linux.classes.sun.nio.fs.UnixNativeDispatcher.*;
+import static java.base.linux.classes.sun.nio.fs.UnixConstants.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Linux implementation of DosFileAttributeView for use on file systems such
@@ -36,9 +50,7 @@ import static sun.nio.fs.UnixConstants.*;
  * DOS attributes.
  */
 
-class LinuxDosFileAttributeView
-    extends UnixFileAttributeViews.Basic implements DosFileAttributeView
-{
+class LinuxDosFileAttributeView extends UnixFileAttributeViews.Basic implements DosFileAttributeView {
     private static final Unsafe unsafe = Unsafe.getUnsafe();
 
     private static final String READONLY_NAME = "readonly";

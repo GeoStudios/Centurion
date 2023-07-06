@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
 
 import java.awt.AWTEvent;
 import java.awt.AWTException;
@@ -48,11 +49,24 @@ import java.awt.peer.FileDialogPeer;
 import java.io.File;
 import java.io.FilenameFilter;
 import java.security.AccessController;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.desktop.macosx.classes.sun.awt.AWTAccessor;
+import java.desktop.macosx.classes.sun.java2d.pipe.Region;
+import java.desktop.macosx.classes.sun.security.action.GetBooleanAction;
 
-import sun.awt.AWTAccessor;
-import sun.java2d.pipe.Region;
-import sun.security.action.GetBooleanAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class CFileDialog implements FileDialogPeer {
 

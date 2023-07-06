@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.memory.UniThread.Linear3;
+
+
+import nsk.share.test.*;
+import nsk.share.gc.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -31,10 +50,7 @@
  * @run main/othervm gc.memory.UniThread.Linear3.Linear3 -iterations 5
  */
 
-package gc.memory.UniThread.Linear3;
 
-import nsk.share.test.*;
-import nsk.share.gc.*;
 
 /**
  * Test GC collection of linked lists.

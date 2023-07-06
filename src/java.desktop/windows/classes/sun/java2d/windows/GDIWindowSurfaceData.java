@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.windows;
+package java.desktop.windows.classes.sun.java2d.windows;
+
 
 import java.awt.Rectangle;
 import java.awt.GraphicsConfiguration;
@@ -30,22 +31,35 @@ import java.awt.image.ComponentColorModel;
 import java.awt.image.DirectColorModel;
 import java.awt.image.IndexColorModel;
 import java.awt.image.Raster;
+import java.desktop.windows.classes.sun.awt.SunHints;
+import java.desktop.windows.classes.sun.awt.Win32GraphicsConfig;
+import java.desktop.windows.classes.sun.awt.Win32GraphicsDevice;
+import java.desktop.windows.classes.sun.awt.windows.WComponentPeer;
+import java.desktop.windows.classes.sun.java2d.ScreenUpdateManager;
+import java.desktop.windows.classes.sun.java2d.SunGraphics2D;
+import java.desktop.windows.classes.sun.java2d.SurfaceData;
+import java.desktop.windows.classes.sun.java2d.SurfaceDataProxy;
+import java.desktop.windows.classes.sun.java2d.pipe.Region;
+import java.desktop.windows.classes.sun.java2d.pipe.PixelToShapeConverter;
+import java.desktop.windows.classes.sun.java2d.loops.GraphicsPrimitive;
+import java.desktop.windows.classes.sun.java2d.loops.SurfaceType;
+import java.desktop.windows.classes.sun.java2d.loops.CompositeType;
+import java.desktop.windows.classes.sun.java2d.loops.RenderLoops;
+import java.desktop.windows.classes.sun.java2d.loops.XORComposite;
 
-import sun.awt.SunHints;
-import sun.awt.Win32GraphicsConfig;
-import sun.awt.Win32GraphicsDevice;
-import sun.awt.windows.WComponentPeer;
-import sun.java2d.ScreenUpdateManager;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.SurfaceData;
-import sun.java2d.SurfaceDataProxy;
-import sun.java2d.pipe.Region;
-import sun.java2d.pipe.PixelToShapeConverter;
-import sun.java2d.loops.GraphicsPrimitive;
-import sun.java2d.loops.SurfaceType;
-import sun.java2d.loops.CompositeType;
-import sun.java2d.loops.RenderLoops;
-import sun.java2d.loops.XORComposite;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class GDIWindowSurfaceData extends SurfaceData {
     private final WComponentPeer peer;

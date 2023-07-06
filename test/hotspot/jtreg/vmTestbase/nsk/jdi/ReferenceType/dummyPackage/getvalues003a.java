@@ -19,12 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-// dummy package
 package nsk.jdi.ReferenceType.dummyPackage;
+
 
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// dummy package
+
 
 /**
  * This is an auxiliary class outside a main debuggee package. It's

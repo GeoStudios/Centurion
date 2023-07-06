@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jpackage.internal;
+package jdk.jpackage.macosx.classes.jdk.jpackage.internal;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.text.MessageFormat;
 import java.util.Map;
 import java.util.Optional;
-import static jdk.jpackage.internal.MacBaseInstallerBundler.SIGNING_KEYCHAIN;
-import static jdk.jpackage.internal.MacBaseInstallerBundler.SIGNING_KEY_USER;
-import static jdk.jpackage.internal.MacAppImageBuilder.APP_STORE;
-import static jdk.jpackage.internal.StandardBundlerParam.MAIN_CLASS;
-import static jdk.jpackage.internal.StandardBundlerParam.VERBOSE;
-import static jdk.jpackage.internal.StandardBundlerParam.VERSION;
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.MacBaseInstallerBundler.SIGNING_KEYCHAIN;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.MacBaseInstallerBundler.SIGNING_KEY_USER;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.MacAppImageBuilder.APP_STORE;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.MAIN_CLASS;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.VERBOSE;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.VERSION;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MacAppBundler extends AppImageBundler {
      public MacAppBundler() {

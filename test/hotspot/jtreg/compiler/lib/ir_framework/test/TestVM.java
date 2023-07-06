@@ -21,13 +21,13 @@
 
 package compiler.lib.ir_framework.test;
 
+
 import compiler.lib.ir_framework.*;
 import compiler.lib.ir_framework.Compiler;
 import compiler.lib.ir_framework.shared.*;
 import jdk.test.lib.Platform;
 import jdk.test.lib.Utils;
 import sun.hotspot.WhiteBox;
-
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.lang.annotation.Annotation;
@@ -35,6 +35,19 @@ import java.lang.reflect.*;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class' main method is called from {@link TestFramework} and represents the so-called "test VM". The class is

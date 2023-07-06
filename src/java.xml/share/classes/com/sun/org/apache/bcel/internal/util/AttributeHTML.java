@@ -19,32 +19,50 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.util;
+
+
+import java.io.FileOutputStream;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.PrintWriter;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Attribute;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Code;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.CodeException;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantPool;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantUtf8;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantValue;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ExceptionTable;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.InnerClass;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.InnerClasses;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.LineNumber;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.LineNumberTable;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.LocalVariable;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.LocalVariableTable;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.SourceFile;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Utility;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.bcel.internal.util;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.PrintWriter;
 
-import com.sun.org.apache.bcel.internal.Const;
-import com.sun.org.apache.bcel.internal.classfile.Attribute;
-import com.sun.org.apache.bcel.internal.classfile.Code;
-import com.sun.org.apache.bcel.internal.classfile.CodeException;
-import com.sun.org.apache.bcel.internal.classfile.ConstantPool;
-import com.sun.org.apache.bcel.internal.classfile.ConstantUtf8;
-import com.sun.org.apache.bcel.internal.classfile.ConstantValue;
-import com.sun.org.apache.bcel.internal.classfile.ExceptionTable;
-import com.sun.org.apache.bcel.internal.classfile.InnerClass;
-import com.sun.org.apache.bcel.internal.classfile.InnerClasses;
-import com.sun.org.apache.bcel.internal.classfile.LineNumber;
-import com.sun.org.apache.bcel.internal.classfile.LineNumberTable;
-import com.sun.org.apache.bcel.internal.classfile.LocalVariable;
-import com.sun.org.apache.bcel.internal.classfile.LocalVariableTable;
-import com.sun.org.apache.bcel.internal.classfile.SourceFile;
-import com.sun.org.apache.bcel.internal.classfile.Utility;
+
 
 /**
  * Convert found attributes into HTML file.

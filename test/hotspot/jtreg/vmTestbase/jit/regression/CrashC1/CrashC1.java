@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.regression.CrashC1;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,9 +48,7 @@
  * @run main/othervm jit.regression.CrashC1.CrashC1
  */
 
-package jit.regression.CrashC1;
 
-import nsk.share.TestFailure;
 
 public class CrashC1 {
   public long alignUp(long size, long alignment) {

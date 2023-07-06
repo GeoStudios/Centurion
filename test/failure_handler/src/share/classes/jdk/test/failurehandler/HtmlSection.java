@@ -21,9 +21,23 @@
 
 package jdk.test.failurehandler;
 
+
 import java.io.FilterWriter;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class HtmlSection {
     protected final HtmlSection rootSection;

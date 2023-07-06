@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.misc;
+package java.base.share.classes.jdk.internal.misc;
+
 
 import java.util.Hashtable;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides ANSI/ISO C signal support. A Java program can register

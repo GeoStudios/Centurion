@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.time.temporal;
+package java.base.share.classes.java.time.temporal;
 
-import java.time.DateTimeException;
-import java.time.Duration;
-import java.time.Period;
-import java.util.List;
+
+import java.base.share.classes.java.time.DateTimeException;
+import java.base.share.classes.java.time.Duration;
+import java.base.share.classes.java.time.Period;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Framework-level interface defining an amount of time, such as

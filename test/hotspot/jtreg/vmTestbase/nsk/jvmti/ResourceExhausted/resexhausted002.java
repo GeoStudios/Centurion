@@ -18,6 +18,7 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.jvmti.ResourceExhausted;
 
 
@@ -25,6 +26,19 @@ import java.io.PrintStream;
 import nsk.share.Consts;
 import nsk.share.test.Stresser;
 import jtreg.SkippedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class resexhausted002 {
     static final long MAX_ITERATIONS = Long.MAX_VALUE;

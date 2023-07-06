@@ -21,6 +21,7 @@
 
 package jdk.internal.net.http;
 
+
 import java.net.*;
 import java.io.*;
 import java.nio.channels.*;
@@ -31,10 +32,23 @@ import java.net.http.HttpClient;
 import java.net.http.HttpResponse;
 import org.testng.annotations.Test;
 import jdk.internal.net.http.websocket.RawChannel;
-import static java.lang.System.out;
-import static java.nio.charset.StandardCharsets.US_ASCII;
-import static java.util.concurrent.TimeUnit.SECONDS;
-import static java.net.http.HttpResponse.BodyHandlers.discarding;
+import static java.lang.System.out;.extended
+import static java.nio.charset.StandardCharsets.US_ASCII;.extended
+import static java.util.concurrent.TimeUnit.SECONDS;.extended
+import static java.net.http.HttpResponse.BodyHandlers.discarding;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Whitebox test of selector mechanics. Currently only a simple test

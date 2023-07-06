@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.marlin;
+package java.desktop.share.classes.sun.java2d.marlin;
+
 
 import java.security.AccessController;
-import static sun.java2d.marlin.MarlinUtils.logInfo;
-import sun.security.action.GetPropertyAction;
+import static java.desktop.share.classes.sun.java2d.marlin.MarlinUtils.logInfo;.extended
+import java.desktop.share.classes.sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class MarlinProperties {
 

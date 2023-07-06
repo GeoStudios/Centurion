@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.lang.invoke;
+
+
+import java.lang.invoke.MethodType;
+import java.security.AccessControlException;
+import java.security.Permission;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @bug 8229785
  * @summary Test MethodType.fromMethodDescriptorString with security manager
@@ -26,11 +46,7 @@
  * @run main/othervm/policy=getclassloader.policy test.java.lang.invoke.MethodTypeSecurityManager access
  */
 
-package test.java.lang.invoke;
 
-import java.lang.invoke.MethodType;
-import java.security.AccessControlException;
-import java.security.Permission;
 
 public class MethodTypeSecurityManager {
     private static boolean hasClassLoaderAccess;

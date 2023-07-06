@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.instrument;
+package java.instrument.share.classes.java.lang.instrument;
 
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.security.ProtectionDomain;
+
+import java.instrument.share.classes.java.security.AccessController;
+import java.instrument.share.classes.java.security.PrivilegedAction;
+import java.instrument.share.classes.java.security.ProtectionDomain;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A transformer of class files. An agent registers an implementation of this

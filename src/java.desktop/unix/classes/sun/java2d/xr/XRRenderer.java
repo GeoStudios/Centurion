@@ -19,24 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.xr;
+package java.desktop.unix.classes.sun.java2d.xr;
+
 
 import java.awt.*;
 import java.awt.geom.*;
-import sun.awt.SunToolkit;
-import sun.java2d.InvalidPipeException;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.loops.*;
-import sun.java2d.pipe.Region;
-import sun.java2d.pipe.PixelDrawPipe;
-import sun.java2d.pipe.PixelFillPipe;
-import sun.java2d.pipe.ShapeDrawPipe;
-import sun.java2d.pipe.SpanIterator;
-import sun.java2d.pipe.ShapeSpanIterator;
-import sun.java2d.pipe.LoopPipe;
+import java.desktop.unix.classes.sun.awt.SunToolkit;
+import java.desktop.unix.classes.sun.java2d.InvalidPipeException;
+import java.desktop.unix.classes.sun.java2d.SunGraphics2D;
+import java.desktop.unix.classes.sun.java2d.loops.*;
+import java.desktop.unix.classes.sun.java2d.pipe.Region;
+import java.desktop.unix.classes.sun.java2d.pipe.PixelDrawPipe;
+import java.desktop.unix.classes.sun.java2d.pipe.PixelFillPipe;
+import java.desktop.unix.classes.sun.java2d.pipe.ShapeDrawPipe;
+import java.desktop.unix.classes.sun.java2d.pipe.SpanIterator;
+import java.desktop.unix.classes.sun.java2d.pipe.ShapeSpanIterator;
+import java.desktop.unix.classes.sun.java2d.pipe.LoopPipe;
+import static java.desktop.unix.classes.sun.java2d.xr.XRUtils.clampToShort;.extended
+import static java.desktop.unix.classes.sun.java2d.xr.XRUtils.clampToUShort;.extended
 
-import static sun.java2d.xr.XRUtils.clampToShort;
-import static sun.java2d.xr.XRUtils.clampToUShort;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * XRender provides only accalerated rectangles. To emulate higher "order"

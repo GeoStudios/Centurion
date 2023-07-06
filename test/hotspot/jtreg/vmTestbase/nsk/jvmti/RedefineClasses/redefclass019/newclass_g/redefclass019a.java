@@ -19,9 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jvmti.RedefineClasses;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //    THIS TEST IS LINE NUMBER SENSITIVE
 
-package nsk.jvmti.RedefineClasses;
 
 class redefclass019a extends Thread {
 

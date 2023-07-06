@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.awt.windows;
+
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.awt.AWTEvent;
 import java.awt.AWTException;
@@ -52,22 +54,35 @@ import java.awt.image.ColorModel;
 import java.awt.image.VolatileImage;
 import java.awt.peer.ComponentPeer;
 import java.awt.peer.ContainerPeer;
+import java.desktop.windows.classes.sun.awt.AWTAccessor;
+import java.desktop.windows.classes.sun.awt.PaintEventDispatcher;
+import java.desktop.windows.classes.sun.awt.RepaintArea;
+import java.desktop.windows.classes.sun.awt.SunToolkit;
+import java.desktop.windows.classes.sun.awt.Win32GraphicsConfig;
+import java.desktop.windows.classes.sun.awt.Win32GraphicsEnvironment;
+import java.desktop.windows.classes.sun.awt.event.IgnorePaintEvent;
+import java.desktop.windows.classes.sun.awt.image.SunVolatileImage;
+import java.desktop.windows.classes.sun.java2d.InvalidPipeException;
+import java.desktop.windows.classes.sun.java2d.ScreenUpdateManager;
+import java.desktop.windows.classes.sun.java2d.SurfaceData;
+import java.desktop.windows.classes.sun.java2d.d3d.D3DSurfaceData;
+import java.desktop.windows.classes.sun.java2d.opengl.OGLSurfaceData;
+import java.desktop.windows.classes.sun.java2d.pipe.Region;
+import java.desktop.windows.classes.sun.util.logging.PlatformLogger;
 
-import sun.awt.AWTAccessor;
-import sun.awt.PaintEventDispatcher;
-import sun.awt.RepaintArea;
-import sun.awt.SunToolkit;
-import sun.awt.Win32GraphicsConfig;
-import sun.awt.Win32GraphicsEnvironment;
-import sun.awt.event.IgnorePaintEvent;
-import sun.awt.image.SunVolatileImage;
-import sun.java2d.InvalidPipeException;
-import sun.java2d.ScreenUpdateManager;
-import sun.java2d.SurfaceData;
-import sun.java2d.d3d.D3DSurfaceData;
-import sun.java2d.opengl.OGLSurfaceData;
-import sun.java2d.pipe.Region;
-import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class WComponentPeer extends WObjectPeer
     implements ComponentPeer, DropTargetPeer

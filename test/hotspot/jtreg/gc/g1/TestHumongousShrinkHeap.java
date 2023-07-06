@@ -21,6 +21,30 @@
 
 package gc.g1;
 
+
+import com.sun.management.HotSpotDiagnosticMXBean;
+import java.lang.management.ManagementFactory;
+import java.lang.management.MemoryUsage;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.text.NumberFormat;
+import gc.testlibrary.Helpers;
+import static jdk.test.lib.Asserts.*;.extended
+import jtreg.SkippedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestHumongousShrinkHeap
  * @bug 8036025 8056043
@@ -35,15 +59,6 @@ package gc.g1;
  * gc.g1.TestHumongousShrinkHeap
  */
 
-import com.sun.management.HotSpotDiagnosticMXBean;
-import java.lang.management.ManagementFactory;
-import java.lang.management.MemoryUsage;
-import java.util.ArrayList;
-import java.util.List;
-import java.text.NumberFormat;
-import gc.testlibrary.Helpers;
-import static jdk.test.lib.Asserts.*;
-import jtreg.SkippedException;
 
 public class TestHumongousShrinkHeap {
 

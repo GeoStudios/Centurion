@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.xr;
+package java.desktop.unix.classes.sun.java2d.xr;
+
 
 import java.awt.Color;
 import java.awt.Transparency;
-import sun.java2d.SurfaceData;
-import sun.java2d.SurfaceDataProxy;
-import sun.java2d.loops.CompositeType;
+import java.desktop.unix.classes.sun.java2d.SurfaceData;
+import java.desktop.unix.classes.sun.java2d.SurfaceDataProxy;
+import java.desktop.unix.classes.sun.java2d.loops.CompositeType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The proxy class contains the logic if to replace a SurfaceData with a

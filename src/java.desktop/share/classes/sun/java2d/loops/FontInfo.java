@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.loops;
+package java.desktop.share.classes.sun.java2d.loops;
+
 
 import java.awt.Font;
+import java.desktop.share.classes.sun.font.Font2D;
+import java.desktop.share.classes.sun.font.FontStrike;
 
-import sun.font.Font2D;
-import sun.font.FontStrike;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * A FontInfo object holds all calculated or derived data needed

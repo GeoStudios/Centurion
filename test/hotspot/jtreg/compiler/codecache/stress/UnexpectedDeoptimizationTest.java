@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codecache.stress;
+
+
+import java.util.Random;
+import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test UnexpectedDeoptimizationTest
  * @key stress randomness
@@ -43,10 +62,7 @@
  *                   compiler.codecache.stress.UnexpectedDeoptimizationTest
  */
 
-package compiler.codecache.stress;
 
-import java.util.Random;
-import jdk.test.lib.Utils;
 
 public class UnexpectedDeoptimizationTest implements Runnable {
     private final Random rng = Utils.getRandomInstance();

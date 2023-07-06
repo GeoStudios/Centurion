@@ -18,14 +18,15 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.operators;
+
 
 import java.awt.Component;
 import java.awt.Window;
-import java.awt.event.WindowListener;
+import java.awt.event.Windowjava.util.Listener;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ResourceBundle;
-
 import org.netbeans.jemmy.ClassReference;
 import org.netbeans.jemmy.ComponentChooser;
 import org.netbeans.jemmy.ComponentSearcher;
@@ -39,6 +40,19 @@ import org.netbeans.jemmy.Timeouts;
 import org.netbeans.jemmy.WindowWaiter;
 import org.netbeans.jemmy.drivers.DriverManager;
 import org.netbeans.jemmy.drivers.WindowDriver;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <BR><BR>Timeouts used: <BR>

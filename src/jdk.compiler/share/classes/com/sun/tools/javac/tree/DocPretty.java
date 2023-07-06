@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.tree;
+package jdk.compiler.share.classes.com.sun.tools.javac.tree;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.Writer;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.source.doctree.*;
+import jdk.compiler.share.classes.com.sun.source.doctree.AttributeTree.ValueKind;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Convert;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
 
-import com.sun.source.doctree.*;
-import com.sun.source.doctree.AttributeTree.ValueKind;
-import com.sun.tools.javac.util.Convert;
-import com.sun.tools.javac.util.DefinedBy;
-import com.sun.tools.javac.util.DefinedBy.Api;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Prints out a doc-comment tree.

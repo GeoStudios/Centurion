@@ -21,15 +21,29 @@
 
 package jdk.test.lib.classloader;
 
+
 import java.io.DataInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileWriter;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import javax.tools.JavaCompiler;
 import javax.tools.ToolProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A factory that generates a class with many methods.

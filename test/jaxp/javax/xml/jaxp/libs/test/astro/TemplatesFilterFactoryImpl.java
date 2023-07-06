@@ -18,16 +18,16 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.astro;
 
-import static jaxp.library.JAXPTestUtilities.filenameToURL;
-import static test.astro.AstroConstants.DECXSL;
-import static test.astro.AstroConstants.RAURIXSL;
-import static test.astro.AstroConstants.STYPEXSL;
-import static test.astro.AstroConstants.TOPTEMPLINCXSL;
 
-import java.io.IOException;
-
+import static jaxp.library.JAXPTestUtilities.filenameToURL;.extended
+import static test.astro.AstroConstants.DECXSL;.extended
+import static test.astro.AstroConstants.RAURIXSL;.extended
+import static test.astro.AstroConstants.STYPEXSL;.extended
+import static test.astro.AstroConstants.TOPTEMPLINCXSL;.extended
+import java.io.java.io.java.io.java.io.IOException;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParserFactory;
 import javax.xml.transform.Source;
@@ -39,10 +39,22 @@ import javax.xml.transform.sax.SAXTransformerFactory;
 import javax.xml.transform.sax.TemplatesHandler;
 import javax.xml.transform.sax.TransformerHandler;
 import javax.xml.transform.stream.StreamSource;
-
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Implementation of the filter factory interface that utilizes

@@ -21,7 +21,25 @@
 
 package gc.stress;
 
- /*
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
  * @test TestStressIHOPMultiThread
  * @bug 8148397
  * @key stress
@@ -54,9 +72,6 @@ package gc.stress;
  *              -Dthreads=17 gc.stress.TestStressIHOPMultiThread
  */
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
 
 /**
  * Stress test for Adaptive IHOP. Starts a number of threads that fill and free

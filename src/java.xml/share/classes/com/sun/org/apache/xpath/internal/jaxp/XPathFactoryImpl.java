@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xpath.internal.jaxp;
+package java.xml.share.classes.com.sun.org.apache.xpath.internal.jaxp;
 
-import com.sun.org.apache.xalan.internal.res.XSLMessages;
-import com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
+
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
 import javax.xml.XMLConstants;
 import javax.xml.xpath.XPathFactory;
 import javax.xml.xpath.XPathFactoryConfigurationException;
@@ -31,6 +32,20 @@ import javax.xml.xpath.XPathVariableResolver;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkProperty;
 import jdk.xml.internal.JdkXmlFeatures;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The XPathFactory builds XPaths.

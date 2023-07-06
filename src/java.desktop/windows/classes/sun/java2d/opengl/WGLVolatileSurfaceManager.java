@@ -19,25 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.opengl;
+package java.desktop.windows.classes.sun.java2d.opengl;
+
 
 import java.awt.BufferCapabilities;
-import static java.awt.BufferCapabilities.FlipContents.*;
+import static java.awt.BufferCapabilities.FlipContents.*;.extended
 import java.awt.Component;
 import java.awt.GraphicsConfiguration;
 import java.awt.Transparency;
 import java.awt.image.ColorModel;
+import java.desktop.windows.classes.sun.awt.AWTAccessor;
+import java.desktop.windows.classes.sun.awt.AWTAccessor.ComponentAccessor;
+import java.desktop.windows.classes.sun.awt.image.SunVolatileImage;
+import java.desktop.windows.classes.sun.awt.image.VolatileSurfaceManager;
+import java.desktop.windows.classes.sun.awt.windows.WComponentPeer;
+import java.desktop.windows.classes.sun.java2d.SurfaceData;
+import static java.desktop.windows.classes.sun.java2d.opengl.OGLContext.OGLContextCaps.*;.extended
+import static java.desktop.windows.classes.sun.java2d.pipe.hw.AccelSurface.*;.extended
+import java.desktop.windows.classes.sun.java2d.pipe.hw.ExtendedBufferCapabilities;
+import static java.desktop.windows.classes.sun.java2d.pipe.hw.ExtendedBufferCapabilities.VSyncType.*;.extended
 
-import sun.awt.AWTAccessor;
-import sun.awt.AWTAccessor.ComponentAccessor;
-import sun.awt.image.SunVolatileImage;
-import sun.awt.image.VolatileSurfaceManager;
-import sun.awt.windows.WComponentPeer;
-import sun.java2d.SurfaceData;
-import static sun.java2d.opengl.OGLContext.OGLContextCaps.*;
-import static sun.java2d.pipe.hw.AccelSurface.*;
-import sun.java2d.pipe.hw.ExtendedBufferCapabilities;
-import static sun.java2d.pipe.hw.ExtendedBufferCapabilities.VSyncType.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class WGLVolatileSurfaceManager extends VolatileSurfaceManager {
 

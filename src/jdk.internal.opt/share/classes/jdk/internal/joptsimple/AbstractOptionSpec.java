@@ -19,17 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.joptsimple;
+package jdk.internal.opt.share.classes.jdk.internal.joptsimple;
 
-import java.util.ArrayList;
-import java.util.List;
 
-import static java.util.Collections.*;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import static java.util.Collections.*;.extended
+import jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.Reflection;
+import jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.ReflectionException;
+import static jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.Strings.*;.extended
 
-import jdk.internal.joptsimple.internal.Reflection;
-import jdk.internal.joptsimple.internal.ReflectionException;
 
-import static jdk.internal.joptsimple.internal.Strings.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @param <V> represents the type of the arguments this option accepts

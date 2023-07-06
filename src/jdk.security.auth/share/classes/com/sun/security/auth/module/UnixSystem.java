@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.security.auth.module;
+package jdk.security.auth.share.classes.com.sun.security.auth.module;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implementation retrieves and makes available Unix

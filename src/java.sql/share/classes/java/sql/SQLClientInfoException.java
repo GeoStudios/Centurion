@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.sql;
 
-import java.util.Map;
+package java.sql.share.classes.java.sql;
+
+
+import java.sql.share.classes.java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The subclass of {@link SQLException} is thrown when one or more client info properties

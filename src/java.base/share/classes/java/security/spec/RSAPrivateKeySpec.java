@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.security.spec;
+package java.base.share.classes.java.security.spec;
 
-import java.math.BigInteger;
+
+import java.base.share.classes.java.math.BigInteger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class specifies an RSA private key.

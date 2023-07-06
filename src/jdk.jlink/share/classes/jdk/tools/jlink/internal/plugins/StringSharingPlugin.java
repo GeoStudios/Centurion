@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.tools.jlink.internal.plugins;
+
+package jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins;
+
 
 import com.sun.tools.classfile.Annotation;
 import com.sun.tools.classfile.Attribute;
@@ -38,26 +40,40 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.nio.ByteBuffer;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.function.Predicate;
-import jdk.internal.jimage.decompressor.CompressIndexes;
-import jdk.internal.jimage.decompressor.SignatureParser;
-import jdk.internal.jimage.decompressor.StringSharingDecompressor;
-import jdk.tools.jlink.internal.ResourcePoolManager.ResourcePoolImpl;
-import jdk.tools.jlink.plugin.PluginException;
-import jdk.tools.jlink.plugin.ResourcePool;
-import jdk.tools.jlink.plugin.ResourcePoolBuilder;
-import jdk.tools.jlink.plugin.ResourcePoolEntry;
-import jdk.tools.jlink.internal.ResourcePoolManager;
-import jdk.tools.jlink.internal.ResourcePrevisitor;
-import jdk.tools.jlink.internal.StringTable;
+import jdk.jlink.share.classes.jdk.internal.jimage.decompressor.CompressIndexes;
+import jdk.jlink.share.classes.jdk.internal.jimage.decompressor.SignatureParser;
+import jdk.jlink.share.classes.jdk.internal.jimage.decompressor.StringSharingDecompressor;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.ResourcePoolManager.ResourcePoolImpl;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.PluginException;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePool;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolBuilder;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.ResourcePoolManager;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.ResourcePrevisitor;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.StringTable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

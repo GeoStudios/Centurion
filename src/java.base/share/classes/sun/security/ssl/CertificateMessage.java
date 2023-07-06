@@ -19,12 +19,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
+
 
 import java.io.ByteArrayInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
-import java.security.PublicKey;
+import java.base.share.classes.java.security.PublicKey;
 import java.security.cert.CertPathValidatorException;
 import java.security.cert.CertPathValidatorException.BasicReason;
 import java.security.cert.CertPathValidatorException.Reason;
@@ -34,26 +35,40 @@ import java.security.cert.CertificateFactory;
 import java.security.cert.CertificateParsingException;
 import java.security.cert.X509Certificate;
 import java.text.MessageFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Locale;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import javax.net.ssl.SSLEngine;
 import javax.net.ssl.SSLException;
 import javax.net.ssl.SSLProtocolException;
-import javax.net.ssl.SSLSocket;
+import javax.net.ssl.SSLjava.net.java.net.java.net.Socket;
 import javax.net.ssl.X509ExtendedTrustManager;
 import javax.net.ssl.X509TrustManager;
 import javax.security.auth.x500.X500Principal;
-import static sun.security.ssl.ClientAuthType.CLIENT_AUTH_REQUIRED;
-import sun.security.ssl.ClientHello.ClientHelloMessage;
-import sun.security.ssl.SSLHandshake.HandshakeMessage;
-import sun.security.ssl.X509Authentication.X509Credentials;
-import sun.security.ssl.X509Authentication.X509Possession;
+import static java.base.share.classes.sun.security.ssl.ClientAuthType.CLIENT_AUTH_REQUIRED;.extended
+import java.base.share.classes.sun.security.ssl.ClientHello.ClientHelloMessage;
+import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
+import java.base.share.classes.sun.security.ssl.X509Authentication.X509Credentials;
+import java.base.share.classes.sun.security.ssl.X509Authentication.X509Possession;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Pack of the CertificateMessage handshake message.

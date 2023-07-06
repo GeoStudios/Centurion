@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8238178
@@ -28,7 +45,6 @@
  *                   -XX:CompileCommand=dontinline,compiler.c1.RangeCheckVerificationOfIR::test* compiler.c1.RangeCheckVerificationOfIR
  */
 
-package compiler.c1;
 
 public class RangeCheckVerificationOfIR {
 

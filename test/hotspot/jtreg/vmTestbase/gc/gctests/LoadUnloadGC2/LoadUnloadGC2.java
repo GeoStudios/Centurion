@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.LoadUnloadGC2;
+
+
+import nsk.share.*;
+import nsk.share.test.*;
+import nsk.share.gc.*;
+import nsk.share.gc.gp.*;
+import nsk.share.gc.gp.classload.*;
+import java.lang.reflect.Array;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -32,14 +54,7 @@
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.LoadUnloadGC2.LoadUnloadGC2
  */
 
-package gc.gctests.LoadUnloadGC2;
 
-import nsk.share.*;
-import nsk.share.test.*;
-import nsk.share.gc.*;
-import nsk.share.gc.gp.*;
-import nsk.share.gc.gp.classload.*;
-import java.lang.reflect.Array;
 
 public class LoadUnloadGC2 extends GCTestBase {
         public void run() {

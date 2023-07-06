@@ -21,7 +21,21 @@
 
 package pkg1;
 
+
 import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test for Serializable

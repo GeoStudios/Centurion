@@ -19,11 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.monitor;
+package java.management.share.classes.javax.management.monitor;
+
+
+import java.management.share.classes.javax.management.ObjectName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // jmx imports
 //
-import javax.management.ObjectName;
 
 /**
  * Exposes the remote management interface of the counter monitor MBean.

@@ -21,6 +21,21 @@
 
 package pkg5;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Interfaces {
      public interface A {
 

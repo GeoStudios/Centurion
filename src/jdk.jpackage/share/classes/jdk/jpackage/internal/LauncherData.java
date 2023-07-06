@@ -18,10 +18,12 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.jpackage.internal;
+
+package jdk.jpackage.share.classes.jdk.jpackage.internal;
+
 
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.Reader;
 import java.lang.module.ModuleDescriptor;
 import java.lang.module.ModuleReference;
@@ -30,9 +32,9 @@ import java.nio.file.InvalidPathException;
 import java.nio.file.Path;
 import java.text.MessageFormat;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.util.Properties;
 import java.util.Set;
@@ -42,7 +44,21 @@ import java.util.jar.JarFile;
 import java.util.jar.Manifest;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import static jdk.jpackage.internal.StandardBundlerParam.PREDEFINED_RUNTIME_IMAGE;
+import static jdk.jpackage.share.classes.jdk.jpackage.internal.StandardBundlerParam.PREDEFINED_RUNTIME_IMAGE;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Extracts data needed to run application from parameters.

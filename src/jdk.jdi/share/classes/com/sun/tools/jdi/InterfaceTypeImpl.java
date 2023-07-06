@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
+
 
 import java.lang.ref.SoftReference;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import jdk.jdi.share.classes.com.sun.jdi.ClassType;
+import jdk.jdi.share.classes.com.sun.jdi.InterfaceType;
+import jdk.jdi.share.classes.com.sun.jdi.Method;
+import jdk.jdi.share.classes.com.sun.jdi.ReferenceType;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
 
-import com.sun.jdi.ClassType;
-import com.sun.jdi.InterfaceType;
-import com.sun.jdi.Method;
-import com.sun.jdi.ReferenceType;
-import com.sun.jdi.VirtualMachine;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final public class InterfaceTypeImpl extends InvokableTypeImpl
                                      implements InterfaceType {

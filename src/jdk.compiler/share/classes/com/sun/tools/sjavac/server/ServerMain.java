@@ -19,24 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac.server;
+package jdk.compiler.share.classes.com.sun.tools.sjavac.server;
+
 
 import java.io.FileWriter;
 import java.io.FilterOutputStream;
 import java.io.FilterWriter;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintStream;
 import java.lang.Thread.UncaughtExceptionHandler;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Main;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Main.Result;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.Log;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.Log.Level;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.server.log.LazyInitFileLog;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.server.log.LoggingOutputStream;
+import static jdk.compiler.share.classes.com.sun.tools.sjavac.Log.Level.ERROR;.extended
+import static jdk.compiler.share.classes.com.sun.tools.sjavac.Log.Level.INFO;.extended
 
-import com.sun.tools.javac.main.Main;
-import com.sun.tools.javac.main.Main.Result;
-import com.sun.tools.sjavac.Log;
-import com.sun.tools.sjavac.Log.Level;
-import com.sun.tools.sjavac.server.log.LazyInitFileLog;
-import com.sun.tools.sjavac.server.log.LoggingOutputStream;
 
-import static com.sun.tools.sjavac.Log.Level.ERROR;
-import static com.sun.tools.sjavac.Log.Level.INFO;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  <p><b>This is NOT part of any supported API.

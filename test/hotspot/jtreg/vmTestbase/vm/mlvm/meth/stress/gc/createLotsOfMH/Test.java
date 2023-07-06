@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.mlvm.meth.stress.gc.createLotsOfMH;
+
+
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodHandles.Lookup;
+import java.lang.invoke.MethodType;
+import nsk.share.test.Stresser;
+import vm.mlvm.share.MlvmTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -42,15 +64,8 @@
  * @run main/othervm vm.mlvm.meth.stress.gc.createLotsOfMH.Test -stressIterationsFactor 100000
  */
 
-package vm.mlvm.meth.stress.gc.createLotsOfMH;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodHandles.Lookup;
-import java.lang.invoke.MethodType;
 
-import nsk.share.test.Stresser;
-import vm.mlvm.share.MlvmTest;
 
 // TODO: add other Lookup.findXXX methods
 

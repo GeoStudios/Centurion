@@ -19,21 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.imageio.metadata;
+package java.desktop.share.classes.javax.imageio.metadata;
+
 
 import java.io.Serial;
-import java.util.ArrayList;
-import java.util.List;
-
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import org.w3c.dom.Attr;
 import org.w3c.dom.DOMException;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import org.w3c.dom.TypeInfo;
 import org.w3c.dom.UserDataHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An {@code IIODOMException} is thrown by the {@code IIOMetadataNode} in

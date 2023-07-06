@@ -19,11 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-
 package nsk.share.jvmti;
 
+
 import nsk.share.Log;
-import static nsk.share.Consts.*;
+import static nsk.share.Consts.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

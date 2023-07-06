@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.jshell.debug;
+package jdk.jshell.share.classes.jdk.internal.jshell.debug;
+
 
 import java.io.PrintStream;
 import java.util.HashMap;
 import java.util.Map;
-import jdk.jshell.JShell;
+import jdk.jshell.share.classes.jdk.jshell.JShell;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to externally control output messages for debugging the

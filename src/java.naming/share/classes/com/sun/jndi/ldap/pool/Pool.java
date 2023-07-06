@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap.pool;
+package java.naming.share.classes.com.sun.jndi.ldap.pool;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.WeakHashMap;
 import java.util.Collection;
 import java.util.Collections;
-import java.util.LinkedList;
-
+import java.util.Linkedjava.util.java.util.java.util.List;
 import java.io.PrintStream;
 import java.lang.ref.Reference;
 import java.lang.ref.ReferenceQueue;
 import javax.naming.NamingException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A map of pool ids to Connections.

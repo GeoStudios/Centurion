@@ -19,21 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.foreign;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
 
-import jdk.incubator.foreign.*;
-import jdk.internal.access.foreign.MemorySegmentProxy;
-import jdk.internal.misc.VM;
+
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.*;
+import jdk.incubator.foreign.share.classes.jdk.internal.access.foreign.MemorySegmentProxy;
+import jdk.incubator.foreign.share.classes.jdk.internal.misc.VM;
 import sun.invoke.util.Wrapper;
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import java.lang.invoke.VarHandle;
 import java.util.Optional;
 import java.util.function.Supplier;
+import static sun.security.action.GetPropertyAction.*;.extended
 
-import static sun.security.action.GetPropertyAction.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains misc helper functions to support creation of memory segments.

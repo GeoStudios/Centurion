@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2.cr8004867;
+
+
+import java.util.concurrent.atomic.AtomicIntegerArray;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8004867
@@ -32,9 +50,7 @@
  *    compiler.c2.cr8004867.TestIntAtomicVolatile
  */
 
-package compiler.c2.cr8004867;
 
-import java.util.concurrent.atomic.AtomicIntegerArray;
 
 public class TestIntAtomicVolatile {
   private static final int ARRLEN = 97;

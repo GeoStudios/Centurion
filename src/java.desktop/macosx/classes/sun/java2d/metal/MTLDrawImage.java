@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.metal;
+package java.desktop.macosx.classes.sun.java2d.metal;
 
-import sun.java2d.SunGraphics2D;
-import sun.java2d.SurfaceData;
-import sun.java2d.loops.SurfaceType;
-import sun.java2d.loops.TransformBlit;
-import sun.java2d.pipe.DrawImage;
 
+import java.desktop.macosx.classes.sun.java2d.SunGraphics2D;
+import java.desktop.macosx.classes.sun.java2d.SurfaceData;
+import java.desktop.macosx.classes.sun.java2d.loops.SurfaceType;
+import java.desktop.macosx.classes.sun.java2d.loops.TransformBlit;
+import java.desktop.macosx.classes.sun.java2d.pipe.DrawImage;
 import java.awt.Color;
 import java.awt.Image;
 import java.awt.geom.AffineTransform;
 import java.awt.image.AffineTransformOp;
 import java.awt.image.BufferedImage;
 import java.awt.image.BufferedImageOp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MTLDrawImage extends DrawImage {
 

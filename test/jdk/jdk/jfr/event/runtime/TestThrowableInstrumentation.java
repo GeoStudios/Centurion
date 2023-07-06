@@ -21,9 +21,23 @@
 
 package jdk.jfr.event.runtime;
 
+
 import sun.hotspot.WhiteBox;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import jdk.test.lib.Platform;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

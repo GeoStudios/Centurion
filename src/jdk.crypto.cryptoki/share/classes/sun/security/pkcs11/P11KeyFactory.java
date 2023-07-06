@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs11;
+package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11;
 
-import java.security.*;
-import java.security.spec.*;
 
-import sun.security.pkcs11.wrapper.PKCS11Exception;
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.java.security.spec.*;
+import jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Exception;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * KeyFactory base class. Provides common infrastructure for the RSA, DSA,

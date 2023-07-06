@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.access.foreign;
+package java.base.share.classes.jdk.internal.access.foreign;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This proxy interface is required to allow instances of the {@code MemoryAddress} interface (which is defined inside

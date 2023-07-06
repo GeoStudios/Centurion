@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.escapeAnalysis;
+
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8043354
@@ -30,14 +49,11 @@
  * @author Chuck Rasbold rasbold@google.com
  */
 
-package compiler.escapeAnalysis;
 
 /*
  * Test always passes with -XX:-OptmimizePtrCompare
  */
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class TestAllocatedEscapesPtrComparison {
 

@@ -19,20 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.rowset.internal;
+package java.sql.rowset.share.classes.com.sun.rowset.internal;
+
 
 import java.sql.*;
 import javax.sql.*;
 import java.io.*;
-
 import org.xml.sax.*;
 import org.xml.sax.helpers.*;
 import javax.xml.parsers.*;
-
-import com.sun.rowset.*;
+import java.sql.rowset.share.classes.com.sun.rowset.*;
 import java.text.MessageFormat;
 import javax.sql.rowset.*;
 import javax.sql.rowset.spi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of the <code>XmlReader</code> interface, which

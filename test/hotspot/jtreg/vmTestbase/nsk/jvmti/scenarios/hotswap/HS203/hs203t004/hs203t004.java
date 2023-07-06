@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jvmti.scenarios.hotswap.HS203.hs203t004;
+
+
+import vm.share.VMRuntimeEnvUtils;
+import nsk.share.Consts;
+import nsk.share.jvmti.RedefineAgent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -52,11 +72,7 @@
  *      nsk.jvmti.scenarios.hotswap.HS203.hs203t004.hs203t004
  */
 
-package nsk.jvmti.scenarios.hotswap.HS203.hs203t004;
 
-import vm.share.VMRuntimeEnvUtils;
-import nsk.share.Consts;
-import nsk.share.jvmti.RedefineAgent;
 
 public class hs203t004 extends RedefineAgent {
 

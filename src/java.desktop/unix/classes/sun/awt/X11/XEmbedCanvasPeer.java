@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.*;
 import java.awt.dnd.DropTarget;
-import java.awt.dnd.DropTargetListener;
+import java.awt.dnd.DropTargetjava.util.Listener;
 import java.awt.event.*;
-import sun.awt.*;
-import sun.awt.AWTAccessor;
-import sun.util.logging.PlatformLogger;
+import java.desktop.unix.classes.sun.awt.*;
+import java.desktop.unix.classes.sun.awt.AWTAccessor;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 import java.util.*;
-import static sun.awt.X11.XEmbedHelper.*;
-
+import static java.desktop.unix.classes.sun.awt.X11.XEmbedHelper.*;.extended
 import java.security.AccessController;
-import sun.security.action.GetBooleanAction;
+import java.desktop.unix.classes.sun.security.action.GetBooleanAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class XEmbedCanvasPeer extends XCanvasPeer implements WindowFocusListener, KeyEventPostProcessor, ModalityListener, WindowIDProvider {
     private static final PlatformLogger xembedLog = PlatformLogger.getLogger("sun.awt.X11.xembed.XEmbedCanvasPeer");

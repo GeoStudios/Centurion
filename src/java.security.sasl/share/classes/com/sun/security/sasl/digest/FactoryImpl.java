@@ -19,14 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.security.sasl.digest;
+package java.security.sasl.share.classes.com.sun.security.sasl.digest;
+
 
 import java.util.Map;
-
 import javax.security.sasl.*;
 import javax.security.auth.callback.CallbackHandler;
+import java.security.sasl.share.classes.com.sun.security.sasl.util.PolicyUtils;
 
-import com.sun.security.sasl.util.PolicyUtils;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

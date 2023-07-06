@@ -21,4 +21,19 @@
 
 package pkg3;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface I0 extends I2, I3, I4 {}

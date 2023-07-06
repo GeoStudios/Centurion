@@ -19,18 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.jpeg;
+package java.desktop.share.classes.com.sun.imageio.plugins.jpeg;
 
-//import javax.imageio.IIOException;
+
 import javax.imageio.metadata.IIOInvalidTreeException;
 import javax.imageio.metadata.IIOMetadataNode;
 import javax.imageio.stream.ImageOutputStream;
-
-import java.io.IOException;
-
+import java.io.java.io.java.io.java.io.IOException;
 import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import org.w3c.dom.NamedNodeMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//import javax.imageio.IIOException;
+
+
 
 /**
  * An SOF (Start Of Frame)  marker segment.

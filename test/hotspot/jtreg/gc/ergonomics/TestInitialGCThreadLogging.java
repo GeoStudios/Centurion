@@ -21,6 +21,25 @@
 
 package gc.ergonomics;
 
+
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.process.OutputAnalyzer;
+import jtreg.SkippedException;
+import sun.hotspot.gc.GC;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestInitialGCThreadLogging
  * @bug 8157240
@@ -32,10 +51,6 @@ package gc.ergonomics;
  * @run main/othervm -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI gc.ergonomics.TestInitialGCThreadLogging
  */
 
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.process.OutputAnalyzer;
-import jtreg.SkippedException;
-import sun.hotspot.gc.GC;
 
 public class TestInitialGCThreadLogging {
   public static void main(String[] args) throws Exception {

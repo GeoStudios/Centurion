@@ -21,6 +21,21 @@
 
 package gc.stringdedup;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestStringDeduplicationInterned
  * @summary Test string deduplication of interned strings

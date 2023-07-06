@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
+
 
 import java.io.*;
-import java.util.Arrays;
-import java.util.Objects;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.java.util.Objects;
 import java.math.BigInteger;
 import java.security.KeyRep;
-import java.security.PrivateKey;
-import java.security.InvalidKeyException;
-import java.security.ProviderException;
+import java.base.share.classes.java.security.PrivateKey;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.ProviderException;
 import javax.crypto.spec.DHParameterSpec;
-import sun.security.util.*;
+import java.base.share.classes.com.sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A private key in PKCS#8 format for the Diffie-Hellman key agreement

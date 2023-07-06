@@ -21,8 +21,22 @@
 
 package separate;
 
+
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ClassToInterfaceConverter implements ClassFilePreprocessor {
 

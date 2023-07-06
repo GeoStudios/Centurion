@@ -19,27 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.tool;
+package jdk.jfr.share.classes.jdk.jfr.internal.tool;
+
 
 import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.file.Path;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.function.Predicate;
+import jdk.jfr.share.classes.jdk.jfr.EventType;
+import jdk.jfr.share.classes.jdk.jfr.Timespan;
+import jdk.jfr.share.classes.jdk.jfr.Timestamp;
+import jdk.jfr.share.classes.jdk.jfr.ValueDescriptor;
+import jdk.jfr.share.classes.jdk.jfr.consumer.RecordedEvent;
+import jdk.jfr.share.classes.jdk.jfr.consumer.RecordedObject;
+import jdk.jfr.share.classes.jdk.jfr.consumer.RecordingFile;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.JdkJfrConsumer;
 
-import jdk.jfr.EventType;
-import jdk.jfr.Timespan;
-import jdk.jfr.Timestamp;
-import jdk.jfr.ValueDescriptor;
-import jdk.jfr.consumer.RecordedEvent;
-import jdk.jfr.consumer.RecordedObject;
-import jdk.jfr.consumer.RecordingFile;
-import jdk.jfr.internal.consumer.JdkJfrConsumer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class EventPrintWriter extends StructuredWriter {
 

@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-import com.sun.jdi.InternalException;
-import com.sun.jdi.InvalidStackFrameException;
-import com.sun.jdi.MonitorInfo;
-import com.sun.jdi.ObjectReference;
-import com.sun.jdi.ThreadReference;
-import com.sun.jdi.VirtualMachine;
+
+import jdk.jdi.share.classes.com.sun.jdi.InternalException;
+import jdk.jdi.share.classes.com.sun.jdi.InvalidStackFrameException;
+import jdk.jdi.share.classes.com.sun.jdi.MonitorInfo;
+import jdk.jdi.share.classes.com.sun.jdi.ObjectReference;
+import jdk.jdi.share.classes.com.sun.jdi.ThreadReference;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MonitorInfoImpl extends MirrorImpl
     implements MonitorInfo, ThreadListener {

@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.sha.sanity;
+
+
+import compiler.testlibrary.sha.predicate.IntrinsicPredicates;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8252204
@@ -144,9 +162,7 @@
  *                    negative_384.log negative_512.log
  */
 
-package compiler.intrinsics.sha.sanity;
 
-import compiler.testlibrary.sha.predicate.IntrinsicPredicates;
 
 public class TestSHA3MultiBlockIntrinsics {
     public static void main(String args[]) throws Exception {

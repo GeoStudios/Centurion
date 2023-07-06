@@ -19,16 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/**
- * This is a dumy URL context factory for 'ldapv4://'.
- */
-
 package org.example.ldapv4;
+
 
 import java.util.*;
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.spi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * This is a dumy URL context factory for 'ldapv4://'.
+ */
+
+
 
 public class ldapv4URLContextFactory implements ObjectFactory {
 

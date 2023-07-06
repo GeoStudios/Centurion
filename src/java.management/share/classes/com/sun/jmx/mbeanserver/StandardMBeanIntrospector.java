@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.mbeanserver;
+package java.management.share.classes.com.sun.jmx.mbeanserver;
+
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -34,7 +35,21 @@ import javax.management.MBeanOperationInfo;
 import javax.management.NotCompliantMBeanException;
 import javax.management.NotificationBroadcaster;
 import javax.management.NotificationBroadcasterSupport;
-import sun.reflect.misc.MethodUtil;
+import java.management.share.classes.com.sun.reflect.misc.MethodUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

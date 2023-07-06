@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.imageio.stream;
+package java.desktop.share.classes.javax.imageio.stream;
+
 
 import java.io.InputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import com.sun.imageio.stream.StreamFinalizer;
 import sun.java2d.Disposer;
 import sun.java2d.DisposerRecord;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of {@code ImageInputStream} that gets its

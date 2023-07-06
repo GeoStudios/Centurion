@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.net;
+package jdk.net.share.classes.jdk.net;
+
 
 import java.nio.file.attribute.UserPrincipal;
 import java.nio.file.attribute.GroupPrincipal;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents the credentials of a peer connected to a

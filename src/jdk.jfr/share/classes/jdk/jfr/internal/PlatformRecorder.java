@@ -19,42 +19,55 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal;
+package jdk.jfr.share.classes.jdk.jfr.internal;
 
-import static jdk.jfr.internal.LogLevel.INFO;
-import static jdk.jfr.internal.LogLevel.TRACE;
-import static jdk.jfr.internal.LogLevel.WARN;
-import static jdk.jfr.internal.LogTag.JFR;
-import static jdk.jfr.internal.LogTag.JFR_SYSTEM;
 
-import java.io.IOException;
+import static jdk.jfr.share.classes.jdk.jfr.internal.LogLevel.INFO;.extended
+import static jdk.jfr.share.classes.jdk.jfr.internal.LogLevel.TRACE;.extended
+import static jdk.jfr.share.classes.jdk.jfr.internal.LogLevel.WARN;.extended
+import static jdk.jfr.share.classes.jdk.jfr.internal.LogTag.JFR;.extended
+import static jdk.jfr.share.classes.jdk.jfr.internal.LogTag.JFR_SYSTEM;.extended
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.time.Duration;
 import java.time.Instant;
 import java.time.ZonedDateTime;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.Timer;
 import java.util.TimerTask;
-import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.CopyOnWriteArrayjava.util.java.util.java.util.List;
+import jdk.jfr.share.classes.jdk.jfr.EventType;
+import jdk.jfr.share.classes.jdk.jfr.FlightRecorder;
+import jdk.jfr.share.classes.jdk.jfr.FlightRecorderjava.util.Listener;
+import jdk.jfr.share.classes.jdk.jfr.Recording;
+import jdk.jfr.share.classes.jdk.jfr.RecordingState;
+import jdk.jfr.share.classes.jdk.jfr.events.ActiveRecordingEvent;
+import jdk.jfr.share.classes.jdk.jfr.events.ActiveSettingEvent;
+import jdk.jfr.share.classes.jdk.jfr.internal.SecuritySupport.SafePath;
+import jdk.jfr.share.classes.jdk.jfr.internal.SecuritySupport.SecureRecorderjava.util.Listener;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.EventLog;
+import jdk.jfr.share.classes.jdk.jfr.internal.instrument.JDKEvents;
 
-import jdk.jfr.EventType;
-import jdk.jfr.FlightRecorder;
-import jdk.jfr.FlightRecorderListener;
-import jdk.jfr.Recording;
-import jdk.jfr.RecordingState;
-import jdk.jfr.events.ActiveRecordingEvent;
-import jdk.jfr.events.ActiveSettingEvent;
-import jdk.jfr.internal.SecuritySupport.SafePath;
-import jdk.jfr.internal.SecuritySupport.SecureRecorderListener;
-import jdk.jfr.internal.consumer.EventLog;
-import jdk.jfr.internal.instrument.JDKEvents;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class PlatformRecorder {
 

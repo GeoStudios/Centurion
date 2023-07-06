@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test;
+
+
+import java.io.File;
+import com.sun.tools.classfile.Attribute;
+import com.sun.tools.classfile.ClassFile;
+import com.sun.tools.classfile.Code_attribute;
+import com.sun.tools.classfile.ConstantPool.CPRefInfo;
+import com.sun.tools.classfile.Instruction;
+import com.sun.tools.classfile.Method;
+import com.sun.tools.classfile.Opcode;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8027789
@@ -29,17 +54,8 @@
  * @run main test.NonDirectSuper
  */
 
-package test;
 
-import java.io.File;
 
-import com.sun.tools.classfile.Attribute;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.Code_attribute;
-import com.sun.tools.classfile.ConstantPool.CPRefInfo;
-import com.sun.tools.classfile.Instruction;
-import com.sun.tools.classfile.Method;
-import com.sun.tools.classfile.Opcode;
 
 public class NonDirectSuper {
     public static void main(String... args) {

@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.print;
+package java.desktop.share.classes.javax.print;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Services may optionally provide UIs which allow different styles of

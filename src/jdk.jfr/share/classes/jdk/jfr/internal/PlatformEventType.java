@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal;
+package jdk.jfr.share.classes.jdk.jfr.internal;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
 
-import jdk.jfr.SettingDescriptor;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
+import jdk.jfr.share.classes.jdk.jfr.SettingDescriptor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of event type.

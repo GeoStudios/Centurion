@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.aod.AttachProvider.AttachProvider01;
+
+
+import com.sun.tools.attach.VirtualMachine;
+import com.sun.tools.attach.VirtualMachineDescriptor;
+import com.sun.tools.attach.spi.AttachProvider;
+import nsk.share.aod.AODTestRunner;
+import nsk.share.test.TestUtils;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -42,15 +65,8 @@
  *      -target nsk.share.aod.DummyTargetApplication
  */
 
-package nsk.aod.AttachProvider.AttachProvider01;
 
-import com.sun.tools.attach.VirtualMachine;
-import com.sun.tools.attach.VirtualMachineDescriptor;
-import com.sun.tools.attach.spi.AttachProvider;
-import nsk.share.aod.AODTestRunner;
-import nsk.share.test.TestUtils;
 
-import java.util.List;
 
 /*
  * Test checks method AttachProvider.listVirtualMachines()

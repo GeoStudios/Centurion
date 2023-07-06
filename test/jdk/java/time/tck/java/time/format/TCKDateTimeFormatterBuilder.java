@@ -21,16 +21,16 @@
 
 package tck.java.time.format;
 
-import static java.time.format.DateTimeFormatter.BASIC_ISO_DATE;
-import static java.time.temporal.ChronoField.DAY_OF_MONTH;
-import static java.time.temporal.ChronoField.HOUR_OF_DAY;
-import static java.time.temporal.ChronoField.MINUTE_OF_HOUR;
-import static java.time.temporal.ChronoField.MONTH_OF_YEAR;
-import static java.time.temporal.ChronoField.NANO_OF_SECOND;
-import static java.time.temporal.ChronoField.OFFSET_SECONDS;
-import static java.time.temporal.ChronoField.YEAR;
-import static org.testng.Assert.assertEquals;
 
+import static java.time.format.DateTimeFormatter.BASIC_ISO_DATE;.extended
+import static java.time.temporal.ChronoField.DAY_OF_MONTH;.extended
+import static java.time.temporal.ChronoField.HOUR_OF_DAY;.extended
+import static java.time.temporal.ChronoField.MINUTE_OF_HOUR;.extended
+import static java.time.temporal.ChronoField.MONTH_OF_YEAR;.extended
+import static java.time.temporal.ChronoField.NANO_OF_SECOND;.extended
+import static java.time.temporal.ChronoField.OFFSET_SECONDS;.extended
+import static java.time.temporal.ChronoField.YEAR;.extended
+import static org.testng.Assert.assertEquals;.extended
 import java.text.ParsePosition;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -48,12 +48,24 @@ import java.time.format.TextStyle;
 import java.time.temporal.Temporal;
 import java.time.temporal.TemporalAccessor;
 import java.util.HashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
-
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test DateTimeFormatterBuilder.

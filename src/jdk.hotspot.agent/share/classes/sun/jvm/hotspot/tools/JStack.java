@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.tools;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools;
 
-import sun.jvm.hotspot.debugger.JVMDebugger;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.JVMDebugger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JStack extends Tool {
     public JStack(boolean mixedMode, boolean concurrentLocks) {
@@ -78,7 +93,7 @@ public class JStack extends Tool {
 
         if (used != 0) {
             String[] newArgs = new String[args.length - used];
-            System.arraycopy(args, 0 + used, newArgs, 0, newArgs.length);
+            System.arraycopy(args, used, newArgs, 0, newArgs.length);
             args = newArgs;
         }
 

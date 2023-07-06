@@ -21,6 +21,7 @@
 
 package vm.mlvm.indy.stress.gc.lotsOfCallSites;
 
+
 import java.lang.invoke.CallSite;
 import java.lang.invoke.ConstantCallSite;
 import java.lang.invoke.MethodHandle;
@@ -30,8 +31,20 @@ import java.lang.ref.PhantomReference;
 import java.lang.ref.Reference;
 import java.lang.ref.ReferenceQueue;
 import java.util.HashSet;
-
 import vm.mlvm.share.Env;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Testee class, which records calls to bootstrap, target methods and adds callsite created

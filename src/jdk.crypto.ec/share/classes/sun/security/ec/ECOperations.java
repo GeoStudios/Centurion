@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ec;
+package jdk.crypto.ec.share.classes.sun.security.ec;
 
-import sun.security.ec.point.*;
-import sun.security.util.math.*;
-import sun.security.util.math.intpoly.*;
 
+import jdk.crypto.ec.share.classes.sun.security.ec.point.*;
+import jdk.crypto.ec.share.classes.sun.security.util.math.*;
+import jdk.crypto.ec.share.classes.sun.security.util.math.intpoly.*;
 import java.math.BigInteger;
-import java.security.ProviderException;
+import java.base.share.classes.java.security.ProviderException;
 import java.security.spec.ECFieldFp;
 import java.security.spec.ECParameterSpec;
 import java.security.spec.EllipticCurve;
 import java.util.Map;
 import java.util.Optional;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Elliptic curve point arithmetic for prime-order curves where a=-3.

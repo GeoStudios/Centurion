@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.unsafe;
+
+
+import org.testng.annotations.Test;
+import java.lang.reflect.Field;
+import static org.testng.Assert.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8143930
@@ -29,13 +49,9 @@
  *      compiler.intrinsics.unsafe.UnsafeTwoCASLong
  */
 
-package compiler.intrinsics.unsafe;
 
-import org.testng.annotations.Test;
 
-import java.lang.reflect.Field;
 
-import static org.testng.Assert.*;
 
 public class UnsafeTwoCASLong {
     static final int ITERS = Integer.getInteger("iters", 1);

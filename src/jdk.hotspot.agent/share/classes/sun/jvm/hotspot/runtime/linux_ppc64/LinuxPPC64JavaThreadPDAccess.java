@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.runtime.linux_ppc64;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.linux_ppc64;
+
 
 import java.io.*;
 import java.util.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.ppc64.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.ppc64.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
 
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.debugger.ppc64.*;
-import sun.jvm.hotspot.runtime.*;
-import sun.jvm.hotspot.runtime.ppc64.*;
-import sun.jvm.hotspot.types.*;
-import sun.jvm.hotspot.utilities.*;
-import sun.jvm.hotspot.utilities.Observable;
-import sun.jvm.hotspot.utilities.Observer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class LinuxPPC64JavaThreadPDAccess implements JavaThreadPDAccess {
   private static AddressField  osThreadField;

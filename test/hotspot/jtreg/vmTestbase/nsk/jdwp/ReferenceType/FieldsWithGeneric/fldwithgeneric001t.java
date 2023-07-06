@@ -21,11 +21,24 @@
 
 package nsk.jdwp.ReferenceType.FieldsWithGeneric;
 
-import java.io.*;
 
+import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class fldwithgeneric001t {
     public static void main(String args[]) {

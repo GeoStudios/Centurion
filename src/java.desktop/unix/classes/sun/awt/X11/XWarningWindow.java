@@ -18,15 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.awt.X11;
+
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.*;
 import java.awt.geom.Point2D;
 import java.lang.ref.WeakReference;
+import java.desktop.unix.classes.sun.awt.IconInfo;
+import java.desktop.unix.classes.sun.awt.AWTAccessor;
+import java.desktop.unix.classes.sun.awt.SunToolkit;
 
-import sun.awt.IconInfo;
-import sun.awt.AWTAccessor;
-import sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class XWarningWindow extends XWindow {
     private static final int SHOWING_DELAY = 330;

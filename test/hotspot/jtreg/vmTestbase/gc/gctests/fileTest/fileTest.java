@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.fileTest;
+
+
+import java.io.*;
+import java.util.*;
+import jdk.test.lib.Utils;
+import nsk.share.test.*;
+import nsk.share.gc.*;
+import nsk.share.TestBug;
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress
@@ -31,15 +55,7 @@
  * @run main/othervm gc.gctests.fileTest.fileTest -Filename fileTest.java -iterations 500
  */
 
-package gc.gctests.fileTest;
 
-import java.io.*;
-import java.util.*;
-import jdk.test.lib.Utils;
-import nsk.share.test.*;
-import nsk.share.gc.*;
-import nsk.share.TestBug;
-import nsk.share.TestFailure;
 
 public class fileTest extends GCTestBase {
         private File [] fileArray;

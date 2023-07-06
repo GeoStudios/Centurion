@@ -18,16 +18,16 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.util;
+
 
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Dialog;
-
 import javax.swing.JInternalFrame;
 import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
-
 import org.netbeans.jemmy.JemmyException;
 import org.netbeans.jemmy.JemmyInputException;
 import org.netbeans.jemmy.JemmyProperties;
@@ -40,6 +40,19 @@ import org.netbeans.jemmy.operators.JTabbedPaneOperator;
 import org.netbeans.jemmy.operators.Operator;
 import org.netbeans.jemmy.operators.WindowOperator;
 import org.netbeans.jemmy.operators.Operator.ComponentVisualizer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

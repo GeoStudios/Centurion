@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.windows;
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.awt.*;
-import sun.awt.GlobalCursorManager;
+import java.desktop.windows.classes.sun.awt.GlobalCursorManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class WGlobalCursorManager extends GlobalCursorManager {
     private static WGlobalCursorManager manager;

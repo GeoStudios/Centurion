@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.whitebox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test SetDontInlineMethodTest
  * @bug 8006683 8007288 8022832
@@ -34,7 +51,6 @@
  *                   compiler.whitebox.SetDontInlineMethodTest
  */
 
-package compiler.whitebox;
 
 public class SetDontInlineMethodTest extends CompilerWhiteBoxTest {
 

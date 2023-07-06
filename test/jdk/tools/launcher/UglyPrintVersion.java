@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package reallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallylongpackagename;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  *
  *
@@ -26,7 +43,6 @@
  * by MultipleJRE.sh. This version has a very long package name to
  * test the line concatination code in reading the jar file manifest.
  */
-package reallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallylongpackagename;
 
 public class UglyPrintVersion {
     public static void main(String argv[]) {

@@ -21,6 +21,20 @@
 
 package pkg1;
 
+
 import java.lang.annotation.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @Documented public @interface AnnotationType {}

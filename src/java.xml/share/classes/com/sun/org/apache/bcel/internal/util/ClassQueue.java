@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.bcel.internal.util;
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.util;
 
-import java.util.LinkedList;
 
-import com.sun.org.apache.bcel.internal.classfile.JavaClass;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.JavaClass;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class implementing a (typesafe) queue of JavaClass

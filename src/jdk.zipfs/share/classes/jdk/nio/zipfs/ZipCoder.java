@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.nio.zipfs;
+package jdk.zipfs.share.classes.jdk.nio.zipfs;
+
 
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
@@ -28,10 +29,23 @@ import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CharsetEncoder;
 import java.nio.charset.CoderResult;
 import java.nio.charset.CodingErrorAction;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
+import static java.nio.charset.StandardCharsets.ISO_8859_1;.extended
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
 
-import static java.nio.charset.StandardCharsets.ISO_8859_1;
-import static java.nio.charset.StandardCharsets.UTF_8;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class for zipfile name and comment decoding and encoding

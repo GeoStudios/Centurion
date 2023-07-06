@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.sql;
+package java.sql.share.classes.java.sql;
 
-import java.math.BigDecimal;
-import java.util.Calendar;
-import java.io.Reader;
-import java.io.InputStream;
+
+import java.sql.share.classes.java.math.BigDecimal;
+import java.sql.share.classes.java.util.Calendar;
+import java.sql.share.classes.java.io.Reader;
+import java.sql.share.classes.java.io.InputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The interface used to execute SQL stored procedures.  The JDBC API

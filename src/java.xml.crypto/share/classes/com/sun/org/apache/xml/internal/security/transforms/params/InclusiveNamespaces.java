@@ -19,21 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package com.sun.org.apache.xml.internal.security.transforms.params;
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.params;
+
 
 import java.util.Set;
 import java.util.SortedSet;
 import java.util.TreeSet;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.TransformParam;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.ElementProxy;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
 
-import com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
-import com.sun.org.apache.xml.internal.security.transforms.TransformParam;
-import com.sun.org.apache.xml.internal.security.utils.ElementProxy;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
 
 /**
  * This Object serves as Content for the ds:Transforms for exclusive

@@ -21,8 +21,22 @@
 
 package test.astro;
 
-import static java.io.File.separator;
-import static jaxp.library.JAXPTestUtilities.getPathByClassName;
+
+import static java.io.File.separator;.extended
+import static jaxp.library.JAXPTestUtilities.getPathByClassName;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AstroConstants {
     // Query parameters :

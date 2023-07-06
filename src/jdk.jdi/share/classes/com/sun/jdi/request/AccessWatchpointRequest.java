@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jdi.request;
+package jdk.jdi.share.classes.com.sun.jdi.request;
 
-import com.sun.jdi.event.AccessWatchpointEvent;
-import com.sun.jdi.event.EventQueue;
-import com.sun.jdi.event.EventSet;
+
+import jdk.jdi.share.classes.com.sun.jdi.event.AccessWatchpointEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.EventQueue;
+import jdk.jdi.share.classes.com.sun.jdi.event.EventSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Request for notification when the contents of a field are accessed

@@ -19,48 +19,61 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.api;
+package jdk.compiler.share.classes.com.sun.tools.javac.api;
+
 
 import java.util.Collection;
 import java.util.LinkedHashSet;
-import java.util.Locale;
-import java.util.Objects;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.Objects;
 import java.util.ServiceLoader;
 import java.util.Set;
 import java.util.stream.Collectors;
-
 import javax.annotation.processing.Processor;
 import javax.lang.model.element.Element;
 import javax.lang.model.type.TypeMirror;
 import javax.lang.model.util.Elements;
 import javax.lang.model.util.Types;
 import javax.tools.JavaFileObject;
+import jdk.compiler.share.classes.com.sun.source.tree.CompilationUnitTree;
+import jdk.compiler.share.classes.com.sun.source.tree.Tree;
+import jdk.compiler.share.classes.com.sun.source.util.JavacTask;
+import jdk.compiler.share.classes.com.sun.source.util.ParameterNameProvider;
+import jdk.compiler.share.classes.com.sun.source.util.Plugin;
+import jdk.compiler.share.classes.com.sun.source.util.Taskjava.util.Listener;
+import jdk.compiler.share.classes.com.sun.tools.doclint.DocLint;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.MissingInfoHandler;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.JavaCompiler;
+import jdk.compiler.share.classes.com.sun.tools.javac.model.JavacElements;
+import jdk.compiler.share.classes.com.sun.tools.javac.model.JavacTypes;
+import jdk.compiler.share.classes.com.sun.tools.javac.platform.PlatformDescription;
+import jdk.compiler.share.classes.com.sun.tools.javac.platform.PlatformDescription.PluginInfo;
+import jdk.compiler.share.classes.com.sun.tools.javac.processing.JavacProcessingEnvironment;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Warnings;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.ModuleHelper;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Options;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.PropagatedException;
 
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.tree.Tree;
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.ParameterNameProvider;
-import com.sun.source.util.Plugin;
-import com.sun.source.util.TaskListener;
-import com.sun.tools.doclint.DocLint;
-import com.sun.tools.javac.code.MissingInfoHandler;
-import com.sun.tools.javac.main.JavaCompiler;
-import com.sun.tools.javac.model.JavacElements;
-import com.sun.tools.javac.model.JavacTypes;
-import com.sun.tools.javac.platform.PlatformDescription;
-import com.sun.tools.javac.platform.PlatformDescription.PluginInfo;
-import com.sun.tools.javac.processing.JavacProcessingEnvironment;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.resources.CompilerProperties.Warnings;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.DefinedBy;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.Log;
-import com.sun.tools.javac.util.ModuleHelper;
-import com.sun.tools.javac.util.Options;
-import com.sun.tools.javac.util.PropagatedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides basic functionality for implementations of JavacTask.

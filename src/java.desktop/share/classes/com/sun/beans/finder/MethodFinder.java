@@ -18,19 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.beans.finder;
 
-import com.sun.beans.TypeResolver;
-import com.sun.beans.util.Cache;
+package java.desktop.share.classes.com.sun.beans.finder;
 
+
+import java.desktop.share.classes.com.sun.beans.TypeResolver;
+import java.desktop.share.classes.com.sun.beans.util.Cache;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
+import static java.desktop.share.classes.com.sun.beans.util.Cache.Kind.SOFT;.extended
+import static java.desktop.share.classes.com.sun.reflect.misc.ReflectUtil.isPackageAccessible;.extended
 
-import static com.sun.beans.util.Cache.Kind.SOFT;
-import static sun.reflect.misc.ReflectUtil.isPackageAccessible;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This utility class provides {@code static} methods

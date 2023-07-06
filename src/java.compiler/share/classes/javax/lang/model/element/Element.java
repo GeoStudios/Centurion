@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.lang.model.element;
+package java.compiler.share.classes.javax.lang.model.element;
 
 
 import java.lang.annotation.Annotation;
 import java.lang.annotation.AnnotationTypeMismatchException;
 import java.lang.annotation.IncompleteAnnotationException;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
+import java.compiler.share.classes.javax.lang.model.type.*;
+import java.compiler.share.classes.javax.lang.model.util.*;
 
-import javax.lang.model.type.*;
-import javax.lang.model.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a program element such as a module, package, class, or method.

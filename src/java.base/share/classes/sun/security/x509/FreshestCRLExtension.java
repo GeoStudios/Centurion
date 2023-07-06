@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.x509;
+package java.base.share.classes.sun.security.x509;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.math.BigInteger;
 import java.util.Enumeration;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.sun.security.util.*;
 
-import sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents the Freshest CRL Extension.

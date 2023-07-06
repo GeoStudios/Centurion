@@ -21,7 +21,21 @@
 
 package shared;
 
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
+
+import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public enum AccessType {
       PUBLIC           ("PUB")   { public int value() { return ACC_PUBLIC; } }

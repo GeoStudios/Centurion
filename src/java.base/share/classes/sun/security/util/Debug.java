@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.util;
+package java.base.share.classes.sun.security.util;
+
 
 import java.io.PrintStream;
 import java.math.BigInteger;
 import java.util.HexFormat;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
-import java.util.Locale;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A utility class for debugging.

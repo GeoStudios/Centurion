@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.jshell.tool;
+package jdk.jshell.share.classes.jdk.internal.jshell.tool;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.util.function.Consumer;
-import jdk.internal.org.jline.utils.NonBlockingInputStream;
+import jdk.jshell.share.classes.jdk.internal.org.jline.utils.NonBlockingInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class StopDetectingInputStream extends InputStream {
     public static final int INITIAL_SIZE = 128;

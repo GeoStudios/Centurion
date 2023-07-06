@@ -19,27 +19,45 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.security.jgss.share.classes.sun.security.krb5.internal.crypto.dk;
+
+
+import java.base.share.classes.javax.crypto.Cipher;
+import javax.crypto.Mac;
+import javax.crypto.SecretKeyFactory;
+import java.base.share.classes.javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.spec.SecretKeySpec;
+import java.base.share.classes.javax.crypto.spec.DESedeKeySpec;
+import javax.crypto.spec.IvParameterSpec;
+import javax.crypto.spec.PBEKeySpec;
+import java.base.share.classes.java.security.spec.KeySpec;
+import java.security.GeneralSecurityException;
+import java.security.jgss.share.classes.sun.security.krb5.KrbCryptoException;
+import java.security.jgss.share.classes.sun.security.krb5.Confounder;
+import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.KeyUsage;
+import java.base.share.classes.java.util.Arrays;
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  */
 
-package sun.security.krb5.internal.crypto.dk;
 
-import javax.crypto.Cipher;
-import javax.crypto.Mac;
-import javax.crypto.SecretKeyFactory;
-import javax.crypto.SecretKey;
-import javax.crypto.spec.SecretKeySpec;
-import javax.crypto.spec.DESedeKeySpec;
-import javax.crypto.spec.IvParameterSpec;
-import javax.crypto.spec.PBEKeySpec;
-import java.security.spec.KeySpec;
-import java.security.GeneralSecurityException;
-import sun.security.krb5.KrbCryptoException;
-import sun.security.krb5.Confounder;
-import sun.security.krb5.internal.crypto.KeyUsage;
-import java.util.Arrays;
 
-import static java.nio.charset.StandardCharsets.UTF_8;
+
 
 /**
  * This class provides the implementation of AES Encryption for Kerberos

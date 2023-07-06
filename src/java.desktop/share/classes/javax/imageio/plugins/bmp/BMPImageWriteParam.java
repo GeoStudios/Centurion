@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.imageio.plugins.bmp;
+package java.desktop.share.classes.javax.imageio.plugins.bmp;
 
-import java.util.Locale;
-import javax.imageio.ImageWriteParam;
 
+import java.base.share.classes.java.util.Locale;
+import java.desktop.share.classes.javax.imageio.ImageWriteParam;
 import com.sun.imageio.plugins.bmp.BMPConstants;
 import com.sun.imageio.plugins.bmp.BMPCompressionTypes;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A subclass of {@code ImageWriteParam} for encoding images in

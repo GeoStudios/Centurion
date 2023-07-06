@@ -19,32 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.lib;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.lib;
+
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.transform.TransformerException;
-
-import com.sun.org.apache.xalan.internal.extensions.ExpressionContext;
-import com.sun.org.apache.xalan.internal.res.XSLMessages;
-import com.sun.org.apache.xalan.internal.res.XSLTErrorResources;
-import com.sun.org.apache.xpath.internal.NodeSet;
-import com.sun.org.apache.xpath.internal.NodeSetDTM;
-import com.sun.org.apache.xpath.internal.XPath;
-import com.sun.org.apache.xpath.internal.XPathContext;
-import com.sun.org.apache.xpath.internal.objects.XBoolean;
-import com.sun.org.apache.xpath.internal.objects.XNodeSet;
-import com.sun.org.apache.xpath.internal.objects.XNumber;
-import com.sun.org.apache.xpath.internal.objects.XObject;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.extensions.ExpressionContext;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLTErrorResources;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.NodeSet;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.NodeSetDTM;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPath;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XBoolean;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XNodeSet;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XNumber;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 import jdk.xml.internal.JdkXmlUtils;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.w3c.dom.Text;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXNotSupportedException;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.w3c.dom.Text;
 
-import org.xml.sax.SAXNotSupportedException;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains EXSLT dynamic extension functions.

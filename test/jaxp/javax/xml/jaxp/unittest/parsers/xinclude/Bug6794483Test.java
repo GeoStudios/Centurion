@@ -21,12 +21,11 @@
 
 package parsers.xinclude;
 
-import static java.lang.System.lineSeparator;
-import static org.testng.Assert.assertEquals;
 
+import static java.lang.System.lineSeparator;.extended
+import static org.testng.Assert.assertEquals;.extended
 import java.io.File;
 import java.io.StringWriter;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.transform.OutputKeys;
@@ -34,11 +33,23 @@ import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
-
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.Document;
-import org.w3c.dom.NodeList;
+import org.w3c.dom.Nodejava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

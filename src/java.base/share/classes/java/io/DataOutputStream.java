@@ -19,7 +19,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
 /**
  * A data output stream lets an application write primitive Java data
@@ -31,7 +31,7 @@ package java.io;
  * thread then access to the data output stream should be controlled
  * by appropriate synchronization.
  *
- * @see     java.io.DataInputStream
+ * @see DataInputStream
  */
 public class DataOutputStream extends FilterOutputStream implements DataOutput {
     /**
@@ -116,8 +116,8 @@ public class DataOutputStream extends FilterOutputStream implements DataOutput {
      * calls the {@code flush} method of its underlying output stream.
      *
      * @throws     IOException  if an I/O error occurs.
-     * @see        java.io.FilterOutputStream#out
-     * @see        java.io.OutputStream#flush()
+     * @see        FilterOutputStream#out
+     * @see        OutputStream#flush()
      */
     public void flush() throws IOException {
         out.flush();
@@ -193,7 +193,7 @@ public class DataOutputStream extends FilterOutputStream implements DataOutput {
      *
      * @param      v   an {@code int} to be written.
      * @throws     IOException  if an I/O error occurs.
-     * @see        java.io.FilterOutputStream#out
+     * @see        FilterOutputStream#out
      */
     public final void writeInt(int v) throws IOException {
         writeBuffer[0] = (byte)(v >>> 24);
@@ -211,7 +211,7 @@ public class DataOutputStream extends FilterOutputStream implements DataOutput {
      *
      * @param      v   a {@code long} to be written.
      * @throws     IOException  if an I/O error occurs.
-     * @see        java.io.FilterOutputStream#out
+     * @see        FilterOutputStream#out
      */
     public final void writeLong(long v) throws IOException {
         writeBuffer[0] = (byte)(v >>> 56);

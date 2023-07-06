@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.unsafe;
+
+
+import jdk.internal.misc.Unsafe;
+import jdk.internal.vm.annotation.Stable;
+import jdk.test.lib.Platform;
+import java.util.concurrent.Callable;
+import static jdk.internal.misc.Unsafe.*;.extended
+import static jdk.test.lib.Asserts.assertEQ;.extended
+import static jdk.test.lib.Asserts.assertNE;.extended
+import sun.hotspot.code.Compiler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @summary tests on constant folding of unsafe get operations from stable arrays
@@ -38,19 +63,10 @@
  *                   compiler.unsafe.UnsafeGetStableArrayElement
  */
 
-package compiler.unsafe;
 
-import jdk.internal.misc.Unsafe;
-import jdk.internal.vm.annotation.Stable;
-import jdk.test.lib.Platform;
 
-import java.util.concurrent.Callable;
 
-import static jdk.internal.misc.Unsafe.*;
-import static jdk.test.lib.Asserts.assertEQ;
-import static jdk.test.lib.Asserts.assertNE;
 
-import sun.hotspot.code.Compiler;
 
 public class UnsafeGetStableArrayElement {
     @Stable static final boolean[] STABLE_BOOLEAN_ARRAY = new boolean[16];

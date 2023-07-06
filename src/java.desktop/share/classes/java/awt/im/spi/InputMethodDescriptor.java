@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.share.classes.java.awt.im.spi;
 
-package java.awt.im.spi;
 
-import java.awt.AWTException;
-import java.awt.Image;
-import java.util.Locale;
+import java.desktop.share.classes.java.awt.AWTException;
+import java.desktop.share.classes.java.awt.Image;
+import java.desktop.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines methods that provide sufficient information about an input method

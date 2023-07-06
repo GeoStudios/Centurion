@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.types;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types;
 
-import sun.jvm.hotspot.debugger.*;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A specialization of Field which represents a field referring to a
     C integer value. See CIntegerType for a discussion of C integer

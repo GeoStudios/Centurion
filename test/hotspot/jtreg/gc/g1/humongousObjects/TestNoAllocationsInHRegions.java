@@ -21,15 +21,27 @@
 
 package gc.g1.humongousObjects;
 
+
 import jdk.test.lib.Utils;
 import sun.hotspot.WhiteBox;
-
-import static gc.testlibrary.Allocation.blackHole;
-
-import java.util.LinkedList;
-import java.util.List;
+import static gc.testlibrary.Allocation.blackHole;.extended
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test TestNoAllocationsInHRegions

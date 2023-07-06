@@ -21,11 +21,24 @@
 
 package nsk.share.jdb;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.ArgumentHandler;
-
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface defining methods to control mirror of debuggee (i.e. debugged VM).

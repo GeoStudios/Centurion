@@ -19,14 +19,15 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.unix.classes.sun.print;
+
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.IOException;
-import java.util.ArrayList;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Vector;
 import java.security.AccessController;
@@ -50,6 +51,20 @@ import java.io.File;
 import java.io.FileReader;
 import java.net.URL;
 import java.nio.file.Files;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Remind: This class uses solaris commands. We also need a linux

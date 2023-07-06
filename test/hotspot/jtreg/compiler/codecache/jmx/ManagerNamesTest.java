@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codecache.jmx;
+
+
+import jdk.test.lib.Asserts;
+import sun.hotspot.code.BlobType;
+import java.lang.management.MemoryPoolMXBean;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test ManagerNamesTest
  * @summary verify getMemoryManageNames calls in case of segmented code cache
@@ -38,12 +58,8 @@
  *     compiler.codecache.jmx.ManagerNamesTest
  */
 
-package compiler.codecache.jmx;
 
-import jdk.test.lib.Asserts;
-import sun.hotspot.code.BlobType;
 
-import java.lang.management.MemoryPoolMXBean;
 
 public class ManagerNamesTest {
 

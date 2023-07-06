@@ -19,37 +19,47 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.modelmbean;
+package java.management.share.classes.javax.management.modelmbean;
 
-import static com.sun.jmx.defaults.JmxProperties.MODELMBEAN_LOGGER;
-import static com.sun.jmx.mbeanserver.Util.cast;
+
+import static com.sun.jmx.defaults.JmxProperties.MODELMBEAN_LOGGER;.extended
+import static com.sun.jmx.mbeanserver.Util.cast;.extended
 import com.sun.jmx.mbeanserver.GetPropertyAction;
 import com.sun.jmx.mbeanserver.Util;
-
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.ObjectStreamField;
-
 import java.lang.reflect.Constructor;
-
 import java.security.AccessController;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 import java.util.SortedMap;
 import java.util.StringTokenizer;
 import java.util.TreeMap;
 import java.lang.System.Logger.Level;
-
-import javax.management.Descriptor;
-import javax.management.ImmutableDescriptor;
-import javax.management.MBeanException;
-import javax.management.RuntimeOperationsException;
-
+import java.management.share.classes.javax.management.Descriptor;
+import java.management.share.classes.javax.management.ImmutableDescriptor;
+import java.management.share.classes.javax.management.MBeanException;
+import java.management.share.classes.javax.management.RuntimeOperationsException;
 import sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents the metadata set for a ModelMBean element.  A

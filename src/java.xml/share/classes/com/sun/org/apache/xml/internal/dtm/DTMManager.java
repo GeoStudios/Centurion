@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.dtm;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm;
 
-import com.sun.org.apache.xml.internal.utils.PrefixResolver;
-import com.sun.org.apache.xml.internal.utils.XMLStringFactory;
+
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.PrefixResolver;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLStringFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A DTMManager instance can be used to create DTM and

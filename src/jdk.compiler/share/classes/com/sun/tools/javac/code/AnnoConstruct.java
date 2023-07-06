@@ -19,21 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.code;
+package jdk.compiler.share.classes.com.sun.tools.javac.code;
+
 
 import java.lang.annotation.Annotation;
 import java.lang.annotation.Inherited;
 import java.lang.annotation.Repeatable;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-
 import javax.lang.model.AnnotatedConstruct;
+import jdk.compiler.share.classes.com.sun.tools.javac.model.AnnotationProxyMaker;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.ListBuffer;
 
-import com.sun.tools.javac.model.AnnotationProxyMaker;
-import com.sun.tools.javac.util.DefinedBy;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.ListBuffer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Common super type for annotated constructs such as Types and Symbols.

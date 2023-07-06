@@ -18,22 +18,24 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.jpackage.internal;
+
+package jdk.jpackage.linux.classes.jdk.jpackage.internal;
+
 
 import java.awt.image.BufferedImage;
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.regex.Pattern;
@@ -42,16 +44,30 @@ import java.util.stream.Stream;
 import javax.imageio.ImageIO;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamWriter;
-import jdk.jpackage.internal.Arguments.CLIOptions;
-import static jdk.jpackage.internal.LinuxAppImageBuilder.DEFAULT_ICON;
-import static jdk.jpackage.internal.LinuxAppImageBuilder.ICON_PNG;
-import static jdk.jpackage.internal.OverridableResource.createResource;
-import static jdk.jpackage.internal.StandardBundlerParam.ADD_LAUNCHERS;
-import static jdk.jpackage.internal.StandardBundlerParam.APP_NAME;
-import static jdk.jpackage.internal.StandardBundlerParam.DESCRIPTION;
-import static jdk.jpackage.internal.StandardBundlerParam.FILE_ASSOCIATIONS;
-import static jdk.jpackage.internal.StandardBundlerParam.ICON;
-import static jdk.jpackage.internal.StandardBundlerParam.PREDEFINED_APP_IMAGE;
+import jdk.jpackage.linux.classes.jdk.jpackage.internal.Arguments.CLIOptions;
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.LinuxAppImageBuilder.DEFAULT_ICON;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.LinuxAppImageBuilder.ICON_PNG;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.OverridableResource.createResource;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.ADD_LAUNCHERS;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.APP_NAME;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.DESCRIPTION;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.FILE_ASSOCIATIONS;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.ICON;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.PREDEFINED_APP_IMAGE;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper to create files for desktop integration.
@@ -368,8 +384,8 @@ final class DesktopIntegration {
      * Desktop integration file. xml, icon, etc.
      * Resides somewhere in application installation tree.
      * Has two paths:
-     *  - path where it should be placed at package build time;
-     *  - path where it should be installed by package manager;
+     *  - path where it should be placed at 
+     *  - path where it should be installed by 
      */
     private class DesktopFile {
 

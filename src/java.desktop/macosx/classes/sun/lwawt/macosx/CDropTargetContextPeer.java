@@ -19,15 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
 
 import java.awt.*;
 import java.awt.dnd.DropTarget;
-
-import sun.awt.dnd.SunDropTargetContextPeer;
-import sun.awt.dnd.SunDropTargetEvent;
-
+import java.desktop.macosx.classes.sun.awt.dnd.SunDropTargetContextPeer;
+import java.desktop.macosx.classes.sun.awt.dnd.SunDropTargetEvent;
 import javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 final class CDropTargetContextPeer extends SunDropTargetContextPeer {

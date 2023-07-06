@@ -21,8 +21,22 @@
 
 package jdk.jfr.tool;
 
+
 import java.util.Comparator;
 import jdk.jfr.consumer.RecordedEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class EndTicksComparator implements Comparator<RecordedEvent> {
     public long readEndTicks(RecordedEvent event) {

@@ -21,6 +21,28 @@
 
 package org.openjdk.tests.java.util.stream;
 
+
+import java.util.*;
+import java.util.function.BiConsumer;
+import java.util.function.BinaryOperator;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * THE CONTENTS OF THIS FILE HAVE TO BE IN SYNC WITH THE EXAMPLES USED
  * IN THE JAVADOC.
@@ -32,13 +54,6 @@ package org.openjdk.tests.java.util.stream;
  * java.util.stream.Collector class-level API documentation
  */
 
-import java.util.*;
-import java.util.function.BiConsumer;
-import java.util.function.BinaryOperator;
-import java.util.function.Function;
-import java.util.function.Supplier;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
 
 public class CollectorExample {
 

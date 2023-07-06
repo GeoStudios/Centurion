@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.parsing;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8244719
@@ -29,7 +46,6 @@
  *                   compiler.parsing.TestExceptionBlockWithPredecessorsMain
  */
 
-package compiler.parsing;
 
 public class TestExceptionBlockWithPredecessorsMain {
     public static void main(String[] args) {

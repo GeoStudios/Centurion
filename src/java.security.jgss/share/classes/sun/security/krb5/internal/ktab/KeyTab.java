@@ -19,15 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal.ktab;
+package java.security.jgss.share.classes.sun.security.krb5.internal.ktab;
 
-import sun.security.action.GetPropertyAction;
-import sun.security.krb5.*;
-import sun.security.krb5.internal.*;
-import sun.security.krb5.internal.crypto.*;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.io.IOException;
+
+import java.security.jgss.share.classes.sun.security.action.GetPropertyAction;
+import java.security.jgss.share.classes.sun.security.krb5.*;
+import java.security.jgss.share.classes.sun.security.krb5.internal.*;
+import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.*;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.File;
@@ -37,7 +38,21 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.StringTokenizer;
 import java.util.Vector;
-import sun.security.jgss.krb5.ServiceCreds;
+import java.security.jgss.share.classes.sun.security.jgss.krb5.ServiceCreds;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents key table. The key table functions deal with storing

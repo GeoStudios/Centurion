@@ -20,7 +20,22 @@
  */
 
 package jdk.jfr.event.gc.refstat;
+
+
 import jdk.test.lib.jfr.GCHelper;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

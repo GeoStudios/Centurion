@@ -19,9 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.source.util;
+package jdk.compiler.share.classes.com.sun.source.util;
 
-import com.sun.source.doctree.*;
+
+import jdk.compiler.share.classes.com.sun.source.doctree.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

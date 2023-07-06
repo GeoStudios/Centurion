@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci.meta;
+
+
+import jdk.internal.vm.annotation.Stable;
+import jdk.vm.ci.hotspot.HotSpotResolvedJavaField;
+import jdk.vm.ci.meta.MetaAccessProvider;
+import jdk.vm.ci.runtime.JVMCI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8151664
@@ -35,12 +56,7 @@
  * @run main/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler -Xbootclasspath/a:. compiler.jvmci.meta.StableFieldTest
  */
 
-package compiler.jvmci.meta;
 
-import jdk.internal.vm.annotation.Stable;
-import jdk.vm.ci.hotspot.HotSpotResolvedJavaField;
-import jdk.vm.ci.meta.MetaAccessProvider;
-import jdk.vm.ci.runtime.JVMCI;
 
 public class StableFieldTest {
 

@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics;
+
+
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6982370
@@ -28,9 +46,7 @@
  *      compiler.intrinsics.Test6982370
  */
 
-package compiler.intrinsics;
 
-import java.util.Arrays;
 
 /**
  * Exercise the fill routine for various short alignments and sizes

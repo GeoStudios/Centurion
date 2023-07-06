@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.text;
+package java.base.share.classes.sun.text;
+
 
 import jdk.internal.icu.text.NormalizerBase;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CollatorUtilities {
 

@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.joptsimple.internal;
+package jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal;
+
 
 import java.text.MessageFormat;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.ResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

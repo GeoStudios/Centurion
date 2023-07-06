@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.macosx.classes.sun.awt;
+
 
 import java.awt.AWTPermission;
 import java.awt.DisplayMode;
@@ -30,15 +31,27 @@ import java.awt.Rectangle;
 import java.awt.Window;
 import java.awt.geom.Rectangle2D;
 import java.awt.peer.WindowPeer;
-import java.util.Arrays;
-import java.util.Objects;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.java.util.Objects;
+import java.desktop.macosx.classes.sun.java2d.SunGraphicsEnvironment;
+import java.desktop.macosx.classes.sun.java2d.MacOSFlags;
+import java.desktop.macosx.classes.sun.java2d.metal.MTLGraphicsConfig;
+import java.desktop.macosx.classes.sun.java2d.opengl.CGLGraphicsConfig;
+import static java.awt.peer.ComponentPeer.SET_BOUNDS;.extended
 
-import sun.java2d.SunGraphicsEnvironment;
-import sun.java2d.MacOSFlags;
-import sun.java2d.metal.MTLGraphicsConfig;
-import sun.java2d.opengl.CGLGraphicsConfig;
 
-import static java.awt.peer.ComponentPeer.SET_BOUNDS;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class CGraphicsDevice extends GraphicsDevice
         implements DisplayChangedListener {

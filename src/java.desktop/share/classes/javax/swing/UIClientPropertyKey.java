@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface is used only for tagging keys for client properties for

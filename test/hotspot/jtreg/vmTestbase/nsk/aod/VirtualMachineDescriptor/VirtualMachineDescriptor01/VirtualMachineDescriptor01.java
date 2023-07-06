@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.aod.VirtualMachineDescriptor.VirtualMachineDescriptor01;
+
+
+import com.sun.tools.attach.VirtualMachine;
+import com.sun.tools.attach.VirtualMachineDescriptor;
+import com.sun.tools.attach.spi.AttachProvider;
+import nsk.share.aod.AODTestRunner;
+import nsk.share.test.TestUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -44,13 +66,7 @@
  *      -target nsk.share.aod.DummyTargetApplication
  */
 
-package nsk.aod.VirtualMachineDescriptor.VirtualMachineDescriptor01;
 
-import com.sun.tools.attach.VirtualMachine;
-import com.sun.tools.attach.VirtualMachineDescriptor;
-import com.sun.tools.attach.spi.AttachProvider;
-import nsk.share.aod.AODTestRunner;
-import nsk.share.test.TestUtils;
 
 /*
  * Basic sanity checks for class com.sun.tools.attach.VirtualMachineDescriptor

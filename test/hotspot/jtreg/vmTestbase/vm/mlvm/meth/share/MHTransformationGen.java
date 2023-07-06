@@ -21,20 +21,19 @@
 
 package vm.mlvm.meth.share;
 
+
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodType;
 import java.lang.management.MemoryUsage;
 import java.lang.management.MemoryPoolMXBean;
 import java.lang.management.ManagementFactory;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Optional;
 import java.util.function.BiConsumer;
-
 import jdk.test.lib.Platform;
-
 import nsk.share.test.LazyIntArrayToString;
 import nsk.share.test.TestUtils;
 import vm.mlvm.meth.share.transform.v2.MHArrayEnvelopeTFPair;
@@ -57,6 +56,19 @@ import vm.mlvm.meth.share.transform.v2.MHTFPair;
 import vm.mlvm.meth.share.transform.v2.MHThrowCatchTFPair;
 import vm.mlvm.meth.share.transform.v2.MHVarargsCollectSpreadTF;
 import vm.mlvm.share.Env;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MHTransformationGen {
 

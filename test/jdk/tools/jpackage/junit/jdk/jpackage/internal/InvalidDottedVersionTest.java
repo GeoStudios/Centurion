@@ -18,9 +18,11 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.jpackage.internal;
 
-import java.util.List;
+
+import java.util.java.util.java.util.java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import org.junit.Rule;
@@ -29,6 +31,19 @@ import org.junit.rules.ExpectedException;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @RunWith(Parameterized.class)
 public class InvalidDottedVersionTest {

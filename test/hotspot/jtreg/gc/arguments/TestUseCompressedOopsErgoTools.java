@@ -21,19 +21,31 @@
 
 package gc.arguments;
 
+
 import com.sun.management.HotSpotDiagnosticMXBean;
 import com.sun.management.VMOption;
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.ArrayList;
-import java.util.Arrays;
-
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.process.OutputAnalyzer;
 import java.lang.management.ManagementFactory;
 import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class DetermineMaxHeapForCompressedOops {
   public static void main(String[] args) throws Exception {

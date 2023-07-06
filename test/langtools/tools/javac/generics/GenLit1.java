@@ -21,6 +21,21 @@
 
 package genLit1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @interface X {
     Class value();
 }

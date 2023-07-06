@@ -21,9 +21,23 @@
 
 package nsk.jdi.ThreadReference.status.status008;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The debugged application of the test.

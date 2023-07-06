@@ -19,12 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.test;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Used with -p or --upgrade-module-path to exercise the replacement
  * of classes in modules that are linked into the runtime image.
  */
 
-package jdk.test;
 
 public class Main {
     static final ClassLoader PLATFORM_LOADER = ClassLoader.getPlatformClassLoader();

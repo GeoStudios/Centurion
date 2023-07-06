@@ -21,19 +21,31 @@
 
 package catalog;
 
-import static catalog.CatalogTestUtils.CATALOG_URI;
-import static catalog.CatalogTestUtils.RESOLVE_CONTINUE;
-import static catalog.CatalogTestUtils.catalogUriResolver;
-import static catalog.ResolutionChecker.checkNoUriMatch;
-import static catalog.ResolutionChecker.checkUriResolution;
 
+import static catalog.CatalogTestUtils.CATALOG_URI;.extended
+import static catalog.CatalogTestUtils.RESOLVE_CONTINUE;.extended
+import static catalog.CatalogTestUtils.catalogUriResolver;.extended
+import static catalog.ResolutionChecker.checkNoUriMatch;.extended
+import static catalog.ResolutionChecker.checkUriResolution;.extended
 import javax.xml.catalog.CatalogResolver;
 import javax.xml.catalog.CatalogException;
 import javax.xml.catalog.CatalogFeatures;
-
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

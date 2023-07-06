@@ -18,9 +18,24 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.jvmti.scenarios.hotswap.HS103.hs103t002;
 
+
 import java.util.concurrent.atomic.AtomicInteger;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MyThread extends Thread {
     public static AtomicInteger ai = new AtomicInteger(0);

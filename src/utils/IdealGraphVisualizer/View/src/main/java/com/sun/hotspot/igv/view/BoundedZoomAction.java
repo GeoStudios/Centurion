@@ -18,12 +18,14 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.view;
 
-import java.awt.Container;
-import java.awt.Dimension;
-import java.awt.Point;
-import java.awt.Rectangle;
+package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view;
+
+
+import utils.IdealGraphVisualizer.View.src.main.java.awt.Container;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.Dimension;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.Point;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.Rectangle;
 import javax.swing.JComponent;
 import javax.swing.JScrollPane;
 import org.netbeans.api.visual.action.WidgetAction;
@@ -32,6 +34,20 @@ import org.netbeans.api.visual.action.WidgetAction.WidgetMouseWheelEvent;
 import org.netbeans.api.visual.animator.SceneAnimator;
 import org.netbeans.api.visual.widget.Scene;
 import org.netbeans.api.visual.widget.Widget;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

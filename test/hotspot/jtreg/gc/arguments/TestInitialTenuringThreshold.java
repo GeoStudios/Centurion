@@ -21,6 +21,23 @@
 
 package gc.arguments;
 
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestInitialTenuringThreshold
  * @bug 8014765
@@ -34,8 +51,6 @@ package gc.arguments;
  * @author thomas.schatzl@oracle.com
  */
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class TestInitialTenuringThreshold {
 

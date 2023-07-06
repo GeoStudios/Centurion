@@ -18,12 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.xml.catalog;
+
+package java.xml.share.classes.javax.xml.catalog;
+
 
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.Objects;
-import static javax.xml.catalog.CatalogMessages.ERR_INVALID_ARGUMENT;
+import java.base.share.classes.java.util.Objects;
+import static java.xml.share.classes.javax.xml.catalog.CatalogMessages.ERR_INVALID_ARGUMENT;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a general Catalog entry.

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.windows;
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.awt.Color;
 import java.awt.Component;
@@ -28,8 +29,21 @@ import java.awt.Graphics;
 import java.awt.Insets;
 import java.awt.SystemColor;
 import java.awt.peer.PanelPeer;
+import java.desktop.windows.classes.sun.awt.SunGraphicsCallback;
 
-import sun.awt.SunGraphicsCallback;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class WPanelPeer extends WCanvasPeer implements PanelPeer {
 

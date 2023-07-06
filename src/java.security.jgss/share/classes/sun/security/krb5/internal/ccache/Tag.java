@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal.ccache;
+package java.security.jgss.share.classes.sun.security.krb5.internal.ccache;
 
-import sun.security.krb5.*;
+
+import java.security.jgss.share.classes.sun.security.krb5.*;
 import java.io.ByteArrayOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * tag field introduced in KRB5_FCC_FVNO_4

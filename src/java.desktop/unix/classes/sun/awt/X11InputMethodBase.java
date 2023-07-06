@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.unix.classes.sun.awt;
+
 
 import java.awt.AWTEvent;
 import java.awt.AWTException;
@@ -36,20 +37,33 @@ import java.awt.peer.ComponentPeer;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.Character.Subset;
 import java.lang.ref.WeakReference;
 import java.text.AttributedCharacterIterator;
 import java.text.AttributedString;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.StringTokenizer;
 import java.util.regex.Pattern;
+import java.desktop.unix.classes.sun.awt.im.InputMethodAdapter;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 
-import sun.awt.im.InputMethodAdapter;
-import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Input Method Adapter for XIM

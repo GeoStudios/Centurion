@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.lang.invoke;
+
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+import static java.lang.invoke.MethodHandles.dropArguments;.extended
+import static java.lang.invoke.MethodHandles.identity;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @bug 8184119
  * @summary test permutation when return value is directly derived from an argument
@@ -26,17 +50,9 @@
  */
 
 
-package test.java.lang.invoke;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodType;
 
-import static java.lang.invoke.MethodHandles.dropArguments;
-import static java.lang.invoke.MethodHandles.identity;
 
 public class PermuteArgsReturnVoidTest {
 

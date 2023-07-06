@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.naming.ldap;
+package java.naming.share.classes.javax.naming.ldap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents an event fired in response to an unsolicited

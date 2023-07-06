@@ -21,6 +21,7 @@
 
 package jdk.test.bar;
 
+
 import java.lang.module.ModuleDescriptor;
 import java.lang.module.ModuleDescriptor.Exports;
 import java.lang.module.ModuleDescriptor.Provides;
@@ -30,10 +31,22 @@ import java.util.Optional;
 import java.util.StringJoiner;
 import java.util.HashSet;
 import java.util.Set;
-
 import jdk.internal.module.ModuleHashes;
 import jdk.internal.module.ModuleReferenceImpl;
 import jdk.test.bar.internal.Message;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Bar {
     public static void main(String[] args) throws Exception {

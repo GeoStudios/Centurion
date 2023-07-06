@@ -18,6 +18,24 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package p.q.r;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8078473 8078660
@@ -25,7 +43,6 @@
  * @compile -Werror T8078473_2.java -XDrawDiagnostics -XDfind=diamond
  */
 
-package p.q.r;
 
 class T8078473_2<P, Q> {
 

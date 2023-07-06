@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.joptsimple.util;
+package jdk.internal.opt.share.classes.jdk.internal.joptsimple.util;
 
-import static jdk.internal.joptsimple.internal.Strings.*;
+
+import static jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.Strings.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>A simple string key/string value pair.</p>

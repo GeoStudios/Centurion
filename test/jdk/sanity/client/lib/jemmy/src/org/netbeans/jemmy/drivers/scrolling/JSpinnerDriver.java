@@ -18,15 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.drivers.scrolling;
 
-import javax.swing.SwingConstants;
 
+import javax.swing.SwingConstants;
 import org.netbeans.jemmy.drivers.LightSupportiveDriver;
 import org.netbeans.jemmy.drivers.ScrollDriver;
 import org.netbeans.jemmy.operators.ComponentOperator;
 import org.netbeans.jemmy.operators.JButtonOperator;
 import org.netbeans.jemmy.operators.JSpinnerOperator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A scroll driver serving JSpinner component.

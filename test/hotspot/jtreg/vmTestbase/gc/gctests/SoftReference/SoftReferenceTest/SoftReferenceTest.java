@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.SoftReference.SoftReferenceTest;
+
+
+import java.lang.ref.SoftReference;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Random;
+import nsk.share.TestFailure;
+import nsk.share.gc.GC;
+import nsk.share.gc.GCTestBase;
+import nsk.share.test.ExecutionController;
+import nsk.share.test.Stresser;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -37,16 +62,7 @@
  * @run main/othervm gc.gctests.SoftReference.SoftReferenceTest.SoftReferenceTest -stressTime 600
  */
 
-package gc.gctests.SoftReference.SoftReferenceTest;
 
-import java.lang.ref.SoftReference;
-import java.util.ArrayList;
-import java.util.Random;
-import nsk.share.TestFailure;
-import nsk.share.gc.GC;
-import nsk.share.gc.GCTestBase;
-import nsk.share.test.ExecutionController;
-import nsk.share.test.Stresser;
 
 /**
  * Tests for the SoftReference handling in JRockit.

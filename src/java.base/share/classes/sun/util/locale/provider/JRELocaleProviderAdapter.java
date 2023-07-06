@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.util.locale.provider;
+package java.base.share.classes.sun.util.locale.provider;
+
 
 import java.security.AccessController;
 import java.security.AccessControlException;
@@ -34,8 +35,8 @@ import java.text.spi.DecimalFormatSymbolsProvider;
 import java.text.spi.NumberFormatProvider;
 import java.util.Collections;
 import java.util.HashSet;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.ResourceBundle;
 import java.util.ServiceLoader;
 import java.util.ServiceConfigurationError;
@@ -49,9 +50,23 @@ import java.util.spi.CurrencyNameProvider;
 import java.util.spi.LocaleNameProvider;
 import java.util.spi.LocaleServiceProvider;
 import java.util.spi.TimeZoneNameProvider;
-import sun.text.spi.JavaTimeDateTimePatternProvider;
-import sun.util.resources.LocaleData;
-import sun.util.spi.CalendarProvider;
+import java.base.share.classes.sun.text.spi.JavaTimeDateTimePatternProvider;
+import java.base.share.classes.sun.util.resources.LocaleData;
+import java.base.share.classes.sun.util.spi.CalendarProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * LocaleProviderAdapter implementation for the legacy JRE locale data.

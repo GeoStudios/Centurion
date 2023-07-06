@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.whitebox;
+
+
+import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test LockCompilationTest
  * @bug 8059624 8152169
@@ -34,9 +52,7 @@
  *                   compiler.whitebox.LockCompilationTest
  */
 
-package compiler.whitebox;
 
-import jdk.test.lib.Asserts;
 
 public class LockCompilationTest extends CompilerWhiteBoxTest {
 

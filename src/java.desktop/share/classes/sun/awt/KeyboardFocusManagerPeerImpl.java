@@ -18,21 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.awt;
+
+package java.desktop.share.classes.sun.awt;
+
 
 import java.awt.Component;
 import java.awt.Window;
 import java.awt.Canvas;
 import java.awt.Scrollbar;
 import java.awt.Panel;
-
 import java.awt.event.FocusEvent;
-
 import java.awt.peer.KeyboardFocusManagerPeer;
 import java.awt.peer.ComponentPeer;
+import java.desktop.share.classes.sun.awt.AWTAccessor.ComponentAccessor;
+import java.desktop.share.classes.sun.util.logging.PlatformLogger;
 
-import sun.awt.AWTAccessor.ComponentAccessor;
-import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class KeyboardFocusManagerPeerImpl implements KeyboardFocusManagerPeer {
 

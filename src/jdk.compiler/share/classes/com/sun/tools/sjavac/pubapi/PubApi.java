@@ -19,19 +19,18 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac.pubapi;
+package jdk.compiler.share.classes.com.sun.tools.sjavac.pubapi;
 
 
-import static com.sun.tools.sjavac.Util.union;
-
+import static jdk.compiler.share.classes.com.sun.tools.sjavac.Util.union;.extended
 import java.io.Serializable;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
@@ -39,11 +38,23 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
 import javax.lang.model.element.Modifier;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.StringUtils;
 
-import com.sun.tools.javac.util.Assert;
-import com.sun.tools.javac.util.StringUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PubApi implements Serializable {
 

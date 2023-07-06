@@ -18,10 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package util;
 
+
 import javax.sql.RowSetEvent;
-import javax.sql.RowSetListener;
+import javax.sql.RowSetjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TestRowSetListener implements RowSetListener {
 

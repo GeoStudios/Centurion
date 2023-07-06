@@ -18,20 +18,35 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.reader.impl.completer;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+package jdk.internal.le.share.classes.jdk.internal.org.jline.reader.impl.completer;
+
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Objects;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.Candidate;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.Completer;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.LineReader;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.ParsedLine;
 
-import jdk.internal.org.jline.reader.Candidate;
-import jdk.internal.org.jline.reader.Completer;
-import jdk.internal.org.jline.reader.LineReader;
-import jdk.internal.org.jline.reader.ParsedLine;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@link Completer} implementation that invokes a child completer using the appropriate <i>separator</i> argument.

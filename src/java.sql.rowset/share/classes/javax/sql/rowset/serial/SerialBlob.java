@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.sql.rowset.serial;
+package java.sql.rowset.share.classes.javax.sql.rowset.serial;
+
 
 import java.sql.*;
 import java.io.*;
 import java.lang.reflect.*;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

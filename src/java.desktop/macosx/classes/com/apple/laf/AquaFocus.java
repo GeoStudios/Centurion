@@ -19,16 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.*;
-
 import javax.swing.*;
-
 import sun.java2d.*;
-import apple.laf.JRSUIFocus;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIFocus;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.Painter;
 
-import com.apple.laf.AquaUtils.Painter;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaFocus {
     interface Drawable {

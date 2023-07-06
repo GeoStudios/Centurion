@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider.certpath;
+package java.base.share.classes.sun.security.provider.certpath;
+
 
 import java.security.cert.Certificate;
 import java.security.cert.X509Certificate;
@@ -27,8 +28,22 @@ import java.security.cert.CertPathValidatorException;
 import java.security.cert.PKIXCertPathChecker;
 import java.util.Set;
 import java.util.Collection;
-import sun.security.util.Debug;
-import sun.security.util.UntrustedCertificates;
+import java.base.share.classes.sun.security.util.Debug;
+import java.base.share.classes.sun.security.util.UntrustedCertificates;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A <code>PKIXCertPathChecker</code> implementation to check whether a

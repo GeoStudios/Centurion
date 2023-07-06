@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.bench.jdk.incubator.foreign;
+
 
 import jdk.incubator.foreign.Addressable;
 import jdk.incubator.foreign.CLinker;
@@ -29,15 +31,26 @@ import jdk.incubator.foreign.MemorySegment;
 import jdk.incubator.foreign.ResourceScope;
 import jdk.incubator.foreign.SegmentAllocator;
 import jdk.incubator.foreign.SymbolLookup;
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodType;
+import static java.lang.invoke.MethodHandles.insertArguments;.extended
+import static jdk.incubator.foreign.CLinker.C_DOUBLE;.extended
+import static jdk.incubator.foreign.CLinker.C_INT;.extended
+import static jdk.incubator.foreign.CLinker.C_LONG_LONG;.extended
+import static jdk.incubator.foreign.CLinker.C_POINTER;.extended
 
-import static java.lang.invoke.MethodHandles.insertArguments;
-import static jdk.incubator.foreign.CLinker.C_DOUBLE;
-import static jdk.incubator.foreign.CLinker.C_INT;
-import static jdk.incubator.foreign.CLinker.C_LONG_LONG;
-import static jdk.incubator.foreign.CLinker.C_POINTER;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CallOverheadHelper {
 

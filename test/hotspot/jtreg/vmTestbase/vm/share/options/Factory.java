@@ -18,8 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package vm.share.options;
+
+
 import java.lang.annotation.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This annotation is coupled with {@link BasicObjectFactory} class,
  * and allows one to create implementations of ObjectFactory via annotations.

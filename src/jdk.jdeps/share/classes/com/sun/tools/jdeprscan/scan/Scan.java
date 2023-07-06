@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdeprscan.scan;
+package jdk.jdeps.share.classes.com.sun.tools.jdeprscan.scan;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintStream;
 import java.nio.file.Files;
 import java.nio.file.NoSuchFileException;
@@ -31,7 +32,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Enumeration;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
@@ -39,14 +40,26 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.*;
+import jdk.jdeps.share.classes.com.sun.tools.jdeprscan.DeprData;
+import jdk.jdeps.share.classes.com.sun.tools.jdeprscan.DeprDB;
+import jdk.jdeps.share.classes.com.sun.tools.jdeprscan.Messages;
+import static jdk.jdeps.share.classes.com.sun.tools.classfile.AccessFlags.*;.extended
+import static jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.*;.extended
 
-import com.sun.tools.classfile.*;
-import com.sun.tools.jdeprscan.DeprData;
-import com.sun.tools.jdeprscan.DeprDB;
-import com.sun.tools.jdeprscan.Messages;
 
-import static com.sun.tools.classfile.AccessFlags.*;
-import static com.sun.tools.classfile.ConstantPool.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An object that represents the scanning phase of deprecation usage checking.

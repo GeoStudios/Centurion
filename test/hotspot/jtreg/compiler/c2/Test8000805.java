@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8000805
@@ -30,7 +47,6 @@
  *      compiler.c2.Test8000805
  */
 
-package compiler.c2;
 public class Test8000805 {
     static long  loadS2LmaskFF (short[] sa) { return sa[0] & 0xFF; }
     static long _loadS2LmaskFF (short[] sa) { return sa[0] & 0xFF; }

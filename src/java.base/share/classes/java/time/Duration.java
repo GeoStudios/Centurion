@@ -19,39 +19,53 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.time;
+package java.base.share.classes.java.time;
 
-import static java.time.LocalTime.MINUTES_PER_HOUR;
-import static java.time.LocalTime.NANOS_PER_MILLI;
-import static java.time.LocalTime.NANOS_PER_SECOND;
-import static java.time.LocalTime.SECONDS_PER_DAY;
-import static java.time.LocalTime.SECONDS_PER_HOUR;
-import static java.time.LocalTime.SECONDS_PER_MINUTE;
-import static java.time.temporal.ChronoField.NANO_OF_SECOND;
-import static java.time.temporal.ChronoUnit.DAYS;
-import static java.time.temporal.ChronoUnit.NANOS;
-import static java.time.temporal.ChronoUnit.SECONDS;
 
-import java.io.DataInput;
-import java.io.DataOutput;
-import java.io.IOException;
-import java.io.InvalidObjectException;
-import java.io.ObjectInputStream;
-import java.io.Serializable;
-import java.math.BigDecimal;
-import java.math.BigInteger;
-import java.math.RoundingMode;
-import java.time.format.DateTimeParseException;
-import java.time.temporal.ChronoField;
-import java.time.temporal.ChronoUnit;
-import java.time.temporal.Temporal;
-import java.time.temporal.TemporalAmount;
-import java.time.temporal.TemporalUnit;
-import java.time.temporal.UnsupportedTemporalTypeException;
-import java.util.List;
-import java.util.Objects;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import static java.base.share.classes.java.time.LocalTime.MINUTES_PER_HOUR;.extended
+import static java.base.share.classes.java.time.LocalTime.NANOS_PER_MILLI;.extended
+import static java.base.share.classes.java.time.LocalTime.NANOS_PER_SECOND;.extended
+import static java.base.share.classes.java.time.LocalTime.SECONDS_PER_DAY;.extended
+import static java.base.share.classes.java.time.LocalTime.SECONDS_PER_HOUR;.extended
+import static java.base.share.classes.java.time.LocalTime.SECONDS_PER_MINUTE;.extended
+import static java.base.share.classes.java.time.temporal.ChronoField.NANO_OF_SECOND;.extended
+import static java.base.share.classes.java.time.temporal.ChronoUnit.DAYS;.extended
+import static java.base.share.classes.java.time.temporal.ChronoUnit.NANOS;.extended
+import static java.base.share.classes.java.time.temporal.ChronoUnit.SECONDS;.extended
+import java.base.share.classes.java.io.DataInput;
+import java.base.share.classes.java.io.DataOutput;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.InvalidObjectException;
+import java.base.share.classes.java.io.ObjectInputStream;
+import java.base.share.classes.java.io.Serializable;
+import java.base.share.classes.java.math.BigDecimal;
+import java.base.share.classes.java.math.BigInteger;
+import java.base.share.classes.java.math.RoundingMode;
+import java.base.share.classes.java.time.format.DateTimeParseException;
+import java.base.share.classes.java.time.temporal.ChronoField;
+import java.base.share.classes.java.time.temporal.ChronoUnit;
+import java.base.share.classes.java.time.temporal.Temporal;
+import java.base.share.classes.java.time.temporal.TemporalAmount;
+import java.base.share.classes.java.time.temporal.TemporalUnit;
+import java.base.share.classes.java.time.temporal.UnsupportedTemporalTypeException;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.regex.Matcher;
+import java.base.share.classes.java.util.regex.Pattern;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A time-based amount of time, such as '34.5 seconds'.

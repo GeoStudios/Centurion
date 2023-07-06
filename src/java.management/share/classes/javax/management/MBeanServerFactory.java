@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management;
+package java.management.share.classes.javax.management;
+
 
 import com.sun.jmx.defaults.JmxProperties;
-import static com.sun.jmx.defaults.JmxProperties.JMX_INITIAL_BUILDER;
-import static com.sun.jmx.defaults.JmxProperties.MBEANSERVER_LOGGER;
+import static com.sun.jmx.defaults.JmxProperties.JMX_INITIAL_BUILDER;.extended
+import static com.sun.jmx.defaults.JmxProperties.MBEANSERVER_LOGGER;.extended
 import com.sun.jmx.mbeanserver.GetPropertyAction;
 import java.security.AccessController;
 import java.security.Permission;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.lang.System.Logger.Level;
-import javax.management.loading.ClassLoaderRepository;
+import java.management.share.classes.javax.management.loading.ClassLoaderRepository;
 import sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

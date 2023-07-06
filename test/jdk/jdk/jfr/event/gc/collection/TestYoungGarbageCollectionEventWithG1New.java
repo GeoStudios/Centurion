@@ -21,6 +21,21 @@
 
 package jdk.jfr.event.gc.collection;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @key jfr

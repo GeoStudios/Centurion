@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
-import java.io.ObjectInputStream;
-import java.io.IOException;
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.security.Permission;
+
+import java.base.share.classes.java.io.ObjectInputStream;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Collections;
+import java.base.share.classes.java.security.Permission;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents permission to access a resource or set of resources defined by a

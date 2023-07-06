@@ -21,6 +21,24 @@
 
 package gc.g1;
 
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import java.util.Linkedjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestG1TraceEagerReclaimHumongousObjects
  * @bug 8058801 8048179
@@ -33,9 +51,6 @@ package gc.g1;
  * @run driver gc.g1.TestG1TraceEagerReclaimHumongousObjects
  */
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import java.util.LinkedList;
 
 public class TestG1TraceEagerReclaimHumongousObjects {
   public static void main(String[] args) throws Exception {

@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.monitoring.share.thread;
+
 
 import nsk.share.log.Log;
 import java.lang.management.ThreadInfo;
@@ -26,6 +28,19 @@ import java.lang.management.MonitorInfo;
 import java.lang.management.LockInfo;
 import nsk.share.test.LocalRandom;
 import nsk.share.TestBug;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * TimedWaitingThread is RecursiveMonitoringThread that is waiting on a lock.

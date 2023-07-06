@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.hotspot.igv.data;
+package utils.IdealGraphVisualizer.Data.src.test.java.com.sun.hotspot.igv.data;
 
-import com.sun.hotspot.igv.data.Properties.InvertPropertyMatcher;
-import com.sun.hotspot.igv.data.Properties.PropertyMatcher;
-import com.sun.hotspot.igv.data.Properties.PropertySelector;
-import com.sun.hotspot.igv.data.Properties.RegexpPropertyMatcher;
-import com.sun.hotspot.igv.data.Properties.StringPropertyMatcher;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
+
+import utils.IdealGraphVisualizer.Data.src.test.java.com.sun.hotspot.igv.data.Properties.InvertPropertyMatcher;
+import utils.IdealGraphVisualizer.Data.src.test.java.com.sun.hotspot.igv.data.Properties.PropertyMatcher;
+import utils.IdealGraphVisualizer.Data.src.test.java.com.sun.hotspot.igv.data.Properties.PropertySelector;
+import utils.IdealGraphVisualizer.Data.src.test.java.com.sun.hotspot.igv.data.Properties.RegexpPropertyMatcher;
+import utils.IdealGraphVisualizer.Data.src.test.java.com.sun.hotspot.igv.data.Properties.StringPropertyMatcher;
+import utils.IdealGraphVisualizer.Data.src.test.java.util.Arrayjava.util.java.util.java.util.List;
+import utils.IdealGraphVisualizer.Data.src.test.java.util.Collection;
+import utils.IdealGraphVisualizer.Data.src.test.java.util.Iterator;
 import junit.framework.TestCase;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

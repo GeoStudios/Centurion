@@ -19,23 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.lang.model.util;
+package java.compiler.share.classes.javax.lang.model.util;
+
 
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.util.EnumSet;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.LinkedHashSet;
+import java.compiler.share.classes.javax.lang.model.element.*;
+import java.compiler.share.classes.javax.lang.model.element.ModuleElement.Directive;
+import java.compiler.share.classes.javax.lang.model.element.ModuleElement.DirectiveKind;
+import java.compiler.share.classes.javax.lang.model.element.ModuleElement.ExportsDirective;
+import java.compiler.share.classes.javax.lang.model.element.ModuleElement.OpensDirective;
+import java.compiler.share.classes.javax.lang.model.element.ModuleElement.ProvidesDirective;
+import java.compiler.share.classes.javax.lang.model.element.ModuleElement.RequiresDirective;
+import java.compiler.share.classes.javax.lang.model.element.ModuleElement.UsesDirective;
 
-import javax.lang.model.element.*;
-import javax.lang.model.element.ModuleElement.Directive;
-import javax.lang.model.element.ModuleElement.DirectiveKind;
-import javax.lang.model.element.ModuleElement.ExportsDirective;
-import javax.lang.model.element.ModuleElement.OpensDirective;
-import javax.lang.model.element.ModuleElement.ProvidesDirective;
-import javax.lang.model.element.ModuleElement.RequiresDirective;
-import javax.lang.model.element.ModuleElement.UsesDirective;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

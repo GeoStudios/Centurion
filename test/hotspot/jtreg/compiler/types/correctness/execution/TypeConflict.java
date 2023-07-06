@@ -21,8 +21,22 @@
 
 package compiler.types.correctness.execution;
 
+
 import compiler.types.correctness.hierarchies.TypeHierarchy;
 import compiler.types.correctness.scenarios.Scenario;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  Type profiling conflict execution scenario. The main goal is

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
 
 import java.awt.Color;
 import java.awt.Component;
@@ -39,33 +40,45 @@ import java.awt.Window;
 import java.awt.event.FocusEvent;
 import java.awt.event.WindowEvent;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.lang.reflect.InvocationTargetException;
 import java.security.AccessController;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Comparator;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.atomic.AtomicReference;
-
 import javax.swing.JRootPane;
 import javax.swing.RootPaneContainer;
 import javax.swing.SwingUtilities;
-
 import com.apple.laf.ClientPropertyApplicator;
 import com.apple.laf.ClientPropertyApplicator.Property;
-import sun.awt.AWTAccessor;
-import sun.awt.AWTAccessor.ComponentAccessor;
-import sun.awt.AWTAccessor.WindowAccessor;
-import sun.java2d.SurfaceData;
-import sun.lwawt.LWLightweightFramePeer;
-import sun.lwawt.LWToolkit;
-import sun.lwawt.LWWindowPeer;
-import sun.lwawt.LWWindowPeer.PeerType;
-import sun.lwawt.PlatformWindow;
-import sun.security.action.GetPropertyAction;
-import sun.util.logging.PlatformLogger;
+import java.desktop.macosx.classes.sun.awt.AWTAccessor;
+import java.desktop.macosx.classes.sun.awt.AWTAccessor.ComponentAccessor;
+import java.desktop.macosx.classes.sun.awt.AWTAccessor.WindowAccessor;
+import java.desktop.macosx.classes.sun.java2d.SurfaceData;
+import java.desktop.macosx.classes.sun.lwawt.LWLightweightFramePeer;
+import java.desktop.macosx.classes.sun.lwawt.LWToolkit;
+import java.desktop.macosx.classes.sun.lwawt.LWWindowPeer;
+import java.desktop.macosx.classes.sun.lwawt.LWWindowPeer.PeerType;
+import java.desktop.macosx.classes.sun.lwawt.PlatformWindow;
+import java.desktop.macosx.classes.sun.security.action.GetPropertyAction;
+import java.desktop.macosx.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CPlatformWindow extends CFRetainedResource implements PlatformWindow {
     private native long nativeCreateNSWindow(long nsViewPtr,long ownerPtr, long styleBits, double x, double y, double w, double h);

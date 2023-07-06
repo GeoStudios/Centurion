@@ -19,22 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.event;
+package java.desktop.share.classes.java.awt.event;
 
-import java.awt.AWTEvent;
-import java.awt.Component;
-import java.awt.EventQueue;
-import java.awt.font.TextHitInfo;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.Serial;
-import java.lang.annotation.Native;
-import java.text.AttributedCharacterIterator;
-import java.text.CharacterIterator;
 
+import java.desktop.share.classes.java.awt.AWTEvent;
+import java.desktop.share.classes.java.awt.Component;
+import java.desktop.share.classes.java.awt.EventQueue;
+import java.desktop.share.classes.java.awt.font.TextHitInfo;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.lang.annotation.Native;
+import java.desktop.share.classes.java.text.AttributedCharacterIterator;
+import java.desktop.share.classes.java.text.CharacterIterator;
 import sun.awt.AWTAccessor;
 import sun.awt.AppContext;
 import sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Input method events contain information about text that is being

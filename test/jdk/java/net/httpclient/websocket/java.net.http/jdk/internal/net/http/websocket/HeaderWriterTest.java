@@ -21,18 +21,30 @@
 
 package jdk.internal.net.http.websocket;
 
+
 import org.testng.annotations.Test;
 import jdk.internal.net.http.websocket.Frame.HeaderWriter;
 import jdk.internal.net.http.websocket.Frame.Opcode;
-
 import java.nio.ByteBuffer;
 import java.util.OptionalInt;
+import static java.util.OptionalInt.empty;.extended
+import static java.util.OptionalInt.of;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static jdk.internal.net.http.websocket.TestSupport.assertThrows;.extended
+import static jdk.internal.net.http.websocket.TestSupport.forEachPermutation;.extended
 
-import static java.util.OptionalInt.empty;
-import static java.util.OptionalInt.of;
-import static org.testng.Assert.assertEquals;
-import static jdk.internal.net.http.websocket.TestSupport.assertThrows;
-import static jdk.internal.net.http.websocket.TestSupport.forEachPermutation;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class HeaderWriterTest {
 

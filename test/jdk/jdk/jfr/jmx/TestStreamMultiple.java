@@ -21,12 +21,25 @@
 
 package jdk.jfr.jmx;
 
-import java.util.List;
 
+import java.util.java.util.java.util.java.util.List;
 import jdk.jfr.consumer.RecordedEvent;
 import jdk.management.jfr.FlightRecorderMXBean;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.jfr.SimpleEventHelper;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

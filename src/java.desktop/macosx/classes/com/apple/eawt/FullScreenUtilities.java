@@ -19,15 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.eawt;
+package java.desktop.macosx.classes.com.apple.eawt;
+
 
 import java.awt.Component;
 import java.awt.Window;
-
 import javax.swing.RootPaneContainer;
-
-import com.apple.eawt.event.GestureUtilities;
+import java.desktop.macosx.classes.com.apple.eawt.event.GestureUtilities;
 import sun.lwawt.macosx.CPlatformWindow;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class perform animated full screen actions to top-level {@link Window}s.

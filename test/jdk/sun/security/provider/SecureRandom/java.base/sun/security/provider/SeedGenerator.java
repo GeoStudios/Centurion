@@ -19,9 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package sun.security.provider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // This is not the real sun.security.provider.SeedGenerator class. Used by
 // ../../../../CommonSeeder.java only.
-package sun.security.provider;
 
 public class SeedGenerator {
 

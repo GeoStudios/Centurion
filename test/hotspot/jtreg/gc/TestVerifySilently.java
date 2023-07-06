@@ -21,6 +21,26 @@
 
 package gc;
 
+
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.process.OutputAnalyzer;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Collections;
+import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test TestVerifySilently.java
  * @bug 8032771
  * @summary Test silent verification.
@@ -30,11 +50,6 @@ package gc;
  * @run main gc.TestVerifySilently
  */
 
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.process.OutputAnalyzer;
-import java.util.ArrayList;
-import java.util.Collections;
-import jdk.test.lib.Utils;
 
 class TestVerifySilentlyRunSystemGC {
   public static void main(String args[]) throws Exception {

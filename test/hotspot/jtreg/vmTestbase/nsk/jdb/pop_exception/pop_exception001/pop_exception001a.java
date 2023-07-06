@@ -21,11 +21,24 @@
 
 package nsk.jdb.pop_exception.pop_exception001;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdb.*;
-
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //    THIS TEST IS LINE NUMBER SENSITIVE
 

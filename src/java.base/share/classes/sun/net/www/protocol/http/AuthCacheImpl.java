@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.protocol.http;
+package java.base.share.classes.sun.net.www.protocol.http;
 
-import java.util.LinkedList;
-import java.util.ListIterator;
+
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.ListIterator;
 import java.util.HashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

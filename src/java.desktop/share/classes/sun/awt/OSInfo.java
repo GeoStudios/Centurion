@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.share.classes.sun.awt;
+
 
 import java.security.PrivilegedAction;
 import java.util.HashMap;
 import java.util.Map;
+import static java.desktop.share.classes.sun.awt.OSInfo.OSType.*;.extended
 
-import static sun.awt.OSInfo.OSType.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

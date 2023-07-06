@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.pipe;
+package java.desktop.share.classes.sun.java2d.pipe;
+
 
 import java.lang.ref.WeakReference;
 import java.awt.Rectangle;
@@ -30,13 +31,27 @@ import java.awt.image.ColorModel;
 import java.awt.image.Raster;
 import java.awt.image.WritableRaster;
 import java.awt.image.BufferedImage;
-import sun.awt.image.BufImgSurfaceData;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.SurfaceData;
-import sun.java2d.loops.Blit;
-import sun.java2d.loops.MaskBlit;
-import sun.java2d.loops.CompositeType;
-import sun.java2d.loops.GraphicsPrimitiveMgr;
+import java.desktop.share.classes.sun.awt.image.BufImgSurfaceData;
+import java.desktop.share.classes.sun.java2d.SunGraphics2D;
+import java.desktop.share.classes.sun.java2d.SurfaceData;
+import java.desktop.share.classes.sun.java2d.loops.Blit;
+import java.desktop.share.classes.sun.java2d.loops.MaskBlit;
+import java.desktop.share.classes.sun.java2d.loops.CompositeType;
+import java.desktop.share.classes.sun.java2d.loops.GraphicsPrimitiveMgr;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements a CompositePipe that renders path alpha tiles

@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
-import java.io.FileDescriptor;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.Objects;
-import java.util.Set;
 
+import java.base.share.classes.java.io.FileDescriptor;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.InputStream;
+import java.base.share.classes.java.io.OutputStream;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.PrivilegedAction;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Set;
 import sun.net.NetProperties;
-import sun.net.PlatformSocketImpl;
-import sun.nio.ch.NioSocketImpl;
+import sun.net.Platformjava.net.SocketImpl;
+import sun.nio.ch.Niojava.net.SocketImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The abstract class {@code SocketImpl} is a common superclass

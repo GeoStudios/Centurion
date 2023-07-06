@@ -19,23 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.xml.sax.helpers;
+package java.xml.share.classes.org.xml.sax.helpers;
 
-import java.io.IOException;
 
-import org.xml.sax.XMLReader;
-import org.xml.sax.XMLFilter;
-import org.xml.sax.InputSource;
-import org.xml.sax.Locator;
-import org.xml.sax.Attributes;
-import org.xml.sax.EntityResolver;
-import org.xml.sax.DTDHandler;
-import org.xml.sax.ContentHandler;
-import org.xml.sax.ErrorHandler;
-import org.xml.sax.SAXException;
-import org.xml.sax.SAXParseException;
-import org.xml.sax.SAXNotSupportedException;
-import org.xml.sax.SAXNotRecognizedException;
+import java.io.java.io.java.io.java.io.IOException;
+import java.xml.share.classes.org.xml.sax.XMLReader;
+import java.xml.share.classes.org.xml.sax.XMLFilter;
+import java.xml.share.classes.org.xml.sax.InputSource;
+import java.xml.share.classes.org.xml.sax.Locator;
+import java.xml.share.classes.org.xml.sax.Attributes;
+import java.xml.share.classes.org.xml.sax.EntityResolver;
+import java.xml.share.classes.org.xml.sax.DTDHandler;
+import java.xml.share.classes.org.xml.sax.ContentHandler;
+import java.xml.share.classes.org.xml.sax.ErrorHandler;
+import java.xml.share.classes.org.xml.sax.SAXException;
+import java.xml.share.classes.org.xml.sax.SAXParseException;
+import java.xml.share.classes.org.xml.sax.SAXNotSupportedException;
+import java.xml.share.classes.org.xml.sax.SAXNotRecognizedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

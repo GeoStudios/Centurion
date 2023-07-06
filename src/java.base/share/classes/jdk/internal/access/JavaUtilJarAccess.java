@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.access;
+package java.base.share.classes.jdk.internal.access;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.URL;
 import java.security.CodeSource;
 import java.util.Enumeration;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.jar.Attributes;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 import java.util.jar.Manifest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface JavaUtilJarAccess {
     boolean jarFileHasClassPathAttribute(JarFile jar) throws IOException;

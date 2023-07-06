@@ -21,12 +21,25 @@
 
 package nsk.jdi.ClassLoaderReference.definedClasses;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
 import java.net.URLClassLoader;
 import java.net.URL;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the definedclasses001 JDI test.

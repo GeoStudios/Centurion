@@ -19,43 +19,57 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
+import jdk.jdi.share.classes.com.sun.jdi.Field;
+import jdk.jdi.share.classes.com.sun.jdi.Location;
+import jdk.jdi.share.classes.com.sun.jdi.NativeMethodException;
+import jdk.jdi.share.classes.com.sun.jdi.ObjectReference;
+import jdk.jdi.share.classes.com.sun.jdi.ReferenceType;
+import jdk.jdi.share.classes.com.sun.jdi.ThreadReference;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+import jdk.jdi.share.classes.com.sun.jdi.request.AccessWatchpointRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.BreakpointRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.ClassPrepareRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.ClassUnloadRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.DuplicateRequestException;
+import jdk.jdi.share.classes.com.sun.jdi.request.EventRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.EventRequestManager;
+import jdk.jdi.share.classes.com.sun.jdi.request.ExceptionRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.InvalidRequestStateException;
+import jdk.jdi.share.classes.com.sun.jdi.request.MethodEntryRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.MethodExitRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.ModificationWatchpointRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.MonitorContendedEnterRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.MonitorContendedEnteredRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.MonitorWaitRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.MonitorWaitedRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.StepRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.ThreadDeathRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.ThreadStartRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.VMDeathRequest;
+import jdk.jdi.share.classes.com.sun.jdi.request.WatchpointRequest;
 
-import com.sun.jdi.Field;
-import com.sun.jdi.Location;
-import com.sun.jdi.NativeMethodException;
-import com.sun.jdi.ObjectReference;
-import com.sun.jdi.ReferenceType;
-import com.sun.jdi.ThreadReference;
-import com.sun.jdi.VirtualMachine;
-import com.sun.jdi.request.AccessWatchpointRequest;
-import com.sun.jdi.request.BreakpointRequest;
-import com.sun.jdi.request.ClassPrepareRequest;
-import com.sun.jdi.request.ClassUnloadRequest;
-import com.sun.jdi.request.DuplicateRequestException;
-import com.sun.jdi.request.EventRequest;
-import com.sun.jdi.request.EventRequestManager;
-import com.sun.jdi.request.ExceptionRequest;
-import com.sun.jdi.request.InvalidRequestStateException;
-import com.sun.jdi.request.MethodEntryRequest;
-import com.sun.jdi.request.MethodExitRequest;
-import com.sun.jdi.request.ModificationWatchpointRequest;
-import com.sun.jdi.request.MonitorContendedEnterRequest;
-import com.sun.jdi.request.MonitorContendedEnteredRequest;
-import com.sun.jdi.request.MonitorWaitRequest;
-import com.sun.jdi.request.MonitorWaitedRequest;
-import com.sun.jdi.request.StepRequest;
-import com.sun.jdi.request.ThreadDeathRequest;
-import com.sun.jdi.request.ThreadStartRequest;
-import com.sun.jdi.request.VMDeathRequest;
-import com.sun.jdi.request.WatchpointRequest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface is used to create and remove Breakpoints, Watchpoints,
@@ -893,67 +907,67 @@ class EventRequestManagerImpl extends MirrorImpl
     }
 
     public List<StepRequest> stepRequests() {
-        return (List<StepRequest>)unmodifiableRequestList(JDWP.EventKind.SINGLE_STEP);
+        return unmodifiableRequestList(JDWP.EventKind.SINGLE_STEP);
     }
 
     public List<ClassPrepareRequest> classPrepareRequests() {
-        return (List<ClassPrepareRequest>)unmodifiableRequestList(JDWP.EventKind.CLASS_PREPARE);
+        return unmodifiableRequestList(JDWP.EventKind.CLASS_PREPARE);
     }
 
     public List<ClassUnloadRequest> classUnloadRequests() {
-        return (List<ClassUnloadRequest>)unmodifiableRequestList(JDWP.EventKind.CLASS_UNLOAD);
+        return unmodifiableRequestList(JDWP.EventKind.CLASS_UNLOAD);
     }
 
     public List<ThreadStartRequest> threadStartRequests() {
-        return (List<ThreadStartRequest>)unmodifiableRequestList(JDWP.EventKind.THREAD_START);
+        return unmodifiableRequestList(JDWP.EventKind.THREAD_START);
     }
 
     public List<ThreadDeathRequest> threadDeathRequests() {
-        return (List<ThreadDeathRequest>)unmodifiableRequestList(JDWP.EventKind.THREAD_DEATH);
+        return unmodifiableRequestList(JDWP.EventKind.THREAD_DEATH);
     }
 
     public List<ExceptionRequest> exceptionRequests() {
-        return (List<ExceptionRequest>)unmodifiableRequestList(JDWP.EventKind.EXCEPTION);
+        return unmodifiableRequestList(JDWP.EventKind.EXCEPTION);
     }
 
     public List<BreakpointRequest> breakpointRequests() {
-        return (List<BreakpointRequest>)unmodifiableRequestList(JDWP.EventKind.BREAKPOINT);
+        return unmodifiableRequestList(JDWP.EventKind.BREAKPOINT);
     }
 
     public List<AccessWatchpointRequest> accessWatchpointRequests() {
-        return (List<AccessWatchpointRequest>)unmodifiableRequestList(JDWP.EventKind.FIELD_ACCESS);
+        return unmodifiableRequestList(JDWP.EventKind.FIELD_ACCESS);
     }
 
     public List<ModificationWatchpointRequest> modificationWatchpointRequests() {
-        return (List<ModificationWatchpointRequest>)unmodifiableRequestList(JDWP.EventKind.FIELD_MODIFICATION);
+        return unmodifiableRequestList(JDWP.EventKind.FIELD_MODIFICATION);
     }
 
     public List<MethodEntryRequest> methodEntryRequests() {
-        return (List<MethodEntryRequest>)unmodifiableRequestList(JDWP.EventKind.METHOD_ENTRY);
+        return unmodifiableRequestList(JDWP.EventKind.METHOD_ENTRY);
     }
 
     public List<MethodExitRequest> methodExitRequests() {
-        return (List<MethodExitRequest>)unmodifiableRequestList(EventRequestManagerImpl.methodExitEventCmd);
+        return unmodifiableRequestList(EventRequestManagerImpl.methodExitEventCmd);
     }
 
     public List<MonitorContendedEnterRequest> monitorContendedEnterRequests() {
-        return (List<MonitorContendedEnterRequest>)unmodifiableRequestList(JDWP.EventKind.MONITOR_CONTENDED_ENTER);
+        return unmodifiableRequestList(JDWP.EventKind.MONITOR_CONTENDED_ENTER);
     }
 
     public List<MonitorContendedEnteredRequest> monitorContendedEnteredRequests() {
-        return (List<MonitorContendedEnteredRequest>)unmodifiableRequestList(JDWP.EventKind.MONITOR_CONTENDED_ENTERED);
+        return unmodifiableRequestList(JDWP.EventKind.MONITOR_CONTENDED_ENTERED);
     }
 
     public List<MonitorWaitRequest> monitorWaitRequests() {
-        return (List<MonitorWaitRequest>)unmodifiableRequestList(JDWP.EventKind.MONITOR_WAIT);
+        return unmodifiableRequestList(JDWP.EventKind.MONITOR_WAIT);
     }
 
     public List<MonitorWaitedRequest> monitorWaitedRequests() {
-        return (List<MonitorWaitedRequest>)unmodifiableRequestList(JDWP.EventKind.MONITOR_WAITED);
+        return unmodifiableRequestList(JDWP.EventKind.MONITOR_WAITED);
     }
 
     public List<VMDeathRequest> vmDeathRequests() {
-        return (List<VMDeathRequest>)unmodifiableRequestList(JDWP.EventKind.VM_DEATH);
+        return unmodifiableRequestList(JDWP.EventKind.VM_DEATH);
     }
 
     List<? extends EventRequest> unmodifiableRequestList(int eventCmd) {

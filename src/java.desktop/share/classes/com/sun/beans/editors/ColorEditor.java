@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.beans.editors;
+package java.desktop.share.classes.com.sun.beans.editors;
+
 
 import java.awt.Canvas;
 import java.awt.Choice;
@@ -28,10 +29,24 @@ import java.awt.Dimension;
 import java.awt.Event;
 import java.awt.Panel;
 import java.awt.TextField;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.beans.PropertyChangeSupport;
 import java.beans.PropertyEditor;
 import java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ColorEditor extends Panel implements PropertyEditor {
 

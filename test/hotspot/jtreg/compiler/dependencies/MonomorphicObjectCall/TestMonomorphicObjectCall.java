@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.dependencies.MonomorphicObjectCall;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8050079
@@ -32,7 +49,6 @@
  *                   compiler.dependencies.MonomorphicObjectCall.TestMonomorphicObjectCall
  */
 
-package compiler.dependencies.MonomorphicObjectCall;
 
 public class TestMonomorphicObjectCall {
 

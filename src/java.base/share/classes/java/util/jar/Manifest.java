@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.jar;
+package java.base.share.classes.java.util.jar;
 
-import java.io.DataOutputStream;
-import java.io.FilterInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.util.HashMap;
-import java.util.Map;
 
+import java.base.share.classes.java.io.DataOutputStream;
+import java.base.share.classes.java.io.FilterInputStream;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.InputStream;
+import java.base.share.classes.java.io.OutputStream;
+import java.base.share.classes.java.util.HashMap;
+import java.base.share.classes.java.util.Map;
 import sun.nio.cs.UTF_8;
 import sun.security.util.SecurityProperties;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Manifest class is used to maintain Manifest entry names and their

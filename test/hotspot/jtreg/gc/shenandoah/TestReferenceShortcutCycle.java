@@ -21,6 +21,26 @@
 
 package gc.shenandoah;
 
+
+import java.lang.ref.PhantomReference;
+import java.lang.ref.Reference;
+import java.lang.ref.ReferenceQueue;
+import java.lang.ref.WeakReference;
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @requires vm.gc.Shenandoah
  * @library /test/lib
@@ -47,11 +67,6 @@ package gc.shenandoah;
  *      gc.shenandoah.TestReferenceShortcutCycle
  */
 
-import java.lang.ref.PhantomReference;
-import java.lang.ref.Reference;
-import java.lang.ref.ReferenceQueue;
-import java.lang.ref.WeakReference;
-import sun.hotspot.WhiteBox;
 
 public class TestReferenceShortcutCycle {
     private static final int NUM_ITEMS = 100000;

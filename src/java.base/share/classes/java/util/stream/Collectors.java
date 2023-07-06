@@ -18,41 +18,56 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.util.stream;
 
-import java.util.AbstractMap;
-import java.util.AbstractSet;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.DoubleSummaryStatistics;
-import java.util.EnumSet;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.IntSummaryStatistics;
-import java.util.Iterator;
-import java.util.List;
-import java.util.LongSummaryStatistics;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Optional;
-import java.util.Set;
-import java.util.StringJoiner;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
-import java.util.function.BiConsumer;
-import java.util.function.BiFunction;
-import java.util.function.BinaryOperator;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.Predicate;
-import java.util.function.Supplier;
-import java.util.function.ToDoubleFunction;
-import java.util.function.ToIntFunction;
-import java.util.function.ToLongFunction;
+package java.base.share.classes.java.util.stream;
 
-import jdk.internal.access.SharedSecrets;
+
+import java.base.share.classes.java.util.AbstractMap;
+import java.base.share.classes.java.util.AbstractSet;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Collection;
+import java.base.share.classes.java.util.Collections;
+import java.base.share.classes.java.util.Comparator;
+import java.base.share.classes.java.util.DoubleSummaryStatistics;
+import java.base.share.classes.java.util.EnumSet;
+import java.base.share.classes.java.util.HashMap;
+import java.base.share.classes.java.util.HashSet;
+import java.base.share.classes.java.util.IntSummaryStatistics;
+import java.base.share.classes.java.util.Iterator;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.LongSummaryStatistics;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Optional;
+import java.base.share.classes.java.util.Set;
+import java.base.share.classes.java.util.StringJoiner;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.concurrent.ConcurrentMap;
+import java.base.share.classes.java.util.function.BiConsumer;
+import java.base.share.classes.java.util.function.BiFunction;
+import java.base.share.classes.java.util.function.BinaryOperator;
+import java.base.share.classes.java.util.function.Consumer;
+import java.base.share.classes.java.util.function.Function;
+import java.base.share.classes.java.util.function.Predicate;
+import java.base.share.classes.java.util.function.Supplier;
+import java.base.share.classes.java.util.function.ToDoubleFunction;
+import java.base.share.classes.java.util.function.ToIntFunction;
+import java.base.share.classes.java.util.function.ToLongFunction;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementations of {@link Collector} that implement various useful reduction

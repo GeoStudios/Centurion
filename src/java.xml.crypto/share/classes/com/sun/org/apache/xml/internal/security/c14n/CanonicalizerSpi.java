@@ -19,20 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package com.sun.org.apache.xml.internal.security.c14n;
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n;
+
 
 import java.io.ByteArrayInputStream;
 import java.io.OutputStream;
 import java.util.Set;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.parser.XMLParserException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.XMLUtils;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
 
-import com.sun.org.apache.xml.internal.security.parser.XMLParserException;
-import com.sun.org.apache.xml.internal.security.utils.XMLUtils;
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
 
 /**
  * Base class which all Canonicalization algorithms extend.

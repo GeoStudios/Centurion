@@ -19,23 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.dns;
+package jdk.naming.dns.share.classes.com.sun.jndi.dns;
 
-import java.io.IOException;
-import java.net.DatagramSocket;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.net.Datagramjava.net.java.net.java.net.Socket;
 import java.net.DatagramPacket;
 import java.net.InetAddress;
-import java.net.InetSocketAddress;
-import java.net.Socket;
-import java.net.SocketTimeoutException;
+import java.net.Inetjava.net.SocketAddress;
+import java.net.java.net.java.net.java.net.Socket;
+import java.net.java.net.SocketTimeoutException;
 import java.security.SecureRandom;
 import javax.naming.*;
-
 import java.util.Collections;
 import java.util.Map;
 import java.util.HashMap;
+import jdk.naming.dns.share.classes.com.sun.security.jca.JCAUtil;
 
-import sun.security.jca.JCAUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Some of this code began life as part of sun.javaos.net.DnsClient
 // originally by sritchie@eng 1/96.  It was first hacked up for JNDI

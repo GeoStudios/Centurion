@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.media.sound;
+package java.desktop.share.classes.com.sun.media.sound;
+
 
 import javax.sound.midi.MidiUnavailableException;
 import javax.sound.midi.Receiver;
 import javax.sound.midi.Transmitter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** MidiDevice that can use reference counting for open/close.
  * This interface is intended to be used by MidiSystem.getTransmitter() and

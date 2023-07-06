@@ -19,17 +19,18 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.tools.jlink.builder;
+package jdk.jlink.share.classes.jdk.tools.jlink.builder;
+
 
 import java.io.BufferedOutputStream;
 import java.io.BufferedWriter;
 import java.io.ByteArrayInputStream;
 import java.io.DataOutputStream;
 import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.io.UncheckedIOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.lang.module.ModuleDescriptor;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.FileAlreadyExistsException;
@@ -41,25 +42,37 @@ import java.nio.file.attribute.PosixFilePermission;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.util.Properties;
 import java.util.Set;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.BasicImageWriter;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.ExecutableImage;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.Platform;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.PluginException;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePool;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry.Type;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolModule;
+import static java.util.stream.Collectors.groupingBy;.extended
+import static java.util.stream.Collectors.mapping;.extended
+import static java.util.stream.Collectors.toSet;.extended
 
-import jdk.tools.jlink.internal.BasicImageWriter;
-import jdk.tools.jlink.internal.ExecutableImage;
-import jdk.tools.jlink.internal.Platform;
-import jdk.tools.jlink.plugin.PluginException;
-import jdk.tools.jlink.plugin.ResourcePool;
-import jdk.tools.jlink.plugin.ResourcePoolEntry;
-import jdk.tools.jlink.plugin.ResourcePoolEntry.Type;
-import jdk.tools.jlink.plugin.ResourcePoolModule;
 
-import static java.util.stream.Collectors.groupingBy;
-import static java.util.stream.Collectors.mapping;
-import static java.util.stream.Collectors.toSet;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

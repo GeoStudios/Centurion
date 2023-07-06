@@ -21,18 +21,29 @@
 
 package org.openjdk.tests.shapegen;
 
-import org.openjdk.tests.shapegen.ClassCase.Kind;
 
+import org.openjdk.tests.shapegen.ClassCase.Kind;
 import java.util.Collection;
 import java.util.Set;
 import java.util.HashSet;
 import java.util.Collections;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import static org.openjdk.tests.shapegen.ClassCase.Kind.*;.extended
+import static java.lang.Math.pow;.extended
 
-import static org.openjdk.tests.shapegen.ClassCase.Kind.*;
 
-import static java.lang.Math.pow;
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.opengl;
+package java.desktop.unix.classes.sun.java2d.opengl;
+
 
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsDevice;
@@ -27,9 +28,22 @@ import java.awt.GraphicsEnvironment;
 import java.awt.Image;
 import java.awt.Rectangle;
 import java.awt.image.ColorModel;
+import java.desktop.unix.classes.sun.awt.X11ComponentPeer;
+import java.desktop.unix.classes.sun.java2d.SurfaceData;
 
-import sun.awt.X11ComponentPeer;
-import sun.java2d.SurfaceData;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class GLXSurfaceData extends OGLSurfaceData {
 

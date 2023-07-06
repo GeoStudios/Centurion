@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.runtime;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4154887
@@ -27,7 +44,6 @@
  * @run main/othervm compiler.runtime.JITClassInit
  */
 
-package compiler.runtime;
 
 public class JITClassInit {
     public static void main(String[] args) {

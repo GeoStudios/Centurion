@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package util;
+
 
 import java.util.Hashtable;
 import javax.naming.Binding;
@@ -28,6 +30,19 @@ import javax.naming.NameClassPair;
 import javax.naming.NameParser;
 import javax.naming.NamingEnumeration;
 import javax.naming.NamingException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("unchecked")
 public class StubContext implements Context {

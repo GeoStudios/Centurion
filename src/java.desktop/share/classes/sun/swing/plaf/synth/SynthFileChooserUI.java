@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.swing.plaf.synth;
+
+package java.desktop.share.classes.sun.swing.plaf.synth;
+
 
 import javax.swing.plaf.synth.*;
 import java.awt.*;
@@ -26,13 +28,26 @@ import java.awt.event.*;
 import java.beans.*;
 import java.io.File;
 import java.util.regex.*;
-
 import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.event.*;
 import javax.swing.filechooser.*;
 import javax.swing.plaf.*;
 import javax.swing.plaf.basic.BasicFileChooserUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Synth FileChooserUI.

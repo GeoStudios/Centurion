@@ -19,9 +19,9 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.ch;
+package java.base.linux.classes.sun.nio.ch;
 
-import java.io.IOException;
+import java.base.share.classes.java.io.IOException;
 
 /*
  * Provides access to the Linux eventfd object.

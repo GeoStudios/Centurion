@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider;
+package java.base.share.classes.sun.security.provider;
+
 
 import java.net.URL;
 import java.util.*;
@@ -27,10 +28,23 @@ import java.security.CodeSource;
 import java.security.Principal;
 import java.security.cert.Certificate;
 import java.lang.reflect.Constructor;
-
 import javax.security.auth.Subject;
-import sun.security.provider.PolicyParser.PrincipalEntry;
-import sun.security.util.ResourcesMgr;
+import java.base.share.classes.sun.security.provider.PolicyParser.PrincipalEntry;
+import java.base.share.classes.sun.security.util.ResourcesMgr;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p> This <code>SubjectCodeSource</code> class contains

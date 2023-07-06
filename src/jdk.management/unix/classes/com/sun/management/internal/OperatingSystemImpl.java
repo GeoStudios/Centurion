@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.management.internal;
+package jdk.management.unix.classes.com.sun.management.internal;
+
 
 import jdk.internal.platform.Metrics;
-import sun.management.BaseOperatingSystemImpl;
-import sun.management.VMManagement;
-
+import jdk.management.unix.classes.com.sun.management.BaseOperatingSystemImpl;
+import jdk.management.unix.classes.com.sun.management.VMManagement;
 import java.util.concurrent.TimeUnit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Implementation class for the operating system.
  * Standard and committed hotspot-specific metrics if any.

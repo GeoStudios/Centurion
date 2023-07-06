@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package MultipleInheritance;
+
+
+import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4480813
@@ -28,9 +46,7 @@
  * @compile  MultipleInheritance.java
  */
 
-package MultipleInheritance;
 
-import java.util.*;
 
 interface XList1 extends List, Collection {}
 

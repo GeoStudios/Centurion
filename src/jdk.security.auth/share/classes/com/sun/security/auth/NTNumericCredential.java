@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.security.auth;
+package jdk.security.auth.share.classes.com.sun.security.auth;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class abstracts an NT security token

@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.stress.strace;
+
+
+import nsk.share.ArgumentParser;
+import nsk.share.Failure;
+import nsk.share.Log;
+import java.io.PrintStream;
+import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress
@@ -43,14 +65,8 @@
  * @run main/othervm nsk.stress.strace.strace010
  */
 
-package nsk.stress.strace;
 
-import nsk.share.ArgumentParser;
-import nsk.share.Failure;
-import nsk.share.Log;
 
-import java.io.PrintStream;
-import java.util.Map;
 
 /**
  * The test runs <code>THRD_COUNT</code> instances of <code>strace010Thread</code>,

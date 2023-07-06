@@ -19,35 +19,49 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.jar;
+package java.base.share.classes.java.util.jar;
 
-import jdk.internal.access.SharedSecrets;
+
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.access.JavaUtilZipFileAccess;
 import sun.security.action.GetPropertyAction;
 import sun.security.util.ManifestEntryVerifier;
+import java.base.share.classes.java.io.ByteArrayInputStream;
+import java.base.share.classes.java.io.EOFException;
+import java.base.share.classes.java.io.File;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.InputStream;
+import java.base.share.classes.java.lang.ref.SoftReference;
+import java.base.share.classes.java.net.URL;
+import java.base.share.classes.java.security.CodeSigner;
+import java.base.share.classes.java.security.CodeSource;
+import java.base.share.classes.java.security.cert.Certificate;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Collections;
+import java.base.share.classes.java.util.Enumeration;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.NoSuchElementException;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.function.Function;
+import java.base.share.classes.java.util.stream.Stream;
+import java.base.share.classes.java.util.zip.ZipEntry;
+import java.base.share.classes.java.util.zip.ZipException;
+import java.base.share.classes.java.util.zip.ZipFile;
 
-import java.io.ByteArrayInputStream;
-import java.io.EOFException;
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-import java.lang.ref.SoftReference;
-import java.net.URL;
-import java.security.CodeSigner;
-import java.security.CodeSource;
-import java.security.cert.Certificate;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Enumeration;
-import java.util.List;
-import java.util.Locale;
-import java.util.NoSuchElementException;
-import java.util.Objects;
-import java.util.function.Function;
-import java.util.stream.Stream;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipException;
-import java.util.zip.ZipFile;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code JarFile} class is used to read the contents of a jar file

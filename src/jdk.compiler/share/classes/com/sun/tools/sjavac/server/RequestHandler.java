@@ -19,19 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac.server;
+package jdk.compiler.share.classes.com.sun.tools.sjavac.server;
 
-import com.sun.tools.javac.main.Main;
-import com.sun.tools.sjavac.Log;
-import com.sun.tools.sjavac.Util;
 
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Main;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.Log;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.Util;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.net.Socket;
+import java.net.java.net.java.net.java.net.Socket;
 import java.nio.file.Path;
+import static jdk.compiler.share.classes.com.sun.tools.sjavac.server.SjavacServer.LINE_TYPE_RC;.extended
 
-import static com.sun.tools.sjavac.server.SjavacServer.LINE_TYPE_RC;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

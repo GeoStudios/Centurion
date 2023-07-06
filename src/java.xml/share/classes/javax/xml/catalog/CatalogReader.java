@@ -18,20 +18,36 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.xml.catalog;
+
+package java.xml.share.classes.javax.xml.catalog;
+
 
 import java.io.StringReader;
-import javax.xml.catalog.BaseEntry.CatalogEntryType;
-import javax.xml.parsers.SAXParser;
-import javax.xml.transform.Source;
-import javax.xml.transform.TransformerException;
-import javax.xml.transform.URIResolver;
-import javax.xml.transform.sax.SAXSource;
+import java.xml.share.classes.javax.xml.catalog.BaseEntry.CatalogEntryType;
+import java.xml.share.classes.javax.xml.parsers.SAXParser;
+import java.xml.share.classes.javax.xml.transform.Source;
+import java.xml.share.classes.javax.xml.transform.TransformerException;
+import java.xml.share.classes.javax.xml.transform.URIResolver;
+import java.xml.share.classes.javax.xml.transform.sax.SAXSource;
 import org.xml.sax.Attributes;
 import org.xml.sax.EntityResolver;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * CatalogReader handles SAX events while parsing through a catalog file to

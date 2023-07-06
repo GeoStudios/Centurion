@@ -19,21 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.event.InputEvent;
-import java.awt.event.KeyEvent;
-import java.io.Serial;
-import java.io.Serializable;
-import java.lang.reflect.Field;
-import java.lang.reflect.Modifier;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.StringTokenizer;
 
+import java.desktop.share.classes.java.awt.event.InputEvent;
+import java.desktop.share.classes.java.awt.event.KeyEvent;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.io.Serializable;
+import java.desktop.share.classes.java.lang.reflect.Field;
+import java.desktop.share.classes.java.lang.reflect.Modifier;
+import java.desktop.share.classes.java.util.Collections;
+import java.desktop.share.classes.java.util.HashMap;
+import java.desktop.share.classes.java.util.Map;
+import java.desktop.share.classes.java.util.StringTokenizer;
 import sun.awt.AppContext;
 import sun.swing.SwingAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An {@code AWTKeyStroke} represents a key action on the

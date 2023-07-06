@@ -21,14 +21,15 @@
 
 package jdk.jpackage.tests;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.util.Collection;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.util.jar.JarFile;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import java.nio.file.Path;
@@ -43,7 +44,19 @@ import jdk.jpackage.test.JavaTool;
 import jdk.jpackage.test.Annotations.Parameters;
 import jdk.jpackage.test.Annotations.Test;
 import jdk.jpackage.test.Functional.ThrowingConsumer;
-import static jdk.jpackage.tests.MainClassTest.Script.MainClassType.*;
+import static jdk.jpackage.tests.MainClassTest.Script.MainClassType.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*

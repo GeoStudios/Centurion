@@ -19,26 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider.certpath;
+package java.base.share.classes.sun.security.provider.certpath;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.GeneralSecurityException;
 import java.security.InvalidAlgorithmParameterException;
-import java.security.PublicKey;
+import java.base.share.classes.java.security.PublicKey;
 import java.security.cert.*;
 import java.security.cert.CertPathValidatorException.BasicReason;
 import java.security.cert.PKIXReason;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Collections;
-import java.util.List;
-import java.util.LinkedList;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.Set;
 import javax.security.auth.x500.X500Principal;
+import java.base.share.classes.sun.security.provider.certpath.PKIX.BuilderParams;
+import static java.base.share.classes.sun.security.x509.PKIXExtensions.*;.extended
+import java.base.share.classes.sun.security.util.Debug;
 
-import sun.security.provider.certpath.PKIX.BuilderParams;
-import static sun.security.x509.PKIXExtensions.*;
-import sun.security.util.Debug;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class builds certification paths in the forward direction.

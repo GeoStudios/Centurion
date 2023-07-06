@@ -21,6 +21,21 @@
 
 package javafx.stage;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Mock JavaFX Stage class, used by FXLauncherTest.
  */

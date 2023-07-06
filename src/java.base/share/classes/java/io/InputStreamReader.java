@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
-import java.nio.CharBuffer;
-import java.nio.charset.Charset;
-import java.nio.charset.CharsetDecoder;
+
+import java.base.share.classes.java.nio.CharBuffer;
+import java.base.share.classes.java.nio.charset.Charset;
+import java.base.share.classes.java.nio.charset.CharsetDecoder;
 import sun.nio.cs.StreamDecoder;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

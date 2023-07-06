@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javap;
+package jdk.jdeps.share.classes.com.sun.tools.javap;
+
 
 import java.io.PrintWriter;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.AttributeException;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPoolException;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.DescriptorException;
 
-import com.sun.tools.classfile.AttributeException;
-import com.sun.tools.classfile.ConstantPoolException;
-import com.sun.tools.classfile.DescriptorException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  *  A writer similar to a PrintWriter but which does not hide exceptions.

@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.event.*;
 import java.beans.PropertyChangeEvent;
-
 import javax.swing.*;
-import javax.swing.event.MouseInputListener;
+import javax.swing.event.MouseInputjava.util.Listener;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicTableUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Mac L&F implementation of JTable

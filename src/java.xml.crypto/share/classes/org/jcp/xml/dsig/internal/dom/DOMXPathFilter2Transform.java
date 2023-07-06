@@ -19,19 +19,15 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package org.jcp.xml.dsig.internal.dom;
+package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
+
 
 import java.security.InvalidAlgorithmParameterException;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
-
 import javax.xml.crypto.MarshalException;
 import javax.xml.crypto.XMLCryptoContext;
 import javax.xml.crypto.XMLStructure;
@@ -39,10 +35,32 @@ import javax.xml.crypto.dsig.Transform;
 import javax.xml.crypto.dsig.spec.TransformParameterSpec;
 import javax.xml.crypto.dsig.spec.XPathFilter2ParameterSpec;
 import javax.xml.crypto.dsig.spec.XPathType;
+import java.xml.crypto.share.classes.org.w3c.dom.Attr;
+import java.xml.crypto.share.classes.org.w3c.dom.Element;
+import java.xml.crypto.share.classes.org.w3c.dom.NamedNodeMap;
 
-import org.w3c.dom.Attr;
-import org.w3c.dom.Element;
-import org.w3c.dom.NamedNodeMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
+
 
 /**
  * DOM-based implementation of XPath Filter 2.0 Transform.

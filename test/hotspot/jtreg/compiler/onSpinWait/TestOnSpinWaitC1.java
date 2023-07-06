@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.onSpinWait;
+
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestOnSpinWaitC1
  * @summary (x86 only) checks that java.lang.Thread.onSpinWait is intrinsified
@@ -32,10 +51,7 @@
  * @run driver compiler.onSpinWait.TestOnSpinWaitC1
  */
 
-package compiler.onSpinWait;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class TestOnSpinWaitC1 {
 

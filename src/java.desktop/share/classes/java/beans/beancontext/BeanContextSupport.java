@@ -19,29 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.beans.beancontext;
+package java.desktop.share.classes.java.beans.beancontext;
 
-import java.awt.Component;
-import java.awt.Container;
-import java.beans.Beans;
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import java.beans.PropertyVetoException;
-import java.beans.VetoableChangeListener;
-import java.beans.Visibility;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serial;
-import java.io.Serializable;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Locale;
-import java.util.Map;
+
+import java.desktop.share.classes.java.awt.Component;
+import java.desktop.share.classes.java.awt.Container;
+import java.desktop.share.classes.java.beans.Beans;
+import java.desktop.share.classes.java.beans.PropertyChangeEvent;
+import java.desktop.share.classes.java.beans.PropertyChangejava.util.Listener;
+import java.desktop.share.classes.java.beans.PropertyVetoException;
+import java.desktop.share.classes.java.beans.VetoableChangejava.util.Listener;
+import java.desktop.share.classes.java.beans.Visibility;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.InputStream;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.ObjectOutputStream;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.io.Serializable;
+import java.desktop.share.classes.java.net.URL;
+import java.desktop.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.desktop.share.classes.java.util.Collection;
+import java.desktop.share.classes.java.util.HashMap;
+import java.desktop.share.classes.java.util.Iterator;
+import java.desktop.share.classes.java.util.Locale;
+import java.desktop.share.classes.java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This helper class provides a utility implementation of the

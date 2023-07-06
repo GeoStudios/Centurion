@@ -21,9 +21,23 @@
 
 package nsk.jdi.ReferenceType.defaultStratum;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the defaultstratum001 JDI test.

@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5;
+package java.security.jgss.share.classes.sun.security.krb5;
+
 
 import java.security.SecureRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class Confounder {
     private static final SecureRandom srand = new SecureRandom();

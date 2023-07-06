@@ -19,26 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.formats.html;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
 
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ModuleElement;
 import javax.lang.model.element.PackageElement;
 import javax.lang.model.element.TypeElement;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.AnnotationTypeOptionalMemberWriter;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.AnnotationTypeRequiredMemberWriter;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.ClassWriter;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.ConstantsSummaryWriter;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.DocFilesHandler;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.MemberSummaryWriter;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.ModuleSummaryWriter;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.PackageSummaryWriter;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.SerializedFormWriter;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.WriterFactory;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.ClassTree;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable;
 
-import jdk.javadoc.internal.doclets.toolkit.AnnotationTypeOptionalMemberWriter;
-import jdk.javadoc.internal.doclets.toolkit.AnnotationTypeRequiredMemberWriter;
-import jdk.javadoc.internal.doclets.toolkit.ClassWriter;
-import jdk.javadoc.internal.doclets.toolkit.ConstantsSummaryWriter;
-import jdk.javadoc.internal.doclets.toolkit.DocFilesHandler;
-import jdk.javadoc.internal.doclets.toolkit.MemberSummaryWriter;
-import jdk.javadoc.internal.doclets.toolkit.ModuleSummaryWriter;
-import jdk.javadoc.internal.doclets.toolkit.PackageSummaryWriter;
-import jdk.javadoc.internal.doclets.toolkit.SerializedFormWriter;
-import jdk.javadoc.internal.doclets.toolkit.WriterFactory;
-import jdk.javadoc.internal.doclets.toolkit.util.ClassTree;
-import jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The factory that returns HTML writers.

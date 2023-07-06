@@ -19,14 +19,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * This source code is provided to illustrate the usage of a given feature
- * or technique and has been deliberately simplified. Additional steps
- * required for a production-quality application, such as security checks,
- * input validation and proper error handling, might not be present in
- * this sample code.
- */
-
+package demo.share.jfc.Font2DTest;
 
 
 import java.awt.BorderLayout;
@@ -44,12 +37,12 @@ import java.awt.Rectangle;
 import java.awt.RenderingHints;
 import java.awt.Toolkit;
 import java.awt.event.AdjustmentEvent;
-import java.awt.event.AdjustmentListener;
+import java.awt.event.Adjustmentjava.util.Listener;
 import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.event.MouseMotionListener;
+import java.awt.event.Mousejava.util.Listener;
+import java.awt.event.MouseMotionjava.util.Listener;
 import java.awt.font.FontRenderContext;
 import java.awt.font.GlyphVector;
 import java.awt.font.LineBreakMeasurer;
@@ -66,11 +59,36 @@ import java.io.FileOutputStream;
 import java.nio.charset.StandardCharsets;
 import java.text.AttributedString;
 import java.util.Vector;
-
 import javax.imageio.*;
 import javax.swing.*;
+import static java.awt.RenderingHints.*;.extended
 
-import static java.awt.RenderingHints.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * This source code is provided to illustrate the usage of a given feature
+ * or technique and has been deliberately simplified. Additional steps
+ * required for a production-quality application, such as security checks,
+ * input validation and proper error handling, might not be present in
+ * this sample code.
+ */
+
+
+
+
+
 
 /**
  * FontPanel.java

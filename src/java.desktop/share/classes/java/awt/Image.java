@@ -18,16 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.awt;
 
-import java.awt.image.ImageProducer;
-import java.awt.image.ImageObserver;
-import java.awt.image.ImageFilter;
-import java.awt.image.FilteredImageSource;
-import java.awt.image.AreaAveragingScaleFilter;
-import java.awt.image.ReplicateScaleFilter;
+package java.desktop.share.classes.java.awt;
 
+
+import java.desktop.share.classes.java.awt.image.ImageProducer;
+import java.desktop.share.classes.java.awt.image.ImageObserver;
+import java.desktop.share.classes.java.awt.image.ImageFilter;
+import java.desktop.share.classes.java.awt.image.FilteredImageSource;
+import java.desktop.share.classes.java.awt.image.AreaAveragingScaleFilter;
+import java.desktop.share.classes.java.awt.image.ReplicateScaleFilter;
 import sun.awt.image.SurfaceManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

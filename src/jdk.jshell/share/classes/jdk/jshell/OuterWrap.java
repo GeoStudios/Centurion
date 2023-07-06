@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jshell;
+package jdk.jshell.share.classes.jdk.jshell;
 
-import java.util.Locale;
+
+import java.base.share.classes.java.util.Locale;
 import javax.tools.Diagnostic;
 import javax.tools.JavaFileObject;
-import static jdk.jshell.Util.PARSED_LOCALE;
-import static jdk.jshell.Util.REPL_CLASS_PREFIX;
-import static jdk.jshell.Util.REPL_DOESNOTMATTER_CLASS_NAME;
-import static jdk.jshell.Util.REPL_PACKAGE;
-import static jdk.jshell.Util.expunge;
+import static jdk.jshell.share.classes.jdk.jshell.Util.PARSED_LOCALE;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Util.REPL_CLASS_PREFIX;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Util.REPL_DOESNOTMATTER_CLASS_NAME;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Util.REPL_PACKAGE;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Util.expunge;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

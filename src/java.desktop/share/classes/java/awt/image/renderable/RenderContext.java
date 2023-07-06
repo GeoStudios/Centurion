@@ -19,11 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.image.renderable;
-import java.util.*;
-import java.awt.geom.*;
-import java.awt.*;
-import java.awt.image.*;
+package java.desktop.share.classes.java.awt.image.renderable;
+
+
+import java.desktop.share.classes.java.util.*;
+import java.desktop.share.classes.java.awt.geom.*;
+import java.desktop.share.classes.java.awt.*;
+import java.desktop.share.classes.java.awt.image.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A RenderContext encapsulates the information needed to produce a

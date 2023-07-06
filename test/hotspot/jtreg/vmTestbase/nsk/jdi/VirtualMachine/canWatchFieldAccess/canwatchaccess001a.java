@@ -21,9 +21,23 @@
 
 package nsk.jdi.VirtualMachine.canWatchFieldAccess;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the canwatchaccess001 JDI test.

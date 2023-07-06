@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.dynalink.beans;
+package jdk.dynalink.share.classes.jdk.dynalink.beans;
+
 
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodType;
 import java.util.function.Supplier;
-import jdk.dynalink.SecureLookupSupplier;
-import jdk.dynalink.linker.ConversionComparator.Comparison;
-import jdk.dynalink.linker.GuardedInvocation;
-import jdk.dynalink.linker.LinkRequest;
-import jdk.dynalink.linker.LinkerServices;
+import jdk.dynalink.share.classes.jdk.dynalink.SecureLookupSupplier;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.ConversionComparator.Comparison;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.GuardedInvocation;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkRequest;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkerServices;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class LinkerServicesWithMissingMemberHandlerFactory implements LinkerServices {
     final LinkerServices linkerServices;

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.mbeanserver;
+package java.management.share.classes.com.sun.jmx.mbeanserver;
+
 
 import java.lang.annotation.Annotation;
 import java.lang.ref.SoftReference;
@@ -29,31 +30,42 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.lang.reflect.Proxy;
 import java.lang.reflect.UndeclaredThrowableException;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
-import java.util.LinkedList;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.WeakHashMap;
-
 import javax.management.Descriptor;
 import javax.management.DescriptorKey;
 import javax.management.DynamicMBean;
 import javax.management.ImmutableDescriptor;
 import javax.management.MBeanInfo;
 import javax.management.NotCompliantMBeanException;
-
-import com.sun.jmx.remote.util.EnvHelp;
+import java.management.share.classes.com.sun.jmx.remote.util.EnvHelp;
 import java.lang.reflect.Array;
 import java.lang.reflect.InvocationTargetException;
 import java.security.AccessController;
 import javax.management.AttributeNotFoundException;
 import javax.management.openmbean.CompositeData;
+import java.management.share.classes.com.sun.reflect.misc.MethodUtil;
+import java.management.share.classes.com.sun.reflect.misc.ReflectUtil;
 
-import sun.reflect.misc.MethodUtil;
-import sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains the methods for performing all the tests needed to verify

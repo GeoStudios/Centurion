@@ -21,9 +21,22 @@
 
 package jit.graph;
 
-import java.lang.reflect.Method;
 
+import java.lang.reflect.Method;
 import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class MethodData {
     public String ClassName;

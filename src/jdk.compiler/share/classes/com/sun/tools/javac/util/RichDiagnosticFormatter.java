@@ -19,31 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.util;
+package jdk.compiler.share.classes.com.sun.tools.javac.util;
+
 
 import java.nio.file.Path;
 import java.util.EnumMap;
 import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Printer;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symtab;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Types;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.util.LayoutCharacters.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.util.RichDiagnosticFormatter.RichConfiguration.*;.extended
 
-import com.sun.tools.javac.code.Printer;
-import com.sun.tools.javac.code.Symbol;
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.code.Symtab;
-import com.sun.tools.javac.code.Type;
-import com.sun.tools.javac.code.Type.*;
-import com.sun.tools.javac.code.Types;
-import com.sun.tools.javac.resources.CompilerProperties.Fragments;
 
-import static com.sun.tools.javac.code.Flags.*;
-import static com.sun.tools.javac.code.TypeTag.*;
-import static com.sun.tools.javac.code.Kinds.*;
-import static com.sun.tools.javac.code.Kinds.Kind.*;
-import static com.sun.tools.javac.util.LayoutCharacters.*;
-import static com.sun.tools.javac.util.RichDiagnosticFormatter.RichConfiguration.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A rich diagnostic formatter is a formatter that provides better integration

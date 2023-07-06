@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.sound.sampled;
+package java.desktop.share.classes.javax.sound.sampled;
 
-import java.util.EventListener;
+
+import java.util.Eventjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Instances of classes that implement the {@code LineListener} interface can

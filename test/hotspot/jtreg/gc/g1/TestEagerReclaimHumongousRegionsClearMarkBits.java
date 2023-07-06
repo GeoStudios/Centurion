@@ -21,6 +21,27 @@
 
 package gc.g1;
 
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.Random;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestEagerReclaimHumongousRegionsClearMarkBits
  * @bug 8051973
@@ -34,13 +55,7 @@ package gc.g1;
  * @run driver gc.g1.TestEagerReclaimHumongousRegionsClearMarkBits
  */
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Random;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.Utils;
 
 // An object that has a few references to other instances to slow down marking.
 class ObjectWithSomeRefs {

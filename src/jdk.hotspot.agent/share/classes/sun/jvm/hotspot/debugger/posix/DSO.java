@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.jvm.hotspot.debugger.posix;
 
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.debugger.cdbg.*;
-import sun.jvm.hotspot.utilities.memo.*;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.posix;
+
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.memo.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Provides a simple wrapper around the ELF library which handles
     relocation. */

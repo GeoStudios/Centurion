@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.net.http.share.classes.java.net.http;
+
+
+import java.net.http.share.classes.java.lang.UnsupportedOperationException;
+import java.net.http.share.classes.java.net.http.HttpClient;
+import java.net.http.share.classes.java.net.http.HttpRequest;
+import java.net.http.share.classes.java.net.http.HttpResponse.BodyHandler;
+import java.net.http.share.classes.java.util.concurrent.CompletableFuture;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * <h2>HTTP Client and WebSocket APIs</h2>
  *
@@ -61,10 +84,5 @@
  * of all classes in this package to throw {@code NullPointerException}.
  *
  */
-package java.net.http;
 
-import java.lang.UnsupportedOperationException;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse.BodyHandler;
-import java.util.concurrent.CompletableFuture;
+

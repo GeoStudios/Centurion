@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.security.interfaces;
+package java.base.share.classes.java.security.interfaces;
 
-import java.security.*;
+
+import java.base.share.classes.java.security.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An interface to an object capable of generating DSA key pairs.

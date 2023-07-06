@@ -21,6 +21,22 @@
 
 package gc.g1;
 
+
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestRegionLivenessPrint.java
  * @bug 8151920
@@ -33,7 +49,6 @@ package gc.g1;
  * @run main/othervm -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI -XX:+UseG1GC -Xmx128M -XX:G1HeapRegionSize=1m -Xlog:gc+liveness=trace gc.g1.TestRegionLivenessPrint
  */
 
-import sun.hotspot.WhiteBox;
 
 public class TestRegionLivenessPrint {
 

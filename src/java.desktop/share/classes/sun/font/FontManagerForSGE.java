@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.share.classes.sun.font;
+
 
 import java.awt.Font;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.TreeMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is an extension of the {@link FontManager} interface which has to

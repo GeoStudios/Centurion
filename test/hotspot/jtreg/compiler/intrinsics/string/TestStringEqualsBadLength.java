@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.string;
+
+
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8027445
@@ -28,9 +46,7 @@
  *      compiler.intrinsics.string.TestStringEqualsBadLength
  */
 
-package compiler.intrinsics.string;
 
-import java.util.Arrays;
 
 public class TestStringEqualsBadLength {
 

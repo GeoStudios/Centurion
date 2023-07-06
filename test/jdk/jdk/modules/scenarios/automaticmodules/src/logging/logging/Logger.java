@@ -21,6 +21,21 @@
 
 package logging;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A simple logger.
  */

@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.cs.ext;
+package jdk.charsets.share.classes.sun.nio.cs.ext;
+
 
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CharsetEncoder;
-import sun.nio.cs.DoubleByte;
-import sun.nio.cs.HistoricallyNamedCharset;
-import sun.nio.cs.*;
+import jdk.charsets.share.classes.sun.nio.cs.DoubleByte;
+import jdk.charsets.share.classes.sun.nio.cs.HistoricallyNamedCharset;
+import jdk.charsets.share.classes.sun.nio.cs.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Big5_HKSCS_2001 extends Charset
 {

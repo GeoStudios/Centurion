@@ -19,23 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.gtk;
+package java.desktop.share.classes.com.sun.java.swing.plaf.gtk;
 
-import java.awt.*;
-import java.awt.image.*;
-import java.util.HashMap;
+
+import java.desktop.share.classes.com.sun.java.awt.*;
+import java.desktop.share.classes.com.sun.java.awt.image.*;
+import java.desktop.share.classes.com.sun.java.util.HashMap;
 import javax.swing.*;
 import javax.swing.plaf.synth.*;
+import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKConstants.ArrowType;
+import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKConstants.ExpanderStyle;
+import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKConstants.Orientation;
+import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKConstants.PositionType;
+import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKConstants.ShadowType;
+import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKConstants.TextDirection;
+import java.desktop.share.classes.com.sun.awt.image.SunWritableRaster;
+import java.desktop.share.classes.com.sun.swing.ImageCache;
 
-import com.sun.java.swing.plaf.gtk.GTKConstants.ArrowType;
-import com.sun.java.swing.plaf.gtk.GTKConstants.ExpanderStyle;
-import com.sun.java.swing.plaf.gtk.GTKConstants.Orientation;
-import com.sun.java.swing.plaf.gtk.GTKConstants.PositionType;
-import com.sun.java.swing.plaf.gtk.GTKConstants.ShadowType;
-import com.sun.java.swing.plaf.gtk.GTKConstants.TextDirection;
 
-import sun.awt.image.SunWritableRaster;
-import sun.swing.ImageCache;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * GTKEngine delegates all painting job to native GTK libraries.

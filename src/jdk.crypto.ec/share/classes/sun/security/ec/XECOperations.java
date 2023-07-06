@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ec;
+package jdk.crypto.ec.share.classes.sun.security.ec;
 
-import sun.security.util.math.IntegerFieldModuloP;
-import sun.security.util.math.ImmutableIntegerModuloP;
-import sun.security.util.math.IntegerModuloP;
-import sun.security.util.math.MutableIntegerModuloP;
-import sun.security.util.math.SmallValue;
-import sun.security.util.math.intpoly.IntegerPolynomial25519;
-import sun.security.util.math.intpoly.IntegerPolynomial448;
 
+import jdk.crypto.ec.share.classes.sun.security.util.math.IntegerFieldModuloP;
+import jdk.crypto.ec.share.classes.sun.security.util.math.ImmutableIntegerModuloP;
+import jdk.crypto.ec.share.classes.sun.security.util.math.IntegerModuloP;
+import jdk.crypto.ec.share.classes.sun.security.util.math.MutableIntegerModuloP;
+import jdk.crypto.ec.share.classes.sun.security.util.math.SmallValue;
+import jdk.crypto.ec.share.classes.sun.security.util.math.intpoly.IntegerPolynomial25519;
+import jdk.crypto.ec.share.classes.sun.security.util.math.intpoly.IntegerPolynomial448;
 import java.math.BigInteger;
-import java.security.ProviderException;
+import java.base.share.classes.java.security.ProviderException;
 import java.security.SecureRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class XECOperations {
 

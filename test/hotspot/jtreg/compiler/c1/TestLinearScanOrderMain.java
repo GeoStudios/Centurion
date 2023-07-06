@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8207355
@@ -28,7 +45,6 @@
  *                   compiler.c1.TestLinearScanOrderMain
  */
 
-package compiler.c1;
 
 // WARNING: This test will not fail but time out in C1's ComputeLinearScanOrder phase
 public class TestLinearScanOrderMain {

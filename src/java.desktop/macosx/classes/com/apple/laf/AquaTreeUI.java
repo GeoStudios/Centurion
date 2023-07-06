@@ -19,23 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.*;
-
 import javax.swing.*;
 import javax.swing.event.MouseInputAdapter;
 import javax.swing.plaf.*;
 import javax.swing.plaf.basic.BasicTreeUI;
 import javax.swing.tree.*;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
+import java.desktop.macosx.classes.com.apple.laf.*;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.*;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIState.AnimationFrameState;
 
-import com.apple.laf.AquaUtils.RecyclableSingleton;
 
-import apple.laf.*;
-import apple.laf.JRSUIConstants.*;
-import apple.laf.JRSUIState.AnimationFrameState;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * AquaTreeUI supports the client property "value-add" system of customization See MetalTreeUI

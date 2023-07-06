@@ -21,8 +21,8 @@
 
 package jdk.jfr.event.gc.heapsummary;
 
-import java.time.Duration;
 
+import java.time.Duration;
 import jdk.jfr.Recording;
 import jdk.jfr.consumer.RecordedEvent;
 import jdk.test.lib.Asserts;
@@ -31,6 +31,19 @@ import jdk.test.lib.jfr.EventVerifier;
 import jdk.test.lib.jfr.Events;
 import jdk.test.lib.jfr.GCHelper;
 import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

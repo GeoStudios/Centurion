@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.peer;
+package java.desktop.share.classes.java.awt.peer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The LightweightPeer interface marks a component as depending upon

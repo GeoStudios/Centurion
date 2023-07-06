@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
+
 
 import java.nio.ByteBuffer;
-import java.security.Key;
-import java.security.InvalidKeyException;
+import java.base.share.classes.java.security.Key;
+import java.base.share.classes.java.security.InvalidKeyException;
 import java.security.spec.AlgorithmParameterSpec;
-import java.util.Arrays;
-import java.util.Objects;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.java.util.Objects;
+import java.base.share.classes.com.sun.security.util.math.*;
+import java.base.share.classes.com.sun.security.util.math.intpoly.*;
 
-import sun.security.util.math.*;
-import sun.security.util.math.intpoly.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents the Poly1305 function defined in RFC 7539.

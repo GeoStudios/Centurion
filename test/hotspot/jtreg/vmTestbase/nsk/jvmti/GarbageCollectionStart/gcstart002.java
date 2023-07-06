@@ -21,10 +21,23 @@
 
 package nsk.jvmti.GarbageCollectionStart;
 
+
 import java.io.*;
 import java.math.*;
-
 import nsk.share.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This test exercises the JVMTI event <code>GarbageCollectionStart</code>.

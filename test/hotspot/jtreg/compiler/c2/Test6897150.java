@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6897150
@@ -27,7 +44,6 @@
  * @run main compiler.c2.Test6897150
  */
 
-package compiler.c2;
 
 // Should be compiled with javac from JDK1.3 to get bytecode which shows the problem.
 public class Test6897150 {

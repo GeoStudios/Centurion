@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.print;
+package java.desktop.share.classes.javax.print;
 
-import javax.print.attribute.Attribute;
-import javax.print.attribute.AttributeSet;
-import javax.print.attribute.PrintServiceAttribute;
-import javax.print.attribute.PrintServiceAttributeSet;
-import javax.print.event.PrintServiceAttributeListener;
+
+import java.desktop.share.classes.javax.print.attribute.Attribute;
+import java.desktop.share.classes.javax.print.attribute.AttributeSet;
+import java.desktop.share.classes.javax.print.attribute.PrintServiceAttribute;
+import java.desktop.share.classes.javax.print.attribute.PrintServiceAttributeSet;
+import java.desktop.share.classes.javax.print.event.PrintServiceAttributejava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface {@code PrintService} is the factory for a {@code DocPrintJob}. A

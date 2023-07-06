@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr;
+package jdk.jfr.share.classes.jdk.jfr;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base class for events, to be subclassed in order to define events and their
@@ -28,9 +44,9 @@ package jdk.jfr;
  * The following example shows how to implement an {@code Event} class.
  *
  * <pre>{@literal
- * import jdk.jfr.Event;
- * import jdk.jfr.Description;
- * import jdk.jfr.Label;
+ * import jdk.jfr.share.classes.jdk.jfr.Event;
+ * import jdk.jfr.share.classes.jdk.jfr.Description;
+ * import jdk.jfr.share.classes.jdk.jfr.Label;
  *
  * public class Example {
  *

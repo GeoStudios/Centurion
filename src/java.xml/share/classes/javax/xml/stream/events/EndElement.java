@@ -19,10 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.stream.events;
+package java.xml.share.classes.javax.xml.stream.events;
+
 
 import java.util.Iterator;
-import javax.xml.namespace.QName;
+import java.xml.share.classes.javax.xml.namespace.QName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * An interface for the end element event.  An EndElement is reported
  * for each End Tag in the document.

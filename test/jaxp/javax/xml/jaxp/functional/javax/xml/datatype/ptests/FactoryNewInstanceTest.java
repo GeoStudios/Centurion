@@ -21,20 +21,31 @@
 
 package javax.xml.datatype.ptests;
 
-import static org.testng.Assert.assertNotNull;
-import static org.testng.Assert.assertNotSame;
-import static org.testng.Assert.assertSame;
-import static org.testng.Assert.assertEquals;
 
+import static org.testng.Assert.assertNotNull;.extended
+import static org.testng.Assert.assertNotSame;.extended
+import static org.testng.Assert.assertSame;.extended
+import static org.testng.Assert.assertEquals;.extended
 import javax.xml.datatype.DatatypeConfigurationException;
 import javax.xml.datatype.DatatypeFactory;
 import javax.xml.datatype.Duration;
-
 import jaxp.library.JAXPDataProvider;
-
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

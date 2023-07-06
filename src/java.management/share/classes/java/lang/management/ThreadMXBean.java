@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.management;
+package java.management.share.classes.java.lang.management;
 
-import java.util.Map;
+
+import java.management.share.classes.java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The management interface for the thread system of

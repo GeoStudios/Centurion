@@ -21,4 +21,19 @@
 
 package Pkg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 final class Permitted implements SealedInterface { }

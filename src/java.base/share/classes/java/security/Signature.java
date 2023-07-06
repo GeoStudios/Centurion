@@ -19,30 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
-import java.security.spec.AlgorithmParameterSpec;
-import java.util.*;
-import java.util.concurrent.ConcurrentHashMap;
-import java.io.*;
-import java.security.cert.Certificate;
-import java.security.cert.X509Certificate;
 
-import java.nio.ByteBuffer;
-
-import java.security.Provider.Service;
-
-import javax.crypto.Cipher;
-import javax.crypto.IllegalBlockSizeException;
-import javax.crypto.BadPaddingException;
+import java.base.share.classes.java.security.spec.AlgorithmParameterSpec;
+import java.base.share.classes.java.util.*;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.io.*;
+import java.base.share.classes.java.security.cert.Certificate;
+import java.base.share.classes.java.security.cert.X509Certificate;
+import java.base.share.classes.java.nio.ByteBuffer;
+import java.base.share.classes.java.security.Provider.Service;
+import java.base.share.classes.javax.crypto.Cipher;
+import java.base.share.classes.javax.crypto.IllegalBlockSizeException;
+import java.base.share.classes.javax.crypto.BadPaddingException;
 import javax.crypto.NoSuchPaddingException;
 import jdk.internal.access.JavaSecuritySignatureAccess;
-import jdk.internal.access.SharedSecrets;
-
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import sun.security.util.Debug;
 import sun.security.jca.*;
 import sun.security.jca.GetInstance.Instance;
 import sun.security.util.KnownOIDs;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Signature class is used to provide applications the functionality
@@ -1145,7 +1156,7 @@ public abstract class Signature extends SignatureSpi {
                 Signature that = new CloneableDelegate(
                    (SignatureSpi)sigSpi.clone(),
                    ((Signature)this).algorithm);
-                that.provider = ((Signature)this).provider;
+                that.provider = this.provider;
                 return that;
             } else {
                 throw new CloneNotSupportedException();

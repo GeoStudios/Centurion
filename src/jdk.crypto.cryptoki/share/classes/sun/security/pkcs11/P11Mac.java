@@ -19,20 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs11;
+package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11;
+
 
 import java.nio.ByteBuffer;
-
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.spec.AlgorithmParameterSpec;
-
 import javax.crypto.MacSpi;
+import jdk.crypto.cryptoki.share.classes.sun.nio.ch.DirectBuffer;
+import jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.*;
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Constants.*;.extended
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Exception.*;.extended
 
-import sun.nio.ch.DirectBuffer;
 
-import sun.security.pkcs11.wrapper.*;
-import static sun.security.pkcs11.wrapper.PKCS11Constants.*;
-import static sun.security.pkcs11.wrapper.PKCS11Exception.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * MAC implementation class. This class currently supports HMAC using

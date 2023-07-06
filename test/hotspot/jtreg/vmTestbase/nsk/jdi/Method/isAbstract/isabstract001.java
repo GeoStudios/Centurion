@@ -18,6 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package nsk.jdi.Method.isAbstract;
+
+
+import nsk.share.*;
+import nsk.share.jpda.*;
+import nsk.share.jdi.*;
+import com.sun.jdi.*;
+import java.util.*;
+import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! templete parameters !!!!
 
 // Method  Interface Name       Method
@@ -25,15 +49,8 @@
 // isabstract001  Test Name             isabstract001
 // ------------------------------------------------------
 
-package nsk.jdi.Method.isAbstract;
 
-import nsk.share.*;
-import nsk.share.jpda.*;
-import nsk.share.jdi.*;
 
-import com.sun.jdi.*;
-import java.util.*;
-import java.io.*;
 
 /**
  * The test for the implementation of an object of the type     <BR>

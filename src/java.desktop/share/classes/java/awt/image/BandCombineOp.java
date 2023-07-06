@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.image;
+package java.desktop.share.classes.java.awt.image;
 
-import java.awt.GraphicsEnvironment;
-import java.awt.color.ICC_Profile;
-import java.awt.geom.Rectangle2D;
-import java.awt.Rectangle;
-import java.awt.geom.Point2D;
-import java.awt.RenderingHints;
+
+import java.desktop.share.classes.java.awt.GraphicsEnvironment;
+import java.desktop.share.classes.java.awt.color.ICC_Profile;
+import java.desktop.share.classes.java.awt.geom.Rectangle2D;
+import java.desktop.share.classes.java.awt.Rectangle;
+import java.desktop.share.classes.java.awt.geom.Point2D;
+import java.desktop.share.classes.java.awt.RenderingHints;
 import sun.awt.image.ImagingLib;
-import java.util.Arrays;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class performs an arbitrary linear combination of the bands

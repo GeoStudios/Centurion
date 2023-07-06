@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.utilities;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A BitMap implementing the BitMapInterface. */
 public class BitMapSegmented implements BitMapInterface {

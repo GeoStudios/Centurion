@@ -19,40 +19,55 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.compiler;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-import com.sun.org.apache.bcel.internal.classfile.Field;
-import com.sun.org.apache.bcel.internal.generic.ALOAD;
-import com.sun.org.apache.bcel.internal.generic.ASTORE;
-import com.sun.org.apache.bcel.internal.generic.BranchHandle;
-import com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
-import com.sun.org.apache.bcel.internal.generic.GETFIELD;
-import com.sun.org.apache.bcel.internal.generic.GOTO;
-import com.sun.org.apache.bcel.internal.generic.GOTO_W;
-import com.sun.org.apache.bcel.internal.generic.IFLT;
-import com.sun.org.apache.bcel.internal.generic.IFNE;
-import com.sun.org.apache.bcel.internal.generic.IFNONNULL;
-import com.sun.org.apache.bcel.internal.generic.IF_ICMPEQ;
-import com.sun.org.apache.bcel.internal.generic.IF_ICMPLT;
-import com.sun.org.apache.bcel.internal.generic.IF_ICMPNE;
-import com.sun.org.apache.bcel.internal.generic.ILOAD;
-import com.sun.org.apache.bcel.internal.generic.INVOKEINTERFACE;
-import com.sun.org.apache.bcel.internal.generic.INVOKESPECIAL;
-import com.sun.org.apache.bcel.internal.generic.ISTORE;
-import com.sun.org.apache.bcel.internal.generic.InstructionHandle;
-import com.sun.org.apache.bcel.internal.generic.InstructionList;
-import com.sun.org.apache.bcel.internal.generic.LocalVariableGen;
-import com.sun.org.apache.bcel.internal.generic.NEW;
-import com.sun.org.apache.bcel.internal.generic.PUSH;
-import com.sun.org.apache.bcel.internal.generic.PUTFIELD;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ClassGenerator;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.MethodGenerator;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.TypeCheckError;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.Util;
-import com.sun.org.apache.xml.internal.dtm.Axis;
-import com.sun.org.apache.xml.internal.dtm.DTM;
-import java.util.List;
+
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Field;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ALOAD;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ASTORE;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.BranchHandle;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.GETFIELD;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.GOTO;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.GOTO_W;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.IFLT;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.IFNE;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.IFNONNULL;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.IF_ICMPEQ;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.IF_ICMPLT;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.IF_ICMPNE;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ILOAD;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.INVOKEINTERFACE;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.INVOKESPECIAL;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ISTORE;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.InstructionHandle;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Instructionjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.LocalVariableGen;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.NEW;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.PUSH;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.PUTFIELD;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ClassGenerator;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.MethodGenerator;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.TypeCheckError;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.Util;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.Axis;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @LastModified: Oct 2017

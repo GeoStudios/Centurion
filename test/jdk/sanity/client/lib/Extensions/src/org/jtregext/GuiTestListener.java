@@ -21,11 +21,25 @@
 
 package org.jtregext;
 
+
 import org.jemmy2ext.JemmyExt;
-import static org.jemmy2ext.JemmyExt.captureAll;
+import static org.jemmy2ext.JemmyExt.captureAll;.extended
 import org.testng.ITestContext;
-import org.testng.ITestListener;
+import org.testng.ITestjava.util.Listener;
 import org.testng.ITestResult;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // TODO: Remove this once https://bugs.openjdk.java.net/browse/JDK-8151671 is fixed
 public class GuiTestListener implements ITestListener {

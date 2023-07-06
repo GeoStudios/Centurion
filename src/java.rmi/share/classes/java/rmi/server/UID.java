@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.rmi.server;
 
-import java.io.DataInput;
-import java.io.DataOutput;
-import java.io.IOException;
-import java.io.Serializable;
-import java.security.SecureRandom;
+package java.rmi.share.classes.java.rmi.server;
+
+
+import java.rmi.share.classes.java.io.DataInput;
+import java.rmi.share.classes.java.io.DataOutput;
+import java.rmi.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.rmi.share.classes.java.io.Serializable;
+import java.rmi.share.classes.java.security.SecureRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A <code>UID</code> represents an identifier that is unique over time

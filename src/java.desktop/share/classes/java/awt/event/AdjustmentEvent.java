@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.event;
+package java.desktop.share.classes.java.awt.event;
 
-import java.awt.AWTEvent;
-import java.awt.Adjustable;
-import java.io.Serial;
-import java.lang.annotation.Native;
+
+import java.desktop.share.classes.java.awt.AWTEvent;
+import java.desktop.share.classes.java.awt.Adjustable;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.lang.annotation.Native;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The adjustment event emitted by Adjustable objects like

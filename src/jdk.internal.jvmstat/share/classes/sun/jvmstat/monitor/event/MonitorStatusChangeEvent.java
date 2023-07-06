@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvmstat.monitor.event;
+package jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.event;
 
-import java.util.List;
-import sun.jvmstat.monitor.MonitoredVm;
-import sun.jvmstat.monitor.Monitor;
+
+import java.util.java.util.java.util.java.util.List;
+import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.MonitoredVm;
+import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.Monitor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides a description of a change in status of the instrumentation

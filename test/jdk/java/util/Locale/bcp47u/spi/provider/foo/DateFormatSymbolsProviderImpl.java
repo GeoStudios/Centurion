@@ -21,9 +21,23 @@
 
 package foo;
 
+
 import java.text.DateFormatSymbols;
 import java.text.spi.DateFormatSymbolsProvider;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Implements DateFormatSymbolsProvider SPI, in order to check if the

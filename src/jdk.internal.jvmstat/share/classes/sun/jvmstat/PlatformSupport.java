@@ -18,12 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.jvmstat;
+
+package jdk.internal.jvmstat.share.classes.sun.jvmstat;
+
 
 import java.io.File;
 import java.lang.reflect.Constructor;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import jdk.internal.vm.VMSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Support routines handling temp directory locating

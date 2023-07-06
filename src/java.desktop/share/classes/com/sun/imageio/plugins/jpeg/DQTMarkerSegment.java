@@ -19,22 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.jpeg;
+package java.desktop.share.classes.com.sun.imageio.plugins.jpeg;
 
-import javax.imageio.IIOException;
+
+import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import javax.imageio.metadata.IIOInvalidTreeException;
 import javax.imageio.metadata.IIOMetadataNode;
 import javax.imageio.stream.ImageOutputStream;
 import javax.imageio.plugins.jpeg.JPEGQTable;
-
-import java.io.IOException;
-import java.util.List;
-import java.util.ArrayList;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
-
 import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import org.w3c.dom.NamedNodeMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A DQT (Define Quantization Table) marker segment.

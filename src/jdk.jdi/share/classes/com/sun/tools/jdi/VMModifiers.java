@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface VMModifiers {
     int PUBLIC = 0x00000001;        /* visible to everyone */

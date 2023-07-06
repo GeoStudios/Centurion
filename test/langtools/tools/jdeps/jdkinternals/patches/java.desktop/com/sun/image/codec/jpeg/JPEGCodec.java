@@ -21,6 +21,21 @@
 
 package com.sun.image.codec.jpeg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * JDK removed internal API
  */

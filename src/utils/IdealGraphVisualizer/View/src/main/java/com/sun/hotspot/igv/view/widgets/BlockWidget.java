@@ -18,19 +18,35 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.view.widgets;
 
-import com.sun.hotspot.igv.data.InputBlock;
-import com.sun.hotspot.igv.graph.Diagram;
-import java.awt.BasicStroke;
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Graphics2D;
-import java.awt.Rectangle;
-import java.awt.Stroke;
-import java.awt.geom.Rectangle2D;
+package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.widgets;
+
+
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.InputBlock;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.graph.Diagram;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.BasicStroke;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.Color;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.Font;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.Graphics2D;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.Rectangle;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.Stroke;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.geom.Rectangle2D;
 import org.netbeans.api.visual.widget.Scene;
 import org.netbeans.api.visual.widget.Widget;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

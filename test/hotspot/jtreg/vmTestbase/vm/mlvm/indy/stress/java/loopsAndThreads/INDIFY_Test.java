@@ -19,9 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-// generated from vm/mlvm/indy/stress/java/loopsAndThreads/INDIFY_Test.jmpp
-
 package vm.mlvm.indy.stress.java.loopsAndThreads;
+
 
 import java.lang.invoke.CallSite;
 import java.lang.invoke.ConstantCallSite;
@@ -29,12 +28,29 @@ import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import java.util.concurrent.atomic.AtomicLong;
-
 import vm.mlvm.share.MlvmTest;
 import vm.mlvm.share.Env;
 import vm.mlvm.share.MultiThreadedTest;
 import nsk.share.test.Stresser;
 import nsk.share.Failure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// generated from vm/mlvm/indy/stress/java/loopsAndThreads/INDIFY_Test.jmpp
+
+
+
 
 public class INDIFY_Test extends MultiThreadedTest {
 

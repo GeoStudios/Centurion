@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.mbeanserver;
+package java.management.share.classes.com.sun.jmx.mbeanserver;
+
 
 import java.lang.ref.WeakReference;
 import java.util.WeakHashMap;
 import javax.management.Descriptor;
 import javax.management.ImmutableDescriptor;
 import javax.management.JMX;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class DescriptorCache {
     private DescriptorCache() {

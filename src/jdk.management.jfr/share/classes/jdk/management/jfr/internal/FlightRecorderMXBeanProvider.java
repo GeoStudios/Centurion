@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.management.jfr.internal;
+package jdk.management.jfr.share.classes.jdk.management.jfr.internal;
+
 
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.Callable;
-
-import jdk.jfr.internal.management.ManagementSupport;
-import jdk.management.jfr.FlightRecorderMXBean;
-import jdk.management.jfr.SettingDescriptorInfo;
+import jdk.management.jfr.share.classes.jdk.jfr.internal.management.ManagementSupport;
+import jdk.management.jfr.share.classes.jdk.management.jfr.FlightRecorderMXBean;
+import jdk.management.jfr.share.classes.jdk.management.jfr.SettingDescriptorInfo;
 import sun.management.spi.PlatformMBeanProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class FlightRecorderMXBeanProvider extends PlatformMBeanProvider {
 

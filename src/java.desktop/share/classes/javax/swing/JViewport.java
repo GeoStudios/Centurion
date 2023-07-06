@@ -19,31 +19,43 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.geom.AffineTransform;
-import static java.awt.geom.AffineTransform.TYPE_FLIP;
-import static java.awt.geom.AffineTransform.TYPE_MASK_SCALE;
-import static java.awt.geom.AffineTransform.TYPE_TRANSLATION;
+import static java.awt.geom.AffineTransform.TYPE_FLIP;.extended
+import static java.awt.geom.AffineTransform.TYPE_MASK_SCALE;.extended
+import static java.awt.geom.AffineTransform.TYPE_TRANSLATION;.extended
 import java.awt.image.AbstractMultiResolutionImage;
 import java.awt.image.ImageObserver;
 import java.awt.peer.ComponentPeer;
 import java.beans.BeanProperty;
 import java.beans.Transient;
-import javax.swing.plaf.ViewportUI;
-
-import javax.swing.event.*;
-import javax.swing.border.*;
-import javax.accessibility.*;
-
+import java.desktop.share.classes.javax.swing.plaf.ViewportUI;
+import java.desktop.share.classes.javax.swing.event.*;
+import java.desktop.share.classes.javax.swing.border.*;
+import java.desktop.share.classes.javax.accessibility.*;
 import java.io.Serializable;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
-
 import sun.awt.AWTAccessor;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The "viewport" or "porthole" through which you see the underlying

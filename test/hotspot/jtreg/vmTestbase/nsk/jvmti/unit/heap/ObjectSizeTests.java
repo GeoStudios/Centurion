@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jvmti.unit.heap;
+
+
+import nsk.share.jvmti.unit.*;
+import java.io.PrintStream;
+import nsk.share.Consts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Unit tests for JVMTI GetObjectSize function.
  *
@@ -28,11 +48,7 @@
  *
  */
 
-package nsk.jvmti.unit.heap;
 
-import nsk.share.jvmti.unit.*;
-import java.io.PrintStream;
-import nsk.share.Consts;
 
 public class ObjectSizeTests {
 

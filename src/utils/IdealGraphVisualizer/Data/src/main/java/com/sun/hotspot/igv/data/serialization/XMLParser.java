@@ -18,15 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.data.serialization;
 
-import com.sun.hotspot.igv.data.Properties;
-import java.util.HashMap;
-import java.util.Stack;
+package utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data.serialization;
+
+
+import utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data.Properties;
+import utils.IdealGraphVisualizer.Data.src.main.java.util.HashMap;
+import utils.IdealGraphVisualizer.Data.src.main.java.util.Stack;
 import org.xml.sax.Attributes;
 import org.xml.sax.ContentHandler;
 import org.xml.sax.Locator;
 import org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

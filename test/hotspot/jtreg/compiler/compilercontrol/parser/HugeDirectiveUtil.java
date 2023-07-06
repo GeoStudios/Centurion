@@ -21,6 +21,7 @@
 
 package compiler.compilercontrol.parser;
 
+
 import compiler.compilercontrol.share.JSONFile;
 import compiler.compilercontrol.share.method.MethodDescriptor;
 import compiler.compilercontrol.share.scenario.DirectiveWriter;
@@ -28,13 +29,24 @@ import compiler.compilercontrol.share.scenario.Scenario;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.Utils;
-
 import java.util.EnumSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
+import static compiler.compilercontrol.share.IntrinsicCommand.VALID_INTRINSIC_SAMPLES;.extended
 
-import static compiler.compilercontrol.share.IntrinsicCommand.VALID_INTRINSIC_SAMPLES;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Creates a huge directive file

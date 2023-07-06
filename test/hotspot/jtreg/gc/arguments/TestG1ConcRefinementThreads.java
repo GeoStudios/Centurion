@@ -21,6 +21,25 @@
 
 package gc.arguments;
 
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import java.util.*;
+import java.util.regex.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestG1ConcRefinementThreads
  * @bug 8047976
@@ -33,10 +52,6 @@ package gc.arguments;
  * @run driver gc.arguments.TestG1ConcRefinementThreads
  */
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import java.util.*;
-import java.util.regex.*;
 
 public class TestG1ConcRefinementThreads {
 

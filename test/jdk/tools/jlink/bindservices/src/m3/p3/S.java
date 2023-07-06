@@ -21,6 +21,21 @@
 
 package p3;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface S {
     void run();
 }

@@ -19,17 +19,17 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.security.auth.module;
+package jdk.security.auth.share.classes.com.sun.security.auth.module;
 
-import java.net.SocketPermission;
+
+import java.net.java.net.SocketPermission;
 import java.security.Principal;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Hashtable;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.Set;
-
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.ldap.*;
@@ -37,10 +37,22 @@ import javax.security.auth.*;
 import javax.security.auth.callback.*;
 import javax.security.auth.login.*;
 import javax.security.auth.spi.*;
+import jdk.security.auth.share.classes.com.sun.security.auth.LdapPrincipal;
+import jdk.security.auth.share.classes.com.sun.security.auth.UserPrincipal;
+import static jdk.security.auth.share.classes.com.sun.security.util.ResourcesMgr.getAuthResourceString;.extended
 
-import com.sun.security.auth.LdapPrincipal;
-import com.sun.security.auth.UserPrincipal;
-import static sun.security.util.ResourcesMgr.getAuthResourceString;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

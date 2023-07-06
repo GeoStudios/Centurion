@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.im;
+package java.desktop.share.classes.sun.awt.im;
+
 
 import java.awt.AWTEvent;
 import java.awt.Color;
@@ -31,7 +32,7 @@ import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.Toolkit;
 import java.awt.event.InputMethodEvent;
-import java.awt.event.InputMethodListener;
+import java.awt.event.InputMethodjava.util.Listener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.font.FontRenderContext;
@@ -41,10 +42,23 @@ import java.awt.geom.Rectangle2D;
 import java.awt.im.InputMethodRequests;
 import java.io.Serial;
 import java.text.AttributedCharacterIterator;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.LineBorder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A composition area is used to display text that's being composed

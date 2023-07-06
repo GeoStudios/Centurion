@@ -21,6 +21,22 @@
 
 package MyPackage;
 
+
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @build Frame HeapMonitor ThreadInformation
@@ -30,7 +46,6 @@ package MyPackage;
  * @run main/othervm/native -agentlib:HeapMonitorTest MyPackage.HeapMonitorTwoAgentsTest
  */
 
-import java.util.List;
 
 public class HeapMonitorTwoAgentsTest {
   private native static boolean enablingSamplingInSecondaryAgent();

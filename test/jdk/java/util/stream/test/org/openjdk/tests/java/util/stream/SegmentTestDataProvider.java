@@ -21,20 +21,32 @@
 
 package org.openjdk.tests.java.util.stream;
 
+
 import jdk.incubator.foreign.MemoryAccess;
 import jdk.incubator.foreign.MemoryLayout;
 import jdk.incubator.foreign.MemoryLayouts;
 import jdk.incubator.foreign.MemorySegment;
-
 import java.lang.invoke.VarHandle;
 import java.util.Collection;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.SpliteratorTestHelper;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-
 import org.testng.annotations.DataProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SegmentTestDataProvider {
 

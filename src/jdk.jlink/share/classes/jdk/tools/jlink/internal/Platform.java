@@ -18,11 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.tools.jlink.internal;
 
-import jdk.tools.jlink.plugin.ResourcePoolModule;
+package jdk.jlink.share.classes.jdk.tools.jlink.internal;
 
-import java.util.Locale;
+
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolModule;
+import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Supported platforms

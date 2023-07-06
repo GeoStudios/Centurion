@@ -19,25 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider;
+package java.base.share.classes.sun.security.provider;
+
 
 import java.io.*;
-import java.security.PublicKey;
+import java.base.share.classes.java.security.PublicKey;
 import java.util.*;
 import java.security.cert.*;
-
 import jdk.internal.event.EventHelper;
 import jdk.internal.event.X509CertificateEvent;
-import sun.security.util.KeyUtil;
-import sun.security.util.Pem;
-import sun.security.x509.*;
-import sun.security.pkcs.PKCS7;
-import sun.security.provider.certpath.X509CertPath;
-import sun.security.provider.certpath.X509CertificatePair;
-import sun.security.util.DerValue;
-import sun.security.util.Cache;
+import java.base.share.classes.sun.security.util.KeyUtil;
+import java.base.share.classes.sun.security.util.Pem;
+import java.base.share.classes.sun.security.x509.*;
+import java.base.share.classes.sun.security.pkcs.PKCS7;
+import java.base.share.classes.sun.security.provider.certpath.X509CertPath;
+import java.base.share.classes.sun.security.provider.certpath.X509CertificatePair;
+import java.base.share.classes.sun.security.util.DerValue;
+import java.base.share.classes.sun.security.util.Cache;
 import java.util.Base64;
-import sun.security.pkcs.ParsingException;
+import java.base.share.classes.sun.security.pkcs.ParsingException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class defines a certificate factory for X.509 v3 certificates {@literal &}

@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.peer;
+package java.desktop.share.classes.java.awt.peer;
 
-import java.awt.Rectangle;
-import java.awt.Robot;
+
+import java.desktop.share.classes.java.awt.Rectangle;
+import java.desktop.share.classes.java.awt.Robot;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * RobotPeer defines an interface whereby toolkits support automated testing

@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.text.html.parser;
+package java.desktop.share.classes.javax.swing.text.html.parser;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * SGML constants used in a DTD. The names of the

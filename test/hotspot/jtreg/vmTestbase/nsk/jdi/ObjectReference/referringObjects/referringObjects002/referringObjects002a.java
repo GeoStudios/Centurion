@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.jdi.ObjectReference.referringObjects.referringObjects002;
+
 
 import nsk.share.ClassUnloader;
 import nsk.share.ObjectInstancesManager;
@@ -27,6 +29,19 @@ import nsk.share.TestBug;
 import nsk.share.jdi.HeapwalkingDebuggee;
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Class create and save given number of class instances

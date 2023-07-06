@@ -21,6 +21,21 @@
 
 package pkg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class C2 {
   public class Inner1 { }
   public class Inner2 { }

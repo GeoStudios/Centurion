@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.doclint;
+package jdk.compiler.share.classes.com.sun.tools.doclint;
+
 
 import java.util.ServiceLoader;
+import jdk.compiler.share.classes.com.sun.source.util.JavacTask;
+import jdk.compiler.share.classes.com.sun.source.util.Plugin;
 
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.Plugin;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The base class for the DocLint service used by javac.

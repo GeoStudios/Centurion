@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.types;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8150804
@@ -28,7 +45,6 @@
  *                   compiler.types.TestPhiElimination
  */
 
-package compiler.types;
 
 public class TestPhiElimination {
     /*

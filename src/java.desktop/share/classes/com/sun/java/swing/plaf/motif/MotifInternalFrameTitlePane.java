@@ -19,22 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.motif;
+package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-import java.awt.*;
-import java.awt.event.*;
+
+import java.desktop.share.classes.com.sun.java.awt.*;
+import java.desktop.share.classes.com.sun.java.awt.event.*;
 import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.event.InternalFrameEvent;
 import javax.swing.plaf.basic.*;
-import java.util.EventListener;
-import java.beans.PropertyChangeListener;
-import java.beans.PropertyChangeEvent;
-import java.beans.VetoableChangeListener;
-import java.beans.PropertyVetoException;
+import java.desktop.share.classes.com.sun.java.util.Eventjava.util.Listener;
+import java.desktop.share.classes.com.sun.java.beans.PropertyChangejava.util.Listener;
+import java.desktop.share.classes.com.sun.java.beans.PropertyChangeEvent;
+import java.desktop.share.classes.com.sun.java.beans.VetoableChangejava.util.Listener;
+import java.desktop.share.classes.com.sun.java.beans.PropertyVetoException;
+import java.desktop.share.classes.com.sun.awt.AWTAccessor;
+import java.desktop.share.classes.com.sun.awt.AWTAccessor.MouseEventAccessor;
 
-import sun.awt.AWTAccessor;
-import sun.awt.AWTAccessor.MouseEventAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class that manages a Motif title bar

@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.xs.models;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.models;
 
-import com.sun.org.apache.xerces.internal.impl.xs.SubstitutionGroupHandler;
-import com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaException;
-import com.sun.org.apache.xerces.internal.xni.QName;
-import java.util.List;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SubstitutionGroupHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Note: State of the content model is stored in the validator

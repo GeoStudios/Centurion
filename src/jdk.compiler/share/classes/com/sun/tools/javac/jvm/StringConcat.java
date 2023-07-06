@@ -19,25 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.jvm;
+package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
 
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.Symbol.MethodSymbol;
-import com.sun.tools.javac.comp.Resolve;
-import com.sun.tools.javac.jvm.PoolConstant.LoadableConstant;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.TreeInfo;
-import com.sun.tools.javac.tree.TreeMaker;
-import com.sun.tools.javac.util.*;
 
-import static com.sun.tools.javac.code.Kinds.Kind.MTH;
-import static com.sun.tools.javac.code.TypeTag.*;
-import static com.sun.tools.javac.jvm.ByteCodes.*;
-import static com.sun.tools.javac.tree.JCTree.Tag.PLUS;
-import com.sun.tools.javac.jvm.Items.*;
-
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.MethodSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Resolve;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.PoolConstant.LoadableConstant;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeInfo;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeMaker;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.MTH;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ByteCodes.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.PLUS;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.Items.*;
 import java.util.HashMap;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This lowers the String concatenation to something that JVM can understand.
  *

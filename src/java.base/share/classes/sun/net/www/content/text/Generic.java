@@ -19,10 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.sun.net.www.content.text;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Generic text file handler
  */
-package sun.net.www.content.text;
+
 
 public class Generic extends plain {
     /* nothing to do since Generic is identical to plain! */

@@ -21,11 +21,24 @@
 
 package nsk.jdi.ReferenceType.hashCode;
 
+
 import java.lang.reflect.*;
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

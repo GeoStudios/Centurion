@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.interpreter;
+
+
+import sun.hotspot.WhiteBox;
+import java.lang.reflect.Method;
+import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8159620
@@ -36,12 +56,8 @@
  *                   compiler.interpreter.DisableOSRTest
  */
 
-package compiler.interpreter;
 
-import sun.hotspot.WhiteBox;
 
-import java.lang.reflect.Method;
-import java.util.Random;
 
 public class DisableOSRTest {
     private static final WhiteBox WB = WhiteBox.getWhiteBox();

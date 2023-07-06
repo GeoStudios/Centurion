@@ -21,7 +21,22 @@
 
 package pkg;
 
-   /*****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****
     * Just a dummy interface used to reproduce a bug.
     */
 

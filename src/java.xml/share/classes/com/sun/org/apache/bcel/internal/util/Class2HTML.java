@@ -19,22 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.bcel.internal.util;
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.util;
+
 
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.util.HashSet;
 import java.util.Set;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Attribute;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ClassParser;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantPool;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.JavaClass;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Method;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Utility;
 
-import com.sun.org.apache.bcel.internal.Const;
-import com.sun.org.apache.bcel.internal.classfile.Attribute;
-import com.sun.org.apache.bcel.internal.classfile.ClassParser;
-import com.sun.org.apache.bcel.internal.classfile.ConstantPool;
-import com.sun.org.apache.bcel.internal.classfile.JavaClass;
-import com.sun.org.apache.bcel.internal.classfile.Method;
-import com.sun.org.apache.bcel.internal.classfile.Utility;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Read class file(s) and convert them into HTML files.

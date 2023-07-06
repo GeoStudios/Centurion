@@ -19,26 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-
-package javax.swing.plaf.basic;
+package java.desktop.share.classes.javax.swing.plaf.basic;
 
 
 import sun.awt.AWTAccessor;
 import sun.awt.AWTAccessor.ComponentAccessor;
 import sun.swing.DefaultLookup;
 import sun.swing.UIAction;
-import javax.swing.*;
-import javax.swing.border.Border;
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.border.Border;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.peer.ComponentPeer;
 import java.awt.peer.LightweightPeer;
 import java.beans.*;
 import java.util.*;
-import javax.swing.plaf.SplitPaneUI;
-import javax.swing.plaf.ComponentUI;
-import javax.swing.plaf.UIResource;
+import java.desktop.share.classes.javax.swing.plaf.SplitPaneUI;
+import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
+import java.desktop.share.classes.javax.swing.plaf.UIResource;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

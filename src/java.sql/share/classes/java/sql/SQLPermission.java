@@ -19,10 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.sql.share.classes.java.sql;
 
-package java.sql;
 
-import java.security.*;
+import java.sql.share.classes.java.security.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The permission for which the {@code SecurityManager} will check

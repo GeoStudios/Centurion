@@ -18,10 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.jdi.StackFrame.getArgumentValues.getArgumentValues003;
+
 
 import nsk.share.TestBug;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //Debuggee class, handles command to start and stop test thread
 public class getArgumentValues003a extends AbstractJDIDebuggee {

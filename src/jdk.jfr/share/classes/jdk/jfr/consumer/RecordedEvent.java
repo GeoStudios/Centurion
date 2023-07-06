@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.consumer;
+package jdk.jfr.share.classes.jdk.jfr.consumer;
+
 
 import java.time.Duration;
 import java.time.Instant;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import jdk.jfr.share.classes.jdk.jfr.EventType;
+import jdk.jfr.share.classes.jdk.jfr.ValueDescriptor;
+import jdk.jfr.share.classes.jdk.jfr.internal.EventInstrumentation;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.ObjectContext;
 
-import jdk.jfr.EventType;
-import jdk.jfr.ValueDescriptor;
-import jdk.jfr.internal.EventInstrumentation;
-import jdk.jfr.internal.consumer.ObjectContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A recorded event.

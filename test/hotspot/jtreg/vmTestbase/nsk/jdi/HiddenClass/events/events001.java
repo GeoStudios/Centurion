@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.HiddenClass.events;
+
+
+import com.sun.jdi.Field;
+import com.sun.jdi.Method;
+import com.sun.jdi.ReferenceType;
+import com.sun.jdi.request.EventRequest;
+import nsk.jdi.HiddenClass.events.DebuggerBase;
+import nsk.jdi.HiddenClass.events.EventHandler;
+import nsk.share.Log;
+import nsk.share.jdi.ArgumentHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @summary JDI test for hidden classes
@@ -42,19 +67,10 @@
  *                       -XX:+WhiteBoxAPI ${test.vm.opts} ${test.java.opts}"
  */
 
-package nsk.jdi.HiddenClass.events;
 
-import com.sun.jdi.Field;
-import com.sun.jdi.Method;
-import com.sun.jdi.ReferenceType;
 
-import com.sun.jdi.request.EventRequest;
 
-import nsk.jdi.HiddenClass.events.DebuggerBase;
-import nsk.jdi.HiddenClass.events.EventHandler;
 
-import nsk.share.Log;
-import nsk.share.jdi.ArgumentHandler;
 
 // This class is the test debugger
 public class events001 extends DebuggerBase {

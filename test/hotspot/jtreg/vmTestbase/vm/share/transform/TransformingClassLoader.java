@@ -18,9 +18,24 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package vm.share.transform;
 
+
 import vm.share.FileUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TransformingClassLoader extends ClassLoader {
     private final AbstractClassFileTransformer transformer;

@@ -18,11 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.reader.impl;
 
-import jdk.internal.org.jline.reader.MaskingCallback;
+package jdk.internal.le.share.classes.jdk.internal.org.jline.reader.impl;
 
-import java.util.Objects;
+
+import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.MaskingCallback;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Simple {@link MaskingCallback} that will replace all the characters in the line with the given mask.

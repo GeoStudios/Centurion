@@ -19,8 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.annotation;
-import java.lang.reflect.Method;
+package java.base.share.classes.java.lang.annotation;
+
+
+import java.base.share.classes.java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Thrown to indicate that a program has attempted to access an element of

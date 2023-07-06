@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.transform.stax;
+package java.xml.share.classes.javax.xml.transform.stax;
 
-import javax.xml.stream.XMLEventReader;
-import javax.xml.stream.XMLStreamConstants;
-import javax.xml.stream.XMLStreamException;
-import javax.xml.stream.XMLStreamReader;
-import javax.xml.stream.events.XMLEvent;
-import javax.xml.transform.Source;
+
+import java.xml.share.classes.javax.xml.stream.XMLEventReader;
+import java.xml.share.classes.javax.xml.stream.XMLStreamConstants;
+import java.xml.share.classes.javax.xml.stream.XMLStreamException;
+import java.xml.share.classes.javax.xml.stream.XMLStreamReader;
+import java.xml.share.classes.javax.xml.stream.events.XMLEvent;
+import java.xml.share.classes.javax.xml.transform.Source;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Acts as a holder for an XML {@link Source} in the

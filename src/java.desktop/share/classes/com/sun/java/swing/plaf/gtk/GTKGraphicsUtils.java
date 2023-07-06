@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.java.swing.plaf.gtk;
+
+package java.desktop.share.classes.com.sun.java.swing.plaf.gtk;
+
 
 import javax.swing.*;
 import javax.swing.plaf.synth.*;
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Rectangle;
+import java.desktop.share.classes.com.sun.java.awt.Color;
+import java.desktop.share.classes.com.sun.java.awt.Graphics;
+import java.desktop.share.classes.com.sun.java.awt.Rectangle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

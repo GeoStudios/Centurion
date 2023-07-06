@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole.inspector;
+package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
+
 
 import java.awt.Color;
 import java.awt.Component;
@@ -28,6 +29,20 @@ import java.util.Collection;
 import java.util.Map;
 import javax.swing.JEditorPane;
 import javax.swing.JScrollPane;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class XArrayDataViewer {
 

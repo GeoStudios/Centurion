@@ -18,12 +18,13 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.jmx.mbeanserver;
+
+package java.management.share.classes.com.sun.jmx.mbeanserver;
+
 
 import java.lang.System.Logger.Level;
-
 import javax.management.Attribute;
-import javax.management.AttributeList;
+import javax.management.Attributejava.util.java.util.java.util.List;
 import javax.management.AttributeNotFoundException;
 import javax.management.DynamicMBean;
 import javax.management.InvalidAttributeValueException;
@@ -37,8 +38,21 @@ import javax.management.MBeanServerDelegate;
 import javax.management.ObjectName;
 import javax.management.ReflectionException;
 import javax.management.RuntimeOperationsException;
+import static java.management.share.classes.com.sun.jmx.defaults.JmxProperties.MBEANSERVER_LOGGER;.extended
 
-import static com.sun.jmx.defaults.JmxProperties.MBEANSERVER_LOGGER;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is the MBean implementation of the MBeanServerDelegate.

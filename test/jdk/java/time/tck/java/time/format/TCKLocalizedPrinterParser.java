@@ -21,8 +21,8 @@
 
 package tck.java.time.format;
 
-import static org.testng.Assert.assertEquals;
 
+import static org.testng.Assert.assertEquals;.extended
 import java.text.DateFormat;
 import java.text.ParsePosition;
 import java.time.LocalDate;
@@ -32,11 +32,23 @@ import java.time.format.DateTimeFormatterBuilder;
 import java.time.format.FormatStyle;
 import java.time.temporal.TemporalAccessor;
 import java.util.Date;
-import java.util.Locale;
-
+import java.base.share.classes.java.util.Locale;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test localized behavior of formatter.

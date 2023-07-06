@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.geom;
+package java.desktop.share.classes.java.awt.geom;
 
-import java.awt.Shape;
-import java.awt.Rectangle;
-import java.beans.Transient;
+
+import java.desktop.share.classes.java.awt.Shape;
+import java.desktop.share.classes.java.awt.Rectangle;
+import java.desktop.share.classes.java.beans.Transient;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code RectangularShape} is the base class for a number of

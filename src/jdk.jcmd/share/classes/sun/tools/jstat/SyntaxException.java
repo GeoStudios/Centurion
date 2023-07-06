@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jstat;
+package jdk.jcmd.share.classes.sun.tools.jstat;
+
 
 import java.io.StreamTokenizer;
 import java.util.Set;
 import java.util.Iterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An exception class for syntax exceptions detected by the options file

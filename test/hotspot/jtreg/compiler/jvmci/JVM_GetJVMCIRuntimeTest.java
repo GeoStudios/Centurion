@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci;
+
+
+import jdk.test.lib.Asserts;
+import jdk.vm.ci.runtime.JVMCI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8136421
@@ -47,10 +66,7 @@
 
  */
 
-package compiler.jvmci;
 
-import jdk.test.lib.Asserts;
-import jdk.vm.ci.runtime.JVMCI;
 
 public class JVM_GetJVMCIRuntimeTest implements Runnable {
     private static final boolean IS_POSITIVE = Boolean.getBoolean(

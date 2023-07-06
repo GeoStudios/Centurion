@@ -19,24 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.unix.classes.sun.awt.X11;
 
-/**
- * Ported from awt_wm.c, SCCS v1.11, author Valeriy Ushakov
- * Author: Denis Mikhalkin
- */
-package sun.awt.X11;
 
-import sun.awt.IconInfo;
+import java.desktop.unix.classes.sun.awt.IconInfo;
 import jdk.internal.misc.Unsafe;
 import java.awt.Insets;
 import java.awt.Frame;
 import java.awt.Rectangle;
 import java.util.Collection;
 import java.util.HashMap;
-import java.util.LinkedList;
+import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import sun.util.logging.PlatformLogger;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Ported from awt_wm.c, SCCS v1.11, author Valeriy Ushakov
+ * Author: Denis Mikhalkin
+ */
+
+
 
 
 /**

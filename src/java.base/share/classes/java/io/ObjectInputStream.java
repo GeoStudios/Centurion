@@ -19,37 +19,50 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
-import java.io.ObjectInputFilter.Config;
-import java.io.ObjectStreamClass.WeakClassKey;
-import java.io.ObjectStreamClass.RecordSupport;
-import java.lang.System.Logger;
-import java.lang.invoke.MethodHandle;
-import java.lang.ref.ReferenceQueue;
-import java.lang.reflect.Array;
-import java.lang.reflect.InvocationHandler;
-import java.lang.reflect.Modifier;
-import java.lang.reflect.Proxy;
-import java.security.AccessControlContext;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.security.PrivilegedActionException;
-import java.security.PrivilegedExceptionAction;
-import java.util.Arrays;
-import java.util.Map;
-import java.util.Objects;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
 
-import static java.io.ObjectStreamClass.processQueue;
-
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.java.io.ObjectInputFilter.Config;
+import java.base.share.classes.java.io.ObjectStreamClass.WeakClassKey;
+import java.base.share.classes.java.io.ObjectStreamClass.RecordSupport;
+import java.base.share.classes.java.lang.System.Logger;
+import java.base.share.classes.java.lang.invoke.MethodHandle;
+import java.base.share.classes.java.lang.ref.ReferenceQueue;
+import java.base.share.classes.java.lang.reflect.Array;
+import java.base.share.classes.java.lang.reflect.InvocationHandler;
+import java.base.share.classes.java.lang.reflect.Modifier;
+import java.base.share.classes.java.lang.reflect.Proxy;
+import java.base.share.classes.java.security.AccessControlContext;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.PrivilegedAction;
+import java.base.share.classes.java.security.PrivilegedActionException;
+import java.base.share.classes.java.security.PrivilegedExceptionAction;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.concurrent.ConcurrentMap;
+import static java.base.share.classes.java.io.ObjectStreamClass.processQueue;.extended
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.event.DeserializationEvent;
 import jdk.internal.misc.Unsafe;
 import sun.reflect.misc.ReflectUtil;
 import sun.security.action.GetBooleanAction;
 import sun.security.action.GetIntegerAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An ObjectInputStream deserializes primitive data and objects previously
@@ -2326,7 +2339,7 @@ public class ObjectInputStream
         MethodHandle ctrMH = RecordSupport.deserializationCtr(desc);
 
         try {
-            return (Object) ctrMH.invokeExact(fieldValues.primValues, fieldValues.objValues);
+            return ctrMH.invokeExact(fieldValues.primValues, fieldValues.objValues);
         } catch (Exception e) {
             InvalidObjectException ioe = new InvalidObjectException(e.getMessage(), e);
             throw ioe;

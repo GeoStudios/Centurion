@@ -19,6 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.vm.ci.hotspot.test;
+
+
+import java.util.function.Supplier;
+import org.testng.Assert;
+import org.testng.SkipException;
+import org.testng.annotations.Test;
+import jdk.vm.ci.hotspot.HotSpotSpeculationLog;
+import jdk.vm.ci.meta.JavaConstant;
+import jdk.vm.ci.meta.JavaKind;
+import jdk.vm.ci.meta.MetaAccessProvider;
+import jdk.vm.ci.meta.SpeculationLog;
+import jdk.vm.ci.meta.SpeculationLog.SpeculationReasonEncoding;
+import jdk.vm.ci.runtime.JVMCI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @requires vm.jvmci
@@ -31,21 +59,9 @@
  *      jdk.vm.ci.hotspot.test.TestHotSpotSpeculationLog
  */
 
-package jdk.vm.ci.hotspot.test;
 
-import java.util.function.Supplier;
 
-import org.testng.Assert;
-import org.testng.SkipException;
-import org.testng.annotations.Test;
 
-import jdk.vm.ci.hotspot.HotSpotSpeculationLog;
-import jdk.vm.ci.meta.JavaConstant;
-import jdk.vm.ci.meta.JavaKind;
-import jdk.vm.ci.meta.MetaAccessProvider;
-import jdk.vm.ci.meta.SpeculationLog;
-import jdk.vm.ci.meta.SpeculationLog.SpeculationReasonEncoding;
-import jdk.vm.ci.runtime.JVMCI;
 
 public class TestHotSpotSpeculationLog {
 

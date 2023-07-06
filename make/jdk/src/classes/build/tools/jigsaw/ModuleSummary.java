@@ -21,32 +21,55 @@
 
 package build.tools.jigsaw;
 
-import java.io.IOException;
-import java.io.PrintStream;
-import java.lang.module.Configuration;
-import java.lang.module.ModuleDescriptor;
-import java.lang.module.ModuleFinder;
-import java.lang.module.ModuleReference;
-import java.lang.module.ResolvedModule;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.Arrays;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.Date;
-import java.util.Enumeration;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.stream.Collectors;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipFile;
-import static java.lang.module.ModuleDescriptor.*;
-import static build.tools.jigsaw.ModuleSummary.HtmlDocument.Selector.*;
-import static build.tools.jigsaw.ModuleSummary.HtmlDocument.Division.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ModuleSummary {
     private static final String USAGE = "Usage: ModuleSummary --module-path <dir> -o <outfile> [--root mn]*";

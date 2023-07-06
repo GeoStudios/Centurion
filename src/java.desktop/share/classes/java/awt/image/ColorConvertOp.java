@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.image;
+package java.desktop.share.classes.java.awt.image;
 
-import java.awt.Graphics2D;
-import java.awt.Point;
-import java.awt.RenderingHints;
-import java.awt.color.ColorSpace;
-import java.awt.color.ICC_ColorSpace;
-import java.awt.color.ICC_Profile;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
 
+import java.desktop.share.classes.java.awt.Graphics2D;
+import java.desktop.share.classes.java.awt.Point;
+import java.desktop.share.classes.java.awt.RenderingHints;
+import java.desktop.share.classes.java.awt.color.ColorSpace;
+import java.desktop.share.classes.java.awt.color.ICC_ColorSpace;
+import java.desktop.share.classes.java.awt.color.ICC_Profile;
+import java.desktop.share.classes.java.awt.geom.Point2D;
+import java.desktop.share.classes.java.awt.geom.Rectangle2D;
 import sun.java2d.cmm.CMSManager;
 import sun.java2d.cmm.ColorTransform;
 import sun.java2d.cmm.PCMM;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class performs a pixel-by-pixel color conversion of the data in

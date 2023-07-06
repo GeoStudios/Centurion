@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.proc.aarch64;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.proc.aarch64;
 
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.debugger.proc.*;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.proc.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ProcAARCH64ThreadFactory implements ProcThreadFactory {
     private final ProcDebugger debugger;

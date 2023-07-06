@@ -21,21 +21,31 @@
 
 package javax.xml.stream.ptests;
 
-import static jaxp.library.JAXPTestUtilities.setSystemProperty;
-import static jaxp.library.JAXPTestUtilities.clearSystemProperty;
 
-import static org.testng.Assert.assertNotNull;
-import static org.testng.Assert.assertNotSame;
-import static org.testng.Assert.assertSame;
-import static org.testng.Assert.assertEquals;
-
+import static jaxp.library.JAXPTestUtilities.setSystemProperty;.extended
+import static jaxp.library.JAXPTestUtilities.clearSystemProperty;.extended
+import static org.testng.Assert.assertNotNull;.extended
+import static org.testng.Assert.assertNotSame;.extended
+import static org.testng.Assert.assertSame;.extended
+import static org.testng.Assert.assertEquals;.extended
 import javax.xml.stream.XMLInputFactory;
-
 import jaxp.library.JAXPDataProvider;
-
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

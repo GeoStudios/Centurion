@@ -18,20 +18,35 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.incubator.foreign;
 
-import jdk.internal.access.JavaLangInvokeAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.foreign.Utils;
+package jdk.incubator.foreign.share.classes.jdk.incubator.foreign;
+
+
+import jdk.incubator.foreign.share.classes.jdk.internal.access.JavaLangInvokeAccess;
+import jdk.incubator.foreign.share.classes.jdk.internal.access.SharedSecrets;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.Utils;
 import sun.invoke.util.Wrapper;
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import java.lang.invoke.VarHandle;
 import java.nio.ByteOrder;
-import java.util.List;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class defines several factory methods for constructing and combining memory access var handles.

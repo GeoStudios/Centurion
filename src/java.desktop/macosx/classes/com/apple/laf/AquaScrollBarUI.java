@@ -19,23 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.*;
 import java.util.*;
-
 import javax.swing.*;
 import javax.swing.Timer;
 import javax.swing.event.*;
 import javax.swing.plaf.*;
+import java.desktop.macosx.classes.com.apple.laf.*;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.*;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIState.ScrollBarState;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
 
-import apple.laf.*;
-import apple.laf.JRSUIConstants.*;
-import apple.laf.JRSUIState.ScrollBarState;
 
-import com.apple.laf.AquaUtils.RecyclableSingleton;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaScrollBarUI extends ScrollBarUI {
     private static final int kInitialDelay = 300;

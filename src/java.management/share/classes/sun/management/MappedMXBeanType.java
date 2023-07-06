@@ -19,14 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.management;
+package java.management.share.classes.sun.management;
+
+
 import java.lang.management.MemoryUsage;
 import java.lang.management.MemoryNotificationInfo;
 import java.lang.management.MonitorInfo;
 import java.lang.management.LockInfo;
 import java.lang.management.ThreadInfo;
 import java.lang.reflect.*;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.*;
 import java.io.InvalidObjectException;
@@ -35,7 +37,21 @@ import java.security.PrivilegedAction;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
 import javax.management.openmbean.*;
-import static javax.management.openmbean.SimpleType.*;
+import static javax.management.openmbean.SimpleType.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A mapped mxbean type maps a Java type to an open type.

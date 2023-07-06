@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.JumbleGC;
+
+
+import nsk.share.test.*;
+import nsk.share.gc.*;
+import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -38,11 +58,7 @@
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.JumbleGC.JumbleGC
  */
 
-package gc.gctests.JumbleGC;
 
-import nsk.share.test.*;
-import nsk.share.gc.*;
-import java.util.Vector;
 
 public class JumbleGC extends TestBase {
         public void run() {

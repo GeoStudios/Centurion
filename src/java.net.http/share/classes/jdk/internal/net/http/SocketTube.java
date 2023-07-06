@@ -19,32 +19,47 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
-import java.util.List;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.Flow;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.atomic.AtomicReference;
 import java.nio.channels.SelectableChannel;
 import java.nio.channels.SelectionKey;
-import java.nio.channels.SocketChannel;
-import java.util.ArrayList;
+import java.nio.channels.java.net.SocketChannel;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
-import jdk.internal.net.http.common.BufferSupplier;
-import jdk.internal.net.http.common.Demand;
-import jdk.internal.net.http.common.FlowTube;
-import jdk.internal.net.http.common.Log;
-import jdk.internal.net.http.common.Logger;
-import jdk.internal.net.http.common.SequentialScheduler;
-import jdk.internal.net.http.common.SequentialScheduler.DeferredCompleter;
-import jdk.internal.net.http.common.SequentialScheduler.RestartableTask;
-import jdk.internal.net.http.common.Utils;
+import java.net.http.share.classes.jdk.internal.net.http.common.BufferSupplier;
+import java.net.http.share.classes.jdk.internal.net.http.common.Demand;
+import java.net.http.share.classes.jdk.internal.net.http.common.FlowTube;
+import java.net.http.share.classes.jdk.internal.net.http.common.Log;
+import java.net.http.share.classes.jdk.internal.net.http.common.Logger;
+import java.net.http.share.classes.jdk.internal.net.http.common.SequentialScheduler;
+import java.net.http.share.classes.jdk.internal.net.http.common.SequentialScheduler.DeferredCompleter;
+import java.net.http.share.classes.jdk.internal.net.http.common.SequentialScheduler.RestartableTask;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A SocketTube is a terminal tube plugged directly into the socket.

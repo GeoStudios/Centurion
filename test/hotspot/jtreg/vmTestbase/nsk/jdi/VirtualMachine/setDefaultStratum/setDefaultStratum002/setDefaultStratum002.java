@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.VirtualMachine.setDefaultStratum.setDefaultStratum002;
+
+
+import java.io.*;
+import java.util.*;
+import com.sun.jdi.*;
+import nsk.share.Consts;
+import nsk.share.jdi.sde.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -82,13 +104,7 @@
  *      -testStratumCount 3
  */
 
-package nsk.jdi.VirtualMachine.setDefaultStratum.setDefaultStratum002;
 
-import java.io.*;
-import java.util.*;
-import com.sun.jdi.*;
-import nsk.share.Consts;
-import nsk.share.jdi.sde.*;
 
 public class setDefaultStratum002 extends SDEDebugger {
     public static void main(String argv[]) {

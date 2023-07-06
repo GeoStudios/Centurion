@@ -19,29 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
 import java.nio.ByteBuffer;
 import java.security.CryptoPrimitive;
 import java.security.GeneralSecurityException;
-import java.security.InvalidKeyException;
-import java.security.KeyFactory;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.KeyFactory;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.Signature;
 import java.security.SignatureException;
 import java.security.interfaces.RSAPublicKey;
 import java.security.spec.RSAPublicKeySpec;
 import java.text.MessageFormat;
 import java.util.EnumSet;
-import java.util.Locale;
-import sun.security.ssl.RSAKeyExchange.EphemeralRSACredentials;
-import sun.security.ssl.RSAKeyExchange.EphemeralRSAPossession;
-import sun.security.ssl.SSLHandshake.HandshakeMessage;
-import sun.security.ssl.X509Authentication.X509Credentials;
-import sun.security.ssl.X509Authentication.X509Possession;
-import sun.security.util.HexDumpEncoder;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.sun.security.ssl.RSAKeyExchange.EphemeralRSACredentials;
+import java.base.share.classes.sun.security.ssl.RSAKeyExchange.EphemeralRSAPossession;
+import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
+import java.base.share.classes.sun.security.ssl.X509Authentication.X509Credentials;
+import java.base.share.classes.sun.security.ssl.X509Authentication.X509Possession;
+import java.base.share.classes.sun.security.util.HexDumpEncoder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Pack of the ServerKeyExchange handshake message.

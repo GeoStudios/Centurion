@@ -19,17 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * A Super class for pluggable connectors used by
- * nsk/jdi/PlugConnectors tests
- */
-
 package nsk.share.jdi;
+
 
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * A Super class for pluggable connectors used by
+ * nsk/jdi/PlugConnectors tests
+ */
+
+
 
 public class PlugConnectors implements Connector {
 

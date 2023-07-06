@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.rmi.server;
+package java.rmi.share.classes.sun.rmi.server;
+
 
 import java.io.*;
 import java.rmi.Remote;
 import java.rmi.server.RemoteStub;
-import sun.rmi.transport.ObjectTable;
-import sun.rmi.transport.Target;
+import java.rmi.share.classes.sun.rmi.transport.ObjectTable;
+import java.rmi.share.classes.sun.rmi.transport.Target;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A MarshalOutputStream extends ObjectOutputStream to add functions

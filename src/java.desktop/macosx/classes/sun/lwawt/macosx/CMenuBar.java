@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
 
 import java.awt.Menu;
 import java.awt.MenuBar;
 import java.awt.peer.MenuBarPeer;
+import java.desktop.macosx.classes.sun.awt.AWTAccessor;
 
-import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class CMenuBar extends CMenuComponent implements MenuBarPeer {
 

@@ -21,22 +21,33 @@
 
 package jdk.jfr.event.gc.collection;
 
-import static jdk.test.lib.Asserts.assertGreaterThan;
-import static jdk.test.lib.Asserts.assertTrue;
 
+import static jdk.test.lib.Asserts.assertGreaterThan;.extended
+import static jdk.test.lib.Asserts.assertTrue;.extended
 import java.io.File;
 import java.nio.file.Paths;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
-
 import jdk.jfr.consumer.RecordedEvent;
 import jdk.jfr.consumer.RecordingFile;
 import jdk.test.lib.jfr.AppExecutorHelper;
 import jdk.test.lib.jfr.Events;
 import jdk.test.lib.process.OutputAnalyzer;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

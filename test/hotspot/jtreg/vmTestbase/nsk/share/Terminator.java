@@ -21,6 +21,21 @@
 
 package nsk.share;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Terminator is used to terminate a stress test with PASS exit status
  * before the test is terminated as timed out (and so failed).

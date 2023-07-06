@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.source.tree;
+package jdk.compiler.share.classes.com.sun.source.tree;
+
 
 import jdk.internal.javac.NoPreview;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A tree node used as the base class for the different types of

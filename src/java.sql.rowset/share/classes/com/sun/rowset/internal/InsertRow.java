@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.rowset.internal;
+package java.sql.rowset.share.classes.com.sun.rowset.internal;
 
-import com.sun.rowset.JdbcRowSetResourceBundle;
+
+import java.sql.rowset.share.classes.com.sun.rowset.JdbcRowSetResourceBundle;
 import java.sql.*;
 import javax.sql.*;
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class used internally to manage a <code>CachedRowSet</code> object's

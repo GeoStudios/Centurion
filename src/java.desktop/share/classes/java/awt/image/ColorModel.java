@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.image;
+package java.desktop.share.classes.java.awt.image;
 
-import java.awt.Transparency;
-import java.awt.color.ColorSpace;
-import java.awt.color.ICC_ColorSpace;
+
+import java.desktop.share.classes.java.awt.Transparency;
+import java.desktop.share.classes.java.awt.color.ColorSpace;
+import java.desktop.share.classes.java.awt.color.ICC_ColorSpace;
 import sun.java2d.cmm.CMSManager;
 import sun.java2d.cmm.ColorTransform;
 import sun.java2d.cmm.PCMM;
-import java.util.Collections;
-import java.util.Map;
-import java.util.WeakHashMap;
-import java.util.Arrays;
+import java.desktop.share.classes.java.util.Collections;
+import java.desktop.share.classes.java.util.Map;
+import java.desktop.share.classes.java.util.WeakHashMap;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code ColorModel} abstract class encapsulates the

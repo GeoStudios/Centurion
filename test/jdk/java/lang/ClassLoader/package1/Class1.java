@@ -21,6 +21,21 @@
 
 package package1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Class1 {
     public void testAssert(boolean assertsShouldBeOn) {
         boolean assertsEnabled = false;

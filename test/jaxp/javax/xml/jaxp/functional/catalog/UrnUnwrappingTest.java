@@ -21,14 +21,26 @@
 
 package catalog;
 
-import static catalog.CatalogTestUtils.catalogResolver;
-import static catalog.ResolutionChecker.checkPubIdResolution;
 
+import static catalog.CatalogTestUtils.catalogResolver;.extended
+import static catalog.ResolutionChecker.checkPubIdResolution;.extended
 import javax.xml.catalog.CatalogResolver;
-
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

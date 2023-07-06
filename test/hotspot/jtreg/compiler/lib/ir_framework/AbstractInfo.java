@@ -21,14 +21,27 @@
 
 package compiler.lib.ir_framework;
 
+
 import compiler.lib.ir_framework.shared.TestRunException;
 import compiler.lib.ir_framework.test.TestVM;
 import jdk.test.lib.Utils;
-
 import java.lang.reflect.Method;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Random;
 import java.util.stream.Collectors;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base info class which provides some useful utility methods and information about a test.

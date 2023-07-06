@@ -19,19 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.reference;
+
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Iterator;
+import java.util.java.util.java.util.java.util.List;
+import java.util.java.util.ListIterator;
+import java.util.NoSuchElementException;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.signature.reference;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.NoSuchElementException;
-import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
+
 
 /**
  * A representation of a {@code ReferenceNodeSetData} type containing a node-set.

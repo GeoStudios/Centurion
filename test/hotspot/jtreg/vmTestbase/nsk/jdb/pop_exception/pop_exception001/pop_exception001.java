@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdb.pop_exception.pop_exception001;
+
+
+import nsk.share.*;
+import nsk.share.jdb.*;
+import java.io.*;
+import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -44,13 +65,8 @@
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
 
-package nsk.jdb.pop_exception.pop_exception001;
 
-import nsk.share.*;
-import nsk.share.jdb.*;
 
-import java.io.*;
-import java.util.*;
 
 public class pop_exception001 extends JdbTest {
 

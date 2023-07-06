@@ -19,6 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.stress.jni.gclocker;
+
+
+import nsk.share.gc.GC;
+import nsk.share.gc.ThreadedGCTest;
+import nsk.share.gc.gp.array.BooleanArrayProducer;
+import nsk.share.gc.gp.array.ByteArrayProducer;
+import nsk.share.gc.gp.array.CharArrayProducer;
+import nsk.share.gc.gp.array.DoubleArrayProducer;
+import nsk.share.gc.gp.array.FloatArrayProducer;
+import nsk.share.gc.gp.array.IntArrayProducer;
+import nsk.share.gc.gp.array.LongArrayProducer;
+import nsk.share.gc.gp.array.ShortArrayProducer;
+import nsk.share.test.ExecutionController;
+import nsk.share.test.LocalRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -48,20 +76,7 @@
  *      -stressThreadsFactor 8
  */
 
-package nsk.stress.jni.gclocker;
 
-import nsk.share.gc.GC;
-import nsk.share.gc.ThreadedGCTest;
-import nsk.share.gc.gp.array.BooleanArrayProducer;
-import nsk.share.gc.gp.array.ByteArrayProducer;
-import nsk.share.gc.gp.array.CharArrayProducer;
-import nsk.share.gc.gp.array.DoubleArrayProducer;
-import nsk.share.gc.gp.array.FloatArrayProducer;
-import nsk.share.gc.gp.array.IntArrayProducer;
-import nsk.share.gc.gp.array.LongArrayProducer;
-import nsk.share.gc.gp.array.ShortArrayProducer;
-import nsk.share.test.ExecutionController;
-import nsk.share.test.LocalRandom;
 
 public class gcl001 extends ThreadedGCTest {
 

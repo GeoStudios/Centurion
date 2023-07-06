@@ -19,33 +19,46 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.event.ComponentEvent;
-import java.awt.event.HierarchyEvent;
-import java.awt.event.InvocationEvent;
-import java.awt.event.WindowEvent;
-import java.awt.peer.DialogPeer;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.Serial;
-import java.security.AccessControlException;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.concurrent.atomic.AtomicLong;
 
+import java.desktop.share.classes.java.awt.event.ComponentEvent;
+import java.desktop.share.classes.java.awt.event.HierarchyEvent;
+import java.desktop.share.classes.java.awt.event.InvocationEvent;
+import java.desktop.share.classes.java.awt.event.WindowEvent;
+import java.desktop.share.classes.java.awt.peer.DialogPeer;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.security.AccessControlException;
+import java.desktop.share.classes.java.security.AccessController;
+import java.desktop.share.classes.java.security.PrivilegedAction;
+import java.desktop.share.classes.java.util.Collections;
+import java.desktop.share.classes.java.util.Iterator;
+import java.desktop.share.classes.java.util.concurrent.atomic.AtomicLong;
 import javax.accessibility.AccessibleContext;
 import javax.accessibility.AccessibleRole;
 import javax.accessibility.AccessibleState;
 import javax.accessibility.AccessibleStateSet;
-
 import sun.awt.AWTPermissions;
 import sun.awt.AppContext;
 import sun.awt.SunToolkit;
-import sun.awt.util.IdentityArrayList;
-import sun.awt.util.IdentityLinkedList;
+import sun.awt.util.IdentityArrayjava.util.java.util.java.util.List;
+import sun.awt.util.IdentityLinkedjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Dialog is a top-level window with a title and a border

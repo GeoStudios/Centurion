@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider;
+package java.base.share.classes.sun.security.provider;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.AccessController;
 import java.security.DrbgParameters;
 import java.security.PrivilegedAction;
 import java.security.SecureRandomParameters;
 import java.security.SecureRandomSpi;
 import java.security.Security;
-import java.util.Locale;
-import static java.security.DrbgParameters.Capability.*;
+import java.base.share.classes.java.util.Locale;
+import static java.security.DrbgParameters.Capability.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implement the "SecureRandom.DRBG" algorithm.

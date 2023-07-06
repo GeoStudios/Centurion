@@ -18,12 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.jvmti.AttachOnDemand.attach045;
+
 
 import nsk.share.CustomClassLoader;
 import nsk.share.TestBug;
 import nsk.share.aod.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This target application provokes following events:

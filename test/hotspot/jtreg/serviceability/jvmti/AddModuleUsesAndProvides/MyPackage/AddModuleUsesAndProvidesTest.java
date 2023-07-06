@@ -21,6 +21,23 @@
 
 package MyPackage;
 
+
+import java.io.PrintStream;
+import java.lang.TestProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @summary Basic test for JVMTI AddModuleUses and AddModuleProvides
@@ -31,8 +48,6 @@ package MyPackage;
  * @run main/othervm/native -agentlib:AddModuleUsesAndProvidesTest MyPackage.AddModuleUsesAndProvidesTest
  */
 
-import java.io.PrintStream;
-import java.lang.TestProvider;
 
 public class AddModuleUsesAndProvidesTest {
 

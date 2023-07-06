@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.imageio.stream;
+package java.desktop.share.classes.javax.imageio.stream;
+
 
 import java.io.Closeable;
 import java.io.DataInput;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteOrder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A seekable input stream interface for use by

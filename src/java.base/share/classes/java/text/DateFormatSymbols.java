@@ -19,24 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
 
-import java.io.IOException;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
-import java.lang.ref.SoftReference;
-import java.text.spi.DateFormatSymbolsProvider;
-import java.util.Arrays;
-import java.util.Locale;
-import java.util.Objects;
-import java.util.ResourceBundle;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
+
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.ObjectOutputStream;
+import java.base.share.classes.java.io.Serializable;
+import java.base.share.classes.java.lang.ref.SoftReference;
+import java.base.share.classes.java.text.spi.DateFormatSymbolsProvider;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.ResourceBundle;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.concurrent.ConcurrentMap;
 import sun.util.locale.provider.CalendarDataUtility;
 import sun.util.locale.provider.LocaleProviderAdapter;
 import sun.util.locale.provider.LocaleServiceProviderPool;
 import sun.util.locale.provider.ResourceBundleBasedAdapter;
 import sun.util.locale.provider.TimeZoneNameUtility;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code DateFormatSymbols} is a public class for encapsulating

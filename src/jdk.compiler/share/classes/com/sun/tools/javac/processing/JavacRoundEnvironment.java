@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.processing;
+package jdk.compiler.share.classes.com.sun.tools.javac.processing;
+
 
 import java.lang.annotation.Annotation;
 import javax.annotation.processing.*;
 import javax.lang.model.element.*;
 import javax.lang.model.util.*;
 import java.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Source.Feature;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
 
-import com.sun.tools.javac.code.Source.Feature;
-import com.sun.tools.javac.util.DefinedBy;
-import com.sun.tools.javac.util.DefinedBy.Api;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Object providing state about a prior round of annotation processing.

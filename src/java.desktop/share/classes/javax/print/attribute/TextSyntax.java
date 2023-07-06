@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.print.attribute;
+package java.desktop.share.classes.javax.print.attribute;
+
 
 import java.io.Serial;
 import java.io.Serializable;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class {@code TextSyntax} is an abstract base class providing the common

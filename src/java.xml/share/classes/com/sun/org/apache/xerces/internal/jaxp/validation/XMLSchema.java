@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.jaxp.validation;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.validation;
 
-import com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarPool;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarPool;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Implementation of Schema for W3C XML Schemas.</p>

@@ -19,21 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.util.locale.provider;
+package java.base.share.classes.sun.util.locale.provider;
+
 
 import java.lang.ref.SoftReference;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Locale;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.spi.TimeZoneNameProvider;
-import sun.util.calendar.ZoneInfo;
-import sun.util.cldr.CLDRLocaleProviderAdapter;
-import static sun.util.locale.provider.LocaleProviderAdapter.Type;
+import java.base.share.classes.sun.util.calendar.ZoneInfo;
+import java.base.share.classes.sun.util.cldr.CLDRLocaleProviderAdapter;
+import static java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter.Type;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class that deals with the localized time zone names

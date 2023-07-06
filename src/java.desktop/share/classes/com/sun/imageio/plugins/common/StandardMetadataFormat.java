@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.common;
+package java.desktop.share.classes.com.sun.imageio.plugins.common;
 
-import java.util.ArrayList;
-import java.util.List;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class StandardMetadataFormat extends IIOMetadataFormatImpl {
 

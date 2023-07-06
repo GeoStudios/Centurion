@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.border;
+
+package java.desktop.share.classes.javax.swing.border;
+
 
 import java.awt.Color;
 import java.awt.Component;
@@ -31,14 +33,27 @@ import java.awt.Rectangle;
 import java.awt.geom.Path2D;
 import java.beans.ConstructorProperties;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.lang.ref.WeakReference;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.UIManager;
-import javax.swing.plaf.basic.BasicHTML;
+import java.desktop.share.classes.javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.JLabel;
+import java.desktop.share.classes.javax.swing.UIManager;
+import java.desktop.share.classes.javax.swing.plaf.basic.BasicHTML;
+import java.base.share.classes.jdk.internal.ref.CleanerFactory;
 
-import jdk.internal.ref.CleanerFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class which implements an arbitrary border

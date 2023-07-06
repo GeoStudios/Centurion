@@ -19,8 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.windows.classes.sun.awt.windows;
 
-package sun.awt.windows;
 
 import java.awt.*;
 import java.awt.peer.*;
@@ -34,12 +34,25 @@ import java.lang.Character.Subset;
 import java.lang.Character.UnicodeBlock;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
+import java.desktop.windows.classes.sun.awt.AWTAccessor;
+import java.desktop.windows.classes.sun.awt.AWTAccessor.ComponentAccessor;
+import java.desktop.windows.classes.sun.awt.im.InputMethodAdapter;
 
-import sun.awt.AWTAccessor;
-import sun.awt.AWTAccessor.ComponentAccessor;
-import sun.awt.im.InputMethodAdapter;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class WInputMethod extends InputMethodAdapter
 {

@@ -18,15 +18,16 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.operators;
+
 
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Rectangle;
 import java.awt.Window;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.io.File;
-
 import javax.swing.ComboBoxModel;
 import javax.swing.Icon;
 import javax.swing.JButton;
@@ -34,18 +35,17 @@ import javax.swing.JComboBox;
 import javax.swing.JComponent;
 import javax.swing.JDialog;
 import javax.swing.JFileChooser;
-import javax.swing.JList;
+import javax.swing.Jjava.util.java.util.java.util.List;
 import javax.swing.JTable;
 import javax.swing.JTextField;
 import javax.swing.JToggleButton;
-import javax.swing.ListModel;
+import javax.swing.java.util.ListModel;
 import javax.swing.UIManager;
 import javax.swing.filechooser.FileFilter;
 import javax.swing.filechooser.FileSystemView;
 import javax.swing.filechooser.FileView;
 import javax.swing.plaf.FileChooserUI;
 import javax.swing.table.TableModel;
-
 import org.netbeans.jemmy.ComponentChooser;
 import org.netbeans.jemmy.ComponentSearcher;
 import org.netbeans.jemmy.JemmyException;
@@ -57,6 +57,19 @@ import org.netbeans.jemmy.Timeouts;
 import org.netbeans.jemmy.Waitable;
 import org.netbeans.jemmy.Waiter;
 import org.netbeans.jemmy.util.LookAndFeel;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

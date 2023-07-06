@@ -18,19 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.rowset.filteredrowset;
+
 
 import java.sql.SQLException;
 import javax.sql.RowSet;
 import javax.sql.rowset.FilteredRowSet;
 import javax.sql.rowset.Predicate;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertNull;
-import static org.testng.Assert.assertTrue;
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertNull;.extended
+import static org.testng.Assert.assertTrue;.extended
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import test.rowset.webrowset.CommonWebRowSetTests;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class FilteredRowSetTests extends CommonWebRowSetTests {
 

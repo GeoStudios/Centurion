@@ -19,35 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs11;
+package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11;
+
 
 import java.io.*;
 import java.lang.ref.*;
 import java.math.BigInteger;
 import java.util.*;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.interfaces.*;
-import java.security.spec.*;
-
-import javax.crypto.*;
+import java.base.share.classes.java.security.spec.*;
+import java.base.share.classes.javax.crypto.*;
 import javax.crypto.interfaces.*;
-import javax.crypto.spec.*;
+import java.base.share.classes.javax.crypto.spec.*;
+import jdk.crypto.cryptoki.share.classes.sun.security.rsa.RSAUtil.KeyType;
+import jdk.crypto.cryptoki.share.classes.sun.security.rsa.RSAPublicKeyImpl;
+import jdk.crypto.cryptoki.share.classes.sun.security.rsa.RSAPrivateCrtKeyImpl;
+import jdk.crypto.cryptoki.share.classes.sun.security.internal.interfaces.TlsMasterSecret;
+import jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.*;
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.TemplateManager.O_GENERATE;.extended
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Constants.*;.extended
+import jdk.crypto.cryptoki.share.classes.sun.security.util.DerValue;
+import jdk.crypto.cryptoki.share.classes.sun.security.util.Length;
+import jdk.crypto.cryptoki.share.classes.sun.security.util.ECUtil;
+import jdk.crypto.cryptoki.share.classes.sun.security.jca.JCAUtil;
 
-import sun.security.rsa.RSAUtil.KeyType;
-import sun.security.rsa.RSAPublicKeyImpl;
-import sun.security.rsa.RSAPrivateCrtKeyImpl;
 
-import sun.security.internal.interfaces.TlsMasterSecret;
 
-import sun.security.pkcs11.wrapper.*;
 
-import static sun.security.pkcs11.TemplateManager.O_GENERATE;
-import static sun.security.pkcs11.wrapper.PKCS11Constants.*;
 
-import sun.security.util.DerValue;
-import sun.security.util.Length;
-import sun.security.util.ECUtil;
-import sun.security.jca.JCAUtil;
+
+
+
+
+
+
+
+
+
 
 /**
  * Key implementation classes.
@@ -181,7 +190,7 @@ abstract class P11Key implements Key, Length {
         if (!token.isValid()) {
             return false;
         }
-        if (!(obj instanceof Key)) {
+        if (!(obj instanceof Key other)) {
             return false;
         }
         String thisFormat = getFormat();
@@ -190,7 +199,6 @@ abstract class P11Key implements Key, Length {
             // XXX getEncoded() for unextractable keys will change that
             return false;
         }
-        Key other = (Key)obj;
         if (!thisFormat.equals(other.getFormat())) {
             return false;
         }

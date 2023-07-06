@@ -19,24 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.security.GeneralSecurityException;
-import java.security.PublicKey;
+import java.base.share.classes.java.security.PublicKey;
 import java.security.interfaces.ECPublicKey;
 import java.security.interfaces.XECPublicKey;
 import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.ECParameterSpec;
 import java.security.spec.NamedParameterSpec;
 import java.text.MessageFormat;
-import java.util.Locale;
-import javax.crypto.SecretKey;
-import sun.security.ssl.SSLHandshake.HandshakeMessage;
-import sun.security.ssl.X509Authentication.X509Credentials;
-import sun.security.ssl.X509Authentication.X509Possession;
-import sun.security.util.HexDumpEncoder;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.javax.crypto.SecretKey;
+import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
+import java.base.share.classes.sun.security.ssl.X509Authentication.X509Credentials;
+import java.base.share.classes.sun.security.ssl.X509Authentication.X509Possession;
+import java.base.share.classes.sun.security.util.HexDumpEncoder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Pack of the "ClientKeyExchange" handshake message.

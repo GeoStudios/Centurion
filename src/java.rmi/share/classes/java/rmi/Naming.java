@@ -18,12 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.rmi;
 
-import java.rmi.registry.*;
-import java.net.MalformedURLException;
-import java.net.URI;
-import java.net.URISyntaxException;
+package java.rmi.share.classes.java.rmi;
+
+
+import java.rmi.share.classes.java.rmi.registry.*;
+import java.rmi.share.classes.java.net.MalformedURLException;
+import java.rmi.share.classes.java.net.URI;
+import java.rmi.share.classes.java.net.URISyntaxException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The <code>Naming</code> class provides methods for storing and obtaining

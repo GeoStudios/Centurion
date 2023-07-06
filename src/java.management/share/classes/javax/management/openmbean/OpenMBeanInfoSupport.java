@@ -19,22 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.management.share.classes.javax.management.openmbean;
 
-package javax.management.openmbean;
+
+import java.base.share.classes.java.util.Arrays;
+import java.util.HashSet;
+import java.base.share.classes.java.util.Objects;
+import java.management.share.classes.javax.management.Descriptor;
+import java.management.share.classes.javax.management.MBeanAttributeInfo;
+import java.management.share.classes.javax.management.MBeanConstructorInfo;
+import java.management.share.classes.javax.management.MBeanInfo;
+import java.management.share.classes.javax.management.MBeanNotificationInfo;
+import java.management.share.classes.javax.management.MBeanOperationInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // java import
 //
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Objects;
 
-import javax.management.Descriptor;
-import javax.management.MBeanAttributeInfo;
-import javax.management.MBeanConstructorInfo;
-import javax.management.MBeanInfo;
-import javax.management.MBeanNotificationInfo;
-import javax.management.MBeanOperationInfo;
 
 /**
  * The {@code OpenMBeanInfoSupport} class describes the management

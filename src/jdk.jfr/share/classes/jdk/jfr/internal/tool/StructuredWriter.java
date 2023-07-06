@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.tool;
+package jdk.jfr.share.classes.jdk.jfr.internal.tool;
+
 
 import java.io.PrintWriter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class StructuredWriter {
     private final PrintWriter out;

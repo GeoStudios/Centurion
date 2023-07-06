@@ -21,16 +21,27 @@
 
 package nsk.jdi.ClassPrepareEvent.referenceType;
 
+
 import com.sun.jdi.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
-
 import java.io.*;
 import java.util.Iterator;
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // This class is the debugger in the test

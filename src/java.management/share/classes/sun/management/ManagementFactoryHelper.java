@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.management;
+package java.management.share.classes.sun.management;
+
 
 import java.lang.invoke.MethodHandles;
 import java.lang.management.*;
@@ -35,21 +36,32 @@ import javax.management.RuntimeOperationsException;
 import java.security.AccessController;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
-
 import jdk.internal.misc.VM;
 import jdk.internal.misc.VM.BufferPool;
-
-import java.util.ArrayList;
-import java.util.List;
-
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.lang.reflect.UndeclaredThrowableException;
 import java.security.PrivilegedAction;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ManagementFactoryHelper provides static factory methods to create

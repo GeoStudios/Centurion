@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.lang.model.util;
+package java.compiler.share.classes.javax.lang.model.util;
 
-import java.util.List;
-import java.util.ArrayList;
-import javax.lang.model.element.*;
-import javax.annotation.processing.SupportedSourceVersion;
-import javax.lang.model.SourceVersion;
-import static javax.lang.model.SourceVersion.*;
+
+import java.util.java.util.java.util.java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.compiler.share.classes.javax.lang.model.element.*;
+import java.compiler.share.classes.javax.annotation.processing.SupportedSourceVersion;
+import java.compiler.share.classes.javax.lang.model.SourceVersion;
+import static java.compiler.share.classes.javax.lang.model.SourceVersion.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A scanning visitor of program elements with default behavior

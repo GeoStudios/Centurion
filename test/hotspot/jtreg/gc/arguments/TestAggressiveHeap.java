@@ -21,6 +21,27 @@
 
 package gc.arguments;
 
+
+import java.lang.management.ManagementFactory;
+import javax.management.MBeanServer;
+import javax.management.ObjectName;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import jtreg.SkippedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestAggressiveHeap
  * @bug 8179084
@@ -32,13 +53,7 @@ package gc.arguments;
  * @run driver gc.arguments.TestAggressiveHeap
  */
 
-import java.lang.management.ManagementFactory;
-import javax.management.MBeanServer;
-import javax.management.ObjectName;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import jtreg.SkippedException;
 
 public class TestAggressiveHeap {
 

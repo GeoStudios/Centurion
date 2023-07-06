@@ -18,38 +18,52 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.foreign.abi;
 
-import jdk.incubator.foreign.Addressable;
-import jdk.incubator.foreign.MemoryAddress;
-import jdk.incubator.foreign.MemoryLayouts;
-import jdk.incubator.foreign.MemorySegment;
-import jdk.incubator.foreign.ResourceScope;
-import jdk.incubator.foreign.SegmentAllocator;
-import jdk.internal.access.JavaLangInvokeAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.invoke.NativeEntryPoint;
-import jdk.internal.invoke.VMStorageProxy;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi;
+
+
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.Addressable;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryAddress;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryLayouts;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.ResourceScope;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.SegmentAllocator;
+import jdk.incubator.foreign.share.classes.jdk.internal.access.JavaLangInvokeAccess;
+import jdk.incubator.foreign.share.classes.jdk.internal.access.SharedSecrets;
+import jdk.incubator.foreign.share.classes.jdk.internal.invoke.NativeEntryPoint;
+import jdk.incubator.foreign.share.classes.jdk.internal.invoke.VMStorageProxy;
 import sun.security.action.GetPropertyAction;
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import java.lang.invoke.VarHandle;
 import java.lang.ref.Reference;
-import java.util.Arrays;
-import java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Stream;
+import static java.lang.invoke.MethodHandles.collectArguments;.extended
+import static java.lang.invoke.MethodHandles.dropArguments;.extended
+import static java.lang.invoke.MethodHandles.filterArguments;.extended
+import static java.lang.invoke.MethodHandles.identity;.extended
+import static java.lang.invoke.MethodHandles.insertArguments;.extended
+import static java.lang.invoke.MethodType.methodType;.extended
+import static sun.security.action.GetBooleanAction.privilegedGetProperty;.extended
 
-import static java.lang.invoke.MethodHandles.collectArguments;
-import static java.lang.invoke.MethodHandles.dropArguments;
-import static java.lang.invoke.MethodHandles.filterArguments;
-import static java.lang.invoke.MethodHandles.identity;
-import static java.lang.invoke.MethodHandles.insertArguments;
-import static java.lang.invoke.MethodType.methodType;
-import static sun.security.action.GetBooleanAction.privilegedGetProperty;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements native call invocation through a so called 'universal adapter'. A universal adapter takes
@@ -273,7 +287,7 @@ public class ProgrammableInvoker {
                 Binding.VMStore binding = argBindings[i];
                 VMStorage storage = binding.storage();
                 MemorySegment ptr = abi.arch.isStackType(storage.type())
-                    ? stackArgsSeg.asSlice(storage.index() * abi.arch.typeSize(abi.arch.stackType()))
+                    ? stackArgsSeg.asSlice((long) storage.index() * abi.arch.typeSize(abi.arch.stackType()))
                     : argBuffer.asSlice(layout.argOffset(storage));
                 SharedUtils.writeOverSized(ptr, binding.type(), args[i]);
             }

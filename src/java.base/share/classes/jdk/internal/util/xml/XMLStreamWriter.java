@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.util.xml;
+package java.base.share.classes.jdk.internal.util.xml;
+
 
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Basic XMLStreamWriter for writing simple XML files such as those

@@ -18,10 +18,24 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.jpackage.test;
+
 
 import java.io.File;
 import java.nio.file.Path;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public final class JavaAppDesc {

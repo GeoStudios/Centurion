@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.crypto;
+package java.base.share.classes.javax.crypto;
 
-import java.security.*;
+
+import java.base.share.classes.java.security.*;
 import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.Vector;
@@ -34,9 +35,22 @@ import java.io.BufferedReader;
 import java.io.ObjectStreamField;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
 
-import static java.nio.charset.StandardCharsets.UTF_8;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains CryptoPermission objects, organized into

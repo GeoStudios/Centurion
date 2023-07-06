@@ -19,10 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.formats.html;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-import java.util.List;
 
+import java.util.java.util.java.util.java.util.List;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ElementKind;
 import javax.lang.model.element.ExecutableElement;
@@ -32,21 +32,33 @@ import javax.lang.model.type.DeclaredType;
 import javax.lang.model.type.ExecutableType;
 import javax.lang.model.type.TypeMirror;
 import javax.lang.model.util.SimpleTypeVisitor14;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.ContentBuilder;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.Entity;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.HtmlStyle;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.HtmlTree;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.TagName;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocletConstants;
+import static jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.HtmlLinkInfo.Kind.EXECUTABLE_MEMBER_PARAM;.extended
+import static jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.HtmlLinkInfo.Kind.MEMBER;.extended
+import static jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.HtmlLinkInfo.Kind.MEMBER_DEPRECATED_PREVIEW;.extended
+import static jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.HtmlLinkInfo.Kind.MEMBER_TYPE_PARAMS;.extended
+import static jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.HtmlLinkInfo.Kind.RECEIVER_TYPE;.extended
+import static jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.HtmlLinkInfo.Kind.THROWS_TYPE;.extended
 
-import jdk.javadoc.internal.doclets.formats.html.markup.ContentBuilder;
-import jdk.javadoc.internal.doclets.formats.html.markup.Entity;
-import jdk.javadoc.internal.doclets.formats.html.markup.HtmlStyle;
-import jdk.javadoc.internal.doclets.formats.html.markup.HtmlTree;
-import jdk.javadoc.internal.doclets.formats.html.markup.TagName;
-import jdk.javadoc.internal.doclets.toolkit.Content;
-import jdk.javadoc.internal.doclets.toolkit.util.DocletConstants;
 
-import static jdk.javadoc.internal.doclets.formats.html.HtmlLinkInfo.Kind.EXECUTABLE_MEMBER_PARAM;
-import static jdk.javadoc.internal.doclets.formats.html.HtmlLinkInfo.Kind.MEMBER;
-import static jdk.javadoc.internal.doclets.formats.html.HtmlLinkInfo.Kind.MEMBER_DEPRECATED_PREVIEW;
-import static jdk.javadoc.internal.doclets.formats.html.HtmlLinkInfo.Kind.MEMBER_TYPE_PARAMS;
-import static jdk.javadoc.internal.doclets.formats.html.HtmlLinkInfo.Kind.RECEIVER_TYPE;
-import static jdk.javadoc.internal.doclets.formats.html.HtmlLinkInfo.Kind.THROWS_TYPE;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Print method and constructor info.

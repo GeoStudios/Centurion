@@ -21,6 +21,21 @@
 
 package vm.mlvm.indy.func.jvmti.share;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class IndyRedefineClass {
 
     public static native void setRedefineTriggerMethodName(String name);

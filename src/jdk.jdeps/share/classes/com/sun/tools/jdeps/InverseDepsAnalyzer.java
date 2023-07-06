@@ -19,24 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdeps;
+package jdk.jdeps.share.classes.com.sun.tools.jdeps;
 
-import static com.sun.tools.jdeps.JdepsFilter.DEFAULT_FILTER;
-import static com.sun.tools.jdeps.Module.trace;
-import static com.sun.tools.jdeps.Graph.*;
 
+import static jdk.jdeps.share.classes.com.sun.tools.jdeps.JdepsFilter.DEFAULT_FILTER;.extended
+import static jdk.jdeps.share.classes.com.sun.tools.jdeps.Module.trace;.extended
+import static jdk.jdeps.share.classes.com.sun.tools.jdeps.Graph.*;.extended
 import java.lang.module.ModuleDescriptor.Requires;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.Collections;
 import java.util.Deque;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.LinkedList;
+import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Inverse transitive dependency analysis (compile-time view)

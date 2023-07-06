@@ -19,15 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.tiered;
+
+
+import compiler.whitebox.CompilerWhiteBoxTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Abstract class for testing of used compilation levels correctness.
  *
  * @author igor.ignatyev@oracle.com
  */
 
-package compiler.tiered;
 
-import compiler.whitebox.CompilerWhiteBoxTest;
 
 public abstract class CompLevelsTest extends CompilerWhiteBoxTest {
     protected CompLevelsTest(TestCase testCase) {

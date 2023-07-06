@@ -19,22 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.security.auth.module;
+package jdk.security.auth.share.classes.com.sun.security.auth.module;
+
 
 import java.util.*;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import javax.security.auth.*;
 import javax.security.auth.callback.*;
 import javax.security.auth.login.*;
 import javax.security.auth.spi.*;
 import java.security.Principal;
-import com.sun.security.auth.NTUserPrincipal;
-import com.sun.security.auth.NTSidUserPrincipal;
-import com.sun.security.auth.NTDomainPrincipal;
-import com.sun.security.auth.NTSidDomainPrincipal;
-import com.sun.security.auth.NTSidPrimaryGroupPrincipal;
-import com.sun.security.auth.NTSidGroupPrincipal;
-import com.sun.security.auth.NTNumericCredential;
+import jdk.security.auth.share.classes.com.sun.security.auth.NTUserPrincipal;
+import jdk.security.auth.share.classes.com.sun.security.auth.NTSidUserPrincipal;
+import jdk.security.auth.share.classes.com.sun.security.auth.NTDomainPrincipal;
+import jdk.security.auth.share.classes.com.sun.security.auth.NTSidDomainPrincipal;
+import jdk.security.auth.share.classes.com.sun.security.auth.NTSidPrimaryGroupPrincipal;
+import jdk.security.auth.share.classes.com.sun.security.auth.NTSidGroupPrincipal;
+import jdk.security.auth.share.classes.com.sun.security.auth.NTNumericCredential;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This {@code LoginModule}

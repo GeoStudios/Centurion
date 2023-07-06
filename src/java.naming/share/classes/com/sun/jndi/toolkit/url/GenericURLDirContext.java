@@ -18,14 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.jndi.toolkit.url;
+
+package java.naming.share.classes.com.sun.jndi.toolkit.url;
+
 
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.spi.ResolveResult;
 import javax.naming.spi.DirectoryManager;
-
 import java.util.Hashtable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This abstract class is a generic URL DirContext that accepts as the

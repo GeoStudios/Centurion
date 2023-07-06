@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.opengl;
+package java.desktop.macosx.classes.sun.java2d.opengl;
+
 
 import java.awt.AWTException;
 import java.awt.BufferCapabilities;
@@ -37,26 +38,38 @@ import java.awt.image.DataBuffer;
 import java.awt.image.DirectColorModel;
 import java.awt.image.VolatileImage;
 import java.awt.image.WritableRaster;
+import java.desktop.macosx.classes.sun.awt.CGraphicsConfig;
+import java.desktop.macosx.classes.sun.awt.CGraphicsDevice;
+import java.desktop.macosx.classes.sun.awt.image.OffScreenImage;
+import java.desktop.macosx.classes.sun.awt.image.SunVolatileImage;
+import java.desktop.macosx.classes.sun.java2d.Disposer;
+import java.desktop.macosx.classes.sun.java2d.DisposerRecord;
+import java.desktop.macosx.classes.sun.java2d.Surface;
+import java.desktop.macosx.classes.sun.java2d.SurfaceData;
+import java.desktop.macosx.classes.sun.java2d.opengl.OGLContext.OGLContextCaps;
+import java.desktop.macosx.classes.sun.java2d.pipe.hw.AccelSurface;
+import java.desktop.macosx.classes.sun.java2d.pipe.hw.AccelTypedVolatileImage;
+import java.desktop.macosx.classes.sun.java2d.pipe.hw.ContextCapabilities;
+import java.desktop.macosx.classes.sun.lwawt.LWComponentPeer;
+import java.desktop.macosx.classes.sun.lwawt.macosx.CFRetainedResource;
+import static java.desktop.macosx.classes.sun.java2d.opengl.OGLContext.OGLContextCaps.CAPS_DOUBLEBUFFERED;.extended
+import static java.desktop.macosx.classes.sun.java2d.opengl.OGLContext.OGLContextCaps.CAPS_EXT_FBOBJECT;.extended
+import static java.desktop.macosx.classes.sun.java2d.opengl.OGLSurfaceData.FBOBJECT;.extended
+import static java.desktop.macosx.classes.sun.java2d.opengl.OGLSurfaceData.TEXTURE;.extended
 
-import sun.awt.CGraphicsConfig;
-import sun.awt.CGraphicsDevice;
-import sun.awt.image.OffScreenImage;
-import sun.awt.image.SunVolatileImage;
-import sun.java2d.Disposer;
-import sun.java2d.DisposerRecord;
-import sun.java2d.Surface;
-import sun.java2d.SurfaceData;
-import sun.java2d.opengl.OGLContext.OGLContextCaps;
-import sun.java2d.pipe.hw.AccelSurface;
-import sun.java2d.pipe.hw.AccelTypedVolatileImage;
-import sun.java2d.pipe.hw.ContextCapabilities;
-import sun.lwawt.LWComponentPeer;
-import sun.lwawt.macosx.CFRetainedResource;
 
-import static sun.java2d.opengl.OGLContext.OGLContextCaps.CAPS_DOUBLEBUFFERED;
-import static sun.java2d.opengl.OGLContext.OGLContextCaps.CAPS_EXT_FBOBJECT;
-import static sun.java2d.opengl.OGLSurfaceData.FBOBJECT;
-import static sun.java2d.opengl.OGLSurfaceData.TEXTURE;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class CGLGraphicsConfig extends CGraphicsConfig
     implements OGLGraphicsConfig

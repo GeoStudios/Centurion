@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.mbeanserver;
+package java.management.share.classes.com.sun.jmx.mbeanserver;
 
-import static com.sun.jmx.mbeanserver.Util.*;
 
+import static java.management.share.classes.com.sun.jmx.mbeanserver.Util.*;.extended
 import java.lang.reflect.Method;
 import java.util.Map;
-
 import javax.management.Attribute;
 import javax.management.MBeanServerConnection;
 import javax.management.NotCompliantMBeanException;
 import javax.management.ObjectName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
    <p>Helper class for an {@link InvocationHandler} that forwards methods from an

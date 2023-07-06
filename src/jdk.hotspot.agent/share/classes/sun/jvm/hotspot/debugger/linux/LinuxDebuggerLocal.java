@@ -19,35 +19,49 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.linux;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.linux;
 
-import java.io.IOException;
-import java.io.UncheckedIOException;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.stream.Collectors;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Address;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.DebuggerBase;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.DebuggerException;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.DebuggerUtilities;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.MachineDescription;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.NotInHeapException;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.OopHandle;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.ProcessInfo;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.ReadResult;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.ThreadProxy;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.UnalignedAddressException;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.UnmappedAddressException;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.CDebugger;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.ClosestSymbol;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.LoadObject;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.PlatformInfo;
 
-import sun.jvm.hotspot.debugger.Address;
-import sun.jvm.hotspot.debugger.DebuggerBase;
-import sun.jvm.hotspot.debugger.DebuggerException;
-import sun.jvm.hotspot.debugger.DebuggerUtilities;
-import sun.jvm.hotspot.debugger.MachineDescription;
-import sun.jvm.hotspot.debugger.NotInHeapException;
-import sun.jvm.hotspot.debugger.OopHandle;
-import sun.jvm.hotspot.debugger.ProcessInfo;
-import sun.jvm.hotspot.debugger.ReadResult;
-import sun.jvm.hotspot.debugger.ThreadProxy;
-import sun.jvm.hotspot.debugger.UnalignedAddressException;
-import sun.jvm.hotspot.debugger.UnmappedAddressException;
-import sun.jvm.hotspot.debugger.cdbg.CDebugger;
-import sun.jvm.hotspot.debugger.cdbg.ClosestSymbol;
-import sun.jvm.hotspot.debugger.cdbg.LoadObject;
-import sun.jvm.hotspot.utilities.PlatformInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** <P> An implementation of the JVMDebugger interface. The basic debug
     facilities are implemented through ptrace interface in the JNI code

@@ -21,7 +21,21 @@
 
 package compiler.compilercontrol.share.scenario;
 
+
 import compiler.compilercontrol.share.method.MethodDescriptor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JcmdCommand extends CompileCommand {
     public final Scenario.JcmdType jcmdType;

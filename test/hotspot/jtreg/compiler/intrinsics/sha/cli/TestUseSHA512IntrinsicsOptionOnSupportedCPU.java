@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.sha.cli;
+
+
+import compiler.intrinsics.sha.cli.testcases.GenericTestCaseForSupportedCPU;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8035968
@@ -34,9 +52,7 @@
  *                   compiler.intrinsics.sha.cli.TestUseSHA512IntrinsicsOptionOnSupportedCPU
  */
 
-package compiler.intrinsics.sha.cli;
 
-import compiler.intrinsics.sha.cli.testcases.GenericTestCaseForSupportedCPU;
 
 public class TestUseSHA512IntrinsicsOptionOnSupportedCPU {
     public static void main(String args[]) throws Throwable {

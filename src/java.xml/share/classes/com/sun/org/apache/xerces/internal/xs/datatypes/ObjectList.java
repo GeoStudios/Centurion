@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.xs.datatypes;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.datatypes;
 
-import java.util.List;
+
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>The <code>ObjectList</code> is an immutable ordered collection of

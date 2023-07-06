@@ -21,9 +21,9 @@
 
 package test.java.lang.invoke;
 
+
 import org.junit.*;
 import test.java.lang.invoke.remote.RemoteExample;
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandles.Lookup;
@@ -31,14 +31,26 @@ import java.lang.invoke.MethodType;
 import java.lang.reflect.Array;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.stream.Stream;
+import static org.junit.Assert.*;.extended
 
-import static org.junit.Assert.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

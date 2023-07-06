@@ -18,22 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package xpath;
 
-import java.io.File;
 
+import java.io.File;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathNodes;
 import javax.xml.xpath.XPathEvaluationResult;
 import javax.xml.xpath.XPathExpressionException;
-
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
-
-import org.testng.annotations.Listeners;
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertTrue;.extended
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.attach;
+package jdk.attach.share.classes.com.sun.tools.attach;
 
-import com.sun.tools.attach.spi.AttachProvider;
-import java.util.ArrayList;
-import java.util.List;
+
+import jdk.attach.share.classes.com.sun.tools.attach.spi.AttachProvider;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Properties;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**
@@ -705,6 +719,6 @@ public abstract class VirtualMachine {
      * Returns the string representation of the {@code VirtualMachine}.
      */
     public String toString() {
-        return provider.toString() + ": " + id;
+        return provider + ": " + id;
     }
 }

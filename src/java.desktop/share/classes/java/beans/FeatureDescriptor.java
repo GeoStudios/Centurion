@@ -19,19 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.beans;
+package java.desktop.share.classes.java.beans;
+
 
 import com.sun.beans.TypeResolver;
+import java.desktop.share.classes.java.lang.ref.Reference;
+import java.desktop.share.classes.java.lang.ref.WeakReference;
+import java.desktop.share.classes.java.lang.ref.SoftReference;
+import java.desktop.share.classes.java.lang.reflect.Method;
+import java.desktop.share.classes.java.util.Enumeration;
+import java.desktop.share.classes.java.util.Hashtable;
+import java.desktop.share.classes.java.util.Map.Entry;
 
-import java.lang.ref.Reference;
-import java.lang.ref.WeakReference;
-import java.lang.ref.SoftReference;
 
-import java.lang.reflect.Method;
 
-import java.util.Enumeration;
-import java.util.Hashtable;
-import java.util.Map.Entry;
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The FeatureDescriptor class is the common baseclass for PropertyDescriptor,

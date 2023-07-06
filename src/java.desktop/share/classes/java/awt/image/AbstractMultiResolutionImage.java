@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.awt.image;
 
-import java.awt.Graphics;
-import java.awt.Image;
+package java.desktop.share.classes.java.awt.image;
+
+
+import java.desktop.share.classes.java.awt.Graphics;
+import java.desktop.share.classes.java.awt.Image;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides default implementations of several {@code Image} methods

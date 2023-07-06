@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.windows;
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.awt.Window;
 import java.awt.Component;
 import java.awt.peer.ComponentPeer;
-
-import sun.awt.AWTAccessor;
-import sun.awt.AWTAccessor.ComponentAccessor;
-import sun.awt.KeyboardFocusManagerPeerImpl;
+import java.desktop.windows.classes.sun.awt.AWTAccessor;
+import java.desktop.windows.classes.sun.awt.AWTAccessor.ComponentAccessor;
+import java.desktop.windows.classes.sun.awt.KeyboardFocusManagerPeerImpl;
 import java.awt.event.FocusEvent.Cause;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class WKeyboardFocusManagerPeer extends KeyboardFocusManagerPeerImpl {
     static native void setNativeFocusOwner(ComponentPeer peer);

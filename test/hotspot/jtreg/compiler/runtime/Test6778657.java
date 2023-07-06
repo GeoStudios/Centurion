@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.runtime;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6778657
@@ -27,7 +44,6 @@
  * @run main compiler.runtime.Test6778657
  */
 
-package compiler.runtime;
 
 public class Test6778657 {
     public static void check_f2i(int expect) {

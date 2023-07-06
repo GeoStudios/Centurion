@@ -21,12 +21,25 @@
 
 package jdk.jfr.event.gc.detailed;
 
+
 import jdk.test.lib.jfr.AppExecutorHelper;
 import jdk.test.lib.process.OutputAnalyzer;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ExecuteOOMApp {
     /**

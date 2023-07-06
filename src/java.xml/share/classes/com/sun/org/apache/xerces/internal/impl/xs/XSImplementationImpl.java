@@ -19,20 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
+
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.CoreDOMImplementationImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.Stringjava.util.ListImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.Stringjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSImplementation;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSLoader;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMImplementation;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.impl.xs;
 
-import com.sun.org.apache.xerces.internal.dom.CoreDOMImplementationImpl;
-import com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
-import com.sun.org.apache.xerces.internal.impl.xs.util.StringListImpl;
-import com.sun.org.apache.xerces.internal.xs.StringList;
-import com.sun.org.apache.xerces.internal.xs.XSException;
-import com.sun.org.apache.xerces.internal.xs.XSImplementation;
-import com.sun.org.apache.xerces.internal.xs.XSLoader;
-import org.w3c.dom.DOMImplementation;
+
 
 
 /**

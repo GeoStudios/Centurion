@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jshell;
+package jdk.jshell.share.classes.jdk.jshell;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import static java.util.stream.Collectors.joining;
-import static jdk.jshell.Util.DOIT_METHOD_NAME;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
+import static java.util.stream.Collectors.joining;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Util.DOIT_METHOD_NAME;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Wrapping of source into Java methods, fields, etc.  All but outer layer

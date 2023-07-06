@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package invokeinterface;
+
+
+import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
+import shared.AbstractGenerator;
+import shared.AccessType;
+import shared.Utils;
+import java.util.HashMap;
+import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * INVOKE_INTERFACE EXPECTED RESULTS
  *
@@ -65,15 +88,8 @@
  * rules (JLS 8.5)
  */
 
-package invokeinterface;
 
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
-import shared.AbstractGenerator;
-import shared.AccessType;
-import shared.Utils;
 
-import java.util.HashMap;
-import java.util.Map;
 
 public class Generator extends AbstractGenerator {
     public Generator(String[] args) {

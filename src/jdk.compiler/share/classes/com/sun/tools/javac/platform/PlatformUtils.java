@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.platform;
+package jdk.compiler.share.classes.com.sun.tools.javac.platform;
 
-import com.sun.tools.javac.main.Arguments;
-import com.sun.tools.javac.platform.PlatformProvider.PlatformNotSupported;
+
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Arguments;
+import jdk.compiler.share.classes.com.sun.tools.javac.platform.PlatformProvider.PlatformNotSupported;
 import java.util.Optional;
 import java.util.ServiceLoader;
 import java.util.stream.StreamSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Internal utilities to work with PlatformDescriptions.
  *

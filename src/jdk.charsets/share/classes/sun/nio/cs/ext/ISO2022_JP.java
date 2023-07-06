@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.cs.ext;
+package jdk.charsets.share.classes.sun.nio.cs.ext;
+
 
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
@@ -28,13 +29,27 @@ import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CharsetEncoder;
 import java.nio.charset.CoderResult;
 import java.nio.charset.CodingErrorAction;
-import sun.nio.cs.DelegatableDecoder;
-import sun.nio.cs.DoubleByte;
-import sun.nio.cs.HistoricallyNamedCharset;
-import sun.nio.cs.Surrogate;
-import sun.nio.cs.US_ASCII;
-import sun.nio.cs.*;
-import static sun.nio.cs.CharsetMapping.*;
+import jdk.charsets.share.classes.sun.nio.cs.DelegatableDecoder;
+import jdk.charsets.share.classes.sun.nio.cs.DoubleByte;
+import jdk.charsets.share.classes.sun.nio.cs.HistoricallyNamedCharset;
+import jdk.charsets.share.classes.sun.nio.cs.Surrogate;
+import jdk.charsets.share.classes.sun.nio.cs.US_ASCII;
+import jdk.charsets.share.classes.sun.nio.cs.*;
+import static jdk.charsets.share.classes.sun.nio.cs.CharsetMapping.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Implementation notes:

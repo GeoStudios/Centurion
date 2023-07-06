@@ -19,27 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.unix.classes.sun.awt;
+
 
 import java.awt.AWTError;
 import java.awt.GraphicsDevice;
 import java.lang.ref.WeakReference;
 import java.net.InetAddress;
 import java.net.NetworkInterface;
-import java.net.SocketException;
+import java.net.java.net.SocketException;
 import java.net.UnknownHostException;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Enumeration;
 import java.util.HashMap;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.java.util.java.util.java.util.List;
+import java.util.java.util.ListIterator;
 import java.util.Map;
+import java.desktop.unix.classes.sun.awt.X11.XToolkit;
+import java.desktop.unix.classes.sun.java2d.SunGraphicsEnvironment;
+import java.desktop.unix.classes.sun.java2d.SurfaceManagerFactory;
+import java.desktop.unix.classes.sun.java2d.UnixSurfaceManagerFactory;
+import java.desktop.unix.classes.sun.java2d.xr.XRSurfaceData;
 
-import sun.awt.X11.XToolkit;
-import sun.java2d.SunGraphicsEnvironment;
-import sun.java2d.SurfaceManagerFactory;
-import sun.java2d.UnixSurfaceManagerFactory;
-import sun.java2d.xr.XRSurfaceData;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is an implementation of a GraphicsEnvironment object for the

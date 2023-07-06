@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.tool;
+package jdk.jfr.share.classes.jdk.jfr.internal.tool;
+
 
 import java.io.PrintWriter;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import jdk.jfr.share.classes.jdk.jfr.EventType;
+import jdk.jfr.share.classes.jdk.jfr.ValueDescriptor;
+import jdk.jfr.share.classes.jdk.jfr.consumer.RecordedEvent;
+import jdk.jfr.share.classes.jdk.jfr.consumer.RecordedFrame;
+import jdk.jfr.share.classes.jdk.jfr.consumer.RecordedObject;
 
-import jdk.jfr.EventType;
-import jdk.jfr.ValueDescriptor;
-import jdk.jfr.consumer.RecordedEvent;
-import jdk.jfr.consumer.RecordedFrame;
-import jdk.jfr.consumer.RecordedObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class XMLWriter extends EventPrintWriter {
     public XMLWriter(PrintWriter destination) {

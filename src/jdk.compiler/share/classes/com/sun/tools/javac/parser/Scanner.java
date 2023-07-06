@@ -19,16 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.parser;
+package jdk.compiler.share.classes.com.sun.tools.javac.parser;
+
 
 import java.nio.*;
-import java.util.List;
-import java.util.ArrayList;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Position.LineMap;
+import jdk.compiler.share.classes.com.sun.tools.javac.parser.JavaTokenizer.*;
+import static jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.*;.extended
 
-import com.sun.tools.javac.util.Position.LineMap;
-import com.sun.tools.javac.parser.JavaTokenizer.*;
 
-import static com.sun.tools.javac.parser.Tokens.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** The lexical analyzer maps an input stream consisting of
  *  ASCII characters and Unicode escapes into a token sequence.

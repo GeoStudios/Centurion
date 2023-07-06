@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.bcel.internal.classfile;
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
+
 
 import java.util.Stack;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Traverses a JavaClass with another Visitor object 'piggy-backed' that is

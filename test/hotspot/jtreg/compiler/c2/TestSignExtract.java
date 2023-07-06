@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8242429
@@ -27,7 +44,6 @@
  * @run main/othervm -XX:-TieredCompilation -XX:CompileCommand=dontinline,compiler.c2.TestSignExtract::signExtract*
  *      compiler.c2.TestSignExtract
  */
-package compiler.c2;
 
 public class TestSignExtract {
 

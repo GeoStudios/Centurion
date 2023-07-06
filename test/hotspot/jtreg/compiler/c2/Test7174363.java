@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7174363
@@ -27,9 +45,7 @@
  * @run main/othervm -XX:-BackgroundCompilation compiler.c2.Test7174363
  */
 
-package compiler.c2;
 
-import java.util.Arrays;
 
 public class Test7174363 {
 

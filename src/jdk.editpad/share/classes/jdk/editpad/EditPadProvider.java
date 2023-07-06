@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.editpad;
+package jdk.editpad.share.classes.jdk.editpad;
+
 
 import java.util.concurrent.CountDownLatch;
 import java.util.function.Consumer;
 import javax.swing.SwingUtilities;
-import jdk.internal.editor.spi.BuildInEditorProvider;
+import jdk.editpad.share.classes.jdk.internal.editor.spi.BuildInEditorProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines the provider of an Edit Pad implementation.

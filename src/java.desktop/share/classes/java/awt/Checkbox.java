@@ -19,18 +19,18 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
-import java.awt.peer.CheckboxPeer;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serial;
-import java.util.EventListener;
-import java.util.Objects;
 
+import java.desktop.share.classes.java.awt.event.ItemEvent;
+import java.desktop.share.classes.java.awt.event.Itemjava.util.Listener;
+import java.desktop.share.classes.java.awt.peer.CheckboxPeer;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.ObjectOutputStream;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.util.Eventjava.util.Listener;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.Objects;
 import javax.accessibility.Accessible;
 import javax.accessibility.AccessibleAction;
 import javax.accessibility.AccessibleContext;
@@ -38,6 +38,20 @@ import javax.accessibility.AccessibleRole;
 import javax.accessibility.AccessibleState;
 import javax.accessibility.AccessibleStateSet;
 import javax.accessibility.AccessibleValue;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A check box is a graphical component that can be in either an

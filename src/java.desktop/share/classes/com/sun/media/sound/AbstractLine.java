@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.media.sound;
+package java.desktop.share.classes.com.sun.media.sound;
+
 
 import java.util.Map;
 import java.util.Vector;
 import java.util.WeakHashMap;
-
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Control;
 import javax.sound.sampled.Line;
 import javax.sound.sampled.LineEvent;
-import javax.sound.sampled.LineListener;
+import javax.sound.sampled.Linejava.util.Listener;
 import javax.sound.sampled.LineUnavailableException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * AbstractLine

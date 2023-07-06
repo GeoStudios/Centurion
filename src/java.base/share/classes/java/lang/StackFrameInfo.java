@@ -18,13 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang;
+
+package java.base.share.classes.java.lang;
+
 
 import jdk.internal.access.JavaLangInvokeAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.java.lang.StackWalker.StackFrame;
+import java.base.share.classes.java.lang.invoke.MethodType;
 
-import java.lang.StackWalker.StackFrame;
-import java.lang.invoke.MethodType;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class StackFrameInfo implements StackFrame {
     private static final JavaLangInvokeAccess JLIA =

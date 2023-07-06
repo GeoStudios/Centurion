@@ -21,6 +21,21 @@
 
 package test;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface I {
     public Foo m();
 }

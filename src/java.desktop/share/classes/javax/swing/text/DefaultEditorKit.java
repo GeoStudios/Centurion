@@ -18,18 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text;
+
+package java.desktop.share.classes.javax.swing.text;
+
 
 import sun.awt.SunToolkit;
-
 import java.io.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.text.*;
-import javax.swing.Action;
-import javax.swing.KeyStroke;
-import javax.swing.SwingConstants;
-import javax.swing.UIManager;
+import java.desktop.share.classes.javax.swing.Action;
+import java.desktop.share.classes.javax.swing.KeyStroke;
+import java.desktop.share.classes.javax.swing.SwingConstants;
+import java.desktop.share.classes.javax.swing.UIManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the set of things needed by a text component

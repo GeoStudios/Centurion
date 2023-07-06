@@ -21,27 +21,38 @@
 
 package javax.xml.datatype.ptests;
 
-import static java.util.Calendar.HOUR;
-import static java.util.Calendar.MINUTE;
-import static java.util.Calendar.YEAR;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
 
+import static java.util.Calendar.HOUR;.extended
+import static java.util.Calendar.MINUTE;.extended
+import static java.util.Calendar.YEAR;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertTrue;.extended
 import java.util.GregorianCalendar;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.TimeZone;
-
 import javax.xml.datatype.DatatypeConfigurationException;
 import javax.xml.datatype.DatatypeConstants;
 import javax.xml.datatype.DatatypeFactory;
 import javax.xml.datatype.Duration;
 import javax.xml.datatype.XMLGregorianCalendar;
-
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

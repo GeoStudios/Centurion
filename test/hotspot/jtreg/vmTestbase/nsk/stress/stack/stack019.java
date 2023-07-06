@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.stress.stack;
+
+
+import nsk.share.Terminator;
+import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress
@@ -46,12 +65,9 @@
  * @run main/othervm/timeout=900 -Xss200K nsk.stress.stack.stack019 -eager
  */
 
-package nsk.stress.stack;
 
 
-import nsk.share.Terminator;
 
-import java.io.PrintStream;
 
 public class stack019 {
     private final static int CYCLES = 50;

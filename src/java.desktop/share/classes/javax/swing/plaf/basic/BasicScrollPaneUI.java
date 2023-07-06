@@ -19,19 +19,17 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.basic;
+package java.desktop.share.classes.javax.swing.plaf.basic;
+
 
 import sun.swing.DefaultLookup;
 import sun.swing.UIAction;
-
-import javax.swing.*;
-import javax.swing.event.*;
-import javax.swing.border.*;
-import javax.swing.plaf.*;
-
-import java.beans.PropertyChangeListener;
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.event.*;
+import java.desktop.share.classes.javax.swing.border.*;
+import java.desktop.share.classes.javax.swing.plaf.*;
+import java.beans.PropertyChangejava.util.Listener;
 import java.beans.PropertyChangeEvent;
-
 import java.awt.Component;
 import java.awt.Rectangle;
 import java.awt.Dimension;
@@ -39,6 +37,20 @@ import java.awt.Point;
 import java.awt.Insets;
 import java.awt.Graphics;
 import java.awt.event.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A default L&amp;F implementation of ScrollPaneUI.

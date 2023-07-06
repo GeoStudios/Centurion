@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.pipe;
+package java.desktop.share.classes.sun.java2d.pipe;
+
 
 import java.awt.BasicStroke;
 import java.awt.Polygon;
@@ -32,9 +33,23 @@ import java.awt.geom.IllegalPathStateException;
 import java.awt.geom.PathIterator;
 import java.awt.geom.Rectangle2D;
 import java.awt.geom.RoundRectangle2D;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.loops.ProcessPath;
-import static sun.java2d.pipe.BufferedOpCodes.*;
+import java.desktop.share.classes.sun.java2d.SunGraphics2D;
+import java.desktop.share.classes.sun.java2d.loops.ProcessPath;
+import static java.desktop.share.classes.sun.java2d.pipe.BufferedOpCodes.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base class for enqueuing rendering operations in a single-threaded

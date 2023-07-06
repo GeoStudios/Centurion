@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.util;
+package jdk.compiler.share.classes.com.sun.tools.javac.util;
+
 
 import java.lang.reflect.Array;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** <p><b>This is NOT part of any supported API.
  *  If you write code that depends on this, you do so at your own risk.

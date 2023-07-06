@@ -18,17 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package nsk.jdi.PrimitiveValue.doubleValue;
+
+
+import nsk.share.*;
+import nsk.share.jpda.*;
+import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! templete parameters !!!!
 // PrimitiveValue  InterfaceName                PrimitiveValue
 // doubleValue  MethodName              doubleValue
 // doublevalue002  TestName             doublevalue002a
 // ------------------------------------------------------
 
-package nsk.jdi.PrimitiveValue.doubleValue;
 
-import nsk.share.*;
-import nsk.share.jpda.*;
-import nsk.share.jdi.*;
 
 
 /**

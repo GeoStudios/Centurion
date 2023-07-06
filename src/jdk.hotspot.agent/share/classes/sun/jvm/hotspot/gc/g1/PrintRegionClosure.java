@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.gc.g1;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.g1;
+
 
 import java.io.PrintStream;
-import sun.jvm.hotspot.gc.g1.HeapRegion;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.g1.HeapRegion;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PrintRegionClosure implements HeapRegionClosure {
     private final PrintStream tty;

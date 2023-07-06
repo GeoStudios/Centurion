@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.org.slf4j.internal;
+
+package java.xml.crypto.share.classes.com.sun.org.slf4j.internal;
+
 
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.logging.Level;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Bridge to java.util.logging.
 public class Logger {

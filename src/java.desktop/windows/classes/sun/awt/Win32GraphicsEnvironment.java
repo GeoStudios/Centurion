@@ -19,22 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.windows.classes.sun.awt;
+
 
 import java.awt.AWTError;
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsDevice;
 import java.awt.peer.ComponentPeer;
 import java.lang.ref.WeakReference;
-import java.util.ArrayList;
-import java.util.ListIterator;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.ListIterator;
+import java.desktop.windows.classes.sun.awt.windows.WToolkit;
+import java.desktop.windows.classes.sun.java2d.SunGraphicsEnvironment;
+import java.desktop.windows.classes.sun.java2d.SurfaceManagerFactory;
+import java.desktop.windows.classes.sun.java2d.WindowsSurfaceManagerFactory;
+import java.desktop.windows.classes.sun.java2d.d3d.D3DGraphicsDevice;
+import java.desktop.windows.classes.sun.java2d.windows.WindowsFlags;
 
-import sun.awt.windows.WToolkit;
-import sun.java2d.SunGraphicsEnvironment;
-import sun.java2d.SurfaceManagerFactory;
-import sun.java2d.WindowsSurfaceManagerFactory;
-import sun.java2d.d3d.D3DGraphicsDevice;
-import sun.java2d.windows.WindowsFlags;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is an implementation of a GraphicsEnvironment object for the

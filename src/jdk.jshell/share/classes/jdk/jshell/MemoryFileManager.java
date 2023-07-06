@@ -19,11 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jshell;
+package jdk.jshell.share.classes.jdk.jshell;
+
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.URI;
@@ -36,18 +37,29 @@ import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.Set;
 import java.util.TreeMap;
-
 import javax.tools.JavaFileObject.Kind;
-import static javax.tools.StandardLocation.CLASS_PATH;
+import static javax.tools.StandardLocation.CLASS_PATH;.extended
 import javax.tools.FileObject;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileObject;
 import javax.tools.SimpleJavaFileObject;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.StandardLocation;
+import static jdk.jshell.share.classes.jdk.internal.jshell.debug.InternalDebugControl.DBG_FMGR;.extended
 
 
-import static jdk.internal.jshell.debug.InternalDebugControl.DBG_FMGR;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * File manager for the compiler API.  Reads from memory (Strings) and writes

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import java.applet.Applet;
 import java.awt.BorderLayout;
@@ -36,16 +37,28 @@ import java.awt.Window;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.security.AccessController;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-
 import sun.awt.EmbeddedFrame;
 import sun.awt.OSInfo;
 import sun.swing.SwingAccessor;
+import static java.desktop.share.classes.javax.swing.ClientPropertyKey.PopupFactory_FORCE_HEAVYWEIGHT_POPUP;.extended
 
-import static javax.swing.ClientPropertyKey.PopupFactory_FORCE_HEAVYWEIGHT_POPUP;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>PopupFactory</code>, as the name implies, is used to obtain

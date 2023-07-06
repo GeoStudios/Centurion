@@ -19,20 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.RenderingHints.Key;
-import java.awt.geom.AffineTransform;
-import java.awt.image.ImageObserver;
-import java.awt.image.BufferedImageOp;
-import java.awt.image.BufferedImage;
-import java.awt.image.RenderedImage;
-import java.awt.image.renderable.RenderableImage;
-import java.awt.font.GlyphVector;
-import java.awt.font.FontRenderContext;
-import java.awt.font.TextAttribute;
-import java.text.AttributedCharacterIterator;
-import java.util.Map;
+
+import java.desktop.share.classes.java.awt.RenderingHints.Key;
+import java.desktop.share.classes.java.awt.geom.AffineTransform;
+import java.desktop.share.classes.java.awt.image.ImageObserver;
+import java.desktop.share.classes.java.awt.image.BufferedImageOp;
+import java.desktop.share.classes.java.awt.image.BufferedImage;
+import java.desktop.share.classes.java.awt.image.RenderedImage;
+import java.desktop.share.classes.java.awt.image.renderable.RenderableImage;
+import java.desktop.share.classes.java.awt.font.GlyphVector;
+import java.desktop.share.classes.java.awt.font.FontRenderContext;
+import java.desktop.share.classes.java.awt.font.TextAttribute;
+import java.desktop.share.classes.java.text.AttributedCharacterIterator;
+import java.desktop.share.classes.java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This {@code Graphics2D} class extends the

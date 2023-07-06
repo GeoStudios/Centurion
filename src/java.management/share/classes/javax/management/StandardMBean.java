@@ -19,30 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management;
+package java.management.share.classes.javax.management;
 
-import static com.sun.jmx.defaults.JmxProperties.MISC_LOGGER;
+
+import static com.sun.jmx.defaults.JmxProperties.MISC_LOGGER;.extended
 import com.sun.jmx.mbeanserver.DescriptorCache;
 import com.sun.jmx.mbeanserver.Introspector;
 import com.sun.jmx.mbeanserver.MBeanSupport;
 import com.sun.jmx.mbeanserver.MXBeanSupport;
 import com.sun.jmx.mbeanserver.StandardMBeanSupport;
 import com.sun.jmx.mbeanserver.Util;
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.WeakHashMap;
 import java.lang.System.Logger.Level;
-import javax.management.openmbean.OpenMBeanAttributeInfo;
-import javax.management.openmbean.OpenMBeanAttributeInfoSupport;
-import javax.management.openmbean.OpenMBeanConstructorInfo;
-import javax.management.openmbean.OpenMBeanConstructorInfoSupport;
-import javax.management.openmbean.OpenMBeanOperationInfo;
-import javax.management.openmbean.OpenMBeanOperationInfoSupport;
-import javax.management.openmbean.OpenMBeanParameterInfo;
-import javax.management.openmbean.OpenMBeanParameterInfoSupport;
+import java.management.share.classes.javax.management.openmbean.OpenMBeanAttributeInfo;
+import java.management.share.classes.javax.management.openmbean.OpenMBeanAttributeInfoSupport;
+import java.management.share.classes.javax.management.openmbean.OpenMBeanConstructorInfo;
+import java.management.share.classes.javax.management.openmbean.OpenMBeanConstructorInfoSupport;
+import java.management.share.classes.javax.management.openmbean.OpenMBeanOperationInfo;
+import java.management.share.classes.javax.management.openmbean.OpenMBeanOperationInfoSupport;
+import java.management.share.classes.javax.management.openmbean.OpenMBeanParameterInfo;
+import java.management.share.classes.javax.management.openmbean.OpenMBeanParameterInfoSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>An MBean whose management interface is determined by reflection

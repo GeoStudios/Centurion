@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.t.t087;
+
+
+import nsk.share.GoldChecker;
+import java.io.File;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -48,11 +67,8 @@
  *      -WorkDir ./jit/t/t087
  */
 
-package jit.t.t087;
 
-import nsk.share.GoldChecker;
 
-import java.io.File;
 
 class foo {
     static void bar() {

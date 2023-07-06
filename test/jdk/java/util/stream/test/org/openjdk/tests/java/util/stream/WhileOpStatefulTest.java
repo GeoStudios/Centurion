@@ -18,12 +18,13 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.tests.java.util.stream;
 
-import org.testng.annotations.Test;
 
+import org.testng.annotations.Test;
 import java.util.HashMap;
-import java.util.LinkedList;
+import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicLong;
@@ -37,8 +38,20 @@ import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 import java.util.stream.OpTestCase;
 import java.util.stream.Stream;
+import static java.util.stream.Collectors.toCollection;.extended
 
-import static java.util.stream.Collectors.toCollection;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

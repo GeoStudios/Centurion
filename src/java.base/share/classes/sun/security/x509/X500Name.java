@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.x509;
+package java.base.share.classes.sun.security.x509;
+
 
 import java.lang.reflect.*;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.PrivilegedExceptionAction;
 import java.security.AccessController;
 import java.security.Principal;
 import java.util.*;
 import java.util.StringJoiner;
-
-import sun.security.util.*;
+import java.base.share.classes.sun.security.util.*;
 import javax.security.auth.x500.X500Principal;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Note:  As of 1.4, the public class,

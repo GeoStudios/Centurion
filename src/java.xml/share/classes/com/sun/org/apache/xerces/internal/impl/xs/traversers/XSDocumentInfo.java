@@ -19,21 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.xs.traversers;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.traversers;
 
-import com.sun.org.apache.xerces.internal.impl.validation.ValidationState;
-import com.sun.org.apache.xerces.internal.impl.xs.SchemaNamespaceSupport;
-import com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
-import com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaException;
-import com.sun.org.apache.xerces.internal.impl.xs.util.XInt;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
-import java.util.ArrayList;
-import java.util.List;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.validation.ValidationState;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaNamespaceSupport;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XInt;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Stack;
-import org.w3c.dom.Attr;
-import org.w3c.dom.Element;
-import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Objects of this class hold all information pecular to a

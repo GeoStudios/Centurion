@@ -18,16 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang.invoke;
 
-import java.io.Serializable;
-import java.io.InvalidObjectException;
-import java.io.ObjectStreamException;
-import java.lang.reflect.Method;
-import java.security.AccessController;
-import java.security.PrivilegedActionException;
-import java.security.PrivilegedExceptionAction;
-import java.util.Objects;
+package java.base.share.classes.java.lang.invoke;
+
+
+import java.base.share.classes.java.io.Serializable;
+import java.base.share.classes.java.io.InvalidObjectException;
+import java.base.share.classes.java.io.ObjectStreamException;
+import java.base.share.classes.java.lang.reflect.Method;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.PrivilegedActionException;
+import java.base.share.classes.java.security.PrivilegedExceptionAction;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Serialized form of a lambda expression.  The properties of this class

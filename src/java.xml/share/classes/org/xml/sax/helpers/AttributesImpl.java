@@ -19,9 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.xml.sax.helpers;
+package java.xml.share.classes.org.xml.sax.helpers;
 
-import org.xml.sax.Attributes;
+
+import java.xml.share.classes.org.xml.sax.Attributes;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

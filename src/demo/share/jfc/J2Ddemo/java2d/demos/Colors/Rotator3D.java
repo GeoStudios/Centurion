@@ -18,19 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d.demos.Colors;
+
+package demo.share.jfc.J2Ddemo.java2d.demos.Colors;
 
 
-import static java.lang.Math.PI;
-import static java.lang.Math.abs;
-import static java.lang.Math.cos;
-import static java.lang.Math.min;
-import static java.lang.Math.random;
-import static java.lang.Math.sin;
-import static java.lang.Math.sqrt;
+import static java.lang.Math.PI;.extended
+import static java.lang.Math.abs;.extended
+import static java.lang.Math.cos;.extended
+import static java.lang.Math.min;.extended
+import static java.lang.Math.random;.extended
+import static java.lang.Math.sin;.extended
+import static java.lang.Math.sqrt;.extended
 import java.awt.Color;
 import java.awt.Graphics2D;
-import java2d.AnimatingSurface;
+import demo.share.jfc.J2Ddemo.java2d.AnimatingSurface;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

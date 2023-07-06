@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text;
+
+package java.desktop.share.classes.javax.swing.text;
+
 
 import java.io.Serializable;
 import java.text.ParseException;
-import javax.swing.JFormattedTextField;
+import java.desktop.share.classes.javax.swing.JFormattedTextField;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of

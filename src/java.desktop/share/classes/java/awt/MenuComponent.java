@@ -19,16 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.event.ActionEvent;
-import java.awt.peer.MenuComponentPeer;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.Serial;
-import java.security.AccessControlContext;
-import java.security.AccessController;
 
+import java.desktop.share.classes.java.awt.event.ActionEvent;
+import java.desktop.share.classes.java.awt.peer.MenuComponentPeer;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.security.AccessControlContext;
+import java.desktop.share.classes.java.security.AccessController;
 import javax.accessibility.Accessible;
 import javax.accessibility.AccessibleComponent;
 import javax.accessibility.AccessibleContext;
@@ -36,10 +36,23 @@ import javax.accessibility.AccessibleRole;
 import javax.accessibility.AccessibleSelection;
 import javax.accessibility.AccessibleState;
 import javax.accessibility.AccessibleStateSet;
-
 import sun.awt.AWTAccessor;
 import sun.awt.AppContext;
 import sun.awt.ComponentFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The abstract class {@code MenuComponent} is the superclass

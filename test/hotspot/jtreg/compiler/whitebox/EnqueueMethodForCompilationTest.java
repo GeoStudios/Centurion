@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.whitebox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test EnqueueMethodForCompilationTest
  * @bug 8006683 8007288 8022832
@@ -36,7 +53,6 @@
  *                   compiler.whitebox.EnqueueMethodForCompilationTest
  */
 
-package compiler.whitebox;
 
 public class EnqueueMethodForCompilationTest extends CompilerWhiteBoxTest {
 

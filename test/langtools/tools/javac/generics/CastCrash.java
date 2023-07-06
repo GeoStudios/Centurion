@@ -21,7 +21,21 @@
 
 package cast.crash;
 
+
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 interface SN extends Set<Number>{}
 interface LI extends List<Integer>{}

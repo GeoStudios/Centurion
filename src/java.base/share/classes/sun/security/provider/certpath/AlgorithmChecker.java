@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider.certpath;
+package java.base.share.classes.sun.security.provider.certpath;
+
 
 import java.security.AlgorithmConstraints;
 import java.security.CryptoPrimitive;
@@ -29,8 +30,8 @@ import java.util.Date;
 import java.util.Set;
 import java.util.EnumSet;
 import java.math.BigInteger;
-import java.security.PublicKey;
-import java.security.KeyFactory;
+import java.base.share.classes.java.security.PublicKey;
+import java.base.share.classes.java.security.KeyFactory;
 import java.security.AlgorithmParameters;
 import java.security.GeneralSecurityException;
 import java.security.cert.Certificate;
@@ -46,14 +47,27 @@ import java.security.cert.PKIXReason;
 import java.security.interfaces.DSAParams;
 import java.security.interfaces.DSAPublicKey;
 import java.security.spec.DSAPublicKeySpec;
+import java.base.share.classes.sun.security.util.ConstraintsParameters;
+import java.base.share.classes.sun.security.util.Debug;
+import java.base.share.classes.sun.security.util.DisabledAlgorithmConstraints;
+import java.base.share.classes.sun.security.validator.Validator;
+import java.base.share.classes.sun.security.x509.AlgorithmId;
+import java.base.share.classes.sun.security.x509.X509CertImpl;
+import java.base.share.classes.sun.security.x509.X509CRLImpl;
 
-import sun.security.util.ConstraintsParameters;
-import sun.security.util.Debug;
-import sun.security.util.DisabledAlgorithmConstraints;
-import sun.security.validator.Validator;
-import sun.security.x509.AlgorithmId;
-import sun.security.x509.X509CertImpl;
-import sun.security.x509.X509CRLImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code PKIXCertPathChecker} implementation to check whether a

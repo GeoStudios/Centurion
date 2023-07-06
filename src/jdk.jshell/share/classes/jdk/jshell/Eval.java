@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.jshell;
+
+package jdk.jshell.share.classes.jdk.jshell;
+
 
 import java.util.*;
 import java.util.regex.Matcher;
@@ -26,7 +28,6 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import javax.lang.model.element.Modifier;
 import javax.lang.model.element.Name;
-
 import com.sun.source.tree.ArrayTypeTree;
 import com.sun.source.tree.AssignmentTree;
 import com.sun.source.tree.ClassTree;
@@ -40,46 +41,59 @@ import com.sun.source.tree.Tree;
 import com.sun.source.tree.VariableTree;
 import com.sun.tools.javac.tree.JCTree;
 import com.sun.tools.javac.tree.Pretty;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.StringWriter;
 import java.io.Writer;
-
-import jdk.jshell.ExpressionToTypeInfo.ExpressionInfo;
-import jdk.jshell.ExpressionToTypeInfo.ExpressionInfo.AnonymousDescription;
-import jdk.jshell.ExpressionToTypeInfo.ExpressionInfo.AnonymousDescription.VariableDesc;
-import jdk.jshell.Key.ErroneousKey;
-import jdk.jshell.Key.MethodKey;
-import jdk.jshell.Key.TypeDeclKey;
-import jdk.jshell.Snippet.Kind;
-import jdk.jshell.Snippet.SubKind;
-import jdk.jshell.TaskFactory.AnalyzeTask;
-import jdk.jshell.TaskFactory.BaseTask;
-import jdk.jshell.TaskFactory.ParseTask;
-import jdk.jshell.Util.Pair;
-import jdk.jshell.Wrap.CompoundWrap;
-import jdk.jshell.Wrap.Range;
-import jdk.jshell.Snippet.Status;
-import jdk.jshell.spi.ExecutionControl.ClassBytecodes;
-import jdk.jshell.spi.ExecutionControl.ClassInstallException;
-import jdk.jshell.spi.ExecutionControl.EngineTerminationException;
-import jdk.jshell.spi.ExecutionControl.InternalException;
-import jdk.jshell.spi.ExecutionControl.NotImplementedException;
-import jdk.jshell.spi.ExecutionControl.ResolutionException;
-import jdk.jshell.spi.ExecutionControl.RunException;
-import jdk.jshell.spi.ExecutionControl.UserException;
-import static java.util.stream.Collectors.toSet;
-import static java.util.Collections.singletonList;
+import jdk.jshell.share.classes.jdk.jshell.ExpressionToTypeInfo.ExpressionInfo;
+import jdk.jshell.share.classes.jdk.jshell.ExpressionToTypeInfo.ExpressionInfo.AnonymousDescription;
+import jdk.jshell.share.classes.jdk.jshell.ExpressionToTypeInfo.ExpressionInfo.AnonymousDescription.VariableDesc;
+import jdk.jshell.share.classes.jdk.jshell.Key.ErroneousKey;
+import jdk.jshell.share.classes.jdk.jshell.Key.MethodKey;
+import jdk.jshell.share.classes.jdk.jshell.Key.TypeDeclKey;
+import jdk.jshell.share.classes.jdk.jshell.Snippet.Kind;
+import jdk.jshell.share.classes.jdk.jshell.Snippet.SubKind;
+import jdk.jshell.share.classes.jdk.jshell.TaskFactory.AnalyzeTask;
+import jdk.jshell.share.classes.jdk.jshell.TaskFactory.BaseTask;
+import jdk.jshell.share.classes.jdk.jshell.TaskFactory.ParseTask;
+import jdk.jshell.share.classes.jdk.jshell.Util.Pair;
+import jdk.jshell.share.classes.jdk.jshell.Wrap.CompoundWrap;
+import jdk.jshell.share.classes.jdk.jshell.Wrap.Range;
+import jdk.jshell.share.classes.jdk.jshell.Snippet.Status;
+import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionControl.ClassBytecodes;
+import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionControl.ClassInstallException;
+import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionControl.EngineTerminationException;
+import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionControl.InternalException;
+import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionControl.NotImplementedException;
+import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionControl.ResolutionException;
+import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionControl.RunException;
+import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionControl.UserException;
+import static java.util.stream.Collectors.toSet;.extended
+import static java.util.Collections.singletonjava.util.java.util.java.util.List;.extended
 import com.sun.tools.javac.code.Symbol.TypeSymbol;
-import static jdk.internal.jshell.debug.InternalDebugControl.DBG_GEN;
-import static jdk.jshell.Snippet.Status.RECOVERABLE_DEFINED;
-import static jdk.jshell.Snippet.Status.VALID;
-import static jdk.jshell.Util.DOIT_METHOD_NAME;
-import static jdk.jshell.Util.PREFIX_PATTERN;
-import static jdk.jshell.Util.expunge;
-import static jdk.jshell.Snippet.SubKind.SINGLE_TYPE_IMPORT_SUBKIND;
-import static jdk.jshell.Snippet.SubKind.SINGLE_STATIC_IMPORT_SUBKIND;
-import static jdk.jshell.Snippet.SubKind.TYPE_IMPORT_ON_DEMAND_SUBKIND;
-import static jdk.jshell.Snippet.SubKind.STATIC_IMPORT_ON_DEMAND_SUBKIND;
+import static jdk.jshell.share.classes.jdk.internal.jshell.debug.InternalDebugControl.DBG_GEN;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Snippet.Status.RECOVERABLE_DEFINED;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Snippet.Status.VALID;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Util.DOIT_METHOD_NAME;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Util.PREFIX_PATTERN;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Util.expunge;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Snippet.SubKind.SINGLE_TYPE_IMPORT_SUBKIND;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Snippet.SubKind.SINGLE_STATIC_IMPORT_SUBKIND;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Snippet.SubKind.TYPE_IMPORT_ON_DEMAND_SUBKIND;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Snippet.SubKind.STATIC_IMPORT_ON_DEMAND_SUBKIND;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Evaluation Engine. Source internal analysis, wrapping control,

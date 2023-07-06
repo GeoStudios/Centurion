@@ -19,19 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.ui.treetable;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.treetable;
+
 
 import java.awt.*;
-
 import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.event.*;
 import javax.swing.tree.*;
 import javax.swing.table.*;
-
 import java.awt.event.*;
-
 import java.util.EventObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This example shows how to create a simple JTreeTable component,

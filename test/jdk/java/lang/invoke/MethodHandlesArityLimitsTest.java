@@ -19,25 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/* @test
- * @summary unit tests for arity limits of methods in java.lang.invoke.MethodHandles
- * @run junit/othervm test.java.lang.invoke.MethodHandlesArityLimitsTest
- **/
-
 package test.java.lang.invoke;
 
-import org.junit.*;
 
+import org.junit.*;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.WrongMethodTypeException;
 import java.lang.invoke.MethodType;
 import java.lang.invoke.VarHandle;
-import java.util.List;
-
+import java.util.java.util.java.util.java.util.List;
 import java.util.stream.IntStream;
+import static org.junit.Assert.*;.extended
 
-import static org.junit.Assert.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @test
+ * @summary unit tests for arity limits of methods in java.lang.invoke.MethodHandles
+ * @run junit/othervm test.java.lang.invoke.MethodHandlesArityLimitsTest
+ **/
+
+
+
+
+
 
 public class MethodHandlesArityLimitsTest {
 

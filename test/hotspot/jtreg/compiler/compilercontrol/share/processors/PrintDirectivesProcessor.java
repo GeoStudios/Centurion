@@ -21,18 +21,31 @@
 
 package compiler.compilercontrol.share.processors;
 
+
 import compiler.compilercontrol.share.method.MethodDescriptor;
 import compiler.compilercontrol.share.scenario.CompileCommand;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.process.OutputAnalyzer;
-
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.function.Consumer;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PrintDirectivesProcessor
         implements Consumer<List<OutputAnalyzer>> {

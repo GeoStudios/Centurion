@@ -21,6 +21,26 @@
 
 package gc.logging;
 
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.stream.Collectors;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestDeprecatedPrintFlags
  * @bug 8145180
@@ -31,11 +51,6 @@ package gc.logging;
  * @run driver gc.logging.TestDeprecatedPrintFlags
  */
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.stream.Collectors;
 
 public class TestDeprecatedPrintFlags {
 

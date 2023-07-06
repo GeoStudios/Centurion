@@ -18,18 +18,37 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package java.xml.crypto.share.classes.javax.xml.crypto.dsig.keyinfo;
+
+
+import java.xml.crypto.share.classes.javax.xml.crypto.Data;
+import java.xml.crypto.share.classes.javax.xml.crypto.URIReference;
+import java.xml.crypto.share.classes.javax.xml.crypto.URIReferenceException;
+import java.xml.crypto.share.classes.javax.xml.crypto.XMLCryptoContext;
+import java.xml.crypto.share.classes.javax.xml.crypto.XMLStructure;
+import java.xml.crypto.share.classes.javax.xml.crypto.dsig.Transform;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: RetrievalMethod.java,v 1.8 2005/05/10 16:35:35 mullan Exp $
  */
-package javax.xml.crypto.dsig.keyinfo;
 
-import javax.xml.crypto.Data;
-import javax.xml.crypto.URIReference;
-import javax.xml.crypto.URIReferenceException;
-import javax.xml.crypto.XMLCryptoContext;
-import javax.xml.crypto.XMLStructure;
-import javax.xml.crypto.dsig.Transform;
-import java.util.List;
+
 
 /**
  * A representation of the XML <code>RetrievalMethod</code> element as

@@ -19,35 +19,49 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal;
+package jdk.jfr.share.classes.jdk.jfr.internal;
+
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 import java.lang.reflect.Parameter;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.util.function.Consumer;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.ClassReader;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.ClassWriter;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.Label;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.MethodVisitor;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.Type;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.commons.Method;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.tree.AnnotationNode;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.tree.ClassNode;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.tree.FieldNode;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.tree.MethodNode;
+import jdk.jfr.share.classes.jdk.jfr.Enabled;
+import jdk.jfr.share.classes.jdk.jfr.Event;
+import jdk.jfr.share.classes.jdk.jfr.Name;
+import jdk.jfr.share.classes.jdk.jfr.Registered;
+import jdk.jfr.share.classes.jdk.jfr.SettingControl;
+import jdk.jfr.share.classes.jdk.jfr.SettingDefinition;
+import jdk.jfr.share.classes.jdk.jfr.internal.handlers.EventHandler;
 
-import jdk.internal.org.objectweb.asm.ClassReader;
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.org.objectweb.asm.Label;
-import jdk.internal.org.objectweb.asm.MethodVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.Type;
-import jdk.internal.org.objectweb.asm.commons.Method;
-import jdk.internal.org.objectweb.asm.tree.AnnotationNode;
-import jdk.internal.org.objectweb.asm.tree.ClassNode;
-import jdk.internal.org.objectweb.asm.tree.FieldNode;
-import jdk.internal.org.objectweb.asm.tree.MethodNode;
-import jdk.jfr.Enabled;
-import jdk.jfr.Event;
-import jdk.jfr.Name;
-import jdk.jfr.Registered;
-import jdk.jfr.SettingControl;
-import jdk.jfr.SettingDefinition;
-import jdk.jfr.internal.handlers.EventHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class responsible for adding instrumentation to a subclass of {@link Event}.

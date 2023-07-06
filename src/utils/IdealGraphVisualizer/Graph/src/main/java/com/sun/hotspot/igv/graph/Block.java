@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.graph;
 
-import com.sun.hotspot.igv.data.InputBlock;
-import com.sun.hotspot.igv.layout.Cluster;
-import java.awt.Rectangle;
-import java.util.HashSet;
-import java.util.Set;
+package utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.graph;
+
+
+import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.data.InputBlock;
+import utils.IdealGraphVisualizer.Graph.src.main.java.com.sun.hotspot.igv.layout.Cluster;
+import utils.IdealGraphVisualizer.Graph.src.main.java.awt.Rectangle;
+import utils.IdealGraphVisualizer.Graph.src.main.java.util.HashSet;
+import utils.IdealGraphVisualizer.Graph.src.main.java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

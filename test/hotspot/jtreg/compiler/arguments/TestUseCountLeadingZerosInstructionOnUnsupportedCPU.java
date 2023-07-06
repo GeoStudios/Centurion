@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.arguments;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8031321
@@ -36,7 +53,6 @@
  *                   compiler.arguments.TestUseCountLeadingZerosInstructionOnUnsupportedCPU
  */
 
-package compiler.arguments;
 
 public class TestUseCountLeadingZerosInstructionOnUnsupportedCPU
      extends BMIUnsupportedCPUTest {

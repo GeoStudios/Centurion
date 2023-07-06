@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package util;
+
 
 import java.io.InputStream;
 import java.io.Reader;
@@ -41,8 +43,21 @@ import java.sql.Time;
 import java.sql.Timestamp;
 import java.util.Calendar;
 import java.util.Map;
-import javax.sql.RowSetListener;
+import javax.sql.RowSetjava.util.Listener;
 import javax.sql.rowset.spi.SyncResolver;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class StubSyncResolver  implements SyncResolver, Serializable {
 

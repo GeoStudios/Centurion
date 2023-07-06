@@ -21,22 +21,33 @@
 
 package test.astro;
 
-import static java.lang.String.valueOf;
-import static jaxp.library.JAXPTestUtilities.USER_DIR;
-import static jaxp.library.JAXPTestUtilities.compareWithGold;
-import static org.testng.Assert.assertTrue;
-import static test.astro.AstroConstants.ASTROCAT;
-import static test.astro.AstroConstants.GOLDEN_DIR;
 
+import static java.lang.String.valueOf;.extended
+import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
+import static jaxp.library.JAXPTestUtilities.compareWithGold;.extended
+import static org.testng.Assert.assertTrue;.extended
+import static test.astro.AstroConstants.ASTROCAT;.extended
+import static test.astro.AstroConstants.GOLDEN_DIR;.extended
 import java.nio.file.Files;
 import java.nio.file.Paths;
-
 import javax.xml.transform.sax.TransformerHandler;
-
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

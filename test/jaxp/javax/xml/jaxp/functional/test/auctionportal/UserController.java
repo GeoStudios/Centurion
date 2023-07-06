@@ -18,38 +18,50 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.auctionportal;
 
-import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;
-import static jaxp.library.JAXPTestUtilities.USER_DIR;
-import static jaxp.library.JAXPTestUtilities.compareDocumentWithGold;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertTrue;
-import static test.auctionportal.HiBidConstants.GOLDEN_DIR;
-import static test.auctionportal.HiBidConstants.JAXP_SCHEMA_LANGUAGE;
-import static test.auctionportal.HiBidConstants.PORTAL_ACCOUNT_NS;
-import static test.auctionportal.HiBidConstants.XML_DIR;
 
+import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;.extended
+import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
+import static jaxp.library.JAXPTestUtilities.compareDocumentWithGold;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertFalse;.extended
+import static org.testng.Assert.assertTrue;.extended
+import static test.auctionportal.HiBidConstants.GOLDEN_DIR;.extended
+import static test.auctionportal.HiBidConstants.JAXP_SCHEMA_LANGUAGE;.extended
+import static test.auctionportal.HiBidConstants.PORTAL_ACCOUNT_NS;.extended
+import static test.auctionportal.HiBidConstants.XML_DIR;.extended
 import java.io.FileOutputStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
+import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import org.w3c.dom.Text;
 import org.w3c.dom.bootstrap.DOMImplementationRegistry;
 import org.w3c.dom.ls.DOMImplementationLS;
 import org.w3c.dom.ls.LSParser;
 import org.w3c.dom.ls.LSSerializer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the user controller class for the Auction portal HiBid.com.

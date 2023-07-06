@@ -18,18 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.rmi.server;
 
-import java.io.DataInput;
-import java.io.DataOutput;
-import java.io.IOException;
-import java.io.ObjectInput;
-import java.io.ObjectOutput;
-import java.io.Serializable;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.security.SecureRandom;
-import java.util.concurrent.atomic.AtomicLong;
+package java.rmi.share.classes.java.rmi.server;
+
+
+import java.rmi.share.classes.java.io.DataInput;
+import java.rmi.share.classes.java.io.DataOutput;
+import java.rmi.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.rmi.share.classes.java.io.ObjectInput;
+import java.rmi.share.classes.java.io.ObjectOutput;
+import java.rmi.share.classes.java.io.Serializable;
+import java.rmi.share.classes.java.security.AccessController;
+import java.rmi.share.classes.java.security.PrivilegedAction;
+import java.rmi.share.classes.java.security.SecureRandom;
+import java.rmi.share.classes.java.util.concurrent.atomic.AtomicLong;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An <code>ObjID</code> is used to identify a remote object exported

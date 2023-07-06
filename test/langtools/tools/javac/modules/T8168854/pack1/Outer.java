@@ -21,6 +21,21 @@
 
 package pack1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Outer {
     public class Inter {
     }

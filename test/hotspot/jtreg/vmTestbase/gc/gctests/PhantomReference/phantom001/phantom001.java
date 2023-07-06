@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.PhantomReference.phantom001;
+
+
+import java.lang.ref.*;
+import java.time.LocalTime;
+import nsk.share.gc.*;
+import nsk.share.gc.gp.*;
+import nsk.share.gc.gp.string.InternedStringProducer;
+import nsk.share.gc.gp.string.RandomStringProducer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -55,14 +78,7 @@
  * @run main/othervm gc.gctests.PhantomReference.phantom001.phantom001 -ms low
  */
 
-package gc.gctests.PhantomReference.phantom001;
 
-import java.lang.ref.*;
-import java.time.LocalTime;
-import nsk.share.gc.*;
-import nsk.share.gc.gp.*;
-import nsk.share.gc.gp.string.InternedStringProducer;
-import nsk.share.gc.gp.string.RandomStringProducer;
 
 public class phantom001 extends ThreadedGCTest implements GarbageProducerAware, MemoryStrategyAware {
 

@@ -18,13 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.beans;
 
-import java.util.HashMap;
-import java.util.IdentityHashMap;
-import java.util.Map;
+package java.desktop.share.classes.java.beans;
 
-import static java.util.Locale.ENGLISH;
+
+import java.desktop.share.classes.java.util.HashMap;
+import java.desktop.share.classes.java.util.IdentityHashMap;
+import java.desktop.share.classes.java.util.Map;
+import static java.desktop.share.classes.java.util.Locale.ENGLISH;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A utility class which generates unique names for object instances.

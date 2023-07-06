@@ -18,15 +18,15 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.drivers.menus;
 
-import java.awt.event.KeyEvent;
 
+import java.awt.event.KeyEvent;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.MenuElement;
-
 import org.netbeans.jemmy.JemmyException;
 import org.netbeans.jemmy.Timeout;
 import org.netbeans.jemmy.TimeoutExpiredException;
@@ -36,6 +36,19 @@ import org.netbeans.jemmy.drivers.PathChooser;
 import org.netbeans.jemmy.drivers.input.RobotDriver;
 import org.netbeans.jemmy.operators.ComponentOperator;
 import org.netbeans.jemmy.operators.Operator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

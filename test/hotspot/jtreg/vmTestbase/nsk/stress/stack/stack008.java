@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.stress.stack;
+
+
+import java.io.PrintStream;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress
@@ -49,12 +69,8 @@
  * @run main/othervm/timeout=900 -Xss200K nsk.stress.stack.stack008
  */
 
-package nsk.stress.stack;
 
 
-import java.io.PrintStream;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 
 public class stack008 {
     public static void main(String[] args) {

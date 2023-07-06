@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.common;
+package java.desktop.share.classes.com.sun.imageio.plugins.common;
+
 
 import java.awt.Rectangle;
 import java.awt.Transparency;
@@ -43,12 +44,25 @@ import java.awt.image.SampleModel;
 import java.awt.image.SinglePixelPackedSampleModel;
 import java.awt.image.WritableRaster;
 import java.util.Iterator;
-
-import javax.imageio.IIOException;
+import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import javax.imageio.ImageReadParam;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.ImageWriter;
 import javax.imageio.spi.ImageWriterSpi;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ImageUtil {
     /**

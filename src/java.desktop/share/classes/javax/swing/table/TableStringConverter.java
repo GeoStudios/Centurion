@@ -18,7 +18,24 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.table;
+
+package java.desktop.share.classes.javax.swing.table;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * TableStringConverter is used to convert objects from the model into

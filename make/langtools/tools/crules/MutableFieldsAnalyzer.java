@@ -21,23 +21,35 @@
 
 package crules;
 
-import java.util.Arrays;
+
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
-
 import com.sun.source.util.JavacTask;
 import com.sun.source.util.TaskEvent.Kind;
 import com.sun.tools.javac.tree.JCTree.JCVariableDecl;
 import com.sun.tools.javac.tree.TreeScanner;
+import static com.sun.tools.javac.code.Flags.ENUM;.extended
+import static com.sun.tools.javac.code.Flags.FINAL;.extended
+import static com.sun.tools.javac.code.Flags.STATIC;.extended
+import static com.sun.tools.javac.code.Flags.SYNTHETIC;.extended
+import static com.sun.tools.javac.code.Kinds.Kind.*;.extended
 
-import static com.sun.tools.javac.code.Flags.ENUM;
-import static com.sun.tools.javac.code.Flags.FINAL;
-import static com.sun.tools.javac.code.Flags.STATIC;
-import static com.sun.tools.javac.code.Flags.SYNTHETIC;
-import static com.sun.tools.javac.code.Kinds.Kind.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**This analyzer guards against non-final static fields.*/
 public class MutableFieldsAnalyzer extends AbstractCodingRulesAnalyzer {

@@ -21,12 +21,24 @@
 
 package tck.java.time.format;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
 
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertTrue;.extended
 import java.time.format.TextStyle;
-
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test DecimalStyle.

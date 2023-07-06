@@ -21,8 +21,22 @@
 
 package cycle3;
 
+
 import java.lang.annotation.Retention;
-import static java.lang.annotation.RetentionPolicy.*;
+import static java.lang.annotation.RetentionPolicy.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @Retention(RUNTIME)
 @interface A {

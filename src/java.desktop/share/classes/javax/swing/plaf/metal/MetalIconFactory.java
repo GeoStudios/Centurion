@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.metal;
+package java.desktop.share.classes.javax.swing.plaf.metal;
+
 
 import java.awt.Color;
 import java.awt.Component;
@@ -34,20 +35,31 @@ import java.awt.Transparency;
 import java.awt.image.BufferedImage;
 import java.io.Serializable;
 import java.util.Vector;
-
-import javax.swing.ButtonModel;
-import javax.swing.Icon;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JRadioButton;
-import javax.swing.plaf.UIResource;
-
+import java.desktop.share.classes.javax.swing.ButtonModel;
+import java.desktop.share.classes.javax.swing.Icon;
+import java.desktop.share.classes.javax.swing.JButton;
+import java.desktop.share.classes.javax.swing.JCheckBox;
+import java.desktop.share.classes.javax.swing.JMenu;
+import java.desktop.share.classes.javax.swing.JMenuItem;
+import java.desktop.share.classes.javax.swing.JRadioButton;
+import java.desktop.share.classes.javax.swing.plaf.UIResource;
 import sun.swing.CachedPainter;
+import static sun.swing.SwingUtilities2.getAndSetAntialisingHintForScaledGraphics;.extended
+import static sun.swing.SwingUtilities2.setAntialiasingHintForScaledGraphics;.extended
 
-import static sun.swing.SwingUtilities2.getAndSetAntialisingHintForScaledGraphics;
-import static sun.swing.SwingUtilities2.setAntialiasingHintForScaledGraphics;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Factory object that vends <code>Icon</code>s for

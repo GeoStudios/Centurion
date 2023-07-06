@@ -18,18 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.view;
 
-import com.sun.hotspot.igv.data.*;
-import com.sun.hotspot.igv.difference.Difference;
-import com.sun.hotspot.igv.filter.CustomFilter;
-import com.sun.hotspot.igv.filter.FilterChain;
-import com.sun.hotspot.igv.graph.Diagram;
-import com.sun.hotspot.igv.graph.Figure;
-import com.sun.hotspot.igv.settings.Settings;
-import com.sun.hotspot.igv.util.RangeSliderModel;
-import java.awt.Color;
-import java.util.*;
+package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view;
+
+
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.*;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.difference.Difference;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.filter.CustomFilter;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.filter.FilterChain;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.graph.Diagram;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.graph.Figure;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.settings.Settings;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.util.RangeSliderModel;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.Color;
+import utils.IdealGraphVisualizer.View.src.main.java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

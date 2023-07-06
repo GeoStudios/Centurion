@@ -18,13 +18,15 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.nio.ch.sctp;
 
-import java.net.SocketAddress;
-import java.net.InetSocketAddress;
+package jdk.sctp.unix.classes.sun.nio.ch.sctp;
+
+
+import java.net.java.net.SocketAddress;
+import java.net.Inetjava.net.SocketAddress;
 import java.net.InetAddress;
 import java.io.FileDescriptor;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.Collections;
 import java.util.Set;
 import java.util.HashSet;
@@ -35,16 +37,30 @@ import java.nio.channels.spi.SelectorProvider;
 import com.sun.nio.sctp.IllegalUnbindException;
 import com.sun.nio.sctp.SctpChannel;
 import com.sun.nio.sctp.SctpServerChannel;
-import com.sun.nio.sctp.SctpSocketOption;
-import com.sun.nio.sctp.SctpStandardSocketOptions;
-import sun.nio.ch.DirectBuffer;
-import sun.nio.ch.NativeThread;
-import sun.nio.ch.IOStatus;
-import sun.nio.ch.IOUtil;
-import sun.nio.ch.Net;
-import sun.nio.ch.SelChImpl;
-import sun.nio.ch.SelectionKeyImpl;
-import sun.nio.ch.Util;
+import com.sun.nio.sctp.Sctpjava.net.SocketOption;
+import com.sun.nio.sctp.SctpStandardjava.net.SocketOptions;
+import jdk.sctp.unix.classes.sun.nio.ch.DirectBuffer;
+import jdk.sctp.unix.classes.sun.nio.ch.NativeThread;
+import jdk.sctp.unix.classes.sun.nio.ch.IOStatus;
+import jdk.sctp.unix.classes.sun.nio.ch.IOUtil;
+import jdk.sctp.unix.classes.sun.nio.ch.Net;
+import jdk.sctp.unix.classes.sun.nio.ch.SelChImpl;
+import jdk.sctp.unix.classes.sun.nio.ch.SelectionKeyImpl;
+import jdk.sctp.unix.classes.sun.nio.ch.Util;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of SctpServerChannel

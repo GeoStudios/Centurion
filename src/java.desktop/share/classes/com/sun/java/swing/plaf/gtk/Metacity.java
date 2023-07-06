@@ -18,30 +18,42 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.java.swing.plaf.gtk;
 
-import sun.swing.SwingUtilities2;
-import com.sun.java.swing.plaf.gtk.GTKConstants.ArrowType;
-import com.sun.java.swing.plaf.gtk.GTKConstants.ShadowType;
+package java.desktop.share.classes.com.sun.java.swing.plaf.gtk;
 
+
+import java.desktop.share.classes.com.sun.swing.SwingUtilities2;
+import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKConstants.ArrowType;
+import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKConstants.ShadowType;
 import javax.swing.plaf.ColorUIResource;
 import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
 import javax.swing.plaf.synth.*;
-
-import java.awt.*;
-import java.awt.geom.*;
-import java.awt.image.*;
-import java.io.*;
-import java.net.*;
-import java.nio.charset.StandardCharsets;
-import java.security.*;
-import java.util.*;
-
+import java.desktop.share.classes.com.sun.java.awt.*;
+import java.desktop.share.classes.com.sun.java.awt.geom.*;
+import java.desktop.share.classes.com.sun.java.awt.image.*;
+import java.desktop.share.classes.com.sun.java.io.*;
+import java.desktop.share.classes.com.sun.java.net.*;
+import java.desktop.share.classes.com.sun.java.nio.charset.StandardCharsets;
+import java.desktop.share.classes.com.sun.java.security.*;
+import java.desktop.share.classes.com.sun.java.util.*;
 import javax.swing.*;
-
 import javax.xml.parsers.*;
 import org.xml.sax.SAXException;
 import org.w3c.dom.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

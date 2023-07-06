@@ -19,28 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.dnd;
+package java.desktop.share.classes.java.awt.dnd;
 
-import java.awt.AWTError;
-import java.awt.Component;
-import java.awt.Cursor;
-import java.awt.Image;
-import java.awt.Point;
-import java.awt.Toolkit;
-import java.awt.datatransfer.DataFlavor;
-import java.awt.datatransfer.Transferable;
-import java.awt.datatransfer.UnsupportedFlavorException;
-import java.awt.dnd.peer.DragSourceContextPeer;
-import java.io.IOException;
-import java.io.InvalidObjectException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serial;
-import java.io.Serializable;
-import java.util.TooManyListenersException;
 
+import java.desktop.share.classes.java.awt.AWTError;
+import java.desktop.share.classes.java.awt.Component;
+import java.desktop.share.classes.java.awt.Cursor;
+import java.desktop.share.classes.java.awt.Image;
+import java.desktop.share.classes.java.awt.Point;
+import java.desktop.share.classes.java.awt.Toolkit;
+import java.desktop.share.classes.java.awt.datatransfer.DataFlavor;
+import java.desktop.share.classes.java.awt.datatransfer.Transferable;
+import java.desktop.share.classes.java.awt.datatransfer.UnsupportedFlavorException;
+import java.desktop.share.classes.java.awt.dnd.peer.DragSourceContextPeer;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.InvalidObjectException;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.ObjectOutputStream;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.io.Serializable;
+import java.desktop.share.classes.java.util.TooManyjava.util.ListenersException;
 import sun.awt.AWTAccessor;
 import sun.awt.ComponentFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code DragSourceContext} class is responsible for managing the

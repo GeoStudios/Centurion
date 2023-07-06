@@ -18,20 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.tools.javac.jvm;
 
-import com.sun.tools.javac.util.ByteBuffer;
-import com.sun.tools.javac.util.Convert;
-import com.sun.tools.javac.util.Name.NameMapper;
+package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
 
-import java.io.IOException;
+
+import jdk.compiler.share.classes.com.sun.tools.javac.util.ByteBuffer;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Convert;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Name.NameMapper;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
-
 import javax.tools.JavaFileObject;
+import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.*;.extended
 
-import static com.sun.tools.javac.jvm.ClassFile.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

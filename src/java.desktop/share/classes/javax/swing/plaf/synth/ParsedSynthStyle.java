@@ -18,12 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.plaf.synth;
+
+package java.desktop.share.classes.javax.swing.plaf.synth;
+
 
 import java.awt.Graphics;
-import java.util.LinkedList;
-
+import java.util.Linkedjava.util.java.util.java.util.List;
 import sun.swing.plaf.synth.DefaultSynthStyle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ParsedSynthStyle are the SynthStyle's that SynthParser creates.

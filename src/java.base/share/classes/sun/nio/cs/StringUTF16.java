@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.cs;
+package java.base.share.classes.sun.nio.cs;
 
-import static jdk.internal.misc.Unsafe.ARRAY_BYTE_BASE_OFFSET;
-import static jdk.internal.misc.Unsafe.ARRAY_BYTE_INDEX_SCALE;
+
+import static jdk.internal.misc.Unsafe.ARRAY_BYTE_BASE_OFFSET;.extended
+import static jdk.internal.misc.Unsafe.ARRAY_BYTE_INDEX_SCALE;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class StringUTF16 {
 

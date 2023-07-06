@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider;
+package java.base.share.classes.sun.security.provider;
+
 
 import java.io.*;
 import java.net.MalformedURLException;
@@ -38,11 +39,24 @@ import javax.security.auth.login.AppConfigurationEntry;
 import javax.security.auth.login.AppConfigurationEntry.LoginModuleControlFlag;
 import javax.security.auth.login.Configuration;
 import javax.security.auth.login.ConfigurationSpi;
-import sun.security.util.Debug;
-import sun.security.util.PropertyExpander;
-import sun.security.util.ResourcesMgr;
+import java.base.share.classes.sun.security.util.Debug;
+import java.base.share.classes.sun.security.util.PropertyExpander;
+import java.base.share.classes.sun.security.util.ResourcesMgr;
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
 
-import static java.nio.charset.StandardCharsets.UTF_8;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents a default implementation for

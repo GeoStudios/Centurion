@@ -19,20 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management;
+package java.management.share.classes.javax.management;
+
 
 import java.io.Serializable;
+import java.lang.management.MemoryUsage;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.java.util.Locale;
+import java.util.ResourceBundle;
+import java.management.share.classes.javax.management.openmbean.CompositeData;
+import java.management.share.classes.javax.management.openmbean.OpenMBeanAttributeInfoSupport;
+import java.management.share.classes.javax.management.openmbean.OpenMBeanOperationInfoSupport;
+import java.management.share.classes.javax.management.openmbean.OpenMBeanParameterInfoSupport;
+import java.management.share.classes.javax.management.openmbean.OpenType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Javadoc imports:
-import java.lang.management.MemoryUsage;
-import java.util.Arrays;
-import java.util.Locale;
-import java.util.ResourceBundle;
-import javax.management.openmbean.CompositeData;
-import javax.management.openmbean.OpenMBeanAttributeInfoSupport;
-import javax.management.openmbean.OpenMBeanOperationInfoSupport;
-import javax.management.openmbean.OpenMBeanParameterInfoSupport;
-import javax.management.openmbean.OpenType;
 
 /**
  * <p>Additional metadata for a JMX element.  A {@code Descriptor}

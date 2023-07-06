@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codegen;
+
+
+import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6823354
@@ -34,9 +52,7 @@
  *      compiler.codegen.Test6823354
  */
 
-package compiler.codegen;
 
-import jdk.test.lib.Utils;
 
 public class Test6823354 {
     // Arrays of corner case values.

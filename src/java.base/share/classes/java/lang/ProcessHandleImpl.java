@@ -18,24 +18,40 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang;
 
-import java.lang.annotation.Native;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.time.Duration;
-import java.time.Instant;
-import java.util.Arrays;
-import java.util.Optional;
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
-import java.util.concurrent.Executor;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ThreadFactory;
-import java.util.concurrent.ThreadLocalRandom;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
+package java.base.share.classes.java.lang;
+
+
+import java.base.share.classes.java.lang.annotation.Native;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.PrivilegedAction;
+import java.base.share.classes.java.time.Duration;
+import java.base.share.classes.java.time.Instant;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.Optional;
+import java.base.share.classes.java.util.concurrent.CompletableFuture;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.concurrent.ConcurrentMap;
+import java.base.share.classes.java.util.concurrent.Executor;
+import java.base.share.classes.java.util.concurrent.Executors;
+import java.base.share.classes.java.util.concurrent.ThreadFactory;
+import java.base.share.classes.java.util.concurrent.ThreadLocalRandom;
+import java.base.share.classes.java.util.stream.IntStream;
+import java.base.share.classes.java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ProcessHandleImpl is the implementation of ProcessHandle.

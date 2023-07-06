@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.*;
 import java.util.Enumeration;
-
 import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.plaf.*;
 import javax.swing.plaf.basic.BasicTableHeaderUI;
 import javax.swing.table.*;
-import com.apple.laf.ClientPropertyApplicator;
-import com.apple.laf.ClientPropertyApplicator.Property;
-import com.apple.laf.AquaUtils.RecyclableSingleton;
+import java.desktop.macosx.classes.com.apple.laf.ClientPropertyApplicator;
+import java.desktop.macosx.classes.com.apple.laf.ClientPropertyApplicator.Property;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaTableHeaderUI extends BasicTableHeaderUI {
     private int originalHeaderAlignment;

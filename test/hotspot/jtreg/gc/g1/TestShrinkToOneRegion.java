@@ -21,6 +21,21 @@
 
 package gc.g1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestShrinkToOneRegion.java
  * @bug 8013872

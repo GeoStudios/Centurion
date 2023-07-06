@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.verifier.VerifyMergeStack;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -31,9 +49,7 @@
  * @run main/othervm jit.verifier.VerifyMergeStack.VerifyMergeStack
  */
 
-package jit.verifier.VerifyMergeStack;
 
-import nsk.share.TestFailure;
 
 /**
  * @(#)VerifyMergeStack.java      1.1 01/25/01

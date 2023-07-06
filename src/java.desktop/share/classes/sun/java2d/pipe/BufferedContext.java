@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.pipe;
+package java.desktop.share.classes.sun.java2d.pipe;
+
 
 import java.awt.AlphaComposite;
 import java.awt.Color;
@@ -29,24 +30,36 @@ import java.awt.geom.AffineTransform;
 import java.lang.annotation.Native;
 import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;
+import java.desktop.share.classes.sun.java2d.InvalidPipeException;
+import java.desktop.share.classes.sun.java2d.SunGraphics2D;
+import java.desktop.share.classes.sun.java2d.loops.XORComposite;
+import java.desktop.share.classes.sun.java2d.pipe.hw.AccelSurface;
+import static java.desktop.share.classes.sun.java2d.pipe.BufferedOpCodes.BEGIN_SHAPE_CLIP;.extended
+import static java.desktop.share.classes.sun.java2d.pipe.BufferedOpCodes.END_SHAPE_CLIP;.extended
+import static java.desktop.share.classes.sun.java2d.pipe.BufferedOpCodes.RESET_CLIP;.extended
+import static java.desktop.share.classes.sun.java2d.pipe.BufferedOpCodes.RESET_COMPOSITE;.extended
+import static java.desktop.share.classes.sun.java2d.pipe.BufferedOpCodes.RESET_TRANSFORM;.extended
+import static java.desktop.share.classes.sun.java2d.pipe.BufferedOpCodes.SET_ALPHA_COMPOSITE;.extended
+import static java.desktop.share.classes.sun.java2d.pipe.BufferedOpCodes.SET_RECT_CLIP;.extended
+import static java.desktop.share.classes.sun.java2d.pipe.BufferedOpCodes.SET_SHAPE_CLIP_SPANS;.extended
+import static java.desktop.share.classes.sun.java2d.pipe.BufferedOpCodes.SET_SURFACES;.extended
+import static java.desktop.share.classes.sun.java2d.pipe.BufferedOpCodes.SET_TRANSFORM;.extended
+import static java.desktop.share.classes.sun.java2d.pipe.BufferedOpCodes.SET_XOR_COMPOSITE;.extended
+import static java.desktop.share.classes.sun.java2d.pipe.BufferedRenderPipe.BYTES_PER_SPAN;.extended
 
-import sun.java2d.InvalidPipeException;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.loops.XORComposite;
-import sun.java2d.pipe.hw.AccelSurface;
 
-import static sun.java2d.pipe.BufferedOpCodes.BEGIN_SHAPE_CLIP;
-import static sun.java2d.pipe.BufferedOpCodes.END_SHAPE_CLIP;
-import static sun.java2d.pipe.BufferedOpCodes.RESET_CLIP;
-import static sun.java2d.pipe.BufferedOpCodes.RESET_COMPOSITE;
-import static sun.java2d.pipe.BufferedOpCodes.RESET_TRANSFORM;
-import static sun.java2d.pipe.BufferedOpCodes.SET_ALPHA_COMPOSITE;
-import static sun.java2d.pipe.BufferedOpCodes.SET_RECT_CLIP;
-import static sun.java2d.pipe.BufferedOpCodes.SET_SHAPE_CLIP_SPANS;
-import static sun.java2d.pipe.BufferedOpCodes.SET_SURFACES;
-import static sun.java2d.pipe.BufferedOpCodes.SET_TRANSFORM;
-import static sun.java2d.pipe.BufferedOpCodes.SET_XOR_COMPOSITE;
-import static sun.java2d.pipe.BufferedRenderPipe.BYTES_PER_SPAN;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base context class for managing state in a single-threaded rendering

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2.cr6712835;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6712835
@@ -27,7 +44,6 @@
  * @run main/othervm -Xcomp compiler.c2.cr6712835.Test6712835
  */
 
-package compiler.c2.cr6712835;
 
 /* Complexity upper bound: 349851 ops */
 

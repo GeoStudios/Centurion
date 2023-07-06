@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.consumer;
+package jdk.jfr.share.classes.jdk.jfr.internal.consumer;
 
-import jdk.jfr.internal.Type;
+
+import jdk.jfr.share.classes.jdk.jfr.internal.Type;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class ConstantLookup {
     private final Type type;

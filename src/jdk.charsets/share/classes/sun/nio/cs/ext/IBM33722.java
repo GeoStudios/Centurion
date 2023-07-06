@@ -19,10 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- */
+package jdk.charsets.share.classes.sun.nio.cs.ext;
 
-package sun.nio.cs.ext;
 
 import java.nio.CharBuffer;
 import java.nio.ByteBuffer;
@@ -30,8 +28,28 @@ import java.nio.charset.Charset;
 import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CharsetEncoder;
 import java.nio.charset.CoderResult;
-import sun.nio.cs.HistoricallyNamedCharset;
-import sun.nio.cs.*;
+import jdk.charsets.share.classes.sun.nio.cs.HistoricallyNamedCharset;
+import jdk.charsets.share.classes.sun.nio.cs.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ */
+
+
+
 
 public class IBM33722
     extends Charset

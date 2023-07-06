@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.arguments;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestUseCompiler
  * @bug 8086068
@@ -28,7 +45,6 @@
  * @run main/othervm -XX:+UseCompiler -Xint compiler.arguments.TestUseCompiler
  */
 
-package compiler.arguments;
 
 public class TestUseCompiler {
 

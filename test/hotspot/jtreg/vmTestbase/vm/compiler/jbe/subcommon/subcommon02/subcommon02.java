@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.compiler.jbe.subcommon.subcommon02;
+
+
+import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -31,12 +49,10 @@
  * @run main/othervm vm.compiler.jbe.subcommon.subcommon02.subcommon02
  */
 
-package vm.compiler.jbe.subcommon.subcommon02;
 
 /* -- Common subexpression elimination testing
    Using global common subexpression in method fopt() to calculate x**n.
  */
-import java.io.*;
 
 public class subcommon02 {
     int LEN = 5000;

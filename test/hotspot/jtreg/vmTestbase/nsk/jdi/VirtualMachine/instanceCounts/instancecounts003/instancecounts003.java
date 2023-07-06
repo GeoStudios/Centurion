@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.VirtualMachine.instanceCounts.instancecounts003;
+
+
+import java.io.PrintStream;
+import nsk.share.Consts;
+import nsk.share.TestBug;
+import nsk.share.jdi.*;
+import nsk.share.jpda.AbstractDebuggeeTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key randomness
@@ -57,13 +79,7 @@
  *      -testClassPath ${test.class.path}
  */
 
-package nsk.jdi.VirtualMachine.instanceCounts.instancecounts003;
 
-import java.io.PrintStream;
-import nsk.share.Consts;
-import nsk.share.TestBug;
-import nsk.share.jdi.*;
-import nsk.share.jpda.AbstractDebuggeeTest;
 
 public class instancecounts003 extends HeapwalkingDebugger {
     public static void main(String argv[]) {

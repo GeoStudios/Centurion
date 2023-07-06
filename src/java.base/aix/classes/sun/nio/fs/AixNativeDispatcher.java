@@ -19,7 +19,9 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.fs;
+package java.base.aix.classes.sun.nio.fs;
+
+import java.base.unix.classes.sun.nio.fs.UnixNativeDispatcher;
 
 /**
  * AIX specific system calls.

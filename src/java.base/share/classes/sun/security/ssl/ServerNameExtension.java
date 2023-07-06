@@ -19,28 +19,43 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.LinkedHashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import javax.net.ssl.SNIHostName;
 import javax.net.ssl.SNIMatcher;
 import javax.net.ssl.SNIServerName;
 import javax.net.ssl.SSLProtocolException;
 import javax.net.ssl.StandardConstants;
-import static sun.security.ssl.SSLExtension.CH_SERVER_NAME;
-import static sun.security.ssl.SSLExtension.EE_SERVER_NAME;
-import sun.security.ssl.SSLExtension.ExtensionConsumer;
-import static sun.security.ssl.SSLExtension.SH_SERVER_NAME;
-import sun.security.ssl.SSLExtension.SSLExtensionSpec;
-import sun.security.ssl.SSLHandshake.HandshakeMessage;
+import static java.base.share.classes.sun.security.ssl.SSLExtension.CH_SERVER_NAME;.extended
+import static java.base.share.classes.sun.security.ssl.SSLExtension.EE_SERVER_NAME;.extended
+import java.base.share.classes.sun.security.ssl.SSLExtension.ExtensionConsumer;
+import static java.base.share.classes.sun.security.ssl.SSLExtension.SH_SERVER_NAME;.extended
+import java.base.share.classes.sun.security.ssl.SSLExtension.SSLExtensionSpec;
+import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Pack of the "server_name" extensions [RFC 4366/6066].

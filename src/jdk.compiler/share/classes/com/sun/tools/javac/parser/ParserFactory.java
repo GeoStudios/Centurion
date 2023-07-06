@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.parser;
+package jdk.compiler.share.classes.com.sun.tools.javac.parser;
 
-import java.util.Locale;
 
-import com.sun.tools.javac.code.Preview;
-import com.sun.tools.javac.code.Source;
-import com.sun.tools.javac.tree.DocTreeMaker;
-import com.sun.tools.javac.tree.TreeMaker;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.JCDiagnostic;
-import com.sun.tools.javac.util.Log;
-import com.sun.tools.javac.util.Names;
-import com.sun.tools.javac.util.Options;
+import java.base.share.classes.java.util.Locale;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Preview;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Source;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.DocTreeMaker;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeMaker;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Names;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Options;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A factory for creating parsers.

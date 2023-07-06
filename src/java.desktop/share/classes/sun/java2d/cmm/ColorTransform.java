@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.cmm;
+package java.desktop.share.classes.sun.java2d.cmm;
+
 
 import java.awt.image.BufferedImage;
 import java.awt.image.Raster;
 import java.awt.image.WritableRaster;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface ColorTransform {
     int Any = -1;/* any rendering type, whichever is

@@ -19,25 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.sql.rowset.spi;
+package java.sql.rowset.share.classes.javax.sql.rowset.spi;
+
 
 import java.util.logging.*;
 import java.util.*;
-
 import java.sql.*;
-import javax.sql.*;
-
+import java.sql.rowset.share.classes.javax.sql.*;
 import java.io.FileInputStream;
 import java.io.InputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.FileNotFoundException;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
-
-import javax.naming.*;
+import java.sql.rowset.share.classes.javax.naming.*;
 import sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Service Provider Interface (SPI) mechanism that generates <code>SyncProvider</code>
@@ -154,7 +166,7 @@ import sun.reflect.misc.ReflectUtil;
  * example, <code>MyProvider</code> is being registered on a CosNaming
  * namespace, which is the namespace used by J2EE resources.
  * <PRE>
- *    import javax.naming.*;
+ *    import java.sql.rowset.share.classes.javax.naming.*;
  *
  *    Hashtable svrEnv = new  Hashtable();
  *    srvEnv.put(Context.INITIAL_CONTEXT_FACTORY, "CosNaming");

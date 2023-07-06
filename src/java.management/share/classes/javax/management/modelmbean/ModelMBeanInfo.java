@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.modelmbean;
+package java.management.share.classes.javax.management.modelmbean;
 
-import javax.management.Descriptor;
-import javax.management.MBeanAttributeInfo;
-import javax.management.MBeanConstructorInfo;
-import javax.management.RuntimeOperationsException;
-import javax.management.MBeanException;
-import javax.management.MBeanNotificationInfo;
-import javax.management.MBeanOperationInfo;
+
+import java.management.share.classes.javax.management.Descriptor;
+import java.management.share.classes.javax.management.MBeanAttributeInfo;
+import java.management.share.classes.javax.management.MBeanConstructorInfo;
+import java.management.share.classes.javax.management.RuntimeOperationsException;
+import java.management.share.classes.javax.management.MBeanException;
+import java.management.share.classes.javax.management.MBeanNotificationInfo;
+import java.management.share.classes.javax.management.MBeanOperationInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface is implemented by the ModelMBeanInfo for every ModelMBean. An implementation of this interface

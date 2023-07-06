@@ -21,12 +21,25 @@
 
 package pkg;
 
-import java.lang.annotation.*;
-import static java.lang.annotation.ElementType.*;
-import static java.lang.annotation.RetentionPolicy.*;
 
+import java.lang.annotation.*;
+import static java.lang.annotation.ElementType.*;.extended
+import static java.lang.annotation.RetentionPolicy.*;.extended
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @summary compiler accepts all values

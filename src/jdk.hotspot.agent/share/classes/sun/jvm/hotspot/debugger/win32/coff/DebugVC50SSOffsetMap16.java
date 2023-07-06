@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.win32.coff;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Models the "sstOffsetMap16" subsection in Visual C++ 5.0 debug
     information. Currently has no accessors as 16-bit applications are

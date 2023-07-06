@@ -21,19 +21,32 @@
 
 package nsk.jdi.AttachingConnector.attach.attach004;
 
+
 import jdk.test.lib.JDKToolFinder;
 import jdk.test.lib.Utils;
 import jtreg.SkippedException;
 import nsk.share.jdi.ArgumentHandler;
-
 import java.io.BufferedReader;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TestDriver {
     public static void main(String[] args) throws InterruptedException {

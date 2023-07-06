@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.security.auth.x500;
+package java.base.share.classes.javax.security.auth.x500;
+
 
 import java.io.*;
 import java.security.Principal;
@@ -27,6 +28,20 @@ import java.util.Collections;
 import java.util.Map;
 import sun.security.x509.X500Name;
 import sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p> This class represents an X.500 {@code Principal}.

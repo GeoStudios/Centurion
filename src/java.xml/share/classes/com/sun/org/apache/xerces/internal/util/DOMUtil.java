@@ -19,19 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.util;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
-import com.sun.org.apache.xerces.internal.dom.AttrImpl;
-import com.sun.org.apache.xerces.internal.dom.DocumentImpl;
-import com.sun.org.apache.xerces.internal.impl.xs.opti.ElementImpl;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.AttrImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DocumentImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.opti.ElementImpl;
 import java.util.Map;
-import org.w3c.dom.Attr;
-import org.w3c.dom.DOMException;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
-import org.w3c.dom.ls.LSException;
+import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Some useful utility methods.

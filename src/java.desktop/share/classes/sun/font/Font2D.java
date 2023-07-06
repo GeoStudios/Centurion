@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.share.classes.sun.font;
+
 
 import java.awt.Font;
 import java.awt.font.FontRenderContext;
@@ -28,8 +29,22 @@ import java.lang.ref.Reference;
 import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class Font2D {
 

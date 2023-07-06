@@ -19,36 +19,49 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.io.IOException;
-import java.io.PrintStream;
-import java.io.PrintWriter;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.Reader;
-import java.io.Writer;
-import java.io.OutputStreamWriter;
-import java.io.BufferedWriter;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.StreamCorruptedException;
-import java.io.UnsupportedEncodingException;
-import java.nio.charset.Charset;
-import java.nio.charset.IllegalCharsetNameException;
-import java.nio.charset.UnsupportedCharsetException;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.function.BiConsumer;
-import java.util.function.BiFunction;
-import java.util.function.Function;
 
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.PrintStream;
+import java.base.share.classes.java.io.PrintWriter;
+import java.base.share.classes.java.io.InputStream;
+import java.base.share.classes.java.io.OutputStream;
+import java.base.share.classes.java.io.Reader;
+import java.base.share.classes.java.io.Writer;
+import java.base.share.classes.java.io.OutputStreamWriter;
+import java.base.share.classes.java.io.BufferedWriter;
+import java.base.share.classes.java.io.ObjectInputStream;
+import java.base.share.classes.java.io.ObjectOutputStream;
+import java.base.share.classes.java.io.StreamCorruptedException;
+import java.base.share.classes.java.io.UnsupportedEncodingException;
+import java.base.share.classes.java.nio.charset.Charset;
+import java.base.share.classes.java.nio.charset.IllegalCharsetNameException;
+import java.base.share.classes.java.nio.charset.UnsupportedCharsetException;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.function.BiConsumer;
+import java.base.share.classes.java.util.function.BiFunction;
+import java.base.share.classes.java.util.function.Function;
 import sun.nio.cs.ISO_8859_1;
 import sun.nio.cs.UTF_8;
-
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.misc.Unsafe;
-import jdk.internal.util.ArraysSupport;
+import jdk.internal.util.java.util.ArraysSupport;
 import jdk.internal.util.xml.PropertiesDefaultHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code Properties} class represents a persistent set of

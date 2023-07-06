@@ -18,16 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.share.jdi.sde;
+
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
-
 import nsk.share.Consts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Inserts in class file 'SourceDebugExtension' attribute based on input .SMAP file.

@@ -19,28 +19,46 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.StringReader;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.CoreDocumentImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers.DOMParser;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers.SAXParser;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSAnnotation;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSConstants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSNamespaceItem;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.impl.xs;
 
-import java.io.IOException;
-import java.io.StringReader;
 
-import com.sun.org.apache.xerces.internal.dom.CoreDocumentImpl;
-import com.sun.org.apache.xerces.internal.parsers.DOMParser;
-import com.sun.org.apache.xerces.internal.parsers.SAXParser;
-import com.sun.org.apache.xerces.internal.xs.XSAnnotation;
-import com.sun.org.apache.xerces.internal.xs.XSConstants;
-import com.sun.org.apache.xerces.internal.xs.XSNamespaceItem;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.xml.sax.ContentHandler;
-import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
+
 /**
  * This is an implementation of the XSAnnotation schema component.
  *

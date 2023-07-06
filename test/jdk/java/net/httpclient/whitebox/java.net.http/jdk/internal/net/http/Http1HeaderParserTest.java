@@ -21,14 +21,15 @@
 
 package jdk.internal.net.http;
 
+
 import java.io.ByteArrayInputStream;
 import java.net.ProtocolException;
 import java.nio.ByteBuffer;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -36,12 +37,25 @@ import java.util.stream.IntStream;
 import sun.net.www.MessageHeader;
 import org.testng.annotations.Test;
 import org.testng.annotations.DataProvider;
-import static java.lang.System.out;
-import static java.lang.String.format;
-import static java.nio.charset.StandardCharsets.ISO_8859_1;
-import static java.nio.charset.StandardCharsets.US_ASCII;
-import static java.util.stream.Collectors.toList;
-import static org.testng.Assert.*;
+import static java.lang.System.out;.extended
+import static java.lang.String.format;.extended
+import static java.nio.charset.StandardCharsets.ISO_8859_1;.extended
+import static java.nio.charset.StandardCharsets.US_ASCII;.extended
+import static java.util.stream.Collectors.tojava.util.java.util.java.util.List;.extended
+import static org.testng.Assert.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Mostly verifies the "new" Http1HeaderParser returns the same results as the
 // tried and tested sun.net.www.MessageHeader.

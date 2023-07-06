@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
-import java.security.*;
-import java.security.spec.*;
-import javax.crypto.*;
-import javax.crypto.spec.*;
+
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.java.security.spec.*;
+import java.base.share.classes.javax.crypto.*;
+import java.base.share.classes.javax.crypto.spec.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements a proprietary password-based encryption algorithm.

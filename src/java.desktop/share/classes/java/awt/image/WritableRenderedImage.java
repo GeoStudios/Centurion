@@ -19,8 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.image;
-import java.awt.Point;
+package java.desktop.share.classes.java.awt.image;
+
+
+import java.desktop.share.classes.java.awt.Point;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * WritableRenderedImage is a common interface for objects which

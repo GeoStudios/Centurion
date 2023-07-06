@@ -19,21 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jshell;
+package jdk.jshell.share.classes.jdk.jshell;
+
 
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.stream.Stream;
-import jdk.jshell.Key.TypeDeclKey;
-import jdk.jshell.Key.ErroneousKey;
-import jdk.jshell.Key.ExpressionKey;
-import jdk.jshell.Key.ImportKey;
-import jdk.jshell.Key.MethodKey;
-import jdk.jshell.Key.StatementKey;
-import jdk.jshell.Key.VarKey;
-import jdk.jshell.Snippet.SubKind;
-import static jdk.jshell.Snippet.SubKind.SINGLE_STATIC_IMPORT_SUBKIND;
-import static jdk.jshell.Snippet.SubKind.SINGLE_TYPE_IMPORT_SUBKIND;
+import jdk.jshell.share.classes.jdk.jshell.Key.TypeDeclKey;
+import jdk.jshell.share.classes.jdk.jshell.Key.ErroneousKey;
+import jdk.jshell.share.classes.jdk.jshell.Key.ExpressionKey;
+import jdk.jshell.share.classes.jdk.jshell.Key.ImportKey;
+import jdk.jshell.share.classes.jdk.jshell.Key.MethodKey;
+import jdk.jshell.share.classes.jdk.jshell.Key.StatementKey;
+import jdk.jshell.share.classes.jdk.jshell.Key.VarKey;
+import jdk.jshell.share.classes.jdk.jshell.Snippet.SubKind;
+import static jdk.jshell.share.classes.jdk.jshell.Snippet.SubKind.SINGLE_STATIC_IMPORT_SUBKIND;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Snippet.SubKind.SINGLE_TYPE_IMPORT_SUBKIND;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Maps signature to Key by Kind.

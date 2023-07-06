@@ -21,6 +21,7 @@
 
 package vm.runtime.defmeth.shared.builder;
 
+
 import nsk.share.Pair;
 import jdk.internal.org.objectweb.asm.Opcodes;
 import vm.runtime.defmeth.shared.Util;
@@ -35,10 +36,23 @@ import vm.runtime.defmeth.shared.data.method.result.IntResult;
 import vm.runtime.defmeth.shared.data.method.result.Result;
 import vm.runtime.defmeth.shared.data.method.result.ResultIgnore;
 import vm.runtime.defmeth.shared.data.method.result.ThrowExResult;
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
+import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
 import vm.runtime.defmeth.shared.data.Interface;
 import vm.runtime.defmeth.shared.data.method.body.CallMethod;
 import vm.runtime.defmeth.shared.data.method.body.CallMethod.Invoke;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Builder for data.Tester instances.

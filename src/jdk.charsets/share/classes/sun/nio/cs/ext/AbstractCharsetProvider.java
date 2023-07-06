@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.cs.ext;
+package jdk.charsets.share.classes.sun.nio.cs.ext;
+
 
 import java.lang.ref.SoftReference;
 import java.nio.charset.Charset;
 import java.nio.charset.spi.CharsetProvider;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.TreeMap;
 import java.util.Iterator;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

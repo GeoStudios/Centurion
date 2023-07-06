@@ -21,42 +21,53 @@
 
 package tck.java.time.temporal.serial;
 
-import static java.time.temporal.ChronoField.ALIGNED_DAY_OF_WEEK_IN_MONTH;
-import static java.time.temporal.ChronoField.ALIGNED_DAY_OF_WEEK_IN_YEAR;
-import static java.time.temporal.ChronoField.ALIGNED_WEEK_OF_MONTH;
-import static java.time.temporal.ChronoField.ALIGNED_WEEK_OF_YEAR;
-import static java.time.temporal.ChronoField.AMPM_OF_DAY;
-import static java.time.temporal.ChronoField.CLOCK_HOUR_OF_AMPM;
-import static java.time.temporal.ChronoField.CLOCK_HOUR_OF_DAY;
-import static java.time.temporal.ChronoField.DAY_OF_MONTH;
-import static java.time.temporal.ChronoField.DAY_OF_WEEK;
-import static java.time.temporal.ChronoField.DAY_OF_YEAR;
-import static java.time.temporal.ChronoField.EPOCH_DAY;
-import static java.time.temporal.ChronoField.HOUR_OF_AMPM;
-import static java.time.temporal.ChronoField.HOUR_OF_DAY;
-import static java.time.temporal.ChronoField.MICRO_OF_DAY;
-import static java.time.temporal.ChronoField.MICRO_OF_SECOND;
-import static java.time.temporal.ChronoField.MILLI_OF_DAY;
-import static java.time.temporal.ChronoField.MILLI_OF_SECOND;
-import static java.time.temporal.ChronoField.MINUTE_OF_DAY;
-import static java.time.temporal.ChronoField.MINUTE_OF_HOUR;
-import static java.time.temporal.ChronoField.MONTH_OF_YEAR;
-import static java.time.temporal.ChronoField.NANO_OF_DAY;
-import static java.time.temporal.ChronoField.NANO_OF_SECOND;
-import static java.time.temporal.ChronoField.PROLEPTIC_MONTH;
-import static java.time.temporal.ChronoField.SECOND_OF_DAY;
-import static java.time.temporal.ChronoField.SECOND_OF_MINUTE;
-import static java.time.temporal.ChronoField.YEAR;
-import static java.time.temporal.ChronoField.YEAR_OF_ERA;
-import static java.time.temporal.ChronoField.ERA;
 
-import java.io.IOException;
+import static java.time.temporal.ChronoField.ALIGNED_DAY_OF_WEEK_IN_MONTH;.extended
+import static java.time.temporal.ChronoField.ALIGNED_DAY_OF_WEEK_IN_YEAR;.extended
+import static java.time.temporal.ChronoField.ALIGNED_WEEK_OF_MONTH;.extended
+import static java.time.temporal.ChronoField.ALIGNED_WEEK_OF_YEAR;.extended
+import static java.time.temporal.ChronoField.AMPM_OF_DAY;.extended
+import static java.time.temporal.ChronoField.CLOCK_HOUR_OF_AMPM;.extended
+import static java.time.temporal.ChronoField.CLOCK_HOUR_OF_DAY;.extended
+import static java.time.temporal.ChronoField.DAY_OF_MONTH;.extended
+import static java.time.temporal.ChronoField.DAY_OF_WEEK;.extended
+import static java.time.temporal.ChronoField.DAY_OF_YEAR;.extended
+import static java.time.temporal.ChronoField.EPOCH_DAY;.extended
+import static java.time.temporal.ChronoField.HOUR_OF_AMPM;.extended
+import static java.time.temporal.ChronoField.HOUR_OF_DAY;.extended
+import static java.time.temporal.ChronoField.MICRO_OF_DAY;.extended
+import static java.time.temporal.ChronoField.MICRO_OF_SECOND;.extended
+import static java.time.temporal.ChronoField.MILLI_OF_DAY;.extended
+import static java.time.temporal.ChronoField.MILLI_OF_SECOND;.extended
+import static java.time.temporal.ChronoField.MINUTE_OF_DAY;.extended
+import static java.time.temporal.ChronoField.MINUTE_OF_HOUR;.extended
+import static java.time.temporal.ChronoField.MONTH_OF_YEAR;.extended
+import static java.time.temporal.ChronoField.NANO_OF_DAY;.extended
+import static java.time.temporal.ChronoField.NANO_OF_SECOND;.extended
+import static java.time.temporal.ChronoField.PROLEPTIC_MONTH;.extended
+import static java.time.temporal.ChronoField.SECOND_OF_DAY;.extended
+import static java.time.temporal.ChronoField.SECOND_OF_MINUTE;.extended
+import static java.time.temporal.ChronoField.YEAR;.extended
+import static java.time.temporal.ChronoField.YEAR_OF_ERA;.extended
+import static java.time.temporal.ChronoField.ERA;.extended
+import java.io.java.io.java.io.java.io.IOException;
 import java.time.temporal.ChronoField;
-
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import tck.java.time.AbstractTCKTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test serialization of ChronoField.

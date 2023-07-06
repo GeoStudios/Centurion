@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal.util;
+package java.security.jgss.share.classes.sun.security.krb5.internal.util;
 
-import java.io.IOException;
-import java.util.Arrays;
-import sun.security.krb5.internal.Krb5;
-import sun.security.util.BitArray;
-import sun.security.util.DerOutputStream;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.util.Arrays;
+import java.security.jgss.share.classes.sun.security.krb5.internal.Krb5;
+import java.security.jgss.share.classes.sun.security.util.BitArray;
+import java.security.jgss.share.classes.sun.security.util.DerOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A wrapper class around sun.security.util.BitArray, so that KDCOptions,

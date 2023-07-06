@@ -21,11 +21,12 @@
 
 package toolbox;
 
+
 import java.io.BufferedWriter;
 import java.io.ByteArrayOutputStream;
 import java.io.FilterOutputStream;
 import java.io.FilterWriter;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.PrintStream;
 import java.io.StringWriter;
@@ -41,24 +42,23 @@ import java.nio.file.Paths;
 import java.nio.file.SimpleFileVisitor;
 import java.nio.file.StandardCopyOption;
 import java.nio.file.attribute.BasicFileAttributes;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Deque;
 import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Locale;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
 import java.util.TreeSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
-
 import javax.tools.FileObject;
 import javax.tools.ForwardingJavaFileManager;
 import javax.tools.JavaFileManager;
@@ -67,6 +67,19 @@ import javax.tools.JavaFileObject.Kind;
 import javax.tools.JavaFileManager.Location;
 import javax.tools.SimpleJavaFileObject;
 import javax.tools.ToolProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility methods and classes for writing jtreg tests for

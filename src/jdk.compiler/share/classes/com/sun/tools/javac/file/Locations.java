@@ -19,14 +19,15 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.file;
+package jdk.compiler.share.classes.com.sun.tools.javac.file;
+
 
 import java.io.Closeable;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
-import java.io.UncheckedIOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.net.URI;
 import java.net.URL;
 import java.net.URLClassLoader;
@@ -41,8 +42,8 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.ProviderNotFoundException;
 import java.nio.file.spi.FileSystemProvider;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.EnumMap;
@@ -52,9 +53,9 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.NoSuchElementException;
 import java.util.Set;
 import java.util.function.Predicate;
@@ -64,7 +65,6 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import java.util.jar.Attributes;
 import java.util.jar.Manifest;
-
 import javax.lang.model.SourceVersion;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileManager.Location;
@@ -72,32 +72,42 @@ import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.StandardJavaFileManager.PathFactory;
 import javax.tools.StandardLocation;
-
 import jdk.internal.jmod.JmodFile;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Lint;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Lint.LintCategory;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Option;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Warnings;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Warning;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.ListBuffer;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.ModuleNameReader;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Iterators;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Pair;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.StringUtils;
+import static javax.tools.StandardLocation.SYSTEM_MODULES;.extended
+import static javax.tools.StandardLocation.PLATFORM_CLASS_PATH;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.BOOT_CLASS_PATH;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.ENDORSEDDIRS;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.EXTDIRS;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.XBOOTCLASSPATH_APPEND;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.XBOOTCLASSPATH_PREPEND;.extended
 
-import com.sun.tools.javac.code.Lint;
-import com.sun.tools.javac.code.Lint.LintCategory;
-import com.sun.tools.javac.main.Option;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.resources.CompilerProperties.Warnings;
-import com.sun.tools.javac.util.DefinedBy;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.JCDiagnostic.Warning;
-import com.sun.tools.javac.util.ListBuffer;
-import com.sun.tools.javac.util.Log;
-import com.sun.tools.javac.jvm.ModuleNameReader;
-import com.sun.tools.javac.util.Iterators;
-import com.sun.tools.javac.util.Pair;
-import com.sun.tools.javac.util.StringUtils;
 
-import static javax.tools.StandardLocation.SYSTEM_MODULES;
-import static javax.tools.StandardLocation.PLATFORM_CLASS_PATH;
 
-import static com.sun.tools.javac.main.Option.BOOT_CLASS_PATH;
-import static com.sun.tools.javac.main.Option.ENDORSEDDIRS;
-import static com.sun.tools.javac.main.Option.EXTDIRS;
-import static com.sun.tools.javac.main.Option.XBOOTCLASSPATH_APPEND;
-import static com.sun.tools.javac.main.Option.XBOOTCLASSPATH_PREPEND;
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class converts command line arguments, environment variables and system properties (in

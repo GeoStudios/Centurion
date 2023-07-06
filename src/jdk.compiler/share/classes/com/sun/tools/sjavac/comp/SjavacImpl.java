@@ -19,40 +19,53 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac.comp;
+package jdk.compiler.share.classes.com.sun.tools.sjavac.comp;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.stream.Stream;
-
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.main.Main;
-import com.sun.tools.javac.main.Main.Result;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.sjavac.JavacState;
-import com.sun.tools.sjavac.Log;
-import com.sun.tools.sjavac.Module;
-import com.sun.tools.sjavac.ProblemException;
-import com.sun.tools.sjavac.Source;
-import com.sun.tools.sjavac.Transformer;
-import com.sun.tools.sjavac.Util;
-import com.sun.tools.sjavac.options.Option;
-import com.sun.tools.sjavac.options.Options;
-import com.sun.tools.sjavac.options.SourceLocation;
-import com.sun.tools.sjavac.server.Sjavac;
-import java.io.UncheckedIOException;
-
+import jdk.compiler.share.classes.com.sun.tools.javac.file.JavacFileManager;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Main;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Main.Result;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.JavacState;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.Log;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.Module;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.ProblemException;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.Source;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.Transformer;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.Util;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.options.Option;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.options.Options;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.options.SourceLocation;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.server.Sjavac;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import javax.tools.JavaFileManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The sjavac implementation that interacts with javac and performs the actual

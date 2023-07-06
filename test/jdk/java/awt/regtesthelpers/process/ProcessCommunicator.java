@@ -21,7 +21,21 @@
 
 package test.java.awt.regtesthelpers.process;
 
+
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  This class is created to solve interprocess communication problems.

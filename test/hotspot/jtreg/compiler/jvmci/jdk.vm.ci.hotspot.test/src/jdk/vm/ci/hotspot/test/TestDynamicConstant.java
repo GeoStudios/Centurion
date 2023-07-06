@@ -19,6 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.vm.ci.hotspot.test;
+
+
+import java.io.File;
+import java.io.java.io.java.io.java.io.IOException;
+import java.lang.invoke.ConstantBootstraps;
+import java.lang.invoke.MethodHandles;
+import java.lang.reflect.Method;
+import java.nio.file.Files;
+import java.util.java.util.java.util.java.util.List;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import jdk.internal.org.objectweb.asm.ClassWriter;
+import jdk.internal.org.objectweb.asm.ConstantDynamic;
+import jdk.internal.org.objectweb.asm.Handle;
+import jdk.internal.org.objectweb.asm.MethodVisitor;
+import jdk.internal.org.objectweb.asm.Opcodes;
+import jdk.internal.org.objectweb.asm.Type;
+import jdk.vm.ci.hotspot.HotSpotObjectConstant;
+import jdk.vm.ci.meta.ConstantPool;
+import jdk.vm.ci.meta.MetaAccessProvider;
+import jdk.vm.ci.meta.PrimitiveConstant;
+import jdk.vm.ci.meta.ResolvedJavaMethod;
+import jdk.vm.ci.runtime.JVMCI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @requires vm.jvmci
@@ -32,31 +70,9 @@
  *      jdk.vm.ci.hotspot.test.TestDynamicConstant
  */
 
-package jdk.vm.ci.hotspot.test;
 
-import java.io.File;
-import java.io.IOException;
-import java.lang.invoke.ConstantBootstraps;
-import java.lang.invoke.MethodHandles;
-import java.lang.reflect.Method;
-import java.nio.file.Files;
-import java.util.List;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
 
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.org.objectweb.asm.ConstantDynamic;
-import jdk.internal.org.objectweb.asm.Handle;
-import jdk.internal.org.objectweb.asm.MethodVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.Type;
-import jdk.vm.ci.hotspot.HotSpotObjectConstant;
-import jdk.vm.ci.meta.ConstantPool;
-import jdk.vm.ci.meta.MetaAccessProvider;
-import jdk.vm.ci.meta.PrimitiveConstant;
-import jdk.vm.ci.meta.ResolvedJavaMethod;
-import jdk.vm.ci.runtime.JVMCI;
 
 /**
  * Tests support for Dynamic constants.

@@ -21,6 +21,23 @@
 
 package gc.metaspace;
 
+
+import sun.hotspot.WhiteBox;
+import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8049831
@@ -33,9 +50,7 @@ package gc.metaspace;
  * @run main/othervm -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI gc.metaspace.TestCapacityUntilGCWrapAround
  */
 
-import sun.hotspot.WhiteBox;
 
-import jdk.test.lib.Asserts;
 
 public class TestCapacityUntilGCWrapAround {
     private static long MB = 1024 * 1024;

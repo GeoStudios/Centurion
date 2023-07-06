@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codecache;
+
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.Platform;
+import jdk.test.lib.process.ProcessTools;
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test CheckSegmentedCodeCache
  * @bug 8015774
@@ -33,12 +54,7 @@
  *                   compiler.codecache.CheckSegmentedCodeCache
  */
 
-package compiler.codecache;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.Platform;
-import jdk.test.lib.process.ProcessTools;
-import sun.hotspot.WhiteBox;
 
 public class CheckSegmentedCodeCache {
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();

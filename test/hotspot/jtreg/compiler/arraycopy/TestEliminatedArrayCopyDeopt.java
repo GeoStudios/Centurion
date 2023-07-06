@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.arraycopy;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8130847 8156760
@@ -35,7 +52,6 @@
 // on a deoptimization, when the object/array is reallocated, it is
 // correctly initialized
 
-package compiler.arraycopy;
 
 public class TestEliminatedArrayCopyDeopt {
 

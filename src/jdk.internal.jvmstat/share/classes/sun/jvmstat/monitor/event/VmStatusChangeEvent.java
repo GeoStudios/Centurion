@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvmstat.monitor.event;
+package jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.event;
+
 
 import java.util.Set;
-import sun.jvmstat.monitor.MonitoredHost;
+import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.MonitoredHost;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides a description of a change in status of the Java Virtual Machines

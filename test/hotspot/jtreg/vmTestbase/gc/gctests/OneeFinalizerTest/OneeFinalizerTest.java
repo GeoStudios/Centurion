@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.OneeFinalizerTest;
+
+
+import nsk.share.TestFailure;
+import nsk.share.gc.GC;
+import nsk.share.gc.GCTestBase;
+import nsk.share.gc.gp.GarbageUtils;
+import nsk.share.test.Stresser;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -40,13 +62,7 @@
  *      gc.gctests.OneeFinalizerTest.OneeFinalizerTest
  */
 
-package gc.gctests.OneeFinalizerTest;
 
-import nsk.share.TestFailure;
-import nsk.share.gc.GC;
-import nsk.share.gc.GCTestBase;
-import nsk.share.gc.gp.GarbageUtils;
-import nsk.share.test.Stresser;
 
 /**
  * Test that verifies that finalize() method is invoking only once.

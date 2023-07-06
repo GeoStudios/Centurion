@@ -21,6 +21,7 @@
 
 package org.openjdk.bench.jdk.incubator.foreign;
 
+
 import jdk.incubator.foreign.CLinker;
 import jdk.incubator.foreign.FunctionDescriptor;
 import jdk.incubator.foreign.MemoryAccess;
@@ -39,12 +40,23 @@ import org.openjdk.jmh.annotations.Mode;
 import org.openjdk.jmh.annotations.OutputTimeUnit;
 import org.openjdk.jmh.annotations.State;
 import org.openjdk.jmh.annotations.Warmup;
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodType;
 import java.util.concurrent.TimeUnit;
+import static jdk.incubator.foreign.CLinker.*;.extended
 
-import static jdk.incubator.foreign.CLinker.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 @BenchmarkMode(Mode.AverageTime)
 @Warmup(iterations = 5, time = 500, timeUnit = TimeUnit.MILLISECONDS)

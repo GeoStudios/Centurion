@@ -18,9 +18,11 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.jrtfs;
 
-import java.io.IOException;
+package java.base.share.classes.jdk.internal.jrtfs;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.nio.file.Files;
@@ -32,9 +34,22 @@ import java.nio.file.Paths;
 import java.security.AccessController;
 import java.security.CodeSource;
 import java.security.PrivilegedAction;
+import java.base.share.classes.jdk.internal.jimage.ImageReader;
+import java.base.share.classes.jdk.internal.jimage.ImageReader.Node;
 
-import jdk.internal.jimage.ImageReader;
-import jdk.internal.jimage.ImageReader.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @implNote This class needs to maintain JDK 8 source compatibility.

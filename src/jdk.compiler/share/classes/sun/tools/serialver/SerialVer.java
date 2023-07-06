@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.serialver;
+package jdk.compiler.share.classes.sun.tools.serialver;
+
 
 import java.io.*;
 import java.io.ObjectStreamClass;
@@ -30,6 +31,20 @@ import java.util.MissingResourceException;
 import java.net.URLClassLoader;
 import java.net.URL;
 import java.net.MalformedURLException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Supporting class for the serialver tool.

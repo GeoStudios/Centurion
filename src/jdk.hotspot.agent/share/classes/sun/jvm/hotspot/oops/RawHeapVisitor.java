@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.oops;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
-import sun.jvm.hotspot.runtime.AddressVisitor;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.AddressVisitor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface RawHeapVisitor extends AddressVisitor {
   /** This is called at the beginning of the iteration to provide the

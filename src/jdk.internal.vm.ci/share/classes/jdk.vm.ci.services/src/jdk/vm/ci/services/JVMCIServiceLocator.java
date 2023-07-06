@@ -18,13 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.services;
 
-import static jdk.vm.ci.services.Services.IS_BUILDING_NATIVE_IMAGE;
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.services.src.jdk.vm.ci.services;
 
-import java.util.ArrayList;
-import java.util.List;
+
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.services.src.jdk.vm.ci.services.Services.IS_BUILDING_NATIVE_IMAGE;.extended
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.ServiceLoader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Service-provider class for the runtime to locate providers of JVMCI services where the latter are

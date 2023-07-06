@@ -19,17 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * A Simple ListeningConnector used by
- * nsk/jdi/PlugConnectors/ListenConnector/plugListenConnect001 test
- */
-
 package nsk.jdi.PlugConnectors.ListenConnector.plugListenConnect001.connectors;
+
 
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * A Simple ListeningConnector used by
+ * nsk/jdi/PlugConnectors/ListenConnector/plugListenConnect001 test
+ */
+
+
 
 public class PlugListenConnector001 extends PlugConnectors implements ListeningConnector {
 

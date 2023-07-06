@@ -19,6 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serialize;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.OutputStream;
+import java.io.Writer;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.NamespaceSupport;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XML11Char;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMError;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Sep 14, 2000:
 //  Fixed problem with namespace handling. Contributed by
 //  David Blondeau <blondeau@intalio.com>
@@ -32,20 +61,9 @@
 // Aug 21, 2000:
 //  Added ability to omit DOCTYPE declaration.
 
-package com.sun.org.apache.xml.internal.serialize;
 
-import java.io.IOException;
-import java.io.OutputStream;
-import java.io.Writer;
 
-import com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
-import com.sun.org.apache.xerces.internal.util.NamespaceSupport;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
-import com.sun.org.apache.xerces.internal.util.XML11Char;
-import com.sun.org.apache.xerces.internal.util.XMLChar;
-import org.w3c.dom.DOMError;
-import org.w3c.dom.Document;
-import org.xml.sax.SAXException;
+
 
 /**
  * Implements an XML serializer supporting both DOM and SAX pretty

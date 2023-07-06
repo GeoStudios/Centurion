@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdeprscan.scan;
+package jdk.jdeps.share.classes.com.sun.tools.jdeprscan.scan;
 
-import com.sun.tools.classfile.ConstantPool;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_Dynamic_info;
+
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.CONSTANT_Dynamic_info;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A visitor that selects constant pool entries by type and adds

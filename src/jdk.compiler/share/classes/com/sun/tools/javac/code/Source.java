@@ -19,21 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.code;
+package jdk.compiler.share.classes.com.sun.tools.javac.code;
+
 
 import java.util.*;
-
 import javax.lang.model.SourceVersion;
-import static javax.lang.model.SourceVersion.*;
+import static javax.lang.model.SourceVersion.*;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.Target;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Error;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Fragment;
+import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.*;.extended
 
-import com.sun.tools.javac.jvm.Target;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.resources.CompilerProperties.Fragments;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.JCDiagnostic.Error;
-import com.sun.tools.javac.util.JCDiagnostic.Fragment;
 
-import static com.sun.tools.javac.main.Option.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** The source language version accepted.
  *

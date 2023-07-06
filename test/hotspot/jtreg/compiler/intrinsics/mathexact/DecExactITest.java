@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.mathexact;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8026844
@@ -30,7 +47,6 @@
  * @run main compiler.intrinsics.mathexact.DecExactITest
  */
 
-package compiler.intrinsics.mathexact;
 
 public class DecExactITest {
     public static int[] values = {1, 1, 1, 1};

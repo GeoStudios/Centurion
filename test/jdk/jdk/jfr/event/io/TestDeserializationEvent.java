@@ -21,15 +21,16 @@
 
 package jdk.jfr.event.io;
 
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InvalidClassException;
 import java.io.ObjectInputFilter.Status;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.util.function.Consumer;
 import jdk.jfr.Recording;
@@ -40,8 +41,21 @@ import jdk.test.lib.jfr.Events;
 import jdk.test.lib.serial.SerialObjectBuilder;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import static java.lang.System.out;
-import static org.testng.Assert.*;
+import static java.lang.System.out;.extended
+import static org.testng.Assert.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

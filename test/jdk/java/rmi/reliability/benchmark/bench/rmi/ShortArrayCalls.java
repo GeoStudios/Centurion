@@ -19,16 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- *
- */
-
 package bench.rmi;
+
 
 import bench.Benchmark;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ *
+ */
+
+
 
 /**
  * Benchmark for testing speed of calls with short array arguments and

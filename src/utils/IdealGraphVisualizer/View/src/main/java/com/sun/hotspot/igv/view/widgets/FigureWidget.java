@@ -18,28 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.view.widgets;
 
-import com.sun.hotspot.igv.data.InputGraph;
-import com.sun.hotspot.igv.data.Properties;
-import com.sun.hotspot.igv.data.services.GraphViewer;
-import com.sun.hotspot.igv.graph.Figure;
-import com.sun.hotspot.igv.util.DoubleClickAction;
-import com.sun.hotspot.igv.util.DoubleClickHandler;
-import com.sun.hotspot.igv.util.PropertiesSheet;
-import com.sun.hotspot.igv.view.DiagramScene;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Set;
+package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.widgets;
+
+
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.InputGraph;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.Properties;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.services.GraphViewer;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.graph.Figure;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.util.DoubleClickAction;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.util.DoubleClickHandler;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.util.PropertiesSheet;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.DiagramScene;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.*;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.event.ActionEvent;
+import utils.IdealGraphVisualizer.View.src.main.java.util.Arrayjava.util.java.util.java.util.List;
+import utils.IdealGraphVisualizer.View.src.main.java.util.HashSet;
+import utils.IdealGraphVisualizer.View.src.main.java.util.Set;
 import javax.swing.AbstractAction;
 import javax.swing.Action;
 import javax.swing.BorderFactory;
 import javax.swing.JMenu;
 import javax.swing.JPopupMenu;
 import javax.swing.event.MenuEvent;
-import javax.swing.event.MenuListener;
+import javax.swing.event.Menujava.util.Listener;
 import org.netbeans.api.visual.action.PopupMenuProvider;
 import org.netbeans.api.visual.action.WidgetAction;
 import org.netbeans.api.visual.layout.LayoutFactory;
@@ -51,6 +53,20 @@ import org.openide.nodes.Children;
 import org.openide.nodes.Node;
 import org.openide.nodes.Sheet;
 import org.openide.util.Lookup;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

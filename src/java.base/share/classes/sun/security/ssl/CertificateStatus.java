@@ -19,20 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.text.MessageFormat;
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import javax.net.ssl.SSLHandshakeException;
 import java.security.cert.X509Certificate;
-import sun.security.provider.certpath.OCSPResponse;
-import sun.security.ssl.SSLHandshake.HandshakeMessage;
-import static sun.security.ssl.CertStatusExtension.*;
-import static sun.security.ssl.CertificateMessage.*;
+import java.base.share.classes.sun.security.provider.certpath.OCSPResponse;
+import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
+import static java.base.share.classes.sun.security.ssl.CertStatusExtension.*;.extended
+import static java.base.share.classes.sun.security.ssl.CertificateMessage.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Consumers and producers for the CertificateStatus handshake message.

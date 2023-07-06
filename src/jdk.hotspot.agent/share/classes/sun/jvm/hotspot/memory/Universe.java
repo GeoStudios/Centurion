@@ -19,30 +19,43 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.memory;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.memory;
+
 
 import java.io.PrintStream;
-import sun.jvm.hotspot.utilities.Observable;
-import sun.jvm.hotspot.utilities.Observer;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Address;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.OopHandle;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.epsilon.EpsilonHeap;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.g1.G1CollectedHeap;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.parallel.ParallelScavengeHeap;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.serial.SerialHeap;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared.CollectedHeap;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shenandoah.ShenandoahHeap;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.z.ZCollectedHeap;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.Oop;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.BasicType;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VM;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VMObject;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VirtualConstructor;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.AddressField;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.CIntegerField;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.Type;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.TypeDataBase;
 
-import sun.jvm.hotspot.debugger.Address;
-import sun.jvm.hotspot.debugger.OopHandle;
-import sun.jvm.hotspot.gc.epsilon.EpsilonHeap;
-import sun.jvm.hotspot.gc.g1.G1CollectedHeap;
-import sun.jvm.hotspot.gc.parallel.ParallelScavengeHeap;
-import sun.jvm.hotspot.gc.serial.SerialHeap;
-import sun.jvm.hotspot.gc.shared.CollectedHeap;
-import sun.jvm.hotspot.gc.shenandoah.ShenandoahHeap;
-import sun.jvm.hotspot.gc.z.ZCollectedHeap;
-import sun.jvm.hotspot.oops.Oop;
-import sun.jvm.hotspot.runtime.BasicType;
-import sun.jvm.hotspot.runtime.VM;
-import sun.jvm.hotspot.runtime.VMObject;
-import sun.jvm.hotspot.runtime.VirtualConstructor;
-import sun.jvm.hotspot.types.AddressField;
-import sun.jvm.hotspot.types.CIntegerField;
-import sun.jvm.hotspot.types.Type;
-import sun.jvm.hotspot.types.TypeDataBase;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class Universe {

@@ -19,19 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-import com.sun.jdi.ClassNotPreparedException;
-import com.sun.jdi.InconsistentDebugInfoException;
-import com.sun.jdi.ObjectCollectedException;
-import com.sun.jdi.VMDisconnectedException;
-import com.sun.jdi.VMOutOfMemoryException;
-import com.sun.jdi.VirtualMachine;
-import com.sun.jdi.event.ClassPrepareEvent;
-import com.sun.jdi.event.ClassUnloadEvent;
-import com.sun.jdi.event.Event;
-import com.sun.jdi.event.EventIterator;
-import com.sun.jdi.event.EventSet;
+
+import jdk.jdi.share.classes.com.sun.jdi.ClassNotPreparedException;
+import jdk.jdi.share.classes.com.sun.jdi.InconsistentDebugInfoException;
+import jdk.jdi.share.classes.com.sun.jdi.ObjectCollectedException;
+import jdk.jdi.share.classes.com.sun.jdi.VMDisconnectedException;
+import jdk.jdi.share.classes.com.sun.jdi.VMOutOfMemoryException;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+import jdk.jdi.share.classes.com.sun.jdi.event.ClassPrepareEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.ClassUnloadEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.Event;
+import jdk.jdi.share.classes.com.sun.jdi.event.EventIterator;
+import jdk.jdi.share.classes.com.sun.jdi.event.EventSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class InternalEventHandler implements Runnable
 {

@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.monitoring.CompilationMXBean.comptimemon001;
+
+
+import java.io.*;
+import nsk.share.test.*;
+import nsk.share.TestFailure;
+import nsk.monitoring.share.*;
+import java.lang.management.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
@@ -47,13 +67,7 @@
  * @run main/othervm/timeout=300 nsk.monitoring.CompilationMXBean.comptimemon001.comptimemon001
  */
 
-package nsk.monitoring.CompilationMXBean.comptimemon001;
 
-import java.io.*;
-import nsk.share.test.*;
-import nsk.share.TestFailure;
-import nsk.monitoring.share.*;
-import java.lang.management.*;
 
 public class comptimemon001 extends MonitoringTestBase implements Initializable {
         private CompilationMXBean compilation;

@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
 
 import java.awt.event.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class representing Cocoa NSEvent class with the fields only necessary for

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codegen;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8260716
@@ -26,7 +43,6 @@
  * @run main/othervm -Xbatch -XX:CompileCommand=compileonly,*ClearArrayTest.test -XX:+UnlockDiagnosticVMOptions -XX:-IdealizeClearArrayNode compiler.codegen.ClearArrayTest
  */
 
-package compiler.codegen;
 
 public class ClearArrayTest {
     static int[] f1;

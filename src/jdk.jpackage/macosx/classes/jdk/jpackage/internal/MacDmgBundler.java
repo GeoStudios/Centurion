@@ -19,11 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jpackage.internal;
+package jdk.jpackage.macosx.classes.jdk.jpackage.internal;
+
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -31,17 +32,30 @@ import java.text.MessageFormat;
 import java.util.Base64;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.ResourceBundle;
-import static jdk.jpackage.internal.MacAppImageBuilder.ICON_ICNS;
-import static jdk.jpackage.internal.MacAppImageBuilder.MAC_CF_BUNDLE_IDENTIFIER;
-import static jdk.jpackage.internal.OverridableResource.createResource;
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.MacAppImageBuilder.ICON_ICNS;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.MacAppImageBuilder.MAC_CF_BUNDLE_IDENTIFIER;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.OverridableResource.createResource;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.APP_NAME;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.CONFIG_ROOT;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.LICENSE_FILE;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.TEMP_ROOT;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.VERBOSE;.extended
 
-import static jdk.jpackage.internal.StandardBundlerParam.APP_NAME;
-import static jdk.jpackage.internal.StandardBundlerParam.CONFIG_ROOT;
-import static jdk.jpackage.internal.StandardBundlerParam.LICENSE_FILE;
-import static jdk.jpackage.internal.StandardBundlerParam.TEMP_ROOT;
-import static jdk.jpackage.internal.StandardBundlerParam.VERBOSE;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MacDmgBundler extends MacBaseInstallerBundler {
 

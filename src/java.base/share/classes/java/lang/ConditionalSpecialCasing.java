@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.text.BreakIterator;
-import java.util.HashSet;
-import java.util.Hashtable;
-import java.util.Iterator;
-import java.util.Locale;
+
+import java.base.share.classes.java.text.BreakIterator;
+import java.base.share.classes.java.util.HashSet;
+import java.base.share.classes.java.util.Hashtable;
+import java.base.share.classes.java.util.Iterator;
+import java.base.share.classes.java.util.Locale;
 import sun.text.Normalizer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

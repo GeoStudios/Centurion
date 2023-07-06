@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.dnd;
+package java.desktop.share.classes.sun.awt.dnd;
+
 
 import java.awt.Component;
 import java.awt.event.MouseEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // JDK-implementation class
 public final class SunDropTargetEvent extends MouseEvent {

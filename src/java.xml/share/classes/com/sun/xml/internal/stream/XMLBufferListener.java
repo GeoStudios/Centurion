@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.xml.internal.stream;
+package java.xml.share.classes.com.sun.xml.internal.stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * XMLBufferListerner should be implemented by classes which wish to receive

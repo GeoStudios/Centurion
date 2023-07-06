@@ -21,13 +21,14 @@
 
 package jdk.test.lib;
 
+
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.Inet6Address;
 import java.net.InetAddress;
-import java.net.InetSocketAddress;
+import java.net.Inetjava.net.SocketAddress;
 import java.net.MalformedURLException;
-import java.net.ServerSocket;
+import java.net.java.net.java.net.Serverjava.net.java.net.Socket;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.net.UnknownHostException;
@@ -37,20 +38,20 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.attribute.FileAttribute;
-import java.nio.channels.SocketChannel;
+import java.nio.channels.java.net.SocketChannel;
 import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HexFormat;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Objects;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.Random;
 import java.util.function.BooleanSupplier;
 import java.util.concurrent.TimeUnit;
@@ -58,10 +59,22 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import static jdk.test.lib.Asserts.assertTrue;
+import static jdk.test.lib.Asserts.assertTrue;.extended
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.process.OutputAnalyzer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Common library for various test helper functions.

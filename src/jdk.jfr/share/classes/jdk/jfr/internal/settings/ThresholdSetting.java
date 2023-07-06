@@ -19,19 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.settings;
+package jdk.jfr.share.classes.jdk.jfr.internal.settings;
 
-import java.util.Objects;
+
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
+import jdk.jfr.share.classes.jdk.jfr.Description;
+import jdk.jfr.share.classes.jdk.jfr.Label;
+import jdk.jfr.share.classes.jdk.jfr.MetadataDefinition;
+import jdk.jfr.share.classes.jdk.jfr.Name;
+import jdk.jfr.share.classes.jdk.jfr.Timespan;
+import jdk.jfr.share.classes.jdk.jfr.internal.PlatformEventType;
+import jdk.jfr.share.classes.jdk.jfr.internal.Type;
+import jdk.jfr.share.classes.jdk.jfr.internal.Utils;
 
-import jdk.jfr.Description;
-import jdk.jfr.Label;
-import jdk.jfr.MetadataDefinition;
-import jdk.jfr.Name;
-import jdk.jfr.Timespan;
-import jdk.jfr.internal.PlatformEventType;
-import jdk.jfr.internal.Type;
-import jdk.jfr.internal.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @MetadataDefinition
 @Label("Threshold")
 @Name(Type.SETTINGS_PREFIX + "Threshold")

@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-// this interface will be loaded and then unloaded
 package nsk.jdi.ClassUnloadEvent.classSignature;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// this interface will be loaded and then unloaded
 
 public interface signature001b {}

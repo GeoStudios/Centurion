@@ -19,23 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
+
 
 import jdk.internal.vm.annotation.Stable;
 import sun.invoke.util.ValueConversions;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType;.extended
+import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType.*;.extended
+import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType.V_TYPE_NUM;.extended
+import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType.V_TYPE_NUM;.extended
+import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType.V_TYPE_NUM;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newInternalError;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.uncaughtException;.extended
 
-import java.util.ArrayList;
-import java.util.List;
 
-import static java.lang.invoke.LambdaForm.BasicType;
-import static java.lang.invoke.LambdaForm.BasicType.*;
-import static java.lang.invoke.LambdaForm.BasicType.V_TYPE_NUM;
-import static java.lang.invoke.LambdaForm.BasicType.V_TYPE_NUM;
-import static java.lang.invoke.LambdaForm.BasicType.V_TYPE_NUM;
-import static java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
-import static java.lang.invoke.MethodHandleNatives.Constants.*;
-import static java.lang.invoke.MethodHandleStatics.newInternalError;
-import static java.lang.invoke.MethodHandleStatics.uncaughtException;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The flavor of method handle which emulates an invoke instruction
@@ -63,9 +76,9 @@ abstract class BoundMethodHandle extends MethodHandle {
             return switch (xtype) {
                 case L_TYPE -> bindSingle(type, form, x);  // Use known fast path.
                 case I_TYPE -> (BoundMethodHandle) SPECIALIZER.topSpecies().extendWith(I_TYPE_NUM).factory().invokeBasic(type, form, ValueConversions.widenSubword(x));
-                case J_TYPE -> (BoundMethodHandle) SPECIALIZER.topSpecies().extendWith(J_TYPE_NUM).factory().invokeBasic(type, form, (long) x);
-                case F_TYPE -> (BoundMethodHandle) SPECIALIZER.topSpecies().extendWith(F_TYPE_NUM).factory().invokeBasic(type, form, (float) x);
-                case D_TYPE -> (BoundMethodHandle) SPECIALIZER.topSpecies().extendWith(D_TYPE_NUM).factory().invokeBasic(type, form, (double) x);
+                case J_TYPE -> (BoundMethodHandle) SPECIALIZER.topSpecies().extendWith(J_TYPE_NUM).factory().invokeBasic(type, form, x);
+                case F_TYPE -> (BoundMethodHandle) SPECIALIZER.topSpecies().extendWith(F_TYPE_NUM).factory().invokeBasic(type, form, x);
+                case D_TYPE -> (BoundMethodHandle) SPECIALIZER.topSpecies().extendWith(D_TYPE_NUM).factory().invokeBasic(type, form, x);
                 default -> throw newInternalError("unexpected xtype: " + xtype);
             };
         } catch (Throwable t) {
@@ -177,10 +190,10 @@ abstract class BoundMethodHandle extends MethodHandle {
             Class<?> fieldType = speciesData().fieldTypes().get(i);
             switch (BasicType.basicType(fieldType)) {
                 case L_TYPE: return          speciesData().getter(i).invokeBasic(this);
-                case I_TYPE: return (int)    speciesData().getter(i).invokeBasic(this);
-                case J_TYPE: return (long)   speciesData().getter(i).invokeBasic(this);
-                case F_TYPE: return (float)  speciesData().getter(i).invokeBasic(this);
-                case D_TYPE: return (double) speciesData().getter(i).invokeBasic(this);
+                case I_TYPE: return speciesData().getter(i).invokeBasic(this);
+                case J_TYPE: return speciesData().getter(i).invokeBasic(this);
+                case F_TYPE: return speciesData().getter(i).invokeBasic(this);
+                case D_TYPE: return speciesData().getter(i).invokeBasic(this);
             }
         } catch (Throwable ex) {
             throw uncaughtException(ex);

@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.cmm;
+package java.desktop.share.classes.sun.java2d.cmm;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class to pass information about a profile to be loaded from a file to the

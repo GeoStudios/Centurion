@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.consumer;
+package jdk.jfr.share.classes.jdk.jfr.internal.consumer;
+
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.StringJoiner;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class ParserFilter {
     public static final ParserFilter ACCEPT_ALL = new ParserFilter(true, Map.of());

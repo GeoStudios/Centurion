@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6832293
@@ -29,9 +47,7 @@
  *      compiler.c2.Test6832293
  */
 
-package compiler.c2;
 
-import java.io.PrintStream;
 
 public class Test6832293 {
     static interface SomeInterface {

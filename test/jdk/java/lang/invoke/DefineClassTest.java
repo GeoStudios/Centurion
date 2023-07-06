@@ -19,6 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test;
+
+
+import java.lang.invoke.MethodHandles.Lookup;
+import static java.lang.invoke.MethodHandles.*;.extended
+import static java.lang.invoke.MethodHandles.Lookup.*;.extended
+import java.net.URL;
+import java.net.URLClassLoader;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import jdk.internal.org.objectweb.asm.ClassWriter;
+import jdk.internal.org.objectweb.asm.MethodVisitor;
+import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
+import org.testng.annotations.Test;
+import static org.testng.Assert.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @modules java.base/java.lang:open
  *          java.base/jdk.internal.org.objectweb.asm
@@ -26,23 +56,9 @@
  * @summary Basic test for java.lang.invoke.MethodHandles.Lookup.defineClass
  */
 
-package test;
 
-import java.lang.invoke.MethodHandles.Lookup;
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodHandles.Lookup.*;
-import java.net.URL;
-import java.net.URLClassLoader;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.org.objectweb.asm.MethodVisitor;
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
 
-import org.testng.annotations.Test;
-import static org.testng.Assert.*;
 
 public class DefineClassTest {
     private static final String THIS_PACKAGE = DefineClassTest.class.getPackageName();

@@ -19,18 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package org.jcp.xml.dsig.internal.dom;
+package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
+
 
 import javax.xml.crypto.MarshalException;
 import javax.xml.crypto.XMLStructure;
 import javax.xml.crypto.dom.DOMCryptoContext;
-import org.w3c.dom.Node;
+import java.xml.crypto.share.classes.org.w3c.dom.Node;
+import java.util.java.util.java.util.java.util.List;
 
-import java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
 
 /**
  * DOM-based abstract implementation of XMLStructure.

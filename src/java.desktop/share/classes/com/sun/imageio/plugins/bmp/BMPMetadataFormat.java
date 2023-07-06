@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.bmp;
+package java.desktop.share.classes.com.sun.imageio.plugins.bmp;
 
-import java.util.Arrays;
+
+import java.base.share.classes.java.util.Arrays;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.metadata.IIOMetadataFormat;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class BMPMetadataFormat extends IIOMetadataFormatImpl {
 

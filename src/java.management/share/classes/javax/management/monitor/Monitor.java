@@ -19,21 +19,22 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.monitor;
+package java.management.share.classes.javax.management.monitor;
 
-import static com.sun.jmx.defaults.JmxProperties.MONITOR_LOGGER;
+
+import static com.sun.jmx.defaults.JmxProperties.MONITOR_LOGGER;.extended
 import com.sun.jmx.mbeanserver.GetPropertyAction;
 import com.sun.jmx.mbeanserver.Introspector;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.security.ProtectionDomain;
-import java.util.Arrays;
-import java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.WeakHashMap;
-import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.CopyOnWriteArrayjava.util.java.util.java.util.List;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.LinkedBlockingQueue;
@@ -45,19 +46,33 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
 import java.lang.System.Logger.Level;
-import javax.management.AttributeNotFoundException;
-import javax.management.InstanceNotFoundException;
-import javax.management.IntrospectionException;
-import javax.management.MBeanAttributeInfo;
-import javax.management.MBeanException;
-import javax.management.MBeanInfo;
-import javax.management.MBeanRegistration;
-import javax.management.MBeanServer;
-import javax.management.MBeanServerConnection;
-import javax.management.NotificationBroadcasterSupport;
-import javax.management.ObjectName;
-import javax.management.ReflectionException;
-import static javax.management.monitor.MonitorNotification.*;
+import java.management.share.classes.javax.management.AttributeNotFoundException;
+import java.management.share.classes.javax.management.InstanceNotFoundException;
+import java.management.share.classes.javax.management.IntrospectionException;
+import java.management.share.classes.javax.management.MBeanAttributeInfo;
+import java.management.share.classes.javax.management.MBeanException;
+import java.management.share.classes.javax.management.MBeanInfo;
+import java.management.share.classes.javax.management.MBeanRegistration;
+import java.management.share.classes.javax.management.MBeanServer;
+import java.management.share.classes.javax.management.MBeanServerConnection;
+import java.management.share.classes.javax.management.NotificationBroadcasterSupport;
+import java.management.share.classes.javax.management.ObjectName;
+import java.management.share.classes.javax.management.ReflectionException;
+import static java.management.share.classes.javax.management.monitor.MonitorNotification.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines the part common to all monitor MBeans.

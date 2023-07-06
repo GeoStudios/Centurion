@@ -21,10 +21,10 @@
 
 package tck.java.time.chrono.serial;
 
-import static java.time.temporal.ChronoField.DAY_OF_MONTH;
-import static java.time.temporal.ChronoField.MONTH_OF_YEAR;
-import static java.time.temporal.ChronoField.YEAR;
 
+import static java.time.temporal.ChronoField.DAY_OF_MONTH;.extended
+import static java.time.temporal.ChronoField.MONTH_OF_YEAR;.extended
+import static java.time.temporal.ChronoField.YEAR;.extended
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
 import java.io.ObjectStreamConstants;
@@ -35,13 +35,22 @@ import java.time.chrono.JapaneseDate;
 import java.time.chrono.JapaneseEra;
 import java.time.chrono.MinguoDate;
 import java.time.chrono.ThaiBuddhistDate;
-
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-
-
 import tck.java.time.AbstractTCKTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test serialization of built-in chronologies.

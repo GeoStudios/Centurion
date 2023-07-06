@@ -21,8 +21,22 @@
 
 package pkg1;
 
-import java.util.ArrayList;
-import java.util.List;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface A {
     interface AList extends List<Object> { }

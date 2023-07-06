@@ -19,56 +19,55 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.datatransfer.Clipboard;
-import java.awt.dnd.DragGestureListener;
-import java.awt.dnd.DragGestureRecognizer;
-import java.awt.dnd.DragSource;
-import java.awt.event.AWTEventListener;
-import java.awt.event.AWTEventListenerProxy;
-import java.awt.event.ActionEvent;
-import java.awt.event.AdjustmentEvent;
-import java.awt.event.ComponentEvent;
-import java.awt.event.ContainerEvent;
-import java.awt.event.FocusEvent;
-import java.awt.event.HierarchyEvent;
-import java.awt.event.InputEvent;
-import java.awt.event.InputMethodEvent;
-import java.awt.event.InvocationEvent;
-import java.awt.event.ItemEvent;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseEvent;
-import java.awt.event.PaintEvent;
-import java.awt.event.TextEvent;
-import java.awt.event.WindowEvent;
-import java.awt.im.InputMethodHighlight;
-import java.awt.image.ColorModel;
-import java.awt.image.ImageObserver;
-import java.awt.image.ImageProducer;
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import java.beans.PropertyChangeSupport;
-import java.io.File;
-import java.io.FileInputStream;
-import java.net.URL;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.EventListener;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.MissingResourceException;
-import java.util.Properties;
-import java.util.ResourceBundle;
-import java.util.ServiceLoader;
-import java.util.Set;
-import java.util.WeakHashMap;
-import java.util.stream.Collectors;
 
+import java.desktop.share.classes.java.awt.datatransfer.Clipboard;
+import java.desktop.share.classes.java.awt.dnd.DragGesturejava.util.Listener;
+import java.desktop.share.classes.java.awt.dnd.DragGestureRecognizer;
+import java.desktop.share.classes.java.awt.dnd.DragSource;
+import java.desktop.share.classes.java.awt.event.AWTEventjava.util.Listener;
+import java.desktop.share.classes.java.awt.event.AWTEventjava.util.ListenerProxy;
+import java.desktop.share.classes.java.awt.event.ActionEvent;
+import java.desktop.share.classes.java.awt.event.AdjustmentEvent;
+import java.desktop.share.classes.java.awt.event.ComponentEvent;
+import java.desktop.share.classes.java.awt.event.ContainerEvent;
+import java.desktop.share.classes.java.awt.event.FocusEvent;
+import java.desktop.share.classes.java.awt.event.HierarchyEvent;
+import java.desktop.share.classes.java.awt.event.InputEvent;
+import java.desktop.share.classes.java.awt.event.InputMethodEvent;
+import java.desktop.share.classes.java.awt.event.InvocationEvent;
+import java.desktop.share.classes.java.awt.event.ItemEvent;
+import java.desktop.share.classes.java.awt.event.KeyEvent;
+import java.desktop.share.classes.java.awt.event.MouseEvent;
+import java.desktop.share.classes.java.awt.event.PaintEvent;
+import java.desktop.share.classes.java.awt.event.TextEvent;
+import java.desktop.share.classes.java.awt.event.WindowEvent;
+import java.desktop.share.classes.java.awt.im.InputMethodHighlight;
+import java.desktop.share.classes.java.awt.image.ColorModel;
+import java.desktop.share.classes.java.awt.image.ImageObserver;
+import java.desktop.share.classes.java.awt.image.ImageProducer;
+import java.desktop.share.classes.java.beans.PropertyChangeEvent;
+import java.desktop.share.classes.java.beans.PropertyChangejava.util.Listener;
+import java.desktop.share.classes.java.beans.PropertyChangeSupport;
+import java.desktop.share.classes.java.io.File;
+import java.desktop.share.classes.java.io.FileInputStream;
+import java.desktop.share.classes.java.net.URL;
+import java.desktop.share.classes.java.security.AccessController;
+import java.desktop.share.classes.java.security.PrivilegedAction;
+import java.desktop.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.desktop.share.classes.java.util.Eventjava.util.Listener;
+import java.desktop.share.classes.java.util.HashMap;
+import java.desktop.share.classes.java.util.Map;
+import java.desktop.share.classes.java.util.MissingResourceException;
+import java.desktop.share.classes.java.util.Properties;
+import java.desktop.share.classes.java.util.ResourceBundle;
+import java.desktop.share.classes.java.util.ServiceLoader;
+import java.desktop.share.classes.java.util.Set;
+import java.desktop.share.classes.java.util.WeakHashMap;
+import java.desktop.share.classes.java.util.stream.Collectors;
 import javax.accessibility.AccessibilityProvider;
-
 import sun.awt.AWTAccessor;
 import sun.awt.AWTPermissions;
 import sun.awt.AppContext;
@@ -76,6 +75,20 @@ import sun.awt.HeadlessToolkit;
 import sun.awt.PeerEvent;
 import sun.awt.PlatformGraphicsInfo;
 import sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is the abstract superclass of all actual

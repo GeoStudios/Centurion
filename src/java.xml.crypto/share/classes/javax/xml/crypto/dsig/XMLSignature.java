@@ -19,18 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.javax.xml.crypto.dsig;
+
+
+import java.xml.crypto.share.classes.javax.xml.crypto.KeySelector;
+import java.xml.crypto.share.classes.javax.xml.crypto.KeySelectorResult;
+import java.xml.crypto.share.classes.javax.xml.crypto.MarshalException;
+import java.xml.crypto.share.classes.javax.xml.crypto.XMLStructure;
+import java.xml.crypto.share.classes.javax.xml.crypto.dsig.keyinfo.KeyInfo;
+import java.security.Signature;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: XMLSignature.java,v 1.10 2005/05/10 16:03:48 mullan Exp $
  */
-package javax.xml.crypto.dsig;
 
-import javax.xml.crypto.KeySelector;
-import javax.xml.crypto.KeySelectorResult;
-import javax.xml.crypto.MarshalException;
-import javax.xml.crypto.XMLStructure;
-import javax.xml.crypto.dsig.keyinfo.KeyInfo;
-import java.security.Signature;
-import java.util.List;
+
 
 /**
  * A representation of the XML <code>Signature</code> element as

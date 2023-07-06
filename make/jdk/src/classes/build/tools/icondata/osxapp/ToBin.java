@@ -21,7 +21,55 @@
 
 package build.tools.icondata.osxapp;
 
-import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ToBin {
     public static void main(String[] args) throws Exception {

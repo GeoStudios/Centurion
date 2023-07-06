@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.annotation.processing;
+package java.compiler.share.classes.javax.annotation.processing;
+
 
 import java.util.Map;
-import java.util.Locale;
-import javax.lang.model.SourceVersion;
-import javax.lang.model.util.Elements;
-import javax.lang.model.util.Types;
+import java.base.share.classes.java.util.Locale;
+import java.compiler.share.classes.javax.lang.model.SourceVersion;
+import java.compiler.share.classes.javax.lang.model.util.Elements;
+import java.compiler.share.classes.javax.lang.model.util.Types;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An annotation processing tool framework will {@linkplain

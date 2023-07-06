@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal.tools;
+package java.security.jgss.windows.classes.sun.security.krb5.internal.tools;
 
-import sun.security.krb5.*;
-import sun.security.krb5.internal.*;
-import sun.security.krb5.internal.ccache.*;
-import java.io.IOException;
+
+import java.security.jgss.windows.classes.sun.security.krb5.*;
+import java.security.jgss.windows.classes.sun.security.krb5.internal.*;
+import java.security.jgss.windows.classes.sun.security.krb5.internal.ccache.*;
+import java.io.java.io.java.io.java.io.IOException;
 import java.time.Instant;
 import java.io.FileInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Maintains user-specific options or default settings when the user requests

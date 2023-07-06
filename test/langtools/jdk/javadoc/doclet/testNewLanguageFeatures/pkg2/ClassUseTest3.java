@@ -21,8 +21,22 @@
 
 package pkg2;
 
+
 import pkg.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ClassUseTest3 <T extends ParamTest2<List<? extends Foo4>>> {
 

@@ -21,11 +21,25 @@
 
 package javadoc.tester;
 
+
 import java.io.PrintStream;
 import java.nio.file.Path;
 import java.util.Map;
 import java.util.Stack;
 import java.util.function.Function;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class to check various aspects of accessibility in a set of HTML files.

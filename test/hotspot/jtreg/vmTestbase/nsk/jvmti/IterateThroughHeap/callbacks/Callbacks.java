@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jvmti.IterateThroughHeap.callbacks;
+
+
+import java.io.PrintStream;
+import nsk.share.*;
+import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -61,12 +81,8 @@
  *      nsk.jvmti.IterateThroughHeap.callbacks.Callbacks
  */
 
-package nsk.jvmti.IterateThroughHeap.callbacks;
 
-import java.io.PrintStream;
 
-import nsk.share.*;
-import nsk.share.jvmti.*;
 
 public class Callbacks extends DebugeeClass {
 

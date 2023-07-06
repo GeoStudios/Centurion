@@ -19,40 +19,52 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap;
+package java.naming.share.classes.com.sun.jndi.ldap;
+
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
-import java.io.InterruptedIOException;
-import java.io.IOException;
+import java.io.Interruptedjava.io.java.io.java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.InputStream;
-import java.net.InetSocketAddress;
-import java.net.Socket;
-import javax.net.ssl.SSLSocket;
-
+import java.net.Inetjava.net.SocketAddress;
+import java.net.java.net.java.net.java.net.Socket;
+import javax.net.ssl.SSLjava.net.java.net.java.net.Socket;
 import javax.naming.CommunicationException;
 import javax.naming.ServiceUnavailableException;
 import javax.naming.NamingException;
 import javax.naming.InterruptedNamingException;
-
 import javax.naming.ldap.Control;
-
 import java.lang.reflect.Method;
 import java.lang.reflect.InvocationTargetException;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.security.cert.Certificate;
 import java.security.cert.X509Certificate;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
-import javax.net.SocketFactory;
+import javax.net.java.net.SocketFactory;
 import javax.net.ssl.SSLParameters;
 import javax.net.ssl.HandshakeCompletedEvent;
-import javax.net.ssl.HandshakeCompletedListener;
+import javax.net.ssl.HandshakeCompletedjava.util.Listener;
 import javax.net.ssl.SSLPeerUnverifiedException;
 import javax.security.sasl.SaslException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * A thread that creates a connection to an LDAP server.

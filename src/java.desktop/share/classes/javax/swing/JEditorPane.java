@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.Component;
 import java.awt.Container;
@@ -33,7 +34,7 @@ import java.beans.BeanProperty;
 import java.beans.JavaBean;
 import java.io.BufferedInputStream;
 import java.io.DataOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.ObjectOutputStream;
@@ -51,45 +52,57 @@ import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
 import java.util.Vector;
-
-import javax.accessibility.Accessible;
-import javax.accessibility.AccessibleComponent;
-import javax.accessibility.AccessibleContext;
-import javax.accessibility.AccessibleHyperlink;
-import javax.accessibility.AccessibleHypertext;
-import javax.accessibility.AccessibleState;
-import javax.accessibility.AccessibleStateSet;
-import javax.accessibility.AccessibleText;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
-import javax.swing.event.EventListenerList;
-import javax.swing.event.HyperlinkEvent;
-import javax.swing.event.HyperlinkListener;
-import javax.swing.plaf.TextUI;
-import javax.swing.text.AbstractDocument;
-import javax.swing.text.AttributeSet;
-import javax.swing.text.BadLocationException;
-import javax.swing.text.BoxView;
-import javax.swing.text.Caret;
-import javax.swing.text.ChangedCharSetException;
-import javax.swing.text.CompositeView;
-import javax.swing.text.DefaultEditorKit;
-import javax.swing.text.Document;
-import javax.swing.text.EditorKit;
-import javax.swing.text.Element;
-import javax.swing.text.ElementIterator;
-import javax.swing.text.GlyphView;
-import javax.swing.text.JTextComponent;
-import javax.swing.text.StyleConstants;
-import javax.swing.text.StyledEditorKit;
-import javax.swing.text.View;
-import javax.swing.text.ViewFactory;
-import javax.swing.text.WrappedPlainView;
-import javax.swing.text.html.HTML;
-import javax.swing.text.html.HTMLDocument;
-import javax.swing.text.html.HTMLEditorKit;
-
+import java.desktop.share.classes.javax.accessibility.Accessible;
+import java.desktop.share.classes.javax.accessibility.AccessibleComponent;
+import java.desktop.share.classes.javax.accessibility.AccessibleContext;
+import java.desktop.share.classes.javax.accessibility.AccessibleHyperlink;
+import java.desktop.share.classes.javax.accessibility.AccessibleHypertext;
+import java.desktop.share.classes.javax.accessibility.AccessibleState;
+import java.desktop.share.classes.javax.accessibility.AccessibleStateSet;
+import java.desktop.share.classes.javax.accessibility.AccessibleText;
+import java.desktop.share.classes.javax.swing.event.DocumentEvent;
+import java.desktop.share.classes.javax.swing.event.Documentjava.util.Listener;
+import java.desktop.share.classes.javax.swing.event.Eventjava.util.Listenerjava.util.java.util.java.util.List;
+import java.desktop.share.classes.javax.swing.event.HyperlinkEvent;
+import java.desktop.share.classes.javax.swing.event.Hyperlinkjava.util.Listener;
+import java.desktop.share.classes.javax.swing.plaf.TextUI;
+import java.desktop.share.classes.javax.swing.text.AbstractDocument;
+import java.desktop.share.classes.javax.swing.text.AttributeSet;
+import java.desktop.share.classes.javax.swing.text.BadLocationException;
+import java.desktop.share.classes.javax.swing.text.BoxView;
+import java.desktop.share.classes.javax.swing.text.Caret;
+import java.desktop.share.classes.javax.swing.text.ChangedCharSetException;
+import java.desktop.share.classes.javax.swing.text.CompositeView;
+import java.desktop.share.classes.javax.swing.text.DefaultEditorKit;
+import java.desktop.share.classes.javax.swing.text.Document;
+import java.desktop.share.classes.javax.swing.text.EditorKit;
+import java.desktop.share.classes.javax.swing.text.Element;
+import java.desktop.share.classes.javax.swing.text.ElementIterator;
+import java.desktop.share.classes.javax.swing.text.GlyphView;
+import java.desktop.share.classes.javax.swing.text.JTextComponent;
+import java.desktop.share.classes.javax.swing.text.StyleConstants;
+import java.desktop.share.classes.javax.swing.text.StyledEditorKit;
+import java.desktop.share.classes.javax.swing.text.View;
+import java.desktop.share.classes.javax.swing.text.ViewFactory;
+import java.desktop.share.classes.javax.swing.text.WrappedPlainView;
+import java.desktop.share.classes.javax.swing.text.html.HTML;
+import java.desktop.share.classes.javax.swing.text.html.HTMLDocument;
+import java.desktop.share.classes.javax.swing.text.html.HTMLEditorKit;
 import sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A text component to edit various kinds of content.

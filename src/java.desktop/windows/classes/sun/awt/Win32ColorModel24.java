@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.windows.classes.sun.awt;
+
 
 import java.awt.image.ComponentColorModel;
 import java.awt.image.PixelInterleavedSampleModel;
@@ -29,6 +30,20 @@ import java.awt.image.DataBuffer;
 import java.awt.image.SampleModel;
 import java.awt.color.ColorSpace;
 import java.awt.Transparency;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class creates a standard ComponentColorModel with the slight

@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.table;
+package java.desktop.share.classes.javax.swing.table;
 
-import javax.swing.*;
-import javax.swing.event.*;
+
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.event.*;
 import java.awt.*;
 import java.util.Vector;
 import java.util.Enumeration;
-import java.util.EventListener;
-import java.beans.PropertyChangeListener;
+import java.util.Eventjava.util.Listener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.beans.PropertyChangeEvent;
 import java.io.Serializable;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The standard column-handler for a <code>JTable</code>.

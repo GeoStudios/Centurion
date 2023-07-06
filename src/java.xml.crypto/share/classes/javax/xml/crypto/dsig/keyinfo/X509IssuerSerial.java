@@ -18,14 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-/*
- * $Id: X509IssuerSerial.java,v 1.4 2005/05/10 16:35:35 mullan Exp $
- */
-package javax.xml.crypto.dsig.keyinfo;
+
+package java.xml.crypto.share.classes.javax.xml.crypto.dsig.keyinfo;
+
 
 import java.math.BigInteger;
 import java.security.cert.X509Certificate;
-import javax.xml.crypto.XMLStructure;
+import java.xml.crypto.share.classes.javax.xml.crypto.XMLStructure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * $Id: X509IssuerSerial.java,v 1.4 2005/05/10 16:35:35 mullan Exp $
+ */
+
+
 
 /**
  * A representation of the XML <code>X509IssuerSerial</code> element as

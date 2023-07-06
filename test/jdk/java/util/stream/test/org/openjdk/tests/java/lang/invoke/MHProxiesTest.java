@@ -18,16 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.tests.java.lang.invoke;
 
-import org.testng.annotations.Test;
 
+import org.testng.annotations.Test;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandleProxies;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
+import static org.testng.Assert.assertEquals;.extended
 
-import static org.testng.Assert.assertEquals;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * MHProxiesTest -- regression test for MH library bug

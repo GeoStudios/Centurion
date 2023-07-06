@@ -19,6 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci.compilerToVM;
+
+
+import compiler.jvmci.common.CTVMUtilities;
+import compiler.jvmci.common.testcases.DuplicateSimpleSingleImplementerInterface;
+import compiler.jvmci.common.testcases.SimpleSingleImplementerInterface;
+import compiler.jvmci.common.testcases.MultipleImplementer1;
+import compiler.jvmci.common.testcases.MultipleSuperImplementers;
+import compiler.jvmci.common.testcases.SingleImplementer;
+import compiler.jvmci.common.testcases.SingleImplementerInterface;
+import compiler.jvmci.common.testcases.SingleSubclass;
+import jdk.test.lib.Asserts;
+import jdk.test.lib.Utils;
+import jdk.vm.ci.hotspot.CompilerToVMHelper;
+import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
+import jdk.vm.ci.hotspot.HotSpotResolvedObjectType;
+import java.lang.reflect.Method;
+import java.util.HashSet;
+import java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8136421
@@ -38,25 +71,8 @@
  *                   compiler.jvmci.compilerToVM.FindUniqueConcreteMethodTest
  */
 
-package compiler.jvmci.compilerToVM;
 
-import compiler.jvmci.common.CTVMUtilities;
-import compiler.jvmci.common.testcases.DuplicateSimpleSingleImplementerInterface;
-import compiler.jvmci.common.testcases.SimpleSingleImplementerInterface;
-import compiler.jvmci.common.testcases.MultipleImplementer1;
-import compiler.jvmci.common.testcases.MultipleSuperImplementers;
-import compiler.jvmci.common.testcases.SingleImplementer;
-import compiler.jvmci.common.testcases.SingleImplementerInterface;
-import compiler.jvmci.common.testcases.SingleSubclass;
-import jdk.test.lib.Asserts;
-import jdk.test.lib.Utils;
-import jdk.vm.ci.hotspot.CompilerToVMHelper;
-import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
-import jdk.vm.ci.hotspot.HotSpotResolvedObjectType;
 
-import java.lang.reflect.Method;
-import java.util.HashSet;
-import java.util.Set;
 
 public class FindUniqueConcreteMethodTest {
     public static void main(String args[]) {

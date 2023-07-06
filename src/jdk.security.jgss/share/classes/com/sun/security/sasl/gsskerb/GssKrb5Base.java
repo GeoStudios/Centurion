@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.security.jgss.share.classes.com.sun.security.sasl.gsskerb;
 
-package com.sun.security.sasl.gsskerb;
 
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.logging.Level;
 import javax.security.sasl.*;
-import com.sun.security.sasl.util.AbstractSaslImpl;
+import jdk.security.jgss.share.classes.com.sun.security.sasl.util.AbstractSaslImpl;
 import org.ietf.jgss.*;
-import com.sun.security.jgss.ExtendedGSSContext;
-import com.sun.security.jgss.InquireType;
+import jdk.security.jgss.share.classes.com.sun.security.jgss.ExtendedGSSContext;
+import jdk.security.jgss.share.classes.com.sun.security.jgss.InquireType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class GssKrb5Base extends AbstractSaslImpl {
 

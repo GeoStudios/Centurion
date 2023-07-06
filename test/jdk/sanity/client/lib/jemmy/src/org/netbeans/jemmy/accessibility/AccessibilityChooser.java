@@ -18,17 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.accessibility;
 
-import java.awt.Component;
 
+import java.awt.Component;
 import javax.accessibility.AccessibleContext;
 import javax.swing.JComponent;
 import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.JWindow;
-
 import org.netbeans.jemmy.ComponentChooser;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class AccessibilityChooser implements ComponentChooser {
 

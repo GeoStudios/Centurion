@@ -21,6 +21,23 @@
 
 package MyPackage;
 
+
+import java.io.PrintStream;
+import java.lang.instrument.Instrumentation;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @summary Verifies the JVMTI AddModuleReads API
@@ -29,8 +46,6 @@ package MyPackage;
  * @run main/othervm/native -agentlib:AddModuleReadsTest MyPackage.AddModuleReadsTest
  */
 
-import java.io.PrintStream;
-import java.lang.instrument.Instrumentation;
 
 public class AddModuleReadsTest {
 

@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jshell;
+package jdk.jshell.share.classes.jdk.jshell;
+
 
 import java.util.Collection;
-import jdk.jshell.Key.DeclarationKey;
+import jdk.jshell.share.classes.jdk.jshell.Key.DeclarationKey;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Grouping for all declaration Snippets: variable declarations

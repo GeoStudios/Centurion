@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.jpeg;
+package java.desktop.share.classes.com.sun.imageio.plugins.jpeg;
+
 
 import javax.imageio.stream.ImageInputStream;
-import javax.imageio.IIOException;
+import javax.imageio.Ijava.io.java.io.java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 
-import java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class wrapping a buffer and its state.  For efficiency,

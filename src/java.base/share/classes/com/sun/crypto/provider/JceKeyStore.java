@@ -19,20 +19,20 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
-import sun.security.util.Debug;
-import sun.security.util.IOUtils;
 
+import java.base.share.classes.com.sun.security.util.Debug;
+import java.base.share.classes.com.sun.security.util.IOUtils;
 import java.io.*;
 import java.util.*;
 import java.security.AccessController;
 import java.security.DigestInputStream;
 import java.security.DigestOutputStream;
 import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.security.Key;
-import java.security.PrivateKey;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.Key;
+import java.base.share.classes.java.security.PrivateKey;
 import java.security.PrivilegedAction;
 import java.security.KeyStoreSpi;
 import java.security.KeyStoreException;
@@ -41,8 +41,21 @@ import java.security.cert.Certificate;
 import java.security.cert.CertificateFactory;
 import java.security.cert.CertificateException;
 import javax.crypto.SealedObject;
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
 
-import static java.nio.charset.StandardCharsets.UTF_8;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides the keystore implementation referred to as "jceks".

@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package pck;
+
+
+import static pck.T6392998.B.C;.extended
+import static pck.T6392998.B.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug     6392998
@@ -27,10 +46,7 @@
  * @compile T6392998.java
  */
 
-package pck;
 
-import static pck.T6392998.B.C;
-import static pck.T6392998.B.*;
 
 public class T6392998 {
     public static class A {

@@ -19,21 +19,21 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.metal;
+package java.desktop.macosx.classes.sun.java2d.metal;
 
-import sun.java2d.SurfaceData;
-import sun.java2d.loops.Blit;
-import sun.java2d.loops.CompositeType;
-import sun.java2d.loops.GraphicsPrimitive;
-import sun.java2d.loops.GraphicsPrimitiveMgr;
-import sun.java2d.loops.ScaledBlit;
-import sun.java2d.loops.SurfaceType;
-import sun.java2d.loops.TransformBlit;
-import sun.java2d.pipe.Region;
-import sun.java2d.pipe.RenderBuffer;
-import sun.java2d.pipe.RenderQueue;
-import sun.java2d.pipe.hw.AccelSurface;
 
+import java.desktop.macosx.classes.sun.java2d.SurfaceData;
+import java.desktop.macosx.classes.sun.java2d.loops.Blit;
+import java.desktop.macosx.classes.sun.java2d.loops.CompositeType;
+import java.desktop.macosx.classes.sun.java2d.loops.GraphicsPrimitive;
+import java.desktop.macosx.classes.sun.java2d.loops.GraphicsPrimitiveMgr;
+import java.desktop.macosx.classes.sun.java2d.loops.ScaledBlit;
+import java.desktop.macosx.classes.sun.java2d.loops.SurfaceType;
+import java.desktop.macosx.classes.sun.java2d.loops.TransformBlit;
+import java.desktop.macosx.classes.sun.java2d.pipe.Region;
+import java.desktop.macosx.classes.sun.java2d.pipe.RenderBuffer;
+import java.desktop.macosx.classes.sun.java2d.pipe.RenderQueue;
+import java.desktop.macosx.classes.sun.java2d.pipe.hw.AccelSurface;
 import java.awt.AlphaComposite;
 import java.awt.Composite;
 import java.awt.Transparency;
@@ -43,9 +43,22 @@ import java.awt.image.BufferedImage;
 import java.awt.image.BufferedImageOp;
 import java.lang.annotation.Native;
 import java.lang.ref.WeakReference;
+import static java.desktop.macosx.classes.sun.java2d.pipe.BufferedOpCodes.BLIT;.extended
+import static java.desktop.macosx.classes.sun.java2d.pipe.BufferedOpCodes.SURFACE_TO_SW_BLIT;.extended
 
-import static sun.java2d.pipe.BufferedOpCodes.BLIT;
-import static sun.java2d.pipe.BufferedOpCodes.SURFACE_TO_SW_BLIT;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class MTLBlitLoops {
 

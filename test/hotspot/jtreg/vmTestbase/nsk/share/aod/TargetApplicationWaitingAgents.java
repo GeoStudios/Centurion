@@ -18,12 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.share.aod;
 
-import nsk.share.*;
-import nsk.share.jpda.SocketIOPipe;
 
+import nsk.share.*;
+import nsk.share.jpda.java.net.SocketIOPipe;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 Class TargetApplicationWaitingAgents is part of the framework used in the AttachOnDemand tests

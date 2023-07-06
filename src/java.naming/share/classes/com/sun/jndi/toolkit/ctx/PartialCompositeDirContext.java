@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.toolkit.ctx;
+package java.naming.share.classes.com.sun.jndi.toolkit.ctx;
+
 
 import java.util.Hashtable;
-
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.spi.DirectoryManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Inherit from AtomicContext so that subclasses of PartialCompositeDirContext

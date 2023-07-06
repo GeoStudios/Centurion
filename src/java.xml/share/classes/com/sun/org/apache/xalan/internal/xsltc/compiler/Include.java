@@ -19,24 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * $Id: Include.java,v 1.8 2007/04/09 21:30:41 joehw Exp $
- */
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-package com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ClassGenerator;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.MethodGenerator;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.TypeCheckError;
-import com.sun.org.apache.xml.internal.utils.SystemIDResolver;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ClassGenerator;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.MethodGenerator;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.TypeCheckError;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.SystemIDResolver;
 import java.util.Iterator;
 import javax.xml.XMLConstants;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.SecuritySupport;
-import org.xml.sax.InputSource;
-import org.xml.sax.XMLReader;
+import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
+import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * $Id: Include.java,v 1.8 2007/04/09 21:30:41 joehw Exp $
+ */
+
+
+
 
 /**
  * @LastModified: May 2021

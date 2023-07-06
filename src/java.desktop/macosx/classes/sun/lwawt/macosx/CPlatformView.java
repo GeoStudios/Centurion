@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
 
 import java.awt.GraphicsDevice;
 import java.awt.GraphicsEnvironment;
@@ -29,15 +30,27 @@ import java.awt.geom.Rectangle2D;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
+import java.desktop.macosx.classes.sun.awt.CGraphicsEnvironment;
+import java.desktop.macosx.classes.sun.awt.CGraphicsDevice;
+import java.desktop.macosx.classes.sun.java2d.metal.MTLLayer;
+import java.desktop.macosx.classes.sun.lwawt.LWWindowPeer;
+import java.desktop.macosx.classes.sun.java2d.SurfaceData;
+import java.desktop.macosx.classes.sun.java2d.opengl.CGLLayer;
+import java.desktop.macosx.classes.sun.lwawt.macosx.CFLayer;
 
-import sun.awt.CGraphicsEnvironment;
-import sun.awt.CGraphicsDevice;
-import sun.java2d.metal.MTLLayer;
-import sun.lwawt.LWWindowPeer;
 
-import sun.java2d.SurfaceData;
-import sun.java2d.opengl.CGLLayer;
-import sun.lwawt.macosx.CFLayer;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CPlatformView extends CFRetainedResource {
     private native long nativeCreateView(int x, int y, int width, int height, long windowLayerPtr);

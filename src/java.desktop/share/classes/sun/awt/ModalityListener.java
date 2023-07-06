@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.share.classes.sun.awt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Listener interface so Java Plug-in can be notified

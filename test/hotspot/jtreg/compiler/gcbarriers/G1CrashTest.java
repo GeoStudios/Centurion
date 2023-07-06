@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.gcbarriers;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8023472
@@ -30,7 +47,6 @@
  * @author pbiswal@palantir.com
  */
 
-package compiler.gcbarriers;
 
 public class G1CrashTest {
     static Object[] set = new Object[11];

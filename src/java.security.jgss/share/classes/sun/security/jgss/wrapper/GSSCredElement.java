@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.security.jgss.wrapper;
+
+package java.security.jgss.share.classes.sun.security.jgss.wrapper;
+
 
 import org.ietf.jgss.*;
 import java.security.Provider;
-import sun.security.jgss.GSSUtil;
-import sun.security.jgss.spi.GSSCredentialSpi;
-import sun.security.jgss.spi.GSSNameSpi;
+import java.security.jgss.share.classes.sun.security.jgss.GSSUtil;
+import java.security.jgss.share.classes.sun.security.jgss.spi.GSSCredentialSpi;
+import java.security.jgss.share.classes.sun.security.jgss.spi.GSSNameSpi;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is essentially a wrapper class for the gss_cred_id_t

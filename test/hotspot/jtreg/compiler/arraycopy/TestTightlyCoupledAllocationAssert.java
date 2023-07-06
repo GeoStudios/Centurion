@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.arraycopy;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8237945
@@ -27,7 +44,6 @@
  * @run main/othervm -Xbatch compiler.arraycopy.TestTightlyCoupledAllocationAssert
  */
 
-package compiler.arraycopy;
 
 public class TestTightlyCoupledAllocationAssert {
 

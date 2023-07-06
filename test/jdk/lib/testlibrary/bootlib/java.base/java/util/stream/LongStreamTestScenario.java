@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package java.util.stream;
+
 
 import java.util.Collections;
 import java.util.EnumSet;
@@ -29,6 +31,19 @@ import java.util.SpliteratorTestHelper;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.LongConsumer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test scenarios for long streams.

@@ -21,19 +21,31 @@
 
 package tck.java.time.format;
 
-import static java.time.temporal.ChronoField.DAY_OF_MONTH;
-import static java.time.temporal.ChronoField.MONTH_OF_YEAR;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertNotNull;
 
+import static java.time.temporal.ChronoField.DAY_OF_MONTH;.extended
+import static java.time.temporal.ChronoField.MONTH_OF_YEAR;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertNotNull;.extended
 import java.text.ParsePosition;
 import java.time.format.DateTimeFormatterBuilder;
 import java.time.format.SignStyle;
 import java.time.temporal.TemporalAccessor;
-
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test padding behavior of formatter.

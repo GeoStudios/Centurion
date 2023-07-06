@@ -19,14 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.traversers;
+
+
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.opti.ElementImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.impl.xs.traversers;
 
-import org.w3c.dom.Element;
-import com.sun.org.apache.xerces.internal.impl.xs.opti.ElementImpl;
+
 
 /**
  * Objects of this class contain the textual representation of

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8237894
@@ -32,7 +49,6 @@
  *      compiler.c1.TestValueNumberingNullObject
  */
 
-package compiler.c1;
 
 class T1 {
 

@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.hashcode.HashCodeSimpleTest;
+
+
+import nsk.share.TestFailure;
+import nsk.share.gc.GC;
+import nsk.share.gc.ThreadedGCTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress
@@ -37,11 +57,7 @@
  * @run main/othervm -XX:-UseGCOverheadLimit gc.hashcode.HashCodeSimpleTest.HashCodeSimpleTest
  */
 
-package gc.hashcode.HashCodeSimpleTest;
 
-import nsk.share.TestFailure;
-import nsk.share.gc.GC;
-import nsk.share.gc.ThreadedGCTest;
 
 /**
  * Hash code regressiontests.

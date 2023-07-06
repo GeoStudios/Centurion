@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.geom;
+package java.desktop.share.classes.sun.awt.geom;
+
 
 import java.awt.geom.Rectangle2D;
 import java.awt.geom.PathIterator;
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class Order0 extends Curve {
     private final double x;

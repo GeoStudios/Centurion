@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.VirtualMachine.instanceCounts.instancecounts004;
+
+
+import java.io.PrintStream;
+import java.util.*;
+import nsk.share.Consts;
+import nsk.share.jdi.HeapwalkingDebugger;
+import nsk.share.test.Stresser;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -49,13 +71,7 @@
  *      -debugee.vmkeys="-Xmx256M ${test.vm.opts} ${test.java.opts}"
  */
 
-package nsk.jdi.VirtualMachine.instanceCounts.instancecounts004;
 
-import java.io.PrintStream;
-import java.util.*;
-import nsk.share.Consts;
-import nsk.share.jdi.HeapwalkingDebugger;
-import nsk.share.test.Stresser;
 
 public class instancecounts004 extends HeapwalkingDebugger {
 

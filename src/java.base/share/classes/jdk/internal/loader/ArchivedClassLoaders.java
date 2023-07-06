@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.loader;
+
+package java.base.share.classes.jdk.internal.loader;
+
 
 import java.util.Map;
-import jdk.internal.misc.CDS;
-import jdk.internal.module.ServicesCatalog;
+import java.base.share.classes.jdk.internal.misc.CDS;
+import java.base.share.classes.jdk.internal.module.ServicesCatalog;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Used to archive the built-in class loaders, their services catalogs, and the

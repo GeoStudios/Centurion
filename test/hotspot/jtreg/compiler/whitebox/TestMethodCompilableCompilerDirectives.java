@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.whitebox;
+
+
+import jdk.test.lib.Asserts;
+import sun.hotspot.WhiteBox;
+import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @summary Tests WB::isMethodCompilable(m) in combination with compiler directives that prevent a compilation of m.
@@ -34,11 +54,7 @@
  *      compiler.whitebox.TestMethodCompilableCompilerDirectives
  */
 
-package compiler.whitebox;
 
-import jdk.test.lib.Asserts;
-import sun.hotspot.WhiteBox;
-import java.lang.reflect.Method;
 
 public class TestMethodCompilableCompilerDirectives {
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();

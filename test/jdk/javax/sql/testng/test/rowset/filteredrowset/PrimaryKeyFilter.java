@@ -18,10 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.rowset.filteredrowset;
+
 
 import javax.sql.RowSet;
 import javax.sql.rowset.Predicate;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Simple implementation of Predicate which is used to filter rows based

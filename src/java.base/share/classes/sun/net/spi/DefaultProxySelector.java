@@ -19,26 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.spi;
+package java.base.share.classes.sun.net.spi;
 
-import java.net.InetSocketAddress;
+
+import java.net.Inetjava.net.SocketAddress;
 import java.net.Proxy;
 import java.net.ProxySelector;
-import java.net.SocketAddress;
+import java.net.java.net.SocketAddress;
 import java.net.URI;
 import java.util.Collections;
-import java.util.List;
-import java.io.IOException;
+import java.util.java.util.java.util.java.util.List;
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.StringJoiner;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
-import sun.net.NetProperties;
-import sun.net.SocksProxy;
-import static java.util.regex.Pattern.quote;
-import static java.util.stream.Collectors.collectingAndThen;
-import static java.util.stream.Collectors.toList;
+import java.base.share.classes.sun.net.NetProperties;
+import java.base.share.classes.sun.net.SocksProxy;
+import static java.util.regex.Pattern.quote;.extended
+import static java.util.stream.Collectors.collectingAndThen;.extended
+import static java.util.stream.Collectors.tojava.util.java.util.java.util.List;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Supports proxy settings using system properties This proxy selector

@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.jdk.internal.icu.lang;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // CHANGELOG
 //      2005-05-19 Edward Wang
 //          - copy this file from icu4jsrc_3_2/src/com/ibm/icu/lang/UCharacterEnums.java
@@ -41,7 +59,7 @@
 //              DIRECTIONALITY_BOUNDARY_NEUTRAL, DIRECTIONALITY_UNDEFINED
 //
 
-package jdk.internal.icu.lang;
+
 
 /**
  * A container for the different 'enumerated types' used by UCharacter.

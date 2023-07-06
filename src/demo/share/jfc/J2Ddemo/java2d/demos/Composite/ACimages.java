@@ -18,20 +18,21 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d.demos.Composite;
+
+package demo.share.jfc.J2Ddemo.java2d.demos.Composite;
 
 
-import static java.awt.Color.BLACK;
-import static java.awt.Color.BLUE;
-import static java.awt.Color.CYAN;
-import static java.awt.Color.GREEN;
-import static java.awt.Color.LIGHT_GRAY;
-import static java.awt.Color.MAGENTA;
-import static java.awt.Color.ORANGE;
-import static java.awt.Color.PINK;
-import static java.awt.Color.RED;
-import static java.awt.Color.WHITE;
-import static java.awt.Color.YELLOW;
+import static java.awt.Color.BLACK;.extended
+import static java.awt.Color.BLUE;.extended
+import static java.awt.Color.CYAN;.extended
+import static java.awt.Color.GREEN;.extended
+import static java.awt.Color.LIGHT_GRAY;.extended
+import static java.awt.Color.MAGENTA;.extended
+import static java.awt.Color.ORANGE;.extended
+import static java.awt.Color.PINK;.extended
+import static java.awt.Color.RED;.extended
+import static java.awt.Color.WHITE;.extended
+import static java.awt.Color.YELLOW;.extended
 import java.awt.AlphaComposite;
 import java.awt.Color;
 import java.awt.Graphics2D;
@@ -41,7 +42,20 @@ import java.awt.font.TextLayout;
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.Rectangle2D;
 import java.awt.geom.RoundRectangle2D;
-import java2d.Surface;
+import demo.share.jfc.J2Ddemo.java2d.Surface;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

@@ -19,18 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.validator;
+package java.base.share.classes.sun.security.validator;
+
 
 import java.util.*;
-
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.cert.*;
-
 import javax.security.auth.x500.X500Principal;
-import sun.security.action.GetBooleanAction;
-import sun.security.provider.certpath.AlgorithmChecker;
-import sun.security.provider.certpath.PKIXExtendedParameters;
-import sun.security.util.SecurityProperties;
+import java.base.share.classes.sun.security.action.GetBooleanAction;
+import java.base.share.classes.sun.security.provider.certpath.AlgorithmChecker;
+import java.base.share.classes.sun.security.provider.certpath.PKIXExtendedParameters;
+import java.base.share.classes.sun.security.util.SecurityProperties;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Validator implementation built on the PKIX CertPath API. This

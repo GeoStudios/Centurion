@@ -19,15 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.module;
+package java.base.share.classes.jdk.internal.module;
+
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.UncheckedIOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.lang.module.FindException;
 import java.lang.module.InvalidModuleDescriptorException;
 import java.lang.module.ModuleDescriptor;
@@ -40,11 +41,11 @@ import java.nio.file.Files;
 import java.nio.file.NoSuchFileException;
 import java.nio.file.Path;
 import java.nio.file.attribute.BasicFileAttributes;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
 import java.util.jar.Attributes;
@@ -56,12 +57,24 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.zip.ZipException;
 import java.util.zip.ZipFile;
-
 import sun.nio.cs.UTF_8;
+import java.base.share.classes.jdk.internal.jmod.JmodFile;
+import java.base.share.classes.jdk.internal.jmod.JmodFile.Section;
+import java.base.share.classes.jdk.internal.perf.PerfCounter;
 
-import jdk.internal.jmod.JmodFile;
-import jdk.internal.jmod.JmodFile.Section;
-import jdk.internal.perf.PerfCounter;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code ModuleFinder} that locates modules on the file system by searching
@@ -712,7 +725,7 @@ public class ModulePath implements ModuleFinder {
         if (index == -1) {
             if (name.endsWith(".class") && !name.equals(MODULE_INFO)) {
                 String msg = name + " found in top-level directory"
-                             + " (unnamed package not allowed in module)";
+                             + " (unnamed 
                 throw new InvalidModuleDescriptorException(msg);
             }
             return Optional.empty();
@@ -742,7 +755,7 @@ public class ModulePath implements ModuleFinder {
             String name = file.toString();
             if (name.endsWith(".class") && !name.equals(MODULE_INFO)) {
                 String msg = name + " found in top-level directory"
-                             + " (unnamed package not allowed in module)";
+                             + " (unnamed 
                 throw new InvalidModuleDescriptorException(msg);
             }
             return Optional.empty();

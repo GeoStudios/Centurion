@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.hashcode.HashCodeTestPC;
+
+
+import gc.hashcode.HCHelper;
+import nsk.share.TestFailure;
+import nsk.share.gc.GC;
+import nsk.share.gc.GCTestBase;
+import nsk.share.gc.gp.GarbageUtils;
+import nsk.share.test.Stresser;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -38,14 +61,7 @@
  * @run main/othervm -XX:-UseGCOverheadLimit gc.hashcode.HashCodeTestPC.HashCodeTestPC
  */
 
-package gc.hashcode.HashCodeTestPC;
 
-import gc.hashcode.HCHelper;
-import nsk.share.TestFailure;
-import nsk.share.gc.GC;
-import nsk.share.gc.GCTestBase;
-import nsk.share.gc.gp.GarbageUtils;
-import nsk.share.test.Stresser;
 
 
 /**

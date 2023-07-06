@@ -19,40 +19,52 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
 
 
-import javax.swing.plaf.ComponentUI;
-import javax.swing.border.*;
-import javax.swing.event.SwingPropertyChangeSupport;
-
-import java.io.IOException;
+import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
+import java.desktop.share.classes.javax.swing.border.*;
+import java.desktop.share.classes.javax.swing.event.SwingPropertyChangeSupport;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.io.StringWriter;
-import java.io.UncheckedIOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.lang.reflect.*;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.ResourceBundle;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Vector;
 import java.util.MissingResourceException;
 import java.awt.Font;
 import java.awt.Color;
 import java.awt.Insets;
 import java.awt.Dimension;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.security.AccessController;
 import java.security.AccessControlContext;
 import java.security.PrivilegedAction;
-
 import sun.reflect.misc.MethodUtil;
 import sun.reflect.misc.ReflectUtil;
 import sun.swing.SwingAccessor;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A table of defaults for Swing components.  Applications can set/get

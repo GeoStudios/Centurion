@@ -19,10 +19,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-
-
-package javax.swing;
-
+package java.desktop.share.classes.javax.swing;
 
 
 import java.io.*;
@@ -33,19 +30,31 @@ import java.awt.Window;
 import java.awt.Component;
 import java.awt.Container;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import java.awt.event.WindowListener;
+import java.beans.PropertyChangejava.util.Listener;
+import java.awt.event.Windowjava.util.Listener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-
 import java.awt.IllegalComponentStateException;
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.text.*;
-import java.util.Locale;
-import javax.accessibility.*;
-import javax.swing.event.*;
-import javax.swing.text.*;
+import java.base.share.classes.java.util.Locale;
+import java.desktop.share.classes.javax.accessibility.*;
+import java.desktop.share.classes.javax.swing.event.*;
+import java.desktop.share.classes.javax.swing.text.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /** A class to monitor the progress of some operation. If it looks

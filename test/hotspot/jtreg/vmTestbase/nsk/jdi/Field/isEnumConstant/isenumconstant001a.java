@@ -21,9 +21,23 @@
 
 package nsk.jdi.Field.isEnumConstant;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The debugged application of the test.

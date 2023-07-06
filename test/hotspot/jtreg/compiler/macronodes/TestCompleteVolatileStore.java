@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.macronodes;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8236140
@@ -28,7 +45,6 @@
  *                   compiler.macronodes.TestCompleteVolatileStore
  */
 
-package compiler.macronodes;
 
 public class TestCompleteVolatileStore {
     int i1 = 4;

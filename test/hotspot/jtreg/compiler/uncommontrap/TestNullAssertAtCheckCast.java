@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.uncommontrap;
+
+
+import sun.hotspot.WhiteBox;
+import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8257594
@@ -35,11 +54,8 @@
  *                   compiler.uncommontrap.TestNullAssertAtCheckCast
  */
 
-package compiler.uncommontrap;
 
-import sun.hotspot.WhiteBox;
 
-import java.lang.reflect.Method;
 
 public class TestNullAssertAtCheckCast {
     private static final WhiteBox WB = WhiteBox.getWhiteBox();

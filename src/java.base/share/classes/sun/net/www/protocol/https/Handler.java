@@ -19,15 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.sun.net.www.protocol.https;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.net.URL;
+import java.net.Proxy;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*-
  *      HTTP stream opener
  */
 
-package sun.net.www.protocol.https;
 
-import java.io.IOException;
-import java.net.URL;
-import java.net.Proxy;
+
 
 /** open an http input stream given a URL */
 public class Handler extends sun.net.www.protocol.http.Handler {

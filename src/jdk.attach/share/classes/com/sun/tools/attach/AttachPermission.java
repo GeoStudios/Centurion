@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.attach;
+package jdk.attach.share.classes.com.sun.tools.attach;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * When a {@link java.lang.SecurityManager SecurityManager} set, this

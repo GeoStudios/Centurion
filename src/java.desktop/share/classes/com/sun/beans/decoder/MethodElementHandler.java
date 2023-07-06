@@ -18,13 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.beans.decoder;
 
-import com.sun.beans.finder.MethodFinder;
+package java.desktop.share.classes.com.sun.beans.decoder;
 
+
+import java.desktop.share.classes.com.sun.beans.finder.MethodFinder;
 import java.lang.reflect.Method;
+import java.desktop.share.classes.com.sun.reflect.misc.MethodUtil;
 
-import sun.reflect.misc.MethodUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is intended to handle &lt;method&gt; element.

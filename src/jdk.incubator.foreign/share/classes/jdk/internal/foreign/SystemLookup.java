@@ -19,23 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.foreign;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
 
-import jdk.incubator.foreign.MemoryAccess;
-import jdk.incubator.foreign.MemorySegment;
-import jdk.incubator.foreign.ResourceScope;
-import jdk.incubator.foreign.SymbolLookup;
-import jdk.incubator.foreign.MemoryAddress;
-import jdk.internal.loader.NativeLibraries;
-import jdk.internal.loader.NativeLibrary;
 
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryAccess;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.ResourceScope;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.SymbolLookup;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryAddress;
+import jdk.incubator.foreign.share.classes.jdk.internal.loader.NativeLibraries;
+import jdk.incubator.foreign.share.classes.jdk.internal.loader.NativeLibrary;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.util.function.Function;
+import static jdk.incubator.foreign.share.classes.jdk.incubator.foreign.CLinker.C_POINTER;.extended
 
-import static jdk.incubator.foreign.CLinker.C_POINTER;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SystemLookup implements SymbolLookup {
 

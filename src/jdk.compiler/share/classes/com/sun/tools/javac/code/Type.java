@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.code;
+package jdk.compiler.share.classes.com.sun.tools.javac.code;
+
 
 import java.lang.annotation.Annotation;
 import java.util.ArrayDeque;
@@ -27,23 +28,34 @@ import java.util.Collections;
 import java.util.EnumMap;
 import java.util.Map;
 import java.util.function.Predicate;
-
 import javax.lang.model.type.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.TypeMetadata.Entry;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Types.TypeMapping;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Types.UniqueType;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Infer.IncorporationAction;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.PoolConstant;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.BoundKind.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.extended
 
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.code.TypeMetadata.Entry;
-import com.sun.tools.javac.code.Types.TypeMapping;
-import com.sun.tools.javac.code.Types.UniqueType;
-import com.sun.tools.javac.comp.Infer.IncorporationAction;
-import com.sun.tools.javac.jvm.ClassFile;
-import com.sun.tools.javac.jvm.PoolConstant;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.DefinedBy.Api;
 
-import static com.sun.tools.javac.code.BoundKind.*;
-import static com.sun.tools.javac.code.Flags.*;
-import static com.sun.tools.javac.code.Kinds.Kind.*;
-import static com.sun.tools.javac.code.TypeTag.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This class represents Java types. The class itself defines the behavior of
  *  the following types:
@@ -1541,7 +1553,7 @@ public abstract class Type extends AnnoConstruct implements TypeMirror, PoolCons
 
         @Override
         public PackageType cloneWithMetadata(TypeMetadata md) {
-            throw new AssertionError("Cannot add metadata to a package type");
+            throw new AssertionError("Cannot add metadata to a 
         }
 
         @Override

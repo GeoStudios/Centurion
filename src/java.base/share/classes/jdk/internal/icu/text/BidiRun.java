@@ -19,11 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.jdk.internal.icu.text;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Written by Simon Montagu, Matitiahu Allouche
  * (ported from C code written by Markus W. Scherer)
  */
 
-package jdk.internal.icu.text;
+
 
 /**
  * A BidiRun represents a sequence of characters at the same embedding level.

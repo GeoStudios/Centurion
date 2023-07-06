@@ -19,6 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.dynalink.share.classes.jdk.dynalink.beans;
+
+
+import java.lang.invoke.MethodHandle;
+import java.lang.reflect.Method;
+import java.lang.reflect.RecordComponent;
+import java.security.AccessController;
+import java.security.PrivilegedAction;
+import java.base.share.classes.java.util.Arrays;
+import java.util.Collection;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Map;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -26,18 +54,8 @@
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-package jdk.dynalink.beans;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.reflect.Method;
-import java.lang.reflect.RecordComponent;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
+
 
 class BeanIntrospector extends FacetIntrospector {
     private final Class<?> clazz;

@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.geom;
+package java.desktop.share.classes.java.awt.geom;
 
-import java.awt.Shape;
-import java.beans.ConstructorProperties;
-import java.io.IOException;
-import java.io.Serial;
+
+import java.desktop.share.classes.java.awt.Shape;
+import java.desktop.share.classes.java.beans.ConstructorProperties;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code AffineTransform} class represents a 2D affine transform

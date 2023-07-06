@@ -19,7 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.sql;
+package java.sql.share.classes.javax.sql;
+
+
+import java.base.share.classes.java.util.Eventjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <P>
@@ -43,7 +60,7 @@ package javax.sql;
  *
  */
 
-public interface ConnectionEventListener extends java.util.EventListener {
+public interface ConnectionEventListener extends EventListener {
 
   /**
    * Notifies this {@code ConnectionEventListener} that

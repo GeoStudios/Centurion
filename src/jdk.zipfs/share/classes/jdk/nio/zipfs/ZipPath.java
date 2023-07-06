@@ -19,10 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.nio.zipfs;
+package jdk.zipfs.share.classes.jdk.nio.zipfs;
+
 
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.URI;
@@ -31,20 +32,33 @@ import java.nio.channels.SeekableByteChannel;
 import java.nio.file.*;
 import java.nio.file.DirectoryStream.Filter;
 import java.nio.file.attribute.*;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.NoSuchElementException;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
+import static java.nio.file.StandardCopyOption.COPY_ATTRIBUTES;.extended
+import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;.extended
+import static java.nio.file.StandardOpenOption.CREATE;.extended
+import static java.nio.file.StandardOpenOption.READ;.extended
+import static java.nio.file.StandardOpenOption.TRUNCATE_EXISTING;.extended
+import static java.nio.file.StandardOpenOption.WRITE;.extended
 
-import static java.nio.charset.StandardCharsets.UTF_8;
-import static java.nio.file.StandardCopyOption.COPY_ATTRIBUTES;
-import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
-import static java.nio.file.StandardOpenOption.CREATE;
-import static java.nio.file.StandardOpenOption.READ;
-import static java.nio.file.StandardOpenOption.TRUNCATE_EXISTING;
-import static java.nio.file.StandardOpenOption.WRITE;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

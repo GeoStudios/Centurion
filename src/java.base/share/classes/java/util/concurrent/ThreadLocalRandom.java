@@ -19,6 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.java.util.concurrent;
+
+
+import java.base.share.classes.java.io.ObjectStreamField;
+import java.base.share.classes.java.math.BigInteger;
+import java.base.share.classes.java.security.AccessControlContext;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.Random;
+import java.base.share.classes.java.util.Spliterator;
+import java.base.share.classes.java.util.concurrent.atomic.AtomicInteger;
+import java.base.share.classes.java.util.concurrent.atomic.AtomicLong;
+import java.base.share.classes.java.util.random.RandomGenerator;
+import java.base.share.classes.java.util.stream.DoubleStream;
+import java.base.share.classes.java.util.stream.IntStream;
+import java.base.share.classes.java.util.stream.LongStream;
+import jdk.internal.util.random.RandomSupport;
+import jdk.internal.util.random.RandomSupport.*;
+import jdk.internal.misc.Unsafe;
+import jdk.internal.misc.VM;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -33,24 +67,8 @@
  * and to implement the {@link RandomGenerator} interface.
  */
 
-package java.util.concurrent;
 
-import java.io.ObjectStreamField;
-import java.math.BigInteger;
-import java.security.AccessControlContext;
-import java.util.Map;
-import java.util.Random;
-import java.util.Spliterator;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.atomic.AtomicLong;
-import java.util.random.RandomGenerator;
-import java.util.stream.DoubleStream;
-import java.util.stream.IntStream;
-import java.util.stream.LongStream;
-import jdk.internal.util.random.RandomSupport;
-import jdk.internal.util.random.RandomSupport.*;
-import jdk.internal.misc.Unsafe;
-import jdk.internal.misc.VM;
+
 
 /**
  * A random number generator (with period 2<sup>64</sup>) isolated

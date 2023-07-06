@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.timestamp;
+package java.base.share.classes.sun.security.timestamp;
+
 
 import java.io.BufferedInputStream;
 import java.io.DataOutputStream;
 import java.io.EOFException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.URI;
 import java.net.URL;
 import java.net.HttpURLConnection;
 import java.util.*;
+import java.base.share.classes.sun.security.util.Debug;
 
-import sun.security.util.Debug;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A timestamper that communicates with a Timestamping Authority (TSA)

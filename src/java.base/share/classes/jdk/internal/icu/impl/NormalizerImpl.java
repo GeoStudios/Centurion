@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.icu.impl;
+package java.base.share.classes.jdk.internal.icu.impl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
+import java.base.share.classes.jdk.internal.icu.lang.UCharacter;
+import java.base.share.classes.jdk.internal.icu.text.Normalizer2;
+import java.base.share.classes.jdk.internal.icu.text.UTF16;
+import java.base.share.classes.jdk.internal.icu.util.CodePointTrie;
+import java.base.share.classes.jdk.internal.icu.util.VersionInfo;
 
-import jdk.internal.icu.lang.UCharacter;
-import jdk.internal.icu.text.Normalizer2;
-import jdk.internal.icu.text.UTF16;
-import jdk.internal.icu.util.CodePointTrie;
-import jdk.internal.icu.util.VersionInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Original filename in ICU4J: Normalizer2Impl.java
 public final class NormalizerImpl {

@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Signals that an end of file or end of stream has been reached
@@ -33,7 +49,7 @@ package java.io;
  * @see     java.io.IOException
  */
 public class EOFException extends IOException {
-    @java.io.Serial
+    @Serial
     private static final long serialVersionUID = 6433858223774886977L;
 
     /**
@@ -47,7 +63,7 @@ public class EOFException extends IOException {
     /**
      * Constructs an {@code EOFException} with the specified detail
      * message. The string {@code s} may later be retrieved by the
-     * {@link java.lang.Throwable#getMessage} method of class
+     * {@link Throwable#getMessage} method of class
      * {@code java.lang.Throwable}.
      *
      * @param   s   the detail message.

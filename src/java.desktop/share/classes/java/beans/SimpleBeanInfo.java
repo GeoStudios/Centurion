@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.beans;
+package java.desktop.share.classes.java.beans;
 
-import java.awt.Image;
-import java.awt.Toolkit;
-import java.awt.image.ImageProducer;
-import java.net.URL;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
+
+import java.desktop.share.classes.java.awt.Image;
+import java.desktop.share.classes.java.awt.Toolkit;
+import java.desktop.share.classes.java.awt.image.ImageProducer;
+import java.desktop.share.classes.java.net.URL;
+import java.desktop.share.classes.java.security.AccessController;
+import java.desktop.share.classes.java.security.PrivilegedAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is a support class to make it easier for people to provide

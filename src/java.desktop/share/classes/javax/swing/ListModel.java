@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
 
-import javax.swing.event.ListDataListener;
+
+import java.desktop.share.classes.javax.swing.event.java.util.ListDatajava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface defines the methods components like JList use

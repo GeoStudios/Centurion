@@ -19,15 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package org.jcp.xml.dsig.internal.dom;
+package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
+
 
 import java.security.spec.AlgorithmParameterSpec;
-import java.util.List;
-
+import java.util.java.util.java.util.java.util.List;
 import javax.xml.XMLConstants;
 import javax.xml.crypto.MarshalException;
 import javax.xml.crypto.XMLCryptoContext;
@@ -38,11 +34,33 @@ import javax.xml.crypto.dsig.spec.XPathFilter2ParameterSpec;
 import javax.xml.crypto.dsig.spec.XPathFilterParameterSpec;
 import javax.xml.crypto.dsig.spec.XPathType;
 import javax.xml.crypto.dsig.spec.XSLTTransformParameterSpec;
+import java.xml.crypto.share.classes.org.w3c.dom.Attr;
+import java.xml.crypto.share.classes.org.w3c.dom.Document;
+import java.xml.crypto.share.classes.org.w3c.dom.Element;
+import java.xml.crypto.share.classes.org.w3c.dom.Node;
 
-import org.w3c.dom.Attr;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
+
 
 /**
  * Useful static DOM utility methods.

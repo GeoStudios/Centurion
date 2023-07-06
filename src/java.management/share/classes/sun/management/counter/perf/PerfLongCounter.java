@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.management.counter.perf;
+package java.management.share.classes.sun.management.counter.perf;
 
-import sun.management.counter.*;
+
+import java.management.share.classes.sun.management.counter.*;
 import java.nio.LongBuffer;
 import java.nio.ReadOnlyBufferException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PerfLongCounter extends AbstractCounter
        implements LongCounter {

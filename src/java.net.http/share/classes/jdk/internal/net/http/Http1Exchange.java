@@ -19,31 +19,46 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
 
-import java.io.IOException;
-import java.net.InetSocketAddress;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.net.Inetjava.net.SocketAddress;
 import java.net.http.HttpClient;
 import java.net.http.HttpResponse;
 import java.net.http.HttpResponse.BodyHandler;
 import java.net.http.HttpResponse.BodySubscriber;
 import java.nio.ByteBuffer;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.CompletableFuture;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.ConcurrentLinkedDeque;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Flow;
-import jdk.internal.net.http.common.Demand;
-import jdk.internal.net.http.common.Log;
-import jdk.internal.net.http.common.FlowTube;
-import jdk.internal.net.http.common.Logger;
-import jdk.internal.net.http.common.SequentialScheduler;
-import jdk.internal.net.http.common.MinimalFuture;
-import jdk.internal.net.http.common.Utils;
-import static java.net.http.HttpClient.Version.HTTP_1_1;
-import static jdk.internal.net.http.common.Utils.wrapWithExtraDetail;
+import java.net.http.share.classes.jdk.internal.net.http.common.Demand;
+import java.net.http.share.classes.jdk.internal.net.http.common.Log;
+import java.net.http.share.classes.jdk.internal.net.http.common.FlowTube;
+import java.net.http.share.classes.jdk.internal.net.http.common.Logger;
+import java.net.http.share.classes.jdk.internal.net.http.common.SequentialScheduler;
+import java.net.http.share.classes.jdk.internal.net.http.common.MinimalFuture;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+import static java.net.http.HttpClient.Version.HTTP_1_1;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.wrapWithExtraDetail;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Encapsulates one HTTP/1.1 request/response exchange.

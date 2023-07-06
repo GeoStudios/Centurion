@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.im;
+package java.desktop.share.classes.java.awt.im;
 
-import java.awt.Rectangle;
-import java.awt.font.TextHitInfo;
-import java.text.AttributedCharacterIterator;
-import java.text.AttributedCharacterIterator.Attribute;
+
+import java.desktop.share.classes.java.awt.Rectangle;
+import java.desktop.share.classes.java.awt.font.TextHitInfo;
+import java.desktop.share.classes.java.text.AttributedCharacterIterator;
+import java.desktop.share.classes.java.text.AttributedCharacterIterator.Attribute;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * InputMethodRequests defines the requests that a text editing component

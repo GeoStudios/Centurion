@@ -19,32 +19,46 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.gtk;
+package java.desktop.share.classes.com.sun.java.swing.plaf.gtk;
 
-import java.awt.*;
-import java.beans.*;
-import java.io.File;
-import java.lang.ref.*;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.Locale;
+
+import java.desktop.share.classes.com.sun.java.awt.*;
+import java.desktop.share.classes.com.sun.java.beans.*;
+import java.desktop.share.classes.com.sun.java.io.File;
+import java.desktop.share.classes.com.sun.java.lang.ref.*;
+import java.desktop.share.classes.com.sun.java.security.AccessController;
+import java.desktop.share.classes.com.sun.java.security.PrivilegedAction;
+import java.desktop.share.classes.com.sun.java.util.Locale;
 import javax.swing.*;
 import javax.swing.colorchooser.*;
 import javax.swing.plaf.*;
 import javax.swing.plaf.synth.*;
 import javax.swing.text.DefaultEditorKit;
+import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKConstants.PositionType;
+import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKConstants.StateType;
+import java.desktop.share.classes.com.sun.java.util.HashMap;
+import java.desktop.share.classes.com.sun.java.util.Map;
+import java.desktop.share.classes.com.sun.awt.SunToolkit;
+import java.desktop.share.classes.com.sun.awt.UNIXToolkit;
+import java.desktop.share.classes.com.sun.awt.OSInfo;
+import java.desktop.share.classes.com.sun.security.action.GetPropertyAction;
+import java.desktop.share.classes.com.sun.swing.DefaultLayoutStyle;
+import java.desktop.share.classes.com.sun.swing.SwingAccessor;
+import java.desktop.share.classes.com.sun.swing.SwingUtilities2;
 
-import com.sun.java.swing.plaf.gtk.GTKConstants.PositionType;
-import com.sun.java.swing.plaf.gtk.GTKConstants.StateType;
-import java.util.HashMap;
-import java.util.Map;
-import sun.awt.SunToolkit;
-import sun.awt.UNIXToolkit;
-import sun.awt.OSInfo;
-import sun.security.action.GetPropertyAction;
-import sun.swing.DefaultLayoutStyle;
-import sun.swing.SwingAccessor;
-import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

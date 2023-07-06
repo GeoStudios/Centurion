@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.misc;
+package java.base.share.classes.jdk.internal.misc;
+
 
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
@@ -28,6 +29,20 @@ import java.lang.invoke.MethodType;
 import java.nio.channels.FileChannel.MapMode;
 import java.security.AccessController;
 import java.security.PrivilegedExceptionAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * JDK-specific map modes implemented in java.base.

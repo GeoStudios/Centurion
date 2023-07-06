@@ -19,27 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.regex;
+package java.base.share.classes.java.util.regex;
 
-import java.text.Normalizer;
-import java.text.Normalizer.Form;
-import java.util.Locale;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Set;
-import java.util.Arrays;
-import java.util.NoSuchElementException;
-import java.util.Spliterator;
-import java.util.Spliterators;
-import java.util.function.Predicate;
-import java.util.stream.Stream;
-import java.util.stream.StreamSupport;
 
-import jdk.internal.util.ArraysSupport;
+import java.base.share.classes.java.text.Normalizer;
+import java.base.share.classes.java.text.Normalizer.Form;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.Iterator;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.HashMap;
+import java.base.share.classes.java.util.LinkedHashSet;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Set;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.NoSuchElementException;
+import java.base.share.classes.java.util.Spliterator;
+import java.base.share.classes.java.util.Spliterators;
+import java.base.share.classes.java.util.function.Predicate;
+import java.base.share.classes.java.util.stream.Stream;
+import java.base.share.classes.java.util.stream.StreamSupport;
+import jdk.internal.util.java.util.ArraysSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A compiled representation of a regular expression.

@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.share.classes.sun.font;
+
 
 import java.awt.font.TextAttribute;
 import java.text.AttributedCharacterIterator.Attribute;
+import static java.awt.font.TextAttribute.*;.extended
 
-import static java.awt.font.TextAttribute.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public enum EAttribute {
     EFAMILY(FAMILY),

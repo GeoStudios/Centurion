@@ -19,13 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.code;
+package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
-import com.sun.source.tree.Tree.Kind;
 
+import jdk.compiler.share.classes.com.sun.source.tree.Tree.Kind;
 import javax.lang.model.type.TypeKind;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.NumericClasses.*;.extended
 
-import static com.sun.tools.javac.code.TypeTag.NumericClasses.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** An interface for type tag values, which distinguish between different
  *  sorts of types.

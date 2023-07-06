@@ -21,9 +21,22 @@
 
 package nsk.jdi.VirtualMachine.description;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

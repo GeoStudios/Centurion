@@ -19,15 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*-
- *      news stream opener
- */
+package java.base.share.classes.sun.net.www;
 
-package sun.net.www;
 
 import java.io.*;
 import java.util.Collections;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-
+ *      news stream opener
+ */
+
+
+
 
 /** An RFC 844 or MIME message header.  Includes methods
     for parsing headers from incoming streams, fetching

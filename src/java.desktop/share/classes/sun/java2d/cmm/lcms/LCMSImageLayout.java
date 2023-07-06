@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.cmm.lcms;
+package java.desktop.share.classes.sun.java2d.cmm.lcms;
+
 
 import java.awt.image.BufferedImage;
 import java.awt.image.ColorModel;
 import java.awt.image.ComponentColorModel;
 import java.awt.image.ComponentSampleModel;
 import java.awt.image.Raster;
+import java.desktop.share.classes.sun.awt.image.ByteComponentRaster;
+import java.desktop.share.classes.sun.awt.image.IntegerComponentRaster;
+import java.desktop.share.classes.sun.awt.image.ShortComponentRaster;
 
-import sun.awt.image.ByteComponentRaster;
-import sun.awt.image.IntegerComponentRaster;
-import sun.awt.image.ShortComponentRaster;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class LCMSImageLayout {
 

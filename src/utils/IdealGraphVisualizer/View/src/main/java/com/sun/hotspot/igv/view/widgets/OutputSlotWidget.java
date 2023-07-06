@@ -18,14 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.view.widgets;
 
-import com.sun.hotspot.igv.graph.Figure;
-import com.sun.hotspot.igv.graph.OutputSlot;
-import com.sun.hotspot.igv.view.DiagramScene;
-import java.awt.Point;
-import java.util.List;
+package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.widgets;
+
+
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.graph.Figure;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.graph.OutputSlot;
+import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.DiagramScene;
+import utils.IdealGraphVisualizer.View.src.main.java.awt.Point;
+import utils.IdealGraphVisualizer.View.src.main.java.util.java.util.java.util.java.util.List;
 import org.netbeans.api.visual.widget.Widget;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

@@ -19,14 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.smartcardio;
+package java.smartcardio.share.classes.javax.smartcardio;
+
 
 import java.util.*;
-
-import java.security.*;
-
+import java.base.share.classes.java.security.*;
 import sun.security.jca.*;
 import sun.security.jca.GetInstance.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A factory for CardTerminal objects.

@@ -19,21 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.management.internal;
+package jdk.management.share.classes.com.sun.management.internal;
 
-import com.sun.management.GarbageCollectionNotificationInfo;
-import com.sun.management.GarbageCollectorMXBean;
-import com.sun.management.GcInfo;
+
+import jdk.management.share.classes.com.sun.management.GarbageCollectionNotificationInfo;
+import jdk.management.share.classes.com.sun.management.GarbageCollectorMXBean;
+import jdk.management.share.classes.com.sun.management.GcInfo;
 import java.lang.management.MemoryPoolMXBean;
-import java.util.List;
-import javax.management.ListenerNotFoundException;
+import java.util.java.util.java.util.java.util.List;
+import javax.management.java.util.ListenerNotFoundException;
 import javax.management.MBeanNotificationInfo;
 import javax.management.Notification;
 import javax.management.NotificationFilter;
-import javax.management.NotificationListener;
+import javax.management.Notificationjava.util.Listener;
 import javax.management.openmbean.CompositeData;
-import sun.management.GarbageCollectorImpl;
-import sun.management.ManagementFactoryHelper;
+import jdk.management.share.classes.com.sun.management.GarbageCollectorImpl;
+import jdk.management.share.classes.com.sun.management.ManagementFactoryHelper;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation class for the garbage collector.

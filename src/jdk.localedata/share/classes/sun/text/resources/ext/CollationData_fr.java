@@ -19,12 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.localedata.share.classes.sun.text.resources.ext;
+
+
+import java.util.java.util.ListResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  */
 
-package sun.text.resources.ext;
 
-import java.util.ListResourceBundle;
+
 
 public class CollationData_fr extends ListResourceBundle {
 

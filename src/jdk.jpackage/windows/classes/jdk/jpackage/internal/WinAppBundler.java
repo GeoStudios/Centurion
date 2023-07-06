@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jpackage.internal;
+package jdk.jpackage.windows.classes.jdk.jpackage.internal;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class WinAppBundler extends AppImageBundler {
     public WinAppBundler() {

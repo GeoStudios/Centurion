@@ -19,19 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.tree;
+package jdk.compiler.share.classes.com.sun.tools.javac.tree;
+
 
 import java.io.*;
+import jdk.compiler.share.classes.com.sun.source.tree.MemberReferenceTree.ReferenceMode;
+import jdk.compiler.share.classes.com.sun.source.tree.ModuleTree.ModuleKind;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.ANNOTATION;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.*;.extended
 
-import com.sun.source.tree.MemberReferenceTree.ReferenceMode;
-import com.sun.source.tree.ModuleTree.ModuleKind;
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.tree.JCTree.*;
-import com.sun.tools.javac.util.*;
 
-import static com.sun.tools.javac.code.Flags.*;
-import static com.sun.tools.javac.code.Flags.ANNOTATION;
-import static com.sun.tools.javac.tree.JCTree.Tag.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Prints out a tree as an indented Java source program.
  *

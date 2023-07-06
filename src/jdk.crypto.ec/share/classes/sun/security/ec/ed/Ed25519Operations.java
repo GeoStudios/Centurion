@@ -18,13 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.security.ec.ed;
 
-import sun.security.ec.point.*;
-import sun.security.util.math.*;
+package jdk.crypto.ec.share.classes.sun.security.ec.ed;
 
+
+import jdk.crypto.ec.share.classes.sun.security.ec.point.*;
+import jdk.crypto.ec.share.classes.sun.security.util.math.*;
 import java.math.BigInteger;
 import java.util.function.Function;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Elliptic curve point arithmetic, decoding, and other operations for the

@@ -21,6 +21,21 @@
 
 package pkg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Parent<PE> implements Interface<PE> {
 
     public int method() {

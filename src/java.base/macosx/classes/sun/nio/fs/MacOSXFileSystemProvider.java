@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.fs;
+package java.base.macosx.classes.sun.nio.fs;
+
 
 import java.nio.file.Path;
 import java.nio.file.spi.FileTypeDetector;
 import jdk.internal.util.StaticProperty;
-import sun.security.action.GetPropertyAction;
+import java.base.macosx.classes.sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * MacOSX implementation of FileSystemProvider

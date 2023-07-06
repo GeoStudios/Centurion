@@ -18,34 +18,48 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d.demos.Mix;
+
+package demo.share.jfc.J2Ddemo.java2d.demos.Mix;
 
 
-import static java.awt.Color.BLUE;
-import static java.awt.Color.GREEN;
-import static java.awt.Color.ORANGE;
-import static java.awt.Color.RED;
-import static java.awt.Color.WHITE;
-import static java.awt.Color.YELLOW;
-import static java.lang.Math.random;
-import static java.lang.Math.sqrt;
+import static java.awt.Color.BLUE;.extended
+import static java.awt.Color.GREEN;.extended
+import static java.awt.Color.ORANGE;.extended
+import static java.awt.Color.RED;.extended
+import static java.awt.Color.WHITE;.extended
+import static java.awt.Color.YELLOW;.extended
+import static java.lang.Math.random;.extended
+import static java.lang.Math.sqrt;.extended
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.Graphics2D;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferByte;
 import java.awt.image.IndexColorModel;
 import java.awt.image.Raster;
 import java.awt.image.WritableRaster;
-import java2d.AnimatingControlsSurface;
-import java2d.CustomControls;
+import demo.share.jfc.J2Ddemo.java2d.AnimatingControlsSurface;
+import demo.share.jfc.J2Ddemo.java2d.CustomControls;
 import javax.swing.AbstractButton;
 import javax.swing.JComboBox;
 import javax.swing.JToggleButton;
 import javax.swing.JToolBar;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8268366
@@ -26,7 +43,6 @@
  *                   compiler.c1.TestLinearScanHasFPURegisters
  */
 
-package compiler.c1;
 
 public class TestLinearScanHasFPURegisters {
     void test(String[] args) {

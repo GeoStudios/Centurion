@@ -19,8 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.java.security;
 
-package java.security;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the exception for invalid Keys (invalid encoding, wrong

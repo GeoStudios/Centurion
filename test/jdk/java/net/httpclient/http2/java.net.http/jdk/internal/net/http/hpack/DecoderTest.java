@@ -18,22 +18,35 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.internal.net.http.hpack;
 
-import org.testng.annotations.Test;
 
-import java.io.IOException;
-import java.io.UncheckedIOException;
+import org.testng.annotations.Test;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertNotNull;.extended
+import static jdk.internal.net.http.hpack.TestHelper.*;.extended
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertNotNull;
-import static jdk.internal.net.http.hpack.TestHelper.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 //
 // Tests whose names start with "testX" are the ones captured from real HPACK

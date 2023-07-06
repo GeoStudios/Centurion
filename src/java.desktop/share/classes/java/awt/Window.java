@@ -19,50 +19,63 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.event.ComponentEvent;
-import java.awt.event.FocusEvent;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseWheelEvent;
-import java.awt.event.WindowEvent;
-import java.awt.event.WindowFocusListener;
-import java.awt.event.WindowListener;
-import java.awt.event.WindowStateListener;
-import java.awt.geom.Path2D;
-import java.awt.geom.Point2D;
-import java.awt.im.InputContext;
-import java.awt.image.BufferStrategy;
-import java.awt.peer.ComponentPeer;
-import java.awt.peer.WindowPeer;
-import java.beans.PropertyChangeListener;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.OptionalDataException;
-import java.io.Serial;
-import java.io.Serializable;
-import java.lang.ref.WeakReference;
-import java.lang.reflect.InvocationTargetException;
-import java.security.AccessController;
-import java.util.*;
-import java.util.concurrent.atomic.AtomicBoolean;
 
+import java.desktop.share.classes.java.awt.event.ComponentEvent;
+import java.desktop.share.classes.java.awt.event.FocusEvent;
+import java.desktop.share.classes.java.awt.event.KeyEvent;
+import java.desktop.share.classes.java.awt.event.MouseWheelEvent;
+import java.desktop.share.classes.java.awt.event.WindowEvent;
+import java.desktop.share.classes.java.awt.event.WindowFocusjava.util.Listener;
+import java.desktop.share.classes.java.awt.event.Windowjava.util.Listener;
+import java.desktop.share.classes.java.awt.event.WindowStatejava.util.Listener;
+import java.desktop.share.classes.java.awt.geom.Path2D;
+import java.desktop.share.classes.java.awt.geom.Point2D;
+import java.desktop.share.classes.java.awt.im.InputContext;
+import java.desktop.share.classes.java.awt.image.BufferStrategy;
+import java.desktop.share.classes.java.awt.peer.ComponentPeer;
+import java.desktop.share.classes.java.awt.peer.WindowPeer;
+import java.desktop.share.classes.java.beans.PropertyChangejava.util.Listener;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.ObjectOutputStream;
+import java.desktop.share.classes.java.io.OptionalDataException;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.io.Serializable;
+import java.desktop.share.classes.java.lang.ref.WeakReference;
+import java.desktop.share.classes.java.lang.reflect.InvocationTargetException;
+import java.desktop.share.classes.java.security.AccessController;
+import java.desktop.share.classes.java.util.*;
+import java.desktop.share.classes.java.util.concurrent.atomic.AtomicBoolean;
 import javax.accessibility.Accessible;
 import javax.accessibility.AccessibleContext;
 import javax.accessibility.AccessibleRole;
 import javax.accessibility.AccessibleState;
 import javax.accessibility.AccessibleStateSet;
-
 import sun.awt.AWTAccessor;
 import sun.awt.AWTPermissions;
 import sun.awt.AppContext;
 import sun.awt.DebugSettings;
 import sun.awt.SunToolkit;
-import sun.awt.util.IdentityArrayList;
+import sun.awt.util.IdentityArrayjava.util.java.util.java.util.List;
 import sun.java2d.pipe.Region;
 import sun.security.action.GetPropertyAction;
 import sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code Window} object is a top-level window with no borders and no

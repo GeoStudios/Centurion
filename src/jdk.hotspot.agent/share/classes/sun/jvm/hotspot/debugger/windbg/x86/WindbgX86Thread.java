@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.windbg.x86;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.windbg.x86;
 
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.debugger.x86.*;
-import sun.jvm.hotspot.debugger.windbg.*;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.x86.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.windbg.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class WindbgX86Thread implements ThreadProxy {
   private final WindbgDebugger debugger;

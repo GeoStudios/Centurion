@@ -19,15 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.dns;
+package jdk.naming.dns.share.classes.com.sun.jndi.dns;
 
 
 import java.net.MalformedURLException;
 import java.util.Hashtable;
 import java.util.StringTokenizer;
+import jdk.naming.dns.share.classes.com.sun.jndi.toolkit.url.Uri;
+import jdk.naming.dns.share.classes.com.sun.jndi.toolkit.url.UrlUtil;
 
-import com.sun.jndi.toolkit.url.Uri;
-import com.sun.jndi.toolkit.url.UrlUtil;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole;
+package jdk.jconsole.share.classes.sun.tools.jconsole;
+
 
 import javax.management.ObjectName;
 import java.lang.management.MemoryPoolMXBean;
@@ -29,8 +30,21 @@ import com.sun.management.GcInfo;
 import java.util.HashMap;
 import java.util.Set;
 import java.util.Map;
+import static java.lang.management.ManagementFactory.*;.extended
 
-import static java.lang.management.ManagementFactory.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MemoryPoolProxy {
     private final String poolName;

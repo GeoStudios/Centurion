@@ -19,19 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.windows;
+package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-import java.awt.Color;
-import java.awt.Graphics;
 
+import java.desktop.windows.classes.com.sun.java.awt.Color;
+import java.desktop.windows.classes.com.sun.java.awt.Graphics;
 import javax.swing.JComponent;
 import javax.swing.JLabel;
 import javax.swing.UIManager;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicLabelUI;
+import java.desktop.windows.classes.com.sun.awt.AppContext;
+import java.desktop.windows.classes.com.sun.swing.SwingUtilities2;
 
-import sun.awt.AppContext;
-import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Windows rendition of the component.

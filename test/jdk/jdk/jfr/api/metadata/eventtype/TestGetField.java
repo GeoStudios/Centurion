@@ -21,10 +21,24 @@
 
 package jdk.jfr.api.metadata.eventtype;
 
+
 import jdk.jfr.Event;
 import jdk.jfr.EventType;
 import jdk.jfr.ValueDescriptor;
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.nio.sctp;
+
+package jdk.sctp.share.classes.com.sun.nio.sctp;
+
 
 import java.nio.ByteBuffer;
-import java.net.SocketAddress;
+import java.net.java.net.SocketAddress;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Notification emitted when a send failed notification has been received.

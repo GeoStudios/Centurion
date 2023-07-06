@@ -19,15 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.macosx.classes.sun.lwawt;
 
-package sun.lwawt;
 
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.GraphicsConfiguration;
 import java.awt.peer.CanvasPeer;
-
 import javax.swing.JComponent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Lightweight implementation of {@link CanvasPeer}. This peer is empty, because

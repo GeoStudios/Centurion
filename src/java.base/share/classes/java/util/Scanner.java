@@ -19,23 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.io.*;
-import java.math.*;
-import java.nio.*;
-import java.nio.channels.*;
-import java.nio.charset.*;
-import java.nio.file.Path;
-import java.nio.file.Files;
-import java.text.*;
-import java.text.spi.NumberFormatProvider;
-import java.util.function.Consumer;
-import java.util.regex.*;
-import java.util.stream.Stream;
-import java.util.stream.StreamSupport;
+
+import java.base.share.classes.java.io.*;
+import java.base.share.classes.java.math.*;
+import java.base.share.classes.java.nio.*;
+import java.base.share.classes.java.nio.channels.*;
+import java.base.share.classes.java.nio.charset.*;
+import java.base.share.classes.java.nio.file.Path;
+import java.base.share.classes.java.nio.file.Files;
+import java.base.share.classes.java.text.*;
+import java.base.share.classes.java.text.spi.NumberFormatProvider;
+import java.base.share.classes.java.util.function.Consumer;
+import java.base.share.classes.java.util.regex.*;
+import java.base.share.classes.java.util.stream.Stream;
+import java.base.share.classes.java.util.stream.StreamSupport;
 import sun.util.locale.provider.LocaleProviderAdapter;
 import sun.util.locale.provider.ResourceBundleBasedAdapter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A simple text scanner which can parse primitive types and strings using

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.interpreter.cr7116216;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 7116216
@@ -27,7 +44,6 @@
  * @run main/othervm -Xcomp -Xbatch compiler.interpreter.cr7116216.StackOverflow
  */
 
-package compiler.interpreter.cr7116216;
 
 public class StackOverflow {
     static String stackOverflow_largeFrame_liveOopForGC;

@@ -19,52 +19,63 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.comp;
+package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-import com.sun.tools.javac.code.Symbol.MethodHandleSymbol;
-import com.sun.tools.javac.code.Types.SignatureGenerator.InvalidSignatureException;
-import com.sun.tools.javac.jvm.PoolConstant.LoadableConstant;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.resources.CompilerProperties.Fragments;
-import com.sun.tools.javac.tree.*;
-import com.sun.tools.javac.tree.JCTree.*;
-import com.sun.tools.javac.tree.JCTree.JCMemberReference.ReferenceKind;
-import com.sun.tools.javac.tree.TreeMaker;
-import com.sun.tools.javac.tree.TreeTranslator;
-import com.sun.tools.javac.code.Attribute;
-import com.sun.tools.javac.code.Symbol;
-import com.sun.tools.javac.code.Symbol.ClassSymbol;
-import com.sun.tools.javac.code.Symbol.DynamicMethodSymbol;
-import com.sun.tools.javac.code.Symbol.MethodSymbol;
-import com.sun.tools.javac.code.Symbol.TypeSymbol;
-import com.sun.tools.javac.code.Symbol.VarSymbol;
-import com.sun.tools.javac.code.Symtab;
-import com.sun.tools.javac.code.Type;
-import com.sun.tools.javac.code.Type.MethodType;
-import com.sun.tools.javac.code.Type.TypeVar;
-import com.sun.tools.javac.code.Types;
-import com.sun.tools.javac.comp.LambdaToMethod.LambdaAnalyzerPreprocessor.*;
-import com.sun.tools.javac.comp.Lower.BasicFreeVarCollector;
-import com.sun.tools.javac.resources.CompilerProperties.Notes;
-import com.sun.tools.javac.jvm.*;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
-import com.sun.source.tree.MemberReferenceTree.ReferenceMode;
 
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.MethodHandleSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Types.SignatureGenerator.InvalidSignatureException;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.PoolConstant.LoadableConstant;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCMemberReference.ReferenceKind;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeMaker;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeTranslator;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Attribute;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ClassSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.DynamicMethodSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.MethodSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.TypeSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.VarSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symtab;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.MethodType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.TypeVar;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Types;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.LambdaToMethod.LambdaAnalyzerPreprocessor.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Lower.BasicFreeVarCollector;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Notes;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
+import jdk.compiler.share.classes.com.sun.source.tree.MemberReferenceTree.ReferenceMode;
 import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
-
-import static com.sun.tools.javac.comp.LambdaToMethod.LambdaSymbolKind.*;
-import static com.sun.tools.javac.code.Flags.*;
-import static com.sun.tools.javac.code.Kinds.Kind.*;
-import static com.sun.tools.javac.code.TypeTag.*;
-import static com.sun.tools.javac.tree.JCTree.Tag.*;
-
+import static jdk.compiler.share.classes.com.sun.tools.javac.comp.LambdaToMethod.LambdaSymbolKind.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.*;.extended
 import javax.lang.model.element.ElementKind;
 import javax.lang.model.type.TypeKind;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Option;
 
-import com.sun.tools.javac.main.Option;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This pass desugars lambda expressions into static methods
@@ -570,7 +581,7 @@ public class LambdaToMethod extends TreeTranslator {
      */
     @Override
     public void visitNewClass(JCNewClass tree) {
-        if (context == null || !analyzer.lambdaNewClassFilter(context, tree)) {
+        if (!analyzer.lambdaNewClassFilter(context, tree)) {
             super.visitNewClass(tree);
         } else {
             int prevPos = make.pos;

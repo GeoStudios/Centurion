@@ -19,17 +19,18 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.AlgorithmConstraints;
 import java.security.CryptoPrimitive;
 import java.security.GeneralSecurityException;
-import java.security.KeyFactory;
+import java.base.share.classes.java.security.KeyFactory;
 import java.security.KeyPair;
 import java.security.KeyPairGenerator;
-import java.security.PrivateKey;
-import java.security.PublicKey;
+import java.base.share.classes.java.security.PrivateKey;
+import java.base.share.classes.java.security.PublicKey;
 import java.security.SecureRandom;
 import java.security.interfaces.ECPublicKey;
 import java.security.spec.ECParameterSpec;
@@ -37,15 +38,29 @@ import java.security.spec.ECPoint;
 import java.security.spec.ECPublicKeySpec;
 import java.util.EnumSet;
 import javax.crypto.KeyAgreement;
-import javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.SecretKey;
 import javax.net.ssl.SSLHandshakeException;
-import sun.security.ssl.NamedGroup.NamedGroupSpec;
-import sun.security.ssl.SupportedGroupsExtension.SupportedGroups;
-import sun.security.ssl.X509Authentication.X509Credentials;
-import sun.security.ssl.X509Authentication.X509Possession;
-import sun.security.ssl.XDHKeyExchange.XDHECredentials;
-import sun.security.ssl.XDHKeyExchange.XDHEPossession;
-import sun.security.util.ECUtil;
+import java.base.share.classes.sun.security.ssl.NamedGroup.NamedGroupSpec;
+import java.base.share.classes.sun.security.ssl.SupportedGroupsExtension.SupportedGroups;
+import java.base.share.classes.sun.security.ssl.X509Authentication.X509Credentials;
+import java.base.share.classes.sun.security.ssl.X509Authentication.X509Possession;
+import java.base.share.classes.sun.security.ssl.XDHKeyExchange.XDHECredentials;
+import java.base.share.classes.sun.security.ssl.XDHKeyExchange.XDHEPossession;
+import java.base.share.classes.sun.security.util.ECUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class ECDHKeyExchange {
     static final SSLPossessionGenerator poGenerator =

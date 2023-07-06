@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.reflect;
+package java.base.share.classes.java.lang.reflect;
 
-import jdk.internal.access.SharedSecrets;
+
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.reflect.CallerSensitive;
 import jdk.internal.reflect.ConstructorAccessor;
 import jdk.internal.reflect.Reflection;
@@ -32,9 +33,23 @@ import sun.reflect.generics.repository.ConstructorRepository;
 import sun.reflect.generics.factory.CoreReflectionFactory;
 import sun.reflect.generics.factory.GenericsFactory;
 import sun.reflect.generics.scope.ConstructorScope;
-import java.lang.annotation.Annotation;
-import java.lang.annotation.AnnotationFormatError;
-import java.util.StringJoiner;
+import java.base.share.classes.java.lang.annotation.Annotation;
+import java.base.share.classes.java.lang.annotation.AnnotationFormatError;
+import java.base.share.classes.java.util.StringJoiner;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code Constructor} provides information about, and access to, a single

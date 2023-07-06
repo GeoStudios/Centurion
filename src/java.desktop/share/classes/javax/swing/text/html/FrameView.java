@@ -18,17 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text.html;
+
+package java.desktop.share.classes.javax.swing.text.html;
+
 
 import java.awt.*;
 import java.util.*;
 import java.net.*;
 import java.io.*;
-import javax.swing.*;
-import javax.swing.text.*;
-import javax.swing.event.*;
-
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.text.*;
+import java.desktop.share.classes.javax.swing.event.*;
 import sun.swing.text.html.FrameEditorPaneTag;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements a FrameView, intended to support the HTML

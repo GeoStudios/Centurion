@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.smartcardio;
+package java.smartcardio.share.classes.javax.smartcardio;
+
 
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Smart Card's answer-to-reset bytes. A Card's ATR object can be obtained
@@ -133,10 +148,9 @@ public final class ATR implements java.io.Serializable {
         if (this == obj) {
             return true;
         }
-        if (!(obj instanceof ATR)) {
+        if (!(obj instanceof ATR other)) {
             return false;
         }
-        ATR other = (ATR)obj;
         return Arrays.equals(this.atr, other.atr);
     }
 

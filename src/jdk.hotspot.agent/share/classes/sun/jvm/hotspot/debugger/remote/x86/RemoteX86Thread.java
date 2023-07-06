@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.remote.x86;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.remote.x86;
 
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.debugger.x86.*;
-import sun.jvm.hotspot.debugger.remote.*;
-import sun.jvm.hotspot.utilities.*;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.x86.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.remote.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class RemoteX86Thread extends RemoteThread  {
   public RemoteX86Thread(RemoteDebuggerClient debugger, Address addr) {

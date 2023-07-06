@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.http;
+package java.base.share.classes.sun.net.www.http;
+
 
 import java.io.*;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.regex.*;
-import sun.net.NetProperties;
-import sun.util.logging.PlatformLogger;
+import java.base.share.classes.sun.net.NetProperties;
+import java.base.share.classes.sun.util.logging.PlatformLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Main class of the HTTP traffic capture tool.

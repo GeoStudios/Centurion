@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.oracle;
+
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestInvalidCompileCommand
  * @bug 8263206 8263353
@@ -28,10 +47,7 @@
  * @run driver compiler.oracle.TestInvalidCompileCommand
  */
 
-package compiler.oracle;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class TestInvalidCompileCommand {
 

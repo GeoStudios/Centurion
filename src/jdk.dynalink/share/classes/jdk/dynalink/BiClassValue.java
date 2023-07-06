@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.dynalink;
+package jdk.dynalink.share.classes.jdk.dynalink;
+
 
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
@@ -27,12 +28,25 @@ import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.function.BiFunction;
 import java.util.function.Function;
-import jdk.dynalink.internal.AccessControlContextFactory;
+import jdk.dynalink.share.classes.jdk.dynalink.internal.AccessControlContextFactory;
+import static jdk.dynalink.share.classes.jdk.dynalink.internal.InternalTypeUtilities.canReferenceDirectly;.extended
 
-import static jdk.dynalink.internal.InternalTypeUtilities.canReferenceDirectly;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Similar to ClassValue, but lazily associates a computed value with

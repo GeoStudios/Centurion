@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.runtime.cr6891750;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 6891750
@@ -26,7 +43,6 @@
  * @run main/othervm compiler.runtime.cr6891750.Test6891750
  */
 
-package compiler.runtime.cr6891750;
 
 abstract class Base6891750 extends Thread {
     abstract public long m();

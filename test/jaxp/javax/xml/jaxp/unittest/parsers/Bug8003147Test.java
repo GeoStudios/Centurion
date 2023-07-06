@@ -19,6 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package parsers;
+
+
+import static jaxp.library.JAXPTestUtilities.getSystemProperty;.extended
+import java.io.FileOutputStream;
+import java.io.FilePermission;
+import jaxp.library.JAXPTestUtilities;
+import org.testng.Assert;
+import org.testng.annotations.java.util.Listeners;
+import org.testng.annotations.Test;
+import com.sun.org.apache.bcel.internal.classfile.ClassParser;
+import com.sun.org.apache.bcel.internal.classfile.ConstantClass;
+import com.sun.org.apache.bcel.internal.classfile.ConstantPool;
+import com.sun.org.apache.bcel.internal.classfile.ConstantUtf8;
+import com.sun.org.apache.bcel.internal.classfile.JavaClass;
+import com.sun.org.apache.bcel.internal.classfile.Method;
+import com.sun.org.apache.bcel.internal.generic.ClassGen;
+import com.sun.org.apache.bcel.internal.generic.MethodGen;
+import com.sun.org.apache.bcel.internal.generic.InstructionFactory;
+import com.sun.org.apache.bcel.internal.generic.Instructionjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8003147
@@ -29,29 +63,11 @@
  * @summary Test port fix for BCEL bug 39695.
  */
 
-package parsers;
 
-import static jaxp.library.JAXPTestUtilities.getSystemProperty;
 
-import java.io.FileOutputStream;
-import java.io.FilePermission;
 
-import jaxp.library.JAXPTestUtilities;
 
-import org.testng.Assert;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
 
-import com.sun.org.apache.bcel.internal.classfile.ClassParser;
-import com.sun.org.apache.bcel.internal.classfile.ConstantClass;
-import com.sun.org.apache.bcel.internal.classfile.ConstantPool;
-import com.sun.org.apache.bcel.internal.classfile.ConstantUtf8;
-import com.sun.org.apache.bcel.internal.classfile.JavaClass;
-import com.sun.org.apache.bcel.internal.classfile.Method;
-import com.sun.org.apache.bcel.internal.generic.ClassGen;
-import com.sun.org.apache.bcel.internal.generic.MethodGen;
-import com.sun.org.apache.bcel.internal.generic.InstructionFactory;
-import com.sun.org.apache.bcel.internal.generic.InstructionList;
 
 @Listeners({ jaxp.library.FilePolicy.class, jaxp.library.InternalAPIPolicy.class })
 public class Bug8003147Test {

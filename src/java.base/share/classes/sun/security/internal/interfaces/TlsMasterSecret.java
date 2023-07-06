@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.internal.interfaces;
+package java.base.share.classes.sun.security.internal.interfaces;
 
-import javax.crypto.SecretKey;
+
+import java.base.share.classes.javax.crypto.SecretKey;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An SSL/TLS master secret key. It is a <code>SecretKey</code> that optionally

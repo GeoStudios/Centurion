@@ -18,12 +18,14 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.tests.java.util.stream;
 
-import java.util.Arrays;
+
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.PrimitiveIterator;
 import java.util.Spliterators;
@@ -44,26 +46,37 @@ import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 import java.util.stream.StreamTestDataProvider;
 import java.util.stream.TestData;
-
 import org.testng.annotations.Test;
+import static java.util.stream.LambdaTestHelpers.countTo;.extended
+import static java.util.stream.LambdaTestHelpers.dpEven;.extended
+import static java.util.stream.LambdaTestHelpers.dpFalse;.extended
+import static java.util.stream.LambdaTestHelpers.dpOdd;.extended
+import static java.util.stream.LambdaTestHelpers.dpTrue;.extended
+import static java.util.stream.LambdaTestHelpers.ipEven;.extended
+import static java.util.stream.LambdaTestHelpers.ipFalse;.extended
+import static java.util.stream.LambdaTestHelpers.ipOdd;.extended
+import static java.util.stream.LambdaTestHelpers.ipTrue;.extended
+import static java.util.stream.LambdaTestHelpers.lpEven;.extended
+import static java.util.stream.LambdaTestHelpers.lpFalse;.extended
+import static java.util.stream.LambdaTestHelpers.lpOdd;.extended
+import static java.util.stream.LambdaTestHelpers.lpTrue;.extended
+import static java.util.stream.LambdaTestHelpers.pEven;.extended
+import static java.util.stream.LambdaTestHelpers.pFalse;.extended
+import static java.util.stream.LambdaTestHelpers.pOdd;.extended
+import static java.util.stream.LambdaTestHelpers.pTrue;.extended
 
-import static java.util.stream.LambdaTestHelpers.countTo;
-import static java.util.stream.LambdaTestHelpers.dpEven;
-import static java.util.stream.LambdaTestHelpers.dpFalse;
-import static java.util.stream.LambdaTestHelpers.dpOdd;
-import static java.util.stream.LambdaTestHelpers.dpTrue;
-import static java.util.stream.LambdaTestHelpers.ipEven;
-import static java.util.stream.LambdaTestHelpers.ipFalse;
-import static java.util.stream.LambdaTestHelpers.ipOdd;
-import static java.util.stream.LambdaTestHelpers.ipTrue;
-import static java.util.stream.LambdaTestHelpers.lpEven;
-import static java.util.stream.LambdaTestHelpers.lpFalse;
-import static java.util.stream.LambdaTestHelpers.lpOdd;
-import static java.util.stream.LambdaTestHelpers.lpTrue;
-import static java.util.stream.LambdaTestHelpers.pEven;
-import static java.util.stream.LambdaTestHelpers.pFalse;
-import static java.util.stream.LambdaTestHelpers.pOdd;
-import static java.util.stream.LambdaTestHelpers.pTrue;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * MatchOpTest

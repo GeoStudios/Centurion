@@ -18,30 +18,44 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.terminal.impl;
+
+package jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl;
+
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.FileDescriptor;
 import java.io.OutputStream;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Attributes;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Attributes.ControlChar;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Attributes.ControlFlag;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Attributes.InputFlag;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Attributes.LocalFlag;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Attributes.OutputFlag;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Size;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.spi.Pty;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.OSUtils;
+import static jdk.internal.le.share.classes.jdk.internal.org.jline.utils.ExecHelper.exec;.extended
 
-import jdk.internal.org.jline.terminal.Attributes;
-import jdk.internal.org.jline.terminal.Attributes.ControlChar;
-import jdk.internal.org.jline.terminal.Attributes.ControlFlag;
-import jdk.internal.org.jline.terminal.Attributes.InputFlag;
-import jdk.internal.org.jline.terminal.Attributes.LocalFlag;
-import jdk.internal.org.jline.terminal.Attributes.OutputFlag;
-import jdk.internal.org.jline.terminal.Size;
-import jdk.internal.org.jline.terminal.spi.Pty;
-import jdk.internal.org.jline.utils.OSUtils;
 
-import static jdk.internal.org.jline.utils.ExecHelper.exec;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ExecPty extends AbstractPty implements Pty {
 

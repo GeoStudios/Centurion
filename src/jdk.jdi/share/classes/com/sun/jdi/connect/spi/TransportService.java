@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jdi.connect.spi;
+package jdk.jdi.share.classes.com.sun.jdi.connect.spi;
 
-import java.io.IOException;
 
-import com.sun.jdi.connect.Transport;
-import com.sun.jdi.connect.TransportTimeoutException;
+import java.io.java.io.java.io.java.io.IOException;
+import jdk.jdi.share.classes.com.sun.jdi.connect.Transport;
+import jdk.jdi.share.classes.com.sun.jdi.connect.TransportTimeoutException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A transport service for connections between a debugger and

@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.ietf.jgss;
+package java.security.jgss.share.classes.org.ietf.jgss;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This exception is thrown whenever a GSS-API error occurs, including

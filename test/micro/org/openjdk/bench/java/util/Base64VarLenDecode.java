@@ -21,8 +21,22 @@
 
 package org.openjdk.micro.bench.java.util;
 
+
 import org.openjdk.jmh.annotations.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Base64VarLenDecode {
 

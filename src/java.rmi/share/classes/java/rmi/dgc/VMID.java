@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.rmi.dgc;
+package java.rmi.share.classes.java.rmi.dgc;
 
-import java.rmi.server.UID;
-import java.security.SecureRandom;
+
+import java.rmi.share.classes.java.rmi.server.UID;
+import java.rmi.share.classes.java.security.SecureRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A VMID is a identifier that is unique across all Java virtual
@@ -121,7 +136,7 @@ public final class VMID implements java.io.Serializable {
                           Integer.toString(x, 16));
             }
         sb.append(':');
-        sb.append(uid.toString());
+        sb.append(uid);
         return sb.toString();
     }
 }

@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.ArrayJuggle.Juggle01;
+
+
+import nsk.share.test.*;
+import nsk.share.gc.*;
+import nsk.share.gc.gp.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -32,11 +51,7 @@
  * @run main/othervm -Xlog:gc=debug:gc.log gc.ArrayJuggle.Juggle01.Juggle01 -gp byteArr -ms low
  */
 
-package gc.ArrayJuggle.Juggle01;
 
-import nsk.share.test.*;
-import nsk.share.gc.*;
-import nsk.share.gc.gp.*;
 
 /**
  * This test randomly replaces elements of an array with new

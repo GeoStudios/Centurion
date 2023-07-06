@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6921969
@@ -34,7 +51,6 @@
  *    compiler.c2.TestMultiplyLongHiZero
  */
 
-package compiler.c2;
 
 // This test must run without any command line arguments.
 public class TestMultiplyLongHiZero {

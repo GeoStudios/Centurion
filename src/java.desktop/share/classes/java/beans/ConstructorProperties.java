@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.beans;
+package java.desktop.share.classes.java.beans;
 
-import java.lang.annotation.*;
-import static java.lang.annotation.ElementType.*;
-import static java.lang.annotation.RetentionPolicy.*;
+
+import java.desktop.share.classes.java.lang.annotation.*;
+import static java.desktop.share.classes.java.lang.annotation.ElementType.*;.extended
+import static java.desktop.share.classes.java.lang.annotation.RetentionPolicy.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
    <p>An annotation on a constructor that shows how the parameters of

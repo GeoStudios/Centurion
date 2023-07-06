@@ -21,16 +21,29 @@
 
 package parse;
 
+
 import java.io.ByteArrayInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-
-import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertEquals;.extended
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * JDK-8059327: XML parser returns corrupt attribute value

@@ -19,18 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.lang.invoke;
+
+
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import static java.lang.invoke.MethodHandles.*;.extended
+import static java.lang.invoke.MethodType.*;.extended
+import static org.testng.Assert.*;.extended
+import org.testng.annotations.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @summary unit tests for java.lang.invoke.MethodHandles
  * @run testng/othervm -ea -esa test.java.lang.invoke.ConstantIdentityMHTest
  */
-package test.java.lang.invoke;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.*;
-import static org.testng.Assert.*;
-import org.testng.annotations.*;
 
 public class ConstantIdentityMHTest {
 

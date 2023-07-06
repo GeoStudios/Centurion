@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.mlvm.indy.func.jdi.breakpointOtherStratum;
+
+
+import vm.mlvm.share.jdi.ArgumentHandler;
+import vm.mlvm.share.jdi.BreakpointInfo;
+import vm.mlvm.share.jdi.JDIBreakpointTest;
+import vm.mlvm.share.jpda.StratumInfo;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -57,15 +80,8 @@
  *      -debugger.debuggeeClass vm.mlvm.share.jdi.IndyDebuggee
  */
 
-package vm.mlvm.indy.func.jdi.breakpointOtherStratum;
 
-import vm.mlvm.share.jdi.ArgumentHandler;
-import vm.mlvm.share.jdi.BreakpointInfo;
-import vm.mlvm.share.jdi.JDIBreakpointTest;
-import vm.mlvm.share.jpda.StratumInfo;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class Test extends JDIBreakpointTest {
     @Override

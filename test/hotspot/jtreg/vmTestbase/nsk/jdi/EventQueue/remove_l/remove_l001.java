@@ -21,16 +21,28 @@
 
 package nsk.jdi.EventQueue.remove_l;
 
+
 import com.sun.jdi.VirtualMachine;
 import com.sun.jdi.request.EventRequest;
 import com.sun.jdi.VMDisconnectedException;
 import com.sun.jdi.event.*;
-
 import java.io.*;
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test checks that a VMDisconnectedException thrown by

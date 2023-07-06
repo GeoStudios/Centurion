@@ -19,22 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal;
+package jdk.jfr.share.classes.jdk.jfr.internal;
 
-import java.util.List;
+
+import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.AnnotationVisitor;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.ClassWriter;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.Label;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.MethodVisitor;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.Type;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.commons.GeneratorAdapter;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.commons.Method;
+import jdk.jfr.share.classes.jdk.jfr.AnnotationElement;
+import jdk.jfr.share.classes.jdk.jfr.Event;
+import jdk.jfr.share.classes.jdk.jfr.ValueDescriptor;
 
-import jdk.internal.org.objectweb.asm.AnnotationVisitor;
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.org.objectweb.asm.Label;
-import jdk.internal.org.objectweb.asm.MethodVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.Type;
-import jdk.internal.org.objectweb.asm.commons.GeneratorAdapter;
-import jdk.internal.org.objectweb.asm.commons.Method;
-import jdk.jfr.AnnotationElement;
-import jdk.jfr.Event;
-import jdk.jfr.ValueDescriptor;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Helper class for building dynamic events

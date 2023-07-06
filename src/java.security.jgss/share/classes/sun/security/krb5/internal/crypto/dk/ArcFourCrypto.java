@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal.crypto.dk;
+package java.security.jgss.share.classes.sun.security.krb5.internal.crypto.dk;
 
-import java.security.*;
-import javax.crypto.*;
-import javax.crypto.spec.*;
+
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.javax.crypto.*;
+import java.base.share.classes.javax.crypto.spec.*;
 import java.util.*;
-import sun.security.krb5.EncryptedData;
-import sun.security.krb5.KrbCryptoException;
-import sun.security.krb5.Confounder;
-import sun.security.krb5.internal.crypto.KeyUsage;
+import java.security.jgss.share.classes.sun.security.krb5.EncryptedData;
+import java.security.jgss.share.classes.sun.security.krb5.KrbCryptoException;
+import java.security.jgss.share.classes.sun.security.krb5.Confounder;
+import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.KeyUsage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Support for ArcFour in Kerberos

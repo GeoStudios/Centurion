@@ -19,16 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.crypto;
+package java.base.share.classes.javax.crypto;
+
 
 import java.util.*;
-
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.Provider.Service;
-import java.security.spec.*;
-
+import java.base.share.classes.java.security.spec.*;
 import sun.security.jca.*;
 import sun.security.jca.GetInstance.Instance;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents a factory for secret keys.

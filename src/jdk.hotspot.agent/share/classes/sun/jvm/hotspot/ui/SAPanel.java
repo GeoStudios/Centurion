@@ -19,30 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.ui;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
+
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
-
 import java.awt.event.*;
-
 import java.io.*;
 import java.util.*;
-
 import javax.swing.*;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
+import javax.swing.event.java.util.ListSelectionEvent;
+import javax.swing.event.java.util.ListSelectionjava.util.Listener;
 import javax.swing.table.*;
-
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.runtime.*;
-import sun.jvm.hotspot.oops.Oop;
-import sun.jvm.hotspot.ui.tree.*;
-
-import sun.jvm.hotspot.ui.action.*;
-
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.Oop;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.tree.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.action.*;
 import com.sun.java.swing.ui.*;
 import com.sun.java.swing.action.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This base class encapsulates many of the events that are fired from

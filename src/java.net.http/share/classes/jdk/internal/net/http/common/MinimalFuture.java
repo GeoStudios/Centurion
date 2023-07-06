@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http.common;
+package java.net.http.share.classes.jdk.internal.net.http.common;
+
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletionStage;
 import java.util.concurrent.atomic.AtomicLong;
+import static java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
 
-import static java.util.Objects.requireNonNull;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * A CompletableFuture which does not allow any obtrusion logic.

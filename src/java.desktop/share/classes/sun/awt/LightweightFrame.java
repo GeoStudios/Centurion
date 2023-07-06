@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.share.classes.sun.awt;
+
 
 import java.awt.Component;
 import java.awt.Container;
@@ -31,13 +32,27 @@ import java.awt.MenuComponent;
 import java.awt.Rectangle;
 import java.awt.Toolkit;
 import java.awt.dnd.DragGestureEvent;
-import java.awt.dnd.DragGestureListener;
+import java.awt.dnd.DragGesturejava.util.Listener;
 import java.awt.dnd.DragGestureRecognizer;
 import java.awt.dnd.DragSource;
 import java.awt.dnd.DropTarget;
 import java.awt.dnd.InvalidDnDOperationException;
 import java.awt.dnd.peer.DragSourceContextPeer;
 import java.awt.peer.FramePeer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The class provides basic functionality for a lightweight frame

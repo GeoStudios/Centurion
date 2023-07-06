@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
@@ -26,7 +44,7 @@
 /*
  * $Id: MsgKey.java,v 1.1.4.1 2005/09/08 11:03:11 suresh_emailid Exp $
  */
-package com.sun.org.apache.xml.internal.serializer.utils;
+
 
 /**
  * This class is not a public API,

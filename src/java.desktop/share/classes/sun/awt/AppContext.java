@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.share.classes.sun.awt;
+
 
 import java.awt.EventQueue;
 import java.awt.Window;
@@ -37,17 +38,30 @@ import java.util.Map;
 import java.util.Set;
 import java.util.HashSet;
 import java.beans.PropertyChangeSupport;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.lang.ref.SoftReference;
-
 import jdk.internal.access.JavaAWTAccess;
-import jdk.internal.access.SharedSecrets;
-import sun.util.logging.PlatformLogger;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.desktop.share.classes.sun.util.logging.PlatformLogger;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Supplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The AppContext is a table referenced by ThreadGroup which stores

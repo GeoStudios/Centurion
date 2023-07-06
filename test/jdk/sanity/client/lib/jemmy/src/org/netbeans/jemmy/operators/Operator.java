@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.operators;
+
 
 import java.awt.Component;
 import java.awt.event.InputEvent;
@@ -26,7 +28,6 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.Hashtable;
 import java.util.StringTokenizer;
 import java.util.Vector;
-
 import org.netbeans.jemmy.Action;
 import org.netbeans.jemmy.ActionProducer;
 import org.netbeans.jemmy.CharBindingMap;
@@ -46,6 +47,19 @@ import org.netbeans.jemmy.Waiter;
 import org.netbeans.jemmy.util.DefaultVisualizer;
 import org.netbeans.jemmy.util.MouseVisualizer;
 import org.netbeans.jemmy.util.Platform;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Keeps all environment and low-level methods.

@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.runtime.defmeth;
+
+
+import java.util.Set;
+import vm.runtime.defmeth.shared.DefMethTest;
+import vm.runtime.defmeth.shared.data.*;
+import vm.runtime.defmeth.shared.builder.TestBuilder;
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_SYNCHRONIZED;.extended
+import static vm.runtime.defmeth.shared.ExecutionMode.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -34,16 +57,9 @@
  *      -javaagent:retransform.jar
  *      vm.runtime.defmeth.DefaultVsAbstractTest
  */
-package vm.runtime.defmeth;
 
-import java.util.Set;
 
-import vm.runtime.defmeth.shared.DefMethTest;
-import vm.runtime.defmeth.shared.data.*;
-import vm.runtime.defmeth.shared.builder.TestBuilder;
 
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_SYNCHRONIZED;
-import static vm.runtime.defmeth.shared.ExecutionMode.*;
 
 /**
  * Tests on interaction of default methods with abstract methods

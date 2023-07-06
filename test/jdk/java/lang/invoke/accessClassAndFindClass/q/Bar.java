@@ -18,9 +18,24 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package q;
 
+
 import p.Foo;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // access protected inner class Foo.T
 public class Bar extends Foo {

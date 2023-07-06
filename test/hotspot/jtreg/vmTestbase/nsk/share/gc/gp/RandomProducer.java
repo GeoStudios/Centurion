@@ -21,8 +21,22 @@
 
 package nsk.share.gc.gp;
 
-import java.util.List;
+
+import java.util.java.util.java.util.java.util.List;
 import nsk.share.test.LocalRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Garbage producer that randomly creates objects using

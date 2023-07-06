@@ -18,11 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.beans.beancontext;
 
-import java.beans.beancontext.BeanContextServiceRevokedEvent;
+package java.desktop.share.classes.java.beans.beancontext;
 
-import java.util.EventListener;
+
+import java.desktop.share.classes.java.beans.beancontext.BeanContextServiceRevokedEvent;
+import java.desktop.share.classes.java.util.Eventjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  The listener interface for receiving

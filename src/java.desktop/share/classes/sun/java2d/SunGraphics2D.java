@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d;
+package java.desktop.share.classes.sun.java2d;
+
 
 import java.awt.AlphaComposite;
 import java.awt.BasicStroke;
@@ -67,35 +68,47 @@ import java.lang.annotation.Native;
 import java.text.AttributedCharacterIterator;
 import java.util.Iterator;
 import java.util.Map;
+import java.desktop.share.classes.sun.awt.ConstrainableGraphics;
+import java.desktop.share.classes.sun.awt.SunHints;
+import java.desktop.share.classes.sun.awt.image.MultiResolutionToolkitImage;
+import java.desktop.share.classes.sun.awt.image.SurfaceManager;
+import java.desktop.share.classes.sun.awt.image.ToolkitImage;
+import java.desktop.share.classes.sun.awt.util.PerformanceLogger;
+import java.desktop.share.classes.sun.font.FontDesignMetrics;
+import java.desktop.share.classes.sun.font.FontUtilities;
+import java.desktop.share.classes.sun.java2d.loops.Blit;
+import java.desktop.share.classes.sun.java2d.loops.CompositeType;
+import java.desktop.share.classes.sun.java2d.loops.FontInfo;
+import java.desktop.share.classes.sun.java2d.loops.MaskFill;
+import java.desktop.share.classes.sun.java2d.loops.RenderLoops;
+import java.desktop.share.classes.sun.java2d.loops.SurfaceType;
+import java.desktop.share.classes.sun.java2d.loops.XORComposite;
+import java.desktop.share.classes.sun.java2d.pipe.DrawImagePipe;
+import java.desktop.share.classes.sun.java2d.pipe.LoopPipe;
+import java.desktop.share.classes.sun.java2d.pipe.PixelDrawPipe;
+import java.desktop.share.classes.sun.java2d.pipe.PixelFillPipe;
+import java.desktop.share.classes.sun.java2d.pipe.Region;
+import java.desktop.share.classes.sun.java2d.pipe.ShapeDrawPipe;
+import java.desktop.share.classes.sun.java2d.pipe.ShapeSpanIterator;
+import java.desktop.share.classes.sun.java2d.pipe.TextPipe;
+import java.desktop.share.classes.sun.java2d.pipe.ValidatePipe;
+import static java.awt.geom.AffineTransform.TYPE_FLIP;.extended
+import static java.awt.geom.AffineTransform.TYPE_MASK_SCALE;.extended
+import static java.awt.geom.AffineTransform.TYPE_TRANSLATION;.extended
 
-import sun.awt.ConstrainableGraphics;
-import sun.awt.SunHints;
-import sun.awt.image.MultiResolutionToolkitImage;
-import sun.awt.image.SurfaceManager;
-import sun.awt.image.ToolkitImage;
-import sun.awt.util.PerformanceLogger;
-import sun.font.FontDesignMetrics;
-import sun.font.FontUtilities;
-import sun.java2d.loops.Blit;
-import sun.java2d.loops.CompositeType;
-import sun.java2d.loops.FontInfo;
-import sun.java2d.loops.MaskFill;
-import sun.java2d.loops.RenderLoops;
-import sun.java2d.loops.SurfaceType;
-import sun.java2d.loops.XORComposite;
-import sun.java2d.pipe.DrawImagePipe;
-import sun.java2d.pipe.LoopPipe;
-import sun.java2d.pipe.PixelDrawPipe;
-import sun.java2d.pipe.PixelFillPipe;
-import sun.java2d.pipe.Region;
-import sun.java2d.pipe.ShapeDrawPipe;
-import sun.java2d.pipe.ShapeSpanIterator;
-import sun.java2d.pipe.TextPipe;
-import sun.java2d.pipe.ValidatePipe;
 
-import static java.awt.geom.AffineTransform.TYPE_FLIP;
-import static java.awt.geom.AffineTransform.TYPE_MASK_SCALE;
-import static java.awt.geom.AffineTransform.TYPE_TRANSLATION;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is a the master Graphics2D superclass for all of the Sun

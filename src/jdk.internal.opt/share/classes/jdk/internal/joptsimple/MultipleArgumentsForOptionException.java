@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.joptsimple;
+package jdk.internal.opt.share.classes.jdk.internal.joptsimple;
 
-import static java.util.Collections.*;
+
+import static java.util.Collections.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Thrown when asking an {@link OptionSet} for a single argument of an option when many have been specified.

@@ -18,13 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.util;
 
-import java.awt.Color;
 
+import java.awt.Color;
 import javax.swing.text.Element;
 import javax.swing.text.StyleConstants;
 import javax.swing.text.StyledDocument;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines searching criteria for {@code javax.swing.text.StyledDocument}

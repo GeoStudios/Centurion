@@ -21,6 +21,21 @@
 
 package annotation.scope;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @A(red) // error: red not in scope.
 enum E {
     red, green, blue;

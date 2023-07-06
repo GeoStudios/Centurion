@@ -18,13 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.event;
 
-import javax.swing.MenuElement;
-import javax.swing.MenuSelectionManager;
+package java.desktop.share.classes.javax.swing.event;
+
+
+import java.desktop.share.classes.javax.swing.MenuElement;
+import java.desktop.share.classes.javax.swing.MenuSelectionManager;
 import java.util.EventObject;
 import java.awt.event.KeyEvent;
 import java.awt.Component;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

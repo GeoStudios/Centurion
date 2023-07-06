@@ -19,17 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * @test
- * @summary Test mapMulti(BiConsumer) and primitive stream operations
- */
-
 package org.openjdk.tests.java.util.stream;
+
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
@@ -45,18 +40,39 @@ import java.util.stream.OpTestCase;
 import java.util.stream.Stream;
 import java.util.stream.StreamTestDataProvider;
 import java.util.stream.TestData;
+import static java.util.stream.DefaultMethodStreams.delegateTo;.extended
+import static java.util.stream.LambdaTestHelpers.LONG_STRING;.extended
+import static java.util.stream.LambdaTestHelpers.assertConcat;.extended
+import static java.util.stream.LambdaTestHelpers.assertContents;.extended
+import static java.util.stream.LambdaTestHelpers.assertCountSum;.extended
+import static java.util.stream.LambdaTestHelpers.countTo;.extended
+import static java.util.stream.LambdaTestHelpers.flattenChars;.extended
+import static java.util.stream.LambdaTestHelpers.mfId;.extended
+import static java.util.stream.LambdaTestHelpers.mfLt;.extended
+import static java.util.stream.LambdaTestHelpers.mfNull;.extended
+import static java.util.stream.ThrowableHelper.checkNPE;.extended
 
-import static java.util.stream.DefaultMethodStreams.delegateTo;
-import static java.util.stream.LambdaTestHelpers.LONG_STRING;
-import static java.util.stream.LambdaTestHelpers.assertConcat;
-import static java.util.stream.LambdaTestHelpers.assertContents;
-import static java.util.stream.LambdaTestHelpers.assertCountSum;
-import static java.util.stream.LambdaTestHelpers.countTo;
-import static java.util.stream.LambdaTestHelpers.flattenChars;
-import static java.util.stream.LambdaTestHelpers.mfId;
-import static java.util.stream.LambdaTestHelpers.mfLt;
-import static java.util.stream.LambdaTestHelpers.mfNull;
-import static java.util.stream.ThrowableHelper.checkNPE;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * @test
+ * @summary Test mapMulti(BiConsumer) and primitive stream operations
+ */
+
+
+
+
 
 @Test
 public class mapMultiOpTest extends OpTestCase {

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.types;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8027422
@@ -29,7 +46,6 @@
  *                   compiler.types.TestSpeculationFailedHigherEqual
  */
 
-package compiler.types;
 
 public class TestSpeculationFailedHigherEqual {
 

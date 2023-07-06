@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.imageio.spi;
+package java.desktop.share.classes.javax.imageio.spi;
+
 
 import java.awt.image.RenderedImage;
-import java.io.IOException;
-import javax.imageio.ImageTypeSpecifier;
-import javax.imageio.ImageWriter;
-import javax.imageio.stream.ImageOutputStream;
+import java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.javax.imageio.ImageTypeSpecifier;
+import java.desktop.share.classes.javax.imageio.ImageWriter;
+import java.desktop.share.classes.javax.imageio.stream.ImageOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The service provider interface (SPI) for {@code ImageWriter}s.

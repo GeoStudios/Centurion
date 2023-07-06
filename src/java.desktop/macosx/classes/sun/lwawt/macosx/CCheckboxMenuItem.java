@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
 
 import java.awt.CheckboxMenuItem;
 import java.awt.event.ItemEvent;
 import java.awt.peer.CheckboxMenuItemPeer;
+import java.desktop.macosx.classes.sun.awt.SunToolkit;
 
-import sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CCheckboxMenuItem extends CMenuItem implements CheckboxMenuItemPeer {
     volatile boolean fAutoToggle = true;

@@ -18,13 +18,13 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text;
+
+package java.desktop.share.classes.javax.swing.text;
+
 
 import com.sun.beans.util.Cache;
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-
 import java.beans.JavaBean;
 import java.beans.BeanProperty;
 import java.beans.Transient;
@@ -32,11 +32,8 @@ import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Enumeration;
 import java.util.Vector;
-
 import java.util.concurrent.*;
-
 import java.io.*;
-
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.print.*;
@@ -47,31 +44,36 @@ import java.awt.font.TextHitInfo;
 import java.awt.font.TextAttribute;
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
-
 import java.awt.print.Printable;
 import java.awt.print.PrinterException;
-
-import javax.print.PrintService;
-import javax.print.attribute.PrintRequestAttributeSet;
-
+import java.desktop.share.classes.javax.print.PrintService;
+import java.desktop.share.classes.javax.print.attribute.PrintRequestAttributeSet;
 import java.text.*;
 import java.text.AttributedCharacterIterator.Attribute;
-
-import javax.swing.*;
-import javax.swing.event.*;
-import javax.swing.plaf.*;
-
-import javax.accessibility.*;
-
-import javax.print.attribute.*;
-
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.event.*;
+import java.desktop.share.classes.javax.swing.plaf.*;
+import java.desktop.share.classes.javax.accessibility.*;
+import java.desktop.share.classes.javax.print.attribute.*;
 import sun.awt.AppContext;
-
-
 import sun.swing.PrintingStatus;
 import sun.swing.SwingUtilities2;
 import sun.swing.text.TextComponentPrintable;
 import sun.swing.SwingAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>JTextComponent</code> is the base class for swing text

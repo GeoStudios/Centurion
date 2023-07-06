@@ -21,12 +21,55 @@
 
 package build.tools.x11wrappergen;
 
-import java.util.*;
-import java.io.*;
-import java.nio.charset.*;
-import java.text.MessageFormat;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class WrapperGenerator {
     /* XLibParser converts Xlib.h to a Java Object that encapsulates the

@@ -21,7 +21,23 @@
 
 package gc.g1;
 
-import static gc.testlibrary.Allocation.blackHole;
+
+import static gc.testlibrary.Allocation.blackHole;.extended
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test TestHumongousAllocNearlyFullRegion
@@ -35,8 +51,6 @@ import static gc.testlibrary.Allocation.blackHole;
  * @run driver gc.g1.TestHumongousAllocNearlyFullRegion
  */
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class TestHumongousAllocNearlyFullRegion {
     // Heap sizes < 224 MB are increased to 224 MB if vm_page_size == 64K to

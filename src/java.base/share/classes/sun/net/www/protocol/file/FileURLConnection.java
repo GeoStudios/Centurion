@@ -19,21 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/**
- * Open an file input stream given a URL.
- */
+package java.base.share.classes.sun.net.www.protocol.file;
 
-package sun.net.www.protocol.file;
 
 import java.net.URL;
 import java.net.FileNameMap;
 import java.io.*;
 import java.text.Collator;
 import java.security.Permission;
-import sun.net.*;
-import sun.net.www.*;
+import java.base.share.classes.sun.net.*;
+import java.base.share.classes.sun.net.www.*;
 import java.util.*;
 import java.text.SimpleDateFormat;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Open an file input stream given a URL.
+ */
+
+
+
 
 public class FileURLConnection extends URLConnection {
 

@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal.crypto;
+package java.security.jgss.share.classes.sun.security.krb5.internal.crypto;
 
-import sun.security.krb5.internal.crypto.dk.AesSha2DkCrypto;
-import sun.security.krb5.KrbCryptoException;
+
+import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.dk.AesSha2DkCrypto;
+import java.security.jgss.share.classes.sun.security.krb5.KrbCryptoException;
 import java.security.GeneralSecurityException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class with static methods for doing aes128-cts-hmac-sha256-128 operations.

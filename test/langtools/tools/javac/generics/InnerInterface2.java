@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package InnerInterface2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4482388
@@ -28,7 +45,6 @@
  * @compile  InnerInterface2.java
  */
 
-package InnerInterface2;
 
 class Builder<Community> {
 

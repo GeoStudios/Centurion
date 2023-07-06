@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.cs;
+package java.base.share.classes.sun.nio.cs;
+
 
 import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
-
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CharsetEncoder;
 import java.nio.charset.CoderResult;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class US_ASCII
     extends Charset

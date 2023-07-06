@@ -18,15 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.awt;
 
-import java.io.IOException;
-import java.awt.image.*;
-import java.net.URL;
-import java.net.URLConnection;
-import java.io.File;
+package java.desktop.share.classes.java.awt;
+
+
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.awt.image.*;
+import java.desktop.share.classes.java.net.URL;
+import java.desktop.share.classes.java.net.URLConnection;
+import java.desktop.share.classes.java.io.File;
 import sun.util.logging.PlatformLogger;
 import sun.awt.image.SunWritableRaster;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The splash screen can be displayed at application startup, before the

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.opengl;
+package java.desktop.share.classes.sun.java2d.opengl;
+
 
 import java.awt.Color;
 import java.awt.Image;
@@ -27,11 +28,25 @@ import java.awt.geom.AffineTransform;
 import java.awt.image.AffineTransformOp;
 import java.awt.image.BufferedImage;
 import java.awt.image.BufferedImageOp;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.SurfaceData;
-import sun.java2d.loops.SurfaceType;
-import sun.java2d.loops.TransformBlit;
-import sun.java2d.pipe.DrawImage;
+import java.desktop.share.classes.sun.java2d.SunGraphics2D;
+import java.desktop.share.classes.sun.java2d.SurfaceData;
+import java.desktop.share.classes.sun.java2d.loops.SurfaceType;
+import java.desktop.share.classes.sun.java2d.loops.TransformBlit;
+import java.desktop.share.classes.sun.java2d.pipe.DrawImage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class OGLDrawImage extends DrawImage {
 

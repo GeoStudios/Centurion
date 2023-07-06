@@ -19,15 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.serialize;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serialize;
 
 
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.Writer;
+import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
+import java.xml.share.classes.com.sun.org.xml.sax.DocumentHandler;
 
-import org.xml.sax.ContentHandler;
-import org.xml.sax.DocumentHandler;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

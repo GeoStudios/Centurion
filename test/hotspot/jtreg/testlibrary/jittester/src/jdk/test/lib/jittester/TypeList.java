@@ -21,6 +21,7 @@
 
 package jdk.test.lib.jittester;
 
+
 import jdk.test.lib.jittester.types.TypeBoolean;
 import jdk.test.lib.jittester.types.TypeByte;
 import jdk.test.lib.jittester.types.TypeChar;
@@ -31,11 +32,23 @@ import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.types.TypeLong;
 import jdk.test.lib.jittester.types.TypeShort;
 import jdk.test.lib.jittester.types.TypeVoid;
-
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.function.Predicate;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TypeList {
     public static final TypeVoid VOID = new TypeVoid();

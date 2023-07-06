@@ -18,18 +18,37 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package java.xml.crypto.share.classes.javax.xml.crypto.dsig.dom;
+
+
+import java.xml.crypto.share.classes.javax.xml.crypto.KeySelector;
+import java.xml.crypto.share.classes.javax.xml.crypto.dom.DOMCryptoContext;
+import java.xml.crypto.share.classes.javax.xml.crypto.dsig.XMLSignature;
+import java.xml.crypto.share.classes.javax.xml.crypto.dsig.XMLSignatureFactory;
+import java.xml.crypto.share.classes.javax.xml.crypto.dsig.XMLValidateContext;
+import java.base.share.classes.java.security.Key;
+import org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: DOMValidateContext.java,v 1.8 2005/05/10 16:31:14 mullan Exp $
  */
-package javax.xml.crypto.dsig.dom;
 
-import javax.xml.crypto.KeySelector;
-import javax.xml.crypto.dom.DOMCryptoContext;
-import javax.xml.crypto.dsig.XMLSignature;
-import javax.xml.crypto.dsig.XMLSignatureFactory;
-import javax.xml.crypto.dsig.XMLValidateContext;
-import java.security.Key;
-import org.w3c.dom.Node;
+
 
 /**
  * A DOM-specific {@link XMLValidateContext}. This class contains additional

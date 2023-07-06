@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.jfr.event.runtime;
+
+
+import java.util.concurrent.atomic.AtomicBoolean;
+import jdk.jfr.consumer.RecordingStream;
+import jdk.test.lib.classloader.GeneratingCompilingClassLoader;
+import jdk.test.lib.Asserts;
+import jtreg.SkippedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @summary Test jdk.MetaspaceAllocationFailure event
@@ -34,13 +56,7 @@
  *      -Xlog:gc+metaspace*=debug
  *      jdk.jfr.event.runtime.TestMetaspaceAllocationFailure
  */
-package jdk.jfr.event.runtime;
 
-import java.util.concurrent.atomic.AtomicBoolean;
-import jdk.jfr.consumer.RecordingStream;
-import jdk.test.lib.classloader.GeneratingCompilingClassLoader;
-import jdk.test.lib.Asserts;
-import jtreg.SkippedException;
 
 public class TestMetaspaceAllocationFailure {
     private static final int MAX_ITERATIONS = 100;

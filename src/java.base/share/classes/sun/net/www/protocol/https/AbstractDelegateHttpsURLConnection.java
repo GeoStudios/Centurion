@@ -19,19 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.protocol.https;
+package java.base.share.classes.sun.net.www.protocol.https;
+
 
 import java.net.URL;
 import java.net.Proxy;
 import java.net.SecureCacheResponse;
 import java.security.Principal;
-import java.io.IOException;
-import java.util.List;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Optional;
 import javax.net.ssl.SSLSession;
 import javax.net.ssl.SSLPeerUnverifiedException;
-import sun.net.www.http.*;
-import sun.net.www.protocol.http.HttpURLConnection;
+import java.base.share.classes.sun.net.www.http.*;
+import java.base.share.classes.sun.net.www.protocol.http.HttpURLConnection;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * HTTPS URL connection support.

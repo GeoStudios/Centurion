@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.datatype;
+package java.xml.share.classes.javax.xml.datatype;
+
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
+import java.xml.share.classes.javax.xml.namespace.QName;
 
-import javax.xml.namespace.QName;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Immutable representation of a time span as defined in

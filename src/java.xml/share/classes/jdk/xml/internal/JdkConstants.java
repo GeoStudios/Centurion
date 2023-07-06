@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.xml.internal;
+package java.xml.share.classes.jdk.xml.internal;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class holds constants shared across XML components. Historically, there

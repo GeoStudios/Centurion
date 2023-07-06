@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.tools.jlink.internal;
+package jdk.jlink.share.classes.jdk.tools.jlink.internal;
+
 
 import java.nio.ByteOrder;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
-import jdk.internal.jimage.ImageHeader;
-import jdk.internal.jimage.ImageStream;
-import jdk.internal.jimage.ImageStringsReader;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
+import jdk.jlink.share.classes.jdk.internal.jimage.ImageHeader;
+import jdk.jlink.share.classes.jdk.internal.jimage.ImageStream;
+import jdk.jlink.share.classes.jdk.internal.jimage.ImageStringsReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class BasicImageWriter {
     public static final String MODULES_IMAGE_NAME = "modules";

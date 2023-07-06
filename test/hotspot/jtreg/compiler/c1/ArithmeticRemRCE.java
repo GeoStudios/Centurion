@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c1;
+
+
+import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8267239
@@ -31,9 +49,7 @@
  *                   compiler.c1.ArithmeticRemRCE
  */
 
-package compiler.c1;
 
-import jdk.test.lib.Asserts;
 
 public class ArithmeticRemRCE {
     static int field = 1000;

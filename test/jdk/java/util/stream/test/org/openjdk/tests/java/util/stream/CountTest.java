@@ -19,13 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/**
- * @test
- * @summary Tests counting of streams
- * @bug 8031187 8067969 8075307 8265029
- */
-
 package org.openjdk.tests.java.util.stream;
+
 
 import java.util.HashSet;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -41,8 +36,29 @@ import java.util.stream.OpTestCase;
 import java.util.stream.Stream;
 import java.util.stream.StreamTestDataProvider;
 import java.util.stream.TestData;
-
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * @test
+ * @summary Tests counting of streams
+ * @bug 8031187 8067969 8075307 8265029
+ */
+
+
+
 
 public class CountTest extends OpTestCase {
 

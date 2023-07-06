@@ -19,26 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.parser;
+package jdk.compiler.share.classes.com.sun.tools.javac.parser;
 
-import com.sun.tools.javac.code.Lint;
-import com.sun.tools.javac.code.Lint.LintCategory;
-import com.sun.tools.javac.code.Preview;
-import com.sun.tools.javac.code.Source;
-import com.sun.tools.javac.code.Source.Feature;
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.parser.Tokens.Comment.CommentStyle;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.resources.CompilerProperties.Warnings;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.JCDiagnostic.*;
 
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Lint;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Lint.LintCategory;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Preview;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Source;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Source.Feature;
+import jdk.compiler.share.classes.com.sun.tools.javac.file.JavacFileManager;
+import jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.Comment.CommentStyle;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Warnings;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.*;
 import java.nio.CharBuffer;
 import java.util.Set;
 import java.util.regex.Pattern;
+import static jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.util.LayoutCharacters.EOI;.extended
 
-import static com.sun.tools.javac.parser.Tokens.*;
-import static com.sun.tools.javac.util.LayoutCharacters.EOI;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The lexical analyzer maps an input stream consisting of UTF-8 characters and unicode

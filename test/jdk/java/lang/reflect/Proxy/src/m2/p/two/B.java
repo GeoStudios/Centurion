@@ -21,5 +21,20 @@
 
 package p.two;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 interface B {
 }

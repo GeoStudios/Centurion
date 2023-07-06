@@ -19,7 +19,9 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.image;
+package java.desktop.share.classes.sun.awt.image;
+
+
 import java.awt.image.Raster;
 import java.awt.image.WritableRaster;
 import java.awt.image.RasterFormatException;
@@ -28,6 +30,20 @@ import java.awt.image.BandedSampleModel;
 import java.awt.image.DataBufferByte;
 import java.awt.Rectangle;
 import java.awt.Point;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class defines a Raster with pixels consisting of multiple

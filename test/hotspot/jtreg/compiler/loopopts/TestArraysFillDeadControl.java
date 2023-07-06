@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts;
+
+
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8147645
@@ -29,9 +47,7 @@
  *      compiler.loopopts.TestArraysFillDeadControl
  */
 
-package compiler.loopopts;
 
-import java.util.Arrays;
 
 public class TestArraysFillDeadControl {
 

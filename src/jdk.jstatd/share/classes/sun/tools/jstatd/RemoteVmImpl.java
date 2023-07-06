@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jstatd;
+package jdk.jstatd.share.classes.sun.tools.jstatd;
 
-import sun.jvmstat.monitor.*;
-import sun.jvmstat.monitor.remote.*;
+
+import jdk.jstatd.share.classes.sun.jvmstat.monitor.*;
+import jdk.jstatd.share.classes.sun.jvmstat.monitor.remote.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Concrete implementation of the RemoteVm interface for the HotSpot PerfData

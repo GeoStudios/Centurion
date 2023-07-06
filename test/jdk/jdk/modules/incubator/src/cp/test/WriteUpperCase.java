@@ -21,7 +21,21 @@
 
 package test;
 
-import static java.util.stream.Collectors.joining;
+
+import static java.util.stream.Collectors.joining;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class WriteUpperCase {
     public static void main(String[] args) {

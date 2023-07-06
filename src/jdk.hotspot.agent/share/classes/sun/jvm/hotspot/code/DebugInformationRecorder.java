@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.code;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Placeholder for now; simply need a couple of constants (FIXME:
     should read these from the target VM) */

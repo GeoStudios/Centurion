@@ -18,12 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.net.www.http;
+
+package java.base.share.classes.sun.net.www.http;
+
 
 import java.io.*;
 import java.util.concurrent.locks.ReentrantLock;
-import sun.net.www.*;
-import sun.nio.cs.US_ASCII;
+import java.base.share.classes.sun.net.www.*;
+import java.base.share.classes.sun.nio.cs.US_ASCII;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A <code>ChunkedInputStream</code> provides a stream for reading a body of

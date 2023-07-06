@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.xpointer;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.xpointer;
+
 
 import java.util.HashMap;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.Augmentations;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLAttributes;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLErrorHandler;
 
-import com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
-import com.sun.org.apache.xerces.internal.util.SymbolTable;
-import com.sun.org.apache.xerces.internal.util.XMLChar;
-import com.sun.org.apache.xerces.internal.xni.Augmentations;
-import com.sun.org.apache.xerces.internal.xni.QName;
-import com.sun.org.apache.xerces.internal.xni.XMLAttributes;
-import com.sun.org.apache.xerces.internal.xni.XNIException;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLErrorHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>
@@ -89,10 +103,10 @@ final class ElementSchemePointer implements XPointerPart {
     private ShortHandPointer fShortHandPointer;
 
     // The XPointer Error reporter
-    protected XMLErrorReporter fErrorReporter;
+    private XMLErrorReporter fErrorReporter;
 
     // The XPointer Error Handler
-    protected XMLErrorHandler fErrorHandler;
+    private XMLErrorHandler fErrorHandler;
 
     //
     private SymbolTable fSymbolTable;
@@ -287,7 +301,7 @@ final class ElementSchemePointer implements XPointerPart {
      * tree matches theelement position specified in the element XPointer
      * scheme.
      */
-    protected boolean matchChildSequence(QName element, int event)
+    private boolean matchChildSequence(QName element, int event)
             throws XNIException {
 
         // need to resize fCurrentChildSequence
@@ -366,7 +380,7 @@ final class ElementSchemePointer implements XPointerPart {
      *
      * @return boolean
      */
-    protected boolean checkMatch() {
+    private boolean checkMatch() {
         // If the number of elements in the ChildSequence is greater than the
         // current child depth, there is not point in checking further
         if (!fIsShortHand) {
@@ -440,7 +454,7 @@ final class ElementSchemePointer implements XPointerPart {
     /**
          * Reports an XPointer error
          */
-    protected void reportError(String key, Object[] arguments)
+    private void reportError(String key, Object[] arguments)
             throws XNIException {
         /*fErrorReporter.reportError(XPointerMessageFormatter.XPOINTER_DOMAIN,
          key, arguments, XMLErrorReporter.SEVERITY_ERROR);
@@ -453,7 +467,7 @@ final class ElementSchemePointer implements XPointerPart {
     /**
      * Initializes error handling objects
      */
-    protected void initErrorReporter() {
+    private void initErrorReporter() {
         if (fErrorReporter == null) {
             fErrorReporter = new XMLErrorReporter();
         }
@@ -468,7 +482,7 @@ final class ElementSchemePointer implements XPointerPart {
     /**
      * Initializes the element scheme processor
      */
-    protected void init() {
+    private void init() {
         fSchemeName = null;
         fSchemeData = null;
         fShortHandPointerName = null;

@@ -19,18 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * A Super class for Transport Services used by
- * nsk/jdi/PlugConnectors tests
- */
-
 package nsk.share.jdi;
+
 
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import com.sun.jdi.connect.spi.*;
 import java.io.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * A Super class for Transport Services used by
+ * nsk/jdi/PlugConnectors tests
+ */
+
+
 
 public class PlugTransportService extends TransportService {
 

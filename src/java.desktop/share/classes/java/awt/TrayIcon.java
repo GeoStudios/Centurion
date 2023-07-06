@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.event.*;
-import java.awt.peer.TrayIconPeer;
+
+import java.desktop.share.classes.java.awt.event.*;
+import java.desktop.share.classes.java.awt.peer.TrayIconPeer;
 import sun.awt.AppContext;
 import sun.awt.SunToolkit;
 import sun.awt.AWTAccessor;
 import sun.awt.HeadlessToolkit;
-import java.util.EventObject;
-import java.security.AccessControlContext;
-import java.security.AccessController;
+import java.desktop.share.classes.java.util.EventObject;
+import java.desktop.share.classes.java.security.AccessControlContext;
+import java.desktop.share.classes.java.security.AccessController;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code TrayIcon} object represents a tray icon that can be

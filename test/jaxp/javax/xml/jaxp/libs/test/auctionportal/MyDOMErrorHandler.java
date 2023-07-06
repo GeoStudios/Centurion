@@ -18,10 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.auctionportal;
+
 
 import org.w3c.dom.DOMErrorHandler;
 import org.w3c.dom.DOMError;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Error handler for recording DOM processing error.

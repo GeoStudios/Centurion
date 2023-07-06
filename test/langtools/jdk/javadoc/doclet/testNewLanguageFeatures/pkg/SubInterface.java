@@ -21,4 +21,19 @@
 
 package pkg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface SubInterface<V> extends SuperInterface<V> {}

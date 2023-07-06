@@ -19,38 +19,50 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.util;
+package jdk.compiler.share.classes.com.sun.tools.javac.util;
+
 
 import java.nio.file.Path;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.EnumSet;
 import java.util.HashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.Set;
-
 import javax.tools.JavaFileObject;
+import jdk.compiler.share.classes.com.sun.tools.javac.api.DiagnosticFormatter;
+import jdk.compiler.share.classes.com.sun.tools.javac.api.DiagnosticFormatter.Configuration.DiagnosticPart;
+import jdk.compiler.share.classes.com.sun.tools.javac.api.DiagnosticFormatter.Configuration.MultilineLimit;
+import jdk.compiler.share.classes.com.sun.tools.javac.api.DiagnosticFormatter.PositionKind;
+import jdk.compiler.share.classes.com.sun.tools.javac.api.Formattable;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Lint.LintCategory;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Printer;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Source;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.CapturedType;
+import jdk.compiler.share.classes.com.sun.tools.javac.file.PathFileObject;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.Profile;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.Target;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Option;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.Pretty;
+import static jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticType.*;.extended
 
-import com.sun.tools.javac.api.DiagnosticFormatter;
-import com.sun.tools.javac.api.DiagnosticFormatter.Configuration.DiagnosticPart;
-import com.sun.tools.javac.api.DiagnosticFormatter.Configuration.MultilineLimit;
-import com.sun.tools.javac.api.DiagnosticFormatter.PositionKind;
-import com.sun.tools.javac.api.Formattable;
-import com.sun.tools.javac.code.Lint.LintCategory;
-import com.sun.tools.javac.code.Printer;
-import com.sun.tools.javac.code.Source;
-import com.sun.tools.javac.code.Symbol;
-import com.sun.tools.javac.code.Type;
-import com.sun.tools.javac.code.Type.CapturedType;
-import com.sun.tools.javac.file.PathFileObject;
-import com.sun.tools.javac.jvm.Profile;
-import com.sun.tools.javac.jvm.Target;
-import com.sun.tools.javac.main.Option;
-import com.sun.tools.javac.tree.JCTree.*;
-import com.sun.tools.javac.tree.Pretty;
 
-import static com.sun.tools.javac.util.JCDiagnostic.DiagnosticType.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This abstract class provides a basic implementation of the functionalities that should be provided

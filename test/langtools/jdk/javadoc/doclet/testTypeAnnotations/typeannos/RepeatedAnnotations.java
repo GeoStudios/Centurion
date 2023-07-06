@@ -21,8 +21,22 @@
 
 package typeannos;
 
+
 import java.lang.annotation.*;
-import static java.lang.annotation.ElementType.*;
+import static java.lang.annotation.ElementType.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This class is partially replicated from test/tools/javac/annotations/typeAnnotations/classfile/CombinationsTargetTest1.java; CombinationsTargetTest2.java; CombinationsTargetTest3.java

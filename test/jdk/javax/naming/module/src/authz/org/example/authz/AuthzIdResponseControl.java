@@ -19,16 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package org.example.authz;
+
+
+import java.io.*;
+import javax.naming.ldap.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class implements the LDAPv3 Authorization Identity response control
  * as defined in
  * <a href="http://tools.ietf.org/html/rfc3829">RFC 3829</a>.
  */
 
-package org.example.authz;
 
-import java.io.*;
-import javax.naming.ldap.*;
 
 public class AuthzIdResponseControl extends BasicControl {
 

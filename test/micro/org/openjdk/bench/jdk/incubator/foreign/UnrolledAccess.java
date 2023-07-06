@@ -21,7 +21,8 @@
 
 package org.openjdk.bench.jdk.incubator.foreign;
 
-import static jdk.incubator.foreign.MemoryAccess.*;
+
+import static jdk.incubator.foreign.MemoryAccess.*;.extended
 import jdk.incubator.foreign.*;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.runner.Runner;
@@ -29,8 +30,20 @@ import org.openjdk.jmh.runner.options.Options;
 import org.openjdk.jmh.runner.options.OptionsBuilder;
 import sun.misc.Unsafe;
 import java.util.concurrent.TimeUnit;
-
 import java.lang.invoke.VarHandle;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @BenchmarkMode(Mode.AverageTime)
 @Warmup(iterations = 5, time = 500, timeUnit = TimeUnit.MILLISECONDS)

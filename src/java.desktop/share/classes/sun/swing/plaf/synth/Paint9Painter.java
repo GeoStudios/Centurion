@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.swing.plaf.synth;
+
+package java.desktop.share.classes.sun.swing.plaf.synth;
+
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
-import sun.swing.CachedPainter;
+import java.desktop.share.classes.sun.swing.CachedPainter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Paint9Painter is used for painting images for both Synth and GTK's

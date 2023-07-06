@@ -19,15 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.jdk.internal.org.xml.sax;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // XMLReader.java - read an XML document.
 // http://www.saxproject.org
 // Written by David Megginson
 // NO WARRANTY!  This class is in the Public Domain.
 // $Id: XMLReader.java,v 1.3 2004/11/03 22:55:32 jsuttor Exp $
 
-package jdk.internal.org.xml.sax;
 
-import java.io.IOException;
+
 
 
 /**

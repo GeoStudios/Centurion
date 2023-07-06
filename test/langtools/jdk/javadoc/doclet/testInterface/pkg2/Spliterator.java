@@ -21,6 +21,21 @@
 
 package pkg2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface Spliterator<T> {
     public interface OfDouble extends OfPrimitive<Double, Object, OfDouble>{}
 

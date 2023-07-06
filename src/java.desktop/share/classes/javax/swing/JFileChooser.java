@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.AWTEvent;
 import java.awt.BorderLayout;
@@ -33,18 +34,18 @@ import java.awt.HeadlessException;
 import java.awt.Toolkit;
 import java.awt.Window;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.event.HierarchyEvent;
-import java.awt.event.HierarchyListener;
+import java.awt.event.Hierarchyjava.util.Listener;
 import java.awt.event.InputEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.beans.BeanProperty;
 import java.beans.JavaBean;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InvalidObjectException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -52,15 +53,28 @@ import java.io.Serial;
 import java.io.Serializable;
 import java.lang.ref.WeakReference;
 import java.util.Vector;
+import java.desktop.share.classes.javax.accessibility.Accessible;
+import java.desktop.share.classes.javax.accessibility.AccessibleContext;
+import java.desktop.share.classes.javax.accessibility.AccessibleRole;
+import java.desktop.share.classes.javax.swing.event.Eventjava.util.Listenerjava.util.java.util.java.util.List;
+import java.desktop.share.classes.javax.swing.filechooser.FileFilter;
+import java.desktop.share.classes.javax.swing.filechooser.FileSystemView;
+import java.desktop.share.classes.javax.swing.filechooser.FileView;
+import java.desktop.share.classes.javax.swing.plaf.FileChooserUI;
 
-import javax.accessibility.Accessible;
-import javax.accessibility.AccessibleContext;
-import javax.accessibility.AccessibleRole;
-import javax.swing.event.EventListenerList;
-import javax.swing.filechooser.FileFilter;
-import javax.swing.filechooser.FileSystemView;
-import javax.swing.filechooser.FileView;
-import javax.swing.plaf.FileChooserUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>JFileChooser</code> provides a simple mechanism for the user to

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.reflect.generics.factory;
+package java.base.share.classes.sun.reflect.generics.factory;
+
 
 import java.lang.reflect.Array;
 import java.lang.reflect.Constructor;
@@ -29,11 +30,22 @@ import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.lang.reflect.TypeVariable;
 import java.lang.reflect.WildcardType;
+import java.base.share.classes.sun.reflect.generics.reflectivejava.util.java.util.java.util.Objects.*;
+import java.base.share.classes.sun.reflect.generics.scope.Scope;
+import java.base.share.classes.sun.reflect.generics.tree.FieldTypeSignature;
 
 
-import sun.reflect.generics.reflectiveObjects.*;
-import sun.reflect.generics.scope.Scope;
-import sun.reflect.generics.tree.FieldTypeSignature;
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

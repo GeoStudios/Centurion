@@ -19,30 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.dnd;
+package java.desktop.share.classes.java.awt.dnd;
 
-import java.awt.Component;
-import java.awt.Cursor;
-import java.awt.GraphicsEnvironment;
-import java.awt.HeadlessException;
-import java.awt.Image;
-import java.awt.Point;
-import java.awt.Toolkit;
-import java.awt.datatransfer.FlavorMap;
-import java.awt.datatransfer.SystemFlavorMap;
-import java.awt.datatransfer.Transferable;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serial;
-import java.io.Serializable;
-import java.security.AccessController;
-import java.util.EventListener;
 
+import java.desktop.share.classes.java.awt.Component;
+import java.desktop.share.classes.java.awt.Cursor;
+import java.desktop.share.classes.java.awt.GraphicsEnvironment;
+import java.desktop.share.classes.java.awt.HeadlessException;
+import java.desktop.share.classes.java.awt.Image;
+import java.desktop.share.classes.java.awt.Point;
+import java.desktop.share.classes.java.awt.Toolkit;
+import java.desktop.share.classes.java.awt.datatransfer.FlavorMap;
+import java.desktop.share.classes.java.awt.datatransfer.SystemFlavorMap;
+import java.desktop.share.classes.java.awt.datatransfer.Transferable;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.ObjectOutputStream;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.io.Serializable;
+import java.desktop.share.classes.java.security.AccessController;
+import java.desktop.share.classes.java.util.Eventjava.util.Listener;
 import sun.awt.AWTAccessor;
 import sun.awt.AWTAccessor.DragSourceContextAccessor;
 import sun.awt.dnd.SunDragSourceContextPeer;
 import sun.security.action.GetIntegerAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code DragSource} is the entity responsible

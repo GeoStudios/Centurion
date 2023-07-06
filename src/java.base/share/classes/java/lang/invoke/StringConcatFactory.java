@@ -19,22 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
+
 
 import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.vm.annotation.Stable;
 import sun.invoke.util.Wrapper;
+import java.base.share.classes.java.lang.invoke.MethodHandles.Lookup;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.concurrent.ConcurrentMap;
+import java.base.share.classes.java.util.function.Function;
+import static java.base.share.classes.java.lang.invoke.MethodType.methodType;.extended
 
-import java.lang.invoke.MethodHandles.Lookup;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
-import java.util.function.Function;
 
-import static java.lang.invoke.MethodType.methodType;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Methods to facilitate the creation of String concatenation methods, that

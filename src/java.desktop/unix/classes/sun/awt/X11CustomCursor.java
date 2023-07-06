@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.unix.classes.sun.awt;
 
-import sun.awt.CustomCursor;
+
+import java.desktop.unix.classes.sun.awt.CustomCursor;
 import java.awt.*;
 import java.awt.image.*;
-import sun.awt.image.ImageRepresentation;
+import java.desktop.unix.classes.sun.awt.image.ImageRepresentation;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class to encapsulate a custom image-based cursor.

@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider.certpath;
+package java.base.share.classes.sun.security.provider.certpath;
 
-import sun.security.util.Debug;
-import java.security.PublicKey;
+
+import java.base.share.classes.sun.security.util.Debug;
+import java.base.share.classes.java.security.PublicKey;
 import java.security.cert.CertPath;
 import java.security.cert.PKIXCertPathBuilderResult;
 import java.security.cert.PolicyNode;
 import java.security.cert.TrustAnchor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents the result of a SunCertPathBuilder build.

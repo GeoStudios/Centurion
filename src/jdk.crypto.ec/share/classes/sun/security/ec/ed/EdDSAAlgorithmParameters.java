@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ec.ed;
+package jdk.crypto.ec.share.classes.sun.security.ec.ed;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.AlgorithmParametersSpi;
 import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.ECParameterSpec;
 import java.security.spec.EdDSAParameterSpec;
 import java.security.spec.InvalidParameterSpecException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This AlgorithmParametersSpi only supports NamedParameterSpec.

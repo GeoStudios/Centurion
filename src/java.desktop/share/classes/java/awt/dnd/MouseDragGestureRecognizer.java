@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.dnd;
+package java.desktop.share.classes.java.awt.dnd;
 
-import java.awt.Component;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.event.MouseMotionListener;
-import java.io.Serial;
+
+import java.desktop.share.classes.java.awt.Component;
+import java.desktop.share.classes.java.awt.event.MouseEvent;
+import java.desktop.share.classes.java.awt.event.Mousejava.util.Listener;
+import java.desktop.share.classes.java.awt.event.MouseMotionjava.util.Listener;
+import java.desktop.share.classes.java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This abstract subclass of {@code DragGestureRecognizer}

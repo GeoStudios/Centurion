@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.naming.share.classes.com.sun.jndi.toolkit.dir;
+
+
+import javax.naming.*;
+import javax.naming.directory.*;
+import javax.naming.spi.DirectoryManager;
+import java.util.NoSuchElementException;
+import java.util.Hashtable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
   * Given an enumeration of candidates, check whether each
   * item in enumeration satifies the given filter.
@@ -33,14 +56,9 @@
   *
   */
 
-package com.sun.jndi.toolkit.dir;
 
-import javax.naming.*;
-import javax.naming.directory.*;
-import javax.naming.spi.DirectoryManager;
 
-import java.util.NoSuchElementException;
-import java.util.Hashtable;
+
 
 public final class LazySearchEnumerationImpl
         implements NamingEnumeration<SearchResult> {

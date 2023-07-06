@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.xml.internal.stream;
+package java.xml.share.classes.com.sun.xml.internal.stream;
+
 
 import java.io.InputStream;
 import java.io.Reader;
-
 import javax.xml.stream.*;
-import javax.xml.stream.util.XMLEventAllocator ;
+import javax.xml.stream.util.XMLEventAllocator ;.extended
 import javax.xml.transform.Source;
 import javax.xml.transform.stream.StreamSource;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
-import com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl;
-import com.sun.org.apache.xerces.internal.impl.PropertyManager;
-import com.sun.org.apache.xerces.internal.impl.XMLStreamFilterImpl;
-import com.sun.org.apache.xerces.internal.impl.Constants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.PropertyManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLStreamFilterImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Factory Implementation for XMLInputFactory.
  */

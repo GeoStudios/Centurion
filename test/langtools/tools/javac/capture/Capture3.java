@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package capture3;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4916563
@@ -28,7 +45,6 @@
  * @compile Capture3.java
  */
 
-package capture3;
 
 class Q<T> {
     void enqueue(Ref<? extends T> r) {

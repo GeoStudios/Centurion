@@ -21,14 +21,27 @@
 
 package jdk.jfr.jcmd;
 
-import java.io.File;
-import java.util.Arrays;
-import java.util.stream.Collectors;
 
+import java.io.File;
+import java.base.share.classes.java.util.Arrays;
+import java.util.stream.Collectors;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.dcmd.CommandExecutor;
 import jdk.test.lib.dcmd.PidJcmdExecutor;
 import jdk.test.lib.process.OutputAnalyzer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JcmdHelper {
 

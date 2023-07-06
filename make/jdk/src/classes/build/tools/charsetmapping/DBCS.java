@@ -21,13 +21,55 @@
 
 package build.tools.charsetmapping;
 
-import java.io.*;
-import java.util.Arrays;
-import java.util.ArrayList;
-import java.util.Scanner;
-import java.util.Formatter;
-import java.util.regex.Pattern;
-import static build.tools.charsetmapping.Utils.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class DBCS {
     // pattern used by this class to read in mapping table

@@ -21,13 +21,26 @@
 
 package compiler.compilercontrol.share.method;
 
-import jdk.test.lib.Utils;
 
+import jdk.test.lib.Utils;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Executable;
 import java.lang.reflect.Method;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.regex.Pattern;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents a signature of the method

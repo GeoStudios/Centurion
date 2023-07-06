@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.annotation.processing;
+package java.compiler.share.classes.javax.annotation.processing;
 
-import javax.lang.model.element.Element;
-import javax.lang.model.element.TypeElement;
+
+import java.compiler.share.classes.javax.lang.model.element.Element;
+import java.compiler.share.classes.javax.lang.model.element.TypeElement;
 import java.util.LinkedHashSet;
 import java.util.Collections;
 import java.util.Set;
 import java.lang.annotation.Annotation;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An annotation processing tool framework will {@linkplain

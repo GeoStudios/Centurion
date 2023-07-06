@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.FloatingPoint.gen_math.Summ;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,11 +48,9 @@
  * @run main/othervm jit.FloatingPoint.gen_math.Summ.Summ
  */
 
-package jit.FloatingPoint.gen_math.Summ;
 
 // Test on sums/series
 
-import nsk.share.TestFailure;
 
 public class Summ
 {

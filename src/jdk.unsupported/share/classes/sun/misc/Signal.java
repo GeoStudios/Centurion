@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.misc;
+package jdk.unsupported.share.classes.sun.misc;
 
-import java.util.Objects;
+
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides ANSI/ISO C signal support. A Java program can register

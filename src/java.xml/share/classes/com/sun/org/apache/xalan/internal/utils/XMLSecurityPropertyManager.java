@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xalan.internal.utils;
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.utils;
+
 
 import javax.xml.XMLConstants;
 import jdk.xml.internal.JdkConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class manages security related properties
@@ -48,7 +63,7 @@ public final class XMLSecurityPropertyManager extends FeaturePropertyBase {
         }
 
         public boolean equalsName(String propertyName) {
-            return propertyName != null && name.equals(propertyName);
+            return name.equals(propertyName);
         }
 
         String defaultValue() {

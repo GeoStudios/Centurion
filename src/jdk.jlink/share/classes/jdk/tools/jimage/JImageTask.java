@@ -19,36 +19,50 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.tools.jimage;
+package jdk.jlink.share.classes.jdk.tools.jimage;
+
 
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.file.FileSystem;
 import java.nio.file.Files;
 import java.nio.file.PathMatcher;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Locale;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import jdk.jlink.share.classes.jdk.internal.jimage.BasicImageReader;
+import jdk.jlink.share.classes.jdk.internal.jimage.ImageHeader;
+import jdk.jlink.share.classes.jdk.internal.jimage.ImageLocation;
+import jdk.jlink.share.classes.jdk.internal.org.objectweb.asm.ClassReader;
+import jdk.jlink.share.classes.jdk.internal.org.objectweb.asm.tree.ClassNode;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.ImageResourcesTree;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.TaskHelper;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.TaskHelper.BadArgs;
+import static jdk.jlink.share.classes.jdk.tools.jlink.internal.TaskHelper.JIMAGE_BUNDLE;.extended
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.TaskHelper.Option;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.TaskHelper.OptionsHelper;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.Utils;
 
-import jdk.internal.jimage.BasicImageReader;
-import jdk.internal.jimage.ImageHeader;
-import jdk.internal.jimage.ImageLocation;
-import jdk.internal.org.objectweb.asm.ClassReader;
-import jdk.internal.org.objectweb.asm.tree.ClassNode;
-import jdk.tools.jlink.internal.ImageResourcesTree;
-import jdk.tools.jlink.internal.TaskHelper;
-import jdk.tools.jlink.internal.TaskHelper.BadArgs;
-import static jdk.tools.jlink.internal.TaskHelper.JIMAGE_BUNDLE;
-import jdk.tools.jlink.internal.TaskHelper.Option;
-import jdk.tools.jlink.internal.TaskHelper.OptionsHelper;
-import jdk.tools.jlink.internal.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class JImageTask {
     private static final Option<?>[] RECOGNIZED_OPTIONS = {

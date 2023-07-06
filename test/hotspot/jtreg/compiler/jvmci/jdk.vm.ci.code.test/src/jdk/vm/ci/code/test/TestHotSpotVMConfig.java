@@ -18,10 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.vm.ci.code.test;
+
 
 import jdk.vm.ci.hotspot.HotSpotVMConfigAccess;
 import jdk.vm.ci.hotspot.HotSpotVMConfigStore;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TestHotSpotVMConfig extends HotSpotVMConfigAccess {
 

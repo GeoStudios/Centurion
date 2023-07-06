@@ -18,36 +18,52 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.tools.jlink.internal.plugins;
+
+package jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins;
+
 
 import java.util.AbstractMap;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.IllformedLocaleException;
-import java.util.Locale;
-import java.util.List;
+import java.base.share.classes.java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
-import static java.util.ResourceBundle.Control;
+import static java.util.ResourceBundle.Control;.extended
 import java.util.Set;
 import java.util.function.Predicate;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
-import jdk.internal.org.objectweb.asm.ClassReader;
-import jdk.tools.jlink.internal.ResourcePrevisitor;
-import jdk.tools.jlink.internal.StringTable;
-import jdk.tools.jlink.plugin.ResourcePoolModule;
-import jdk.tools.jlink.plugin.PluginException;
-import jdk.tools.jlink.plugin.ResourcePool;
-import jdk.tools.jlink.plugin.ResourcePoolBuilder;
-import jdk.tools.jlink.plugin.ResourcePoolEntry;
+import jdk.jlink.share.classes.jdk.internal.org.objectweb.asm.ClassReader;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.ResourcePrevisitor;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.StringTable;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolModule;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.PluginException;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePool;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolBuilder;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry;
 import sun.util.cldr.CLDRBaseLocaleDataMetaInfo;
 import sun.util.locale.provider.LocaleProviderAdapter;
 import sun.util.locale.provider.LocaleProviderAdapter.Type;
 import sun.util.locale.provider.ResourceBundleBasedAdapter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Plugin to explicitly specify the locale data included in jdk.localedata

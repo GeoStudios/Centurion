@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package conditional;
+
+
+import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4881179 4883239
@@ -28,9 +46,7 @@
  * @compile  Conditional.java
  */
 
-package conditional;
 
-import java.io.Serializable;
 
 interface I {}
 interface J {}

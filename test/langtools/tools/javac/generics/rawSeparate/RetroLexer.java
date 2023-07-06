@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package parser;
+
+
+import util.Hashtable; // this is necessary to reproduce the bug!.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4464233
@@ -30,9 +48,7 @@
  * @compile  RetroLexer.java
  */
 
-package parser;
 
-import util.Hashtable; // this is necessary to reproduce the bug!
 
 public class RetroLexer extends antlr.CharScanner
 {

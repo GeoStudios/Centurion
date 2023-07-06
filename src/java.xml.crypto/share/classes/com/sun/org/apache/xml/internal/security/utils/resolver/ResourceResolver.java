@@ -19,24 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver;
+
+
+import java.lang.reflect.InvocationTargetException;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.util.concurrent.CopyOnWriteArrayjava.util.java.util.java.util.List;
+import java.util.concurrent.atomic.AtomicBoolean;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.XMLSignatureInput;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.JavaUtils;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver.implementations.ResolverDirectHTTP;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver.implementations.ResolverFragment;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver.implementations.ResolverLocalFilesystem;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver.implementations.ResolverXPointer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.utils.resolver;
 
-import java.lang.reflect.InvocationTargetException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
-import java.util.concurrent.atomic.AtomicBoolean;
 
-import com.sun.org.apache.xml.internal.security.signature.XMLSignatureInput;
-import com.sun.org.apache.xml.internal.security.utils.JavaUtils;
-import com.sun.org.apache.xml.internal.security.utils.resolver.implementations.ResolverDirectHTTP;
-import com.sun.org.apache.xml.internal.security.utils.resolver.implementations.ResolverFragment;
-import com.sun.org.apache.xml.internal.security.utils.resolver.implementations.ResolverLocalFilesystem;
-import com.sun.org.apache.xml.internal.security.utils.resolver.implementations.ResolverXPointer;
+
 
 /**
  * During reference validation, we have to retrieve resources from somewhere.

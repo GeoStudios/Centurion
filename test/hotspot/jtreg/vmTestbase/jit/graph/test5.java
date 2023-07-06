@@ -21,12 +21,25 @@
 
 package jit.graph;
 
+
 import jdk.test.lib.Utils;
 import nsk.share.TestFailure;
-
 import java.lang.reflect.InvocationTargetException;
 import java.util.Random;
 import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class test5 {
     private final int[] MethodID = {Globals.MethodID_Array[7],

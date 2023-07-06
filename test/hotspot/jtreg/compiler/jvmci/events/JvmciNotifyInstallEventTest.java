@@ -19,6 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci.events;
+
+
+import compiler.jvmci.common.CTVMUtilities;
+import compiler.jvmci.common.testcases.SimpleClass;
+import jdk.test.lib.Asserts;
+import jdk.test.lib.Utils;
+import jdk.vm.ci.services.JVMCIServiceLocator;
+import jdk.vm.ci.code.CompiledCode;
+import jdk.vm.ci.code.InstalledCode;
+import jdk.vm.ci.code.site.DataPatch;
+import jdk.vm.ci.code.site.Site;
+import jdk.vm.ci.hotspot.HotSpotCodeCacheProvider;
+import jdk.vm.ci.hotspot.HotSpotCompiledCode;
+import jdk.vm.ci.hotspot.HotSpotCompiledCode.Comment;
+import jdk.vm.ci.hotspot.HotSpotCompiledNmethod;
+import jdk.vm.ci.hotspot.HotSpotJVMCIRuntime;
+import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
+import jdk.vm.ci.hotspot.HotSpotVMEventjava.util.Listener;
+import jdk.vm.ci.meta.Assumptions.Assumption;
+import jdk.vm.ci.meta.ResolvedJavaMethod;
+import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8136421
@@ -55,28 +91,8 @@
  *     compiler.jvmci.events.JvmciNotifyInstallEventTest
  */
 
-package compiler.jvmci.events;
 
-import compiler.jvmci.common.CTVMUtilities;
-import compiler.jvmci.common.testcases.SimpleClass;
-import jdk.test.lib.Asserts;
-import jdk.test.lib.Utils;
-import jdk.vm.ci.services.JVMCIServiceLocator;
-import jdk.vm.ci.code.CompiledCode;
-import jdk.vm.ci.code.InstalledCode;
-import jdk.vm.ci.code.site.DataPatch;
-import jdk.vm.ci.code.site.Site;
-import jdk.vm.ci.hotspot.HotSpotCodeCacheProvider;
-import jdk.vm.ci.hotspot.HotSpotCompiledCode;
-import jdk.vm.ci.hotspot.HotSpotCompiledCode.Comment;
-import jdk.vm.ci.hotspot.HotSpotCompiledNmethod;
-import jdk.vm.ci.hotspot.HotSpotJVMCIRuntime;
-import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
-import jdk.vm.ci.hotspot.HotSpotVMEventListener;
-import jdk.vm.ci.meta.Assumptions.Assumption;
-import jdk.vm.ci.meta.ResolvedJavaMethod;
 
-import java.lang.reflect.Method;
 
 public class JvmciNotifyInstallEventTest extends JVMCIServiceLocator implements HotSpotVMEventListener {
     private static final String METHOD_NAME = "testMethod";

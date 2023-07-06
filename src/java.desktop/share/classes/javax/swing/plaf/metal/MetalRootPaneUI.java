@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.metal;
+package java.desktop.share.classes.javax.swing.plaf.metal;
+
 
 import java.awt.Component;
 import java.awt.Container;
@@ -37,15 +38,28 @@ import java.awt.Window;
 import java.awt.event.InputEvent;
 import java.awt.event.MouseEvent;
 import java.beans.PropertyChangeEvent;
+import java.desktop.share.classes.javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.JLayeredPane;
+import java.desktop.share.classes.javax.swing.JRootPane;
+import java.desktop.share.classes.javax.swing.LookAndFeel;
+import java.desktop.share.classes.javax.swing.SwingUtilities;
+import java.desktop.share.classes.javax.swing.event.MouseInputjava.util.Listener;
+import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
+import java.desktop.share.classes.javax.swing.plaf.basic.BasicRootPaneUI;
 
-import javax.swing.JComponent;
-import javax.swing.JLayeredPane;
-import javax.swing.JRootPane;
-import javax.swing.LookAndFeel;
-import javax.swing.SwingUtilities;
-import javax.swing.event.MouseInputListener;
-import javax.swing.plaf.ComponentUI;
-import javax.swing.plaf.basic.BasicRootPaneUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the metal look and feel implementation of <code>RootPaneUI</code>.

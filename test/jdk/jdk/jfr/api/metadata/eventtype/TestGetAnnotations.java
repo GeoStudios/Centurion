@@ -21,9 +21,9 @@
 
 package jdk.jfr.api.metadata.eventtype;
 
-import java.util.List;
-import java.util.Objects;
 
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import jdk.jfr.AnnotationElement;
 import jdk.jfr.Description;
 import jdk.jfr.Enabled;
@@ -32,6 +32,19 @@ import jdk.jfr.EventType;
 import jdk.jfr.Label;
 import jdk.jfr.Period;
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

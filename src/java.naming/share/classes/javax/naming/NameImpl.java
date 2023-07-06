@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.naming;
+package java.naming.share.classes.javax.naming;
 
-import java.util.Locale;
+
+import java.base.share.classes.java.util.Locale;
 import java.util.Vector;
 import java.util.Enumeration;
 import java.util.Properties;
 import java.util.NoSuchElementException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * The implementation class for CompoundName and CompositeName.

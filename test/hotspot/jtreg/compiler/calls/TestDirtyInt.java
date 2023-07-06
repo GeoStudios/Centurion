@@ -19,12 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.calls;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
 
  * @run main/native compiler.calls.TestDirtyInt
  */
 
-package compiler.calls;
 
 public class TestDirtyInt {
     static {

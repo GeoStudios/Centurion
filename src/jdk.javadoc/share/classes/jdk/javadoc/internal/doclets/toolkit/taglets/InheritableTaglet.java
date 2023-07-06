@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.toolkit.taglets;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.taglets;
 
-import jdk.javadoc.internal.doclets.toolkit.util.DocFinder;
+
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFinder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A taglet should implement this interface if it supports an {@code @inheritDoc}

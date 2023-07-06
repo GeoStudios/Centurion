@@ -21,8 +21,22 @@
 
 package com.foo;
 
+
 import java.text.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * FooDateFormat provides SimpleDateFormat methods required for the SPI testing.

@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.crypto.spec;
+package java.base.share.classes.javax.crypto.spec;
 
-import java.security.spec.KeySpec;
-import java.util.Arrays;
+
+import java.base.share.classes.java.security.spec.KeySpec;
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A user-chosen password that can be used with password-based encryption

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package NameOrder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4851006
@@ -28,7 +45,6 @@
  * @compile NameOrder.java
  */
 
-package NameOrder;
 
 interface a {}
 interface b {}

@@ -18,21 +18,21 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.astro;
 
-import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;
-import static javax.xml.xpath.XPathConstants.DOM_OBJECT_MODEL;
-import static javax.xml.xpath.XPathConstants.NODESET;
-import static jaxp.library.JAXPTestUtilities.filenameToURL;
-import static org.testng.Assert.assertEquals;
-import static test.astro.AstroConstants.ASTROCAT;
-import static test.astro.AstroConstants.JAXP_SCHEMA_LANGUAGE;
-import static test.astro.AstroConstants.JAXP_SCHEMA_SOURCE;
 
+import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;.extended
+import static javax.xml.xpath.XPathConstants.DOM_OBJECT_MODEL;.extended
+import static javax.xml.xpath.XPathConstants.NODESET;.extended
+import static jaxp.library.JAXPTestUtilities.filenameToURL;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static test.astro.AstroConstants.ASTROCAT;.extended
+import static test.astro.AstroConstants.JAXP_SCHEMA_LANGUAGE;.extended
+import static test.astro.AstroConstants.JAXP_SCHEMA_SOURCE;.extended
 import java.net.MalformedURLException;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
-
 import javax.xml.namespace.NamespaceContext;
 import javax.xml.namespace.QName;
 import javax.xml.parsers.DocumentBuilder;
@@ -42,14 +42,26 @@ import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 import javax.xml.xpath.XPathVariableResolver;
-
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.Document;
-import org.w3c.dom.NodeList;
+import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import org.xml.sax.InputSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

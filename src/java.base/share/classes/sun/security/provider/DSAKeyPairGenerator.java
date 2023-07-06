@@ -19,20 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider;
+package java.base.share.classes.sun.security.provider;
+
 
 import java.math.BigInteger;
-
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.SecureRandom;
 import java.security.interfaces.DSAParams;
 import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.InvalidParameterSpecException;
 import java.security.spec.DSAParameterSpec;
+import java.base.share.classes.sun.security.jca.JCAUtil;
+import static java.base.share.classes.sun.security.util.SecurityProviderConstants.DEF_DSA_KEY_SIZE;.extended
+import static java.base.share.classes.sun.security.util.SecurityProviderConstants.getDefDSASubprimeSize;.extended
 
-import sun.security.jca.JCAUtil;
-import static sun.security.util.SecurityProviderConstants.DEF_DSA_KEY_SIZE;
-import static sun.security.util.SecurityProviderConstants.getDefDSASubprimeSize;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class generates DSA key parameters and public/private key

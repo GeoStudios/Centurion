@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.synth;
+package java.desktop.share.classes.javax.swing.plaf.synth;
+
 
 import java.awt.Component;
 import java.awt.Container;
@@ -29,14 +30,28 @@ import java.awt.Insets;
 import java.awt.LayoutManager;
 import java.awt.Rectangle;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import javax.swing.Box;
-import javax.swing.Icon;
-import javax.swing.JComponent;
-import javax.swing.JSeparator;
-import javax.swing.JToolBar;
-import javax.swing.plaf.ComponentUI;
-import javax.swing.plaf.basic.BasicToolBarUI;
+import java.beans.PropertyChangejava.util.Listener;
+import java.desktop.share.classes.javax.swing.Box;
+import java.desktop.share.classes.javax.swing.Icon;
+import java.desktop.share.classes.javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.JSeparator;
+import java.desktop.share.classes.javax.swing.JToolBar;
+import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
+import java.desktop.share.classes.javax.swing.plaf.basic.BasicToolBarUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides the Synth L&amp;F UI delegate for

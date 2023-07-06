@@ -19,20 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package sun.security.ssl;
+
+
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.spec.SecretKeySpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Actual test code for the package private HKDF implementation
  */
 
-package sun.security.ssl;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.LinkedList;
-import java.util.Objects;
-import java.security.NoSuchAlgorithmException;
-import java.security.InvalidKeyException;
-import javax.crypto.SecretKey;
-import javax.crypto.spec.SecretKeySpec;
 
 public class TestHkdf {
     public static class TestData {

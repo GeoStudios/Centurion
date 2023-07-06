@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.font;
+package java.desktop.share.classes.java.awt.font;
 
-import java.text.BreakIterator;
-import java.text.CharacterIterator;
-import java.text.AttributedCharacterIterator;
-import java.awt.font.FontRenderContext;
+
+import java.desktop.share.classes.java.text.BreakIterator;
+import java.desktop.share.classes.java.text.CharacterIterator;
+import java.desktop.share.classes.java.text.AttributedCharacterIterator;
+import java.desktop.share.classes.java.awt.font.FontRenderContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code LineBreakMeasurer} class allows styled text to be

@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal;
+package jdk.jfr.share.classes.jdk.jfr.internal;
+
 
 import java.util.BitSet;
 import java.util.function.Consumer;
 import java.util.function.LongConsumer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("unchecked")
 public final class LongMap<T> {

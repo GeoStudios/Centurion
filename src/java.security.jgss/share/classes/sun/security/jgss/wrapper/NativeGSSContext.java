@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jgss.wrapper;
+package java.security.jgss.share.classes.sun.security.jgss.wrapper;
+
 
 import org.ietf.jgss.*;
 import java.security.Provider;
-import sun.security.jgss.GSSHeader;
-import sun.security.jgss.GSSUtil;
-import sun.security.jgss.GSSExceptionImpl;
-import sun.security.jgss.spi.*;
-import sun.security.util.DerValue;
-import sun.security.util.ObjectIdentifier;
-import sun.security.jgss.spnego.NegTokenInit;
-import sun.security.jgss.spnego.NegTokenTarg;
+import java.security.jgss.share.classes.sun.security.jgss.GSSHeader;
+import java.security.jgss.share.classes.sun.security.jgss.GSSUtil;
+import java.security.jgss.share.classes.sun.security.jgss.GSSExceptionImpl;
+import java.security.jgss.share.classes.sun.security.jgss.spi.*;
+import java.security.jgss.share.classes.sun.security.util.DerValue;
+import java.security.jgss.share.classes.sun.security.util.ObjectIdentifier;
+import java.security.jgss.share.classes.sun.security.jgss.spnego.NegTokenInit;
+import java.security.jgss.share.classes.sun.security.jgss.spnego.NegTokenTarg;
 import javax.security.auth.kerberos.DelegationPermission;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

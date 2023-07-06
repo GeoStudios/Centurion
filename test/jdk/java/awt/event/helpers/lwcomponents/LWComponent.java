@@ -21,9 +21,23 @@
 
 package test.java.awt.event.helpers.lwcomponents;
 
+
 import java.io.*;
 import java.awt.*;
 import java.awt.event.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is experimental - The idea is to subclass all the LW components

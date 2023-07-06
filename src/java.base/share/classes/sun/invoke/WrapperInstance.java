@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.invoke;
+package java.base.share.classes.sun.invoke;
+
 
 import java.lang.invoke.MethodHandle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Private API used inside of java.lang.invoke.MethodHandles.

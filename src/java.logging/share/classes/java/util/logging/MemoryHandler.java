@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.logging;
+package java.logging.share.classes.java.util.logging;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code Handler} that buffers requests in a circular buffer in memory.

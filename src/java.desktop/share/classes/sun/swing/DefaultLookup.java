@@ -18,14 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.swing;
+
+package java.desktop.share.classes.sun.swing;
+
 
 import java.awt.Color;
 import java.awt.Insets;
 import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.plaf.ComponentUI;
-import sun.awt.AppContext;
+import java.desktop.share.classes.sun.awt.AppContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * DefaultLookup provides a way to customize the lookup done by the

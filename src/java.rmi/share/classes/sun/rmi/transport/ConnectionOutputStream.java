@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.rmi.transport;
+package java.rmi.share.classes.sun.rmi.transport;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.rmi.server.UID;
-import sun.rmi.server.MarshalOutputStream;
+import java.rmi.share.classes.sun.rmi.server.MarshalOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Special stream to keep track of refs being marshaled as return

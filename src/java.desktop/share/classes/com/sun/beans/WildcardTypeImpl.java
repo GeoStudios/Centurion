@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.beans;
+
+package java.desktop.share.classes.com.sun.beans;
+
 
 import java.lang.reflect.Type;
 import java.lang.reflect.WildcardType;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements {@link WildcardType WildcardType} compatibly with the JDK's

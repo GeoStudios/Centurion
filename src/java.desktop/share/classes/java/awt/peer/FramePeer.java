@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.peer;
+package java.desktop.share.classes.java.awt.peer;
 
-import java.awt.*;
 
+import java.desktop.share.classes.java.awt.*;
 import sun.awt.EmbeddedFrame;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The peer interface for {@link Frame}. This adds a couple of frame specific

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.rangechecks;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8134883
@@ -29,7 +46,6 @@
  *                  compiler.rangechecks.TestRangeCheckExceptionHandlerLoopMain
  */
 
-package compiler.rangechecks;
 
 public class TestRangeCheckExceptionHandlerLoopMain {
     public static void main(String[] args) throws Exception {

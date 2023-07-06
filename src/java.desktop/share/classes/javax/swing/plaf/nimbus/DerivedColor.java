@@ -18,12 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.plaf.nimbus;
 
-import javax.swing.UIManager;
+package java.desktop.share.classes.javax.swing.plaf.nimbus;
+
+
+import java.desktop.share.classes.javax.swing.UIManager;
 import java.awt.Color;
 import java.beans.PropertyChangeSupport;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * DerivedColor - A color implementation that is derived from a UIManager

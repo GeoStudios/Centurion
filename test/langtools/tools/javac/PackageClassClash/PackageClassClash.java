@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package PackageClassClash;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @bug 4097882
  * @summary Verify that class name can be the same as package name.
@@ -27,7 +44,6 @@
  * @compile PackageClassClash.java
  */
 
-package PackageClassClash;
 
 public class PackageClassClash {
     // Inner class is required to reproduce bug 4097882.

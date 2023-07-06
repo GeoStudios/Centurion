@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.access;
+package java.base.share.classes.jdk.internal.access;
 
-import javax.crypto.spec.SecretKeySpec;
+
+import java.base.share.classes.javax.crypto.spec.SecretKeySpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public interface JavaxCryptoSpecAccess {
     void clearSecretKeySpec(SecretKeySpec keySpec);

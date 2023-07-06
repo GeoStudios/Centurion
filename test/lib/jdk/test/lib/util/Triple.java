@@ -21,7 +21,21 @@
 
 package jdk.test.lib.util;
 
-import java.util.Objects;
+
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Triple - a three element tuple

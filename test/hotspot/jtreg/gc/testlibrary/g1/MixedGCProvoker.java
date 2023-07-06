@@ -21,15 +21,27 @@
 
 package gc.testlibrary.g1;
 
-import static java.util.stream.IntStream.range;
-import static jdk.test.lib.Asserts.assertTrue;
-import static sun.hotspot.WhiteBox.getWhiteBox;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import static java.util.stream.IntStream.range;.extended
+import static jdk.test.lib.Asserts.assertTrue;.extended
+import static sun.hotspot.WhiteBox.getWhiteBox;.extended
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import gc.testlibrary.Helpers;
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class to reliably provoke a mixed GC. The class allocates several arrays and

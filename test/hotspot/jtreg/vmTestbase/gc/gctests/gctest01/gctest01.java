@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.gctest01;
+
+
+import nsk.share.test.*;
+import nsk.share.log.*;
+import nsk.share.gc.*;
+import nsk.share.TestBug;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -32,12 +52,7 @@
  * @run main/othervm gc.gctests.gctest01.gctest01 100 10
  */
 
-package gc.gctests.gctest01;
 
-import nsk.share.test.*;
-import nsk.share.log.*;
-import nsk.share.gc.*;
-import nsk.share.TestBug;
 
 //import RusageStruct;
 

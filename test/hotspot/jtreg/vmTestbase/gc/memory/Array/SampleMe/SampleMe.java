@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.memory.Array.SampleMe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -50,7 +67,6 @@
  * @run main/othervm gc.memory.Array.SampleMe.SampleMe
  */
 
-package gc.memory.Array.SampleMe;
 
 //SampleMe.java
 // import SampleClass;

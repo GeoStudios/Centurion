@@ -21,6 +21,21 @@
 
 package jdk.jfr.event.oldobject;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Purpose of this class is to generate a stack trace
  * that can be used in a different class loader

@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.smartcardio;
+package java.smartcardio.share.classes.javax.smartcardio;
 
-import java.util.Arrays;
+
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A response APDU as defined in ISO/IEC 7816-4. It consists of a conditional
@@ -153,10 +168,9 @@ public final class ResponseAPDU implements java.io.Serializable {
         if (this == obj) {
             return true;
         }
-        if (!(obj instanceof ResponseAPDU)) {
+        if (!(obj instanceof ResponseAPDU other)) {
             return false;
         }
-        ResponseAPDU other = (ResponseAPDU)obj;
         return Arrays.equals(this.apdu, other.apdu);
     }
 

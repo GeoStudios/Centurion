@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing;
+
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.Component;
 import java.awt.Container;
@@ -30,6 +32,20 @@ import sun.awt.SunToolkit;
 import sun.awt.event.IgnorePaintEvent;
 import sun.security.action.GetBooleanAction;
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Swing's PaintEventDispatcher.  If the component specified by the PaintEvent

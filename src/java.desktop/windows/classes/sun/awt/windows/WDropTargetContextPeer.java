@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.windows;
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.io.InputStream;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
+import java.desktop.windows.classes.sun.awt.PeerEvent;
+import java.desktop.windows.classes.sun.awt.SunToolkit;
+import java.desktop.windows.classes.sun.awt.dnd.SunDropTargetContextPeer;
+import java.desktop.windows.classes.sun.awt.dnd.SunDropTargetEvent;
 
-import sun.awt.PeerEvent;
-import sun.awt.SunToolkit;
-import sun.awt.dnd.SunDropTargetContextPeer;
-import sun.awt.dnd.SunDropTargetEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>

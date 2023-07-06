@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.instrument;
+package java.instrument.share.classes.sun.instrument;
+
 
 import java.lang.instrument.Instrumentation;
 import java.lang.instrument.ClassFileTransformer;
 import java.security.ProtectionDomain;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Support class for the InstrumentationImpl. Manages the list of registered transformers.

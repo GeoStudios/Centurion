@@ -19,17 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.lang.invoke;
+
+
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @bug 8031502
  * @summary JSR292: IncompatibleClassChangeError in LambdaForm for CharSequence.toString() method handle type converter
  * @compile ObjectMethodInInterfaceTest.java
  * @run main/othervm -Djava.lang.invoke.MethodHandle.COMPILE_THRESHOLD=0 test.java.lang.invoke.ObjectMethodInInterfaceTest
  */
-package test.java.lang.invoke;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodType;
 
 public class ObjectMethodInInterfaceTest {
     public static void main(String[] args) throws Throwable {

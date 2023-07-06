@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.security.auth.kerberos;
+package java.security.jgss.share.classes.javax.security.auth.kerberos;
+
 
 import java.io.File;
 import java.security.AccessControlException;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import sun.security.krb5.EncryptionKey;
 import sun.security.krb5.KerberosSecrets;
 import sun.security.krb5.PrincipalName;
 import sun.security.krb5.RealmException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class encapsulates a keytab file.

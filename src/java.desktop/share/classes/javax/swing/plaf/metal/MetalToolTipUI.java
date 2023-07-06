@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.metal;
+package java.desktop.share.classes.javax.swing.plaf.metal;
+
 
 import sun.swing.SwingUtilities2;
 import java.awt.*;
 import java.awt.event.*;
-import javax.swing.*;
-import javax.swing.plaf.*;
-import javax.swing.plaf.basic.BasicToolTipUI;
-import javax.swing.plaf.basic.BasicHTML;
-import javax.swing.text.View;
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.plaf.*;
+import java.desktop.share.classes.javax.swing.plaf.basic.BasicToolTipUI;
+import java.desktop.share.classes.javax.swing.plaf.basic.BasicHTML;
+import java.desktop.share.classes.javax.swing.text.View;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

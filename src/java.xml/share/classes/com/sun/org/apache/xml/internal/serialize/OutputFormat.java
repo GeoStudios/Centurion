@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serialize;
+
+
+import java.io.UnsupportedEncodingException;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.w3c.dom.DocumentType;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Aug 21, 2000:
 //  Added ability to omit DOCTYPE declaration.
 //  Reported by Lars Martin <lars@smb-tec.com>
@@ -27,14 +49,10 @@
 //  Contributed by Anupam Bagchi <abagchi@jtcsv.com>
 
 
-package com.sun.org.apache.xml.internal.serialize;
 
 
-import java.io.UnsupportedEncodingException;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.DocumentType;
-import org.w3c.dom.Node;
+
 
 
 /**

@@ -19,19 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.text.MessageFormat;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import javax.net.ssl.SSLProtocolException;
-import static sun.security.ssl.SSLExtension.CH_SUPPORTED_VERSIONS;
-import sun.security.ssl.SSLExtension.ExtensionConsumer;
-import static sun.security.ssl.SSLExtension.HRR_SUPPORTED_VERSIONS;
-import static sun.security.ssl.SSLExtension.SH_SUPPORTED_VERSIONS;
-import sun.security.ssl.SSLExtension.SSLExtensionSpec;
-import sun.security.ssl.SSLHandshake.HandshakeMessage;
+import static java.base.share.classes.sun.security.ssl.SSLExtension.CH_SUPPORTED_VERSIONS;.extended
+import java.base.share.classes.sun.security.ssl.SSLExtension.ExtensionConsumer;
+import static java.base.share.classes.sun.security.ssl.SSLExtension.HRR_SUPPORTED_VERSIONS;.extended
+import static java.base.share.classes.sun.security.ssl.SSLExtension.SH_SUPPORTED_VERSIONS;.extended
+import java.base.share.classes.sun.security.ssl.SSLExtension.SSLExtensionSpec;
+import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Pack of the "supported_versions" extensions.

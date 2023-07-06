@@ -18,7 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package validation;
+
+
+import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;.extended
+import java.net.URISyntaxException;
+import javax.xml.transform.stream.StreamSource;
+import javax.xml.validation.SchemaFactory;
+import javax.xml.validation.Validator;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.java.util.Listeners;
+import org.testng.annotations.Test;
+import org.xml.sax.SAXException;
+import org.xml.sax.SAXParseException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -28,19 +54,9 @@ package validation;
  * @run testng/othervm validation.AnyElementTest
  * @summary Test processContents attribute of any element
  */
-import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;
 
-import java.net.URISyntaxException;
 
-import javax.xml.transform.stream.StreamSource;
-import javax.xml.validation.SchemaFactory;
-import javax.xml.validation.Validator;
 
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
-import org.xml.sax.SAXException;
-import org.xml.sax.SAXParseException;
 
 @Listeners({jaxp.library.FilePolicy.class})
 public class AnyElementTest {

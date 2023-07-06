@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.sql;
+package java.sql.share.classes.java.sql;
 
-import java.io.IOException;
-import java.io.InvalidObjectException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.util.Arrays;
+
+import java.sql.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.sql.share.classes.java.io.InvalidObjectException;
+import java.sql.share.classes.java.io.ObjectInputStream;
+import java.sql.share.classes.java.io.ObjectOutputStream;
+import java.sql.share.classes.java.util.java.util.java.util.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The subclass of {@link SQLException} thrown when an error

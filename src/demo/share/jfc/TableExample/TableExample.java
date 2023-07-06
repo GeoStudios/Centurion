@@ -19,24 +19,9 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * This source code is provided to illustrate the usage of a given feature
- * or technique and has been deliberately simplified. Additional steps
- * required for a production-quality application, such as security checks,
- * input validation and proper error handling, might not be present in
- * this sample code.
- */
+package demo.share.jfc.TableExample;
 
 
-
-/**
- * A a UI around the JDBCAdaptor, allowing database data to be interactively
- * fetched, sorted and displayed using Swing.
- *
- * NOTE: This example uses a modal dialog via the static convenience methods in
- * the JOptionPane. Use of modal dialogs requires JDK 1.1.4 or greater.
- *
- */
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Container;
@@ -45,7 +30,7 @@ import java.awt.GridLayout;
 import java.awt.LayoutManager;
 import java.awt.Rectangle;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.util.logging.Level;
@@ -64,6 +49,39 @@ import javax.swing.JTextField;
 import javax.swing.UIManager;
 import javax.swing.UIManager.LookAndFeelInfo;
 import javax.swing.border.BevelBorder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * This source code is provided to illustrate the usage of a given feature
+ * or technique and has been deliberately simplified. Additional steps
+ * required for a production-quality application, such as security checks,
+ * input validation and proper error handling, might not be present in
+ * this sample code.
+ */
+
+
+
+/**
+ * A a UI around the JDBCAdaptor, allowing database data to be interactively
+ * fetched, sorted and displayed using Swing.
+ *
+ * NOTE: This example uses a modal dialog via the static convenience methods in
+ * the JOptionPane. Use of modal dialogs requires JDK 1.1.4 or greater.
+ *
+ */
 
 
 public final class TableExample implements LayoutManager {

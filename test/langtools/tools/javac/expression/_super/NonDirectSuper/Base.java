@@ -21,6 +21,21 @@
 
 package base;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Base extends PackagePrivate { }
 
 class PackagePrivate {

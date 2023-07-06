@@ -21,8 +21,22 @@
 
 package jdk.jfr.event.gc.collection;
 
-import java.util.ArrayList;
-import java.util.List;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Simple application to provoke various kinds of GC.

@@ -21,6 +21,7 @@
 
 package jdk.jfr.api.metadata.annotations;
 
+
 import jdk.jfr.Event;
 import jdk.jfr.EventType;
 import jdk.jfr.Frequency;
@@ -34,6 +35,19 @@ import jdk.jfr.TransitionTo;
 import jdk.jfr.Unsigned;
 import jdk.jfr.ValueDescriptor;
 import jdk.test.lib.jfr.Events;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

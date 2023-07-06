@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.io.Serial;
+
+import java.desktop.share.classes.java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A border layout lays out a container, arranging and resizing
@@ -96,8 +111,8 @@ import java.io.Serial;
  * The code for this applet is as follows:
  *
  * <hr><blockquote><pre>
- * import java.awt.*;
- * import java.applet.Applet;
+ * import java.desktop.share.classes.java.awt.*;
+ * import java.desktop.share.classes.java.applet.Applet;
  *
  * public class buttonDir extends Applet {
  *   public void init() {

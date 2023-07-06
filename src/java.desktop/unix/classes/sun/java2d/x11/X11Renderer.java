@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.x11;
+package java.desktop.unix.classes.sun.java2d.x11;
+
 
 import java.awt.Polygon;
 import java.awt.Shape;
@@ -27,17 +28,31 @@ import java.awt.geom.AffineTransform;
 import java.awt.geom.PathIterator;
 import java.awt.geom.Path2D;
 import java.awt.geom.IllegalPathStateException;
-import sun.awt.SunToolkit;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.SurfaceData;
-import sun.java2d.loops.GraphicsPrimitive;
-import sun.java2d.pipe.Region;
-import sun.java2d.pipe.PixelDrawPipe;
-import sun.java2d.pipe.PixelFillPipe;
-import sun.java2d.pipe.ShapeDrawPipe;
-import sun.java2d.pipe.SpanIterator;
-import sun.java2d.pipe.ShapeSpanIterator;
-import sun.java2d.pipe.LoopPipe;
+import java.desktop.unix.classes.sun.awt.SunToolkit;
+import java.desktop.unix.classes.sun.java2d.SunGraphics2D;
+import java.desktop.unix.classes.sun.java2d.SurfaceData;
+import java.desktop.unix.classes.sun.java2d.loops.GraphicsPrimitive;
+import java.desktop.unix.classes.sun.java2d.pipe.Region;
+import java.desktop.unix.classes.sun.java2d.pipe.PixelDrawPipe;
+import java.desktop.unix.classes.sun.java2d.pipe.PixelFillPipe;
+import java.desktop.unix.classes.sun.java2d.pipe.ShapeDrawPipe;
+import java.desktop.unix.classes.sun.java2d.pipe.SpanIterator;
+import java.desktop.unix.classes.sun.java2d.pipe.ShapeSpanIterator;
+import java.desktop.unix.classes.sun.java2d.pipe.LoopPipe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class X11Renderer implements
     PixelDrawPipe,

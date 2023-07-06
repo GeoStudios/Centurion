@@ -19,22 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs11;
+package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11;
+
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.io.*;
 import java.lang.ref.*;
-
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import javax.security.auth.login.LoginException;
+import jdk.crypto.cryptoki.share.classes.sun.security.jca.JCAUtil;
+import jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.*;
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.TemplateManager.*;.extended
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Constants.*;.extended
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Exception.*;.extended
 
-import sun.security.jca.JCAUtil;
 
-import sun.security.pkcs11.wrapper.*;
-import static sun.security.pkcs11.TemplateManager.*;
-import static sun.security.pkcs11.wrapper.PKCS11Constants.*;
-import static sun.security.pkcs11.wrapper.PKCS11Exception.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * PKCS#11 token.

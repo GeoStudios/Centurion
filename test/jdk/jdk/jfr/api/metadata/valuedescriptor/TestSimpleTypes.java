@@ -21,9 +21,9 @@
 
 package jdk.jfr.api.metadata.valuedescriptor;
 
-import java.util.ArrayList;
-import java.util.List;
 
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import jdk.jfr.Description;
 import jdk.jfr.Event;
 import jdk.jfr.EventType;
@@ -33,6 +33,19 @@ import jdk.jfr.Name;
 import jdk.jfr.Percentage;
 import jdk.jfr.ValueDescriptor;
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

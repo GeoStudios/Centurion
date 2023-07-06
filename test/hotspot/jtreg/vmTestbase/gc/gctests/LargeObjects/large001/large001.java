@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.LargeObjects.large001;
+
+
+import java.lang.reflect.*;
+import java.lang.ref.WeakReference;
+import java.util.*;
+import nsk.share.TestFailure;
+import nsk.share.gc.*;
+import nsk.share.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -67,16 +90,9 @@
  *      -t 1
  */
 
-package gc.gctests.LargeObjects.large001;
-
-import java.lang.reflect.*;
-import java.lang.ref.WeakReference;
-import java.util.*;
-import nsk.share.TestFailure;
 
 
-import nsk.share.gc.*;
-import nsk.share.*;
+
 
 public class large001 extends ThreadedGCTest {
 

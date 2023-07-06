@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.imageio.plugins.tiff;
+
+package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
+
 
 import java.awt.Point;
 import java.awt.Rectangle;
@@ -35,12 +37,12 @@ import java.awt.image.Raster;
 import java.awt.image.SampleModel;
 import java.awt.image.WritableRaster;
 import java.io.EOFException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteOrder;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import javax.imageio.IIOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
+import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import javax.imageio.IIOImage;
 import javax.imageio.ImageWriteParam;
 import javax.imageio.ImageWriter;
@@ -51,16 +53,30 @@ import javax.imageio.metadata.IIOMetadataFormatImpl;
 import javax.imageio.spi.ImageWriterSpi;
 import javax.imageio.stream.ImageOutputStream;
 import org.w3c.dom.Node;
-import com.sun.imageio.plugins.common.ImageUtil;
+import java.desktop.share.classes.com.sun.imageio.plugins.common.ImageUtil;
 import javax.imageio.plugins.tiff.BaselineTIFFTagSet;
 import javax.imageio.plugins.tiff.ExifParentTIFFTagSet;
 import javax.imageio.plugins.tiff.ExifTIFFTagSet;
 import javax.imageio.plugins.tiff.TIFFField;
 import javax.imageio.plugins.tiff.TIFFTag;
 import javax.imageio.plugins.tiff.TIFFTagSet;
-import com.sun.imageio.plugins.common.SimpleRenderedImage;
-import com.sun.imageio.plugins.common.SingleTileRenderedImage;
+import java.desktop.share.classes.com.sun.imageio.plugins.common.SimpleRenderedImage;
+import java.desktop.share.classes.com.sun.imageio.plugins.common.SingleTileRenderedImage;
 import java.nio.charset.StandardCharsets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TIFFImageWriter extends ImageWriter {
 

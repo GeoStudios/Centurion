@@ -21,35 +21,47 @@
 
 package tck.java.time.temporal;
 
-import static java.time.temporal.ChronoUnit.CENTURIES;
-import static java.time.temporal.ChronoUnit.DAYS;
-import static java.time.temporal.ChronoUnit.DECADES;
-import static java.time.temporal.ChronoUnit.ERAS;
-import static java.time.temporal.ChronoUnit.FOREVER;
-import static java.time.temporal.ChronoUnit.HALF_DAYS;
-import static java.time.temporal.ChronoUnit.HOURS;
-import static java.time.temporal.ChronoUnit.MICROS;
-import static java.time.temporal.ChronoUnit.MILLENNIA;
-import static java.time.temporal.ChronoUnit.MILLIS;
-import static java.time.temporal.ChronoUnit.MINUTES;
-import static java.time.temporal.ChronoUnit.MONTHS;
-import static java.time.temporal.ChronoUnit.NANOS;
-import static java.time.temporal.ChronoUnit.SECONDS;
-import static java.time.temporal.ChronoUnit.WEEKS;
-import static java.time.temporal.ChronoUnit.YEARS;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
-import static org.testng.Assert.fail;
 
+import static java.time.temporal.ChronoUnit.CENTURIES;.extended
+import static java.time.temporal.ChronoUnit.DAYS;.extended
+import static java.time.temporal.ChronoUnit.DECADES;.extended
+import static java.time.temporal.ChronoUnit.ERAS;.extended
+import static java.time.temporal.ChronoUnit.FOREVER;.extended
+import static java.time.temporal.ChronoUnit.HALF_DAYS;.extended
+import static java.time.temporal.ChronoUnit.HOURS;.extended
+import static java.time.temporal.ChronoUnit.MICROS;.extended
+import static java.time.temporal.ChronoUnit.MILLENNIA;.extended
+import static java.time.temporal.ChronoUnit.MILLIS;.extended
+import static java.time.temporal.ChronoUnit.MINUTES;.extended
+import static java.time.temporal.ChronoUnit.MONTHS;.extended
+import static java.time.temporal.ChronoUnit.NANOS;.extended
+import static java.time.temporal.ChronoUnit.SECONDS;.extended
+import static java.time.temporal.ChronoUnit.WEEKS;.extended
+import static java.time.temporal.ChronoUnit.YEARS;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertTrue;.extended
+import static org.testng.Assert.fail;.extended
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.temporal.ChronoField;
 import java.time.temporal.ChronoUnit;
 import java.time.temporal.Temporal;
 import java.time.temporal.TemporalAccessor;
-
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test.

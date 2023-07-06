@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.security.auth.kerberos;
+package java.security.jgss.share.classes.javax.security.auth.kerberos;
 
-import javax.security.auth.Destroyable;
-import java.util.Arrays;
+
+import java.security.jgss.share.classes.javax.security.auth.Destroyable;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Base64;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class encapsulates a Kerberos 5 KRB_CRED message which can be used to

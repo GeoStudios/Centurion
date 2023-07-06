@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.whitebox;
+
+
+import jdk.test.lib.Asserts;
+import sun.hotspot.code.NMethod;
+import java.lang.reflect.Executable;
+import java.util.concurrent.Callable;
+import java.util.concurrent.Phaser;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test DeoptimizeFramesTest
  * @bug 8028595
@@ -44,14 +66,8 @@
  *                   compiler.whitebox.DeoptimizeFramesTest false
  */
 
-package compiler.whitebox;
 
-import jdk.test.lib.Asserts;
-import sun.hotspot.code.NMethod;
 
-import java.lang.reflect.Executable;
-import java.util.concurrent.Callable;
-import java.util.concurrent.Phaser;
 
 public class DeoptimizeFramesTest extends CompilerWhiteBoxTest {
     private final boolean makeNotEntrant;

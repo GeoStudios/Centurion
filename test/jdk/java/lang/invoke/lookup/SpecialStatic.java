@@ -19,6 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.lang.invoke.lookup;
+
+
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+import jdk.internal.org.objectweb.asm.*;
+import org.testng.annotations.*;
+import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
+import static org.testng.Assert.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @bug 8032400
  * @summary JSR292: invokeSpecial: InternalError attempting to lookup a method
@@ -26,15 +50,7 @@
  * @compile -XDignore.symbol.file SpecialStatic.java
  * @run testng test.java.lang.invoke.lookup.SpecialStatic
  */
-package test.java.lang.invoke.lookup;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodType;
-import jdk.internal.org.objectweb.asm.*;
-import org.testng.annotations.*;
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
-import static org.testng.Assert.*;
 
 /**
  * Test case:

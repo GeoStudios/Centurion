@@ -21,11 +21,55 @@
 
 package build.tools.charsetmapping;
 
-import java.io.*;
-import java.util.Locale;
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.Scanner;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SPI {
 

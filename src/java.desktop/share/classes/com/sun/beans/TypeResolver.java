@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.beans;
+
+package java.desktop.share.classes.com.sun.beans;
+
 
 import java.lang.reflect.Array;
 import java.lang.reflect.GenericArrayType;
@@ -28,9 +30,22 @@ import java.lang.reflect.TypeVariable;
 import java.lang.reflect.WildcardType;
 import java.util.HashMap;
 import java.util.Map;
+import java.desktop.share.classes.com.sun.reflect.generics.reflectivejava.util.java.util.java.util.Objects.GenericArrayTypeImpl;
+import java.desktop.share.classes.com.sun.reflect.generics.reflectivejava.util.java.util.java.util.Objects.ParameterizedTypeImpl;
 
-import sun.reflect.generics.reflectiveObjects.GenericArrayTypeImpl;
-import sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is utility class to resolve types.

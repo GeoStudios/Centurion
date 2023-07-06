@@ -19,21 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.util;
+package java.base.share.classes.sun.security.util;
+
 
 import java.io.ByteArrayOutputStream;
 import java.io.OutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
 import java.nio.charset.Charset;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.TimeZone;
 import java.util.Comparator;
-import java.util.Arrays;
-import java.util.Locale;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.java.util.Locale;
+import static java.nio.charset.StandardCharsets.*;.extended
 
-import static java.nio.charset.StandardCharsets.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Output stream marshaling DER-encoded data.  This is eventually provided

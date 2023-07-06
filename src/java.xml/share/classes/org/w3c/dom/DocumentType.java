@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.w3c.dom;
+package java.xml.share.classes.org.w3c.dom;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Each <code>Document</code> has a <code>doctype</code> attribute whose value

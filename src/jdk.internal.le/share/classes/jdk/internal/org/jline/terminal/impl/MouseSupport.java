@@ -18,19 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.terminal.impl;
 
-import jdk.internal.org.jline.terminal.MouseEvent;
-import jdk.internal.org.jline.terminal.Terminal;
-import jdk.internal.org.jline.utils.InfoCmp;
-import jdk.internal.org.jline.utils.InputStreamReader;
+package jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl;
 
+
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.MouseEvent;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Terminal;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.InfoCmp;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.InputStreamReader;
 import java.io.EOFException;
 import java.io.IOError;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.EnumSet;
 import java.util.function.IntSupplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MouseSupport {
 

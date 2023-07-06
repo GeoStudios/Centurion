@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.tools.jlink.internal.plugins;
+package jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins;
 
-import jdk.tools.jlink.plugin.Plugin;
 
-import java.util.Locale;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.Plugin;
+import java.base.share.classes.java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class AbstractPlugin implements Plugin {
 

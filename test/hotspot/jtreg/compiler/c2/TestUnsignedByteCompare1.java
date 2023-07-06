@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import java.lang.invoke.*;
+import jdk.internal.vm.annotation.DontInline;
+import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8253191
@@ -28,11 +48,7 @@
  *
  * @run main/bootclasspath/othervm -XX:+IgnoreUnrecognizedVMOptions -XX:-TieredCompilation compiler.c2.TestUnsignedByteCompare1
  */
-package compiler.c2;
 
-import java.lang.invoke.*;
-import jdk.internal.vm.annotation.DontInline;
-import jdk.test.lib.Asserts;
 
 public class TestUnsignedByteCompare1 {
 

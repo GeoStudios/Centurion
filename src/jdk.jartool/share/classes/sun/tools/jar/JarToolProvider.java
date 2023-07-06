@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jar;
+package jdk.jartool.share.classes.sun.tools.jar;
+
 
 import java.io.PrintWriter;
 import java.util.spi.ToolProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JarToolProvider implements ToolProvider {
     public String name() {

@@ -19,43 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * <p>These classes are designed to be used while the
- * corresponding <code>LookAndFeel</code> class has been installed
- * (<code>UIManager.setLookAndFeel(new <i>XXX</i>LookAndFeel())</code>).
- * Using them while a different <code>LookAndFeel</code> is installed
- * may produce unexpected results, including exceptions.
- * Additionally, changing the <code>LookAndFeel</code>
- * maintained by the <code>UIManager</code> without updating the
- * corresponding <code>ComponentUI</code> of any
- * <code>JComponent</code>s may also produce unexpected results,
- * such as the wrong colors showing up, and is generally not
- * encouraged.
- *
- */
+package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-package com.sun.java.swing.plaf.windows;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.Graphics;
-import java.awt.HeadlessException;
-import java.awt.Image;
-import java.awt.Insets;
-import java.awt.KeyboardFocusManager;
-import java.awt.Toolkit;
-import java.awt.event.ActionEvent;
-import java.awt.image.BufferedImage;
-import java.awt.image.FilteredImageSource;
-import java.awt.image.ImageFilter;
-import java.awt.image.ImageProducer;
-import java.awt.image.RGBImageFilter;
-import java.security.AccessController;
-
+import java.desktop.windows.classes.com.sun.java.awt.Color;
+import java.desktop.windows.classes.com.sun.java.awt.Component;
+import java.desktop.windows.classes.com.sun.java.awt.Container;
+import java.desktop.windows.classes.com.sun.java.awt.Dimension;
+import java.desktop.windows.classes.com.sun.java.awt.Font;
+import java.desktop.windows.classes.com.sun.java.awt.FontMetrics;
+import java.desktop.windows.classes.com.sun.java.awt.Graphics;
+import java.desktop.windows.classes.com.sun.java.awt.HeadlessException;
+import java.desktop.windows.classes.com.sun.java.awt.Image;
+import java.desktop.windows.classes.com.sun.java.awt.Insets;
+import java.desktop.windows.classes.com.sun.java.awt.KeyboardFocusManager;
+import java.desktop.windows.classes.com.sun.java.awt.Toolkit;
+import java.desktop.windows.classes.com.sun.java.awt.event.ActionEvent;
+import java.desktop.windows.classes.com.sun.java.awt.image.BufferedImage;
+import java.desktop.windows.classes.com.sun.java.awt.image.FilteredImageSource;
+import java.desktop.windows.classes.com.sun.java.awt.image.ImageFilter;
+import java.desktop.windows.classes.com.sun.java.awt.image.ImageProducer;
+import java.desktop.windows.classes.com.sun.java.awt.image.RGBImageFilter;
+import java.desktop.windows.classes.com.sun.java.security.AccessController;
 import javax.swing.AbstractAction;
 import javax.swing.Action;
 import javax.swing.BorderFactory;
@@ -80,26 +65,59 @@ import javax.swing.plaf.UIResource;
 import javax.swing.plaf.basic.BasicBorders;
 import javax.swing.plaf.basic.BasicLookAndFeel;
 import javax.swing.text.DefaultEditorKit;
+import java.desktop.windows.classes.com.sun.java.swing.plaf.windows.WindowsIconFactory.VistaMenuItemCheckIconFactory;
+import java.desktop.windows.classes.com.sun.awt.OSInfo;
+import java.desktop.windows.classes.com.sun.awt.SunToolkit;
+import java.desktop.windows.classes.com.sun.awt.shell.ShellFolder;
+import java.desktop.windows.classes.com.sun.font.FontUtilities;
+import java.desktop.windows.classes.com.sun.security.action.GetPropertyAction;
+import java.desktop.windows.classes.com.sun.swing.DefaultLayoutStyle;
+import java.desktop.windows.classes.com.sun.swing.ImageIconUIResource;
+import java.desktop.windows.classes.com.sun.swing.StringUIClientPropertyKey;
+import java.desktop.windows.classes.com.sun.swing.SwingAccessor;
+import java.desktop.windows.classes.com.sun.swing.SwingUtilities2;
+import java.desktop.windows.classes.com.sun.swing.icon.SortArrowIcon;
+import java.desktop.windows.classes.com.sun.swing.plaf.windows.ClassicSortArrowIcon;
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Part;.extended
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Prop;.extended
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.State;.extended
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.Skin;.extended
+import static javax.swing.UIDefaults.LazyValue;.extended
 
-import com.sun.java.swing.plaf.windows.WindowsIconFactory.VistaMenuItemCheckIconFactory;
-import sun.awt.OSInfo;
-import sun.awt.SunToolkit;
-import sun.awt.shell.ShellFolder;
-import sun.font.FontUtilities;
-import sun.security.action.GetPropertyAction;
-import sun.swing.DefaultLayoutStyle;
-import sun.swing.ImageIconUIResource;
-import sun.swing.StringUIClientPropertyKey;
-import sun.swing.SwingAccessor;
-import sun.swing.SwingUtilities2;
-import sun.swing.icon.SortArrowIcon;
-import sun.swing.plaf.windows.ClassicSortArrowIcon;
 
-import static com.sun.java.swing.plaf.windows.TMSchema.Part;
-import static com.sun.java.swing.plaf.windows.TMSchema.Prop;
-import static com.sun.java.swing.plaf.windows.TMSchema.State;
-import static com.sun.java.swing.plaf.windows.XPStyle.Skin;
-import static javax.swing.UIDefaults.LazyValue;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * <p>These classes are designed to be used while the
+ * corresponding <code>LookAndFeel</code> class has been installed
+ * (<code>UIManager.setLookAndFeel(new <i>XXX</i>LookAndFeel())</code>).
+ * Using them while a different <code>LookAndFeel</code> is installed
+ * may produce unexpected results, including exceptions.
+ * Additionally, changing the <code>LookAndFeel</code>
+ * maintained by the <code>UIManager</code> without updating the
+ * corresponding <code>ComponentUI</code> of any
+ * <code>JComponent</code>s may also produce unexpected results,
+ * such as the wrong colors showing up, and is generally not
+ * encouraged.
+ *
+ */
+
+
+
+
+
+
 
 /**
  * Implements the Windows95/98/NT/2000 Look and Feel.

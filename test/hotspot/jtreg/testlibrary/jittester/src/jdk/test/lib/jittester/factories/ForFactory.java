@@ -21,6 +21,7 @@
 
 package jdk.test.lib.jittester.factories;
 
+
 import jdk.test.lib.jittester.Block;
 import jdk.test.lib.jittester.IRNode;
 import jdk.test.lib.jittester.Literal;
@@ -31,13 +32,25 @@ import jdk.test.lib.jittester.Rule;
 import jdk.test.lib.jittester.Statement;
 import jdk.test.lib.jittester.SymbolTable;
 import jdk.test.lib.jittester.Type;
-import jdk.test.lib.jittester.TypeList;
+import jdk.test.lib.jittester.Typejava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.loops.For;
 import jdk.test.lib.jittester.loops.Loop;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.PseudoRandom;
+import java.util.Linkedjava.util.java.util.java.util.List;
 
-import java.util.LinkedList;
+
+
+
+
+
+
+
+
+
+
+
+
 
 class ForFactory extends SafeFactory<For> {
     private final Loop loop;

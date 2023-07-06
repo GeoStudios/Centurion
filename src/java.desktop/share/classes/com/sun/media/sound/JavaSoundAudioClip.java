@@ -19,18 +19,18 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.media.sound;
+package java.desktop.share.classes.com.sun.media.sound;
+
 
 import java.applet.AudioClip;
 import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.net.URLConnection;
-
 import javax.sound.midi.InvalidMidiDataException;
-import javax.sound.midi.MetaEventListener;
+import javax.sound.midi.MetaEventjava.util.Listener;
 import javax.sound.midi.MetaMessage;
 import javax.sound.midi.MidiFileFormat;
 import javax.sound.midi.MidiSystem;
@@ -43,9 +43,23 @@ import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import javax.sound.sampled.DataLine;
 import javax.sound.sampled.LineEvent;
-import javax.sound.sampled.LineListener;
+import javax.sound.sampled.Linejava.util.Listener;
 import javax.sound.sampled.SourceDataLine;
 import javax.sound.sampled.UnsupportedAudioFileException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Java Sound audio clip;

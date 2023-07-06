@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d;
+package java.desktop.share.classes.sun.java2d;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Signals that some part of a graphics pipeline is not in an appropriate

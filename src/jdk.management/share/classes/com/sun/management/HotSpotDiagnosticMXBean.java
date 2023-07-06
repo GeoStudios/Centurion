@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.management;
+package jdk.management.share.classes.com.sun.management;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.management.PlatformManagedObject;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Diagnostic management interface for the HotSpot Virtual Machine.

@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.org.apache.xml.internal.utils;
+
+package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
+
 
 import java.util.concurrent.atomic.AtomicInteger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a safe thread that does not inherit thread-locals and runs only

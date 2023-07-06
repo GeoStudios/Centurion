@@ -18,19 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.rowset.serial;
+
 
 import java.sql.Ref;
 import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
 import javax.sql.rowset.serial.SerialRef;
-import static org.testng.Assert.*;
+import static org.testng.Assert.*;.extended
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import util.BaseTest;
 import util.StubRef;
 import util.SuperHero;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SerialRefTests extends BaseTest {
 

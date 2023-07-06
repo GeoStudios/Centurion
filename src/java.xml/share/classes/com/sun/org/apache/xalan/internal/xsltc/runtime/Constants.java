@@ -19,13 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime;
+
+
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xalan.internal.xsltc.runtime;
 
-import com.sun.org.apache.xml.internal.dtm.DTM;
+
 
 /**
  * This class defines constants used by both the compiler and the

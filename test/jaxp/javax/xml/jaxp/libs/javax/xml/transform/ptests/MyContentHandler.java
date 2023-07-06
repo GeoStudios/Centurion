@@ -21,13 +21,27 @@
 
 package javax.xml.transform.ptests;
 
+
 import org.xml.sax.ContentHandler;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.Locator;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A customized ContentHandler. It writes whole XML file with extra tag on every

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.httpserver;
+package jdk.httpserver.share.classes.sun.net.httpserver;
+
 
 import java.net.*;
 import java.nio.*;
@@ -29,6 +30,20 @@ import java.util.concurrent.locks.*;
 import javax.net.ssl.*;
 import javax.net.ssl.SSLEngineResult.*;
 import com.sun.net.httpserver.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * given a non-blocking SocketChannel, it produces
@@ -52,7 +67,7 @@ class SSLStreams {
 
     SSLStreams (ServerImpl server, SSLContext sslctx, SocketChannel chan) throws IOException {
         this.server = server;
-        this.time= (TimeSource)server;
+        this.time= server;
         this.sslctx= sslctx;
         this.chan= chan;
         InetSocketAddress addr =

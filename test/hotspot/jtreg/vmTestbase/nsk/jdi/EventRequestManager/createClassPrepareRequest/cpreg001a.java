@@ -21,9 +21,23 @@
 
 package nsk.jdi.EventRequestManager.createClassPrepareRequest;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the cpreg001 JDI test.

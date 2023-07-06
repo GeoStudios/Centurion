@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.security.sasl;
+package java.security.sasl.share.classes.javax.security.sasl;
 
-import javax.security.auth.callback.TextInputCallback;
+
+import java.security.sasl.share.classes.javax.security.auth.callback.TextInputCallback;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This callback is used by {@code SaslClient} and {@code SaslServer}

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jshell;
+package jdk.jshell.share.classes.jdk.jshell;
+
 
 import com.sun.source.tree.AssignmentTree;
 import com.sun.source.tree.ClassTree;
@@ -48,30 +49,26 @@ import com.sun.tools.javac.code.Symbol.VarSymbol;
 import com.sun.tools.javac.code.Symtab;
 import com.sun.tools.javac.code.Type;
 import com.sun.tools.javac.code.Type.ClassType;
-import jdk.internal.shellsupport.doc.JavadocHelper;
+import jdk.jshell.share.classes.jdk.internal.shellsupport.doc.JavadocHelper;
 import com.sun.tools.javac.util.Name;
 import com.sun.tools.javac.util.Names;
 import com.sun.tools.javac.util.Pair;
-import jdk.jshell.CompletenessAnalyzer.CaInfo;
-import jdk.jshell.TaskFactory.AnalyzeTask;
-
-import java.util.ArrayList;
+import jdk.jshell.share.classes.jdk.jshell.CompletenessAnalyzer.CaInfo;
+import jdk.jshell.share.classes.jdk.jshell.TaskFactory.AnalyzeTask;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Iterator;
-import java.util.List;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.function.Predicate;
-
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ElementKind;
 import javax.lang.model.element.Modifier;
 import javax.lang.model.element.TypeElement;
 import javax.lang.model.type.DeclaredType;
 import javax.lang.model.type.TypeMirror;
-
-import static jdk.internal.jshell.debug.InternalDebugControl.DBG_COMPA;
-
-import java.io.IOException;
+import static jdk.jshell.share.classes.jdk.internal.jshell.debug.InternalDebugControl.DBG_COMPA;.extended
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.URI;
 import java.nio.file.DirectoryStream;
 import java.nio.file.FileSystem;
@@ -82,7 +79,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.attribute.BasicFileAttributes;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.Comparator;
 import java.util.EnumSet;
@@ -98,15 +95,11 @@ import java.util.function.Function;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
-
-import static java.util.stream.Collectors.toCollection;
-import static java.util.stream.Collectors.toSet;
-
+import static java.util.stream.Collectors.toCollection;.extended
+import static java.util.stream.Collectors.toSet;.extended
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
-
 import javax.lang.model.SourceVersion;
-
 import javax.lang.model.element.ExecutableElement;
 import javax.lang.model.element.PackageElement;
 import javax.lang.model.element.QualifiedNameable;
@@ -119,15 +112,26 @@ import javax.lang.model.util.ElementFilter;
 import javax.lang.model.util.Types;
 import javax.tools.JavaFileManager.Location;
 import javax.tools.StandardLocation;
-
-import jdk.jshell.ExpressionToTypeInfo.ExpressionInfo;
-import static jdk.jshell.Util.REPL_DOESNOTMATTER_CLASS_NAME;
-import static jdk.jshell.SourceCodeAnalysis.Completeness.DEFINITELY_INCOMPLETE;
-import static jdk.jshell.TreeDissector.printType;
-
-import static java.util.stream.Collectors.joining;
-
+import jdk.jshell.share.classes.jdk.jshell.ExpressionToTypeInfo.ExpressionInfo;
+import static jdk.jshell.share.classes.jdk.jshell.Util.REPL_DOESNOTMATTER_CLASS_NAME;.extended
+import static jdk.jshell.share.classes.jdk.jshell.SourceCodeAnalysis.Completeness.DEFINITELY_INCOMPLETE;.extended
+import static jdk.jshell.share.classes.jdk.jshell.TreeDissector.printType;.extended
+import static java.util.stream.Collectors.joining;.extended
 import javax.lang.model.type.IntersectionType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The concrete implementation of SourceCodeAnalysis.
@@ -1120,7 +1124,7 @@ class SourceCodeAnalysisImpl extends SourceCodeAnalysis {
                 for (ExecutableElement ee : ElementFilter.methodsIn(membersOf(at, siteEl.asType(), false))) {
                     if (ee.getSimpleName().contentEquals(mst.getIdentifier())) {
                         if (accessibility.test(ee)) {
-                            result.add(Pair.of(ee, (ExecutableType) at.getTypes().asMemberOf((DeclaredType) site, ee)));
+                            result.add(Pair.of(ee, at.getTypes().asMemberOf((DeclaredType) site, ee)));
                         }
                     }
                 }
@@ -1130,7 +1134,7 @@ class SourceCodeAnalysisImpl extends SourceCodeAnalysis {
                 for (ExecutableElement ee : ElementFilter.methodsIn(scopeContent(at, at.trees().getScope(invocation), IDENTITY))) {
                     if (ee.getSimpleName().contentEquals(it.getName())) {
                         if (accessibility.test(ee)) {
-                            result.add(Pair.of(ee, (ExecutableType) ee.asType())); //XXX: proper site
+                            result.add(Pair.of(ee, ee.asType())); //XXX: proper site
                         }
                     }
                 }

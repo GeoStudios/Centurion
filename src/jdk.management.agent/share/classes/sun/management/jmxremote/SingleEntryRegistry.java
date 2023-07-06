@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.management.jmxremote;
+package jdk.management.agent.share.classes.sun.management.jmxremote;
+
 
 import java.io.ObjectInputFilter;
 import java.rmi.AccessException;
 import java.rmi.NotBoundException;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
-import java.rmi.server.RMIClientSocketFactory;
-import java.rmi.server.RMIServerSocketFactory;
+import java.rmi.server.RMIClientjava.net.SocketFactory;
+import java.rmi.server.RMIjava.net.ServerSocketFactory;
+import jdk.management.agent.share.classes.sun.rmi.registry.RegistryImpl;
 
-import sun.rmi.registry.RegistryImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** A Registry that consists of a single entry that never changes. */
 public class SingleEntryRegistry extends RegistryImpl {

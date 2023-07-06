@@ -18,18 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package java.util.stream;
 
-import org.testng.annotations.Test;
 
+import org.testng.annotations.Test;
 import java.util.*;
 import java.util.stream.Stream;
 import java.util.stream.StreamOpFlag;
 import java.util.stream.Streams;
+import static java.util.stream.StreamOpFlag.*;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertTrue;.extended
 
-import static java.util.stream.StreamOpFlag.*;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * StreamFlagsTest

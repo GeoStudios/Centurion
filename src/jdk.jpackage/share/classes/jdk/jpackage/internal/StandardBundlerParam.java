@@ -19,25 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jpackage.internal;
+package jdk.jpackage.share.classes.jdk.jpackage.internal;
+
 
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.text.MessageFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.Date;
 import java.util.LinkedHashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * StandardBundlerParam
@@ -228,7 +243,7 @@ class StandardBundlerParam<T> extends BundlerParamInfo<T> {
     static final StandardBundlerParam<List<String>> ARGUMENTS =
             new StandardBundlerParam<>(
                     Arguments.CLIOptions.ARGUMENTS.getId(),
-                    (Class<List<String>>) (Object) List.class,
+                    (Class<List<String>>) List.class,
                     params -> Collections.emptyList(),
                     (s, p) -> null
             );
@@ -237,7 +252,7 @@ class StandardBundlerParam<T> extends BundlerParamInfo<T> {
     static final StandardBundlerParam<List<String>> JAVA_OPTIONS =
             new StandardBundlerParam<>(
                     Arguments.CLIOptions.JAVA_OPTIONS.getId(),
-                    (Class<List<String>>) (Object) List.class,
+                    (Class<List<String>>) List.class,
                     params -> Collections.emptyList(),
                     (s, p) -> Arrays.asList(s.split("\n\n"))
             );
@@ -327,8 +342,7 @@ class StandardBundlerParam<T> extends BundlerParamInfo<T> {
     static final StandardBundlerParam<List<Map<String, ? super Object>>> ADD_LAUNCHERS =
             new StandardBundlerParam<>(
                     Arguments.CLIOptions.ADD_LAUNCHER.getId(),
-                    (Class<List<Map<String, ? super Object>>>) (Object)
-                            List.class,
+                    (Class<List<Map<String, ? super Object>>>) List.class,
                     params -> new ArrayList<>(1),
                     // valueOf(null) is false, and we actually do want null
                     (s, p) -> null
@@ -339,8 +353,7 @@ class StandardBundlerParam<T> extends BundlerParamInfo<T> {
             <List<Map<String, ? super Object>>> FILE_ASSOCIATIONS =
             new StandardBundlerParam<>(
                     Arguments.CLIOptions.FILE_ASSOCIATIONS.getId(),
-                    (Class<List<Map<String, ? super Object>>>) (Object)
-                            List.class,
+                    (Class<List<Map<String, ? super Object>>>) List.class,
                     params -> new ArrayList<>(1),
                     // valueOf(null) is false, and we actually do want null
                     (s, p) -> null
@@ -350,7 +363,7 @@ class StandardBundlerParam<T> extends BundlerParamInfo<T> {
     static final StandardBundlerParam<List<String>> FA_EXTENSIONS =
             new StandardBundlerParam<>(
                     "fileAssociation.extension",
-                    (Class<List<String>>) (Object) List.class,
+                    (Class<List<String>>) List.class,
                     params -> null, // null means not matched to an extension
                     (s, p) -> Arrays.asList(s.split("(,|\\s)+"))
             );
@@ -359,7 +372,7 @@ class StandardBundlerParam<T> extends BundlerParamInfo<T> {
     static final StandardBundlerParam<List<String>> FA_CONTENT_TYPE =
             new StandardBundlerParam<>(
                     "fileAssociation.contentType",
-                    (Class<List<String>>) (Object) List.class,
+                    (Class<List<String>>) List.class,
                     params -> null,
                             // null means not matched to a content/mime type
                     (s, p) -> Arrays.asList(s.split("(,|\\s)+"))
@@ -385,7 +398,7 @@ class StandardBundlerParam<T> extends BundlerParamInfo<T> {
     static final BundlerParamInfo<List<Path>> MODULE_PATH =
             new StandardBundlerParam<>(
                     Arguments.CLIOptions.MODULE_PATH.getId(),
-                    (Class<List<Path>>) (Object)List.class,
+                    (Class<List<Path>>) List.class,
                     p -> getDefaultModulePath(),
                     (s, p) -> {
                         List<Path> modulePath = Stream.of(s.split(File.pathSeparator))
@@ -449,7 +462,7 @@ class StandardBundlerParam<T> extends BundlerParamInfo<T> {
     static final StandardBundlerParam<List<String>> JLINK_OPTIONS =
             new StandardBundlerParam<>(
                     Arguments.CLIOptions.JLINK_OPTIONS.getId(),
-                    (Class<List<String>>) (Object) List.class,
+                    (Class<List<String>>) List.class,
                     p -> Arrays.asList(DEFAULT_JLINK_OPTIONS),
                     (s, p) -> null);
 

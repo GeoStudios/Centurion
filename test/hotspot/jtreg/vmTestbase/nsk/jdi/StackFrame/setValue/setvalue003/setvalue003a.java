@@ -21,9 +21,23 @@
 
 package nsk.jdi.StackFrame.setValue.setvalue003;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the setvalue003 JDI test.

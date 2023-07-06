@@ -21,24 +21,35 @@
 
 package javax.xml.parsers.ptests;
 
-import static javax.xml.parsers.ptests.ParserTestConst.XML_DIR;
-import static jaxp.library.JAXPTestUtilities.FILE_SEP;
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertNotNull;
 
+import static javax.xml.parsers.ptests.ParserTestConst.XML_DIR;.extended
+import static jaxp.library.JAXPTestUtilities.FILE_SEP;.extended
+import static org.testng.Assert.assertFalse;.extended
+import static org.testng.Assert.assertNotNull;.extended
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FilePermission;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.EntityResolver;
 import org.xml.sax.InputSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This checks for the methods of DocumentBuilder

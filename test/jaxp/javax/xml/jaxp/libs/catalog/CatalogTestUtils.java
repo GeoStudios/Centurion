@@ -21,8 +21,9 @@
 
 package catalog;
 
+
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.URI;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -34,6 +35,19 @@ import javax.xml.catalog.CatalogFeatures;
 import javax.xml.catalog.CatalogManager;
 import javax.xml.catalog.CatalogResolver;
 import jaxp.library.JAXPTestUtilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Utilities for testing XML Catalog API.

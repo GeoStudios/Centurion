@@ -19,22 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
-import java.nio.file.*;
-import java.security.*;
-import java.util.Enumeration;
-import java.util.Objects;
-import java.util.StringJoiner;
-import java.util.Vector;
-import java.util.concurrent.ConcurrentHashMap;
 
+import java.base.share.classes.java.nio.file.*;
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.java.util.Enumeration;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.StringJoiner;
+import java.base.share.classes.java.util.Vector;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
 import jdk.internal.access.JavaIOFilePermissionAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import sun.nio.fs.DefaultFileSystemProvider;
 import sun.security.action.GetPropertyAction;
 import sun.security.util.FilePermCompat;
 import sun.security.util.SecurityConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents access to a file or directory.  A FilePermission consists

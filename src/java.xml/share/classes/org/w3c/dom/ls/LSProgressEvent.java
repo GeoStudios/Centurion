@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.w3c.dom.ls;
+package java.xml.share.classes.org.w3c.dom.ls;
 
-import org.w3c.dom.events.Event;
+
+import java.xml.share.classes.org.w3c.dom.events.Event;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  This interface represents a progress event object that notifies the

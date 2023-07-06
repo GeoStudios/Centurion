@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.zip;
+package java.base.share.classes.java.util.zip;
 
-import static java.util.zip.ZipUtils.*;
-import java.nio.file.attribute.FileTime;
-import java.util.Objects;
-import java.util.concurrent.TimeUnit;
-import java.time.LocalDateTime;
-import java.time.ZonedDateTime;
-import java.time.ZoneId;
 
-import static java.util.zip.ZipConstants64.*;
+import static java.base.share.classes.java.util.zip.ZipUtils.*;.extended
+import java.base.share.classes.java.nio.file.attribute.FileTime;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.concurrent.TimeUnit;
+import java.base.share.classes.java.time.LocalDateTime;
+import java.base.share.classes.java.time.ZonedDateTime;
+import java.base.share.classes.java.time.ZoneId;
+import static java.base.share.classes.java.util.zip.ZipConstants64.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used to represent a ZIP file entry.
@@ -225,10 +239,10 @@ public class ZipEntry implements ZipConstants, Cloneable {
             this.xdostime = DOSTIME_BEFORE_1980;
         } else {
             this.xdostime = (((long) year << 25 |
-                time.getMonthValue() << 21 |
-                time.getDayOfMonth() << 16 |
-                time.getHour() << 11 |
-                time.getMinute() << 5 |
+                    (long) time.getMonthValue() << 21 |
+                    (long) time.getDayOfMonth() << 16 |
+                    (long) time.getHour() << 11 |
+                    (long) time.getMinute() << 5 |
                 time.getSecond() >> 1) & 0xffffffffL)
                 + ((long)(((time.getSecond() & 0x1) * 1000) +
                       time.getNano() / 1000_000) << 32);

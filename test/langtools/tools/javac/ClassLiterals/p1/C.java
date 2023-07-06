@@ -19,11 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package p1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Auxiliary file for ClassLiteralHelperContext test.
  * (4106051)
  */
 
-package p1;
 
 public class C {}

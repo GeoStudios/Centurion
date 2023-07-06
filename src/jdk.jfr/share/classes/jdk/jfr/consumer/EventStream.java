@@ -19,23 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.consumer;
+package jdk.jfr.share.classes.jdk.jfr.consumer;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Path;
 import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.Collections;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.function.Consumer;
+import jdk.jfr.share.classes.jdk.jfr.internal.SecuritySupport;
+import jdk.jfr.share.classes.jdk.jfr.internal.Utils;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.EventDirectoryStream;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.EventFileStream;
+import jdk.jfr.share.classes.jdk.jfr.internal.consumer.FileAccess;
 
-import jdk.jfr.internal.SecuritySupport;
-import jdk.jfr.internal.Utils;
-import jdk.jfr.internal.consumer.EventDirectoryStream;
-import jdk.jfr.internal.consumer.EventFileStream;
-import jdk.jfr.internal.consumer.FileAccess;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents a stream of events.

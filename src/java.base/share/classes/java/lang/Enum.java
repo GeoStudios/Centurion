@@ -19,21 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.io.IOException;
-import java.io.InvalidObjectException;
-import java.io.ObjectInputStream;
-import java.io.ObjectStreamException;
-import java.io.Serializable;
-import java.lang.constant.ClassDesc;
-import java.lang.constant.Constable;
-import java.lang.constant.ConstantDescs;
-import java.lang.constant.DynamicConstantDesc;
-import java.lang.invoke.MethodHandles;
-import java.util.Optional;
 
-import static java.util.Objects.requireNonNull;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.InvalidObjectException;
+import java.base.share.classes.java.io.ObjectInputStream;
+import java.base.share.classes.java.io.ObjectStreamException;
+import java.base.share.classes.java.io.Serializable;
+import java.base.share.classes.java.lang.constant.ClassDesc;
+import java.base.share.classes.java.lang.constant.Constable;
+import java.base.share.classes.java.lang.constant.ConstantDescs;
+import java.base.share.classes.java.lang.constant.DynamicConstantDesc;
+import java.base.share.classes.java.lang.invoke.MethodHandles;
+import java.base.share.classes.java.util.Optional;
+import static java.base.share.classes.java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the common base class of all Java language enumeration classes.

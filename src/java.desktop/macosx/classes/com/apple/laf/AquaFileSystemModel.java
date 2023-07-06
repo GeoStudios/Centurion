@@ -19,7 +19,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
 
 
 import java.awt.ComponentOrientation;
@@ -27,9 +27,23 @@ import java.beans.*;
 import java.io.File;
 import java.util.*;
 import javax.swing.*;
-import javax.swing.event.ListDataEvent;
+import javax.swing.event.java.util.ListDataEvent;
 import javax.swing.filechooser.FileSystemView;
 import javax.swing.table.AbstractTableModel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * NavServices-like implementation of a file Table

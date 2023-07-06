@@ -18,11 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.swing;
 
-import java.beans.PropertyChangeListener;
+package java.desktop.share.classes.sun.swing;
 
+
+import java.beans.PropertyChangejava.util.Listener;
 import javax.swing.Action;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * UIAction is the basis of all of basic's action classes that are used in

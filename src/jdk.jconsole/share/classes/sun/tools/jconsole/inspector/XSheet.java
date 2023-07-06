@@ -19,7 +19,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole.inspector;
+package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
 
 import java.awt.BorderLayout;
@@ -27,11 +27,10 @@ import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.io.IOException;
-
+import java.awt.event.Actionjava.util.Listener;
+import java.io.java.io.java.io.java.io.IOException;
 import javax.management.IntrospectionException;
-import javax.management.NotificationListener;
+import javax.management.Notificationjava.util.Listener;
 import javax.management.MBeanInfo;
 import javax.management.InstanceNotFoundException;
 import javax.management.ReflectionException;
@@ -49,9 +48,22 @@ import javax.swing.SwingWorker;
 import javax.swing.border.LineBorder;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeModel;
+import jdk.jconsole.share.classes.sun.tools.jconsole.*;
+import jdk.jconsole.share.classes.sun.tools.jconsole.inspector.XNodeInfo.Type;
 
-import sun.tools.jconsole.*;
-import sun.tools.jconsole.inspector.XNodeInfo.Type;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public class XSheet extends JPanel

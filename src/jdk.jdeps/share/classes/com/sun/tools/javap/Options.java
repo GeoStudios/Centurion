@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javap;
+package jdk.jdeps.share.classes.com.sun.tools.javap;
+
 
 import java.util.EnumSet;
 import java.util.HashSet;
 import java.util.Set;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.AccessFlags;
 
-import com.sun.tools.classfile.AccessFlags;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  *  Provides access to javap's options, set via the command line

@@ -21,5 +21,20 @@
 
 package p1.subpkg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class SSC extends p1.SC {
 }

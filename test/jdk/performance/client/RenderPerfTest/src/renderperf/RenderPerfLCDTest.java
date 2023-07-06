@@ -21,6 +21,7 @@
 
 package renderperf;
 
+
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Frame;
@@ -28,25 +29,36 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
 import java.awt.Robot;
-
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Point2D;
 import java.awt.geom.QuadCurve2D;
 import java.awt.image.BufferedImage;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.HashSet;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicBoolean;
-
 import javax.imageio.ImageIO;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 import javax.swing.Timer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class RenderPerfLCDTest {
     private static HashSet<String> ignoredTests = new HashSet<>();

@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-import sun.awt.Mutex;
-import sun.awt.datatransfer.ToolkitThreadBlockedHandler;
+
+import java.desktop.macosx.classes.sun.awt.Mutex;
+import java.desktop.macosx.classes.sun.awt.datatransfer.ToolkitThreadBlockedHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class CToolkitThreadBlockedHandler extends Mutex implements ToolkitThreadBlockedHandler {
     private long awtRunLoopMediator = 0;

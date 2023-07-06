@@ -19,32 +19,45 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.sound.midi;
+package java.desktop.share.classes.javax.sound.midi;
+
 
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.URL;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.List;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.Properties;
 import java.util.Set;
-
-import javax.sound.midi.spi.MidiDeviceProvider;
-import javax.sound.midi.spi.MidiFileReader;
-import javax.sound.midi.spi.MidiFileWriter;
-import javax.sound.midi.spi.SoundbankReader;
-
+import java.desktop.share.classes.javax.sound.midi.spi.MidiDeviceProvider;
+import java.desktop.share.classes.javax.sound.midi.spi.MidiFileReader;
+import java.desktop.share.classes.javax.sound.midi.spi.MidiFileWriter;
+import java.desktop.share.classes.javax.sound.midi.spi.SoundbankReader;
 import com.sun.media.sound.AutoConnectSequencer;
 import com.sun.media.sound.JDK13Services;
 import com.sun.media.sound.MidiDeviceReceiverEnvelope;
 import com.sun.media.sound.MidiDeviceTransmitterEnvelope;
 import com.sun.media.sound.ReferenceCountingDevice;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code MidiSystem} class provides access to the installed MIDI system
@@ -1019,7 +1032,7 @@ public class MidiSystem {
      */
     @SuppressWarnings("unchecked")
     private static List<MidiDeviceProvider> getMidiDeviceProviders() {
-        return (List<MidiDeviceProvider>) getProviders(MidiDeviceProvider.class);
+        return getProviders(MidiDeviceProvider.class);
     }
 
     /**
@@ -1029,7 +1042,7 @@ public class MidiSystem {
      */
     @SuppressWarnings("unchecked")
     private static List<SoundbankReader> getSoundbankReaders() {
-        return (List<SoundbankReader>) getProviders(SoundbankReader.class);
+        return getProviders(SoundbankReader.class);
     }
 
     /**
@@ -1039,7 +1052,7 @@ public class MidiSystem {
      */
     @SuppressWarnings("unchecked")
     private static List<MidiFileWriter> getMidiFileWriters() {
-        return (List<MidiFileWriter>) getProviders(MidiFileWriter.class);
+        return getProviders(MidiFileWriter.class);
     }
 
     /**
@@ -1049,7 +1062,7 @@ public class MidiSystem {
      */
     @SuppressWarnings("unchecked")
     private static List<MidiFileReader> getMidiFileReaders() {
-        return (List<MidiFileReader>) getProviders(MidiFileReader.class);
+        return getProviders(MidiFileReader.class);
     }
 
     /**

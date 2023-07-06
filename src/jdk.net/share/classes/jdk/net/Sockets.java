@@ -19,22 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.net;
+package jdk.net.share.classes.jdk.net;
 
-import jdk.net.ExtendedSocketOptions.PlatformSocketOptions;
 
-import java.io.IOException;
-import java.net.DatagramSocket;
-import java.net.MulticastSocket;
-import java.net.ServerSocket;
-import java.net.Socket;
-import java.net.SocketOption;
-import java.net.StandardSocketOptions;
+import jdk.net.share.classes.jdk.net.Extendedjava.net.SocketOptions.Platformjava.net.SocketOptions;
+import java.io.java.io.java.io.java.io.IOException;
+import java.net.Datagramjava.net.java.net.java.net.Socket;
+import java.net.Multicastjava.net.java.net.java.net.Socket;
+import java.net.java.net.java.net.Serverjava.net.java.net.Socket;
+import java.net.java.net.java.net.java.net.Socket;
+import java.net.java.net.SocketOption;
+import java.net.Standardjava.net.SocketOptions;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines static methods to set and get socket options defined by the

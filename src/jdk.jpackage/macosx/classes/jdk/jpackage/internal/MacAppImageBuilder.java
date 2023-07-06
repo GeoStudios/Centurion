@@ -19,20 +19,21 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jpackage.internal;
+package jdk.jpackage.macosx.classes.jdk.jpackage.internal;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.Writer;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.attribute.PosixFilePermission;
 import java.text.MessageFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.EnumSet;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.ResourceBundle;
@@ -45,23 +46,37 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathFactory;
-import static jdk.jpackage.internal.MacAppBundler.BUNDLE_ID_SIGNING_PREFIX;
-import static jdk.jpackage.internal.MacAppBundler.DEVELOPER_ID_APP_SIGNING_KEY;
-import static jdk.jpackage.internal.MacBaseInstallerBundler.SIGNING_KEYCHAIN;
-import static jdk.jpackage.internal.OverridableResource.createResource;
-import static jdk.jpackage.internal.StandardBundlerParam.APP_NAME;
-import static jdk.jpackage.internal.StandardBundlerParam.CONFIG_ROOT;
-import static jdk.jpackage.internal.StandardBundlerParam.COPYRIGHT;
-import static jdk.jpackage.internal.StandardBundlerParam.FA_CONTENT_TYPE;
-import static jdk.jpackage.internal.StandardBundlerParam.FA_DESCRIPTION;
-import static jdk.jpackage.internal.StandardBundlerParam.FA_EXTENSIONS;
-import static jdk.jpackage.internal.StandardBundlerParam.FA_ICON;
-import static jdk.jpackage.internal.StandardBundlerParam.FILE_ASSOCIATIONS;
-import static jdk.jpackage.internal.StandardBundlerParam.ICON;
-import static jdk.jpackage.internal.StandardBundlerParam.MAIN_CLASS;
-import static jdk.jpackage.internal.StandardBundlerParam.PREDEFINED_APP_IMAGE;
-import static jdk.jpackage.internal.StandardBundlerParam.VERSION;
-import static jdk.jpackage.internal.StandardBundlerParam.ADD_LAUNCHERS;
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.MacAppBundler.BUNDLE_ID_SIGNING_PREFIX;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.MacAppBundler.DEVELOPER_ID_APP_SIGNING_KEY;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.MacBaseInstallerBundler.SIGNING_KEYCHAIN;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.OverridableResource.createResource;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.APP_NAME;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.CONFIG_ROOT;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.COPYRIGHT;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.FA_CONTENT_TYPE;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.FA_DESCRIPTION;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.FA_EXTENSIONS;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.FA_ICON;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.FILE_ASSOCIATIONS;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.ICON;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.MAIN_CLASS;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.PREDEFINED_APP_IMAGE;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.VERSION;.extended
+import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.StandardBundlerParam.ADD_LAUNCHERS;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MacAppImageBuilder extends AbstractAppImageBuilder {
 
@@ -241,7 +256,7 @@ public class MacAppImageBuilder extends AbstractAppImageBuilder {
      private static final StandardBundlerParam<List<String>> FA_MAC_NSEXPORTABLETYPES =
              new StandardBundlerParam<>(
                      Arguments.MAC_NSEXPORTABLETYPES,
-                     (Class<List<String>>) (Object) List.class,
+                     (Class<List<String>>) List.class,
                      params -> null,
                      (s, p) -> Arrays.asList(s.split("(,|\\s)+"))
              );
@@ -250,7 +265,7 @@ public class MacAppImageBuilder extends AbstractAppImageBuilder {
      private static final StandardBundlerParam<List<String>> FA_MAC_UTTYPECONFORMSTO =
              new StandardBundlerParam<>(
                      Arguments.MAC_UTTYPECONFORMSTO,
-                     (Class<List<String>>) (Object) List.class,
+                     (Class<List<String>>) List.class,
                      params -> List.of("public.data"),
                      (s, p) -> Arrays.asList(s.split("(,|\\s)+"))
              );

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing;
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.AWTEvent;
 import java.awt.EventQueue;
@@ -29,7 +30,7 @@ import java.awt.event.InputMethodEvent;
 import java.awt.im.InputContext;
 import java.beans.BeanProperty;
 import java.beans.JavaBean;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.io.Serial;
 import java.io.Serializable;
@@ -40,21 +41,34 @@ import java.text.Format;
 import java.text.NumberFormat;
 import java.text.ParseException;
 import java.util.Date;
+import java.desktop.share.classes.javax.swing.event.DocumentEvent;
+import java.desktop.share.classes.javax.swing.event.Documentjava.util.Listener;
+import java.desktop.share.classes.javax.swing.plaf.UIResource;
+import java.desktop.share.classes.javax.swing.text.AbstractDocument;
+import java.desktop.share.classes.javax.swing.text.DateFormatter;
+import java.desktop.share.classes.javax.swing.text.DefaultFormatter;
+import java.desktop.share.classes.javax.swing.text.DefaultFormatterFactory;
+import java.desktop.share.classes.javax.swing.text.Document;
+import java.desktop.share.classes.javax.swing.text.DocumentFilter;
+import java.desktop.share.classes.javax.swing.text.InternationalFormatter;
+import java.desktop.share.classes.javax.swing.text.JTextComponent;
+import java.desktop.share.classes.javax.swing.text.NavigationFilter;
+import java.desktop.share.classes.javax.swing.text.NumberFormatter;
+import java.desktop.share.classes.javax.swing.text.TextAction;
 
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
-import javax.swing.plaf.UIResource;
-import javax.swing.text.AbstractDocument;
-import javax.swing.text.DateFormatter;
-import javax.swing.text.DefaultFormatter;
-import javax.swing.text.DefaultFormatterFactory;
-import javax.swing.text.Document;
-import javax.swing.text.DocumentFilter;
-import javax.swing.text.InternationalFormatter;
-import javax.swing.text.JTextComponent;
-import javax.swing.text.NavigationFilter;
-import javax.swing.text.NumberFormatter;
-import javax.swing.text.TextAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>JFormattedTextField</code> extends <code>JTextField</code> adding

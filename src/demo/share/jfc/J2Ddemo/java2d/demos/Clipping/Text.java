@@ -18,16 +18,17 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d.demos.Clipping;
+
+package demo.share.jfc.J2Ddemo.java2d.demos.Clipping;
 
 
-import static java.awt.Color.BLACK;
-import static java.awt.Color.BLUE;
-import static java.awt.Color.CYAN;
-import static java.awt.Color.GRAY;
-import static java.awt.Color.RED;
-import static java.awt.Color.WHITE;
-import static java.awt.Color.YELLOW;
+import static java.awt.Color.BLACK;.extended
+import static java.awt.Color.BLUE;.extended
+import static java.awt.Color.CYAN;.extended
+import static java.awt.Color.GRAY;.extended
+import static java.awt.Color.RED;.extended
+import static java.awt.Color.WHITE;.extended
+import static java.awt.Color.YELLOW;.extended
 import java.awt.BasicStroke;
 import java.awt.Component;
 import java.awt.Dimension;
@@ -39,17 +40,30 @@ import java.awt.Rectangle;
 import java.awt.Shape;
 import java.awt.TexturePaint;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.font.FontRenderContext;
 import java.awt.font.TextLayout;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Line2D;
 import java.awt.image.BufferedImage;
-import java2d.ControlsSurface;
-import java2d.CustomControls;
+import demo.share.jfc.J2Ddemo.java2d.ControlsSurface;
+import demo.share.jfc.J2Ddemo.java2d.CustomControls;
 import javax.swing.AbstractButton;
 import javax.swing.JToggleButton;
 import javax.swing.JToolBar;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

@@ -19,47 +19,60 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.io.BufferedWriter;
-import java.io.Closeable;
-import java.io.IOException;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.FileNotFoundException;
-import java.io.Flushable;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
-import java.io.PrintStream;
-import java.io.UnsupportedEncodingException;
-import java.math.BigDecimal;
-import java.math.BigInteger;
-import java.math.MathContext;
-import java.math.RoundingMode;
-import java.nio.charset.Charset;
-import java.nio.charset.IllegalCharsetNameException;
-import java.nio.charset.UnsupportedCharsetException;
-import java.text.DateFormatSymbols;
-import java.text.DecimalFormat;
-import java.text.DecimalFormatSymbols;
-import java.text.NumberFormat;
-import java.text.spi.NumberFormatProvider;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
-import java.time.DateTimeException;
-import java.time.Instant;
-import java.time.ZoneId;
-import java.time.ZoneOffset;
-import java.time.temporal.ChronoField;
-import java.time.temporal.TemporalAccessor;
-import java.time.temporal.TemporalQueries;
-import java.time.temporal.UnsupportedTemporalTypeException;
-
+import java.base.share.classes.java.io.BufferedWriter;
+import java.base.share.classes.java.io.Closeable;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.File;
+import java.base.share.classes.java.io.FileOutputStream;
+import java.base.share.classes.java.io.FileNotFoundException;
+import java.base.share.classes.java.io.Flushable;
+import java.base.share.classes.java.io.OutputStream;
+import java.base.share.classes.java.io.OutputStreamWriter;
+import java.base.share.classes.java.io.PrintStream;
+import java.base.share.classes.java.io.UnsupportedEncodingException;
+import java.base.share.classes.java.math.BigDecimal;
+import java.base.share.classes.java.math.BigInteger;
+import java.base.share.classes.java.math.MathContext;
+import java.base.share.classes.java.math.RoundingMode;
+import java.base.share.classes.java.nio.charset.Charset;
+import java.base.share.classes.java.nio.charset.IllegalCharsetNameException;
+import java.base.share.classes.java.nio.charset.UnsupportedCharsetException;
+import java.base.share.classes.java.text.DateFormatSymbols;
+import java.base.share.classes.java.text.DecimalFormat;
+import java.base.share.classes.java.text.DecimalFormatSymbols;
+import java.base.share.classes.java.text.NumberFormat;
+import java.base.share.classes.java.text.spi.NumberFormatProvider;
+import java.base.share.classes.java.util.regex.Matcher;
+import java.base.share.classes.java.util.regex.Pattern;
+import java.base.share.classes.java.time.DateTimeException;
+import java.base.share.classes.java.time.Instant;
+import java.base.share.classes.java.time.ZoneId;
+import java.base.share.classes.java.time.ZoneOffset;
+import java.base.share.classes.java.time.temporal.ChronoField;
+import java.base.share.classes.java.time.temporal.TemporalAccessor;
+import java.base.share.classes.java.time.temporal.TemporalQueries;
+import java.base.share.classes.java.time.temporal.UnsupportedTemporalTypeException;
 import jdk.internal.math.DoubleConsts;
 import jdk.internal.math.FormattedFloatingDecimal;
 import sun.util.locale.provider.LocaleProviderAdapter;
 import sun.util.locale.provider.ResourceBundleBasedAdapter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An interpreter for printf-style format strings.  This class provides support
@@ -126,9 +139,9 @@ import sun.util.locale.provider.ResourceBundleBasedAdapter;
  *
  * <blockquote><pre>
  *   // Format a string containing a date.
- *   import java.util.Calendar;
- *   import java.util.GregorianCalendar;
- *   import static java.util.Calendar.*;
+ *   import java.base.share.classes.java.util.Calendar;
+ *   import java.base.share.classes.java.util.GregorianCalendar;
+ *   import static java.base.share.classes.java.util.Calendar.*;
  *
  *   Calendar c = new GregorianCalendar(1995, MAY, 23);
  *   String s = String.format("Duke's Birthday: %1$tb %1$te, %1$tY", c);
@@ -3104,7 +3117,7 @@ public final class Formatter implements Closeable, Flushable {
             StringBuilder sb = new StringBuilder("%");
             // Flags.UPPERCASE is set internally for legal conversions.
             Flags dupf = f.dup().remove(Flags.UPPERCASE);
-            sb.append(dupf.toString());
+            sb.append(dupf);
             if (index > 0)
                 sb.append(index).append('$');
             if (width != -1)

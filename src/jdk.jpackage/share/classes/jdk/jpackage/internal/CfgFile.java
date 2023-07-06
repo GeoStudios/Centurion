@@ -18,21 +18,37 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.jpackage.internal;
 
-import java.io.IOException;
+package jdk.jpackage.share.classes.jdk.jpackage.internal;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.File;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.stream.Stream;
-import static jdk.jpackage.internal.StandardBundlerParam.LAUNCHER_DATA;
-import static jdk.jpackage.internal.StandardBundlerParam.APP_NAME;
-import static jdk.jpackage.internal.StandardBundlerParam.JAVA_OPTIONS;
-import static jdk.jpackage.internal.StandardBundlerParam.ARGUMENTS;
-import static jdk.jpackage.internal.StandardBundlerParam.VERSION;
+import static jdk.jpackage.share.classes.jdk.jpackage.internal.StandardBundlerParam.LAUNCHER_DATA;.extended
+import static jdk.jpackage.share.classes.jdk.jpackage.internal.StandardBundlerParam.APP_NAME;.extended
+import static jdk.jpackage.share.classes.jdk.jpackage.internal.StandardBundlerParam.JAVA_OPTIONS;.extended
+import static jdk.jpackage.share.classes.jdk.jpackage.internal.StandardBundlerParam.ARGUMENTS;.extended
+import static jdk.jpackage.share.classes.jdk.jpackage.internal.StandardBundlerParam.VERSION;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * App launcher's config file.

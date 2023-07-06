@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.beans.finder;
+package java.desktop.share.classes.com.sun.beans.finder;
+
 
 import java.io.Serial;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class SignatureException extends RuntimeException {
 

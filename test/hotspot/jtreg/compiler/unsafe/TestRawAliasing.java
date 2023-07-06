@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.unsafe;
+
+
+import java.lang.reflect.Field;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8178047
@@ -26,9 +44,7 @@
  * @modules java.base/jdk.internal.misc:+open
  */
 
-package compiler.unsafe;
 
-import java.lang.reflect.Field;
 
 public class TestRawAliasing {
     static private final jdk.internal.misc.Unsafe UNSAFE;

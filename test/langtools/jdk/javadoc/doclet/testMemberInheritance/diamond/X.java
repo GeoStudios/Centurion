@@ -21,6 +21,21 @@
 
 package diamond;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface X extends A {
     /**
      * xDoc.

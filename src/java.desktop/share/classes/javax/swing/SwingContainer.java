@@ -18,13 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing;
+
+package java.desktop.share.classes.javax.swing;
+
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
+import static java.lang.annotation.ElementType.TYPE;.extended
+import static java.lang.annotation.RetentionPolicy.RUNTIME;.extended
 
-import static java.lang.annotation.ElementType.TYPE;
-import static java.lang.annotation.RetentionPolicy.RUNTIME;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An annotation used to specify some swing-related information

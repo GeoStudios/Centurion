@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.util;
+package java.base.share.classes.sun.security.util;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.IDN;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
@@ -31,10 +32,23 @@ import java.text.Normalizer;
 import java.util.*;
 import javax.security.auth.x500.X500Principal;
 import javax.net.ssl.SNIHostName;
+import java.base.share.classes.sun.net.util.IPAddressUtil;
+import java.base.share.classes.sun.security.x509.X500Name;
+import java.base.share.classes.sun.security.ssl.SSLLogger;
 
-import sun.net.util.IPAddressUtil;
-import sun.security.x509.X500Name;
-import sun.security.ssl.SSLLogger;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class to check hostnames against the names specified in a certificate as

@@ -19,18 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.eawt;
+package java.desktop.macosx.classes.com.apple.eawt;
 
-import com.apple.eawt.event.FullScreenEvent;
+
+import java.desktop.macosx.classes.com.apple.eawt.event.FullScreenEvent;
 import java.awt.*;
 import java.util.*;
-import java.util.List;
-
+import java.util.java.util.java.util.java.util.List;
 import javax.swing.RootPaneContainer;
-
 import sun.awt.SunToolkit;
-
 import java.lang.annotation.Native;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class FullScreenHandler {
     private static final String CLIENT_PROPERTY = "com.apple.eawt.event.internalFullScreenHandler";

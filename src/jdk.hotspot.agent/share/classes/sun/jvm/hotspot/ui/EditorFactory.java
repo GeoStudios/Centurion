@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.ui;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
+
 
 import javax.swing.JComponent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** An EditorFactory is the basis of pluggable editor components. One
     can configure the debugger with a new EditorFactory, which

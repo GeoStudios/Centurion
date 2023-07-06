@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.windows;
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.awt.Color;
 import java.awt.Component;
@@ -28,11 +29,23 @@ import java.awt.Dimension;
 import java.awt.SystemColor;
 import java.awt.Window;
 import java.awt.peer.DialogPeer;
+import java.desktop.windows.classes.sun.awt.AWTAccessor;
+import java.desktop.windows.classes.sun.awt.im.InputMethodManager;
+import static java.desktop.windows.classes.sun.java2d.SunGraphicsEnvironment.toUserSpace;.extended
 
-import sun.awt.AWTAccessor;
-import sun.awt.im.InputMethodManager;
 
-import static sun.java2d.SunGraphicsEnvironment.toUserSpace;
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class WDialogPeer extends WWindowPeer implements DialogPeer {
     // Toolkit & peer internals

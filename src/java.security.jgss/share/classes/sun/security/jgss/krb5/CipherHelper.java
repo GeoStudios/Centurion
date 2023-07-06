@@ -19,30 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jgss.krb5;
+package java.security.jgss.share.classes.sun.security.jgss.krb5;
 
-import javax.crypto.Cipher;
-import javax.crypto.SecretKey;
+
+import java.base.share.classes.javax.crypto.Cipher;
+import java.base.share.classes.javax.crypto.SecretKey;
 import javax.crypto.spec.IvParameterSpec;
-import javax.crypto.spec.SecretKeySpec;
+import java.base.share.classes.javax.crypto.spec.SecretKeySpec;
 import javax.crypto.CipherInputStream;
 import javax.crypto.CipherOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import org.ietf.jgss.*;
-
 import java.security.MessageDigest;
 import java.security.GeneralSecurityException;
-import java.security.NoSuchAlgorithmException;
-import sun.security.krb5.*;
-import sun.security.krb5.internal.crypto.Aes128Sha2;
-import sun.security.krb5.internal.crypto.Aes256Sha2;
-import sun.security.krb5.internal.crypto.Des3;
-import sun.security.krb5.internal.crypto.Aes128;
-import sun.security.krb5.internal.crypto.Aes256;
-import sun.security.krb5.internal.crypto.ArcFourHmac;
-import sun.security.krb5.internal.crypto.EType;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.security.jgss.share.classes.sun.security.krb5.*;
+import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.Aes128Sha2;
+import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.Aes256Sha2;
+import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.Des3;
+import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.Aes128;
+import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.Aes256;
+import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.ArcFourHmac;
+import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.EType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class CipherHelper {
 

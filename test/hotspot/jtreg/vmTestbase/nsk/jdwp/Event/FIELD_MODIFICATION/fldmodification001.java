@@ -21,11 +21,24 @@
 
 package nsk.jdwp.Event.FIELD_MODIFICATION;
 
-import java.io.*;
 
+import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test for JDWP event: FIELD_MODIFICATION.

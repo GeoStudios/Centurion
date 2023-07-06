@@ -18,15 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text;
+
+package java.desktop.share.classes.javax.swing.text;
+
 
 import java.awt.*;
 import java.awt.font.FontRenderContext;
 import java.awt.geom.Rectangle2D;
 import java.lang.ref.SoftReference;
-import javax.swing.event.*;
-import static javax.swing.text.PlainView.FPMethodArgs.*;
-import static javax.swing.text.PlainView.getFPMethodOverridden;
+import java.desktop.share.classes.javax.swing.event.*;
+import static java.desktop.share.classes.javax.swing.text.PlainView.FPMethodArgs.*;.extended
+import static java.desktop.share.classes.javax.swing.text.PlainView.getFPMethodOverridden;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * View of plain text (text with only one font and color)

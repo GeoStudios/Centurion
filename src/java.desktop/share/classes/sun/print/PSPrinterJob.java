@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.share.classes.sun.print;
+
 
 import java.awt.Color;
 import java.awt.Component;
@@ -30,23 +31,18 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.HeadlessException;
 import java.awt.Shape;
-
 import java.awt.font.FontRenderContext;
-
 import java.awt.geom.AffineTransform;
 import java.awt.geom.PathIterator;
 import java.awt.geom.Rectangle2D;
-
 import java.awt.image.BufferedImage;
-
 import java.awt.print.Pageable;
 import java.awt.print.PageFormat;
 import java.awt.print.Paper;
 import java.awt.print.Printable;
 import java.awt.print.PrinterException;
-import java.awt.print.PrinterIOException;
+import java.awt.print.Printerjava.io.java.io.java.io.IOException;
 import java.awt.print.PrinterJob;
-
 import javax.print.PrintService;
 import javax.print.StreamPrintService;
 import javax.print.attribute.HashPrintRequestAttributeSet;
@@ -58,42 +54,52 @@ import javax.print.attribute.standard.Destination;
 import javax.print.attribute.standard.DialogTypeSelection;
 import javax.print.attribute.standard.JobName;
 import javax.print.attribute.standard.Sides;
-
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
 import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.io.StringWriter;
-
-import java.util.ArrayList;
-import java.util.Locale;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Properties;
-
-import sun.awt.CharsetString;
-import sun.awt.FontConfiguration;
-import sun.awt.PlatformFont;
-import sun.awt.SunToolkit;
-import sun.font.FontAccess;
-import sun.font.FontUtilities;
-
+import java.desktop.share.classes.sun.awt.CharsetString;
+import java.desktop.share.classes.sun.awt.FontConfiguration;
+import java.desktop.share.classes.sun.awt.PlatformFont;
+import java.desktop.share.classes.sun.awt.SunToolkit;
+import java.desktop.share.classes.sun.font.FontAccess;
+import java.desktop.share.classes.sun.font.FontUtilities;
 import java.nio.charset.*;
 import java.nio.CharBuffer;
 import java.nio.ByteBuffer;
 import java.nio.file.Files;
-
-//REMIND: Remove use of this class when IPPPrintService is moved to share directory.
 import java.lang.reflect.Method;
 import javax.print.attribute.Attribute;
 import javax.print.attribute.standard.JobSheets;
 import javax.print.attribute.standard.Media;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//REMIND: Remove use of this class when IPPPrintService is moved to share directory.
 
 /**
  * A class which initiates and executes a PostScript printer job.

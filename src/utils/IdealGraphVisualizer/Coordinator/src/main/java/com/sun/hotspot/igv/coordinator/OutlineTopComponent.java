@@ -18,18 +18,20 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.coordinator;
 
-import com.sun.hotspot.igv.connection.Server;
-import com.sun.hotspot.igv.coordinator.actions.*;
-import com.sun.hotspot.igv.data.GraphDocument;
-import com.sun.hotspot.igv.data.Group;
-import com.sun.hotspot.igv.data.services.GroupCallback;
-import java.awt.BorderLayout;
-import java.io.IOException;
-import java.io.ObjectInput;
-import java.io.ObjectOutput;
-import java.io.Serializable;
+package utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator;
+
+
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.connection.Server;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator.actions.*;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.data.GraphDocument;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.data.Group;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.data.services.GroupCallback;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.awt.BorderLayout;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.io.java.io.java.io.java.io.IOException;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.io.ObjectInput;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.io.ObjectOutput;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.io.Serializable;
 import javax.swing.UIManager;
 import javax.swing.border.Border;
 import org.openide.ErrorManager;
@@ -40,11 +42,25 @@ import org.openide.explorer.ExplorerManager;
 import org.openide.explorer.ExplorerUtils;
 import org.openide.explorer.view.BeanTreeView;
 import org.openide.util.LookupEvent;
-import org.openide.util.LookupListener;
+import org.openide.util.Lookupjava.util.Listener;
 import org.openide.util.NbBundle;
 import org.openide.util.actions.NodeAction;
 import org.openide.windows.TopComponent;
 import org.openide.windows.WindowManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

@@ -19,24 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.gtk;
+package java.desktop.share.classes.com.sun.java.swing.plaf.gtk;
 
-import java.awt.*;
-import java.lang.reflect.*;
-import java.security.*;
-import java.util.*;
+
+import java.desktop.share.classes.com.sun.java.awt.*;
+import java.desktop.share.classes.com.sun.java.lang.reflect.*;
+import java.desktop.share.classes.com.sun.java.security.*;
+import java.desktop.share.classes.com.sun.java.util.*;
 import javax.swing.*;
 import javax.swing.plaf.*;
 import javax.swing.plaf.synth.*;
-
-import sun.awt.AppContext;
-import sun.awt.UNIXToolkit;
-import sun.swing.SwingUtilities2;
+import java.desktop.share.classes.com.sun.awt.AppContext;
+import java.desktop.share.classes.com.sun.awt.UNIXToolkit;
+import java.desktop.share.classes.com.sun.swing.SwingUtilities2;
 import javax.swing.plaf.synth.SynthIcon;
+import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKEngine.WidgetType;
+import static java.desktop.share.classes.com.sun.java.awt.RenderingHints.KEY_TEXT_ANTIALIASING;.extended
+import static java.desktop.share.classes.com.sun.java.awt.RenderingHints.KEY_TEXT_LCD_CONTRAST;.extended
 
-import com.sun.java.swing.plaf.gtk.GTKEngine.WidgetType;
-import static java.awt.RenderingHints.KEY_TEXT_ANTIALIASING;
-import static java.awt.RenderingHints.KEY_TEXT_LCD_CONTRAST;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.applet;
+package java.desktop.share.classes.java.applet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code AudioClip} interface is a simple abstraction for playing a sound

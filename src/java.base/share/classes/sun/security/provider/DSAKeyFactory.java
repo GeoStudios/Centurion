@@ -19,21 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider;
+package java.base.share.classes.sun.security.provider;
 
-import java.security.Key;
-import java.security.PublicKey;
-import java.security.PrivateKey;
+
+import java.base.share.classes.java.security.Key;
+import java.base.share.classes.java.security.PublicKey;
+import java.base.share.classes.java.security.PrivateKey;
 import java.security.KeyFactorySpi;
-import java.security.InvalidKeyException;
+import java.base.share.classes.java.security.InvalidKeyException;
 import java.security.interfaces.DSAParams;
 import java.security.spec.DSAPublicKeySpec;
 import java.security.spec.DSAPrivateKeySpec;
-import java.security.spec.KeySpec;
-import java.security.spec.InvalidKeySpecException;
-import java.security.spec.X509EncodedKeySpec;
-import java.security.spec.PKCS8EncodedKeySpec;
-import java.util.Arrays;
+import java.base.share.classes.java.security.spec.KeySpec;
+import java.base.share.classes.java.security.spec.InvalidKeySpecException;
+import java.base.share.classes.java.security.spec.X509EncodedKeySpec;
+import java.base.share.classes.java.security.spec.PKCS8EncodedKeySpec;
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements the DSA key factory of the Sun provider.

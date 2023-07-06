@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.metal;
+package java.desktop.macosx.classes.sun.java2d.metal;
 
-import sun.font.GlyphList;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.loops.GraphicsPrimitive;
-import sun.java2d.pipe.BufferedTextPipe;
-import sun.java2d.pipe.RenderQueue;
 
+import java.desktop.macosx.classes.sun.font.Glyphjava.util.java.util.java.util.List;
+import java.desktop.macosx.classes.sun.java2d.SunGraphics2D;
+import java.desktop.macosx.classes.sun.java2d.loops.GraphicsPrimitive;
+import java.desktop.macosx.classes.sun.java2d.pipe.BufferedTextPipe;
+import java.desktop.macosx.classes.sun.java2d.pipe.RenderQueue;
 import java.awt.Composite;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class MTLTextRenderer extends BufferedTextPipe {
 

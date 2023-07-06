@@ -21,11 +21,24 @@
 
 package p3;
 
+
 import p4.Foo;
 import java.lang.module.ModuleDescriptor;
 import java.lang.reflect.Field;
+import static java.lang.module.ModuleDescriptor.Exports.Modifier.*;.extended
 
-import static java.lang.module.ModuleDescriptor.Exports.Modifier.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test if m4 is an open module and p4 is package that m3 can access

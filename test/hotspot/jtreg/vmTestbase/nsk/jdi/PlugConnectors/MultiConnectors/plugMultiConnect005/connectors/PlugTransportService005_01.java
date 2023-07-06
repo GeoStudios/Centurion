@@ -19,18 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * A Simple TransportService used by
- * nsk/jdi/PlugConnectors/MultiConnectors/plugMultiConnect005 test
- */
-
 package nsk.jdi.PlugConnectors.MultiConnectors.plugMultiConnect005.connectors;
+
 
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import com.sun.jdi.connect.spi.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * A Simple TransportService used by
+ * nsk/jdi/PlugConnectors/MultiConnectors/plugMultiConnect005 test
+ */
+
+
 
 public class PlugTransportService005_01 extends PlugTransportService {
 

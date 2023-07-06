@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.media.sound;
+package java.desktop.share.classes.com.sun.media.sound;
+
 
 import java.io.Reader;
 import java.nio.file.Files;
@@ -27,13 +28,26 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Properties;
 import java.util.ServiceLoader;
-
 import javax.sound.sampled.AudioPermission;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Managing security in the Java Sound implementation.
  * This class contains all code that uses and is used by

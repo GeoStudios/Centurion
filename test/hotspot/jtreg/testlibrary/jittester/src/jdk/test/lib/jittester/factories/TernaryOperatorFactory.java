@@ -21,14 +21,28 @@
 
 package jdk.test.lib.jittester.factories;
 
+
 import jdk.test.lib.jittester.IRNode;
 import jdk.test.lib.jittester.ProductionFailedException;
 import jdk.test.lib.jittester.SymbolTable;
 import jdk.test.lib.jittester.TernaryOperator;
 import jdk.test.lib.jittester.Type;
-import jdk.test.lib.jittester.TypeList;
+import jdk.test.lib.jittester.Typejava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.PseudoRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class TernaryOperatorFactory extends OperatorFactory<TernaryOperator> {
     private final Type resultType;

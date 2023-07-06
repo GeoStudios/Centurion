@@ -18,12 +18,13 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.incubator.foreign;
 
-import jdk.internal.foreign.LayoutPath;
-import jdk.internal.foreign.LayoutPath.PathElementImpl.PathKind;
-import jdk.internal.foreign.Utils;
+package jdk.incubator.foreign.share.classes.jdk.incubator.foreign;
 
+
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.LayoutPath;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.LayoutPath.PathElementImpl.PathKind;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.Utils;
 import java.lang.constant.Constable;
 import java.lang.constant.DynamicConstantDesc;
 import java.lang.invoke.MethodHandle;
@@ -31,7 +32,7 @@ import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
 import java.nio.ByteOrder;
 import java.util.EnumSet;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.util.OptionalLong;
 import java.util.Set;
@@ -39,6 +40,20 @@ import java.util.function.Function;
 import java.util.function.UnaryOperator;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A memory layout can be used to describe the contents of a memory segment in a <em>language neutral</em> fashion.

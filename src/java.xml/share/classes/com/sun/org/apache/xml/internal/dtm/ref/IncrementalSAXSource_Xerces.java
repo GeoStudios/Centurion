@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.dtm.ref;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref;
 
-import com.sun.org.apache.xalan.internal.utils.ObjectFactory;
-import com.sun.org.apache.xerces.internal.parsers.SAXParser;
-import com.sun.org.apache.xml.internal.res.XMLErrorResources;
-import com.sun.org.apache.xml.internal.res.XMLMessages;
-import java.io.IOException;
+
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.utils.ObjectFactory;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers.SAXParser;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLErrorResources;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLMessages;
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
-import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
-import org.xml.sax.XMLReader;
+import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /** <p>IncrementalSAXSource_Xerces takes advantage of the fact that Xerces1

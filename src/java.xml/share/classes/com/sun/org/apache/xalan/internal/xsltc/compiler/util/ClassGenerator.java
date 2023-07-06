@@ -19,19 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util;
+
+
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Method;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ALOAD;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ClassGen;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Instruction;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.Constants;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.Parser;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.Stylesheet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xalan.internal.xsltc.compiler.util;
 
-import com.sun.org.apache.bcel.internal.classfile.Method;
-import com.sun.org.apache.bcel.internal.generic.ALOAD;
-import com.sun.org.apache.bcel.internal.generic.ClassGen;
-import com.sun.org.apache.bcel.internal.generic.Instruction;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.Constants;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.Parser;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.Stylesheet;
+
 
 /**
  * The class that implements any class that inherits from

@@ -19,25 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.logging;
+package java.logging.share.classes.java.util.logging;
 
-import java.lang.ref.WeakReference;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.Locale;
-import java.util.MissingResourceException;
-import java.util.Objects;
-import java.util.ResourceBundle;
-import java.util.concurrent.CopyOnWriteArrayList;
-import java.util.function.Supplier;
 
+import java.logging.share.classes.java.lang.ref.WeakReference;
+import java.logging.share.classes.java.security.AccessController;
+import java.logging.share.classes.java.security.PrivilegedAction;
+import java.logging.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.logging.share.classes.java.util.Iterator;
+import java.logging.share.classes.java.util.Locale;
+import java.logging.share.classes.java.util.MissingResourceException;
+import java.logging.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.logging.share.classes.java.util.ResourceBundle;
+import java.logging.share.classes.java.util.concurrent.CopyOnWriteArrayjava.util.java.util.java.util.List;
+import java.logging.share.classes.java.util.function.Supplier;
 import jdk.internal.access.JavaUtilResourceBundleAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.reflect.CallerSensitive;
 import jdk.internal.reflect.Reflection;
-import static jdk.internal.logger.DefaultLoggerFinder.isSystem;
+import static jdk.internal.logger.DefaultLoggerFinder.isSystem;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Logger object is used to log messages for a specific

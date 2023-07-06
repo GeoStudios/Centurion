@@ -21,6 +21,25 @@
 
 package gc.arguments;
 
+
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.process.OutputAnalyzer;
+import sun.hotspot.WhiteBox;
+import jtreg.SkippedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestSmallInitialHeapWithLargePageAndNUMA
  * @bug 8023905
@@ -36,10 +55,6 @@ package gc.arguments;
  * @run main/othervm -Xbootclasspath/a:. -XX:+UseHugeTLBFS -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI gc.arguments.TestSmallInitialHeapWithLargePageAndNUMA
 */
 
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.process.OutputAnalyzer;
-import sun.hotspot.WhiteBox;
-import jtreg.SkippedException;
 
 public class TestSmallInitialHeapWithLargePageAndNUMA {
 

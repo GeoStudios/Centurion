@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.whitebox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test DeoptimizeAllTest
  * @bug 8006683 8007288 8022832
@@ -37,7 +54,6 @@
  *                   compiler.whitebox.DeoptimizeAllTest
  */
 
-package compiler.whitebox;
 
 public class DeoptimizeAllTest extends CompilerWhiteBoxTest {
 

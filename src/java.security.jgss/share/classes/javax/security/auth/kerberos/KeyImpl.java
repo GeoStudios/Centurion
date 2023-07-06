@@ -19,13 +19,14 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.security.auth.kerberos;
+package java.security.jgss.share.classes.javax.security.auth.kerberos;
+
 
 import java.io.*;
-import java.util.Arrays;
-import javax.crypto.SecretKey;
-import javax.security.auth.Destroyable;
-import javax.security.auth.DestroyFailedException;
+import java.base.share.classes.java.util.Arrays;
+import java.security.jgss.share.classes.javax.crypto.SecretKey;
+import java.security.jgss.share.classes.javax.security.auth.Destroyable;
+import java.security.jgss.share.classes.javax.security.auth.DestroyFailedException;
 import sun.security.util.HexDumpEncoder;
 import sun.security.krb5.Asn1Exception;
 import sun.security.krb5.PrincipalName;
@@ -33,6 +34,20 @@ import sun.security.krb5.EncryptionKey;
 import sun.security.krb5.EncryptedData;
 import sun.security.krb5.KrbException;
 import sun.security.util.DerValue;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class encapsulates a Kerberos encryption key. It is not associated

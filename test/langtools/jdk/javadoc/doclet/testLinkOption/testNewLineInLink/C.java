@@ -21,4 +21,19 @@
 
 package testNewLineInLink;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class C {}

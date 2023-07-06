@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text.html;
+
+package java.desktop.share.classes.javax.swing.text.html;
+
 
 import java.awt.Color;
 import java.awt.Component;
@@ -30,16 +32,30 @@ import java.awt.Rectangle;
 import java.awt.Shape;
 import java.util.HashMap;
 import java.util.Map;
-import javax.swing.border.AbstractBorder;
-import javax.swing.text.AttributeSet;
-import javax.swing.text.View;
-import javax.swing.text.html.CSS.Attribute;
-import javax.swing.text.html.CSS.BorderStyle;
-import javax.swing.text.html.CSS.BorderWidthValue;
-import javax.swing.text.html.CSS.ColorValue;
-import javax.swing.text.html.CSS.CssValue;
-import javax.swing.text.html.CSS.LengthValue;
-import javax.swing.text.html.CSS.Value;
+import java.desktop.share.classes.javax.swing.border.AbstractBorder;
+import java.desktop.share.classes.javax.swing.text.AttributeSet;
+import java.desktop.share.classes.javax.swing.text.View;
+import java.desktop.share.classes.javax.swing.text.html.CSS.Attribute;
+import java.desktop.share.classes.javax.swing.text.html.CSS.BorderStyle;
+import java.desktop.share.classes.javax.swing.text.html.CSS.BorderWidthValue;
+import java.desktop.share.classes.javax.swing.text.html.CSS.ColorValue;
+import java.desktop.share.classes.javax.swing.text.html.CSS.CssValue;
+import java.desktop.share.classes.javax.swing.text.html.CSS.LengthValue;
+import java.desktop.share.classes.javax.swing.text.html.CSS.Value;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * CSS-style borders for HTML elements.

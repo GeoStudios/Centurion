@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl.dv.xs;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs;
 
-import com.sun.org.apache.xerces.internal.impl.dv.SchemaDVFactory;
-import com.sun.org.apache.xerces.internal.impl.dv.XSFacets;
-import com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType;
-import com.sun.org.apache.xerces.internal.util.SymbolHash;
-import com.sun.org.apache.xerces.internal.xs.XSConstants;
-import com.sun.org.apache.xerces.internal.xs.XSObjectList;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.SchemaDVFactory;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.XSFacets;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolHash;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSConstants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObjectjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * the factory to create/return built-in schema DVs and create user-defined DVs

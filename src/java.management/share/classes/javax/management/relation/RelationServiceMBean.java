@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.relation;
+package java.management.share.classes.javax.management.relation;
 
-import javax.management.ObjectName;
-import javax.management.InstanceNotFoundException;
 
-import java.util.List;
+import java.management.share.classes.javax.management.ObjectName;
+import java.management.share.classes.javax.management.InstanceNotFoundException;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Relation Service is in charge of creating and deleting relation types

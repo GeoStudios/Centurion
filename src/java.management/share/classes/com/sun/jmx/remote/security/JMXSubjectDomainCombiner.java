@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jmx.remote.security;
+package java.management.share.classes.com.sun.jmx.remote.security;
+
 
 import java.security.AccessControlContext;
 import java.security.AccessController;
@@ -28,6 +29,20 @@ import java.security.Permissions;
 import java.security.ProtectionDomain;
 import javax.security.auth.Subject;
 import javax.security.auth.SubjectDomainCombiner;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>This class represents an extension to the {@link SubjectDomainCombiner}

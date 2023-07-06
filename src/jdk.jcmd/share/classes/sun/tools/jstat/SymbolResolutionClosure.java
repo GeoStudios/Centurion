@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jstat;
+package jdk.jcmd.share.classes.sun.tools.jstat;
+
 
 import java.text.*;
-import sun.jvmstat.monitor.MonitorException;
+import jdk.jcmd.share.classes.sun.jvmstat.monitor.MonitorException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class implementing the Closure interface which is used to resolve

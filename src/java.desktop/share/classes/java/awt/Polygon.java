@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.geom.AffineTransform;
-import java.awt.geom.PathIterator;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
-import java.io.Serial;
-import java.util.Arrays;
 
+import java.desktop.share.classes.java.awt.geom.AffineTransform;
+import java.desktop.share.classes.java.awt.geom.PathIterator;
+import java.desktop.share.classes.java.awt.geom.Point2D;
+import java.desktop.share.classes.java.awt.geom.Rectangle2D;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays;
 import sun.awt.geom.Crossings;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code Polygon} class encapsulates a description of a

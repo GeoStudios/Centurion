@@ -19,29 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.net;
+package java.base.share.classes.java.net;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.security.PrivilegedAction;
-import java.util.Hashtable;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.Date;
-import java.util.Iterator;
-import java.util.Locale;
-import java.util.Objects;
-import java.util.ServiceConfigurationError;
-import java.util.ServiceLoader;
-import java.util.StringTokenizer;
-import java.util.Collections;
-import java.util.Map;
-import java.util.List;
-import java.security.Permission;
-import java.security.AccessController;
+
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.InputStream;
+import java.base.share.classes.java.io.OutputStream;
+import java.base.share.classes.java.security.PrivilegedAction;
+import java.base.share.classes.java.util.Hashtable;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.Date;
+import java.base.share.classes.java.util.Iterator;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.ServiceConfigurationError;
+import java.base.share.classes.java.util.ServiceLoader;
+import java.base.share.classes.java.util.StringTokenizer;
+import java.base.share.classes.java.util.Collections;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.security.Permission;
+import java.base.share.classes.java.security.AccessController;
 import sun.security.util.SecurityConstants;
 import sun.net.www.MessageHeader;
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The abstract class {@code URLConnection} is the superclass

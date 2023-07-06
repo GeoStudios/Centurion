@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider.certpath.ldap;
+package java.naming.share.classes.sun.security.provider.certpath.ldap;
+
 
 import java.util.HashMap;
-import java.util.List;
-import java.security.*;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.security.*;
 import java.security.cert.CertStoreParameters;
-import static sun.security.util.SecurityConstants.PROVIDER_VER;
+import static java.naming.share.classes.sun.security.util.SecurityConstants.PROVIDER_VER;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provider class for the JdkLDAP provider.

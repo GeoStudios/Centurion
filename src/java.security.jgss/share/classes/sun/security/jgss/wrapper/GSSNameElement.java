@@ -19,22 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jgss.wrapper;
+package java.security.jgss.share.classes.sun.security.jgss.wrapper;
+
 
 import org.ietf.jgss.*;
 import java.security.Provider;
 import java.security.Security;
-import java.io.IOException;
-import sun.security.krb5.Realm;
-import sun.security.jgss.GSSUtil;
-import sun.security.util.ObjectIdentifier;
-import sun.security.util.DerInputStream;
-import sun.security.util.DerOutputStream;
-import sun.security.jgss.GSSUtil;
-import sun.security.jgss.GSSExceptionImpl;
-import sun.security.jgss.spi.GSSNameSpi;
-
+import java.io.java.io.java.io.java.io.IOException;
+import java.security.jgss.share.classes.sun.security.krb5.Realm;
+import java.security.jgss.share.classes.sun.security.jgss.GSSUtil;
+import java.security.jgss.share.classes.sun.security.util.ObjectIdentifier;
+import java.security.jgss.share.classes.sun.security.util.DerInputStream;
+import java.security.jgss.share.classes.sun.security.util.DerOutputStream;
+import java.security.jgss.share.classes.sun.security.jgss.GSSUtil;
+import java.security.jgss.share.classes.sun.security.jgss.GSSExceptionImpl;
+import java.security.jgss.share.classes.sun.security.jgss.spi.GSSNameSpi;
 import javax.security.auth.kerberos.ServicePermission;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is essentially a wrapper class for the gss_name_t

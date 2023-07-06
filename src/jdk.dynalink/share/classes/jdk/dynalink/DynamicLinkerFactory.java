@@ -19,14 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * This file is available under and governed by the GNU General Public
- * License version 2 only, as published by the Free Software Foundation.
- * However, the following notice accompanied the original version of this
- * file, and Oracle licenses the original version of this file under the BSD
- * license:
- */
-package jdk.dynalink;
+package jdk.dynalink.share.classes.jdk.dynalink;
+
 
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodType;
@@ -34,33 +28,57 @@ import java.lang.invoke.MutableCallSite;
 import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Objects;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.ServiceConfigurationError;
 import java.util.ServiceLoader;
 import java.util.Set;
 import java.util.function.Supplier;
-import jdk.dynalink.beans.BeansLinker;
-import jdk.dynalink.internal.AccessControlContextFactory;
-import jdk.dynalink.linker.GuardedInvocation;
-import jdk.dynalink.linker.GuardedInvocationTransformer;
-import jdk.dynalink.linker.GuardingDynamicLinker;
-import jdk.dynalink.linker.GuardingDynamicLinkerExporter;
-import jdk.dynalink.linker.GuardingTypeConverterFactory;
-import jdk.dynalink.linker.LinkRequest;
-import jdk.dynalink.linker.LinkerServices;
-import jdk.dynalink.linker.MethodHandleTransformer;
-import jdk.dynalink.linker.MethodTypeConversionStrategy;
-import jdk.dynalink.linker.support.CompositeGuardingDynamicLinker;
-import jdk.dynalink.linker.support.CompositeTypeBasedGuardingDynamicLinker;
-import jdk.dynalink.linker.support.DefaultInternalObjectFilter;
-import jdk.dynalink.linker.support.TypeUtilities;
+import jdk.dynalink.share.classes.jdk.dynalink.beans.BeansLinker;
+import jdk.dynalink.share.classes.jdk.dynalink.internal.AccessControlContextFactory;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.GuardedInvocation;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.GuardedInvocationTransformer;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.GuardingDynamicLinker;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.GuardingDynamicLinkerExporter;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.GuardingTypeConverterFactory;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkRequest;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkerServices;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.MethodHandleTransformer;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.MethodTypeConversionStrategy;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.support.CompositeGuardingDynamicLinker;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.support.CompositeTypeBasedGuardingDynamicLinker;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.support.DefaultInternalObjectFilter;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.support.TypeUtilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * This file is available under and governed by the GNU General Public
+ * License version 2 only, as published by the Free Software Foundation.
+ * However, the following notice accompanied the original version of this
+ * file, and Oracle licenses the original version of this file under the BSD
+ * license:
+ */
+
+
 
 /**
  * A factory class for creating {@link DynamicLinker} objects. Dynamic linkers

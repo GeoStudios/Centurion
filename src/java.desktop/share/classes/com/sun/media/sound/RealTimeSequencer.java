@@ -19,18 +19,18 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.media.sound;
+package java.desktop.share.classes.com.sun.media.sound;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.WeakHashMap;
-
-import javax.sound.midi.ControllerEventListener;
+import javax.sound.midi.ControllerEventjava.util.Listener;
 import javax.sound.midi.InvalidMidiDataException;
-import javax.sound.midi.MetaEventListener;
+import javax.sound.midi.MetaEventjava.util.Listener;
 import javax.sound.midi.MetaMessage;
 import javax.sound.midi.MidiDevice;
 import javax.sound.midi.MidiEvent;
@@ -44,6 +44,20 @@ import javax.sound.midi.ShortMessage;
 import javax.sound.midi.Synthesizer;
 import javax.sound.midi.Track;
 import javax.sound.midi.Transmitter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Real Time Sequencer

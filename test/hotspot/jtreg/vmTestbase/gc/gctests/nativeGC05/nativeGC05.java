@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.nativeGC05;
+
+
+import nsk.share.TestFailure;
+import nsk.share.test.*;
+import nsk.share.gc.*;
+import java.util.Stack;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -81,12 +101,7 @@
  * @run main/othervm/native gc.gctests.nativeGC05.nativeGC05
  */
 
-package gc.gctests.nativeGC05;
 
-import nsk.share.TestFailure;
-import nsk.share.test.*;
-import nsk.share.gc.*;
-import java.util.Stack;
 
 public class nativeGC05 extends GCTestBase {
         private final int threadCount = 5;

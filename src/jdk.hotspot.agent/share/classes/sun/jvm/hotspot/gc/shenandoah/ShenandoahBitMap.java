@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.gc.shenandoah;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shenandoah;
 
-import sun.jvm.hotspot.utilities.BitMap;
-import sun.jvm.hotspot.utilities.BitMapInterface;
 
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.BitMap;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.BitMapInterface;
 import java.util.HashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ShenandoahBitMap implements BitMapInterface {
     private final HashMap<ShenandoahHeapRegion, BitMap> regionToBitMap = new HashMap<>();

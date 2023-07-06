@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.events;
+package jdk.jfr.share.classes.jdk.jfr.events;
 
-import jdk.jfr.Enabled;
-import jdk.jfr.Event;
-import jdk.jfr.Registered;
-import jdk.jfr.StackTrace;
+
+import jdk.jfr.share.classes.jdk.jfr.Enabled;
+import jdk.jfr.share.classes.jdk.jfr.Event;
+import jdk.jfr.share.classes.jdk.jfr.Registered;
+import jdk.jfr.share.classes.jdk.jfr.StackTrace;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @Registered(false)
 @Enabled(false)

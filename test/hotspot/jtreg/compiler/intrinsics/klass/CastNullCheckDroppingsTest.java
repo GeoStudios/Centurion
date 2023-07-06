@@ -19,6 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.klass;
+
+
+import jdk.jfr.Recording;
+import jdk.jfr.consumer.RecordedEvent;
+import jdk.test.lib.Platform;
+import jdk.test.lib.jfr.EventNames;
+import jdk.test.lib.jfr.Events;
+import sun.hotspot.WhiteBox;
+import sun.hotspot.code.NMethod;
+import java.io.java.io.java.io.java.io.IOException;
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+import java.lang.reflect.Method;
+import java.util.java.util.java.util.java.util.List;
+import java.util.function.BiFunction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test NullCheckDroppingsTest
  * @bug 8054492
@@ -37,23 +68,8 @@
  *                   compiler.intrinsics.klass.CastNullCheckDroppingsTest
  */
 
-package compiler.intrinsics.klass;
 
-import jdk.jfr.Recording;
-import jdk.jfr.consumer.RecordedEvent;
-import jdk.test.lib.Platform;
-import jdk.test.lib.jfr.EventNames;
-import jdk.test.lib.jfr.Events;
-import sun.hotspot.WhiteBox;
-import sun.hotspot.code.NMethod;
 
-import java.io.IOException;
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodType;
-import java.lang.reflect.Method;
-import java.util.List;
-import java.util.function.BiFunction;
 
 public class CastNullCheckDroppingsTest {
 

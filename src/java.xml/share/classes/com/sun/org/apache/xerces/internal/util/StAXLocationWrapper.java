@@ -19,16 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
+
+
+import javax.xml.stream.Location;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLLocator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.util;
 
 
-import javax.xml.stream.Location;
 
-import com.sun.org.apache.xerces.internal.xni.XMLLocator;
+
 
 /**
  * <p>A light wrapper around a StAX location. This is useful

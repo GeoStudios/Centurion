@@ -18,15 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.data;
 
-import java.io.Serializable;
-import java.lang.ref.WeakReference;
-import java.util.*;
-import java.util.Map.Entry;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-import java.util.regex.PatternSyntaxException;
+package utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data;
+
+
+import utils.IdealGraphVisualizer.Data.src.main.java.io.Serializable;
+import utils.IdealGraphVisualizer.Data.src.main.java.lang.ref.WeakReference;
+import utils.IdealGraphVisualizer.Data.src.main.java.util.*;
+import utils.IdealGraphVisualizer.Data.src.main.java.util.Map.Entry;
+import utils.IdealGraphVisualizer.Data.src.main.java.util.regex.Matcher;
+import utils.IdealGraphVisualizer.Data.src.main.java.util.regex.Pattern;
+import utils.IdealGraphVisualizer.Data.src.main.java.util.regex.PatternSyntaxException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

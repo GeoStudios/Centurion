@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
+
 
 import java.util.Iterator;
 import java.util.concurrent.Flow;
-import jdk.internal.net.http.common.Demand;
-import jdk.internal.net.http.common.SequentialScheduler;
+import java.net.http.share.classes.jdk.internal.net.http.common.Demand;
+import java.net.http.share.classes.jdk.internal.net.http.common.SequentialScheduler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Publisher that publishes items obtained from the given Iterable. Each new

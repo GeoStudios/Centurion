@@ -21,18 +21,18 @@
 
 package test.java.time.format;
 
-import static java.time.temporal.ChronoField.AMPM_OF_DAY;
-import static java.time.temporal.ChronoField.EPOCH_DAY;
-import static java.time.temporal.ChronoField.HOUR_OF_AMPM;
-import static java.time.temporal.ChronoField.INSTANT_SECONDS;
-import static java.time.temporal.ChronoField.MICRO_OF_SECOND;
-import static java.time.temporal.ChronoField.MILLI_OF_SECOND;
-import static java.time.temporal.ChronoField.NANO_OF_SECOND;
-import static java.time.temporal.ChronoField.OFFSET_SECONDS;
-import static java.time.temporal.ChronoField.SECOND_OF_DAY;
-import static java.util.Locale.US;
-import static org.testng.Assert.assertEquals;
 
+import static java.time.temporal.ChronoField.AMPM_OF_DAY;.extended
+import static java.time.temporal.ChronoField.EPOCH_DAY;.extended
+import static java.time.temporal.ChronoField.HOUR_OF_AMPM;.extended
+import static java.time.temporal.ChronoField.INSTANT_SECONDS;.extended
+import static java.time.temporal.ChronoField.MICRO_OF_SECOND;.extended
+import static java.time.temporal.ChronoField.MILLI_OF_SECOND;.extended
+import static java.time.temporal.ChronoField.NANO_OF_SECOND;.extended
+import static java.time.temporal.ChronoField.OFFSET_SECONDS;.extended
+import static java.time.temporal.ChronoField.SECOND_OF_DAY;.extended
+import static java.util.Locale.US;.extended
+import static org.testng.Assert.assertEquals;.extended
 import java.time.DateTimeException;
 import java.time.Instant;
 import java.time.LocalDateTime;
@@ -43,9 +43,21 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeFormatterBuilder;
 import java.time.format.DateTimeParseException;
 import java.time.temporal.TemporalAccessor;
-
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

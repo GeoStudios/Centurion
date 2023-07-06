@@ -19,13 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
 
-package jdk.vm.ci.meta;
 
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.function.Supplier;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta.SpeculationLog.SpeculationReason;
 
-import jdk.vm.ci.meta.SpeculationLog.SpeculationReason;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of {@link SpeculationReason} based on encoded values.

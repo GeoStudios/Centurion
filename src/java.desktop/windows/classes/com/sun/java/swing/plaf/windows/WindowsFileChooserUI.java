@@ -19,36 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.windows;
+package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.ComponentOrientation;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.FocusAdapter;
-import java.awt.event.FocusEvent;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.image.BufferedImage;
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.Arrays;
-import java.util.Locale;
-import java.util.Vector;
 
+import java.desktop.windows.classes.com.sun.java.awt.BorderLayout;
+import java.desktop.windows.classes.com.sun.java.awt.Color;
+import java.desktop.windows.classes.com.sun.java.awt.Component;
+import java.desktop.windows.classes.com.sun.java.awt.ComponentOrientation;
+import java.desktop.windows.classes.com.sun.java.awt.Dimension;
+import java.desktop.windows.classes.com.sun.java.awt.Graphics;
+import java.desktop.windows.classes.com.sun.java.awt.Insets;
+import java.desktop.windows.classes.com.sun.java.awt.event.ActionEvent;
+import java.desktop.windows.classes.com.sun.java.awt.event.Actionjava.util.Listener;
+import java.desktop.windows.classes.com.sun.java.awt.event.FocusAdapter;
+import java.desktop.windows.classes.com.sun.java.awt.event.FocusEvent;
+import java.desktop.windows.classes.com.sun.java.awt.event.KeyAdapter;
+import java.desktop.windows.classes.com.sun.java.awt.event.KeyEvent;
+import java.desktop.windows.classes.com.sun.java.awt.event.MouseAdapter;
+import java.desktop.windows.classes.com.sun.java.awt.event.MouseEvent;
+import java.desktop.windows.classes.com.sun.java.awt.event.Mousejava.util.Listener;
+import java.desktop.windows.classes.com.sun.java.awt.image.BufferedImage;
+import java.desktop.windows.classes.com.sun.java.beans.PropertyChangeEvent;
+import java.desktop.windows.classes.com.sun.java.beans.PropertyChangejava.util.Listener;
+import java.desktop.windows.classes.com.sun.java.io.File;
+import java.desktop.windows.classes.com.sun.java.io.FileNotFoundException;
+import java.desktop.windows.classes.com.sun.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.windows.classes.com.sun.java.util.java.util.java.util.java.util.Arrays;
+import java.desktop.windows.classes.com.sun.java.util.Locale;
+import java.desktop.windows.classes.com.sun.java.util.Vector;
 import javax.accessibility.AccessibleContext;
-import javax.swing.AbstractListModel;
+import javax.swing.Abstractjava.util.ListModel;
 import javax.swing.Action;
 import javax.swing.ActionMap;
 import javax.swing.Box;
@@ -56,7 +56,7 @@ import javax.swing.BoxLayout;
 import javax.swing.ButtonGroup;
 import javax.swing.ComboBoxModel;
 import javax.swing.DefaultButtonModel;
-import javax.swing.DefaultListCellRenderer;
+import javax.swing.Defaultjava.util.ListCellRenderer;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -64,7 +64,7 @@ import javax.swing.JComboBox;
 import javax.swing.JComponent;
 import javax.swing.JFileChooser;
 import javax.swing.JLabel;
-import javax.swing.JList;
+import javax.swing.Jjava.util.java.util.java.util.List;
 import javax.swing.JPanel;
 import javax.swing.JPopupMenu;
 import javax.swing.JRadioButtonMenuItem;
@@ -73,10 +73,10 @@ import javax.swing.JToolBar;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.border.EmptyBorder;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
+import javax.swing.event.java.util.ListSelectionEvent;
+import javax.swing.event.java.util.ListSelectionjava.util.Listener;
 import javax.swing.event.PopupMenuEvent;
-import javax.swing.event.PopupMenuListener;
+import javax.swing.event.PopupMenujava.util.Listener;
 import javax.swing.filechooser.FileFilter;
 import javax.swing.filechooser.FileSystemView;
 import javax.swing.filechooser.FileView;
@@ -85,11 +85,24 @@ import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.InsetsUIResource;
 import javax.swing.plaf.basic.BasicDirectoryModel;
 import javax.swing.plaf.basic.BasicFileChooserUI;
+import java.desktop.windows.classes.com.sun.awt.shell.ShellFolder;
+import java.desktop.windows.classes.com.sun.swing.FilePane;
+import java.desktop.windows.classes.com.sun.swing.SwingUtilities2;
+import java.desktop.windows.classes.com.sun.swing.WindowsPlacesBar;
 
-import sun.awt.shell.ShellFolder;
-import sun.swing.FilePane;
-import sun.swing.SwingUtilities2;
-import sun.swing.WindowsPlacesBar;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Windows {@literal L&F} implementation of a FileChooser.

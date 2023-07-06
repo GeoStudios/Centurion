@@ -19,22 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.windows;
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.awt.Desktop.Action;
 import java.awt.EventQueue;
-import java.awt.desktop.SystemEventListener;
+import java.awt.desktop.SystemEventjava.util.Listener;
 import java.awt.desktop.SystemSleepEvent;
-import java.awt.desktop.SystemSleepListener;
+import java.awt.desktop.SystemSleepjava.util.Listener;
 import java.awt.desktop.UserSessionEvent;
 import java.awt.desktop.UserSessionEvent.Reason;
-import java.awt.desktop.UserSessionListener;
+import java.awt.desktop.UserSessionjava.util.Listener;
 import java.awt.peer.DesktopPeer;
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.URI;
+import javax.swing.event.Eventjava.util.Listenerjava.util.java.util.java.util.List;
 
-import javax.swing.event.EventListenerList;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Concrete implementation of the interface {@code DesktopPeer} for

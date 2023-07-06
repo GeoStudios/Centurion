@@ -18,11 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.jvmti.AttachOnDemand.attach010;
+
 
 import nsk.share.aod.AbstractJarAgent;
 import java.io.*;
 import java.lang.instrument.Instrumentation;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class attach010Agent00 extends AbstractJarAgent {
 

@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.tools;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools;
+
 
 import java.io.*;
 import java.util.*;
-import sun.jvm.hotspot.*;
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.debugger.cdbg.*;
-import sun.jvm.hotspot.debugger.remote.*;
-import sun.jvm.hotspot.utilities.PlatformInfo;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.remote.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.PlatformInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PMap extends Tool {
 

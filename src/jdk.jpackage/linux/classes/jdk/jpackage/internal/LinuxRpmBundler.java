@@ -19,29 +19,43 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jpackage.internal;
+package jdk.jpackage.linux.classes.jdk.jpackage.internal;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Path;
 import java.text.MessageFormat;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.APP_NAME;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.INSTALLER_NAME;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.LICENSE_FILE;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.VERSION;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.RELEASE;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.TEMP_ROOT;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.OverridableResource.createResource;.extended
+import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.ABOUT_URL;.extended
 
-import static jdk.jpackage.internal.StandardBundlerParam.APP_NAME;
-import static jdk.jpackage.internal.StandardBundlerParam.INSTALLER_NAME;
-import static jdk.jpackage.internal.StandardBundlerParam.LICENSE_FILE;
-import static jdk.jpackage.internal.StandardBundlerParam.VERSION;
-import static jdk.jpackage.internal.StandardBundlerParam.RELEASE;
-import static jdk.jpackage.internal.StandardBundlerParam.TEMP_ROOT;
-import static jdk.jpackage.internal.OverridableResource.createResource;
-import static jdk.jpackage.internal.StandardBundlerParam.ABOUT_URL;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * There are two command line options to configure license information for RPM

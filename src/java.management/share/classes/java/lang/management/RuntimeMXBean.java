@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.management;
+package java.management.share.classes.java.lang.management;
 
-import java.security.AccessController;
-import java.security.PrivilegedAction;
+
+import java.management.share.classes.java.security.AccessController;
+import java.management.share.classes.java.security.PrivilegedAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The management interface for the runtime system of

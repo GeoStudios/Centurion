@@ -19,23 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
+
 
 import jdk.internal.misc.CDS;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.java.lang.constant.Constable;
+import java.base.share.classes.java.lang.constant.DynamicConstantDesc;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.HashMap;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.Optional;
+import static java.base.share.classes.java.lang.constant.ConstantDescs.BSM_EXPLICIT_CAST;.extended
+import static java.base.share.classes.java.lang.constant.ConstantDescs.CD_char;.extended
+import static java.base.share.classes.java.lang.constant.ConstantDescs.CD_int;.extended
+import static java.base.share.classes.java.lang.constant.ConstantDescs.DEFAULT_NAME;.extended
 
-import java.lang.constant.Constable;
-import java.lang.constant.DynamicConstantDesc;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Locale;
-import java.util.Map;
-import java.util.Optional;
 
-import static java.lang.constant.ConstantDescs.BSM_EXPLICIT_CAST;
-import static java.lang.constant.ConstantDescs.CD_char;
-import static java.lang.constant.ConstantDescs.CD_int;
-import static java.lang.constant.ConstantDescs.DEFAULT_NAME;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code Character} class wraps a value of the primitive

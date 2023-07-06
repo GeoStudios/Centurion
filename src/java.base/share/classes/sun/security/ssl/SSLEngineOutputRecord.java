@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
-import java.util.LinkedList;
+import java.util.Linkedjava.util.java.util.java.util.List;
 import javax.net.ssl.SSLHandshakeException;
+import java.base.share.classes.sun.security.ssl.SSLCipher.SSLWriteCipher;
 
-import sun.security.ssl.SSLCipher.SSLWriteCipher;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code OutputRecord} implementation for {@code SSLEngine}.

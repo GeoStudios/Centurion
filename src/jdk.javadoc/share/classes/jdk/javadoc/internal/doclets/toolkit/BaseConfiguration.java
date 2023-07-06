@@ -19,18 +19,18 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.toolkit;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit;
 
 
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 import java.util.SortedMap;
@@ -38,7 +38,6 @@ import java.util.SortedSet;
 import java.util.TreeMap;
 import java.util.TreeSet;
 import java.util.function.Function;
-
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ModuleElement;
@@ -48,33 +47,46 @@ import javax.lang.model.util.Elements;
 import javax.lang.model.util.SimpleElementVisitor14;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileObject;
-
 import com.sun.source.tree.CompilationUnitTree;
 import com.sun.source.util.DocTreePath;
 import com.sun.source.util.TreePath;
 import com.sun.tools.javac.util.DefinedBy;
 import com.sun.tools.javac.util.DefinedBy.Api;
-import jdk.javadoc.doclet.Doclet;
-import jdk.javadoc.doclet.DocletEnvironment;
-import jdk.javadoc.doclet.Reporter;
-import jdk.javadoc.doclet.StandardDoclet;
-import jdk.javadoc.doclet.Taglet;
-import jdk.javadoc.internal.doclets.toolkit.builders.BuilderFactory;
-import jdk.javadoc.internal.doclets.toolkit.taglets.TagletManager;
-import jdk.javadoc.internal.doclets.toolkit.util.Comparators;
-import jdk.javadoc.internal.doclets.toolkit.util.DocFile;
-import jdk.javadoc.internal.doclets.toolkit.util.DocFileFactory;
-import jdk.javadoc.internal.doclets.toolkit.util.DocFileIOException;
-import jdk.javadoc.internal.doclets.toolkit.util.Extern;
-import jdk.javadoc.internal.doclets.toolkit.util.Group;
-import jdk.javadoc.internal.doclets.toolkit.util.MetaKeywords;
-import jdk.javadoc.internal.doclets.toolkit.util.SimpleDocletException;
-import jdk.javadoc.internal.doclets.toolkit.util.TypeElementCatalog;
-import jdk.javadoc.internal.doclets.toolkit.util.Utils;
-import jdk.javadoc.internal.doclets.toolkit.util.Utils.Pair;
-import jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberCache;
-import jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable;
-import jdk.javadoc.internal.doclint.DocLint;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.Doclet;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.DocletEnvironment;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.Reporter;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.StandardDoclet;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.Taglet;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.builders.BuilderFactory;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.taglets.TagletManager;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Comparators;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFile;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFileFactory;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFilejava.io.java.io.java.io.IOException;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Extern;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Group;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.MetaKeywords;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.SimpleDocletException;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.TypeElementCatalog;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils.Pair;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberCache;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclint.DocLint;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Configure the output based on the options. Doclets should sub-class

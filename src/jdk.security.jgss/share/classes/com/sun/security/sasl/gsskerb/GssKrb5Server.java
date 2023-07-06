@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.security.sasl.gsskerb;
+package jdk.security.jgss.share.classes.com.sun.security.sasl.gsskerb;
+
 
 import javax.security.sasl.*;
 import java.io.*;
 import java.util.Map;
 import java.util.logging.Level;
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
+import javax.security.auth.callback.*;
+import org.ietf.jgss.*;
 
-import static java.nio.charset.StandardCharsets.UTF_8;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // JAAS
-import javax.security.auth.callback.*;
 
 // JGSS
-import org.ietf.jgss.*;
 
 /**
  * Implements the GSSAPI SASL server mechanism for Kerberos V5.

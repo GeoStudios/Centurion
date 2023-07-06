@@ -18,22 +18,35 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.jfr.api.consumer.streaming;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.file.Files;
 import java.nio.file.NoSuchFileException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Properties;
-
 import jdk.internal.misc.Unsafe;
 import jdk.jfr.Event;
 import jdk.test.lib.jfr.StreamingUtils;
 import jdk.test.lib.process.ProcessTools;
-
 import com.sun.tools.attach.VirtualMachine;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class that emits a NUMBER_OF_EVENTS and then awaits crash or exit

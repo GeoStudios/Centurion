@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package capture5;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4916650
@@ -28,7 +45,6 @@
  * @compile Capture5.java
  */
 
-package capture5;
 
 interface R<T extends R<T>> {}
 class A implements R<A> {}

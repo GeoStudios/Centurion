@@ -19,14 +19,15 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.launcher;
+package jdk.compiler.share.classes.com.sun.tools.javac.launcher;
+
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
@@ -50,19 +51,18 @@ import java.security.CodeSigner;
 import java.security.CodeSource;
 import java.security.ProtectionDomain;
 import java.text.MessageFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.Enumeration;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.MissingResourceException;
 import java.util.NoSuchElementException;
 import java.util.ResourceBundle;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.NestingKind;
 import javax.lang.model.element.TypeElement;
@@ -73,18 +73,29 @@ import javax.tools.JavaFileObject;
 import javax.tools.SimpleJavaFileObject;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.StandardLocation;
-
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.TaskEvent;
-import com.sun.source.util.TaskListener;
-import com.sun.tools.javac.api.JavacTool;
-import com.sun.tools.javac.code.Source;
-import com.sun.tools.javac.resources.LauncherProperties.Errors;
-import com.sun.tools.javac.util.JCDiagnostic.Error;
-
+import jdk.compiler.share.classes.com.sun.source.util.JavacTask;
+import jdk.compiler.share.classes.com.sun.source.util.TaskEvent;
+import jdk.compiler.share.classes.com.sun.source.util.Taskjava.util.Listener;
+import jdk.compiler.share.classes.com.sun.tools.javac.api.JavacTool;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Source;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.LauncherProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Error;
 import jdk.internal.misc.VM;
+import static javax.tools.JavaFileObject.Kind.SOURCE;.extended
 
-import static javax.tools.JavaFileObject.Kind.SOURCE;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Compiles a source file, and executes the main method it contains.

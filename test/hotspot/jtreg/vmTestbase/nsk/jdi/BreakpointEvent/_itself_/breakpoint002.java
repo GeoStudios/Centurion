@@ -21,6 +21,7 @@
 
 package nsk.jdi.BreakpointEvent._itself_;
 
+
 import com.sun.jdi.AbsentInformationException;
 import com.sun.jdi.ClassNotPreparedException;
 import com.sun.jdi.ObjectCollectedException;
@@ -32,14 +33,25 @@ import com.sun.jdi.request.EventRequestManager;
 import com.sun.jdi.VMDisconnectedException;
 import com.sun.jdi.VMMismatchException;
 import com.sun.jdi.event.*;
-
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.io.*;
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test checks up on the JDI interface

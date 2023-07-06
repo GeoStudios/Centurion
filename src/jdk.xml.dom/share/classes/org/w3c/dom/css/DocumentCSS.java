@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.w3c.dom.css;
+package jdk.xml.dom.share.classes.org.w3c.dom.css;
 
-import org.w3c.dom.Element;
-import org.w3c.dom.stylesheets.DocumentStyle;
+
+import jdk.xml.dom.share.classes.org.w3c.dom.Element;
+import jdk.xml.dom.share.classes.org.w3c.dom.stylesheets.DocumentStyle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This interface represents a document with a CSS view.

@@ -19,22 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
-
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.Hashtable;
 import java.util.Map;
+import java.desktop.unix.classes.sun.awt.AppContext;
+import java.desktop.unix.classes.sun.awt.SunToolkit;
+import java.desktop.unix.classes.sun.awt.UNIXToolkit;
+import java.desktop.unix.classes.sun.awt.datatransfer.DataTransferer;
 
-import sun.awt.AppContext;
-import sun.awt.SunToolkit;
-import sun.awt.UNIXToolkit;
 
-import sun.awt.datatransfer.DataTransferer;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class which interfaces with the X11 selection service.
@@ -246,7 +257,7 @@ final class XSelection {
                 formats = new long[count];
                 for (int index = 0; index < count; index++) {
                     formats[index] =
-                            Native.getLong(atoms+index*XAtom.getAtomSize());
+                            Native.getLong(atoms+ (long) index *XAtom.getAtomSize());
                 }
             }
         }
@@ -508,7 +519,7 @@ final class XSelection {
                     nativeDataPtr =
                         XlibWrapper.unsafe.allocateMemory(XAtom.getAtomSize());
 
-                    Native.putLong(nativeDataPtr, (long)count);
+                    Native.putLong(nativeDataPtr, count);
 
                     format = XDataTransferer.INCR_ATOM.getAtom();
                     dataFormat = 32;

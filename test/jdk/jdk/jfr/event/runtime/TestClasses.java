@@ -21,11 +21,25 @@
 
 package jdk.jfr.event.runtime;
 
+
 import java.lang.invoke.MethodType;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandles.Lookup;
 import java.lang.reflect.Array;
-import static java.lang.invoke.MethodHandles.Lookup.ClassOption.*;
+import static java.lang.invoke.MethodHandles.Lookup.ClassOption.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class TestClasses {
 

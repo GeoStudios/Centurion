@@ -18,11 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.astro;
 
-import static jaxp.library.JAXPTestUtilities.filenameToURL;
 
+import static jaxp.library.JAXPTestUtilities.filenameToURL;.extended
 import org.xml.sax.InputSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Default implementation of a input source factory. This is the most

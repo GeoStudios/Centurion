@@ -20,6 +20,22 @@
  */
 
 package p;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 interface Foo {
     default String m() { return "foo"; }
 }

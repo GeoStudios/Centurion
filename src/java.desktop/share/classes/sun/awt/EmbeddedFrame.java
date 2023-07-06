@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.share.classes.sun.awt;
+
 
 import java.applet.Applet;
 import java.awt.AWTKeyStroke;
@@ -40,9 +41,23 @@ import java.awt.event.KeyEvent;
 import java.awt.peer.ComponentPeer;
 import java.awt.peer.FramePeer;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.io.Serial;
 import java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A generic container used for embedding Java components, usually applets.

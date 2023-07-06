@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.runtime;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime;
 
-import sun.jvm.hotspot.oops.*;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Specialized SignatureIterator: Used to compute the result type. */
 

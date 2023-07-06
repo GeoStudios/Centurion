@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.opengl;
+package java.desktop.share.classes.sun.java2d.opengl;
+
 
 import java.lang.annotation.Native;
+import java.desktop.share.classes.sun.java2d.pipe.BufferedContext;
+import java.desktop.share.classes.sun.java2d.pipe.RenderBuffer;
+import java.desktop.share.classes.sun.java2d.pipe.RenderQueue;
+import java.desktop.share.classes.sun.java2d.pipe.hw.ContextCapabilities;
+import static java.desktop.share.classes.sun.java2d.pipe.BufferedOpCodes.INVALIDATE_CONTEXT;.extended
+import static java.desktop.share.classes.sun.java2d.pipe.BufferedOpCodes.SET_SCRATCH_SURFACE;.extended
 
-import sun.java2d.pipe.BufferedContext;
-import sun.java2d.pipe.RenderBuffer;
-import sun.java2d.pipe.RenderQueue;
-import sun.java2d.pipe.hw.ContextCapabilities;
 
-import static sun.java2d.pipe.BufferedOpCodes.INVALIDATE_CONTEXT;
-import static sun.java2d.pipe.BufferedOpCodes.SET_SCRATCH_SURFACE;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Note that the RenderQueue lock must be acquired before calling any of

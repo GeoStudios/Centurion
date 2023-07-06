@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.toolkit.ctx;
+package java.naming.share.classes.com.sun.jndi.toolkit.ctx;
+
 
 import javax.naming.*;
 import javax.naming.directory.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Direct subclasses of AtomicDirContext must provide implementations for

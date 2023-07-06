@@ -18,7 +18,24 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.sql;
+
+package java.sql.share.classes.java.sql;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface used to indicate that this object represents a Sharding Key. A

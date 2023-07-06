@@ -19,14 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.toolkit;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit;
+
 
 import java.util.*;
-
 import javax.lang.model.element.Element;
 import javax.lang.model.element.TypeElement;
-
 import com.sun.source.doctree.DocTree;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The interface for writing member summary output.

@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.unix.classes.sun.font;
+
 
 import java.io.*;
 import java.util.*;
+import java.desktop.unix.classes.sun.awt.*;
+import java.desktop.unix.classes.sun.java2d.xr.*;
 
-import sun.awt.*;
-import sun.java2d.xr.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Glyph cache used by the XRender pipeline.

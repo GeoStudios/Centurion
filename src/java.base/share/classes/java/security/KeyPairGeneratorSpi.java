@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
-import java.security.spec.AlgorithmParameterSpec;
+
+import java.base.share.classes.java.security.spec.AlgorithmParameterSpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p> This class defines the <i>Service Provider Interface</i> (<b>SPI</b>)

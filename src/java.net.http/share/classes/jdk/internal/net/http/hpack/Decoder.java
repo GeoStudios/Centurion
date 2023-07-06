@@ -18,19 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.net.http.hpack;
 
-import jdk.internal.net.http.hpack.HPACK.Logger;
+package java.net.http.share.classes.jdk.internal.net.http.hpack;
 
-import java.io.IOException;
+
+import java.net.http.share.classes.jdk.internal.net.http.hpack.HPACK.Logger;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
+import static java.net.http.share.classes.jdk.internal.net.http.hpack.HPACK.Logger.Level.EXTRA;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.hpack.HPACK.Logger.Level.NORMAL;.extended
+import static java.lang.String.format;.extended
+import static java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
 
-import static jdk.internal.net.http.hpack.HPACK.Logger.Level.EXTRA;
-import static jdk.internal.net.http.hpack.HPACK.Logger.Level.NORMAL;
-import static java.lang.String.format;
-import static java.util.Objects.requireNonNull;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Decodes headers from their binary representation.

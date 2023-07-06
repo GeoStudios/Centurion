@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jgss;
+package java.security.jgss.share.classes.sun.security.jgss;
+
 
 import org.ietf.jgss.*;
-import sun.security.jgss.spi.*;
-
+import java.security.jgss.share.classes.sun.security.jgss.spi.*;
 import java.util.*;
-import sun.security.jgss.spnego.SpNegoCredElement;
+import java.security.jgss.share.classes.sun.security.jgss.spnego.SpNegoCredElement;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class GSSCredentialImpl implements GSSCredential {
 

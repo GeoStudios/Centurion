@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.www.protocol.http.logging;
+package java.logging.share.classes.sun.net.www.protocol.http.logging;
+
 
 import java.util.logging.LogRecord;
 import java.util.regex.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Formatter to make the HTTP logs a bit more palatable to the developer

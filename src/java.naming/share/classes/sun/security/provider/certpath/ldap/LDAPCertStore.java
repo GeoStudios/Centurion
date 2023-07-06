@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider.certpath.ldap;
+package java.naming.share.classes.sun.security.provider.certpath.ldap;
+
 
 import java.net.URI;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.cert.*;
 import java.util.*;
-import sun.security.util.Cache;
-import sun.security.util.Debug;
+import java.naming.share.classes.sun.security.util.Cache;
+import java.naming.share.classes.sun.security.util.Debug;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A <code>CertStore</code> that retrieves <code>Certificates</code> and

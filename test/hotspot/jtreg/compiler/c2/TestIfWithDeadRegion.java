@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import java.util.function.Supplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8219807
@@ -28,9 +46,7 @@
  *                   compiler.c2.TestIfWithDeadRegion
  */
 
-package compiler.c2;
 
-import java.util.function.Supplier;
 
 public class TestIfWithDeadRegion {
 

@@ -21,13 +21,26 @@
 
 package jdk.jfr.api.recording.state;
 
+
 import java.time.Duration;
 import java.time.Instant;
-
 import jdk.jfr.Recording;
 import jdk.jfr.RecordingState;
 import jdk.test.lib.jfr.CommonHelper;
 import jdk.test.lib.jfr.VoidFunction;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

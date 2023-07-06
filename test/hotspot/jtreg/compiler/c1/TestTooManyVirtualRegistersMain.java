@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8261235
@@ -31,7 +48,6 @@
  *                   compiler.c1.TestTooManyVirtualRegistersMain
  */
 
-package compiler.c1;
 
 public class TestTooManyVirtualRegistersMain {
     public static void main(String[] args) {

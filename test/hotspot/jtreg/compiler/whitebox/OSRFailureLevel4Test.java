@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.whitebox;
+
+
+import sun.hotspot.WhiteBox;
+import java.lang.reflect.Executable;
+import java.lang.reflect.Method;
+import jtreg.SkippedException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test OSRFailureLevel4Test
  * @summary check that not compilable OSR level 4 results in falling back to level 1
@@ -36,12 +57,7 @@
  *                   -XX:+WhiteBoxAPI -XX:+TieredCompilation compiler.whitebox.OSRFailureLevel4Test
  */
 
-package compiler.whitebox;
 
-import sun.hotspot.WhiteBox;
-import java.lang.reflect.Executable;
-import java.lang.reflect.Method;
-import jtreg.SkippedException;
 
 public class OSRFailureLevel4Test extends Thread {
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();

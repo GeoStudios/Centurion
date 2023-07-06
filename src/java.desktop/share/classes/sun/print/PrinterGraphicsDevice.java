@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.share.classes.sun.print;
+
 
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsDevice;
 import java.awt.Window;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class PrinterGraphicsDevice extends GraphicsDevice {
 

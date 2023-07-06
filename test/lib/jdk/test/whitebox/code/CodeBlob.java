@@ -21,7 +21,21 @@
 
 package jdk.test.whitebox.code;
 
+
 import jdk.test.whitebox.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CodeBlob {
   private static final WhiteBox WB = WhiteBox.getWhiteBox();

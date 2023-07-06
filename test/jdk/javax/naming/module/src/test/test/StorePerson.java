@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test;
+
+
+import java.io.PrintStream;
+import java.net.*;
+import java.util.*;
+import javax.naming.*;
+import javax.naming.directory.*;
+import org.example.person.Person;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Demonstrate Java object storage and retrieval using an LDAP directory.
  * The Person object and its associated object and state factory is supplied by
@@ -27,15 +50,8 @@
  * must be specified to the JNDI initial context.
  */
 
-package test;
 
-import java.io.PrintStream;
-import java.net.*;
-import java.util.*;
-import javax.naming.*;
-import javax.naming.directory.*;
 
-import org.example.person.Person;
 
 public class StorePerson {
 

@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jvmti.scenarios.hotswap.HS302.hs302t005;
+
+
+import java.lang.reflect.*;
+import nsk.share.jvmti.RedefineAgent;
+import nsk.jvmti.scenarios.hotswap.HS302.hs302t005r.MyClass;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -38,11 +58,7 @@
  *      nsk.jvmti.scenarios.hotswap.HS302.hs302t005.hs302t005
  */
 
-package nsk.jvmti.scenarios.hotswap.HS302.hs302t005;
 
-import java.lang.reflect.*;
-import nsk.share.jvmti.RedefineAgent;
-import nsk.jvmti.scenarios.hotswap.HS302.hs302t005r.MyClass;
 public class hs302t005 extends RedefineAgent {
     public hs302t005(String[] arg) {
         super(arg);

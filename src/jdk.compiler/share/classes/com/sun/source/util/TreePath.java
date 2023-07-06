@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.source.util;
+package jdk.compiler.share.classes.com.sun.source.util;
+
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+import jdk.compiler.share.classes.com.sun.source.tree.*;
 
-import com.sun.source.tree.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A path of tree nodes, typically used to represent the sequence of ancestor

@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.rowset.internal;
+package java.sql.rowset.share.classes.com.sun.rowset.internal;
+
 
 import java.sql.*;
 import javax.sql.*;
 import javax.naming.*;
 import java.io.*;
 import java.lang.reflect.*;
-
-import com.sun.rowset.*;
+import java.sql.rowset.share.classes.com.sun.rowset.*;
 import javax.sql.rowset.*;
 import javax.sql.rowset.spi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The facility called by the <code>RIOptimisticProvider</code> object

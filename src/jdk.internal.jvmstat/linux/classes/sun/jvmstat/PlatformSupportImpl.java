@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvmstat;
+package jdk.internal.jvmstat.linux.classes.sun.jvmstat;
+
 
 import java.io.*;
 import java.util.*;
@@ -28,6 +29,20 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.Files;
 import java.nio.charset.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Linux specific implementation of the PlatformSupport routines

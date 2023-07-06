@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.classUnloading.methodUnloading;
+
+
+import sun.hotspot.WhiteBox;
+import java.lang.reflect.Method;
+import java.net.URL;
+import java.net.URLClassLoader;
+import compiler.whitebox.CompilerWhiteBoxTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test MethodUnloadingTest
  * @bug 8029443
@@ -36,14 +58,8 @@
  *                   compiler.classUnloading.methodUnloading.TestMethodUnloading
  */
 
-package compiler.classUnloading.methodUnloading;
 
-import sun.hotspot.WhiteBox;
 
-import java.lang.reflect.Method;
-import java.net.URL;
-import java.net.URLClassLoader;
-import compiler.whitebox.CompilerWhiteBoxTest;
 
 public class TestMethodUnloading {
     private static final String workerClassName = "compiler.classUnloading.methodUnloading.WorkerClass";

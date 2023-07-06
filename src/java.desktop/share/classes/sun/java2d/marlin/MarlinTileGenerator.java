@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.marlin;
+package java.desktop.share.classes.sun.java2d.marlin;
 
-import java.util.Arrays;
-import sun.java2d.pipe.AATileGenerator;
+
+import java.base.share.classes.java.util.Arrays;
+import java.desktop.share.classes.sun.java2d.pipe.AATileGenerator;
 import jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class MarlinTileGenerator implements AATileGenerator, MarlinConst {
 

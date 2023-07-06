@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.sql;
+package java.sql.share.classes.javax.sql;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An {@code Event} object generated when an event occurs to a

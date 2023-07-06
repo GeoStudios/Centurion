@@ -18,24 +18,38 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.jfr.internal.consumer;
 
-import java.io.IOException;
+package jdk.jfr.share.classes.jdk.jfr.internal.consumer;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.io.Writer;
 import java.util.HashSet;
 import java.util.Set;
+import jdk.jfr.share.classes.jdk.jfr.EventType;
+import jdk.jfr.share.classes.jdk.jfr.FlightRecorder;
+import jdk.jfr.share.classes.jdk.jfr.consumer.EventStream;
+import jdk.jfr.share.classes.jdk.jfr.consumer.RecordedEvent;
+import jdk.jfr.share.classes.jdk.jfr.internal.LogLevel;
+import jdk.jfr.share.classes.jdk.jfr.internal.LogTag;
+import jdk.jfr.share.classes.jdk.jfr.internal.Logger;
+import jdk.jfr.share.classes.jdk.jfr.internal.PlatformEventType;
+import jdk.jfr.share.classes.jdk.jfr.internal.PrivateAccess;
+import jdk.jfr.share.classes.jdk.jfr.internal.tool.PrettyWriter;
 
-import jdk.jfr.EventType;
-import jdk.jfr.FlightRecorder;
-import jdk.jfr.consumer.EventStream;
-import jdk.jfr.consumer.RecordedEvent;
-import jdk.jfr.internal.LogLevel;
-import jdk.jfr.internal.LogTag;
-import jdk.jfr.internal.Logger;
-import jdk.jfr.internal.PlatformEventType;
-import jdk.jfr.internal.PrivateAccess;
-import jdk.jfr.internal.tool.PrettyWriter;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public final class EventLog {

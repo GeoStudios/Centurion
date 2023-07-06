@@ -19,14 +19,15 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.tools.jmod;
+package jdk.jlink.share.classes.jdk.tools.jmod;
+
 
 import java.io.BufferedOutputStream;
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.io.UncheckedIOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -36,9 +37,22 @@ import java.util.Map;
 import java.util.Set;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
-import jdk.internal.jmod.JmodFile;
+import jdk.jlink.share.classes.jdk.internal.jmod.JmodFile;
+import static jdk.jlink.share.classes.jdk.internal.jmod.JmodFile.*;.extended
 
-import static jdk.internal.jmod.JmodFile.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Output stream to write to JMOD file

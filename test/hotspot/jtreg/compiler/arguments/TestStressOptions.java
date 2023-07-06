@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.arguments;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8252219 8256535
@@ -43,7 +60,6 @@
  *      compiler.arguments.TestStressOptions
  */
 
-package compiler.arguments;
 
 public class TestStressOptions {
 

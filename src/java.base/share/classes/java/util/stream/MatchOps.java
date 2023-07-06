@@ -18,15 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.util.stream;
 
-import java.util.Objects;
-import java.util.Spliterator;
-import java.util.function.DoublePredicate;
-import java.util.function.IntPredicate;
-import java.util.function.LongPredicate;
-import java.util.function.Predicate;
-import java.util.function.Supplier;
+package java.base.share.classes.java.util.stream;
+
+
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Spliterator;
+import java.base.share.classes.java.util.function.DoublePredicate;
+import java.base.share.classes.java.util.function.IntPredicate;
+import java.base.share.classes.java.util.function.LongPredicate;
+import java.base.share.classes.java.util.function.Predicate;
+import java.base.share.classes.java.util.function.Supplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Factory for instances of a short-circuiting {@code TerminalOp} that implement

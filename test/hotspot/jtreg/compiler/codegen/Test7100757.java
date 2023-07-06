@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codegen;
+
+
+import jdk.test.lib.Utils;
+import java.util.BitSet;
+import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @key randomness
@@ -31,12 +51,8 @@
  * @run main/timeout=300 compiler.codegen.Test7100757
  */
 
-package compiler.codegen;
 
-import jdk.test.lib.Utils;
 
-import java.util.BitSet;
-import java.util.Random;
 
 public class Test7100757 {
 

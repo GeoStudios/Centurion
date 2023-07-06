@@ -19,16 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/**
- * @test
- * @bug 8148838
- */
-
 package org.openjdk.tests.java.util.stream;
 
-import java.util.Arrays;
+
+import java.base.share.classes.java.util.Arrays;
 import java.util.Comparator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Spliterator;
 import java.util.SpliteratorTestHelper;
 import java.util.function.Consumer;
@@ -49,18 +45,38 @@ import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 import java.util.stream.StreamTestDataProvider;
 import java.util.stream.TestData;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import static java.util.stream.LambdaTestHelpers.countTo;.extended
+import static java.util.stream.LambdaTestHelpers.dpEven;.extended
+import static java.util.stream.LambdaTestHelpers.ipEven;.extended
+import static java.util.stream.LambdaTestHelpers.irDoubler;.extended
+import static java.util.stream.LambdaTestHelpers.lpEven;.extended
+import static java.util.stream.LambdaTestHelpers.mDoubler;.extended
+import static java.util.stream.LambdaTestHelpers.pEven;.extended
+import static java.util.stream.LambdaTestHelpers.permuteStreamFunctions;.extended
 
-import static java.util.stream.LambdaTestHelpers.countTo;
-import static java.util.stream.LambdaTestHelpers.dpEven;
-import static java.util.stream.LambdaTestHelpers.ipEven;
-import static java.util.stream.LambdaTestHelpers.irDoubler;
-import static java.util.stream.LambdaTestHelpers.lpEven;
-import static java.util.stream.LambdaTestHelpers.mDoubler;
-import static java.util.stream.LambdaTestHelpers.pEven;
-import static java.util.stream.LambdaTestHelpers.permuteStreamFunctions;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * @test
+ * @bug 8148838
+ */
+
+
+
+
 
 @Test
 public class StreamSpliteratorTest extends OpTestCase {

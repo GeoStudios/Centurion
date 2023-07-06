@@ -19,14 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
 
 
 import java.awt.*;
 import java.awt.dnd.*;
 import java.awt.event.*;
+import java.desktop.macosx.classes.sun.awt.dnd.SunDragSourceContextPeer;
 
-import sun.awt.dnd.SunDragSourceContextPeer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // JDK implementation class
 class CMouseDragGestureRecognizer extends MouseDragGestureRecognizer {

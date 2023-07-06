@@ -21,7 +21,21 @@
 
 package pkg2;
 
+
 import pkg.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ClassUseTest2 <T extends ParamTest<Foo3>> {
 

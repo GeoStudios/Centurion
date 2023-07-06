@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jpackage.main;
+package jdk.jpackage.share.classes.jdk.jpackage.main;
 
-import jdk.jpackage.internal.Arguments;
-import jdk.jpackage.internal.Log;
-import jdk.jpackage.internal.CLIHelp;
+
+import jdk.jpackage.share.classes.jdk.jpackage.internal.Arguments;
+import jdk.jpackage.share.classes.jdk.jpackage.internal.Log;
+import jdk.jpackage.share.classes.jdk.jpackage.internal.CLIHelp;
 import java.io.PrintWriter;
 import java.util.ResourceBundle;
 import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.text.MessageFormat;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Main {
 

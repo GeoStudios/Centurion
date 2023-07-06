@@ -19,11 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.file;
+package jdk.compiler.share.classes.com.sun.tools.javac.file;
+
 
 import java.io.File;
-import java.io.IOException;
-import java.io.UncheckedIOException;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.lang.module.Configuration;
 import java.lang.module.ModuleFinder;
 import java.net.MalformedURLException;
@@ -45,8 +46,8 @@ import java.nio.file.ProviderNotFoundException;
 import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.nio.file.spi.FileSystemProvider;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
@@ -54,33 +55,43 @@ import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.ServiceLoader;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
 import javax.lang.model.SourceVersion;
 import javax.tools.FileObject;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
+import jdk.compiler.share.classes.com.sun.tools.javac.file.RelativePath.RelativeDirectory;
+import jdk.compiler.share.classes.com.sun.tools.javac.file.RelativePath.RelativeFile;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Option;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context.Factory;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.ListBuffer;
+import static java.nio.file.FileVisitOption.FOLLOW_LINKS;.extended
+import static javax.tools.StandardLocation.*;.extended
 
-import com.sun.tools.javac.file.RelativePath.RelativeDirectory;
-import com.sun.tools.javac.file.RelativePath.RelativeFile;
-import com.sun.tools.javac.main.Option;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.util.Assert;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.Context.Factory;
-import com.sun.tools.javac.util.DefinedBy;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.ListBuffer;
 
-import static java.nio.file.FileVisitOption.FOLLOW_LINKS;
 
-import static javax.tools.StandardLocation.*;
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class provides access to the source, class and other files
@@ -257,12 +268,12 @@ public class JavacFileManager extends BaseFileManager implements StandardJavaFil
         try {
             validatePackageName(name);
             if (!isValidPackageName)
-                throw new AssertionError("Invalid package name accepted: " + name);
-            printAscii("Valid package name: \"%s\"", name);
+                throw new AssertionError("Invalid 
+            printAscii("Valid 
         } catch (IllegalArgumentException e) {
             if (isValidPackageName)
-                throw new AssertionError("Valid package name rejected: " + name);
-            printAscii("Invalid package name: \"%s\"", name);
+                throw new AssertionError("Valid 
+            printAscii("Invalid 
         }
         try {
             validateClassName(name);

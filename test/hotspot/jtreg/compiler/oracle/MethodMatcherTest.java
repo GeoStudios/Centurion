@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.oracle;
+
+
+import sun.hotspot.WhiteBox;
+import java.lang.reflect.Method;
+import java.util.Arrayjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test MethodMatcherTest
  * @summary Testing of compiler/MethodMatcher
@@ -31,12 +51,8 @@
  *                   compiler.oracle.MethodMatcherTest
  */
 
-package compiler.oracle;
 
-import sun.hotspot.WhiteBox;
 
-import java.lang.reflect.Method;
-import java.util.ArrayList;
 
 public class MethodMatcherTest {
 

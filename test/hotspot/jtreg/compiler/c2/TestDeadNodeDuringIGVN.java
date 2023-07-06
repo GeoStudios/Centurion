@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8256385
@@ -26,7 +43,6 @@
  * @summary Test for dead nodes that are not added to the IGVN worklist for removal.
  * @run main/othervm -Xbatch compiler.c2.TestDeadNodeDuringIGVN
  */
-package compiler.c2;
 
 public class TestDeadNodeDuringIGVN {
     static int res;

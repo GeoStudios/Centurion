@@ -19,16 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver;
+
+
+import java.util.Collections;
+import java.util.Map;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Attr;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.utils.resolver;
 
-import java.util.Collections;
-import java.util.Map;
 
-import org.w3c.dom.Attr;
+
 
 public class ResourceResolverContext {
 

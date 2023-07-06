@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.rangechecks;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestRangeCheckEliminationDisabled
  * @bug 8154763
@@ -28,7 +45,6 @@
  *                   compiler.rangechecks.TestRangeCheckEliminationDisabled
  */
 
-package compiler.rangechecks;
 
 public class TestRangeCheckEliminationDisabled {
 

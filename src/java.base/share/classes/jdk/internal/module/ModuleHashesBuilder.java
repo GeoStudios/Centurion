@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.module;
+package java.base.share.classes.jdk.internal.module;
+
 
 import java.io.PrintStream;
 import java.lang.module.Configuration;
@@ -35,7 +36,21 @@ import java.util.Map;
 import java.util.Set;
 import java.util.function.Consumer;
 import java.util.stream.Stream;
-import static java.util.stream.Collectors.*;
+import static java.util.stream.Collectors.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Builder to compute ModuleHashes from a given configuration

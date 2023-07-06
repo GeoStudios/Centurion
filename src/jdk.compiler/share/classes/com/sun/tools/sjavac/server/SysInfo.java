@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.compiler.share.classes.com.sun.tools.sjavac.server;
+
+
+import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A utility class used to report information about the system
  * where the javac server is running.
@@ -28,9 +47,8 @@
  * risk.  This code and its internal interfaces are subject to change
  * or deletion without notice.</b></p>
  */
-package com.sun.tools.sjavac.server;
 
-import java.io.Serializable;
+
 
 /**
  *  <p><b>This is NOT part of any supported API.

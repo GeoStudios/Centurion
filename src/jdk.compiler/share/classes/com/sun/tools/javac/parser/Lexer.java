@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.parser;
+package jdk.compiler.share.classes.com.sun.tools.javac.parser;
 
-import com.sun.tools.javac.parser.Tokens.*;
-import com.sun.tools.javac.util.Position.LineMap;
+
+import jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Position.LineMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The lexical analyzer maps an input stream consisting of ASCII

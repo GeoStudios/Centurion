@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt;
+package java.desktop.macosx.classes.sun.lwawt;
+
 
 import java.awt.Graphics;
 import java.awt.Insets;
@@ -28,11 +29,24 @@ import java.awt.Rectangle;
 import java.awt.Window;
 import java.awt.dnd.DropTarget;
 import java.awt.event.FocusEvent;
+import java.desktop.macosx.classes.sun.awt.LightweightFrame;
+import java.desktop.macosx.classes.sun.awt.OverrideNativeWindowHandle;
+import java.desktop.macosx.classes.sun.swing.JLightweightFrame;
+import java.desktop.macosx.classes.sun.swing.SwingAccessor;
 
-import sun.awt.LightweightFrame;
-import sun.awt.OverrideNativeWindowHandle;
-import sun.swing.JLightweightFrame;
-import sun.swing.SwingAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class LWLightweightFramePeer extends LWWindowPeer implements OverrideNativeWindowHandle {
 

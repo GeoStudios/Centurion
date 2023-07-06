@@ -19,10 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.windows.classes.sun.print;
 
-import java.util.ArrayList;
 
+import java.util.Arrayjava.util.java.util.java.util.List;
 import javax.print.DocFlavor;
 import javax.print.MultiDocPrintService;
 import javax.print.PrintService;
@@ -36,6 +36,20 @@ import javax.print.attribute.PrintRequestAttributeSet;
 import javax.print.attribute.PrintServiceAttribute;
 import javax.print.attribute.PrintServiceAttributeSet;
 import javax.print.attribute.standard.PrinterName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("removal")
 public class PrintServiceLookupProvider extends PrintServiceLookup {

@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.awt.X11;
+
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -30,8 +32,22 @@ import java.awt.Insets;
 import java.awt.MenuBar;
 import java.awt.Rectangle;
 import java.awt.peer.FramePeer;
-import sun.util.logging.PlatformLogger;
-import sun.awt.AWTAccessor;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+import java.desktop.unix.classes.sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class XFramePeer extends XDecoratedPeer implements FramePeer {
     private static final PlatformLogger log = PlatformLogger.getLogger("sun.awt.X11.XFramePeer");

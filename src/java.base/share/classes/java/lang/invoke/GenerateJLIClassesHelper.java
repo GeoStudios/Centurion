@@ -19,24 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
+
 
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.Opcodes;
 import sun.invoke.util.Wrapper;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.HashSet;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Set;
+import java.base.share.classes.java.util.TreeMap;
+import java.base.share.classes.java.util.TreeSet;
+import java.base.share.classes.java.util.stream.Stream;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodTypeForm.*;.extended
+import static java.base.share.classes.java.lang.invoke.LambdaForm.Kind.*;.extended
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Set;
-import java.util.TreeMap;
-import java.util.TreeSet;
-import java.util.stream.Stream;
 
-import static java.lang.invoke.LambdaForm.BasicType.*;
-import static java.lang.invoke.MethodTypeForm.*;
-import static java.lang.invoke.LambdaForm.Kind.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper class to assist the GenerateJLIClassesPlugin to get access to

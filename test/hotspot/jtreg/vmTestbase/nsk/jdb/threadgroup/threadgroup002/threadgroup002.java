@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdb.threadgroup.threadgroup002;
+
+
+import nsk.share.*;
+import nsk.share.jdb.*;
+import java.io.*;
+import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -51,13 +71,8 @@
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
 
-package nsk.jdb.threadgroup.threadgroup002;
 
-import nsk.share.*;
-import nsk.share.jdb.*;
 
-import java.io.*;
-import java.util.*;
 
 public class threadgroup002 extends JdbTest {
 

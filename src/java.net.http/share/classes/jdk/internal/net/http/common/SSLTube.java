@@ -19,11 +19,12 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http.common;
+package java.net.http.share.classes.jdk.internal.net.http.common;
+
 
 import java.nio.ByteBuffer;
-import java.util.List;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Flow;
@@ -33,9 +34,23 @@ import javax.net.ssl.SSLEngine;
 import javax.net.ssl.SSLException;
 import javax.net.ssl.SSLHandshakeException;
 import javax.net.ssl.SSLEngineResult.HandshakeStatus;
-import jdk.internal.net.http.common.SubscriberWrapper.SchedulingAction;
-import static javax.net.ssl.SSLEngineResult.HandshakeStatus.NOT_HANDSHAKING;
-import static javax.net.ssl.SSLEngineResult.HandshakeStatus.FINISHED;
+import java.net.http.share.classes.jdk.internal.net.http.common.SubscriberWrapper.SchedulingAction;
+import static javax.net.ssl.SSLEngineResult.HandshakeStatus.NOT_HANDSHAKING;.extended
+import static javax.net.ssl.SSLEngineResult.HandshakeStatus.FINISHED;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of FlowTube that wraps another FlowTube in an

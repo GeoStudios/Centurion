@@ -19,20 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.image.BufferedImage;
-import java.awt.image.Raster;
-import java.awt.image.WritableRaster;
-import java.awt.image.ColorModel;
-import java.awt.image.DirectColorModel;
-import java.awt.image.IndexColorModel;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.NoninvertibleTransformException;
-import java.lang.ref.WeakReference;
+
+import java.desktop.share.classes.java.awt.image.BufferedImage;
+import java.desktop.share.classes.java.awt.image.Raster;
+import java.desktop.share.classes.java.awt.image.WritableRaster;
+import java.desktop.share.classes.java.awt.image.ColorModel;
+import java.desktop.share.classes.java.awt.image.DirectColorModel;
+import java.desktop.share.classes.java.awt.image.IndexColorModel;
+import java.desktop.share.classes.java.awt.geom.AffineTransform;
+import java.desktop.share.classes.java.awt.geom.NoninvertibleTransformException;
+import java.desktop.share.classes.java.lang.ref.WeakReference;
 import sun.awt.image.SunWritableRaster;
 import sun.awt.image.IntegerInterleavedRaster;
 import sun.awt.image.ByteInterleavedRaster;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class TexturePaintContext implements PaintContext {
     public static ColorModel xrgbmodel =

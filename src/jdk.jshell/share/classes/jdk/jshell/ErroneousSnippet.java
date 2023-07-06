@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jshell;
+package jdk.jshell.share.classes.jdk.jshell;
 
-import jdk.jshell.Key.ErroneousKey;
+
+import jdk.jshell.share.classes.jdk.jshell.Key.ErroneousKey;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A snippet of code that is not valid Java programming language code.

@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xpath.internal.jaxp;
+package java.xml.share.classes.com.sun.org.apache.xpath.internal.jaxp;
+
 
 import java.util.Iterator;
 import javax.xml.xpath.XPathException;
 import javax.xml.xpath.XPathNodes;
 import javax.xml.xpath.XPathEvaluationResult.XPathResultType;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements XPathNodes that represents a set of nodes selected by

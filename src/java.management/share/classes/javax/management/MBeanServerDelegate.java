@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management;
+package java.management.share.classes.javax.management;
+
 
 import java.lang.System.Logger.Level;
 import com.sun.jmx.defaults.JmxProperties;
 import com.sun.jmx.defaults.ServiceName;
 import com.sun.jmx.mbeanserver.Util;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents  the MBean server from the management point of view.

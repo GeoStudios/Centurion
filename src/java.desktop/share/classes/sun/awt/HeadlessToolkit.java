@@ -19,14 +19,15 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.share.classes.sun.awt;
+
 
 import java.awt.*;
 import java.awt.datatransfer.Clipboard;
-import java.awt.dnd.DragGestureListener;
+import java.awt.dnd.DragGesturejava.util.Listener;
 import java.awt.dnd.DragGestureRecognizer;
 import java.awt.dnd.DragSource;
-import java.awt.event.AWTEventListener;
+import java.awt.event.AWTEventjava.util.Listener;
 import java.awt.event.InputEvent;
 import java.awt.font.TextAttribute;
 import java.awt.im.InputMethodHighlight;
@@ -37,10 +38,24 @@ import java.awt.peer.FontPeer;
 import java.awt.peer.KeyboardFocusManagerPeer;
 import java.awt.peer.SystemTrayPeer;
 import java.awt.peer.TrayIconPeer;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.net.URL;
 import java.util.Map;
 import java.util.Properties;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class HeadlessToolkit extends Toolkit
     implements ComponentFactory, KeyboardFocusManagerPeerProvider {

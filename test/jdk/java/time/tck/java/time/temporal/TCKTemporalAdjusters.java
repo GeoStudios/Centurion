@@ -21,24 +21,36 @@
 
 package tck.java.time.temporal;
 
-import static java.time.DayOfWeek.MONDAY;
-import static java.time.DayOfWeek.TUESDAY;
-import static java.time.Month.DECEMBER;
-import static java.time.Month.JANUARY;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertNotNull;
-import static org.testng.Assert.assertSame;
-import static org.testng.Assert.assertTrue;
 
+import static java.time.DayOfWeek.MONDAY;.extended
+import static java.time.DayOfWeek.TUESDAY;.extended
+import static java.time.Month.DECEMBER;.extended
+import static java.time.Month.JANUARY;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertFalse;.extended
+import static org.testng.Assert.assertNotNull;.extended
+import static org.testng.Assert.assertSame;.extended
+import static org.testng.Assert.assertTrue;.extended
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.Month;
 import java.time.temporal.TemporalAdjuster;
 import java.time.temporal.TemporalAdjusters;
-
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test TemporalAdjusters.

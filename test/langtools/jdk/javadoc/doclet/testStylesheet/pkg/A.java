@@ -21,6 +21,21 @@
 
 package pkg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Test comment for a class which has an <a name="named_anchor">anchor_with_name</a> and
  * an <a id="named_anchor1">anchor_with_id</a>.

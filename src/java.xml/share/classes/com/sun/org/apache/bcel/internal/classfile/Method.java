@@ -19,19 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
+
+
+import java.io.DataInput;
+import java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.util.Objects;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Type;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.BCELComparator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.bcel.internal.classfile;
 
-import java.io.DataInput;
-import java.io.IOException;
-import java.util.Objects;
 
-import com.sun.org.apache.bcel.internal.Const;
-import com.sun.org.apache.bcel.internal.generic.Type;
-import com.sun.org.apache.bcel.internal.util.BCELComparator;
+
 
 /**
  * This class represents the method info structure, i.e., the representation

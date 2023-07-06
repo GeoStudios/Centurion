@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.memory.UniThread.Linear1;
+
+
+import nsk.share.test.*;
+import nsk.share.gc.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -32,10 +50,7 @@
  * @run main/othervm gc.memory.UniThread.Linear1.Linear1 -iterations 5
  */
 
-package gc.memory.UniThread.Linear1;
 
-import nsk.share.test.*;
-import nsk.share.gc.*;
 
 /**
  * Test GC collection of linked lists.

@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf;
+package java.desktop.share.classes.javax.swing.plaf;
+
 
 import java.awt.Insets;
-import javax.swing.JMenuBar;
+import java.desktop.share.classes.javax.swing.JMenuBar;
+import java.desktop.share.classes.javax.swing.JMenu;
 
-import javax.swing.JMenu;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Pluggable look and feel interface for JMenuBar.
  *

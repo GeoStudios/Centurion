@@ -19,19 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
 
-import java.util.Arrays;
 
-import java.security.*;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.java.security.*;
 import java.security.spec.AlgorithmParameterSpec;
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
+import java.base.share.classes.javax.crypto.*;
+import java.base.share.classes.javax.crypto.spec.SecretKeySpec;
+import java.base.share.classes.com.sun.security.internal.spec.TlsPrfParameterSpec;
 
-import static java.nio.charset.StandardCharsets.UTF_8;
 
-import javax.crypto.*;
-import javax.crypto.spec.SecretKeySpec;
 
-import sun.security.internal.spec.TlsPrfParameterSpec;
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * KeyGenerator implementation for the TLS PRF function.

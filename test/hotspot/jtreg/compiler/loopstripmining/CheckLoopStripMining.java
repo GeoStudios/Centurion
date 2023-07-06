@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopstripmining;
+
+
+import jdk.test.lib.Utils;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8220374 8241492
@@ -29,10 +48,7 @@
  * @run driver compiler.loopstripmining.CheckLoopStripMining
  */
 
-package compiler.loopstripmining;
 
-import jdk.test.lib.Utils;
-import jdk.test.lib.process.ProcessTools;
 
 public class CheckLoopStripMining {
     public static void main(String args[]) throws Exception {

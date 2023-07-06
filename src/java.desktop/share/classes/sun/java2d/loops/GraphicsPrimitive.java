@@ -19,10 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- */
+package java.desktop.share.classes.sun.java2d.loops;
 
-package sun.java2d.loops;
 
 import java.awt.AlphaComposite;
 import java.awt.Rectangle;
@@ -37,12 +35,32 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.StringTokenizer;
+import java.desktop.share.classes.sun.awt.image.BufImgSurfaceData;
+import java.desktop.share.classes.sun.awt.util.ThreadGroupUtils;
+import java.desktop.share.classes.sun.java2d.SurfaceData;
+import java.desktop.share.classes.sun.java2d.pipe.Region;
+import java.desktop.share.classes.sun.security.action.GetPropertyAction;
 
-import sun.awt.image.BufImgSurfaceData;
-import sun.awt.util.ThreadGroupUtils;
-import sun.java2d.SurfaceData;
-import sun.java2d.pipe.Region;
-import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ */
+
+
+
+
 
 /**
  * defines interface for primitives which can be placed into

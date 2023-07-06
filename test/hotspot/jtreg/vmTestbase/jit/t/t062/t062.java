@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.t.t062;
+
+
+import nsk.share.TestFailure;
+import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,10 +49,7 @@
  * @run main/othervm jit.t.t062.t062
  */
 
-package jit.t.t062;
 
-import nsk.share.TestFailure;
-import nsk.share.GoldChecker;
 
 // Like t058.java except in this case the class with all the fields and
 // stuff is loaded before the client class, so no patching is required.

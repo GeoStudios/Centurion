@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.swing;
+
+package java.desktop.share.classes.sun.swing;
+
 
 import javax.swing.*;
 import java.awt.*;
@@ -32,6 +34,20 @@ import java.awt.print.PrinterJob;
 import java.text.MessageFormat;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.lang.reflect.InvocationTargetException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code PrintingStatus} provides a dialog that displays progress

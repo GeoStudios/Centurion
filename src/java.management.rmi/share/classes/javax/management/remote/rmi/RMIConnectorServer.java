@@ -19,39 +19,49 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.remote.rmi;
+package java.management.rmi.share.classes.javax.management.remote.rmi;
 
 
 import com.sun.jmx.remote.security.MBeanServerFileAccessController;
 import com.sun.jmx.remote.util.ClassLogger;
 import com.sun.jmx.remote.util.EnvHelp;
-
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputFilter;
 import java.io.ObjectOutputStream;
 import java.net.MalformedURLException;
-import java.rmi.server.RMIClientSocketFactory;
-import java.rmi.server.RMIServerSocketFactory;
+import java.rmi.server.RMIClientjava.net.SocketFactory;
+import java.rmi.server.RMIjava.net.ServerSocketFactory;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Hashtable;
 import java.util.Map;
 import java.util.Set;
+import java.management.rmi.share.classes.javax.management.InstanceNotFoundException;
+import java.management.rmi.share.classes.javax.management.MBeanServer;
+import java.management.rmi.share.classes.javax.management.remote.JMXAuthenticator;
+import java.management.rmi.share.classes.javax.management.remote.JMXConnectionNotification;
+import java.management.rmi.share.classes.javax.management.remote.JMXConnector;
+import java.management.rmi.share.classes.javax.management.remote.JMXConnectorServer;
+import java.management.rmi.share.classes.javax.management.remote.JMXServiceURL;
+import java.management.rmi.share.classes.javax.management.remote.MBeanServerForwarder;
+import java.management.rmi.share.classes.javax.naming.InitialContext;
+import java.management.rmi.share.classes.javax.naming.NamingException;
 
-import javax.management.InstanceNotFoundException;
-import javax.management.MBeanServer;
-import javax.management.remote.JMXAuthenticator;
 
-import javax.management.remote.JMXConnectionNotification;
-import javax.management.remote.JMXConnector;
-import javax.management.remote.JMXConnectorServer;
-import javax.management.remote.JMXServiceURL;
-import javax.management.remote.MBeanServerForwarder;
 
-import javax.naming.InitialContext;
-import javax.naming.NamingException;
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>A JMX API connector server that creates RMI-based connections

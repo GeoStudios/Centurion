@@ -21,10 +21,55 @@
 
 package build.tools.icondata.awt;
 
-import java.io.*;
-import java.awt.image.*;
-import javax.imageio.*;
-import java.awt.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ToBin {
     public static void main(String[] args) throws Exception {

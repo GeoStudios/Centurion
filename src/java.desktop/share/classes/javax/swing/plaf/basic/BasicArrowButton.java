@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.plaf.basic;
+
+package java.desktop.share.classes.javax.swing.plaf.basic;
+
 
 import java.awt.Dimension;
 import java.awt.Graphics;
@@ -26,10 +28,23 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Path2D;
-
-import javax.swing.*;
-import javax.swing.plaf.UIResource;
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.plaf.UIResource;
 import sun.swing.SwingUtilities2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * JButton object that draws a scaled Arrow in one of the cardinal directions.

@@ -21,7 +21,21 @@
 
 package nsk.jvmti.GetFieldDeclaringClass;
 
+
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class getfldecl001 {
     final static int exit_delta = 95;

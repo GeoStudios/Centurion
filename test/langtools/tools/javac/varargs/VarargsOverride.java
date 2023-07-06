@@ -21,6 +21,21 @@
 
 package varargs.override;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class A {
     void f(Object[] o) {}
 }

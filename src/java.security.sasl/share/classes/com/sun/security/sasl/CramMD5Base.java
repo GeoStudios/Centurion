@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.security.sasl;
+package java.security.sasl.share.classes.com.sun.security.sasl;
+
 
 import javax.security.sasl.SaslException;
 import javax.security.sasl.Sasl;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.security.MessageDigest;
+import java.base.share.classes.java.util.Arrays;
+import java.util.logging.Logger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // For HMAC_MD5
-import java.security.NoSuchAlgorithmException;
-import java.security.MessageDigest;
 
-import java.util.Arrays;
-import java.util.logging.Logger;
 
 /**
  * Base class for implementing CRAM-MD5 client and server mechanisms.

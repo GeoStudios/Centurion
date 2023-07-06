@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.font;
+package java.desktop.share.classes.java.awt.font;
 
-import java.io.IOException;
-import java.io.ObjectOutputStream;
-import java.io.Serial;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.EnumSet;
-import java.util.Set;
 
-import jdk.internal.access.SharedSecrets;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.ObjectOutputStream;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.desktop.share.classes.java.util.Comparator;
+import java.desktop.share.classes.java.util.EnumSet;
+import java.desktop.share.classes.java.util.Set;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code NumericShaper} class is used to convert Latin-1 (European)

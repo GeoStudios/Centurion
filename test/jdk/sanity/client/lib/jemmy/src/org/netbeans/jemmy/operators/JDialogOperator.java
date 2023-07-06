@@ -18,25 +18,38 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.operators;
+
 
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Dialog;
 import java.awt.Window;
-
 import javax.accessibility.AccessibleContext;
 import javax.swing.JDialog;
 import javax.swing.JLayeredPane;
 import javax.swing.JMenuBar;
 import javax.swing.JRootPane;
-
 import org.netbeans.jemmy.ComponentChooser;
 import org.netbeans.jemmy.DialogWaiter;
 import org.netbeans.jemmy.JemmyProperties;
 import org.netbeans.jemmy.TestOut;
 import org.netbeans.jemmy.TimeoutExpiredException;
 import org.netbeans.jemmy.Timeouts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <BR><BR>Timeouts used: <BR>

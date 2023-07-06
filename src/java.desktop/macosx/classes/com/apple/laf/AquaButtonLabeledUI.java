@@ -19,23 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
-
 import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.plaf.UIResource;
 import javax.swing.plaf.basic.BasicHTML;
 import javax.swing.text.View;
+import java.desktop.macosx.classes.com.apple.laf.*;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.*;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIState.ValueState;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtilControlSize.*;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
 
-import apple.laf.*;
-import apple.laf.JRSUIConstants.*;
-import apple.laf.JRSUIState.ValueState;
 
-import com.apple.laf.AquaUtilControlSize.*;
-import com.apple.laf.AquaUtils.RecyclableSingleton;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class AquaButtonLabeledUI extends AquaButtonToggleUI implements Sizeable {
     private static final RecyclableSizingIcon regularIcon = new RecyclableSizingIcon(18);

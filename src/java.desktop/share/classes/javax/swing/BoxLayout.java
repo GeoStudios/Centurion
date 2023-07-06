@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.share.classes.javax.swing;
 
-package javax.swing;
 
 import java.awt.*;
 import java.beans.ConstructorProperties;
 import java.io.Serializable;
 import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A layout manager that allows multiple components to be laid out either

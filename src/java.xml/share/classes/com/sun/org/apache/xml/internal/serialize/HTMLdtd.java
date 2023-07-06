@@ -19,21 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-// Aug 21, 2000:
-//   Fixed bug in isElement and made HTMLdtd public.
-//   Contributed by Eric SCHAEFFER" <eschaeffer@posterconseil.com>
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serialize;
 
 
-package com.sun.org.apache.xml.internal.serialize;
-
-import com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Aug 21, 2000:
+//   Fixed bug in isElement and made HTMLdtd public.
+//   Contributed by Eric SCHAEFFER" <eschaeffer@posterconseil.com>
+
+
+
+
 
 
 /**

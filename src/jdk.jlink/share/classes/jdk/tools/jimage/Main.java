@@ -19,9 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.tools.jimage;
+package jdk.jlink.share.classes.jdk.tools.jimage;
+
 
 import java.io.PrintWriter;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class Main {

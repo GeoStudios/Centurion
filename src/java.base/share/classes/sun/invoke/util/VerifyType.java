@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.invoke.util;
+package java.base.share.classes.sun.invoke.util;
+
 
 import java.lang.invoke.MethodType;
-import sun.invoke.empty.Empty;
+import java.base.share.classes.sun.invoke.empty.Empty;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class centralizes information about the JVM verifier

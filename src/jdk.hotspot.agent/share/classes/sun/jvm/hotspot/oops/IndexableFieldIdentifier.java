@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.oops;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
-import sun.jvm.hotspot.*;
-import sun.jvm.hotspot.types.*;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // An IndexableFieldIdentifier describes a field in an Oop accessed by an index
 

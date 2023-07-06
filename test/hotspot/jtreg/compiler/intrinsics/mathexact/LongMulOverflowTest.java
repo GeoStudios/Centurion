@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.mathexact;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8191915
@@ -30,7 +47,6 @@
  * @run main/othervm -Xcomp -XX:-TieredCompilation compiler.intrinsics.mathexact.LongMulOverflowTest
  */
 
-package compiler.intrinsics.mathexact;
 
 public class LongMulOverflowTest {
     public static void main(String[] args) {

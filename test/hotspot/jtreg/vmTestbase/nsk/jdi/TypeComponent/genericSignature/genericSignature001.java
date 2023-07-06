@@ -21,13 +21,26 @@
 
 package nsk.jdi.TypeComponent.genericSignature;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The test for the TypeComponent.genericSignature() method.           <BR>

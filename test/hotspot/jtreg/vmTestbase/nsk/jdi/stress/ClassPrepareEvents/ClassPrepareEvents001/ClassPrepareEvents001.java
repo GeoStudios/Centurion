@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.stress.ClassPrepareEvents.ClassPrepareEvents001;
+
+
+import java.io.*;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import nsk.share.*;
+import nsk.share.jdi.*;
+import nsk.share.jpda.AbstractDebuggeeTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress
@@ -47,13 +69,7 @@
  *      -testClassPath ${test.class.path}
  */
 
-package nsk.jdi.stress.ClassPrepareEvents.ClassPrepareEvents001;
 
-import java.io.*;
-import java.util.ArrayList;
-import nsk.share.*;
-import nsk.share.jdi.*;
-import nsk.share.jpda.AbstractDebuggeeTest;
 
 public class ClassPrepareEvents001 extends TestDebuggerType2 {
     public static void main(String argv[]) {

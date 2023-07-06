@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javap;
+package jdk.jdeps.share.classes.com.sun.tools.javap;
 
-import com.sun.tools.classfile.Code_attribute;
-import com.sun.tools.classfile.Code_attribute.Exception_data;
-import com.sun.tools.classfile.Instruction;
-import java.util.ArrayList;
+
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Code_attribute;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Code_attribute.Exception_data;
+import jdk.jdeps.share.classes.com.sun.tools.classfile.Instruction;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.java.util.java.util.java.util.List;
+import java.util.java.util.ListIterator;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Annotate instructions with details about try blocks.

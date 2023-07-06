@@ -19,8 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.management.share.classes.javax.management.remote;
 
-package javax.management.remote;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Implemented by objects that can have a {@code JMXServiceURL} address.

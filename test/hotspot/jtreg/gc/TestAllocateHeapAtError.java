@@ -21,6 +21,25 @@
 
 package gc;
 
+
+import java.io.File;
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.process.OutputAnalyzer;
+import java.util.UUID;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test TestAllocateHeapAtError.java
  * @summary Test to check correct handling of non-existent directory passed to AllocateHeapAt option
  * @requires vm.gc != "Z" & os.family != "aix"
@@ -29,10 +48,6 @@ package gc;
  * @run driver gc.TestAllocateHeapAtError
  */
 
-import java.io.File;
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.process.OutputAnalyzer;
-import java.util.UUID;
 
 public class TestAllocateHeapAtError {
   public static void main(String args[]) throws Exception {

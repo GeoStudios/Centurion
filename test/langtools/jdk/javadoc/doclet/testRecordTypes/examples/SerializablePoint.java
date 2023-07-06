@@ -21,7 +21,21 @@
 
 package examples;
 
+
 import java.io.Serializable;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A serializable cartesian point.

@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.sql;
+package java.sql.share.classes.java.sql;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The mapping in the Java programming language for the SQL type

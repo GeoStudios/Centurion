@@ -19,14 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.share.classes.sun.java2d.loops;
+
+
+import java.util.Comparator;
+import java.base.share.classes.java.util.Arrays;
+import java.desktop.share.classes.sun.java2d.SunGraphics2D;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  */
 
-package sun.java2d.loops;
 
-import java.util.Comparator;
-import java.util.Arrays;
-import sun.java2d.SunGraphics2D;
+
 
 /**
  *   GraphicsComponentMgr provides services to

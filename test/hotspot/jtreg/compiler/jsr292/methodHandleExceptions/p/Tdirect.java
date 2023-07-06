@@ -21,6 +21,21 @@
 
 package p;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Invokes I.m directly using invokeInterface bytecodes.
  */

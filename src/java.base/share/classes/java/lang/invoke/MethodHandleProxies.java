@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
-import java.lang.reflect.*;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
+
+import java.base.share.classes.java.lang.reflect.*;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.PrivilegedAction;
 import sun.invoke.WrapperInstance;
-import java.util.ArrayList;
-import java.util.concurrent.ConcurrentHashMap;
-
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
 import jdk.internal.reflect.CallerSensitive;
 import jdk.internal.reflect.Reflection;
 import sun.reflect.misc.ReflectUtil;
-import static java.lang.invoke.MethodHandleStatics.*;
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class consists exclusively of static methods that help adapt

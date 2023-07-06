@@ -19,6 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci.compilerToVM;
+
+
+import jdk.test.lib.Asserts;
+import jdk.vm.ci.hotspot.CompilerToVMHelper;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import java.math.BigInteger;
+import java.base.share.classes.java.util.Arrays;
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8173912
@@ -34,17 +60,7 @@
  *                  compiler.jvmci.compilerToVM.GetFlagValueTest
  */
 
-package compiler.jvmci.compilerToVM;
 
-import jdk.test.lib.Asserts;
-import jdk.vm.ci.hotspot.CompilerToVMHelper;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import java.math.BigInteger;
-import java.util.Arrays;
-import java.util.regex.Pattern;
-import java.util.regex.Matcher;
-import sun.hotspot.WhiteBox;
 
 public class GetFlagValueTest {
     public static void main(String[] args) throws Exception {

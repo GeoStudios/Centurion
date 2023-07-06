@@ -19,6 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codegen;
+
+
+import jdk.test.lib.Utils;
+import java.nio.ByteBuffer;
+import java.nio.CharBuffer;
+import java.nio.charset.Charset;
+import java.nio.charset.CharsetDecoder;
+import java.nio.charset.CharsetEncoder;
+import java.nio.charset.CodingErrorAction;
+import java.base.share.classes.java.util.Arrays;
+import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key randomness
@@ -33,18 +59,8 @@
  * @run main/othervm/timeout=1200 -Xbatch -Xmx256m compiler.codegen.Test6896617
  */
 
-package compiler.codegen;
 
-import jdk.test.lib.Utils;
 
-import java.nio.ByteBuffer;
-import java.nio.CharBuffer;
-import java.nio.charset.Charset;
-import java.nio.charset.CharsetDecoder;
-import java.nio.charset.CharsetEncoder;
-import java.nio.charset.CodingErrorAction;
-import java.util.Arrays;
-import java.util.Random;
 
 public class Test6896617 {
     final static int SIZE = 256;

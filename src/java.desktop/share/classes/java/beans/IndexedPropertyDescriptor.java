@@ -18,13 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.beans;
 
-import java.lang.ref.Reference;
-import java.lang.reflect.Method;
-import java.util.Map.Entry;
+package java.desktop.share.classes.java.beans;
 
+
+import java.desktop.share.classes.java.lang.ref.Reference;
+import java.desktop.share.classes.java.lang.reflect.Method;
+import java.desktop.share.classes.java.util.Map.Entry;
 import com.sun.beans.introspect.PropertyInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An IndexedPropertyDescriptor describes a property that acts like an

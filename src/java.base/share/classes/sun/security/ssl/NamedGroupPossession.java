@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.security.PrivateKey;
-import java.security.PublicKey;
+
+import java.base.share.classes.java.security.PrivateKey;
+import java.base.share.classes.java.security.PublicKey;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 interface NamedGroupPossession extends SSLPossession {
 

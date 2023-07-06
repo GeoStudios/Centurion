@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap;
+package java.naming.share.classes.com.sun.jndi.ldap;
+
 
 import java.io.OutputStream;
 import javax.naming.InterruptedNamingException;
 import javax.naming.CommunicationException;
 import javax.naming.NamingException;
+import java.naming.share.classes.com.sun.jndi.ldap.pool.PoolCallback;
+import java.naming.share.classes.com.sun.jndi.ldap.pool.PooledConnection;
+import java.naming.share.classes.com.sun.jndi.ldap.pool.PooledConnectionFactory;
 
-import com.sun.jndi.ldap.pool.PoolCallback;
-import com.sun.jndi.ldap.pool.PooledConnection;
-import com.sun.jndi.ldap.pool.PooledConnectionFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Creates an LdapClient. Encapsulates the parameters required to create

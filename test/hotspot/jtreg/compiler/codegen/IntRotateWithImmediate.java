@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codegen;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8080190
@@ -29,7 +46,6 @@
  * @author volker.simonis@gmail.com
  */
 
-package compiler.codegen;
 
 public class IntRotateWithImmediate {
 

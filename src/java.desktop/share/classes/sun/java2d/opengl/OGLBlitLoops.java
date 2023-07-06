@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.opengl;
+package java.desktop.share.classes.sun.java2d.opengl;
+
 
 import java.awt.AlphaComposite;
 import java.awt.Composite;
@@ -29,19 +30,33 @@ import java.awt.image.AffineTransformOp;
 import java.awt.image.BufferedImage;
 import java.awt.image.BufferedImageOp;
 import java.lang.ref.WeakReference;
-import sun.java2d.SurfaceData;
-import sun.java2d.loops.Blit;
-import sun.java2d.loops.CompositeType;
-import sun.java2d.loops.GraphicsPrimitive;
-import sun.java2d.loops.GraphicsPrimitiveMgr;
-import sun.java2d.loops.ScaledBlit;
-import sun.java2d.loops.SurfaceType;
-import sun.java2d.loops.TransformBlit;
-import sun.java2d.pipe.Region;
-import sun.java2d.pipe.RenderBuffer;
-import sun.java2d.pipe.RenderQueue;
-import static sun.java2d.pipe.BufferedOpCodes.*;
+import java.desktop.share.classes.sun.java2d.SurfaceData;
+import java.desktop.share.classes.sun.java2d.loops.Blit;
+import java.desktop.share.classes.sun.java2d.loops.CompositeType;
+import java.desktop.share.classes.sun.java2d.loops.GraphicsPrimitive;
+import java.desktop.share.classes.sun.java2d.loops.GraphicsPrimitiveMgr;
+import java.desktop.share.classes.sun.java2d.loops.ScaledBlit;
+import java.desktop.share.classes.sun.java2d.loops.SurfaceType;
+import java.desktop.share.classes.sun.java2d.loops.TransformBlit;
+import java.desktop.share.classes.sun.java2d.pipe.Region;
+import java.desktop.share.classes.sun.java2d.pipe.RenderBuffer;
+import java.desktop.share.classes.sun.java2d.pipe.RenderQueue;
+import static java.desktop.share.classes.sun.java2d.pipe.BufferedOpCodes.*;.extended
 import java.lang.annotation.Native;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class OGLBlitLoops {
 

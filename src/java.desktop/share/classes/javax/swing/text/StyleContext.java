@@ -19,13 +19,14 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.text;
+package java.desktop.share.classes.javax.swing.text;
+
 
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.FontMetrics;
 import java.awt.Toolkit;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InvalidObjectException;
 import java.io.NotSerializableException;
 import java.io.ObjectInputStream;
@@ -33,22 +34,34 @@ import java.io.ObjectOutputStream;
 import java.io.Serial;
 import java.io.Serializable;
 import java.lang.ref.WeakReference;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.Enumeration;
-import java.util.EventListener;
+import java.util.Eventjava.util.Listener;
 import java.util.Hashtable;
 import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.Vector;
 import java.util.WeakHashMap;
-
-import javax.swing.SwingUtilities;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-import javax.swing.event.EventListenerList;
-
+import java.desktop.share.classes.javax.swing.SwingUtilities;
+import java.desktop.share.classes.javax.swing.event.ChangeEvent;
+import java.desktop.share.classes.javax.swing.event.Changejava.util.Listener;
+import java.desktop.share.classes.javax.swing.event.Eventjava.util.Listenerjava.util.java.util.java.util.List;
 import sun.font.FontUtilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A pool of styles and their associated resources.  This class determines

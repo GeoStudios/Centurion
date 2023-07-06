@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.logger;
+package java.base.share.classes.jdk.internal.logger;
+
 
 import java.security.AccessControlContext;
 import java.security.AccessController;
@@ -36,17 +37,31 @@ import java.lang.System.LoggerFinder;
 import java.lang.System.Logger;
 import java.lang.System.Logger.Level;
 import java.lang.ref.WeakReference;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
-import jdk.internal.misc.InnocuousThread;
-import jdk.internal.misc.VM;
+import java.base.share.classes.jdk.internal.misc.InnocuousThread;
+import java.base.share.classes.jdk.internal.misc.VM;
 import sun.util.logging.PlatformLogger;
-import jdk.internal.logger.LazyLoggers.LazyLoggerAccessor;
+import java.base.share.classes.jdk.internal.logger.LazyLoggers.LazyLoggerAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The BootstrapLogger class handles all the logic needed by Lazy Loggers

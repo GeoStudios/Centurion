@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.code;
+package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
 
-import com.sun.tools.javac.code.Attribute.TypeCompound;
-import com.sun.tools.javac.code.Kinds.Kind;
-import com.sun.tools.javac.util.Assert;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.ListBuffer;
-import com.sun.tools.javac.util.Pair;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Attribute.TypeCompound;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.ListBuffer;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Pair;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Container for all annotations (attributes in javac) on a Symbol.

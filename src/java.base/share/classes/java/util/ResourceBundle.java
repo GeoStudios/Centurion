@@ -19,43 +19,55 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.UncheckedIOException;
-import java.lang.ref.Reference;
-import java.lang.ref.ReferenceQueue;
-import java.lang.ref.SoftReference;
-import java.lang.ref.WeakReference;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Modifier;
-import java.net.JarURLConnection;
-import java.net.URL;
-import java.net.URLConnection;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.security.PrivilegedActionException;
-import java.security.PrivilegedExceptionAction;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
-import java.util.jar.JarEntry;
-import java.util.spi.ResourceBundleControlProvider;
-import java.util.spi.ResourceBundleProvider;
-import java.util.stream.Stream;
 
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.InputStream;
+import java.base.share.classes.java.io.Uncheckedjava.io.java.io.java.io.IOException;
+import java.base.share.classes.java.lang.ref.Reference;
+import java.base.share.classes.java.lang.ref.ReferenceQueue;
+import java.base.share.classes.java.lang.ref.SoftReference;
+import java.base.share.classes.java.lang.ref.WeakReference;
+import java.base.share.classes.java.lang.reflect.Constructor;
+import java.base.share.classes.java.lang.reflect.InvocationTargetException;
+import java.base.share.classes.java.lang.reflect.Modifier;
+import java.base.share.classes.java.net.JarURLConnection;
+import java.base.share.classes.java.net.URL;
+import java.base.share.classes.java.net.URLConnection;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.PrivilegedAction;
+import java.base.share.classes.java.security.PrivilegedActionException;
+import java.base.share.classes.java.security.PrivilegedExceptionAction;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.concurrent.ConcurrentMap;
+import java.base.share.classes.java.util.jar.JarEntry;
+import java.base.share.classes.java.util.spi.ResourceBundleControlProvider;
+import java.base.share.classes.java.util.spi.ResourceBundleProvider;
+import java.base.share.classes.java.util.stream.Stream;
 import jdk.internal.loader.BootLoader;
 import jdk.internal.access.JavaUtilResourceBundleAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.reflect.CallerSensitive;
 import jdk.internal.reflect.Reflection;
 import sun.security.action.GetPropertyAction;
 import sun.util.locale.BaseLocale;
 import sun.util.locale.LocaleObjectCache;
 import sun.util.resources.Bundles;
+import static sun.security.util.SecurityConstants.GET_CLASSLOADER_PERMISSION;.extended
 
-import static sun.security.util.SecurityConstants.GET_CLASSLOADER_PERMISSION;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**
@@ -2385,8 +2397,8 @@ public abstract class ResourceBundle {
      * up only properties-based resources.
      *
      * <pre>
-     * import java.util.*;
-     * import static java.util.ResourceBundle.Control.*;
+     * import java.base.share.classes.java.util.*;
+     * import static java.base.share.classes.java.util.ResourceBundle.Control.*;
      * ...
      * ResourceBundle bundle =
      *   ResourceBundle.getBundle("MyResources", new Locale("fr", "CH"),

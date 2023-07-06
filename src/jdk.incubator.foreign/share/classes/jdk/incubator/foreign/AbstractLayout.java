@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.incubator.foreign;
+
+package jdk.incubator.foreign.share.classes.jdk.incubator.foreign;
+
 
 import java.lang.constant.ClassDesc;
 import java.lang.constant.Constable;
@@ -32,16 +34,29 @@ import java.nio.ByteOrder;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.util.OptionalLong;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import static java.lang.constant.ConstantDescs.BSM_GET_STATIC_FINAL;.extended
+import static java.lang.constant.ConstantDescs.BSM_INVOKE;.extended
+import static java.lang.constant.ConstantDescs.CD_String;.extended
+import static java.lang.constant.ConstantDescs.CD_long;.extended
 
-import static java.lang.constant.ConstantDescs.BSM_GET_STATIC_FINAL;
-import static java.lang.constant.ConstantDescs.BSM_INVOKE;
-import static java.lang.constant.ConstantDescs.CD_String;
-import static java.lang.constant.ConstantDescs.CD_long;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract non-sealed class AbstractLayout implements MemoryLayout {
 

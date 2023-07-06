@@ -18,12 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang.invoke;
+
+package java.base.share.classes.java.lang.invoke;
+
 
 import sun.invoke.util.Wrapper;
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.mapLookupExceptionToError;.extended
+import static java.base.share.classes.java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
 
-import static java.lang.invoke.MethodHandleNatives.mapLookupExceptionToError;
-import static java.util.Objects.requireNonNull;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Bootstrap methods for dynamically-computed constants.

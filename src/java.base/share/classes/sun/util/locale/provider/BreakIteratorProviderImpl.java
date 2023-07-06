@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.util.locale.provider;
+package java.base.share.classes.sun.util.locale.provider;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.text.BreakIterator;
 import java.text.spi.BreakIteratorProvider;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.MissingResourceException;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
-import sun.text.DictionaryBasedBreakIterator;
-import sun.text.RuleBasedBreakIterator;
+import java.base.share.classes.sun.text.DictionaryBasedBreakIterator;
+import java.base.share.classes.sun.text.RuleBasedBreakIterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Concrete implementation of the  {@link java.text.spi.BreakIteratorProvider

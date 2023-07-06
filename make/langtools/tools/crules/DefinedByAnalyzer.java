@@ -21,10 +21,10 @@
 
 package crules;
 
-import java.util.Arrays;
+
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
-
 import com.sun.source.util.JavacTask;
 import com.sun.source.util.TaskEvent.Kind;
 import com.sun.tools.javac.code.Symbol;
@@ -34,6 +34,19 @@ import com.sun.tools.javac.tree.JCTree.JCMethodDecl;
 import com.sun.tools.javac.tree.TreeScanner;
 import com.sun.tools.javac.util.DefinedBy;
 import com.sun.tools.javac.util.DefinedBy.Api;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**This analyzer ensures that all method that implement a public supported API method are marked with
  * {@link DefinedBy} annotation, and that methods that don't implement a public API are not marked

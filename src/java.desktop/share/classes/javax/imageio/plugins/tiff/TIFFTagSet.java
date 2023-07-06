@@ -18,16 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.imageio.plugins.tiff;
+
+package java.desktop.share.classes.javax.imageio.plugins.tiff;
+
 
 import java.util.Collections;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.util.SortedMap;
 import java.util.SortedSet;
 import java.util.TreeMap;
 import java.util.TreeSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class representing a set of TIFF tags.  Each tag in the set must have

@@ -19,13 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package com.sun.org.apache.xml.internal.security.signature;
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
@@ -33,33 +30,54 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms.Algorithm;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms.MessageDigestAlgorithm;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.CanonicalizationException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.reference.ReferenceData;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.reference.ReferenceNodeSetData;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.reference.ReferenceOctetStreamData;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.reference.ReferenceSubTreeData;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.InvalidTransformException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.Transform;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.TransformationException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.Transforms;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.transforms.params.InclusiveNamespaces;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.Constants;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.DigesterOutputStream;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.SignatureElementProxy;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.UnsyncBufferedOutputStream;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.XMLUtils;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver.ResourceResolver;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver.ResourceResolverContext;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver.ResourceResolverException;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Attr;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Text;
 
-import com.sun.org.apache.xml.internal.security.algorithms.Algorithm;
-import com.sun.org.apache.xml.internal.security.algorithms.MessageDigestAlgorithm;
-import com.sun.org.apache.xml.internal.security.c14n.CanonicalizationException;
-import com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
-import com.sun.org.apache.xml.internal.security.signature.reference.ReferenceData;
-import com.sun.org.apache.xml.internal.security.signature.reference.ReferenceNodeSetData;
-import com.sun.org.apache.xml.internal.security.signature.reference.ReferenceOctetStreamData;
-import com.sun.org.apache.xml.internal.security.signature.reference.ReferenceSubTreeData;
-import com.sun.org.apache.xml.internal.security.transforms.InvalidTransformException;
-import com.sun.org.apache.xml.internal.security.transforms.Transform;
-import com.sun.org.apache.xml.internal.security.transforms.TransformationException;
-import com.sun.org.apache.xml.internal.security.transforms.Transforms;
-import com.sun.org.apache.xml.internal.security.transforms.params.InclusiveNamespaces;
-import com.sun.org.apache.xml.internal.security.utils.Constants;
-import com.sun.org.apache.xml.internal.security.utils.DigesterOutputStream;
-import com.sun.org.apache.xml.internal.security.utils.SignatureElementProxy;
-import com.sun.org.apache.xml.internal.security.utils.UnsyncBufferedOutputStream;
-import com.sun.org.apache.xml.internal.security.utils.XMLUtils;
-import com.sun.org.apache.xml.internal.security.utils.resolver.ResourceResolver;
-import com.sun.org.apache.xml.internal.security.utils.resolver.ResourceResolverContext;
-import com.sun.org.apache.xml.internal.security.utils.resolver.ResourceResolverException;
-import org.w3c.dom.Attr;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.Text;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
 
 /**
  * Handles {@code &lt;ds:Reference&gt;} elements.

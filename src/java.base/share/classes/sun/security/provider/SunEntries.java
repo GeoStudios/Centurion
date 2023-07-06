@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.provider;
+package java.base.share.classes.sun.security.provider;
+
 
 import java.io.*;
 import java.net.*;
 import java.util.*;
-import java.security.*;
-
+import java.base.share.classes.java.security.*;
 import jdk.internal.util.StaticProperty;
-import sun.security.action.GetPropertyAction;
-import sun.security.util.SecurityProviderConstants;
-import static sun.security.util.SecurityProviderConstants.getAliases;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.security.util.SecurityProviderConstants;
+import static java.base.share.classes.sun.security.util.SecurityProviderConstants.getAliases;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines the entries of the SUN provider.

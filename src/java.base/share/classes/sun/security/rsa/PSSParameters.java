@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.rsa;
+package java.base.share.classes.sun.security.rsa;
+
 
 import java.io.*;
-import sun.security.util.*;
-import sun.security.x509.*;
+import java.base.share.classes.sun.security.util.*;
+import java.base.share.classes.sun.security.x509.*;
 import java.security.AlgorithmParametersSpi;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.InvalidParameterSpecException;
 import java.security.spec.MGF1ParameterSpec;
 import java.security.spec.PSSParameterSpec;
-import static java.security.spec.PSSParameterSpec.DEFAULT;
+import static java.security.spec.PSSParameterSpec.DEFAULT;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements the PSS parameters used with the RSA

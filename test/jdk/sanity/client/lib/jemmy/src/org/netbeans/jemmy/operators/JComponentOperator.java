@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.operators;
+
 
 import java.awt.Component;
 import java.awt.Container;
@@ -27,11 +29,10 @@ import java.awt.Insets;
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.Window;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.event.MouseEvent;
-import java.beans.VetoableChangeListener;
+import java.beans.VetoableChangejava.util.Listener;
 import java.util.Hashtable;
-
 import javax.accessibility.AccessibleContext;
 import javax.swing.JComponent;
 import javax.swing.JInternalFrame;
@@ -39,8 +40,7 @@ import javax.swing.JRootPane;
 import javax.swing.JToolTip;
 import javax.swing.KeyStroke;
 import javax.swing.border.Border;
-import javax.swing.event.AncestorListener;
-
+import javax.swing.event.Ancestorjava.util.Listener;
 import org.netbeans.jemmy.ComponentChooser;
 import org.netbeans.jemmy.ComponentSearcher;
 import org.netbeans.jemmy.Outputable;
@@ -48,6 +48,19 @@ import org.netbeans.jemmy.TestOut;
 import org.netbeans.jemmy.TimeoutExpiredException;
 import org.netbeans.jemmy.Timeoutable;
 import org.netbeans.jemmy.Timeouts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <BR><BR>Timeouts used: <BR>

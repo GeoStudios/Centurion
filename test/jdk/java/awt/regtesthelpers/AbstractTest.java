@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.awt.regtesthelpers;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * <p>This is the base class for automatic main tests.
  * <p>When using jtreg you would include this class into
@@ -35,7 +52,6 @@
  * into the java source.
  */
 
-package test.java.awt.regtesthelpers;
 
 public abstract class AbstractTest
 {

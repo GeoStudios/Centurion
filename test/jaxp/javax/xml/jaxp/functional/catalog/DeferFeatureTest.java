@@ -21,25 +21,36 @@
 
 package catalog;
 
-import static catalog.CatalogTestUtils.DEFER_FALSE;
-import static catalog.CatalogTestUtils.DEFER_TRUE;
-import static catalog.CatalogTestUtils.getCatalogPath;
-import static javax.xml.catalog.CatalogFeatures.Feature.DEFER;
-import static jaxp.library.JAXPTestUtilities.runWithAllPerm;
-import static jaxp.library.JAXPTestUtilities.tryRunWithAllPerm;
 
+import static catalog.CatalogTestUtils.DEFER_FALSE;.extended
+import static catalog.CatalogTestUtils.DEFER_TRUE;.extended
+import static catalog.CatalogTestUtils.getCatalogPath;.extended
+import static javax.xml.catalog.CatalogFeatures.Feature.DEFER;.extended
+import static jaxp.library.JAXPTestUtilities.runWithAllPerm;.extended
+import static jaxp.library.JAXPTestUtilities.tryRunWithAllPerm;.extended
 import java.lang.reflect.Method;
-
 import javax.xml.catalog.Catalog;
 import javax.xml.catalog.CatalogException;
 import javax.xml.catalog.CatalogFeatures;
 import javax.xml.catalog.CatalogManager;
 import javax.xml.catalog.CatalogResolver;
-
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

@@ -19,6 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.dynalink.share.classes.jdk.dynalink.beans;
+
+
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Iterator;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+import jdk.dynalink.share.classes.jdk.dynalink.SecureLookupSupplier;
+import jdk.dynalink.share.classes.jdk.dynalink.internal.InternalTypeUtilities;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkerServices;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.support.Lookup;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -26,20 +56,8 @@
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-package jdk.dynalink.beans;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodType;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
-import jdk.dynalink.SecureLookupSupplier;
-import jdk.dynalink.internal.InternalTypeUtilities;
-import jdk.dynalink.linker.LinkerServices;
-import jdk.dynalink.linker.support.Lookup;
+
 
 /**
  * Represents a subset of overloaded methods for a certain method name on a certain class. It can be either a fixarg or

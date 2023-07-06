@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.vectorization;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8155612
@@ -27,7 +44,6 @@
  * @run main/othervm -XX:-BackgroundCompilation compiler.vectorization.TestVectorUnalignedOffset
  */
 
-package compiler.vectorization;
 
 public class TestVectorUnalignedOffset {
 

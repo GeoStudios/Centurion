@@ -19,19 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.runtime;
+package java.base.share.classes.java.lang.runtime;
 
-import java.lang.invoke.CallSite;
-import java.lang.invoke.ConstantBootstraps;
-import java.lang.invoke.ConstantCallSite;
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodType;
-import java.util.stream.Stream;
 
+import java.base.share.classes.java.lang.invoke.CallSite;
+import java.base.share.classes.java.lang.invoke.ConstantBootstraps;
+import java.base.share.classes.java.lang.invoke.ConstantCallSite;
+import java.base.share.classes.java.lang.invoke.MethodHandle;
+import java.base.share.classes.java.lang.invoke.MethodHandles;
+import java.base.share.classes.java.lang.invoke.MethodType;
+import java.base.share.classes.java.util.stream.Stream;
 import jdk.internal.javac.PreviewFeature;
+import static java.base.share.classes.java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
 
-import static java.util.Objects.requireNonNull;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Bootstrap methods for linking {@code invokedynamic} call sites that implement

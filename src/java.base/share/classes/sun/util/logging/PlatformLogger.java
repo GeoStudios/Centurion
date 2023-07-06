@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.sun.util.logging;
 
-package sun.util.logging;
 
 import java.lang.ref.WeakReference;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.ResourceBundle;
 import java.util.function.Supplier;
 import jdk.internal.logger.LazyLoggers;
 import jdk.internal.logger.LoggerWrapper;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Platform logger provides an API for the JRE components to log

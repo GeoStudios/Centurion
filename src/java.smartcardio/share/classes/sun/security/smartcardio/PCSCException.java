@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.smartcardio;
+package java.smartcardio.share.classes.sun.security.smartcardio;
 
-import static sun.security.smartcardio.PCSC.*;
+
+import static java.smartcardio.share.classes.sun.security.smartcardio.PCSC.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Exception for PC/SC errors. The native code portion checks the return value

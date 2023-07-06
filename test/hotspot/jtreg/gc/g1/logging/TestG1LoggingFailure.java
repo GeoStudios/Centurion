@@ -19,7 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
- /*
+package gc.g1.logging;
+
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Collections;
+import java.util.java.util.java.util.java.util.List;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
  * @test TestG1LoggingFailure
  * @bug 8151034
  * @summary Regression test for G1 logging at OOME
@@ -29,14 +52,7 @@
  * @build gc.g1.logging.TestG1LoggingFailure
  * @run main/timeout=300 gc.g1.logging.TestG1LoggingFailure
  */
-package gc.g1.logging;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.Utils;
 
 public class TestG1LoggingFailure {
 

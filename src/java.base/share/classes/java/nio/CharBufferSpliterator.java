@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.nio;
+package java.base.share.classes.java.nio;
 
-import java.util.Comparator;
-import java.util.Spliterator;
-import java.util.function.IntConsumer;
+
+import java.base.share.classes.java.util.Comparator;
+import java.base.share.classes.java.util.Spliterator;
+import java.base.share.classes.java.util.function.IntConsumer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A Spliterator.OfInt for sources that traverse and split elements

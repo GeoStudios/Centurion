@@ -18,22 +18,36 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.tools.attach;
+
+package jdk.attach.share.classes.sun.tools.attach;
+
 
 import com.sun.tools.attach.VirtualMachineDescriptor;
 import com.sun.tools.attach.AttachPermission;
 import com.sun.tools.attach.AttachNotSupportedException;
 import com.sun.tools.attach.spi.AttachProvider;
-
-import java.util.List;
-import java.util.ArrayList;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Set;
+import jdk.attach.share.classes.sun.jvmstat.monitor.HostIdentifier;
+import jdk.attach.share.classes.sun.jvmstat.monitor.MonitoredHost;
+import jdk.attach.share.classes.sun.jvmstat.monitor.MonitoredVm;
+import jdk.attach.share.classes.sun.jvmstat.monitor.MonitoredVmUtil;
+import jdk.attach.share.classes.sun.jvmstat.monitor.VmIdentifier;
 
-import sun.jvmstat.monitor.HostIdentifier;
-import sun.jvmstat.monitor.MonitoredHost;
-import sun.jvmstat.monitor.MonitoredVm;
-import sun.jvmstat.monitor.MonitoredVmUtil;
-import sun.jvmstat.monitor.VmIdentifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Platform specific provider implementations extend this

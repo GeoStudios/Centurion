@@ -21,14 +21,27 @@
 
 package selectionresolution;
 
-import java.util.ArrayList;
-import java.util.Iterator;
 
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_ABSTRACT;
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PUBLIC;
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PRIVATE;
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PROTECTED;
-import static jdk.internal.org.objectweb.asm.Opcodes.ACC_STATIC;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Iterator;
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_ABSTRACT;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PUBLIC;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PRIVATE;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PROTECTED;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.ACC_STATIC;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Constructs classes and interfaces based on the information from a

@@ -19,12 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.rmi.server;
-import java.rmi.*;
-import java.io.ObjectOutput;
-import java.io.ObjectInput;
-import java.io.StreamCorruptedException;
-import java.io.IOException;
+package java.rmi.share.classes.java.rmi.server;
+
+
+import java.rmi.share.classes.java.rmi.*;
+import java.rmi.share.classes.java.io.ObjectOutput;
+import java.rmi.share.classes.java.io.ObjectInput;
+import java.rmi.share.classes.java.io.StreamCorruptedException;
+import java.rmi.share.classes.java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>RemoteCall</code> is an abstraction used solely by the RMI runtime

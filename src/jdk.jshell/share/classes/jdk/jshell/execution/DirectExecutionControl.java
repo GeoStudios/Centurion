@@ -18,15 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.jshell.execution;
+
+package jdk.jshell.share.classes.jdk.jshell.execution;
+
 
 import java.lang.reflect.Array;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.stream.IntStream;
-import jdk.jshell.spi.ExecutionControl;
-import jdk.jshell.spi.SPIResolutionException;
+import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionControl;
+import jdk.jshell.share.classes.jdk.jshell.spi.SPIResolutionException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An {@link ExecutionControl} implementation that runs in the current process.

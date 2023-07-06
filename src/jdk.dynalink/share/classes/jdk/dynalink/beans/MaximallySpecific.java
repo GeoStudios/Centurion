@@ -19,6 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.dynalink.share.classes.jdk.dynalink.beans;
+
+
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodType;
+import java.util.Iterator;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.util.function.Function;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.ConversionComparator.Comparison;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkerServices;
+import jdk.dynalink.share.classes.jdk.dynalink.linker.support.TypeUtilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -26,17 +53,8 @@
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-package jdk.dynalink.beans;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodType;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.function.Function;
-import jdk.dynalink.linker.ConversionComparator.Comparison;
-import jdk.dynalink.linker.LinkerServices;
-import jdk.dynalink.linker.support.TypeUtilities;
+
 
 /**
  * Utility class that encapsulates the algorithm for choosing the maximally specific methods.

@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.image;
+package java.desktop.share.classes.sun.awt.image;
+
 
 import java.io.*;
 import java.util.*;
 import java.util.zip.*;
 import java.awt.image.*;
 import java.awt.Color;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** PNG - Portable Network Graphics - image file reader.
     See <a href=http://www.ietf.org/rfc/rfc2083.txt>RFC2083</a> for details. */

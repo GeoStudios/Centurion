@@ -21,14 +21,28 @@
 
 package selectionresolution;
 
+
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.EnumSet;
 import java.util.HashSet;
-import java.util.LinkedList;
+import java.util.Linkedjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Templates are sets of transformations that are applied to a

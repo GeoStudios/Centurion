@@ -19,35 +19,48 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
-import jdk.internal.access.SharedSecrets;
+
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.loader.BootLoader;
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.FieldVisitor;
 import jdk.internal.org.objectweb.asm.MethodVisitor;
 import jdk.internal.vm.annotation.Stable;
 import sun.invoke.util.BytecodeName;
+import java.base.share.classes.java.lang.reflect.Constructor;
+import java.base.share.classes.java.lang.reflect.Field;
+import java.base.share.classes.java.lang.reflect.Modifier;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.PrivilegedAction;
+import java.base.share.classes.java.security.ProtectionDomain;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Collections;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.function.Function;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.REF_getStatic;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.REF_putStatic;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;.extended
+import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
-import java.lang.reflect.Modifier;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.security.ProtectionDomain;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Objects;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.function.Function;
 
-import static java.lang.invoke.LambdaForm.*;
-import static java.lang.invoke.MethodHandleNatives.Constants.REF_getStatic;
-import static java.lang.invoke.MethodHandleNatives.Constants.REF_putStatic;
-import static java.lang.invoke.MethodHandleStatics.*;
-import static java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class specialization code.

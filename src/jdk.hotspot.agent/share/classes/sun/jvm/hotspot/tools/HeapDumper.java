@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.tools;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools;
 
-import sun.jvm.hotspot.utilities.HeapHprofBinWriter;
-import sun.jvm.hotspot.debugger.JVMDebugger;
 
-import java.io.IOException;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.HeapHprofBinWriter;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.JVMDebugger;
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This tool is used by the JDK jmap utility to dump the heap of the target

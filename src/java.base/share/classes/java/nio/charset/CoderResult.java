@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.nio.charset;
+package java.base.share.classes.java.nio.charset;
 
-import java.nio.BufferOverflowException;
-import java.nio.BufferUnderflowException;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.Map;
+
+import java.base.share.classes.java.nio.BufferOverflowException;
+import java.base.share.classes.java.nio.BufferUnderflowException;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A description of the result state of a coder.

@@ -19,20 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.windows;
+package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
+
 
 import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.plaf.*;
 import javax.swing.plaf.basic.*;
+import java.desktop.windows.classes.com.sun.java.awt.Component;
+import java.desktop.windows.classes.com.sun.java.awt.Insets;
+import java.desktop.windows.classes.com.sun.java.awt.Color;
+import java.desktop.windows.classes.com.sun.java.awt.Graphics;
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.*;.extended
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.Skin;.extended
 
-import java.awt.Component;
-import java.awt.Insets;
-import java.awt.Color;
-import java.awt.Graphics;
 
-import static com.sun.java.swing.plaf.windows.TMSchema.*;
-import static com.sun.java.swing.plaf.windows.XPStyle.Skin;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Factory object that can vend Borders appropriate for the Windows 95 {@literal L & F}.

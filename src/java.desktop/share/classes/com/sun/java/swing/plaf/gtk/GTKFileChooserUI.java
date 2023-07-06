@@ -19,53 +19,53 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.gtk;
+package java.desktop.share.classes.com.sun.java.swing.plaf.gtk;
 
-import java.awt.AWTKeyStroke;
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.GridLayout;
-import java.awt.Insets;
-import java.awt.KeyboardFocusManager;
-import java.awt.event.ActionEvent;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import java.io.File;
-import java.io.IOException;
-import java.text.MessageFormat;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.HashSet;
-import java.util.Locale;
-import java.util.Set;
-import java.util.Vector;
 
+import java.desktop.share.classes.com.sun.java.awt.AWTKeyStroke;
+import java.desktop.share.classes.com.sun.java.awt.BorderLayout;
+import java.desktop.share.classes.com.sun.java.awt.Component;
+import java.desktop.share.classes.com.sun.java.awt.Container;
+import java.desktop.share.classes.com.sun.java.awt.Dimension;
+import java.desktop.share.classes.com.sun.java.awt.FlowLayout;
+import java.desktop.share.classes.com.sun.java.awt.GridBagConstraints;
+import java.desktop.share.classes.com.sun.java.awt.GridBagLayout;
+import java.desktop.share.classes.com.sun.java.awt.GridLayout;
+import java.desktop.share.classes.com.sun.java.awt.Insets;
+import java.desktop.share.classes.com.sun.java.awt.KeyboardFocusManager;
+import java.desktop.share.classes.com.sun.java.awt.event.ActionEvent;
+import java.desktop.share.classes.com.sun.java.awt.event.KeyEvent;
+import java.desktop.share.classes.com.sun.java.awt.event.MouseAdapter;
+import java.desktop.share.classes.com.sun.java.awt.event.MouseEvent;
+import java.desktop.share.classes.com.sun.java.awt.event.Mousejava.util.Listener;
+import java.desktop.share.classes.com.sun.java.beans.PropertyChangeEvent;
+import java.desktop.share.classes.com.sun.java.beans.PropertyChangejava.util.Listener;
+import java.desktop.share.classes.com.sun.java.io.File;
+import java.desktop.share.classes.com.sun.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.com.sun.java.text.MessageFormat;
+import java.desktop.share.classes.com.sun.java.util.Arrayjava.util.java.util.java.util.List;
+import java.desktop.share.classes.com.sun.java.util.Comparator;
+import java.desktop.share.classes.com.sun.java.util.HashSet;
+import java.desktop.share.classes.com.sun.java.util.Locale;
+import java.desktop.share.classes.com.sun.java.util.Set;
+import java.desktop.share.classes.com.sun.java.util.Vector;
 import javax.accessibility.AccessibleContext;
 import javax.swing.AbstractAction;
-import javax.swing.AbstractListModel;
+import javax.swing.Abstractjava.util.ListModel;
 import javax.swing.Action;
 import javax.swing.ActionMap;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.ComboBoxModel;
-import javax.swing.DefaultListCellRenderer;
-import javax.swing.DefaultListSelectionModel;
+import javax.swing.Defaultjava.util.ListCellRenderer;
+import javax.swing.Defaultjava.util.ListSelectionModel;
 import javax.swing.Icon;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JComponent;
 import javax.swing.JFileChooser;
 import javax.swing.JLabel;
-import javax.swing.JList;
+import javax.swing.Jjava.util.java.util.java.util.List;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JRootPane;
@@ -73,15 +73,15 @@ import javax.swing.JScrollPane;
 import javax.swing.JSplitPane;
 import javax.swing.JTextField;
 import javax.swing.KeyStroke;
-import javax.swing.ListSelectionModel;
+import javax.swing.java.util.ListSelectionModel;
 import javax.swing.SwingUtilities;
 import javax.swing.TransferHandler;
 import javax.swing.UIManager;
 import javax.swing.border.EmptyBorder;
-import javax.swing.event.ListDataEvent;
-import javax.swing.event.ListDataListener;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
+import javax.swing.event.java.util.ListDataEvent;
+import javax.swing.event.java.util.ListDatajava.util.Listener;
+import javax.swing.event.java.util.ListSelectionEvent;
+import javax.swing.event.java.util.ListSelectionjava.util.Listener;
 import javax.swing.filechooser.FileFilter;
 import javax.swing.filechooser.FileSystemView;
 import javax.swing.filechooser.FileView;
@@ -90,11 +90,24 @@ import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicDirectoryModel;
 import javax.swing.table.JTableHeader;
 import javax.swing.table.TableCellRenderer;
+import java.desktop.share.classes.com.sun.awt.shell.ShellFolder;
+import java.desktop.share.classes.com.sun.swing.FilePane;
+import java.desktop.share.classes.com.sun.swing.SwingUtilities2;
+import java.desktop.share.classes.com.sun.swing.plaf.synth.SynthFileChooserUI;
 
-import sun.awt.shell.ShellFolder;
-import sun.swing.FilePane;
-import sun.swing.SwingUtilities2;
-import sun.swing.plaf.synth.SynthFileChooserUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * GTK FileChooserUI.

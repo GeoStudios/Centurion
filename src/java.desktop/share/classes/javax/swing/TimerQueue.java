@@ -19,10 +19,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-
-
-package javax.swing;
-
+package java.desktop.share.classes.javax.swing;
 
 
 import java.security.AccessController;
@@ -32,6 +29,20 @@ import java.util.concurrent.*;
 import java.util.concurrent.locks.*;
 import java.util.concurrent.atomic.AtomicLong;
 import sun.awt.AppContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Internal class to manage all Timers using one thread.

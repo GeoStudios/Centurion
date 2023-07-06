@@ -21,6 +21,23 @@
 
 package gc;
 
+
+import sun.hotspot.WhiteBox;
+import sun.hotspot.gc.GC;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestConcurrentGCBreakpoints
  * @summary Test of WhiteBox concurrent GC control.
@@ -33,8 +50,6 @@ package gc;
  *   gc.TestConcurrentGCBreakpoints
  */
 
-import sun.hotspot.WhiteBox;
-import sun.hotspot.gc.GC;
 
 public class TestConcurrentGCBreakpoints {
 

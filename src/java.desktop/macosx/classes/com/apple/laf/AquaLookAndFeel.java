@@ -19,20 +19,20 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.KeyboardFocusManager;
 import java.security.PrivilegedAction;
 import java.util.Enumeration;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.ResourceBundle;
-
 import javax.swing.Action;
 import javax.swing.ActionMap;
 import javax.swing.BorderFactory;
-import javax.swing.DefaultListCellRenderer;
+import javax.swing.Defaultjava.util.ListCellRenderer;
 import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.JRootPane;
@@ -48,13 +48,25 @@ import javax.swing.plaf.DimensionUIResource;
 import javax.swing.plaf.InsetsUIResource;
 import javax.swing.plaf.basic.BasicBorders;
 import javax.swing.plaf.basic.BasicLookAndFeel;
-
-import apple.laf.JRSUIControl;
-import apple.laf.JRSUIUtils;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIControl;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIUtils;
 import sun.swing.SwingAccessor;
 import sun.swing.SwingUtilities2;
+import static javax.swing.UIDefaults.LazyValue;.extended
 
-import static javax.swing.UIDefaults.LazyValue;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // Superclass is not serializable across versions
 public class AquaLookAndFeel extends BasicLookAndFeel {

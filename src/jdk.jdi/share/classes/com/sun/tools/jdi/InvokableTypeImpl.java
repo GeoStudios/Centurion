@@ -19,26 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
+import jdk.jdi.share.classes.com.sun.jdi.ClassNotLoadedException;
+import jdk.jdi.share.classes.com.sun.jdi.ClassType;
+import jdk.jdi.share.classes.com.sun.jdi.IncompatibleThreadStateException;
+import jdk.jdi.share.classes.com.sun.jdi.InterfaceType;
+import jdk.jdi.share.classes.com.sun.jdi.InvalidTypeException;
+import jdk.jdi.share.classes.com.sun.jdi.InvocationException;
+import jdk.jdi.share.classes.com.sun.jdi.Method;
+import jdk.jdi.share.classes.com.sun.jdi.ReferenceType;
+import jdk.jdi.share.classes.com.sun.jdi.ThreadReference;
+import jdk.jdi.share.classes.com.sun.jdi.VMCannotBeModifiedException;
+import jdk.jdi.share.classes.com.sun.jdi.Value;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
 
-import com.sun.jdi.ClassNotLoadedException;
-import com.sun.jdi.ClassType;
-import com.sun.jdi.IncompatibleThreadStateException;
-import com.sun.jdi.InterfaceType;
-import com.sun.jdi.InvalidTypeException;
-import com.sun.jdi.InvocationException;
-import com.sun.jdi.Method;
-import com.sun.jdi.ReferenceType;
-import com.sun.jdi.ThreadReference;
-import com.sun.jdi.VMCannotBeModifiedException;
-import com.sun.jdi.Value;
-import com.sun.jdi.VirtualMachine;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A supertype for ReferenceTypes allowing method invocations

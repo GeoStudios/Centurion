@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.peer.TextAreaPeer;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.Serial;
-import java.util.HashSet;
-import java.util.Set;
 
+import java.desktop.share.classes.java.awt.peer.TextAreaPeer;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.util.HashSet;
+import java.desktop.share.classes.java.util.Set;
 import javax.accessibility.AccessibleContext;
 import javax.accessibility.AccessibleState;
 import javax.accessibility.AccessibleStateSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A {@code TextArea} object is a multi-line region

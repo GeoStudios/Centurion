@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.math;
+
+
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8263006
@@ -28,9 +46,7 @@
  *      compiler.intrinsics.math.MaxMinOptimizeTest
  */
 
-package compiler.intrinsics.math;
 
-import java.util.Arrays;
 
 public class MaxMinOptimizeTest {
 

@@ -19,17 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.*;
-
 import javax.swing.plaf.*;
 import javax.swing.text.JTextComponent;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.*;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtilControlSize.*;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.*;
 
-import apple.laf.JRSUIConstants.*;
 
-import com.apple.laf.AquaUtilControlSize.*;
-import com.apple.laf.AquaUtils.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaTextFieldBorder extends AquaBorder {
     private static final RecyclableSingleton<AquaTextFieldBorder> instance = new RecyclableSingletonFromDefaultConstructor<AquaTextFieldBorder>(AquaTextFieldBorder.class);

@@ -21,9 +21,22 @@
 
 package nsk.jdi.VirtualMachine.suspend;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8249602
@@ -28,7 +45,6 @@
  * @run main compiler.loopopts.TestPreMainPostFallInEdges
  */
 
-package compiler.loopopts;
 
 public class TestPreMainPostFallInEdges {
 

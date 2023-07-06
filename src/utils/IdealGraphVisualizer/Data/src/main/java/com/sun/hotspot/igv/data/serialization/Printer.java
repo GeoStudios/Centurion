@@ -18,14 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.data.serialization;
 
-import com.sun.hotspot.igv.data.*;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.Writer;
-import java.util.HashSet;
-import java.util.Set;
+package utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data.serialization;
+
+
+import utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data.*;
+import utils.IdealGraphVisualizer.Data.src.main.java.io.java.io.java.io.java.io.IOException;
+import utils.IdealGraphVisualizer.Data.src.main.java.io.InputStream;
+import utils.IdealGraphVisualizer.Data.src.main.java.io.Writer;
+import utils.IdealGraphVisualizer.Data.src.main.java.util.HashSet;
+import utils.IdealGraphVisualizer.Data.src.main.java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

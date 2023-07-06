@@ -21,6 +21,21 @@
 
 package tests;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class T1 {
     public void print(Inner1 inf) {
         inf.print();

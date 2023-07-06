@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.dtm.ref;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref;
 
-import com.sun.org.apache.xml.internal.dtm.*;
-import com.sun.org.apache.xml.internal.res.XMLErrorResources;
-import com.sun.org.apache.xml.internal.res.XMLMessages;
-import com.sun.org.apache.xml.internal.utils.BoolStack;
-import com.sun.org.apache.xml.internal.utils.SuballocatedIntVector;
-import com.sun.org.apache.xml.internal.utils.XMLString;
-import com.sun.org.apache.xml.internal.utils.XMLStringFactory;
-import java.io.*; // for dumpDTM
+
+import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.*;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLErrorResources;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLMessages;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.BoolStack;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.SuballocatedIntVector;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLString;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLStringFactory;
+import java.io.*; // for dumpDTM.extended
 import java.util.Vector;
 import javax.xml.transform.Source;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The <code>DTMDefaultBase</code> class serves as a helper base for DTMs.

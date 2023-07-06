@@ -19,19 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.tools.jcore;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.jcore;
+
 
 import java.io.*;
 import java.lang.reflect.Constructor;
 import java.util.jar.JarOutputStream;
 import java.util.jar.JarEntry;
 import java.util.jar.Manifest;
-import sun.jvm.hotspot.classfile.*;
-import sun.jvm.hotspot.memory.*;
-import sun.jvm.hotspot.oops.*;
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.runtime.*;
-import sun.jvm.hotspot.tools.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.classfile.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.memory.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ClassDump extends Tool {
     private ClassFilter classFilter;

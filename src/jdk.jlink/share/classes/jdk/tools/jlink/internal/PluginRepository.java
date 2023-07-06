@@ -18,17 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.tools.jlink.internal;
 
-import java.util.ArrayList;
+package jdk.jlink.share.classes.jdk.tools.jlink.internal;
+
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.ServiceLoader;
-import jdk.tools.jlink.plugin.Plugin;
-import jdk.tools.jlink.plugin.PluginException;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.Plugin;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.PluginException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

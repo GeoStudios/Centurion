@@ -19,13 +19,14 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.fs;
+package java.base.macosx.classes.sun.nio.fs;
 
-import java.nio.file.attribute.FileAttributeView;
-import java.nio.file.attribute.UserDefinedFileAttributeView;
-import java.io.IOException;
-import java.util.Arrays;
-import sun.security.action.GetPropertyAction;
+
+import java.base.share.classes.java.nio.file.attribute.FileAttributeView;
+import java.base.share.classes.java.nio.file.attribute.UserDefinedFileAttributeView;
+import java.base.share.classes.java.io.IOException;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 
 /**
  * Bsd implementation of FileStore

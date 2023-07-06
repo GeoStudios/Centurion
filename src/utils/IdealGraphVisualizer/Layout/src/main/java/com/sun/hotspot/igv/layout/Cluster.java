@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.layout;
 
-import java.awt.Rectangle;
-import java.util.Set;
+package utils.IdealGraphVisualizer.Layout.src.main.java.com.sun.hotspot.igv.layout;
+
+
+import utils.IdealGraphVisualizer.Layout.src.main.java.awt.Rectangle;
+import utils.IdealGraphVisualizer.Layout.src.main.java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

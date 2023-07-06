@@ -18,14 +18,14 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.drivers.menus;
 
-import java.awt.Component;
 
+import java.awt.Component;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
-
 import org.netbeans.jemmy.ComponentChooser;
 import org.netbeans.jemmy.JemmyException;
 import org.netbeans.jemmy.drivers.MenuDriver;
@@ -34,6 +34,19 @@ import org.netbeans.jemmy.operators.AbstractButtonOperator;
 import org.netbeans.jemmy.operators.ComponentOperator;
 import org.netbeans.jemmy.operators.JMenuItemOperator;
 import org.netbeans.jemmy.operators.JMenuOperator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class APIJMenuDriver extends DefaultJMenuDriver implements MenuDriver {
 

@@ -18,15 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.foreign;
 
-import jdk.incubator.foreign.CLinker;
-import jdk.incubator.foreign.MemoryLayout;
-import jdk.incubator.foreign.ValueLayout;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
 
+
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.CLinker;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryLayout;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.ValueLayout;
 import java.nio.ByteOrder;
+import static java.nio.ByteOrder.LITTLE_ENDIAN;.extended
 
-import static java.nio.ByteOrder.LITTLE_ENDIAN;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PlatformLayouts {
     public static <Z extends MemoryLayout> Z pick(Z sysv, Z win64, Z aarch64) {

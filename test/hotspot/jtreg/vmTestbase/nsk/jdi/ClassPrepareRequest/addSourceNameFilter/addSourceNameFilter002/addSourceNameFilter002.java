@@ -19,6 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.jdi.ClassPrepareRequest.addSourceNameFilter.addSourceNameFilter002;
+
+
+import java.io.*;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import com.sun.jdi.ThreadReference;
+import com.sun.jdi.event.*;
+import com.sun.jdi.request.*;
+import nsk.share.Consts;
+import nsk.share.TestBug;
+import nsk.share.jdi.*;
+import nsk.share.jdi.sde.*;
+import nsk.share.jpda.AbstractDebuggeeTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @modules java.base/jdk.internal.misc:+open
@@ -62,19 +89,8 @@
  *      -sourceCount 2
  */
 
-package nsk.jdi.ClassPrepareRequest.addSourceNameFilter.addSourceNameFilter002;
 
-import java.io.*;
-import java.util.ArrayList;
 
-import com.sun.jdi.ThreadReference;
-import com.sun.jdi.event.*;
-import com.sun.jdi.request.*;
-import nsk.share.Consts;
-import nsk.share.TestBug;
-import nsk.share.jdi.*;
-import nsk.share.jdi.sde.*;
-import nsk.share.jpda.AbstractDebuggeeTest;
 
 public class addSourceNameFilter002 extends SDEDebugger {
 

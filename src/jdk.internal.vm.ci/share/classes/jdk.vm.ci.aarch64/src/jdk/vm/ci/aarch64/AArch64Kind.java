@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.aarch64;
 
-import jdk.vm.ci.meta.PlatformKind;
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.aarch64.src.jdk.vm.ci.aarch64;
+
+
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.aarch64.src.jdk.vm.ci.meta.PlatformKind;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public enum AArch64Kind implements PlatformKind {
 

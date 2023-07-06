@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.bigInteger;
+
+
+import java.math.BigInteger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8057758
@@ -29,9 +47,7 @@
  *      compiler.intrinsics.bigInteger.TestMultiplyToLenReturnProfile
  */
 
-package compiler.intrinsics.bigInteger;
 
-import java.math.BigInteger;
 
 public class TestMultiplyToLenReturnProfile {
 

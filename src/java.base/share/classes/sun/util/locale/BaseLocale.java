@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.util.locale;
+package java.base.share.classes.sun.util.locale;
+
 
 import jdk.internal.misc.CDS;
 import jdk.internal.vm.annotation.Stable;
-import sun.security.action.GetPropertyAction;
-
+import java.base.share.classes.sun.security.action.GetPropertyAction;
 import java.lang.ref.SoftReference;
 import java.util.StringJoiner;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class BaseLocale {
 

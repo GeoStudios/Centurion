@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.ui.action;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.action;
+
 
 import javax.swing.Action;
-
 import com.sun.java.swing.action.ActionManager;
 import com.sun.java.swing.action.DelegateAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Callback action for Showing the Object Type

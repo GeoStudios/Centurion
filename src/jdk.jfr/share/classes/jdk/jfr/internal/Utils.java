@@ -19,16 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal;
+package jdk.jfr.share.classes.jdk.jfr.internal;
 
-import static java.util.concurrent.TimeUnit.MICROSECONDS;
-import static java.util.concurrent.TimeUnit.MILLISECONDS;
-import static java.util.concurrent.TimeUnit.NANOSECONDS;
-import static java.util.concurrent.TimeUnit.SECONDS;
 
+import static java.util.concurrent.TimeUnit.MICROSECONDS;.extended
+import static java.util.concurrent.TimeUnit.MILLISECONDS;.extended
+import static java.util.concurrent.TimeUnit.NANOSECONDS;.extended
+import static java.util.concurrent.TimeUnit.SECONDS;.extended
 import java.io.FileOutputStream;
 import java.io.FileWriter;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.io.RandomAccessFile;
 import java.lang.annotation.Annotation;
@@ -42,25 +42,38 @@ import java.time.Duration;
 import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.concurrent.TimeUnit;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.ClassReader;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.util.CheckClassAdapter;
+import jdk.jfr.share.classes.jdk.internal.platform.Metrics;
+import jdk.jfr.share.classes.jdk.jfr.Event;
+import jdk.jfr.share.classes.jdk.jfr.FlightRecorderPermission;
+import jdk.jfr.share.classes.jdk.jfr.Recording;
+import jdk.jfr.share.classes.jdk.jfr.RecordingState;
+import jdk.jfr.share.classes.jdk.jfr.internal.handlers.EventHandler;
+import jdk.jfr.share.classes.jdk.jfr.internal.settings.PeriodSetting;
+import jdk.jfr.share.classes.jdk.jfr.internal.settings.StackTraceSetting;
+import jdk.jfr.share.classes.jdk.jfr.internal.settings.ThresholdSetting;
 
-import jdk.internal.org.objectweb.asm.ClassReader;
-import jdk.internal.org.objectweb.asm.util.CheckClassAdapter;
-import jdk.internal.platform.Metrics;
-import jdk.jfr.Event;
-import jdk.jfr.FlightRecorderPermission;
-import jdk.jfr.Recording;
-import jdk.jfr.RecordingState;
-import jdk.jfr.internal.handlers.EventHandler;
-import jdk.jfr.internal.settings.PeriodSetting;
-import jdk.jfr.internal.settings.StackTraceSetting;
-import jdk.jfr.internal.settings.ThresholdSetting;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class Utils {
 

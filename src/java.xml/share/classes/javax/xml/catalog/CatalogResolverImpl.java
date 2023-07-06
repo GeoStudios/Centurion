@@ -18,22 +18,38 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.xml.catalog;
+
+package java.xml.share.classes.javax.xml.catalog;
+
 
 import com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.Reader;
 import java.io.StringReader;
 import java.net.URL;
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.parsers.SAXParserFactory;
-import javax.xml.transform.Source;
-import javax.xml.transform.sax.SAXSource;
+import java.xml.share.classes.javax.xml.parsers.ParserConfigurationException;
+import java.xml.share.classes.javax.xml.parsers.SAXParserFactory;
+import java.xml.share.classes.javax.xml.transform.Source;
+import java.xml.share.classes.javax.xml.transform.sax.SAXSource;
 import org.w3c.dom.ls.LSInput;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements CatalogResolver.

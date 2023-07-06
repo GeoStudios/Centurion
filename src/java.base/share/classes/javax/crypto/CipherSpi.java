@@ -19,22 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.crypto;
+package java.base.share.classes.javax.crypto;
+
 
 import java.util.StringTokenizer;
 import java.util.NoSuchElementException;
 import java.security.AlgorithmParameters;
 import java.security.Provider;
-import java.security.Key;
+import java.base.share.classes.java.security.Key;
 import java.security.SecureRandom;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.NoSuchProviderException;
-import java.security.InvalidKeyException;
+import java.base.share.classes.java.security.InvalidKeyException;
 import java.security.InvalidAlgorithmParameterException;
-import java.security.ProviderException;
+import java.base.share.classes.java.security.ProviderException;
 import java.security.spec.AlgorithmParameterSpec;
-
 import java.nio.ByteBuffer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class defines the <i>Service Provider Interface</i> (<b>SPI</b>)

@@ -19,6 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import java.lang.reflect.Method;
+import java.util.HashMap;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Vector;
+import java.util.java.util.ListIterator;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import jdk.internal.misc.Unsafe;
+import jdk.internal.reflect.ConstantPool;
+import java.net.URL;
+import java.net.URLClassLoader;
+import java.lang.reflect.Executable;
+import compiler.whitebox.CompilerWhiteBoxTest;
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8251544
@@ -36,24 +68,8 @@
  *                   compiler.c2.TestDeadDataLoopIGVN
  */
 
-package compiler.c2;
 
-import java.lang.reflect.Method;
-import java.util.HashMap;
-import java.util.List;
-import java.util.LinkedList;
-import java.util.ArrayList;
-import java.util.Vector;
-import java.util.ListIterator;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.misc.Unsafe;
-import jdk.internal.reflect.ConstantPool;
-import java.net.URL;
-import java.net.URLClassLoader;
-import java.lang.reflect.Executable;
 
-import compiler.whitebox.CompilerWhiteBoxTest;
-import sun.hotspot.WhiteBox;
 
 public class TestDeadDataLoopIGVN {
 

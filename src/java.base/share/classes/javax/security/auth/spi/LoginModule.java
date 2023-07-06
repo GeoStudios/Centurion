@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.security.auth.spi;
+package java.base.share.classes.javax.security.auth.spi;
 
-import javax.security.auth.Subject;
-import javax.security.auth.AuthPermission;
-import javax.security.auth.callback.*;
-import javax.security.auth.login.*;
+
+import java.base.share.classes.javax.security.auth.Subject;
+import java.base.share.classes.javax.security.auth.AuthPermission;
+import java.base.share.classes.javax.security.auth.callback.*;
+import java.base.share.classes.javax.security.auth.login.*;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p> Service-provider interface for authentication technology providers.

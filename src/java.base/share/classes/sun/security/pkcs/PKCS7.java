@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs;
+package java.base.share.classes.sun.security.pkcs;
+
 
 import java.io.*;
 import java.math.BigInteger;
@@ -30,13 +31,26 @@ import java.security.cert.CertificateException;
 import java.security.cert.X509CRL;
 import java.security.cert.CRLException;
 import java.security.cert.CertificateFactory;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.util.function.Function;
+import java.base.share.classes.sun.security.provider.SHAKE256;
+import java.base.share.classes.sun.security.timestamp.*;
+import java.base.share.classes.sun.security.util.*;
+import java.base.share.classes.sun.security.x509.*;
 
-import sun.security.provider.SHAKE256;
-import sun.security.timestamp.*;
-import sun.security.util.*;
-import sun.security.x509.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * PKCS7 as defined in RSA Laboratories PKCS7 Technical Note. Profile

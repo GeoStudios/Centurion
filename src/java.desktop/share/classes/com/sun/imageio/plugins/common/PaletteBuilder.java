@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.common;
+package java.desktop.share.classes.com.sun.imageio.plugins.common;
+
 
 import java.awt.Transparency;
 import java.awt.image.BufferedImage;
@@ -30,6 +31,19 @@ import java.awt.image.Raster;
 import java.awt.image.WritableRaster;
 import java.awt.Color;
 import javax.imageio.ImageTypeSpecifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

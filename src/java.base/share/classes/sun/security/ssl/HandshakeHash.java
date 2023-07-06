@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
+
 
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.util.Arrays;
-import java.util.LinkedList;
-import javax.crypto.SecretKey;
-import sun.security.util.MessageDigestSpi2;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.util.Arrays;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.base.share.classes.javax.crypto.SecretKey;
+import java.base.share.classes.sun.security.util.MessageDigestSpi2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class HandshakeHash {
     private TranscriptHash transcriptHash;

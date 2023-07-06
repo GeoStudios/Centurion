@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.windows;
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.util.HashMap;
 import java.util.Hashtable;
-import sun.awt.FontDescriptor;
-import sun.awt.FontConfiguration;
-import sun.font.SunFontManager;
+import java.desktop.windows.classes.sun.awt.FontDescriptor;
+import java.desktop.windows.classes.sun.awt.FontConfiguration;
+import java.desktop.windows.classes.sun.font.SunFontManager;
 import java.nio.charset.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class WFontConfiguration extends FontConfiguration {
 

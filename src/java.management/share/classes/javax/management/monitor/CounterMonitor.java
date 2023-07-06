@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.monitor;
+package java.management.share.classes.javax.management.monitor;
 
-import static com.sun.jmx.defaults.JmxProperties.MONITOR_LOGGER;
+
+import static com.sun.jmx.defaults.JmxProperties.MONITOR_LOGGER;.extended
 import java.lang.System.Logger.Level;
-import javax.management.ObjectName;
-import javax.management.MBeanNotificationInfo;
-import static javax.management.monitor.Monitor.NumericalType.*;
-import static javax.management.monitor.MonitorNotification.*;
+import java.management.share.classes.javax.management.ObjectName;
+import java.management.share.classes.javax.management.MBeanNotificationInfo;
+import static java.management.share.classes.javax.management.monitor.Monitor.NumericalType.*;.extended
+import static java.management.share.classes.javax.management.monitor.MonitorNotification.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines a monitor MBean designed to observe the values of a counter

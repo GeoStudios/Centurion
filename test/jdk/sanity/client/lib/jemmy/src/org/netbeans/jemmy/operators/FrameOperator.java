@@ -18,14 +18,15 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.operators;
+
 
 import java.awt.Component;
 import java.awt.Frame;
 import java.awt.Image;
 import java.awt.MenuBar;
 import java.util.Hashtable;
-
 import org.netbeans.jemmy.ComponentChooser;
 import org.netbeans.jemmy.FrameWaiter;
 import org.netbeans.jemmy.JemmyException;
@@ -36,6 +37,19 @@ import org.netbeans.jemmy.TimeoutExpiredException;
 import org.netbeans.jemmy.Timeouts;
 import org.netbeans.jemmy.drivers.DriverManager;
 import org.netbeans.jemmy.drivers.FrameDriver;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <BR><BR>Timeouts used: <BR>

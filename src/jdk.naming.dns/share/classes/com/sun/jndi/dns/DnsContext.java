@@ -19,17 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.dns;
+package jdk.naming.dns.share.classes.com.sun.jndi.dns;
 
 
 import java.util.Enumeration;
 import java.util.Hashtable;
-
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.spi.DirectoryManager;
+import jdk.naming.dns.share.classes.com.sun.jndi.toolkit.ctx.*;
 
-import com.sun.jndi.toolkit.ctx.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

@@ -19,25 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
+
 
 import jdk.internal.perf.PerfCounter;
 import jdk.internal.vm.annotation.DontInline;
 import jdk.internal.vm.annotation.Hidden;
 import jdk.internal.vm.annotation.Stable;
 import sun.invoke.util.Wrapper;
+import java.base.share.classes.java.lang.annotation.ElementType;
+import java.base.share.classes.java.lang.annotation.Retention;
+import java.base.share.classes.java.lang.annotation.RetentionPolicy;
+import java.base.share.classes.java.lang.annotation.Target;
+import java.base.share.classes.java.lang.reflect.Method;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.HashMap;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;.extended
 
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
-import java.lang.reflect.Method;
-import java.util.Arrays;
-import java.util.HashMap;
 
-import static java.lang.invoke.LambdaForm.BasicType.*;
-import static java.lang.invoke.MethodHandleNatives.Constants.*;
-import static java.lang.invoke.MethodHandleStatics.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The symbolic, non-executable form of a method handle's invocation semantics.

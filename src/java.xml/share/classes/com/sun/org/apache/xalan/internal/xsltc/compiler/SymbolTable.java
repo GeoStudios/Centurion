@@ -19,19 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
+
+
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.MethodType;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.HashMap;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Map;
+import java.util.Stack;
+import java.util.StringTokenizer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * $Id: SymbolTable.java,v 1.5 2005/09/28 13:48:16 pvedula Exp $
  */
 
-package com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.MethodType;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Stack;
-import java.util.StringTokenizer;
+
 
 /**
  * @LastModified: June 2021

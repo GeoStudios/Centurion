@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.vm.ci.hotspot.test;
+
+
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @requires vm.jvmci
@@ -29,15 +52,8 @@
  *      jdk.vm.ci.hotspot.test.TestTranslatedException
  */
 
-package jdk.vm.ci.hotspot.test;
 
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
 
 public class TestTranslatedException {
     @SuppressWarnings("serial")

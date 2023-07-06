@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.font;
+package java.desktop.share.classes.java.awt.font;
 
-import java.awt.Image;
-import java.awt.Graphics2D;
-import java.awt.geom.Rectangle2D;
+
+import java.desktop.share.classes.java.awt.Image;
+import java.desktop.share.classes.java.awt.Graphics2D;
+import java.desktop.share.classes.java.awt.geom.Rectangle2D;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code ImageGraphicAttribute} class is an implementation of

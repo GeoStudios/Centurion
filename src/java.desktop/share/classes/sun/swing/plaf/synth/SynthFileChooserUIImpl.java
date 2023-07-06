@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.swing.plaf.synth;
+
+package java.desktop.share.classes.sun.swing.plaf.synth;
+
 
 import java.awt.*;
 import java.awt.event.*;
@@ -27,7 +29,6 @@ import java.io.*;
 import java.util.*;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.filechooser.*;
@@ -35,9 +36,22 @@ import javax.swing.filechooser.FileFilter;
 import javax.swing.plaf.basic.*;
 import javax.swing.plaf.synth.*;
 import javax.swing.plaf.ActionMapUIResource;
+import java.desktop.share.classes.sun.awt.shell.ShellFolder;
+import java.desktop.share.classes.sun.swing.*;
 
-import sun.awt.shell.ShellFolder;
-import sun.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Synth FileChooserUI implementation.

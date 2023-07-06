@@ -21,16 +21,31 @@
 
 package jdk.test.lib.jittester;
 
-// Production is base class for all elements of the IR-tree.
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
-import java.util.List;
-import java.util.Objects;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import jdk.test.lib.jittester.loops.For;
 import jdk.test.lib.jittester.loops.DoWhile;
 import jdk.test.lib.jittester.loops.While;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.visitors.Visitor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Production is base class for all elements of the IR-tree.
 
 public abstract class IRNode {
     private IRNode parent;

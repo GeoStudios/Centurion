@@ -21,9 +21,22 @@
 
 package jdk.jfr.api.flightrecorder;
 
-import static jdk.test.lib.Asserts.fail;
 
+import static jdk.test.lib.Asserts.fail;.extended
 import jdk.jfr.FlightRecorder;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.ui.table;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.table;
+
 
 import java.util.Collections;
-import java.util.List;
-
+import java.util.java.util.java.util.java.util.List;
 import javax.swing.event.TableModelEvent;
 import javax.swing.table.AbstractTableModel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A table model which stores its rows as a list. The elements

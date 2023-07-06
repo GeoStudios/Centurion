@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.vm.annotation;
+package java.base.share.classes.jdk.internal.vm.annotation;
+
 
 import java.lang.annotation.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A field may be annotated as stable if all of its component variables

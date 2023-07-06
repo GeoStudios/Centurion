@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.ui;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
+
 
 import java.awt.*;
 import java.awt.event.*;
@@ -27,8 +28,21 @@ import java.util.*;
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.table.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 
-import sun.jvm.hotspot.debugger.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ProcessListPanel extends JPanel {
   private final Debugger           dbg;

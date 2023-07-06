@@ -19,13 +19,14 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.hotspot.igv.coordinator.actions;
+package utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator.actions;
 
-import com.sun.hotspot.igv.data.GraphDocument;
-import com.sun.hotspot.igv.data.Group;
-import com.sun.hotspot.igv.data.serialization.Printer;
-import com.sun.hotspot.igv.settings.Settings;
-import java.io.*;
+
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.data.GraphDocument;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.data.Group;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.data.serialization.Printer;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.settings.Settings;
+import utils.IdealGraphVisualizer.Coordinator.src.main.java.io.*;
 import javax.swing.Action;
 import javax.swing.JFileChooser;
 import org.openide.nodes.Node;
@@ -33,6 +34,20 @@ import org.openide.util.HelpCtx;
 import org.openide.util.NbBundle;
 import org.openide.util.actions.CookieAction;
 import org.openide.util.actions.NodeAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

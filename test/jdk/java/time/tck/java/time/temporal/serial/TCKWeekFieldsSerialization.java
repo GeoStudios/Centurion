@@ -21,21 +21,33 @@
 
 package tck.java.time.temporal.serial;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.fail;
 
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.fail;.extended
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import tck.java.time.AbstractTCKTest;
-
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.time.DayOfWeek;
 import java.time.temporal.WeekFields;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test serialization of WeekFields.

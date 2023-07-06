@@ -21,10 +21,24 @@
 
 package jdk.jfr.startupargs;
 
+
 import jdk.jfr.Recording;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.comp;
+package jdk.compiler.share.classes.com.sun.tools.javac.comp;
+
 
 import java.util.Collection;
 import java.util.HashMap;
-import com.sun.tools.javac.code.Symbol.TypeSymbol;
-import com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.TypeSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This class contains the type environments used by Enter, MemberEnter,
  *  Attr, DeferredAttr, and Lower.

@@ -18,24 +18,39 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang.constant;
 
-import java.lang.Enum.EnumDesc;
-import java.lang.invoke.CallSite;
-import java.lang.invoke.ConstantBootstraps;
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodHandles.Lookup;
-import java.lang.invoke.MethodType;
-import java.lang.invoke.VarHandle;
-import java.lang.invoke.VarHandle.VarHandleDesc;
-import java.util.Collection;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+package java.base.share.classes.java.lang.constant;
 
-import static java.lang.constant.DirectMethodHandleDesc.*;
-import static java.lang.constant.DirectMethodHandleDesc.Kind.STATIC;
+
+import java.base.share.classes.java.lang.Enum.EnumDesc;
+import java.base.share.classes.java.lang.invoke.CallSite;
+import java.base.share.classes.java.lang.invoke.ConstantBootstraps;
+import java.base.share.classes.java.lang.invoke.MethodHandle;
+import java.base.share.classes.java.lang.invoke.MethodHandles;
+import java.base.share.classes.java.lang.invoke.MethodHandles.Lookup;
+import java.base.share.classes.java.lang.invoke.MethodType;
+import java.base.share.classes.java.lang.invoke.VarHandle;
+import java.base.share.classes.java.lang.invoke.VarHandle.VarHandleDesc;
+import java.base.share.classes.java.util.Collection;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.Set;
+import static java.base.share.classes.java.lang.constant.DirectMethodHandleDesc.*;.extended
+import static java.base.share.classes.java.lang.constant.DirectMethodHandleDesc.Kind.STATIC;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Predefined values of <a href="package-summary.html#nominal">nominal descriptor</a>

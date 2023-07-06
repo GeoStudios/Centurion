@@ -19,27 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.impl ;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
 
-import com.sun.org.apache.xerces.internal.impl.io.ASCIIReader;
-import com.sun.org.apache.xerces.internal.impl.io.UCSReader;
-import com.sun.org.apache.xerces.internal.impl.io.UTF16Reader;
-import com.sun.org.apache.xerces.internal.impl.io.UTF8Reader;
-import com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
-import com.sun.org.apache.xerces.internal.impl.validation.ValidationManager;
-import com.sun.org.apache.xerces.internal.util.*;
-import com.sun.org.apache.xerces.internal.util.URI;
-import com.sun.org.apache.xerces.internal.utils.XMLLimitAnalyzer;
-import com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
-import com.sun.org.apache.xerces.internal.utils.XMLSecurityPropertyManager;
-import com.sun.org.apache.xerces.internal.xni.Augmentations;
-import com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
-import com.sun.org.apache.xerces.internal.xni.XNIException;
-import com.sun.org.apache.xerces.internal.xni.parser.*;
-import com.sun.xml.internal.stream.Entity;
-import com.sun.xml.internal.stream.StaxEntityResolverWrapper;
-import com.sun.xml.internal.stream.StaxXMLInputSource;
-import com.sun.xml.internal.stream.XMLEntityStorage;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io.ASCIIReader;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io.UCSReader;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io.UTF16Reader;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io.UTF8Reader;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.validation.ValidationManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.*;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.URI;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLLimitAnalyzer;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityPropertyManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.Augmentations;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.*;
+import java.xml.share.classes.com.sun.xml.internal.stream.Entity;
+import java.xml.share.classes.com.sun.xml.internal.stream.StaxEntityResolverWrapper;
+import java.xml.share.classes.com.sun.xml.internal.stream.StaxXMLInputSource;
+import java.xml.share.classes.com.sun.xml.internal.stream.XMLEntityStorage;
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URISyntaxException;
@@ -48,7 +49,7 @@ import java.net.URLConnection;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.Stack;
 import java.util.StringTokenizer;
@@ -64,6 +65,19 @@ import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkXmlUtils;
 import jdk.xml.internal.SecuritySupport;
 import org.xml.sax.InputSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

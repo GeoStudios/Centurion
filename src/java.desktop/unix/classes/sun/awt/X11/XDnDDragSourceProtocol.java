@@ -19,19 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.DataFlavor;
-
 import java.awt.dnd.DnDConstants;
 import java.awt.dnd.InvalidDnDOperationException;
-
 import java.util.Map;
-
-import sun.util.logging.PlatformLogger;
-
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 import jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * XDragSourceProtocol implementation for XDnD protocol.
@@ -285,7 +296,7 @@ class XDnDDragSourceProtocol extends XDragSourceProtocol {
             msg.set_message_type(XDnDConstants.XA_XdndEnter.getAtom());
             msg.set_data(0, XDragSourceProtocol.getDragSourceWindow());
             long data1 =
-                getTargetProtocolVersion() << XDnDConstants.XDND_PROTOCOL_SHIFT;
+                    (long) getTargetProtocolVersion() << XDnDConstants.XDND_PROTOCOL_SHIFT;
             data1 |= formats.length > 3 ? XDnDConstants.XDND_DATA_TYPES_BIT : 0;
             msg.set_data(1, data1);
             msg.set_data(2, formats.length > 0 ? formats[0] : 0);

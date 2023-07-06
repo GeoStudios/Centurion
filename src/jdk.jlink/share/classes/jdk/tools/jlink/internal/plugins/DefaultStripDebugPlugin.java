@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.tools.jlink.internal.plugins;
+package jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins;
+
 
 import java.util.Map;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.PluginRepository;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.ResourcePoolManager;
+import jdk.jlink.share.classes.jdk.tools.jlink.internal.ResourcePoolManager.ResourcePoolImpl;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.Plugin;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePool;
+import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolBuilder;
 
-import jdk.tools.jlink.internal.PluginRepository;
-import jdk.tools.jlink.internal.ResourcePoolManager;
-import jdk.tools.jlink.internal.ResourcePoolManager.ResourcePoolImpl;
-import jdk.tools.jlink.plugin.Plugin;
-import jdk.tools.jlink.plugin.ResourcePool;
-import jdk.tools.jlink.plugin.ResourcePoolBuilder;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Combined debug stripping plugin: Java debug attributes and native debug

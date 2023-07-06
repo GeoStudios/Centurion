@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.nativeGC01;
+
+
+import nsk.share.test.*;
+import nsk.share.gc.*;
+import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -40,11 +59,7 @@
  * @run main/othervm/native gc.gctests.nativeGC01.nativeGC01
  */
 
-package gc.gctests.nativeGC01;
 
-import nsk.share.test.*;
-import nsk.share.gc.*;
-import java.util.Vector;
 
 public class nativeGC01 extends TestBase {
         private CircularLinkedList cl;

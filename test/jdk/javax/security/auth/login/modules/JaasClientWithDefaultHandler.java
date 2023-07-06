@@ -18,12 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package login;
+
 
 import java.security.Principal;
 import javax.security.auth.login.LoginContext;
 import javax.security.auth.login.LoginException;
 import com.sun.security.auth.UserPrincipal;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class JaasClientWithDefaultHandler {
 

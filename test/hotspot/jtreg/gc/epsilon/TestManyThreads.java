@@ -21,6 +21,22 @@
 
 package gc.epsilon;
 
+
+import java.util.concurrent.atomic.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test TestManyThreads
  * @requires vm.gc.Epsilon
@@ -39,7 +55,6 @@ package gc.epsilon;
  * @run main/othervm -Xmx128m -Xss512k -Xbatch -Xcomp -XX:-TieredCompilation  -XX:+UseTLAB -XX:+UnlockExperimentalVMOptions -XX:+UseEpsilonGC gc.epsilon.TestManyThreads
  */
 
-import java.util.concurrent.atomic.*;
 
 public class TestManyThreads {
 

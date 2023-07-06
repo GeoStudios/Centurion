@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8247743
@@ -27,7 +44,6 @@
  *
  * @run main/othervm -Xbatch -XX:CompileCommand=option,*::*,bool,Vectorize,true -XX:+PrintOpto -XX:+TraceLoopOpts compiler.c2.TestFindNode
  */
-package compiler.c2;
 
 public class TestFindNode {
     static volatile int[] iArr;

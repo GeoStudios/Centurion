@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ec;
+package jdk.crypto.ec.share.classes.sun.security.ec;
+
 
 import java.math.BigInteger;
-import java.security.InvalidKeyException;
+import java.base.share.classes.java.security.InvalidKeyException;
 import java.security.KeyRep;
-import java.security.PublicKey;
+import java.base.share.classes.java.security.PublicKey;
 import java.security.interfaces.XECPublicKey;
 import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.NamedParameterSpec;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
+import jdk.crypto.ec.share.classes.sun.security.util.BitArray;
+import jdk.crypto.ec.share.classes.sun.security.x509.AlgorithmId;
+import jdk.crypto.ec.share.classes.sun.security.x509.X509Key;
 
-import sun.security.util.BitArray;
-import sun.security.x509.AlgorithmId;
-import sun.security.x509.X509Key;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class XDHPublicKeyImpl extends X509Key implements XECPublicKey {
 

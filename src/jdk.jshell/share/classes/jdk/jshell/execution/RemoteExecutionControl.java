@@ -18,19 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.jshell.execution;
+
+package jdk.jshell.share.classes.jdk.jshell.execution;
+
 
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PrintStream;
 import java.lang.reflect.Method;
-import java.net.Socket;
-
+import java.net.java.net.java.net.java.net.Socket;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Consumer;
-import jdk.jshell.spi.ExecutionControl;
-import static jdk.jshell.execution.Util.forwardExecutionControlAndIO;
+import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionControl;
+import static jdk.jshell.share.classes.jdk.jshell.execution.Util.forwardExecutionControlAndIO;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The remote agent runs in the execution process (separate from the main JShell

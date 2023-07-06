@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.windows.classes.sun.print;
+
 
 import java.awt.GraphicsEnvironment;
 import java.awt.Toolkit;
@@ -28,7 +29,7 @@ import java.awt.print.PrinterJob;
 import java.io.File;
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.HashMap;
 import javax.print.DocFlavor;
@@ -72,8 +73,22 @@ import javax.print.attribute.standard.ColorSupported;
 import javax.print.attribute.standard.PrintQuality;
 import javax.print.attribute.standard.PrinterResolution;
 import javax.print.attribute.standard.SheetCollate;
-import javax.print.event.PrintServiceAttributeListener;
-import sun.awt.windows.WPrinterJob;
+import javax.print.event.PrintServiceAttributejava.util.Listener;
+import java.desktop.windows.classes.sun.awt.windows.WPrinterJob;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Win32PrintService implements PrintService, AttributeUpdater,
                                           SunPrinterJobService {

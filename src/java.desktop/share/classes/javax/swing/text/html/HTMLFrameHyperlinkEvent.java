@@ -18,12 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text.html;
+
+package java.desktop.share.classes.javax.swing.text.html;
+
 
 import java.awt.event.InputEvent;
-import javax.swing.text.*;
-import javax.swing.event.HyperlinkEvent;
+import java.desktop.share.classes.javax.swing.text.*;
+import java.desktop.share.classes.javax.swing.event.HyperlinkEvent;
 import java.net.URL;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * HTMLFrameHyperlinkEvent is used to notify interested

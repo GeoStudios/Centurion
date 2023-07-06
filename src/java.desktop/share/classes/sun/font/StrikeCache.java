@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.font;
+package java.desktop.share.classes.sun.font;
+
 
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsEnvironment;
@@ -28,12 +29,25 @@ import java.lang.ref.ReferenceQueue;
 import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
 import java.util.*;
-
-import sun.java2d.Disposer;
-import sun.java2d.pipe.BufferedContext;
-import sun.java2d.pipe.RenderQueue;
-import sun.java2d.pipe.hw.AccelGraphicsConfig;
+import java.desktop.share.classes.sun.java2d.Disposer;
+import java.desktop.share.classes.sun.java2d.pipe.BufferedContext;
+import java.desktop.share.classes.sun.java2d.pipe.RenderQueue;
+import java.desktop.share.classes.sun.java2d.pipe.hw.AccelGraphicsConfig;
 import jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
 

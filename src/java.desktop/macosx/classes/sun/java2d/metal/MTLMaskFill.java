@@ -18,21 +18,35 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.java2d.metal;
 
-import sun.java2d.InvalidPipeException;
-import sun.java2d.SunGraphics2D;
-import sun.java2d.loops.CompositeType;
-import sun.java2d.loops.GraphicsPrimitive;
-import sun.java2d.loops.GraphicsPrimitiveMgr;
-import sun.java2d.loops.SurfaceType;
-import sun.java2d.pipe.BufferedMaskFill;
+package java.desktop.macosx.classes.sun.java2d.metal;
 
+
+import java.desktop.macosx.classes.sun.java2d.InvalidPipeException;
+import java.desktop.macosx.classes.sun.java2d.SunGraphics2D;
+import java.desktop.macosx.classes.sun.java2d.loops.CompositeType;
+import java.desktop.macosx.classes.sun.java2d.loops.GraphicsPrimitive;
+import java.desktop.macosx.classes.sun.java2d.loops.GraphicsPrimitiveMgr;
+import java.desktop.macosx.classes.sun.java2d.loops.SurfaceType;
+import java.desktop.macosx.classes.sun.java2d.pipe.BufferedMaskFill;
 import java.awt.Composite;
+import static java.desktop.macosx.classes.sun.java2d.loops.CompositeType.SrcNoEa;.extended
+import static java.desktop.macosx.classes.sun.java2d.loops.CompositeType.SrcOver;.extended
+import static java.desktop.macosx.classes.sun.java2d.loops.SurfaceType.*;.extended
 
-import static sun.java2d.loops.CompositeType.SrcNoEa;
-import static sun.java2d.loops.CompositeType.SrcOver;
-import static sun.java2d.loops.SurfaceType.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class MTLMaskFill extends BufferedMaskFill {
 

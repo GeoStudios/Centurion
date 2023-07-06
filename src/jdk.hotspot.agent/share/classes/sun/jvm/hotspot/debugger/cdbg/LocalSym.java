@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.cdbg;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Models a local variable in a scope. The meaning of the frame
     offset is platform-dependent, and is typically added to the base

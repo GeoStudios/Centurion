@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.instrument;
+package jdk.jfr.share.classes.jdk.jfr.internal.instrument;
+
 
 import java.io.ByteArrayInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.ClassReader;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.ClassVisitor;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.ClassWriter;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.MethodVisitor;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
+import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.Type;
 
-import jdk.internal.org.objectweb.asm.ClassReader;
-import jdk.internal.org.objectweb.asm.ClassVisitor;
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.org.objectweb.asm.MethodVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.Type;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class ConstructorTracerWriter extends ClassVisitor {
 

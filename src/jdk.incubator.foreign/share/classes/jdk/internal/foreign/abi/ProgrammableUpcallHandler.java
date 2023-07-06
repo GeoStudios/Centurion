@@ -19,36 +19,49 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.foreign.abi;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi;
 
-import jdk.incubator.foreign.MemoryAddress;
-import jdk.incubator.foreign.MemoryLayouts;
-import jdk.incubator.foreign.MemorySegment;
-import jdk.incubator.foreign.ResourceScope;
-import jdk.incubator.foreign.SegmentAllocator;
-import jdk.internal.access.JavaLangInvokeAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.foreign.MemoryAddressImpl;
+
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryAddress;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryLayouts;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.ResourceScope;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.SegmentAllocator;
+import jdk.incubator.foreign.share.classes.jdk.internal.access.JavaLangInvokeAccess;
+import jdk.incubator.foreign.share.classes.jdk.internal.access.SharedSecrets;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.MemoryAddressImpl;
 import sun.security.action.GetPropertyAction;
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import java.lang.invoke.VarHandle;
-import java.util.Arrays;
-import java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.stream.Stream;
+import static java.lang.invoke.MethodHandles.dropArguments;.extended
+import static java.lang.invoke.MethodHandles.filterReturnValue;.extended
+import static java.lang.invoke.MethodHandles.identity;.extended
+import static java.lang.invoke.MethodHandles.insertArguments;.extended
+import static java.lang.invoke.MethodHandles.lookup;.extended
+import static java.lang.invoke.MethodType.methodType;.extended
+import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.SharedUtils.mergeArguments;.extended
+import static sun.security.action.GetBooleanAction.privilegedGetProperty;.extended
 
-import static java.lang.invoke.MethodHandles.dropArguments;
-import static java.lang.invoke.MethodHandles.filterReturnValue;
-import static java.lang.invoke.MethodHandles.identity;
-import static java.lang.invoke.MethodHandles.insertArguments;
-import static java.lang.invoke.MethodHandles.lookup;
-import static java.lang.invoke.MethodType.methodType;
-import static jdk.internal.foreign.abi.SharedUtils.mergeArguments;
-import static sun.security.action.GetBooleanAction.privilegedGetProperty;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements upcall invocation from native code through a so called 'universal adapter'. A universal upcall adapter
@@ -219,7 +232,7 @@ public class ProgrammableUpcallHandler {
             Binding.VMLoad binding = argBindings[i];
             VMStorage storage = binding.storage();
             MemorySegment ptr = abi.arch.isStackType(storage.type())
-                ? stackArgsBase.asSlice(storage.index() * abi.arch.typeSize(abi.arch.stackType()))
+                ? stackArgsBase.asSlice((long) storage.index() * abi.arch.typeSize(abi.arch.stackType()))
                 : bufferBase.asSlice(layout.argOffset(storage));
             moves[i] = SharedUtils.read(ptr, binding.type());
         }

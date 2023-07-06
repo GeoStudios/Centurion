@@ -19,6 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package sax;
+
+
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.InvalidClassException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6857903
@@ -29,18 +55,8 @@
  * @author aleksej.efimov@oracle.com
  */
 
-package sax;
 
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.InvalidClassException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
-import org.xml.sax.SAXException;
 
 public class SAXExceptionInitCause {
 

@@ -18,22 +18,38 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.util.stream;
 
-import java.util.Comparator;
-import java.util.Objects;
-import java.util.Spliterator;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.atomic.AtomicLong;
-import java.util.function.BooleanSupplier;
-import java.util.function.Consumer;
-import java.util.function.DoubleConsumer;
-import java.util.function.DoubleSupplier;
-import java.util.function.IntConsumer;
-import java.util.function.IntSupplier;
-import java.util.function.LongConsumer;
-import java.util.function.LongSupplier;
-import java.util.function.Supplier;
+package java.base.share.classes.java.util.stream;
+
+
+import java.base.share.classes.java.util.Comparator;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Spliterator;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import java.base.share.classes.java.util.concurrent.atomic.AtomicLong;
+import java.base.share.classes.java.util.function.BooleanSupplier;
+import java.base.share.classes.java.util.function.Consumer;
+import java.base.share.classes.java.util.function.DoubleConsumer;
+import java.base.share.classes.java.util.function.DoubleSupplier;
+import java.base.share.classes.java.util.function.IntConsumer;
+import java.base.share.classes.java.util.function.IntSupplier;
+import java.base.share.classes.java.util.function.LongConsumer;
+import java.base.share.classes.java.util.function.LongSupplier;
+import java.base.share.classes.java.util.function.Supplier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Spliterator implementations for wrapping and delegating spliterators, used

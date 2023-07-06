@@ -19,31 +19,43 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.accessibility.internal;
+package jdk.accessibility.windows.classes.com.sun.java.accessibility.internal;
 
-import java.awt.*;
-import java.awt.event.*;
-import java.util.*;
-import java.lang.*;
-import java.lang.reflect.*;
 
-import java.beans.*;
+import jdk.accessibility.windows.classes.com.sun.java.awt.*;
+import jdk.accessibility.windows.classes.com.sun.java.awt.event.*;
+import jdk.accessibility.windows.classes.com.sun.java.util.*;
+import jdk.accessibility.windows.classes.com.sun.java.lang.*;
+import jdk.accessibility.windows.classes.com.sun.java.lang.reflect.*;
+import jdk.accessibility.windows.classes.com.sun.java.beans.*;
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.text.*;
 import javax.swing.tree.*;
 import javax.swing.table.*;
 import javax.swing.plaf.TreeUI;
-
 import javax.accessibility.*;
-import com.sun.java.accessibility.util.*;
-import java.awt.geom.Rectangle2D;
-import sun.awt.AWTAccessor;
-import sun.awt.AppContext;
-import sun.awt.SunToolkit;
-
+import jdk.accessibility.windows.classes.com.sun.java.accessibility.util.*;
+import jdk.accessibility.windows.classes.com.sun.java.awt.geom.Rectangle2D;
+import jdk.accessibility.windows.classes.com.sun.awt.AWTAccessor;
+import jdk.accessibility.windows.classes.com.sun.awt.AppContext;
+import jdk.accessibility.windows.classes.com.sun.awt.SunToolkit;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ConcurrentHashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Note: This class has to be public.  It's loaded from the VM like this:

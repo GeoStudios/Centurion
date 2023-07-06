@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.awt.peer;
 
-import java.awt.Checkbox;
-import java.awt.CheckboxGroup;
+package java.desktop.share.classes.java.awt.peer;
+
+
+import java.desktop.share.classes.java.awt.Checkbox;
+import java.desktop.share.classes.java.awt.CheckboxGroup;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The peer interface for {@link Checkbox}.

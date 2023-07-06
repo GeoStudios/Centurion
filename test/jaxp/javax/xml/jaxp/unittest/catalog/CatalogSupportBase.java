@@ -21,13 +21,13 @@
 
 package catalog;
 
-import static jaxp.library.JAXPTestUtilities.getSystemProperty;
 
+import static jaxp.library.JAXPTestUtilities.getSystemProperty;.extended
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.Reader;
 import java.io.StringReader;
@@ -77,6 +77,19 @@ import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.ext.DefaultHandler2;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base class:

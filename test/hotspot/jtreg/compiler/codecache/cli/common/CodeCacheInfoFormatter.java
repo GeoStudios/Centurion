@@ -18,11 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package compiler.codecache.cli.common;
 
-import sun.hotspot.code.BlobType;
 
-import java.util.Arrays;
+import sun.hotspot.code.BlobType;
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CodeCacheInfoFormatter {
     private static final String DEFAULT_SIZE_FORMAT = "[0-9]+Kb";

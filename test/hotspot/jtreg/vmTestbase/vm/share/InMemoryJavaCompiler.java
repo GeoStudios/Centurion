@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package vm.share;
+
 
 import javax.tools.FileObject;
 import javax.tools.ForwardingJavaFileManager;
@@ -33,9 +35,21 @@ import java.io.Writer;
 import java.net.URI;
 import java.util.Collection;
 import java.util.HashMap;
-import java.util.LinkedList;
+import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class InMemoryJavaCompiler {

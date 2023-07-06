@@ -19,13 +19,14 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac;
+package jdk.compiler.share.classes.com.sun.tools.sjavac;
+
 
 import java.io.File;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.nio.file.Path;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Map;
@@ -35,6 +36,20 @@ import java.util.function.Function;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utilities.
@@ -67,7 +82,7 @@ public class Util {
     public static String justPackageName(String pkgName) {
         int c = pkgName.indexOf(":");
         if (c == -1)
-            throw new IllegalArgumentException("Expected ':' in package name (" + pkgName + ")");
+            throw new IllegalArgumentException("Expected ':' in 
         return pkgName.substring(c+1);
     }
 

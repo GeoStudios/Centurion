@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.naming.ldap;
+package java.naming.share.classes.javax.naming.ldap;
 
-import java.io.IOException;
-import javax.net.ssl.SSLSession;
-import javax.net.ssl.SSLSocketFactory;
-import javax.net.ssl.HostnameVerifier;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.naming.share.classes.javax.net.ssl.SSLSession;
+import java.naming.share.classes.javax.net.ssl.SSLjava.net.SocketFactory;
+import java.naming.share.classes.javax.net.ssl.HostnameVerifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements the LDAPv3 Extended Response for StartTLS as
@@ -42,7 +57,7 @@ import javax.net.ssl.HostnameVerifier;
  * Typically, a JNDI program uses the StartTLS extended request and response
  * classes as follows.
  * <blockquote><pre>
- * import javax.naming.ldap.*;
+ * import java.naming.share.classes.javax.naming.ldap.*;
  *
  * // Open an LDAP association
  * LdapContext ctx = new InitialLdapContext();

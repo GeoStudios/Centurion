@@ -19,43 +19,50 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.dnd;
+package java.desktop.share.classes.sun.awt.dnd;
+
 
 import java.awt.Component;
 import java.awt.Point;
-
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.UnsupportedFlavorException;
-
 import java.awt.dnd.DnDConstants;
-
 import java.awt.dnd.DropTarget;
 import java.awt.dnd.DropTargetContext;
-import java.awt.dnd.DropTargetListener;
+import java.awt.dnd.DropTargetjava.util.Listener;
 import java.awt.dnd.DropTargetEvent;
 import java.awt.dnd.DropTargetDragEvent;
 import java.awt.dnd.DropTargetDropEvent;
 import java.awt.dnd.InvalidDnDOperationException;
-
 import java.awt.dnd.peer.DropTargetContextPeer;
-
 import java.util.HashSet;
 import java.util.Map;
-import java.util.Arrays;
-
-import sun.awt.AWTAccessor;
-import sun.awt.AWTAccessor.DropTargetContextAccessor;
-import sun.util.logging.PlatformLogger;
-
-import java.io.IOException;
+import java.base.share.classes.java.util.Arrays;
+import java.desktop.share.classes.sun.awt.AWTAccessor;
+import java.desktop.share.classes.sun.awt.AWTAccessor.DropTargetContextAccessor;
+import java.desktop.share.classes.sun.util.logging.PlatformLogger;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
+import java.desktop.share.classes.sun.awt.AppContext;
+import java.desktop.share.classes.sun.awt.AWTPermissions;
+import java.desktop.share.classes.sun.awt.SunToolkit;
+import java.desktop.share.classes.sun.awt.datatransfer.DataTransferer;
+import java.desktop.share.classes.sun.awt.datatransfer.ToolkitThreadBlockedHandler;
 
-import sun.awt.AppContext;
-import sun.awt.AWTPermissions;
-import sun.awt.SunToolkit;
-import sun.awt.datatransfer.DataTransferer;
-import sun.awt.datatransfer.ToolkitThreadBlockedHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>

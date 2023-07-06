@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.rmi.registry;
+package java.rmi.share.classes.java.rmi.registry;
 
-import java.rmi.RemoteException;
-import java.rmi.UnknownHostException;
+
+import java.rmi.share.classes.java.rmi.RemoteException;
+import java.rmi.share.classes.java.rmi.UnknownHostException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>RegistryHandler</code> is an interface used internally by the RMI

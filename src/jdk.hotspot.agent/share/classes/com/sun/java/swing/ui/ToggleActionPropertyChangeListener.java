@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.hotspot.agent.share.classes.com.sun.java.swing.ui;
 
-package com.sun.java.swing.ui;
 
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import jdk.hotspot.agent.share.classes.com.sun.java.beans.PropertyChangeEvent;
+import jdk.hotspot.agent.share.classes.com.sun.java.beans.PropertyChangejava.util.Listener;
 import javax.swing.AbstractButton;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ToggleActionPropertyChangeListener
     implements PropertyChangeListener

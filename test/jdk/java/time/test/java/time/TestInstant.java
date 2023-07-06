@@ -21,11 +21,24 @@
 
 package test.java.time;
 
-import java.time.Instant;
 
+import java.time.Instant;
 import org.testng.annotations.Test;
 import org.testng.annotations.DataProvider;
-import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertEquals;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test Instant.

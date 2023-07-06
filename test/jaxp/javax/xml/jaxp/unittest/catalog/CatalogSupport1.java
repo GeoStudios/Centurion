@@ -21,12 +21,11 @@
 
 package catalog;
 
-import static jaxp.library.JAXPTestUtilities.clearSystemProperty;
-import static jaxp.library.JAXPTestUtilities.setSystemProperty;
 
+import static jaxp.library.JAXPTestUtilities.clearSystemProperty;.extended
+import static jaxp.library.JAXPTestUtilities.setSystemProperty;.extended
 import java.io.File;
 import java.io.StringReader;
-
 import javax.xml.catalog.CatalogFeatures.Feature;
 import javax.xml.stream.XMLResolver;
 import javax.xml.transform.Source;
@@ -35,14 +34,26 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.sax.SAXSource;
 import javax.xml.transform.stax.StAXSource;
 import javax.xml.transform.stream.StreamSource;
-
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.ls.LSResourceResolver;
 import org.xml.sax.InputSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

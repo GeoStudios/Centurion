@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.logging.share.classes.java.util.logging;
 
-package java.util.logging;
 
-import java.nio.charset.Charset;
-import java.time.Instant;
-import java.time.format.DateTimeFormatter;
-import java.util.*;
+import java.logging.share.classes.java.nio.charset.Charset;
+import java.logging.share.classes.java.time.Instant;
+import java.logging.share.classes.java.time.format.DateTimeFormatter;
+import java.logging.share.classes.java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Format a LogRecord into a standard XML format.

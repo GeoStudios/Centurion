@@ -21,6 +21,24 @@
 
 package gc.arguments;
 
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestObjectTenuringFlags
  * @bug 6521376
@@ -34,10 +52,7 @@ package gc.arguments;
  * @run driver gc.arguments.TestObjectTenuringFlags
  */
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
-import java.util.*;
 
 public class TestObjectTenuringFlags {
   public static void main(String args[]) throws Exception {

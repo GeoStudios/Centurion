@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.*;
 import java.awt.peer.ComponentPeer;
 import java.lang.ref.WeakReference;
-import sun.awt.AWTAccessor;
+import java.desktop.unix.classes.sun.awt.AWTAccessor;
+import java.desktop.unix.classes.sun.awt.GlobalCursorManager;
+import java.desktop.unix.classes.sun.awt.SunToolkit;
 
-import sun.awt.GlobalCursorManager;
-import sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class XGlobalCursorManager extends GlobalCursorManager {
 
@@ -241,7 +255,7 @@ public final class XGlobalCursorManager extends GlobalCursorManager {
 
         XToolkit.awtLock();
         try {
-            pData =(long) XlibWrapper.XCreateFontCursor(XToolkit.getDisplay(), cursorType);
+            pData = XlibWrapper.XCreateFontCursor(XToolkit.getDisplay(), cursorType);
         }
         finally {
             XToolkit.awtUnlock();

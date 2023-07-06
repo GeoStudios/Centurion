@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.runtime.criticalnatives.lookup;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* @test
  * @bug 8167408
  * @requires (os.arch != "aarch64") & (os.arch != "arm") & (vm.flavor != "zero")
  * @run main/othervm/native -Xcomp -XX:+CriticalJNINatives compiler.runtime.criticalnatives.lookup.LookUp
  */
-package compiler.runtime.criticalnatives.lookup;
 public class LookUp {
     static {
         System.loadLibrary("CNLookUp");

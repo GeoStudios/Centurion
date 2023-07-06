@@ -19,17 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms;
+
+
+import java.base.share.classes.java.security.*;
+import java.security.spec.AlgorithmParameterSpec;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.XMLSignatureException;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.algorithms;
 
-import java.security.*;
-import java.security.spec.AlgorithmParameterSpec;
 
-import com.sun.org.apache.xml.internal.security.signature.XMLSignatureException;
-import org.w3c.dom.Element;
+
 
 public abstract class SignatureAlgorithmSpi {
 

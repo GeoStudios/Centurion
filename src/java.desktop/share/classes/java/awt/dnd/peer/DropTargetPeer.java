@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.dnd.peer;
+package java.desktop.share.classes.java.awt.dnd.peer;
 
-import java.awt.dnd.DropTarget;
+
+import java.desktop.share.classes.java.awt.dnd.DropTarget;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>

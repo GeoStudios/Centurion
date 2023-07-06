@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jca;
+package java.base.share.classes.sun.security.jca;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Simple class encapsulating a service type and algorithm for lookup.

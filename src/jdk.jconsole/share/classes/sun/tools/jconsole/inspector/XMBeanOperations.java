@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole.inspector;
+package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
+
 
 import javax.management.*;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import jdk.jconsole.share.classes.sun.tools.jconsole.MBeansTab;
 
-import sun.tools.jconsole.MBeansTab;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public class XMBeanOperations extends XOperations {

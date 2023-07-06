@@ -21,10 +21,23 @@
 
 package nsk.jvmti.VMObjectAlloc;
 
-import java.io.PrintStream;
 
+import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class vmobjalloc001 extends DebugeeClass {
 

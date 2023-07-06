@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.image;
+package java.desktop.share.classes.sun.awt.image;
+
 
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsEnvironment;
@@ -29,10 +30,23 @@ import java.awt.image.BufferedImage;
 import java.awt.image.VolatileImage;
 import java.util.Iterator;
 import java.util.concurrent.ConcurrentHashMap;
+import java.desktop.share.classes.sun.java2d.InvalidPipeException;
+import java.desktop.share.classes.sun.java2d.SurfaceData;
+import java.desktop.share.classes.sun.java2d.SurfaceDataProxy;
 
-import sun.java2d.InvalidPipeException;
-import sun.java2d.SurfaceData;
-import sun.java2d.SurfaceDataProxy;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The abstract base class that manages the various SurfaceData objects that

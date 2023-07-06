@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.joptsimple;
+package jdk.internal.opt.share.classes.jdk.internal.joptsimple;
 
-import java.util.List;
 
-import static java.util.Collections.*;
+import java.util.java.util.java.util.java.util.List;
+import static java.util.Collections.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Thrown when an option parser refers to an option that is not in fact configured already on the parser.

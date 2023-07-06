@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.net.httpserver;
+package jdk.httpserver.share.classes.sun.net.httpserver;
+
 
 import java.net.*;
 import java.io.*;
@@ -32,7 +33,21 @@ import javax.net.ssl.*;
 import com.sun.net.httpserver.*;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import sun.net.httpserver.HttpConnection.State;
+import jdk.httpserver.share.classes.sun.net.httpserver.HttpConnection.State;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides implementation for both HTTP and HTTPS

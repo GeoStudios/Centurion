@@ -21,6 +21,21 @@
 
 package com.sun.jndi.dns2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Zone {
     public String toString() { return "hi"; }
 }

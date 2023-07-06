@@ -21,6 +21,21 @@
 
 package test;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 abstract public class C {
     public abstract D_ambgs[] make(A iface); // abstract factory
 }

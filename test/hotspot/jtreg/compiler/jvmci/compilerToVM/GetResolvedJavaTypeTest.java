@@ -19,6 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci.compilerToVM;
+
+
+import jdk.internal.misc.Unsafe;
+import jdk.test.lib.Asserts;
+import jdk.vm.ci.hotspot.CompilerToVMHelper;
+import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
+import jdk.vm.ci.hotspot.HotSpotResolvedObjectType;
+import jdk.vm.ci.hotspot.PublicMetaspaceWrapperObject;
+import jdk.vm.ci.meta.ConstantPool;
+import sun.hotspot.WhiteBox;
+import java.lang.reflect.Field;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8136421
@@ -47,18 +73,8 @@
  *                   compiler.jvmci.compilerToVM.GetResolvedJavaTypeTest
  */
 
-package compiler.jvmci.compilerToVM;
 
-import jdk.internal.misc.Unsafe;
-import jdk.test.lib.Asserts;
-import jdk.vm.ci.hotspot.CompilerToVMHelper;
-import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
-import jdk.vm.ci.hotspot.HotSpotResolvedObjectType;
-import jdk.vm.ci.hotspot.PublicMetaspaceWrapperObject;
-import jdk.vm.ci.meta.ConstantPool;
-import sun.hotspot.WhiteBox;
 
-import java.lang.reflect.Field;
 
 public class GetResolvedJavaTypeTest {
     private static enum TestCase {

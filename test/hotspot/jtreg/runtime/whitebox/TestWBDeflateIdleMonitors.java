@@ -21,6 +21,25 @@
 
 package runtime.whitebox;
 
+
+import jdk.test.lib.Asserts;
+import jdk.test.lib.process.ProcessTools;
+import jdk.test.lib.process.OutputAnalyzer;
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8246477
@@ -32,10 +51,6 @@ package runtime.whitebox;
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run driver runtime.whitebox.TestWBDeflateIdleMonitors
  */
-import jdk.test.lib.Asserts;
-import jdk.test.lib.process.ProcessTools;
-import jdk.test.lib.process.OutputAnalyzer;
-import sun.hotspot.WhiteBox;
 
 public class TestWBDeflateIdleMonitors {
     static final int N_DELAY = 1000;  // delay between tries

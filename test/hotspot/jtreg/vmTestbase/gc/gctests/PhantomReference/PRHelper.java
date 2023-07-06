@@ -18,10 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package gc.gctests.PhantomReference;
+
 
 import java.lang.ref.PhantomReference;
 import java.lang.ref.ReferenceQueue;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Helper class that extends PhantomReference, that we can use

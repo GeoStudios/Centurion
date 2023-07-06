@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.mallocWithGC3;
+
+
+import nsk.share.test.*;
+import nsk.share.gc.*;
+import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -51,11 +70,7 @@
  * @run main/othervm/native/timeout=300 gc.gctests.mallocWithGC3.mallocWithGC3
  */
 
-package gc.gctests.mallocWithGC3;
 
-import nsk.share.test.*;
-import nsk.share.gc.*;
-import java.util.Vector;
 
 public class mallocWithGC3 extends TestBase {
         static {

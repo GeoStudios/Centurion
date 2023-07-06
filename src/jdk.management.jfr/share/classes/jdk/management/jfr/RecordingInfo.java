@@ -19,20 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.management.jfr;
+package jdk.management.jfr.share.classes.jdk.management.jfr;
+
 
 import java.time.Duration;
 import java.time.Instant;
 import java.util.LinkedHashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-
 import javax.management.openmbean.CompositeData;
 import javax.management.openmbean.TabularData;
+import jdk.management.jfr.share.classes.jdk.jfr.Recording;
+import jdk.management.jfr.share.classes.jdk.jfr.RecordingState;
+import jdk.management.jfr.share.classes.jdk.jfr.internal.management.ManagementSupport;
 
-import jdk.jfr.Recording;
-import jdk.jfr.RecordingState;
-import jdk.jfr.internal.management.ManagementSupport;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Management representation of a {@code Recording}.

@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.startup;
+
+
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import static jdk.test.lib.Asserts.assertTrue;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8023014
@@ -33,12 +53,8 @@
  * @run driver compiler.startup.SmallCodeCacheStartup
  */
 
-package compiler.startup;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
-import static jdk.test.lib.Asserts.assertTrue;
 
 public class SmallCodeCacheStartup {
     public static void main(String[] args) throws Exception {

@@ -21,6 +21,27 @@
 
 package gc.g1;
 
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.Collections;
+import jdk.test.lib.Asserts;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestVerifyGCType
  * @summary Test the VerifyGCType flag to ensure basic functionality.
@@ -31,13 +52,7 @@ package gc.g1;
  * @run driver gc.g1.TestVerifyGCType
  */
 
-import java.util.ArrayList;
-import java.util.Collections;
 
-import jdk.test.lib.Asserts;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import sun.hotspot.WhiteBox;
 
 public class TestVerifyGCType {
     public static final String VERIFY_TAG    = "[gc,verify]";

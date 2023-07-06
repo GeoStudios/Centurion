@@ -18,27 +18,41 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package com.sun.swingset3.demos.filechooser;
+
 
 import java.awt.*;
 import java.awt.color.ColorSpace;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.geom.AffineTransform;
 import java.awt.image.*;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.text.MessageFormat;
 import java.util.*;
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
-
 import com.sun.swingset3.demos.JGridPanel;
 import com.sun.swingset3.demos.ResourceManager;
 import com.sun.swingset3.DemoProperties;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * JFileChooserDemo

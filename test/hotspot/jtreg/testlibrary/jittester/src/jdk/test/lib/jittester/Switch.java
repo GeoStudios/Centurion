@@ -21,8 +21,22 @@
 
 package jdk.test.lib.jittester;
 
-import java.util.List;
+
+import java.util.java.util.java.util.java.util.List;
 import jdk.test.lib.jittester.visitors.Visitor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Switch extends IRNode {
     private final int caseBlockIdx;

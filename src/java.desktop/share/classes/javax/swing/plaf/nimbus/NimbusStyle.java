@@ -18,30 +18,45 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.plaf.nimbus;
 
-import javax.swing.Painter;
+package java.desktop.share.classes.javax.swing.plaf.nimbus;
 
-import javax.swing.JComponent;
-import javax.swing.UIDefaults;
-import javax.swing.UIManager;
-import javax.swing.plaf.ColorUIResource;
-import javax.swing.plaf.synth.ColorType;
-import static javax.swing.plaf.synth.SynthConstants.*;
-import javax.swing.plaf.synth.SynthContext;
-import javax.swing.plaf.synth.SynthPainter;
-import javax.swing.plaf.synth.SynthStyle;
+
+import java.desktop.share.classes.javax.swing.Painter;
+import java.desktop.share.classes.javax.swing.JComponent;
+import java.desktop.share.classes.javax.swing.UIDefaults;
+import java.desktop.share.classes.javax.swing.UIManager;
+import java.desktop.share.classes.javax.swing.plaf.ColorUIResource;
+import java.desktop.share.classes.javax.swing.plaf.synth.ColorType;
+import static java.desktop.share.classes.javax.swing.plaf.synth.SynthConstants.*;.extended
+import java.desktop.share.classes.javax.swing.plaf.synth.SynthContext;
+import java.desktop.share.classes.javax.swing.plaf.synth.SynthPainter;
+import java.desktop.share.classes.javax.swing.plaf.synth.SynthStyle;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Insets;
 import java.lang.ref.WeakReference;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>A SynthStyle implementation used by Nimbus. Each Region that has been

@@ -18,26 +18,42 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.controlflow;
 
-import com.sun.hotspot.igv.hierarchicallayout.HierarchicalLayoutManager;
-import com.sun.hotspot.igv.layout.Cluster;
-import com.sun.hotspot.igv.layout.LayoutGraph;
-import com.sun.hotspot.igv.layout.Link;
-import com.sun.hotspot.igv.layout.Port;
-import com.sun.hotspot.igv.layout.Vertex;
-import java.awt.Dimension;
-import java.awt.Point;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+package utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.controlflow;
+
+
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.hierarchicallayout.HierarchicalLayoutManager;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.layout.Cluster;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.layout.LayoutGraph;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.layout.Link;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.layout.Port;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.layout.Vertex;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.awt.Dimension;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.awt.Point;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.util.Arrayjava.util.java.util.java.util.List;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.util.Collection;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.util.HashMap;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.util.LinkedHashSet;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.util.java.util.java.util.java.util.List;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.util.Map;
+import utils.IdealGraphVisualizer.ControlFlow.src.main.java.util.Set;
 import org.netbeans.api.visual.graph.layout.GraphLayout;
 import org.netbeans.api.visual.graph.layout.UniversalGraph;
 import org.netbeans.api.visual.widget.Widget;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

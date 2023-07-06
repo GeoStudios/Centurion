@@ -21,10 +21,55 @@
 
 package build.tools.generatebreakiteratordata;
 
-import java.util.Enumeration;
-import java.util.ListResourceBundle;
-import java.util.Locale;
-import java.util.ResourceBundle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Generates datafile for BreakIterator.

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.regalloc;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8249603
@@ -28,7 +45,6 @@
  * @run main/othervm -Xcomp -XX:CompileCommand=compileonly,compiler.regalloc.TestC1OverlappingRegisterHint::*
  *                   compiler.regalloc.TestC1OverlappingRegisterHint
  */
-package compiler.regalloc;
 
 public class TestC1OverlappingRegisterHint {
 

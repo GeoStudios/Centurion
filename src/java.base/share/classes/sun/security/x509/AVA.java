@@ -19,20 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.x509;
+package java.base.share.classes.sun.security.x509;
+
 
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.Reader;
 import java.text.Normalizer;
 import java.util.*;
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
+import java.base.share.classes.sun.security.action.GetBooleanAction;
+import java.base.share.classes.sun.security.util.*;
+import java.base.share.classes.sun.security.pkcs.PKCS9Attribute;
 
-import static java.nio.charset.StandardCharsets.UTF_8;
 
-import sun.security.action.GetBooleanAction;
-import sun.security.util.*;
-import sun.security.pkcs.PKCS9Attribute;
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

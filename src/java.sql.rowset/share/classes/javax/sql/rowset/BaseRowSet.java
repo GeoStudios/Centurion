@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.sql.rowset;
+package java.sql.rowset.share.classes.javax.sql.rowset;
+
 
 import java.sql.*;
-import javax.sql.*;
+import java.sql.rowset.share.classes.javax.sql.*;
 import java.util.*;
 import java.io.*;
 import java.math.*;
 import java.io.Serializable;
+import java.sql.rowset.share.classes.javax.sql.rowset.serial.*;
 
-import javax.sql.rowset.serial.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An abstract class providing a <code>RowSet</code> object with its basic functionality.

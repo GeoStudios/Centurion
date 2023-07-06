@@ -18,12 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.util;
+
+package java.base.share.classes.java.util;
+
 
 import sun.util.logging.PlatformLogger;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.PrivilegedAction;
 
-import java.security.AccessController;
-import java.security.PrivilegedAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility class for detecting inadvertent uses of boxing in

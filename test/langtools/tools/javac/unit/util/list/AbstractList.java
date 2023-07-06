@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package util.list;
+
+
+import static com.sun.tools.javac.util.java.util.java.util.java.util.List.from;.extended
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug     6320536
@@ -30,10 +49,7 @@
  * @run main util.list.AbstractList
  */
 
-package util.list;
 
-import static com.sun.tools.javac.util.List.from;
-import java.util.List;
 
 public class AbstractList {
     public static void test(String... args) {

@@ -21,22 +21,21 @@
 
 package combo;
 
+
 import com.sun.source.tree.CompilationUnitTree;
 import com.sun.source.util.JavacTask;
-import com.sun.source.util.TaskListener;
+import com.sun.source.util.Taskjava.util.Listener;
 import com.sun.tools.javac.api.JavacTaskImpl;
 import com.sun.tools.javac.util.Assert;
 import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.List;
+import com.sun.tools.javac.util.java.util.java.util.java.util.List;
 import combo.ComboParameter.Resolver;
-
 import javax.lang.model.element.Element;
 import javax.tools.Diagnostic;
-import javax.tools.DiagnosticListener;
+import javax.tools.Diagnosticjava.util.Listener;
 import javax.tools.JavaFileObject;
 import javax.tools.SimpleJavaFileObject;
-
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.Writer;
 import java.net.URI;
 import java.util.function.Consumer;
@@ -44,6 +43,19 @@ import java.util.function.Function;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents a compilation task associated with a combo test instance. This is a small

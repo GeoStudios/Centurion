@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.image;
+
 
 import java.awt.AWTException;
 import java.awt.Color;
@@ -27,8 +29,20 @@ import java.awt.Rectangle;
 import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.image.BufferedImage;
-
 import org.netbeans.jemmy.JemmyException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Contains util methods to work with images.

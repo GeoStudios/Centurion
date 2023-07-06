@@ -21,10 +21,24 @@
 
 package nsk.jdi.EventQueue.remove;
 
+
 import jdk.test.lib.Utils;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the remove004 JDI test.

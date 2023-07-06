@@ -19,13 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-package sun.lwawt.macosx;
 
 import java.awt.Insets;
+import java.desktop.macosx.classes.sun.lwawt.PlatformComponent;
+import java.desktop.macosx.classes.sun.lwawt.PlatformWindow;
 
-import sun.lwawt.PlatformComponent;
-import sun.lwawt.PlatformWindow;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * On OSX {@code CPlatformComponent} stores pointer to the native CAlayer which

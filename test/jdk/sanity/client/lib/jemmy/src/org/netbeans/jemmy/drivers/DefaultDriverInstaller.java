@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.drivers;
+
 
 import org.netbeans.jemmy.ClassReference;
 import org.netbeans.jemmy.JemmyException;
@@ -28,10 +30,10 @@ import org.netbeans.jemmy.drivers.focus.APIFocusDriver;
 import org.netbeans.jemmy.drivers.focus.MouseFocusDriver;
 import org.netbeans.jemmy.drivers.lists.ChoiceDriver;
 import org.netbeans.jemmy.drivers.lists.JComboMouseDriver;
-import org.netbeans.jemmy.drivers.lists.JListMouseDriver;
+import org.netbeans.jemmy.drivers.lists.Jjava.util.ListMouseDriver;
 import org.netbeans.jemmy.drivers.lists.JTabMouseDriver;
 import org.netbeans.jemmy.drivers.lists.JTableHeaderDriver;
-import org.netbeans.jemmy.drivers.lists.ListKeyboardDriver;
+import org.netbeans.jemmy.drivers.lists.java.util.ListKeyboardDriver;
 import org.netbeans.jemmy.drivers.menus.DefaultJMenuDriver;
 import org.netbeans.jemmy.drivers.menus.QueueJMenuDriver;
 import org.netbeans.jemmy.drivers.scrolling.JScrollBarDriver;
@@ -48,6 +50,19 @@ import org.netbeans.jemmy.drivers.windows.DefaultInternalFrameDriver;
 import org.netbeans.jemmy.drivers.windows.DefaultWindowDriver;
 import org.netbeans.jemmy.drivers.windows.InternalFramePopupMenuDriver;
 import org.netbeans.jemmy.util.LookAndFeel;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Installs all necessary drivers for Jemmy operators except low-level drivers

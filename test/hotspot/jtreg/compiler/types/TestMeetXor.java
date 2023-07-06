@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.types;
+
+
+import java.util.Random;
+import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key randomness
@@ -28,10 +47,7 @@
  * @run main/othervm compiler.types.TestMeetXor -Xbatch -XX::CompileCommand=dontinline,*::test*
  */
 
-package compiler.types;
 
-import java.util.Random;
-import jdk.test.lib.Asserts;
 
 public class TestMeetXor {
     public static void main(String[] args) throws Exception {

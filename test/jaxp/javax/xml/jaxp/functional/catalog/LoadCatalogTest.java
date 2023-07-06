@@ -21,20 +21,32 @@
 
 package catalog;
 
-import static catalog.CatalogTestUtils.CATALOG_PUBLIC;
-import static catalog.CatalogTestUtils.CATALOG_SYSTEM;
-import static catalog.CatalogTestUtils.CATALOG_URI;
-import static catalog.CatalogTestUtils.catalogResolver;
-import static catalog.CatalogTestUtils.catalogUriResolver;
-import static catalog.ResolutionChecker.checkSysIdResolution;
-import static catalog.ResolutionChecker.checkUriResolution;
 
+import static catalog.CatalogTestUtils.CATALOG_PUBLIC;.extended
+import static catalog.CatalogTestUtils.CATALOG_SYSTEM;.extended
+import static catalog.CatalogTestUtils.CATALOG_URI;.extended
+import static catalog.CatalogTestUtils.catalogResolver;.extended
+import static catalog.CatalogTestUtils.catalogUriResolver;.extended
+import static catalog.ResolutionChecker.checkSysIdResolution;.extended
+import static catalog.ResolutionChecker.checkUriResolution;.extended
 import javax.xml.catalog.CatalogException;
 import javax.xml.catalog.CatalogResolver;
-
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

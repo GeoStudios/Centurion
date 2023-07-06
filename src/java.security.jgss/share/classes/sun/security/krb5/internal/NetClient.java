@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal;
+package java.security.jgss.share.classes.sun.security.krb5.internal;
+
 
 import java.io.*;
 import java.net.*;
-import sun.security.util.IOUtils;
+import java.security.jgss.share.classes.sun.security.util.IOUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class NetClient implements AutoCloseable {
     public static NetClient getInstance(String protocol, String hostname, int port,

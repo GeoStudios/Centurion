@@ -21,9 +21,23 @@
 
 package nsk.jdi.ReferenceType.locationsOfLine_ssi;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the locationsofline_ssi001 JDI test.

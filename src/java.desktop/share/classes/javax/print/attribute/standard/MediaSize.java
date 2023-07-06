@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.print.attribute.standard;
+package java.desktop.share.classes.javax.print.attribute.standard;
+
 
 import java.io.Serial;
 import java.util.HashMap;
 import java.util.Vector;
+import java.desktop.share.classes.javax.print.attribute.Attribute;
+import java.desktop.share.classes.javax.print.attribute.Size2DSyntax;
 
-import javax.print.attribute.Attribute;
-import javax.print.attribute.Size2DSyntax;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class {@code MediaSize} is a two-dimensional size valued printing attribute

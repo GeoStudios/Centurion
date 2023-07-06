@@ -21,16 +21,55 @@
 
 package build.tools.dtdbuilder;
 
-import javax.swing.text.html.parser.*;
-import java.io.IOException;
-import java.io.FileInputStream;
-import java.io.InputStream;
-import java.io.Reader;
-import java.io.InputStreamReader;
-import java.io.CharArrayReader;
-import java.io.FilterReader;
-import java.util.Stack;
-import java.net.URL;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A stream for reading HTML files. This stream takes care

@@ -18,13 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package nsk.share.jvmti.attach.loader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * EventObject.java
  *
  * Created on June 3, 2005, 1:27 PM
  */
 
-package nsk.share.jvmti.attach.loader;
 
 /**
  * This is a dummy object which is created by the ClEventHelper class

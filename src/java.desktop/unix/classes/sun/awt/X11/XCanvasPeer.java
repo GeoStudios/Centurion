@@ -18,15 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.awt.X11;
+
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.*;
 import java.awt.peer.*;
+import java.desktop.unix.classes.sun.awt.SunToolkit;
+import java.desktop.unix.classes.sun.awt.X11GraphicsConfig;
+import java.desktop.unix.classes.sun.awt.X11GraphicsDevice;
 
-import sun.awt.SunToolkit;
 
-import sun.awt.X11GraphicsConfig;
-import sun.awt.X11GraphicsDevice;
+
+
+
+
+
+
+
+
+
+
+
+
 
 class XCanvasPeer extends XComponentPeer implements CanvasPeer {
 

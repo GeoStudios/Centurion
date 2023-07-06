@@ -18,7 +18,24 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.nio.charset;
+
+package java.base.share.classes.java.nio.charset;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Constant definitions for the standard {@link Charset charsets}. These

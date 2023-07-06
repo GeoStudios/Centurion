@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.hotspot;
 
-import jdk.vm.ci.code.StackSlot;
-import jdk.vm.ci.code.site.DataPatch;
-import jdk.vm.ci.code.site.Site;
-import jdk.vm.ci.meta.Assumptions.Assumption;
-import jdk.vm.ci.meta.ResolvedJavaMethod;
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
+
+
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.code.StackSlot;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.code.site.DataPatch;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.code.site.Site;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.Assumptions.Assumption;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.ResolvedJavaMethod;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@link HotSpotCompiledCode} destined for installation as an nmethod.

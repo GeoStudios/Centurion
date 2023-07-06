@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package nsk.share.jdi;
+
 
 import java.io.*;
 import java.util.*;
@@ -28,6 +30,19 @@ import nsk.share.ObjectInstancesManager;
 import nsk.share.TestBug;
 import nsk.share.jpda.DebugeeArgumentHandler;
 import nsk.share.jpda.IOPipe;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * Debuggee class used in tests for heapwalking(tests for VirtualMachine.instanceCounts, ReferenceType.instances, ObjectReference.referrers).

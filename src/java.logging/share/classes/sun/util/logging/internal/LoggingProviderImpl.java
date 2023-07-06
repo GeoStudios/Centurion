@@ -19,8 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.logging.share.classes.sun.util.logging.internal;
 
-package sun.util.logging.internal;
 
 import java.security.AccessController;
 import java.security.PrivilegedAction;
@@ -28,12 +28,26 @@ import java.util.ResourceBundle;
 import java.util.function.Supplier;
 import java.lang.System.LoggerFinder;
 import java.lang.System.Logger;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.logging.LogManager;
 import jdk.internal.logger.DefaultLoggerFinder;
 import java.util.logging.LoggingPermission;
-import sun.util.logging.PlatformLogger;
-import sun.util.logging.PlatformLogger.ConfigurableBridge.LoggerConfiguration;
+import java.logging.share.classes.sun.util.logging.PlatformLogger;
+import java.logging.share.classes.sun.util.logging.PlatformLogger.ConfigurableBridge.LoggerConfiguration;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This {@code LoggingProviderImpl} is the JDK internal implementation of the

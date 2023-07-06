@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdeprscan;
+package jdk.jdeps.share.classes.com.sun.tools.jdeprscan;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Exception representing an error encountered during CSV parsing.

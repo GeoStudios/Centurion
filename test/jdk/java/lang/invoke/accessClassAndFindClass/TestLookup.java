@@ -19,17 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.lang.invoke;
+
+
+import org.testng.annotations.Test;
+import static java.lang.invoke.MethodHandles.*;.extended
+import static org.testng.AssertJUnit.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @compile TestLookup.java TestCls.java
  * @run testng/othervm -ea -esa test.java.lang.invoke.TestLookup
  */
-package test.java.lang.invoke;
 
-import org.testng.annotations.Test;
 
-import static java.lang.invoke.MethodHandles.*;
 
-import static org.testng.AssertJUnit.*;
 
 public class TestLookup {
 

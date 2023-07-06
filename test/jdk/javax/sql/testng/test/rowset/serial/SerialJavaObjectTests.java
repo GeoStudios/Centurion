@@ -18,16 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.rowset.serial;
 
+
 import java.lang.reflect.Field;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import javax.sql.rowset.RowSetMetaDataImpl;
 import javax.sql.rowset.serial.SerialException;
 import javax.sql.rowset.serial.SerialJavaObject;
-import static org.testng.Assert.*;
+import static org.testng.Assert.*;.extended
 import org.testng.annotations.Test;
 import util.BaseTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SerialJavaObjectTests extends BaseTest {
 

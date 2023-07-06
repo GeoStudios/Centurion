@@ -19,45 +19,57 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.parser;
+package jdk.compiler.share.classes.com.sun.tools.javac.parser;
+
 
 import java.util.*;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
-
-import com.sun.source.tree.CaseTree;
-import com.sun.source.tree.MemberReferenceTree.ReferenceMode;
-import com.sun.source.tree.ModuleTree.ModuleKind;
-
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.Source.Feature;
-import com.sun.tools.javac.parser.Tokens.*;
-import com.sun.tools.javac.parser.Tokens.Comment.CommentStyle;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.resources.CompilerProperties.Fragments;
-import com.sun.tools.javac.resources.CompilerProperties.Warnings;
-import com.sun.tools.javac.tree.*;
-import com.sun.tools.javac.tree.JCTree.*;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag;
-import com.sun.tools.javac.util.JCDiagnostic.Error;
-import com.sun.tools.javac.util.JCDiagnostic.Fragment;
-import com.sun.tools.javac.util.List;
-
-import static com.sun.tools.javac.parser.Tokens.TokenKind.*;
-import static com.sun.tools.javac.parser.Tokens.TokenKind.ASSERT;
-import static com.sun.tools.javac.parser.Tokens.TokenKind.CASE;
-import static com.sun.tools.javac.parser.Tokens.TokenKind.CATCH;
-import static com.sun.tools.javac.parser.Tokens.TokenKind.EQ;
-import static com.sun.tools.javac.parser.Tokens.TokenKind.GT;
-import static com.sun.tools.javac.parser.Tokens.TokenKind.IMPORT;
-import static com.sun.tools.javac.parser.Tokens.TokenKind.LT;
-import static com.sun.tools.javac.tree.JCTree.Tag.*;
-import static com.sun.tools.javac.resources.CompilerProperties.Fragments.ImplicitAndExplicitNotAllowed;
-import static com.sun.tools.javac.resources.CompilerProperties.Fragments.VarAndExplicitNotAllowed;
-import static com.sun.tools.javac.resources.CompilerProperties.Fragments.VarAndImplicitNotAllowed;
+import jdk.compiler.share.classes.com.sun.source.tree.CaseTree;
+import jdk.compiler.share.classes.com.sun.source.tree.MemberReferenceTree.ReferenceMode;
+import jdk.compiler.share.classes.com.sun.source.tree.ModuleTree.ModuleKind;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Source.Feature;
+import jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.Comment.CommentStyle;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Warnings;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Error;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Fragment;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import static jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.TokenKind.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.TokenKind.ASSERT;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.TokenKind.CASE;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.TokenKind.CATCH;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.TokenKind.EQ;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.TokenKind.GT;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.TokenKind.IMPORT;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.TokenKind.LT;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments.ImplicitAndExplicitNotAllowed;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments.VarAndExplicitNotAllowed;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments.VarAndImplicitNotAllowed;.extended
 import java.util.function.BiFunction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The parser maps a token sequence into an abstract syntax tree.

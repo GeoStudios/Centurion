@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.naming.ldap;
+package java.naming.share.classes.javax.naming.ldap;
 
-import java.util.List;
-import java.util.ArrayList;
 
-import javax.naming.InvalidNameException;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.naming.share.classes.javax.naming.InvalidNameException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * RFC2253Parser implements a recursive descent parser for a single DN.

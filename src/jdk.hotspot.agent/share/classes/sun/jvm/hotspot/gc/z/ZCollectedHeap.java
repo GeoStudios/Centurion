@@ -19,21 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.gc.z;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.z;
+
 
 import java.io.PrintStream;
 import java.util.Iterator;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Address;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.OopHandle;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared.CollectedHeap;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared.CollectedHeapName;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared.LiveRegionsClosure;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VM;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VMObjectFactory;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.Type;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.TypeDataBase;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.BitMapInterface;
 
-import sun.jvm.hotspot.debugger.Address;
-import sun.jvm.hotspot.debugger.OopHandle;
-import sun.jvm.hotspot.gc.shared.CollectedHeap;
-import sun.jvm.hotspot.gc.shared.CollectedHeapName;
-import sun.jvm.hotspot.gc.shared.LiveRegionsClosure;
-import sun.jvm.hotspot.runtime.VM;
-import sun.jvm.hotspot.runtime.VMObjectFactory;
-import sun.jvm.hotspot.types.Type;
-import sun.jvm.hotspot.types.TypeDataBase;
-import sun.jvm.hotspot.utilities.BitMapInterface;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Mirror class for ZCollectedHeap.
 

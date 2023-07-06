@@ -20,8 +20,24 @@
  */
 
 package pkg1;
+
+
 import java.util.Collection;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class A {
 
     /**

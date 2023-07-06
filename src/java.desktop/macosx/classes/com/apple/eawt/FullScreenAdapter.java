@@ -19,11 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.eawt;
+package java.desktop.macosx.classes.com.apple.eawt;
+
 
 import java.awt.Window;
+import java.desktop.macosx.classes.com.apple.eawt.event.FullScreenEvent;
 
-import com.apple.eawt.event.FullScreenEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Abstract adapter class for receiving fullscreen events. This class is provided

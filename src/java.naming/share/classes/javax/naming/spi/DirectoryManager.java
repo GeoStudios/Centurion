@@ -19,21 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.naming.spi;
+package java.naming.share.classes.javax.naming.spi;
+
 
 import java.util.Hashtable;
-
-import javax.naming.Context;
-import javax.naming.Name;
-import javax.naming.Reference;
-import javax.naming.Referenceable;
-import javax.naming.NamingException;
-import javax.naming.CannotProceedException;
-import javax.naming.directory.DirContext;
-import javax.naming.directory.Attributes;
-
+import java.naming.share.classes.javax.naming.Context;
+import java.naming.share.classes.javax.naming.Name;
+import java.naming.share.classes.javax.naming.Reference;
+import java.naming.share.classes.javax.naming.Referenceable;
+import java.naming.share.classes.javax.naming.NamingException;
+import java.naming.share.classes.javax.naming.CannotProceedException;
+import java.naming.share.classes.javax.naming.directory.DirContext;
+import java.naming.share.classes.javax.naming.directory.Attributes;
 import com.sun.naming.internal.ResourceManager;
 import com.sun.naming.internal.FactoryEnumeration;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

@@ -19,15 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
+
+
+import java.base.share.classes.java.util.Objects;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.LineNumber;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.bcel.internal.generic;
 
-import java.util.Objects;
 
-import com.sun.org.apache.bcel.internal.classfile.LineNumber;
+
 
 /**
  * This class represents a line number within a method, i.e., give an instruction

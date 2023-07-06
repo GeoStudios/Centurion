@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package org.tools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  *
  *
@@ -26,7 +43,6 @@
  * tests. This class is a "supporting" class which the agent puts on the boot
  * class path.
  */
-package org.tools;
 
 public class Tracer {
 

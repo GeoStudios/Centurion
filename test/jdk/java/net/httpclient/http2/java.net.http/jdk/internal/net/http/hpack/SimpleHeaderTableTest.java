@@ -18,26 +18,39 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.internal.net.http.hpack;
+
 
 import jdk.internal.net.http.hpack.SimpleHeaderTable.HeaderField;
 import org.testng.annotations.Test;
-
 import java.nio.charset.StandardCharsets;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import static jdk.internal.net.http.hpack.TestHelper.assertExceptionMessageContains;.extended
+import static jdk.internal.net.http.hpack.TestHelper.assertThrows;.extended
+import static jdk.internal.net.http.hpack.TestHelper.assertVoidThrows;.extended
+import static jdk.internal.net.http.hpack.TestHelper.newRandom;.extended
+import static java.lang.String.format;.extended
+import static org.testng.Assert.assertEquals;.extended
 
-import static jdk.internal.net.http.hpack.TestHelper.assertExceptionMessageContains;
-import static jdk.internal.net.http.hpack.TestHelper.assertThrows;
-import static jdk.internal.net.http.hpack.TestHelper.assertVoidThrows;
-import static jdk.internal.net.http.hpack.TestHelper.newRandom;
-import static java.lang.String.format;
-import static org.testng.Assert.assertEquals;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SimpleHeaderTableTest {
 

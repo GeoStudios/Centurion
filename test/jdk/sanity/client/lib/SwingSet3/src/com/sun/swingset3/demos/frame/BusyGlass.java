@@ -21,11 +21,25 @@
 
 package com.sun.swingset3.demos.frame;
 
+
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Cursor;
 import java.awt.Graphics;
 import javax.swing.JPanel;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * GlassPane component which can be set on toplevel

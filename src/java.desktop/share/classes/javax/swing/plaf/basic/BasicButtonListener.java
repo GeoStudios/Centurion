@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.basic;
+package java.desktop.share.classes.javax.swing.plaf.basic;
+
 
 import sun.swing.DefaultLookup;
 import sun.swing.SwingUtilities2;
@@ -27,11 +28,25 @@ import sun.swing.UIAction;
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.*;
-import javax.swing.*;
-import javax.swing.event.*;
-import javax.swing.plaf.ActionMapUIResource;
-import javax.swing.plaf.ButtonUI;
-import javax.swing.plaf.ComponentInputMapUIResource;
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.event.*;
+import java.desktop.share.classes.javax.swing.plaf.ActionMapUIResource;
+import java.desktop.share.classes.javax.swing.plaf.ButtonUI;
+import java.desktop.share.classes.javax.swing.plaf.ComponentInputMapUIResource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Button Listener

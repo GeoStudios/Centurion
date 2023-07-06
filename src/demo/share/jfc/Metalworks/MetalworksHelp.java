@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.jfc.Metalworks;
+
+
+import javax.swing.*;
+import java.awt.*;
+import java.net.URL;
+import java.net.MalformedURLException;
+import java.io.*;
+import javax.swing.text.*;
+import javax.swing.event.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -29,13 +54,6 @@
 
 
 
-import javax.swing.*;
-import java.awt.*;
-import java.net.URL;
-import java.net.MalformedURLException;
-import java.io.*;
-import javax.swing.text.*;
-import javax.swing.event.*;
 
 
 /**

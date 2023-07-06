@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.AWTEvent;
 import java.awt.Component;
@@ -35,11 +36,11 @@ import java.awt.LayoutManager;
 import java.awt.Rectangle;
 import java.awt.event.ActionEvent;
 import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
+import java.awt.event.Focusjava.util.Listener;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
+import java.awt.event.Mousejava.util.Listener;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.text.AttributedCharacterIterator;
 import java.text.AttributedCharacterIterator.Attribute;
 import java.text.CharacterIterator;
@@ -49,7 +50,6 @@ import java.text.Format.Field;
 import java.text.ParseException;
 import java.util.Calendar;
 import java.util.Map;
-
 import javax.swing.AbstractAction;
 import javax.swing.AbstractButton;
 import javax.swing.ActionMap;
@@ -73,14 +73,27 @@ import javax.swing.plaf.FontUIResource;
 import javax.swing.plaf.SpinnerUI;
 import javax.swing.plaf.UIResource;
 import javax.swing.text.InternationalFormatter;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.BooleanValue;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.Size;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.State;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIState;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIStateFactory;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingletonFromDefaultConstructor;
 
-import apple.laf.JRSUIConstants.BooleanValue;
-import apple.laf.JRSUIConstants.Size;
-import apple.laf.JRSUIConstants.State;
-import apple.laf.JRSUIState;
-import apple.laf.JRSUIStateFactory;
-import com.apple.laf.AquaUtils.RecyclableSingleton;
-import com.apple.laf.AquaUtils.RecyclableSingletonFromDefaultConstructor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is originally derived from BasicSpinnerUI, but they made everything

@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.text.html;
+package java.desktop.share.classes.javax.swing.text.html;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.Serial;
 import java.io.Serializable;
 import java.util.Hashtable;
+import java.desktop.share.classes.javax.swing.text.AttributeSet;
+import java.desktop.share.classes.javax.swing.text.StyleConstants;
+import java.desktop.share.classes.javax.swing.text.StyleContext;
 
-import javax.swing.text.AttributeSet;
-import javax.swing.text.StyleConstants;
-import javax.swing.text.StyleContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Constants used in the <code>HTMLDocument</code>.  These

@@ -19,15 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/**
- * @test
- * @bug 8072727
- */
-
 package org.openjdk.tests.java.util.stream;
 
-import java.util.List;
-import java.util.Objects;
+
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Objects;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
 import java.util.stream.LongStream;
@@ -35,11 +31,31 @@ import java.util.stream.OpTestCase;
 import java.util.stream.Stream;
 import java.util.stream.TestData;
 import java.util.stream.TestData.Factory;
-
-import static java.util.stream.ThrowableHelper.checkNPE;
-
+import static java.util.stream.ThrowableHelper.checkNPE;.extended
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * @test
+ * @bug 8072727
+ */
+
+
+
+
 
 @Test
 public class IterateTest extends OpTestCase {

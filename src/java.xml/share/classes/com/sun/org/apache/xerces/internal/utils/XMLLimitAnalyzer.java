@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.utils;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.utils;
 
-import com.sun.org.apache.xerces.internal.utils.XMLSecurityManager.Limit;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityManager.Limit;
 import java.util.Formatter;
 import java.util.HashMap;
 import java.util.Map;
 import jdk.xml.internal.JdkConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A helper for analyzing entity expansion limits

@@ -18,17 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package test.rowset.serial;
+
 
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import javax.sql.rowset.serial.SerialBlob;
 import javax.sql.rowset.serial.SerialException;
-import static org.testng.Assert.*;
+import static org.testng.Assert.*;.extended
 import org.testng.annotations.Test;
 import util.BaseTest;
 import util.StubBlob;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class SerialBlobTests extends BaseTest {
 

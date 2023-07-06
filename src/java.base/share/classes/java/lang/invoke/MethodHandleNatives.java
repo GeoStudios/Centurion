@@ -19,20 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
+
 
 import jdk.internal.access.JavaLangAccess;
-import jdk.internal.access.SharedSecrets;
-import jdk.internal.ref.CleanerFactory;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.ref.CleanerFactory;
 import sun.invoke.util.Wrapper;
+import java.base.share.classes.java.lang.invoke.MethodHandles.Lookup;
+import java.base.share.classes.java.lang.reflect.Field;
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.TRACE_METHOD_LINKAGE;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.UNSAFE;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;.extended
 
-import java.lang.invoke.MethodHandles.Lookup;
-import java.lang.reflect.Field;
 
-import static java.lang.invoke.MethodHandleNatives.Constants.*;
-import static java.lang.invoke.MethodHandleStatics.TRACE_METHOD_LINKAGE;
-import static java.lang.invoke.MethodHandleStatics.UNSAFE;
-import static java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The JVM interface for the method handles package is all here.

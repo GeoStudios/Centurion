@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
+
 
 import java.math.BigInteger;
 import java.util.*;
 import java.util.regex.Pattern;
 import javax.net.ssl.*;
-import sun.net.util.IPAddressUtil;
-import sun.security.action.GetPropertyAction;
+import java.base.share.classes.sun.net.util.IPAddressUtil;
+import java.base.share.classes.sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A utility class to share the static methods.

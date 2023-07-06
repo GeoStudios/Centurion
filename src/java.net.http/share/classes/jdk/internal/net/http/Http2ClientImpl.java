@@ -19,13 +19,14 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
+
 
 import java.io.EOFException;
-import java.io.IOException;
-import java.io.UncheckedIOException;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.net.ConnectException;
-import java.net.InetSocketAddress;
+import java.net.Inetjava.net.SocketAddress;
 import java.net.URI;
 import java.util.Base64;
 import java.util.Collections;
@@ -34,16 +35,30 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CompletableFuture;
-import jdk.internal.net.http.common.Log;
-import jdk.internal.net.http.common.Logger;
-import jdk.internal.net.http.common.MinimalFuture;
-import jdk.internal.net.http.common.Utils;
-import jdk.internal.net.http.frame.SettingsFrame;
-import static jdk.internal.net.http.frame.SettingsFrame.INITIAL_WINDOW_SIZE;
-import static jdk.internal.net.http.frame.SettingsFrame.ENABLE_PUSH;
-import static jdk.internal.net.http.frame.SettingsFrame.HEADER_TABLE_SIZE;
-import static jdk.internal.net.http.frame.SettingsFrame.MAX_CONCURRENT_STREAMS;
-import static jdk.internal.net.http.frame.SettingsFrame.MAX_FRAME_SIZE;
+import java.net.http.share.classes.jdk.internal.net.http.common.Log;
+import java.net.http.share.classes.jdk.internal.net.http.common.Logger;
+import java.net.http.share.classes.jdk.internal.net.http.common.MinimalFuture;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+import java.net.http.share.classes.jdk.internal.net.http.frame.SettingsFrame;
+import static java.net.http.share.classes.jdk.internal.net.http.frame.SettingsFrame.INITIAL_WINDOW_SIZE;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.frame.SettingsFrame.ENABLE_PUSH;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.frame.SettingsFrame.HEADER_TABLE_SIZE;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.frame.SettingsFrame.MAX_CONCURRENT_STREAMS;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.frame.SettingsFrame.MAX_FRAME_SIZE;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  Http2 specific aspects of HttpClientImpl

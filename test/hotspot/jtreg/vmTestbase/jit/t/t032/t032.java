@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.t.t032;
+
+
+import nsk.share.TestFailure;
+import nsk.share.GoldChecker;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,10 +49,7 @@
  * @run main/othervm jit.t.t032.t032
  */
 
-package jit.t.t032;
 
-import nsk.share.TestFailure;
-import nsk.share.GoldChecker;
 
 // opc_i2d, opc_i2f, opc_i2l
 // opc_l2d, opc_l2f, opc_l2i

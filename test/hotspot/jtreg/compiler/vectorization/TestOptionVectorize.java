@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.vectorization;
+
+
+import java.util.stream.IntStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8251994
@@ -28,9 +46,7 @@
  * @run main/othervm -XX:CompileCommand=option,*::test,Vectorize compiler.vectorization.TestOptionVectorize
  */
 
-package compiler.vectorization;
 
-import java.util.stream.IntStream;
 
 public class TestOptionVectorize {
     static final int RANGE = 512;

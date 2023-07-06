@@ -19,16 +19,15 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclint;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclint;
 
 
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.util.regex.Pattern;
-
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ElementKind;
 import javax.lang.model.element.ExecutableElement;
@@ -37,7 +36,6 @@ import javax.lang.model.type.TypeMirror;
 import javax.lang.model.util.Elements;
 import javax.lang.model.util.Types;
 import javax.tools.Diagnostic.Kind;
-
 import com.sun.source.doctree.DocCommentTree;
 import com.sun.source.tree.CompilationUnitTree;
 import com.sun.source.util.DocTrees;
@@ -48,6 +46,20 @@ import com.sun.tools.javac.model.JavacTypes;
 import com.sun.tools.javac.tree.JCTree;
 import com.sun.tools.javac.util.MatchingUtils;
 import com.sun.tools.javac.util.StringUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility container for current execution environment,

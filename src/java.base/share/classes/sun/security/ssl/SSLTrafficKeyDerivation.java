@@ -19,22 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.security.GeneralSecurityException;
-import java.security.ProviderException;
+import java.base.share.classes.java.security.ProviderException;
 import java.security.spec.AlgorithmParameterSpec;
 import javax.crypto.KeyGenerator;
-import javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.SecretKey;
 import javax.crypto.spec.IvParameterSpec;
-import javax.crypto.spec.SecretKeySpec;
+import java.base.share.classes.javax.crypto.spec.SecretKeySpec;
 import javax.net.ssl.SSLHandshakeException;
-import sun.security.internal.spec.TlsKeyMaterialParameterSpec;
-import sun.security.internal.spec.TlsKeyMaterialSpec;
-import sun.security.ssl.CipherSuite.HashAlg;
-import static sun.security.ssl.CipherSuite.HashAlg.H_NONE;
+import java.base.share.classes.sun.security.internal.spec.TlsKeyMaterialParameterSpec;
+import java.base.share.classes.sun.security.internal.spec.TlsKeyMaterialSpec;
+import java.base.share.classes.sun.security.ssl.CipherSuite.HashAlg;
+import static java.base.share.classes.sun.security.ssl.CipherSuite.HashAlg.H_NONE;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 enum SSLTrafficKeyDerivation implements SSLKeyDerivationGenerator {
     SSL30       ("kdf_ssl30", new S30TrafficKeyDerivationGenerator()),

@@ -19,6 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.vm.ci.hotspot.test;
+
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import jdk.vm.ci.code.VirtualObject;
+import jdk.vm.ci.code.test.VirtualObjectTestBase;
+import jdk.vm.ci.common.JVMCIError;
+import jdk.vm.ci.hotspot.HotSpotCompiledCode;
+import jdk.vm.ci.meta.JavaKind;
+import jdk.vm.ci.meta.JavaValue;
+import jdk.vm.ci.meta.ResolvedJavaType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @requires vm.jvmci
@@ -34,18 +60,8 @@
  *      jdk.vm.ci.hotspot.test.VirtualObjectLayoutTest
  */
 
-package jdk.vm.ci.hotspot.test;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
 
-import jdk.vm.ci.code.VirtualObject;
-import jdk.vm.ci.code.test.VirtualObjectTestBase;
-import jdk.vm.ci.common.JVMCIError;
-import jdk.vm.ci.hotspot.HotSpotCompiledCode;
-import jdk.vm.ci.meta.JavaKind;
-import jdk.vm.ci.meta.JavaValue;
-import jdk.vm.ci.meta.ResolvedJavaType;
 
 public class VirtualObjectLayoutTest extends VirtualObjectTestBase {
 

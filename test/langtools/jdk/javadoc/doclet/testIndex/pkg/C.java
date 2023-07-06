@@ -21,6 +21,21 @@
 
 package pkg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class C {
 
     //Test that Java appears before JDK in the index.  The fact

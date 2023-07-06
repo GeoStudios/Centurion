@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.stress.strace;
+
+
+import nsk.share.ArgumentParser;
+import nsk.share.Failure;
+import nsk.share.Log;
+import java.io.PrintStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress
@@ -105,13 +126,8 @@
  * @run main/othervm/native nsk.stress.strace.strace005
  */
 
-package nsk.stress.strace;
 
-import nsk.share.ArgumentParser;
-import nsk.share.Failure;
-import nsk.share.Log;
 
-import java.io.PrintStream;
 
 /**
  * The test checks up <code>java.lang.Thread.getStackTrace()</code> method for many threads,

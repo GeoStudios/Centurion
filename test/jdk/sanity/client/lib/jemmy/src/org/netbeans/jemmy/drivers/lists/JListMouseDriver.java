@@ -18,18 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.drivers.lists;
+
 
 import java.awt.Rectangle;
 import java.awt.event.InputEvent;
-
 import org.netbeans.jemmy.QueueTool;
 import org.netbeans.jemmy.drivers.DriverManager;
 import org.netbeans.jemmy.drivers.LightSupportiveDriver;
-import org.netbeans.jemmy.drivers.MultiSelListDriver;
+import org.netbeans.jemmy.drivers.MultiSeljava.util.ListDriver;
 import org.netbeans.jemmy.operators.ComponentOperator;
-import org.netbeans.jemmy.operators.JListOperator;
+import org.netbeans.jemmy.operators.Jjava.util.ListOperator;
 import org.netbeans.jemmy.operators.Operator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * List driver for javax.swing.JList component type.

@@ -19,34 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.windows;
+package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.ComponentOrientation;
-import java.awt.Container;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Insets;
-import java.awt.KeyboardFocusManager;
-import java.awt.LayoutManager;
-import java.awt.Rectangle;
-import java.awt.event.KeyListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
 
+import java.desktop.windows.classes.com.sun.java.awt.Color;
+import java.desktop.windows.classes.com.sun.java.awt.Component;
+import java.desktop.windows.classes.com.sun.java.awt.ComponentOrientation;
+import java.desktop.windows.classes.com.sun.java.awt.Container;
+import java.desktop.windows.classes.com.sun.java.awt.Dimension;
+import java.desktop.windows.classes.com.sun.java.awt.Graphics;
+import java.desktop.windows.classes.com.sun.java.awt.Insets;
+import java.desktop.windows.classes.com.sun.java.awt.KeyboardFocusManager;
+import java.desktop.windows.classes.com.sun.java.awt.LayoutManager;
+import java.desktop.windows.classes.com.sun.java.awt.Rectangle;
+import java.desktop.windows.classes.com.sun.java.awt.event.Keyjava.util.Listener;
+import java.desktop.windows.classes.com.sun.java.awt.event.MouseAdapter;
+import java.desktop.windows.classes.com.sun.java.awt.event.MouseEvent;
+import java.desktop.windows.classes.com.sun.java.awt.event.Mousejava.util.Listener;
+import java.desktop.windows.classes.com.sun.java.beans.PropertyChangeEvent;
+import java.desktop.windows.classes.com.sun.java.beans.PropertyChangejava.util.Listener;
 import javax.swing.ButtonModel;
 import javax.swing.ComboBoxEditor;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JComponent;
-import javax.swing.JList;
+import javax.swing.Jjava.util.java.util.java.util.List;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
-import javax.swing.ListCellRenderer;
+import javax.swing.java.util.ListCellRenderer;
 import javax.swing.UIManager;
 import javax.swing.border.Border;
 import javax.swing.border.EmptyBorder;
@@ -56,14 +56,26 @@ import javax.swing.plaf.basic.BasicComboBoxRenderer;
 import javax.swing.plaf.basic.BasicComboBoxUI;
 import javax.swing.plaf.basic.BasicComboPopup;
 import javax.swing.plaf.basic.ComboPopup;
+import java.desktop.windows.classes.com.sun.java.swing.plaf.windows.WindowsBorders.DashedBorder;
+import java.desktop.windows.classes.com.sun.swing.DefaultLookup;
+import java.desktop.windows.classes.com.sun.swing.StringUIClientPropertyKey;
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Part;.extended
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.State;.extended
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.Skin;.extended
 
-import com.sun.java.swing.plaf.windows.WindowsBorders.DashedBorder;
-import sun.swing.DefaultLookup;
-import sun.swing.StringUIClientPropertyKey;
 
-import static com.sun.java.swing.plaf.windows.TMSchema.Part;
-import static com.sun.java.swing.plaf.windows.TMSchema.State;
-import static com.sun.java.swing.plaf.windows.XPStyle.Skin;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Windows combo box.

@@ -19,6 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.java2d.J2DBench.src.j2dbench.tests.iio;
+
+
+import java.io.File;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.FileOutputStream;
+import java.io.OutputStream;
+import javax.imageio.ImageIO;
+import javax.imageio.stream.ImageInputStream;
+import demo.share.java2d.J2DBench.src.j2dbench.Group;
+import demo.share.java2d.J2DBench.src.j2dbench.Result;
+import demo.share.java2d.J2DBench.src.j2dbench.TestEnvironment;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -28,18 +55,9 @@
  */
 
 
-package j2dbench.tests.iio;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.FileOutputStream;
-import java.io.OutputStream;
-import javax.imageio.ImageIO;
-import javax.imageio.stream.ImageInputStream;
 
-import j2dbench.Group;
-import j2dbench.Result;
-import j2dbench.TestEnvironment;
+
 
 abstract class InputStreamTests extends InputTests {
 

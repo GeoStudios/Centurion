@@ -21,31 +21,43 @@
 
 package jdk.jfr.event.gc.collection;
 
-import static java.lang.System.gc;
-import static java.lang.Thread.sleep;
-import static java.util.Set.of;
-import static java.util.stream.Collectors.joining;
-import static java.util.stream.Collectors.toList;
-import static java.util.stream.Collectors.toSet;
-import static java.util.stream.IntStream.range;
-import static jdk.test.lib.Asserts.assertEquals;
-import static jdk.test.lib.Asserts.assertTrue;
-import static jdk.test.lib.jfr.Events.fromRecording;
-import static sun.hotspot.WhiteBox.getWhiteBox;
 
-import java.io.IOException;
+import static java.lang.System.gc;.extended
+import static java.lang.Thread.sleep;.extended
+import static java.util.Set.of;.extended
+import static java.util.stream.Collectors.joining;.extended
+import static java.util.stream.Collectors.tojava.util.java.util.java.util.List;.extended
+import static java.util.stream.Collectors.toSet;.extended
+import static java.util.stream.IntStream.range;.extended
+import static jdk.test.lib.Asserts.assertEquals;.extended
+import static jdk.test.lib.Asserts.assertTrue;.extended
+import static jdk.test.lib.jfr.Events.fromRecording;.extended
+import static sun.hotspot.WhiteBox.getWhiteBox;.extended
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.ref.WeakReference;
 import java.math.BigDecimal;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
-
 import gc.testlibrary.g1.MixedGCProvoker;
 import jdk.jfr.Recording;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.jfr.EventNames;
 import sun.hotspot.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.mlvm.meth.stress.gc.createLotsOfMHConsts;
+
+
+import nsk.share.test.Stresser;
+import vm.mlvm.share.ClassfileGeneratorTest;
+import vm.mlvm.share.Env;
+import vm.mlvm.share.MlvmTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -54,12 +74,7 @@
  *      -generator vm.mlvm.cp.share.GenCPFullOfMH
  */
 
-package vm.mlvm.meth.stress.gc.createLotsOfMHConsts;
 
-import nsk.share.test.Stresser;
-import vm.mlvm.share.ClassfileGeneratorTest;
-import vm.mlvm.share.Env;
-import vm.mlvm.share.MlvmTest;
 
 public class Test extends ClassfileGeneratorTest {
 

@@ -19,18 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.dcmd;
+package jdk.jfr.share.classes.jdk.jfr.internal.dcmd;
+
+
+import jdk.jfr.share.classes.jdk.jfr.FlightRecorder;
+import jdk.jfr.share.classes.jdk.jfr.internal.LogLevel;
+import jdk.jfr.share.classes.jdk.jfr.internal.LogTag;
+import jdk.jfr.share.classes.jdk.jfr.internal.Logger;
+import jdk.jfr.share.classes.jdk.jfr.internal.Options;
+import jdk.jfr.share.classes.jdk.jfr.internal.PrivateAccess;
+import jdk.jfr.share.classes.jdk.jfr.internal.Repository;
+import jdk.jfr.share.classes.jdk.jfr.internal.SecuritySupport.SafePath;
 
 
 
-import jdk.jfr.FlightRecorder;
-import jdk.jfr.internal.LogLevel;
-import jdk.jfr.internal.LogTag;
-import jdk.jfr.internal.Logger;
-import jdk.jfr.internal.Options;
-import jdk.jfr.internal.PrivateAccess;
-import jdk.jfr.internal.Repository;
-import jdk.jfr.internal.SecuritySupport.SafePath;
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * JFR.configure - invoked from native

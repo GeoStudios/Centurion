@@ -19,18 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.handlers;
+package jdk.jfr.share.classes.jdk.jfr.internal.handlers;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import jdk.jfr.share.classes.jdk.jfr.EventType;
+import jdk.jfr.share.classes.jdk.jfr.internal.EventControl;
+import jdk.jfr.share.classes.jdk.jfr.internal.JVM;
+import jdk.jfr.share.classes.jdk.jfr.internal.PlatformEventType;
+import jdk.jfr.share.classes.jdk.jfr.internal.PrivateAccess;
+import jdk.jfr.share.classes.jdk.jfr.internal.StringPool;
 
-import jdk.jfr.EventType;
-import jdk.jfr.internal.EventControl;
-import jdk.jfr.internal.JVM;
-import jdk.jfr.internal.PlatformEventType;
-import jdk.jfr.internal.PrivateAccess;
-import jdk.jfr.internal.StringPool;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Users should not be subclass for security reasons.
 public abstract class EventHandler {

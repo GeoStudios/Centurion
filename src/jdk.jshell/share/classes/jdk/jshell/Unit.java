@@ -19,36 +19,51 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jshell;
+package jdk.jshell.share.classes.jdk.jshell;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import java.util.stream.Stream;
-import jdk.jshell.ClassTracker.ClassInfo;
-import jdk.jshell.Snippet.Kind;
-import jdk.jshell.Snippet.Status;
-import jdk.jshell.Snippet.SubKind;
-import jdk.jshell.TaskFactory.AnalyzeTask;
-import jdk.jshell.TaskFactory.CompileTask;
-import jdk.jshell.spi.ExecutionControl.ClassBytecodes;
-import jdk.jshell.spi.ExecutionControl.ClassInstallException;
-import jdk.jshell.spi.ExecutionControl.EngineTerminationException;
-import jdk.jshell.spi.ExecutionControl.NotImplementedException;
-import static java.util.stream.Collectors.toSet;
-import static jdk.internal.jshell.debug.InternalDebugControl.DBG_EVNT;
-import static jdk.internal.jshell.debug.InternalDebugControl.DBG_GEN;
-import static jdk.internal.jshell.debug.InternalDebugControl.DBG_WRAP;
-import static jdk.jshell.Snippet.Status.OVERWRITTEN;
-import static jdk.jshell.Snippet.Status.RECOVERABLE_DEFINED;
-import static jdk.jshell.Snippet.Status.RECOVERABLE_NOT_DEFINED;
-import static jdk.jshell.Snippet.Status.REJECTED;
-import static jdk.jshell.Snippet.Status.VALID;
-import static jdk.jshell.Util.PARSED_LOCALE;
-import static jdk.jshell.Util.expunge;
+import jdk.jshell.share.classes.jdk.jshell.ClassTracker.ClassInfo;
+import jdk.jshell.share.classes.jdk.jshell.Snippet.Kind;
+import jdk.jshell.share.classes.jdk.jshell.Snippet.Status;
+import jdk.jshell.share.classes.jdk.jshell.Snippet.SubKind;
+import jdk.jshell.share.classes.jdk.jshell.TaskFactory.AnalyzeTask;
+import jdk.jshell.share.classes.jdk.jshell.TaskFactory.CompileTask;
+import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionControl.ClassBytecodes;
+import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionControl.ClassInstallException;
+import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionControl.EngineTerminationException;
+import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionControl.NotImplementedException;
+import static java.util.stream.Collectors.toSet;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.debug.InternalDebugControl.DBG_EVNT;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.debug.InternalDebugControl.DBG_GEN;.extended
+import static jdk.jshell.share.classes.jdk.internal.jshell.debug.InternalDebugControl.DBG_WRAP;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Snippet.Status.OVERWRITTEN;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Snippet.Status.RECOVERABLE_DEFINED;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Snippet.Status.RECOVERABLE_NOT_DEFINED;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Snippet.Status.REJECTED;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Snippet.Status.VALID;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Util.PARSED_LOCALE;.extended
+import static jdk.jshell.share.classes.jdk.jshell.Util.expunge;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Tracks the compilation and load of a new or updated snippet.

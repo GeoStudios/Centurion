@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.compiler.jbe.subcommon.subcommon01;
+
+
+import java.io.PrintStream;
+import java.lang.Exception;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,15 +49,12 @@
  * @run main/othervm vm.compiler.jbe.subcommon.subcommon01.subcommon01
  */
 
-package vm.compiler.jbe.subcommon.subcommon01;
 
 /* -- Common subexpression elimination testing
 Using both global and local common subexpressions in methods b5()
 and b6() below to test common subexpression.
  */
 
-import java.io.PrintStream;
-import java.lang.Exception;
 
 public class subcommon01 {
   static final int LEN = 500;

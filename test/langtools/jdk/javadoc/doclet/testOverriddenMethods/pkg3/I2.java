@@ -21,6 +21,21 @@
 
 package pkg3;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public interface I2 {
 
         public void foo();

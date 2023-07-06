@@ -19,26 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/* @test
- * @summary test access checking by java.lang.invoke.MethodHandles.Lookup
- * @compile AccessControlTest.java AccessControlTest_subpkg/Acquaintance_remote.java
- * @run testng/othervm test.java.lang.invoke.AccessControlTest
- */
+package test.java.lang.invoke.AccessControlTest_subpkg;
 
-package test.java.lang.invoke;
 
 import java.lang.invoke.*;
 import java.lang.reflect.*;
 import java.lang.reflect.Modifier;
 import java.util.*;
 import org.testng.annotations.*;
-
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodHandles.Lookup.*;
-import static java.lang.invoke.MethodType.*;
-import static org.testng.Assert.*;
-
+import static java.lang.invoke.MethodHandles.*;.extended
+import static java.lang.invoke.MethodHandles.Lookup.*;.extended
+import static java.lang.invoke.MethodType.*;.extended
+import static org.testng.Assert.*;.extended
 import test.java.lang.invoke.AccessControlTest_subpkg.Acquaintance_remote;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @test
+ * @summary test access checking by java.lang.invoke.MethodHandles.Lookup
+ * @compile AccessControlTest.java AccessControlTest_subpkg/Acquaintance_remote.java
+ * @run testng/othervm test.java.lang.invoke.AccessControlTest
+ */
+
+
+
+
 
 
 /**
@@ -675,7 +691,6 @@ class AccessControlTest_sibling {
 
 // This guy tests access from outside the package:
 /*
-package test.java.lang.invoke.AccessControlTest_subpkg;
 public class Acquaintance_remote {
     public static Lookup[] lookups() { ...
     }

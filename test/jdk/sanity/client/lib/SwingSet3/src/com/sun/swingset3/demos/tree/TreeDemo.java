@@ -18,19 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package com.sun.swingset3.demos.tree;
+
 
 import java.awt.*;
 import java.io.BufferedReader;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
 import javax.swing.*;
 import javax.swing.tree.DefaultMutableTreeNode;
-
 import com.sun.swingset3.DemoProperties;
 import com.sun.swingset3.demos.ResourceManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * JTree Demo

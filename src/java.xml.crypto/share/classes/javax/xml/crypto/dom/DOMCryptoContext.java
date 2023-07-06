@@ -18,19 +18,38 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-/*
- * $Id: DOMCryptoContext.java,v 1.3 2005/05/09 18:33:26 mullan Exp $
- */
-package javax.xml.crypto.dom;
 
-import javax.xml.crypto.KeySelector;
-import javax.xml.crypto.URIDereferencer;
-import javax.xml.crypto.XMLCryptoContext;
+package java.xml.crypto.share.classes.javax.xml.crypto.dom;
+
+
+import java.xml.crypto.share.classes.javax.xml.crypto.KeySelector;
+import java.xml.crypto.share.classes.javax.xml.crypto.URIDereferencer;
+import java.xml.crypto.share.classes.javax.xml.crypto.XMLCryptoContext;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import org.w3c.dom.Element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * $Id: DOMCryptoContext.java,v 1.3 2005/05/09 18:33:26 mullan Exp $
+ */
+
+
 
 /**
  * This class provides a DOM-specific implementation of the

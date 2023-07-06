@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.escapeAnalysis;
+
+
+import java.lang.reflect.Array;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6689060
@@ -29,9 +47,7 @@
  *                   compiler.escapeAnalysis.Test6689060
  */
 
-package compiler.escapeAnalysis;
 
-import java.lang.reflect.Array;
 
 public class Test6689060 {
     static class Point {

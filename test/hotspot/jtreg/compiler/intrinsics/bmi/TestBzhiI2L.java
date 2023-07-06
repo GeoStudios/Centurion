@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.bmi;
+
+
+import jdk.test.lib.Platform;
+import sun.hotspot.cpuinfo.CPUInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @key randomness
@@ -33,10 +52,7 @@
  *                   -XX:+WhiteBoxAPI compiler.intrinsics.bmi.TestBzhiI2L
  */
 
-package compiler.intrinsics.bmi;
 
-import jdk.test.lib.Platform;
-import sun.hotspot.cpuinfo.CPUInfo;
 
 public class TestBzhiI2L {
 

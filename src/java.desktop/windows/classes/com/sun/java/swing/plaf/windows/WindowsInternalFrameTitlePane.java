@@ -19,10 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.windows;
+package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-import sun.swing.SwingUtilities2;
 
+import java.desktop.windows.classes.com.sun.swing.SwingUtilities2;
 import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.UIManager;
@@ -31,11 +31,24 @@ import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangejava.util.Listener;
 import java.beans.PropertyVetoException;
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.*;.extended
+import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.Skin;.extended
 
-import static com.sun.java.swing.plaf.windows.TMSchema.*;
-import static com.sun.java.swing.plaf.windows.XPStyle.Skin;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // Superclass is not serializable across versions
 public class WindowsInternalFrameTitlePane extends BasicInternalFrameTitlePane {

@@ -18,30 +18,45 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.security.ssl;
 
-import java.io.IOException;
+package java.base.share.classes.sun.security.ssl;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.text.MessageFormat;
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Locale;
-import java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import javax.crypto.Mac;
-import javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.SecretKey;
 import javax.net.ssl.SSLPeerUnverifiedException;
 import javax.net.ssl.SSLProtocolException;
-import static sun.security.ssl.ClientAuthType.CLIENT_AUTH_REQUIRED;
-import sun.security.ssl.ClientHello.ClientHelloMessage;
-import sun.security.ssl.SSLExtension.ExtensionConsumer;
-import sun.security.ssl.SSLExtension.SSLExtensionSpec;
-import sun.security.ssl.SSLHandshake.HandshakeMessage;
-import sun.security.ssl.SessionTicketExtension.SessionTicketSpec;
-import sun.security.util.HexDumpEncoder;
+import static java.base.share.classes.sun.security.ssl.ClientAuthType.CLIENT_AUTH_REQUIRED;.extended
+import java.base.share.classes.sun.security.ssl.ClientHello.ClientHelloMessage;
+import java.base.share.classes.sun.security.ssl.SSLExtension.ExtensionConsumer;
+import java.base.share.classes.sun.security.ssl.SSLExtension.SSLExtensionSpec;
+import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
+import java.base.share.classes.sun.security.ssl.SessionTicketExtension.SessionTicketSpec;
+import java.base.share.classes.sun.security.util.HexDumpEncoder;
+import static java.base.share.classes.sun.security.ssl.SSLExtension.*;.extended
 
-import static sun.security.ssl.SSLExtension.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Pack of the "pre_shared_key" extension.

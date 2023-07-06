@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c1;
+
+
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8239083
@@ -27,11 +47,7 @@
  * @run main/othervm -Xbatch -XX:TieredStopAtLevel=3 compiler.c1.TestStaticInterfaceMethodCall
  */
 
-package compiler.c1;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodType;
 
 public class TestStaticInterfaceMethodCall {
 

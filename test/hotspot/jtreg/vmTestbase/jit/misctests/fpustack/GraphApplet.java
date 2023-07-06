@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jit.misctests.fpustack;
+
+
+import java.util.*;
+import java.awt.*;
+import java.applet.Applet;
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key headful
@@ -31,12 +52,7 @@
  * @run main/othervm jit.misctests.fpustack.GraphApplet
  */
 
-package jit.misctests.fpustack;
 
-import java.util.*;
-import java.awt.*;
-import java.applet.Applet;
-import nsk.share.TestFailure;
 
 
 public class GraphApplet extends Applet {

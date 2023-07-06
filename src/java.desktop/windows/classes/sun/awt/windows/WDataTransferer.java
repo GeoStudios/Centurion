@@ -19,21 +19,18 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.windows;
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.awt.Image;
 import java.awt.Graphics2D;
 import java.awt.Transparency;
-
 import java.awt.color.ColorSpace;
-
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.FlavorTable;
 import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.UnsupportedFlavorException;
-
 import java.awt.geom.AffineTransform;
-
 import java.awt.image.BufferedImage;
 import java.awt.image.ColorModel;
 import java.awt.image.ComponentColorModel;
@@ -44,35 +41,42 @@ import java.awt.image.DirectColorModel;
 import java.awt.image.ImageObserver;
 import java.awt.image.Raster;
 import java.awt.image.WritableRaster;
-
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.io.File;
-
 import java.net.URL;
-
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.SortedMap;
-
-import sun.awt.Mutex;
-import sun.awt.datatransfer.DataTransferer;
-import sun.awt.datatransfer.ToolkitThreadBlockedHandler;
-
-import sun.awt.image.ImageRepresentation;
-import sun.awt.image.ToolkitImage;
-
-import java.util.ArrayList;
-
+import java.desktop.windows.classes.sun.awt.Mutex;
+import java.desktop.windows.classes.sun.awt.datatransfer.DataTransferer;
+import java.desktop.windows.classes.sun.awt.datatransfer.ToolkitThreadBlockedHandler;
+import java.desktop.windows.classes.sun.awt.image.ImageRepresentation;
+import java.desktop.windows.classes.sun.awt.image.ToolkitImage;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.io.ByteArrayOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Platform-specific support for the data transfer subsystem.

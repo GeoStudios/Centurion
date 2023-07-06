@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.transform.stax;
+package java.xml.share.classes.javax.xml.transform.stax;
 
-import javax.xml.stream.XMLEventWriter;
-import javax.xml.stream.XMLStreamWriter;
-import javax.xml.transform.Result;
+
+import java.xml.share.classes.javax.xml.stream.XMLEventWriter;
+import java.xml.share.classes.javax.xml.stream.XMLStreamWriter;
+import java.xml.share.classes.javax.xml.transform.Result;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Acts as a holder for an XML {@link Result} in the

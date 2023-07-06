@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8244724
@@ -27,9 +45,7 @@
  * @compile -XDstringConcat=inline TestLiveNodeLimit.java
  * @run main/othervm -Xcomp -XX:CompileCommand=compileonly,compiler.c2.TestLiveNodeLimit::test* compiler.c2.TestLiveNodeLimit
  */
-package compiler.c2;
 
-import java.util.ArrayList;
 
 public class TestLiveNodeLimit {
 

@@ -18,12 +18,14 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package gc.gctests.StringInternSyncWithGC;
+
 
 import java.lang.ref.Reference;
 import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 import nsk.share.TestBug;
@@ -31,6 +33,19 @@ import nsk.share.TestFailure;
 import nsk.share.gc.gp.string.RandomStringProducer;
 import nsk.share.test.ExecutionController;
 import nsk.share.test.LocalRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class StringGenerator implements Runnable {
 

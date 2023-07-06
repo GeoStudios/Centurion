@@ -21,13 +21,26 @@
 
 package jdk.jpackage.internal;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import org.junit.Test;
 import org.junit.Rule;
 import org.junit.rules.TemporaryFolder;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertTrue;.extended
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class ApplicationLayoutTest {

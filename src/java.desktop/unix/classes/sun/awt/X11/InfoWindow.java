@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.BorderLayout;
 import java.awt.Button;
@@ -40,16 +41,29 @@ import java.awt.Rectangle;
 import java.awt.Toolkit;
 import java.awt.Window;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.Actionjava.util.Listener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.text.BreakIterator;
 import java.util.concurrent.ArrayBlockingQueue;
+import java.desktop.unix.classes.sun.awt.SunToolkit;
+import java.desktop.unix.classes.sun.awt.UNIXToolkit;
 
-import sun.awt.SunToolkit;
-import sun.awt.UNIXToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An utility window class. This is a base class for Tooltip and Balloon.

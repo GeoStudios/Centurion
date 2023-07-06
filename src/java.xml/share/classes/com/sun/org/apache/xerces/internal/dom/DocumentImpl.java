@@ -19,40 +19,54 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.dom;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-import com.sun.org.apache.xerces.internal.dom.events.EventImpl;
-import com.sun.org.apache.xerces.internal.dom.events.MutationEventImpl;
-import java.io.IOException;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.events.EventImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.events.MutationEventImpl;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.ObjectStreamField;
 import java.io.Serializable;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.Hashtable;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Vector;
-import org.w3c.dom.Attr;
-import org.w3c.dom.DOMException;
-import org.w3c.dom.DOMImplementation;
-import org.w3c.dom.DocumentType;
-import org.w3c.dom.Element;
-import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
-import org.w3c.dom.UserDataHandler;
-import org.w3c.dom.events.DocumentEvent;
-import org.w3c.dom.events.Event;
-import org.w3c.dom.events.EventException;
-import org.w3c.dom.events.EventListener;
-import org.w3c.dom.events.MutationEvent;
-import org.w3c.dom.ranges.DocumentRange;
-import org.w3c.dom.ranges.Range;
-import org.w3c.dom.traversal.DocumentTraversal;
-import org.w3c.dom.traversal.NodeFilter;
-import org.w3c.dom.traversal.NodeIterator;
-import org.w3c.dom.traversal.TreeWalker;
+import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMImplementation;
+import java.xml.share.classes.com.sun.org.w3c.dom.DocumentType;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.UserDataHandler;
+import java.xml.share.classes.com.sun.org.w3c.dom.events.DocumentEvent;
+import java.xml.share.classes.com.sun.org.w3c.dom.events.Event;
+import java.xml.share.classes.com.sun.org.w3c.dom.events.EventException;
+import java.xml.share.classes.com.sun.org.w3c.dom.events.Eventjava.util.Listener;
+import java.xml.share.classes.com.sun.org.w3c.dom.events.MutationEvent;
+import java.xml.share.classes.com.sun.org.w3c.dom.ranges.DocumentRange;
+import java.xml.share.classes.com.sun.org.w3c.dom.ranges.Range;
+import java.xml.share.classes.com.sun.org.w3c.dom.traversal.DocumentTraversal;
+import java.xml.share.classes.com.sun.org.w3c.dom.traversal.NodeFilter;
+import java.xml.share.classes.com.sun.org.w3c.dom.traversal.NodeIterator;
+import java.xml.share.classes.com.sun.org.w3c.dom.traversal.TreeWalker;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

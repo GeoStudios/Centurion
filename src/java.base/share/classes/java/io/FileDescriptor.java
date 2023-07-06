@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
 
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import jdk.internal.access.JavaIOFileDescriptorAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.ref.PhantomCleanable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Instances of the file descriptor class serve as an opaque handle

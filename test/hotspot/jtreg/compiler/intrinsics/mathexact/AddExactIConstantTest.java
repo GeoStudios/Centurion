@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.mathexact;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8024924
@@ -30,7 +47,6 @@
  * @run main compiler.intrinsics.mathexact.AddExactIConstantTest
  */
 
-package compiler.intrinsics.mathexact;
 
 public class AddExactIConstantTest {
   public static void main(String[] args) {

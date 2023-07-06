@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.peer;
+package java.desktop.share.classes.java.awt.peer;
 
-import java.awt.Image;
-import java.awt.PopupMenu;
-import java.awt.Taskbar;
-import java.awt.Taskbar.Feature;
-import java.awt.Taskbar.State;
-import java.awt.Window;
+
+import java.desktop.share.classes.java.awt.Image;
+import java.desktop.share.classes.java.awt.PopupMenu;
+import java.desktop.share.classes.java.awt.Taskbar;
+import java.desktop.share.classes.java.awt.Taskbar.Feature;
+import java.desktop.share.classes.java.awt.Taskbar.State;
+import java.desktop.share.classes.java.awt.Window;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

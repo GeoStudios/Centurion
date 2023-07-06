@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.naming;
+package java.naming.share.classes.javax.naming;
+
 
 import java.util.Enumeration;
 import java.util.Properties;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents a composite name -- a sequence of

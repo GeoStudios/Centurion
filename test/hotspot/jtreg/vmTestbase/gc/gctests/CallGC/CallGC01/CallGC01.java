@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.CallGC.CallGC01;
+
+
+import nsk.share.gc.*;
+import nsk.share.runner.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -32,10 +50,7 @@
  * @run main/othervm gc.gctests.CallGC.CallGC01.CallGC01 -t 100
  */
 
-package gc.gctests.CallGC.CallGC01;
 
-import nsk.share.gc.*;
-import nsk.share.runner.*;
 
 /**
  * This test starts a number of threads that do System.gc() and

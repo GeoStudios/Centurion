@@ -21,10 +21,23 @@
 
 package nsk.jvmti.scenarios.multienv.MA05;
 
-import java.io.PrintStream;
 
+import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ma05t001 extends DebugeeClass {
 

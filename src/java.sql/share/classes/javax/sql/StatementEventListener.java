@@ -19,10 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.sql.share.classes.javax.sql;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Created on Apr 28, 2005
  */
-package javax.sql;
+
 
 /**
  * An object that registers to be notified of events that occur on PreparedStatements

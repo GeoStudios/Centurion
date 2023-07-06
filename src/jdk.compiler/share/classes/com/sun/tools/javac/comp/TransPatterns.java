@@ -19,79 +19,92 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.comp;
+package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-import com.sun.source.tree.CaseTree;
-import com.sun.tools.javac.code.BoundKind;
-import com.sun.tools.javac.code.Flags;
-import com.sun.tools.javac.code.Kinds;
-import com.sun.tools.javac.code.Kinds.Kind;
-import com.sun.tools.javac.code.Preview;
-import com.sun.tools.javac.code.Symbol;
-import com.sun.tools.javac.code.Symbol.BindingSymbol;
-import com.sun.tools.javac.code.Symbol.ClassSymbol;
-import com.sun.tools.javac.code.Symbol.DynamicMethodSymbol;
-import com.sun.tools.javac.code.Symbol.DynamicVarSymbol;
-import com.sun.tools.javac.code.Symbol.VarSymbol;
-import com.sun.tools.javac.code.Symtab;
-import com.sun.tools.javac.code.Type;
-import com.sun.tools.javac.code.Types;
-import com.sun.tools.javac.tree.JCTree.JCAssign;
-import com.sun.tools.javac.tree.JCTree.JCBinary;
-import com.sun.tools.javac.tree.JCTree.JCConditional;
-import com.sun.tools.javac.tree.JCTree.JCExpression;
-import com.sun.tools.javac.tree.JCTree.JCForLoop;
-import com.sun.tools.javac.tree.JCTree.JCIdent;
-import com.sun.tools.javac.tree.JCTree.JCIf;
-import com.sun.tools.javac.tree.JCTree.JCInstanceOf;
-import com.sun.tools.javac.tree.JCTree.JCLabeledStatement;
-import com.sun.tools.javac.tree.JCTree.JCMethodDecl;
-import com.sun.tools.javac.tree.JCTree.JCSwitch;
-import com.sun.tools.javac.tree.JCTree.JCVariableDecl;
-import com.sun.tools.javac.tree.JCTree.JCBindingPattern;
-import com.sun.tools.javac.tree.JCTree.JCWhileLoop;
-import com.sun.tools.javac.tree.JCTree.Tag;
-import com.sun.tools.javac.tree.TreeMaker;
-import com.sun.tools.javac.tree.TreeTranslator;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.ListBuffer;
-import com.sun.tools.javac.util.Name;
-import com.sun.tools.javac.util.Names;
-import com.sun.tools.javac.util.Options;
 
+import jdk.compiler.share.classes.com.sun.source.tree.CaseTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.BoundKind;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Flags;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Preview;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.BindingSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ClassSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.DynamicMethodSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.DynamicVarSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.VarSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symtab;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Types;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCAssign;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCBinary;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCConditional;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCExpression;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCForLoop;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCIdent;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCIf;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCInstanceOf;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCLabeledStatement;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCMethodDecl;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCSwitch;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCVariableDecl;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCBindingPattern;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCWhileLoop;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeMaker;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeTranslator;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.ListBuffer;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Name;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Names;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Options;
 import java.util.Collection;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
-
-import com.sun.tools.javac.code.Symbol.MethodSymbol;
-import com.sun.tools.javac.code.Type.ClassType;
-import com.sun.tools.javac.code.Type.MethodType;
-import com.sun.tools.javac.code.Type.WildcardType;
-import com.sun.tools.javac.code.TypeTag;
-import static com.sun.tools.javac.code.TypeTag.BOT;
-import com.sun.tools.javac.jvm.PoolConstant.LoadableConstant;
-import com.sun.tools.javac.jvm.Target;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.JCTree.JCBlock;
-import com.sun.tools.javac.tree.JCTree.JCBreak;
-import com.sun.tools.javac.tree.JCTree.JCCase;
-import com.sun.tools.javac.tree.JCTree.JCCaseLabel;
-import com.sun.tools.javac.tree.JCTree.JCClassDecl;
-import com.sun.tools.javac.tree.JCTree.JCContinue;
-import com.sun.tools.javac.tree.JCTree.JCDoWhileLoop;
-import com.sun.tools.javac.tree.JCTree.JCFieldAccess;
-import com.sun.tools.javac.tree.JCTree.JCGuardPattern;
-import com.sun.tools.javac.tree.JCTree.JCLambda;
-import com.sun.tools.javac.tree.JCTree.JCParenthesizedPattern;
-import com.sun.tools.javac.tree.JCTree.JCPattern;
-import com.sun.tools.javac.tree.JCTree.JCStatement;
-import com.sun.tools.javac.tree.JCTree.JCSwitchExpression;
-import com.sun.tools.javac.tree.JCTree.LetExpr;
-import com.sun.tools.javac.tree.TreeInfo;
-import com.sun.tools.javac.util.Assert;
-import com.sun.tools.javac.util.List;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.MethodSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.ClassType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.MethodType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.WildcardType;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.BOT;.extended
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.PoolConstant.LoadableConstant;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.Target;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCBlock;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCBreak;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCCase;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCCaseLabel;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCClassDecl;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCContinue;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCDoWhileLoop;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCFieldAccess;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCGuardPattern;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCLambda;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCParenthesizedPattern;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCPattern;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCStatement;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCSwitchExpression;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.LetExpr;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.TreeInfo;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
 import java.util.Iterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This pass translates pattern-matching constructs, such as instanceof <pattern>.

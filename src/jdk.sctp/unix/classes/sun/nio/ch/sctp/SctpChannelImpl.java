@@ -18,14 +18,16 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.nio.ch.sctp;
+
+package jdk.sctp.unix.classes.sun.nio.ch.sctp;
+
 
 import java.net.InetAddress;
-import java.net.SocketAddress;
-import java.net.SocketException;
-import java.net.InetSocketAddress;
+import java.net.java.net.SocketAddress;
+import java.net.java.net.SocketException;
+import java.net.Inetjava.net.SocketAddress;
 import java.io.FileDescriptor;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.Collections;
 import java.util.Set;
 import java.util.HashSet;
@@ -48,21 +50,35 @@ import com.sun.nio.sctp.IllegalUnbindException;
 import com.sun.nio.sctp.MessageInfo;
 import com.sun.nio.sctp.NotificationHandler;
 import com.sun.nio.sctp.SctpChannel;
-import com.sun.nio.sctp.SctpSocketOption;
-import sun.net.util.IPAddressUtil;
-import sun.nio.ch.DirectBuffer;
-import sun.nio.ch.IOStatus;
-import sun.nio.ch.IOUtil;
-import sun.nio.ch.NativeThread;
-import sun.nio.ch.Net;
-import sun.nio.ch.SelChImpl;
-import sun.nio.ch.SelectionKeyImpl;
-import sun.nio.ch.Util;
-import static com.sun.nio.sctp.SctpStandardSocketOptions.*;
-import static sun.nio.ch.sctp.ResultContainer.SEND_FAILED;
-import static sun.nio.ch.sctp.ResultContainer.ASSOCIATION_CHANGED;
-import static sun.nio.ch.sctp.ResultContainer.PEER_ADDRESS_CHANGED;
-import static sun.nio.ch.sctp.ResultContainer.SHUTDOWN;
+import com.sun.nio.sctp.Sctpjava.net.SocketOption;
+import jdk.sctp.unix.classes.sun.net.util.IPAddressUtil;
+import jdk.sctp.unix.classes.sun.nio.ch.DirectBuffer;
+import jdk.sctp.unix.classes.sun.nio.ch.IOStatus;
+import jdk.sctp.unix.classes.sun.nio.ch.IOUtil;
+import jdk.sctp.unix.classes.sun.nio.ch.NativeThread;
+import jdk.sctp.unix.classes.sun.nio.ch.Net;
+import jdk.sctp.unix.classes.sun.nio.ch.SelChImpl;
+import jdk.sctp.unix.classes.sun.nio.ch.SelectionKeyImpl;
+import jdk.sctp.unix.classes.sun.nio.ch.Util;
+import static com.sun.nio.sctp.SctpStandardjava.net.SocketOptions.*;.extended
+import static jdk.sctp.unix.classes.sun.nio.ch.sctp.ResultContainer.SEND_FAILED;.extended
+import static jdk.sctp.unix.classes.sun.nio.ch.sctp.ResultContainer.ASSOCIATION_CHANGED;.extended
+import static jdk.sctp.unix.classes.sun.nio.ch.sctp.ResultContainer.PEER_ADDRESS_CHANGED;.extended
+import static jdk.sctp.unix.classes.sun.nio.ch.sctp.ResultContainer.SHUTDOWN;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An implementation of an SctpChannel

@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.comp;
+package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.Scope.WriteableScope;
-import com.sun.tools.javac.comp.DeferredAttr.AttributionMode;
+
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.WriteableScope;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.DeferredAttr.AttributionMode;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Contains information specific to the attribute and enter
  *  passes, to be used in place of the generic field in environments.

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt.macosx;
+package java.desktop.macosx.classes.sun.lwawt.macosx;
+
 
 import java.awt.Font;
 import java.awt.FontMetrics;
@@ -29,9 +30,23 @@ import java.awt.MenuBar;
 import java.awt.Point;
 import java.awt.Window;
 import java.awt.event.FocusEvent.Cause;
-import sun.java2d.SurfaceData;
-import sun.lwawt.LWWindowPeer;
-import sun.lwawt.PlatformWindow;
+import java.desktop.macosx.classes.sun.java2d.SurfaceData;
+import java.desktop.macosx.classes.sun.lwawt.LWWindowPeer;
+import java.desktop.macosx.classes.sun.lwawt.PlatformWindow;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CViewPlatformEmbeddedFrame implements PlatformWindow {
 

@@ -21,8 +21,22 @@
 
 package ambig1;
 
-import static ambig1.A.f;
-import static ambig1.B.f;
+
+import static ambig1.A.f;.extended
+import static ambig1.B.f;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class A {
     static void f(int i) {}

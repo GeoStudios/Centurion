@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codegen;
+
+
+import java.nio.ByteBuffer;
+import java.util.zip.CRC32;
+import java.util.zip.Checksum;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 7088419
@@ -27,11 +47,7 @@
  * @run main compiler.codegen.CRCTest
  */
 
-package compiler.codegen;
 
-import java.nio.ByteBuffer;
-import java.util.zip.CRC32;
-import java.util.zip.Checksum;
 
 public class CRCTest {
 

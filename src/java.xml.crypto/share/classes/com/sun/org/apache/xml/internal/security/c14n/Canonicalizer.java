@@ -19,29 +19,47 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package com.sun.org.apache.xml.internal.security.c14n;
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n;
+
 
 import java.io.OutputStream;
 import java.nio.charset.StandardCharsets;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.implementations.Canonicalizer11_OmitComments;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.implementations.Canonicalizer11_WithComments;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.implementations.Canonicalizer20010315ExclOmitComments;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.implementations.Canonicalizer20010315ExclWithComments;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.implementations.Canonicalizer20010315OmitComments;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.implementations.Canonicalizer20010315WithComments;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.implementations.CanonicalizerPhysical;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions.AlgorithmAlreadyRegisteredException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.parser.XMLParserException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.JavaUtils;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
 
-import com.sun.org.apache.xml.internal.security.c14n.implementations.Canonicalizer11_OmitComments;
-import com.sun.org.apache.xml.internal.security.c14n.implementations.Canonicalizer11_WithComments;
-import com.sun.org.apache.xml.internal.security.c14n.implementations.Canonicalizer20010315ExclOmitComments;
-import com.sun.org.apache.xml.internal.security.c14n.implementations.Canonicalizer20010315ExclWithComments;
-import com.sun.org.apache.xml.internal.security.c14n.implementations.Canonicalizer20010315OmitComments;
-import com.sun.org.apache.xml.internal.security.c14n.implementations.Canonicalizer20010315WithComments;
-import com.sun.org.apache.xml.internal.security.c14n.implementations.CanonicalizerPhysical;
-import com.sun.org.apache.xml.internal.security.exceptions.AlgorithmAlreadyRegisteredException;
-import com.sun.org.apache.xml.internal.security.parser.XMLParserException;
-import com.sun.org.apache.xml.internal.security.utils.JavaUtils;
-import org.w3c.dom.Node;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
 
 /**
  *

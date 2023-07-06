@@ -21,20 +21,32 @@
 
 package jdk.jfr.api.recording.misc;
 
-import static jdk.test.lib.Asserts.assertEquals;
-import static jdk.test.lib.Asserts.assertFalse;
-import static jdk.test.lib.Asserts.assertNotEquals;
-import static jdk.test.lib.Asserts.assertNotNull;
-import static jdk.test.lib.Asserts.assertNull;
-import static jdk.test.lib.Asserts.assertTrue;
 
+import static jdk.test.lib.Asserts.assertEquals;.extended
+import static jdk.test.lib.Asserts.assertFalse;.extended
+import static jdk.test.lib.Asserts.assertNotEquals;.extended
+import static jdk.test.lib.Asserts.assertNotNull;.extended
+import static jdk.test.lib.Asserts.assertNull;.extended
+import static jdk.test.lib.Asserts.assertTrue;.extended
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.Duration;
 import java.util.Map;
-
 import jdk.jfr.Recording;
 import jdk.jfr.RecordingState;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

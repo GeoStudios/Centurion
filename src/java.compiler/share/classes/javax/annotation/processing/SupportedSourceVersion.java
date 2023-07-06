@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.annotation.processing;
+package java.compiler.share.classes.javax.annotation.processing;
+
 
 import java.lang.annotation.*;
-import static java.lang.annotation.RetentionPolicy.*;
-import static java.lang.annotation.ElementType.*;
-import javax.lang.model.SourceVersion;
+import static java.lang.annotation.RetentionPolicy.*;.extended
+import static java.lang.annotation.ElementType.*;.extended
+import java.compiler.share.classes.javax.lang.model.SourceVersion;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

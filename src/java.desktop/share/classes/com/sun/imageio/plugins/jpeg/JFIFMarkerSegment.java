@@ -19,9 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.jpeg;
+package java.desktop.share.classes.com.sun.imageio.plugins.jpeg;
 
-import javax.imageio.IIOException;
+
+import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import javax.imageio.IIOImage;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.ImageReader;
@@ -31,8 +32,7 @@ import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.stream.ImageInputStream;
 import javax.imageio.stream.ImageOutputStream;
 import javax.imageio.stream.MemoryCacheImageOutputStream;
-import javax.imageio.event.IIOReadProgressListener;
-
+import javax.imageio.event.IIOReadProgressjava.util.Listener;
 import java.awt.Graphics;
 import java.awt.color.ICC_Profile;
 import java.awt.color.ICC_ColorSpace;
@@ -46,16 +46,29 @@ import java.awt.image.DataBuffer;
 import java.awt.image.DataBufferByte;
 import java.awt.image.Raster;
 import java.awt.image.WritableRaster;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ByteArrayOutputStream;
 import java.nio.charset.StandardCharsets;
-import java.util.List;
-import java.util.ArrayList;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
-
 import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import org.w3c.dom.NamedNodeMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A JFIF (JPEG File Interchange Format) APP0 (Application-Specific)

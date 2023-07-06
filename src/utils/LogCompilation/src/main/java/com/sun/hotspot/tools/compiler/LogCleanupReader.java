@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.hotspot.tools.compiler;
+package utils.LogCompilation.src.main.java.com.sun.hotspot.tools.compiler;
 
-import java.io.*;
-import java.util.regex.*;
+
+import utils.LogCompilation.src.main.java.io.*;
+import utils.LogCompilation.src.main.java.util.regex.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is a filter class to deal with malformed XML that used

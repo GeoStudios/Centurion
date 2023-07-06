@@ -18,19 +18,34 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.reader;
+
+package jdk.internal.le.share.classes.jdk.internal.org.jline.reader;
+
 
 import java.io.IOError;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.impl.LineReaderImpl;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.impl.history.DefaultHistory;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Terminal;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.TerminalBuilder;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.Log;
 
-import jdk.internal.org.jline.reader.impl.LineReaderImpl;
-import jdk.internal.org.jline.reader.impl.history.DefaultHistory;
-import jdk.internal.org.jline.terminal.Terminal;
-import jdk.internal.org.jline.terminal.TerminalBuilder;
-import jdk.internal.org.jline.utils.Log;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class LineReaderBuilder {
 

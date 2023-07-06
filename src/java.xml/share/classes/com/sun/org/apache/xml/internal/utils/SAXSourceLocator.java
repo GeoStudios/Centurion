@@ -19,19 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
+
+
+import java.io.Serializable;
+import javax.xml.transform.SourceLocator;
+import java.xml.share.classes.com.sun.org.xml.sax.Locator;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXParseException;
+import java.xml.share.classes.com.sun.org.xml.sax.helpers.LocatorImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.utils;
 
-import java.io.Serializable;
 
-import javax.xml.transform.SourceLocator;
 
-import org.xml.sax.Locator;
-import org.xml.sax.SAXParseException;
-import org.xml.sax.helpers.LocatorImpl;
+
 
 /**
  * Class SAXSourceLocator extends org.xml.sax.helpers.LocatorImpl

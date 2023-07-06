@@ -19,15 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.fs;
+package java.base.linux.classes.sun.nio.fs;
 
-import java.nio.file.*;
-import java.util.*;
-import java.io.IOException;
-import jdk.internal.misc.Unsafe;
+import java.base.share.classes.java.nio.file.*;
+import java.base.share.classes.java.util.*;
+import java.base.share.classes.java.io.IOException;
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.sun.nio.fs.AbstractWatchService;
 
-import static sun.nio.fs.UnixNativeDispatcher.*;
-import static sun.nio.fs.UnixConstants.*;
+import static java.base.linux.classes.sun.nio.fs.UnixNativeDispatcher.*;
+import static java.base.linux.classes.sun.nio.fs.UnixConstants.*;
 
 /**
  * Linux implementation of WatchService based on inotify.
@@ -38,9 +39,7 @@ import static sun.nio.fs.UnixConstants.*;
  * by the thread which causes it to signal/queue the corresponding watch keys.
  */
 
-class LinuxWatchService
-    extends AbstractWatchService
-{
+class LinuxWatchService extends AbstractWatchService {
     private static final Unsafe unsafe = Unsafe.getUnsafe();
 
     // background thread to read change events

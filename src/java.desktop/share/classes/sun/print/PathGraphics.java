@@ -19,18 +19,18 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.share.classes.sun.print;
+
 
 import java.lang.ref.SoftReference;
 import java.util.Hashtable;
-import sun.font.CharToGlyphMapper;
-import sun.font.CompositeFont;
-import sun.font.Font2D;
-import sun.font.Font2DHandle;
-import sun.font.FontManager;
-import sun.font.FontManagerFactory;
-import sun.font.FontUtilities;
-
+import java.desktop.share.classes.sun.font.CharToGlyphMapper;
+import java.desktop.share.classes.sun.font.CompositeFont;
+import java.desktop.share.classes.sun.font.Font2D;
+import java.desktop.share.classes.sun.font.Font2DHandle;
+import java.desktop.share.classes.sun.font.FontManager;
+import java.desktop.share.classes.sun.font.FontManagerFactory;
+import java.desktop.share.classes.sun.font.FontUtilities;
 import java.awt.AlphaComposite;
 import java.awt.Composite;
 import java.awt.Color;
@@ -40,15 +40,12 @@ import java.awt.Image;
 import java.awt.Paint;
 import java.awt.Polygon;
 import java.awt.Shape;
-
 import java.awt.geom.Path2D;
 import java.text.AttributedCharacterIterator;
-
 import java.awt.font.FontRenderContext;
 import java.awt.font.GlyphVector;
 import java.awt.font.TextAttribute;
 import java.awt.font.TextLayout;
-
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Arc2D;
 import java.awt.geom.Ellipse2D;
@@ -57,7 +54,6 @@ import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
 import java.awt.geom.RoundRectangle2D;
 import java.awt.geom.PathIterator;
-
 import java.awt.image.BufferedImage;
 import java.awt.image.BufferedImageOp;
 import java.awt.image.ColorModel;
@@ -70,17 +66,29 @@ import java.awt.image.RenderedImage;
 import java.awt.image.SampleModel;
 import java.awt.image.SinglePixelPackedSampleModel;
 import java.awt.image.VolatileImage;
-import sun.awt.image.ByteComponentRaster;
-import sun.awt.image.ToolkitImage;
-import sun.awt.image.SunWritableRaster;
-
+import java.desktop.share.classes.sun.awt.image.ByteComponentRaster;
+import java.desktop.share.classes.sun.awt.image.ToolkitImage;
+import java.desktop.share.classes.sun.awt.image.SunWritableRaster;
 import java.awt.print.PageFormat;
 import java.awt.print.Printable;
 import java.awt.print.PrinterException;
 import java.awt.print.PrinterGraphics;
 import java.awt.print.PrinterJob;
-
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class PathGraphics extends ProxyGraphics2D {
 

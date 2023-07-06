@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.util;
 
-import jdk.internal.misc.Unsafe;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+package java.base.share.classes.jdk.internal.util;
+
+
+import java.base.share.classes.jdk.internal.misc.Unsafe;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility methods to work with arrays.  This includes a set of methods

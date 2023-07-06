@@ -19,16 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.image.Raster;
+
+import java.desktop.share.classes.java.awt.image.Raster;
 import sun.awt.image.IntegerComponentRaster;
-import java.awt.image.ColorModel;
-import java.awt.image.DirectColorModel;
-import java.awt.geom.Point2D;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.NoninvertibleTransformException;
-import java.lang.ref.WeakReference;
+import java.desktop.share.classes.java.awt.image.ColorModel;
+import java.desktop.share.classes.java.awt.image.DirectColorModel;
+import java.desktop.share.classes.java.awt.geom.Point2D;
+import java.desktop.share.classes.java.awt.geom.AffineTransform;
+import java.desktop.share.classes.java.awt.geom.NoninvertibleTransformException;
+import java.desktop.share.classes.java.lang.ref.WeakReference;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class GradientPaintContext implements PaintContext {
     static ColorModel xrgbmodel =

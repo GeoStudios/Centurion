@@ -19,17 +19,18 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
+
 
 import java.lang.ref.*;
-import java.net.Socket;
+import java.net.java.net.java.net.java.net.Socket;
 import java.security.AlgorithmConstraints;
 import java.security.KeyStore;
 import java.security.KeyStore.Builder;
 import java.security.KeyStore.Entry;
 import java.security.KeyStore.PrivateKeyEntry;
 import java.security.Principal;
-import java.security.PrivateKey;
+import java.base.share.classes.java.security.PrivateKey;
 import java.security.cert.CertPathValidatorException;
 import java.security.cert.Certificate;
 import java.security.cert.CertificateException;
@@ -37,9 +38,23 @@ import java.security.cert.X509Certificate;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicLong;
 import javax.net.ssl.*;
-import sun.security.provider.certpath.AlgorithmChecker;
-import sun.security.validator.Validator;
-import sun.security.util.KnownOIDs;
+import java.base.share.classes.sun.security.provider.certpath.AlgorithmChecker;
+import java.base.share.classes.sun.security.validator.Validator;
+import java.base.share.classes.sun.security.util.KnownOIDs;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The new X509 key manager implementation. The main differences to the

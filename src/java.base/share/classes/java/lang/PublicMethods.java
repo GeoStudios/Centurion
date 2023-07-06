@@ -18,16 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang;
+
+package java.base.share.classes.java.lang;
+
 
 import jdk.internal.reflect.ReflectionFactory;
+import java.base.share.classes.java.lang.reflect.Method;
+import java.base.share.classes.java.lang.reflect.Modifier;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.LinkedHashMap;
+import java.base.share.classes.java.util.Map;
 
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
-import java.security.AccessController;
-import java.util.Arrays;
-import java.util.LinkedHashMap;
-import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A collection of most specific public methods. Methods are added to it using

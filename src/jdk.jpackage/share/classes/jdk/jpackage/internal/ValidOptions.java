@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jpackage.internal;
+package jdk.jpackage.share.classes.jdk.jpackage.internal;
+
 
 import java.util.HashMap;
-import jdk.jpackage.internal.Arguments.CLIOptions;
+import jdk.jpackage.share.classes.jdk.jpackage.internal.Arguments.CLIOptions;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ValidOptions

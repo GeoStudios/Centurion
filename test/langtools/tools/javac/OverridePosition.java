@@ -21,6 +21,21 @@
 
 package T4524388;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 interface Interface {
     void method();
 }

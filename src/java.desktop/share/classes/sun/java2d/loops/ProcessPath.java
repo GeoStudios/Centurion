@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.loops;
+package java.desktop.share.classes.sun.java2d.loops;
+
 
 import java.awt.geom.Path2D;
 import java.awt.geom.PathIterator;
 import java.awt.geom.QuadCurve2D;
-import sun.awt.SunHints;
+import java.desktop.share.classes.sun.awt.SunHints;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* This is the java implementation of the native code from
  * src/share/native/sun/java2d/loops/ProcessPath.[c,h]

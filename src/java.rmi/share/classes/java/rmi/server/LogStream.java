@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.rmi.server;
 
-import java.io.*;
-import java.util.*;
+package java.rmi.share.classes.java.rmi.server;
+
+
+import java.rmi.share.classes.java.io.*;
+import java.rmi.share.classes.java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>LogStream</code> provides a mechanism for logging errors that are

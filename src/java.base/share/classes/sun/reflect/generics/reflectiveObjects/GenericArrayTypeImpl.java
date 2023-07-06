@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.reflect.generics.reflectiveObjects;
+package java.base.share.classes.sun.reflect.generics.reflectiveObjects;
+
 
 import java.lang.reflect.GenericArrayType;
 import java.lang.reflect.Type;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of GenericArrayType interface for core reflection.

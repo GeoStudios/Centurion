@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.imageio.spi;
+package java.desktop.share.classes.javax.imageio.spi;
 
-import java.io.IOException;
-import javax.imageio.ImageReader;
-import javax.imageio.stream.ImageInputStream;
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.javax.imageio.ImageReader;
+import java.desktop.share.classes.javax.imageio.stream.ImageInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The service provider interface (SPI) for {@code ImageReader}s.

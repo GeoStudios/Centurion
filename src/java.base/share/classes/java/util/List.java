@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.util.function.UnaryOperator;
+
+import java.base.share.classes.java.util.function.UnaryOperator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An ordered collection (also known as a <i>sequence</i>).  The user of this

@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.security.auth.kerberos;
+package java.security.jgss.share.classes.javax.security.auth.kerberos;
+
 
 import java.io.*;
 import sun.security.krb5.KrbException;
 import sun.security.krb5.PrincipalName;
 import sun.security.krb5.Realm;
 import sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class encapsulates a Kerberos principal.

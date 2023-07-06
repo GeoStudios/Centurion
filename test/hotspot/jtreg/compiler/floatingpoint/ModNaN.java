@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.floatingpoint;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8015396
@@ -27,7 +44,6 @@
  * @run main compiler.floatingpoint.ModNaN
  */
 
-package compiler.floatingpoint;
 
 public class ModNaN {
     /* This bug was seen in the field for a particular version of the VM,

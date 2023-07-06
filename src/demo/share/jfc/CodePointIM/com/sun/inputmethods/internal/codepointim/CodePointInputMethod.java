@@ -19,15 +19,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * This source code is provided to illustrate the usage of a given feature
- * or technique and has been deliberately simplified. Additional steps
- * required for a production-quality application, such as security checks,
- * input validation and proper error handling, might not be present in
- * this sample code.
- */
-
-package com.sun.inputmethods.internal.codepointim;
+package demo.share.jfc.CodePointIM.com.sun.inputmethods.internal.codepointim;
 
 
 import java.awt.AWTEvent;
@@ -40,9 +32,35 @@ import java.awt.font.TextHitInfo;
 import java.awt.im.InputMethodHighlight;
 import java.awt.im.spi.InputMethod;
 import java.awt.im.spi.InputMethodContext;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.text.AttributedString;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * This source code is provided to illustrate the usage of a given feature
+ * or technique and has been deliberately simplified. Additional steps
+ * required for a production-quality application, such as security checks,
+ * input validation and proper error handling, might not be present in
+ * this sample code.
+ */
+
+
+
+
 
 
 /**

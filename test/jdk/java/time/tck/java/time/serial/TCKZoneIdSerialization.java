@@ -21,10 +21,10 @@
 
 package tck.java.time.serial;
 
+
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import tck.java.time.AbstractTCKTest;
-
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
@@ -33,9 +33,21 @@ import java.io.ObjectStreamConstants;
 import java.time.DateTimeException;
 import java.time.ZoneId;
 import java.time.zone.ZoneRulesException;
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.fail;.extended
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.fail;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test serialization of ZoneId.

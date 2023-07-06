@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.test.lib.hprof.model;
+
+
+import jdk.test.lib.hprof.parser.ReadBuffer;
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * The Original Code is HAT. The Initial Developer of the
@@ -26,10 +44,7 @@
  * at JavaSoft/Sun.
  */
 
-package jdk.test.lib.hprof.model;
 
-import jdk.test.lib.hprof.parser.ReadBuffer;
-import java.io.IOException;
 
 /**
  * An array of values, that is, an array of ints, boolean, floats or the like.

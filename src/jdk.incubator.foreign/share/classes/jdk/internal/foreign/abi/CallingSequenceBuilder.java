@@ -18,21 +18,35 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.foreign.abi;
 
-import jdk.incubator.foreign.FunctionDescriptor;
-import jdk.incubator.foreign.MemoryLayout;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi;
+
+
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.FunctionDescriptor;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryLayout;
 import sun.security.action.GetPropertyAction;
-
 import java.lang.invoke.MethodType;
 import java.util.ArrayDeque;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Deque;
 import java.util.EnumSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
+import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.Binding.Tag.*;.extended
 
-import static jdk.internal.foreign.abi.Binding.Tag.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CallingSequenceBuilder {
     private static final boolean VERIFY_BINDINGS = Boolean.parseBoolean(

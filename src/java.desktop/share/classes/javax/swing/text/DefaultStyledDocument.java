@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text;
+
+package java.desktop.share.classes.javax.swing.text;
+
 
 import java.awt.Color;
 import java.awt.Font;
@@ -28,22 +30,36 @@ import java.lang.ref.ReferenceQueue;
 import java.lang.ref.WeakReference;
 import java.util.Enumeration;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Stack;
 import java.util.Vector;
-import java.util.ArrayList;
-import java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
-import java.util.Arrays;
-import javax.swing.event.*;
-import javax.swing.undo.AbstractUndoableEdit;
-import javax.swing.undo.CannotRedoException;
-import javax.swing.undo.CannotUndoException;
-import javax.swing.undo.UndoableEdit;
-import javax.swing.SwingUtilities;
-import static sun.swing.SwingUtilities2.IMPLIED_CR;
+import java.base.share.classes.java.util.Arrays;
+import java.desktop.share.classes.javax.swing.event.*;
+import java.desktop.share.classes.javax.swing.undo.AbstractUndoableEdit;
+import java.desktop.share.classes.javax.swing.undo.CannotRedoException;
+import java.desktop.share.classes.javax.swing.undo.CannotUndoException;
+import java.desktop.share.classes.javax.swing.undo.UndoableEdit;
+import java.desktop.share.classes.javax.swing.SwingUtilities;
+import static sun.swing.SwingUtilities2.IMPLIED_CR;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A document that can be marked up with character and paragraph

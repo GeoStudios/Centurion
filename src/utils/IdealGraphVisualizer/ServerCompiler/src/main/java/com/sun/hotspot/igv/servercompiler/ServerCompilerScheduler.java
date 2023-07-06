@@ -18,16 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.hotspot.igv.servercompiler;
 
-import com.sun.hotspot.igv.data.InputBlock;
-import com.sun.hotspot.igv.data.InputEdge;
-import com.sun.hotspot.igv.data.InputGraph;
-import com.sun.hotspot.igv.data.InputNode;
-import com.sun.hotspot.igv.data.services.Scheduler;
-import java.util.*;
+package utils.IdealGraphVisualizer.ServerCompiler.src.main.java.com.sun.hotspot.igv.servercompiler;
+
+
+import utils.IdealGraphVisualizer.ServerCompiler.src.main.java.com.sun.hotspot.igv.data.InputBlock;
+import utils.IdealGraphVisualizer.ServerCompiler.src.main.java.com.sun.hotspot.igv.data.InputEdge;
+import utils.IdealGraphVisualizer.ServerCompiler.src.main.java.com.sun.hotspot.igv.data.InputGraph;
+import utils.IdealGraphVisualizer.ServerCompiler.src.main.java.com.sun.hotspot.igv.data.InputNode;
+import utils.IdealGraphVisualizer.ServerCompiler.src.main.java.com.sun.hotspot.igv.data.services.Scheduler;
+import utils.IdealGraphVisualizer.ServerCompiler.src.main.java.util.*;
 import org.openide.ErrorManager;
 import org.openide.util.lookup.ServiceProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

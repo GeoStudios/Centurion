@@ -18,18 +18,37 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-/*
- * $Id: NoSuchMechanismException.java,v 1.4 2005/05/10 15:47:42 mullan Exp $
- */
-package javax.xml.crypto;
+
+package java.xml.crypto.share.classes.javax.xml.crypto;
+
 
 import java.io.PrintStream;
 import java.io.PrintWriter;
-import javax.xml.crypto.dsig.Manifest;
-import javax.xml.crypto.dsig.XMLSignature;
-import javax.xml.crypto.dsig.XMLSignatureFactory;
-import javax.xml.crypto.dsig.keyinfo.KeyInfo;
-import javax.xml.crypto.dsig.keyinfo.KeyInfoFactory;
+import java.xml.crypto.share.classes.javax.xml.crypto.dsig.Manifest;
+import java.xml.crypto.share.classes.javax.xml.crypto.dsig.XMLSignature;
+import java.xml.crypto.share.classes.javax.xml.crypto.dsig.XMLSignatureFactory;
+import java.xml.crypto.share.classes.javax.xml.crypto.dsig.keyinfo.KeyInfo;
+import java.xml.crypto.share.classes.javax.xml.crypto.dsig.keyinfo.KeyInfoFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * $Id: NoSuchMechanismException.java,v 1.4 2005/05/10 15:47:42 mullan Exp $
+ */
+
+
 
 /**
  * This exception is thrown when a particular XML mechanism is requested but

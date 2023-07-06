@@ -19,6 +19,63 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.vm.ci.runtime.test;
+
+
+import static java.lang.reflect.Modifier.isAbstract;.extended
+import static java.lang.reflect.Modifier.isFinal;.extended
+import static java.lang.reflect.Modifier.isPrivate;.extended
+import static java.lang.reflect.Modifier.isProtected;.extended
+import static java.lang.reflect.Modifier.isPublic;.extended
+import static java.lang.reflect.Modifier.isStatic;.extended
+import static org.junit.Assert.assertArrayEquals;.extended
+import static org.junit.Assert.assertEquals;.extended
+import static org.junit.Assert.assertFalse;.extended
+import static org.junit.Assert.assertNotNull;.extended
+import static org.junit.Assert.assertNull;.extended
+import static org.junit.Assert.assertTrue;.extended
+import java.io.DataInputStream;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.InputStream;
+import java.lang.annotation.Annotation;
+import java.lang.invoke.MethodHandles.Lookup;
+import java.lang.reflect.AccessibleObject;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
+import java.base.share.classes.java.util.Arrays;
+import java.util.Collections;
+import java.util.function.Supplier;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+import org.junit.Assert;
+import org.junit.Test;
+import jdk.internal.org.objectweb.asm.*;
+import jdk.internal.reflect.ConstantPool;
+import jdk.vm.ci.common.JVMCIError;
+import jdk.vm.ci.meta.Assumptions.AssumptionResult;
+import jdk.vm.ci.meta.JavaConstant;
+import jdk.vm.ci.meta.JavaKind;
+import jdk.vm.ci.meta.ResolvedJavaField;
+import jdk.vm.ci.meta.ResolvedJavaMethod;
+import jdk.vm.ci.meta.ResolvedJavaType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @requires vm.jvmci
@@ -32,51 +89,10 @@
  * @run junit/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler jdk.vm.ci.runtime.test.TestResolvedJavaType
  */
 
-package jdk.vm.ci.runtime.test;
 
-import static java.lang.reflect.Modifier.isAbstract;
-import static java.lang.reflect.Modifier.isFinal;
-import static java.lang.reflect.Modifier.isPrivate;
-import static java.lang.reflect.Modifier.isProtected;
-import static java.lang.reflect.Modifier.isPublic;
-import static java.lang.reflect.Modifier.isStatic;
-import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertTrue;
 
-import java.io.DataInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.lang.annotation.Annotation;
-import java.lang.invoke.MethodHandles.Lookup;
-import java.lang.reflect.AccessibleObject;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.function.Supplier;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
 
-import org.junit.Assert;
-import org.junit.Test;
 
-import jdk.internal.org.objectweb.asm.*;
-import jdk.internal.reflect.ConstantPool;
-import jdk.vm.ci.common.JVMCIError;
-import jdk.vm.ci.meta.Assumptions.AssumptionResult;
-import jdk.vm.ci.meta.JavaConstant;
-import jdk.vm.ci.meta.JavaKind;
-import jdk.vm.ci.meta.ResolvedJavaField;
-import jdk.vm.ci.meta.ResolvedJavaMethod;
-import jdk.vm.ci.meta.ResolvedJavaType;
 
 /**
  * Tests for {@link ResolvedJavaType}.

@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.peer;
+package java.desktop.share.classes.java.awt.peer;
 
-import java.awt.Component;
-import java.awt.KeyboardFocusManager;
-import java.awt.Window;
+
+import java.desktop.share.classes.java.awt.Component;
+import java.desktop.share.classes.java.awt.KeyboardFocusManager;
+import java.desktop.share.classes.java.awt.Window;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The native peer interface for {@link KeyboardFocusManager}.

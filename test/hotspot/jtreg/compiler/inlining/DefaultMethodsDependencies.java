@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.inlining;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8069263
@@ -30,7 +47,6 @@
  *      compiler.inlining.DefaultMethodsDependencies
  */
 
-package compiler.inlining;
 
 public class DefaultMethodsDependencies {
 

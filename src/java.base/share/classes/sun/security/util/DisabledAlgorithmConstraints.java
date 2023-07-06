@@ -19,13 +19,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.util;
+package java.base.share.classes.sun.security.util;
 
-import sun.security.validator.Validator;
 
+import java.base.share.classes.sun.security.validator.Validator;
 import java.security.AlgorithmParameters;
 import java.security.CryptoPrimitive;
-import java.security.Key;
+import java.base.share.classes.java.security.Key;
 import java.security.cert.CertPathValidatorException;
 import java.security.cert.CertPathValidatorException.BasicReason;
 import java.security.interfaces.ECKey;
@@ -36,14 +36,14 @@ import java.security.spec.MGF1ParameterSpec;
 import java.security.spec.NamedParameterSpec;
 import java.security.spec.PSSParameterSpec;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 import java.util.Collection;
@@ -51,6 +51,20 @@ import java.util.StringTokenizer;
 import java.util.TimeZone;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Algorithm constraints for disabled algorithms property

@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.WeakReferenceGC;
+
+
+import java.util.*;
+import java.lang.ref.*;
+import nsk.share.TestFailure;
+import nsk.share.gc.GC;
+import nsk.share.gc.ThreadedGCTest;
+import nsk.share.gc.gp.GarbageUtils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -88,14 +110,7 @@
  *      -iter 100
  */
 
-package gc.gctests.WeakReferenceGC;
 
-import java.util.*;
-import java.lang.ref.*;
-import nsk.share.TestFailure;
-import nsk.share.gc.GC;
-import nsk.share.gc.ThreadedGCTest;
-import nsk.share.gc.gp.GarbageUtils;
 
 public class WeakReferenceGC extends ThreadedGCTest {
 

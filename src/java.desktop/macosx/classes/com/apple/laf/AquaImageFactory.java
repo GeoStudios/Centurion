@@ -19,31 +19,43 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.security.PrivilegedAction;
-
 import javax.swing.*;
 import javax.swing.plaf.*;
-
 import sun.lwawt.macosx.LWCToolkit;
-import apple.laf.JRSUIConstants.AlignmentHorizontal;
-import apple.laf.JRSUIConstants.AlignmentVertical;
-import apple.laf.JRSUIConstants.Direction;
-import apple.laf.JRSUIConstants.State;
-import apple.laf.JRSUIConstants.Widget;
-import apple.laf.*;
-
-import com.apple.eio.FileManager;
-import com.apple.laf.AquaIcon.InvertableIcon;
-import com.apple.laf.AquaIcon.JRSUIControlSpec;
-import com.apple.laf.AquaIcon.SystemIcon;
-import com.apple.laf.AquaUtils.RecyclableObject;
-import com.apple.laf.AquaUtils.RecyclableSingleton;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.AlignmentHorizontal;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.AlignmentVertical;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.Direction;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.State;
+import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.Widget;
+import java.desktop.macosx.classes.com.apple.laf.*;
+import java.desktop.macosx.classes.com.apple.eio.FileManager;
+import java.desktop.macosx.classes.com.apple.laf.AquaIcon.InvertableIcon;
+import java.desktop.macosx.classes.com.apple.laf.AquaIcon.JRSUIControlSpec;
+import java.desktop.macosx.classes.com.apple.laf.AquaIcon.SystemIcon;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableObject;
+import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
 import sun.awt.image.MultiResolutionCachedImage;
 import sun.lwawt.macosx.CImage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AquaImageFactory {
     public static IconUIResource getConfirmImageIcon() {

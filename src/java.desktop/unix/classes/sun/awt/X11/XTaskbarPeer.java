@@ -18,18 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.awt.X11;
+
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.MenuItem;
 import java.awt.PopupMenu;
 import java.awt.Taskbar.Feature;
 import java.awt.peer.TaskbarPeer;
 import java.awt.event.ActionEvent;
-
-import sun.awt.UNIXToolkit;
+import java.desktop.unix.classes.sun.awt.UNIXToolkit;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import sun.security.action.GetPropertyAction;
+import java.desktop.unix.classes.sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class XTaskbarPeer implements TaskbarPeer {
 

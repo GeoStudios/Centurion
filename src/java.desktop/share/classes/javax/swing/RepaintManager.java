@@ -18,7 +18,8 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing;
+
+package java.desktop.share.classes.javax.swing;
 
 
 import java.awt.*;
@@ -30,23 +31,35 @@ import java.security.PrivilegedAction;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.applet.*;
-
 import jdk.internal.access.JavaSecurityAccess;
-import jdk.internal.access.SharedSecrets;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import sun.awt.AWTAccessor;
 import sun.awt.AppContext;
-import sun.awt.DisplayChangedListener;
+import sun.awt.DisplayChangedjava.util.Listener;
 import sun.awt.SunToolkit;
 import sun.java2d.SunGraphicsEnvironment;
 import sun.security.action.GetPropertyAction;
-
 import com.sun.java.swing.SwingUtilities3;
 import java.awt.geom.AffineTransform;
 import sun.java2d.SunGraphics2D;
 import sun.java2d.pipe.Region;
 import sun.swing.SwingAccessor;
 import sun.swing.SwingUtilities2;
-import sun.swing.SwingUtilities2.RepaintListener;
+import sun.swing.SwingUtilities2.Repaintjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class manages repaint requests, allowing the number

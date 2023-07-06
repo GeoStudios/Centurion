@@ -21,17 +21,30 @@
 
 package pkg;
 
-import java.util.List;
-import java.util.Locale;
+
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Set;
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.Element;
 import javax.lang.model.util.ElementScanner14;
 import javax.tools.Diagnostic;
-
 import jdk.javadoc.doclet.Doclet;
 import jdk.javadoc.doclet.DocletEnvironment;
 import jdk.javadoc.doclet.Reporter;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MyDoclet implements Doclet {
     private static final boolean OK = true;

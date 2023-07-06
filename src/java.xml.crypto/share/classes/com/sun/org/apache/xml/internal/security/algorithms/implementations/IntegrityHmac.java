@@ -19,33 +19,51 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms.implementations;
+
+
+import java.security.InvalidAlgorithmParameterException;
+import java.base.share.classes.java.security.InvalidKeyException;
+import java.base.share.classes.java.security.Key;
+import java.security.Provider;
+import java.security.SecureRandom;
+import java.security.spec.AlgorithmParameterSpec;
+import javax.crypto.Mac;
+import java.base.share.classes.javax.crypto.SecretKey;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms.JCEMapper;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms.MessageDigestAlgorithm;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms.SignatureAlgorithmSpi;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.XMLSignature;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.XMLSignatureException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.Constants;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.XMLUtils;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Text;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.algorithms.implementations;
 
-import java.security.InvalidAlgorithmParameterException;
-import java.security.InvalidKeyException;
-import java.security.Key;
-import java.security.Provider;
-import java.security.SecureRandom;
-import java.security.spec.AlgorithmParameterSpec;
 
-import javax.crypto.Mac;
-import javax.crypto.SecretKey;
 
-import com.sun.org.apache.xml.internal.security.algorithms.JCEMapper;
-import com.sun.org.apache.xml.internal.security.algorithms.MessageDigestAlgorithm;
-import com.sun.org.apache.xml.internal.security.algorithms.SignatureAlgorithmSpi;
-import com.sun.org.apache.xml.internal.security.signature.XMLSignature;
-import com.sun.org.apache.xml.internal.security.signature.XMLSignatureException;
-import com.sun.org.apache.xml.internal.security.utils.Constants;
-import com.sun.org.apache.xml.internal.security.utils.XMLUtils;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.Text;
+
 
 public abstract class IntegrityHmac extends SignatureAlgorithmSpi {
 

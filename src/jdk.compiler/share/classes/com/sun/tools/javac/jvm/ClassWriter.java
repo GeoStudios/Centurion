@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.jvm;
+package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
+
 
 import java.io.*;
 import java.util.LinkedHashMap;
@@ -27,35 +28,45 @@ import java.util.Map;
 import java.util.Set;
 import java.util.LinkedHashSet;
 import java.util.function.ToIntFunction;
-
 import javax.tools.JavaFileManager;
 import javax.tools.FileObject;
 import javax.tools.JavaFileManager.Location;
 import javax.tools.JavaFileObject;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Attribute.RetentionPolicy;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Directive.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Source.Feature;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Types.SignatureGenerator.InvalidSignatureException;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Check;
+import jdk.compiler.share.classes.com.sun.tools.javac.file.PathFileObject;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.PoolConstant.LoadableConstant;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.PoolConstant.Dynamic.BsmKey;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.*;.extended
+import static javax.tools.StandardLocation.CLASS_OUTPUT;.extended
 
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.Attribute.RetentionPolicy;
-import com.sun.tools.javac.code.Directive.*;
-import com.sun.tools.javac.code.Source.Feature;
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.code.Type.*;
-import com.sun.tools.javac.code.Types.SignatureGenerator.InvalidSignatureException;
-import com.sun.tools.javac.comp.Check;
-import com.sun.tools.javac.file.PathFileObject;
-import com.sun.tools.javac.jvm.PoolConstant.LoadableConstant;
-import com.sun.tools.javac.jvm.PoolConstant.Dynamic.BsmKey;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.resources.CompilerProperties.Fragments;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.List;
 
-import static com.sun.tools.javac.code.Flags.*;
-import static com.sun.tools.javac.code.Kinds.Kind.*;
-import static com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;
-import static com.sun.tools.javac.code.TypeTag.*;
-import static com.sun.tools.javac.main.Option.*;
 
-import static javax.tools.StandardLocation.CLASS_OUTPUT;
+
+
+
+
+
+
+
+
+
+
+
 
 /** This class provides operations to map an internal symbol table graph
  *  rooted in a ClassSymbol into a classfile.

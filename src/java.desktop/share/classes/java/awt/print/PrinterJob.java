@@ -19,11 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.print;
+package java.desktop.share.classes.java.awt.print;
 
-import java.awt.AWTError;
-import java.awt.HeadlessException;
 
+import java.desktop.share.classes.java.awt.AWTError;
+import java.desktop.share.classes.java.awt.HeadlessException;
 import javax.print.DocFlavor;
 import javax.print.PrintService;
 import javax.print.PrintServiceLookup;
@@ -35,6 +35,20 @@ import javax.print.attribute.standard.MediaPrintableArea;
 import javax.print.attribute.standard.MediaSize;
 import javax.print.attribute.standard.MediaSizeName;
 import javax.print.attribute.standard.OrientationRequested;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code PrinterJob} class is the principal class that controls

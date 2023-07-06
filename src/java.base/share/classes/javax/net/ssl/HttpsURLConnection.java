@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.net.ssl;
+package java.base.share.classes.javax.net.ssl;
+
 
 import java.net.URL;
 import java.net.HttpURLConnection;
 import java.security.Principal;
 import java.security.cert.X509Certificate;
 import java.util.Optional;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <code>HttpsURLConnection</code> extends <code>HttpURLConnection</code>

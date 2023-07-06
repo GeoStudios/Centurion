@@ -21,8 +21,22 @@
 
 package jdk.test.lib;
 
-import java.util.Objects;
+
+import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.Callable;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Auxiliary class to run target w/ given timeout.

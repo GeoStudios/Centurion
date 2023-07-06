@@ -18,10 +18,12 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.rmi.transport;
+
+package java.rmi.share.classes.sun.rmi.transport;
+
 
 import java.io.ObjectInputFilter;
-import java.net.SocketPermission;
+import java.net.java.net.SocketPermission;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.rmi.dgc.DGC;
@@ -38,21 +40,35 @@ import java.security.Permissions;
 import java.security.PrivilegedAction;
 import java.security.ProtectionDomain;
 import java.security.Security;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashSet;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.Future;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
-import sun.rmi.runtime.Log;
-import sun.rmi.runtime.RuntimeUtil;
-import sun.rmi.server.UnicastRef;
-import sun.rmi.server.UnicastServerRef;
-import sun.rmi.server.Util;
+import java.rmi.share.classes.sun.rmi.runtime.Log;
+import java.rmi.share.classes.sun.rmi.runtime.RuntimeUtil;
+import java.rmi.share.classes.sun.rmi.server.UnicastRef;
+import java.rmi.share.classes.sun.rmi.server.UnicastServerRef;
+import java.rmi.share.classes.sun.rmi.server.Util;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements the guts of the server-side distributed GC

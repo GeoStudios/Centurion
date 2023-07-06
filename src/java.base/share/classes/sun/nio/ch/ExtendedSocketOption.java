@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.ch;
+package java.base.share.classes.sun.nio.ch;
 
-import java.net.SocketOption;
+
+import java.net.java.net.SocketOption;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Defines socket options that are supported by the implementation

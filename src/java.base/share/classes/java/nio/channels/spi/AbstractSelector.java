@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.nio.channels.spi;
+package java.base.share.classes.java.nio.channels.spi;
 
-import java.io.IOException;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.VarHandle;
-import java.nio.channels.SelectionKey;
-import java.nio.channels.Selector;
-import java.util.HashSet;
-import java.util.Set;
+
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.lang.invoke.MethodHandles;
+import java.base.share.classes.java.lang.invoke.VarHandle;
+import java.base.share.classes.java.nio.channels.SelectionKey;
+import java.base.share.classes.java.nio.channels.Selector;
+import java.base.share.classes.java.util.HashSet;
+import java.base.share.classes.java.util.Set;
 import sun.nio.ch.Interruptible;
 import sun.nio.ch.SelectorImpl;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**
@@ -115,7 +129,7 @@ public abstract class AbstractSelector
      *          If an I/O error occurs
      */
     public final void close() throws IOException {
-        boolean changed = (boolean) CLOSED.compareAndSet(this, false, true);
+        boolean changed = CLOSED.compareAndSet(this, false, true);
         if (changed) {
             implCloseSelector();
         }

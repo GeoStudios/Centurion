@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci;
+
+
+import jdk.test.lib.Utils;
+import java.security.AccessControlException;
+import java.security.Permission;
+import java.util.PropertyPermission;
+import java.util.function.Consumer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8136421
@@ -53,14 +75,8 @@
  *      NO_JVMCI
  */
 
-package compiler.jvmci;
 
-import jdk.test.lib.Utils;
 
-import java.security.AccessControlException;
-import java.security.Permission;
-import java.util.PropertyPermission;
-import java.util.function.Consumer;
 
 public class SecurityRestrictionsTest {
 

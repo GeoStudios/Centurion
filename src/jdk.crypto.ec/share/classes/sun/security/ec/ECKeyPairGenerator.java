@@ -19,25 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ec;
+package jdk.crypto.ec.share.classes.sun.security.ec;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.ECGenParameterSpec;
 import java.security.spec.ECParameterSpec;
 import java.security.spec.ECPoint;
 import java.security.spec.InvalidParameterSpecException;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Optional;
+import jdk.crypto.ec.share.classes.sun.security.jca.JCAUtil;
+import jdk.crypto.ec.share.classes.sun.security.util.ECUtil;
+import jdk.crypto.ec.share.classes.sun.security.util.math.*;
+import jdk.crypto.ec.share.classes.sun.security.ec.point.*;
+import static jdk.crypto.ec.share.classes.sun.security.util.SecurityProviderConstants.DEF_EC_KEY_SIZE;.extended
+import static jdk.crypto.ec.share.classes.sun.security.ec.ECOperations.IntermediateValueException;.extended
 
-import sun.security.jca.JCAUtil;
-import sun.security.util.ECUtil;
-import sun.security.util.math.*;
-import sun.security.ec.point.*;
-import static sun.security.util.SecurityProviderConstants.DEF_EC_KEY_SIZE;
-import static sun.security.ec.ECOperations.IntermediateValueException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * EC keypair generator.

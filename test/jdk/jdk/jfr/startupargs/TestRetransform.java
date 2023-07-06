@@ -21,12 +21,26 @@
 
 package jdk.jfr.startupargs;
 
+
 import jdk.jfr.Event;
 import jdk.jfr.EventType;
 import jdk.jfr.Recording;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.jfr.Events;
 import jdk.test.lib.jfr.SimpleEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

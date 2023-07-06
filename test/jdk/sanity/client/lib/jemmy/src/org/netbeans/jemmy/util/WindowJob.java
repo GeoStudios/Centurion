@@ -18,12 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.netbeans.jemmy.util;
 
-import java.awt.Component;
 
+import java.awt.Component;
 import org.netbeans.jemmy.Action;
 import org.netbeans.jemmy.ComponentChooser;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

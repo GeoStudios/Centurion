@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.mlvm.meth.stress.java.sequences;
+
+
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+import vm.mlvm.meth.share.Argument;
+import vm.mlvm.meth.share.MHTransformationGen;
+import vm.mlvm.meth.share.RandomArgumentsGen;
+import vm.mlvm.share.MlvmTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -49,16 +72,8 @@
  * @run main/othervm vm.mlvm.meth.stress.java.sequences.Test
  */
 
-package vm.mlvm.meth.stress.java.sequences;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodType;
 
-import vm.mlvm.meth.share.Argument;
-import vm.mlvm.meth.share.MHTransformationGen;
-import vm.mlvm.meth.share.RandomArgumentsGen;
-import vm.mlvm.share.MlvmTest;
 
 public class Test extends MlvmTest {
 

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8248830 8256823
@@ -28,7 +45,6 @@
  *      -XX:+UnlockDiagnosticVMOptions -XX:+AbortVMOnCompilationFailure
  *      compiler.intrinsics.TestRotate
  */
-package compiler.intrinsics;
 
 public class TestRotate {
 

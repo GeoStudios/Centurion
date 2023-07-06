@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.awt.peer;
 
-import java.awt.Dimension;
-import java.awt.TextField;
+package java.desktop.share.classes.java.awt.peer;
+
+
+import java.desktop.share.classes.java.awt.Dimension;
+import java.desktop.share.classes.java.awt.TextField;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The peer interface for {@link TextField}.

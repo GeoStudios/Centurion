@@ -21,6 +21,26 @@
 
 package gc;
 
+
+import sun.hotspot.WhiteBox;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestAgeOutputSerial
  * @bug 8164936
@@ -44,13 +64,8 @@ package gc;
  * @run driver gc.TestAgeOutput UseG1GC
  */
 
-import sun.hotspot.WhiteBox;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
 
 public class TestAgeOutput {
 

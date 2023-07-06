@@ -19,13 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xml.internal.serialize;
+package java.xml.share.classes.com.sun.org.apache.xml.internal.serialize;
 
 
-import java.io.IOException;
-import org.w3c.dom.Element;
-import org.w3c.dom.Document;
-import org.w3c.dom.DocumentFragment;
+import java.io.java.io.java.io.java.io.IOException;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.w3c.dom.DocumentFragment;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

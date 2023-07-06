@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.windows.classes.sun.print;
+
 
 import javax.print.attribute.standard.MediaTray;
 import javax.print.attribute.EnumSyntax;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class Win32MediaTray is a subclass of MediaTray which declares

@@ -21,18 +21,32 @@
 
 package lib.jdb;
 
+
 import jdk.test.lib.compiler.CompilerUtils;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.text.MessageFormat;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // ClassTransformer provides functionality to transform java source and compile it.
 // We cannot use InMemoryJavaCompiler as test files usually contain 2 classes (the test itself and debuggee)

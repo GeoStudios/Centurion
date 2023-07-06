@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.ref;
+package java.base.share.classes.java.lang.ref;
 
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Phantom reference objects, which are enqueued after the collector

@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.smartcardio;
+package java.smartcardio.share.classes.javax.smartcardio;
+
 
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The TerminalFactorySpi class defines the service provider interface.
@@ -41,7 +56,7 @@ import java.util.*;
  * <p>For example:
  * <pre><em>file MyProvider.java:</em>
  *
- * package com.somedomain.card;
+ * 
  *
  * import java.security.Provider;
  *
@@ -54,9 +69,9 @@ import java.util.*;
  *
  *<em>file MySpi.java</em>
  *
- * package com.somedomain.card;
+ * 
  *
- * import javax.smartcardio.*;
+ * import java.smartcardio.share.classes.javax.smartcardio.*;
  *
  * public class MySpi extends TerminalFactoySpi {
  *      public MySpi(Object parameter) {

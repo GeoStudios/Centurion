@@ -21,9 +21,23 @@
 
 package jdk.jfr.api.flightrecorder;
 
+
 import jdk.jfr.FlightRecorder;
-import jdk.jfr.FlightRecorderListener;
+import jdk.jfr.FlightRecorderjava.util.Listener;
 import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

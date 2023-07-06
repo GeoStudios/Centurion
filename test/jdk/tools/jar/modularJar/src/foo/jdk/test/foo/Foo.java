@@ -21,6 +21,7 @@
 
 package jdk.test.foo;
 
+
 import java.lang.module.ModuleDescriptor;
 import java.lang.module.ModuleDescriptor.Exports;
 import java.lang.module.ModuleDescriptor.Requires;
@@ -28,8 +29,20 @@ import java.lang.module.ModuleDescriptor.Provides;
 import java.util.StringJoiner;
 import java.util.HashSet;
 import java.util.Set;
-
 import jdk.test.foo.internal.Message;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class Foo {
     public static void main(String[] args) {

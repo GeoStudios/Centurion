@@ -19,23 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
+
 
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.spec.AlgorithmParameterSpec;
-import java.util.Arrays;
-import java.util.Objects;
-import javax.crypto.*;
+import java.base.share.classes.java.util.Arrays;
+import java.base.share.classes.java.util.Objects;
+import java.base.share.classes.javax.crypto.*;
 import javax.crypto.spec.ChaCha20ParameterSpec;
 import javax.crypto.spec.IvParameterSpec;
-import javax.crypto.spec.SecretKeySpec;
-import sun.security.util.DerValue;
+import java.base.share.classes.javax.crypto.spec.SecretKeySpec;
+import java.base.share.classes.com.sun.security.util.DerValue;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation of the ChaCha20 cipher, as described in RFC 7539.

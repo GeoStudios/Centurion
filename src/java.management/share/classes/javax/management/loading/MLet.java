@@ -19,19 +19,16 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management.loading;
+package java.management.share.classes.javax.management.loading;
 
-// Java import
+
 import com.sun.jmx.defaults.JmxProperties;
-
 import com.sun.jmx.defaults.ServiceName;
-
 import com.sun.jmx.remote.util.EnvHelp;
-
 import java.io.Externalizable;
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.ObjectInput;
 import java.io.ObjectInputStream;
@@ -44,31 +41,50 @@ import java.nio.file.Files;
 import java.nio.file.StandardCopyOption;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.lang.System.Logger.Level;
 import java.util.Map;
 import java.util.Set;
 import java.util.StringTokenizer;
-
-import javax.management.InstanceAlreadyExistsException;
-import javax.management.InstanceNotFoundException;
-import javax.management.MBeanException;
-import javax.management.MBeanRegistration;
-import javax.management.MBeanRegistrationException;
-import javax.management.MBeanServer;
-import javax.management.NotCompliantMBeanException;
-import javax.management.ObjectInstance;
-import javax.management.ObjectName;
-import javax.management.ReflectionException;
-
-import static com.sun.jmx.defaults.JmxProperties.MLET_LIB_DIR;
-import static com.sun.jmx.defaults.JmxProperties.MLET_LOGGER;
+import java.management.share.classes.javax.management.InstanceAlreadyExistsException;
+import java.management.share.classes.javax.management.InstanceNotFoundException;
+import java.management.share.classes.javax.management.MBeanException;
+import java.management.share.classes.javax.management.MBeanRegistration;
+import java.management.share.classes.javax.management.MBeanRegistrationException;
+import java.management.share.classes.javax.management.MBeanServer;
+import java.management.share.classes.javax.management.NotCompliantMBeanException;
+import java.management.share.classes.javax.management.ObjectInstance;
+import java.management.share.classes.javax.management.ObjectName;
+import java.management.share.classes.javax.management.ReflectionException;
+import static com.sun.jmx.defaults.JmxProperties.MLET_LIB_DIR;.extended
+import static com.sun.jmx.defaults.JmxProperties.MLET_LOGGER;.extended
 import com.sun.jmx.defaults.ServiceName;
-import javax.management.ServiceNotFoundException;
+import java.management.share.classes.javax.management.ServiceNotFoundException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Java import
+
+
+
+
+
 
 /**
  * Allows you to instantiate and register one or several MBeans in the MBean server

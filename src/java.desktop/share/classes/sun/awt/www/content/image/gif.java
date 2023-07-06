@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.www.content.image;
+package java.desktop.share.classes.sun.awt.www.content.image;
+
 
 import java.net.*;
-import sun.awt.image.*;
-import java.io.IOException;
+import java.desktop.share.classes.sun.awt.image.*;
+import java.io.java.io.java.io.java.io.IOException;
 import java.awt.Image;
 import java.awt.Toolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class gif extends ContentHandler {

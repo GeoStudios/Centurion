@@ -21,12 +21,12 @@
 
 package genstubs;
 
+
 import java.io.*;
 import java.util.*;
 import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.StandardLocation;
-
 import com.sun.source.tree.CompilationUnitTree;
 import com.sun.source.util.JavacTask;
 import com.sun.tools.javac.api.JavacTool;
@@ -47,9 +47,22 @@ import com.sun.tools.javac.tree.TreeMaker;
 import com.sun.tools.javac.tree.TreeScanner;
 import com.sun.tools.javac.tree.TreeTranslator;
 import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.ListBuffer;
+import com.sun.tools.javac.util.java.util.ListBuffer;
 import com.sun.tools.javac.util.Name;
 import javax.tools.JavaFileManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Generate stub source files by removing implementation details from input files.

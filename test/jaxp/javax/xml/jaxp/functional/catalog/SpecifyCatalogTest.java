@@ -21,22 +21,33 @@
 
 package catalog;
 
-import static jaxp.library.JAXPTestUtilities.setSystemProperty;
 
-import static catalog.CatalogTestUtils.FEATURE_FILES;
-import static catalog.CatalogTestUtils.catalogResolver;
-import static catalog.CatalogTestUtils.catalogUriResolver;
-import static catalog.CatalogTestUtils.getCatalogPath;
-import static catalog.ResolutionChecker.checkSysIdResolution;
-import static catalog.ResolutionChecker.checkUriResolution;
-import static javax.xml.catalog.CatalogFeatures.builder;
-import static javax.xml.catalog.CatalogFeatures.Feature.FILES;
-
+import static jaxp.library.JAXPTestUtilities.setSystemProperty;.extended
+import static catalog.CatalogTestUtils.FEATURE_FILES;.extended
+import static catalog.CatalogTestUtils.catalogResolver;.extended
+import static catalog.CatalogTestUtils.catalogUriResolver;.extended
+import static catalog.CatalogTestUtils.getCatalogPath;.extended
+import static catalog.ResolutionChecker.checkSysIdResolution;.extended
+import static catalog.ResolutionChecker.checkUriResolution;.extended
+import static javax.xml.catalog.CatalogFeatures.builder;.extended
+import static javax.xml.catalog.CatalogFeatures.Feature.FILES;.extended
 import javax.xml.catalog.CatalogFeatures;
 import javax.xml.catalog.CatalogResolver;
-
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

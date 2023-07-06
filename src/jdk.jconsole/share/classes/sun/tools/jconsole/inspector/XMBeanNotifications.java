@@ -19,15 +19,14 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole.inspector;
+package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
+
 
 import javax.swing.*;
 import javax.swing.table.*;
 import javax.swing.tree.*;
 import java.awt.Font;
-
 import java.text.SimpleDateFormat;
-
 import java.awt.Component;
 import java.awt.EventQueue;
 import java.awt.event.*;
@@ -35,13 +34,25 @@ import java.awt.Dimension;
 import java.util.*;
 import java.io.*;
 import java.lang.reflect.Array;
-
 import javax.management.*;
 import javax.management.openmbean.CompositeData;
 import javax.management.openmbean.TabularData;
+import jdk.jconsole.share.classes.sun.tools.jconsole.JConsole;
+import jdk.jconsole.share.classes.sun.tools.jconsole.Messages;
 
-import sun.tools.jconsole.JConsole;
-import sun.tools.jconsole.Messages;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public class XMBeanNotifications extends JTable implements NotificationListener {

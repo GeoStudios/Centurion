@@ -19,19 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * A Simple TransportService implementatiopn with constructor throwing
- * Exception. Used by
- * nsk/jdi/PlugConnectors/MultiConnectors/plugMultiConnect006 test
- */
-
 package nsk.jdi.PlugConnectors.MultiConnectors.plugMultiConnect006.connectors;
+
 
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import com.sun.jdi.connect.spi.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * A Simple TransportService implementatiopn with constructor throwing
+ * Exception. Used by
+ * nsk/jdi/PlugConnectors/MultiConnectors/plugMultiConnect006 test
+ */
+
+
 
 public class PlugTransportService006_03 extends PlugTransportService {
 

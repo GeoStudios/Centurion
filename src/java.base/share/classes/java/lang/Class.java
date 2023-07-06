@@ -19,40 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.lang.annotation.Annotation;
-import java.lang.constant.ClassDesc;
-import java.lang.invoke.TypeDescriptor;
-import java.lang.invoke.MethodHandles;
-import java.lang.module.ModuleReader;
-import java.lang.ref.SoftReference;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.ObjectStreamField;
-import java.lang.reflect.AnnotatedElement;
-import java.lang.reflect.AnnotatedType;
-import java.lang.reflect.Array;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Executable;
-import java.lang.reflect.Field;
-import java.lang.reflect.GenericArrayType;
-import java.lang.reflect.GenericDeclaration;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Member;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
-import java.lang.reflect.Proxy;
-import java.lang.reflect.RecordComponent;
-import java.lang.reflect.Type;
-import java.lang.reflect.TypeVariable;
-import java.lang.constant.Constable;
-import java.net.URL;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.*;
-import java.util.stream.Collectors;
 
+import java.base.share.classes.java.lang.annotation.Annotation;
+import java.base.share.classes.java.lang.constant.ClassDesc;
+import java.base.share.classes.java.lang.invoke.TypeDescriptor;
+import java.base.share.classes.java.lang.invoke.MethodHandles;
+import java.base.share.classes.java.lang.module.ModuleReader;
+import java.base.share.classes.java.lang.ref.SoftReference;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.InputStream;
+import java.base.share.classes.java.io.ObjectStreamField;
+import java.base.share.classes.java.lang.reflect.AnnotatedElement;
+import java.base.share.classes.java.lang.reflect.AnnotatedType;
+import java.base.share.classes.java.lang.reflect.Array;
+import java.base.share.classes.java.lang.reflect.Constructor;
+import java.base.share.classes.java.lang.reflect.Executable;
+import java.base.share.classes.java.lang.reflect.Field;
+import java.base.share.classes.java.lang.reflect.GenericArrayType;
+import java.base.share.classes.java.lang.reflect.GenericDeclaration;
+import java.base.share.classes.java.lang.reflect.InvocationTargetException;
+import java.base.share.classes.java.lang.reflect.Member;
+import java.base.share.classes.java.lang.reflect.Method;
+import java.base.share.classes.java.lang.reflect.Modifier;
+import java.base.share.classes.java.lang.reflect.Proxy;
+import java.base.share.classes.java.lang.reflect.RecordComponent;
+import java.base.share.classes.java.lang.reflect.Type;
+import java.base.share.classes.java.lang.reflect.TypeVariable;
+import java.base.share.classes.java.lang.constant.Constable;
+import java.base.share.classes.java.net.URL;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.PrivilegedAction;
+import java.base.share.classes.java.util.*;
+import java.base.share.classes.java.util.stream.Collectors;
 import jdk.internal.loader.BootLoader;
 import jdk.internal.loader.BuiltinClassLoader;
 import jdk.internal.misc.Unsafe;
@@ -62,7 +62,7 @@ import jdk.internal.reflect.ConstantPool;
 import jdk.internal.reflect.Reflection;
 import jdk.internal.reflect.ReflectionFactory;
 import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 import sun.invoke.util.Wrapper;
 import sun.reflect.generics.factory.CoreReflectionFactory;
 import sun.reflect.generics.factory.GenericsFactory;
@@ -73,6 +73,20 @@ import sun.reflect.generics.scope.ClassScope;
 import sun.security.util.SecurityConstants;
 import sun.reflect.annotation.*;
 import sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Instances of the class {@code Class} represent classes and
@@ -3629,7 +3643,7 @@ public final class Class<T> implements java.io.Serializable,
      * If this class has had its assertion status set, the most recent
      * setting will be returned; otherwise, if any package default assertion
      * status pertains to this class, the most recent setting for the most
-     * specific pertinent package default assertion status is returned;
+     * specific pertinent 
      * otherwise, if this class is not a system class (i.e., it has a
      * class loader) its class loader's default assertion status is returned;
      * otherwise, the system class default assertion status is returned.

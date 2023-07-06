@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.classUnloading.methodUnloading;
+
+
+import java.lang.reflect.Method;
+import java.net.URL;
+import java.net.URLClassLoader;
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestOverloadCompileQueues
  * @bug 8163511 8230402
@@ -30,12 +51,7 @@
  *                   compiler.classUnloading.methodUnloading.TestOverloadCompileQueues
  */
 
-package compiler.classUnloading.methodUnloading;
 
-import java.lang.reflect.Method;
-import java.net.URL;
-import java.net.URLClassLoader;
-import java.util.Arrays;
 
 public class TestOverloadCompileQueues {
     public static final int ITERS = 500; // Increase for longer stress testing

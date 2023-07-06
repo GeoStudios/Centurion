@@ -19,20 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.lang.invoke;
+
+
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import static java.lang.invoke.MethodType.methodType;.extended
+import static org.testng.AssertJUnit.*;.extended
+import org.testng.annotations.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @test
  * @bug 8155106
  * @run testng/othervm -ea -esa test.java.lang.invoke.ArrayConstructorTest
  */
-package test.java.lang.invoke;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
 
-import static java.lang.invoke.MethodType.methodType;
 
-import static org.testng.AssertJUnit.*;
 
-import org.testng.annotations.*;
 
 
 public class ArrayConstructorTest {

@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.colorchooser;
+package java.desktop.share.classes.javax.swing.colorchooser;
+
 
 import java.awt.Component;
-import javax.swing.UIManager;
+import java.desktop.share.classes.javax.swing.UIManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class ColorModel {
 

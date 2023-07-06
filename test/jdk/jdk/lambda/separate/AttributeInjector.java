@@ -21,7 +21,21 @@
 
 package separate;
 
+
 import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class AttributeInjector implements ClassFilePreprocessor {
 

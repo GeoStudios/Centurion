@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.tool;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.tool;
+
 
 import java.io.PrintStream;
 import java.io.PrintWriter;
@@ -27,11 +28,10 @@ import java.lang.ref.Reference;
 import java.lang.ref.SoftReference;
 import java.util.EnumSet;
 import java.util.LinkedHashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.ResourceBundle;
 import java.util.Set;
-
 import javax.lang.model.element.Element;
 import javax.lang.model.element.Modifier;
 import javax.lang.model.element.NestingKind;
@@ -40,9 +40,7 @@ import javax.tools.Diagnostic.Kind;
 import javax.tools.FileObject;
 import javax.tools.ForwardingFileObject;
 import javax.tools.JavaFileObject;
-
-import jdk.javadoc.doclet.Reporter;
-
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.Reporter;
 import com.sun.tools.javac.tree.EndPosTable;
 import com.sun.tools.javac.util.Context.Factory;
 import com.sun.tools.javac.util.DiagnosticSource;
@@ -58,6 +56,20 @@ import com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
 import com.sun.tools.javac.util.JCDiagnostic.DiagnosticType;
 import com.sun.tools.javac.util.JavacMessages;
 import com.sun.tools.javac.util.Log;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class for reporting diagnostics and other messages.

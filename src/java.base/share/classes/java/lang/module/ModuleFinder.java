@@ -19,23 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.module;
+package java.base.share.classes.java.lang.module;
 
-import java.nio.file.Path;
-import java.security.AccessController;
-import java.security.Permission;
-import java.security.PrivilegedAction;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Optional;
-import java.util.Set;
 
+import java.base.share.classes.java.nio.file.Path;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.Permission;
+import java.base.share.classes.java.security.PrivilegedAction;
+import java.base.share.classes.java.util.Collections;
+import java.base.share.classes.java.util.HashMap;
+import java.base.share.classes.java.util.HashSet;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Optional;
+import java.base.share.classes.java.util.Set;
 import jdk.internal.module.ModulePath;
 import jdk.internal.module.SystemModuleFinders;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A finder of modules. A {@code ModuleFinder} is used to find modules during

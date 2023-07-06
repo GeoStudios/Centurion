@@ -19,22 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package com.sun.org.apache.xml.internal.security.keys.storage;
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.storage;
+
 
 import java.security.KeyStore;
 import java.security.cert.Certificate;
 import java.security.cert.X509Certificate;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.NoSuchElementException;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.storage.implementations.KeyStoreResolver;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.storage.implementations.SingleCertificateResolver;
 
-import com.sun.org.apache.xml.internal.security.keys.storage.implementations.KeyStoreResolver;
-import com.sun.org.apache.xml.internal.security.keys.storage.implementations.SingleCertificateResolver;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
 
 /**
  * This class collects customized resolvers for Certificates.

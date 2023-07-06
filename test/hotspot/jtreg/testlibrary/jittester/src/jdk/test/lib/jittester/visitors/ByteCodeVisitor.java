@@ -21,17 +21,17 @@
 
 package jdk.test.lib.jittester.visitors;
 
+
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.NoSuchElementException;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.SortedMap;
 import java.util.TreeMap;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.FieldVisitor;
 import jdk.internal.org.objectweb.asm.Label;
@@ -65,7 +65,7 @@ import jdk.test.lib.jittester.TernaryOperator;
 import jdk.test.lib.jittester.Throw;
 import jdk.test.lib.jittester.TryCatchBlock;
 import jdk.test.lib.jittester.Type;
-import jdk.test.lib.jittester.TypeList;
+import jdk.test.lib.jittester.Typejava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.UnaryOperator;
 import jdk.test.lib.jittester.VariableBase;
 import jdk.test.lib.jittester.VariableDeclaration;
@@ -103,6 +103,19 @@ import jdk.test.lib.jittester.types.TypeArray;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.FixedTrees;
 import jdk.test.lib.jittester.utils.PseudoRandom;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ByteCodeVisitor implements Visitor<byte[]> {
     private final GeneratedClassesContext context = new GeneratedClassesContext();

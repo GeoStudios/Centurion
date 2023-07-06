@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.naming.ldap;
+package java.naming.share.classes.javax.naming.ldap;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import com.sun.jndi.ldap.Ber;
 import com.sun.jndi.ldap.BerDecoder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Indicates the end of a batch of search results.

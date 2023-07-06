@@ -21,9 +21,23 @@
 
 package nsk.jdi.FloatType._itself_;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used as debuggee application for the floattype001 JDI test.

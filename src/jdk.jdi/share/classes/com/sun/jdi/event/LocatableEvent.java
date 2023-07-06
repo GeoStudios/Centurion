@@ -19,10 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jdi.event;
+package jdk.jdi.share.classes.com.sun.jdi.event;
 
-import com.sun.jdi.Locatable;
-import com.sun.jdi.ThreadReference;
+
+import jdk.jdi.share.classes.com.sun.jdi.Locatable;
+import jdk.jdi.share.classes.com.sun.jdi.ThreadReference;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Abstract superinterface of events which have both location
  * and thread.

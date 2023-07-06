@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package pkg1;
+
+
+import java.lang.invoke.*;
+import java.lang.invoke.MethodType;
+import java.lang.constant.*;
+import static java.lang.invoke.MethodHandles.*;.extended
+import static java.lang.invoke.MethodHandles.Lookup.*;.extended
+import static java.lang.invoke.MethodType.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8226709
@@ -27,15 +50,8 @@
  * @run main pkg1.MethodTypeDescriptorAccessTest
  */
 
-package pkg1;
 
-import java.lang.invoke.*;
-import java.lang.invoke.MethodType;
-import java.lang.constant.*;
 
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodHandles.Lookup.*;
-import static java.lang.invoke.MethodType.*;
 
 public class MethodTypeDescriptorAccessTest {
     public static void main(String... args) throws Throwable {

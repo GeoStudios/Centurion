@@ -18,29 +18,43 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.incubator.foreign;
 
-import jdk.internal.foreign.AbstractCLinker;
-import jdk.internal.foreign.NativeMemorySegmentImpl;
-import jdk.internal.foreign.PlatformLayouts;
-import jdk.internal.foreign.SystemLookup;
-import jdk.internal.foreign.abi.SharedUtils;
-import jdk.internal.foreign.abi.aarch64.linux.LinuxAArch64VaList;
-import jdk.internal.foreign.abi.aarch64.macos.MacOsAArch64VaList;
-import jdk.internal.foreign.abi.x64.sysv.SysVVaList;
-import jdk.internal.foreign.abi.x64.windows.WinVaList;
-import jdk.internal.reflect.CallerSensitive;
-import jdk.internal.reflect.Reflection;
+package jdk.incubator.foreign.share.classes.jdk.incubator.foreign;
 
+
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.AbstractCLinker;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.NativeMemorySegmentImpl;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.PlatformLayouts;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.SystemLookup;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.SharedUtils;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.aarch64.linux.LinuxAArch64Vajava.util.java.util.java.util.List;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.aarch64.macos.MacOsAArch64Vajava.util.java.util.java.util.List;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.x64.sysv.SysVVajava.util.java.util.java.util.List;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.x64.windows.WinVajava.util.java.util.java.util.List;
+import jdk.incubator.foreign.share.classes.jdk.internal.reflect.CallerSensitive;
+import jdk.incubator.foreign.share.classes.jdk.internal.reflect.Reflection;
 import java.lang.constant.Constable;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodType;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.function.Consumer;
+import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.PlatformLayouts.*;.extended
 
-import static jdk.internal.foreign.PlatformLayouts.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A C linker implements the C Application Binary Interface (ABI) calling conventions.

@@ -19,30 +19,44 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.management.share.classes.javax.management.openmbean;
 
-package javax.management.openmbean;
 
-
-// java import
-//
 import java.lang.reflect.Array;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
-import javax.management.Descriptor;
-import javax.management.DescriptorRead;
-import javax.management.ImmutableDescriptor;
-import javax.management.MBeanAttributeInfo;
+import java.management.share.classes.javax.management.Descriptor;
+import java.management.share.classes.javax.management.DescriptorRead;
+import java.management.share.classes.javax.management.ImmutableDescriptor;
+import java.management.share.classes.javax.management.MBeanAttributeInfo;
 import com.sun.jmx.remote.util.EnvHelp;
 import sun.reflect.misc.MethodUtil;
 import sun.reflect.misc.ReflectUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// java import
+//
 
 /**
  * Describes an attribute of an open MBean.

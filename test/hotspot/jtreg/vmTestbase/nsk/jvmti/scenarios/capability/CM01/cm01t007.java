@@ -21,11 +21,24 @@
 
 package nsk.jvmti.scenarios.capability.CM01;
 
-import java.io.PrintStream;
 
+import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
 import nsk.share.jvmti.ThreadState;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class cm01t007 extends DebugeeClass {
 

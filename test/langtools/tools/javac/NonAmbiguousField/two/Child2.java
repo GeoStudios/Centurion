@@ -21,6 +21,21 @@
 
 package two;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 interface I {
     int i = 11;
 }

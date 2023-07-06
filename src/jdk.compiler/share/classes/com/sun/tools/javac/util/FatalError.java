@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.util;
+package jdk.compiler.share.classes.com.sun.tools.javac.util;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Throwing an instance of this class causes immediate termination
  *  of the main compiler method.  It is used when some non-recoverable

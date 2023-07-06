@@ -19,6 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.jvmci.compilerToVM;
+
+
+import compiler.jvmci.common.testcases.DoNotExtendClass;
+import compiler.jvmci.common.testcases.MultiSubclassedClass;
+import compiler.jvmci.common.testcases.SingleSubclass;
+import jdk.test.lib.Asserts;
+import jdk.test.lib.Utils;
+import jdk.vm.ci.hotspot.CompilerToVMHelper;
+import jdk.vm.ci.hotspot.HotSpotResolvedObjectType;
+import java.util.HashSet;
+import java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8136421
@@ -33,18 +59,8 @@
  *                   compiler.jvmci.compilerToVM.LookupTypeTest
  */
 
-package compiler.jvmci.compilerToVM;
 
-import compiler.jvmci.common.testcases.DoNotExtendClass;
-import compiler.jvmci.common.testcases.MultiSubclassedClass;
-import compiler.jvmci.common.testcases.SingleSubclass;
-import jdk.test.lib.Asserts;
-import jdk.test.lib.Utils;
-import jdk.vm.ci.hotspot.CompilerToVMHelper;
-import jdk.vm.ci.hotspot.HotSpotResolvedObjectType;
 
-import java.util.HashSet;
-import java.util.Set;
 
 public class LookupTypeTest {
     public static void main(String args[]) {

@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.awt.X11;
+
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.*;
 import java.awt.peer.*;
@@ -29,6 +31,21 @@ import java.awt.event.ActionEvent;
 import javax.swing.plaf.basic.*;
 import javax.swing.SwingUtilities;
 import javax.swing.SwingConstants;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class XButtonPeer extends XComponentPeer implements ButtonPeer {
     private boolean pressed;
     private boolean armed;

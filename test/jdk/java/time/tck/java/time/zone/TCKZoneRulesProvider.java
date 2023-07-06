@@ -21,10 +21,10 @@
 
 package tck.java.time.zone;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertNotNull;
-import static org.testng.Assert.assertTrue;
 
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.assertNotNull;.extended
+import static org.testng.Assert.assertTrue;.extended
 import java.time.ZoneId;
 import java.time.ZoneOffset;
 import java.time.zone.ZoneRules;
@@ -35,8 +35,20 @@ import java.util.HashSet;
 import java.util.NavigableMap;
 import java.util.Set;
 import java.util.TreeMap;
-
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test ZoneRulesProvider.

@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.gtk;
+package java.desktop.share.classes.com.sun.java.swing.plaf.gtk;
 
-import java.awt.Color;
-import java.util.Arrays;
+
+import java.desktop.share.classes.com.sun.java.awt.Color;
+import java.desktop.share.classes.com.sun.java.util.java.util.java.util.java.util.Arrays;
 import javax.swing.plaf.ColorUIResource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  */

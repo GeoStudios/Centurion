@@ -21,6 +21,21 @@
 
 package test;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Version {
     public int getVersion() {
         NonPublic np = new NonPublic();

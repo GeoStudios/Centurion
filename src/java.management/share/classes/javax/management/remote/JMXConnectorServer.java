@@ -19,20 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.management.share.classes.javax.management.remote;
 
-package javax.management.remote;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
+import java.management.share.classes.javax.management.MBeanNotificationInfo;
+import java.management.share.classes.javax.management.MBeanRegistration;
+import java.management.share.classes.javax.management.MBeanServer;
+import java.management.share.classes.javax.management.Notification;
+import java.management.share.classes.javax.management.NotificationBroadcasterSupport;
+import java.management.share.classes.javax.management.ObjectName;
 
-import javax.management.MBeanNotificationInfo;
-import javax.management.MBeanRegistration;
-import javax.management.MBeanServer;
-import javax.management.Notification;
-import javax.management.NotificationBroadcasterSupport;
-import javax.management.ObjectName;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Superclass of every connector server.  A connector server is

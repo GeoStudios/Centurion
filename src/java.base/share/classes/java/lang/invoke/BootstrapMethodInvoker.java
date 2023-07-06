@@ -18,19 +18,33 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang.invoke;
+
+package java.base.share.classes.java.lang.invoke;
+
 
 import sun.invoke.util.Wrapper;
+import java.base.share.classes.java.lang.invoke.AbstractConstantGroup.BSCIWithCache;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import static java.base.share.classes.java.lang.invoke.BootstrapCallInfo.makeBootstrapCallInfo;.extended
+import static java.base.share.classes.java.lang.invoke.ConstantGroup.makeConstantGroup;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.TRACE_METHOD_LINKAGE;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;.extended
 
-import java.lang.invoke.AbstractConstantGroup.BSCIWithCache;
-import java.util.Arrays;
 
-import static java.lang.invoke.BootstrapCallInfo.makeBootstrapCallInfo;
-import static java.lang.invoke.ConstantGroup.makeConstantGroup;
-import static java.lang.invoke.MethodHandleNatives.*;
-import static java.lang.invoke.MethodHandleStatics.TRACE_METHOD_LINKAGE;
-import static java.lang.invoke.MethodHandles.Lookup;
-import static java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class BootstrapMethodInvoker {
 
@@ -85,7 +99,7 @@ final class BootstrapMethodInvoker {
                 if (type instanceof Class<?> c) {
                     result = bootstrapMethod.invoke(caller, name, c);
                 } else {
-                    result = bootstrapMethod.invoke(caller, name, (MethodType)type);
+                    result = bootstrapMethod.invoke(caller, name, type);
                 }
             }
             else if (!info.getClass().isArray()) {
@@ -94,15 +108,15 @@ final class BootstrapMethodInvoker {
                 // Call to StringConcatFactory::makeConcatWithConstants
                 // with empty constant arguments?
                 if (isStringConcatFactoryBSM(bootstrapMethod.type())) {
-                    result = (CallSite)bootstrapMethod
-                            .invokeExact(caller, name, (MethodType)type,
-                                         (String)info, new Object[0]);
+                    result = bootstrapMethod
+                            .invokeExact(caller, name, type,
+                                    info, new Object[0]);
                 } else {
                     info = maybeReBox(info);
                     if (type instanceof Class<?> c) {
                         result = bootstrapMethod.invoke(caller, name, c, info);
                     } else {
-                        result = bootstrapMethod.invoke(caller, name, (MethodType)type, info);
+                        result = bootstrapMethod.invoke(caller, name, type, info);
                     }
                 }
             }
@@ -126,21 +140,21 @@ final class BootstrapMethodInvoker {
 
                 MethodType bsmType = bootstrapMethod.type();
                 if (isLambdaMetafactoryIndyBSM(bsmType) && argv.length == 3) {
-                    result = (CallSite)bootstrapMethod
-                            .invokeExact(caller, name, (MethodType)type, (MethodType)argv[0],
-                                    (MethodHandle)argv[1], (MethodType)argv[2]);
+                    result = bootstrapMethod
+                            .invokeExact(caller, name, type, argv[0],
+                                    argv[1], argv[2]);
                 } else if (isLambdaMetafactoryCondyBSM(bsmType) && argv.length == 3) {
                     result = bootstrapMethod
-                            .invokeExact(caller, name, (Class<?>)type, (MethodType)argv[0],
-                                    (MethodHandle)argv[1], (MethodType)argv[2]);
+                            .invokeExact(caller, name, type, argv[0],
+                                    argv[1], argv[2]);
                 } else if (isStringConcatFactoryBSM(bsmType) && argv.length >= 1) {
                     String recipe = (String)argv[0];
                     Object[] shiftedArgs = Arrays.copyOfRange(argv, 1, argv.length);
                     maybeReBoxElements(shiftedArgs);
-                    result = (CallSite)bootstrapMethod.invokeExact(caller, name, (MethodType)type, recipe, shiftedArgs);
+                    result = bootstrapMethod.invokeExact(caller, name, type, recipe, shiftedArgs);
                 } else if (isLambdaMetafactoryAltMetafactoryBSM(bsmType)) {
                     maybeReBoxElements(argv);
-                    result = (CallSite)bootstrapMethod.invokeExact(caller, name, (MethodType)type, argv);
+                    result = bootstrapMethod.invokeExact(caller, name, type, argv);
                 } else {
                     maybeReBoxElements(argv);
                     if (type instanceof Class<?> c) {
@@ -233,7 +247,7 @@ final class BootstrapMethodInvoker {
             MethodType invocationType = MethodType.genericMethodType(NON_SPREAD_ARG_COUNT + argv.length);
             MethodHandle typedBSM = bootstrapMethod.asType(invocationType);
             MethodHandle spreader = invocationType.invokers().spreadInvoker(NON_SPREAD_ARG_COUNT);
-            return spreader.invokeExact(typedBSM, (Object) caller, (Object) name, type, argv);
+            return spreader.invokeExact(typedBSM, caller, name, type, argv);
         }
     }
 
@@ -485,7 +499,7 @@ final class BootstrapMethodInvoker {
                     MethodHandle spreader = invocationType.invokers().spreadInvoker(NON_SPREAD_ARG_COUNT);
                     Object[] argv = new Object[argc];
                     bsci.copyConstants(0, argc, argv, 0);
-                    return spreader.invokeExact(typedBSM, (Object) lookup, (Object) bsci.invocationName(), bsci.invocationType(), argv);
+                    return spreader.invokeExact(typedBSM, lookup, bsci.invocationName(), bsci.invocationType(), argv);
                 }
         }
 

@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jstack;
+package jdk.jcmd.share.classes.sun.tools.jstack;
+
 
 import java.io.InputStream;
 import java.util.Collection;
-
 import com.sun.tools.attach.VirtualMachine;
-import sun.tools.attach.HotSpotVirtualMachine;
-import sun.tools.common.ProcessArgumentMatcher;
-import sun.tools.common.PrintStreamPrinter;
+import jdk.jcmd.share.classes.sun.tools.attach.HotSpotVirtualMachine;
+import jdk.jcmd.share.classes.sun.tools.common.ProcessArgumentMatcher;
+import jdk.jcmd.share.classes.sun.tools.common.PrintStreamPrinter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This class is the main class for the JStack utility. It parses its arguments

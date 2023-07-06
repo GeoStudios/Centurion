@@ -19,22 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.traversers;
+
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSAnnotationImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSParticleDecl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSWildcardDecl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XInt;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XSObjectjava.util.ListImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.DOMUtil;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObjectjava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.impl.xs.traversers;
 
-import com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar;
-import com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
-import com.sun.org.apache.xerces.internal.impl.xs.XSAnnotationImpl;
-import com.sun.org.apache.xerces.internal.impl.xs.XSParticleDecl;
-import com.sun.org.apache.xerces.internal.impl.xs.XSWildcardDecl;
-import com.sun.org.apache.xerces.internal.impl.xs.util.XInt;
-import com.sun.org.apache.xerces.internal.impl.xs.util.XSObjectListImpl;
-import com.sun.org.apache.xerces.internal.util.DOMUtil;
-import com.sun.org.apache.xerces.internal.xs.XSObjectList;
-import org.w3c.dom.Element;
+
 
 /**
  * The wildcard schema component traverser.

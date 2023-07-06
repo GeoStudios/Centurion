@@ -19,12 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt;
+package java.desktop.macosx.classes.sun.lwawt;
+
 
 import java.awt.*;
 import java.awt.event.FocusEvent;
+import java.desktop.macosx.classes.sun.java2d.SurfaceData;
 
-import sun.java2d.SurfaceData;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // TODO Is it worth to generify this interface, like that:
 //

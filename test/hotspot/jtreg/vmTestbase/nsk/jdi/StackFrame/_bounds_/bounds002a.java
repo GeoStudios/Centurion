@@ -21,9 +21,23 @@
 
 package nsk.jdi.StackFrame._bounds_;
 
+
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  <code>bounds002a</code> is deugee's part of the bounds002.

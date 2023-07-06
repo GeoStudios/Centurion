@@ -21,7 +21,21 @@
 
 package com.foo;
 
+
 import java.text.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * FooNumberFormat provides DecimalFormat methods required for the SPI testing.

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole;
+package jdk.jconsole.share.classes.sun.tools.jconsole;
+
 
 import java.awt.*;
 import java.awt.event.*;
@@ -27,20 +28,30 @@ import java.beans.*;
 import java.io.*;
 import java.net.*;
 import java.util.*;
-import java.util.List;
-
+import java.util.java.util.java.util.java.util.List;
 import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.event.*;
 import javax.swing.plaf.*;
 import javax.security.auth.login.FailedLoginException;
 import javax.net.ssl.SSLHandshakeException;
-
 import com.sun.tools.jconsole.JConsolePlugin;
+import jdk.jconsole.share.classes.sun.net.util.IPAddressUtil;
+import static jdk.jconsole.share.classes.sun.tools.jconsole.Utilities.*;.extended
 
-import sun.net.util.IPAddressUtil;
 
-import static sun.tools.jconsole.Utilities.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial")
 public class JConsole extends JFrame

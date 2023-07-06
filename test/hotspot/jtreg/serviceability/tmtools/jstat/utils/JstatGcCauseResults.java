@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package utils;
+
+
+import common.ToolResults;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Results of running the JstatGcTool ("jstat -gccause <pid>")
  *
@@ -43,9 +61,7 @@
  * LGCC    Cause of last Garbage Collection.
  * GCC     Cause of current Garbage Collection.
  */
-package utils;
 
-import common.ToolResults;
 
 public class JstatGcCauseResults extends JstatResults {
 

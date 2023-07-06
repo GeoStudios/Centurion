@@ -19,12 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.xml.internal.stream.util;
+package java.xml.share.classes.com.sun.xml.internal.stream.util;
+
+
+import java.util.Iterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  *
  */
 
-import java.util.Iterator;
 
 public class ReadOnlyIterator<T> implements Iterator<T> {
 

@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.print;
+package java.desktop.share.classes.sun.print;
+
 
 import java.io.Serial;
-import java.util.ArrayList;
-
+import java.util.Arrayjava.util.java.util.java.util.List;
 import javax.print.attribute.EnumSyntax;
 import javax.print.attribute.standard.Media;
 import javax.print.attribute.standard.MediaSize;
 import javax.print.attribute.standard.MediaSizeName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class CustomMediaSizeName extends MediaSizeName {
     private static final ArrayList<String> customStringTable = new ArrayList<>();

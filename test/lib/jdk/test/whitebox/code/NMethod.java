@@ -21,8 +21,22 @@
 
 package jdk.test.whitebox.code;
 
+
 import java.lang.reflect.Executable;
 import jdk.test.whitebox.WhiteBox;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class NMethod extends CodeBlob {
   private static final WhiteBox wb = WhiteBox.getWhiteBox();

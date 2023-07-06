@@ -18,32 +18,45 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jdk.test.lib.jfr;
 
-import static jdk.test.lib.Asserts.assertEquals;
-import static jdk.test.lib.Asserts.assertNotEquals;
-import static jdk.test.lib.Asserts.assertNotNull;
-import static jdk.test.lib.Asserts.assertNull;
-import static jdk.test.lib.Asserts.fail;
 
+import static jdk.test.lib.Asserts.assertEquals;.extended
+import static jdk.test.lib.Asserts.assertNotEquals;.extended
+import static jdk.test.lib.Asserts.assertNotNull;.extended
+import static jdk.test.lib.Asserts.assertNull;.extended
+import static jdk.test.lib.Asserts.fail;.extended
 import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintStream;
 import java.lang.management.GarbageCollectorMXBean;
 import java.lang.management.ManagementFactory;
 import java.time.Instant;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.Stack;
-
 import jdk.jfr.ValueDescriptor;
 import jdk.jfr.consumer.RecordedEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Mixed helper classes to test GC events.

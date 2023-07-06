@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.GcPointerCheckTest;
+
+
+import nsk.share.TestFailure;
+import nsk.share.gc.GC;
+import nsk.share.gc.ThreadedGCTest;
+import nsk.share.test.ExecutionController;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress
@@ -37,12 +58,7 @@
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.GcPointerCheckTest.GcPointerCheckTest
  */
 
-package gc.gctests.GcPointerCheckTest;
 
-import nsk.share.TestFailure;
-import nsk.share.gc.GC;
-import nsk.share.gc.ThreadedGCTest;
-import nsk.share.test.ExecutionController;
 
 /**
  * Test that no pointers are broken.

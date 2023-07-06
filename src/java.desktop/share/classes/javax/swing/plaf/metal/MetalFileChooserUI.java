@@ -19,27 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.metal;
+package java.desktop.share.classes.javax.swing.plaf.metal;
 
-import javax.swing.*;
-import javax.swing.border.EmptyBorder;
-import javax.swing.filechooser.*;
-import javax.swing.event.*;
-import javax.swing.plaf.*;
-import javax.swing.plaf.basic.*;
+
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.border.EmptyBorder;
+import java.desktop.share.classes.javax.swing.filechooser.*;
+import java.desktop.share.classes.javax.swing.event.*;
+import java.desktop.share.classes.javax.swing.plaf.*;
+import java.desktop.share.classes.javax.swing.plaf.basic.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.*;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.*;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-import javax.accessibility.*;
-
+import java.desktop.share.classes.javax.accessibility.*;
 import sun.awt.shell.ShellFolder;
 import sun.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Metal L&amp;F implementation of a FileChooser.

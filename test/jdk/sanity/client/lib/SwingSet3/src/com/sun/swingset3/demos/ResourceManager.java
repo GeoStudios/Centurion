@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package com.sun.swingset3.demos;
+
 
 import java.net.URL;
 import java.util.MissingResourceException;
@@ -26,6 +28,19 @@ import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @author Pavel Porvatov

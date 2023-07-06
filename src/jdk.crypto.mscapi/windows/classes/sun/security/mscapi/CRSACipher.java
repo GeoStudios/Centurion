@@ -19,20 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.mscapi;
+package jdk.crypto.mscapi.windows.classes.sun.security.mscapi;
+
 
 import java.math.BigInteger;
-import java.security.*;
-import java.security.Key;
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.java.security.Key;
 import java.security.interfaces.*;
-import java.security.spec.*;
+import java.base.share.classes.java.security.spec.*;
+import java.base.share.classes.javax.crypto.*;
+import java.base.share.classes.javax.crypto.spec.*;
+import jdk.crypto.mscapi.windows.classes.sun.security.rsa.RSAKeyFactory;
+import jdk.crypto.mscapi.windows.classes.sun.security.internal.spec.TlsRsaPremasterSecretParameterSpec;
+import jdk.crypto.mscapi.windows.classes.sun.security.util.KeyUtil;
 
-import javax.crypto.*;
-import javax.crypto.spec.*;
 
-import sun.security.rsa.RSAKeyFactory;
-import sun.security.internal.spec.TlsRsaPremasterSecretParameterSpec;
-import sun.security.util.KeyUtil;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Cipher implementation using the Microsoft Crypto API.

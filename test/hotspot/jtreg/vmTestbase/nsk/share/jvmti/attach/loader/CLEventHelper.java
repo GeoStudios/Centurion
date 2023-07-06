@@ -18,6 +18,24 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package nsk.share.jvmti.attach.loader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * CLEventHelper.java
  *
@@ -25,7 +43,6 @@
  *
  */
 
-package nsk.share.jvmti.attach.loader;
 /**
  * This class Object is created to make sure that all the classload
  * and unload events are properly called.

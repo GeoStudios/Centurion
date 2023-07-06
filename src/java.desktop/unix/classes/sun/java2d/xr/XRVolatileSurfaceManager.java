@@ -19,14 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.xr;
+package java.desktop.unix.classes.sun.java2d.xr;
+
 
 import java.awt.GraphicsConfiguration;
 import java.awt.ImageCapabilities;
 import java.awt.image.ColorModel;
-import sun.awt.image.SunVolatileImage;
-import sun.awt.image.VolatileSurfaceManager;
-import sun.java2d.SurfaceData;
+import java.desktop.unix.classes.sun.awt.image.SunVolatileImage;
+import java.desktop.unix.classes.sun.awt.image.VolatileSurfaceManager;
+import java.desktop.unix.classes.sun.java2d.SurfaceData;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * XRender platform implementation of the VolatileSurfaceManager class.

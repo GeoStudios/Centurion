@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util.prefs;
+package java.prefs.macosx.classes.java.util.prefs;
 
-import java.util.Objects;
+
+import java.prefs.macosx.classes.java.util.java.util.java.util.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class MacOSXPreferences extends AbstractPreferences {
     // fixme need security checks?

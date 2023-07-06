@@ -18,12 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text.rtf;
+
+package java.desktop.share.classes.javax.swing.text.rtf;
+
 
 import java.util.Dictionary;
 import java.util.Enumeration;
-import javax.swing.text.AttributeSet;
-import javax.swing.text.MutableAttributeSet;
+import java.desktop.share.classes.javax.swing.text.AttributeSet;
+import java.desktop.share.classes.javax.swing.text.MutableAttributeSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* This AttributeSet is made entirely out of tofu and Ritz Crackers

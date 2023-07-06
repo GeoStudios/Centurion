@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text;
+
+package java.desktop.share.classes.javax.swing.text;
+
 
 import java.util.*;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.awt.*;
-import javax.swing.SwingUtilities;
-import javax.swing.event.DocumentEvent;
+import java.desktop.share.classes.javax.swing.SwingUtilities;
+import java.desktop.share.classes.javax.swing.event.DocumentEvent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A box that does layout asynchronously.  This

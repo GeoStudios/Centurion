@@ -19,60 +19,75 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.parsers;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
 
-import com.sun.org.apache.xerces.internal.dom.AttrImpl;
-import com.sun.org.apache.xerces.internal.dom.CoreDocumentImpl;
-import com.sun.org.apache.xerces.internal.dom.DOMErrorImpl;
-import com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
-import com.sun.org.apache.xerces.internal.dom.DeferredDocumentImpl;
-import com.sun.org.apache.xerces.internal.dom.DocumentImpl;
-import com.sun.org.apache.xerces.internal.dom.DocumentTypeImpl;
-import com.sun.org.apache.xerces.internal.dom.ElementDefinitionImpl;
-import com.sun.org.apache.xerces.internal.dom.ElementImpl;
-import com.sun.org.apache.xerces.internal.dom.ElementNSImpl;
-import com.sun.org.apache.xerces.internal.dom.EntityImpl;
-import com.sun.org.apache.xerces.internal.dom.EntityReferenceImpl;
-import com.sun.org.apache.xerces.internal.dom.NodeImpl;
-import com.sun.org.apache.xerces.internal.dom.NotationImpl;
-import com.sun.org.apache.xerces.internal.dom.PSVIAttrNSImpl;
-import com.sun.org.apache.xerces.internal.dom.PSVIDocumentImpl;
-import com.sun.org.apache.xerces.internal.dom.PSVIElementNSImpl;
-import com.sun.org.apache.xerces.internal.dom.TextImpl;
-import com.sun.org.apache.xerces.internal.impl.Constants;
-import com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType;
-import com.sun.org.apache.xerces.internal.util.DOMErrorHandlerWrapper;
-import com.sun.org.apache.xerces.internal.utils.ObjectFactory;
-import com.sun.org.apache.xerces.internal.xni.Augmentations;
-import com.sun.org.apache.xerces.internal.xni.NamespaceContext;
-import com.sun.org.apache.xerces.internal.xni.QName;
-import com.sun.org.apache.xerces.internal.xni.XMLAttributes;
-import com.sun.org.apache.xerces.internal.xni.XMLLocator;
-import com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
-import com.sun.org.apache.xerces.internal.xni.XMLString;
-import com.sun.org.apache.xerces.internal.xni.XNIException;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLParserConfiguration;
-import com.sun.org.apache.xerces.internal.xs.AttributePSVI;
-import com.sun.org.apache.xerces.internal.xs.ElementPSVI;
-import com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
-import java.util.Locale;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.AttrImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.CoreDocumentImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMErrorImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DeferredDocumentImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DocumentImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DocumentTypeImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.ElementDefinitionImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.ElementImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.ElementNSImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.EntityImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.EntityReferenceImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.NodeImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.NotationImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.PSVIAttrNSImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.PSVIDocumentImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.PSVIElementNSImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.TextImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.DOMErrorHandlerWrapper;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.ObjectFactory;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.Augmentations;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLAttributes;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLLocator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLString;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLParserConfiguration;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.AttributePSVI;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.ElementPSVI;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
+import java.base.share.classes.java.util.Locale;
 import java.util.Stack;
-import org.w3c.dom.Attr;
-import org.w3c.dom.CDATASection;
-import org.w3c.dom.Comment;
-import org.w3c.dom.DOMError;
-import org.w3c.dom.Document;
-import org.w3c.dom.DocumentType;
-import org.w3c.dom.Element;
-import org.w3c.dom.EntityReference;
-import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.w3c.dom.ProcessingInstruction;
-import org.w3c.dom.Text;
-import org.w3c.dom.ls.LSParserFilter;
-import org.w3c.dom.traversal.NodeFilter;
-import org.xml.sax.SAXException;
+import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
+import java.xml.share.classes.com.sun.org.w3c.dom.CDATASection;
+import java.xml.share.classes.com.sun.org.w3c.dom.Comment;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMError;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.w3c.dom.DocumentType;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.share.classes.com.sun.org.w3c.dom.EntityReference;
+import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
+import java.xml.share.classes.com.sun.org.w3c.dom.Node;
+import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.w3c.dom.ProcessingInstruction;
+import java.xml.share.classes.com.sun.org.w3c.dom.Text;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSParserFilter;
+import java.xml.share.classes.com.sun.org.w3c.dom.traversal.NodeFilter;
+import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is the base class of all DOM parsers. It implements the XNI

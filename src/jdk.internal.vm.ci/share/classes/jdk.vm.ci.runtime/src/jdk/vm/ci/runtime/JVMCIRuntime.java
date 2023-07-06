@@ -18,9 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.runtime;
 
-import jdk.vm.ci.code.Architecture;
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.runtime.src.jdk.vm.ci.runtime;
+
+
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.runtime.src.jdk.vm.ci.code.Architecture;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface for accessing the {@link JVMCI} APIs supported by the runtime.

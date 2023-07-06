@@ -18,15 +18,16 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java2d;
+
+package demo.share.jfc.J2Ddemo.java2d;
 
 
-import static java.awt.RenderingHints.KEY_ANTIALIASING;
-import static java.awt.RenderingHints.KEY_RENDERING;
-import static java.awt.RenderingHints.VALUE_ANTIALIAS_OFF;
-import static java.awt.RenderingHints.VALUE_ANTIALIAS_ON;
-import static java.awt.RenderingHints.VALUE_RENDER_QUALITY;
-import static java.awt.RenderingHints.VALUE_RENDER_SPEED;
+import static java.awt.RenderingHints.KEY_ANTIALIASING;.extended
+import static java.awt.RenderingHints.KEY_RENDERING;.extended
+import static java.awt.RenderingHints.VALUE_ANTIALIAS_OFF;.extended
+import static java.awt.RenderingHints.VALUE_ANTIALIAS_ON;.extended
+import static java.awt.RenderingHints.VALUE_RENDER_QUALITY;.extended
+import static java.awt.RenderingHints.VALUE_RENDER_SPEED;.extended
 import java.awt.AlphaComposite;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -56,6 +57,19 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JPanel;
 import javax.swing.RepaintManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

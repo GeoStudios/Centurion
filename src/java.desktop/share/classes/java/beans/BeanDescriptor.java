@@ -18,10 +18,26 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.beans;
 
-import java.lang.ref.Reference;
+package java.desktop.share.classes.java.beans;
+
+
+import java.desktop.share.classes.java.lang.ref.Reference;
 import javax.swing.SwingContainer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A BeanDescriptor provides global information about a "bean",

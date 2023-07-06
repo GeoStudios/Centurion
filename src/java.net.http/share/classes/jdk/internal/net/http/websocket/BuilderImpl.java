@@ -19,25 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http.websocket;
+package java.net.http.share.classes.jdk.internal.net.http.websocket;
+
 
 import java.net.http.HttpClient;
-import java.net.http.WebSocket;
-import java.net.http.WebSocket.Builder;
-import java.net.http.WebSocket.Listener;
-import jdk.internal.net.http.common.Pair;
-
+import java.net.http.Webjava.net.java.net.java.net.Socket;
+import java.net.http.Webjava.net.java.net.java.net.Socket.Builder;
+import java.net.http.Webjava.net.java.net.java.net.Socket.Listener;
+import java.net.http.share.classes.jdk.internal.net.http.common.Pair;
 import java.net.ProxySelector;
 import java.net.URI;
 import java.time.Duration;
 import java.util.Collection;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
+import static java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.common.Pair.pair;.extended
 
-import static java.util.Objects.requireNonNull;
-import static jdk.internal.net.http.common.Pair.pair;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class BuilderImpl implements Builder {
 

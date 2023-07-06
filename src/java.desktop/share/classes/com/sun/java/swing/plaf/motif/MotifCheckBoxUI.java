@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.motif;
+package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
+
 
 import javax.swing.AbstractButton;
 import javax.swing.JComponent;
 import javax.swing.UIManager;
 import javax.swing.plaf.ComponentUI;
+import java.desktop.share.classes.com.sun.awt.AppContext;
 
-import sun.awt.AppContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * MotifCheckBox implementation

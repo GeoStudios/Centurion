@@ -21,8 +21,22 @@
 
 package b;
 
+
 import java.lang.annotation.*;
-import static java.lang.annotation.ElementType.*;
+import static java.lang.annotation.ElementType.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target({TYPE, METHOD, FIELD})

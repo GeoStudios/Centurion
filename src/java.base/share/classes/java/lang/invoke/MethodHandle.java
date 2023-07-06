@@ -19,24 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
 
 
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
+import java.base.share.classes.java.lang.constant.ClassDesc;
+import java.base.share.classes.java.lang.constant.Constable;
+import java.base.share.classes.java.lang.constant.DirectMethodHandleDesc;
+import java.base.share.classes.java.lang.constant.MethodHandleDesc;
+import java.base.share.classes.java.lang.constant.MethodTypeDesc;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Optional;
+import java.base.share.classes.java.util.function.Function;
+import static java.base.share.classes.java.lang.invoke.MethodHandleInfo.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;.extended
 
-import java.lang.constant.ClassDesc;
-import java.lang.constant.Constable;
-import java.lang.constant.DirectMethodHandleDesc;
-import java.lang.constant.MethodHandleDesc;
-import java.lang.constant.MethodTypeDesc;
-import java.util.Arrays;
-import java.util.Objects;
-import java.util.Optional;
-import java.util.function.Function;
 
-import static java.lang.invoke.MethodHandleInfo.*;
-import static java.lang.invoke.MethodHandleStatics.*;
-import static java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A method handle is a typed, directly executable reference to an underlying method,

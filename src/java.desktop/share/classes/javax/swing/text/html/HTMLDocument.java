@@ -18,19 +18,35 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing.text.html;
+
+package java.desktop.share.classes.javax.swing.text.html;
+
 
 import java.awt.font.TextAttribute;
 import java.util.*;
 import java.net.URL;
 import java.net.MalformedURLException;
 import java.io.*;
-import javax.swing.*;
-import javax.swing.event.*;
-import javax.swing.text.*;
-import javax.swing.undo.*;
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.event.*;
+import java.desktop.share.classes.javax.swing.text.*;
+import java.desktop.share.classes.javax.swing.undo.*;
 import sun.swing.SwingUtilities2;
-import static sun.swing.SwingUtilities2.IMPLIED_CR;
+import static sun.swing.SwingUtilities2.IMPLIED_CR;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A document that models HTML.  The purpose of this model is to

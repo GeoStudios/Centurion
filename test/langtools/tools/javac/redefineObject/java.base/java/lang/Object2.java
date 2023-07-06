@@ -20,6 +20,22 @@
  */
 
 package java.lang;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class Object implements Cloneable {
     public final native Class getClass();
     public native int hashCode();

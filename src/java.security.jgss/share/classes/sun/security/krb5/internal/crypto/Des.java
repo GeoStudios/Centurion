@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal.crypto;
+package java.security.jgss.share.classes.sun.security.krb5.internal.crypto;
 
-import javax.crypto.Cipher;
-import javax.crypto.spec.SecretKeySpec;
+
+import java.base.share.classes.javax.crypto.Cipher;
+import java.base.share.classes.javax.crypto.spec.SecretKeySpec;
 import javax.crypto.SecretKeyFactory;
-import javax.crypto.SecretKey;
+import java.base.share.classes.javax.crypto.SecretKey;
 import java.security.GeneralSecurityException;
 import javax.crypto.spec.IvParameterSpec;
-import sun.security.krb5.KrbCryptoException;
-import java.util.Arrays;
-import sun.security.action.GetPropertyAction;
+import java.security.jgss.share.classes.sun.security.krb5.KrbCryptoException;
+import java.base.share.classes.java.util.Arrays;
+import java.security.jgss.share.classes.sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class Des {
 

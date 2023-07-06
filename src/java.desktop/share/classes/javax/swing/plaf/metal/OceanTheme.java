@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.plaf.metal;
+package java.desktop.share.classes.javax.swing.plaf.metal;
+
 
 import java.awt.*;
 import java.net.URL;
 import java.util.*;
-import javax.swing.*;
-import javax.swing.plaf.*;
+import java.desktop.share.classes.javax.swing.*;
+import java.desktop.share.classes.javax.swing.plaf.*;
 import sun.swing.SwingUtilities2;
 import sun.swing.PrintColorUIResource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The default theme for the {@code MetalLookAndFeel}.

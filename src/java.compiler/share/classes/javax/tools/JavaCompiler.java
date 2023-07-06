@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.tools;
+package java.compiler.share.classes.javax.tools;
+
 
 import java.io.Writer;
 import java.nio.charset.Charset;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.concurrent.Callable;
-import javax.annotation.processing.Processor;
+import java.compiler.share.classes.javax.annotation.processing.Processor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface to invoke Java programming language compilers from

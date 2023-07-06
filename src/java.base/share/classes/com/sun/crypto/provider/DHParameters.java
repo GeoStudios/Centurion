@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.crypto.provider;
+package java.base.share.classes.com.sun.crypto.provider;
+
 
 import java.io.*;
-import sun.security.util.*;
+import java.base.share.classes.com.sun.security.util.*;
 import java.math.BigInteger;
 import java.security.AlgorithmParametersSpi;
 import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.InvalidParameterSpecException;
 import javax.crypto.spec.DHParameterSpec;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements the parameter set used by the

@@ -19,39 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.comp;
+package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-import com.sun.tools.javac.api.Formattable.LocalizedString;
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.Scope.WriteableScope;
-import com.sun.tools.javac.code.Source.Feature;
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.code.Type.*;
-import com.sun.tools.javac.comp.Attr.ResultInfo;
-import com.sun.tools.javac.comp.Check.CheckContext;
-import com.sun.tools.javac.comp.DeferredAttr.AttrMode;
-import com.sun.tools.javac.comp.DeferredAttr.DeferredAttrContext;
-import com.sun.tools.javac.comp.DeferredAttr.DeferredType;
-import com.sun.tools.javac.comp.Resolve.MethodResolutionContext.Candidate;
-import com.sun.tools.javac.comp.Resolve.MethodResolutionDiagHelper.Template;
-import com.sun.tools.javac.comp.Resolve.ReferenceLookupResult.StaticKind;
-import com.sun.tools.javac.jvm.*;
-import com.sun.tools.javac.main.Option;
-import com.sun.tools.javac.resources.CompilerProperties.Errors;
-import com.sun.tools.javac.resources.CompilerProperties.Fragments;
-import com.sun.tools.javac.resources.CompilerProperties.Warnings;
-import com.sun.tools.javac.tree.*;
-import com.sun.tools.javac.tree.JCTree.*;
-import com.sun.tools.javac.tree.JCTree.JCMemberReference.ReferenceKind;
-import com.sun.tools.javac.tree.JCTree.JCPolyExpression.*;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.DefinedBy.Api;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
-import com.sun.tools.javac.util.JCDiagnostic.DiagnosticType;
-import com.sun.tools.javac.util.JCDiagnostic.Warning;
 
-import java.util.Arrays;
+import jdk.compiler.share.classes.com.sun.tools.javac.api.Formattable.LocalizedString;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.WriteableScope;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Source.Feature;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Attr.ResultInfo;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Check.CheckContext;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.DeferredAttr.AttrMode;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.DeferredAttr.DeferredAttrContext;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.DeferredAttr.DeferredType;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Resolve.MethodResolutionContext.Candidate;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Resolve.MethodResolutionDiagHelper.Template;
+import jdk.compiler.share.classes.com.sun.tools.javac.comp.Resolve.ReferenceLookupResult.StaticKind;
+import jdk.compiler.share.classes.com.sun.tools.javac.jvm.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Option;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Fragments;
+import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Warnings;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCMemberReference.ReferenceKind;
+import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCPolyExpression.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticType;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Warning;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.EnumSet;
 import java.util.HashSet;
@@ -66,18 +66,30 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
-
 import javax.lang.model.element.ElementVisitor;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.BLOCK;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.STATIC;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.comp.Resolve.MethodResolutionPhase.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.util.Iterators.createCompoundIterator;.extended
 
-import static com.sun.tools.javac.code.Flags.*;
-import static com.sun.tools.javac.code.Flags.BLOCK;
-import static com.sun.tools.javac.code.Flags.STATIC;
-import static com.sun.tools.javac.code.Kinds.*;
-import static com.sun.tools.javac.code.Kinds.Kind.*;
-import static com.sun.tools.javac.code.TypeTag.*;
-import static com.sun.tools.javac.comp.Resolve.MethodResolutionPhase.*;
-import static com.sun.tools.javac.tree.JCTree.Tag.*;
-import static com.sun.tools.javac.util.Iterators.createCompoundIterator;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Helper class for name resolution, used mostly by the attribution phase.
  *

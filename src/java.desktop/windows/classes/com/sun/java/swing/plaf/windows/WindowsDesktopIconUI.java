@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.swing.plaf.windows;
+package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-import java.awt.BorderLayout;
-import java.awt.Dimension;
 
+import java.desktop.windows.classes.com.sun.java.awt.BorderLayout;
+import java.desktop.windows.classes.com.sun.java.awt.Dimension;
 import javax.swing.JComponent;
 import javax.swing.UIManager;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicDesktopIconUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Windows icon for a minimized window on the desktop.

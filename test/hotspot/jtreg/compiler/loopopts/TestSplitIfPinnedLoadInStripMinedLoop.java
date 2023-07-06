@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts;
+
+
+import jdk.test.lib.Asserts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8249607 8260420
@@ -28,9 +46,7 @@
  * @run main/othervm -Xbatch -XX:CompileCommand=compileonly,compiler.loopopts.TestSplitIfPinnedLoadInStripMinedLoop::*
  *                   compiler.loopopts.TestSplitIfPinnedLoadInStripMinedLoop
  */
-package compiler.loopopts;
 
-import jdk.test.lib.Asserts;
 
 public class TestSplitIfPinnedLoadInStripMinedLoop {
 

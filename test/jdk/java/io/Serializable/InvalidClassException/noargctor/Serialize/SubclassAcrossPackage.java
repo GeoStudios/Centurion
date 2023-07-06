@@ -19,15 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package Serialize;
+
+
+import java.io.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @bug 4093279
  * REMOVED test, build and run tag since could not get this to work.
  * Test is run via shell script, run.sh.
  */
 
-package Serialize;
 
-import java.io.*;
 
 class PublicSerializable
 extends NonSerializable.PublicCtor implements Serializable

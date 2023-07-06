@@ -19,22 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.common;
+package jdk.jcmd.share.classes.sun.tools.common;
+
 
 import java.net.URISyntaxException;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.stream.Collectors;
-
 import com.sun.tools.attach.VirtualMachine;
 import com.sun.tools.attach.VirtualMachineDescriptor;
+import jdk.jcmd.share.classes.sun.jvmstat.monitor.MonitorException;
+import jdk.jcmd.share.classes.sun.jvmstat.monitor.MonitoredHost;
+import jdk.jcmd.share.classes.sun.jvmstat.monitor.MonitoredVm;
+import jdk.jcmd.share.classes.sun.jvmstat.monitor.MonitoredVmUtil;
+import jdk.jcmd.share.classes.sun.jvmstat.monitor.VmIdentifier;
 
-import sun.jvmstat.monitor.MonitorException;
-import sun.jvmstat.monitor.MonitoredHost;
-import sun.jvmstat.monitor.MonitoredVm;
-import sun.jvmstat.monitor.MonitoredVmUtil;
-import sun.jvmstat.monitor.VmIdentifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Class for finding process matching a process argument,

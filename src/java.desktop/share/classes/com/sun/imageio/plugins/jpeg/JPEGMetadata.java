@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.plugins.jpeg;
+package java.desktop.share.classes.com.sun.imageio.plugins.jpeg;
+
 
 import java.awt.Point;
 import java.awt.color.ColorSpace;
@@ -27,13 +28,12 @@ import java.awt.color.ICC_ColorSpace;
 import java.awt.color.ICC_Profile;
 import java.awt.image.BufferedImage;
 import java.awt.image.ColorModel;
-import java.io.IOException;
-import java.util.ArrayList;
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
-
-import javax.imageio.IIOException;
+import java.util.java.util.java.util.java.util.List;
+import java.util.java.util.ListIterator;
+import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.ImageWriteParam;
 import javax.imageio.metadata.IIOInvalidTreeException;
@@ -44,11 +44,24 @@ import javax.imageio.plugins.jpeg.JPEGHuffmanTable;
 import javax.imageio.plugins.jpeg.JPEGImageWriteParam;
 import javax.imageio.stream.ImageInputStream;
 import javax.imageio.stream.ImageOutputStream;
-
-import com.sun.imageio.plugins.common.ImageUtil;
+import java.desktop.share.classes.com.sun.imageio.plugins.common.ImageUtil;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+import org.w3c.dom.Nodejava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Metadata for the JPEG plug-in.

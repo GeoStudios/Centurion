@@ -19,16 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.doclet;
+package jdk.javadoc.share.classes.jdk.javadoc.doclet;
 
-import java.util.Locale;
-import java.util.List;
+
+import java.base.share.classes.java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
-
 import javax.lang.model.element.Element;
 import javax.lang.model.SourceVersion;
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.HtmlDoclet;
 
-import jdk.javadoc.internal.doclets.formats.html.HtmlDoclet;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This doclet generates HTML-formatted documentation for the specified modules,

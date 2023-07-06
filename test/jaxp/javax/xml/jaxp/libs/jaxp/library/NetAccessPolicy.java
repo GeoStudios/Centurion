@@ -18,11 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package jaxp.library;
 
-import java.net.SocketPermission;
 
+import java.net.java.net.SocketPermission;
 import org.testng.ITestContext;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This policy can access network.

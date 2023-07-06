@@ -19,16 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.module;
+package java.base.share.classes.java.lang.module;
 
-import java.io.Closeable;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.URI;
-import java.nio.ByteBuffer;
-import java.util.Objects;
-import java.util.Optional;
-import java.util.stream.Stream;
+
+import java.base.share.classes.java.io.Closeable;
+import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.base.share.classes.java.io.InputStream;
+import java.base.share.classes.java.net.URI;
+import java.base.share.classes.java.nio.ByteBuffer;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Optional;
+import java.base.share.classes.java.util.stream.Stream;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**

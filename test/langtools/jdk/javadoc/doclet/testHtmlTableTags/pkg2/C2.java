@@ -21,7 +21,21 @@
 
 package pkg2;
 
+
 import pkg1.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Another test class.

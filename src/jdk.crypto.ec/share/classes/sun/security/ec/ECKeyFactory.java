@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ec;
+package jdk.crypto.ec.share.classes.sun.security.ec;
 
-import java.security.*;
+
+import java.base.share.classes.java.security.*;
 import java.security.interfaces.*;
-import java.security.spec.*;
-import java.util.Arrays;
+import java.base.share.classes.java.security.spec.*;
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * KeyFactory for EC keys. Keys must be instances of PublicKey or PrivateKey

@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.codecache.stress;
+
+
+import jdk.test.lib.Platform;
+import jdk.test.lib.Utils;
+import java.lang.reflect.Method;
+import java.util.stream.IntStream;
+import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test OverloadCompileQueueTest
  * @key stress randomness
@@ -42,14 +64,8 @@
  *                   compiler.codecache.stress.OverloadCompileQueueTest
  */
 
-package compiler.codecache.stress;
 
-import jdk.test.lib.Platform;
-import jdk.test.lib.Utils;
 
-import java.lang.reflect.Method;
-import java.util.stream.IntStream;
-import java.util.Random;
 
 class LockUnlockThread extends Thread {
     private static final int MAX_SLEEP = 10000;

@@ -19,9 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.text.html.parser;
+package java.desktop.share.classes.javax.swing.text.html.parser;
 
-import javax.swing.text.html.HTML;
+
+import java.desktop.share.classes.javax.swing.text.html.HTML;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A generic HTML TagElement class. The methods define how white
  * space is interpreted around the tag.

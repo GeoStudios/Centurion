@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.imageio.stream;
+package java.desktop.share.classes.com.sun.imageio.stream;
+
 
 import java.io.Closeable;
-import java.io.IOException;
-import sun.java2d.DisposerRecord;
+import java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.com.sun.java2d.DisposerRecord;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Convenience class that closes a given resource (e.g. RandomAccessFile),

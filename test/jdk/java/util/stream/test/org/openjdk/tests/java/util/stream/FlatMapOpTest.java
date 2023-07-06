@@ -19,17 +19,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * @test
- * @summary flat-map operations
- * @bug 8044047 8076458 8075939
- */
-
 package org.openjdk.tests.java.util.stream;
 
-import org.testng.annotations.Test;
 
-import java.util.Arrays;
+import org.testng.annotations.Test;
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Function;
@@ -44,9 +38,31 @@ import java.util.stream.OpTestCase;
 import java.util.stream.Stream;
 import java.util.stream.StreamTestDataProvider;
 import java.util.stream.TestData;
+import static java.util.stream.LambdaTestHelpers.*;.extended
+import static java.util.stream.ThrowableHelper.checkNPE;.extended
 
-import static java.util.stream.LambdaTestHelpers.*;
-import static java.util.stream.ThrowableHelper.checkNPE;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * @test
+ * @summary flat-map operations
+ * @bug 8044047 8076458 8075939
+ */
+
+
+
+
 
 @Test
 public class FlatMapOpTest extends OpTestCase {

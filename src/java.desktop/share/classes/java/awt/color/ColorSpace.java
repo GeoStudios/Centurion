@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.color;
+package java.desktop.share.classes.java.awt.color;
 
-import java.io.Serial;
-import java.io.Serializable;
-import java.lang.annotation.Native;
+
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.io.Serializable;
+import java.desktop.share.classes.java.lang.annotation.Native;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This abstract class is used to serve as a color space tag to identify the

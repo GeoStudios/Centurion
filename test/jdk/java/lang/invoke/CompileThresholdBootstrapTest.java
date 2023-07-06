@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.lang.invoke;
+
+
+import java.lang.invoke.MethodHandles;
+import org.testng.*;
+import org.testng.annotations.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8143232
@@ -26,11 +46,7 @@
  * @compile CompileThresholdBootstrapTest.java
  * @run testng/othervm -Djava.lang.invoke.MethodHandle.COMPILE_THRESHOLD=30 test.java.lang.invoke.CompileThresholdBootstrapTest
  */
-package test.java.lang.invoke;
 
-import java.lang.invoke.MethodHandles;
-import org.testng.*;
-import org.testng.annotations.*;
 
 public final class CompileThresholdBootstrapTest {
 

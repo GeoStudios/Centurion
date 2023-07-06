@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.event.AdjustmentEvent;
-import java.awt.event.AdjustmentListener;
-import java.awt.peer.ScrollPanePeer;
-import java.io.Serial;
-import java.io.Serializable;
 
+import java.desktop.share.classes.java.awt.event.AdjustmentEvent;
+import java.desktop.share.classes.java.awt.event.Adjustmentjava.util.Listener;
+import java.desktop.share.classes.java.awt.peer.ScrollPanePeer;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.io.Serializable;
 import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents the state of a horizontal or vertical

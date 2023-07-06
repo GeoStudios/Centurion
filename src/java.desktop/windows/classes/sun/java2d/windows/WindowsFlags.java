@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.windows;
+package java.desktop.windows.classes.sun.java2d.windows;
 
-import sun.awt.windows.WToolkit;
-import sun.java2d.opengl.WGLGraphicsConfig;
+
+import java.desktop.windows.classes.sun.awt.windows.WToolkit;
+import java.desktop.windows.classes.sun.java2d.opengl.WGLGraphicsConfig;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class WindowsFlags {
 

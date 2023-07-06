@@ -19,17 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package com.sun.org.apache.bcel.internal.util;
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.util;
+
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.JavaClass;
 
-import com.sun.org.apache.bcel.internal.classfile.JavaClass;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
 
 /**
  * Utility class implementing a (typesafe) set of JavaClass objects.

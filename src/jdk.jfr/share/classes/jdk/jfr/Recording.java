@@ -19,23 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr;
+package jdk.jfr.share.classes.jdk.jfr;
+
 
 import java.io.Closeable;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Path;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+import jdk.jfr.share.classes.jdk.jfr.internal.PlatformRecorder;
+import jdk.jfr.share.classes.jdk.jfr.internal.PlatformRecording;
+import jdk.jfr.share.classes.jdk.jfr.internal.Type;
+import jdk.jfr.share.classes.jdk.jfr.internal.Utils;
+import jdk.jfr.share.classes.jdk.jfr.internal.WriteableUserPath;
 
-import jdk.jfr.internal.PlatformRecorder;
-import jdk.jfr.internal.PlatformRecording;
-import jdk.jfr.internal.Type;
-import jdk.jfr.internal.Utils;
-import jdk.jfr.internal.WriteableUserPath;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides means to configure, start, stop and dump recording data to disk.

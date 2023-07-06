@@ -19,34 +19,48 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.tool;
+package jdk.jfr.share.classes.jdk.jfr.internal.tool;
+
 
 import java.io.PrintWriter;
 import java.time.Duration;
 import java.time.OffsetDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.StringJoiner;
+import jdk.jfr.share.classes.jdk.jfr.AnnotationElement;
+import jdk.jfr.share.classes.jdk.jfr.DataAmount;
+import jdk.jfr.share.classes.jdk.jfr.Frequency;
+import jdk.jfr.share.classes.jdk.jfr.MemoryAddress;
+import jdk.jfr.share.classes.jdk.jfr.Name;
+import jdk.jfr.share.classes.jdk.jfr.Percentage;
+import jdk.jfr.share.classes.jdk.jfr.ValueDescriptor;
+import jdk.jfr.share.classes.jdk.jfr.consumer.RecordedClass;
+import jdk.jfr.share.classes.jdk.jfr.consumer.RecordedClassLoader;
+import jdk.jfr.share.classes.jdk.jfr.consumer.RecordedEvent;
+import jdk.jfr.share.classes.jdk.jfr.consumer.RecordedFrame;
+import jdk.jfr.share.classes.jdk.jfr.consumer.RecordedMethod;
+import jdk.jfr.share.classes.jdk.jfr.consumer.RecordedObject;
+import jdk.jfr.share.classes.jdk.jfr.consumer.RecordedStackTrace;
+import jdk.jfr.share.classes.jdk.jfr.consumer.RecordedThread;
+import jdk.jfr.share.classes.jdk.jfr.internal.PrivateAccess;
+import jdk.jfr.share.classes.jdk.jfr.internal.Type;
+import jdk.jfr.share.classes.jdk.jfr.internal.Utils;
 
-import jdk.jfr.AnnotationElement;
-import jdk.jfr.DataAmount;
-import jdk.jfr.Frequency;
-import jdk.jfr.MemoryAddress;
-import jdk.jfr.Name;
-import jdk.jfr.Percentage;
-import jdk.jfr.ValueDescriptor;
-import jdk.jfr.consumer.RecordedClass;
-import jdk.jfr.consumer.RecordedClassLoader;
-import jdk.jfr.consumer.RecordedEvent;
-import jdk.jfr.consumer.RecordedFrame;
-import jdk.jfr.consumer.RecordedMethod;
-import jdk.jfr.consumer.RecordedObject;
-import jdk.jfr.consumer.RecordedStackTrace;
-import jdk.jfr.consumer.RecordedThread;
-import jdk.jfr.internal.PrivateAccess;
-import jdk.jfr.internal.Type;
-import jdk.jfr.internal.Utils;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Print events in a human-readable format.

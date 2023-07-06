@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package p1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4706866
@@ -28,7 +45,6 @@
  * @compile T1.java T2.java T3.java
  */
 
-package p1;
 
 public abstract class T1 {
     abstract void f();

@@ -21,7 +21,21 @@
 
 package javafx.application;
 
+
 import javafx.stage.Stage;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Mock JavaFX Application class, used by FXLauncherTest.

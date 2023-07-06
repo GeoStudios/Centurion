@@ -19,6 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2;
+
+
+import jdk.internal.misc.Unsafe;
+import java.lang.ref.Reference;
+import java.lang.ref.WeakReference;
+import java.lang.reflect.Field;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 7190310
@@ -29,13 +50,8 @@
  * @run main/othervm -Xbatch compiler.c2.Test7190310_unsafe
  */
 
-package compiler.c2;
 
-import jdk.internal.misc.Unsafe;
 
-import java.lang.ref.Reference;
-import java.lang.ref.WeakReference;
-import java.lang.reflect.Field;
 
 public class Test7190310_unsafe {
 

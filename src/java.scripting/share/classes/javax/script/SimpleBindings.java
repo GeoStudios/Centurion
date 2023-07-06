@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.script;
+package java.scripting.share.classes.javax.script;
+
 
 import java.util.Map;
 import java.util.HashMap;
 import java.util.Collection;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A simple implementation of Bindings backed by

@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.base.share.classes.java.util;
+
+
+import java.base.share.classes.java.io.Serializable;
+import java.base.share.classes.java.util.function.Consumer;
+import java.base.share.classes.java.util.function.Predicate;
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -29,12 +51,8 @@
  * as explained at http://creativecommons.org/publicdomain/zero/1.0/.
  */
 
-package java.util;
 
-import java.io.Serializable;
-import java.util.function.Consumer;
-import java.util.function.Predicate;
-import jdk.internal.access.SharedSecrets;
+
 
 /**
  * Resizable-array implementation of the {@link Deque} interface.  Array

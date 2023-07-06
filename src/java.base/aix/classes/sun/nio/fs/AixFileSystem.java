@@ -19,13 +19,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.fs;
+package java.base.aix.classes.sun.nio.fs;
 
-import java.nio.file.*;
-import java.nio.file.attribute.*;
-import java.io.IOException;
-import java.util.*;
-import static sun.nio.fs.AixNativeDispatcher.*;
+import java.base.share.classes.java.nio.file.*;
+import java.base.share.classes.java.nio.file.attribute.*;
+import java.base.share.classes.java.io.IOException;
+import java.base.share.classes.java.util.*;
+import static java.base.aix.classes.sun.nio.fs.AixNativeDispatcher.*;
 
 /**
  * AIX implementation of FileSystem

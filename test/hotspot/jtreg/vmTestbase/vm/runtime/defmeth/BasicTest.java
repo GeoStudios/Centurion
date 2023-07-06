@@ -19,6 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.runtime.defmeth;
+
+
+import java.util.Map;
+import java.util.Set;
+import nsk.share.TestFailure;
+import vm.runtime.defmeth.shared.MemoryClassLoader;
+import vm.runtime.defmeth.shared.annotation.NotApplicableFor;
+import vm.runtime.defmeth.shared.builder.TestBuilder;
+import vm.runtime.defmeth.shared.data.*;
+import vm.runtime.defmeth.shared.DefMethTest;
+import vm.runtime.defmeth.shared.executor.TestExecutor;
+import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
+import static vm.runtime.defmeth.shared.ExecutionMode.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -35,21 +63,9 @@
  *      vm.runtime.defmeth.BasicTest
  */
 
-package vm.runtime.defmeth;
 
-import java.util.Map;
-import java.util.Set;
 
-import nsk.share.TestFailure;
-import vm.runtime.defmeth.shared.MemoryClassLoader;
-import vm.runtime.defmeth.shared.annotation.NotApplicableFor;
-import vm.runtime.defmeth.shared.builder.TestBuilder;
-import vm.runtime.defmeth.shared.data.*;
-import vm.runtime.defmeth.shared.DefMethTest;
-import vm.runtime.defmeth.shared.executor.TestExecutor;
 
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
-import static vm.runtime.defmeth.shared.ExecutionMode.*;
 
 /**
  * Basic tests on some of the assertions from JVMS.

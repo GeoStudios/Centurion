@@ -21,6 +21,25 @@
 
 package gc.arguments;
 
+
+import jdk.test.lib.Asserts;
+import jdk.test.lib.process.OutputAnalyzer;
+import jdk.test.lib.process.ProcessTools;
+import java.math.BigInteger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test TestArrayAllocatorMallocLimit
  * @summary Sanity check that the ArrayAllocatorMallocLimit flag can be set.
@@ -33,10 +52,6 @@ package gc.arguments;
  * @run driver gc.arguments.TestArrayAllocatorMallocLimit
  */
 
-import jdk.test.lib.Asserts;
-import jdk.test.lib.process.OutputAnalyzer;
-import jdk.test.lib.process.ProcessTools;
-import java.math.BigInteger;
 
 public class TestArrayAllocatorMallocLimit {
   public static void main(String [] args) throws Exception {

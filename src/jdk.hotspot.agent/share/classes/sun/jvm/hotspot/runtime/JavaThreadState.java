@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.runtime;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** This is a type-safe enum mirroring the JavaThreadState enum in
     globalDefinitions.hpp. The conversion between the underlying ints

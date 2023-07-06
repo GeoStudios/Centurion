@@ -19,15 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management;
+package java.management.share.classes.javax.management;
+
+
+import java.util.Set;
+import java.io.ObjectInputStream;
+import java.management.share.classes.javax.management.loading.ClassLoaderRepository;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // java import
-import java.util.Set;
-import java.io.ObjectInputStream;
 
 // RI import
-import javax.management.loading.ClassLoaderRepository;
 
 /**
  * <p>This is the interface for MBean manipulation on the agent

@@ -19,8 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-// Small class used by SealedModuleTest
 package sealedP2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Small class used by SealedModuleTest
 
 final class C2 extends sealedP1.SuperClass implements sealedP1.SuperInterface {
     public void method2() { }

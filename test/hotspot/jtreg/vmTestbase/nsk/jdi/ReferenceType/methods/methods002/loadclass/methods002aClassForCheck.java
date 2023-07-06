@@ -21,6 +21,21 @@
 
 package nsk.jdi.ReferenceType.methods;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * This class is loaded by methods002aClassLoader .
  */

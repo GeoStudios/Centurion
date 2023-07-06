@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.java.accessibility.util;
+package jdk.accessibility.share.classes.com.sun.java.accessibility.util;
 
-import java.awt.*;
-import java.awt.event.*;
+
+import jdk.accessibility.share.classes.com.sun.java.awt.*;
+import jdk.accessibility.share.classes.com.sun.java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.*;
-import sun.awt.AWTPermissions;
+import jdk.accessibility.share.classes.com.sun.awt.AWTPermissions;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <P>The {@code AWTEventMonitor} implements a suite of listeners that are

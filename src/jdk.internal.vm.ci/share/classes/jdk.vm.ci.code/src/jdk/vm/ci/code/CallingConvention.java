@@ -18,12 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.code;
 
-import static jdk.vm.ci.code.ValueUtil.isAllocatableValue;
-import static jdk.vm.ci.code.ValueUtil.isStackSlot;
-import jdk.vm.ci.meta.AllocatableValue;
-import jdk.vm.ci.meta.Value;
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code;
+
+
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code.ValueUtil.isAllocatableValue;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code.ValueUtil.isStackSlot;.extended
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.AllocatableValue;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.Value;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A calling convention describes the locations in which the arguments for a call are placed and the

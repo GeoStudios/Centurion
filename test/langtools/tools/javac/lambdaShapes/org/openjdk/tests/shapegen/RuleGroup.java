@@ -21,10 +21,23 @@
 
 package org.openjdk.tests.shapegen;
 
+
 import java.util.HashSet;
 import java.util.Set;
+import static org.openjdk.tests.shapegen.ClassCase.Kind.*;.extended
 
-import static org.openjdk.tests.shapegen.ClassCase.Kind.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *

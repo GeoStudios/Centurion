@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.transform.stream;
+package java.xml.share.classes.javax.xml.transform.stream;
+
 
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.Reader;
-import javax.xml.transform.Result;
+import java.xml.share.classes.javax.xml.transform.Result;
+import java.xml.share.classes.javax.xml.transform.Source;
 
-import javax.xml.transform.Source;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>Acts as an holder for a transformation Source in the form

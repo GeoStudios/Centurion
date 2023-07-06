@@ -18,17 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.code.site;
+
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code.site;
+
 
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code.BytecodePosition;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code.DebugInfo;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code.ReferenceMap;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code.Register;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code.RegisterSaveLayout;
+import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.MetaUtil;
 
-import jdk.vm.ci.code.BytecodePosition;
-import jdk.vm.ci.code.DebugInfo;
-import jdk.vm.ci.code.ReferenceMap;
-import jdk.vm.ci.code.Register;
-import jdk.vm.ci.code.RegisterSaveLayout;
-import jdk.vm.ci.meta.MetaUtil;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents an infopoint with associated debug info. Note that safepoints are also infopoints.

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http.websocket;
+package java.net.http.share.classes.jdk.internal.net.http.websocket;
+
 
 import java.net.http.HttpClient;
 import java.net.http.HttpClient.Version;
@@ -27,16 +28,14 @@ import java.net.http.HttpHeaders;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.net.http.HttpResponse.BodyHandlers;
-import java.net.http.WebSocketHandshakeException;
-
-import jdk.internal.net.http.HttpRequestBuilderImpl;
-import jdk.internal.net.http.HttpRequestImpl;
-import jdk.internal.net.http.common.MinimalFuture;
-import jdk.internal.net.http.common.Pair;
-import jdk.internal.net.http.common.Utils;
-
-import java.io.IOException;
-import java.net.InetSocketAddress;
+import java.net.http.Webjava.net.SocketHandshakeException;
+import java.net.http.share.classes.jdk.internal.net.http.HttpRequestBuilderImpl;
+import java.net.http.share.classes.jdk.internal.net.http.HttpRequestImpl;
+import java.net.http.share.classes.jdk.internal.net.http.common.MinimalFuture;
+import java.net.http.share.classes.jdk.internal.net.http.common.Pair;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+import java.io.java.io.java.io.java.io.IOException;
+import java.net.Inetjava.net.SocketAddress;
 import java.net.Proxy;
 import java.net.ProxySelector;
 import java.net.URI;
@@ -45,7 +44,7 @@ import java.net.URLPermission;
 import java.nio.charset.StandardCharsets;
 import java.security.AccessController;
 import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
+import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.PrivilegedAction;
 import java.security.SecureRandom;
 import java.time.Duration;
@@ -53,18 +52,31 @@ import java.util.Base64;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashSet;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Optional;
 import java.util.Set;
 import java.util.TreeSet;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import static java.lang.String.format;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.isValidName;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.permissionForProxy;.extended
+import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.stringOf;.extended
 
-import static java.lang.String.format;
-import static jdk.internal.net.http.common.Utils.isValidName;
-import static jdk.internal.net.http.common.Utils.permissionForProxy;
-import static jdk.internal.net.http.common.Utils.stringOf;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class OpeningHandshake {
 

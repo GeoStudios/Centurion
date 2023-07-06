@@ -19,23 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.xinclude;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.xinclude;
 
-import com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
-import com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
-import com.sun.org.apache.xerces.internal.impl.io.ASCIIReader;
-import com.sun.org.apache.xerces.internal.impl.io.Latin1Reader;
-import com.sun.org.apache.xerces.internal.impl.io.UTF16Reader;
-import com.sun.org.apache.xerces.internal.impl.io.UTF8Reader;
-import com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
-import com.sun.org.apache.xerces.internal.util.EncodingMap;
-import com.sun.org.apache.xerces.internal.util.HTTPInputSource;
-import com.sun.org.apache.xerces.internal.util.MessageFormatter;
-import com.sun.org.apache.xerces.internal.util.XMLChar;
-import com.sun.org.apache.xerces.internal.xni.XMLString;
-import com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io.ASCIIReader;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io.Latin1Reader;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io.UTF16Reader;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io.UTF8Reader;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.EncodingMap;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.HTTPInputSource;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.MessageFormatter;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLString;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
 import java.io.BufferedInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
@@ -43,8 +44,22 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.Iterator;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is used for reading resources requested in &lt;include&gt; elements,

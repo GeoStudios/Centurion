@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio;
+package java.base.share.classes.sun.nio;
+
 
 import java.nio.ByteBuffer;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is an interface to adapt existing APIs to use {@link java.nio.ByteBuffer

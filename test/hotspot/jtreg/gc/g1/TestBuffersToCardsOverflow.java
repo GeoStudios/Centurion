@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.g1;
+
+
+import jdk.test.lib.process.ProcessTools;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8257228
@@ -28,9 +46,7 @@
  * @run main gc.g1.TestBuffersToCardsOverflow
  */
 
-package gc.g1;
 
-import jdk.test.lib.process.ProcessTools;
 
 public class TestBuffersToCardsOverflow {
     public static void main(String... args) throws Exception {

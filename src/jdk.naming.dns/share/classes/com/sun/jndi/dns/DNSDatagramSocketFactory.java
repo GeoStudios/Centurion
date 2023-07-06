@@ -18,16 +18,32 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.jndi.dns;
 
-import java.io.IOException;
-import java.net.DatagramSocket;
+package jdk.naming.dns.share.classes.com.sun.jndi.dns;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.net.Datagramjava.net.java.net.java.net.Socket;
 import java.net.ProtocolFamily;
-import java.net.SocketException;
-import java.net.InetSocketAddress;
+import java.net.java.net.SocketException;
+import java.net.Inetjava.net.SocketAddress;
 import java.nio.channels.DatagramChannel;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Random;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class DNSDatagramSocketFactory {
     static final int DEVIATION = 3;

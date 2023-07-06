@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.xml.internal;
+package java.xml.share.classes.jdk.xml.internal;
+
 
 import org.xml.sax.ErrorHandler;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements an ErrorHandler that simply passes on the Exception.

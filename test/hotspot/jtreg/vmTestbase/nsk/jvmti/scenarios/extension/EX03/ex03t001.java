@@ -21,10 +21,23 @@
 
 package nsk.jvmti.scenarios.extension.EX03;
 
-import java.io.PrintStream;
 
+import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class ex03t001 extends DebugeeClass {
 

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c2.cr6714694;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 6714694
@@ -27,7 +44,6 @@
  * @run main/othervm -Xcomp compiler.c2.cr6714694.Tester
  */
 
-package compiler.c2.cr6714694;
 /* Complexity upper bound: 38602 ops */
 
 interface Tester_Interface_0 {

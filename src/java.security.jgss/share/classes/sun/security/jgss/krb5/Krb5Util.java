@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.jgss.krb5;
+package java.security.jgss.share.classes.sun.security.jgss.krb5;
+
 
 import javax.security.auth.kerberos.KerberosTicket;
 import javax.security.auth.kerberos.KerberosPrincipal;
@@ -27,17 +28,29 @@ import javax.security.auth.kerberos.KeyTab;
 import javax.security.auth.Subject;
 import javax.security.auth.login.LoginException;
 import java.security.AccessControlContext;
+import java.security.jgss.share.classes.sun.security.action.GetBooleanAction;
+import java.security.jgss.share.classes.sun.security.jgss.GSSUtil;
+import java.security.jgss.share.classes.sun.security.jgss.GSSCaller;
+import java.security.jgss.share.classes.sun.security.krb5.Credentials;
+import java.security.jgss.share.classes.sun.security.krb5.EncryptionKey;
+import java.security.jgss.share.classes.sun.security.krb5.KrbException;
+import java.io.java.io.java.io.java.io.IOException;
+import java.security.jgss.share.classes.sun.security.krb5.KerberosSecrets;
+import java.security.jgss.share.classes.sun.security.krb5.PrincipalName;
 
-import sun.security.action.GetBooleanAction;
-import sun.security.jgss.GSSUtil;
-import sun.security.jgss.GSSCaller;
 
-import sun.security.krb5.Credentials;
-import sun.security.krb5.EncryptionKey;
-import sun.security.krb5.KrbException;
-import java.io.IOException;
-import sun.security.krb5.KerberosSecrets;
-import sun.security.krb5.PrincipalName;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utilities for obtaining and converting Kerberos tickets.

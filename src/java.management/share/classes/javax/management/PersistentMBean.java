@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.management;
+package java.management.share.classes.javax.management;
 
-import javax.management.MBeanException;
-import javax.management.RuntimeOperationsException;
-import javax.management.InstanceNotFoundException;
+
+import java.management.share.classes.javax.management.MBeanException;
+import java.management.share.classes.javax.management.RuntimeOperationsException;
+import java.management.share.classes.javax.management.InstanceNotFoundException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  This class is the interface to be implemented by MBeans that are meant to be

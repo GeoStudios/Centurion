@@ -18,16 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.perf;
+
+package java.base.share.classes.jdk.internal.perf;
+
 
 import java.nio.ByteBuffer;
 import java.security.Permission;
 import java.security.PrivilegedAction;
-import java.io.IOException;
-
+import java.io.java.io.java.io.java.io.IOException;
 import sun.nio.cs.UTF_8;
+import java.base.share.classes.jdk.internal.ref.CleanerFactory;
 
-import jdk.internal.ref.CleanerFactory;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The Perf class provides the ability to attach to an instrumentation

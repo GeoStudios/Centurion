@@ -21,12 +21,25 @@
 
 package sampleapi.util;
 
-import java.util.HashMap;
 
+import java.util.HashMap;
 import com.sun.tools.javac.parser.Tokens.Comment;
 import com.sun.tools.javac.tree.DCTree.DCDocComment;
 import com.sun.tools.javac.tree.DocCommentTable;
 import com.sun.tools.javac.tree.JCTree;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This class is replica of LazyDocCommentTable from com.sun.tools.javac.parser

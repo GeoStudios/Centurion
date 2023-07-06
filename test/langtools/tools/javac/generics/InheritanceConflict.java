@@ -21,6 +21,21 @@
 
 package inheritance.conflict;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class A<T> {
     void f(String s) {}
 }

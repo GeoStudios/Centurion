@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.c1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8251093
@@ -27,7 +44,6 @@
  * @requires vm.debug == true & vm.compiler1.enabled
  * @run main/othervm -XX:TraceLinearScanLevel=4 compiler.c1.TestTraceLinearScanLevel
  */
-package compiler.c1;
 
 public class TestTraceLinearScanLevel {
     public static void main(String[] strArr) {

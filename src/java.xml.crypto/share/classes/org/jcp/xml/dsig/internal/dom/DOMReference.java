@@ -19,33 +19,51 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package org.jcp.xml.dsig.internal.dom;
+package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
+
 
 import javax.xml.crypto.*;
 import javax.xml.crypto.dsig.*;
 import javax.xml.crypto.dom.DOMCryptoContext;
 import javax.xml.crypto.dom.DOMURIReference;
-
 import java.io.*;
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.util.*;
-
-import org.w3c.dom.Attr;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-
+import java.xml.crypto.share.classes.org.w3c.dom.Attr;
+import java.xml.crypto.share.classes.org.w3c.dom.Document;
+import java.xml.crypto.share.classes.org.w3c.dom.Element;
+import java.xml.crypto.share.classes.org.w3c.dom.Node;
 import com.sun.org.apache.xml.internal.security.utils.XMLUtils;
-
-import org.jcp.xml.dsig.internal.DigesterOutputStream;
+import java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.DigesterOutputStream;
 import com.sun.org.apache.xml.internal.security.signature.XMLSignatureInput;
 import com.sun.org.apache.xml.internal.security.utils.UnsyncBufferedOutputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
+
+
+
 
 /**
  * DOM-based implementation of Reference.

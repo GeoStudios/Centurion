@@ -19,19 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*-
- *      mailto stream opener
- */
+package java.base.share.classes.sun.net.www.protocol.mailto;
 
-package sun.net.www.protocol.mailto;
 
 import java.net.URL;
 import java.net.URLConnection;
 import java.net.URLStreamHandler;
 import java.io.*;
-import sun.net.www.*;
-//import sun.net.www.protocol.news.ArticlePoster;
-import sun.net.smtp.SmtpClient;
+import java.base.share.classes.sun.net.www.*;
+import java.base.share.classes.sun.net.smtp.SmtpClient;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-
+ *      mailto stream opener
+ */
+
+
+
+//import java.base.share.classes.sun.net.www.protocol.news.ArticlePoster;
 
 /** open an nntp input stream given a URL */
 public class Handler extends URLStreamHandler {

@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.windows;
+package java.desktop.windows.classes.sun.awt.windows;
+
 
 import java.awt.Component;
 import java.awt.Point;
 import java.awt.dnd.DnDConstants;
-import java.awt.dnd.DragGestureListener;
+import java.awt.dnd.DragGesturejava.util.Listener;
 import java.awt.dnd.DragSource;
 import java.awt.dnd.MouseDragGestureRecognizer;
 import java.awt.event.InputEvent;
 import java.awt.event.MouseEvent;
 import java.io.Serial;
+import java.desktop.windows.classes.sun.awt.dnd.SunDragSourceContextPeer;
 
-import sun.awt.dnd.SunDragSourceContextPeer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * <p>
@@ -58,9 +72,9 @@ final class WMouseDragGestureRecognizer extends MouseDragGestureRecognizer {
      * to have started
      */
 
-    protected static int motionThreshold;
+    private static int motionThreshold;
 
-    protected static final int ButtonMask = InputEvent.BUTTON1_DOWN_MASK |
+    private static final int ButtonMask = InputEvent.BUTTON1_DOWN_MASK |
                                             InputEvent.BUTTON2_DOWN_MASK |
                                             InputEvent.BUTTON3_DOWN_MASK;
 

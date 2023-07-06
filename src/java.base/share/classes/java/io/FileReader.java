@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
-import java.nio.charset.Charset;
+
+import java.base.share.classes.java.nio.charset.Charset;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Reads text from character files using a default buffer size. Decoding from bytes

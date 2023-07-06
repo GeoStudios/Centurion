@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
 
-import java.net.InetSocketAddress;
+
+import java.net.Inetjava.net.SocketAddress;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class PlainProxyConnection extends PlainHttpConnection {
 

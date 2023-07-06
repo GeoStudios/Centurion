@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.mlvm.meth.stress.compiler.inlineMHTarget;
+
+
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodHandles.Lookup;
+import java.lang.invoke.MethodType;
+import nsk.share.test.Stresser;
+import vm.mlvm.share.Env;
+import vm.mlvm.share.MlvmTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -41,16 +64,8 @@
  * @run main/othervm vm.mlvm.meth.stress.compiler.inlineMHTarget.Test -stressIterationsFactor 100
  */
 
-package vm.mlvm.meth.stress.compiler.inlineMHTarget;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodHandles.Lookup;
-import java.lang.invoke.MethodType;
 
-import nsk.share.test.Stresser;
-import vm.mlvm.share.Env;
-import vm.mlvm.share.MlvmTest;
 
 // TODO: check compilation using vm.mlvm.share.comp framework
 // TODO: enhance to check NxN primitive types

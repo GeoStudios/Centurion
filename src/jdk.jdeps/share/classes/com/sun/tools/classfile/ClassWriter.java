@@ -19,20 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.jdeps.share.classes.com.sun.tools.classfile;
 
-package com.sun.tools.classfile;
 
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
+import static jdk.jdeps.share.classes.com.sun.tools.classfile.Annotation.*;.extended
+import static jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.*;.extended
+import static jdk.jdeps.share.classes.com.sun.tools.classfile.StackMapTable_attribute.*;.extended
+import static jdk.jdeps.share.classes.com.sun.tools.classfile.StackMapTable_attribute.verification_type_info.*;.extended
 
-import static com.sun.tools.classfile.Annotation.*;
-import static com.sun.tools.classfile.ConstantPool.*;
-import static com.sun.tools.classfile.StackMapTable_attribute.*;
-import static com.sun.tools.classfile.StackMapTable_attribute.verification_type_info.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Write a ClassFile data structure to a file or stream.

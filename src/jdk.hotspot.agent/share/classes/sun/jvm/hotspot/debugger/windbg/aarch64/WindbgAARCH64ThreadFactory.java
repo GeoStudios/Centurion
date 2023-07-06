@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvm.hotspot.debugger.windbg.aarch64;
+package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.windbg.aarch64;
 
-import sun.jvm.hotspot.debugger.*;
-import sun.jvm.hotspot.debugger.windbg.*;
+
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
+import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.windbg.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class WindbgAARCH64ThreadFactory implements WindbgThreadFactory {
   private final WindbgDebugger debugger;

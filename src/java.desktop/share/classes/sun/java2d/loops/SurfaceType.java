@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.loops;
+package java.desktop.share.classes.sun.java2d.loops;
+
 
 import java.awt.image.ColorModel;
-import sun.awt.image.PixelConverter;
+import java.desktop.share.classes.sun.awt.image.PixelConverter;
 import java.util.HashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A SurfaceType object provides a chained description of a type of

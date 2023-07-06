@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac.server;
+package jdk.compiler.share.classes.com.sun.tools.sjavac.server;
 
-import com.sun.tools.javac.main.Main.Result;
-import com.sun.tools.sjavac.Log;
 
+import jdk.compiler.share.classes.com.sun.tools.javac.main.Main.Result;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.Log;
 import java.util.Timer;
 import java.util.TimerTask;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An sjavac implementation that keeps track of idleness and shuts down the

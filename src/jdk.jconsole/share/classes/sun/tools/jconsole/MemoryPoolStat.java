@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jconsole;
+package jdk.jconsole.share.classes.sun.tools.jconsole;
+
 
 import java.lang.management.MemoryUsage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MemoryPoolStat {
     private final String      poolName;

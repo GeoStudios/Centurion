@@ -19,6 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.runtime.defmeth;
+
+
+import java.util.HashMap;
+import java.util.java.util.java.util.java.util.List;
+import java.util.Map;
+import java.util.Set;
+import nsk.share.Pair;
+import vm.runtime.defmeth.shared.DefMethTest;
+import vm.runtime.defmeth.shared.DefMethTestFailure;
+import vm.runtime.defmeth.shared.MemoryClassLoader;
+import vm.runtime.defmeth.shared.annotation.NotApplicableFor;
+import vm.runtime.defmeth.shared.builder.TestBuilder;
+import vm.runtime.defmeth.shared.executor.TestExecutor;
+import vm.runtime.defmeth.shared.data.Clazz;
+import vm.runtime.defmeth.shared.data.ConcreteClass;
+import vm.runtime.defmeth.shared.data.Interface;
+import vm.runtime.defmeth.shared.data.Tester;
+import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
+import static vm.runtime.defmeth.shared.ExecutionMode.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -34,27 +68,9 @@
  *      -javaagent:retransform.jar
  *      vm.runtime.defmeth.RedefineTest
  */
-package vm.runtime.defmeth;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
 
-import nsk.share.Pair;
-import vm.runtime.defmeth.shared.DefMethTest;
-import vm.runtime.defmeth.shared.DefMethTestFailure;
-import vm.runtime.defmeth.shared.MemoryClassLoader;
-import vm.runtime.defmeth.shared.annotation.NotApplicableFor;
-import vm.runtime.defmeth.shared.builder.TestBuilder;
-import vm.runtime.defmeth.shared.executor.TestExecutor;
-import vm.runtime.defmeth.shared.data.Clazz;
-import vm.runtime.defmeth.shared.data.ConcreteClass;
-import vm.runtime.defmeth.shared.data.Interface;
-import vm.runtime.defmeth.shared.data.Tester;
 
-import static jdk.internal.org.objectweb.asm.Opcodes.*;
-import static vm.runtime.defmeth.shared.ExecutionMode.*;
 
 /*
  * Basic scenarios on class redefinition.

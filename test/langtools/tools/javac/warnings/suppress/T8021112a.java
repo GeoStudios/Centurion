@@ -21,6 +21,22 @@
 
 package test;
 
+
+import static test.T8021112a.D;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8021112
@@ -30,7 +46,6 @@ package test;
  * @compile -Xlint:cast -Werror T8021112a.java
  */
 
-import static test.T8021112a.D;
 
 @SuppressWarnings(D)
 public class T8021112a {

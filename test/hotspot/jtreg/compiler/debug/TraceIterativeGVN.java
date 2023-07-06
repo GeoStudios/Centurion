@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.debug;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @requires vm.debug == true & vm.compiler2.enabled
@@ -27,7 +44,6 @@
  *                   compiler.debug.TraceIterativeGVN
  */
 
-package compiler.debug;
 
 public class TraceIterativeGVN {
     public static void main(String[] args) {

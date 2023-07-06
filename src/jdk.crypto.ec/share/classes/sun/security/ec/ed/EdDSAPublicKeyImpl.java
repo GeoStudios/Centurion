@@ -19,19 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ec.ed;
+package jdk.crypto.ec.share.classes.sun.security.ec.ed;
+
 
 import java.math.BigInteger;
-import java.security.InvalidKeyException;
+import java.base.share.classes.java.security.InvalidKeyException;
 import java.security.KeyRep;
 import java.security.interfaces.EdECPublicKey;
 import java.security.spec.EdECPoint;
 import java.security.spec.NamedParameterSpec;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
+import jdk.crypto.ec.share.classes.sun.security.util.BitArray;
+import jdk.crypto.ec.share.classes.sun.security.x509.AlgorithmId;
+import jdk.crypto.ec.share.classes.sun.security.x509.X509Key;
 
-import sun.security.util.BitArray;
-import sun.security.x509.AlgorithmId;
-import sun.security.x509.X509Key;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class EdDSAPublicKeyImpl extends X509Key implements EdECPublicKey {
 

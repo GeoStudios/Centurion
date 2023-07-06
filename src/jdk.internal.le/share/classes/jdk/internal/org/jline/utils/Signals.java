@@ -18,11 +18,27 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.utils;
+
+package jdk.internal.le.share.classes.jdk.internal.org.jline.utils;
+
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Proxy;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Signals helpers.

@@ -21,6 +21,21 @@
 
 package pkg;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * A lovely description of class C of package pkg in module m1.
  */

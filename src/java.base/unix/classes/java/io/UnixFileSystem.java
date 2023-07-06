@@ -19,12 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.io;
+package java.base.unix.classes.java.io;
 
-import java.util.Properties;
 
+import java.base.unix.classes.java.util.Properties;
 import jdk.internal.util.StaticProperty;
 import sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 class UnixFileSystem extends FileSystem {

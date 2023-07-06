@@ -21,13 +21,27 @@
 
 package com.bar;
 
+
 import com.foobar.Utils;
-import java.util.Arrays;
-import static java.util.Calendar.*;
+import java.base.share.classes.java.util.Arrays;
+import static java.util.Calendar.*;.extended
 import java.util.HashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.spi.CalendarDataProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CalendarDataProviderImpl extends CalendarDataProvider {
     static final char FULLWIDTH_ZERO = '\uff10';

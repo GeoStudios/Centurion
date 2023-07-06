@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.security;
+package java.base.share.classes.java.security;
 
-import java.io.*;
-import java.util.*;
-import static java.util.Locale.ENGLISH;
-import java.lang.ref.*;
-import java.lang.reflect.*;
-import java.util.function.BiConsumer;
-import java.util.function.BiFunction;
-import java.util.function.Function;
-import java.util.concurrent.ConcurrentHashMap;
+
+import java.base.share.classes.java.io.*;
+import java.base.share.classes.java.util.*;
+import static java.base.share.classes.java.util.Locale.ENGLISH;.extended
+import java.base.share.classes.java.lang.ref.*;
+import java.base.share.classes.java.lang.reflect.*;
+import java.base.share.classes.java.util.function.BiConsumer;
+import java.base.share.classes.java.util.function.BiFunction;
+import java.base.share.classes.java.util.function.Function;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class represents a "provider" for the
@@ -888,7 +903,7 @@ public abstract class Provider extends Properties {
             if (!checkLegacy(key)) {
                 return null;
             }
-            legacyStrings.remove((String)key);
+            legacyStrings.remove(key);
         }
         return super.remove(key);
     }
@@ -898,7 +913,7 @@ public abstract class Provider extends Properties {
             if (!checkLegacy(key)) {
                 return false;
             }
-            legacyStrings.remove((String)key, (String)value);
+            legacyStrings.remove(key, value);
         }
         return super.remove(key, value);
     }

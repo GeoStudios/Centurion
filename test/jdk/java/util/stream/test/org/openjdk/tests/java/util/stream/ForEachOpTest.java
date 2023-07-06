@@ -18,18 +18,31 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 package org.openjdk.tests.java.util.stream;
 
-import org.testng.annotations.Test;
 
-import java.util.ArrayList;
+import org.testng.annotations.Test;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Function;
 import java.util.stream.*;
+import static java.util.stream.LambdaTestHelpers.countTo;.extended
 
-import static java.util.stream.LambdaTestHelpers.countTo;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ForEachOpTest

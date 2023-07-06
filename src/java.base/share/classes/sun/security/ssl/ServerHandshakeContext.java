@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.security.AlgorithmConstraints;
 import java.security.AccessController;
-import sun.security.util.LegacyAlgorithmConstraints;
-import sun.security.action.GetLongAction;
+import java.base.share.classes.sun.security.util.LegacyAlgorithmConstraints;
+import java.base.share.classes.sun.security.action.GetLongAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class ServerHandshakeContext extends HandshakeContext {
     // To prevent the TLS renegotiation issues, by setting system property

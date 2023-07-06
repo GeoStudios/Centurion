@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.test.lib.apps;
+
+
+import java.io.java.io.java.io.java.io.IOException;
+import java.util.Arrayjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @summary Unit test for LingeredApp
@@ -27,10 +46,7 @@
  * @run main jdk.test.lib.apps.LingeredAppTest
  */
 
-package jdk.test.lib.apps;
 
-import java.io.IOException;
-import java.util.ArrayList;
 
 public class LingeredAppTest {
 

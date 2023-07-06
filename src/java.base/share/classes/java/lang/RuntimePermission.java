@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang;
+package java.base.share.classes.java.lang;
 
-import java.security.*;
-import java.lang.module.ModuleFinder;
+
+import java.base.share.classes.java.security.*;
+import java.base.share.classes.java.lang.module.ModuleFinder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class is for runtime permissions. A {@code RuntimePermission}

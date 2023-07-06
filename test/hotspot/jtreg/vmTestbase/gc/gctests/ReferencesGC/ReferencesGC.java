@@ -19,6 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.ReferencesGC;
+
+
+import java.lang.ref.*;
+import nsk.share.TestFailure;
+import nsk.share.gc.Algorithms;
+import nsk.share.gc.GC;
+import nsk.share.gc.ThreadedGCTest;
+import nsk.share.gc.gp.GarbageProducer;
+import nsk.share.gc.gp.GarbageUtils;
+import nsk.share.test.ExecutionController;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @key stress randomness
@@ -36,16 +61,7 @@
  *      -t 1
  */
 
-package gc.gctests.ReferencesGC;
 
-import java.lang.ref.*;
-import nsk.share.TestFailure;
-import nsk.share.gc.Algorithms;
-import nsk.share.gc.GC;
-import nsk.share.gc.ThreadedGCTest;
-import nsk.share.gc.gp.GarbageProducer;
-import nsk.share.gc.gp.GarbageUtils;
-import nsk.share.test.ExecutionController;
 
 public class ReferencesGC extends ThreadedGCTest {
 

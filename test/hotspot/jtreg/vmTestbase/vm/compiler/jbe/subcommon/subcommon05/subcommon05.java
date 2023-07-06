@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.compiler.jbe.subcommon.subcommon05;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  *
@@ -30,7 +47,6 @@
  * @run main/othervm vm.compiler.jbe.subcommon.subcommon05.subcommon05
  */
 
-package vm.compiler.jbe.subcommon.subcommon05;
 
 /* -- Common subexpression elimination testing
    This is a test for simple CSE elimination within a basic block.

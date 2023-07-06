@@ -19,16 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
+
+
+import java.xml.share.classes.com.sun.org.xml.sax.Locator;
+import java.xml.share.classes.com.sun.org.xml.sax.ext.Locator2;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLLocator;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xerces.internal.util;
 
-import org.xml.sax.Locator;
-import org.xml.sax.ext.Locator2;
 
-import com.sun.org.apache.xerces.internal.xni.XMLLocator;
+
 
 /**
  * <p>A light wrapper around a SAX locator. This is useful

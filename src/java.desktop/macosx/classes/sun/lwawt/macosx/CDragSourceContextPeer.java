@@ -19,27 +19,37 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-package sun.lwawt.macosx;
 
 import java.awt.*;
 import java.awt.datatransfer.*;
 import java.awt.dnd.*;
 import java.awt.event.*;
 import java.awt.image.*;
-
 import javax.swing.*;
 import javax.swing.text.*;
 import javax.accessibility.*;
-
 import java.util.Map;
 import java.util.concurrent.Callable;
+import java.desktop.macosx.classes.sun.awt.AWTAccessor;
+import java.desktop.macosx.classes.sun.awt.dnd.*;
+import java.desktop.macosx.classes.sun.lwawt.LWComponentPeer;
+import java.desktop.macosx.classes.sun.lwawt.LWWindowPeer;
+import java.desktop.macosx.classes.sun.lwawt.PlatformWindow;
 
-import sun.awt.AWTAccessor;
-import sun.awt.dnd.*;
-import sun.lwawt.LWComponentPeer;
-import sun.lwawt.LWWindowPeer;
-import sun.lwawt.PlatformWindow;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public final class CDragSourceContextPeer extends SunDragSourceContextPeer {

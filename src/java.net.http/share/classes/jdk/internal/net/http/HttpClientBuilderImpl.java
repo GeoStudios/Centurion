@@ -19,18 +19,33 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.net.http;
+package java.net.http.share.classes.jdk.internal.net.http;
+
 
 import java.net.Authenticator;
 import java.net.CookieHandler;
 import java.net.ProxySelector;
 import java.time.Duration;
 import java.util.concurrent.Executor;
-import javax.net.ssl.SSLContext;
+import javax.net.ssl.javax.net.ssl.javax.net.ssl.javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLParameters;
 import java.net.http.HttpClient;
-import jdk.internal.net.http.common.Utils;
-import static java.util.Objects.requireNonNull;
+import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
+import static java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class HttpClientBuilderImpl implements HttpClient.Builder {
 

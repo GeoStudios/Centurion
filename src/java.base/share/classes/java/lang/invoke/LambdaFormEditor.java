@@ -19,22 +19,35 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.invoke;
+package java.base.share.classes.java.lang.invoke;
+
 
 import sun.invoke.util.Wrapper;
+import java.base.share.classes.java.lang.ref.SoftReference;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.Collections;
+import java.base.share.classes.java.util.Comparator;
+import java.base.share.classes.java.util.TreeMap;
+import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
+import static java.base.share.classes.java.lang.invoke.LambdaForm.*;.extended
+import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType.*;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleImpl.Intrinsic;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleImpl.NF_loop;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleImpl.makeIntrinsic;.extended
 
-import java.lang.ref.SoftReference;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.TreeMap;
-import java.util.concurrent.ConcurrentHashMap;
 
-import static java.lang.invoke.LambdaForm.*;
-import static java.lang.invoke.LambdaForm.BasicType.*;
-import static java.lang.invoke.MethodHandleImpl.Intrinsic;
-import static java.lang.invoke.MethodHandleImpl.NF_loop;
-import static java.lang.invoke.MethodHandleImpl.makeIntrinsic;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Transforms on LFs.
  *  A lambda-form editor can derive new LFs from its base LF.

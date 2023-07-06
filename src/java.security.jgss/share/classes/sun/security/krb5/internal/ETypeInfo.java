@@ -19,15 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal;
+package java.security.jgss.share.classes.sun.security.krb5.internal;
 
-import java.io.IOException;
 
-import static java.nio.charset.StandardCharsets.UTF_8;
+import java.io.java.io.java.io.java.io.IOException;
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
+import java.security.jgss.share.classes.sun.security.krb5.Asn1Exception;
+import java.security.jgss.share.classes.sun.security.krb5.internal.util.KerberosString;
+import java.security.jgss.share.classes.sun.security.util.*;
 
-import sun.security.krb5.Asn1Exception;
-import sun.security.krb5.internal.util.KerberosString;
-import sun.security.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implements the ASN.1 ETYPE-INFO-ENTRY type.

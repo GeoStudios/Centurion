@@ -19,59 +19,62 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.pkcs11;
+package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11;
+
 
 import java.math.BigInteger;
-
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.ByteArrayInputStream;
-
-import static java.nio.charset.StandardCharsets.UTF_8;
-
-import java.util.Arrays;
+import static java.nio.charset.StandardCharsets.UTF_8;.extended
+import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.Date;
 import java.util.Enumeration;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashSet;
 import java.util.HashMap;
 import java.util.Set;
-
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.KeyStore.*;
-
 import java.security.cert.Certificate;
 import java.security.cert.X509Certificate;
 import java.security.cert.CertificateFactory;
 import java.security.cert.CertificateException;
-
 import java.security.interfaces.*;
-import java.security.spec.*;
-
-import javax.crypto.SecretKey;
+import java.base.share.classes.java.security.spec.*;
+import java.base.share.classes.javax.crypto.SecretKey;
 import javax.crypto.interfaces.*;
-
 import javax.security.auth.x500.X500Principal;
 import javax.security.auth.login.LoginException;
 import javax.security.auth.callback.Callback;
 import javax.security.auth.callback.PasswordCallback;
 import javax.security.auth.callback.CallbackHandler;
 import javax.security.auth.callback.UnsupportedCallbackException;
+import jdk.crypto.cryptoki.share.classes.sun.security.util.Debug;
+import jdk.crypto.cryptoki.share.classes.sun.security.util.DerValue;
+import jdk.crypto.cryptoki.share.classes.sun.security.util.ECUtil;
+import jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.Secmod.*;
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.P11Util.*;.extended
+import jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.*;
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Constants.*;.extended
+import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Exception.*;.extended
+import jdk.crypto.cryptoki.share.classes.sun.security.rsa.RSAKeyFactory;
 
-import sun.security.util.Debug;
-import sun.security.util.DerValue;
-import sun.security.util.ECUtil;
 
-import sun.security.pkcs11.Secmod.*;
-import static sun.security.pkcs11.P11Util.*;
 
-import sun.security.pkcs11.wrapper.*;
-import static sun.security.pkcs11.wrapper.PKCS11Constants.*;
-import static sun.security.pkcs11.wrapper.PKCS11Exception.*;
 
-import sun.security.rsa.RSAKeyFactory;
+
+
+
+
+
+
+
+
+
+
 
 final class P11KeyStore extends KeyStoreSpi {
 
@@ -1020,10 +1023,9 @@ final class P11KeyStore extends KeyStoreSpi {
                     + "added to the NSS KeyStore module");
             }
             Certificate cert = ((TrustedCertificateEntry)entry).getTrustedCertificate();
-            if (!(cert instanceof X509Certificate)) {
+            if (!(cert instanceof X509Certificate xcert)) {
                 throw new KeyStoreException("Certificate must be an X509Certificate");
             }
-            X509Certificate xcert = (X509Certificate)cert;
             AliasInfo info = aliasMap.get(alias);
             if (info != null) {
                 // XXX try to update

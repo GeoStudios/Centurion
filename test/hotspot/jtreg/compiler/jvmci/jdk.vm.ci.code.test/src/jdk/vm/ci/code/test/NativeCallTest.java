@@ -19,6 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.vm.ci.code.test;
+
+
+import static jdk.vm.ci.hotspot.HotSpotCallingConventionType.NativeCall;.extended
+import org.junit.BeforeClass;
+import org.junit.Test;
+import jdk.vm.ci.code.CallingConvention;
+import jdk.vm.ci.code.RegisterValue;
+import jdk.vm.ci.meta.JavaType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @requires vm.jvmci
@@ -35,16 +58,9 @@
  * @compile CodeInstallationTest.java TestHotSpotVMConfig.java NativeCallTest.java TestAssembler.java amd64/AMD64TestAssembler.java aarch64/AArch64TestAssembler.java
  * @run junit/othervm/native -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI  -Xbootclasspath/a:. jdk.vm.ci.code.test.NativeCallTest
  */
-package jdk.vm.ci.code.test;
 
-import static jdk.vm.ci.hotspot.HotSpotCallingConventionType.NativeCall;
 
-import org.junit.BeforeClass;
-import org.junit.Test;
 
-import jdk.vm.ci.code.CallingConvention;
-import jdk.vm.ci.code.RegisterValue;
-import jdk.vm.ci.meta.JavaType;
 
 public class NativeCallTest extends CodeInstallationTest {
 

@@ -18,16 +18,30 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.javadoc.internal.doclets.toolkit;
+
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit;
+
 
 import javax.lang.model.element.Element;
 import javax.tools.Diagnostic;
 import javax.tools.FileObject;
-
 import com.sun.source.util.DocTreePath;
-import jdk.javadoc.doclet.Reporter;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.Reporter;
+import static javax.tools.Diagnostic.Kind.*;.extended
 
-import static javax.tools.Diagnostic.Kind.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides standardized access to the diagnostic reporting facilities

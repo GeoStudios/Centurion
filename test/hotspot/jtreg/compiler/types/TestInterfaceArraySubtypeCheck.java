@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.types;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8266615
@@ -27,7 +44,6 @@
  *                   compiler.types.TestInterfaceArraySubtypeCheck
  */
 
-package compiler.types;
 
 public class TestInterfaceArraySubtypeCheck {
 

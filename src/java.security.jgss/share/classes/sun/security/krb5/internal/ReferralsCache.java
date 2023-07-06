@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal;
+package java.security.jgss.share.classes.sun.security.krb5.internal;
+
 
 import java.util.Date;
 import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.security.jgss.share.classes.sun.security.krb5.Credentials;
+import java.security.jgss.share.classes.sun.security.krb5.PrincipalName;
 
-import sun.security.krb5.Credentials;
-import sun.security.krb5.PrincipalName;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * ReferralsCache class implements a cache scheme for referral TGTs as

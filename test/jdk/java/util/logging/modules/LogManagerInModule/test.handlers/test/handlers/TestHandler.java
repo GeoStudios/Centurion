@@ -21,8 +21,22 @@
 
 package test.handlers;
 
+
 import java.util.logging.Handler;
 import java.util.logging.LogRecord;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A dummy Handler that does nothing.

@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package nsk.stress.except;
+
+
+import java.io.PrintStream;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
@@ -60,11 +78,7 @@
  * @run main/othervm -Xms50M -Xmx200M -XX:-UseGCOverheadLimit nsk.stress.except.except008
  */
 
-package nsk.stress.except;
 
-import java.io.PrintStream;
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
 
 /**
  * This checks if various exceptions are thrown (and caught) correctly

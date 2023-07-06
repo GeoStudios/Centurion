@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.dom;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-import com.sun.org.apache.xerces.internal.impl.xs.XSImplementationImpl;
-import java.util.ArrayList;
-import java.util.List;
-import org.w3c.dom.DOMImplementation;
-import org.w3c.dom.DOMImplementationList;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSImplementationImpl;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMImplementation;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMImplementationjava.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Allows to retrieve <code>XSImplementation</code>, DOM Level 3 Core and LS implementations

@@ -21,18 +21,30 @@
 
 package test.java.time.format;
 
-import static java.time.temporal.ChronoField.DAY_OF_MONTH;
-import static java.time.temporal.ChronoField.HOUR_OF_DAY;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.fail;
 
+import static java.time.temporal.ChronoField.DAY_OF_MONTH;.extended
+import static java.time.temporal.ChronoField.HOUR_OF_DAY;.extended
+import static org.testng.Assert.assertEquals;.extended
+import static org.testng.Assert.fail;.extended
 import java.time.DateTimeException;
 import java.time.LocalDate;
 import java.time.format.SignStyle;
-
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import test.java.time.temporal.MockFieldValue;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Test SimpleNumberPrinterParser.

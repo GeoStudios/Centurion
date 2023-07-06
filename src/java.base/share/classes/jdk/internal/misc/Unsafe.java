@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.misc;
+package java.base.share.classes.jdk.internal.misc;
 
-import jdk.internal.ref.Cleaner;
-import jdk.internal.vm.annotation.ForceInline;
-import jdk.internal.vm.annotation.IntrinsicCandidate;
+
+import java.base.share.classes.jdk.internal.ref.Cleaner;
+import java.base.share.classes.jdk.internal.vm.annotation.ForceInline;
+import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 import sun.nio.ch.DirectBuffer;
-
 import java.lang.reflect.Field;
 import java.security.ProtectionDomain;
+import static java.base.share.classes.jdk.internal.misc.UnsafeConstants.*;.extended
 
-import static jdk.internal.misc.UnsafeConstants.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A collection of methods for performing low-level, unsafe operations.

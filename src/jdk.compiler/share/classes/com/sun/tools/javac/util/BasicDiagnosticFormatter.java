@@ -19,23 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.util;
+package jdk.compiler.share.classes.com.sun.tools.javac.util;
+
 
 import java.util.Collection;
 import java.util.EnumMap;
 import java.util.EnumSet;
 import java.util.HashMap;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.regex.Matcher;
 import javax.tools.JavaFileObject;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.AbstractDiagnosticFormatter.SimpleConfiguration;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.BasicDiagnosticFormatter.BasicConfiguration;
+import static jdk.compiler.share.classes.com.sun.tools.javac.api.DiagnosticFormatter.PositionKind.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.util.BasicDiagnosticFormatter.BasicConfiguration.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.util.LayoutCharacters.*;.extended
 
-import com.sun.tools.javac.util.AbstractDiagnosticFormatter.SimpleConfiguration;
-import com.sun.tools.javac.util.BasicDiagnosticFormatter.BasicConfiguration;
 
-import static com.sun.tools.javac.api.DiagnosticFormatter.PositionKind.*;
-import static com.sun.tools.javac.util.BasicDiagnosticFormatter.BasicConfiguration.*;
-import static com.sun.tools.javac.util.LayoutCharacters.*;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A basic formatter for diagnostic messages.

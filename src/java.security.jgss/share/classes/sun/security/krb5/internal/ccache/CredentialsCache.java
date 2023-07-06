@@ -19,13 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.krb5.internal.ccache;
+package java.security.jgss.share.classes.sun.security.krb5.internal.ccache;
 
-import sun.security.krb5.*;
-import sun.security.krb5.internal.*;
 
-import java.util.List;
-import java.io.IOException;
+import java.security.jgss.share.classes.sun.security.krb5.*;
+import java.security.jgss.share.classes.sun.security.krb5.internal.*;
+import java.util.java.util.java.util.java.util.List;
+import java.io.java.io.java.io.java.io.IOException;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * CredentialsCache stores credentials(tickets, session keys, etc) in a semi-permanent store

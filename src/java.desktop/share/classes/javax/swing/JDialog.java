@@ -18,13 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package javax.swing;
+
+package java.desktop.share.classes.javax.swing;
+
 
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.JavaBean;
 import java.beans.BeanProperty;
-import javax.accessibility.*;
+import java.desktop.share.classes.javax.accessibility.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The main class for creating a dialog window. You can use this class

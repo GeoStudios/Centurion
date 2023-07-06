@@ -18,14 +18,29 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.foreign.abi.x64.windows;
 
-import jdk.incubator.foreign.GroupLayout;
-import jdk.incubator.foreign.MemoryLayout;
-import jdk.incubator.foreign.ValueLayout;
-import jdk.internal.foreign.PlatformLayouts;
+package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.x64.windows;
 
-import static jdk.internal.foreign.PlatformLayouts.Win64.VARARGS_ATTRIBUTE_NAME;
+
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.GroupLayout;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryLayout;
+import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.ValueLayout;
+import jdk.incubator.foreign.share.classes.jdk.internal.foreign.PlatformLayouts;
+import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.PlatformLayouts.Win64.VARARGS_ATTRIBUTE_NAME;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 enum TypeClass {
     STRUCT_REGISTER,

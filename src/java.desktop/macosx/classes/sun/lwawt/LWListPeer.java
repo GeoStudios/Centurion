@@ -19,31 +19,45 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.lwawt;
+package java.desktop.macosx.classes.sun.lwawt;
+
 
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.Insets;
-import java.awt.List;
+import java.awt.java.util.java.util.java.util.List;
 import java.awt.Point;
 import java.awt.SystemColor;
 import java.awt.event.ActionEvent;
 import java.awt.event.ItemEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
-import java.awt.peer.ListPeer;
-import java.util.Arrays;
-
-import javax.swing.DefaultListModel;
-import javax.swing.JList;
+import java.awt.peer.java.util.ListPeer;
+import java.base.share.classes.java.util.Arrays;
+import javax.swing.Defaultjava.util.ListModel;
+import javax.swing.Jjava.util.java.util.java.util.List;
 import javax.swing.JScrollBar;
 import javax.swing.JScrollPane;
 import javax.swing.JViewport;
-import javax.swing.ListCellRenderer;
-import javax.swing.ListSelectionModel;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
+import javax.swing.java.util.ListCellRenderer;
+import javax.swing.java.util.ListSelectionModel;
+import javax.swing.event.java.util.ListSelectionEvent;
+import javax.swing.event.java.util.ListSelectionjava.util.Listener;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Lightweight implementation of {@link ListPeer}. Delegates most of the work to

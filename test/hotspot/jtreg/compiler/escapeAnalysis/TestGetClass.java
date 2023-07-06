@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.escapeAnalysis;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8218201
@@ -31,7 +48,6 @@
  *                   -XX:+PrintCompilation compiler.escapeAnalysis.TestGetClass
  */
 
-package compiler.escapeAnalysis;
 
 public class TestGetClass {
     static Object obj = new Object();

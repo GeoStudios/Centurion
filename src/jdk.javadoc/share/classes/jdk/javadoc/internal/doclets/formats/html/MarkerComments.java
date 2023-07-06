@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.doclets.formats.html;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-import jdk.javadoc.internal.doclets.formats.html.markup.Comment;
+
+import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.Comment;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  *  Marker comments to identify regions in the generated files.

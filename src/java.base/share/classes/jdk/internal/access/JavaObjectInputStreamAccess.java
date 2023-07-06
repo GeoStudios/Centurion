@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.access;
+package java.base.share.classes.jdk.internal.access;
+
 
 import java.io.InvalidClassException;
 import java.io.ObjectInputStream;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Interface to specify methods for accessing {@code ObjectInputStream}.

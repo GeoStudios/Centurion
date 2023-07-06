@@ -19,10 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.hotspot.agent.share.classes.com.sun.java.swing.action;
 
-package com.sun.java.swing.action;
 
 import javax.swing.ImageIcon;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class ActionUtilities
 {

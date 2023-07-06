@@ -18,7 +18,9 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package com.sun.imageio.plugins.tiff;
+
+package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
+
 
 import java.awt.Rectangle;
 import java.awt.Transparency;
@@ -41,18 +43,32 @@ import java.awt.image.SampleModel;
 import java.awt.image.SinglePixelPackedSampleModel;
 import java.awt.image.WritableRaster;
 import java.io.ByteArrayInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteOrder;
-import javax.imageio.IIOException;
+import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import javax.imageio.ImageReader;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.stream.ImageInputStream;
 import javax.imageio.stream.MemoryCacheImageInputStream;
 import javax.imageio.plugins.tiff.BaselineTIFFTagSet;
-import com.sun.imageio.plugins.common.ImageUtil;
-import com.sun.imageio.plugins.common.BogusColorSpace;
-import com.sun.imageio.plugins.common.SimpleCMYKColorSpace;
+import java.desktop.share.classes.com.sun.imageio.plugins.common.ImageUtil;
+import java.desktop.share.classes.com.sun.imageio.plugins.common.BogusColorSpace;
+import java.desktop.share.classes.com.sun.imageio.plugins.common.SimpleCMYKColorSpace;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A class defining a pluggable TIFF decompressor.

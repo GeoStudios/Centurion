@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.security.auth.kerberos;
+package java.security.jgss.share.classes.javax.security.auth.kerberos;
+
 
 import java.io.*;
 import java.util.Date;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.net.InetAddress;
-import java.util.Objects;
-import javax.crypto.SecretKey;
-import javax.security.auth.Refreshable;
-import javax.security.auth.Destroyable;
-import javax.security.auth.RefreshFailedException;
-import javax.security.auth.DestroyFailedException;
-
+import java.base.share.classes.java.util.Objects;
+import java.security.jgss.share.classes.javax.crypto.SecretKey;
+import java.security.jgss.share.classes.javax.security.auth.Refreshable;
+import java.security.jgss.share.classes.javax.security.auth.Destroyable;
+import java.security.jgss.share.classes.javax.security.auth.RefreshFailedException;
+import java.security.jgss.share.classes.javax.security.auth.DestroyFailedException;
 import sun.security.util.HexDumpEncoder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class encapsulates a Kerberos ticket and associated
@@ -842,8 +856,7 @@ public class KerberosTicket implements Destroyable, Refreshable,
                  flags, authTime, startTime, endTime,
                  renewTill, clientAddresses);
         } catch (IllegalArgumentException iae) {
-            throw (InvalidObjectException)
-                    new InvalidObjectException(iae.getMessage(), iae);
+            throw new InvalidObjectException(iae.getMessage(), iae);
         }
     }
 }

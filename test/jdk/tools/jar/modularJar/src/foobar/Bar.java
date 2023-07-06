@@ -21,6 +21,21 @@
 
 package jdk.test.bar;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Bar {
     public static void main(String[] args) {}
 }

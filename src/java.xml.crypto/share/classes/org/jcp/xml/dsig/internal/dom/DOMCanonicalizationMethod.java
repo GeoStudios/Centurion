@@ -19,11 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-/*
- * reserved comment block
- * DO NOT REMOVE OR ALTER!
- */
-package org.jcp.xml.dsig.internal.dom;
+package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
+
 
 import java.io.OutputStream;
 import java.security.InvalidAlgorithmParameterException;
@@ -32,11 +29,32 @@ import java.security.spec.AlgorithmParameterSpec;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
-
-import org.w3c.dom.Element;
-
+import java.xml.crypto.share.classes.org.w3c.dom.Element;
 import javax.xml.crypto.*;
 import javax.xml.crypto.dsig.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * reserved comment block
+ * DO NOT REMOVE OR ALTER!
+ */
+
+
+
+
 
 /**
  * DOM-based abstract implementation of CanonicalizationMethod.

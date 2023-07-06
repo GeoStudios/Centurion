@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.io.Serial;
-import java.util.Arrays;
-import java.util.Hashtable;
+
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.desktop.share.classes.java.util.Hashtable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code GridBagLayout} class is a flexible layout
@@ -273,9 +288,9 @@ import java.util.Hashtable;
  * Here is the code that implements the example shown above:
  *
  * <hr><blockquote><pre>
- * import java.awt.*;
- * import java.util.*;
- * import java.applet.Applet;
+ * import java.desktop.share.classes.java.awt.*;
+ * import java.desktop.share.classes.java.util.*;
+ * import java.desktop.share.classes.java.applet.Applet;
  *
  * public class GridBagEx1 extends Applet {
  *

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.loopopts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8240576
@@ -28,7 +45,6 @@
  *      compiler.loopopts.TestBeautifyLoops
  */
 
-package compiler.loopopts;
 
 public class TestBeautifyLoops {
     private int mI = 0;

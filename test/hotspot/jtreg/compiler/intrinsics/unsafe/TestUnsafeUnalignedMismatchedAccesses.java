@@ -19,6 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.unsafe;
+
+
+import jdk.internal.misc.Unsafe;
+import java.lang.reflect.Field;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8136473
@@ -32,11 +51,8 @@
  *      compiler.intrinsics.unsafe.TestUnsafeUnalignedMismatchedAccesses
  */
 
-package compiler.intrinsics.unsafe;
 
-import jdk.internal.misc.Unsafe;
 
-import java.lang.reflect.Field;
 
 public class TestUnsafeUnalignedMismatchedAccesses {
 

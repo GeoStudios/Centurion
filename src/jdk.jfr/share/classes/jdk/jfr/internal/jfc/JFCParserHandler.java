@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.jfc;
+package jdk.jfr.share.classes.jdk.jfr.internal.jfc;
+
+
 import java.util.LinkedHashMap;
 import java.util.Map;
+import jdk.jfr.share.classes.jdk.internal.org.xml.sax.Attributes;
+import jdk.jfr.share.classes.jdk.internal.org.xml.sax.SAXException;
+import jdk.jfr.share.classes.jdk.internal.org.xml.sax.helpers.DefaultHandler;
 
-import jdk.internal.org.xml.sax.Attributes;
-import jdk.internal.org.xml.sax.SAXException;
-import jdk.internal.org.xml.sax.helpers.DefaultHandler;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 final class JFCParserHandler extends DefaultHandler {
     private static final String ELEMENT_CONFIGURATION = "configuration";

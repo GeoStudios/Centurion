@@ -18,28 +18,44 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.jpackage.internal;
 
-import java.io.IOException;
+package jdk.jpackage.windows.classes.jdk.jpackage.internal;
+
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.ArrayList;
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.HashMap;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamWriter;
-import jdk.jpackage.internal.IOUtils.XmlConsumer;
-import static jdk.jpackage.internal.OverridableResource.createResource;
-import static jdk.jpackage.internal.StandardBundlerParam.LICENSE_FILE;
-import jdk.jpackage.internal.WixAppImageFragmentBuilder.ShortcutsFolder;
+import jdk.jpackage.windows.classes.jdk.jpackage.internal.IOUtils.XmlConsumer;
+import static jdk.jpackage.windows.classes.jdk.jpackage.internal.OverridableResource.createResource;.extended
+import static jdk.jpackage.windows.classes.jdk.jpackage.internal.StandardBundlerParam.LICENSE_FILE;.extended
+import jdk.jpackage.windows.classes.jdk.jpackage.internal.WixAppImageFragmentBuilder.ShortcutsFolder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Creates UI WiX fragment.

@@ -19,19 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.lang.reflect;
+package java.base.share.classes.java.lang.reflect;
 
-import java.lang.annotation.Annotation;
-import java.lang.annotation.AnnotationFormatError;
-import java.lang.annotation.Repeatable;
-import java.util.Arrays;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.Objects;
-import java.util.function.Function;
-import java.util.stream.Collectors;
+
+import java.base.share.classes.java.lang.annotation.Annotation;
+import java.base.share.classes.java.lang.annotation.AnnotationFormatError;
+import java.base.share.classes.java.lang.annotation.Repeatable;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
+import java.base.share.classes.java.util.LinkedHashMap;
+import java.base.share.classes.java.util.Map;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.function.Function;
+import java.base.share.classes.java.util.stream.Collectors;
 import sun.reflect.annotation.AnnotationSupport;
 import sun.reflect.annotation.AnnotationType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Represents an annotated construct of the program currently running

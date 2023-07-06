@@ -19,7 +19,6 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-//package nsk.jvmti.RedefineClasses.StressRedefine;
 package nsk.jvmti.RedefineClasses;
 
 
@@ -28,18 +27,35 @@ import java.lang.reflect.Method;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Linkedjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Random;
-
 import nsk.share.TestFailure;
 import nsk.share.gc.GCTestBase;
 import nsk.share.test.ExecutionController;
 import nsk.share.test.Stresser;
 import nsk.share.test.Tests;
-
 import vm.share.InMemoryJavaCompiler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//package nsk.jvmti.RedefineClasses.StressRedefine;
+
+
+
+
 
 /**
  * There is a data structure named "dictionary" in class BlockFreelist. It stores

@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.reflect.misc;
+package java.base.share.classes.sun.reflect.misc;
+
 
 import java.io.EOFException;
 import java.security.AllPermission;
@@ -30,15 +31,28 @@ import java.security.PrivilegedExceptionAction;
 import java.security.CodeSource;
 import java.io.InputStream;
 import java.io.BufferedInputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.lang.reflect.Method;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Modifier;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 class Trampoline {

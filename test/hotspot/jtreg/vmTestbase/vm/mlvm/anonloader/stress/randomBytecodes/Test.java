@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package vm.mlvm.anonloader.stress.randomBytecodes;
+
+
+import java.base.share.classes.java.util.Arrays;
+import vm.mlvm.anonloader.share.StressClassLoadingTest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -38,10 +56,7 @@
  * @run main/othervm vm.mlvm.anonloader.stress.randomBytecodes.Test -stressIterationsFactor 100000
  */
 
-package vm.mlvm.anonloader.stress.randomBytecodes;
 
-import java.util.Arrays;
-import vm.mlvm.anonloader.share.StressClassLoadingTest;
 
 /**
  * The test does the following in a cycle:

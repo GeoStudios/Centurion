@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.text;
+package java.base.share.classes.java.text;
+
 
 import jdk.internal.icu.text.BidiBase;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class implements the Unicode Bidirectional Algorithm.

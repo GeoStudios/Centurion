@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package annotation.enums;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 4916218
@@ -28,7 +45,6 @@
  * @compile Enum1.java
  */
 
-package annotation.enums;
 
 @interface A {}
 

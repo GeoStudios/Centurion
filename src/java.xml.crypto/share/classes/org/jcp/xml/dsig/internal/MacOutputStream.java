@@ -19,14 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal;
+
+
+import java.io.ByteArrayOutputStream;
+import javax.crypto.Mac;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package org.jcp.xml.dsig.internal;
 
-import java.io.ByteArrayOutputStream;
-import javax.crypto.Mac;
+
 
 /**
  * Derived from Apache sources and changed to use Mac objects instead of

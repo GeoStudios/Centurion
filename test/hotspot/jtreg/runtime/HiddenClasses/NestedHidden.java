@@ -19,6 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package p;
+
+
+import java.lang.*;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodHandles.Lookup;
+import static java.lang.invoke.MethodHandles.Lookup.ClassOption.*;.extended
+import jdk.test.lib.compiler.InMemoryJavaCompiler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @summary Creates a hidden class inside of a hidden class.
@@ -27,14 +49,8 @@
  * @run main p.NestedHidden
  */
 
-package p;
 
-import java.lang.*;
 
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodHandles.Lookup;
-import static java.lang.invoke.MethodHandles.Lookup.ClassOption.*;
-import jdk.test.lib.compiler.InMemoryJavaCompiler;
 
 
 // Test that a hidden class can define its own hidden class by calling

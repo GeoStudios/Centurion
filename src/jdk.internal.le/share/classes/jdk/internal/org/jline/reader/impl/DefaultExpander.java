@@ -18,13 +18,28 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.org.jline.reader.impl;
 
-import java.util.ListIterator;
+package jdk.internal.le.share.classes.jdk.internal.org.jline.reader.impl;
 
-import jdk.internal.org.jline.reader.Expander;
-import jdk.internal.org.jline.reader.History;
-import jdk.internal.org.jline.reader.History.Entry;
+
+import java.util.java.util.ListIterator;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.Expander;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.History;
+import jdk.internal.le.share.classes.jdk.internal.org.jline.reader.History.Entry;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class DefaultExpander implements Expander {
 

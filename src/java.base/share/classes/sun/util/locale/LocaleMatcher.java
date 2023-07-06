@@ -19,19 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.util.locale;
+package java.base.share.classes.sun.util.locale;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.HashMap;
-import java.util.List;
-import java.util.Locale;
+import java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Locale;
 import java.util.Locale.*;
-import static java.util.Locale.FilteringMode.*;
-import static java.util.Locale.LanguageRange.*;
+import static java.util.Locale.FilteringMode.*;.extended
+import static java.util.Locale.LanguageRange.*;.extended
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Implementation for BCP47 Locale matching

@@ -18,6 +18,25 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
+package jit.DivTest;
+
+
+import nsk.share.TestFailure;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // DivTest.java
 // bug-12
 
@@ -33,9 +52,7 @@
  * @run main/othervm jit.DivTest.DivTest
  */
 
-package jit.DivTest;
 
-import nsk.share.TestFailure;
 
 public class DivTest{
   static int n;

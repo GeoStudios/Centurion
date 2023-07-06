@@ -19,27 +19,38 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt.font;
+package java.desktop.share.classes.java.awt.font;
 
-import java.awt.Font;
 
-import java.text.AttributedCharacterIterator;
-import java.text.AttributedCharacterIterator.Attribute;
-import java.text.AttributedString;
-import java.text.Bidi;
-import java.text.BreakIterator;
-import java.text.CharacterIterator;
-
-import java.awt.font.FontRenderContext;
-
-import java.util.Hashtable;
-import java.util.Map;
-
+import java.desktop.share.classes.java.awt.Font;
+import java.desktop.share.classes.java.text.AttributedCharacterIterator;
+import java.desktop.share.classes.java.text.AttributedCharacterIterator.Attribute;
+import java.desktop.share.classes.java.text.AttributedString;
+import java.desktop.share.classes.java.text.Bidi;
+import java.desktop.share.classes.java.text.BreakIterator;
+import java.desktop.share.classes.java.text.CharacterIterator;
+import java.desktop.share.classes.java.awt.font.FontRenderContext;
+import java.desktop.share.classes.java.util.Hashtable;
+import java.desktop.share.classes.java.util.Map;
 import sun.font.AttributeValues;
 import sun.font.BidiUtils;
 import sun.font.TextLineComponent;
 import sun.font.TextLabelFactory;
 import sun.font.FontResolver;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The {@code TextMeasurer} class provides the primitive operations

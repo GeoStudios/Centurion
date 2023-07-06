@@ -19,28 +19,41 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.sjavac;
+package jdk.compiler.share.classes.com.sun.tools.sjavac;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Arrays;
-
+import java.base.share.classes.java.util.Arrays;
 import javax.tools.JavaCompiler.CompilationTask;
 import javax.tools.JavaFileManager;
+import jdk.compiler.share.classes.com.sun.tools.javac.api.JavacTool;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.ClassFinder;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ClassSymbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symtab;
+import jdk.compiler.share.classes.com.sun.tools.javac.main.JavaCompiler;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Convert;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Name;
+import jdk.compiler.share.classes.com.sun.tools.javac.util.Names;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.comp.PubapiVisitor;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.comp.SmartFileManager;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.options.Options;
+import jdk.compiler.share.classes.com.sun.tools.sjavac.pubapi.PubApi;
 
-import com.sun.tools.javac.api.JavacTool;
-import com.sun.tools.javac.code.ClassFinder;
-import com.sun.tools.javac.code.Symbol.ClassSymbol;
-import com.sun.tools.javac.code.Symtab;
-import com.sun.tools.javac.main.JavaCompiler;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.Convert;
-import com.sun.tools.javac.util.Name;
-import com.sun.tools.javac.util.Names;
-import com.sun.tools.sjavac.comp.PubapiVisitor;
-import com.sun.tools.sjavac.comp.SmartFileManager;
-import com.sun.tools.sjavac.options.Options;
-import com.sun.tools.sjavac.pubapi.PubApi;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class PubApiExtractor {
     // Setup a compiler context for finding classes in the classpath

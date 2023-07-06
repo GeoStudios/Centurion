@@ -19,22 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal;
+package jdk.jfr.share.classes.jdk.jfr.internal;
+
 
 import java.security.AccessControlContext;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
+import jdk.jfr.share.classes.jdk.jfr.AnnotationElement;
+import jdk.jfr.share.classes.jdk.jfr.Configuration;
+import jdk.jfr.share.classes.jdk.jfr.EventSettings;
+import jdk.jfr.share.classes.jdk.jfr.EventType;
+import jdk.jfr.share.classes.jdk.jfr.FlightRecorderPermission;
+import jdk.jfr.share.classes.jdk.jfr.Recording;
+import jdk.jfr.share.classes.jdk.jfr.SettingControl;
+import jdk.jfr.share.classes.jdk.jfr.SettingDescriptor;
+import jdk.jfr.share.classes.jdk.jfr.ValueDescriptor;
+import jdk.jfr.share.classes.jdk.jfr.internal.management.EventSettingsModifier;
 
-import jdk.jfr.AnnotationElement;
-import jdk.jfr.Configuration;
-import jdk.jfr.EventSettings;
-import jdk.jfr.EventType;
-import jdk.jfr.FlightRecorderPermission;
-import jdk.jfr.Recording;
-import jdk.jfr.SettingControl;
-import jdk.jfr.SettingDescriptor;
-import jdk.jfr.ValueDescriptor;
-import jdk.jfr.internal.management.EventSettingsModifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Provides access to package private function in jdk.jfr.

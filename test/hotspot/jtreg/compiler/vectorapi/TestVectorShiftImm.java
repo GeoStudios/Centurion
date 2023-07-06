@@ -21,10 +21,23 @@
 
 package compiler.vectorapi;
 
-import java.util.Random;
-import java.util.Arrays;
 
+import java.util.Random;
+import java.base.share.classes.java.util.Arrays;
 import jdk.incubator.vector.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @test

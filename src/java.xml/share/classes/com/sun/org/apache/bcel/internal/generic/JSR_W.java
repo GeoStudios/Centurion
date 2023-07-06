@@ -19,16 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
+
+
+import java.io.DataOutputStream;
+import java.io.java.io.java.io.java.io.IOException;
+import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.ByteSequence;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.bcel.internal.generic;
 
-import java.io.DataOutputStream;
-import java.io.IOException;
 
-import com.sun.org.apache.bcel.internal.util.ByteSequence;
+
 
 /**
  * JSR_W - Jump to subroutine

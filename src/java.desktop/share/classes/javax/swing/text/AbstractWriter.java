@@ -19,11 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.swing.text;
+package java.desktop.share.classes.javax.swing.text;
+
 
 import java.io.Writer;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.util.Enumeration;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * AbstractWriter is an abstract class that actually

@@ -19,19 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xpath.internal.compiler;
+package java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler;
 
-import javax.xml.transform.ErrorListener;
+
+import javax.xml.transform.Errorjava.util.Listener;
 import javax.xml.transform.TransformerException;
+import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
+import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.PrefixResolver;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathProcessorException;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XNumber;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XString;
+import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
+import java.base.share.classes.java.util.Objects;
 
-import com.sun.org.apache.xalan.internal.res.XSLMessages;
-import com.sun.org.apache.xml.internal.utils.PrefixResolver;
-import com.sun.org.apache.xpath.internal.XPathProcessorException;
-import com.sun.org.apache.xpath.internal.objects.XNumber;
-import com.sun.org.apache.xpath.internal.objects.XString;
-import com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
 
-import java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Tokenizes and parses XPath expressions. This should really be named

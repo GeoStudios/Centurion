@@ -19,26 +19,39 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.awt.event.AdjustmentEvent;
-import java.awt.event.AdjustmentListener;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseWheelEvent;
-import java.awt.peer.ScrollPanePeer;
-import java.beans.ConstructorProperties;
-import java.beans.Transient;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serial;
 
+import java.desktop.share.classes.java.awt.event.AdjustmentEvent;
+import java.desktop.share.classes.java.awt.event.Adjustmentjava.util.Listener;
+import java.desktop.share.classes.java.awt.event.MouseEvent;
+import java.desktop.share.classes.java.awt.event.MouseWheelEvent;
+import java.desktop.share.classes.java.awt.peer.ScrollPanePeer;
+import java.desktop.share.classes.java.beans.ConstructorProperties;
+import java.desktop.share.classes.java.beans.Transient;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.ObjectOutputStream;
+import java.desktop.share.classes.java.io.Serial;
 import javax.accessibility.Accessible;
 import javax.accessibility.AccessibleContext;
 import javax.accessibility.AccessibleRole;
-
 import sun.awt.ScrollPaneWheelScroller;
 import sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A container class which implements automatic horizontal and/or

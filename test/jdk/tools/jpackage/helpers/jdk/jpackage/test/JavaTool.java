@@ -19,12 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-
 package jdk.jpackage.test;
 
 
 import java.nio.file.Path;
 import java.util.spi.ToolProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public enum JavaTool {
     JAVA, JAVAC, JPACKAGE, JAR, JLINK, JMOD;

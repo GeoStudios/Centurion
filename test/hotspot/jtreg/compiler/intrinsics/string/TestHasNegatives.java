@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics.string;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8054307
@@ -29,7 +46,6 @@
  * @run main compiler.intrinsics.string.TestHasNegatives
  */
 
-package compiler.intrinsics.string;
 
 /*
  * @summary Validates StringCoding.hasNegatives intrinsic with a small

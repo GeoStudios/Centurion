@@ -19,44 +19,57 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.jfr.internal.instrument;
+package jdk.jfr.share.classes.jdk.jfr.internal.instrument;
 
-import java.util.ArrayList;
-import java.util.List;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
+import jdk.jfr.share.classes.jdk.jfr.Event;
+import jdk.jfr.share.classes.jdk.jfr.events.ActiveRecordingEvent;
+import jdk.jfr.share.classes.jdk.jfr.events.ActiveSettingEvent;
+import jdk.jfr.share.classes.jdk.jfr.events.ContainerIOUsageEvent;
+import jdk.jfr.share.classes.jdk.jfr.events.ContainerConfigurationEvent;
+import jdk.jfr.share.classes.jdk.jfr.events.ContainerCPUUsageEvent;
+import jdk.jfr.share.classes.jdk.jfr.events.ContainerCPUThrottlingEvent;
+import jdk.jfr.share.classes.jdk.jfr.events.ContainerMemoryUsageEvent;
+import jdk.jfr.share.classes.jdk.jfr.events.DirectBufferStatisticsEvent;
+import jdk.jfr.share.classes.jdk.jfr.events.ErrorThrownEvent;
+import jdk.jfr.share.classes.jdk.jfr.events.ExceptionStatisticsEvent;
+import jdk.jfr.share.classes.jdk.jfr.events.ExceptionThrownEvent;
+import jdk.jfr.share.classes.jdk.jfr.events.FileForceEvent;
+import jdk.jfr.share.classes.jdk.jfr.events.FileReadEvent;
+import jdk.jfr.share.classes.jdk.jfr.events.FileWriteEvent;
+import jdk.jfr.share.classes.jdk.jfr.events.DeserializationEvent;
+import jdk.jfr.share.classes.jdk.jfr.events.ProcessStartEvent;
+import jdk.jfr.share.classes.jdk.jfr.events.SecurityPropertyModificationEvent;
+import jdk.jfr.share.classes.jdk.jfr.events.java.net.SocketReadEvent;
+import jdk.jfr.share.classes.jdk.jfr.events.java.net.SocketWriteEvent;
+import jdk.jfr.share.classes.jdk.jfr.events.TLSHandshakeEvent;
+import jdk.jfr.share.classes.jdk.jfr.events.X509CertificateEvent;
+import jdk.jfr.share.classes.jdk.jfr.events.X509ValidationEvent;
+import jdk.jfr.share.classes.jdk.jfr.internal.JVM;
+import jdk.jfr.share.classes.jdk.jfr.internal.LogLevel;
+import jdk.jfr.share.classes.jdk.jfr.internal.LogTag;
+import jdk.jfr.share.classes.jdk.jfr.internal.Logger;
+import jdk.jfr.share.classes.jdk.jfr.internal.RequestEngine;
+import jdk.jfr.share.classes.jdk.jfr.internal.SecuritySupport;
+import jdk.jfr.share.classes.jdk.internal.platform.Container;
+import jdk.jfr.share.classes.jdk.internal.platform.Metrics;
 
-import jdk.jfr.Event;
-import jdk.jfr.events.ActiveRecordingEvent;
-import jdk.jfr.events.ActiveSettingEvent;
-import jdk.jfr.events.ContainerIOUsageEvent;
-import jdk.jfr.events.ContainerConfigurationEvent;
-import jdk.jfr.events.ContainerCPUUsageEvent;
-import jdk.jfr.events.ContainerCPUThrottlingEvent;
-import jdk.jfr.events.ContainerMemoryUsageEvent;
-import jdk.jfr.events.DirectBufferStatisticsEvent;
-import jdk.jfr.events.ErrorThrownEvent;
-import jdk.jfr.events.ExceptionStatisticsEvent;
-import jdk.jfr.events.ExceptionThrownEvent;
-import jdk.jfr.events.FileForceEvent;
-import jdk.jfr.events.FileReadEvent;
-import jdk.jfr.events.FileWriteEvent;
-import jdk.jfr.events.DeserializationEvent;
-import jdk.jfr.events.ProcessStartEvent;
-import jdk.jfr.events.SecurityPropertyModificationEvent;
-import jdk.jfr.events.SocketReadEvent;
-import jdk.jfr.events.SocketWriteEvent;
-import jdk.jfr.events.TLSHandshakeEvent;
-import jdk.jfr.events.X509CertificateEvent;
-import jdk.jfr.events.X509ValidationEvent;
-import jdk.jfr.internal.JVM;
-import jdk.jfr.internal.LogLevel;
-import jdk.jfr.internal.LogTag;
-import jdk.jfr.internal.Logger;
-import jdk.jfr.internal.RequestEngine;
-import jdk.jfr.internal.SecuritySupport;
 
-import jdk.internal.platform.Container;
-import jdk.internal.platform.Metrics;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class JDKEvents {
     private static final Class<?>[] mirrorEventClasses = {

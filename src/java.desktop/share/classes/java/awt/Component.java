@@ -19,63 +19,63 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.awt;
+package java.desktop.share.classes.java.awt;
 
-import java.applet.Applet;
-import java.awt.dnd.DropTarget;
-import java.awt.event.ActionEvent;
-import java.awt.event.AdjustmentEvent;
-import java.awt.event.ComponentEvent;
-import java.awt.event.ComponentListener;
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
-import java.awt.event.HierarchyBoundsListener;
-import java.awt.event.HierarchyEvent;
-import java.awt.event.HierarchyListener;
-import java.awt.event.InputEvent;
-import java.awt.event.InputMethodEvent;
-import java.awt.event.InputMethodListener;
-import java.awt.event.ItemEvent;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.event.MouseMotionListener;
-import java.awt.event.MouseWheelEvent;
-import java.awt.event.MouseWheelListener;
-import java.awt.event.PaintEvent;
-import java.awt.event.TextEvent;
-import java.awt.im.InputContext;
-import java.awt.im.InputMethodRequests;
-import java.awt.image.BufferStrategy;
-import java.awt.image.ColorModel;
-import java.awt.image.ImageObserver;
-import java.awt.image.ImageProducer;
-import java.awt.image.VolatileImage;
-import java.awt.peer.ComponentPeer;
-import java.awt.peer.ContainerPeer;
-import java.awt.peer.LightweightPeer;
-import java.beans.PropertyChangeListener;
-import java.beans.PropertyChangeSupport;
-import java.beans.Transient;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.PrintStream;
-import java.io.PrintWriter;
-import java.io.Serial;
-import java.io.Serializable;
-import java.security.AccessControlContext;
-import java.security.AccessController;
-import java.util.Collections;
-import java.util.EventListener;
-import java.util.HashSet;
-import java.util.Locale;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Set;
-import java.util.Vector;
 
+import java.desktop.share.classes.java.applet.Applet;
+import java.desktop.share.classes.java.awt.dnd.DropTarget;
+import java.desktop.share.classes.java.awt.event.ActionEvent;
+import java.desktop.share.classes.java.awt.event.AdjustmentEvent;
+import java.desktop.share.classes.java.awt.event.ComponentEvent;
+import java.desktop.share.classes.java.awt.event.Componentjava.util.Listener;
+import java.desktop.share.classes.java.awt.event.FocusEvent;
+import java.desktop.share.classes.java.awt.event.Focusjava.util.Listener;
+import java.desktop.share.classes.java.awt.event.HierarchyBoundsjava.util.Listener;
+import java.desktop.share.classes.java.awt.event.HierarchyEvent;
+import java.desktop.share.classes.java.awt.event.Hierarchyjava.util.Listener;
+import java.desktop.share.classes.java.awt.event.InputEvent;
+import java.desktop.share.classes.java.awt.event.InputMethodEvent;
+import java.desktop.share.classes.java.awt.event.InputMethodjava.util.Listener;
+import java.desktop.share.classes.java.awt.event.ItemEvent;
+import java.desktop.share.classes.java.awt.event.KeyEvent;
+import java.desktop.share.classes.java.awt.event.Keyjava.util.Listener;
+import java.desktop.share.classes.java.awt.event.MouseEvent;
+import java.desktop.share.classes.java.awt.event.Mousejava.util.Listener;
+import java.desktop.share.classes.java.awt.event.MouseMotionjava.util.Listener;
+import java.desktop.share.classes.java.awt.event.MouseWheelEvent;
+import java.desktop.share.classes.java.awt.event.MouseWheeljava.util.Listener;
+import java.desktop.share.classes.java.awt.event.PaintEvent;
+import java.desktop.share.classes.java.awt.event.TextEvent;
+import java.desktop.share.classes.java.awt.im.InputContext;
+import java.desktop.share.classes.java.awt.im.InputMethodRequests;
+import java.desktop.share.classes.java.awt.image.BufferStrategy;
+import java.desktop.share.classes.java.awt.image.ColorModel;
+import java.desktop.share.classes.java.awt.image.ImageObserver;
+import java.desktop.share.classes.java.awt.image.ImageProducer;
+import java.desktop.share.classes.java.awt.image.VolatileImage;
+import java.desktop.share.classes.java.awt.peer.ComponentPeer;
+import java.desktop.share.classes.java.awt.peer.ContainerPeer;
+import java.desktop.share.classes.java.awt.peer.LightweightPeer;
+import java.desktop.share.classes.java.beans.PropertyChangejava.util.Listener;
+import java.desktop.share.classes.java.beans.PropertyChangeSupport;
+import java.desktop.share.classes.java.beans.Transient;
+import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
+import java.desktop.share.classes.java.io.ObjectInputStream;
+import java.desktop.share.classes.java.io.ObjectOutputStream;
+import java.desktop.share.classes.java.io.PrintStream;
+import java.desktop.share.classes.java.io.PrintWriter;
+import java.desktop.share.classes.java.io.Serial;
+import java.desktop.share.classes.java.io.Serializable;
+import java.desktop.share.classes.java.security.AccessControlContext;
+import java.desktop.share.classes.java.security.AccessController;
+import java.desktop.share.classes.java.util.Collections;
+import java.desktop.share.classes.java.util.Eventjava.util.Listener;
+import java.desktop.share.classes.java.util.HashSet;
+import java.desktop.share.classes.java.util.Locale;
+import java.desktop.share.classes.java.util.Map;
+import java.desktop.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.desktop.share.classes.java.util.Set;
+import java.desktop.share.classes.java.util.Vector;
 import javax.accessibility.Accessible;
 import javax.accessibility.AccessibleComponent;
 import javax.accessibility.AccessibleContext;
@@ -85,7 +85,6 @@ import javax.accessibility.AccessibleState;
 import javax.accessibility.AccessibleStateSet;
 import javax.swing.JComponent;
 import javax.swing.JRootPane;
-
 import sun.awt.AWTAccessor;
 import sun.awt.AppContext;
 import sun.awt.ComponentFactory;
@@ -107,9 +106,22 @@ import sun.java2d.pipe.hw.ExtendedBufferCapabilities;
 import sun.security.action.GetPropertyAction;
 import sun.swing.SwingAccessor;
 import sun.util.logging.PlatformLogger;
+import static sun.java2d.pipe.hw.ExtendedBufferCapabilities.VSyncType.VSYNC_DEFAULT;.extended
+import static sun.java2d.pipe.hw.ExtendedBufferCapabilities.VSyncType.VSYNC_ON;.extended
 
-import static sun.java2d.pipe.hw.ExtendedBufferCapabilities.VSyncType.VSYNC_DEFAULT;
-import static sun.java2d.pipe.hw.ExtendedBufferCapabilities.VSyncType.VSYNC_ON;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A <em>component</em> is an object having a graphical representation
@@ -141,9 +153,9 @@ import static sun.java2d.pipe.hw.ExtendedBufferCapabilities.VSyncType.VSYNC_ON;
  * to consider the implications of making an object serializable.
  * One situation to watch out for is this:
  * <pre>
- *    import java.awt.*;
- *    import java.awt.event.*;
- *    import java.io.Serializable;
+ *    import java.desktop.share.classes.java.awt.*;
+ *    import java.desktop.share.classes.java.awt.event.*;
+ *    import java.desktop.share.classes.java.io.Serializable;
  *
  *    class MyApp implements ActionListener, Serializable
  *    {
@@ -171,9 +183,9 @@ import static sun.java2d.pipe.hw.ExtendedBufferCapabilities.VSyncType.VSYNC_ON;
  * {@code ActionListener} being serializable one can use a
  * nested class, as in the following example:
  * <pre>
- *    import java.awt.*;
- *    import java.awt.event.*;
- *    import java.io.Serializable;
+ *    import java.desktop.share.classes.java.awt.*;
+ *    import java.desktop.share.classes.java.awt.event.*;
+ *    import java.desktop.share.classes.java.io.Serializable;
  *
  *    class MyApp implements java.io.Serializable
  *    {

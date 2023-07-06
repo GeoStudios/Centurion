@@ -19,10 +19,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.javadoc.internal.tool;
+package jdk.javadoc.share.classes.jdk.javadoc.internal.tool;
+
 
 import java.util.Set;
-
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.TypeElement;
@@ -30,10 +30,23 @@ import javax.lang.model.util.Elements;
 import javax.lang.model.util.Types;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileObject.Kind;
-
 import com.sun.source.util.DocTrees;
 import com.sun.tools.javac.code.Source;
-import jdk.javadoc.doclet.DocletEnvironment;
+import jdk.javadoc.share.classes.jdk.javadoc.doclet.DocletEnvironment;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class holds the information from one run of javadoc.

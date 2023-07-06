@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.intrinsics;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8005419
@@ -27,7 +44,6 @@
  * @run main/othervm -Xbatch -Xmx128m compiler.intrinsics.Test8005419
  */
 
-package compiler.intrinsics;
 
 public class Test8005419 {
     public static int SIZE = 64;

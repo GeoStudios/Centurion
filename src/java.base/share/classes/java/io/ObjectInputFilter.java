@@ -19,29 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.io;
+package java.base.share.classes.java.io;
 
-import jdk.internal.access.SharedSecrets;
+
+import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.util.StaticProperty;
 import sun.security.action.GetBooleanAction;
+import java.base.share.classes.java.lang.reflect.InvocationTargetException;
+import java.base.share.classes.java.security.AccessController;
+import java.base.share.classes.java.security.PrivilegedAction;
+import java.base.share.classes.java.security.Security;
+import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.java.util.java.util.java.util.List;
+import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
+import java.base.share.classes.java.util.Optional;
+import java.base.share.classes.java.util.concurrent.atomic.AtomicBoolean;
+import java.base.share.classes.java.util.function.BinaryOperator;
+import java.base.share.classes.java.util.function.Function;
+import java.base.share.classes.java.util.function.Predicate;
+import static java.base.share.classes.java.io.ObjectInputFilter.Status.*;.extended
+import static java.base.share.classes.java.lang.System.Logger.Level.TRACE;.extended
+import static java.base.share.classes.java.lang.System.Logger.Level.DEBUG;.extended
+import static java.base.share.classes.java.lang.System.Logger.Level.ERROR;.extended
 
-import java.lang.reflect.InvocationTargetException;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.security.Security;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
-import java.util.Optional;
-import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.function.BinaryOperator;
-import java.util.function.Function;
-import java.util.function.Predicate;
 
-import static java.io.ObjectInputFilter.Status.*;
-import static java.lang.System.Logger.Level.TRACE;
-import static java.lang.System.Logger.Level.DEBUG;
-import static java.lang.System.Logger.Level.ERROR;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Filter classes, array lengths, and graph metrics during deserialization.
@@ -992,7 +1005,7 @@ public interface ObjectInputFilter {
                             // Pattern is a package name with a wildcard
                             final String pkg = p.substring(poffset, nameLen - 2);
                             if (pkg.isEmpty()) {
-                                throw new IllegalArgumentException("package missing in: \"" + pattern + "\"");
+                                throw new IllegalArgumentException("
                             }
                             if (negate) {
                                 // A Function that fails if the class starts with the pattern, otherwise don't care
@@ -1005,7 +1018,7 @@ public interface ObjectInputFilter {
                             // Pattern is a package prefix with a double wildcard
                             final String pkgs = p.substring(poffset, nameLen - 2);
                             if (pkgs.length() < 2) {
-                                throw new IllegalArgumentException("package missing in: \"" + pattern + "\"");
+                                throw new IllegalArgumentException("
                             }
                             if (negate) {
                                 // A Function that fails if the class starts with the pattern, otherwise don't care
@@ -1028,7 +1041,7 @@ public interface ObjectInputFilter {
                     } else {
                         final String name = p.substring(poffset);
                         if (name.isEmpty()) {
-                            throw new IllegalArgumentException("class or package missing in: \"" + pattern + "\"");
+                            throw new IllegalArgumentException("class or 
                         }
                         // Pattern is a class name
                         if (negate) {

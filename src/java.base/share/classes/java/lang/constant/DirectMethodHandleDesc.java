@@ -18,24 +18,38 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package java.lang.constant;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandleInfo;
-import java.util.OptionalInt;
-import java.util.stream.Stream;
+package java.base.share.classes.java.lang.constant;
 
+
+import java.base.share.classes.java.lang.invoke.MethodHandle;
+import java.base.share.classes.java.lang.invoke.MethodHandleInfo;
+import java.base.share.classes.java.util.OptionalInt;
+import java.base.share.classes.java.util.stream.Stream;
 import jdk.internal.vm.annotation.Stable;
+import static java.base.share.classes.java.lang.invoke.MethodHandleInfo.REF_getField;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleInfo.REF_getStatic;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleInfo.REF_invokeInterface;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleInfo.REF_invokeSpecial;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleInfo.REF_invokeStatic;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleInfo.REF_invokeVirtual;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleInfo.REF_newInvokeSpecial;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleInfo.REF_putField;.extended
+import static java.base.share.classes.java.lang.invoke.MethodHandleInfo.REF_putStatic;.extended
 
-import static java.lang.invoke.MethodHandleInfo.REF_getField;
-import static java.lang.invoke.MethodHandleInfo.REF_getStatic;
-import static java.lang.invoke.MethodHandleInfo.REF_invokeInterface;
-import static java.lang.invoke.MethodHandleInfo.REF_invokeSpecial;
-import static java.lang.invoke.MethodHandleInfo.REF_invokeStatic;
-import static java.lang.invoke.MethodHandleInfo.REF_invokeVirtual;
-import static java.lang.invoke.MethodHandleInfo.REF_newInvokeSpecial;
-import static java.lang.invoke.MethodHandleInfo.REF_putField;
-import static java.lang.invoke.MethodHandleInfo.REF_putStatic;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * A <a href="package-summary.html#nominal">nominal descriptor</a> for a direct

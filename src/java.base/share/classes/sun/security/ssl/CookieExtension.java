@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.text.MessageFormat;
-import java.util.Locale;
+import java.base.share.classes.java.util.Locale;
 import javax.net.ssl.SSLProtocolException;
+import java.base.share.classes.sun.security.ssl.ClientHello.ClientHelloMessage;
+import java.base.share.classes.sun.security.ssl.SSLExtension.ExtensionConsumer;
+import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
+import java.base.share.classes.sun.security.ssl.SSLExtension.SSLExtensionSpec;
+import java.base.share.classes.sun.security.ssl.ServerHello.ServerHelloMessage;
+import java.base.share.classes.sun.security.util.HexDumpEncoder;
 
-import sun.security.ssl.ClientHello.ClientHelloMessage;
-import sun.security.ssl.SSLExtension.ExtensionConsumer;
-import sun.security.ssl.SSLHandshake.HandshakeMessage;
-import sun.security.ssl.SSLExtension.SSLExtensionSpec;
-import sun.security.ssl.ServerHello.ServerHelloMessage;
-import sun.security.util.HexDumpEncoder;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class CookieExtension {
     static final HandshakeProducer chNetworkProducer =

@@ -21,6 +21,21 @@
 
 package q2;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class NonPublic {
 
     // public constructor

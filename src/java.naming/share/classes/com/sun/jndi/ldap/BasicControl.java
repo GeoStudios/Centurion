@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.jndi.ldap;
+package java.naming.share.classes.com.sun.jndi.ldap;
+
 
 import javax.naming.ldap.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This class provides a basic implementation of the {@code Control}

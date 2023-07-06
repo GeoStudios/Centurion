@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.transform;
+package java.xml.share.classes.javax.xml.transform;
+
 
 import java.lang.reflect.Method;
 import java.lang.reflect.InvocationTargetException;
@@ -31,7 +32,21 @@ import java.security.PermissionCollection;
 import java.security.Permissions;
 import java.security.PrivilegedAction;
 import java.security.ProtectionDomain;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class specifies an exceptional condition that occurred

@@ -19,6 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package compiler.rtm.cli;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @bug 8031320
@@ -32,7 +49,6 @@
  * @run driver compiler.rtm.cli.TestRTMTotalCountIncrRateOptionOnSupportedConfig
  */
 
-package compiler.rtm.cli;
 
 public class TestRTMTotalCountIncrRateOptionOnSupportedConfig
         extends RTMLockingAwareTest {

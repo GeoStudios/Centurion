@@ -19,15 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.javac.model;
+package jdk.compiler.share.classes.com.sun.tools.javac.model;
 
-import java.util.AbstractList;
+
+import java.util.Abstractjava.util.java.util.java.util.List;
 import java.util.Iterator;
-import com.sun.tools.javac.code.Scope;
-import com.sun.tools.javac.code.Symbol;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope;
+import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol;
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
+import static jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;.extended
 
-import static com.sun.tools.javac.code.Flags.*;
-import static com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Utility to construct a view of a symbol's members,

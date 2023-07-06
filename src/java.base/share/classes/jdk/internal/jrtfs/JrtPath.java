@@ -18,11 +18,13 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.internal.jrtfs;
+
+package java.base.share.classes.jdk.internal.jrtfs;
+
 
 import java.io.File;
 import java.io.IOError;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.URI;
@@ -38,10 +40,24 @@ import java.nio.file.attribute.FileTime;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.NoSuchElementException;
-import java.util.Objects;
+import java.base.share.classes.java.util.Objects;
 import java.util.Set;
-import static java.nio.file.StandardOpenOption.*;
-import static java.nio.file.StandardCopyOption.*;
+import static java.nio.file.StandardOpenOption.*;.extended
+import static java.nio.file.StandardCopyOption.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Base class for Path implementation of jrt file systems.

@@ -19,10 +19,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.nio.cs.ext;
+package jdk.charsets.share.classes.sun.nio.cs.ext;
+
 
 import java.nio.charset.Charset;
-import sun.nio.cs.*;
+import jdk.charsets.share.classes.sun.nio.cs.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class MS50221 extends MS50220
 {

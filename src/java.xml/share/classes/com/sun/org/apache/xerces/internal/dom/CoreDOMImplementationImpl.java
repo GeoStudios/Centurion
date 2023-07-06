@@ -19,31 +19,47 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.org.apache.xerces.internal.dom;
+package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-import com.sun.org.apache.xerces.internal.impl.RevalidationHandler;
-import com.sun.org.apache.xerces.internal.impl.dtd.XML11DTDProcessor;
-import com.sun.org.apache.xerces.internal.impl.dtd.XML11DTDValidator;
-import com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDLoader;
-import com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator;
-import com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator;
-import com.sun.org.apache.xerces.internal.parsers.DOMParserImpl;
-import com.sun.org.apache.xerces.internal.parsers.DTDConfiguration;
-import com.sun.org.apache.xerces.internal.parsers.XIncludeAwareParserConfiguration;
-import com.sun.org.apache.xerces.internal.parsers.XML11DTDConfiguration;
-import com.sun.org.apache.xerces.internal.util.XMLChar;
-import com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription;
+
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.RevalidationHandler;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XML11DTDProcessor;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XML11DTDValidator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDLoader;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers.DOMParserImpl;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers.DTDConfiguration;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers.XIncludeAwareParserConfiguration;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers.XML11DTDConfiguration;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
+import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription;
 import java.lang.ref.SoftReference;
-import org.w3c.dom.DOMException;
-import org.w3c.dom.DOMImplementation;
-import org.w3c.dom.Document;
-import org.w3c.dom.DocumentType;
-import org.w3c.dom.Element;
-import org.w3c.dom.ls.LSParser;
-import org.w3c.dom.ls.DOMImplementationLS;
-import org.w3c.dom.ls.LSInput;
-import org.w3c.dom.ls.LSOutput;
-import org.w3c.dom.ls.LSSerializer;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
+import java.xml.share.classes.com.sun.org.w3c.dom.DOMImplementation;
+import java.xml.share.classes.com.sun.org.w3c.dom.Document;
+import java.xml.share.classes.com.sun.org.w3c.dom.DocumentType;
+import java.xml.share.classes.com.sun.org.w3c.dom.Element;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSParser;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.DOMImplementationLS;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSInput;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSOutput;
+import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSSerializer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * The DOMImplementation class is description of a particular
  * implementation of the Document Object Model. As such its data is

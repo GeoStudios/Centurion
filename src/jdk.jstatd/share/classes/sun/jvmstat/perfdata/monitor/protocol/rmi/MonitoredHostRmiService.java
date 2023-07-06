@@ -19,12 +19,27 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.jvmstat.perfdata.monitor.protocol.rmi;
+package jdk.jstatd.share.classes.sun.jvmstat.perfdata.monitor.protocol.rmi;
 
-import sun.jvmstat.monitor.HostIdentifier;
-import sun.jvmstat.monitor.MonitorException;
-import sun.jvmstat.monitor.MonitoredHost;
-import sun.jvmstat.monitor.MonitoredHostService;
+
+import jdk.jstatd.share.classes.sun.jvmstat.monitor.HostIdentifier;
+import jdk.jstatd.share.classes.sun.jvmstat.monitor.MonitorException;
+import jdk.jstatd.share.classes.sun.jvmstat.monitor.MonitoredHost;
+import jdk.jstatd.share.classes.sun.jvmstat.monitor.MonitoredHostService;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public final class MonitoredHostRmiService implements MonitoredHostService {
 

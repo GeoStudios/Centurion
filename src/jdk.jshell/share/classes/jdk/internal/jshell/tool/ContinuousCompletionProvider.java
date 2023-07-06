@@ -19,17 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.internal.jshell.tool;
+package jdk.jshell.share.classes.jdk.internal.jshell.tool;
 
-import java.util.List;
-import static java.util.Comparator.comparing;
+
+import java.util.java.util.java.util.java.util.List;
+import static java.util.Comparator.comparing;.extended
 import java.util.Map;
 import java.util.function.BiPredicate;
 import java.util.function.Supplier;
 import java.util.stream.Stream;
-import jdk.internal.jshell.tool.JShellTool.CompletionProvider;
-import jdk.jshell.SourceCodeAnalysis;
-import jdk.jshell.SourceCodeAnalysis.Suggestion;
+import jdk.jshell.share.classes.jdk.internal.jshell.tool.JShellTool.CompletionProvider;
+import jdk.jshell.share.classes.jdk.jshell.SourceCodeAnalysis;
+import jdk.jshell.share.classes.jdk.jshell.SourceCodeAnalysis.Suggestion;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class ContinuousCompletionProvider implements CompletionProvider {
 

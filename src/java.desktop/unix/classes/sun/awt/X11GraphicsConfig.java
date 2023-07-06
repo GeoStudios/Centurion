@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt;
+package java.desktop.unix.classes.sun.awt;
+
 
 import java.awt.AWTException;
 import java.awt.BufferCapabilities;
@@ -39,18 +40,31 @@ import java.awt.image.DataBuffer;
 import java.awt.image.DirectColorModel;
 import java.awt.image.VolatileImage;
 import java.awt.image.WritableRaster;
+import java.desktop.unix.classes.sun.awt.image.OffScreenImage;
+import java.desktop.unix.classes.sun.awt.image.SunVolatileImage;
+import java.desktop.unix.classes.sun.awt.image.SurfaceManager;
+import java.desktop.unix.classes.sun.java2d.Disposer;
+import java.desktop.unix.classes.sun.java2d.DisposerRecord;
+import java.desktop.unix.classes.sun.java2d.SurfaceData;
+import java.desktop.unix.classes.sun.java2d.loops.CompositeType;
+import java.desktop.unix.classes.sun.java2d.loops.RenderLoops;
+import java.desktop.unix.classes.sun.java2d.loops.SurfaceType;
+import java.desktop.unix.classes.sun.java2d.pipe.Region;
+import java.desktop.unix.classes.sun.java2d.x11.X11SurfaceData;
 
-import sun.awt.image.OffScreenImage;
-import sun.awt.image.SunVolatileImage;
-import sun.awt.image.SurfaceManager;
-import sun.java2d.Disposer;
-import sun.java2d.DisposerRecord;
-import sun.java2d.SurfaceData;
-import sun.java2d.loops.CompositeType;
-import sun.java2d.loops.RenderLoops;
-import sun.java2d.loops.SurfaceType;
-import sun.java2d.pipe.Region;
-import sun.java2d.x11.X11SurfaceData;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This is an implementation of a GraphicsConfiguration object for a

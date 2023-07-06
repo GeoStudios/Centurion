@@ -19,49 +19,63 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.sun.tools.jdi;
+package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-import java.util.ArrayList;
+
+import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Spliterator;
 import java.util.Spliterators;
+import jdk.jdi.share.classes.com.sun.jdi.Field;
+import jdk.jdi.share.classes.com.sun.jdi.InternalException;
+import jdk.jdi.share.classes.com.sun.jdi.Locatable;
+import jdk.jdi.share.classes.com.sun.jdi.Location;
+import jdk.jdi.share.classes.com.sun.jdi.Method;
+import jdk.jdi.share.classes.com.sun.jdi.ObjectReference;
+import jdk.jdi.share.classes.com.sun.jdi.ReferenceType;
+import jdk.jdi.share.classes.com.sun.jdi.ThreadReference;
+import jdk.jdi.share.classes.com.sun.jdi.VMDisconnectedException;
+import jdk.jdi.share.classes.com.sun.jdi.Value;
+import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
+import jdk.jdi.share.classes.com.sun.jdi.event.AccessWatchpointEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.BreakpointEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.ClassPrepareEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.ClassUnloadEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.Event;
+import jdk.jdi.share.classes.com.sun.jdi.event.EventIterator;
+import jdk.jdi.share.classes.com.sun.jdi.event.EventSet;
+import jdk.jdi.share.classes.com.sun.jdi.event.ExceptionEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.MethodEntryEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.MethodExitEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.ModificationWatchpointEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.MonitorContendedEnterEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.MonitorContendedEnteredEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.MonitorWaitEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.MonitorWaitedEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.StepEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.ThreadDeathEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.ThreadStartEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.VMDeathEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.VMDisconnectEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.VMStartEvent;
+import jdk.jdi.share.classes.com.sun.jdi.event.WatchpointEvent;
+import jdk.jdi.share.classes.com.sun.jdi.request.EventRequest;
 
-import com.sun.jdi.Field;
-import com.sun.jdi.InternalException;
-import com.sun.jdi.Locatable;
-import com.sun.jdi.Location;
-import com.sun.jdi.Method;
-import com.sun.jdi.ObjectReference;
-import com.sun.jdi.ReferenceType;
-import com.sun.jdi.ThreadReference;
-import com.sun.jdi.VMDisconnectedException;
-import com.sun.jdi.Value;
-import com.sun.jdi.VirtualMachine;
-import com.sun.jdi.event.AccessWatchpointEvent;
-import com.sun.jdi.event.BreakpointEvent;
-import com.sun.jdi.event.ClassPrepareEvent;
-import com.sun.jdi.event.ClassUnloadEvent;
-import com.sun.jdi.event.Event;
-import com.sun.jdi.event.EventIterator;
-import com.sun.jdi.event.EventSet;
-import com.sun.jdi.event.ExceptionEvent;
-import com.sun.jdi.event.MethodEntryEvent;
-import com.sun.jdi.event.MethodExitEvent;
-import com.sun.jdi.event.ModificationWatchpointEvent;
-import com.sun.jdi.event.MonitorContendedEnterEvent;
-import com.sun.jdi.event.MonitorContendedEnteredEvent;
-import com.sun.jdi.event.MonitorWaitEvent;
-import com.sun.jdi.event.MonitorWaitedEvent;
-import com.sun.jdi.event.StepEvent;
-import com.sun.jdi.event.ThreadDeathEvent;
-import com.sun.jdi.event.ThreadStartEvent;
-import com.sun.jdi.event.VMDeathEvent;
-import com.sun.jdi.event.VMDisconnectEvent;
-import com.sun.jdi.event.VMStartEvent;
-import com.sun.jdi.event.WatchpointEvent;
-import com.sun.jdi.request.EventRequest;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 enum EventDestination {UNKNOWN_EVENT, INTERNAL_EVENT, CLIENT_EVENT}
 

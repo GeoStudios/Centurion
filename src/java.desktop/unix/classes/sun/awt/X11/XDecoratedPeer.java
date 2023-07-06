@@ -18,22 +18,35 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package sun.awt.X11;
+
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.*;
-
 import java.awt.event.ComponentEvent;
 import java.awt.event.InvocationEvent;
 import java.awt.event.WindowEvent;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
+import java.desktop.unix.classes.sun.awt.IconInfo;
+import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
+import java.desktop.unix.classes.sun.awt.AWTAccessor;
+import java.desktop.unix.classes.sun.awt.SunToolkit;
 
-import sun.awt.IconInfo;
-import sun.util.logging.PlatformLogger;
 
-import sun.awt.AWTAccessor;
-import sun.awt.SunToolkit;
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class XDecoratedPeer extends XWindowPeer {
     private static final PlatformLogger log = PlatformLogger.getLogger("sun.awt.X11.XDecoratedPeer");

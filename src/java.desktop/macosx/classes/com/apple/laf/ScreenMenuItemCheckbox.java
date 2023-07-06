@@ -19,18 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package com.apple.laf;
+package java.desktop.macosx.classes.com.apple.laf;
+
 
 import java.awt.*;
 import java.awt.event.*;
-
 import javax.swing.*;
 import javax.swing.plaf.ButtonUI;
-
-import com.apple.laf.AquaMenuItemUI.IndeterminateListener;
-
+import java.desktop.macosx.classes.com.apple.laf.AquaMenuItemUI.Indeterminatejava.util.Listener;
 import sun.awt.AWTAccessor;
 import sun.lwawt.macosx.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @SuppressWarnings("serial") // JDK implementation class
 final class ScreenMenuItemCheckbox extends CheckboxMenuItem

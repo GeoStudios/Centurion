@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.xr;
+package java.desktop.unix.classes.sun.java2d.xr;
+
 
 import java.awt.*;
 import java.awt.geom.*;
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
+import java.desktop.unix.classes.sun.font.*;
+import java.desktop.unix.classes.sun.java2d.*;
+import java.desktop.unix.classes.sun.java2d.loops.*;
 
-import sun.font.*;
-import sun.java2d.*;
-import sun.java2d.loops.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Manages per-application resources, e.g. the 1x1 pixmap used for solid color

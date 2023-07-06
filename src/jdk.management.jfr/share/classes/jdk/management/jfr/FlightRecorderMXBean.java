@@ -19,17 +19,31 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package jdk.management.jfr;
+package jdk.management.jfr.share.classes.jdk.management.jfr;
 
-import java.io.IOException;
+
+import java.io.java.io.java.io.java.io.IOException;
 import java.lang.management.PlatformManagedObject;
 import java.time.Instant;
-import java.util.List;
+import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
+import jdk.management.jfr.share.classes.jdk.jfr.Configuration;
+import jdk.management.jfr.share.classes.jdk.jfr.EventType;
+import jdk.management.jfr.share.classes.jdk.jfr.Recording;
 
-import jdk.jfr.Configuration;
-import jdk.jfr.EventType;
-import jdk.jfr.Recording;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Management interface for controlling Flight Recorder.

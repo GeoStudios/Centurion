@@ -21,7 +21,21 @@
 
 package pkg2;
 
-import java.util.List;
+
+import java.util.java.util.java.util.java.util.List;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@link java.util.Foo<String>}

@@ -19,13 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.security.ssl;
+package java.base.share.classes.sun.security.ssl;
+
 
 import java.math.BigInteger;
-import java.security.*;
+import java.base.share.classes.java.security.*;
 import java.security.interfaces.RSAPublicKey;
-import java.security.spec.*;
-import javax.crypto.*;
+import java.base.share.classes.java.security.spec.*;
+import java.base.share.classes.javax.crypto.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * This class contains a few static methods for interaction with the JCA/JCE

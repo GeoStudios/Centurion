@@ -19,6 +19,26 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.nativeGC03;
+
+
+import nsk.share.TestFailure;
+import nsk.share.test.*;
+import nsk.share.gc.*;
+import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -40,12 +60,7 @@
  * @run main/othervm/native gc.gctests.nativeGC03.nativeGC03
  */
 
-package gc.gctests.nativeGC03;
 
-import nsk.share.TestFailure;
-import nsk.share.test.*;
-import nsk.share.gc.*;
-import java.util.Vector;
 
 public class nativeGC03 extends GCTestBase {
         private Object[] listHolder;

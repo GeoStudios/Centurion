@@ -19,14 +19,28 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.X11;
+package java.desktop.unix.classes.sun.awt.X11;
+
 
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.peer.*;
 import java.lang.reflect.*;
+import java.desktop.unix.classes.sun.awt.AWTAccessor;
 
-import sun.awt.AWTAccessor;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class XScrollPanePeer extends XComponentPeer implements ScrollPanePeer, XScrollbarClient {
 
@@ -522,7 +536,7 @@ class XScrollPanePeer extends XComponentPeer implements ScrollPanePeer, XScrollb
     public void notifyValue(XScrollbar obj, int type, int v, boolean isAdjusting) {
         if (obj == vsb) {
             scroll(-1, v, VERTICAL, type);
-        } else if ((XHorizontalScrollbar)obj == hsb) {
+        } else if (obj == hsb) {
             scroll(v, -1, HORIZONTAL, type);
         }
     }

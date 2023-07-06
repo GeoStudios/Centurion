@@ -19,7 +19,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.awt.im;
+package java.desktop.share.classes.sun.awt.im;
+
 
 import java.awt.AWTEvent;
 import java.awt.Component;
@@ -39,8 +40,22 @@ import java.text.AttributedCharacterIterator.Attribute;
 import java.text.AttributedString;
 import java.text.CharacterIterator;
 import javax.swing.JFrame;
-import sun.awt.InputMethodSupport;
-import sun.security.action.GetPropertyAction;
+import java.desktop.share.classes.sun.awt.InputMethodSupport;
+import java.desktop.share.classes.sun.security.action.GetPropertyAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The InputMethodContext class provides methods that input methods

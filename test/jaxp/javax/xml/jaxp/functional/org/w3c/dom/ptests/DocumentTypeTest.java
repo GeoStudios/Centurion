@@ -21,14 +21,27 @@
 
 package org.w3c.dom.ptests;
 
-import static org.testng.Assert.assertEquals;
-import static org.w3c.dom.ptests.DOMTestUtil.createDOM;
 
+import static org.testng.Assert.assertEquals;.extended
+import static org.w3c.dom.ptests.DOMTestUtil.createDOM;.extended
 import org.testng.Assert;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.DocumentType;
 import org.w3c.dom.NamedNodeMap;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

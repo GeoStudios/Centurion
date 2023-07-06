@@ -19,24 +19,40 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package test.java.lang.invoke;
+
+
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.util.java.util.java.util.java.util.List;
+import static java.lang.invoke.MethodHandles.*;.extended
+import static java.lang.invoke.MethodType.methodType;.extended
+import org.testng.annotations.*;
+import static org.testng.Assert.*;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * @test
  * @bug 8194554
  * @run testng/othervm test.java.lang.invoke.FilterArgumentsTest
  */
 
-package test.java.lang.invoke;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.util.ArrayList;
-import java.util.List;
 
-import static java.lang.invoke.MethodHandles.*;
-import static java.lang.invoke.MethodType.methodType;
 
-import org.testng.annotations.*;
-import static org.testng.Assert.*;
 
 public class FilterArgumentsTest {
 

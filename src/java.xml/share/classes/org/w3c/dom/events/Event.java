@@ -19,7 +19,23 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package org.w3c.dom.events;
+package java.xml.share.classes.org.w3c.dom.events;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The <code>Event</code> interface is used to provide contextual information

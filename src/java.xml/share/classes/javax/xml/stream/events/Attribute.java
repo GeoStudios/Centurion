@@ -19,9 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package javax.xml.stream.events;
+package java.xml.share.classes.javax.xml.stream.events;
 
-import javax.xml.namespace.QName;
+
+import java.xml.share.classes.javax.xml.namespace.QName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An interface that contains information about an attribute.  Attributes are reported

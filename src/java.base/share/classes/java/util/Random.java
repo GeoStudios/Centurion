@@ -19,19 +19,32 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package java.util;
+package java.base.share.classes.java.util;
 
-import java.io.*;
-import java.util.concurrent.atomic.AtomicLong;
-import java.util.random.RandomGenerator;
-import java.util.stream.DoubleStream;
-import java.util.stream.IntStream;
-import java.util.stream.LongStream;
+
+import java.base.share.classes.java.io.*;
+import java.base.share.classes.java.util.concurrent.atomic.AtomicLong;
+import java.base.share.classes.java.util.random.RandomGenerator;
+import java.base.share.classes.java.util.stream.DoubleStream;
+import java.base.share.classes.java.util.stream.IntStream;
+import java.base.share.classes.java.util.stream.LongStream;
 import jdk.internal.util.random.RandomSupport.*;
-
-import static jdk.internal.util.random.RandomSupport.*;
-
+import static jdk.internal.util.random.RandomSupport.*;.extended
 import jdk.internal.misc.Unsafe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * An instance of this class is used to generate a stream of

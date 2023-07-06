@@ -21,15 +21,14 @@
 
 package jdk.test.lib.compiler;
 
+
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
-
 import java.net.URI;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
 import javax.tools.ForwardingJavaFileManager;
 import javax.tools.FileObject;
 import javax.tools.JavaCompiler;
@@ -39,6 +38,19 @@ import javax.tools.JavaFileObject.Kind;
 import javax.tools.SimpleJavaFileObject;
 import javax.tools.StandardLocation;
 import javax.tools.ToolProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * {@code InMemoryJavaCompiler} can be used for compiling a {@link

@@ -19,13 +19,29 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package demo.share.jfc.SwingSet2;
+
+
 import javax.swing.*;
 import javax.swing.text.*;
 import javax.swing.border.*;
-
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * The LayoutControlPanel contains controls for setting an

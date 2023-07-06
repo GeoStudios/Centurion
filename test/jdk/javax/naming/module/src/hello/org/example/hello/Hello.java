@@ -21,8 +21,22 @@
 
 package org.example.hello;
 
+
 import java.rmi.Remote;
 import java.rmi.RemoteException;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
   * This interface is used by the StoreRemote test.

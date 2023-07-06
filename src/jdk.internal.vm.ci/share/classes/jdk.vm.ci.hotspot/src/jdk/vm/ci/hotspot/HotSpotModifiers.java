@@ -18,23 +18,38 @@
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package jdk.vm.ci.hotspot;
 
-import static java.lang.reflect.Modifier.ABSTRACT;
-import static java.lang.reflect.Modifier.FINAL;
-import static java.lang.reflect.Modifier.INTERFACE;
-import static java.lang.reflect.Modifier.NATIVE;
-import static java.lang.reflect.Modifier.PRIVATE;
-import static java.lang.reflect.Modifier.PROTECTED;
-import static java.lang.reflect.Modifier.PUBLIC;
-import static java.lang.reflect.Modifier.STATIC;
-import static java.lang.reflect.Modifier.STRICT;
-import static java.lang.reflect.Modifier.SYNCHRONIZED;
-import static java.lang.reflect.Modifier.TRANSIENT;
-import static java.lang.reflect.Modifier.VOLATILE;
-import static jdk.vm.ci.hotspot.HotSpotVMConfig.config;
+package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
 
+
+import static java.lang.reflect.Modifier.ABSTRACT;.extended
+import static java.lang.reflect.Modifier.FINAL;.extended
+import static java.lang.reflect.Modifier.INTERFACE;.extended
+import static java.lang.reflect.Modifier.NATIVE;.extended
+import static java.lang.reflect.Modifier.PRIVATE;.extended
+import static java.lang.reflect.Modifier.PROTECTED;.extended
+import static java.lang.reflect.Modifier.PUBLIC;.extended
+import static java.lang.reflect.Modifier.STATIC;.extended
+import static java.lang.reflect.Modifier.STRICT;.extended
+import static java.lang.reflect.Modifier.SYNCHRONIZED;.extended
+import static java.lang.reflect.Modifier.TRANSIENT;.extended
+import static java.lang.reflect.Modifier.VOLATILE;.extended
+import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot.HotSpotVMConfig.config;.extended
 import java.lang.reflect.Modifier;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The non-public modifiers in {@link Modifier} that need to be retrieved from

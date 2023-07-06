@@ -19,20 +19,34 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.tools.jmap;
+package jdk.jcmd.share.classes.sun.tools.jmap;
+
 
 import java.io.File;
-import java.io.IOException;
+import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
 import java.util.Collection;
-
 import com.sun.tools.attach.VirtualMachine;
 import com.sun.tools.attach.VirtualMachineDescriptor;
 import com.sun.tools.attach.AttachNotSupportedException;
-import sun.tools.attach.HotSpotVirtualMachine;
-import sun.tools.common.ProcessArgumentMatcher;
+import jdk.jcmd.share.classes.sun.tools.attach.HotSpotVirtualMachine;
+import jdk.jcmd.share.classes.sun.tools.common.ProcessArgumentMatcher;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * This class is the main class for the JMap utility. It parses its arguments

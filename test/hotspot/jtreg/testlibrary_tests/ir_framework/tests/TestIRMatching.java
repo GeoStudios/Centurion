@@ -21,17 +21,30 @@
 
 package ir_framework.tests;
 
+
 import compiler.lib.ir_framework.*;
 import compiler.lib.ir_framework.driver.IRViolationException;
 import jdk.test.lib.Asserts;
-
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.Arrayjava.util.java.util.java.util.List;
+import java.base.share.classes.java.util.Arrays;
+import java.util.java.util.java.util.java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test

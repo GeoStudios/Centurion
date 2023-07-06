@@ -19,18 +19,36 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms;
+
+
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.XMLSignature;
+import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.JavaUtils;
+import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-package com.sun.org.apache.xml.internal.security.algorithms;
 
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
 
-import com.sun.org.apache.xml.internal.security.signature.XMLSignature;
-import com.sun.org.apache.xml.internal.security.utils.JavaUtils;
-import org.w3c.dom.Element;
+
 
 
 /**

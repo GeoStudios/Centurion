@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package gc.gctests.MTsyncGC;
+
+
+import nsk.share.TestFailure;
+import java.util.Vector;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * @test
@@ -38,10 +56,7 @@
  * @run main/othervm gc.gctests.MTsyncGC.MTsyncGC
  */
 
-package gc.gctests.MTsyncGC;
 
-import nsk.share.TestFailure;
-import java.util.Vector;
 
 
 

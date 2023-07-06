@@ -19,6 +19,24 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package utils;
+
+
+import common.ToolResults;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Results of running the JstatGcTool ("jstat -gcnew <pid>")
  *
@@ -39,9 +57,7 @@
  * YGC     Number of young generation GC events.
  * YGCT   Young generation garbage collection time.
  */
-package utils;
 
-import common.ToolResults;
 
 public class JstatGcNewResults extends JstatResults {
 

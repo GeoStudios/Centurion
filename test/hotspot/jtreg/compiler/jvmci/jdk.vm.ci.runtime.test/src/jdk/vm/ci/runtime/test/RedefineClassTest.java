@@ -19,6 +19,42 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+package jdk.vm.ci.runtime.test;
+
+
+import jdk.vm.ci.meta.ResolvedJavaMethod;
+import org.junit.Assert;
+import org.junit.Test;
+import java.io.FileOutputStream;
+import java.io.java.io.java.io.java.io.IOException;
+import java.io.InputStream;
+import java.lang.instrument.ClassFileTransformer;
+import java.lang.instrument.IllegalClassFormatException;
+import java.lang.instrument.Instrumentation;
+import java.lang.reflect.Method;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.security.ProtectionDomain;
+import java.base.share.classes.java.util.Arrays;
+import java.util.jar.Attributes;
+import java.util.jar.JarEntry;
+import java.util.jar.JarOutputStream;
+import java.util.jar.Manifest;
+import static org.junit.Assume.assumeTrue;.extended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * @test
  * @requires vm.jvmci
@@ -31,29 +67,9 @@
  * @run junit/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler -Djdk.attach.allowAttachSelf jdk.vm.ci.runtime.test.RedefineClassTest
  */
 
-package jdk.vm.ci.runtime.test;
 
-import jdk.vm.ci.meta.ResolvedJavaMethod;
-import org.junit.Assert;
-import org.junit.Test;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.lang.instrument.ClassFileTransformer;
-import java.lang.instrument.IllegalClassFormatException;
-import java.lang.instrument.Instrumentation;
-import java.lang.reflect.Method;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.security.ProtectionDomain;
-import java.util.Arrays;
-import java.util.jar.Attributes;
-import java.util.jar.JarEntry;
-import java.util.jar.JarOutputStream;
-import java.util.jar.Manifest;
 
-import static org.junit.Assume.assumeTrue;
 
 /**
  * Tests that {@link ResolvedJavaMethod}s are safe in the context of class redefinition being used

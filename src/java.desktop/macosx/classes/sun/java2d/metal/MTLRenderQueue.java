@@ -19,17 +19,30 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-package sun.java2d.metal;
+package java.desktop.macosx.classes.sun.java2d.metal;
 
-import sun.awt.util.ThreadGroupUtils;
-import sun.java2d.pipe.RenderBuffer;
-import sun.java2d.pipe.RenderQueue;
 
+import java.desktop.macosx.classes.sun.awt.util.ThreadGroupUtils;
+import java.desktop.macosx.classes.sun.java2d.pipe.RenderBuffer;
+import java.desktop.macosx.classes.sun.java2d.pipe.RenderQueue;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
+import static java.desktop.macosx.classes.sun.java2d.pipe.BufferedOpCodes.DISPOSE_CONFIG;.extended
+import static java.desktop.macosx.classes.sun.java2d.pipe.BufferedOpCodes.SYNC;.extended
 
-import static sun.java2d.pipe.BufferedOpCodes.DISPOSE_CONFIG;
-import static sun.java2d.pipe.BufferedOpCodes.SYNC;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * MTL-specific implementation of RenderQueue.  This class provides a

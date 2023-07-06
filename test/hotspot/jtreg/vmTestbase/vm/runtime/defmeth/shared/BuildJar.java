@@ -21,16 +21,29 @@
 
 package vm.runtime.defmeth.shared;
 
+
 import jdk.test.lib.JDKToolLauncher;
 import jdk.test.lib.Utils;
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.util.JarUtils;
-
 import java.io.File;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Arrays;
+import java.base.share.classes.java.util.Arrays;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Build {@code retransform.jar} in current directory using
