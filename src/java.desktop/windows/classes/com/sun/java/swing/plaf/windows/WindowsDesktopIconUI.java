@@ -21,27 +21,12 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-
 import java.desktop.windows.classes.com.sun.java.awt.BorderLayout;
 import java.desktop.windows.classes.com.sun.java.awt.Dimension;
 import javax.swing.JComponent;
 import javax.swing.UIManager;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicDesktopIconUI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Windows icon for a minimized window on the desktop.

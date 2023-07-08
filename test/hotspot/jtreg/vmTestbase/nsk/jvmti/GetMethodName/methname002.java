@@ -21,21 +21,7 @@
 
 package nsk.jvmti.GetMethodName;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class methname002 {
 

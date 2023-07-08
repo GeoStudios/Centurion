@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import javax.lang.model.element.Element;
@@ -42,20 +41,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.MemberWrit
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Resources;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.taglets.DeprecatedTaglet;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The base class for member writers.

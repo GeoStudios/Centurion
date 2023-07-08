@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.*;
 import java.awt.image.*;
 import java.text.AttributedCharacterIterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Graphics subclass supporting graphics debugging. Overrides most methods
@@ -140,7 +125,6 @@ public class DebugGraphics extends Graphics {
 
         return debugGraphics;
     }
-
 
     //------------------------------------------------
     //  NEW METHODS
@@ -253,7 +237,6 @@ public class DebugGraphics extends Graphics {
     public Color getColor() {
         return graphics.getColor();
     }
-
 
     //-----------------------------------------------
     // OVERRIDDEN METHODS
@@ -1309,7 +1292,6 @@ public class DebugGraphics extends Graphics {
     static void loadImage(Image img) {
         imageLoadingIcon.loadImage(img);
     }
-
 
     /**
      * Overrides <code>Graphics.copyArea</code>.

@@ -21,22 +21,8 @@
 
 package nsk.jvmti.PopFrame;
 
-
 import nsk.share.Wicket;
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is auxiliary tested class

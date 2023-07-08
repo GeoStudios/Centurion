@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.*;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides a javax.swing.DefaultFocusManager view onto an arbitrary

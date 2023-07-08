@@ -21,23 +21,9 @@
 
 package nsk.jdi.ReferenceType.equals;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debugee application for the equals001 JDI test.
@@ -47,7 +33,6 @@ public class equals001a {
 
     static boolean verbose_mode = false;  // debugger may switch to true
                                           // - for more easy failure evaluation
-
 
     boolean z0, z1[]={z0}, z2[][]={z1};
     byte    b0, b1[]={b0}, b2[][]={b1};

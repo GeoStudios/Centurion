@@ -21,7 +21,6 @@
 
 package jdk.jshell.share.classes.jdk.jshell;
 
-
 import com.sun.source.tree.ClassTree;
 import com.sun.source.tree.CompilationUnitTree;
 import com.sun.source.tree.MethodTree;
@@ -44,20 +43,6 @@ import java.util.stream.Stream;
 import javax.lang.model.type.TypeMirror;
 import jdk.jshell.share.classes.jdk.jshell.TypePrinter.AnonymousTypeKind;
 import jdk.jshell.share.classes.jdk.jshell.Util.Pair;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utilities for analyzing compiler API parse trees.

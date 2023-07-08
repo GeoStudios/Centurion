@@ -21,26 +21,11 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.*;
 import java.net.*;
 import java.nio.channels.java.net.SocketChannel;
 import java.util.Set;
 import javax.net.ssl.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Abstract base class for SSLSocketImpl.

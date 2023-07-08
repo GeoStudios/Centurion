@@ -21,7 +21,6 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi;
 
-
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.Addressable;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryAddress;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryLayouts;
@@ -50,20 +49,6 @@ import static java.lang.invoke.MethodHandles.identity;.extended
 import static java.lang.invoke.MethodHandles.insertArguments;.extended
 import static java.lang.invoke.MethodType.methodType;.extended
 import static sun.security.action.GetBooleanAction.privilegedGetProperty;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements native call invocation through a so called 'universal adapter'. A universal adapter takes
@@ -208,7 +193,6 @@ public class ProgrammableInvoker {
                 .map(Binding.VMLoad.class::cast)
                 .toArray(Binding.VMLoad[]::new);
     }
-
 
     private VMStorageProxy[] toStorageArray(Binding.Move[] moves) {
         return Arrays.stream(moves).map(Binding.Move::storage).toArray(VMStorage[]::new);

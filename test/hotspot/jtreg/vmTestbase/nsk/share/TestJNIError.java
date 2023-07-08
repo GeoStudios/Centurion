@@ -21,21 +21,6 @@
 
 package nsk.share;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class TestJNIError
         extends Error
 {

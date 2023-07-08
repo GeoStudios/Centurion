@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xinclude;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io.ASCIIReader;
@@ -46,20 +45,6 @@ import java.net.URLConnection;
 import java.util.Iterator;
 import java.base.share.classes.java.util.Locale;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used for reading resources requested in &lt;include&gt; elements,

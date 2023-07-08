@@ -21,7 +21,6 @@
 
 package compiler.jvmci.compilerToVM;
 
-
 import compiler.jvmci.common.testcases.AbstractClass;
 import compiler.jvmci.common.testcases.AbstractClassExtender;
 import compiler.jvmci.common.testcases.DoNotExtendClass;
@@ -36,19 +35,6 @@ import jdk.vm.ci.hotspot.HotSpotResolvedObjectType;
 import java.util.HashSet;
 import java.util.Set;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8136421
@@ -62,9 +48,6 @@ import java.util.Set;
  *                   -XX:-UseJVMCICompiler
  *                   compiler.jvmci.compilerToVM.GetClassInitializerTest
  */
-
-
-
 
 public class GetClassInitializerTest {
 

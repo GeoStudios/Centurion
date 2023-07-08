@@ -21,7 +21,6 @@
 
 package crules;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
@@ -42,19 +41,6 @@ import com.sun.tools.javac.util.Context;
 import com.sun.tools.javac.util.DefinedBy;
 import com.sun.tools.javac.util.DefinedBy.Api;
 import com.sun.tools.javac.util.Log;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This code must be run in a context that provides

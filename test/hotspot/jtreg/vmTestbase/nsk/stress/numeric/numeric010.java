@@ -21,23 +21,9 @@
 
 package nsk.stress.numeric.numeric010;
 
-
 import java.io.PrintStream;
 import java.util.Random;
 import jdk.test.lib.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -89,8 +75,6 @@ import jdk.test.lib.Utils;
  * @library /test/lib
  * @run main/othervm nsk.stress.numeric.numeric010.numeric010 200 200
  */
-
-
 
 /**
  * This test calculates the product <code>A<sup>.</sup>A</code> for a square
@@ -540,7 +524,6 @@ public class numeric010 {
             return value.length;
         }
 
-
         /**
          * New square matrix with the given integer elements.
          */
@@ -639,7 +622,6 @@ public class numeric010 {
             return value.length;
         }
 
-
         /**
          * New square matrix with the given integer elements.
          */
@@ -737,7 +719,6 @@ public class numeric010 {
         public int size() {
             return value.length;
         }
-
 
         /**
          * New square matrix with the given integer elements.

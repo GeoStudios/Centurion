@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.awt.Shape;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>NavigationFilter</code> can be used to restrict where the cursor can
@@ -127,7 +112,6 @@ public class NavigationFilter {
         return text.getUI().getNextVisualPositionFrom(text, pos, bias,
                                                       direction, biasRet);
     }
-
 
     /**
      * Used as a way to circumvent calling back into the caret to

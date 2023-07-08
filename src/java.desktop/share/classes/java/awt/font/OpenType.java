@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.awt.font;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The {@code OpenType} interface represents OpenType and
  * TrueType fonts.  This interface makes it possible to obtain
@@ -439,6 +423,5 @@ public interface OpenType {
    * @return the size of the table corresponding to the specified tag.
    */
   int getFontTableSize(String strSfntTag);
-
 
 }

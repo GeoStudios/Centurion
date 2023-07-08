@@ -21,7 +21,6 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap.pool;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List; // JDK 1.2.extended
 import java.util.java.util.java.util.java.util.List;
 import java.lang.ref.Reference;
@@ -29,20 +28,6 @@ import java.lang.ref.SoftReference;
 import javax.naming.NamingException;
 import javax.naming.InterruptedNamingException;
 import javax.naming.CommunicationException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents a list of PooledConnections (actually, ConnectionDescs) with the

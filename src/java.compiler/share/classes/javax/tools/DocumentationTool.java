@@ -21,25 +21,10 @@
 
 package java.compiler.share.classes.javax.tools;
 
-
 import java.io.Writer;
 import java.nio.charset.Charset;
 import java.base.share.classes.java.util.Locale;
 import java.util.concurrent.Callable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Interface to invoke Java programming language documentation tools from

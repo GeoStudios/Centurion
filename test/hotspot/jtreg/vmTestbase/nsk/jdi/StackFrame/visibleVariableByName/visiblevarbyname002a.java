@@ -21,23 +21,9 @@
 
 package nsk.jdi.StackFrame.visibleVariableByName;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the visiblevarbyname002 JDI test.
@@ -86,7 +72,6 @@ public class visiblevarbyname002a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
-
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
@@ -223,7 +208,6 @@ class Threadvisiblevarbyname002a extends Thread {
     public static final int breakpointLineNumber1 = 12;
     public static final int breakpointLineNumber2 = 2;
 //    public static final int breakpointLineNumber3 = 7;
-
 
     static void log(String str) {
         visiblevarbyname002a.log2("thread2: " + str);

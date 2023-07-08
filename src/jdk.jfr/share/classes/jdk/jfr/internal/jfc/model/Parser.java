@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.jfc.model;
 
-
 import java.io.FileReader;
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.charset.Charset;
@@ -36,20 +35,6 @@ import jdk.jfr.share.classes.jdk.internal.org.xml.sax.SAXException;
 import jdk.jfr.share.classes.jdk.internal.org.xml.sax.helpers.DefaultHandler;
 import jdk.jfr.share.classes.jdk.internal.util.xml.SAXParser;
 import jdk.jfr.share.classes.jdk.internal.util.xml.impl.SAXParserImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class Parser {
 

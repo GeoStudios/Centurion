@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.java.awt.image;
 
-
 import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  This class represents image data which is stored such that each sample
@@ -158,7 +143,6 @@ public class ComponentSampleModel extends SampleModel
         }
         verify();
     }
-
 
     /**
      * Constructs a ComponentSampleModel with the specified parameters.
@@ -455,7 +439,6 @@ public class ComponentSampleModel extends SampleModel
 
         return dataBuffer;
     }
-
 
     /** Gets the offset for the first band of pixel (x,y).
      *  A sample of the first band can be retrieved from a

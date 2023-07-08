@@ -21,25 +21,10 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
 
-
 import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.UNINITIALIZED_OBJECT;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.UNINITIALIZED_THIS;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** These pseudo-types appear in the generated verifier tables to
  *  indicate objects that have been allocated but not yet constructed.

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.text;
 
-
 import java.base.share.classes.java.io.InvalidObjectException;
 import java.base.share.classes.java.text.spi.DateFormatProvider;
 import java.base.share.classes.java.util.Calendar;
@@ -36,20 +35,6 @@ import java.base.share.classes.java.util.TimeZone;
 import java.base.share.classes.java.util.spi.LocaleServiceProvider;
 import sun.util.locale.provider.LocaleProviderAdapter;
 import sun.util.locale.provider.LocaleServiceProviderPool;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * {@code DateFormat} is an abstract class for date/time formatting subclasses which

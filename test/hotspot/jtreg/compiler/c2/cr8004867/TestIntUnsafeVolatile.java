@@ -21,22 +21,8 @@
 
 package compiler.c2.cr8004867;
 
-
 import jdk.internal.misc.Unsafe;
 import java.lang.reflect.Field;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -51,9 +37,6 @@ import java.lang.reflect.Field;
  *    -XX:+OptimizeFill
  *    compiler.c2.cr8004867.TestIntUnsafeVolatile
  */
-
-
-
 
 public class TestIntUnsafeVolatile {
   private static final int ARRLEN = 97;

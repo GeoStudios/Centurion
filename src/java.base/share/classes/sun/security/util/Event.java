@@ -21,22 +21,6 @@
 
 package java.base.share.classes.sun.security.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class implements an event model with services for reporter and listener.
  * Reporter uses report() method to generate an event.

@@ -21,7 +21,6 @@
 
 package demo.share.jfc.SwingSet2;
 
-
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.text.*;
@@ -39,20 +38,6 @@ import java.io.*;
 import java.applet.*;
 import java.net.*;
 import java.text.MessageFormat;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Table demo
@@ -129,7 +114,6 @@ public class TableDemo extends DemoModule {
         getDemoPanel().add(controlPanel, BorderLayout.NORTH);
         Vector<JComponent> relatedComponents = new Vector<>();
 
-
         // check box panel
         isColumnReorderingAllowedCheckBox = new JCheckBox(getString("TableDemo.reordering_allowed"), true);
         isColumnReorderingAllowedCheckBox.addActionListener(new ActionListener() {
@@ -194,14 +178,12 @@ public class TableDemo extends DemoModule {
         cbPanel.add(isColumnSelectionAllowedCheckBox);
         cbPanel.add(showVerticalLinesCheckBox);
 
-
         // label panel
         interCellSpacingLabel = new JLabel(getString("TableDemo.intercell_spacing_colon"));
         labelPanel.add(interCellSpacingLabel);
 
         rowHeightLabel = new JLabel(getString("TableDemo.row_height_colon"));
         labelPanel.add(rowHeightLabel);
-
 
         // slider panel
         interCellSpacingSlider = new JSlider(JSlider.HORIZONTAL, 0, 10, 1);
@@ -234,17 +216,14 @@ public class TableDemo extends DemoModule {
         relatedComponents.add(rowHeightSlider);
         buildAccessibleGroup(relatedComponents);
 
-
         // Create the table.
         tableAggregate = createTable();
         getDemoPanel().add(tableAggregate, BorderLayout.CENTER);
-
 
         // ComboBox for selection modes.
         JPanel selectMode = new JPanel();
         selectMode.setLayout(new BoxLayout(selectMode, BoxLayout.X_AXIS));
         selectMode.setBorder(new TitledBorder(getString("TableDemo.selection_mode")));
-
 
         selectionModeComboBox = new JComboBox<>() {
             public Dimension getMaximumSize() {
@@ -271,7 +250,6 @@ public class TableDemo extends DemoModule {
         JPanel resizeMode = new JPanel();
         resizeMode.setLayout(new BoxLayout(resizeMode, BoxLayout.X_AXIS));
         resizeMode.setBorder(new TitledBorder(getString("TableDemo.autoresize_mode")));
-
 
         resizeModeComboBox = new JComboBox<>() {
             public Dimension getMaximumSize() {
@@ -554,7 +532,6 @@ public class TableDemo extends DemoModule {
             public boolean isCellEditable(int row, int col) {return col != 5;}
             public void setValueAt(Object aValue, int row, int column) { data[row][column] = aValue; }
          };
-
 
         // Create the table
         tableView = new JTable(dataModel);

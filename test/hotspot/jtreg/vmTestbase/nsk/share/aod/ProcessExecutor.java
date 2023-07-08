@@ -21,23 +21,9 @@
 
 package nsk.share.aod;
 
-
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ProcessExecutor {
 
@@ -190,7 +176,6 @@ public class ProcessExecutor {
         processWaiter = new ProcessWaiterThread(startedProcess, outReader, errReader);
         processWaiter.start();
     }
-
 
     public void waitForProcess() throws InterruptedException {
         synchronized (processWaiter) {

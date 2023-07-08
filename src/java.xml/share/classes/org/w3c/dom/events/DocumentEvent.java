@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.org.w3c.dom.events;
 
-
 import java.xml.share.classes.org.w3c.dom.DOMException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  The <code>DocumentEvent</code> interface provides a mechanism by which the

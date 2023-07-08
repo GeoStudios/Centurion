@@ -21,23 +21,8 @@
 
 package java.base.share.classes.jdk.internal.access;
 
-
 import java.io.Console;
 import java.nio.charset.Charset;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public interface JavaIOAccess {
     Console console();

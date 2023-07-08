@@ -21,24 +21,10 @@
 
 package nsk.jdb.next.next001;
 
-
 import nsk.share.*;
 import nsk.share.jdb.*;
 import java.io.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -75,9 +61,6 @@ import java.util.*;
  *      -workdir=.
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
-
-
-
 
 public class next001 extends JdbTest {
 
@@ -137,7 +120,6 @@ public class next001 extends JdbTest {
             success = false;
         }
     }
-
 
     private boolean checkNext () {
         Paragrep grep;

@@ -21,7 +21,6 @@
 
 package java.datatransfer.share.classes.java.awt.datatransfer;
 
-
 import java.datatransfer.share.classes.java.io.ByteArrayOutputStream;
 import java.datatransfer.share.classes.java.io.Externalizable;
 import java.datatransfer.share.classes.java.io.java.io.java.io.java.io.IOException;
@@ -29,20 +28,6 @@ import java.datatransfer.share.classes.java.io.ObjectInput;
 import java.datatransfer.share.classes.java.io.ObjectOutput;
 import java.datatransfer.share.classes.java.io.Serial;
 import java.datatransfer.share.classes.java.util.Locale;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A Multipurpose Internet Mail Extension (MIME) type, as defined in RFC 2045

@@ -21,26 +21,11 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit;
 
-
 import java.util.*;
 import javax.lang.model.element.PackageElement;
 import javax.lang.model.element.TypeElement;
 import javax.lang.model.element.VariableElement;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFilejava.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The interface for writing constants summary output.

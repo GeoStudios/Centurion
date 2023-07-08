@@ -21,26 +21,11 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-
 import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
 import static java.base.share.classes.java.lang.invoke.LambdaForm.*;.extended
 import static java.base.share.classes.java.lang.invoke.LambdaForm.Kind.*;.extended
 import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants.*;.extended
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A method handle whose invocation behavior is determined by a target.

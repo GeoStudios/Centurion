@@ -21,7 +21,6 @@
 
 package compiler.codegen.aes;
 
-
 import java.io.PrintStream;
 import java.base.share.classes.java.security.*;
 import java.util.Random;
@@ -34,19 +33,6 @@ import compiler.whitebox.CompilerWhiteBoxTest;
 import sun.hotspot.code.Compiler;
 import jdk.test.lib.Utils;
 import jtreg.SkippedException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -61,9 +47,6 @@ import jtreg.SkippedException;
  *     -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI -Xbootclasspath/a:.
  *      compiler.codegen.aes.TestCipherBlockChainingEncrypt
  */
-
-
-
 
 public class TestCipherBlockChainingEncrypt {
     private static String algorithm = "PBEWithHmacSHA1AndAES_256";

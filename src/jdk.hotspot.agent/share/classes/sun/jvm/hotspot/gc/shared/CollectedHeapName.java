@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Mimics the enums in the VM under CollectedHeap::Name */
 
 public class CollectedHeapName {

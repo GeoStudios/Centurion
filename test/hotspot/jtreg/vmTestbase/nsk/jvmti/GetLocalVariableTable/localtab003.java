@@ -21,21 +21,7 @@
 
 package nsk.jvmti.GetLocalVariableTable;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class localtab003 {
 

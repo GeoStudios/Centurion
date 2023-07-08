@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.awt.event.ActionEvent;
 import java.util.*;
 import javax.swing.*;
@@ -30,20 +29,6 @@ import javax.swing.text.*;
 import javax.swing.text.DefaultEditorKit.DefaultKeyTypedAction;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingletonFromDefaultConstructor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AquaKeyBindings {
     private static final RecyclableSingleton<AquaKeyBindings> instance = new RecyclableSingletonFromDefaultConstructor<AquaKeyBindings>(AquaKeyBindings.class);

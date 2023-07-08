@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.sun.font;
 
-
 import java.awt.geom.GeneralPath;
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class NullFontScaler extends FontScaler {
     NullFontScaler() {}

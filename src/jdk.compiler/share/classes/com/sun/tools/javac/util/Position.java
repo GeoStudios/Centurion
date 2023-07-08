@@ -21,24 +21,9 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
-
 import java.util.BitSet;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
 import static jdk.compiler.share.classes.com.sun.tools.javac.util.LayoutCharacters.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** A class that defines source code positions as simple character
  *  offsets from the beginning of the file. The first character

@@ -21,21 +21,7 @@
 
 package nsk.jvmti.AttachOnDemand.attach046;
 
-
 import nsk.share.aod.TargetApplicationWaitingAgents;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class attach046Target extends TargetApplicationWaitingAgents {
 

@@ -21,26 +21,11 @@
 
 package java.prefs.windows.classes.java.util.prefs;
 
-
 import java.prefs.windows.classes.java.util.StringTokenizer;
 import java.prefs.windows.classes.java.io.ByteArrayOutputStream;
 import java.prefs.windows.classes.java.security.AccessController;
 import java.prefs.windows.classes.java.security.PrivilegedAction;
 import sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Windows registry based implementation of  {@code Preferences}.
@@ -869,7 +854,6 @@ class WindowsPreferences extends AbstractPreferences {
         }
         closeKey(nativeHandle);
     }
-
 
     /**
      * Implements {@code Preferences} {@code sync()} method.

@@ -21,21 +21,7 @@
 
 package nsk.jvmti.SetFieldAccessWatch;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class setfldw002 {
 
@@ -51,7 +37,6 @@ public class setfldw002 {
             throw ule;
         }
     }
-
 
     native static int check();
 

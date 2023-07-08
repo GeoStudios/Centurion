@@ -21,29 +21,13 @@
 
 package Serialize;
 
-
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @bug 4093279
  * REMOVED test, build and run tag since could not get this to work.
  * Test is run via shell script, run.sh.
  */
-
-
 
 class PublicSerializable
 extends NonSerializable.PublicCtor implements Serializable
@@ -96,7 +80,6 @@ extends Serialize.SamePackageProtectedCtor implements Serializable
     SamePackageProtectedSerializable() {
     }
 };
-
 
 class SamePackagePrivateCtor {
     private static final long serialVersionUID = 1L;
@@ -186,7 +169,6 @@ class ExternalizablePrivateCtor implements Externalizable {
         }
 };
 
-
 public class SubclassAcrossPackage {
     public static void main(String args[])
         throws IOException, ClassNotFoundException
@@ -244,7 +226,6 @@ public class SubclassAcrossPackage {
             baos.reset();
             out = new ObjectOutputStream(baos);
             out.writeObject(new ExternalizableProtectedCtor());
-
 
             in = new ObjectInputStream(new ByteArrayInputStream(baos.toByteArray()));
             try {

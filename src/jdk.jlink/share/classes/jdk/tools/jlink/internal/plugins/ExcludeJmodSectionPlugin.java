@@ -21,27 +21,12 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins;
 
-
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePool;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolBuilder;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry.Type;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

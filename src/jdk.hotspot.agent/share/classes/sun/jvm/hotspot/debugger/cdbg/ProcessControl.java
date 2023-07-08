@@ -21,22 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** <P> A highly experimental interface for process control and debug
     events. May not be sufficiently portable; for this reason it has

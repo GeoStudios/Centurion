@@ -21,23 +21,9 @@
 
 package pkg.subpkg;
 
-
 import pkg.A;
 import java.lang.invoke.MethodHandles;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class B_extends_A extends A {
     public static MethodHandles.Lookup lookup() {

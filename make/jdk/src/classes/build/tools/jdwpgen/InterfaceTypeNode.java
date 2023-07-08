@@ -21,56 +21,6 @@
 
 package build.tools.jdwpgen;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class InterfaceTypeNode extends ReferenceTypeNode {
 
     String docType() {

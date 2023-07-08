@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * DALOAD - Load double from array
@@ -55,7 +38,6 @@ public class DALOAD extends ArrayInstruction implements StackProducer {
     public DALOAD() {
         super(com.sun.org.apache.bcel.internal.Const.DALOAD);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

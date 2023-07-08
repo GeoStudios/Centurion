@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.security.GeneralSecurityException;
@@ -36,20 +35,6 @@ import java.base.share.classes.sun.security.internal.spec.TlsKeyMaterialParamete
 import java.base.share.classes.sun.security.internal.spec.TlsKeyMaterialSpec;
 import java.base.share.classes.sun.security.ssl.CipherSuite.HashAlg;
 import static java.base.share.classes.sun.security.ssl.CipherSuite.HashAlg.H_NONE;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 enum SSLTrafficKeyDerivation implements SSLKeyDerivationGenerator {
     SSL30       ("kdf_ssl30", new S30TrafficKeyDerivationGenerator()),

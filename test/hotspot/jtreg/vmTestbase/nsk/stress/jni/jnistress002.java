@@ -21,26 +21,12 @@
 
 package nsk.stress.jni;
 
-
 import nsk.share.Consts;
 import nsk.share.Debug;
 import nsk.share.test.StressOptions;
 import jdk.test.lib.Utils;
 import java.lang.reflect.Field;
 import java.util.Random;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * jnistress002 is a class that sets up classes that do the work
@@ -75,9 +61,6 @@ import java.util.Random;
  *      -garbageInterval 5
  *      -numIteration 260
  */
-
-
-
 
 public class jnistress002 extends Thread {
 

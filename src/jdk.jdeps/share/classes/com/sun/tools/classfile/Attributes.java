@@ -21,26 +21,11 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.classfile;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  *  <p><b>This is NOT part of any supported API.

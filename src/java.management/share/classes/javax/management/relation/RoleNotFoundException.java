@@ -21,22 +21,6 @@
 
 package java.management.share.classes.javax.management.relation;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This exception is raised when a role in a relation does not exist, or is not
  * readable, or is not settable.

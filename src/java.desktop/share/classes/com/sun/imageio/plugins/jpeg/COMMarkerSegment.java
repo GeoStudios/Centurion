@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.jpeg;
 
-
 import javax.imageio.metadata.IIOMetadataNode;
 import javax.imageio.stream.ImageOutputStream;
 import javax.imageio.metadata.IIOInvalidTreeException;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import org.w3c.dom.Node;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A Comment marker segment.  Retains an array of bytes representing the

@@ -21,7 +21,6 @@
 
 package gc.g1;
 
-
 import java.lang.Math;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
@@ -29,19 +28,6 @@ import jdk.test.lib.Asserts;
 import jdk.test.lib.Platform;
 import jtreg.SkippedException;
 import sun.hotspot.WhiteBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestLargePageUseForAuxMemory.java
@@ -55,7 +41,6 @@ import sun.hotspot.WhiteBox;
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run main/othervm -Xbootclasspath/a:. -XX:+UseG1GC -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI -XX:+IgnoreUnrecognizedVMOptions -XX:+UseLargePages gc.g1.TestLargePageUseForAuxMemory
  */
-
 
 public class TestLargePageUseForAuxMemory {
     static final long HEAP_REGION_SIZE = 1 * 1024 * 1024;

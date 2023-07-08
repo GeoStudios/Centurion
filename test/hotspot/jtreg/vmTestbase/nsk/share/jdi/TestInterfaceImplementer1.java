@@ -21,21 +21,6 @@
 
 package nsk.share.jdi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 interface Interface1 {
 
 }

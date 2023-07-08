@@ -21,7 +21,6 @@
 
 package nsk.jdi.ReferenceType.nestedTypes;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -181,7 +167,6 @@ public class nestedtypes001 extends JDIBase {
         return testExitCode;
     }
 
-
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -266,7 +251,6 @@ public class nestedtypes001 extends JDIBase {
 
             //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ variable part
 
-
            String names1[] = {
 
                       ".nestedtypes001aTestClass$NestedClass",
@@ -274,7 +258,6 @@ public class nestedtypes001 extends JDIBase {
 
                       ".nestedtypes001aTestClass$NestedIface",
                       ".nestedtypes001aTestClass$NestedIface[]",
-
 
                       ".nestedtypes001aTestClass$StaticNestedClass",
                       ".nestedtypes001aTestClass$StaticNestedClass[]"
@@ -302,7 +285,6 @@ public class nestedtypes001 extends JDIBase {
                 testExitCode = FAILED;
                 continue;
             }
-
 
             log2("----- Cases for testing: ReferenceTypes");
             for (int i1 = 0; i1 < names1.length; i1++) {

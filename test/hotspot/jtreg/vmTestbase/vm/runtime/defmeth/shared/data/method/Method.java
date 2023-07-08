@@ -21,22 +21,8 @@
 
 package vm.runtime.defmeth.shared.data.method;
 
-
 import vm.runtime.defmeth.shared.data.Visitor;
 import vm.runtime.defmeth.shared.data.Element;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Represents a method w/o a link to any class.

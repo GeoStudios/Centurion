@@ -21,22 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.proc;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class ProcOopHandle extends ProcAddress implements OopHandle {
   ProcOopHandle(ProcDebugger debugger, long addr) {

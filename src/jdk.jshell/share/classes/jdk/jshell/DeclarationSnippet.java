@@ -21,23 +21,8 @@
 
 package jdk.jshell.share.classes.jdk.jshell;
 
-
 import java.util.Collection;
 import jdk.jshell.share.classes.jdk.jshell.Key.DeclarationKey;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Grouping for all declaration Snippets: variable declarations

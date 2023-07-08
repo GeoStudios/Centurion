@@ -21,23 +21,7 @@
 
 package nsk.jdi.ReferenceType.fieldByName;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // this class will be loaded and then onloaded to check
 // the fieldByName(...) method of ReferenceType interface for UNLOADED class
-
 
 class fieldbyname003b {}

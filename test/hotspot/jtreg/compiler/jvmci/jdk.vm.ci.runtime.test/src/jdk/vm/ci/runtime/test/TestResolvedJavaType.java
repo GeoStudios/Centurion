@@ -21,7 +21,6 @@
 
 package jdk.vm.ci.runtime.test;
 
-
 import static java.lang.reflect.Modifier.isAbstract;.extended
 import static java.lang.reflect.Modifier.isFinal;.extended
 import static java.lang.reflect.Modifier.isPrivate;.extended
@@ -63,19 +62,6 @@ import jdk.vm.ci.meta.ResolvedJavaField;
 import jdk.vm.ci.meta.ResolvedJavaMethod;
 import jdk.vm.ci.meta.ResolvedJavaType;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @requires vm.jvmci
@@ -88,11 +74,6 @@ import jdk.vm.ci.meta.ResolvedJavaType;
  *          java.base/jdk.internal.misc
  * @run junit/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler jdk.vm.ci.runtime.test.TestResolvedJavaType
  */
-
-
-
-
-
 
 /**
  * Tests for {@link ResolvedJavaType}.

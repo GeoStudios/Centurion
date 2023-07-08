@@ -21,23 +21,8 @@
 
 package java.base.share.classes.sun.security.pkcs;
 
-
 import java.io.*;
 import java.base.share.classes.sun.security.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A ContentInfo type, as defined in PKCS#7.

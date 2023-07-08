@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.lang;
 
-
 import java.base.share.classes.java.io.*;
 import java.base.share.classes.java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code Throwable} class is the superclass of all errors and
@@ -138,7 +123,6 @@ public class Throwable implements Serializable {
      * @serial
      */
     private String detailMessage;
-
 
     /**
      * Holder class to defer initializing sentinel objects only used

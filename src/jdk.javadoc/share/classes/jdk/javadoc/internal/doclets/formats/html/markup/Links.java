@@ -21,24 +21,9 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup;
 
-
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocLink;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPath;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Factory for HTML A elements: links (with a {@code href} attribute).

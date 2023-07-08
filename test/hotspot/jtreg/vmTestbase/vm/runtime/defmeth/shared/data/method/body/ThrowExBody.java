@@ -21,22 +21,8 @@
 
 package vm.runtime.defmeth.shared.data.method.body;
 
-
 import vm.runtime.defmeth.shared.data.Clazz;
 import vm.runtime.defmeth.shared.data.Visitor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents method body which throws new exception of type {@code excClass}.

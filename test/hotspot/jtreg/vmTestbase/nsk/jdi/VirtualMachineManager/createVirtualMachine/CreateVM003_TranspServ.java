@@ -21,26 +21,12 @@
 
 package nsk.jdi.VirtualMachineManager.createVirtualMachine;
 
-
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import com.sun.jdi.connect.spi.*;
 import java.net.*;
 import java.io.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * A transport service implementation based on a TCP connection used by
@@ -143,7 +129,6 @@ public class CreateVM003_TranspServ extends TransportService {
         return new CreateVM003_TranspServCapabilities();
     }
 
-
     /**
      * Attach to the specified address with optional attach and handshake
      * timeout.
@@ -176,7 +161,6 @@ public class CreateVM003_TranspServ extends TransportService {
             throw new IllegalArgumentException(
                 "##> CreateVM003_TranspServ: attach() - unable to parse port number in address");
         }
-
 
         // open TCP connection to VM
 

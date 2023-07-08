@@ -21,21 +21,6 @@
 
 package nsk.monitoring.share;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Marker interface that signifies that MonitoringFactory is needed.
  *

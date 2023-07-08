@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.awt.im;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Defines additional Unicode subsets for use by input methods.  Unlike the
  * UnicodeBlock subsets defined in the {@link

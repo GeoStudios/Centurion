@@ -21,56 +21,6 @@
 
 package build.tools.generatecharacter;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The UnicodeSpec class provides a way to read in Unicode character
  * properties from a Unicode data file.  One instance of class UnicodeSpec
@@ -144,7 +94,6 @@ public class UnicodeSpec {
                 return "000000".substring(Math.min(6, str.length())) + str;
 
         }
-
 
     /**
     * Given one line of a Unicode data file as a String, parse the line
@@ -233,7 +182,6 @@ public class UnicodeSpec {
         return category;
     }
 
-
     /**
     * Parse the combining attribute for a Unicode character.  If there is a combining
     * attribute and the parse succeeds, then the hasCombining field is set to true,
@@ -270,7 +218,6 @@ public class UnicodeSpec {
         if (s==null) throw new Exception("Cannot parse decomposition.");
         return s;
     }
-
 
     /**
     * Parse the decimal value attribute for a Unicode character.  If there is a decimal value

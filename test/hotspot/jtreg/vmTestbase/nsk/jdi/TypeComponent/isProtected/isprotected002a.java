@@ -21,23 +21,9 @@
 
 package nsk.jdi.TypeComponent.isProtected;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class isprotected002a {
 

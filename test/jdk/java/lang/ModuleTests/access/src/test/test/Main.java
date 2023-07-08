@@ -21,24 +21,10 @@
 
 package test;
 
-
 import java.lang.reflect.AccessibleObject;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Test access to public/non-public members of public/non-public classes in
@@ -312,7 +298,6 @@ public class Main {
         trySetAccessible(f1, true);
         trySetAccessible(f2, true);
     }
-
 
     static Module getTargetModule() {
         return ModuleLayer.boot().findModule("target").get();

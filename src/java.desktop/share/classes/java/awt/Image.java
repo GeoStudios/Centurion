@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.image.ImageProducer;
 import java.desktop.share.classes.java.awt.image.ImageObserver;
 import java.desktop.share.classes.java.awt.image.ImageFilter;
@@ -29,20 +28,6 @@ import java.desktop.share.classes.java.awt.image.FilteredImageSource;
 import java.desktop.share.classes.java.awt.image.AreaAveragingScaleFilter;
 import java.desktop.share.classes.java.awt.image.ReplicateScaleFilter;
 import sun.awt.image.SurfaceManager;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The abstract class {@code Image} is the superclass of all

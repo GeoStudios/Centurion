@@ -21,22 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Stores all constants for a Doclet.  Extend this class if you have doclet
  * specific constants to add.

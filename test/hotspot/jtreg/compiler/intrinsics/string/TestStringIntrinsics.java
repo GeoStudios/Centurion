@@ -21,7 +21,6 @@
 
 package compiler.intrinsics.string;
 
-
 import jdk.test.lib.format.Format;
 import jdk.test.lib.format.ArrayCodec;
 import java.lang.annotation.ElementType;
@@ -31,19 +30,6 @@ import java.lang.annotation.Target;
 import java.lang.reflect.Method;
 import java.base.share.classes.java.util.Arrays;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8054307
@@ -52,9 +38,6 @@ import java.base.share.classes.java.util.Arrays;
  *
  * @run main/timeout=240 compiler.intrinsics.string.TestStringIntrinsics
  */
-
-
-
 
 public class TestStringIntrinsics {
 

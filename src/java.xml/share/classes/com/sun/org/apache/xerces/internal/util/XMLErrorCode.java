@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * <p>A structure that represents an error code, characterized by

@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface Characteristics {
   /** Image only, Windows CE, Windows NT and above. Indicates that the
       file does not contain base relocations and must therefore be

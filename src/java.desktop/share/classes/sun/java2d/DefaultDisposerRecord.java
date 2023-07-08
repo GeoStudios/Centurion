@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class is the default DisposerRecord implementation which
  * holds pointers to the native disposal method and the data to be disposed.

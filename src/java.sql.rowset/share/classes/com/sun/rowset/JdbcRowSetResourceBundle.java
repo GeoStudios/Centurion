@@ -21,23 +21,8 @@
 
 package java.sql.rowset.share.classes.com.sun.rowset;
 
-
 import java.io.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used to help in localization of resources,
@@ -149,7 +134,6 @@ public class JdbcRowSetResourceBundle implements Serializable {
     public Enumeration getKeys() {
        return propResBundle.getKeys();
     }
-
 
     /**
      * This method takes the key as an argument and

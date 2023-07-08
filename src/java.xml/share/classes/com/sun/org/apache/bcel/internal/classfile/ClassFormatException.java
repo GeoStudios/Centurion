@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * Thrown when the BCEL attempts to read a class file and determines
@@ -56,7 +39,6 @@ public class ClassFormatException extends RuntimeException {
     public ClassFormatException() {
         super();
     }
-
 
     public ClassFormatException(final String s) {
         super(s);

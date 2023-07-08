@@ -21,26 +21,12 @@
 
 package gc.gctests.LoadUnloadGC2;
 
-
 import nsk.share.*;
 import nsk.share.test.*;
 import nsk.share.gc.*;
 import nsk.share.gc.gp.*;
 import nsk.share.gc.gp.classload.*;
 import java.lang.reflect.Array;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -53,8 +39,6 @@ import java.lang.reflect.Array;
  *          /test/lib
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.LoadUnloadGC2.LoadUnloadGC2
  */
-
-
 
 public class LoadUnloadGC2 extends GCTestBase {
         public void run() {

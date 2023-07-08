@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.awt.*;
 import java.beans.PropertyVetoException;
 import javax.swing.*;
@@ -34,20 +33,6 @@ import java.desktop.macosx.classes.com.apple.laf.JRSUIState.TitleBarHeightState;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
 import java.desktop.macosx.classes.com.apple.laf.AquaInternalFrameBorderMetrics;
 import java.awt.geom.AffineTransform;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AquaInternalFrameBorder implements Border, UIResource {
     private static final int kCloseButton = 0;

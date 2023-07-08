@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.provider.certpath;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.security.GeneralSecurityException;
 import java.security.InvalidAlgorithmParameterException;
@@ -39,20 +38,6 @@ import javax.security.auth.x500.X500Principal;
 import java.base.share.classes.sun.security.provider.certpath.PKIX.BuilderParams;
 import static java.base.share.classes.sun.security.x509.PKIXExtensions.*;.extended
 import java.base.share.classes.sun.security.util.Debug;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class builds certification paths in the forward direction.

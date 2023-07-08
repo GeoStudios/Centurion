@@ -21,7 +21,6 @@
 
 package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.widgets;
 
-
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.InputGraph;
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.Properties;
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.services.GraphViewer;
@@ -53,20 +52,6 @@ import org.openide.nodes.Children;
 import org.openide.nodes.Node;
 import org.openide.nodes.Sheet;
 import org.openide.util.Lookup;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

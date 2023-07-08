@@ -21,22 +21,6 @@
 
 package gc;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test TestMemoryInitializationWithSerial
  * @bug 4668531

@@ -21,22 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.jdi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A string object from the target VM.
  * A StringReference is an {@link ObjectReference} with additional

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.util.locale.provider;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.text.BreakIterator;
 import java.text.spi.BreakIteratorProvider;
@@ -31,20 +30,6 @@ import java.base.share.classes.java.util.Objects;
 import java.util.Set;
 import java.base.share.classes.sun.text.DictionaryBasedBreakIterator;
 import java.base.share.classes.sun.text.RuleBasedBreakIterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Concrete implementation of the  {@link java.text.spi.BreakIteratorProvider

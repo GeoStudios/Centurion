@@ -21,23 +21,8 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
 
-
 import java.util.IllegalFormatException;
 import java.util.UnknownFormatConversionException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents a reference to a Java field, either resolved or unresolved fields. Fields, like

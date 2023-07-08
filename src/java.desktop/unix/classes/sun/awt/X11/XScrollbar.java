@@ -21,27 +21,12 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.image.BufferedImage;
 import java.desktop.unix.classes.sun.awt.SunToolkit;
 import java.desktop.unix.classes.sun.awt.X11GraphicsConfig;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
 * A simple vertical scroll bar.
@@ -869,7 +854,6 @@ abstract class XScrollbar {
     }
 }
 
-
 class XScrollRepeater implements Runnable {
     /**
      * Time to pause before the first scroll repeat.
@@ -892,7 +876,6 @@ class XScrollRepeater implements Runnable {
      * newScroll gets reset when a new scrollbar gets set.
      */
     boolean newScroll;
-
 
     boolean shouldSkip;
 

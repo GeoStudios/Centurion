@@ -21,27 +21,12 @@
 
 package vm.share.options.test;
 
-
 import vm.share.options.Option;
 import vm.share.options.OptionSupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This is a very simple test for our framework.
  */
-
 
 /**
  * This is an example with annotated superclasses
@@ -53,7 +38,6 @@ public class SubClassExample extends SimpleExampleWithOptionsAnnotation
 
     @Option(name = "timeout", default_value = "100", description = "timeout")
     int timeout;
-
 
     @Option(name = "logging_mode", description = "quiet or verbose")
     private String logging_mode;
@@ -68,7 +52,6 @@ public class SubClassExample extends SimpleExampleWithOptionsAnnotation
          System.out.println("timeout " + timeout);
          System.out.println("stresstime " + stressOptions.getStressTime());
     }
-
 
     public static void main(String[] args)
     {

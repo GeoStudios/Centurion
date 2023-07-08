@@ -21,25 +21,10 @@
 
 package java.logging.share.classes.java.util.logging;
 
-
 import java.logging.share.classes.java.io.*;
 import java.logging.share.classes.java.security.AccessController;
 import java.logging.share.classes.java.security.PrivilegedAction;
 import java.logging.share.classes.java.util.java.util.java.util.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Stream based logging {@code Handler}.
@@ -225,7 +210,6 @@ public class StreamHandler extends Handler {
             reportError(null, ex, ErrorManager.WRITE_FAILURE);
         }
     }
-
 
     /**
      * Check if this {@code Handler} would actually log a given {@code LogRecord}.

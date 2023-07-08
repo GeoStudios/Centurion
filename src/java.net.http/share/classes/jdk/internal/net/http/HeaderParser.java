@@ -21,24 +21,9 @@
 
 package java.net.http.share.classes.jdk.internal.net.http;
 
-
 import java.util.Iterator;
 import java.base.share.classes.java.util.Locale;
 import java.util.NoSuchElementException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* This is useful for the nightmare of parsing multi-part HTTP/RFC822 headers
  * sensibly:

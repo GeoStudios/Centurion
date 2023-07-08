@@ -21,22 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class SignatureInfo extends SignatureIterator {
   protected boolean hasIterated; // need this because iterate cannot be called in constructor (set is virtual!)

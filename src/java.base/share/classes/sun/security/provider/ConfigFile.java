@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.provider;
 
-
 import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URI;
@@ -43,20 +42,6 @@ import java.base.share.classes.sun.security.util.Debug;
 import java.base.share.classes.sun.security.util.PropertyExpander;
 import java.base.share.classes.sun.security.util.ResourcesMgr;
 import static java.nio.charset.StandardCharsets.UTF_8;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents a default implementation for

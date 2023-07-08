@@ -21,25 +21,10 @@
 
 package java.base.share.classes.jdk.internal.perf;
 
-
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.LongBuffer;
 import java.security.AccessController;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Performance counter support for internal JRE classes.

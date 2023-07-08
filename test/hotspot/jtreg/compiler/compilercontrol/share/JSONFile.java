@@ -21,24 +21,10 @@
 
 package compiler.compilercontrol.share;
 
-
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
 import java.base.share.classes.java.util.Objects;
 import java.util.Stack;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Simple JSON file writer

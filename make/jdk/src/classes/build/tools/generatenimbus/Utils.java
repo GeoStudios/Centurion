@@ -21,56 +21,6 @@
 
 package build.tools.generatenimbus;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Utils {
 
     public static String escape(String s) {

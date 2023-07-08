@@ -21,21 +21,6 @@
 
 package compiler.jvmci.common.testcases;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class MultiSubclassedClassSubclass2 extends MultiSubclassedClass {
     // empty
 }

@@ -21,22 +21,7 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
 
-
 import java.lang.invoke.MethodHandle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Reflection operations on values represented as {@linkplain JavaConstant constants}. All methods

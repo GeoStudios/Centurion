@@ -21,23 +21,9 @@
 
 package test.java.lang.invoke.AccessControlTest_subpkg;
 
-
 import test.java.lang.invoke.AccessControlTest;
 import java.lang.invoke.*;
 import static java.lang.invoke.MethodHandles.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // This guy tests access from outside the package test.java.lang.invoke:
 public class Acquaintance_remote {

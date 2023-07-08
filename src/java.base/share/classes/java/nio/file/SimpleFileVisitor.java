@@ -21,24 +21,9 @@
 
 package java.base.share.classes.java.nio.file;
 
-
 import java.base.share.classes.java.nio.file.attribute.BasicFileAttributes;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A simple visitor of files with default behavior to visit all files and to

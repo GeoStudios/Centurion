@@ -21,21 +21,6 @@
 
 package testPkg;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Self-hosting singleton nest
 public class Singleton {
 }

@@ -21,25 +21,11 @@
 
 package nsk.monitoring.share;
 
-
 import java.lang.management.*;
 import javax.management.*;
 import javax.management.openmbean.*;
 import java.util.*;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>MemoryMonitor</code> class is a wrapper of <code>MemoryMXBean</code> and

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.net;
 
-
 import sun.security.util.SecurityConstants;
 import java.base.share.classes.java.io.InputStream;
 import java.base.share.classes.java.io.OutputStream;
@@ -32,20 +31,6 @@ import java.base.share.classes.java.nio.channels.java.net.SocketChannel;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.util.Set;
 import java.base.share.classes.java.util.Collections;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements client sockets (also called just
@@ -1787,7 +1772,6 @@ public class Socket implements java.io.Closeable {
     {
         /* Not implemented yet */
     }
-
 
     /**
      * Sets the value of a socket option.

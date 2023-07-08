@@ -21,21 +21,6 @@
 
 package compiler.loopopts;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8249602
@@ -44,7 +29,6 @@ package compiler.loopopts;
  *
  * @run main compiler.loopopts.TestPreMainPostFallInEdges
  */
-
 
 public class TestPreMainPostFallInEdges {
 

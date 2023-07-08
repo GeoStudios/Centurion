@@ -21,25 +21,10 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.ldap.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents a factory for creating LDAPv3 response controls.

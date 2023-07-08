@@ -21,7 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Mix;
 
-
 import static java.awt.Color.BLACK;.extended
 import static java.awt.Color.BLUE;.extended
 import static java.awt.Color.GREEN;.extended
@@ -48,20 +47,6 @@ import demo.share.jfc.J2Ddemo.java2d.ControlsSurface;
 import demo.share.jfc.J2Ddemo.java2d.CustomControls;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Generate a 3D text shape with GeneralPath, render a number of small
@@ -253,7 +238,6 @@ public class Stars3D extends ControlsSurface {
     public static void main(String[] argv) {
         createDemoFrame(new Stars3D());
     }
-
 
     static class DemoControls extends CustomControls implements ActionListener {
 

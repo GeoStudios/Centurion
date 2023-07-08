@@ -21,22 +21,7 @@
 
 package java.desktop.macosx.classes.com.apple.eio;
 
-
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides functionality to query and modify Mac-specific file attributes. The methods in this class are based on Finder
@@ -95,7 +80,6 @@ public class FileManager {
      * Read/write. Resources that are private to the user.
      */
     public static final short kUserDomain = -32763;
-
 
         /**
          * Converts an OSType (e.g. "macs"
@@ -189,7 +173,6 @@ public class FileManager {
     }
     private static native int _getFileCreator(String filename) throws IOException;
 
-
     /**
          * Locates a folder of a particular type. Mac OS X recognizes certain specific folders that have distinct purposes.
          * For example, the user's desktop or temporary folder. These folders have corresponding codes. Given one of these codes,
@@ -251,7 +234,6 @@ public class FileManager {
         return foundFolder;
     }
     private static native String _findFolder(short domain, int folderType, boolean createIfNeeded);
-
 
     /**
          * Opens the path specified by a URL in the appropriate application for that URL. HTTP URL's ({@code http://})

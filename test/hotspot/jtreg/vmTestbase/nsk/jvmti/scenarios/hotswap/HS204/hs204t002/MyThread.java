@@ -21,21 +21,6 @@
 
 package nsk.jvmti.scenarios.hotswap.HS204.hs204t002;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class MyThread extends Thread{
         public static int value=100;
         static {

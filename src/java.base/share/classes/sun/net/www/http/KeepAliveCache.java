@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.net.www.http;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.NotSerializableException;
 import java.io.ObjectInputStream;
@@ -37,20 +36,6 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 import jdk.internal.misc.InnocuousThread;
 import java.base.share.classes.sun.security.action.GetIntegerAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class that implements a cache of idle Http connections for keep-alive

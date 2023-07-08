@@ -21,24 +21,9 @@
 
 package jdk.jdi.share.classes.com.sun.tools.example.debug.tty;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.*;
 import jdk.jdi.share.classes.com.sun.jdi.request.EventRequestManager;
 import jdk.jdi.share.classes.com.sun.jdi.request.EventRequest;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -47,10 +32,6 @@ import jdk.jdi.share.classes.com.sun.jdi.request.EventRequest;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
 
 class ModificationWatchpointSpec extends WatchpointSpec {
     ModificationWatchpointSpec(ReferenceTypeSpec refSpec, String fieldId)

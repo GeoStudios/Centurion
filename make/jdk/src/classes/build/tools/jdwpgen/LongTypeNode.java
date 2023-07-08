@@ -21,56 +21,6 @@
 
 package build.tools.jdwpgen;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class LongTypeNode extends AbstractSimpleTypeNode {
 
     String docType() {

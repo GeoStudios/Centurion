@@ -21,25 +21,11 @@
 
 package nsk.monitoring.share;
 
-
 import java.lang.management.*;
 import javax.management.*;
 import javax.management.openmbean.*;
 import java.util.*;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>ThreadMonitor</code> class is a wrapper of <code>ThreadMXBean</code>.

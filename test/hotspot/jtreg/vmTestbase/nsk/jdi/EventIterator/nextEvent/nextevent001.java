@@ -21,7 +21,6 @@
 
 package nsk.jdi.EventIterator.nextEvent;
 
-
 import nsk.share.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
@@ -29,19 +28,6 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -232,7 +218,6 @@ public class nextevent001 extends JDIBase {
         return testExitCode;
     }
 
-
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -416,7 +401,6 @@ public class nextevent001 extends JDIBase {
 
             ThreadReference eventThreads[] = new ThreadReference[threadNames.length];
 
-
             List allThreads = vm.allThreads();
 
             log2("......getting: ArrayReference namesRef = (ArrayReference) debuggeeClass.getValue(debuggeeClass.fieldByName(namesArray));");
@@ -451,7 +435,6 @@ public class nextevent001 extends JDIBase {
             }
             if (testExitCode == FAILED)
                 break;
-
 
             log2("......ReferenceType testClass = (ReferenceType) (vm.classesByName(testedClassName)).get(0);");
             ReferenceType testClass = (ReferenceType) (vm.classesByName(testedClassName)).get(0);
@@ -709,7 +692,6 @@ public class nextevent001 extends JDIBase {
         log2("      a Step has been set up");
         return stRequest;
     }
-
 
     private ExceptionRequest settingException ( ThreadReference thread,
                                                 ReferenceType testedClass,

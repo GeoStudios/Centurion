@@ -21,7 +21,6 @@
 
 package jdk.naming.dns.share.classes.com.sun.jndi.dns;
 
-
 import java.util.Enumeration;
 import java.util.Hashtable;
 import javax.naming.*;
@@ -29,25 +28,10 @@ import javax.naming.directory.*;
 import javax.naming.spi.DirectoryManager;
 import jdk.naming.dns.share.classes.com.sun.jndi.toolkit.ctx.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A DnsContext is a directory context representing a DNS node.
  *
  */
-
 
 public class DnsContext extends ComponentDirContext {
 
@@ -92,7 +76,6 @@ public class DnsContext extends ComponentDirContext {
 
     // The zone tree used for list operations
     private static final ZoneNode zoneTree = new ZoneNode(null);
-
 
     /**
      * Returns a DNS context for a given domain and servers.
@@ -154,7 +137,6 @@ public class DnsContext extends ComponentDirContext {
             resolver = null;
         }
     }
-
 
     //---------- Environment operations
 
@@ -277,7 +259,6 @@ public class DnsContext extends ComponentDirContext {
             : fromAttrId(attrId);
     }
 
-
     //---------- Naming operations
 
     public Object c_lookup(Name name, Continuation cont)
@@ -394,7 +375,6 @@ public class DnsContext extends ComponentDirContext {
         return nameParser;
     }
 
-
     //---------- Directory operations
 
     public void c_bind(Name name,
@@ -505,7 +485,6 @@ public class DnsContext extends ComponentDirContext {
                 new OperationNotSupportedException());
     }
 
-
     //---------- Name-related operations
 
     public String getNameInNamespace() {
@@ -566,7 +545,6 @@ public class DnsContext extends ComponentDirContext {
         }
         return result;
     }
-
 
     //---------- Helper methods
 
@@ -775,7 +753,6 @@ public class DnsContext extends ComponentDirContext {
         return new CT(rrclass, rrtype);
     }
 
-
     //---------- Support for list operations
 
     /*
@@ -928,7 +905,6 @@ public class DnsContext extends ComponentDirContext {
         }
     }
 
-
     //---------- Debugging
 
     private static final boolean debug = false;
@@ -939,7 +915,6 @@ public class DnsContext extends ComponentDirContext {
         }
     }
 }
-
 
 //----------
 
@@ -956,7 +931,6 @@ class CT {
         this.rrtype = rrtype;
     }
 }
-
 
 //----------
 

@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.io.Serial;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An {@code Insets} object is a representation of the borders

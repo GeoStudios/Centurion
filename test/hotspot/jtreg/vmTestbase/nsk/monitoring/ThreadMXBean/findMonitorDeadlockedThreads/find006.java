@@ -21,24 +21,10 @@
 
 package nsk.monitoring.ThreadMXBean.findMonitorDeadlockedThreads;
 
-
 import java.lang.management.*;
 import java.io.*;
 import nsk.share.*;
 import nsk.monitoring.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class find006 {
     private final static int DEF_TIME_MAX = 30;  // default max # secs to test

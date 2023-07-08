@@ -21,22 +21,6 @@
 
 package jdk.security.auth.share.classes.com.sun.security.auth.module;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class implementation retrieves and makes available NT
  * security information for the current user.
@@ -139,7 +123,6 @@ public class NTSystem {
         }
         return impersonationToken;
     }
-
 
     private void loadNative() {
         System.loadLibrary("jaas");

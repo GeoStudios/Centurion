@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.sun.awt;
 
-
 import java.awt.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An interface for the EventQueue delegate.

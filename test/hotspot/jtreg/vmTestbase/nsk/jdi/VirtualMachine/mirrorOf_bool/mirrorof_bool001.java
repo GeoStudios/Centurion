@@ -21,26 +21,12 @@
 
 package nsk.jdi.VirtualMachine.mirrorOf_bool;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -188,7 +174,6 @@ public class mirrorof_bool001 {
                         expresult = 1;
                     break;
 
-
             case 2: if (!bvTrue1.equals(bvTrue2))
                         expresult = 1;
                     break;
@@ -215,7 +200,6 @@ public class mirrorof_bool001 {
                         expresult = 1;
                     break;
 
-
             case 8: if (bvTrue1.hashCode() != bvTrue1.hashCode())
                         expresult = 1;
                     break;
@@ -236,8 +220,6 @@ public class mirrorof_bool001 {
                          expresult = 1;
                      break;
 
-
-
             default: expresult = 2;
                      break ;
             }
@@ -257,8 +239,6 @@ public class mirrorof_bool001 {
         log1("TESTING ENDS");
 
     //--------------------------------------------------   test summary section
-
-
 
     //-------------------------------------------------    standard end section
 

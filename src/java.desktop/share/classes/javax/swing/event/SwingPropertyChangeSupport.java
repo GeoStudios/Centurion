@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.swing.event;
 
-
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeSupport;
 import java.io.Serial;
 import java.desktop.share.classes.javax.swing.SwingUtilities;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This subclass of {@code java.beans.PropertyChangeSupport} is almost

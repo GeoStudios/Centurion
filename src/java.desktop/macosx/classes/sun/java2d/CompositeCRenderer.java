@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.java2d;
 
-
 import java.awt.*;
 import java.awt.font.*;
 import java.awt.geom.*;
@@ -29,20 +28,6 @@ import java.awt.image.*;
 import java.desktop.macosx.classes.sun.awt.image.*;
 import java.desktop.macosx.classes.sun.java2d.loops.*;
 import java.desktop.macosx.classes.sun.java2d.pipe.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CompositeCRenderer extends CRenderer implements PixelDrawPipe, PixelFillPipe, ShapeDrawPipe, DrawImagePipe, TextPipe {
     static final int fPadding = 4;

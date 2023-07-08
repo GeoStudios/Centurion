@@ -21,21 +21,6 @@
 
 package compiler.loopopts;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8054478
@@ -45,7 +30,6 @@ package compiler.loopopts;
  *      -XX:CompileCommand=compileonly,compiler.loopopts.TestDeadBackbranchArrayAccess::*
  *      compiler.loopopts.TestDeadBackbranchArrayAccess
  */
-
 
 public class TestDeadBackbranchArrayAccess {
     static char[] pattern0 = {0};

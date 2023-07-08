@@ -21,7 +21,6 @@
 
 package nsk.monitoring.stress.classload;
 
-
 import java.io.*;
 import java.util.*;
 import java.lang.management.*;
@@ -29,19 +28,6 @@ import nsk.share.log.Log;
 import nsk.share.test.*;
 import nsk.share.Consts;
 import nsk.monitoring.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test checks up <code>getAllClasses()</code>,

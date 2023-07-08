@@ -21,23 +21,8 @@
 
 package java.base.share.classes.sun.nio;
 
-
 import java.nio.ByteBuffer;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is an interface to adapt existing APIs to use {@link java.nio.ByteBuffer

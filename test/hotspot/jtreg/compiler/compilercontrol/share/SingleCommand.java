@@ -21,7 +21,6 @@
 
 package compiler.compilercontrol.share;
 
-
 import compiler.compilercontrol.share.method.MethodDescriptor;
 import compiler.compilercontrol.share.scenario.Command;
 import compiler.compilercontrol.share.scenario.CommandGenerator;
@@ -29,19 +28,6 @@ import compiler.compilercontrol.share.scenario.CompileCommand;
 import compiler.compilercontrol.share.scenario.Scenario;
 import jdk.test.lib.Utils;
 import java.lang.reflect.Executable;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class SingleCommand extends AbstractTestBase {
     private final Command command;

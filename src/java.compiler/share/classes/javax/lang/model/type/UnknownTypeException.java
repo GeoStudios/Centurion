@@ -21,22 +21,7 @@
 
 package java.compiler.share.classes.javax.lang.model.type;
 
-
 import java.compiler.share.classes.javax.lang.model.UnknownEntityException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Indicates that an unknown kind of type was encountered.  This can

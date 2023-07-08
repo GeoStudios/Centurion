@@ -21,7 +21,6 @@
 
 package java.naming.share.classes.javax.naming.ldap;
 
-
 import java.nio.charset.StandardCharsets;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
@@ -38,20 +37,6 @@ import java.io.Serializable;
 import java.io.ObjectOutputStream;
 import java.io.ObjectInputStream;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents a relative distinguished name, or RDN, which is a
@@ -424,7 +409,6 @@ public class Rdn implements Serializable, Comparable<Object> {
         return attrs;
     }
 
-
     private static class RdnEntry implements Comparable<RdnEntry> {
         private String type;
         private Object value;
@@ -672,7 +656,6 @@ public class Rdn implements Serializable, Comparable<Object> {
             }
             return builder.toString();
         }
-
 
         /*
          * Given an array of chars (with starting and ending indexes into it)

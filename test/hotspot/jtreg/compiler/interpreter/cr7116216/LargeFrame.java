@@ -21,21 +21,6 @@
 
 package compiler.interpreter.cr7116216;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class LargeFrame {
 
     public static void method_with_many_locals(Object r1, int r2, int r3, int r4, int r5, int r6, int r7, Object r8) {

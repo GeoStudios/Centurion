@@ -21,7 +21,6 @@
 
 package compiler.jvmci.compilerToVM;
 
-
 import compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes;
 import compiler.jvmci.compilerToVM.ConstantPoolTestCase.TestedCPEntry;
 import compiler.jvmci.compilerToVM.ConstantPoolTestCase.Validator;
@@ -34,19 +33,6 @@ import java.util.Map;
 import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CONSTANT_FIELDREF;.extended
 import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CONSTANT_INTERFACEMETHODREF;.extended
 import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CONSTANT_METHODREF;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -69,10 +55,6 @@ import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CON
  *                   -XX:-UseJVMCICompiler
  *                   compiler.jvmci.compilerToVM.LookupKlassRefIndexInPoolTest
  */
-
-
-
-
 
 /**
  * Test for {@code jdk.vm.ci.hotspot.CompilerToVM.lookupKlassRefIndexInPool} method

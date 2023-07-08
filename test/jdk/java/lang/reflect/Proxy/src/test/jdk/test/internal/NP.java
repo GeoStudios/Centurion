@@ -21,21 +21,6 @@
 
 package jdk.test.internal;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * Non-public interface
  */

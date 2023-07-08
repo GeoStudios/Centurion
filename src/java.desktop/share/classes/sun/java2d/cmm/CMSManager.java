@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.sun.java2d.cmm;
 
-
 import java.awt.color.CMMException;
 import java.awt.color.ICC_Profile;
 import java.security.AccessController;
 import java.desktop.share.classes.sun.security.action.GetPropertyAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class CMSManager {
 

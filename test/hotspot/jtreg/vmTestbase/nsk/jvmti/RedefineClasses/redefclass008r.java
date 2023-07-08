@@ -21,21 +21,7 @@
 
 package nsk.jvmti.RedefineClasses;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is the old version of a redefined class

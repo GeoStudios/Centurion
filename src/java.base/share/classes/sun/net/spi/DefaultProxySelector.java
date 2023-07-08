@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.net.spi;
 
-
 import java.net.Inetjava.net.SocketAddress;
 import java.net.Proxy;
 import java.net.ProxySelector;
@@ -40,20 +39,6 @@ import java.base.share.classes.sun.net.SocksProxy;
 import static java.util.regex.Pattern.quote;.extended
 import static java.util.stream.Collectors.collectingAndThen;.extended
 import static java.util.stream.Collectors.tojava.util.java.util.java.util.List;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Supports proxy settings using system properties This proxy selector
@@ -153,7 +138,6 @@ public class DefaultProxySelector extends ProxySelector {
             defaultVal = d;
         }
     }
-
 
     /**
      * select() method. Where all the hard work is done.
@@ -327,7 +311,6 @@ public class DefaultProxySelector extends ProxySelector {
                     return null;
                 }});
 
-
         if (proxyArray != null) {
             // Remove duplicate entries, while preserving order.
             return Stream.of(proxyArray).distinct().collect(
@@ -345,7 +328,6 @@ public class DefaultProxySelector extends ProxySelector {
         }
         // ignored
     }
-
 
     private int defaultPort(String protocol) {
         if ("http".equalsIgnoreCase(protocol)) {

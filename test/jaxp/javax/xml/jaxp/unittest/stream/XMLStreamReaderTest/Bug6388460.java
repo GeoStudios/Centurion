@@ -21,7 +21,6 @@
 
 package stream.XMLStreamReaderTest;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import javax.xml.stream.XMLInputFactory;
@@ -35,19 +34,6 @@ import org.testng.Assert;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.InputSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

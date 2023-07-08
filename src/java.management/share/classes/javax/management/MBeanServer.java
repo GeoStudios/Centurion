@@ -21,24 +21,9 @@
 
 package java.management.share.classes.javax.management;
 
-
 import java.util.Set;
 import java.io.ObjectInputStream;
 import java.management.share.classes.javax.management.loading.ClassLoaderRepository;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // java import
 
@@ -524,7 +509,6 @@ public interface MBeanServer extends MBeanServerConnection {
             throws InstanceNotFoundException, IntrospectionException,
                    ReflectionException;
 
-
     // doc comment inherited from MBeanServerConnection
     boolean isInstanceOf(ObjectName name, String className)
             throws InstanceNotFoundException;
@@ -558,7 +542,6 @@ public interface MBeanServer extends MBeanServerConnection {
      */
     Object instantiate(String className)
             throws ReflectionException, MBeanException;
-
 
     /**
      * <p>Instantiates an object using the class Loader specified by its
@@ -712,7 +695,6 @@ public interface MBeanServer extends MBeanServerConnection {
             throws OperationsException, ReflectionException {
         throw new UnsupportedOperationException("Not supported.");
     }
-
 
     /**
      * <p>De-serializes a byte array in the context of a given MBean

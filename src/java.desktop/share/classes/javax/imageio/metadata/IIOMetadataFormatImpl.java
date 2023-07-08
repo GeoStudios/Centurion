@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.imageio.metadata;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.HashMap;
@@ -33,20 +32,6 @@ import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 import java.desktop.share.classes.javax.imageio.ImageTypeSpecifier;
 import com.sun.imageio.plugins.common.StandardMetadataFormat;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A concrete class providing a reusable implementation of the

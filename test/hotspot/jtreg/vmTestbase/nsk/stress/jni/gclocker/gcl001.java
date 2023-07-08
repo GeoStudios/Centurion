@@ -21,7 +21,6 @@
 
 package nsk.stress.jni.gclocker;
 
-
 import nsk.share.gc.GC;
 import nsk.share.gc.ThreadedGCTest;
 import nsk.share.gc.gp.array.BooleanArrayProducer;
@@ -34,19 +33,6 @@ import nsk.share.gc.gp.array.LongArrayProducer;
 import nsk.share.gc.gp.array.ShortArrayProducer;
 import nsk.share.test.ExecutionController;
 import nsk.share.test.LocalRandom;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -75,8 +61,6 @@ import nsk.share.test.LocalRandom;
  *      nsk.stress.jni.gclocker.gcl001
  *      -stressThreadsFactor 8
  */
-
-
 
 public class gcl001 extends ThreadedGCTest {
 

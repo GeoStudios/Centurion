@@ -21,22 +21,6 @@
 
 package java.base.share.classes.javax.net.ssl;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Indicates that the peer's identity has not been verified.
  * <P>

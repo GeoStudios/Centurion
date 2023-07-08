@@ -21,27 +21,12 @@
 
 package vm.share.options.test;
 
-
 import vm.share.options.Option;
 import vm.share.options.OptionSupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This is a very simple test for our framework.
  */
-
 
 /**
  * This is a very simple usage example of the framework
@@ -54,7 +39,6 @@ public class SimpleExample
     @Option(name = "iterations", default_value = "100", description = "Number of iterations")
     int iterations;
 
-
     @Option(description = "quiet or verbose")
     private String running_mode;
 
@@ -64,7 +48,6 @@ public class SimpleExample
          System.out.println("iterations = " + iterations);
          System.out.println("RM : " + running_mode);
     }
-
 
     public static void main(String[] args)
     {

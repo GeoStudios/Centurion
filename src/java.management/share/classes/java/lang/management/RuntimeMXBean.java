@@ -21,23 +21,8 @@
 
 package java.management.share.classes.java.lang.management;
 
-
 import java.management.share.classes.java.security.AccessController;
 import java.management.share.classes.java.security.PrivilegedAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The management interface for the runtime system of
@@ -195,7 +180,6 @@ public interface RuntimeMXBean extends PlatformManagedObject {
      * @see java.lang.System#getProperty
      */
     String getSpecVersion();
-
 
     /**
      * Returns the version of the specification for the management interface

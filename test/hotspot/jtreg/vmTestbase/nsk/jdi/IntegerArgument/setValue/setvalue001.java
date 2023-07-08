@@ -21,7 +21,6 @@
 
 package nsk.jdi.IntegerArgument.setValue;
 
-
 import java.io.PrintStream;
 import java.io.Serializable;
 import java.util.Map;
@@ -33,19 +32,6 @@ import com.sun.jdi.VirtualMachineManager;
 import com.sun.jdi.Bootstrap;
 import com.sun.jdi.connect.Connector;
 import com.sun.jdi.connect.Connector.IntegerArgument;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type <BR>
@@ -87,7 +73,6 @@ public class setvalue001 {
         String sErr2 =  "ERROR\n" +
                         "Method tested: " +
                         "jdi.Connector.IntegerArgument.setValue()\n" ;
-
 
             intArgument.setValue(i);
             intArgument.setValue(i1);
@@ -174,7 +159,6 @@ public class setvalue001 {
                 return exitCode0;
             }
         }
-
 
         if (intArgument.min() >= 0) {
             i = -1;

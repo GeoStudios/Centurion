@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.java.awt.dnd;
 
-
 import java.desktop.share.classes.java.util.Eventjava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A listener interface for receiving mouse motion events during a drag

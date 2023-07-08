@@ -21,7 +21,6 @@
 
 package demo.share.java2d.J2DBench.src.j2dbench.tests;
 
-
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.AlphaComposite;
@@ -39,20 +38,6 @@ import demo.share.java2d.J2DBench.src.j2dbench.Result;
 import demo.share.java2d.J2DBench.src.j2dbench.Test;
 import demo.share.java2d.J2DBench.src.j2dbench.TestEnvironment;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -60,11 +45,6 @@ import demo.share.java2d.J2DBench.src.j2dbench.TestEnvironment;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
-
 
 public abstract class GraphicsTests extends Test {
     public static boolean hasGraphics2D;

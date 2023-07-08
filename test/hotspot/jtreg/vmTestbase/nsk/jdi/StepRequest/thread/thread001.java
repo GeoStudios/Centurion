@@ -21,7 +21,6 @@
 
 package nsk.jdi.StepRequest.thread;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -107,7 +93,6 @@ public class thread001 extends JDIBase {
         }
         return testExitCode;
     }
-
 
     //  ************************************************    test parameters
 
@@ -205,7 +190,6 @@ public class thread001 extends JDIBase {
         return testExitCode;
     }
 
-
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -277,7 +261,6 @@ public class thread001 extends JDIBase {
 
         ThreadReference thread2;
 
-
         for (int i = 0; ; i++) {
 
             vm.resume();
@@ -290,7 +273,6 @@ public class thread001 extends JDIBase {
                 vm.resume();
                 break;
             }
-
 
             log1(":::::: case: # " + i);
 

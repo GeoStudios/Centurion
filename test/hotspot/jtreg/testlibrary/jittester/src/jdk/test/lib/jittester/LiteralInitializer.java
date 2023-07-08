@@ -21,21 +21,6 @@
 
 package jdk.test.lib.jittester;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class LiteralInitializer extends Literal {
     public LiteralInitializer(Object v, Type t) {
         super(v, t);

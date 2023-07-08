@@ -21,24 +21,10 @@
 
 package nsk.share.jdi;
 
-
 import java.io.*;
 import java.util.*;
 import nsk.share.locks.LockingThread;
 import nsk.share.TestBug;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  *  Class is used as base debuggee in tests for ThreadReference.ownedMonitorsAndFrames().

@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Thrown when a thread is waiting, sleeping, or otherwise occupied,
  * and the thread is interrupted, either before or during the activity.

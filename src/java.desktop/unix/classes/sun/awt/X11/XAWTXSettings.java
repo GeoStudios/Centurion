@@ -21,36 +21,16 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.util.*;
 import java.awt.*;
 import java.desktop.unix.classes.sun.awt.XSettings;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
    * This code is ported to XAWT from MAWT based on awt_mgrsel.c
    * and XSettings.java code written originally by Valeriy Ushakov
    * Author : Bino George
    */
-
-
-
-
-
 
 class XAWTXSettings extends XSettings implements XMSelectionListener {
 
@@ -86,7 +66,6 @@ class XAWTXSettings extends XSettings implements XMSelectionListener {
             log.fine("Owner " + deadOwner + " died for selection " + sel + " screen "+ screen);
         }
     }
-
 
     public void ownerChanged(int screen, XMSelection sel, long newOwner, long data, long timestamp) {
         if (log.isLoggable(PlatformLogger.Level.FINE)) {
@@ -178,7 +157,5 @@ class XAWTXSettings extends XSettings implements XMSelectionListener {
         }
         return settings;
     }
-
-
 
 }

@@ -21,22 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.jdi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Thrown to indicate that the operation is invalid because it would
  * modify the VM and the VM is read-only.  See {@link VirtualMachine#canBeModified()}.

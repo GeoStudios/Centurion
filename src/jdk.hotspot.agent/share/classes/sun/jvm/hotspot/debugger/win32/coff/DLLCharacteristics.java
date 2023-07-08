@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface DLLCharacteristics {
   /** Do not bind image */
   short IMAGE_DLLCHARACTERISTICS_NO_BIND = (short) 0x0800;

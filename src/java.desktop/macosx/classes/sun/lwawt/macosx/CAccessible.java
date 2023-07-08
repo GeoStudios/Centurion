@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-
 import java.awt.Component;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangejava.util.Listener;
@@ -43,20 +42,6 @@ import static javax.accessibility.AccessibleContext.ACCESSIBLE_VALUE_PROPERTY;.e
 import javax.accessibility.AccessibleRole;
 import javax.accessibility.AccessibleState;
 import java.desktop.macosx.classes.sun.awt.AWTAccessor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class CAccessible extends CFRetainedResource implements Accessible {
 
@@ -185,7 +170,6 @@ class CAccessible extends CFRetainedResource implements Accessible {
             }
         }
     }
-
 
     static Accessible getSwingAccessible(final Accessible a) {
         return (a instanceof CAccessible) ? ((CAccessible)a).accessible : a;

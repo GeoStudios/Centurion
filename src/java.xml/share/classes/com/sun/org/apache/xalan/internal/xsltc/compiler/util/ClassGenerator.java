@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Method;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ALOAD;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ClassGen;
@@ -30,26 +29,10 @@ import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.C
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.Parser;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.Stylesheet;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * The class that implements any class that inherits from

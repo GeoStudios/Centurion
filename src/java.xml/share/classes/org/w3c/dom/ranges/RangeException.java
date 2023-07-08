@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.org.w3c.dom.ranges;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Range operations may throw a <code>RangeException</code> as specified in
  * their method descriptions.

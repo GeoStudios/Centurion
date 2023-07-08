@@ -21,26 +21,11 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.MessageFormatter;
 import java.base.share.classes.java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 import jdk.xml.internal.SecuritySupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * SchemaMessageProvider implements an XMLMessageProvider that
@@ -55,7 +40,6 @@ public class XSMessageFormatter implements MessageFormatter {
      * The domain of messages concerning the XML Schema: Structures specification.
      */
     public static final String SCHEMA_DOMAIN = "http://www.w3.org/TR/xml-schema-1";
-
 
     // private objects to cache the locale and resource bundle
     private Locale fLocale = null;

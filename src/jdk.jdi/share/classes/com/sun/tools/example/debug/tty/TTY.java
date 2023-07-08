@@ -21,7 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.tools.example.debug.tty;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.*;
 import jdk.jdi.share.classes.com.sun.jdi.event.*;
 import jdk.jdi.share.classes.com.sun.jdi.request.*;
@@ -30,20 +29,6 @@ import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayjava.util.java.util.java.util.List;
 import java.io.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -51,11 +36,6 @@ import java.io.*;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
-
 
 public class TTY implements EventNotifier {
     EventHandler handler = null;
@@ -421,12 +401,10 @@ public class TTY implements EventNotifier {
         return (commandList[ii][2].equals("y"));
     }
 
-
     void executeCommand(StringTokenizer t) {
         String cmd = t.nextToken().toLowerCase();
         // Normally, prompt for the next command after this one is done
         boolean showPrompt = true;
-
 
         /*
          * Anything starting with # is discarded as a no-op or 'comment'.
@@ -675,7 +653,6 @@ public class TTY implements EventNotifier {
         }
     }
 
-
     void readCommand(StringTokenizer t) {
         if (t.hasMoreTokens()) {
             String cmdfname = t.nextToken();
@@ -745,7 +722,6 @@ public class TTY implements EventNotifier {
         }
         return myCanonFile;
     }
-
 
     public TTY() throws Exception {
 

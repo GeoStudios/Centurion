@@ -21,21 +21,7 @@
 
 package vm.share.options;
 
-
 import nsk.share.TestBug;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class OptionError extends TestBug {
         public OptionError(String msg, OptionDefinition optDef) {

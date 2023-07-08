@@ -21,22 +21,7 @@
 
 package java.security.sasl.share.classes.javax.security.sasl;
 
-
 import java.security.sasl.share.classes.javax.security.auth.callback.ChoiceCallback;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This callback is used by {@code SaslClient} and {@code SaslServer}

@@ -21,23 +21,8 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit;
 
-
 import javax.lang.model.element.PackageElement;
 import javax.tools.FileObject;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is a pseudo element wrapper for the overview element, essentially to

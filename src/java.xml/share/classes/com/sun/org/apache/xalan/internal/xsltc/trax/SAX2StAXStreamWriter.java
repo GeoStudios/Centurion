@@ -21,26 +21,11 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax;
 
-
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamWriter;
 import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.Locator2;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  */

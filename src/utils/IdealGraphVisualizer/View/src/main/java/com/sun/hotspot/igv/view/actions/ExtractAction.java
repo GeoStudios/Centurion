@@ -21,7 +21,6 @@
 
 package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.actions;
 
-
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.EditorTopComponent;
 import utils.IdealGraphVisualizer.View.src.main.java.awt.Event;
 import utils.IdealGraphVisualizer.View.src.main.java.awt.event.KeyEvent;
@@ -29,20 +28,6 @@ import javax.swing.Action;
 import javax.swing.KeyStroke;
 import org.openide.util.HelpCtx;
 import org.openide.util.actions.CallableSystemAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

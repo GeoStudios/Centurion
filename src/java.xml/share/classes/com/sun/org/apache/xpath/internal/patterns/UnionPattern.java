@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.Expression;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.ExpressionOwner;
@@ -29,20 +28,6 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathVisitor;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents a union pattern, which can have multiple individual
@@ -68,7 +53,6 @@ public class UnionPattern extends Expression
       m_patterns[i].fixupVariables(vars, globalsSize);
     }
   }
-
 
   /**
    * Tell if this expression or it's subexpressions can traverse outside
@@ -177,7 +161,6 @@ public class UnionPattern extends Expression
       return m_patterns[m_index];
     }
 
-
     /**
      * @see ExpressionOwner#setExpression(Expression)
      */
@@ -231,6 +214,5 @@ public class UnionPattern extends Expression
         return true;
 
   }
-
 
 }

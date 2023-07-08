@@ -21,22 +21,6 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code.site;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A reason for infopoint insertion.
  */

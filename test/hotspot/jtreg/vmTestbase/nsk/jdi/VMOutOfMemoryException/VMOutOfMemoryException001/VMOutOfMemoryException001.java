@@ -21,25 +21,11 @@
 
 package nsk.jdi.VMOutOfMemoryException.VMOutOfMemoryException001;
 
-
 import java.io.*;
 import java.util.*;
 import com.sun.jdi.*;
 import nsk.share.Consts;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -68,8 +54,6 @@ import nsk.share.jdi.*;
  *      -transport.address=dynamic
  *      -debugee.vmkeys="-Xmx256M ${test.vm.opts} ${test.java.opts}"
  */
-
-
 
 public class VMOutOfMemoryException001 extends TestDebuggerType2 {
     public static void main(String argv[]) {

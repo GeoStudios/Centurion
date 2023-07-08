@@ -21,22 +21,8 @@
 
 package nsk.jvmti.scenarios.hotswap.HS301.hs301t005;
 
-
 import nsk.share.jvmti.RedefineAgent;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -58,7 +44,6 @@ import java.io.*;
  *      nsk.jvmti.scenarios.hotswap.HS301.hs301t005.hs301t005
  */
 
-
 public class hs301t005 extends RedefineAgent {
     static {
         location = System.getProperty("Location");
@@ -68,7 +53,6 @@ public class hs301t005 extends RedefineAgent {
     public hs301t005(String[] arg) {
         super(arg);
     }
-
 
     public static void main(String[] arg) {
         arg = nsk.share.jvmti.JVMTITest.commonInit(arg);

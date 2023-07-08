@@ -21,24 +21,10 @@
 
 package gc.g1;
 
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestRemsetLoggingThreads
@@ -51,8 +37,6 @@ import jdk.test.lib.process.ProcessTools;
  * refinement threads do not crash the VM.
  * @run driver gc.g1.TestRemsetLoggingThreads
  */
-
-
 
 public class TestRemsetLoggingThreads {
 

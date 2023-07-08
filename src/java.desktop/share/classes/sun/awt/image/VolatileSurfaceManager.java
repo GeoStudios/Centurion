@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
-
 import java.awt.Graphics;
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsEnvironment;
@@ -33,20 +32,6 @@ import java.desktop.share.classes.sun.awt.DisplayChangedjava.util.Listener;
 import java.desktop.share.classes.sun.java2d.SunGraphicsEnvironment;
 import java.desktop.share.classes.sun.java2d.SurfaceData;
 import static java.desktop.share.classes.sun.java2d.pipe.hw.AccelSurface.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This SurfaceManager variant manages an accelerated volatile surface, if it

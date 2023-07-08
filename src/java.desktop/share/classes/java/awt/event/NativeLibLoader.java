@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.awt.event;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class NativeLibLoader {
 
     /**

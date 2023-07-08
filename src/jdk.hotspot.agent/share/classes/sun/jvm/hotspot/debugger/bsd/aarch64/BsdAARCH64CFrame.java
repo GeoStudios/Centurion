@@ -21,26 +21,11 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.bsd.aarch64;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.aarch64.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.bsd.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.basic.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final public class BsdAARCH64CFrame extends BasicCFrame {
    public BsdAARCH64CFrame(BsdDebugger dbg, Address fp, Address pc) {

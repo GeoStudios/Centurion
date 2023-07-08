@@ -21,21 +21,7 @@
 
 package gc.g1.unloading.classloaders;
 
-
 import gc.g1.unloading.loading.LibLoader;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * We don't call loadClass or defineClass methods explicitly, we invoke loadThroughJNI.

@@ -21,24 +21,9 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
-
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents the GCTR function defined in NIST 800-38D

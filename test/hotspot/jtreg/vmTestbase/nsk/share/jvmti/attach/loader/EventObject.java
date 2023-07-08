@@ -21,27 +21,11 @@
 
 package nsk.share.jvmti.attach.loader;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * EventObject.java
  *
  * Created on June 3, 2005, 1:27 PM
  */
-
 
 /**
  * This is a dummy object which is created by the ClEventHelper class
@@ -69,6 +53,5 @@ public class EventObject {
         hugeBuffer = null;
         System.gc();
     }
-
 
 }

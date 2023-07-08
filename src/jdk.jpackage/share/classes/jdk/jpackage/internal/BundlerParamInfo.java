@@ -21,24 +21,9 @@
 
 package jdk.jpackage.share.classes.jdk.jpackage.internal;
 
-
 import java.util.Map;
 import java.util.function.BiFunction;
 import java.util.function.Function;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * BundlerParamInfo<T>

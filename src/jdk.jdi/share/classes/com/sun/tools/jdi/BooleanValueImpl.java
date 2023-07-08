@@ -21,24 +21,9 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.BooleanValue;
 import jdk.jdi.share.classes.com.sun.jdi.Type;
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class BooleanValueImpl extends PrimitiveValueImpl
                               implements BooleanValue

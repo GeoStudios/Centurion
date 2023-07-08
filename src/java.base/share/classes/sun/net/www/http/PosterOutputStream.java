@@ -21,23 +21,8 @@
 
 package java.base.share.classes.sun.net.www.http;
 
-
 import java.io.*;
 import java.net.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Instances of this class are returned to applications for the purpose of

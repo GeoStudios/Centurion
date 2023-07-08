@@ -21,26 +21,12 @@
 
 package test.sql;
 
-
 import java.sql.SQLException;
 import java.sql.SQLTransientConnectionException;
 import java.sql.SQLTransientException;
 import static org.testng.Assert.*;.extended
 import org.testng.annotations.Test;
 import util.BaseTest;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class SQLTransientConnectionExceptionTests extends BaseTest {
 

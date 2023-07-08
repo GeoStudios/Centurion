@@ -21,7 +21,6 @@
 
 package jdk.unsupported.desktop.share.classes.jdk.swing.interop;
 
-
 import java.awt.Component;
 import java.awt.dnd.DragGestureRecognizer;
 import java.awt.dnd.DragGesturejava.util.Listener;
@@ -32,20 +31,6 @@ import java.awt.dnd.peer.DragSourceContextPeer;
 import java.awt.dnd.DropTarget;
 import javax.swing.JComponent;
 import sun.swing.LightweightContent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class provides a wrapper over inner LightweightContentProxy class

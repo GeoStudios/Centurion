@@ -21,22 +21,8 @@
 
 package nsk.share.aod;
 
-
 import nsk.share.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AODTargetArgParser extends ArgumentParser {
 

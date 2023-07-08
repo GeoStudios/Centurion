@@ -21,7 +21,6 @@
 
 package jdk.crypto.ec.share.classes.sun.security.ec.ed;
 
-
 import java.security.KeyFactorySpi;
 import java.base.share.classes.java.security.Key;
 import java.base.share.classes.java.security.PublicKey;
@@ -32,20 +31,6 @@ import java.security.interfaces.*;
 import java.base.share.classes.java.security.spec.*;
 import java.base.share.classes.java.util.Arrays;
 import java.util.function.Function;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class EdDSAKeyFactory extends KeyFactorySpi {
 
@@ -143,7 +128,6 @@ public class EdDSAKeyFactory extends KeyFactorySpi {
             throw new InvalidKeySpecException(ex);
         }
     }
-
 
     private PublicKey generatePublicImpl(KeySpec keySpec)
         throws InvalidKeyException, InvalidKeySpecException {

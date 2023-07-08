@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Repository;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.JavaClass;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Super class for object and array types.
@@ -50,13 +35,11 @@ public abstract class ReferenceType extends Type {
         super(t, s);
     }
 
-
     /** Class is non-abstract but not instantiable from the outside
      */
     ReferenceType() {
         super(Const.T_OBJECT, "<null object>");
     }
-
 
     /**
      * Return true iff this type is castable to another type t as defined in
@@ -78,7 +61,6 @@ public abstract class ReferenceType extends Type {
          * See vmspec2 AASTORE / CHECKCAST definitions.
          */
     }
-
 
     /**
      * Return true iff this is assignment compatible with another type t
@@ -187,7 +169,6 @@ public abstract class ReferenceType extends Type {
         }
         return false; // default.
     }
-
 
     /**
      * This commutative operation returns the first common superclass (narrowest ReferenceType

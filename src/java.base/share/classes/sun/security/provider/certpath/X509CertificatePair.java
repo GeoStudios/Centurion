@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.provider.certpath;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.security.GeneralSecurityException;
 import java.base.share.classes.java.security.PublicKey;
@@ -35,20 +34,6 @@ import java.base.share.classes.sun.security.util.DerValue;
 import java.base.share.classes.sun.security.util.Cache;
 import java.base.share.classes.sun.security.x509.X509CertImpl;
 import java.base.share.classes.sun.security.provider.X509Factory;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents an X.509 Certificate Pair object, which is primarily

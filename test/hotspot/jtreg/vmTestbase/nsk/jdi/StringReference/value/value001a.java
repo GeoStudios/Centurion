@@ -21,24 +21,10 @@
 
 package nsk.jdi.StringReference.value;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the value001a JDI test.
@@ -81,7 +67,6 @@ public class value001a {
         System.exit(result + PASS_BASE);
     }
 
-
     private static int runThis (String argv[], PrintStream out) {
 
         for (int i=0; i<argv.length; i++) {
@@ -96,7 +81,6 @@ public class value001a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
-
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
@@ -146,7 +130,6 @@ public class value001a {
         return exitCode;
     }
 }
-
 
 class ClassForCheck {
 

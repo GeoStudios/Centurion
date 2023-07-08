@@ -21,22 +21,8 @@
 
 package nsk.aod.VirtualMachine.VirtualMachine06;
 
-
 import nsk.share.aod.TargetApplicationWaitingAgents;
 import java.lang.instrument.Instrumentation;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class VM06Agent02 {
     public static void agentmain(String options, Instrumentation inst) {

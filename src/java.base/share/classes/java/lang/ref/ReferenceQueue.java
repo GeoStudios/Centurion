@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.lang.ref;
 
-
 import java.base.share.classes.java.util.function.Consumer;
 import jdk.internal.misc.VM;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Reference queues, to which registered reference objects are appended by the

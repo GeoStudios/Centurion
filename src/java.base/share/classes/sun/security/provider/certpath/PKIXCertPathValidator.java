@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.provider.certpath;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.security.InvalidAlgorithmParameterException;
 import java.security.cert.*;
@@ -32,20 +31,6 @@ import jdk.internal.event.EventHelper;
 import java.base.share.classes.sun.security.provider.certpath.PKIX.ValidatorParams;
 import java.base.share.classes.sun.security.x509.X509CertImpl;
 import java.base.share.classes.sun.security.util.Debug;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements the PKIX validation algorithm for certification

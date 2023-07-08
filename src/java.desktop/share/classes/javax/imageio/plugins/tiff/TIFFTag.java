@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.imageio.plugins.tiff;
 
-
 import java.util.Iterator;
 import java.util.Set;
 import java.util.SortedMap;
 import java.util.TreeMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class defining the notion of a TIFF tag.  A TIFF tag is a key

@@ -21,7 +21,6 @@
 
 package vm.mlvm.meth.stress.compiler.sequences;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
@@ -31,19 +30,6 @@ import vm.mlvm.meth.share.MHTransformationGen;
 import vm.mlvm.meth.share.RandomArgumentsGen;
 import vm.mlvm.share.MlvmTest;
 import vm.mlvm.share.MultiThreadedTest;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -70,9 +56,6 @@ import vm.mlvm.share.MultiThreadedTest;
  *      -threadsExtra 2
  *      -stressIterationsFactor 1000
  */
-
-
-
 
 //TODO: check deoptimization using vm.mlvm.share.comp framework
 public class Test extends MultiThreadedTest {

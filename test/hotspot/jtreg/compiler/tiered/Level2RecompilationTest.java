@@ -21,22 +21,8 @@
 
 package compiler.tiered;
 
-
 import compiler.whitebox.CompilerWhiteBoxTest;
 import jtreg.SkippedException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test Level2RecompilationTest
@@ -56,8 +42,6 @@ import jtreg.SkippedException;
  *                   -XX:CompileCommand=print,compiler.whitebox.SimpleTestCaseHelper::*
  *                   compiler.tiered.Level2RecompilationTest
  */
-
-
 
 public class Level2RecompilationTest extends CompLevelsTest {
     public static void main(String[] args) throws Throwable {

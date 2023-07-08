@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.functions;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * An exception that is thrown if the wrong number of arguments to an exception

@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-
 import java.util.Collection;
 import java.util.Set;
 import javax.lang.model.element.Modifier;
@@ -43,20 +42,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFi
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocLink;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPaths;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.IndexItem;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Write the Constants Summary Page in HTML format.

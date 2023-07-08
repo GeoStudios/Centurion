@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Cursor;
@@ -55,20 +54,6 @@ import java.desktop.share.classes.javax.swing.event.Changejava.util.Listener;
 import java.desktop.share.classes.javax.swing.plaf.TabbedPaneUI;
 import java.desktop.share.classes.javax.swing.plaf.UIResource;
 import sun.swing.SwingUtilities2;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A component that lets the user switch between a group of components by
@@ -148,7 +133,6 @@ public class JTabbedPane extends JComponent
     * to navigate to hidden tabs.
     */
     public static final int SCROLL_TAB_LAYOUT = 1;
-
 
     /**
      * @see #getUIClassID
@@ -269,7 +253,6 @@ public class JTabbedPane extends JComponent
         setUI((TabbedPaneUI)UIManager.getUI(this));
     }
 
-
     /**
      * Returns the name of the UI class that implements the
      * L&amp;F for this component.
@@ -282,7 +265,6 @@ public class JTabbedPane extends JComponent
     public String getUIClassID() {
         return uiClassID;
     }
-
 
     /**
      * We pass <code>ModelChanged</code> events along to the listeners with
@@ -624,7 +606,6 @@ public class JTabbedPane extends JComponent
         setSelectedIndexImpl(index, true);
     }
 
-
     private void setSelectedIndexImpl(int index, boolean doAccessibleChanges) {
         int oldIndex = model.getSelectedIndex();
         Page oldPage = null, newPage = null;
@@ -751,7 +732,6 @@ public class JTabbedPane extends JComponent
         pages.add(
             newIndex,
             new Page(this, title != null? title : "", icon, null, component, tip));
-
 
         if (component != null) {
             addImpl(component, null, -1);
@@ -1140,7 +1120,6 @@ public class JTabbedPane extends JComponent
         return 0;
     }
 
-
 // Getters for the Pages
 
     /**
@@ -1331,7 +1310,6 @@ public class JTabbedPane extends JComponent
         }
         return null;
     }
-
 
 // Setters for the Pages
 
@@ -1759,7 +1737,6 @@ public class JTabbedPane extends JComponent
         return -1;
     }
 
-
     /**
      * Returns the tooltip text for the component determined by the
      * mouse event location.
@@ -1784,7 +1761,6 @@ public class JTabbedPane extends JComponent
             throw new IndexOutOfBoundsException("Index: "+index+", Tab count: "+pages.size());
         }
     }
-
 
     /**
      * See <code>readObject</code> and <code>writeObject</code> in
@@ -1849,7 +1825,6 @@ public class JTabbedPane extends JComponent
             ToolTipManager.sharedInstance().registerComponent(this);
         }
     }
-
 
     /**
      * Returns a string representation of this <code>JTabbedPane</code>.
@@ -2157,7 +2132,6 @@ public class JTabbedPane extends JComponent
             return this;
         }
 
-
         // AccessibleContext methods
 
         public String getAccessibleName() {
@@ -2218,7 +2192,6 @@ public class JTabbedPane extends JComponent
         public AccessibleComponent getAccessibleComponent() {
             return this;
         }
-
 
         // AccessibleComponent methods
 

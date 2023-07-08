@@ -21,21 +21,7 @@
 
 package compiler.lib.ir_framework.driver;
 
-
 import compiler.lib.ir_framework.shared.TestFormatException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Exception that is thrown if the test VM has thrown any kind of exception (except for {@link TestFormatException}).

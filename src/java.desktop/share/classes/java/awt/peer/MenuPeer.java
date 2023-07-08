@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.java.awt.peer;
 
-
 import java.desktop.share.classes.java.awt.Menu;
 import java.desktop.share.classes.java.awt.MenuItem;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The peer interface for menus. This is used by {@link Menu}.

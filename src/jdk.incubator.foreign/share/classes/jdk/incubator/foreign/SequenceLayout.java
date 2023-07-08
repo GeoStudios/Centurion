@@ -21,7 +21,6 @@
 
 package jdk.incubator.foreign.share.classes.jdk.incubator.foreign;
 
-
 import java.lang.constant.Constable;
 import java.lang.constant.ConstantDescs;
 import java.lang.constant.DynamicConstantDesc;
@@ -29,20 +28,6 @@ import java.util.Map;
 import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.util.OptionalLong;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A sequence layout. A sequence layout is used to denote a repetition of a given layout, also called the sequence layout's <em>element layout</em>.

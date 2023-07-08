@@ -21,21 +21,6 @@
 
 package compiler.codegen;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 6909839
@@ -43,7 +28,6 @@ package compiler.codegen;
  *
  * @run main/othervm -XX:+IgnoreUnrecognizedVMOptions -XX:+EliminateAutoBox -XX:AutoBoxCacheMax=20000 -Xbatch compiler.codegen.Test6909839
  */
-
 
 public class Test6909839 {
     public static void main(String[] args) {

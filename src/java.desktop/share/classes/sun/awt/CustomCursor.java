@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.sun.awt;
 
-
 import java.awt.*;
 import java.awt.image.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class to encapsulate a custom image-based cursor.

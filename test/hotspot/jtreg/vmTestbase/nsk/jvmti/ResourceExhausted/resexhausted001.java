@@ -21,26 +21,12 @@
 
 package nsk.jvmti.ResourceExhausted;
 
-
 import java.io.PrintStream;
 import java.util.concurrent.atomic.AtomicInteger;
 import jdk.test.lib.Platform;
 import nsk.share.Consts;
 import nsk.share.test.Stresser;
 import jtreg.SkippedException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class resexhausted001 {
     static {

@@ -21,7 +21,6 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.x64.windows;
 
-
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.FunctionDescriptor;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryAddress;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
@@ -35,20 +34,6 @@ import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import java.base.share.classes.java.util.Objects;
 import java.util.function.Consumer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * ABI implementation based on Windows ABI AMD64 supplement v.0.99.6

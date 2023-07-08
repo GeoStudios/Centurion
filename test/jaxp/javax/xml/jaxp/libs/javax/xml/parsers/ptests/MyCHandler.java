@@ -21,7 +21,6 @@
 
 package javax.xml.parsers.ptests;
 
-
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -31,19 +30,6 @@ import org.xml.sax.Attributes;
 import org.xml.sax.Locator;
 import org.xml.sax.helpers.DefaultHandler;
 import org.xml.sax.helpers.LocatorImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Customized DefaultHandler which writes output document when methods are

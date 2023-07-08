@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
 
-
 import javax.xml.crypto.NodeSetData;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
@@ -31,26 +30,10 @@ import java.util.NoSuchElementException;
 import java.xml.crypto.share.classes.org.w3c.dom.NamedNodeMap;
 import java.xml.crypto.share.classes.org.w3c.dom.Node;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * This is a subtype of NodeSetData that represents a dereferenced

@@ -21,30 +21,11 @@
 
 package java.base.share.classes.jdk.internal.org.xml.sax;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // ContentHandler.java - handle main document content.
 // http://www.saxproject.org
 // Written by David Megginson
 // NO WARRANTY!  This class is in the public domain.
 // $Id: ContentHandler.java,v 1.2 2004/11/03 22:44:51 jsuttor Exp $
-
-
-
 
 /**
  * Receive notification of the logical content of a document.
@@ -123,7 +104,6 @@ public interface ContentHandler
      */
     void setDocumentLocator (Locator locator);
 
-
     /**
      * Receive notification of the beginning of a document.
      *
@@ -137,7 +117,6 @@ public interface ContentHandler
      */
     void startDocument ()
         throws SAXException;
-
 
     /**
      * Receive notification of the end of a document.
@@ -162,7 +141,6 @@ public interface ContentHandler
      */
     void endDocument()
         throws SAXException;
-
 
     /**
      * Begin the scope of a prefix-URI Namespace mapping.
@@ -205,7 +183,6 @@ public interface ContentHandler
     void startPrefixMapping (String prefix, String uri)
         throws SAXException;
 
-
     /**
      * End the scope of a prefix-URI mapping.
      *
@@ -224,7 +201,6 @@ public interface ContentHandler
      */
     void endPrefixMapping (String prefix)
         throws SAXException;
-
 
     /**
      * Receive notification of the beginning of an element.
@@ -294,7 +270,6 @@ public interface ContentHandler
                               String qName, Attributes atts)
         throws SAXException;
 
-
     /**
      * Receive notification of the end of an element.
      *
@@ -319,7 +294,6 @@ public interface ContentHandler
     void endElement (String uri, String localName,
                             String qName)
         throws SAXException;
-
 
     /**
      * Receive notification of character data.
@@ -367,7 +341,6 @@ public interface ContentHandler
     void characters (char[] ch, int start, int length)
         throws SAXException;
 
-
     /**
      * Receive notification of ignorable whitespace in element content.
      *
@@ -396,7 +369,6 @@ public interface ContentHandler
     void ignorableWhitespace (char[] ch, int start, int length)
         throws SAXException;
 
-
     /**
      * Receive notification of a processing instruction.
      *
@@ -421,7 +393,6 @@ public interface ContentHandler
      */
     void processingInstruction (String target, String data)
         throws SAXException;
-
 
     /**
      * Receive notification of a skipped entity.

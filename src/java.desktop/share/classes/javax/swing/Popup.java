@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.BorderLayout;
 import java.awt.Component;
 import java.awt.Frame;
@@ -29,20 +28,6 @@ import java.awt.Graphics;
 import java.awt.GraphicsEnvironment;
 import java.awt.Window;
 import sun.awt.ModalExclude;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Popups are used to display a <code>Component</code> to the user, typically
@@ -183,7 +168,6 @@ public class Popup {
         }
     }
 
-
     /**
      * Causes the <code>Popup</code> to be sized to fit the preferred size
      * of the <code>Component</code> it contains.
@@ -237,7 +221,6 @@ public class Popup {
         return component;
     }
 
-
     /**
      * Component used to house window.
      */
@@ -274,7 +257,6 @@ public class Popup {
             }
         }
     }
-
 
     /**
      * Used if no valid Window ancestor of the supplied owner is found.

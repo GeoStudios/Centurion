@@ -21,56 +21,6 @@
 
 package build.tools.pandocfilter.json;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class JSONNumber implements JSONValue {
     private long value;
 

@@ -21,25 +21,11 @@
 
 package compiler.codecache.cli.codeheapsize;
 
-
 import compiler.codecache.cli.common.CodeCacheCLITestBase;
 import compiler.codecache.cli.common.CodeCacheCLITestCase;
 import jdk.test.lib.Platform;
 import sun.hotspot.code.BlobType;
 import java.util.EnumSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -54,9 +40,6 @@ import java.util.EnumSet;
  *
  * @run driver/timeout=240 compiler.codecache.cli.codeheapsize.TestCodeHeapSizeOptions
  */
-
-
-
 
 public class TestCodeHeapSizeOptions extends CodeCacheCLITestBase {
     private static final CodeCacheCLITestCase JVM_STARTUP

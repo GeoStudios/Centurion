@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.swing.event;
 
-
 import java.desktop.share.classes.javax.swing.event.java.util.ListSelectionEvent;
 import java.desktop.share.classes.javax.swing.event.ChangeEvent;
 import java.util.Eventjava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * TableColumnModelListener defines the interface for an object that listens

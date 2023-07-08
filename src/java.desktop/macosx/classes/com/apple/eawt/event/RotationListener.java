@@ -21,22 +21,6 @@
 
 package java.desktop.macosx.classes.com.apple.eawt.event;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Listener interface for receiving rotation events.
  *

@@ -21,7 +21,6 @@
 
 package stream;
 
-
 import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -34,19 +33,6 @@ import javax.xml.stream.XMLStreamWriter;
 import org.testng.Assert;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

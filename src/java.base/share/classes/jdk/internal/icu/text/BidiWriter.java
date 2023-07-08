@@ -21,29 +21,11 @@
 
 package java.base.share.classes.jdk.internal.icu.text;
 
-
 import java.base.share.classes.jdk.internal.icu.lang.UCharacter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Written by Simon Montagu, Matitiahu Allouche
  * (ported from C code written by Markus W. Scherer)
  */
-
-
-
 
 final class BidiWriter {
 

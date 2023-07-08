@@ -21,22 +21,6 @@
 
 package jdk.management.jfr.share.classes.jdk.management.jfr;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Helper class for generating toString()
  *

@@ -21,24 +21,9 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.utils;
 
-
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.util.function.Supplier;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //import java.util.logging.Level;
 //import java.util.logging.LogRecord;

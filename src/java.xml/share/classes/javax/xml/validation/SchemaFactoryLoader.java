@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.javax.xml.validation;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * <p>Factory that creates {@link SchemaFactory}.</p>
  *

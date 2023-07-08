@@ -21,21 +21,6 @@
 
 package nsk.share.gc.gp;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Derived garbage producer that uses a memory strategy.
  */

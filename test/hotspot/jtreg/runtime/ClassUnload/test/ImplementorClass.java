@@ -21,21 +21,6 @@
 
 package test;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class ImplementorClass implements Interface {
   public void foo() { System.out.println("foo implemented!"); }
 }

@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.ExceptionConst;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Super class for instructions dealing with array access such as IALOAD.
@@ -59,7 +42,6 @@ public abstract class ArrayInstruction extends Instruction implements ExceptionT
     ArrayInstruction() {
     }
 
-
     /**
      * @param opcode of instruction
      */
@@ -67,12 +49,10 @@ public abstract class ArrayInstruction extends Instruction implements ExceptionT
         super(opcode, (short) 1);
     }
 
-
     @Override
     public Class<?>[] getExceptions() {
         return ExceptionConst.createExceptions(ExceptionConst.EXCS.EXCS_ARRAY_EXCEPTION);
     }
-
 
     /** @return type associated with the instruction
      */

@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import sun.awt.AWTAccessor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An enumeration for keys used as client properties within the Swing
@@ -89,7 +74,6 @@ enum ClientPropertyKey {
      * component.
      */
     PopupFactory_FORCE_HEAVYWEIGHT_POPUP(true);
-
 
     /**
      * Whether or not a {@code NotSerializableException} should be thrown

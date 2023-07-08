@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 6877254
@@ -43,7 +28,6 @@ package compiler.c2;
  *
  * @run main/othervm -Xcomp compiler.c2.Test6877254
  */
-
 
 public class Test6877254 {
     static byte var_1;

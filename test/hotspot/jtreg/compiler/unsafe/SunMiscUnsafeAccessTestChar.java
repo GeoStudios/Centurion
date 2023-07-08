@@ -21,23 +21,9 @@
 
 package compiler.unsafe;
 
-
 import org.testng.annotations.Test;
 import java.lang.reflect.Field;
 import static org.testng.Assert.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -50,10 +36,6 @@ import static org.testng.Assert.*;.extended
  * @run testng/othervm -Diters=20000 -XX:-TieredCompilation  compiler.unsafe.SunMiscUnsafeAccessTestChar
  * @run testng/othervm -Diters=20000                         compiler.unsafe.SunMiscUnsafeAccessTestChar
  */
-
-
-
-
 
 public class SunMiscUnsafeAccessTestChar {
     static final int ITERS = Integer.getInteger("iters", 1);
@@ -173,10 +155,6 @@ public class SunMiscUnsafeAccessTestChar {
             char x = UNSAFE.getCharVolatile(base, offset);
             assertEquals(x, '\u4567', "putVolatile char value");
         }
-
-
-
-
 
     }
 

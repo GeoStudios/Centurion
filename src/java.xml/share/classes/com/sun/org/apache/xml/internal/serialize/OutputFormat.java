@@ -21,25 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serialize;
 
-
 import java.io.UnsupportedEncodingException;
 import java.xml.share.classes.com.sun.org.w3c.dom.Document;
 import java.xml.share.classes.com.sun.org.w3c.dom.DocumentType;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Aug 21, 2000:
 //  Added ability to omit DOCTYPE declaration.
@@ -47,13 +32,6 @@ import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 // Aug 25, 2000:
 //  Added ability to omit comments.
 //  Contributed by Anupam Bagchi <abagchi@jtcsv.com>
-
-
-
-
-
-
-
 
 /**
  * Specifies an output format to control the serializer. Based on the
@@ -85,7 +63,6 @@ import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 public class OutputFormat
 {
 
-
     public static class DTD
     {
 
@@ -114,7 +91,6 @@ public class OutputFormat
 
     }
 
-
     public static class Defaults
     {
 
@@ -141,26 +117,22 @@ public class OutputFormat
 
     }
 
-
     /**
      * Holds the output method specified for this document,
      * or null if no method was specified.
      */
     private String _method;
 
-
     /**
      * Specifies the version of the output method.
      */
     private String _version;
-
 
     /**
      * The indentation level, or zero if no indentation
      * was requested.
      */
     private int _indent = 0;
-
 
     /**
      * The encoding to use, if an input stream is used.
@@ -181,48 +153,40 @@ public class OutputFormat
      */
     private String _mediaType;
 
-
     /**
      * The specified document type system identifier, or null.
      */
     private String _doctypeSystem;
-
 
     /**
      * The specified document type public identifier, or null.
      */
     private String _doctypePublic;
 
-
     /**
      * Ture if the XML declaration should be ommited;
      */
     private boolean _omitXmlDeclaration = false;
-
 
     /**
      * Ture if the DOCTYPE declaration should be ommited;
      */
     private boolean _omitDoctype = false;
 
-
     /**
      * Ture if comments should be ommited;
      */
     private boolean _omitComments = false;
-
 
     /**
      * Ture if the comments should be ommited;
      */
     private final boolean _stripComments = false;
 
-
     /**
      * True if the document type should be marked as standalone.
      */
     private boolean _standalone = false;
-
 
     /**
      * List of element tag names whose text node children must
@@ -230,25 +194,21 @@ public class OutputFormat
      */
     private String[] _cdataElements;
 
-
     /**
      * List of element tag names whose text node children must
      * be output unescaped.
      */
     private String[] _nonEscapingElements;
 
-
     /**
      * The selected line separator.
      */
     private String _lineSeparator = LineSeparator.Web;
 
-
     /**
      * The line width at which to wrap long lines when indenting.
      */
     private int _lineWidth = Defaults.LineWidth;
-
 
     /**
      * True if spaces should be preserved in elements that do not
@@ -267,7 +227,6 @@ public class OutputFormat
     public OutputFormat()
     {
     }
-
 
     /**
      * Constructs a new output format with the default values for
@@ -304,7 +263,6 @@ public class OutputFormat
         return _method;
     }
 
-
     /**
      * Sets the method for this output format.
      *
@@ -315,7 +273,6 @@ public class OutputFormat
     {
         _method = method;
     }
-
 
     /**
      * Returns the version for this output method.
@@ -331,7 +288,6 @@ public class OutputFormat
         return _version;
     }
 
-
     /**
      * Sets the version for this output method.
      * For XML the value would be "1.0", for HTML
@@ -344,7 +300,6 @@ public class OutputFormat
     {
         _version = version;
     }
-
 
     /**
      * Returns the indentation specified. If no indentation
@@ -359,7 +314,6 @@ public class OutputFormat
         return _indent;
     }
 
-
     /**
      * Returns true if indentation was specified.
      */
@@ -367,7 +321,6 @@ public class OutputFormat
     {
         return ( _indent > 0 );
     }
-
 
     /**
      * Sets the indentation. The document will not be
@@ -384,7 +337,6 @@ public class OutputFormat
         else
             _indent = indent;
     }
-
 
     /**
      * Sets the indentation on and off. When set on, the default
@@ -406,7 +358,6 @@ public class OutputFormat
         }
     }
 
-
     /**
      * Returns the specified encoding. If no encoding was
      * specified, the default is always "UTF-8".
@@ -417,7 +368,6 @@ public class OutputFormat
     {
         return _encoding;
     }
-
 
     /**
      * Sets the encoding for this output method. If no
@@ -480,7 +430,6 @@ public class OutputFormat
         return _mediaType;
     }
 
-
     /**
      * Sets the media type.
      *
@@ -491,7 +440,6 @@ public class OutputFormat
     {
         _mediaType = mediaType;
     }
-
 
     /**
      * Sets the document type public and system identifiers.
@@ -510,7 +458,6 @@ public class OutputFormat
         _doctypeSystem = systemId;
     }
 
-
     /**
      * Returns the specified document type public identifier,
      * or null.
@@ -519,7 +466,6 @@ public class OutputFormat
     {
         return _doctypePublic;
     }
-
 
     /**
      * Returns the specified document type system identifier,
@@ -530,7 +476,6 @@ public class OutputFormat
         return _doctypeSystem;
     }
 
-
     /**
      * Returns true if comments should be ommited.
      * The default is false.
@@ -539,7 +484,6 @@ public class OutputFormat
     {
         return _omitComments;
     }
-
 
     /**
      * Sets comment omitting on and off.
@@ -551,7 +495,6 @@ public class OutputFormat
         _omitComments = omit;
     }
 
-
     /**
      * Returns true if the DOCTYPE declaration should
      * be ommited. The default is false.
@@ -560,7 +503,6 @@ public class OutputFormat
     {
         return _omitDoctype;
     }
-
 
     /**
      * Sets DOCTYPE declaration omitting on and off.
@@ -572,7 +514,6 @@ public class OutputFormat
         _omitDoctype = omit;
     }
 
-
     /**
      * Returns true if the XML document declaration should
      * be ommited. The default is false.
@@ -581,7 +522,6 @@ public class OutputFormat
     {
         return _omitXmlDeclaration;
     }
-
 
     /**
      * Sets XML declaration omitting on and off.
@@ -593,7 +533,6 @@ public class OutputFormat
         _omitXmlDeclaration = omit;
     }
 
-
     /**
      * Returns true if the document type is standalone.
      * The default is false.
@@ -602,7 +541,6 @@ public class OutputFormat
     {
         return _standalone;
     }
-
 
     /**
      * Sets document DTD standalone. The public and system
@@ -616,7 +554,6 @@ public class OutputFormat
         _standalone = standalone;
     }
 
-
     /**
      * Returns a list of all the elements whose text node children
      * should be output as CDATA, or null if no such elements were
@@ -626,7 +563,6 @@ public class OutputFormat
     {
         return _cdataElements;
     }
-
 
     /**
      * Returns true if the text node children of the given elements
@@ -647,7 +583,6 @@ public class OutputFormat
         return false;
     }
 
-
     /**
      * Sets the list of elements for which text node children
      * should be output as CDATA.
@@ -659,7 +594,6 @@ public class OutputFormat
         _cdataElements = cdataElements;
     }
 
-
     /**
      * Returns a list of all the elements whose text node children
      * should be output unescaped (no character references), or null
@@ -669,7 +603,6 @@ public class OutputFormat
     {
         return _nonEscapingElements;
     }
-
 
     /**
      * Returns true if the text node children of the given elements
@@ -691,7 +624,6 @@ public class OutputFormat
         return false;
     }
 
-
     /**
      * Sets the list of elements for which text node children
      * should be output unescaped (no character references).
@@ -702,8 +634,6 @@ public class OutputFormat
     {
         _nonEscapingElements = nonEscapingElements;
     }
-
-
 
     /**
      * Returns a specific line separator to use. The default is the
@@ -716,7 +646,6 @@ public class OutputFormat
     {
         return _lineSeparator;
     }
-
 
     /**
      * Sets the line separator. The default is the Web line separator
@@ -735,7 +664,6 @@ public class OutputFormat
             _lineSeparator = lineSeparator;
     }
 
-
     /**
      * Returns true if the default behavior for this format is to
      * preserve spaces. All elements that do not specify otherwise
@@ -747,7 +675,6 @@ public class OutputFormat
     {
         return _preserve;
     }
-
 
     /**
      * Sets space preserving as the default behavior. The default is
@@ -761,7 +688,6 @@ public class OutputFormat
         _preserve = preserve;
     }
 
-
     /**
      * Return the selected line width for breaking up long lines.
      * When indenting, and only when indenting, long lines will be
@@ -772,7 +698,6 @@ public class OutputFormat
     {
         return _lineWidth;
     }
-
 
     /**
      * Sets the line width. If zero then no line wrapping will
@@ -816,7 +741,6 @@ public class OutputFormat
             return 0xFFFF;
     }
 
-
     /**
      * Returns the suitable media format for a document
      * output with the specified method.
@@ -835,6 +759,5 @@ public class OutputFormat
             return "application/pdf";
         return null;
     }
-
 
 }

@@ -21,25 +21,10 @@
 
 package java.sql.share.classes.java.sql;
 
-
 import java.sql.share.classes.java.math.BigDecimal;
 import java.sql.share.classes.java.util.Calendar;
 import java.sql.share.classes.java.io.Reader;
 import java.sql.share.classes.java.io.InputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An object that represents a precompiled SQL statement.
@@ -758,7 +743,6 @@ public interface PreparedStatement extends Statement {
      *
      */
     void setRowId(int parameterIndex, RowId x) throws SQLException;
-
 
     /**
      * Sets the designated parameter to the given {@code String} object.

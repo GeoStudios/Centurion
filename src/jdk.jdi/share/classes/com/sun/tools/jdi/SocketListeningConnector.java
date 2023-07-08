@@ -21,27 +21,12 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Map;
 import jdk.jdi.share.classes.com.sun.jdi.connect.Connector;
 import jdk.jdi.share.classes.com.sun.jdi.connect.IllegalConnectorArgumentsException;
 import jdk.jdi.share.classes.com.sun.jdi.connect.Transport;
 import jdk.jdi.share.classes.com.sun.jdi.connect.spi.TransportService;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * A ListeningConnector that uses the SocketTransportService

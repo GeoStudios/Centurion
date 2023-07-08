@@ -21,23 +21,8 @@
 
 package hotspot.share.prims;
 
-
 import java.io.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class jvmtiEnvFill {
 
@@ -52,7 +37,6 @@ class jvmtiEnvFill {
 
         SourceFile filledSF = new SourceFile(filledFN);
         SourceFile stubSF = new SourceFile(stubFN);
-
 
         stubSF.fill(filledSF);
 

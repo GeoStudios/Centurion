@@ -21,21 +21,6 @@
 
 package compiler.jvmci.common.testcases;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class AbstractClassExtender extends AbstractClass {
     @Override
     public void abstractMethod() {

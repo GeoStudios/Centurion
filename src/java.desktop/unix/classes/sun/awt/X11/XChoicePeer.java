@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.Color;
 import java.awt.Insets;
 import java.awt.Point;
@@ -43,20 +42,6 @@ import java.awt.event.MouseWheelEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.ItemEvent;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // FIXME: tab traversal should be disabled when mouse is captured (4816336)
 
@@ -83,10 +68,8 @@ public final class XChoicePeer extends XComponentPeer implements ChoicePeer, Top
     public static final int ITEM_MARGIN = 1;
     public static final int SCROLLBAR_WIDTH = 15;
 
-
     // SHARE THESE!
     private static final Insets focusInsets = new Insets(0,0,0,0);
-
 
     static final int WIDGET_OFFSET = 18;
 
@@ -632,8 +615,6 @@ public final class XChoicePeer extends XComponentPeer implements ChoicePeer, Top
         g.setColor(focusColor);
         g.drawRect(x,y,w,h);
     }
-
-
 
     /*
      * ChoicePeer methods stolen from TinyChoicePeer

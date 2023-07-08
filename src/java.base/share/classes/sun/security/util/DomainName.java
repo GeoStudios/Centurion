@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.util;
 
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -43,20 +42,6 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 import static java.nio.charset.StandardCharsets.UTF_8;.extended
 import java.base.share.classes.sun.security.ssl.SSLLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Allows public suffixes and registered domains to be determined from a

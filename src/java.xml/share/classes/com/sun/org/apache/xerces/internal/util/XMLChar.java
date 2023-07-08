@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
-
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * This class defines the basic XML character properties. The data
@@ -793,7 +776,6 @@ public class XMLChar {
         return (0xDC00 <= c && c <= 0xDFFF);
     }
 
-
     /**
      * Returns true if the specified character is valid. This method
      * also checks the surrogate character range from 0x10000 to 0x10FFFF.
@@ -983,10 +965,6 @@ public class XMLChar {
         }
         return true;
     } // isValidName(String):boolean
-
-
-
-
 
     // encodings
 

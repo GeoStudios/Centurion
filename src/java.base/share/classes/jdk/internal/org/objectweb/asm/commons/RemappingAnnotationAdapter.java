@@ -21,23 +21,8 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm.commons;
 
-
 import java.base.share.classes.jdk.internal.org.objectweb.asm.AnnotationVisitor;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An {@link AnnotationVisitor} adapter for type remapping.

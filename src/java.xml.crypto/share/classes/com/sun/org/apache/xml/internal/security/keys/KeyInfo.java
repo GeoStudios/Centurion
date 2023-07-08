@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys;
 
-
 import java.base.share.classes.java.security.PrivateKey;
 import java.base.share.classes.java.security.PublicKey;
 import java.security.cert.X509Certificate;
@@ -55,28 +54,10 @@ import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
-
 
 /**
  * This class stand for KeyInfo Element that may contain keys, names,
@@ -1202,7 +1183,6 @@ public class KeyInfo extends SignatureElementProxy {
         }
         this.storageResolvers.add(storageResolver);
     }
-
 
     /** {@inheritDoc} */
     public String getBaseLocalName() {

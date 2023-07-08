@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Dimension;
@@ -57,20 +56,6 @@ import javax.swing.JTextArea;
 import javax.swing.KeyStroke;
 import java.desktop.macosx.classes.sun.awt.AWTAccessor;
 import java.desktop.macosx.classes.sun.lwawt.LWWindowPeer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("removal")
 class CAccessibility implements PropertyChangeListener {
@@ -772,7 +757,6 @@ class CAccessibility implements PropertyChangeListener {
         }
         return role;
     }
-
 
     // Either gets the immediate children of a, or recursively gets all unignored children of a
     private static void _addChildren(final Accessible a, final int whichChildren, final boolean allowIgnored, final ArrayList<Object> childrenAndRoles) {

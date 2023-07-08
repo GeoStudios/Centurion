@@ -21,21 +21,7 @@
 
 package compiler.c1;
 
-
 import jdk.test.lib.Asserts;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -48,8 +34,6 @@ import jdk.test.lib.Asserts;
  *                   -XX:CompileCommand=compileonly,*ArithmeticRemRCE.test*
  *                   compiler.c1.ArithmeticRemRCE
  */
-
-
 
 public class ArithmeticRemRCE {
     static int field = 1000;

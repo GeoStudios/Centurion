@@ -21,25 +21,11 @@
 
 package compiler.testlibrary.rtm;
 
-
 import jdk.test.lib.Asserts;
 import sun.hotspot.WhiteBox;
 import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base class for different transactional execution abortion

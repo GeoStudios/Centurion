@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 6772683
@@ -43,7 +28,6 @@ package compiler.c2;
  *
  * @run main/othervm compiler.c2.InterruptedTest 100
  */
-
 
 public class InterruptedTest {
 

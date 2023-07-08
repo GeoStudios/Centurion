@@ -21,27 +21,12 @@
 
 package jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor;
 
-
 import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.*;
 import java.util.*;
 import java.nio.*;
 import java.io.*;
 import java.net.*;
 import java.util.regex.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The base classes for the concrete implementations of the HotSpot
@@ -76,7 +61,6 @@ public abstract class PerfDataBufferImpl {
      * A cache of resolved monitor aliases.
      */
     protected Map<String, Monitor> aliasCache;
-
 
     /**
      * Constructor.
@@ -222,7 +206,6 @@ public abstract class PerfDataBufferImpl {
         }
         return m;
     }
-
 
     /**
      * Find a named Instrumentation object.

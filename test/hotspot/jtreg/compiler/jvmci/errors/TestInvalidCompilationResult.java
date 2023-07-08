@@ -21,7 +21,6 @@
 
 package compiler.jvmci.errors;
 
-
 import jdk.vm.ci.code.StackSlot;
 import jdk.vm.ci.code.site.ConstantReference;
 import jdk.vm.ci.code.site.DataPatch;
@@ -38,19 +37,6 @@ import jdk.vm.ci.meta.Assumptions.Assumption;
 import jdk.vm.ci.meta.VMConstant;
 import org.junit.Test;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @requires vm.jvmci
@@ -64,8 +50,6 @@ import org.junit.Test;
  * @run junit/othervm -da:jdk.vm.ci... -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI
  *                   -XX:-UseJVMCICompiler compiler.jvmci.errors.TestInvalidCompilationResult
  */
-
-
 
 /**
  * Tests for errors in the code installer.

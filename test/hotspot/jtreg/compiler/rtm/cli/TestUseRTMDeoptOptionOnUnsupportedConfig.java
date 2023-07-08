@@ -21,21 +21,7 @@
 
 package compiler.rtm.cli;
 
-
 import jdk.test.lib.cli.CommandLineOptionTest;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -49,8 +35,6 @@ import jdk.test.lib.cli.CommandLineOptionTest;
  * @requires !vm.rtm.cpu & vm.rtm.compiler
  * @run driver compiler.rtm.cli.TestUseRTMDeoptOptionOnUnsupportedConfig
  */
-
-
 
 public class TestUseRTMDeoptOptionOnUnsupportedConfig
         extends RTMGenericCommandLineOptionTest {

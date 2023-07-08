@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.java.awt.peer;
 
-
 import java.desktop.share.classes.java.awt.Event;
 import java.desktop.share.classes.java.awt.PopupMenu;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The peer interface for {@link PopupMenu}.

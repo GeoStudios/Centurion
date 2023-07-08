@@ -21,7 +21,6 @@
 
 package jdk.jstatd.share.classes.sun.tools.jstatd;
 
-
 import java.util.*;
 import java.nio.*;
 import java.io.*;
@@ -31,20 +30,6 @@ import java.rmi.server.*;
 import jdk.jstatd.share.classes.sun.jvmstat.monitor.*;
 import jdk.jstatd.share.classes.sun.jvmstat.monitor.event.*;
 import jdk.jstatd.share.classes.sun.jvmstat.monitor.remote.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Concrete implementation of the RemoteHost interface for the HotSpot

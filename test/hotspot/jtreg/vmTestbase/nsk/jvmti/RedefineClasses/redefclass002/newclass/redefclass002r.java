@@ -21,21 +21,7 @@
 
 package nsk.jvmti.RedefineClasses;
 
-
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is new version of the redefined class

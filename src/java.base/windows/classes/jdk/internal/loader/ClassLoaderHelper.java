@@ -21,22 +21,7 @@
 
 package java.base.windows.classes.jdk.internal.loader;
 
-
 import java.io.File;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class ClassLoaderHelper {
 

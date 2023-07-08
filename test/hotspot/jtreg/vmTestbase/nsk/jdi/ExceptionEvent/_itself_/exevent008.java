@@ -21,7 +21,6 @@
 
 package nsk.jdi.ExceptionEvent._itself_;
 
-
 import com.sun.jdi.VirtualMachine;
 import com.sun.jdi.request.EventRequestManager;
 import com.sun.jdi.request.EventRequest;
@@ -38,19 +37,6 @@ import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test checks that both caught and uncaught exception events

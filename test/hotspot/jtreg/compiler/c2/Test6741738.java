@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 6741738
@@ -45,7 +30,6 @@ package compiler.c2;
  *      -XX:CompileCommand=compileonly,compiler.c2.Test6741738::foo
  *      compiler.c2.Test6741738
  */
-
 
 public class Test6741738 {
     private String[] values;

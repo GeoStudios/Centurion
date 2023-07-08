@@ -21,26 +21,12 @@
 
 package nsk.monitoring.share.proxy;
 
-
 import javax.management.MBeanServer;
 import java.lang.management.*;
 import javax.management.*;
 import nsk.monitoring.share.*;
 import java.util.*;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ProxyMonitoringFactory implements MonitoringFactory {
         private MBeanServer mbeanServer;

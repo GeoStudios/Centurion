@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.jdk.xml.internal;
 
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -38,20 +37,6 @@ import java.base.share.classes.java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.Properties;
 import java.util.ResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class contains utility methods for reading resources in the JAXP packages
@@ -403,7 +388,6 @@ public class SecuritySupport {
         });
     }
 
-
     @SuppressWarnings("removal")
     public static ClassLoader getSystemClassLoader() {
         return AccessController.doPrivileged((PrivilegedAction<ClassLoader>) () -> {
@@ -430,7 +414,6 @@ public class SecuritySupport {
             return (parent == cl) ? null : parent;
         });
     }
-
 
     // Used for debugging purposes
     @SuppressWarnings("removal")

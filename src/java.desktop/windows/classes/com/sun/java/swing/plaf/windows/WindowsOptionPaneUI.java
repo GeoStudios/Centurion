@@ -21,22 +21,7 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-
 import javax.swing.plaf.basic.BasicOptionPaneUI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Windows rendition of the component.

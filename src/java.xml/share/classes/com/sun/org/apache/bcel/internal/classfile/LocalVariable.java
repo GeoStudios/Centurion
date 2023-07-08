@@ -21,25 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
-
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents a local variable within a method. It contains its
@@ -69,7 +54,6 @@ public final class LocalVariable implements Cloneable, Node {
     private ConstantPool constantPool;
     private int origIndex; // never changes; used to match up with LocalVariableTypeTable entries
 
-
     /**
      * Initializes from another LocalVariable. Note that both objects use the same
      * references (shallow copy). Use copy() for a physical copy.
@@ -92,7 +76,6 @@ public final class LocalVariable implements Cloneable, Node {
                 .readUnsignedShort(), file.readUnsignedShort(), constant_pool);
     }
 
-
     /**
      * @param startPc Range in which the variable
      * @param length ... is valid
@@ -111,7 +94,6 @@ public final class LocalVariable implements Cloneable, Node {
         this.constantPool = constantPool;
         this.origIndex = index;
     }
-
 
     /**
      * @param startPc Range in which the variable
@@ -133,7 +115,6 @@ public final class LocalVariable implements Cloneable, Node {
         this.origIndex = origIndex;
     }
 
-
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
      * defined by the contents of a Java class. I.e., the hierarchy of methods,
@@ -145,7 +126,6 @@ public final class LocalVariable implements Cloneable, Node {
     public void accept( final Visitor v ) {
         v.visitLocalVariable(this);
     }
-
 
     /**
      * Dumps local variable to file stream in binary format.
@@ -169,14 +149,12 @@ public final class LocalVariable implements Cloneable, Node {
         return constantPool;
     }
 
-
     /**
      * @return Variable is valid within getStartPC() .. getStartPC()+getLength()
      */
     public int getLength() {
         return length;
     }
-
 
     /**
      * @return Variable name.
@@ -187,14 +165,12 @@ public final class LocalVariable implements Cloneable, Node {
         return c.getBytes();
     }
 
-
     /**
      * @return Index in constant pool of variable name.
      */
     public int getNameIndex() {
         return nameIndex;
     }
-
 
     /**
      * @return Signature.
@@ -205,14 +181,12 @@ public final class LocalVariable implements Cloneable, Node {
         return c.getBytes();
     }
 
-
     /**
      * @return Index in constant pool of variable signature.
      */
     public int getSignatureIndex() {
         return signatureIndex;
     }
-
 
     /**
      * @return index of register where variable is stored
@@ -221,7 +195,6 @@ public final class LocalVariable implements Cloneable, Node {
         return index;
     }
 
-
     /**
      * @return index of register where variable was originally stored
      */
@@ -229,14 +202,12 @@ public final class LocalVariable implements Cloneable, Node {
         return origIndex;
     }
 
-
     /**
      * @return Start of range where the variable is valid
      */
     public int getStartPC() {
         return startPc;
     }
-
 
     /*
      * Helper method shared with LocalVariableTypeTable
@@ -249,14 +220,12 @@ public final class LocalVariable implements Cloneable, Node {
                 + index + ":" + signature + " " + name + ")";
     }
 
-
     /**
      * @param constantPool Constant pool to be used for this object.
      */
     public void setConstantPool( final ConstantPool constantPool ) {
         this.constantPool = constantPool;
     }
-
 
     /**
      * @param length the length of this local variable
@@ -265,14 +234,12 @@ public final class LocalVariable implements Cloneable, Node {
         this.length = length;
     }
 
-
     /**
      * @param nameIndex the index into the constant pool for the name of this variable
      */
     public void setNameIndex( final int nameIndex ) { // TODO unused
         this.nameIndex = nameIndex;
     }
-
 
     /**
      * @param signatureIndex the index into the constant pool for the signature of this variable
@@ -281,14 +248,12 @@ public final class LocalVariable implements Cloneable, Node {
         this.signatureIndex = signatureIndex;
     }
 
-
     /**
      * @param index the index in the local variable table of this variable
      */
     public void setIndex( final int index ) { // TODO unused
         this.index = index;
     }
-
 
     /**
      * @param startPc Specify range where the local variable is valid.
@@ -297,7 +262,6 @@ public final class LocalVariable implements Cloneable, Node {
         this.startPc = startPc;
     }
 
-
     /**
      * @return string representation.
      */
@@ -305,7 +269,6 @@ public final class LocalVariable implements Cloneable, Node {
     public String toString() {
         return toStringShared(false);
     }
-
 
     /**
      * @return deep copy of this object

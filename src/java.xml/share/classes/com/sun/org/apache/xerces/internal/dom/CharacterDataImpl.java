@@ -21,31 +21,14 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * CharacterData is an abstract Node that can carry character data as its
@@ -241,7 +224,6 @@ public abstract class CharacterDataImpl
         internalDeleteData(offset, count, false);
     } // deleteData(int,int)
 
-
     /** NON-DOM INTERNAL: Within DOM actions, we sometimes need to be able
      * to control which mutation events are spawned. This version of the
      * deleteData operation allows us to do so. It is not intended
@@ -299,8 +281,6 @@ public abstract class CharacterDataImpl
 
     } // insertData(int,int)
 
-
-
     /** NON-DOM INTERNAL: Within DOM actions, we sometimes need to be able
      * to control which mutation events are spawned. This version of the
      * insertData operation allows us to do so. It is not intended
@@ -323,7 +303,6 @@ public abstract class CharacterDataImpl
             String value =
                 new StringBuffer(this.data).insert(offset, data).toString();
 
-
             setNodeValueInternal(value, replace);
 
             // notify document
@@ -335,8 +314,6 @@ public abstract class CharacterDataImpl
         }
 
     } // internalInsertData(int,String,boolean)
-
-
 
     /**
      * Replace a series of characters at the specified (zero-based)

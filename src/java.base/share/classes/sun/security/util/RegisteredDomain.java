@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.security.util;
 
-
 import java.util.Optional;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A domain that is registered under a "public suffix". The public suffix is

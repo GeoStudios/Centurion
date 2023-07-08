@@ -21,7 +21,6 @@
 
 package java.sql.rowset.share.classes.com.sun.rowset.internal;
 
-
 import java.util.*;
 import org.xml.sax.*;
 import org.xml.sax.helpers.*;
@@ -31,20 +30,6 @@ import javax.sql.rowset.*;
 import java.sql.rowset.share.classes.com.sun.rowset.*;
 import java.io.java.io.java.io.java.io.IOException;
 import java.text.MessageFormat;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The document handler that receives parse events that an XML parser sends while it
@@ -276,7 +261,6 @@ public class XmlReaderContentHandler extends DefaultHandler {
                         "schema-name", "column-precision", "column-scale",
                         "table-name", "catalog-name", "column-type",
                         "column-type-name", "null"};
-
 
     /**
      * A constant representing the tag for column-count.
@@ -515,7 +499,6 @@ public class XmlReaderContentHandler extends DefaultHandler {
 
     public void endDocument() throws SAXException {
     }
-
 
     /**
      * Sets this <code>XmlReaderContentHandler</code> object's <code>tag</code>
@@ -845,7 +828,6 @@ public class XmlReaderContentHandler extends DefaultHandler {
                 }
             updates.removeAllElements();
         }
-
 
     }
 
@@ -1453,8 +1435,5 @@ public class XmlReaderContentHandler extends DefaultHandler {
          // return(new Row(numCols, vals));
          return null;
    }
-
-
-
 
 }

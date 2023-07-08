@@ -21,23 +21,9 @@
 
 package nsk.jdi.MethodExitEvent.returnValue.returnValue003;
 
-
 import nsk.share.*;
 import nsk.share.jpda.ForceEarlyReturnTestThread;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Debuggee class, handles commands for starting and stoping ForceEarlyReturnTestThread.

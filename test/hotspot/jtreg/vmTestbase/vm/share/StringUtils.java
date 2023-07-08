@@ -21,23 +21,9 @@
 
 package vm.share;
 
-
 import java.io.ByteArrayOutputStream;
 import java.util.Random;
 import java.util.function.Predicate;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class StringUtils {
 

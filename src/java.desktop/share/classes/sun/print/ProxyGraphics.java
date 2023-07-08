@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.print;
 
-
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.FontMetrics;
@@ -32,20 +31,6 @@ import java.awt.Rectangle;
 import java.awt.Shape;
 import java.awt.image.ImageObserver;
 import java.text.AttributedCharacterIterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implements the Graphics API but does all
@@ -233,7 +218,6 @@ public class ProxyGraphics extends Graphics {
     public FontMetrics getFontMetrics(Font f) {
         return g.getFontMetrics(f);
     }
-
 
     /**
      * Returns the bounding rectangle of the current clipping area.

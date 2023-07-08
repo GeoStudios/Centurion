@@ -21,22 +21,7 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.Comment;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  Marker comments to identify regions in the generated files.

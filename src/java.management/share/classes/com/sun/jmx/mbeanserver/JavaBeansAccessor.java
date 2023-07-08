@@ -21,25 +21,10 @@
 
 package java.management.share.classes.com.sun.jmx.mbeanserver;
 
-
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import jdk.internal.access.JavaBeansAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A centralized place for gaining access to java.beans related functionality -

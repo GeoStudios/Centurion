@@ -21,21 +21,7 @@
 
 package jaxp.library;
 
-
 import org.testng.annotations.DataProvider;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provide invalid parameters for negative testing Factory.newInstance.

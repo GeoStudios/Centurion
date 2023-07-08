@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.identity;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xpath.XPath;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.IntStack;
@@ -31,20 +30,6 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.AttributePSV
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.Shortjava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * XPath matcher.
@@ -124,7 +109,6 @@ public class XPathMatcher {
     private final int [] fNoMatchDepth;
 
     final QName fQName = new QName();
-
 
     //
     // Constructors
@@ -208,7 +192,6 @@ public class XPathMatcher {
             fNoMatchDepth[i] = 0;
             fMatched[i] = 0;
         }
-
 
     } // startDocumentFragment()
 

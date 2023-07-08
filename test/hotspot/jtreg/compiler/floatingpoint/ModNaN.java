@@ -21,21 +21,6 @@
 
 package compiler.floatingpoint;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8015396
@@ -43,7 +28,6 @@ package compiler.floatingpoint;
  *
  * @run main compiler.floatingpoint.ModNaN
  */
-
 
 public class ModNaN {
     /* This bug was seen in the field for a particular version of the VM,

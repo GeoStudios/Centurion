@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
-
 import java.io.InputStream;
 import java.io.ByteArrayInputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ByteArrayImageSource extends InputStreamImageSource {
     byte[] imagedata;

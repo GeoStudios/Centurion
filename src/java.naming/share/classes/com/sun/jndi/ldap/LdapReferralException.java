@@ -21,25 +21,10 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
-
 import javax.naming.*;
 import javax.naming.ldap.Control;
 import java.util.Hashtable;
 import java.util.Vector;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * This exception is raised when a referral to an alternative context
@@ -215,7 +200,6 @@ public final class LdapReferralException extends
 
         return (hasMoreReferrals() || hasMoreReferralExceptions());
     }
-
 
     /**
      * Sets referral information.

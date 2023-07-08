@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-
 import java.desktop.share.classes.com.sun.java.awt.event.*;
 import javax.swing.MenuSelectionManager;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A default MouseListener for menu elements

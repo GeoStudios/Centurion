@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
@@ -29,20 +28,6 @@ import java.util.Map.Entry;
 import javax.swing.Icon;
 import javax.swing.filechooser.FileView;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings({"removal","serial"}) // JDK implementation class
 class AquaFileView extends FileView {
@@ -134,7 +119,6 @@ class AquaFileView extends FileView {
         cache.put(file, newInfo);
         return newInfo;
     }
-
 
     final AquaFileChooserUI fFileChooserUI;
     public AquaFileView(final AquaFileChooserUI fileChooserUI) {

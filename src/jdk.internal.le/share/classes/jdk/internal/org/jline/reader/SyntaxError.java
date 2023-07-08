@@ -21,22 +21,6 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.reader;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class SyntaxError extends RuntimeException {
 
     private static final long serialVersionUID = 1L;

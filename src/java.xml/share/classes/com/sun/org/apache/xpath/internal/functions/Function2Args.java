@@ -21,27 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.functions;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.Expression;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.ExpressionOwner;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathVisitor;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base class for functions that accept two arguments.
@@ -83,7 +68,6 @@ public class Function2Args extends FunctionOneArg
     if(null != m_arg1)
       m_arg1.fixupVariables(vars, globalsSize);
   }
-
 
   /**
    * Set an argument expression for a function.  This method is called by the
@@ -155,7 +139,6 @@ public class Function2Args extends FunctionOneArg
       return m_arg1;
     }
 
-
     /**
      * @see ExpressionOwner#setExpression(Expression)
      */
@@ -165,7 +148,6 @@ public class Function2Args extends FunctionOneArg
         m_arg1 = exp;
     }
   }
-
 
   /**
    * @see com.sun.org.apache.xpath.internal.XPathVisitable#callVisitors(ExpressionOwner, XPathVisitor)

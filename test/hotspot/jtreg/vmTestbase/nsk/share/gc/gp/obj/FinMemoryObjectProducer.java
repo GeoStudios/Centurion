@@ -21,22 +21,8 @@
 
 package nsk.share.gc.gp.obj;
 
-
 import nsk.share.gc.gp.GarbageProducer;
 import nsk.share.gc.FinMemoryObject;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class FinMemoryObjectProducer implements GarbageProducer<FinMemoryObject> {
         public FinMemoryObject create(long memory) {

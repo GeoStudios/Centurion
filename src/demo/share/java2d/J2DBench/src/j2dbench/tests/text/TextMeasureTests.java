@@ -21,7 +21,6 @@
 
 package demo.share.java2d.J2DBench.src.j2dbench.tests.text;
 
-
 import java.awt.Font;
 import java.awt.FontMetrics;
 import java.awt.Rectangle;
@@ -38,20 +37,6 @@ import demo.share.java2d.J2DBench.src.j2dbench.Group;
 import demo.share.java2d.J2DBench.src.j2dbench.Result;
 import demo.share.java2d.J2DBench.src.j2dbench.TestEnvironment;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -59,11 +44,6 @@ import demo.share.java2d.J2DBench.src.j2dbench.TestEnvironment;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
-
 
 public abstract class TextMeasureTests extends TextTests {
     static Group measureroot;
@@ -352,7 +332,6 @@ public abstract class TextMeasureTests extends TextTests {
             } while (--numReps >= 0);
         }
     }
-
 
     public static class GVGlyphPixelBounds extends GVMeasureTest {
         public GVGlyphPixelBounds() {

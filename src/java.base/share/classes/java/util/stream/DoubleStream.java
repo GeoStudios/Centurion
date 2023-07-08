@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util.stream;
 
-
 import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
 import java.base.share.classes.java.util.DoubleSummaryStatistics;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
@@ -41,20 +40,6 @@ import java.base.share.classes.java.util.function.DoubleUnaryOperator;
 import java.base.share.classes.java.util.function.Function;
 import java.base.share.classes.java.util.function.ObjDoubleConsumer;
 import java.base.share.classes.java.util.function.Supplier;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A sequence of primitive double-valued elements supporting sequential and parallel
@@ -943,7 +928,6 @@ public interface DoubleStream extends BaseStream<Double, DoubleStream> {
 
     @Override
     Spliterator.OfDouble spliterator();
-
 
     // Static factories
 

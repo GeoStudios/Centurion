@@ -21,7 +21,6 @@
 
 package jdk.jshell.share.classes.jdk.jshell;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Collections;
@@ -36,20 +35,6 @@ import static jdk.jshell.share.classes.jdk.jshell.Util.PREFIX_PATTERN;.extended
 import static jdk.jshell.share.classes.jdk.jshell.Util.REPL_CLASS_PREFIX;.extended
 import static jdk.jshell.share.classes.jdk.jshell.Util.REPL_DOESNOTMATTER_CLASS_NAME;.extended
 import static jdk.jshell.share.classes.jdk.jshell.Util.asLetters;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

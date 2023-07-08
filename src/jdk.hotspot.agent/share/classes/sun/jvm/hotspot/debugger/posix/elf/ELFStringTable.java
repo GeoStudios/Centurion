@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.posix.elf;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface ELFStringTable {
     String get(int index);
     int getNumStrings();

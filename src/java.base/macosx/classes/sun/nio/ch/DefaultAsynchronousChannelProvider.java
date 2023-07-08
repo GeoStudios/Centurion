@@ -21,22 +21,7 @@
 
 package java.base.macosx.classes.sun.nio.ch;
 
-
 import java.nio.channels.spi.AsynchronousChannelProvider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Creates this platform's default AsynchronousChannelProvider

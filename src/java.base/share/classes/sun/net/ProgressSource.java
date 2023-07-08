@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.net;
 
-
 import java.net.URL;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * ProgressSource represents the source of progress changes.

@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.imageio.plugins.jpeg;
 
-
 import java.desktop.share.classes.javax.imageio.ImageReadParam;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class adds the ability to set JPEG quantization and Huffman

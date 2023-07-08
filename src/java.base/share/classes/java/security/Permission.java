@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.security;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Abstract class for representing access to a system resource.
  * All permissions have a name (whose interpretation depends on the subclass),

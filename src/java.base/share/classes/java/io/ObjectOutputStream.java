@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.io;
 
-
 import java.base.share.classes.java.io.ObjectStreamClass.WeakClassKey;
 import java.base.share.classes.java.lang.ref.ReferenceQueue;
 import java.base.share.classes.java.security.AccessController;
@@ -34,20 +33,6 @@ import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
 import java.base.share.classes.java.util.concurrent.ConcurrentMap;
 import static java.base.share.classes.java.io.ObjectStreamClass.processQueue;.extended
 import sun.reflect.misc.ReflectUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An ObjectOutputStream writes primitive data types and graphs of Java objects
@@ -1020,7 +1005,6 @@ public class ObjectOutputStream
         public abstract void write(ObjectOutput out) throws IOException;
     }
 
-
     /**
      * Returns protocol version in use.
      */
@@ -1913,7 +1897,6 @@ public class ObjectOutputStream
             }
         }
 
-
         /* ----------------- primitive data output methods ----------------- */
         /*
          * The following methods are equivalent to their counterparts in
@@ -2024,7 +2007,6 @@ public class ObjectOutputStream
         public void writeUTF(String s) throws IOException {
             writeUTF(s, getUTFLength(s));
         }
-
 
         /* -------------- primitive data array output methods -------------- */
         /*

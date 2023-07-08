@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.desktop.share.classes.javax.swing.*;
@@ -33,20 +32,6 @@ import sun.awt.AppContext;
 import java.util.Enumeration;
 import java.util.HashSet;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * RadioButtonUI implementation for BasicRadioButtonUI
@@ -128,7 +113,6 @@ public class BasicRadioButtonUI extends BasicToggleButtonUI
         return icon;
     }
 
-
     /* These Dimensions/Rectangles are allocated once for all
      * RadioButtonUI.paint() calls.  Re-using rectangles
      * rather than allocating them in each paint call substantially
@@ -178,7 +162,6 @@ public class BasicRadioButtonUI extends BasicToggleButtonUI
             g.fillRect(0,0, size.width, size.height);
         }
 
-
         // Paint the radio button
         if(altIcon != null) {
 
@@ -217,7 +200,6 @@ public class BasicRadioButtonUI extends BasicToggleButtonUI
             getDefaultIcon().paintIcon(c, g, iconRect.x, iconRect.y);
         }
 
-
         // Draw the Text
         if(text != null) {
             View v = (View) c.getClientProperty(BasicHTML.propertyKey);
@@ -242,7 +224,6 @@ public class BasicRadioButtonUI extends BasicToggleButtonUI
      */
     protected void paintFocus(Graphics g, Rectangle textRect, Dimension size) {
     }
-
 
     /* These Insets/Rectangles are allocated once for all
      * RadioButtonUI.getPreferredSize() calls.  Re-using rectangles

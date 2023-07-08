@@ -21,31 +21,14 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolHash;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObjectjava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.ObjectFactory;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Defines a factory API that enables applications to <p>
@@ -77,7 +60,6 @@ public abstract class SchemaDVFactory {
     public static synchronized final SchemaDVFactory getInstance() throws DVFactoryException {
         return getInstance(DEFAULT_FACTORY_CLASS);
     } //getInstance():  SchemaDVFactory
-
 
     /**
      * Get an instance of SchemaDVFactory implementation.

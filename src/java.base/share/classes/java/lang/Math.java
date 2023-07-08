@@ -21,26 +21,11 @@
 
 package java.base.share.classes.java.lang;
 
-
 import java.base.share.classes.java.math.BigDecimal;
 import java.base.share.classes.java.util.Random;
 import jdk.internal.math.FloatConsts;
 import jdk.internal.math.DoubleConsts;
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The class {@code Math} contains methods for performing basic
@@ -405,7 +390,6 @@ public final class Math {
                                    // and should be much faster than doing
                                    // Math.sqrt in software.
     }
-
 
     /**
      * Returns the cube root of a {@code double} value.  For

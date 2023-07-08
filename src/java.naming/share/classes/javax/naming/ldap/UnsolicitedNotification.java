@@ -21,22 +21,7 @@
 
 package java.naming.share.classes.javax.naming.ldap;
 
-
 import java.naming.share.classes.javax.naming.NamingException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This interface represents an unsolicited notification as defined in

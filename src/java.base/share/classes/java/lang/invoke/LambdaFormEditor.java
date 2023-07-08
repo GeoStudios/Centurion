@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-
 import sun.invoke.util.Wrapper;
 import java.base.share.classes.java.lang.ref.SoftReference;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
@@ -34,20 +33,6 @@ import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType.*;.e
 import static java.base.share.classes.java.lang.invoke.MethodHandleImpl.Intrinsic;.extended
 import static java.base.share.classes.java.lang.invoke.MethodHandleImpl.NF_loop;.extended
 import static java.base.share.classes.java.lang.invoke.MethodHandleImpl.makeIntrinsic;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Transforms on LFs.
  *  A lambda-form editor can derive new LFs from its base LF.
@@ -764,7 +749,6 @@ class LambdaFormEditor {
         }
         return buf.endEdit();
     }
-
 
     private LambdaForm makeArgumentCombinationForm(int pos,
                                                    MethodType combinerType,

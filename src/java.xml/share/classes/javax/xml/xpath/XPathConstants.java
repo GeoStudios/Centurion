@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.javax.xml.xpath;
 
-
 import java.xml.share.classes.javax.xml.namespace.QName;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>XPath constants.</p>

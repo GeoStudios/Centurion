@@ -21,7 +21,6 @@
 
 package java.management.share.classes.com.sun.jmx.mbeanserver;
 
-
 import static java.management.share.classes.com.sun.jmx.defaults.JmxProperties.MBEANSERVER_LOGGER;.extended
 import java.security.Permission;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -34,20 +33,6 @@ import javax.management.MBeanPermission;
 import javax.management.ObjectName;
 import javax.management.loading.PrivateClassLoader;
 import java.management.share.classes.com.sun.reflect.misc.ReflectUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class keeps the list of Class Loaders registered in the MBean Server.
@@ -133,7 +118,6 @@ final class ClassLoaderRepositorySupport
         return false;
     }
 
-
     /**
      * List of valid search
      */
@@ -151,7 +135,6 @@ final class ClassLoaderRepositorySupport
         throws ClassNotFoundException {
         return  loadClass(loaders, className, null, null);
     }
-
 
     // from javax.management.loading.DefaultLoaderRepository
     public Class<?> loadClassWithout(ClassLoader without, String className)
@@ -176,7 +159,6 @@ final class ClassLoaderRepositorySupport
         }
     }
 
-
     public Class<?> loadClassBefore(ClassLoader stop, String className)
             throws ClassNotFoundException {
         if (MBEANSERVER_LOGGER.isLoggable(Level.TRACE)) {
@@ -194,7 +176,6 @@ final class ClassLoaderRepositorySupport
             stopValidSearch(stop, className);
         }
     }
-
 
     private Class<?> loadClass(final LoaderEntry[] list,
                                final String className,

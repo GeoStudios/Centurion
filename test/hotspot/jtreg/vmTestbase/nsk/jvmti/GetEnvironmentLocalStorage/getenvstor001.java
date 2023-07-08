@@ -21,23 +21,9 @@
 
 package nsk.jvmti.GetEnvironmentLocalStorage;
 
-
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class getenvstor001 extends DebugeeClass {
 

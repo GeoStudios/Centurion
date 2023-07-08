@@ -21,21 +21,6 @@
 
 package p3;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class Type {
     private static final Object obj = new Object();
 }

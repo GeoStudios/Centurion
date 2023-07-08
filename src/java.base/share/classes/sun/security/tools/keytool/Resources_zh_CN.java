@@ -21,22 +21,6 @@
 
 package java.base.share.classes.sun.security.tools.keytool;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * <p> This class represents the <code>ResourceBundle</code>
  * for the keytool.
@@ -488,7 +472,6 @@ public class Resources_zh_CN extends java.util.ListResourceBundle {
 
         {"showinfo.no.option", "-showinfo \u7F3A\u5C11\u9009\u9879\u3002\u8BF7\u5C1D\u8BD5\u4F7F\u7528 \"keytool -showinfo -tls\"\u3002"},
     };
-
 
     /**
      * Returns the contents of this <code>ResourceBundle</code>.

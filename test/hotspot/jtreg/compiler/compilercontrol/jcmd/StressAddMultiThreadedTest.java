@@ -21,26 +21,12 @@
 
 package compiler.compilercontrol.jcmd;
 
-
 import jdk.test.lib.dcmd.PidJcmdExecutor;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -55,9 +41,6 @@ import java.util.concurrent.TimeUnit;
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run driver compiler.compilercontrol.jcmd.StressAddMultiThreadedTest
  */
-
-
-
 
 public class StressAddMultiThreadedTest extends StressAddJcmdBase {
     private static final int THREADS = Integer.getInteger(

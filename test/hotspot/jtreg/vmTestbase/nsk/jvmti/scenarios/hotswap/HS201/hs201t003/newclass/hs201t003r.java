@@ -21,23 +21,9 @@
 
 package nsk.jvmti.scenarios.hotswap.HS201;
 
-
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A redefining class.

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.provider.certpath;
 
-
 import java.security.InvalidAlgorithmParameterException;
 import java.base.share.classes.java.security.PublicKey;
 import java.security.Timestamp;
@@ -31,20 +30,6 @@ import java.util.*;
 import javax.security.auth.x500.X500Principal;
 import java.base.share.classes.sun.security.util.Debug;
 import java.base.share.classes.sun.security.validator.Validator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Common utility methods and classes used by the PKIX CertPathValidator and

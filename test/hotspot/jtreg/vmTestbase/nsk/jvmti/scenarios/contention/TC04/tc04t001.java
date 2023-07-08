@@ -21,24 +21,10 @@
 
 package nsk.jvmti.scenarios.contention.TC04;
 
-
 import java.io.PrintStream;
 import java.util.concurrent.*;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class tc04t001 extends DebugeeClass {
 

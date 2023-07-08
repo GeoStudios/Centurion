@@ -21,22 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger;
 
-
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is a copy of java.util.HashMap which uses longs as keys

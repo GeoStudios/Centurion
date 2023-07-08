@@ -21,23 +21,8 @@
 
 package jdk.management.share.classes.com.sun.management;
 
-
 import java.lang.management.PlatformManagedObject;
 import javax.management.DynamicMBean;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Management interface for the diagnostic commands for the HotSpot Virtual Machine.

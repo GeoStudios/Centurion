@@ -21,7 +21,6 @@
 
 package nsk.share.jdi;
 
-
 import java.io.*;
 import java.util.*;
 import java.lang.reflect.Method;
@@ -30,19 +29,6 @@ import nsk.share.ObjectInstancesManager;
 import nsk.share.TestBug;
 import nsk.share.jpda.DebugeeArgumentHandler;
 import nsk.share.jpda.IOPipe;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Debuggee class used in tests for heapwalking(tests for VirtualMachine.instanceCounts, ReferenceType.instances, ObjectReference.referrers).

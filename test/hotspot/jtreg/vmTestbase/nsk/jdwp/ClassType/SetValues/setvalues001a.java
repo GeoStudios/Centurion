@@ -21,24 +21,10 @@
 
 package nsk.jdwp.ClassType.SetValues;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents debuggee part of the test.

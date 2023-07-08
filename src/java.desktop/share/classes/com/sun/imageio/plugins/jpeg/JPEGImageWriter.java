@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.jpeg;
 
-
 import java.awt.Dimension;
 import java.awt.Rectangle;
 import java.awt.Transparency;
@@ -58,20 +57,6 @@ import org.w3c.dom.Node;
 import java.desktop.share.classes.com.sun.java2d.Disposer;
 import java.desktop.share.classes.com.sun.java2d.DisposerRecord;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class JPEGImageWriter extends ImageWriter {
 
     ///////// Private variables
@@ -85,7 +70,6 @@ public class JPEGImageWriter extends ImageWriter {
      * by dispose to avoid disposing twice.
      */
     private long structPointer = 0;
-
 
     /** The output stream we write to */
     private ImageOutputStream ios = null;
@@ -1630,7 +1614,6 @@ public class JPEGImageWriter extends ImageWriter {
                                       int [] QtableSelectors,
                                       boolean haveMetadata,
                                       int restartInterval);
-
 
     /**
      * Writes the metadata out when called by the native code,

@@ -21,27 +21,12 @@
 
 package java.base.share.classes.javax.net.ssl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.InetAddress;
 import java.net.java.net.java.net.Serverjava.net.java.net.Socket;
 import java.net.java.net.SocketException;
 import java.base.share.classes.javax.net.java.net.ServerSocketFactory;
 import java.base.share.classes.java.security.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>SSLServerSocketFactory</code>s create
@@ -103,7 +88,6 @@ public abstract class SSLServerSocketFactory extends ServerSocketFactory {
      * @return array of the cipher suites enabled by default
      */
     public abstract String [] getDefaultCipherSuites();
-
 
     /**
      * Returns the names of the cipher suites which could be enabled for use
@@ -188,7 +172,6 @@ class DefaultSSLServerSocketFactory extends SSLServerSocketFactory {
     public ServerSocket createServerSocket() throws IOException {
         return throwException();
     }
-
 
     @Override
     public ServerSocket createServerSocket(int port)

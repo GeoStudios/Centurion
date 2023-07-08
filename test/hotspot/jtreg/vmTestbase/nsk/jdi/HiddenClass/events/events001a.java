@@ -21,25 +21,11 @@
 
 package nsk.jdi.HiddenClass.events;
 
-
 import nsk.jdi.HiddenClass.events.DebuggeeBase;
 import nsk.jdi.HiddenClass.events.HiddenClass;
 import nsk.jdi.HiddenClass.events.HCInterf;
 import nsk.share.jdi.ArgumentHandler;
 import sun.hotspot.WhiteBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Debuggee class. */
 class events001a extends DebuggeeBase {

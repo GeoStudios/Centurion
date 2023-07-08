@@ -21,26 +21,11 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.utils;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityManager.Limit;
 import java.util.Formatter;
 import java.util.HashMap;
 import java.util.Map;
 import jdk.xml.internal.JdkConstants;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A helper for analyzing entity expansion limits
@@ -159,7 +144,6 @@ public final class XMLLimitAnalyzer {
             values[index] = accumulatedValue;
             names[index] = entityName;
         }
-
 
         if (index == Limit.GENERAL_ENTITY_SIZE_LIMIT.ordinal() ||
                 index == Limit.PARAMETER_ENTITY_SIZE_LIMIT.ordinal()) {

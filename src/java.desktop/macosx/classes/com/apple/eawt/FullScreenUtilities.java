@@ -21,26 +21,11 @@
 
 package java.desktop.macosx.classes.com.apple.eawt;
 
-
 import java.awt.Component;
 import java.awt.Window;
 import javax.swing.RootPaneContainer;
 import java.desktop.macosx.classes.com.apple.eawt.event.GestureUtilities;
 import sun.lwawt.macosx.CPlatformWindow;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utility class perform animated full screen actions to top-level {@link Window}s.

@@ -21,7 +21,6 @@
 
 package gc.g1.unloading;
 
-
 import java.lang.Thread.UncaughtExceptionHandler;
 import java.lang.management.*;
 import java.util.Collection;
@@ -38,19 +37,6 @@ import nsk.share.test.ExecutionController;
 import nsk.share.test.Stresser;
 import nsk.share.test.Tests;
 import jtreg.SkippedException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class contains main method. It's entry point for all configurations.

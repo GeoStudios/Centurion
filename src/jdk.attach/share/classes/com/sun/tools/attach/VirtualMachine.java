@@ -21,26 +21,11 @@
 
 package jdk.attach.share.classes.com.sun.tools.attach;
 
-
 import jdk.attach.share.classes.com.sun.tools.attach.spi.AttachProvider;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Properties;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A Java virtual machine.
@@ -479,7 +464,6 @@ public abstract class VirtualMachine {
     {
         loadAgentPath(agentPath, null);
     }
-
 
    /**
      * Loads an agent.

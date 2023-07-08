@@ -21,21 +21,6 @@
 
 package compiler.cpuflags;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test TestSSE4Disabled
  * @bug 8158214
@@ -44,7 +29,6 @@ package compiler.cpuflags;
  *
  * @run main/othervm -Xcomp -XX:UseSSE=3 compiler.cpuflags.TestSSE4Disabled
  */
-
 
 public class TestSSE4Disabled {
     public static void main(String args[]) {

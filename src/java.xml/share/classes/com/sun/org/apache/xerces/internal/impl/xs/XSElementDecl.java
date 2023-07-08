@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.ValidatedInfo;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.identity.IdentityConstraint;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XSNamedMapImpl;
@@ -37,20 +36,6 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSNamespaceI
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObjectjava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSValue;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The XML representation for an element declaration
@@ -366,7 +351,6 @@ public class XSElementDecl implements XSElementDeclaration {
     public XSObjectList getAnnotations() {
         return (fAnnotations != null) ? fAnnotations : XSObjectListImpl.EMPTY_LIST;
     }
-
 
     /**
      * @see org.apache.xerces.xs.XSObject#getNamespaceItem()

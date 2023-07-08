@@ -21,21 +21,6 @@
 
 package vm.compiler.jbe.constprop.constprop02;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  *
@@ -46,7 +31,6 @@ package vm.compiler.jbe.constprop.constprop02;
  *          /test/lib
  * @run main/othervm vm.compiler.jbe.constprop.constprop02.constprop02
  */
-
 
 // constprop02.java
 

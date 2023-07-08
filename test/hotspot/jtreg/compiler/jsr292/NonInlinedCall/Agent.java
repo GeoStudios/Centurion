@@ -21,25 +21,11 @@
 
 package compiler.jsr292.NonInlinedCall;
 
-
 import jdk.test.lib.JDKToolLauncher;
 import jdk.test.lib.process.OutputAnalyzer;
 import java.io.File;
 import java.io.PrintStream;
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Agent {
     public static void main(String[] args) throws Exception {

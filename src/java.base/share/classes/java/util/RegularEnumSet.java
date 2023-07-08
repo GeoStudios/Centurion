@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Private implementation class for EnumSet, for "regular sized" enum types
  * (i.e., those with 64 or fewer enum constants).

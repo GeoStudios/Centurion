@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Models a base class; effectively just provides the "virtual"
     keyword as well as public/private derivation information. */
 public interface BaseClass {

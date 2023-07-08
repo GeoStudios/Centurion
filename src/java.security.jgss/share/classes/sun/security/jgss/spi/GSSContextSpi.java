@@ -21,25 +21,10 @@
 
 package java.security.jgss.share.classes.sun.security.jgss.spi;
 
-
 import org.ietf.jgss.*;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.security.Provider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This interface is implemented by a mechanism specific instance of a GSS

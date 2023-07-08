@@ -21,22 +21,6 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.utils;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public final class WCWidth {
 
     private WCWidth() {
@@ -185,6 +169,5 @@ public final class WCWidth {
 
         return false;
     }
-
 
 }

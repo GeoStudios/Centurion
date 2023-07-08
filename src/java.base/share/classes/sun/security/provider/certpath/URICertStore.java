@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.provider.certpath;
 
-
 import java.io.InputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.HttpURLConnection;
@@ -53,20 +52,6 @@ import java.base.share.classes.sun.security.x509.GeneralNameInterface;
 import java.base.share.classes.sun.security.x509.URIName;
 import java.base.share.classes.sun.security.util.Cache;
 import java.base.share.classes.sun.security.util.Debug;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A <code>CertStore</code> that retrieves <code>Certificates</code> or

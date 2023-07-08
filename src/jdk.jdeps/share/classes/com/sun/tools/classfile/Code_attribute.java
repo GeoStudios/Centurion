@@ -21,24 +21,9 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.classfile;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * See JVMS, section 4.8.3.

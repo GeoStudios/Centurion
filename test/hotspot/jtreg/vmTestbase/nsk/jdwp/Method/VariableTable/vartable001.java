@@ -21,24 +21,10 @@
 
 package nsk.jdwp.Method.VariableTable;
 
-
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Test for JDWP command: Method.VariableTable.
@@ -79,7 +65,6 @@ public class vartable001 {
     // tested types signature conatants
     static final String OBJECT_CLASS_SIGNATURE = "Ljava/lang/Object;";
     static final String STRING_CLASS_SIGNATURE = "Ljava/lang/String;";
-
 
     // tested method name constant
     static final String TESTED_METHOD_NAME = "testedMethod";

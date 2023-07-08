@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.font;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Iterates over runs of fonts in a CompositeFont, optionally taking script runs into account.
  */

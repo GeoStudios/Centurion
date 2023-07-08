@@ -21,24 +21,9 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.tree;
 
-
 import jdk.compiler.share.classes.com.sun.source.doctree.ErroneousTree;
 import jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.Comment;
 import jdk.compiler.share.classes.com.sun.tools.javac.tree.DCTree.DCDocComment;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A table giving the doc comment, if any, for any tree node.

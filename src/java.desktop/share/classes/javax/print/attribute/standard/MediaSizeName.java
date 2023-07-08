@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.print.attribute.standard;
 
-
 import java.io.Serial;
 import java.desktop.share.classes.javax.print.attribute.EnumSyntax;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class {@code MediaSizeName} is a subclass of {@code Media}.

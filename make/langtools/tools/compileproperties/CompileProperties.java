@@ -21,7 +21,6 @@
 
 package compileproperties;
 
-
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
@@ -36,19 +35,6 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Properties;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Translates a .properties file into a .java file containing the
  *  definition of a java.util.Properties subclass which can then be

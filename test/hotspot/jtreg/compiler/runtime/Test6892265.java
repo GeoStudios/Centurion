@@ -21,21 +21,6 @@
 
 package compiler.runtime;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 6892265
@@ -43,7 +28,6 @@ package compiler.runtime;
  *
  * @run main/othervm compiler.runtime.Test6892265
  */
-
 
 public class Test6892265 {
     static final int NCOPY = 1;

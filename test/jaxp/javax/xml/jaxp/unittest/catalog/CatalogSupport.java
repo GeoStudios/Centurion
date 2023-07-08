@@ -21,7 +21,6 @@
 
 package catalog;
 
-
 import java.io.File;
 import java.io.StringReader;
 import javax.xml.stream.XMLResolver;
@@ -37,19 +36,6 @@ import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.ls.LSResourceResolver;
 import org.xml.sax.InputSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test

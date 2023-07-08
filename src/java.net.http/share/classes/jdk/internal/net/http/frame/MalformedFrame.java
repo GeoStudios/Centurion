@@ -21,22 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.frame;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class MalformedFrame extends Http2Frame {
 
     private final int errorCode;

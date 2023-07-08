@@ -21,21 +21,7 @@
 
 package nsk.jvmti.GetFieldModifiers;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class getfldmdf003 {
 

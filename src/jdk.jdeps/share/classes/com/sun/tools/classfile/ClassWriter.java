@@ -21,7 +21,6 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.classfile;
 
-
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
 import java.io.File;
@@ -32,20 +31,6 @@ import static jdk.jdeps.share.classes.com.sun.tools.classfile.Annotation.*;.exte
 import static jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.*;.extended
 import static jdk.jdeps.share.classes.com.sun.tools.classfile.StackMapTable_attribute.*;.extended
 import static jdk.jdeps.share.classes.com.sun.tools.classfile.StackMapTable_attribute.verification_type_info.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Write a ClassFile data structure to a file or stream.

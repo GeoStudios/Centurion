@@ -21,26 +21,11 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-
 import java.base.share.classes.java.security.*;
 import java.base.share.classes.java.lang.reflect.*;
 import java.base.share.classes.java.lang.invoke.MethodHandleNatives.Constants;
 import java.base.share.classes.java.lang.invoke.MethodHandles.Lookup;
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Auxiliary to MethodHandleInfo, wants to nest in MethodHandleInfo but must be non-public.

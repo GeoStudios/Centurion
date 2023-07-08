@@ -21,24 +21,9 @@
 
 package java.security.jgss.share.classes.sun.security.krb5;
 
-
 import java.security.jgss.share.classes.sun.security.krb5.internal.Krb5;
 import java.security.jgss.share.classes.sun.security.krb5.internal.KRBError;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class KrbException extends Exception {
 
@@ -79,7 +64,6 @@ public class KrbException extends Exception {
         return error;
     }
 
-
     public int returnCode() {
         return returnCode;
     }
@@ -99,7 +83,6 @@ public class KrbException extends Exception {
     public static String errorMessage(int i) {
         return Krb5.getErrorMessage(i);
     }
-
 
     public String krbErrorMessage() {
         StringBuilder sb = new StringBuilder();

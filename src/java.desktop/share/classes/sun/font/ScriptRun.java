@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.font;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * {@code ScriptRun} is used to find runs of characters in
  * the same script, as defined in the {@code Script} class.

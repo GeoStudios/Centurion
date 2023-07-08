@@ -21,24 +21,9 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VM;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VMObject;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // The class for an oop field simply provides access to the value.
 public class OopField extends Field {

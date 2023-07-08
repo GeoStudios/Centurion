@@ -21,25 +21,10 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.event.*;
 import javax.swing.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This list implements the drag and drop functionality.

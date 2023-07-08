@@ -21,7 +21,6 @@
 
 package java.base.macosx.classes.sun.util.locale.provider;
 
-
 import java.base.share.classes.java.lang.ref.SoftReference;
 import java.base.share.classes.java.text.*;
 import java.base.share.classes.java.text.spi.DateFormatProvider;
@@ -47,20 +46,6 @@ import java.base.share.classes.java.util.spi.LocaleNameProvider;
 import java.base.share.classes.java.util.spi.TimeZoneNameProvider;
 import java.base.macosx.classes.sun.text.spi.JavaTimeDateTimePatternProvider;
 import java.base.macosx.classes.sun.util.spi.CalendarProvider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * LocaleProviderAdapter implementation for the Mac OS X locale data

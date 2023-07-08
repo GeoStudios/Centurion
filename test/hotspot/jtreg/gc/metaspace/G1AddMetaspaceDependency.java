@@ -21,21 +21,7 @@
 
 package gc.metaspace;
 
-
 import java.io.InputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test G1AddMetaspaceDependency
@@ -45,7 +31,6 @@ import java.io.InputStream;
  * @summary Checks that we don't get locking problems when adding metaspace dependencies with the G1 update buffer monitor
  * @run main/othervm -XX:+UseG1GC -XX:G1UpdateBufferSize=1 gc.metaspace.G1AddMetaspaceDependency
  */
-
 
 public class G1AddMetaspaceDependency {
 

@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.com.sun.beans.finder;
 
-
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 import static java.desktop.share.classes.com.sun.reflect.misc.ReflectUtil.isPackageAccessible;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This utility class provides {@code static} methods

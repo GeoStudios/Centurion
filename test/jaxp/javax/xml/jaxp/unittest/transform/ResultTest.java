@@ -21,7 +21,6 @@
 
 package transform;
 
-
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.OutputStream;
@@ -45,19 +44,6 @@ import org.testng.annotations.Test;
 import org.w3c.dom.Document;
 import org.xml.sax.InputSource;
 import org.xml.sax.helpers.DefaultHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

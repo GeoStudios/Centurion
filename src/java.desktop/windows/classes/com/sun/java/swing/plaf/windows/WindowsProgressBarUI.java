@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-
 import java.desktop.windows.classes.com.sun.java.awt.AlphaComposite;
 import java.desktop.windows.classes.com.sun.java.awt.BasicStroke;
 import java.desktop.windows.classes.com.sun.java.awt.Dimension;
@@ -40,20 +39,6 @@ import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSch
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Prop;.extended
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.Skin;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Windows rendition of the component.
  *
@@ -67,7 +52,6 @@ public class WindowsProgressBarUI extends BasicProgressBarUI
     public static ComponentUI createUI(JComponent x) {
         return new WindowsProgressBarUI();
     }
-
 
     protected void installDefaults() {
         super.installDefaults();
@@ -214,7 +198,6 @@ public class WindowsProgressBarUI extends BasicProgressBarUI
         }
     }
 
-
     /**
      * {@inheritDoc}
      */
@@ -235,7 +218,6 @@ public class WindowsProgressBarUI extends BasicProgressBarUI
             }
         }
     }
-
 
     /**
      * {@inheritDoc}
@@ -294,7 +276,6 @@ public class WindowsProgressBarUI extends BasicProgressBarUI
         }
         return rect;
     }
-
 
     protected void paintIndeterminate(Graphics g, JComponent c) {
         XPStyle xp = XPStyle.getXP();

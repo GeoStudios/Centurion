@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang;
 
-
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 import java.base.share.classes.java.lang.constant.Constable;
 import java.base.share.classes.java.lang.constant.ConstantDesc;
@@ -30,20 +29,6 @@ import java.base.share.classes.java.lang.constant.DynamicConstantDesc;
 import java.base.share.classes.java.util.Optional;
 import static java.base.share.classes.java.lang.constant.ConstantDescs.BSM_GET_STATIC_FINAL;.extended
 import static java.base.share.classes.java.lang.constant.ConstantDescs.CD_Boolean;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The Boolean class wraps a value of the primitive type

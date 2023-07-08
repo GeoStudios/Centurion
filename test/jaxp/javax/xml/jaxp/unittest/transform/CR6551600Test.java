@@ -21,7 +21,6 @@
 
 package transform;
 
-
 import java.io.File;
 import java.io.FilePermission;
 import java.nio.file.Files;
@@ -39,19 +38,6 @@ import org.testng.annotations.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import jaxp.library.JAXPTestUtilities;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

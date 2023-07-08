@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.jrtfs;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.URISyntaxException;
 import java.net.URL;
@@ -36,20 +35,6 @@ import java.security.CodeSource;
 import java.security.PrivilegedAction;
 import java.base.share.classes.jdk.internal.jimage.ImageReader;
 import java.base.share.classes.jdk.internal.jimage.ImageReader.Node;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @implNote This class needs to maintain JDK 8 source compatibility.

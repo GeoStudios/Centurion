@@ -21,21 +21,7 @@
 
 package nsk.share.gc;
 
-
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Parser for GC tests' arguments.
@@ -138,7 +124,6 @@ public class ArgumentHandler extends ArgumentParser {
         }
     }
 
-
     /**
      * Returns the depth of object aggregation.
      * <p>
@@ -158,7 +143,6 @@ public class ArgumentHandler extends ArgumentParser {
                             + "\" argument: " + value);
         }
     }
-
 
     /**
      * Returns number of minutes to run the test.

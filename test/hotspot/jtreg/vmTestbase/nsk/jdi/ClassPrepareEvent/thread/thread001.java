@@ -21,7 +21,6 @@
 
 package nsk.jdi.ClassPrepareEvent.thread;
 
-
 import com.sun.jdi.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
@@ -30,19 +29,6 @@ import java.util.Iterator;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // This class is the debugger in the test
 
@@ -322,7 +308,6 @@ public class thread001 {
             e.printStackTrace(out);
             testFailed = true;
         } finally {
-
 
             // disable event requests to prevent appearance of further events
             if (checkedRequest != null && checkedRequest.isEnabled()) {

@@ -21,56 +21,6 @@
 
 package build.tools.generatenimbus;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class Typeface {
 
     public enum DeriveStyle {
@@ -108,7 +58,6 @@ class Typeface {
             sizeOffset = Float.parseFloat(reader.getAttributeValue(null, "sizeOffset"));
         } catch (Exception e) {}
     }
-
 
     public boolean isAbsolute() {
         return uiDefaultParentName == null;

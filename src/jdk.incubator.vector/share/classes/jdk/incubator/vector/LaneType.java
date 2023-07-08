@@ -21,25 +21,10 @@
 
 package jdk.incubator.vector.share.classes.jdk.incubator.vector;
 
-
 import jdk.incubator.vector.share.classes.jdk.internal.vm.annotation.ForceInline;
 import jdk.incubator.vector.share.classes.jdk.internal.vm.annotation.Stable;
 import static jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport.*;.extended
 import static jdk.incubator.vector.share.classes.jdk.incubator.vector.VectorIntrinsics.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Local type witness for primitive types int.class, etc.

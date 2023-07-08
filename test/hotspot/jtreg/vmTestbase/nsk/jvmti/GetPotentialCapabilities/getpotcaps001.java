@@ -21,23 +21,9 @@
 
 package nsk.jvmti.GetPotentialCapabilities;
 
-
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class getpotcaps001 extends DebugeeClass {
 

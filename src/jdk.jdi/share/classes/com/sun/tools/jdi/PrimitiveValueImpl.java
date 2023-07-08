@@ -21,27 +21,12 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.BooleanValue;
 import jdk.jdi.share.classes.com.sun.jdi.ClassNotLoadedException;
 import jdk.jdi.share.classes.com.sun.jdi.InternalException;
 import jdk.jdi.share.classes.com.sun.jdi.InvalidTypeException;
 import jdk.jdi.share.classes.com.sun.jdi.PrimitiveValue;
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class PrimitiveValueImpl extends ValueImpl
                                          implements PrimitiveValue

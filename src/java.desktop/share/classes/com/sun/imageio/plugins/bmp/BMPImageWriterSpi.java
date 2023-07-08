@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.bmp;
 
-
 import java.awt.image.DataBuffer;
 import java.awt.image.SampleModel;
 import java.awt.image.SinglePixelPackedSampleModel;
@@ -34,20 +33,6 @@ import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.Locale;
 import javax.imageio.plugins.bmp.BMPImageWriteParam;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class BMPImageWriterSpi extends ImageWriterSpi {
     private static final String [] readerSpiNames =

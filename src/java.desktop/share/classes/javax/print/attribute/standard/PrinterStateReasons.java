@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.print.attribute.standard;
 
-
 import java.io.Serial;
 import java.util.AbstractSet;
 import java.util.HashMap;
@@ -31,20 +30,6 @@ import java.util.NoSuchElementException;
 import java.util.Set;
 import java.desktop.share.classes.javax.print.attribute.Attribute;
 import java.desktop.share.classes.javax.print.attribute.PrintServiceAttribute;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class {@code PrinterStateReasons} is a printing attribute class, a set of

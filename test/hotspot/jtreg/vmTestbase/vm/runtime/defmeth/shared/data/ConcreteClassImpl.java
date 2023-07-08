@@ -21,21 +21,7 @@
 
 package vm.runtime.defmeth.shared.data;
 
-
 import vm.runtime.defmeth.shared.data.method.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents "concrete" class (not interface).

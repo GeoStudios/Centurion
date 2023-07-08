@@ -21,21 +21,7 @@
 
 package nsk.jvmti.AttachOnDemand.attach002;
 
-
 import java.util.Vector;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ClassToRedefine {
     public int getSize() {

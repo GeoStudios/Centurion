@@ -21,22 +21,6 @@
 
 package java.base.share.classes.javax.net.ssl;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class is the base interface for providing
  * algorithm-specific information to a KeyManagerFactory or

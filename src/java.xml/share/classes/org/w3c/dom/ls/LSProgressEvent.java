@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.org.w3c.dom.ls;
 
-
 import java.xml.share.classes.org.w3c.dom.events.Event;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  This interface represents a progress event object that notifies the

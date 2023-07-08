@@ -21,7 +21,6 @@
 
 package gc.parallel;
 
-
 import jdk.test.lib.management.DynamicVMOption;
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryUsage;
@@ -30,19 +29,6 @@ import java.text.NumberFormat;
 import static jdk.test.lib.Asserts.assertLessThan;.extended
 import com.sun.management.HotSpotDiagnosticMXBean;
 import gc.testlibrary.Helpers;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test TestDynShrinkHeap

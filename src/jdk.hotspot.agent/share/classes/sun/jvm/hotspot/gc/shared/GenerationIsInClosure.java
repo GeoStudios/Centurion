@@ -21,22 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Should only be used once */
 

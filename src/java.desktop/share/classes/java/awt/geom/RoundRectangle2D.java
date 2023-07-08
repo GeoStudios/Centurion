@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.java.awt.geom;
 
-
 import java.desktop.share.classes.java.io.Serial;
 import java.desktop.share.classes.java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code RoundRectangle2D} class defines a rectangle with

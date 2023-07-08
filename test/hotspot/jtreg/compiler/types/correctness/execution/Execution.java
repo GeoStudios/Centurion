@@ -21,22 +21,8 @@
 
 package compiler.types.correctness.execution;
 
-
 import compiler.types.correctness.hierarchies.TypeHierarchy;
 import compiler.types.correctness.scenarios.Scenario;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Execution scenario represents test methods execution type.

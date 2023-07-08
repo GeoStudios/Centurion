@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.module;
 
-
 import java.io.DataInput;
 import java.io.DataInputStream;
 import java.io.EOFException;
@@ -47,20 +46,6 @@ import java.base.share.classes.jdk.internal.access.JavaLangModuleAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import java.base.share.classes.jdk.internal.misc.VM;
 import static java.base.share.classes.jdk.internal.module.ClassFileConstants.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Read module information from a {@code module-info} class file.
@@ -122,7 +107,6 @@ public final class ModuleInfo {
             return moduleResolution;
         }
     }
-
 
     /**
      * Reads a {@code module-info.class} from the given input stream.
@@ -686,7 +670,6 @@ public final class ModuleInfo {
 
     // lazily created set the pre-defined attributes that are not allowed
     private static volatile Set<String> predefinedNotAllowed;
-
 
     /**
      * The constant pool in a class file.

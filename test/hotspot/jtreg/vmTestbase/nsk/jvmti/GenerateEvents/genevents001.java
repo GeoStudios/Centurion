@@ -21,23 +21,9 @@
 
 package nsk.jvmti.GenerateEvents;
 
-
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class genevents001 extends DebugeeClass {
 

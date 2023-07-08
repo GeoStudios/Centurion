@@ -21,22 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.source.tree;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A tree node used as the base class for the different kinds of
  * statements.

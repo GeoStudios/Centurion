@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.net.URLEncoder;
@@ -30,20 +29,6 @@ import java.io.java.io.java.io.java.io.IOException;
 import java.net.URL;
 import java.desktop.share.classes.javax.swing.text.*;
 import java.desktop.share.classes.javax.swing.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A view that supports the &lt;ISINDEX&lt; tag.  This is implemented
@@ -105,7 +90,6 @@ class IsindexView extends ComponentView implements ActionListener {
         if (data != null) {
             data = URLEncoder.encode(data);
         }
-
 
         AttributeSet attr = getElement().getAttributes();
         HTMLDocument hdoc = (HTMLDocument)getElement().getDocument();

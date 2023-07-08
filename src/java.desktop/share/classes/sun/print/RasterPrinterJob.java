@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.print;
 
-
 import java.io.FilePermission;
 import java.awt.Color;
 import java.awt.Dialog;
@@ -87,20 +86,6 @@ import javax.print.attribute.standard.PrinterIsAcceptingJobs;
 import javax.print.attribute.standard.RequestingUserName;
 import javax.print.attribute.standard.SheetCollate;
 import javax.print.attribute.standard.Sides;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class which rasterizes a printer job.
@@ -260,7 +245,6 @@ public abstract class RasterPrinterJob extends PrinterJob {
      */
     private String mDocName = "Java Printing";
 
-
     /**
      * Printing cancellation flags
      */
@@ -278,7 +262,6 @@ public abstract class RasterPrinterJob extends PrinterJob {
      * List of areas & the graphics state for redrawing
      */
     private final ArrayList<GraphicsState> redrawList = new ArrayList<>();
-
 
     /* variables representing values extracted from an attribute set.
      * These take precedence over values set on a printer job
@@ -430,7 +413,6 @@ public abstract class RasterPrinterJob extends PrinterJob {
         redrawList.add(gstate);
     }
 
-
     /*
      * A convenience method which returns the default service
      * for 2D {@code PrinterJob}s.
@@ -524,7 +506,6 @@ public abstract class RasterPrinterJob extends PrinterJob {
                     throw new PrinterException("PrintService is no longer available.");
                 }
             }
-
 
             if (service.isDocFlavorSupported(
                                              DocFlavor.SERVICE_FORMATTED.PAGEABLE) &&
@@ -942,7 +923,6 @@ public abstract class RasterPrinterJob extends PrinterJob {
         }
         return newPf;
     }
-
 
    /**
      * Presents the user a dialog for changing properties of the
@@ -1616,10 +1596,8 @@ public abstract class RasterPrinterJob extends PrinterJob {
                 }
             }
 
-
             debug_println("after startDoc rangeSelected? "+rangeIsSelected
                       + " numNonCollatedCopies "+ numNonCollatedCopies);
-
 
             /* Three nested loops iterate over the document. The outer loop
              * counts the number of collated copies while the inner loop
@@ -2085,7 +2063,6 @@ public abstract class RasterPrinterJob extends PrinterJob {
         return isCollated() ? 1 : getCopiesInt();
     }
 
-
     /* The printer graphics config is cached on the job, so that it can
      * be created once, and updated only as needed (for now only to change
      * the bounds if when using a Pageable the page sizes changes).
@@ -2540,7 +2517,6 @@ public abstract class RasterPrinterJob extends PrinterJob {
         g.setClip(clip);
         g.setPaint(Color.black);
     }
-
 
    /**
     * User dialogs should disable "File" buttons if this returns false.

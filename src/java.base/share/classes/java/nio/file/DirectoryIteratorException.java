@@ -21,26 +21,11 @@
 
 package java.base.share.classes.java.nio.file;
 
-
 import java.base.share.classes.java.util.ConcurrentModificationException;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.ObjectInputStream;
 import java.base.share.classes.java.io.InvalidObjectException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Runtime exception thrown if an I/O error is encountered when iterating over

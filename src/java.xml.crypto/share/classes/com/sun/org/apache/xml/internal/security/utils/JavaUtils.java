@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils;
 
-
 import java.io.FileNotFoundException;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -31,26 +30,10 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.security.SecurityPermission;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * A collection of different, general-purpose methods for JAVA-specific things

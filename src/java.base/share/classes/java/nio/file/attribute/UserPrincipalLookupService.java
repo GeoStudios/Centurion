@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.nio.file.attribute;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An object to lookup user and group principals by name. A {@link UserPrincipal}

@@ -21,24 +21,9 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.ReferenceType;
 import jdk.jdi.share.classes.com.sun.jdi.TypeComponent;
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 abstract public class TypeComponentImpl extends MirrorImpl
     implements TypeComponent

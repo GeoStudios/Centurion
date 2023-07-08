@@ -21,25 +21,11 @@
 
 package nsk.share.jdi;
 
-
 import com.sun.jdi.ObjectReference;
 import nsk.share.Consts;
 import nsk.share.TestBug;
 import java.io.PrintStream;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Class for testing instance filter, this filter is added by request's

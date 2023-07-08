@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.access;
 
-
 import java.base.share.classes.jdk.internal.invoke.NativeEntryPoint;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodType;
@@ -30,20 +29,6 @@ import java.nio.ByteOrder;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public interface JavaLangInvokeAccess {
     /**

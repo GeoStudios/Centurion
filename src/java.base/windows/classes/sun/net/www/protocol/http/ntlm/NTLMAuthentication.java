@@ -21,7 +21,6 @@
 
 package java.base.windows.classes.sun.net.www.protocol.http.ntlm;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.InetAddress;
 import java.net.PasswordAuthentication;
@@ -35,20 +34,6 @@ import java.base.windows.classes.sun.net.www.protocol.http.AuthenticationInfo;
 import java.base.windows.classes.sun.net.www.protocol.http.AuthScheme;
 import java.base.windows.classes.sun.net.www.protocol.http.HttpURLConnection;
 import java.base.windows.classes.sun.security.action.GetPropertyAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * NTLMAuthentication:

@@ -21,60 +21,9 @@
 
 package build.tools.intpoly;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This file is used to generated optimized finite field implementations.
  */
-
 
 public class FieldGen {
 

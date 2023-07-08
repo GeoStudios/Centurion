@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util;
 
-
 import java.base.share.classes.java.io.InputStream;
 import java.base.share.classes.java.io.InputStreamReader;
 import java.base.share.classes.java.io.Reader;
@@ -32,20 +31,6 @@ import sun.nio.cs.ISO_8859_1;
 import sun.security.action.GetPropertyAction;
 import sun.util.PropertyResourceBundleCharset;
 import sun.util.ResourceBundleEnumeration;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * {@code PropertyResourceBundle} is a concrete subclass of

@@ -21,27 +21,10 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 public final class EncryptionConstants {
     // Attributes that exist in XML Signature in the same way
@@ -283,7 +266,6 @@ public final class EncryptionConstants {
     /** MGF1 with SHA-512 */
     public static final String MGF1_SHA512 =
         EncryptionConstants.EncryptionSpec11NS + "mgf1sha512";
-
 
     private EncryptionConstants() {
         // we don't allow instantiation

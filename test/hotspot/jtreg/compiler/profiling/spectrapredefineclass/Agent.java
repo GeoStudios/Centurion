@@ -21,26 +21,12 @@
 
 package compiler.profiling.spectrapredefineclass;
 
-
 import com.sun.tools.attach.VirtualMachine;
 import jdk.test.lib.Utils;
 import java.lang.instrument.ClassFileTransformer;
 import java.lang.instrument.Instrumentation;
 import java.nio.file.Paths;
 import java.security.ProtectionDomain;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class A {
     void m() {

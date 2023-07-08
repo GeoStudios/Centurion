@@ -21,25 +21,10 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.javap;
 
-
 import java.io.PrintWriter;
 import jdk.jdeps.share.classes.com.sun.tools.classfile.AttributeException;
 import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPoolException;
 import jdk.jdeps.share.classes.com.sun.tools.classfile.DescriptorException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  *  A writer similar to a PrintWriter but which does not hide exceptions.

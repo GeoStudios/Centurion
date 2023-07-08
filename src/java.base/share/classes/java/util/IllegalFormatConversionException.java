@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Unchecked exception thrown when the argument corresponding to the format
  * specifier is of an incompatible type.

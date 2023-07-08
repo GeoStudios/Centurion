@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm.tree.analysis;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.ConstantDynamic;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.Handle;
@@ -35,20 +34,6 @@ import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.LdcInsnNode;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.MethodInsnNode;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.MultiANewArrayInsnNode;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.tree.TypeInsnNode;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An {@link Interpreter} for {@link BasicValue} values.

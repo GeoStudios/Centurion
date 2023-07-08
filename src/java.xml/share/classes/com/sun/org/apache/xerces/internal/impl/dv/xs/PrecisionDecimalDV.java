@@ -21,30 +21,13 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.ValidationContext;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Validator for <precisionDecimal> datatype (W3C Schema 1.1)
@@ -73,7 +56,6 @@ class PrecisionDecimalDV extends TypeValidator {
         String fvalue = "";
 
         int pvalue = 0;
-
 
         XPrecisionDecimal(String content) throws NumberFormatException {
             if(content.equals("NaN")) {

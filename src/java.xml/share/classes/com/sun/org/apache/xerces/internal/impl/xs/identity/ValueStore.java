@@ -21,30 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.identity;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.Shortjava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * Interface for storing values associated to an identity constraint.
@@ -90,6 +72,5 @@ public interface ValueStore {
      * @param args  the list of arguments for substitution.
      */
     void reportError(String key, Object[] args);
-
 
 } // interface ValueStore

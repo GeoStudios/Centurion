@@ -21,24 +21,9 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.bsd.x86;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.x86.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.bsd.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class BsdX86ThreadContext extends X86ThreadContext {
   private final BsdDebugger debugger;

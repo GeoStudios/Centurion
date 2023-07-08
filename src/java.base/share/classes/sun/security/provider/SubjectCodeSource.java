@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.provider;
 
-
 import java.net.URL;
 import java.util.*;
 import java.security.CodeSource;
@@ -31,20 +30,6 @@ import java.lang.reflect.Constructor;
 import javax.security.auth.Subject;
 import java.base.share.classes.sun.security.provider.PolicyParser.PrincipalEntry;
 import java.base.share.classes.sun.security.util.ResourcesMgr;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p> This <code>SubjectCodeSource</code> class contains

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util.zip;
 
-
 import static java.base.share.classes.java.util.zip.ZipUtils.*;.extended
 import java.base.share.classes.java.nio.file.attribute.FileTime;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
@@ -30,20 +29,6 @@ import java.base.share.classes.java.time.LocalDateTime;
 import java.base.share.classes.java.time.ZonedDateTime;
 import java.base.share.classes.java.time.ZoneId;
 import static java.base.share.classes.java.util.zip.ZipConstants64.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used to represent a ZIP file entry.
@@ -284,7 +269,6 @@ public class ZipEntry implements ZipConstants, Cloneable {
                              (int)((xdostime << 1) & 0x3e) + ms / 1000,
                              (ms % 1000) * 1000_000);
     }
-
 
     /**
      * Sets the last modification time of the entry.

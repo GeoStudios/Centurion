@@ -21,22 +21,6 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public final class MWMConstants {
 
     private MWMConstants(){}

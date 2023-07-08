@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.font;
 
-
 import java.awt.BasicStroke;
 import java.awt.Graphics2D;
 import java.awt.Shape;
@@ -30,20 +29,6 @@ import java.awt.geom.GeneralPath;
 import java.awt.geom.Line2D;
 import java.awt.font.TextAttribute;
 import java.util.concurrent.ConcurrentHashMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class provides drawing and bounds-measurement of
@@ -173,7 +158,6 @@ abstract class Underline {
                            float x1,
                            float x2,
                            float y) {
-
 
             Stroke saveStroke = g2d.getStroke();
             g2d.setStroke(getStroke(thickness));

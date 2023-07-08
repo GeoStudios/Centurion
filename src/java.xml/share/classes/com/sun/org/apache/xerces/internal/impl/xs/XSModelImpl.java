@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.Stringjava.util.ListImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XSNamedMap4Types;
@@ -50,20 +49,6 @@ import java.util.Iterator;
 import java.util.java.util.java.util.java.util.List;
 import java.util.java.util.ListIterator;
 import java.util.NoSuchElementException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implements XSModel:  a read-only interface that represents an XML Schema,
@@ -651,7 +636,6 @@ public final class XSModelImpl extends AbstractList<XSNamespaceItem> implements 
         }
         return sg.getIDConstraintDecl(name, loc);
     }
-
 
     /**
      * @see org.apache.xerces.xs.XSModel#getNotationDeclaration(String, String)

@@ -21,23 +21,8 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xs;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSInput;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  The <code>LSInputList</code> interface provides the abstraction of an

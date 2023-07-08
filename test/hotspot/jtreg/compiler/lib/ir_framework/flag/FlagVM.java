@@ -21,7 +21,6 @@
 
 package compiler.lib.ir_framework.flag;
 
-
 import compiler.lib.ir_framework.CompLevel;
 import compiler.lib.ir_framework.TestFramework;
 import compiler.lib.ir_framework.shared.TestFrameworkException;
@@ -33,19 +32,6 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class' main method is called from {@link TestFramework} and represents the so-called "flag VM". It uses the
@@ -70,7 +56,6 @@ public class FlagVM {
             throw new TestFrameworkException("Could not get process id", e);
         }
     }
-
 
     private static final boolean TIERED_COMPILATION = (Boolean)WHITE_BOX.getVMFlag("TieredCompilation");
     private static final CompLevel TIERED_COMPILATION_STOP_AT_LEVEL =

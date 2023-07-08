@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.sun.java2d;
 
-
 import java.lang.ref.Reference;
 import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This abstract ReentrantContextProvider helper class manages the creation,

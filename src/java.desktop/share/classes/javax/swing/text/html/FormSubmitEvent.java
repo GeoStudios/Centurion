@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
-
 import java.desktop.share.classes.javax.swing.text.*;
 import java.net.URL;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * FormSubmitEvent is used to notify interested
@@ -86,7 +71,6 @@ public class FormSubmitEvent extends HTMLFrameHyperlinkEvent {
         this.method = method;
         this.data = data;
     }
-
 
     /**
      * Gets the form method type.

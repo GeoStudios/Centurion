@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Miscellaneous integer enumerations for symbol parsing */
 
 public interface DebugVC50SymbolEnums {

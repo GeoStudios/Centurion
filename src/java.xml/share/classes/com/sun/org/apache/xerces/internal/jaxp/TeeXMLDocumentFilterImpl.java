@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.Augmentations;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
@@ -34,26 +33,10 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIExceptio
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentFilter;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentSource;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * <p>XMLDocumentHandler which forks the pipeline to two other components.</p>

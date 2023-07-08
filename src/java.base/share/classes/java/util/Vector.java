@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.ObjectInputStream;
 import java.base.share.classes.java.io.StreamCorruptedException;
@@ -29,20 +28,6 @@ import java.base.share.classes.java.util.function.Consumer;
 import java.base.share.classes.java.util.function.Predicate;
 import java.base.share.classes.java.util.function.UnaryOperator;
 import jdk.internal.util.java.util.ArraysSupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code Vector} class implements a growable array of

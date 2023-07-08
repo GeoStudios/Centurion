@@ -21,7 +21,6 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
-
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
@@ -34,20 +33,6 @@ import javax.swing.event.*;
 import javax.swing.table.*;
 import jdk.jconsole.share.classes.sun.tools.jconsole.Messages;
 import static jdk.jconsole.share.classes.sun.tools.jconsole.Utilities.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("serial")
 public class XMBeanInfo extends JPanel {

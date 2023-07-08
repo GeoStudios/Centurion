@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util;
 
-
 import java.util.*;
 import java.util.stream.Collectors;
 import javax.lang.model.element.Element;
@@ -32,20 +31,6 @@ import com.sun.source.doctree.DocTree;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Messages;
 import static jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable.Kind.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  An alphabetical index of elements, search tags, and other items.
@@ -315,7 +300,6 @@ public class IndexBuilder {
     private static Character keyCharacter(String s) {
         return s.isEmpty() ? '*' : Character.toUpperCase(s.charAt(0));
     }
-
 
     /**
      * Returns a comparator for the {@code IndexItem}s in the index page.

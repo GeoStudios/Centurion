@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.lwawt;
 
-
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Cursor;
@@ -29,20 +28,6 @@ import java.awt.Point;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.desktop.macosx.classes.sun.awt.AWTAccessor;
 import java.desktop.macosx.classes.sun.awt.SunToolkit;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class LWCursorManager {
 

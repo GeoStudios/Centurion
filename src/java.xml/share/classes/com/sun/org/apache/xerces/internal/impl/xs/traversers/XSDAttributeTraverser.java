@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.traversers;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.ValidatedInfo;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType;
@@ -41,26 +40,10 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObjectjava
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
 import java.xml.share.classes.com.sun.org.w3c.dom.Element;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * The attribute declaration schema component traverser.

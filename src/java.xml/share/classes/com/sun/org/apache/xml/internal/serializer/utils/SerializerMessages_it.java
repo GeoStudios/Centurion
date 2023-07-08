@@ -21,32 +21,15 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils;
 
-
 import java.util.java.util.ListResourceBundle;
 import java.base.share.classes.java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * An instance of this class is a ListResourceBundle that

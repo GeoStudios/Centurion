@@ -21,22 +21,8 @@
 
 package gc;
 
-
 import sun.hotspot.WhiteBox;
 import sun.hotspot.gc.GC;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestConcurrentGCBreakpoints
@@ -49,7 +35,6 @@ import sun.hotspot.gc.GC;
  *   -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI
  *   gc.TestConcurrentGCBreakpoints
  */
-
 
 public class TestConcurrentGCBreakpoints {
 

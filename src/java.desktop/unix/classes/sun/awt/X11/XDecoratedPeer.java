@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.*;
 import java.awt.event.ComponentEvent;
 import java.awt.event.InvocationEvent;
@@ -33,20 +32,6 @@ import java.desktop.unix.classes.sun.awt.IconInfo;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 import java.desktop.unix.classes.sun.awt.AWTAccessor;
 import java.desktop.unix.classes.sun.awt.SunToolkit;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 abstract class XDecoratedPeer extends XWindowPeer {
     private static final PlatformLogger log = PlatformLogger.getLogger("sun.awt.X11.XDecoratedPeer");
@@ -290,7 +275,6 @@ abstract class XDecoratedPeer extends XWindowPeer {
                           scaleDown(i.bottom), scaleDown(i.right));
     }
 
-
     // insets which we get from WM (e.g from _NET_FRAME_EXTENTS)
     private Insets wm_set_insets;
 
@@ -516,7 +500,6 @@ abstract class XDecoratedPeer extends XWindowPeer {
         AWTAccessor.getComponentAccessor().setLocation(target, loc.x, loc.y);
         postEvent(new ComponentEvent(target, ComponentEvent.COMPONENT_MOVED));
     }
-
 
     private Insets guessInsets() {
         if (isEmbedded() || isTargetUndecorated()) {
@@ -993,7 +976,6 @@ abstract class XDecoratedPeer extends XWindowPeer {
         }
         return location;
     }
-
 
 /***************************************************************************************
  *              END            OF             I N S E T S   C O D E

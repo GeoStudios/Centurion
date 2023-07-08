@@ -21,7 +21,6 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -76,20 +75,6 @@ import jdk.jlink.share.classes.jdk.tools.jlink.plugin.PluginException;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePool;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolBuilder;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Jlink plugin to reconstitute module descriptors and other attributes for system
@@ -741,7 +726,6 @@ public final class SystemModulesPlugin extends AbstractPlugin {
             mv.visitTypeInsn(ANEWARRAY, MODULE_TARGET_CLASSNAME);
             mv.visitVarInsn(ASTORE, MT_VAR);
 
-
             // if java.base has a ModuleTarget attribute then generate the array
             // with one element, all other elements will be null.
 
@@ -1214,7 +1198,6 @@ public final class SystemModulesPlugin extends AbstractPlugin {
                 }
             }
 
-
             /**
              * Call Builder::newOpens to create Opens instances and
              * then pass it to the builder by calling:
@@ -1408,7 +1391,6 @@ public final class SystemModulesPlugin extends AbstractPlugin {
                 pushModuleHashes();
             }
 
-
             /*
              * Create ModuleHashes.Builder instance
              */
@@ -1422,7 +1404,6 @@ public final class SystemModulesPlugin extends AbstractPlugin {
                 hmv.visitVarInsn(ASTORE, BUILDER_VAR);
                 hmv.visitVarInsn(ALOAD, BUILDER_VAR);
             }
-
 
             /*
              * Invoke ModuleHashes.Builder::build and put the returned
@@ -1555,7 +1536,6 @@ public final class SystemModulesPlugin extends AbstractPlugin {
             int indexOfOpensModifiers(Set<Opens.Modifier> mods) {
                 return opensModifiersSets.get(mods).build();
             }
-
 
             /*
              * Retrieve the index to the given set of Requires.Modifier.

@@ -21,25 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.dtd;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.DatatypeValidator;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * the factory to create/return built-in XML 1.1 DVs and create user-defined DVs

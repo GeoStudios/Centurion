@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.com.sun.beans.finder;
 
-
 import java.io.Serial;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class SignatureException extends RuntimeException {
 

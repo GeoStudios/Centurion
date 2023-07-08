@@ -21,23 +21,9 @@
 
 package nsk.jdi.ReferenceType.defaultStratum.defaultStratum004;
 
-
 import java.util.*;
 import nsk.share.TestBug;
 import nsk.share.jdi.sde.SDEDebuggee;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class defaultStratum004a extends SDEDebuggee {
     public static void main(String[] args) {

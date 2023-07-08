@@ -21,22 +21,8 @@
 
 package gc.z;
 
-
 import java.util.Linkedjava.util.java.util.java.util.List;
 import jdk.test.lib.process.ProcessTools;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestHighUsage
@@ -45,7 +31,6 @@ import jdk.test.lib.process.ProcessTools;
  * @library /test/lib
  * @run main/othervm gc.z.TestHighUsage
  */
-
 
 public class TestHighUsage {
     static class Test {

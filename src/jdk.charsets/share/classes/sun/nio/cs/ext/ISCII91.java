@@ -21,7 +21,6 @@
 
 package jdk.charsets.share.classes.sun.nio.cs.ext;
 
-
 import java.nio.charset.Charset;
 import java.nio.CharBuffer;
 import java.nio.ByteBuffer;
@@ -31,26 +30,8 @@ import java.nio.charset.CoderResult;
 import jdk.charsets.share.classes.sun.nio.cs.Surrogate;
 import jdk.charsets.share.classes.sun.nio.cs.HistoricallyNamedCharset;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  */
-
-
-
-
 
 public class ISCII91 extends Charset implements HistoricallyNamedCharset
 {
@@ -485,7 +466,6 @@ public class ISCII91 extends Charset implements HistoricallyNamedCharset
         private char contextChar = INVALID_CHAR;
         private boolean needFlushing = false;
 
-
         private Decoder(Charset cs) {
             super(cs, 1.0f, 1.0f);
         }
@@ -823,7 +803,6 @@ public class ISCII91 extends Charset implements HistoricallyNamedCharset
                     (ch == '\u200c') ||
                     (ch <= '\u007f'));
         }
-
 
         private CoderResult encodeArrayLoop(CharBuffer src,
                                              ByteBuffer dst)

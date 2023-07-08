@@ -21,19 +21,4 @@
 
 package otherPkg;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public final class WrongPackage implements Pkg.SealedInterface { }

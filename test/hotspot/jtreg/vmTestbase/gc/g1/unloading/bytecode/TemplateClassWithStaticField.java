@@ -21,21 +21,6 @@
 
 package gc.g1.unloading.bytecode;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class TemplateClassWithStaticField {
 
     private static Object field;
@@ -51,6 +36,5 @@ public class TemplateClassWithStaticField {
         i = i * 2000 / 1994 + 153;
         field2 = i;
     }
-
 
 }

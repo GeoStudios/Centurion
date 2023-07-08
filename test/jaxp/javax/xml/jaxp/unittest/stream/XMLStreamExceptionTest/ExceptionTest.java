@@ -21,25 +21,11 @@
 
 package stream.XMLStreamExceptionTest;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import javax.xml.stream.XMLStreamException;
 import org.testng.Assert;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

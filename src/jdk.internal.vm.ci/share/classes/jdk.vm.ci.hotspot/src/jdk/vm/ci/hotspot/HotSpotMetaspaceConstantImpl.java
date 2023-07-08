@@ -21,24 +21,9 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
 
-
 import java.base.share.classes.java.util.Objects;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.Constant;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.VMConstant;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class HotSpotMetaspaceConstantImpl implements HotSpotMetaspaceConstant, VMConstant {
 

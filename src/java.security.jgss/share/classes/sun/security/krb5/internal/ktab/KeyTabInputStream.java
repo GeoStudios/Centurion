@@ -21,7 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal.ktab;
 
-
 import java.security.jgss.share.classes.sun.security.krb5.internal.*;
 import java.security.jgss.share.classes.sun.security.krb5.PrincipalName;
 import java.security.jgss.share.classes.sun.security.krb5.Realm;
@@ -29,20 +28,6 @@ import java.security.jgss.share.classes.sun.security.krb5.RealmException;
 import java.security.jgss.share.classes.sun.security.krb5.internal.util.KrbDataInputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements a buffered input stream. It is used for parsing key table
@@ -64,7 +49,6 @@ public class KeyTabInputStream extends KrbDataInputStream implements KeyTabConst
     int readEntryLength() throws IOException {
         return read(4);
     }
-
 
     KeyTabEntry readEntry(int entryLen, int ktVersion)
             throws IOException, RealmException {

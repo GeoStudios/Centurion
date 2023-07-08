@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 6912517
@@ -44,7 +29,6 @@ package compiler.c2;
  * @run main/othervm -Xbatch -XX:CompileThreshold=100 -XX:+IgnoreUnrecognizedVMOptions -XX:-UseCompressedOops
  *      compiler.c2.Test6912517
  */
-
 
 /**
  * Highlights a bug with the JIT compiler.

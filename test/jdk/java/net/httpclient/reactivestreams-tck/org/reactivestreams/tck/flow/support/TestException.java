@@ -21,21 +21,6 @@
 
 package org.reactivestreams.tck.flow.support;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Exception used by the TCK to signal failures.
  * May be thrown or signalled through {@link org.reactivestreams.Subscriber#onError(Throwable)}.

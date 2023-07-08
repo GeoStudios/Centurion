@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
@@ -55,20 +54,6 @@ import java.base.share.classes.sun.security.ssl.ClientHello.ClientHelloMessage;
 import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
 import java.base.share.classes.sun.security.ssl.X509Authentication.X509Credentials;
 import java.base.share.classes.sun.security.ssl.X509Authentication.X509Possession;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Pack of the CertificateMessage handshake message.

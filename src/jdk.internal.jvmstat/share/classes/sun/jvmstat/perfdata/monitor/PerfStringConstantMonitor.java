@@ -21,23 +21,8 @@
 
 package jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor;
 
-
 import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.*;
 import java.nio.ByteBuffer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class for monitoring a constant PerfData String instrument. The

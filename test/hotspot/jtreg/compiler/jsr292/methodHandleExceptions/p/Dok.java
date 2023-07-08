@@ -21,21 +21,6 @@
 
 package p;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Test class -- implements I, extends E, both define m, so all should be well.
  */

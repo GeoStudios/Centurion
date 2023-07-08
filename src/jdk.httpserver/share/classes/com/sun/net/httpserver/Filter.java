@@ -21,7 +21,6 @@
 
 package jdk.httpserver.share.classes.com.sun.net.httpserver;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -29,20 +28,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.java.util.ListIterator;
 import java.base.share.classes.java.util.Objects;
 import java.util.function.Consumer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A filter used to pre- and post-process incoming requests. Pre-processing occurs

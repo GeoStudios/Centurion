@@ -21,21 +21,6 @@
 
 package compiler.intrinsics.mathexact;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8024924
@@ -43,7 +28,6 @@ package compiler.intrinsics.mathexact;
  *
  * @run main compiler.intrinsics.mathexact.AddExactICondTest
  */
-
 
 public class AddExactICondTest {
   public static int result = 0;

@@ -21,7 +21,6 @@
 
 package jdk.charsets.share.classes.sun.nio.cs.ext;
 
-
 import java.nio.charset.Charset;
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
@@ -31,25 +30,8 @@ import java.nio.charset.CoderResult;
 import jdk.charsets.share.classes.sun.nio.cs.HistoricallyNamedCharset;
 import jdk.charsets.share.classes.sun.nio.cs.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  */
-
-
-
 
 public class ISO2022_KR extends ISO2022
 implements HistoricallyNamedCharset
@@ -80,7 +62,6 @@ implements HistoricallyNamedCharset
     public CharsetEncoder newEncoder() {
         return new Encoder(this);
     }
-
 
     private static class Decoder extends CharsetDecoder {
 

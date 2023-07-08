@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 6646019
@@ -45,7 +30,6 @@ package compiler.c2;
  *      -XX:CompileCommand=compileonly,compiler.c2.Test6646019::test
  *      compiler.c2.Test6646019
 */
-
 
 public class Test6646019 {
     final static int i = 2076285318;

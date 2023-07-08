@@ -21,30 +21,13 @@
 
 package java.sql.share.classes.javax.sql;
 
-
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.EventObject;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * Created on Apr 28, 2005
  */
-
-
 
 /**
  * A {@code StatementEvent} is sent to all {@code StatementEventListener}s which were

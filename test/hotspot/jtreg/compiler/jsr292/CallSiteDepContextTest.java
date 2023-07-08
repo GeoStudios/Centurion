@@ -21,7 +21,6 @@
 
 package compiler.jsr292;
 
-
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.Handle;
 import jdk.internal.org.objectweb.asm.MethodVisitor;
@@ -42,19 +41,6 @@ import static jdk.internal.org.objectweb.asm.Opcodes.ACC_SUPER;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.H_INVOKESTATIC;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.IRETURN;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8057967
@@ -69,10 +55,6 @@ import static jdk.internal.org.objectweb.asm.Opcodes.IRETURN;.extended
  *                                 -verbose:gc
  *                                 compiler.jsr292.CallSiteDepContextTest
  */
-
-
-
-
 
 public class CallSiteDepContextTest {
     static final MethodHandles.Lookup LOOKUP = MethodHandleHelper.IMPL_LOOKUP;

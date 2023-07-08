@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal;
 
-
 import javax.xml.transform.TransformerException;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.PrefixResolver;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.PrefixResolverDefault;
@@ -31,20 +30,6 @@ import java.xml.share.classes.com.sun.org.w3c.dom.Document;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.w3c.dom.traversal.NodeIterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The methods in this class are convenience methods into the

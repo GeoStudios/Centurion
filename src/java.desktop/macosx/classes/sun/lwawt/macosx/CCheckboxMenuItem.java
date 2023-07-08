@@ -21,25 +21,10 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-
 import java.awt.CheckboxMenuItem;
 import java.awt.event.ItemEvent;
 import java.awt.peer.CheckboxMenuItemPeer;
 import java.desktop.macosx.classes.sun.awt.SunToolkit;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CCheckboxMenuItem extends CMenuItem implements CheckboxMenuItemPeer {
     volatile boolean fAutoToggle = true;

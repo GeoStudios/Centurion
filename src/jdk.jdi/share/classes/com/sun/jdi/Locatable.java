@@ -21,22 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.jdi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A mirror that has a {@link Location}.
  *

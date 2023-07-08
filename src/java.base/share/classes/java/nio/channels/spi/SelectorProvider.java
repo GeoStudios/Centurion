@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.nio.channels.spi;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.lang.reflect.InvocationTargetException;
 import java.base.share.classes.java.net.ProtocolFamily;
@@ -36,20 +35,6 @@ import java.base.share.classes.java.util.Iterator;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.util.ServiceLoader;
 import java.base.share.classes.java.util.ServiceConfigurationError;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Service-provider class for selectors and selectable channels.

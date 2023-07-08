@@ -21,22 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.jfc.model;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 record Result(String value) {
     public static final Result FALSE = new Result("false");
     public static final Result TRUE = new Result("true");

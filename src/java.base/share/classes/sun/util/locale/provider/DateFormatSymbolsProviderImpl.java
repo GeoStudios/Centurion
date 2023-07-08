@@ -21,25 +21,10 @@
 
 package java.base.share.classes.sun.util.locale.provider;
 
-
 import java.text.DateFormatSymbols;
 import java.text.spi.DateFormatSymbolsProvider;
 import java.base.share.classes.java.util.Locale;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Concrete implementation of the  {@link java.text.spi.DateFormatSymbolsProvider

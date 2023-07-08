@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * SWAP - Swa top operand stack word
@@ -53,7 +36,6 @@ public class SWAP extends StackInstruction implements StackConsumer, StackProduc
     public SWAP() {
         super(com.sun.org.apache.bcel.internal.Const.SWAP);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

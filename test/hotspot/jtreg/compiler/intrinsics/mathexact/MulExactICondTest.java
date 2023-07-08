@@ -21,21 +21,6 @@
 
 package compiler.intrinsics.mathexact;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8026844
@@ -43,7 +28,6 @@ package compiler.intrinsics.mathexact;
  *
  * @run main compiler.intrinsics.mathexact.MulExactICondTest
  */
-
 
 public class MulExactICondTest {
     public static int result = 0;

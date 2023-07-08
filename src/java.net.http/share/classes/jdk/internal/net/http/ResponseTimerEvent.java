@@ -21,26 +21,11 @@
 
 package java.net.http.share.classes.jdk.internal.net.http;
 
-
 import java.net.ConnectException;
 import java.net.http.HttpConnectTimeoutException;
 import java.net.http.HttpTimeoutException;
 import java.net.http.share.classes.jdk.internal.net.http.common.Logger;
 import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ResponseTimerEvent extends TimeoutEvent {
     private static final Logger debug =

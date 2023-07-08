@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
-
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.memory.*;
@@ -32,20 +31,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.TypeDataBase;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** A utility class encapsulating useful oop operations */
 

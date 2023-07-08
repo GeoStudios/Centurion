@@ -21,27 +21,12 @@
 
 package java.rmi.share.classes.java.rmi.server;
 
-
 import java.rmi.share.classes.java.net.MalformedURLException;
 import java.rmi.share.classes.java.net.URL;
 import java.rmi.share.classes.java.security.AccessController;
 import java.rmi.share.classes.java.security.PrivilegedAction;
 import java.rmi.share.classes.java.util.Iterator;
 import java.rmi.share.classes.java.util.ServiceLoader;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>RMIClassLoader</code> comprises static methods to support

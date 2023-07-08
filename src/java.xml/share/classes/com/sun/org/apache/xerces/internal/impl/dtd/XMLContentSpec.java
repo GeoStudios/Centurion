@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * ContentSpec really exists to aid the parser classes in implementing
@@ -256,7 +239,6 @@ public class XMLContentSpec {
         }
     }
 
-
     //
     // Object methods
     //
@@ -277,7 +259,6 @@ public class XMLContentSpec {
         }
         return false;
     }
-
 
     //
     // Interfaces

@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.awt;
 
-
 import java.awt.AWTEvent;
 import java.awt.AWTException;
 import java.awt.Component;
@@ -50,20 +49,6 @@ import java.util.StringTokenizer;
 import java.util.regex.Pattern;
 import java.desktop.unix.classes.sun.awt.im.InputMethodAdapter;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Input Method Adapter for XIM
@@ -684,7 +669,6 @@ public abstract class X11InputMethodBase extends InputMethodAdapter {
 
         return imInfo;
     }
-
 
     /**
      * Performs mapping from an XIM visible feedback value to Java IM highlight.

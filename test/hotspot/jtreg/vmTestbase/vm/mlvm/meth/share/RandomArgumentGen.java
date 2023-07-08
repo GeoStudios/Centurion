@@ -21,21 +21,6 @@
 
 package vm.mlvm.meth.share;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class RandomArgumentGen {
 
     public static Argument next() throws InstantiationException, IllegalAccessException {

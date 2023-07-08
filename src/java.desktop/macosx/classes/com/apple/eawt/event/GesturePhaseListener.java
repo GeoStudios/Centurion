@@ -21,22 +21,6 @@
 
 package java.desktop.macosx.classes.com.apple.eawt.event;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Listener interface for receiving notification that a continuous gesture
  * (like rotate or scale) has started or stopped.

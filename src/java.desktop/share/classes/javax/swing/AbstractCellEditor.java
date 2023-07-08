@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.desktop.share.classes.javax.swing.event.*;
 import java.util.EventObject;
 import java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

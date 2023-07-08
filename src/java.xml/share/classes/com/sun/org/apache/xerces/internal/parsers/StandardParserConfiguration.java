@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSMessageFormatter;
@@ -32,20 +31,6 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTabl
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarPool;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is the "standard" parser configuration. It extends the DTD
@@ -92,16 +77,13 @@ public class StandardParserConfiguration
     protected static final String NORMALIZE_DATA =
     Constants.XERCES_FEATURE_PREFIX + Constants.SCHEMA_NORMALIZED_VALUE;
 
-
     /** Feature identifier: send element default value via characters() */
     protected static final String SCHEMA_ELEMENT_DEFAULT =
     Constants.XERCES_FEATURE_PREFIX + Constants.SCHEMA_ELEMENT_DEFAULT;
 
-
     /** Feature identifier: augment PSVI */
     protected static final String SCHEMA_AUGMENT_PSVI =
     Constants.XERCES_FEATURE_PREFIX + Constants.SCHEMA_AUGMENT_PSVI;
-
 
     /** feature identifier: XML Schema validation */
     protected static final String XMLSCHEMA_VALIDATION =
@@ -315,7 +297,6 @@ public class StandardParserConfiguration
             fSchemaValidator.setDocumentHandler(fDocumentHandler);
             fSchemaValidator.setDocumentSource(fNamespaceBinder);
         }
-
 
     } // configurePipeline()
 

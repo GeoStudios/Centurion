@@ -21,22 +21,6 @@
 
 package java.naming.share.classes.javax.naming.directory;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
   * This class encapsulates
   * factors that determine scope of search and what gets returned

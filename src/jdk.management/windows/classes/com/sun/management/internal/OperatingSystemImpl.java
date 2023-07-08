@@ -21,24 +21,9 @@
 
 package jdk.management.windows.classes.com.sun.management.internal;
 
-
 import jdk.management.windows.classes.com.sun.management.OperatingSystemMXBean;
 import jdk.management.windows.classes.com.sun.management.BaseOperatingSystemImpl;
 import jdk.management.windows.classes.com.sun.management.VMManagement;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation class for the operating system.

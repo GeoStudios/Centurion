@@ -21,22 +21,6 @@
 
 package java.naming.share.classes.javax.naming.ldap;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class represents an event fired in response to an unsolicited
  * notification sent by the LDAP server.
@@ -67,7 +51,6 @@ public class UnsolicitedNotificationEvent extends java.util.EventObject {
         super(src);
         this.notice = notice;
     }
-
 
     /**
      * Returns the unsolicited notification.

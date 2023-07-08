@@ -21,21 +21,7 @@
 
 package vm.mlvm.cp.share;
 
-
 import jdk.internal.org.objectweb.asm.Opcodes;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public enum HandleType {
     GETFIELD(Opcodes.H_GETFIELD),
@@ -53,6 +39,4 @@ public enum HandleType {
         this.asmTag = asmTag;
     }
 }
-
-
 

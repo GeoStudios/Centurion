@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.axes;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMFilter;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMIterator;
@@ -32,20 +31,6 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.NodeSetDTM;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is the dynamic wrapper for a Xalan DTMIterator instance, and
@@ -103,7 +88,6 @@ public class NodeSequence extends XObject
         setObject(v);
   }
 
-
   /**
    * If the iterator needs to cache nodes as they are fetched,
    * then this method returns true.
@@ -139,7 +123,6 @@ public class NodeSequence extends XObject
           m_cache.setCacheComplete(true);
       }
   }
-
 
   /**
    * The functional iterator that fetches nodes.
@@ -222,14 +205,12 @@ public class NodeSequence extends XObject
     m_dtmMgr = dtmMgr;
   }
 
-
   /**
    * Create a new NodeSequence in an invalid (null) state.
    */
   public NodeSequence()
   {
   }
-
 
   /**
    * @see DTMIterator#getDTM(int)
@@ -687,7 +668,6 @@ public class NodeSequence extends XObject
 
           return clone;
   }
-
 
   /**
    * @see DTMIterator#isDocOrdered()

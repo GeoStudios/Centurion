@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing.plaf;
 
-
 import java.awt.Rectangle;
 import java.desktop.share.classes.javax.swing.JTabbedPane;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Pluggable look and feel interface for JTabbedPane.

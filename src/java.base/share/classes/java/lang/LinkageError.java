@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Subclasses of {@code LinkageError} indicate that a class has
  * some dependency on another class; however, the latter class has

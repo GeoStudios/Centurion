@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
-
 import java.util.EmptyStackException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Implement a stack of simple integers.

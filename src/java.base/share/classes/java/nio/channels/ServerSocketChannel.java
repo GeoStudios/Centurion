@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.nio.channels;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.net.Inetjava.net.SocketAddress;
 import java.base.share.classes.java.net.NetPermission;
@@ -33,20 +32,6 @@ import java.base.share.classes.java.net.UnixDomainjava.net.SocketAddress;
 import java.base.share.classes.java.nio.channels.spi.AbstractSelectableChannel;
 import java.base.share.classes.java.nio.channels.spi.SelectorProvider;
 import static java.base.share.classes.java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A selectable channel for stream-oriented listening sockets.
@@ -196,7 +181,6 @@ public abstract class ServerSocketChannel
     public final int validOps() {
         return SelectionKey.OP_ACCEPT;
     }
-
 
     // -- ServerSocket-specific operations --
 

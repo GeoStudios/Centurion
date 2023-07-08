@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.tree;
 
-
 import java.io.*;
 import jdk.compiler.share.classes.com.sun.source.tree.MemberReferenceTree.ReferenceMode;
 import jdk.compiler.share.classes.com.sun.source.tree.ModuleTree.ModuleKind;
@@ -31,20 +30,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.ANNOTATION;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Prints out a tree as an indented Java source program.
  *
@@ -241,7 +226,6 @@ public class Pretty extends JCTree.Visitor {
     public <T extends JCTree> void printExprs(List<T> trees) throws IOException {
         printExprs(trees, ", ");
     }
-
 
     /** Derived visitor method: print pattern.
      */

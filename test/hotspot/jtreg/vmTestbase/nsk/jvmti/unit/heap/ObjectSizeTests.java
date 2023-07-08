@@ -21,23 +21,9 @@
 
 package nsk.jvmti.unit.heap;
 
-
 import nsk.share.jvmti.unit.*;
 import java.io.PrintStream;
 import nsk.share.Consts;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Unit tests for JVMTI GetObjectSize function.
@@ -47,8 +33,6 @@ import nsk.share.Consts;
  * would be tied into the implementation and version.
  *
  */
-
-
 
 public class ObjectSizeTests {
 

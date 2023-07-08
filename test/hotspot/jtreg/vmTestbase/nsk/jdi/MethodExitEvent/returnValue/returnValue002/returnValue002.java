@@ -21,25 +21,11 @@
 
 package nsk.jdi.MethodExitEvent.returnValue.returnValue002;
 
-
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import nsk.share.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -65,8 +51,6 @@ import nsk.share.jdi.*;
  *      -transport.address=dynamic
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
-
-
 
 /*
  * Test checks that method 'MethodExitEvent.returnValue()' returns VoidValue for static initializer, class constructor

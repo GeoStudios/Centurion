@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** <P> This interface abstracts over access to operating system-level
     threads in the underlying process. It is designed to be minimal
     and generic to allow cross-platform compatibility. </P>

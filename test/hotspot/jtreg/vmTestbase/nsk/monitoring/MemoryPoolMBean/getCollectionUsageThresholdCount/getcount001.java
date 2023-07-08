@@ -21,24 +21,10 @@
 
 package nsk.monitoring.MemoryPoolMBean.getCollectionUsageThresholdCount;
 
-
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
 import nsk.monitoring.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class getcount001 {
     private static boolean testFailed = false;
@@ -104,7 +90,6 @@ public class getcount001 {
             out.println("TEST FAILED");
         return (testFailed) ? Consts.TEST_FAILED : Consts.TEST_PASSED;
     }
-
 
     static Throwable unwrap(Throwable throwable) {
 

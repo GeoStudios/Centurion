@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A data model for a combo box. This interface extends <code>ListModel</code>
  * and adds the concept of a <i>selected item</i>. The selected item is generally

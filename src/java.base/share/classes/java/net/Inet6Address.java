@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.net;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.InvalidObjectException;
 import java.base.share.classes.java.io.ObjectInputStream;
@@ -29,20 +28,6 @@ import java.base.share.classes.java.io.ObjectOutputStream;
 import java.base.share.classes.java.io.ObjectStreamField;
 import java.base.share.classes.java.util.Enumeration;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents an Internet Protocol version 6 (IPv6) address.
@@ -334,7 +319,6 @@ class Inet6Address extends InetAddress {
             return ((ipaddress[0] & 0xff) == 0xfe
                     && (ipaddress[1] & 0xc0) == 0x80);
         }
-
 
         boolean isSiteLocalAddress() {
             return ((ipaddress[0] & 0xff) == 0xfe

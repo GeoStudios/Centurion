@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.net;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Defines the <em>standard</em> socket options.
  *
@@ -125,7 +109,6 @@ public final class StandardSocketOptions {
      */
     public static final SocketOption<Integer> SO_SNDBUF =
         new StdSocketOption<Integer>("SO_SNDBUF", Integer.class);
-
 
     /**
      * The size of the socket receive buffer.
@@ -251,7 +234,6 @@ public final class StandardSocketOptions {
     public static final SocketOption<Integer> SO_LINGER =
         new StdSocketOption<Integer>("SO_LINGER", Integer.class);
 
-
     // -- IPPROTO_IP --
 
     /**
@@ -356,7 +338,6 @@ public final class StandardSocketOptions {
     public static final SocketOption<Boolean> IP_MULTICAST_LOOP =
         new StdSocketOption<Boolean>("IP_MULTICAST_LOOP", Boolean.class);
 
-
     // -- IPPROTO_TCP --
 
     /**
@@ -382,7 +363,6 @@ public final class StandardSocketOptions {
      */
     public static final SocketOption<Boolean> TCP_NODELAY =
         new StdSocketOption<Boolean>("TCP_NODELAY", Boolean.class);
-
 
     private static class StdSocketOption<T> implements SocketOption<T> {
         private final String name;

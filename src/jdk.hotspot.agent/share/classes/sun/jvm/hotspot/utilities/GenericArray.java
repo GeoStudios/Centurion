@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Address;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.ArrayKlass;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.CIntField;
@@ -34,20 +33,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.TypeDataBase;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.WrongTypeException;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The base class for the mirrors of the Array<T> C++ classes.

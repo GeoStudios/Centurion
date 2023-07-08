@@ -21,28 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Collection of symbols used to parse a Schema Grammar.

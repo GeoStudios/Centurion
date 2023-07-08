@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.identity;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSIDCDefinition;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Schema key reference identity constraint.

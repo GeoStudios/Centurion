@@ -21,7 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Fonts;
 
-
 import static java.awt.Font.BOLD;.extended
 import static java.awt.Font.ITALIC;.extended
 import static java.awt.Font.PLAIN;.extended
@@ -51,20 +50,6 @@ import java.text.AttributedCharacterIterator;
 import java.text.AttributedString;
 import demo.share.jfc.J2Ddemo.java2d.Surface;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Demonstrates how to build an AttributedString and then render the
  * string broken over lines.
@@ -87,7 +72,6 @@ public class AttributedStr extends Surface {
         ShapeGraphicAttribute sga = new ShapeGraphicAttribute(shape,
                 GraphicAttribute.TOP_ALIGNMENT, false);
         as.addAttribute(CHAR_REPLACEMENT, sga, 0, 1);
-
 
         Font font = new Font("sanserif", BOLD | ITALIC, 20);
         int index = text.indexOf("quick");

@@ -21,23 +21,9 @@
 
 package nsk.jdi.EventRequestManager.accessWatchpointRequests;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is debuggee class containing different kinds of fields

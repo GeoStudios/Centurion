@@ -21,24 +21,10 @@
 
 package transform;
 
-
 import java.io.StringReader;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamSource;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

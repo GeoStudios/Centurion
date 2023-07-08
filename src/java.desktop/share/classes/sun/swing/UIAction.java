@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.sun.swing;
 
-
 import java.beans.PropertyChangejava.util.Listener;
 import javax.swing.Action;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * UIAction is the basis of all of basic's action classes that are used in

@@ -21,22 +21,8 @@
 
 package compiler.rtm.cli;
 
-
 import jdk.test.lib.process.ExitCode;
 import jdk.test.lib.cli.CommandLineOptionTest;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -50,8 +36,6 @@ import jdk.test.lib.cli.CommandLineOptionTest;
  * @requires !vm.rtm.cpu & vm.rtm.compiler
  * @run driver compiler.rtm.cli.TestUseRTMForStackLocksOptionOnUnsupportedConfig
  */
-
-
 
 public class TestUseRTMForStackLocksOptionOnUnsupportedConfig
         extends RTMGenericCommandLineOptionTest {

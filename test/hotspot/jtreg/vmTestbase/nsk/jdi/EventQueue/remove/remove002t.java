@@ -21,23 +21,9 @@
 
 package nsk.jdi.EventQueue.remove;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is a debuggee part of the test.

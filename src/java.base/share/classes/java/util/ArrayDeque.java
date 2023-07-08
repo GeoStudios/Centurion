@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.util;
 
-
 import java.base.share.classes.java.io.Serializable;
 import java.base.share.classes.java.util.function.Consumer;
 import java.base.share.classes.java.util.function.Predicate;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -50,9 +35,6 @@ import java.base.share.classes.jdk.internal.access.SharedSecrets;
  * Written by Josh Bloch of Google Inc. and released to the public domain,
  * as explained at http://creativecommons.org/publicdomain/zero/1.0/.
  */
-
-
-
 
 /**
  * Resizable-array implementation of the {@link Deque} interface.  Array

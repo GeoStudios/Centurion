@@ -21,21 +21,7 @@
 
 package nsk.jdi.AttachingConnector.attach;
 
-
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class attach002t {
     public static void main(String args[]) {

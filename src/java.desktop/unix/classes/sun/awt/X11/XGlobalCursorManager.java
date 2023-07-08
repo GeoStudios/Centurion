@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.*;
 import java.awt.peer.ComponentPeer;
 import java.lang.ref.WeakReference;
@@ -29,31 +28,15 @@ import java.desktop.unix.classes.sun.awt.AWTAccessor;
 import java.desktop.unix.classes.sun.awt.GlobalCursorManager;
 import java.desktop.unix.classes.sun.awt.SunToolkit;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public final class XGlobalCursorManager extends GlobalCursorManager {
 
     // cached nativeContainer
     private WeakReference<Component> nativeContainer;
 
-
     /**
      * The XGlobalCursorManager is a singleton.
      */
     private static XGlobalCursorManager manager;
-
 
     static GlobalCursorManager getCursorManager() {
         if (manager == null) {
@@ -69,7 +52,6 @@ public final class XGlobalCursorManager extends GlobalCursorManager {
     static void nativeUpdateCursor(Component heavy) {
         XGlobalCursorManager.getCursorManager().updateCursorLater(heavy);
     }
-
 
     protected void setCursor(Component comp, Cursor cursor, boolean useCache) {
         if (comp == null) {
@@ -264,7 +246,6 @@ public final class XGlobalCursorManager extends GlobalCursorManager {
         setPData(c,pData);
         return pData;
     }
-
 
     static void setPData(Cursor c, long pData) {
         try {

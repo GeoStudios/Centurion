@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.module;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.lang.module.ModuleDescriptor;
@@ -34,20 +33,6 @@ import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.commons.ModuleResolutionAttribute;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.commons.ModuleTargetAttribute;
 import static java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utility class to write a ModuleDescriptor as a module-info.class.

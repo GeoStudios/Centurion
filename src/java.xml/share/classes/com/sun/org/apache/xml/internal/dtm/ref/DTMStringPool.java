@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.IntVector;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** <p>DTMStringPool is an "interning" mechanism for strings. It will
  * create a stable 1:1 mapping between a set of string values and a set of

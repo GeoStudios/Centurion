@@ -21,21 +21,6 @@
 
 package jdk.test.failurehandler;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface EnvironmentInfoGatherer {
     void gatherEnvironmentInfo(HtmlSection section);
 }

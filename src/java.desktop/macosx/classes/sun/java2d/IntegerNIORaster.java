@@ -21,25 +21,10 @@
 
 package java.desktop.macosx.classes.sun.java2d;
 
-
 import java.awt.*;
 import java.awt.image.*;
 import java.nio.IntBuffer;
 import java.desktop.macosx.classes.sun.awt.image.SunWritableRaster;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class IntegerNIORaster extends SunWritableRaster {
 
@@ -91,7 +76,6 @@ public class IntegerNIORaster extends SunWritableRaster {
         WritableRaster ret = createCompatibleWritableRaster(w, h);
         return ret.createWritableChild(0,0,w,h,x,y,null);
     }
-
 
     public IntBuffer getBuffer() {
         return data;

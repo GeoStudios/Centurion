@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.io;
 
-
 import java.base.share.classes.java.nio.charset.Charset;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Writes text to character files using a default buffer size. Encoding from characters
@@ -131,7 +116,6 @@ public class FileWriter extends OutputStreamWriter {
     public FileWriter(FileDescriptor fd) {
         super(new FileOutputStream(fd));
     }
-
 
     /**
      * Constructs a {@code FileWriter} given a file name and

@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // A MetadataVisitor can be used to inspect all fields within an object.
 // Fields include vm fields, java fields, indexable fields.
 

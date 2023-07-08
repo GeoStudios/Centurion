@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.reflect.annotation;
 
-
 import java.lang.annotation.*;
 import java.lang.reflect.*;
 import java.nio.ByteBuffer;
@@ -35,20 +34,6 @@ import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.access.JavaLangAccess;
 import jdk.internal.reflect.ConstantPool;
 import static java.base.share.classes.sun.reflect.annotation.TypeAnnotation.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * TypeAnnotationParser implements the logic needed to parse
@@ -380,7 +365,6 @@ public final class TypeAnnotationParser {
 
         return typeAnnotations.toArray(EMPTY_TYPE_ANNOTATION_ARRAY);
     }
-
 
     // Helper
     static Map<Class<? extends Annotation>, Annotation> mapTypeAnnotations(TypeAnnotation[] typeAnnos) {

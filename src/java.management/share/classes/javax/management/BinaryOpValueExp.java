@@ -21,22 +21,6 @@
 
 package java.management.share.classes.javax.management;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class is used by the query-building mechanism to represent binary
  * operations.
@@ -63,7 +47,6 @@ class BinaryOpValueExp extends QueryEval implements ValueExp {
      */
     private ValueExp exp2;
 
-
     /**
      * Basic Constructor.
      */
@@ -79,7 +62,6 @@ class BinaryOpValueExp extends QueryEval implements ValueExp {
         exp1 = v1;
         exp2 = v2;
     }
-
 
     /**
      * Returns the operator of the value expression.

@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** <P> DebuggerBase is a recommended base class for debugger
     implementations. It can use a PageCache to cache data from the
     target process. Note that this class would not be suitable if the

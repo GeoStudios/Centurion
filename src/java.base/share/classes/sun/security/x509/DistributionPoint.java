@@ -21,26 +21,11 @@
 
 package java.base.share.classes.sun.security.x509;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.*;
 import java.base.share.classes.sun.security.util.BitArray;
 import java.base.share.classes.sun.security.util.DerOutputStream;
 import java.base.share.classes.sun.security.util.DerValue;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represent the DistributionPoint sequence used in the CRL

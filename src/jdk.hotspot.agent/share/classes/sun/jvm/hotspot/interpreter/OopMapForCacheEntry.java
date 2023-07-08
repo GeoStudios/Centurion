@@ -21,24 +21,9 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.interpreter;
 
-
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class OopMapForCacheEntry extends GenerateOopMap {
   private final OopMapCacheEntry entry;

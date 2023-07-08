@@ -21,23 +21,8 @@
 
 package java.security.sasl.share.classes.com.sun.security.sasl.util;
 
-
 import javax.security.sasl.Sasl;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Static class that contains utilities for dealing with Java SASL

@@ -21,26 +21,11 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-
 import java.awt.*;
 import java.awt.dnd.DropTarget;
 import java.desktop.macosx.classes.sun.awt.dnd.SunDropTargetContextPeer;
 import java.desktop.macosx.classes.sun.awt.dnd.SunDropTargetEvent;
 import javax.swing.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class CDropTargetContextPeer extends SunDropTargetContextPeer {
 

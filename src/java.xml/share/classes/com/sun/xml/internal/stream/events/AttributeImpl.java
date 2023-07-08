@@ -21,25 +21,10 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.events;
 
-
 import javax.xml.namespace.QName;
 import javax.xml.stream.events.Attribute;
 import java.io.Writer;
 import javax.xml.stream.events.XMLEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //xxx: AttributeEvent is not really a first order event. Should we be renaming the class to AttributeImpl for consistent
 //naming convention.
@@ -61,7 +46,6 @@ public class AttributeImpl extends DummyEvent implements Attribute
     private QName fQName;
     //attribute type
     private String fAttributeType = "CDATA";
-
 
     //A flag indicating whether this attribute was actually specified in the start-tag
     //of its element or was defaulted from the schema.
@@ -87,7 +71,6 @@ public class AttributeImpl extends DummyEvent implements Attribute
     public AttributeImpl(String prefix, String uri, String localPart, String value, String nonNormalizedvalue, String type, boolean isSpecified) {
         this(new QName(uri, localPart, prefix), value, nonNormalizedvalue, type, isSpecified);
     }
-
 
     public AttributeImpl(QName qname, String value, String nonNormalizedvalue, String type, boolean isSpecified) {
         init();
@@ -158,12 +141,8 @@ public class AttributeImpl extends DummyEvent implements Attribute
         writer.write(toString());
      }
 
-
     protected void init(){
         setEventType(XMLEvent.ATTRIBUTE);
     }
-
-
-
 
 }//AttributeImpl

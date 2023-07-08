@@ -21,22 +21,7 @@
 
 package java.rmi.share.classes.java.rmi.server;
 
-
 import java.rmi.share.classes.java.rmi.RemoteException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This exception is thrown when a call is received that does not

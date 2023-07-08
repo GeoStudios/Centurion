@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * ILOAD - Load int from local variable onto stack
@@ -58,14 +41,12 @@ public class ILOAD extends LoadInstruction {
         super(com.sun.org.apache.bcel.internal.Const.ILOAD, com.sun.org.apache.bcel.internal.Const.ILOAD_0);
     }
 
-
     /** Load int from local variable
      * @param n index of local variable
      */
     public ILOAD(final int n) {
         super(com.sun.org.apache.bcel.internal.Const.ILOAD, com.sun.org.apache.bcel.internal.Const.ILOAD_0, n);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

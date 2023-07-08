@@ -21,7 +21,6 @@
 
 package jdk.net.share.classes.jdk.net;
 
-
 import jdk.net.share.classes.jdk.net.Extendedjava.net.SocketOptions.Platformjava.net.SocketOptions;
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.Datagramjava.net.java.net.java.net.Socket;
@@ -35,20 +34,6 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Defines static methods to set and get socket options defined by the

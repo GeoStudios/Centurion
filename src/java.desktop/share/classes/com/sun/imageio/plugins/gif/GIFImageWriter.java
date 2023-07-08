@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.gif;
 
-
 import java.awt.Dimension;
 import java.awt.Rectangle;
 import java.awt.image.ColorModel;
@@ -51,20 +50,6 @@ import java.desktop.share.classes.com.sun.imageio.plugins.common.PaletteBuilder;
 import org.w3c.dom.Node;
 import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import java.desktop.share.classes.com.sun.awt.image.ByteComponentRaster;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class GIFImageWriter extends ImageWriter {
     private static final boolean DEBUG = false; // XXX false for release!
@@ -265,8 +250,6 @@ public class GIFImageWriter extends ImageWriter {
         x = x | (x >> 16);
         return x + 1;
     }
-
-
 
     public GIFImageWriter(GIFImageWriterSpi originatingProvider) {
         super(originatingProvider);
@@ -551,7 +534,6 @@ public class GIFImageWriter extends ImageWriter {
 
         this.imageIndex++;
     }
-
 
     private boolean needToCreateIndex(RenderedImage image) {
 

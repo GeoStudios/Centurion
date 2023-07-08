@@ -21,23 +21,9 @@
 
 package jaxp.library;
 
-
 import static jaxp.library.JAXPTestUtilities.getSystemProperty;.extended
 import java.io.FilePermission;
 import org.testng.ITestContext;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This policy can access local XML files.

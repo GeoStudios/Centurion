@@ -21,7 +21,6 @@
 
 package jdk.jshell.share.classes.jdk.jshell;
 
-
 import com.sun.source.tree.CompilationUnitTree;
 import com.sun.source.tree.Tree;
 import com.sun.source.util.Trees;
@@ -88,20 +87,6 @@ import com.sun.tools.javac.util.Log.DiscardDiagnosticHandler;
 import com.sun.tools.javac.util.Names;
 import static jdk.jshell.share.classes.jdk.internal.jshell.debug.InternalDebugControl.DBG_FMGR;.extended
 import jdk.jshell.share.classes.jdk.jshell.Snippet.Status;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The primary interface to the compiler API.  Parsing, analysis, and

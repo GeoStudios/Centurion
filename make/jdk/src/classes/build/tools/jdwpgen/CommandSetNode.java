@@ -21,56 +21,6 @@
 
 package build.tools.jdwpgen;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class CommandSetNode extends AbstractNamedNode {
 
     void constrainComponent(Context ctx, Node node) {

@@ -21,56 +21,6 @@
 
 package build.tools.jdwpgen;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class UntaggedValueTypeNode extends ValueTypeNode {
 
     String docType() {

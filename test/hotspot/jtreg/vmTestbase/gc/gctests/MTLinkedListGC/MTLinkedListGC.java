@@ -21,22 +21,8 @@
 
 package gc.gctests.MTLinkedListGC;
 
-
 import java.util.Vector;
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -55,8 +41,6 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm gc.gctests.MTLinkedListGC.MTLinkedListGC
  */
-
-
 
 class CircularLinkedList {
         synchronized void addElement(String info) {

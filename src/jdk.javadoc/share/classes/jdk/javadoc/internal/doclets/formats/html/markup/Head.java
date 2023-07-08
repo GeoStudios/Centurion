@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Writer;
 import java.text.SimpleDateFormat;
@@ -33,20 +32,6 @@ import java.util.java.util.java.util.java.util.List;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPath;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPaths;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An HTML {@code <head>} element.

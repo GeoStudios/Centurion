@@ -21,22 +21,6 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.html;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *  The object used to represent the <code>TH</code> and <code>TD</code>
  * elements. See the  TD element definition in HTML 4.0.

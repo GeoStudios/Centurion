@@ -21,22 +21,8 @@
 
 package test;
 
-
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class IAE_Loader1 extends ClassLoader {
 

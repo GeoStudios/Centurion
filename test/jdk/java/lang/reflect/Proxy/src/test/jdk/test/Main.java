@@ -21,23 +21,9 @@
 
 package jdk.test;
 
-
 import java.net.URL;
 import java.net.URLClassLoader;
 import static jdk.test.ProxyTest.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Main {
     public static void main(String... args) {

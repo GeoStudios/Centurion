@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.sound.sampled;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An {@code EnumControl} provides control over a set of discrete possible
  * values, each represented by an object. In a graphical user interface, such a

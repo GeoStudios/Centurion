@@ -21,25 +21,11 @@
 
 package nsk.jdi.VirtualMachine.redefineClasses;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import java.io.*;
 import java.net.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //    THIS TEST IS LINE NUMBER SENSITIVE
 

@@ -21,21 +21,6 @@
 
 package metaspace.stressHierarchy.common.exceptions;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Usually this means that we got OOME:heap while trying to gain OOME:metaspace.
  * We pass test in this case as this breaks test logic. We have dedicated test configurations

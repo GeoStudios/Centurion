@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.awt.*;
@@ -33,20 +32,6 @@ import java.desktop.share.classes.javax.swing.border.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
 import sun.swing.DefaultLookup;
 import sun.swing.UIAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A Basic L&amp;F implementation of ToolBarUI.  This implementation
@@ -126,7 +111,6 @@ public class BasicToolBarUI extends ToolBarUI implements SwingConstants
     private final HashMap<AbstractButton, Border> borderTable = new HashMap<AbstractButton, Border>();
     private final Hashtable<AbstractButton, Boolean> rolloverTable = new Hashtable<AbstractButton, Boolean>();
 
-
     /**
      * As of Java 2 platform v1.3 this previously undocumented field is no
      * longer used.
@@ -167,7 +151,6 @@ public class BasicToolBarUI extends ToolBarUI implements SwingConstants
      */
     @Deprecated
     protected KeyStroke rightKey;
-
 
     private static final String FOCUSED_COMP_INDEX = "JToolBar.focusedCompIndex";
 
@@ -272,7 +255,6 @@ public class BasicToolBarUI extends ToolBarUI implements SwingConstants
         if (nonRolloverToggleBorder == null) {
             nonRolloverToggleBorder = createNonRolloverToggleBorder();
         }
-
 
         setRolloverBorders( isRolloverBorders() );
     }
@@ -1043,8 +1025,6 @@ public class BasicToolBarUI extends ToolBarUI implements SwingConstants
         return (constraint != null) ? constraint : constraintBeforeFloating;
     }
 
-
-
     private String getDockingConstraint(Component c, Point p) {
         if (p == null) return constraintBeforeFloating;
         if (c.contains(p)) {
@@ -1241,7 +1221,6 @@ public class BasicToolBarUI extends ToolBarUI implements SwingConstants
         g.drawRect(0, 0, w - 1, h - 1);
     }
 
-
     private static class Actions extends UIAction {
         private static final String NAVIGATE_RIGHT = "navigateRight";
         private static final String NAVIGATE_LEFT = "navigateLeft";
@@ -1269,7 +1248,6 @@ public class BasicToolBarUI extends ToolBarUI implements SwingConstants
             }
         }
     }
-
 
     private class Handler implements ContainerListener,
             FocusListener, MouseInputListener, PropertyChangeListener {
@@ -1302,7 +1280,6 @@ public class BasicToolBarUI extends ToolBarUI implements SwingConstants
             setBorderToNormal(c);
         }
 
-
         //
         // FocusListener
         //
@@ -1312,7 +1289,6 @@ public class BasicToolBarUI extends ToolBarUI implements SwingConstants
         }
 
         public void focusLost(FocusEvent evt) { }
-
 
         //
         // MouseInputListener (DockingListener)
@@ -1358,7 +1334,6 @@ public class BasicToolBarUI extends ToolBarUI implements SwingConstants
         public void mouseEntered(MouseEvent evt) {}
         public void mouseExited(MouseEvent evt) {}
         public void mouseMoved(MouseEvent evt) {}
-
 
         //
         // PropertyChangeListener

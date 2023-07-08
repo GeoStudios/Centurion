@@ -21,21 +21,7 @@
 
 package compiler.testlibrary.rtm;
 
-
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * In order to force nested transaction abort NestedAbortProvoker

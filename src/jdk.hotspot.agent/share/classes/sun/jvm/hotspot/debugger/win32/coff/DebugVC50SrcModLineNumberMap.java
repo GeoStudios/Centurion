@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Supplies line number/address mapping for a given source file. */
 
 public interface DebugVC50SrcModLineNumberMap {

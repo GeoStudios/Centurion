@@ -21,29 +21,12 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.implementations;
 
-
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.Canonicalizer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Class Canonicalizer20010315ExclWithComments

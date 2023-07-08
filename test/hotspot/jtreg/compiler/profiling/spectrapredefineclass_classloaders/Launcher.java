@@ -21,25 +21,11 @@
 
 package compiler.profiling.spectrapredefineclass_classloaders;
 
-
 import jdk.test.lib.JDKToolLauncher;
 import jdk.test.lib.process.OutputAnalyzer;
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -59,9 +45,6 @@ import java.io.PrintWriter;
  *                   -XX:ReservedCodeCacheSize=3M -Djdk.attach.allowAttachSelf
  *                   compiler.profiling.spectrapredefineclass_classloaders.Agent
  */
-
-
-
 
 public class Launcher {
     private static final String MANIFEST = "MANIFEST.MF";

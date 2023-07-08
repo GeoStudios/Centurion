@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.nio.channels;
 
-
 import java.base.share.classes.java.io.*;
 import java.base.share.classes.java.nio.ByteBuffer;
 import java.base.share.classes.java.nio.MappedByteBuffer;
@@ -32,20 +31,6 @@ import java.base.share.classes.java.nio.file.spi.*;
 import java.base.share.classes.java.util.Set;
 import java.base.share.classes.java.util.HashSet;
 import java.base.share.classes.java.util.Collections;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A channel for reading, writing, mapping, and manipulating a file.
@@ -441,7 +426,6 @@ public abstract class FileChannel
         return write(srcs, 0, srcs.length);
     }
 
-
     // -- Other operations --
 
     /**
@@ -805,7 +789,6 @@ public abstract class FileChannel
      */
     public abstract int write(ByteBuffer src, long position) throws IOException;
 
-
     // -- Memory-mapped buffers --
 
     /**
@@ -955,7 +938,6 @@ public abstract class FileChannel
      */
     public abstract MappedByteBuffer map(MapMode mode, long position, long size)
         throws IOException;
-
 
     // -- Locks --
 

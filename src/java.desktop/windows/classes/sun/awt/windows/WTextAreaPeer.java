@@ -21,24 +21,9 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
-
 import java.awt.*;
 import java.awt.peer.*;
 import java.awt.im.InputMethodRequests;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class WTextAreaPeer extends WTextComponentPeer implements TextAreaPeer {
 

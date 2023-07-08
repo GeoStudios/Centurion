@@ -21,24 +21,10 @@
 
 package nsk.jdwp.ReferenceType.SourceDebugExtension;
 
-
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test checks that the <code>SourceDebugExtension class file

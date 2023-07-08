@@ -21,24 +21,10 @@
 
 package vm.mlvm.indy.func.jvmti.share;
 
-
 import java.io.File;
 import java.lang.reflect.Method;
 import vm.mlvm.share.MlvmTest;
 import vm.share.options.Option;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class IndyRedefineTest extends MlvmTest {
 

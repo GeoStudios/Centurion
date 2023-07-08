@@ -21,23 +21,9 @@
 
 package nsk.jdi.AccessWatchpointEvent._itself_;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is a debuggee class containing several dummy fields.

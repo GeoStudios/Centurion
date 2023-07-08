@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.links;
 
-
 import javax.lang.model.element.ExecutableElement;
 import javax.lang.model.element.TypeElement;
 import javax.lang.model.type.DeclaredType;
@@ -29,20 +28,6 @@ import javax.lang.model.type.TypeMirror;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  Encapsulates information about a link.

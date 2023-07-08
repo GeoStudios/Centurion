@@ -21,24 +21,10 @@
 
 package gc.gctests.nativeGC03;
 
-
 import nsk.share.TestFailure;
 import nsk.share.test.*;
 import nsk.share.gc.*;
 import java.util.Vector;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -59,8 +45,6 @@ import java.util.Vector;
  *          /test/lib
  * @run main/othervm/native gc.gctests.nativeGC03.nativeGC03
  */
-
-
 
 public class nativeGC03 extends GCTestBase {
         private Object[] listHolder;

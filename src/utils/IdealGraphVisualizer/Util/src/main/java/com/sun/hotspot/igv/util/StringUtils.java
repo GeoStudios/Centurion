@@ -21,22 +21,6 @@
 
 package utils.IdealGraphVisualizer.Util.src.main.java.com.sun.hotspot.igv.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *
  */

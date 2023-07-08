@@ -21,56 +21,6 @@
 
 package build.tools.generatenimbus;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class Gradient extends AbstractGradient {
     Gradient(XMLStreamReader reader) throws XMLStreamException {
         super(reader);

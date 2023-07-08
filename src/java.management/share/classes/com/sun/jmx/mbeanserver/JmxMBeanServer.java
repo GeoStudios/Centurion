@@ -21,7 +21,6 @@
 
 package java.management.share.classes.com.sun.jmx.mbeanserver;
 
-
 import java.management.share.classes.com.sun.jmx.interceptor.DefaultMBeanServerInterceptor;
 import java.management.share.classes.com.sun.jmx.interceptor.MBeanServerInterceptor;
 import static java.management.share.classes.com.sun.jmx.defaults.JmxProperties.MBEANSERVER_LOGGER;.extended
@@ -58,20 +57,6 @@ import javax.management.QueryExp;
 import javax.management.ReflectionException;
 import javax.management.RuntimeOperationsException;
 import javax.management.loading.ClassLoaderRepository;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is the base class for MBean manipulation on the agent side. It
@@ -687,7 +672,6 @@ public final class JmxMBeanServer
         return mbsInterceptor.getAttribute(cloneObjectName(name), attribute);
     }
 
-
     /**
      * Enables the values of several attributes of a named MBean. The MBean
      * is identified by its object name.
@@ -1252,7 +1236,6 @@ public final class JmxMBeanServer
             throw new
                 IllegalStateException("Can't register delegate.",e);
         }
-
 
         /* Add my class loader to the repository
            This can be null if my class loader is the bootstrap

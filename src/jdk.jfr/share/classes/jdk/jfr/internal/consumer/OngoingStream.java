@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.consumer;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.file.Path;
@@ -31,20 +30,6 @@ import jdk.jfr.share.classes.jdk.jfr.internal.SecuritySupport;
 import jdk.jfr.share.classes.jdk.jfr.internal.SecuritySupport.SafePath;
 import jdk.jfr.share.classes.jdk.jfr.internal.management.EventByteStream;
 import jdk.jfr.share.classes.jdk.jfr.internal.management.ManagementSupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class OngoingStream extends EventByteStream {
 

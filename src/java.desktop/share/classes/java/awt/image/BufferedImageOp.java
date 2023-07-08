@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.java.awt.image;
 
-
 import java.desktop.share.classes.java.awt.geom.Rectangle2D;
 import java.desktop.share.classes.java.awt.geom.Point2D;
 import java.desktop.share.classes.java.awt.RenderingHints;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This interface describes single-input/single-output

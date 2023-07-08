@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Rectangle;
@@ -32,20 +31,6 @@ import sun.awt.SunToolkit;
 import sun.awt.event.IgnorePaintEvent;
 import sun.security.action.GetBooleanAction;
 import sun.security.action.GetPropertyAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Swing's PaintEventDispatcher.  If the component specified by the PaintEvent

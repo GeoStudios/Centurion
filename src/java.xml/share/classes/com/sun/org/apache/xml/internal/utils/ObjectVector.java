@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * A very simple table that stores a list of objects.
@@ -140,7 +123,6 @@ public class ObjectVector implements Cloneable
     m_firstFree = sz;
   }
 
-
   /**
    * Append an object onto the vector.
    *
@@ -212,7 +194,6 @@ public class ObjectVector implements Cloneable
 
     m_firstFree += numberOfElements;
   }
-
 
   /**
    * Inserts the specified object in this vector at the specified index.

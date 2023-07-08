@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.main;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -68,20 +67,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.util.Log.PrefixKind;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Log.WriterKind;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Options;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.PropagatedException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Shared option and argument handling for command line and API usage of javac.
@@ -510,7 +495,6 @@ public class Arguments {
                 }
             }
         }
-
 
         String sourceString = options.get(Option.SOURCE);
         Source source = (sourceString != null)

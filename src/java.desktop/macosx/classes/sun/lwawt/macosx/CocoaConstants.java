@@ -21,22 +21,6 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public final class CocoaConstants {
     private CocoaConstants(){}
 

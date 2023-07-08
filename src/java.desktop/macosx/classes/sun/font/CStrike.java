@@ -21,25 +21,10 @@
 
 package java.desktop.macosx.classes.sun.font;
 
-
 import java.awt.Rectangle;
 import java.awt.geom.*;
 import java.util.*;
 import java.desktop.macosx.classes.sun.awt.SunHints;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class CStrike extends PhysicalStrike {
 
@@ -144,7 +129,6 @@ public final class CStrike extends PhysicalStrike {
         }
         nativeStrikePtr = 0;
     }
-
 
     @Override
     public int getNumGlyphs() {

@@ -21,25 +21,10 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac.comp;
 
-
 import javax.tools.FileObject;
 import javax.tools.ForwardingFileObject;
 import javax.tools.JavaFileManager.Location;
 import jdk.compiler.share.classes.com.sun.tools.javac.api.ClientCodeWrapper.Trusted;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @Trusted
 public class FileObjectWithLocation<F extends FileObject> extends ForwardingFileObject<F> {

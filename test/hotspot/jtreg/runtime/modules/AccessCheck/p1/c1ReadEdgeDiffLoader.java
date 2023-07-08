@@ -21,22 +21,8 @@
 
 package p1;
 
-
 import myloaders.MyDiffClassLoader;
 import p2.c2;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class c1ReadEdgeDiffLoader {
     public c1ReadEdgeDiffLoader() {

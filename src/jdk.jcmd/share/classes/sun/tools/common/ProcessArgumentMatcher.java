@@ -21,7 +21,6 @@
 
 package jdk.jcmd.share.classes.sun.tools.common;
 
-
 import java.net.URISyntaxException;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
@@ -34,20 +33,6 @@ import jdk.jcmd.share.classes.sun.jvmstat.monitor.MonitoredHost;
 import jdk.jcmd.share.classes.sun.jvmstat.monitor.MonitoredVm;
 import jdk.jcmd.share.classes.sun.jvmstat.monitor.MonitoredVmUtil;
 import jdk.jcmd.share.classes.sun.jvmstat.monitor.VmIdentifier;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class for finding process matching a process argument,
@@ -111,7 +96,6 @@ public class ProcessArgumentMatcher {
                 return false;
             }
         }
-
 
         if (mainClass.equals(excludeClass)) {
             return false;

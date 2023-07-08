@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.print;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import javax.print.DocFlavor;
 import javax.print.MultiDocPrintService;
@@ -36,20 +35,6 @@ import javax.print.attribute.PrintRequestAttributeSet;
 import javax.print.attribute.PrintServiceAttribute;
 import javax.print.attribute.PrintServiceAttributeSet;
 import javax.print.attribute.standard.PrinterName;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("removal")
 public class PrintServiceLookupProvider extends PrintServiceLookup {
@@ -175,7 +160,6 @@ public class PrintServiceLookupProvider extends PrintServiceLookup {
         }
     }
 
-
     public synchronized PrintService getPrintServiceByName(String name) {
 
         if (name == null || name.isEmpty()) {
@@ -284,13 +268,11 @@ public class PrintServiceLookupProvider extends PrintServiceLookup {
         return new MultiDocPrintService[0];
     }
 
-
     public synchronized PrintService getDefaultPrintService() {
         SecurityManager security = System.getSecurityManager();
         if (security != null) {
           security.checkPrintJobAccess();
         }
-
 
         // Windows does not have notification for a change in default
         // so we always get the latest.

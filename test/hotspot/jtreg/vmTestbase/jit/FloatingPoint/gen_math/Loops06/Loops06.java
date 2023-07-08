@@ -21,21 +21,7 @@
 
 package jit.FloatingPoint.gen_math.Loops06;
 
-
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -47,8 +33,6 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.FloatingPoint.gen_math.Loops06.Loops06
  */
-
-
 
 public class Loops06
 {
@@ -73,7 +57,6 @@ public class Loops06
 
         Loops06 ll;
         ll = new Loops06();
-
 
         for(int i = 0; i < N; i++)
         {       r1 = i;
@@ -114,7 +97,6 @@ public class Loops06
         r5 = norma_x * norma_x + norma_y * norma_y + norma_z * norma_z;
         double total_norma = Math.sqrt(r5);
 
-
         double errrr = Math.abs(total_norma - 0.83);
         ll.Echeck(errrr,Error);
    }
@@ -136,7 +118,6 @@ public class Loops06
         return nor;
    }
 
-
    public void Echeck(double er, double ER)
    {
 
@@ -150,9 +131,5 @@ public class Loops06
         }
 
    }
-
-
-
-
 
 }

@@ -21,27 +21,12 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.base.share.classes.javax.crypto.SecretKey;
 import java.base.share.classes.javax.crypto.spec.SecretKeySpec;
 import javax.crypto.spec.PBEParameterSpec;
 import java.base.share.classes.java.security.*;
 import java.base.share.classes.java.security.spec.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is an implementation of the HMAC algorithms as defined

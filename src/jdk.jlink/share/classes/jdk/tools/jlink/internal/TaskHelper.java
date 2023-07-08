@@ -21,7 +21,6 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.file.Files;
@@ -52,20 +51,6 @@ import jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins.PluginsResourceB
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.Plugin;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.Plugin.Category;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.PluginException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

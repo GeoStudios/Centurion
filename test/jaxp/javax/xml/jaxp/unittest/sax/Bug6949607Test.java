@@ -21,7 +21,6 @@
 
 package sax;
 
-
 import java.io.ByteArrayInputStream;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
@@ -31,19 +30,6 @@ import org.testng.annotations.Test;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

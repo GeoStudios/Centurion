@@ -21,22 +21,6 @@
 
 package java.sql.share.classes.java.sql;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The subclass of {@link SQLException} thrown when the SQLState class value
  * is '<i>23</i>', or under vendor-specified conditions.

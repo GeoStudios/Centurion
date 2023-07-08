@@ -21,23 +21,9 @@
 
 package nsk.jdi.ReferenceType.visibleMethods;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The debugged application of the test.
@@ -87,7 +73,6 @@ public class visibmethod007a {
         pipe = argHandler.createDebugeeIOPipe(log);
 
         pipe.println(visibmethod007.SIGNAL_READY);
-
 
         //pipe.println(visibmethod007.SIGNAL_GO);
         receiveSignal(visibmethod007.SIGNAL_QUIT);

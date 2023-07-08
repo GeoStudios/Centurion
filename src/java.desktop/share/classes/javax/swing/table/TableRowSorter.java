@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.javax.swing.table;
 
-
 import java.text.Collator;
 import java.util.*;
 import java.desktop.share.classes.javax.swing.DefaultRowSorter;
 import java.desktop.share.classes.javax.swing.RowFilter;
 import java.desktop.share.classes.javax.swing.SortOrder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of <code>RowSorter</code> that provides sorting
@@ -154,7 +139,6 @@ public class TableRowSorter<M extends TableModel> extends DefaultRowSorter<M, In
      * For toString conversions.
      */
     private TableStringConverter stringConverter;
-
 
     /**
      * Creates a <code>TableRowSorter</code> with an empty model.
@@ -305,7 +289,6 @@ public class TableRowSorter<M extends TableModel> extends DefaultRowSorter<M, In
             return index;
         }
     }
-
 
     private static class ComparableComparator implements Comparator<Object> {
         @SuppressWarnings("unchecked")

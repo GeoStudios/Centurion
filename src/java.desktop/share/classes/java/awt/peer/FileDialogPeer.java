@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.java.awt.peer;
 
-
 import java.desktop.share.classes.java.awt.FileDialog;
 import java.desktop.share.classes.java.io.FilenameFilter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The peer interface for {@link FileDialog}.

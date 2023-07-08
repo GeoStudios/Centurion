@@ -21,31 +21,13 @@
 
 package java.base.share.classes.sun.security.util;
 
-
 import java.util.Comparator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * ByteArrayTagOrder: a class for comparing two DER encodings by the
  * order of their tags.
  *
  */
-
-
-
 
 public class ByteArrayTagOrder implements Comparator<byte[]> {
 
@@ -69,6 +51,5 @@ public class ByteArrayTagOrder implements Comparator<byte[]> {
         // the constructivity bit (0x02)
         return (bytes1[0] | 0x20) - (bytes2[0] | 0x20);
     }
-
 
 }

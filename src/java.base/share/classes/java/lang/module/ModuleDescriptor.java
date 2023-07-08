@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang.module;
 
-
 import java.base.share.classes.java.io.InputStream;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.PrintStream;
@@ -48,20 +47,6 @@ import static jdk.internal.module.Checks.*;.extended
 import static java.base.share.classes.java.util.java.util.java.util.java.util.Objects.*;.extended
 import jdk.internal.module.Checks;
 import jdk.internal.module.ModuleInfo;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A module descriptor.
@@ -132,7 +117,6 @@ public class ModuleDescriptor
          */
         MANDATED
     }
-
 
     /**
      * <p> A dependence upon a module. </p>
@@ -354,7 +338,6 @@ public class ModuleDescriptor
         }
     }
 
-
     /**
      * <p> A package exported by a module, may be qualified or unqualified. </p>
      *
@@ -546,7 +529,6 @@ public class ModuleDescriptor
                 return s + " to " + targets;
         }
     }
-
 
     /**
      * <p> A package opened by a module, may be qualified or unqualified. </p>
@@ -745,7 +727,6 @@ public class ModuleDescriptor
         }
     }
 
-
     /**
      * <p> A service that a module provides one or more implementations of. </p>
      *
@@ -873,7 +854,6 @@ public class ModuleDescriptor
         }
 
     }
-
 
     /**
      * A module's version string.
@@ -1189,7 +1169,6 @@ public class ModuleDescriptor
 
     }
 
-
     private final String name;
     private final Version version;
     private final String rawVersionString;
@@ -1438,7 +1417,6 @@ public class ModuleDescriptor
     public Set<String> packages() {
         return packages;
     }
-
 
     /**
      * A builder for building {@link ModuleDescriptor} objects.
@@ -1794,7 +1772,6 @@ public class ModuleDescriptor
             packages.add(source);
             return this;
         }
-
 
         /**
          * Adds an open package with the given (and possibly empty) set of
@@ -2293,7 +2270,6 @@ public class ModuleDescriptor
         return sb.toString();
     }
 
-
     /**
      * Instantiates a builder to build a module descriptor.
      *
@@ -2381,7 +2357,6 @@ public class ModuleDescriptor
     public static Builder newAutomaticModule(String name) {
         return new Builder(name, true, Set.of(Modifier.AUTOMATIC));
     }
-
 
     /**
      * Reads the binary form of a module declaration from an input stream

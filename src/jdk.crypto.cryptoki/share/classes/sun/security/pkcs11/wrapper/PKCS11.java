@@ -21,7 +21,6 @@
 
 package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper;
 
-
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.*;
@@ -30,20 +29,6 @@ import java.security.PrivilegedAction;
 import jdk.crypto.cryptoki.share.classes.sun.security.util.Debug;
 import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Constants.*;.extended
 import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Exception.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is the default implementation of the PKCS11 interface. IT connects to
@@ -189,7 +174,6 @@ public class PKCS11 {
      */
     private native void disconnect();
 
-
     // Implementation of PKCS11 methods delegated to native pkcs11wrapper library
 
 /* *****************************************************************************
@@ -222,7 +206,6 @@ public class PKCS11 {
      */
     public native void C_Finalize(Object pReserved) throws PKCS11Exception;
 
-
     /**
      * C_GetInfo returns general information about Cryptoki.
      * (General-purpose)
@@ -234,7 +217,6 @@ public class PKCS11 {
      * @postconditions (result <> null)
      */
     public native CK_INFO C_GetInfo() throws PKCS11Exception;
-
 
 /* *****************************************************************************
  * Slot and token management
@@ -255,7 +237,6 @@ public class PKCS11 {
     public native long[] C_GetSlotList(boolean tokenPresent)
             throws PKCS11Exception;
 
-
     /**
      * C_GetSlotInfo obtains information about a particular slot in
      * the system.
@@ -270,7 +251,6 @@ public class PKCS11 {
      * @postconditions (result <> null)
      */
     public native CK_SLOT_INFO C_GetSlotInfo(long slotID) throws PKCS11Exception;
-
 
     /**
      * C_GetTokenInfo obtains information about a particular token
@@ -288,7 +268,6 @@ public class PKCS11 {
     public native CK_TOKEN_INFO C_GetTokenInfo(long slotID)
             throws PKCS11Exception;
 
-
     /**
      * C_GetMechanismList obtains a list of mechanism types
      * supported by a token.
@@ -304,7 +283,6 @@ public class PKCS11 {
      * @postconditions (result <> null)
      */
     public native long[] C_GetMechanismList(long slotID) throws PKCS11Exception;
-
 
     /**
      * C_GetMechanismInfo obtains information about a particular
@@ -324,7 +302,6 @@ public class PKCS11 {
     public native CK_MECHANISM_INFO C_GetMechanismInfo(long slotID, long type)
             throws PKCS11Exception;
 
-
     /**
      * C_InitToken initializes a token.
      * (Slot and token management)
@@ -342,7 +319,6 @@ public class PKCS11 {
 //    public native void C_InitToken(long slotID, char[] pPin, char[] pLabel)
 //            throws PKCS11Exception;
 
-
     /**
      * C_InitPIN initializes the normal user's PIN.
      * (Slot and token management)
@@ -357,7 +333,6 @@ public class PKCS11 {
      */
 //    public native void C_InitPIN(long hSession, char[] pPin)
 //            throws PKCS11Exception;
-
 
     /**
      * C_SetPIN modifies the PIN of the user who is logged in.
@@ -375,8 +350,6 @@ public class PKCS11 {
      */
 //    public native void C_SetPIN(long hSession, char[] pOldPin, char[] pNewPin)
 //            throws PKCS11Exception;
-
-
 
 /* *****************************************************************************
  * Session management
@@ -404,7 +377,6 @@ public class PKCS11 {
     public native long C_OpenSession(long slotID, long flags,
             Object pApplication, CK_NOTIFY Notify) throws PKCS11Exception;
 
-
     /**
      * C_CloseSession closes a session between an application and a
      * token.
@@ -418,7 +390,6 @@ public class PKCS11 {
      */
     public native void C_CloseSession(long hSession) throws PKCS11Exception;
 
-
     /**
      * C_CloseAllSessions closes all sessions with a token.
      * (Session management)
@@ -430,7 +401,6 @@ public class PKCS11 {
      * @postconditions
      */
 //    public native void C_CloseAllSessions(long slotID) throws PKCS11Exception;
-
 
     /**
      * C_GetSessionInfo obtains information about the session.
@@ -446,7 +416,6 @@ public class PKCS11 {
      */
     public native CK_SESSION_INFO C_GetSessionInfo(long hSession)
             throws PKCS11Exception;
-
 
     /**
      * C_GetOperationState obtains the state of the cryptographic operation
@@ -464,7 +433,6 @@ public class PKCS11 {
      */
     public native byte[] C_GetOperationState(long hSession)
             throws PKCS11Exception;
-
 
     /**
      * C_SetOperationState restores the state of the cryptographic
@@ -487,7 +455,6 @@ public class PKCS11 {
     public native void C_SetOperationState(long hSession, byte[] pOperationState,
             long hEncryptionKey, long hAuthenticationKey) throws PKCS11Exception;
 
-
     /**
      * C_Login logs a user into a token.
      * (Session management)
@@ -505,7 +472,6 @@ public class PKCS11 {
     public native void C_Login(long hSession, long userType, char[] pPin)
             throws PKCS11Exception;
 
-
     /**
      * C_Logout logs a user out from a token.
      * (Session management)
@@ -517,8 +483,6 @@ public class PKCS11 {
      * @postconditions
      */
     public native void C_Logout(long hSession) throws PKCS11Exception;
-
-
 
 /* *****************************************************************************
  * Object management
@@ -542,7 +506,6 @@ public class PKCS11 {
     public native long C_CreateObject(long hSession, CK_ATTRIBUTE[] pTemplate)
             throws PKCS11Exception;
 
-
     /**
      * C_CopyObject copies an object, creating a new object for the
      * copy.
@@ -564,7 +527,6 @@ public class PKCS11 {
     public native long C_CopyObject(long hSession, long hObject,
             CK_ATTRIBUTE[] pTemplate) throws PKCS11Exception;
 
-
     /**
      * C_DestroyObject destroys an object.
      * (Object management)
@@ -579,7 +541,6 @@ public class PKCS11 {
      */
     public native void C_DestroyObject(long hSession, long hObject)
             throws PKCS11Exception;
-
 
     /**
      * C_GetObjectSize gets the size of an object in bytes.
@@ -597,7 +558,6 @@ public class PKCS11 {
      */
 //    public native long C_GetObjectSize(long hSession, long hObject)
 //            throws PKCS11Exception;
-
 
     /**
      * C_GetAttributeValue obtains the value of one or more object
@@ -619,7 +579,6 @@ public class PKCS11 {
     public native void C_GetAttributeValue(long hSession, long hObject,
             CK_ATTRIBUTE[] pTemplate) throws PKCS11Exception;
 
-
     /**
      * C_SetAttributeValue modifies the value of one or more object
      * attributes
@@ -639,7 +598,6 @@ public class PKCS11 {
     public native void C_SetAttributeValue(long hSession, long hObject,
             CK_ATTRIBUTE[] pTemplate) throws PKCS11Exception;
 
-
     /**
      * C_FindObjectsInit initializes a search for token and session
      * objects that match a template.
@@ -656,7 +614,6 @@ public class PKCS11 {
      */
     public native void C_FindObjectsInit(long hSession, CK_ATTRIBUTE[] pTemplate)
             throws PKCS11Exception;
-
 
     /**
      * C_FindObjects continues a search for token and session
@@ -677,7 +634,6 @@ public class PKCS11 {
     public native long[] C_FindObjects(long hSession, long ulMaxObjectCount)
             throws PKCS11Exception;
 
-
     /**
      * C_FindObjectsFinal finishes a search for token and session
      * objects.
@@ -690,8 +646,6 @@ public class PKCS11 {
      * @postconditions
      */
     public native void C_FindObjectsFinal(long hSession) throws PKCS11Exception;
-
-
 
 /* *****************************************************************************
  * Encryption and decryption
@@ -713,7 +667,6 @@ public class PKCS11 {
      */
     public native void C_EncryptInit(long hSession, CK_MECHANISM pMechanism,
             long hKey) throws PKCS11Exception;
-
 
     /**
      * C_Encrypt encrypts single-part data.
@@ -740,7 +693,6 @@ public class PKCS11 {
     public native int C_Encrypt(long hSession, long directIn, byte[] in,
             int inOfs, int inLen, long directOut, byte[] out, int outOfs,
             int outLen) throws PKCS11Exception;
-
 
     /**
      * C_EncryptUpdate continues a multiple-part encryption
@@ -769,7 +721,6 @@ public class PKCS11 {
             int inOfs, int inLen, long directOut, byte[] out, int outOfs,
             int outLen) throws PKCS11Exception;
 
-
     /**
      * C_EncryptFinal finishes a multiple-part encryption
      * operation.
@@ -791,7 +742,6 @@ public class PKCS11 {
     public native int C_EncryptFinal(long hSession, long directOut, byte[] out,
             int outOfs, int outLen) throws PKCS11Exception;
 
-
     /**
      * C_DecryptInit initializes a decryption operation.
      * (Encryption and decryption)
@@ -808,7 +758,6 @@ public class PKCS11 {
      */
     public native void C_DecryptInit(long hSession, CK_MECHANISM pMechanism,
             long hKey) throws PKCS11Exception;
-
 
     /**
      * C_Decrypt decrypts encrypted data in a single part.
@@ -835,7 +784,6 @@ public class PKCS11 {
     public native int C_Decrypt(long hSession, long directIn, byte[] in,
             int inOfs, int inLen, long directOut, byte[] out, int outOfs,
             int outLen) throws PKCS11Exception;
-
 
     /**
      * C_DecryptUpdate continues a multiple-part decryption
@@ -864,7 +812,6 @@ public class PKCS11 {
             int inOfs, int inLen, long directOut, byte[] out, int outOfs,
             int outLen) throws PKCS11Exception;
 
-
     /**
      * C_DecryptFinal finishes a multiple-part decryption
      * operation.
@@ -886,8 +833,6 @@ public class PKCS11 {
     public native int C_DecryptFinal(long hSession, long directOut, byte[] out,
             int outOfs, int outLen) throws PKCS11Exception;
 
-
-
 /* *****************************************************************************
  * Message digesting
  ******************************************************************************/
@@ -906,7 +851,6 @@ public class PKCS11 {
      */
     public native void C_DigestInit(long hSession, CK_MECHANISM pMechanism)
             throws PKCS11Exception;
-
 
     // note that C_DigestSingle does not exist in PKCS#11
     // we combined the C_DigestInit and C_Digest into a single function
@@ -930,7 +874,6 @@ public class PKCS11 {
             byte[] in, int inOfs, int inLen, byte[] digest, int digestOfs,
             int digestLen) throws PKCS11Exception;
 
-
     /**
      * C_DigestUpdate continues a multiple-part message-digesting
      * operation.
@@ -946,7 +889,6 @@ public class PKCS11 {
      */
     public native void C_DigestUpdate(long hSession, long directIn, byte[] in,
             int inOfs, int inLen) throws PKCS11Exception;
-
 
     /**
      * C_DigestKey continues a multi-part message-digesting
@@ -965,7 +907,6 @@ public class PKCS11 {
     public native void C_DigestKey(long hSession, long hKey)
             throws PKCS11Exception;
 
-
     /**
      * C_DigestFinal finishes a multiple-part message-digesting
      * operation.
@@ -981,8 +922,6 @@ public class PKCS11 {
      */
     public native int C_DigestFinal(long hSession, byte[] pDigest, int digestOfs,
             int digestLen) throws PKCS11Exception;
-
-
 
 /* *****************************************************************************
  * Signing and MACing
@@ -1008,7 +947,6 @@ public class PKCS11 {
     public native void C_SignInit(long hSession, CK_MECHANISM pMechanism,
             long hKey) throws PKCS11Exception;
 
-
     /**
      * C_Sign signs (encrypts with private key) data in a single
      * part, where the signature is (will be) an appendix to the
@@ -1029,7 +967,6 @@ public class PKCS11 {
     public native byte[] C_Sign(long hSession, byte[] pData)
             throws PKCS11Exception;
 
-
     /**
      * C_SignUpdate continues a multiple-part signature operation,
      * where the signature is (will be) an appendix to the data,
@@ -1046,7 +983,6 @@ public class PKCS11 {
      */
     public native void C_SignUpdate(long hSession, long directIn, byte[] in,
             int inOfs, int inLen) throws PKCS11Exception;
-
 
     /**
      * C_SignFinal finishes a multiple-part signature operation,
@@ -1066,7 +1002,6 @@ public class PKCS11 {
     public native byte[] C_SignFinal(long hSession, int expectedLen)
             throws PKCS11Exception;
 
-
     /**
      * C_SignRecoverInit initializes a signature operation, where
      * the data can be recovered from the signature.
@@ -1084,7 +1019,6 @@ public class PKCS11 {
      */
     public native void C_SignRecoverInit(long hSession, CK_MECHANISM pMechanism,
             long hKey) throws PKCS11Exception;
-
 
     /**
      * C_SignRecover signs data in a single operation, where the
@@ -1105,8 +1039,6 @@ public class PKCS11 {
     public native int C_SignRecover(long hSession, byte[] in, int inOfs,
             int inLen, byte[] out, int outOufs, int outLen)
             throws PKCS11Exception;
-
-
 
 /* *****************************************************************************
  * Verifying signatures and MACs
@@ -1131,7 +1063,6 @@ public class PKCS11 {
     public native void C_VerifyInit(long hSession, CK_MECHANISM pMechanism,
             long hKey) throws PKCS11Exception;
 
-
     /**
      * C_Verify verifies a signature in a single-part operation,
      * where the signature is an appendix to the data, and plaintext
@@ -1151,7 +1082,6 @@ public class PKCS11 {
     public native void C_Verify(long hSession, byte[] pData, byte[] pSignature)
             throws PKCS11Exception;
 
-
     /**
      * C_VerifyUpdate continues a multiple-part verification
      * operation, where the signature is an appendix to the data,
@@ -1169,7 +1099,6 @@ public class PKCS11 {
     public native void C_VerifyUpdate(long hSession, long directIn, byte[] in,
             int inOfs, int inLen) throws PKCS11Exception;
 
-
     /**
      * C_VerifyFinal finishes a multiple-part verification
      * operation, checking the signature.
@@ -1185,7 +1114,6 @@ public class PKCS11 {
      */
     public native void C_VerifyFinal(long hSession, byte[] pSignature)
             throws PKCS11Exception;
-
 
     /**
      * C_VerifyRecoverInit initializes a signature verification
@@ -1205,7 +1133,6 @@ public class PKCS11 {
     public native void C_VerifyRecoverInit(long hSession,
             CK_MECHANISM pMechanism, long hKey) throws PKCS11Exception;
 
-
     /**
      * C_VerifyRecover verifies a signature in a single-part
      * operation, where the data is recovered from the signature.
@@ -1224,8 +1151,6 @@ public class PKCS11 {
     public native int C_VerifyRecover(long hSession, byte[] in, int inOfs,
             int inLen, byte[] out, int outOufs, int outLen)
             throws PKCS11Exception;
-
-
 
 /* *****************************************************************************
  * Dual-function cryptographic operations
@@ -1250,7 +1175,6 @@ public class PKCS11 {
 //    public native byte[] C_DigestEncryptUpdate(long hSession, byte[] pPart)
 //            throws PKCS11Exception;
 
-
     /**
      * C_DecryptDigestUpdate continues a multiple-part decryption and
      * digesting operation.
@@ -1270,7 +1194,6 @@ public class PKCS11 {
      */
 //    public native byte[] C_DecryptDigestUpdate(long hSession,
 //            byte[] pEncryptedPart) throws PKCS11Exception;
-
 
     /**
      * C_SignEncryptUpdate continues a multiple-part signing and
@@ -1292,7 +1215,6 @@ public class PKCS11 {
 //    public native byte[] C_SignEncryptUpdate(long hSession, byte[] pPart)
 //            throws PKCS11Exception;
 
-
     /**
      * C_DecryptVerifyUpdate continues a multiple-part decryption and
      * verify operation.
@@ -1312,7 +1234,6 @@ public class PKCS11 {
      */
 //    public native byte[] C_DecryptVerifyUpdate(long hSession,
 //            byte[] pEncryptedPart) throws PKCS11Exception;
-
 
 /* *****************************************************************************
  * Key management
@@ -1379,7 +1300,6 @@ public class PKCS11 {
     public native long C_GenerateKey(long hSession, CK_MECHANISM pMechanism,
             CK_ATTRIBUTE[] pTemplate) throws PKCS11Exception;
 
-
     /**
      * C_GenerateKeyPair generates a public-key/private-key pair,
      * creating new key objects.
@@ -1410,8 +1330,6 @@ public class PKCS11 {
             CK_MECHANISM pMechanism, CK_ATTRIBUTE[] pPublicKeyTemplate,
             CK_ATTRIBUTE[] pPrivateKeyTemplate) throws PKCS11Exception;
 
-
-
     /**
      * C_WrapKey wraps (i.e., encrypts) a key.
      * (Key management)
@@ -1433,7 +1351,6 @@ public class PKCS11 {
      */
     public native byte[] C_WrapKey(long hSession, CK_MECHANISM pMechanism,
             long hWrappingKey, long hKey) throws PKCS11Exception;
-
 
     /**
      * C_UnwrapKey unwraps (decrypts) a wrapped key, creating a new
@@ -1461,7 +1378,6 @@ public class PKCS11 {
             long hUnwrappingKey, byte[] pWrappedKey, CK_ATTRIBUTE[] pTemplate)
             throws PKCS11Exception;
 
-
     /**
      * C_DeriveKey derives a key from a base key, creating a new key
      * object.
@@ -1485,8 +1401,6 @@ public class PKCS11 {
     public native long C_DeriveKey(long hSession, CK_MECHANISM pMechanism,
             long hBaseKey, CK_ATTRIBUTE[] pTemplate) throws PKCS11Exception;
 
-
-
 /* *****************************************************************************
  * Random number generation
  ******************************************************************************/
@@ -1507,7 +1421,6 @@ public class PKCS11 {
     public native void C_SeedRandom(long hSession, byte[] pSeed)
             throws PKCS11Exception;
 
-
     /**
      * C_GenerateRandom generates random data.
      * (Random number generation)
@@ -1523,8 +1436,6 @@ public class PKCS11 {
      */
     public native void C_GenerateRandom(long hSession, byte[] randomData)
             throws PKCS11Exception;
-
-
 
 /* *****************************************************************************
  * Parallel function management
@@ -1545,7 +1456,6 @@ public class PKCS11 {
 //    public native void C_GetFunctionStatus(long hSession)
 //            throws PKCS11Exception;
 
-
     /**
      * C_CancelFunction is a legacy function; it cancels a function
      * running in parallel.
@@ -1558,8 +1468,6 @@ public class PKCS11 {
      * @postconditions
      */
 //    public native void C_CancelFunction(long hSession) throws PKCS11Exception;
-
-
 
 /* *****************************************************************************
  * Functions added in for Cryptoki Version 2.01 or later

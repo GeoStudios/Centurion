@@ -21,23 +21,9 @@
 
 package gc.ArrayJuggle.Juggle01;
 
-
 import nsk.share.test.*;
 import nsk.share.gc.*;
 import nsk.share.gc.gp.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -50,8 +36,6 @@ import nsk.share.gc.gp.*;
  *          /test/lib
  * @run main/othervm -Xlog:gc=debug:gc.log gc.ArrayJuggle.Juggle01.Juggle01 -gp byteArr -ms low
  */
-
-
 
 /**
  * This test randomly replaces elements of an array with new

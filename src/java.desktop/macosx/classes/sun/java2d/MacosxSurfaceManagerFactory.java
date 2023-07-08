@@ -21,26 +21,11 @@
 
 package java.desktop.macosx.classes.sun.java2d;
 
-
 import java.desktop.macosx.classes.sun.awt.image.SunVolatileImage;
 import java.desktop.macosx.classes.sun.awt.image.VolatileSurfaceManager;
 import java.desktop.macosx.classes.sun.awt.CGraphicsDevice;
 import java.desktop.macosx.classes.sun.java2d.metal.MTLVolatileSurfaceManager;
 import java.desktop.macosx.classes.sun.java2d.opengl.CGLVolatileSurfaceManager;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is a factory class with static methods for creating a

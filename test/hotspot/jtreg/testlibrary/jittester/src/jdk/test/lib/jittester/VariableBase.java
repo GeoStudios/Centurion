@@ -21,21 +21,6 @@
 
 package jdk.test.lib.jittester;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public abstract class VariableBase extends IRNode {
     private final VariableInfo variableInfo;
     protected VariableBase(VariableInfo variableInfo) {

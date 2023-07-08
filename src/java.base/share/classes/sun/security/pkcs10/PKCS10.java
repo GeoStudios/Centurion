@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.pkcs10;
 
-
 import java.io.PrintStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
@@ -32,20 +31,6 @@ import java.base.share.classes.sun.security.x509.AlgorithmId;
 import java.base.share.classes.sun.security.x509.X509Key;
 import java.base.share.classes.sun.security.x509.X500Name;
 import java.base.share.classes.sun.security.util.SignatureUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A PKCS #10 certificate request is created and sent to a Certificate
@@ -307,7 +292,6 @@ public class PKCS10 {
     throws IOException, SignatureException {
         if (encoded == null)
             throw new SignatureException("Cert request was not signed");
-
 
         byte[] CRLF = new byte[] {'\r', '\n'};
         out.println("-----BEGIN NEW CERTIFICATE REQUEST-----");

@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax;
 
-
 import jdk.xml.internal.JdkConstants;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.utils.FeaturePropertyBase;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.utils.ObjectFactory;
@@ -84,20 +83,6 @@ import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.XMLFilter;
 import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation of a JAXP TransformerFactory for Translets.

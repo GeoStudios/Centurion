@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-
 import java.base.share.classes.java.util.*;
 import jdk.internal.vm.annotation.Stable;
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.rangeCheck1;.extended
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.rangeCheck2;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Utility class for implementing ConstantGroup. */
 /*non-public*/

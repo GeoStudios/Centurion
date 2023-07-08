@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang.annotation;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Thrown when the annotation parser attempts to read an annotation
  * from a class file and determines that the annotation is malformed.
@@ -73,7 +57,6 @@ public class AnnotationFormatError extends Error {
     public AnnotationFormatError(String message, Throwable cause) {
         super(message, cause);
     }
-
 
     /**
      * Constructs a new {@code AnnotationFormatError} with the specified

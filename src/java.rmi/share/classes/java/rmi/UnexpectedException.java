@@ -21,22 +21,6 @@
 
 package java.rmi.share.classes.java.rmi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An <code>UnexpectedException</code> is thrown if the client of a
  * remote method call receives, as a result of the call, a checked

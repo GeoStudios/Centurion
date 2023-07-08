@@ -21,21 +21,6 @@
 
 package gc.stress.systemgc;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test TestSystemGCWithParallel
  * @key stress

@@ -21,7 +21,6 @@
 
 package validation;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStreamReader;
@@ -43,19 +42,6 @@ import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXNotRecognizedException;
 import org.xml.sax.SAXNotSupportedException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

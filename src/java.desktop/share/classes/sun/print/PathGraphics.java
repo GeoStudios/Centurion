@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.print;
 
-
 import java.lang.ref.SoftReference;
 import java.util.Hashtable;
 import java.desktop.share.classes.sun.font.CharToGlyphMapper;
@@ -75,20 +74,6 @@ import java.awt.print.PrinterException;
 import java.awt.print.PrinterGraphics;
 import java.awt.print.PrinterJob;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class PathGraphics extends ProxyGraphics2D {
 
@@ -178,7 +163,6 @@ public abstract class PathGraphics extends ProxyGraphics2D {
             throw new IllegalArgumentException("Expected a Color instance");
         }
     }
-
 
     /**
      * Draws the outline of the specified rectangle.
@@ -298,7 +282,6 @@ public abstract class PathGraphics extends ProxyGraphics2D {
                                         arcWidth, arcHeight));
     }
 
-
     /**
      * Fills the specified rounded corner rectangle with the current color.
      * The left and right edges of the rectangle
@@ -404,7 +387,6 @@ public abstract class PathGraphics extends ProxyGraphics2D {
                              Arc2D.OPEN));
     }
 
-
     /**
      * Fills a circular or elliptical arc covering the specified rectangle.
      * <p>
@@ -476,7 +458,6 @@ public abstract class PathGraphics extends ProxyGraphics2D {
         }
     }
 
-
     /**
      * Draws a closed polygon defined by
      * arrays of <i>x</i> and <i>y</i> coordinates.
@@ -538,7 +519,6 @@ public abstract class PathGraphics extends ProxyGraphics2D {
 
         fill(new Polygon(xPoints, yPoints, nPoints));
     }
-
 
     /**
      * Fills the polygon defined by the specified Polygon object with
@@ -1212,7 +1192,6 @@ public abstract class PathGraphics extends ProxyGraphics2D {
                 colorModel.getTransparency() == ColorModel.BITMASK);
     }
 
-
     /* An optimisation for the special case of ICM images which have
      * bitmask transparency.
      */
@@ -1321,8 +1300,6 @@ public abstract class PathGraphics extends ProxyGraphics2D {
         }
         return true;
     }
-
-
 
     /**
      * The various {@code drawImage()} methods for
@@ -1745,7 +1722,6 @@ public abstract class PathGraphics extends ProxyGraphics2D {
 
         return drawImageToPlatform(img, xForm, bgcolor,
                                    sx1, sy1, srcWidth, srcHeight, false);
-
 
     }
 

@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.module;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class is generated/overridden at link time to return the names of the
  * SystemModules classes generated at link time.

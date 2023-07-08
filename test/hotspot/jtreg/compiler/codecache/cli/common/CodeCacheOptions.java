@@ -21,26 +21,12 @@
 
 package compiler.codecache.cli.common;
 
-
 import jdk.test.lib.cli.CommandLineOptionTest;
 import sun.hotspot.code.BlobType;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.EnumSet;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CodeCacheOptions {
     public static final String SEGMENTED_CODE_CACHE = "SegmentedCodeCache";

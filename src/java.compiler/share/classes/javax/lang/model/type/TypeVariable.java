@@ -21,24 +21,9 @@
 
 package java.compiler.share.classes.javax.lang.model.type;
 
-
 import java.compiler.share.classes.javax.lang.model.element.Element;
 import java.compiler.share.classes.javax.lang.model.element.TypeParameterElement;
 import java.compiler.share.classes.javax.lang.model.util.Types;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents a type variable.

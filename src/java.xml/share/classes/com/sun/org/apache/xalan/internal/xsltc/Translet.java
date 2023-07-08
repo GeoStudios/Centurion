@@ -21,23 +21,8 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.SerializationHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @LastModified: Oct 2017

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.nio.ch;
 
-
 import java.net.InetAddress;
 import java.net.NetworkInterface;
 import java.nio.channels.MembershipKey;
@@ -30,20 +29,6 @@ import java.util.Iterator;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Simple registry of membership keys for a MulticastChannel.

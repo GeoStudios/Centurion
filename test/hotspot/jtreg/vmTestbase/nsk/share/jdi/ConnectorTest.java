@@ -21,26 +21,12 @@
 
 package nsk.share.jdi;
 
-
 import com.sun.jdi.connect.*;
 import com.sun.jdi.*;
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This class contains several common methods used by connector tests.

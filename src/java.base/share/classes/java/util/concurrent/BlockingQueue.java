@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.util.concurrent;
 
-
 import java.base.share.classes.java.util.Collection;
 import java.base.share.classes.java.util.Queue;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -49,9 +34,6 @@ import java.base.share.classes.java.util.Queue;
  * Expert Group and released to the public domain, as explained at
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
-
-
-
 
 /**
  * A {@link Queue} that additionally supports operations that wait for

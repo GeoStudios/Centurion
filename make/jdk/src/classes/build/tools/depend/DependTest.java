@@ -21,56 +21,6 @@
 
 package build.tools.depend;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class DependTest {
 
     public static void main(String... args) throws Exception {

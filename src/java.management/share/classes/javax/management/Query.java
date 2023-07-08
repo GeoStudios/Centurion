@@ -21,22 +21,6 @@
 
 package java.management.share.classes.javax.management;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * <p>Constructs query object constraints.</p>
  *
@@ -64,7 +48,6 @@ package java.management.share.classes.javax.management;
  *
  */
  public class Query {
-
 
      /**
       * A code representing the {@link Query#gt} query.  This is chiefly
@@ -96,7 +79,6 @@ package java.management.share.classes.javax.management;
       */
      public static final int EQ  = 4;
 
-
      /**
       * A code representing the {@link Query#plus} expression.  This
       * is chiefly of interest for the serialized form of queries.
@@ -121,13 +103,11 @@ package java.management.share.classes.javax.management;
       */
      public static final int DIV   = 3;
 
-
      /**
       * Basic constructor.
       */
      public Query() {
      }
-
 
      /**
       * Returns a query expression that is the conjunction of two other query

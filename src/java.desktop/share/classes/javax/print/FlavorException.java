@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.print;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Interface {@code FlavorException} is a mixin interface which a subclass of
  * {@link PrintException PrintException} can implement to report an error

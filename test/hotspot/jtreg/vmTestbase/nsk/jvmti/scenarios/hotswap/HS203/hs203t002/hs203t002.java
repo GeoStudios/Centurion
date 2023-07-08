@@ -21,22 +21,8 @@
 
 package nsk.jvmti.scenarios.hotswap.HS203.hs203t002;
 
-
 import java.util.concurrent.atomic.AtomicBoolean;
 import nsk.share.jvmti.RedefineAgent;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -69,7 +55,6 @@ import nsk.share.jvmti.RedefineAgent;
  *      -agentlib:hs203t002=pathToNewByteCode=./bin,-waittime=5,package=nsk,samples=100,mode=compiled
  *      nsk.jvmti.scenarios.hotswap.HS203.hs203t002.hs203t002
  */
-
 
 public class hs203t002 extends RedefineAgent {
 

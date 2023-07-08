@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.swing.plaf.synth;
 
-
 import javax.swing.plaf.synth.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -34,20 +33,6 @@ import javax.swing.event.*;
 import javax.swing.filechooser.*;
 import javax.swing.plaf.*;
 import javax.swing.plaf.basic.BasicFileChooserUI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Synth FileChooserUI.
@@ -194,7 +179,6 @@ public abstract class SynthFileChooserUI extends BasicFileChooserUI implements
 
     protected abstract ActionMap createActionMap();
 
-
     protected void installDefaults(JFileChooser fc) {
         super.installDefaults(fc);
         updateStyle(fc);
@@ -308,7 +292,6 @@ public abstract class SynthFileChooserUI extends BasicFileChooserUI implements
         }
     }
 
-
     /**
      * Responds to a File Name completion request (e.g. Tab)
      */
@@ -411,7 +394,6 @@ public abstract class SynthFileChooserUI extends BasicFileChooserUI implements
                                                   || fileName.indexOf('?') >= 0
                                                   || fileName.indexOf('[') >= 0)));
     }
-
 
     /* A file filter which accepts file patterns containing
      * the special wildcard '*' on windows, plus '?', and '[ ]' on Unix.
@@ -520,11 +502,9 @@ public abstract class SynthFileChooserUI extends BasicFileChooserUI implements
         }
     }
 
-
     // *******************************************************
     // ************ FileChooser UI PLAF methods **************
     // *******************************************************
-
 
     // *****************************
     // ***** Directory Actions *****
@@ -534,7 +514,6 @@ public abstract class SynthFileChooserUI extends BasicFileChooserUI implements
         return fileNameCompletionAction;
     }
 
-
     protected JButton getApproveButton(JFileChooser fc) {
         return approveButton;
     }
@@ -542,7 +521,6 @@ public abstract class SynthFileChooserUI extends BasicFileChooserUI implements
     protected JButton getCancelButton(JFileChooser fc) {
         return cancelButton;
     }
-
 
     // Overload to do nothing.   We don't have and icon cache.
     public void clearIconCache() { }

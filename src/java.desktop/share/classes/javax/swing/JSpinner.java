@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.Component;
 import java.awt.ComponentOrientation;
 import java.awt.Container;
@@ -70,20 +69,6 @@ import java.desktop.share.classes.javax.swing.text.DocumentFilter;
 import java.desktop.share.classes.javax.swing.text.NumberFormatter;
 import sun.util.locale.provider.LocaleProviderAdapter;
 import sun.util.locale.provider.LocaleResources;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A single line input field that lets the user select a
@@ -177,7 +162,6 @@ public class JSpinner extends JComponent implements Accessible
     private transient ChangeEvent changeEvent;
     private boolean editorExplicitlySet = false;
 
-
     /**
      * Constructs a spinner for the given model. The spinner has
      * a set of previous/next buttons, and an editor appropriate
@@ -196,7 +180,6 @@ public class JSpinner extends JComponent implements Accessible
         updateUI();
     }
 
-
     /**
      * Constructs a spinner with an <code>Integer SpinnerNumberModel</code>
      * with initial value 0 and no minimum or maximum limits.
@@ -204,7 +187,6 @@ public class JSpinner extends JComponent implements Accessible
     public JSpinner() {
         this(new SpinnerNumberModel());
     }
-
 
     /**
      * Returns the look and feel (L&amp;F) object that renders this component.
@@ -215,7 +197,6 @@ public class JSpinner extends JComponent implements Accessible
         return (SpinnerUI)ui;
     }
 
-
     /**
      * Sets the look and feel (L&amp;F) object that renders this component.
      *
@@ -225,7 +206,6 @@ public class JSpinner extends JComponent implements Accessible
     public void setUI(SpinnerUI ui) {
         super.setUI(ui);
     }
-
 
     /**
      * Returns the suffix used to construct the name of the look and feel
@@ -240,8 +220,6 @@ public class JSpinner extends JComponent implements Accessible
         return uiClassID;
     }
 
-
-
     /**
      * Resets the UI property with the value from the current look and feel.
      *
@@ -251,7 +229,6 @@ public class JSpinner extends JComponent implements Accessible
         setUI((SpinnerUI)UIManager.getUI(this));
         invalidate();
     }
-
 
     /**
      * This method is called by the constructors to create the
@@ -293,7 +270,6 @@ public class JSpinner extends JComponent implements Accessible
         }
     }
 
-
     /**
      * Changes the model that represents the value of this spinner.
      * If the editor property has not been explicitly set,
@@ -334,7 +310,6 @@ public class JSpinner extends JComponent implements Accessible
         }
     }
 
-
     /**
      * Returns the <code>SpinnerModel</code> that defines
      * this spinners sequence of values.
@@ -345,7 +320,6 @@ public class JSpinner extends JComponent implements Accessible
     public SpinnerModel getModel() {
         return model;
     }
-
 
     /**
      * Returns the current value of the model, typically
@@ -369,7 +343,6 @@ public class JSpinner extends JComponent implements Accessible
         return getModel().getValue();
     }
 
-
     /**
      * Changes current value of the model, typically
      * this value is displayed by the <code>editor</code>.
@@ -391,7 +364,6 @@ public class JSpinner extends JComponent implements Accessible
     public void setValue(Object value) {
         getModel().setValue(value);
     }
-
 
     /**
      * Returns the object in the sequence that comes after the object returned
@@ -415,7 +387,6 @@ public class JSpinner extends JComponent implements Accessible
         return getModel().getNextValue();
     }
 
-
     /**
      * We pass <code>Change</code> events along to the listeners with the
      * the slider (instead of the model itself) as the event source.
@@ -425,7 +396,6 @@ public class JSpinner extends JComponent implements Accessible
             fireStateChanged();
         }
     }
-
 
     /**
      * Adds a listener to the list that is notified each time a change
@@ -449,8 +419,6 @@ public class JSpinner extends JComponent implements Accessible
         listenerList.add(ChangeListener.class, listener);
     }
 
-
-
     /**
      * Removes a <code>ChangeListener</code> from this spinner.
      *
@@ -461,7 +429,6 @@ public class JSpinner extends JComponent implements Accessible
     public void removeChangeListener(ChangeListener listener) {
         listenerList.remove(ChangeListener.class, listener);
     }
-
 
     /**
      * Returns an array of all the <code>ChangeListener</code>s added
@@ -474,7 +441,6 @@ public class JSpinner extends JComponent implements Accessible
     public ChangeListener[] getChangeListeners() {
         return listenerList.getListeners(ChangeListener.class);
     }
-
 
     /**
      * Sends a <code>ChangeEvent</code>, whose source is this
@@ -499,7 +465,6 @@ public class JSpinner extends JComponent implements Accessible
         }
     }
 
-
     /**
      * Returns the object in the sequence that comes
      * before the object returned by <code>getValue()</code>.
@@ -523,7 +488,6 @@ public class JSpinner extends JComponent implements Accessible
     public Object getPreviousValue() {
         return getModel().getPreviousValue();
     }
-
 
     /**
      * Changes the <code>JComponent</code> that displays the current value
@@ -558,7 +522,6 @@ public class JSpinner extends JComponent implements Accessible
         }
     }
 
-
     /**
      * Returns the component that displays and potentially
      * changes the model's value.
@@ -571,7 +534,6 @@ public class JSpinner extends JComponent implements Accessible
     public JComponent getEditor() {
         return editor;
     }
-
 
     /**
      * Commits the currently edited value to the <code>SpinnerModel</code>.
@@ -588,7 +550,6 @@ public class JSpinner extends JComponent implements Accessible
             ((DefaultEditor)editor).commitEdit();
         }
     }
-
 
     /*
      * See readObject and writeObject in JComponent for more
@@ -607,7 +568,6 @@ public class JSpinner extends JComponent implements Accessible
             }
         }
     }
-
 
     /**
      * A simple base class for more specialized editors
@@ -686,7 +646,6 @@ public class JSpinner extends JComponent implements Accessible
             }
         }
 
-
         /**
          * Disconnect <code>this</code> editor from the specified
          * <code>JSpinner</code>.  By default, this method removes
@@ -698,7 +657,6 @@ public class JSpinner extends JComponent implements Accessible
         public void dismiss(JSpinner spinner) {
             spinner.removeChangeListener(this);
         }
-
 
         /**
          * Returns the <code>JSpinner</code> ancestor of this editor or
@@ -723,7 +681,6 @@ public class JSpinner extends JComponent implements Accessible
             return null;
         }
 
-
         /**
          * Returns the <code>JFormattedTextField</code> child of this
          * editor.  By default the text field is the first and only
@@ -737,7 +694,6 @@ public class JSpinner extends JComponent implements Accessible
         public JFormattedTextField getTextField() {
             return (JFormattedTextField)getComponent(0);
         }
-
 
         /**
          * This method is called when the spinner's model's state changes.
@@ -753,7 +709,6 @@ public class JSpinner extends JComponent implements Accessible
             JSpinner spinner = (JSpinner)(e.getSource());
             getTextField().setValue(spinner.getValue());
         }
-
 
         /**
          * Called by the <code>JFormattedTextField</code>
@@ -812,7 +767,6 @@ public class JSpinner extends JComponent implements Accessible
             }
         }
 
-
         /**
          * This <code>LayoutManager</code> method does nothing.  We're
          * only managing a single child and there's no support
@@ -824,7 +778,6 @@ public class JSpinner extends JComponent implements Accessible
         public void addLayoutComponent(String name, Component child) {
         }
 
-
         /**
          * This <code>LayoutManager</code> method does nothing.  There
          * isn't any per-child state.
@@ -833,7 +786,6 @@ public class JSpinner extends JComponent implements Accessible
          */
         public void removeLayoutComponent(Component child) {
         }
-
 
         /**
          * Returns the size of the parents insets.
@@ -844,7 +796,6 @@ public class JSpinner extends JComponent implements Accessible
             int h = insets.top + insets.bottom;
             return new Dimension(w, h);
         }
-
 
         /**
          * Returns the preferred size of first (and only) child plus the
@@ -864,7 +815,6 @@ public class JSpinner extends JComponent implements Accessible
             return preferredSize;
         }
 
-
         /**
          * Returns the minimum size of first (and only) child plus the
          * size of the parents insets.
@@ -882,7 +832,6 @@ public class JSpinner extends JComponent implements Accessible
             }
             return minimumSize;
         }
-
 
         /**
          * Resize the one (and only) child to completely fill the area
@@ -946,9 +895,6 @@ public class JSpinner extends JComponent implements Accessible
         }
     }
 
-
-
-
     /**
      * This subclass of javax.swing.DateFormatter maps the minimum/maximum
      * properties to the start/end properties of a SpinnerDateModel.
@@ -983,7 +929,6 @@ public class JSpinner extends JComponent implements Accessible
             return model.getEnd();
         }
     }
-
 
     /**
      * An editor for a <code>JSpinner</code> whose model is a
@@ -1026,7 +971,6 @@ public class JSpinner extends JComponent implements Accessible
         public DateEditor(JSpinner spinner) {
             this(spinner, getDefaultPattern(spinner.getLocale()));
         }
-
 
         /**
          * Construct a <code>JSpinner</code> editor that supports displaying
@@ -1115,7 +1059,6 @@ public class JSpinner extends JComponent implements Accessible
             return (SimpleDateFormat)((DateFormatter)(getTextField().getFormatter())).getFormat();
         }
 
-
         /**
          * Return our spinner ancestor's <code>SpinnerDateModel</code>.
          *
@@ -1127,7 +1070,6 @@ public class JSpinner extends JComponent implements Accessible
             return (SpinnerDateModel)(getSpinner().getModel());
         }
     }
-
 
     /**
      * This subclass of javax.swing.NumberFormatter maps the minimum/maximum
@@ -1163,8 +1105,6 @@ public class JSpinner extends JComponent implements Accessible
             return model.getMaximum();
         }
     }
-
-
 
     /**
      * An editor for a <code>JSpinner</code> whose model is a
@@ -1237,7 +1177,6 @@ public class JSpinner extends JComponent implements Accessible
             this(spinner, new DecimalFormat(decimalFormatPattern));
         }
 
-
         /**
          * Construct a <code>JSpinner</code> editor that supports displaying
          * and editing the value of a <code>SpinnerNumberModel</code>
@@ -1290,7 +1229,6 @@ public class JSpinner extends JComponent implements Accessible
 
         }
 
-
         /**
          * Returns the <code>java.text.DecimalFormat</code> object the
          * <code>JFormattedTextField</code> uses to parse and format
@@ -1303,7 +1241,6 @@ public class JSpinner extends JComponent implements Accessible
         public DecimalFormat getFormat() {
             return (DecimalFormat)((NumberFormatter)(getTextField().getFormatter())).getFormat();
         }
-
 
         /**
          * Return our spinner ancestor's <code>SpinnerNumberModel</code>.
@@ -1326,7 +1263,6 @@ public class JSpinner extends JComponent implements Accessible
                     o.isLeftToRight() ? JTextField.RIGHT : JTextField.LEFT);
         }
     }
-
 
     /**
      * An editor for a <code>JSpinner</code> whose model is a
@@ -1370,7 +1306,6 @@ public class JSpinner extends JComponent implements Accessible
             return (SpinnerListModel)(getSpinner().getModel());
         }
 
-
         /**
          * ListFormatter provides completion while text is being input
          * into the JFormattedTextField. Completion is only done if the
@@ -1398,7 +1333,6 @@ public class JSpinner extends JComponent implements Accessible
                 }
                 return filter;
             }
-
 
             private class Filter extends DocumentFilter {
                 public void replace(FilterBypass fb, int offset, int length,
@@ -1431,7 +1365,6 @@ public class JSpinner extends JComponent implements Accessible
             }
         }
     }
-
 
     /**
      * An Action implementation that is always disabled.
@@ -1971,7 +1904,6 @@ public class JSpinner extends JComponent implements Accessible
         }
 
         /* ===== End AccessibleText impl ===== */
-
 
         /* ===== Begin AccessibleEditableText impl ===== */
 

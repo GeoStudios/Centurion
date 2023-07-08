@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.provider;
 
-
 import java.util.*;
 import java.io.*;
 import java.math.BigInteger;
@@ -38,20 +37,6 @@ import java.base.share.classes.sun.security.util.Debug;
 import java.base.share.classes.sun.security.util.DerValue;
 import java.base.share.classes.sun.security.util.DerInputStream;
 import java.base.share.classes.sun.security.util.DerOutputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An X.509 public key for the Digital Signature Algorithm.

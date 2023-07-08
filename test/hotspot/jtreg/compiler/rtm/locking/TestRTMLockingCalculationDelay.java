@@ -21,26 +21,12 @@
 
 package compiler.rtm.locking;
 
-
 import compiler.testlibrary.rtm.AbortProvoker;
 import compiler.testlibrary.rtm.AbortType;
 import compiler.testlibrary.rtm.RTMTestBase;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.cli.CommandLineOptionTest;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -57,8 +43,6 @@ import jdk.test.lib.cli.CommandLineOptionTest;
  *                          -XX:+WhiteBoxAPI
  *                          compiler.rtm.locking.TestRTMLockingCalculationDelay
  */
-
-
 
 /**
  * Test verifies that abort ratio calculation could be delayed using

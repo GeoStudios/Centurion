@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
-
 import java.lang.ref.WeakReference;
 import java.awt.Image;
 import java.awt.image.ImageObserver;
 import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class ImageWatched {
     public static Link endlink = new Link();

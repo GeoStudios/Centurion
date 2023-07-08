@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import sun.swing.SwingUtilities2;
 import sun.awt.AppContext;
 import java.awt.*;
@@ -38,20 +37,6 @@ import java.desktop.share.classes.javax.swing.plaf.ButtonUI;
 import java.desktop.share.classes.javax.swing.plaf.UIResource;
 import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
 import java.desktop.share.classes.javax.swing.text.View;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * BasicButton implementation
@@ -115,7 +100,6 @@ public class BasicButtonUI extends ButtonUI{
     protected String getPropertyPrefix() {
         return propertyPrefix;
     }
-
 
     // ********************************
     //          Install PLAF
@@ -210,7 +194,6 @@ public class BasicButtonUI extends ButtonUI{
             listener.installKeyboardActions(b);
         }
     }
-
 
     // ********************************
     //         Uninstall PLAF
@@ -481,7 +464,6 @@ public class BasicButtonUI extends ButtonUI{
                               Rectangle viewRect, Rectangle textRect, Rectangle iconRect){
     }
 
-
     /**
      * Paints a pressed button.
      *
@@ -631,7 +613,6 @@ public class BasicButtonUI extends ButtonUI{
         }
         return keyListener;
     }
-
 
     private boolean isValidToggleButtonObj(Object obj) {
         return ((obj instanceof JToggleButton) &&

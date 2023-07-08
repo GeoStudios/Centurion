@@ -21,23 +21,9 @@
 
 package nsk.jdi.ReferenceType.isStatic;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the isstatic002 JDI test.
@@ -90,7 +76,6 @@ public class isstatic002a {
 
         int exitCode = PASSED;
 
-
         label0:
             for (int i = 0; ; i++) {
 
@@ -122,7 +107,6 @@ public class isstatic002a {
     }
 }
 
-
 class isstatic002aTestClass {
 
     interface NestedIface1 {
@@ -133,7 +117,6 @@ class isstatic002aTestClass {
     }
     NestedIface1 nestedIfaceArray1[] = { new NestedClass1() };
 
-
     interface NestedIface2 {
         boolean bnf = true;
     }
@@ -141,7 +124,6 @@ class isstatic002aTestClass {
         boolean bnc = true;
     }
     NestedIface2 nestedIfaceArray2[] = { new NestedClass2() };
-
 
     static class StaticNestedClass {
         boolean bsnc = true;

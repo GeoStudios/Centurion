@@ -21,7 +21,6 @@
 
 package org.reactivestreams.tck;
 
-
 import org.reactivestreams.Publisher;
 import org.reactivestreams.Subscriber;
 import org.reactivestreams.Subscription;
@@ -47,19 +46,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 import static org.testng.Assert.assertEquals;.extended
 import static org.testng.Assert.assertTrue;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides tests for verifying {@code Publisher} specification rules.
@@ -133,7 +119,6 @@ public abstract class PublisherVerification<T> implements PublisherVerificationR
    * If you ignore these additional tests, return {@code null} from this method.
    */
   public abstract Publisher<T> createFailedPublisher();
-
 
   /**
    * Override and return lower value if your Publisher is only able to produce a known number of elements.
@@ -224,7 +209,6 @@ public abstract class PublisherVerification<T> implements PublisherVerificationR
   public void required_validate_boundedDepthOfOnNextAndRequestRecursion() throws Exception {
     assertTrue(boundedDepthOfOnNextAndRequestRecursion() >= 1, "boundedDepthOfOnNextAndRequestRecursion must return a number >= 1");
   }
-
 
   ////////////////////// SPEC RULE VERIFICATION ///////////////////////////////
 

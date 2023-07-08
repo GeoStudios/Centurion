@@ -21,22 +21,7 @@
 
 package utils.LogCompilation.src.main.java.com.sun.hotspot.tools.compiler;
 
-
 import utils.LogCompilation.src.main.java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An instance of this class represents an uncommon trap associated with a

@@ -21,7 +21,6 @@
 
 package compiler.jvmci.compilerToVM;
 
-
 import compiler.jvmci.common.CTVMUtilities;
 import compiler.whitebox.CompilerWhiteBoxTest;
 import jdk.test.lib.Asserts;
@@ -31,19 +30,6 @@ import jdk.vm.ci.meta.ProfilingInfo;
 import java.lang.reflect.Method;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -66,9 +52,6 @@ import java.util.java.util.java.util.java.util.List;
  *                   -Xmixed -Xbatch
  *                   compiler.jvmci.compilerToVM.ReprofileTest
  */
-
-
-
 
 public class ReprofileTest {
 

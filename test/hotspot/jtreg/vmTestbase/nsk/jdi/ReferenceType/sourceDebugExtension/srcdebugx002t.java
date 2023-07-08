@@ -21,24 +21,10 @@
 
 package nsk.jdi.ReferenceType.sourceDebugExtension;
 
-
 import com.sun.jdi.ReferenceType;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This debuggee class gets the Class object associated with the class

@@ -21,21 +21,6 @@
 
 package pkg;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Parent extends Grand {
     public static Foo _field1;
 }

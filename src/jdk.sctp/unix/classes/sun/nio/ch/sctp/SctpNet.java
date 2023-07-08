@@ -21,7 +21,6 @@
 
 package jdk.sctp.unix.classes.sun.nio.ch.sctp;
 
-
 import java.io.FileDescriptor;
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.InetAddress;
@@ -38,20 +37,6 @@ import jdk.sctp.unix.classes.sun.nio.ch.IOUtil;
 import jdk.sctp.unix.classes.sun.nio.ch.Net;
 import com.sun.nio.sctp.Sctpjava.net.SocketOption;
 import static com.sun.nio.sctp.SctpStandardjava.net.SocketOptions.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("removal")
 public class SctpNet {

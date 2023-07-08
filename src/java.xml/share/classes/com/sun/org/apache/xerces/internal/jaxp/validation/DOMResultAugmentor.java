@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.validation;
 
-
 import javax.xml.transform.dom.DOMResult;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.AttrImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.CoreDocumentImpl;
@@ -54,27 +53,10 @@ import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.ProcessingInstruction;
 import java.xml.share.classes.com.sun.org.w3c.dom.Text;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * <p>DOM result augmentor.</p>

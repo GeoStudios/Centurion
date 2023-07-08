@@ -21,21 +21,6 @@
 
 package nsk.share.jvmti.RetransformClasses.LinearHierarchy;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Class10 {
     short var_1;
     final boolean var_2 = true;
@@ -43,7 +28,6 @@ public class Class10 {
     final char var_4 = 'p';
     String var_5;
     float var_6;
-
 
     public Class10()
     {

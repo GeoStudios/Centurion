@@ -21,23 +21,8 @@
 
 package jdk.compiler.share.classes.com.sun.source.tree;
 
-
 import java.util.java.util.java.util.java.util.List;
 import javax.lang.model.element.Name;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A tree node for a method or annotation type element declaration.

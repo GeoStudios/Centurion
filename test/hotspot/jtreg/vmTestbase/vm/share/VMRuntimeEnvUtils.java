@@ -21,24 +21,10 @@
 
 package vm.share;
 
-
 import com.sun.management.HotSpotDiagnosticMXBean;
 import com.sun.management.VMOption;
 import java.lang.management.ManagementFactory;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class VMRuntimeEnvUtils {
     private static HotSpotDiagnosticMXBean DIAGNOSTIC_BEAN

@@ -21,62 +21,10 @@
 
 package build.tools.generatebreakiteratordata;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This is a tool to generate categoryNames and categoryMap which are used in
  * CharSet.java.
  */
-
-
 
 class CharacterCategory {
 
@@ -119,7 +67,6 @@ class CharacterCategory {
      */
     private static int[][] categoryMap;
 
-
     /**
      * Generates CategoryMap for GenerateBreakIteratorData.
      */
@@ -145,7 +92,6 @@ class CharacterCategory {
     static int[] getCategoryMap(int category) {
         return categoryMap[category];
     }
-
 
     /**
      * Only used for debugging and generating a test program.
@@ -176,7 +122,6 @@ class CharacterCategory {
          */
         generateTestProgram();
     }
-
 
     /**
      * Spec (Unicode data file)
@@ -211,7 +156,6 @@ class CharacterCategory {
             }
         }
     }
-
 
     /**
      * Displays summary of generated data
@@ -264,11 +208,9 @@ class CharacterCategory {
         }
     }
 
-
     private static final int HighSurrogate_CodeUnit_Start = 0xD800;
     private static final int LowSurrogate_CodeUnit_Start  = 0xDC00;
     private static final int Supplementary_CodePoint_Start    = 0x10000;
-
 
     private static StringBuffer ignoredOld = new StringBuffer();
     private static int[] oldTotalCount = new int[categoryNames.length];
@@ -434,7 +376,6 @@ class CharacterCategory {
         }
     }
 
-
     private static StringBuffer ignoredNew = new StringBuffer();
     private static int[] newTotalCount = new int[categoryNames.length];
     private static int[][] newListCount = new int[2][categoryNames.length];
@@ -565,7 +506,6 @@ class CharacterCategory {
         }
     }
 
-
     /* Generates the old CategoryMap. */
     private static void generateOldDatafile() {
         try {
@@ -619,7 +559,6 @@ class CharacterCategory {
 
         System.out.println("\n" + oldDatafile + " has been generated.");
     }
-
 
     /**
      * Test program to be generated

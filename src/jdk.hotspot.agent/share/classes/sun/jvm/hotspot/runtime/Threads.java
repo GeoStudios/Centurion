@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime;
 
-
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
@@ -38,20 +37,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.bsd_aarch64.BsdAA
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class ThreadsList extends VMObject {
     private static AddressField  threadsField;

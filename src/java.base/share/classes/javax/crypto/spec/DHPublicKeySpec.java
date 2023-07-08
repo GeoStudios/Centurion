@@ -21,22 +21,7 @@
 
 package java.base.share.classes.javax.crypto.spec;
 
-
 import java.math.BigInteger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class specifies a Diffie-Hellman public key with its associated

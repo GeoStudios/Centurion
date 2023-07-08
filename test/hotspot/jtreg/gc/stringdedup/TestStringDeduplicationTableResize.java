@@ -21,21 +21,6 @@
 
 package gc.stringdedup;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test TestStringDeduplicationTableResize
  * @summary Test string deduplication table resize

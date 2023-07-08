@@ -21,22 +21,6 @@
 
 package jdk.jshell.share.classes.jdk.internal.jshell.tool;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The required functionality jshell uses for persistent storage.  Implementable
  * by both Preferences API and Map.

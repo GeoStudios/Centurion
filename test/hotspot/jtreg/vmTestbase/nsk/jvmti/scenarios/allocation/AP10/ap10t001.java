@@ -21,23 +21,9 @@
 
 package nsk.jvmti.scenarios.allocation.AP10;
 
-
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ap10t001 extends DebugeeClass {
     /* number of interations to provoke garbage collecting */

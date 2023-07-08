@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.image.ColorModel;
 import sun.awt.AppContext;
 import sun.awt.SunToolkit;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code GraphicsDevice} class describes the graphics devices

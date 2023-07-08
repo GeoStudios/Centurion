@@ -21,25 +21,10 @@
 
 package jdk.crypto.ec.share.classes.sun.security.ec.ed;
 
-
 import jdk.crypto.ec.share.classes.sun.security.ec.point.*;
 import jdk.crypto.ec.share.classes.sun.security.util.math.IntegerModuloP;
 import jdk.crypto.ec.share.classes.sun.security.util.math.MutableIntegerModuloP;
 import java.util.function.Function;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Base class for Edwards curve ECC implementations.
@@ -93,7 +78,6 @@ public abstract class EdECOperations {
 
     // Abstract method for constructing the neutral point on the curve
     protected abstract ImmutablePoint getNeutral();
-
 
     // Abstract method for Curve-specific point addition
     protected abstract MutablePoint setSum(MutablePoint p1, MutablePoint p2,

@@ -21,21 +21,6 @@
 
 package compiler.c2.cr7200264;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 7200264
@@ -45,7 +30,6 @@ package compiler.c2.cr7200264;
  * @library /test/lib /
  * @run driver compiler.c2.cr7200264.TestSSE4IntVect
  */
-
 
 public class TestSSE4IntVect {
     public static void main(String[] args) throws Throwable {

@@ -21,26 +21,12 @@
 
 package test.sql;
 
-
 import java.sql.SQLException;
 import java.sql.SQLNonTransientException;
 import java.sql.SQLSyntaxErrorException;
 import static org.testng.Assert.*;.extended
 import org.testng.annotations.Test;
 import util.BaseTest;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class SQLSyntaxErrorExceptionTests extends BaseTest {
 

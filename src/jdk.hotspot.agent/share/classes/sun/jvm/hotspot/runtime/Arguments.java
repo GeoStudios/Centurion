@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime;
 
-
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
@@ -29,20 +28,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** This class represent VM's Arguments class -- command line args, flags etc.*/
 public class Arguments {

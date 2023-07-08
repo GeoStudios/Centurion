@@ -21,23 +21,9 @@
 
 package nsk.share;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Iterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  *  Class create a number of referrers to given object

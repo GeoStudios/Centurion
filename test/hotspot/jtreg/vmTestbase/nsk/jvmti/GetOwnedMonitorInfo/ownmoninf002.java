@@ -21,22 +21,8 @@
 
 package nsk.jvmti.GetOwnedMonitorInfo;
 
-
 import nsk.share.Wicket;
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ownmoninf002 {
 

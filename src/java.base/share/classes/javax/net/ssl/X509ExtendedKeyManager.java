@@ -21,22 +21,7 @@
 
 package java.base.share.classes.javax.net.ssl;
 
-
 import java.security.Principal;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Abstract class that provides for extension of the X509KeyManager

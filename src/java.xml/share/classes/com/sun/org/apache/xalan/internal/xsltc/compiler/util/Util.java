@@ -21,26 +21,11 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Type;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.Constants;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XML11Char;
 import java.util.StringTokenizer;
 import jdk.xml.internal.SecuritySupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @LastModified: Sep 2017

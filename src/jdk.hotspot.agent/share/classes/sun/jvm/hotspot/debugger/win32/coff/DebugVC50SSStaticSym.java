@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Models the "sstStaticSym" subsection in Visual C++ 5.0 debug
     information. This subsection is structured exactly like the
     sstGlobalPub and sstGlobalSym subsections. It contains S_PROCREF

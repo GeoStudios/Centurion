@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface AltPlatformInfo {
 
   // Additional cpu types can be tested via this interface

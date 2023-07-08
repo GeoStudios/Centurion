@@ -21,22 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Implementation of the ObjectVisitor interface with all methods
     empty */

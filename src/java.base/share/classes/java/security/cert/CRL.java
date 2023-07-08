@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.security.cert;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class is an abstraction of certificate revocation lists (CRLs) that
  * have different formats but important common uses. For example, all CRLs

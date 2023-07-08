@@ -21,27 +21,12 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.util.*;
 import java.awt.*;
 import java.awt.peer.*;
 import java.awt.event.*;
 import java.desktop.unix.classes.sun.awt.AWTAccessor;
 import java.desktop.unix.classes.sun.awt.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class XDialogPeer extends XDecoratedPeer implements DialogPeer {
 

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.AWTEvent;
 import java.awt.EventQueue;
 import java.awt.event.ActionEvent;
@@ -55,20 +54,6 @@ import java.desktop.share.classes.javax.swing.text.JTextComponent;
 import java.desktop.share.classes.javax.swing.text.NavigationFilter;
 import java.desktop.share.classes.javax.swing.text.NumberFormatter;
 import java.desktop.share.classes.javax.swing.text.TextAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>JFormattedTextField</code> extends <code>JTextField</code> adding
@@ -268,7 +253,6 @@ public class JFormattedTextField extends JTextField {
      */
     public static final int PERSIST = 3;
 
-
     /**
      * Factory used to obtain an instance of AbstractFormatter.
      */
@@ -313,7 +297,6 @@ public class JFormattedTextField extends JTextField {
      * A handler for FOCUS_LOST event
      */
     private FocusLostHandler focusLostHandler;
-
 
     /**
      * Creates a <code>JFormattedTextField</code> with no
@@ -889,7 +872,6 @@ public class JFormattedTextField extends JTextField {
         return new DefaultFormatterFactory(new DefaultFormatter());
     }
 
-
     /**
      * Instances of <code>AbstractFormatterFactory</code> are used by
      * <code>JFormattedTextField</code> to obtain instances of
@@ -918,7 +900,6 @@ public class JFormattedTextField extends JTextField {
          */
         public abstract AbstractFormatter getFormatter(JFormattedTextField tf);
     }
-
 
     /**
      * Instances of <code>AbstractFormatter</code> are used by
@@ -1153,7 +1134,6 @@ public class JFormattedTextField extends JTextField {
         }
     }
 
-
     /**
      * Used to commit the edit. This extends JTextField.NotifyAction
      * so that <code>isEnabled</code> is true while a JFormattedTextField
@@ -1187,7 +1167,6 @@ public class JFormattedTextField extends JTextField {
         }
     }
 
-
     /**
      * CancelAction will reset the value in the JFormattedTextField when
      * <code>actionPerformed</code> is invoked. It will only be
@@ -1215,7 +1194,6 @@ public class JFormattedTextField extends JTextField {
             return super.isEnabled();
         }
     }
-
 
     /**
      * Sets the dirty state as the document changes.

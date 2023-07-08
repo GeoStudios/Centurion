@@ -21,7 +21,6 @@
 
 package metaspace.stressHierarchy.common;
 
-
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -34,19 +33,6 @@ import metaspace.stressHierarchy.common.exceptions.TimeIsOverException;
 import nsk.share.test.ExecutionController;
 import sun.hotspot.WhiteBox;
 import vm.share.gc.TriggerUnloadingHelper;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class PerformChecksHelper {
 
@@ -212,6 +198,5 @@ public class PerformChecksHelper {
             throw new TimeIsOverException();
         }
     }
-
 
 }

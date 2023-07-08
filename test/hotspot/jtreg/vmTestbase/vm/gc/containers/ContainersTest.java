@@ -21,7 +21,6 @@
 
 package vm.gc.containers;
 
-
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryUsage;
 import java.util.*;
@@ -32,19 +31,6 @@ import nsk.share.gc.gp.GarbageProducerAware;
 import nsk.share.gc.gp.MemoryStrategy;
 import nsk.share.gc.gp.MemoryStrategyAware;
 import nsk.share.test.ExecutionController;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * The main class and launcher for all containers tests.

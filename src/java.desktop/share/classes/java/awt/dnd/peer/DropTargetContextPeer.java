@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.java.awt.dnd.peer;
 
-
 import java.desktop.share.classes.java.awt.datatransfer.DataFlavor;
 import java.desktop.share.classes.java.awt.datatransfer.Transferable;
 import java.desktop.share.classes.java.awt.dnd.DropTarget;
 import java.desktop.share.classes.java.awt.dnd.InvalidDnDOperationException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>

@@ -21,23 +21,9 @@
 
 package nsk.jdi.Locatable.location;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the location003 JDI test.
@@ -86,7 +72,6 @@ public class location003a {
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
 
-
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
 
@@ -125,7 +110,6 @@ public class location003a {
     }
 }
 
-
 class location003aTestClass {
 
     private location003aClassForCheck2 class2 = new location003aClassForCheck2();
@@ -144,7 +128,6 @@ class location003aTestClass {
         return iface;
     }
 }
-
 
 interface location003aInterfaceForCheck {
 

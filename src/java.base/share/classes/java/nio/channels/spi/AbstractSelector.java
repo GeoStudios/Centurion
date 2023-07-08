@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.nio.channels.spi;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.lang.invoke.MethodHandles;
 import java.base.share.classes.java.lang.invoke.VarHandle;
@@ -31,20 +30,6 @@ import java.base.share.classes.java.util.HashSet;
 import java.base.share.classes.java.util.Set;
 import sun.nio.ch.Interruptible;
 import sun.nio.ch.SelectorImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base implementation class for selectors.
@@ -211,7 +196,6 @@ public abstract class AbstractSelector
     protected final void deregister(AbstractSelectionKey key) {
         ((AbstractSelectableChannel)key.channel()).removeKey(key);
     }
-
 
     // -- Interruption machinery --
 

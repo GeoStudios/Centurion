@@ -21,7 +21,6 @@
 
 package nsk.share.gc.gp;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -36,19 +35,6 @@ import nsk.share.gc.gp.classload.*;
 import nsk.share.gc.Memory;
 import nsk.share.TestBug;
 import nsk.share.test.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utility methods for garbage producers.
@@ -132,7 +118,6 @@ public final class GarbageUtils {
                                 public void finish() {}
                 });
         }
-
 
         /**
          * Eat memory using given execution controller and garbage producer.

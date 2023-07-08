@@ -21,26 +21,11 @@
 
 package jdk.random.share.classes.jdk.random;
 
-
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.random.RandomGenerator;
 import jdk.random.share.classes.jdk.internal.util.random.RandomSupport;
 import jdk.random.share.classes.jdk.internal.util.random.RandomSupport.AbstractSplittableWithBrineGenerator;
 import jdk.random.share.classes.jdk.internal.util.random.RandomSupport.RandomGeneratorProperties;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A "splittable" pseudorandom number generator (PRNG) whose period

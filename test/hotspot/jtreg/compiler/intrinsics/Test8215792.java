@@ -21,21 +21,6 @@
 
 package compiler.intrinsics;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8215792
@@ -44,7 +29,6 @@ package compiler.intrinsics;
  * @run main/othervm compiler.intrinsics.Test8215792
  * @run main/othervm -XX:-CompactStrings compiler.intrinsics.Test8215792
  */
-
 
 public class Test8215792 {
 

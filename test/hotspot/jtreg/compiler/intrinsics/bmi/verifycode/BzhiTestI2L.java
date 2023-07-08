@@ -21,22 +21,8 @@
 
 package compiler.intrinsics.bmi.verifycode;
 
-
 import compiler.intrinsics.bmi.TestBzhiI2L;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -51,9 +37,6 @@ import java.lang.reflect.Method;
  *      -XX:+IgnoreUnrecognizedVMOptions -XX:+UseBMI2Instructions
  *      compiler.intrinsics.bmi.verifycode.BzhiTestI2L
  */
-
-
-
 
 public class BzhiTestI2L extends BmiIntrinsicBase.BmiTestCase_x64 {
 

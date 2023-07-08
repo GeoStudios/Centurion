@@ -21,22 +21,6 @@
 
 package java.datatransfer.share.classes.java.awt.datatransfer;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Defines the interface for classes that will provide data to a clipboard. An
  * instance of this interface becomes the owner of the contents of a clipboard

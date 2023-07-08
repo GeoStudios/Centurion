@@ -21,23 +21,8 @@
 
 package utils.LogCompilation.src.main.java.com.sun.hotspot.tools.compiler;
 
-
 import utils.LogCompilation.src.main.java.io.PrintStream;
 import utils.LogCompilation.src.main.java.util.Arrayjava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * One particular compilation, represented in the compilation log file as a

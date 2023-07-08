@@ -21,22 +21,7 @@
 
 package jdk.jdi.share.classes.com.sun.jdi;
 
-
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A mirror of a class in the target VM. A ClassType is a refinement

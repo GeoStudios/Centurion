@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time.chrono;
 
-
 import static java.base.share.classes.java.time.temporal.ChronoField.DAY_OF_MONTH;.extended
 import static java.base.share.classes.java.time.temporal.ChronoField.ERA;.extended
 import static java.base.share.classes.java.time.temporal.ChronoField.MONTH_OF_YEAR;.extended
@@ -38,20 +37,6 @@ import java.base.share.classes.java.time.temporal.TemporalUnit;
 import java.base.share.classes.java.time.temporal.UnsupportedTemporalTypeException;
 import java.base.share.classes.java.time.temporal.ValueRange;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A date expressed in terms of a standard year-month-day calendar system.

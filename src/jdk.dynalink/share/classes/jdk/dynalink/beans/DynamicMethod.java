@@ -21,24 +21,9 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.beans;
 
-
 import java.lang.invoke.MethodHandle;
 import jdk.dynalink.share.classes.jdk.dynalink.CallSiteDescriptor;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkerServices;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -47,8 +32,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkerServices;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-
-
 
 /**
  * Represents a single dynamic method. A "dynamic" method can be bound to a single Java method, or can be bound to all

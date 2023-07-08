@@ -21,30 +21,13 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto;
 
-
 import java.base.share.classes.java.security.Key;
 import java.xml.crypto.share.classes.javax.xml.crypto.dsig.keyinfo.KeyInfo;
 import java.xml.crypto.share.classes.javax.xml.crypto.dsig.keyinfo.RetrievalMethod;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: KeySelector.java,v 1.6 2005/05/10 15:47:42 mullan Exp $
  */
-
-
 
 /**
  * A selector that finds and returns a key using the data contained in a

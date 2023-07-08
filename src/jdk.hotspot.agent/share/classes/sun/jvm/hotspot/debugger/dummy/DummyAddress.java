@@ -21,22 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.dummy;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** For testing purposes */
 

@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.websocket;
 
-
 import java.net.http.HttpClient;
 import java.net.http.Webjava.net.java.net.java.net.Socket;
 import java.net.http.Webjava.net.java.net.java.net.Socket.Builder;
@@ -37,20 +36,6 @@ import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 import static java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
 import static java.net.http.share.classes.jdk.internal.net.http.common.Pair.pair;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class BuilderImpl implements Builder {
 

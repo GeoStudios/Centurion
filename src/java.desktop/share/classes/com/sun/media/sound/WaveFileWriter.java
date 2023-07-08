@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -38,20 +37,6 @@ import javax.sound.sampled.AudioFileFormat;
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //$$fb this class is buggy. Should be replaced in future.
 
@@ -194,7 +179,6 @@ public final class WaveFileWriter extends SunFileWriter {
             sampleSizeInBits=streamFormat.getSampleSizeInBits();
         }
 
-
         format = new AudioFormat( encoding,
                                   streamFormat.getSampleRate(),
                                   sampleSizeInBits,
@@ -217,7 +201,6 @@ public final class WaveFileWriter extends SunFileWriter {
 
         return fileFormat;
     }
-
 
     private int writeWaveFile(InputStream in, WaveFileFormat waveFileFormat, OutputStream out) throws IOException {
 
@@ -315,7 +298,6 @@ public final class WaveFileWriter extends SunFileWriter {
                 }
             }
         }
-
 
         // Now push the header into a stream, concat, and return the new SequenceInputStream
         final byte[] header;

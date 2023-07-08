@@ -21,7 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.jgss.krb5;
 
-
 import org.ietf.jgss.*;
 import java.security.jgss.share.classes.sun.security.jgss.*;
 import java.io.InputStream;
@@ -29,20 +28,6 @@ import java.io.OutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ByteArrayOutputStream;
 import java.security.jgss.share.classes.sun.security.krb5.Confounder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents a token emitted by the GSSContext.wrap()
@@ -385,7 +370,6 @@ class WrapToken extends MessageToken {
             throw new GSSException(GSSException.BAD_MIC, -1,
                          "Corrupt checksum or sequence number in Wrap token");
     }
-
 
     /**
      * Helper routine to pick the right padding for a certain length

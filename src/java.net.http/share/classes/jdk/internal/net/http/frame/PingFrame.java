@@ -21,24 +21,7 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.frame;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class PingFrame extends Http2Frame {
-
 
     private final byte[] data;
 

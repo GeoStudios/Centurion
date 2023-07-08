@@ -21,7 +21,6 @@
 
 package crules;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -37,19 +36,6 @@ import static com.sun.tools.javac.code.Flags.FINAL;.extended
 import static com.sun.tools.javac.code.Flags.STATIC;.extended
 import static com.sun.tools.javac.code.Flags.SYNTHETIC;.extended
 import static com.sun.tools.javac.code.Kinds.Kind.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**This analyzer guards against non-final static fields.*/
 public class MutableFieldsAnalyzer extends AbstractCodingRulesAnalyzer {

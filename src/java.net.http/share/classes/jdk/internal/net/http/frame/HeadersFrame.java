@@ -21,23 +21,8 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.frame;
 
-
 import java.nio.ByteBuffer;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class HeadersFrame extends HeaderFrame {
 
@@ -47,7 +32,6 @@ public class HeadersFrame extends HeaderFrame {
     public static final int END_STREAM = 0x1;
     public static final int PADDED = 0x8;
     public static final int PRIORITY = 0x20;
-
 
     private int padLength;
     private int streamDependency;

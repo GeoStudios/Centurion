@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
-
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A CSS parser. This works by way of a delegate that implements the
@@ -83,11 +68,9 @@ class CSSParser {
     //
     // comments /* */ can appear any where, and are stripped.
 
-
     // identifier - letters, digits, dashes and escaped characters
     // block starts with { ends with matching }, () [] and {} always occur
     //   in matching pairs, '' and "" also occur in pairs, except " may be
-
 
     // Indicates the type of token being parsed.
     private static final int   IDENTIFIER = 1;
@@ -101,7 +84,6 @@ class CSSParser {
 
     private static final char[] charMapping = { 0, 0, '[', ']', '{', '}', '(',
                                                ')', 0};
-
 
     /** Set to true if one character has been read ahead. */
     private boolean        didPushChar;
@@ -125,7 +107,6 @@ class CSSParser {
     private int            tokenBufferLength;
     /** Set to true if any whitespace is read. */
     private boolean        readWS;
-
 
     // The delegate interface.
     interface CSSParserCallback {

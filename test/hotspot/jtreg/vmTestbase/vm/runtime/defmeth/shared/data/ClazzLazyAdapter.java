@@ -21,22 +21,8 @@
 
 package vm.runtime.defmeth.shared.data;
 
-
 import vm.runtime.defmeth.shared.builder.TestBuilder;
 import vm.runtime.defmeth.shared.data.method.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Wrapper around some {@link Clazz} instance. It delegates all calls

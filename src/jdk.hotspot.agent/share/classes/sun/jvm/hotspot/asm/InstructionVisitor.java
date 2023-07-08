@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.asm;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface InstructionVisitor {
    void prologue();
    void beginInstruction(long currentPc);

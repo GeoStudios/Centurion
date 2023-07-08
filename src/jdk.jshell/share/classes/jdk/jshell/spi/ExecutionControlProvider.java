@@ -21,23 +21,8 @@
 
 package jdk.jshell.share.classes.jdk.jshell.spi;
 
-
 import java.util.Collections;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The provider used by JShell to generate the execution engine needed to

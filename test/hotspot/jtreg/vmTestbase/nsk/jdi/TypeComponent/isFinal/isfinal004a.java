@@ -21,23 +21,9 @@
 
 package nsk.jdi.TypeComponent.isFinal;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The debugged application of the test.
@@ -87,7 +73,6 @@ public class isfinal004a {
         pipe = argHandler.createDebugeeIOPipe(log);
 
         pipe.println(isfinal004.SIGNAL_READY);
-
 
         //pipe.println(isfinal004.SIGNAL_GO);
         receiveSignal(isfinal004.SIGNAL_QUIT);

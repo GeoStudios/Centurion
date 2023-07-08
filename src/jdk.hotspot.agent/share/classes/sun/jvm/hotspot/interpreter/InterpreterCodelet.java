@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.interpreter;
 
-
 import java.io.*;
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code.*;
@@ -31,20 +30,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** An InterpreterCodelet is a piece of interpreter code. All
     interpreter code is generated into little codelets which contain

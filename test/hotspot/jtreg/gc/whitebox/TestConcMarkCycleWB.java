@@ -21,22 +21,8 @@
 
 package gc.whitebox;
 
-
 import static jdk.test.lib.Asserts.assertTrue;.extended
 import sun.hotspot.WhiteBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestConMarkCycleWB

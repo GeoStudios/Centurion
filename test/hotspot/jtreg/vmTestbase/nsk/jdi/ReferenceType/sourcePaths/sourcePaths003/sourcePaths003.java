@@ -21,25 +21,11 @@
 
 package nsk.jdi.ReferenceType.sourcePaths.sourcePaths003;
 
-
 import java.io.*;
 import java.util.*;
 import com.sun.jdi.*;
 import nsk.share.Consts;
 import nsk.share.jdi.sde.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -69,8 +55,6 @@ import nsk.share.jdi.sde.*;
  *      -testWorkDir .
  *      -testStratumCount 3
  */
-
-
 
 public class sourcePaths003 extends SDEDebugger {
     public static void main(String argv[]) {

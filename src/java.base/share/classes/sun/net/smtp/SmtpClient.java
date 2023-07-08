@@ -21,25 +21,10 @@
 
 package java.base.share.classes.sun.net.smtp;
 
-
 import java.io.*;
 import java.net.*;
 import java.base.share.classes.sun.net.TransferProtocolClient;
 import java.base.share.classes.sun.security.action.GetPropertyAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements the SMTP client.

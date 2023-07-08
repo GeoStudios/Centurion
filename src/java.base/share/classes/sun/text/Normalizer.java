@@ -21,23 +21,8 @@
 
 package java.base.share.classes.sun.text;
 
-
 import jdk.internal.icu.lang.UCharacter;
 import jdk.internal.icu.text.NormalizerBase;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This Normalizer is for Unicode 3.2 support for IDNA only.

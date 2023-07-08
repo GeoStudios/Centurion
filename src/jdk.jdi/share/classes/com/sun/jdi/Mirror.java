@@ -21,22 +21,7 @@
 
 package jdk.jdi.share.classes.com.sun.jdi;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.request.BreakpointRequest;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A proxy used by a debugger to examine or manipulate some entity

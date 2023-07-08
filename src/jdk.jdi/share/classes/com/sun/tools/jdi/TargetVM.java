@@ -21,7 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
@@ -34,20 +33,6 @@ import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
 import jdk.jdi.share.classes.com.sun.jdi.connect.spi.Connection;
 import jdk.jdi.share.classes.com.sun.jdi.event.EventQueue;
 import jdk.jdi.share.classes.com.sun.jdi.event.EventSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class TargetVM implements Runnable {
     private final Map<String, Packet> waitingQueue = new HashMap<>(32,0.75f);

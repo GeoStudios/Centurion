@@ -21,24 +21,9 @@
 
 package java.base.unix.classes.sun.net;
 
-
 import java.net.InetAddress;
 import java.io.FileDescriptor;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Defines static methods to be invoked prior to binding or connecting TCP sockets.

@@ -21,23 +21,9 @@
 
 package nsk.jdwp.ObjectReference.ReferringObjects.referringObjects002;
 
-
 import nsk.share.ObjectInstancesManager;
 import nsk.share.ReferringObject;
 import nsk.share.jdwp.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class referringObjects002a extends AbstractJDWPDebuggee {
     public static Object testInstance = new Object();

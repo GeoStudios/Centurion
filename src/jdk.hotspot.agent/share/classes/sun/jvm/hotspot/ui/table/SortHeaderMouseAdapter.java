@@ -21,27 +21,12 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.table;
 
-
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import javax.swing.JTable;
 import javax.swing.SwingUtilities;
 import javax.swing.table.TableColumnModel;
 import com.sun.java.swing.ui.CommonUI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A mouse adapater which is attached to the header of a JTable. It listens

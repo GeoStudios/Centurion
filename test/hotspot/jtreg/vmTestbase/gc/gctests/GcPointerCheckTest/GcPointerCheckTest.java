@@ -21,24 +21,10 @@
 
 package gc.gctests.GcPointerCheckTest;
 
-
 import nsk.share.TestFailure;
 import nsk.share.gc.GC;
 import nsk.share.gc.ThreadedGCTest;
 import nsk.share.test.ExecutionController;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -57,8 +43,6 @@ import nsk.share.test.ExecutionController;
  *          /test/lib
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.GcPointerCheckTest.GcPointerCheckTest
  */
-
-
 
 /**
  * Test that no pointers are broken.

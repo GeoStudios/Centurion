@@ -21,7 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.jgss.spnego;
 
-
 import org.ietf.jgss.*;
 import java.security.jgss.share.classes.sun.security.jgss.*;
 import java.security.jgss.share.classes.sun.security.jgss.spi.*;
@@ -31,20 +30,6 @@ import java.security.jgss.share.classes.sun.security.jgss.krb5.Krb5AcceptCredent
 import java.security.jgss.share.classes.sun.security.jgss.krb5.Krb5NameElement;
 import java.security.Provider;
 import java.util.Vector;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * SpNego Mechanism plug in for JGSS

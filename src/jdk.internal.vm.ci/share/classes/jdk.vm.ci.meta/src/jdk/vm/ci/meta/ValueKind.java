@@ -21,22 +21,6 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Represents the type of {@link Value values}. This class can be extended by compilers to track
  * additional information about values.

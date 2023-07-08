@@ -21,7 +21,6 @@
 
 package jdk.httpserver.share.classes.sun.net.httpserver;
 
-
 import java.io.*;
 import javax.net.ssl.*;
 import java.nio.channels.*;
@@ -29,20 +28,6 @@ import java.lang.System.Logger;
 import java.lang.System.Logger.Level;
 import com.sun.net.httpserver.*;
 import com.sun.net.httpserver.spi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * encapsulates all the connection specific state for a HTTP/S connection

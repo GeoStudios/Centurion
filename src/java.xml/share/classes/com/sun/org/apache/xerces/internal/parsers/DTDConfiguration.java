@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.Locale;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
@@ -53,20 +52,6 @@ import javax.xml.XMLConstants;
 import javax.xml.catalog.CatalogFeatures;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkXmlUtils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is the DTD-only parser configuration.  It extends the basic
@@ -144,7 +129,6 @@ public class DTDConfiguration
     /** Feature identifier: notify character refereces. */
     protected static final String NOTIFY_CHAR_REFS =
         Constants.XERCES_FEATURE_PREFIX + Constants.NOTIFY_CHAR_REFS_FEATURE;
-
 
     // property identifiers
 
@@ -741,7 +725,6 @@ public class DTDConfiguration
                 }
             }
         }
-
 
     }
 

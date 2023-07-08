@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.io;
 
-
 import java.base.share.classes.java.io.ObjectOutput;
 import java.base.share.classes.java.io.ObjectInput;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Only the identity of the class of an Externalizable instance is

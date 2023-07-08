@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang;
 
-
 import jdk.internal.reflect.CallerSensitive;
 import java.base.share.classes.java.lang.invoke.MethodType;
 import java.base.share.classes.java.util.EnumSet;
@@ -30,20 +29,6 @@ import java.base.share.classes.java.util.Set;
 import java.base.share.classes.java.util.function.Consumer;
 import java.base.share.classes.java.util.function.Function;
 import java.base.share.classes.java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A stack walker.
@@ -175,7 +160,6 @@ public final class StackWalker {
         default String getDescriptor() {
             throw new UnsupportedOperationException();
         }
-
 
         /**
          * Returns the index to the code array of the {@code Code} attribute

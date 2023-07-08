@@ -21,27 +21,12 @@
 
 package jdk.jconsole.share.classes.com.sun.tools.jconsole;
 
-
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangejava.util.Listener;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import javax.swing.JPanel;
 import javax.swing.SwingWorker;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A JConsole plugin class.  JConsole uses the

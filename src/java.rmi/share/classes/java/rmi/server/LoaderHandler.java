@@ -21,23 +21,8 @@
 
 package java.rmi.share.classes.java.rmi.server;
 
-
 import java.rmi.share.classes.java.net.MalformedURLException;
 import java.rmi.share.classes.java.net.URL;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>LoaderHandler</code> is an interface used internally by the RMI

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.text.MessageFormat;
@@ -33,20 +32,6 @@ import static java.base.share.classes.sun.security.ssl.SSLExtension.HRR_SUPPORTE
 import static java.base.share.classes.sun.security.ssl.SSLExtension.SH_SUPPORTED_VERSIONS;.extended
 import java.base.share.classes.sun.security.ssl.SSLExtension.SSLExtensionSpec;
 import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Pack of the "supported_versions" extensions.

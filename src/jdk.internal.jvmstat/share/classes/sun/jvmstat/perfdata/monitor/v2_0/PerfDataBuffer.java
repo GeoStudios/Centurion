@@ -21,26 +21,11 @@
 
 package jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor.v2_0;
 
-
 import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.*;
 import jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor.*;
 import java.util.*;
 import java.util.regex.*;
 import java.nio.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The concrete implementation of version 2.0 of the HotSpot PerfData

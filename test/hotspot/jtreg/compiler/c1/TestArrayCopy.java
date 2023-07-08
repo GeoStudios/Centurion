@@ -21,21 +21,6 @@
 
 package compiler.c1;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 6769124
@@ -44,13 +29,11 @@ package compiler.c1;
  * @run main compiler.c1.TestArrayCopy
  */
 
-
 public class TestArrayCopy {
 
     public static void main(String[] args) {
 
         int k = 1 << 31;
-
 
         for(int j = 0; j <1000000; j++) {
             int i = -1;

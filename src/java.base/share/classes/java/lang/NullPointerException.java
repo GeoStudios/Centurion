@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Thrown when an application attempts to use {@code null} in a
  * case where an object is required. These include:

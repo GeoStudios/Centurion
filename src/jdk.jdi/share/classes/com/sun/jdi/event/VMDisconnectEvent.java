@@ -21,23 +21,8 @@
 
 package jdk.jdi.share.classes.com.sun.jdi.event;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
 import jdk.jdi.share.classes.com.sun.jdi.request.EventRequest;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Notification of disconnection from target VM.

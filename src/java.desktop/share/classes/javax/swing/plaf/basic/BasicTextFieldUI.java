@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.FocusEvent;
@@ -34,20 +33,6 @@ import java.desktop.share.classes.javax.swing.event.*;
 import java.desktop.share.classes.javax.swing.text.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
 import sun.swing.DefaultLookup;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Basis of a look and feel for a JTextField.
@@ -176,7 +161,6 @@ public class BasicTextFieldUI extends BasicTextUI {
         super.getBaselineResizeBehavior(c);
         return Component.BaselineResizeBehavior.CENTER_OFFSET;
     }
-
 
     /**
      * A field view that support bidirectional text via the

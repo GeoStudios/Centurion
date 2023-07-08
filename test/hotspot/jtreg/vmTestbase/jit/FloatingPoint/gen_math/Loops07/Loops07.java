@@ -21,21 +21,7 @@
 
 package jit.FloatingPoint.gen_math.Loops07;
 
-
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -48,11 +34,9 @@ import nsk.share.TestFailure;
  * @run main/othervm jit.FloatingPoint.gen_math.Loops07.Loops07
  */
 
-
 // Test working with nested loops.
 // Code is subject to different types of optimization
 // and parallelization - empty loops, dead code, etc.
-
 
 public class Loops07
 {
@@ -125,9 +109,5 @@ public class Loops07
                 throw new TestFailure("test FAIL");
 
    }
-
-
-
-
 
 }

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.beans.decoder;
 
-
 import java.desktop.share.classes.com.sun.beans.finder.ClassFinder;
 import java.beans.Exceptionjava.util.Listener;
 import java.io.java.io.java.io.java.io.IOException;
@@ -42,20 +41,6 @@ import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The main class to parse JavaBeans XML archive.

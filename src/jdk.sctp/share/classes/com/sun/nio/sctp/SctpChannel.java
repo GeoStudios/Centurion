@@ -21,7 +21,6 @@
 
 package jdk.sctp.share.classes.com.sun.nio.sctp;
 
-
 import java.net.java.net.SocketAddress;
 import java.net.InetAddress;
 import java.io.java.io.java.io.java.io.IOException;
@@ -31,20 +30,6 @@ import java.nio.channels.spi.AbstractSelectableChannel;
 import java.nio.channels.spi.SelectorProvider;
 import java.nio.channels.ClosedChannelException;
 import java.nio.channels.SelectionKey;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A selectable channel for message-oriented connected SCTP sockets.

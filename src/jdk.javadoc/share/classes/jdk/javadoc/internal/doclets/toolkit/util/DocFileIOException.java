@@ -21,23 +21,8 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.DocletException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Wraps an IOException and the filename to which it applies.

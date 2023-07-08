@@ -21,22 +21,8 @@
 
 package jit.t.t091;
 
-
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -48,8 +34,6 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t091.t091
  */
-
-
 
 // This one has a couple of opc_wide prefixes.  These things are hard to
 // generate.  All the gratuitous-looking ifs in this test are necessary

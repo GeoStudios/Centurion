@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Collections;
@@ -54,20 +53,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Comme
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFilejava.io.java.io.java.io.IOException;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPath;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Generate the Class Information Page.
@@ -210,7 +195,6 @@ public class ClassWriterImpl extends SubWriterHolderWriter implements ClassWrite
         classInfoTree.add(new Signatures.TypeSignature(typeElement, this)
                 .toContent());
     }
-
 
     @Override
     public void addClassDescription(Content classInfoTree) {
@@ -422,7 +406,6 @@ public class ClassWriterImpl extends SubWriterHolderWriter implements ClassWrite
         }
         return false;
     }
-
 
     @Override
     public void addClassDeprecationInfo(Content classInfoTree) {

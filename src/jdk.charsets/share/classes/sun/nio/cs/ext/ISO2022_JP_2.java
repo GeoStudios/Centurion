@@ -21,26 +21,11 @@
 
 package jdk.charsets.share.classes.sun.nio.cs.ext;
 
-
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CharsetEncoder;
 import jdk.charsets.share.classes.sun.nio.cs.DoubleByte;
 import jdk.charsets.share.classes.sun.nio.cs.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ISO2022_JP_2 extends ISO2022_JP
 {

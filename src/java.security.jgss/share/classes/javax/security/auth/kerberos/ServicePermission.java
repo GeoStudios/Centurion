@@ -21,7 +21,6 @@
 
 package java.security.jgss.share.classes.javax.security.auth.kerberos;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -30,20 +29,6 @@ import java.security.Permission;
 import java.security.PermissionCollection;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used to protect Kerberos services and the
@@ -191,7 +176,6 @@ public final class ServicePermission extends Permission
         this.mask = mask;
     }
 
-
     /**
      * Checks if this Kerberos service permission object "implies" the
      * specified permission.
@@ -220,7 +204,6 @@ public final class ServicePermission extends Permission
             impliesIgnoreMask(that);
     }
 
-
     boolean impliesIgnoreMask(ServicePermission p) {
         return ((this.getName().equals("*")) ||
                 this.getName().equals(p.getName()) ||
@@ -248,7 +231,6 @@ public final class ServicePermission extends Permission
         return (this.mask == that.mask) &&
             this.getName().equals(that.getName());
 
-
     }
 
     /**
@@ -260,7 +242,6 @@ public final class ServicePermission extends Permission
     public int hashCode() {
         return (getName().hashCode() ^ mask);
     }
-
 
     /**
      * Returns the "canonical string representation" of the actions in the
@@ -303,7 +284,6 @@ public final class ServicePermission extends Permission
 
         return actions;
     }
-
 
     /**
      * Returns a PermissionCollection object for storing
@@ -427,7 +407,6 @@ public final class ServicePermission extends Permission
         return mask;
     }
 
-
     /**
      * WriteObject is called to save the state of the ServicePermission
      * to a stream. The actions are serialized, and the superclass
@@ -461,7 +440,6 @@ public final class ServicePermission extends Permission
         s.defaultReadObject();
         init(getName(),getMask(actions));
     }
-
 
     /*
       public static void main(String[] args) throws Exception {
@@ -500,7 +478,6 @@ public final class ServicePermission extends Permission
 
 }
 
-
 final class KrbServicePermissionCollection extends PermissionCollection
     implements java.io.Serializable {
 
@@ -537,7 +514,6 @@ final class KrbServicePermissionCollection extends PermissionCollection
             }
             return false;
         }
-
 
         // first, check for wildcard principal
         ServicePermission x = (ServicePermission)perms.get("*");

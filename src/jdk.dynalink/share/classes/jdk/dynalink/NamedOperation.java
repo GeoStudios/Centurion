@@ -21,22 +21,7 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink;
 
-
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -45,8 +30,6 @@ import java.base.share.classes.java.util.Objects;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-
-
 
 /**
  * Operation that associates a name with another operation. Typically used with

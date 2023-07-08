@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Super class for all objects that have modifiers like private, final, ... I.e.

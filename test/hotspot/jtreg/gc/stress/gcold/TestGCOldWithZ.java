@@ -21,21 +21,6 @@
 
 package gc.stress.gcold;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test TestGCOldWithZ
  * @key randomness

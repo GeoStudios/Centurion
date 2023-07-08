@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.org.xml.sax.helpers;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.jdk.internal.org.xml.sax.InputSource;
 import java.base.share.classes.jdk.internal.org.xml.sax.Locator;
@@ -33,30 +32,11 @@ import java.base.share.classes.jdk.internal.org.xml.sax.ErrorHandler;
 import java.base.share.classes.jdk.internal.org.xml.sax.SAXException;
 import java.base.share.classes.jdk.internal.org.xml.sax.SAXParseException;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // DefaultHandler.java - default implementation of the core handlers.
 // http://www.saxproject.org
 // Written by David Megginson
 // NO WARRANTY!  This class is in the public domain.
 // $Id: DefaultHandler.java,v 1.3 2006/04/13 02:06:32 jeffsuttor Exp $
-
-
-
-
-
 
 /**
  * Default base class for SAX2 event handlers.
@@ -96,7 +76,6 @@ public class DefaultHandler
     implements EntityResolver, DTDHandler, ContentHandler, ErrorHandler
 {
 
-
     ////////////////////////////////////////////////////////////////////
     // Default implementation of the EntityResolver interface.
     ////////////////////////////////////////////////////////////////////
@@ -128,12 +107,9 @@ public class DefaultHandler
         return null;
     }
 
-
-
     ////////////////////////////////////////////////////////////////////
     // Default implementation of DTDHandler interface.
     ////////////////////////////////////////////////////////////////////
-
 
     /**
      * Receive notification of a notation declaration.
@@ -155,7 +131,6 @@ public class DefaultHandler
     {
         // no op
     }
-
 
     /**
      * Receive notification of an unparsed entity declaration.
@@ -180,12 +155,9 @@ public class DefaultHandler
         // no op
     }
 
-
-
     ////////////////////////////////////////////////////////////////////
     // Default implementation of ContentHandler interface.
     ////////////////////////////////////////////////////////////////////
-
 
     /**
      * Receive a Locator object for document events.
@@ -202,7 +174,6 @@ public class DefaultHandler
     {
         // no op
     }
-
 
     /**
      * Receive notification of the beginning of the document.
@@ -222,7 +193,6 @@ public class DefaultHandler
         // no op
     }
 
-
     /**
      * Receive notification of the end of the document.
      *
@@ -240,7 +210,6 @@ public class DefaultHandler
     {
         // no op
     }
-
 
     /**
      * Receive notification of the start of a Namespace mapping.
@@ -261,7 +230,6 @@ public class DefaultHandler
         // no op
     }
 
-
     /**
      * Receive notification of the end of a Namespace mapping.
      *
@@ -279,7 +247,6 @@ public class DefaultHandler
     {
         // no op
     }
-
 
     /**
      * Receive notification of the start of an element.
@@ -311,7 +278,6 @@ public class DefaultHandler
         // no op
     }
 
-
     /**
      * Receive notification of the end of an element.
      *
@@ -338,7 +304,6 @@ public class DefaultHandler
         // no op
     }
 
-
     /**
      * Receive notification of character data inside an element.
      *
@@ -360,7 +325,6 @@ public class DefaultHandler
     {
         // no op
     }
-
 
     /**
      * Receive notification of ignorable whitespace in element content.
@@ -384,7 +348,6 @@ public class DefaultHandler
         // no op
     }
 
-
     /**
      * Receive notification of a processing instruction.
      *
@@ -406,7 +369,6 @@ public class DefaultHandler
         // no op
     }
 
-
     /**
      * Receive notification of a skipped entity.
      *
@@ -426,12 +388,9 @@ public class DefaultHandler
         // no op
     }
 
-
-
     ////////////////////////////////////////////////////////////////////
     // Default implementation of the ErrorHandler interface.
     ////////////////////////////////////////////////////////////////////
-
 
     /**
      * Receive notification of a parser warning.
@@ -453,7 +412,6 @@ public class DefaultHandler
         // no op
     }
 
-
     /**
      * Receive notification of a recoverable parser error.
      *
@@ -473,7 +431,6 @@ public class DefaultHandler
     {
         // no op
     }
-
 
     /**
      * Report a fatal XML parsing error.

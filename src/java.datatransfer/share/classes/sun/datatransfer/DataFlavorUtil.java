@@ -21,7 +21,6 @@
 
 package java.datatransfer.share.classes.sun.datatransfer;
 
-
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.FlavorMap;
 import java.io.java.io.java.io.java.io.IOException;
@@ -47,20 +46,6 @@ import java.util.Set;
 import java.util.SortedSet;
 import java.util.TreeSet;
 import java.util.function.Supplier;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utility class with different datatransfer helper functions.
@@ -524,7 +509,6 @@ public class DataFlavorUtil {
                         Collections.unmodifiableMap(encodedTextRepresentationsMap);
             }
         }
-
 
         public int compare(DataFlavor flavor1, DataFlavor flavor2) {
             if (flavor1.equals(flavor2)) {

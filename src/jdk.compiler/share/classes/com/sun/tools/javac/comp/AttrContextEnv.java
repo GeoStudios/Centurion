@@ -21,22 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-
 import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** {@code Env<A>} specialized as {@code Env<AttrContext>}
  *

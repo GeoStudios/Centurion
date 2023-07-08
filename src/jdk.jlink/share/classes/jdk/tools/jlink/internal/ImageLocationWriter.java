@@ -21,24 +21,9 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal;
 
-
 import jdk.jlink.share.classes.jdk.internal.jimage.ImageLocation;
 import jdk.jlink.share.classes.jdk.internal.jimage.ImageStream;
 import jdk.jlink.share.classes.jdk.internal.jimage.ImageStringsReader;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class ImageLocationWriter extends ImageLocation {
     private int locationOffset;

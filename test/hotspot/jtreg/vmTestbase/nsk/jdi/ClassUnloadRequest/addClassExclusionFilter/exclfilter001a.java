@@ -21,24 +21,10 @@
 
 package nsk.jdi.ClassUnloadRequest.addClassExclusionFilter;
 
-
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  <code>exclfilter001a</code> is deugee's part of the test.

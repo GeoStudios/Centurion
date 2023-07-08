@@ -21,21 +21,6 @@
 
 package p;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class PackageTest {
     public static void main(String args[]) {
         (new PackageTest()).test();

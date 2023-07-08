@@ -21,31 +21,15 @@
 
 package nsk.jdi.PlugConnectors.AttachConnector.plugAttachConnect003.connectors;
 
-
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.util.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * A Simple AttachingConnector used by
  * nsk/jdi/PlugConnectors/AttachConnector/plugAttachConnect003 test
  */
-
-
 
 public class PlugAttachConnector003 extends PlugConnectors implements AttachingConnector {
 
@@ -105,7 +89,6 @@ public class PlugAttachConnector003 extends PlugConnectors implements AttachingC
 
         return plugAttachConnectorDefaultArguments;
     }  // end of prepareConnectorDefaultArguments() method
-
 
     public PlugAttachConnector003() {
 

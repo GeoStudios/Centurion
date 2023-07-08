@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMErrorImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMStringjava.util.ListImpl;
@@ -89,20 +88,6 @@ import java.xml.share.classes.com.sun.org.w3c.dom.DOMStringjava.util.java.util.j
 import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSInput;
 import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSResourceResolver;
 import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements xni.grammars.XMLGrammarLoader.
@@ -932,7 +917,6 @@ XSLoader, DOMConfiguration {
                 new Object [] {val != null ? val.getClass().getName() : "null"}));
     }
 
-
     //Convert a SAX InputSource to an equivalent XNI XMLInputSource
 
     private static XMLInputSource saxToXMLInputSource(InputSource sis) {
@@ -1146,7 +1130,6 @@ XSLoader, DOMConfiguration {
             }
         }
     }
-
 
     /* (non-Javadoc)
      * @see com.sun.org.apache.xerces.internal.xs.XSLoader#getConfig()

@@ -21,23 +21,9 @@
 
 package compiler.codecache.jmx;
 
-
 import jdk.test.lib.Asserts;
 import sun.hotspot.code.BlobType;
 import java.lang.management.MemoryPoolMXBean;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test ManagerNamesTest
@@ -57,9 +43,6 @@ import java.lang.management.MemoryPoolMXBean;
  *     -XX:-SegmentedCodeCache
  *     compiler.codecache.jmx.ManagerNamesTest
  */
-
-
-
 
 public class ManagerNamesTest {
 

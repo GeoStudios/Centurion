@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.http.HttpClient;
 import java.net.http.HttpResponse;
@@ -31,20 +30,6 @@ import java.net.http.share.classes.jdk.internal.net.http.common.Logger;
 import java.net.http.share.classes.jdk.internal.net.http.common.MinimalFuture;
 import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
 import static java.net.http.HttpClient.Version.HTTP_1_1;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Splits request so that headers and body can be sent separately with optional
@@ -194,10 +179,8 @@ abstract class ExchangeImpl<T> {
      */
     abstract CompletableFuture<Void> ignoreBody();
 
-
     /** Gets the response headers. Completes before body is read. */
     abstract CompletableFuture<Response> getResponseAsync(Executor executor);
-
 
     /** Cancels a request.  Not currently exposed through API. */
     abstract void cancel();

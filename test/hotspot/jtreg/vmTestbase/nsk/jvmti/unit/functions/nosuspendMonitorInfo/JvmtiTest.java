@@ -21,21 +21,7 @@
 
 package nsk.jvmti.unit.functions.nosuspendMonitorInfo;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class JvmtiTest {
     final static int JCK_STATUS_BASE = 95;
@@ -43,7 +29,6 @@ public class JvmtiTest {
     static boolean DEBUG_MODE = false;
     static PrintStream out;
     static Thread mainThr;
-
 
     static {
         try {
@@ -80,7 +65,6 @@ public class JvmtiTest {
 
         Thread thr = Thread.currentThread();
         mainThr = thr;
-
 
         synchronized(lock1) {
             runn.start();
@@ -166,7 +150,6 @@ class JvmtiTesta extends Thread {
                 }
             }
         }
-
 
     }
 }

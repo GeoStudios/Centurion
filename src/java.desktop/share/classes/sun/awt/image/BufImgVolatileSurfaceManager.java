@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
-
 import java.desktop.share.classes.sun.java2d.SurfaceData;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This SurfaceManager variant manages an unaccelerated volatile surface.

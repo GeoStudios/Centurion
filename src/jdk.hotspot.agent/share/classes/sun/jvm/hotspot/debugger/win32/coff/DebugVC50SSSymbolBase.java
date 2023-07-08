@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Base interface for subsections containing symbols: sstGlobalSym,
     sstGlobalPub, sstStaticSym. */
 

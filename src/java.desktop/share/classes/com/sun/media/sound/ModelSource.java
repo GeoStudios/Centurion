@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class is used to identify sources in connection blocks,
  * see ModelConnectionBlock.

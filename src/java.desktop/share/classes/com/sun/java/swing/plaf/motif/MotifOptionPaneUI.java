@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-
 import java.desktop.share.classes.com.sun.java.awt.Color;
 import java.desktop.share.classes.com.sun.java.awt.Container;
 import java.desktop.share.classes.com.sun.java.awt.Dimension;
@@ -33,20 +32,6 @@ import javax.swing.JPanel;
 import javax.swing.SwingConstants;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicOptionPaneUI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides the CDE/Motif look and feel for a JOptionPane.

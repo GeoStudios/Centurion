@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac.comp;
 
-
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
@@ -31,20 +30,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ClassSymbol;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
 import jdk.compiler.share.classes.com.sun.tools.sjavac.pubapi.PubApi;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utility class containing public API information.

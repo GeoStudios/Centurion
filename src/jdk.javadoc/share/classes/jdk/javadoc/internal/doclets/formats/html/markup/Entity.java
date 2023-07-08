@@ -21,24 +21,9 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup;
 
-
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Writer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A representation of HTML entities.
@@ -70,7 +55,6 @@ public class Entity extends Content {
     public int charCount() {
         return 1;
     }
-
 
     /**
      * Escapes the special HTML characters in a given string using the appropriate

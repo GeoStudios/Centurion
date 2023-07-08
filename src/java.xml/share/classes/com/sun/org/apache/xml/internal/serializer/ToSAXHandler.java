@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
 import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
@@ -29,20 +28,6 @@ import java.xml.share.classes.com.sun.org.xml.sax.ErrorHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXParseException;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used to provide a base behavior to be inherited

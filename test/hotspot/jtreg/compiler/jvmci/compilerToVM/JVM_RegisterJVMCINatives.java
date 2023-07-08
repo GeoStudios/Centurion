@@ -21,23 +21,9 @@
 
 package compiler.jvmci.compilerToVM;
 
-
 import jdk.test.lib.Asserts;
 import jdk.vm.ci.runtime.JVMCI;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -57,9 +43,6 @@ import java.lang.reflect.Method;
  *      -XX:-EnableJVMCI -XX:-UseJVMCICompiler
  *      compiler.jvmci.compilerToVM.JVM_RegisterJVMCINatives
  */
-
-
-
 
 public class JVM_RegisterJVMCINatives {
     private static final boolean IS_POSITIVE = Boolean.getBoolean(

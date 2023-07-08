@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.common;
 
-
 import java.util.java.util.ListResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class StandardMetadataFormatResources extends ListResourceBundle {
 

@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.image.ImageObserver;
 import java.desktop.share.classes.java.io.Serial;
 import sun.awt.image.MultiResolutionToolkitImage;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code MediaTracker} class is a utility class to track

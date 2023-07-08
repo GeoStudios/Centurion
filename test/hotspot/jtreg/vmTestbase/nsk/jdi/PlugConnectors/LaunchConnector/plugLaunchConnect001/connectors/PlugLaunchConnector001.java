@@ -21,31 +21,15 @@
 
 package nsk.jdi.PlugConnectors.LaunchConnector.plugLaunchConnect001.connectors;
 
-
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.util.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * A Simple LaunchingConnector used by
  * nsk/jdi/PlugConnectors/LaunchConnector/plugLaunchConnect001 test
  */
-
-
 
 public class PlugLaunchConnector001 extends PlugConnectors implements LaunchingConnector {
 
@@ -53,7 +37,6 @@ public class PlugLaunchConnector001 extends PlugConnectors implements LaunchingC
     static String plugLaunchConnectorDescription = "PlugLaunchConnector001_Description";
     static Transport plugLaunchConnectorTransport = new PlugConnectorsTransport("PlugLaunchConnector001_Transport");
     static Map<java.lang.String,com.sun.jdi.connect.Connector.Argument> plugLaunchConnectorDefaultArguments = new HashMap<String, Connector.Argument>();
-
 
     public PlugLaunchConnector001() {
 

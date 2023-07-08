@@ -21,24 +21,9 @@
 
 package utils.IdealGraphVisualizer.Filter.src.main.java.com.sun.hotspot.igv.filter;
 
-
 import utils.IdealGraphVisualizer.Filter.src.main.java.util.Collections;
 import utils.IdealGraphVisualizer.Filter.src.main.java.util.HashSet;
 import utils.IdealGraphVisualizer.Filter.src.main.java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

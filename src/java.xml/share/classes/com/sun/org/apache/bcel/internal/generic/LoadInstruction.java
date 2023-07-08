@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * Denotes an unparameterized instruction to load a value from a local
@@ -59,7 +42,6 @@ public abstract class LoadInstruction extends LocalVariableInstruction implement
         super(canon_tag, c_tag);
     }
 
-
     /**
      * @param opcode Instruction opcode
      * @param c_tag Instruction number for compact version, ALOAD_0, e.g.
@@ -68,7 +50,6 @@ public abstract class LoadInstruction extends LocalVariableInstruction implement
     protected LoadInstruction(final short opcode, final short c_tag, final int n) {
         super(opcode, c_tag, n);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

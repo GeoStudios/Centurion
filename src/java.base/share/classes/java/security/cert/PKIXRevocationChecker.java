@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.security.cert;
 
-
 import java.base.share.classes.java.net.URI;
 import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Collections;
@@ -31,20 +30,6 @@ import java.base.share.classes.java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Map;
 import java.base.share.classes.java.util.Map.Entry;
 import java.base.share.classes.java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code PKIXCertPathChecker} for checking the revocation status of

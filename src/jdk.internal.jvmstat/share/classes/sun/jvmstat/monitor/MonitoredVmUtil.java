@@ -21,22 +21,6 @@
 
 package jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Utility class proving concenience methods for extracting various
  * information from an MonitoredVm object.

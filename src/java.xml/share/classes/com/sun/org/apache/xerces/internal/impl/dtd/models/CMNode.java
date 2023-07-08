@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A content model node.
  *
@@ -53,13 +37,11 @@ public abstract class CMNode
         fType = type;
     }
 
-
     // -------------------------------------------------------------------
     //  Package, abstract methods
     // -------------------------------------------------------------------
     // made this public so it could be implemented and used outside this package -neilg.
     public abstract boolean isNullable() ;
-
 
     // -------------------------------------------------------------------
     //  Package final methods
@@ -133,7 +115,6 @@ public abstract class CMNode
     protected abstract void calcFirstPos(CMStateSet toSet) ;
 
     protected abstract void calcLastPos(CMStateSet toSet) ;
-
 
     // -------------------------------------------------------------------
     //  Private data members

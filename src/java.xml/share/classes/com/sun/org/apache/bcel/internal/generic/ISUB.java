@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * ISUB - Substract ints
@@ -55,7 +38,6 @@ public class ISUB extends ArithmeticInstruction {
     public ISUB() {
         super(com.sun.org.apache.bcel.internal.Const.ISUB);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

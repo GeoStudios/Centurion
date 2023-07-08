@@ -21,22 +21,6 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.html;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *  Notice of modification to part of a document. See the   INS  and  DEL
  * element definitions in HTML 4.0.

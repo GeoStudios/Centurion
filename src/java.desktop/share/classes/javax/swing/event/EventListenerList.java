@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.event;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -30,20 +29,6 @@ import java.io.Serializable;
 import java.lang.reflect.Array;
 import java.util.Eventjava.util.Listener;
 import sun.reflect.misc.ReflectUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class that holds a list of EventListeners.  A single instance

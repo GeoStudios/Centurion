@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import javax.sound.midi.Patch;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A extended patch object that has isPercussion function.

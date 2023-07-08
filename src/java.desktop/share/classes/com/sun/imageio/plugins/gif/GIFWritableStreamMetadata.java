@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.gif;
 
-
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.metadata.IIOInvalidTreeException;
 import javax.imageio.metadata.IIOMetadata;
@@ -30,26 +29,11 @@ import javax.imageio.metadata.IIOMetadataFormat;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
 import org.w3c.dom.Node;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * The source for this class was copied verbatim from the source for
  * package com.sun.imageio.plugins.gif.GIFImageMetadata and then modified
  * to make the class read-write capable.
  */
-
 
 class GIFWritableStreamMetadata extends GIFStreamMetadata {
 

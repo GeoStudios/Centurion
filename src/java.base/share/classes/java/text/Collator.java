@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.text;
 
-
 import java.base.share.classes.java.lang.ref.SoftReference;
 import java.base.share.classes.java.text.spi.CollatorProvider;
 import java.base.share.classes.java.util.Locale;
@@ -30,20 +29,6 @@ import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
 import java.base.share.classes.java.util.concurrent.ConcurrentMap;
 import sun.util.locale.provider.LocaleProviderAdapter;
 import sun.util.locale.provider.LocaleServiceProviderPool;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code Collator} class performs locale-sensitive

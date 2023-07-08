@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.bsd;
 
-
 import java.io.*;
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
@@ -33,20 +32,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.bsd.x86.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.bsd.amd64.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.bsd.aarch64.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class BsdCDebugger implements CDebugger {
   private final BsdDebugger dbg;

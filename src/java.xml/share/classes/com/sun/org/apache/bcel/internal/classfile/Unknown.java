@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
-
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -29,27 +28,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * This class represents a reference to an unknown (i.e.,
@@ -69,7 +51,6 @@ public final class Unknown extends Attribute {
     private final String name;
     private static final Map<String, Unknown> unknownAttributes = new HashMap<>();
 
-
     /** @return array of unknown attributes, but just one for each kind.
      */
     static Unknown[] getUnknownAttributes() {
@@ -79,7 +60,6 @@ public final class Unknown extends Attribute {
         return unknowns;
     }
 
-
     /**
      * Initialize from another object. Note that both objects use the same
      * references (shallow copy). Use clone() for a physical copy.
@@ -87,7 +67,6 @@ public final class Unknown extends Attribute {
     public Unknown(final Unknown c) {
         this(c.getNameIndex(), c.getLength(), c.getBytes(), c.getConstantPool());
     }
-
 
     /**
      * Create a non-standard attribute.
@@ -104,7 +83,6 @@ public final class Unknown extends Attribute {
                 .getBytes();
         unknownAttributes.put(name, this);
     }
-
 
     /**
      * Construct object from input stream.
@@ -124,7 +102,6 @@ public final class Unknown extends Attribute {
         }
     }
 
-
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
      * defined by the contents of a Java class. I.e., the hierarchy of methods,
@@ -136,7 +113,6 @@ public final class Unknown extends Attribute {
     public void accept( final Visitor v ) {
         v.visitUnknown(this);
     }
-
 
     /**
      * Dump unknown bytes to file stream.
@@ -152,14 +128,12 @@ public final class Unknown extends Attribute {
         }
     }
 
-
     /**
      * @return data bytes.
      */
     public byte[] getBytes() {
         return bytes;
     }
-
 
     /**
      * @return name of attribute.
@@ -169,14 +143,12 @@ public final class Unknown extends Attribute {
         return name;
     }
 
-
     /**
      * @param bytes the bytes to set
      */
     public void setBytes( final byte[] bytes ) {
         this.bytes = bytes;
     }
-
 
     /**
      * @return String representation.
@@ -196,7 +168,6 @@ public final class Unknown extends Attribute {
         }
         return "(Unknown attribute " + name + ": " + hex + ")";
     }
-
 
     /**
      * @return deep copy of this attribute

@@ -21,23 +21,9 @@
 
 package nsk.monitoring.MemoryUsage.MemoryUsage;
 
-
 import java.lang.management.*;
 import java.io.*;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class memoryusage001 {
     private static boolean testFailed = false;

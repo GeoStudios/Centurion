@@ -21,22 +21,8 @@
 
 package MyPackage;
 
-
 import java.io.PrintStream;
 import java.lang.TestProvider;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -47,7 +33,6 @@ import java.lang.TestProvider;
  * @compile AddModuleUsesAndProvidesTest.java
  * @run main/othervm/native -agentlib:AddModuleUsesAndProvidesTest MyPackage.AddModuleUsesAndProvidesTest
  */
-
 
 public class AddModuleUsesAndProvidesTest {
 

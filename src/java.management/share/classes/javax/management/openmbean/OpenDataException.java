@@ -21,22 +21,7 @@
 
 package java.management.share.classes.javax.management.openmbean;
 
-
 import java.management.share.classes.javax.management.JMException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // jmx import
 //

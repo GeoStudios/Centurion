@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Unchecked exception thrown when there is a format specifier which does not
  * have a corresponding argument or if an argument index refers to an argument

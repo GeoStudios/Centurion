@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.jpeg;
 
-
 import java.awt.Point;
 import java.awt.color.ColorSpace;
 import java.awt.color.ICC_ColorSpace;
@@ -48,20 +47,6 @@ import java.desktop.share.classes.com.sun.imageio.plugins.common.ImageUtil;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import org.w3c.dom.Nodejava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Metadata for the JPEG plug-in.
@@ -740,7 +725,6 @@ public class JPEGMetadata extends IIOMetadata implements Cloneable {
 
         return retval;
     }
-
 
     // Tree methods
 
@@ -2132,7 +2116,6 @@ public class JPEGMetadata extends IIOMetadata implements Cloneable {
             }
         }
     }
-
 
     public void setFromTree(String formatName, Node root)
         throws IIOInvalidTreeException {

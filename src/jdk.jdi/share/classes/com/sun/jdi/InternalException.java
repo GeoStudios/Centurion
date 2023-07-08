@@ -21,22 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.jdi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Thrown to indicate that an unexpected internal error has
  * occurred.

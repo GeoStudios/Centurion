@@ -21,7 +21,6 @@
 
 package nsk.jdi.EventRequestManager.methodEntryRequests;
 
-
 import com.sun.jdi.request.MethodEntryRequest;
 import com.sun.jdi.request.EventRequestManager;
 import com.sun.jdi.VirtualMachine;
@@ -32,19 +31,6 @@ import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test checks that the JDI method

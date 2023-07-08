@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.net;
 
-
 import sun.net.www.protocol.http.AuthenticatorKeys;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The class Authenticator represents an object that knows how to obtain
@@ -113,7 +98,6 @@ class Authenticator {
         requestingURL = null;
         requestingAuthType = RequestorType.SERVER;
     }
-
 
     /**
      * Sets the authenticator that will be used by the networking code

@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.builders;
 
-
 import java.util.*;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.PackageElement;
@@ -32,20 +31,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.DocletException;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable;
 import static jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable.Kind.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Builds the Constants Summary Page.

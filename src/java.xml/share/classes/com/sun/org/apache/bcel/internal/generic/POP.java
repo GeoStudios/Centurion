@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * POP - Pop top operand stack word
@@ -54,7 +37,6 @@ public class POP extends StackInstruction implements PopInstruction {
     public POP() {
         super(com.sun.org.apache.bcel.internal.Const.POP);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

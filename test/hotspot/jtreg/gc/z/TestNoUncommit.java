@@ -21,21 +21,6 @@
 
 package gc.z;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test TestNoUncommit
  * @requires vm.gc.Z & !vm.graal.enabled

@@ -21,23 +21,9 @@
 
 package jdk.test.lib.jittester;
 
-
 import java.util.java.util.java.util.java.util.List;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.visitors.Visitor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Block extends IRNode {
 

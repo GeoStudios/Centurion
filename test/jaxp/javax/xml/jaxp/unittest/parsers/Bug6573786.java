@@ -21,7 +21,6 @@
 
 package parsers;
 
-
 import java.io.InputStream;
 import java.io.StringBufferInputStream;
 import javax.xml.parsers.SAXParser;
@@ -29,19 +28,6 @@ import javax.xml.parsers.SAXParserFactory;
 import org.testng.Assert;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Address;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.OopHandle;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VM;
@@ -29,20 +28,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VMObject;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.AddressField;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.Type;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.TypeDataBase;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class VMOopHandle extends VMObject {
     private static AddressField objField;

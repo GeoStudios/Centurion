@@ -21,7 +21,6 @@
 
 package demo.share.jfc.TableExample;
 
-
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.Dimension;
@@ -33,20 +32,6 @@ import javax.swing.JTable;
 import javax.swing.UIManager;
 import javax.swing.UIManager.LookAndFeelInfo;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -54,10 +39,6 @@ import javax.swing.UIManager.LookAndFeelInfo;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
 
 /**
  * A minimal example, using the JTable to view data from a database.

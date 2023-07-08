@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.builders;
 
-
 import java.util.*;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.TypeElement;
@@ -33,20 +32,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.DocletExce
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable;
 import static jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable.Kind.*;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Builds documentation for required annotation type members.
  *
@@ -56,7 +41,6 @@ import static jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.uti
  *  deletion without notice.</b>
  */
 public class AnnotationTypeRequiredMemberBuilder extends AbstractMemberBuilder {
-
 
     /**
      * The writer to output the member documentation.
@@ -90,7 +74,6 @@ public class AnnotationTypeRequiredMemberBuilder extends AbstractMemberBuilder {
         this.writer = Objects.requireNonNull(writer);
         this.members = getVisibleMembers(memberType);
     }
-
 
     /**
      * Construct a new AnnotationTypeMemberBuilder.

@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.java.awt.peer;
 
-
 import java.desktop.share.classes.java.awt.SystemTray;
 import java.desktop.share.classes.java.awt.TrayIcon;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The peer interface for the {@link TrayIcon}. This doesn't need to be

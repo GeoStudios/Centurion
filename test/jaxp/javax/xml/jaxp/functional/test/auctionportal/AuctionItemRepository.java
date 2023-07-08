@@ -21,7 +21,6 @@
 
 package test.auctionportal;
 
-
 import static jaxp.library.JAXPTestUtilities.setSystemProperty;.extended
 import static javax.xml.XMLConstants.FEATURE_SECURE_PROCESSING;.extended
 import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;.extended
@@ -50,19 +49,6 @@ import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.Document;
 import org.xml.sax.SAXParseException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is a test class for the Auction portal HiBid.com.

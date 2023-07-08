@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * Constants used in serialization, such as the string "xmlns"

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -45,20 +44,6 @@ import javax.sound.midi.Synthesizer;
 import javax.sound.midi.Track;
 import javax.sound.midi.Transmitter;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A Real Time Sequencer
  *
@@ -81,7 +66,6 @@ final class RealTimeSequencer extends AbstractMidiDevice
      * All RealTimeSequencers share this info object.
      */
     static final MidiDevice.Info info = new RealTimeSequencerInfo();
-
 
     private static final Sequencer.SyncMode[] masterSyncModes = { Sequencer.SyncMode.INTERNAL_CLOCK };
     private static final Sequencer.SyncMode[] slaveSyncModes  = { Sequencer.SyncMode.NO_SYNC };
@@ -164,7 +148,6 @@ final class RealTimeSequencer extends AbstractMidiDevice
      * the receiver that this device is auto-connected to.
      */
     Receiver autoConnectedReceiver = null;
-
 
     /* ****************************** CONSTRUCTOR ****************************** */
 
@@ -1094,7 +1077,6 @@ final class RealTimeSequencer extends AbstractMidiDevice
                 int[] temp = new int[ controllers.length ];
                 int elements = 0;
 
-
                 for(int i=0; i<controllers.length; i++){
                     boolean flag = false;
                     for(int j=0; j<c.length; j++) {
@@ -1182,7 +1164,6 @@ final class RealTimeSequencer extends AbstractMidiDevice
 
         private final DataPump dataPump = new DataPump();
 
-
         PlayThread() {
             // nearly MAX_PRIORITY
             int priority = Thread.NORM_PRIORITY
@@ -1201,7 +1182,6 @@ final class RealTimeSequencer extends AbstractMidiDevice
         synchronized void setSequence(Sequence seq) {
             dataPump.setSequence(seq);
         }
-
 
         /** start thread and pump. Requires up-to-date tempoCache */
         synchronized void start() {

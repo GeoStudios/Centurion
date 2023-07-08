@@ -21,22 +21,8 @@
 
 package transform;
 
-
 import org.w3c.dom.Node;
 import org.w3c.dom.Nodejava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class DocumentExtFunc {
 

@@ -21,24 +21,9 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal;
 
-
 import java.nio.file.Path;
 import java.base.share.classes.java.util.Objects;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class ResourcePoolEntryFactory {
     private ResourcePoolEntryFactory() {}

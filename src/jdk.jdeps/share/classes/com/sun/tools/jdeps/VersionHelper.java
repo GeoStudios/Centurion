@@ -21,27 +21,12 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.jdeps;
 
-
 import jdk.jdeps.share.classes.com.sun.tools.classfile.ClassFile;
 import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPoolException;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class VersionHelper {
     private static final String META_INF_VERSIONS = "META-INF/versions/";

@@ -21,7 +21,6 @@
 
 package java.rmi.share.classes.sun.rmi.transport;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInput;
 import java.io.ObjectOutput;
@@ -32,20 +31,6 @@ import java.rmi.server.RMIClientjava.net.SocketFactory;
 import java.rmi.server.RMIjava.net.ServerSocketFactory;
 import java.base.share.classes.java.util.Arrays;
 import java.rmi.share.classes.sun.rmi.transport.tcp.TCPEndpoint;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * NOTE: There is a JDK-internal dependency on the existence of this

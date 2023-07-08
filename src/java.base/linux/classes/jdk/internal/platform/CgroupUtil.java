@@ -21,7 +21,6 @@
 
 package java.base.linux.classes.jdk.internal.platform;
 
-
 import java.base.share.classes.java.io.UncheckedIOException;
 import java.io.BufferedReader;
 import java.base.share.classes.java.io.IOException;

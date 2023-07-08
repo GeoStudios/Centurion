@@ -21,7 +21,6 @@
 
 package demo.share.java2d.J2DBench.src.j2dbench;
 
-
 import java.awt.GraphicsEnvironment;
 import java.awt.Rectangle;
 import java.io.PrintWriter;
@@ -60,20 +59,6 @@ import demo.share.java2d.J2DBench.src.j2dbench.tests.text.TextMeasureTests;
 import demo.share.java2d.J2DBench.src.j2dbench.tests.text.TextRenderTests;
 import demo.share.java2d.J2DBench.src.j2dbench.tests.text.TextTests;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -81,12 +66,6 @@ import demo.share.java2d.J2DBench.src.j2dbench.tests.text.TextTests;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
-
-
 
 public class J2DBench {
     static Group progoptroot;

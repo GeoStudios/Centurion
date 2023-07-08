@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.x509;
 
-
 import java.io.ByteArrayOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
@@ -32,20 +31,6 @@ import static java.nio.charset.StandardCharsets.UTF_8;.extended
 import java.base.share.classes.sun.security.action.GetBooleanAction;
 import java.base.share.classes.sun.security.util.*;
 import java.base.share.classes.sun.security.pkcs.PKCS9Attribute;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * X.500 Attribute-Value-Assertion (AVA):  an attribute, as identified by

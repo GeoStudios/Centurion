@@ -21,21 +21,7 @@
 
 package nsk.jvmti.PopFrame;
 
-
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This test checks that a method's frame can not be popped by the JVMTI

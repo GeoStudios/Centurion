@@ -21,7 +21,6 @@
 
 package java.management.share.classes.javax.management.openmbean;
 
-
 import java.io.Serializable;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
@@ -33,26 +32,11 @@ import java.util.SortedMap;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // java import
 //
 
 // jmx import
 //
-
 
 /**
  * The {@code CompositeDataSupport} class is the <i>open data</i> class which

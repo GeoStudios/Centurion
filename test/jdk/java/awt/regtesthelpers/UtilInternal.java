@@ -21,7 +21,6 @@
 
 package test.java.awt.regtesthelpers;
 
-
 import java.awt.peer.FramePeer;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -30,19 +29,6 @@ import java.lang.reflect.Method;
 import java.awt.Toolkit;
 import java.awt.Frame;
 import sun.awt.AWTAccessor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
    Class with static methods using internal/proprietary API by necessity.

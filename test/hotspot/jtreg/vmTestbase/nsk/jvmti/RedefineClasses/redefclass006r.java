@@ -21,21 +21,7 @@
 
 package nsk.jvmti.RedefineClasses;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is dummy redefined class

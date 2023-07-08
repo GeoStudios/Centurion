@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.icu.text;
 
-
 import java.lang.reflect.Array;
 import java.text.AttributedCharacterIterator;
 import java.text.Bidi;
@@ -30,20 +29,6 @@ import java.base.share.classes.jdk.internal.access.JavaAWTFontAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import java.base.share.classes.jdk.internal.icu.lang.UCharacter;
 import java.base.share.classes.jdk.internal.icu.impl.UBiDiProps;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* FOOD FOR THOUGHT: currently the reordering modes are a mixture of
  * algorithm for direct BiDi, algorithm for inverse Bidi and the bizarre
@@ -60,9 +45,6 @@ import java.base.share.classes.jdk.internal.icu.impl.UBiDiProps;
  * This would need to document which ones are supported and what are the
  * fallbacks for unsupported combinations.
  */
-
-
-
 
 /**
  *

@@ -21,23 +21,8 @@
 
 package jdk.hotspot.agent.share.classes.com.sun.java.swing.action;
 
-
 import jdk.hotspot.agent.share.classes.com.sun.java.awt.event.ActionEvent;
 import javax.swing.AbstractAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ViewMenu extends AbstractAction
 {

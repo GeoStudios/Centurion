@@ -21,23 +21,8 @@
 
 package java.xml.share.classes.org.xml.sax.helpers;
 
-
 import java.lang.reflect.InvocationTargetException;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Create a new instance of a class by name.

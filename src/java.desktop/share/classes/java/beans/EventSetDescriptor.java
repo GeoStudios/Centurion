@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.java.beans;
 
-
 import java.desktop.share.classes.java.lang.ref.Reference;
 import java.desktop.share.classes.java.lang.reflect.Method;
 import java.desktop.share.classes.java.lang.reflect.Modifier;
 import com.sun.beans.introspect.EventSetInfo;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An EventSetDescriptor describes a group of events that a given Java

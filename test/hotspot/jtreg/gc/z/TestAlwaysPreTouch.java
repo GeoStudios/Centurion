@@ -21,21 +21,6 @@
 
 package gc.z;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test TestAlwaysPreTouch
  * @requires vm.gc.Z

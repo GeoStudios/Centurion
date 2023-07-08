@@ -21,21 +21,6 @@
 
 package jdk.test.lib.jittester;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class ProductionFailedException extends Exception {
     static final long serialVersionUID = -2325617203741536725L;
 

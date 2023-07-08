@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xs;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * The <code>XSObject</code> is a base object for the XML Schema component

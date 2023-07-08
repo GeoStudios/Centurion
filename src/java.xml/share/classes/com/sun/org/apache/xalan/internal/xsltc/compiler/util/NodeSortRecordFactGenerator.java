@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.Stylesheet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Generator for subclasses of NodeSortRecordFactory.

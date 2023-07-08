@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.icu.impl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.base.share.classes.jdk.internal.icu.lang.UCharacter;
@@ -29,20 +28,6 @@ import java.base.share.classes.jdk.internal.icu.text.Normalizer2;
 import java.base.share.classes.jdk.internal.icu.text.UTF16;
 import java.base.share.classes.jdk.internal.icu.util.CodePointTrie;
 import java.base.share.classes.jdk.internal.icu.util.VersionInfo;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Original filename in ICU4J: Normalizer2Impl.java
 public final class NormalizerImpl {
@@ -1731,7 +1716,6 @@ public final class NormalizerImpl {
         }
         return p;
     }
-
 
     private int findNextFCDBoundary(CharSequence s, int p, int limit) {
         while(p<limit) {

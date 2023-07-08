@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import sun.swing.SwingUtilities2;
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.event.*;
@@ -36,26 +35,11 @@ import java.util.Hashtable;
 import sun.swing.DefaultLookup;
 import sun.swing.UIAction;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A Basic L&amp;F implementation of TabbedPaneUI.
  *
  */
 public class BasicTabbedPaneUI extends TabbedPaneUI implements SwingConstants {
-
 
 // Instance variables initialized at installation
 
@@ -131,7 +115,6 @@ public class BasicTabbedPaneUI extends TabbedPaneUI implements SwingConstants {
      */
     @Deprecated
     protected KeyStroke rightKey;
-
 
 // Transient variables (recalculated each time TabbedPane is layed out)
     /** Tab runs */
@@ -1653,7 +1636,6 @@ public class BasicTabbedPaneUI extends TabbedPaneUI implements SwingConstants {
         }
     }
 
-
 // TabbedPaneUI methods
 
     /**
@@ -2130,7 +2112,6 @@ public class BasicTabbedPaneUI extends TabbedPaneUI implements SwingConstants {
         Font font = tabPane.getFont();
         return tabPane.getFontMetrics(font);
     }
-
 
 // Tab Navigation methods
 
@@ -3143,7 +3124,6 @@ public class BasicTabbedPaneUI extends TabbedPaneUI implements SwingConstants {
             }
         }
 
-
         /**
          * Rotates the run-index array so that the selected run is run[0].
          * @param tabPlacement the tab placement
@@ -3946,7 +3926,6 @@ public class BasicTabbedPaneUI extends TabbedPaneUI implements SwingConstants {
         }
     }
 
-
 // Controller: event listeners
 
     private class Handler implements ChangeListener, ContainerListener,
@@ -4117,7 +4096,6 @@ public class BasicTabbedPaneUI extends TabbedPaneUI implements SwingConstants {
         public void focusLost(FocusEvent e) {
            repaintTab(focusIndex);
         }
-
 
         //
         // ContainerListener

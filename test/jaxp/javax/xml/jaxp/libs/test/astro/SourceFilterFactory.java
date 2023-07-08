@@ -21,7 +21,6 @@
 
 package test.astro;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.Source;
@@ -30,19 +29,6 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.sax.SAXTransformerFactory;
 import javax.xml.transform.sax.TransformerHandler;
 import org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class SourceFilterFactory extends AbstractFilterFactory {
     @Override

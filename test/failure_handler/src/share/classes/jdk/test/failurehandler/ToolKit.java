@@ -21,7 +21,6 @@
 
 package jdk.test.failurehandler;
 
-
 import jdk.test.failurehandler.action.ActionSet;
 import jdk.test.failurehandler.action.ActionHelper;
 import java.io.PrintWriter;
@@ -30,19 +29,6 @@ import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Queue;
 import java.util.Deque;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ToolKit implements EnvironmentInfoGatherer, ProcessInfoGatherer {
     private final List<ActionSet> actions = new ArrayList<>();

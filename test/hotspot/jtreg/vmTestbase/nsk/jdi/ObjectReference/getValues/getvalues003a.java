@@ -21,23 +21,9 @@
 
 package nsk.jdi.ObjectReference.getValues;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the getvalues003 JDI test.
@@ -87,7 +73,6 @@ public class getvalues003a {
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
 
-
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
 
@@ -126,7 +111,6 @@ public class getvalues003a {
     }
 }
 
-
 class getvalues003aTestClass1 {
 
     static getvalues003aClassForCheck_2   class2_0 = new getvalues003aClassForCheck_2();
@@ -143,7 +127,6 @@ class getvalues003aTestClass  {
                   {{{true, false}, {true, false}}, {{true, false}, {true, false}} }  };
 
 }
-
 
 interface getvalues003aInterfaceForCheck {
 

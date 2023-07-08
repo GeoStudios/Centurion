@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.event;
 
-
 import java.desktop.share.classes.javax.swing.undo.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An event indicating that an operation which can be undone has occurred.

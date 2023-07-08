@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
-
 import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
@@ -34,20 +33,6 @@ import java.util.concurrent.CopyOnWriteArrayjava.util.java.util.java.util.List;
 import java.util.function.Predicate;
 import jdk.jfr.share.classes.jdk.jfr.Event;
 import jdk.jfr.share.classes.jdk.jfr.EventType;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class RequestEngine {
 

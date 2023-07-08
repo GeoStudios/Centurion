@@ -21,25 +21,10 @@
 
 package java.desktop.macosx.classes.sun.lwawt;
 
-
 import java.awt.Label;
 import java.awt.peer.LabelPeer;
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Lightweight implementation of {@link LabelPeer}. Delegates most of the work

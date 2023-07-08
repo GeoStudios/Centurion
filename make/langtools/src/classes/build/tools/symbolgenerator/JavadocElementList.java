@@ -21,56 +21,6 @@
 
 package build.tools.symbolgenerator;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Generate list of modules and packages in the current release.
  * Used by the javadoc tool.

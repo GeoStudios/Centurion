@@ -21,22 +21,8 @@
 
 package gc.z;
 
-
 import java.util.Linkedjava.util.java.util.java.util.List;
 import jdk.test.lib.process.ProcessTools;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestPageCacheFlush
@@ -45,7 +31,6 @@ import jdk.test.lib.process.ProcessTools;
  * @library /test/lib
  * @run driver gc.z.TestPageCacheFlush
  */
-
 
 public class TestPageCacheFlush {
     static class Test {

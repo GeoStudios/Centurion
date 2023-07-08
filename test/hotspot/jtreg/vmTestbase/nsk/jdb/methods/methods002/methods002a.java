@@ -21,24 +21,10 @@
 
 package nsk.jdb.methods.methods002;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdb.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* This is debuggee aplication */
 public class methods002a {
@@ -97,7 +83,6 @@ public class methods002a {
     strictfp     Object  m25 () { return new Object(); };
     native       Object  m26 ();
     public static synchronized strictfp Object m27 () { return new Object(); };
-
 
     // array methods
     double[]   m28 () { return new double[1]; };

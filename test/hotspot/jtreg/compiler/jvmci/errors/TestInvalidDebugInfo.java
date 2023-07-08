@@ -21,7 +21,6 @@
 
 package compiler.jvmci.errors;
 
-
 import jdk.vm.ci.code.Architecture;
 import jdk.vm.ci.code.BytecodeFrame;
 import jdk.vm.ci.code.DebugInfo;
@@ -46,19 +45,6 @@ import jdk.vm.ci.meta.Value;
 import jdk.vm.ci.meta.ValueKind;
 import org.junit.Test;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @requires vm.jvmci
@@ -72,8 +58,6 @@ import org.junit.Test;
  * @run junit/othervm -da:jdk.vm.ci... -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI
  *              -XX:-UseJVMCICompiler compiler.jvmci.errors.TestInvalidDebugInfo
  */
-
-
 
 /**
  * Tests for errors in debug info.

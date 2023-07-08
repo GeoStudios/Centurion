@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.sound.midi;
 
-
 import java.io.Serial;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An {@code InvalidMidiDataException} indicates that inappropriate MIDI data

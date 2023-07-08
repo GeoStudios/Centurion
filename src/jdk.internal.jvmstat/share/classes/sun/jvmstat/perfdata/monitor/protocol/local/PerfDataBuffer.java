@@ -21,7 +21,6 @@
 
 package jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor.protocol.local;
 
-
 import jdk.internal.perf.Perf;
 import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.*;
 import jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor.*;
@@ -31,20 +30,6 @@ import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.lang.reflect.Constructor;
 import java.security.AccessController;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The concrete PerfDataBuffer implementation for the <em>local:</em>

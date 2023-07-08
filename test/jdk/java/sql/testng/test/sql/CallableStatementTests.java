@@ -21,22 +21,8 @@
 
 package test.sql;
 
-
 import org.testng.annotations.BeforeMethod;
 import util.StubCallableStatement;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CallableStatementTests extends PreparedStatementTests {
 
@@ -44,6 +30,5 @@ public class CallableStatementTests extends PreparedStatementTests {
     public void setUpMethod() throws Exception {
         stmt = new StubCallableStatement();
     }
-
 
 }

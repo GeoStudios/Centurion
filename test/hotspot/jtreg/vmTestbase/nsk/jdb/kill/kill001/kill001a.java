@@ -21,25 +21,11 @@
 
 package nsk.jdb.kill.kill001;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdb.*;
 import java.io.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* This is debuggee aplication */
 public class kill001a {
@@ -68,7 +54,6 @@ public class kill001a {
                     new com.sun.jdi.IncompatibleThreadStateException(message),
                     new MyException(message)
                                           };
-
 
     public int runIt(String args[], PrintStream out) {
 
@@ -139,7 +124,6 @@ public class kill001a {
         }
     }
 }
-
 
 class MyThread extends Thread {
     String name;

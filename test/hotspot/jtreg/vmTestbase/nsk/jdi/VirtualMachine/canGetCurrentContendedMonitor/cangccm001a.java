@@ -21,23 +21,9 @@
 
 package nsk.jdi.VirtualMachine.canGetCurrentContendedMonitor;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the cangccm001 JDI test.
@@ -90,7 +76,6 @@ public class cangccm001a {
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
 
-
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
 
@@ -111,7 +96,6 @@ public class cangccm001a {
                          thread2 = new
                               Threadcangccm001a("Thread2");
                          log1("       thread2 is created");
-
 
                      label: {
                          synchronized (Threadcangccm001a.lockingObject) {
@@ -164,7 +148,6 @@ public class cangccm001a {
     }
 }
 
-
 class Threadcangccm001a extends Thread {
 
     public Threadcangccm001a(String threadName) {
@@ -176,7 +159,6 @@ class Threadcangccm001a extends Thread {
 
     public static Object waitnotifyObj = new Object();
     public static Object lockingObject = new Object();
-
 
     private int i1 = 0, i2 = 10;
 
@@ -196,7 +178,6 @@ class Threadcangccm001a extends Thread {
         log("method 'run' exit");
         return;
     }
-
 
     void log(String str) {
         cangccm001a.log2("thread2: " + str);

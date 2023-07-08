@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.swing.colorchooser;
 
-
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.awt.Color;
 import java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A generic implementation of <code>ColorSelectionModel</code>.
@@ -113,7 +98,6 @@ public class DefaultColorSelectionModel implements ColorSelectionModel, Serializ
             fireStateChanged();
         }
     }
-
 
     /**
      * Adds a <code>ChangeListener</code> to the model.

@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.java.awt.peer;
 
-
 import java.desktop.share.classes.java.awt.Image;
 import java.desktop.share.classes.java.awt.PopupMenu;
 import java.desktop.share.classes.java.awt.Taskbar;
 import java.desktop.share.classes.java.awt.Taskbar.Feature;
 import java.desktop.share.classes.java.awt.Taskbar.State;
 import java.desktop.share.classes.java.awt.Window;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code TaskbarPeer} interface provides methods for interacting with

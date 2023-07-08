@@ -21,23 +21,8 @@
 
 package jdk.compiler.share.classes.com.sun.source.util;
 
-
 import jdk.compiler.share.classes.com.sun.source.tree.*;
 import jdk.internal.javac.PreviewFeature;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A TreeVisitor that visits all the child tree nodes.
@@ -138,7 +123,6 @@ public class TreeScanner<R,P> implements TreeVisitor<R,P> {
     public R reduce(R r1, R r2) {
         return r1;
     }
-
 
 /* ***************************************************************************
  * Visitor methods

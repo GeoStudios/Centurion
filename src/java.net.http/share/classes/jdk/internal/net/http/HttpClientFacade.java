@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.lang.ref.Reference;
 import java.net.Authenticator;
@@ -41,20 +40,6 @@ import java.net.http.HttpResponse.PushPromiseHandler;
 import java.net.http.Webjava.net.java.net.java.net.Socket;
 import java.net.http.share.classes.jdk.internal.net.http.common.OperationTrackers.Trackable;
 import java.net.http.share.classes.jdk.internal.net.http.common.OperationTrackers.Tracker;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An HttpClientFacade is a simple class that wraps an HttpClient implementation

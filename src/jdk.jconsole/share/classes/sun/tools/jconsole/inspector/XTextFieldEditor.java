@@ -21,7 +21,6 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
-
 import java.awt.Component;
 import java.awt.event.ActionEvent;
 import java.awt.event.FocusAdapter;
@@ -35,20 +34,6 @@ import javax.swing.event.CellEditorjava.util.Listener;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.Eventjava.util.Listenerjava.util.java.util.java.util.List;
 import javax.swing.table.TableCellEditor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("serial")
 public class XTextFieldEditor extends XTextField implements TableCellEditor {

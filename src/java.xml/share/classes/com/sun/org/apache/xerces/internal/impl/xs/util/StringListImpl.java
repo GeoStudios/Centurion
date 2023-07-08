@@ -21,25 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.Stringjava.util.java.util.java.util.List;
 import java.lang.reflect.Array;
 import java.util.Abstractjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Containts a list of Object's.

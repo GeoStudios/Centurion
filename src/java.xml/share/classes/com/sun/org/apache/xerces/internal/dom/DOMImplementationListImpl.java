@@ -21,25 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMImplementation;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMImplementationjava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>This class implements the DOM Level 3 Core interface DOMImplementationList.</p>

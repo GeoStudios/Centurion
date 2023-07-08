@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.security.cert;
 
-
 import java.base.share.classes.java.io.InputStream;
 import java.base.share.classes.java.util.Collection;
 import java.base.share.classes.java.util.Iterator;
@@ -29,20 +28,6 @@ import java.base.share.classes.java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.security.Provider;
 import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.base.share.classes.java.security.NoSuchProviderException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class defines the <i>Service Provider Interface</i> (<b>SPI</b>)

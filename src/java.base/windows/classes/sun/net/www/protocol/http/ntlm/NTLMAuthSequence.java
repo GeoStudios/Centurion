@@ -21,23 +21,8 @@
 
 package java.base.windows.classes.sun.net.www.protocol.http.ntlm;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Base64;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Hooks into Windows implementation of NTLM.

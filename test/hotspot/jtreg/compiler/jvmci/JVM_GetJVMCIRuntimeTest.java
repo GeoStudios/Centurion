@@ -21,22 +21,8 @@
 
 package compiler.jvmci;
 
-
 import jdk.test.lib.Asserts;
 import jdk.vm.ci.runtime.JVMCI;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -65,8 +51,6 @@ import jdk.vm.ci.runtime.JVMCI;
  *      compiler.jvmci.JVM_GetJVMCIRuntimeTest
 
  */
-
-
 
 public class JVM_GetJVMCIRuntimeTest implements Runnable {
     private static final boolean IS_POSITIVE = Boolean.getBoolean(

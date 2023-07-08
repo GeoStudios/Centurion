@@ -21,25 +21,10 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class for recording assumptions made during compilation.

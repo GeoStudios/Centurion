@@ -21,25 +21,10 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.peer.*;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class XScrollbarPeer extends XComponentPeer implements ScrollbarPeer, XScrollbarClient {
     private static final PlatformLogger log = PlatformLogger.getLogger("sun.awt.X11.XScrollbarPeer");
@@ -145,7 +130,6 @@ class XScrollbarPeer extends XComponentPeer implements ScrollbarPeer, XScrollbar
         int y = mouseEvent.getY();
         int modifiers = mouseEvent.getModifiers();
         int id = mouseEvent.getID();
-
 
         if ((mouseEvent.getModifiers() & InputEvent.BUTTON1_MASK) == 0) {
             return;

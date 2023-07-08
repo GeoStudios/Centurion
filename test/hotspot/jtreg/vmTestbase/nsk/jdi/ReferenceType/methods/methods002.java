@@ -21,26 +21,12 @@
 
 package nsk.jdi.ReferenceType.methods;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This test checks the method <code>methods()</code>
@@ -119,7 +105,6 @@ public class methods002 {
 
         Debugee debugee = binder.bindToDebugee(debugee_launch_command);
         IOPipe pipe = new IOPipe(debugee);
-
 
         debugee.redirectStderr(out);
         print_log_on_verbose("--> methods002: methods002a debugee launched");

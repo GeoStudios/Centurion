@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 6724218
@@ -45,7 +30,6 @@ package compiler.c2;
  *      -XX:CompileCommand=exclude,compiler.c2.Test6724218::update
  *      compiler.c2.Test6724218
  */
-
 
 public class Test6724218 {
     Test6724218 next  = null;

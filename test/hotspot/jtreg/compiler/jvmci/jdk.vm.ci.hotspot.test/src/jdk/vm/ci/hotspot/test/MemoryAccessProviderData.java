@@ -21,7 +21,6 @@
 
 package jdk.vm.ci.hotspot.test;
 
-
 import java.lang.reflect.Field;
 import org.testng.annotations.DataProvider;
 import sun.hotspot.WhiteBox;
@@ -39,19 +38,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.HashMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class MemoryAccessProviderData {
     private static final Unsafe UNSAFE = Unsafe.getUnsafe();
@@ -71,7 +57,6 @@ public class MemoryAccessProviderData {
         new KindData(JavaKind.Double, TEST_OBJECT)
     };
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();
-
 
     @DataProvider(name = "positiveObject")
     public static Object[][] getPositiveObjectJavaKind() {
@@ -148,7 +133,6 @@ public class MemoryAccessProviderData {
                         new Object[]{JavaKind.Illegal, JavaConstant.INT_1}};
     }
 
-
     private static class TestClass {
         public final boolean booleanField = true;
         public final byte byteField = 2;
@@ -170,7 +154,6 @@ public class MemoryAccessProviderData {
         public static final char charStaticField = 'a';
         public static final String objectStaticField = "abc";
     }
-
 
     static class KindData {
         final JavaKind kind;

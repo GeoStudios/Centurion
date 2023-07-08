@@ -21,21 +21,6 @@
 
 package compiler.loopopts;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8263352
@@ -46,7 +31,6 @@ package compiler.loopopts;
  *                   compiler.loopopts.TestOptimizeFillWithStripMinedLoop
  *
  */
-
 
 public class TestOptimizeFillWithStripMinedLoop {
 

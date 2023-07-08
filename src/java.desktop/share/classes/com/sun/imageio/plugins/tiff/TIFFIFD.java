@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
-
 import java.io.EOFException;
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -38,20 +37,6 @@ import javax.imageio.plugins.tiff.TIFFDirectory;
 import javax.imageio.plugins.tiff.TIFFField;
 import javax.imageio.plugins.tiff.TIFFTag;
 import javax.imageio.plugins.tiff.TIFFTagSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class TIFFIFD extends TIFFDirectory {
     private static final long MAX_SAMPLES_PER_PIXEL = 0xffff;

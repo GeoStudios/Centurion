@@ -21,30 +21,13 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMImplementation;
 import java.xml.share.classes.com.sun.org.w3c.dom.DocumentType;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * The DOMImplementation class is description of a particular

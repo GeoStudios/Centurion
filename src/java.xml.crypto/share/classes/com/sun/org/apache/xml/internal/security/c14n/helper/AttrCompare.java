@@ -21,32 +21,15 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.helper;
 
-
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.Constants;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Attr;
 import java.io.Serializable;
 import java.util.Comparator;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Compares two attributes based on the C14n specification.

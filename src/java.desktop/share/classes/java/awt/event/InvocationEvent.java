@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.java.awt.event;
 
-
 import java.desktop.share.classes.java.awt.AWTEvent;
 import java.desktop.share.classes.java.awt.ActiveEvent;
 import java.desktop.share.classes.java.io.Serial;
 import sun.awt.AWTAccessor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An event which executes the {@code run()} method on a {@code Runnable

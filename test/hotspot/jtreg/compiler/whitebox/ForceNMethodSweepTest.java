@@ -21,23 +21,9 @@
 
 package compiler.whitebox;
 
-
 import jdk.test.lib.Asserts;
 import sun.hotspot.code.BlobType;
 import java.util.EnumSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -58,9 +44,6 @@ import java.util.EnumSet;
  *                   -XX:+IgnoreUnrecognizedVMOptions -XX:+UnlockExperimentalVMOptions -XX:+EagerJVMCI
  *                   compiler.whitebox.ForceNMethodSweepTest
  */
-
-
-
 
 public class ForceNMethodSweepTest extends CompilerWhiteBoxTest {
     public static void main(String[] args) throws Exception {

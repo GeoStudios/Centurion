@@ -21,7 +21,6 @@
 
 package gc.logging;
 
-
 import jdk.test.lib.Utils;
 import javax.management.InstanceNotFoundException;
 import javax.management.MBeanException;
@@ -34,19 +33,6 @@ import java.lang.management.ManagementFactory;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Random;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test TestUnifiedLoggingSwitchStress
@@ -205,7 +191,6 @@ class LogLevelSwitcher implements Runnable {
         System.out.println("Log Switcher finished");
     }
 }
-
 
 public class TestUnifiedLoggingSwitchStress {
     /**

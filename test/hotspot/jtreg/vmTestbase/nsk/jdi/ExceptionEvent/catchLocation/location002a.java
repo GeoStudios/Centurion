@@ -21,25 +21,11 @@
 
 package nsk.jdi.ExceptionEvent.catchLocation;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import java.io.*;
 import java.lang.Integer.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // This class is the debugged application in the test
 

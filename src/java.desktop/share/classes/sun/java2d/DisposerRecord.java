@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class is used to hold the resource to be
  * disposed.

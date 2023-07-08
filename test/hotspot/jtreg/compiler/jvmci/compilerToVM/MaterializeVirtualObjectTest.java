@@ -21,7 +21,6 @@
 
 package compiler.jvmci.compilerToVM;
 
-
 import compiler.jvmci.common.CTVMUtilities;
 import compiler.testlibrary.CompilerUtils;
 import compiler.whitebox.CompilerWhiteBoxTest;
@@ -33,19 +32,6 @@ import jdk.vm.ci.meta.ResolvedJavaMethod;
 import jtreg.SkippedException;
 import sun.hotspot.WhiteBox;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -118,9 +104,6 @@ import java.lang.reflect.Method;
  *                   -Dcompiler.jvmci.compilerToVM.MaterializeVirtualObjectTest.invalidate=true
  *                   compiler.jvmci.compilerToVM.MaterializeVirtualObjectTest
  */
-
-
-
 
 public class MaterializeVirtualObjectTest {
     private static final WhiteBox WB;

@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac;
 
-
 import java.io.File;
 import java.net.URI;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -43,20 +42,6 @@ import jdk.compiler.share.classes.com.sun.tools.sjavac.options.Options;
 import jdk.compiler.share.classes.com.sun.tools.sjavac.pubapi.PubApi;
 import jdk.compiler.share.classes.com.sun.tools.sjavac.server.CompilationSubResult;
 import jdk.compiler.share.classes.com.sun.tools.sjavac.server.SysInfo;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This transform compiles a set of packages containing Java sources.

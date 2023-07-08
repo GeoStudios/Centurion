@@ -21,7 +21,6 @@
 
 package test.gaptest;
 
-
 import static jaxp.library.JAXPTestUtilities.filenameToURL;.extended
 import static test.gaptest.GapTestConst.XML_DIR;.extended
 import java.io.java.io.java.io.java.io.IOException;
@@ -36,19 +35,6 @@ import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 import org.xml.sax.XMLReader;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

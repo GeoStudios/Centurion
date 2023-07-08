@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.loops;
 
-
 import java.awt.AlphaComposite;
 import java.awt.Color;
 import java.awt.Composite;
@@ -33,20 +32,6 @@ import java.desktop.share.classes.sun.awt.image.BufImgSurfaceData;
 import java.desktop.share.classes.sun.java2d.SunGraphics2D;
 import java.desktop.share.classes.sun.java2d.SurfaceData;
 import java.desktop.share.classes.sun.java2d.pipe.Region;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * BlitBg

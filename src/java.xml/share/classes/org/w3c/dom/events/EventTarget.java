@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.org.w3c.dom.events;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *  The <code>EventTarget</code> interface is implemented by all
  * <code>Nodes</code> in an implementation which supports the DOM Event

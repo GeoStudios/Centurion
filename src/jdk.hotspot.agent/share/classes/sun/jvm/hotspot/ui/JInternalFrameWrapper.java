@@ -21,25 +21,10 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class JInternalFrameWrapper implements FrameWrapper {
   private final JInternalFrame frame;

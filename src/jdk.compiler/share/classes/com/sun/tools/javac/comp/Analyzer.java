@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-
 import java.util.ArrayDeque;
 import java.base.share.classes.java.util.Arrays;
 import java.util.EnumSet;
@@ -87,20 +86,6 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.NEW
 import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.NULLCHK;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.TYPEAPPLY;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.VARDEF;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Helper class for defining custom code analysis, such as finding instance creation expression

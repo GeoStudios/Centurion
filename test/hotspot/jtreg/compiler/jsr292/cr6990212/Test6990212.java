@@ -21,23 +21,9 @@
 
 package compiler.jsr292.cr6990212;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -46,8 +32,6 @@ import java.lang.invoke.MethodType;
  *
  * @run main compiler.jsr292.cr6990212.Test6990212
  */
-
-
 
 interface intf {
     public Object target();

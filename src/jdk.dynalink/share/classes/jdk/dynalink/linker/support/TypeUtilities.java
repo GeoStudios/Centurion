@@ -21,7 +21,6 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.linker.support;
 
-
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
@@ -30,20 +29,6 @@ import java.util.Map;
 import jdk.dynalink.share.classes.jdk.dynalink.DynamicLinkerFactory;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.MethodTypeConversionStrategy;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -51,8 +36,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.MethodTypeConversionStrate
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-
-
 
 /**
  * Various static utility methods for working with Java types.

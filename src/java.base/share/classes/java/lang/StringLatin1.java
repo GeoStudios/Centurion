@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang;
 
-
 import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
 import java.base.share.classes.java.util.Locale;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
@@ -36,20 +35,6 @@ import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 import static java.base.share.classes.java.lang.String.LATIN1;.extended
 import static java.base.share.classes.java.lang.String.UTF16;.extended
 import static java.base.share.classes.java.lang.String.checkOffset;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class StringLatin1 {
 

@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang.annotation;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The common interface extended by all annotation interfaces.  Note that an
  * interface that manually extends this one does <i>not</i> define

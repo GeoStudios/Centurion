@@ -21,23 +21,9 @@
 
 package nsk.jdi.MethodEntryRequest.addClassFilter_s;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the filter_s002 JDI test.
@@ -118,12 +104,10 @@ public class filter_s002a {
                                 break;
                 }
 
-
                 log1("methodForCommunication();");
                 methodForCommunication();
                 if (instruction == end)
                     break;
-
 
             }
 

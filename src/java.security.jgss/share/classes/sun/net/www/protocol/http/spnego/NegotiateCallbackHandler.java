@@ -21,7 +21,6 @@
 
 package java.security.jgss.share.classes.sun.net.www.protocol.http.spnego;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.Authenticator;
 import java.net.PasswordAuthentication;
@@ -33,20 +32,6 @@ import javax.security.auth.callback.PasswordCallback;
 import javax.security.auth.callback.UnsupportedCallbackException;
 import java.security.jgss.share.classes.sun.net.www.protocol.http.HttpCallerInfo;
 import java.security.jgss.share.classes.sun.security.jgss.LoginConfigImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Special callback handler used in JGSS for the HttpCaller.

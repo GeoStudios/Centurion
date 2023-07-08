@@ -21,7 +21,6 @@
 
 package demo.share.jfc.SampleTree;
 
-
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
@@ -34,20 +33,6 @@ import java.awt.Font;
 import java.awt.Graphics;
 import javax.swing.UIManager;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -55,10 +40,6 @@ import javax.swing.UIManager;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
 
 @SuppressWarnings("serial")
 public class SampleTreeCellRenderer extends JLabel implements TreeCellRenderer {

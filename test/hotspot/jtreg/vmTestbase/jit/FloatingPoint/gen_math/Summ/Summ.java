@@ -21,21 +21,7 @@
 
 package jit.FloatingPoint.gen_math.Summ;
 
-
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -48,9 +34,7 @@ import nsk.share.TestFailure;
  * @run main/othervm jit.FloatingPoint.gen_math.Summ.Summ
  */
 
-
 // Test on sums/series
-
 
 public class Summ
 {
@@ -79,7 +63,6 @@ public class Summ
             }
     }
 
-
         public double sum1(int nn, double decr)
         {
            double An = 0.5;
@@ -90,6 +73,5 @@ public class Summ
            }
            return sum;
         }
-
 
 }

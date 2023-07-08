@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.util;
 
-
 import java.base.share.classes.java.lang.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The string tokenizer class allows an application to break a

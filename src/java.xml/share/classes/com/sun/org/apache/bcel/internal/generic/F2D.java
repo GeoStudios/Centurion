@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * F2D - Convert float to double
@@ -55,7 +38,6 @@ public class F2D extends ConversionInstruction {
     public F2D() {
         super(com.sun.org.apache.bcel.internal.Const.F2D);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

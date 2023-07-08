@@ -21,7 +21,6 @@
 
 package vm.mlvm.meth.share;
 
-
 import java.util.HashMap;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
@@ -29,19 +28,6 @@ import java.util.Map;
 import java.util.Map.Entry;
 import nsk.share.test.TestUtils;
 import vm.mlvm.share.Env;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class TestTypes {
 
@@ -239,7 +225,6 @@ public class TestTypes {
                 if ( dryRun ) {
                     if ( ! BOX_MAP.values().contains(exactFromType) )
                         return false;
-
 
                 }
 

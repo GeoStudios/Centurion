@@ -21,21 +21,7 @@
 
 package nsk.stress.thread;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -49,8 +35,6 @@ import java.io.PrintStream;
  *
  * @run main/othervm nsk.stress.thread.thread005 500 2m 5s
  */
-
-
 
 /**
  * Try many threads starting simultaneously.

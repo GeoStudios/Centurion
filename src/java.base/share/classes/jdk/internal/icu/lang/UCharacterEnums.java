@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.icu.lang;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // CHANGELOG
 //      2005-05-19 Edward Wang
 //          - copy this file from icu4jsrc_3_2/src/com/ibm/icu/lang/UCharacterEnums.java
@@ -58,8 +42,6 @@ package java.base.share.classes.jdk.internal.icu.lang;
 //              DIRECTIONALITY_POP_DIRECTIONAL_FORMAT, DIRECTIONALITY_NON_SPACING_MARK,
 //              DIRECTIONALITY_BOUNDARY_NEUTRAL, DIRECTIONALITY_UNDEFINED
 //
-
-
 
 /**
  * A container for the different 'enumerated types' used by UCharacter.

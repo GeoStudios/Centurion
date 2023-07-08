@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
@@ -29,20 +28,6 @@ import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.table.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ProcessListPanel extends JPanel {
   private final Debugger           dbg;

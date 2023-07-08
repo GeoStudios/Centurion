@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
-
 import static jdk.jfr.share.classes.jdk.jfr.internal.LogLevel.DEBUG;.extended
 import static jdk.jfr.share.classes.jdk.jfr.internal.LogTag.JFR_SYSTEM;.extended
 import java.io.ByteArrayOutputStream;
@@ -44,20 +43,6 @@ import jdk.jfr.share.classes.jdk.jfr.ValueDescriptor;
 import jdk.jfr.share.classes.jdk.jfr.internal.RequestEngine.RequestHook;
 import jdk.jfr.share.classes.jdk.jfr.internal.consumer.RepositoryFiles;
 import jdk.jfr.share.classes.jdk.jfr.internal.handlers.EventHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class MetadataRepository {
 
@@ -206,7 +191,6 @@ public final class MetadataRepository {
         Utils.setHandler(eventClass, handler);
         return handler;
     }
-
 
     public synchronized void setSettings(List<Map<String, String>> list) {
         settingsManager.setSettings(list);

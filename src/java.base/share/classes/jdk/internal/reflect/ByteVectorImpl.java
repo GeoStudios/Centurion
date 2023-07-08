@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.reflect;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class ByteVectorImpl implements ByteVector {
     private byte[] data;
     private int pos;

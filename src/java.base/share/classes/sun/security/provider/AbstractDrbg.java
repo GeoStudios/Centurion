@@ -21,26 +21,11 @@
 
 package java.base.share.classes.sun.security.provider;
 
-
 import java.base.share.classes.sun.security.util.Debug;
 import java.base.share.classes.java.security.*;
 import java.base.share.classes.java.util.Arrays;
 import java.base.share.classes.java.util.Objects;
 import static java.security.DrbgParameters.Capability.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The abstract base class for all DRBGs. It is used as {@link DRBG#impl}.
@@ -177,7 +162,6 @@ public abstract class AbstractDrbg {
      * {@link Integer#MAX_VALUE}.
      */
     protected int reseedInterval = Integer.MAX_VALUE;
-
 
     /**
      * Algorithm used by this instance (SHA-512 or AES-256). Must be assigned

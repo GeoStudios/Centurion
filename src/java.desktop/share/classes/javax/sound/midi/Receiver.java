@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.sound.midi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A {@code Receiver} receives {@link MidiEvent} objects and typically does
  * something useful in response, such as interpreting them to generate sound or

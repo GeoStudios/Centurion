@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.geom.Point2D;
 import java.desktop.share.classes.java.beans.Transient;
 import java.desktop.share.classes.java.io.Serial;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A point representing a location in {@code (x,y)} coordinate space,

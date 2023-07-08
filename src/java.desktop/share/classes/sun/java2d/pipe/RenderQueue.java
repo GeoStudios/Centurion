@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.sun.java2d.pipe;
 
-
 import java.util.HashSet;
 import java.util.Set;
 import java.desktop.share.classes.sun.awt.SunToolkit;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The RenderQueue class encapsulates a RenderBuffer on which rendering

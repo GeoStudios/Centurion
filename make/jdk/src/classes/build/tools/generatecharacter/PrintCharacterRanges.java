@@ -21,56 +21,6 @@
 
 package build.tools.generatecharacter;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Recovers and prints ranges for certain java.lang.Character
     properties. Useful for generating fast-path Latin-1 code. */
 

@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-
 import javax.lang.model.element.Element;
 import javax.lang.model.element.PackageElement;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.BodyContents;
@@ -35,20 +34,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Class
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFilejava.io.java.io.java.io.IOException;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPath;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPaths;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class to generate Tree page for a package. The name of the file generated is

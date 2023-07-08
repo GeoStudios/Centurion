@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-
 import java.desktop.windows.classes.com.sun.java.awt.Color;
 import java.desktop.windows.classes.com.sun.java.awt.Component;
 import java.desktop.windows.classes.com.sun.java.awt.Dimension;
@@ -46,20 +45,6 @@ import java.desktop.windows.classes.com.sun.awt.AppContext;
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Part;.extended
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.State;.extended
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.Skin;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Windows button.
@@ -91,7 +76,6 @@ public class WindowsButtonUI extends BasicButtonUI
         }
         return windowsButtonUI;
     }
-
 
     // ********************************
     //            Defaults
@@ -165,7 +149,6 @@ public class WindowsButtonUI extends BasicButtonUI
         }
         return d;
     }
-
 
     /* These rectangles/insets are allocated once for all
      * ButtonUI.paint() calls.  Re-using rectangles rather than

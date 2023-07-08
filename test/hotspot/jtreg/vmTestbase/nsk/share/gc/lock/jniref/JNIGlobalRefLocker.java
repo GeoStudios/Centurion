@@ -21,22 +21,8 @@
 
 package nsk.share.gc.lock.jniref;
 
-
 import nsk.share.gc.lock.CriticalSectionObjectLocker;
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Locker that uses JNI function NewGlobalRef.

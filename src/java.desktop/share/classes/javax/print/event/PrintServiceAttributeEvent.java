@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.print.event;
 
-
 import java.io.Serial;
 import java.desktop.share.classes.javax.print.PrintService;
 import java.desktop.share.classes.javax.print.attribute.AttributeSetUtilities;
 import java.desktop.share.classes.javax.print.attribute.PrintServiceAttributeSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class {@code PrintServiceAttributeEvent} encapsulates an event a Print

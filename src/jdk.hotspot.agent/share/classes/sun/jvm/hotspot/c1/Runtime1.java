@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.c1;
 
-
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
@@ -29,20 +28,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Currently a minimal port to get C1 frame traversal working */
 

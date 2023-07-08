@@ -21,22 +21,8 @@
 
 package compiler.loopstripmining;
 
-
 import jdk.test.lib.Utils;
 import jdk.test.lib.process.ProcessTools;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -47,8 +33,6 @@ import jdk.test.lib.process.ProcessTools;
  * @library /test/lib
  * @run driver compiler.loopstripmining.CheckLoopStripMining
  */
-
-
 
 public class CheckLoopStripMining {
     public static void main(String args[]) throws Exception {

@@ -21,21 +21,6 @@
 
 package compiler.runtime;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 6826736
@@ -48,7 +33,6 @@ package compiler.runtime;
  *      -XX:CompileCommand=compileonly,compiler.runtime.Test6826736::test
  *      compiler.runtime.Test6826736
  */
-
 
 public class Test6826736 {
     int[] arr;

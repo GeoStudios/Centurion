@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 6916644
@@ -45,7 +30,6 @@ package compiler.c2;
  *      -XX:CompileCommand=compileonly,compiler.c2.Test6916644::test
  *      compiler.c2.Test6916644
  */
-
 
 public class Test6916644 {
     static int result;

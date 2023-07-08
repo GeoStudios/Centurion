@@ -21,7 +21,6 @@
 
 package test.java.lang.invoke;
 
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.lang.invoke.MethodHandle;
@@ -30,29 +29,11 @@ import java.lang.invoke.MethodType;
 import static java.lang.invoke.MethodHandles.dropArguments;.extended
 import static java.lang.invoke.MethodHandles.identity;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* @test
  * @bug 8184119
  * @summary test permutation when return value is directly derived from an argument
  * @run testng/othervm test.java.lang.invoke.PermuteArgsReturnVoidTest
  */
-
-
-
-
-
 
 public class PermuteArgsReturnVoidTest {
 

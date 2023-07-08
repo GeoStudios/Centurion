@@ -21,26 +21,11 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Serializable;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLErrorResources;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLMessages;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class to represent a Uniform Resource Identifier (URI). This class

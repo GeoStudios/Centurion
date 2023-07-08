@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Thrown to indicate that a method has been passed an illegal or
  * inappropriate argument.

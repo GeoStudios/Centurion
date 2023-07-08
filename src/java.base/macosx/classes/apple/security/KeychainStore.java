@@ -112,7 +112,6 @@ public final class KeychainStore extends KeyStoreSpi {
         }
     }
 
-
     /**
      * Verify the Apple provider in the constructor.
      *
@@ -1120,7 +1119,6 @@ public final class KeychainStore extends KeyStoreSpi {
 
         return key;
     }
-
 
 }
 

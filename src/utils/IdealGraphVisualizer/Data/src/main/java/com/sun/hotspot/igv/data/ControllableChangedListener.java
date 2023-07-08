@@ -21,29 +21,12 @@
 
 package utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *
  */
 public abstract class ControllableChangedListener<T> implements ChangedListener<T>{
 
     private boolean enabled;
-
 
     public ControllableChangedListener() {
         enabled = true;

@@ -21,7 +21,6 @@
 
 package nsk.jdi.ObjectReference.invokeMethod;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -167,7 +153,6 @@ public class invokemethod001 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -218,7 +203,6 @@ public class invokemethod001 {
             String bpLine1 = "breakpointLineNumber1";
             //String bpLine2 = "breakpointLineNumber2";
             //String bpLine3 = "breakpointLineNumber3";
-
 
             List            allThreads   = null;
             ListIterator    listIterator = null;
@@ -352,7 +336,6 @@ public class invokemethod001 {
                                      FloatValue flValue = (FloatValue) returnValue;
                                      break;
 
-
                              case 5:
                                      IntegerValue inValue = (IntegerValue) returnValue;
                                      break;
@@ -418,7 +401,6 @@ public class invokemethod001 {
         return testExitCode;
     }
 
-
    /*
     * private BreakpointRequest settingBreakpoint(String, String, String)
     *
@@ -474,7 +456,6 @@ public class invokemethod001 {
 
         return breakpRequest;
     }
-
 
     /*
      * private int breakpoint ()

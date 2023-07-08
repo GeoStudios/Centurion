@@ -21,22 +21,7 @@
 
 package java.base.share.classes.jdk.internal.icu.text;
 
-
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Normalization filtered by a UnicodeSet.

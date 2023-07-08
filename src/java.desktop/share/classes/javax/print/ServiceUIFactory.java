@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.print;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Services may optionally provide UIs which allow different styles of
  * interaction in different roles. One role may be end-user browsing and setting

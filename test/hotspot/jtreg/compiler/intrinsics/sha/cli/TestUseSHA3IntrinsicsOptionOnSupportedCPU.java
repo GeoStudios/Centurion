@@ -21,21 +21,7 @@
 
 package compiler.intrinsics.sha.cli;
 
-
 import compiler.intrinsics.sha.cli.testcases.GenericTestCaseForSupportedCPU;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -50,8 +36,6 @@ import compiler.intrinsics.sha.cli.testcases.GenericTestCaseForSupportedCPU;
  *                   -XX:+WhiteBoxAPI
  *                   compiler.intrinsics.sha.cli.TestUseSHA3IntrinsicsOptionOnSupportedCPU
  */
-
-
 
 public class TestUseSHA3IntrinsicsOptionOnSupportedCPU {
     public static void main(String args[]) throws Throwable {

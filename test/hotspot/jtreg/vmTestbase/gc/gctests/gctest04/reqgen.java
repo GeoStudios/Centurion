@@ -21,22 +21,8 @@
 
 package gc.gctests.gctest04;
 
-
 import nsk.share.test.*;
 import nsk.share.gc.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //reqgen.java
 
@@ -225,7 +211,6 @@ class  reqdisp extends Thread {
         catch (InterruptedException e) {}
     }
   }
-
 
 }
 

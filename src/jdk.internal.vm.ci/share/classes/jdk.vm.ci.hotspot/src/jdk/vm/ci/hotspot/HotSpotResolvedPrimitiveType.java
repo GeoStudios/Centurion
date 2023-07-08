@@ -21,7 +21,6 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
 
-
 import static java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Modifier;
@@ -34,20 +33,6 @@ import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.Jav
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.ResolvedJavaField;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.ResolvedJavaMethod;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.ResolvedJavaType;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation of {@link JavaType} for primitive HotSpot types.

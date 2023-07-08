@@ -21,22 +21,7 @@
 
 package jdk.jdi.share.classes.com.sun.jdi.connect.spi;
 
-
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A connection between a debugger and a target VM which it debugs.

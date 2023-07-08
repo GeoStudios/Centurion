@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.axes;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.Axis;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMFilter;
@@ -37,20 +36,6 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns.Functio
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns.NodeTest;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns.StepPattern;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is both a factory for XPath location path expressions,
@@ -1545,7 +1530,6 @@ public class WalkerFactory
            && !isAbsolute(analysis)
            ;
   }
-
 
   public static boolean walksUpOnly(int analysis)
   {

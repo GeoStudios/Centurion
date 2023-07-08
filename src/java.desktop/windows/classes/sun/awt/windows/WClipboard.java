@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
-
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.UnsupportedFlavorException;
@@ -29,20 +28,6 @@ import java.io.java.io.java.io.java.io.IOException;
 import java.util.Map;
 import java.desktop.windows.classes.sun.awt.datatransfer.DataTransferer;
 import java.desktop.windows.classes.sun.awt.datatransfer.SunClipboard;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class which interfaces with the Windows clipboard in order to support

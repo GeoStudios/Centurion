@@ -21,33 +21,16 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SAXMessageFormatter;
 import java.base.share.classes.java.util.Locale;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXParseException;
 import java.xml.share.classes.com.sun.org.xml.sax.helpers.DefaultHandler;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  */

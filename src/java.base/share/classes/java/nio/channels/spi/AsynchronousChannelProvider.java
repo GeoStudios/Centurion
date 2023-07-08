@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.nio.channels.spi;
 
-
 import java.base.share.classes.java.nio.channels.*;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.Iterator;
@@ -30,20 +29,6 @@ import java.base.share.classes.java.util.ServiceConfigurationError;
 import java.base.share.classes.java.util.concurrent.*;
 import java.base.share.classes.java.security.AccessController;
 import java.base.share.classes.java.security.PrivilegedAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Service-provider class for asynchronous channels.

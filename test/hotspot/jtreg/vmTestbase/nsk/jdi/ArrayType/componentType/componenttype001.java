@@ -21,26 +21,12 @@
 
 package nsk.jdi.ArrayType.componentType;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -205,7 +191,6 @@ public class componenttype001 {
                         }
 
                         break;
-
 
                 case 1 :          // InterfaceType array
 

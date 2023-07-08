@@ -21,23 +21,9 @@
 
 package selectionresolution;
 
-
 import jdk.internal.org.objectweb.asm.Opcodes;
 import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PUBLIC;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.ACC_STATIC;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class TestBuilder extends Builder {
     private final ClassConstruct testClass;

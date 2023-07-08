@@ -21,25 +21,9 @@
 
 package compiler.classUnloading.methodUnloading;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Worker class that is dynamically loaded/unloaded by TestMethodUnloading.
  */
-
 
 public class WorkerClass {
     /**

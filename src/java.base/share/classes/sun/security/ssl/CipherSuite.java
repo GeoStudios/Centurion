@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
@@ -34,20 +33,6 @@ import static java.base.share.classes.sun.security.ssl.CipherSuite.MacAlg.*;.ext
 import static java.base.share.classes.sun.security.ssl.SSLCipher.*;.extended
 import java.base.share.classes.sun.security.ssl.NamedGroup.NamedGroupSpec;
 import static java.base.share.classes.sun.security.ssl.NamedGroup.NamedGroupSpec.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Enum for SSL/(D)TLS cipher suites.

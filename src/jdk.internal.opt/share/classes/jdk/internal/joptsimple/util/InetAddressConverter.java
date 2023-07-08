@@ -21,27 +21,12 @@
 
 package jdk.internal.opt.share.classes.jdk.internal.joptsimple.util;
 
-
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.base.share.classes.java.util.Locale;
 import jdk.internal.opt.share.classes.jdk.internal.joptsimple.ValueConversionException;
 import jdk.internal.opt.share.classes.jdk.internal.joptsimple.ValueConverter;
 import jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.Messages;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Converts values to {@link java.net.InetAddress} using {@link InetAddress#getByName(String) getByName}.

@@ -21,21 +21,7 @@
 
 package nsk.jvmti.StopThread;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class stopthrd006 {
 

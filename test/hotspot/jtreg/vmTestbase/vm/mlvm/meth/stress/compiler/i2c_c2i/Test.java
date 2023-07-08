@@ -21,7 +21,6 @@
 
 package vm.mlvm.meth.stress.compiler.i2c_c2i;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
@@ -32,19 +31,6 @@ import vm.mlvm.meth.share.RandomArgumentsGen;
 import vm.mlvm.meth.share.transform.v2.MHMacroTF;
 import vm.mlvm.share.Env;
 import vm.mlvm.share.MlvmTest;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -76,9 +62,6 @@ import vm.mlvm.share.MlvmTest;
  *
  * @run main/othervm vm.mlvm.meth.stress.compiler.i2c_c2i.Test
  */
-
-
-
 
 // TODO: check that i2c/c2i adapters are really created
 // TODO: check deopt using vm.mlvm.share.comp framework

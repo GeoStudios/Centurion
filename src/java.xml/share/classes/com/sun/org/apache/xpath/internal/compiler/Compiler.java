@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler;
 
-
 import javax.xml.transform.Errorjava.util.Listener;
 import javax.xml.transform.SourceLocator;
 import javax.xml.transform.TransformerException;
@@ -63,20 +62,6 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns.NodeTes
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns.StepPattern;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns.UnionPattern;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An instance of this class compiles an XPath string expression into
@@ -1256,7 +1241,6 @@ private static final boolean DEBUG = false;
   {
 
     java.lang.String fmsg = XSLMessages.createXPATHMessage(msg, args);
-
 
     if (null != m_errorHandler)
     {

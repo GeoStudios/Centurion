@@ -21,7 +21,6 @@
 
 package ir_framework.tests;
 
-
 import compiler.lib.ir_framework.*;
 import compiler.lib.ir_framework.Compiler;
 import compiler.lib.ir_framework.shared.TestFormatException;
@@ -34,19 +33,6 @@ import java.base.share.classes.java.util.Arrays;
 import java.util.java.util.java.util.java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -772,7 +758,6 @@ class BadIRAnnotations {
     @IR(failOn = IRNode.CALL, applyIfNot = {"TLABRefillWasteFraction", "<"})
     public void applyIfNotFaultyComparator() {}
 
-
     @FailCount(2)
     @Test
     @IR(failOn = IRNode.CALL, applyIfAnd = {"TLABRefillWasteFraction", "50"})
@@ -865,7 +850,6 @@ class BadIRAnnotations {
     @IR(failOn = IRNode.CALL, applyIfOr = {"TLABRefillWasteFraction", "<", "TLABRefillWasteFraction", "!="})
     public void applyIfOrFaultyComparator() {}
 
-
     @Test
     @FailCount(3)
     @IR(failOn = IRNode.CALL, applyIf = {"TLABRefillWasteFraction", "true"})
@@ -918,7 +902,6 @@ class BadInnerClassTest {
         @Run(test = "noTestInInnerClass3")
         public void checkNoTestInInnerClass3() {}
     }
-
 
     static class StaticInnerClass {
         @Test

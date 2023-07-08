@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.security;
 
-
 import java.base.share.classes.java.io.Serializable;
 import java.base.share.classes.java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>This class represents identities: real-world objects such as people,
@@ -284,7 +269,6 @@ public abstract class Identity implements Principal, Serializable {
         return java.util.Arrays.equals(aKey.getEncoded(),
                                      anotherKey.getEncoded());
     }
-
 
     /**
      * Removes a certificate from this identity.

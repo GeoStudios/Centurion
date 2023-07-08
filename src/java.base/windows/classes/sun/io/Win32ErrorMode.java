@@ -21,22 +21,6 @@
 
 package java.base.windows.classes.sun.io;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Used to set the Windows error mode at VM initialization time.
  * <p>

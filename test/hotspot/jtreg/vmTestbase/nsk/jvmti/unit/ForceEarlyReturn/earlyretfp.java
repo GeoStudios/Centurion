@@ -21,22 +21,8 @@
 
 package nsk.jvmti.unit.ForceEarlyReturn;
 
-
 import java.io.PrintStream;
 import nsk.share.Consts;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class earlyretfp {
 

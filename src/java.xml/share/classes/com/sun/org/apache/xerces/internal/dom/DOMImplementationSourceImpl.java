@@ -21,27 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.StringTokenizer;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMImplementation;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMImplementationjava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMImplementationSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Supply one the right implementation, based upon requested features. Each

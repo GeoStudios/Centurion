@@ -21,21 +21,7 @@
 
 package subpackage;
 
-
 import java.lang.annotation.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @Retention(RetentionPolicy.RUNTIME)
 public @interface NonRepeated {

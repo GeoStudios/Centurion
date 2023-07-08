@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt.font;
 
-
 import java.desktop.share.classes.java.awt.Color;
 import java.desktop.share.classes.java.awt.Font;
 import java.desktop.share.classes.java.awt.Graphics2D;
@@ -54,20 +53,6 @@ import sun.font.LayoutPathImpl.SegmentPathBuilder;
 import sun.font.TextLabelFactory;
 import sun.font.TextLineComponent;
 import java.desktop.share.classes.java.awt.geom.Line2D;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class TextLine {
 
@@ -1185,7 +1170,6 @@ final class TextLine {
         return componentOrder;
     }
 
-
     /**
      * Create a TextLine from the text.  chars is just the text in the iterator.
      */
@@ -1208,8 +1192,6 @@ final class TextLine {
         }
         return createLineFromText(chars, styledParagraph, factory, isDirectionLTR, baselineOffsets);
     }
-
-
 
     /*
      * A utility to get a range of text that is both logically and visually

@@ -21,25 +21,10 @@
 
 package utils.IdealGraphVisualizer.Bytecodes.src.main.java.com.sun.hotspot.igv.bytecodes;
 
-
 import utils.IdealGraphVisualizer.Bytecodes.src.main.java.awt.event.ActionEvent;
 import javax.swing.AbstractAction;
 import org.openide.util.NbBundle;
 import org.openide.windows.TopComponent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  */

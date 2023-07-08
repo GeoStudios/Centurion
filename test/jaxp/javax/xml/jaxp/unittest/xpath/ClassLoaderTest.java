@@ -21,25 +21,11 @@
 
 package xpath;
 
-
 import static jaxp.library.JAXPTestUtilities.runWithAllPerm;.extended
 import javax.xml.xpath.XPathFactory;
 import org.testng.Assert;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

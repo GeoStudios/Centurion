@@ -21,23 +21,8 @@
 
 package jdk.localedata.share.classes.sun.text.resources.ext;
 
-
 import java.util.ResourceBundle;
 import jdk.localedata.share.classes.sun.util.resources.BreakIteratorResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class BreakIteratorResources_th extends BreakIteratorResourceBundle {
     @Override

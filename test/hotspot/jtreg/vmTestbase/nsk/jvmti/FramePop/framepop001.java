@@ -21,21 +21,7 @@
 
 package nsk.jvmti.FramePop;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class framepop001 {
 

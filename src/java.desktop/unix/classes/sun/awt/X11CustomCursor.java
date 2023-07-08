@@ -21,25 +21,10 @@
 
 package java.desktop.unix.classes.sun.awt;
 
-
 import java.desktop.unix.classes.sun.awt.CustomCursor;
 import java.awt.*;
 import java.awt.image.*;
 import java.desktop.unix.classes.sun.awt.image.ImageRepresentation;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class to encapsulate a custom image-based cursor.
@@ -144,7 +129,6 @@ public abstract class X11CustomCursor extends CustomCursor {
         int bcr = (bc >> 16) & 0x000000ff;
         int bcg = (bc >>  8) & 0x000000ff;
         int bcb = (bc >>  0) & 0x000000ff;
-
 
         // On Solaris 2.5.x, the above code for cursor of any size runs fine
         // but on Solaris 2.6, the width of a cursor has to be 8 divisible,

@@ -21,7 +21,6 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.jdeps;
 
-
 import java.io.PrintWriter;
 import java.util.ArrayDeque;
 import java.util.Collections;
@@ -33,20 +32,6 @@ import java.util.Set;
 import java.util.function.Consumer;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class Graph<T> {
     private final Set<T> nodes;

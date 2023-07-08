@@ -21,24 +21,9 @@
 
 package java.base.share.classes.jdk.internal.util.xml.impl;
 
-
 import java.io.Reader;
 import java.io.InputStream;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * UTF-16 encoded stream reader.

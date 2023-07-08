@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-
 import java.desktop.share.classes.com.sun.java.awt.Color;
 import java.desktop.share.classes.com.sun.java.awt.Component;
 import java.desktop.share.classes.com.sun.java.awt.Container;
@@ -46,20 +45,6 @@ import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicComboBoxUI;
 import javax.swing.plaf.basic.BasicComboPopup;
 import javax.swing.plaf.basic.ComboPopup;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * ComboBox motif look and feel.
@@ -305,7 +290,6 @@ public class MotifComboBoxUI extends BasicComboBoxUI implements Serializable {
             this.darkShadow = darkShadow;
             this.fill = fill;
         }
-
 
         public void paintIcon(Component c, Graphics g, int xo, int yo) {
             int w = getIconWidth();

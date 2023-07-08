@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text.rtf;
 
-
 import java.lang.*;
 import java.util.*;
 import java.awt.Color;
@@ -29,20 +28,6 @@ import java.awt.Font;
 import java.io.OutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.desktop.share.classes.javax.swing.text.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Generates an RTF output stream (java.io.OutputStream) from rich text
@@ -305,7 +290,6 @@ public void writeLineBreak()
     afterKeyword = false;
 }
 
-
 public void writeRTFHeader()
     throws IOException
 {
@@ -425,7 +409,6 @@ public void writeRTFHeader()
             Boolean additive = (Boolean)style.getAttribute(Constants.StyleAdditive);
             if (additive != null && additive.booleanValue())
                 writeControlWord("additive");
-
 
             writeText(style.getName());
             writeText(";");

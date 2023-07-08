@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.font;
 
-
 import java.awt.FontFormatException;
 import java.awt.geom.GeneralPath;
 import java.awt.geom.Point2D;
@@ -30,20 +29,6 @@ import java.io.FileInputStream;
 import java.lang.ref.WeakReference;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class PhysicalFont extends Font2D {
 

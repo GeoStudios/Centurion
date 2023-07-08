@@ -21,25 +21,10 @@
 
 package java.desktop.macosx.classes.sun.lwawt;
 
-
 import java.awt.Component;
 import java.awt.Graphics;
 import java.desktop.macosx.classes.sun.awt.AWTAccessor;
 import java.desktop.macosx.classes.sun.awt.RepaintArea;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Emulates appearance of heavyweight components before call of the user code.

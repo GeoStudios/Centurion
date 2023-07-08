@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-
 import java.awt.AWTEvent;
 import java.awt.AWTException;
 import java.awt.BufferCapabilities;
@@ -53,20 +52,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.desktop.macosx.classes.sun.awt.AWTAccessor;
 import java.desktop.macosx.classes.sun.java2d.pipe.Region;
 import java.desktop.macosx.classes.sun.security.action.GetBooleanAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class CFileDialog implements FileDialogPeer {
 

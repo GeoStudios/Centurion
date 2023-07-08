@@ -21,31 +21,15 @@
 
 package test.java.lang.invoke;
 
-
 import org.testng.*;
 import static org.testng.AssertJUnit.*;.extended
 import org.testng.annotations.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* @test
  * @summary tests for class-specific values
  * @compile ClassValueTest.java
  * @run testng/othervm test.java.lang.invoke.ClassValueTest
  */
-
-
 
 /**
  * @author jrose

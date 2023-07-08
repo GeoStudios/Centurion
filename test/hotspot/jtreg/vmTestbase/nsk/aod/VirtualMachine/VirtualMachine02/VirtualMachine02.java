@@ -21,26 +21,12 @@
 
 package nsk.aod.VirtualMachine.VirtualMachine02;
 
-
 import com.sun.tools.attach.VirtualMachine;
 import com.sun.tools.attach.VirtualMachineDescriptor;
 import com.sun.tools.attach.spi.AttachProvider;
 import nsk.share.aod.AODTestRunner;
 import nsk.share.test.TestUtils;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -69,9 +55,6 @@ import java.io.java.io.java.io.java.io.IOException;
  *      -javaOpts="-XX:+UsePerfData ${test.vm.opts} ${test.java.opts}"
  *      -target nsk.share.aod.DummyTargetApplication
  */
-
-
-
 
 /*
  * Test checks following methods:

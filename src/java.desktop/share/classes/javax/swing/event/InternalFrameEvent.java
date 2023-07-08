@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing.event;
 
-
 import java.awt.AWTEvent;
 import java.desktop.share.classes.javax.swing.JInternalFrame;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An <code>AWTEvent</code> that adds support for
@@ -188,7 +173,6 @@ public class InternalFrameEvent extends AWTEvent {
         return typeStr;
     }
 
-
     /**
      * Returns the originator of the event.
      *
@@ -198,6 +182,5 @@ public class InternalFrameEvent extends AWTEvent {
     public JInternalFrame getInternalFrame () {
       return (source instanceof JInternalFrame)? (JInternalFrame)source : null;
     }
-
 
 }

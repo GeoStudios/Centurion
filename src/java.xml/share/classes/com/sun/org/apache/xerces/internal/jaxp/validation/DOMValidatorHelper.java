@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.validation;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.validation.EntityState;
@@ -60,20 +59,6 @@ import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.ProcessingInstruction;
 import java.xml.share.classes.com.sun.org.w3c.dom.Text;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>A validator helper for <code>DOMSource</code>s.</p>

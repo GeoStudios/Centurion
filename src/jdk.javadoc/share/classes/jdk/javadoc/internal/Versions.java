@@ -21,24 +21,9 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal;
 
-
 import java.util.ResourceBundle;
 import java.util.stream.Collectors;
 import static java.util.ResourceBundle.getBundle;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class Versions {
 

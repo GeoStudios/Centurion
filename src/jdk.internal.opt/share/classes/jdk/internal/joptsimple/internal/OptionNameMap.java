@@ -21,22 +21,7 @@
 
 package jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal;
 
-
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Map-like interface for storing String-value pairs.

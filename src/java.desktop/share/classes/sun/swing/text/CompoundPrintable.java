@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.sun.swing.text;
 
-
 import java.util.*;
 import java.awt.Graphics;
 import java.awt.print.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Printable to merge multiple printables into one.

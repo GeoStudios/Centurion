@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.Arrays;
 import javax.sound.midi.MidiChannel;
 import javax.sound.midi.VoiceStatus;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Abstract resampler class.
@@ -279,7 +264,6 @@ public abstract class SoftAbstractResampler implements SoftResampler {
                 if ((loopmode & 2) != 0)
                     if (loopdirection)
                         loopmode = 0;
-
 
             float pitchstep = (target_pitch - current_pitch[0]) / len;
             float[] current_pitch = this.current_pitch;

@@ -21,56 +21,6 @@
 
 package build.tools.projectcreator;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class ArgIterator {
     String[] args;
     int i;

@@ -21,24 +21,10 @@
 
 package compiler.codecache;
 
-
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.Platform;
 import jdk.test.lib.process.ProcessTools;
 import sun.hotspot.WhiteBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test CheckSegmentedCodeCache
@@ -53,8 +39,6 @@ import sun.hotspot.WhiteBox;
  *                   -XX:+WhiteBoxAPI
  *                   compiler.codecache.CheckSegmentedCodeCache
  */
-
-
 
 public class CheckSegmentedCodeCache {
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();

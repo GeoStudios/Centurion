@@ -21,24 +21,9 @@
 
 package java.base.share.classes.java.nio.file.attribute;
 
-
 import java.base.share.classes.java.nio.ByteBuffer;
 import java.base.share.classes.java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A file attribute view that provides a view of a file's user-defined

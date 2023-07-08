@@ -21,21 +21,6 @@
 
 package compiler.c1;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 6769124
@@ -43,7 +28,6 @@ package compiler.c1;
  *
  * @run main compiler.c1.TestUnalignedLoad
  */
-
 
 public class TestUnalignedLoad {
 

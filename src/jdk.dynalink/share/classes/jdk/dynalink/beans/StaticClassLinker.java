@@ -21,7 +21,6 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.beans;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
@@ -39,20 +38,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkerServices;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.TypeBasedGuardingDynamicLinker;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.support.Lookup;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -60,8 +45,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.support.Lookup;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-
-
 
 /**
  * Provides a linker for the {@link StaticClass} objects.

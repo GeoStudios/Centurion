@@ -21,7 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d;
 
-
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.GridBagLayout;
@@ -36,20 +35,6 @@ import javax.swing.border.EtchedBorder;
 import javax.swing.border.TitledBorder;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.Changejava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Global Controls panel for changing graphic attributes of

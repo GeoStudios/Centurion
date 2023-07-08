@@ -21,25 +21,11 @@
 
 package compiler.codecache.cli;
 
-
 import compiler.codecache.cli.common.CodeCacheOptions;
 import jdk.test.lib.process.ExitCode;
 import jdk.test.lib.Platform;
 import jdk.test.lib.cli.CommandLineOptionTest;
 import sun.hotspot.code.BlobType;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -53,8 +39,6 @@ import sun.hotspot.code.BlobType;
  *
  * @run driver compiler.codecache.cli.TestSegmentedCodeCacheOption
  */
-
-
 
 public class TestSegmentedCodeCacheOption {
     private static final String INT_MODE = "-Xint";
@@ -70,7 +54,6 @@ public class TestSegmentedCodeCacheOption {
     private static final String[] UNEXPECTED_MESSAGES = new String[] {
             ".*" + SEGMENTED_CODE_CACHE + ".*"
     };
-
 
     private static enum TestCase {
         JVM_STARTUP {

@@ -21,24 +21,10 @@
 
 package nsk.stress.strace;
 
-
 import nsk.share.ArgumentParser;
 import nsk.share.Failure;
 import nsk.share.Log;
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -61,8 +47,6 @@ import java.io.PrintStream;
  *          /test/lib
  * @run main/othervm nsk.stress.strace.strace001
  */
-
-
 
 /**
  * The test check up <code>java.lang.Thread.getStackTrace()</code> method for many threads,
@@ -89,7 +73,6 @@ public class strace001 {
             "nsk.stress.strace.strace001Thread.run",
             "nsk.stress.strace.strace001Thread.recursiveMethod"
     };
-
 
     static volatile boolean isLocked = false;
     static PrintStream out;

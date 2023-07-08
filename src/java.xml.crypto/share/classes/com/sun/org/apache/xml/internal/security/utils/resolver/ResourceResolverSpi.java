@@ -21,29 +21,12 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver;
 
-
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.XMLSignatureInput;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * During reference validation, we have to retrieve resources from somewhere.

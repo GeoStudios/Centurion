@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.Serial;
@@ -29,20 +28,6 @@ import java.io.Serializable;
 import java.util.Collections;
 import java.util.Enumeration;
 import java.util.LinkedHashMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A straightforward implementation of MutableAttributeSet using a

@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.javax.xml.transform;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * <p>An object that implements this interface contains the information
  * needed to build a transformation result tree.

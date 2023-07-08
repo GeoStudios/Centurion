@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.util.HashMap;
 import java.util.Map;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
@@ -40,20 +39,6 @@ import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Constan
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantPool;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantString;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantUtf8;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used to build up a constant pool. The user adds
@@ -84,12 +69,10 @@ public class ConstantPoolGen {
 
         final int index;
 
-
         Index(final int i) {
             index = i;
         }
     }
-
 
     /**
      * Initialize with given array of constants.
@@ -106,7 +89,6 @@ public class ConstantPoolGen {
         if (cs.length > 0) {
             index = cs.length;
         }
-
 
         for (int i = 1; i < index; i++) {
             final Constant c = constants[i];
@@ -205,14 +187,12 @@ public class ConstantPoolGen {
         }
     }
 
-
     /**
      * Initialize with given constant pool.
      */
     public ConstantPoolGen(final ConstantPool cp) {
         this(cp.getConstantPool());
     }
-
 
     /**
      * Create empty constant pool.
@@ -221,7 +201,6 @@ public class ConstantPoolGen {
         size = DEFAULT_BUFFER_SIZE;
         constants = new Constant[size];
     }
-
 
     /** Resize internal array of constants.
      */
@@ -236,7 +215,6 @@ public class ConstantPoolGen {
 
     private final Map<String, Index> stringTable = new HashMap<>();
 
-
     /**
      * Look for ConstantString in ConstantPool containing String `str'.
      *
@@ -247,7 +225,6 @@ public class ConstantPoolGen {
         final Index index = stringTable.get(str);
         return (index != null) ? index.index : -1;
     }
-
 
     /**
      * Add a new String constant to the ConstantPool, if it is not already in there.
@@ -273,7 +250,6 @@ public class ConstantPoolGen {
 
     private final Map<String, Index> classTable = new HashMap<>();
 
-
     /**
      * Look for ConstantClass in ConstantPool named `str'.
      *
@@ -284,7 +260,6 @@ public class ConstantPoolGen {
         final Index index = classTable.get(str.replace('.', '/'));
         return (index != null) ? index.index : -1;
     }
-
 
     private int addClass_( final String clazz ) {
         int ret;
@@ -301,7 +276,6 @@ public class ConstantPoolGen {
         return ret;
     }
 
-
     /**
      * Add a new Class reference to the ConstantPool, if it is not already in there.
      *
@@ -311,7 +285,6 @@ public class ConstantPoolGen {
     public int addClass( final String str ) {
         return addClass_(str.replace('.', '/'));
     }
-
 
     /**
      * Add a new Class reference to the ConstantPool for a given type.
@@ -323,7 +296,6 @@ public class ConstantPoolGen {
         return addClass(type.getClassName());
     }
 
-
     /**
      * Add a reference to an array class (e.g. String[][]) as needed by MULTIANEWARRAY
      * instruction, e.g. to the ConstantPool.
@@ -334,7 +306,6 @@ public class ConstantPoolGen {
     public int addArrayClass( final ArrayType type ) {
         return addClass_(type.getSignature());
     }
-
 
     /**
      * Look for ConstantInteger in ConstantPool.
@@ -353,7 +324,6 @@ public class ConstantPoolGen {
         return -1;
     }
 
-
     /**
      * Add a new Integer constant to the ConstantPool, if it is not already in there.
      *
@@ -370,7 +340,6 @@ public class ConstantPoolGen {
         constants[index++] = new ConstantInteger(n);
         return ret;
     }
-
 
     /**
      * Look for ConstantFloat in ConstantPool.
@@ -389,7 +358,6 @@ public class ConstantPoolGen {
         }
         return -1;
     }
-
 
     /**
      * Add a new Float constant to the ConstantPool, if it is not already in there.
@@ -410,7 +378,6 @@ public class ConstantPoolGen {
 
     private final Map<String, Index> utf8Table = new HashMap<>();
 
-
     /**
      * Look for ConstantUtf8 in ConstantPool.
      *
@@ -421,7 +388,6 @@ public class ConstantPoolGen {
         final Index index = utf8Table.get(n);
         return (index != null) ? index.index : -1;
     }
-
 
     /**
      * Add a new Utf8 constant to the ConstantPool, if it is not already in there.
@@ -443,7 +409,6 @@ public class ConstantPoolGen {
         return ret;
     }
 
-
     /**
      * Look for ConstantLong in ConstantPool.
      *
@@ -460,7 +425,6 @@ public class ConstantPoolGen {
         }
         return -1;
     }
-
 
     /**
      * Add a new long constant to the ConstantPool, if it is not already in there.
@@ -480,7 +444,6 @@ public class ConstantPoolGen {
         return ret;
     }
 
-
     /**
      * Look for ConstantDouble in ConstantPool.
      *
@@ -498,7 +461,6 @@ public class ConstantPoolGen {
         }
         return -1;
     }
-
 
     /**
      * Add a new double constant to the ConstantPool, if it is not already in there.
@@ -520,7 +482,6 @@ public class ConstantPoolGen {
 
     private final Map<String, Index> natTable = new HashMap<>();
 
-
     /**
      * Look for ConstantNameAndType in ConstantPool.
      *
@@ -532,7 +493,6 @@ public class ConstantPoolGen {
         final Index _index = natTable.get(name + NAT_DELIM + signature);
         return (_index != null) ? _index.index : -1;
     }
-
 
     /**
      * Add a new NameAndType constant to the ConstantPool if it is not already
@@ -563,7 +523,6 @@ public class ConstantPoolGen {
 
     private final Map<String, Index> cpTable = new HashMap<>();
 
-
     /**
      * Look for ConstantMethodref in ConstantPool.
      *
@@ -578,11 +537,9 @@ public class ConstantPoolGen {
         return (index != null) ? index.index : -1;
     }
 
-
     public int lookupMethodref( final MethodGen method ) {
         return lookupMethodref(method.getClassName(), method.getName(), method.getSignature());
     }
-
 
     /**
      * Add a new Methodref constant to the ConstantPool, if it is not already
@@ -612,11 +569,9 @@ public class ConstantPoolGen {
         return ret;
     }
 
-
     public int addMethodref( final MethodGen method ) {
         return addMethodref(method.getClassName(), method.getName(), method.getSignature());
     }
-
 
     /**
      * Look for ConstantInterfaceMethodref in ConstantPool.
@@ -632,12 +587,10 @@ public class ConstantPoolGen {
         return (index != null) ? index.index : -1;
     }
 
-
     public int lookupInterfaceMethodref( final MethodGen method ) {
         return lookupInterfaceMethodref(method.getClassName(), method.getName(), method
                 .getSignature());
     }
-
 
     /**
      * Add a new InterfaceMethodref constant to the ConstantPool, if it is not already
@@ -667,11 +620,9 @@ public class ConstantPoolGen {
         return ret;
     }
 
-
     public int addInterfaceMethodref( final MethodGen method ) {
         return addInterfaceMethodref(method.getClassName(), method.getName(), method.getSignature());
     }
-
 
     /**
      * Look for ConstantFieldref in ConstantPool.
@@ -686,7 +637,6 @@ public class ConstantPoolGen {
                 + FIELDREF_DELIM + signature);
         return (index != null) ? index.index : -1;
     }
-
 
     /**
      * Add a new Fieldref constant to the ConstantPool, if it is not already
@@ -716,7 +666,6 @@ public class ConstantPoolGen {
         return ret;
     }
 
-
     /**
      * @param i index in constant pool
      * @return constant pool entry at index i
@@ -724,7 +673,6 @@ public class ConstantPoolGen {
     public Constant getConstant( final int i ) {
         return constants[i];
     }
-
 
     /**
      * Use with care!
@@ -736,7 +684,6 @@ public class ConstantPoolGen {
         constants[i] = c;
     }
 
-
     /**
      * @return intermediate constant pool
      */
@@ -744,14 +691,12 @@ public class ConstantPoolGen {
         return new ConstantPool(constants);
     }
 
-
     /**
      * @return current size of constant pool
      */
     public int getSize() {
         return index;
     }
-
 
     /**
      * @return constant pool with proper length
@@ -761,7 +706,6 @@ public class ConstantPoolGen {
         System.arraycopy(constants, 0, cs, 0, index);
         return new ConstantPool(cs);
     }
-
 
     /**
      * @return String representation.
@@ -774,7 +718,6 @@ public class ConstantPoolGen {
         }
         return buf.toString();
     }
-
 
     /** Import constant from another ConstantPool and return new index.
      */

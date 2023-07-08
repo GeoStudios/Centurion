@@ -21,7 +21,6 @@
 
 package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view;
 
-
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.InputGraph;
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.services.GraphViewer;
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.graph.Diagram;
@@ -30,20 +29,6 @@ import org.openide.windows.Mode;
 import org.openide.windows.TopComponent;
 import org.openide.windows.WindowManager;
 import org.openide.util.lookup.ServiceProvider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

@@ -21,7 +21,6 @@
 
 package vm.mlvm.meth.share.transform.v2;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.WrongMethodTypeException;
@@ -31,19 +30,6 @@ import java.util.Set;
 import nsk.share.test.TestUtils;
 import vm.mlvm.meth.share.Argument;
 import vm.mlvm.meth.share.MHUtils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class MHFilterTF extends MHNaryTF {
 

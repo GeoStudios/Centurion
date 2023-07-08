@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.validation.ValidationManager;
@@ -33,26 +32,10 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XM
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * <p>Parser configuration for Xerces' XMLSchemaValidator.</p>
@@ -208,7 +191,5 @@ final class SchemaValidatorConfiguration implements XMLComponentManager {
         }
         return state.state;
     }
-
-
 
 }

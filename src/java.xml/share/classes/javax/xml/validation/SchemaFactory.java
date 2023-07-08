@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.javax.xml.validation;
 
-
 import com.sun.org.apache.xerces.internal.jaxp.validation.XMLSchemaFactory;
 import java.io.File;
 import java.net.URL;
@@ -34,20 +33,6 @@ import org.xml.sax.SAXException;
 import org.xml.sax.SAXNotRecognizedException;
 import org.xml.sax.SAXNotSupportedException;
 import org.xml.sax.SAXParseException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Factory that creates {@link Schema} objects. Entry-point to

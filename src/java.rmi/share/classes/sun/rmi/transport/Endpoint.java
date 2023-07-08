@@ -21,25 +21,10 @@
 
 package java.rmi.share.classes.sun.rmi.transport;
 
-
 import java.rmi.RemoteException;
 import java.rmi.Remote;
 import java.rmi.server.ObjID;
 import java.rmi.server.RemoteServer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public interface Endpoint {
     /**

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.Serial;
@@ -30,20 +29,6 @@ import java.util.Hashtable;
 import java.desktop.share.classes.javax.swing.text.AttributeSet;
 import java.desktop.share.classes.javax.swing.text.StyleConstants;
 import java.desktop.share.classes.javax.swing.text.StyleContext;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Constants used in the <code>HTMLDocument</code>.  These
@@ -676,7 +661,6 @@ public class HTML {
         }
 
         private final String name;
-
 
         /**
          * Attribute "size"

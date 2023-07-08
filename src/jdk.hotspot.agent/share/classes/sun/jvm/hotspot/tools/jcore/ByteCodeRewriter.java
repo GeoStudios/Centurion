@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.jcore;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.interpreter.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
@@ -32,20 +31,6 @@ import java.security.PrivilegedAction;
 import java.security.AccessControlContext;
 import java.security.PrivilegedExceptionAction;
 import java.security.PrivilegedActionException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ByteCodeRewriter
 {
@@ -69,7 +54,6 @@ public class ByteCodeRewriter
         );
         DEBUG = (debug != null && debug.equalsIgnoreCase("true"));
     }
-
 
     protected void debugMessage(String message) {
         System.out.println(message);

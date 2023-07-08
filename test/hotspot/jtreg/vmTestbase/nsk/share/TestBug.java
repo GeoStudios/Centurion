@@ -21,21 +21,6 @@
 
 package nsk.share;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Thrown when it becomes obvious that the test algorithm
  * works incorrectly (for example - tries to write to debugee's

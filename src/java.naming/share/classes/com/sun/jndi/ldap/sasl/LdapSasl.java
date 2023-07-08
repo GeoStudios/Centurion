@@ -21,7 +21,6 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap.sasl;
 
-
 import java.io.*;
 import java.security.cert.X509Certificate;
 import java.util.Vector;
@@ -37,20 +36,6 @@ import java.naming.share.classes.com.sun.jndi.ldap.Connection;
 import java.naming.share.classes.com.sun.jndi.ldap.LdapClient;
 import java.naming.share.classes.com.sun.jndi.ldap.LdapResult;
 import java.naming.share.classes.com.sun.jndi.ldap.sasl.TlsChannelBinding.TlsChannelBindingType;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * Handles SASL support.

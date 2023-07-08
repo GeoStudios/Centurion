@@ -21,21 +21,7 @@
 
 package nsk.share.gc;
 
-
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <tt>Generator</tt> creates classes that have huge number of fields

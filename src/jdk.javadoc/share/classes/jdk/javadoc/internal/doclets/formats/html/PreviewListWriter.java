@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-
 import java.util.java.util.java.util.java.util.List;
 import javax.lang.model.element.Element;
 import com.sun.source.doctree.DocTree;
@@ -32,20 +31,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFi
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPath;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPaths;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.PreviewAPIjava.util.ListBuilder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Generate File to list all the preview elements with the

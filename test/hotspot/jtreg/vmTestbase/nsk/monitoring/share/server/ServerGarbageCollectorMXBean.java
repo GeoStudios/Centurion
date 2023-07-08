@@ -21,22 +21,8 @@
 
 package nsk.monitoring.share.server;
 
-
 import javax.management.*;
 import java.lang.management.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ServerGarbageCollectorMXBean extends ServerMemoryManagerMXBean implements GarbageCollectorMXBean {
         private static final String COLLECTION_COUNT = "CollectionCount";

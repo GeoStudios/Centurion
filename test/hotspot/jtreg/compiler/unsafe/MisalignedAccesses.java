@@ -21,23 +21,9 @@
 
 package compiler.unsafe;
 
-
 import org.testng.annotations.Test;
 import java.lang.reflect.Field;
 import static org.testng.Assert.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -47,10 +33,6 @@ import static org.testng.Assert.*;.extended
  * @modules jdk.unsupported/sun.misc
  * @run testng/othervm -Diters=20000 -XX:-TieredCompilation  compiler.unsafe.MisalignedAccesses
  */
-
-
-
-
 
 public class MisalignedAccesses {
     static final int ITERS = Integer.getInteger("iters", 1);
@@ -762,7 +744,6 @@ public class MisalignedAccesses {
         return sum;
     }
 
-
     static volatile long result;
 
     public static void main(String[] args) {
@@ -776,5 +757,4 @@ public class MisalignedAccesses {
         }
     }
 }
-
 

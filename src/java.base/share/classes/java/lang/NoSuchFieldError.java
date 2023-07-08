@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Thrown if an application tries to access or modify a specified
  * field of an object, and that object no longer has that field.

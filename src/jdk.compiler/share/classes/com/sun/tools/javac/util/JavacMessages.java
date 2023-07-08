@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
-
 import jdk.compiler.share.classes.com.sun.tools.javac.api.Messages;
 import java.lang.ref.SoftReference;
 import java.util.ResourceBundle;
@@ -33,20 +32,6 @@ import java.util.Map;
 import jdk.compiler.share.classes.com.sun.tools.javac.api.DiagnosticFormatter;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Factory;
 import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  Support for formatted localized messages.
@@ -190,7 +175,6 @@ public class JavacMessages implements Messages {
     private static final String defaultBundleName = "com.sun.tools.javac.resources.compiler";
     private static ResourceBundle defaultBundle;
     private static JavacMessages defaultMessages;
-
 
     /**
      * Returns a localized string from the compiler's default bundle.

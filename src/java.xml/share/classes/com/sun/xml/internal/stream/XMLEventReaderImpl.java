@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream;
 
-
 import java.xml.share.classes.com.sun.xml.internal.stream.events.XMLEventAllocatorImpl;
 import java.util.NoSuchElementException;
 import javax.xml.stream.XMLInputFactory;
@@ -31,20 +30,6 @@ import javax.xml.stream.XMLStreamReader;
 import javax.xml.stream.events.EntityReference;
 import javax.xml.stream.events.XMLEvent;
 import javax.xml.stream.util.XMLEventAllocator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *
@@ -65,7 +50,6 @@ public class XMLEventReaderImpl implements javax.xml.stream.XMLEventReader{
         fPeekedEvent = fXMLEventAllocator.allocate(fXMLReader);
     }
 
-
     public boolean hasNext() {
         //if we have the peeked event return 'true'
         if(fPeekedEvent != null)return true;
@@ -79,7 +63,6 @@ public class XMLEventReaderImpl implements javax.xml.stream.XMLEventReader{
         }
         return next ;
     }
-
 
     public XMLEvent nextEvent() throws XMLStreamException {
         //if application peeked return the peeked event
@@ -103,7 +86,6 @@ public class XMLEventReaderImpl implements javax.xml.stream.XMLEventReader{
         //remove of the event is not supported.
         throw new java.lang.UnsupportedOperationException();
     }
-
 
     public void close() throws XMLStreamException {
         fXMLReader.close();

@@ -21,22 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.jfc.model;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 record Constraint(Class<? extends XmlElement> type, int min, int max) {
 
     public static Constraint any(Class<? extends XmlElement> type) {

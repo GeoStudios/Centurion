@@ -21,23 +21,9 @@
 
 package nsk.jvmti.RetransformClasses;
 
-
 import nsk.share.Consts;
 import java.io.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class ClassWithStaticInitializers {
     static {

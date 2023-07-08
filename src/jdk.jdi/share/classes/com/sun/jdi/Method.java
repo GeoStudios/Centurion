@@ -21,22 +21,7 @@
 
 package jdk.jdi.share.classes.com.sun.jdi;
 
-
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A static or instance method in the target VM. See {@link TypeComponent}

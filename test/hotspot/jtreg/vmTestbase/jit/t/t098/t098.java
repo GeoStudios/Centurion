@@ -21,22 +21,8 @@
 
 package jit.t.t098;
 
-
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -48,8 +34,6 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t098.t098
  */
-
-
 
 // Check for too-wide intermediate results.
 

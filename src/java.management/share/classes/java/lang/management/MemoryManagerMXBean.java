@@ -21,22 +21,6 @@
 
 package java.management.share.classes.java.lang.management;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The management interface for a memory manager.
  * A memory manager manages one or more memory pools of the

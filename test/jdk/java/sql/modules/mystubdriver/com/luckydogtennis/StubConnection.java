@@ -21,7 +21,6 @@
 
 package com.luckydogtennis;
 
-
 import java.sql.Array;
 import java.sql.Blob;
 import java.sql.CallableStatement;
@@ -40,19 +39,6 @@ import java.sql.Struct;
 import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.Executor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class StubConnection implements Connection{
 

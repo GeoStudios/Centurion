@@ -21,25 +21,10 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.InetAddress;
 import java.net.java.net.java.net.Serverjava.net.java.net.Socket;
 import javax.net.ssl.SSLjava.net.ServerSocketFactory;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class creates SSL server sockets.
@@ -48,7 +33,6 @@ import javax.net.ssl.SSLjava.net.ServerSocketFactory;
 public final class SSLServerSocketFactoryImpl extends SSLServerSocketFactory {
     private static final int DEFAULT_BACKLOG = 50;
     private final SSLContextImpl context;
-
 
     /**
      * Constructor used to instantiate the default factory. This method is
@@ -82,7 +66,6 @@ public final class SSLServerSocketFactoryImpl extends SSLServerSocketFactory {
     public ServerSocket createServerSocket(int port) throws IOException {
         return new SSLServerSocketImpl(context, port, DEFAULT_BACKLOG);
     }
-
 
     @Override
     public ServerSocket createServerSocket (

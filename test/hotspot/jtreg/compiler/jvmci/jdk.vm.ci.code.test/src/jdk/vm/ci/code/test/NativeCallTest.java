@@ -21,26 +21,12 @@
 
 package jdk.vm.ci.code.test;
 
-
 import static jdk.vm.ci.hotspot.HotSpotCallingConventionType.NativeCall;.extended
 import org.junit.BeforeClass;
 import org.junit.Test;
 import jdk.vm.ci.code.CallingConvention;
 import jdk.vm.ci.code.RegisterValue;
 import jdk.vm.ci.meta.JavaType;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -58,9 +44,6 @@ import jdk.vm.ci.meta.JavaType;
  * @compile CodeInstallationTest.java TestHotSpotVMConfig.java NativeCallTest.java TestAssembler.java amd64/AMD64TestAssembler.java aarch64/AArch64TestAssembler.java
  * @run junit/othervm/native -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI  -Xbootclasspath/a:. jdk.vm.ci.code.test.NativeCallTest
  */
-
-
-
 
 public class NativeCallTest extends CodeInstallationTest {
 

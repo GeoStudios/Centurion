@@ -21,25 +21,10 @@
 
 package java.base.unix.classes.java.net;
 
-
 import java.base.unix.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.unix.classes.java.util.Set;
 import java.base.unix.classes.java.util.HashSet;
 import sun.net.ext.Extendedjava.net.SocketOptions;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * On Unix systems we simply delegate to native methods.

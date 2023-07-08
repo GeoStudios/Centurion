@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util;
 
-
 import java.util.java.util.ListResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  */
@@ -119,7 +104,6 @@ public class ErrorMessages_zh_TW extends ListResourceBundle {
          */
         {ErrorMsg.TEMPLATE_REDEF_ERR,
         "\u6A23\u677F ''{0}'' \u5DF2\u7D93\u5B9A\u7FA9\u5728\u6B64\u6A23\u5F0F\u8868\u4E2D\u3002"},
-
 
         /*
          * Note to translators:  The substitution text is the name of a
@@ -696,10 +680,8 @@ public class ErrorMessages_zh_TW extends ListResourceBundle {
         {ErrorMsg.JAXP_INVALID_SET_PARAM_VALUE,
         "\u53C3\u6578 {0} \u7684\u503C\u5FC5\u9808\u662F\u6709\u6548\u7684 Java \u7269\u4EF6"},
 
-
         {ErrorMsg.COMPILE_STDIN_ERR,
         "-i \u9078\u9805\u5FC5\u9808\u8207 -o \u9078\u9805\u4E00\u8D77\u4F7F\u7528\u3002"},
-
 
         /*
          * Note to translators:  This message contains usage information for a
@@ -724,8 +706,6 @@ public class ErrorMessages_zh_TW extends ListResourceBundle {
          */
         {ErrorMsg.TRANSFORM_USAGE_STR,
         "\u6982\u8981 \n   java com.sun.org.apache.xalan.internal.xsltc.cmdline.Transform [-j <jarfile>]\n      [-x] [-n <iterations>] {-u <document_url> | <document>}\n      <class> [<param1>=<value1> ...]\n\n   \u4F7F\u7528 translet <class> \u8F49\u63DB\u6307\u5B9A\u70BA <document> \n   \u7684 XML \u6587\u4EF6\u3002translet <class> \u4F4D\u65BC\n   \u4F7F\u7528\u8005\u7684\u985E\u5225\u8DEF\u5F91\uFF0C\u6216\u662F\u5728\u9078\u64C7\u6027\u6307\u5B9A\u7684 <jarfile> \u4E2D\u3002\n\u9078\u9805\n   -j <jarfile>    \u6307\u5B9A\u8F09\u5165 translet \u7684\u4F86\u6E90 jarfile\n   -x              \u958B\u555F\u984D\u5916\u7684\u9664\u932F\u8A0A\u606F\u8F38\u51FA\n   -n <iterations> \u57F7\u884C\u8F49\u63DB <iterations> \u6B21\u6578\u8207\n                   \u986F\u793A\u5206\u6790\u8CC7\u8A0A\n   -u <document_url> \u6307\u5B9A XML \u8F38\u5165\u6587\u4EF6\u70BA URL\n"},
-
-
 
         /*
          * Note to translators:  "<xsl:sort>", "<xsl:for-each>" and
@@ -983,7 +963,6 @@ public class ErrorMessages_zh_TW extends ListResourceBundle {
         {ErrorMsg.OUTLINE_ERR_DELETED_TARGET,
          "\u5167\u90E8 XSLTC \u932F\u8AA4:  \u539F\u59CB\u65B9\u6CD5\u4E2D\u4ECD\u7136\u53C3\u7167\u5C6C\u65BC outlined \u4F4D\u5143\u7D44\u78BC\u5340\u584A\u4E00\u90E8\u5206\u7684\u6307\u793A\u3002"
         },
-
 
         /*
          * Note to translators:  This message describes an internal error in the

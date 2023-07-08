@@ -21,32 +21,14 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.ByteSequence;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * IINC - Increment local variable by constant
@@ -57,14 +39,12 @@ public class IINC extends LocalVariableInstruction {
     private boolean wide;
     private int c;
 
-
     /**
      * Empty constructor needed for Instruction.readInstruction.
      * Not to be used otherwise.
      */
     IINC() {
     }
-
 
     /**
      * @param n index of local variable
@@ -77,7 +57,6 @@ public class IINC extends LocalVariableInstruction {
         setIndex(n); // May set wide as side effect
         setIncrement(c);
     }
-
 
     /**
      * Dump instruction as byte code to stream out.
@@ -98,7 +77,6 @@ public class IINC extends LocalVariableInstruction {
         }
     }
 
-
     private void setWide() {
         wide = super.getIndex() > com.sun.org.apache.bcel.internal.Const.MAX_BYTE;
         if (c > 0) {
@@ -112,7 +90,6 @@ public class IINC extends LocalVariableInstruction {
             super.setLength(3);
         }
     }
-
 
     /**
      * Read needed data (e.g. index) from file.
@@ -131,7 +108,6 @@ public class IINC extends LocalVariableInstruction {
         }
     }
 
-
     /**
      * @return mnemonic for instruction
      */
@@ -139,7 +115,6 @@ public class IINC extends LocalVariableInstruction {
     public String toString( final boolean verbose ) {
         return super.toString(verbose) + " " + c;
     }
-
 
     /**
      * Set index of local variable.
@@ -153,14 +128,12 @@ public class IINC extends LocalVariableInstruction {
         setWide();
     }
 
-
     /**
      * @return increment factor
      */
     public final int getIncrement() {
         return c;
     }
-
 
     /**
      * Set increment factor.
@@ -170,14 +143,12 @@ public class IINC extends LocalVariableInstruction {
         setWide();
     }
 
-
     /** @return int type
      */
     @Override
     public Type getType( final ConstantPoolGen cp ) {
         return Type.INT;
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

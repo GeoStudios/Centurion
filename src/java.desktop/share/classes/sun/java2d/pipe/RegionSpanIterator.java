@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.pipe;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class implements the ShapeIterator interface for a Region.
  * This is useful as the source iterator of a device clip region

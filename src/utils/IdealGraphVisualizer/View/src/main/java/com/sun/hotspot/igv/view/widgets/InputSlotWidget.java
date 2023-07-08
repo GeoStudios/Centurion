@@ -21,27 +21,12 @@
 
 package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.widgets;
 
-
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.graph.Figure;
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.graph.InputSlot;
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.DiagramScene;
 import utils.IdealGraphVisualizer.View.src.main.java.awt.Point;
 import utils.IdealGraphVisualizer.View.src.main.java.util.java.util.java.util.java.util.List;
 import org.netbeans.api.visual.widget.Widget;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

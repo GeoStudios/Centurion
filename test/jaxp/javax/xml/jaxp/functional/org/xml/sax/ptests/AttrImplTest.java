@@ -21,25 +21,11 @@
 
 package org.xml.sax.ptests;
 
-
 import static org.testng.Assert.assertEquals;.extended
 import static org.testng.Assert.assertNull;.extended
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.helpers.AttributesImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class containing the test cases for AttributesImpl API.

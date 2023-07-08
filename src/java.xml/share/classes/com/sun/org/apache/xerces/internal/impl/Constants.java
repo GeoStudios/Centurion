@@ -21,23 +21,8 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
 
-
 import java.util.Enumeration;
 import java.util.NoSuchElementException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Commonly used constants.
@@ -159,7 +144,6 @@ public final class Constants {
     /** Document XML version property ("document-xml-version"). */
     public static final String DOCUMENT_XML_VERSION_PROPERTY = "document-xml-version";
 
-
     //
     // JAXP properties
     //
@@ -190,7 +174,6 @@ public final class Constants {
 
     /** Feature id: load as infoset. */
     public static final String LOAD_AS_INFOSET = "load-as-infoset";
-
 
     //
     // Constants: DOM Level 3 feature ids
@@ -243,7 +226,6 @@ public final class Constants {
     public static final String DOM_ANCESTOR_CHECCK = "ancestor-check";
     // XSModel
     public static final String DOM_PSVI = "psvi";
-
 
     // xerces features
 
@@ -328,7 +310,6 @@ public final class Constants {
     /** Validate annotations feature ("validate-annotations"). */
     public static final String VALIDATE_ANNOTATIONS_FEATURE = "validate-annotations";
 
-
         /** Honour all schemaLocations feature ("honour-all-schemaLocations"). */
     public static final String HONOUR_ALL_SCHEMALOCATIONS_FEATURE = "honour-all-schemaLocations";
 
@@ -394,7 +375,6 @@ public final class Constants {
      */
     public static final String PARSER_SETTINGS = "internal/parser-settings";
 
-
     /** Feature to make XML Processor XInclude Aware */
     public static final String XINCLUDE_AWARE = "xinclude-aware";
 
@@ -450,7 +430,6 @@ public final class Constants {
     public static final String SECURITY_MANAGER =
         Constants.XERCES_PROPERTY_PREFIX + Constants.SECURITY_MANAGER_PROPERTY;
 
-
     public static final String ENTITY_RESOLVER_PROPERTY = "internal/entity-resolver";
 
     /** Grammar pool property ("internal/grammar-pool"). */
@@ -504,7 +483,6 @@ public final class Constants {
     /** Schema element declaration for the root element in a document ("internal/validation/schema/dv-factory"). */
     public static final String SCHEMA_DV_FACTORY_PROPERTY = "internal/validation/schema/dv-factory";
 
-
     // general constants
 
     /** Element PSVI is stored in augmentations using string "ELEMENT_PSVI" */
@@ -519,7 +497,6 @@ public final class Constants {
      * augmentation indicates that the attribute was not declared in the DTD.
      */
     public final static String ATTRIBUTE_DECLARED = "ATTRIBUTE_DECLARED";
-
 
     /**
      * {@link org.w3c.dom.TypeInfo} associated with current element/attribute
@@ -574,13 +551,9 @@ public final class Constants {
     public final static short XML_VERSION_1_0 = 1;
     public final static short XML_VERSION_1_1 = 2;
 
-
-
     // DOM related constants
     public final static String ANONYMOUS_TYPE_NAMESPACE =
         "http://apache.org/xml/xmlschema/1.0/anonymousTypes";
-
-
 
     // Constant to enable Schema 1.1 support
     public final static boolean SCHEMA_1_1_SUPPORT = false;

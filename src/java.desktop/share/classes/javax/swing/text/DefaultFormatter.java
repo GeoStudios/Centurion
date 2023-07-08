@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import sun.reflect.misc.ReflectUtil;
 import sun.swing.SwingUtilities2;
 import java.io.Serializable;
 import java.lang.reflect.*;
 import java.text.ParseException;
 import java.desktop.share.classes.javax.swing.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>DefaultFormatter</code> formats arbitrary objects. Formatting is done
@@ -91,7 +76,6 @@ public class DefaultFormatter extends JFormattedTextField.AbstractFormatter
 
     /** Used during replace to track the region to replace. */
     transient ReplaceHolder replaceHolder;
-
 
     /**
      * Creates a DefaultFormatter.
@@ -333,7 +317,6 @@ public class DefaultFormatter extends JFormattedTextField.AbstractFormatter
         return formatter;
     }
 
-
     /**
      * Positions the cursor at the initial location.
      */
@@ -508,7 +491,6 @@ public class DefaultFormatter extends JFormattedTextField.AbstractFormatter
                                                   (offset, direction));
     }
 
-
     /**
      * Finds the next navigable character.
      */
@@ -634,7 +616,6 @@ public class DefaultFormatter extends JFormattedTextField.AbstractFormatter
         fb.moveDot(dot, bias);
     }
 
-
     /**
      * Returns the ReplaceHolder to track the replace of the specified
      * text.
@@ -648,7 +629,6 @@ public class DefaultFormatter extends JFormattedTextField.AbstractFormatter
         replaceHolder.reset(fb, offset, length, text, attrs);
         return replaceHolder;
     }
-
 
     /**
      * ReplaceHolder is used to track where insert/remove/replace is
@@ -685,7 +665,6 @@ public class DefaultFormatter extends JFormattedTextField.AbstractFormatter
             cursorPosition = -1;
         }
     }
-
 
     /**
      * NavigationFilter implementation that calls back to methods with
@@ -728,7 +707,6 @@ public class DefaultFormatter extends JFormattedTextField.AbstractFormatter
             }
         }
     }
-
 
     /**
      * DocumentFilter implementation that calls back to the replace

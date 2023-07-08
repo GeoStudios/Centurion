@@ -21,7 +21,6 @@
 
 package jdk.test.lib.jittester;
 
-
 import java.io.File;
 import java.io.FileWriter;
 import java.io.java.io.java.io.java.io.IOException;
@@ -34,19 +33,6 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.PseudoRandom;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class TestsGenerator implements BiConsumer<IRNode, IRNode> {
     private static final int DEFAULT_JTREG_TIMEOUT = 120;

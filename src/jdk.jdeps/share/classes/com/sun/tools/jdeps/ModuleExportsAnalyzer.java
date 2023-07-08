@@ -21,7 +21,6 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.jdeps;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.lang.module.ModuleDescriptor;
@@ -33,20 +32,6 @@ import java.util.Set;
 import java.util.TreeSet;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Analyze module dependences and any reference to JDK internal APIs.

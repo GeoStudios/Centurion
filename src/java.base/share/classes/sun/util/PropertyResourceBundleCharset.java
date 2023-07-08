@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.util;
 
-
 import java.base.share.classes.sun.nio.cs.ISO_8859_1;
 import java.base.share.classes.sun.nio.cs.UTF_8;
 import java.nio.ByteBuffer;
@@ -33,20 +32,6 @@ import java.nio.charset.CoderResult;
 import java.nio.charset.CodingErrorAction;
 import java.nio.charset.StandardCharsets;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A Charset implementation for reading PropertyResourceBundle, in order

@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.javax.xml.transform;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Indicates a serious configuration error.
  *

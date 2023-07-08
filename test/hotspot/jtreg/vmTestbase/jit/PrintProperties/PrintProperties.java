@@ -21,21 +21,7 @@
 
 package jit.PrintProperties;
 
-
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -47,8 +33,6 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.PrintProperties.PrintProperties
  */
-
-
 
 public class PrintProperties {
   public static void main(String[] args) {

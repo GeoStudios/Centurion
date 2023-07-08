@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.tree;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Defines the requirements for a tree node object that can change --
  * by adding or removing child nodes, or by changing the contents

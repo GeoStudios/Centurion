@@ -21,21 +21,7 @@
 
 package compiler.intrinsics.bmi;
 
-
 import sun.hotspot.cpuinfo.CPUInfo;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -53,8 +39,6 @@ import sun.hotspot.cpuinfo.CPUInfo;
  *                   -XX:+WhiteBoxAPI
  *                   compiler.intrinsics.bmi.TestBlsrL
  */
-
-
 
 public class TestBlsrL {
 

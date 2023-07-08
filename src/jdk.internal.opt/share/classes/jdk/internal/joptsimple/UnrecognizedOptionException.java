@@ -21,22 +21,7 @@
 
 package jdk.internal.opt.share.classes.jdk.internal.joptsimple;
 
-
 import static java.util.Collections.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Thrown when the option parser encounters an unrecognized option.

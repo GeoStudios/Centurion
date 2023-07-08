@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.imageio.plugins.tiff;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.desktop.share.classes.javax.imageio.ImageReadParam;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A subclass of {@link ImageReadParam} allowing control over

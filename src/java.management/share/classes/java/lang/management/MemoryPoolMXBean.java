@@ -21,22 +21,6 @@
 
 package java.management.share.classes.java.lang.management;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The management interface for a memory pool.  A memory pool
  * represents the memory resource managed by the Java virtual machine

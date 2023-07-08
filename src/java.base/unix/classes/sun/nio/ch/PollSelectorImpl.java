@@ -21,7 +21,6 @@
 
 package java.base.unix.classes.sun.nio.ch;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.channels.ClosedSelectorException;
 import java.nio.channels.SelectionKey;
@@ -34,20 +33,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Consumer;
 import jdk.internal.misc.Unsafe;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Selector implementation based on poll

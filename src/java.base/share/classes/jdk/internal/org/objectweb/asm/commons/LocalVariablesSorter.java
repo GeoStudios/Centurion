@@ -21,27 +21,12 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm.commons;
 
-
 import java.base.share.classes.jdk.internal.org.objectweb.asm.AnnotationVisitor;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.Label;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.MethodVisitor;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.Type;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.TypePath;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@link MethodVisitor} that renumbers local variables in their order of appearance. This adapter

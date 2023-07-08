@@ -21,7 +21,6 @@
 
 package nsk.jdi.VirtualMachineManager.connectedVirtualMachines;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -32,19 +31,6 @@ import java.io.*;
 import java.net.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -148,7 +134,6 @@ public class convm001 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -174,7 +159,6 @@ public class convm001 {
         VirtualMachine vm1 = null;
 
         int size = 0;
-
 
         for (int i = 0; ; i++) {
 
@@ -387,6 +371,5 @@ public class convm001 {
 
         return returnCode;
     }
-
 
 }

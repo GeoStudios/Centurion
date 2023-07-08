@@ -21,7 +21,6 @@
 
 package compiler.intrinsics.sha.cli.testcases;
 
-
 import compiler.intrinsics.sha.cli.DigestOptionsBase;
 import compiler.testlibrary.sha.predicate.IntrinsicPredicates;
 import jdk.test.lib.Asserts;
@@ -30,19 +29,6 @@ import jdk.test.lib.Platform;
 import jdk.test.lib.cli.CommandLineOptionTest;
 import jdk.test.lib.cli.predicate.AndPredicate;
 import jdk.test.lib.cli.predicate.OrPredicate;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * UseSHA specific test case targeted to CPUs which support any sha* instruction.

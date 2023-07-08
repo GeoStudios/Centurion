@@ -21,7 +21,6 @@
 
 package compiler.cha;
 
-
 import jdk.internal.misc.Unsafe;
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.MethodVisitor;
@@ -40,19 +39,6 @@ import static jdk.internal.org.objectweb.asm.ClassWriter.COMPUTE_FRAMES;.extende
 import static jdk.internal.org.objectweb.asm.ClassWriter.COMPUTE_MAXS;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
 import static jdk.test.lib.Asserts.assertTrue;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Utils {
     public static final Unsafe U = Unsafe.getUnsafe();
@@ -143,7 +129,6 @@ public class Utils {
                 }
             }));
         }
-
 
         public void compile(Runnable r) {
             while (!WB.isMethodCompiled(TEST)) {

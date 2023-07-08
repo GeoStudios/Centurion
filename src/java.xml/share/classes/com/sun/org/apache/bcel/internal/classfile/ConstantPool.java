@@ -21,33 +21,15 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
-
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * This class represents the constant pool, i.e., a table of constants, of
@@ -343,14 +325,12 @@ public class ConstantPool implements Cloneable, Node {
         return ((ConstantUtf8) c).getBytes();
     }
 
-
     /**
      * @return Length of constant pool.
      */
     public int getLength() {
         return constantPool == null ? 0 : constantPool.length;
     }
-
 
     /**
      * @param constant Constant to set
@@ -359,14 +339,12 @@ public class ConstantPool implements Cloneable, Node {
         constantPool[index] = constant;
     }
 
-
     /**
      * @param constantPool
      */
     public void setConstantPool( final Constant[] constantPool ) {
         this.constantPool = constantPool;
     }
-
 
     /**
      * @return String representation.
@@ -379,7 +357,6 @@ public class ConstantPool implements Cloneable, Node {
         }
         return buf.toString();
     }
-
 
     /**
      * @return deep copy of this constant pool

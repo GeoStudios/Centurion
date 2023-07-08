@@ -21,24 +21,10 @@
 
 package testpkg;
 
-
 import java.rmi.server.UnicastRemoteObject;
 import clientpkg.Client;
 import serverpkg.Hello;
 import serverpkg.Server;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class DummyApp {
 

@@ -21,7 +21,6 @@
 
 package compiler.jvmci.compilerToVM;
 
-
 import compiler.jvmci.compilerToVM.ConstantPoolTestsHelper.DummyClasses;
 import jdk.internal.reflect.ConstantPool;
 import jdk.internal.reflect.ConstantPool.Tag;
@@ -46,19 +45,6 @@ import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CON
 import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CONSTANT_NAMEANDTYPE;.extended
 import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CONSTANT_STRING;.extended
 import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CONSTANT_UTF8;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Common class for jdk.vm.ci.hotspot.CompilerToVM constant pool tests

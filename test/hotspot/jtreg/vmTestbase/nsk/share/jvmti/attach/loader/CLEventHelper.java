@@ -21,21 +21,6 @@
 
 package nsk.share.jvmti.attach.loader;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * CLEventHelper.java
  *

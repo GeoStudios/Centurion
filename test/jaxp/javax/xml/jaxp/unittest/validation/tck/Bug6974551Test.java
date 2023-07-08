@@ -21,7 +21,6 @@
 
 package validation.tck;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import javax.xml.XMLConstants;
 import javax.xml.parsers.SAXParser;
@@ -36,19 +35,6 @@ import org.testng.annotations.Test;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 import org.xml.sax.helpers.DefaultHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

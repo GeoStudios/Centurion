@@ -21,25 +21,11 @@
 
 package nsk.jdwp.ReferenceType.Status;
 
-
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class status001 {
     static final int JCK_STATUS_BASE = 95;

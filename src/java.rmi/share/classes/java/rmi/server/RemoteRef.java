@@ -21,22 +21,7 @@
 
 package java.rmi.share.classes.java.rmi.server;
 
-
 import java.rmi.share.classes.java.rmi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>RemoteRef</code> represents the handle for a remote object. A

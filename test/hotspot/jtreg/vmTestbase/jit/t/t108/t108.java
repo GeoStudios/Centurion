@@ -21,22 +21,8 @@
 
 package jit.t.t108;
 
-
 import java.io.*;
 import nsk.share.GoldChecker;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -54,8 +40,6 @@ import nsk.share.GoldChecker;
  *      -Dtest.src=${test.src}
  *      jit.t.t108.t108
  */
-
-
 
 // THIS TEST IS LINE NUMBER SENSITIVE
 

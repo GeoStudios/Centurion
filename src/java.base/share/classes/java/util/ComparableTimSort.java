@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This is a near duplicate of {@link TimSort}, modified for use with
  * arrays of objects that implement {@link Comparable}, instead of using

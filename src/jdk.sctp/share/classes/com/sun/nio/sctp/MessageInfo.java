@@ -21,22 +21,7 @@
 
 package jdk.sctp.share.classes.com.sun.nio.sctp;
 
-
 import java.net.java.net.SocketAddress;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code MessageInfo} class provides additional ancillary information about

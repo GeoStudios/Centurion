@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 import java.base.share.classes.java.lang.constant.ClassDesc;
 import java.base.share.classes.java.lang.constant.Constable;
@@ -35,20 +34,6 @@ import java.base.share.classes.java.util.function.Function;
 import static java.base.share.classes.java.lang.invoke.MethodHandleInfo.*;.extended
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;.extended
 import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A method handle is a typed, directly executable reference to an underlying method,

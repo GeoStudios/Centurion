@@ -21,7 +21,6 @@
 
 package java.security.jgss.share.classes.javax.security.auth.kerberos;
 
-
 import java.io.*;
 import java.base.share.classes.java.util.Arrays;
 import java.security.jgss.share.classes.javax.crypto.SecretKey;
@@ -34,20 +33,6 @@ import sun.security.krb5.EncryptionKey;
 import sun.security.krb5.EncryptedData;
 import sun.security.krb5.KrbException;
 import sun.security.util.DerValue;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class encapsulates a Kerberos encryption key. It is not associated
@@ -63,7 +48,6 @@ class KeyImpl implements SecretKey, Destroyable, Serializable {
     private transient byte[] keyBytes;
     private transient int keyType;
     private transient volatile boolean destroyed = false;
-
 
     /**
      * Constructs a KeyImpl from the given bytes.
@@ -238,7 +222,6 @@ class KeyImpl implements SecretKey, Destroyable, Serializable {
                              " Empty Key" :
                              '\n' + hd.encodeBuffer(keyBytes)
                           + '\n');
-
 
     }
 

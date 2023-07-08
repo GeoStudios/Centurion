@@ -21,21 +21,7 @@
 
 package p4;
 
-
 import java.lang.reflect.Constructor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class C {
     public static Object tryNewInstance(Class<?> clazz) throws Exception {

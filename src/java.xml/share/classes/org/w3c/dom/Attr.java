@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.org.w3c.dom;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The <code>Attr</code> interface represents an attribute in an
  * <code>Element</code> object. Typically the allowable values for the

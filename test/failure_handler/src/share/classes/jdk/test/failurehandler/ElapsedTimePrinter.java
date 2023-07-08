@@ -21,22 +21,8 @@
 
 package jdk.test.failurehandler;
 
-
 import java.io.PrintWriter;
 import java.util.concurrent.TimeUnit;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ElapsedTimePrinter implements AutoCloseable {
     private final String name;

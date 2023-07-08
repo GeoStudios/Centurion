@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
@@ -39,20 +38,6 @@ import javax.sound.sampled.Linejava.util.Listener;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.Mixer;
 import javax.sound.sampled.SourceDataLine;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Software audio mixer.

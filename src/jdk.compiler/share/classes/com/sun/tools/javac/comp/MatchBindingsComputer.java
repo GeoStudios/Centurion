@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.BindingSymbol;
 import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
@@ -34,20 +33,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Diagnost
 import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.CLASH;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class MatchBindingsComputer extends TreeScanner {
     public static final MatchBindings EMPTY = new MatchBindings(List.nil(), List.nil());

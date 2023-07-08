@@ -21,24 +21,9 @@
 
 package jdk.jdi.share.classes.com.sun.jdi.connect;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Thrown to indicate an invalid argument or

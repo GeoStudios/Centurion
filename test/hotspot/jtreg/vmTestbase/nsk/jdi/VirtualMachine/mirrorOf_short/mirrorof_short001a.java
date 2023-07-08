@@ -21,23 +21,9 @@
 
 package nsk.jdi.VirtualMachine.mirrorOf_short;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debugee application for the mirrorof_short001a JDI test.
@@ -51,7 +37,6 @@ public class mirrorof_short001a {
     static final int PASSED = 0;
     static final int FAILED = 2;
     static final int PASS_BASE = 95;
-
 
      //--------------------------------------------------   log procedures
 
@@ -88,7 +73,6 @@ public class mirrorof_short001a {
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
 
-
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
 
@@ -109,9 +93,7 @@ public class mirrorof_short001a {
 
     //------------------------------------------------------  section tested
 
-
     //-------------------------------------------------    standard end section
-
 
                 default:
                                 pipe.println("checkend");

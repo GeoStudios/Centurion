@@ -21,22 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.jdi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The type of all primitive byte values accessed in
  * the target VM. Calls to {@link Value#type} will return an

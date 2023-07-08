@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOMCache;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOMEnhancedForDTM;
@@ -47,26 +46,9 @@ import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: DocumentCache.java,v 1.2.4.1 2005/09/06 06:15:22 pvedula Exp $
  */
-
-
-
 
 /**
  */

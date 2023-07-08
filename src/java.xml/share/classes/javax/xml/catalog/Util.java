@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.javax.xml.catalog;
 
-
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.MalformedURLException;
@@ -38,20 +37,6 @@ import static java.xml.share.classes.javax.xml.catalog.CatalogFeatures.RESOLVE_C
 import static java.xml.share.classes.javax.xml.catalog.CatalogFeatures.RESOLVE_IGNORE;.extended
 import static java.xml.share.classes.javax.xml.catalog.CatalogFeatures.RESOLVE_STRICT;.extended
 import jdk.xml.internal.SecuritySupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

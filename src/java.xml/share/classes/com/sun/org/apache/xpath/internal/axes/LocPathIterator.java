@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.axes;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMFilter;
@@ -35,20 +34,6 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.Compile
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XNodeSet;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class extends NodeSetDTM, which implements NodeIterator,
@@ -75,7 +60,6 @@ public abstract class LocPathIterator extends PredicatedNodeTest
   protected LocPathIterator()
   {
   }
-
 
   /**
    * Create a LocPathIterator object.
@@ -281,7 +265,6 @@ public abstract class LocPathIterator extends PredicatedNodeTest
     return iter;
   }
 
-
   /**
    * Tell if the expression is a nodeset expression.
    *
@@ -329,7 +312,6 @@ public abstract class LocPathIterator extends PredicatedNodeTest
   {
     return (asNode(xctxt) != DTM.NULL);
   }
-
 
   /**
    * Set if this is an iterator at the upper level of
@@ -415,7 +397,6 @@ public abstract class LocPathIterator extends PredicatedNodeTest
     return m_pos;
   }
 
-
   /**
    * If setShouldCacheNodes(true) is called, then nodes will
    * be cached.  They are not cached by default.
@@ -457,7 +438,6 @@ public abstract class LocPathIterator extends PredicatedNodeTest
   {
         m_pos++;
   }
-
 
   /**
    * Get the length of the cached nodes.
@@ -936,7 +916,6 @@ public abstract class LocPathIterator extends PredicatedNodeTest
                 }
   }
 
-
   //============= State Data =============
 
   /**
@@ -1023,7 +1002,6 @@ public abstract class LocPathIterator extends PredicatedNodeTest
   {
     return -1;
   }
-
 
 //  /**
 //   * The analysis pattern built by the WalkerFactory.

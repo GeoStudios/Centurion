@@ -21,22 +21,8 @@
 
 package nsk.share.jdwp;
 
-
 import java.io.*;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents a byte buffer of variable size.
@@ -983,7 +969,6 @@ public class ByteBuffer {
 
         return source;
     }
-
 
     private static String PadL(String source, int length) {
         return PadL(source, length, " ");

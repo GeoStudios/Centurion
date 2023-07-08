@@ -21,7 +21,6 @@
 
 package compiler.jvmci.compilerToVM;
 
-
 import compiler.jvmci.common.testcases.MultipleAbstractImplementer;
 import compiler.jvmci.common.testcases.MultipleImplementer2;
 import compiler.jvmci.common.testcases.MultipleImplementersInterface;
@@ -46,19 +45,6 @@ import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CON
 import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CONSTANT_METHODREF;.extended
 import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CONSTANT_METHODTYPE;.extended
 import static compiler.jvmci.compilerToVM.ConstantPoolTestCase.ConstantTypes.CONSTANT_STRING;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class contains hard-coded constant pool tables for dummy classes used for

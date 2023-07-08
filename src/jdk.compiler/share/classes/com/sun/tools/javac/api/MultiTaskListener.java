@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.api;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import jdk.compiler.share.classes.com.sun.source.util.TaskEvent;
@@ -31,20 +30,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.code.DeferredCompletionFai
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A collection of currently registered {@link TaskListener}s. Events passed to this TaskListener

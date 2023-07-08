@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.awt;
 
-
 import java.awt.AWTException;
 import java.awt.BufferCapabilities;
 import java.awt.Color;
@@ -47,20 +46,6 @@ import java.awt.peer.ContainerPeer;
 import java.awt.peer.LightweightPeer;
 import java.awt.peer.PanelPeer;
 import java.desktop.share.classes.sun.java2d.pipe.Region;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implements the LightweightPeer interface for use in lightweight components
@@ -274,7 +259,6 @@ public class NullComponentPeer implements LightweightPeer,
     public Rectangle getBounds() {
         return new Rectangle(0, 0, 0, 0);
     }
-
 
     /**
       * Applies the shape to the native component window.

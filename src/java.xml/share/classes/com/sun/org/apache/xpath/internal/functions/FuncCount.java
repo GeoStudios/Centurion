@@ -21,32 +21,15 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.functions;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMIterator;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XNumber;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Execute the Count() function.

@@ -21,21 +21,7 @@
 
 package compiler.codegen;
 
-
 import java.util.concurrent.atomic.AtomicLong;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -44,8 +30,6 @@ import java.util.concurrent.atomic.AtomicLong;
  *
  * @run main/othervm -Xbatch compiler.codegen.Test7009231
  */
-
-
 
 public class Test7009231 {
     public static void main(String[] args) throws InterruptedException {

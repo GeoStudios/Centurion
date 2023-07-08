@@ -21,24 +21,9 @@
 
 package java.management.share.classes.sun.management;
 
-
 import java.lang.management.ClassLoadingMXBean;
 import java.lang.management.ManagementFactory;
 import javax.management.ObjectName;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation class for the class loading subsystem.

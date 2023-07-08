@@ -21,7 +21,6 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.jdeps;
 
-
 import static jdk.jdeps.share.classes.com.sun.tools.jdeps.JdepsFilter.DEFAULT_FILTER;.extended
 import static jdk.jdeps.share.classes.com.sun.tools.jdeps.Module.trace;.extended
 import static jdk.jdeps.share.classes.com.sun.tools.jdeps.Graph.*;.extended
@@ -37,20 +36,6 @@ import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Inverse transitive dependency analysis (compile-time view)
@@ -226,7 +211,6 @@ public class InverseDepsAnalyzer extends DepsAnalyzer {
 
             // push unvisited adjacent edges
             unvisitedDeps.stream().forEach(deque::push);
-
 
             // when the adjacent edges of a node are visited, pop it from the path
             while (!path.isEmpty()) {

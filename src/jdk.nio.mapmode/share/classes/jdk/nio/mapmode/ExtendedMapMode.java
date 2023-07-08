@@ -21,24 +21,9 @@
 
 package jdk.nio.mapmode.share.classes.jdk.nio.mapmode;
 
-
 import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
 import java.nio.channels.FileChannel.MapMode;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * JDK-specific map modes.

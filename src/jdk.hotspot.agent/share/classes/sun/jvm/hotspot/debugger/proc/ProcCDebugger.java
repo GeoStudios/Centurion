@@ -21,26 +21,11 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.proc;
 
-
 import java.io.*;
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class ProcCDebugger implements CDebugger {
   private final ProcDebugger dbg;

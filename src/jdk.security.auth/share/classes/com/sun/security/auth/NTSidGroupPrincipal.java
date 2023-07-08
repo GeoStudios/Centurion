@@ -21,22 +21,6 @@
 
 package jdk.security.auth.share.classes.com.sun.security.auth;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class extends {@code NTSid}
  * and represents one of the groups to which a Windows NT user belongs.

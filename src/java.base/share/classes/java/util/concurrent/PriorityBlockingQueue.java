@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util.concurrent;
 
-
 import java.base.share.classes.java.lang.invoke.MethodHandles;
 import java.base.share.classes.java.lang.invoke.VarHandle;
 import java.base.share.classes.java.util.AbstractQueue;
@@ -42,20 +41,6 @@ import java.base.share.classes.java.util.function.Predicate;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.util.java.util.ArraysSupport;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -66,9 +51,6 @@ import jdk.internal.util.java.util.ArraysSupport;
  * Expert Group and released to the public domain, as explained at
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
-
-
-
 
 /**
  * An unbounded {@linkplain BlockingQueue blocking queue} that uses

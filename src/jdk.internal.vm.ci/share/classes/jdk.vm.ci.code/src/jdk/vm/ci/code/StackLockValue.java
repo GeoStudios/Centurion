@@ -21,24 +21,9 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code;
 
-
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.AllocatableValue;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.JavaValue;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.Value;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents lock information in the debug information.

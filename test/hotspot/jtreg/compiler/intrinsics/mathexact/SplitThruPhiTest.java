@@ -21,21 +21,6 @@
 
 package compiler.intrinsics.mathexact;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8028198
@@ -43,7 +28,6 @@ package compiler.intrinsics.mathexact;
  *
  * @run main compiler.intrinsics.mathexact.SplitThruPhiTest
  */
-
 
 public class SplitThruPhiTest {
   public static volatile int value = 19;

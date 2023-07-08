@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.sun.font;
 
-
 import java.text.CharacterIterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class CodePointIterator {
     public static final int DONE = -1;

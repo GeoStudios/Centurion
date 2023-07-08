@@ -21,21 +21,7 @@
 
 package compiler.compilercontrol.share.method;
 
-
 import java.util.regex.Pattern;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class represents an element of the MethodDescriptor

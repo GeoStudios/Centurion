@@ -21,25 +21,11 @@
 
 package compiler.lib.ir_framework.test;
 
-
 import compiler.lib.ir_framework.Check;
 import compiler.lib.ir_framework.CheckAt;
 import compiler.lib.ir_framework.shared.TestRunException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A checked test is an extension of a base test with additional verification done in a @Check method.

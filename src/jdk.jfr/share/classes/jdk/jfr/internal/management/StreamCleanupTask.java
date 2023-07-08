@@ -21,22 +21,7 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.management;
 
-
 import java.util.TimerTask;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Helper class to StreamManager
 final class StreamCleanupTask extends TimerTask {

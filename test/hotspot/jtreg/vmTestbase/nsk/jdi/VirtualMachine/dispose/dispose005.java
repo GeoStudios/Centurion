@@ -21,7 +21,6 @@
 
 package nsk.jdi.VirtualMachine.dispose;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -168,7 +154,6 @@ public class dispose005 {
 
     static ObjectReference threadObjRef = null;
 
-
     public static int   testExitCode = PASSED;
 
     static final int returnCode0 = 0;
@@ -176,7 +161,6 @@ public class dispose005 {
     static final int returnCode2 = 2;
     static final int returnCode3 = 3;
     static final int returnCode4 = 4;
-
 
     static Thread currentThread = Thread.currentThread();
 
@@ -197,7 +181,6 @@ public class dispose005 {
         }
 
         waitTime = argsHandler.getWaitTime();
-
 
         IOPipe pipe     = new IOPipe(debuggee);
 
@@ -250,7 +233,6 @@ public class dispose005 {
             //String bpLine2 = "breakpointLineNumber2";
             //String bpLine3 = "breakpointLineNumber3";
 
-
             List            allThreads   = null;
             ListIterator    listIterator = null;
             List            classes      = null;
@@ -260,8 +242,6 @@ public class dispose005 {
             //BreakpointRequest breakpRequest3 = null;
 
             StackFrame    stackFrame = null;
-
-
 
             label0: {
 
@@ -297,7 +277,6 @@ public class dispose005 {
                 log2("      enabling breakpRequest1");
                 breakpRequest1.enable();
 
-
                 log2("......forcing the main thread to leave synchronized block");
                 pipe.println("continue");
                 line = pipe.readln();
@@ -309,13 +288,11 @@ public class dispose005 {
                 if (expresult != returnCode0)
                     break label1;
 
-
                 log2("      getting BreakpointEvent");
                 expresult = breakpoint();
                 if (expresult != returnCode0)
                     break label1;
                 log2("      testedThread is at breakpoint");
-
 
                 Threaddispose005 thread2 =  new Threaddispose005("Thread2");
                 log2("......thread2 is created");
@@ -339,8 +316,6 @@ public class dispose005 {
                 }
                 log2("mainThread is out of: synchronized (lockingObject)");
 
-
-
                 log2("......line = pipe.readln(); 'method_invoked' is expected");
                 line = pipe.readln();
                 if (!line.equals("method_invoked")) {
@@ -354,7 +329,6 @@ public class dispose005 {
 
                 log2("      vm.dispose()");
                 vm.dispose();
-
 
                 if (!Thread.interrupted()) {
                     log2("      Thread.sleep(waitTime*60000);");
@@ -591,7 +565,6 @@ public class dispose005 {
         return returnCode;
     }
 
-
 }
 
 class Threaddispose005 extends Thread {
@@ -602,7 +575,6 @@ class Threaddispose005 extends Thread {
 
     public static Object waitnotifyObj  = new Object();
     public static Object lockingObject  = new Object();
-
 
     public void run() {
         log("method 'run' enter");
@@ -616,7 +588,6 @@ class Threaddispose005 extends Thread {
             log("entered into block:  synchronized (lockingObject)");
         }
         log("exited from block:  synchronized (lockingObject)");
-
 
         List<Method> invokeMethods  = dispose005.testedclass.methodsByName("runt2");
         Method invokeMethod = invokeMethods.get(0);
@@ -635,7 +606,6 @@ class Threaddispose005 extends Thread {
         }
         log("dispose005.currentThread.interrupt();");
         dispose005.currentThread.interrupt();
-
 
         log("method 'run' exit");
         return;

@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.tree;
 
-
 import java.util.Enumeration;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Defines the requirements for an object that can be used as a

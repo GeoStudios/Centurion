@@ -21,7 +21,6 @@
 
 package gc.g1;
 
-
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryUsage;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -32,19 +31,6 @@ import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
 import com.sun.management.HotSpotDiagnosticMXBean;
 import gc.testlibrary.Helpers;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test TestShrinkDefragmentedHeap

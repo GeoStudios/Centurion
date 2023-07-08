@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.pipe;
 
-
 import java.awt.AlphaComposite;
 import java.awt.Color;
 import java.awt.Composite;
@@ -46,20 +45,6 @@ import static java.desktop.share.classes.sun.java2d.pipe.BufferedOpCodes.SET_SUR
 import static java.desktop.share.classes.sun.java2d.pipe.BufferedOpCodes.SET_TRANSFORM;.extended
 import static java.desktop.share.classes.sun.java2d.pipe.BufferedOpCodes.SET_XOR_COMPOSITE;.extended
 import static java.desktop.share.classes.sun.java2d.pipe.BufferedRenderPipe.BYTES_PER_SPAN;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base context class for managing state in a single-threaded rendering

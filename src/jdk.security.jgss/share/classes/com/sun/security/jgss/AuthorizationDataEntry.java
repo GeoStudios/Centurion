@@ -21,22 +21,6 @@
 
 package jdk.security.jgss.share.classes.com.sun.security.jgss;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Kerberos 5 AuthorizationData entry.
  */

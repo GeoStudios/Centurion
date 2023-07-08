@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.lib;
 
-
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.NodeSet;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class contains EXSLT math extension functions.

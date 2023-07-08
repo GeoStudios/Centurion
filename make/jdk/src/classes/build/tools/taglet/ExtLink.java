@@ -21,56 +21,6 @@
 
 package build.tools.taglet;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An inline tag to conveniently insert an external link.
  * The tag can be used as follows:
@@ -100,7 +50,6 @@ public class ExtLink implements Taglet {
         SPEC_VERSION + "&amp;id=";
 
     static final Pattern TAG_PATTERN = Pattern.compile("(?s)(\\s*)(?<name>\\w+)(\\s+)(?<desc>.*)$");
-
 
     /**
      * Returns the set of locations in which the tag may be used.

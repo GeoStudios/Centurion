@@ -21,25 +21,10 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Wraps a MemoryPanel with a field allowing the user to type in an
     address. */

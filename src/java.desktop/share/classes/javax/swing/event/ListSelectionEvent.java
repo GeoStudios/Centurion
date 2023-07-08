@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing.event;
 
-
 import java.util.EventObject;
 import java.desktop.share.classes.javax.swing.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An event that characterizes a change in selection. The change is limited to a

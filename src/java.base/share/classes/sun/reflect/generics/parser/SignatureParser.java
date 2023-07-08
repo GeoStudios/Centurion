@@ -21,24 +21,9 @@
 
 package java.base.share.classes.sun.reflect.generics.parser;
 
-
 import java.lang.reflect.GenericSignatureFormatError;
 import java.util.*;
 import java.base.share.classes.sun.reflect.generics.tree.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Parser for type signatures, as defined in the Java Virtual
@@ -181,7 +166,6 @@ public class SignatureParser {
         init(s);
         return parseMethodTypeSignature();
     }
-
 
     /**
      * Parses a type signature
@@ -555,7 +539,6 @@ public class SignatureParser {
         }
         return cts.toArray(new ClassTypeSignature[cts.size()]);
     }
-
 
     /**
      * MethodTypeSignature:

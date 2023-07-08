@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.plaf.UIResource;
 import java.awt.Container;
 import java.awt.Dimension;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The default layout manager for Popup menus and menubars.  This

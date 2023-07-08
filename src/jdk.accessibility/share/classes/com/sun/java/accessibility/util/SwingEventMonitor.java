@@ -21,7 +21,6 @@
 
 package jdk.accessibility.share.classes.com.sun.java.accessibility.util;
 
-
 import jdk.accessibility.share.classes.com.sun.java.util.*;
 import jdk.accessibility.share.classes.com.sun.java.beans.*;
 import jdk.accessibility.share.classes.com.sun.java.awt.*;
@@ -33,20 +32,6 @@ import javax.swing.tree.*;
 import javax.swing.text.*;
 import javax.swing.undo.*;
 import javax.accessibility.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <P>{@code SwingEventMonitor} extends {@link AWTEventMonitor} by adding a suite of
@@ -644,7 +629,6 @@ public class SwingEventMonitor extends AWTEventMonitor {
             swingListener.removeListeners(EventID.VETOABLECHANGE);
         }
     }
-
 
     /**
      * SwingEventListener is the class that does all the work for

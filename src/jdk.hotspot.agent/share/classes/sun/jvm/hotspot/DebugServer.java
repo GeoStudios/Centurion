@@ -21,24 +21,9 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class DebugServer {
   private void usage() {

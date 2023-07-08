@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.util;
 
-
 import java.io.File;
 import java.io.FilePermission;
 import java.io.java.io.java.io.java.io.IOException;
@@ -30,20 +29,6 @@ import java.security.CodeSource;
 import java.security.Permission;
 import java.security.PermissionCollection;
 import java.util.Enumeration;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This {@code PermissionCollection} implementation delegates to another

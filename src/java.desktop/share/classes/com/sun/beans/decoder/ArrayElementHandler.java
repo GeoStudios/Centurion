@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.com.sun.beans.decoder;
 
-
 import java.lang.reflect.Array;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is intended to handle &lt;array&gt; element,
@@ -131,7 +116,6 @@ final class ArrayElementHandler extends NewElementHandler {
     protected boolean isArgument() {
         return true; // hack for compatibility
     }
-
 
     /**
      * Creates an instance of the array.

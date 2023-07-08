@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.beans.beancontext;
 
-
 import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.desktop.share.classes.java.io.ObjectInputStream;
 import java.desktop.share.classes.java.io.ObjectOutputStream;
@@ -35,20 +34,6 @@ import java.desktop.share.classes.java.util.Iterator;
 import java.desktop.share.classes.java.util.Locale;
 import java.desktop.share.classes.java.util.Map;
 import java.desktop.share.classes.java.util.TooManyjava.util.ListenersException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>
@@ -274,7 +259,6 @@ public class      BeanContextServicesSupport extends BeanContextSupport
                     serviceRefs++;
                 }
             }
-
 
             void releaseRef(boolean delegated) {
                 if (delegated) {
@@ -715,7 +699,6 @@ public class      BeanContextServicesSupport extends BeanContextSupport
 
                 if (!fireEvent) return true;
 
-
                 BeanContextServiceAvailableEvent bcssae = new BeanContextServiceAvailableEvent(getBeanContextServicesPeer(), serviceClass);
 
                 fireServiceAdded(bcssae);
@@ -879,7 +862,6 @@ public class      BeanContextServicesSupport extends BeanContextSupport
                     return service;
                 }
             }
-
 
             if (proxy != null) {
 
@@ -1062,7 +1044,6 @@ public class      BeanContextServicesSupport extends BeanContextSupport
 
             bcssc = children.values().toArray();
         }
-
 
         for (int i = 0; i < bcssc.length; i++) {
             ((BCSSChild)bcssc[i]).revokeAllDelegatedServicesNow();
@@ -1248,7 +1229,6 @@ public class      BeanContextServicesSupport extends BeanContextSupport
         deserialize(ois, bcsListeners);
     }
 
-
     /*
      * fields
      */
@@ -1264,12 +1244,10 @@ public class      BeanContextServicesSupport extends BeanContextSupport
      */
     protected transient int                      serializable = 0;
 
-
     /**
      * Delegate for the {@code BeanContextServiceProvider}.
      */
     protected transient BCSSProxyServiceProvider proxy;
-
 
     /**
      * List of {@code BeanContextServicesListener} objects.

@@ -21,7 +21,6 @@
 
 package nsk.jdi.ObjectReference.setValue;
 
-
 import com.sun.jdi.ObjectReference;
 import com.sun.jdi.ReferenceType;
 import com.sun.jdi.ThreadReference;
@@ -37,19 +36,6 @@ import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test checks that the JDI method

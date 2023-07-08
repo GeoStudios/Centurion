@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.net;
 
-
 import java.base.share.classes.java.io.OutputStream;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents channels for storing resources in the

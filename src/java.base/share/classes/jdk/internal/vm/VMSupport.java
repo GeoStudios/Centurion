@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.vm;
 
-
 import java.io.ByteArrayOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Properties;
@@ -29,20 +28,6 @@ import java.util.Set;
 import java.util.jar.JarFile;
 import java.util.jar.Manifest;
 import java.util.jar.Attributes;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Support class used by JVMTI and VM attach mechanism.

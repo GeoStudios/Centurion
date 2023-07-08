@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.swing.plaf.nimbus;
 
-
 import sun.awt.AppContext;
 import java.awt.image.BufferedImage;
 import java.lang.ref.SoftReference;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Effect

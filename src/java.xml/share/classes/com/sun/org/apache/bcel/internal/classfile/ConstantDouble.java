@@ -21,25 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
-
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is derived from the abstract  {@link Constant}
@@ -52,7 +37,6 @@ public final class ConstantDouble extends Constant implements ConstantObject {
 
     private double bytes;
 
-
     /**
      * @param bytes Data
      */
@@ -61,14 +45,12 @@ public final class ConstantDouble extends Constant implements ConstantObject {
         this.bytes = bytes;
     }
 
-
     /**
      * Initialize from another object.
      */
     public ConstantDouble(final ConstantDouble c) {
         this(c.getBytes());
     }
-
 
     /**
      * Initialize instance from file data.
@@ -79,7 +61,6 @@ public final class ConstantDouble extends Constant implements ConstantObject {
     ConstantDouble(final DataInput file) throws IOException {
         this(file.readDouble());
     }
-
 
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
@@ -93,7 +74,6 @@ public final class ConstantDouble extends Constant implements ConstantObject {
         v.visitConstantDouble(this);
     }
 
-
     /**
      * Dump constant double to file stream in binary format.
      *
@@ -106,14 +86,12 @@ public final class ConstantDouble extends Constant implements ConstantObject {
         file.writeDouble(bytes);
     }
 
-
     /**
      * @return data, i.e., 8 bytes.
      */
     public double getBytes() {
         return bytes;
     }
-
 
     /**
      * @param bytes the raw bytes that represent the double value
@@ -122,7 +100,6 @@ public final class ConstantDouble extends Constant implements ConstantObject {
         this.bytes = bytes;
     }
 
-
     /**
      * @return String representation.
      */
@@ -130,7 +107,6 @@ public final class ConstantDouble extends Constant implements ConstantObject {
     public String toString() {
         return super.toString() + "(bytes = " + bytes + ")";
     }
-
 
     /** @return Double object
      */

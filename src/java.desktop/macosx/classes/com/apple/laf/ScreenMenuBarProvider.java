@@ -21,22 +21,6 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface ScreenMenuBarProvider {
     ScreenMenuBar getScreenMenuBar();
 }

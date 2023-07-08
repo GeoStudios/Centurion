@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.awt.*;
 import java.util.BitSet;
 import java.util.Vector;
 import java.desktop.share.classes.javax.swing.SizeRequirements;
 import java.desktop.share.classes.javax.swing.event.DocumentEvent;
 import java.desktop.share.classes.javax.swing.text.html.HTML;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>
@@ -369,7 +354,6 @@ public abstract class TableView extends BoxView {
 
         // calculate column requirements for each column
         calculateColumnRequirements(axis);
-
 
         // the requirements are the sum of the columns.
         if (r == null) {
@@ -898,7 +882,6 @@ public abstract class TableView extends BoxView {
         public int getRowCount() {
             return 1;
         }
-
 
         /**
          * Sets the grid location.

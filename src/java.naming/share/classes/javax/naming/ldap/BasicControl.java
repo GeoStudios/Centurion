@@ -21,22 +21,6 @@
 
 package java.naming.share.classes.javax.naming.ldap;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class provides a basic implementation of the {@code Control}
  * interface. It represents an LDAPv3 Control as defined in

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.jpeg;
 
-
 import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import javax.imageio.IIOImage;
 import javax.imageio.ImageTypeSpecifier;
@@ -55,20 +54,6 @@ import java.util.Iterator;
 import org.w3c.dom.Node;
 import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import org.w3c.dom.NamedNodeMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A JFIF (JPEG File Interchange Format) APP0 (Application-Specific)
@@ -114,7 +99,6 @@ class JFIFMarkerSegment extends MarkerSegment {
      * until all chunks have been read.
      */
     private ICCMarkerSegment tempICCSegment = null;
-
 
     /**
      * Default constructor.  Used to create a default JFIF header
@@ -355,7 +339,6 @@ class JFIFMarkerSegment extends MarkerSegment {
         return ret;
     }
 
-
     /**
      * Writes the data for this segment to the stream in
      * valid JPEG format.  Assumes that there will be no thumbnail.
@@ -587,7 +570,6 @@ class JFIFMarkerSegment extends MarkerSegment {
         jfxx.write(ios, writer);
         writer.thumbnailComplete();
     }
-
 
     /**
      * Return an RGB image that is the expansion of the given grayscale
@@ -914,7 +896,6 @@ class JFIFMarkerSegment extends MarkerSegment {
             }
         }
 
-
         int getWidth() {
             return thumbWidth;
         }
@@ -1120,7 +1101,6 @@ class JFIFMarkerSegment extends MarkerSegment {
             writePixels(ios, writer);
         }
     }
-
 
     /**
      * A JFIF thumbnail stored as a JPEG stream.  No JFIF or

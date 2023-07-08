@@ -21,7 +21,6 @@
 
 package test;
 
-
 import java.lang.invoke.MethodHandles.Lookup;
 import static java.lang.invoke.MethodHandles.*;.extended
 import static java.lang.invoke.MethodHandles.Lookup.*;.extended
@@ -36,29 +35,12 @@ import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
 import org.testng.annotations.Test;
 import static org.testng.Assert.*;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* @test
  * @modules java.base/java.lang:open
  *          java.base/jdk.internal.org.objectweb.asm
  * @run testng/othervm test.DefineClassTest
  * @summary Basic test for java.lang.invoke.MethodHandles.Lookup.defineClass
  */
-
-
-
-
 
 public class DefineClassTest {
     private static final String THIS_PACKAGE = DefineClassTest.class.getPackageName();
@@ -171,7 +153,6 @@ public class DefineClassTest {
     }
 
     static void fail() { throw new IllegalCallerException(); }
-
 
     /**
      * Test defineClass to define classes in a package containing classes with

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
-
 import java.awt.*;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangejava.util.Listener;
@@ -31,20 +30,6 @@ import java.desktop.share.classes.javax.swing.plaf.basic.BasicToolTipUI;
 import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
 import java.desktop.share.classes.javax.swing.text.View;
 import sun.swing.SwingUtilities2;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides the Synth L&amp;F UI delegate for

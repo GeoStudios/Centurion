@@ -21,22 +21,6 @@
 
 package java.security.jgss.share.classes.org.ietf.jgss;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This interface encapsulates the GSS-API credentials for an entity.  A
  * credential contains all the necessary cryptographic information to
@@ -110,7 +94,6 @@ public interface GSSCredential extends Cloneable{
      */
     int INITIATE_AND_ACCEPT = 0;
 
-
     /**
      * Credential usage flag requesting that it be usable
      * for context initiation only.
@@ -118,14 +101,12 @@ public interface GSSCredential extends Cloneable{
      */
     int INITIATE_ONLY = 1;
 
-
     /**
      * Credential usage flag requesting that it be usable
      * for context acceptance only.
      *
      */
     int ACCEPT_ONLY = 2;
-
 
     /**
      * A lifetime constant representing the default credential lifetime. This

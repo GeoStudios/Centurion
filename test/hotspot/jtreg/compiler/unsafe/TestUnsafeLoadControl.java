@@ -21,22 +21,8 @@
 
 package compiler.unsafe;
 
-
 import jdk.internal.misc.Unsafe;
 import java.lang.reflect.Field;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -47,9 +33,6 @@ import java.lang.reflect.Field;
  * @run main/othervm -XX:-BackgroundCompilation -XX:-UseOnStackReplacement
  *                   compiler.unsafe.TestUnsafeLoadControl
  */
-
-
-
 
 public class TestUnsafeLoadControl {
 

@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
-
 import java.io.DataInput;
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.Objects;
@@ -29,27 +28,10 @@ import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Type;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.BCELComparator;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * This class represents the method info structure, i.e., the representation
@@ -69,7 +51,6 @@ public final class Method extends FieldOrMethod {
                     && Objects.equals(THIS.getSignature(), THAT.getSignature());
         }
 
-
         @Override
         public int hashCode( final Object o ) {
             final Method THIS = (Method) o;
@@ -87,7 +68,6 @@ public final class Method extends FieldOrMethod {
     public Method() {
     }
 
-
     /**
      * Initialize from another object. Note that both objects use the same
      * references (shallow copy). Use clone() for a physical copy.
@@ -95,7 +75,6 @@ public final class Method extends FieldOrMethod {
     public Method(final Method c) {
         super(c);
     }
-
 
     /**
      * Construct object from file stream.
@@ -107,7 +86,6 @@ public final class Method extends FieldOrMethod {
             ClassFormatException {
         super(file, constant_pool);
     }
-
 
     /**
      * @param access_flags Access rights of method
@@ -121,7 +99,6 @@ public final class Method extends FieldOrMethod {
         super(access_flags, name_index, signature_index, attributes, constant_pool);
     }
 
-
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
      * defined by the contents of a Java class. I.e., the hierarchy of methods,
@@ -134,7 +111,6 @@ public final class Method extends FieldOrMethod {
         v.visitMethod(this);
     }
 
-
     /**
      * @return Code attribute of method, if any
      */
@@ -146,7 +122,6 @@ public final class Method extends FieldOrMethod {
         }
         return null;
     }
-
 
     /**
      * @return ExceptionTable attribute of method, if any, i.e., list all
@@ -161,7 +136,6 @@ public final class Method extends FieldOrMethod {
         return null;
     }
 
-
     /** @return LocalVariableTable of code attribute if any, i.e. the call is forwarded
      * to the Code atribute.
      */
@@ -173,7 +147,6 @@ public final class Method extends FieldOrMethod {
         return code.getLocalVariableTable();
     }
 
-
     /** @return LineNumberTable of code attribute if any, i.e. the call is forwarded
      * to the Code atribute.
      */
@@ -184,7 +157,6 @@ public final class Method extends FieldOrMethod {
         }
         return code.getLineNumberTable();
     }
-
 
     /**
      * Return string representation close to declaration format,
@@ -218,14 +190,12 @@ public final class Method extends FieldOrMethod {
         return buf.toString();
     }
 
-
     /**
      * @return deep copy of this method
      */
     public Method copy( final ConstantPool _constant_pool ) {
         return (Method) copy_(_constant_pool);
     }
-
 
     /**
      * @return return type of method
@@ -234,14 +204,12 @@ public final class Method extends FieldOrMethod {
         return Type.getReturnType(getSignature());
     }
 
-
     /**
      * @return array of method argument types
      */
     public Type[] getArgumentTypes() {
         return Type.getArgumentTypes(getSignature());
     }
-
 
     /**
      * @return Comparison strategy object
@@ -250,14 +218,12 @@ public final class Method extends FieldOrMethod {
         return bcelComparator;
     }
 
-
     /**
      * @param comparator Comparison strategy object
      */
     public static void setComparator( final BCELComparator comparator ) {
         bcelComparator = comparator;
     }
-
 
     /**
      * Return value as defined by given BCELComparator strategy.
@@ -270,7 +236,6 @@ public final class Method extends FieldOrMethod {
     public boolean equals( final Object obj ) {
         return bcelComparator.equals(this, obj);
     }
-
 
     /**
      * Return value as defined by given BCELComparator strategy.

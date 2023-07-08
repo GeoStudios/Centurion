@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.reflect;
 
-
 import java.lang.reflect.*;
 import java.util.HashMap;
 import java.util.Map;
@@ -30,20 +29,6 @@ import java.util.Set;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import java.base.share.classes.jdk.internal.misc.VM;
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Common utility routines used by both java.lang and
     java.lang.reflect */
@@ -91,7 +76,6 @@ public class Reflection {
         valid. */
     @IntrinsicCandidate
     public static native int getClassAccessFlags(Class<?> c);
-
 
     /**
      * Ensures that access to a member is granted and throws

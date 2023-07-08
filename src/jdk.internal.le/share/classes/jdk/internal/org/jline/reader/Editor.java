@@ -21,23 +21,8 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.reader;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public interface Editor {
     void open(List<String> files) throws IOException;

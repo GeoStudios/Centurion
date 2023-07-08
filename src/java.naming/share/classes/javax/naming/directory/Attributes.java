@@ -21,25 +21,10 @@
 
 package java.naming.share.classes.javax.naming.directory;
 
-
 import java.util.Hashtable;
 import java.util.Enumeration;
 import java.naming.share.classes.javax.naming.NamingException;
 import java.naming.share.classes.javax.naming.NamingEnumeration;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * This interface represents a collection of attributes.

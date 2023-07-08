@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.security.interfaces;
 
-
 import java.base.share.classes.java.security.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An interface to an object capable of generating DSA key pairs.

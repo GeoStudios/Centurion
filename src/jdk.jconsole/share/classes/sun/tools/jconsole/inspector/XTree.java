@@ -21,7 +21,6 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.*;
 import javax.management.*;
@@ -32,20 +31,6 @@ import jdk.jconsole.share.classes.sun.tools.jconsole.MBeansTab;
 import jdk.jconsole.share.classes.sun.tools.jconsole.Messages;
 import jdk.jconsole.share.classes.sun.tools.jconsole.inspector.XNodeInfo;
 import static jdk.jconsole.share.classes.sun.tools.jconsole.inspector.XNodeInfo.Type;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("serial")
 public class XTree extends JTree {

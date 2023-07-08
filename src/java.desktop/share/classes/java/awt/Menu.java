@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.event.KeyEvent;
 import java.desktop.share.classes.java.awt.peer.MenuPeer;
 import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
@@ -35,20 +34,6 @@ import javax.accessibility.Accessible;
 import javax.accessibility.AccessibleContext;
 import javax.accessibility.AccessibleRole;
 import sun.awt.AWTAccessor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code Menu} object is a pull-down menu component
@@ -514,7 +499,6 @@ public class Menu extends MenuItem implements MenuContainer, Accessible {
         }
     }
 
-
     /* Serialization support.  A MenuContainer is responsible for
      * restoring the parent fields of its children.
      */
@@ -584,7 +568,6 @@ public class Menu extends MenuItem implements MenuContainer, Accessible {
      * Initialize JNI field and method IDs
      */
     private static native void initIDs();
-
 
 /////////////////
 // Accessibility support

@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.util.function;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Represents an operation that accepts an object-valued and a
  * {@code double}-valued argument, and returns no result.  This is the

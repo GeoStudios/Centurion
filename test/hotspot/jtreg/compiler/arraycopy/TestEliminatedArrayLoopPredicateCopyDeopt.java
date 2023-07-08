@@ -21,21 +21,6 @@
 
 package compiler.arraycopy;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8134974
@@ -44,7 +29,6 @@ package compiler.arraycopy;
  * @run main/othervm -XX:-BackgroundCompilation -XX:-UseOnStackReplacement
  *                   compiler.arraycopy.TestEliminatedArrayLoopPredicateCopyDeopt
  */
-
 
 public class TestEliminatedArrayLoopPredicateCopyDeopt {
 

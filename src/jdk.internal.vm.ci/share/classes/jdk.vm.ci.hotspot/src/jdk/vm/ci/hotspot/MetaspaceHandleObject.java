@@ -21,22 +21,6 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A tag interface indicating that this type is a handledized wrapper around a HotSpot metaspace
  * object that requires GC interaction to keep alive.

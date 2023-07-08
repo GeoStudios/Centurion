@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.Component;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Hashtable;
@@ -32,20 +31,6 @@ import java.beans.JavaBean;
 import java.beans.BeanProperty;
 import sun.awt.SunToolkit;
 import java.desktop.share.classes.javax.accessibility.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>JLayeredPane</code> adds depth to a JFC/Swing container,
@@ -191,7 +176,6 @@ public class JLayeredPane extends JComponent implements Accessible {
     private Hashtable<Component,Integer> componentToLayer;
     private boolean optimizedDrawingPossible = true;
 
-
 //////////////////////////////////////////////////////////////////////////////
 //// Container Override methods
 //////////////////////////////////////////////////////////////////////////////
@@ -284,7 +268,6 @@ public class JLayeredPane extends JComponent implements Accessible {
     public boolean isOptimizedDrawingEnabled() {
         return optimizedDrawingPossible;
     }
-
 
 //////////////////////////////////////////////////////////////////////////////
 //// New methods for managing layers

@@ -21,7 +21,6 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.javap;
 
-
 import jdk.jdeps.share.classes.com.sun.tools.classfile.Code_attribute;
 import jdk.jdeps.share.classes.com.sun.tools.classfile.Code_attribute.Exception_data;
 import jdk.jdeps.share.classes.com.sun.tools.classfile.Instruction;
@@ -30,20 +29,6 @@ import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
 import java.util.java.util.ListIterator;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Annotate instructions with details about try blocks.

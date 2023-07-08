@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class AssertionFailure extends RuntimeException {
   public AssertionFailure() {
     super();

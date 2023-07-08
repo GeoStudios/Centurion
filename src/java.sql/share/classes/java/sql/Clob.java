@@ -21,22 +21,7 @@
 
 package java.sql.share.classes.java.sql;
 
-
 import java.sql.share.classes.java.io.Reader;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The mapping in the Java programming language

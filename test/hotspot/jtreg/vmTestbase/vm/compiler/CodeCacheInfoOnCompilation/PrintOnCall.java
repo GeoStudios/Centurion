@@ -21,21 +21,6 @@
 
 package vm.compiler.CodeCacheInfoOnCompilation;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class PrintOnCall {
     public static void printOnCall() {
         System.out.println("PrintOnCall");

@@ -21,7 +21,6 @@
 
 package build.tools.jfr;
 
-
 import java.io.BufferedOutputStream;
 import java.io.Closeable;
 import java.io.DataOutputStream;
@@ -47,19 +46,6 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 import org.xml.sax.helpers.DefaultHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Purpose of this program is twofold:

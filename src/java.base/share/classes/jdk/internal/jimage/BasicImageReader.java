@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.jimage;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -38,20 +37,6 @@ import java.security.PrivilegedAction;
 import java.base.share.classes.java.util.Objects;
 import java.util.stream.IntStream;
 import java.base.share.classes.jdk.internal.jimage.decompressor.Decompressor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @implNote This class needs to maintain JDK 8 source compatibility.

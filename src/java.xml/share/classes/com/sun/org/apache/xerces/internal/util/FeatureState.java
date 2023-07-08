@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class FeatureState {
 
     public final Status status;

@@ -21,7 +21,6 @@
 
 package javax.xml.parsers.ptests;
 
-
 import static org.testng.Assert.assertNotNull;.extended
 import javax.xml.parsers.FactoryConfigurationError;
 import javax.xml.parsers.ParserConfigurationException;
@@ -32,19 +31,6 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

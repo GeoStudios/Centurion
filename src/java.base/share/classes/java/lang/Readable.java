@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.lang;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code Readable} is a source of characters. Characters from

@@ -21,21 +21,6 @@
 
 package compiler.print;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8230943
@@ -44,7 +29,6 @@ package compiler.print;
  *                   compiler.print.PrintCompileQueue
  *
  */
-
 
 public class PrintCompileQueue {
     public static void main(String[] args) {

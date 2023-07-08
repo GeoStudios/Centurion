@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import sun.swing.DefaultLookup;
 import sun.swing.UIAction;
 import java.awt.*;
@@ -33,20 +32,6 @@ import java.desktop.share.classes.javax.swing.plaf.*;
 import java.desktop.share.classes.javax.swing.border.*;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Arrayjava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A default L&amp;F implementation of MenuUI.  This implementation
@@ -96,7 +81,6 @@ public class BasicMenuUI extends BasicMenuItemUI
         BasicMenuItemUI.loadActionMap(map);
         map.put(new Actions(Actions.SELECT, null, true));
     }
-
 
     protected void installDefaults() {
         super.installDefaults();
@@ -620,7 +604,6 @@ public class BasicMenuUI extends BasicMenuItemUI
         }
         public void mouseMoved(MouseEvent e) {
         }
-
 
         //
         // MenuDragHandler

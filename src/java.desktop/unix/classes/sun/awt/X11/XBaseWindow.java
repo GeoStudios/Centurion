@@ -21,25 +21,10 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.*;
 import java.desktop.unix.classes.sun.awt.*;
 import java.util.*;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class XBaseWindow {
     private static final PlatformLogger log = PlatformLogger.getLogger("sun.awt.X11.XBaseWindow");
@@ -491,7 +476,6 @@ public class XBaseWindow {
         return wmHints;
     }
 
-
     /*
      * Call this method under AWTLock.
      * The lock should be acquired untill all operations with XSizeHints are completed.
@@ -611,7 +595,6 @@ public class XBaseWindow {
     public Dimension getSize() {
         return new Dimension(width, height);
     }
-
 
     public void toFront() {
         XToolkit.awtLock();
@@ -881,7 +864,6 @@ public class XBaseWindow {
                 | XConstants.EnterWindowMask | XConstants.LeaveWindowMask | XConstants.PointerMotionMask
                 | XConstants.ButtonMotionMask);
             final int ownerEvents = 1;
-
 
             //6714678: IDE (Netbeans, Eclipse, JDeveloper) Debugger hangs
             //process on Linux

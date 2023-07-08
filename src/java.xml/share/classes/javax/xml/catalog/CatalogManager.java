@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.javax.xml.catalog;
 
-
 import java.net.URI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The Catalog Manager manages the creation of XML Catalogs and Catalog Resolvers.

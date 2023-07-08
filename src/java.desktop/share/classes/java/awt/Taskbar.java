@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.peer.TaskbarPeer;
 import sun.awt.SunToolkit;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code Taskbar} class allows a Java application to interact with
@@ -408,7 +393,6 @@ public class Taskbar {
             peer.setWindowIconBadge(w, badge);
         }
     }
-
 
     /**
      * Affixes a small system-provided progress bar to this application's icon.

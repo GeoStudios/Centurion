@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.lang;
 
-
 import java.base.share.classes.java.lang.annotation.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A programmer assertion that the body of the annotated method or

@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.util.Vector;
 import java.io.Serializable;
 import java.desktop.share.classes.javax.swing.undo.*;
 import java.desktop.share.classes.javax.swing.SwingUtilities;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of the AbstractDocument.Content interface that is
@@ -454,7 +439,6 @@ public final class StringContent implements AbstractDocument.Content, Serializab
         @SuppressWarnings("rawtypes") // UndoPosRef type cannot be exposed
         protected Vector posRefs;
     }
-
 
     /**
      * UndoableEdit created for removes.

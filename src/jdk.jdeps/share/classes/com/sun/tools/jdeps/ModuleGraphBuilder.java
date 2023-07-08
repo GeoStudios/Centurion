@@ -21,7 +21,6 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.jdeps;
 
-
 import java.io.PrintWriter;
 import java.lang.module.ModuleDescriptor;
 import java.util.Deque;
@@ -33,20 +32,6 @@ import java.util.Set;
 import java.util.stream.Stream;
 import static java.lang.module.ModuleDescriptor.Requires.Modifier.*;.extended
 import static jdk.jdeps.share.classes.com.sun.tools.jdeps.Module.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A builder to create a Graph<Module>

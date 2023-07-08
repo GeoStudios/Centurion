@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.print.attribute;
 
-
 import java.io.Serial;
 import java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class {@code ResolutionSyntax} is an abstract base class providing the common

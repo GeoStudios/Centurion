@@ -21,25 +21,10 @@
 
 package utils.IdealGraphVisualizer.Data.src.test.java.com.sun.hotspot.igv.data;
 
-
 import static org.hamcrest.CoreMatchers.is;.extended
 import static org.hamcrest.CoreMatchers.nullValue;.extended
 import static org.junit.Assert.assertThat;.extended
 import org.junit.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *
@@ -64,7 +49,6 @@ public class InputMethodTest {
     @After
     public void tearDown() {
     }
-
 
     /**
      * Test of getBytecodes method, of class InputMethod.
@@ -100,6 +84,5 @@ public class InputMethodTest {
         assertThat(m.getBytecodes().get(2).getInlined(), nullValue());
         assertThat(m.getBytecodes().get(6).getInlined(), nullValue());
     }
-
 
 }

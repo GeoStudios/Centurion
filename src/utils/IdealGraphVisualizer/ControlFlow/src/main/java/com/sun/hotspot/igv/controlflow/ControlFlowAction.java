@@ -21,25 +21,10 @@
 
 package utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.controlflow;
 
-
 import utils.IdealGraphVisualizer.ControlFlow.src.main.java.awt.event.ActionEvent;
 import javax.swing.AbstractAction;
 import org.openide.util.NbBundle;
 import org.openide.windows.TopComponent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

@@ -21,21 +21,6 @@
 
 package nsk.jdi.Method.isObsolete;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //    THIS TEST IS LINE NUMBER SENSITIVE
 /**
  * This is the class to be redefined for isobsolete003 JDI test.

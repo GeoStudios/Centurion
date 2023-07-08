@@ -21,26 +21,11 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.functions;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XBoolean;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Execute the False() function.

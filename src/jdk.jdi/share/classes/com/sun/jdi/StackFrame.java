@@ -21,25 +21,10 @@
 
 package jdk.jdi.share.classes.com.sun.jdi;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import jdk.jdi.share.classes.com.sun.jdi.event.EventQueue;
 import jdk.jdi.share.classes.com.sun.jdi.event.VMDisconnectEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The state of one method invocation on a thread's call stack.

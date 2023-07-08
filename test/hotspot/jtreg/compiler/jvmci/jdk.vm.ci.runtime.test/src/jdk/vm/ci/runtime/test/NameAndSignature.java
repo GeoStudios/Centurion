@@ -21,7 +21,6 @@
 
 package jdk.vm.ci.runtime.test;
 
-
 import jdk.vm.ci.meta.MetaAccessProvider;
 import jdk.vm.ci.meta.ResolvedJavaMethod;
 import jdk.vm.ci.meta.ResolvedJavaType;
@@ -29,19 +28,6 @@ import jdk.vm.ci.meta.Signature;
 import jdk.vm.ci.runtime.JVMCI;
 import java.lang.reflect.Method;
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class NameAndSignature {
 

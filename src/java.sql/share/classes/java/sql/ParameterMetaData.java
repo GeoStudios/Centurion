@@ -21,22 +21,6 @@
 
 package java.sql.share.classes.java.sql;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An object that can be used to get information about the types
  * and properties for each parameter marker in a
@@ -147,7 +131,6 @@ public interface ParameterMetaData extends Wrapper {
      * @throws SQLException if a database access error occurs
      */
     String getParameterTypeName(int param) throws SQLException;
-
 
     /**
      * Retrieves the fully-qualified name of the Java class whose instances

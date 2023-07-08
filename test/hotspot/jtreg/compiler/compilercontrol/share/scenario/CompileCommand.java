@@ -21,21 +21,7 @@
 
 package compiler.compilercontrol.share.scenario;
 
-
 import compiler.compilercontrol.share.method.MethodDescriptor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Compile Command description interface
@@ -69,7 +55,6 @@ public class CompileCommand {
         this.type = type;
         this.argument = argument;
     }
-
 
     /**
      * Shows that this compile command is valid

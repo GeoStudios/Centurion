@@ -21,25 +21,10 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Arcs_Curves;
 
-
 import java.awt.*;
 import java.awt.geom.Ellipse2D;
 import demo.share.jfc.J2Ddemo.java2d.AnimatingSurface;
 import static java.awt.Color.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Ellipse2D 25 animated expanding ellipses.

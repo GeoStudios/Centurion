@@ -21,27 +21,12 @@
 
 package java.management.share.classes.javax.management;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.io.StreamCorruptedException;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Provides general information for an MBean descriptor object.
@@ -52,7 +37,6 @@ import java.base.share.classes.java.util.Objects;
  *
  */
 public class MBeanFeatureInfo implements Serializable, DescriptorRead {
-
 
     /* Serial version */
     static final long serialVersionUID = 3952882688968447265L;
@@ -80,7 +64,6 @@ public class MBeanFeatureInfo implements Serializable, DescriptorRead {
      * can be null, which is equivalent to an empty Descriptor.
      */
     private transient Descriptor descriptor;
-
 
     /**
      * Constructs an <CODE>MBeanFeatureInfo</CODE> object.  This

@@ -21,22 +21,7 @@
 
 package jdk.management.agent.share.classes.jdk.internal.agent.spi;
 
-
 import java.util.Properties;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Service interface for management agent

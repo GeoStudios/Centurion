@@ -21,28 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /** <p>Like DTMStringPool, but threadsafe. It's been proposed that DTMs
  * share their string pool(s); that raises threadsafety issues which

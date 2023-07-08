@@ -21,22 +21,7 @@
 
 package java.base.share.classes.jdk.internal.jimage;
 
-
 import java.nio.ByteBuffer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @implNote This class needs to maintain JDK 8 source compatibility.

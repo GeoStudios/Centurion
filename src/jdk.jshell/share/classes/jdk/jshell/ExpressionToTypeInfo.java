@@ -21,7 +21,6 @@
 
 package jdk.jshell.share.classes.jdk.jshell;
 
-
 import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -61,20 +60,6 @@ import jdk.jshell.share.classes.jdk.jshell.ExpressionToTypeInfo.ExpressionInfo.A
 import jdk.jshell.share.classes.jdk.jshell.ExpressionToTypeInfo.ExpressionInfo.AnonymousDescription.VariableDesc;
 import jdk.jshell.share.classes.jdk.jshell.TaskFactory.AnalyzeTask;
 import jdk.jshell.share.classes.jdk.jshell.TypePrinter.AnonymousTypeKind;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Compute information about an expression string, particularly its type name.

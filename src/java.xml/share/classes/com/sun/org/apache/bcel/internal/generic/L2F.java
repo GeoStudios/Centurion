@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * L2F - Convert long to float
@@ -53,7 +36,6 @@ public class L2F extends ConversionInstruction {
     public L2F() {
         super(com.sun.org.apache.bcel.internal.Const.L2F);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

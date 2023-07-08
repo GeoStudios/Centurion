@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.net;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Thrown to indicate that there is an error creating or accessing a Socket.

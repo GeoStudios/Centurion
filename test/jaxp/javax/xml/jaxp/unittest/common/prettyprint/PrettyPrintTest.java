@@ -21,7 +21,6 @@
 
 package common.prettyprint;
 
-
 import java.io.ByteArrayInputStream;
 import static jaxp.library.JAXPTestUtilities.clearSystemProperty;.extended
 import static jaxp.library.JAXPTestUtilities.setSystemProperty;.extended
@@ -56,19 +55,6 @@ import org.w3c.dom.ls.LSOutput;
 import org.w3c.dom.ls.LSSerializer;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -338,7 +324,6 @@ public class PrettyPrintTest {
                 expected);
     }
 
-
     /*
      * @bug 8087303
      * Test a single text node is serialized with pretty-print by
@@ -378,7 +363,6 @@ public class PrettyPrintTest {
         String expected = read("nodetest2ls.out");
         assertEquals(serializerWrite(xml, true), expected);
     }
-
 
     /*
      * test whitespace and element, nested xml:space property.

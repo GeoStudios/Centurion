@@ -21,7 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal;
 
-
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Linkedjava.util.java.util.java.util.List;
@@ -30,20 +29,6 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.security.jgss.share.classes.sun.security.krb5.Credentials;
 import java.security.jgss.share.classes.sun.security.krb5.PrincipalName;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * ReferralsCache class implements a cache scheme for referral TGTs as

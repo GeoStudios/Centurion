@@ -21,7 +21,6 @@
 
 package compiler.jvmci.events;
 
-
 import compiler.jvmci.common.CTVMUtilities;
 import compiler.jvmci.common.testcases.SimpleClass;
 import jdk.test.lib.Asserts;
@@ -41,19 +40,6 @@ import jdk.vm.ci.hotspot.HotSpotVMEventjava.util.Listener;
 import jdk.vm.ci.meta.Assumptions.Assumption;
 import jdk.vm.ci.meta.ResolvedJavaMethod;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -90,9 +76,6 @@ import java.lang.reflect.Method;
  *     -XX:-UseJVMCINativeLibrary
  *     compiler.jvmci.events.JvmciNotifyInstallEventTest
  */
-
-
-
 
 public class JvmciNotifyInstallEventTest extends JVMCIServiceLocator implements HotSpotVMEventListener {
     private static final String METHOD_NAME = "testMethod";

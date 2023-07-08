@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.opto;
 
-
 import java.util.*;
 import java.io.PrintStream;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ci.*;
@@ -32,20 +31,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.GrowableArray;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class InlineTree extends VMObject {
   static {

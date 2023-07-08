@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Interface for <code>View</code>s that have size dependent upon tabs.
  *

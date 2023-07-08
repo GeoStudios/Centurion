@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.security;
 
-
 import java.base.share.classes.java.io.*;
 import java.base.share.classes.java.security.cert.CertPath;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class encapsulates information about a code signer.

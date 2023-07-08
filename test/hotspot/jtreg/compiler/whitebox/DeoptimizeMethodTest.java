@@ -21,21 +21,6 @@
 
 package compiler.whitebox;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test DeoptimizeMethodTest
  * @bug 8006683 8007288 8022832
@@ -50,7 +35,6 @@ package compiler.whitebox;
  *                   -XX:CompileCommand=compileonly,compiler.whitebox.SimpleTestCaseHelper::*
  *                   compiler.whitebox.DeoptimizeMethodTest
  */
-
 
 public class DeoptimizeMethodTest extends CompilerWhiteBoxTest {
 

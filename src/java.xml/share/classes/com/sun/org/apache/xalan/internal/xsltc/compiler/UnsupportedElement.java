@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.INVOKESTATIC;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Instructionjava.util.java.util.java.util.List;
@@ -35,26 +34,9 @@ import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.u
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: UnsupportedElement.java,v 1.2.4.1 2005/09/05 09:26:51 pvedula Exp $
  */
-
-
-
 
 /**
  * @LastModified: Oct 2017
@@ -95,7 +77,6 @@ final class UnsupportedElement extends SyntaxTreeNode {
                      ":" + _qname.getLocalPart());
         displayContents(indent + IndentIncrement);
     }
-
 
     /**
      * Scan and process all fallback children of the unsupported element.

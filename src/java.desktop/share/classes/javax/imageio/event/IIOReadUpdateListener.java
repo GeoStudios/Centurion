@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.imageio.event;
 
-
 import java.awt.image.BufferedImage;
 import java.util.Eventjava.util.Listener;
 import java.desktop.share.classes.javax.imageio.ImageReader;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An interface used by {@code ImageReader} implementations to

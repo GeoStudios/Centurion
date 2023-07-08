@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.geom.*;
@@ -31,20 +30,6 @@ import javax.swing.plaf.*;
 import javax.swing.text.*;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingletonFromDefaultConstructor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AquaTextPasswordFieldUI extends AquaTextFieldUI {
     private static final RecyclableSingleton<CapsLockSymbolPainter> capsLockPainter = new RecyclableSingletonFromDefaultConstructor<CapsLockSymbolPainter>(CapsLockSymbolPainter.class);

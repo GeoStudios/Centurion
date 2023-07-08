@@ -21,7 +21,6 @@
 
 package jdk.jlink.share.classes.jdk.tools.jmod;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -79,20 +78,6 @@ import jdk.jlink.share.classes.jdk.internal.module.ModuleTarget;
 import jdk.jlink.share.classes.jdk.internal.module.Resources;
 import jdk.jlink.share.classes.jdk.tools.jlink.internal.Utils;
 import static java.util.stream.Collectors.joining;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation for the jmod tool.
@@ -717,7 +702,6 @@ public class JmodTask {
             return name.endsWith(".class") || Resources.canEncapsulate(name);
         }
 
-
         String toPackageName(Path path) {
             String name = path.toString();
             int index = name.lastIndexOf(File.separatorChar);
@@ -1340,7 +1324,6 @@ public class JmodTask {
                 = parser.accepts("legal-notices", getMessage("main.opt.legal-notices"))
                         .withRequiredArg()
                         .withValuesConvertedBy(DirPathConverter.INSTANCE);
-
 
         OptionSpec<String> mainClass
                 = parser.accepts("main-class", getMessage("main.opt.main-class"))

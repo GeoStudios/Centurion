@@ -21,24 +21,10 @@
 
 package compiler.jsr292;
 
-
 import sun.hotspot.WhiteBox;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -51,9 +37,6 @@ import java.lang.invoke.MethodType;
  *      -XX:CompileCommand=compileonly,compiler.jsr292.InvokerGC::test
  *      compiler.jsr292.InvokerGC
  */
-
-
-
 
 public class InvokerGC {
     static final WhiteBox WB = WhiteBox.getWhiteBox();

@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.websocket;
 
-
 import java.net.http.share.classes.jdk.internal.net.http.common.Log;
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
@@ -31,20 +30,6 @@ import java.nio.charset.CoderResult;
 import java.nio.charset.CodingErrorAction;
 import static java.nio.charset.StandardCharsets.UTF_8;.extended
 import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.EMPTY_BYTEBUFFER;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class UTF8AccumulatingDecoder {
 

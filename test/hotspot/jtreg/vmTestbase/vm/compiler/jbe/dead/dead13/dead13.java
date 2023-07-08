@@ -21,21 +21,6 @@
 
 package vm.compiler.jbe.dead.dead13;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  *
@@ -46,7 +31,6 @@ package vm.compiler.jbe.dead.dead13;
  *          /test/lib
  * @run main/othervm vm.compiler.jbe.dead.dead13.dead13
  */
-
 
 // dead13.java
 

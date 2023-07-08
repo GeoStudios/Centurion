@@ -21,7 +21,6 @@
 
 package parsers;
 
-
 import java.io.FileInputStream;
 import javax.xml.parsers.DocumentBuilderFactory;
 import org.testng.Assert;
@@ -33,19 +32,6 @@ import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import org.xml.sax.InputSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

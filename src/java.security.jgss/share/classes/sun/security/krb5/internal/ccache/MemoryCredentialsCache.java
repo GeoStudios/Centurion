@@ -21,25 +21,10 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal.ccache;
 
-
 import java.security.jgss.share.classes.sun.security.krb5.*;
 import java.security.jgss.share.classes.sun.security.krb5.internal.*;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.File;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //Windows supports the "API: cache" type, which is a shared memory cache.  This is
 //implemented by krbcc32.dll as part of the MIT Kerberos for Win32 distribution.
@@ -59,7 +44,6 @@ public abstract class MemoryCredentialsCache extends CredentialsCache {
     private static CredentialsCache getCCacheInstance(PrincipalName p, File cacheFile) {
         return null;
     }
-
 
     public abstract boolean exists(String cache);
 

@@ -21,25 +21,10 @@
 
 package jdk.management.unix.classes.com.sun.management.internal;
 
-
 import jdk.internal.platform.Metrics;
 import jdk.management.unix.classes.com.sun.management.BaseOperatingSystemImpl;
 import jdk.management.unix.classes.com.sun.management.VMManagement;
 import java.util.concurrent.TimeUnit;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation class for the operating system.

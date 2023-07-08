@@ -21,26 +21,11 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.x86;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.x86.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.interpreter.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** <P> Should be able to be used on all x86 platforms we support
     (Win32, Solaris/x86, and soon Linux) to implement JavaThread's

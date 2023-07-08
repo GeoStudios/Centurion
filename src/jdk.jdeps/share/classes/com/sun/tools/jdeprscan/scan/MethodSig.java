@@ -21,24 +21,9 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.jdeprscan.scan;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents a method's signature, that is, its parameter types

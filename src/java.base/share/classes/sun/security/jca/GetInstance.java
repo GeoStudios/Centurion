@@ -21,24 +21,9 @@
 
 package java.base.share.classes.sun.security.jca;
 
-
 import java.util.*;
 import java.base.share.classes.java.security.*;
 import java.security.Provider.Service;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Collection of utility methods to facilitate implementing getInstance()

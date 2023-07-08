@@ -21,22 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
-
 import java.lang.reflect.Array;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** <p><b>This is NOT part of any supported API.
  *  If you write code that depends on this, you do so at your own risk.

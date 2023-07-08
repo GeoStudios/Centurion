@@ -21,7 +21,6 @@
 
 package catalog;
 
-
 import java.net.URI;
 import java.nio.file.Paths;
 import javax.xml.catalog.CatalogFeatures;
@@ -33,19 +32,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -83,7 +69,6 @@ public class GroupTest extends CatalogSupportBase {
         Source src = resolver.resolve(uri, null);
         Assert.assertTrue(src.getSystemId().endsWith(expected), "uriSuffix match");
     }
-
 
     /*
        DataProvider: for testing catalogs with group entries

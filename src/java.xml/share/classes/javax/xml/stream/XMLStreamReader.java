@@ -21,23 +21,8 @@
 
 package java.xml.share.classes.javax.xml.stream;
 
-
 import java.xml.share.classes.javax.xml.namespace.NamespaceContext;
 import java.xml.share.classes.javax.xml.namespace.QName;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  The XMLStreamReader interface allows forward, read-only access to XML.
@@ -366,7 +351,6 @@ public interface XMLStreamReader extends XMLStreamConstants {
    * @return true if the cursor points to all whitespace, false otherwise
    */
   boolean isWhiteSpace();
-
 
   /**
    * Returns the normalized attribute value of the

@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ALOAD;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ASTORE;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.BranchHandle;
@@ -35,20 +34,6 @@ import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Instructi
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.PUSH;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.Constants;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.Flowjava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @LastModified: Oct 2017
@@ -153,7 +138,6 @@ public final class NodeSetType extends Type {
             classGen.getParser().reportError(Constants.FATAL, err);
         }
     }
-
 
     /**
      * Translates a node-set into a synthesized boolean.
@@ -331,7 +315,6 @@ public final class NodeSetType extends Type {
     public String getClassName() {
         return(NODE_ITERATOR);
     }
-
 
     public Instruction LOAD(int slot) {
         return new ALOAD(slot);

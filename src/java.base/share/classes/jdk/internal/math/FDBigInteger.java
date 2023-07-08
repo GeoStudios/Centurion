@@ -21,24 +21,9 @@
 
 package java.base.share.classes.jdk.internal.math;
 
-
 import java.base.share.classes.jdk.internal.misc.CDS;
 import java.math.BigInteger;
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //@ model import org.jmlspecs.models.JMLMath;
 
@@ -558,7 +543,6 @@ public /*@ spec_bigint_math @*/ class FDBigInteger {
     private /*@ pure @*/ int size() {
         return nWords + offset;
     }
-
 
     /**
      * Computes
@@ -1237,7 +1221,6 @@ public /*@ spec_bigint_math @*/ class FDBigInteger {
         return new FDBigInteger(r, 0);
     }
 
-
     /**
      * Multiplies a <code>FDBigInteger</code> by an int and adds another int. The
      * result is computed in place. This method is intended only to be invoked
@@ -1348,7 +1331,6 @@ public /*@ spec_bigint_math @*/ class FDBigInteger {
         }
         return diff;
     }
-
 
     /**
      * Multiplies by 10 a big integer represented as an array. The final carry

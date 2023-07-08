@@ -21,25 +21,11 @@
 
 package nsk.monitoring.MemoryPoolMBean.getPeakUsage;
 
-
 import java.io.*;
 import java.lang.management.*;
 import java.util.*;
 import nsk.share.*;
 import nsk.monitoring.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class getpeak001 {
     private static boolean testFailed = false;

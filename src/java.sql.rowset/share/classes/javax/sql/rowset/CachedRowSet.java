@@ -21,7 +21,6 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset;
 
-
 import java.sql.*;
 import java.sql.rowset.share.classes.javax.sql.*;
 import java.sql.rowset.share.classes.javax.naming.*;
@@ -29,20 +28,6 @@ import java.io.*;
 import java.math.*;
 import java.util.*;
 import java.sql.rowset.share.classes.javax.sql.rowset.spi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The interface that all standard implementations of
@@ -928,7 +913,6 @@ public interface CachedRowSet extends RowSet, Joinable {
     */
    void undoInsert() throws SQLException;
 
-
    /**
     * Immediately reverses the last update operation if the
     * row has been modified. This method can be
@@ -961,7 +945,6 @@ public interface CachedRowSet extends RowSet, Joinable {
     * @see java.sql.DatabaseMetaData#updatesAreDetected
     */
    boolean columnUpdated(int idx) throws SQLException;
-
 
    /**
     * Indicates whether the designated column in the current row of this
@@ -1303,7 +1286,6 @@ public interface CachedRowSet extends RowSet, Joinable {
 
     */
    void setKeyColumns(int[] keys) throws SQLException;
-
 
    /**
     * Returns a new <code>RowSet</code> object backed by the same data as

@@ -21,22 +21,8 @@
 
 package compiler.c2.aarch64;
 
-
 import java.lang.reflect.Field;
 import jdk.internal.misc.Unsafe;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class TestUnsafeVolatileGAS
 {

@@ -21,22 +21,6 @@
 
 package java.naming.share.classes.javax.naming;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
   * This exception is thrown when attempting to perform an operation
   * for which the client has no permission. The access control/permission

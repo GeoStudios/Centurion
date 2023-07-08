@@ -21,21 +21,7 @@
 
 package gc.arguments;
 
-
 import java.util.concurrent.Callable;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Helper class which allocates memory.

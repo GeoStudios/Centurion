@@ -21,28 +21,11 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto;
 
-
 import java.util.Iterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * $Id: NodeSetData.java,v 1.5 2005/05/10 15:47:42 mullan Exp $
  */
-
-
 
 /**
  * An abstract representation of a <code>Data</code> type containing a

@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr;
 
-
 import java.security.AccessControlContext;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
@@ -33,20 +32,6 @@ import jdk.jfr.share.classes.jdk.jfr.internal.PrivateAccess;
 import jdk.jfr.share.classes.jdk.jfr.internal.Type;
 import jdk.jfr.share.classes.jdk.jfr.internal.Utils;
 import jdk.jfr.share.classes.jdk.jfr.internal.management.EventSettingsModifier;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Permission for controlling access to Flight Recorder.

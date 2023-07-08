@@ -21,7 +21,6 @@
 
 package gc.vector.SimpleGC;
 
-
 import nsk.share.gc.GC;
 import nsk.share.gc.GCTestBase;
 import nsk.share.gc.gp.GarbageProducer;
@@ -31,19 +30,6 @@ import nsk.share.gc.gp.MemoryStrategy;
 import nsk.share.gc.gp.MemoryStrategyAware;
 import nsk.share.runner.RunParams;
 import nsk.share.test.Stresser;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -56,8 +42,6 @@ import nsk.share.test.Stresser;
  *          /test/lib
  * @run main/othervm gc.vector.SimpleGC.SimpleGC -ms high
  */
-
-
 
 /**
  * Test that fills out a certain amount of memory with objects of a given type.

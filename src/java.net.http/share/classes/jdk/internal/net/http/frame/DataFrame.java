@@ -21,24 +21,9 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.frame;
 
-
 import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
 import java.nio.ByteBuffer;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class DataFrame extends Http2Frame {
 
@@ -116,6 +101,5 @@ public class DataFrame extends Http2Frame {
             return dataLength;
         }
     }
-
 
 }

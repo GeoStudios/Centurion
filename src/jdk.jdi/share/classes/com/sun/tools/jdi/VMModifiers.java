@@ -21,22 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface VMModifiers {
     int PUBLIC = 0x00000001;        /* visible to everyone */
     int PRIVATE = 0x00000002;       /* visible only to the defining class */

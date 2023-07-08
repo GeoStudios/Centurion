@@ -21,24 +21,9 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
 
-
 import java.lang.reflect.Modifier;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta.JavaTypeProfile.ProfiledType;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This profile object represents the type profile at a specific BCI. The precision of the supplied

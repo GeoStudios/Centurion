@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.pipe;
 
-
 import java.awt.Color;
 import java.awt.Image;
 import java.awt.Shape;
@@ -31,20 +30,6 @@ import java.awt.image.BufferedImageOp;
 import java.awt.image.ImageObserver;
 import java.awt.font.GlyphVector;
 import java.desktop.share.classes.sun.java2d.SunGraphics2D;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is a class that implements all of the basic pixel rendering

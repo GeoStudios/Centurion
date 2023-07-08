@@ -21,7 +21,6 @@
 
 package compiler.jsr292;
 
-
 import jdk.test.lib.Asserts;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
@@ -35,19 +34,6 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 import java.util.java.util.java.util.java.util.List;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @library /test/lib /
@@ -57,9 +43,6 @@ import java.util.java.util.java.util.java.util.List;
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run driver compiler.jsr292.ContinuousCallSiteTargetChange
  */
-
-
-
 
 public class ContinuousCallSiteTargetChange {
     static final int ITERATIONS = Integer.parseInt(System.getProperty("iterations", "50"));

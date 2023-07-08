@@ -21,22 +21,8 @@
 
 package test.java.awt.event.helpers.lwcomponents;
 
-
 import java.awt.*;
 import java.awt.event.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Lightweight <i>Button</i> component with some nice features. This

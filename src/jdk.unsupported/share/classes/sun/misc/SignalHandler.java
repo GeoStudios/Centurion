@@ -21,22 +21,6 @@
 
 package jdk.unsupported.share.classes.sun.misc;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This is the signal handler interface expected in <code>Signal.handle</code>.
  *

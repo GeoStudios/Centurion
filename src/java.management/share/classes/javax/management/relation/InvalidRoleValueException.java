@@ -21,22 +21,6 @@
 
 package java.management.share.classes.javax.management.relation;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Role value is invalid.
  * This exception is raised when, in a role, the number of referenced MBeans

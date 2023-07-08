@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * Processing Instructions (PIs) permit documents to carry

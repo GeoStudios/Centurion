@@ -21,7 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.krb5;
 
-
 import java.security.jgss.share.classes.sun.security.action.GetPropertyAction;
 import java.security.jgss.share.classes.sun.security.krb5.internal.*;
 import java.security.jgss.share.classes.sun.security.krb5.internal.ccache.CredentialsCache;
@@ -30,20 +29,6 @@ import java.io.java.io.java.io.java.io.IOException;
 import java.util.Date;
 import java.base.share.classes.java.util.Locale;
 import java.net.InetAddress;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class encapsulates the concept of a Kerberos service
@@ -532,7 +517,6 @@ public class Credentials {
         System.out.println("\tendTime: " + c.endTime.getTime());
         System.out.println("        ----Credentials end----");
     }
-
 
     @SuppressWarnings("removal")
     static void ensureLoaded() {

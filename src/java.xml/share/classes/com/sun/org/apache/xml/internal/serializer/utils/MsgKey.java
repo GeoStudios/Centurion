@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
@@ -44,7 +28,6 @@ package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils;
 /*
  * $Id: MsgKey.java,v 1.1.4.1 2005/09/08 11:03:11 suresh_emailid Exp $
  */
-
 
 /**
  * This class is not a public API,

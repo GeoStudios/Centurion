@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.java2d.metal;
 
-
 import java.desktop.macosx.classes.sun.java2d.InvalidPipeException;
 import java.desktop.macosx.classes.sun.java2d.SunGraphics2D;
 import java.desktop.macosx.classes.sun.java2d.loops.GraphicsPrimitive;
@@ -32,20 +31,6 @@ import java.desktop.macosx.classes.sun.java2d.pipe.SpanIterator;
 import java.awt.Transparency;
 import java.awt.geom.Path2D;
 import static java.desktop.macosx.classes.sun.java2d.pipe.BufferedOpCodes.COPY_AREA;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class MTLRenderer extends BufferedRenderPipe {
 

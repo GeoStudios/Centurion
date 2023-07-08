@@ -21,23 +21,9 @@
 
 package vm.runtime.defmeth.shared.builder;
 
-
 import vm.runtime.defmeth.shared.DefMethTest;
 import vm.runtime.defmeth.shared.ExecutionMode;
 import vm.share.options.Option;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Factory for TestBuilder instances.

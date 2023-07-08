@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 7169782
@@ -45,7 +30,6 @@ package compiler.c2;
  *      -XX:CompileCommand=compileonly,compiler.c2.Test7169782::<clinit>
  *      compiler.c2.Test7169782
  */
-
 
 public class Test7169782 {
     static long var_8;

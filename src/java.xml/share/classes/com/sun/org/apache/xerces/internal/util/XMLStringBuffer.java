@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLString;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * XMLString is a structure used to pass character arrays. However,
@@ -69,7 +52,6 @@ extends XMLString {
     //
     // Constants
     //
-
 
     /** Default buffer size (32). */
     public static final int DEFAULT_SIZE = 32;
@@ -205,6 +187,5 @@ extends XMLString {
     public void append(XMLString s) {
         append(s.ch, s.offset, s.length);
     } // append(XMLString)
-
 
 } // class XMLStringBuffer

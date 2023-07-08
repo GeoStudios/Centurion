@@ -21,26 +21,11 @@
 
 package java.datatransfer.share.classes.java.awt.datatransfer;
 
-
 import java.datatransfer.share.classes.java.util.Enumeration;
 import java.datatransfer.share.classes.java.util.Hashtable;
 import java.datatransfer.share.classes.java.util.Iterator;
 import java.datatransfer.share.classes.java.util.Map;
 import java.datatransfer.share.classes.java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An object that encapsulates the parameter list of a MimeType as defined in

@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
@@ -30,20 +29,6 @@ import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Constan
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantNameAndType;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantPool;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.ByteSequence;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class for INVOKEDYNAMIC. Not an instance of InvokeInstruction, since that class
@@ -64,11 +49,9 @@ public class INVOKEDYNAMIC extends InvokeInstruction {
     INVOKEDYNAMIC() {
     }
 
-
     public INVOKEDYNAMIC(final int index) {
         super(Const.INVOKEDYNAMIC, index);
     }
-
 
     /**
      * Dump instruction as byte code to stream out.
@@ -82,7 +65,6 @@ public class INVOKEDYNAMIC extends InvokeInstruction {
         out.writeByte(0);
        }
 
-
     /**
      * Read needed data (i.e., index) from file.
      */
@@ -94,7 +76,6 @@ public class INVOKEDYNAMIC extends InvokeInstruction {
         bytes.readByte(); // Skip 0 byte
     }
 
-
     /**
      * @return mnemonic for instruction with symbolic references resolved
      */
@@ -102,7 +83,6 @@ public class INVOKEDYNAMIC extends InvokeInstruction {
     public String toString( final ConstantPool cp ) {
         return super.toString(cp);
     }
-
 
     @Override
     public Class<?>[] getExceptions() {
@@ -112,7 +92,6 @@ public class INVOKEDYNAMIC extends InvokeInstruction {
             ExceptionConst.ILLEGAL_ACCESS_ERROR,
             ExceptionConst.INCOMPATIBLE_CLASS_CHANGE_ERROR);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:
@@ -150,7 +129,6 @@ public class INVOKEDYNAMIC extends InvokeInstruction {
         final ConstantInvokeDynamic cid = (ConstantInvokeDynamic) cp.getConstant(super.getIndex(), Const.CONSTANT_InvokeDynamic);
         return ((ConstantNameAndType) cp.getConstant(cid.getNameAndTypeIndex())).getName(cp);
     }
-
 
     /**
      * Since InvokeDynamic doesn't refer to a reference type, just return java.lang.Object,

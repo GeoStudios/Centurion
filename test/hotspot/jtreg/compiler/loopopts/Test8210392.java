@@ -21,21 +21,6 @@
 
 package compiler.loopopts;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8210392
@@ -43,7 +28,6 @@ package compiler.loopopts;
  *
  * @run main/othervm compiler.loopopts.Test8210392
  */
-
 
 public class Test8210392 {
     public static int ival = 17;

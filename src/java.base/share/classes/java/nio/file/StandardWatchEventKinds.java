@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.nio.file;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Defines the <em>standard</em> event kinds.
  *

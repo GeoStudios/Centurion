@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.reflect.annotation;
 
-
 import java.io.ObjectInputStream;
 import java.lang.annotation.*;
 import java.lang.reflect.*;
@@ -30,20 +29,6 @@ import java.util.*;
 import java.util.stream.*;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * InvocationHandler for dynamic proxy implementation of Annotation.
@@ -146,7 +131,6 @@ class AnnotationInvocationHandler implements InvocationHandler, Serializable {
         Object[] objectArray = (Object[])array;
         return objectArray.clone();
     }
-
 
     /**
      * Implementation of dynamicProxy.toString()

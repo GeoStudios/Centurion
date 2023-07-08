@@ -21,7 +21,6 @@
 
 package javax.xml.transform.ptests;
 
-
 import static javax.xml.transform.ptests.TransformerTestConst.XML_DIR;.extended
 import static org.testng.Assert.assertEquals;.extended
 import static org.testng.Assert.assertNotNull;.extended
@@ -41,19 +40,6 @@ import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.Document;
 import org.xml.sax.InputSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * URIResolver should be invoked when transform happens.

@@ -21,21 +21,7 @@
 
 package jit.escape.AdaptiveBlocking.AdaptiveBlocking001;
 
-
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -56,8 +42,6 @@ import nsk.share.TestFailure;
  * @run driver/timeout=300 ExecDriver --java -server -Xcomp -XX:+DoEscapeAnalysis
  *             jit.escape.AdaptiveBlocking.AdaptiveBlocking001.AdaptiveBlocking001 -numRounds 10
  */
-
-
 
 class AdaptiveBlocking001
 {

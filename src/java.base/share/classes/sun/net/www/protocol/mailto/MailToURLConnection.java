@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.net.www.protocol.mailto;
 
-
 import java.net.URL;
 import java.net.InetAddress;
 import java.net.java.net.SocketPermission;
@@ -31,20 +30,6 @@ import jdk.internal.util.StaticProperty;
 import java.base.share.classes.sun.net.www.*;
 import java.base.share.classes.sun.net.smtp.SmtpClient;
 import java.base.share.classes.sun.net.www.ParseUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Handle mailto URLs. To send mail using a mailto URLConnection,

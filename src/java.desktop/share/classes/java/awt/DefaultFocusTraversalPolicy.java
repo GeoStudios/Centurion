@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.peer.ComponentPeer;
 import java.desktop.share.classes.java.io.Serial;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A FocusTraversalPolicy that determines traversal order based on the order

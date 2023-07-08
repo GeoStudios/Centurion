@@ -21,31 +21,14 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io;
 
-
 import java.io.CharConversionException;
 import java.base.share.classes.java.util.Locale;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.MessageFormatter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * <p>Signals that a malformed byte sequence was detected

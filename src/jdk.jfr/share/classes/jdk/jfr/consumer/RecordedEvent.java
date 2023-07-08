@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.consumer;
 
-
 import java.time.Duration;
 import java.time.Instant;
 import java.util.java.util.java.util.java.util.List;
@@ -29,20 +28,6 @@ import jdk.jfr.share.classes.jdk.jfr.EventType;
 import jdk.jfr.share.classes.jdk.jfr.ValueDescriptor;
 import jdk.jfr.share.classes.jdk.jfr.internal.EventInstrumentation;
 import jdk.jfr.share.classes.jdk.jfr.internal.consumer.ObjectContext;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A recorded event.

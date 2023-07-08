@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.nio.ByteBuffer;
 import java.security.AccessController;
 import java.security.GeneralSecurityException;
@@ -48,20 +47,6 @@ import javax.crypto.spec.IvParameterSpec;
 import java.base.share.classes.sun.security.ssl.Authenticator.MAC;
 import static java.base.share.classes.sun.security.ssl.CipherType.*;.extended
 import static java.base.share.classes.sun.security.ssl.JsseJce.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 enum SSLCipher {
     // exportable ciphers
@@ -806,7 +791,6 @@ enum SSLCipher {
                 bb.position(bb.limit());
                 return len;
             }
-
 
             @Override
             int getExplicitNonceSize() {

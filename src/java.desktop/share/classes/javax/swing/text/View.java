@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.awt.*;
 import java.desktop.share.classes.javax.swing.SwingConstants;
 import java.desktop.share.classes.javax.swing.event.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>
@@ -229,7 +214,6 @@ public abstract class View implements SwingConstants {
         return true;
     }
 
-
     /**
      * Determines the preferred span for this view along an
      * axis.
@@ -376,7 +360,6 @@ public abstract class View implements SwingConstants {
     public View getView(int n) {
         return null;
     }
-
 
     /**
      * Removes all of the children.  This is a convenience
@@ -1344,7 +1327,6 @@ public abstract class View implements SwingConstants {
     public Shape modelToView(int pos, Shape a) throws BadLocationException {
         return modelToView(pos, a, Position.Bias.Forward);
     }
-
 
     /**
      * Provides a mapping from the view coordinate space to the logical

@@ -21,27 +21,12 @@
 
 package jdk.jdi.share.classes.com.sun.tools.example.debug.tty;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.*;
 import jdk.jdi.share.classes.com.sun.jdi.request.StepRequest;
 import jdk.jdi.share.classes.com.sun.jdi.request.MethodEntryRequest;
 import jdk.jdi.share.classes.com.sun.jdi.request.MethodExitRequest;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -50,11 +35,6 @@ import java.io.*;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
-
 
 class Env {
 

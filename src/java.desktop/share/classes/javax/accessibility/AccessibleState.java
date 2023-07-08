@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.accessibility;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Class {@code AccessibleState} describes a component's particular state. The
  * actual state of the component is defined as an {@code AccessibleStateSet},
@@ -233,7 +217,6 @@ public class AccessibleState extends AccessibleBundle {
      */
     public static final AccessibleState RESIZABLE
             = new AccessibleState("resizable");
-
 
     /**
      * Indicates this object allows more than one of its children to be selected

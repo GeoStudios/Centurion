@@ -21,7 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Fonts;
 
-
 import static java.awt.Color.BLACK;.extended
 import static java.awt.Color.GRAY;.extended
 import static java.awt.Color.WHITE;.extended
@@ -45,20 +44,6 @@ import javax.swing.SwingConstants;
 import javax.swing.border.EtchedBorder;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.Changejava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Scrolling text of fonts returned from GraphicsEnvironment.getAllFonts().
@@ -131,7 +116,6 @@ public class AllFonts extends AnimatingControlsSurface {
     public static void main(String[] argv) {
         createDemoFrame(new AllFonts());
     }
-
 
     static class DemoControls extends CustomControls implements ActionListener,
             ChangeListener {

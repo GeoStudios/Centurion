@@ -21,7 +21,6 @@
 
 package jdk.crypto.ec.share.classes.sun.security.ec;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
 import java.security.spec.AlgorithmParameterSpec;
@@ -32,20 +31,6 @@ import java.util.function.Function;
 import jdk.crypto.ec.share.classes.sun.security.util.KnownOIDs;
 import jdk.crypto.ec.share.classes.sun.security.util.ObjectIdentifier;
 import jdk.crypto.ec.share.classes.sun.security.x509.AlgorithmId;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class XECParameters {
 
@@ -164,7 +149,6 @@ public class XECParameters {
     boolean oidEquals(XECParameters other) {
         return oid.equals(other.getOid());
     }
-
 
     public static
     <T extends Throwable>

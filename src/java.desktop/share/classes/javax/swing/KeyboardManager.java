@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.util.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -29,20 +28,6 @@ import java.applet.*;
 import java.beans.*;
 import java.desktop.share.classes.javax.swing.event.*;
 import sun.awt.EmbeddedFrame;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * The KeyboardManager class is used to help dispatch keyboard actions for the
@@ -231,7 +216,6 @@ class KeyboardManager {
          KeyStroke ks;
          KeyStroke ksE = null;
 
-
          if(e.getID() == KeyEvent.KEY_TYPED) {
                ks=KeyStroke.getKeyStroke(e.getKeyChar());
          } else {
@@ -349,7 +333,6 @@ class KeyboardManager {
             menuBars.addElement(mb);
         }
     }
-
 
     public void unregisterMenuBar(JMenuBar mb) {
         Container topContainer = getTopAncestor(mb);

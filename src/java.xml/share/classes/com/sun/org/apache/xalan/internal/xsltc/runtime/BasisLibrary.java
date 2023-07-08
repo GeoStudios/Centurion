@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.Translet;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom.AbsoluteIterator;
@@ -56,26 +55,9 @@ import java.xml.share.classes.com.sun.org.w3c.dom.Element;
 import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: BasisLibrary.java,v 1.6 2006/06/20 21:51:58 spericas Exp $
  */
-
-
-
 
 /**
  * Standard XSLT functions. All standard functions expect the current node
@@ -750,7 +732,6 @@ public final class BasisLibrary {
         }
         return false;
     }
-
 
     public static boolean compare(Object left, Object right,
                                   int op, DOM dom)
@@ -1674,7 +1655,6 @@ public final class BasisLibrary {
         }
         return result.toString();
     }
-
 
     /**
      * Utility method to allow setting parameters of the form

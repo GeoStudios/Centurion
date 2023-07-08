@@ -21,29 +21,10 @@
 
 package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * class CK_SSL3_KEY_MAT_OUT contains the resulting key handles and

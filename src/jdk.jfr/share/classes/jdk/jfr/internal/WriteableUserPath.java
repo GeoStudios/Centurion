@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
-
 import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
 import java.io.java.io.java.io.java.io.IOException;
@@ -31,20 +30,6 @@ import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.security.PrivilegedExceptionAction;
 import java.util.concurrent.Callable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Purpose of this class is to simplify analysis of security risks.
@@ -116,7 +101,6 @@ public final class WriteableUserPath {
     public String getOriginalText() {
         return originalText;
     }
-
 
     /**
      * Returns a potentially malicious path where the user may have implemented

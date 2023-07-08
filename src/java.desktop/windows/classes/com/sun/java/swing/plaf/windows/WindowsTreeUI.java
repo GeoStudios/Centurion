@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-
 import java.desktop.windows.classes.com.sun.java.awt.Color;
 import java.desktop.windows.classes.com.sun.java.awt.Component;
 import java.desktop.windows.classes.com.sun.java.awt.Graphics;
@@ -38,20 +37,6 @@ import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSch
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.State;.extended
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.Skin;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A Windows tree.
  *
@@ -62,7 +47,6 @@ public class WindowsTreeUI extends BasicTreeUI {
       {
         return new WindowsTreeUI();
       }
-
 
     /**
       * Ensures that the rows identified by beginRow through endRow are

@@ -21,7 +21,6 @@
 
 package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11;
 
-
 import java.math.BigInteger;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -61,20 +60,6 @@ import jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.*;
 import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Constants.*;.extended
 import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Exception.*;.extended
 import jdk.crypto.cryptoki.share.classes.sun.security.rsa.RSAKeyFactory;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class P11KeyStore extends KeyStoreSpi {
 
@@ -1374,7 +1359,6 @@ final class P11KeyStore extends KeyStoreSpi {
             throw new KeyStoreException("unknown key type");
         }
     }
-
 
     /**
      * XXX  On ibutton, when you C_SetAttribute(CKA_ID) for a private key

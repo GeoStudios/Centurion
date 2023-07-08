@@ -21,27 +21,12 @@
 
 package java.base.share.classes.java.nio.channels.spi;
 
-
 import java.base.share.classes.java.lang.invoke.MethodHandles;
 import java.base.share.classes.java.lang.invoke.VarHandle;
 import java.base.share.classes.java.nio.channels.SelectionKey;
 import java.base.share.classes.java.nio.channels.Selector;
 import sun.nio.ch.SelectionKeyImpl;
 import sun.nio.ch.SelectorImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base implementation class for selection keys.

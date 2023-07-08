@@ -21,22 +21,6 @@
 
 package java.desktop.macosx.classes.sun.lwawt;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Can be used to store information about native resource related to the
  * lightweight component.

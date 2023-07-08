@@ -21,22 +21,8 @@
 
 package compiler.intrinsics.unsafe;
 
-
 import jdk.internal.misc.Unsafe;
 import java.lang.reflect.Field;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -50,9 +36,6 @@ import java.lang.reflect.Field;
  *      -XX:+UnlockDiagnosticVMOptions -XX:-UseUnalignedAccesses
  *      compiler.intrinsics.unsafe.TestUnsafeUnalignedMismatchedAccesses
  */
-
-
-
 
 public class TestUnsafeUnalignedMismatchedAccesses {
 

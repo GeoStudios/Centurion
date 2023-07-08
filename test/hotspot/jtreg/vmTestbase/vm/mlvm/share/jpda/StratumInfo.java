@@ -21,21 +21,6 @@
 
 package vm.mlvm.share.jpda;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class StratumInfo {
     public final String stratum;
     public final String stratumSourceName;

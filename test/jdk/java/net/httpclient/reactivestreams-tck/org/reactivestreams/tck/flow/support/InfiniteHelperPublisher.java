@@ -21,23 +21,9 @@
 
 package org.reactivestreams.tck.flow.support;
 
-
 import org.reactivestreams.example.unicast.AsyncIterablePublisher;
 import java.util.Iterator;
 import java.util.concurrent.Executor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class InfiniteHelperPublisher<T> extends AsyncIterablePublisher<T> {
 

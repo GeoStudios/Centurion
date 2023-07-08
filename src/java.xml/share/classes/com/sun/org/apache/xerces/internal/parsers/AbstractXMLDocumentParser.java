@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.Augmentations;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
@@ -38,26 +37,10 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLD
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentSource;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLParserConfiguration;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * This is the base class for all XML document parsers. XMLDocumentParser
@@ -270,7 +253,6 @@ public abstract class AbstractXMLDocumentParser
     public void endDocument(Augmentations augs) throws XNIException {
     } // endDocument()
 
-
     /**
      * This method notifies the start of an entity.
      * <p>
@@ -365,7 +347,6 @@ public abstract class AbstractXMLDocumentParser
         throws XNIException {
     } // processingInstruction(String, XMLString, Augmentations)
 
-
     /** Sets the document source */
     public void setDocumentSource(XMLDocumentSource source){
         fDocumentSource = source;
@@ -396,7 +377,6 @@ public abstract class AbstractXMLDocumentParser
     public void startDTD(XMLLocator locator, Augmentations augs) throws XNIException {
         fInDTD = true;
     } // startDTD(XMLLocator)
-
 
     /**
      * The start of the DTD external subset.

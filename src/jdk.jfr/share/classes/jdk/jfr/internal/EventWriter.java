@@ -21,23 +21,8 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
-
 import jdk.jfr.share.classes.jdk.internal.misc.Unsafe;
 import jdk.jfr.share.classes.jdk.jfr.internal.consumer.StringParser;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class must reside in a package with package restriction.

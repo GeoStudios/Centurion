@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.beans;
 
-
 import java.desktop.share.classes.java.lang.reflect.InvocationHandler;
 import java.desktop.share.classes.java.lang.reflect.InvocationTargetException;
 import java.desktop.share.classes.java.lang.reflect.Proxy;
@@ -31,20 +30,6 @@ import java.desktop.share.classes.java.security.AccessController;
 import java.desktop.share.classes.java.security.PrivilegedAction;
 import sun.reflect.misc.MethodUtil;
 import sun.reflect.misc.ReflectUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code EventHandler} class provides

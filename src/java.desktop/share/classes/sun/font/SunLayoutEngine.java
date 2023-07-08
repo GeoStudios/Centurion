@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.font;
 
-
 import java.desktop.share.classes.sun.font.GlyphLayout.*;
 import java.desktop.share.classes.sun.java2d.Disposer;
 import java.desktop.share.classes.sun.java2d.DisposerRecord;
@@ -29,20 +28,6 @@ import java.awt.geom.Point2D;
 import java.lang.ref.SoftReference;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.WeakHashMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * different ways to do this

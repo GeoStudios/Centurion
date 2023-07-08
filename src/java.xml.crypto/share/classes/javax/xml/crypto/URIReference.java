@@ -21,26 +21,9 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: URIReference.java,v 1.4 2005/05/10 15:47:42 mullan Exp $
  */
-
 
 /**
  * Identifies a data object via a URI-Reference, as specified by

@@ -21,33 +21,15 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
-
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * This class is derived from <em>Attribute</em> and represents the list of packages that are exported or opened by the Module attribute.
@@ -59,7 +41,6 @@ public final class ModulePackages extends Attribute {
 
     private int[] packageIndexTable;
 
-
     /**
      * Initialize from another object. Note that both objects use the same
      * references (shallow copy). Use copy() for a physical copy.
@@ -67,7 +48,6 @@ public final class ModulePackages extends Attribute {
     public ModulePackages(final ModulePackages c) {
         this(c.getNameIndex(), c.getLength(), c.getPackageIndexTable(), c.getConstantPool());
     }
-
 
     /**
      * @param nameIndex Index in constant pool
@@ -80,7 +60,6 @@ public final class ModulePackages extends Attribute {
         super(Const.ATTR_MODULE_PACKAGES, nameIndex, length, constantPool);
         this.packageIndexTable = packageIndexTable != null ? packageIndexTable : new int[0];
     }
-
 
     /**
      * Construct object from input stream.
@@ -99,7 +78,6 @@ public final class ModulePackages extends Attribute {
         }
     }
 
-
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
      * defined by the contents of a Java class. I.e., the hierarchy of methods,
@@ -111,7 +89,6 @@ public final class ModulePackages extends Attribute {
     public void accept( final Visitor v ) {
         v.visitModulePackages(this);
     }
-
 
     /**
      * Dump ModulePackages attribute to file stream in binary format.
@@ -128,7 +105,6 @@ public final class ModulePackages extends Attribute {
         }
     }
 
-
     /**
      * @return array of indices into constant pool of package names.
      */
@@ -136,14 +112,12 @@ public final class ModulePackages extends Attribute {
         return packageIndexTable;
     }
 
-
     /**
      * @return Length of package table.
      */
     public int getNumberOfPackages() {
         return packageIndexTable == null ? 0 : packageIndexTable.length;
     }
-
 
     /**
      * @return string array of package names
@@ -157,7 +131,6 @@ public final class ModulePackages extends Attribute {
         return names;
     }
 
-
     /**
      * @param packageIndexTable the list of package indexes
      * Also redefines number_of_packages according to table length.
@@ -165,7 +138,6 @@ public final class ModulePackages extends Attribute {
     public void setPackageIndexTable( final int[] packageIndexTable ) {
         this.packageIndexTable = packageIndexTable != null ? packageIndexTable : new int[0];
     }
-
 
     /**
      * @return String representation, i.e., a list of packages.
@@ -182,7 +154,6 @@ public final class ModulePackages extends Attribute {
         }
         return buf.substring(0, buf.length()-1); // remove the last newline
     }
-
 
     /**
      * @return deep copy of this attribute

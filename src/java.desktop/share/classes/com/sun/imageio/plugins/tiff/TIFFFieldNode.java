@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.util.java.util.java.util.java.util.List;
 import javax.imageio.metadata.IIOMetadataNode;
@@ -30,20 +29,6 @@ import javax.imageio.plugins.tiff.TIFFDirectory;
 import javax.imageio.plugins.tiff.TIFFField;
 import javax.imageio.plugins.tiff.TIFFTag;
 import javax.imageio.plugins.tiff.TIFFTagSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code Node} representation of a {@code TIFFField}

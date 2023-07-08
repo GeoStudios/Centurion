@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.net;
 
-
 import java.base.share.classes.java.io.ObjectStreamException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents an Internet Protocol version 4 (IPv4) address.

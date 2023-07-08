@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.consumer;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.security.AccessControlContext;
 import java.security.AccessController;
@@ -42,20 +41,6 @@ import jdk.jfr.share.classes.jdk.jfr.internal.LogTag;
 import jdk.jfr.share.classes.jdk.jfr.internal.Logger;
 import jdk.jfr.share.classes.jdk.jfr.internal.PlatformRecording;
 import jdk.jfr.share.classes.jdk.jfr.internal.SecuritySupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Purpose of this class is to simplify the implementation of
@@ -250,7 +235,6 @@ public abstract class AbstractEventStream implements EventStream {
     protected final Runnable getFlushOperation() {
         return flushOperation;
     }
-
 
     protected final void onFlush() {
        Runnable r = getFlushOperation();

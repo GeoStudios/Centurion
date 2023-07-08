@@ -21,22 +21,8 @@
 
 package utils;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is an class used to provoke GC and perform other GC-related

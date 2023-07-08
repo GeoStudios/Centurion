@@ -21,22 +21,8 @@
 
 package gc.epsilon;
 
-
 import java.lang.management.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test TestMemoryPools
@@ -46,7 +32,6 @@ import java.util.*;
  *          java.management
  * @run main/othervm -XX:+UnlockExperimentalVMOptions -XX:+UseEpsilonGC -Xmx1g -Xms1g gc.epsilon.TestMemoryPools
  */
-
 
 public class TestMemoryPools {
 

@@ -21,7 +21,6 @@
 
 package jdk.test.lib.jittester.utils;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Linkedjava.util.java.util.java.util.List;
@@ -58,19 +57,6 @@ import jdk.test.lib.jittester.loops.Loop;
 import jdk.test.lib.jittester.loops.LoopingCondition;
 import jdk.test.lib.jittester.types.TypeArray;
 import jdk.test.lib.jittester.types.TypeKlass;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class FixedTrees {
     private static final Literal EOL = new Literal("\n", TypeList.STRING);

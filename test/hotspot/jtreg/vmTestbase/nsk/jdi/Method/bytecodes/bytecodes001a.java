@@ -21,23 +21,9 @@
 
 package nsk.jdi.Method.bytecodes;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the bytecodes001 JDI test.
@@ -86,7 +72,6 @@ public class bytecodes001a {
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
 
-
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
 
@@ -125,7 +110,6 @@ public class bytecodes001a {
     }
 }
 
-
 class TestClass {
 
     public boolean bl () { return false; }
@@ -139,7 +123,6 @@ class TestClass {
 
     public void vd () { return ; }
 
-
    public void primitiveargsmethod ( boolean bl,
                                    byte    bt,
                                    char    ch,
@@ -150,8 +133,6 @@ class TestClass {
                                    short   sh ) {
        return ;
    }
-
-
 
     private ClassForCheck_2 class2 = new ClassForCheck_2();
 
@@ -170,7 +151,6 @@ class TestClass {
     }
 
 }
-
 
 interface InterfaceForCheck {
 

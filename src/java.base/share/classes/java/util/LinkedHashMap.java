@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.util;
 
-
 import java.base.share.classes.java.util.function.Consumer;
 import java.base.share.classes.java.util.function.BiConsumer;
 import java.base.share.classes.java.util.function.BiFunction;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Hash table and linked list implementation of the {@code Map} interface,
@@ -411,7 +396,6 @@ public class LinkedHashMap<K,V>
         super(initialCapacity, loadFactor);
         this.accessOrder = accessOrder;
     }
-
 
     /**
      * Returns {@code true} if this map maps one or more keys to the
@@ -796,6 +780,5 @@ public class LinkedHashMap<K,V>
         implements Iterator<Map.Entry<K,V>> {
         public Map.Entry<K,V> next() { return nextNode(); }
     }
-
 
 }

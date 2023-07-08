@@ -21,7 +21,6 @@
 
 package demo.share.jfc.TableExample;
 
-
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Container;
@@ -50,20 +49,6 @@ import javax.swing.UIManager;
 import javax.swing.UIManager.LookAndFeelInfo;
 import javax.swing.border.BevelBorder;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -71,8 +56,6 @@ import javax.swing.border.BevelBorder;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
 
 /**
  * A a UI around the JDBCAdaptor, allowing database data to be interactively
@@ -82,7 +65,6 @@ import javax.swing.border.BevelBorder;
  * the JOptionPane. Use of modal dialogs requires JDK 1.1.4 or greater.
  *
  */
-
 
 public final class TableExample implements LayoutManager {
 
@@ -142,7 +124,6 @@ public final class TableExample implements LayoutManager {
 
         driverLabel = new JLabel("Driver: ", JLabel.RIGHT);
         driverField = new JTextField("org.apache.derby.jdbc.ClientDriver");
-
 
         connectionPanel = new JPanel(false);
         connectionPanel.setLayout(new BoxLayout(connectionPanel,

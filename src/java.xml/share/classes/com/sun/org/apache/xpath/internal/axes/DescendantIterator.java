@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.axes;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.Axis;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisTraverser;
@@ -35,26 +34,10 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.OpMap;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns.NodeTest;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * This class implements an optimized iterator for
@@ -160,7 +143,6 @@ public class DescendantIterator extends LocPathIterator
     int whatToShow = DTMFilter.SHOW_ALL;
     initNodeTest(whatToShow);
   }
-
 
   /**
    *  Get a cloned Iterator that is reset to the beginning
@@ -376,7 +358,6 @@ public class DescendantIterator extends LocPathIterator
     return m_axis;
   }
 
-
   /** The traverser to use to navigate over the descendants. */
   transient protected DTMAxisTraverser m_traverser;
 
@@ -396,6 +377,5 @@ public class DescendantIterator extends LocPathIterator
 
     return m_axis == ((DescendantIterator) expr).m_axis;
   }
-
 
 }

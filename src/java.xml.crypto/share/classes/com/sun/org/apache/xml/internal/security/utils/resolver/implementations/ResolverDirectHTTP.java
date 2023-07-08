@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver.implementations;
 
-
 import java.io.ByteArrayOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -40,27 +39,10 @@ import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.ut
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver.ResourceResolverException;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.resolver.ResourceResolverSpi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * A simple ResourceResolver for HTTP requests. This class handles only 'pure'

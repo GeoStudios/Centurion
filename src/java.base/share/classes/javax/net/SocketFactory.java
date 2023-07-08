@@ -21,26 +21,11 @@
 
 package java.base.share.classes.javax.net;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.InetAddress;
 import java.net.java.net.java.net.java.net.Socket;
 import java.net.java.net.SocketException;
 import java.net.UnknownHostException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class creates sockets.  It may be subclassed by other factories,
@@ -89,7 +74,6 @@ public abstract class SocketFactory
      */
     protected SocketFactory() { /* NOTHING */ }
 
-
     /**
      * Returns a copy of the environment's default socket factory.
      *
@@ -112,7 +96,6 @@ public abstract class SocketFactory
         return theFactory;
     }
 
-
     /**
      * Creates an unconnected socket.
      *
@@ -134,7 +117,6 @@ public abstract class SocketFactory
                 "Unconnected sockets not implemented", uop);
         throw se;
     }
-
 
     /**
      * Creates a socket and connects it to the specified remote host
@@ -161,7 +143,6 @@ public abstract class SocketFactory
      */
     public abstract Socket createSocket(String host, int port)
     throws IOException, UnknownHostException;
-
 
     /**
      * Creates a socket and connects it to the specified remote host
@@ -194,7 +175,6 @@ public abstract class SocketFactory
     createSocket(String host, int port, InetAddress localHost, int localPort)
     throws IOException, UnknownHostException;
 
-
     /**
      * Creates a socket and connects it to the specified port number
      * at the specified address.  This socket is configured using
@@ -219,7 +199,6 @@ public abstract class SocketFactory
      */
     public abstract Socket createSocket(InetAddress host, int port)
     throws IOException;
-
 
     /**
      * Creates a socket and connect it to the specified remote address
@@ -252,7 +231,6 @@ public abstract class SocketFactory
         InetAddress localAddress, int localPort)
     throws IOException;
 }
-
 
 //
 // The default factory has NO intelligence about policies like tunneling

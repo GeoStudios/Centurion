@@ -21,23 +21,8 @@
 
 package java.naming.share.classes.javax.naming;
 
-
 import java.util.Vector;
 import java.util.Enumeration;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * This class represents a reference to an object that is found outside of
@@ -86,7 +71,6 @@ import java.util.Enumeration;
   * addresses (each a RefAddr), the name of the class factory (a
   * String), and the location of the class factory (a String).
 */
-
 
 public class Reference implements Cloneable, java.io.Serializable {
     /**

@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.java2d.xr;
 
-
 import java.awt.AlphaComposite;
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsDevice;
@@ -53,20 +52,6 @@ import java.desktop.unix.classes.sun.java2d.pipe.TextPipe;
 import java.desktop.unix.classes.sun.java2d.pipe.ValidatePipe;
 import java.desktop.unix.classes.sun.java2d.x11.XSurfaceData;
 import java.desktop.unix.classes.sun.font.FontManagerNativeLibrary;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class XRSurfaceData extends XSurfaceData {
     X11ComponentPeer peer;

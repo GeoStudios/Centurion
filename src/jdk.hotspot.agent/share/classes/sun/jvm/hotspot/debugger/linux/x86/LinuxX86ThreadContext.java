@@ -21,24 +21,9 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.linux.x86;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.x86.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.linux.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class LinuxX86ThreadContext extends X86ThreadContext {
   private final LinuxDebugger debugger;

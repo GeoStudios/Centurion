@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import java.desktop.share.classes.javax.swing.*;
 import java.awt.Component;
 import java.awt.Color;
@@ -35,20 +34,6 @@ import java.awt.Rectangle;
 import java.awt.Toolkit;
 import java.awt.event.InputEvent;
 import sun.swing.SwingUtilities2;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Convenient util class.
@@ -105,7 +90,6 @@ public class BasicGraphicsUtils
         g.setColor(oldColor);
     }
 
-
     /**
      * Returns the amount of space taken up by a border drawn by
      * <code>drawEtchedRect()</code>
@@ -115,7 +99,6 @@ public class BasicGraphicsUtils
     public static Insets getEtchedInsets() {
         return ETCHED_INSETS;
     }
-
 
     /**
      * Draws a groove.
@@ -157,7 +140,6 @@ public class BasicGraphicsUtils
     public static Insets getGrooveInsets() {
         return GROOVE_INSETS;
     }
-
 
     /**
      * Draws a bezel.
@@ -262,7 +244,6 @@ public class BasicGraphicsUtils
         g.drawLine(1, h-2, w-2, h-2);
         g.drawLine(w-2, h-2, w-2, 1);
      }
-
 
     /**
      * Draw a string with the graphics {@code g} at location (x,y)

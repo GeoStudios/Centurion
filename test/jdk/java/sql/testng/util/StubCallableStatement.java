@@ -21,7 +21,6 @@
 
 package util;
 
-
 import java.io.InputStream;
 import java.io.Reader;
 import java.math.BigDecimal;
@@ -40,19 +39,6 @@ import java.sql.Time;
 import java.sql.Timestamp;
 import java.util.Calendar;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class StubCallableStatement  extends StubPreparedStatement
 implements CallableStatement{

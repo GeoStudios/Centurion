@@ -21,22 +21,6 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap.pool;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Represents a callback used to release or remove a PooledConnection back
  * into the pool.

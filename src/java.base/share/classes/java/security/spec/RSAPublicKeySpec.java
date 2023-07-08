@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.security.spec;
 
-
 import java.base.share.classes.java.math.BigInteger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class specifies an RSA public key.
@@ -80,7 +65,6 @@ public class RSAPublicKeySpec implements KeySpec {
         this.publicExponent = publicExponent;
         this.params = params;
     }
-
 
     /**
      * Returns the modulus.

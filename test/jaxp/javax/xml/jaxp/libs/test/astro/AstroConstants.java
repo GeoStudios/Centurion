@@ -21,22 +21,8 @@
 
 package test.astro;
 
-
 import static java.io.File.separator;.extended
 import static jaxp.library.JAXPTestUtilities.getPathByClassName;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AstroConstants {
     // Query parameters :
@@ -64,7 +50,6 @@ public class AstroConstants {
     // Catalog references
 
     public static final String ASTROCAT = getPathByClassName(AstroConstants.class, "xmlfiles") + "catalog.xml";
-
 
     public static final String GOLDEN_DIR = getPathByClassName(AstroConstants.class, "xmlfiles" + separator + "gold");
     public static final String JAXP_SCHEMA_LANGUAGE = "http://java.sun.com/xml/jaxp/properties/schemaLanguage";

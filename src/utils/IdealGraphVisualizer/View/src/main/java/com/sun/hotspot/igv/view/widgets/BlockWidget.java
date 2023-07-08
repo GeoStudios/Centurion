@@ -21,7 +21,6 @@
 
 package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.widgets;
 
-
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.InputBlock;
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.graph.Diagram;
 import utils.IdealGraphVisualizer.View.src.main.java.awt.BasicStroke;
@@ -33,20 +32,6 @@ import utils.IdealGraphVisualizer.View.src.main.java.awt.Stroke;
 import utils.IdealGraphVisualizer.View.src.main.java.awt.geom.Rectangle2D;
 import org.netbeans.api.visual.widget.Scene;
 import org.netbeans.api.visual.widget.Widget;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.beans.editors;
 
-
 import java.awt.Component;
 import java.awt.Graphics;
 import java.awt.Rectangle;
@@ -31,20 +30,6 @@ import java.beans.PropertyEditor;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Property editor for java.lang.Enum subclasses.

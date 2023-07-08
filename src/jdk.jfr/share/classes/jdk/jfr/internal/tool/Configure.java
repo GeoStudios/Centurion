@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.tool;
 
-
 import java.io.FileNotFoundException;
 import java.io.IOError;
 import java.io.java.io.java.io.java.io.IOException;
@@ -42,20 +41,6 @@ import jdk.jfr.share.classes.jdk.jfr.internal.jfc.model.JFCModel;
 import jdk.jfr.share.classes.jdk.jfr.internal.jfc.model.SettingsLog;
 import jdk.jfr.share.classes.jdk.jfr.internal.jfc.model.UserInterface;
 import jdk.jfr.share.classes.jdk.jfr.internal.jfc.model.XmlInput;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class Configure extends Command {
     private final List<SafePath> inputFiles = new ArrayList<>();
@@ -251,7 +236,6 @@ final class Configure extends Command {
         }
         return paths;
     }
-
 
     private void ensureInputFiles() throws InternalError {
         if (inputFiles.isEmpty()) {

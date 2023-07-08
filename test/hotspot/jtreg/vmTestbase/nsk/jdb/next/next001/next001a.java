@@ -21,24 +21,10 @@
 
 package nsk.jdb.next.next001;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdb.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* This is debuggee aplication */
 public class next001a {
@@ -79,7 +65,6 @@ public class next001a {
         return next001.PASSED;
     }
 }
-
 
 class MyThread extends Thread {
     public void run() {

@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr;
 
-
 import java.lang.annotation.Annotation;
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
@@ -29,20 +28,6 @@ import java.base.share.classes.java.util.Objects;
 import jdk.jfr.share.classes.jdk.jfr.internal.AnnotationConstruct;
 import jdk.jfr.share.classes.jdk.jfr.internal.Type;
 import jdk.jfr.share.classes.jdk.jfr.internal.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Describes the event fields and annotation elements.
@@ -141,7 +126,6 @@ public final class ValueDescriptor {
     public ValueDescriptor(Class<?> type, String name, List<AnnotationElement> annotations) {
         this(type, name, List.copyOf(annotations), false);
     }
-
 
     ValueDescriptor(Class<?> type, String name, List<AnnotationElement> annotations, boolean allowArray) {
         Objects.requireNonNull(annotations);

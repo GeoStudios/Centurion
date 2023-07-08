@@ -21,33 +21,15 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
-
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * This class represents a BootstrapMethods attribute.
@@ -66,7 +48,6 @@ public class BootstrapMethods extends Attribute {
     public BootstrapMethods(final BootstrapMethods c) {
         this(c.getNameIndex(), c.getLength(), c.getBootstrapMethods(), c.getConstantPool());
     }
-
 
     /**
      * @param name_index Index in constant pool to CONSTANT_Utf8

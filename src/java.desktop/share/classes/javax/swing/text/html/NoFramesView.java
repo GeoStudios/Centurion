@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
-
 import java.desktop.share.classes.javax.swing.text.*;
 import java.awt.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is the view associated with the html tag NOFRAMES.
@@ -62,7 +47,6 @@ class NoFramesView extends BlockView {
         visible = false;
     }
 
-
     /**
      * If this view is not visible, then it returns.
      * Otherwise it invokes the superclass.
@@ -84,7 +68,6 @@ class NoFramesView extends BlockView {
         }
         super.paint(g, allocation);
     }
-
 
     /**
      * Determines if the JTextComponent that the view
@@ -113,7 +96,6 @@ class NoFramesView extends BlockView {
     public boolean isVisible() {
         return visible;
     }
-
 
     /**
      * Do nothing if the view is not visible, otherwise

@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.util;
 
-
 import java.base.share.classes.java.util.concurrent.CountedCompleter;
 import java.base.share.classes.java.util.concurrent.RecursiveTask;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements powerful and fully optimized versions, both

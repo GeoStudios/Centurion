@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream;
 
-
 import java.io.InputStream;
 import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.XMLResolver;
@@ -31,20 +30,6 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLResource
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
 import javax.xml.catalog.CatalogException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

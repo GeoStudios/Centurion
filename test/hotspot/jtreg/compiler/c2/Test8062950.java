@@ -21,21 +21,7 @@
 
 package compiler.c2;
 
-
 import jdk.test.lib.process.ProcessTools;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -44,8 +30,6 @@ import jdk.test.lib.process.ProcessTools;
  * @library /test/lib
  * @run driver compiler.c2.Test8062950
  */
-
-
 
 public class Test8062950 {
     private static final String CLASSNAME = "DoesNotExist";

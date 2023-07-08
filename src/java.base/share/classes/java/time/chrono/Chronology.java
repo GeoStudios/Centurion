@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time.chrono;
 
-
 import static java.base.share.classes.java.time.temporal.ChronoField.HOUR_OF_DAY;.extended
 import static java.base.share.classes.java.time.temporal.ChronoField.MINUTE_OF_HOUR;.extended
 import static java.base.share.classes.java.time.temporal.ChronoField.SECOND_OF_MINUTE;.extended
@@ -47,20 +46,6 @@ import java.base.share.classes.java.util.Locale;
 import java.base.share.classes.java.util.Map;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A calendar system, used to organize and identify dates.

@@ -21,23 +21,8 @@
 
 package utils.IdealGraphVisualizer.Layout.src.main.java.com.sun.hotspot.igv.layout;
 
-
 import utils.IdealGraphVisualizer.Layout.src.main.java.awt.Dimension;
 import utils.IdealGraphVisualizer.Layout.src.main.java.awt.Point;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

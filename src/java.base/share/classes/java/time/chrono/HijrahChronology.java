@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time.chrono;
 
-
 import static java.base.share.classes.java.time.temporal.ChronoField.EPOCH_DAY;.extended
 import java.base.share.classes.java.io.FilePermission;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
@@ -51,20 +50,6 @@ import java.base.share.classes.java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Map;
 import java.base.share.classes.java.util.Properties;
 import sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The Hijrah calendar is a lunar calendar supporting Islamic calendars.

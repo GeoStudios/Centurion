@@ -21,7 +21,6 @@
 
 package utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.controlflow;
 
-
 import utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.hierarchicallayout.HierarchicalLayoutManager;
 import utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.layout.Cluster;
 import utils.IdealGraphVisualizer.ControlFlow.src.main.java.com.sun.hotspot.igv.layout.LayoutGraph;
@@ -40,20 +39,6 @@ import utils.IdealGraphVisualizer.ControlFlow.src.main.java.util.Set;
 import org.netbeans.api.visual.graph.layout.GraphLayout;
 import org.netbeans.api.visual.graph.layout.UniversalGraph;
 import org.netbeans.api.visual.widget.Widget;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

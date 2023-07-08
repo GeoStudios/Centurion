@@ -21,7 +21,6 @@
 
 package jdk.test.lib.jittester.factories;
 
-
 import java.util.Linkedjava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.IRNode;
 import jdk.test.lib.jittester.ProductionFailedException;
@@ -35,19 +34,6 @@ import jdk.test.lib.jittester.VariableInfo;
 import jdk.test.lib.jittester.VariableInitialization;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.PseudoRandom;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class VariableInitializationFactory extends SafeFactory<VariableInitialization> {
     private final int operatorLimit;

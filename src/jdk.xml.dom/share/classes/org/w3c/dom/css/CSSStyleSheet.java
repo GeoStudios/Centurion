@@ -21,23 +21,8 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.css;
 
-
 import jdk.xml.dom.share.classes.org.w3c.dom.DOMException;
 import jdk.xml.dom.share.classes.org.w3c.dom.stylesheets.StyleSheet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  The <code>CSSStyleSheet</code> interface is a concrete interface used to

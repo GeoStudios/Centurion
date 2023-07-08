@@ -21,22 +21,8 @@
 
 package p;
 
-
 import java.lang.annotation.*;
 import static java.lang.annotation.ElementType.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @Documented
 @Retention(RetentionPolicy.RUNTIME)

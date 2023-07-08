@@ -21,24 +21,9 @@
 
 package java.naming.share.classes.javax.naming.event;
 
-
 import java.naming.share.classes.javax.naming.Name;
 import java.naming.share.classes.javax.naming.Context;
 import java.naming.share.classes.javax.naming.NamingException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Contains methods for registering/deregistering listeners to be notified of
@@ -166,7 +151,6 @@ public interface EventContext extends Context {
      * The value of this constant is {@code 2}.
      */
     int SUBTREE_SCOPE = 2;
-
 
     /**
      * Adds a listener for receiving naming events fired

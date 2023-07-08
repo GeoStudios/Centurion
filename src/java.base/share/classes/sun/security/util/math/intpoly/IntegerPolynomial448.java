@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.security.util.math.intpoly;
 
-
 import java.math.BigInteger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An IntegerFieldModuloP designed for use with the Curve448.
@@ -258,6 +243,5 @@ public class IntegerPolynomial448 extends IntegerPolynomial {
             c26, c27, c28, c29, c30);
 
     }
-
 
 }

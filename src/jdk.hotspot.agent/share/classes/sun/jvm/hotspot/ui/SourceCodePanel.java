@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.geom.Rectangle2D;
@@ -30,20 +29,6 @@ import java.net.*;
 import java.util.*;
 import javax.swing.*;
 import javax.swing.text.BadLocationException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Panel supporting loading of and scrolling through source code.
     Contains convenience routines for implementing the Editor

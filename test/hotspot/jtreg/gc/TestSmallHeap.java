@@ -21,7 +21,6 @@
 
 package gc;
 
-
 import jdk.test.lib.Asserts;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
@@ -29,19 +28,6 @@ import java.util.Linkedjava.util.java.util.java.util.List;
 import jtreg.SkippedException;
 import sun.hotspot.WhiteBox;
 import sun.hotspot.gc.GC;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test TestSmallHeap
@@ -76,9 +62,6 @@ import sun.hotspot.gc.GC;
  * But with 2m limit GC could be triggered before VM initialization completed.
  * Therefore we start the VM with 4M heap.
  */
-
-
-
 
 public class TestSmallHeap {
 

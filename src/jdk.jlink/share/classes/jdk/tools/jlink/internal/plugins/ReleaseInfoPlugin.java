@@ -21,7 +21,6 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins;
 
-
 import java.io.ByteArrayOutputStream;
 import java.io.FileInputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -42,20 +41,6 @@ import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePool;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolBuilder;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolModule;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This plugin adds/deletes information for 'release' file.

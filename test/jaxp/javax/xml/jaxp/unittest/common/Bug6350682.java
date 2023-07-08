@@ -21,26 +21,12 @@
 
 package common;
 
-
 import javax.xml.parsers.SAXParserFactory;
 import javax.xml.transform.TransformerFactory;
 import static jaxp.library.JAXPTestUtilities.runWithAllPerm;.extended
 import org.testng.Assert;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

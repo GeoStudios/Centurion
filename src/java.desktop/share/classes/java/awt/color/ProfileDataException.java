@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.java.awt.color;
 
-
 import java.desktop.share.classes.java.io.Serial;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This exception is thrown when an error occurs in accessing or processing an

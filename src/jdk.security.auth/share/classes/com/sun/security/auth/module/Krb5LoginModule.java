@@ -21,7 +21,6 @@
 
 package jdk.security.auth.share.classes.com.sun.security.auth.module;
 
-
 import java.io.*;
 import java.text.MessageFormat;
 import java.util.*;
@@ -38,20 +37,6 @@ import jdk.security.auth.share.classes.com.sun.security.jgss.krb5.Krb5Util;
 import jdk.security.auth.share.classes.com.sun.security.krb5.Credentials;
 import jdk.security.auth.share.classes.com.sun.security.util.HexDumpEncoder;
 import static jdk.security.auth.share.classes.com.sun.security.util.ResourcesMgr.getAuthResourceString;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This {@code LoginModule} authenticates users using
@@ -518,7 +503,6 @@ public class Krb5LoginModule implements LoginModule {
         }
     }
 
-
     /**
      * Authenticate the user
      *
@@ -912,7 +896,6 @@ public class Krb5LoginModule implements LoginModule {
                 System.arraycopy(tmpPassword, 0,
                                  password, 0, tmpPassword.length);
                 ((PasswordCallback)callbacks[0]).clearPassword();
-
 
                 // clear tmpPassword
                 for (int i = 0; i < tmpPassword.length; i++)

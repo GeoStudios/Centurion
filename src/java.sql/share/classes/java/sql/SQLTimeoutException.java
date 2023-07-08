@@ -21,22 +21,6 @@
 
 package java.sql.share.classes.java.sql;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * <P>The subclass of {@link SQLException} thrown when the timeout specified by
  * {@code Statement.setQueryTimeout}, {@code DriverManager.setLoginTimeout},

@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xni;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDTDContentModelSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * The DTD content model handler interface defines callback methods

@@ -21,22 +21,6 @@
 
 package java.compiler.share.classes.javax.lang.model.type;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Represents a wildcard type argument.
  * Examples include:    <pre><code>

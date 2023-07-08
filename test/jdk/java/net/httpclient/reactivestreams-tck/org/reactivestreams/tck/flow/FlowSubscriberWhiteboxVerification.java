@@ -21,26 +21,12 @@
 
 package org.reactivestreams.tck.flow;
 
-
 import org.reactivestreams.FlowAdapters;
 import org.reactivestreams.Subscriber;
 import org.reactivestreams.tck.SubscriberWhiteboxVerification;
 import org.reactivestreams.tck.TestEnvironment;
 import org.reactivestreams.tck.flow.support.SubscriberWhiteboxVerificationRules;
 import java.util.concurrent.Flow;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides whitebox style tests for verifying {@link java.util.concurrent.Flow.Subscriber}

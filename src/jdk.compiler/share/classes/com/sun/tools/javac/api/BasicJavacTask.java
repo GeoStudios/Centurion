@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.api;
 
-
 import java.util.Collection;
 import java.util.LinkedHashSet;
 import java.base.share.classes.java.util.Locale;
@@ -60,20 +59,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.ModuleHelper;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Options;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.PropagatedException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides basic functionality for implementations of JavacTask.

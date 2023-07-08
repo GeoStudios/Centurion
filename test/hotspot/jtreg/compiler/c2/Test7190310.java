@@ -21,23 +21,9 @@
 
 package compiler.c2;
 
-
 import java.lang.ref.Reference;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.WeakReference;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -52,7 +38,6 @@ import java.lang.ref.WeakReference;
  * It should normally finish pretty quickly, but on some especially slow machines
  * it may not.  The companion _unsafe test lacks a timeout, but that is okay.
  */
-
 
 public class Test7190310 {
     private static Object str = new Object() {

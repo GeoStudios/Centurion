@@ -21,22 +21,8 @@
 
 package nsk.jvmti.unit.GetAllStackTraces;
 
-
 import java.io.PrintStream;
 import nsk.share.Consts;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class getallstktr001 {
 

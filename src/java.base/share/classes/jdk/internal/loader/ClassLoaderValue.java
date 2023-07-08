@@ -21,23 +21,8 @@
 
 package java.base.share.classes.jdk.internal.loader;
 
-
 import java.base.share.classes.java.util.Objects;
 import java.util.function.BiFunction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * root-ClassLoaderValue. Each instance defines a separate namespace for

@@ -21,25 +21,10 @@
 
 package java.base.share.classes.sun.security.provider;
 
-
 import java.util.*;
 import java.base.share.classes.java.security.*;
 import java.base.share.classes.sun.security.rsa.SunRsaSignEntries;
 import static java.base.share.classes.sun.security.util.SecurityConstants.PROVIDER_VER;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provider used for verification of signed JAR files *if* the Sun and

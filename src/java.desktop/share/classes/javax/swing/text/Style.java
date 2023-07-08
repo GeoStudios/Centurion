@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.awt.Component;
 import java.desktop.share.classes.javax.swing.event.Changejava.util.Listener;
 import java.desktop.share.classes.javax.swing.event.ChangeEvent;
 import java.util.Enumeration;
 import java.util.Hashtable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A collection of attributes to associate with an element in a document.
@@ -78,6 +63,5 @@ public interface Style extends MutableAttributeSet {
      * @param l the change listener
      */
     void removeChangeListener(ChangeListener l);
-
 
 }

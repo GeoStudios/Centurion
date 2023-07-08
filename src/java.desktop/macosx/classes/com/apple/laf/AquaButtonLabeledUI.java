@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import javax.swing.*;
@@ -34,20 +33,6 @@ import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.*;
 import java.desktop.macosx.classes.com.apple.laf.JRSUIState.ValueState;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtilControlSize.*;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class AquaButtonLabeledUI extends AquaButtonToggleUI implements Sizeable {
     private static final RecyclableSizingIcon regularIcon = new RecyclableSizingIcon(18);

@@ -21,7 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal.ccache;
 
-
 import java.security.jgss.share.classes.sun.security.action.GetPropertyAction;
 import java.security.jgss.share.classes.sun.security.krb5.*;
 import java.security.jgss.share.classes.sun.security.krb5.internal.*;
@@ -39,20 +38,6 @@ import java.io.FileOutputStream;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import static java.nio.charset.StandardCharsets.ISO_8859_1;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * CredentialsCache stores credentials(tickets, session keys, etc) in a
@@ -199,7 +184,6 @@ public class FileCredentialsCache extends CredentialsCache
         }
     }
 
-
     /**
      * Updates the credentials list. If the specified credentials for the
      * service is new, add it to the list. If there is an entry in the list,
@@ -249,7 +233,6 @@ public class FileCredentialsCache extends CredentialsCache
     public synchronized PrincipalName getPrimaryPrincipal() {
         return primaryPrincipal;
     }
-
 
     /**
      * Saves the credentials cache file to the disk.
@@ -560,7 +543,6 @@ public class FileCredentialsCache extends CredentialsCache
         }
         return fullname;
     }
-
 
     private static String exec(String c) {
         StringTokenizer st = new StringTokenizer(c);

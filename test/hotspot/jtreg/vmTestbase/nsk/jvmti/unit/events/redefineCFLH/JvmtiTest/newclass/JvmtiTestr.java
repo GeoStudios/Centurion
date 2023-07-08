@@ -21,21 +21,7 @@
 
 package nsk.jvmti.unit.events.redefineCFLH;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class JvmtiTestr {
     public int checkIt(boolean DEBUG_MODE, PrintStream out) {

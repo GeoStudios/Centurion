@@ -21,22 +21,7 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.css;
 
-
 import jdk.xml.dom.share.classes.org.w3c.dom.DOMException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  The <code>CSSStyleDeclaration</code> interface represents a single CSS

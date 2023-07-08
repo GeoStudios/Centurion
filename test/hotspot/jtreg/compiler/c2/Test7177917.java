@@ -21,22 +21,8 @@
 
 package compiler.c2;
 
-
 import jdk.test.lib.Utils;
 import java.util.Random;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -48,9 +34,6 @@ import java.util.Random;
  *
  * @run main compiler.c2.Test7177917
  */
-
-
-
 
 public class Test7177917 {
 

@@ -21,25 +21,9 @@
 
 package gc.gctests.gctest03;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class DataNodeException extends Exception
 {
 }
-
 
 class DataNode  {
   int key;
@@ -120,7 +104,6 @@ class DataNode  {
   public int getkey()
   { return key; }
 }
-
 
 class TreeNode {
   DataNode  data;
@@ -267,9 +250,7 @@ class TreeNode {
 
   }
 
-
 }
-
 
 class Tree {
   TreeNode root = null;
@@ -294,7 +275,6 @@ class Tree {
 
     root.insert(t);
   }
-
 
   public void sort1()
   {
@@ -412,6 +392,5 @@ class Tree {
   {
     return ( root == null );
   }
-
 
 }

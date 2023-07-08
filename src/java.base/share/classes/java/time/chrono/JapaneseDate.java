@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time.chrono;
 
-
 import static java.base.share.classes.java.time.temporal.ChronoField.ALIGNED_DAY_OF_WEEK_IN_MONTH;.extended
 import static java.base.share.classes.java.time.temporal.ChronoField.ALIGNED_DAY_OF_WEEK_IN_YEAR;.extended
 import static java.base.share.classes.java.time.temporal.ChronoField.ALIGNED_WEEK_OF_MONTH;.extended
@@ -54,20 +53,6 @@ import java.base.share.classes.java.util.Calendar;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import sun.util.calendar.CalendarDate;
 import sun.util.calendar.LocalGregorianCalendar;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A date in the Japanese Imperial calendar system.

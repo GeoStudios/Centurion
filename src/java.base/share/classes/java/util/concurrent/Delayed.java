@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.util.concurrent;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -47,8 +31,6 @@ package java.base.share.classes.java.util.concurrent;
  * Expert Group and released to the public domain, as explained at
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
-
-
 
 /**
  * A mix-in style interface for marking objects that should be

@@ -368,7 +368,6 @@ class LinuxWatchService extends AbstractWatchService {
             }
         }
 
-
         /**
          * map inotify event to WatchEvent.Kind
          */

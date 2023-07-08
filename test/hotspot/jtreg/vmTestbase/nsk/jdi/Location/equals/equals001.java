@@ -21,26 +21,12 @@
 
 package nsk.jdi.Location.equals;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -143,7 +129,6 @@ public class equals001 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -181,7 +166,6 @@ public class equals001 {
 
             //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ variable part
 
-
             String testedclassName = mName + ".TestClass";
 
             log2("       getting: List classes = vm.classesByName(testedclassName); expected size == 1");
@@ -208,7 +192,6 @@ public class equals001 {
                 testExitCode = FAILED;
                 break;
             }
-
 
             log2("......checking up Locations equality");
 

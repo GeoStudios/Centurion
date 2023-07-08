@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.swing.table;
 
-
 import java.awt.Component;
 import java.desktop.share.classes.javax.swing.CellEditor;
 import java.desktop.share.classes.javax.swing.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This interface defines the method any object that would like to be
@@ -47,7 +32,6 @@ import java.desktop.share.classes.javax.swing.*;
  * needs to implement.
  *
  */
-
 
 public interface TableCellEditor extends CellEditor {
 

@@ -21,24 +21,9 @@
 
 package java.xml.crypto.share.classes.com.sun.org.slf4j.internal;
 
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.logging.Level;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Bridge to java.util.logging.
 public class Logger {

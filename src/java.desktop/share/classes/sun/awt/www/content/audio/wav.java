@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.sun.awt.www.content.audio;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.ContentHandler;
 import java.net.URLConnection;
 import com.sun.media.sound.JavaSoundAudioClip;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Basic .wav audio handler returns an JavaSoundAudioClip object.

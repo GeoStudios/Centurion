@@ -21,25 +21,10 @@
 
 package jdk.jstatd.share.classes.sun.jvmstat.perfdata.monitor.protocol.rmi;
 
-
 import jdk.jstatd.share.classes.sun.jvmstat.monitor.HostIdentifier;
 import jdk.jstatd.share.classes.sun.jvmstat.monitor.MonitorException;
 import jdk.jstatd.share.classes.sun.jvmstat.monitor.MonitoredHost;
 import jdk.jstatd.share.classes.sun.jvmstat.monitor.MonitoredHostService;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class MonitoredHostRmiService implements MonitoredHostService {
 

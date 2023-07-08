@@ -21,23 +21,8 @@
 
 package java.base.share.classes.sun.security.internal.spec;
 
-
 import java.base.share.classes.sun.security.action.GetBooleanAction;
 import java.security.spec.AlgorithmParameterSpec;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Parameters for SSL/TLS RSA premaster secret.

@@ -21,7 +21,6 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.reader;
 
-
 import java.io.File;
 import java.io.InputStream;
 import java.util.Collection;
@@ -31,20 +30,6 @@ import jdk.internal.le.share.classes.jdk.internal.org.jline.keymap.KeyMap;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.MouseEvent;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Terminal;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.AttributedString;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Read lines from the console, with input editing.
  *

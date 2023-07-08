@@ -21,7 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.jdi.request;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.Locatable;
 import jdk.jdi.share.classes.com.sun.jdi.Location;
 import jdk.jdi.share.classes.com.sun.jdi.ObjectReference;
@@ -30,20 +29,6 @@ import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
 import jdk.jdi.share.classes.com.sun.jdi.event.BreakpointEvent;
 import jdk.jdi.share.classes.com.sun.jdi.event.EventQueue;
 import jdk.jdi.share.classes.com.sun.jdi.event.EventSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Identifies a {@link Location} in the target VM at which

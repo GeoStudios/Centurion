@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-
 import javax.swing.JComponent;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicSplitPaneDivider;
 import javax.swing.plaf.basic.BasicSplitPaneUI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Motif rendition of a split pane.

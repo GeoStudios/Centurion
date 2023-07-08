@@ -21,7 +21,6 @@
 
 package crules;
 
-
 import com.sun.source.tree.LambdaExpressionTree.BodyKind;
 import com.sun.source.util.JavacTask;
 import com.sun.source.util.TaskEvent.Kind;
@@ -35,19 +34,6 @@ import com.sun.tools.javac.tree.JCTree.Tag;
 import com.sun.tools.javac.tree.TreeInfo;
 import com.sun.tools.javac.tree.TreeScanner;
 import com.sun.tools.javac.util.Assert;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**This analyzer guards against complex messages (i.e. those that use string concatenation) passed
  * to various Assert.check methods.

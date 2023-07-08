@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMImplementation;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * <p>This DOMImplementation class is description of a particular
@@ -68,7 +51,6 @@ public class DeferredDOMImplementationImpl
 
     /** Dom implementation singleton. */
     static DeferredDOMImplementationImpl singleton = new DeferredDOMImplementationImpl();
-
 
     //
     // Public methods

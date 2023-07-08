@@ -21,31 +21,14 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.models;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.CMNode;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.CMStateSet;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSParticleDecl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  *
@@ -73,14 +56,12 @@ public class XSCMUniOp extends CMNode {
         fChild = childNode;
     }
 
-
     // -------------------------------------------------------------------
     //  Package, final methods
     // -------------------------------------------------------------------
     final CMNode getChild() {
         return fChild;
     }
-
 
     // -------------------------------------------------------------------
     //  Package, inherited methods
@@ -95,7 +76,6 @@ public class XSCMUniOp extends CMNode {
             else
                 return true;
     }
-
 
     // -------------------------------------------------------------------
     //  Protected, inherited methods
@@ -121,7 +101,6 @@ public class XSCMUniOp extends CMNode {
         super.setUserData(userData);
         fChild.setUserData(userData);
     }
-
 
     // -------------------------------------------------------------------
     //  Private data members

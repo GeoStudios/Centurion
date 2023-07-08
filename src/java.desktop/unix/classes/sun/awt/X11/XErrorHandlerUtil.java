@@ -21,25 +21,10 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.security.AccessController;
 import java.desktop.unix.classes.sun.awt.SunToolkit;
 import java.desktop.unix.classes.sun.security.action.GetBooleanAction;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class contains code of the global toolkit error handler, exposes static

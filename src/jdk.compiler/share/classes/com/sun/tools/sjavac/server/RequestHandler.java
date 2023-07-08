@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac.server;
 
-
 import jdk.compiler.share.classes.com.sun.tools.javac.main.Main;
 import jdk.compiler.share.classes.com.sun.tools.sjavac.Log;
 import jdk.compiler.share.classes.com.sun.tools.sjavac.Util;
@@ -31,20 +30,6 @@ import java.io.PrintWriter;
 import java.net.java.net.java.net.java.net.Socket;
 import java.nio.file.Path;
 import static jdk.compiler.share.classes.com.sun.tools.sjavac.server.SjavacServer.LINE_TYPE_RC;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A RequestHandler handles requests performed over a socket. Specifically it

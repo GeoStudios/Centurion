@@ -21,25 +21,11 @@
 
 package nsk.jdi.TypeComponent.declaringType;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class decltype002 {
     final static String FIELD_NAME_CLASS[] = {

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.plaf.*;
@@ -30,20 +29,6 @@ import javax.swing.plaf.basic.BasicCheckBoxMenuItemUI;
 import java.desktop.share.classes.com.sun.java.awt.*;
 import java.desktop.share.classes.com.sun.java.awt.event.*;
 import java.desktop.share.classes.com.sun.swing.SwingUtilities2;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * MotifCheckboxMenuItem implementation
@@ -82,7 +67,6 @@ public class MotifCheckBoxMenuItemUI extends BasicCheckBoxMenuItemUI
     protected MouseInputListener createMouseInputListener(JComponent c) {
         return new MouseInputHandler();
     }
-
 
     protected class MouseInputHandler implements MouseInputListener {
         public void mouseClicked(MouseEvent e) {}

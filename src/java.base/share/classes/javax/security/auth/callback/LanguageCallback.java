@@ -21,22 +21,7 @@
 
 package java.base.share.classes.javax.security.auth.callback;
 
-
 import java.base.share.classes.java.util.Locale;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p> Underlying security services instantiate and pass a

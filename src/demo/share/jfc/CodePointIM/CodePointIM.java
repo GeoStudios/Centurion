@@ -21,24 +21,9 @@
 
 package demo.share.jfc.CodePointIM;
 
-
 import java.base.share.classes.java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -47,10 +32,6 @@ import java.util.ResourceBundle;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
 
 public class CodePointIM {
 

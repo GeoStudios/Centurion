@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * @xerces.internal

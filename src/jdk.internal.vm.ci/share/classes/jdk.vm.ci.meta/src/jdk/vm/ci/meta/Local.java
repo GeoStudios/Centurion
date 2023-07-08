@@ -21,22 +21,6 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Describes the type and bytecode index range in which a local variable is live.
  */

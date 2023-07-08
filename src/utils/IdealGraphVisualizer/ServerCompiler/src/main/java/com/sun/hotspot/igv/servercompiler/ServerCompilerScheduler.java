@@ -21,7 +21,6 @@
 
 package utils.IdealGraphVisualizer.ServerCompiler.src.main.java.com.sun.hotspot.igv.servercompiler;
 
-
 import utils.IdealGraphVisualizer.ServerCompiler.src.main.java.com.sun.hotspot.igv.data.InputBlock;
 import utils.IdealGraphVisualizer.ServerCompiler.src.main.java.com.sun.hotspot.igv.data.InputEdge;
 import utils.IdealGraphVisualizer.ServerCompiler.src.main.java.com.sun.hotspot.igv.data.InputGraph;
@@ -30,20 +29,6 @@ import utils.IdealGraphVisualizer.ServerCompiler.src.main.java.com.sun.hotspot.i
 import utils.IdealGraphVisualizer.ServerCompiler.src.main.java.util.*;
 import org.openide.ErrorManager;
 import org.openide.util.lookup.ServiceProvider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *
@@ -475,7 +460,6 @@ public class ServerCompilerScheduler implements Scheduler {
                 }
             }
 
-
             int semiIndex = block.semi;
             BlockIntermediate semiBlock = array.get(semiIndex);
             semiBlock.bucket.add(block_index);
@@ -496,7 +480,6 @@ public class ServerCompilerScheduler implements Scheduler {
                     curBlock.dominator = dom;
                 }
             }
-
 
             parentBlock.bucket.clear();
         }
@@ -639,11 +622,9 @@ public class ServerCompilerScheduler implements Scheduler {
                 edgeMap.put(to, new ArrayList<InputEdge>());
             }
 
-
             List<InputEdge> list = edgeMap.get(to);
             list.add(e);
         }
-
 
         for (Integer i : edgeMap.keySet()) {
 

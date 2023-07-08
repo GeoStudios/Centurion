@@ -21,22 +21,8 @@
 
 package java.lang;
 
-
 import java.lang.ref.Reference;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Functional test for WeakPairMap

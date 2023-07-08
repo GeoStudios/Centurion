@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
@@ -46,8 +30,6 @@ package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
  * duplicated. If you're changing this file you probably want to change
  * DeferredAttrNSImpl.java at the same time.
  */
-
-
 
 /**
  * Attribute represents an XML-style attribute of an

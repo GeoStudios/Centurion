@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.lang.ref.*;
 import java.net.java.net.java.net.java.net.Socket;
 import java.security.AlgorithmConstraints;
@@ -41,20 +40,6 @@ import javax.net.ssl.*;
 import java.base.share.classes.sun.security.provider.certpath.AlgorithmChecker;
 import java.base.share.classes.sun.security.validator.Validator;
 import java.base.share.classes.sun.security.util.KnownOIDs;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The new X509 key manager implementation. The main differences to the

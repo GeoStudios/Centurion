@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.platform;
 
-
 import java.io.Closeable;
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.java.util.java.util.java.util.List;
@@ -29,20 +28,6 @@ import java.util.Map;
 import javax.annotation.processing.Processor;
 import javax.tools.JavaFileManager;
 import jdk.compiler.share.classes.com.sun.source.util.Plugin;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**A description of settings needed for a particular {@code --release name} option.
  *

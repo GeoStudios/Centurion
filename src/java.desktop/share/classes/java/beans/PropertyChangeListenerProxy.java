@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.java.beans;
 
-
 import java.desktop.share.classes.java.util.Eventjava.util.ListenerProxy;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class which extends the {@code EventListenerProxy}

@@ -21,23 +21,8 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm.commons;
 
-
 import java.util.Collections;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@link Remapper} using a {@link Map} to define its mapping.

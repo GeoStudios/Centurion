@@ -21,26 +21,11 @@
 
 package java.rmi.share.classes.sun.rmi.log;
 
-
 import java.io.*;
 import java.lang.reflect.Constructor;
 import java.rmi.server.RMIClassLoader;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is a simple implementation of a reliable Log.  The
@@ -117,7 +102,6 @@ public class ReliableLog {
     // format version numbers read from/written to this.log
     private int majorFormatVersion = 0;
     private int minorFormatVersion = 0;
-
 
     /**
      * Constructor for the log file.  If the system property
@@ -589,7 +573,6 @@ public class ReliableLog {
         logBytes = intBytes * 2L;
         logEntries = 0;
     }
-
 
     /**
      * Writes out version number to file.

@@ -21,34 +21,16 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.NodeConsumer;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLString;
 import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * This class does a pre-order walk of the DTM tree, calling a ContentHandler
@@ -97,7 +79,6 @@ public class DTMTreeWalker
   {
     m_contentHandler = ch;
   }
-
 
   /**
    * Constructor.
@@ -297,7 +278,6 @@ public class DTMTreeWalker
                            "CDATA",
                            dtm.getNodeValue(i));
       }
-
 
       this.m_contentHandler.startElement(ns,
                                          m_dtm.getLocalName(node),

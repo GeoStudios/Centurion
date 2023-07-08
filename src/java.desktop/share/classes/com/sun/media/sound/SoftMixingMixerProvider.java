@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import javax.sound.sampled.Mixer;
 import javax.sound.sampled.Mixer.Info;
 import javax.sound.sampled.spi.MixerProvider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provider for software audio mixer.

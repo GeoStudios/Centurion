@@ -21,25 +21,10 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.remote.x86;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.x86.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.remote.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class RemoteX86Thread extends RemoteThread  {
   public RemoteX86Thread(RemoteDebuggerClient debugger, Address addr) {

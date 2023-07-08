@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.desktop.share.classes.javax.swing.event.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A model that supports at most one indexed selection.

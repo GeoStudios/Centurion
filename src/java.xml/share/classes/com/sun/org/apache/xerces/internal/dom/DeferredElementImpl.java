@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-
 import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
@@ -47,9 +32,6 @@ import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
  * duplicated. If you're changing this file you probably want to change
  * DeferredElementNSImpl.java at the same time.
  */
-
-
-
 
 /**
  * Elements represent most of the "markup" and structure of the

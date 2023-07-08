@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.sun.awt;
 
-
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.awt.event.KeyEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ExtendedKeyCodes {
     /**

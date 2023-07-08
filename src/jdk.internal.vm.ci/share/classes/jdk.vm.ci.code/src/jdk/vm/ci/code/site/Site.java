@@ -21,22 +21,7 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code.site;
 
-
 import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.MetaUtil.identityHashCodeString;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents a code position with associated additional information.

@@ -21,26 +21,11 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.parser;
 
-
 import java.base.share.classes.java.util.Arrays;
 import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Errors;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
 import static jdk.compiler.share.classes.com.sun.tools.javac.util.LayoutCharacters.EOI;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.util.LayoutCharacters.tabulate;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The unicode character reader used by the javac/javadoc lexer/tokenizer, returns characters
@@ -306,7 +291,6 @@ public class UnicodeReader {
     protected int position() {
         return position;
     }
-
 
     /**
      * Reset the reader to the specified position.

@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.beans;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An {@code Expression} object represents a primitive expression
  * in which a single method is applied to a target and a set of

@@ -21,27 +21,12 @@
 
 package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.actions;
 
-
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.Changedjava.util.Listener;
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.util.ContextAction;
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view.DiagramViewModel;
 import javax.swing.Action;
 import javax.swing.ImageIcon;
 import org.openide.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

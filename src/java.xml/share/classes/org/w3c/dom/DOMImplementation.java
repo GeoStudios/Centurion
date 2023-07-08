@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.org.w3c.dom;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The <code>DOMImplementation</code> interface provides a number of methods
  * for performing operations that are independent of any particular instance

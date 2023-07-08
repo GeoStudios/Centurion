@@ -21,25 +21,10 @@
 
 package java.management.share.classes.sun.management.counter.perf;
 
-
 import java.management.share.classes.sun.management.counter.*;
 import java.nio.*;
 import java.util.*;
 import java.util.regex.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class PerfInstrumentation {
     private final ByteBuffer buffer;
@@ -179,7 +164,6 @@ public class PerfInstrumentation {
         Pattern pattern = Pattern.compile(patternString);
         Matcher matcher = pattern.matcher("");
         List<Counter> matches = new ArrayList<>();
-
 
         for (Map.Entry<String,Counter> me: map.entrySet()) {
             String name = me.getKey();

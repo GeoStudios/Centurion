@@ -21,26 +21,12 @@
 
 package nsk.share.jdi;
 
-
 import com.sun.jdi.ObjectCollectedException;
 import com.sun.jdi.event.Event;
 import com.sun.jdi.event.MonitorContendedEnterEvent;
 import com.sun.jdi.event.MonitorContendedEnteredEvent;
 import com.sun.jdi.event.MonitorWaitEvent;
 import com.sun.jdi.event.MonitorWaitedEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Class contains debugger classes based on JDIEventsDebugger intended for JDI events testing

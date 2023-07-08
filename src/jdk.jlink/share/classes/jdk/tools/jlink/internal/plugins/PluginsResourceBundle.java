@@ -21,25 +21,10 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins;
 
-
 import java.text.MessageFormat;
 import java.base.share.classes.java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class PluginsResourceBundle {
 

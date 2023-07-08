@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 6931567
@@ -43,7 +28,6 @@ package compiler.c2;
  *
  * @run main compiler.c2.Test6931567
  */
-
 
 // Should be compiled with javac from JDK1.3 to get bytecode which shows the problem.
 public class Test6931567 {

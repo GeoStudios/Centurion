@@ -21,29 +21,12 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
-
 import java.io.*;
 import java.awt.image.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*-
  *      Reads xbitmap format images into a DIBitmap structure.
  */
-
-
 
 /**
  * Parse files of the form:
@@ -72,7 +55,6 @@ public class XbmImageDecoder extends ImageDecoder {
             input = new BufferedInputStream(input, 80);
         }
     }
-
 
     /**
      * An error has occurred. Throw an exception.

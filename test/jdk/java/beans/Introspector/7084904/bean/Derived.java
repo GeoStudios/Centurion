@@ -21,20 +21,5 @@
 
 package bean;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Derived extends Base {
 }

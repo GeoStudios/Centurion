@@ -21,22 +21,7 @@
 
 package java.base.share.classes.jdk.internal.vm.annotation;
 
-
 import java.lang.annotation.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A method or constructor may be annotated as "don't inline" if the inlining of

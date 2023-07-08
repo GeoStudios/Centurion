@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.text.BreakIterator;
 import java.text.CharacterIterator;
 import java.text.StringCharacterIterator;
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A simple whitespace-based BreakIterator implementation.

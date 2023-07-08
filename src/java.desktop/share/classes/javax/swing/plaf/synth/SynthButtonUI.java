@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
-
 import sun.awt.AppContext;
 import java.desktop.share.classes.javax.swing.*;
 import java.awt.*;
@@ -30,20 +29,6 @@ import java.desktop.share.classes.javax.swing.plaf.*;
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicButtonUI;
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicHTML;
 import java.desktop.share.classes.javax.swing.text.View;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides the Synth L&amp;F UI delegate for

@@ -21,7 +21,6 @@
 
 package java.rmi.share.classes.java.rmi;
 
-
 import java.rmi.share.classes.java.io.ByteArrayInputStream;
 import java.rmi.share.classes.java.io.ByteArrayOutputStream;
 import java.rmi.share.classes.java.io.java.io.java.io.java.io.IOException;
@@ -36,20 +35,6 @@ import java.rmi.share.classes.java.security.AccessController;
 import java.rmi.share.classes.java.security.PrivilegedAction;
 import sun.rmi.server.MarshalInputStream;
 import sun.rmi.server.MarshalOutputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A <code>MarshalledObject</code> contains a byte stream with the serialized
@@ -292,7 +277,6 @@ public final class MarshalledObject<T> implements Serializable {
             hadAnnotations |= (loc != null);
             locOut.writeObject(loc);
         }
-
 
         public void flush() throws IOException {
             super.flush();

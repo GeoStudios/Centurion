@@ -21,23 +21,8 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
-
 import jdk.jconsole.share.classes.sun.tools.jconsole.Plotter;
 import javax.swing.JTable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("serial")
 public class XPlotter extends Plotter {

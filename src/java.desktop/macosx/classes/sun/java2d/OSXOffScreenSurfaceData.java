@@ -21,27 +21,12 @@
 
 package java.desktop.macosx.classes.sun.java2d;
 
-
 import java.awt.*;
 import java.awt.color.*;
 import java.awt.image.*;
 import java.nio.*;
 import java.desktop.macosx.classes.sun.awt.image.*;
 import java.desktop.macosx.classes.sun.java2d.loops.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class OSXOffScreenSurfaceData extends OSXSurfaceData // implements RasterListener
 {

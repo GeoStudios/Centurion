@@ -21,63 +21,10 @@
 
 package build.tools.symbolgenerator;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .ModuleHeaderDescription
                                   .ProvidesDescription;
                                   .ModuleHeaderDescription
                                   .RequiresDescription;
-
-
-
 
 /**
  * A tool for processing the .sym.txt files.

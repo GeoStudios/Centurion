@@ -21,22 +21,8 @@
 
 package javax.xml.parsers.ptests;
 
-
 import org.xml.sax.SAXParseException;
 import org.xml.sax.helpers.DefaultHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Customized DefaultHandler used for SAXParseException testing.

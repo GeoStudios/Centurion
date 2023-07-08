@@ -21,26 +21,11 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.builders;
 
-
 import javax.lang.model.element.PackageElement;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.DocFilesHandler;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.DocletException;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.PackageSummaryWriter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Builds the summary for a given package.
@@ -174,7 +159,6 @@ public class PackageSummaryBuilder extends AbstractBuilder {
     protected void buildAllClassesAndInterfacesSummary(Content summariesList) {
         packageWriter.addAllClassesAndInterfacesSummary(summariesList);
     }
-
 
     /**
      * Build the description of the summary.

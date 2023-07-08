@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.time.format;
 
-
 import java.base.share.classes.java.util.Calendar;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Enumeration of the style of text formatting and parsing.

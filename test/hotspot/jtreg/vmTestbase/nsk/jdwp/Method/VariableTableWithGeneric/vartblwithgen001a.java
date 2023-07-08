@@ -21,25 +21,11 @@
 
 package nsk.jdwp.Method.VariableTableWithGeneric;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
 import java.io.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents debuggee part in the test.

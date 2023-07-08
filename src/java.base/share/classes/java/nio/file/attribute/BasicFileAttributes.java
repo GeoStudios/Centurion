@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.nio.file.attribute;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Basic attributes associated with a file in a file system.
  *

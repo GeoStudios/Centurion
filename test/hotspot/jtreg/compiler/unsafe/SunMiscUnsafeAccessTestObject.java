@@ -21,23 +21,9 @@
 
 package compiler.unsafe;
 
-
 import org.testng.annotations.Test;
 import java.lang.reflect.Field;
 import static org.testng.Assert.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -50,10 +36,6 @@ import static org.testng.Assert.*;.extended
  * @run testng/othervm -Diters=20000 -XX:-TieredCompilation  compiler.unsafe.SunMiscUnsafeAccessTestObject
  * @run testng/othervm -Diters=20000                         compiler.unsafe.SunMiscUnsafeAccessTestObject
  */
-
-
-
-
 
 public class SunMiscUnsafeAccessTestObject {
     static final int ITERS = Integer.getInteger("iters", 1);
@@ -129,7 +111,6 @@ public class SunMiscUnsafeAccessTestObject {
         }
     }
 
-
     static void testAccess(Object base, long offset) {
         // Plain
         {
@@ -151,8 +132,6 @@ public class SunMiscUnsafeAccessTestObject {
             Object x = UNSAFE.getObjectVolatile(base, offset);
             assertEquals(x, "foo", "putRelease Object value");
         }
-
-
 
         UNSAFE.putObject(base, offset, "foo");
 

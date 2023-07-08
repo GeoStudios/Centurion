@@ -21,25 +21,10 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import jdk.internal.misc.Unsafe;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 import java.awt.AWTKeyStroke;
 import java.awt.event.InputEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Common class for all XEmbed protocol participating classes.
@@ -196,7 +181,6 @@ public class XEmbedHelper {
                 ", data:[" + msg.get_data(3) + "," + msg.get_data(4) + "]");
 
     }
-
 
     /**
      * Converts XEMBED modifiers mask into AWT InputEvent mask

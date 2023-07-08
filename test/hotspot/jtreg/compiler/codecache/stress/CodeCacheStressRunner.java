@@ -21,22 +21,8 @@
 
 package compiler.codecache.stress;
 
-
 import jdk.test.lib.TimeLimitedRunner;
 import jdk.test.lib.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CodeCacheStressRunner {
     private final Runnable action;

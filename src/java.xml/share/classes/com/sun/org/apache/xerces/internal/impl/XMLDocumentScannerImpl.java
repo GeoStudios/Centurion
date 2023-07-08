@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDDescription;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
@@ -47,20 +46,6 @@ import java.io.java.io.java.io.java.io.IOException;
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.events.XMLEvent;
 import jdk.xml.internal.SecuritySupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is responsible for scanning XML document structure
@@ -243,11 +228,9 @@ public class XMLDocumentScannerImpl
     /** Default constructor. */
     public XMLDocumentScannerImpl() {} // <init>()
 
-
     //
     // XMLDocumentScanner methods
     //
-
 
     /**
      * Sets the input source.
@@ -264,15 +247,10 @@ public class XMLDocumentScannerImpl
         setScannerState(XMLEvent.START_DOCUMENT);
     } // setInputSource(XMLInputSource)
 
-
-
     /**return the state of the scanner */
     public int getScannetState(){
         return fScannerState ;
     }
-
-
-
 
     public void reset(PropertyManager propertyManager) {
         super.reset(propertyManager);
@@ -352,7 +330,6 @@ public class XMLDocumentScannerImpl
         if(fDTDDecl != null)
             fDTDDecl.clear();
 
-
         //fEntityScanner.registerListener((XMLBufferListener)componentManager.getProperty(DOCUMENT_SCANNER));
 
         // setup driver
@@ -360,7 +337,6 @@ public class XMLDocumentScannerImpl
         setDriver(fXMLDeclDriver);
 
     } // reset(XMLComponentManager)
-
 
     /**
      * Returns a list of feature identifiers that are recognized by
@@ -548,7 +524,6 @@ public class XMLDocumentScannerImpl
 
     } // startEntity(String,identifier,String)
 
-
     /**
      * This method notifies the end of an entity. The DTD has the pseudo-name
      * of "[dtd]" parameter entity names start with '%'; and general entities
@@ -584,7 +559,6 @@ public class XMLDocumentScannerImpl
         }
     } // endEntity(String)
 
-
     public XMLStringBuffer getDTDDecl(){
         Entity entity = fEntityScanner.getCurrentEntity();
         fDTDDecl.append(((Entity.ScannedEntity)entity).ch,fStartPos , fEndPos-fStartPos);
@@ -610,8 +584,6 @@ public class XMLDocumentScannerImpl
     public NamespaceContext getNamespaceContext(){
         return fNamespaceContext ;
     }
-
-
 
     //
     // Protected methods
@@ -733,7 +705,6 @@ public class XMLDocumentScannerImpl
         //
         // Driver methods
         //
-
 
         public int next() throws IOException, XNIException {
 
@@ -1017,7 +988,6 @@ public class XMLDocumentScannerImpl
             return -1;
 
         }
-
 
     } // class PrologDriver
 
@@ -1335,8 +1305,6 @@ public class XMLDocumentScannerImpl
             }
         } // resolveExternalSubsetAndRead()
 
-
-
     } // class ContentDriver
 
     /**
@@ -1483,7 +1451,6 @@ public class XMLDocumentScannerImpl
     /**
      * Implements XMLBufferListener interface.
      */
-
 
     /**
      * receives callbacks from {@link XMLEntityReader } when buffer

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.module;
 
-
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.File;
@@ -62,20 +61,6 @@ import java.base.share.classes.jdk.internal.jmod.JmodFile;
 import java.base.share.classes.jdk.internal.jmod.JmodFile.Section;
 import java.base.share.classes.jdk.internal.perf.PerfCounter;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A {@code ModuleFinder} that locates modules on the file system by searching
  * a sequence of directories or packaged modules. The ModuleFinder can be
@@ -103,7 +88,6 @@ public class ModulePath implements ModuleFinder {
 
     // map of module name to module reference map for modules already located
     private final Map<String, ModuleReference> cachedModules = new HashMap<>();
-
 
     private ModulePath(Runtime.Version version,
                        boolean isLinkPhase,
@@ -147,7 +131,6 @@ public class ModulePath implements ModuleFinder {
                                   Path... entries) {
         return new ModulePath(version, isLinkPhase, null, entries);
     }
-
 
     @Override
     public Optional<ModuleReference> find(String name) {
@@ -213,7 +196,6 @@ public class ModulePath implements ModuleFinder {
         }
     }
 
-
     /**
      * Scan the given module path entry. If the entry is a directory then it is
      * a directory of modules or an exploded module. If the entry is a regular
@@ -263,7 +245,6 @@ public class ModulePath implements ModuleFinder {
         }
     }
 
-
     /**
      * Scans the given directory for packaged or exploded modules.
      *
@@ -310,7 +291,6 @@ public class ModulePath implements ModuleFinder {
 
         return nameToReference;
     }
-
 
     /**
      * Reads a packaged or exploded module, returning a {@code ModuleReference}
@@ -406,7 +386,6 @@ public class ModulePath implements ModuleFinder {
             return ModuleReferences.newJModModule(attrs, file);
         }
     }
-
 
     // -- JAR files --
 
@@ -668,7 +647,6 @@ public class ModulePath implements ModuleFinder {
         }
     }
 
-
     // -- exploded directories --
 
     private Set<String> explodedPackages(Path dir) {
@@ -781,7 +759,6 @@ public class ModulePath implements ModuleFinder {
         }
     }
 
-
     /**
      * Return true if a path locates a path in the default file system
      */
@@ -789,7 +766,6 @@ public class ModulePath implements ModuleFinder {
         return path.getFileSystem().provider()
                 .getScheme().equalsIgnoreCase("file");
     }
-
 
     private static final PerfCounter scanTime
         = PerfCounter.newPerfCounter("jdk.module.finder.modulepath.scanTime");

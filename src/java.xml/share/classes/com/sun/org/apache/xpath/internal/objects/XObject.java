@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.objects;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMIterator;
@@ -39,20 +38,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.w3c.dom.DocumentFragment;
 import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.w3c.dom.traversal.NodeIterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents an XPath object, and is capable of
@@ -297,7 +282,6 @@ public class XObject extends Expression implements Serializable, Cloneable
     return bool();
   }
 
-
   /**
    * Cast result object to a string.
    *
@@ -384,7 +368,6 @@ public class XObject extends Expression implements Serializable, Cloneable
     return docFrag;
   }
 
-
   /**
    * For functions to override.
    *
@@ -442,7 +425,6 @@ public class XObject extends Expression implements Serializable, Cloneable
     return this;
   }
 
-
   /**
    * Cast result object to a nodelist. Always issues an error.
    *
@@ -474,7 +456,6 @@ public class XObject extends Expression implements Serializable, Cloneable
 
     return null;
   }
-
 
   /**
    * Cast result object to a nodelist. Always issues an error.
@@ -727,7 +708,6 @@ public class XObject extends Expression implements Serializable, Cloneable
     }
   }
 
-
   /**
    * XObjects should not normally need to fix up variables.
    */
@@ -735,7 +715,6 @@ public class XObject extends Expression implements Serializable, Cloneable
   {
     // no-op
   }
-
 
   /**
    * Cast result object to a string.

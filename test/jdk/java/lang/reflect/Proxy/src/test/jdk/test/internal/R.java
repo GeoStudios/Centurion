@@ -21,22 +21,8 @@
 
 package jdk.test.internal;
 
-
 import jdk.test.internal.foo.*;
 import p.two.Bar;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public interface R {
     public Foo foo();

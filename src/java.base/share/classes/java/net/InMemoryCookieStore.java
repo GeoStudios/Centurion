@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.net;
 
-
 import java.base.share.classes.java.net.URI;
 import java.base.share.classes.java.net.CookieStore;
 import java.base.share.classes.java.net.HttpCookie;
@@ -33,20 +32,6 @@ import java.base.share.classes.java.util.HashMap;
 import java.base.share.classes.java.util.Collections;
 import java.base.share.classes.java.util.Iterator;
 import java.base.share.classes.java.util.concurrent.locks.ReentrantLock;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A simple in-memory java.net.CookieStore implementation
@@ -65,7 +50,6 @@ class InMemoryCookieStore implements CookieStore {
 
     // use ReentrantLock instead of synchronized for scalability
     private ReentrantLock lock = null;
-
 
     /**
      * The default ctor
@@ -86,7 +70,6 @@ class InMemoryCookieStore implements CookieStore {
         if (cookie == null) {
             throw new NullPointerException("cookie is null");
         }
-
 
         lock.lock();
         try {
@@ -109,7 +92,6 @@ class InMemoryCookieStore implements CookieStore {
             lock.unlock();
         }
     }
-
 
     /**
      * Get all cookies, which:
@@ -188,7 +170,6 @@ class InMemoryCookieStore implements CookieStore {
         return uris;
     }
 
-
     /**
      * Remove a cookie from store
      */
@@ -209,7 +190,6 @@ class InMemoryCookieStore implements CookieStore {
         return modified;
     }
 
-
     /**
      * Remove all cookies in this cookie store.
      */
@@ -229,9 +209,7 @@ class InMemoryCookieStore implements CookieStore {
         return true;
     }
 
-
     /* ---------------- Private operations -------------- */
-
 
     /*
      * This is almost the same as HttpCookie.domainMatches except for
@@ -383,7 +361,6 @@ class InMemoryCookieStore implements CookieStore {
             }
         }
     }
-
 
     //
     // for cookie purpose, the effective uri should only be http://host

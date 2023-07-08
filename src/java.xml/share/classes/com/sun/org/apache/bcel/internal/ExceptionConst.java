@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Exception constants.
  * @LastModified: May 2021
@@ -150,6 +134,5 @@ public final class ExceptionConst {
             throw new AssertionError("Cannot happen; unexpected enum value: " + type);
         }
     }
-
 
 }

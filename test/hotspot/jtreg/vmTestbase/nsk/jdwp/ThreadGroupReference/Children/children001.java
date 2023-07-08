@@ -21,25 +21,11 @@
 
 package nsk.jdwp.ThreadGroupReference.Children;
 
-
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class children001 {
     static final int JCK_STATUS_BASE = 95;
@@ -88,7 +74,6 @@ public class children001 {
                 log.display("Waiting for command: " + "ready");
                 String cmd = pipe.readln();
                 log.display("Received command: " + cmd);
-
 
                 try {
 

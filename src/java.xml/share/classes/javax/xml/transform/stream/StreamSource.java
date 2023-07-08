@@ -21,27 +21,12 @@
 
 package java.xml.share.classes.javax.xml.transform.stream;
 
-
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.Reader;
 import java.xml.share.classes.javax.xml.transform.Result;
 import java.xml.share.classes.javax.xml.transform.Source;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Acts as an holder for a transformation Source in the form

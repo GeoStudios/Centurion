@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Collections;
@@ -34,20 +33,6 @@ import java.util.Set;
 import java.util.StringJoiner;
 import jdk.jfr.share.classes.jdk.jfr.internal.EventControl.NamedControl;
 import jdk.jfr.share.classes.jdk.jfr.internal.handlers.EventHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class SettingsManager {
 

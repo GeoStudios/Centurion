@@ -21,7 +21,6 @@
 
 package nsk.monitoring.MemoryNotificationInfo.from;
 
-
 import java.lang.management.*;
 import javax.management.*;
 import javax.management.openmbean.*;
@@ -34,19 +33,6 @@ import nsk.share.gc.Memory;
 import nsk.share.gc.gp.GarbageUtils;
 import nsk.monitoring.share.*;
 import nsk.share.test.Stresser;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class from001 {
 
@@ -187,7 +173,6 @@ public class from001 {
         log.display("Test passed.");
     }
 }
-
 
 class from001Listener implements NotificationListener {
 

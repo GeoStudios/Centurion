@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.geom.Dimension2D;
 import java.desktop.share.classes.java.beans.Transient;
 import java.desktop.share.classes.java.io.Serial;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code Dimension} class encapsulates the width and

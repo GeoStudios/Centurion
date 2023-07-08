@@ -21,33 +21,15 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.jaxp;
 
-
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.PrefixResolver;
 import javax.xml.namespace.NamespaceContext;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * <meta name="usage" content="general"/>
@@ -61,11 +43,9 @@ public class JAXPPrefixResolver implements PrefixResolver
 
     private final NamespaceContext namespaceContext;
 
-
     public JAXPPrefixResolver ( NamespaceContext nsContext ) {
         this.namespaceContext = nsContext;
     }
-
 
     public String getNamespaceForPrefix( String prefix ) {
         return namespaceContext.getNamespaceURI( prefix );
@@ -87,7 +67,6 @@ public class JAXPPrefixResolver implements PrefixResolver
         return false;
     }
 
-
     /**
      * The URI for the XML namespace.
      * (Duplicate of that found in com.sun.org.apache.xpath.internal.XPathContext).
@@ -95,7 +74,6 @@ public class JAXPPrefixResolver implements PrefixResolver
 
     public static final String S_XMLNAMESPACEURI =
         "http://www.w3.org/XML/1998/namespace";
-
 
     /**
      * Given a prefix and a Context Node, get the corresponding namespace.

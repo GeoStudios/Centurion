@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.util;
 
-
 import java.base.share.classes.java.util.function.Consumer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class provides a skeletal implementation of the {@link List}
@@ -175,7 +160,6 @@ public abstract class AbstractList<E> extends AbstractCollection<E> implements L
         throw new UnsupportedOperationException();
     }
 
-
     // Search Operations
 
     /**
@@ -229,7 +213,6 @@ public abstract class AbstractList<E> extends AbstractCollection<E> implements L
         return -1;
     }
 
-
     // Bulk Operations
 
     /**
@@ -280,7 +263,6 @@ public abstract class AbstractList<E> extends AbstractCollection<E> implements L
         }
         return modified;
     }
-
 
     // Iterators
 

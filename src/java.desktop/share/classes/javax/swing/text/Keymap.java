@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.desktop.share.classes.javax.swing.Action;
 import java.desktop.share.classes.javax.swing.KeyStroke;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A collection of bindings of KeyStrokes to actions.  The

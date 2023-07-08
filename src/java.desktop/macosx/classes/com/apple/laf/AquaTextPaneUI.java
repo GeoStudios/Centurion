@@ -21,26 +21,11 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicTextPaneUI;
 import javax.swing.text.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //[3663467] moved it to sublcass from BasicEditorPaneUI to BasicTextPaneUI. (vm)
 public class AquaTextPaneUI extends BasicTextPaneUI {

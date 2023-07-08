@@ -21,26 +21,10 @@
 
 package java.management.share.classes.javax.management.openmbean;
 
-
 import java.management.share.classes.javax.management.MBeanParameterInfo;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // java import
 //
-
 
 // jmx import
 //
@@ -120,7 +104,6 @@ public interface OpenMBeanOperationInfo  {
      */
     String getReturnType() ;
 
-
     // Now declares methods that are specific to open MBeans
     //
 
@@ -132,7 +115,6 @@ public interface OpenMBeanOperationInfo  {
      * @return the return type.
      */
     OpenType<?> getReturnOpenType() ; // open MBean specific method
-
 
     // commodity methods
     //

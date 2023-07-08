@@ -21,22 +21,8 @@
 
 package compiler.escapeAnalysis;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -45,8 +31,6 @@ import java.util.java.util.java.util.java.util.List;
  *
  * @run main compiler.escapeAnalysis.Test8020215
  */
-
-
 
 public class Test8020215 {
     public static class NamedObject {

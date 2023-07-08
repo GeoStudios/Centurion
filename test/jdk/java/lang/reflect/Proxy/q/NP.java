@@ -21,20 +21,5 @@
 
 package q;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 interface NP {
 }

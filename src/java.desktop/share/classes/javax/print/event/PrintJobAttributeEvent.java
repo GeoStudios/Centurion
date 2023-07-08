@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.print.event;
 
-
 import java.io.Serial;
 import java.desktop.share.classes.javax.print.DocPrintJob;
 import java.desktop.share.classes.javax.print.attribute.AttributeSetUtilities;
 import java.desktop.share.classes.javax.print.attribute.PrintJobAttributeSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class {@code PrintJobAttributeEvent} encapsulates an event a

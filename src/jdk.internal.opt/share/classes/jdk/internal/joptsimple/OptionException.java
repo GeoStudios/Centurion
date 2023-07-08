@@ -21,7 +21,6 @@
 
 package jdk.internal.opt.share.classes.jdk.internal.joptsimple;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Iterator;
@@ -32,20 +31,6 @@ import java.util.Set;
 import jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.Strings;
 import static java.util.Collections.*;.extended
 import static jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.Messages.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Thrown when a problem occurs during option parsing.

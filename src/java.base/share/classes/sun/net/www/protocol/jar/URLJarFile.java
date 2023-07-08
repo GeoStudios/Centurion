@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.net.www.protocol.jar;
 
-
 import java.io.*;
 import java.net.*;
 import java.nio.file.Files;
@@ -38,20 +37,6 @@ import java.security.PrivilegedAction;
 import java.security.PrivilegedExceptionAction;
 import java.security.PrivilegedActionException;
 import java.base.share.classes.sun.net.www.ParseUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* URL jar file is a common JarFile subtype used for JarURLConnection */
 public class URLJarFile extends JarFile {
@@ -256,7 +241,6 @@ public class URLJarFile extends JarFile {
     {
         callback = cb;
     }
-
 
     private class URLJarFileEntry extends JarEntry {
         private final JarEntry je;

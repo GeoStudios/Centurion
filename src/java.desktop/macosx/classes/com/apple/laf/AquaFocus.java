@@ -21,26 +21,11 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.awt.*;
 import javax.swing.*;
 import sun.java2d.*;
 import java.desktop.macosx.classes.com.apple.laf.JRSUIFocus;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.Painter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AquaFocus {
     interface Drawable {

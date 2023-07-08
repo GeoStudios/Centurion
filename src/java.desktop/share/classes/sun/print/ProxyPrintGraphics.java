@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.sun.print;
 
-
 import java.awt.Graphics;
 import java.awt.PrintGraphics;
 import java.awt.PrintJob;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A subclass of Graphics that can be printed to. The
@@ -74,7 +59,6 @@ public class ProxyPrintGraphics extends ProxyGraphics
         return new ProxyPrintGraphics(getGraphics().create(), printJob);
     }
 
-
     /**
      * Creates a new {@code Graphics} object based on this
      * {@code Graphics} object, but with a new translation and
@@ -99,7 +83,6 @@ public class ProxyPrintGraphics extends ProxyGraphics
     public Graphics getGraphics() {
         return super.getGraphics();
     }
-
 
    /* Spec implies dispose() should flush the page, but the implementation
     * has in fact always done this on the getGraphics() call, thereby

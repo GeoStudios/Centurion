@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.icu.impl;
 
-
 import java.io.DataInputStream;
 import java.io.InputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -32,20 +31,6 @@ import java.base.share.classes.java.util.Arrays;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.base.share.classes.jdk.internal.icu.util.VersionInfo;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class ICUBinary {
 

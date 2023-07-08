@@ -21,21 +21,6 @@
 
 package compiler.c1;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8237894
@@ -48,7 +33,6 @@ package compiler.c1;
  *      -XX:TieredStopAtLevel=3
  *      compiler.c1.TestValueNumberingNullObject
  */
-
 
 class T1 {
 

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.nio.cs;
 
-
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.Charset;
@@ -32,20 +31,6 @@ import java.base.share.classes.java.util.Objects;
 import jdk.internal.access.JavaLangAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ISO_8859_1
     extends Charset

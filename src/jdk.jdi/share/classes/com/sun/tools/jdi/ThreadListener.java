@@ -21,23 +21,8 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.*;
 import java.util.Eventjava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 interface ThreadListener extends EventListener {
     boolean threadResumable(ThreadAction action);

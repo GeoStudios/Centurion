@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of a gapped buffer similar to that used by
@@ -52,7 +37,6 @@ import java.io.Serializable;
  */
 @SuppressWarnings("serial") // Data in fields not necessarily serializable
 abstract class GapVector implements Serializable {
-
 
     /**
      * Creates a new GapVector object.  Initial size defaults to 10.
@@ -133,7 +117,6 @@ abstract class GapVector implements Serializable {
      * end of gap in the array
      */
     private int g1;
-
 
     // --- gap management -------------------------------
 

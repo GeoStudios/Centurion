@@ -21,25 +21,10 @@
 
 package java.base.share.classes.javax.net;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.InetAddress;
 import java.net.java.net.java.net.Serverjava.net.java.net.Socket;
 import java.net.java.net.SocketException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class creates server sockets.  It may be subclassed by other
@@ -64,7 +49,6 @@ public abstract class ServerSocketFactory
     // even though it's always accessible via getDefault().
     //
     private static ServerSocketFactory          theFactory;
-
 
     /**
      * Creates a server socket factory.
@@ -92,7 +76,6 @@ public abstract class ServerSocketFactory
 
         return theFactory;
     }
-
 
     /**
      * Returns an unbound server socket.  The socket is configured with
@@ -132,7 +115,6 @@ public abstract class ServerSocketFactory
     public abstract ServerSocket createServerSocket(int port)
         throws IOException;
 
-
     /**
      * Returns a server socket bound to the specified port, and uses the
      * specified connection backlog.  The socket is configured with
@@ -162,7 +144,6 @@ public abstract class ServerSocketFactory
     public abstract ServerSocket
     createServerSocket(int port, int backlog)
     throws IOException;
-
 
     /**
      * Returns a server socket bound to the specified port,
@@ -201,7 +182,6 @@ public abstract class ServerSocketFactory
     createServerSocket(int port, int backlog, InetAddress ifAddress)
     throws IOException;
 }
-
 
 //
 // The default factory has NO intelligence.  In fact it's not clear

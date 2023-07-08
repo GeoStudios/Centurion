@@ -21,21 +21,7 @@
 
 package gc.g1.unloading;
 
-
 import nsk.share.test.ExecutionController;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utility superclass for threads that employ ExecutionController.

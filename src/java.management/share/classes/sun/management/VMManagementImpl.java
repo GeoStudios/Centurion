@@ -21,7 +21,6 @@
 
 package java.management.share.classes.sun.management;
 
-
 import jdk.internal.perf.Perf;
 import java.management.share.classes.sun.management.counter.*;
 import java.management.share.classes.sun.management.counter.perf.*;
@@ -34,20 +33,6 @@ import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation of VMManagement interface that accesses the management
@@ -67,7 +52,6 @@ class VMManagementImpl implements VMManagement {
     private static boolean threadAllocatedMemorySupport;
     private static boolean gcNotificationSupport;
     private static boolean remoteDiagnosticCommandsSupport;
-
 
     static {
         version = getVersion0();

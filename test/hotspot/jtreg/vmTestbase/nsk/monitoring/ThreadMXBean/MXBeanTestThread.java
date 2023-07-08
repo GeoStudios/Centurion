@@ -21,26 +21,12 @@
 
 package nsk.monitoring.ThreadMXBean;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import nsk.share.gc.gp.GarbageProducer;
 import nsk.share.gc.gp.GarbageUtils;
 import nsk.share.test.Stresser;
 import nsk.share.test.LocalRandom;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class MXBeanTestThread extends Thread {
 

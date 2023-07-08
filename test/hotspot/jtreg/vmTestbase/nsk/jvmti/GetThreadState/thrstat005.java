@@ -21,23 +21,9 @@
 
 package nsk.jvmti.GetThreadState;
 
-
 import java.io.PrintStream;
 import java.util.concurrent.*;
 import java.util.concurrent.locks.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class thrstat005 {
     final static int JCK_STATUS_BASE = 95;

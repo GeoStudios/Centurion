@@ -21,23 +21,8 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal;
 
-
 import java.base.share.classes.java.util.Objects;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A LinkResourcePoolEntry is the elementary unit of data inside an image. It is

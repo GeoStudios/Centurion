@@ -21,25 +21,10 @@
 
 package java.smartcardio.share.classes.javax.smartcardio;
 
-
 import java.util.*;
 import java.base.share.classes.java.security.*;
 import sun.security.jca.*;
 import sun.security.jca.GetInstance.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A factory for CardTerminal objects.

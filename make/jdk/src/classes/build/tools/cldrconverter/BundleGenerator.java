@@ -21,56 +21,6 @@
 
 package build.tools.cldrconverter;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface BundleGenerator {
     static enum BundleType {
         PLAIN("java.util.ListResourceBundle"),

@@ -21,22 +21,6 @@
 
 package java.management.share.classes.javax.management;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The specified attribute does not exist or cannot be retrieved.
  *

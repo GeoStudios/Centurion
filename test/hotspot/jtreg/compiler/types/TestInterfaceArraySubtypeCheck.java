@@ -21,21 +21,6 @@
 
 package compiler.types;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8266615
@@ -43,7 +28,6 @@ package compiler.types;
  * @run main/othervm -Xbatch
  *                   compiler.types.TestInterfaceArraySubtypeCheck
  */
-
 
 public class TestInterfaceArraySubtypeCheck {
 

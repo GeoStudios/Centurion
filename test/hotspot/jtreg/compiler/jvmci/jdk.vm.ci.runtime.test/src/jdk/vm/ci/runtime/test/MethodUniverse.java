@@ -21,25 +21,11 @@
 
 package jdk.vm.ci.runtime.test;
 
-
 import jdk.vm.ci.meta.ResolvedJavaMethod;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Context for method related tests.

@@ -21,22 +21,8 @@
 
 package compiler.c2;
 
-
 import java.util.Random;
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -46,8 +32,6 @@ import java.base.share.classes.java.util.Arrays;
  * @run main/othervm -Xcomp compiler.c2.TestShiftRightAndAccumulate
  * @run main/othervm -XX:-SuperWordLoopUnrollAnalysis compiler.c2.TestShiftRightAndAccumulate
  */
-
-
 
 public class TestShiftRightAndAccumulate {
     private static final int SMALL_LEN = 16;

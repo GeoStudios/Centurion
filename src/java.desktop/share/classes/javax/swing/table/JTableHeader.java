@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.table;
 
-
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Cursor;
@@ -63,20 +62,6 @@ import java.desktop.share.classes.javax.swing.plaf.TableHeaderUI;
 import sun.awt.AWTAccessor;
 import sun.awt.AWTAccessor.MouseEventAccessor;
 import sun.swing.table.DefaultTableCellHeaderRenderer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is the object which manages the header of the <code>JTable</code>.
@@ -409,7 +394,6 @@ public class JTableHeader extends JComponent implements TableColumnModelListener
         return r;
     }
 
-
     /**
      * Allows the renderer's tips to be used if there is text set.
      * @param  event  the location of the event identifies the proper
@@ -531,7 +515,6 @@ public class JTableHeader extends JComponent implements TableColumnModelListener
         }
     }
 
-
     /**
      * Returns the suffix used to construct the name of the look and feel
      * (L&amp;F) class used to render this component.
@@ -544,11 +527,9 @@ public class JTableHeader extends JComponent implements TableColumnModelListener
         return uiClassID;
     }
 
-
 //
 // Managing models
 //
-
 
     /**
      *  Sets the column model for this table to <code>newModel</code> and registers
@@ -604,7 +585,6 @@ public class JTableHeader extends JComponent implements TableColumnModelListener
      */
     public void columnAdded(TableColumnModelEvent e) { resizeAndRepaint(); }
 
-
     /**
      * Invoked when a column is removed from the table column model.
      * <p>
@@ -615,7 +595,6 @@ public class JTableHeader extends JComponent implements TableColumnModelListener
      * @see TableColumnModelListener
      */
     public void columnRemoved(TableColumnModelEvent e) { resizeAndRepaint(); }
-
 
     /**
      * Invoked when a column is repositioned.
@@ -628,7 +607,6 @@ public class JTableHeader extends JComponent implements TableColumnModelListener
      */
     public void columnMoved(TableColumnModelEvent e) { repaint(); }
 
-
     /**
      * Invoked when a column is moved due to a margin change.
      * <p>
@@ -639,7 +617,6 @@ public class JTableHeader extends JComponent implements TableColumnModelListener
      * @see TableColumnModelListener
      */
     public void columnMarginChanged(ChangeEvent e) { resizeAndRepaint(); }
-
 
     // --Redrawing the header is slow in cell selection mode.
     // --Since header selection is ugly and it is always clear from the
@@ -681,7 +658,6 @@ public class JTableHeader extends JComponent implements TableColumnModelListener
     protected TableCellRenderer createDefaultRenderer() {
         return new DefaultTableCellHeaderRenderer();
     }
-
 
     /**
      * Initializes the local variables and properties with default values.
@@ -1172,7 +1148,6 @@ public class JTableHeader extends JComponent implements TableColumnModelListener
             public AccessibleValue getAccessibleValue() {
                 return getCurrentAccessibleContext().getAccessibleValue();
             }
-
 
         // AccessibleComponent methods
 

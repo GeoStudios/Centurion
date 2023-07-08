@@ -21,21 +21,6 @@
 
 package compiler.loopopts;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8260284
@@ -43,7 +28,6 @@ package compiler.loopopts;
  * @requires vm.compiler2.enabled
  * @run main/othervm -Xcomp -XX:-TieredCompilation -XX:CompileOnly=compiler/loopopts/TestDivWithTopDivisor compiler.loopopts.TestDivWithTopDivisor
  */
-
 
 public class TestDivWithTopDivisor {
     static boolean bFld;

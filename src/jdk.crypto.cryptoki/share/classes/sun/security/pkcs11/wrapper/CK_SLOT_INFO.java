@@ -21,29 +21,10 @@
 
 package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * class CK_SLOT_INFO provides information about a slot.<p>

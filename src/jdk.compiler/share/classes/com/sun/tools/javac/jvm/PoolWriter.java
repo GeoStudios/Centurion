@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
 
-
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.ClassSymbol;
@@ -55,20 +54,6 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.CLASS;
 import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.CONSTANT_Class;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.CONSTANT_MethodType;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.externalize;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Pool interface towards {@code ClassWriter}. Exposes methods to encode and write javac entities

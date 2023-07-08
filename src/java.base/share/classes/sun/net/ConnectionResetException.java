@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.net;
 
-
 import java.net.java.net.SocketException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Thrown to indicate a connection reset.

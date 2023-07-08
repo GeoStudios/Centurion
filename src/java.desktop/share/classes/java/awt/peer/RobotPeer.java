@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.java.awt.peer;
 
-
 import java.desktop.share.classes.java.awt.Rectangle;
 import java.desktop.share.classes.java.awt.Robot;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * RobotPeer defines an interface whereby toolkits support automated testing

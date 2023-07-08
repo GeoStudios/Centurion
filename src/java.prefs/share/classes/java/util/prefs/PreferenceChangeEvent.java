@@ -21,22 +21,7 @@
 
 package java.prefs.share.classes.java.util.prefs;
 
-
 import java.prefs.share.classes.java.io.NotSerializableException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An event emitted by a {@code Preferences} node to indicate that

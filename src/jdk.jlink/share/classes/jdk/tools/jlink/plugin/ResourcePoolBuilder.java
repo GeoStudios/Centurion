@@ -21,22 +21,6 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.plugin;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Resource pool builder to build a resource pool by incrementally
  * adding a set of resources one at a time.

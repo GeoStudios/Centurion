@@ -21,22 +21,6 @@
 
 package java.naming.share.classes.javax.naming;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
   * This is the superclass of security-related exceptions
   * thrown by operations in the Context and DirContext interfaces.

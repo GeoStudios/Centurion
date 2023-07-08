@@ -21,22 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.source.tree;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A tree node for a binary expression.
  * Use {@link #getKind getKind} to determine the kind of operator.

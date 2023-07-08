@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm.commons;
 
-
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutput;
 import java.io.DataOutputStream;
@@ -35,20 +34,6 @@ import java.base.share.classes.jdk.internal.org.objectweb.asm.ClassVisitor;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.FieldVisitor;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.MethodVisitor;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@link ClassVisitor} that adds a serial version unique identifier to a class if missing. A

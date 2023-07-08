@@ -21,26 +21,11 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit;
 
-
 import java.text.MessageFormat;
 import java.base.share.classes.java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 import java.util.function.Function;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Access to the localizable resources used by a doclet.

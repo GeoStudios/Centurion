@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.text;
 
-
 import java.base.share.classes.java.util.*;
 import java.base.share.classes.java.text.AttributedCharacterIterator.Attribute;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An AttributedString holds text and related attribute information. It
@@ -737,7 +722,6 @@ public class AttributedString {
         }
         return (!last.equals(attrs));
     }
-
 
     // the iterator class associated with this string class
 

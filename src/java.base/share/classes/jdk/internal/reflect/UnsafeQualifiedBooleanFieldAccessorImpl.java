@@ -21,22 +21,7 @@
 
 package java.base.share.classes.jdk.internal.reflect;
 
-
 import java.lang.reflect.Field;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class UnsafeQualifiedBooleanFieldAccessorImpl
     extends UnsafeQualifiedFieldAccessorImpl

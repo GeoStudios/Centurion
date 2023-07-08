@@ -21,7 +21,6 @@
 
 package utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data.serialization;
 
-
 import utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data.*;
 import utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data.Properties;
 import utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data.services.GroupCallback;
@@ -37,20 +36,6 @@ import utils.IdealGraphVisualizer.Data.src.main.java.util.regex.Pattern;
 import javax.swing.SwingUtilities;
 import utils.IdealGraphVisualizer.Data.src.main.java.security.MessageDigest;
 import utils.IdealGraphVisualizer.Data.src.main.java.security.NoSuchAlgorithmException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class BinaryParser implements GraphParser {
     private static final int BEGIN_GROUP = 0x00;

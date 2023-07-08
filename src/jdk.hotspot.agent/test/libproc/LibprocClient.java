@@ -21,25 +21,10 @@
 
 package jdk.hotspot.agent.test.libproc;
 
-
 import sun.jvm.hotspot.oops.*;
 import sun.jvm.hotspot.runtime.*;
 import sun.jvm.hotspot.tools.*;
 import sun.jvm.hotspot.utilities.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
    We don't run any of the "standard" SA command line tools for sanity

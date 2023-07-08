@@ -21,26 +21,12 @@
 
 package nsk.jdi.LongValue.compareTo;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.io.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class compareto001 {
     //------------------------------------------------------- immutable common fields
@@ -184,7 +170,6 @@ public class compareto001 {
     }
 
     //--------------------------------------------------------- test specific methods
-
 
     private static boolean PerformComparing(LongValue value, Object object ) {
         boolean result = true;

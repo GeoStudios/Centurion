@@ -21,22 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code;
 
-
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** A Location value describes a value in a given location; i.e. the
     corresponding logical entity (e.g., a method temporary) lives in

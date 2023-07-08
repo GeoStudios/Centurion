@@ -21,21 +21,7 @@
 
 package nsk.jvmti.GetMethodModifiers;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class methmod001 {
 

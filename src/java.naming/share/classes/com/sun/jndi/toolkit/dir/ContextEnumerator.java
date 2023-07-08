@@ -21,24 +21,9 @@
 
 package java.naming.share.classes.com.sun.jndi.toolkit.dir;
 
-
 import javax.naming.*;
 import javax.naming.directory.SearchControls;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * A class for recursively enumerating the contents of a Context;

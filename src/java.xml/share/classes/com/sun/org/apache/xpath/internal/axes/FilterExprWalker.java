@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.axes;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.Axis;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMIterator;
@@ -34,20 +33,6 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.Compile
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.OpCodes;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XNodeSet;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Walker for the OP_VARIABLE, or OP_EXTFUNCTION, or OP_FUNCTION, or OP_GROUP,
@@ -278,7 +263,6 @@ public class FilterExprWalker extends AxesWalker
         m_expr = expr;
   }
 
-
   /**
    * Get the analysis bits for this walker, as defined in the WalkerFactory.
    * @return One of WalkerFactory#BIT_DESCENDANT, etc.
@@ -349,7 +333,6 @@ public class FilterExprWalker extends AxesWalker
           super.callPredicateVisitors(visitor);
         }
 
-
     /**
      * @see Expression#deepEquals(Expression)
      */
@@ -361,7 +344,5 @@ public class FilterExprWalker extends AxesWalker
       FilterExprWalker walker = (FilterExprWalker)expr;
       return m_expr.deepEquals(walker.m_expr);
     }
-
-
 
 }

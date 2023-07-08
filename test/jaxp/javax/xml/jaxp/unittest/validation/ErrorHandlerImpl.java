@@ -21,23 +21,9 @@
 
 package validation;
 
-
 import org.xml.sax.ErrorHandler;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ErrorHandlerImpl implements ErrorHandler {
    /** Creates a new instance of ErrorHandlerImpl */

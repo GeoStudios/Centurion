@@ -21,25 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.ExceptionConst;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.ByteSequence;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * LDC - Push item from constant pool.
@@ -57,12 +42,10 @@ public class LDC extends CPInstruction implements PushInstruction, ExceptionThro
     LDC() {
     }
 
-
     public LDC(final int index) {
         super(com.sun.org.apache.bcel.internal.Const.LDC_W, index);
         setSize();
     }
-
 
     // Adjust to proper size
     protected final void setSize() {
@@ -74,7 +57,6 @@ public class LDC extends CPInstruction implements PushInstruction, ExceptionThro
             super.setLength(3);
         }
     }
-
 
     /**
      * Dump instruction as byte code to stream out.
@@ -90,7 +72,6 @@ public class LDC extends CPInstruction implements PushInstruction, ExceptionThro
         }
     }
 
-
     /**
      * Set the index to constant pool and adjust size.
      */
@@ -100,7 +81,6 @@ public class LDC extends CPInstruction implements PushInstruction, ExceptionThro
         setSize();
     }
 
-
     /**
      * Read needed data (e.g. index) from file.
      */
@@ -109,7 +89,6 @@ public class LDC extends CPInstruction implements PushInstruction, ExceptionThro
         super.setLength(2);
         super.setIndex(bytes.readUnsignedByte());
     }
-
 
     public Object getValue( final ConstantPoolGen cpg ) {
         com.sun.org.apache.bcel.internal.classfile.Constant c = cpg.getConstantPool().getConstant(super.getIndex());
@@ -131,7 +110,6 @@ public class LDC extends CPInstruction implements PushInstruction, ExceptionThro
         }
     }
 
-
     @Override
     public Type getType( final ConstantPoolGen cpg ) {
         switch (cpg.getConstantPool().getConstant(super.getIndex()).getTag()) {
@@ -148,12 +126,10 @@ public class LDC extends CPInstruction implements PushInstruction, ExceptionThro
         }
     }
 
-
     @Override
     public Class<?>[] getExceptions() {
         return ExceptionConst.createExceptions(ExceptionConst.EXCS.EXCS_STRING_RESOLUTION);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

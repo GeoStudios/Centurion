@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.com.sun.beans.decoder;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The base class for element handlers.
  *

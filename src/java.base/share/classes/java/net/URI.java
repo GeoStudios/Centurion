@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.net;
 
-
 import java.base.share.classes.java.io.File;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.InvalidObjectException;
@@ -42,20 +41,6 @@ import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import sun.nio.cs.UTF_8;
 import java.base.share.classes.java.lang.Character;             // for javadoc.extended
 import java.base.share.classes.java.lang.NullPointerException;  // for javadoc.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents a Uniform Resource Identifier (URI) reference.
@@ -514,7 +499,6 @@ public final class URI
     @java.io.Serial
     static final long serialVersionUID = -6052424284110960213L;
 
-
     // -- Properties and components of this instance --
 
     // Components of all URIs: [<scheme>:]<scheme-specific-part>[#<fragment>]
@@ -551,8 +535,6 @@ public final class URI
      * @serial
      */
     private volatile String string;             // The only serializable field
-
-
 
     // -- Constructors and factories --
 
@@ -914,7 +896,6 @@ public final class URI
             throw new IllegalArgumentException(x.getMessage(), x);
         }
     }
-
 
     // -- Operations --
 
@@ -1466,7 +1447,6 @@ public final class URI
         return decoded;
     }
 
-
     // -- Equality, comparison, hash code, toString, and serialization --
 
     /**
@@ -1767,7 +1747,6 @@ public final class URI
         return encode(toString());
     }
 
-
     // -- Serialization support --
 
     /**
@@ -1822,9 +1801,7 @@ public final class URI
         }
     }
 
-
     // -- End of public methods --
-
 
     // -- Utility methods for string-field comparison and hashing --
 
@@ -1876,7 +1853,6 @@ public final class URI
         return s.indexOf('%') < 0 ? hash * 127 + s.hashCode()
                                   : normalizedHash(hash, s);
     }
-
 
     private static int normalizedHash(int hash, String s) {
         int h = 0;
@@ -1987,7 +1963,6 @@ public final class URI
             return -1;
         }
     }
-
 
     // -- String construction --
 
@@ -2272,8 +2247,6 @@ public final class URI
         return v;
     }
 
-
-
     // -- Path normalization --
 
     // The following algorithm for path normalization avoids the creation of a
@@ -2287,7 +2260,6 @@ public final class URI
     // arrays are used to rejoin the segments and compute the final result.
     //
     // This code is based upon src/solaris/native/java/io/canonicalize_md.c
-
 
     // Check the given path to see if it might need normalization.  A path
     // might need normalization if it contains duplicate slashes, a "."
@@ -2343,7 +2315,6 @@ public final class URI
         return normal ? -1 : ns;
     }
 
-
     // Split the given path into segments, replacing slashes with nulls and
     // filling in the given segment-index array.
     //
@@ -2389,7 +2360,6 @@ public final class URI
         if (i != segs.length)
             throw new InternalError();  // ASSERT
     }
-
 
     // Join the segments in the given path according to the given segment-index
     // array, ignoring those segments whose index entries have been set to -1,
@@ -2441,7 +2411,6 @@ public final class URI
 
         return p;
     }
-
 
     // Remove "." segments from the given path, and remove segment pairs
     // consisting of a non-".." segment followed by a ".." segment.
@@ -2499,7 +2468,6 @@ public final class URI
         }
     }
 
-
     // DEVIATION: If the normalized path is relative, and if the first
     // segment could be parsed as a scheme name, then prepend a "." segment
     //
@@ -2533,7 +2501,6 @@ public final class URI
         path[1] = '\0';
         segs[0] = 0;
     }
-
 
     // Normalize the given path string.  A normal path string has no empty
     // segments (i.e., occurrences of "//"), no segments equal to ".", and no
@@ -2569,8 +2536,6 @@ public final class URI
         }
         return s;
     }
-
-
 
     // -- Character classes for parsing --
 
@@ -2950,7 +2915,6 @@ public final class URI
         return sb.toString();
     }
 
-
     // -- Parsing --
 
     // For convenience we wrap the input URI string in a new instance of the
@@ -2983,7 +2947,6 @@ public final class URI
             fail("Expected " + expected, p);
         }
 
-
         // -- Simple access to the input string --
 
         // Tells whether start < end and, if so, whether charAt(start) == c
@@ -3010,7 +2973,6 @@ public final class URI
             return (i == sn);
         }
 
-
         // -- Scanning --
 
         // The various scan and parse methods that follow use a uniform
@@ -3035,7 +2997,6 @@ public final class URI
         //     else if (q == -1)
         //         // Something went wrong
         //         ...;
-
 
         // Scan a specific char: If the char at the given start position is
         // equal to c, return the index of the next char; otherwise, return the
@@ -3157,7 +3118,6 @@ public final class URI
         {
             checkChars(p, p + 1, lowMask, highMask, what);
         }
-
 
         // -- Parsing --
 
@@ -3314,7 +3274,6 @@ public final class URI
 
             return n;
         }
-
 
         // [<userinfo>@]<host>[:<port>]
         //
@@ -3523,7 +3482,6 @@ public final class URI
             host = input.substring(start, p);
             return p;
         }
-
 
         // IPv6 address parsing, from RFC2373: IPv6 Addressing Architecture
         //

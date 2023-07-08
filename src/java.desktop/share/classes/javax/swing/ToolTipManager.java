@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.event.*;
 import java.awt.*;
 import java.base.share.classes.java.util.Objects;
 import java.desktop.share.classes.javax.swing.event.MenuKeyEvent;
 import java.desktop.share.classes.javax.swing.event.MenuKeyjava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Manages all the <code>ToolTips</code> in the system.
@@ -159,7 +144,6 @@ public class ToolTipManager extends MouseAdapter implements MouseMotionListener 
     public boolean isLightWeightPopupEnabled() {
         return lightWeightPopupEnabled;
     }
-
 
     /**
      * Specifies the initial delay value.
@@ -849,7 +833,6 @@ public class ToolTipManager extends MouseAdapter implements MouseMotionListener 
       return (((b.x + b.width) - (a.x +a.width)) + 5);
     }
   }
-
 
     //
     // Actions

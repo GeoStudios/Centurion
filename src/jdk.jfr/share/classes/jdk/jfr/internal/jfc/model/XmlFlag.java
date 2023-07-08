@@ -21,22 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.jfc.model;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Corresponds to <flag>
 final class XmlFlag extends XmlInput {
 

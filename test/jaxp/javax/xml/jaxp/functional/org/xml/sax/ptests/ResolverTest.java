@@ -21,7 +21,6 @@
 
 package org.xml.sax.ptests;
 
-
 import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;.extended
 import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
 import static jaxp.library.JAXPTestUtilities.compareWithGold;.extended
@@ -44,19 +43,6 @@ import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLFilterImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Entity resolver should be invoked in XML parse. This test verifies parsing

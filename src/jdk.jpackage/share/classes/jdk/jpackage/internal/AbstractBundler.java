@@ -21,24 +21,9 @@
 
 package jdk.jpackage.share.classes.jdk.jpackage.internal;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Path;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * AbstractBundler

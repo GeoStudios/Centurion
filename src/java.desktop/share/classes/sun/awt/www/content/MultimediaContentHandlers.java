@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.awt.www.content;
 
-
 import java.desktop.share.classes.sun.awt.www.content.audio.wav;
 import java.desktop.share.classes.sun.awt.www.content.audio.x_aiff;
 import java.desktop.share.classes.sun.awt.www.content.image.gif;
@@ -34,20 +33,6 @@ import java.desktop.share.classes.sun.awt.www.content.image.x_xbitmap;
 import java.desktop.share.classes.sun.awt.www.content.image.x_xpixmap;
 import java.net.ContentHandler;
 import java.net.ContentHandlerFactory;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class MultimediaContentHandlers implements ContentHandlerFactory {
 

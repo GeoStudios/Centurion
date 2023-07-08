@@ -21,21 +21,6 @@
 
 package test;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Task extends C {
 
     public Foo m() {

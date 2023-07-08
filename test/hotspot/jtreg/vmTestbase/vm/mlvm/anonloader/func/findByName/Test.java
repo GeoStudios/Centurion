@@ -21,25 +21,11 @@
 
 package vm.mlvm.anonloader.func.findByName;
 
-
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandles.Lookup;
 import vm.mlvm.anonloader.share.AnonkTestee01;
 import vm.mlvm.share.MlvmTest;
 import vm.share.FileUtils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -61,9 +47,6 @@ import vm.share.FileUtils;
  *
  * @run main/othervm vm.mlvm.anonloader.func.findByName.Test
  */
-
-
-
 
 public class Test extends MlvmTest {
     private static final Class<?> PARENT = AnonkTestee01.class;

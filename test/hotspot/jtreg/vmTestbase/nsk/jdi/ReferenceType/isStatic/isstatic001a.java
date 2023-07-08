@@ -21,23 +21,9 @@
 
 package nsk.jdi.ReferenceType.isStatic;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the isstatic001 JDI test.
@@ -90,7 +76,6 @@ public class isstatic001a {
 
         int exitCode = PASSED;
 
-
         label0:
             for (int i = 0; ; i++) {
 
@@ -122,7 +107,6 @@ public class isstatic001a {
     }
 }
 
-
 class isstatic001aTestClass {
 
     class NestedClass implements NestedIface {
@@ -137,19 +121,16 @@ class isstatic001aTestClass {
     NestedIface nestedIface        = new NestedClass();
 //    NestedIface nestedIfaceArray[] = { new NestedClass() };
 
-
     static class StaticNestedClass {
         boolean bsnc = true;
     }
     StaticNestedClass staticNestedClass        = new StaticNestedClass();
 //    StaticNestedClass staticNestedClassArray[] = { new StaticNestedClass() };
 
-
     static isstatic001aOuterClass outerClass        = new isstatic001aOuterClass();
     static isstatic001aOuterClass outerClassArray[] = { new isstatic001aOuterClass() };
     static isstatic001aOuterIface outerIface        = new isstatic001aOuterClass();
     static isstatic001aOuterIface outerIfaceArray[] = { new isstatic001aOuterClass() };
-
 
     boolean bl[][][][] = {{{{true}}}};
     byte    bt[][][][] = {{{{0}}}};
@@ -159,7 +140,6 @@ class isstatic001aTestClass {
     int     in[][][][] = {{{{0}}}};
     long    ln[][][][] = {{{{0}}}};
     short   sh[][][][] = {{{{0}}}};
-
 
     Boolean   blBl = Boolean.valueOf(true);
     Byte      btBt = Byte.valueOf((byte)1);

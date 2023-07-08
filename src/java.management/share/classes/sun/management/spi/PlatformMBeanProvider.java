@@ -21,27 +21,12 @@
 
 package java.management.share.classes.sun.management.spi;
 
-
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.ServiceLoader;
 import java.util.Set;
 import java.util.stream.Collectors;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The PlatformMBeanProvider class defines the abstract service interface

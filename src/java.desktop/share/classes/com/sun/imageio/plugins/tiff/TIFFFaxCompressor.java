@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
-
 import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.plugins.tiff.BaselineTIFFTagSet;
 import javax.imageio.plugins.tiff.TIFFField;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

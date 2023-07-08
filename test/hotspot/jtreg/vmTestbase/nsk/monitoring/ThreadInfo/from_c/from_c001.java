@@ -21,26 +21,12 @@
 
 package nsk.monitoring.ThreadInfo.from_c;
 
-
 import java.lang.management.*;
 import javax.management.*;
 import javax.management.openmbean.*;
 import java.io.*;
 import nsk.share.*;
 import nsk.monitoring.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class from_c001 {
 
@@ -95,7 +81,6 @@ public class from_c001 {
 
             // Expected: CompositeData doest not represnt ThreadInfo
         }
-
 
         Thread thread = Thread.currentThread();
         long id = thread.getId();

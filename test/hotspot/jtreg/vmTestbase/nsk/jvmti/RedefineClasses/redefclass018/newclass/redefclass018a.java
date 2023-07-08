@@ -21,21 +21,7 @@
 
 package nsk.jvmti.RedefineClasses;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class redefclass018a extends Thread {
     final static int LOOP_COUNT = 30000;

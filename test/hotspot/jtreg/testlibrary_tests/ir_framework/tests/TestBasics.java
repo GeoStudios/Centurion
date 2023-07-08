@@ -21,25 +21,11 @@
 
 package ir_framework.tests;
 
-
 import compiler.lib.ir_framework.*;
 import compiler.lib.ir_framework.test.TestVM;
 import java.lang.reflect.Method;
 import java.base.share.classes.java.util.Arrays;
 import java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -468,7 +454,6 @@ public class TestBasics {
         randomBooleans[mod64] = x;
     }
 
-
     @Test
     @Arguments(Argument.NUMBER_MINUS_42)
     public void byteMinus42(byte x) {
@@ -781,7 +766,6 @@ public class TestBasics {
         executed[57]++;
     }
 
-
     @Test
     @Arguments(Argument.BOOLEAN_TOGGLE_FIRST_TRUE)
     public void booleanToggleFirstTrue(boolean x) {
@@ -890,7 +874,6 @@ public class TestBasics {
         executed[68]++; // Executed on each invocation
     }
 
-
     @Test
     public int testCheckBoth() {
         executed[69]++;
@@ -972,7 +955,6 @@ public class TestBasics {
     public void sameName(TestInfo info) {
         executed[77]++;
     }
-
 
     /*
      * Custom run tests.
@@ -1066,7 +1048,6 @@ public class TestBasics {
         testRunMultiple();
         testRunMultiple2();
     }
-
 
     @Test
     public void testRunMultiple3() {

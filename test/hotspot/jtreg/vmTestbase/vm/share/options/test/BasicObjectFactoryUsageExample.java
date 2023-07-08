@@ -21,7 +21,6 @@
 
 package vm.share.options.test;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Linkedjava.util.java.util.java.util.List;
@@ -29,25 +28,10 @@ import vm.share.options.BasicOptionObjectFactory;
 import vm.share.options.FClass;
 import vm.share.options.Factory;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-
-
 
 /**
  * This is a simple example of BasicObjectFactory utility class,
@@ -66,7 +50,5 @@ classlist={
         // MUST BE PUBLIC or it could not be istantiated!!
 public class BasicObjectFactoryUsageExample extends BasicOptionObjectFactory<Collection>
 {
-
-
 
 }

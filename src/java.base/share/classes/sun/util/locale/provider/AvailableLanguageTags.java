@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.util.locale.provider;
 
-
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An interface to return a set of available language tags supported by a

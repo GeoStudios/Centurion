@@ -21,24 +21,9 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal;
 
-
 import java.nio.file.Path;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An executable runtime image. Contains the information about the executable

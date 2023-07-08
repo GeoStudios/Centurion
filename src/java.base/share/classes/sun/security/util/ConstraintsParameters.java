@@ -21,24 +21,9 @@
 
 package java.base.share.classes.sun.security.util;
 
-
 import java.base.share.classes.java.security.Key;
 import java.util.Date;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This interface contains parameters for checking against constraints that

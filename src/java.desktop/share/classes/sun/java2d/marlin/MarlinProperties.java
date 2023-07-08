@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.sun.java2d.marlin;
 
-
 import java.security.AccessController;
 import static java.desktop.share.classes.sun.java2d.marlin.MarlinUtils.logInfo;.extended
 import java.desktop.share.classes.sun.security.action.GetPropertyAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class MarlinProperties {
 

@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.accessibility;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The {@code AccessibleKeyBinding} interface should be supported by any object
  * that has a keyboard bindings such as a keyboard mnemonic and/or keyboard

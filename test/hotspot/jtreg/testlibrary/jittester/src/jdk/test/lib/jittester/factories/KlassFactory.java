@@ -21,7 +21,6 @@
 
 package jdk.test.lib.jittester.factories;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -40,19 +39,6 @@ import jdk.test.lib.jittester.functions.FunctionDefinition;
 import jdk.test.lib.jittester.functions.FunctionInfo;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.PseudoRandom;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class KlassFactory extends Factory<Klass> {
     private final String name;

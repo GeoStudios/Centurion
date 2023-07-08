@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.java.net.http;
 
-
 import java.net.http.share.classes.java.io.BufferedReader;
 import java.net.http.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.net.http.share.classes.java.io.InputStream;
@@ -57,20 +56,6 @@ import jdk.internal.net.http.ResponseSubscribers.PathSubscriber;
 import static java.net.http.share.classes.java.nio.file.StandardOpenOption.*;.extended
 import static jdk.internal.net.http.common.Utils.charsetFrom;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An HTTP response.
  *
@@ -98,7 +83,6 @@ import static jdk.internal.net.http.common.Utils.charsetFrom;.extended
  * @param <T> the response body type
  */
 public interface HttpResponse<T> {
-
 
     /**
      * Returns the status code for this response.
@@ -176,7 +160,6 @@ public interface HttpResponse<T> {
      * @return HTTP protocol version
      */
     HttpClient.Version version();
-
 
     /**
      * Initial response information supplied to a {@link BodyHandler BodyHandler}
@@ -805,7 +788,6 @@ public interface HttpResponse<T> {
             HttpRequest pushPromiseRequest,
             Function<HttpResponse.BodyHandler<T>,CompletableFuture<HttpResponse<T>>> acceptor
         );
-
 
         /**
          * Returns a push promise handler that accumulates push promises, and

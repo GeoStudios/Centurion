@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.awt.image;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *  This abstract class defines an interface for extracting samples of pixels
  *  in an image.  All image data is expressed as a collection of pixels.
@@ -892,7 +876,6 @@ public abstract class SampleModel
         return pixels;
     }
 
-
     /**
      * Returns the sample in a specified band for the pixel located
      * at (x,y) as an int.
@@ -910,7 +893,6 @@ public abstract class SampleModel
      * the band index are not in bounds.
      */
     public abstract int getSample(int x, int y, int b, DataBuffer data);
-
 
     /**
      * Returns the sample in a specified band
@@ -1452,7 +1434,6 @@ public abstract class SampleModel
         int Offset=0;
         int x1 = x + w;
         int y1 = y + h;
-
 
         if (x < 0 || x >= width || w > width || x1 < 0 || x1 > width ||
             y < 0 || y >= height || h > height || y1 < 0 || y1 > height)

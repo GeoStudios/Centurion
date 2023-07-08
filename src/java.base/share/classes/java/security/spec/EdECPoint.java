@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.security.spec;
 
-
 import java.base.share.classes.java.math.BigInteger;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An elliptic curve point used to specify keys as defined by

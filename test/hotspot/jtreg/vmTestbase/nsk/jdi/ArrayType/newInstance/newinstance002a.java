@@ -21,23 +21,9 @@
 
 package nsk.jdi.ArrayType.newInstance;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the newinstance002 JDI test.
@@ -86,7 +72,6 @@ public class newinstance002a {
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
 
-
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
 
@@ -124,7 +109,6 @@ public class newinstance002a {
         System.exit(exitCode + PASS_BASE);
     }
 }
-
 
 class newinstance002aTestClass {
 

@@ -21,22 +21,6 @@
 
 package jdk.incubator.foreign.share.classes.jdk.incubator.foreign;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Represents a type which is <em>addressable</em>. An addressable type is one which can be projected down to
  * a memory address instance (see {@link #address()}). Examples of addressable types are {@link MemorySegment},

@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.com.sun.beans.decoder;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class is intended to handle &lt;class&gt; element.
  * This element specifies {@link Class} values.

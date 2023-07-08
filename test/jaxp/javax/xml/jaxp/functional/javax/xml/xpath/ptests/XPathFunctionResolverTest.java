@@ -21,7 +21,6 @@
 
 package javax.xml.xpath.ptests;
 
-
 import static org.testng.Assert.assertEquals;.extended
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathExpressionException;
@@ -29,19 +28,6 @@ import javax.xml.xpath.XPathFactory;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class containing the test cases for XPathFunctionResolver.

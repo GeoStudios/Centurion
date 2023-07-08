@@ -21,26 +21,12 @@
 
 package compiler.ciReplay;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -54,8 +40,6 @@ import java.util.java.util.java.util.java.util.List;
  * @run main/othervm -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI
  *      compiler.ciReplay.TestVMNoCompLevel
  */
-
-
 
 public class TestVMNoCompLevel extends CiReplayBase {
     public static void main(String args[]) {

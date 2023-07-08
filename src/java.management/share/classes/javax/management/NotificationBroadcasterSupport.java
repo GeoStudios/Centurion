@@ -21,27 +21,12 @@
 
 package java.management.share.classes.javax.management;
 
-
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.CopyOnWriteArrayjava.util.java.util.java.util.List;
 import java.util.concurrent.Executor;
 import com.sun.jmx.remote.util.ClassLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Provides an implementation of {@link
@@ -220,7 +205,6 @@ public class NotificationBroadcasterSupport implements NotificationEmitter {
         else
             return notifInfo.clone();
     }
-
 
     /**
      * Sends a notification.

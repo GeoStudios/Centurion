@@ -21,21 +21,7 @@
 
 package java.lang;
 
-
 import jdk.internal.misc.Unsafe;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Helper {
     private static final Unsafe UNSAFE = Unsafe.getUnsafe();

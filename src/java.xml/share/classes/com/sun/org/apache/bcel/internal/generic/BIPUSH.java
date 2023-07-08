@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.ByteSequence;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * BIPUSH - Push byte on stack
@@ -50,7 +35,6 @@ public class BIPUSH extends Instruction implements ConstantPushInstruction {
 
     private byte b;
 
-
     /**
      * Empty constructor needed for Instruction.readInstruction.
      * Not to be used otherwise.
@@ -58,14 +42,12 @@ public class BIPUSH extends Instruction implements ConstantPushInstruction {
     BIPUSH() {
     }
 
-
     /** Push byte on stack
      */
     public BIPUSH(final byte b) {
         super(com.sun.org.apache.bcel.internal.Const.BIPUSH, (short) 2);
         this.b = b;
     }
-
 
     /**
      * Dump instruction as byte code to stream out.
@@ -76,7 +58,6 @@ public class BIPUSH extends Instruction implements ConstantPushInstruction {
         out.writeByte(b);
     }
 
-
     /**
      * @return mnemonic for instruction
      */
@@ -84,7 +65,6 @@ public class BIPUSH extends Instruction implements ConstantPushInstruction {
     public String toString( final boolean verbose ) {
         return super.toString(verbose) + " " + b;
     }
-
 
     /**
      * Read needed data (e.g. index) from file.
@@ -95,12 +75,10 @@ public class BIPUSH extends Instruction implements ConstantPushInstruction {
         b = bytes.readByte();
     }
 
-
     @Override
     public Number getValue() {
         return Integer.valueOf(b);
     }
-
 
     /** @return Type.BYTE
      */
@@ -108,7 +86,6 @@ public class BIPUSH extends Instruction implements ConstantPushInstruction {
     public Type getType( final ConstantPoolGen cp ) {
         return Type.BYTE;
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

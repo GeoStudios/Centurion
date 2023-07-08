@@ -21,24 +21,9 @@
 
 package java.base.share.classes.sun.util.locale;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Collection of static utility methods for Locale support. The

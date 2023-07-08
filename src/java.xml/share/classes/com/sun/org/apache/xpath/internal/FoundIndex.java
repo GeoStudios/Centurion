@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * Class to let us know when it's time to do

@@ -21,23 +21,9 @@
 
 package nsk.jdi.Field.typeName;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class typename001a {
     boolean z0, z1[]={z0}, z2[][]={z1};

@@ -21,24 +21,10 @@
 
 package gc.gctests.gctest01;
 
-
 import nsk.share.test.*;
 import nsk.share.log.*;
 import nsk.share.gc.*;
 import nsk.share.TestBug;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -51,8 +37,6 @@ import nsk.share.TestBug;
  *          /test/lib
  * @run main/othervm gc.gctests.gctest01.gctest01 100 10
  */
-
-
 
 //import RusageStruct;
 
@@ -130,8 +114,6 @@ class Person {
         }
 }
 
-
-
 // create 20 memory evil threads requesting to allocate
 // the object of sizes from 8 to ( 2 ^ 19).
 // The live time of objects is very short.
@@ -196,7 +178,6 @@ public class gctest01 extends TestBase {
                         }
                 }
         }
-
 
         public void run() {
                 int bufsz = 8;

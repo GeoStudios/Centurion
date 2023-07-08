@@ -21,23 +21,8 @@
 
 package jdk.jdi.share.classes.com.sun.tools.example.debug.tty;
 
-
 import java.util.*;
 import java.text.MessageFormat;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -46,8 +31,6 @@ import java.text.MessageFormat;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
 
 /**
  * Internationalization (i18n) convenience methods for jdb.
@@ -147,7 +130,6 @@ public class MessageOutput {
     static void println(String key) {
         System.out.println(format(key));
     }
-
 
     /**
      * Fetch, format and print a message with one string argument.

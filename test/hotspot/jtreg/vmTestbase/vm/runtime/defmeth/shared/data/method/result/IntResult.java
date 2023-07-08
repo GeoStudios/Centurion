@@ -21,21 +21,7 @@
 
 package vm.runtime.defmeth.shared.data.method.result;
 
-
 import vm.runtime.defmeth.shared.data.Visitor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Return value of integer constant (int).

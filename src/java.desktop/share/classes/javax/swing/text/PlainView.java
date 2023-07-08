@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.awt.*;
 import java.awt.font.FontRenderContext;
 import java.awt.geom.Rectangle2D;
@@ -31,20 +30,6 @@ import java.base.share.classes.java.util.Objects;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.lang.ref.SoftReference;
 import java.util.HashMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implements View interface for a simple multi-line text view

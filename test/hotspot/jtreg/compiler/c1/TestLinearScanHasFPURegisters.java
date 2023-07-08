@@ -21,28 +21,12 @@
 
 package compiler.c1;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8268366
  * @run main/othervm -Xbatch -XX:+TieredCompilation -XX:TieredStopAtLevel=1
  *                   compiler.c1.TestLinearScanHasFPURegisters
  */
-
 
 public class TestLinearScanHasFPURegisters {
     void test(String[] args) {

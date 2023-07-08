@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.*;
 import java.awt.event.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Any component that can be placed into a menu should implement this interface.
@@ -64,7 +49,6 @@ public interface MenuElement {
      * @param manager the {@code MenuSelectionManager} for the menu hierarchy
      */
     void processMouseEvent(MouseEvent event, MenuElement[] path, MenuSelectionManager manager);
-
 
     /**
      *  Process a key event.

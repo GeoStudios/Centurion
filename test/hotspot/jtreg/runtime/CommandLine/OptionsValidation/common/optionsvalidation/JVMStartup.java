@@ -21,21 +21,7 @@
 
 package optionsvalidation;
 
-
 import java.lang.ref.WeakReference;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class JVMStartup {
     private static volatile WeakReference<Object> weakRef;

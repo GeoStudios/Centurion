@@ -21,22 +21,8 @@
 
 package nsk.share.jdwp;
 
-
 import nsk.share.jpda.AbstractDebuggeeTest;
 import nsk.share.jpda.DebugeeArgumentHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AbstractJDWPDebuggee extends AbstractDebuggeeTest {
 

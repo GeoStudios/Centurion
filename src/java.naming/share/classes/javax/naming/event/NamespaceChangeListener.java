@@ -21,22 +21,6 @@
 
 package java.naming.share.classes.javax.naming.event;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
   * Specifies the methods that a listener interested in namespace changes
   * must implement.

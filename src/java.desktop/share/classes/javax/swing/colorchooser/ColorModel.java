@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing.colorchooser;
 
-
 import java.awt.Component;
 import java.desktop.share.classes.javax.swing.UIManager;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class ColorModel {
 

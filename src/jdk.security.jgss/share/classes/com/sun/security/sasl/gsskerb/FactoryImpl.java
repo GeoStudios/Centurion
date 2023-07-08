@@ -21,25 +21,10 @@
 
 package jdk.security.jgss.share.classes.com.sun.security.sasl.gsskerb;
 
-
 import javax.security.sasl.*;
 import jdk.security.jgss.share.classes.com.sun.security.sasl.util.PolicyUtils;
 import java.util.Map;
 import javax.security.auth.callback.CallbackHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Client/server factory for GSSAPI (Kerberos V5) SASL client/server mechs.

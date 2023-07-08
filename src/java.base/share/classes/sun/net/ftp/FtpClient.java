@@ -21,26 +21,11 @@
 
 package java.base.share.classes.sun.net.ftp;
 
-
 import java.net.*;
 import java.io.*;
 import java.util.Date;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Iterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class that implements the FTP protocol according to

@@ -21,27 +21,12 @@
 
 package java.base.share.classes.java.lang;
 
-
 import java.base.share.classes.java.lang.invoke.MethodHandles;
 import java.base.share.classes.java.lang.constant.Constable;
 import java.base.share.classes.java.lang.constant.ConstantDesc;
 import java.base.share.classes.java.util.Optional;
 import jdk.internal.math.FloatingDecimal;
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code Float} class wraps a value of primitive type
@@ -495,7 +480,6 @@ public final class Float extends Number
     public static boolean isInfinite(float v) {
         return (v == POSITIVE_INFINITY) || (v == NEGATIVE_INFINITY);
     }
-
 
     /**
      * Returns {@code true} if the argument is a finite floating-point

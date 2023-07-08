@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Date;
 import java.util.EnumSet;
@@ -58,20 +57,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPa
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPaths;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.NewAPIBuilder;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.PreviewAPIjava.util.ListBuilder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Configure the output based on the command-line options.

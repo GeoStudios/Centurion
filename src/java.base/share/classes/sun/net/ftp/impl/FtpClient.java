@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.net.ftp.impl;
 
-
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
@@ -66,20 +65,6 @@ import java.base.share.classes.sun.net.ftp.FtpProtocolException;
 import java.base.share.classes.sun.net.ftp.FtpReplyCode;
 import java.base.share.classes.sun.net.util.IPAddressUtil;
 import java.base.share.classes.sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class FtpClient extends sun.net.ftp.FtpClient {
 
@@ -1644,7 +1629,6 @@ public class FtpClient extends sun.net.ftp.FtpClient {
          * indicating that the abort command was successfully
          * processed.
          */
-
 
         return this;
     }

@@ -21,21 +21,6 @@
 
 package gc.g1;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test TestShrinkAuxiliaryData10
  * @key randomness

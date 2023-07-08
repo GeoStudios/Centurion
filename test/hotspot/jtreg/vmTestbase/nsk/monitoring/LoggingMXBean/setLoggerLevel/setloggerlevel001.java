@@ -21,25 +21,11 @@
 
 package nsk.monitoring.LoggingMXBean.setLoggerLevel;
 
-
 import java.lang.management.*;
 import java.io.*;
 import nsk.share.*;
 import nsk.monitoring.share.*;
 import java.util.logging.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class setloggerlevel001 {
 
@@ -63,8 +49,6 @@ public class setloggerlevel001 {
         ArgumentHandler argumentHandler = new ArgumentHandler(args);
         log = new Log(out, argumentHandler);
         LoggingMXBean loggingMXBean = LogManager.getLoggingMXBean();
-
-
 
         // Test case 1. check that
         // if the levelName is not null, the level of the specified

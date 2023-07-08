@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.jimage;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.nio.file.Path;
@@ -30,20 +29,6 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.Map;
 import java.base.share.classes.java.util.Objects;
 import java.util.function.Function;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Factory to get ImageReader

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time;
 
-
 import static java.base.share.classes.java.time.temporal.ChronoField.EPOCH_DAY;.extended
 import static java.base.share.classes.java.time.temporal.ChronoField.INSTANT_SECONDS;.extended
 import static java.base.share.classes.java.time.temporal.ChronoField.NANO_OF_DAY;.extended
@@ -52,20 +51,6 @@ import java.base.share.classes.java.time.temporal.ValueRange;
 import java.base.share.classes.java.time.zone.ZoneRules;
 import java.base.share.classes.java.util.Comparator;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A date-time with an offset from UTC/Greenwich in the ISO-8601 calendar system,

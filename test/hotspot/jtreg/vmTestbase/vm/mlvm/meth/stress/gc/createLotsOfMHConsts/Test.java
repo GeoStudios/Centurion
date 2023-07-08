@@ -21,24 +21,10 @@
 
 package vm.mlvm.meth.stress.gc.createLotsOfMHConsts;
 
-
 import nsk.share.test.Stresser;
 import vm.mlvm.share.ClassfileGeneratorTest;
 import vm.mlvm.share.Env;
 import vm.mlvm.share.MlvmTest;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -73,8 +59,6 @@ import vm.mlvm.share.MlvmTest;
  *      -stressIterationsFactor 100000
  *      -generator vm.mlvm.cp.share.GenCPFullOfMH
  */
-
-
 
 public class Test extends ClassfileGeneratorTest {
 

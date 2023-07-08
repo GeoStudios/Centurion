@@ -21,23 +21,9 @@
 
 package compiler.runtime.cr8015436;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -58,8 +44,6 @@ import java.lang.invoke.MethodType;
  * The expected/correct behavior: The test does not crash nor throw any exceptions.
  * All the invocations of the defaultMethod() must be completed successfully.
  */
-
-
 
 public class Test8015436 implements InterfaceWithDefaultMethod {
     public static final String SOME_MTD_INVOKED = "someMethod() invoked";

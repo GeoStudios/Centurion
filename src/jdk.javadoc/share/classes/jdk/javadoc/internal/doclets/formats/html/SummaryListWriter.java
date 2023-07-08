@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-
 import java.util.SortedSet;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ModuleElement;
@@ -38,20 +37,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFi
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPath;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.SummaryAPIjava.util.ListBuilder;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.SummaryAPIjava.util.ListBuilder.SummaryElementKind;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base class for generating a summary page that lists elements with a common characteristic,

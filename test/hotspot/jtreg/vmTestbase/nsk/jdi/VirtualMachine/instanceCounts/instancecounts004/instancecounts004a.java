@@ -21,25 +21,11 @@
 
 package nsk.jdi.VirtualMachine.instanceCounts.instancecounts004;
 
-
 import nsk.share.Consts;
 import nsk.share.TestBug;
 import nsk.share.jdi.*;
 import java.io.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  *  This debuggee class handle requests for start/stop thread which provokes GC

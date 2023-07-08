@@ -21,33 +21,15 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
-
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * This class is derived from the abstract {@link Constant}
@@ -61,14 +43,12 @@ public final class ConstantNameAndType extends Constant {
     private int nameIndex; // Name of field/method
     private int signatureIndex; // and its signature.
 
-
     /**
      * Initialize from another object.
      */
     public ConstantNameAndType(final ConstantNameAndType c) {
         this(c.getNameIndex(), c.getSignatureIndex());
     }
-
 
     /**
      * Initialize instance from file data.
@@ -80,7 +60,6 @@ public final class ConstantNameAndType extends Constant {
         this(file.readUnsignedShort(), file.readUnsignedShort());
     }
 
-
     /**
      * @param nameIndex Name of field/method
      * @param signatureIndex and its signature
@@ -90,7 +69,6 @@ public final class ConstantNameAndType extends Constant {
         this.nameIndex = nameIndex;
         this.signatureIndex = signatureIndex;
     }
-
 
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
@@ -103,7 +81,6 @@ public final class ConstantNameAndType extends Constant {
     public void accept( final Visitor v ) {
         v.visitConstantNameAndType(this);
     }
-
 
     /**
      * Dump name and signature index to file stream in binary format.
@@ -118,7 +95,6 @@ public final class ConstantNameAndType extends Constant {
         file.writeShort(signatureIndex);
     }
 
-
     /**
      * @return Name index in constant pool of field/method name.
      */
@@ -126,13 +102,11 @@ public final class ConstantNameAndType extends Constant {
         return nameIndex;
     }
 
-
     /** @return name
      */
     public String getName( final ConstantPool cp ) {
         return cp.constantToString(getNameIndex(), Const.CONSTANT_Utf8);
     }
-
 
     /**
      * @return Index in constant pool of field/method signature.
@@ -141,13 +115,11 @@ public final class ConstantNameAndType extends Constant {
         return signatureIndex;
     }
 
-
     /** @return signature
      */
     public String getSignature( final ConstantPool cp ) {
         return cp.constantToString(getSignatureIndex(), Const.CONSTANT_Utf8);
     }
-
 
     /**
      * @param nameIndex the name index of this constant
@@ -156,14 +128,12 @@ public final class ConstantNameAndType extends Constant {
         this.nameIndex = nameIndex;
     }
 
-
     /**
      * @param signatureIndex the signature index in the constant pool of this type
      */
     public void setSignatureIndex( final int signatureIndex ) {
         this.signatureIndex = signatureIndex;
     }
-
 
     /**
      * @return String representation

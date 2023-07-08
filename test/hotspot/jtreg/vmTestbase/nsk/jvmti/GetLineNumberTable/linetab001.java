@@ -21,25 +21,9 @@
 
 package nsk.jvmti.GetLineNumberTable;
 
-
 import java.io.PrintStream;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 //    THIS TEST IS LINE NUMBER SENSITIVE
-
-
 
 public class linetab001 {
 

@@ -21,22 +21,6 @@
 
 package jdk.sctp.share.classes.com.sun.nio.sctp;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Unchecked exception thrown when an attempt is made to remove an
  * address that is not bound to the channel, or remove an address from a

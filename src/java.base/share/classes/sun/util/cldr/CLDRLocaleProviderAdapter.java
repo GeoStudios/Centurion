@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.util.cldr;
 
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.security.PrivilegedActionException;
@@ -45,20 +44,6 @@ import java.util.spi.TimeZoneNameProvider;
 import java.base.share.classes.sun.util.locale.provider.JRELocaleProviderAdapter;
 import java.base.share.classes.sun.util.locale.provider.LocaleDataMetaInfo;
 import java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * LocaleProviderAdapter implementation for the CLDR locale data.

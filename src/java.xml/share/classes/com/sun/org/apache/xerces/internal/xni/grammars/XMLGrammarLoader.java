@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLErrorHandler;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLEntityResolver;
@@ -30,27 +29,10 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIExceptio
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.Locale;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * The intention of this interface is to provide a generic means

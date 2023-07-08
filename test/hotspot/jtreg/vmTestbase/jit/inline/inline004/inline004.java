@@ -21,24 +21,10 @@
 
 package jit.inline.inline004;
 
-
 import java.io.ByteArrayOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -50,10 +36,6 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.inline.inline004.inline004
  */
-
-
-
-
 
 class inline004_1 {
         final protected static int[] inlineObj = { 1, 2 };
@@ -207,7 +189,6 @@ public class inline004 extends inline004_1 {
                 }
                 icount++;
 
-
                 if (pFlag==2) inline004.goldChecker.print("MPAT_GetStatic4_fs_0");
                 try {
                         for (jcount=0; jcount<ITERS; jcount++) {
@@ -224,7 +205,6 @@ public class inline004 extends inline004_1 {
                 }
                 icount++;
 
-
                 if (pFlag==2) inline004.goldChecker.print("MPAT_GetStatic4_fs_1");
                 try {
                         for (jcount=0; jcount<ITERS; jcount++) {
@@ -240,7 +220,6 @@ public class inline004 extends inline004_1 {
                         if (pFlag==2) inline004.goldChecker.println();
                 }
                 icount++;
-
 
                 /* Check inlining of instance methods */
                 if (pFlag==2) inline004.goldChecker.print("MPAT_Const4_fi_0");
@@ -399,7 +378,6 @@ public class inline004 extends inline004_1 {
                 }
                 icount++;
         }
-
 
         public static int result() {
                 int ierr = 0;

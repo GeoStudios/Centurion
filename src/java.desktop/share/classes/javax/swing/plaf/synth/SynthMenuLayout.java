@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
-
 import java.desktop.share.classes.javax.swing.plaf.basic.DefaultMenuLayout;
 import java.desktop.share.classes.javax.swing.JPopupMenu;
 import java.awt.Container;
 import java.awt.Dimension;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * {@inheritDoc}

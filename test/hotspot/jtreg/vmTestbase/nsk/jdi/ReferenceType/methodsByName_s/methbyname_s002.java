@@ -21,26 +21,12 @@
 
 package nsk.jdi.ReferenceType.methodsByName_s;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This test checks the method <code>methodsByName(String name)</code>
@@ -67,7 +53,6 @@ public class methbyname_s002 extends Log {
 
     static ArgumentHandler      argsHandler;
     private static Log  logHandler;
-
 
     /**
      * Re-call to <code>run(args,out)</code>, and exit with
@@ -107,7 +92,6 @@ public class methbyname_s002 extends Log {
      * Non-static variant of the method <code>run(args,out)</code>
      */
     private int runThis (String argv[], PrintStream out) {
-
 
         argsHandler     = new ArgumentHandler(argv);
         logHandler      = new Log(out, argsHandler);

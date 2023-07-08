@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Flags;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Symtab;
@@ -70,20 +69,6 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.FORALL
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.METHOD;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.VOID;.extended
 import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCYield;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class performs attribution of method/constructor arguments when target-typing is enabled

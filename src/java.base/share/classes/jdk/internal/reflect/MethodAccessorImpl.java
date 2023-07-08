@@ -21,22 +21,7 @@
 
 package java.base.share.classes.jdk.internal.reflect;
 
-
 import java.lang.reflect.InvocationTargetException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** <P> Package-private implementation of the MethodAccessor interface
     which has access to all classes and all fields, regardless of

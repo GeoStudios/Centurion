@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.reflect;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** <P> Java serialization (in java.io) expects to be able to
     instantiate a class and invoke a no-arg constructor of that
     class's first non-Serializable superclass. This is not a valid

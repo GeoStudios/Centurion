@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * Simple implementation of DOMException.

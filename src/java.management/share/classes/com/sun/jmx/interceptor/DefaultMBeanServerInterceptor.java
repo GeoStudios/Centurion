@@ -21,7 +21,6 @@
 
 package java.management.share.classes.com.sun.jmx.interceptor;
 
-
 import static java.management.share.classes.com.sun.jmx.defaults.JmxProperties.MBEANSERVER_LOGGER;.extended
 import java.management.share.classes.com.sun.jmx.mbeanserver.DynamicMBean2;
 import java.management.share.classes.com.sun.jmx.mbeanserver.Introspector;
@@ -81,22 +80,7 @@ import javax.management.RuntimeMBeanException;
 import javax.management.RuntimeOperationsException;
 import javax.management.loading.ClassLoaderRepository;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // JMX RI
-
 
 // JMX import
 
@@ -911,7 +895,6 @@ public class DefaultMBeanServerInterceptor implements MBeanServerInterceptor {
                MBeanRegistrationException,
                NotCompliantMBeanException {
 
-
         name = nonDefaultDomain(name);
 
         if (MBEANSERVER_LOGGER.isLoggable(Level.TRACE)) {
@@ -967,7 +950,6 @@ public class DefaultMBeanServerInterceptor implements MBeanServerInterceptor {
             // end of this method.
             //
             context = registerWithRepository(resource, mbean, logicalName);
-
 
             registerFailed = false;
             registered = true;
@@ -1869,7 +1851,6 @@ public class DefaultMBeanServerInterceptor implements MBeanServerInterceptor {
         final ResourceContext context =
                 makeResourceContextFor(resource, logicalName);
 
-
         repository.addMBean(object, logicalName, context);
         // May throw InstanceAlreadyExistsException
 
@@ -1910,7 +1891,6 @@ public class DefaultMBeanServerInterceptor implements MBeanServerInterceptor {
         final ResourceContext context =
                 makeResourceContextFor(resource, logicalName);
 
-
         repository.remove(logicalName, context);
 
         // ---------------------
@@ -1926,7 +1906,6 @@ public class DefaultMBeanServerInterceptor implements MBeanServerInterceptor {
                 logicalName);
         return context;
     }
-
 
     /**
      * Registers a ClassLoader with the CLR.
@@ -1978,7 +1957,6 @@ public class DefaultMBeanServerInterceptor implements MBeanServerInterceptor {
             }
         }
     }
-
 
     /**
      * Creates a ResourceContext for a ClassLoader MBean.

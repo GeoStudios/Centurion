@@ -21,24 +21,9 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.basic.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** This class implements the compiler-specific access to the vtbl for
     a given C++ type. As it happens, on Win32 (at least for Visual C++

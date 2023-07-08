@@ -21,22 +21,6 @@
 
 package java.base.share.classes.sun.invoke.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public enum Wrapper {
     //        wrapperType      simple     primitiveType  simple     char  emptyArray     format
     BOOLEAN(  Boolean.class,   "Boolean", boolean.class, "boolean", 'Z', new boolean[0], Format.unsigned( 1)),

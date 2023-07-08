@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.URI;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XML11Char;
@@ -60,20 +59,6 @@ import java.xml.share.classes.com.sun.org.w3c.dom.events.Event;
 import java.xml.share.classes.com.sun.org.w3c.dom.events.Eventjava.util.Listener;
 import java.xml.share.classes.com.sun.org.w3c.dom.ls.DOMImplementationLS;
 import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSSerializer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The Document interface represents the entire HTML or XML document.
@@ -241,7 +226,6 @@ public class CoreDocumentImpl
         1 << COMMENT_NODE | 1 << TEXT_NODE |
         1 << CDATA_SECTION_NODE | 1 << ENTITY_REFERENCE_NODE ;
 
-
         kidOK[ATTRIBUTE_NODE] =
         1 << TEXT_NODE | 1 << ENTITY_REFERENCE_NODE;
 
@@ -388,7 +372,6 @@ public class CoreDocumentImpl
         return newdoc;
 
     } // cloneNode(boolean):Node
-
 
     /**
      * internal method to share code with subclass
@@ -977,7 +960,6 @@ public class CoreDocumentImpl
         return fDocumentURI;
     }
 
-
     /**
      * DOM Level 3 WD - Experimental.
      * Renaming node
@@ -1143,7 +1125,6 @@ public class CoreDocumentImpl
 
     }
 
-
     /**
      *  DOM Level 3 WD - Experimental
      *  Normalize document.
@@ -1175,7 +1156,6 @@ public class CoreDocumentImpl
         xmlVersionChanged = false ;
     }
 
-
     /**
      * DOM Level 3 CR - Experimental
      *
@@ -1188,7 +1168,6 @@ public class CoreDocumentImpl
         }
         return fConfiguration;
     }
-
 
     /**
      * Returns the absolute base URI of this node or null if the implementation
@@ -1216,7 +1195,6 @@ public class CoreDocumentImpl
     public void setDocumentURI(String documentURI){
         fDocumentURI = documentURI;
     }
-
 
     //
     // DOM L3 LS
@@ -2297,8 +2275,6 @@ public class CoreDocumentImpl
         fFreeNLCache = c;
     }
 
-
-
     /**
      * Associate an object to a key on this node. The object can later be
      * retrieved from this node by calling <code>getUserData</code> with the
@@ -2347,7 +2323,6 @@ public class CoreDocumentImpl
             return null;
         }
     }
-
 
     /**
      * Retrieves the object associated to a key on a this node. The object
@@ -2609,7 +2584,6 @@ public class CoreDocumentImpl
         return getUserData(n, "XERCES1DOMUSERDATA");
     }
 
-
     // Event related methods overidden in subclass
 
     protected void addEventListener(NodeImpl node, String type,
@@ -2715,7 +2689,6 @@ public class CoreDocumentImpl
      */
     void replacedCharacterData(NodeImpl node, String oldvalue, String value) {
     }
-
 
     /**
      * A method to be called when an attribute value has been modified

@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.hpack;
 
-
 import java.net.http.share.classes.jdk.internal.net.http.hpack.HPACK.Logger;
 import java.nio.ByteBuffer;
 import java.nio.ReadOnlyBufferException;
@@ -32,20 +31,6 @@ import static java.lang.String.format;.extended
 import static java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
 import static java.net.http.share.classes.jdk.internal.net.http.hpack.HPACK.Logger.Level.EXTRA;.extended
 import static java.net.http.share.classes.jdk.internal.net.http.hpack.HPACK.Logger.Level.NORMAL;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Encodes headers to their binary representation.

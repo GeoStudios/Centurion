@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.sun.awt;
 
-
 import java.io.*;
 import java.util.*;
 import java.desktop.share.classes.sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Internal class that manages sun.awt.Debug settings.

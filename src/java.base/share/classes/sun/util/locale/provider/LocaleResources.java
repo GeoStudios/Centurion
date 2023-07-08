@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.util.locale.provider;
 
-
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.SoftReference;
 import java.text.MessageFormat;
@@ -42,20 +41,6 @@ import java.base.share.classes.sun.util.resources.LocaleData;
 import java.base.share.classes.sun.util.resources.Openjava.util.ListResourceBundle;
 import java.base.share.classes.sun.util.resources.Paralleljava.util.ListResourceBundle;
 import java.base.share.classes.sun.util.resources.TimeZoneNamesBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Central accessor to locale-dependent resources for JRE/CLDR provider adapters.
@@ -510,7 +495,6 @@ public class LocaleResources {
         }
         return compactNumberPatterns;
     }
-
 
     /**
      * Returns the FormatData resource bundle of this LocaleResources.

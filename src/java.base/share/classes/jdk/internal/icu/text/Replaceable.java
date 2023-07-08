@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.icu.text;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface Replaceable {
     /**
      * Returns the number of 16-bit code units in the text.

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.beans;
 
-
 import java.desktop.share.classes.java.lang.reflect.AccessibleObject;
 import java.desktop.share.classes.java.lang.reflect.Array;
 import java.desktop.share.classes.java.lang.reflect.Constructor;
@@ -36,20 +35,6 @@ import com.sun.beans.finder.ConstructorFinder;
 import com.sun.beans.finder.MethodFinder;
 import sun.reflect.misc.MethodUtil;
 import static sun.reflect.misc.ReflectUtil.checkPackageAccess;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code Statement} object represents a primitive statement

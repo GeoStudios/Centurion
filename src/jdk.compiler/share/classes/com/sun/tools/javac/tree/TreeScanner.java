@@ -21,23 +21,8 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.tree;
 
-
 import jdk.compiler.share.classes.com.sun.tools.javac.util.*;
 import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** A subclass of Tree.Visitor, this class defines
  *  a general tree scanner pattern. Translation proceeds recursively in
@@ -67,7 +52,6 @@ public class TreeScanner extends Visitor {
         for (List<? extends JCTree> l = trees; l.nonEmpty(); l = l.tail)
             scan(l.head);
     }
-
 
 /* ***************************************************************************
  * Visitor methods

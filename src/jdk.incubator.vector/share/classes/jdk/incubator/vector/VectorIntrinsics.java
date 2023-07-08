@@ -21,23 +21,8 @@
 
 package jdk.incubator.vector.share.classes.jdk.incubator.vector;
 
-
 import jdk.incubator.vector.share.classes.jdk.internal.vm.annotation.ForceInline;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*non-public*/ class VectorIntrinsics {
     static final int VECTOR_ACCESS_OOB_CHECK = Integer.getInteger("jdk.incubator.vector.VECTOR_ACCESS_OOB_CHECK", 2);

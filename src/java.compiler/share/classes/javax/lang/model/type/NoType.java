@@ -21,22 +21,7 @@
 
 package java.compiler.share.classes.javax.lang.model.type;
 
-
 import java.compiler.share.classes.javax.lang.model.element.ExecutableElement;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A pseudo-type used where no actual type is appropriate.

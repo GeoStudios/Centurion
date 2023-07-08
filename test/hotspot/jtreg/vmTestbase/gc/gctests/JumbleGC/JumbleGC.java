@@ -21,23 +21,9 @@
 
 package gc.gctests.JumbleGC;
 
-
 import nsk.share.test.*;
 import nsk.share.gc.*;
 import java.util.Vector;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -57,8 +43,6 @@ import java.util.Vector;
  *          /test/lib
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.JumbleGC.JumbleGC
  */
-
-
 
 public class JumbleGC extends TestBase {
         public void run() {

@@ -21,21 +21,6 @@
 
 package compiler.codegen;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 6797305
@@ -45,7 +30,6 @@ package compiler.codegen;
  *      -XX:CompileCommand=compileonly,compiler.codegen.Test6797305::load*
  *      compiler.codegen.Test6797305
  */
-
 
 public class Test6797305 {
     static final byte[]  ba = new byte[]  { -1 };

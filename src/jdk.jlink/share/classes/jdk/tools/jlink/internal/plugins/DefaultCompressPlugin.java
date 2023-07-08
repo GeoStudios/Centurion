@@ -21,7 +21,6 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins;
 
-
 import java.util.Map;
 import java.util.function.Function;
 import jdk.jlink.share.classes.jdk.tools.jlink.internal.ResourcePoolManager.ResourcePoolImpl;
@@ -31,20 +30,6 @@ import jdk.jlink.share.classes.jdk.tools.jlink.internal.ImagePluginStack;
 import jdk.jlink.share.classes.jdk.tools.jlink.internal.ResourcePoolManager;
 import jdk.jlink.share.classes.jdk.tools.jlink.internal.ResourcePrevisitor;
 import jdk.jlink.share.classes.jdk.tools.jlink.internal.StringTable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

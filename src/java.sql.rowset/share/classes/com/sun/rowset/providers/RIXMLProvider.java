@@ -21,26 +21,11 @@
 
 package java.sql.rowset.share.classes.com.sun.rowset.providers;
 
-
 import java.sql.rowset.share.classes.com.sun.rowset.JdbcRowSetResourceBundle;
 import java.io.java.io.java.io.java.io.IOException;
 import java.sql.*;
 import javax.sql.*;
 import javax.sql.rowset.spi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A reference implementation of a JDBC RowSet synchronization provider

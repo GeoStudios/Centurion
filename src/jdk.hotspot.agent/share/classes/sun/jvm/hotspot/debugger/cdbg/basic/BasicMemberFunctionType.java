@@ -21,24 +21,9 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.basic;
 
-
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class BasicMemberFunctionType extends BasicFunctionType implements MemberFunctionType {
   private Type containingClass;

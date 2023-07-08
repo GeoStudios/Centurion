@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * IRETURN -  Return int from method
@@ -55,7 +38,6 @@ public class IRETURN extends ReturnInstruction {
     public IRETURN() {
         super(com.sun.org.apache.bcel.internal.Const.IRETURN);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

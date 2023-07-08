@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-
 import java.desktop.windows.classes.com.sun.java.awt.Color;
 import java.desktop.windows.classes.com.sun.java.awt.Component;
 import java.desktop.windows.classes.com.sun.java.awt.ComponentOrientation;
@@ -62,20 +61,6 @@ import java.desktop.windows.classes.com.sun.swing.StringUIClientPropertyKey;
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.Part;.extended
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.State;.extended
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.Skin;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Windows combo box.
@@ -544,7 +529,6 @@ public class WindowsComboBoxUI extends BasicComboBoxUI {
             }
         }
     }
-
 
     /**
      * Subclassed to highlight selected item in an editable combo box.

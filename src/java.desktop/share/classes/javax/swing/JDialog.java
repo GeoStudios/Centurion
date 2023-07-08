@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.JavaBean;
 import java.beans.BeanProperty;
 import java.desktop.share.classes.javax.accessibility.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The main class for creating a dialog window. You can use this class
@@ -701,7 +686,6 @@ public class JDialog extends Dialog implements WindowConstants,
         }
     }
 
-
     /**
      * Sets the operation that will happen by default when
      * the user initiates a "close" on this dialog.
@@ -869,7 +853,6 @@ public class JDialog extends Dialog implements WindowConstants,
         return rootPaneCheckingEnabled;
     }
 
-
     /**
      * Sets whether calls to {@code add} and
      * {@code setLayout} are forwarded to the {@code contentPane}.
@@ -938,7 +921,6 @@ public class JDialog extends Dialog implements WindowConstants,
         }
     }
 
-
     /**
      * Sets the {@code LayoutManager}.
      * Overridden to conditionally forward the call to the
@@ -959,7 +941,6 @@ public class JDialog extends Dialog implements WindowConstants,
         }
     }
 
-
     /**
      * Returns the {@code rootPane} object for this dialog.
      *
@@ -971,7 +952,6 @@ public class JDialog extends Dialog implements WindowConstants,
     public JRootPane getRootPane() {
         return rootPane;
     }
-
 
     /**
      * Sets the {@code rootPane} property.
@@ -998,7 +978,6 @@ public class JDialog extends Dialog implements WindowConstants,
         }
     }
 
-
     /**
      * Returns the {@code contentPane} object for this dialog.
      *
@@ -1010,7 +989,6 @@ public class JDialog extends Dialog implements WindowConstants,
     public Container getContentPane() {
         return getRootPane().getContentPane();
     }
-
 
    /**
      * Sets the {@code contentPane} property.
@@ -1198,7 +1176,6 @@ public class JDialog extends Dialog implements WindowConstants,
         ",rootPane=" + rootPaneString +
         ",rootPaneCheckingEnabled=" + rootPaneCheckingEnabledString;
     }
-
 
 /////////////////
 // Accessibility support

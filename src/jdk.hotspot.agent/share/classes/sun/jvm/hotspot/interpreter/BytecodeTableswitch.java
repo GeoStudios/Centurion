@@ -21,29 +21,13 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.interpreter;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class BytecodeTableswitch extends Bytecode {
   BytecodeTableswitch(Method method, int bci) {
     super(method, bci);
   }
-
 
   // Attributes
   public int  defaultOffset()     { return javaSignedWordAt(alignedOffset(1)); }

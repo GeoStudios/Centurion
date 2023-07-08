@@ -21,26 +21,11 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import static java.nio.charset.StandardCharsets.UTF_8;.extended
 import java.security.jgss.share.classes.sun.security.krb5.Asn1Exception;
 import java.security.jgss.share.classes.sun.security.krb5.internal.util.KerberosString;
 import java.security.jgss.share.classes.sun.security.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implements the ASN.1 ETYPE-INFO-ENTRY type.

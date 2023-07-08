@@ -21,25 +21,9 @@
 
 package NonSerializable;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @bug 4093279
  */
-
 
 public class PackageCtor {
     PackageCtor() {

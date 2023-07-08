@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * ASTORE - Store reference into local variable
@@ -54,14 +39,12 @@ public class ASTORE extends StoreInstruction {
         super(Const.ASTORE, Const.ASTORE_0);
     }
 
-
     /** Store reference into local variable
      * @param n index of local variable
      */
     public ASTORE(final int n) {
         super(Const.ASTORE, Const.ASTORE_0, n);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

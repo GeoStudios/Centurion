@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Thrown to indicate that an attempt has been made to store the
  * wrong type of object into an array of objects. For example, the

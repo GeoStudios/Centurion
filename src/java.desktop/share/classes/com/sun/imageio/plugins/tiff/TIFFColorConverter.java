@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An abstract class that performs simple color conversion on 3-banded source
  * images, for use with the TIFF Image I/O plug-in.

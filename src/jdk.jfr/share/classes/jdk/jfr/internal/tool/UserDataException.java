@@ -21,22 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.tool;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Exception that is thrown if there is something wrong with the input, for instance
  * a file that can't be read or a numerical value that is out of range.

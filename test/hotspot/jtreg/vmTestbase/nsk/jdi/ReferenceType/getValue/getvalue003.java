@@ -21,7 +21,6 @@
 
 package nsk.jdi.ReferenceType.getValue;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -187,7 +173,6 @@ public class getvalue003 extends JDIBase {
         return testExitCode;
     }
 
-
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -282,7 +267,6 @@ public class getvalue003 extends JDIBase {
             }
             log2("      getting: ReferenceType testedClass = (ReferenceType) classes.get(0);");
             ReferenceType testedClass = (ReferenceType) classes.get(0);
-
 
             log2("------case for testing: arrays of primitive values");
 

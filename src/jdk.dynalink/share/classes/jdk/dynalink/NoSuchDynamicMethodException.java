@@ -21,22 +21,7 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink;
 
-
 import jdk.dynalink.share.classes.jdk.dynalink.linker.GuardingDynamicLinker;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -45,8 +30,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.GuardingDynamicLinker;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-
-
 
 /**
  * Thrown at the invocation if the call site can not be linked by any available {@link GuardingDynamicLinker}.

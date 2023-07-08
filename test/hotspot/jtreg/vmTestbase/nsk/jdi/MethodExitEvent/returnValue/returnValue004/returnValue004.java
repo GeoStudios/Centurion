@@ -21,7 +21,6 @@
 
 package nsk.jdi.MethodExitEvent.returnValue.returnValue004;
 
-
 import java.io.*;
 import java.util.*;
 import com.sun.jdi.*;
@@ -30,19 +29,6 @@ import com.sun.jdi.request.*;
 import nsk.share.*;
 import nsk.share.jdi.*;
 import nsk.share.jpda.NativeMethodsTestThread;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -79,8 +65,6 @@ import nsk.share.jpda.NativeMethodsTestThread;
  *      -transport.address=dynamic
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
-
-
 
 /*
  * Test checks that method 'MethodExitEvent.returnValue()' returns the value that the method will return

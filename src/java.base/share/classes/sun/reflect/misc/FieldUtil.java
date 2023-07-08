@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.reflect.misc;
 
-
 import java.lang.reflect.Field;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Create a trampoline class.

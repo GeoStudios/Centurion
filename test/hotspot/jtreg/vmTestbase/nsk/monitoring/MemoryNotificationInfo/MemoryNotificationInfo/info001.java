@@ -21,23 +21,9 @@
 
 package nsk.monitoring.MemoryNotificationInfo.MemoryNotificationInfo;
 
-
 import java.lang.management.*;
 import java.io.*;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class info001 {
     private static boolean testFailed = false;

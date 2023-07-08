@@ -21,26 +21,12 @@
 
 package gc.memory.Nio;
 
-
 import java.lang.management.ManagementFactory;
 import java.nio.ByteBuffer;
 import jdk.internal.misc.VM;
 import com.sun.management.HotSpotDiagnosticMXBean;
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -54,8 +40,6 @@ import java.io.java.io.java.io.java.io.IOException;
  *          /test/lib
  * @run main/othervm -XX:MaxDirectMemorySize=50M gc.memory.Nio.Nio
  */
-
-
 
 /**
  * Test that uses java.nio.ByteBuffer to allocate native memory.
@@ -136,12 +120,10 @@ public class Nio {
             throw new Fault("Nop, OOM is unexpected again: " + oom);
         }
 
-
         System.out.println("The long quest has done! Congratulations");
 
         return 0;
     }
-
 
     public static void gc() {
         System.gc();

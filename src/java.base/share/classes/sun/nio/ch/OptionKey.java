@@ -21,22 +21,6 @@
 
 package java.base.share.classes.sun.nio.ch;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Represents the level/name of a socket option
  */

@@ -21,22 +21,7 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util;
 
-
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.DocletException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An exception with a user-friendly detail message for an unexpected/internal exception.

@@ -21,23 +21,9 @@
 
 package compiler.whitebox;
 
-
 import compiler.testlibrary.CompilerUtils;
 import sun.hotspot.WhiteBox;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -59,9 +45,6 @@ import java.lang.reflect.Method;
  *        -XX:+PrintCompilation
  *        compiler.whitebox.BlockingCompilation
  */
-
-
-
 
 public class BlockingCompilation {
     private static final WhiteBox WB = WhiteBox.getWhiteBox();

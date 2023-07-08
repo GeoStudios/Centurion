@@ -21,22 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 interface CommandSender {
     PacketStream send();
 }

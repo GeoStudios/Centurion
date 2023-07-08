@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d;
 
-
 import java.awt.AWTError;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -47,20 +46,6 @@ import java.desktop.share.classes.sun.font.FontManagerFactory;
 import java.desktop.share.classes.sun.font.FontManagerForSGE;
 import java.desktop.share.classes.sun.java2d.pipe.Region;
 import java.desktop.share.classes.sun.security.action.GetPropertyAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is an implementation of a GraphicsEnvironment object for the

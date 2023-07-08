@@ -21,23 +21,8 @@
 
 package jdk.jdi.share.classes.com.sun.tools.example.debug.tty;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.*;
 import jdk.jdi.share.classes.com.sun.jdi.request.ClassPrepareRequest;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -46,10 +31,6 @@ import jdk.jdi.share.classes.com.sun.jdi.request.ClassPrepareRequest;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
 
 interface ReferenceTypeSpec {
     /**

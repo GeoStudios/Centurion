@@ -21,26 +21,11 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
 
-
 import java.awt.*;
 import java.io.*;
 import javax.swing.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.memory.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Provides implementation level info about a Java Thread */
 
@@ -64,7 +49,6 @@ public class ThreadInfoPanel extends JPanel {
         scroller.getViewport().add(textArea);
         add(scroller, BorderLayout.CENTER);
     }
-
 
     public ThreadInfoPanel(final JavaThread thread) {
         initUI();

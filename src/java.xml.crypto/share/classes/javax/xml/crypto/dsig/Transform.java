@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto.dsig;
 
-
 import java.io.OutputStream;
 import java.security.spec.AlgorithmParameterSpec;
 import java.xml.crypto.share.classes.javax.xml.crypto.AlgorithmMethod;
@@ -31,25 +30,9 @@ import java.xml.crypto.share.classes.javax.xml.crypto.XMLCryptoContext;
 import java.xml.crypto.share.classes.javax.xml.crypto.XMLStructure;
 import java.xml.crypto.share.classes.javax.xml.crypto.dsig.spec.TransformParameterSpec;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: Transform.java,v 1.5 2005/05/10 16:03:48 mullan Exp $
  */
-
-
 
 /**
  * A representation of the XML <code>Transform</code> element as

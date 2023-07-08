@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
-
 import java.io.PrintStream;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
@@ -36,20 +35,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.Type;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.TypeDataBase;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.WrongTypeException;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Assert;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // A Method represents a Java method
 
@@ -102,7 +87,6 @@ public class Method extends Metadata {
   private static AddressField       interpreterEntry;
   */
 
-
   // constant method names - <init>, <clinit>
   // Initialized lazily to avoid initialization ordering dependencies between ArrayKlass and String
   private static String objectInitializerName;
@@ -119,7 +103,6 @@ public class Method extends Metadata {
     }
     return classInitializerName;
   }
-
 
   // Accessors for declared fields
   public ConstMethod  getConstMethod()                {

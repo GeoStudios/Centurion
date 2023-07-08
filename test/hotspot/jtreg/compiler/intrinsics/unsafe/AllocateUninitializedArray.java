@@ -21,23 +21,9 @@
 
 package compiler.intrinsics.unsafe;
 
-
 import java.lang.reflect.Array;
 import java.lang.reflect.Field;
 import java.util.concurrent.Callable;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -52,8 +38,6 @@ import java.util.concurrent.Callable;
  * @run main/othervm -ea -Diters=30000 -XX:TieredStopAtLevel=4
  *      compiler.intrinsics.unsafe.AllocateUninitializedArray
  */
-
-
 
 public class AllocateUninitializedArray {
     static final int ITERS = Integer.getInteger("iters", 1);
@@ -162,7 +146,6 @@ public class AllocateUninitializedArray {
     static volatile int sampleLenNeg  = -1;
     static volatile int sampleLenZero = 0;
     static volatile int sampleLen     = 10;
-
 
     static volatile Class<?> classBoolean = boolean.class;
     static volatile Class<?> classByte    = byte.class;

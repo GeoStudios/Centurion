@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util.stream;
 
-
 import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
 import java.base.share.classes.java.util.Iterator;
@@ -35,20 +34,6 @@ import java.base.share.classes.java.util.function.DoubleConsumer;
 import java.base.share.classes.java.util.function.IntConsumer;
 import java.base.share.classes.java.util.function.IntFunction;
 import java.base.share.classes.java.util.function.LongConsumer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An ordered collection of elements.  Elements can be added, but not removed.
@@ -907,7 +892,6 @@ class SpinedBuffer<E>
         public PrimitiveIterator.OfLong iterator() {
             return Spliterators.iterator(spliterator());
         }
-
 
         public Spliterator.OfLong spliterator() {
             class Splitr extends BaseSpliterator<Spliterator.OfLong>

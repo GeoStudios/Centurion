@@ -21,24 +21,9 @@
 
 package java.base.share.classes.jdk.internal.icu.impl;
 
-
 import java.base.share.classes.jdk.internal.icu.text.Replaceable;
 import java.base.share.classes.jdk.internal.icu.text.ReplaceableString;
 import java.base.share.classes.jdk.internal.icu.text.UCharacterIterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * DLF docs must define behavior when Replaceable is mutated underneath
@@ -134,7 +119,6 @@ public class ReplaceableUCharacterIterator extends UCharacterIterator {
         }
         return DONE;
     }
-
 
     /**
      * Returns previous UTF16 character and decrements the iterator's currentIndex by

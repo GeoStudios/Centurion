@@ -21,25 +21,10 @@
 
 package java.security.jgss.share.classes.sun.security.krb5;
 
-
 import java.security.jgss.share.classes.sun.security.krb5.internal.*;
 import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.KeyUsage;
 import java.security.jgss.share.classes.sun.security.util.*;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class encapsulates a KRB-AP-REP sent from the service to the
@@ -91,7 +76,6 @@ public class KrbApRep {
                       seqNumber);
         obuf = apRepMessg.asn1Encode();
     }
-
 
     /**
      * Constructs a KrbApRep object.
@@ -145,7 +129,6 @@ public class KrbApRep {
             encPart.cusec != apReq.getCtime().getMicroSeconds())
             throw new KrbApErrException(Krb5.KRB_AP_ERR_MUT_FAIL);
     }
-
 
     /**
      * Returns the optional subkey stored in

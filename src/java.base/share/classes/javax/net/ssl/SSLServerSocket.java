@@ -21,23 +21,8 @@
 
 package java.base.share.classes.javax.net.ssl;
 
-
 import java.io.*;
 import java.net.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class extends <code>ServerSocket</code> and
@@ -77,7 +62,6 @@ public abstract class SSLServerSocket extends ServerSocket {
     throws IOException
         { super(); }
 
-
     /**
      * Used only by subclasses.
      * <P>
@@ -105,7 +89,6 @@ public abstract class SSLServerSocket extends ServerSocket {
     protected SSLServerSocket(int port)
     throws IOException
         { super(port); }
-
 
     /**
      * Used only by subclasses.
@@ -141,7 +124,6 @@ public abstract class SSLServerSocket extends ServerSocket {
     protected SSLServerSocket(int port, int backlog)
     throws IOException
         { super(port, backlog); }
-
 
     /**
      * Used only by subclasses.
@@ -187,8 +169,6 @@ public abstract class SSLServerSocket extends ServerSocket {
     throws IOException
         { super(port, backlog, address); }
 
-
-
     /**
      * Returns the list of cipher suites which are currently enabled
      * for use by newly accepted connections.
@@ -215,7 +195,6 @@ public abstract class SSLServerSocket extends ServerSocket {
      * @see #setEnabledCipherSuites(String [])
      */
     public abstract String [] getEnabledCipherSuites();
-
 
     /**
      * Sets the cipher suites enabled for use by accepted connections.
@@ -249,7 +228,6 @@ public abstract class SSLServerSocket extends ServerSocket {
      */
     public abstract void setEnabledCipherSuites(String[] suites);
 
-
     /**
      * Returns the names of the cipher suites which could be enabled for use
      * on an SSL connection.
@@ -272,7 +250,6 @@ public abstract class SSLServerSocket extends ServerSocket {
      */
     public abstract String [] getSupportedCipherSuites();
 
-
     /**
      * Returns the names of the protocols which could be enabled for use.
      *
@@ -281,7 +258,6 @@ public abstract class SSLServerSocket extends ServerSocket {
      * @see #setEnabledProtocols(String [])
      */
     public abstract String [] getSupportedProtocols();
-
 
     /**
      * Returns the names of the protocols which are currently
@@ -297,7 +273,6 @@ public abstract class SSLServerSocket extends ServerSocket {
      * @see #setEnabledProtocols(String [])
      */
     public abstract String [] getEnabledProtocols();
-
 
     /**
      * Controls which particular protocols are enabled for use by
@@ -319,7 +294,6 @@ public abstract class SSLServerSocket extends ServerSocket {
      * @see #getSupportedProtocols()
      */
     public abstract void setEnabledProtocols(String[] protocols);
-
 
     /**
      * Controls whether <code>accept</code>ed server-mode
@@ -354,7 +328,6 @@ public abstract class SSLServerSocket extends ServerSocket {
      */
     public abstract void setNeedClientAuth(boolean need);
 
-
     /**
      * Returns true if client authentication will be <i>required</i> on
      * newly <code>accept</code>ed server-mode <code>SSLSocket</code>s.
@@ -371,7 +344,6 @@ public abstract class SSLServerSocket extends ServerSocket {
      * @see #setUseClientMode(boolean)
      */
     public abstract boolean getNeedClientAuth();
-
 
     /**
      * Controls whether <code>accept</code>ed server-mode
@@ -406,7 +378,6 @@ public abstract class SSLServerSocket extends ServerSocket {
      */
     public abstract void setWantClientAuth(boolean want);
 
-
     /**
      * Returns true if client authentication will be <i>requested</i> on
      * newly accepted server-mode connections.
@@ -423,7 +394,6 @@ public abstract class SSLServerSocket extends ServerSocket {
      * @see #setUseClientMode(boolean)
      */
     public abstract boolean getWantClientAuth();
-
 
     /**
      * Controls whether accepted connections are in the (default) SSL
@@ -451,7 +421,6 @@ public abstract class SSLServerSocket extends ServerSocket {
      */
     public abstract void setUseClientMode(boolean mode);
 
-
     /**
      * Returns true if accepted connections will be in SSL client mode.
      *
@@ -459,7 +428,6 @@ public abstract class SSLServerSocket extends ServerSocket {
      * @return true if the connection should use SSL client mode.
      */
     public abstract boolean getUseClientMode();
-
 
     /**
      * Controls whether new SSL sessions may be established by the
@@ -474,7 +442,6 @@ public abstract class SSLServerSocket extends ServerSocket {
      * @see #getEnableSessionCreation()
      */
     public abstract void setEnableSessionCreation(boolean flag);
-
 
     /**
      * Returns true if new SSL sessions may be established by the

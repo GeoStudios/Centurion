@@ -21,22 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
-
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Type;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utilities for operating on constant values.

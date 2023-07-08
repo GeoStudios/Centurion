@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.java.awt.event;
 
-
 import java.desktop.share.classes.java.awt.AWTEvent;
 import java.desktop.share.classes.java.awt.ItemSelectable;
 import java.desktop.share.classes.java.io.Serial;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A semantic event which indicates that an item was selected or deselected.

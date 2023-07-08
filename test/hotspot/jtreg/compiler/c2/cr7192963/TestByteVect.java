@@ -21,21 +21,6 @@
 
 package compiler.c2.cr7192963;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 7192963
@@ -43,7 +28,6 @@ package compiler.c2.cr7192963;
  *
  * @run main/othervm/timeout=400 -Xbatch -Xmx128m compiler.c2.cr7192963.TestByteVect
  */
-
 
 public class TestByteVect {
   private static final int ARRLEN = 997;

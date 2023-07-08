@@ -21,56 +21,6 @@
 
 package idea;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class is used to wrap the IntelliJ ant logger in order to provide more meaningful
  * output when building langtools. The basic ant output in IntelliJ can be quite cumbersome to

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.wbmp;
 
-
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.image.DataBuffer;
@@ -41,20 +40,6 @@ import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.spi.ImageWriterSpi;
 import javax.imageio.stream.ImageOutputStream;
 import java.desktop.share.classes.com.sun.imageio.plugins.common.I18N;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The Java Image IO plugin writer for encoding a binary RenderedImage into

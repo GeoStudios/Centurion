@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-
 import java.desktop.share.classes.com.sun.java.awt.Color;
 import java.desktop.share.classes.com.sun.java.awt.Dimension;
 import java.desktop.share.classes.com.sun.java.awt.Toolkit;
@@ -41,20 +40,6 @@ import javax.swing.plaf.ActionMapUIResource;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.UIResource;
 import javax.swing.plaf.basic.BasicInternalFrameUI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A Motif {@literal L&F} implementation of InternalFrame.
@@ -77,7 +62,6 @@ public class MotifInternalFrameUI extends BasicInternalFrameUI {
      */
     @Deprecated
     protected KeyStroke closeMenuKey;
-
 
 /////////////////////////////////////////////////////////////////////////////
 // ComponentUI Interface Implementation methods
@@ -103,14 +87,12 @@ public class MotifInternalFrameUI extends BasicInternalFrameUI {
         }
     }
 
-
     protected void installKeyboardActions(){
       super.installKeyboardActions();
       // We replace the
       // we use JPopup in our TitlePane so need escape support
       closeMenuKey = KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0);
     }
-
 
     protected void uninstallDefaults() {
         LookAndFeel.uninstallBorder(frame);

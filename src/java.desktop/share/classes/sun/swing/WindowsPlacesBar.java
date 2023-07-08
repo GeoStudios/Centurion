@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.swing;
 
-
 import java.awt.Dimension;
 import java.awt.Insets;
 import java.awt.Color;
@@ -47,20 +46,6 @@ import javax.swing.border.BevelBorder;
 import javax.swing.filechooser.FileSystemView;
 import java.desktop.share.classes.sun.awt.shell.ShellFolder;
 import java.desktop.share.classes.sun.awt.OSInfo;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <b>WARNING:</b> This class is an implementation detail and is only

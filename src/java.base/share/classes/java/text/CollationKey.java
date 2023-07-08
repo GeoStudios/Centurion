@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.text;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A {@code CollationKey} represents a {@code String} under the
  * rules of a specific {@code Collator} object. Comparing two
@@ -117,7 +101,6 @@ public abstract class CollationKey implements Comparable<CollationKey> {
         return source;
     }
 
-
     /**
      * Converts the CollationKey to a sequence of bits. If two CollationKeys
      * could be legitimately compared, then one could compare the byte arrays
@@ -127,7 +110,6 @@ public abstract class CollationKey implements Comparable<CollationKey> {
      * @return a byte array representation of the CollationKey
      */
     public abstract byte[] toByteArray();
-
 
   /**
    * CollationKey constructor.

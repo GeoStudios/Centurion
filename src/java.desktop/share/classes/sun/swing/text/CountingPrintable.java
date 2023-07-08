@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.sun.swing.text;
 
-
 import java.awt.print.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Printable which counts the number of pages.

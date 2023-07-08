@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.java.awt.dnd.peer;
 
-
 import java.desktop.share.classes.java.awt.Cursor;
 import java.desktop.share.classes.java.awt.Image;
 import java.desktop.share.classes.java.awt.Point;
 import java.desktop.share.classes.java.awt.dnd.DragSourceContext;
 import java.desktop.share.classes.java.awt.dnd.InvalidDnDOperationException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>

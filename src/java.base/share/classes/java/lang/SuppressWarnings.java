@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.lang;
 
-
 import java.base.share.classes.java.lang.annotation.*;
 import static java.base.share.classes.java.lang.annotation.ElementType.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Indicates that the named compiler warnings should be suppressed in the

@@ -21,22 +21,8 @@
 
 package compiler.stable;
 
-
 import jdk.internal.vm.annotation.Stable;
 import java.lang.reflect.InvocationTargetException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestStableUShort
@@ -72,9 +58,6 @@ import java.lang.reflect.InvocationTargetException;
  *                                 -XX:CompileOnly=::get,::get1
  *                                 compiler.stable.TestStableUShort
  */
-
-
-
 
 public class TestStableUShort {
     static final boolean isStableEnabled = StableConfiguration.isStableEnabled;

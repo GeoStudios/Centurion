@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** A BitMap implementing the BitMapInterface. */
 public class BitMapSegmented implements BitMapInterface {
   private static final int SegmentSizeBits = 30;

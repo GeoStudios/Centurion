@@ -21,28 +21,12 @@
 
 package compiler.vectorization;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8261022
  * @summary Test vectorization of Math.abs() with unsigned type
  * @run main/othervm compiler.vectorization.TestAbsCharVector
  */
-
 
 public class TestAbsCharVector {
 

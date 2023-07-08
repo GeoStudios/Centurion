@@ -21,24 +21,9 @@
 
 package java.management.share.classes.sun.management;
 
-
 import java.util.Map;
 import java.util.HashMap;
 import java.management.share.classes.sun.management.counter.Counter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation class of HotspotThreadMBean interface.

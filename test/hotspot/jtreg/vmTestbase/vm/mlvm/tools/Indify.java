@@ -21,24 +21,10 @@
 
 package vm.mlvm.tools;
 
-
 import java.util.*;
 import java.io.*;
 import java.lang.reflect.Modifier;
 import java.util.regex.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Transform one or more class files to incorporate JSR 292 features,

@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface CallTypeDataInterface<K> {
   int numberOfArguments();
   boolean hasArguments();

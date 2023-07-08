@@ -21,22 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.frame;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class ResetFrame extends ErrorFrame {
 
     public static final int TYPE = 0x3;

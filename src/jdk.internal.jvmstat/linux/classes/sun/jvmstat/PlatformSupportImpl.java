@@ -21,7 +21,6 @@
 
 package jdk.internal.jvmstat.linux.classes.sun.jvmstat;
 
-
 import java.io.*;
 import java.util.*;
 import java.util.regex.*;
@@ -29,20 +28,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.Files;
 import java.nio.charset.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Linux specific implementation of the PlatformSupport routines
@@ -164,7 +149,6 @@ public class PlatformSupportImpl extends PlatformSupport {
         return v;
     }
 
-
     /*
      * Extract either the host PID or the NameSpace PID
      * from a file path.
@@ -202,7 +186,6 @@ public class PlatformSupportImpl extends PlatformSupport {
             return Integer.parseInt(file.getName());
         }
     }
-
 
     /*
      * Return the inner most namespaced PID if there is one,

@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.awt.Container;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A factory to create a view of some portion of document subject.

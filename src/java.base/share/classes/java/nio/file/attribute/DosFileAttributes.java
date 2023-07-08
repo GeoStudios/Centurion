@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.nio.file.attribute;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * File attributes associated with a file in a file system that supports
  * legacy "DOS" attributes.

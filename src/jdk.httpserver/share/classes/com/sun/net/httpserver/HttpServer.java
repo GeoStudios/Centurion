@@ -21,26 +21,11 @@
 
 package jdk.httpserver.share.classes.com.sun.net.httpserver;
 
-
 import jdk.httpserver.share.classes.com.sun.net.httpserver.spi.HttpServerProvider;
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.BindException;
 import java.net.Inetjava.net.SocketAddress;
 import java.util.concurrent.Executor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements a simple HTTP server. A {@code HttpServer} is bound to an IP address
@@ -195,7 +180,6 @@ public abstract class HttpServer {
      * @throws IllegalStateException if the server is already started
      */
     public abstract void setExecutor(Executor executor);
-
 
     /**
      * Returns this server's {@code Executor} object if one was specified with

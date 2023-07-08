@@ -21,7 +21,6 @@
 
 package jdk.jshell.share.classes.jdk.jshell;
 
-
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.stream.Stream;
@@ -35,20 +34,6 @@ import jdk.jshell.share.classes.jdk.jshell.Key.VarKey;
 import jdk.jshell.share.classes.jdk.jshell.Snippet.SubKind;
 import static jdk.jshell.share.classes.jdk.jshell.Snippet.SubKind.SINGLE_STATIC_IMPORT_SUBKIND;.extended
 import static jdk.jshell.share.classes.jdk.jshell.Snippet.SubKind.SINGLE_TYPE_IMPORT_SUBKIND;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Maps signature to Key by Kind.

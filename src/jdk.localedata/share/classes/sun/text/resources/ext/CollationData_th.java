@@ -21,28 +21,10 @@
 
 package jdk.localedata.share.classes.sun.text.resources.ext;
 
-
 import java.util.java.util.ListResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  */
-
-
-
 
 public class CollationData_th extends ListResourceBundle {
 
@@ -127,18 +109,12 @@ public class CollationData_th extends ListResourceBundle {
                 + "< \u0E43 "                   //  SARA AI MAIMUAN
                 + "< \u0E44 "                   //  SARA AI MAIMALAI
 
-
                 //according to CLDR, it's after 0e44
                 + "< \u0E3A "                   //  PHINTHU
-
-
 
                 // This rare symbol comes after all characters.
                 + "< \u0E45 "                   //  LAKKHANGYAO
                 + "& \u0E32 , \0E45 "           // According to CLDR, 0E45 is after 0E32 in tertiary level
-
-
-
 
                 // Below are thai puntuation marks and Tonal(Accent) marks. According to CLDR 1.9 and
                 // ISO/IEC 14651, Annex C, C.2.1 Thai ordering principles, 0E2F to 0E5B are punctuaion marks that need to be ignored
@@ -176,7 +152,6 @@ public class CollationData_th extends ListResourceBundle {
                 + "& 7 = \u0E57 "                   //  DIGIT SEVEN
                 + "& 8 = \u0E58 "                   //  DIGIT EIGHT
                 + "& 9 = \u0E59 "                   //  DIGIT NINE
-
 
             }
         };

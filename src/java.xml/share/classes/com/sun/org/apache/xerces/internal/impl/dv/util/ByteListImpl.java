@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.util;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.datatypes.Bytejava.util.java.util.java.util.List;
 import java.util.Abstractjava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation of <code>com.sun.org.apache.xerces.internal.xs.datatypes.ByteList</code>.

@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.org.xml.sax;
 
-
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Interface for reading an XML document using callbacks.
@@ -80,11 +65,9 @@ import java.io.java.io.java.io.java.io.IOException;
 public interface XMLReader
 {
 
-
     ////////////////////////////////////////////////////////////////////
     // Configuration.
     ////////////////////////////////////////////////////////////////////
-
 
     /**
      * Look up the value of a feature flag.
@@ -145,7 +128,6 @@ public interface XMLReader
     boolean getFeature (String name)
         throws SAXNotRecognizedException, SAXNotSupportedException;
 
-
     /**
      * Set the value of a feature flag.
      *
@@ -171,7 +153,6 @@ public interface XMLReader
      */
     void setFeature (String name, boolean value)
         throws SAXNotRecognizedException, SAXNotSupportedException;
-
 
     /**
      * Look up the value of a property.
@@ -201,7 +182,6 @@ public interface XMLReader
     Object getProperty (String name)
         throws SAXNotRecognizedException, SAXNotSupportedException;
 
-
     /**
      * Set the value of a property.
      *
@@ -230,12 +210,9 @@ public interface XMLReader
     void setProperty (String name, Object value)
         throws SAXNotRecognizedException, SAXNotSupportedException;
 
-
-
     ////////////////////////////////////////////////////////////////////
     // Event handlers.
     ////////////////////////////////////////////////////////////////////
-
 
     /**
      * Allow an application to register an entity resolver.
@@ -252,7 +229,6 @@ public interface XMLReader
      */
     void setEntityResolver (EntityResolver resolver);
 
-
     /**
      * Return the current entity resolver.
      *
@@ -261,7 +237,6 @@ public interface XMLReader
      * @see #setEntityResolver
      */
     EntityResolver getEntityResolver ();
-
 
     /**
      * Allow an application to register a DTD event handler.
@@ -278,7 +253,6 @@ public interface XMLReader
      */
     void setDTDHandler (DTDHandler handler);
 
-
     /**
      * Return the current DTD handler.
      *
@@ -287,7 +261,6 @@ public interface XMLReader
      * @see #setDTDHandler
      */
     DTDHandler getDTDHandler ();
-
 
     /**
      * Allow an application to register a content event handler.
@@ -305,7 +278,6 @@ public interface XMLReader
      */
     void setContentHandler (ContentHandler handler);
 
-
     /**
      * Return the current content handler.
      *
@@ -314,7 +286,6 @@ public interface XMLReader
      * @see #setContentHandler
      */
     ContentHandler getContentHandler ();
-
 
     /**
      * Allow an application to register an error event handler.
@@ -334,7 +305,6 @@ public interface XMLReader
      */
     void setErrorHandler (ErrorHandler handler);
 
-
     /**
      * Return the current error handler.
      *
@@ -343,8 +313,6 @@ public interface XMLReader
      * @see #setErrorHandler
      */
     ErrorHandler getErrorHandler ();
-
-
 
     ////////////////////////////////////////////////////////////////////
     // Parsing.
@@ -394,7 +362,6 @@ public interface XMLReader
      */
     void parse (InputSource input)
         throws IOException, SAXException;
-
 
     /**
      * Parse an XML document from a system identifier (URI).

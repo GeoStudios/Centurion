@@ -21,25 +21,10 @@
 
 package demo.share.jfc.SwingSet2;
 
-
 import javax.swing.*;
 import javax.swing.filechooser.*;
 import java.io.File;
 import java.util.Hashtable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A convenience implementation of the FileView interface that

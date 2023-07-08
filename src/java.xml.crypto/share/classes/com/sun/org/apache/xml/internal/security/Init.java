@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
@@ -47,28 +46,10 @@ import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
-
 
 /**
  * This class does the configuration of the library. This includes creating
@@ -340,7 +321,6 @@ public class Init {
                     KeyResolver.registerClassNames(classNames);
                 }
 
-
                 if ("PrefixMappings".equals(tag)){
                     LOG.debug("Now I try to bind prefixes:");
 
@@ -499,13 +479,11 @@ public class Init {
             ret.add(urls.nextElement());
         }
 
-
         if (ret.isEmpty() && resourceName != null && resourceName.charAt(0) != '/') {
             return getResources('/' + resourceName, callingClass);
         }
         return ret;
     }
-
 
     /**
      * This is a convenience method to load a resource as a stream. <p></p> The

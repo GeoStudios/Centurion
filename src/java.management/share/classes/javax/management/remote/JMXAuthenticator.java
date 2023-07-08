@@ -21,23 +21,8 @@
 
 package java.management.share.classes.javax.management.remote;
 
-
 import java.security.Principal;
 import java.management.share.classes.javax.security.auth.Subject;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Interface to define how remote credentials are converted into a

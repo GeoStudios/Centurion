@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xni;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * A structure that holds the components of an XML Namespaces qualified
@@ -60,7 +43,6 @@ package java.xml.share.classes.com.sun.org.apache.xerces.internal.xni;
  */
 public class QName
 implements Cloneable {
-
 
     /**
      * The qname prefix. For example, the prefix for the qname "a:foo"

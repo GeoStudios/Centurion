@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
-
 import java.io.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
@@ -32,20 +31,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.memory.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.Metadata;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.Type;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** This class attempts to describe possible locations of pointers in
     the VM. */

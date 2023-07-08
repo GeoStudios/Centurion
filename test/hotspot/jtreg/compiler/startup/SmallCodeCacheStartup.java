@@ -21,23 +21,9 @@
 
 package compiler.startup;
 
-
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
 import static jdk.test.lib.Asserts.assertTrue;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -52,9 +38,6 @@ import static jdk.test.lib.Asserts.assertTrue;.extended
  *
  * @run driver compiler.startup.SmallCodeCacheStartup
  */
-
-
-
 
 public class SmallCodeCacheStartup {
     public static void main(String[] args) throws Exception {

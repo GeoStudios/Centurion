@@ -21,23 +21,9 @@
 
 package nsk.jdi.ThreadReference.stop;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the stop001 JDI test.
@@ -100,7 +86,6 @@ public class stop001a {
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
 
-
 //        int exitCode = PASSED;
         for (int i = 0; ; i++) {
 
@@ -121,7 +106,6 @@ public class stop001a {
                          thread2 = new
                               Threadstop001a("Thread2");
                          log1("       thread2 is created");
-
 
                      label: {
 
@@ -229,7 +213,6 @@ class Threadstop001a extends Thread {
         log("method 'run' exit");
         return;
     }
-
 
     void log(String str) {
         stop001a.log2("thread2: " + str);

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.awt.datatransfer;
 
-
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.UnsupportedFlavorException;
@@ -38,20 +37,6 @@ import java.lang.reflect.Proxy;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Proxies for another Transferable so that Serializable objects are never

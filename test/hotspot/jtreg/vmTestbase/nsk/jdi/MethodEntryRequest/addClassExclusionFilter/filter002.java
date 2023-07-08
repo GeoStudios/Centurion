@@ -21,7 +21,6 @@
 
 package nsk.jdi.MethodEntryRequest.addClassExclusionFilter;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -119,7 +105,6 @@ public class filter002 extends JDIBase {
       "nsk.jdi.MethodEntryRequest.addClassExclusionFilter.TestClass10";
 
     //====================================================== test program
-
 
     private int runThis (String argv[], PrintStream out) {
 
@@ -206,7 +191,6 @@ public class filter002 extends JDIBase {
         return testExitCode;
     }
 
-
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -275,7 +259,6 @@ public class filter002 extends JDIBase {
 
         String        property1          = "MethodEntryRequest1";
 
-
         for (int i = 0; ; i++) {
 
             vm.resume();
@@ -288,7 +271,6 @@ public class filter002 extends JDIBase {
                 vm.resume();
                 break;
             }
-
 
             log1(":::::: case: # " + i);
 
@@ -370,8 +352,6 @@ public class filter002 extends JDIBase {
 
         throw new JDITestRuntimeException("** event IS NOT a breakpoint **");
     }
-
-
 
     // ============================== test's additional methods
 

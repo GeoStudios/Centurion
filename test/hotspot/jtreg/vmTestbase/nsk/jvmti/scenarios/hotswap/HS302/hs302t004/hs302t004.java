@@ -21,23 +21,9 @@
 
 package nsk.jvmti.scenarios.hotswap.HS302.hs302t004;
 
-
 import nsk.share.jvmti.RedefineAgent;
 import java.lang.reflect.*;
 import nsk.jvmti.scenarios.hotswap.HS302.hs302t004r.MyClass;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -57,7 +43,6 @@ import nsk.jvmti.scenarios.hotswap.HS302.hs302t004r.MyClass;
  *      -agentlib:hs302t004=pathToNewByteCode=./bin,-waittime=5,package=nsk,samples=100,mode=compiled
  *      nsk.jvmti.scenarios.hotswap.HS302.hs302t004.hs302t004
  */
-
 
 public class hs302t004 extends RedefineAgent {
     public hs302t004(String[] arg) {

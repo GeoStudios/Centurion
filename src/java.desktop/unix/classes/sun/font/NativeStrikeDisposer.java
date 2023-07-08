@@ -21,22 +21,6 @@
 
 package java.desktop.unix.classes.sun.font;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This keeps track of data that needs to be cleaned up once a
  * strike is freed.

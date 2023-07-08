@@ -21,23 +21,9 @@
 
 package compiler.c2.cr6589834;
 
-
 import jdk.test.lib.Asserts;
 import sun.hotspot.WhiteBox;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -59,9 +45,6 @@ import java.lang.reflect.Method;
  *      -XX:CompileCommand=inline,compiler.c2.cr6589834.InlinedArrayCloneTestCase::verifyArguments
  *      compiler.c2.cr6589834.Test_ia32
  */
-
-
-
 
 public class Test_ia32 {
     private static final int NUM_THREADS

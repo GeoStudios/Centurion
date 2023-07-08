@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.Writer;
@@ -38,20 +37,6 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.PropertyMa
 import java.xml.share.classes.com.sun.xml.internal.stream.writers.XMLDOMWriterImpl;
 import java.xml.share.classes.com.sun.xml.internal.stream.writers.XMLEventWriterImpl;
 import java.xml.share.classes.com.sun.xml.internal.stream.writers.XMLStreamWriterImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class provides the implementation of XMLOutputFactory.

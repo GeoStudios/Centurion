@@ -21,24 +21,9 @@
 
 package utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filterwindow;
 
-
 import utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filter.FilterChain;
 import utils.IdealGraphVisualizer.FilterWindow.src.main.java.com.sun.hotspot.igv.filter.FilterChainProvider;
 import org.openide.util.lookup.ServiceProvider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

@@ -21,23 +21,9 @@
 
 package jdk.vm.ci.runtime.test;
 
-
 import jdk.vm.ci.meta.JavaConstant;
 import org.junit.Assert;
 import org.junit.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -48,7 +34,6 @@ import org.junit.Test;
  *          java.base/jdk.internal.misc
  * @run junit/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler jdk.vm.ci.runtime.test.ConstantTest
  */
-
 
 public class ConstantTest extends FieldUniverse {
 

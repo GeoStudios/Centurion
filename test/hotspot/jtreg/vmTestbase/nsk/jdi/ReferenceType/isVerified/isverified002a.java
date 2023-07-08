@@ -21,25 +21,11 @@
 
 package nsk.jdi.ReferenceType.isVerified;
 
-
 import java.lang.reflect.*;
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debugee application for the isverified002 JDI test.
@@ -70,7 +56,6 @@ public class isverified002a {
         print_log_on_verbose("**> isverified002a: waiting for \"checked class dir\" info...");
         pipe.println("ready0");
         String checked_class_dir = (argHandler.getArguments())[0] + File.separator + "loadclass";
-
 
         ClassUnloader classUnloader = new ClassUnloader();
 

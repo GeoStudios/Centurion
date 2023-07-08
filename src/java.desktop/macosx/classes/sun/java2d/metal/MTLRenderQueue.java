@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.java2d.metal;
 
-
 import java.desktop.macosx.classes.sun.awt.util.ThreadGroupUtils;
 import java.desktop.macosx.classes.sun.java2d.pipe.RenderBuffer;
 import java.desktop.macosx.classes.sun.java2d.pipe.RenderQueue;
@@ -29,20 +28,6 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import static java.desktop.macosx.classes.sun.java2d.pipe.BufferedOpCodes.DISPOSE_CONFIG;.extended
 import static java.desktop.macosx.classes.sun.java2d.pipe.BufferedOpCodes.SYNC;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * MTL-specific implementation of RenderQueue.  This class provides a
@@ -128,7 +113,6 @@ public class MTLRenderQueue extends RenderQueue {
     public static boolean isQueueFlusherThread() {
         return (Thread.currentThread() == getInstance().flusher.thread);
     }
-
 
     @Override
     public void flushNow() {

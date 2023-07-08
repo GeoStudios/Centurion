@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing.table;
 
-
 import java.awt.Component;
 import java.desktop.share.classes.javax.swing.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This interface defines the method required by any object that

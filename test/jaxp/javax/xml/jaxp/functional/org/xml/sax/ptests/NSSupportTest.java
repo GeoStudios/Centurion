@@ -21,26 +21,12 @@
 
 package org.xml.sax.ptests;
 
-
 import static org.testng.Assert.assertEquals;.extended
 import static org.testng.Assert.assertNull;.extended
 import java.util.Enumeration;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.helpers.NamespaceSupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Unit test cases for NamespaceSupport API
@@ -122,7 +108,6 @@ public class NSSupportTest {
         support.popContext();
         assertEquals(parts, new String[]{W3_URI, "a", "a"});
     }
-
 
     /**
      * Test for NamespaceSupport.popContext().

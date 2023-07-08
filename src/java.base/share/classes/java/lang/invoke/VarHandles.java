@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-
 import sun.invoke.util.Wrapper;
 import java.base.share.classes.java.lang.reflect.Constructor;
 import java.base.share.classes.java.lang.reflect.Field;
@@ -42,20 +41,6 @@ import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.VAR_H
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.newIllegalArgumentException;.extended
 import static java.base.share.classes.java.util.stream.Collectors.joining;.extended
 import static java.base.share.classes.java.util.stream.Collectors.tojava.util.java.util.java.util.List;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class VarHandles {
 

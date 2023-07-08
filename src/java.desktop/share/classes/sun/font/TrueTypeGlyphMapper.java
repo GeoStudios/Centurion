@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.sun.font;
 
-
 import java.nio.ByteBuffer;
 import java.base.share.classes.java.util.Locale;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class TrueTypeGlyphMapper extends CharToGlyphMapper {
 

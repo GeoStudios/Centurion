@@ -21,26 +21,11 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XSObjectjava.util.ListImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSAnnotation;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObjectjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The class used to pass all facets to {@link XSSimpleType#applyFacets}.
@@ -119,8 +104,6 @@ public class XSFacets {
      * value of minExclusive facet.
      */
     public String minExclusive;
-
-
 
     public XSAnnotation lengthAnnotation;
     public XSAnnotation minLengthAnnotation;

@@ -21,21 +21,7 @@
 
 package nsk.jvmti.GetVersionNumber;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class getvern001 {
 

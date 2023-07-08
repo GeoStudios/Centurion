@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.java2d.xr;
 
-
 import java.desktop.unix.classes.sun.awt.SunToolkit;
 import java.desktop.unix.classes.sun.awt.image.*;
 import java.desktop.unix.classes.sun.java2d.loops.*;
@@ -30,20 +29,6 @@ import java.desktop.unix.classes.sun.java2d.*;
 import java.awt.*;
 import java.awt.geom.*;
 import java.lang.ref.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class XRPMBlitLoops {
 

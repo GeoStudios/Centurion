@@ -21,24 +21,9 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.jfc.model;
 
-
 import java.io.BufferedReader;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStreamReader;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class UserInterface {
 

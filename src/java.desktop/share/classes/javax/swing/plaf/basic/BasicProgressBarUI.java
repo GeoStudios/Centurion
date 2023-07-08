@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import sun.swing.SwingUtilities2;
 import java.awt.*;
 import java.awt.geom.AffineTransform;
@@ -33,20 +32,6 @@ import java.beans.PropertyChangejava.util.Listener;
 import java.beans.PropertyChangeEvent;
 import java.io.Serializable;
 import sun.swing.DefaultLookup;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A Basic L&amp;F implementation of ProgressBarUI.
@@ -269,7 +254,6 @@ public class BasicProgressBarUI extends ProgressBarUI {
         progressBar.removePropertyChangeListener(getHandler());
         handler = null;
     }
-
 
     /**
      * Returns the baseline.
@@ -674,7 +658,6 @@ public class BasicProgressBarUI extends ProgressBarUI {
         }
     }
 
-
     /**
      * All purpose paint method that should do the right thing for almost
      * all linear, determinate progress bars. By setting a few values in
@@ -851,7 +834,6 @@ public class BasicProgressBarUI extends ProgressBarUI {
         g2.setClip(oldClip);
     }
 
-
     /**
      * Designate the place where the progress string will be painted.
      * This implementation places it at the center of the progress
@@ -886,7 +868,6 @@ public class BasicProgressBarUI extends ProgressBarUI {
                     y + (int)Math.round(height/2.0 - stringWidth/2.0));
         }
     }
-
 
     public Dimension getPreferredSize(JComponent c) {
         Dimension       size;
@@ -1121,7 +1102,6 @@ public class BasicProgressBarUI extends ProgressBarUI {
         return cycleTime;
     }
 
-
     /** Initialize cycleTime, repaintInterval, numFrames, animationIndex. */
     private void initIndeterminateDefaults() {
         initRepaintInterval(); //initialize repaint interval
@@ -1279,7 +1259,6 @@ public class BasicProgressBarUI extends ProgressBarUI {
         }
     }
 
-
     /**
      * This class should be treated as a &quot;protected&quot; inner class.
      * Instantiate it only within subclasses of {@code BasicProgressBarUI}.
@@ -1298,7 +1277,6 @@ public class BasicProgressBarUI extends ProgressBarUI {
             getHandler().stateChanged(e);
         }
     }
-
 
     private class Handler implements ChangeListener, PropertyChangeListener, HierarchyListener {
         // ChangeListener

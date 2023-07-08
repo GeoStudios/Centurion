@@ -21,22 +21,6 @@
 
 package jdk.attach.share.classes.com.sun.tools.attach;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The exception thrown when an agent cannot be loaded into the target
  * Java virtual machine.

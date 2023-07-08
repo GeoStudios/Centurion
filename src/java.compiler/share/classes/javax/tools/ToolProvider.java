@@ -21,26 +21,11 @@
 
 package java.compiler.share.classes.javax.tools;
 
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.base.share.classes.java.util.Objects;
 import java.util.ServiceConfigurationError;
 import java.util.ServiceLoader;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides methods for locating tool providers, for example,

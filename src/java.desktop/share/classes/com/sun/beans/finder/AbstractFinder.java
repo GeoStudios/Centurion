@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.com.sun.beans.finder;
 
-
 import java.lang.reflect.Executable;
 import java.lang.reflect.Modifier;
 import java.util.HashMap;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This abstract class provides functionality

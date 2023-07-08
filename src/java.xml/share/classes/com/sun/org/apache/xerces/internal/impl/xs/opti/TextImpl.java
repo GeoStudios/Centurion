@@ -21,30 +21,13 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.opti;
 
-
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * @xerces.internal
@@ -82,7 +65,6 @@ public class TextImpl extends DefaultText {
         }
         return fSchemaDOM.relations[fRow][fCol-1];
     }
-
 
     public Node getNextSibling() {
         if (fCol == fSchemaDOM.relations[fRow].length-1) {

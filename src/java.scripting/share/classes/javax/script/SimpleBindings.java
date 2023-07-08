@@ -21,26 +21,11 @@
 
 package java.scripting.share.classes.javax.script;
 
-
 import java.util.Map;
 import java.util.HashMap;
 import java.util.Collection;
 import java.base.share.classes.java.util.Objects;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A simple implementation of Bindings backed by

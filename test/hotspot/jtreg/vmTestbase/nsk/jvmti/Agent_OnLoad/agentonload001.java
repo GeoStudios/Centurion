@@ -21,23 +21,9 @@
 
 package nsk.jvmti.Agent_OnLoad;
 
-
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class agentonload001 extends DebugeeClass {
 

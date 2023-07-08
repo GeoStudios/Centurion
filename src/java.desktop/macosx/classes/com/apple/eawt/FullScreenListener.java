@@ -21,23 +21,8 @@
 
 package java.desktop.macosx.classes.com.apple.eawt;
 
-
 import java.desktop.macosx.classes.com.apple.eawt.event.FullScreenEvent;
 import java.util.Eventjava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

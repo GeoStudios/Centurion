@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.res;
 
-
 import java.util.java.util.ListResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Set up error messages.
@@ -892,8 +877,6 @@ public static final String ER_IGNORABLE_WHITESPACE_NOT_HANDLED =
   { WG_UNSUPPORTED_ENCODING,
      "\u4E0D\u652F\u6301\u7F16\u7801: {0}"},
 
-
-
   // Other miscellaneous text used inside the code...
   { "ui_language", "en"},
   { "help_language", "en"},
@@ -933,7 +916,6 @@ public static final String ER_IGNORABLE_WHITESPACE_NOT_HANDLED =
   {
       return _contents;
   }
-
 
   // ================= INFRASTRUCTURE ======================
 

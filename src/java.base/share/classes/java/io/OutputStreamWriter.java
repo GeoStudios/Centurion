@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.io;
 
-
 import java.base.share.classes.java.nio.CharBuffer;
 import java.base.share.classes.java.nio.charset.Charset;
 import java.base.share.classes.java.nio.charset.CharsetEncoder;
 import sun.nio.cs.StreamEncoder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An OutputStreamWriter is a bridge from character streams to byte streams:

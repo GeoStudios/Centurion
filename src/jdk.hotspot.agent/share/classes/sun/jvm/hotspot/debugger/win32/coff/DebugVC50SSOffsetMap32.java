@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Models the "sstOffsetMap32" subsection in Visual C++ 5.0 debug
     information. This table provides a mapping from logical to
     physical offsets. This mapping is applied between the logical to

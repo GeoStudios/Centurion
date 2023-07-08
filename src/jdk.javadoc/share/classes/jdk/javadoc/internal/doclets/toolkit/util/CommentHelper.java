@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
@@ -67,20 +66,6 @@ import com.sun.source.util.SimpleDocTreeVisitor;
 import com.sun.source.util.TreePath;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
 import static com.sun.source.doctree.DocTree.Kind.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  A utility class.
@@ -410,7 +395,6 @@ public class CommentHelper {
         }
         return null;
     }
-
 
     public List<? extends DocTree> getFirstSentenceTrees(List<? extends DocTree> body) {
         return configuration.docEnv.getDocTrees().getFirstSentence(body);

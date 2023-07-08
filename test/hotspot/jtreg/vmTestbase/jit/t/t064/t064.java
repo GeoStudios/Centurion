@@ -21,22 +21,8 @@
 
 package jit.t.t064;
 
-
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -48,8 +34,6 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t064.t064
  */
-
-
 
 // Main() does getstatics of k.b and putstatics of l.b.  K.set() does putstatics
 // of k.b; l.show() does getstatics of l.b.  The idea is, you jit only

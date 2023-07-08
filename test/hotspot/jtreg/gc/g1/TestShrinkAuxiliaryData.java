@@ -21,7 +21,6 @@
 
 package gc.g1;
 
-
 import jdk.test.lib.Asserts;
 import jdk.test.lib.Platform;
 import jdk.test.lib.Utils;
@@ -40,19 +39,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Random;
 import jdk.internal.misc.Unsafe; // for ADDRESS_SIZE.extended
 import sun.hotspot.WhiteBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class TestShrinkAuxiliaryData {
     private static final Random RNG = Utils.getRandomInstance();

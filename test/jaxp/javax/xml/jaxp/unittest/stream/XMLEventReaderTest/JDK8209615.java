@@ -21,7 +21,6 @@
 
 package stream.XMLEventReaderTest;
 
-
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import javax.xml.stream.*;
@@ -29,19 +28,6 @@ import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 import java.util.Iterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

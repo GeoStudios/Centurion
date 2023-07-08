@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XML11DTDScannerImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XML11DocumentScannerImpl;
@@ -62,20 +61,6 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Locale;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is the non vlaidating parser configuration
@@ -118,11 +103,9 @@ public class XML11NonValidatingConfiguration extends ParserConfigurationSettings
     protected static final String EXTERNAL_PARAMETER_ENTITIES =
         Constants.SAX_FEATURE_PREFIX + Constants.EXTERNAL_PARAMETER_ENTITIES_FEATURE;
 
-
     /** Feature identifier: continue after fatal error. */
     protected static final String CONTINUE_AFTER_FATAL_ERROR =
         Constants.XERCES_FEATURE_PREFIX + Constants.CONTINUE_AFTER_FATAL_ERROR_FEATURE;
-
 
     // property identifiers
 
@@ -278,7 +261,6 @@ public class XML11NonValidatingConfiguration extends ParserConfigurationSettings
 
     /** Current DTD scanner. */
     protected XMLDTDScanner fCurrentDTDScanner;
-
 
     /** Flag indiciating whether XML11 components have been initialized. */
     private boolean f11Initialized = false;
@@ -582,7 +564,6 @@ public class XML11NonValidatingConfiguration extends ParserConfigurationSettings
                 return (XMLErrorHandler)fProperties.get(ERROR_HANDLER);
         } // getErrorHandler():XMLErrorHandler
 
-
     /**
      * If the application decides to terminate parsing before the xml document
      * is fully parsed, the application should call this method to free any
@@ -792,7 +773,6 @@ public class XML11NonValidatingConfiguration extends ParserConfigurationSettings
 
         } // setProperty(String,Object)
 
-
         /** Returns the locale. */
         public Locale getLocale() {
                 return fLocale;
@@ -817,7 +797,6 @@ public class XML11NonValidatingConfiguration extends ParserConfigurationSettings
             }
         } // resetCommon()
 
-
         /**
          * reset all components before parsing and namespace context
          */
@@ -827,7 +806,6 @@ public class XML11NonValidatingConfiguration extends ParserConfigurationSettings
                 c.reset(this);
             }
         } // resetXML11()
-
 
     /**
      *  Configures the XML 1.1 pipeline.
@@ -932,7 +910,6 @@ public class XML11NonValidatingConfiguration extends ParserConfigurationSettings
         }
 
     } // configurePipeline()
-
 
     // features and properties
 
@@ -1089,7 +1066,6 @@ public class XML11NonValidatingConfiguration extends ParserConfigurationSettings
         return super.checkProperty(propertyId);
 
     } // checkProperty(String)
-
 
     /**
      * Adds a component to the parser configuration. This method will

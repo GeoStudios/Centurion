@@ -21,7 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
@@ -42,20 +41,6 @@ import jdk.jdi.share.classes.com.sun.jdi.ThreadReference;
 import jdk.jdi.share.classes.com.sun.jdi.Type;
 import jdk.jdi.share.classes.com.sun.jdi.Value;
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ObjectReferenceImpl extends ValueImpl
              implements ObjectReference, VMListener
@@ -540,7 +525,6 @@ public class ObjectReferenceImpl extends ValueImpl
     public int entryCount() throws IncompatibleThreadStateException {
         return jdwpMonitorInfo().entryCount;
     }
-
 
     public List<ObjectReference> referringObjects(long maxReferrers) {
         if (!vm.canGetInstanceInfo()) {

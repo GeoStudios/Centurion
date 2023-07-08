@@ -21,22 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.tool;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The access value kinds.
  */

@@ -21,22 +21,7 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.html;
 
-
 import jdk.xml.dom.share.classes.org.w3c.dom.DOMImplementation;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  The <code>HTMLDOMImplementation</code> interface extends the

@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.swing.table;
 
-
 import java.io.Serializable;
 import java.util.Vector;
 import java.util.Enumeration;
 import java.desktop.share.classes.javax.swing.event.TableModelEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is an implementation of <code>TableModel</code> that

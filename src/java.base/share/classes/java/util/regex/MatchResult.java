@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.util.regex;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The result of a match operation.
  *

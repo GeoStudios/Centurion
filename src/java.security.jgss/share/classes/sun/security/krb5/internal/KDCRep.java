@@ -21,25 +21,10 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal;
 
-
 import java.security.jgss.share.classes.sun.security.krb5.*;
 import java.security.jgss.share.classes.sun.security.util.*;
 import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implements the ASN.1 KDC-REP type.

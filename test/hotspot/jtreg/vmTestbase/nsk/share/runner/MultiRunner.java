@@ -21,21 +21,7 @@
 
 package nsk.share.runner;
 
-
 import nsk.share.test.ExecutionController;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Interface that defines a way to run several tasks.

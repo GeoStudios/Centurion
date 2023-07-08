@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.java.beans;
 
-
 import java.desktop.share.classes.java.lang.ref.Reference;
 import java.desktop.share.classes.java.lang.reflect.Method;
 import java.desktop.share.classes.java.util.Map.Entry;
 import com.sun.beans.introspect.PropertyInfo;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An IndexedPropertyDescriptor describes a property that acts like an
@@ -238,7 +223,6 @@ public class IndexedPropertyDescriptor extends PropertyDescriptor {
         indexedReadMethodName = readMethod.getName();
         setTransient(readMethod.getAnnotation(Transient.class));
     }
-
 
     /**
      * Gets the method that should be used to write an indexed property value.

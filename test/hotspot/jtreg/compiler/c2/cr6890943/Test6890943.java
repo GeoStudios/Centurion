@@ -21,7 +21,6 @@
 
 package compiler.c2.cr6890943;
 
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.nio.file.Path;
@@ -30,19 +29,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 6890943
@@ -50,8 +36,6 @@ import java.util.Scanner;
  *
  * @run main/othervm/timeout=240 compiler.c2.cr6890943.Test6890943
  */
-
-
 
 public class Test6890943 {
     public static final boolean AIR = true, ROCK = false;

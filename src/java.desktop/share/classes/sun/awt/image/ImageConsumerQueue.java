@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
-
 import java.awt.image.ImageConsumer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class ImageConsumerQueue {
     ImageConsumerQueue next;

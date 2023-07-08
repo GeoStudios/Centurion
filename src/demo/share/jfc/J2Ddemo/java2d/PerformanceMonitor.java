@@ -21,7 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d;
 
-
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
@@ -36,20 +35,6 @@ import java.awt.image.BufferedImage;
 import javax.swing.JPanel;
 import javax.swing.border.EtchedBorder;
 import javax.swing.border.TitledBorder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Displays the time for a Surface to paint. Displays the number
@@ -66,7 +51,6 @@ public class PerformanceMonitor extends JPanel {
         setBorder(new TitledBorder(new EtchedBorder(), "Performance"));
         add(surf = new Surface());
     }
-
 
     public class Surface extends JPanel implements Runnable {
 

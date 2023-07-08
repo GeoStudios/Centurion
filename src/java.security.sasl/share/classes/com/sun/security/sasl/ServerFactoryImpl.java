@@ -21,25 +21,10 @@
 
 package java.security.sasl.share.classes.com.sun.security.sasl;
 
-
 import javax.security.sasl.*;
 import java.security.sasl.share.classes.com.sun.security.sasl.util.PolicyUtils;
 import java.util.Map;
 import javax.security.auth.callback.CallbackHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Server factory for CRAM-MD5.

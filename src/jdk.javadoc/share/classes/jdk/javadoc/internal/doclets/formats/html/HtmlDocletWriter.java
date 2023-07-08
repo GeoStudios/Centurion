@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.EnumSet;
@@ -114,20 +113,6 @@ import static com.sun.source.doctree.DocTree.Kind.LINK_PLAIN;.extended
 import static com.sun.source.doctree.DocTree.Kind.SEE;.extended
 import static com.sun.source.doctree.DocTree.Kind.TEXT;.extended
 import static jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.CommentHelper.SPACER;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class for the Html Format Code Generation specific to JavaDoc.
@@ -298,7 +283,6 @@ public class HtmlDocletWriter {
         // Note: {@docRoot} is not case sensitive when passed in with a command-line option:
         private static final Pattern docrootPattern =
                 Pattern.compile(Pattern.quote("{@docroot}"), Pattern.CASE_INSENSITIVE);
-
 
     /**
      * Add method information.

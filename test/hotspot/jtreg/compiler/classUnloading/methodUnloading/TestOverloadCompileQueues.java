@@ -21,24 +21,10 @@
 
 package compiler.classUnloading.methodUnloading;
 
-
 import java.lang.reflect.Method;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestOverloadCompileQueues
@@ -50,8 +36,6 @@ import java.base.share.classes.java.util.Arrays;
  * @run main/othervm/timeout=300 -XX:TieredCompileTaskTimeout=1000 -XX:CompileThresholdScaling=0.001 -XX:CICompilerCount=2
  *                   compiler.classUnloading.methodUnloading.TestOverloadCompileQueues
  */
-
-
 
 public class TestOverloadCompileQueues {
     public static final int ITERS = 500; // Increase for longer stress testing

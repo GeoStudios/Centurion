@@ -21,7 +21,6 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal;
 
-
 import java.nio.ByteOrder;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
@@ -29,20 +28,6 @@ import java.base.share.classes.java.util.Objects;
 import jdk.jlink.share.classes.jdk.internal.jimage.ImageHeader;
 import jdk.jlink.share.classes.jdk.internal.jimage.ImageStream;
 import jdk.jlink.share.classes.jdk.internal.jimage.ImageStringsReader;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class BasicImageWriter {
     public static final String MODULES_IMAGE_NAME = "modules";

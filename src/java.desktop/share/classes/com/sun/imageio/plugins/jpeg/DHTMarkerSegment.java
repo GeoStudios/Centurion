@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.jpeg;
 
-
 import javax.imageio.metadata.IIOInvalidTreeException;
 import javax.imageio.metadata.IIOMetadataNode;
 import javax.imageio.stream.ImageOutputStream;
@@ -33,20 +32,6 @@ import java.util.Iterator;
 import org.w3c.dom.Node;
 import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import org.w3c.dom.NamedNodeMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A DHT (Define Huffman Table) marker segment.
@@ -234,7 +219,6 @@ class DHTMarkerSegment extends MarkerSegment {
 
             return node;
         }
-
 
         void print() {
             System.out.println("Huffman Table");

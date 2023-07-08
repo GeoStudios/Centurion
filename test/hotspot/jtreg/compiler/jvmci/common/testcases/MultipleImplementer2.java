@@ -21,22 +21,8 @@
 
 package compiler.jvmci.common.testcases;
 
-
 import java.util.HashMap;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class MultipleImplementer2 implements MultipleImplementersInterface {
 

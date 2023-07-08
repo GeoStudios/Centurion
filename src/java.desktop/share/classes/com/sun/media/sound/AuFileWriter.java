@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -39,20 +38,6 @@ import javax.sound.sampled.AudioFileFormat.Type;
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * AU file writer.

@@ -21,21 +21,7 @@
 
 package nsk.jvmti.GetArgumentsSize;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class argsize002 {
 

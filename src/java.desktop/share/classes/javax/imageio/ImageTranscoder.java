@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.imageio;
 
-
 import java.desktop.share.classes.javax.imageio.metadata.IIOMetadata;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An interface providing metadata transcoding capability.

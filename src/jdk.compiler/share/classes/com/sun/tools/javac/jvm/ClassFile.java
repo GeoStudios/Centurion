@@ -21,22 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
 
-
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Name;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** A JVM class file.
  *
@@ -143,7 +128,6 @@ public class ClassFile {
         /** Return the largest version supported, MAX */
         public static Version MAX() { return MAX; }
     }
-
 
 /************************************************************************
  * String Translation Routines

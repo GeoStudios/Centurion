@@ -21,22 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.tree;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Encapsulates a boolean value in a tree handled by SimpleTreeModel */
 

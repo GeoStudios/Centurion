@@ -21,25 +21,10 @@
 
 package java.compiler.share.classes.javax.tools;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides an easy way to collect diagnostics in a list.

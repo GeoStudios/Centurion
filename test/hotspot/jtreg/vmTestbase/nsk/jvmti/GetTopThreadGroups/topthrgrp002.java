@@ -21,21 +21,7 @@
 
 package nsk.jvmti.GetTopThreadGroups;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class topthrgrp002 {
 

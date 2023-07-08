@@ -21,24 +21,10 @@
 
 package compiler.intrinsics;
 
-
 import compiler.whitebox.CompilerWhiteBoxTest;
 import jdk.test.lib.Platform;
 import java.lang.reflect.Executable;
 import java.util.concurrent.Callable;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -78,10 +64,6 @@ import java.util.concurrent.Callable;
  *                   -XX:+UseCRC32Intrinsics
  *                   compiler.intrinsics.IntrinsicAvailableTest
  */
-
-
-
-
 
 public class IntrinsicAvailableTest extends CompilerWhiteBoxTest {
 

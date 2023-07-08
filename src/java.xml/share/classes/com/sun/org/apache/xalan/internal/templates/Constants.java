@@ -21,28 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.templates;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Primary constants used in the TransformerImpl classes.
@@ -198,7 +180,6 @@ public class Constants extends com.sun.org.apache.xml.internal.utils.Constants
   public static final int
     EXSLT_ELEMNAME_FUNCTION = 88,
     EXSLT_ELEMNAME_FUNCRESULT = 89;
-
 
   /**
    * Literals for XSL attribute names.  Note that there may be more
@@ -358,25 +339,20 @@ public class Constants extends com.sun.org.apache.xml.internal.utils.Constants
                              ATTRVAL_OUTPUT_METHOD_XML = "xml",
                              ATTRVAL_OUTPUT_METHOD_TEXT = "text";
 
-
   /* For space-att*/
   public static final int ATTRVAL_PRESERVE = 1, ATTRVAL_STRIP = 2;
 
-
   /** For indent-result          */
   public static final boolean ATTRVAL_YES = true, ATTRVAL_NO = false;
-
 
   /** For letter-value attribute (part of conversion attributes).          */
   public static final String ATTRVAL_ALPHABETIC = "alphabetic",
                              ATTRVAL_OTHER = "other",
                              ATTRVAL_TRADITIONAL = "traditional";
 
-
   /** For level attribute in xsl:number.          */
   public static final String ATTRVAL_SINGLE = "single",
                              ATTRVAL_MULTI = "multiple", ATTRVAL_ANY = "any";
-
 
   /** For Stylesheet-prefix and result-prefix in xsl:namespace-alias          */
   public static final String ATTRVAL_DEFAULT_PREFIX = "#default";
@@ -388,11 +364,9 @@ public class Constants extends com.sun.org.apache.xml.internal.utils.Constants
   public static final int NUMBERLEVEL_SINGLE = 1, NUMBERLEVEL_MULTI = 2,
                           NUMBERLEVEL_ANY = 3, MAX_MULTI_COUNTING_DEPTH = 32;
 
-
   /** some stuff for my patterns-by-example         */
   public static final String ATTRVAL_THIS = ".", ATTRVAL_PARENT = "..",
                              ATTRVAL_ANCESTOR = "ancestor", ATTRVAL_ID = "id";
-
 
   /** Stuff for sorting      */
   public static final String ATTRVAL_DATATYPE_TEXT = "text",
@@ -415,7 +389,6 @@ public class Constants extends com.sun.org.apache.xml.internal.utils.Constants
   public static final String ATTRVAL_INFINITY = "Infinity",
                              ATTRVAL_NAN = "NaN",
                              DEFAULT_DECIMAL_FORMAT = "#default";
-
 
   /** temp dummy         */
   public static final String ATTRNAME_XXXX = "XXXX";

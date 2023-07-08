@@ -21,23 +21,8 @@
 
 package utils.LogCompilation.src.main.java.com.sun.hotspot.tools.compiler;
 
-
 import utils.LogCompilation.src.main.java.util.java.util.java.util.java.util.Arrays;
 import static com.sun.hotspot.tools.compiler.Constants.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Representation of a Java method in a compilation log.

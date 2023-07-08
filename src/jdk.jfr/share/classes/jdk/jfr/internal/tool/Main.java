@@ -21,24 +21,9 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.tool;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.util.Deque;
 import java.util.Linkedjava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Launcher class for the JDK_HOME\bin\jfr tool

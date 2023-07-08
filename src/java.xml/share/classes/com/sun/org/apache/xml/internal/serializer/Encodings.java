@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
-
 import java.io.BufferedWriter;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -42,20 +41,6 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.StringTokenizer;
 import jdk.xml.internal.SecuritySupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides information about encodings. Depends on the Java runtime
@@ -82,7 +67,6 @@ public final class Encodings {
      * Standard filename for properties file with encodings data.
      */
     private static final String ENCODINGS_PROP = "com.sun.org.apache.xalan.internal.serialize.encodings";
-
 
     /**
      * Returns a writer for the specified encoding based on
@@ -111,7 +95,6 @@ public final class Encodings {
         return new BufferedWriter(new OutputStreamWriter(output, encoding));
     }
 
-
     /**
      * Returns the last printable character for an unspecified
      * encoding.
@@ -122,8 +105,6 @@ public final class Encodings {
     {
         return m_defaultLastPrintable;
     }
-
-
 
     /**
      * Returns the EncodingInfo object for the specified

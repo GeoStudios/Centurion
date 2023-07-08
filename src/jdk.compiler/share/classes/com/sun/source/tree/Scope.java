@@ -21,24 +21,9 @@
 
 package jdk.compiler.share.classes.com.sun.source.tree;
 
-
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ExecutableElement;
 import javax.lang.model.element.TypeElement;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Interface for determining locally available program elements, such as

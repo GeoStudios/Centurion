@@ -21,22 +21,8 @@
 
 package nsk.share.jvmti;
 
-
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base class for debuggee class in JVMTI tests.

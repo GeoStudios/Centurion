@@ -21,26 +21,12 @@
 
 package nsk.jdi.EventSet.virtualMachine;
 
-
 import nsk.share.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.request.*;
 import com.sun.jdi.event.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The debugger application of the test.

@@ -21,22 +21,6 @@
 
 package java.instrument.share.classes.java.lang.instrument;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
@@ -358,5 +342,4 @@ package java.instrument.share.classes.java.lang.instrument;
  * @revised 1.6
  * @revised 9
  */
-
 

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt.event;
 
-
 import java.desktop.share.classes.java.awt.AWTEvent;
 import java.desktop.share.classes.java.awt.Component;
 import java.desktop.share.classes.java.awt.EventQueue;
@@ -35,20 +34,6 @@ import java.desktop.share.classes.java.text.CharacterIterator;
 import sun.awt.AWTAccessor;
 import sun.awt.AppContext;
 import sun.awt.SunToolkit;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Input method events contain information about text that is being

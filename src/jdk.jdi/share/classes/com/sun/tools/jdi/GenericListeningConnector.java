@@ -21,7 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
@@ -34,20 +33,6 @@ import jdk.jdi.share.classes.com.sun.jdi.connect.java.util.ListeningConnector;
 import jdk.jdi.share.classes.com.sun.jdi.connect.Transport;
 import jdk.jdi.share.classes.com.sun.jdi.connect.spi.Connection;
 import jdk.jdi.share.classes.com.sun.jdi.connect.spi.TransportService;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * A ListeningConnector to listen for connections from target VM

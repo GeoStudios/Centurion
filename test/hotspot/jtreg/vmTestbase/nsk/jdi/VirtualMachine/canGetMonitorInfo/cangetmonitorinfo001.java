@@ -21,26 +21,12 @@
 
 package nsk.jdi.VirtualMachine.canGetMonitorInfo;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -139,7 +125,6 @@ public class cangetmonitorinfo001 {
     ReferenceType     testedclass  = null;
     ThreadReference   thread2      = null;
 
-
     static int  testExitCode = PASSED;
 
     static final int returnCode0 = 0;
@@ -165,7 +150,6 @@ public class cangetmonitorinfo001 {
         }
 
         waitTime = argsHandler.getWaitTime();
-
 
         IOPipe pipe     = new IOPipe(debuggee);
 
@@ -213,7 +197,6 @@ public class cangetmonitorinfo001 {
             ListIterator    listIterator = null;
             List            classes      = null;
 
-
             label0: {
 
                 log2("getting ThreadReference objects");
@@ -252,7 +235,6 @@ public class cangetmonitorinfo001 {
                 }
                 log2(".......vm.canGetCurrentContendedMonitor() == true");
 
-
                 log2("       supending the thread2");
                 thread2.suspend();
 
@@ -269,7 +251,6 @@ public class cangetmonitorinfo001 {
                 }
                 if (expresult != returnCode0)
                     break label1;
-
 
                 if (vm.canGetMonitorInfo()) {
                     log2(".......vm.canGetMonitorInfo() == true");

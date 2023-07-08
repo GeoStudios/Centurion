@@ -21,7 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.jgss.krb5;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import org.ietf.jgss.*;
 import java.security.jgss.share.classes.sun.security.jgss.GSSCaller;
@@ -32,20 +31,6 @@ import java.security.PrivilegedExceptionAction;
 import java.security.AccessController;
 import java.security.AccessControlContext;
 import javax.security.auth.DestroyFailedException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implements the krb5 acceptor credential element.

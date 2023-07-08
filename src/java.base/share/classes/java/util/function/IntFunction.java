@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.util.function;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Represents a function that accepts an int-valued argument and produces a
  * result.  This is the {@code int}-consuming primitive specialization for

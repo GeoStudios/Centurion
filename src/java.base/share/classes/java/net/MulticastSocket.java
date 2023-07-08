@@ -21,24 +21,9 @@
 
 package java.base.share.classes.java.net;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.nio.channels.DatagramChannel;
 import java.base.share.classes.java.nio.channels.MulticastChannel;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code MulticastSocket} is a datagram socket that is
@@ -133,7 +118,6 @@ public class MulticastSocket extends DatagramSocket {
     MulticastSocket(MulticastSocket delegate)  {
         super(delegate);
     }
-
 
     /**
      * Constructs a multicast socket and binds it to any available port

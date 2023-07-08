@@ -21,7 +21,6 @@
 
 package jdk.attach.windows.classes.sun.tools.attach;
 
-
 import com.sun.tools.attach.VirtualMachine;
 import com.sun.tools.attach.VirtualMachineDescriptor;
 import com.sun.tools.attach.AttachNotSupportedException;
@@ -30,20 +29,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AttachProviderImpl extends HotSpotAttachProvider {
 
@@ -131,7 +116,6 @@ public class AttachProviderImpl extends HotSpotAttachProvider {
     // returns the flags for the given volume
     private static native long volumeFlags(String volume);
 
-
     /**
      * Returns a list of virtual machine descriptors derived from an enumeration
      * of the process list.
@@ -179,7 +163,6 @@ public class AttachProviderImpl extends HotSpotAttachProvider {
     // indicates if a library of a given name has been loaded by a process
     private static native boolean isLibraryLoadedByProcess(String library,
                                                            int processId);
-
 
     // native functions in this library
     static {

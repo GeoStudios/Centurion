@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.sun.java2d.cmm.lcms;
 
-
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.locks.StampedLock;
 import java.desktop.share.classes.sun.java2d.cmm.Profile;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class LCMSProfile extends Profile {
 

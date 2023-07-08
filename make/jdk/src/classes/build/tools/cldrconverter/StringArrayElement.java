@@ -21,56 +21,6 @@
 
 package build.tools.cldrconverter;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class StringArrayElement extends Container {
     StringArrayEntry array;
     int index;

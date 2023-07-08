@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
-
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
@@ -46,20 +45,6 @@ import java.desktop.share.classes.javax.swing.plaf.UIResource;
 import sun.swing.CachedPainter;
 import static sun.swing.SwingUtilities2.getAndSetAntialisingHintForScaledGraphics;.extended
 import static sun.swing.SwingUtilities2.setAntialiasingHintForScaledGraphics;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Factory object that vends <code>Icon</code>s for
@@ -103,13 +88,11 @@ public class MetalIconFactory implements Serializable {
     private static Icon treeFloppyDriveIcon;
     private static Icon treeHardDriveIcon;
 
-
     private static Icon menuArrowIcon;
     private static Icon menuItemArrowIcon;
     private static Icon checkBoxMenuItemIcon;
     private static Icon radioButtonMenuItemIcon;
     private static Icon checkBoxIcon;
-
 
     // Ocean icons
     private static Icon oceanHorizontalSliderThumb;
@@ -665,7 +648,6 @@ public class MetalIconFactory implements Serializable {
         }
     }  // End class FileChooserUpFolderIcon
 
-
     /**
      * Defines an icon for Palette close
      */
@@ -703,7 +685,6 @@ public class MetalIconFactory implements Serializable {
             g.drawLine(6,2, 5,3);
             g.drawLine(2,6, 3, 5);
             g.drawLine(6,6,6,6);
-
 
             g.translate(-x, -y);
         }
@@ -1112,7 +1093,6 @@ public class MetalIconFactory implements Serializable {
         public void paintIcon(Component c, Graphics g, int x, int y) {
             JButton parentButton = (JButton)c;
             ButtonModel buttonModel = parentButton.getModel();
-
 
             Color backgroundColor = MetalLookAndFeel.getPrimaryControl();
             Color internalBackgroundColor =
@@ -1605,7 +1585,6 @@ public class MetalIconFactory implements Serializable {
         }
     }  // End class TreeFloppyDriveIcon
 
-
     private static final Dimension folderIcon16Size = new Dimension( 16, 16 );
 
     /**
@@ -1709,7 +1688,6 @@ public class MetalIconFactory implements Serializable {
             g.drawImage(image, x, y+getShift(), null);
         }
 
-
         private void paintMe(Component c, Graphics g) {
 
             int right = folderIcon16Size.width - 1;
@@ -1762,7 +1740,6 @@ public class MetalIconFactory implements Serializable {
         public int getIconHeight() { return folderIcon16Size.height + getAdditionalHeight(); }
     }
 
-
     /**
      * <p>
      * <strong>Warning:</strong>
@@ -1784,7 +1761,6 @@ public class MetalIconFactory implements Serializable {
         public int getShift() { return -1; }
         public int getAdditionalHeight() { return 2; }
     }
-
 
     private static final Dimension fileIcon16Size = new Dimension( 16, 16 );
 
@@ -1881,7 +1857,6 @@ public class MetalIconFactory implements Serializable {
         public int getIconHeight() { return fileIcon16Size.height + getAdditionalHeight(); }
     }
 
-
     /**
      * The class represents a tree leaf icon.
      */
@@ -1893,7 +1868,6 @@ public class MetalIconFactory implements Serializable {
         public int getShift() { return 2; }
         public int getAdditionalHeight() { return 4; }
     }
-
 
     private static final Dimension treeControlSize = new Dimension( 18, 18 );
 
@@ -2716,7 +2690,6 @@ private static class HorizontalSliderThumbIcon implements Icon, Serializable, UI
         }
     }
 
-
     private static class OceanHorizontalSliderThumbIcon extends CachedPainter
                               implements Icon, Serializable, UIResource {
         // Used for clipping
@@ -2739,7 +2712,6 @@ private static class HorizontalSliderThumbIcon implements Icon, Serializable, UI
                   c.hasFocus(), c.isEnabled(),
                   MetalLookAndFeel.getCurrentTheme());
         }
-
 
         protected Image createImage(Component c, int w, int h,
                                     GraphicsConfiguration config,

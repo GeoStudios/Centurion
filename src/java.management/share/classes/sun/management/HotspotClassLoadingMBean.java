@@ -21,23 +21,8 @@
 
 package java.management.share.classes.sun.management;
 
-
 import java.lang.management.ClassLoadingMXBean;
 import java.management.share.classes.sun.management.counter.Counter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Hotspot internal management interface for the class loading system.

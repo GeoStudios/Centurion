@@ -21,22 +21,8 @@
 
 package vm.share;
 
-
 import java.lang.reflect.Field;
 import jdk.internal.misc.Unsafe;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("restriction")
 public class UnsafeAccess {
@@ -49,6 +35,5 @@ public class UnsafeAccess {
             e.printStackTrace();
         }
     }
-
 
 }

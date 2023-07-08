@@ -21,23 +21,9 @@
 
 package nsk.monitoring.ThreadMXBean.resetPeakThreadCount;
 
-
 import java.io.*;
 import nsk.share.*;
 import nsk.monitoring.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class reset001 {
     private static boolean testFailed = false;

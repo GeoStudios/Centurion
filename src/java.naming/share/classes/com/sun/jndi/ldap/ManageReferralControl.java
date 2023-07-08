@@ -21,22 +21,7 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
-
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements the LDAPv3 Request Control for manageDsaIT as

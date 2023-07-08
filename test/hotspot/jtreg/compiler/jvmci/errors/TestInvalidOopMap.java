@@ -21,7 +21,6 @@
 
 package compiler.jvmci.errors;
 
-
 import jdk.vm.ci.code.BytecodePosition;
 import jdk.vm.ci.code.DebugInfo;
 import jdk.vm.ci.code.Location;
@@ -40,19 +39,6 @@ import jdk.vm.ci.meta.JavaKind;
 import jdk.vm.ci.meta.PlatformKind;
 import org.junit.Test;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @requires vm.jvmci
@@ -66,8 +52,6 @@ import org.junit.Test;
  * @run junit/othervm -da:jdk.vm.ci... -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI
  *             -XX:-UseJVMCICompiler compiler.jvmci.errors.TestInvalidOopMap
  */
-
-
 
 /**
  * Tests for errors in oop maps.

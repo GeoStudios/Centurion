@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.security.AlgorithmConstraints;
 import java.security.CryptoPrimitive;
@@ -47,20 +46,6 @@ import java.base.share.classes.sun.security.ssl.X509Authentication.X509Possessio
 import java.base.share.classes.sun.security.ssl.XDHKeyExchange.XDHECredentials;
 import java.base.share.classes.sun.security.ssl.XDHKeyExchange.XDHEPossession;
 import java.base.share.classes.sun.security.util.ECUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class ECDHKeyExchange {
     static final SSLPossessionGenerator poGenerator =

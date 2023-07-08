@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * The class ExtendedType represents an extended type object used by

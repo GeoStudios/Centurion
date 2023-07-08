@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.sun.awt;
 
-
 import java.awt.Component;
 import java.awt.Graphics;
 import java.awt.Rectangle;
 import java.awt.event.PaintEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code RepaintArea} is a geometric construct created for the
@@ -65,7 +50,6 @@ public class RepaintArea {
     private static final int RECT_COUNT = UPDATE + 1;
 
     private final Rectangle[] paintRects = new Rectangle[RECT_COUNT];
-
 
     /**
      * Constructs a new {@code RepaintArea}
@@ -110,7 +94,6 @@ public class RepaintArea {
             paintRects[addTo] = new Rectangle(r);
         }
     }
-
 
     /**
      * Creates a new {@code RepaintArea} with the same geometry as this

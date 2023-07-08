@@ -21,26 +21,12 @@
 
 package nsk.jdi.ObjectReference.referenceType;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -146,7 +132,6 @@ public class referencetype006 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -205,7 +190,6 @@ public class referencetype006 {
             log2("......ReferenceType testedClass = arrayRef.referenceType();");
             testedClass = arrayRef.referenceType();
 
-
             log2("...... check up on equality testedClass.name() to String testedClassName");
             if (!testedClass.name().equals(testedClassName)) {
                 log3("ERROR: check that the type may be a subclass or implementor of the declared type FAILED");
@@ -225,7 +209,6 @@ public class referencetype006 {
                 log3("ERROR: Exception : " + e);
                 testExitCode = FAILED;
             }
-
 
             log2(".......check up on equality ReferenceType arrayRef.referenceType() to testedClass");
             ReferenceType testedClass1 = arrayRef.referenceType();

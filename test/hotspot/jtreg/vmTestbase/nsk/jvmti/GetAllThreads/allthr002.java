@@ -21,21 +21,7 @@
 
 package nsk.jvmti.GetAllThreads;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class allthr002 {
 

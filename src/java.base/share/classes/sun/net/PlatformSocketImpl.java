@@ -21,22 +21,6 @@
 
 package java.base.share.classes.sun.net;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Implemented by the platform's SocketImpl implementations.
  */

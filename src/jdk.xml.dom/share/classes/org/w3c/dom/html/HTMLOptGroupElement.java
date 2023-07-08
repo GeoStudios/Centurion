@@ -21,22 +21,6 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.html;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *  Group options together in logical subdivisions. See the  OPTGROUP element
  * definition in HTML 4.0.

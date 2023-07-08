@@ -21,21 +21,7 @@
 
 package vm.runtime.defmeth.shared.data;
 
-
 import vm.runtime.defmeth.shared.builder.TestBuilder;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Wrapper around some ConcreteClass instance. It delegates all calls to

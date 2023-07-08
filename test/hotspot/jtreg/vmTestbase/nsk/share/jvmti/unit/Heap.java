@@ -21,21 +21,6 @@
 
 package nsk.share.jvmti.unit;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Heap {
 
     // --- Errors ---
@@ -93,7 +78,6 @@ public class Heap {
     public static native long[] tagResults();
 
     public static native Object[] objectResults();
-
 
     // --- Functions used by basic iteration tests
 

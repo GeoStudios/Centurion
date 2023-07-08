@@ -21,27 +21,9 @@
 
 package java.base.share.classes.jdk.internal.access;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * SharedSecrets interface used for the access from java.text.Bidi
  */
-
-
 
 public interface JavaAWTFontAccess {
 

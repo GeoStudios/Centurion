@@ -21,21 +21,6 @@
 
 package compiler.parsing;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8244719
@@ -45,7 +30,6 @@ package compiler.parsing;
  * @run main/othervm -Xbatch -XX:CompileCommand=dontinline,compiler.parsing.TestExceptionBlockWithPredecessors::*
  *                   compiler.parsing.TestExceptionBlockWithPredecessorsMain
  */
-
 
 public class TestExceptionBlockWithPredecessorsMain {
     public static void main(String[] args) {

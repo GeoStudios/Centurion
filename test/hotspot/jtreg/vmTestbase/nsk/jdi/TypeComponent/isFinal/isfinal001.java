@@ -21,25 +21,11 @@
 
 package nsk.jdi.TypeComponent.isFinal;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class isfinal001 {
     final static String IS_FINAL = "true";

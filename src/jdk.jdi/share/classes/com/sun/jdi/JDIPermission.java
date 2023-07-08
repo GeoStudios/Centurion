@@ -21,22 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.jdi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The {@code JDIPermission} class represents access rights to
  * the {@code VirtualMachineManager}.  This is the permission

@@ -21,26 +21,12 @@
 
 package org.w3c.dom.ptests;
 
-
 import static org.testng.Assert.assertEquals;.extended
 import static org.w3c.dom.ptests.DOMTestUtil.createDOMWithNS;.extended
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.ProcessingInstruction;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

@@ -21,7 +21,6 @@
 
 package nsk.jdi.StackFrame.getValues;
 
-
 import com.sun.jdi.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
@@ -30,19 +29,6 @@ import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test checks that the JDI method:<br>

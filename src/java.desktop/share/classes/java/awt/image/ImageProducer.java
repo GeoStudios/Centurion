@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.awt.image;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The interface for objects which can produce the image data for Images.
  * Each image contains an ImageProducer which is used to reconstruct

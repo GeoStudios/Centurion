@@ -21,24 +21,10 @@
 
 package vm.runtime.defmeth.shared.builder;
 
-
 import vm.runtime.defmeth.shared.data.Clazz;
 import vm.runtime.defmeth.shared.data.ConcreteClass;
 import vm.runtime.defmeth.shared.data.method.body.CallMethod;
 import vm.runtime.defmeth.shared.data.method.body.MethodBody;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Context-specific builder for method instances of type {@code <T>}.

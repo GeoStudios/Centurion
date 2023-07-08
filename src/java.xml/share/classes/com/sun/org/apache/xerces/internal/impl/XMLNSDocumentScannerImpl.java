@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLString;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidatorFilter;
@@ -37,20 +36,6 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLDocument
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentSource;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecurityManager;
 import javax.xml.stream.events.XMLEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class adds the functionality of namespace processing.
@@ -78,7 +63,6 @@ public class XMLNSDocumentScannerImpl
     /** If validating parser, make sure we report an error in the
      *   scanner if DTD grammar is missing.*/
     protected boolean fPerformValidation;
-
 
     /** Default value of this feature is false, when in Stax mode this should be true */
     protected boolean fNotAddNSDeclAsAttribute = false;
@@ -135,8 +119,6 @@ public class XMLNSDocumentScannerImpl
     public void setDTDValidator(XMLDTDValidatorFilter dtd){
         fDTDValidator = dtd;
     }
-
-
 
     /**
      * Scans a start element. This method will handle the binding of
@@ -246,7 +228,6 @@ public class XMLNSDocumentScannerImpl
             }
         }
 
-
         fEmptyElement = false;
         fAttributes.removeAllAttributes();
 
@@ -344,7 +325,6 @@ public class XMLNSDocumentScannerImpl
             }
         }
 
-
         if (fEmptyElement) {
             //decrease the markup depth..
             fMarkupDepth--;
@@ -386,13 +366,10 @@ public class XMLNSDocumentScannerImpl
             }
         }
 
-
         if (DEBUG_START_END_ELEMENT) System.out.println(this.getClass().toString() +"<<< scanStartElement(): "+fEmptyElement);
         return fEmptyElement;
 
     } // scanStartElement():boolean
-
-
 
     /**
      * Scans an attribute.
@@ -428,7 +405,6 @@ public class XMLNSDocumentScannerImpl
 
         // content
         int attrIndex = 0 ;
-
 
         //REVISIT: one more case needs to be included: external PE and standalone is no
         boolean isVC =  fHasExternalDTD && !fStandalone;
@@ -589,10 +565,6 @@ public class XMLNSDocumentScannerImpl
 
         if (DEBUG_START_END_ELEMENT) System.out.println(this.getClass().toString() +"<<< scanAttribute()");
     } // scanAttribute(XMLAttributes)
-
-
-
-
 
     /** Creates a content driver. */
     protected Driver createContentDriver() {

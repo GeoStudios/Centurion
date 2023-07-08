@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Bit manipulation routines */
 
 public class Bits {
@@ -49,7 +33,6 @@ public class Bits {
 
   public static final int LogBytesPerInt  = 2;
   public static final int LogBytesPerLong = 3;
-
 
   public static int setBits(int x, int m) {
     return x | m;

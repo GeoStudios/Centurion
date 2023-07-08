@@ -21,23 +21,9 @@
 
 package gc;
 
-
 import java.lang.management.GarbageCollectorMXBean;
 import java.util.java.util.java.util.java.util.List;
 import static jdk.test.lib.Asserts.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestDisableExplicitGC

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.provider.certpath;
 
-
 import java.base.share.classes.sun.security.util.Debug;
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
@@ -32,20 +31,6 @@ import java.security.cert.CertPathValidatorException;
 import java.security.cert.PKIXCertPathChecker;
 import java.security.cert.PKIXReason;
 import java.security.cert.X509Certificate;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is initialized with a list of <code>PKIXCertPathChecker</code>s

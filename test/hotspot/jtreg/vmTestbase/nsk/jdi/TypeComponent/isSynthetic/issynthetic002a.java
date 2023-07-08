@@ -21,23 +21,9 @@
 
 package nsk.jdi.TypeComponent.isSynthetic;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class issynthetic002a {
         public static void main (String argv[]) {
@@ -192,13 +178,11 @@ class issynthetic002aClassToCheck implements issynthetic002aClassToCheckIntf<Str
     private      Inter[]   MEP1(Inter[] E)   { return E; };
     private      Inter[][] MEP2(Inter[][] E) { return E; };
 
-
    // The implementation of the parametrized interface issynthetic002aClassToCheckIntf
    // triggers the compiler to create the synthetic bridge method
    // "test(Ljava/lang/Object;)Ljava/lang/Object;".
     public String test(String s) {
         return s;
     }
-
 
 }

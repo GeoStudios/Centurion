@@ -21,7 +21,6 @@
 
 package jdk.test.lib.jittester;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.HashMap;
@@ -29,19 +28,6 @@ import java.util.Map;
 import java.util.Stack;
 import java.util.stream.Collectors;
 import jdk.test.lib.jittester.types.TypeKlass;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class SymbolTable {
 

@@ -21,7 +21,6 @@
 
 package compiler.compilercontrol.share.scenario;
 
-
 import compiler.compilercontrol.share.actions.BaseAction;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.management.InputArguments;
@@ -41,19 +40,6 @@ import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Executor {
     private final boolean isValid;

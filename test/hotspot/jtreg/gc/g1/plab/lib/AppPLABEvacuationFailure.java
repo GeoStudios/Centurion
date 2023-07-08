@@ -21,21 +21,7 @@
 
 package gc.g1.plab.lib;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Application that provokes Evacuation Failure

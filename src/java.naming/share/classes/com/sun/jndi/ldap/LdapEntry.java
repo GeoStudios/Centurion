@@ -21,24 +21,9 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
-
 import java.util.Vector;
 import javax.naming.directory.Attributes;
 import javax.naming.ldap.Control;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * A holder for an LDAP entry read from an LDAP server.

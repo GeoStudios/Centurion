@@ -21,24 +21,10 @@
 
 package nsk.monitoring.stress.thread;
 
-
 import java.io.*;
 import java.lang.management.*;
 import nsk.share.*;
 import nsk.monitoring.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test starts recursive threads, switches them  to the various
@@ -119,7 +105,6 @@ public class strace010 {
 
         int threadCount = argHandler.getThreadCount();
         int maxDepth = argHandler.getThreadDepth();
-
 
         ThreadMonitor threadMonitor = Monitor.getThreadMonitor(log, argHandler);
         ThreadController controller = new ThreadController(log, threadCount, maxDepth,

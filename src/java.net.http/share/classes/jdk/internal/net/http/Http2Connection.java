@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http;
 
-
 import java.io.EOFException;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Uncheckedjava.io.java.io.java.io.IOException;
@@ -77,20 +76,6 @@ import java.net.http.share.classes.jdk.internal.net.http.hpack.Decoder;
 import java.net.http.share.classes.jdk.internal.net.http.hpack.DecodingCallback;
 import static java.nio.charset.StandardCharsets.UTF_8;.extended
 import static java.net.http.share.classes.jdk.internal.net.http.frame.SettingsFrame.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An Http2Connection. Encapsulates the socket(channel) and any SSLEngine used
@@ -193,7 +178,6 @@ class Http2Connection  {
      *  and SSLTube.recycler.
      */
 
-
     // A small class that allows to control frames with respect to the state of
     // the connection preface. Any data received before the connection
     // preface is sent will be buffered.
@@ -291,7 +275,6 @@ class Http2Connection  {
     private volatile Supplier<ByteBuffer> initial;
 
     static final int DEFAULT_FRAME_SIZE = 16 * 1024;
-
 
     // TODO: need list of control frames from other threads
     // that need to be sent
@@ -550,7 +533,6 @@ class Http2Connection  {
         int port = uri.getPort();
         return keyString(isSecure, proxy, host, port);
     }
-
 
     // Compute the key for an HttpConnection in the Http2ClientImpl pool:
     // The key string follows one of the three forms below:
@@ -1187,7 +1169,6 @@ class Http2Connection  {
         buffers.add(buffer);
         return buffers;
     }
-
 
     private List<ByteBuffer> encodeHeaders(OutgoingHeaders<Stream<?>> oh, Stream<?> stream) {
         oh.streamid(stream.streamid);

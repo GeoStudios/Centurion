@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.security;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * <p> This interface represents a guard, which is an object that is used
  * to protect access to another object.

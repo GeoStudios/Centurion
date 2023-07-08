@@ -21,24 +21,9 @@
 
 package java.management.share.classes.sun.management.counter;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.io.ObjectInputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  */

@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.java.awt.font;
 
-
 import java.desktop.share.classes.java.io.InvalidObjectException;
 import java.desktop.share.classes.java.io.Serial;
 import java.desktop.share.classes.java.text.AttributedCharacterIterator.Attribute;
 import java.desktop.share.classes.java.util.HashMap;
 import java.desktop.share.classes.java.util.Map;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code TextAttribute} class defines attribute keys and
@@ -1036,7 +1021,6 @@ public final class TextAttribute extends Attribute {
      */
     public static final Integer KERNING_ON =
         Integer.valueOf(1);
-
 
     /**
      * Attribute key for enabling optional ligatures. Values are

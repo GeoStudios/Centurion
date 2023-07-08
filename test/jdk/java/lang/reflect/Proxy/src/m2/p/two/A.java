@@ -21,20 +21,5 @@
 
 package p.two;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface A {
 }

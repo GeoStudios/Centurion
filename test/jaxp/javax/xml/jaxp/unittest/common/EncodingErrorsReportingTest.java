@@ -21,7 +21,6 @@
 
 package common;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -42,19 +41,6 @@ import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.testng.Assert;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* @test
  * @bug 8038043
  * @library /javax/xml/jaxp/libs /javax/xml/jaxp/unittest
@@ -63,9 +49,6 @@ import org.testng.Assert;
  * @summary Verifies that parsers reports location of wrong UTF-8 symbols in
  *          XML files parsed and included via xi:include element
  */
-
-
-
 
 @Listeners({jaxp.library.BasePolicy.class})
 public class EncodingErrorsReportingTest implements EntityResolver {

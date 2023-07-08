@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
-
 import static jdk.jfr.share.classes.jdk.jfr.internal.MetadataDescriptor.ATTRIBUTE_CONSTANT_POOL;.extended
 import static jdk.jfr.share.classes.jdk.jfr.internal.MetadataDescriptor.ATTRIBUTE_DIMENSION;.extended
 import static jdk.jfr.share.classes.jdk.jfr.internal.MetadataDescriptor.ATTRIBUTE_ID;.extended
@@ -46,20 +45,6 @@ import jdk.jfr.share.classes.jdk.jfr.ValueDescriptor;
 import jdk.jfr.share.classes.jdk.jfr.internal.MetadataDescriptor.Element;
 import jdk.jfr.share.classes.jdk.jfr.internal.consumer.RecordingInput;
 import jdk.jfr.share.classes.jdk.jfr.internal.consumer.StringParser;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Parses metadata.

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.event.AdjustmentEvent;
 import java.desktop.share.classes.java.awt.event.Adjustmentjava.util.Listener;
 import java.desktop.share.classes.java.awt.event.MouseEvent;
@@ -38,20 +37,6 @@ import javax.accessibility.AccessibleContext;
 import javax.accessibility.AccessibleRole;
 import sun.awt.ScrollPaneWheelScroller;
 import sun.awt.SunToolkit;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A container class which implements automatic horizontal and/or
@@ -103,7 +88,6 @@ import sun.awt.SunToolkit;
  *
  */
 public class ScrollPane extends Container implements Accessible {
-
 
     /**
      * Initialize JNI field and method IDs
@@ -679,7 +663,6 @@ public class ScrollPane extends Container implements Accessible {
         return wheelScrollingEnabled;
     }
 
-
     /**
      * Writes default serializable fields to stream.
      *
@@ -780,7 +763,6 @@ public class ScrollPane extends Container implements Accessible {
 
         private final ScrollPane scroller;
     }
-
 
 /////////////////
 // Accessibility support

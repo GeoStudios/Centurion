@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util;
 
-
 import java.base.share.classes.java.io.ObjectInputStream;
 import java.base.share.classes.java.io.ObjectOutputStream;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
@@ -30,20 +29,6 @@ import sun.util.calendar.CalendarSystem;
 import sun.util.calendar.CalendarUtils;
 import sun.util.calendar.BaseCalendar;
 import sun.util.calendar.Gregorian;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * {@code SimpleTimeZone} is a concrete subclass of {@code TimeZone}

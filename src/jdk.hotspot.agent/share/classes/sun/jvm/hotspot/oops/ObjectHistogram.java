@@ -21,23 +21,8 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
-
 import java.io.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ObjectHistogram implements HeapVisitor {
 

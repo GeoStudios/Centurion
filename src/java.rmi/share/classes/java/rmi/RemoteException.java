@@ -21,22 +21,6 @@
 
 package java.rmi.share.classes.java.rmi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A {@code RemoteException} is the common superclass for a number of
  * communication-related exceptions that may occur during the execution of a

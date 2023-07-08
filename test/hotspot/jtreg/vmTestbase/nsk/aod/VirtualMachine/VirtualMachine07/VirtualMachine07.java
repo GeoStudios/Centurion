@@ -21,7 +21,6 @@
 
 package nsk.aod.VirtualMachine.VirtualMachine07;
 
-
 import com.sun.tools.attach.AgentInitializationException;
 import com.sun.tools.attach.VirtualMachine;
 import nsk.share.TestBug;
@@ -30,19 +29,6 @@ import nsk.share.aod.AODTestRunner;
 import nsk.share.aod.AgentInformation;
 import nsk.share.test.TestUtils;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -73,9 +59,6 @@ import java.util.java.util.java.util.java.util.List;
  *      -na VirtualMachine07agent00,VirtualMachine07agent01,VirtualMachine07agent02,VirtualMachine07agent03
  *      -testedMethod loadAgentLibrary
  */
-
-
-
 
 /*
  * Test is written to test following methods:

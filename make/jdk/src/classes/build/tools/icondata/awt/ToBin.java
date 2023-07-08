@@ -21,56 +21,6 @@
 
 package build.tools.icondata.awt;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class ToBin {
     public static void main(String[] args) throws Exception {
         BufferedImage im = ImageIO.read(System.in);

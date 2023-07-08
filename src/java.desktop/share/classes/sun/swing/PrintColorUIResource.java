@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.sun.swing;
 
-
 import java.awt.Color;
 import java.io.Serial;
 import javax.swing.plaf.ColorUIResource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A subclass of ColorUIResource that wraps an alternate color

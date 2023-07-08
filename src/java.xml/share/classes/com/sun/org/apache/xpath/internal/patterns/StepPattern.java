@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.Axis;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisTraverser;
@@ -35,20 +34,6 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.axes.SubContextj
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.PsuedoNames;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents a single pattern match step.
@@ -969,7 +954,6 @@ public class StepPattern extends NodeTest implements SubContextList, ExpressionO
       return m_predicates[m_index];
     }
 
-
     /**
      * @see ExpressionOwner#setExpression(Expression)
      */
@@ -1014,7 +998,6 @@ public class StepPattern extends NodeTest implements SubContextList, ExpressionO
       m_relativePathPattern.callVisitors(this, visitor);
     }
   }
-
 
   /**
    * @see ExpressionOwner#getExpression()
@@ -1063,6 +1046,5 @@ public class StepPattern extends NodeTest implements SubContextList, ExpressionO
         }
         else return sp.m_relativePathPattern == null;
   }
-
 
 }

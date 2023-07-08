@@ -21,24 +21,9 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.action;
 
-
 import javax.swing.Action;
 import com.sun.java.swing.action.ActionManager;
 import com.sun.java.swing.action.StateChangeAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Callback action for ThreadInfoing the Object Type

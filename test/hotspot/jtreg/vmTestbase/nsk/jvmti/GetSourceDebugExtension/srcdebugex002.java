@@ -21,21 +21,7 @@
 
 package nsk.jvmti.GetSourceDebugExtension;
 
-
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This test checks that the JVMTI function <code>GetSourceDebugExtension()</code>

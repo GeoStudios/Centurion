@@ -21,28 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Entity nodes hold the reference data for an XML Entity -- either

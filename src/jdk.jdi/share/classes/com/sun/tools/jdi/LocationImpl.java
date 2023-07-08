@@ -21,26 +21,11 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.AbsentInformationException;
 import jdk.jdi.share.classes.com.sun.jdi.Location;
 import jdk.jdi.share.classes.com.sun.jdi.Method;
 import jdk.jdi.share.classes.com.sun.jdi.ReferenceType;
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class LocationImpl extends MirrorImpl implements Location {
     private final ReferenceTypeImpl declaringType;

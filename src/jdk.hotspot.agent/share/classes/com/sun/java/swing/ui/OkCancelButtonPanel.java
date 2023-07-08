@@ -21,24 +21,9 @@
 
 package jdk.hotspot.agent.share.classes.com.sun.java.swing.ui;
 
-
 import jdk.hotspot.agent.share.classes.com.sun.java.swing.action.*;
 import jdk.hotspot.agent.share.classes.com.sun.java.awt.event.Actionjava.util.Listener;
 import javax.swing.JPanel;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Referenced classes of package com.sun.java.swing.ui:
 //            CommonUI

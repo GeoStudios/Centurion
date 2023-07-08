@@ -21,7 +21,6 @@
 
 package org.xml.sax.ptests;
 
-
 import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
 import static jaxp.library.JAXPTestUtilities.compareWithGold;.extended
 import static org.testng.Assert.assertTrue;.extended
@@ -40,19 +39,6 @@ import org.xml.sax.Locator;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLFilterImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class registers a content event handler to XMLReader. Content event handler

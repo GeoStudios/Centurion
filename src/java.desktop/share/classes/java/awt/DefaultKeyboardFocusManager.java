@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.event.FocusEvent;
 import java.desktop.share.classes.java.awt.event.KeyEvent;
 import java.desktop.share.classes.java.awt.event.WindowEvent;
@@ -40,20 +39,6 @@ import sun.awt.AppContext;
 import sun.awt.SunToolkit;
 import sun.awt.TimedWindowEvent;
 import sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The default KeyboardFocusManager for AWT applications. Focus traversal is
@@ -480,7 +465,6 @@ public class DefaultKeyboardFocusManager extends KeyboardFocusManager {
                     // * Otherwise, look up the correct Component here.
                     //   We don't use Window.getMostRecentFocusOwner because
                     //   window is focused now and 'null' will be returned
-
 
                     // Calculating of most recent focus owner and focus
                     // request should be synchronized on KeyboardFocusManager.class

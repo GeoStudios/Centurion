@@ -21,23 +21,8 @@
 
 package jdk.crypto.ec.share.classes.sun.security.ec.point;
 
-
 import jdk.crypto.ec.share.classes.sun.security.util.math.*;
 import java.math.BigInteger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Elliptic curve point in extended homogeneous coordinates (X, Y, T, Z) where

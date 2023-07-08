@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.marlin;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 final class CollinearSimplifier implements DPathConsumer2D {
 
     enum SimplifierState {

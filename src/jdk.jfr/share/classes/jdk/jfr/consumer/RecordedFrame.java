@@ -21,23 +21,8 @@
 
 package jdk.jfr.share.classes.jdk.jfr.consumer;
 
-
 import java.lang.reflect.Modifier;
 import jdk.jfr.share.classes.jdk.jfr.internal.consumer.ObjectContext;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A recorded frame in a stack trace.

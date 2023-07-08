@@ -21,56 +21,6 @@
 
 package build.tools.generatenimbus;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class GradientStop {
     private float position;
 

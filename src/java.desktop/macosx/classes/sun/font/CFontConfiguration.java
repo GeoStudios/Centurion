@@ -21,26 +21,11 @@
 
 package java.desktop.macosx.classes.sun.font;
 
-
 import java.nio.charset.Charset;
 import java.util.HashMap;
 import java.desktop.macosx.classes.sun.awt.FontConfiguration;
 import java.desktop.macosx.classes.sun.font.CompositeFontDescriptor;
 import java.desktop.macosx.classes.sun.font.SunFontManager;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class CFontConfiguration extends FontConfiguration {
 

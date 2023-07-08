@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xpointer;
 
-
 import java.util.HashMap;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
@@ -31,20 +30,6 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLAttributes;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLErrorHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>

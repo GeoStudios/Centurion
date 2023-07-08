@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.com.sun.beans.decoder;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class is intended to handle &lt;long&gt; element.
  * This element specifies {@code long} values.

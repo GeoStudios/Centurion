@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.taglets;
 
-
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintStream;
@@ -73,20 +72,6 @@ import static com.sun.source.doctree.DocTree.Kind.THROWS;.extended
 import static com.sun.source.doctree.DocTree.Kind.USES;.extended
 import static com.sun.source.doctree.DocTree.Kind.VERSION;.extended
 import static javax.tools.DocumentationTool.Location.TAGLET_PATH;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Manages the {@code Taglet}s used by doclets.

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.util;
 
-
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
@@ -29,20 +28,6 @@ import java.base.share.classes.java.security.*;
 import java.security.interfaces.*;
 import java.base.share.classes.java.security.spec.*;
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class ECUtil {
 
@@ -259,7 +244,6 @@ public final class ECUtil {
                 spec1.getCurve().equals(spec2.getCurve()) &&
                 spec1.getGenerator().equals(spec2.getGenerator()));
     }
-
 
     // Convert the concatenation R and S in into their DER encoding
     public static byte[] encodeSignature(byte[] signature) throws SignatureException {

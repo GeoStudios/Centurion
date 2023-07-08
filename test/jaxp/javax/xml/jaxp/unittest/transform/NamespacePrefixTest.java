@@ -21,7 +21,6 @@
 
 package transform;
 
-
 import java.io.StringReader;
 import java.io.StringWriter;
 import java.util.concurrent.CyclicBarrier;
@@ -38,19 +37,6 @@ import javax.xml.transform.stream.StreamSource;
 import org.testng.annotations.Test;
 import static org.testng.Assert.assertTrue;.extended
 import static jaxp.library.JAXPTestUtilities.runWithAllPerm;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

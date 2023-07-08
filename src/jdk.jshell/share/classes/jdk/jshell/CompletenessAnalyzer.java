@@ -21,7 +21,6 @@
 
 package jdk.jshell.share.classes.jdk.jshell;
 
-
 import com.sun.tools.javac.code.Source;
 import com.sun.tools.javac.parser.Scanner;
 import com.sun.tools.javac.parser.ScannerFactory;
@@ -49,20 +48,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.function.Function;
 import java.util.function.Supplier;
 import com.sun.tools.javac.util.Names;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Low level scanner to determine completeness of input.
@@ -760,7 +745,6 @@ class CompletenessAnalyzer {
                 throw new InternalError("Unexpected statement/expression not covered " + token.kind.belongs + " in " + token.kind);
             }
         }
-
 
         public Completeness disambiguateDeclarationVsExpression() {
             // String folding messes up position information.

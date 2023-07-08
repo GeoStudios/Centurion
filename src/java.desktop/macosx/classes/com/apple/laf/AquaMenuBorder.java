@@ -21,25 +21,10 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.plaf.UIResource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AquaMenuBorder implements Border, UIResource {
     public AquaMenuBorder() { }

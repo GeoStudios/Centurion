@@ -21,23 +21,9 @@
 
 package nsk.jdi.TypeComponent.name;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class name001a {
     public static void main (String argv[]) {

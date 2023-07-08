@@ -21,26 +21,12 @@
 
 package nsk.jdi.ReferenceType.isInitialized;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.io.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The debugger application of the test.

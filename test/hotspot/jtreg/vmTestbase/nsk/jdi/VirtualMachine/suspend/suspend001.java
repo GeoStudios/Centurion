@@ -21,7 +21,6 @@
 
 package nsk.jdi.VirtualMachine.suspend;
 
-
 import jdk.test.lib.Utils;
 import nsk.share.*;
 import nsk.share.jpda.*;
@@ -31,19 +30,6 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -162,7 +148,6 @@ public class suspend001 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -220,7 +205,6 @@ public class suspend001 {
 
             BreakpointRequest breakpRequest1 = null;
             BreakpointRequest breakpRequest2 = null;
-
 
             label0: {
 
@@ -381,7 +365,6 @@ public class suspend001 {
         return testExitCode;
     }
 
-
    /*
     * private BreakpointRequest settingBreakpoint(String, String, String)
     *
@@ -437,7 +420,6 @@ public class suspend001 {
 
         return breakpRequest;
     }
-
 
     /*
      * private int breakpoint ()

@@ -21,23 +21,9 @@
 
 package nsk.jvmti.scenarios.allocation.AP11;
 
-
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ap11t001 extends DebugeeClass {
 

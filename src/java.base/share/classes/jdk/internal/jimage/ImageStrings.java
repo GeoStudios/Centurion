@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.jimage;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @implNote This interface needs to maintain JDK 8 source compatibility.
  *

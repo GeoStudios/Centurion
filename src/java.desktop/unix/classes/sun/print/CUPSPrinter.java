@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.print;
 
-
 import java.net.URL;
 import java.net.HttpURLConnection;
 import java.io.OutputStream;
@@ -41,20 +40,6 @@ import javax.print.attribute.Size2DSyntax;
 import javax.print.attribute.Attribute;
 import javax.print.attribute.EnumSyntax;
 import javax.print.attribute.standard.PrinterName;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("removal")
 public class CUPSPrinter  {
@@ -106,7 +91,6 @@ public class CUPSPrinter  {
         }
     }
 
-
     CUPSPrinter (String printerName) {
         if (printerName == null) {
             throw new IllegalArgumentException("null printer name");
@@ -144,7 +128,6 @@ public class CUPSPrinter  {
         }
     }
 
-
     /**
      * Returns array of MediaSizeNames derived from PPD.
      */
@@ -152,7 +135,6 @@ public class CUPSPrinter  {
         initMedia();
         return cupsMediaSNames;
     }
-
 
     /**
      * Returns array of Custom MediaSizeNames derived from PPD.
@@ -355,7 +337,6 @@ public class CUPSPrinter  {
                          }
                     }
 
-
                     AttributeClass attribClass = defaultMap.get("printer-name");
 
                     if (attribClass != null) {
@@ -380,7 +361,6 @@ public class CUPSPrinter  {
         }
         return null;
     }
-
 
     /**
      * Get list of all CUPS printers using IPP.
@@ -481,6 +461,5 @@ public class CUPSPrinter  {
             return false;
         }
     }
-
 
 }

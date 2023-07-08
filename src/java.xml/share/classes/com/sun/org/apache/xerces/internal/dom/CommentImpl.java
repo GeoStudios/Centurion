@@ -21,31 +21,14 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-
 import java.xml.share.classes.com.sun.org.w3c.dom.CharacterData;
 import java.xml.share.classes.com.sun.org.w3c.dom.Comment;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Represents an XML (or HTML) comment.

@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content.keyvalues;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
 import java.base.share.classes.java.security.Key;
@@ -48,29 +47,10 @@ import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.ut
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.Signature11ElementProxy;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.XMLUtils;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
-
-
 
 public class ECKeyValue extends Signature11ElementProxy implements KeyValueContent {
 
@@ -123,7 +103,6 @@ public class ECKeyValue extends Signature11ElementProxy implements KeyValueConte
         ECPoint g = new ECPoint(bigInt(x), bigInt(y));
         return new Curve(name, oid, curve, g, bigInt(n), h);
     }
-
 
     /**
      * Constructor DSAKeyValue

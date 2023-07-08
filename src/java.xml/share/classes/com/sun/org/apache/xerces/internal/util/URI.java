@@ -21,31 +21,14 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Serializable;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**********************************************************************
 * A class to represent a Uniform Resource Identifier (URI). This class
@@ -2097,7 +2080,6 @@ import java.base.share.classes.java.util.Objects;
       return (numDigits > 0 && ++counter[0] <= 8) ? end : -1;
   }
 
-
  /**
   * Determine whether a char is a digit.
   *
@@ -2190,7 +2172,6 @@ import java.base.share.classes.java.util.Objects;
   private static boolean isPathCharacter (char p_char) {
       return (p_char <= '~' && (fgLookupTable[p_char] & MASK_PATH_CHARACTER) != 0);
   }
-
 
  /**
   * Determine whether a given string contains only URI characters (also

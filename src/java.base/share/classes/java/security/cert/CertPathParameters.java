@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.security.cert;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A specification of certification path algorithm parameters.
  * The purpose of this interface is to group (and provide type safety for)

@@ -21,23 +21,9 @@
 
 package nsk.monitoring.ThreadMXBean.isThreadCpuTimeSupported;
 
-
 import java.io.*;
 import nsk.share.*;
 import nsk.monitoring.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class thcputime001 {
     public static void main(String[] argv) {

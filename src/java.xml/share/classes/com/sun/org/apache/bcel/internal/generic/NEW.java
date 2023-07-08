@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.ExceptionConst;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * NEW - Create new object
@@ -60,11 +43,9 @@ public class NEW extends CPInstruction implements LoadClass, AllocationInstructi
     NEW() {
     }
 
-
     public NEW(final int index) {
         super(com.sun.org.apache.bcel.internal.Const.NEW, index);
     }
-
 
     @Override
     public Class<?>[] getExceptions() {
@@ -73,12 +54,10 @@ public class NEW extends CPInstruction implements LoadClass, AllocationInstructi
             ExceptionConst.INSTANTIATION_ERROR);
     }
 
-
     @Override
     public ObjectType getLoadClassType( final ConstantPoolGen cpg ) {
         return (ObjectType) getType(cpg);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

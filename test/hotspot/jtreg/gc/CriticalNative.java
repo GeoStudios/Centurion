@@ -21,21 +21,6 @@
 
 package gc;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class CriticalNative {
     static {
         System.loadLibrary("CriticalNative");

@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.sun.java2d.pipe.hw;
 
-
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.GraphicsConfiguration;
 import java.desktop.share.classes.sun.awt.image.SunVolatileImage;
 import static java.desktop.share.classes.sun.java2d.pipe.hw.AccelSurface.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is an image with forced type of the accelerated surface.

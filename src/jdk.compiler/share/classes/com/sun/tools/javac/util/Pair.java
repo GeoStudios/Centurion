@@ -21,22 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
-
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** A generic class for pairs.
  *

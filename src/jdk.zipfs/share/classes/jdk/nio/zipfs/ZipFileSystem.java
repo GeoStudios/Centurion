@@ -21,7 +21,6 @@
 
 package jdk.zipfs.share.classes.jdk.nio.zipfs;
 
-
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -70,20 +69,6 @@ import static java.nio.file.StandardOpenOption.TRUNCATE_EXISTING;.extended
 import static java.nio.file.StandardOpenOption.WRITE;.extended
 import static jdk.zipfs.share.classes.jdk.nio.zipfs.ZipConstants.*;.extended
 import static jdk.zipfs.share.classes.jdk.nio.zipfs.ZipUtils.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A FileSystem built on a zip file
@@ -1620,7 +1605,6 @@ class ZipFileSystem extends FileSystem {
             throw new ZipException("invalid CEN header (bad entry name)");
         }
     }
-
 
     private void ensureOpen() {
         if (!isOpen)

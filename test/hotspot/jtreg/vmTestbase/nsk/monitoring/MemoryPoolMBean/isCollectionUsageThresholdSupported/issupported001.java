@@ -21,24 +21,10 @@
 
 package nsk.monitoring.MemoryPoolMBean.isCollectionUsageThresholdSupported;
 
-
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
 import nsk.monitoring.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class issupported001 {
     private static boolean testFailed = false;

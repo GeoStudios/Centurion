@@ -21,7 +21,6 @@
 
 package jdk.unsupported.share.classes.sun.reflect;
 
-
 import java.io.OptionalDataException;
 import java.lang.invoke.MethodHandle;
 import java.lang.reflect.Constructor;
@@ -29,20 +28,6 @@ import java.lang.reflect.InvocationTargetException;
 import java.security.AccessController;
 import java.security.Permission;
 import java.security.PrivilegedAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * ReflectionFactory supports custom serialization.

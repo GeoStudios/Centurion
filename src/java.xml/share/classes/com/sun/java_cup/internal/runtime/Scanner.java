@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.com.sun.java_cup.internal.runtime;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Defines the Scanner interface, which CUP uses in the default
  * implementation of <code>lr_parser.scan()</code>.  Integration

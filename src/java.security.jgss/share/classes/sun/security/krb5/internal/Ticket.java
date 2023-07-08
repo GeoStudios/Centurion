@@ -21,7 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal;
 
-
 import java.security.jgss.share.classes.sun.security.krb5.PrincipalName;
 import java.security.jgss.share.classes.sun.security.krb5.EncryptedData;
 import java.security.jgss.share.classes.sun.security.krb5.Asn1Exception;
@@ -30,20 +29,6 @@ import java.security.jgss.share.classes.sun.security.krb5.RealmException;
 import java.security.jgss.share.classes.sun.security.util.*;
 import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implements the ASN.1 Ticket type.
@@ -178,6 +163,5 @@ public class Ticket implements Cloneable {
             return new Ticket(subDer);
         }
     }
-
 
 }

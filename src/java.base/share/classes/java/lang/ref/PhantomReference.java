@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.lang.ref;
 
-
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Phantom reference objects, which are enqueued after the collector

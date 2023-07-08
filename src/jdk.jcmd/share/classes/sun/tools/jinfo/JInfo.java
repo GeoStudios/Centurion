@@ -21,7 +21,6 @@
 
 package jdk.jcmd.share.classes.sun.tools.jinfo;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.util.Collection;
@@ -29,20 +28,6 @@ import com.sun.tools.attach.VirtualMachine;
 import jdk.jcmd.share.classes.sun.tools.attach.HotSpotVirtualMachine;
 import jdk.jcmd.share.classes.sun.tools.common.ProcessArgumentMatcher;
 import jdk.jcmd.share.classes.sun.tools.common.PrintStreamPrinter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This class is the main class for the JInfo utility. It parses its arguments

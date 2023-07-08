@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.text;
 
-
 import java.base.share.classes.java.io.InvalidObjectException;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.ObjectInputStream;
@@ -34,20 +33,6 @@ import sun.util.locale.provider.CalendarDataUtility;
 import sun.util.locale.provider.LocaleProviderAdapter;
 import sun.util.locale.provider.LocaleServiceProviderPool;
 import sun.util.locale.provider.ResourceBundleBasedAdapter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents the set of symbols (such as the decimal separator,
@@ -482,7 +467,6 @@ public class DecimalFormatSymbols implements Cloneable, Serializable {
         intlCurrencySymbol = currency.getCurrencyCode();
         currencySymbol = currency.getSymbol(locale);
     }
-
 
     /**
      * Returns the monetary decimal separator.

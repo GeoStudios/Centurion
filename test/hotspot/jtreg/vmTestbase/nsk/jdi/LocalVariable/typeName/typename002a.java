@@ -21,23 +21,9 @@
 
 package nsk.jdi.LocalVariable.typeName;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the typename002 JDI test.
@@ -85,7 +71,6 @@ public class typename002a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
-
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
@@ -136,7 +121,6 @@ class typename002aTestClass {
         return;
     }
 }
-
 
 interface typename002aInterfaceForCheck {
 

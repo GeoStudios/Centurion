@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.beans.beancontext;
 
-
 import java.desktop.share.classes.java.beans.PropertyChangeEvent;
 import java.desktop.share.classes.java.beans.PropertyChangejava.util.Listener;
 import java.desktop.share.classes.java.beans.PropertyChangeSupport;
@@ -33,20 +32,6 @@ import java.desktop.share.classes.java.io.ObjectInputStream;
 import java.desktop.share.classes.java.io.ObjectOutputStream;
 import java.desktop.share.classes.java.io.Serial;
 import java.desktop.share.classes.java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>
@@ -342,7 +327,6 @@ public class BeanContextChildSupport implements BeanContextChild, BeanContextSer
             oos.defaultWriteObject();
 
     }
-
 
     /**
      * Restore a persistent object, must wait for subsequent setBeanContext()

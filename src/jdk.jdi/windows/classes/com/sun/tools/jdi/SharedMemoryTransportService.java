@@ -21,27 +21,12 @@
 
 package jdk.jdi.windows.classes.com.sun.tools.jdi;
 
-
 import jdk.jdi.windows.classes.com.sun.jdi.*;
 import jdk.jdi.windows.classes.com.sun.jdi.connect.*;
 import jdk.jdi.windows.classes.com.sun.jdi.connect.spi.*;
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Map;
 import java.util.ResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class SharedMemoryTransportService extends TransportService {
     private ResourceBundle messages = null;
@@ -175,7 +160,6 @@ class SharedMemoryTransportService extends TransportService {
         return conn;
     }
 }
-
 
 class SharedMemoryTransportServiceCapabilities extends TransportService.Capabilities {
 

@@ -21,27 +21,12 @@
 
 package java.compiler.share.classes.javax.tools;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.Reader;
 import java.io.Writer;
 import java.net.URI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * File abstraction for tools.  In this context, <em>file</em> means

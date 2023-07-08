@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.font;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This class is used so that a java.awt.Font does not directly
  * reference a Font2D object. This introduces occasional minor

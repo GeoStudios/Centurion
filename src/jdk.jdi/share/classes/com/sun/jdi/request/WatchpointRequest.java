@@ -21,27 +21,12 @@
 
 package jdk.jdi.share.classes.com.sun.jdi.request;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.Field;
 import jdk.jdi.share.classes.com.sun.jdi.ObjectReference;
 import jdk.jdi.share.classes.com.sun.jdi.ReferenceType;
 import jdk.jdi.share.classes.com.sun.jdi.ThreadReference;
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
 import jdk.jdi.share.classes.com.sun.jdi.event.EventQueue;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Identifies a {@link Field} in the target VM being watched.

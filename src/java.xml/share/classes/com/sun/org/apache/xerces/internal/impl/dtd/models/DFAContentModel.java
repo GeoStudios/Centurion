@@ -21,25 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XMLContentSpec;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
 import java.util.HashMap;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
 
@@ -115,7 +100,6 @@ public class DFAContentModel
      * is saved away since it's used during the DFA build.
      */
     private int fEOCPos = 0;
-
 
     /**
      * This is an array of booleans, one per state (there are
@@ -201,7 +185,6 @@ public class DFAContentModel
     // Constructors
     //
 
-
     //
     // Constructors
     //
@@ -218,7 +201,6 @@ public class DFAContentModel
         // Store away our index and pools in members
         //fStringPool = stringPool;
         fLeafCount = leafCount;
-
 
         // this is for Schema Mixed Content
         fMixed = mixed;
@@ -388,7 +370,6 @@ public class DFAContentModel
         // success!
         return -1;
     } // validate
-
 
     //
     // Private methods
@@ -941,7 +922,6 @@ public class DFAContentModel
             throw new RuntimeException("ImplementationMessages.VAL_NIICM");
         }
     }
-
 
     /**
      * -1 is used to represent bad transitions in the transition table

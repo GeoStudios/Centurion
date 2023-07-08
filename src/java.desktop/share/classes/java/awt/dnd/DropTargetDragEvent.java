@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.java.awt.dnd;
 
-
 import java.desktop.share.classes.java.awt.Point;
 import java.desktop.share.classes.java.awt.datatransfer.DataFlavor;
 import java.desktop.share.classes.java.awt.datatransfer.Transferable;
 import java.desktop.share.classes.java.io.Serial;
 import java.desktop.share.classes.java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code DropTargetDragEvent} is delivered to a
@@ -139,7 +124,6 @@ public class DropTargetDragEvent extends DropTargetEvent {
     public Point getLocation() {
         return location;
     }
-
 
     /**
      * This method returns the current {@code DataFlavor}s from the

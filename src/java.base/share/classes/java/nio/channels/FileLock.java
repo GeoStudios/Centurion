@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.nio.channels;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A token representing a lock on a region of a file.

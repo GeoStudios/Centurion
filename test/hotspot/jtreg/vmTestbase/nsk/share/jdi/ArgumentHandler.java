@@ -21,23 +21,9 @@
 
 package nsk.share.jdi;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import com.sun.jdi.VirtualMachine;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Parser for JDI test's specific command-line arguments.
@@ -298,7 +284,6 @@ public class ArgumentHandler extends DebugeeArgumentHandler {
             throw new TestBug("Not integer value of \"connectionDelay\" argument: " + value);
         }
     }
-
 
     /**
      * Return <i>true</i> if the test should pass in any case i.e.

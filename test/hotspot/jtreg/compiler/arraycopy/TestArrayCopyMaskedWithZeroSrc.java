@@ -21,21 +21,7 @@
 
 package compiler.arraycopy;
 
-
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -45,8 +31,6 @@ import java.util.*;
  * @run main/othervm -XX:-BackgroundCompilation -XX:CompileCommand=dontinline,*::testArrayCopy*
  *                   compiler.arraycopy.TestArrayCopyMaskedWithZeroSrc
  */
-
-
 
 public class TestArrayCopyMaskedWithZeroSrc {
 

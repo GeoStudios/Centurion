@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.io.Serial;
 import java.desktop.share.classes.java.security.BasicPermission;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is for AWT permissions.

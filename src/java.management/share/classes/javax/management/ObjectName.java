@@ -21,7 +21,6 @@
 
 package java.management.share.classes.javax.management;
 
-
 import com.sun.jmx.mbeanserver.GetPropertyAction;
 import com.sun.jmx.mbeanserver.Util;
 import java.io.java.io.java.io.java.io.IOException;
@@ -35,20 +34,6 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Represents the object name of an MBean, or a pattern that can
@@ -299,10 +284,7 @@ public class ObjectName implements Comparable<ObjectName>, QueryExp {
 
     // Inner classes <========================================
 
-
-
     // Private fields ---------------------------------------->
-
 
     // Serialization compatibility stuff -------------------->
 
@@ -363,7 +345,6 @@ public class ObjectName implements Comparable<ObjectName>, QueryExp {
      */
     static final private Property[] _Empty_property_array = new Property[0];
 
-
     // Class private fields <==============================
 
     // Instance private fields ----------------------------------->
@@ -372,7 +353,6 @@ public class ObjectName implements Comparable<ObjectName>, QueryExp {
      * a String containing the canonical name
      */
     private transient String _canonicalName;
-
 
     /**
      * An array of properties in the same seq order as time creation
@@ -383,7 +363,6 @@ public class ObjectName implements Comparable<ObjectName>, QueryExp {
      * An array of properties in the same seq order as canonical order
      */
     private transient Property[] _ca_array;
-
 
     /**
      * The propertyList of built object name. Initialized lazily.
@@ -409,7 +388,6 @@ public class ObjectName implements Comparable<ObjectName>, QueryExp {
     // Instance private fields <=======================================
 
     // Private fields <========================================
-
 
     //  Private methods ---------------------------------------->
 
@@ -1045,7 +1023,6 @@ public class ObjectName implements Comparable<ObjectName>, QueryExp {
                                          k[endKey] + "'");
     }
 
-
     // Category : Internal utilities <==============================
 
     // Category : Internal accessors ------------------------------>
@@ -1190,7 +1167,6 @@ public class ObjectName implements Comparable<ObjectName>, QueryExp {
             throw new InvalidObjectException(e.toString());
         }
     }
-
 
     /**
      * Serializes an {@link ObjectName} to an {@link ObjectOutputStream}.
@@ -1465,7 +1441,6 @@ public class ObjectName implements Comparable<ObjectName>, QueryExp {
     }
 
     // Category : ObjectName Construction <==============================
-
 
     // Category : Getter methods ------------------------------>
 
@@ -1788,8 +1763,6 @@ public class ObjectName implements Comparable<ObjectName>, QueryExp {
         }
         return index;
     }
-
-
 
     /**
      * Returns a string representation of the list of key properties,

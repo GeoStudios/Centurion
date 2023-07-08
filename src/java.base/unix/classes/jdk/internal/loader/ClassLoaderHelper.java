@@ -21,23 +21,8 @@
 
 package java.base.unix.classes.jdk.internal.loader;
 
-
 import java.io.File;
 import java.util.Arrayjava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class ClassLoaderHelper {
 

@@ -21,7 +21,6 @@
 
 package gc.g1.unloading;
 
-
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -45,19 +44,6 @@ import jdk.internal.org.objectweb.asm.ClassReader;
 import jdk.internal.org.objectweb.asm.ClassVisitor;
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.Opcodes;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class that imitates shell script to produce jar file with many similar
@@ -115,7 +101,6 @@ public class GenClassPoolJar {
                 throw new Error("Failed to create " + pkgDir);
             }
 
-
             String javaTemplate = readTemplate(templateFile);
             File java0 = new File(pkgDir, "Class0.java");
             File class0 = new File(pkgDir, "Class0.class");
@@ -131,7 +116,6 @@ public class GenClassPoolJar {
             compile(toCompile, tmpArea.getAbsolutePath());
             byte[] classTemplate = readFile(class0); // the first compiled class
             createJar(new File(destDir, JAR_NAME), javaTemplate, classTemplate, count);
-
 
             deleteFolder(tmpArea);
             long endTime = System.currentTimeMillis();
@@ -183,7 +167,6 @@ public class GenClassPoolJar {
         List<String> list = Arrays.asList(content.split(System.lineSeparator()));
         Files.write(Paths.get(file.getAbsolutePath()), list);
     }
-
 
     /**
      * Compiles given files into given folder.

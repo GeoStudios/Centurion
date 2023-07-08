@@ -21,23 +21,9 @@
 
 package nsk.stress.numeric.numeric003;
 
-
 import java.io.PrintStream;
 import java.util.Random;
 import jdk.test.lib.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -70,8 +56,6 @@ import jdk.test.lib.Utils;
  * @library /test/lib
  * @run main/othervm nsk.stress.numeric.numeric003.numeric003 300 300
  */
-
-
 
 /**
  * This test calculates the product <b>A</b><sup>.</sup><b>A</b> for

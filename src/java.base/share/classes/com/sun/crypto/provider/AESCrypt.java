@@ -21,25 +21,10 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
-
 import java.base.share.classes.java.security.InvalidKeyException;
 import java.security.MessageDigest;
 import java.base.share.classes.java.util.Arrays;
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Rijndael --pronounced Reindaal-- is a symmetric cipher with a 128-bit
@@ -153,7 +138,6 @@ final class AESCrypt extends SymmetricCipher implements AESConstants
         U4 = new int[256];
 
     private static final byte[] rcon = new byte[30];
-
 
     // Static code - to intialise S-boxes and T-boxes
     static
@@ -688,7 +672,6 @@ final class AESCrypt extends SymmetricCipher implements AESConstants
         }
         sessionK = new int[][] { expandedKe, expandedKd };
     }
-
 
     /**
      * Return The number of rounds for a given Rijndael keysize.

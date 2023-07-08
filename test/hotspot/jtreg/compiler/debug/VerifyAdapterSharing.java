@@ -21,22 +21,8 @@
 
 package compiler.debug;
 
-
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -48,8 +34,6 @@ import jdk.test.lib.process.ProcessTools;
  *
  * @run driver compiler.debug.VerifyAdapterSharing
  */
-
-
 
 public class VerifyAdapterSharing {
     public static void main(String[] args) throws Exception {

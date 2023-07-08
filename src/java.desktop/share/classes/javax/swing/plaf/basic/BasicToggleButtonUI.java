@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import sun.awt.AppContext;
 import java.awt.*;
 import java.awt.event.*;
@@ -29,20 +28,6 @@ import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.border.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
 import java.desktop.share.classes.javax.swing.text.View;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * BasicToggleButton implementation
@@ -83,7 +68,6 @@ public class BasicToggleButtonUI extends BasicButtonUI {
     protected String getPropertyPrefix() {
         return propertyPrefix;
     }
-
 
     // ********************************
     //          Paint Methods

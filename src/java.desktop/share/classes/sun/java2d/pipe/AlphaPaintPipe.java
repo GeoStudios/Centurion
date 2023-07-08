@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.pipe;
 
-
 import java.lang.ref.WeakReference;
 import java.awt.Rectangle;
 import java.awt.Shape;
@@ -38,20 +37,6 @@ import java.desktop.share.classes.sun.java2d.loops.Blit;
 import java.desktop.share.classes.sun.java2d.loops.MaskBlit;
 import java.desktop.share.classes.sun.java2d.loops.CompositeType;
 import java.desktop.share.classes.sun.java2d.loops.GraphicsPrimitiveMgr;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements a CompositePipe that renders path alpha tiles

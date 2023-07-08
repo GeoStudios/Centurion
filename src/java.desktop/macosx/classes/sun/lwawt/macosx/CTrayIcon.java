@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-
 import java.awt.AWTEvent;
 import java.awt.Button;
 import java.awt.Frame;
@@ -49,20 +48,6 @@ import javax.swing.UIManager;
 import java.desktop.macosx.classes.sun.awt.SunToolkit;
 import static java.desktop.macosx.classes.sun.awt.AWTAccessor.MenuComponentAccessor;.extended
 import static java.desktop.macosx.classes.sun.awt.AWTAccessor.getMenuComponentAccessor;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CTrayIcon extends CFRetainedResource implements TrayIconPeer {
     private TrayIcon target;
@@ -355,7 +340,6 @@ public class CTrayIcon extends CFRetainedResource implements TrayIconPeer {
 
         return scaledImage;
     }
-
 
     /**
      * Gets Aqua icon used in message dialog.

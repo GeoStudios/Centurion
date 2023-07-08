@@ -21,26 +21,11 @@
 
 package java.base.share.classes.java.text;
 
-
 import java.base.share.classes.java.io.InvalidObjectException;
 import java.base.share.classes.java.io.Serializable;
 import java.base.share.classes.java.util.HashMap;
 import java.base.share.classes.java.util.Map;
 import java.base.share.classes.java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An {@code AttributedCharacterIterator} allows iteration through both text and

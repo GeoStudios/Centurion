@@ -21,23 +21,8 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.memory.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** This class wraps a user's chosen HeapVisitor with the
     functionality that a chosen "thunk" is called periodically during

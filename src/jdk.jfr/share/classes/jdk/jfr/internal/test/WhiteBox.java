@@ -21,22 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.test;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public final class WhiteBox {
 
     private static boolean writeAllObjectSamples;

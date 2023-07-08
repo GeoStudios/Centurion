@@ -21,7 +21,6 @@
 
 package java.rmi.share.classes.sun.rmi.transport;
 
-
 import java.rmi.share.classes.sun.rmi.transport.tcp.TCPConnection;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputFilter;
@@ -32,20 +31,6 @@ import java.rmi.server.UID;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.Arrayjava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Stubs to invoke DGC remote methods.

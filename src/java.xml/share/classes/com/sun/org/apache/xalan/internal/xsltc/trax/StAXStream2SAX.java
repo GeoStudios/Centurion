@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
 import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
@@ -42,20 +41,6 @@ import javax.xml.namespace.QName;
 import javax.xml.stream.XMLStreamReader;
 import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  */
@@ -93,7 +78,6 @@ public class StAXStream2SAX implements XMLReader, Locator {
         }
     }
 
-
     public void parse(InputSource unused) throws IOException, SAXException {
         try {
             bridge();
@@ -102,12 +86,10 @@ public class StAXStream2SAX implements XMLReader, Locator {
         }
     }
 
-
     //Main Work Starts Here.
     public void parse() throws IOException, SAXException, XMLStreamException {
         bridge();
     }
-
 
    /**
      * This class is only used internally so this method should never
@@ -116,7 +98,6 @@ public class StAXStream2SAX implements XMLReader, Locator {
     public void parse(String sysId) throws IOException, SAXException {
         throw new IOException("This method is not yet implemented.");
     }
-
 
    public void bridge() throws XMLStreamException {
 
@@ -293,7 +274,6 @@ public class StAXStream2SAX implements XMLReader, Locator {
             throw new XMLStreamException(e);
         }
 
-
 //        int start = 0;
 //        int len;
 //        do {
@@ -459,7 +439,6 @@ public class StAXStream2SAX implements XMLReader, Locator {
         // no-op ???
         // this event is listed in the javadoc, but not in the spec.
     }
-
 
     /**
      * This class is only used internally so this method should never

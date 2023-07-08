@@ -21,21 +21,6 @@
 
 package compiler.floatingpoint;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* @test
  * @bug 8139258 8165673
  * @summary Regression test for passing float args to a jni function.
@@ -52,7 +37,6 @@ package compiler.floatingpoint;
  * @requires !vm.graal.enabled
  * @run main/othervm/native -XX:-TieredCompilation -Xcomp compiler.floatingpoint.TestFloatJNIArgs
  */
-
 
 public class TestFloatJNIArgs {
     static {

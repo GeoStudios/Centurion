@@ -21,7 +21,6 @@
 
 package javax.xml.validation.ptests;
 
-
 import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;.extended
 import static javax.xml.validation.ptests.ValidationTestConst.XML_DIR;.extended
 import static org.testng.Assert.assertNotNull;.extended
@@ -63,19 +62,6 @@ import org.xml.sax.SAXNotRecognizedException;
 import org.xml.sax.SAXNotSupportedException;
 import org.xml.sax.SAXParseException;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8080907 8169778
@@ -106,7 +92,6 @@ public class SchemaFactoryTest {
 
         xml = Files.readAllBytes(Paths.get(XML_DIR + "test.xml"));
     }
-
 
     @DataProvider(name = "parameters")
     public Object[][] getValidateParameters() {
@@ -177,7 +162,6 @@ public class SchemaFactoryTest {
     public void testNewInstanceWithEmptySchemaLanguage() {
         SchemaFactory.newInstance("", SCHEMA_FACTORY_CLASSNAME, this.getClass().getClassLoader());
     }
-
 
     @Test(expectedExceptions = SAXParseException.class)
     public void testNewSchemaDefault() throws SAXException, IOException {
@@ -273,7 +257,6 @@ public class SchemaFactoryTest {
     public void testNewSchemaWithNullUrl() throws SAXException {
         sf.newSchema((URL) null);
     }
-
 
     @Test
     public void testErrorHandler() {
@@ -417,7 +400,6 @@ public class SchemaFactoryTest {
     private Source staxEventSource(byte[] xsd) throws XMLStreamException {
         return new StAXSource(ifac.createXMLEventReader(newInputStream(xsd)));
     }
-
 
     private SchemaFactory newSchemaFactory() {
         return SchemaFactory.newInstance(W3C_XML_SCHEMA_NS_URI);

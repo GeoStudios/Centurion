@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.security.cert;
 
-
 import java.base.share.classes.java.security.GeneralSecurityException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An exception indicating one of a variety of problems encountered when

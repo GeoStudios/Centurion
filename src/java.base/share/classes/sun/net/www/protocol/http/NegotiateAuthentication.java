@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.net.www.protocol.http;
 
-
 import java.net.URL;
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.Authenticator.RequestorType;
@@ -32,20 +31,6 @@ import java.base.share.classes.sun.net.www.HeaderParser;
 import static java.base.share.classes.sun.net.www.protocol.http.AuthScheme.NEGOTIATE;.extended
 import static java.base.share.classes.sun.net.www.protocol.http.AuthScheme.KERBEROS;.extended
 import java.base.share.classes.sun.security.action.GetPropertyAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * NegotiateAuthentication:

@@ -21,23 +21,8 @@
 
 package java.rmi.share.classes.sun.rmi.transport;
 
-
 import java.lang.ref.*;
 import java.rmi.share.classes.sun.rmi.runtime.Log;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * WeakRef objects are used by the RMI runtime to hold potentially weak

@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.sound.sampled.spi;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.desktop.share.classes.javax.sound.sampled.Mixer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A provider or factory for a particular mixer type. This mechanism allows the

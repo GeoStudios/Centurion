@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.dcmd;
 
-
 import java.io.FileNotFoundException;
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Files;
@@ -47,20 +46,6 @@ import jdk.jfr.share.classes.jdk.jfr.internal.Type;
 import jdk.jfr.share.classes.jdk.jfr.internal.jfc.JFC;
 import jdk.jfr.share.classes.jdk.jfr.internal.jfc.model.JFCModel;
 import jdk.jfr.share.classes.jdk.jfr.internal.jfc.model.XmlInput;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * JFR.start

@@ -21,25 +21,11 @@
 
 package nsk.jdi.ReferenceType.isInitialized;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This test checks the method <code>isInitialized()</code>
@@ -60,7 +46,6 @@ public class isinit002 {
 
     /** Debugee's class for check **/
     private final static String checked_class = package_prefix + "isinit002b";
-
 
     /**
      * Re-call to <code>run(args,out)</code>, and exit with

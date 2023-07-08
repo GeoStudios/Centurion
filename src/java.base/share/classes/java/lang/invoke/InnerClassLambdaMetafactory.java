@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-
 import jdk.internal.misc.CDS;
 import jdk.internal.org.objectweb.asm.*;
 import sun.invoke.util.BytecodeDescriptor;
@@ -43,20 +42,6 @@ import java.base.share.classes.java.util.Set;
 import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.ClassOption.NESTMATE;.extended
 import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.ClassOption.STRONG;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Lambda metafactory implementation which dynamically creates an

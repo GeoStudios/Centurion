@@ -21,56 +21,6 @@
 
 package build.tools.cldrconverter;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Handles parsing of files in Locale Data Markup Language for
  * SupplementalMetadata.xml

@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.FeatureState;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.ParserConfigurationSettings;
@@ -45,20 +44,6 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Locale;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A very basic parser configuration. This configuration class can
@@ -162,7 +147,6 @@ public abstract class BasicParserConfiguration
 
     /** Symbol table. */
     protected SymbolTable fSymbolTable;
-
 
     // data
 
@@ -554,7 +538,6 @@ public abstract class BasicParserConfiguration
 
     } // checkProperty(String)
 
-
     /**
      * Check a feature. If feature is know and supported, this method simply
      * returns. Otherwise, the appropriate exception is thrown.
@@ -587,6 +570,5 @@ public abstract class BasicParserConfiguration
 
         return super.checkFeature(featureId);
      } // checkFeature(String)
-
 
 } // class BasicParserConfiguration

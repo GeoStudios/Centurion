@@ -21,21 +21,7 @@
 
 package compiler.eliminateAutobox;
 
-
 import static jdk.test.lib.Asserts.assertEQ;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -46,8 +32,6 @@ import static jdk.test.lib.Asserts.assertEQ;.extended
  *                   -XX:CompileOnly=::valueOf,::byteValue,::shortValue,::testUnsignedByte,::testUnsignedShort
  *                   compiler.eliminateAutobox.UnsignedLoads
  */
-
-
 
 public class UnsignedLoads {
     public static int testUnsignedByte() {

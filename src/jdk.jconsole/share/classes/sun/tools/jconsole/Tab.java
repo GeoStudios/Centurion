@@ -21,23 +21,8 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
-
 import java.awt.*;
 import javax.swing.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("serial") // JDK implementation class
 public abstract class Tab extends JPanel {

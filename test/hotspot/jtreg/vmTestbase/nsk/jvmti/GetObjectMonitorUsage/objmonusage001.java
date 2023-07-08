@@ -21,21 +21,7 @@
 
 package nsk.jvmti.GetObjectMonitorUsage;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class objmonusage001 {
     final static int JCK_STATUS_BASE = 95;

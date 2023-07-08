@@ -21,26 +21,11 @@
 
 package java.base.share.classes.java.util;
 
-
 import java.base.share.classes.java.io.*;
 import java.base.share.classes.java.util.function.BiConsumer;
 import java.base.share.classes.java.util.function.Function;
 import java.base.share.classes.java.util.function.BiFunction;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements a hash table, which maps keys to values. Any
@@ -618,7 +603,6 @@ public class Hashtable<K,V>
             sb.append(", ");
         }
     }
-
 
     private <T> Enumeration<T> getEnumeration(int type) {
         if (count == 0) {

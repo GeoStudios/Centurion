@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.res;
 
-
 import java.util.java.util.ListResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Set up error messages.
@@ -1056,7 +1041,6 @@ public class XSLTErrorResources extends ListResourceBundle
     { ER_ERRORLISTENER,
      "ErrorListener"},
 
-
 // Note to translators:  The following message should not normally be displayed
 //   to users.  It describes a situation in which the processor has detected
 //   an internal consistency problem in itself, and it provides this message
@@ -1065,7 +1049,6 @@ public class XSLTErrorResources extends ListResourceBundle
 //   translated.
     { ER_ASSERT_NO_TEMPLATE_PARENT,
      "Programmer's error! The expression has no ElemTemplateElement parent!"},
-
 
 // Note to translators:  The following message should not normally be displayed
 //   to users.  It describes a situation in which the processor has detected
@@ -1132,7 +1115,6 @@ public class XSLTErrorResources extends ListResourceBundle
      { INVALID_NUMBER,
      "Illegal value: {1} used for number attribute: {0} "},
 
-
   // End of shared codes...
 
 // Note to translators:  A "match pattern" is a special form of XPath expression
@@ -1149,7 +1131,6 @@ public class XSLTErrorResources extends ListResourceBundle
 // ER_DUPLICATE_GLOBAL_VAR - new error message for bugzilla #790
     { ER_DUPLICATE_GLOBAL_VAR,
      "Duplicate global variable declaration."},
-
 
 // Note to translators:  The following message indicates that two definitions of
 // a variable were encountered.
@@ -1344,7 +1325,6 @@ public class XSLTErrorResources extends ListResourceBundle
   { "column","Column #"},
   { "xsldone", "XSLProcessor: done"},
 
-
   // Note to translators:  The following messages provide usage information
   // for the Xalan Process command line.  "Process" is the name of a Java class,
   // and should not be translated.
@@ -1401,7 +1381,6 @@ public class XSLTErrorResources extends ListResourceBundle
   { "optionSECUREPROCESSING", "   [-SECURE (set the secure processing feature to true.)]"},
 
     // Following are the new options added in XSLTErrorResources.properties files after Jdk 1.4 (Xalan 2.2-D11)
-
 
   {  "optionMEDIA",  "   [-MEDIA mediaType (use media attribute to find stylesheet associated with a document.)]"},
   {  "optionFLAVOR",  "   [-FLAVOR flavorName (Explicitly use s2s=SAX or d2d=DOM to do transform.)] "}, // Added by sboag/scurcuru; experimental

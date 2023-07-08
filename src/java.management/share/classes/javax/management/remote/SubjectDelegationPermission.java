@@ -21,22 +21,7 @@
 
 package java.management.share.classes.javax.management.remote;
 
-
 import java.security.BasicPermission;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Permission required by an authentication identity to perform

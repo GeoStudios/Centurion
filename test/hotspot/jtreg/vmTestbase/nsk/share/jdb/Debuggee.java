@@ -21,24 +21,10 @@
 
 package nsk.share.jdb;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.ArgumentHandler;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Interface defining methods to control mirror of debuggee (i.e. debugged VM).
@@ -130,7 +116,6 @@ final class LocalLaunchedDebuggee extends LocalProcess implements Debuggee {
            stderrRedirector.cancel();
         }
     }
-
 
     /**
      * Wait until the debuggee VM shutdown or crash,
@@ -228,7 +213,6 @@ final class LocalLaunchedDebuggee extends LocalProcess implements Debuggee {
         stdoutRedirector.start();
     }
 
-
     /**
      * Start thread redirecting the debuggee's stderr to the
      * given <code>Log</code>. If the debuggee's stderr
@@ -244,7 +228,6 @@ final class LocalLaunchedDebuggee extends LocalProcess implements Debuggee {
         stderrRedirector.start();
     }
 }
-
 
 /**
  * Mirror of remotely launched debuggee.

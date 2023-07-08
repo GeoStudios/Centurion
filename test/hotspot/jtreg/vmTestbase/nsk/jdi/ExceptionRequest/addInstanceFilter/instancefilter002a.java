@@ -21,23 +21,9 @@
 
 package nsk.jdi.ExceptionRequest.addInstanceFilter;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the instancefilter002 JDI test.
@@ -109,7 +95,6 @@ public class instancefilter002a {
 
     //------------------------------------------------------  section tested
 
-
                     case 0:
                             thread1 = new instancefilter002aThread("thread1");
                             break;
@@ -129,7 +114,6 @@ public class instancefilter002a {
         log1("debuggee exits");
         System.exit(exitCode + PASS_BASE);
     }
-
 
     static Object waitnotifyObj = new Object();
 

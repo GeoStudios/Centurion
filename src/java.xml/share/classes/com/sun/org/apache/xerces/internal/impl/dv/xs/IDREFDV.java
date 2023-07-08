@@ -21,31 +21,14 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.xs;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.InvalidDatatypeValueException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.ValidationContext;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLChar;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Represent the schema type "IDREF"

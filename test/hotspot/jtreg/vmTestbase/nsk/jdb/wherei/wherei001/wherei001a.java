@@ -21,24 +21,10 @@
 
 package nsk.jdb.wherei.wherei001;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdb.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* This is debuggee aplication */
 public class wherei001a {
@@ -90,7 +76,6 @@ public class wherei001a {
         return wherei001.PASSED;
     }
 }
-
 
 class MyThread extends Thread {
     Lock lock;

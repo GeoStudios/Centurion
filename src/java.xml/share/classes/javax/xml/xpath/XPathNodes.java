@@ -21,23 +21,8 @@
 
 package java.xml.share.classes.javax.xml.xpath;
 
-
 import java.util.Iterator;
 import org.w3c.dom.Node;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * XPathNodes represents a set of nodes selected by a location path as specified

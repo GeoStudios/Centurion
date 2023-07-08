@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.compiler.ImmutableOopMap;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.compiler.ImmutableOopMapSet;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Address;
@@ -36,20 +35,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.CStringUtilitie
 import java.io.PrintStream;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CodeBlob extends VMObject {
   private static AddressField nameField;
@@ -141,7 +126,6 @@ public class CodeBlob extends VMObject {
     }
     return new ImmutableOopMapSet(value);
   }
-
 
   // Typing
   public boolean isBufferBlob()         { return false; }

@@ -21,7 +21,6 @@
 
 package java.rmi.share.classes.sun.rmi.transport;
 
-
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -39,20 +38,6 @@ import java.security.PrivilegedAction;
 import java.rmi.share.classes.sun.rmi.runtime.Log;
 import java.rmi.share.classes.sun.rmi.server.UnicastRef;
 import java.rmi.share.classes.sun.rmi.transport.tcp.TCPEndpoint;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Stream-based implementation of the RemoteCall interface.

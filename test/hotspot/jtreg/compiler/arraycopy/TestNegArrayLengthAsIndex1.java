@@ -21,21 +21,6 @@
 
 package compiler.arraycopy;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8268362

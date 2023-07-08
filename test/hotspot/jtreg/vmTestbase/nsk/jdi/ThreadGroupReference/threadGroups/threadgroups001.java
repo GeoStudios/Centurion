@@ -21,26 +21,12 @@
 
 package nsk.jdi.ThreadGroupReference.threadGroups;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -158,7 +144,6 @@ public class threadgroups001 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -231,8 +216,6 @@ public class threadgroups001 {
                     break label0;
                 }
 
-
-
                 log2("      getting a ThreadGroupReference object for group1");
                 group1 = (ThreadGroupReference)
                        mainthreadClass.getValue(mainthreadClass.fieldByName(parentName));
@@ -248,7 +231,6 @@ public class threadgroups001 {
                 log2("      getting a ThreadGroupReference object for group4");
                 group4 = (ThreadGroupReference)
                          mainthreadClass.getValue(mainthreadClass.fieldByName(group4Name));
-
 
                 List threadGroups = null;
 
@@ -290,7 +272,6 @@ public class threadgroups001 {
                     log3("ERROR: !s1.equals('threadGroup2') or !s1.equals('threadGroup3') : " + s1);
                     expresult = 1;
                 }
-
 
                 log2("     instructing mainThread to leave synchronized block");
                 pipe.println("continue");

@@ -21,25 +21,10 @@
 
 package java.rmi.share.classes.java.rmi;
 
-
 import java.rmi.share.classes.java.rmi.registry.*;
 import java.rmi.share.classes.java.net.MalformedURLException;
 import java.rmi.share.classes.java.net.URI;
 import java.rmi.share.classes.java.net.URISyntaxException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The <code>Naming</code> class provides methods for storing and obtaining

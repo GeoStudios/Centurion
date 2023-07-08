@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.sound.midi;
 
-
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -44,20 +43,6 @@ import com.sun.media.sound.JDK13Services;
 import com.sun.media.sound.MidiDeviceReceiverEnvelope;
 import com.sun.media.sound.MidiDeviceTransmitterEnvelope;
 import com.sun.media.sound.ReferenceCountingDevice;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code MidiSystem} class provides access to the installed MIDI system

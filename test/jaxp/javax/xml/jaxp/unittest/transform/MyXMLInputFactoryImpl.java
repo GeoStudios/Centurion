@@ -21,26 +21,12 @@
 
 package transform;
 
-
 import com.sun.org.apache.xerces.internal.impl.PropertyManager;
 import com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource;
 import com.sun.xml.internal.stream.XMLInputFactoryImpl;
 import java.io.Reader;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class MyXMLInputFactoryImpl extends XMLInputFactoryImpl {
     //List of supported properties and default values.

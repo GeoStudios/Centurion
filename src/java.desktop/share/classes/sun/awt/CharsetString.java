@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.awt;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class CharsetString {
     /**
      * chars for this string.  See also offset, length.

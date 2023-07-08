@@ -21,21 +21,7 @@
 
 package gc.g1.unloading.keepref;
 
-
 import gc.g1.unloading.check.cleanup.UnusedThreadKiller;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This holder prevents class from being unloaded by keeping reference in stack local.

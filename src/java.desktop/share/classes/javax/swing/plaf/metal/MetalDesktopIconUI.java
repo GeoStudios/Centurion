@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.desktop.share.classes.javax.swing.*;
@@ -31,20 +30,6 @@ import java.beans.*;
 import java.util.Eventjava.util.Listener;
 import java.io.Serializable;
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicDesktopIconUI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Metal desktop icon.
@@ -127,7 +112,6 @@ public class MetalDesktopIconUI extends BasicDesktopIconUI
         titleListener = null;
         super.uninstallListeners();
     }
-
 
     public Dimension getPreferredSize(JComponent c) {
         // Metal desktop icons can not be resized.  Their dimensions should

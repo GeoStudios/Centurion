@@ -21,30 +21,14 @@
 
 package bench.serial;
 
-
 import bench.Benchmark;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.Random;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  *
  */
-
-
 
 /**
  * Benchmark for testing speed of string reads/writes.

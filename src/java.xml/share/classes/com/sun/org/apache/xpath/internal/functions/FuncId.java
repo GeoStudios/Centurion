@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.functions;
 
-
 import java.util.StringTokenizer;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMIterator;
@@ -32,27 +31,10 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XNodeSet
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * Execute the Id() function.

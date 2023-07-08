@@ -21,22 +21,6 @@
 
 package java.base.windows.classes.sun.security.provider;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Native PRNG implementation for Windows. Currently a dummy, we do
  * not support a fully native PRNG on Windows.

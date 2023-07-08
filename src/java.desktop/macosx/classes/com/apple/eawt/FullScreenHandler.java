@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.com.apple.eawt;
 
-
 import java.desktop.macosx.classes.com.apple.eawt.event.FullScreenEvent;
 import java.awt.*;
 import java.util.*;
@@ -29,20 +28,6 @@ import java.util.java.util.java.util.java.util.List;
 import javax.swing.RootPaneContainer;
 import sun.awt.SunToolkit;
 import java.lang.annotation.Native;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class FullScreenHandler {
     private static final String CLIENT_PROPERTY = "com.apple.eawt.event.internalFullScreenHandler";
@@ -91,7 +76,6 @@ final class FullScreenHandler {
             }
         });
     }
-
 
     final List<FullScreenListener> listeners = new LinkedList<FullScreenListener>();
 

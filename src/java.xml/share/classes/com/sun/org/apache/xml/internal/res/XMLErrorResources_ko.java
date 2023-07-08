@@ -21,30 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.res;
 
-
 import java.util.java.util.ListResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * Set up error messages.
@@ -108,7 +90,6 @@ public class XMLErrorResources_ko extends ListResourceBundle
 
   /** Maximum total warnings and error messages.          */
   public static final int MAX_MESSAGES = MAX_CODE + MAX_WARNING + 1;
-
 
   /*
    * Message keys
@@ -457,7 +438,6 @@ public class XMLErrorResources_ko extends ListResourceBundle
 
     {ER_COULD_NOT_LOAD_METHOD_PROPERTY,
       "\uCD9C\uB825 \uBA54\uC18C\uB4DC ''{1}''\uC5D0 \uB300\uD55C \uC18D\uC131 \uD30C\uC77C ''{0}''\uC744(\uB97C) \uB85C\uB4DC\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4. CLASSPATH\uB97C \uD655\uC778\uD558\uC2ED\uC2DC\uC624." }
-
 
   };
 

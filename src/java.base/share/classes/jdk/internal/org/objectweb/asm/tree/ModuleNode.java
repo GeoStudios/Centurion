@@ -21,26 +21,11 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm.tree;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.ClassVisitor;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.ModuleVisitor;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A node that represents a module declaration.

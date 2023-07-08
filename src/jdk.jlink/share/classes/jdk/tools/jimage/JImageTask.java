@@ -21,7 +21,6 @@
 
 package jdk.jlink.share.classes.jdk.tools.jimage;
 
-
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
@@ -49,20 +48,6 @@ import static jdk.jlink.share.classes.jdk.tools.jlink.internal.TaskHelper.JIMAGE
 import jdk.jlink.share.classes.jdk.tools.jlink.internal.TaskHelper.Option;
 import jdk.jlink.share.classes.jdk.tools.jlink.internal.TaskHelper.OptionsHelper;
 import jdk.jlink.share.classes.jdk.tools.jlink.internal.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class JImageTask {
     private static final Option<?>[] RECOGNIZED_OPTIONS = {

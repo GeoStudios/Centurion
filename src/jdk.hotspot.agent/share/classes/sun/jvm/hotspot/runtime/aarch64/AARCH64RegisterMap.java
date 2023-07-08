@@ -21,23 +21,8 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.aarch64;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AARCH64RegisterMap extends RegisterMap {
 

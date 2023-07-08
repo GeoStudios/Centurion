@@ -21,24 +21,9 @@
 
 package java.base.share.classes.jdk.internal.util;
 
-
 import java.lang.annotation.Native;
 import java.util.HashMap;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * System Property initialization for internal use only

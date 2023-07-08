@@ -21,26 +21,12 @@
 
 package nsk.jdi.ClassType.setValue;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -142,7 +128,6 @@ public class setvalue004 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -197,7 +182,6 @@ public class setvalue004 {
             Field field1 = null;
             Field field2 = null;
 
-
             String names[] = { "bl1", "bt1", "ch1", "db1",
                                "fl1", "in1", "ln1", "sh1" };
 
@@ -229,7 +213,6 @@ public class setvalue004 {
                     testExitCode = FAILED;
                 }
             }
-
 
             String name = "testObj";
 

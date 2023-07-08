@@ -21,22 +21,7 @@
 
 package java.desktop.macosx.classes.sun.font;
 
-
 import java.util.HashMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CCharToGlyphMapper extends CharToGlyphMapper {
     private static native int countGlyphs(final long nativeFontPtr);

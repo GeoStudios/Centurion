@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.java.beans;
 
-
 import java.desktop.share.classes.java.lang.ref.ReferenceQueue;
 import java.desktop.share.classes.java.lang.ref.WeakReference;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Hash table based mapping, which uses weak references to store keys
@@ -171,7 +156,6 @@ abstract class WeakIdentityMap<T> {
             }
         }
     }
-
 
     @SuppressWarnings("unchecked")
     private Entry<T>[] newTable(int length) {

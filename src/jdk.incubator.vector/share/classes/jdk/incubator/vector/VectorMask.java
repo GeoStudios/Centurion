@@ -21,26 +21,11 @@
 
 package jdk.incubator.vector.share.classes.jdk.incubator.vector;
 
-
 import jdk.incubator.vector.share.classes.jdk.internal.misc.Unsafe;
 import jdk.incubator.vector.share.classes.jdk.internal.vm.annotation.ForceInline;
 import jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport;
 import java.base.share.classes.java.util.Arrays;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code VectorMask} represents an ordered immutable sequence of {@code boolean}

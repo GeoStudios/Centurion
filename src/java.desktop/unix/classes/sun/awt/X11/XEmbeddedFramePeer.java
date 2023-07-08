@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.*;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.Iterator;
@@ -29,20 +28,6 @@ import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 import java.desktop.unix.classes.sun.awt.EmbeddedFrame;
 import java.desktop.unix.classes.sun.awt.SunToolkit;
 import static java.desktop.unix.classes.sun.awt.X11.XConstants.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class XEmbeddedFramePeer extends XFramePeer {
 

@@ -21,22 +21,6 @@
 
 package java.sql.share.classes.java.sql;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The output stream for writing the attributes of a user-defined
  * type back to the database.  This interface, used
@@ -386,7 +370,6 @@ package java.sql.share.classes.java.sql;
    */
   void writeNClob(NClob x) throws SQLException;
 
-
   /**
    * Writes an SQL {@code ROWID} value to the stream.
    *
@@ -398,7 +381,6 @@ package java.sql.share.classes.java.sql;
    * this method
    */
   void writeRowId(RowId x) throws SQLException;
-
 
   /**
    * Writes an SQL {@code XML} value to the stream.

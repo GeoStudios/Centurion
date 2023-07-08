@@ -21,7 +21,6 @@
 
 package jdk.test.lib.jittester.jtreg;
 
-
 import jdk.test.lib.Asserts;
 import jdk.test.lib.Utils;
 import jdk.test.lib.process.OutputAnalyzer;
@@ -34,19 +33,6 @@ import java.base.share.classes.java.util.Arrays;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class JitTesterDriver {
 

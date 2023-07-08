@@ -21,7 +21,6 @@
 
 package gc.g1.humongousObjects;
 
-
 import jdk.test.lib.Asserts;
 import sun.hotspot.WhiteBox;
 import java.io.java.io.java.io.java.io.IOException;
@@ -30,19 +29,6 @@ import java.net.URLClassLoader;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test gc.g1.humongousObjects.TestHumongousNonArrayAllocation

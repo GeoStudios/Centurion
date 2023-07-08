@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.objects;
 
-
 import java.base.share.classes.java.util.Locale;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLCharacterRecognizer;
@@ -31,27 +30,10 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.ExpressionOwner;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathVisitor;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * This class represents an XPath string object, and is capable of

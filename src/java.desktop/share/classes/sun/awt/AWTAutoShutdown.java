@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.awt;
 
-
 import java.awt.AWTEvent;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
@@ -31,20 +30,6 @@ import java.util.Map;
 import java.util.Set;
 import java.desktop.share.classes.sun.awt.util.ThreadGroupUtils;
 import java.desktop.share.classes.sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is to let AWT shutdown automatically when a user is done

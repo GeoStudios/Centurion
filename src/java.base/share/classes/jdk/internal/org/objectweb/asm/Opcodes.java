@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The JVM opcodes, access flags and array type codes. This interface does not define all the JVM
  * opcodes because some opcodes are automatically handled. For example, the xLOAD and xSTORE opcodes

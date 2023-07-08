@@ -21,21 +21,7 @@
 
 package nsk.jvmti.GetFieldDeclaringClass;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class getfldecl004 {
 

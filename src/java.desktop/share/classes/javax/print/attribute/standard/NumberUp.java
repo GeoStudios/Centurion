@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.javax.print.attribute.standard;
 
-
 import java.io.Serial;
 import java.desktop.share.classes.javax.print.attribute.Attribute;
 import java.desktop.share.classes.javax.print.attribute.DocAttribute;
 import java.desktop.share.classes.javax.print.attribute.IntegerSyntax;
 import java.desktop.share.classes.javax.print.attribute.PrintJobAttribute;
 import java.desktop.share.classes.javax.print.attribute.PrintRequestAttribute;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class {@code NumberUp} is an integer valued printing attribute class that

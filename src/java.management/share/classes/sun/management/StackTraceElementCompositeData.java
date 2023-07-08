@@ -21,7 +21,6 @@
 
 package java.management.share.classes.sun.management;
 
-
 import javax.management.openmbean.CompositeType;
 import javax.management.openmbean.CompositeData;
 import javax.management.openmbean.CompositeDataSupport;
@@ -31,20 +30,6 @@ import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A CompositeData for StackTraceElement for the local management support.

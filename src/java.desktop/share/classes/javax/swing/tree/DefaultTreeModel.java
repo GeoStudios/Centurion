@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.tree;
 
-
 import java.beans.ConstructorProperties;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InvalidObjectException;
@@ -34,20 +33,6 @@ import java.util.Vector;
 import java.desktop.share.classes.javax.swing.event.Eventjava.util.Listenerjava.util.java.util.java.util.List;
 import java.desktop.share.classes.javax.swing.event.TreeModelEvent;
 import java.desktop.share.classes.javax.swing.event.TreeModeljava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A simple tree data model that uses TreeNodes.
@@ -88,7 +73,6 @@ public class DefaultTreeModel implements Serializable, TreeModel {
       * @see #setAsksAllowsChildren
       */
     protected boolean asksAllowsChildren;
-
 
     /**
       * Creates a tree in which any node can have children.
@@ -728,6 +712,5 @@ public class DefaultTreeModel implements Serializable, TreeModel {
             indexCounter++;
         }
     }
-
 
 } // End of class DefaultTreeModel

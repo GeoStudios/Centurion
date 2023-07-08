@@ -21,7 +21,6 @@
 
 package vm.share.options;
 
-
 import java.util.Map;
 import java.util.LinkedHashMap;
 import java.util.java.util.java.util.java.util.List;
@@ -33,19 +32,6 @@ import java.lang.reflect.Modifier;
 import java.io.PrintStream;
 import nsk.share.TestBug;
 import nsk.share.log.LogSupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class OptionsSetup {
     private LogSupport log = new LogSupport();

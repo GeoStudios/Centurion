@@ -21,7 +21,6 @@
 
 package java.security.sasl.share.classes.javax.security.sasl;
 
-
 import java.security.sasl.share.classes.javax.security.auth.callback.CallbackHandler;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
@@ -40,20 +39,6 @@ import java.security.Provider.Service;
 import java.security.Security;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A static class for creating SASL clients and servers.
@@ -469,7 +454,6 @@ public class Sasl {
             throw new SaslException("Cannot instantiate service " + service, e);
         }
     }
-
 
     /**
      * Creates a {@code SaslServer} for the specified mechanism.

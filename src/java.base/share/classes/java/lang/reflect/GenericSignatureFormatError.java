@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang.reflect;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Thrown when a syntactically malformed signature attribute is
  * encountered by a reflective method that needs to interpret the generic

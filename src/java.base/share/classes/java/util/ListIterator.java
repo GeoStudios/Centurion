@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An iterator for lists that allows the programmer
  * to traverse the list in either direction, modify
@@ -139,7 +123,6 @@ public interface ListIterator<E> extends Iterator<E> {
      *         iterator is at the beginning of the list
      */
     int previousIndex();
-
 
     // Modification Operations
 

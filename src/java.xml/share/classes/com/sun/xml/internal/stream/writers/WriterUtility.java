@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.writers;
 
-
 import java.io.FileWriter;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStreamWriter;
@@ -30,27 +29,12 @@ import java.nio.charset.Charset;
 import java.nio.charset.CharsetEncoder;
 import jdk.xml.internal.SecuritySupport;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Implements common xml writer functions.
  *
  */
 
 public class WriterUtility {
-
 
     public static final String START_COMMENT = "<!--";
     public static final String END_COMMENT = "-->";
@@ -87,7 +71,6 @@ public class WriterUtility {
     public WriterUtility(){
         fEncoder = getDefaultEncoder();
     }
-
 
     /** Creates a new instance of WriterUtility */
     public WriterUtility(Writer writer) {
@@ -236,7 +219,6 @@ public class WriterUtility {
         if(content == null || content.length() == 0) return ;
         writeXMLContent(content.toCharArray(), 0, content.length());
     }
-
 
     /**
      * Write Attribute value to the underlying stream.

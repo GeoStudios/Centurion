@@ -21,21 +21,6 @@
 
 package compiler.codegen;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 7119644
@@ -45,7 +30,6 @@ package compiler.codegen;
  *    -XX:-TieredCompilation -XX:-OptimizeFill
  *    compiler.codegen.TestBooleanVect
  */
-
 
 public class TestBooleanVect {
   private static final int ARRLEN = 997;

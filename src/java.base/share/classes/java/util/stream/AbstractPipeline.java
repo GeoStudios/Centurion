@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.util.stream;
 
-
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.util.Spliterator;
 import java.base.share.classes.java.util.function.IntFunction;
 import java.base.share.classes.java.util.function.Supplier;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Abstract base class for "pipeline" classes, which are the core
@@ -224,7 +209,6 @@ abstract class AbstractPipeline<E_IN, E_OUT, S extends BaseStream<E_OUT, S>>
         this.depth = previousStage.depth + 1;
     }
 
-
     // Terminal evaluation methods
 
     /**
@@ -383,7 +367,6 @@ abstract class AbstractPipeline<E_IN, E_OUT, S extends BaseStream<E_OUT, S>>
     public final boolean isParallel() {
         return sourceStage.parallel;
     }
-
 
     /**
      * Returns the composition of stream flags of the stream source and all
@@ -587,7 +570,6 @@ abstract class AbstractPipeline<E_IN, E_OUT, S extends BaseStream<E_OUT, S>>
         }
     }
 
-
     // Shape-specific abstract methods, implemented by XxxPipeline classes
 
     /**
@@ -664,7 +646,6 @@ abstract class AbstractPipeline<E_IN, E_OUT, S extends BaseStream<E_OUT, S>>
     @Override
     abstract Node.Builder<E_OUT> makeNodeBuilder(long exactSizeIfKnown,
                                                  IntFunction<E_OUT[]> generator);
-
 
     // Op-specific abstract methods, implemented by the operation class
 

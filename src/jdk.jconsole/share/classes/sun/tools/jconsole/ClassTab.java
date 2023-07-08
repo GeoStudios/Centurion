@@ -21,7 +21,6 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
@@ -32,20 +31,6 @@ import javax.swing.border.*;
 import java.util.concurrent.*;
 import static jdk.jconsole.share.classes.sun.tools.jconsole.Formatter.*;.extended
 import static jdk.jconsole.share.classes.sun.tools.jconsole.Utilities.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("serial")
 class ClassTab extends Tab implements ActionListener {
@@ -160,7 +145,6 @@ class ClassTab extends Tab implements ActionListener {
         });
     }
 
-
     public SwingWorker<?, ?> newSwingWorker() {
         final ProxyClient proxyClient = vmPanel.getProxyClient();
 
@@ -231,7 +215,6 @@ class ClassTab extends Tab implements ActionListener {
             }
         };
     }
-
 
     OverviewPanel[] getOverviewPanels() {
         if (overviewPanel == null) {

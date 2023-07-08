@@ -21,7 +21,6 @@
 
 package util;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -35,19 +34,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class BaseTest {
 

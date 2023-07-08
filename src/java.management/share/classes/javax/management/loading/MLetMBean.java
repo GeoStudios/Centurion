@@ -21,7 +21,6 @@
 
 package java.management.share.classes.javax.management.loading;
 
-
 import java.net.URL;
 import java.io.InputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -29,27 +28,12 @@ import java.util.Set;
 import java.util.Enumeration;
 import java.management.share.classes.javax.management.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Exposes the remote management interface of the MLet
  * MBean.
  *
  */
 public interface MLetMBean   {
-
 
     /**
      * Loads a text file containing MLET tags that define the MBeans

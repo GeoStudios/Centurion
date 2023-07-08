@@ -21,56 +21,6 @@
 
 package build.tools.generatenimbus;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class UIDefault<T> {
     String name;
     private T value;

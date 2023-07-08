@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.utils;
 
-
 import javax.xml.XMLConstants;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.SecuritySupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class manages security related properties
@@ -166,7 +151,6 @@ public final class XMLSecurityPropertyManager {
             states[index] = state;
         }
     }
-
 
     /**
      * Return the value of the specified property

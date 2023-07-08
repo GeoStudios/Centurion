@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-
 import java.util.*;
 import javax.lang.model.element.TypeElement;
 import javax.lang.model.element.VariableElement;
@@ -36,20 +35,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.marku
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.SerializedFormWriter;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.CommentHelper;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Generate serialized form for serializable fields.

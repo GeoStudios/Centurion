@@ -21,22 +21,6 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Used to suppress <a href="http://findbugs.sourceforge.net">FindBugs</a> warnings.
  */

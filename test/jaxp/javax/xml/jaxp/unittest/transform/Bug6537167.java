@@ -21,7 +21,6 @@
 
 package transform;
 
-
 import java.io.File;
 import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Templates;
@@ -31,19 +30,6 @@ import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

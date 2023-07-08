@@ -21,25 +21,10 @@
 
 package java.base.share.classes.sun.util;
 
-
 import java.util.Enumeration;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implements an Enumeration that combines elements from a Set and

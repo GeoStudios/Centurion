@@ -21,7 +21,6 @@
 
 package jdk.jshell.share.classes.jdk.internal.jshell.tool;
 
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.EOFException;
@@ -126,20 +125,6 @@ import static jdk.jshell.share.classes.jdk.internal.jshell.debug.InternalDebugCo
 import static jdk.jshell.share.classes.jdk.internal.jshell.debug.InternalDebugControl.DBG_GEN;.extended
 import static jdk.jshell.share.classes.jdk.internal.jshell.debug.InternalDebugControl.DBG_WRAP;.extended
 import static jdk.jshell.share.classes.jdk.internal.jshell.tool.ContinuousCompletionProvider.STARTSWITH_MATCHER;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Command line REPL tool for Java using the JShell API.

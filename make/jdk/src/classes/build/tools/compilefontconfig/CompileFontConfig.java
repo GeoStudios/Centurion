@@ -21,56 +21,6 @@
 
 package build.tools.compilefontconfig;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class CompileFontConfig {
     public static void main(String[] argv) {
         boolean verbose = false;

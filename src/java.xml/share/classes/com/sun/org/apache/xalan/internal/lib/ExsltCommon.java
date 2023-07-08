@@ -21,32 +21,15 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.lib;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.extensions.ExpressionContext;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMIterator;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.DTMNodeIterator;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.NodeSet;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * This class contains EXSLT common extension functions.

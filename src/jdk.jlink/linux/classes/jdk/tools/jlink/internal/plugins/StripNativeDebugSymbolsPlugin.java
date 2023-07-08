@@ -21,7 +21,6 @@
 
 package jdk.jlink.linux.classes.jdk.tools.jlink.internal.plugins;
 
-
 import java.io.InputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.lang.ProcessBuilder.Redirect;
@@ -46,20 +45,6 @@ import jdk.jlink.linux.classes.jdk.tools.jlink.plugin.PluginException;
 import jdk.jlink.linux.classes.jdk.tools.jlink.plugin.ResourcePool;
 import jdk.jlink.linux.classes.jdk.tools.jlink.plugin.ResourcePoolBuilder;
 import jdk.jlink.linux.classes.jdk.tools.jlink.plugin.ResourcePoolEntry;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Platform specific jlink plugin for stripping debug symbols from native

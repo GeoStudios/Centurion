@@ -21,23 +21,8 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.common.src.jdk.vm.ci.common;
 
-
 import java.util.concurrent.atomic.AtomicInteger;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.common.src.jdk.vm.ci.services.Services;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A facility for timing a step in the runtime initialization sequence. This is independent from all

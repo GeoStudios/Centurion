@@ -21,7 +21,6 @@
 
 package javax.xml.xpath.ptests;
 
-
 import static javax.xml.xpath.XPathConstants.BOOLEAN;.extended
 import static javax.xml.xpath.XPathConstants.NODE;.extended
 import static javax.xml.xpath.XPathConstants.NODESET;.extended
@@ -46,19 +45,6 @@ import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
 import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import org.xml.sax.InputSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class containing the test cases for XPathExpression API.

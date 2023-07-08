@@ -21,26 +21,11 @@
 
 package java.management.share.classes.javax.management;
 
-
 import java.lang.reflect.Method;
 import java.security.AccessController;
 import com.sun.jmx.mbeanserver.GetPropertyAction;
 import com.sun.jmx.mbeanserver.Introspector;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Describes an MBean attribute exposed for management.  Instances of
@@ -98,7 +83,6 @@ public class MBeanAttributeInfo extends MBeanFeatureInfo implements Cloneable {
      * @serial Indicates if this method is a "is"
      */
     private final boolean is;
-
 
     /**
      * Constructs an {@code MBeanAttributeInfo} object.

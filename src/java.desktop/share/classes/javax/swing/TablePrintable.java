@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.desktop.share.classes.javax.swing.table.*;
 import java.awt.*;
 import java.awt.print.*;
 import java.awt.geom.*;
 import java.text.MessageFormat;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of <code>Printable</code> for printing

@@ -21,26 +21,12 @@
 
 package nsk.jdi.ThreadGroupReference.parent;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //import com.sun.jdi.event.*;
 //import com.sun.jdi.request.*;
@@ -163,7 +149,6 @@ public class parent001 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -236,21 +221,17 @@ public class parent001 {
                     break label0;
                 }
 
-
-
                 log2("      getting a ThreadGroupReference object for a parent of 'mainthreadGroup'");
                 str = ( (StringReference)
                        thread2Class.getValue(thread2Class.fieldByName(obj0Name)) ).value();
                 group0 = (ThreadGroupReference)
                     mainthreadClass.getValue(mainthreadClass.fieldByName(str));
 
-
                 log2("      getting a ThreadGroupReference object for 'mainthreadGroup'");
                 str = ( (StringReference)
                        thread2Class.getValue(thread2Class.fieldByName(obj1Name)) ).value();
                 group1 = (ThreadGroupReference)
                     mainthreadClass.getValue(mainthreadClass.fieldByName(str));
-
 
                 log2("      getting a ThreadGroupReference object for 'thread2Group1'");
                 str = ( (StringReference)
@@ -263,7 +244,6 @@ public class parent001 {
                        thread2Class.getValue(thread2Class.fieldByName(obj3Name)) ).value();
                 group3 = (ThreadGroupReference)
                     thread2Class.getValue(thread2Class.fieldByName(str));
-
 
                 log2("      checking up the parent of 'thread2Group2'; 'thread2Group1' is expected");
                 if (!group3.parent().equals(group2)) {
@@ -280,7 +260,6 @@ public class parent001 {
                     log3("ERROR: group1.parent().equals(group0) : " + group1.parent().name());
                     expresult = returnCode1;
                 }
-
 
                 log2("     instructing mainThread to leave synchronized block");
                 pipe.println("continue");

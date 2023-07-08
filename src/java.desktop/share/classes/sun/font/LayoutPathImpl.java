@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.font;
 
-
 import java.awt.Shape;
 import java.awt.font.LayoutPath;
 import java.awt.geom.AffineTransform;
@@ -35,27 +34,11 @@ import static java.awt.geom.PathIterator.*;.extended
 import static java.lang.Math.abs;.extended
 import static java.lang.Math.sqrt;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //
 // This is the 'simple' mapping implementation.  It does things the most
 // straightforward way even if that is a bit slow.  It won't
 // handle complex paths efficiently, and doesn't handle closed paths.
 //
-
-
 
 public abstract class LayoutPathImpl extends LayoutPath {
 
@@ -963,7 +946,6 @@ public abstract class LayoutPathImpl extends LayoutPath {
             return b.toString();
         }
     }
-
 
     public static class EmptyPath extends LayoutPathImpl {
         private final AffineTransform tx;

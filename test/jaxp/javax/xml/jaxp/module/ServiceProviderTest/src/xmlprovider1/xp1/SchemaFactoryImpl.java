@@ -21,7 +21,6 @@
 
 package xp1;
 
-
 import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;.extended
 import javax.xml.transform.Source;
 import javax.xml.validation.Schema;
@@ -29,19 +28,6 @@ import javax.xml.validation.SchemaFactory;
 import org.w3c.dom.ls.LSResourceResolver;
 import org.xml.sax.ErrorHandler;
 import org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class SchemaFactoryImpl extends SchemaFactory {
 

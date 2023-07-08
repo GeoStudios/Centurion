@@ -21,23 +21,9 @@
 
 package nsk.jdi.EventRequest.setEnabled;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the setenabled003 JDI test.
@@ -126,7 +112,6 @@ public class setenabled003a {
                             } catch ( InterruptedException e ) {
                             }
                             i++;
-
 
     //-------------------------------------------------    standard end section
 

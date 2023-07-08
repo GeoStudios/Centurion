@@ -21,25 +21,10 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.*;
 import java.util.HashMap;
 import java.awt.event.KeyEvent;
 import java.desktop.unix.classes.sun.awt.AWTAccessor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class XEmbeddingContainer extends XEmbedHelper implements XEventDispatcher {
     HashMap<Long, java.awt.peer.ComponentPeer> children = new HashMap<>();

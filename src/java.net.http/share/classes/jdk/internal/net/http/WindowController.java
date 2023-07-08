@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http;
 
-
 import java.lang.System.Logger.Level;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Map;
@@ -32,20 +31,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.locks.ReentrantLock;
 import java.net.http.share.classes.jdk.internal.net.http.common.Logger;
 import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A Send Window Flow-Controller that is used to control outgoing Connection

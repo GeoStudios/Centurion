@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * FCMPL - Compare floats: value1 &lt; value2
@@ -54,14 +37,12 @@ public class FCMPL extends Instruction implements TypedInstruction, StackProduce
         super(com.sun.org.apache.bcel.internal.Const.FCMPL, (short) 1);
     }
 
-
     /** @return Type.FLOAT
      */
     @Override
     public Type getType( final ConstantPoolGen cp ) {
         return Type.FLOAT;
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

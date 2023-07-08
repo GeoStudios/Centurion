@@ -21,24 +21,9 @@
 
 package java.base.share.classes.java.security.cert;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.OutputStream;
 import java.base.share.classes.java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This interface represents an X.509 extension.

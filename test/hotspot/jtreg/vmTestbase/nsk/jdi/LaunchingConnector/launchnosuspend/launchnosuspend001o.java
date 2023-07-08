@@ -21,21 +21,6 @@
 
 package nsk.jdi.LaunchingConnector.launchnosuspend;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Dummy debugee application used to test JDI connection.
  */

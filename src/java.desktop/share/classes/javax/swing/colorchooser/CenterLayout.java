@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing.colorchooser;
 
-
 import java.awt.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * Center-positioning layout manager.

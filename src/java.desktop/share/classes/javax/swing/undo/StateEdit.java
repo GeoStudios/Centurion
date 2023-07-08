@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.swing.undo;
 
-
 import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.Vector;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <P>StateEdit is a general edit for objects that change state.
@@ -140,11 +125,9 @@ public class StateEdit
         this.undoRedoName = name;
     }
 
-
     //
     // Operation
     //
-
 
     /**
      * Gets the post-edit state of the StateEditable object and
@@ -178,7 +161,6 @@ public class StateEdit
     public String getPresentationName() {
         return this.undoRedoName;
     }
-
 
     //
     // Internal support

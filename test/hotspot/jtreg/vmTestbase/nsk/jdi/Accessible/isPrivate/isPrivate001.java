@@ -21,26 +21,12 @@
 
 package nsk.jdi.Accessible.isPrivate;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This test checks the method <code>isPrivate()</code>
@@ -58,7 +44,6 @@ public class isPrivate001 extends Log {
 //        package_prefix = "",    //  for DEBUG without package
         thisClassName = package_prefix + "isPrivate001",
         debugeeName   = thisClassName + "a";
-
 
     static ArgumentHandler      argsHandler;
     private static Log  logHandler;
@@ -95,7 +80,6 @@ public class isPrivate001 extends Log {
         {debugeeName+"$W", "public", "reference_type"         },
         {debugeeName+"$P", "package private", "reference_type"}
     };
-
 
     /**
      * Re-call to <code>run(args,out)</code>, and exit with
@@ -136,13 +120,11 @@ public class isPrivate001 extends Log {
             out_stream = out;
         }
 
-
         Debugee debugee;
 
         argsHandler     = new ArgumentHandler(argv);
         logHandler      = new Log(out, argsHandler);
         Binder binder   = new Binder(argsHandler, logHandler);
-
 
         if (argsHandler.verbose()) {
             debugee = binder.bindToDebugee(debugeeName + " -vbs");
@@ -178,7 +160,6 @@ public class isPrivate001 extends Log {
         int all_classes_count = 0;
         int class_not_found_errors = 0;
         int isPrivate_method_errors = 0;
-
 
         for (int i=0; i<classes_for_check.length; i++) {
             String basicName = classes_for_check[i][0];

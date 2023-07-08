@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.accessibility;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The {@code AccessibleValue} interface should be supported by any object that
  * supports a numerical value (e.g., a scroll bar). This interface provides the

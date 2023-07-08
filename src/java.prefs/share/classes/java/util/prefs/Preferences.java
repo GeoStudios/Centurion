@@ -21,7 +21,6 @@
 
 package java.prefs.share.classes.java.util.prefs;
 
-
 import java.prefs.share.classes.java.io.InputStream;
 import java.prefs.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.prefs.share.classes.java.io.OutputStream;
@@ -36,20 +35,6 @@ import java.prefs.share.classes.java.lang.Integer;
 import java.prefs.share.classes.java.lang.Long;
 import java.prefs.share.classes.java.lang.Float;
 import java.prefs.share.classes.java.lang.Double;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // These imports needed only as a workaround for a JavaDoc bug
 

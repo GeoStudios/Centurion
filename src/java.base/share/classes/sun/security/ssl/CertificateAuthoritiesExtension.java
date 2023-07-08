@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.security.cert.X509Certificate;
@@ -32,20 +31,6 @@ import javax.security.auth.x500.X500Principal;
 import java.base.share.classes.sun.security.ssl.SSLExtension.ExtensionConsumer;
 import java.base.share.classes.sun.security.ssl.SSLExtension.SSLExtensionSpec;
 import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Pack of the "certificate_authorities" extensions.

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.Component;
 import java.awt.ComponentOrientation;
 import java.awt.Container;
@@ -55,20 +54,6 @@ import java.desktop.share.classes.javax.swing.event.MenuEvent;
 import java.desktop.share.classes.javax.swing.event.Menujava.util.Listener;
 import java.desktop.share.classes.javax.swing.plaf.MenuItemUI;
 import java.desktop.share.classes.javax.swing.plaf.PopupMenuUI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of a menu -- a popup window containing
@@ -199,7 +184,6 @@ public class JMenu extends JMenuItem implements Accessible,MenuElement
         this(s);
     }
 
-
     /**
      * Overriden to do nothing. We want JMenu to be focusable, but
      * <code>JMenuItem</code> doesn't want to be, thus we override this
@@ -229,7 +213,6 @@ public class JMenu extends JMenuItem implements Accessible,MenuElement
           }
 
     }
-
 
     /**
      * Returns the name of the L&amp;F class that renders this component.
@@ -392,7 +375,6 @@ public class JMenu extends JMenuItem implements Accessible,MenuElement
             }
         }
 
-
         if (gc != null) {
             screenBounds = gc.getBounds();
             // take screen insets (e.g. taskbar) into account
@@ -484,7 +466,6 @@ public class JMenu extends JMenuItem implements Accessible,MenuElement
         }
         return new Point(x,y);
     }
-
 
     /**
      * Returns the suggested delay, in milliseconds, before submenus
@@ -941,7 +922,6 @@ public class JMenu extends JMenuItem implements Accessible,MenuElement
         return false;
     }
 
-
     /*
      * Returns a point in the coordinate space of this menu's popupmenu
      * which corresponds to the point <code>p</code> in the menu's
@@ -1136,7 +1116,6 @@ public class JMenu extends JMenuItem implements Accessible,MenuElement
         return new MenuChangeListener();
     }
 
-
     /**
      * Creates a window-closing listener for the popup.
      *
@@ -1217,7 +1196,6 @@ public class JMenu extends JMenuItem implements Accessible,MenuElement
         }
     }
 
-
     // implements javax.swing.MenuElement
     /**
      * Returns the <code>java.awt.Component</code> used to
@@ -1228,7 +1206,6 @@ public class JMenu extends JMenuItem implements Accessible,MenuElement
     public Component getComponent() {
         return this;
     }
-
 
     /**
      * Sets the <code>ComponentOrientation</code> property of this menu
@@ -1339,7 +1316,6 @@ public class JMenu extends JMenuItem implements Accessible,MenuElement
         return me;
     }
 
-
     /**
      * See <code>readObject</code> and <code>writeObject</code> in
      * <code>JComponent</code> for more
@@ -1357,7 +1333,6 @@ public class JMenu extends JMenuItem implements Accessible,MenuElement
         }
     }
 
-
     /**
      * Returns a string representation of this <code>JMenu</code>. This
      * method is intended to be used only for debugging purposes, and the
@@ -1370,7 +1345,6 @@ public class JMenu extends JMenuItem implements Accessible,MenuElement
     protected String paramString() {
         return super.paramString();
     }
-
 
 /////////////////
 // Accessibility support
@@ -1557,7 +1531,6 @@ public class JMenu extends JMenuItem implements Accessible,MenuElement
             }
             return false;
         }
-
 
         /**
          * Selects the <code>i</code>th menu in the menu.

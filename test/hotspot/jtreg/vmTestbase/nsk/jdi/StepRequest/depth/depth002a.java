@@ -21,23 +21,9 @@
 
 package nsk.jdi.StepRequest.depth;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the depth002 JDI test.
@@ -125,12 +111,10 @@ public class depth002a {
                                 break;
                 }
 
-
                 log1("methodForCommunication();");
                 methodForCommunication();
                 if (instruction == end)
                     break;
-
 
             }
 

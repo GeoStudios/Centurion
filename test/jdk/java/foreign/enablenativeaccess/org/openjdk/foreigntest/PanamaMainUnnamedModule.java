@@ -21,25 +21,11 @@
 
 package org.openjdk.foreigntest;
 
-
 import jdk.incubator.foreign.*;
 import org.testng.annotations.Test;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class PanamaMainUnnamedModule {
    @Test

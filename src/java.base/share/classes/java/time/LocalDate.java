@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time;
 
-
 import static java.base.share.classes.java.time.LocalTime.SECONDS_PER_DAY;.extended
 import static java.base.share.classes.java.time.temporal.ChronoField.ALIGNED_DAY_OF_WEEK_IN_MONTH;.extended
 import static java.base.share.classes.java.time.temporal.ChronoField.ALIGNED_DAY_OF_WEEK_IN_YEAR;.extended
@@ -62,20 +61,6 @@ import java.base.share.classes.java.time.zone.ZoneRules;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.util.stream.LongStream;
 import java.base.share.classes.java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A date without a time-zone in the ISO-8601 calendar system,

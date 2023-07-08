@@ -21,22 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class is used by the back end to do thread synchronization.
  * We don't want to use java.lang.Object(s) for two reasons: we can't

@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLErrorResources;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.res.XMLMessages;
@@ -39,28 +38,10 @@ import java.xml.share.classes.com.sun.org.xml.sax.SAXParseException;
 import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
-
 
 /** <p>IncrementalSAXSource_Filter implements IncrementalSAXSource, using a
  * standard SAX2 event source as its input and parcelling out those
@@ -477,7 +458,6 @@ implements IncrementalSAXSource, ContentHandler, DTDHandler, LexicalHandler, Err
       clientErrorHandler.error(exception);
   }
 
-
   //
   // coroutine support
   //
@@ -757,7 +737,6 @@ implements IncrementalSAXSource, ContentHandler, DTDHandler, LexicalHandler, Err
       }
   }
 
-
   //================================================================
   /** Simple unit test. Attempt coroutine parsing of document indicated
    * by first argument (as a URI), report progress.
@@ -769,7 +748,6 @@ implements IncrementalSAXSource, ContentHandler, DTDHandler, LexicalHandler, Err
 
     org.xml.sax.XMLReader theSAXParser=
       new com.sun.org.apache.xerces.internal.parsers.SAXParser();
-
 
     for(int arg=0;arg<args.length;++arg)
     {

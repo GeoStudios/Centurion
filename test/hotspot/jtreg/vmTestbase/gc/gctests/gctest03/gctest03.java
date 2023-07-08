@@ -21,24 +21,10 @@
 
 package gc.gctests.gctest03;
 
-
 import nsk.share.test.*;
 import nsk.share.gc.*;
 import nsk.share.TestFailure;
 import nsk.share.TestBug;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*  stress testing
  Redthreads keep removing new nodes from a binary sort tree(
@@ -52,7 +38,6 @@ import nsk.share.TestBug;
  to test if memory management module and gc() crash.
  */
 
-
 /*
  * @test
  * @key randomness
@@ -65,8 +50,6 @@ import nsk.share.TestBug;
  * @compile Tree.java appthread.java
  * @run main/othervm gc.gctests.gctest03.gctest03 10000
  */
-
-
 
 //import Tree;
 //import Redthread;
@@ -130,7 +113,6 @@ public class gctest03 extends TestBase {
                                 bth[i].setName("Bluethread" + i);
                                 bth[i].start();
                         }
-
 
                         //create 10 threads inquiring data from the tree
 

@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 6663621
@@ -43,7 +28,6 @@ package compiler.c2;
  *
  * @run main compiler.c2.IVTest
  */
-
 
 public class IVTest {
     static int paddedSize;

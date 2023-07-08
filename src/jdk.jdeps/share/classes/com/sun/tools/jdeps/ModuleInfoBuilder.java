@@ -21,7 +21,6 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.jdeps;
 
-
 import static jdk.jdeps.share.classes.com.sun.tools.jdeps.JdepsTask.*;.extended
 import static jdk.jdeps.share.classes.com.sun.tools.jdeps.Analyzer.*;.extended
 import static jdk.jdeps.share.classes.com.sun.tools.jdeps.JdepsFilter.DEFAULT_FILTER;.extended
@@ -48,20 +47,6 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import static java.util.stream.Collectors.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ModuleInfoBuilder {
     final JdepsConfiguration configuration;

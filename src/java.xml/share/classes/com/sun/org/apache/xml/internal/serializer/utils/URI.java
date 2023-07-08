@@ -21,23 +21,8 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class to represent a Uniform Resource Identifier (URI). This class

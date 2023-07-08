@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.event.InputEvent;
 import java.desktop.share.classes.java.awt.event.KeyEvent;
 import java.desktop.share.classes.java.awt.geom.AffineTransform;
@@ -40,20 +39,6 @@ import sun.awt.image.SunWritableRaster;
 import sun.java2d.SunGraphicsEnvironment;
 import static sun.java2d.SunGraphicsEnvironment.toDeviceSpace;.extended
 import static sun.java2d.SunGraphicsEnvironment.toDeviceSpaceAbs;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used to generate native system input events
@@ -545,7 +530,6 @@ public class Robot {
 
             highResolutionImage = new BufferedImage(screenCapCM, raster,
                     false, null);
-
 
             // LowResolutionImage
             lowResolutionImage = new BufferedImage(screenRect.width,

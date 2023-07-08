@@ -21,26 +21,12 @@
 
 package nsk.jdi.Field.isVolatile;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class isvol001 {
     final static String IS_VOL = "volatile";

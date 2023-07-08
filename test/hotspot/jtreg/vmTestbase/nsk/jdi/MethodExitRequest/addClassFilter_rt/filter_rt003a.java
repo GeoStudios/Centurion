@@ -21,23 +21,9 @@
 
 package nsk.jdi.MethodExitRequest.addClassFilter_rt;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the filter_rt003 JDI test.
@@ -161,7 +147,6 @@ public class filter_rt003a {
         }
     }
 }
-
 
 class filter_rt003aTestClass10{
     static void m10() {

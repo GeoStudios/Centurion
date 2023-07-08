@@ -21,7 +21,6 @@
 
 package vm.mlvm.tools;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Writer;
 import java.util.Set;
@@ -44,19 +43,6 @@ import vm.mlvm.tools.StratumAPTreeVisitor.StratumLineInfo;
 import com.sun.source.tree.CompilationUnitTree;
 import com.sun.source.util.TreePath;
 import com.sun.source.util.Trees;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SupportedAnnotationTypes("vm.mlvm.share.Stratum")
 public class StratumAP extends AbstractProcessor {

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
-
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Transparency;
@@ -43,20 +42,6 @@ import java.awt.Graphics2D;
 import java.awt.geom.AffineTransform;
 import java.desktop.share.classes.sun.awt.image.ImageWatched;
 import java.util.Hashtable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ImageRepresentation extends ImageWatched implements ImageConsumer
 {
@@ -543,7 +528,6 @@ public class ImageRepresentation extends ImageWatched implements ImageConsumer
             newInfo(image, ImageObserver.SOMEBITS, x, y, w, h);
         }
     }
-
 
     public void setPixels(int x, int y, int w, int h, ColorModel model,
                           int[] pix, int off, int scansize)

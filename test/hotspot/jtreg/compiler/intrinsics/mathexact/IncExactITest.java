@@ -21,21 +21,6 @@
 
 package compiler.intrinsics.mathexact;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8026844
@@ -47,7 +32,6 @@ package compiler.intrinsics.mathexact;
  * @run main compiler.intrinsics.mathexact.IncExactITest
  *
  */
-
 
 public class IncExactITest {
     public static int[] values = {1, 1, 1, 1};

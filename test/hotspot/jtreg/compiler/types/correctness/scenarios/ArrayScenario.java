@@ -21,24 +21,10 @@
 
 package compiler.types.correctness.scenarios;
 
-
 import compiler.types.correctness.hierarchies.TypeHierarchy;
 import jdk.test.lib.Asserts;
 import java.lang.reflect.Array;
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  Base class for array scenarios

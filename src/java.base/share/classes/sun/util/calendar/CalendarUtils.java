@@ -21,23 +21,8 @@
 
 package java.base.share.classes.sun.util.calendar;
 
-
 import java.util.HashMap;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CalendarUtils {
 

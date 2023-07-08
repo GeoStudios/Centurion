@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
-
 import java.awt.*;
 import java.text.BreakIterator;
 import java.desktop.share.classes.javax.swing.event.DocumentEvent;
 import java.desktop.share.classes.javax.swing.text.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Displays the <dfn>inline element</dfn> styles
@@ -186,7 +171,6 @@ public class InlineView extends LabelView {
     public View breakView(int axis, int offset, float pos, float len) {
         return super.breakView(axis, offset, pos, len);
     }
-
 
     /**
      * Set the cached properties from the attributes.

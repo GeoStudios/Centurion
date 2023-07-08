@@ -21,23 +21,8 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.frame;
 
-
 import java.nio.ByteBuffer;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ContinuationFrame extends HeaderFrame {
 

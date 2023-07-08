@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
 
-
 import jdk.compiler.share.classes.com.sun.tools.javac.util.ByteBuffer;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Convert;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Name.NameMapper;
@@ -31,20 +30,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import javax.tools.JavaFileObject;
 import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Stripped down ClassReader, just sufficient to read module names from module-info.class files

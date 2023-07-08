@@ -21,22 +21,6 @@
 
 package java.base.share.classes.sun.security.x509;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * CertException indicates one of a variety of certificate problems.
  * @deprecated use one of the Exceptions defined in the

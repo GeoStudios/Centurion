@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
-
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ElementKind;
 import javax.lang.model.type.TypeKind;
@@ -71,20 +70,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.ListBuffer;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Names;
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Contains operations specific to processing type annotations.
@@ -714,7 +699,6 @@ public class TypeAnnotations {
             // It is safe to alias the position.
             return new Attribute.TypeCompound(a, p);
         }
-
 
         /* This is the beginning of the second part of organizing
          * type annotations: determine the type annotation positions.
@@ -1440,7 +1424,6 @@ public class TypeAnnotations {
                     anno.attribute.position = position;
             }
         }
-
 
         @Override
         public String toString() {

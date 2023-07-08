@@ -21,22 +21,7 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.jfc.model;
 
-
 import java.util.StringJoiner;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class Utilities {
     private static final String[] UNITS = new String[] {

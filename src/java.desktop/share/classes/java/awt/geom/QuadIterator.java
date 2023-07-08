@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.java.awt.geom;
 
-
 import java.desktop.share.classes.java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A utility class to iterate over the path segments of a quadratic curve

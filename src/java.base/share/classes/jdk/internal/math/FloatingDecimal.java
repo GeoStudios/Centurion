@@ -21,23 +21,8 @@
 
 package java.base.share.classes.jdk.internal.math;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.util.regex.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class for converting between ASCII and decimal representations of a single
@@ -1705,7 +1690,6 @@ public class FloatingDecimal{
             }
             return Float.intBitsToFloat(ieeeBits);
         }
-
 
         /**
          * All the positive powers of 10 that can be

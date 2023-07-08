@@ -21,23 +21,8 @@
 
 package java.datatransfer.share.classes.java.awt.datatransfer;
 
-
 import java.datatransfer.share.classes.java.io.Serial;
 import java.datatransfer.share.classes.java.util.EventObject;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * {@code FlavorEvent} is used to notify interested parties that available

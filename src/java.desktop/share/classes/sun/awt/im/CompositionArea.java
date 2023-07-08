@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.awt.im;
 
-
 import java.awt.AWTEvent;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -45,20 +44,6 @@ import java.text.AttributedCharacterIterator;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.LineBorder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A composition area is used to display text that's being composed

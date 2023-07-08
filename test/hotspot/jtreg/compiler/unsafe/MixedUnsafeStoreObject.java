@@ -21,21 +21,7 @@
 
 package compiler.unsafe;
 
-
 import jdk.internal.misc.Unsafe;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -44,8 +30,6 @@ import jdk.internal.misc.Unsafe;
  * @run main/othervm -XX:+IgnoreUnrecognizedVMOptions -Xbatch -XX:-TieredCompilation compiler.unsafe.MixedUnsafeStoreObject
  * @run main/othervm -Xbatch compiler.unsafe.MixedUnsafeStoreObject
  */
-
-
 
 public class MixedUnsafeStoreObject {
     static final Unsafe UNSAFE = Unsafe.getUnsafe();

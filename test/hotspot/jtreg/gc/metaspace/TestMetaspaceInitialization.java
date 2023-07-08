@@ -21,21 +21,7 @@
 
 package gc.metaspace;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* @test TestMetaspaceInitialization
  * @bug 8024945

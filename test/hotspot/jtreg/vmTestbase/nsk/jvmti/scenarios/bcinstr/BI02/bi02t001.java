@@ -21,23 +21,9 @@
 
 package nsk.jvmti.scenarios.bcinstr.BI02;
 
-
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class bi02t001 extends DebugeeClass {
 

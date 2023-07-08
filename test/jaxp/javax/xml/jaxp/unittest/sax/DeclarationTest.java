@@ -21,7 +21,6 @@
 
 package sax;
 
-
 import java.io.File;
 import java.io.StringReader;
 import javax.xml.parsers.SAXParser;
@@ -35,19 +34,6 @@ import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.DefaultHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -99,7 +85,6 @@ public class DeclarationTest {
             { XML_STANDALONE_N, "1.0", "ISO-8859-1", "no"},
         };
     }
-
 
     /**
      * Provides XML files for testing XML declaration.

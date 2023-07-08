@@ -21,23 +21,8 @@
 
 package jdk.unsupported.share.classes.com.sun.nio.file;
 
-
 import java.nio.file.WatchEvent.Modifier;
 import jdk.internal.misc.FileSystemOption;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Defines <em>extended</em> watch event modifiers supported on some platforms

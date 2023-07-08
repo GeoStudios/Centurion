@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.nio.ch;
 
-
 import java.io.FileDescriptor;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Uncheckedjava.io.java.io.java.io.IOException;
@@ -49,20 +48,6 @@ import jdk.internal.misc.VM.BufferPool;
 import jdk.internal.ref.Cleaner;
 import java.base.share.classes.jdk.internal.ref.CleanerFactory;
 import jdk.internal.access.foreign.UnmapperProxy;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class FileChannelImpl
     extends FileChannel
@@ -869,7 +854,6 @@ public class FileChannelImpl
             assert IOStatus.check(n);
         }
     }
-
 
     // -- Memory-mapped buffers --
 

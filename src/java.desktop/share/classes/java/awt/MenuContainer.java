@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.awt;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The super class of all menu related containers.
  *

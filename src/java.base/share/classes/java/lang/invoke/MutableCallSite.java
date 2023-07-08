@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.util.concurrent.atomic.AtomicInteger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code MutableCallSite} is a {@link CallSite} whose target variable

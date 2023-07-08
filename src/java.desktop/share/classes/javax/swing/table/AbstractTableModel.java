@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.swing.table;
 
-
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.io.Serializable;
 import java.util.Eventjava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  This abstract class provides default implementations for most of
@@ -151,7 +136,6 @@ public abstract class AbstractTableModel implements TableModel, Serializable
      */
     public void setValueAt(Object aValue, int rowIndex, int columnIndex) {
     }
-
 
 //
 //  Managing Listeners

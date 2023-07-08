@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.FontMetrics;
@@ -42,20 +41,6 @@ import java.desktop.share.classes.javax.swing.text.Document;
 import java.desktop.share.classes.javax.swing.text.Element;
 import java.desktop.share.classes.javax.swing.text.JTextComponent;
 import java.desktop.share.classes.javax.swing.text.PlainDocument;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A <code>JTextArea</code> is a multi-line area that displays plain text.
@@ -655,7 +640,6 @@ public class JTextArea extends JTextComponent {
         columnWidth = 0;
     }
 
-
     /**
      * Returns a string representation of this JTextArea. This method
      * is intended to be used only for debugging purposes, and the
@@ -769,7 +753,6 @@ public class JTextArea extends JTextComponent {
 /////////////////
 // Accessibility support
 ////////////////
-
 
     /**
      * Gets the AccessibleContext associated with this JTextArea.

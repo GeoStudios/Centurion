@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.java.awt.font;
 
-
 import java.desktop.share.classes.java.awt.Graphics2D;
 import java.desktop.share.classes.java.awt.Font;
 import java.desktop.share.classes.java.awt.Shape;
 import java.desktop.share.classes.java.awt.geom.AffineTransform;
 import java.desktop.share.classes.java.awt.geom.Rectangle2D;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used with the CHAR_REPLACEMENT attribute.
@@ -108,7 +93,6 @@ public abstract class GraphicAttribute {
      * @see #getBounds()
      */
     public abstract float getAscent();
-
 
     /**
      * Returns the descent of this {@code GraphicAttribute}.  A

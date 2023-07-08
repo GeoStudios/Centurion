@@ -21,56 +21,6 @@
 
 package build.tools.generatecurrencydata;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Reads currency data in properties format from the file specified in the
  * command line and generates a binary data file as specified in the command line.

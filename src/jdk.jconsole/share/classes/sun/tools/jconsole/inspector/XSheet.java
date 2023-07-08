@@ -21,7 +21,6 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
-
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
@@ -50,20 +49,6 @@ import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeModel;
 import jdk.jconsole.share.classes.sun.tools.jconsole.*;
 import jdk.jconsole.share.classes.sun.tools.jconsole.inspector.XNodeInfo.Type;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("serial")
 public class XSheet extends JPanel

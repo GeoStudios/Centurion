@@ -21,25 +21,10 @@
 
 package jdk.jfr.share.classes.jdk.jfr;
 
-
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Meta annotation, specifies that an annotation represents a content type, such

@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.lang.System.Logger.Level;
 import java.net.Inetjava.net.SocketAddress;
@@ -42,20 +41,6 @@ import java.util.stream.Collectors;
 import java.net.http.share.classes.jdk.internal.net.http.common.FlowTube;
 import java.net.http.share.classes.jdk.internal.net.http.common.Logger;
 import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Http 1.1 connection pool.

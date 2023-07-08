@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.event;
 
-
 import java.util.EventObject;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * PopupMenuEvent only contains the source of the event which is the JPopupMenu

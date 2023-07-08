@@ -21,25 +21,10 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.*;
 import java.awt.peer.*;
 import java.awt.event.*;
 import java.desktop.unix.classes.sun.awt.AWTAccessor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class XMenuItemPeer implements MenuItemPeer {
 
@@ -246,7 +231,6 @@ public class XMenuItemPeer implements MenuItemPeer {
         //TODO:This can potentially call user code
         return (sc == null) ? null : sc.toString();
     }
-
 
     /************************************************
      *

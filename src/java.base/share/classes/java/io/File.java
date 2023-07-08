@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.io;
 
-
 import java.base.share.classes.java.net.URI;
 import java.base.share.classes.java.net.URL;
 import java.base.share.classes.java.net.MalformedURLException;
@@ -33,20 +32,6 @@ import java.base.share.classes.java.security.SecureRandom;
 import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.java.util.java.util.java.util.List;
 import sun.security.action.GetPropertyAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An abstract representation of file and directory pathnames.
@@ -251,7 +236,6 @@ public class File
      */
     public static final String pathSeparator = String.valueOf(pathSeparatorChar);
 
-
     /* -- Constructors -- */
 
     /**
@@ -448,7 +432,6 @@ public class File
         this.prefixLength = fs.prefixLength(this.path);
     }
 
-
     /* -- Path-component accessors -- */
 
     /**
@@ -524,7 +507,6 @@ public class File
     public String getPath() {
         return path;
     }
-
 
     /* -- Path operations -- */
 
@@ -752,7 +734,6 @@ public class File
             throw new Error(x);         // Can't happen
         }
     }
-
 
     /* -- Attribute accessors -- */
 
@@ -1005,7 +986,6 @@ public class File
         }
         return fs.getLength(this);
     }
-
 
     /* -- File operations -- */
 
@@ -1790,7 +1770,6 @@ public class File
         return fs.checkAccess(this, FileSystem.ACCESS_EXECUTE);
     }
 
-
     /* -- Filesystem interface -- */
 
     /**
@@ -1837,7 +1816,6 @@ public class File
     public static File[] listRoots() {
         return fs.listRoots();
     }
-
 
     /* -- Disk usage -- */
 

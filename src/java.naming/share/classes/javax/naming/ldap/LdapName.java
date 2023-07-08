@@ -21,7 +21,6 @@
 
 package java.naming.share.classes.javax.naming.ldap;
 
-
 import java.naming.share.classes.javax.naming.Name;
 import java.naming.share.classes.javax.naming.InvalidNameException;
 import java.util.Enumeration;
@@ -34,20 +33,6 @@ import java.util.Collections;
 import java.io.ObjectOutputStream;
 import java.io.ObjectInputStream;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents a distinguished name as specified by
@@ -424,7 +409,6 @@ public class LdapName implements Name {
     public Name addAll(Name suffix) throws InvalidNameException {
          return addAll(size(), suffix);
     }
-
 
     /**
      * Adds the RDNs of a name -- in order -- to the end of this name.

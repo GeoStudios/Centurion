@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.print.attribute;
 
-
 import java.io.InvalidObjectException;
 import java.io.ObjectStreamException;
 import java.io.Serial;
 import java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class {@code EnumSyntax} is an abstract base class providing the common

@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.nio.ByteBuffer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Interface to decode a {@code ByteBuffer} into legible {@code String}.

@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Assert {
   public static boolean ASSERTS_ENABLED = true;
 

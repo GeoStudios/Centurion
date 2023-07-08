@@ -21,21 +21,6 @@
 
 package vm.mlvm.meth.share;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class RandomValueGen {
 
     private static final int MAX_DISTINCT_TRIES = 11;
@@ -76,6 +61,5 @@ public class RandomValueGen {
             }
         }
     }
-
 
 }

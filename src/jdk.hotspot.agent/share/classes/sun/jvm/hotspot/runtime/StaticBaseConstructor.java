@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime;
 
-
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.CDebugger;
@@ -29,20 +28,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.ClosestSymb
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.LoadObject;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.HotSpotTypeDataBase;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Instantiate wrappers for statically typed instances. */
 

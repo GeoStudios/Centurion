@@ -21,21 +21,6 @@
 
 package compiler.arraycopy;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 6700100 8156760 8248226
@@ -58,7 +43,6 @@ package compiler.arraycopy;
  *                   -XX:+IgnoreUnrecognizedVMOptions -XX:-ReduceInitialCardMarks -XX:-ReduceBulkZeroing
  *                   compiler.arraycopy.TestInstanceCloneAsLoadsStores
  */
-
 
 public class TestInstanceCloneAsLoadsStores extends TestInstanceCloneUtils {
 

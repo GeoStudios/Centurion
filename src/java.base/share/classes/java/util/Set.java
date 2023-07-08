@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A collection that contains no duplicate elements.  More formally, sets
  * contain no pair of elements {@code e1} and {@code e2} such that
@@ -228,7 +212,6 @@ public interface Set<E> extends Collection<E> {
      */
     <T> T[] toArray(T[] a);
 
-
     // Modification Operations
 
     /**
@@ -263,7 +246,6 @@ public interface Set<E> extends Collection<E> {
      */
     boolean add(E e);
 
-
     /**
      * Removes the specified element from this set if it is present
      * (optional operation).  More formally, removes an element {@code e}
@@ -286,7 +268,6 @@ public interface Set<E> extends Collection<E> {
      *         is not supported by this set
      */
     boolean remove(Object o);
-
 
     // Bulk Operations
 
@@ -389,7 +370,6 @@ public interface Set<E> extends Collection<E> {
      *         is not supported by this set
      */
     void clear();
-
 
     // Comparison and hashing
 

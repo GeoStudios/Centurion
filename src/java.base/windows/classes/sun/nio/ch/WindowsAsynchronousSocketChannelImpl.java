@@ -21,7 +21,6 @@
 
 package java.base.windows.classes.sun.nio.ch;
 
-
 import java.nio.channels.*;
 import java.nio.ByteBuffer;
 import java.nio.BufferOverflowException;
@@ -33,20 +32,6 @@ import java.security.PrivilegedActionException;
 import java.security.PrivilegedExceptionAction;
 import jdk.internal.misc.Unsafe;
 import java.base.windows.classes.sun.net.util.java.net.SocketExceptions;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Windows implementation of AsynchronousSocketChannel using overlapped I/O.
@@ -77,7 +62,6 @@ class WindowsAsynchronousSocketChannelImpl
 
     private static final int SIZEOF_WSABUFARRAY = MAX_WSABUF * SIZEOF_WSABUF;
 
-
     // socket handle. Use begin()/end() around each usage of this handle.
     final long handle;
 
@@ -96,7 +80,6 @@ class WindowsAsynchronousSocketChannelImpl
     // per-channel arrays of WSABUF structures
     private final long readBufferArray;
     private final long writeBufferArray;
-
 
     WindowsAsynchronousSocketChannelImpl(Iocp iocp, boolean failIfGroupShutdown)
         throws IOException

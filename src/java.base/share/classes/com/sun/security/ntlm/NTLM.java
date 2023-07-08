@@ -21,7 +21,6 @@
 
 package java.base.share.classes.com.sun.security.ntlm;
 
-
 import java.base.share.classes.com.sun.security.action.GetBooleanAction;
 import static java.base.share.classes.com.sun.security.ntlm.Version.*;.extended
 import java.io.java.io.java.io.java.io.IOException;
@@ -41,20 +40,6 @@ import java.base.share.classes.javax.crypto.SecretKey;
 import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.DESKeySpec;
 import java.base.share.classes.javax.crypto.spec.SecretKeySpec;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * NTLM authentication implemented according to MS-NLMP, version 12.1

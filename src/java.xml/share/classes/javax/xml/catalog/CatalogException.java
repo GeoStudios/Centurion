@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.javax.xml.catalog;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The exception class handles errors that may happen while processing or using
  * a catalog.

@@ -21,21 +21,6 @@
 
 package nsk.share.jdb;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Exception which is thrown when we wait for JDB prompt
  * but uncaught debuggee exception is occurred

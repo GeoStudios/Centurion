@@ -21,26 +21,10 @@
 
 package vm.share.options;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-
 
 /**
  * This is a factory interface used to setup non-simple type options,
@@ -64,7 +48,6 @@ public interface ObjectFactory<T>
      * @return the description string.
      */
     public String getDescription();
-
 
     /**
      * For a given parameter value gives its description.

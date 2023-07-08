@@ -21,26 +21,12 @@
 
 package nsk.share.test;
 
-
 import java.lang.reflect.Array;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import nsk.share.Failure;
 import nsk.share.TestFailure;
 import static java.lang.String.format;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class TestUtils {
     /**

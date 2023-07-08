@@ -21,23 +21,9 @@
 
 package nsk.jvmti.SetVerboseFlag;
 
-
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class setvrbflag002 extends DebugeeClass {
 

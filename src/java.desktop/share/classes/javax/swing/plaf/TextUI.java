@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.javax.swing.plaf;
 
-
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
 import java.desktop.share.classes.javax.swing.text.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Text editor user interface

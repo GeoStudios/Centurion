@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.provider.certpath;
 
-
 import java.io.*;
 import java.net.URI;
 import java.base.share.classes.java.security.*;
@@ -33,20 +32,6 @@ import java.base.share.classes.sun.security.util.Event;
 import java.base.share.classes.sun.security.validator.Validator;
 import static java.base.share.classes.sun.security.x509.PKIXExtensions.*;.extended
 import java.base.share.classes.sun.security.x509.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class to obtain CRLs via the CRLDistributionPoints extension.

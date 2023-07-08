@@ -21,7 +21,6 @@
 
 package nsk.jdi.ListeningConnector.stopListening;
 
-
 import com.sun.jdi.Bootstrap;
 import com.sun.jdi.connect.*;
 import java.io.*;
@@ -31,19 +30,6 @@ import java.util.Map;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test exercises JDI function <code>ListeningConnector.stopListening</code>.

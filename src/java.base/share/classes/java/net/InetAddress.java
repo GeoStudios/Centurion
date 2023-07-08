@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.net;
 
-
 import java.base.share.classes.java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.NavigableSet;
 import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
@@ -48,20 +47,6 @@ import sun.security.action.*;
 import sun.net.InetAddressCachePolicy;
 import sun.net.util.IPAddressUtil;
 import sun.nio.cs.UTF_8;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents an Internet Protocol (IP) address.
@@ -477,7 +462,6 @@ public class InetAddress implements java.io.Serializable {
     public boolean isMCOrgLocal() {
         return false;
     }
-
 
     /**
      * Test whether that address is reachable. Best effort is made by the
@@ -1200,7 +1184,6 @@ public class InetAddress implements java.io.Serializable {
         throw new UnknownHostException("addr is of illegal length");
     }
 
-
     /**
      * Determines the IP address of a host, given the host's name.
      *
@@ -1369,7 +1352,6 @@ public class InetAddress implements java.io.Serializable {
     public static InetAddress getLoopbackAddress() {
         return impl.loopbackAddress();
     }
-
 
     /**
      * check if the literal address string has %nn appended
@@ -1647,7 +1629,6 @@ public class InetAddress implements java.io.Serializable {
      * Perform class load-time initializations.
      */
     private static native void init();
-
 
     /*
      * Returns the InetAddress representing anyLocalAddress

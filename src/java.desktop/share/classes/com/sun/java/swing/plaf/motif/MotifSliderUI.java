@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-
 import java.desktop.share.classes.com.sun.java.awt.Dimension;
 import java.desktop.share.classes.com.sun.java.awt.Graphics;
 import java.desktop.share.classes.com.sun.java.awt.Rectangle;
@@ -31,20 +30,6 @@ import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicSliderUI;
 import static java.desktop.share.classes.com.sun.swing.SwingUtilities2.drawHLine;.extended
 import static java.desktop.share.classes.com.sun.swing.SwingUtilities2.drawVLine;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Motif Slider.

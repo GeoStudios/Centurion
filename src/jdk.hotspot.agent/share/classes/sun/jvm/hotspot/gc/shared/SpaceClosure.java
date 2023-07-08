@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface SpaceClosure {
   void doSpace(Space s);
 }

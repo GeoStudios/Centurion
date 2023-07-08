@@ -21,34 +21,15 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.opti;
 
-
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
 import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
-
 
 /**
  * @xerces.internal

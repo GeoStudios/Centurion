@@ -21,25 +21,10 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.javap;
 
-
 import jdk.jdeps.share.classes.com.sun.tools.classfile.ClassFile;
 import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool;
 import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPoolException;
 import static jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPool.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  *  Write a constant pool entry.

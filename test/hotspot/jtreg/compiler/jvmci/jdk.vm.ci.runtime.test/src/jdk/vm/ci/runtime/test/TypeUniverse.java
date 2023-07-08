@@ -21,7 +21,6 @@
 
 package jdk.vm.ci.runtime.test;
 
-
 import jdk.internal.misc.Unsafe;
 import jdk.vm.ci.meta.ConstantReflectionProvider;
 import jdk.vm.ci.meta.JavaConstant;
@@ -54,19 +53,6 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import static java.lang.reflect.Modifier.isFinal;.extended
 import static java.lang.reflect.Modifier.isStatic;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Context for type related tests.

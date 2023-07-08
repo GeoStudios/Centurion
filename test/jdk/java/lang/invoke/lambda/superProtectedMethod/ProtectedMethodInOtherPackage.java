@@ -21,7 +21,6 @@
 
 package p;
 
-
 import q.I;
 import q.J;
 import java.io.java.io.java.io.java.io.IOException;
@@ -38,19 +37,6 @@ import java.util.function.Function;
 import org.testng.annotations.Test;
 import static org.testng.Assert.*;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8227415 8254975 8270056
@@ -59,10 +45,6 @@ import static org.testng.Assert.*;.extended
  *          superclass in a different runtime package where
  *          lambda proxy class has no access to it.
  */
-
-
-
-
 
 public class ProtectedMethodInOtherPackage  {
     @Test

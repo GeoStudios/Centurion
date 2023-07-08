@@ -21,7 +21,6 @@
 
 package test.sql;
 
-
 import java.sql.Date;
 import java.time.Instant;
 import java.time.LocalDate;
@@ -29,19 +28,6 @@ import static org.testng.Assert.*;.extended
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import util.BaseTest;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class DateTests extends BaseTest {
 

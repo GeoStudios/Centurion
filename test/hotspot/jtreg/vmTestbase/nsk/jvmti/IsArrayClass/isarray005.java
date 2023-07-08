@@ -21,21 +21,7 @@
 
 package nsk.jvmti.IsArrayClass;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class isarray005 {
 

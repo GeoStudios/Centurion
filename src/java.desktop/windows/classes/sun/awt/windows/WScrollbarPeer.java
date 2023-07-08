@@ -21,24 +21,9 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
-
 import java.awt.*;
 import java.awt.peer.*;
 import java.awt.event.AdjustmentEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class WScrollbarPeer extends WComponentPeer implements ScrollbarPeer {
 
@@ -63,7 +48,6 @@ final class WScrollbarPeer extends WComponentPeer implements ScrollbarPeer {
     public native void setLineIncrement(int l);
     public native void setPageIncrement(int l);
 
-
     // Toolkit & peer internals
 
     WScrollbarPeer(Scrollbar target) {
@@ -78,7 +62,6 @@ final class WScrollbarPeer extends WComponentPeer implements ScrollbarPeer {
                   sb.getMinimum(), sb.getMaximum());
         super.initialize();
     }
-
 
     // NOTE: Callback methods are called by privileged threads.
     //       DO NOT INVOKE CLIENT CODE ON THIS THREAD!

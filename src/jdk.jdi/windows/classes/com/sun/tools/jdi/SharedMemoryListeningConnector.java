@@ -21,26 +21,11 @@
 
 package jdk.jdi.windows.classes.com.sun.tools.jdi;
 
-
 import jdk.jdi.windows.classes.com.sun.jdi.connect.*;
 import jdk.jdi.windows.classes.com.sun.jdi.connect.spi.*;
 import java.util.Map;
 import java.util.HashMap;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * A ListeningConnector based on the SharedMemoryTransportService

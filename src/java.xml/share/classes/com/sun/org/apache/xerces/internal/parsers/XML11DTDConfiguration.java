@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XML11DTDScannerImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XML11DocumentScannerImpl;
@@ -68,20 +67,6 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Locale;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is the DTD-only parser configuration
@@ -653,7 +638,6 @@ public class XML11DTDConfiguration extends ParserConfigurationSettings
                 return (XMLErrorHandler)fProperties.get(ERROR_HANDLER);
         } // getErrorHandler():XMLErrorHandler
 
-
     /**
      * If the application decides to terminate parsing before the xml document
      * is fully parsed, the application should call this method to free any
@@ -864,7 +848,6 @@ public class XML11DTDConfiguration extends ParserConfigurationSettings
 
         } // setProperty(String,Object)
 
-
         /** Returns the locale. */
         public Locale getLocale() {
                 return fLocale;
@@ -1041,7 +1024,6 @@ public class XML11DTDConfiguration extends ParserConfigurationSettings
 
     } // configurePipeline()
 
-
     // features and properties
 
     /**
@@ -1188,7 +1170,6 @@ public class XML11DTDConfiguration extends ParserConfigurationSettings
         return super.checkProperty(propertyId);
 
     } // checkProperty(String)
-
 
     /**
      * Adds a component to the parser configuration. This method will

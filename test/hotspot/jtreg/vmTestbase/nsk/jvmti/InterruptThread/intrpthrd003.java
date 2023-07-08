@@ -21,21 +21,7 @@
 
 package nsk.jvmti.InterruptThread;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class intrpthrd003 {
     private final static String AGENT_LIB = "intrpthrd003";

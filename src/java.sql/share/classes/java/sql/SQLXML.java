@@ -21,27 +21,12 @@
 
 package java.sql.share.classes.java.sql;
 
-
 import java.sql.share.classes.java.io.InputStream;
 import java.sql.share.classes.java.io.OutputStream;
 import java.sql.share.classes.java.io.Reader;
 import java.sql.share.classes.java.io.Writer;
 import javax.xml.transform.Result;
 import javax.xml.transform.Source;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The mapping in the JavaTM programming language for the SQL XML type.

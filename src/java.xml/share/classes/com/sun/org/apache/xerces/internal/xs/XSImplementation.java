@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xs;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * This interface allows one to retrieve an instance of <code>XSLoader</code>.
@@ -54,7 +37,6 @@ public interface XSImplementation {
      * this <code>XSImplemenation</code>.
      */
     StringList getRecognizedVersions();
-
 
     /**
      * Creates a new XSLoader. The newly constructed loader may then be

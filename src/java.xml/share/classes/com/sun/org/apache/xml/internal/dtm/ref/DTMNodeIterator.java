@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMDOMException;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMIterator;
@@ -29,27 +28,10 @@ import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.traversal.NodeFilter;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * <code>DTMNodeIterator</code> gives us an implementation of the
@@ -110,7 +92,6 @@ public class DTMNodeIterator implements org.w3c.dom.traversal.NodeIterator
       return dtm_iter;
     }
 
-
   //================================================================
   // org.w3c.dom.traversal.NodeFilter API follows
 
@@ -153,7 +134,6 @@ public class DTMNodeIterator implements org.w3c.dom.traversal.NodeIterator
       throw new DTMDOMException(DOMException.NOT_SUPPORTED_ERR);
     }
 
-
   /** @return The root node of the NodeIterator, as specified
    * when it was created.
    * */
@@ -162,7 +142,6 @@ public class DTMNodeIterator implements org.w3c.dom.traversal.NodeIterator
       int handle=dtm_iter.getRoot();
       return dtm_iter.getDTM(handle).getNode(handle);
     }
-
 
   /** Return a mask describing which node types are presented via the
    * iterator.
@@ -188,7 +167,6 @@ public class DTMNodeIterator implements org.w3c.dom.traversal.NodeIterator
         return null;
       return dtm_iter.getDTM(handle).getNode(handle);
     }
-
 
   /** @return the next previous in the set and advance the position of the
    * iterator in the set.

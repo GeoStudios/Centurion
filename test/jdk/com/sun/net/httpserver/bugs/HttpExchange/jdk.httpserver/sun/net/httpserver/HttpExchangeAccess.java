@@ -21,21 +21,6 @@
 
 package sun.net.httpserver;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class HttpExchangeAccess {
     public static boolean isClosed(com.sun.net.httpserver.HttpExchange exch) {
         synchronized (exch) {

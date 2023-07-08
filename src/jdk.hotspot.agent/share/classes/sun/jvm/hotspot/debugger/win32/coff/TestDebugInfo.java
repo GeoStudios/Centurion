@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class TestDebugInfo implements DebugVC50SubsectionTypes, DebugVC50SymbolTypes, DebugVC50TypeLeafIndices {
   public static void main(String[] args) {
     if (args.length != 1) {

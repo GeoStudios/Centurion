@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.time.format;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Enumeration of ways to handle the positive/negative sign.
  * <p>

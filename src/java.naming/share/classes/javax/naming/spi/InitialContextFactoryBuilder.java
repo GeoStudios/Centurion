@@ -21,23 +21,8 @@
 
 package java.naming.share.classes.javax.naming.spi;
 
-
 import java.util.Hashtable;
 import java.naming.share.classes.javax.naming.NamingException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * This interface represents a builder that creates initial context factories.

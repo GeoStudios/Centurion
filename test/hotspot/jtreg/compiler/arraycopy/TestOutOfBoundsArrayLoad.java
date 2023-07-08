@@ -21,21 +21,7 @@
 
 package compiler.arraycopy;
 
-
 import compiler.whitebox.CompilerWhiteBoxTest;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -58,8 +44,6 @@ import compiler.whitebox.CompilerWhiteBoxTest;
  *                   -XX:CompileCommand=dontinline,*::*_dontinline
  *                   compiler.arraycopy.TestOutOfBoundsArrayLoad
  */
-
-
 
 public class TestOutOfBoundsArrayLoad {
 

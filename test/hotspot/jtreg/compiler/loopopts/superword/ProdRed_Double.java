@@ -21,21 +21,6 @@
 
 package compiler.loopopts.superword;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8074981
@@ -86,7 +71,6 @@ package compiler.loopopts.superword;
  *      -XX:LoopMaxUnroll=16
  *      compiler.loopopts.superword.ProdRed_Double
  */
-
 
 public class ProdRed_Double {
     public static void main(String[] args) throws Exception {

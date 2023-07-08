@@ -21,7 +21,6 @@
 
 package java.management.share.classes.javax.management;
 
-
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -46,20 +45,6 @@ import java.management.share.classes.javax.management.openmbean.SimpleType;
 import java.management.share.classes.javax.management.openmbean.TabularData;
 import java.management.share.classes.javax.management.openmbean.TabularDataSupport;
 import java.management.share.classes.javax.management.openmbean.TabularType;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // remaining imports are for Javadoc
 
@@ -321,7 +306,6 @@ public class MemoryPool
         </pre>
     </div>
 
-
     <h2 id="mxbean-def">Definition of an MXBean</h2>
 
     <p>An MXBean is a kind of MBean.  An MXBean object can be
@@ -374,7 +358,6 @@ public class MemoryPool
     <p>An attempt to construct an MXBean that does not conform to the
       above rules will produce an exception.</p>
 
-
     <h2 id="naming-conv">Naming conventions</h2>
 
     <p>The same naming conventions are applied to the methods in an
@@ -419,7 +402,6 @@ public class MemoryPool
       must be the same.  In this case the attribute is read/write.  If
       there is only a getter or only a setter, the attribute is
       read-only or write-only respectively.</p>
-
 
     <h2 id="mapping-rules">Type mapping rules</h2>
 
@@ -569,7 +551,6 @@ public class MemoryPool
 
     <p>The following sections give further details of these rules.</p>
 
-
     <h3>Mappings for primitive types</h3>
 
     <p>The 8 primitive Java types
@@ -593,7 +574,6 @@ public class MemoryPool
       Integer}, etc, does not show up because operations in the JMX API
       are always on Java objects, not primitives.  However, the
       difference <em>does</em> show up with arrays.</p>
-
 
     <h3>Mappings for collections ({@code List<}<em>E</em>{@code >} etc)</h3>
 
@@ -620,7 +600,6 @@ public class MemoryPool
       {@code java.util.HashSet<}<em>E</em>{@code >};
       a {@code SortedSet<}<em>E</em>{@code >} as a
       {@code java.util.TreeSet<}<em>E</em>{@code >}.</p>
-
 
     <h3>Mappings for maps ({@code Map<}<em>K</em>,<em>V</em>{@code >} etc)</h3>
 
@@ -674,7 +653,6 @@ TabularType tabularType =
       Open Data is {@link TabularDataSupport},
       or another class implementing {@code
       TabularData} that serializes as {@code TabularDataSupport}.</p>
-
 
     <h3 id="records">Mappings for Records</h3>
 
@@ -904,7 +882,6 @@ public interface ModuleMXBean {
       CompositeData} that serializes as {@code
       CompositeDataSupport}.</p>
 
-
     <h4 id="reconstructing">Reconstructing an instance of Java type
       or record class <em>J</em> from a {@code CompositeData}</h4>
 
@@ -1119,7 +1096,6 @@ public interface NamedNumber {
       thread-safety and security.  So the approach using setters should
       generally be avoided if possible.</p>
 
-
     <h3>Recursive types</h3>
 
     <p>Recursive (self-referential) types cannot be used in MXBean
@@ -1204,7 +1180,6 @@ public interface Node {
 
     <p>The {@code Descriptor} for the {@code MBeanInfo} will have a field
       {@code mxbean} whose value is the string "{@code true}".</p>
-
 
     <h3 id="type-names">Type Names</h3>
 

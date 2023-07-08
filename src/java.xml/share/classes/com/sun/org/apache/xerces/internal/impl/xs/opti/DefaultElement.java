@@ -21,35 +21,16 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.opti;
 
-
 import java.xml.share.classes.com.sun.org.w3c.dom.TypeInfo;
 import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
 import java.xml.share.classes.com.sun.org.w3c.dom.Element;
 import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
-
 
 /**
  * @xerces.internal
@@ -63,11 +44,9 @@ public class DefaultElement extends NodeImpl
     public DefaultElement() {
     }
 
-
     public DefaultElement(String prefix, String localpart, String rawname, String uri, short nodeType) {
         super(prefix, localpart, rawname, uri, nodeType);
     }
-
 
     //
     // org.w3c.dom.Element methods
@@ -78,41 +57,33 @@ public class DefaultElement extends NodeImpl
         return null;
     }
 
-
     public String getAttribute(String name) {
         return null;
     }
-
 
     public Attr getAttributeNode(String name) {
         return null;
     }
 
-
     public NodeList getElementsByTagName(String name) {
         return null;
     }
-
 
     public String getAttributeNS(String namespaceURI, String localName) {
         return null;
     }
 
-
     public Attr getAttributeNodeNS(String namespaceURI, String localName) {
         return null;
     }
-
 
     public NodeList getElementsByTagNameNS(String namespaceURI, String localName) {
         return null;
     }
 
-
     public boolean hasAttribute(String name) {
         return false;
     }
-
 
     public boolean hasAttributeNS(String namespaceURI, String localName) {
         return false;
@@ -122,37 +93,30 @@ public class DefaultElement extends NodeImpl
       return null;
     }
 
-
     // setter methods
     public void setAttribute(String name, String value) throws DOMException {
         throw new DOMException(DOMException.NOT_SUPPORTED_ERR, "Method not supported");
     }
 
-
     public void removeAttribute(String name) throws DOMException {
         throw new DOMException(DOMException.NOT_SUPPORTED_ERR, "Method not supported");
     }
-
 
     public Attr removeAttributeNode(Attr oldAttr) throws DOMException {
         throw new DOMException(DOMException.NOT_SUPPORTED_ERR, "Method not supported");
     }
 
-
     public Attr setAttributeNode(Attr newAttr) throws DOMException {
         throw new DOMException(DOMException.NOT_SUPPORTED_ERR, "Method not supported");
     }
-
 
     public void setAttributeNS(String namespaceURI, String qualifiedName, String value) throws DOMException {
         throw new DOMException(DOMException.NOT_SUPPORTED_ERR, "Method not supported");
     }
 
-
     public void removeAttributeNS(String namespaceURI, String localName) throws DOMException {
         throw new DOMException(DOMException.NOT_SUPPORTED_ERR, "Method not supported");
     }
-
 
     public Attr setAttributeNodeNS(Attr newAttr) throws DOMException {
         throw new DOMException(DOMException.NOT_SUPPORTED_ERR, "Method not supported");

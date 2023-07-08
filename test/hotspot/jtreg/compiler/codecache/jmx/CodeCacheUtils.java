@@ -21,7 +21,6 @@
 
 package compiler.codecache.jmx;
 
-
 import jdk.test.lib.Asserts;
 import jdk.test.lib.Utils;
 import sun.hotspot.WhiteBox;
@@ -29,19 +28,6 @@ import sun.hotspot.code.BlobType;
 import sun.hotspot.code.CodeBlob;
 import javax.management.Notification;
 import java.lang.management.MemoryPoolMXBean;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class CodeCacheUtils {
 
@@ -150,7 +136,6 @@ public final class CodeCacheUtils {
             Asserts.assertLTE(newValue, oldValue, msg);
         }
     }
-
 
     public static void disableCollectionUsageThresholds() {
         BlobType.getAvailable().stream()

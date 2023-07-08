@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf;
 
-
 import java.awt.Component;
 import java.awt.Insets;
 import java.awt.Color;
@@ -32,20 +31,6 @@ import java.beans.ConstructorProperties;
 import java.desktop.share.classes.javax.swing.border.*;
 import java.desktop.share.classes.javax.swing.Icon;
 import java.desktop.share.classes.javax.swing.plaf.UIResource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A Border wrapper class which implements UIResource.  UI
@@ -210,7 +195,6 @@ public class BorderUIResource implements Border, UIResource, Serializable
             super(color, thickness);
         }
     }
-
 
     /**
      * A bevel border UI resource.

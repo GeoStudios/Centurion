@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang.annotation;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Annotation retention policy.  The constants of this enumerated class
  * describe the various policies for retaining annotations.  They are used

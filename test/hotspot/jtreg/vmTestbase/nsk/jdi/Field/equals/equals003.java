@@ -21,26 +21,12 @@
 
 package nsk.jdi.Field.equals;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class equals003 {
     private static Log log;

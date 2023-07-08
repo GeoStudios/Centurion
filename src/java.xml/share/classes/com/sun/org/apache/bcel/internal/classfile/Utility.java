@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.CharArrayReader;
@@ -40,20 +39,6 @@ import java.util.zip.GZIPInputStream;
 import java.util.zip.GZIPOutputStream;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.ByteSequence;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utility functions that do not really belong to any class in particular.
@@ -93,7 +78,6 @@ public abstract class Utility {
      */
     private static boolean wide = false;
 
-
     /**
      * Convert bit field of flags into string such as `static final'.
      *
@@ -103,7 +87,6 @@ public abstract class Utility {
     public static String accessToString( final int access_flags ) {
         return accessToString(access_flags, false);
     }
-
 
     /**
      * Convert bit field of flags into string such as `static final'.
@@ -137,7 +120,6 @@ public abstract class Utility {
         return buf.toString().trim();
     }
 
-
     /**
      * @param access_flags the class flags
      *
@@ -146,7 +128,6 @@ public abstract class Utility {
     public static String classOrInterface( final int access_flags ) {
         return ((access_flags & Const.ACC_INTERFACE) != 0) ? "interface" : "class";
     }
-
 
     /**
      * Disassemble a byte array of JVM byte codes starting from code line
@@ -181,11 +162,9 @@ public abstract class Utility {
         return buf.toString();
     }
 
-
     public static String codeToString( final byte[] code, final ConstantPool constant_pool, final int index, final int length ) {
         return codeToString(code, constant_pool, index, length, true);
     }
-
 
     /**
      * Disassemble a stream of byte codes and return the
@@ -465,12 +444,10 @@ public abstract class Utility {
         return buf.toString();
     }
 
-
     public static String codeToString( final ByteSequence bytes, final ConstantPool constant_pool )
             throws IOException {
         return codeToString(bytes, constant_pool, true);
     }
-
 
     /**
      * Shorten long class names, <em>java/lang/String</em> becomes
@@ -482,7 +459,6 @@ public abstract class Utility {
     public static String compactClassName( final String str ) {
         return compactClassName(str, true);
     }
-
 
     /**
      * Shorten long class names, <em>java/lang/String</em> becomes
@@ -497,7 +473,6 @@ public abstract class Utility {
     public static String compactClassName( final String str, final boolean chopit ) {
         return compactClassName(str, "java.lang.", chopit);
     }
-
 
     /**
      * Shorten long class name <em>str</em>, i.e., chop off the <em>prefix</em>,
@@ -522,14 +497,12 @@ public abstract class Utility {
         return str;
     }
 
-
     /**
      * @return `flag' with bit `i' set to 1
      */
     public static int setBit( final int flag, final int i ) {
         return flag | pow2(i);
     }
-
 
     /**
      * @return `flag' with bit `i' set to 0
@@ -539,14 +512,12 @@ public abstract class Utility {
         return (flag & bit) == 0 ? flag : flag ^ bit;
     }
 
-
     /**
      * @return true, if bit `i' in `flag' is set
      */
     public static boolean isSet( final int flag, final int i ) {
         return (flag & pow2(i)) != 0;
     }
-
 
     /**
      * Converts string containing the method return and argument types
@@ -576,7 +547,6 @@ public abstract class Utility {
         return buf.toString();
     }
 
-
     /**
      * Converts argument list portion of method signature to string with all class names compacted.
      *
@@ -588,7 +558,6 @@ public abstract class Utility {
             throws ClassFormatException {
         return methodSignatureArgumentTypes(signature, true);
     }
-
 
     /**
      * Converts argument list portion of method signature to string.
@@ -619,7 +588,6 @@ public abstract class Utility {
         return vec.toArray(new String[vec.size()]);
     }
 
-
     /**
      * Converts return type portion of method signature to string with all class names compacted.
      *
@@ -630,7 +598,6 @@ public abstract class Utility {
     public static String methodSignatureReturnType( final String signature ) throws ClassFormatException {
         return methodSignatureReturnType(signature, true);
     }
-
 
     /**
      * Converts return type portion of method signature to string.
@@ -656,7 +623,6 @@ public abstract class Utility {
         return type;
     }
 
-
     /**
      * Converts method signature to string with all class names compacted.
      *
@@ -668,7 +634,6 @@ public abstract class Utility {
     public static String methodSignatureToString( final String signature, final String name, final String access ) {
         return methodSignatureToString(signature, name, access, true);
     }
-
 
     /**
      * Converts method signature to string.
@@ -682,7 +647,6 @@ public abstract class Utility {
     public static String methodSignatureToString( final String signature, final String name, final String access, final boolean chopit ) {
         return methodSignatureToString(signature, name, access, chopit, null);
     }
-
 
     /**
      * This method converts a method signature string into a Java type declaration like
@@ -744,11 +708,9 @@ public abstract class Utility {
                 type + " " + name + buf;
     }
 
-
     private static int pow2( final int n ) {
         return 1 << n;
     }
-
 
     /**
      * Replace all occurrences of <em>old</em> in <em>str</em> with <em>new</em>.
@@ -780,7 +742,6 @@ public abstract class Utility {
         return str;
     }
 
-
     /**
      * WARNING:
      *
@@ -808,7 +769,6 @@ public abstract class Utility {
      * string, you should call typeSignatureToString directly.
      */
 
-
     /**
      * Converts a signature to a string with all class names compacted.
      * Class, Method and Type signatures are supported.
@@ -820,7 +780,6 @@ public abstract class Utility {
     public static String signatureToString( final String signature ) {
         return signatureToString(signature, true);
     }
-
 
     /**
      * Converts a signature to a string.
@@ -875,7 +834,6 @@ public abstract class Utility {
         return typeClass.toString();
     }
 
-
     /**
      * Converts a type parameter list signature to a string.
      *
@@ -899,7 +857,6 @@ public abstract class Utility {
         wrap(consumed_chars, index + 1); // account for the '>' char
         return typeParams.append(">").toString();
     }
-
 
     /**
      * Converts a type parameter signature to a string.
@@ -933,7 +890,6 @@ public abstract class Utility {
         return typeParam.toString();
     }
 
-
     /**
      * Converts a list of type signatures to a string.
      *
@@ -960,7 +916,6 @@ public abstract class Utility {
         wrap(consumed_chars, index + 1); // account for the term char
         return typeList.append(term).toString();
     }
-
 
     /**
      *
@@ -1136,7 +1091,6 @@ public abstract class Utility {
         }
     }
 
-
     /** Parse Java type such as "char", or "java.lang.String[]" and return the
      * signature in byte code format, e.g. "C" or "[Ljava/lang/String;" respectively.
      *
@@ -1195,7 +1149,6 @@ public abstract class Utility {
         return buf.toString();
     }
 
-
     private static int countBrackets( final String brackets ) {
         final char[] chars = brackets.toCharArray();
         int count = 0;
@@ -1226,7 +1179,6 @@ public abstract class Utility {
         return count;
     }
 
-
     /**
      * Return type of method signature as a byte value as defined in <em>Constants</em>
      *
@@ -1248,7 +1200,6 @@ public abstract class Utility {
             throw new ClassFormatException("Invalid method signature: " + signature, e);
         }
     }
-
 
     /**
      * Return type of signature as a byte value as defined in <em>Constants</em>
@@ -1297,7 +1248,6 @@ public abstract class Utility {
         }
     }
 
-
     /** Map opcode names to opcode numbers. E.g., return Constants.ALOAD for "aload"
      */
     public static short searchOpcode( String name ) {
@@ -1310,7 +1260,6 @@ public abstract class Utility {
         return -1;
     }
 
-
     /**
      * Convert (signed) byte to (unsigned) short value, i.e., all negative
      * values become positive.
@@ -1318,7 +1267,6 @@ public abstract class Utility {
     private static short byteToShort( final byte b ) {
         return (b < 0) ? (short) (256 + b) : (short) b;
     }
-
 
     /** Convert bytes into hexadecimal string
      *
@@ -1342,7 +1290,6 @@ public abstract class Utility {
         return buf.toString();
     }
 
-
     /**
      * Return a string for an integer justified left or right and filled up with
      * `fill' characters if necessary.
@@ -1356,7 +1303,6 @@ public abstract class Utility {
     public static String format( final int i, final int length, final boolean left_justify, final char fill ) {
         return fillup(Integer.toString(i), length, left_justify, fill);
     }
-
 
     /**
      * Fillup char with up to length characters with char `fill' and justify it left or right.
@@ -1379,7 +1325,6 @@ public abstract class Utility {
         return new String(buf) + str;
     }
 
-
     static boolean equals( final byte[] a, final byte[] b ) {
         int size;
         if ((size = a.length) != b.length) {
@@ -1393,26 +1338,21 @@ public abstract class Utility {
         return true;
     }
 
-
     public static void printArray( final PrintStream out, final Object[] obj ) {
         out.println(printArray(obj, true));
     }
-
 
     public static void printArray( final PrintWriter out, final Object[] obj ) {
         out.println(printArray(obj, true));
     }
 
-
     public static String printArray( final Object[] obj ) {
         return printArray(obj, true);
     }
 
-
     public static String printArray( final Object[] obj, final boolean braces ) {
         return printArray(obj, braces, false);
     }
-
 
     public static String printArray( final Object[] obj, final boolean braces, final boolean quote ) {
         if (obj == null) {
@@ -1438,7 +1378,6 @@ public abstract class Utility {
         return buf.toString();
     }
 
-
     /**
      * @param ch the character to test if it's part of an identifier
      *
@@ -1448,7 +1387,6 @@ public abstract class Utility {
         return ((ch >= 'a') && (ch <= 'z')) || ((ch >= 'A') && (ch <= 'Z'))
                 || ((ch >= '0') && (ch <= '9')) || (ch == '_');
     }
-
 
     /**
      * Encode byte array it into Java identifier string, i.e., a string
@@ -1488,7 +1426,6 @@ public abstract class Utility {
         }
         return caw.toString();
     }
-
 
     /**
      * Decode a string back to a byte array.
@@ -1556,7 +1493,6 @@ public abstract class Utility {
             super(in);
         }
 
-
         @Override
         public int read() throws IOException {
             final int b = in.read();
@@ -1581,7 +1517,6 @@ public abstract class Utility {
             return MAP_CHAR[i];
         }
 
-
         @Override
         public int read( final char[] cbuf, final int off, final int len ) throws IOException {
             for (int i = 0; i < len; i++) {
@@ -1600,7 +1535,6 @@ public abstract class Utility {
         public JavaWriter(final Writer out) {
             super(out);
         }
-
 
         @Override
         public void write( final int b ) throws IOException {
@@ -1624,7 +1558,6 @@ public abstract class Utility {
             }
         }
 
-
         @Override
         public void write( final char[] cbuf, final int off, final int len ) throws IOException {
             for (int i = 0; i < len; i++) {
@@ -1632,13 +1565,11 @@ public abstract class Utility {
             }
         }
 
-
         @Override
         public void write( final String str, final int off, final int len ) throws IOException {
             write(str.toCharArray(), off, len);
         }
     }
-
 
     /**
      * Escape all occurences of newline chars '\n', quotes \", etc.

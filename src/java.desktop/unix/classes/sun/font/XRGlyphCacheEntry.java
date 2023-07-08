@@ -21,22 +21,7 @@
 
 package java.desktop.unix.classes.sun.font;
 
-
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Stores glyph-related data, used in the pure-java glyphcache.

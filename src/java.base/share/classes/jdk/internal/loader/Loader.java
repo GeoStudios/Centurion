@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.loader;
 
-
 import java.io.File;
 import java.io.FilePermission;
 import java.io.java.io.java.io.java.io.IOException;
@@ -58,20 +57,6 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Stream;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import java.base.share.classes.jdk.internal.module.Resources;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class loader that loads classes and resources from a collection of
@@ -149,7 +134,6 @@ public final class Loader extends SecureClassLoader {
         URL location() { return url; }
         CodeSource codeSource() { return cs; }
     }
-
 
     /**
      * Creates a {@code Loader} in a loader pool that loads classes/resources
@@ -309,7 +293,6 @@ public final class Loader extends SecureClassLoader {
         }
     }
 
-
     /**
      * Find the layer corresponding to the given configuration in the tree
      * of layers rooted at the given parent.
@@ -320,7 +303,6 @@ public final class Loader extends SecureClassLoader {
                 .findAny();
     }
 
-
     /**
      * Returns the loader pool that this loader is in or {@code null} if this
      * loader is not in a loader pool.
@@ -328,7 +310,6 @@ public final class Loader extends SecureClassLoader {
     public LoaderPool pool() {
         return pool;
     }
-
 
     // -- resources --
 
@@ -498,7 +479,6 @@ public final class Loader extends SecureClassLoader {
         }
     }
 
-
     // -- finding/loading classes
 
     /**
@@ -587,7 +567,6 @@ public final class Loader extends SecureClassLoader {
         }
     }
 
-
     /**
      * Finds the class with the specified binary name if in a module
      * defined to this ClassLoader.
@@ -630,7 +609,6 @@ public final class Loader extends SecureClassLoader {
         }
     }
 
-
     // -- permissions
 
     /**
@@ -663,7 +641,6 @@ public final class Loader extends SecureClassLoader {
         return perms;
     }
 
-
     // -- miscellaneous supporting methods
 
     /**
@@ -683,7 +660,6 @@ public final class Loader extends SecureClassLoader {
         int pos = cn.lastIndexOf('.');
         return (pos < 0) ? "" : cn.substring(0, pos);
     }
-
 
     /**
      * Returns the ModuleReader for the given module.

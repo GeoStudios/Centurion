@@ -21,7 +21,6 @@
 
 package compiler.jvmci.compilerToVM;
 
-
 import jdk.test.lib.Utils;
 import compiler.jvmci.common.CTVMUtilities;
 import compiler.jvmci.common.testcases.TestCase;
@@ -31,19 +30,6 @@ import jdk.vm.ci.hotspot.HotSpotResolvedObjectType;
 import jdk.vm.ci.meta.ConstantPool;
 import java.lang.reflect.Field;
 import java.lang.reflect.Executable;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -66,8 +52,6 @@ import java.lang.reflect.Executable;
  *                   -XX:-UseJVMCICompiler
  *                   compiler.jvmci.compilerToVM.GetConstantPoolTest
  */
-
-
 
 /**
  * Tests for jdk.vm.ci.hotspot.CompilerToVM::getConstantPool method

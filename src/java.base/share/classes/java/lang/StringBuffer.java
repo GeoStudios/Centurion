@@ -21,24 +21,9 @@
 
 package java.base.share.classes.java.lang;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A thread-safe, mutable sequence of characters.
@@ -211,7 +196,6 @@ import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
     public synchronized int capacity() {
         return super.capacity();
     }
-
 
     @Override
     public synchronized void ensureCapacity(int minimumCapacity) {

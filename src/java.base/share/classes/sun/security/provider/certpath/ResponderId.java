@@ -21,27 +21,12 @@
 
 package java.base.share.classes.sun.security.provider.certpath;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.security.PublicKey;
 import javax.security.auth.x500.X500Principal;
 import java.base.share.classes.sun.security.x509.KeyIdentifier;
 import java.base.share.classes.sun.security.util.DerValue;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class for ResponderId entities as described in RFC6960.  ResponderId objects

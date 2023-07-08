@@ -21,7 +21,6 @@
 
 package nsk.monitoring.share;
 
-
 import nsk.share.test.*;
 import nsk.share.runner.*;
 import nsk.share.log.Log;
@@ -41,19 +40,6 @@ import java.util.Collection;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Monitoring extends nsk.share.test.Tests {
         private Monitoring() {
@@ -102,7 +88,6 @@ public class Monitoring extends nsk.share.test.Tests {
                                 return ManagementFactory.getPlatformMBeanServer();
                         }
                 }
-
 
                 public void configure(Object o) {
                         super.configure(o);

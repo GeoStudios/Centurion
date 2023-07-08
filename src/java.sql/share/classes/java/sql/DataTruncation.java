@@ -21,22 +21,6 @@
 
 package java.sql.share.classes.java.sql;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An exception  thrown as a {@code DataTruncation} exception
  * (on writes) or reported as a

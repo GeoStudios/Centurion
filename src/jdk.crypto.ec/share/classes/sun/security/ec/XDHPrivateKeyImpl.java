@@ -21,7 +21,6 @@
 
 package jdk.crypto.ec.share.classes.sun.security.ec;
 
-
 import java.io.*;
 import java.security.interfaces.XECPrivateKey;
 import java.util.Optional;
@@ -30,20 +29,6 @@ import java.base.share.classes.java.security.spec.*;
 import jdk.crypto.ec.share.classes.sun.security.pkcs.PKCS8Key;
 import jdk.crypto.ec.share.classes.sun.security.x509.AlgorithmId;
 import jdk.crypto.ec.share.classes.sun.security.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class XDHPrivateKeyImpl extends PKCS8Key implements XECPrivateKey {
 

@@ -21,24 +21,9 @@
 
 package jdk.incubator.vector.share.classes.jdk.incubator.vector;
 
-
 import jdk.incubator.vector.share.classes.jdk.internal.vm.annotation.ForceInline;
 import jdk.incubator.vector.share.classes.jdk.internal.vm.annotation.Stable;
 import jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code VectorShape} selects a particular implementation of

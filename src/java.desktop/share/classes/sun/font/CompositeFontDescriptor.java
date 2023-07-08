@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.font;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Encapsulates the information that 2D needs to create a composite font,
  * the runtime representation of a logical font.

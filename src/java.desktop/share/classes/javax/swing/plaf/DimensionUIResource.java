@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing.plaf;
 
-
 import java.awt.Dimension;
 import java.desktop.share.classes.javax.swing.plaf.UIResource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A subclass of <code>Dimension</code> that implements

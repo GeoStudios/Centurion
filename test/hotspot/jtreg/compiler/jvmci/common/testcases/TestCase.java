@@ -21,25 +21,11 @@
 
 package compiler.jvmci.common.testcases;
 
-
 import java.lang.reflect.Executable;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A test case for tests in compiler.jvmci.compilerToVM package.

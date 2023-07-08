@@ -21,21 +21,6 @@
 
 package gc;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 4098578
@@ -43,7 +28,6 @@ package gc;
  * @author Sheng Liang
  * @run main/othervm -Xmx128m gc.InfiniteList
  */
-
 
 public class InfiniteList {
     InfiniteList next;

@@ -21,21 +21,6 @@
 
 package nsk.jdi.ReferenceType.allFields;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class is loaded by allfields002aClassLoader .
  */

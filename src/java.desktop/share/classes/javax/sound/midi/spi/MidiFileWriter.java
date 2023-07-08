@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.javax.sound.midi.spi;
 
-
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.base.share.classes.java.util.Arrays;
 import java.desktop.share.classes.javax.sound.midi.Sequence;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code MidiFileWriter} supplies MIDI file-writing services. Classes that

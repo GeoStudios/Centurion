@@ -21,23 +21,8 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.classfile;
 
-
 import static jdk.jdeps.share.classes.com.sun.tools.classfile.Instruction.Kind.*;.extended
 import static jdk.jdeps.share.classes.com.sun.tools.classfile.Opcode.Set.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * See JVMS, chapter 6.

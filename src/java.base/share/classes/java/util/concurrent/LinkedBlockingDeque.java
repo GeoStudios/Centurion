@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util.concurrent;
 
-
 import java.base.share.classes.java.util.AbstractQueue;
 import java.base.share.classes.java.util.Collection;
 import java.base.share.classes.java.util.Iterator;
@@ -34,20 +33,6 @@ import java.base.share.classes.java.util.concurrent.locks.ReentrantLock;
 import java.base.share.classes.java.util.function.Consumer;
 import java.base.share.classes.java.util.function.Predicate;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -58,9 +43,6 @@ import java.base.share.classes.java.util.function.Predicate;
  * Expert Group and released to the public domain, as explained at
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
-
-
-
 
 /**
  * An optionally-bounded {@linkplain BlockingDeque blocking deque} based on
@@ -212,7 +194,6 @@ public class LinkedBlockingDeque<E>
         this(Integer.MAX_VALUE);
         addAll(c);
     }
-
 
     // Basic linking and unlinking operations, called only while holding lock
 

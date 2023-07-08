@@ -21,7 +21,6 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal;
 
-
 import java.lang.reflect.Array;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
@@ -29,20 +28,6 @@ import java.util.LinkedHashMap;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import jdk.jlink.share.classes.jdk.internal.jimage.ImageStringsReader;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * The algorithm used here is outlined in Applications of Finite Automata

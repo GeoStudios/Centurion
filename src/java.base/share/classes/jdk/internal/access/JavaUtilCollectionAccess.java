@@ -21,22 +21,7 @@
 
 package java.base.share.classes.jdk.internal.access;
 
-
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public interface JavaUtilCollectionAccess {
     <E> List<E> listFromTrustedArray(Object[] array);

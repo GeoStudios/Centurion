@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.net;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class represents a proxy setting, typically a type (http, socks) and
  * a socket address.

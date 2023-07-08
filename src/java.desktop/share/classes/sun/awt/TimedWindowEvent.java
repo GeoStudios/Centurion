@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.sun.awt;
 
-
 import java.awt.event.WindowEvent;
 import java.awt.Window;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("serial") // JDK-implementation class
 public class TimedWindowEvent extends WindowEvent {

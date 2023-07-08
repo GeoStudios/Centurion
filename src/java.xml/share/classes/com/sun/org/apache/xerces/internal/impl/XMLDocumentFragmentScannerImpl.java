@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.AugmentationsImpl;
@@ -57,20 +56,6 @@ import javax.xml.stream.events.XMLEvent;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkXmlUtils;
 import jdk.xml.internal.SecuritySupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *
@@ -159,7 +144,6 @@ public class XMLDocumentFragmentScannerImpl
 
     // feature identifiers
 
-
     /** Feature identifier: notify built-in refereces. */
     protected static final String NOTIFY_BUILTIN_REFS =
             Constants.XERCES_FEATURE_PREFIX + Constants.NOTIFY_BUILTIN_REFS_FEATURE;
@@ -232,7 +216,6 @@ public class XMLDocumentFragmentScannerImpl
                 null,
                 JdkConstants.CDATA_CHUNK_SIZE_DEFAULT
     };
-
 
     private static final char [] CDATA = {'[','C','D','A','T','A','['};
     static final char [] XMLDECL = {'<','?','x','m','l'};
@@ -320,7 +303,6 @@ public class XMLDocumentFragmentScannerImpl
 
     // features
 
-
     /** Notify built-in references. */
     protected boolean fNotifyBuiltInRefs = false;
 
@@ -377,7 +359,6 @@ public class XMLDocumentFragmentScannerImpl
      * iterator.
      */
     protected XMLAttributesIteratorImpl fAttributes = new XMLAttributesIteratorImpl();
-
 
     /** String. */
     protected XMLString fTempString = new XMLString();
@@ -560,8 +541,6 @@ public class XMLDocumentFragmentScannerImpl
 
     } // scanDocument(boolean):boolean
 
-
-
     public com.sun.org.apache.xerces.internal.xni.QName getElementQName(){
         if(fScannerLastState == XMLEvent.END_ELEMENT){
             fElementQName.setValues(fElementStack.getLastPoppedElement());
@@ -642,7 +621,6 @@ public class XMLDocumentFragmentScannerImpl
         resetCommon();
         //fEntityManager.test();
     } // reset(XMLComponentManager)
-
 
     public void reset(PropertyManager propertyManager){
 
@@ -799,7 +777,6 @@ public class XMLDocumentFragmentScannerImpl
             }
         }
 
-
                 // Xerces properties
         if (propertyId.startsWith(Constants.XERCES_PROPERTY_PREFIX)) {
             String property = propertyId.substring(Constants.XERCES_PROPERTY_PREFIX.length());
@@ -865,7 +842,6 @@ public class XMLDocumentFragmentScannerImpl
         fDocumentHandler = documentHandler;
         //System.out.println(" In Set DOCUMENT HANDLER" + fDocumentHandler + " scanner =" + this);
     } // setDocumentHandler(XMLDocumentHandler)
-
 
     /** Returns the document handler */
     public XMLDocumentHandler getDocumentHandler(){
@@ -957,7 +933,6 @@ public class XMLDocumentFragmentScannerImpl
             }
         }
 
-
     } // endEntity(String)
 
     //
@@ -1011,7 +986,6 @@ public class XMLDocumentFragmentScannerImpl
         //but this information is only related with Document Entity.
         fEntityManager.setStandalone(fStandalone);
 
-
         // call handler
         if (fDocumentHandler != null) {
             if (scanningTextDecl) {
@@ -1049,7 +1023,6 @@ public class XMLDocumentFragmentScannerImpl
         }
 
     }
-
 
     /**
      * Scans a processing data. This is needed to handle the situation
@@ -1131,7 +1104,6 @@ public class XMLDocumentFragmentScannerImpl
         }
     }
 
-
     void resetPointer(short depth, short column){
         fPointerInfo[depth] [column] = (short)0;
     }
@@ -1167,7 +1139,6 @@ public class XMLDocumentFragmentScannerImpl
         //        calle should make sure that it doesn't call for value outside allowed co-ordinates
         return fPointerInfo[depth][column] == 0;
     }
-
 
     short getElementPointer(short depth, short column){
         //colum = 0 , means first element at particular depth
@@ -1347,7 +1318,6 @@ public class XMLDocumentFragmentScannerImpl
             fElementStack.matchElement(fElementQName);
         }
 
-
         //xxx: We dont need another pointer, fCurrentElement, we can use fElementQName
         fCurrentElement = fElementQName;
 
@@ -1411,7 +1381,6 @@ public class XMLDocumentFragmentScannerImpl
                 fDocumentHandler.startElement(fElementQName, fAttributes, null);
             }
         }
-
 
         if (DEBUG_START_END_ELEMENT) System.out.println(this.getClass().toString() +
                 "<<< scanStartElement(): "+fEmptyElement);
@@ -1606,7 +1575,6 @@ public class XMLDocumentFragmentScannerImpl
 
     } // scanContent():int
 
-
     /**
      * Scans a CDATA section.
      * <p>
@@ -1780,7 +1748,6 @@ public class XMLDocumentFragmentScannerImpl
 
     } // scanCharReference()
 
-
     /**
      * Scans an entity reference.
      *
@@ -1936,7 +1903,6 @@ public class XMLDocumentFragmentScannerImpl
         }
 
     } // setScannerState(int)
-
 
     /**
      * Sets the Driver.
@@ -2112,7 +2078,6 @@ public class XMLDocumentFragmentScannerImpl
 
         }
 
-
         //
         // Public methods
         //
@@ -2204,7 +2169,6 @@ public class XMLDocumentFragmentScannerImpl
             return fDepth--;
         }
 
-
         /** Clears the stack without throwing away existing QName objects. */
         public void clear() {
             fLastDepth = 0;
@@ -2230,7 +2194,6 @@ public class XMLDocumentFragmentScannerImpl
         /** The stack data. */
         protected QName[] fElements;
         protected int []  fInt = new int[20];
-
 
         //Element depth
         protected int fDepth;
@@ -2285,7 +2248,6 @@ public class XMLDocumentFragmentScannerImpl
             fElements[fDepth].setValues(element);
             return fElements[fDepth++];
         } // pushElement(QName):QName
-
 
         /** Note that this function is considerably different than nextElement()
          * This function just returns the previously stored elements
@@ -2400,7 +2362,6 @@ public class XMLDocumentFragmentScannerImpl
             return match;
         } // matchElement(QName):QName
 
-
         /**
          * Returns the next element on the stack.
          *
@@ -2424,7 +2385,6 @@ public class XMLDocumentFragmentScannerImpl
             return fElements[fDepth++];
 
         } // pushElement(QName):QName
-
 
         /**
          * Pops an element off of the stack by setting the values of
@@ -2503,7 +2463,6 @@ public class XMLDocumentFragmentScannerImpl
      *
      */
     protected interface Driver {
-
 
         /**
          * Drives the parser to the next state/event on the input. Parser is guaranteed
@@ -2600,7 +2559,6 @@ public class XMLDocumentFragmentScannerImpl
                 setScannerState(SCANNER_STATE_CHARACTER_DATA);
             }
         }//startOfContent
-
 
         /**
          *
@@ -3069,7 +3027,6 @@ public class XMLDocumentFragmentScannerImpl
                         //and when to allow adapter issue a callback.
                         continue;
                     }
-
 
                     case SCANNER_STATE_ROOT_ELEMENT: {
                         if (scanRootElementHook()) {

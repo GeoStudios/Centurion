@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.event;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Event recording details of successful TLS handshakes.
  */

@@ -21,21 +21,7 @@
 
 package compiler.codegen;
 
-
 import jdk.test.lib.Asserts;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -46,8 +32,6 @@ import jdk.test.lib.Asserts;
  *                   -Xcomp -XX:-TieredCompilation -XX:-Inline
  *                   compiler.codegen.TestSignedMultiplyLong
  */
-
-
 
 public class TestSignedMultiplyLong {
 

@@ -21,7 +21,6 @@
 
 package compiler.compilercontrol.share.method;
 
-
 import compiler.compilercontrol.share.method.MethodDescriptor.PatternType;
 import compiler.compilercontrol.share.method.MethodDescriptor.Separator;
 import compiler.compilercontrol.share.pool.PoolHelper;
@@ -34,19 +33,6 @@ import java.util.EnumSet;
 import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.Callable;
 import java.util.function.Function;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Generates combinations of method descriptors from the pool of methods

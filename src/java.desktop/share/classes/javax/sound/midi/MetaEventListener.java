@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.sound.midi;
 
-
 import java.util.Eventjava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code MetaEventListener} interface should be implemented by classes

@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
-
 import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * This interface defines a set of integer constants that identify trace event
@@ -121,7 +104,6 @@ public interface SerializerTrace {
    */
   int EVENTTYPE_OUTPUT_CHARACTERS = 12;
 
-
   /**
    * Tell if trace listeners are present.
    *
@@ -163,7 +145,6 @@ public interface SerializerTrace {
    * @param data The processing instruction data.
    */
   void fireGenerateEvent(int eventType, String name, String data);
-
 
   /**
    * Fire comment and entity ref events.

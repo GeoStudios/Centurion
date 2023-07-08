@@ -21,22 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** <P> SignatureIterators iterate over a Java signature (or parts of it).
     (Syntax according to: "The Java Virtual Machine Specification" by

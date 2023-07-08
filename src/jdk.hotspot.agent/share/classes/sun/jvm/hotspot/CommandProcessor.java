@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot;
 
-
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
@@ -101,20 +100,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.ReversePtrs;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.ReversePtrsAnalysis;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.RobustOopDeterminator;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.SystemDictionaryHelper;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CommandProcessor {
 
@@ -254,7 +239,6 @@ public class CommandProcessor {
         }
     }
 
-
     abstract class Command {
         Command(String n, String u, boolean ok) {
             name = n;
@@ -354,7 +338,6 @@ public class CommandProcessor {
             out.println();
         }
     }
-
 
     Address lookup(String symbol) {
         if (symbol.indexOf("::") != -1) {
@@ -1526,7 +1509,6 @@ public class CommandProcessor {
                             public void epilogue() {
                             }
 
-
                         };
                     VM.getVM().getCodeCache().iterate(v);
 
@@ -1548,7 +1530,6 @@ public class CommandProcessor {
                             }
                             public void epilogue() {
                             }
-
 
                         };
                     VM.getVM().getCodeCache().iterate(v);
@@ -1913,7 +1894,6 @@ public class CommandProcessor {
             postAttach();
         }
     }
-
 
     public void run(boolean prompt) {
         // Process interactive commands.

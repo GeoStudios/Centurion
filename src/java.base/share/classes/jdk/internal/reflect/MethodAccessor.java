@@ -21,22 +21,7 @@
 
 package java.base.share.classes.jdk.internal.reflect;
 
-
 import java.lang.reflect.InvocationTargetException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** This interface provides the declaration for
     java.lang.reflect.Method.invoke(). Each Method object is

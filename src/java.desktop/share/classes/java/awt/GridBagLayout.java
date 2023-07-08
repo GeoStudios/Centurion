@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.io.Serial;
 import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays;
 import java.desktop.share.classes.java.util.Hashtable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code GridBagLayout} class is a flexible layout
@@ -1108,7 +1093,6 @@ java.io.Serializable {
                     xMaxArray[i] = px;
                 }
 
-
                 /* Cache the current child's size. */
                 if (sizeflag == PREFERREDSIZE)
                     d = comp.getPreferredSize();
@@ -1133,7 +1117,6 @@ java.io.Serializable {
                 else if (constraints.gridwidth == 0 && curCol < 0)
                     curRow = curY + curHeight;
             } //for (components) loop
-
 
             /*
              * Apply minimum row/column dimensions
@@ -1169,7 +1152,6 @@ java.io.Serializable {
                 r.baselineType = baselineType = new short[layoutHeight];
                 r.hasBaseline = true;
             }
-
 
             for (compindex = 0 ; compindex < components.length ; compindex++) {
                 comp = components[compindex];
@@ -1335,7 +1317,6 @@ java.io.Serializable {
             r.minWidth = new int[maximumArrayYIndex];
             r.minHeight = new int[maximumArrayXIndex];
 
-
             /*
              * Apply minimum row/column dimensions and weights
              */
@@ -1424,7 +1405,6 @@ java.io.Serializable {
                     }
                     else if (constraints.tempWidth > i && constraints.tempWidth < nextSize)
                         nextSize = constraints.tempWidth;
-
 
                     if (constraints.tempHeight == i) {
                         py = constraints.tempY + constraints.tempHeight; /* bottom row */

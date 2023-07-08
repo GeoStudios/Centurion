@@ -21,23 +21,9 @@
 
 package compiler.vectorapi;
 
-
 import jdk.incubator.vector.ByteVector;
 import jdk.incubator.vector.VectorOperators;
 import jdk.incubator.vector.VectorSpecies;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

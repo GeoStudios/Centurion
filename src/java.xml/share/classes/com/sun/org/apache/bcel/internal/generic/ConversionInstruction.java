@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Super class for the x2y family of instructions.
@@ -59,14 +42,12 @@ public abstract class ConversionInstruction extends Instruction implements Typed
     ConversionInstruction() {
     }
 
-
     /**
      * @param opcode opcode of instruction
      */
     protected ConversionInstruction(final short opcode) {
         super(opcode, (short) 1);
     }
-
 
     /** @return type associated with the instruction
      */

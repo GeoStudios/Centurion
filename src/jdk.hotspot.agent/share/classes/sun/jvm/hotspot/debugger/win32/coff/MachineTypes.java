@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface MachineTypes {
   /** Contents assumed to be applicable to any machine type. */
   short IMAGE_FILE_MACHINE_UNKNOWN = (short) 0x0;

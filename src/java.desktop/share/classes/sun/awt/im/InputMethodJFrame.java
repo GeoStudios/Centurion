@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.sun.awt.im;
 
-
 import java.io.Serial;
 import javax.swing.JFrame;
 import javax.swing.JRootPane;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implements a Swing based input method window that provides the minimal

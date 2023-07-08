@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.awt;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Interface used by Swing to make copies from the Swing back buffer
  * more optimal when using BufferStrategy; no need to copy the entire

@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Models the "sstFileIndex" subsection in Visual C++ 5.0 debug
     information. This subsection contains a list of all of the source
     files that contribute code to any module (compiland) in the

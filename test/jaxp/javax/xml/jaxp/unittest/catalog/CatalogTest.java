@@ -21,7 +21,6 @@
 
 package catalog;
 
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -66,19 +65,6 @@ import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.ext.DefaultHandler2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8081248 8144966 8146606 8146237 8150969 8151162 8152527 8154220 8163232
@@ -90,7 +76,6 @@ import org.xml.sax.ext.DefaultHandler2;
 @Listeners({jaxp.library.FilePolicy.class})
 public class CatalogTest extends CatalogSupportBase {
     static final String KEY_FILES = "javax.xml.catalog.files";
-
 
     /*
      * Initializing fields
@@ -285,7 +270,6 @@ public class CatalogTest extends CatalogSupportBase {
          };
     }
 
-
     /*
        DataProvider: used to verify the support of LSResourceResolver by Validator.
         Data columns:
@@ -449,7 +433,6 @@ public class CatalogTest extends CatalogSupportBase {
         */
         Catalog catalog = CatalogManager.catalog(features, catalogFile);
     }
-
 
     /**
      * @bug 8146237
@@ -616,7 +599,6 @@ public class CatalogTest extends CatalogSupportBase {
         }
     }
 
-
     /*
         DataProvider: used to verify CatalogResolver's resolve function.
         Data columns:
@@ -732,7 +714,6 @@ public class CatalogTest extends CatalogSupportBase {
             {"defer_del_false.xml"}
         };
     }
-
 
     /*
        DataProvider: provides test name, expected string, the catalog, and XML

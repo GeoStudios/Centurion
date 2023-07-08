@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
-
 import java.awt.*;
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
 import java.desktop.share.classes.javax.swing.plaf.UIResource;
 import java.desktop.share.classes.javax.swing.plaf.basic.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Metal implementation of <code>MenuBarUI</code>. This class is responsible

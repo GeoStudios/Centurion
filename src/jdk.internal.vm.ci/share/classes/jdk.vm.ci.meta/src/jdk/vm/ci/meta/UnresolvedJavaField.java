@@ -21,22 +21,6 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A implementation of {@link JavaField} for an unresolved field.
  */

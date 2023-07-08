@@ -21,23 +21,9 @@
 
 package nsk.jdi.ThreadReference.ownedMonitors;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the ownedmonitors001 JDI test.
@@ -91,7 +77,6 @@ public class ownedmonitors001a {
         // informing a debugger of readyness
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
-
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {

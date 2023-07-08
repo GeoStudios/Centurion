@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text.html.parser;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * SGML constants used in a DTD. The names of the
  * constants correspond to the equivalent SGML constructs

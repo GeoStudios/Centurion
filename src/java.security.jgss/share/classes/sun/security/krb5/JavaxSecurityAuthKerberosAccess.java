@@ -21,24 +21,9 @@
 
 package java.security.jgss.share.classes.sun.security.krb5;
 
-
 import javax.security.auth.kerberos.KerberosPrincipal;
 import javax.security.auth.kerberos.KerberosTicket;
 import javax.security.auth.kerberos.KeyTab;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An unsafe tunnel to get non-public access to classes in the

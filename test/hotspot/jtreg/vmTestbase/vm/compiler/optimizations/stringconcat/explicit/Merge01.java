@@ -21,24 +21,10 @@
 
 package vm.compiler.optimizations.stringconcat.explicit;
 
-
 import nsk.share.StringGoldChecker;
 import vm.compiler.share.CompilerTest;
 import vm.compiler.share.CompilerTestLauncher;
 import vm.compiler.share.Random;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Merge01 {
 
@@ -105,10 +91,8 @@ public class Merge01 {
         res.append(suffix.toString());
         res.append(postfix.toString());
 
-
         return randomCut(res.toString(), 10);
     }
-
 
     private static final CompilerTest<Integer> test = new CompilerTest<Integer>("Merge01") {
         @Override

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.net;
 
-
 import java.io.*;
 import java.net.java.net.java.net.java.net.Socket;
 import java.net.InetAddress;
@@ -31,20 +30,6 @@ import java.net.Proxy;
 import java.base.share.classes.java.util.Arrays;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is the base class for network clients.
@@ -105,7 +90,6 @@ public class NetworkClient {
             encoding = "ISO8859_1";
         }
     }
-
 
     /**
      * Test the named character encoding to verify that it converts ASCII

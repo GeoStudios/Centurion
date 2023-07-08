@@ -21,21 +21,6 @@
 
 package compiler.arraycopy;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8073866
@@ -44,7 +29,6 @@ package compiler.arraycopy;
  * @run main/othervm -XX:-BackgroundCompilation -XX:-UseOnStackReplacement
  *                   compiler.arraycopy.TestArrayCopyBadReexec
  */
-
 
 public class TestArrayCopyBadReexec {
 

@@ -21,7 +21,6 @@
 
 package jdk.naming.rmi.share.classes.com.sun.jndi.rmi.registry;
 
-
 import java.util.Hashtable;
 import java.util.Properties;
 import java.rmi.*;
@@ -33,25 +32,10 @@ import java.security.PrivilegedAction;
 import javax.naming.*;
 import javax.naming.spi.NamingManager;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A RegistryContext is a context representing a remote RMI registry.
  *
  */
-
 
 public class RegistryContext implements Context, Referenceable {
 
@@ -372,7 +356,6 @@ public class RegistryContext implements Context, Referenceable {
                               null));
     }
 
-
     /**
      * Wrap a RemoteException inside a NamingException.
      */
@@ -521,7 +504,6 @@ public class RegistryContext implements Context, Referenceable {
 
 }
 
-
 /**
  * A name parser for case-sensitive atomic names.
  */
@@ -532,7 +514,6 @@ class AtomicNameParser implements NameParser {
         return (new CompoundName(name, syntax));
     }
 }
-
 
 /**
  * An enumeration of name / class-name pairs.
@@ -581,7 +562,6 @@ class NameClassPairEnumeration implements NamingEnumeration<NameClassPair> {
         nextName = names.length;
     }
 }
-
 
 /**
  * An enumeration of Bindings.

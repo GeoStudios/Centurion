@@ -21,7 +21,6 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.utils;
 
-
 import java.io.BufferedReader;
 import java.io.IOError;
 import java.io.java.io.java.io.java.io.IOException;
@@ -31,20 +30,6 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.stream.Stream;
 import static jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.TerminalBuilder.PROP_COLOR_DISTANCE;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Colors {
 
@@ -453,7 +438,6 @@ public class Colors {
     public static final int H = 5;
     /** Hue */
     public static final int h = 6;
-
 
     /** CIECAM02 appearance correlates */
     private static double[] forwardTransform(double[] XYZ, double[] vc) {

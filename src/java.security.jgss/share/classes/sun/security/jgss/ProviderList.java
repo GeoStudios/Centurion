@@ -21,7 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.jgss;
 
-
 import java.lang.reflect.InvocationTargetException;
 import org.ietf.jgss.*;
 import java.security.Provider;
@@ -35,20 +34,6 @@ import java.security.jgss.share.classes.sun.security.jgss.spi.*;
 import java.security.jgss.share.classes.sun.security.jgss.wrapper.NativeGSSFactory;
 import java.security.jgss.share.classes.sun.security.jgss.wrapper.SunNativeProvider;
 import java.security.jgss.share.classes.sun.security.action.GetPropertyAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class stores the list of providers that this

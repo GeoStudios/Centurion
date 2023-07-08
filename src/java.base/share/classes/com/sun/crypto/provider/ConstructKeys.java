@@ -21,7 +21,6 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
-
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import java.base.share.classes.java.security.Key;
 import java.base.share.classes.java.security.PublicKey;
@@ -36,20 +35,6 @@ import java.base.share.classes.java.util.Arrays;
 import java.base.share.classes.javax.crypto.SecretKey;
 import java.base.share.classes.javax.crypto.Cipher;
 import java.base.share.classes.javax.crypto.spec.SecretKeySpec;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is a helper class which construct key objects

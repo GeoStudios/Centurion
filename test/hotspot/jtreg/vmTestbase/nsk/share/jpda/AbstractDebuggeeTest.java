@@ -21,7 +21,6 @@
 
 package nsk.share.jpda;
 
-
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
@@ -29,21 +28,7 @@ import nsk.share.test.*;
 import java.lang.management.GarbageCollectorMXBean;
 import java.lang.management.ManagementFactory;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 //    THIS TEST IS LINE NUMBER SENSITIVE
-
 
 /*
  * Class can be used as base debuggee class in jdi and jdwp tests.
@@ -103,7 +88,6 @@ public class AbstractDebuggeeTest {
     // GCcount is used to get information about GC activity during test
     static public final String COMMAND_GC_COUNT = "GCcount";
     private int lastGCCount;
-
 
     static public final String stateTestThreadName = "stateTestThread";
 

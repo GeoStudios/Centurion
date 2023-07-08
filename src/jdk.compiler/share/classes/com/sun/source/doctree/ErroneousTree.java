@@ -21,23 +21,8 @@
 
 package jdk.compiler.share.classes.com.sun.source.doctree;
 
-
 import javax.tools.Diagnostic;
 import javax.tools.JavaFileObject;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A tree node to stand in for malformed text.

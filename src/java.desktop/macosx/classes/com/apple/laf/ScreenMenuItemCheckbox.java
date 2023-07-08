@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -29,20 +28,6 @@ import javax.swing.plaf.ButtonUI;
 import java.desktop.macosx.classes.com.apple.laf.AquaMenuItemUI.Indeterminatejava.util.Listener;
 import sun.awt.AWTAccessor;
 import sun.lwawt.macosx.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("serial") // JDK implementation class
 final class ScreenMenuItemCheckbox extends CheckboxMenuItem

@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.z;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class ZHash {
     private static long uint32(long value) {
         return value & 0xFFFFFFFFL;

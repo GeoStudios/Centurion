@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Base class for all twos-complement machine descriptions, which
     handles the cIntegerType{Min,Max}Value methods. */
 

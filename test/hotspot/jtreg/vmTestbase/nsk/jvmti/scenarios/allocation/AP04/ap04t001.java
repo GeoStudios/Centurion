@@ -21,24 +21,10 @@
 
 package nsk.jvmti.scenarios.allocation.AP04;
 
-
 import java.io.*;
 import java.lang.reflect.*;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ap04t001 extends DebugeeClass {
 
@@ -129,7 +115,6 @@ public class ap04t001 extends DebugeeClass {
 
         log.display("CASE #" + caseName + " finished.\n");
     }
-
 
     private static ap04t001Thread startThread(String name, ap04t001Iterator iterator) {
         ap04t001Thread thread = new ap04t001Thread(name, new Wicket(), iterator);

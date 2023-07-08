@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -44,20 +43,6 @@ import java.base.share.classes.sun.security.action.GetPropertyAction;
 import java.base.share.classes.sun.security.util.HexDumpEncoder;
 import java.base.share.classes.sun.security.x509.*;
 import static java.nio.charset.StandardCharsets.UTF_8;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation of SSL logger.

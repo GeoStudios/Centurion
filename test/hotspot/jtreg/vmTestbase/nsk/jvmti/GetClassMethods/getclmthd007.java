@@ -21,21 +21,7 @@
 
 package nsk.jvmti.GetClassMethods;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class getclmthd007 {
 

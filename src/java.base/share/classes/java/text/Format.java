@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.text;
 
-
 import java.base.share.classes.java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * {@code Format} is an abstract base class for formatting locale-sensitive
@@ -333,7 +318,6 @@ public abstract class Format implements Serializable, Cloneable {
         return as.getIterator();
     }
 
-
     /**
      * Defines constants that are used as attribute keys in the
      * {@code AttributedCharacterIterator} returned
@@ -356,7 +340,6 @@ public abstract class Format implements Serializable, Cloneable {
             super(name);
         }
     }
-
 
     /**
      * FieldDelegate is notified by the various {@code Format}

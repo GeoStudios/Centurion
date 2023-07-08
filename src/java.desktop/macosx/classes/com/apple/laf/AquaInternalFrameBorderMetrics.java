@@ -21,24 +21,9 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.awt.Font;
 import java.desktop.macosx.classes.com.apple.laf.JRSUIUtils;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class AquaInternalFrameBorderMetrics {
     private static final boolean useLegacyBorderMetrics = JRSUIUtils.InternalFrame.shouldUseLegacyBorderMetrics();

@@ -21,27 +21,12 @@
 
 package java.base.share.classes.jdk.internal.loader;
 
-
 import java.lang.module.Configuration;
 import java.lang.module.ResolvedModule;
 import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A pool of class loaders.
@@ -53,7 +38,6 @@ public final class LoaderPool {
 
     // maps module names to class loaders
     private final Map<String, Loader> loaders;
-
 
     /**
      * Creates a pool of class loaders. Each module in the given configuration
@@ -75,7 +59,6 @@ public final class LoaderPool {
         // complete the initialization
         loaders.values().forEach(l -> l.initRemotePackageMap(cf, parentLayers));
     }
-
 
     /**
      * Returns the class loader for the named module

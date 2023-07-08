@@ -21,27 +21,12 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.InternalException;
 import jdk.jdi.share.classes.com.sun.jdi.InvalidStackFrameException;
 import jdk.jdi.share.classes.com.sun.jdi.MonitorInfo;
 import jdk.jdi.share.classes.com.sun.jdi.ObjectReference;
 import jdk.jdi.share.classes.com.sun.jdi.ThreadReference;
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class MonitorInfoImpl extends MirrorImpl
     implements MonitorInfo, ThreadListener {

@@ -21,27 +21,12 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.hpack;
 
-
 import java.net.http.share.classes.jdk.internal.net.http.hpack.HPACK.BufferUpdateConsumer;
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Objects;
 import static java.net.http.share.classes.jdk.internal.net.http.hpack.HPACK.bytesForBits;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class QuickHuffman {
 

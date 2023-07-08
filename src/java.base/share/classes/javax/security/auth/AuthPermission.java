@@ -21,22 +21,6 @@
 
 package java.base.share.classes.javax.security.auth;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class is for authentication permissions. An {@code AuthPermission}
  * contains a name (also referred to as a "target name") but no actions

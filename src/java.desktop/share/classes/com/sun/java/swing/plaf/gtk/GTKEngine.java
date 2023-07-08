@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.gtk;
 
-
 import java.desktop.share.classes.com.sun.java.awt.*;
 import java.desktop.share.classes.com.sun.java.awt.image.*;
 import java.desktop.share.classes.com.sun.java.util.HashMap;
@@ -35,20 +34,6 @@ import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKConstants.Shado
 import java.desktop.share.classes.com.sun.java.swing.plaf.gtk.GTKConstants.TextDirection;
 import java.desktop.share.classes.com.sun.awt.image.SunWritableRaster;
 import java.desktop.share.classes.com.sun.swing.ImageCache;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * GTKEngine delegates all painting job to native GTK libraries.
@@ -120,7 +105,6 @@ class GTKEngine {
             super(name, null, false);
         }
     }
-
 
     private static final HashMap<Region, Object> regionToWidgetTypeMap;
     private final ImageCache cache = new ImageCache(CACHE_SIZE);
@@ -552,7 +536,6 @@ class GTKEngine {
         { 0x00ff0000, 0x0000ff00, 0x000000ff, 0x01000000 }, // BITMASK
         { 0x00ff0000, 0x0000ff00, 0x000000ff, 0xff000000 }  // TRANSLUCENT
     };
-
 
     /**
      * Paint a cached image identified by its size and a set of additional

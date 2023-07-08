@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -32,20 +31,6 @@ import java.util.Vector;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
 import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * NamedNodeMaps represent collections of Nodes that can be accessed
@@ -402,7 +387,6 @@ public class NamedNodeMapImpl
         return isReadOnly();
     } // getReadOnly()
 
-
     //
     // Protected methods
     //
@@ -491,7 +475,6 @@ public class NamedNodeMapImpl
 
     } // findNamePoint(String):int
 
-
     /** This findNamePoint is for DOM Level 2 Namespaces.
      */
     protected int findNamePoint(String namespaceURI, String name) {
@@ -543,7 +526,6 @@ public class NamedNodeMapImpl
         return false;
     }
 
-
     /**
       * NON-DOM: Remove attribute at specified index
       */
@@ -552,7 +534,6 @@ public class NamedNodeMapImpl
            nodes.remove(index);
        }
     }
-
 
     protected Object getItem (int index){
         if (nodes != null) {

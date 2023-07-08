@@ -21,24 +21,10 @@
 
 package nsk.jdb.trace.trace001;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdb.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* This is debuggee aplication */
 public class trace001a {
@@ -104,7 +90,6 @@ public class trace001a {
         return trace001.PASSED;
     }
 }
-
 
 class MyThread extends Thread {
     Object lock;

@@ -21,23 +21,9 @@
 
 package nsk.jdi.ArrayReference.getValues;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class getvalues002a {
     public static void main (String argv[]) {
@@ -45,7 +31,6 @@ public class getvalues002a {
         Log log = new Log(System.err, argHandler);
         IOPipe pipe = argHandler.createDebugeeIOPipe(log);
         getvalues002aClassToCheck classToCheck = new getvalues002aClassToCheck();
-
 
         log.display("DEBUGEE> debugee started.");
         pipe.println("ready");

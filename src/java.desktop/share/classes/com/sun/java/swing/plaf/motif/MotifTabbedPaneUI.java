@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-
 import java.desktop.share.classes.com.sun.java.awt.Color;
 import java.desktop.share.classes.com.sun.java.awt.Graphics;
 import java.desktop.share.classes.com.sun.java.awt.Rectangle;
@@ -29,20 +28,6 @@ import javax.swing.JComponent;
 import javax.swing.UIManager;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicTabbedPaneUI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A Motif {@literal L&F} implementation of TabbedPaneUI.
@@ -58,16 +43,13 @@ public class MotifTabbedPaneUI extends BasicTabbedPaneUI
     protected Color unselectedTabShadow;
     protected Color unselectedTabHighlight;
 
-
 // UI creation
 
     public static ComponentUI createUI(JComponent tabbedPane) {
         return new MotifTabbedPaneUI();
     }
 
-
 // UI Installation/De-installation
-
 
     protected void installDefaults() {
         super.installDefaults();

@@ -21,24 +21,10 @@
 
 package gc.g1;
 
-
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.Platform;
 import jdk.test.lib.process.ProcessTools;
 import sun.hotspot.code.Compiler;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestGCLogMessages
@@ -54,7 +40,6 @@ import sun.hotspot.code.Compiler;
  * @run main/othervm -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI
  *                   gc.g1.TestGCLogMessages
  */
-
 
 public class TestGCLogMessages {
 
@@ -305,7 +290,6 @@ public class TestGCLogMessages {
         output.shouldContain("B expansion amount: ");
         output.shouldHaveExitValue(0);
     }
-
 
     static class GCTest {
         private static byte[] garbage;

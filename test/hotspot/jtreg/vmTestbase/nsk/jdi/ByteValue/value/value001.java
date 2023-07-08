@@ -21,26 +21,12 @@
 
 package nsk.jdi.ByteValue.value;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -211,7 +197,6 @@ public class value001 {
                 case 2: if (bvlargest.value() != Byte.MAX_VALUE)
                             expresult = 1;
                         break;
-
 
                 default: expresult = 2;
                          break ;

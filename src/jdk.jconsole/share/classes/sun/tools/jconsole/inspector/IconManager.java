@@ -21,25 +21,10 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
-
 import java.awt.Image;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import jdk.jconsole.share.classes.sun.tools.jconsole.JConsole;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class IconManager {
 

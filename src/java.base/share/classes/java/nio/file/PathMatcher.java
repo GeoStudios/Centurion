@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.nio.file;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An interface that is implemented by objects that perform match operations on
  * paths.

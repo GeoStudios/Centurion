@@ -21,22 +21,6 @@
 
 package java.base.share.classes.javax.security.auth.callback;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Signals that a {@code CallbackHandler} does not
  * recognize a particular {@code Callback}.

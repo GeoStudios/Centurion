@@ -21,25 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
-
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is derived from the abstract {@link Constant}
@@ -52,7 +37,6 @@ public final class ConstantFloat extends Constant implements ConstantObject {
 
     private float bytes;
 
-
     /**
      * @param bytes Data
      */
@@ -61,7 +45,6 @@ public final class ConstantFloat extends Constant implements ConstantObject {
         this.bytes = bytes;
     }
 
-
     /**
      * Initialize from another object. Note that both objects use the same
      * references (shallow copy). Use clone() for a physical copy.
@@ -69,7 +52,6 @@ public final class ConstantFloat extends Constant implements ConstantObject {
     public ConstantFloat(final ConstantFloat c) {
         this(c.getBytes());
     }
-
 
     /**
      * Initialize instance from file data.
@@ -80,7 +62,6 @@ public final class ConstantFloat extends Constant implements ConstantObject {
     ConstantFloat(final DataInput file) throws IOException {
         this(file.readFloat());
     }
-
 
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
@@ -94,7 +75,6 @@ public final class ConstantFloat extends Constant implements ConstantObject {
         v.visitConstantFloat(this);
     }
 
-
     /**
      * Dump constant float to file stream in binary format.
      *
@@ -107,14 +87,12 @@ public final class ConstantFloat extends Constant implements ConstantObject {
         file.writeFloat(bytes);
     }
 
-
     /**
      * @return data, i.e., 4 bytes.
      */
     public float getBytes() {
         return bytes;
     }
-
 
     /**
      * @param bytes the raw bytes that represent this float
@@ -123,7 +101,6 @@ public final class ConstantFloat extends Constant implements ConstantObject {
         this.bytes = bytes;
     }
 
-
     /**
      * @return String representation.
      */
@@ -131,7 +108,6 @@ public final class ConstantFloat extends Constant implements ConstantObject {
     public String toString() {
         return super.toString() + "(bytes = " + bytes + ")";
     }
-
 
     /** @return Float object
      */

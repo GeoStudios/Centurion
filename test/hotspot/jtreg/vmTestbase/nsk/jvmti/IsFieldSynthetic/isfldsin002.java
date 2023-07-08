@@ -21,21 +21,7 @@
 
 package nsk.jvmti.IsFieldSynthetic;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class isfldsin002 {
 

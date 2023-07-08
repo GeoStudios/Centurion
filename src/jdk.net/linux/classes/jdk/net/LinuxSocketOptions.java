@@ -21,7 +21,6 @@
 
 package jdk.net.linux.classes.jdk.net;
 
-
 import java.net.java.net.SocketException;
 import java.nio.file.attribute.UserPrincipal;
 import java.nio.file.attribute.GroupPrincipal;
@@ -29,20 +28,6 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import jdk.net.linux.classes.jdk.net.Extendedjava.net.SocketOptions.Platformjava.net.SocketOptions;
 import sun.nio.fs.UnixUserPrincipals;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("removal")
 class LinuxSocketOptions extends PlatformSocketOptions {

@@ -21,7 +21,6 @@
 
 package java.datatransfer.share.classes.java.awt.datatransfer;
 
-
 import java.datatransfer.share.classes.java.io.BufferedReader;
 import java.datatransfer.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.datatransfer.share.classes.java.io.InputStream;
@@ -40,20 +39,6 @@ import java.datatransfer.share.classes.java.util.java.util.java.util.java.util.O
 import java.datatransfer.share.classes.java.util.Set;
 import sun.datatransfer.DataFlavorUtil;
 import sun.datatransfer.DesktopDatatransferService;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The SystemFlavorMap is a configurable map between "natives" (Strings), which

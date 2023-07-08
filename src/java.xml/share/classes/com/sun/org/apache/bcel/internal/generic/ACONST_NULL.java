@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * ACONST_NULL - Push null reference
@@ -57,14 +40,12 @@ public class ACONST_NULL extends Instruction implements PushInstruction, TypedIn
         super(com.sun.org.apache.bcel.internal.Const.ACONST_NULL, (short) 1);
     }
 
-
     /** @return Type.NULL
      */
     @Override
     public Type getType( final ConstantPoolGen cp ) {
         return Type.NULL;
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

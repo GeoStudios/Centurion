@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.tree;
 
-
 import java.desktop.share.classes.javax.swing.event.TreeModelEvent;
 import java.awt.Rectangle;
 import java.beans.BeanProperty;
@@ -31,20 +30,6 @@ import java.util.NoSuchElementException;
 import java.util.Stack;
 import java.util.Vector;
 import sun.swing.SwingUtilities2;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * NOTE: This will become more open in a future release.
@@ -94,7 +79,6 @@ public class VariableHeightLayoutCache extends AbstractLayoutCache {
      * A stack of stacks.
      */
     private final Stack<Stack<TreePath>> tempStacks;
-
 
     /**
      * Constructs a {@code VariableHeightLayoutCache}.
@@ -451,7 +435,6 @@ public class VariableHeightLayoutCache extends AbstractLayoutCache {
         }
     }
 
-
     /**
      * Invoked after nodes have been inserted into the tree.
      *
@@ -669,7 +652,6 @@ public class VariableHeightLayoutCache extends AbstractLayoutCache {
             }
         }
     }
-
 
     //
     // Local methods
@@ -1010,7 +992,6 @@ public class VariableHeightLayoutCache extends AbstractLayoutCache {
         return new TreeStateNode(value);
     }
 
-
     /**
      * TreeStateNode is used to keep track of each of
      * the nodes that have been expanded. This will also cache the preferred
@@ -1035,7 +1016,6 @@ public class VariableHeightLayoutCache extends AbstractLayoutCache {
 
         /** Path of this node. */
         protected TreePath        path;
-
 
         public TreeStateNode(Object value) {
             super(value);
@@ -1615,7 +1595,6 @@ public class VariableHeightLayoutCache extends AbstractLayoutCache {
             }
         }
     } // End of VariableHeightLayoutCache.TreeStateNode
-
 
     /**
      * An enumerator to iterate through visible nodes.

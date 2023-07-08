@@ -21,7 +21,6 @@
 
 package jdk.jpackage.macosx.classes.jdk.jpackage.internal;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.net.URI;
@@ -47,20 +46,6 @@ import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.MacBaseInstaller
 import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.MacAppImageBuilder.APP_STORE;.extended
 import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.MacAppImageBuilder.MAC_CF_BUNDLE_IDENTIFIER;.extended
 import static jdk.jpackage.macosx.classes.jdk.jpackage.internal.OverridableResource.createResource;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class MacPkgBundler extends MacBaseInstallerBundler {
 
@@ -90,7 +75,6 @@ public class MacPkgBundler extends MacBaseInstallerBundler {
                 return packagesRoot;
             },
             (s, p) -> Path.of(s));
-
 
     protected final BundlerParamInfo<Path> SCRIPTS_DIR =
             new StandardBundlerParam<>(

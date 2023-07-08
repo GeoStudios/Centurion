@@ -21,7 +21,6 @@
 
 package jit.escape.LockElision.MatMul;
 
-
 import java.util.*;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
@@ -34,19 +33,6 @@ import vm.share.options.Option;
 import vm.share.options.OptionSupport;
 import vm.share.options.Options;
 import jdk.test.lib.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -70,10 +56,6 @@ import jdk.test.lib.Utils;
  *          /test/lib
  * @run main/othervm jit.escape.LockElision.MatMul.MatMul -dim 30 -threadCount 10
  */
-
-
-
-
 
 public class MatMul {
 
@@ -236,7 +218,6 @@ public class MatMul {
         }
         return result;
     }
-
 
     /**
      * Parallel multiplication of matrices.
@@ -408,7 +389,6 @@ public class MatMul {
             log.display(
                     "hash for " + part + " = " + locals1.get(part).getHash());
         }
-
 
         for (Counter counter : counters) {
             if (!counter.check()) {
@@ -668,7 +648,6 @@ public class MatMul {
             updateHash(a + b + 3);
             return a + b;
         }
-
 
         public int updateHash() {
             return updateHash(42);

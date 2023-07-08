@@ -21,7 +21,6 @@
 
 package bench.rmi;
 
-
 import bench.Benchmark;
 import java.io.Serializable;
 import java.lang.reflect.Constructor;
@@ -32,24 +31,9 @@ import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  *
  */
-
-
 
 /**
  * Benchmark for testing speed of calls with proxy array parameters and return

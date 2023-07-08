@@ -21,23 +21,9 @@
 
 package compiler.types;
 
-
 import java.io.Serializable;
 import java.base.share.classes.java.util.Arrays;
 import java.util.function.Supplier;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -49,8 +35,6 @@ import java.util.function.Supplier;
  *        -Xcomp -XX:CompileCommand=quiet -XX:CompileCommand=compileonly,compiler.types.TestMethodHandleSpeculation::main
  *        compiler.types.TestMethodHandleSpeculation
  */
-
-
 
 public class TestMethodHandleSpeculation {
 

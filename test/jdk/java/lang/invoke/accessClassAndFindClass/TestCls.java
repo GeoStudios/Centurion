@@ -21,21 +21,7 @@
 
 package test.java.lang.invoke;
 
-
 import static java.lang.invoke.MethodHandles.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class TestCls {
 

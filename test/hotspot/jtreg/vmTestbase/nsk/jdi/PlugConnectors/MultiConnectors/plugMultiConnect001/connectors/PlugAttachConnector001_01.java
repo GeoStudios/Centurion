@@ -21,31 +21,15 @@
 
 package nsk.jdi.PlugConnectors.MultiConnectors.plugMultiConnect001.connectors;
 
-
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.util.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * A Simple AttachingConnector without default arguments used by
  * nsk/jdi/PlugConnectors/MultiConnectors/plugMultiConnect001 test
  */
-
-
 
 public class PlugAttachConnector001_01 extends PlugConnectors implements AttachingConnector {
 
@@ -57,7 +41,6 @@ public class PlugAttachConnector001_01 extends PlugConnectors implements Attachi
         = new PlugConnectorsTransport("PlugAttachConnector001_01_Transport");
     static Map<String, Connector.Argument> plugAttachConnectorDefaultArguments
         = new HashMap<String, Connector.Argument>();
-
 
     public PlugAttachConnector001_01() {
 

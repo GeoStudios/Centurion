@@ -21,22 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.posix.elf;
 
-
 import java.io.FileInputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is a Java class that represents a ELF file header.

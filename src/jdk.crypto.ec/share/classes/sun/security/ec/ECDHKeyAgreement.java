@@ -21,7 +21,6 @@
 
 package jdk.crypto.ec.share.classes.sun.security.ec;
 
-
 import jdk.crypto.ec.share.classes.sun.security.ec.point.AffinePoint;
 import jdk.crypto.ec.share.classes.sun.security.ec.point.Point;
 import jdk.crypto.ec.share.classes.sun.security.util.ArrayUtil;
@@ -48,20 +47,6 @@ import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.ECParameterSpec;
 import java.security.spec.EllipticCurve;
 import java.util.Optional;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * KeyAgreement implementation for ECDH.

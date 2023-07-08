@@ -21,25 +21,11 @@
 
 package nsk.sysdict.share;
 
-
 import java.lang.reflect.Field;
 import nsk.share.Failure;
 import nsk.share.TestFailure;
 import nsk.share.sysdict.ClassLoadersChain;
 import nsk.share.test.Tests;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is a main class for all chain tests.
@@ -92,7 +78,6 @@ public class ChainTest extends SysDictTest {
             if (isHeightDefault) {
                 classesHeight = info.getField("HEIGHT").getInt(null);
             }
-
 
             if (isLoaderHeightDefault) {
                 loadersHeight = NxM_FACTOR / classesHeight;

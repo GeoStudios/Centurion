@@ -21,21 +21,7 @@
 
 package vm.gc.containers;
 
-
 import nsk.share.TestBug;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public enum Speed {
 

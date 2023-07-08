@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A {@link Set} that further provides a <i>total ordering</i> on its elements.
  * The elements are ordered using their {@linkplain Comparable natural

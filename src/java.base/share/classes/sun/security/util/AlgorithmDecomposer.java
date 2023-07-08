@@ -21,26 +21,11 @@
 
 package java.base.share.classes.sun.security.util;
 
-
 import java.util.HashSet;
 import java.util.Set;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Collection;
 import java.util.regex.Pattern;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The class decomposes standard algorithms into sub-elements.

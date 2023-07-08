@@ -21,32 +21,16 @@
 
 package nsk.jdi.PlugConnectors.TransportService.transportService002.connectors;
 
-
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import com.sun.jdi.connect.spi.*;
 import java.util.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * A Simple TransportService used by
  * nsk/jdi/PlugConnectors/TransportService/transportService002 test
  */
-
-
 
 public class PlugTransportService002 extends PlugTransportService {
 

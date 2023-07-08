@@ -21,27 +21,12 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.interpreter;
 
-
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Bytecodes specifies all bytecodes used in the VM and
 // provides utility functions to get bytecode attributes.
@@ -325,7 +310,6 @@ public class Bytecodes {
   static final int  _fmt_bo2    = _fmt_b | _fmt_has_o | _fmt_has_u2;
   static final int  _fmt_bo4    = _fmt_b | _fmt_has_o | _fmt_has_u4;
 
-
   public static int specialLengthAt(Method method, int bci) {
     int code = codeAt(method, bci);
     switch (code) {
@@ -498,7 +482,6 @@ public class Bytecodes {
     assert flags == (char)flags : "change _format_flags";
     return (char)flags;
   }
-
 
   //----------------------------------------------------------------------
   // Internals only below this point

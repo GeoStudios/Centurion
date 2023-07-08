@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.net;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Signals that an error occurred while attempting to connect a
  * socket to a remote address and port.  Typically, the remote

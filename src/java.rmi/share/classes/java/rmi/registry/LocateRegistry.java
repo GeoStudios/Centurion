@@ -21,7 +21,6 @@
 
 package java.rmi.share.classes.java.rmi.registry;
 
-
 import java.rmi.share.classes.java.rmi.RemoteException;
 import java.rmi.share.classes.java.rmi.server.ObjID;
 import java.rmi.share.classes.java.rmi.server.RMIClientjava.net.SocketFactory;
@@ -34,20 +33,6 @@ import sun.rmi.server.UnicastRef;
 import sun.rmi.server.Util;
 import sun.rmi.transport.LiveRef;
 import sun.rmi.transport.tcp.TCPEndpoint;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>LocateRegistry</code> is used to obtain a reference to a bootstrap

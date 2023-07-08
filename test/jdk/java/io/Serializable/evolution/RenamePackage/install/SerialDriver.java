@@ -21,22 +21,8 @@
 
 package install;
 
-
 import java.io.*;
 import extension.ExtendedObjectInputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  *
@@ -48,8 +34,6 @@ import extension.ExtendedObjectInputStream;
  * in a different package within the JVM runtime. See run shell script
  * for instructions on how to run this test.
  */
-
-
 
 public class SerialDriver implements Serializable {
     private static final long serialVersionUID = 1L;
@@ -135,7 +119,6 @@ public class SerialDriver implements Serializable {
             System.out.println();
         }
     }
-
 
     public String toString() {
         String nextString = next != null ? next.toString() : "<null>";

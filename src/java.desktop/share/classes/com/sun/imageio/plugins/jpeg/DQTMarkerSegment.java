@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.jpeg;
 
-
 import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import javax.imageio.metadata.IIOInvalidTreeException;
 import javax.imageio.metadata.IIOMetadataNode;
@@ -34,20 +33,6 @@ import java.util.Iterator;
 import org.w3c.dom.Node;
 import org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import org.w3c.dom.NamedNodeMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A DQT (Define Quantization Table) marker segment.

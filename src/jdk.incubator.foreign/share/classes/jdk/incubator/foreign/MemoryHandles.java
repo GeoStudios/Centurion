@@ -21,7 +21,6 @@
 
 package jdk.incubator.foreign.share.classes.jdk.incubator.foreign;
 
-
 import jdk.incubator.foreign.share.classes.jdk.internal.access.JavaLangInvokeAccess;
 import jdk.incubator.foreign.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.incubator.foreign.share.classes.jdk.internal.foreign.Utils;
@@ -33,20 +32,6 @@ import java.lang.invoke.VarHandle;
 import java.nio.ByteOrder;
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class defines several factory methods for constructing and combining memory access var handles.

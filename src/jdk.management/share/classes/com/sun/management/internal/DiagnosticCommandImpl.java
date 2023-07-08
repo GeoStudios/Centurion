@@ -21,7 +21,6 @@
 
 package jdk.management.share.classes.com.sun.management.internal;
 
-
 import jdk.management.share.classes.com.sun.management.DiagnosticCommandMBean;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
@@ -48,20 +47,6 @@ import javax.management.ReflectionException;
 import jdk.management.share.classes.com.sun.management.ManagementFactoryHelper;
 import jdk.management.share.classes.com.sun.management.NotificationEmitterSupport;
 import jdk.management.share.classes.com.sun.management.VMManagement;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation class for the diagnostic commands subsystem.

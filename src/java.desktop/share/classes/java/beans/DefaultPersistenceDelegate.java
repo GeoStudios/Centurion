@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.java.beans;
 
-
 import java.desktop.share.classes.java.util.*;
 import java.desktop.share.classes.java.lang.reflect.*;
 import java.desktop.share.classes.java.util.java.util.java.util.java.util.Objects;
 import sun.reflect.misc.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code DefaultPersistenceDelegate} is a concrete implementation of
@@ -302,7 +287,6 @@ public class DefaultPersistenceDelegate extends PersistenceDelegate {
                 continue;
             }
             Class<?> listenerType = d.getListenerType();
-
 
             // The ComponentListener is added automatically, when
             // Contatiner:add is called on the parent.

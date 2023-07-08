@@ -21,7 +21,6 @@
 
 package demo.share.jfc.Stylepad;
 
-
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
@@ -60,20 +59,6 @@ import javax.swing.text.StyleContext;
 import javax.swing.text.StyledEditorKit;
 import javax.swing.text.TextAction;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Sample application using JTextPane.
  *
@@ -92,7 +77,6 @@ public class Stylepad extends Notepad {
     private static final String[] TOOLBAR_KEYS = {"new", "open", "save", "-",
         "cut", "copy", "paste", "-", "bold", "italic", "underline", "-",
         "left", "center", "right"};
-
 
     static {
         try {
@@ -266,7 +250,6 @@ public class Stylepad extends Notepad {
         return b;
     }
 
-
     /**
      * Trys to read a file which is assumed to be a
      * serialization of a document.
@@ -320,7 +303,6 @@ public class Stylepad extends Notepad {
         }
     }
 
-
     /**
      * Trys to write the document as a serialization.
      */
@@ -357,7 +339,6 @@ public class Stylepad extends Notepad {
         }
     }
 
-
     /**
      * Creates an empty document.
      */
@@ -379,7 +360,6 @@ public class Stylepad extends Notepad {
             validate();
         }
     }
-
 
     class ColoredSquare implements Icon {
 

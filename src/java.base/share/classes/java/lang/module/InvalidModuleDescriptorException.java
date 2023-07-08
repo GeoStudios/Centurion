@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang.module;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Thrown when reading a module descriptor and the module descriptor is found
  * to be malformed or otherwise cannot be interpreted as a module descriptor.

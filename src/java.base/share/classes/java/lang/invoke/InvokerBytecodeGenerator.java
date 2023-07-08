@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.FieldVisitor;
 import jdk.internal.org.objectweb.asm.Label;
@@ -48,20 +47,6 @@ import static java.base.share.classes.java.lang.invoke.MethodHandleNatives.Const
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;.extended
 import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.*;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Code generation backend for LambdaForm.
  * <p>
@@ -79,7 +64,6 @@ class InvokerBytecodeGenerator {
     private static final String LOOP_CLAUSES = MHI + "$LoopClauses";
     private static final String MHARY2       = "[[L" + MH + ";";
     private static final String MH_SIG       = "L" + MH + ";";
-
 
     private static final String LF_SIG  = "L" + LF + ";";
     private static final String LFN_SIG = "L" + LFN + ";";

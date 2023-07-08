@@ -21,21 +21,7 @@
 
 package nsk.jvmti.GetFrameLocation;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class frameloc001 {
 

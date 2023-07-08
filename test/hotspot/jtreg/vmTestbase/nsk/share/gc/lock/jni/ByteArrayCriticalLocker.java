@@ -21,22 +21,8 @@
 
 package nsk.share.gc.lock.jni;
 
-
 import nsk.share.gc.lock.CriticalSectionObjectLocker;
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ByteArrayCriticalLocker extends CriticalSectionObjectLocker<byte[]> {
         private native byte criticalNative(long enterTime, long sleepTime);
@@ -54,7 +40,6 @@ public class ByteArrayCriticalLocker extends CriticalSectionObjectLocker<byte[]>
                 if (nativeHash != 0 && nativeHash != javaHash)
                         throw new TestFailure("Native hash: " + nativeHash + " != Java hash: " + javaHash);
         }
-
 
         private byte hashValue(byte[] obj) {
                 byte hash = 0;

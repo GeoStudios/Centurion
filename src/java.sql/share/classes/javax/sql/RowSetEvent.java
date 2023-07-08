@@ -21,22 +21,6 @@
 
 package java.sql.share.classes.javax.sql;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An {@code Event} object generated when an event occurs to a
  * {@code RowSet} object.  A {@code RowSetEvent} object is

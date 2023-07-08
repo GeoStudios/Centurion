@@ -21,23 +21,9 @@
 
 package nsk.jvmti.MonitorWait;
 
-
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class monitorwait001 extends DebugeeClass {
 

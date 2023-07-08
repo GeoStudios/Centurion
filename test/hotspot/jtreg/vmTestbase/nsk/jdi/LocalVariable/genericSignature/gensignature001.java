@@ -21,26 +21,12 @@
 
 package nsk.jdi.LocalVariable.genericSignature;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the LocalVariable.genericSignature() method.
@@ -107,7 +93,6 @@ public class gensignature001 {
                 {"var27GenObjectDerivedList", "Ljava/util/List<+TT;>;"},
                 {"var28GenNumberDerivedList", "Ljava/util/List<+TN;>;"},
 
-
     };
 
     static ArgumentHandler argHandler;
@@ -136,7 +121,6 @@ public class gensignature001 {
             log.complain("Class '" + DEBUGEE_CLASS_NAME + "' not found.");
             testResult = Consts.TEST_FAILED;
         }
-
 
         log.display("Checking started.");
         do {

@@ -21,7 +21,6 @@
 
 package compiler.compilercontrol.jcmd;
 
-
 import compiler.compilercontrol.share.AbstractTestBase;
 import compiler.compilercontrol.share.method.MethodDescriptor;
 import compiler.compilercontrol.share.scenario.Command;
@@ -31,19 +30,6 @@ import compiler.compilercontrol.share.scenario.JcmdCommand;
 import compiler.compilercontrol.share.scenario.Scenario;
 import jdk.test.lib.Utils;
 import java.lang.reflect.Executable;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -57,9 +43,6 @@ import java.lang.reflect.Executable;
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run driver compiler.compilercontrol.jcmd.ClearDirectivesStackTest
  */
-
-
-
 
 public class ClearDirectivesStackTest extends AbstractTestBase {
     private static final int AMOUNT = Utils.getRandomInstance().nextInt(100);

@@ -21,31 +21,13 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.parser;
 
-
 import java.io.InputStream;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * A interface to allow pluggable ways of parsing an InputStream into a DOM Document.

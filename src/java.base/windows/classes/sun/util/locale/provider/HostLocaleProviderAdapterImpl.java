@@ -21,7 +21,6 @@
 
 package java.base.windows.classes.sun.util.locale.provider;
 
-
 import java.lang.ref.SoftReference;
 import java.text.DateFormat;
 import java.text.DateFormatSymbols;
@@ -52,20 +51,6 @@ import java.util.spi.CurrencyNameProvider;
 import java.util.spi.LocaleNameProvider;
 import java.base.windows.classes.sun.text.spi.JavaTimeDateTimePatternProvider;
 import java.base.windows.classes.sun.util.spi.CalendarProvider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * LocaleProviderdapter implementation for the Windows locale data.

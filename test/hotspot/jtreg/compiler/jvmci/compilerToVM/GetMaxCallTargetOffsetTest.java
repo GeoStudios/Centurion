@@ -21,22 +21,8 @@
 
 package compiler.jvmci.compilerToVM;
 
-
 import jdk.test.lib.Asserts;
 import jdk.vm.ci.hotspot.CompilerToVMHelper;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -50,8 +36,6 @@ import jdk.vm.ci.hotspot.CompilerToVMHelper;
  * @run main/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI
  *                   compiler.jvmci.compilerToVM.GetMaxCallTargetOffsetTest
  */
-
-
 
 public class GetMaxCallTargetOffsetTest {
     public static void main(String args[]) {

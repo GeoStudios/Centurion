@@ -21,23 +21,9 @@
 
 package nsk.monitoring.share.thread;
 
-
 import nsk.share.log.Log;
 import java.lang.management.ThreadInfo;
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * RunningThread is a RecursiveMonitoringThread that simply

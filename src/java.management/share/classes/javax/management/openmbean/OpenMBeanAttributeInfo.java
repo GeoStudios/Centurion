@@ -21,29 +21,11 @@
 
 package java.management.share.classes.javax.management.openmbean;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // java import
 //
 
-
 // jmx import
 //
-
 
 /**
  * <p>Describes an attribute of an open MBean.</p>
@@ -56,7 +38,6 @@ package java.management.share.classes.javax.management.openmbean;
  *
  */
 public interface OpenMBeanAttributeInfo extends OpenMBeanParameterInfo {
-
 
     // Re-declares the methods that are in class MBeanAttributeInfo of JMX 1.0
     // (these will be removed when MBeanAttributeInfo is made a parent interface of this interface)
@@ -86,7 +67,6 @@ public interface OpenMBeanAttributeInfo extends OpenMBeanParameterInfo {
      * @return true if the attribute is accessed through <code>is<i>XXX</i></code>.
      */
     boolean isIs() ;
-
 
     // commodity methods
     //
@@ -140,7 +120,6 @@ public interface OpenMBeanAttributeInfo extends OpenMBeanParameterInfo {
      * @return  a string representation of this {@code OpenMBeanAttributeInfo} instance
      */
     String toString();
-
 
     // methods specific to open MBeans are inherited from
     // OpenMBeanParameterInfo

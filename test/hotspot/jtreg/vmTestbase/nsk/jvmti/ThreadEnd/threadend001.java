@@ -21,21 +21,7 @@
 
 package nsk.jvmti.ThreadEnd;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class threadend001 {
 

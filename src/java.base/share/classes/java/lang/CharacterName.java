@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang;
 
-
 import java.base.share.classes.java.io.DataInputStream;
 import java.base.share.classes.java.io.InputStream;
 import java.base.share.classes.java.lang.ref.SoftReference;
@@ -30,20 +29,6 @@ import java.base.share.classes.java.util.Locale;
 import java.base.share.classes.java.util.zip.InflaterInputStream;
 import java.base.share.classes.java.security.AccessController;
 import java.base.share.classes.java.security.PrivilegedAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class CharacterName {
 

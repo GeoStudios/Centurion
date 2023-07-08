@@ -21,22 +21,6 @@
 
 package java.management.share.classes.java.lang.management;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The management interface for the {@linkplain java.util.logging logging} facility.
  *

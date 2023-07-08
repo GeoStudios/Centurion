@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.text;
 
-
 import java.base.share.classes.java.lang.Character;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utility class for normalizing and merging patterns for collation.
@@ -296,7 +281,6 @@ class PatternEntry {
                 ((ch <= '\u0060') && (ch >= '\u005B')) ||
                 ((ch <= '\u007E') && (ch >= '\u007B')));
     }
-
 
     static final int RESET = -2;
     static final int UNSET = -1;

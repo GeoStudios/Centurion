@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.accessibility;
 
-
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.desktop.share.classes.javax.swing.text.AttributeSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code AccessibleText} interface should be implemented by all classes

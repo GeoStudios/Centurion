@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.nio.fs;
 
-
 import java.util.regex.PatternSyntaxException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Globs {
     private Globs() { }

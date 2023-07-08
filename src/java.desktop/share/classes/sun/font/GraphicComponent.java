@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.font;
 
-
 import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
@@ -35,20 +34,6 @@ import java.awt.geom.GeneralPath;
 import java.awt.geom.Rectangle2D;
 import java.text.Bidi;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class GraphicComponent implements TextLineComponent,
                                                Decoration.Label {
@@ -70,7 +55,6 @@ public final class GraphicComponent implements TextLineComponent,
 
     private final CoreMetrics cm;
     private final Decoration decorator;
-
 
     /**
      * Create a new GraphicComponent.  start and limit are indices

@@ -21,22 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.windbg;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class WindbgOopHandle extends WindbgAddress implements OopHandle {
   WindbgOopHandle(WindbgDebugger debugger, long addr) {

@@ -21,25 +21,10 @@
 
 package java.security.jgss.share.classes.sun.security.jgss.krb5;
 
-
 import org.ietf.jgss.*;
 import java.security.jgss.share.classes.sun.security.jgss.spi.*;
 import java.security.jgss.share.classes.sun.security.krb5.*;
 import java.security.Provider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides type safety for Krb5 credential elements.

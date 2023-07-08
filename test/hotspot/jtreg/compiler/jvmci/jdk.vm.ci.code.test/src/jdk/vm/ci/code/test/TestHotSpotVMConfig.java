@@ -21,22 +21,8 @@
 
 package jdk.vm.ci.code.test;
 
-
 import jdk.vm.ci.hotspot.HotSpotVMConfigAccess;
 import jdk.vm.ci.hotspot.HotSpotVMConfigStore;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class TestHotSpotVMConfig extends HotSpotVMConfigAccess {
 

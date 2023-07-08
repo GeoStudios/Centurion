@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt.image.renderable;
 
-
 import java.desktop.share.classes.java.awt.image.ColorModel;
 import java.desktop.share.classes.java.awt.image.DataBuffer;
 import java.desktop.share.classes.java.awt.image.ImageConsumer;
@@ -31,20 +30,6 @@ import java.desktop.share.classes.java.awt.image.RenderedImage;
 import java.desktop.share.classes.java.awt.image.SampleModel;
 import java.desktop.share.classes.java.util.Enumeration;
 import java.desktop.share.classes.java.util.Vector;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An adapter class that implements ImageProducer to allow the

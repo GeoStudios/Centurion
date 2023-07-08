@@ -21,23 +21,9 @@
 
 package nsk.jvmti.GetLocalVariableTable;
 
-
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This test checks that the JVMTI function <code>GetLocalVariableTable()</code>

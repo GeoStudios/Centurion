@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.implementations;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.util.Map;
@@ -40,27 +39,10 @@ import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * Implements <A HREF="http://www.w3.org/TR/2001/REC-xml-c14n-20010315">Canonical
@@ -94,7 +76,6 @@ public abstract class Canonicalizer20010315 extends CanonicalizerBase {
         xmlattrStack = new XmlAttrStack(c14n11);
         this.c14n11 = c14n11;
     }
-
 
     /**
      * Always throws a CanonicalizationException because this is inclusive c14n.

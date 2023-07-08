@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.io;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Superclass of all exceptions specific to Object Stream classes.
  *

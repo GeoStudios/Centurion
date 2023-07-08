@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.nio.cs;
 
-
 import java.nio.charset.Charset;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 abstract class Unicode extends Charset
     implements HistoricallyNamedCharset

@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.event;
 
-
 import java.util.EventObject;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * CaretEvent is used to notify interested parties that

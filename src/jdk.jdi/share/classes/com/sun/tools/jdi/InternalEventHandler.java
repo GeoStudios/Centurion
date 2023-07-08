@@ -21,7 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.ClassNotPreparedException;
 import jdk.jdi.share.classes.com.sun.jdi.InconsistentDebugInfoException;
 import jdk.jdi.share.classes.com.sun.jdi.ObjectCollectedException;
@@ -33,20 +32,6 @@ import jdk.jdi.share.classes.com.sun.jdi.event.ClassUnloadEvent;
 import jdk.jdi.share.classes.com.sun.jdi.event.Event;
 import jdk.jdi.share.classes.com.sun.jdi.event.EventIterator;
 import jdk.jdi.share.classes.com.sun.jdi.event.EventSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class InternalEventHandler implements Runnable
 {

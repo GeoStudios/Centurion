@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.marlin.stats;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Generic monitor ie gathers time statistics as nanos.
  */

@@ -21,7 +21,6 @@
 
 package compiler.rangechecks;
 
-
 import compiler.whitebox.CompilerWhiteBoxTest;
 import jdk.internal.misc.Unsafe;
 import jdk.test.lib.Platform;
@@ -32,19 +31,6 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.util.HashMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -60,9 +46,6 @@ import java.util.HashMap;
  *                   compiler.rangechecks.TestExplicitRangeChecks
  *
  */
-
-
-
 
 public class TestExplicitRangeChecks {
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();

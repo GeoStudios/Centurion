@@ -21,22 +21,8 @@
 
 package test.auctionportal;
 
-
 import org.xml.sax.SAXParseException;
 import org.xml.sax.helpers.DefaultHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * ErrorHandler for error handling. Set state if any method in error, warning

@@ -21,22 +21,7 @@
 
 package java.base.windows.classes.sun.nio.fs;
 
-
 import java.nio.file.FileSystem;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Creates this platform's default FileSystemProvider.

@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.org.w3c.dom;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The {@code ElementTraversal} interface is a set of read-only attributes
  * which allow an author to easily navigate between elements in a document.

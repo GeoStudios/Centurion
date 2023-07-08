@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
-
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Font;
@@ -63,20 +62,6 @@ import java.desktop.windows.classes.sun.font.PhysicalFont;
 import java.desktop.windows.classes.sun.font.TrueTypeFont;
 import java.desktop.windows.classes.sun.print.PathGraphics;
 import java.desktop.windows.classes.sun.print.ProxyGraphics2D;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class WPathGraphics extends PathGraphics {
 
@@ -1532,7 +1517,6 @@ final class WPathGraphics extends PathGraphics {
             int endCap = lineStroke.getEndCap();
             int lineJoin = lineStroke.getLineJoin();
 
-
             /* check for default style and try to optimize it by
              * calling the frameRect native function instead of using paths.
              */
@@ -1591,7 +1575,6 @@ final class WPathGraphics extends PathGraphics {
         }
      }
 
-
      /*
       * Fill the rectangle with specified color and using Windows'
       * GDI fillRect function.
@@ -1628,7 +1611,6 @@ final class WPathGraphics extends PathGraphics {
         wPrinterJob.fillRect((float)tlc_pos.getX(), (float)tlc_pos.getY(),
                              deviceWidth, deviceHeight, color);
     }
-
 
     /**
      * Draw a line using a pen created using the specified color
@@ -1673,7 +1655,6 @@ final class WPathGraphics extends PathGraphics {
                  */
                 endCap = BasicStroke.CAP_ROUND;
             }
-
 
             WPrinterJob wPrinterJob = (WPrinterJob) getPrinterJob();
 
@@ -1785,7 +1766,6 @@ final class WPathGraphics extends PathGraphics {
                 wPrinterJob.closeFigure();
                 break;
             }
-
 
             pathIter.next();
         }

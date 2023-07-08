@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ALOAD;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ASTORE;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
@@ -42,26 +41,9 @@ import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.Seriali
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XML11Char;
 import java.util.java.util.java.util.java.util.List;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: XslAttribute.java,v 1.2.4.1 2005/09/12 11:39:32 pvedula Exp $
  */
-
-
-
 
 /**
  * @LastModified: Oct 2017
@@ -301,8 +283,6 @@ final class XslAttribute extends Instruction {
 
         // Restore old handler base from stack
         il.append(methodGen.storeHandler());
-
-
 
     }
 

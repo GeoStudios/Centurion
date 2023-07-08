@@ -21,23 +21,8 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.ClassConstants;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AccessFlags implements /* imports */ ClassConstants {
   public AccessFlags(long flags) {

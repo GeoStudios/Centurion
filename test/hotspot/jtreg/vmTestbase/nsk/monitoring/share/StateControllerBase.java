@@ -21,21 +21,7 @@
 
 package nsk.monitoring.share;
 
-
 import nsk.share.log.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An abstract base class for operating VM state. The follow methods must

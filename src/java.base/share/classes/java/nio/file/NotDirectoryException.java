@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.nio.file;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Checked exception thrown when a file system operation, intended for a
  * directory, fails because the file is not a directory.

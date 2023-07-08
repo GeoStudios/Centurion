@@ -21,21 +21,6 @@
 
 package gc.g1.plab.lib;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The MemoryConsumer is used for consuming different amount of memory.
  * Class will store not more than 'capacity' number of objects with 'chunk' size.

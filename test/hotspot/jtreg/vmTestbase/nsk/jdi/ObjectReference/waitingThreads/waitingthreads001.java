@@ -21,26 +21,12 @@
 
 package nsk.jdi.ObjectReference.waitingThreads;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -140,7 +126,6 @@ public class waitingthreads001 {
         }
 
         waitTime = argsHandler.getWaitTime();
-
 
         IOPipe pipe     = new IOPipe(debuggee);
 

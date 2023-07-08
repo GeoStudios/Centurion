@@ -21,30 +21,13 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.models;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.CMNode;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.CMStateSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Content model leaf node.

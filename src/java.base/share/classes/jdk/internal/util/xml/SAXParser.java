@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.util.xml;
 
-
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -29,20 +28,6 @@ import java.base.share.classes.jdk.internal.org.xml.sax.InputSource;
 import java.base.share.classes.jdk.internal.org.xml.sax.SAXException;
 import java.base.share.classes.jdk.internal.org.xml.sax.XMLReader;
 import java.base.share.classes.jdk.internal.org.xml.sax.helpers.DefaultHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Defines the API that wraps an {@link org.xml.sax.XMLReader}

@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.javax.print.attribute.standard;
 
-
 import java.io.Serial;
 import java.net.URI;
 import java.desktop.share.classes.javax.print.attribute.Attribute;
 import java.desktop.share.classes.javax.print.attribute.PrintServiceAttribute;
 import java.desktop.share.classes.javax.print.attribute.URISyntax;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class {@code PrinterMoreInfo} is a printing attribute class, a {@code URI},

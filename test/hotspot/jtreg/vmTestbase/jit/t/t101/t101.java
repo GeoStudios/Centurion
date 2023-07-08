@@ -21,22 +21,8 @@
 
 package jit.t.t101;
 
-
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -48,8 +34,6 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t101.t101
  */
-
-
 
 // int2char when the int resides in esi.  The temptation is to emit, say,
 //

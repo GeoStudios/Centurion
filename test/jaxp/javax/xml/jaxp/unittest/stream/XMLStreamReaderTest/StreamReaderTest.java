@@ -21,7 +21,6 @@
 
 package stream.XMLStreamReaderTest;
 
-
 import java.io.StringReader;
 import java.util.NoSuchElementException;
 import javax.xml.stream.XMLInputFactory;
@@ -31,19 +30,6 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -67,7 +53,6 @@ public class StreamReaderTest {
         // no more event
         xmlStreamReader.next();
     }
-
 
     /**
      * Verifies that after switching to a different XML Version (1.1), the parser

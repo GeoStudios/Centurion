@@ -21,7 +21,6 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl;
 
-
 import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Attributes;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.spi.Pty;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.NonBlockingInputStream;
@@ -30,20 +29,6 @@ import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.Interruptedjava.io.java.io.java.io.IOException;
 import static jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.TerminalBuilder.PROP_NON_BLOCKING_READS;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class AbstractPty implements Pty {
 

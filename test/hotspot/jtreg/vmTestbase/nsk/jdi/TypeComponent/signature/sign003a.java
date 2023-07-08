@@ -21,23 +21,9 @@
 
 package nsk.jdi.TypeComponent.signature;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class sign003a {
     public static void main (String argv[]) {

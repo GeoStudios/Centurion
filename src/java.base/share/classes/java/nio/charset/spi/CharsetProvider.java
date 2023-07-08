@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.nio.charset.spi;
 
-
 import java.base.share.classes.java.nio.charset.Charset;
 import java.base.share.classes.java.util.Iterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Charset service-provider class.

@@ -21,7 +21,6 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.javap;
 
-
 import java.io.BufferedReader;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.StringReader;
@@ -43,20 +42,6 @@ import jdk.jdeps.share.classes.com.sun.tools.classfile.ConstantPoolException;
 import jdk.jdeps.share.classes.com.sun.tools.classfile.Instruction;
 import jdk.jdeps.share.classes.com.sun.tools.classfile.LineNumberTable_attribute;
 import jdk.jdeps.share.classes.com.sun.tools.classfile.SourceFile_attribute;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Annotate instructions with source code.

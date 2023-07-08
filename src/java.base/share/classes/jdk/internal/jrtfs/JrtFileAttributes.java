@@ -21,25 +21,12 @@
 
 package java.base.share.classes.jdk.internal.jrtfs;
 
-
 import java.nio.file.attribute.BasicFileAttributes;
 import java.nio.file.attribute.FileTime;
 import java.util.Formatter;
 import java.base.share.classes.jdk.internal.jimage.ImageReader.Node;
 
-
-
-
-
-
-
-
-
-
-
 s
-
-
 
 /**
  * File attributes implementation for jrt image file system.

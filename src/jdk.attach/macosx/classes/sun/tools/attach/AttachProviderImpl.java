@@ -21,25 +21,10 @@
 
 package jdk.attach.macosx.classes.sun.tools.attach;
 
-
 import com.sun.tools.attach.VirtualMachine;
 import com.sun.tools.attach.VirtualMachineDescriptor;
 import com.sun.tools.attach.AttachNotSupportedException;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * An AttachProvider implementation for Bsd that uses a UNIX domain

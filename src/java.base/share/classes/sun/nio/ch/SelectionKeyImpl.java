@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.nio.ch;
 
-
 import java.io.FileDescriptor;
 import java.lang.invoke.ConstantBootstraps;
 import java.lang.invoke.MethodHandles;
@@ -31,20 +30,6 @@ import java.nio.channels.SelectableChannel;
 import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
 import java.nio.channels.spi.AbstractSelectionKey;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of SelectionKey.

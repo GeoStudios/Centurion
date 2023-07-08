@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.AWTEvent;
 import java.awt.Component;
 import java.awt.Dimension;
@@ -60,20 +59,6 @@ import java.desktop.share.classes.javax.swing.event.PopupMenujava.util.Listener;
 import java.desktop.share.classes.javax.swing.plaf.PopupMenuUI;
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicComboPopup;
 import sun.awt.SunToolkit;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of a popup menu -- a small window that pops up
@@ -216,8 +201,6 @@ public class JPopupMenu extends JComponent implements Accessible,MenuElement {
         updateUI();
     }
 
-
-
     /**
      * Returns the look and feel (L&amp;F) object that renders this component.
      *
@@ -248,7 +231,6 @@ public class JPopupMenu extends JComponent implements Accessible,MenuElement {
         setUI((PopupMenuUI)UIManager.getUI(this));
     }
 
-
     /**
      * Returns the name of the L&amp;F class that renders this component.
      *
@@ -277,7 +259,6 @@ public class JPopupMenu extends JComponent implements Accessible,MenuElement {
         }
         super.processKeyEvent(evt);
     }
-
 
     /**
      * Returns the model object that handles single selections.
@@ -806,7 +787,6 @@ public class JPopupMenu extends JComponent implements Accessible,MenuElement {
             showPopup();
             firePropertyChange("visible", Boolean.FALSE, Boolean.TRUE);
 
-
         } else if(popup != null) {
             firePopupMenuWillBecomeInvisible();
             popup.hide();
@@ -1130,7 +1110,6 @@ public class JPopupMenu extends JComponent implements Accessible,MenuElement {
         }
     }
 
-
     /**
      * Examines the list of menu items to determine whether
      * <code>popup</code> is a popup menu.
@@ -1154,7 +1133,6 @@ public class JPopupMenu extends JComponent implements Accessible,MenuElement {
         return false;
     }
 
-
     private static Frame getFrame(Component c) {
         Component w = c;
 
@@ -1163,7 +1141,6 @@ public class JPopupMenu extends JComponent implements Accessible,MenuElement {
         }
         return (Frame)w;
     }
-
 
     /**
      * Returns a string representation of this <code>JPopupMenu</code>.
@@ -1320,7 +1297,6 @@ public class JPopupMenu extends JComponent implements Accessible,MenuElement {
         }
     } // inner class AccessibleJPopupMenu
 
-
 ////////////
 // Serialization support.
 ////////////
@@ -1384,7 +1360,6 @@ public class JPopupMenu extends JComponent implements Accessible,MenuElement {
             indexCounter++;
         }
     }
-
 
     /**
      * This method is required to conform to the
@@ -1545,7 +1520,6 @@ public class JPopupMenu extends JComponent implements Accessible,MenuElement {
     public Component getComponent() {
         return this;
     }
-
 
     /**
      * A popup menu-specific separator.

@@ -21,22 +21,8 @@
 
 package nsk.stress.stack;
 
-
 import nsk.share.Terminator;
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -63,10 +49,6 @@ import java.io.PrintStream;
  * @build nsk.share.Terminator
  * @run main/othervm/timeout=900 -Xss220K nsk.stress.stack.stack017 -eager
  */
-
-
-
-
 
 public class stack017 extends Thread {
     private final static int THREADS = 10;

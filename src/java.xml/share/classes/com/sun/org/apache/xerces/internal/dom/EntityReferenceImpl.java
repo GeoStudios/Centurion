@@ -21,33 +21,16 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.URI;
 import java.xml.share.classes.com.sun.org.w3c.dom.DocumentType;
 import java.xml.share.classes.com.sun.org.w3c.dom.EntityReference;
 import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * EntityReference models the XML &entityname; syntax, when used for
@@ -119,7 +102,6 @@ implements EntityReference {
     protected String name;
     /** Base URI*/
     protected String baseURI;
-
 
     /** Entity changes. */
     //protected int entityChanges = -1;
@@ -202,7 +184,6 @@ implements EntityReference {
         }
         return baseURI;
     }
-
 
     /** NON-DOM: set base uri*/
     public void setBaseURI(String uri){
@@ -299,7 +280,6 @@ implements EntityReference {
         }
     }
 
-
     /**
      * NON-DOM: sets the node and its children value.
      * <P>
@@ -326,7 +306,6 @@ implements EntityReference {
         }
         isReadOnly(readOnly);
     } // setReadOnly(boolean,boolean)
-
 
     /**
      * Enable the synchronize method which may do cloning. This method is enabled
@@ -414,6 +393,5 @@ implements EntityReference {
         }
     }
      /***/
-
 
 } // class EntityReferenceImpl

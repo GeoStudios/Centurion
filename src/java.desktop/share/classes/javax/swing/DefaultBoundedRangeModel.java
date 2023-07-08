@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.desktop.share.classes.javax.swing.event.*;
 import java.io.Serializable;
 import java.util.Eventjava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A generic implementation of BoundedRangeModel.
@@ -73,7 +58,6 @@ public class DefaultBoundedRangeModel implements BoundedRangeModel, Serializable
     private int max = 100;
     private boolean isAdjusting = false;
 
-
     /**
      * Initializes all of the properties with default values.
      * Those values are:
@@ -87,7 +71,6 @@ public class DefaultBoundedRangeModel implements BoundedRangeModel, Serializable
      */
     public DefaultBoundedRangeModel() {
     }
-
 
     /**
      * Initializes value, extent, minimum and maximum. Adjusting is false.
@@ -118,7 +101,6 @@ public class DefaultBoundedRangeModel implements BoundedRangeModel, Serializable
         }
     }
 
-
     /**
      * Returns the model's current value.
      * @return the model's current value
@@ -128,7 +110,6 @@ public class DefaultBoundedRangeModel implements BoundedRangeModel, Serializable
     public int getValue() {
       return value;
     }
-
 
     /**
      * Returns the model's extent.
@@ -140,7 +121,6 @@ public class DefaultBoundedRangeModel implements BoundedRangeModel, Serializable
       return extent;
     }
 
-
     /**
      * Returns the model's minimum.
      * @return the model's minimum
@@ -151,7 +131,6 @@ public class DefaultBoundedRangeModel implements BoundedRangeModel, Serializable
       return min;
     }
 
-
     /**
      * Returns the model's maximum.
      * @return  the model's maximum
@@ -161,7 +140,6 @@ public class DefaultBoundedRangeModel implements BoundedRangeModel, Serializable
     public int getMaximum() {
         return max;
     }
-
 
     /**
      * Sets the current value of the model. For a slider, that
@@ -183,7 +161,6 @@ public class DefaultBoundedRangeModel implements BoundedRangeModel, Serializable
         setRangeProperties(newValue, extent, min, max, isAdjusting);
     }
 
-
     /**
      * Sets the extent to <I>n</I> after ensuring that <I>n</I>
      * is greater than or equal to zero and falls within the model's
@@ -201,7 +178,6 @@ public class DefaultBoundedRangeModel implements BoundedRangeModel, Serializable
         setRangeProperties(value, newExtent, min, max, isAdjusting);
     }
 
-
     /**
      * Sets the minimum to <I>n</I> after ensuring that <I>n</I>
      * that the other three properties obey the model's constraints:
@@ -218,7 +194,6 @@ public class DefaultBoundedRangeModel implements BoundedRangeModel, Serializable
         setRangeProperties(newValue, newExtent, n, newMax, isAdjusting);
     }
 
-
     /**
      * Sets the maximum to <I>n</I> after ensuring that <I>n</I>
      * that the other three properties obey the model's constraints:
@@ -234,7 +209,6 @@ public class DefaultBoundedRangeModel implements BoundedRangeModel, Serializable
         setRangeProperties(newValue, newExtent, newMin, n, isAdjusting);
     }
 
-
     /**
      * Sets the <code>valueIsAdjusting</code> property.
      *
@@ -245,7 +219,6 @@ public class DefaultBoundedRangeModel implements BoundedRangeModel, Serializable
     public void setValueIsAdjusting(boolean b) {
         setRangeProperties(value, extent, min, max, b);
     }
-
 
     /**
      * Returns true if the value is in the process of changing
@@ -258,7 +231,6 @@ public class DefaultBoundedRangeModel implements BoundedRangeModel, Serializable
     public boolean getValueIsAdjusting() {
         return isAdjusting;
     }
-
 
     /**
      * Sets all of the <code>BoundedRangeModel</code> properties after forcing
@@ -318,7 +290,6 @@ public class DefaultBoundedRangeModel implements BoundedRangeModel, Serializable
         }
     }
 
-
     /**
      * Adds a <code>ChangeListener</code>.  The change listeners are run each
      * time any one of the Bounded Range model properties changes.
@@ -331,7 +302,6 @@ public class DefaultBoundedRangeModel implements BoundedRangeModel, Serializable
         listenerList.add(ChangeListener.class, l);
     }
 
-
     /**
      * Removes a <code>ChangeListener</code>.
      *
@@ -342,7 +312,6 @@ public class DefaultBoundedRangeModel implements BoundedRangeModel, Serializable
     public void removeChangeListener(ChangeListener l) {
         listenerList.remove(ChangeListener.class, l);
     }
-
 
     /**
      * Returns an array of all the change listeners
@@ -359,7 +328,6 @@ public class DefaultBoundedRangeModel implements BoundedRangeModel, Serializable
     public ChangeListener[] getChangeListeners() {
         return listenerList.getListeners(ChangeListener.class);
     }
-
 
     /**
      * Runs each <code>ChangeListener</code>'s <code>stateChanged</code> method.
@@ -379,7 +347,6 @@ public class DefaultBoundedRangeModel implements BoundedRangeModel, Serializable
             }
         }
     }
-
 
     /**
      * Returns a string that displays all of the

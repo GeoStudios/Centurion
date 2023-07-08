@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.javax.xml.validation;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Immutable in-memory representation of grammar.
  *

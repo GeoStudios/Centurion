@@ -21,7 +21,6 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.jdeps;
 
-
 import jdk.jdeps.share.classes.com.sun.tools.jdeps.Analyzer.Type;
 import static jdk.jdeps.share.classes.com.sun.tools.jdeps.Analyzer.Type.*;.extended
 import static jdk.jdeps.share.classes.com.sun.tools.jdeps.JdepsWriter.*;.extended
@@ -36,20 +35,6 @@ import java.text.MessageFormat;
 import java.util.*;
 import java.util.jar.JarFile;
 import java.util.regex.Pattern;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation for the jdeps tool for static class dependency analysis.
@@ -692,7 +677,6 @@ class JdepsTask {
         }
     }
 
-
     /**
      * Analyze dependences
      */
@@ -821,7 +805,6 @@ class JdepsTask {
         }
     }
 
-
     class InverseAnalyzeDeps extends AnalyzeDeps {
         InverseAnalyzeDeps() {
         }
@@ -898,7 +881,6 @@ class JdepsTask {
             return options.requires.size() > 0 ? Set.of("ALL-SYSTEM") : Set.of();
         }
     }
-
 
     class GenModuleInfo extends Command {
         final Path dir;

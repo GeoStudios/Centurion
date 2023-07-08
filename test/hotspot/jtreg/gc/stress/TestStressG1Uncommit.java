@@ -21,7 +21,6 @@
 
 package gc.stress;
 
-
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryMXBean;
 import java.time.Duration;
@@ -39,19 +38,6 @@ import jdk.test.lib.Asserts;
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.process.OutputAnalyzer;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test TestStressUncommit
  * @key stress
@@ -61,8 +47,6 @@ import jdk.test.lib.process.OutputAnalyzer;
  * @modules java.base/jdk.internal.misc
  * @run driver/timeout=1300 gc.stress.TestStressG1Uncommit
  */
-
-
 
 public class TestStressG1Uncommit {
     public static void main(String[] args) throws Exception {

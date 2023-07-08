@@ -21,26 +21,11 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler;
 
-
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.functions.Function;
 import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
 import java.util.Map;
 import javax.xml.transform.TransformerException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The function table for XPath.

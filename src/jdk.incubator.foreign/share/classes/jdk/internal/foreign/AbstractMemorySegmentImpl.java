@@ -21,7 +21,6 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
 
-
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.*;
 import jdk.incubator.foreign.share.classes.jdk.internal.access.JavaNioAccess;
 import jdk.incubator.foreign.share.classes.jdk.internal.access.SharedSecrets;
@@ -38,20 +37,6 @@ import java.util.function.Function;
 import java.util.function.IntFunction;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This abstract class provides an immutable implementation for the {@code MemorySegment} interface. This class contains information

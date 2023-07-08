@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ALOAD;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ASTORE;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.BranchHandle;
@@ -36,20 +35,6 @@ import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Instructi
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.PUSH;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.Constants;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.Flowjava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @LastModified: Oct 2017
@@ -231,7 +216,6 @@ public class StringType extends Type {
     public String getClassName() {
         return(STRING_CLASS);
     }
-
 
     public Instruction LOAD(int slot) {
         return new ALOAD(slot);

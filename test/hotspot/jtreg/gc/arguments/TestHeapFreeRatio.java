@@ -21,22 +21,8 @@
 
 package gc.arguments;
 
-
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestHeapFreeRatio
@@ -48,7 +34,6 @@ import jdk.test.lib.process.ProcessTools;
  *          java.management
  * @run driver gc.arguments.TestHeapFreeRatio
  */
-
 
 public class TestHeapFreeRatio {
 

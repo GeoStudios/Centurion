@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
-
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This interface has methods associated with the XSLT xsl:output attribues

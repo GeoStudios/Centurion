@@ -21,21 +21,6 @@
 
 package java.net;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class MyDatagramSocketImplFactory implements DatagramSocketImplFactory {
   public DatagramSocketImpl createDatagramSocketImpl() {
     try {

@@ -21,7 +21,6 @@
 
 package jdk.httpserver.share.classes.sun.net.httpserver;
 
-
 import java.net.*;
 import java.io.*;
 import java.nio.*;
@@ -32,20 +31,6 @@ import java.util.concurrent.*;
 import javax.net.ssl.*;
 import com.sun.net.httpserver.*;
 import com.sun.net.httpserver.spi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class HttpServerImpl extends HttpServer {
 

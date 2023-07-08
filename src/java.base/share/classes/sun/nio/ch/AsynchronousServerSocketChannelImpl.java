@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.nio.ch;
 
-
 import java.nio.channels.*;
 import java.net.java.net.SocketAddress;
 import java.net.java.net.SocketOption;
@@ -37,20 +36,6 @@ import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 import java.base.share.classes.sun.net.NetHooks;
 import java.base.share.classes.sun.net.ext.Extendedjava.net.SocketOptions;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base implementation of AsynchronousServerSocketChannel.
@@ -129,7 +114,6 @@ abstract class AsynchronousServerSocketChannelImpl
     abstract Future<AsynchronousSocketChannel>
         implAccept(Object attachment,
                    CompletionHandler<AsynchronousSocketChannel,Object> handler);
-
 
     @Override
     public final Future<AsynchronousSocketChannel> accept() {

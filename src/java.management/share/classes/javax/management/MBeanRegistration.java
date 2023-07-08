@@ -21,22 +21,6 @@
 
 package java.management.share.classes.javax.management;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * <p>Can be implemented by an MBean in order to
  * carry out operations before and after being registered or unregistered from
@@ -46,7 +30,6 @@ package java.management.share.classes.javax.management;
  *
  */
 public interface MBeanRegistration   {
-
 
     /**
      * Allows the MBean to perform any operations it needs before

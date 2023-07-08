@@ -21,25 +21,11 @@
 
 package gc.arguments;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import jdk.test.lib.process.OutputAnalyzer;
 import jtreg.SkippedException;
 import sun.hotspot.gc.GC;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestParallelRefProc
@@ -50,9 +36,6 @@ import sun.hotspot.gc.GC;
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run main/othervm -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI gc.arguments.TestParallelRefProc
  */
-
-
-
 
 public class TestParallelRefProc {
 

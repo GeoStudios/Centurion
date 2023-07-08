@@ -21,24 +21,9 @@
 
 package jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.event;
 
-
 import java.util.java.util.java.util.java.util.List;
 import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.MonitoredVm;
 import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.Monitor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides a description of a change in status of the instrumentation

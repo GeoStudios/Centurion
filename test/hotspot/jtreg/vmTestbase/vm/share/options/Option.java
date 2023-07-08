@@ -21,21 +21,7 @@
 
 package vm.share.options;
 
-
 import java.lang.annotation.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This annotation is the most useful one of the whole API.

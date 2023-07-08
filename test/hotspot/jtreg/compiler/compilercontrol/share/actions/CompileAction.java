@@ -21,7 +21,6 @@
 
 package compiler.compilercontrol.share.actions;
 
-
 import compiler.compilercontrol.share.pool.PoolHelper;
 import compiler.compilercontrol.share.scenario.State;
 import compiler.testlibrary.CompilerUtils;
@@ -32,19 +31,6 @@ import sun.hotspot.WhiteBox;
 import java.lang.reflect.Executable;
 import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.Callable;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CompileAction {
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();

@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
-
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * EncodingMap is a convenience class which handles conversions between
@@ -990,6 +975,5 @@ public class EncodingMap {
     public static String getJava2IANAMapping(String javaEncoding) {
         return fJava2IANAMap.get(javaEncoding);
     } // getJava2IANAMapping(String):String
-
 
 } // class EncodingMap

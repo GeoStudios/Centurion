@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.net.www;
 
-
 import jdk.internal.util.StaticProperty;
 import java.io.*;
 import java.net.FileNameMap;
@@ -29,20 +28,6 @@ import java.util.Hashtable;
 import java.util.Enumeration;
 import java.util.Properties;
 import java.util.StringTokenizer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("removal")
 public class MimeTable implements FileNameMap {
@@ -76,7 +61,6 @@ public class MimeTable implements FileNameMap {
             }
         });
     }
-
 
     private static final String filePreamble = "sun.net.www MIME content-types table";
     private static final String fileMagic = "#" + filePreamble;

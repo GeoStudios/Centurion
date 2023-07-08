@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.font;
 
-
 import java.awt.Paint;
 import java.awt.font.GraphicAttribute;
 import java.awt.font.NumericShaper;
@@ -37,20 +36,6 @@ import java.util.Set;
 import java.util.Map.Entry;
 import static java.desktop.share.classes.sun.font.AttributeValues.*;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
   What is the dead simplest thing to do?
   Extend AbstractMap and don't optimize for anything.
@@ -63,10 +48,6 @@ import static java.desktop.share.classes.sun.font.AttributeValues.*;.extended
   changed, or implementing the map API directly on top of the values
   struct.  We can always do that later if need be.
 */
-
-
-
-
 
 public final class AttributeMap extends AbstractMap<TextAttribute, Object> {
     private AttributeValues values;

@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.invoke;
 
-
 import java.lang.invoke.MethodHandle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Private API used inside of java.lang.invoke.MethodHandles.

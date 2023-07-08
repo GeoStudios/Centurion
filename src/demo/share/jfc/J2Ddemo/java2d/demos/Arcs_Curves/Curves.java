@@ -21,7 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Arcs_Curves;
 
-
 import java.awt.*;
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.Rectangle2D;
@@ -34,20 +33,6 @@ import java.awt.font.FontRenderContext;
 import demo.share.jfc.J2Ddemo.java2d.Surface;
 import static java.awt.Color.*;.extended
 import static java.awt.geom.PathIterator.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * CubicCurve2D & QuadCurve2D curves includes FlattenPathIterator example.

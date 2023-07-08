@@ -21,23 +21,9 @@
 
 package compiler.lib.ir_framework;
 
-
 import compiler.lib.ir_framework.shared.TestFormatException;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Annotation for a run method of a <b>custom run test</b>.

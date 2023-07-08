@@ -21,7 +21,6 @@
 
 package javax.xml.transform.ptests;
 
-
 import org.xml.sax.ContentHandler;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
@@ -29,19 +28,6 @@ import org.xml.sax.Locator;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A customized ContentHandler. It writes whole XML file with extra tag on every
@@ -162,7 +148,6 @@ public class MyContentHandler implements ContentHandler {
                                 String qName) throws SAXException {
         println("endElement: " + namespaceURI + ", " + namespaceURI + ", " + qName);
     }
-
 
     /**
      * Write characters tag to file when receive character data.

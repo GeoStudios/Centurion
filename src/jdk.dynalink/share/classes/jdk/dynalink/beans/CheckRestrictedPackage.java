@@ -21,26 +21,11 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.beans;
 
-
 import java.lang.reflect.Modifier;
 import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import jdk.dynalink.share.classes.jdk.dynalink.internal.AccessControlContextFactory;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -49,8 +34,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.internal.AccessControlContextFact
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-
-
 
 /**
  * A utility class to check whether a given class is in a package with restricted access e.g. "sun.*" etc.

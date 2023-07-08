@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.doclet;
 
-
 import java.util.Set;
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.Element;
@@ -31,20 +30,6 @@ import javax.lang.model.util.Types;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileObject.Kind;
 import com.sun.source.util.DocTrees;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents the operating environment of a single invocation

@@ -21,22 +21,8 @@
 
 package compiler.unsafe;
 
-
 import jdk.internal.misc.Unsafe;
 import java.lang.reflect.Field;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -47,9 +33,6 @@ import java.lang.reflect.Field;
  * @run main/othervm -Xbatch -XX:+IgnoreUnrecognizedVMOptions -XX:ObjectAlignmentInBytes=32
  *                   compiler.unsafe.GetUnsafeObjectG1PreBarrier
  */
-
-
-
 
 public class GetUnsafeObjectG1PreBarrier {
     private static final Unsafe unsafe;

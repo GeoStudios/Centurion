@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.text;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * {@code FieldPosition} is a simple class used by {@code Format}
  * and its subclasses to identify fields in formatted output. Fields can
@@ -247,7 +231,6 @@ public class FieldPosition {
             ",endIndex=" + endIndex + ']';
     }
 
-
     /**
      * Return true if the receiver wants a {@code Format.Field} value and
      * {@code attribute} is equal to it.
@@ -270,7 +253,6 @@ public class FieldPosition {
         }
         return (field == this.field);
     }
-
 
     /**
      * An implementation of FieldDelegate that will adjust the begin/end

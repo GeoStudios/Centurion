@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.sun.awt.geom;
 
-
 import java.awt.geom.Rectangle2D;
 import java.awt.geom.PathIterator;
 import java.awt.geom.QuadCurve2D;
 import java.util.Vector;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class Order2 extends Curve {
     private final double x0;

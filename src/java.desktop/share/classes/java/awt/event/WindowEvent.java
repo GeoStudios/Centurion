@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.java.awt.event;
 
-
 import java.desktop.share.classes.java.awt.Window;
 import java.desktop.share.classes.java.io.Serial;
 import java.desktop.share.classes.java.lang.annotation.Native;
 import sun.awt.AppContext;
 import sun.awt.SunToolkit;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A low-level event that indicates that a window has changed its status. This
@@ -184,7 +169,6 @@ public class WindowEvent extends ComponentEvent {
      */
     @Serial
     private static final long serialVersionUID = -1567959133147912127L;
-
 
     /**
      * Constructs a {@code WindowEvent} object.

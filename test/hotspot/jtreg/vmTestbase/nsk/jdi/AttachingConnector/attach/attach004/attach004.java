@@ -21,7 +21,6 @@
 
 package nsk.jdi.AttachingConnector.attach.attach004;
 
-
 import com.sun.jdi.connect.*;
 import java.io.*;
 import java.util.*;
@@ -30,19 +29,6 @@ import nsk.share.ArgumentParser.BadOption;
 import nsk.share.jdi.*;
 import nsk.share.jdi.ConnectorTest.ArgHandler;
 import nsk.share.jpda.java.net.SocketIOPipe;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * The test checks that debugger may establish connection with

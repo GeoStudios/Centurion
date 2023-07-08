@@ -21,26 +21,11 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-
 import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
 import java.base.share.classes.java.util.java.util.java.util.java.util.List;
 import static java.base.share.classes.java.lang.invoke.LambdaForm.*;.extended
 import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Working storage for an LF that is being transformed.
  *  Similarly to a StringBuffer, the editing can take place in multiple steps.

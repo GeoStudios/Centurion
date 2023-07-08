@@ -21,23 +21,9 @@
 
 package nsk.jdi.ReferenceType.classObject;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The debugged application of the test.
@@ -92,7 +78,6 @@ public class classobj003a {
         pipe = argHandler.createDebugeeIOPipe(log);
 
         pipe.println(classobj003.SIGNAL_READY);
-
 
         //pipe.println(classobj003.SIGNAL_GO);
         receiveSignal(classobj003.SIGNAL_QUIT);

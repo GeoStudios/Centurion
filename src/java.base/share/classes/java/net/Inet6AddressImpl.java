@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.net;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import static java.base.share.classes.java.net.InetAddress.IPv6;.extended
 import static java.base.share.classes.java.net.InetAddress.PREFER_IPV6_VALUE;.extended
 import static java.base.share.classes.java.net.InetAddress.PREFER_SYSTEM_VALUE;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Package private implementation of InetAddressImpl for dual

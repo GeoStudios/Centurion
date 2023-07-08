@@ -21,23 +21,8 @@
 
 package java.base.share.classes.sun.security.util;
 
-
 import java.security.spec.AlgorithmParameterSpec;
 import java.base.share.classes.sun.security.util.ObjectIdentifier;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This immutable class is used when randomly generating a key pair and the

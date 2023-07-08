@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.geom.AffineTransform;
 import java.desktop.share.classes.java.awt.geom.PathIterator;
 import java.desktop.share.classes.java.awt.geom.Point2D;
 import java.desktop.share.classes.java.awt.geom.Rectangle2D;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code Shape} interface provides definitions for objects

@@ -21,32 +21,15 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.functions;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XBoolean;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Execute the Lang() function.

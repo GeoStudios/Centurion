@@ -21,7 +21,6 @@
 
 package java.base.macosx.classes.jdk.internal.loader;
 
-
 import java.io.File;
 import java.base.share.classes.java.util.List;
 

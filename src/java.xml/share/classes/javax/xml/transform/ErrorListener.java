@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.javax.xml.transform;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The listener interface used by a {@link TransformerFactory} or {@link Transformer}
  * to notify callers of error messages that occur during a transformation process.

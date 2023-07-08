@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.*;
 import java.awt.peer.*;
 import java.awt.event.*;
@@ -30,20 +29,6 @@ import javax.swing.plaf.basic.BasicGraphicsUtils;
 import java.awt.geom.AffineTransform;
 import java.base.share.classes.java.util.Objects;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class XCheckboxPeer extends XComponentPeer implements CheckboxPeer {
 
@@ -113,7 +98,6 @@ class XCheckboxPeer extends XComponentPeer implements CheckboxPeer {
         super.focusLost(e);
         repaint();
     }
-
 
     void handleJavaKeyEvent(KeyEvent e) {
         int i = e.getID();

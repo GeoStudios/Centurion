@@ -21,23 +21,8 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.parser;
 
-
 import java.util.HashSet;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Methods used to support text blocks lint.

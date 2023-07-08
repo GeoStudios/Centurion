@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.org.xml.sax;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Default base class for handlers.
  *
@@ -102,12 +86,9 @@ public class HandlerBase
         return null;
     }
 
-
-
     ////////////////////////////////////////////////////////////////////
     // Default implementation of DTDHandler interface.
     ////////////////////////////////////////////////////////////////////
-
 
     /**
      * Receive notification of a notation declaration.
@@ -126,7 +107,6 @@ public class HandlerBase
     {
         // no op
     }
-
 
     /**
      * Receive notification of an unparsed entity declaration.
@@ -148,12 +128,9 @@ public class HandlerBase
         // no op
     }
 
-
-
     ////////////////////////////////////////////////////////////////////
     // Default implementation of DocumentHandler interface.
     ////////////////////////////////////////////////////////////////////
-
 
     /**
      * Receive a Locator object for document events.
@@ -170,7 +147,6 @@ public class HandlerBase
     {
         // no op
     }
-
 
     /**
      * Receive notification of the beginning of the document.
@@ -190,7 +166,6 @@ public class HandlerBase
         // no op
     }
 
-
     /**
      * Receive notification of the end of the document.
      *
@@ -208,7 +183,6 @@ public class HandlerBase
     {
         // no op
     }
-
 
     /**
      * Receive notification of the start of an element.
@@ -230,7 +204,6 @@ public class HandlerBase
         // no op
     }
 
-
     /**
      * Receive notification of the end of an element.
      *
@@ -249,7 +222,6 @@ public class HandlerBase
     {
         // no op
     }
-
 
     /**
      * Receive notification of character data inside an element.
@@ -273,7 +245,6 @@ public class HandlerBase
         // no op
     }
 
-
     /**
      * Receive notification of ignorable whitespace in element content.
      *
@@ -296,7 +267,6 @@ public class HandlerBase
         // no op
     }
 
-
     /**
      * Receive notification of a processing instruction.
      *
@@ -318,12 +288,9 @@ public class HandlerBase
         // no op
     }
 
-
-
     ////////////////////////////////////////////////////////////////////
     // Default implementation of the ErrorHandler interface.
     ////////////////////////////////////////////////////////////////////
-
 
     /**
      * Receive notification of a parser warning.
@@ -345,7 +312,6 @@ public class HandlerBase
         // no op
     }
 
-
     /**
      * Receive notification of a recoverable parser error.
      *
@@ -365,7 +331,6 @@ public class HandlerBase
     {
         // no op
     }
-
 
     /**
      * Report a fatal XML parsing error.

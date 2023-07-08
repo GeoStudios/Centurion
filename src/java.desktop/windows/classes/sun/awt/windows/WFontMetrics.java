@@ -21,23 +21,8 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
-
 import java.awt.*;
 import java.util.Hashtable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A font metrics object for a WServer font.

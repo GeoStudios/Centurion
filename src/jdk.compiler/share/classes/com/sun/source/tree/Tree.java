@@ -21,22 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.source.tree;
 
-
 import jdk.internal.javac.PreviewFeature;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Common interface for all nodes in an abstract syntax tree.
@@ -696,7 +681,6 @@ public interface Tree {
          *
          */
         YIELD(YieldTree.class);
-
 
         Kind(Class<? extends Tree> intf) {
             associatedInterface = intf;

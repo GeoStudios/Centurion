@@ -21,27 +21,12 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit;
 
-
 import javax.lang.model.element.Element;
 import javax.tools.Diagnostic;
 import javax.tools.FileObject;
 import com.sun.source.util.DocTreePath;
 import jdk.javadoc.share.classes.jdk.javadoc.doclet.Reporter;
 import static javax.tools.Diagnostic.Kind.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides standardized access to the diagnostic reporting facilities

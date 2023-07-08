@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.font;
 
-
 import java.awt.Font;
 import java.awt.FontFormatException;
 import java.awt.GraphicsEnvironment;
@@ -46,20 +45,6 @@ import java.util.Map;
 import java.desktop.share.classes.sun.java2d.Disposer;
 import java.desktop.share.classes.sun.java2d.DisposerRecord;
 import java.desktop.share.classes.sun.security.action.GetPropertyAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * TrueTypeFont is not called SFntFont because it is not expected
@@ -299,7 +284,6 @@ public class TrueTypeFont extends FileFont {
     protected synchronized void close() {
         disposerRecord.dispose();
     }
-
 
     int readBlock(ByteBuffer buffer, int offset, int length) {
         int bread = 0;
@@ -768,7 +752,6 @@ public class TrueTypeFont extends FileFont {
         }
         return false;
     }
-
 
     /* Use info in the os_2Table to test CJK support */
     private void setCJKSupport(ByteBuffer os2Table) {
@@ -1278,7 +1261,6 @@ public class TrueTypeFont extends FileFont {
         return scaler;
     }
 
-
     /* Postscript name is rarely requested. Don't waste cycles locating it
      * as part of font creation, nor storage to hold it. Get it only on demand.
      */
@@ -1709,7 +1691,6 @@ public class TrueTypeFont extends FileFont {
         return "** TrueType Font: Family="+familyName+ " Name="+fullName+
             " style="+style+" fileName="+getPublicFileName();
     }
-
 
     private static Map<String, short[]> lcidLanguageCompatibilityMap;
     private static final short[] EMPTY_COMPATIBLE_LCIDS = new short[0];

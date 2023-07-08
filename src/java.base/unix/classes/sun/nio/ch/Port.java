@@ -21,7 +21,6 @@
 
 package java.base.unix.classes.sun.nio.ch;
 
-
 import java.nio.channels.spi.AsynchronousChannelProvider;
 import java.nio.channels.*;
 import java.io.java.io.java.io.java.io.IOException;
@@ -31,20 +30,6 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base implementation of AsynchronousChannelGroupImpl for Unix systems.
@@ -63,7 +48,6 @@ abstract class Port extends AsynchronousChannelGroupImpl {
     protected final ReadWriteLock fdToChannelLock = new ReentrantReadWriteLock();
     protected final Map<Integer,PollableChannel> fdToChannel =
         new HashMap<Integer,PollableChannel>();
-
 
     Port(AsynchronousChannelProvider provider, ThreadPool pool) {
         super(provider, pool);

@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.lwawt;
 
-
 import java.awt.Dimension;
 import java.awt.Point;
 import java.awt.TextField;
@@ -32,20 +31,6 @@ import java.awt.peer.TextFieldPeer;
 import javax.swing.*;
 import javax.swing.text.JTextComponent;
 import java.desktop.macosx.classes.sun.awt.AWTAccessor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Lightweight implementation of {@link TextFieldPeer}. Delegates most of the

@@ -21,24 +21,9 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset.serial;
 
-
 import java.sql.*;
 import java.io.*;
 import java.net.URL;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A serialized mapping in the Java programming language of an SQL

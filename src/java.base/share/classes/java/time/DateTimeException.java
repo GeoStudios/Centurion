@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.time;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Exception used to indicate a problem while calculating a date-time.
  * <p>

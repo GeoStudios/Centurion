@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
-
 import sun.awt.AppContext;
 import java.util.HashMap;
 import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.desktop.share.classes.javax.swing.JComponent;
 import java.desktop.share.classes.javax.swing.UIDefaults;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A distinct rendering area of a Swing component.  A component may

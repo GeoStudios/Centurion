@@ -21,25 +21,10 @@
 
 package java.security.jgss.share.classes.sun.security.krb5;
 
-
 import java.security.jgss.share.classes.sun.security.krb5.internal.*;
 import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.*;
 import java.security.jgss.share.classes.sun.security.util.*;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** XXX This class does not appear to be used. **/
 

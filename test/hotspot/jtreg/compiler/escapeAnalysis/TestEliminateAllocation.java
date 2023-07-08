@@ -21,21 +21,6 @@
 
 package compiler.escapeAnalysis;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8231412
@@ -43,7 +28,6 @@ package compiler.escapeAnalysis;
  * @run main/othervm -XX:-TieredCompilation -XX:CompileCommand=compileonly,compiler.escapeAnalysis.TestEliminateAllocation::test
  *                   compiler.escapeAnalysis.TestEliminateAllocation
  */
-
 
 public class TestEliminateAllocation {
 

@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.awt.print;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The {@code PrinterGraphics} interface is implemented by
  * {@link java.awt.Graphics} objects that are passed to

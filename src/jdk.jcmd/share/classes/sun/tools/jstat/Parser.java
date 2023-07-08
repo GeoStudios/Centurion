@@ -21,23 +21,8 @@
 
 package jdk.jcmd.share.classes.sun.tools.jstat;
 
-
 import java.io.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class implementing a simple predictive parser for output format
@@ -87,7 +72,6 @@ public class Parser {
     private static final char[] delimiters = {
         OPENBLOCK, CLOSEBLOCK, PERCENT_CHAR, OPENPAREN, CLOSEPAREN
     };
-
 
     private static Set<String> reservedWords;
 

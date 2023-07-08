@@ -21,7 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d;
 
-
 import java.awt.BorderLayout;
 import java.awt.GridBagLayout;
 import javax.swing.JPanel;
@@ -30,20 +29,6 @@ import javax.swing.border.CompoundBorder;
 import javax.swing.border.EmptyBorder;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.Changejava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Panel that holds the Demo groups, Controls and Monitors for each tab.

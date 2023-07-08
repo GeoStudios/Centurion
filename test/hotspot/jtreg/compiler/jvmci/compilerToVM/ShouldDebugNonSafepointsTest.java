@@ -21,22 +21,8 @@
 
 package compiler.jvmci.compilerToVM;
 
-
 import jdk.test.lib.Asserts;
 import jdk.vm.ci.hotspot.CompilerToVMHelper;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -58,8 +44,6 @@ import jdk.vm.ci.hotspot.CompilerToVMHelper;
  *                   -Dcompiler.jvmci.compilerToVM.ShouldDebugNonSafepointsTest.expected=false
  *                   compiler.jvmci.compilerToVM.ShouldDebugNonSafepointsTest
  */
-
-
 
 public class ShouldDebugNonSafepointsTest {
     private static final boolean EXPECTED = Boolean.getBoolean("compiler"

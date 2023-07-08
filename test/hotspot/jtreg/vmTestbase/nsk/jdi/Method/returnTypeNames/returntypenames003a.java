@@ -21,23 +21,9 @@
 
 package nsk.jdi.Method.returnTypeNames;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the returntypenames003 JDI test.
@@ -86,7 +72,6 @@ public class returntypenames003a {
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
 
-
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
 
@@ -125,7 +110,6 @@ public class returntypenames003a {
     }
 }
 
-
 class returntypenames003aTestClass {
 
     private returntypenames003aClassForCheck2 class2 = new returntypenames003aClassForCheck2();
@@ -144,7 +128,6 @@ class returntypenames003aTestClass {
         return iface;
     }
 }
-
 
 interface returntypenames003aIntfForCheck {
 

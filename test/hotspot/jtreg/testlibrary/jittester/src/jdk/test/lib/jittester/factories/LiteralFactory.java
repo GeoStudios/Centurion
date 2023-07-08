@@ -21,7 +21,6 @@
 
 package jdk.test.lib.jittester.factories;
 
-
 import jdk.test.lib.jittester.Literal;
 import jdk.test.lib.jittester.ProductionFailedException;
 import jdk.test.lib.jittester.ProductionParams;
@@ -29,19 +28,6 @@ import jdk.test.lib.jittester.Type;
 import jdk.test.lib.jittester.Typejava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.utils.PseudoRandom;
 import java.base.share.classes.java.util.Locale;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class LiteralFactory extends Factory<Literal> {
     protected final Type resultType;

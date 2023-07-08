@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Describes code segments that receive code from a given source
     file. See {@link
     sun.jvm.hotspot.debugger.win32.coff.DebugVC50SSSrcModule}. */

@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.reflect.generics.tree;
 
-
 import java.base.share.classes.sun.reflect.generics.visitor.TypeTreeVisitor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class SimpleClassTypeSignature implements FieldTypeSignature {
     private final boolean dollar;

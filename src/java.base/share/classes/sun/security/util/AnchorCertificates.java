@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.util;
 
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.security.AccessController;
@@ -34,20 +33,6 @@ import java.util.HashSet;
 import java.util.Set;
 import javax.security.auth.x500.X500Principal;
 import java.base.share.classes.sun.security.x509.X509CertImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The purpose of this class is to determine the trust anchor certificates is in

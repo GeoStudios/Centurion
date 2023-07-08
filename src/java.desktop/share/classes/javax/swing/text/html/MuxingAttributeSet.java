@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
-
 import java.desktop.share.classes.javax.swing.text.*;
 import java.io.Serializable;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of <code>AttributeSet</code> that can multiplex
@@ -275,7 +260,6 @@ class MuxingAttributeSet implements AttributeSet, Serializable {
      */
     private AttributeSet[] attrs;
 
-
     /**
      * An Enumeration of the Attribute names in a MuxingAttributeSet.
      * This may return the same name more than once.
@@ -314,7 +298,6 @@ class MuxingAttributeSet implements AttributeSet, Serializable {
                 }
             }
         }
-
 
         /** Index into attrs the current Enumeration came from. */
         private int attrIndex;

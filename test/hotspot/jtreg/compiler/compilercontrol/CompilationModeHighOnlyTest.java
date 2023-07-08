@@ -21,21 +21,6 @@
 
 package compiler.compilercontrol;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8233885
@@ -45,7 +30,6 @@ package compiler.compilercontrol;
  *                   compiler.compilercontrol.CompilationModeHighOnlyTest
  *
  */
-
 
 public class CompilationModeHighOnlyTest{
     public static void main(String[] args) {

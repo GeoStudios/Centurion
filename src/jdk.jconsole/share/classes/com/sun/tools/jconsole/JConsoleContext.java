@@ -21,24 +21,9 @@
 
 package jdk.jconsole.share.classes.com.sun.tools.jconsole;
 
-
 import javax.management.MBeanServerConnection;
 import java.beans.PropertyChangejava.util.Listener;
 import javax.swing.event.SwingPropertyChangeSupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * {@code JConsoleContext} represents a JConsole connection to a target

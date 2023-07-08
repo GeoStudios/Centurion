@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.net;
 
-
 import java.base.share.classes.java.io.FileDescriptor;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.nio.channels.java.net.ServerSocketChannel;
@@ -30,20 +29,6 @@ import java.base.share.classes.java.util.Set;
 import java.base.share.classes.java.util.Collections;
 import sun.security.util.SecurityConstants;
 import sun.net.Platformjava.net.SocketImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements server sockets. A server socket waits for

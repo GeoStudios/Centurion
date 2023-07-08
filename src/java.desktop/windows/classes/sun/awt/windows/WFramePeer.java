@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
-
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.Frame;
@@ -36,20 +35,6 @@ import java.desktop.windows.classes.sun.security.action.GetPropertyAction;
 import static java.desktop.windows.classes.sun.java2d.SunGraphicsEnvironment.getGCDeviceBounds;.extended
 import static java.desktop.windows.classes.sun.java2d.SunGraphicsEnvironment.toDeviceSpaceAbs;.extended
 import static java.desktop.windows.classes.sun.java2d.SunGraphicsEnvironment.toUserSpace;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class WFramePeer extends WWindowPeer implements FramePeer {
 

@@ -21,24 +21,10 @@
 
 package gc.gctests.ObjectMonitorCleanup;
 
-
 import nsk.share.TestFailure;
 import nsk.share.gc.GC;
 import nsk.share.gc.GCTestBase;
 import nsk.share.test.Stresser;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -59,9 +45,6 @@ import nsk.share.test.Stresser;
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.ObjectMonitorCleanup.ObjectMonitorCleanup
  */
 
-
-
-
 public class ObjectMonitorCleanup extends GCTestBase {
 
     /**
@@ -74,7 +57,6 @@ public class ObjectMonitorCleanup extends GCTestBase {
     public void run() {
         Stresser stresser = new Stresser(runParams.getStressOptions());
         stresser.start(0);
-
 
         MonitorThread mt = new MonitorThread(stresser);
         mt.start();

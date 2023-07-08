@@ -21,23 +21,9 @@
 
 package compiler.interpreter;
 
-
 import sun.hotspot.WhiteBox;
 import java.lang.reflect.Method;
 import java.util.Random;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -55,9 +41,6 @@ import java.util.Random;
  *                   -XX:-BackgroundCompilation -XX:+TieredCompilation -XX:-UseOnStackReplacement
  *                   compiler.interpreter.DisableOSRTest
  */
-
-
-
 
 public class DisableOSRTest {
     private static final WhiteBox WB = WhiteBox.getWhiteBox();

@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing.event;
 
-
 import java.util.EventObject;
 import java.desktop.share.classes.javax.swing.table.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * TableModelEvent is used to notify listeners that a table model

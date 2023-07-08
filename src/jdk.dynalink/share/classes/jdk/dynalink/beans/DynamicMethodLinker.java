@@ -21,7 +21,6 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.beans;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import jdk.dynalink.share.classes.jdk.dynalink.CallSiteDescriptor;
@@ -35,20 +34,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkerServices;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.TypeBasedGuardingDynamicLinker;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.support.Guards;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -56,8 +41,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.support.Guards;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-
-
 
 /**
  * Simple linker that implements the {@link StandardOperation#CALL} operation

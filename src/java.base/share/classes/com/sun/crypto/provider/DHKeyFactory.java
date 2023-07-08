@@ -21,7 +21,6 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
-
 import java.base.share.classes.java.security.Key;
 import java.base.share.classes.java.security.PublicKey;
 import java.base.share.classes.java.security.PrivateKey;
@@ -35,20 +34,6 @@ import java.base.share.classes.java.util.Arrays;
 import javax.crypto.spec.DHPublicKeySpec;
 import javax.crypto.spec.DHPrivateKeySpec;
 import javax.crypto.spec.DHParameterSpec;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements the Diffie-Hellman key factory of the Sun provider.

@@ -21,7 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.krb5;
 
-
 import java.io.*;
 import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
@@ -40,20 +39,6 @@ import java.security.jgss.share.classes.sun.security.action.GetPropertyAction;
 import java.security.jgss.share.classes.sun.security.krb5.internal.crypto.EType;
 import java.security.jgss.share.classes.sun.security.krb5.internal.Krb5;
 import java.security.jgss.share.classes.sun.security.util.SecurityProperties;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class maintains key-value pairs of Kerberos configurable constants
@@ -124,7 +109,6 @@ public class Config {
     // used for native interface
     private static native String getWindowsDirectory(boolean isSystem);
 
-
     /**
      * Gets an instance of Config class. One and only one instance (the
      * singleton) is returned.
@@ -161,7 +145,6 @@ public class Config {
         Checksum.initStatic();
         KrbAsReqBuilder.ReferralsState.initStatic();
     }
-
 
     private static boolean isMacosLionOrBetter() {
         // split the "10.x.y" version number
@@ -1036,7 +1019,6 @@ public class Config {
         }
         return etype;
     }
-
 
     /**
      * Get the etype and checksum value for the specified encryption and

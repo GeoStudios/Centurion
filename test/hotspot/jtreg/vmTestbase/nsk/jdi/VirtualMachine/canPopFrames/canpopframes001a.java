@@ -21,23 +21,9 @@
 
 package nsk.jdi.VirtualMachine.canPopFrames;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the canpopframes001 JDI test.
@@ -89,7 +75,6 @@ public class canpopframes001a {
         log1("debuggee started!");
 
         int exitCode = PASSED;
-
 
         label0:
             for (int i = 0; ; i++) {

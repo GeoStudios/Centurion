@@ -21,7 +21,6 @@
 
 package datatype;
 
-
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.Calendar;
@@ -39,19 +38,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

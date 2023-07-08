@@ -21,21 +21,6 @@
 
 package compiler.codegen;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8001183
@@ -46,7 +31,6 @@ package compiler.codegen;
  * @run main/othervm -Xbatch -XX:CompileCommand=exclude,*::test() -Xmx128m -XX:MaxVectorSize=16 compiler.codegen.TestCharVect2
  * @run main/othervm -Xbatch -XX:CompileCommand=exclude,*::test() -Xmx128m -XX:MaxVectorSize=32 compiler.codegen.TestCharVect2
  */
-
 
 public class TestCharVect2 {
   private static final int ARRLEN = 997;

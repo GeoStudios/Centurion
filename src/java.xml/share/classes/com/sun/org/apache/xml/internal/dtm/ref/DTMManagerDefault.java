@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref;
 
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.transform.Source;
@@ -52,20 +51,6 @@ import java.xml.share.classes.com.sun.org.xml.sax.SAXNotRecognizedException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXNotSupportedException;
 import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
 import java.xml.share.classes.com.sun.org.xml.sax.helpers.DefaultHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The default implementation for the DTMManager.
@@ -145,7 +130,6 @@ public class DTMManagerDefault extends DTMManager
    */
   synchronized public void addDTM(DTM dtm, int id) {    addDTM(dtm,id,0); }
 
-
   /**
    * Add a DTM to the DTM table.
    *
@@ -221,7 +205,6 @@ public class DTMManagerDefault extends DTMManager
    *
    */
   public DTMManagerDefault(){}
-
 
   /**
    * Get an instance of a DTM, loaded with the content from the
@@ -339,7 +322,6 @@ public class DTMManagerDefault extends DTMManager
           // created a new DTM.
           addDTM(dtm, dtmPos, 0);
 
-
           boolean haveXercesParser =
                      (null != reader)
                      && (reader.getClass()
@@ -377,7 +359,6 @@ public class DTMManagerDefault extends DTMManager
                 coParser=filter;
               }
             }
-
 
             /**************************************************************
             // EXPERIMENTAL 3/22/02

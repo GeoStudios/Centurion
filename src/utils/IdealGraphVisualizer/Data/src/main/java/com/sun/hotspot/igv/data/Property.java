@@ -21,22 +21,7 @@
 
 package utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data;
 
-
 import utils.IdealGraphVisualizer.Data.src.main.java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

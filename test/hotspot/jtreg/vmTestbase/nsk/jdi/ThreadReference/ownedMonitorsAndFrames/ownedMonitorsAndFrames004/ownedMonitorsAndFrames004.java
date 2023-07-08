@@ -21,26 +21,12 @@
 
 package nsk.jdi.ThreadReference.ownedMonitorsAndFrames.ownedMonitorsAndFrames004;
 
-
 import java.io.PrintStream;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import nsk.share.Consts;
 import nsk.share.jdi.OwnedMonitorsDebugger;
 import nsk.share.locks.LockType;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -75,8 +61,6 @@ import nsk.share.locks.LockType;
  *      -transport.address=dynamic
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
-
-
 
 public class ownedMonitorsAndFrames004 extends OwnedMonitorsDebugger {
     public static void main(String argv[]) {

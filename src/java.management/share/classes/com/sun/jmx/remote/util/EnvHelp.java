@@ -21,7 +21,6 @@
 
 package java.management.share.classes.com.sun.jmx.remote.util;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.io.OutputStream;
@@ -45,20 +44,6 @@ import java.management.share.classes.com.sun.jmx.mbeanserver.GetPropertyAction;
 import java.management.share.classes.com.sun.jmx.remote.security.NotificationAccessController;
 import javax.management.remote.JMXConnector;
 import javax.management.remote.JMXConnectorServer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class EnvHelp {
 
@@ -259,14 +244,12 @@ public class EnvHelp {
         return (ret != null) ? ret: t;
     }
 
-
     /**
      * Name of the attribute that specifies the size of a notification
      * buffer for a connector server. The default value is 1000.
      */
     public static final String BUFFER_SIZE_PROPERTY =
         "jmx.remote.x.notification.buffer.size";
-
 
     /**
      * Returns the size of a notification buffer for a connector server.

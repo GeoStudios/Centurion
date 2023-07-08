@@ -21,30 +21,14 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** This is only used internally to this package and its operating
     system- and CPU-specific subpackages to be able to instantiate the
     correct platform-specific implementation of JavaThread which
     handles the last Java frame pointer and other constructs
     properly. */
-
 
 public interface JavaThreadFactory {
   JavaThread createJavaThreadWrapper(Address realThreadObjAddr, TypeDataBase db);

@@ -21,21 +21,6 @@
 
 package vm.compiler.jbe.dead.dead06;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  *
@@ -46,7 +31,6 @@ package vm.compiler.jbe.dead.dead06;
  *          /test/lib
  * @run main/othervm vm.compiler.jbe.dead.dead06.dead06
  */
-
 
 /* -- Test the elimination of dead assignment to local variable within an IF statement
       Example:

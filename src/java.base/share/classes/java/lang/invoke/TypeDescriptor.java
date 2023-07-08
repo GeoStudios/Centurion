@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-
 import java.base.share.classes.java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An entity that has a type descriptor.
@@ -60,7 +45,6 @@ public interface TypeDescriptor {
      * @jvms 4.3.3 Method Descriptors
      */
     String descriptorString();
-
 
     /**
      * An entity that has a field type descriptor.
@@ -100,7 +84,6 @@ public interface TypeDescriptor {
          */
         F arrayType();
     }
-
 
     /**
      * An entity that has a method type descriptor

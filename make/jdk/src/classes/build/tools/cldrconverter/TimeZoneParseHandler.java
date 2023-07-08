@@ -21,56 +21,6 @@
 
 package build.tools.cldrconverter;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Handles parsing of timezone.xml and produces a map from short timezone IDs to
  * tz database IDs.

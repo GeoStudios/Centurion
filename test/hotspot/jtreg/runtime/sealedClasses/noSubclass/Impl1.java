@@ -21,21 +21,6 @@
 
 package noSubclass;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 final class ImplC extends BaseC {}
 non-sealed class ImplCIntermediate extends BaseC {}
 final class ImplCIndirect extends BaseC {}

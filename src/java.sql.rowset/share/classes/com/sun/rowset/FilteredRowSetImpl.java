@@ -21,7 +21,6 @@
 
 package java.sql.rowset.share.classes.com.sun.rowset;
 
-
 import java.io.*;
 import java.util.*;
 import java.sql.*;
@@ -32,20 +31,6 @@ import javax.sql.rowset.spi.*;
 import javax.sql.rowset.serial.*;
 import java.sql.rowset.share.classes.com.sun.rowset.providers.*;
 import java.sql.rowset.share.classes.com.sun.rowset.internal.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The standard implementation of the <code>FilteredRowSet</code> interface. See the interface
@@ -59,7 +44,6 @@ public class FilteredRowSetImpl extends WebRowSetImpl implements Serializable, C
     private Predicate p;
 
     private boolean onInsertRow = false;
-
 
     /**
      * Construct a <code>FilteredRowSet</code>
@@ -119,7 +103,6 @@ public class FilteredRowSetImpl extends WebRowSetImpl implements Serializable, C
         // keep on doing super.internalNext()
         // rather than doing it once.
 
-
          // p.evaluate will help us in changing the cursor
          // and checking the next value by returning true or false.
          // to fit the filter
@@ -130,7 +113,6 @@ public class FilteredRowSetImpl extends WebRowSetImpl implements Serializable, C
          // We need to traverse from present cursorPos till end,
          // whether true or false and check each row for "filter"
          // "till we get a "true"
-
 
          boolean bool = false;
 
@@ -148,7 +130,6 @@ public class FilteredRowSetImpl extends WebRowSetImpl implements Serializable, C
 
        return bool;
     }
-
 
     /**
      * Over-riding <code>internalPrevious()</code> implementation. This method
@@ -182,7 +163,6 @@ public class FilteredRowSetImpl extends WebRowSetImpl implements Serializable, C
        return bool;
     }
 
-
     /**
      * Over-riding <code>internalFirst()</code> implementation. This method
      * applies the filter on the <code>RowSet</code> each time the cursor is moved to first
@@ -213,7 +193,6 @@ public class FilteredRowSetImpl extends WebRowSetImpl implements Serializable, C
         }
      return bool;
     }
-
 
     /**
      * Over-riding <code>internalLast()</code> implementation. This method
@@ -479,7 +458,6 @@ public class FilteredRowSetImpl extends WebRowSetImpl implements Serializable, C
      *                        based on the stream and also type of data.
      */
 
-
    /**
      * Sets the designated column in either the current row or the insert
      * row of this <code>CachedRowSetImpl</code> object with the given
@@ -614,8 +592,6 @@ public class FilteredRowSetImpl extends WebRowSetImpl implements Serializable, C
       this.updateBoolean(findColumn(columnName),x);
    }
 
-
-
     /**
      * Sets the designated column in either the current row or the insert
      * row of this <code>CachedRowSetImpl</code> object with the given
@@ -655,7 +631,6 @@ public class FilteredRowSetImpl extends WebRowSetImpl implements Serializable, C
       super.updateByte(columnIndex,x);
    }
 
-
    /**
      * Sets the designated column in either the current row or the insert
      * row of this <code>CachedRowSetImpl</code> object with the given
@@ -682,7 +657,6 @@ public class FilteredRowSetImpl extends WebRowSetImpl implements Serializable, C
 
       this.updateByte(findColumn(columnName),x);
    }
-
 
    /**
      * Sets the designated column in either the current row or the insert
@@ -750,7 +724,6 @@ public class FilteredRowSetImpl extends WebRowSetImpl implements Serializable, C
 
       this.updateShort(findColumn(columnName),x);
    }
-
 
    /**
      * Sets the designated column in either the current row or the insert
@@ -1124,7 +1097,6 @@ public class FilteredRowSetImpl extends WebRowSetImpl implements Serializable, C
          obj_arr[i] = Byte.valueOf(x[i]);
          val = val.concat(obj_arr[i].toString());
      }
-
 
       if(onInsertRow) {
          if(p != null) {

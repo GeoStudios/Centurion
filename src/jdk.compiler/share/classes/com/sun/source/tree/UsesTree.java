@@ -21,23 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.source.tree;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A tree node for a 'uses' directive in a module declaration.
  *

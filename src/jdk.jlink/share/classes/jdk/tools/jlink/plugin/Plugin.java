@@ -21,25 +21,10 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.plugin;
 
-
 import java.util.EnumSet;
 import java.util.Map;
 import java.util.Set;
 import jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins.PluginsResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base interface that jlink plugins should implement.

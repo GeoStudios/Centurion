@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.java2d.windows;
 
-
 import java.awt.Rectangle;
 import java.awt.GraphicsConfiguration;
 import java.awt.color.ColorSpace;
@@ -46,20 +45,6 @@ import java.desktop.windows.classes.sun.java2d.loops.SurfaceType;
 import java.desktop.windows.classes.sun.java2d.loops.CompositeType;
 import java.desktop.windows.classes.sun.java2d.loops.RenderLoops;
 import java.desktop.windows.classes.sun.java2d.loops.XORComposite;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class GDIWindowSurfaceData extends SurfaceData {
     private final WComponentPeer peer;

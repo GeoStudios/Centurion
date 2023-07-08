@@ -21,26 +21,10 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
-
 import java.util.Comparator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** An interval is an immutable data structure defined by its two
     endpoints. */
-
 
 public class Interval {
   private final Object lowEndpoint;

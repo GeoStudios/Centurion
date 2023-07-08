@@ -21,21 +21,6 @@
 
 package gc.epsilon;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test TestArraycopyCheckcast
  * @requires vm.gc.Epsilon

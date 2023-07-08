@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.io.Serial;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code CheckboxGroup} class is used to group together

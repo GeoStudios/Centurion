@@ -21,7 +21,6 @@
 
 package jdk.httpserver.share.classes.sun.net.httpserver;
 
-
 import com.sun.net.httpserver.*;
 import java.io.*;
 import java.nio.*;
@@ -30,20 +29,6 @@ import java.util.*;
 import javax.security.auth.*;
 import javax.security.auth.callback.*;
 import javax.security.auth.login.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AuthFilter extends Filter {
 

@@ -21,7 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import java.lang.ref.Reference;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.SoftReference;
@@ -74,20 +73,6 @@ import jdk.jdi.share.classes.com.sun.jdi.event.EventQueue;
 import jdk.jdi.share.classes.com.sun.jdi.request.BreakpointRequest;
 import jdk.jdi.share.classes.com.sun.jdi.request.EventRequest;
 import jdk.jdi.share.classes.com.sun.jdi.request.EventRequestManager;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class VirtualMachineImpl extends MirrorImpl
              implements PathSearchingVirtualMachine, ThreadListener {

@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * I2L - Convert int to long
@@ -55,7 +38,6 @@ public class I2L extends ConversionInstruction {
     public I2L() {
         super(com.sun.org.apache.bcel.internal.Const.I2L);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

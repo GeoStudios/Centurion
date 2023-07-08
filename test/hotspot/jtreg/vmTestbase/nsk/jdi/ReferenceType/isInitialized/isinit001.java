@@ -21,25 +21,11 @@
 
 package nsk.jdi.ReferenceType.isInitialized;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This test checks the method <code>isInitialized()</code>
@@ -128,7 +114,6 @@ public class isinit001 {
 
         Debugee debugee = binder.bindToDebugee(debugee_launch_command);
         IOPipe pipe = new IOPipe(debugee);
-
 
         debugee.redirectStderr(out);
         print_log_on_verbose("--> isinit001: isinit001a debugee launched");

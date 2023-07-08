@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.math;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Specifies a <i>rounding policy</i> for numerical operations capable
  * of discarding precision. Each rounding mode indicates how the least

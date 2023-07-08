@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang;
 
-
 import java.base.share.classes.java.lang.ref.Reference;
 import java.base.share.classes.java.lang.ref.ReferenceQueue;
 import java.base.share.classes.java.lang.ref.WeakReference;
@@ -40,20 +39,6 @@ import jdk.internal.reflect.Reflection;
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 import sun.nio.ch.Interruptible;
 import sun.security.util.SecurityConstants;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A <i>thread</i> is a thread of execution in a program. The Java
@@ -2061,7 +2046,6 @@ public class Thread implements Runnable {
             }
         }
     }
-
 
     // The following three initially uninitialized fields are exclusively
     // managed by class java.util.concurrent.ThreadLocalRandom. These

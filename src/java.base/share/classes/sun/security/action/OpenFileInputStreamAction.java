@@ -21,23 +21,8 @@
 
 package java.base.share.classes.sun.security.action;
 
-
 import java.io.*;
 import java.security.PrivilegedExceptionAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A convenience class for opening a FileInputStream as a privileged action.

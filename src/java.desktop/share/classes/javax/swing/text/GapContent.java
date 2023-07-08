@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.io.Serial;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Vector;
@@ -35,20 +34,6 @@ import java.desktop.share.classes.javax.swing.undo.UndoableEdit;
 import java.desktop.share.classes.javax.swing.SwingUtilities;
 import java.lang.ref.WeakReference;
 import java.lang.ref.ReferenceQueue;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of the AbstractDocument.Content interface
@@ -719,7 +704,6 @@ public class GapContent extends GapVector implements AbstractDocument.Content, S
         queue = new ReferenceQueue<StickyPosition>();
     }
 
-
     // --- undo support --------------------------------------
 
     /**
@@ -882,7 +866,6 @@ public class GapContent extends GapVector implements AbstractDocument.Content, S
         private final MarkData rec;
     } // End of GapContent.UndoPosRef
 
-
     /**
      * UnoableEdit created for inserts.
      */
@@ -933,7 +916,6 @@ public class GapContent extends GapVector implements AbstractDocument.Content, S
         @SuppressWarnings("rawtypes") // UndoPosRef type cannot be exposed
         protected Vector posRefs;
     } // GapContent.InsertUndo
-
 
     /**
      * UndoableEdit created for removes.

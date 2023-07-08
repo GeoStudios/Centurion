@@ -21,23 +21,9 @@
 
 package nsk.jvmti.GetLoadedClasses;
 
-
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class loadedclss002 extends DebugeeClass {
 

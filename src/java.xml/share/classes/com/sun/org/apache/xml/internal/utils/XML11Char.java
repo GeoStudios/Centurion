@@ -21,30 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
-
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * THIS IS A COPY OF THE XERCES-2J CLASS com.sun.org.apache.xerces.internal.utls.XMLChar
@@ -346,7 +328,6 @@ public class XML11Char {
         }
         return true;
     } // isXML11ValidName(String):boolean
-
 
     /*
      * from the namespace 1.1 rec

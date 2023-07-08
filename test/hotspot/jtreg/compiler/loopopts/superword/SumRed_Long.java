@@ -21,21 +21,6 @@
 
 package compiler.loopopts.superword;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8076276
@@ -64,7 +49,6 @@ package compiler.loopopts.superword;
  *      -XX:LoopMaxUnroll=8
  *      compiler.loopopts.superword.SumRed_Long
  */
-
 
 public class SumRed_Long {
     public static void main(String[] args) throws Exception {

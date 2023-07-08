@@ -21,22 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.z;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Address;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class ZForwardingTableEntry {
     private final Address entry;

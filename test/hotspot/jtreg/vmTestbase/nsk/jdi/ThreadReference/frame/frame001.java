@@ -21,7 +21,6 @@
 
 package nsk.jdi.ThreadReference.frame;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -176,7 +162,6 @@ public class frame001 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -216,7 +201,6 @@ public class frame001 {
 
             int expresult = returnCode0;
 
-
             eventRManager = vm.eventRequestManager();
             eventQueue    = vm.eventQueue();
 
@@ -228,7 +212,6 @@ public class frame001 {
             String bpLine1 = "breakpointLineNumber1";
             String bpLine2 = "breakpointLineNumber2";
             String bpLine3 = "breakpointLineNumber3";
-
 
             List            allThreads   = null;
             ListIterator    listIterator = null;
@@ -245,7 +228,6 @@ public class frame001 {
             StackFrame stackFrame0 = null;
             StackFrame stackFrame1 = null;
             StackFrame stackFrame2 = null;
-
 
             label0: {
 
@@ -353,7 +335,6 @@ public class frame001 {
 
                     int iCount = 0;
 
-
                     log2("      getting BreakpointEvent");
                     expresult = breakpoint();
                     if (expresult != returnCode0)
@@ -367,7 +348,6 @@ public class frame001 {
                         expresult = returnCode1;
                         break label1;
                     }
-
 
                     log2("       checking up that thread2.frame(-1) does throw exception");
                     try {
@@ -422,7 +402,6 @@ public class frame001 {
                         expresult = returnCode1;
                     }
 
-
                     log2("       checking up that thread2.frame(0) doesn't throw exception");
                     try {
                         stackFrame = thread2.frame(0);
@@ -437,7 +416,6 @@ public class frame001 {
                         log3("ERROR: ObjectCollectedException for thread2.frame(0)");
                         expresult = returnCode1;
                     }
-
 
                     switch (i3) {
 
@@ -545,7 +523,6 @@ public class frame001 {
         return testExitCode;
     }
 
-
    /*
     * private BreakpointRequest settingBreakpoint(String, String, String)
     *
@@ -601,7 +578,6 @@ public class frame001 {
 
         return breakpRequest;
     }
-
 
     /*
      * private int breakpoint ()

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util.regex;
 
-
 import java.base.share.classes.java.text.Normalizer;
 import java.base.share.classes.java.text.Normalizer.Form;
 import java.base.share.classes.java.util.Locale;
@@ -40,20 +39,6 @@ import java.base.share.classes.java.util.function.Predicate;
 import java.base.share.classes.java.util.stream.Stream;
 import java.base.share.classes.java.util.stream.StreamSupport;
 import jdk.internal.util.java.util.ArraysSupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A compiled representation of a regular expression.
@@ -3505,7 +3490,6 @@ loop:   for(int x=0, offset=0; x<nCodePoints; x++, offset+=len) {
             return ch < 256 && bits[ch];
         }
     }
-
 
     /**
      *  Utility method for creating a string slice matcher.

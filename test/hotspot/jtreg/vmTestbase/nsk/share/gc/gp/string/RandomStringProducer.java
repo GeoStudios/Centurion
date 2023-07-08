@@ -21,23 +21,9 @@
 
 package nsk.share.gc.gp.string;
 
-
 import nsk.share.test.*;
 import nsk.share.gc.Memory;
 import nsk.share.gc.gp.GarbageProducer;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Garbage producer that creates random strings.

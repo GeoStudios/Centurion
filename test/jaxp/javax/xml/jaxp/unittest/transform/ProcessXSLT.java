@@ -21,7 +21,6 @@
 
 package transform;
 
-
 import static jaxp.library.JAXPTestUtilities.getSystemProperty;.extended
 import java.io.FileOutputStream;
 import java.io.FileWriter;
@@ -66,19 +65,6 @@ import org.xml.sax.SAXParseException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
@@ -97,11 +83,6 @@ import org.xml.sax.helpers.XMLReaderFactory;
 // We however don't have a hard dependency on it. We will use
 // our own ErrorHandler if the default one is not accessible.
 //
-
-
-
-
-
 
 /**
  * The main() method handles the Xalan command-line interface.
@@ -137,7 +118,6 @@ public class ProcessXSLT
         waitForReturnKey();
         System.out.println("   [-CONTENTHANDLER full class name (ContentHandler to be used to serialize output)]");  //"   [-CONTENTHANDLER full class name (ContentHandler to be used to serialize output)]");
         System.out.println("   [-SECURE (set the secure processing feature to true.)]"); //"   [-SECURE (set the secure processing feature to true)]");
-
 
         System.out.println("\n\t\t\t"+  "-Options for XSLTC-" + "\n");
         System.out.println("   [-XO [transletName] (assign the name to the generated translet)]");

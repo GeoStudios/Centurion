@@ -21,21 +21,6 @@
 
 package compiler.loopopts.superword;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8235762
@@ -45,7 +30,6 @@ package compiler.loopopts.superword;
         -XX:CompileCommand=compileonly,compiler.loopopts.superword.TestSearchAlignment::vMeth
  *      compiler.loopopts.superword.TestSearchAlignment
  */
-
 
 public class TestSearchAlignment {
 

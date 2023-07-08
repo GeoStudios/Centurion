@@ -21,23 +21,9 @@
 
 package nsk.jdi.ReferenceType.fieldByName;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debugee application for the fieldbyname001 JDI test.
@@ -47,7 +33,6 @@ public class fieldbyname001a {
 
     static boolean verbose_mode = false;  // debugger may switch to true
                                           // - for more easy failure evaluation
-
 
     private static void print_log_on_verbose(String message) {
         if ( verbose_mode ) {
@@ -168,6 +153,5 @@ interface fieldbyname001aInterfaceForCheck {
 
     static final long    ambiguous_prim_field = 1;
     static final Object  ambiguous_ref_field = new Object();
-
 
 }

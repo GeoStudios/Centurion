@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.awt;
 
-
 import java.awt.Component;
 import java.awt.Window;
 import java.awt.Canvas;
@@ -32,20 +31,6 @@ import java.awt.peer.KeyboardFocusManagerPeer;
 import java.awt.peer.ComponentPeer;
 import java.desktop.share.classes.sun.awt.AWTAccessor.ComponentAccessor;
 import java.desktop.share.classes.sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class KeyboardFocusManagerPeerImpl implements KeyboardFocusManagerPeer {
 
@@ -89,7 +74,6 @@ public abstract class KeyboardFocusManagerPeerImpl implements KeyboardFocusManag
         // A component is generally allowed to accept focus on click
         // if its peer is focusable. There're some exceptions though.
 
-
         // CANVAS & SCROLLBAR accept focus on click
         final ComponentAccessor acc = AWTAccessor.getComponentAccessor();
         if (component instanceof Canvas ||
@@ -100,7 +84,6 @@ public abstract class KeyboardFocusManagerPeerImpl implements KeyboardFocusManag
         // PANEL, empty only, accepts focus on click
         } else if (component instanceof Panel) {
             acceptFocusOnClick = (((Panel)component).getComponentCount() == 0);
-
 
         // Other components
         } else {

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-
 import java.desktop.share.classes.com.sun.java.awt.Color;
 import java.desktop.share.classes.com.sun.java.awt.Component;
 import java.desktop.share.classes.com.sun.java.awt.Graphics;
@@ -32,20 +31,6 @@ import javax.swing.UIManager;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicTreeUI;
 import javax.swing.tree.TreeCellRenderer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Motif rendition of the tree component.
@@ -82,7 +67,6 @@ public class MotifTreeUI extends BasicTreeUI
       {
           g.fillRect( left, y, right - left + 1, 2 );
       }
-
 
     /**
      * The minus sign button icon.

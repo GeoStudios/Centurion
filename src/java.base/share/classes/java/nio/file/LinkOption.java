@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.nio.file;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Defines the options as to how symbolic links are handled.
  *

@@ -21,23 +21,9 @@
 
 package nsk.share.gc.lock;
 
-
 import nsk.share.TestBug;
 import nsk.share.gc.gp.GarbageProducer;
 import nsk.share.gc.gp.DerivedProducer;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * CriticalSectionLocker represents a way to lock

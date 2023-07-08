@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** The debugger supplies an implementation of this interface to
     Editors it requests be opened by the EditorFactory. Using this
     object the Editor can communicate with the debugger. */

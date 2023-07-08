@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.sun.awt;
 
-
 import java.awt.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Event object describing changes in AWT modality

@@ -21,7 +21,6 @@
 
 package vm.runtime.defmeth;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 import java.util.java.util.java.util.java.util.List;
@@ -40,19 +39,6 @@ import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
 import static vm.runtime.defmeth.shared.DefMethTest.MAX_MAJOR_VER;.extended
 import static vm.runtime.defmeth.shared.DefMethTest.MIN_MAJOR_VER;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  *
@@ -69,9 +55,6 @@ import static vm.runtime.defmeth.shared.DefMethTest.MIN_MAJOR_VER;.extended
  *      -javaagent:retransform.jar
  *      vm.runtime.defmeth.StressTest
  */
-
-
-
 
 /*
  * Stress test for default methods implementation.

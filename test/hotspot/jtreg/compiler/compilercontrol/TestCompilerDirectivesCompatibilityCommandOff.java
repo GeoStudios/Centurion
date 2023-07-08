@@ -21,21 +21,7 @@
 
 package compiler.compilercontrol;
 
-
 import jdk.test.lib.dcmd.CommandExecutor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestCompilerDirectivesCompatibilityCommandOff
@@ -53,8 +39,6 @@ import jdk.test.lib.dcmd.CommandExecutor;
  *      -XX:+WhiteBoxAPI
  *      compiler.compilercontrol.TestCompilerDirectivesCompatibilityCommandOff
  */
-
-
 
 public class TestCompilerDirectivesCompatibilityCommandOff extends TestCompilerDirectivesCompatibilityBase {
 

@@ -21,23 +21,8 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.jdeprscan;
 
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utility class for pretty-printing various bits of API syntax.

@@ -21,25 +21,10 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.ClassNotLoadedException;
 import jdk.jdi.share.classes.com.sun.jdi.InvalidTypeException;
 import jdk.jdi.share.classes.com.sun.jdi.Value;
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 abstract class ValueImpl extends MirrorImpl implements Value {
 

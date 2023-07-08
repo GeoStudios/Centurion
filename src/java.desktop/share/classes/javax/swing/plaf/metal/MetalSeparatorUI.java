@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
-
 import java.desktop.share.classes.javax.swing.*;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -30,20 +29,6 @@ import java.awt.Insets;
 import java.awt.Rectangle;
 import java.desktop.share.classes.javax.swing.plaf.*;
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicSeparatorUI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A Metal L&amp;F implementation of SeparatorUI.  This implementation

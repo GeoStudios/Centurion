@@ -21,22 +21,6 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.classfile;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A directed relationship between two {@link Dependency.Location Location}s.
  * Subtypes of {@code Dependency} may provide additional detail about the dependency.
@@ -70,7 +54,6 @@ public interface Dependency {
         Iterable<? extends Dependency> findDependencies(ClassFile classfile);
     }
 
-
     /**
      * A location somewhere within a class. Subtypes of {@code Location}
      * may be used to provide additional detail about the location.
@@ -96,7 +79,6 @@ public interface Dependency {
          */
         String getPackageName();
     }
-
 
     /**
      * Get the location that has the dependency.

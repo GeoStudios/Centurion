@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-
 import java.desktop.windows.classes.com.sun.java.awt.*;
 import javax.swing.*;
 import javax.swing.border.*;
@@ -32,20 +31,6 @@ import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSch
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.XPStyle.*;.extended
 import java.desktop.windows.classes.com.sun.swing.table.*;
 import java.desktop.windows.classes.com.sun.swing.SwingUtilities2;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class WindowsTableHeaderUI extends BasicTableHeaderUI {
     private TableCellRenderer originalHeaderRenderer;

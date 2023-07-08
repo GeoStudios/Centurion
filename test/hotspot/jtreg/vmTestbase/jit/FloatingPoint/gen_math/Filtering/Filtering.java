@@ -21,21 +21,7 @@
 
 package jit.FloatingPoint.gen_math.Filtering;
 
-
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -47,8 +33,6 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.FloatingPoint.gen_math.Filtering.Filtering
  */
-
-
 
 public class Filtering
 {
@@ -63,7 +47,6 @@ public class Filtering
 
         xx = new double[N];
         yy = new double[N];
-
 
         double r1, r2, r3, r4;
 
@@ -112,7 +95,6 @@ public class Filtering
         return nor;
    }
 
-
    public void Filter1 (int nn)
    {    yy[0] = xx[0];
         yy[nn - 1] = xx[nn - 1];
@@ -121,7 +103,6 @@ public class Filtering
                 yy[i] = 0.5 * (xx[i - 1] + xx[i + 1]);
         }
    }
-
 
    public void Filter2 (int nn)
    {    yy[0] = xx[0];
@@ -146,10 +127,6 @@ public class Filtering
 
    }
 
-
-
-
-
    public void Echeck(double er, double ER)
    {
 
@@ -164,10 +141,5 @@ public class Filtering
         }
 
    }
-
-
-
-
-
 
 }

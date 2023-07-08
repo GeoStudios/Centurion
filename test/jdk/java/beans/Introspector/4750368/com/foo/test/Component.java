@@ -21,21 +21,6 @@
 
 package com.foo.test;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Component {
     private String name;
     private int value;

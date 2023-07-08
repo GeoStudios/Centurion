@@ -21,27 +21,12 @@
 
 package jdk.jshell.share.classes.jdk.jshell.execution;
 
-
 import java.io.DataInputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.nio.charset.StandardCharsets;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Read from an InputStream which has been packetized and write its contents

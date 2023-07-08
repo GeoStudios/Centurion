@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.events;
 
-
 import javax.xml.stream.events.NotationDeclaration;
 import javax.xml.stream.events.XMLEvent;
 import java.xml.share.classes.com.sun.xml.internal.stream.dtd.nonvalidating.XMLNotationDecl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation of NotationDeclaration event.

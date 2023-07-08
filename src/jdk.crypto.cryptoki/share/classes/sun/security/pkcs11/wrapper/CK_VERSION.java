@@ -21,22 +21,6 @@
 
 package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * class CK_VERSION describes the version of a Cryptoki interface, a Cryptoki
  * library, or an SSL implementation, or the hardware or firmware version of a

@@ -21,7 +21,6 @@
 
 package java.rmi.share.classes.sun.rmi.transport;
 
-
 import java.io.ObjectInputFilter;
 import java.net.java.net.SocketPermission;
 import java.rmi.Remote;
@@ -55,20 +54,6 @@ import java.rmi.share.classes.sun.rmi.runtime.RuntimeUtil;
 import java.rmi.share.classes.sun.rmi.server.UnicastRef;
 import java.rmi.share.classes.sun.rmi.server.UnicastServerRef;
 import java.rmi.share.classes.sun.rmi.server.Util;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements the guts of the server-side distributed GC
@@ -424,7 +409,6 @@ final class DGCImpl implements DGC {
         // Not a class, not size limited
         return ObjectInputFilter.Status.UNDECIDED;
     }
-
 
     private static class LeaseInfo {
         VMID vmid;

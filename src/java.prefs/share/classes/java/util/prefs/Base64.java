@@ -21,22 +21,6 @@
 
 package java.prefs.share.classes.java.util.prefs;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Static methods for translating Base64 encoded strings to byte arrays
  * and vice-versa.

@@ -21,27 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.MsgKey;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils.Utils;
 import javax.xml.transform.Errorjava.util.Listener;
 import java.xml.share.classes.com.sun.org.xml.sax.Attributes;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is not a public API.
@@ -53,7 +38,6 @@ import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
  */
 public final class ToTextStream extends ToStream
 {
-
 
   /**
    * Default constructor.
@@ -67,8 +51,6 @@ public final class ToTextStream extends ToStream
   {
     super(l);
   }
-
-
 
   /**
    * Receive notification of the beginning of a document.
@@ -592,7 +574,6 @@ public final class ToTextStream extends ToStream
 
     }
 
-
     /**
      * From XSLTC
      */
@@ -607,7 +588,6 @@ public final class ToTextStream extends ToStream
         characters.getChars(0, length, m_charsBuff, 0);
         characters(m_charsBuff, 0, length);
     }
-
 
     /**
      * From XSLTC
@@ -636,13 +616,11 @@ public final class ToTextStream extends ToStream
         return false;
     }
 
-
     public void startPrefixMapping(String prefix, String uri)
         throws org.xml.sax.SAXException
     {
         // no namespace support for HTML
     }
-
 
     public void namespaceAfterStartElement(
         final String prefix,

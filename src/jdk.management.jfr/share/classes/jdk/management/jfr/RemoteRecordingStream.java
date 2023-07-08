@@ -21,7 +21,6 @@
 
 package jdk.management.jfr.share.classes.jdk.management.jfr;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.channels.FileChannel;
@@ -58,20 +57,6 @@ import jdk.management.jfr.share.classes.jdk.jfr.internal.management.EventSetting
 import jdk.management.jfr.share.classes.jdk.jfr.internal.management.ManagementSupport;
 import jdk.management.jfr.share.classes.jdk.management.jfr.DiskRepository.DiskChunk;
 import jdk.management.jfr.share.classes.jdk.jfr.internal.management.EventByteStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of an {@link EventStream} that can serialize events over

@@ -21,24 +21,9 @@
 
 package java.base.share.classes.sun.net.ftp;
 
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.ServiceConfigurationError;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //import java.util.ServiceLoader;
 

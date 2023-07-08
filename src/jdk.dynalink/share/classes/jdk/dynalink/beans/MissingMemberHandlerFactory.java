@@ -21,7 +21,6 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.beans;
 
-
 import java.lang.invoke.MethodHandle;
 import jdk.dynalink.share.classes.jdk.dynalink.DynamicLinkerFactory;
 import jdk.dynalink.share.classes.jdk.dynalink.NamedOperation;
@@ -29,20 +28,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.NoSuchDynamicMethodException;
 import jdk.dynalink.share.classes.jdk.dynalink.StandardOperation;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkRequest;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkerServices;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A factory for creating method handles for linking missing member behavior

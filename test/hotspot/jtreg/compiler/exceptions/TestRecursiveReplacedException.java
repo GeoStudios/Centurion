@@ -21,21 +21,6 @@
 
 package compiler.exceptions;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8054224
@@ -45,7 +30,6 @@ package compiler.exceptions;
  *      -XX:CompileCommand=compileonly,compiler.exceptions.TestRecursiveReplacedException::run
  *      compiler.exceptions.TestRecursiveReplacedException
  */
-
 
 public class TestRecursiveReplacedException {
 

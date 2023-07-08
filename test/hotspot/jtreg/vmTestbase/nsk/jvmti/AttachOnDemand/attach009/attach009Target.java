@@ -21,21 +21,7 @@
 
 package nsk.jvmti.AttachOnDemand.attach009;
 
-
 import nsk.share.aod.TargetApplicationWaitingAgents;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class FirstLoadedClass {
 

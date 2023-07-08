@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import java.io.Reader;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -34,20 +33,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Properties;
 import java.util.ServiceLoader;
 import javax.sound.sampled.AudioPermission;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Managing security in the Java Sound implementation.
  * This class contains all code that uses and is used by

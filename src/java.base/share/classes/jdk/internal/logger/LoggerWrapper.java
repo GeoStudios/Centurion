@@ -21,24 +21,9 @@
 
 package java.base.share.classes.jdk.internal.logger;
 
-
 import java.base.share.classes.java.util.Objects;
 import java.lang.System.Logger;
 import sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of {@link Logger} that redirects all calls to a wrapped

@@ -21,22 +21,8 @@
 
 package p.annotation;
 
-
 import java.lang.annotation.Target;
 import static java.lang.annotation.ElementType.MODULE;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @Target(value={MODULE})
 public @interface Foo {}

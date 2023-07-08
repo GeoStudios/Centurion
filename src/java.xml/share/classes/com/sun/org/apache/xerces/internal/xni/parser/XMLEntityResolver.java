@@ -21,32 +21,14 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * This interface is used to resolve external parsed entities. The

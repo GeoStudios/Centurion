@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
-
 import java.io.*;
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
@@ -31,20 +30,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.memory.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** For a set of known roots, descends recursively into the object
     graph, for each object recording those objects (and their fields)
@@ -64,7 +49,6 @@ public class ReversePtrsAnalysis {
   public void setHeapProgressThunk(HeapProgressThunk thunk) {
     progressThunk = thunk;
   }
-
 
   /** Runs the analysis algorithm */
   public void run() {
@@ -168,7 +152,6 @@ public class ReversePtrsAnalysis {
     // Clear out markBits
     markBits = null;
   }
-
 
   //---------------------------------------------------------------------------
   // Internals only below this point
@@ -278,7 +261,6 @@ public class ReversePtrsAnalysis {
         " during traversal");
     }
   }
-
 
   class RootVisitor implements AddressVisitor {
     RootVisitor(String baseRootDescription) {

@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.awt.font;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The {@code GlyphJustificationInfo} class represents information
  * about the justification properties of a glyph.  A glyph is the visual

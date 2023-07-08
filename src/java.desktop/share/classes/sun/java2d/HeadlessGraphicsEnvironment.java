@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d;
 
-
 import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.GraphicsDevice;
@@ -31,20 +30,6 @@ import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
 import java.base.share.classes.java.util.Locale;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Headless decorator implementation of a SunGraphicsEnvironment

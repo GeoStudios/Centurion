@@ -21,25 +21,11 @@
 
 package nsk.jdb.interrupt.interrupt001;
 
-
 import nsk.share.*;
 import nsk.share.jdb.*;
 import java.io.*;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.atomic.AtomicInteger;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* This is debuggee aplication */
 public class interrupt001a {

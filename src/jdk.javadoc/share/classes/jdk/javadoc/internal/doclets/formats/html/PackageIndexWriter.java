@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-
 import java.util.*;
 import javax.lang.model.element.PackageElement;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.ContentBuilder;
@@ -32,20 +31,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFi
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPath;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPaths;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Group;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Generate the package index page "index.html".

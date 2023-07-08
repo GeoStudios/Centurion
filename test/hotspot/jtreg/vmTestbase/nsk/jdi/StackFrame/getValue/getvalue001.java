@@ -21,7 +21,6 @@
 
 package nsk.jdi.StackFrame.getValue;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -160,7 +146,6 @@ public class getvalue001 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -199,7 +184,6 @@ public class getvalue001 {
 
             int expresult = returnCode0;
 
-
             eventRManager = vm.eventRequestManager();
             eventQueue    = vm.eventQueue();
 
@@ -211,7 +195,6 @@ public class getvalue001 {
             String bpLine1 = "breakpointLineNumber1";
             //String bpLine2 = "breakpointLineNumber2";
             //String bpLine3 = "breakpointLineNumber3";
-
 
             List            allThreads   = null;
             ListIterator    listIterator = null;
@@ -306,7 +289,6 @@ public class getvalue001 {
 
                 String ini0 = "i0";
 
-
                 for ( int i3 = 0; i3 < 8; i3++) {
 
                     try {
@@ -336,7 +318,6 @@ public class getvalue001 {
 
                                 break;
 
-
                         case 1: ByteValue btv1 = null;
                                 ByteValue btv2 = null;
 
@@ -360,7 +341,6 @@ public class getvalue001 {
                                 }
 
                                 break;
-
 
                         case 2: CharValue chv1 = null;
                                 CharValue chv2 = null;
@@ -386,7 +366,6 @@ public class getvalue001 {
 
                                 break;
 
-
                         case 3: DoubleValue dbv1 = null;
                                 DoubleValue dbv2 = null;
 
@@ -410,7 +389,6 @@ public class getvalue001 {
                                 }
 
                                 break;
-
 
                         case 4: FloatValue flv1 = null;
                                 FloatValue flv2 = null;
@@ -460,7 +438,6 @@ public class getvalue001 {
 
                                 break;
 
-
                         case 6: LongValue lnv1 = null;
                                 LongValue lnv2 = null;
 
@@ -487,7 +464,6 @@ public class getvalue001 {
 
                                 break;
 
-
                         case 7: ShortValue shv1 = null;
                                 ShortValue shv2 = null;
                                 locvar1 = stackFrame.visibleVariableByName(sh1);
@@ -510,7 +486,6 @@ public class getvalue001 {
                                 }
 
                                 break;
-
 
                       default : log3("ERROR: TEST ERROR:  case: default:");
                                 expresult = returnCode1;
@@ -579,8 +554,6 @@ public class getvalue001 {
         return testExitCode;
     }
 
-
-
    /*
     * private BreakpointRequest settingBreakpoint(String, String, String)
     *
@@ -636,7 +609,6 @@ public class getvalue001 {
 
         return breakpRequest;
     }
-
 
     /*
      * private int breakpoint ()

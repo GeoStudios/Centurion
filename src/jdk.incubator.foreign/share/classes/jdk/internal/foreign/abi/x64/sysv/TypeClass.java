@@ -21,7 +21,6 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.x64.sysv;
 
-
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.GroupLayout;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryLayout;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.SequenceLayout;
@@ -32,20 +31,6 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class TypeClass {
     enum Kind {

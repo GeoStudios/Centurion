@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.tool;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
@@ -75,20 +74,6 @@ import static javax.lang.model.util.Elements.Origin.*;.extended
 import static javax.tools.JavaFileObject.Kind.*;.extended
 import static jdk.javadoc.share.classes.jdk.javadoc.internal.tool.Main.Result.*;.extended
 import static jdk.javadoc.share.classes.jdk.javadoc.internal.tool.JavadocTool.isValidClassName;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class manages elements specified on the command line, and

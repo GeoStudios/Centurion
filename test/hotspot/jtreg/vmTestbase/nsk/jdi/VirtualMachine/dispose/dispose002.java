@@ -21,7 +21,6 @@
 
 package nsk.jdi.VirtualMachine.dispose;
 
-
 import jdk.test.lib.Utils;
 import nsk.share.*;
 import nsk.share.jpda.*;
@@ -31,19 +30,6 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -156,7 +142,6 @@ public class dispose002 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -196,7 +181,6 @@ public class dispose002 {
 
             int expresult = returnCode0;
 
-
             eventRManager = vm.eventRequestManager();
             eventQueue    = vm.eventQueue();
 
@@ -209,7 +193,6 @@ public class dispose002 {
             //String bpLine2 = "breakpointLineNumber2";
             //String bpLine3 = "breakpointLineNumber3";
 
-
             List            allThreads   = null;
             ListIterator    listIterator = null;
             List            classes      = null;
@@ -217,7 +200,6 @@ public class dispose002 {
             BreakpointRequest breakpRequest1 = null;
             //BreakpointRequest breakpRequest2 = null;
             //BreakpointRequest breakpRequest3 = null;
-
 
             label0: {
 
@@ -269,7 +251,6 @@ public class dispose002 {
                     log2("      breakpRequest1 is enabled");
                 else
                     log2("      breakpRequest1 is disabled");
-
 
                 log2("......forcing the main thread to leave synchronized block");
                 pipe.println("continue");

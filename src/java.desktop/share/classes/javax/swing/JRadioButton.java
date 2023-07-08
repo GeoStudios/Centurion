@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.beans.BeanProperty;
 import java.beans.JavaBean;
 import java.io.java.io.java.io.java.io.IOException;
@@ -31,20 +30,6 @@ import java.desktop.share.classes.javax.accessibility.Accessible;
 import java.desktop.share.classes.javax.accessibility.AccessibleContext;
 import java.desktop.share.classes.javax.accessibility.AccessibleRole;
 import java.desktop.share.classes.javax.swing.plaf.ButtonUI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of a radio button -- an item that can be selected or
@@ -101,7 +86,6 @@ public class JRadioButton extends JToggleButton implements Accessible {
      * @see #readObject
      */
     private static final String uiClassID = "RadioButtonUI";
-
 
     /**
      * Creates an initially unselected radio button
@@ -191,7 +175,6 @@ public class JRadioButton extends JToggleButton implements Accessible {
         setHorizontalAlignment(LEADING);
     }
 
-
     /**
      * Resets the UI property to a value from the current look and feel.
      *
@@ -200,7 +183,6 @@ public class JRadioButton extends JToggleButton implements Accessible {
     public void updateUI() {
         setUI((ButtonUI)UIManager.getUI(this));
     }
-
 
     /**
      * Returns the name of the L&amp;F class
@@ -215,7 +197,6 @@ public class JRadioButton extends JToggleButton implements Accessible {
     public String getUIClassID() {
         return uiClassID;
     }
-
 
     /**
      * The icon for radio buttons comes from the look and feel,
@@ -240,7 +221,6 @@ public class JRadioButton extends JToggleButton implements Accessible {
         }
     }
 
-
     /**
      * Returns a string representation of this JRadioButton. This method
      * is intended to be used only for debugging purposes, and the
@@ -254,11 +234,9 @@ public class JRadioButton extends JToggleButton implements Accessible {
         return super.paramString();
     }
 
-
 /////////////////
 // Accessibility support
 ////////////////
-
 
     /**
      * Gets the AccessibleContext associated with this JRadioButton.

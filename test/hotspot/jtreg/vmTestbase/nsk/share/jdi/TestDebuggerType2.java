@@ -21,7 +21,6 @@
 
 package nsk.share.jdi;
 
-
 import java.io.*;
 import java.util.*;
 import com.sun.jdi.*;
@@ -31,19 +30,6 @@ import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.test.StressOptions;
 import nsk.share.test.Stresser;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  *  Class can be used as base debugger class in jdi tests.
@@ -300,7 +286,6 @@ public class TestDebuggerType2 {
         return breakpointEvent;
     }
 
-
     private boolean currentSuccess = false;
     protected void forceGC() {
         pipe.println(AbstractDebuggeeTest.COMMAND_FORCE_GC);
@@ -325,7 +310,6 @@ public class TestDebuggerType2 {
         }
         setSuccess(false);
     }
-
 
     protected BreakpointRequest defaultBreakpointRequest;
 

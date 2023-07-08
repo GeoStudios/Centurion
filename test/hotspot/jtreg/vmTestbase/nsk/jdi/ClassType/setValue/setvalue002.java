@@ -21,26 +21,12 @@
 
 package nsk.jdi.ClassType.setValue;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -157,7 +143,6 @@ public class setvalue002 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -195,7 +180,6 @@ public class setvalue002 {
 
             //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ variable part
 
-
             String testedclassName = mName + ".setvalue002aTestClass";
 
             ReferenceType testedclass = null;
@@ -214,7 +198,6 @@ public class setvalue002 {
 
             ClassType tClass = (ClassType) testedclass;
 
-
             ReferenceType debuggeeclass = null;
 
             log2("       getting: List classes = vm.classesByName(debuggeeName); expected size == 1");
@@ -231,9 +214,6 @@ public class setvalue002 {
 
             ClassType dClass = (ClassType) debuggeeclass;
 
-
-
-
             String bl1 = "bl1", bl2 = "bl2";
             String bt1 = "bt1", bt2 = "bt2";
             String ch1 = "ch1", ch2 = "ch2";
@@ -245,8 +225,6 @@ public class setvalue002 {
 
             Field field1 = null;
             Field field2 = null;
-
-
 
             log2("...... checking up: not static field; IllegalArgumentException is expected");
             try {
@@ -294,7 +272,6 @@ public class setvalue002 {
                 testExitCode = FAILED;
             }
 
-
             log2("...... checking up: field doesn't exist in this class; IllegalArgumentException is expected");
             try {
                 IntegerValue inv1 = null;
@@ -318,7 +295,6 @@ public class setvalue002 {
                 testExitCode = FAILED;
             }
 
-
             log2("...... checking up: no match the field's declared type; InvalidTypeException is expected");
             try {
                 ByteValue btv2 = null;
@@ -341,7 +317,6 @@ public class setvalue002 {
                 log3("ERROR: unexpected Exception: " + e2);
                 testExitCode = FAILED;
             }
-
 
             //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         }

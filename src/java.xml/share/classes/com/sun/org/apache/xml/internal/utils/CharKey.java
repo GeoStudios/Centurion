@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * Simple class for fast lookup of char values, when used with
@@ -79,8 +62,6 @@ public class CharKey {
   {
     m_char = c;
   }
-
-
 
   /**
    * Get the hash value of the character.

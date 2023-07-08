@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.posix.elf;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface ELFFile {
     /** ELF magic number. */
     byte[] ELF_MAGIC_NUMBER = { 0x7f, 'E', 'L', 'F' };

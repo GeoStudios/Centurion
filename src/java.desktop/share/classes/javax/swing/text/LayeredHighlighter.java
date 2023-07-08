@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.awt.Graphics;
 import java.awt.Shape;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *
@@ -65,7 +50,6 @@ public abstract class LayeredHighlighter implements Highlighter {
                                                 Shape viewBounds,
                                                 JTextComponent editor,
                                                 View view);
-
 
     /**
      * Layered highlight renderer.

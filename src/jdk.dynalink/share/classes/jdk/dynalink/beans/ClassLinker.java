@@ -21,25 +21,10 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.beans;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodType;
 import jdk.dynalink.share.classes.jdk.dynalink.beans.GuardedInvocationComponent.ValidationType;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.support.Lookup;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -48,8 +33,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.support.Lookup;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-
-
 
 /**
  * A linker for java.lang.Class objects. Provides a synthetic property "static" that allows access to static fields and

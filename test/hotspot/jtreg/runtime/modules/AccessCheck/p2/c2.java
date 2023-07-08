@@ -21,23 +21,7 @@
 
 package p2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Small class used by multiple hotspot/runtime/modules/AccessCheck/* tests.
-
 
 public class c2 {
     public void method2() { }

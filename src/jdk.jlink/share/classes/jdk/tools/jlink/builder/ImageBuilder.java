@@ -21,26 +21,11 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.builder;
 
-
 import java.io.DataOutputStream;
 import java.util.Properties;
 import jdk.jlink.share.classes.jdk.tools.jlink.internal.ExecutableImage;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.PluginException;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePool;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implement this interface to develop your own image layout. First the jimage

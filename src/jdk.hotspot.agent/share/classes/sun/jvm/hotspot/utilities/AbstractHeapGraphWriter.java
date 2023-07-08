@@ -21,27 +21,12 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
-
 import java.io.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared.OopStorage;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.memory.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is abstract base class for heap graph writers. This class does

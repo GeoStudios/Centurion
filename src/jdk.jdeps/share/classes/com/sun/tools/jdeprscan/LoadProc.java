@@ -21,7 +21,6 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.jdeprscan;
 
-
 import java.lang.annotation.IncompleteAnnotationException;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
@@ -44,20 +43,6 @@ import javax.lang.model.type.ExecutableType;
 import javax.lang.model.type.TypeMirror;
 import javax.lang.model.util.Elements;
 import javax.tools.Diagnostic;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Annotation processor for the Deprecation Scanner tool.

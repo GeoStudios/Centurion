@@ -21,7 +21,6 @@
 
 package jdk.incubator.foreign.share.classes.jdk.incubator.foreign;
 
-
 import jdk.incubator.foreign.share.classes.jdk.internal.foreign.LayoutPath;
 import jdk.incubator.foreign.share.classes.jdk.internal.foreign.LayoutPath.PathElementImpl.PathKind;
 import jdk.incubator.foreign.share.classes.jdk.internal.foreign.Utils;
@@ -40,20 +39,6 @@ import java.util.function.Function;
 import java.util.function.UnaryOperator;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A memory layout can be used to describe the contents of a memory segment in a <em>language neutral</em> fashion.
@@ -544,7 +529,6 @@ public sealed interface MemoryLayout extends Constable permits AbstractLayout, S
         return computePathOp(LayoutPath.rootPath(this, MemoryLayout::bitSize), LayoutPath::sliceHandle,
                 Set.of(), elements);
     }
-
 
     /**
      * Selects the layout from a path rooted in this layout.

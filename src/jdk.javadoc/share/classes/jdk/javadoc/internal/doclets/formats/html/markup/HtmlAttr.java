@@ -21,22 +21,7 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup;
 
-
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Enum representing HTML tag attributes.

@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.AWTException;
 import java.awt.Component;
 import java.awt.Container;
@@ -31,20 +30,6 @@ import java.awt.peer.ComponentPeer;
 import java.desktop.unix.classes.sun.awt.AWTAccessor;
 import java.desktop.unix.classes.sun.awt.X11InputMethod;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Input Method Adapter for XIM (without Motif)
@@ -79,7 +64,6 @@ public class XInputMethod extends X11InputMethod {
         }
         return createXICNative(peer.getContentWindow());
     }
-
 
     private static volatile long xicFocus = 0;
 

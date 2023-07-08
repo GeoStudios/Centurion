@@ -21,7 +21,6 @@
 
 package nsk.jdi.EventRequest.suspendPolicy;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -111,7 +97,6 @@ public class suspendpolicy001 extends JDIBase {
 
     private String testedClassName =
        "nsk.jdi.EventRequest.suspendPolicy.TestClass11";
-
 
     //====================================================== test program
 
@@ -201,7 +186,6 @@ public class suspendpolicy001 extends JDIBase {
         return testExitCode;
     }
 
-
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -264,7 +248,6 @@ public class suspendpolicy001 extends JDIBase {
 
     //------------------------------------------------------  testing section
 
-
         EventRequest  eventRequest1 = null;
 
         String        fieldName1    = "var101";
@@ -278,7 +261,6 @@ public class suspendpolicy001 extends JDIBase {
         String propertyName   = "name";
         String propertyValue1 = "value1";
         String propertyValue2 = "value2";
-
 
         log1("     TESTING BEGINS");
 
@@ -298,7 +280,6 @@ public class suspendpolicy001 extends JDIBase {
             log1(":::::: case: # " + i);
 
             //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ variable part
-
 
             switch (i) {
 
@@ -371,7 +352,6 @@ public class suspendpolicy001 extends JDIBase {
                      log2(".....setting up BreakpointRequest");
                      eventRequest1 = eventRManager.createBreakpointRequest(breakpLocation);
                      break;
-
 
               default:
                       throw new JDITestRuntimeException("** default case 2 **");

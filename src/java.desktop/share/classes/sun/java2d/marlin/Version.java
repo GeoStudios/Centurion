@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.marlin;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public final class Version {
 
     private static final String VERSION = "marlin-0.9.1.4-Unsafe-OpenJDK";

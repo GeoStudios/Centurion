@@ -21,30 +21,13 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.util;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Utility class that implements a sequence of bytes which can be read
@@ -56,17 +39,14 @@ public final class ByteSequence extends DataInputStream {
 
     private final ByteArrayStream byteStream;
 
-
     public ByteSequence(final byte[] bytes) {
         super(new ByteArrayStream(bytes));
         byteStream = (ByteArrayStream) in;
     }
 
-
     public int getIndex() {
         return byteStream.getPosition();
     }
-
 
     void unreadByte() {
         byteStream.unreadByte();

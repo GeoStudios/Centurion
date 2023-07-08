@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.module;
 
-
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.FileSystem;
@@ -29,20 +28,6 @@ import java.nio.file.Files;
 import java.nio.file.NoSuchFileException;
 import java.nio.file.Path;
 import java.nio.file.attribute.BasicFileAttributes;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A helper class to support working with resources in modules. Also provides
