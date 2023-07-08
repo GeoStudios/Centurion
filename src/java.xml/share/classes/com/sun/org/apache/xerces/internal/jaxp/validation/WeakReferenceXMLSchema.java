@@ -21,23 +21,8 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.validation;
 
-
 import java.lang.ref.WeakReference;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarPool;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>An implementation of Schema for W3C XML Schemas

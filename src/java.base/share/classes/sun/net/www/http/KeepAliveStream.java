@@ -21,25 +21,10 @@
 
 package java.base.share.classes.sun.net.www.http;
 
-
 import java.io.*;
 import java.base.share.classes.sun.net.ProgressSource;
 import java.base.share.classes.sun.net.www.MeteredStream;
 import jdk.internal.misc.InnocuousThread;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A stream that has the property of being able to be kept alive for

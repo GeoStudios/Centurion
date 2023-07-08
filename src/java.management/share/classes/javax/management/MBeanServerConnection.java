@@ -21,26 +21,10 @@
 
 package java.management.share.classes.javax.management;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Set;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // java import
-
 
 /**
  * This interface represents a way to talk to an MBean server, whether
@@ -200,7 +184,6 @@ public interface MBeanServerConnection {
             MBeanException,
                    NotCompliantMBeanException, InstanceNotFoundException,
                    IOException;
-
 
     /**
      * Instantiates and registers an MBean in the MBean server.  The
@@ -473,8 +456,6 @@ public interface MBeanServerConnection {
     Set<ObjectName> queryNames(ObjectName name, QueryExp query)
             throws IOException;
 
-
-
     /**
      * Checks whether an MBean, identified by its object name, is
      * already registered with the MBean server.
@@ -492,7 +473,6 @@ public interface MBeanServerConnection {
      */
     boolean isRegistered(ObjectName name)
             throws IOException;
-
 
     /**
      * Returns the number of MBeans registered in the MBean server.
@@ -538,7 +518,6 @@ public interface MBeanServerConnection {
             throws MBeanException, AttributeNotFoundException,
                    InstanceNotFoundException, ReflectionException,
                    IOException;
-
 
     /**
      * <p>Retrieves the values of several attributes of a named MBean. The MBean
@@ -589,7 +568,6 @@ public interface MBeanServerConnection {
             throws InstanceNotFoundException, ReflectionException,
                    IOException;
 
-
     /**
      * Sets the value of a specific attribute of a named MBean. The MBean
      * is identified by its object name.
@@ -623,7 +601,6 @@ public interface MBeanServerConnection {
             throws InstanceNotFoundException, AttributeNotFoundException,
                    InvalidAttributeValueException, MBeanException,
                    ReflectionException, IOException;
-
 
     /**
      * <p>Sets the values of several attributes of a named MBean. The MBean is
@@ -747,8 +724,6 @@ public interface MBeanServerConnection {
             throws InstanceNotFoundException, MBeanException,
                    ReflectionException, IOException;
 
-
-
     /**
      * Returns the default domain used for naming the MBean.
      * The default domain name is used as the domain part in the ObjectName
@@ -807,7 +782,6 @@ public interface MBeanServerConnection {
                                         Object handback)
             throws InstanceNotFoundException, IOException;
 
-
     /**
      * <p>Adds a listener to a registered MBean.</p>
      *
@@ -850,7 +824,6 @@ public interface MBeanServerConnection {
                                         NotificationFilter filter,
                                         Object handback)
             throws InstanceNotFoundException, IOException;
-
 
     /**
      * Removes a listener from a registered MBean.
@@ -916,7 +889,6 @@ public interface MBeanServerConnection {
                                            Object handback)
             throws InstanceNotFoundException, ListenerNotFoundException,
                    IOException;
-
 
     /**
      * <p>Removes a listener from a registered MBean.</p>
@@ -1004,7 +976,6 @@ public interface MBeanServerConnection {
     MBeanInfo getMBeanInfo(ObjectName name)
             throws InstanceNotFoundException, IntrospectionException,
                    ReflectionException, IOException;
-
 
     /**
      * <p>Returns true if the MBean specified is an instance of the

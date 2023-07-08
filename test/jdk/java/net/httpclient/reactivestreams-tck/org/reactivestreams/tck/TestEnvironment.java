@@ -21,7 +21,6 @@
 
 package org.reactivestreams.tck;
 
-
 import org.reactivestreams.Publisher;
 import org.reactivestreams.Subscriber;
 import org.reactivestreams.Subscription;
@@ -39,19 +38,6 @@ import static java.util.concurrent.TimeUnit.MILLISECONDS;.extended
 import static java.util.concurrent.TimeUnit.NANOSECONDS;.extended
 import static org.testng.Assert.assertTrue;.extended
 import static org.testng.Assert.fail;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class TestEnvironment {
   public static final int TEST_BUFFER_SIZE = 16;
@@ -315,8 +301,6 @@ public class TestEnvironment {
     }
     return null; // unreachable, the previous block will always exit by throwing
   }
-
-
 
   public <T> void subscribe(Publisher<T> pub, TestSubscriber<T> sub) throws InterruptedException {
     subscribe(pub, sub, defaultTimeoutMillis);
@@ -875,7 +859,6 @@ public class TestEnvironment {
       }
     }
 
-
     public long expectRequest(long timeoutMillis, String errorMessageAddendum) throws InterruptedException {
       long requested = requests.next(timeoutMillis, String.format("Did not receive expected `request` call. %s", errorMessageAddendum));
       if (requested <= 0) {
@@ -1108,7 +1091,6 @@ public class TestEnvironment {
 
       return result;
     }
-
 
     public void expectCompletion(long timeoutMillis, String errorMsg) throws InterruptedException {
       Optional<T> value = abq.poll(timeoutMillis, TimeUnit.MILLISECONDS);

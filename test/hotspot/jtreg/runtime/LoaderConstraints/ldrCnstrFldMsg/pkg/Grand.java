@@ -21,21 +21,6 @@
 
 package pkg;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Grand {
     public static Foo _field1;
 }

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time;
 
-
 import static java.base.share.classes.java.time.LocalTime.HOURS_PER_DAY;.extended
 import static java.base.share.classes.java.time.LocalTime.MICROS_PER_DAY;.extended
 import static java.base.share.classes.java.time.LocalTime.MILLIS_PER_DAY;.extended
@@ -55,20 +54,6 @@ import java.base.share.classes.java.time.temporal.UnsupportedTemporalTypeExcepti
 import java.base.share.classes.java.time.temporal.ValueRange;
 import java.base.share.classes.java.time.zone.ZoneRules;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A date-time without a time-zone in the ISO-8601 calendar system,

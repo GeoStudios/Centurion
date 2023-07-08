@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.event;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * <code>RowSorterListener</code>s are notified of changes to a
  * <code>RowSorter</code>.

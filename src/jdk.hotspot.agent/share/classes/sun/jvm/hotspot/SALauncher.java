@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -34,20 +33,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.JStack;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.JMap;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.JInfo;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.JSnap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class SALauncher {
 

@@ -21,23 +21,9 @@
 
 package nsk.jvmti.RetransformClasses;
 
-
 import nsk.share.Consts;
 import java.io.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class retransform003 {
     static final String LOADED_CLASS = "nsk.share.jvmti.RetransformClasses.LinearHierarchy.Class1";

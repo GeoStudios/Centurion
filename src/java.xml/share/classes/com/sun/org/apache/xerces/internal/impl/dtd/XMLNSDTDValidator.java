@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLSymbols;
@@ -31,27 +30,10 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XMLAttributes;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIException;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * The DTD validator. The validator implements a document
@@ -87,7 +69,6 @@ public class XMLNSDTDValidator
 
     /** Attribute QName. */
     private final QName fAttributeQName = new QName();
-
 
     /** Bind namespaces */
     protected final void startNamespaceScope (QName element, XMLAttributes attributes,
@@ -226,9 +207,7 @@ public class XMLNSDTDValidator
             }
         }
 
-
     } // startNamespaceScope(QName,XMLAttributes)
-
 
     /** Handles end element. */
     protected void endNamespaceScope(QName element, Augmentations augs, boolean isEmpty)

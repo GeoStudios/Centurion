@@ -21,24 +21,10 @@
 
 package jdk.test.lib.jittester.factories;
 
-
 import jdk.test.lib.jittester.ProductionFailedException;
 import jdk.test.lib.jittester.Type;
 import jdk.test.lib.jittester.functions.Return;
 import jdk.test.lib.jittester.types.TypeKlass;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class ReturnFactory extends SafeFactory<Return> {
     private final long complexityLimit;

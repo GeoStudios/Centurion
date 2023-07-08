@@ -21,7 +21,6 @@
 
 package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11;
 
-
 import java.util.*;
 import java.base.share.classes.java.security.ProviderException;
 import jdk.crypto.cryptoki.share.classes.sun.security.util.Debug;
@@ -29,20 +28,6 @@ import jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.*;
 import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Constants.*;.extended
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.atomic.AtomicInteger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Session manager. There is one session manager object per PKCS#11

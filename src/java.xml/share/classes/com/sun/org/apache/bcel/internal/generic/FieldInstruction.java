@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ConstantPool;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Super class for the GET/PUTxxx family of instructions.
@@ -58,14 +41,12 @@ public abstract class FieldInstruction extends FieldOrMethod {
     FieldInstruction() {
     }
 
-
     /**
      * @param index to constant pool
      */
     protected FieldInstruction(final short opcode, final int index) {
         super(opcode, index);
     }
-
 
     /**
      * @return mnemonic for instruction with symbolic references resolved
@@ -76,13 +57,11 @@ public abstract class FieldInstruction extends FieldOrMethod {
                 + cp.constantToString(super.getIndex(), com.sun.org.apache.bcel.internal.Const.CONSTANT_Fieldref);
     }
 
-
     /** @return size of field (1 or 2)
      */
     protected int getFieldSize( final ConstantPoolGen cpg ) {
         return Type.size(Type.getTypeSize(getSignature(cpg)));
     }
-
 
     /** @return return type of referenced field
      */
@@ -91,13 +70,11 @@ public abstract class FieldInstruction extends FieldOrMethod {
         return getFieldType(cpg);
     }
 
-
     /** @return type of field
      */
     public Type getFieldType( final ConstantPoolGen cpg ) {
         return Type.getType(getSignature(cpg));
     }
-
 
     /** @return name of referenced field.
      */

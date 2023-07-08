@@ -21,22 +21,8 @@
 
 package nsk.jvmti.unit.timers;
 
-
 import java.io.PrintStream;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class JvmtiTest {
 

@@ -21,21 +21,7 @@
 
 package compiler.intrinsics.sha.sanity;
 
-
 import compiler.testlibrary.sha.predicate.IntrinsicPredicates;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -69,8 +55,6 @@ import compiler.testlibrary.sha.predicate.IntrinsicPredicates;
  * @run main/othervm -DverificationStrategy=VERIFY_INTRINSIC_USAGE
  *                   compiler.testlibrary.intrinsics.Verifier positive.log negative.log
  */
-
-
 
 public class TestMD5Intrinsics {
     public static void main(String args[]) throws Exception {

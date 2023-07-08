@@ -21,30 +21,15 @@
 
 package test.java.lang.invoke;
 
-
 import java.lang.invoke.*;
 import org.junit.*;
 import static org.junit.Assert.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
  * @bug 8027823
  * @run junit test.java.lang.invoke.TestCatchException
  */
-
 
 public class TestCatchException {
     static final MethodHandles.Lookup LOOKUP = MethodHandles.lookup();

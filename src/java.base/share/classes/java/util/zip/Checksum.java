@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.util.zip;
 
-
 import java.base.share.classes.java.nio.ByteBuffer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An interface representing a data checksum.

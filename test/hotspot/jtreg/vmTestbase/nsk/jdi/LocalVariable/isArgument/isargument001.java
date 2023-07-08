@@ -21,26 +21,12 @@
 
 package nsk.jdi.LocalVariable.isArgument;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -195,7 +181,6 @@ public class isargument001 {
 
             Method testMethod = (Method) methods.get(0);
 
-
             String names[] = { "bl1", "bt1", "ch1", "db1",
                                "fl1", "in1", "ln1", "sh1",
                                "class2", "iface", "cfc", "param"  };
@@ -282,7 +267,6 @@ public class isargument001 {
                         }
                         break;
 
-
                 case 8:                 // ClassType
                         if (lVar.isArgument()) {
                             testExitCode = FAILED;
@@ -304,14 +288,12 @@ public class isargument001 {
                         }
                         break;
 
-
                 case 11:                // argument
                         if (!lVar.isArgument()) {
                             testExitCode = FAILED;
                             log3("ERROR: !lVar.isArgument for 'param'");
                         }
                         break;
-
 
                 default: expresult = 2;
                          break ;

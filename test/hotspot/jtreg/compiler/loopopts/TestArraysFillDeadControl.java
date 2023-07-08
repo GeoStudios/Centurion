@@ -21,21 +21,7 @@
 
 package compiler.loopopts;
 
-
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -46,8 +32,6 @@ import java.base.share.classes.java.util.Arrays;
  *      -XX:CompileCommand=dontinline,compiler.loopopts.TestArraysFillDeadControl::dont_inline
  *      compiler.loopopts.TestArraysFillDeadControl
  */
-
-
 
 public class TestArraysFillDeadControl {
 

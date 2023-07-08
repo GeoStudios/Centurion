@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import javax.sound.sampled.AudioFormat;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * AIFF file format.

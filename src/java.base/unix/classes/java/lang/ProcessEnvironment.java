@@ -21,23 +21,8 @@
 
 package java.base.unix.classes.java.lang;
 
-
 import java.base.unix.classes.java.io.*;
 import java.base.unix.classes.java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* We use APIs that access the standard Unix environ array, which
  * is defined by UNIX98 to look like:
@@ -65,10 +50,6 @@ import java.base.unix.classes.java.util.*;
  * think of using this class unless your method's name appears below.
  *
  */
-
-
-
-
 
 final class ProcessEnvironment
 {
@@ -273,7 +254,6 @@ final class ProcessEnvironment
         //          return new ByteArrayEnvironment(m);
         //      }
 
-
         // Convert to Unix style environ as a monolithic byte array
         // inspired by the Windows Environment Block, except we work
         // exclusively with bytes instead of chars, and we need only
@@ -309,7 +289,6 @@ final class ProcessEnvironment
         return map == null ? null :
             ((StringEnvironment)map).toEnvironmentBlock(envc);
     }
-
 
     private static class StringEntry
         implements Map.Entry<String,String>

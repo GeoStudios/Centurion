@@ -21,23 +21,7 @@
 
 package nsk.jdi.ReferenceType.allMethods;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // this class will be loaded and then onloaded to check
 // the allMethods() method of ReferenceType interface for UNLOADED class
-
 
 class allmethods003b {}

@@ -21,21 +21,6 @@
 
 package compiler.testlibrary.rtm;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Interface for test scenarios that contain methods
  * that should be compiled.

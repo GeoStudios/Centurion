@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.tree;
 
-
 import java.beans.PropertyChangejava.util.Listener;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InvalidObjectException;
@@ -41,20 +40,6 @@ import java.desktop.share.classes.javax.swing.event.Eventjava.util.Listenerjava.
 import java.desktop.share.classes.javax.swing.event.SwingPropertyChangeSupport;
 import java.desktop.share.classes.javax.swing.event.TreeSelectionEvent;
 import java.desktop.share.classes.javax.swing.event.TreeSelectionjava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Default implementation of TreeSelectionModel.  Listeners are notified
@@ -120,7 +105,6 @@ public class DefaultTreeSelectionModel implements Cloneable, Serializable, TreeS
     private Hashtable<TreePath, Boolean>    uniquePaths;
     private Hashtable<TreePath, Boolean>    lastPaths;
     private TreePath[]                      tempPaths;
-
 
     /**
      * Creates a new instance of DefaultTreeSelectionModel that is
@@ -1161,7 +1145,6 @@ public class DefaultTreeSelectionModel implements Cloneable, Serializable, TreeS
     protected void insureUniqueness() {
     }
 
-
     /**
      * Returns a string that displays and identifies this
      * object's properties.
@@ -1233,7 +1216,6 @@ public class DefaultTreeSelectionModel implements Cloneable, Serializable, TreeS
             tValues = new Object[0];
         s.writeObject(tValues);
     }
-
 
     @Serial
     private void readObject(ObjectInputStream s)

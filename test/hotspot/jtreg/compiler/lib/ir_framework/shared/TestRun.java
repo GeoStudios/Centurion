@@ -21,21 +21,6 @@
 
 package compiler.lib.ir_framework.shared;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Utility class to report a {@link TestRunException}.
  */

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.beans.decoder;
 
-
 import java.desktop.share.classes.com.sun.beans.finder.MethodFinder;
 import java.beans.IndexedPropertyDescriptor;
 import java.beans.IntrospectionException;
@@ -31,20 +30,6 @@ import java.lang.reflect.Array;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.desktop.share.classes.com.sun.reflect.misc.MethodUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is intended to handle &lt;property&gt; element.

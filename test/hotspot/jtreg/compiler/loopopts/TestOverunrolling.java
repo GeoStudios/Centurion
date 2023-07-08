@@ -21,21 +21,6 @@
 
 package compiler.loopopts;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8159016 8202949 8203915
@@ -46,7 +31,6 @@ package compiler.loopopts;
  *                   -XX:-UseCountedLoopSafepoints -XX:LoopUnrollLimit=250
  *                   -XX:-UseG1GC -XX:+UseParallelGC compiler.loopopts.TestOverunrolling
  */
-
 
 public class TestOverunrolling {
 

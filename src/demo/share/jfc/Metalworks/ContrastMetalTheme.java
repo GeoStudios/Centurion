@@ -21,7 +21,6 @@
 
 package demo.share.jfc.Metalworks;
 
-
 import javax.swing.UIDefaults;
 import javax.swing.border.Border;
 import javax.swing.border.CompoundBorder;
@@ -31,20 +30,6 @@ import javax.swing.plaf.ColorUIResource;
 import javax.swing.plaf.basic.BasicBorders;
 import javax.swing.plaf.metal.DefaultMetalTheme;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -52,10 +37,6 @@ import javax.swing.plaf.metal.DefaultMetalTheme;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
 
 /**
  * This class describes a higher-contrast Metal Theme.
@@ -168,7 +149,6 @@ public class ContrastMetalTheme extends DefaultMetalTheme {
         table.put("PasswordField.border", textBorder);
         table.put("TextArea.border", textBorder);
         table.put("TextPane.font", textBorder);
-
 
     }
 }

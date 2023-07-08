@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.tree;
 
-
 import jdk.compiler.share.classes.com.sun.source.tree.*;
 import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy;
@@ -29,20 +28,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.ListBuffer;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Creates a copy of a tree, using a given TreeMaker.

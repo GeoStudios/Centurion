@@ -21,22 +21,8 @@
 
 package invokespecial;
 
-
 import jdk.internal.org.objectweb.asm.Opcodes;
 import shared.GenericClassGenerator;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*******************************************************************/
 class ClassGenerator extends GenericClassGenerator<ClassGenerator> {

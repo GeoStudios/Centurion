@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-
 import java.util.*;
 import javax.lang.model.element.TypeElement;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.HtmlStyle;
@@ -30,20 +29,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.marku
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.ClassTree;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPath;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Abstract class to print the class hierarchy page for all the Classes. This

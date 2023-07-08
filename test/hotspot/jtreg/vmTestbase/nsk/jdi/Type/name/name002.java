@@ -21,26 +21,12 @@
 
 package nsk.jdi.Type.name;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -265,7 +251,6 @@ public class name002 {
                             log3("ERROR: !ifacefieldTypeName.equals(namePrefix + '.InterfaceForCheck')");
                         }
                         break;
-
 
                 default: expresult = 2;
                          break ;

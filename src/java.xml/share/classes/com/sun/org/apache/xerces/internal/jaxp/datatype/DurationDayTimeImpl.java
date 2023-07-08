@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.datatype;
 
-
 import java.math.BigInteger;
 import java.math.BigDecimal;
 import javax.xml.datatype.DatatypeConstants;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Represent a subtype <code>xdt:dayTimeDuration</code> of a <code>Duration</code>
@@ -162,7 +147,6 @@ class DurationDayTimeImpl
             years = null;
             months = null;
     }
-
 
     /**
      * The value space of xs:dayTimeDuration is the set of fractional second values.

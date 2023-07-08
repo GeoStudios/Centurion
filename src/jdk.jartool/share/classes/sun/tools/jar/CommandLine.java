@@ -21,7 +21,6 @@
 
 package jdk.jartool.share.classes.sun.tools.jar;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Reader;
 import java.io.FileReader;
@@ -29,20 +28,6 @@ import java.io.BufferedReader;
 import java.io.StreamTokenizer;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Arrayjava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Various utility methods for processing Java tool command line arguments.

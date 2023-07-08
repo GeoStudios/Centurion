@@ -21,7 +21,6 @@
 
 package test.gaptest;
 
-
 import static javax.xml.transform.OutputKeys.ENCODING;.extended
 import static javax.xml.transform.OutputKeys.INDENT;.extended
 import static org.testng.Assert.assertEquals;.extended
@@ -32,19 +31,6 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamSource;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -96,6 +82,5 @@ public class Bug4512806 {
             + "     Hello World! \n"
             + "   </xsl:template>\n"
             + "</xsl:stylesheet>";
-
 
 }

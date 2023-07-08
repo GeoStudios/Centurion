@@ -21,24 +21,9 @@
 
 package java.base.share.classes.sun.security.x509;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.sun.security.util.DerValue;
 import java.base.share.classes.sun.security.util.DerOutputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class defines the X400Address of the GeneralName choice.

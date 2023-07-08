@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.nio.file;
 
-
 import java.base.share.classes.java.nio.file.spi.FileSystemProvider;
 import java.base.share.classes.java.net.URI;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
@@ -34,20 +33,6 @@ import java.base.share.classes.java.util.ServiceConfigurationError;
 import java.base.share.classes.java.util.ServiceLoader;
 import jdk.internal.misc.VM;
 import sun.nio.fs.DefaultFileSystemProvider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Factory methods for file systems. This class defines the {@link #getDefault

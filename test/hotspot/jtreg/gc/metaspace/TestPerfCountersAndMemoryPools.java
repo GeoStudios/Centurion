@@ -21,25 +21,11 @@
 
 package gc.metaspace;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.lang.management.*;
 import jdk.test.lib.Platform;
 import static jdk.test.lib.Asserts.*;.extended
 import gc.testlibrary.PerfCounters;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* @test TestPerfCountersAndMemoryPools
  * @bug 8023476

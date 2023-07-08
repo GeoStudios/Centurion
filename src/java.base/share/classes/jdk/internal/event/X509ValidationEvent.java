@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.event;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Event recording details of X.509 Certificate serial numbers
  * used in X509 cert path validation.

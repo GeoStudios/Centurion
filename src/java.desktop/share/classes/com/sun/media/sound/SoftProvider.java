@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import java.base.share.classes.java.util.Objects;
 import javax.sound.midi.MidiDevice;
 import javax.sound.midi.spi.MidiDeviceProvider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Software synthesizer provider class.

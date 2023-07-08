@@ -21,22 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.linux;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class LinuxAddress implements Address {
     protected LinuxDebugger debugger;
@@ -308,7 +293,6 @@ public class LinuxAddress implements Address {
   long getValue() {
     return addr;
   }
-
 
   private static void check(boolean arg, String failMessage) {
     if (!arg) {

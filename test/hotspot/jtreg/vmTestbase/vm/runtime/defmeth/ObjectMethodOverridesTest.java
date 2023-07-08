@@ -21,7 +21,6 @@
 
 package vm.runtime.defmeth;
 
-
 import java.util.Set;
 import nsk.share.TestFailure;
 import vm.runtime.defmeth.shared.DefMethTest;
@@ -30,19 +29,6 @@ import vm.runtime.defmeth.shared.data.method.body.*;
 import vm.runtime.defmeth.shared.builder.TestBuilder;
 import static vm.runtime.defmeth.shared.ExecutionMode.*;.extended
 import static vm.runtime.defmeth.shared.data.method.body.CallMethod.IndexbyteOp.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -59,9 +45,6 @@ import static vm.runtime.defmeth.shared.data.method.body.CallMethod.IndexbyteOp.
  *      -javaagent:retransform.jar
  *      vm.runtime.defmeth.ObjectMethodOverridesTest
  */
-
-
-
 
 /**
  * Test that default methods don't override methods inherited from Object class.
@@ -169,7 +152,6 @@ public class ObjectMethodOverridesTest extends DefMethTest {
                 .ignoreResult()
                 .done();
     }
-
 
     /* final void notify() */
     public void testNotify(TestBuilder b) throws Exception {

@@ -21,23 +21,8 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VMObject;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // The class for an int field simply provides access to the value.
 public class IntField extends Field {

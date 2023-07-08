@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util;
 
-
 import java.base.share.classes.java.io.BufferedReader;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.InputStream;
@@ -51,20 +50,6 @@ import jdk.internal.module.ServicesCatalog;
 import jdk.internal.module.ServicesCatalog.ServiceProvider;
 import jdk.internal.reflect.CallerSensitive;
 import jdk.internal.reflect.Reflection;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A facility to load implementations of a service.

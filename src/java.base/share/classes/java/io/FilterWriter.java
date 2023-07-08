@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.io;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Abstract class for writing filtered character streams.
  * The abstract class {@code FilterWriter} itself

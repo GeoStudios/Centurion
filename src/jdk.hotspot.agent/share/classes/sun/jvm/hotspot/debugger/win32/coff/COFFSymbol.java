@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface COFFSymbol {
   /** Offset within the file of this record. (FIXME: Now that we have
       the auxiliary records exposed, it may not be necessary to expose

@@ -21,22 +21,8 @@
 
 package compiler.tiered;
 
-
 import compiler.whitebox.CompilerWhiteBoxTest;
 import jtreg.SkippedException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test TieredLevelsTest
@@ -52,8 +38,6 @@ import jtreg.SkippedException;
  *                   -XX:CompileCommand=compileonly,compiler.whitebox.SimpleTestCaseHelper::*
  *                   compiler.tiered.TieredLevelsTest
  */
-
-
 
 public class TieredLevelsTest extends CompLevelsTest {
     public static void main(String[] args) throws Throwable {

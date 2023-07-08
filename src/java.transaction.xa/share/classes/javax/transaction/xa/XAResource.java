@@ -21,22 +21,6 @@
 
 package java.transaction.xa.share.classes.javax.transaction.xa;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The XAResource interface is a Java mapping of the industry standard
  * XA interface based on the X/Open CAE Specification (Distributed

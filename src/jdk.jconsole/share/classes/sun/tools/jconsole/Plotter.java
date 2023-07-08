@@ -21,7 +21,6 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.*;
@@ -36,20 +35,6 @@ import javax.swing.filechooser.FileFilter;
 import com.sun.tools.jconsole.JConsoleContext;
 import static jdk.jconsole.share.classes.sun.tools.jconsole.Formatter.*;.extended
 import static jdk.jconsole.share.classes.sun.tools.jconsole.ProxyClient.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("serial")
 public class Plotter extends JComponent
@@ -96,7 +81,6 @@ public class Plotter extends JComponent
         366 * 24 * 60,
         -1
     };
-
 
     static final long SECOND = 1000;
     static final long MINUTE = 60 * SECOND;
@@ -359,7 +343,6 @@ public class Plotter extends JComponent
                              bg.getGreen() > 200 &&
                              bg.getBlue() > 200);
 
-
         ((Graphics2D)g).setRenderingHint(RenderingHints.KEY_ANTIALIASING,
                                          RenderingHints.VALUE_ANTIALIAS_ON);
 
@@ -440,7 +423,6 @@ public class Plotter extends JComponent
                 vMin = normalizeMin(vMin);
             }
         }
-
 
         g.setColor(fg);
 
@@ -841,7 +823,6 @@ public class Plotter extends JComponent
         return a2;
     }
 
-
     private static class TimeStamps {
         // Time stamps (long) are split into offsets (long) and a
         // series of times from the offsets (int). A new offset is
@@ -980,7 +961,6 @@ public class Plotter extends JComponent
         Sequence seq = getSequence(key);
         return (seq != null && seq.size > 0) ? seq.value(seq.size - 1) : 0L;
     }
-
 
     // Called on EDT
     public void propertyChange(PropertyChangeEvent ev) {

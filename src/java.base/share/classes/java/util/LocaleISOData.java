@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class LocaleISOData {
     /**
      * The 2- and 3-letter ISO 639 language codes.

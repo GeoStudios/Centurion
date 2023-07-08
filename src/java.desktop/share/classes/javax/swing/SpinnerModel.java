@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.event.*;
 import java.desktop.share.classes.javax.swing.event.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A model for a potentially unbounded sequence of object values.  This model
@@ -85,7 +70,6 @@ public interface SpinnerModel
      */
     Object getValue();
 
-
     /**
      * Changes current value of the model, typically this value is displayed
      * by the <code>editor</code> part of a  <code>JSpinner</code>.
@@ -102,7 +86,6 @@ public interface SpinnerModel
      */
     void setValue(Object value);
 
-
     /**
      * Return the object in the sequence that comes after the object returned
      * by <code>getValue()</code>. If the end of the sequence has been reached
@@ -113,7 +96,6 @@ public interface SpinnerModel
      * @see #getPreviousValue
      */
     Object getNextValue();
-
 
     /**
      * Return the object in the sequence that comes before the object returned
@@ -126,7 +108,6 @@ public interface SpinnerModel
      */
     Object getPreviousValue();
 
-
     /**
      * Adds a <code>ChangeListener</code> to the model's listener list.  The
      * <code>ChangeListeners</code> must be notified when models <code>value</code>
@@ -136,7 +117,6 @@ public interface SpinnerModel
      * @see #removeChangeListener
      */
     void addChangeListener(ChangeListener l);
-
 
     /**
      * Removes a <code>ChangeListener</code> from the model's listener list.

@@ -21,7 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Lines;
 
-
 import static java.awt.Color.BLACK;.extended
 import static java.awt.Color.GRAY;.extended
 import static java.awt.Color.LIGHT_GRAY;.extended
@@ -37,20 +36,6 @@ import java.awt.geom.Line2D;
 import java.awt.geom.PathIterator;
 import java.awt.geom.Point2D;
 import demo.share.jfc.J2Ddemo.java2d.AnimatingSurface;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Lines & Paths animation illustrating BasicStroke attributes.

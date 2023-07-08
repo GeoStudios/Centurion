@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.c14n.implementations;
 
-
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -32,27 +31,10 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Attr;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * An XmlAttrStack that is shared between the Canonical XML 1.0 and 1.1 implementations.

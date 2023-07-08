@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ExecutableElement;
 import javax.lang.model.element.TypeElement;
@@ -32,20 +31,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.marku
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.links.LinkInfo;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  <p><b>This is NOT part of any supported API.

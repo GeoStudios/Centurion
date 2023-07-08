@@ -21,27 +21,12 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
-
 import java.naming.share.classes.com.sun.jndi.toolkit.ctx.Continuation;
 import java.util.NoSuchElementException;
 import java.util.Vector;
 import javax.naming.*;
 import javax.naming.directory.Attributes;
 import javax.naming.ldap.Control;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Basic enumeration for NameClassPair, Binding, and SearchResults.

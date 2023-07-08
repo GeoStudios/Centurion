@@ -21,7 +21,6 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.hotspot.amd64;
 
-
 import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.amd64.AMD64.r12;.extended
 import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.amd64.AMD64.r15;.extended
 import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.amd64.AMD64.r8;.extended
@@ -62,20 +61,6 @@ import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.me
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.meta.PlatformKind;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.meta.Value;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.amd64.src.jdk.vm.ci.meta.ValueKind;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AMD64HotSpotRegisterConfig implements RegisterConfig {
 

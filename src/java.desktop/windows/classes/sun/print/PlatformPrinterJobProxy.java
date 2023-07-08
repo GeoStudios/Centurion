@@ -21,22 +21,7 @@
 
 package java.desktop.windows.classes.sun.print;
 
-
 import java.awt.print.PrinterJob;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class PlatformPrinterJobProxy {
 
@@ -44,5 +29,4 @@ public class PlatformPrinterJobProxy {
        return new sun.awt.windows.WPrinterJob();
    }
 }
-
 

@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.XSObjectjava.util.ListImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSConstants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSNamespaceItem;
@@ -29,26 +28,10 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObjectjava
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSParticle;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSTerm;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Store schema particle declaration.

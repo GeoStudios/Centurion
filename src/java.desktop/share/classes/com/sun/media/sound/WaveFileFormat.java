@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import javax.sound.sampled.AudioFileFormat;
 import javax.sound.sampled.AudioFormat;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * WAVE file format class.

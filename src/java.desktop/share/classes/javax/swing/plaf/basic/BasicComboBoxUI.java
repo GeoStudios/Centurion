@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.desktop.share.classes.javax.swing.*;
@@ -35,20 +34,6 @@ import sun.awt.AppContext;
 import sun.swing.DefaultLookup;
 import sun.swing.SwingUtilities2;
 import sun.swing.UIAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Basic UI implementation for JComboBox.
@@ -588,7 +573,6 @@ public class BasicComboBoxUI extends ComboBoxUI {
     // end UI Initialization
     //======================
 
-
     //======================
     // begin Inner classes
     //
@@ -711,7 +695,6 @@ public class BasicComboBoxUI extends ComboBoxUI {
         }
     }
 
-
     // Syncronizes the ToolTip text for the components within the combo box to be the
     // same value as the combo box ToolTip text.
     private void updateToolTipTextForChildren() {
@@ -758,7 +741,6 @@ public class BasicComboBoxUI extends ComboBoxUI {
     //
     // end Inner classes
     //====================
-
 
     //===============================
     // begin Sub-Component Management
@@ -937,7 +919,6 @@ public class BasicComboBoxUI extends ComboBoxUI {
     // end Sub-Component Management
     //===============================
 
-
     //================================
     // begin ComboBoxUI Implementation
     //
@@ -973,7 +954,6 @@ public class BasicComboBoxUI extends ComboBoxUI {
     //
     // end ComboBoxUI Implementation
     //==============================
-
 
     //=================================
     // begin ComponentUI Implementation
@@ -1158,7 +1138,6 @@ public class BasicComboBoxUI extends ComboBoxUI {
     // end ComponentUI Implementation
     //===============================
 
-
     //======================
     // begin Utility Methods
     //
@@ -1281,7 +1260,6 @@ public class BasicComboBoxUI extends ComboBoxUI {
     // end Utility Methods
     //====================
 
-
     //===============================
     // begin Painting Utility Methods
     //
@@ -1374,7 +1352,6 @@ public class BasicComboBoxUI extends ComboBoxUI {
     //
     // end Painting Utility Methods
     //=============================
-
 
     //===============================
     // begin Size Utility Methods
@@ -1504,11 +1481,9 @@ public class BasicComboBoxUI extends ComboBoxUI {
         return d;
     }
 
-
     //
     // end Size Utility Methods
     //=============================
-
 
     //=================================
     // begin Keyboard Action Management
@@ -1522,7 +1497,6 @@ public class BasicComboBoxUI extends ComboBoxUI {
         InputMap km = getInputMap(JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT);
         SwingUtilities.replaceUIInputMap(comboBox, JComponent.
                              WHEN_ANCESTOR_OF_FOCUSED_COMPONENT, km);
-
 
         LazyActionMap.installLazyActionMap(comboBox, BasicComboBoxUI.class,
                                            "ComboBox.actionMap");
@@ -1548,7 +1522,6 @@ public class BasicComboBoxUI extends ComboBoxUI {
                                  WHEN_ANCESTOR_OF_FOCUSED_COMPONENT, null);
         SwingUtilities.replaceUIActionMap(comboBox, null);
     }
-
 
     //
     // Actions
@@ -1764,7 +1737,6 @@ public class BasicComboBoxUI extends ComboBoxUI {
     // end Keyboard Action Management
     //===============================
 
-
     //
     // Shared Handler, implements all listeners
     //
@@ -1879,7 +1851,6 @@ public class BasicComboBoxUI extends ComboBoxUI {
                 }
             }
         }
-
 
         //
         // KeyListener

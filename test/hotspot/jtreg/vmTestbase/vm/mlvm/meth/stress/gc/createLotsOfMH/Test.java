@@ -21,26 +21,12 @@
 
 package vm.mlvm.meth.stress.gc.createLotsOfMH;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandles.Lookup;
 import java.lang.invoke.MethodType;
 import nsk.share.test.Stresser;
 import vm.mlvm.share.MlvmTest;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -63,9 +49,6 @@ import vm.mlvm.share.MlvmTest;
  *
  * @run main/othervm vm.mlvm.meth.stress.gc.createLotsOfMH.Test -stressIterationsFactor 100000
  */
-
-
-
 
 // TODO: add other Lookup.findXXX methods
 

@@ -21,7 +21,6 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset;
 
-
 import java.sql.*;
 import java.sql.rowset.share.classes.javax.sql.*;
 import java.util.*;
@@ -29,20 +28,6 @@ import java.io.*;
 import java.math.*;
 import java.io.Serializable;
 import java.sql.rowset.share.classes.javax.sql.rowset.serial.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An abstract class providing a <code>RowSet</code> object with its basic functionality.
@@ -839,7 +824,6 @@ public abstract class BaseRowSet implements Serializable, Cloneable {
     public String getDataSourceName() {
         return dataSource;
     }
-
 
     /**
      * Sets the <code>DataSource</code> name property for this <code>RowSet</code>
@@ -1658,7 +1642,6 @@ public abstract class BaseRowSet implements Serializable, Cloneable {
         params.put(Integer.valueOf(parameterIndex - 1), nullVal);
     }
 
-
     /**
      * Sets the designated parameter to the given <code>boolean</code> in the
      * Java programming language.  The driver converts this to an SQL
@@ -2302,7 +2285,6 @@ public abstract class BaseRowSet implements Serializable, Cloneable {
         params.put(Integer.valueOf(parameterIndex - 1), binaryStream);
     }
 
-
    /**
    * Sets the designated parameter in this <code>RowSet</code> object's command
    * to the given input stream.
@@ -2328,7 +2310,6 @@ public abstract class BaseRowSet implements Serializable, Cloneable {
                               throws SQLException {
       throw new SQLFeatureNotSupportedException("Feature not supported");
   }
-
 
     /**
      * Sets the designated parameter to the given
@@ -3193,7 +3174,6 @@ public abstract class BaseRowSet implements Serializable, Cloneable {
 
     } //end getParams
 
-
    /**
     * Sets the designated parameter to SQL <code>NULL</code>.
     *
@@ -3313,7 +3293,6 @@ public abstract class BaseRowSet implements Serializable, Cloneable {
    public void setInt(String parameterName, int x) throws SQLException{
         throw new SQLFeatureNotSupportedException("Feature not supported");
    }
-
 
    /**
     * Sets the designated parameter to the given Java <code>long</code> value.

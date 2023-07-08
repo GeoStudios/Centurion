@@ -21,26 +21,11 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
 
-
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.CLinker;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryLayout;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.ValueLayout;
 import java.nio.ByteOrder;
 import static java.nio.ByteOrder.LITTLE_ENDIAN;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class PlatformLayouts {
     public static <Z extends MemoryLayout> Z pick(Z sysv, Z win64, Z aarch64) {

@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.sun.java2d.pipe.hw;
 
-
 import java.desktop.share.classes.sun.java2d.pipe.BufferedContext;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Classes implementing this interface can provide the {@code BufferedContext}

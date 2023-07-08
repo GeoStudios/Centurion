@@ -21,21 +21,7 @@
 
 package jdk.internal.org.objectweb.asm;
 
-
 import java.lang.reflect.InaccessibleObjectException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ClassWriterExt extends ClassWriter {
     private boolean cacheInvokeDynamic = true;

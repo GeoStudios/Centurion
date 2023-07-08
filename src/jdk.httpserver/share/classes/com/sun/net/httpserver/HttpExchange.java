@@ -21,27 +21,12 @@
 
 package jdk.httpserver.share.classes.com.sun.net.httpserver;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Inetjava.net.SocketAddress;
 import java.net.URI;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class encapsulates a HTTP request received and a
@@ -184,7 +169,6 @@ public abstract class HttpExchange implements AutoCloseable {
      */
     public abstract OutputStream getResponseBody();
 
-
     /**
      * Starts sending the response back to the client using the current set of
      * response headers and the numeric response code as specified in this
@@ -298,7 +282,6 @@ public abstract class HttpExchange implements AutoCloseable {
      *          {@code Outputstream}, or {@code null} if no change
      */
     public abstract void setStreams(InputStream i, OutputStream o);
-
 
     /**
      * If an authenticator is set on the {@link HttpContext} that owns this exchange,

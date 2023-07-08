@@ -21,7 +21,6 @@
 
 package jdk.crypto.ec.share.classes.sun.security.ec;
 
-
 import jdk.crypto.ec.share.classes.sun.security.util.ObjectIdentifier;
 import jdk.crypto.ec.share.classes.sun.security.x509.AlgorithmId;
 import java.security.spec.AlgorithmParameterSpec;
@@ -33,27 +32,12 @@ import java.util.Optional;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class ParametersMap<T> {
 
     private Map<Integer, T> sizeMap = new HashMap<Integer, T>();
     private Map<ObjectIdentifier, T> oidMap =
         new HashMap<ObjectIdentifier, T>();
     private Map<String, T> nameMap = new HashMap<String, T>();
-
 
     public void fix() {
 

@@ -21,21 +21,7 @@
 
 package jit.bounds;
 
-
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -48,10 +34,8 @@ import nsk.share.TestFailure;
  * @run main/othervm jit.bounds.bounds
  */
 
-
 // This test makes sure that array bounds checking is enabled
 // with the JIT on
-
 
 public class bounds {
     public static void main(String[] argv) {

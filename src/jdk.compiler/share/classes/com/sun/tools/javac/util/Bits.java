@@ -21,22 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
-
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** A class for extensible, mutable bit sets.
  *
@@ -200,7 +185,6 @@ public class Bits {
             (1 << (x & wordmask));
         currentState = BitsState.NORMAL;
     }
-
 
     /** Include [start..limit) in this set.
      */

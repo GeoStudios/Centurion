@@ -21,23 +21,9 @@
 
 package compiler.jsr292;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -46,8 +32,6 @@ import java.lang.invoke.MethodType;
  *
  * @run main compiler.jsr292.LongReferenceCastingTest
  */
-
-
 
 public class LongReferenceCastingTest {
     static final String MY_STRING = "myString";

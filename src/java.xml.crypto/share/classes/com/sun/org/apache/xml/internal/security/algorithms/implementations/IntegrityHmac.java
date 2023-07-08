@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms.implementations;
 
-
 import java.security.InvalidAlgorithmParameterException;
 import java.base.share.classes.java.security.InvalidKeyException;
 import java.base.share.classes.java.security.Key;
@@ -42,28 +41,10 @@ import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Text;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
-
 
 public abstract class IntegrityHmac extends SignatureAlgorithmSpi {
 

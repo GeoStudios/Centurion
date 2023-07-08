@@ -21,23 +21,8 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.basic;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class BasicIntType extends BasicType implements IntType {
   private final boolean unsigned;

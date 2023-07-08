@@ -21,21 +21,6 @@
 
 package util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class SerializedBatchUpdateException {
     /**
      * Serialized BatchUpdateException from JDBC 4.0 with the following values

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.provider;
 
-
 import java.io.*;
 import java.util.*;
 import java.math.BigInteger;
@@ -35,20 +34,6 @@ import java.base.share.classes.sun.security.util.DerValue;
 import java.base.share.classes.sun.security.util.DerInputStream;
 import java.base.share.classes.sun.security.util.DerOutputStream;
 import java.base.share.classes.sun.security.jca.JCAUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The Digital Signature Standard (using the Digital Signature
@@ -219,7 +204,6 @@ abstract class DSA extends SignatureSpi {
     protected void engineUpdate(ByteBuffer b) {
         md.update(b);
     }
-
 
     /**
      * Sign all the data thus far updated. The signature format is
@@ -395,7 +379,6 @@ abstract class DSA extends SignatureSpi {
     protected AlgorithmParameters engineGetParameters() {
         return null;
     }
-
 
     private BigInteger generateR(BigInteger p, BigInteger q, BigInteger g,
                          BigInteger k) {

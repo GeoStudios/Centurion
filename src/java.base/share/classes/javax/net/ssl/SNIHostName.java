@@ -21,7 +21,6 @@
 
 package java.base.share.classes.javax.net.ssl;
 
-
 import java.net.IDN;
 import java.nio.ByteBuffer;
 import java.nio.charset.CodingErrorAction;
@@ -31,20 +30,6 @@ import java.nio.charset.CharacterCodingException;
 import java.base.share.classes.java.util.Locale;
 import java.base.share.classes.java.util.Objects;
 import java.util.regex.Pattern;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Instances of this class represent a server name of type

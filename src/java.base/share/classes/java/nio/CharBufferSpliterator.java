@@ -21,24 +21,9 @@
 
 package java.base.share.classes.java.nio;
 
-
 import java.base.share.classes.java.util.Comparator;
 import java.base.share.classes.java.util.Spliterator;
 import java.base.share.classes.java.util.function.IntConsumer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A Spliterator.OfInt for sources that traverse and split elements

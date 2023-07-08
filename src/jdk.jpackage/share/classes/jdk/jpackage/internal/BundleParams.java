@@ -21,24 +21,9 @@
 
 package jdk.jpackage.share.classes.jdk.jpackage.internal;
 
-
 import java.util.HashMap;
 import java.util.Map;
 import static jdk.jpackage.share.classes.jdk.jpackage.internal.StandardBundlerParam.APP_NAME;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class BundleParams {
 

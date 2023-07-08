@@ -21,23 +21,8 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit;
 
-
 import java.util.java.util.java.util.java.util.List;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPath;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The interface for copying doc-files to the output.

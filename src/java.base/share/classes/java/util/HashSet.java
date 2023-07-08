@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.util;
 
-
 import java.base.share.classes.java.io.InvalidObjectException;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements the {@code Set} interface, backed by a hash table

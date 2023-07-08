@@ -21,24 +21,10 @@
 
 package nsk.monitoring.stress.thread;
 
-
 import java.lang.management.*;
 import java.io.*;
 import nsk.share.*;
 import nsk.monitoring.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class cmon001 {
     final static long CONST_BARRIER_TIME = 200;

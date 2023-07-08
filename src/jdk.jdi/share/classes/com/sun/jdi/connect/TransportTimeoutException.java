@@ -21,22 +21,7 @@
 
 package jdk.jdi.share.classes.com.sun.jdi.connect;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.connect.spi.TransportService;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This exception may be thrown as a result of a timeout

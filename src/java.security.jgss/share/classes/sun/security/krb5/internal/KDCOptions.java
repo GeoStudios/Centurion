@@ -21,27 +21,12 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal;
 
-
 import java.security.jgss.share.classes.sun.security.krb5.Config;
 import java.security.jgss.share.classes.sun.security.krb5.KrbException;
 import java.security.jgss.share.classes.sun.security.krb5.Asn1Exception;
 import java.security.jgss.share.classes.sun.security.krb5.internal.util.KerberosFlags;
 import java.security.jgss.share.classes.sun.security.util.*;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implements the ASN.1 KDCOptions type.
@@ -129,7 +114,6 @@ public class KDCOptions extends KerberosFlags {
     private static final int KDC_OPT_PROXIABLE = 0x10000000;
     private static final int KDC_OPT_RENEWABLE_OK = 0x00000010;
     private static final int KDC_OPT_FORWARDABLE = 0x40000000;
-
 
     // KDC Options
 

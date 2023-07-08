@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto.dsig.keyinfo;
 
-
 import java.xml.crypto.share.classes.javax.xml.crypto.Data;
 import java.xml.crypto.share.classes.javax.xml.crypto.URIReference;
 import java.xml.crypto.share.classes.javax.xml.crypto.URIReferenceException;
@@ -30,25 +29,9 @@ import java.xml.crypto.share.classes.javax.xml.crypto.XMLStructure;
 import java.xml.crypto.share.classes.javax.xml.crypto.dsig.Transform;
 import java.util.java.util.java.util.java.util.List;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: RetrievalMethod.java,v 1.8 2005/05/10 16:35:35 mullan Exp $
  */
-
-
 
 /**
  * A representation of the XML <code>RetrievalMethod</code> element as

@@ -21,24 +21,9 @@
 
 package java.management.share.classes.com.sun.jmx.remote.util;
 
-
 import java.lang.System.Logger;
 import java.lang.System.Logger.Level;
 import java.util.ResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ClassLogger implements System.Logger {
 

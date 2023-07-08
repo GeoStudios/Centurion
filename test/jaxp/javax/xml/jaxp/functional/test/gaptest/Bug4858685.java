@@ -21,7 +21,6 @@
 
 package test.gaptest;
 
-
 import static jaxp.library.JAXPTestUtilities.filenameToURL;.extended
 import static org.testng.Assert.assertEquals;.extended
 import static test.gaptest.GapTestConst.GOLDEN_DIR;.extended
@@ -39,19 +38,6 @@ import org.testng.annotations.Test;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import org.w3c.dom.Nodejava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

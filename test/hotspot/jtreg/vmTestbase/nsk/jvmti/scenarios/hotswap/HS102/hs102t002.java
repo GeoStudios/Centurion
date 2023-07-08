@@ -21,23 +21,9 @@
 
 package nsk.jvmti.scenarios.hotswap.HS102;
 
-
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class hs102t002 extends DebugeeClass {
 

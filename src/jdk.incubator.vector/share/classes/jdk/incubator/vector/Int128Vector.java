@@ -21,7 +21,6 @@
 
 package jdk.incubator.vector.share.classes.jdk.incubator.vector;
 
-
 import java.nio.ByteBuffer;
 import java.base.share.classes.java.util.Arrays;
 import java.base.share.classes.java.util.Objects;
@@ -30,20 +29,6 @@ import jdk.incubator.vector.share.classes.jdk.internal.vm.annotation.ForceInline
 import jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport;
 import static jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport.*;.extended
 import static jdk.incubator.vector.share.classes.jdk.incubator.vector.VectorOperators.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // -- This file was mechanically generated: Do not edit! -- //
 
@@ -456,7 +441,6 @@ final class Int128Vector extends IntVector {
                                      (Int128Mask) m);  // specialize
     }
 
-
     @ForceInline
     @Override
     public int lane(int i) {
@@ -781,8 +765,6 @@ final class Int128Vector extends IntVector {
     IntVector fromArray0(int[] a, int offset) {
         return super.fromArray0Template(a, offset);  // specialize
     }
-
-
 
     @ForceInline
     @Override

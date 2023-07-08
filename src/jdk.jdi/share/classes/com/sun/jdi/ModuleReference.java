@@ -21,23 +21,8 @@
 
 package jdk.jdi.share.classes.com.sun.jdi;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.event.EventQueue;
 import jdk.jdi.share.classes.com.sun.jdi.event.VMDisconnectEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A module in the target VM.

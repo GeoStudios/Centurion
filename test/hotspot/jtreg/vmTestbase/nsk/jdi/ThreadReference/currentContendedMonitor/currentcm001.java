@@ -21,7 +21,6 @@
 
 package nsk.jdi.ThreadReference.currentContendedMonitor;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -150,7 +136,6 @@ public class currentcm001 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -191,7 +176,6 @@ public class currentcm001 {
 
             int expresult = returnCode0;
 
-
             //eventRManager = vm.eventRequestManager();
             //eventQueue    = vm.eventQueue();
 
@@ -204,7 +188,6 @@ public class currentcm001 {
             //String bpLine2 = "breakpointLineNumber2";
             //String bpLine3 = "breakpointLineNumber3";
 
-
             List            allThreads   = null;
 
             ObjectReference monitor      = null;
@@ -215,7 +198,6 @@ public class currentcm001 {
             //BreakpointRequest breakpRequest1 = null;
             //BreakpointRequest breakpRequest2 = null;
             //BreakpointRequest breakpRequest3 = null;
-
 
             label0: {
 
@@ -304,7 +286,6 @@ public class currentcm001 {
         }
         return testExitCode;
     }
-
 
    /*
     * private BreakpointRequest settingBreakpoint(String, String, String)

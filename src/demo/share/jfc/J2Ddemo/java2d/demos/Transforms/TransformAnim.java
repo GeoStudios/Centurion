@@ -21,7 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Transforms;
 
-
 import static java.awt.Color.BLACK;.extended
 import static java.awt.Color.BLUE;.extended
 import static java.awt.Color.CYAN;.extended
@@ -77,20 +76,6 @@ import javax.swing.event.ChangeEvent;
 import javax.swing.event.Changejava.util.Listener;
 import javax.swing.plaf.metal.MetalBorders.ButtonBorder;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Animation of shapes, text and images rotating, scaling and translating
  * around a canvas.
@@ -130,7 +115,6 @@ public final class TransformAnim extends AnimatingControlsSurface {
     protected boolean doScale = true;
     protected boolean doShear;
 
-
     public TransformAnim() {
         setBackground(BLACK);
         setStrings(1);
@@ -139,7 +123,6 @@ public final class TransformAnim extends AnimatingControlsSurface {
         setControls(new Component[] { new DemoControls(this) });
         setConstraints(new String[] { BorderLayout.EAST });
     }
-
 
     public void setImages(int num) {
         if (num < numImages) {
@@ -161,7 +144,6 @@ public final class TransformAnim extends AnimatingControlsSurface {
         }
         numImages = num;
     }
-
 
     public void setStrings(int num) {
         if (num < numStrings) {
@@ -185,7 +167,6 @@ public final class TransformAnim extends AnimatingControlsSurface {
         }
         numStrings = num;
     }
-
 
     public void setShapes(int num) {
         if (num < numShapes) {
@@ -217,7 +198,6 @@ public final class TransformAnim extends AnimatingControlsSurface {
         numShapes = num;
     }
 
-
     @Override
     public void reset(int w, int h) {
         for (ObjData objData : objDatas) {
@@ -225,14 +205,12 @@ public final class TransformAnim extends AnimatingControlsSurface {
         }
     }
 
-
     @Override
     public void step(int w, int h) {
         for (ObjData objData : objDatas) {
             objData.step(w, h, this);
         }
     }
-
 
     @Override
     public void render(int w, int h, Graphics2D g2) {
@@ -255,11 +233,9 @@ public final class TransformAnim extends AnimatingControlsSurface {
         }
     }
 
-
     public static void main(String[] argv) {
         createDemoFrame(new TransformAnim());
     }
-
 
     static class TextData {
 
@@ -271,7 +247,6 @@ public final class TransformAnim extends AnimatingControlsSurface {
             this.font = font;
         }
     }
-
 
     static class ObjData {
         Object object;
@@ -285,7 +260,6 @@ public final class TransformAnim extends AnimatingControlsSurface {
         int scaleDirection, shearDirection;
         AffineTransform at = new AffineTransform();
 
-
         public ObjData(Object object, Paint paint) {
             this.object = object;
             this.paint = paint;
@@ -295,7 +269,6 @@ public final class TransformAnim extends AnimatingControlsSurface {
             shear = Math.random() * 0.5;
             shearDirection = Math.random() > 0.5 ? UP : DOWN;
         }
-
 
         public void reset(int w, int h) {
             x = Math.random()*w;
@@ -326,7 +299,6 @@ public final class TransformAnim extends AnimatingControlsSurface {
                 object = p;
             }
         }
-
 
         public void step(int w, int h, TransformAnim demo) {
             at.setToIdentity();
@@ -383,8 +355,6 @@ public final class TransformAnim extends AnimatingControlsSurface {
             }
         }
     } // End ObjData class
-
-
 
     static final class DemoControls extends CustomControls implements ActionListener, ChangeListener {
 
@@ -446,7 +416,6 @@ public final class TransformAnim extends AnimatingControlsSurface {
             add(toolbar);
         }
 
-
         public void addButton(String s, String tt, boolean state) {
             JToggleButton b = (JToggleButton) toolbar.add(new JToggleButton(s));
             b.setFont(font);
@@ -456,7 +425,6 @@ public final class TransformAnim extends AnimatingControlsSurface {
             b.setBorder(buttonBorder);
             b.addActionListener(this);
         }
-
 
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -474,7 +442,6 @@ public final class TransformAnim extends AnimatingControlsSurface {
                 demo.repaint();
             }
         }
-
 
         @Override
         public void stateChanged(ChangeEvent e) {
@@ -497,12 +464,10 @@ public final class TransformAnim extends AnimatingControlsSurface {
             slider.repaint();
         }
 
-
         @Override
         public Dimension getPreferredSize() {
             return new Dimension(80,38);
         }
-
 
         @Override
         @SuppressWarnings("SleepWhileHoldingLock")

@@ -21,23 +21,8 @@
 
 package java.base.share.classes.sun.net;
 
-
 import java.security.PrivilegedAction;
 import java.security.Security;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("removal")
 public final class InetAddressCachePolicy {

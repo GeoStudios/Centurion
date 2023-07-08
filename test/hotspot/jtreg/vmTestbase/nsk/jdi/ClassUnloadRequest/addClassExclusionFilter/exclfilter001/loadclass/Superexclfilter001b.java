@@ -21,21 +21,6 @@
 
 package nsk.jdi.ClassUnloadRequest.addClassExclusionFilter;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // These classes will be loaded by ClassUnloader
 
 class Superexclfilter001b {

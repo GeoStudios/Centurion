@@ -21,23 +21,9 @@
 
 package nsk.jvmti.IterateThroughHeap.concrete_klass_filter;
 
-
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ConcreteKlassFilter extends DebugeeClass {
 

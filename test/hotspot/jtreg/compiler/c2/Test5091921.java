@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 5091921
@@ -46,10 +31,8 @@ package compiler.c2;
  *    compiler.c2.Test5091921
  */
 
-
 public class Test5091921 {
   private static int result = 0;
-
 
   /* Test for the bug of transforming indx >= MININT to indx > MININT-1 */
   public static int test_ge1(int limit) {

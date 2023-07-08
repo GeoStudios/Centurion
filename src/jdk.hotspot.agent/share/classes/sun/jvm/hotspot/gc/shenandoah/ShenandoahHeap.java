@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shenandoah;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared.CollectedHeap;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared.CollectedHeapName;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared.LiveRegionsClosure;
@@ -37,20 +36,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.BitMapInterface
 import java.io.PrintStream;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ShenandoahHeap extends CollectedHeap {
     static private CIntegerField numRegions;

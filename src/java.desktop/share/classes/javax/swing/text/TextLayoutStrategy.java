@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.util.*;
 import java.awt.*;
 import java.text.AttributedCharacterIterator;
@@ -31,20 +30,6 @@ import java.awt.geom.AffineTransform;
 import java.desktop.share.classes.javax.swing.JComponent;
 import java.desktop.share.classes.javax.swing.event.DocumentEvent;
 import sun.font.BidiUtils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A flow strategy that uses java.awt.font.LineBreakMeasureer to

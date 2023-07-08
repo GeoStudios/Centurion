@@ -21,7 +21,6 @@
 
 package jdk.vm.ci.hotspot.test;
 
-
 import jdk.vm.ci.hotspot.HotSpotConstantReflectionProvider;
 import jdk.vm.ci.meta.JavaConstant;
 import jdk.vm.ci.meta.MetaAccessProvider;
@@ -36,19 +35,6 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.nio.file.Paths;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class MethodHandleAccessProviderData implements TestInterface {
     private static final MetaAccessProvider META_ACCESS = JVMCI.getRuntime().getHostJVMCIBackend().getMetaAccess();

@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.nio.file.attribute;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
@@ -160,5 +144,4 @@ package java.base.share.classes.java.nio.file.attribute;
  * java.lang.NullPointerException NullPointerException} to be thrown.
  *
  */
-
 

@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.consumer;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.Path;
 import java.security.AccessControlContext;
@@ -44,20 +43,6 @@ import jdk.jfr.share.classes.jdk.jfr.internal.PrivateAccess;
 import jdk.jfr.share.classes.jdk.jfr.internal.SecuritySupport;
 import jdk.jfr.share.classes.jdk.jfr.internal.Utils;
 import jdk.jfr.share.classes.jdk.jfr.internal.consumer.EventDirectoryStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A recording stream produces events from the current JVM (Java Virtual

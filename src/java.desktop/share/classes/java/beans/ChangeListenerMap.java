@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.beans;
 
-
 import java.desktop.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
 import java.desktop.share.classes.java.util.Collections;
 import java.desktop.share.classes.java.util.Eventjava.util.Listener;
@@ -31,20 +30,6 @@ import java.desktop.share.classes.java.util.java.util.java.util.java.util.List;
 import java.desktop.share.classes.java.util.Map;
 import java.desktop.share.classes.java.util.Map.Entry;
 import java.desktop.share.classes.java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is an abstract class that provides base functionality

@@ -21,27 +21,12 @@
 
 package jdk.internal.opt.share.classes.jdk.internal.joptsimple.util;
 
-
 import java.base.share.classes.java.util.Locale;
 import java.util.regex.Pattern;
 import static java.util.regex.Pattern.*;.extended
 import static jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.Messages.message;.extended
 import jdk.internal.opt.share.classes.jdk.internal.joptsimple.ValueConversionException;
 import jdk.internal.opt.share.classes.jdk.internal.joptsimple.ValueConverter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Ensures that values entirely match a regular expression.

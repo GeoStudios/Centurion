@@ -21,26 +21,11 @@
 
 package jdk.jdi.share.classes.com.sun.jdi.event;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.Field;
 import jdk.jdi.share.classes.com.sun.jdi.ObjectCollectedException;
 import jdk.jdi.share.classes.com.sun.jdi.ObjectReference;
 import jdk.jdi.share.classes.com.sun.jdi.Value;
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Notification of a field triggered event encountered by a thread in the

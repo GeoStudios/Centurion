@@ -21,25 +21,10 @@
 
 package java.naming.share.classes.javax.naming.ldap;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.naming.share.classes.javax.net.ssl.SSLSession;
 import java.naming.share.classes.javax.net.ssl.SSLjava.net.SocketFactory;
 import java.naming.share.classes.javax.net.ssl.HostnameVerifier;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements the LDAPv3 Extended Response for StartTLS as
@@ -93,7 +78,6 @@ public abstract class StartTlsResponse implements ExtendedResponse {
      */
     public static final String OID = "1.3.6.1.4.1.1466.20037";
 
-
     // Called by subclass
 
     /**
@@ -102,7 +86,6 @@ public abstract class StartTlsResponse implements ExtendedResponse {
      */
     protected StartTlsResponse() {
     }
-
 
     // ExtendedResponse methods
 

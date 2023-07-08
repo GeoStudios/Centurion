@@ -21,26 +21,11 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-
 import java.desktop.windows.classes.com.sun.swing.SwingUtilities2;
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.plaf.UIResource;
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A collection of static utility methods used for rendering the Windows look

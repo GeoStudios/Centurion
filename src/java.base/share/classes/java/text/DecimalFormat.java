@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.text;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.InvalidObjectException;
 import java.base.share.classes.java.io.ObjectInputStream;
@@ -36,20 +35,6 @@ import java.base.share.classes.java.util.concurrent.atomic.AtomicInteger;
 import java.base.share.classes.java.util.concurrent.atomic.AtomicLong;
 import sun.util.locale.provider.LocaleProviderAdapter;
 import sun.util.locale.provider.ResourceBundleBasedAdapter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * {@code DecimalFormat} is a concrete subclass of
@@ -407,7 +392,6 @@ public class DecimalFormat extends NumberFormat {
         applyPattern(all[0], false);
     }
 
-
     /**
      * Creates a DecimalFormat using the given pattern and the symbols
      * for the default {@link java.util.Locale.Category#FORMAT FORMAT} locale.
@@ -432,7 +416,6 @@ public class DecimalFormat extends NumberFormat {
         this.symbols = DecimalFormatSymbols.getInstance(Locale.getDefault(Locale.Category.FORMAT));
         applyPattern(pattern, false);
     }
-
 
     /**
      * Creates a DecimalFormat using the given pattern and symbols.
@@ -460,7 +443,6 @@ public class DecimalFormat extends NumberFormat {
         this.symbols = (DecimalFormatSymbols)symbols.clone();
         applyPattern(pattern, false);
     }
-
 
     // Overrides
     /**
@@ -1685,7 +1667,6 @@ public class DecimalFormat extends NumberFormat {
 
         }
 
-
         // Returns a new string from updated fastPathContainer.
         return new String(fastPathData.fastPathContainer,
                           fastPathData.firstUsedIndex,
@@ -2524,7 +2505,6 @@ public class DecimalFormat extends NumberFormat {
             return null; // should never happen
         }
     }
-
 
     /**
      * Sets the decimal format symbols, which is generally not changed
@@ -4043,7 +4023,6 @@ public class DecimalFormat extends NumberFormat {
      */
     private boolean parseBigDecimal = false;
 
-
     /**
      * True if this object represents a currency format.  This determines
      * whether the monetary decimal/grouping separators are used instead of the normal ones.
@@ -4205,7 +4184,6 @@ public class DecimalFormat extends NumberFormat {
         double fractionalScaleFactor;
         int fractionalMaxIntBound;
 
-
         /** The char array buffer that will contain the formatted result */
         char[] fastPathContainer;
 
@@ -4226,7 +4204,6 @@ public class DecimalFormat extends NumberFormat {
 
     /** DecimalFormat reference to its FastPathData */
     private transient FastPathData fastPathData;
-
 
     //----------------------------------------------------------------------
 

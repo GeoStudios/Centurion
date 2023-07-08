@@ -21,21 +21,6 @@
 
 package compiler.intrinsics.mathexact;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8028207
@@ -43,7 +28,6 @@ package compiler.intrinsics.mathexact;
  *
  * @run main compiler.intrinsics.mathexact.GVNTest
  */
-
 
 public class GVNTest {
   public static int result = 0;

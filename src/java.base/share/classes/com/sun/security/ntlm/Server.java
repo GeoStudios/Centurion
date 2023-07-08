@@ -21,23 +21,8 @@
 
 package java.base.share.classes.com.sun.security.ntlm;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.base.share.classes.java.util.Locale;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The NTLM server, not multi-thread enabled.<p>

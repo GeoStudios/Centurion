@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serialize;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMErrorImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMLocatorImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
@@ -51,20 +50,6 @@ import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.DeclHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Sep 14, 2000:
 //  Fixed comments to preserve whitespaces and add a line break
 //  when indenting. Reported by Gervase Markham <gerv@gerv.net>
@@ -88,11 +73,6 @@ import java.xml.share.classes.com.sun.org.xml.sax.ext.LexicalHandler;
 //   Fixed state.unescaped not being set to false when
 //   entering element state.
 //   Reported by Lowell Vaughn <lvaughn@agillion.com>
-
-
-
-
-
 
 /**
  * Base class for a serializer supporting both DOM and SAX pretty
@@ -160,7 +140,6 @@ public abstract class BaseMarkupSerializer
 
     protected EncodingInfo _encodingInfo;
 
-
     /**
      * Holds array of all element states that have been entered.
      * The array is automatically resized. When leaving an element,
@@ -169,7 +148,6 @@ public abstract class BaseMarkupSerializer
      */
     private ElementState[]  _elementStates;
 
-
     /**
      * The index of the next state to place in the array,
      * or one plus the index of the current state. When zero,
@@ -177,20 +155,17 @@ public abstract class BaseMarkupSerializer
      */
     private int             _elementStateCount;
 
-
     /**
      * List holding comments and PIs that come before the root
      * element (even after it), see {@link #serializePreRoot}.
      */
     private List<String> _preRoot;
 
-
     /**
      * If the document has been started (header serialized), this
      * flag is set to true so it's not started twice.
      */
     protected boolean       _started;
-
 
     /**
      * True if the serializer has been prepared. This flag is set
@@ -199,7 +174,6 @@ public abstract class BaseMarkupSerializer
      */
     private boolean         _prepared;
 
-
     /**
      * Association between namespace URIs (keys) and prefixes (values).
      * Accumulated here prior to starting an element and placing this
@@ -207,18 +181,15 @@ public abstract class BaseMarkupSerializer
      */
     protected Map<String, String>  _prefixes;
 
-
     /**
      * The system identifier of the document type, if known.
      */
     protected String        _docTypePublicId;
 
-
     /**
      * The system identifier of the document type, if known.
      */
     protected String        _docTypeSystemId;
-
 
     /**
      * The output format associated with this serializer. This will never
@@ -228,12 +199,10 @@ public abstract class BaseMarkupSerializer
      */
     protected OutputFormat   _format;
 
-
     /**
      * The printer used for printing text parts.
      */
     protected Printer       _printer;
-
 
     /**
      * True if indenting printer.
@@ -248,7 +217,6 @@ public abstract class BaseMarkupSerializer
      */
     private Writer          _writer;
 
-
     /**
      * The output stream.
      */
@@ -257,12 +225,9 @@ public abstract class BaseMarkupSerializer
     /** Current node that is being processed  */
     protected Node fCurrentNode = null;
 
-
-
     //--------------------------------//
     // Constructor and initialization //
     //--------------------------------//
-
 
     /**
      * Protected constructor can only be used by derived class.
@@ -280,14 +245,12 @@ public abstract class BaseMarkupSerializer
         _format = format;
     }
 
-
     public DocumentHandler asDocumentHandler()
         throws IOException
     {
         prepare();
         return this;
     }
-
 
     public ContentHandler asContentHandler()
         throws IOException
@@ -296,14 +259,12 @@ public abstract class BaseMarkupSerializer
         return this;
     }
 
-
     public DOMSerializer asDOMSerializer()
         throws IOException
     {
         prepare();
         return this;
     }
-
 
     public void setOutputByteStream( OutputStream output )
     {
@@ -317,7 +278,6 @@ public abstract class BaseMarkupSerializer
         reset();
     }
 
-
     public void setOutputCharStream( Writer writer )
     {
         if ( writer == null ) {
@@ -330,7 +290,6 @@ public abstract class BaseMarkupSerializer
         reset();
     }
 
-
     public void setOutputFormat( OutputFormat format )
     {
         if ( format == null ) {
@@ -341,7 +300,6 @@ public abstract class BaseMarkupSerializer
         _format = format;
         reset();
     }
-
 
     public boolean reset()
     {
@@ -409,12 +367,9 @@ public abstract class BaseMarkupSerializer
         _prepared = true;
     }
 
-
-
     //----------------------------------//
     // DOM document serializing methods //
     //----------------------------------//
-
 
     /**
      * Serializes the DOM element using the previously specified
@@ -477,7 +432,6 @@ public abstract class BaseMarkupSerializer
             throw _printer.getException();
     }
 
-
     /**
      * Serializes the DOM document using the previously specified
      * writer and output format. Throws an exception only if
@@ -500,11 +454,9 @@ public abstract class BaseMarkupSerializer
             throw _printer.getException();
     }
 
-
     //------------------------------------------//
     // SAX document handler serializing methods //
     //------------------------------------------//
-
 
     public void startDocument()
         throws SAXException
@@ -516,7 +468,6 @@ public abstract class BaseMarkupSerializer
         }
         // Nothing to do here. All the magic happens in startDocument(String)
     }
-
 
     public void characters( char[] chars, int start, int length )
         throws SAXException
@@ -597,7 +548,6 @@ public abstract class BaseMarkupSerializer
         }
     }
 
-
     public void ignorableWhitespace( char[] chars, int start, int length )
         throws SAXException
     {
@@ -618,7 +568,6 @@ public abstract class BaseMarkupSerializer
             throw new SAXException( except );
         }
     }
-
 
     public final void processingInstruction( String target, String code )
         throws SAXException
@@ -672,7 +621,6 @@ public abstract class BaseMarkupSerializer
         fStrBuffer.setLength(0);
     }
 
-
     public void comment( char[] chars, int start, int length )
         throws SAXException
     {
@@ -682,7 +630,6 @@ public abstract class BaseMarkupSerializer
             throw new SAXException( except );
     }
     }
-
 
     public void comment( String text )
         throws IOException
@@ -726,7 +673,6 @@ public abstract class BaseMarkupSerializer
         state.afterElement = false;
     }
 
-
     public void startCDATA()
     {
         ElementState state;
@@ -734,7 +680,6 @@ public abstract class BaseMarkupSerializer
         state = getElementState();
         state.doCData = true;
     }
-
 
     public void endCDATA()
     {
@@ -744,7 +689,6 @@ public abstract class BaseMarkupSerializer
         state.doCData = false;
     }
 
-
     public void startNonEscaping()
     {
         ElementState state;
@@ -752,7 +696,6 @@ public abstract class BaseMarkupSerializer
         state = getElementState();
         state.unescaped = true;
     }
-
 
     public void endNonEscaping()
     {
@@ -762,7 +705,6 @@ public abstract class BaseMarkupSerializer
         state.unescaped = false;
     }
 
-
     public void startPreserving()
     {
         ElementState state;
@@ -771,7 +713,6 @@ public abstract class BaseMarkupSerializer
         state.preserveSpace = true;
     }
 
-
     public void endPreserving()
     {
         ElementState state;
@@ -779,7 +720,6 @@ public abstract class BaseMarkupSerializer
         state = getElementState();
         state.preserveSpace = false;
     }
-
 
     /**
      * Called at the end of the document to wrap it up.
@@ -803,29 +743,24 @@ public abstract class BaseMarkupSerializer
     }
     }
 
-
     public void startEntity( String name )
     {
         // ???
     }
-
 
     public void endEntity( String name )
     {
         // ???
     }
 
-
     public void setDocumentLocator( Locator locator )
     {
         // Nothing to do
     }
 
-
     //-----------------------------------------//
     // SAX content handler serializing methods //
     //-----------------------------------------//
-
 
     public void skippedEntity ( String name )
         throws SAXException
@@ -841,7 +776,6 @@ public abstract class BaseMarkupSerializer
     }
     }
 
-
     public void startPrefixMapping( String prefix, String uri )
         throws SAXException
     {
@@ -850,17 +784,14 @@ public abstract class BaseMarkupSerializer
         _prefixes.put( uri, prefix == null ? "" : prefix );
     }
 
-
     public void endPrefixMapping( String prefix )
         throws SAXException
     {
     }
 
-
     //------------------------------------------//
     // SAX DTD/Decl handler serializing methods //
     //------------------------------------------//
-
 
     public final void startDTD( String name, String publicId, String systemId )
         throws SAXException
@@ -875,12 +806,10 @@ public abstract class BaseMarkupSerializer
         }
     }
 
-
     public void endDTD()
     {
         // Nothing to do here, all the magic occurs in startDocument(String).
     }
-
 
     public void elementDecl( String name, String model )
         throws SAXException
@@ -898,7 +827,6 @@ public abstract class BaseMarkupSerializer
             throw new SAXException( except );
         }
     }
-
 
     public void attributeDecl( String eName, String aName, String type,
                                String valueDefault, String value )
@@ -929,7 +857,6 @@ public abstract class BaseMarkupSerializer
     }
     }
 
-
     public void internalEntityDecl( String name, String value )
         throws SAXException
     {
@@ -947,7 +874,6 @@ public abstract class BaseMarkupSerializer
         }
     }
 
-
     public void externalEntityDecl( String name, String publicId, String systemId )
         throws SAXException
     {
@@ -958,7 +884,6 @@ public abstract class BaseMarkupSerializer
             throw new SAXException( except );
         }
     }
-
 
     public void unparsedEntityDecl( String name, String publicId,
                                     String systemId, String notationName )
@@ -991,7 +916,6 @@ public abstract class BaseMarkupSerializer
     }
     }
 
-
     public void notationDecl( String name, String publicId, String systemId )
         throws SAXException
     {
@@ -1020,11 +944,9 @@ public abstract class BaseMarkupSerializer
         }
     }
 
-
     //------------------------------------------//
     // Generic node serializing methods methods //
     //------------------------------------------//
-
 
     /**
      * Serialize the DOM node. This method is shared across XML, HTML and XHTML
@@ -1272,7 +1194,6 @@ public abstract class BaseMarkupSerializer
         }
     }
 
-
     /* Serializes XML Declaration, according to 'xml-declaration' property.
      */
     protected void serializeDocument()throws IOException {
@@ -1360,7 +1281,6 @@ public abstract class BaseMarkupSerializer
         }
     }
 
-
     /**
      * Must be called by a method about to print any type of content.
      * If the element was just opened, the opening tag is closed and
@@ -1401,7 +1321,6 @@ public abstract class BaseMarkupSerializer
         }
         return state;
     }
-
 
     /**
      * Called to print the text contents in the prevailing element format.
@@ -1456,7 +1375,6 @@ public abstract class BaseMarkupSerializer
         }
     }
 
-
     /**
      * Returns the suitable entity reference for this character value,
      * or null if no such entity exists. Calling this method with <tt>'&amp;'</tt>
@@ -1466,7 +1384,6 @@ public abstract class BaseMarkupSerializer
      * @return Character entity name, or null
      */
     protected abstract String getEntityRef( int ch );
-
 
     /**
      * Called to serializee the DOM element. The element is serialized based on
@@ -1478,7 +1395,6 @@ public abstract class BaseMarkupSerializer
      */
     protected abstract void serializeElement( Element elem )
         throws IOException;
-
 
     /**
      * Comments and PIs cannot be serialized before the root element,
@@ -1505,7 +1421,6 @@ public abstract class BaseMarkupSerializer
             _preRoot.clear();
         }
     }
-
 
     //---------------------------------------------//
     // Text pretty printing and formatting methods //
@@ -1583,7 +1498,6 @@ public abstract class BaseMarkupSerializer
             }
         }
     }
-
 
     protected void surrogates(int high, int low, boolean inContent) throws IOException{
         if (XMLChar.isHighSurrogate(high)) {
@@ -1671,7 +1585,6 @@ public abstract class BaseMarkupSerializer
         }
     }
 
-
     protected void printText( String text, boolean preserveSpace, boolean unescaped )
         throws IOException
     {
@@ -1711,7 +1624,6 @@ public abstract class BaseMarkupSerializer
         }
     }
 
-
     /**
      * Print a document type public or system identifier URL.
      * Encapsulates the URL in double quotes, escapes non-printing
@@ -1734,7 +1646,6 @@ public abstract class BaseMarkupSerializer
         }
         _printer.printText( '"' );
     }
-
 
     protected void printEscaped( int ch )
         throws IOException
@@ -1774,7 +1685,6 @@ public abstract class BaseMarkupSerializer
 
          }
 
-
     /**
      * Escapes a string so it may be printed as text content or attribute
      * value. Non printable characters are escaped using character references.
@@ -1799,11 +1709,9 @@ public abstract class BaseMarkupSerializer
         }
     }
 
-
     //--------------------------------//
     // Element state handling methods //
     //--------------------------------//
-
 
     /**
      * Return the state of the current element.
@@ -1814,7 +1722,6 @@ public abstract class BaseMarkupSerializer
     {
         return _elementStates[ _elementStateCount ];
     }
-
 
     /**
      * Enter a new element state for the specified element.
@@ -1857,7 +1764,6 @@ public abstract class BaseMarkupSerializer
         return state;
     }
 
-
     /**
      * Leave the current element state and return to the
      * state of the parent element. If this was the root
@@ -1877,7 +1783,6 @@ public abstract class BaseMarkupSerializer
         String msg = DOMMessageFormatter.formatMessage(DOMMessageFormatter.SERIALIZER_DOMAIN, "Internal", null);
         throw new IllegalStateException(msg);
     }
-
 
     /**
      * Returns true if in the state of the document.
@@ -1942,7 +1847,6 @@ public abstract class BaseMarkupSerializer
             return fDOMError;
 
     }
-
 
     protected void fatalError(String message) throws IOException{
         if (fDOMErrorHandler != null) {

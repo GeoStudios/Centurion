@@ -21,22 +21,6 @@
 
 package java.base.share.classes.javax.security.cert;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This exception indicates one of a variety of certificate problems.
  *

@@ -21,23 +21,8 @@
 
 package java.base.share.classes.sun.nio.fs;
 
-
 import jdk.internal.misc.Unsafe;
 import java.util.concurrent.ExecutionException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base implementation of a task (typically native) that polls a memory location

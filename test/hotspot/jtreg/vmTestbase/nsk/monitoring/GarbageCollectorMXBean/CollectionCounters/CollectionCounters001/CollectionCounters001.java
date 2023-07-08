@@ -21,7 +21,6 @@
 
 package nsk.monitoring.GarbageCollectorMXBean.CollectionCounters.CollectionCounters001;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.lang.management.*;
 import nsk.share.TestFailure;
@@ -30,19 +29,6 @@ import nsk.monitoring.share.*;
 import nsk.share.gc.Algorithms;
 import nsk.share.runner.RunParams;
 import nsk.share.runner.RunParamsAware;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -57,8 +43,6 @@ import nsk.share.runner.RunParamsAware;
  *      nsk.monitoring.GarbageCollectorMXBean.CollectionCounters.CollectionCounters001.CollectionCounters001
  *      -testMode=directly
  */
-
-
 
 /**
  * Test counters from GarbageCollectorMXBean.

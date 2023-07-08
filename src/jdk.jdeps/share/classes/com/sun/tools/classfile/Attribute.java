@@ -21,25 +21,10 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.classfile;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.lang.reflect.Constructor;
 import java.util.HashMap;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  <p><b>This is NOT part of any supported API.
@@ -188,7 +173,6 @@ public abstract class Attribute {
 
     public final int attribute_name_index;
     public final int attribute_length;
-
 
     public interface Visitor<R,P> {
         R visitBootstrapMethods(BootstrapMethods_attribute attr, P p);

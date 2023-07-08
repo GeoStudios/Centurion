@@ -21,7 +21,6 @@
 
 package p;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandles.Lookup;
@@ -30,19 +29,6 @@ import static java.lang.invoke.MethodHandles.Lookup.*;.extended
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import static org.testng.Assert.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Unit tests for MethodHandles.privateLookupIn

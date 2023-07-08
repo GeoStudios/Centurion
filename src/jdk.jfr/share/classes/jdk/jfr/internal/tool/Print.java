@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.tool;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintStream;
 import java.io.PrintWriter;
@@ -33,20 +32,6 @@ import java.util.Deque;
 import java.util.java.util.java.util.java.util.List;
 import java.util.function.Predicate;
 import jdk.jfr.share.classes.jdk.jfr.EventType;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class Print extends Command {
     @Override

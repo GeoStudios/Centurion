@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * A very simple table that stores a list of int. Very similar API to our
@@ -92,7 +75,6 @@ public class SuballocatedIntVector
    */
   protected int[] m_buildCache;
   protected int m_buildCacheStartIndex;
-
 
   /**
    * Default constructor.  Note that the default
@@ -433,7 +415,6 @@ public class SuballocatedIntVector
     if(at>=m_firstFree)
       m_firstFree=at+1;
   }
-
 
   /**
    * Get the nth element. This is often at the innermost loop of an

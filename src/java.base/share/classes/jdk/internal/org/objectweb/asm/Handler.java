@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Information about an exception handler. Corresponds to an element of the exception_table array of
  * a Code attribute, as defined in the Java Virtual Machine Specification (JVMS). Handler instances

@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.axes;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisTraverser;
@@ -33,20 +32,6 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathVisitor;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.Compiler;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Serves as common interface for axes Walkers, and stores common

@@ -21,24 +21,9 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-
 import jdk.compiler.share.classes.com.sun.tools.javac.tree.*;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** A class for environments, instances of which are passed as
  *  arguments to tree visitors.  Environments refer to important ancestors

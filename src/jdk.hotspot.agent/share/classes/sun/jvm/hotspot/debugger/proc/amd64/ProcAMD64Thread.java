@@ -21,25 +21,10 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.proc.amd64;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.amd64.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.proc.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ProcAMD64Thread implements ThreadProxy {
     private final ProcDebugger debugger;

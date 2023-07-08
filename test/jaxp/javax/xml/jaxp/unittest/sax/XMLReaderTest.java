@@ -21,7 +21,6 @@
 
 package sax;
 
-
 import static jaxp.library.JAXPTestUtilities.clearSystemProperty;.extended
 import static jaxp.library.JAXPTestUtilities.setSystemProperty;.extended
 import javax.xml.parsers.ParserConfigurationException;
@@ -31,19 +30,6 @@ import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.XMLReaderAdapter;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

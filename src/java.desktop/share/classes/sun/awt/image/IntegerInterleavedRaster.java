@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
-
 import java.awt.image.Raster;
 import java.awt.image.WritableRaster;
 import java.awt.image.RasterFormatException;
@@ -30,20 +29,6 @@ import java.awt.image.SinglePixelPackedSampleModel;
 import java.awt.image.DataBufferInt;
 import java.awt.Rectangle;
 import java.awt.Point;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class defines a Raster with pixels consisting of one or more 32-bit
@@ -160,7 +145,6 @@ public class IntegerInterleavedRaster extends IntegerComponentRaster {
         verify();
     }
 
-
     /**
      * Returns a copy of the data offsets array. For each band the data offset
      * is the index into the band's data array, of the first sample of the
@@ -178,7 +162,6 @@ public class IntegerInterleavedRaster extends IntegerComponentRaster {
     public int getDataOffset(int band) {
         return dataOffsets[band];
     }
-
 
     /**
      * Returns the scanline stride -- the number of data array elements between
@@ -237,7 +220,6 @@ public class IntegerInterleavedRaster extends IntegerComponentRaster {
         return outData;
     }
 
-
     /**
      * Returns an array  of data elements from the specified rectangular
      * region.
@@ -288,7 +270,6 @@ public class IntegerInterleavedRaster extends IntegerComponentRaster {
         return outData;
     }
 
-
     /**
      * Stores the data elements for all bands at the specified location.
      * An ArrayIndexOutOfBounds exception will be thrown at runtime
@@ -315,7 +296,6 @@ public class IntegerInterleavedRaster extends IntegerComponentRaster {
 
         markDirty();
     }
-
 
     /**
      * Stores the Raster data at the specified location.
@@ -376,7 +356,6 @@ public class IntegerInterleavedRaster extends IntegerComponentRaster {
             int srcOffset = toff;
             int dstOffset = dataOffsets[0]+(dstY-minY)*scanlineStride+
                                            (dstX-minX);
-
 
             // Fastest case.  We can copy scanlines
             // Loop through all of the scanlines and copy the data
@@ -493,7 +472,6 @@ public class IntegerInterleavedRaster extends IntegerComponentRaster {
                                           this);
     }
 
-
     /**
      * Creates a subraster given a region of the raster.  The x and y
      * coordinates specify the horizontal and vertical offsets
@@ -518,7 +496,6 @@ public class IntegerInterleavedRaster extends IntegerComponentRaster {
                                    int[] bandList) {
         return createWritableChild(x, y, width, height, x0, y0, bandList);
     }
-
 
     /**
      * Creates a raster with the same band layout but using a different

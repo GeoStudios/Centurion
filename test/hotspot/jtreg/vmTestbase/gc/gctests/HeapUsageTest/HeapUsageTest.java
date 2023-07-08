@@ -21,25 +21,11 @@
 
 package gc.gctests.HeapUsageTest;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import nsk.share.TestFailure;
 import nsk.share.gc.GC;
 import nsk.share.gc.GCTestBase;
 import nsk.share.test.Stresser;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -58,8 +44,6 @@ import nsk.share.test.Stresser;
  *          /test/lib
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.HeapUsageTest.HeapUsageTest
  */
-
-
 
 /**
  * Micro benchmark that tests the heap usage.
@@ -103,7 +87,6 @@ public class HeapUsageTest extends GCTestBase {
         try {
             int[] testParams =
                     new int[]{512, 5, 2048, 3, 3145728, 2};
-
 
             TestValue[] values = new TestValue[testParams.length / 2];
             for (int i = 0; i < testParams.length / 2; i++) {

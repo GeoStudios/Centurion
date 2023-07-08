@@ -21,32 +21,14 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions;
 
-
 import java.text.MessageFormat;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.Constants;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.I18n;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * The mother of all runtime Exceptions in this bundle. It allows exceptions to have

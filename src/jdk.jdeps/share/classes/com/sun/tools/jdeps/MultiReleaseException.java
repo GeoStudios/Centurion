@@ -21,22 +21,6 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.jdeps;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Signals that an exception of some sort has occurred while processing
  * a multi-release jar file.

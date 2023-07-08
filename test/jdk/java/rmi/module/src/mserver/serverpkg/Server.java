@@ -21,21 +21,6 @@
 
 package serverpkg;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Server implements Hello {
 
     private final String hello = "Hello world!";

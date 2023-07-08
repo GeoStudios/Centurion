@@ -21,23 +21,9 @@
 
 package nsk.jdi.EventRequestManager.createThreadDeathRequest;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the tdreg001 JDI test.

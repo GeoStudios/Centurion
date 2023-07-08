@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.sun.awt;
 
-
 import java.awt.ScrollPane;
 import java.awt.Insets;
 import java.awt.Adjustable;
 import java.awt.event.MouseWheelEvent;
 import java.desktop.share.classes.sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * ScrollPaneWheelScroller is a helper class for implmenenting mouse wheel

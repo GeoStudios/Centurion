@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.security.cert;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Certificate is not yet valid exception. This is thrown whenever
  * the current {@code Date} or the specified {@code Date}

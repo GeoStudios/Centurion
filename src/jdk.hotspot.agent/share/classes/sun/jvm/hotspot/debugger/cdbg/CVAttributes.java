@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface CVAttributes {
   int CONST    = 0x01;
   int VOLATILE = 0x02;

@@ -21,7 +21,6 @@
 
 package gc.arguments;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.Linkedjava.util.java.util.java.util.List;
@@ -29,19 +28,6 @@ import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.Utils;
 import sun.hotspot.WhiteBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestNewRatioFlag
@@ -56,7 +42,6 @@ import sun.hotspot.WhiteBox;
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run driver gc.arguments.TestNewRatioFlag
  */
-
 
 public class TestNewRatioFlag {
 

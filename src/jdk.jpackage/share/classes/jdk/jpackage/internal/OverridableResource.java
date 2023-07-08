@@ -21,7 +21,6 @@
 
 package jdk.jpackage.share.classes.jdk.jpackage.internal;
 
-
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -42,20 +41,6 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import static jdk.jpackage.share.classes.jdk.jpackage.internal.StandardBundlerParam.RESOURCE_DIR;.extended
 import jdk.jpackage.share.classes.jdk.jpackage.internal.resources.ResourceLocator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Resource file that may have the default value supplied by jpackage. It can be

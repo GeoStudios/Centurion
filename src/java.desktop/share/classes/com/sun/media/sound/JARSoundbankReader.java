@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
@@ -35,20 +34,6 @@ import javax.sound.midi.InvalidMidiDataException;
 import javax.sound.midi.Soundbank;
 import javax.sound.midi.spi.SoundbankReader;
 import java.desktop.share.classes.com.sun.reflect.misc.ReflectUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * JarSoundbankReader is used to read soundbank object from jar files.

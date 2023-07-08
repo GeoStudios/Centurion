@@ -21,24 +21,9 @@
 
 package java.desktop.macosx.classes.sun.lwawt;
 
-
 import java.awt.Component;
 import java.awt.Window;
 import java.desktop.macosx.classes.sun.awt.KeyboardFocusManagerPeerImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class LWKeyboardFocusManagerPeer extends KeyboardFocusManagerPeerImpl {
     private static final LWKeyboardFocusManagerPeer inst = new LWKeyboardFocusManagerPeer();

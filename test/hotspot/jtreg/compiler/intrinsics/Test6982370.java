@@ -21,21 +21,7 @@
 
 package compiler.intrinsics;
 
-
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -45,8 +31,6 @@ import java.base.share.classes.java.util.Arrays;
  * @run main/othervm -XX:+IgnoreUnrecognizedVMOptions -XX:+OptimizeFill -Xbatch
  *      compiler.intrinsics.Test6982370
  */
-
-
 
 /**
  * Exercise the fill routine for various short alignments and sizes

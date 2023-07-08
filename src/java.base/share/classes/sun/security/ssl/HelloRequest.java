@@ -21,24 +21,9 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Pack of the HelloRequest handshake message.

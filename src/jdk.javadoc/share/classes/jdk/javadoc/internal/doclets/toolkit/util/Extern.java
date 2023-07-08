@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util;
 
-
 import java.io.BufferedReader;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -46,20 +45,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.doclet.Reporter;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.AbstractDoclet;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Resources;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Process and manage "-link" and "-linkoffline" to external packages. The

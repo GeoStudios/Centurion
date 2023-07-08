@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util.stream;
 
-
 import java.base.share.classes.java.nio.file.Files;
 import java.base.share.classes.java.nio.file.Path;
 import java.base.share.classes.java.util.*;
@@ -41,20 +40,6 @@ import java.base.share.classes.java.util.function.ToDoubleFunction;
 import java.base.share.classes.java.util.function.ToIntFunction;
 import java.base.share.classes.java.util.function.ToLongFunction;
 import java.base.share.classes.java.util.function.UnaryOperator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A sequence of elements supporting sequential and parallel aggregate

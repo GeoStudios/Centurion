@@ -21,29 +21,13 @@
 
 package bench.rmi;
 
-
 import java.io.Serializable;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  *
  */
-
-
 
 /**
  * The RMI benchmark server is a simple compute-engine-like server which allows

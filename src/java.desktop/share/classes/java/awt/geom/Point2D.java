@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.java.awt.geom;
 
-
 import java.desktop.share.classes.java.io.Serial;
 import java.desktop.share.classes.java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code Point2D} class defines a point representing a location

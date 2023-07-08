@@ -21,7 +21,6 @@
 
 package transform;
 
-
 import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
 import java.io.File;
 import javax.xml.transform.Source;
@@ -40,19 +39,6 @@ import transform.util.DOMUtil;
 import transform.util.SAXUtil;
 import transform.util.StAXUtil;
 import transform.util.StreamUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

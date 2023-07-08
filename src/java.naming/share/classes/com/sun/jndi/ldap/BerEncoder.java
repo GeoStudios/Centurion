@@ -21,23 +21,8 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
-
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * A BER encoder.
@@ -213,7 +198,6 @@ public final class BerEncoder extends Ber {
     }
 */
 
-
     /*
      * Encodes an int.
      *<blockquote><pre>
@@ -277,7 +261,6 @@ public final class BerEncoder extends Ber {
     public void encodeBoolean(boolean b) {
         encodeBoolean(b, ASN_BOOLEAN);
     }
-
 
     /**
      * Encodes a boolean and a tag

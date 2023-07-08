@@ -21,7 +21,6 @@
 
 package jdk.management.share.classes.com.sun.management.internal;
 
-
 import jdk.management.share.classes.com.sun.management.DiagnosticCommandMBean;
 import jdk.management.share.classes.com.sun.management.HotSpotDiagnosticMXBean;
 import jdk.management.share.classes.com.sun.management.ThreadMXBean;
@@ -41,20 +40,6 @@ import java.util.stream.Stream;
 import javax.management.DynamicMBean;
 import jdk.management.share.classes.com.sun.management.ManagementFactoryHelper;
 import jdk.management.share.classes.com.sun.management.spi.PlatformMBeanProvider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("removal")
 public final class PlatformMBeanProviderImpl extends PlatformMBeanProvider {

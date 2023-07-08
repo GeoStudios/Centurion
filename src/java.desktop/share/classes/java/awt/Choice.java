@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.event.ItemEvent;
 import java.desktop.share.classes.java.awt.event.Itemjava.util.Listener;
 import java.desktop.share.classes.java.awt.peer.ChoicePeer;
@@ -35,20 +34,6 @@ import javax.accessibility.Accessible;
 import javax.accessibility.AccessibleAction;
 import javax.accessibility.AccessibleContext;
 import javax.accessibility.AccessibleRole;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code Choice} class presents a pop-up menu of choices.
@@ -262,7 +247,6 @@ public class Choice extends Component implements ItemSelectable, Accessible {
         }
     }
 
-
     /**
      * Inserts the item into this choice at the specified position.
      * Existing items at an index greater than or equal to
@@ -366,7 +350,6 @@ public class Choice extends Component implements ItemSelectable, Accessible {
             select(selectedIndex-1);
         }
     }
-
 
     /**
      * Removes all items from the choice menu.
@@ -649,7 +632,6 @@ public class Choice extends Component implements ItemSelectable, Accessible {
         return super.paramString() + ",current=" + getSelectedItem();
     }
 
-
     /* Serialization support.
      */
 
@@ -734,7 +716,6 @@ public class Choice extends Component implements ItemSelectable, Accessible {
 /////////////////
 // Accessibility support
 ////////////////
-
 
     /**
      * Gets the {@code AccessibleContext} associated with this

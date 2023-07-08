@@ -21,7 +21,6 @@
 
 package java.management.share.classes.javax.management.relation;
 
-
 import com.sun.jmx.mbeanserver.GetPropertyAction;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
@@ -30,20 +29,6 @@ import java.io.ObjectStreamField;
 import java.io.Serializable;
 import java.security.AccessController;
 import java.util.Iterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents the result of a multiple access to several roles of a relation
@@ -240,7 +225,6 @@ public class RoleResult implements Serializable {
         in.defaultReadObject();
       }
     }
-
 
     /**
      * Serializes a {@link RoleResult} to an {@link ObjectOutputStream}.

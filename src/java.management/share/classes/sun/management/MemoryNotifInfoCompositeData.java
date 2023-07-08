@@ -21,27 +21,12 @@
 
 package java.management.share.classes.sun.management;
 
-
 import java.lang.management.MemoryNotificationInfo;
 import java.lang.management.MemoryUsage;
 import javax.management.openmbean.CompositeData;
 import javax.management.openmbean.CompositeType;
 import javax.management.openmbean.CompositeDataSupport;
 import javax.management.openmbean.OpenDataException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A CompositeData for MemoryNotificationInfo for the local management support.
@@ -104,7 +89,6 @@ public class MemoryNotifInfoCompositeData extends LazyCompositeData {
         USAGE,
         COUNT,
     };
-
 
     public static String getPoolName(CompositeData cd) {
         String poolname = getString(cd, POOL_NAME);

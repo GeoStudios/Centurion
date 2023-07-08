@@ -21,21 +21,6 @@
 
 package jdk.test.lib.jittester;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public abstract class Operator extends IRNode {
     protected final OperatorKind opKind;
     private final int priority;

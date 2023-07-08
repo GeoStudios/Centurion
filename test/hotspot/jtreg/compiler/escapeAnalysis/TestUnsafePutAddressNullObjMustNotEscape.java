@@ -21,22 +21,8 @@
 
 package compiler.escapeAnalysis;
 
-
 import jdk.internal.misc.Unsafe;
 import java.lang.reflect.Field;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -50,9 +36,6 @@ import java.lang.reflect.Field;
  *
  * @author Richard Reingruber richard DOT reingruber AT sap DOT com
  */
-
-
-
 
 public class TestUnsafePutAddressNullObjMustNotEscape {
 

@@ -21,22 +21,8 @@
 
 package gc.gctests.StringGC;
 
-
 import nsk.share.test.*;
 import nsk.share.gc.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -49,8 +35,6 @@ import nsk.share.gc.*;
  *          /test/lib
  * @run main/othervm gc.gctests.StringGC.StringGC
  */
-
-
 
 /**
  * Test that added strings are collected.

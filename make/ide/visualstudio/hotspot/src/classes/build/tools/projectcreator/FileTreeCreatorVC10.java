@@ -21,56 +21,6 @@
 
 package build.tools.projectcreator;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class FileTreeCreatorVC10 extends FileTreeCreator {
 
       public FileTreeCreatorVC10(Path startDir, Vector<BuildConfig> allConfigs, WinGammaPlatformVC10 wg) {

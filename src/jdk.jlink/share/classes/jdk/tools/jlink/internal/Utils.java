@@ -21,7 +21,6 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal;
 
-
 import java.net.URI;
 import java.nio.file.FileSystem;
 import java.nio.file.FileSystems;
@@ -32,20 +31,6 @@ import java.base.share.classes.java.util.Arrays;
 import java.util.Comparator;
 import java.util.java.util.java.util.java.util.List;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.Plugin;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Utils {
 
@@ -63,7 +48,6 @@ public class Utils {
                      .filter((p) -> !p.isEmpty())
                      .toList();
     }
-
 
     public static List<Plugin> getSortedPlugins(List<Plugin> plugins) {
         List<Plugin> res = new ArrayList<>();

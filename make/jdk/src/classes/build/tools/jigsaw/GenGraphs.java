@@ -21,56 +21,6 @@
 
 package build.tools.jigsaw;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Generate the DOT file for a module graph for each module in the JDK
  * after transitive reduction.

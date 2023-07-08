@@ -21,25 +21,10 @@
 
 package java.base.share.classes.jdk.internal.icu.impl;
 
-
 import java.base.share.classes.jdk.internal.icu.lang.UCharacter;
 import java.base.share.classes.jdk.internal.icu.text.UTF16;
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.Locale;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class Utility {
 

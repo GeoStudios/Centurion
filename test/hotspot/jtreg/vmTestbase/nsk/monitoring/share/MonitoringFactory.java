@@ -21,23 +21,9 @@
 
 package nsk.monitoring.share;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.lang.management.*;
 import javax.management.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This factory encapsulates a way to obtain VM monitoring beans.

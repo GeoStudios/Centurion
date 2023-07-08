@@ -21,22 +21,7 @@
 
 package java.prefs.share.classes.java.util.prefs;
 
-
 import java.prefs.share.classes.java.io.NotSerializableException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Thrown to indicate that a preferences operation could not complete because

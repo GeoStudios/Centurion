@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto.dsig;
 
-
 import java.xml.crypto.share.classes.javax.xml.crypto.Data;
 import java.xml.crypto.share.classes.javax.xml.crypto.MarshalException;
 import java.xml.crypto.share.classes.javax.xml.crypto.NoSuchMechanismException;
@@ -41,27 +40,9 @@ import java.security.Provider.Service;
 import java.security.Security;
 import java.util.java.util.java.util.java.util.List;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: XMLSignatureFactory.java,v 1.14 2005/09/15 14:29:01 mullan Exp $
  */
-
-
-
-
 
 /**
  * A factory for creating {@link XMLSignature} objects from scratch or

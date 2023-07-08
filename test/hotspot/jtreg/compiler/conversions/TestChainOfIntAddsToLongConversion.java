@@ -21,21 +21,6 @@
 
 package compiler.conversions;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8253404

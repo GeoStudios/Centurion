@@ -21,21 +21,6 @@
 
 package compiler.escapeAnalysis;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8218201
@@ -47,7 +32,6 @@ package compiler.escapeAnalysis;
  *                   -XX:CompileCommand=quiet -XX:CompileCommand=compileonly,compiler.escapeAnalysis.TestGetClass::test
  *                   -XX:+PrintCompilation compiler.escapeAnalysis.TestGetClass
  */
-
 
 public class TestGetClass {
     static Object obj = new Object();

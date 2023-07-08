@@ -21,26 +21,11 @@
 
 package java.management.share.classes.javax.management.modelmbean;
 
-
 import java.management.share.classes.javax.management.DynamicMBean;
 import java.management.share.classes.javax.management.InstanceNotFoundException;
 import java.management.share.classes.javax.management.MBeanException;
 import java.management.share.classes.javax.management.PersistentMBean;
 import java.management.share.classes.javax.management.RuntimeOperationsException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This interface must be implemented by the ModelMBeans. An implementation of this interface

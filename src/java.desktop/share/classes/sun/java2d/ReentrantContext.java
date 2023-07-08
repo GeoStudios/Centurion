@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.sun.java2d;
 
-
 import java.lang.ref.Reference;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * ReentrantContext is a base class to hold thread-local data supporting

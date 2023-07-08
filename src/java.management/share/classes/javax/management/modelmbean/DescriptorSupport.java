@@ -21,7 +21,6 @@
 
 package java.management.share.classes.javax.management.modelmbean;
 
-
 import static com.sun.jmx.defaults.JmxProperties.MODELMBEAN_LOGGER;.extended
 import static com.sun.jmx.mbeanserver.Util.cast;.extended
 import com.sun.jmx.mbeanserver.GetPropertyAction;
@@ -46,20 +45,6 @@ import java.management.share.classes.javax.management.ImmutableDescriptor;
 import java.management.share.classes.javax.management.MBeanException;
 import java.management.share.classes.javax.management.RuntimeOperationsException;
 import sun.reflect.misc.ReflectUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents the metadata set for a ModelMBean element.  A
@@ -156,7 +141,6 @@ public class DescriptorSupport
 
     private static final String currClass = "DescriptorSupport";
 
-
     /**
      * Descriptor default constructor.
      * Default initial descriptor size is 20.  It will grow as needed.<br>
@@ -223,7 +207,6 @@ public class DescriptorSupport
         else
             init(inDescr.descriptorMap);
     }
-
 
     /**
      * <p>Descriptor constructor taking an XML String.</p>
@@ -294,7 +277,6 @@ public class DescriptorSupport
         boolean inDesc = false;
         String fieldName = null;
         String fieldValue = null;
-
 
         while (st.hasMoreTokens()) {  // loop through tokens
             String tok = st.nextToken();
@@ -496,7 +478,6 @@ public class DescriptorSupport
 
     // Implementation of the Descriptor interface
 
-
     public synchronized Object getFieldValue(String fieldName)
             throws RuntimeOperationsException {
 
@@ -639,7 +620,6 @@ public class DescriptorSupport
 
         return responseFields;
     }
-
 
     public synchronized Object[] getFieldValues(String... fieldNames) {
         if (MODELMBEAN_LOGGER.isLoggable(Level.TRACE)) {
@@ -895,7 +875,6 @@ public class DescriptorSupport
         return true;
     }
 
-
     // worker routine for isValid()
     // name is not null
     // descriptorType is not null
@@ -909,7 +888,6 @@ public class DescriptorSupport
     // role is not null
     // class is not null
     // lastReturnedTimeStamp is numeric
-
 
     private boolean validateField(String fldName, Object fldValue) {
         if ((fldName == null) || (fldName.isEmpty()))
@@ -984,8 +962,6 @@ public class DescriptorSupport
         // default to true, it is a field we aren't validating (user etc.)
         return true;
     }
-
-
 
     /**
      * <p>Returns an XML String representing the descriptor.</p>
@@ -1264,7 +1240,6 @@ public class DescriptorSupport
         }
     }
 
-
     /**
      * Deserializes a {@link DescriptorSupport} from an {@link
      * ObjectInputStream}.
@@ -1278,7 +1253,6 @@ public class DescriptorSupport
             descriptorMap.putAll(descriptor);
         }
     }
-
 
     /**
      * Serializes a {@link DescriptorSupport} to an {@link ObjectOutputStream}.

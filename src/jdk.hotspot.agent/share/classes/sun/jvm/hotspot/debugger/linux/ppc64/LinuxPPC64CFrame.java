@@ -21,26 +21,11 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.linux.ppc64;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.ppc64.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.linux.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.basic.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final public class LinuxPPC64CFrame extends BasicCFrame {
   // package/class internals only

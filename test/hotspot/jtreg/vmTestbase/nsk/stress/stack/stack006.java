@@ -21,21 +21,7 @@
 
 package nsk.stress.stack;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -65,9 +51,6 @@ import java.io.PrintStream;
  * @requires vm.opt.DeoptimizeALot != true
  * @run main/othervm/timeout=900 nsk.stress.stack.stack006
  */
-
-
-
 
 public class stack006 implements stack006i {
     public static void main(String[] args) {

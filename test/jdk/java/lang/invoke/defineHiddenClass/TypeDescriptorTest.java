@@ -21,7 +21,6 @@
 
 package test;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.lang.constant.*;
@@ -35,19 +34,6 @@ import org.testng.annotations.Test;
 import org.testng.annotations.DataProvider;
 import static org.testng.Assert.*;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8242013
@@ -56,9 +42,6 @@ import static org.testng.Assert.*;.extended
  *          cannot be used to produce ConstantDesc via ClassDesc or
  *          MethodTypeDesc factory methods
  */
-
-
-
 
 public class TypeDescriptorTest {
     private static final Lookup HC_LOOKUP = defineHiddenClass();

@@ -21,21 +21,7 @@
 
 package nsk.jvmti.DestroyRawMonitor;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class drrawmon004 {
 

@@ -21,26 +21,12 @@
 
 package gc.gctests.AllocateWithoutOomTest;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Random;
 import nsk.share.TestFailure;
 import nsk.share.gc.GC;
 import nsk.share.gc.GCTestBase;
 import nsk.share.test.Stresser;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -63,8 +49,6 @@ import nsk.share.test.Stresser;
  *      gc.gctests.AllocateWithoutOomTest.AllocateWithoutOomTest
  */
 
-
-
 /**
  * Small stress test that should be able to run for a specified
  * time without hitting an OOM.
@@ -84,11 +68,8 @@ public class AllocateWithoutOomTest extends GCTestBase {
         int minSize;
         int maxSize;
 
-
-
         minSize = 2048;
         maxSize = 32768;
-
 
         ArrayList placeholder = new ArrayList();
         long multiplier = maxSize - minSize;
@@ -98,7 +79,6 @@ public class AllocateWithoutOomTest extends GCTestBase {
         long memoryLowerLimit = runParams.getTestMemory() / 3;
         long memoryAllocatedLowerLimit = memoryUpperLimit
                 - memoryLowerLimit;
-
 
         long totalAllocatedMemory = 0;
         long totalAllocatedObjects = 0;

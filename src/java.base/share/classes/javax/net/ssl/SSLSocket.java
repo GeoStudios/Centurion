@@ -21,25 +21,10 @@
 
 package java.base.share.classes.javax.net.ssl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.*;
 import java.util.java.util.java.util.java.util.List;
 import java.util.function.BiFunction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class extends <code>Socket</code> and provides secure
@@ -210,7 +195,6 @@ public abstract class SSLSocket extends Socket
     protected SSLSocket()
         { super(); }
 
-
     /**
      * Used only by subclasses.
      * Constructs a TCP connection to a named host at a specified port.
@@ -236,7 +220,6 @@ public abstract class SSLSocket extends Socket
     throws IOException, UnknownHostException
         { super(host, port); }
 
-
     /**
      * Used only by subclasses.
      * Constructs a TCP connection to a server at a specified address
@@ -260,7 +243,6 @@ public abstract class SSLSocket extends Socket
     protected SSLSocket(InetAddress address, int port)
     throws IOException
         { super(address, port); }
-
 
     /**
      * Used only by subclasses.
@@ -293,7 +275,6 @@ public abstract class SSLSocket extends Socket
     throws IOException, UnknownHostException
         { super(host, port, clientAddress, clientPort); }
 
-
     /**
      * Used only by subclasses.
      * Constructs an SSL connection to a server at a specified address
@@ -324,7 +305,6 @@ public abstract class SSLSocket extends Socket
     throws IOException
         { super(address, port, clientAddress, clientPort); }
 
-
     /**
      * Returns the names of the cipher suites which could be enabled for use
      * on this connection.  Normally, only a subset of these will actually
@@ -344,7 +324,6 @@ public abstract class SSLSocket extends Socket
      * @see #setEnabledCipherSuites(String [])
      */
     public abstract String [] getSupportedCipherSuites();
-
 
     /**
      * Returns the names of the SSL cipher suites which are currently
@@ -370,7 +349,6 @@ public abstract class SSLSocket extends Socket
      * @see #setEnabledCipherSuites(String [])
      */
     public abstract String [] getEnabledCipherSuites();
-
 
     /**
      * Sets the cipher suites enabled for use on this connection.
@@ -400,7 +378,6 @@ public abstract class SSLSocket extends Socket
      */
     public abstract void setEnabledCipherSuites(String[] suites);
 
-
     /**
      * Returns the names of the protocols which could be enabled for use
      * on an SSL connection.
@@ -408,7 +385,6 @@ public abstract class SSLSocket extends Socket
      * @return an array of protocols supported
      */
     public abstract String [] getSupportedProtocols();
-
 
     /**
      * Returns the names of the protocol versions which are currently
@@ -423,7 +399,6 @@ public abstract class SSLSocket extends Socket
      * @return an array of protocols
      */
     public abstract String [] getEnabledProtocols();
-
 
     /**
      * Sets the protocol versions enabled for use on this connection.
@@ -440,7 +415,6 @@ public abstract class SSLSocket extends Socket
      * @see #getEnabledProtocols()
      */
     public abstract void setEnabledProtocols(String[] protocols);
-
 
     /**
      * Returns the SSL Session in use by this connection.  These can
@@ -460,7 +434,6 @@ public abstract class SSLSocket extends Socket
      * @return the <code>SSLSession</code>
      */
     public abstract SSLSession getSession();
-
 
     /**
      * Returns the {@code SSLSession} being constructed during a SSL/TLS
@@ -505,7 +478,6 @@ public abstract class SSLSocket extends Socket
         throw new UnsupportedOperationException();
     }
 
-
     /**
      * Registers an event listener to receive notifications that an
      * SSL handshake has completed on this connection.
@@ -518,7 +490,6 @@ public abstract class SSLSocket extends Socket
     public abstract void addHandshakeCompletedListener(
         HandshakeCompletedListener listener);
 
-
     /**
      * Removes a previously registered handshake completion listener.
      *
@@ -529,7 +500,6 @@ public abstract class SSLSocket extends Socket
      */
     public abstract void removeHandshakeCompletedListener(
         HandshakeCompletedListener listener);
-
 
     /**
      * Starts an SSL handshake on this connection.  Common reasons include
@@ -551,7 +521,6 @@ public abstract class SSLSocket extends Socket
      */
     public abstract void startHandshake() throws IOException;
 
-
     /**
      * Configures the socket to use client (or server) mode when
      * handshaking.
@@ -571,7 +540,6 @@ public abstract class SSLSocket extends Socket
      */
     public abstract void setUseClientMode(boolean mode);
 
-
     /**
      * Returns true if the socket is set to use client mode when
      * handshaking.
@@ -581,7 +549,6 @@ public abstract class SSLSocket extends Socket
      * @see #setUseClientMode(boolean)
      */
     public abstract boolean getUseClientMode();
-
 
     /**
      * Configures the socket to <i>require</i> client authentication.  This
@@ -611,7 +578,6 @@ public abstract class SSLSocket extends Socket
      */
     public abstract void setNeedClientAuth(boolean need);
 
-
     /**
      * Returns true if the socket will <i>require</i> client authentication.
      * This option is only useful to sockets in the server mode.
@@ -624,7 +590,6 @@ public abstract class SSLSocket extends Socket
      * @see #setUseClientMode(boolean)
      */
     public abstract boolean getNeedClientAuth();
-
 
     /**
      * Configures the socket to <i>request</i> client authentication.
@@ -653,7 +618,6 @@ public abstract class SSLSocket extends Socket
      */
     public abstract void setWantClientAuth(boolean want);
 
-
     /**
      * Returns true if the socket will <i>request</i> client authentication.
      * This option is only useful for sockets in the server mode.
@@ -667,7 +631,6 @@ public abstract class SSLSocket extends Socket
      */
     public abstract boolean getWantClientAuth();
 
-
     /**
      * Controls whether new SSL sessions may be established by this socket.
      * If session creations are not allowed, and there are no
@@ -680,7 +643,6 @@ public abstract class SSLSocket extends Socket
      * @see #getEnableSessionCreation()
      */
     public abstract void setEnableSessionCreation(boolean flag);
-
 
     /**
      * Returns true if new SSL sessions may be established by this socket.
@@ -799,7 +761,6 @@ public abstract class SSLSocket extends Socket
     public String getHandshakeApplicationProtocol() {
         throw new UnsupportedOperationException();
     }
-
 
     /**
      * Registers a callback function that selects an application protocol

@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
-
 import java.desktop.share.classes.javax.swing.*;
 import java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * OptionComboBoxModel extends the capabilities of the DefaultComboBoxModel,

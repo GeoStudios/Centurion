@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.io;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class allows an application to create an input stream in
  * which the bytes read are supplied by the contents of a string.

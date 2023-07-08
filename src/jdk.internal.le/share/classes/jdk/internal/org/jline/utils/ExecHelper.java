@@ -21,7 +21,6 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.utils;
 
-
 import java.io.ByteArrayOutputStream;
 import java.io.Closeable;
 import java.io.java.io.java.io.java.io.IOException;
@@ -30,20 +29,6 @@ import java.io.Interruptedjava.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.util.Map;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Helper methods for running unix commands.

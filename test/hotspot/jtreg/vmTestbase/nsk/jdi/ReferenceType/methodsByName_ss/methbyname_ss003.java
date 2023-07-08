@@ -21,26 +21,12 @@
 
 package nsk.jdi.ReferenceType.methodsByName_ss;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This test checks the method <code>methodsByName(String name, String signature)</code>
@@ -62,7 +48,6 @@ public class methbyname_ss003 {
 
     /** Debugee's class for check **/
     private final static String checked_class = package_prefix + "methbyname_ss003b";
-
 
     /**
      * Re-call to <code>run(args,out)</code>, and exit with

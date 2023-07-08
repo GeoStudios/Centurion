@@ -21,7 +21,6 @@
 
 package jdk.incubator.foreign.share.classes.jdk.incubator.foreign;
 
-
 import java.lang.constant.Constable;
 import java.lang.constant.ConstantDesc;
 import java.lang.constant.ConstantDescs;
@@ -35,20 +34,6 @@ import java.util.Optional;
 import java.util.OptionalLong;
 import java.util.function.LongBinaryOperator;
 import java.util.stream.Collectors;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A group layout is used to combine together multiple <em>member layouts</em>. There are two ways in which member layouts

@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.INVOKESPECIAL;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.INVOKEVIRTUAL;
@@ -38,26 +37,9 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.NoSuchElementException;
 import java.util.StringTokenizer;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: AttributeValueTemplate.java,v 1.2.4.1 2005/09/01 10:26:57 pvedula Exp $
  */
-
-
-
 
 /**
  * @LastModified: Oct 2017

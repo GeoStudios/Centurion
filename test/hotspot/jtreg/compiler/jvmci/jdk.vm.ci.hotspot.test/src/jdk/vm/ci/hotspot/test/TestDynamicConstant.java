@@ -21,7 +21,6 @@
 
 package jdk.vm.ci.hotspot.test;
 
-
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.lang.invoke.ConstantBootstraps;
@@ -44,19 +43,6 @@ import jdk.vm.ci.meta.PrimitiveConstant;
 import jdk.vm.ci.meta.ResolvedJavaMethod;
 import jdk.vm.ci.runtime.JVMCI;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @requires vm.jvmci
@@ -69,10 +55,6 @@ import jdk.vm.ci.runtime.JVMCI;
  *      -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler
  *      jdk.vm.ci.hotspot.test.TestDynamicConstant
  */
-
-
-
-
 
 /**
  * Tests support for Dynamic constants.
@@ -291,7 +273,6 @@ public class TestDynamicConstant implements Opcodes {
     @SuppressWarnings("unused") public static double  getDoubleBSM (MethodHandles.Lookup l, String name, Class<?> type) { return Double.MAX_VALUE; }
     @SuppressWarnings("unused") public static String  getStringBSM (MethodHandles.Lookup l, String name, Class<?> type) { return "a string"; }
     @SuppressWarnings("unused") public static List<?> getListBSM   (MethodHandles.Lookup l, String name, Class<?> type) { return List.of("element"); }
-
 
     public static boolean getBoolean() { return true; }
     public static char    getChar   () { return '*'; }

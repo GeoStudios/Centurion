@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.pipe;
 
-
 import java.awt.Rectangle;
 import java.awt.Shape;
 import java.awt.geom.Arc2D;
@@ -30,20 +29,6 @@ import java.awt.geom.Line2D;
 import java.awt.geom.RoundRectangle2D;
 import java.awt.geom.GeneralPath;
 import java.desktop.share.classes.sun.java2d.SunGraphics2D;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class converts calls to the basic pixel rendering methods

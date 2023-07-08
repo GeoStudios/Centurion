@@ -21,7 +21,6 @@
 
 package compiler.jvmci.compilerToVM;
 
-
 import compiler.jvmci.common.CTVMUtilities;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.util.Pair;
@@ -36,19 +35,6 @@ import java.util.HashSet;
 import java.util.java.util.java.util.java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -75,9 +61,6 @@ import java.util.stream.Stream;
  *                   -XX:-BackgroundCompilation
  *                   compiler.jvmci.compilerToVM.AllocateCompileIdTest
  */
-
-
-
 
 public class AllocateCompileIdTest {
 

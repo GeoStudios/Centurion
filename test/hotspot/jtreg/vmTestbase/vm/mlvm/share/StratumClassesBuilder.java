@@ -21,7 +21,6 @@
 
 package vm.mlvm.share;
 
-
 import jdk.test.lib.JDKToolLauncher;
 import jdk.test.lib.Utils;
 import jdk.test.lib.process.ProcessTools;
@@ -33,19 +32,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.base.share.classes.java.util.Arrays;
 import java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class StratumClassesBuilder {
     public static void main(String[] args) {

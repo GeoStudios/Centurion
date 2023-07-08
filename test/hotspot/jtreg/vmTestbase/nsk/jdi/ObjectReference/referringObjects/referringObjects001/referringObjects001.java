@@ -21,26 +21,12 @@
 
 package nsk.jdi.ObjectReference.referringObjects.referringObjects001;
 
-
 import java.io.PrintStream;
 import java.util.*;
 import nsk.share.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import nsk.share.jpda.AbstractDebuggeeTest;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -87,11 +73,6 @@ import nsk.share.jpda.AbstractDebuggeeTest;
  *      -transport.address=dynamic
  *      -debugee.vmkeys="-Xmx128M ${test.vm.opts} ${test.java.opts}"
  */
-
-
-
-
-
 
 public class referringObjects001 extends HeapwalkingDebugger {
 
@@ -141,7 +122,6 @@ public class referringObjects001 extends HeapwalkingDebugger {
                 return;
         }
     }
-
 
     protected void testReferrerType(String referrerType, String className) {
         // can't check number of referrers for objects that was created in debugee VM

@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing.tree;
 
-
 import java.io.*;
 import java.beans.ConstructorProperties;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * {@code TreePath} represents an array of objects that uniquely

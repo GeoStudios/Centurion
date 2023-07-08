@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.Locale;
 import javax.imageio.ImageReader;
 import javax.imageio.spi.ImageReaderSpi;
 import javax.imageio.spi.ServiceRegistry;
 import javax.imageio.stream.ImageInputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class TIFFImageReaderSpi extends ImageReaderSpi {
 

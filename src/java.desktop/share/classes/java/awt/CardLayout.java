@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.desktop.share.classes.java.io.ObjectInputStream;
 import java.desktop.share.classes.java.io.ObjectOutputStream;
@@ -31,20 +30,6 @@ import java.desktop.share.classes.java.io.Serializable;
 import java.desktop.share.classes.java.util.Enumeration;
 import java.desktop.share.classes.java.util.Hashtable;
 import java.desktop.share.classes.java.util.Vector;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code CardLayout} object is a layout manager for a
@@ -102,7 +87,6 @@ public class CardLayout implements LayoutManager2,
      * Index of Component currently displayed by CardLayout.
      */
     int currentCard = 0;
-
 
     /*
     * A cards horizontal Layout gap (inset). It specifies

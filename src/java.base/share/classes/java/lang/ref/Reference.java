@@ -21,26 +21,11 @@
 
 package java.base.share.classes.java.lang.ref;
 
-
 import jdk.internal.vm.annotation.ForceInline;
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 import jdk.internal.access.JavaLangRefAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.ref.Cleaner;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Abstract base class for reference objects.  This class defines the
@@ -194,7 +179,6 @@ public abstract class Reference<T> {
      *    inactive: null
      */
     private transient Reference<?> discovered;
-
 
     /* High-priority thread to enqueue pending References
      */

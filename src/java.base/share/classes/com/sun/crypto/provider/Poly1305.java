@@ -21,7 +21,6 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
-
 import java.nio.ByteBuffer;
 import java.base.share.classes.java.security.Key;
 import java.base.share.classes.java.security.InvalidKeyException;
@@ -30,20 +29,6 @@ import java.base.share.classes.java.util.Arrays;
 import java.base.share.classes.java.util.Objects;
 import java.base.share.classes.com.sun.security.util.math.*;
 import java.base.share.classes.com.sun.security.util.math.intpoly.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents the Poly1305 function defined in RFC 7539.
@@ -201,7 +186,6 @@ final class Poly1305 {
             blockOffset = 0;
         }
     }
-
 
     /**
      * Finish the authentication operation and reset the MAC for a new

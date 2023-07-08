@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.font.TextAttribute;
@@ -46,20 +45,6 @@ import java.desktop.share.classes.javax.swing.undo.CannotUndoException;
 import java.desktop.share.classes.javax.swing.undo.UndoableEdit;
 import java.desktop.share.classes.javax.swing.SwingUtilities;
 import static sun.swing.SwingUtilities2.IMPLIED_CR;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A document that can be marked up with character and paragraph
@@ -419,7 +404,6 @@ public class DefaultStyledDocument extends AbstractDocument implements StyledDoc
         StyleContext styles = (StyleContext) getAttributeContext();
         return styles.getStyle(nm);
     }
-
 
     /**
      * Fetches the list of style names.
@@ -1234,7 +1218,6 @@ public class DefaultStyledDocument extends AbstractDocument implements StyledDoc
          */
         public static final short JoinFractureDirection = 7;
 
-
         /**
          * Constructor useful for markup when the markup will not
          * be stored in the document.
@@ -1338,7 +1321,6 @@ public class DefaultStyledDocument extends AbstractDocument implements StyledDoc
         public char[] getArray() {
             return data == null ? null : Arrays.copyOf(data, data.length);
         }
-
 
         /**
          * Gets the starting offset.
@@ -2732,7 +2714,6 @@ public class DefaultStyledDocument extends AbstractDocument implements StyledDoc
         }
     }
 
-
     /**
      * Added to the StyleContext. When the StyleContext changes, this invokes
      * <code>updateStylesListeningTo</code>.
@@ -2747,7 +2728,6 @@ public class DefaultStyledDocument extends AbstractDocument implements StyledDoc
             d.updateStylesListeningTo();
         }
     }
-
 
     /**
      * When run this creates a change event for the complete document

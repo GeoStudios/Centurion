@@ -21,25 +21,11 @@
 
 package nsk.jdi.TypeComponent.isPublic;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ispublic001 {
 
@@ -152,7 +138,6 @@ public class ispublic001 {
             complain("Class '" + debuggeeName + "' not found.");
             return Consts.TEST_FAILED;
         }
-
 
         display("Checking isPublic() method for debuggee's fields...");
 

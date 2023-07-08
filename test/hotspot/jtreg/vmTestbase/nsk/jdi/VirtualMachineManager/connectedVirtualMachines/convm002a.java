@@ -21,23 +21,9 @@
 
 package nsk.jdi.VirtualMachineManager.connectedVirtualMachines;
 
-
 import nsk.share.Log;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the convm002 JDI test.

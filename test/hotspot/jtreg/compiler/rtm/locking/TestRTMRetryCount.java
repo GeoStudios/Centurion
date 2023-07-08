@@ -21,7 +21,6 @@
 
 package compiler.rtm.locking;
 
-
 import compiler.testlibrary.rtm.BusyLock;
 import compiler.testlibrary.rtm.CompilableTest;
 import compiler.testlibrary.rtm.RTMLockingStatistics;
@@ -30,19 +29,6 @@ import jdk.test.lib.Asserts;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.cli.CommandLineOptionTest;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -58,9 +44,6 @@ import java.util.java.util.java.util.java.util.List;
  *                   -XX:+WhiteBoxAPI
  *                   compiler.rtm.locking.TestRTMRetryCount
  */
-
-
-
 
 /**
  * Test verifies that RTMRetryCount option actually affects amount of

@@ -21,22 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class ModuleHelper {
 
     private static final String[] javacInternalPackages = new String[] {

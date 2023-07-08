@@ -21,7 +21,6 @@
 
 package jdk.management.share.classes.com.sun.management.internal;
 
-
 import java.lang.management.MemoryUsage;
 import java.lang.reflect.Method;
 import java.lang.reflect.Field;
@@ -41,20 +40,6 @@ import jdk.management.share.classes.com.sun.management.LazyCompositeData;
 import static jdk.management.share.classes.com.sun.management.LazyCompositeData.getLong;.extended
 import jdk.management.share.classes.com.sun.management.MappedMXBeanType;
 import jdk.management.share.classes.com.sun.management.Util;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A CompositeData for GcInfo for the local management support.
@@ -176,7 +161,6 @@ public class GcInfoCompositeData extends LazyCompositeData {
         MEMORY_USAGE_BEFORE_GC,
         MEMORY_USAGE_AFTER_GC,
     };
-
 
     private static final MappedMXBeanType memoryUsageMapType;
     static {

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text.rtf;
 
-
 import java.awt.*;
 import java.io.*;
 import java.net.MalformedURLException;
@@ -29,20 +28,6 @@ import java.net.URL;
 import java.desktop.share.classes.javax.swing.Action;
 import java.desktop.share.classes.javax.swing.text.*;
 import java.desktop.share.classes.javax.swing.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is the default implementation of RTF editing

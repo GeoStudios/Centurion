@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.java.awt.event;
 
-
 import java.desktop.share.classes.java.awt.AWTEvent;
 import java.desktop.share.classes.java.io.Serial;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A semantic event which indicates that an object's text changed.
@@ -102,7 +87,6 @@ public class TextEvent extends AWTEvent {
     public TextEvent(Object source, int id) {
         super(source, id);
     }
-
 
     /**
      * Returns a parameter string identifying this text event.

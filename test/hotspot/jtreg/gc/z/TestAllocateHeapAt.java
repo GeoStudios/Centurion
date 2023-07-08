@@ -21,21 +21,7 @@
 
 package gc.z;
 
-
 import jdk.test.lib.process.ProcessTools;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestAllocateHeapAt
@@ -45,7 +31,6 @@ import jdk.test.lib.process.ProcessTools;
  * @run main/othervm gc.z.TestAllocateHeapAt . true
  * @run main/othervm gc.z.TestAllocateHeapAt non-existing-directory false
  */
-
 
 public class TestAllocateHeapAt {
     public static void main(String[] args) throws Exception {

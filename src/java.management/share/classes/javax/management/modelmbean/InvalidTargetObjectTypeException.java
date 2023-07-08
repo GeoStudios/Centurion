@@ -21,27 +21,12 @@
 
 package java.management.share.classes.javax.management.modelmbean;
 
-
 import com.sun.jmx.mbeanserver.GetPropertyAction;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.ObjectStreamField;
 import java.security.AccessController;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Exception thrown when an invalid target object type is specified.
@@ -111,7 +96,6 @@ public class InvalidTargetObjectTypeException  extends Exception
      */
     Exception exception;
 
-
     /**
      * Default constructor.
      */
@@ -120,7 +104,6 @@ public class InvalidTargetObjectTypeException  extends Exception
       super("InvalidTargetObjectTypeException: ");
       exception = null;
     }
-
 
     /**
      * Constructor from a string.
@@ -134,7 +117,6 @@ public class InvalidTargetObjectTypeException  extends Exception
       super("InvalidTargetObjectTypeException: " + s);
       exception = null;
     }
-
 
     /**
      * Constructor taking an exception and a string.
@@ -178,7 +160,6 @@ public class InvalidTargetObjectTypeException  extends Exception
         in.defaultReadObject();
       }
     }
-
 
     /**
      * Serializes an {@link InvalidTargetObjectTypeException} to an {@link ObjectOutputStream}.

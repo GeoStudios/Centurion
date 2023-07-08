@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.javax.xml.stream;
 
-
 import com.sun.xml.internal.stream.XMLInputFactoryImpl;
 import java.xml.share.classes.javax.xml.stream.util.XMLEventAllocator;
 import java.xml.share.classes.javax.xml.transform.Source;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Defines an abstract implementation of a factory for getting streams.
@@ -509,7 +494,6 @@ public abstract class XMLInputFactory {
    */
   public abstract Object getProperty(java.lang.String name)
     throws java.lang.IllegalArgumentException;
-
 
   /**
    * Query the set of properties that this factory supports.

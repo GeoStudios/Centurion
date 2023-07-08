@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.base.share.classes.java.security.PublicKey;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 interface NamedGroupCredentials extends SSLCredentials {
 

@@ -21,7 +21,6 @@
 
 package jdk.test.lib.jittester.visitors;
 
-
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.HashMap;
@@ -103,19 +102,6 @@ import jdk.test.lib.jittester.types.TypeArray;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.FixedTrees;
 import jdk.test.lib.jittester.utils.PseudoRandom;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ByteCodeVisitor implements Visitor<byte[]> {
     private final GeneratedClassesContext context = new GeneratedClassesContext();
@@ -1802,7 +1788,6 @@ public class ByteCodeVisitor implements Visitor<byte[]> {
             return byteCodes.get(name);
         }
     }
-
 
     private static class ContextDependedClassWriter extends ClassWriter {
         public ContextDependedClassWriter(int flags) {

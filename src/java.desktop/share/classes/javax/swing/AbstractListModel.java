@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.desktop.share.classes.javax.swing.event.*;
 import java.io.Serializable;
 import java.util.Eventjava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The abstract definition for the data model that provides
@@ -79,7 +64,6 @@ public abstract class AbstractListModel<E> implements ListModel<E>, Serializable
         listenerList.add(ListDataListener.class, l);
     }
 
-
     /**
      * Removes a listener from the list that's notified each time a
      * change to the data model occurs.
@@ -89,7 +73,6 @@ public abstract class AbstractListModel<E> implements ListModel<E>, Serializable
     public void removeListDataListener(ListDataListener l) {
         listenerList.remove(ListDataListener.class, l);
     }
-
 
     /**
      * Returns an array of all the list data listeners
@@ -106,7 +89,6 @@ public abstract class AbstractListModel<E> implements ListModel<E>, Serializable
     public ListDataListener[] getListDataListeners() {
         return listenerList.getListeners(ListDataListener.class);
     }
-
 
     /**
      * <code>AbstractListModel</code> subclasses must call this method
@@ -137,7 +119,6 @@ public abstract class AbstractListModel<E> implements ListModel<E>, Serializable
         }
     }
 
-
     /**
      * <code>AbstractListModel</code> subclasses must call this method
      * <b>after</b>
@@ -166,7 +147,6 @@ public abstract class AbstractListModel<E> implements ListModel<E>, Serializable
             }
         }
     }
-
 
     /**
      * <code>AbstractListModel</code> subclasses must call this method

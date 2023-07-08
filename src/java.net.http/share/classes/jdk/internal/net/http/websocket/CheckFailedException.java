@@ -21,22 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.websocket;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * Used as a context-neutral exception which can be wrapped into (for example)
  * a `ProtocolException` or an `IllegalArgumentException` depending on who's

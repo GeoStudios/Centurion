@@ -21,24 +21,9 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.basic;
 
-
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** <P> This specialization of BasicType implements the CIntegerType
     interface and describes all C integer types. */

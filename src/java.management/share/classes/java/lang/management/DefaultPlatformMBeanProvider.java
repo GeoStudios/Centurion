@@ -21,7 +21,6 @@
 
 package java.management.share.classes.java.lang.management;
 
-
 import java.management.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
 import java.management.share.classes.java.util.Collections;
 import java.management.share.classes.java.util.HashMap;
@@ -34,20 +33,6 @@ import java.management.share.classes.java.util.stream.Stream;
 import javax.management.ObjectName;
 import sun.management.ManagementFactoryHelper;
 import sun.management.spi.PlatformMBeanProvider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class DefaultPlatformMBeanProvider extends PlatformMBeanProvider {
     private final List<PlatformComponent<?>> mxbeanList;

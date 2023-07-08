@@ -21,21 +21,7 @@
 
 package jdk.test.failurehandler.action;
 
-
 import jdk.test.failurehandler.HtmlSection;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public interface Action {
     boolean isJavaOnly();

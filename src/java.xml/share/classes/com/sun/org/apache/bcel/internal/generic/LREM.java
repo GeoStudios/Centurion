@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.ExceptionConst;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * LREM - Remainder of long
@@ -50,14 +35,12 @@ public class LREM extends ArithmeticInstruction implements ExceptionThrower {
         super(com.sun.org.apache.bcel.internal.Const.LREM);
     }
 
-
     @Override
     public Class<?>[] getExceptions() {
         return new Class<?>[] {
             ExceptionConst.ARITHMETIC_EXCEPTION
         };
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

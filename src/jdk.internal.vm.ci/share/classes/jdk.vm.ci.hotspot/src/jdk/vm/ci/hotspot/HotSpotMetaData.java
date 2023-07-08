@@ -21,23 +21,8 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
 
-
 import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.runtime;.extended
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.code.TargetDescription;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class HotSpotMetaData {
     private final byte[] pcDescBytes;

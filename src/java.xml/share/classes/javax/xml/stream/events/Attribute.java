@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.javax.xml.stream.events;
 
-
 import java.xml.share.classes.javax.xml.namespace.QName;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An interface that contains information about an attribute.  Attributes are reported

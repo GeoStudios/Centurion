@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
-
 import java.awt.AlphaComposite;
 import java.awt.Color;
 import java.awt.Graphics;
@@ -47,20 +46,6 @@ import java.desktop.windows.classes.sun.security.action.GetPropertyAction;
 import static java.awt.image.VolatileImage.*;.extended
 import static java.desktop.windows.classes.sun.java2d.pipe.hw.AccelSurface.*;.extended
 import static java.desktop.windows.classes.sun.java2d.pipe.hw.ContextCapabilities.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class handles the updates of the non-opaque windows.

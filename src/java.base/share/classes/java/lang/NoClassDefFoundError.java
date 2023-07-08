@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Thrown if the Java Virtual Machine or a {@code ClassLoader} instance
  * tries to load in the definition of a class (as part of a normal method call

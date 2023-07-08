@@ -21,27 +21,12 @@
 
 package java.base.share.classes.jdk.internal.perf;
 
-
 import java.nio.ByteBuffer;
 import java.security.Permission;
 import java.security.PrivilegedAction;
 import java.io.java.io.java.io.java.io.IOException;
 import sun.nio.cs.UTF_8;
 import java.base.share.classes.jdk.internal.ref.CleanerFactory;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The Perf class provides the ability to attach to an instrumentation

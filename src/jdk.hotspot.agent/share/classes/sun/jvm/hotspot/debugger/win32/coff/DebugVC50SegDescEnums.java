@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Bit field definitions used in {@link
     sun.jvm.hotspot.debugger.win32.coff.DebugVC50SegDesc}. */
 

@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Exception thrown when the Code attribute of a method produced by a {@link ClassWriter} is too
  * large.

@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.nio.file;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Defines the file tree traversal options.
  *

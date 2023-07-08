@@ -21,21 +21,6 @@
 
 package compiler.c2.aarch64;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class TestVolatileStore
 {
     public volatile int f_int = 0;

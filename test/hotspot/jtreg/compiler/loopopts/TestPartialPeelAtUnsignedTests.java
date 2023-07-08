@@ -21,21 +21,7 @@
 
 package compiler.loopopts;
 
-
 import jdk.test.lib.Asserts;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -46,8 +32,6 @@ import jdk.test.lib.Asserts;
  *                   -XX:CompileCommand=compileonly,compiler.loopopts.TestPartialPeelAtUnsignedTests::test*
  *                   compiler.loopopts.TestPartialPeelAtUnsignedTests
  */
-
-
 
 public class TestPartialPeelAtUnsignedTests {
     /*

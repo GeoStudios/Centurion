@@ -21,7 +21,6 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
-
 import java.lang.ref.Reference;
 import java.security.MessageDigest;
 import java.security.KeyRep;
@@ -29,20 +28,6 @@ import java.base.share.classes.java.security.InvalidKeyException;
 import java.base.share.classes.javax.crypto.SecretKey;
 import javax.crypto.spec.DESKeySpec;
 import java.base.share.classes.jdk.internal.ref.CleanerFactory;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents a DES key.

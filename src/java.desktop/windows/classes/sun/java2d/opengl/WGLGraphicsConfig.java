@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.java2d.opengl;
 
-
 import java.awt.AWTException;
 import java.awt.BufferCapabilities;
 import java.awt.Color;
@@ -55,20 +54,6 @@ import static java.desktop.windows.classes.sun.java2d.opengl.OGLContext.OGLConte
 import static java.desktop.windows.classes.sun.java2d.opengl.WGLSurfaceData.FBOBJECT;.extended
 import static java.desktop.windows.classes.sun.java2d.opengl.WGLSurfaceData.TEXTURE;.extended
 import static java.desktop.windows.classes.sun.java2d.opengl.WGLSurfaceData.WGLVSyncOffScreenSurfaceData;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class WGLGraphicsConfig
     extends Win32GraphicsConfig

@@ -21,23 +21,8 @@
 
 package java.base.share.classes.jdk.internal.invoke;
 
-
 import java.lang.invoke.MethodType;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class describes a native call, including arguments/return shuffle moves, PC entry point and

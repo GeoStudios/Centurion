@@ -21,7 +21,6 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl;
 
-
 import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Attributes;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Cursor;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Size;
@@ -31,20 +30,6 @@ import java.io.OutputStream;
 import java.nio.charset.Charset;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.IntConsumer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Console implementation with embedded line disciplined.

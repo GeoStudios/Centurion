@@ -21,24 +21,10 @@
 
 package nsk.jdwp.ClassLoaderReference.VisibleClasses;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class visibclasses001a {
 

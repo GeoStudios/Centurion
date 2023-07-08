@@ -21,21 +21,7 @@
 
 package nsk.share;
 
-
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  *  Class create/delete instances with given reference type and given referrers number
@@ -67,7 +53,6 @@ public class ObjectInstancesManager
                 primitiveArrayClassNames.add("float[]");
                 primitiveArrayClassNames.add("double[]");
         }
-
 
         public static Set<String> allReferenceTypes = new HashSet<String>();
 

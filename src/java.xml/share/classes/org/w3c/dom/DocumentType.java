@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.org.w3c.dom;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Each <code>Document</code> has a <code>doctype</code> attribute whose value
  * is either <code>null</code> or a <code>DocumentType</code> object. The

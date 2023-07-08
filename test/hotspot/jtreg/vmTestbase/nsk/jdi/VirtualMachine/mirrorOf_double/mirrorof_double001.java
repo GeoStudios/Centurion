@@ -21,26 +21,12 @@
 
 package nsk.jdi.VirtualMachine.mirrorOf_double;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -202,7 +188,6 @@ public class mirrorof_double001 {
 
         FloatValue val_13 = vm.mirrorOf((float)plus1);
 
-
         int i;
 
         for (i = 0; ; i++) {
@@ -251,7 +236,6 @@ public class mirrorof_double001 {
                         expresult = 1;
                     break;
 
-
             // tests for DoubleValue.equals()
 
             case 9: if (!val_10.equals(val_11))
@@ -266,7 +250,6 @@ public class mirrorof_double001 {
                         expresult = 1;
                     break;
 
-
             // tests for DoubleValue.hashCode()
 
             case 12: if (val_7.hashCode() != val_7.hashCode())
@@ -276,7 +259,6 @@ public class mirrorof_double001 {
             case 13: if (val_10.hashCode() != val_11.hashCode())
                         expresult = 1;
                     break;
-
 
             default: expresult = 2;
                      break ;
@@ -290,16 +272,11 @@ public class mirrorof_double001 {
                 testExitCode = FAILED;
             }
 
-
-
-
             //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         }
         log1("      TESTING ENDS");
 
     //--------------------------------------------------   test summary section
-
-
 
     //-------------------------------------------------    standard end section
 

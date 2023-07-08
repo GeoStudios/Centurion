@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.consumer;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.io.Writer;
@@ -37,20 +36,6 @@ import jdk.jfr.share.classes.jdk.jfr.internal.Logger;
 import jdk.jfr.share.classes.jdk.jfr.internal.PlatformEventType;
 import jdk.jfr.share.classes.jdk.jfr.internal.PrivateAccess;
 import jdk.jfr.share.classes.jdk.jfr.internal.tool.PrettyWriter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class EventLog {
     private static final class LogWriter extends Writer {

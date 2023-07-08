@@ -21,23 +21,8 @@
 
 package jdk.jartool.share.classes.sun.tools.jar;
 
-
 import java.io.PrintWriter;
 import java.util.spi.ToolProvider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class JarToolProvider implements ToolProvider {
     public String name() {

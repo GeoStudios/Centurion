@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.javax.xml.stream;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An error class for reporting factory configuration errors.
  *
@@ -129,7 +113,5 @@ public class FactoryConfigurationError extends Error {
     }
     return msg;
   }
-
-
 
 }

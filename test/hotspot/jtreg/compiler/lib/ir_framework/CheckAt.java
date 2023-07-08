@@ -21,21 +21,6 @@
 
 package compiler.lib.ir_framework;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This enum is used in {@link Check#when()} of a <b>checked test</b> to specify when the framework will invoke the
  * check method after invoking the associated {@link Test} method.

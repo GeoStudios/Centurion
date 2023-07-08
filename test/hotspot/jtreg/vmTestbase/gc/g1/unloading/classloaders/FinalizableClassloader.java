@@ -21,22 +21,8 @@
 
 package gc.g1.unloading.classloaders;
 
-
 import java.security.SecureClassLoader;
 import gc.g1.unloading.check.FinalizedAssertion;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Classloader that keeps reference to FinalizedAssertion and marks it as passed when finalized.

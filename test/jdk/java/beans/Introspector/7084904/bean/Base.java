@@ -21,21 +21,6 @@
 
 package bean;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class Base {
     public boolean isAllowed() {
         return true;

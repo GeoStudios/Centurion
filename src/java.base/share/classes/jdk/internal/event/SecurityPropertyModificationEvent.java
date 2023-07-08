@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.event;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Event details relating to the modification of a Security property.
  */

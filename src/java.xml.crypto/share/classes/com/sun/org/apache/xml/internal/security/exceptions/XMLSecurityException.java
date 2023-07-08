@@ -21,31 +21,13 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions;
 
-
 import java.text.MessageFormat;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils.I18n;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * The mother of all Exceptions in this bundle. It allows exceptions to have
@@ -166,7 +148,6 @@ public class XMLSecurityException extends Exception {
     public XMLSecurityException(String msgID, Object[] exArgs, Exception originalException) {
         this(originalException, msgID, exArgs);
     }
-
 
     /**
      * Method getMsgID

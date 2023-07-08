@@ -21,25 +21,11 @@
 
 package gc;
 
-
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.process.OutputAnalyzer;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import jdk.test.lib.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* @test TestVerifySilently.java
  * @bug 8032771
@@ -50,13 +36,11 @@ import jdk.test.lib.Utils;
  * @run main gc.TestVerifySilently
  */
 
-
 class TestVerifySilentlyRunSystemGC {
   public static void main(String args[]) throws Exception {
     System.gc();
   }
 }
-
 
 public class TestVerifySilently {
 
@@ -76,7 +60,6 @@ public class TestVerifySilently {
     System.out.println("Output:\n" + output.getOutput());
     return output;
   }
-
 
   public static void main(String args[]) throws Exception {
 

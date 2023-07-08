@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
-
 import java.util.Set;
 import java.base.share.classes.java.util.Locale;
 import javax.tools.Diagnostic;
@@ -30,20 +29,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.api.DiagnosticFormatter.Co
 import jdk.compiler.share.classes.com.sun.tools.javac.api.DiagnosticFormatter.Configuration.DiagnosticPart;
 import jdk.compiler.share.classes.com.sun.tools.javac.api.DiagnosticFormatter.Configuration.MultilineLimit;
 import jdk.compiler.share.classes.com.sun.tools.javac.api.DiagnosticFormatter.PositionKind;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A delegated diagnostic formatter delegates all formatting

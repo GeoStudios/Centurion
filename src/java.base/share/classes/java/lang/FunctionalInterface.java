@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.lang;
 
-
 import java.base.share.classes.java.lang.annotation.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An informative annotation type used to indicate that an interface

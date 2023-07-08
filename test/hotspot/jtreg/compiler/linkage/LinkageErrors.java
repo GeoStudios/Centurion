@@ -21,23 +21,9 @@
 
 package compiler.linkage;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -47,8 +33,6 @@ import java.lang.invoke.MethodType;
  *                   -XX:CompileCommand=dontinline,compiler.linkage.LinkageErrors::test*
  *                   compiler.linkage.LinkageErrors
  */
-
-
 
 interface I {
     void m1(int i);

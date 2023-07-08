@@ -21,7 +21,6 @@
 
 package nsk.jdi.EventSet.resume;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -31,19 +30,6 @@ import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
 import static nsk.share.Consts.TEST_FAILED;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type
@@ -113,7 +99,6 @@ public class resume001 extends TestDebuggerType1 {
                 break;
             }
 
-
             display(":::::: case: # " + i);
 
             switch (i) {
@@ -132,7 +117,6 @@ public class resume001 extends TestDebuggerType1 {
                 eventRequest = settingClassPrepareRequest(classNames[2],
                                    SUSPEND_ALL,    "ClassPrepareRequest2");
                 break;
-
 
                 default:
                 throw new Failure("** default case 2 **");

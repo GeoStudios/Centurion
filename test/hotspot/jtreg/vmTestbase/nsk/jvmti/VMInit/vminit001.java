@@ -21,21 +21,7 @@
 
 package nsk.jvmti.VMInit;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class vminit001 {
 

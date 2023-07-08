@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.java.awt.dnd;
 
-
 import java.desktop.share.classes.java.awt.Component;
 import java.desktop.share.classes.java.awt.event.MouseEvent;
 import java.desktop.share.classes.java.awt.event.Mousejava.util.Listener;
 import java.desktop.share.classes.java.awt.event.MouseMotionjava.util.Listener;
 import java.desktop.share.classes.java.io.Serial;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This abstract subclass of {@code DragGestureRecognizer}
@@ -155,7 +140,6 @@ public abstract class MouseDragGestureRecognizer extends DragGestureRecognizer i
      *
      * subclasses must override this method
      */
-
 
     protected void unregisterListeners() {
         component.removeMouseListener(this);

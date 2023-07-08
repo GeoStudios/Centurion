@@ -21,24 +21,9 @@
 
 package jdk.naming.rmi.share.classes.com.sun.jndi.rmi.registry;
 
-
 import java.rmi.*;
 import java.rmi.server.UnicastRemoteObject;
 import javax.naming.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The ReferenceWrapper class is a Remote wrapper for Reference
@@ -46,7 +31,6 @@ import javax.naming.*;
  * Reference accessible to clients.
  *
  */
-
 
 public class ReferenceWrapper
         extends UnicastRemoteObject

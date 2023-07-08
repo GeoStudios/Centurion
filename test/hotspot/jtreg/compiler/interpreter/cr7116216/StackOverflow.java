@@ -21,21 +21,6 @@
 
 package compiler.interpreter.cr7116216;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 7116216
@@ -43,7 +28,6 @@ package compiler.interpreter.cr7116216;
  * @library /
  * @run main/othervm -Xcomp -Xbatch compiler.interpreter.cr7116216.StackOverflow
  */
-
 
 public class StackOverflow {
     static String stackOverflow_largeFrame_liveOopForGC;

@@ -21,21 +21,7 @@
 
 package compiler.intrinsics;
 
-
 import java.lang.reflect.Constructor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -46,8 +32,6 @@ import java.lang.reflect.Constructor;
  *
  * @run main/othervm -XX:+CompactStrings compiler.intrinsics.Test8237524
  */
-
-
 
 public class Test8237524 {
 

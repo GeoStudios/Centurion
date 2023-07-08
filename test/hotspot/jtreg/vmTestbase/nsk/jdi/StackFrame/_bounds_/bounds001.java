@@ -21,25 +21,11 @@
 
 package nsk.jdi.StackFrame._bounds_;
 
-
 import nsk.share.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.io.*;
 import java.lang.reflect.Array;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test checks up the methods:                                          <br>

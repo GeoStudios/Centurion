@@ -21,7 +21,6 @@
 
 package demo.share.jfc.TableExample;
 
-
 import javax.swing.table.TableModel;
 import javax.swing.event.TableModelEvent;
 import java.awt.event.MouseAdapter;
@@ -34,20 +33,6 @@ import javax.swing.JTable;
 import javax.swing.table.JTableHeader;
 import javax.swing.table.TableColumnModel;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -55,10 +40,6 @@ import javax.swing.table.TableColumnModel;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
 
 /**
  * A sorter for TableModels. The sorter has a model (conforming to TableModel)

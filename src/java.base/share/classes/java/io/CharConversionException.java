@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.io;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Base class for character conversion exceptions.
  *

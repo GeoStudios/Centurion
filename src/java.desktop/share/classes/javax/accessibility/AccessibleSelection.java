@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.accessibility;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This {@code AccessibleSelection} interface provides the standard mechanism
  * for an assistive technology to determine what the current selected children

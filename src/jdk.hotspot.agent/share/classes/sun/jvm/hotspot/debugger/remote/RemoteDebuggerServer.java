@@ -21,27 +21,12 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.remote;
 
-
 import java.io.*;
 import java.rmi.*;
 import java.rmi.server.*;
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** The implementation of the RemoteDebugger interface. This
     delegates to a local debugger */
@@ -164,7 +149,6 @@ public class RemoteDebuggerServer extends UnicastRemoteObject
     ThreadProxy t2 = getThreadProxy(addrOrId2, isAddress2);
     return t1.equals(t2);
   }
-
 
   public int       getThreadHashCode(long addrOrId, boolean isAddress) throws RemoteException {
     ThreadProxy t = getThreadProxy(addrOrId, isAddress);

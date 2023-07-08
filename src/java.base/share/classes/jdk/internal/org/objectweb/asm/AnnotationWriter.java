@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An {@link AnnotationVisitor} that generates a corresponding 'annotation' or 'type_annotation'
  * structure, as defined in the Java Virtual Machine Specification (JVMS). AnnotationWriter

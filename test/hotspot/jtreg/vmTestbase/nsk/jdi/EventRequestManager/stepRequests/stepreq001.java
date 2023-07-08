@@ -21,7 +21,6 @@
 
 package nsk.jdi.EventRequestManager.stepRequests;
 
-
 import com.sun.jdi.ThreadReference;
 import com.sun.jdi.VirtualMachine;
 import com.sun.jdi.request.StepRequest;
@@ -37,19 +36,6 @@ import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test checks that the JDI method

@@ -21,22 +21,7 @@
 
 package java.scripting.share.classes.javax.script;
 
-
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>ScriptEngineFactory</code> is used to describe and instantiate
@@ -67,7 +52,6 @@ public interface ScriptEngineFactory {
      */
     String getEngineVersion();
 
-
     /**
      * Returns an immutable list of filename extensions, which generally identify scripts
      * written in the language supported by this <code>ScriptEngine</code>.
@@ -76,7 +60,6 @@ public interface ScriptEngineFactory {
      * @return The list of extensions.
      */
     List<String> getExtensions();
-
 
     /**
      * Returns an immutable list of mimetypes, associated with scripts that
@@ -208,7 +191,6 @@ public interface ScriptEngineFactory {
      *
      */
     String getOutputStatement(String toDisplay);
-
 
     /**
      * Returns a valid scripting language executable program with given statements.

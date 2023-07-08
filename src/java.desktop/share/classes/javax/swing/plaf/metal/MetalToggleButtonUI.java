@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
-
 import sun.swing.SwingUtilities2;
 import sun.awt.AppContext;
 import java.awt.*;
@@ -34,20 +33,6 @@ import java.desktop.share.classes.javax.swing.border.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
 import java.desktop.share.classes.javax.swing.*;
 import java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * MetalToggleButton implementation
@@ -157,7 +142,6 @@ public class MetalToggleButtonUI extends BasicToggleButtonUI {
     protected Color getFocusColor() {
         return focusColor;
     }
-
 
     // ********************************
     //        Paint Methods

@@ -21,7 +21,6 @@
 
 package java.management.share.classes.javax.management.remote;
 
-
 import com.sun.jmx.remote.util.ClassLogger;
 import com.sun.jmx.remote.util.EnvHelp;
 import java.io.java.io.java.io.java.io.IOException;
@@ -34,20 +33,6 @@ import java.util.ServiceLoader.Provider;
 import java.util.function.Predicate;
 import java.management.share.classes.javax.management.MBeanServer;
 import java.management.share.classes.javax.management.remote.JMXConnectorFactory.ConnectorFactory;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Factory to create JMX API connector servers.  There

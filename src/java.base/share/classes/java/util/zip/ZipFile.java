@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util.zip;
 
-
 import java.base.share.classes.java.io.Closeable;
 import java.base.share.classes.java.io.InputStream;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
@@ -69,20 +68,6 @@ import sun.nio.cs.UTF_8;
 import sun.security.util.SignatureFileVerifier;
 import static java.base.share.classes.java.util.zip.ZipConstants64.*;.extended
 import static java.base.share.classes.java.util.zip.ZipUtils.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used to read entries from a zip file.
@@ -1256,7 +1241,6 @@ public class ZipFile implements ZipConstants, Closeable {
         }
         private static final HashMap<Key, Source> files = new HashMap<>();
 
-
         static Source get(File file, boolean toDelete, ZipCoder zc) throws IOException {
             final Key key;
             try {
@@ -1361,7 +1345,6 @@ public class ZipFile implements ZipConstants, Closeable {
                 return zfile.read(buf, off, len);
             }
         }
-
 
         private static class End {
             int  centot;     // 4 bytes

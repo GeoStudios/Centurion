@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
-
 import java.awt.AWTEvent;
 import java.awt.AWTEventMulticaster;
 import java.awt.Color;
@@ -62,20 +61,6 @@ import java.desktop.windows.classes.sun.awt.Win32GraphicsEnvironment;
 import java.desktop.windows.classes.sun.java2d.pipe.Region;
 import java.desktop.windows.classes.sun.util.logging.PlatformLogger;
 import static java.desktop.windows.classes.sun.java2d.SunGraphicsEnvironment.toUserSpace;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class WWindowPeer extends WPanelPeer implements WindowPeer,
        DisplayChangedListener

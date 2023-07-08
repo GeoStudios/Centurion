@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class is an unsynchronized hash table primary used for String
  * to Object mapping.

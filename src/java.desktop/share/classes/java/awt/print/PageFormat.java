@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.java.awt.print;
 
-
 import java.desktop.share.classes.java.awt.geom.AffineTransform;
 import java.desktop.share.classes.java.awt.geom.Point2D;
 import java.desktop.share.classes.java.awt.geom.Rectangle2D;
 import java.desktop.share.classes.java.lang.annotation.Native;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code PageFormat} class describes the size and
@@ -118,7 +103,6 @@ public class PageFormat implements Cloneable
 
         return newPage;
     }
-
 
     /**
      * Returns the width, in 1/72nds of an inch, of the page.
@@ -271,7 +255,6 @@ public class PageFormat implements Cloneable
 
         return height;
     }
-
 
     /**
      * Returns a copy of the {@link Paper} object associated

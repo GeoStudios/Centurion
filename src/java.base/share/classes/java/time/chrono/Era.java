@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time.chrono;
 
-
 import static java.base.share.classes.java.time.temporal.ChronoField.ERA;.extended
 import static java.base.share.classes.java.time.temporal.ChronoUnit.ERAS;.extended
 import java.base.share.classes.java.time.DateTimeException;
@@ -37,20 +36,6 @@ import java.base.share.classes.java.time.temporal.TemporalQueries;
 import java.base.share.classes.java.time.temporal.TemporalQuery;
 import java.base.share.classes.java.time.temporal.ValueRange;
 import java.base.share.classes.java.util.Locale;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An era of the time-line.

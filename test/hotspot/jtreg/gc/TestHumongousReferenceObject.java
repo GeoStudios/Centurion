@@ -21,21 +21,7 @@
 
 package gc;
 
-
 import jdk.internal.vm.annotation.Contended;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestHumongousReferenceObjectParallel

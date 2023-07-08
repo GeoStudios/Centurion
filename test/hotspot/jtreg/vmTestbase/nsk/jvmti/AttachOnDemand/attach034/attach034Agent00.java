@@ -21,21 +21,7 @@
 
 package nsk.jvmti.AttachOnDemand.attach034;
 
-
 import java.lang.instrument.Instrumentation;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class attach034Agent00 extends AgentParent {
 

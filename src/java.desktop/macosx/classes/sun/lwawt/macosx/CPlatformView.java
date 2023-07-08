@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-
 import java.awt.GraphicsDevice;
 import java.awt.GraphicsEnvironment;
 import java.awt.Point;
@@ -37,20 +36,6 @@ import java.desktop.macosx.classes.sun.lwawt.LWWindowPeer;
 import java.desktop.macosx.classes.sun.java2d.SurfaceData;
 import java.desktop.macosx.classes.sun.java2d.opengl.CGLLayer;
 import java.desktop.macosx.classes.sun.lwawt.macosx.CFLayer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CPlatformView extends CFRetainedResource {
     private native long nativeCreateView(int x, int y, int width, int height, long windowLayerPtr);
@@ -82,7 +67,6 @@ public class CPlatformView extends CFRetainedResource {
     public MTLLayer createMTLLayer() {
         return new MTLLayer(peer);
     }
-
 
     protected void initializeBase(LWWindowPeer peer, CPlatformResponder responder) {
         this.peer = peer;
@@ -184,7 +168,6 @@ public class CPlatformView extends CFRetainedResource {
     private void deliverResize(int x, int y, int w, int h) {
         peer.notifyReshape(x, y, w, h);
     }
-
 
     private void deliverMouseEvent(final NSEvent event) {
         int x = event.getX();

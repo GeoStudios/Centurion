@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.event.KeyEvent;
 import java.desktop.share.classes.java.io.Serial;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <b>NOTE:</b> The {@code Event} class is obsolete and is
@@ -262,7 +247,6 @@ public class Event implements java.io.Serializable {
      */
     public static final int DELETE              = 127;
 
-
     /* Base for all window events. */
     private static final int WINDOW_EVENT       = 200;
 
@@ -371,7 +355,6 @@ public class Event implements java.io.Serializable {
      * @see     java.awt.Event#META_MASK
      */
     public static final int MOUSE_DRAG          = 6 + MOUSE_EVENT;
-
 
     /* Scrolling events */
     private static final int SCROLL_EVENT       = 600;

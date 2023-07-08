@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang.constant;
 
-
 import java.base.share.classes.java.lang.Enum.EnumDesc;
 import java.base.share.classes.java.lang.invoke.CallSite;
 import java.base.share.classes.java.lang.invoke.ConstantBootstraps;
@@ -37,20 +36,6 @@ import java.base.share.classes.java.util.Map;
 import java.base.share.classes.java.util.Set;
 import static java.base.share.classes.java.lang.constant.DirectMethodHandleDesc.*;.extended
 import static java.base.share.classes.java.lang.constant.DirectMethodHandleDesc.Kind.STATIC;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Predefined values of <a href="package-summary.html#nominal">nominal descriptor</a>

@@ -21,7 +21,6 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.beans;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
@@ -53,20 +52,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.support.Guards;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.support.Lookup;
 import jdk.dynalink.share.classes.jdk.internal.reflect.CallerSensitive;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -74,8 +59,6 @@ import jdk.dynalink.share.classes.jdk.internal.reflect.CallerSensitive;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-
-
 
 /**
  * A base class for both {@link StaticClassLinker} and {@link BeanLinker}. Deals with common aspects of property

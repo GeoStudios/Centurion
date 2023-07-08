@@ -21,24 +21,9 @@
 
 package java.base.share.classes.java.security;
 
-
 import java.base.share.classes.java.util.*;
 import java.base.share.classes.java.util.stream.Stream;
 import java.base.share.classes.java.util.stream.StreamSupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Abstract class representing a collection of Permission objects.

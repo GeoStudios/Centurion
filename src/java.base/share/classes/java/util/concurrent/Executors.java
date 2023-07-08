@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util.concurrent;
 
-
 import static java.base.share.classes.java.lang.ref.Reference.reachabilityFence;.extended
 import java.base.share.classes.java.security.AccessControlContext;
 import java.base.share.classes.java.security.AccessControlException;
@@ -34,20 +33,6 @@ import java.base.share.classes.java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.concurrent.atomic.AtomicInteger;
 import sun.security.util.SecurityConstants;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -58,9 +43,6 @@ import sun.security.util.SecurityConstants;
  * Expert Group and released to the public domain, as explained at
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
-
-
-
 
 /**
  * Factory and utility methods for {@link Executor}, {@link

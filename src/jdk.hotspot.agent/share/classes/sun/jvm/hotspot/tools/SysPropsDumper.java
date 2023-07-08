@@ -21,25 +21,10 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools;
 
-
 import java.io.PrintStream;
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.JVMDebugger;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class SysPropsDumper extends Tool {
 

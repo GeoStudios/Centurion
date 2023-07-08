@@ -21,26 +21,12 @@
 
 package nsk.jvmti.scenarios.events.EM07;
 
-
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.io.PrintStream;
 import java.io.File;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Test executes the following scenario to check events <code>COMPILED_METHOD_LOAD</code>,

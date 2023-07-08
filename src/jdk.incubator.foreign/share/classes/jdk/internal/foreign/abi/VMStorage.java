@@ -21,23 +21,8 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi;
 
-
 import jdk.incubator.foreign.share.classes.jdk.internal.invoke.VMStorageProxy;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class VMStorage implements VMStorageProxy {
     private final int type;

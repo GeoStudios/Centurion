@@ -21,26 +21,11 @@
 
 package jdk.jdi.windows.classes.com.sun.tools.jdi;
 
-
 import jdk.jdi.windows.classes.com.sun.jdi.*;
 import jdk.jdi.windows.classes.com.sun.jdi.connect.*;
 import jdk.jdi.windows.classes.com.sun.jdi.connect.spi.*;
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.charset.StandardCharsets;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class SharedMemoryConnection extends Connection {
     private final long id;
@@ -69,7 +54,6 @@ class SharedMemoryConnection extends Connection {
             }
         }
     }
-
 
     SharedMemoryConnection(long id) throws IOException {
         this.id = id;

@@ -21,24 +21,9 @@
 
 package jdk.jcmd.share.classes.sun.tools.jcmd;
 
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class Arguments {
     private boolean listProcesses = false;

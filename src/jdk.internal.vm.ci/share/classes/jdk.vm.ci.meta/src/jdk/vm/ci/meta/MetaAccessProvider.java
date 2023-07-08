@@ -21,26 +21,11 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
 
-
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Executable;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta.SpeculationLog.Speculation;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides access to the metadata of a class typically provided in a class file.

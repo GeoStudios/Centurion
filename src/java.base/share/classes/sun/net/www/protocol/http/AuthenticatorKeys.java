@@ -21,23 +21,8 @@
 
 package java.base.share.classes.sun.net.www.protocol.http;
 
-
 import java.net.Authenticator;
 import java.util.concurrent.atomic.AtomicLong;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  A class used to tie a key to an authenticator instance.

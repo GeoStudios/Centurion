@@ -21,7 +21,6 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.amd64.src.jdk.vm.ci.amd64;
 
-
 import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.amd64.src.jdk.vm.ci.code.MemoryBarriers.LOAD_LOAD;.extended
 import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.amd64.src.jdk.vm.ci.code.MemoryBarriers.LOAD_STORE;.extended
 import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.amd64.src.jdk.vm.ci.code.MemoryBarriers.STORE_STORE;.extended
@@ -35,20 +34,6 @@ import jdk.internal.vm.ci.share.classes.jdk.vm.ci.amd64.src.jdk.vm.ci.code.Regis
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.amd64.src.jdk.vm.ci.code.RegisterArray;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.amd64.src.jdk.vm.ci.meta.JavaKind;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.amd64.src.jdk.vm.ci.meta.PlatformKind;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents the AMD64 architecture.

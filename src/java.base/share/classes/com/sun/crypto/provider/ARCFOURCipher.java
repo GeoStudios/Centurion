@@ -21,25 +21,10 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
-
 import java.base.share.classes.java.security.*;
 import java.security.spec.AlgorithmParameterSpec;
 import java.base.share.classes.java.util.Arrays;
 import java.base.share.classes.javax.crypto.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation of the ARCFOUR cipher, an algorithm apparently compatible

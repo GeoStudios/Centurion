@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Returnaddress, the type JSR or JSR_W instructions push upon the stack.
@@ -55,14 +38,12 @@ public class ReturnaddressType extends Type {
     public static final ReturnaddressType NO_TARGET = new ReturnaddressType();
     private InstructionHandle returnTarget;
 
-
     /**
      * A Returnaddress [that doesn't know where to return to].
      */
     private ReturnaddressType() {
         super(Const.T_ADDRESS, "<return address>");
     }
-
 
     /**
      * Creates a ReturnaddressType object with a target.
@@ -71,7 +52,6 @@ public class ReturnaddressType extends Type {
         super(Const.T_ADDRESS, "<return address targeting " + returnTarget + ">");
         this.returnTarget = returnTarget;
     }
-
 
     /** @return a hash code value for the object.
      */
@@ -82,7 +62,6 @@ public class ReturnaddressType extends Type {
         }
         return returnTarget.hashCode();
     }
-
 
     /**
      * Returns if the two Returnaddresses refer to the same target.
@@ -97,7 +76,6 @@ public class ReturnaddressType extends Type {
         }
         return that.returnTarget.equals(this.returnTarget);
     }
-
 
     /**
      * @return the target of this ReturnaddressType

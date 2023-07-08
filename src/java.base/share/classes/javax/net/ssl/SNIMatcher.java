@@ -21,22 +21,6 @@
 
 package java.base.share.classes.javax.net.ssl;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Instances of this class represent a matcher that performs match
  * operations on an {@link SNIServerName} instance.

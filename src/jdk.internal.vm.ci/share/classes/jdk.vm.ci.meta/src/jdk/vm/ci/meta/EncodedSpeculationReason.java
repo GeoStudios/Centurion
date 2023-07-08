@@ -21,24 +21,9 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.util.function.Supplier;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta.SpeculationLog.SpeculationReason;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of {@link SpeculationReason} based on encoded values.

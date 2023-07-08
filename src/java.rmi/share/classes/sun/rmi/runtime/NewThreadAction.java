@@ -21,24 +21,9 @@
 
 package java.rmi.share.classes.sun.rmi.runtime;
 
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.rmi.share.classes.sun.security.util.SecurityConstants;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A PrivilegedAction for creating a new thread conveniently with an

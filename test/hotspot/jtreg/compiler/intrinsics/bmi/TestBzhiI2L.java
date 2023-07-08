@@ -21,22 +21,8 @@
 
 package compiler.intrinsics.bmi;
 
-
 import jdk.test.lib.Platform;
 import sun.hotspot.cpuinfo.CPUInfo;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -51,8 +37,6 @@ import sun.hotspot.cpuinfo.CPUInfo;
  * @run main/othervm -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions
  *                   -XX:+WhiteBoxAPI compiler.intrinsics.bmi.TestBzhiI2L
  */
-
-
 
 public class TestBzhiI2L {
 

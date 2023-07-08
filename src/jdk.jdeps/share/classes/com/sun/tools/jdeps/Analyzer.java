@@ -21,7 +21,6 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.jdeps;
 
-
 import jdk.jdeps.share.classes.com.sun.tools.classfile.Dependency.Location;
 import java.io.BufferedReader;
 import java.io.java.io.java.io.java.io.IOException;
@@ -39,20 +38,6 @@ import java.util.Set;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Dependency Analyzer.

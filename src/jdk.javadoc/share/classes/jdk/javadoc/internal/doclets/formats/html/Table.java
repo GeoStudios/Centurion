@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Writer;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -40,20 +39,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.marku
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.HtmlTree;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.TagName;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An HTML container used to display summary tables for various kinds of elements.

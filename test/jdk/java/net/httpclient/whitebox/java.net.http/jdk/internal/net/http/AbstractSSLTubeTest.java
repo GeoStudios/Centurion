@@ -21,7 +21,6 @@
 
 package jdk.internal.net.http;
 
-
 import jdk.internal.net.http.common.FlowTube;
 import jdk.internal.net.http.common.SSLTube;
 import jdk.internal.net.http.common.Utils;
@@ -43,19 +42,6 @@ import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.SubmissionPublisher;
 import java.util.concurrent.atomic.AtomicLong;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class AbstractSSLTubeTest extends AbstractRandomTest {
 
     public static final long COUNTER = 600;
@@ -70,7 +56,6 @@ public class AbstractSSLTubeTest extends AbstractRandomTest {
     // We use a CountDownLatch to figure out when it is safe to call close().
     // This may cause the test to hang if data are buffered.
     protected final CountDownLatch allBytesReceived = new CountDownLatch(1);
-
 
     protected static ByteBuffer getBuffer(long startingAt) {
         ByteBuffer buf = ByteBuffer.allocate(LONGS_PER_BUF * 8);
@@ -146,7 +131,6 @@ public class AbstractSSLTubeTest extends AbstractRandomTest {
         private volatile Flow.Subscription subscription;
         private long unfulfilled;
         private final ByteBuffer carry; // used if buffers don't break at long boundaries.
-
 
         EndSubscriber(long nbytes, CompletableFuture<?> completion,
                       CountDownLatch allBytesReceived) {

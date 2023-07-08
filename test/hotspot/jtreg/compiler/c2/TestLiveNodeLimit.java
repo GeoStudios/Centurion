@@ -21,21 +21,7 @@
 
 package compiler.c2;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -45,7 +31,6 @@ import java.util.Arrayjava.util.java.util.java.util.List;
  * @compile -XDstringConcat=inline TestLiveNodeLimit.java
  * @run main/othervm -Xcomp -XX:CompileCommand=compileonly,compiler.c2.TestLiveNodeLimit::test* compiler.c2.TestLiveNodeLimit
  */
-
 
 public class TestLiveNodeLimit {
 

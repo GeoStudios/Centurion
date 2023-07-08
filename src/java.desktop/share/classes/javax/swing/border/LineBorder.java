@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.border;
 
-
 import java.awt.Graphics;
 import java.awt.Insets;
 import java.awt.Color;
@@ -32,20 +31,6 @@ import java.awt.geom.Path2D;
 import java.awt.geom.Rectangle2D;
 import java.awt.geom.RoundRectangle2D;
 import java.beans.ConstructorProperties;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class which implements a line border of arbitrary thickness

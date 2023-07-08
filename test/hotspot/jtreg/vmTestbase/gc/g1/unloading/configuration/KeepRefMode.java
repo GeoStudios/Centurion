@@ -21,21 +21,6 @@
 
 package gc.g1.unloading.configuration;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * In which way we are going to keep class from being garbage collected
  *

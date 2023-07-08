@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.ByteSequence;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * SIPUSH - Push short
@@ -50,7 +35,6 @@ public class SIPUSH extends Instruction implements ConstantPushInstruction {
 
     private short b;
 
-
     /**
      * Empty constructor needed for Instruction.readInstruction.
      * Not to be used otherwise.
@@ -58,12 +42,10 @@ public class SIPUSH extends Instruction implements ConstantPushInstruction {
     SIPUSH() {
     }
 
-
     public SIPUSH(final short b) {
         super(com.sun.org.apache.bcel.internal.Const.SIPUSH, (short) 3);
         this.b = b;
     }
-
 
     /**
      * Dump instruction as short code to stream out.
@@ -74,7 +56,6 @@ public class SIPUSH extends Instruction implements ConstantPushInstruction {
         out.writeShort(b);
     }
 
-
     /**
      * @return mnemonic for instruction
      */
@@ -82,7 +63,6 @@ public class SIPUSH extends Instruction implements ConstantPushInstruction {
     public String toString( final boolean verbose ) {
         return super.toString(verbose) + " " + b;
     }
-
 
     /**
      * Read needed data (e.g. index) from file.
@@ -93,12 +73,10 @@ public class SIPUSH extends Instruction implements ConstantPushInstruction {
         b = bytes.readShort();
     }
 
-
     @Override
     public Number getValue() {
         return Integer.valueOf(b);
     }
-
 
     /** @return Type.SHORT
      */
@@ -106,7 +84,6 @@ public class SIPUSH extends Instruction implements ConstantPushInstruction {
     public Type getType( final ConstantPoolGen cp ) {
         return Type.SHORT;
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

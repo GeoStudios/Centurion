@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.border.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
@@ -33,20 +32,6 @@ import java.awt.Rectangle;
 import java.awt.Color;
 import java.awt.Graphics;
 import sun.swing.SwingUtilities2;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Factory object that can vend Borders appropriate for the basic L &amp; F.
@@ -251,7 +236,6 @@ public class BasicBorders {
         }
     }
 
-
     /**
      * A border which is like a Margin border but it will only honor the margin
      * if the margin has been explicitly set by the developer.
@@ -405,7 +389,6 @@ public class BasicBorders {
                                  Color highlight, Color lightHighlight) {
             super(shadow, darkShadow, highlight, lightHighlight);
         }
-
 
         public void paintBorder(Component c, Graphics g, int x, int y, int width, int height) {
 
@@ -570,7 +553,6 @@ public class BasicBorders {
         }
     }
 
-
     /**
      * Draws the border around the divider in a splitpane
      * (when BasicSplitPaneUI is used). To get the appropriate effect, this
@@ -652,7 +634,6 @@ public class BasicBorders {
         }
         public boolean isBorderOpaque() { return true; }
     }
-
 
     /**
      * Draws the border around the splitpane. To work correctly you should

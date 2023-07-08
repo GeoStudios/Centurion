@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.sax2dtm;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMManager;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMWSFilter;
@@ -32,20 +31,6 @@ import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.XMLStringFac
 import java.util.Vector;
 import javax.xml.transform.Source;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is a subclass of SAX2DTM which has been modified to meet the needs of
@@ -280,7 +265,6 @@ public class SAX2RTFDTM extends SAX2DTM
     m_currentDocumentNode= NULL; // no longer open
     m_endDocumentOccured = true;
   }
-
 
   /** "Tail-pruning" support for RTFs.
    *

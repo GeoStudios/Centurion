@@ -21,26 +21,11 @@
 
 package java.desktop.unix.classes.sun.awt;
 
-
 import java.awt.Color;
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Per-screen XSETTINGS.
@@ -50,7 +35,6 @@ public class XSettings {
     /**
      */
     private long serial = -1;
-
 
     /**
      * Update these settings with {@code data} obtained from
@@ -64,7 +48,6 @@ public class XSettings {
     public Map<String, Object> update(byte[] data) {
         return (new Update(data)).update();
     }
-
 
     /**
      * TBS ...
@@ -89,7 +72,6 @@ public class XSettings {
         private boolean isValid;
 
         private HashMap<String, Object> updatedSettings;
-
 
         /**
          * Construct an Update object for the data read from
@@ -127,7 +109,6 @@ public class XSettings {
             isValid = true;
         }
 
-
         private void needBytes(int n)
             throws IndexOutOfBoundsException
         {
@@ -140,7 +121,6 @@ public class XSettings {
                                                 + " length " + dlen);
         }
 
-
         private int getCARD8()
             throws IndexOutOfBoundsException
         {
@@ -151,7 +131,6 @@ public class XSettings {
             ++idx;
             return val;
         }
-
 
         private int getCARD16()
             throws IndexOutOfBoundsException
@@ -170,7 +149,6 @@ public class XSettings {
             idx += 2;
             return val;
         }
-
 
         private int getINT32()
             throws IndexOutOfBoundsException
@@ -194,13 +172,11 @@ public class XSettings {
             return val;
         }
 
-
         private long getCARD32()
             throws IndexOutOfBoundsException
         {
             return getINT32() & 0x00000000ffffffffL;
         }
-
 
         private String getString(int len)
             throws IndexOutOfBoundsException
@@ -213,7 +189,6 @@ public class XSettings {
             idx = (idx + len + 3) & ~0x3;
             return str;
         }
-
 
         /**
          * Update settings.
@@ -239,7 +214,6 @@ public class XSettings {
 
             return updatedSettings;
         }
-
 
         /**
          * Parses a particular x setting.

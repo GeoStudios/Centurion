@@ -21,7 +21,6 @@
 
 package gc.g1.unloading.loading;
 
-
 import gc.g1.unloading.ExecutionTask;
 import gc.g1.unloading.bytecode.*;
 import gc.g1.unloading.check.Assertion;
@@ -49,19 +48,6 @@ import java.lang.reflect.Method;
 import java.util.Collection;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.Random;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This helper performs dirty job: loads classes, instantiate objects, performs redefinition etc...

@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.dom2dtm;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMManager;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMWSFilter;
@@ -50,20 +49,6 @@ import java.xml.share.classes.com.sun.org.w3c.dom.Entity;
 import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** The <code>DOM2DTM</code> class serves up a DOM's contents via the
  * DTM API.
@@ -530,7 +515,6 @@ public class DOM2DTM extends DTMDefaultBaseIterators
         suppressNode = (pos.getNodeName().equalsIgnoreCase("xml"));
       }
 
-
     if(!suppressNode)
       {
         // Inserting next. NOTE that we force the node type; for
@@ -608,7 +592,6 @@ public class DOM2DTM extends DTMDefaultBaseIterators
     m_pos=next;
     return true;
   }
-
 
   /**
    * Return an DOM node for the given node.
@@ -1537,7 +1520,6 @@ public class DOM2DTM extends DTMDefaultBaseIterators
 
     return null;
   }
-
 
   /**
    * Return this DTM's EntityResolver.

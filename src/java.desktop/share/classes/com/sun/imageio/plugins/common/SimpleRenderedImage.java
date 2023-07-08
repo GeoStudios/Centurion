@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.common;
 
-
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.image.RenderedImage;
@@ -33,20 +32,6 @@ import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.Vector;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class SimpleRenderedImage implements RenderedImage {
     /** The X coordinate of the image's upper-left pixel. */

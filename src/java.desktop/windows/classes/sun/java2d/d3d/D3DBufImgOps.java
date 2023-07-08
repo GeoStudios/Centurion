@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.java2d.d3d;
 
-
 import java.awt.image.AffineTransformOp;
 import java.awt.image.BufferedImage;
 import java.awt.image.BufferedImageOp;
@@ -33,20 +32,6 @@ import java.desktop.windows.classes.sun.java2d.SurfaceData;
 import java.desktop.windows.classes.sun.java2d.loops.CompositeType;
 import java.desktop.windows.classes.sun.java2d.pipe.BufferedBufImgOps;
 import static java.desktop.windows.classes.sun.java2d.d3d.D3DContext.D3DContextCaps.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class D3DBufImgOps extends BufferedBufImgOps {
 

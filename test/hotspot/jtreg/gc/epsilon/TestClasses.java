@@ -21,26 +21,12 @@
 
 package gc.epsilon;
 
-
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.Opcodes;
 import java.util.*;
 import java.io.*;
 import java.nio.*;
 import java.nio.file.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test TestClasses
@@ -52,8 +38,6 @@ import java.nio.file.*;
  *
  * @run main/othervm -Xmx1g -XX:MetaspaceSize=1m -XX:MaxMetaspaceSize=64m -XX:+UnlockExperimentalVMOptions -XX:+UseEpsilonGC -Xlog:gc -Xlog:gc+metaspace gc.epsilon.TestClasses
  */
-
-
 
 public class TestClasses {
 

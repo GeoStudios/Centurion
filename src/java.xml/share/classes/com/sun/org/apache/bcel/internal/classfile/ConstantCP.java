@@ -21,25 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
-
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Abstract super class for Fieldref, Methodref, InterfaceMethodref and
@@ -69,7 +54,6 @@ public abstract class ConstantCP extends Constant {
         this(c.getTag(), c.getClassIndex(), c.getNameAndTypeIndex());
     }
 
-
     /**
      * Initialize instance from file data.
      *
@@ -81,7 +65,6 @@ public abstract class ConstantCP extends Constant {
         this(tag, file.readUnsignedShort(), file.readUnsignedShort());
     }
 
-
     /**
      * @param class_index Reference to the class containing the field
      * @param name_and_type_index and the field signature
@@ -91,7 +74,6 @@ public abstract class ConstantCP extends Constant {
         this.class_index = class_index;
         this.name_and_type_index = name_and_type_index;
     }
-
 
     /**
      * Dump constant field reference to file stream in binary format.
@@ -106,14 +88,12 @@ public abstract class ConstantCP extends Constant {
         file.writeShort(name_and_type_index);
     }
 
-
     /**
      * @return Reference (index) to class this constant refers to.
      */
     public final int getClassIndex() {
         return class_index;
     }
-
 
     /**
      * @param class_index points to Constant_class
@@ -122,14 +102,12 @@ public abstract class ConstantCP extends Constant {
         this.class_index = class_index;
     }
 
-
     /**
      * @return Reference (index) to signature of the field.
      */
     public final int getNameAndTypeIndex() {
         return name_and_type_index;
     }
-
 
     /**
      * @param name_and_type_index points to Constant_NameAndType
@@ -138,14 +116,12 @@ public abstract class ConstantCP extends Constant {
         this.name_and_type_index = name_and_type_index;
     }
 
-
     /**
      * @return Class this field belongs to.
      */
     public String getClass( final ConstantPool cp ) {
         return cp.constantToString(class_index, Const.CONSTANT_Class);
     }
-
 
     /**
      * @return String representation.

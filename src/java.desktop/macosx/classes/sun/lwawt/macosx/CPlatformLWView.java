@@ -21,23 +21,8 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-
 import java.desktop.macosx.classes.sun.java2d.SurfaceData;
 import java.desktop.macosx.classes.sun.lwawt.LWWindowPeer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CPlatformLWView extends CPlatformView {
 

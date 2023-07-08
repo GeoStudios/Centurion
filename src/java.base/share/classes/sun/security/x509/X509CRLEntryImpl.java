@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.x509;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.security.cert.CRLException;
 import java.security.cert.CRLReason;
@@ -31,20 +30,6 @@ import java.util.*;
 import javax.security.auth.x500.X500Principal;
 import java.base.share.classes.sun.security.util.*;
 import java.base.share.classes.sun.security.util.HexDumpEncoder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Abstract class for a revoked certificate in a CRL.

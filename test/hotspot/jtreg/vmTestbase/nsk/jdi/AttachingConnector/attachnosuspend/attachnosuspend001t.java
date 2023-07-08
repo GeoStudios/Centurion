@@ -21,21 +21,7 @@
 
 package nsk.jdi.AttachingConnector.attachnosuspend;
 
-
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class attachnosuspend001t {
     public static void main(String args[]) {

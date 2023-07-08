@@ -21,23 +21,9 @@
 
 package compiler.tiered;
 
-
 import java.lang.reflect.Method;
 import compiler.whitebox.CompilerWhiteBoxTest;
 import sun.hotspot.WhiteBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test TestEnqueueMethodForCompilation
@@ -59,9 +45,6 @@ import sun.hotspot.WhiteBox;
  *                   -XX:TieredStopAtLevel=4 -XX:-TieredCompilation
  *                   compiler.tiered.TestEnqueueMethodForCompilation
  */
-
-
-
 
 public class TestEnqueueMethodForCompilation {
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();

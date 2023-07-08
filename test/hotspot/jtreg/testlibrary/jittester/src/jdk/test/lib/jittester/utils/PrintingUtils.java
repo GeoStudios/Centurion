@@ -21,21 +21,6 @@
 
 package jdk.test.lib.jittester.utils;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class PrintingUtils {
 
     static public String align(int l) {

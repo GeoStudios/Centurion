@@ -21,26 +21,11 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
-
 import java.io.OutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ByteArrayInputStream;
 import java.nio.charset.StandardCharsets;
 import java.naming.share.classes.com.sun.security.util.HexDumpEncoder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * Base class that defines common fields, constants, and debug method.
@@ -92,7 +77,6 @@ public abstract class Ber {
     public static final int ASN_OBJECT_ID       = 0x06;
     public static final int ASN_SEQUENCE        = 0x10;
     public static final int ASN_SET             = 0x11;
-
 
     public static final int ASN_PRIMITIVE       = 0x00;
     public static final int ASN_UNIVERSAL       = 0x00;

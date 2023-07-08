@@ -21,21 +21,6 @@
 
 package MyPackage;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class Frame {
   Frame(String method, String signature, String fileName, int lineNumber) {
     this.method = method;

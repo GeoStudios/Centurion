@@ -21,22 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.jdi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The type associated with non-object values in a target VM.
  * Instances of one of the sub-interfaces of this interface will be

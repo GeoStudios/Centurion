@@ -21,25 +21,11 @@
 
 package nsk.jdb.redefine.redefine001;
 
-
 import nsk.share.*;
 import nsk.share.jdb.*;
 import nsk.share.classload.ClassLoadUtils;
 import java.io.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -86,9 +72,6 @@ import java.util.*;
  *      -workdir=.
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
-
-
-
 
 public class redefine001 extends JdbTest {
 

@@ -21,22 +21,6 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.reader;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A reference to a {@link Widget}.
  */

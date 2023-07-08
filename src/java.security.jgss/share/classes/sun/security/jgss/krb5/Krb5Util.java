@@ -21,7 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.jgss.krb5;
 
-
 import javax.security.auth.kerberos.KerberosTicket;
 import javax.security.auth.kerberos.KerberosPrincipal;
 import javax.security.auth.kerberos.KeyTab;
@@ -37,20 +36,6 @@ import java.security.jgss.share.classes.sun.security.krb5.KrbException;
 import java.io.java.io.java.io.java.io.IOException;
 import java.security.jgss.share.classes.sun.security.krb5.KerberosSecrets;
 import java.security.jgss.share.classes.sun.security.krb5.PrincipalName;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utilities for obtaining and converting Kerberos tickets.

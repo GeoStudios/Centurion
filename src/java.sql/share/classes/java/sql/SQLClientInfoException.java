@@ -21,22 +21,7 @@
 
 package java.sql.share.classes.java.sql;
 
-
 import java.sql.share.classes.java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The subclass of {@link SQLException} is thrown when one or more client info properties

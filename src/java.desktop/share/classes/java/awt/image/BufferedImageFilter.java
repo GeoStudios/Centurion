@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.java.awt.image;
 
-
 import java.desktop.share.classes.java.util.Hashtable;
 import java.desktop.share.classes.java.awt.image.ImageConsumer;
 import java.desktop.share.classes.java.awt.image.ImageFilter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code BufferedImageFilter} class subclasses an

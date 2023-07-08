@@ -21,22 +21,7 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.dcmd;
 
-
 import java.util.Formatter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Thrown to indicate that a diagnostic command could not be executed

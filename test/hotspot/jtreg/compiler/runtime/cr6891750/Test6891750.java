@@ -21,28 +21,12 @@
 
 package compiler.runtime.cr6891750;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 6891750
  * @summary deopt blob kills values in O5
  * @run main/othervm compiler.runtime.cr6891750.Test6891750
  */
-
 
 abstract class Base6891750 extends Thread {
     abstract public long m();

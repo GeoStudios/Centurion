@@ -21,26 +21,12 @@
 
 package gc.gctests.PhantomReference.phantom001;
 
-
 import java.lang.ref.*;
 import java.time.LocalTime;
 import nsk.share.gc.*;
 import nsk.share.gc.gp.*;
 import nsk.share.gc.gp.string.InternedStringProducer;
 import nsk.share.gc.gp.string.RandomStringProducer;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -77,8 +63,6 @@ import nsk.share.gc.gp.string.RandomStringProducer;
  *          /test/lib
  * @run main/othervm gc.gctests.PhantomReference.phantom001.phantom001 -ms low
  */
-
-
 
 public class phantom001 extends ThreadedGCTest implements GarbageProducerAware, MemoryStrategyAware {
 

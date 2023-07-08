@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.basic;
 
-
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -31,20 +30,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VM;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.Type;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.TypeDataBase;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.memory.FileMapInfo;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** <P> This is a basic implementation of the TypeDataBase interface.
     It allows an external type database builder to add types to be

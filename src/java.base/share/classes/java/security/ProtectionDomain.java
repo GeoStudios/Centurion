@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.security;
 
-
 import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Collections;
 import java.base.share.classes.java.util.Enumeration;
@@ -36,20 +35,6 @@ import sun.security.provider.PolicyFile;
 import sun.security.util.Debug;
 import sun.security.util.FilePermCompat;
 import sun.security.util.SecurityConstants;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The ProtectionDomain class encapsulates the characteristics of a domain,
@@ -250,7 +235,6 @@ public class ProtectionDomain {
         return this.codesource;
     }
 
-
     /**
      * Returns the ClassLoader of this domain.
      * @return the ClassLoader of this domain which may be null.
@@ -259,7 +243,6 @@ public class ProtectionDomain {
     public final ClassLoader getClassLoader() {
         return this.classloader;
     }
-
 
     /**
      * Returns an array of principals for this domain.

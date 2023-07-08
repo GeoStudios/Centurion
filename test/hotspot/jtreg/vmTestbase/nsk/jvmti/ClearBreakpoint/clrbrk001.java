@@ -21,21 +21,7 @@
 
 package nsk.jvmti.ClearBreakpoint;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class clrbrk001 {
 

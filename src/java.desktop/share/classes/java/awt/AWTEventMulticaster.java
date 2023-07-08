@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.event.*;
 import java.desktop.share.classes.java.lang.reflect.Array;
 import java.desktop.share.classes.java.util.Eventjava.util.Listener;
@@ -29,20 +28,6 @@ import java.desktop.share.classes.java.io.Serializable;
 import java.desktop.share.classes.java.io.ObjectOutputStream;
 import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.desktop.share.classes.java.util.Eventjava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * {@code AWTEventMulticaster} implements efficient and thread-safe multi-cast
@@ -425,7 +410,6 @@ public class AWTEventMulticaster implements
         ((WindowStateListener)a).windowStateChanged(e);
         ((WindowStateListener)b).windowStateChanged(e);
     }
-
 
     /**
      * Handles the windowGainedFocus event by invoking the windowGainedFocus
@@ -976,7 +960,6 @@ public class AWTEventMulticaster implements
             return l;           // it's not here
         }
     }
-
 
    /**
     * Serialization support. Saves all Serializable listeners

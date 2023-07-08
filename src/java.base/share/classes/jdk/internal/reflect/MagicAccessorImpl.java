@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.reflect;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** <P> MagicAccessorImpl (named for parity with FieldAccessorImpl and
     others, not because it actually implements an interface) is a
     marker class in the hierarchy. All subclasses of this class are

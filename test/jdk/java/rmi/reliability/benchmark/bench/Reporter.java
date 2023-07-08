@@ -21,28 +21,12 @@
 
 package bench;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Properties;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  *
  */
-
-
 
 /**
  * Objects implementing this interface are used for printing benchmark reports.

@@ -21,23 +21,8 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit;
 
-
 import javax.lang.model.element.ExecutableElement;
 import javax.lang.model.type.TypeMirror;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The interface for writing method output.

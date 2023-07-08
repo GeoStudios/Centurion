@@ -21,21 +21,6 @@
 
 package compiler.c1;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8181872

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
-
 import java.beans.*;
 import java.desktop.share.classes.javax.swing.*;
 import java.awt.Dimension;
@@ -31,20 +30,6 @@ import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
 import java.desktop.share.classes.javax.swing.plaf.SeparatorUI;
 import java.desktop.share.classes.javax.swing.plaf.UIResource;
 import java.desktop.share.classes.javax.swing.plaf.DimensionUIResource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides the Synth L&amp;F UI delegate for

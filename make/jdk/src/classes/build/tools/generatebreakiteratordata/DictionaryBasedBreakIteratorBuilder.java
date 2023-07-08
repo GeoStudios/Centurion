@@ -21,56 +21,6 @@
 
 package build.tools.generatebreakiteratordata;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The Builder class for DictionaryBasedBreakIterator inherits almost all of
  * its functionality from RuleBasedBreakIteratorBuilder, but extends it with

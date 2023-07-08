@@ -21,7 +21,6 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins;
 
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
@@ -38,20 +37,6 @@ import jdk.jlink.share.classes.jdk.tools.jlink.plugin.PluginException;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePool;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolBuilder;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Plugin to generate java.lang.invoke classes.
@@ -72,7 +57,6 @@ import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry;
  * help improve startup time.
  */
 public final class GenerateJLIClassesPlugin extends AbstractPlugin {
-
 
     private static final String DEFAULT_TRACE_FILE = "default_jli_trace.txt";
 

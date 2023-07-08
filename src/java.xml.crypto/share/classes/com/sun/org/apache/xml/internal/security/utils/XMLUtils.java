@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.utils;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -49,27 +48,10 @@ import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.util.List;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Text;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * DOM and XML accessibility and comfort functions.
@@ -222,7 +204,6 @@ public final class XMLUtils {
             result.add(rootNode);
         }
     }
-
 
     /**
      * Outputs a DOM tree to an {@link OutputStream}.
@@ -1022,7 +1003,5 @@ public final class XMLUtils {
 
         return resizedBytes;
     }
-
-
 
 }

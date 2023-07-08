@@ -21,28 +21,12 @@
 
 package compiler.floatingpoint;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 4755500
  * @summary calling Math.round(NaN) can break subsequent calls to Math.round()
  * @run main compiler.floatingpoint.TestRound
  */
-
 
 public class TestRound {
     public static void main(String[] args) {

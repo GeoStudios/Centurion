@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.nio.channels.spi;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.nio.channels.AsynchronousCloseException;
 import java.base.share.classes.java.nio.channels.Channel;
@@ -29,20 +28,6 @@ import java.base.share.classes.java.nio.channels.ClosedByInterruptException;
 import java.base.share.classes.java.nio.channels.InterruptibleChannel;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import sun.nio.ch.Interruptible;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base implementation class for interruptible channels.
@@ -141,7 +126,6 @@ public abstract class AbstractInterruptibleChannel
         return !closed;
     }
 
-
     // -- Interruption machinery --
 
     private Interruptible interruptor;
@@ -207,7 +191,6 @@ public abstract class AbstractInterruptibleChannel
         if (!completed && closed)
             throw new AsynchronousCloseException();
     }
-
 
     // -- jdk.internal.access.SharedSecrets --
     static void blockedOn(Interruptible intr) {         // package-private

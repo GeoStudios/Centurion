@@ -21,23 +21,8 @@
 
 package jdk.jdi.share.classes.com.sun.jdi;
 
-
 import java.util.java.util.java.util.java.util.List;
 import jdk.jdi.share.classes.com.sun.jdi.event.EventSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A thread object from the target VM.

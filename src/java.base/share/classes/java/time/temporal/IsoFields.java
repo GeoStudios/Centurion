@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time.temporal;
 
-
 import static java.base.share.classes.java.time.DayOfWeek.THURSDAY;.extended
 import static java.base.share.classes.java.time.DayOfWeek.WEDNESDAY;.extended
 import static java.base.share.classes.java.time.temporal.ChronoField.DAY_OF_WEEK;.extended
@@ -48,20 +47,6 @@ import java.base.share.classes.java.util.ResourceBundle;
 import sun.util.locale.provider.CalendarDataUtility;
 import sun.util.locale.provider.LocaleProviderAdapter;
 import sun.util.locale.provider.LocaleResources;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Fields and units specific to the ISO-8601 calendar system,
@@ -566,7 +551,6 @@ public final class IsoFields {
 
         //-------------------------------------------------------------------------
         private static final int[] QUARTER_DAYS = {0, 90, 181, 273, 0, 91, 182, 274};
-
 
         private static void ensureIso(TemporalAccessor temporal) {
             if (!isIso(temporal)) {

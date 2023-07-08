@@ -21,24 +21,9 @@
 
 package java.management.share.classes.com.sun.jmx.remote.internal;
 
-
 import java.util.Set;
 import javax.management.remote.NotificationResult;
 import javax.management.remote.TargetedNotification;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** A buffer of notifications received from an MBean server. */
 public interface NotificationBuffer {

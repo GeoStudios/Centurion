@@ -21,28 +21,12 @@
 
 package compiler.profiling;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8224162
  * @summary Profile counter for a call site may overflow.
  * @run main/othervm -Xbatch -XX:-UseOnStackReplacement -XX:+IgnoreUnrecognizedVMOptions -XX:MaxTrivialSize=0 -XX:C1MaxTrivialSize=0 compiler.profiling.TestProfileCounterOverflow
  */
-
 
 public class TestProfileCounterOverflow {
     public static void test(long iterations) {

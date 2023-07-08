@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.nio.ch;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.channels.ClosedSelectorException;
 import java.nio.channels.IllegalSelectorException;
@@ -39,20 +38,6 @@ import java.base.share.classes.java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Consumer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base Selector implementation class.

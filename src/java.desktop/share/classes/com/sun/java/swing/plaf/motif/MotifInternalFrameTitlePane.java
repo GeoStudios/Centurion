@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-
 import java.desktop.share.classes.com.sun.java.awt.*;
 import java.desktop.share.classes.com.sun.java.awt.event.*;
 import javax.swing.*;
@@ -35,20 +34,6 @@ import java.desktop.share.classes.com.sun.java.beans.VetoableChangejava.util.Lis
 import java.desktop.share.classes.com.sun.java.beans.PropertyVetoException;
 import java.desktop.share.classes.com.sun.awt.AWTAccessor;
 import java.desktop.share.classes.com.sun.awt.AWTAccessor.MouseEventAccessor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class that manages a Motif title bar
@@ -69,7 +54,6 @@ public class MotifInternalFrameTitlePane
 
     // The width and height of a title pane button
     public static final int BUTTON_SIZE = 19;  // 17 + 1 pixel border
-
 
     public MotifInternalFrameTitlePane(JInternalFrame frame) {
         super(frame);
@@ -153,7 +137,6 @@ public class MotifInternalFrameTitlePane
         maximizeButton = new MaximizeButton();
         maximizeButton.addActionListener(maximizeAction);
     }
-
 
     protected void addSubComponents() {
         title = new Title(frame.getTitle());

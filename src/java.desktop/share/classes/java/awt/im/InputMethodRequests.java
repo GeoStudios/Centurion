@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.java.awt.im;
 
-
 import java.desktop.share.classes.java.awt.Rectangle;
 import java.desktop.share.classes.java.awt.font.TextHitInfo;
 import java.desktop.share.classes.java.text.AttributedCharacterIterator;
 import java.desktop.share.classes.java.text.AttributedCharacterIterator.Attribute;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * InputMethodRequests defines the requests that a text editing component

@@ -21,23 +21,9 @@
 
 package nsk.jvmti.RelinquishCapabilities;
 
-
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class relcaps002 extends DebugeeClass {
 

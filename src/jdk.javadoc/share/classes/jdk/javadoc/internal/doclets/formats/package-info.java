@@ -21,22 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
@@ -57,7 +41,6 @@ package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats;
  * version 2 along with this work; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-
 
 /**
  *  The set of low-level file-formats, to be used in conjunction with

@@ -21,21 +21,5 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.asm;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public abstract class ImmediateOrRegister extends Operand {
 }

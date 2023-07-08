@@ -21,22 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.basic;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class BasicLocalSym extends BasicSym implements LocalSym {
   private Type   type;

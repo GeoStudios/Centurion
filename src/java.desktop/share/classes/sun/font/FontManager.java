@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.sun.font;
 
-
 import java.awt.Font;
 import java.awt.FontFormatException;
 import java.io.File;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Interface between Java Fonts (java.awt.Font) and the underlying

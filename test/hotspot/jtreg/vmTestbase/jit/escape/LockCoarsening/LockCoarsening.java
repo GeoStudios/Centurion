@@ -21,21 +21,7 @@
 
 package jit.escape.LockCoarsening;
 
-
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class LockCoarsening {
     // JVM option '-XX:+EliminateLocks' specified

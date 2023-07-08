@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.awt;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A FocusTraversalPolicy defines the order in which Components with a
  * particular focus cycle root are traversed. Instances can apply the policy to

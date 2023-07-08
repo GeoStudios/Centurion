@@ -21,35 +21,16 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMImplementation;
 import java.xml.share.classes.com.sun.org.w3c.dom.Document;
 import java.xml.share.classes.com.sun.org.w3c.dom.DocumentType;
 import java.xml.share.classes.com.sun.org.w3c.dom.Element;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
-
 
 /**
  * The DOMImplementation class is description of a particular
@@ -74,7 +55,6 @@ public class DOMImplementationImpl extends CoreDOMImplementationImpl
 
     /** Dom implementation singleton. */
     static DOMImplementationImpl singleton = new DOMImplementationImpl();
-
 
     //
     // Public methods
@@ -130,8 +110,6 @@ public class DOMImplementationImpl extends CoreDOMImplementationImpl
         return result;
     } // hasFeature(String,String):boolean
 
-
-
     /**
      * Introduced in DOM Level 2. <p>
      *
@@ -170,6 +148,5 @@ public class DOMImplementationImpl extends CoreDOMImplementationImpl
         doc.appendChild(e);
         return doc;
     }
-
 
 } // class DOMImplementationImpl

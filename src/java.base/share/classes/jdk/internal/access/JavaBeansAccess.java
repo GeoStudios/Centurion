@@ -21,23 +21,8 @@
 
 package java.base.share.classes.jdk.internal.access;
 
-
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public interface JavaBeansAccess {
     /**

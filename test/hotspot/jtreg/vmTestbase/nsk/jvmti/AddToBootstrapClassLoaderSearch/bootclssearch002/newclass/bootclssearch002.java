@@ -21,22 +21,8 @@
 
 package nsk.jvmti.AddToBootstrapClassLoaderSearch;
 
-
 import java.io.PrintStream;
 import nsk.share.Consts;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Debuggee class for this test. */
 public class bootclssearch002 extends bootclssearch002p {

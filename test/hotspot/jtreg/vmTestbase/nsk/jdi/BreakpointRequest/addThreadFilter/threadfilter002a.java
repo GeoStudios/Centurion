@@ -21,23 +21,9 @@
 
 package nsk.jdi.BreakpointRequest.addThreadFilter;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the threadfilter002 JDI test.
@@ -128,7 +114,6 @@ public class threadfilter002a {
         log1("debuggee exits");
         System.exit(exitCode + PASS_BASE);
     }
-
 
     static Object waitnotifyObj = new Object();
 

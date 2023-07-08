@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.swing;
 
-
 import javax.swing.JComponent;
 import java.awt.Component;
 import java.awt.Cursor;
@@ -32,20 +31,6 @@ import java.awt.dnd.DragSource;
 import java.awt.dnd.DropTarget;
 import java.awt.dnd.InvalidDnDOperationException;
 import java.awt.dnd.peer.DragSourceContextPeer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The interface by means of which the {@link JLightweightFrame} class

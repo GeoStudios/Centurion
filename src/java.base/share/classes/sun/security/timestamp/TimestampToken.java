@@ -21,27 +21,12 @@
 
 package java.base.share.classes.sun.security.timestamp;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
 import java.util.Date;
 import java.base.share.classes.sun.security.util.DerValue;
 import java.base.share.classes.sun.security.util.ObjectIdentifier;
 import java.base.share.classes.sun.security.x509.AlgorithmId;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class provides the timestamp token info resulting from a successful

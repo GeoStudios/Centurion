@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import java.util.TreeMap;
 import javax.sound.midi.MidiDevice;
 import javax.sound.midi.MidiDeviceReceiver;
 import javax.sound.midi.MidiMessage;
 import javax.sound.midi.ShortMessage;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Software synthesizer MIDI receiver class.

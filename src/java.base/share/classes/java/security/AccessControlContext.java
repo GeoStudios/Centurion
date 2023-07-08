@@ -21,26 +21,11 @@
 
 package java.base.share.classes.java.security;
 
-
 import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.java.util.java.util.java.util.List;
 import sun.security.util.Debug;
 import sun.security.util.FilePermCompat;
 import sun.security.util.SecurityConstants;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An AccessControlContext is used to make system resource access decisions
@@ -295,7 +280,6 @@ public final class AccessControlContext {
         }
         this.isAuthorized = true;
     }
-
 
     /**
      * package private constructor for AccessController.getContext()
@@ -662,7 +646,6 @@ public final class AccessControlContext {
         return this;
     }
 
-
     /*
      * Combine the current (stack) and assigned domains.
      */
@@ -726,7 +709,6 @@ public final class AccessControlContext {
         return pd;
     }
 
-
     /*
      * Calculate the additional domains that could potentially be reached via
      * limited privilege scope. Mark the context as being subject to limited
@@ -753,7 +735,6 @@ public final class AccessControlContext {
             }
         }
     }
-
 
     /**
      * Checks two AccessControlContext objects for equality.
@@ -930,7 +911,6 @@ public final class AccessControlContext {
         }
         return match;
     }
-
 
     /**
      * Returns the hash code value for this context. The hash code

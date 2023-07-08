@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
-
 import java.awt.Component;
 import java.awt.Graphics;
 import java.beans.PropertyChangeEvent;
@@ -37,20 +36,6 @@ import java.desktop.share.classes.javax.swing.plaf.basic.BasicTableHeaderUI;
 import java.desktop.share.classes.javax.swing.table.JTableHeader;
 import java.desktop.share.classes.javax.swing.table.TableCellRenderer;
 import sun.swing.table.DefaultTableCellHeaderRenderer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides the Synth L&amp;F UI delegate for

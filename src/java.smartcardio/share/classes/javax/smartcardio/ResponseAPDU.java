@@ -21,22 +21,7 @@
 
 package java.smartcardio.share.classes.javax.smartcardio;
 
-
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A response APDU as defined in ISO/IEC 7816-4. It consists of a conditional

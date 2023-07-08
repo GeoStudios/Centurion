@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Signals that some part of a graphics pipeline is not in an appropriate
  * state for the requested operation.  The most likely cause of this is

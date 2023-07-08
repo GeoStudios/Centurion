@@ -21,25 +21,10 @@
 
 package jdk.jshell.share.classes.jdk.jshell;
 
-
 import com.sun.tools.javac.comp.AttrContext;
 import com.sun.tools.javac.comp.Env;
 import com.sun.tools.javac.comp.Resolve;
 import com.sun.tools.javac.util.Context;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Just need access to isStatic

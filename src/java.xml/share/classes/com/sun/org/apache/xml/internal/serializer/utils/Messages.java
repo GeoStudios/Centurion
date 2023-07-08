@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer.utils;
 
-
 import java.base.share.classes.java.util.Locale;
 import java.util.ResourceBundle;
 import jdk.xml.internal.SecuritySupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A utility class for issuing error messages.
@@ -118,8 +103,6 @@ public final class Messages
     /** The class name of the error message string table with no language suffix. */
     private final String m_resourceBundleName;
 
-
-
     /**
      * Constructor.
      * @param resourceBundle the class name of the ListResourceBundle
@@ -136,7 +119,6 @@ public final class Messages
 
         m_resourceBundleName = resourceBundle;
     }
-
 
     /**
      * Get the Locale object that is being used.

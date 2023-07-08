@@ -21,24 +21,10 @@
 
 package vm.gc.containers;
 
-
 import nsk.share.gc.Memory;
 import nsk.share.gc.gp.GarbageProducer;
 import nsk.share.gc.gp.MemoryStrategy;
 import nsk.share.test.ExecutionController;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public interface Container {
     public void setExecutionController(ExecutionController stresser);
@@ -73,6 +59,5 @@ abstract class TypicalContainer implements Container {
     public void setExecutionController(ExecutionController stresser) {
         this.stresser = stresser;
     }
-
 
 }

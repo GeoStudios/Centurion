@@ -21,22 +21,7 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm;
 
-
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A constant whose value is computed at runtime, with a bootstrap method.

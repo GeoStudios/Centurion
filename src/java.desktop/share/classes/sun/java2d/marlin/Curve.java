@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.marlin;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 final class Curve {
 
     double ax, ay, bx, by, cx, cy, dx, dy;

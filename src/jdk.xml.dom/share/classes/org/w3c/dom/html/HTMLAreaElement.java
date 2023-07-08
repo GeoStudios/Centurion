@@ -21,22 +21,6 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.html;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *  Client-side image map area definition. See the  AREA element definition in
  * HTML 4.0.

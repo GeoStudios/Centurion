@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.awt.desktop;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An implementor is notified when the application is asked to open a URI.
  *

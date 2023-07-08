@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac.pubapi;
 
-
 import static jdk.compiler.share.classes.com.sun.tools.sjavac.Util.union;.extended
 import java.io.Serializable;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -41,20 +40,6 @@ import java.util.stream.Stream;
 import javax.lang.model.element.Modifier;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.StringUtils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class PubApi implements Serializable {
 
@@ -185,7 +170,6 @@ public class PubApi implements Serializable {
         merged.types.putAll(api2.types);
         return merged;
     }
-
 
     // Used for line-by-line parsing
     private PubType lastInsertedType = null;

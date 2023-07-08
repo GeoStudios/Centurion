@@ -21,21 +21,6 @@
 
 package compiler.rangechecks;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8134883
@@ -45,7 +30,6 @@ package compiler.rangechecks;
  * @run main/othervm -XX:-BackgroundCompilation -XX:-UseOnStackReplacement
  *                  compiler.rangechecks.TestRangeCheckExceptionHandlerLoopMain
  */
-
 
 public class TestRangeCheckExceptionHandlerLoopMain {
     public static void main(String[] args) throws Exception {

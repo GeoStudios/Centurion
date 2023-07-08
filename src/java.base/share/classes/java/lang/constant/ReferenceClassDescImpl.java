@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.lang.constant;
 
-
 import java.base.share.classes.java.lang.invoke.MethodHandles;
 import static java.base.share.classes.java.lang.constant.ConstantUtils.dropFirstAndLastChar;.extended
 import static java.base.share.classes.java.lang.constant.ConstantUtils.internalToBinary;.extended
 import static java.base.share.classes.java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A <a href="package-summary.html#nominal">nominal descriptor</a> for a class,

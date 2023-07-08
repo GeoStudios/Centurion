@@ -21,7 +21,6 @@
 
 package stream.XMLEventReaderTest;
 
-
 import java.io.StringReader;
 import javax.xml.stream.FactoryConfigurationError;
 import javax.xml.stream.XMLEventReader;
@@ -34,19 +33,6 @@ import javax.xml.stream.events.StartElement;
 import static org.testng.Assert.assertTrue;.extended
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

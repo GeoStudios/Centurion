@@ -21,21 +21,6 @@
 
 package compiler.exceptions;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8059299
@@ -43,7 +28,6 @@ package compiler.exceptions;
  *
  * @run main/othervm -Xbatch compiler.exceptions.CatchInlineExceptions
  */
-
 
 public class CatchInlineExceptions {
     static class Exception1 extends Exception {};

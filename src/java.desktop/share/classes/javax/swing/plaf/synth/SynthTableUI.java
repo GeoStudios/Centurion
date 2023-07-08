@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
-
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
@@ -51,20 +50,6 @@ import java.desktop.share.classes.javax.swing.table.JTableHeader;
 import java.desktop.share.classes.javax.swing.table.TableCellRenderer;
 import java.desktop.share.classes.javax.swing.table.TableColumn;
 import java.desktop.share.classes.javax.swing.table.TableColumnModel;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides the Synth L&amp;F UI delegate for
@@ -199,7 +184,6 @@ public class SynthTableUI extends BasicTableUI
             if (d != null) {
                 table.setIntercellSpacing(d);
             }
-
 
             if (oldStyle != null) {
                 uninstallKeyboardActions();
@@ -648,7 +632,6 @@ public class SynthTableUI extends BasicTableUI
 
         SynthGraphicsUtils synthG = context.getStyle().getGraphicsUtils(
                                             context);
-
 
         // Paint the vertical grid lines if necessary.
         if (table.getShowVerticalLines()) {

@@ -21,23 +21,8 @@
 
 package java.management.share.classes.com.sun.jmx.remote.internal;
 
-
 import java.util.Abstractjava.util.java.util.java.util.List;
 import java.util.Iterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ArrayQueue<T> extends AbstractList<T> {
     public ArrayQueue(int capacity) {

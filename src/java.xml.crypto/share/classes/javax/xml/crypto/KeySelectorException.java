@@ -21,29 +21,12 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto;
 
-
 import java.io.PrintStream;
 import java.io.PrintWriter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * $Id: KeySelectorException.java,v 1.3 2005/05/10 15:47:42 mullan Exp $
  */
-
-
 
 /**
  * Indicates an exceptional condition thrown by a {@link KeySelector}.

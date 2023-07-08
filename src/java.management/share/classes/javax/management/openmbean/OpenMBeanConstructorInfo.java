@@ -21,30 +21,13 @@
 
 package java.management.share.classes.javax.management.openmbean;
 
-
 import java.management.share.classes.javax.management.MBeanParameterInfo;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // java import
 //
 
-
 // jmx import
 //
-
 
 /**
  * <p>Describes a constructor of an Open MBean.</p>
@@ -91,7 +74,6 @@ public interface OpenMBeanConstructorInfo {
      * @return the signature.
      */
     MBeanParameterInfo[] getSignature() ;
-
 
     // commodity methods
     //

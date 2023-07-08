@@ -21,7 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.krb5;
 
-
 import java.security.PrivilegedAction;
 import java.security.Security;
 import java.base.share.classes.java.util.Locale;
@@ -39,20 +38,6 @@ import java.util.Set;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.security.jgss.share.classes.sun.security.krb5.internal.KRBError;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * KDC-REQ/KDC-REP communication. No more base class for KrbAsReq and
@@ -139,7 +124,6 @@ public final class KdcComm {
         } else {
             badPolicy = BpType.NONE;
         }
-
 
         int timeout = -1;
         int max_retries = -1;

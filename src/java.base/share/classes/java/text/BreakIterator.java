@@ -21,26 +21,11 @@
 
 package java.base.share.classes.java.text;
 
-
 import java.base.share.classes.java.lang.ref.SoftReference;
 import java.base.share.classes.java.text.spi.BreakIteratorProvider;
 import java.base.share.classes.java.util.Locale;
 import sun.util.locale.provider.LocaleProviderAdapter;
 import sun.util.locale.provider.LocaleServiceProviderPool;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code BreakIterator} class implements methods for finding

@@ -21,23 +21,9 @@
 
 package nsk.jvmti.GetJNIFunctionTable;
 
-
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test exercises the JVMTI function GetJNIFunctionTable().

@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8245801
@@ -44,7 +29,6 @@ package compiler.c2;
  * @run main/othervm -Xcomp -XX:+IgnoreUnrecognizedVMOptions -XX:+StressRecompilation
  *                   compiler.c2.TestStressRecompilation
  */
-
 
 public class TestStressRecompilation {
 

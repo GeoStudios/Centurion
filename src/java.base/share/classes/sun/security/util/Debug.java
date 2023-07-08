@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.util;
 
-
 import java.io.PrintStream;
 import java.math.BigInteger;
 import java.util.HexFormat;
@@ -29,20 +28,6 @@ import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 import java.base.share.classes.java.util.Locale;
 import java.base.share.classes.sun.security.action.GetPropertyAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A utility class for debugging.
@@ -135,7 +120,6 @@ public class Debug {
         System.err.println("Note: Separate multiple options with a comma");
         System.exit(0);
     }
-
 
     /**
      * Get a Debug object corresponding to whether or not the given

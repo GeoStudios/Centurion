@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.print;
 
-
 import java.net.URI;
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -66,20 +65,6 @@ import javax.print.attribute.standard.PrinterState;
 import javax.print.attribute.standard.PrinterStateReason;
 import javax.print.attribute.standard.PrinterStateReasons;
 import java.awt.print.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Win32PrintJob implements CancelablePrintJob {
 
@@ -160,7 +145,6 @@ public class Win32PrintJob implements CancelablePrintJob {
             }
         }
     }
-
 
     /* Closes any stream already retrieved for the data.
      * We want to avoid unnecessarily asking the Doc to create a stream only
@@ -326,7 +310,6 @@ public class Win32PrintJob implements CancelablePrintJob {
             PrinterIsAcceptingJobs.NOT_ACCEPTING_JOBS) {
             throw new PrintException("Printer is not accepting job.");
         }
-
 
         this.doc = doc;
         /* check if the parameters are valid before doing much processing */

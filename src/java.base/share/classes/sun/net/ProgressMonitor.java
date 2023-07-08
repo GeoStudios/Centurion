@@ -21,24 +21,9 @@
 
 package java.base.share.classes.sun.net;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
 import java.net.URL;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * ProgressMonitor is a class for monitoring progress in network input stream.
@@ -68,7 +53,6 @@ public class ProgressMonitor
         if (policy != null)
             meteringPolicy = policy;
     }
-
 
     /**
      * Return a snapshot of the ProgressSource list
@@ -241,7 +225,6 @@ public class ProgressMonitor
     // ArrayList for progress listeners
     private final ArrayList<ProgressListener> progressListenerList = new ArrayList<ProgressListener>();
 }
-
 
 /**
  * Default progress metering policy.

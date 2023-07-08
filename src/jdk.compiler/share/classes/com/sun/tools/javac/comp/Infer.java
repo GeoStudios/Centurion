@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Source.Feature;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.UndetVar.UndetVarjava.util.Listener;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Types.TypeMapping;
@@ -66,20 +65,6 @@ import java.util.function.BiFunction;
 import java.util.function.BiPredicate;
 import java.util.function.Predicate;
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Helper class for type parameter inference, used by the attribution phase.
  *

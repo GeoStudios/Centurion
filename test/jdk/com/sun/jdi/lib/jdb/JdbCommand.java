@@ -21,23 +21,9 @@
 
 package lib.jdb;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents list of commands of <code>jdb</code> from JDK1.4:
@@ -147,7 +133,6 @@ public class JdbCommand {
         waitForPattern = Pattern.compile(pattern, isMultiline ? Pattern.MULTILINE : 0);
         return this;
     }
-
 
     public static JdbCommand run(String ... params) {
         return new JdbCommand("run " + Arrays.stream(params).collect(Collectors.joining(" ")));

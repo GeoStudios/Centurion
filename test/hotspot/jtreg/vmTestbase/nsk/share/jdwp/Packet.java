@@ -21,23 +21,9 @@
 
 package nsk.share.jdwp;
 
-
 import nsk.share.*;
 import java.util.Vector;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents a JDWP packet.
@@ -430,7 +416,6 @@ public class Packet extends ByteBuffer {
 
         return value;
     }
-
 
     ////////////////////////////////////////////////////////////////
 

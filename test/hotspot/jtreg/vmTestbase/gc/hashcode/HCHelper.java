@@ -21,22 +21,8 @@
 
 package gc.hashcode;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Random;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Helper class for the hash code tests.
@@ -292,7 +278,6 @@ public final class HCHelper {
         }
     }
 
-
     private int minSize;
     private int maxSize;
     private double percentToFill;
@@ -431,7 +416,6 @@ public final class HCHelper {
 
         return true;
     }
-
 
     /**
      * Verify the hash codes for all objects in all the lists.

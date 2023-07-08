@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.z;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Address;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VM;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VMObject;
@@ -30,20 +29,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.AddressField;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.CIntegerField;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.Type;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.TypeDataBase;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ZForwardingTable extends VMObject {
     private static long mapFieldOffset;

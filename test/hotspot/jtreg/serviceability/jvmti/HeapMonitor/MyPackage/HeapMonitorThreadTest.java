@@ -21,21 +21,7 @@
 
 package MyPackage;
 
-
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -45,7 +31,6 @@ import java.util.java.util.java.util.java.util.List;
  * @compile HeapMonitorThreadTest.java
  * @run main/othervm/native -Xmx512m -agentlib:HeapMonitorTest MyPackage.HeapMonitorThreadTest
  */
-
 
 public class HeapMonitorThreadTest {
   private native static boolean checkSamples(int numThreads);

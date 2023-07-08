@@ -21,26 +21,11 @@
 
 package java.base.share.classes.java.nio.channels;
 
-
 import java.base.share.classes.java.nio.channels.spi.*;
 import java.base.share.classes.java.net.java.net.SocketOption;
 import java.base.share.classes.java.net.java.net.SocketAddress;
 import java.base.share.classes.java.util.concurrent.Future;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An asynchronous channel for stream-oriented listening sockets.

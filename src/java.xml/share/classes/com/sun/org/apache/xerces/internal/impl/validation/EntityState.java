@@ -21,28 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.validation;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * The entity state interface defines methods that must be implemented

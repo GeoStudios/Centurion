@@ -21,21 +21,6 @@
 
 package compiler.codecache.cli.common;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Base for code cache related command line options tests.
  */

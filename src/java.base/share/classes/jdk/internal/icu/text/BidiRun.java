@@ -21,27 +21,9 @@
 
 package java.base.share.classes.jdk.internal.icu.text;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Written by Simon Montagu, Matitiahu Allouche
  * (ported from C code written by Markus W. Scherer)
  */
-
-
 
 /**
  * A BidiRun represents a sequence of characters at the same embedding level.

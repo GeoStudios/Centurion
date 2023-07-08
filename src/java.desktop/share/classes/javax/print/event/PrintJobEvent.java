@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.print.event;
 
-
 import java.io.Serial;
 import java.desktop.share.classes.javax.print.DocPrintJob;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class {@code PrintJobEvent} encapsulates common events a print job reports to

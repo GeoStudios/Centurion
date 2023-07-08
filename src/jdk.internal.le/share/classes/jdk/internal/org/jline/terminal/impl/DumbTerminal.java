@@ -21,7 +21,6 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -34,20 +33,6 @@ import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Size;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.NonBlocking;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.NonBlockingInputStream;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.NonBlockingReader;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class DumbTerminal extends AbstractTerminal {
 

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.net.www.protocol.jar;
 
-
 import java.io.InputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.FileNotFoundException;
@@ -37,20 +36,6 @@ import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 import java.util.jar.Manifest;
 import java.security.Permission;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  */

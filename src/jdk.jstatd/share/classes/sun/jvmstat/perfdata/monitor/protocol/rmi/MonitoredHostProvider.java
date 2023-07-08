@@ -21,7 +21,6 @@
 
 package jdk.jstatd.share.classes.sun.jvmstat.perfdata.monitor.protocol.rmi;
 
-
 import jdk.jstatd.share.classes.sun.jvmstat.monitor.*;
 import jdk.jstatd.share.classes.sun.jvmstat.monitor.event.*;
 import jdk.jstatd.share.classes.sun.jvmstat.monitor.remote.*;
@@ -31,20 +30,6 @@ import java.net.*;
 import java.io.*;
 import java.rmi.*;
 import java.util.HashMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Concrete implementation of the MonitoredHost interface for the

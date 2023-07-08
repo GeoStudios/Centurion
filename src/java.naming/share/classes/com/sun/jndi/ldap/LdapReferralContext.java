@@ -21,7 +21,6 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
-
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.spi.*;
@@ -29,20 +28,6 @@ import javax.naming.ldap.*;
 import java.util.Hashtable;
 import java.util.StringTokenizer;
 import java.naming.share.classes.com.sun.jndi.toolkit.dir.SearchFilter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A context for handling referrals.
@@ -195,7 +180,6 @@ final class LdapReferralContext implements DirContext, LdapContext {
                 new CompositeName().add(urlString);
         }
     }
-
 
     public void close() throws NamingException {
         if (refCtx != null) {

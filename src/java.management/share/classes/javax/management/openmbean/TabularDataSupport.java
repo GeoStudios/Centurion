@@ -21,7 +21,6 @@
 
 package java.management.share.classes.javax.management.openmbean;
 
-
 import com.sun.jmx.mbeanserver.GetPropertyAction;
 import com.sun.jmx.mbeanserver.Util;
 import java.io.java.io.java.io.java.io.IOException;
@@ -40,26 +39,11 @@ import java.util.Map;
 import java.util.Set;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // java import
 //
 
 // jmx import
 //
-
 
 /**
  * The {@code TabularDataSupport} class is the <i>open data</i>
@@ -86,10 +70,8 @@ public class TabularDataSupport
     implements TabularData, Map<Object,Object>,
                Cloneable, Serializable {
 
-
     /* Serial version */
     static final long serialVersionUID = 5720150593236309827L;
-
 
     /**
      * @serial This tabular data instance's contents: a {@link HashMap}
@@ -108,10 +90,7 @@ public class TabularDataSupport
      */
     private transient String[] indexNamesArray;
 
-
-
     /* *** Constructors *** */
-
 
     /**
      * Creates an empty {@code TabularDataSupport} instance
@@ -175,11 +154,7 @@ public class TabularDataSupport
             new LinkedHashMap<Object, CompositeData>(initialCapacity, loadFactor);
     }
 
-
-
-
     /* *** TabularData specific information methods *** */
-
 
     /**
      * Returns the <i>tabular type</i> describing this {@code TabularData} instance.
@@ -219,11 +194,7 @@ public class TabularDataSupport
         return internalCalculateIndex(value).toArray();
     }
 
-
-
-
     /* *** Content information query methods *** */
-
 
     /**
      * Returns {@code true} if and only if this {@code TabularData} instance contains a {@code CompositeData} value
@@ -333,11 +304,7 @@ public class TabularDataSupport
         return dataMap.get(Arrays.asList(key));
     }
 
-
-
-
     /* *** Content modification operations (one element at a time) *** */
-
 
     /**
      * This method simply calls {@code put((CompositeData) value)} and
@@ -425,10 +392,7 @@ public class TabularDataSupport
         return dataMap.remove(Arrays.asList(key));
     }
 
-
-
     /* ***   Content modification bulk operations   *** */
-
 
     /**
      * Add all the values contained in the specified map <var>t</var>
@@ -554,8 +518,6 @@ public class TabularDataSupport
         dataMap.clear();
     }
 
-
-
     /* ***  Informational methods from java.util.Map  *** */
 
     /**
@@ -577,8 +539,6 @@ public class TabularDataSupport
 
         return (this.size() == 0);
     }
-
-
 
     /* ***  Collection views from java.util.Map  *** */
 
@@ -633,7 +593,6 @@ public class TabularDataSupport
         return Util.cast(dataMap.values());
     }
 
-
     /**
      * Returns a collection view of the index to row mappings
      * contained in this {@code TabularDataSupport} instance.
@@ -669,9 +628,7 @@ public class TabularDataSupport
         return Util.cast(dataMap.entrySet());
     }
 
-
     /* ***  Commodity methods from java.lang.Object  *** */
-
 
     /**
      * Returns a clone of this {@code TabularDataSupport} instance:
@@ -693,7 +650,6 @@ public class TabularDataSupport
             throw new InternalError(e.toString(), e);
         }
     }
-
 
     /**
      * Compares the specified <var>obj</var> parameter with this {@code TabularDataSupport} instance for equality.
@@ -807,11 +763,7 @@ public class TabularDataSupport
                 ")";
     }
 
-
-
-
     /* *** TabularDataSupport internal utility methods *** */
-
 
     /**
      * Returns the index for value, assuming value is valid for this {@code TabularData} instance

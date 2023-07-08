@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.provider.certpath;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.net.URI;
@@ -53,20 +52,6 @@ import java.base.share.classes.sun.security.x509.GeneralNameInterface;
 import java.base.share.classes.sun.security.x509.PKIXExtensions;
 import java.base.share.classes.sun.security.x509.URIName;
 import java.base.share.classes.sun.security.x509.X509CertImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is a class that checks the revocation status of a certificate(s) using
@@ -109,7 +94,6 @@ public final class OCSP {
 
     private OCSP() {}
 
-
     /**
      * Obtains the revocation status of a certificate using OCSP.
      *
@@ -138,7 +122,6 @@ public final class OCSP {
                      Collections.<Extension>emptyList(),
                      Validator.VAR_PLUGIN_CODE_SIGNING);
     }
-
 
     public static RevocationStatus check(X509Certificate cert,
             X509Certificate issuerCert, URI responderURI,
@@ -217,7 +200,6 @@ public final class OCSP {
 
         return ocspResponse;
     }
-
 
     /**
      * Send an OCSP request, then read and return the OCSP response bytes.

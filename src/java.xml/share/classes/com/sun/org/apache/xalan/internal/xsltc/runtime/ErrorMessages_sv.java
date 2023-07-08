@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime;
 
-
 import java.util.java.util.ListResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  */
@@ -266,7 +249,6 @@ public class ErrorMessages_sv extends ListResourceBundle {
         {BasisLibrary.UNSUPPORTED_EXT_ERR,
         "XSLTC-till\u00E4gget ''{0}'' \u00E4r ok\u00E4nt"},
 
-
         /*
          * Note to translators:  This error message is produced if the translet
          * class was compiled using a newer version of XSLTC and deployed for
@@ -284,7 +266,6 @@ public class ErrorMessages_sv extends ListResourceBundle {
          */
         {BasisLibrary.INVALID_QNAME_ERR,
         "Ett attribut vars v\u00E4rde m\u00E5ste vara ett QName hade v\u00E4rdet ''{0}''"},
-
 
         /*
          * Note to translators:  An attribute whose effective value is required

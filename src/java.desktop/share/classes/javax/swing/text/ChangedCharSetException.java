@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * ChangedCharSetException as the name indicates is an exception

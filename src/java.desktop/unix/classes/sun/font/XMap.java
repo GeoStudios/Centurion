@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.font;
 
-
 import java.awt.FontFormatException;
 import java.awt.font.FontRenderContext;
 import java.awt.geom.GeneralPath;
@@ -31,20 +30,6 @@ import java.base.share.classes.java.util.Locale;
 import java.nio.charset.*;
 import java.nio.CharBuffer;
 import java.nio.ByteBuffer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class XMap {
 

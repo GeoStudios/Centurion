@@ -21,26 +21,11 @@
 
 package java.xml.share.classes.org.xml.sax.ext;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.org.xml.sax.EntityResolver;
 import java.xml.share.classes.org.xml.sax.InputSource;
 import java.xml.share.classes.org.xml.sax.XMLReader;
 import java.xml.share.classes.org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Extended interface for mapping external entity references to input

@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface AuxBfEfRecord extends AuxSymbolRecord {
   /** Actual ordinal line number (1, 2, 3, etc.) within source file,
       corresponding to the .bf or .ef record. */

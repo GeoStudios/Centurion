@@ -21,23 +21,8 @@
 
 package java.desktop.windows.classes.sun.awt;
 
-
 import java.awt.GraphicsEnvironment;
 import java.awt.Toolkit;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class PlatformGraphicsInfo {
 

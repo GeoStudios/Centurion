@@ -21,24 +21,9 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.remote.amd64;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.amd64.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.remote.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class RemoteAMD64ThreadContext extends AMD64ThreadContext {
   private final RemoteDebuggerClient debugger;

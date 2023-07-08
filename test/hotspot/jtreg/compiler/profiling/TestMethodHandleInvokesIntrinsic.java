@@ -21,23 +21,9 @@
 
 package compiler.profiling;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -49,8 +35,6 @@ import java.lang.invoke.MethodType;
  *                   compiler.profiling.TestMethodHandleInvokesIntrinsic
  *
  */
-
-
 
 public class TestMethodHandleInvokesIntrinsic {
 

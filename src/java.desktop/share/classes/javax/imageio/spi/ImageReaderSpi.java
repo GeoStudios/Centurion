@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.imageio.spi;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.desktop.share.classes.javax.imageio.ImageReader;
 import java.desktop.share.classes.javax.imageio.stream.ImageInputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The service provider interface (SPI) for {@code ImageReader}s.

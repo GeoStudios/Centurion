@@ -21,56 +21,6 @@
 
 package build.tools.taglet;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A block tag to optionally insert a reference to a module graph.
  */

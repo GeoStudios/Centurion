@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content;
 
-
 import java.base.share.classes.java.security.KeyFactory;
 import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.base.share.classes.java.security.PublicKey;
@@ -33,27 +32,10 @@ import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.ut
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * Provides content model support for the {@code dsig11:DEREncodedKeyvalue} element.

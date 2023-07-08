@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
-
 import java.io.*;
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code.*;
@@ -33,20 +32,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ConstMethod extends Metadata {
   static {
@@ -437,7 +422,6 @@ public class ConstMethod extends Metadata {
   private boolean hasTypeAnnotations() {
     return (getFlags() & HAS_TYPE_ANNOTATIONS) != 0;
   }
-
 
   //---------------------------------------------------------------------------
   // Internals only below this point

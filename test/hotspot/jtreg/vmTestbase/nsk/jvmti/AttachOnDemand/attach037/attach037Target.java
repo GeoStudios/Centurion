@@ -21,21 +21,7 @@
 
 package nsk.jvmti.AttachOnDemand.attach037;
 
-
 import nsk.share.aod.TargetApplicationWaitingAgents;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class attach037Target extends TargetApplicationWaitingAgents {
 

@@ -21,22 +21,6 @@
 
 package java.base.share.classes.sun.text;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * class CompactATypeArray : use only on primitive data types
  * Provides a compact way to store information that is indexed by Unicode

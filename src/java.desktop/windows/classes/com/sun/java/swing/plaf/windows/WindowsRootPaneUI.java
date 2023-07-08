@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-
 import java.desktop.windows.classes.com.sun.java.awt.Component;
 import java.desktop.windows.classes.com.sun.java.awt.Container;
 import java.desktop.windows.classes.com.sun.java.awt.Event;
@@ -52,20 +51,6 @@ import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.InputMapUIResource;
 import javax.swing.plaf.basic.BasicRootPaneUI;
 import javax.swing.plaf.basic.ComboPopup;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Windows implementation of RootPaneUI, there is one shared between all

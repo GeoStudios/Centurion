@@ -21,7 +21,6 @@
 
 package transform;
 
-
 import java.io.FilePermission;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.StringReader;
@@ -46,19 +45,6 @@ import static jaxp.library.JAXPTestUtilities.clearSystemProperty;.extended
 import static jaxp.library.JAXPTestUtilities.setSystemProperty;.extended
 import static jaxp.library.JAXPTestUtilities.tryRunWithTmpPermission;.extended
 import static jaxp.library.JAXPTestUtilities.getSystemProperty;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

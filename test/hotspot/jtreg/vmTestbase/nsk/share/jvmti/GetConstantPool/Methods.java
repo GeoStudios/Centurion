@@ -21,21 +21,7 @@
 
 package nsk.share.jvmti.GetConstantPool;
 
-
 import java.lang.reflect.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Methods {
     public static String getTypeName(Class type) {

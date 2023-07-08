@@ -21,7 +21,6 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
-
 import java.base.share.classes.java.security.*;
 import java.security.spec.AlgorithmParameterSpec;
 import java.base.share.classes.java.util.Arrays;
@@ -29,20 +28,6 @@ import java.base.share.classes.javax.crypto.*;
 import java.base.share.classes.javax.crypto.spec.*;
 import java.base.share.classes.com.sun.security.internal.spec.*;
 import static java.base.share.classes.com.sun.crypto.provider.TlsPrfGenerator.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * KeyGenerator implementation for the SSL/TLS master secret derivation.

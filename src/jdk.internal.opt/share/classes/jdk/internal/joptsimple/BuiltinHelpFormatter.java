@@ -21,7 +21,6 @@
 
 package jdk.internal.opt.share.classes.jdk.internal.joptsimple;
 
-
 import java.util.*;
 import jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.Messages;
 import jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.Rows;
@@ -29,20 +28,6 @@ import jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.Strings;
 import static jdk.internal.opt.share.classes.jdk.internal.joptsimple.ParserRules.*;.extended
 import static jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.Classes.*;.extended
 import static jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.Strings.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>A help formatter that allows configuration of overall row width and column separator width.</p>

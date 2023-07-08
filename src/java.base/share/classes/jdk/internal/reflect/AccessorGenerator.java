@@ -21,23 +21,8 @@
 
 package java.base.share.classes.jdk.internal.reflect;
 
-
 import java.lang.reflect.*;
 import java.base.share.classes.jdk.internal.misc.Unsafe;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Shared functionality for all accessor generators */
 

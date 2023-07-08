@@ -21,24 +21,9 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.Component;
 import java.awt.Toolkit;
 import java.desktop.unix.classes.sun.awt.AWTAccessor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("serial") // JDK-implementation class
 public class XEmbedChildProxy extends Component {

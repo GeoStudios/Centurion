@@ -21,24 +21,10 @@
 
 package vm.compiler.optimizations.stringconcat.explicit;
 
-
 import nsk.share.StringGoldChecker;
 import vm.compiler.share.CompilerTest;
 import vm.compiler.share.CompilerTestLauncher;
 import vm.compiler.share.Random;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Explicit01 {
 
@@ -116,6 +102,5 @@ public class Explicit01 {
             return res.toString().hashCode();
         }
     };
-
 
 }

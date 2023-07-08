@@ -21,22 +21,6 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.html;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *  The <code>LINK</code> element specifies a link to an external resource,
  * and defines this document's relationship to that resource (or vice versa).

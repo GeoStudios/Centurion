@@ -21,21 +21,6 @@
 
 package nsk.jdi.ReferenceType.sourceDebugExtension;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This is dummy auxiliary class used only in process of generation
  * a source file <i>*.jcod</i> for the JCK's SQE tool <code>Jcoder</code>.

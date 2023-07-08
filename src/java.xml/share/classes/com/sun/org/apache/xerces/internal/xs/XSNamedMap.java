@@ -21,23 +21,8 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xs;
 
-
 import java.util.Map;
 import javax.xml.namespace.QName;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Objects implementing the <code>XSNamedMap</code> interface are used to

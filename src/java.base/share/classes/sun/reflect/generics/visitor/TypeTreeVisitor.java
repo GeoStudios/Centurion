@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.reflect.generics.visitor;
 
-
 import java.base.share.classes.sun.reflect.generics.tree.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Visit a TypeTree and produce a result of type T.

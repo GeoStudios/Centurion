@@ -21,25 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
-
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents a stack map attribute used for
@@ -59,7 +44,6 @@ public final class StackMap extends Attribute {
 
     private StackMapEntry[] map; // Table of stack map entries
 
-
     /*
      * @param name_index Index of name
      * @param length Content length in bytes
@@ -70,7 +54,6 @@ public final class StackMap extends Attribute {
         super(Const.ATTR_STACK_MAP, name_index, length, constant_pool);
         this.map = map;
     }
-
 
     /**
      * Construct object from input stream.
@@ -90,7 +73,6 @@ public final class StackMap extends Attribute {
         }
     }
 
-
     /**
      * Dump stack map table attribute to file stream in binary format.
      *
@@ -106,14 +88,12 @@ public final class StackMap extends Attribute {
         }
     }
 
-
     /**
      * @return Array of stack map entries
      */
     public StackMapEntry[] getStackMap() {
         return map;
     }
-
 
     /**
      * @param map Array of stack map entries
@@ -126,7 +106,6 @@ public final class StackMap extends Attribute {
         }
         setLength(len);
     }
-
 
     /**
      * @return String representation.
@@ -144,7 +123,6 @@ public final class StackMap extends Attribute {
         return buf.toString();
     }
 
-
     /**
      * @return deep copy of this attribute
      */
@@ -159,7 +137,6 @@ public final class StackMap extends Attribute {
         return c;
     }
 
-
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
      * defined by the contents of a Java class. I.e., the hierarchy of methods,
@@ -171,7 +148,6 @@ public final class StackMap extends Attribute {
     public void accept( final Visitor v ) {
         v.visitStackMap(this);
     }
-
 
     public int getMapLength() {
         return map == null ? 0 : map.length;

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-
 import java.desktop.share.classes.com.sun.java.awt.Color;
 import java.desktop.share.classes.com.sun.java.awt.Component;
 import java.desktop.share.classes.com.sun.java.awt.Graphics;
@@ -30,20 +29,6 @@ import javax.swing.Icon;
 import javax.swing.UIManager;
 import javax.swing.plaf.IconUIResource;
 import javax.swing.tree.DefaultTreeCellRenderer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Motif rendered to display a tree cell.

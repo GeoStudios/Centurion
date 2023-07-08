@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.util;
 
-
 import java.security.AlgorithmParameters;
 import java.base.share.classes.java.security.Key;
 import java.base.share.classes.java.security.InvalidKeyException;
@@ -46,20 +45,6 @@ import java.math.BigInteger;
 import java.security.spec.NamedParameterSpec;
 import java.base.share.classes.java.util.Arrays;
 import java.base.share.classes.sun.security.jca.JCAUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A utility class to get key length, valiate keys, etc.
@@ -220,7 +205,6 @@ public final class KeyUtil {
             validateDHPublicKey((DHPublicKey)key);
         }
     }
-
 
     /**
      * Returns whether the key spec is valid or not.

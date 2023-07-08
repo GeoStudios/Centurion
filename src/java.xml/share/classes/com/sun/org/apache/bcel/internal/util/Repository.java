@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.util;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.JavaClass;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Abstract definition of a class repository. Instances may be used

@@ -21,23 +21,8 @@
 
 package java.security.jgss.share.classes.sun.security.jgss.spi;
 
-
 import org.ietf.jgss.*;
 import java.security.Provider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This interface is implemented by a mechanism specific credential
@@ -74,7 +59,6 @@ public interface GSSCredentialSpi {
      * @exception GSSException may be thrown
      */
     int getInitLifetime() throws GSSException;
-
 
     /**
      * Returns the accept lifetime remaining.

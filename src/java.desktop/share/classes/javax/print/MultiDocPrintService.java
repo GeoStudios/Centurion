@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.print;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Interface {@code MultiPrintService} is the factory for a
  * {@code MultiDocPrintJob}. A {@code MultiPrintService} describes the

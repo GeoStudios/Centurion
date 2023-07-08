@@ -21,25 +21,10 @@
 
 package java.base.share.classes.sun.util.locale.provider;
 
-
 import java.text.DecimalFormatSymbols;
 import java.text.spi.DecimalFormatSymbolsProvider;
 import java.base.share.classes.java.util.Locale;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Concrete implementation of the  {@link java.text.spi.DecimalFormatSymbolsProvider

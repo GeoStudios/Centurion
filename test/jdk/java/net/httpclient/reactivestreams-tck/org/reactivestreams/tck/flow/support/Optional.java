@@ -21,21 +21,7 @@
 
 package org.reactivestreams.tck.flow.support;
 
-
 import java.util.NoSuchElementException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // simplest possible version of Scala's Option type
 public abstract class Optional<T> {

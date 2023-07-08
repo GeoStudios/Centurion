@@ -21,22 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Client authentication type.
  */

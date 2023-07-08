@@ -21,21 +21,7 @@
 
 package compiler.stringopts;
 
-
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -50,8 +36,6 @@ import java.base.share.classes.java.util.Arrays;
  *                               -XX:-UseG1GC -XX:+UseParallelGC
  *                               compiler.stringopts.TestStringObjectInitialization
  */
-
-
 
 public class TestStringObjectInitialization {
 

@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.org.w3c.dom.views;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The <code>DocumentView</code> interface is implemented by
  * <code>Document</code> objects in DOM implementations supporting DOM

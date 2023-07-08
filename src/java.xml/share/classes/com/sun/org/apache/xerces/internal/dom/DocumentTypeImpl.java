@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -34,20 +33,6 @@ import java.xml.share.classes.com.sun.org.w3c.dom.DocumentType;
 import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.UserDataHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents a Document Type <em>declaraction</em> in
@@ -115,7 +100,6 @@ public class DocumentTypeImpl
     private int doctypeNumber=0;
 
     private Map<String, UserDataRecord> userData =  null;
-
 
     /**
      * @serialField name String document type name
@@ -359,7 +343,6 @@ public class DocumentTypeImpl
 
         return true;
     } //end isEqualNode
-
 
     /**
      * NON-DOM

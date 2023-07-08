@@ -21,23 +21,8 @@
 
 package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11;
 
-
 import java.math.BigInteger;
 import java.base.share.classes.java.security.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Collection of static utility methods.

@@ -21,24 +21,9 @@
 
 package jdk.httpserver.share.classes.sun.net.httpserver;
 
-
 import java.io.*;
 import com.sun.net.httpserver.*;
 import com.sun.net.httpserver.spi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * a (filter) input stream which can tell us if bytes are "left over"

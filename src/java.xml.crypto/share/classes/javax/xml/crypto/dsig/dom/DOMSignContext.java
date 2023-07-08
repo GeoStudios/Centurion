@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto.dsig.dom;
 
-
 import java.xml.crypto.share.classes.javax.xml.crypto.KeySelector;
 import java.xml.crypto.share.classes.javax.xml.crypto.dom.DOMCryptoContext;
 import java.xml.crypto.share.classes.javax.xml.crypto.dsig.XMLSignContext;
@@ -29,25 +28,9 @@ import java.xml.crypto.share.classes.javax.xml.crypto.dsig.XMLSignature;
 import java.base.share.classes.java.security.Key;
 import org.w3c.dom.Node;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: DOMSignContext.java,v 1.9 2005/05/10 16:31:14 mullan Exp $
  */
-
-
 
 /**
  * A DOM-specific {@link XMLSignContext}. This class contains additional methods

@@ -21,7 +21,6 @@
 
 package dom;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.StringReader;
 import java.net.URISyntaxException;
@@ -53,19 +52,6 @@ import org.w3c.dom.ls.LSInput;
 import org.w3c.dom.ls.LSParser;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
@@ -32,20 +31,6 @@ import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.border.*;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * HiddenTagView subclasses EditableView to contain a JTextField showing
@@ -293,7 +278,6 @@ class HiddenTagView extends EditableView implements DocumentListener {
     /** Set to true when setting attributes. */
     boolean isSettingAttributes;
 
-
     // Following are for Borders that used for Unknown tags and comments.
     //
     // Border defines
@@ -366,6 +350,5 @@ class HiddenTagView extends EditableView implements DocumentListener {
             return false;
         }
     } // End of class HiddenTagView.EndTagBorder
-
 
 } // End of HiddenTagView

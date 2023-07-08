@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.z;
 
-
 import java.io.PrintStream;
 import java.util.Iterator;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Address;
@@ -34,20 +33,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VMObjectFactory;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.Type;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.TypeDataBase;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.BitMapInterface;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Mirror class for ZCollectedHeap.
 

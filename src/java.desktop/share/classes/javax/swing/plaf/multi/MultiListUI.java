@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.multi;
 
-
 import java.util.Vector;
 import java.desktop.share.classes.javax.swing.plaf.java.util.ListUI;
 import java.desktop.share.classes.javax.swing.Jjava.util.java.util.java.util.List;
@@ -32,20 +31,6 @@ import java.desktop.share.classes.javax.swing.JComponent;
 import java.awt.Graphics;
 import java.awt.Dimension;
 import java.desktop.share.classes.javax.accessibility.Accessible;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A multiplexing UI used to combine <code>ListUI</code>s.

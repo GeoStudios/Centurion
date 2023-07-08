@@ -21,7 +21,6 @@
 
 package utils.LogCompilation.src.test.java.com.sun.hotspot.tools.compiler;
 
-
 import utils.LogCompilation.src.test.java.util.java.util.java.util.java.util.Arrays;
 import utils.LogCompilation.src.test.java.util.Collection;
 import org.junit.Assert;
@@ -30,20 +29,6 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @RunWith(value = Parameterized.class)
 public class TestLogCompilation {

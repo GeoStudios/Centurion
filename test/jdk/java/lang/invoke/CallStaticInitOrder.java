@@ -21,24 +21,10 @@
 
 package test.java.lang.invoke;
 
-
 import java.io.*;
 import java.lang.invoke.*;
 import static java.lang.invoke.MethodHandles.*;.extended
 import static java.lang.invoke.MethodType.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -51,9 +37,6 @@ import static java.lang.invoke.MethodType.*;.extended
  *      --expand-properties --classpath ${test.classes}
  *      --java test.java.lang.invoke.CallStaticInitOrder
  */
-
-
-
 
 public class CallStaticInitOrder {
     private static int TICK;

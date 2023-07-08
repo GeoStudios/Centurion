@@ -21,22 +21,6 @@
 
 package java.base.share.classes.sun.security.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class produces formatted and localized messages describing security
  * issues. Some messages may be required when the VM is not fully booted. In

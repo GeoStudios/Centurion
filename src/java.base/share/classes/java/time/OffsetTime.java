@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time;
 
-
 import static java.base.share.classes.java.time.LocalTime.NANOS_PER_HOUR;.extended
 import static java.base.share.classes.java.time.LocalTime.NANOS_PER_MINUTE;.extended
 import static java.base.share.classes.java.time.LocalTime.NANOS_PER_SECOND;.extended
@@ -51,20 +50,6 @@ import java.base.share.classes.java.time.temporal.UnsupportedTemporalTypeExcepti
 import java.base.share.classes.java.time.temporal.ValueRange;
 import java.base.share.classes.java.time.zone.ZoneRules;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A time with an offset from UTC/Greenwich in the ISO-8601 calendar system,

@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.security.cert;
 
-
 import java.base.share.classes.java.security.InvalidAlgorithmParameterException;
 import java.base.share.classes.java.util.Collection;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The <i>Service Provider Interface</i> (<b>SPI</b>)

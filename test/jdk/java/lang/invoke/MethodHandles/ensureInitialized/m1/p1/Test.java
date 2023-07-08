@@ -21,23 +21,9 @@
 
 package p1;
 
-
 import p1.internal.*;
 import static java.lang.invoke.MethodHandles.Lookup.*;.extended
 import java.lang.invoke.MethodHandles;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Test::test is invoked by Main class

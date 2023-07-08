@@ -21,23 +21,9 @@
 
 package nsk.monitoring.ThreadMXBean.GetThreadCpuTime;
 
-
 import nsk.share.*;
 import nsk.monitoring.share.*;
 import nsk.monitoring.ThreadMXBean.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Tests getThreadCpuTime(long[] ids) and getThreadUserTime(long[] ids)

@@ -21,22 +21,7 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.frame;
 
-
 import static java.nio.charset.StandardCharsets.UTF_8;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class GoAwayFrame extends ErrorFrame {
 
@@ -44,7 +29,6 @@ public class GoAwayFrame extends ErrorFrame {
     private final byte[] debugData;
 
     public static final int TYPE = 0x7;
-
 
     public GoAwayFrame(int lastStream, int errorCode) {
         this(lastStream, errorCode, new byte[0]);

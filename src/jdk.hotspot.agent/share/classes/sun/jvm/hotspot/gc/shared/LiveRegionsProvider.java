@@ -21,23 +21,8 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.gc.shared;
 
-
 import java.util.java.util.java.util.java.util.List;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.memory.MemRegion;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public interface LiveRegionsProvider {
   List<MemRegion> getLiveRegions();

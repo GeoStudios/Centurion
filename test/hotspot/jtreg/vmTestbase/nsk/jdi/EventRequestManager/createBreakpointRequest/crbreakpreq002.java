@@ -21,7 +21,6 @@
 
 package nsk.jdi.EventRequestManager.createBreakpointRequest;
 
-
 import com.sun.jdi.VirtualMachine;
 import com.sun.jdi.Location;
 import com.sun.jdi.request.BreakpointRequest;
@@ -31,19 +30,6 @@ import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test checks that the JDI method

@@ -21,21 +21,6 @@
 
 package nsk.jvmti.ObjectFree;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This is an auxiliary class intended only for testing
  * ObjectFree events in the agent part of the test.

@@ -21,7 +21,6 @@
 
 package compiler.compilercontrol.jcmd;
 
-
 import compiler.compilercontrol.share.AbstractTestBase;
 import compiler.compilercontrol.share.method.MethodDescriptor;
 import compiler.compilercontrol.share.scenario.Command;
@@ -32,19 +31,6 @@ import compiler.compilercontrol.share.scenario.Scenario;
 import jdk.test.lib.Utils;
 import sun.hotspot.WhiteBox;
 import java.lang.reflect.Executable;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -61,9 +47,6 @@ import java.lang.reflect.Executable;
  *                   -XX:+WhiteBoxAPI
  *                   compiler.compilercontrol.jcmd.ClearDirectivesFileStackTest
  */
-
-
-
 
 public class ClearDirectivesFileStackTest extends AbstractTestBase {
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();

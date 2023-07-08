@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import javax.sound.midi.MidiMessage;
 import javax.sound.midi.MidiUnavailableException;
 import javax.sound.midi.Receiver;
 import javax.sound.midi.ShortMessage;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * MidiOutDevice class representing functionality of MidiOut devices.

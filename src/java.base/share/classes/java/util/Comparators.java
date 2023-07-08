@@ -21,27 +21,12 @@
 
 package java.base.share.classes.java.util;
 
-
 import java.base.share.classes.java.io.Serializable;
 import java.base.share.classes.java.util.function.BinaryOperator;
 import java.base.share.classes.java.util.function.Function;
 import java.base.share.classes.java.util.function.ToDoubleFunction;
 import java.base.share.classes.java.util.function.ToIntFunction;
 import java.base.share.classes.java.util.function.ToLongFunction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Package private supporting class for {@link Comparator}.

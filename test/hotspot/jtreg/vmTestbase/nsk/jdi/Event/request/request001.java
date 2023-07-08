@@ -21,7 +21,6 @@
 
 package nsk.jdi.Event.request;
 
-
 import nsk.share.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
@@ -29,19 +28,6 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -233,7 +219,6 @@ public class request001 extends JDIBase {
 
         return testExitCode;
     }
-
 
    /*
     * Return value: 0 - normal end of the test
@@ -429,7 +414,6 @@ public class request001 extends JDIBase {
 
             ThreadReference eventThreads[] = new ThreadReference[threadNames.length];
 
-
             List allThreads = vm.allThreads();
 
             log2("......getting: ArrayReference namesRef = (ArrayReference) debuggeeClass.getValue(debuggeeClass.fieldByName(namesArray));");
@@ -464,7 +448,6 @@ public class request001 extends JDIBase {
             }
             if (testExitCode == FAILED)
                 break;
-
 
             log2("......ReferenceType testClass = (ReferenceType) (vm.classesByName(testedClassName)).get(0);");
             ReferenceType testClass = (ReferenceType) (vm.classesByName(testedClassName)).get(0);
@@ -723,7 +706,6 @@ public class request001 extends JDIBase {
         return stRequest;
     }
 
-
     private ExceptionRequest settingException ( ThreadReference thread,
                                                 ReferenceType testedClass,
                                                 String property)
@@ -769,7 +751,6 @@ public class request001 extends JDIBase {
                    testExitCode = FAILED;
                    log3("ERROR: eventRequest is not equal to event.request() : k == " + k);
                    break;
-
 
             case 1:
                    evSet = eventSets[k];

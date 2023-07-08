@@ -21,23 +21,8 @@
 
 package utils.src.build.tools.dirdiff;
 
-
 import java.io.File;
 import java.util.TreeSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class DirDiff implements Runnable {
     private final static String FILE_SEPARATOR = System.getProperty("file.separator");
@@ -118,7 +103,6 @@ public class DirDiff implements Runnable {
           }
       }
   }
-
 
   private void whatToDoWithMatchingDirs(File goldenChild, File testChild) {
       if (verboseMode) {

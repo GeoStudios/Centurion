@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
-
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Lint.LintCategory;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Source.Feature;
 import jdk.compiler.share.classes.com.sun.tools.javac.jvm.Target;
@@ -46,20 +45,6 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.SEALED;.
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.NON_SEALED;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.PREVIEW;.extended
 import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Helper class to handle preview language features. This class maps certain language features

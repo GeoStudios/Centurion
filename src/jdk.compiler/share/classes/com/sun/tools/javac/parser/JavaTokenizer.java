@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.parser;
 
-
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Lint;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Lint.LintCategory;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Preview;
@@ -38,20 +37,6 @@ import java.util.Set;
 import java.util.regex.Pattern;
 import static jdk.compiler.share.classes.com.sun.tools.javac.parser.Tokens.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.util.LayoutCharacters.EOI;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The lexical analyzer maps an input stream consisting of UTF-8 characters and unicode

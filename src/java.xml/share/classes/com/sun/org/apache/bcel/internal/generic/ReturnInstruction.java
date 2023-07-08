@@ -21,23 +21,8 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.ExceptionConst;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Super class for the xRETURN family of instructions.
@@ -54,14 +39,12 @@ public abstract class ReturnInstruction extends Instruction implements Exception
     ReturnInstruction() {
     }
 
-
     /**
      * @param opcode of instruction
      */
     protected ReturnInstruction(final short opcode) {
         super(opcode, (short) 1);
     }
-
 
     public Type getType() {
         final short _opcode = super.getOpcode();
@@ -83,14 +66,12 @@ public abstract class ReturnInstruction extends Instruction implements Exception
         }
     }
 
-
     @Override
     public Class<?>[] getExceptions() {
         return new Class<?>[] {
             ExceptionConst.ILLEGAL_MONITOR_STATE
         };
     }
-
 
     /** @return type associated with the instruction
      */

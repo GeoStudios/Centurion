@@ -21,24 +21,10 @@
 
 package nsk.jdwp.EventRequest.ClearAllBreakpoints;
 
-
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Test for JDWP command: EventRequest.ClearAllBreakpoints.
@@ -220,7 +206,6 @@ public class clrallbreakp003 {
         debugee.clearEventRequest(JDWP.EventKind.BREAKPOINT, eventRequestID);
         log.display("  ... request removed");
     }
-
 
     /**
      * Test JDWP command.

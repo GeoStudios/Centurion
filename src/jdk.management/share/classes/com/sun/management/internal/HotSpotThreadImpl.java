@@ -21,25 +21,10 @@
 
 package jdk.management.share.classes.com.sun.management.internal;
 
-
 import jdk.management.share.classes.com.sun.management.ThreadMXBean;
 import jdk.management.share.classes.com.sun.management.ManagementFactoryHelper;
 import jdk.management.share.classes.com.sun.management.ThreadImpl;
 import jdk.management.share.classes.com.sun.management.VMManagement;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

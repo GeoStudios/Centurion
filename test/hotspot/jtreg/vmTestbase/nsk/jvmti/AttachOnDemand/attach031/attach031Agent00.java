@@ -21,22 +21,8 @@
 
 package nsk.jvmti.AttachOnDemand.attach031;
 
-
 import nsk.share.aod.AbstractJarAgent;
 import java.lang.instrument.Instrumentation;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class attach031Agent00 extends AbstractJarAgent {
 

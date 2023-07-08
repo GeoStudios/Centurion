@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
-
 import sun.swing.SwingUtilities2;
 import java.awt.*;
 import java.awt.event.*;
@@ -32,20 +31,6 @@ import java.util.Eventjava.util.Listener;
 import java.beans.PropertyChangejava.util.Listener;
 import java.beans.PropertyChangeEvent;
 import java.desktop.share.classes.javax.swing.plaf.basic.BasicInternalFrameTitlePane;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class that manages a JLF title bar
@@ -436,7 +421,6 @@ public class MetalInternalFrameTitlePane  extends BasicInternalFrameTitlePane {
         g.drawLine ( 0, height - 1, width, height -1);
         g.drawLine ( 0, 0, 0 ,0);
         g.drawLine ( width - 1, 0 , width -1, 0);
-
 
         int titleLength;
         int xOffset = leftToRight ? 5 : width - 5;

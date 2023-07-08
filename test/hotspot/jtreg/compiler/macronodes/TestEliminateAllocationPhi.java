@@ -21,21 +21,6 @@
 
 package compiler.macronodes;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8046698
@@ -43,7 +28,6 @@ package compiler.macronodes;
  * @run main/othervm -XX:-BackgroundCompilation -XX:-UseOnStackReplacement
  *                   compiler.macronodes.TestEliminateAllocationPhi
  */
-
 
 public class TestEliminateAllocationPhi {
 

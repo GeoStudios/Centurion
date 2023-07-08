@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.ObjectInputStream;
 import java.base.share.classes.java.io.ObjectStreamException;
@@ -32,20 +31,6 @@ import java.base.share.classes.java.io.Serializable;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.util.TimeZone;
 import jdk.internal.misc.VM;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A clock providing access to the current instant, date and time using a time-zone.

@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.swing.undo;
 
-
 import java.desktop.share.classes.javax.swing.event.*;
 import java.desktop.share.classes.javax.swing.UIManager;
 import java.util.*;
 import sun.swing.text.UndoableEditLockSupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * {@code UndoManager} manages a list of {@code UndoableEdits},
@@ -300,7 +285,6 @@ public class UndoManager extends CompoundEdit implements UndoableEditListener {
         limit = l;
         trimForLimit();
     }
-
 
     /**
      * Returns the next significant edit to be undone if <code>undo</code>
@@ -601,7 +585,6 @@ public class UndoManager extends CompoundEdit implements UndoableEditListener {
 
         return retVal;
     }
-
 
     /**
      * Turns this <code>UndoManager</code> into a normal

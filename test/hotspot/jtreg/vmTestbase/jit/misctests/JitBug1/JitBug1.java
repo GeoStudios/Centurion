@@ -21,21 +21,7 @@
 
 package jit.misctests.JitBug1;
 
-
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -47,8 +33,6 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.misctests.JitBug1.JitBug1
  */
-
-
 
 public class JitBug1
 {

@@ -21,22 +21,8 @@
 
 package nsk.share.gc.gp.misc;
 
-
 import nsk.share.gc.gp.DerivedProducer;
 import nsk.share.gc.gp.GarbageProducer;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * GarbageProducer that traces the production.

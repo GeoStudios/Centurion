@@ -21,23 +21,9 @@
 
 package nsk.jdi.MethodEntryRequest.addThreadFilter;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the threadfilter002 JDI test.
@@ -181,7 +167,6 @@ public class threadfilter002a {
 class threadfilter002aTestClass {
 
     static int breakpointLine = 3;
-
 
     static int var1 = 0;
     static int var2 = 0;

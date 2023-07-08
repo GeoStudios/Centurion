@@ -21,22 +21,7 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.taglets;
 
-
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocFinder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A taglet should implement this interface if it supports an {@code @inheritDoc}

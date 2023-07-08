@@ -21,21 +21,6 @@
 
 package compiler.uncommontrap;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8028308
@@ -46,7 +31,6 @@ package compiler.uncommontrap;
  *      -XX:CompileCommand=exclude,compiler.uncommontrap.TestStackBangRbp::m2
  *      compiler.uncommontrap.TestStackBangRbp
  */
-
 
 public class TestStackBangRbp {
 

@@ -21,23 +21,9 @@
 
 package gc.gctests.nativeGC01;
 
-
 import nsk.share.test.*;
 import nsk.share.gc.*;
 import java.util.Vector;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -58,8 +44,6 @@ import java.util.Vector;
  *          /test/lib
  * @run main/othervm/native gc.gctests.nativeGC01.nativeGC01
  */
-
-
 
 public class nativeGC01 extends TestBase {
         private CircularLinkedList cl;

@@ -21,7 +21,6 @@
 
 package test.java.lang.invoke;
 
-
 import org.junit.*;
 import test.java.lang.invoke.lib.CodeCacheOverflowProcessor;
 import java.lang.invoke.MethodHandle;
@@ -30,19 +29,6 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 import java.util.java.util.java.util.java.util.List;
 import static org.junit.Assert.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* @test
  * @summary unit tests for java.lang.invoke.MethodHandles
@@ -53,10 +39,6 @@ import static org.junit.Assert.*;.extended
  *                                 -esa
  *                                 test.java.lang.invoke.MethodHandlesSpreadArgumentsTest
  */
-
-
-
-
 
 public class MethodHandlesSpreadArgumentsTest extends MethodHandlesTest {
 

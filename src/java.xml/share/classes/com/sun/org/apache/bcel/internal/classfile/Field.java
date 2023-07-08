@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
-
 import java.io.DataInput;
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.Objects;
@@ -29,27 +28,10 @@ import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.Type;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.BCELComparator;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * This class represents the field info structure, i.e., the representation
@@ -68,14 +50,12 @@ public final class Field extends FieldOrMethod {
                     && Objects.equals(THIS.getSignature(), THAT.getSignature());
         }
 
-
         @Override
         public int hashCode( final Object o ) {
             final Field THIS = (Field) o;
             return THIS.getSignature().hashCode() ^ THIS.getName().hashCode();
         }
     };
-
 
     /**
      * Initialize from another object. Note that both objects use the same
@@ -85,7 +65,6 @@ public final class Field extends FieldOrMethod {
         super(c);
     }
 
-
     /**
      * Construct object from file stream.
      * @param file Input stream
@@ -94,7 +73,6 @@ public final class Field extends FieldOrMethod {
             ClassFormatException {
         super(file, constant_pool);
     }
-
 
     /**
      * @param access_flags Access rights of field
@@ -108,7 +86,6 @@ public final class Field extends FieldOrMethod {
         super(access_flags, name_index, signature_index, attributes, constant_pool);
     }
 
-
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
      * defined by the contents of a Java class. I.e., the hierarchy of methods,
@@ -121,7 +98,6 @@ public final class Field extends FieldOrMethod {
         v.visitField(this);
     }
 
-
     /**
      * @return constant value associated with this field (may be null)
      */
@@ -133,7 +109,6 @@ public final class Field extends FieldOrMethod {
         }
         return null;
     }
-
 
     /**
      * Return string representation close to declaration format,
@@ -166,14 +141,12 @@ public final class Field extends FieldOrMethod {
         return buf.toString();
     }
 
-
     /**
      * @return deep copy of this field
      */
     public Field copy( final ConstantPool _constant_pool ) {
         return (Field) copy_(_constant_pool);
     }
-
 
     /**
      * @return type of field
@@ -182,7 +155,6 @@ public final class Field extends FieldOrMethod {
         return Type.getReturnType(getSignature());
     }
 
-
     /**
      * @return Comparison strategy object
      */
@@ -190,14 +162,12 @@ public final class Field extends FieldOrMethod {
         return bcelComparator;
     }
 
-
     /**
      * @param comparator Comparison strategy object
      */
     public static void setComparator( final BCELComparator comparator ) {
         bcelComparator = comparator;
     }
-
 
     /**
      * Return value as defined by given BCELComparator strategy.
@@ -210,7 +180,6 @@ public final class Field extends FieldOrMethod {
     public boolean equals( final Object obj ) {
         return bcelComparator.equals(this, obj);
     }
-
 
     /**
      * Return value as defined by given BCELComparator strategy.

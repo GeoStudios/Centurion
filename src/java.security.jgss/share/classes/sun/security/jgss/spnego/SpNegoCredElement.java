@@ -21,26 +21,11 @@
 
 package java.security.jgss.share.classes.sun.security.jgss.spnego;
 
-
 import org.ietf.jgss.*;
 import java.security.Provider;
 import java.security.jgss.share.classes.sun.security.jgss.GSSUtil;
 import java.security.jgss.share.classes.sun.security.jgss.spi.GSSNameSpi;
 import java.security.jgss.share.classes.sun.security.jgss.spi.GSSCredentialSpi;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is the cred element implementation for SPNEGO mech.

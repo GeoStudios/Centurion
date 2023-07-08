@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.io;
 
-
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.util.StaticProperty;
 import sun.security.action.GetBooleanAction;
@@ -41,20 +40,6 @@ import static java.base.share.classes.java.io.ObjectInputFilter.Status.*;.extend
 import static java.base.share.classes.java.lang.System.Logger.Level.TRACE;.extended
 import static java.base.share.classes.java.lang.System.Logger.Level.DEBUG;.extended
 import static java.base.share.classes.java.lang.System.Logger.Level.ERROR;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Filter classes, array lengths, and graph metrics during deserialization.

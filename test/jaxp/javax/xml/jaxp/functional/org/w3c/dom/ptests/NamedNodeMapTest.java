@@ -21,7 +21,6 @@
 
 package org.w3c.dom.ptests;
 
-
 import static org.testng.Assert.assertEquals;.extended
 import static org.testng.Assert.assertNull;.extended
 import static org.w3c.dom.ptests.DOMTestUtil.createDOMWithNS;.extended
@@ -32,19 +31,6 @@ import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import org.w3c.dom.Nodejava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -79,7 +65,6 @@ public class NamedNodeMapTest {
         assertEquals(replacedAttr.getNodeValue(), "font-family");
         Node updatedAttr = namedNodeMap.getNamedItemNS(nsURI, "style");
         assertEquals(updatedAttr.getNodeValue(), "newValue");
-
 
         // creating a non existing attribute node
         attr = document.createAttributeNS(nsURI, "b:newNode");

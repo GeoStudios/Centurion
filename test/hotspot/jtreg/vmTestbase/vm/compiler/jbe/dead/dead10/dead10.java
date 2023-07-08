@@ -21,21 +21,6 @@
 
 package vm.compiler.jbe.dead.dead10;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  *
@@ -46,7 +31,6 @@ package vm.compiler.jbe.dead.dead10;
  *          /test/lib
  * @run main/othervm vm.compiler.jbe.dead.dead10.dead10
  */
-
 
 // dead10.java
 
@@ -63,7 +47,6 @@ package vm.compiler.jbe.dead.dead10;
       }
 
 In the example below, the values assigned to i1-i13 are dead in the first couple assignments and can be eliminated. In addition, boolean values assigned to i14-i18 are dead and never come to play, thus can be eliminated. This test tests the elimination of integer expresions with the operators addition, subtraction, negation, multiplication, division, modulus, logical negation, bitwise complement, bitwise and, bitwise or, bitwise xor, logical and logical or, question/colon, comma, right shift, left shift, less than, greater than, equal, and not equal.
-
 
  */
 
@@ -152,7 +135,6 @@ public class dead10 {
 
     res = i1 + i2 + i3 + i4 + i5 + i6 + i7 + i8 + i9 + i10 + i11 + i12 + i13;
     i14 = i14 && i15 && i16 && i17 && i18;
-
 
     return res;
   }

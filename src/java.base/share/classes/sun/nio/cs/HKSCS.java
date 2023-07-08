@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.nio.cs;
 
-
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.Charset;
@@ -32,20 +31,6 @@ import java.base.share.classes.java.util.Arrays;
 import java.base.share.classes.sun.nio.cs.DoubleByte;
 import java.base.share.classes.sun.nio.cs.Surrogate;
 import static java.base.share.classes.sun.nio.cs.CharsetMapping.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class HKSCS {
 

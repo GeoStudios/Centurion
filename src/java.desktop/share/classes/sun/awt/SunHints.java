@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.sun.awt;
 
-
 import java.awt.RenderingHints;
 import java.lang.annotation.Native;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class contains rendering hints that can be used by the

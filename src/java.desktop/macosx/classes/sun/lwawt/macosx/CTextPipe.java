@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-
 import java.awt.*;
 import java.awt.font.*;
 import java.desktop.macosx.classes.sun.awt.*;
@@ -29,20 +28,6 @@ import java.desktop.macosx.classes.sun.font.*;
 import java.desktop.macosx.classes.sun.java2d.*;
 import java.desktop.macosx.classes.sun.java2d.loops.*;
 import java.desktop.macosx.classes.sun.java2d.pipe.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CTextPipe implements TextPipe {
     public native void doDrawString(SurfaceData sData, long nativeStrikePtr, String s, double x, double y);

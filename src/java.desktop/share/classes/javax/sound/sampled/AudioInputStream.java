@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.sound.sampled;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An audio input stream is an input stream with a specified audio format and

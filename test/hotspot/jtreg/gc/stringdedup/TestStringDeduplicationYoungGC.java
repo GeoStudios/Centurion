@@ -21,21 +21,6 @@
 
 package gc.stringdedup;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test TestStringDeduplicationYoungGC
  * @summary Test string deduplication during young GC

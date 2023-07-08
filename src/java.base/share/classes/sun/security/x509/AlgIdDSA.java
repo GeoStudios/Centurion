@@ -21,26 +21,11 @@
 
 package java.base.share.classes.sun.security.x509;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
 import java.base.share.classes.java.security.*;
 import java.security.interfaces.DSAParams;
 import java.base.share.classes.sun.security.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class identifies DSS/DSA Algorithm variants, which are distinguished
@@ -144,7 +129,6 @@ class AlgIdDSA extends AlgorithmId implements DSAParams
     public String getName ()
         { return "DSA"; }
 
-
     /*
      * For algorithm IDs which haven't been created from a DER encoded
      * value, "params" must be created.
@@ -183,7 +167,6 @@ class AlgIdDSA extends AlgorithmId implements DSAParams
             throw new IOException ("AlgIdDSA params, extra="+
                                    params.data.available ());
     }
-
 
     /*
      * Returns a formatted string describing the parameters.

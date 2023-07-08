@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.util.jar;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Thrown if the URLClassLoader finds the INDEX.LIST file of
  * a jar file contains incorrect information.

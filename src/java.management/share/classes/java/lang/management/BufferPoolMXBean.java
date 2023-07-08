@@ -21,22 +21,6 @@
 
 package java.management.share.classes.java.lang.management;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The management interface for a buffer pool, for example a pool of
  * {@link java.nio.ByteBuffer#allocateDirect direct} or {@link

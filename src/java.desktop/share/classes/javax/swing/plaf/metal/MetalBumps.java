@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
-
 import java.awt.*;
 import java.awt.image.*;
 import java.desktop.share.classes.javax.swing.*;
@@ -29,25 +28,10 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import sun.awt.AppContext;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Implements the bumps used throughout the Metal Look and Feel.
  *
  */
-
 
 class MetalBumps implements Icon {
 
@@ -149,7 +133,6 @@ class MetalBumps implements Icon {
         return yBumps * 2;
     }
 }
-
 
 class BumpBuffer {
 

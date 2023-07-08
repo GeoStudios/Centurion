@@ -21,7 +21,6 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.keymap;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.StringWriter;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -32,20 +31,6 @@ import java.util.TreeMap;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Terminal;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.Curses;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.InfoCmp.Capability;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The KeyMap class contains all bindings from keys to operations.
@@ -243,7 +228,6 @@ public class KeyMap<T> {
         return seqs;
     }
 
-
     public static String esc() {
         return "\033";
     }
@@ -288,7 +272,6 @@ public class KeyMap<T> {
     //
     // Methods
     //
-
 
     public T getUnicode() {
         return unicode;

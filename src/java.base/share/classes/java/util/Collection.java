@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.util;
 
-
 import java.base.share.classes.java.util.function.IntFunction;
 import java.base.share.classes.java.util.function.Predicate;
 import java.base.share.classes.java.util.stream.Stream;
 import java.base.share.classes.java.util.stream.StreamSupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The root interface in the <i>collection hierarchy</i>.  A collection
@@ -479,7 +464,6 @@ public interface Collection<E> extends Iterable<E> {
      */
     boolean remove(Object o);
 
-
     // Bulk Operations
 
     /**
@@ -619,7 +603,6 @@ public interface Collection<E> extends Iterable<E> {
      *         is not supported by this collection
      */
     void clear();
-
 
     // Comparison and hashing
 

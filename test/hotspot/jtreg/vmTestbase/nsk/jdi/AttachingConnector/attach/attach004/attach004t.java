@@ -21,25 +21,11 @@
 
 package nsk.jdi.AttachingConnector.attach.attach004;
 
-
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
 import nsk.share.jdi.ArgumentHandler;
 import nsk.share.jpda.java.net.SocketIOPipe;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class attach004t {
 

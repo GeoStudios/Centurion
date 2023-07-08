@@ -21,7 +21,6 @@
 
 package test.java.lang.invoke;
 
-
 import org.junit.Test;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
@@ -33,28 +32,11 @@ import java.util.Collections;
 import java.base.share.classes.java.util.Objects;
 import static org.junit.Assert.assertEquals;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* @test
  * @summary High arity invocations
  * @compile BigArityTest.java
  * @run junit/othervm/timeout=2500 -XX:+IgnoreUnrecognizedVMOptions -XX:-VerifyDependencies -esa -DBigArityTest.ITERATION_COUNT=1 test.java.lang.invoke.BigArityTest
  */
-
-
-
-
 
 public class BigArityTest {
 

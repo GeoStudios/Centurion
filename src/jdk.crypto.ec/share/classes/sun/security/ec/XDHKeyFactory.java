@@ -21,7 +21,6 @@
 
 package jdk.crypto.ec.share.classes.sun.security.ec;
 
-
 import java.security.KeyFactorySpi;
 import java.base.share.classes.java.security.Key;
 import java.base.share.classes.java.security.PublicKey;
@@ -41,20 +40,6 @@ import java.security.spec.XECPublicKeySpec;
 import java.security.spec.XECPrivateKeySpec;
 import java.base.share.classes.java.util.Arrays;
 import java.util.function.Function;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class XDHKeyFactory extends KeyFactorySpi {
 
@@ -150,7 +135,6 @@ public class XDHKeyFactory extends KeyFactorySpi {
             throw new InvalidKeySpecException(ex);
         }
     }
-
 
     private PublicKey generatePublicImpl(KeySpec keySpec)
         throws InvalidKeyException, InvalidKeySpecException {

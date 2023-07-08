@@ -21,21 +21,7 @@
 
 package compiler.intrinsics.bmi;
 
-
 import sun.hotspot.cpuinfo.CPUInfo;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -51,8 +37,6 @@ import sun.hotspot.cpuinfo.CPUInfo;
  * @run main/othervm -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions
  *                   -XX:+WhiteBoxAPI compiler.intrinsics.bmi.TestAndnI
  */
-
-
 
 public class TestAndnI {
 

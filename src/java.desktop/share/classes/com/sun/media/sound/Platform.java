@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.StringTokenizer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Audio configuration class for exposing attributes specific to the platform or system.

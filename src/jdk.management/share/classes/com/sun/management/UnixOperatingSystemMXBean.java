@@ -21,22 +21,6 @@
 
 package jdk.management.share.classes.com.sun.management;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Platform-specific management interface for the Unix
  * operating system on which the Java virtual machine is running.

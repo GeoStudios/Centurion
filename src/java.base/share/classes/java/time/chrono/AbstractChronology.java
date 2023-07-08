@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time.chrono;
 
-
 import static java.base.share.classes.java.time.temporal.ChronoField.ALIGNED_DAY_OF_WEEK_IN_MONTH;.extended
 import static java.base.share.classes.java.time.temporal.ChronoField.ALIGNED_DAY_OF_WEEK_IN_YEAR;.extended
 import static java.base.share.classes.java.time.temporal.ChronoField.ALIGNED_WEEK_OF_MONTH;.extended
@@ -63,20 +62,6 @@ import java.base.share.classes.java.util.ServiceLoader;
 import java.base.share.classes.java.util.Set;
 import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
 import sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An abstract implementation of a calendar system, used to organize and identify dates.

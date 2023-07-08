@@ -21,7 +21,6 @@
 
 package jdk.vm.ci.hotspot.test;
 
-
 import jdk.vm.ci.meta.JavaConstant;
 import org.testng.annotations.DataProvider;
 import java.util.Linkedjava.util.java.util.java.util.List;
@@ -36,19 +35,6 @@ import static jdk.vm.ci.hotspot.test.TestHelper.STABLE_ARRAYS_MAP;.extended
 import static jdk.vm.ci.hotspot.test.TestHelper.STABLE_ARRAY_ARRAYS_MAP;.extended
 import static jdk.vm.ci.hotspot.test.TestHelper.STATIC_FIELDS_MAP;.extended
 import static jdk.vm.ci.hotspot.test.TestHelper.STATIC_STABLE_FIELDS_MAP;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ReadFieldValueDataProvider {
 

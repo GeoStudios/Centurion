@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.lang.annotation;
 
-
 import java.base.share.classes.java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Thrown to indicate that a program has attempted to access an element of

@@ -21,21 +21,7 @@
 
 package gc.g1;
 
-
 import sun.hotspot.WhiteBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestFromCardCacheIndex.java
@@ -51,7 +37,6 @@ import sun.hotspot.WhiteBox;
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run main/othervm -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI -Xbootclasspath/a:. -Xms20M -Xmx20M -XX:+UseCompressedOops -XX:G1HeapRegionSize=1M -XX:HeapBaseMinAddress=2199011721216 -XX:+UseG1GC -verbose:gc gc.g1.TestFromCardCacheIndex
  */
-
 
 /**
  * Repeatedly tries to generate references from objects that contained a card with the same index

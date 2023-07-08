@@ -21,23 +21,8 @@
 
 package java.xml.share.classes.javax.xml.stream;
 
-
 import com.sun.xml.internal.stream.XMLOutputFactoryImpl;
 import java.xml.share.classes.javax.xml.transform.Result;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Defines an abstract implementation of a factory for
@@ -305,7 +290,6 @@ public abstract class XMLOutputFactory {
    */
   public abstract XMLStreamWriter createXMLStreamWriter(Result result) throws XMLStreamException;
 
-
   /**
    * Create a new XMLEventWriter that writes to a JAXP result.  This method is optional.
    * @param result the result to write to
@@ -323,8 +307,6 @@ public abstract class XMLOutputFactory {
    * @throws XMLStreamException if an error occurs
    */
   public abstract XMLEventWriter createXMLEventWriter(java.io.OutputStream stream) throws XMLStreamException;
-
-
 
   /**
    * Create a new XMLEventWriter that writes to a stream

@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Thrown when an application tries to use the Java {@code new}
  * construct to instantiate an abstract class or an interface.
@@ -46,7 +30,6 @@ package java.base.share.classes.java.lang;
  * incompatibly changed.
  *
  */
-
 
 public class InstantiationError extends IncompatibleClassChangeError {
     @java.io.Serial

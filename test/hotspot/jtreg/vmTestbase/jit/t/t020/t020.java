@@ -21,22 +21,8 @@
 
 package jit.t.t020;
 
-
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -48,8 +34,6 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t020.t020
  */
-
-
 
 // opc_checkcast, opc_instanceof, opc_ifnull, opc_ifnonnull
 

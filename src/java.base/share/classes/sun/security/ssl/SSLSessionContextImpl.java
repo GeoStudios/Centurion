@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.Enumeration;
@@ -31,20 +30,6 @@ import javax.net.ssl.SSLSessionContext;
 import java.base.share.classes.sun.security.action.GetIntegerAction;
 import java.base.share.classes.sun.security.action.GetPropertyAction;
 import java.base.share.classes.sun.security.util.Cache;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @systemProperty jdk.tls.server.enableSessionTicketExtension} determines if the

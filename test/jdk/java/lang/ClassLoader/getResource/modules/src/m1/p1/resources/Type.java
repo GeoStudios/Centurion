@@ -21,19 +21,4 @@
 
 package p1.resources;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Type { }

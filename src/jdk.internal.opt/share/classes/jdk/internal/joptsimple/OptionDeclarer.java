@@ -21,22 +21,7 @@
 
 package jdk.internal.opt.share.classes.jdk.internal.joptsimple;
 
-
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Trains the option parser. This interface aids integration that disposes declaration of options but not actual

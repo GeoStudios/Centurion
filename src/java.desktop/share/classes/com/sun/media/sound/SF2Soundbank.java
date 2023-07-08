@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -38,20 +37,6 @@ import javax.sound.midi.Instrument;
 import javax.sound.midi.Patch;
 import javax.sound.midi.Soundbank;
 import javax.sound.midi.SoundbankResource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A SoundFont 2.04 soundbank reader.
@@ -494,7 +479,6 @@ public final class SF2Soundbank implements Soundbank {
             }
         }
 
-
         for (SF2Instrument instrument : this.instruments) {
             Iterator<SF2InstrumentRegion> siter = instrument.regions.iterator();
             SF2Region globalsplit = null;
@@ -604,7 +588,6 @@ public final class SF2Soundbank implements Soundbank {
         if (major == 2 && minor < 4)
             return;
 
-
         for (SF2Sample sample : samples) {
             ModelByteBuffer data24 = sample.getData24Buffer();
             if (data24 == null)
@@ -680,7 +663,6 @@ public final class SF2Soundbank implements Soundbank {
         phdr_chunk.writeUnsignedInt(0);
         phdr_chunk.writeUnsignedInt(0);
 
-
         RIFFWriter pbag_chunk = writer.writeChunk("pbag");
         int pbag_gencount = 0;
         int pbag_modcount = 0;
@@ -746,7 +728,6 @@ public final class SF2Soundbank implements Soundbank {
         inst_chunk.writeString("EOI", 20);
         inst_chunk.writeUnsignedShort(inst_zone_count);
 
-
         RIFFWriter ibag_chunk = writer.writeChunk("ibag");
         int ibag_gencount = 0;
         int ibag_modcount = 0;
@@ -773,7 +754,6 @@ public final class SF2Soundbank implements Soundbank {
         }
         ibag_chunk.writeUnsignedShort(ibag_gencount);
         ibag_chunk.writeUnsignedShort(ibag_modcount);
-
 
         RIFFWriter imod_chunk = writer.writeChunk("imod");
         for (SF2Layer instrument : this.layers) {
@@ -802,7 +782,6 @@ public final class SF2Soundbank implements Soundbank {
             }
         }
         igen_chunk.write(new byte[4]);
-
 
         RIFFWriter shdr_chunk = writer.writeChunk("shdr");
         long sample_pos = 0;

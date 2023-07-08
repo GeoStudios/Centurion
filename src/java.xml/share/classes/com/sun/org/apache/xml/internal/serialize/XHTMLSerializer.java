@@ -21,23 +21,8 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serialize;
 
-
 import java.io.OutputStream;
 import java.io.Writer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implements an XHTML serializer supporting both DOM and SAX
@@ -55,7 +40,6 @@ public class XHTMLSerializer
     extends HTMLSerializer
 {
 
-
     /**
      * Constructs a new serializer. The serializer cannot be used without
      * calling {@link #setOutputCharStream} or {@link #setOutputByteStream}
@@ -66,7 +50,6 @@ public class XHTMLSerializer
         super( true, new OutputFormat( Method.XHTML, null, false ) );
     }
 
-
     /**
      * Constructs a new serializer. The serializer cannot be used without
      * calling {@link #setOutputCharStream} or {@link #setOutputByteStream}
@@ -76,7 +59,6 @@ public class XHTMLSerializer
     {
         super( true, format != null ? format : new OutputFormat( Method.XHTML, null, false ) );
     }
-
 
     /**
      * Constructs a new serializer that writes to the specified writer
@@ -92,7 +74,6 @@ public class XHTMLSerializer
         setOutputCharStream( writer );
     }
 
-
     /**
      * Constructs a new serializer that writes to the specified output
      * stream using the specified output format. If <tt>format</tt>
@@ -107,11 +88,9 @@ public class XHTMLSerializer
         setOutputByteStream( output );
     }
 
-
     public void setOutputFormat( OutputFormat format )
     {
         super.setOutputFormat( format != null ? format : new OutputFormat( Method.XHTML, null, false ) );
     }
-
 
 }

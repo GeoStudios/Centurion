@@ -21,7 +21,6 @@
 
 package nsk.jdi.WatchpointRequest.addInstanceFilter;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -208,7 +194,6 @@ public class instancefilter004 extends JDIBase {
         return testExitCode;
     }
 
-
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -245,7 +230,6 @@ public class instancefilter004 extends JDIBase {
             vm.exit(PASS_BASE);
             return;
         }
-
 
         eventRManager = vm.eventRequestManager();
 
@@ -296,7 +280,6 @@ public class instancefilter004 extends JDIBase {
 
         String         arrayName = "objTC";
         ObjectReference instance = null;
-
 
         for (int i = 0; ; i++) {
 

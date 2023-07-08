@@ -21,33 +21,15 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler;
 
-
 import javax.xml.transform.TransformerException;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.functions.Function;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.utils.ObjectFactory;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.utils.ConfigurationError;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * Lazy load of functions into the function table as needed, so we don't

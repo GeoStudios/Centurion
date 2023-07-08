@@ -21,21 +21,7 @@
 
 package compiler.compilercontrol;
 
-
 import jdk.test.lib.dcmd.CommandExecutor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestCompilerDirectivesCompatibilityCommandOn
@@ -52,8 +38,6 @@ import jdk.test.lib.dcmd.CommandExecutor;
  *      -XX:-PrintAssembly -XX:CompileCommand=print,*.* -XX:+WhiteBoxAPI
  *      compiler.compilercontrol.TestCompilerDirectivesCompatibilityCommandOn
  */
-
-
 
 public class TestCompilerDirectivesCompatibilityCommandOn extends TestCompilerDirectivesCompatibilityBase {
 

@@ -21,7 +21,6 @@
 
 package java.management.share.classes.javax.management.loading;
 
-
 import static com.sun.jmx.defaults.JmxProperties.MLET_LOGGER;.extended
 import java.io.BufferedReader;
 import java.io.File;
@@ -37,20 +36,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.lang.System.Logger.Level;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used for parsing URLs.
@@ -73,7 +58,6 @@ class MLetParser {
      * Tag to parse.
      */
     private static final String tag = "mlet";
-
 
   /*
   * ------------------------------------------

@@ -21,26 +21,11 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.aarch64;
 
-
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.GroupLayout;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryLayout;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.SequenceLayout;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.ValueLayout;
 import jdk.incubator.foreign.share.classes.jdk.internal.foreign.PlatformLayouts;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public enum TypeClass {
     STRUCT_REGISTER,

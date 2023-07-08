@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.BranchHandle;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.GOTO;
@@ -42,26 +41,9 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
 import java.util.java.util.java.util.java.util.List;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: ForEach.java,v 1.2.4.1 2005/09/01 15:23:46 pvedula Exp $
  */
-
-
-
 
 /**
  * @LastModified: Oct 2017
@@ -156,7 +138,6 @@ final class ForEach extends Instruction {
                 il.append(methodGen.setStartNode());
             }
         }
-
 
         // Overwrite current iterator
         il.append(methodGen.storeIterator());

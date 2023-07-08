@@ -21,27 +21,12 @@
 
 package java.management.share.classes.sun.management;
 
-
 import java.lang.management.LockInfo;
 import java.util.Map;
 import javax.management.openmbean.CompositeType;
 import javax.management.openmbean.CompositeData;
 import javax.management.openmbean.CompositeDataSupport;
 import javax.management.openmbean.OpenDataException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A CompositeData for LockInfo for the local management support.

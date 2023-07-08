@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.java2d.d3d;
 
-
 import java.awt.Component;
 import java.awt.GraphicsConfiguration;
 import java.awt.Image;
@@ -39,20 +38,6 @@ import java.desktop.windows.classes.sun.java2d.SurfaceData;
 import static java.desktop.windows.classes.sun.java2d.pipe.hw.AccelSurface.*;.extended
 import static java.desktop.windows.classes.sun.java2d.d3d.D3DContext.D3DContextCaps.*;.extended
 import java.desktop.windows.classes.sun.java2d.windows.GDIWindowSurfaceData;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class D3DVolatileSurfaceManager
     extends VolatileSurfaceManager

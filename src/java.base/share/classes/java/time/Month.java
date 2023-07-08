@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time;
 
-
 import static java.base.share.classes.java.time.temporal.ChronoField.MONTH_OF_YEAR;.extended
 import static java.base.share.classes.java.time.temporal.ChronoUnit.MONTHS;.extended
 import java.base.share.classes.java.time.chrono.Chronology;
@@ -38,20 +37,6 @@ import java.base.share.classes.java.time.temporal.TemporalQuery;
 import java.base.share.classes.java.time.temporal.UnsupportedTemporalTypeException;
 import java.base.share.classes.java.time.temporal.ValueRange;
 import java.base.share.classes.java.util.Locale;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A month-of-year, such as 'July'.

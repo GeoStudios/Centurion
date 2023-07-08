@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.security;
 
-
 import java.base.share.classes.java.io.InvalidObjectException;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.ObjectInputStream;
@@ -35,20 +34,6 @@ import java.base.share.classes.java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Map;
 import java.base.share.classes.java.util.NoSuchElementException;
 import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents a heterogeneous collection of Permissions. That is,

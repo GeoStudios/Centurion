@@ -21,7 +21,6 @@
 
 package nsk.jdi.Locatable.location;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -154,7 +140,6 @@ public class location005 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -208,7 +193,6 @@ public class location005 {
             List            classes      = null;
 
             StackFrame    stackFrame = null;
-
 
             label0: {
 
@@ -268,7 +252,6 @@ public class location005 {
                 if (expresult != returnCode0)
                     break label1;
 
-
                 log2("      stackFrame = thread2.frame(0);");
                 try {
                      stackFrame = thread2.frame(0);
@@ -277,7 +260,6 @@ public class location005 {
                     expresult = returnCode1;
                     break label1;
                 }
-
 
                 Location stackLocation = null;
 
@@ -343,7 +325,6 @@ public class location005 {
         return testExitCode;
     }
 
-
    /*
     * private BreakpointRequest settingBreakpoint(String, String, String)
     *
@@ -399,7 +380,6 @@ public class location005 {
 
         return breakpRequest;
     }
-
 
     /*
      * private int breakpoint ()

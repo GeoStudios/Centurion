@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.image.Raster;
 import java.desktop.share.classes.java.awt.image.WritableRaster;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code CompositeContext} interface defines the encapsulated
@@ -74,6 +59,5 @@ public interface CompositeContext {
     void compose(Raster src,
                         Raster dstIn,
                         WritableRaster dstOut);
-
 
 }

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
-
 import java.awt.*;
 import java.desktop.share.classes.javax.swing.SizeRequirements;
 import java.desktop.share.classes.javax.swing.event.DocumentEvent;
@@ -33,20 +32,6 @@ import java.desktop.share.classes.javax.swing.text.View;
 import java.desktop.share.classes.javax.swing.text.ViewFactory;
 import java.desktop.share.classes.javax.swing.text.BadLocationException;
 import java.desktop.share.classes.javax.swing.text.JTextComponent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Displays the a paragraph, and uses css attributes for its
@@ -149,7 +134,6 @@ public class ParagraphView extends javax.swing.text.ParagraphView {
         return doc.getStyleSheet();
     }
 
-
     /**
      * Calculate the needs for the paragraph along the minor axis.
      *
@@ -183,7 +167,6 @@ public class ParagraphView extends javax.swing.text.ParagraphView {
         }
         return r;
     }
-
 
     /**
      * Indicates whether or not this view should be

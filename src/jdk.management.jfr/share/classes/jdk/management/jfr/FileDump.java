@@ -21,7 +21,6 @@
 
 package jdk.management.jfr.share.classes.jdk.management.jfr;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.channels.FileChannel;
 import java.nio.file.Path;
@@ -29,20 +28,6 @@ import java.nio.file.StandardOpenOption;
 import java.util.ArrayDeque;
 import java.util.Queue;
 import jdk.management.jfr.share.classes.jdk.management.jfr.DiskRepository.DiskChunk;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class FileDump {
     private final Queue<DiskChunk> chunks = new ArrayDeque<>();

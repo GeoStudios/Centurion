@@ -21,29 +21,13 @@
 
 package java.base.share.classes.sun.net.www.content.text;
 
-
 import java.net.*;
 import java.io.InputStream;
 import java.io.java.io.java.io.java.io.IOException;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Plain text file handler.
  */
-
 
 public class plain extends ContentHandler {
     /**

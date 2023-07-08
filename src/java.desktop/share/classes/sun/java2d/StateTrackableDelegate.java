@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.sun.java2d;
 
-
 import java.desktop.share.classes.sun.java2d.StateTrackable.State;
 import static java.desktop.share.classes.sun.java2d.StateTrackable.State.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class provides a basic pre-packaged implementation of the

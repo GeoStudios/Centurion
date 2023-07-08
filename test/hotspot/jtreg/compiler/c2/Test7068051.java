@@ -21,7 +21,6 @@
 
 package compiler.c2;
 
-
 import jdk.test.lib.JDKToolLauncher;
 import jdk.test.lib.process.OutputAnalyzer;
 import java.io.java.io.java.io.java.io.IOException;
@@ -36,19 +35,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 7068051
@@ -59,9 +45,6 @@ import java.util.zip.ZipFile;
  *
  * @run main/othervm -showversion -Xbatch compiler.c2.Test7068051
  */
-
-
-
 
 public class Test7068051 {
     private static final String SELF_NAME = Test7068051.class.getSimpleName();

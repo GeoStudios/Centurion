@@ -21,22 +21,6 @@
 
 package java.base.share.classes.sun.nio.cs;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * FastPath char[]/byte[] -> byte[] encoder, REPLACE on malformed input or
  * unmappable input.

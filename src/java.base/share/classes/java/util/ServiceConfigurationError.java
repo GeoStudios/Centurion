@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Error thrown when something goes wrong while locating, loading, or
  * instantiating a service provider.

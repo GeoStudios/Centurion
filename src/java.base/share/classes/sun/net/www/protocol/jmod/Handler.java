@@ -21,26 +21,11 @@
 
 package java.base.share.classes.sun.net.www.protocol.jmod;
 
-
 import java.net.URL;
 import java.net.URLConnection;
 import java.net.URLStreamHandler;
 import java.net.MalformedURLException;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Placeholder protocol handler for the jmod protocol.

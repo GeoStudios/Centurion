@@ -21,31 +21,13 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.XMLContentSpec;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * MixedContentModel is a derivative of the abstract content model base
@@ -117,7 +99,6 @@ public class MixedContentModel
     //
     // ContentModelValidator methods
     //
-
 
     /**
      * Check that the specified content is valid according to this

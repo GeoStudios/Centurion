@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.axes;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.Axis;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTM;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisTraverser;
@@ -32,20 +31,6 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler.OpMap;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns.NodeTest;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns.StepPattern;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class treats a
@@ -166,7 +151,6 @@ public class MatchPatternIterator extends LocPathIterator
     }
 
   }
-
 
   /**
    * Initialize the context values for this expression

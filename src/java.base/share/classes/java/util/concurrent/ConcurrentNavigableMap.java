@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.util.concurrent;
 
-
 import java.base.share.classes.java.util.NavigableMap;
 import java.base.share.classes.java.util.NavigableSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -49,9 +34,6 @@ import java.base.share.classes.java.util.NavigableSet;
  * Expert Group and released to the public domain, as explained at
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
-
-
-
 
 /**
  * A {@link ConcurrentMap} supporting {@link NavigableMap} operations,

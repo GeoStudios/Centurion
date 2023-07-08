@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.text.MessageFormat;
@@ -33,20 +32,6 @@ import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
 import java.base.share.classes.sun.security.ssl.SSLExtension.SSLExtensionSpec;
 import java.base.share.classes.sun.security.ssl.ServerHello.ServerHelloMessage;
 import java.base.share.classes.sun.security.util.HexDumpEncoder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CookieExtension {
     static final HandshakeProducer chNetworkProducer =

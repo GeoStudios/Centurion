@@ -21,21 +21,6 @@
 
 package nsk.monitoring.share;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface ArgumentHandlerAware {
         public void setArgumentHandler(ArgumentHandler argHandler);
 }

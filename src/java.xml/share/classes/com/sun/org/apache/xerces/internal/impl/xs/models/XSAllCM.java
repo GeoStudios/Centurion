@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.models;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SubstitutionGroupHandler;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSConstraints;
@@ -29,20 +28,6 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSEleme
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * XSAllCM implements XSCMValidator and handles &lt;all&gt;.
@@ -61,7 +46,6 @@ public class XSAllCM implements XSCMValidator {
     private static final short STATE_START = 0;
     private static final short STATE_VALID = 1;
     private static final short STATE_CHILD = 1;
-
 
     //
     // Data
@@ -87,7 +71,6 @@ public class XSAllCM implements XSCMValidator {
         fIsOptionalElement[fNumElements] = isOptional;
         fNumElements++;
     }
-
 
     //
     // XSCMValidator methods
@@ -159,7 +142,6 @@ public class XSAllCM implements XSCMValidator {
         currentState[0] = XSCMValidator.FIRST_ERROR;
         return findMatchingDecl(elementName, subGroupHandler);
     }
-
 
     /**
      * The method indicates the end of list of children

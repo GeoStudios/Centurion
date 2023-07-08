@@ -21,25 +21,10 @@
 
 package java.logging.share.classes.java.util.logging;
 
-
 import java.logging.share.classes.java.nio.charset.Charset;
 import java.logging.share.classes.java.time.Instant;
 import java.logging.share.classes.java.time.format.DateTimeFormatter;
 import java.logging.share.classes.java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Format a LogRecord into a standard XML format.

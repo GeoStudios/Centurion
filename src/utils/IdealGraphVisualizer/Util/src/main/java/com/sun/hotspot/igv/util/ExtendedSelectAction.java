@@ -21,7 +21,6 @@
 
 package utils.IdealGraphVisualizer.Util.src.main.java.com.sun.hotspot.igv.util;
 
-
 import utils.IdealGraphVisualizer.Util.src.main.java.awt.event.MouseEvent;
 import javax.swing.JPanel;
 import org.netbeans.api.visual.action.ActionFactory;
@@ -31,20 +30,6 @@ import org.netbeans.api.visual.action.WidgetAction.State;
 import org.netbeans.api.visual.action.WidgetAction.WidgetKeyEvent;
 import org.netbeans.api.visual.action.WidgetAction.WidgetMouseEvent;
 import org.netbeans.api.visual.widget.Widget;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

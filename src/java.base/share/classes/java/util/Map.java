@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.util;
 
-
 import java.base.share.classes.java.util.function.BiConsumer;
 import java.base.share.classes.java.util.function.BiFunction;
 import java.base.share.classes.java.util.function.Function;
 import java.base.share.classes.java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An object that maps keys to values.  A map cannot contain duplicate keys;
@@ -313,7 +298,6 @@ public interface Map<K, V> {
      */
     V remove(Object key);
 
-
     // Bulk Operations
 
     /**
@@ -345,7 +329,6 @@ public interface Map<K, V> {
      *         is not supported by this map
      */
     void clear();
-
 
     // Views
 

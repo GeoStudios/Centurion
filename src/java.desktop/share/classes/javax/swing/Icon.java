@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.Graphics;
 import java.awt.Component;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A small fixed size picture, typically used to decorate components.

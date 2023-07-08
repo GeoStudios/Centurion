@@ -21,23 +21,9 @@
 
 package nsk.jvmti.GetObjectHashCode;
 
-
 import java.io.PrintStream;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class objhashcode001 extends DebugeeClass {
 

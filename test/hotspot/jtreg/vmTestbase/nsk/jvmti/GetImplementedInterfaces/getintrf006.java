@@ -21,21 +21,7 @@
 
 package nsk.jvmti.GetImplementedInterfaces;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class getintrf006 {
 

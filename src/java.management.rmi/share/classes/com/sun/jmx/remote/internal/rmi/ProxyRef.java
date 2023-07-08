@@ -21,7 +21,6 @@
 
 package java.management.rmi.share.classes.com.sun.jmx.remote.internal.rmi;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInput;
 import java.io.ObjectOutput;
@@ -30,20 +29,6 @@ import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.rmi.server.RemoteObject;
 import java.rmi.server.RemoteRef;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings({"deprecation",
                    "serial"}) // Externalizable class w/o no-arg c'tor

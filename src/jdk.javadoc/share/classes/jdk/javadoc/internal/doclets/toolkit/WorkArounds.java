@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
@@ -62,20 +61,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.tool.DocEnvImpl;
 import static com.sun.tools.javac.code.Kinds.Kind.*;.extended
 import static com.sun.tools.javac.code.Scope.LookupKind.NON_RECURSIVE;.extended
 import static javax.lang.model.element.ElementKind.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A quarantine class to isolate all the workarounds and bridges to

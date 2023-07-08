@@ -21,22 +21,7 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.classfile;
 
-
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * See JVMS, section 4.8.15.

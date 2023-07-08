@@ -21,24 +21,9 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.linux.amd64;
 
-
 import java.lang.ref.Cleaner;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.Address;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.DebuggerException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class DwarfParser {
   private final long p_dwarf_context; // native dwarf context handle

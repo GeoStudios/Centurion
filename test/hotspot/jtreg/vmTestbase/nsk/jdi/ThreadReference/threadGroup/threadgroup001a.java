@@ -21,23 +21,9 @@
 
 package nsk.jdi.ThreadReference.threadGroup;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the threadgroup001 JDI test.
@@ -101,7 +87,6 @@ public class threadgroup001a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
-
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
@@ -204,7 +189,6 @@ class Threadthreadgroup001a extends Thread {
     public static Object waitnotifyObj = new Object();
     public static Object lockingObject = new Object();
 
-
     private int i1 = 0, i2 = 10;
 
     public void run() {
@@ -223,7 +207,6 @@ class Threadthreadgroup001a extends Thread {
         log("method 'run' exit");
         return;
     }
-
 
     void log(String str) {
         threadgroup001a.log2("thread2/4: " + str);

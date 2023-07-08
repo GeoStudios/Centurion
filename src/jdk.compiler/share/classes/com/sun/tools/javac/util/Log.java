@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
-
 import java.io.*;
 import java.base.share.classes.java.util.Arrays;
 import java.util.EnumMap;
@@ -42,20 +41,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.Diagnost
 import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticPosition;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.JCDiagnostic.DiagnosticType;
 import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** A class for error logs. Reports errors and warnings, and
  *  keeps track of error numbers and positions.

@@ -21,22 +21,8 @@
 
 package nsk.share.gc;
 
-
 import java.io.PrintStream;
 import nsk.share.gc.Algorithms;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An object that occupies approximately given number of bytes in memory

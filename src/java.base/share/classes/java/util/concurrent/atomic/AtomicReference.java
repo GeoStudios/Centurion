@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.util.concurrent.atomic;
 
-
 import java.base.share.classes.java.lang.invoke.MethodHandles;
 import java.base.share.classes.java.lang.invoke.VarHandle;
 import java.base.share.classes.java.util.function.BinaryOperator;
 import java.base.share.classes.java.util.function.UnaryOperator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -51,9 +36,6 @@ import java.base.share.classes.java.util.function.UnaryOperator;
  * Expert Group and released to the public domain, as explained at
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
-
-
-
 
 /**
  * An object reference that may be updated atomically.  See the {@link

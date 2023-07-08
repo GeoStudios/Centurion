@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.util.spi;
 
-
 import java.base.share.classes.java.util.Locale;
 import java.base.share.classes.java.util.ResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * {@code ResourceBundleProvider} is a service provider interface for

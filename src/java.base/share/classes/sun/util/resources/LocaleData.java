@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.util.resources;
 
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.*;
@@ -32,20 +31,6 @@ import java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter;
 import static java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter.Type.CLDR;.extended
 import static java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter.Type.JRE;.extended
 import java.base.share.classes.sun.util.locale.provider.ResourceBundleBasedAdapter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides information about and access to resource bundles in the

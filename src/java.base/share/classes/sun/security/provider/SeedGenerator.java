@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.provider;
 
-
 import java.base.share.classes.java.security.*;
 import java.io.*;
 import java.util.Properties;
@@ -32,20 +31,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Random;
 import java.base.share.classes.sun.security.util.Debug;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class generates seeds for the SHA1PRNG cryptographically strong
@@ -85,7 +70,6 @@ import java.base.share.classes.sun.security.util.Debug;
  * threading mechanism is used.
  *
  */
-
 
 abstract class SeedGenerator {
 
@@ -274,7 +258,6 @@ abstract class SeedGenerator {
         return myself.getByte();
     }
     */
-
 
     private static class ThreadedSeedGenerator extends SeedGenerator
             implements Runnable {

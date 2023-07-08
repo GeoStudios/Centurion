@@ -21,30 +21,13 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto;
 
-
 import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.xml.crypto.share.classes.javax.xml.crypto.dsig.keyinfo.RetrievalMethod;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: URIReferenceException.java,v 1.4 2005/05/10 15:47:42 mullan Exp $
  */
-
-
 
 /**
  * Indicates an exceptional condition thrown while dereferencing a

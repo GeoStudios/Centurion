@@ -21,22 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
-
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** A byte buffer is a flexible array which grows when elements are
  *  appended. There are also methods to append names to byte buffers
@@ -193,7 +178,6 @@ public class ByteBuffer {
             ((elems[bp+2] & 0xFF) << 8) +
             (elems[bp+3] & 0xFF);
     }
-
 
     /** Extract a long integer at position bp from elems.
      */

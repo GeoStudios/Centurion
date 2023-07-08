@@ -21,21 +21,6 @@
 
 package compiler.arraycopy;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8064703
@@ -44,7 +29,6 @@ package compiler.arraycopy;
  * @run main/othervm -XX:-BackgroundCompilation -XX:-UseOnStackReplacement -XX:TypeProfileLevel=020
  *                   compiler.arraycopy.TestArrayCopyNoInit
  */
-
 
 public class TestArrayCopyNoInit {
 

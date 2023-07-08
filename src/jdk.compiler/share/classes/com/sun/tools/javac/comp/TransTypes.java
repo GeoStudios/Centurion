@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-
 import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Attribute.TypeCompound;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Source.Feature;
@@ -40,20 +39,6 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.TYPEVA
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.VOID;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.comp.CompileStates.CompileState;.extended
 import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCBreak;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** This pass translates Generic Java to conventional Java.
  *

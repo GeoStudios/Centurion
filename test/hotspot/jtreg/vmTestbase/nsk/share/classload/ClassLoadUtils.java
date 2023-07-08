@@ -21,7 +21,6 @@
 
 package nsk.share.classload;
 
-
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -30,19 +29,6 @@ import java.base.share.classes.java.util.Arrays;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.Files;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ClassLoadUtils {
     private ClassLoadUtils() {

@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.Container;
 import java.desktop.share.classes.javax.swing.plaf.ComponentUI;
 import sun.awt.AppContext;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>LayoutStyle</code> provides information about how to position
@@ -90,7 +75,6 @@ public abstract class LayoutStyle {
         return style;
     }
 
-
     /**
      * <code>ComponentPlacement</code> is an enumeration of the
      * possible ways two components can be placed relative to each
@@ -132,7 +116,6 @@ public abstract class LayoutStyle {
          */
         INDENT
     }
-
 
     /**
      * Creates a new <code>LayoutStyle</code>.  You generally don't

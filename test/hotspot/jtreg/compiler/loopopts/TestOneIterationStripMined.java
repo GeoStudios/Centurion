@@ -21,21 +21,6 @@
 
 package compiler.loopopts;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8208275
@@ -44,7 +29,6 @@ package compiler.loopopts;
  *                   -XX:CompileCommand=compileonly,compiler.loopopts.TestOneIterationStripMined::test*
  *                   compiler.loopopts.TestOneIterationStripMined
  */
-
 
 public class TestOneIterationStripMined {
     static int iField;

@@ -21,7 +21,6 @@
 
 package java.prefs.share.classes.java.util.prefs;
 
-
 import java.prefs.share.classes.java.util.*;
 import java.prefs.share.classes.java.io.*;
 import java.prefs.share.classes.java.security.AccessController;
@@ -30,20 +29,6 @@ import java.prefs.share.classes.java.lang.Integer;
 import java.prefs.share.classes.java.lang.Long;
 import java.prefs.share.classes.java.lang.Float;
 import java.prefs.share.classes.java.lang.Double;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // These imports needed only as a workaround for a JavaDoc bug
 

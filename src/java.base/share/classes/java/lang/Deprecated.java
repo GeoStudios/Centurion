@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.lang;
 
-
 import java.base.share.classes.java.lang.annotation.*;
 import static java.base.share.classes.java.lang.annotation.ElementType.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A program element annotated {@code @Deprecated} is one that programmers

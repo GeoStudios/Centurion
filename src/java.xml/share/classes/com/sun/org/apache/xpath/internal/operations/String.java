@@ -21,30 +21,13 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.operations;
 
-
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XString;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * The 'string()' operation expression executer.

@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * IFLE - Branch if int comparison with zero succeeds
@@ -58,11 +41,9 @@ public class IFLE extends IfInstruction {
     IFLE() {
     }
 
-
     public IFLE(final InstructionHandle target) {
         super(com.sun.org.apache.bcel.internal.Const.IFLE, target);
     }
-
 
     /**
      * @return negation of instruction
@@ -71,7 +52,6 @@ public class IFLE extends IfInstruction {
     public IfInstruction negate() {
         return new IFGT(super.getTarget());
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

@@ -21,21 +21,6 @@
 
 package compiler.codegen;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8031321
@@ -45,7 +30,6 @@ package compiler.codegen;
  *      -XX:CompileCommand=compileonly,compiler.codegen.BMI1$BMITests::*
  *      compiler.codegen.BMI1
  */
-
 
 public class BMI1 {
     private final static int ITERATIONS = 1000000;

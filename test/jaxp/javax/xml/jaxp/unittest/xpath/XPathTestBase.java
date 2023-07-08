@@ -21,7 +21,6 @@
 
 package xpath;
 
-
 import java.io.ByteArrayInputStream;
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -43,19 +42,6 @@ import static org.testng.Assert.assertTrue;.extended
 import org.testng.annotations.DataProvider;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Base class for XPath test

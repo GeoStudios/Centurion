@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.Inetjava.net.SocketAddress;
 import java.net.http.HttpClient;
@@ -45,20 +44,6 @@ import java.net.http.share.classes.jdk.internal.net.http.common.MinimalFuture;
 import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
 import static java.net.http.HttpClient.Version.HTTP_1_1;.extended
 import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.wrapWithExtraDetail;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Encapsulates one HTTP/1.1 request/response exchange.
@@ -401,7 +386,6 @@ class Http1Exchange<T> extends ExchangeImpl<T> {
        response.nullBody(resp, t);
     }
 
-
     ByteBuffer drainLeftOverBytes() {
         synchronized (lock) {
             asyncReceiver.stop();
@@ -686,7 +670,6 @@ class Http1Exchange<T> extends ExchangeImpl<T> {
             }
             return false;
         }
-
 
         final class WriteTask implements Runnable {
             @Override

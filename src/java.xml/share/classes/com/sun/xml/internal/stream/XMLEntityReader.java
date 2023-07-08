@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLStringBuffer;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class allows various parser scanners to scan basic XML constructs
@@ -59,7 +44,6 @@ public abstract class XMLEntityReader implements XMLLocator {
     //
     // Public methods
     //
-
 
     /**
      * Sets the encoding of the scanner. This method is used by the

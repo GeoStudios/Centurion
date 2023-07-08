@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.nio.file.attribute;
 
-
 import static java.base.share.classes.java.nio.file.attribute.PosixFilePermission.*;.extended
 import java.base.share.classes.java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class consists exclusively of static methods that operate on sets of

@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.sun.awt;
 
-
 import java.awt.AWTException;
 import java.awt.Window;
 import java.awt.im.spi.InputMethodDescriptor;
 import java.base.share.classes.java.util.Locale;
 import java.desktop.share.classes.sun.awt.im.InputContext;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Input method support for toolkits

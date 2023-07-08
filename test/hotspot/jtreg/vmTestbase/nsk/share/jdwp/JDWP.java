@@ -21,24 +21,10 @@
 
 package nsk.share.jdwp;
 
-
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Hashtable;
 import nsk.share.Failure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class contains JDWP constants, types and parameters.

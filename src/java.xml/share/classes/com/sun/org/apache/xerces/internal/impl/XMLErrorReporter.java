@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.DefaultErrorHandler;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.ErrorHandlerProxy;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.MessageFormatter;
@@ -36,20 +35,6 @@ import java.util.HashMap;
 import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.xml.share.classes.com.sun.org.xml.sax.ErrorHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is a common element of all parser configurations and is

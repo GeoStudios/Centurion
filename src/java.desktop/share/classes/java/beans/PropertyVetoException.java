@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.java.beans;
 
-
 import java.desktop.share.classes.java.io.Serial;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A PropertyVetoException is thrown when a proposed change to a

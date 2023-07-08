@@ -21,23 +21,8 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset.spi;
 
-
 import java.sql.rowset.share.classes.javax.sql.RowSet;
 import java.sql.SQLException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Defines a framework that allows applications to use a manual decision tree

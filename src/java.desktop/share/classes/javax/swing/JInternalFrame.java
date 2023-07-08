@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.BorderLayout;
 import java.awt.Component;
 import java.awt.Container;
@@ -51,20 +50,6 @@ import java.desktop.share.classes.javax.swing.plaf.DesktopIconUI;
 import java.desktop.share.classes.javax.swing.plaf.InternalFrameUI;
 import sun.awt.AppContext;
 import sun.swing.SwingUtilities2;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A lightweight object that provides many of the features of
@@ -439,7 +424,6 @@ public class JInternalFrame extends JComponent implements
         }
     }
 
-
     /**
      * Returns the name of the look-and-feel
      * class that renders this component.
@@ -536,7 +520,6 @@ public class JInternalFrame extends JComponent implements
         }
     }
 
-
     /**
      * Ensures that, by default, the layout of this component cannot be set.
      * Overridden to conditionally forward the call to the
@@ -555,7 +538,6 @@ public class JInternalFrame extends JComponent implements
             super.setLayout(manager);
         }
     }
-
 
 //////////////////////////////////////////////////////////////////////////
 /// Property Methods
@@ -624,7 +606,6 @@ public class JInternalFrame extends JComponent implements
     public Container getContentPane() {
         return getRootPane().getContentPane();
     }
-
 
     /**
      * Sets this <code>JInternalFrame</code>'s <code>contentPane</code>
@@ -709,7 +690,6 @@ public class JInternalFrame extends JComponent implements
     public JRootPane getRootPane() {
         return rootPane;
     }
-
 
     /**
      * Sets the <code>rootPane</code> property
@@ -2066,7 +2046,6 @@ public class JInternalFrame extends JComponent implements
             return this;
         }
 
-
         //
         // AccessibleValue methods
         //
@@ -2224,7 +2203,6 @@ public class JInternalFrame extends JComponent implements
 
             Dimension r = getPreferredSize();
             setSize(r.width, r.height);
-
 
             if (internalFrame != null && internalFrame.getUI() != null) {  // don't do this if UI not created yet
                 SwingUtilities.updateComponentTreeUI(internalFrame);

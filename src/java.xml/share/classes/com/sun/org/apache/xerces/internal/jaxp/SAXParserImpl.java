@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.validation.ValidationManager;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator;
@@ -57,20 +56,6 @@ import java.xml.share.classes.com.sun.org.xml.sax.SAXNotRecognizedException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXNotSupportedException;
 import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
 import java.xml.share.classes.com.sun.org.xml.sax.helpers.DefaultHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is the implementation specific class for the
@@ -408,7 +393,6 @@ public class SAXParserImpl extends javax.xml.parsers.SAXParser
         private final SAXParserImpl fSAXParser;
         private XMLSecurityManager fSecurityManager;
         private XMLSecurityPropertyManager fSecurityPropertyMgr;
-
 
         public JAXPSAXParser() {
             this(null, null, null);

@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.imageio.metadata;
 
-
 import java.io.Serial;
 import java.desktop.share.classes.javax.imageio.Ijava.io.java.io.java.io.IOException;
 import org.w3c.dom.Node;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An {@code IIOInvalidTreeException} is thrown when an attempt

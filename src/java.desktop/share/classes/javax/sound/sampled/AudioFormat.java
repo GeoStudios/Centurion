@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.sound.sampled;
 
-
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * {@code AudioFormat} is the class that specifies a particular arrangement of

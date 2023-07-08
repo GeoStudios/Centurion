@@ -21,7 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.tools.example.debug.tty;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.*;
 import jdk.jdi.share.classes.com.sun.jdi.connect.*;
 import jdk.jdi.share.classes.com.sun.jdi.request.EventRequestManager;
@@ -31,20 +30,6 @@ import java.util.*;
 import java.util.regex.*;
 import java.io.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -52,11 +37,6 @@ import java.io.*;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
-
 
 class VMConnection {
 

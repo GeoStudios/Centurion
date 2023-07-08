@@ -21,24 +21,10 @@
 
 package gc.g1.unloading.classloaders;
 
-
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.security.CodeSigner;
 import java.security.CodeSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

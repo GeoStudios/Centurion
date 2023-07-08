@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.org.w3c.dom;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The <code>Document</code> interface represents the entire HTML or XML
  * document. Conceptually, it is the root of the document tree, and provides

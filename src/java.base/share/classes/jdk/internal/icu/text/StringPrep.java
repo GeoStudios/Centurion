@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.icu.text;
 
-
 import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -35,20 +34,6 @@ import java.base.share.classes.jdk.internal.icu.lang.UCharacter;
 import java.base.share.classes.jdk.internal.icu.lang.UCharacterDirection;
 import java.base.share.classes.jdk.internal.icu.util.VersionInfo;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //
 // CHANGELOG
 //      2005-05-19 Edward Wang
@@ -60,9 +45,6 @@ import java.base.share.classes.jdk.internal.icu.util.VersionInfo;
 //      2007-08-14 Martin Buchholz
 //          - remove redundant casts
 //
-
-
-
 
 /**
  * StringPrep API implements the StingPrep framework as described by
@@ -137,7 +119,6 @@ public final class StringPrep {
     private static final int OPTIONS                          =  7; /* Bit set of options to turn on in the profile */
     private static final int INDEX_TOP                        = 16;                          /* changing this requires a new formatVersion */
 
-
     /**
      * Default buffer size of datafile
      */
@@ -177,7 +158,6 @@ public final class StringPrep {
     // Option to turn on checking for BiDi rules
     private final boolean checkBiDi;
 
-
     private char getCodePointValue(int ch){
         return sprepTrieImpl.sprepTrie.getCodePointValue(ch);
     }
@@ -214,7 +194,6 @@ public final class StringPrep {
         indexes = reader.readIndexes(INDEX_TOP);
 
         byte[] sprepBytes = new byte[indexes[INDEX_TRIE_SIZE]];
-
 
         //indexes[INDEX_MAPPING_DATA_SIZE] store the size of mappingData in bytes
         mappingData = new char[indexes[INDEX_MAPPING_DATA_SIZE]/2];
@@ -287,8 +266,6 @@ public final class StringPrep {
         }
     }
 
-
-
     private StringBuffer map( UCharacterIterator iter, int options)
                             throws ParseException {
 
@@ -342,7 +319,6 @@ public final class StringPrep {
         return dest;
     }
 
-
     private StringBuffer normalize(StringBuffer src){
         /*
          * Option UNORM_BEFORE_PRI_29:
@@ -390,7 +366,6 @@ public final class StringPrep {
            the requirements below, an "RandALCat character" is a character that
            has Unicode bidirectional categories "R" or "AL"; an "LCat character"
            is a character that has Unicode bidirectional category "L".  Note
-
 
            that there are many characters which fall in neither of the above
            definitions; Latin digits (<U+0030> through <U+0039>) are examples of

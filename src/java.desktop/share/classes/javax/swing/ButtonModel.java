@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.event.*;
 import java.awt.*;
 import java.desktop.share.classes.javax.swing.event.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * State model for buttons.

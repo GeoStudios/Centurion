@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.base.share.classes.java.security.PrivateKey;
 import java.base.share.classes.java.security.PublicKey;
 import java.security.cert.X509Certificate;
@@ -37,20 +36,6 @@ import javax.net.ssl.SSLEngine;
 import javax.net.ssl.SSLjava.net.java.net.java.net.Socket;
 import javax.net.ssl.X509ExtendedKeyManager;
 import java.base.share.classes.sun.security.ssl.SupportedGroupsExtension.SupportedGroups;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 enum X509Authentication implements SSLAuthentication {
     // Require rsaEncryption public key

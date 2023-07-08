@@ -21,21 +21,6 @@
 
 package compiler.regalloc;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8131969
@@ -44,7 +29,6 @@ package compiler.regalloc;
  *
  * @run main/othervm -Xbatch compiler.regalloc.TestVectorRegAlloc
  */
-
 
 public class TestVectorRegAlloc {
 

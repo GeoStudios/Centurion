@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.text.MessageFormat;
@@ -29,20 +28,6 @@ import java.base.share.classes.java.util.Locale;
 import javax.net.ssl.SSLException;
 import javax.net.ssl.SSLHandshakeException;
 import javax.net.ssl.SSLProtocolException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * SSL/(D)TLS Alter description

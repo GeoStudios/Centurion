@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Container;
@@ -33,20 +32,6 @@ import java.io.Serial;
 import java.desktop.share.classes.javax.accessibility.Accessible;
 import java.desktop.share.classes.javax.accessibility.AccessibleContext;
 import java.desktop.share.classes.javax.accessibility.AccessibleRole;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is inserted in between cell renderers and the components that
@@ -95,18 +80,15 @@ public class CellRendererPane extends Container implements Accessible
      */
     public void invalidate() { }
 
-
     /**
      * Shouldn't be called.
      */
     public void paint(Graphics g) { }
 
-
     /**
      * Shouldn't be called.
      */
     public void update(Graphics g) { }
-
 
     /**
      * If the specified component is already a child of this then we don't
@@ -120,7 +102,6 @@ public class CellRendererPane extends Container implements Accessible
             super.addImpl(x, constraints, index);
         }
     }
-
 
     /**
      * Paint a cell renderer component c on graphics object g.  Before the component
@@ -187,7 +168,6 @@ public class CellRendererPane extends Container implements Accessible
         c.setBounds(-w, -h, 0, 0);
     }
 
-
     /**
      * Calls this.paintComponent(g, c, p, x, y, w, h, false).
      *
@@ -205,7 +185,6 @@ public class CellRendererPane extends Container implements Accessible
         paintComponent(g, c, p, x, y, w, h, false);
     }
 
-
     /**
      * Calls this.paintComponent(g, c, p, r.x, r.y, r.width, r.height) where
      * {@code r} is the input {@code Rectangle} parameter.
@@ -219,13 +198,11 @@ public class CellRendererPane extends Container implements Accessible
         paintComponent(g, c, p, r.x, r.y, r.width, r.height);
     }
 
-
     @Serial
     private void writeObject(ObjectOutputStream s) throws IOException {
         removeAll();
         s.defaultWriteObject();
     }
-
 
 /////////////////
 // Accessibility support
@@ -235,7 +212,6 @@ public class CellRendererPane extends Container implements Accessible
      * {@code AccessibleContext} associated with this {@code CellRendererPan}
      */
     protected AccessibleContext accessibleContext = null;
-
 
     /**
      * Gets the AccessibleContext associated with this CellRendererPane.

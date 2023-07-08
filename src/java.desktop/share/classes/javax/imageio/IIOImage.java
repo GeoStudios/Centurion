@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.javax.imageio;
 
-
 import java.awt.image.BufferedImage;
 import java.awt.image.Raster;
 import java.awt.image.RenderedImage;
 import java.util.java.util.java.util.java.util.List;
 import java.desktop.share.classes.javax.imageio.metadata.IIOMetadata;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A simple container class to aggregate an image, a set of

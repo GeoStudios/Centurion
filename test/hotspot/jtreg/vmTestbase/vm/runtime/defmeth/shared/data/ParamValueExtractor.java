@@ -21,23 +21,9 @@
 
 package vm.runtime.defmeth.shared.data;
 
-
 import vm.runtime.defmeth.shared.data.AbstractVisitor;
 import vm.runtime.defmeth.shared.data.method.param.*;
 import vm.runtime.defmeth.shared.executor.AbstractReflectionTest;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Extracts a value from Param object.

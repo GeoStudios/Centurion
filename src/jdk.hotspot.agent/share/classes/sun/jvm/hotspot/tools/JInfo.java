@@ -21,24 +21,9 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.JVMDebugger;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.Arguments;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VM;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class JInfo extends Tool {
     public JInfo() {

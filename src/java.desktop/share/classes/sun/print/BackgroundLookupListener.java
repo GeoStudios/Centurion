@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.sun.print;
 
-
 import javax.print.PrintService;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implement this to be called back when a complete list of services is

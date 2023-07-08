@@ -21,7 +21,6 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.*;
@@ -29,20 +28,6 @@ import javax.naming.NamingException;
 import javax.naming.ldap.spi.LdapDnsProvider;
 import javax.naming.ldap.spi.LdapDnsProviderResult;
 import java.naming.share.classes.com.sun.security.util.SecurityConstants;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code LdapDnsProviderService} is responsible for creating and providing

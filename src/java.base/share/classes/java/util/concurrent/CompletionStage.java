@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.util.concurrent;
 
-
 import java.base.share.classes.java.util.function.BiConsumer;
 import java.base.share.classes.java.util.function.BiFunction;
 import java.base.share.classes.java.util.function.Consumer;
 import java.base.share.classes.java.util.function.Function;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -51,9 +36,6 @@ import java.base.share.classes.java.util.function.Function;
  * Expert Group and released to the public domain, as explained at
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
-
-
-
 
 /**
  * A stage of a possibly asynchronous computation, that performs an

@@ -21,21 +21,6 @@
 
 package nsk.share;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Debug
 {
     // tests assertion to be valid, otherwise FAIL test with message

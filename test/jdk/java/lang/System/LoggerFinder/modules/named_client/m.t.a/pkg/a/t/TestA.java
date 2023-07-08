@@ -21,25 +21,11 @@
 
 package pkg.a.t;
 
-
 import java.lang.reflect.Method;
 import java.lang.System.Logger;
 import java.time.Instant;
 import java.util.ResourceBundle;
 import java.util.java.util.ListResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Tests when logger client is in named module m.l.a

@@ -21,7 +21,6 @@
 
 package compiler.jvmci.compilerToVM;
 
-
 import compiler.jvmci.common.CTVMUtilities;
 import jdk.test.lib.Asserts;
 import jdk.vm.ci.hotspot.CompilerToVMHelper;
@@ -29,19 +28,6 @@ import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
 import java.lang.reflect.Executable;
 import java.util.HashMap;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -67,9 +53,6 @@ import java.util.Map;
  *                   compiler.jvmci.compilerToVM.GetLocalVariableTableTest
  * @clean compiler.jvmci.compilerToVM.*
  */
-
-
-
 
 public class GetLocalVariableTableTest {
 

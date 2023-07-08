@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import java.io.*;
 import java.awt.*;
 import java.net.URL;
@@ -30,20 +29,6 @@ import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.text.*;
 import java.desktop.share.classes.javax.swing.text.html.*;
 import sun.swing.SwingUtilities2;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Support for providing html views for the swing components.
@@ -376,7 +361,6 @@ public class BasicHTML {
         }
     }
 
-
     /**
      * BasicHTMLViewFactory extends HTMLFactory to force images to be loaded
      * synchronously.
@@ -391,7 +375,6 @@ public class BasicHTML {
             return view;
         }
     }
-
 
     /**
      * The subclass of HTMLDocument that is used as the model. getForeground
@@ -420,7 +403,6 @@ public class BasicHTML {
                                     displayPropertiesToCSS(font,fg));
         }
     }
-
 
     /**
      * Root text view that acts as an HTML renderer.

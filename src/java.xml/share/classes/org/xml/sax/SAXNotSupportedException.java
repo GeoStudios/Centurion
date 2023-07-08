@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.org.xml.sax;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Exception class for an unsupported operation.
  *
@@ -57,7 +41,6 @@ public class SAXNotSupportedException extends SAXException
     {
         super();
     }
-
 
     /**
      * Construct a new exception with the given message.

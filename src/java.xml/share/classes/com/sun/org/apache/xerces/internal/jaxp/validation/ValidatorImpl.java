@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.validation;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import javax.xml.transform.Result;
 import javax.xml.transform.Source;
@@ -42,20 +41,6 @@ import java.xml.share.classes.com.sun.org.xml.sax.ErrorHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXNotRecognizedException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXNotSupportedException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Implementation of Validator for W3C XML Schemas.</p>

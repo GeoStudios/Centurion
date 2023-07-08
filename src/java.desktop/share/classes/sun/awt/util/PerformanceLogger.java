@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.sun.awt.util;
 
-
 import java.util.Vector;
 import java.io.FileWriter;
 import java.io.File;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is intended to be a central place for the jdk to
@@ -152,7 +137,6 @@ public class PerformanceLogger {
     public static boolean loggingEnabled() {
         return perfLoggingOn;
     }
-
 
     /**
      * Internal class used to store time/message data together.

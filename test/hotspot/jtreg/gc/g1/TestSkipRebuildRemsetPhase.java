@@ -21,26 +21,12 @@
 
 package gc.g1;
 
-
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.Asserts;
 import sun.hotspot.WhiteBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestSkipRebuildRemsetPhase
@@ -52,8 +38,6 @@ import sun.hotspot.WhiteBox;
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run driver gc.g1.TestSkipRebuildRemsetPhase
  */
-
-
 
 public class TestSkipRebuildRemsetPhase {
     public static void main(String[] args) throws Exception {

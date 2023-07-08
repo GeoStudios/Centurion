@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.imageio.spi;
 
-
 import java.io.File;
 import java.security.AccessControlContext;
 import java.security.AccessController;
@@ -34,20 +33,6 @@ import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.Set;
 import java.util.ServiceLoader;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A registry for service provider instances for Image I/O service types.
@@ -729,7 +714,6 @@ public class ServiceRegistry {
     }
 }
 
-
 /**
  * A portion of a registry dealing with a single superclass or
  * interface.
@@ -855,7 +839,6 @@ class SubRegistry {
         clear();
     }
 }
-
 
 /**
  * A class for wrapping {@code Iterators} with a filter function.

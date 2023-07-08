@@ -21,21 +21,6 @@
 
 package nsk.jvmti.unit.functions.AddToBootstrapClassLoaderSearch;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Boot {
 
     int _foo;

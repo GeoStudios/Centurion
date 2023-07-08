@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.security.cert;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A selector that defines a set of criteria for selecting
  * {@code Certificate}s. Classes that implement this interface

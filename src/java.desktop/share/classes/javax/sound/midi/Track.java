@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.sound.midi;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashSet;
 import com.sun.media.sound.MidiUtils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A MIDI track is an independent stream of MIDI events (time-stamped MIDI data)

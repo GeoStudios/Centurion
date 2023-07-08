@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac.comp.dependencies;
 
-
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Map;
@@ -39,20 +38,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
 import jdk.compiler.share.classes.com.sun.tools.sjavac.Log;
 import jdk.compiler.share.classes.com.sun.tools.sjavac.comp.PubAPIs;
 import jdk.compiler.share.classes.com.sun.tools.sjavac.pubapi.PubApi;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class PublicApiCollector implements TaskListener {
 

@@ -21,23 +21,8 @@
 
 package java.xml.share.classes.org.w3c.dom.traversal;
 
-
 import java.xml.share.classes.org.w3c.dom.Node;
 import java.xml.share.classes.org.w3c.dom.DOMException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>DocumentTraversal</code> contains methods that create

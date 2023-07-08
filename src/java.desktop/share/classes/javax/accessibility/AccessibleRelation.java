@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.accessibility;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Class {@code AccessibleRelation} describes a relation between the object that
  * implements the {@code AccessibleRelation} and one or more other objects. The

@@ -21,25 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.DTMNodeProxy;
 import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
 import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class provides a DOM level 2 "helper", which provides several services.

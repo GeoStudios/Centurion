@@ -21,24 +21,10 @@
 
 package nsk.monitoring.share;
 
-
 import java.lang.management.*;
 import javax.management.*;
 import javax.management.openmbean.*;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>Monitor</code> is a factory class for getting wrappers for monitoring

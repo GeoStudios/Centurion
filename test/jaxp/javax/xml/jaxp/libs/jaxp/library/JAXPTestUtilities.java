@@ -21,7 +21,6 @@
 
 package jaxp.library;
 
-
 import static org.testng.Assert.fail;.extended
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -57,19 +56,6 @@ import javax.xml.transform.stream.StreamResult;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is an interface provide basic support for JAXP functional test.
@@ -348,7 +334,6 @@ public class JAXPTestUtilities {
                 toAbsolutePath().toString();
         return normalizedPath.replace("\\", FILE_SEP) + FILE_SEP;
     }
-
 
     /**
      * Run the supplier with all permissions. This won't impact global policy.

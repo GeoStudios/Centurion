@@ -21,25 +21,9 @@
 
 package p1;
 
-
 import p2.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Small class used by multiple hotspot/runtime/modules/AccessCheck/* tests.
-
-
 
 public class c1 {
 

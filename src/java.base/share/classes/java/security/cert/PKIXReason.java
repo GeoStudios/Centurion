@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.security.cert;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The {@code PKIXReason} enumerates the potential PKIX-specific reasons
  * that an X.509 certification path may be invalid according to the PKIX

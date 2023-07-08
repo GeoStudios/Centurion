@@ -21,24 +21,10 @@
 
 package nsk.jvmti.RedefineClasses;
 
-
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test exercises that the JVMTI function RedefineClasses()

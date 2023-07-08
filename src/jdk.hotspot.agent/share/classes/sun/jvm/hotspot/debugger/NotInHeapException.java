@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class NotInHeapException extends AddressException {
   public NotInHeapException(long addr) {
     super(addr);

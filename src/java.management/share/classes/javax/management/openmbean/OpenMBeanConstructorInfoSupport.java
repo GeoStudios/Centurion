@@ -21,30 +21,13 @@
 
 package java.management.share.classes.javax.management.openmbean;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.management.share.classes.javax.management.Descriptor;
 import java.management.share.classes.javax.management.MBeanConstructorInfo;
 import java.management.share.classes.javax.management.MBeanParameterInfo;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // java import
 //
-
-
 
 /**
  * Describes a constructor of an Open MBean.
@@ -57,7 +40,6 @@ public class OpenMBeanConstructorInfoSupport
 
     /* Serial version */
     static final long serialVersionUID = -4400441579007477003L;
-
 
     // As this instance is immutable,
     // these two values need only be calculated once.
@@ -154,9 +136,7 @@ public class OpenMBeanConstructorInfoSupport
         return dst;
     }
 
-
     /* ***  Commodity methods from java.lang.Object  *** */
-
 
     /**
      * <p>Compares the specified {@code obj} parameter with this

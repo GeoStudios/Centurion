@@ -21,27 +21,12 @@
 
 package jdk.jdi.share.classes.com.sun.tools.example.debug.tty;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.Location;
 import jdk.jdi.share.classes.com.sun.jdi.AbsentInformationException;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.StringTokenizer;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -50,10 +35,6 @@ import java.io.*;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
 
 class SourceMapper {
 

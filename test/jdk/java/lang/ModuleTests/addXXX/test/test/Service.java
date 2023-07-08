@@ -21,21 +21,6 @@
 
 package test;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Simple service type
  */

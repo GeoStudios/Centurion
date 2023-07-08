@@ -21,23 +21,8 @@
 
 package java.base.share.classes.jdk.internal.access;
 
-
 import java.io.InvalidClassException;
 import java.io.ObjectInputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Interface to specify methods for accessing {@code ObjectInputStream}.

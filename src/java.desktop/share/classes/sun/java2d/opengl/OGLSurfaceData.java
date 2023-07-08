@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.opengl;
 
-
 import java.awt.AlphaComposite;
 import java.awt.Composite;
 import java.awt.GraphicsConfiguration;
@@ -46,20 +45,6 @@ import java.desktop.share.classes.sun.java2d.pipe.RenderBuffer;
 import java.desktop.share.classes.sun.java2d.pipe.TextPipe;
 import static java.desktop.share.classes.sun.java2d.pipe.BufferedOpCodes.*;.extended
 import static java.desktop.share.classes.sun.java2d.opengl.OGLContext.OGLContextCaps.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class describes an OpenGL "surface", that is, a region of pixels

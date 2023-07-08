@@ -21,56 +21,6 @@
 
 package build.tools.generateemojidata;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Generate EmojiData.java
  *    args[0]: Full path string to the template file
@@ -102,7 +52,6 @@ public class GenerateEmojiData {
                         list.add(r);
                     },
                     ArrayList<Range>::addAll);
-
 
             // make the code point conditions
             // only very few codepoints below 0x2000 are "emojis", so separate them

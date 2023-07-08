@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import java.io.Serial;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This exception is used when a reader is used to read RIFF file of a format it

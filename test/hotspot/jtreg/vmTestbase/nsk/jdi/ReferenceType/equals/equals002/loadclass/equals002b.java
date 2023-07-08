@@ -21,23 +21,7 @@
 
 package nsk.jdi.ReferenceType.equals;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // this class will be loaded and then onloaded to check
 // the equals() method of ReferenceType interface for UNLOADED class
-
 
 class equals002b {}

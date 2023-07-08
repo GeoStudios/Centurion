@@ -21,27 +21,11 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.util;
 
-
 import java.util.Iterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *
  */
-
 
 public class ReadOnlyIterator<T> implements Iterator<T> {
 

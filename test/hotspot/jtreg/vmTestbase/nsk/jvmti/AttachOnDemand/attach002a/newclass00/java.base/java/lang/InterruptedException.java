@@ -21,21 +21,6 @@
 
 package java.lang;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class InterruptedException extends Exception {
 
     // real value does not matter JVM TI require same field

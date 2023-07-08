@@ -21,24 +21,9 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign;
 
-
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemorySegment;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.SegmentAllocator;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.ResourceScope;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class ArenaAllocator implements SegmentAllocator {
 

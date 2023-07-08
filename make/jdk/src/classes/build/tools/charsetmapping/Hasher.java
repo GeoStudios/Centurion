@@ -21,56 +21,6 @@
 
 package build.tools.charsetmapping;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Reads a map in the form of a sequence of key/value-expression pairs from the
  * standard input, attempts to construct a hash map that fits within the given

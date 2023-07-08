@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.lang.reflect.*;
 import java.text.*;
 import java.util.*;
 import sun.reflect.misc.ReflectUtil;
 import sun.swing.SwingUtilities2;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>NumberFormatter</code> subclasses <code>InternationalFormatter</code>

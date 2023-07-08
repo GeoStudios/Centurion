@@ -21,25 +21,10 @@
 
 package jdk.httpserver.share.classes.sun.net.httpserver;
 
-
 import java.nio.*;
 import java.io.*;
 import java.nio.channels.*;
 import com.sun.net.httpserver.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  */
@@ -65,7 +50,6 @@ class Request {
             /* skip blank lines */
         } while (startLine != null && startLine.equals(""));
     }
-
 
     char[] buf = new char [BUF_LEN];
     int pos;

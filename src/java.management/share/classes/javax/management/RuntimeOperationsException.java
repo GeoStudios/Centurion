@@ -21,22 +21,6 @@
 
 package java.management.share.classes.javax.management;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Represents runtime exceptions thrown in the agent when performing operations on MBeans.
  * It wraps the actual <CODE>java.lang.RuntimeException</CODE> thrown.
@@ -51,7 +35,6 @@ public class RuntimeOperationsException extends JMRuntimeException   {
      * @serial The encapsulated {@link RuntimeException}
      */
     private final java.lang.RuntimeException runtimeException ;
-
 
     /**
      * Creates a <CODE>RuntimeOperationsException</CODE> that wraps the actual <CODE>java.lang.RuntimeException</CODE>.

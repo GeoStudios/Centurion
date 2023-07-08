@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.io;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Thrown when an instance is required to have a Serializable interface.
  * The serialization runtime or the class of the instance can throw

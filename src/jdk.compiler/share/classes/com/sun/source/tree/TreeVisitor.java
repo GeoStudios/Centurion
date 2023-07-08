@@ -21,22 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.source.tree;
 
-
 import jdk.internal.javac.PreviewFeature;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A visitor of trees, in the style of the visitor design pattern.

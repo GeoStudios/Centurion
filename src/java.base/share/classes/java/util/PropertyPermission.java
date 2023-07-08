@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.ObjectInputStream;
 import java.base.share.classes.java.io.ObjectOutputStream;
@@ -32,20 +31,6 @@ import java.base.share.classes.java.util.Enumeration;
 import java.base.share.classes.java.util.Hashtable;
 import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
 import sun.security.util.SecurityConstants;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is for property permissions.
@@ -325,7 +310,6 @@ public final class PropertyPermission extends BasicPermission {
 
         return mask;
     }
-
 
     /**
      * Return the canonical string representation of the actions.

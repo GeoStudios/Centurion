@@ -21,22 +21,6 @@
 
 package java.naming.share.classes.javax.naming;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
   * This interface is implemented by an object that can provide a
   * Reference to itself.

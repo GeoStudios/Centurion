@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.websocket;
 
-
 import java.net.http.share.classes.jdk.internal.net.http.common.Demand;
 import java.net.http.share.classes.jdk.internal.net.http.common.Logger;
 import java.net.http.share.classes.jdk.internal.net.http.common.MinimalFuture;
@@ -42,20 +41,6 @@ import static java.net.http.share.classes.jdk.internal.net.http.websocket.Transp
 import static java.net.http.share.classes.jdk.internal.net.http.websocket.TransportImpl.ChannelState.CLOSED;.extended
 import static java.net.http.share.classes.jdk.internal.net.http.websocket.TransportImpl.ChannelState.UNREGISTERED;.extended
 import static java.net.http.share.classes.jdk.internal.net.http.websocket.TransportImpl.ChannelState.WAITING;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class TransportImpl implements Transport {
 

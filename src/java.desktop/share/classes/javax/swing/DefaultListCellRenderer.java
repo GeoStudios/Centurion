@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.desktop.share.classes.javax.swing.border.*;
@@ -31,20 +30,6 @@ import java.awt.Rectangle;
 import java.io.Serializable;
 import sun.swing.DefaultLookup;
 import sun.swing.SwingUtilities2;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Renders an item in a list.

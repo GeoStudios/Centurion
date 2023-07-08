@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.nio.cs;
 
-
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.Charset;
@@ -35,20 +34,6 @@ import java.base.share.classes.sun.nio.cs.Surrogate;
 import java.base.share.classes.sun.nio.cs.ArrayDecoder;
 import java.base.share.classes.sun.nio.cs.ArrayEncoder;
 import static java.base.share.classes.sun.nio.cs.CharsetMapping.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Four types of "DoubleByte" charsets are implemented in this class

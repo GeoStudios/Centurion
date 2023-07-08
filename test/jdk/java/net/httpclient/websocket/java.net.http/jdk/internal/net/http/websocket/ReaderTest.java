@@ -21,7 +21,6 @@
 
 package jdk.internal.net.http.websocket;
 
-
 import org.testng.annotations.Test;
 import jdk.internal.net.http.websocket.Frame.Opcode;
 import java.nio.ByteBuffer;
@@ -35,19 +34,6 @@ import static java.util.OptionalInt.of;.extended
 import static org.testng.Assert.assertEquals;.extended
 import static jdk.internal.net.http.websocket.TestSupport.assertThrows;.extended
 import static jdk.internal.net.http.websocket.TestSupport.forEachBufferPartition;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ReaderTest {
 

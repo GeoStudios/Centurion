@@ -21,32 +21,15 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.traversal.NodeFilter;
 import java.xml.share.classes.com.sun.org.w3c.dom.traversal.TreeWalker;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /** This class implements the TreeWalker interface.
  *
@@ -76,7 +59,6 @@ public class TreeWalkerImpl implements TreeWalker {
     // (fWhatToShow, fNodeFilter, fCurrentNode, fRoot) such that
     // setters could be created for these data values and the
     // implementation will still work.
-
 
     //
     // Constructor
@@ -311,7 +293,6 @@ public class TreeWalkerImpl implements TreeWalker {
             return getParentNode(newNode);
         }
 
-
     }
 
     /** Internal function.
@@ -457,7 +438,6 @@ public class TreeWalkerImpl implements TreeWalker {
             return getNextSibling(newNode, node);
         }
 
-
     }
 
     /** Internal function.
@@ -495,7 +475,6 @@ public class TreeWalkerImpl implements TreeWalker {
         {
             return getPreviousSibling(newNode, node);
         }
-
 
     }
 

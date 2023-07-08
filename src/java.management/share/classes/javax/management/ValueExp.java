@@ -21,22 +21,6 @@
 
 package java.management.share.classes.javax.management;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Represents values that can be passed as arguments to
  * relational expressions. Strings, numbers, attributes are valid values

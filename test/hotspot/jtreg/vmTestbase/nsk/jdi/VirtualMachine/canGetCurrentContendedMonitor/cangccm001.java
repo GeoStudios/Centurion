@@ -21,26 +21,12 @@
 
 package nsk.jdi.VirtualMachine.canGetCurrentContendedMonitor;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -158,7 +144,6 @@ public class cangccm001 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -205,7 +190,6 @@ public class cangccm001 {
             ListIterator    listIterator = null;
             List            classes      = null;
 
-
             label0: {
 
                 log2("getting ThreadReference objects");
@@ -234,11 +218,9 @@ public class cangccm001 {
                 }
             }
 
-
             label1: {
                 if (expresult != returnCode0)
                     break label1;
-
 
                 log2("       supending the main thread");
                 mainThread.suspend();

@@ -21,24 +21,9 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.StringWriter;
 import java.io.Writer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class to create content for javadoc output pages.

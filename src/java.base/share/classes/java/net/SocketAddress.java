@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.net;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *
  * This class represents a Socket Address with no protocol attachment.

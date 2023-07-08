@@ -21,21 +21,6 @@
 
 package compiler.types.correctness.hierarchies;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Linear2 {
     private Linear2() {
     }

@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.util.resources;
 
-
 import java.base.share.classes.sun.util.resources.TimeZoneNamesBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class TimeZoneNames_en extends TimeZoneNamesBundle {
 

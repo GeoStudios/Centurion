@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal;
 
-
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.functions.FuncExtFunction;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Interface that XPath objects can call to obtain access to an

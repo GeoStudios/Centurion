@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.comp;
 
-
 import jdk.compiler.share.classes.com.sun.tools.javac.api.Formattable.LocalizedString;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Scope.WriteableScope;
@@ -76,20 +75,6 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.ext
 import static jdk.compiler.share.classes.com.sun.tools.javac.comp.Resolve.MethodResolutionPhase.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.util.Iterators.createCompoundIterator;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Helper class for name resolution, used mostly by the attribution phase.
  *
@@ -3785,7 +3770,6 @@ public class Resolve {
         }
         return result.toList();
     }
-
 
     /**
      * Resolve `c.this' for an enclosing class c that contains the

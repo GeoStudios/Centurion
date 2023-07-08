@@ -21,26 +21,12 @@
 
 package nsk.jvmti.scenarios.hotswap.HS204.hs204t001;
 
-
 import java.io.PrintStream;
 import nsk.share.Log;
 import nsk.share.Consts;
 import nsk.share.jvmti.ArgumentHandler;
 import nsk.share.jvmti.DebugeeClass;
 import java.util.concurrent.atomic.AtomicBoolean;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -76,7 +62,6 @@ import java.util.concurrent.atomic.AtomicBoolean;
  *      -agentlib:hs204t001=pathToNewByteCode=./bin,-waittime=5,package=nsk,samples=100,mode=compiled
  *      nsk.jvmti.scenarios.hotswap.HS204.hs204t001.hs204t001
  */
-
 
 public class hs204t001 extends DebugeeClass {
     static int status = Consts.TEST_PASSED;

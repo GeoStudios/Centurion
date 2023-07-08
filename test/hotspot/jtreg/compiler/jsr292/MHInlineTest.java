@@ -21,7 +21,6 @@
 
 package compiler.jsr292;
 
-
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
 import jtreg.SkippedException;
@@ -29,19 +28,6 @@ import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import static jdk.test.lib.Asserts.assertEquals;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -54,10 +40,6 @@ import static jdk.test.lib.Asserts.assertEquals;.extended
  *
  * @run driver compiler.jsr292.MHInlineTest
  */
-
-
-
-
 
 public class MHInlineTest {
     public static void main(String[] args) throws Exception {

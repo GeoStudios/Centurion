@@ -21,24 +21,9 @@
 
 package demo.share.java2d.J2DBench.src.j2dbench;
 
-
 import java.io.PrintWriter;
 import javax.swing.JLabel;
 import javax.swing.JComponent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -47,10 +32,6 @@ import javax.swing.JComponent;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
 
 public abstract class Node {
     private String nodeName;

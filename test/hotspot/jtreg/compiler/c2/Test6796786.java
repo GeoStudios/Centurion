@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 6796786
@@ -43,7 +28,6 @@ package compiler.c2;
  *
  * @run main/othervm -Xbatch compiler.c2.Test6796786
  */
-
 
 public class Test6796786 {
     static volatile float d1;

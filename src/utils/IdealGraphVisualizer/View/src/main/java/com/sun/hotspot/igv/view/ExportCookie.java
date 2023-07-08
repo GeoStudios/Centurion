@@ -21,22 +21,7 @@
 
 package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view;
 
-
 import utils.IdealGraphVisualizer.View.src.main.java.io.File;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

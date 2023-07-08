@@ -21,23 +21,7 @@
 
 package nsk.jdi.ReferenceType.name;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // this class will be loaded and then onloaded to check
 // the name() method of ReferenceType interface for UNLOADED class
-
 
 class name002b {}

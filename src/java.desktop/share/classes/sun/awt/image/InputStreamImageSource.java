@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
-
 import java.awt.image.*;
 import java.io.InputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.BufferedInputStream;
 import java.util.Hashtable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class InputStreamImageSource implements ImageProducer,
                                                         ImageFetchable

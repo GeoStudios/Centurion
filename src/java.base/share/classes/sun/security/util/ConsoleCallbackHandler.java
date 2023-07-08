@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.util;
 
-
 import javax.security.auth.callback.Callback;
 import javax.security.auth.callback.CallbackHandler;
 import javax.security.auth.callback.ConfirmationCallback;
@@ -32,20 +31,6 @@ import javax.security.auth.callback.UnsupportedCallbackException;
 import java.io.BufferedReader;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStreamReader;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code CallbackHandler} that prompts and reads from the command line

@@ -21,23 +21,8 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal;
 
-
 import java.security.jgss.share.classes.sun.security.action.GetBooleanAction;
 import java.util.Hashtable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Constants and other defined values from RFC 4120
 
@@ -155,7 +140,6 @@ public class Krb5 {
     public static final int KEYTYPE_AES  = 3;
     public static final int KEYTYPE_ARCFOUR_HMAC = 4;
 
-
     //----------------------------------------+-----------------
     //                      padata type       |padata-type value
     //----------------------------------------+-----------------
@@ -224,7 +208,6 @@ public class Krb5 {
     public static final int KRB_ENC_AP_REP_PART   = 27; //Encrypted application request part
     public static final int KRB_ENC_KRB_PRIV_PART = 28; //Encrypted application message part
     public static final int KRB_ENC_KRB_CRED_PART = 29; //Encrypted credentials forward part
-
 
     //error codes
 

@@ -21,22 +21,6 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.html;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *  Local change to font. See the  FONT element definition in HTML 4.0. This
  * element is deprecated in HTML 4.0.

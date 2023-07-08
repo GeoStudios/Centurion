@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.net;
 
-
 import java.net.URL;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * ProgressMeteringPolicy is an interface for determining progress metering policy.

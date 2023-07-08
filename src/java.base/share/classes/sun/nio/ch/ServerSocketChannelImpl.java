@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.nio.ch;
 
-
 import java.io.FileDescriptor;
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.BindException;
@@ -53,20 +52,6 @@ import static java.net.StandardProtocolFamily.INET6;.extended
 import static java.net.StandardProtocolFamily.UNIX;.extended
 import java.base.share.classes.sun.net.NetHooks;
 import java.base.share.classes.sun.net.ext.Extendedjava.net.SocketOptions;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of ServerSocketChannels

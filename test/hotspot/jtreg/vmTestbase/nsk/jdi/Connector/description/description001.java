@@ -21,7 +21,6 @@
 
 package nsk.jdi.Connector.description;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -29,19 +28,6 @@ import com.sun.jdi.*;
 import com.sun.jdi.connect.Connector;
 import java.io.PrintStream;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Test for the control of

@@ -21,24 +21,10 @@
 
 package nsk.share.jdi;
 
-
 import com.sun.jdi.event.Event;
 import nsk.share.TestBug;
 import java.io.PrintStream;
 import java.util.Arrayjava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Debugger class for testing event filters, subclasses should parse command

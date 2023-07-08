@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.operations;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.Expression;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.ExpressionOwner;
@@ -29,20 +28,6 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathContext;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.XPathVisitor;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.objects.XObject;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The unary operation base class.
@@ -144,7 +129,6 @@ public abstract class UnaryOperation extends Expression implements ExpressionOwn
         }
   }
 
-
   /**
    * @see ExpressionOwner#getExpression()
    */
@@ -172,6 +156,5 @@ public abstract class UnaryOperation extends Expression implements ExpressionOwn
 
       return m_right.deepEquals(((UnaryOperation) expr).m_right);
   }
-
 
 }

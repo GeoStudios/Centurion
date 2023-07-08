@@ -21,26 +21,11 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-
 import sun.invoke.util.Wrapper;
 import static java.base.share.classes.java.lang.invoke.MethodHandleInfo.*;.extended
 import static sun.invoke.util.Wrapper.forPrimitiveType;.extended
 import static sun.invoke.util.Wrapper.forWrapperType;.extended
 import static sun.invoke.util.Wrapper.isWrapperType;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Abstract implementation of a lambda metafactory which provides parameter
@@ -78,7 +63,6 @@ import static sun.invoke.util.Wrapper.isWrapperType;.extended
     final boolean isSerializable;             // Should the returned instance be serializable
     final Class<?>[] altInterfaces;           // Additional interfaces to be implemented
     final MethodType[] altMethods;            // Signatures of additional methods to bridge
-
 
     /**
      * Meta-factory constructor.
@@ -399,7 +383,6 @@ import static sun.invoke.util.Wrapper.isWrapperType;.extended
         if (fromType.equals(void.class) || toType.equals(void.class)) return fromType.equals(toType);
         else return isAdaptableTo(fromType, toType, true);
     }
-
 
     /*********** Logging support -- for debugging only, uncomment as needed
     static final Executor logPool = Executors.newSingleThreadExecutor();

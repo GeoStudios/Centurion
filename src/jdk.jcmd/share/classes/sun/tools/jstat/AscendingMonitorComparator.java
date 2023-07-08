@@ -21,23 +21,8 @@
 
 package jdk.jcmd.share.classes.sun.tools.jstat;
 
-
 import java.util.*;
 import jdk.jcmd.share.classes.sun.jvmstat.monitor.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class to compare two Monitor objects by name in ascending order.

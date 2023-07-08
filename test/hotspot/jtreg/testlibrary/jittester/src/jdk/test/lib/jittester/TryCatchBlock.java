@@ -21,23 +21,9 @@
 
 package jdk.test.lib.jittester;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.util.stream.Collectors;
 import jdk.test.lib.jittester.visitors.Visitor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class TryCatchBlock extends IRNode {
     public TryCatchBlock(IRNode body, IRNode finallyBlock, List<CatchBlock> catchBlocks, int level) {

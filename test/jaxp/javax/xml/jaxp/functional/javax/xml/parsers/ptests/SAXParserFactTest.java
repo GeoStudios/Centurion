@@ -21,7 +21,6 @@
 
 package javax.xml.parsers.ptests;
 
-
 import static org.testng.Assert.assertFalse;.extended
 import static org.testng.Assert.assertTrue;.extended
 import static org.testng.Assert.assertNotSame;.extended
@@ -30,19 +29,6 @@ import static org.testng.Assert.assertEquals;.extended
 import javax.xml.parsers.SAXParserFactory;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class containing the test cases for SAXParserFactory API.

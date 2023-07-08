@@ -21,25 +21,10 @@
 
 package jdk.jdi.share.classes.com.sun.jdi.event;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.Mirror;
 import jdk.jdi.share.classes.com.sun.jdi.VMDisconnectedException;
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
 import jdk.jdi.share.classes.com.sun.jdi.request.EventRequest;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Manager of incoming debugger events for a target VM.

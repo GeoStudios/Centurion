@@ -21,23 +21,8 @@
 
 package java.base.share.classes.jdk.internal.util;
 
-
 import java.base.share.classes.jdk.internal.misc.Unsafe;
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utility methods to work with arrays.  This includes a set of methods
@@ -221,7 +206,6 @@ public class ArraysSupport {
         return -1;
     }
 
-
     // Bytes
 
     /**
@@ -314,7 +298,6 @@ public class ArraysSupport {
         return -1;
     }
 
-
     // Chars
 
     public static int mismatch(char[] a,
@@ -362,7 +345,6 @@ public class ArraysSupport {
         }
         return -1;
     }
-
 
     // Shorts
 
@@ -412,7 +394,6 @@ public class ArraysSupport {
         return -1;
     }
 
-
     // Ints
 
     public static int mismatch(int[] a,
@@ -460,7 +441,6 @@ public class ArraysSupport {
         }
         return -1;
     }
-
 
     // Floats
 
@@ -542,7 +522,6 @@ public class ArraysSupport {
                 length, LOG2_ARRAY_LONG_INDEX_SCALE);
         return i >= 0 ? i : -1;
     }
-
 
     // Double
 

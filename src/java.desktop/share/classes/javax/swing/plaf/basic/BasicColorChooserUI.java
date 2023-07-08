@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.colorchooser.*;
 import java.desktop.share.classes.javax.swing.event.*;
@@ -32,20 +31,6 @@ import java.awt.event.*;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangejava.util.Listener;
 import sun.swing.DefaultLookup;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides the basic look and feel for a JColorChooser.

@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.traversers;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSElementDecl;
@@ -31,26 +30,10 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.identit
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
 import java.xml.share.classes.com.sun.org.w3c.dom.Element;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * This class contains code that is used to traverse <keyref>s.

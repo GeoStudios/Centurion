@@ -21,23 +21,9 @@
 
 package nsk.share.gc.lock.jni;
 
-
 import nsk.share.TestBug;
 import nsk.share.gc.lock.Lockers;
 import nsk.share.gc.lock.Locker;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class JNILockers implements Lockers {
         public Locker createLocker(Object obj) {

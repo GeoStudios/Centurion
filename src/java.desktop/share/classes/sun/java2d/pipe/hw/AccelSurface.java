@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.sun.java2d.pipe.hw;
 
-
 import java.awt.Rectangle;
 import java.desktop.share.classes.sun.java2d.Surface;
 import java.lang.annotation.Native;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Abstraction for a hardware accelerated surface.

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.Component;
 import java.awt.event.*;
 import java.beans.ConstructorProperties;
@@ -31,20 +30,6 @@ import java.desktop.share.classes.javax.swing.event.*;
 import java.util.EventObject;
 import java.desktop.share.classes.javax.swing.tree.*;
 import java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The default editor for table and tree cells.
@@ -296,7 +281,6 @@ public class DefaultCellEditor extends AbstractCellEditor
         }
         return editorComponent;
     }
-
 
 //
 //  Protected EditorDelegate class

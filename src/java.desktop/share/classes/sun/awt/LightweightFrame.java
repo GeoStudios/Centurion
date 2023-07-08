@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.awt;
 
-
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Frame;
@@ -39,20 +38,6 @@ import java.awt.dnd.DropTarget;
 import java.awt.dnd.InvalidDnDOperationException;
 import java.awt.dnd.peer.DragSourceContextPeer;
 import java.awt.peer.FramePeer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The class provides basic functionality for a lightweight frame

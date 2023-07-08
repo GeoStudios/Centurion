@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.imageio;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An interface to be implemented by objects that can determine the
  * settings of an {@code IIOParam} object, either by putting up a

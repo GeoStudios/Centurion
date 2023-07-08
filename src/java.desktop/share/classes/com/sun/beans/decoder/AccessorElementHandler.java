@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.com.sun.beans.decoder;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This is base class that simplifies access to entities (fields or properties).
  * The {@code name} attribute specifies the name of the accessible entity.

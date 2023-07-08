@@ -21,22 +21,7 @@
 
 package utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.com.sun.hotspot.igv.hierarchicallayout;
 
-
 import utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *
@@ -169,7 +154,6 @@ public class Graph<N, E> {
             Node<N, E> current = queue.poll();
             tv.visitNode(current, layer);
             current.setActive(false);
-
 
             for (Edge<N, E> e : current.getOutEdges()) {
                 if (!e.getDest().isVisited()) {

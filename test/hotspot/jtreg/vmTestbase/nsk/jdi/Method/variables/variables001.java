@@ -21,26 +21,12 @@
 
 package nsk.jdi.Method.variables;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -173,7 +159,6 @@ public class variables001 {
             Method m         = null;
             List   argsList  = null;
 
-
             //  method with arguments and variables
 
             methods = ((ReferenceType) listOfDebuggeeClasses.get(0)).
@@ -225,7 +210,6 @@ public class variables001 {
                 }
             } // check:
 
-
             // method without arguments and variables
 
             methods = ((ReferenceType) listOfDebuggeeClasses.get(0)).
@@ -243,7 +227,6 @@ public class variables001 {
                 log3("       AbsentInformationException for method without arguments");
                  testExitCode = FAILED;
             }
-
 
             // native method
 

@@ -21,32 +21,14 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.util.*;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
    * This code is ported to XAWT from MAWT based on awt_mgrsel.c
    * code written originally by Valeriy Ushakov
    * Author : Bino George
    */
-
-
-
 
 public class  XMSelection {
 
@@ -67,7 +49,6 @@ public class  XMSelection {
      * array is ScreenCount(awt_display).  The array is "owned" by this
      * module and should be considered by the caller as read-only.
      */
-
 
     private static final PlatformLogger log = PlatformLogger.getLogger("sun.awt.X11.XMSelection");
     /* Name of the selection */
@@ -131,7 +112,6 @@ public class  XMSelection {
             XToolkit.awtUnlock();
         }
     }
-
 
     public int getNumberOfScreens() {
         return numScreens;
@@ -215,7 +195,6 @@ public class  XMSelection {
         }
     }
 
-
     static boolean processClientMessage(XEvent xev, int screen) {
         XClientMessageEvent xce = xev.get_xclient();
         if (xce.get_message_type() == XA_MANAGER.getAtom()) {
@@ -247,11 +226,9 @@ public class  XMSelection {
 
     }
 
-
     static XMSelection getInstance(long selection) {
         return selectionMap.get(Long.valueOf(selection));
     }
-
 
     /*
      * Default constructor specifies PropertyChangeMask as well
@@ -260,7 +237,6 @@ public class  XMSelection {
     public XMSelection (String selname) {
         this(selname, XConstants.PropertyChangeMask);
     }
-
 
    /*
     * Some users may not need to know about selection changes,
@@ -276,8 +252,6 @@ public class  XMSelection {
         }
         select(extraMask);
     }
-
-
 
     public synchronized void addSelectionListener(XMSelectionListener listener) {
         if (listeners == null) {
@@ -326,7 +300,6 @@ public class  XMSelection {
         return selectionName;
     }
 
-
     synchronized void dispatchSelectionChanged( XPropertyEvent ev, int screen) {
         if (log.isLoggable(PlatformLogger.Level.FINE)) {
             log.fine("Selection Changed : Screen = " + screen + "Event =" + ev);
@@ -368,7 +341,6 @@ public class  XMSelection {
         }
     }
 
-
     synchronized void dispatchOwnerChangedEvent(XEvent ev, int screen, long owner, long data, long timestamp) {
         if (listeners != null) {
             Iterator<XMSelectionListener> iter = listeners.iterator();
@@ -378,6 +350,5 @@ public class  XMSelection {
             }
         }
     }
-
 
 }

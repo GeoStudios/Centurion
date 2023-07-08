@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.base.share.classes.java.security.PrivateKey;
@@ -41,20 +40,6 @@ import javax.security.auth.x500.X500Principal;
 import java.base.share.classes.sun.security.ssl.CipherSuite.KeyExchange;
 import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
 import java.base.share.classes.sun.security.ssl.X509Authentication.X509Possession;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Pack of the CertificateRequest handshake message.
@@ -383,7 +368,6 @@ final class CertificateRequest {
                 clientAlias = km.chooseEngineClientAlias(crm.getKeyTypes(),
                     crm.getAuthorities(), (SSLEngine)chc.conContext.transport);
             }
-
 
             if (clientAlias == null) {
                 if (SSLLogger.isOn && SSLLogger.isOn("ssl,handshake")) {

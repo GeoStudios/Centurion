@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt.font;
 
-
 import java.desktop.share.classes.java.awt.Font;
 import java.desktop.share.classes.java.awt.Toolkit;
 import java.desktop.share.classes.java.awt.im.InputMethodHighlight;
@@ -34,20 +33,6 @@ import java.desktop.share.classes.java.util.Map;
 import sun.font.CodePointIterator;
 import sun.font.Decoration;
 import sun.font.FontResolver;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class stores Font, GraphicAttribute, and Decoration intervals

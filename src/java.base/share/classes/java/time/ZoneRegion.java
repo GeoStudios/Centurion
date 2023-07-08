@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time;
 
-
 import java.base.share.classes.java.io.DataInput;
 import java.base.share.classes.java.io.DataOutput;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
@@ -32,20 +31,6 @@ import java.base.share.classes.java.time.zone.ZoneRules;
 import java.base.share.classes.java.time.zone.ZoneRulesException;
 import java.base.share.classes.java.time.zone.ZoneRulesProvider;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A geographical region where the same time-zone rules apply.

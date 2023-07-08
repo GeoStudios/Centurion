@@ -21,24 +21,10 @@
 
 package nsk.share.jdi;
 
-
 import java.io.*;
 import java.util.*;
 import com.sun.jdi.*;
 import nsk.share.Consts;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  *  Class is used as base debugger in tests for ThreadReference.ownedMonitorsAndFrames().

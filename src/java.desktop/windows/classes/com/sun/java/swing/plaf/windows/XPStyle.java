@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-
 import java.desktop.windows.classes.com.sun.java.awt.*;
 import java.desktop.windows.classes.com.sun.java.awt.image.*;
 import java.desktop.windows.classes.com.sun.java.security.AccessController;
@@ -35,20 +34,6 @@ import java.desktop.windows.classes.com.sun.awt.windows.ThemeReader;
 import java.desktop.windows.classes.com.sun.security.action.GetPropertyAction;
 import java.desktop.windows.classes.com.sun.swing.CachedPainter;
 import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSchema.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * <p>These classes are designed to be used while the
@@ -64,13 +49,6 @@ import static java.desktop.windows.classes.com.sun.java.swing.plaf.windows.TMSch
  * encouraged.
  *
  */
-
-
-
-
-
-
-
 
 /**
  * Implements Windows XP Styles for the Windows Look and Feel.
@@ -169,9 +147,6 @@ class XPStyle {
         return TypeEnum.getTypeEnum(prop, enumValue).getName();
     }
 
-
-
-
     /** Get a named <code>int</code> value from the current style
      *
      * @param part a <code>Part</code>
@@ -231,7 +206,6 @@ class XPStyle {
         return (insets != null) ? insets : new Insets(0, 0, 0, 0);
     }
 
-
     /** Get a named <code>Color</code> value from the current style
      *
      * @return a <code>Color</code> or null if key is not found
@@ -256,8 +230,6 @@ class XPStyle {
     Color getColor(Component c, Part part, State state, Prop prop, Color fallback) {
         return getColor(new Skin(c, part, state), prop, fallback);
     }
-
-
 
     /** Get a named <code>Border</code> value from the current style
      *
@@ -454,7 +426,6 @@ class XPStyle {
                    part.getControlName(c), part.getValue(), 0);
     }
 
-
     /** Get a <code>Skin</code> object from the current style
      * for a named part (component type)
      *
@@ -466,7 +437,6 @@ class XPStyle {
         return new Skin(c, part, null);
     }
 
-
     long getThemeTransitionDuration(Component c, Part part, State stateFrom,
                                     State stateTo, Prop prop) {
          return ThemeReader.getThemeTransitionDuration(part.getControlName(c),
@@ -475,7 +445,6 @@ class XPStyle {
                                           State.getValue(part, stateTo),
                                           (prop != null) ? prop.getValue() : 0);
     }
-
 
     /** A class which encapsulates attributes for a given part
      * (component type) and which provides methods for painting backgrounds
@@ -753,7 +722,6 @@ class XPStyle {
         protected void paintBorder(Graphics g) {
         }
 
-
     }
 
     // Private constructor
@@ -765,14 +733,11 @@ class XPStyle {
         // Note: All further access to the maps must be synchronized
     }
 
-
     private boolean getBoolean(Component c, Part part, State state, Prop prop) {
         return ThemeReader.getBoolean(part.getControlName(c), part.getValue(),
                                       State.getValue(part, state),
                                       prop.getValue());
     }
-
-
 
     static Dimension getPartSize(Part part, State state) {
         return ThemeReader.getPartSize(part.getControlName(null), part.getValue(),

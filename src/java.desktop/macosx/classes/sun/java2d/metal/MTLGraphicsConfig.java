@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.java2d.metal;
 
-
 import java.desktop.macosx.classes.sun.awt.CGraphicsConfig;
 import java.desktop.macosx.classes.sun.awt.CGraphicsDevice;
 import java.desktop.macosx.classes.sun.awt.image.OffScreenImage;
@@ -62,20 +61,6 @@ import static java.desktop.macosx.classes.sun.java2d.pipe.hw.AccelSurface.RT_TEX
 import static java.desktop.macosx.classes.sun.java2d.pipe.hw.ContextCapabilities.*;.extended
 import static java.desktop.macosx.classes.sun.java2d.metal.MTLContext.MTLContextCaps.CAPS_EXT_BIOP_SHADER;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public final class MTLGraphicsConfig extends CGraphicsConfig
         implements AccelGraphicsConfig, SurfaceManager.ProxiedGraphicsConfig
 {
@@ -87,7 +72,6 @@ public final class MTLGraphicsConfig extends CGraphicsConfig
             (PrivilegedAction<String>) () ->
                     System.getProperty("java.home", "") + File.separator +
                             "lib" + File.separator + "shaders.metallib");
-
 
     private BufferCapabilities bufferCaps;
     private final long pConfigInfo;

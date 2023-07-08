@@ -21,31 +21,15 @@
 
 package gc.g1;
 
-
 import sun.hotspot.WhiteBox;
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.process.OutputAnalyzer;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * Common helpers for TestRemsetLogging* tests
  */
-
-
 
 class VerifySummaryOutput {
     public static void main(String[] args) {

@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.com.sun.beans.infos;
 
-
 import java.beans.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * BeanInfo descriptor for a standard AWT component.

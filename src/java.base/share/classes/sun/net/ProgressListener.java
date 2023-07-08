@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.net;
 
-
 import java.util.Eventjava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * ProgressListener is an interface to be implemented by parties

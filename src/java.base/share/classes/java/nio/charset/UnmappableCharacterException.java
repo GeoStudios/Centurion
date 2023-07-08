@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.nio.charset;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Checked exception thrown when an input character (or byte) sequence
  * is valid but cannot be mapped to an output byte (or character)

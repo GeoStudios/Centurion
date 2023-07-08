@@ -21,7 +21,6 @@
 
 package transform;
 
-
 import java.io.InputStream;
 import java.io.StringBufferInputStream;
 import javax.xml.stream.XMLEventWriter;
@@ -29,19 +28,6 @@ import javax.xml.stream.XMLOutputFactory;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import com.sun.org.apache.xalan.internal.xsltc.trax.SAX2StAXEventWriter;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -52,15 +38,9 @@ import com.sun.org.apache.xalan.internal.xsltc.trax.SAX2StAXEventWriter;
  * @summary Test SAX2StAXEventWriter.
  */
 
-
-
-
-
-
 @Listeners({jaxp.library.InternalAPIPolicy.class})
 public class Bug6551616 {
     String _cache = "";
-
 
     @Test
     public void test() throws Exception {

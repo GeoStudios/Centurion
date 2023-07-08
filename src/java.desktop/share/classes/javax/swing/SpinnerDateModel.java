@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.util.*;
 import java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A <code>SpinnerModel</code> for sequences of <code>Date</code>s.
@@ -101,7 +86,6 @@ public class SpinnerDateModel extends AbstractSpinnerModel implements Serializab
     private final Calendar value;
     private int calendarField;
 
-
     private boolean calendarFieldOK(int calendarField) {
         switch(calendarField) {
         case Calendar.ERA:
@@ -124,7 +108,6 @@ public class SpinnerDateModel extends AbstractSpinnerModel implements Serializab
             return false;
         }
     }
-
 
     /**
      * Creates a <code>SpinnerDateModel</code> that represents a sequence of dates
@@ -200,7 +183,6 @@ public class SpinnerDateModel extends AbstractSpinnerModel implements Serializab
         this.value.setTime(value);
     }
 
-
     /**
      * Constructs a <code>SpinnerDateModel</code> whose initial
      * <code>value</code> is the current date, <code>calendarField</code>
@@ -210,7 +192,6 @@ public class SpinnerDateModel extends AbstractSpinnerModel implements Serializab
     public SpinnerDateModel() {
         this(new Date(), null, null, Calendar.DAY_OF_MONTH);
     }
-
 
     /**
      * Changes the lower limit for Dates in this sequence.
@@ -256,7 +237,6 @@ public class SpinnerDateModel extends AbstractSpinnerModel implements Serializab
         }
     }
 
-
     /**
      * Returns the first <code>Date</code> in the sequence.
      *
@@ -266,7 +246,6 @@ public class SpinnerDateModel extends AbstractSpinnerModel implements Serializab
     public Comparable<Date> getStart() {
         return start;
     }
-
 
     /**
      * Changes the upper limit for <code>Date</code>s in this sequence.
@@ -297,7 +276,6 @@ public class SpinnerDateModel extends AbstractSpinnerModel implements Serializab
         }
     }
 
-
     /**
      * Returns the last <code>Date</code> in the sequence.
      *
@@ -307,7 +285,6 @@ public class SpinnerDateModel extends AbstractSpinnerModel implements Serializab
     public Comparable<Date> getEnd() {
         return end;
     }
-
 
     /**
      * Changes the size of the date value change computed
@@ -361,7 +338,6 @@ public class SpinnerDateModel extends AbstractSpinnerModel implements Serializab
         }
     }
 
-
     /**
      * Returns the <code>Calendar</code> field that is added to or subtracted from
      * by the <code>nextValue</code> and <code>previousValue</code> methods.
@@ -372,7 +348,6 @@ public class SpinnerDateModel extends AbstractSpinnerModel implements Serializab
     public int getCalendarField() {
         return calendarField;
     }
-
 
     /**
      * Returns the next <code>Date</code> in the sequence, or <code>null</code> if
@@ -392,7 +367,6 @@ public class SpinnerDateModel extends AbstractSpinnerModel implements Serializab
         Date next = cal.getTime();
         return ((end == null) || (end.compareTo(next) >= 0)) ? next : null;
     }
-
 
     /**
      * Returns the previous <code>Date</code> in the sequence, or <code>null</code>
@@ -414,7 +388,6 @@ public class SpinnerDateModel extends AbstractSpinnerModel implements Serializab
         return ((start == null) || (start.compareTo(prev) <= 0)) ? prev : null;
     }
 
-
     /**
      * Returns the current element in this sequence of <code>Date</code>s.
      * This method is equivalent to <code>(Date)getValue</code>.
@@ -426,7 +399,6 @@ public class SpinnerDateModel extends AbstractSpinnerModel implements Serializab
         return value.getTime();
     }
 
-
     /**
      * Returns the current element in this sequence of <code>Date</code>s.
      *
@@ -437,7 +409,6 @@ public class SpinnerDateModel extends AbstractSpinnerModel implements Serializab
     public Object getValue() {
         return value.getTime();
     }
-
 
     /**
      * Sets the current <code>Date</code> for this sequence.

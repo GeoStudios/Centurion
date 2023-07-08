@@ -21,7 +21,6 @@
 
 package java.logging.share.classes.java.util.logging;
 
-
 import static java.logging.share.classes.java.nio.file.StandardOpenOption.APPEND;.extended
 import static java.logging.share.classes.java.nio.file.StandardOpenOption.CREATE_NEW;.extended
 import static java.logging.share.classes.java.nio.file.StandardOpenOption.WRITE;.extended
@@ -43,20 +42,6 @@ import java.logging.share.classes.java.security.AccessController;
 import java.logging.share.classes.java.security.PrivilegedAction;
 import java.logging.share.classes.java.util.HashSet;
 import java.logging.share.classes.java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Simple file logging {@code Handler}.
@@ -266,7 +251,6 @@ public class FileHandler extends StreamHandler {
             }
         }
     }
-
 
     /**
      * Construct a default {@code FileHandler}.  This will be configured

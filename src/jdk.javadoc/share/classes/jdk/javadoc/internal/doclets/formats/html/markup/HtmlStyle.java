@@ -21,23 +21,8 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup;
 
-
 import java.base.share.classes.java.util.Locale;
 import java.util.regex.Pattern;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Enum representing HTML styles, with associated entries in the stylesheet files.

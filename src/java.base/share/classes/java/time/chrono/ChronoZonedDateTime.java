@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time.chrono;
 
-
 import static java.base.share.classes.java.time.temporal.ChronoField.INSTANT_SECONDS;.extended
 import static java.base.share.classes.java.time.temporal.ChronoField.OFFSET_SECONDS;.extended
 import static java.base.share.classes.java.time.temporal.ChronoUnit.FOREVER;.extended
@@ -48,20 +47,6 @@ import java.base.share.classes.java.time.temporal.UnsupportedTemporalTypeExcepti
 import java.base.share.classes.java.time.temporal.ValueRange;
 import java.base.share.classes.java.util.Comparator;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A date-time with a time-zone in an arbitrary chronology,

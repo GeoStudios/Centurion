@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.res;
 
-
 import java.base.share.classes.java.util.Locale;
 import java.util.ResourceBundle;
 import jdk.xml.internal.SecuritySupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A utility class for issuing XML error messages.

@@ -21,7 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Lines;
 
-
 import static java.awt.Color.BLACK;.extended
 import static java.awt.Color.WHITE;.extended
 import java.awt.BasicStroke;
@@ -37,20 +36,6 @@ import java.awt.geom.QuadCurve2D;
 import java.awt.geom.Rectangle2D;
 import java.awt.geom.RoundRectangle2D;
 import demo.share.jfc.J2Ddemo.java2d.Surface;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Various shapes stroked with a dashing pattern.

@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
-
 import java.lang.annotation.Annotation;
 import java.util.ArrayDeque;
 import java.util.Collections;
@@ -42,20 +41,6 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.code.BoundKind.*;.e
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** This class represents Java types. The class itself defines the behavior of
  *  the following types:
@@ -426,12 +411,10 @@ public abstract class Type extends AnnoConstruct implements TypeMirror, PoolCons
         return metadata == null ? List.nil() : metadata.getAnnotations();
     }
 
-
     @Override @DefinedBy(Api.LANGUAGE_MODEL)
     public <A extends Annotation> A getAnnotation(Class<A> annotationType) {
         return null;
     }
-
 
     @Override @DefinedBy(Api.LANGUAGE_MODEL)
     public <A extends Annotation> A[] getAnnotationsByType(Class<A> annotationType) {

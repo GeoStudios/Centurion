@@ -21,24 +21,10 @@
 
 package compiler.profiling.unloadingconflict;
 
-
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.nio.file.Paths;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -52,12 +38,9 @@ import java.nio.file.Paths;
  *
  */
 
-
-
 public class TestProfileConflictClassUnloading {
     static class A {
     }
-
 
     static void m1(Object o) {
     }

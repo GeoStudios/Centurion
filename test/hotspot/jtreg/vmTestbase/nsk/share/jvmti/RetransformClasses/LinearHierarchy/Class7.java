@@ -21,21 +21,6 @@
 
 package nsk.share.jvmti.RetransformClasses.LinearHierarchy;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Class7 extends Class8 {
     double var_1 = 1.4699591272215534E308;
     final String var_2 = "pxkiwbqo";
@@ -47,7 +32,6 @@ public class Class7 extends Class8 {
     double var_8;
     final boolean var_9 = false;
     int var_10;
-
 
     public Class7()
     {

@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xinclude;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
@@ -84,20 +83,6 @@ import javax.xml.transform.Source;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkXmlUtils;
 import java.xml.share.classes.com.sun.org.xml.sax.InputSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>
@@ -1761,7 +1746,6 @@ public class XIncludeHandler
                 fChildConfig.setFeature(
                             XINCLUDE_FIXUP_LANGUAGE,
                             fFixupLanguage);
-
 
                 // If the xpointer attribute is present
                 if (xpointer != null ) {

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.util.locale.provider;
 
-
 import static java.util.Calendar.*;.extended
 import java.util.Comparator;
 import java.base.share.classes.java.util.Locale;
@@ -31,20 +30,6 @@ import java.util.TreeMap;
 import java.util.spi.CalendarNameProvider;
 import java.base.share.classes.sun.util.calendar.CalendarSystem;
 import java.base.share.classes.sun.util.calendar.Era;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Concrete implementation of the {@link java.util.spi.CalendarNameProvider

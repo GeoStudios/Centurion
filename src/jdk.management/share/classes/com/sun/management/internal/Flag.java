@@ -21,25 +21,10 @@
 
 package jdk.management.share.classes.com.sun.management.internal;
 
-
 import java.util.*;
 import jdk.management.share.classes.com.sun.management.VMOption;
 import jdk.management.share.classes.com.sun.management.VMOption.Origin;
 import java.security.AccessController;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Flag class is a helper class for constructing a VMOption.

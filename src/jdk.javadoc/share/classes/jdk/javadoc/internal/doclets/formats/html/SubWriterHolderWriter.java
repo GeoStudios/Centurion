@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-
 import java.util.*;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.TypeElement;
@@ -35,20 +34,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.marku
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.HtmlTree;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocPath;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This abstract class exists to provide functionality needed in the
@@ -239,7 +224,6 @@ public abstract class SubWriterHolderWriter extends HtmlDocletWriter {
     public Content getSummariesListItem(Content content) {
         return HtmlTree.LI(content);
     }
-
 
     /**
      * Returns a list to be used for the list of details for members of a given kind.

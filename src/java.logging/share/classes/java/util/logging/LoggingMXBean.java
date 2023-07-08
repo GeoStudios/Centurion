@@ -21,22 +21,6 @@
 
 package java.logging.share.classes.java.util.logging;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The management interface for the logging facility.
  *

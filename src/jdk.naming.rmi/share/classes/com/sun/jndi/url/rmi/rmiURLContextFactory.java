@@ -21,24 +21,9 @@
 
 package jdk.naming.rmi.share.classes.com.sun.jndi.url.rmi;
 
-
 import java.util.Hashtable;
 import javax.naming.*;
 import javax.naming.spi.ObjectFactory;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An RMI URL context factory creates contexts that can resolve names
@@ -49,7 +34,6 @@ import javax.naming.spi.ObjectFactory;
  *
  * @see rmiURLContext
  */
-
 
 public class rmiURLContextFactory implements ObjectFactory {
 

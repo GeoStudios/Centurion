@@ -21,22 +21,6 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.xpath;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
@@ -73,5 +57,4 @@ package jdk.xml.dom.share.classes.org.w3c.dom.xpath;
  * are 1 and 2 respectively (instead of 51 and 52).
  *
  */
-
 

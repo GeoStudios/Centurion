@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
 
-
 import jdk.compiler.share.classes.com.sun.tools.javac.code.*;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Symbol.*;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Type.*;
@@ -31,20 +30,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.jvm.PoolConstant.LoadableC
 import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
 import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ByteCodes.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** A helper class for code generation. Items are objects
  *  that stand for addressable entities in the bytecode. Each item

@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.reflect.generics.scope;
 
-
 import java.lang.reflect.TypeVariable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used to provide enclosing scopes for top level classes.

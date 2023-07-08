@@ -21,22 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.source.tree;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A tree node for a {@code catch} block in a {@code try} statement.
  *

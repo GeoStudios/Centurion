@@ -21,25 +21,10 @@
 
 package java.base.share.classes.jdk.internal.logger;
 
-
 import java.util.ResourceBundle;
 import java.util.function.Supplier;
 import java.lang.System.Logger;
 import java.lang.System.Logger.Level;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This implementation of {@link Logger} redirects all logging method
@@ -160,6 +145,5 @@ public class LocalizedLoggerWrapper<L extends Logger> extends LoggerWrapper<L> {
     public final void log(sun.util.logging.PlatformLogger.Level level, String format, Object... params) {
         logrb(level, bundle, format, params);
     }
-
 
 }

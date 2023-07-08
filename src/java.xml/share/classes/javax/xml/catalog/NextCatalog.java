@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.javax.xml.catalog;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Represents a nextCatalog entry.
  *

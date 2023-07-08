@@ -21,28 +21,13 @@
 
 package nsk.share.gc.gp.string;
 
-
 import nsk.share.test.*;
 import nsk.share.gc.gp.GarbageProducer;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Garbage producer that creates simple strings.
  */
 public class SimpleStringProducer implements GarbageProducer<String> {
-
 
     public String create(long memory) {
         long length = memory/8;
@@ -51,7 +36,6 @@ public class SimpleStringProducer implements GarbageProducer<String> {
             sb.append((char) LocalRandom.nextInt());
         return sb.toString();
     }
-
 
     public void validate(String s) {
     }

@@ -21,24 +21,9 @@
 
 package java.net.http.share.classes.jdk.internal.net.http;
 
-
 import java.net.http.HttpResponse.ResponseInfo;
 import java.net.http.HttpHeaders;
 import java.net.http.HttpClient;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class ResponseInfoImpl implements ResponseInfo {
     private final int statusCode;

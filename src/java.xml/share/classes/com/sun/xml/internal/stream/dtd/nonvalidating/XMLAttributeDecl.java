@@ -21,27 +21,11 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.dtd.nonvalidating;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  */
 public class XMLAttributeDecl {
-
 
     /** name */
     public final QName name = new QName();
@@ -51,7 +35,6 @@ public class XMLAttributeDecl {
 
     /** optional */
     public boolean optional;
-
 
     /**
      * setValues

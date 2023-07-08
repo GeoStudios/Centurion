@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.util.xml.impl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.base.share.classes.jdk.internal.org.xml.sax.ContentHandler;
@@ -34,20 +33,6 @@ import java.base.share.classes.jdk.internal.org.xml.sax.SAXException;
 import java.base.share.classes.jdk.internal.org.xml.sax.SAXParseException;
 import java.base.share.classes.jdk.internal.org.xml.sax.XMLReader;
 import java.base.share.classes.jdk.internal.org.xml.sax.helpers.DefaultHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * XML non-validating push parser.

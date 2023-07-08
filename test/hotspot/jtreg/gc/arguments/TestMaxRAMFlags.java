@@ -21,26 +21,12 @@
 
 package gc.arguments;
 
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestMaxRAMFlags
@@ -57,9 +43,6 @@ import jdk.test.lib.process.ProcessTools;
  * @run driver gc.arguments.TestMaxRAMFlags
  * @author bob.vandette@oracle.com
  */
-
-
-
 
 public class TestMaxRAMFlags {
 

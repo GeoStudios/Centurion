@@ -21,7 +21,6 @@
 
 package java.base.windows.classes.sun.nio.ch;
 
-
 import java.nio.channels.*;
 import java.net.Inetjava.net.SocketAddress;
 import java.util.concurrent.Future;
@@ -31,20 +30,6 @@ import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import jdk.internal.misc.Unsafe;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Windows implementation of AsynchronousServerSocketChannel using overlapped I/O.
@@ -74,7 +59,6 @@ class WindowsAsynchronousServerSocketChannelImpl
 
     // flag to indicate that an accept operation is outstanding
     private final AtomicBoolean accepting = new AtomicBoolean();
-
 
     WindowsAsynchronousServerSocketChannelImpl(Iocp iocp) throws IOException {
         super(iocp);

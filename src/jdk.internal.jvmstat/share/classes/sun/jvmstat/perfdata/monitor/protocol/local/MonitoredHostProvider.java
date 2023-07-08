@@ -21,26 +21,11 @@
 
 package jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor.protocol.local;
 
-
 import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.*;
 import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.event.*;
 import jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor.*;
 import java.util.*;
 import java.net.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Concrete implementation of the MonitoredHost interface for the

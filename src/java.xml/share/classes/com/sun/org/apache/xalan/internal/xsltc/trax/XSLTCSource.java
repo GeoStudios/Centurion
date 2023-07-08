@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.DOM;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.StripFilter;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
@@ -32,20 +31,6 @@ import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime.Ab
 import javax.xml.transform.Source;
 import javax.xml.transform.stream.StreamSource;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @LastModified: Nov 2017

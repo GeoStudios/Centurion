@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.beans.editors;
 
-
 import java.awt.Choice;
 import java.awt.Component;
 import java.awt.Dimension;
@@ -34,20 +33,6 @@ import java.awt.Toolkit;
 import java.beans.PropertyChangejava.util.Listener;
 import java.beans.PropertyChangeSupport;
 import java.io.Serial;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class FontEditor extends Panel implements java.beans.PropertyEditor {
 
@@ -87,7 +72,6 @@ public class FontEditor extends Panel implements java.beans.PropertyEditor {
 
         resize(300,40);
     }
-
 
     @SuppressWarnings("deprecation")
     public Dimension preferredSize() {
@@ -167,7 +151,6 @@ public class FontEditor extends Panel implements java.beans.PropertyEditor {
         }
         return (false);
     }
-
 
     public boolean isPaintable() {
         return true;

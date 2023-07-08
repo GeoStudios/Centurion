@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.loops;
 
-
 import java.awt.AlphaComposite;
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
@@ -41,26 +40,8 @@ import java.desktop.share.classes.sun.java2d.SurfaceData;
 import java.desktop.share.classes.sun.java2d.pipe.Region;
 import java.desktop.share.classes.sun.security.action.GetPropertyAction;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  */
-
-
-
-
 
 /**
  * defines interface for primitives which can be placed into

@@ -21,25 +21,10 @@
 
 package java.base.share.classes.jdk.internal.misc;
 
-
 import sun.nio.fs.ExtendedOptions;
 import java.nio.file.CopyOption;
 import java.nio.file.OpenOption;
 import java.nio.file.WatchEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Internal file system options for jdk.unsupported com.sun.nio.file API use.

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.font;
 
-
 import java.awt.Font;
 import java.awt.font.FontRenderContext;
 import java.awt.geom.AffineTransform;
@@ -31,20 +30,6 @@ import java.lang.ref.WeakReference;
 import java.util.concurrent.ConcurrentHashMap;
 import java.base.share.classes.java.util.Locale;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class Font2D {
 
@@ -210,8 +195,6 @@ public abstract class Font2D {
     }
 
     abstract CharToGlyphMapper getMapper();
-
-
 
     /* This isn't very efficient but its infrequently used.
      * StandardGlyphVector uses it when the client assigns the glyph codes.

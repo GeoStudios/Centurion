@@ -21,24 +21,10 @@
 
 package nsk.jvmti.ForceEarlyReturn;
 
-
 import nsk.share.Wicket;
 import java.io.PrintStream;
 import nsk.share.Consts;
 import java.util.concurrent.locks.ReentrantLock;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 enum MethodType { Object, Int, Long, Float, Double, Void };
 

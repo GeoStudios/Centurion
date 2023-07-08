@@ -21,7 +21,6 @@
 
 package jdk.test.lib.jittester.factories;
 
-
 import jdk.test.lib.jittester.Block;
 import jdk.test.lib.jittester.IRNode;
 import jdk.test.lib.jittester.If;
@@ -30,19 +29,6 @@ import jdk.test.lib.jittester.Type;
 import jdk.test.lib.jittester.Typejava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.PseudoRandom;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class IfFactory extends SafeFactory<If> {
     protected final long complexityLimit;

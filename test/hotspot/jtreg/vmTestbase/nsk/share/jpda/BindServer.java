@@ -21,25 +21,11 @@
 
 package nsk.share.jpda;
 
-
 import java.io.*;
 import java.net.*;
 import java.util.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>BindServer</code> is an utility to perform JPDA tests

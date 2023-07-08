@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.desktop.share.classes.javax.swing.plaf.basic.*;
@@ -29,20 +28,6 @@ import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
 import java.desktop.share.classes.javax.swing.border.*;
 import java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * JButton subclass to help out MetalComboBoxUI
@@ -275,7 +260,6 @@ public class MetalComboBoxButton extends JButton {
                 c.setForeground(comboBox.getForeground());
                 c.setBackground(comboBox.getBackground());
             }
-
 
             int cWidth = width - (insets.right + iconWidth);
 

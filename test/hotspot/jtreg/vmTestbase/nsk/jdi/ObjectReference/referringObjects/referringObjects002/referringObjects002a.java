@@ -21,7 +21,6 @@
 
 package nsk.jdi.ObjectReference.referringObjects.referringObjects002;
 
-
 import nsk.share.ClassUnloader;
 import nsk.share.ObjectInstancesManager;
 import nsk.share.ReferringObject;
@@ -29,19 +28,6 @@ import nsk.share.TestBug;
 import nsk.share.jdi.HeapwalkingDebuggee;
 import java.io.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Class create and save given number of class instances

@@ -21,27 +21,12 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.internal;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.support.TypeUtilities;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Various static utility methods for testing type relationships; internal to Dynalink.

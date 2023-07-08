@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac.options;
 
-
 import java.nio.file.Path;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
@@ -34,20 +33,6 @@ import java.util.HashSet;
 import java.util.StringJoiner;
 import jdk.compiler.share.classes.com.sun.tools.sjavac.Transformer;
 import jdk.compiler.share.classes.com.sun.tools.sjavac.Util;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Instances of this class represent values for sjavac command line options.
@@ -287,7 +272,6 @@ public class Options {
 
         return args.getResult();
     }
-
 
     /** Extract the arguments to be passed on to javac. */
     public String[] prepJavacArgs() {

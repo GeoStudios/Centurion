@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * FCONST - Push 0.0, 1.0 or 2.0, other values cause an exception
  *
@@ -48,14 +32,12 @@ public class FCONST extends Instruction implements ConstantPushInstruction {
 
     private float value;
 
-
     /**
      * Empty constructor needed for Instruction.readInstruction.
      * Not to be used otherwise.
      */
     FCONST() {
     }
-
 
     public FCONST(final float f) {
         super(com.sun.org.apache.bcel.internal.Const.FCONST_0, (short) 1);
@@ -71,12 +53,10 @@ public class FCONST extends Instruction implements ConstantPushInstruction {
         value = f;
     }
 
-
     @Override
     public Number getValue() {
         return value;
     }
-
 
     /** @return Type.FLOAT
      */
@@ -84,7 +64,6 @@ public class FCONST extends Instruction implements ConstantPushInstruction {
     public Type getType( final ConstantPoolGen cp ) {
         return Type.FLOAT;
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

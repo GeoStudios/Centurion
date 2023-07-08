@@ -21,23 +21,9 @@
 
 package nsk.stress.jni;
 
-
 import nsk.share.Consts;
 import nsk.share.Debug;
 import nsk.share.test.StressOptions;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * jnistress007 is a class that sets up classes that do the work
@@ -52,7 +38,6 @@ import nsk.share.test.StressOptions;
  *         the interrupts do not interfere with the cycle count updates.
  *         This is because cycle count updates are used to define cycles.
  */
-
 
 /*
  * @test
@@ -73,8 +58,6 @@ import nsk.share.test.StressOptions;
  *      -garbageInterval 5
  *      -numIteration 130
  */
-
-
 
 public class jnistress007 extends Thread {
 

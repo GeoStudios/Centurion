@@ -21,7 +21,6 @@
 
 package vm.mlvm.indy.share;
 
-
 import java.lang.invoke.CallSite;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
@@ -32,19 +31,6 @@ import nsk.share.test.Stresser;
 import vm.mlvm.share.Env;
 import vm.mlvm.share.MlvmTest;
 import vm.share.options.Option;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test creates a call site (the call site is supplied by subclass)

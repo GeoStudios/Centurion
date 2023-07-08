@@ -21,26 +21,12 @@
 
 package nsk.jdwp.ObjectReference.ReferringObjects.referringObjects002;
 
-
 import nsk.share.Consts;
 import nsk.share.jdwp.CommandPacket;
 import nsk.share.jdwp.JDWP;
 import nsk.share.jdwp.ReplyPacket;
 import nsk.share.jdwp.TestDebuggerType1;
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -88,9 +74,6 @@ import java.io.PrintStream;
  *      -transport.address=dynamic
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
-
-
-
 
 public class referringObjects002 extends TestDebuggerType1 {
     protected String getDebugeeClassName() {

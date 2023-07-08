@@ -21,22 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Callback interface to monitor Flight Recorder's life cycle.
  *

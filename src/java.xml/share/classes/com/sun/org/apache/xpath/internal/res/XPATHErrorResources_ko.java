@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.res;
 
-
 import java.util.java.util.ListResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Set up error messages.
@@ -888,8 +871,6 @@ public static final String ER_IGNORABLE_WHITESPACE_NOT_HANDLED =
   { WG_UNSUPPORTED_ENCODING,
      "\uC9C0\uC6D0\uB418\uC9C0 \uC54A\uB294 \uC778\uCF54\uB529: {0}"},
 
-
-
   // Other miscellaneous text used inside the code...
   { "ui_language", "ko"},
   { "help_language", "ko"},
@@ -929,7 +910,6 @@ public static final String ER_IGNORABLE_WHITESPACE_NOT_HANDLED =
   {
       return _contents;
   }
-
 
   // ================= INFRASTRUCTURE ======================
 

@@ -21,22 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.source.tree;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Provides methods to convert between character positions and line numbers
  * for a compilation unit.

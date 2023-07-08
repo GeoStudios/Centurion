@@ -21,22 +21,8 @@
 
 package pkg;
 
-
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // This class loader loads Foo, Child, and Grand.
 public class ClassLoaderForChildGrandFoo extends ClassLoader {

@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // from #defines in jvmdi.h. These are also part of JVMDI spec.
 // refer to GetClassStatus method of JVMDI spec.
 

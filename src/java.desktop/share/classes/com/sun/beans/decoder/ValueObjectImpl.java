@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.com.sun.beans.decoder;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This utility class provides {@code static} method
  * to create the object that contains the result of method execution.

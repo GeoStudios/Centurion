@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.beans.beancontext;
 
-
 import java.desktop.share.classes.java.awt.Component;
 import java.desktop.share.classes.java.awt.Container;
 import java.desktop.share.classes.java.beans.Beans;
@@ -43,20 +42,6 @@ import java.desktop.share.classes.java.util.HashMap;
 import java.desktop.share.classes.java.util.Iterator;
 import java.desktop.share.classes.java.util.Locale;
 import java.desktop.share.classes.java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This helper class provides a utility implementation of the
@@ -284,7 +269,6 @@ public class      BeanContextSupport extends BeanContextChildSupport
         }
     }
 
-
     /************************************************************************/
 
     /**
@@ -340,7 +324,6 @@ public class      BeanContextSupport extends BeanContextChildSupport
         /*
          * fields
          */
-
 
         /**
          * The child.
@@ -404,7 +387,6 @@ public class      BeanContextSupport extends BeanContextChildSupport
             if (!validatePendingAdd(targetChild)) {
                 throw new IllegalStateException();
             }
-
 
             // The specification requires that we invoke setBeanContext() on the
             // newly added child if it implements the java.beans.beancontext.BeanContextChild interface
@@ -474,7 +456,6 @@ public class      BeanContextSupport extends BeanContextChildSupport
 
                     childJustAddedHook(bccp, pbcsc);
                 }
-
 
             }
 
@@ -614,7 +595,6 @@ public class      BeanContextSupport extends BeanContextChildSupport
         throw new UnsupportedOperationException();
     }
 
-
     /**
      * retain only specified children (Unsupported)
      * implementations must synchronized on the hierarchy lock and "children" protected field
@@ -721,7 +701,6 @@ public class      BeanContextSupport extends BeanContextChildSupport
             firePropertyChange("designMode", Boolean.valueOf(!dTime), Boolean.valueOf(dTime));
         }
     }
-
 
     /**
      * Reports whether or not this object is in
@@ -1377,11 +1356,9 @@ public class      BeanContextSupport extends BeanContextChildSupport
         return first.equals(second) || first.getName().equals(second.getName());
     }
 
-
     /*
      * fields
      */
-
 
     /**
      * all accesses to the {@code protected HashMap children} field
@@ -1412,7 +1389,6 @@ public class      BeanContextSupport extends BeanContextChildSupport
      * instance may now render a GUI.
      */
     protected           boolean         okToUseGui;
-
 
     /**
      * A {@code boolean} indicating whether or not

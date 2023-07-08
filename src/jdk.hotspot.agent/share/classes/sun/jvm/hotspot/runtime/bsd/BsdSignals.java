@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.bsd;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class BsdSignals {
   private static final String[] signalNames = {
     "",           /* No signal 0 */

@@ -21,22 +21,7 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal;
 
-
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePool;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Plugin wishing to pre-visit the resources must implement this interface.

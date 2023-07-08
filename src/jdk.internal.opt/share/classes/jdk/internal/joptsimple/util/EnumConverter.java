@@ -21,27 +21,12 @@
 
 package jdk.internal.opt.share.classes.jdk.internal.joptsimple.util;
 
-
 import java.text.MessageFormat;
 import java.util.EnumSet;
 import java.util.Iterator;
 import java.util.ResourceBundle;
 import jdk.internal.opt.share.classes.jdk.internal.joptsimple.ValueConversionException;
 import jdk.internal.opt.share.classes.jdk.internal.joptsimple.ValueConverter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Converts values to {@link java.lang.Enum}s.

@@ -21,24 +21,10 @@
 
 package nsk.jvmti.DataDumpRequest;
 
-
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jvmti.*;
 import vm.share.ProcessUtils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This test exercises the JVMTI event <code>DataDumpRequest</code>.

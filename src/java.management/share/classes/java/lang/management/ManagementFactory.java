@@ -21,7 +21,6 @@
 
 package java.management.share.classes.java.lang.management;
 
-
 import java.management.share.classes.java.io.FilePermission;
 import java.management.share.classes.java.io.java.io.java.io.java.io.IOException;
 import javax.management.DynamicMBean;
@@ -56,20 +55,6 @@ import javax.management.JMX;
 import sun.management.Util;
 import sun.management.spi.PlatformMBeanProvider;
 import sun.management.spi.PlatformMBeanProvider.PlatformComponent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code ManagementFactory} class is a factory class for getting
@@ -424,7 +409,6 @@ public class ManagementFactory {
     public static List<MemoryManagerMXBean> getMemoryManagerMXBeans() {
         return getPlatformMXBeans(MemoryManagerMXBean.class);
     }
-
 
     /**
      * Returns a list of {@link GarbageCollectorMXBean} objects

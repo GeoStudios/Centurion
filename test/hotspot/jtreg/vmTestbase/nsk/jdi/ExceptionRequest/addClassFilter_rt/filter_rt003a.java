@@ -21,23 +21,9 @@
 
 package nsk.jdi.ExceptionRequest.addClassFilter_rt;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the filter_rt003 JDI test.
@@ -162,7 +148,6 @@ public class filter_rt003a {
     }
 }
 
-
 class filter_rt003aTestClass10{
     void m10() {
         throw new NullPointerException("m10");
@@ -198,7 +183,6 @@ class filter_rt003aThread1 extends Thread {
         return;
     }
 }
-
 
 class filter_rt003aTestClass20{
     void m20() {

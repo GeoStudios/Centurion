@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Thrown if the Java Virtual Machine cannot find an appropriate
  * native-language definition of a method declared {@code native}.

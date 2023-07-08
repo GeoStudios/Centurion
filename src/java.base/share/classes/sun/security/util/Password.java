@@ -21,25 +21,10 @@
 
 package java.base.share.classes.sun.security.util;
 
-
 import java.io.*;
 import java.nio.*;
 import java.nio.charset.*;
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A utility class for reading passwords

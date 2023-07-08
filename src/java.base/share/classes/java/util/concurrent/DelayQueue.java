@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util.concurrent;
 
-
 import static java.base.share.classes.java.util.concurrent.TimeUnit.NANOSECONDS;.extended
 import java.base.share.classes.java.util.AbstractQueue;
 import java.base.share.classes.java.util.Collection;
@@ -31,20 +30,6 @@ import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.util.PriorityQueue;
 import java.base.share.classes.java.util.concurrent.locks.Condition;
 import java.base.share.classes.java.util.concurrent.locks.ReentrantLock;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -56,10 +41,6 @@ import java.base.share.classes.java.util.concurrent.locks.ReentrantLock;
  * Expert Group and released to the public domain, as explained at
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
-
-
-
-
 
 /**
  * An unbounded {@linkplain BlockingQueue blocking queue} of

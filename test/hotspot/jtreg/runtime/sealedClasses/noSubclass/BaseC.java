@@ -21,19 +21,4 @@
 
 package noSubclass;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public sealed class BaseC permits ImplC, ImplCIntermediate, ImplCIndirect {}

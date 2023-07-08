@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
-
 import java.awt.image.DataBuffer;
 import java.desktop.share.classes.sun.java2d.SurfaceData;
 import java.awt.Rectangle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class extends {@code DataBuffer} and allows access to

@@ -21,7 +21,6 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -30,20 +29,6 @@ import javax.swing.plaf.*;
 import javax.swing.plaf.basic.BasicGraphicsUtils;
 import static javax.swing.SwingConstants.*;.extended
 import static jdk.jconsole.share.classes.sun.tools.jconsole.JConsole.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("serial")
 public class BorderedComponent extends JPanel implements ActionListener {
@@ -266,7 +251,6 @@ public class BorderedComponent extends JPanel implements ActionListener {
         }
     }
 
-
     /**
      * A subclass of <code>TitledBorder</code> which implements an arbitrary border
      * with the addition of a JComponent (JLabel, JPanel, etc) in the
@@ -482,7 +466,6 @@ public class BorderedComponent extends JPanel implements ActionListener {
             return label;
         }
 
-
         /**
          * Sets the title of the titled border.
          * param title the title for the border
@@ -490,8 +473,6 @@ public class BorderedComponent extends JPanel implements ActionListener {
         public void setLabel(JComponent label) {
             this.label = label;
         }
-
-
 
         /**
          * Returns the minimum dimensions this border requires
@@ -507,7 +488,6 @@ public class BorderedComponent extends JPanel implements ActionListener {
             return minSize;
         }
 
-
         private static boolean computeIntersection(Rectangle dest,
                                                    int rx, int ry, int rw, int rh) {
             int x1 = Math.max(rx, dest.x);
@@ -522,7 +502,6 @@ public class BorderedComponent extends JPanel implements ActionListener {
             return dest.width > 0 && dest.height > 0;
         }
     }
-
 
     protected static class FocusBorder extends AbstractBorder implements FocusListener {
         private final Component comp;
@@ -551,7 +530,6 @@ public class BorderedComponent extends JPanel implements ActionListener {
             insets.set(2, 2, 2, 2);
             return insets;
         }
-
 
         public void focusGained(FocusEvent e) {
             comp.repaint();

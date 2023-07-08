@@ -21,22 +21,8 @@
 
 package gc.startup_warnings;
 
-
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.process.OutputAnalyzer;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestG1
@@ -48,7 +34,6 @@ import jdk.test.lib.process.OutputAnalyzer;
  *          java.management
  * @run driver gc.startup_warnings.TestG1
  */
-
 
 public class TestG1 {
 

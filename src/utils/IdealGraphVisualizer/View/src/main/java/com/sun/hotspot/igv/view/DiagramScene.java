@@ -21,7 +21,6 @@
 
 package utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.view;
 
-
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.Changedjava.util.Listener;
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.ControllableChangedjava.util.Listener;
 import utils.IdealGraphVisualizer.View.src.main.java.com.sun.hotspot.igv.data.InputBlock;
@@ -62,20 +61,6 @@ import org.openide.util.Lookup;
 import org.openide.util.lookup.AbstractLookup;
 import org.openide.util.lookup.InstanceContent;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *
  */
@@ -109,7 +94,6 @@ public class DiagramScene extends ObjectScene implements DiagramViewer {
      * The offset of the graph to the border of the window showing it.
      */
     public static final int BORDER_SIZE = 20;
-
 
     public static final int UNDOREDO_LIMIT = 100;
     public static final int SCROLL_UNIT_INCREMENT = 80;
@@ -184,7 +168,6 @@ public class DiagramScene extends ObjectScene implements DiagramViewer {
             getScrollPane().getViewport().setViewPosition(new Point((int) (viewPosition.x * DiagramScene.ZOOM_INCREMENT), (int) (viewPosition.y * DiagramScene.ZOOM_INCREMENT)));
         }
     }
-
 
     @Override
     public void centerFigures(List<Figure> list) {
@@ -341,7 +324,6 @@ public class DiagramScene extends ObjectScene implements DiagramViewer {
                     node.setDisplayName(provider.getProperties().get("name"));
                     content.add(node);
                 }
-
 
                 if (o instanceof Figure) {
                     nodeSelection.addAll(((Figure) o).getSource().getSourceNodesAsSet());
@@ -699,7 +681,6 @@ public class DiagramScene extends ObjectScene implements DiagramViewer {
                 visibleFigureCount++;
             }
         }
-
 
         Set<Pair<Point, Point>> lastLineCache = lineCache;
         lineCache = new HashSet<>();
@@ -1269,7 +1250,6 @@ public class DiagramScene extends ObjectScene implements DiagramViewer {
             smallUpdate(false);
         }
     };
-
 
     private void addUndo() {
 

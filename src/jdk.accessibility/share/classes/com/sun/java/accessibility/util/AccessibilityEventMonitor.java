@@ -21,26 +21,11 @@
 
 package jdk.accessibility.share.classes.com.sun.java.accessibility.util;
 
-
 import jdk.accessibility.share.classes.com.sun.java.util.*;
 import jdk.accessibility.share.classes.com.sun.java.beans.*;
 import jdk.accessibility.share.classes.com.sun.java.awt.*;
 import jdk.accessibility.share.classes.com.sun.java.awt.event.*;
 import javax.accessibility.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <P>{@code AccessibilityEventMonitor} implements a PropertyChange listener
@@ -71,7 +56,6 @@ public class AccessibilityEventMonitor {
      */
     static protected final AccessibilityListenerList listenerList =
         new AccessibilityListenerList();
-
 
     /**
      * The actual listener that is installed on the component instances.
@@ -112,7 +96,6 @@ public class AccessibilityEventMonitor {
             accessibilityListener.removeListeners();
         }
     }
-
 
     /**
      * AccessibilityEventListener is the class that does all the work for
@@ -249,7 +232,6 @@ public class AccessibilityEventMonitor {
          */
         private void removeListeners(AccessibleContext ac) {
 
-
             if (ac != null) {
                 // Listeners are not added to transient components.
                 AccessibleStateSet states = ac.getAccessibleStateSet();
@@ -312,7 +294,6 @@ public class AccessibilityEventMonitor {
                 removeListeners(w);
             }
         }
-
 
         /* PropertyChangeListener Methods **************************************/
 

@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.access.foreign;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This proxy interface is required to allow instances of the {@code MemoryAddress} interface (which is defined inside
  * an incubating module) to be accessed from the memory access var handles.

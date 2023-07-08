@@ -21,23 +21,8 @@
 
 package jdk.hotspot.agent.share.classes.com.sun.java.swing.ui;
 
-
 import jdk.hotspot.agent.share.classes.com.sun.java.awt.*;
 import javax.swing.ImageIcon;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class SplashScreen extends Window
 {

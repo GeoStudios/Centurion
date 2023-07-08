@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.opengl;
 
-
 import java.lang.annotation.Native;
 import java.desktop.share.classes.sun.java2d.pipe.BufferedContext;
 import java.desktop.share.classes.sun.java2d.pipe.RenderBuffer;
@@ -29,20 +28,6 @@ import java.desktop.share.classes.sun.java2d.pipe.RenderQueue;
 import java.desktop.share.classes.sun.java2d.pipe.hw.ContextCapabilities;
 import static java.desktop.share.classes.sun.java2d.pipe.BufferedOpCodes.INVALIDATE_CONTEXT;.extended
 import static java.desktop.share.classes.sun.java2d.pipe.BufferedOpCodes.SET_SCRATCH_SURFACE;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Note that the RenderQueue lock must be acquired before calling any of
@@ -165,7 +150,6 @@ final class OGLContext extends BufferedContext {
         /** Indicates the presence of the GL_NV_texture_barrier extension. */
         @Native
         static final int CAPS_EXT_TEXBARRIER = (FIRST_PRIVATE_CAP << 5);
-
 
         OGLContextCaps(int caps, String adapterId) {
             super(caps, adapterId);

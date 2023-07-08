@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.org.xml.sax.helpers;
 
-
 import java.io.BufferedReader;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -36,20 +35,6 @@ import java.util.ServiceLoader;
 import jdk.xml.internal.SecuritySupport;
 import java.xml.share.classes.org.xml.sax.SAXException;
 import java.xml.share.classes.org.xml.sax.XMLReader;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Factory for creating an XML reader.
@@ -163,7 +148,6 @@ final public class XMLReaderFactory
 
         return loadClass (cl, className);
     }
-
 
     /**
      * Attempt to create an XML reader from a class name.

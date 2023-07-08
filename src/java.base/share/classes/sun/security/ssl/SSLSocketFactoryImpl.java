@@ -21,24 +21,9 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.*;
 import java.net.*;
 import javax.net.ssl.SSLjava.net.SocketFactory;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation of an SSL socket factory.  This provides the public
@@ -145,7 +130,6 @@ public final class SSLSocketFactoryImpl extends SSLSocketFactory {
         return new SSLSocketImpl(context, address, port);
     }
 
-
     /**
      * Constructs an SSL connection to a named host at a specified port.
      * This acts as the SSL client, and may authenticate itself or rejoin
@@ -177,7 +161,6 @@ public final class SSLSocketFactoryImpl extends SSLSocketFactory {
         return new SSLSocketImpl(context, address, port,
                 clientAddress, clientPort);
     }
-
 
     /**
      * Returns the subset of the supported cipher suites which are

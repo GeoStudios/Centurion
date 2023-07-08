@@ -21,22 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.hpack;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.

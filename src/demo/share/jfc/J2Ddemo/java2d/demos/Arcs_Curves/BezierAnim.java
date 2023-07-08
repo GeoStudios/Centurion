@@ -21,7 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Arcs_Curves;
 
-
 import static java.awt.Color.BLUE;.extended
 import static java.awt.Color.GRAY;.extended
 import static java.awt.Color.GREEN;.extended
@@ -50,20 +49,6 @@ import javax.swing.Icon;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Animated Bezier Curve with controls for different draw & fill paints.
@@ -179,7 +164,6 @@ public class BezierAnim extends AnimatingControlsSurface {
     public static void main(String[] argv) {
         createDemoFrame(new BezierAnim());
     }
-
 
     static class DemoControls extends CustomControls implements ActionListener {
 
@@ -307,7 +291,6 @@ public class BezierAnim extends AnimatingControlsSurface {
             }
             thread = null;
         }
-
 
         static class PaintedIcon implements Icon {
 

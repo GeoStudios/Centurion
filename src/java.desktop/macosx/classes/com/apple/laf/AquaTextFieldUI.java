@@ -21,27 +21,12 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicTextFieldUI;
 import javax.swing.text.*;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.JComponentPainter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AquaTextFieldUI extends BasicTextFieldUI {
     public static ComponentUI createUI(final JComponent c) {

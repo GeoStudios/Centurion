@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A simple class for sending updates to objects.
  * The design of this class is based on the deprecated java.util.Observer.

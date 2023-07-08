@@ -21,21 +21,6 @@
 
 package nsk.jvmti.scenarios.hotswap.HS204.hs204t004;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
    A dummy class loader for keeping a break point at loadClass method of this class.
 */

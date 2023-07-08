@@ -21,7 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
 import java.util.java.util.java.util.java.util.List;
@@ -39,20 +38,6 @@ import jdk.jdi.share.classes.com.sun.jdi.ThreadReference;
 import jdk.jdi.share.classes.com.sun.jdi.VMCannotBeModifiedException;
 import jdk.jdi.share.classes.com.sun.jdi.Value;
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A supertype for ReferenceTypes allowing method invocations

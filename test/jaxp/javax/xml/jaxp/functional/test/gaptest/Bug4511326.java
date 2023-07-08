@@ -21,26 +21,12 @@
 
 package test.gaptest;
 
-
 import java.io.StringReader;
 import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamSource;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -60,7 +46,6 @@ public class Bug4511326 {
                                + "<H1><xsl:value-of select='//title'/></H1>"
                                + "</xsl:template>"
                                + "</xsl:stylesheet>";
-
 
     @Test
     public void ignoreAttTest() throws TransformerConfigurationException {

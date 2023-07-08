@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
-
 import java.util.Enumeration;
 import java.awt.*;
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.border.*;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.desktop.share.classes.javax.swing.text.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A view implementation to display an unwrapped

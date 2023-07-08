@@ -21,26 +21,12 @@
 
 package nsk.jdi.Field.typeName;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class typename001 {
     final static String PRIM_CODE = "primitive";

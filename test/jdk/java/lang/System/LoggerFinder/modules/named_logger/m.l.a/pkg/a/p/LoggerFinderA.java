@@ -21,21 +21,7 @@
 
 package pkg.a.p;
 
-
 import pkg.a.l.LoggerA;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class LoggerFinderA extends System.LoggerFinder {
     @Override

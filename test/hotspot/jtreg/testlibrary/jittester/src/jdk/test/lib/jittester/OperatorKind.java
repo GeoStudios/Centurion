@@ -21,21 +21,6 @@
 
 package jdk.test.lib.jittester;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // all unary and binary operator kinds
 public enum OperatorKind {
     /** a += b */

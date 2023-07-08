@@ -21,26 +21,11 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal;
 
-
 import java.nio.ByteBuffer;
 import java.util.HashMap;
 import jdk.jlink.share.classes.jdk.internal.jimage.ImageStream;
 import jdk.jlink.share.classes.jdk.internal.jimage.ImageStrings;
 import jdk.jlink.share.classes.jdk.internal.jimage.ImageStringsReader;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class ImageStringsWriter implements ImageStrings {
     private static final int NOT_FOUND = -1;

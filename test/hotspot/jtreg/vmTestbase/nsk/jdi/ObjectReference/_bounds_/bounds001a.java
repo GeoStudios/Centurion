@@ -21,23 +21,9 @@
 
 package nsk.jdi.ObjectReference._bounds_;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //    THIS TEST IS LINE NUMBER SENSITIVE
 

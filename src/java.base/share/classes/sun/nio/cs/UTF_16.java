@@ -21,24 +21,9 @@
 
 package java.base.share.classes.sun.nio.cs;
 
-
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CharsetEncoder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class UTF_16 extends Unicode
 {

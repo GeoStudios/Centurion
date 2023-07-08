@@ -21,7 +21,6 @@
 
 package compiler.jvmci.compilerToVM;
 
-
 import compiler.jvmci.common.CTVMUtilities;
 import compiler.testlibrary.CompilerUtils;
 import jdk.test.lib.util.Pair;
@@ -43,19 +42,6 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A test case for tests which require compiled code.

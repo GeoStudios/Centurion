@@ -21,25 +21,10 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-
 import java.awt.*;
 import java.awt.dnd.*;
 import java.awt.event.*;
 import java.desktop.macosx.classes.sun.awt.dnd.SunDragSourceContextPeer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("serial") // JDK implementation class
 class CMouseDragGestureRecognizer extends MouseDragGestureRecognizer {

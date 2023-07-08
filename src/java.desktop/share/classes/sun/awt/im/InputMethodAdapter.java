@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.sun.awt.im;
 
-
 import java.awt.Component;
 import java.awt.Rectangle;
 import java.awt.im.spi.InputMethod;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An input method adapter interfaces with the native input methods
@@ -117,7 +102,6 @@ public abstract class InputMethodAdapter implements InputMethod {
      * always called on AWT EDT. See details in bug 6226489.
      */
     public abstract void disableInputMethod();
-
 
     /**
      * Returns a string with information about the native input method, or

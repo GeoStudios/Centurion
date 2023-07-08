@@ -21,22 +21,6 @@
 
 package java.desktop.macosx.classes.sun.lwawt;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface PlatformDropTarget {
 
     /**

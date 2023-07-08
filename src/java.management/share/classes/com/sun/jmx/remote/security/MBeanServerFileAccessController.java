@@ -21,7 +21,6 @@
 
 package java.management.share.classes.com.sun.jmx.remote.security;
 
-
 import java.io.FileInputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.security.AccessControlContext;
@@ -40,20 +39,6 @@ import java.util.regex.Pattern;
 import javax.management.MBeanServer;
 import javax.management.ObjectName;
 import javax.security.auth.Subject;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>An object of this class implements the MBeanServerAccessController

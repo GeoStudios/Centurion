@@ -21,23 +21,9 @@
 
 package nsk.share.jpda;
 
-
 import nsk.share.*;
 import java.io.*;
 import java.net.java.net.java.net.Serverjava.net.java.net.Socket;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Parser for JPDA test's launching and connection arguments.
@@ -99,7 +85,6 @@ public class DebugeeArgumentHandler extends ArgumentParser {
     public static final String DEFAULT_PIPE_PORT                                = "7123";
     public static final String DEFAULT_TRANSPORT_PORT                   = "8123";
     public static final String DEFAULT_BIND_PORT                                = "9123";
-
 
     /**
      * Keep a copy of raw command-line arguments and parse them;

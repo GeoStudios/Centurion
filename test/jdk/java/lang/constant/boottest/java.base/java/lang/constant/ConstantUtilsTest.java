@@ -21,25 +21,11 @@
 
 package java.lang.constant;
 
-
 import java.lang.invoke.*;
 import java.lang.constant.*;
 import java.util.*;
 import org.testng.annotations.Test;
 import static org.testng.Assert.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test

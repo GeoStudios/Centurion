@@ -21,24 +21,9 @@
 
 package jdk.sctp.share.classes.sun.nio.ch.sctp;
 
-
 import java.net.java.net.SocketAddress;
 import com.sun.nio.sctp.MessageInfo;
 import com.sun.nio.sctp.Association;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of a MessageInfo.

@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.sun.awt;
 
-
 import java.awt.AWTEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class EventQueueItem {
     public AWTEvent event;

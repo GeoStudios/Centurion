@@ -21,22 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.treetable;
 
-
 import javax.swing.tree.TreeModel;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * TreeTableModel is the model used by a JTreeTable. It extends TreeModel

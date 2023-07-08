@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.sun.print;
 
-
 import javax.print.attribute.standard.DialogOwner;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class DialogOwnerAccessor {
 

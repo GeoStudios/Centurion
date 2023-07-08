@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit;
 
-
 import java.io.ByteArrayOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
@@ -42,20 +41,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.doclet.Reporter;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.DocletConstants;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils;
 import static javax.tools.Diagnostic.Kind.ERROR;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Storage for the format-independent options supported by the toolkit.
@@ -733,7 +718,6 @@ public abstract class BaseOptions {
     public void setDocEncoding(String docEncoding) {
         this.docEncoding = docEncoding;
     }
-
 
     /**
      * Argument for command-line option {@code ???}.

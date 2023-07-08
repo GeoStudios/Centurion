@@ -21,56 +21,6 @@
 
 package build.tools.cldrconverter;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Handles parsing of files in Locale Data Markup Language for numberingSystems.xml
  * and produces a map that uses the keys and values of JRE locale data.

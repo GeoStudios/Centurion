@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.javax.xml.transform.stax;
 
-
 import java.xml.share.classes.javax.xml.stream.XMLEventWriter;
 import java.xml.share.classes.javax.xml.stream.XMLStreamWriter;
 import java.xml.share.classes.javax.xml.transform.Result;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Acts as a holder for an XML {@link Result} in the

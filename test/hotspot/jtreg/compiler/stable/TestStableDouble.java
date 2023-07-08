@@ -21,22 +21,8 @@
 
 package compiler.stable;
 
-
 import jdk.internal.vm.annotation.Stable;
 import java.lang.reflect.InvocationTargetException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestStableDouble
@@ -68,9 +54,6 @@ import java.lang.reflect.InvocationTargetException;
  *                                 -XX:-FoldStableValues
  *                                 compiler.stable.TestStableDouble
  */
-
-
-
 
 public class TestStableDouble {
     static final boolean isStableEnabled    = StableConfiguration.isStableEnabled;

@@ -21,24 +21,9 @@
 
 package java.base.share.classes.jdk.internal.icu.text;
 
-
 import java.base.share.classes.jdk.internal.icu.impl.Norm2AllModes;
 import java.text.CharacterIterator;
 import java.text.Normalizer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Unicode Normalization
@@ -385,7 +370,6 @@ public final class NormalizerBase implements Cloneable {
     public NormalizerBase(String str, Mode mode) {
        this(str, mode, 0);
     }
-
 
     /**
      * Creates a new {@code NormalizerBase} object for iterating over the

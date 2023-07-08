@@ -21,27 +21,12 @@
 
 package java.base.windows.classes.sun.nio.ch;
 
-
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.base.windows.classes.sun.net.NetProperties;
 import jdk.internal.util.StaticProperty;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class UnixDomainSocketsUtil {
     private UnixDomainSocketsUtil() { }

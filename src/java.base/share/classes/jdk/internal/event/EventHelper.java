@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.event;
 
-
 import java.base.share.classes.jdk.internal.access.JavaUtilJarAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import java.lang.invoke.MethodHandles;
@@ -31,20 +30,6 @@ import java.time.Instant;
 import java.util.Date;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A helper class to have events logged to a JDK Event Logger.
@@ -69,7 +54,6 @@ public final class EventHelper {
 
     // helper class used for logging security related events for now
     private static final String SECURITY_LOGGER_NAME = "jdk.event.security";
-
 
     public static void logTLSHandshakeEvent(Instant start,
                                             String peerHost,

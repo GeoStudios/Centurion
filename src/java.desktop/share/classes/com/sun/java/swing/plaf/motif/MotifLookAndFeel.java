@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-
 import java.desktop.share.classes.com.sun.java.awt.Color;
 import java.desktop.share.classes.com.sun.java.awt.Font;
 import java.desktop.share.classes.com.sun.java.awt.event.KeyEvent;
@@ -37,20 +36,6 @@ import javax.swing.plaf.basic.BasicLookAndFeel;
 import javax.swing.text.DefaultEditorKit;
 import java.desktop.share.classes.com.sun.swing.SwingAccessor;
 import java.desktop.share.classes.com.sun.swing.SwingUtilities2;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implements the Motif Look and Feel.
@@ -77,16 +62,13 @@ public class MotifLookAndFeel extends BasicLookAndFeel
         return "The CDE/Motif Look and Feel";
     }
 
-
     public boolean isNativeLookAndFeel() {
         return false;
     }
 
-
     public boolean isSupportedLookAndFeel() {
         return true;
     }
-
 
     /**
      * Load the SystemColors into the defaults table.  The keys
@@ -131,7 +113,6 @@ public class MotifLookAndFeel extends BasicLookAndFeel
         loadSystemColors(table, defaultSystemColors, false);
     }
 
-
     protected void initClassDefaults(UIDefaults table)
     {
         super.initClassDefaults(table);
@@ -175,7 +156,6 @@ public class MotifLookAndFeel extends BasicLookAndFeel
         table.putDefaults(uiDefaults);
     }
 
-
     /**
      * Initialize the defaults table with the name of the ResourceBundle
      * used for getting localized defaults.
@@ -185,7 +165,6 @@ public class MotifLookAndFeel extends BasicLookAndFeel
                      .addInternalBundle(table,
                              "com.sun.java.swing.plaf.motif.resources.motif");
     }
-
 
     protected void initComponentDefaults(UIDefaults table)
     {
@@ -210,7 +189,6 @@ public class MotifLookAndFeel extends BasicLookAndFeel
         ColorUIResource menuItemPressedBackground = new ColorUIResource(165,165,165);
         ColorUIResource menuItemPressedForeground = new ColorUIResource(0,0,0);
 
-
         Border loweredBevelBorder = new MotifBorders.BevelBorder(false,
                                            table.getColor("controlShadow"),
                                            table.getColor("controlLtHighlight"));
@@ -224,7 +202,6 @@ public class MotifLookAndFeel extends BasicLookAndFeel
                                            table.getColor("control"),
                                            table.getColor("activeCaptionBorder"));
 
-
         Border focusBevelBorder = new BorderUIResource.CompoundBorderUIResource(
                                           focusBorder,
                                           loweredBevelBorder);
@@ -232,7 +209,6 @@ public class MotifLookAndFeel extends BasicLookAndFeel
         Border comboBoxBorder = new BorderUIResource.CompoundBorderUIResource(
                                           focusBorder,
                                           raisedBevelBorder);
-
 
         Border buttonBorder = new BorderUIResource.CompoundBorderUIResource(
                                       new MotifBorders.ButtonBorder(
@@ -494,11 +470,9 @@ public class MotifLookAndFeel extends BasicLookAndFeel
                                           table.getColor("MenuBar.darkShadow"),
                                           table.getColor("activeCaptionBorder"));
 
-
         Border menuMarginBorder = new BorderUIResource.CompoundBorderUIResource(
                                           loweredBevelBorder,
                                           marginBorder);
-
 
         Border focusCellHighlightBorder = new BorderUIResource.LineBorderUIResource(
                                                 table.getColor("activeCaptionBorder"));
@@ -514,7 +488,6 @@ public class MotifLookAndFeel extends BasicLookAndFeel
         Object tabbedPaneTabAreaInsets = new InsetsUIResource(4, 2, 0, 8);
 
         Object tabbedPaneContentBorderInsets = new InsetsUIResource(2, 2, 2, 2);
-
 
         // ** for optionpane
 
@@ -925,7 +898,6 @@ public class MotifLookAndFeel extends BasicLookAndFeel
                        "ctrl KP_UP", "requestFocus",
                  }),
 
-
             "Tree.background", controlDarker,                              // default: dark slate blue
             "Tree.hash", table.get("controlDkShadow"),                     // default: black
             "Tree.iconShadow", table.get("controlShadow"),
@@ -1082,7 +1054,6 @@ public class MotifLookAndFeel extends BasicLookAndFeel
                                    "F8", "focusHeader"
                  }),
 
-
             "FormattedTextField.focusInputMap",
               new UIDefaults.LazyInputMap(new Object[] {
                            "ctrl C", DefaultEditorKit.copyAction,
@@ -1140,8 +1111,6 @@ public class MotifLookAndFeel extends BasicLookAndFeel
                      "RIGHT", "navigateRight",
                   "KP_RIGHT", "navigateRight"
                  }),
-
-
 
             "ComboBox.control", table.get("control"),
             "ComboBox.controlForeground", black,
@@ -1223,12 +1192,10 @@ public class MotifLookAndFeel extends BasicLookAndFeel
             "EditorPane.border", marginBorder,
             "EditorPane.focusInputMap", multilineInputMap,
 
-
             "FileChooser.ancestorInputMap",
                new UIDefaults.LazyInputMap(new Object[] {
                      "ESCAPE", "cancelSelection"
                  }),
-
 
             "ToolTip.border", raisedBevelBorder,
             "ToolTip.background", table.get("info"),
@@ -1252,7 +1219,6 @@ public class MotifLookAndFeel extends BasicLookAndFeel
                    "ctrl ENTER", "return",
                    "SPACE", "return"
             },
-
 
             "OptionPane.border", optionPaneBorder,
             "OptionPane.messageAreaBorder", optionPaneMessageAreaBorder,

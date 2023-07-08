@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.java.io.java.io.java.io.IOException;
@@ -63,20 +62,6 @@ import jdk.jfr.share.classes.jdk.jfr.FlightRecorderjava.util.Listener;
 import jdk.jfr.share.classes.jdk.jfr.FlightRecorderPermission;
 import jdk.jfr.share.classes.jdk.jfr.Recording;
 import jdk.jfr.share.classes.jdk.jfr.internal.consumer.FileAccess;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Contains JFR code that does
@@ -539,6 +524,5 @@ public final class SecuritySupport {
             throw new InternalError("Should not reach here");
         }
     }
-
 
 }

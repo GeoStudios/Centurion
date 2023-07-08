@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time.chrono;
 
-
 import java.base.share.classes.java.io.Externalizable;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.InvalidClassException;
@@ -31,20 +30,6 @@ import java.base.share.classes.java.io.Serializable;
 import java.base.share.classes.java.io.StreamCorruptedException;
 import java.base.share.classes.java.time.LocalDate;
 import java.base.share.classes.java.time.LocalDateTime;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The shared serialization delegate for this package.

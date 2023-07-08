@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm.tree.analysis;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An immutable symbolic value for the semantic interpretation of bytecode.
  *

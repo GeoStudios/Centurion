@@ -21,23 +21,9 @@
 
 package jit.graph;
 
-
 import nsk.share.TestFailure;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Vector;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class test1 {
     private final int classID = Globals.MethodID_Array[0];

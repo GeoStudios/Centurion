@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.traversers;
 
-
 import java.base.share.classes.java.util.Locale;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.ValidatedInfo;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType;
@@ -44,20 +43,6 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObjectjava
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
 import java.xml.share.classes.com.sun.org.w3c.dom.Attr;
 import java.xml.share.classes.com.sun.org.w3c.dom.Element;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The element declaration schema component traverser.

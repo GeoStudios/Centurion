@@ -21,21 +21,7 @@
 
 package myPkg2;
 
-
 import myPkg1.SuperClazz;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class SubClass extends SuperClazz {
     public static void main(String[] args) {

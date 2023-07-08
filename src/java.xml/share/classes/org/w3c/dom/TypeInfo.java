@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.org.w3c.dom;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *  The <code>TypeInfo</code> interface represents a type referenced from
  * <code>Element</code> or <code>Attr</code> nodes, specified in the schemas

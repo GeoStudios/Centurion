@@ -21,7 +21,6 @@
 
 package compiler.compilercontrol.share.scenario;
 
-
 import compiler.compilercontrol.share.method.MethodDescriptor;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.Utils;
@@ -29,19 +28,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Generates random commands
@@ -107,7 +93,6 @@ public class CommandGenerator {
         }
         return type.createCompileCommand(command, md, generateCompiler(), argument);
     }
-
 
     /**
      * Generates type of compiler that should be used for the command, or null

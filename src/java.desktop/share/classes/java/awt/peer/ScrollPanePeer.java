@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.java.awt.peer;
 
-
 import java.desktop.share.classes.java.awt.Adjustable;
 import java.desktop.share.classes.java.awt.ScrollPane;
 import java.desktop.share.classes.java.awt.ScrollPaneAdjustable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The peer interface for {@link ScrollPane}.

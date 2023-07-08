@@ -21,22 +21,6 @@
 
 package jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Interface provided by Instrumentation Monitoring Objects.
  *

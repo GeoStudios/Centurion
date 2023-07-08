@@ -21,22 +21,6 @@
 
 package java.base.share.classes.javax.net.ssl;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class is the base interface for hostname verification.
  * <P>

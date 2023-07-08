@@ -21,25 +21,10 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.classfile;
 
-
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.util.Iterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * See JVMS, section 4.5.

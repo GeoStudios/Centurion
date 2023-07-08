@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.gif;
 
-
 import javax.imageio.metadata.IIOInvalidTreeException;
 import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
 import org.w3c.dom.Node;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class which adds utility DOM element attribute access methods to
@@ -102,7 +87,6 @@ abstract class GIFMetadata extends IIOMetadata {
 
         return value;
     }
-
 
     // Get an integer-valued attribute
     protected static int getIntAttribute(Node node, String name,

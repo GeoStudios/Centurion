@@ -21,25 +21,10 @@
 
 package java.base.share.classes.jdk.internal.icu.text;
 
-
 import java.base.share.classes.jdk.internal.icu.impl.CharacterIteratorWrapper;
 import java.base.share.classes.jdk.internal.icu.impl.ReplaceableUCharacterIterator;
 import java.base.share.classes.jdk.internal.icu.impl.UCharacterProperty;
 import java.text.CharacterIterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Abstract class that defines an API for iteration on text objects.This is an
@@ -172,7 +157,6 @@ public abstract class UCharacterIterator
      * @stable ICU 2.4
      */
     public abstract int previous();
-
 
     /**
      * Retreat to the start of the previous code point in the text,

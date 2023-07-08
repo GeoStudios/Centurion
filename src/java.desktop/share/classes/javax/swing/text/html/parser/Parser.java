@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text.html.parser;
 
-
 import java.desktop.share.classes.javax.swing.text.SimpleAttributeSet;
 import java.desktop.share.classes.javax.swing.text.html.HTML;
 import java.desktop.share.classes.javax.swing.text.ChangedCharSetException;
@@ -31,20 +30,6 @@ import java.util.Properties;
 import java.util.Vector;
 import java.util.Enumeration;
 import java.net.URL;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A simple DTD-driven HTML parser. The parser reads an
@@ -150,7 +135,6 @@ class Parser implements DTDConstants {
      */
     protected boolean strict = false;
 
-
     /** Number of \r\n's encountered. */
     private int crlfCount;
     /** Number of \r's encountered. A \r\n will not increment this. */
@@ -216,7 +200,6 @@ class Parser implements DTDConstants {
     public Parser(DTD dtd) {
         this.dtd = dtd;
     }
-
 
     /**
      * @return the line number of the line currently being parsed
@@ -466,7 +449,6 @@ class Parser implements DTDConstants {
         error(err, "?", "?", "?");
     }
 
-
     /**
      * Handle a start tag. The new tag is pushed
      * onto the tag stack. The attribute list is
@@ -544,7 +526,6 @@ class Parser implements DTDConstants {
         recent = (stack != null) ? stack.elem : null;
     }
 
-
     boolean ignoreElement(Element elem) {
 
         String stackElement = stack.elem.getName();
@@ -578,7 +559,6 @@ class Parser implements DTDConstants {
                 (elemName.equals("style") && seenBody) ||
                 (stackElement.equals("table") && elemName.equals("a"));
     }
-
 
     /**
      * Marks the first time a tag has been seen in a document
@@ -658,14 +638,12 @@ class Parser implements DTDConstants {
         String stackElemName = stack.elem.getName();
         String elemName = elem.getName();
 
-
         if (!strict &&
             ((stackElemName.equals("table") && elemName.equals("td")) ||
              (stackElemName.equals("table") && elemName.equals("th")) ||
              (stackElemName.equals("tr") && !elemName.equals("tr")))){
              insertTag = true;
         }
-
 
         if (!strict && !insertTag && (stack.elem.getName() != elem.getName() ||
                                       elem.getName().equals("body"))) {
@@ -727,7 +705,6 @@ class Parser implements DTDConstants {
             }
             return legalElementContext(elem);
         }
-
 
         // Traverse the list of expected elements and determine if adding
         // any of these elements would make for a legal context.
@@ -1422,7 +1399,6 @@ class Parser implements DTDConstants {
         }
     }
 
-
     /**
      * Parse attribute specification List. [31] 327:17
      */
@@ -1801,7 +1777,6 @@ class Parser implements DTDConstants {
                 break;
             }
 
-
             // If the stack is null, we're seeing end tags without any begin
             // tags.  Ignore them.
 
@@ -1874,8 +1849,6 @@ class Parser implements DTDConstants {
                     }
                 }
 
-
-
                 if (stackElem.equals("tr") ||
                     stackElem.equals("td")) {
                     if ((!elem.getName().equals("table")) &&
@@ -1923,8 +1896,6 @@ class Parser implements DTDConstants {
             // People do the same thing with center tags.  In this
             // case we would like to close off the center tag but
             // not necessarily all enclosing tags.
-
-
 
             // end tags
             while (stack != sp) {
@@ -2013,7 +1984,6 @@ class Parser implements DTDConstants {
 
         // ensure a legal context for the tag
         TagElement tag = makeTag(elem, false);
-
 
         /** In dealing with forms, we have decided to treat
             them as legal in any context.  Also, even though
@@ -2275,7 +2245,6 @@ class Parser implements DTDConstants {
                     }
                     continue;
 
-
                   case '\t':
                   case ' ':
                     ch = readCh();
@@ -2400,7 +2369,6 @@ class Parser implements DTDConstants {
 
     }
 
-
     /*
      * Input cache.  This is much faster than calling down to a synchronized
      * method of BufferedReader for each byte.  Measurements done 5/30/97
@@ -2420,7 +2388,6 @@ class Parser implements DTDConstants {
         document.
     */
     private int currentPosition;
-
 
     private int readCh() throws IOException {
 
@@ -2446,7 +2413,6 @@ class Parser implements DTDConstants {
 
         return buf[pos++];
     }
-
 
     /**
      * Returns the current position.

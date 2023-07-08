@@ -21,24 +21,10 @@
 
 package nsk.monitoring.stress.thread;
 
-
 import java.lang.management.*;
 import java.io.*;
 import nsk.share.*;
 import nsk.monitoring.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class strace001 {
     public final static String LIB_NAME = "StackTraceController";

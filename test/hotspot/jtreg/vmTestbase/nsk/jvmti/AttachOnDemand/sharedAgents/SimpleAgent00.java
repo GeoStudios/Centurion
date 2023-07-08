@@ -21,22 +21,8 @@
 
 package nsk.jvmti.AttachOnDemand.sharedAgents;
 
-
 import java.lang.instrument.Instrumentation;
 import nsk.share.aod.AbstractJarAgent;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This java agent prints all classes loaded in the VM

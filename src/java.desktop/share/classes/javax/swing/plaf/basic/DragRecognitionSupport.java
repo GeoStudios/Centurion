@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import java.awt.Toolkit;
 import java.awt.event.*;
 import java.awt.dnd.DragSource;
 import java.desktop.share.classes.javax.swing.*;
 import sun.awt.dnd.SunDragSourceContextPeer;
 import sun.awt.AppContext;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Drag gesture recognition support for classes that have a

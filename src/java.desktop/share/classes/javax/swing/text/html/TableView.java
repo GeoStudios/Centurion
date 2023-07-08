@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
-
 import java.awt.*;
 import java.util.BitSet;
 import java.util.Vector;
@@ -29,20 +28,6 @@ import java.base.share.classes.java.util.Arrays;
 import java.desktop.share.classes.javax.swing.SizeRequirements;
 import java.desktop.share.classes.javax.swing.event.DocumentEvent;
 import java.desktop.share.classes.javax.swing.text.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * HTML table view.
@@ -549,7 +534,6 @@ import java.desktop.share.classes.javax.swing.text.*;
         // calculate column requirements for each column
         calculateColumnRequirements(axis);
 
-
         // the requirements are the sum of the columns.
         if (r == null) {
             r = new SizeRequirements();
@@ -568,7 +552,6 @@ import java.desktop.share.classes.javax.swing.text.*;
         r.minimum = (int) min;
         r.preferred = (int) pref;
         r.maximum = (int) pref;
-
 
         AttributeSet attr = getAttributes();
         CSS.LengthValue cssWidth = (CSS.LengthValue)attr.getAttribute(
@@ -663,7 +646,6 @@ import java.desktop.share.classes.javax.swing.text.*;
         // continue normal layout
         super.layoutMinorAxis(targetSpan, axis, offsets, spans);
     }
-
 
     /**
      * Perform layout for the major axis of the box (i.e. the
@@ -1110,7 +1092,6 @@ import java.desktop.share.classes.javax.swing.text.*;
         public float getBorderWidth() {
             return borderWidth;
         }
-
 
         public float getLeadingCollapseSpan() {
             return cellSpacing;
@@ -1799,6 +1780,5 @@ import java.desktop.share.classes.javax.swing.text.*;
             return rv;
         }
     }
-
 
 }

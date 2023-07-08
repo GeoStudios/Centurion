@@ -21,22 +21,8 @@
 
 package jit.Robert;
 
-
 import java.io.*;
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -48,8 +34,6 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.Robert.Robert
  */
-
-
 
 public class Robert
    {

@@ -21,22 +21,6 @@
 
 package java.base.share.classes.jdk.internal.reflect;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Package-private implementation of the FieldAccessor interface
     which has access to all classes and all fields, regardless of
     language restrictions. See MagicAccessorImpl. */

@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.com.sun.beans;
 
-
 import java.lang.reflect.Type;
 import java.lang.reflect.WildcardType;
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements {@link WildcardType WildcardType} compatibly with the JDK's

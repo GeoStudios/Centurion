@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.javax.swing.border;
 
-
 import java.awt.Graphics;
 import java.awt.Insets;
 import java.awt.Component;
 import java.awt.Color;
 import java.desktop.share.classes.javax.swing.Icon;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class which provides a matte-like border of either a solid color

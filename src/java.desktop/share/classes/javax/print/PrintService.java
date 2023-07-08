@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.javax.print;
 
-
 import java.desktop.share.classes.javax.print.attribute.Attribute;
 import java.desktop.share.classes.javax.print.attribute.AttributeSet;
 import java.desktop.share.classes.javax.print.attribute.PrintServiceAttribute;
 import java.desktop.share.classes.javax.print.attribute.PrintServiceAttributeSet;
 import java.desktop.share.classes.javax.print.event.PrintServiceAttributejava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Interface {@code PrintService} is the factory for a {@code DocPrintJob}. A

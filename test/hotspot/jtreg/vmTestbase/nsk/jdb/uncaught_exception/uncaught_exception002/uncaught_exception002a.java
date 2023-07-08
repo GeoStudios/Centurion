@@ -21,24 +21,10 @@
 
 package nsk.jdb.uncaught_exception.uncaught_exception002;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdb.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* This is debuggee aplication */
 public class uncaught_exception002a {

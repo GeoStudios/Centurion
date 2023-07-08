@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.nio.channels.spi;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.nio.channels.CancelledKeyException;
 import java.base.share.classes.java.nio.channels.ClosedChannelException;
@@ -33,20 +32,6 @@ import java.base.share.classes.java.nio.channels.SelectionKey;
 import java.base.share.classes.java.nio.channels.Selector;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
 import java.base.share.classes.java.util.function.Consumer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base implementation class for selectable channels.
@@ -103,7 +88,6 @@ public abstract class AbstractSelectableChannel
     public final SelectorProvider provider() {
         return provider;
     }
-
 
     // -- Utility methods for the key set --
 
@@ -163,7 +147,6 @@ public abstract class AbstractSelectableChannel
             return false;
         }
     }
-
 
     // -- Registration --
 
@@ -247,7 +230,6 @@ public abstract class AbstractSelectableChannel
         }
     }
 
-
     // -- Closing --
 
     /**
@@ -297,7 +279,6 @@ public abstract class AbstractSelectableChannel
      *          If an I/O error occurs
      */
     protected abstract void implCloseSelectableChannel() throws IOException;
-
 
     // -- Blocking --
 

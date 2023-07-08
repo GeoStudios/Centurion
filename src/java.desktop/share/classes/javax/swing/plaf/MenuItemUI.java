@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing.plaf;
 
-
 import java.desktop.share.classes.javax.swing.*;
 import java.awt.event.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Pluggable look and feel interface for JMenuItem.

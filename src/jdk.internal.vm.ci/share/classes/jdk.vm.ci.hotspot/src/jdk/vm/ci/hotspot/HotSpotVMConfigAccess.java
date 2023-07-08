@@ -21,24 +21,9 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
 
-
 import java.util.Set;
 import java.util.stream.Collectors;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.common.JVMCIError;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Access to VM configuration data.

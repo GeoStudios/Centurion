@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util.stream;
 
-
 import java.base.share.classes.java.util.DoubleSummaryStatistics;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.util.OptionalDouble;
@@ -40,20 +39,6 @@ import java.base.share.classes.java.util.function.DoubleUnaryOperator;
 import java.base.share.classes.java.util.function.IntFunction;
 import java.base.share.classes.java.util.function.ObjDoubleConsumer;
 import java.base.share.classes.java.util.function.Supplier;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Abstract base class for an intermediate pipeline stage or pipeline source
@@ -133,7 +118,6 @@ abstract class DoublePipeline<E_IN>
             throw new UnsupportedOperationException("DoubleStream.adapt(Spliterator<Double> s)");
         }
     }
-
 
     // Shape-specific methods
 

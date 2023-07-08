@@ -21,7 +21,6 @@
 
 package java.sql.share.classes.java.sql;
 
-
 import java.sql.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
 import java.sql.share.classes.java.util.Collections;
 import java.sql.share.classes.java.util.Enumeration;
@@ -34,20 +33,6 @@ import java.sql.share.classes.java.util.concurrent.CopyOnWriteArrayjava.util.jav
 import java.sql.share.classes.java.util.stream.Stream;
 import jdk.internal.reflect.CallerSensitive;
 import jdk.internal.reflect.Reflection;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The basic service for managing a set of JDBC drivers.
@@ -88,7 +73,6 @@ import jdk.internal.reflect.Reflection;
  * @see Connection
  */
 public class DriverManager {
-
 
     // List of registered JDBC drivers
     private static final CopyOnWriteArrayList<DriverInfo> registeredDrivers = new CopyOnWriteArrayList<>();
@@ -159,7 +143,6 @@ public class DriverManager {
             logStream = null;
             logWriter = out;
     }
-
 
     //---------------------------------------------------------------
 
@@ -302,7 +285,6 @@ public class DriverManager {
         println("getDriver: no suitable driver");
         throw new SQLException("No suitable driver", "08001");
     }
-
 
     /**
      * Registers the given driver with the {@code DriverManager}.
@@ -647,7 +629,6 @@ public class DriverManager {
         }
     }
 
-
     //  Worker method called by the public getConnection() methods.
     private static Connection getConnection(
         String url, java.util.Properties info, Class<?> caller) throws SQLException {
@@ -707,7 +688,6 @@ public class DriverManager {
         println("getConnection: no suitable driver found for "+ url);
         throw new SQLException("No suitable driver found for "+ url, "08001");
     }
-
 
 }
 

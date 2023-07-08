@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream;
 
-
 import java.io.InputStream;
 import java.io.Reader;
 import javax.xml.stream.*;
@@ -34,26 +33,11 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.PropertyMa
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLStreamFilterImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Factory Implementation for XMLInputFactory.
  */
 
 //xxx: Should we be reusing the XMLInputSource object
 public class XMLInputFactoryImpl extends javax.xml.stream.XMLInputFactory {
-
 
     //List of supported properties and default values.
     private final PropertyManager fPropertyManager = new PropertyManager(PropertyManager.CONTEXT_READER) ;
@@ -157,7 +141,6 @@ public class XMLInputFactoryImpl extends javax.xml.stream.XMLInputFactory {
         return getXMLStreamReaderImpl(inputSource);
     }
 
-
     public XMLStreamReader createXMLStreamReader(InputStream inputstream, String encoding) throws XMLStreamException {
         XMLInputSource inputSource = new XMLInputSource(null,null,null,inputstream,encoding);
         return getXMLStreamReaderImpl(inputSource);
@@ -205,8 +188,6 @@ public class XMLInputFactoryImpl extends javax.xml.stream.XMLInputFactory {
 
         return null;
     }
-
-
 
     /** Get the value of a feature/property from the underlying implementation
      * @param name The name of the property (may not be null)

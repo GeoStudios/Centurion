@@ -21,22 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Demos that animate extend this class.
  */
@@ -51,7 +35,6 @@ public abstract class AnimatingSurface extends Surface implements Runnable {
 
     public abstract void reset(int newwidth, int newheight);
 
-
     public synchronized void start() {
         if (!running() && !dontThread) {
             thread = new Thread(this);
@@ -62,7 +45,6 @@ public abstract class AnimatingSurface extends Surface implements Runnable {
         }
     }
 
-
     public synchronized void stop() {
         if (thread != null) {
             running = false;
@@ -71,7 +53,6 @@ public abstract class AnimatingSurface extends Surface implements Runnable {
         thread = null;
         notifyAll();
     }
-
 
     @Override
     @SuppressWarnings("SleepWhileHoldingLock")

@@ -21,21 +21,7 @@
 
 package gc.testlibrary;
 
-
 import sun.jvmstat.monitor.Monitor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents a performance counter in the JVM.

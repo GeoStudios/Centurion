@@ -21,25 +21,10 @@
 
 package java.compiler.share.classes.javax.lang.model.util;
 
-
 import java.compiler.share.classes.javax.lang.model.element.*;
 import java.compiler.share.classes.javax.annotation.processing.SupportedSourceVersion;
 import java.compiler.share.classes.javax.lang.model.SourceVersion;
 import static java.compiler.share.classes.javax.lang.model.SourceVersion.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A simple visitor of program elements with default behavior

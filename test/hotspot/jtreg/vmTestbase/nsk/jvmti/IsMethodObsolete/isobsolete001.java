@@ -21,23 +21,9 @@
 
 package nsk.jvmti.IsMethodObsolete;
 
-
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class isobsolete001 extends DebugeeClass {
 

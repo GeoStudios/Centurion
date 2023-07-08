@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.text;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This interface defines a protocol for bidirectional iteration over text.
  * The iterator iterates over a bounded sequence of characters.  Characters

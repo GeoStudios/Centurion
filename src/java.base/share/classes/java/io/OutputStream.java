@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.io;
 
-
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This abstract class is the superclass of all classes representing

@@ -21,7 +21,6 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.jdeps;
 
-
 import static jdk.jdeps.share.classes.com.sun.tools.jdeps.Analyzer.Type.*;.extended
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
@@ -35,20 +34,6 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class JdepsWriter {
     public static JdepsWriter newDotWriter(Path outputdir, Analyzer.Type type) {
@@ -107,7 +92,6 @@ public abstract class JdepsWriter {
             // generate summary dot file
             generateSummaryDotFile(archives, analyzer);
         }
-
 
         private void generateSummaryDotFile(Collection<Archive> archives, Analyzer analyzer)
                 throws IOException

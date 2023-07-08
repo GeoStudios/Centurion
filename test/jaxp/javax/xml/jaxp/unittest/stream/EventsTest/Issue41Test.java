@@ -21,7 +21,6 @@
 
 package stream.EventsTest;
 
-
 import java.io.StringReader;
 import java.io.StringWriter;
 import java.util.Iterator;
@@ -47,19 +46,6 @@ import javax.xml.stream.events.XMLEvent;
 import org.testng.Assert;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -170,8 +156,6 @@ public class Issue41Test {
         XMLEventReader er = inputFactory.createXMLEventReader(new StringReader(XML));
         return er;
     }
-
-
 
     /**
      * The return of XMLEvent writeAsEncodedUnicode method is not defined This

@@ -21,21 +21,6 @@
 
 package compiler.inlining;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8069263
@@ -46,7 +31,6 @@ package compiler.inlining;
  *      -XX:CompileCommand=compileonly,compiler.inlining.DefaultMethodsDependencies$I2::m1
  *      compiler.inlining.DefaultMethodsDependencies
  */
-
 
 public class DefaultMethodsDependencies {
 

@@ -21,21 +21,7 @@
 
 package compiler.whitebox;
 
-
 import jdk.test.lib.Platform;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test IsMethodCompilableTest
@@ -57,8 +43,6 @@ import jdk.test.lib.Platform;
  *      -XX:CompileCommand=compileonly,compiler.whitebox.SimpleTestCaseHelper::*
  *      compiler.whitebox.IsMethodCompilableTest
  */
-
-
 
 public class IsMethodCompilableTest extends CompilerWhiteBoxTest {
     /**

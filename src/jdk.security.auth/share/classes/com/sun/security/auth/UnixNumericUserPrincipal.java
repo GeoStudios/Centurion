@@ -21,22 +21,7 @@
 
 package jdk.security.auth.share.classes.com.sun.security.auth;
 
-
 import java.security.Principal;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements the {@code Principal} interface

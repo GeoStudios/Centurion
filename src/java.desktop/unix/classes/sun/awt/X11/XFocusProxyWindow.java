@@ -21,22 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represent focus holder window implementation. When toplevel requests or receives focus

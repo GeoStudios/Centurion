@@ -21,33 +21,16 @@
 
 package vm.mlvm.indy.func.java.rawRetypes;
 
-
 import java.lang.invoke.CallSite;
 import java.lang.invoke.ConstantCallSite;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // generated from vm/mlvm/indy/func/java/rawRetypes/INDIFY_Test6998541.jmpp
-
-
 
  public class INDIFY_Test6998541 {
      private static final int N = 100000;
-
 
      public static void main(String[] args) throws Throwable {
          doboolean ();
@@ -77,7 +60,6 @@ import java.lang.invoke.MethodType;
          for (int i = 0; i < N; i++, x += D) {
              byte2prim(x);
 
-
          }
      }
      private static void dochar () throws Throwable {
@@ -88,7 +70,6 @@ import java.lang.invoke.MethodType;
          for (int i = 0; i < N; i++, x += D) {
              char2prim(x);
 
-
          }
      }
      private static void doshort () throws Throwable {
@@ -98,7 +79,6 @@ import java.lang.invoke.MethodType;
          short D = Short.MAX_VALUE / (N / 2);
          for (int i = 0; i < N; i++, x += D) {
              short2prim(x);
-
 
          }
      }
@@ -124,7 +104,6 @@ import java.lang.invoke.MethodType;
          for (int i = 0; i < N; i++, x += D) {
              long2prim(x);
 
-
          }
      }
      private static void dofloat () throws Throwable {
@@ -135,7 +114,6 @@ import java.lang.invoke.MethodType;
          for (int i = 0; i < N; i++, x += D) {
              float2prim(x);
 
-
          }
      }
      private static void dodouble () throws Throwable {
@@ -145,7 +123,6 @@ import java.lang.invoke.MethodType;
          double D = Double.MAX_VALUE / (N / 2);
          for (int i = 0; i < N; i++, x += D) {
              double2prim(x);
-
 
          }
      }
@@ -291,7 +268,6 @@ import java.lang.invoke.MethodType;
              throw new AssertionError("expected: " + o + ", found: " + o2);
      }
 
-
     private static MethodHandle INDY_void_foo_void;
     private static MethodHandle INDY_void_foo_void () throws Throwable {
         if ( INDY_void_foo_void != null ) return INDY_void_foo_void;
@@ -300,7 +276,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(void .class ))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_void_spread_void;
     private static MethodHandle INDY_void_spread_void () throws Throwable {
@@ -311,7 +286,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(void .class ))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_void_foo_boolean;
     private static MethodHandle INDY_void_foo_boolean () throws Throwable {
         if ( INDY_void_foo_boolean != null ) return INDY_void_foo_boolean;
@@ -320,7 +294,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(void .class , boolean.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_void_spread_boolean;
     private static MethodHandle INDY_void_spread_boolean () throws Throwable {
@@ -331,7 +304,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(void .class , boolean.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_void_foo_byte;
     private static MethodHandle INDY_void_foo_byte () throws Throwable {
         if ( INDY_void_foo_byte != null ) return INDY_void_foo_byte;
@@ -340,7 +312,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(void .class , byte.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_void_spread_byte;
     private static MethodHandle INDY_void_spread_byte () throws Throwable {
@@ -351,7 +322,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(void .class , byte.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_void_foo_char;
     private static MethodHandle INDY_void_foo_char () throws Throwable {
         if ( INDY_void_foo_char != null ) return INDY_void_foo_char;
@@ -360,7 +330,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(void .class , char.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_void_spread_char;
     private static MethodHandle INDY_void_spread_char () throws Throwable {
@@ -371,7 +340,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(void .class , char.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_void_foo_short;
     private static MethodHandle INDY_void_foo_short () throws Throwable {
         if ( INDY_void_foo_short != null ) return INDY_void_foo_short;
@@ -380,7 +348,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(void .class , short.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_void_spread_short;
     private static MethodHandle INDY_void_spread_short () throws Throwable {
@@ -391,7 +358,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(void .class , short.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_void_foo_int;
     private static MethodHandle INDY_void_foo_int () throws Throwable {
         if ( INDY_void_foo_int != null ) return INDY_void_foo_int;
@@ -400,7 +366,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(void .class , int.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_void_spread_int;
     private static MethodHandle INDY_void_spread_int () throws Throwable {
@@ -411,7 +376,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(void .class , int.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_void_foo_long;
     private static MethodHandle INDY_void_foo_long () throws Throwable {
         if ( INDY_void_foo_long != null ) return INDY_void_foo_long;
@@ -420,7 +384,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(void .class , long.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_void_spread_long;
     private static MethodHandle INDY_void_spread_long () throws Throwable {
@@ -431,7 +394,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(void .class , long.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_void_foo_float;
     private static MethodHandle INDY_void_foo_float () throws Throwable {
         if ( INDY_void_foo_float != null ) return INDY_void_foo_float;
@@ -440,7 +402,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(void .class , float.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_void_spread_float;
     private static MethodHandle INDY_void_spread_float () throws Throwable {
@@ -451,7 +412,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(void .class , float.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_void_foo_double;
     private static MethodHandle INDY_void_foo_double () throws Throwable {
         if ( INDY_void_foo_double != null ) return INDY_void_foo_double;
@@ -460,7 +420,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(void .class , double.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_void_spread_double;
     private static MethodHandle INDY_void_spread_double () throws Throwable {
@@ -471,7 +430,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(void .class , double.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_boolean_foo_void;
     private static MethodHandle INDY_boolean_foo_void () throws Throwable {
         if ( INDY_boolean_foo_void != null ) return INDY_boolean_foo_void;
@@ -480,7 +438,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(boolean .class ))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_boolean_spread_void;
     private static MethodHandle INDY_boolean_spread_void () throws Throwable {
@@ -491,7 +448,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(boolean .class ))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_boolean_foo_boolean;
     private static MethodHandle INDY_boolean_foo_boolean () throws Throwable {
         if ( INDY_boolean_foo_boolean != null ) return INDY_boolean_foo_boolean;
@@ -500,7 +456,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(boolean .class , boolean.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_boolean_spread_boolean;
     private static MethodHandle INDY_boolean_spread_boolean () throws Throwable {
@@ -511,7 +466,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(boolean .class , boolean.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_boolean_foo_byte;
     private static MethodHandle INDY_boolean_foo_byte () throws Throwable {
         if ( INDY_boolean_foo_byte != null ) return INDY_boolean_foo_byte;
@@ -520,7 +474,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(boolean .class , byte.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_boolean_spread_byte;
     private static MethodHandle INDY_boolean_spread_byte () throws Throwable {
@@ -531,7 +484,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(boolean .class , byte.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_boolean_foo_char;
     private static MethodHandle INDY_boolean_foo_char () throws Throwable {
         if ( INDY_boolean_foo_char != null ) return INDY_boolean_foo_char;
@@ -540,7 +492,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(boolean .class , char.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_boolean_spread_char;
     private static MethodHandle INDY_boolean_spread_char () throws Throwable {
@@ -551,7 +502,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(boolean .class , char.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_boolean_foo_short;
     private static MethodHandle INDY_boolean_foo_short () throws Throwable {
         if ( INDY_boolean_foo_short != null ) return INDY_boolean_foo_short;
@@ -560,7 +510,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(boolean .class , short.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_boolean_spread_short;
     private static MethodHandle INDY_boolean_spread_short () throws Throwable {
@@ -571,7 +520,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(boolean .class , short.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_boolean_foo_int;
     private static MethodHandle INDY_boolean_foo_int () throws Throwable {
         if ( INDY_boolean_foo_int != null ) return INDY_boolean_foo_int;
@@ -580,7 +528,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(boolean .class , int.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_boolean_spread_int;
     private static MethodHandle INDY_boolean_spread_int () throws Throwable {
@@ -591,7 +538,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(boolean .class , int.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_boolean_foo_long;
     private static MethodHandle INDY_boolean_foo_long () throws Throwable {
         if ( INDY_boolean_foo_long != null ) return INDY_boolean_foo_long;
@@ -600,7 +546,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(boolean .class , long.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_boolean_spread_long;
     private static MethodHandle INDY_boolean_spread_long () throws Throwable {
@@ -611,7 +556,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(boolean .class , long.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_boolean_foo_float;
     private static MethodHandle INDY_boolean_foo_float () throws Throwable {
         if ( INDY_boolean_foo_float != null ) return INDY_boolean_foo_float;
@@ -620,7 +564,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(boolean .class , float.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_boolean_spread_float;
     private static MethodHandle INDY_boolean_spread_float () throws Throwable {
@@ -631,7 +574,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(boolean .class , float.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_boolean_foo_double;
     private static MethodHandle INDY_boolean_foo_double () throws Throwable {
         if ( INDY_boolean_foo_double != null ) return INDY_boolean_foo_double;
@@ -640,7 +582,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(boolean .class , double.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_boolean_spread_double;
     private static MethodHandle INDY_boolean_spread_double () throws Throwable {
@@ -651,7 +592,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(boolean .class , double.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_byte_foo_void;
     private static MethodHandle INDY_byte_foo_void () throws Throwable {
         if ( INDY_byte_foo_void != null ) return INDY_byte_foo_void;
@@ -660,7 +600,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(byte .class ))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_byte_spread_void;
     private static MethodHandle INDY_byte_spread_void () throws Throwable {
@@ -671,7 +610,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(byte .class ))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_byte_foo_boolean;
     private static MethodHandle INDY_byte_foo_boolean () throws Throwable {
         if ( INDY_byte_foo_boolean != null ) return INDY_byte_foo_boolean;
@@ -680,7 +618,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(byte .class , boolean.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_byte_spread_boolean;
     private static MethodHandle INDY_byte_spread_boolean () throws Throwable {
@@ -691,7 +628,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(byte .class , boolean.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_byte_foo_byte;
     private static MethodHandle INDY_byte_foo_byte () throws Throwable {
         if ( INDY_byte_foo_byte != null ) return INDY_byte_foo_byte;
@@ -700,7 +636,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(byte .class , byte.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_byte_spread_byte;
     private static MethodHandle INDY_byte_spread_byte () throws Throwable {
@@ -711,7 +646,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(byte .class , byte.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_byte_foo_char;
     private static MethodHandle INDY_byte_foo_char () throws Throwable {
         if ( INDY_byte_foo_char != null ) return INDY_byte_foo_char;
@@ -720,7 +654,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(byte .class , char.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_byte_spread_char;
     private static MethodHandle INDY_byte_spread_char () throws Throwable {
@@ -731,7 +664,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(byte .class , char.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_byte_foo_short;
     private static MethodHandle INDY_byte_foo_short () throws Throwable {
         if ( INDY_byte_foo_short != null ) return INDY_byte_foo_short;
@@ -740,7 +672,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(byte .class , short.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_byte_spread_short;
     private static MethodHandle INDY_byte_spread_short () throws Throwable {
@@ -751,7 +682,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(byte .class , short.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_byte_foo_int;
     private static MethodHandle INDY_byte_foo_int () throws Throwable {
         if ( INDY_byte_foo_int != null ) return INDY_byte_foo_int;
@@ -760,7 +690,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(byte .class , int.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_byte_spread_int;
     private static MethodHandle INDY_byte_spread_int () throws Throwable {
@@ -771,7 +700,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(byte .class , int.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_byte_foo_long;
     private static MethodHandle INDY_byte_foo_long () throws Throwable {
         if ( INDY_byte_foo_long != null ) return INDY_byte_foo_long;
@@ -780,7 +708,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(byte .class , long.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_byte_spread_long;
     private static MethodHandle INDY_byte_spread_long () throws Throwable {
@@ -791,7 +718,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(byte .class , long.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_byte_foo_float;
     private static MethodHandle INDY_byte_foo_float () throws Throwable {
         if ( INDY_byte_foo_float != null ) return INDY_byte_foo_float;
@@ -800,7 +726,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(byte .class , float.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_byte_spread_float;
     private static MethodHandle INDY_byte_spread_float () throws Throwable {
@@ -811,7 +736,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(byte .class , float.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_byte_foo_double;
     private static MethodHandle INDY_byte_foo_double () throws Throwable {
         if ( INDY_byte_foo_double != null ) return INDY_byte_foo_double;
@@ -820,7 +744,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(byte .class , double.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_byte_spread_double;
     private static MethodHandle INDY_byte_spread_double () throws Throwable {
@@ -831,7 +754,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(byte .class , double.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_char_foo_void;
     private static MethodHandle INDY_char_foo_void () throws Throwable {
         if ( INDY_char_foo_void != null ) return INDY_char_foo_void;
@@ -840,7 +762,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(char .class ))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_char_spread_void;
     private static MethodHandle INDY_char_spread_void () throws Throwable {
@@ -851,7 +772,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(char .class ))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_char_foo_boolean;
     private static MethodHandle INDY_char_foo_boolean () throws Throwable {
         if ( INDY_char_foo_boolean != null ) return INDY_char_foo_boolean;
@@ -860,7 +780,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(char .class , boolean.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_char_spread_boolean;
     private static MethodHandle INDY_char_spread_boolean () throws Throwable {
@@ -871,7 +790,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(char .class , boolean.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_char_foo_byte;
     private static MethodHandle INDY_char_foo_byte () throws Throwable {
         if ( INDY_char_foo_byte != null ) return INDY_char_foo_byte;
@@ -880,7 +798,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(char .class , byte.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_char_spread_byte;
     private static MethodHandle INDY_char_spread_byte () throws Throwable {
@@ -891,7 +808,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(char .class , byte.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_char_foo_char;
     private static MethodHandle INDY_char_foo_char () throws Throwable {
         if ( INDY_char_foo_char != null ) return INDY_char_foo_char;
@@ -900,7 +816,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(char .class , char.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_char_spread_char;
     private static MethodHandle INDY_char_spread_char () throws Throwable {
@@ -911,7 +826,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(char .class , char.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_char_foo_short;
     private static MethodHandle INDY_char_foo_short () throws Throwable {
         if ( INDY_char_foo_short != null ) return INDY_char_foo_short;
@@ -920,7 +834,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(char .class , short.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_char_spread_short;
     private static MethodHandle INDY_char_spread_short () throws Throwable {
@@ -931,7 +844,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(char .class , short.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_char_foo_int;
     private static MethodHandle INDY_char_foo_int () throws Throwable {
         if ( INDY_char_foo_int != null ) return INDY_char_foo_int;
@@ -940,7 +852,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(char .class , int.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_char_spread_int;
     private static MethodHandle INDY_char_spread_int () throws Throwable {
@@ -951,7 +862,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(char .class , int.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_char_foo_long;
     private static MethodHandle INDY_char_foo_long () throws Throwable {
         if ( INDY_char_foo_long != null ) return INDY_char_foo_long;
@@ -960,7 +870,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(char .class , long.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_char_spread_long;
     private static MethodHandle INDY_char_spread_long () throws Throwable {
@@ -971,7 +880,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(char .class , long.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_char_foo_float;
     private static MethodHandle INDY_char_foo_float () throws Throwable {
         if ( INDY_char_foo_float != null ) return INDY_char_foo_float;
@@ -980,7 +888,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(char .class , float.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_char_spread_float;
     private static MethodHandle INDY_char_spread_float () throws Throwable {
@@ -991,7 +898,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(char .class , float.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_char_foo_double;
     private static MethodHandle INDY_char_foo_double () throws Throwable {
         if ( INDY_char_foo_double != null ) return INDY_char_foo_double;
@@ -1000,7 +906,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(char .class , double.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_char_spread_double;
     private static MethodHandle INDY_char_spread_double () throws Throwable {
@@ -1011,7 +916,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(char .class , double.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_short_foo_void;
     private static MethodHandle INDY_short_foo_void () throws Throwable {
         if ( INDY_short_foo_void != null ) return INDY_short_foo_void;
@@ -1020,7 +924,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(short .class ))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_short_spread_void;
     private static MethodHandle INDY_short_spread_void () throws Throwable {
@@ -1031,7 +934,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(short .class ))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_short_foo_boolean;
     private static MethodHandle INDY_short_foo_boolean () throws Throwable {
         if ( INDY_short_foo_boolean != null ) return INDY_short_foo_boolean;
@@ -1040,7 +942,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(short .class , boolean.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_short_spread_boolean;
     private static MethodHandle INDY_short_spread_boolean () throws Throwable {
@@ -1051,7 +952,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(short .class , boolean.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_short_foo_byte;
     private static MethodHandle INDY_short_foo_byte () throws Throwable {
         if ( INDY_short_foo_byte != null ) return INDY_short_foo_byte;
@@ -1060,7 +960,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(short .class , byte.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_short_spread_byte;
     private static MethodHandle INDY_short_spread_byte () throws Throwable {
@@ -1071,7 +970,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(short .class , byte.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_short_foo_char;
     private static MethodHandle INDY_short_foo_char () throws Throwable {
         if ( INDY_short_foo_char != null ) return INDY_short_foo_char;
@@ -1080,7 +978,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(short .class , char.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_short_spread_char;
     private static MethodHandle INDY_short_spread_char () throws Throwable {
@@ -1091,7 +988,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(short .class , char.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_short_foo_short;
     private static MethodHandle INDY_short_foo_short () throws Throwable {
         if ( INDY_short_foo_short != null ) return INDY_short_foo_short;
@@ -1100,7 +996,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(short .class , short.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_short_spread_short;
     private static MethodHandle INDY_short_spread_short () throws Throwable {
@@ -1111,7 +1006,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(short .class , short.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_short_foo_int;
     private static MethodHandle INDY_short_foo_int () throws Throwable {
         if ( INDY_short_foo_int != null ) return INDY_short_foo_int;
@@ -1120,7 +1014,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(short .class , int.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_short_spread_int;
     private static MethodHandle INDY_short_spread_int () throws Throwable {
@@ -1131,7 +1024,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(short .class , int.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_short_foo_long;
     private static MethodHandle INDY_short_foo_long () throws Throwable {
         if ( INDY_short_foo_long != null ) return INDY_short_foo_long;
@@ -1140,7 +1032,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(short .class , long.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_short_spread_long;
     private static MethodHandle INDY_short_spread_long () throws Throwable {
@@ -1151,7 +1042,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(short .class , long.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_short_foo_float;
     private static MethodHandle INDY_short_foo_float () throws Throwable {
         if ( INDY_short_foo_float != null ) return INDY_short_foo_float;
@@ -1160,7 +1050,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(short .class , float.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_short_spread_float;
     private static MethodHandle INDY_short_spread_float () throws Throwable {
@@ -1171,7 +1060,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(short .class , float.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_short_foo_double;
     private static MethodHandle INDY_short_foo_double () throws Throwable {
         if ( INDY_short_foo_double != null ) return INDY_short_foo_double;
@@ -1180,7 +1068,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(short .class , double.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_short_spread_double;
     private static MethodHandle INDY_short_spread_double () throws Throwable {
@@ -1191,7 +1078,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(short .class , double.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_int_foo_void;
     private static MethodHandle INDY_int_foo_void () throws Throwable {
         if ( INDY_int_foo_void != null ) return INDY_int_foo_void;
@@ -1200,7 +1086,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(int .class ))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_int_spread_void;
     private static MethodHandle INDY_int_spread_void () throws Throwable {
@@ -1211,7 +1096,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(int .class ))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_int_foo_boolean;
     private static MethodHandle INDY_int_foo_boolean () throws Throwable {
         if ( INDY_int_foo_boolean != null ) return INDY_int_foo_boolean;
@@ -1220,7 +1104,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(int .class , boolean.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_int_spread_boolean;
     private static MethodHandle INDY_int_spread_boolean () throws Throwable {
@@ -1231,7 +1114,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(int .class , boolean.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_int_foo_byte;
     private static MethodHandle INDY_int_foo_byte () throws Throwable {
         if ( INDY_int_foo_byte != null ) return INDY_int_foo_byte;
@@ -1240,7 +1122,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(int .class , byte.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_int_spread_byte;
     private static MethodHandle INDY_int_spread_byte () throws Throwable {
@@ -1251,7 +1132,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(int .class , byte.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_int_foo_char;
     private static MethodHandle INDY_int_foo_char () throws Throwable {
         if ( INDY_int_foo_char != null ) return INDY_int_foo_char;
@@ -1260,7 +1140,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(int .class , char.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_int_spread_char;
     private static MethodHandle INDY_int_spread_char () throws Throwable {
@@ -1271,7 +1150,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(int .class , char.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_int_foo_short;
     private static MethodHandle INDY_int_foo_short () throws Throwable {
         if ( INDY_int_foo_short != null ) return INDY_int_foo_short;
@@ -1280,7 +1158,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(int .class , short.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_int_spread_short;
     private static MethodHandle INDY_int_spread_short () throws Throwable {
@@ -1291,7 +1168,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(int .class , short.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_int_foo_int;
     private static MethodHandle INDY_int_foo_int () throws Throwable {
         if ( INDY_int_foo_int != null ) return INDY_int_foo_int;
@@ -1300,7 +1176,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(int .class , int.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_int_spread_int;
     private static MethodHandle INDY_int_spread_int () throws Throwable {
@@ -1311,7 +1186,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(int .class , int.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_int_foo_long;
     private static MethodHandle INDY_int_foo_long () throws Throwable {
         if ( INDY_int_foo_long != null ) return INDY_int_foo_long;
@@ -1320,7 +1194,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(int .class , long.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_int_spread_long;
     private static MethodHandle INDY_int_spread_long () throws Throwable {
@@ -1331,7 +1204,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(int .class , long.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_int_foo_float;
     private static MethodHandle INDY_int_foo_float () throws Throwable {
         if ( INDY_int_foo_float != null ) return INDY_int_foo_float;
@@ -1340,7 +1212,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(int .class , float.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_int_spread_float;
     private static MethodHandle INDY_int_spread_float () throws Throwable {
@@ -1351,7 +1222,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(int .class , float.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_int_foo_double;
     private static MethodHandle INDY_int_foo_double () throws Throwable {
         if ( INDY_int_foo_double != null ) return INDY_int_foo_double;
@@ -1360,7 +1230,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(int .class , double.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_int_spread_double;
     private static MethodHandle INDY_int_spread_double () throws Throwable {
@@ -1371,7 +1240,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(int .class , double.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_long_foo_void;
     private static MethodHandle INDY_long_foo_void () throws Throwable {
         if ( INDY_long_foo_void != null ) return INDY_long_foo_void;
@@ -1380,7 +1248,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(long .class ))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_long_spread_void;
     private static MethodHandle INDY_long_spread_void () throws Throwable {
@@ -1391,7 +1258,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(long .class ))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_long_foo_boolean;
     private static MethodHandle INDY_long_foo_boolean () throws Throwable {
         if ( INDY_long_foo_boolean != null ) return INDY_long_foo_boolean;
@@ -1400,7 +1266,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(long .class , boolean.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_long_spread_boolean;
     private static MethodHandle INDY_long_spread_boolean () throws Throwable {
@@ -1411,7 +1276,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(long .class , boolean.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_long_foo_byte;
     private static MethodHandle INDY_long_foo_byte () throws Throwable {
         if ( INDY_long_foo_byte != null ) return INDY_long_foo_byte;
@@ -1420,7 +1284,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(long .class , byte.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_long_spread_byte;
     private static MethodHandle INDY_long_spread_byte () throws Throwable {
@@ -1431,7 +1294,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(long .class , byte.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_long_foo_char;
     private static MethodHandle INDY_long_foo_char () throws Throwable {
         if ( INDY_long_foo_char != null ) return INDY_long_foo_char;
@@ -1440,7 +1302,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(long .class , char.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_long_spread_char;
     private static MethodHandle INDY_long_spread_char () throws Throwable {
@@ -1451,7 +1312,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(long .class , char.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_long_foo_short;
     private static MethodHandle INDY_long_foo_short () throws Throwable {
         if ( INDY_long_foo_short != null ) return INDY_long_foo_short;
@@ -1460,7 +1320,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(long .class , short.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_long_spread_short;
     private static MethodHandle INDY_long_spread_short () throws Throwable {
@@ -1471,7 +1330,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(long .class , short.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_long_foo_int;
     private static MethodHandle INDY_long_foo_int () throws Throwable {
         if ( INDY_long_foo_int != null ) return INDY_long_foo_int;
@@ -1480,7 +1338,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(long .class , int.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_long_spread_int;
     private static MethodHandle INDY_long_spread_int () throws Throwable {
@@ -1491,7 +1348,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(long .class , int.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_long_foo_long;
     private static MethodHandle INDY_long_foo_long () throws Throwable {
         if ( INDY_long_foo_long != null ) return INDY_long_foo_long;
@@ -1500,7 +1356,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(long .class , long.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_long_spread_long;
     private static MethodHandle INDY_long_spread_long () throws Throwable {
@@ -1511,7 +1366,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(long .class , long.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_long_foo_float;
     private static MethodHandle INDY_long_foo_float () throws Throwable {
         if ( INDY_long_foo_float != null ) return INDY_long_foo_float;
@@ -1520,7 +1374,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(long .class , float.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_long_spread_float;
     private static MethodHandle INDY_long_spread_float () throws Throwable {
@@ -1531,7 +1384,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(long .class , float.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_long_foo_double;
     private static MethodHandle INDY_long_foo_double () throws Throwable {
         if ( INDY_long_foo_double != null ) return INDY_long_foo_double;
@@ -1540,7 +1392,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(long .class , double.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_long_spread_double;
     private static MethodHandle INDY_long_spread_double () throws Throwable {
@@ -1551,7 +1402,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(long .class , double.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_float_foo_void;
     private static MethodHandle INDY_float_foo_void () throws Throwable {
         if ( INDY_float_foo_void != null ) return INDY_float_foo_void;
@@ -1560,7 +1410,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(float .class ))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_float_spread_void;
     private static MethodHandle INDY_float_spread_void () throws Throwable {
@@ -1571,7 +1420,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(float .class ))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_float_foo_boolean;
     private static MethodHandle INDY_float_foo_boolean () throws Throwable {
         if ( INDY_float_foo_boolean != null ) return INDY_float_foo_boolean;
@@ -1580,7 +1428,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(float .class , boolean.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_float_spread_boolean;
     private static MethodHandle INDY_float_spread_boolean () throws Throwable {
@@ -1591,7 +1438,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(float .class , boolean.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_float_foo_byte;
     private static MethodHandle INDY_float_foo_byte () throws Throwable {
         if ( INDY_float_foo_byte != null ) return INDY_float_foo_byte;
@@ -1600,7 +1446,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(float .class , byte.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_float_spread_byte;
     private static MethodHandle INDY_float_spread_byte () throws Throwable {
@@ -1611,7 +1456,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(float .class , byte.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_float_foo_char;
     private static MethodHandle INDY_float_foo_char () throws Throwable {
         if ( INDY_float_foo_char != null ) return INDY_float_foo_char;
@@ -1620,7 +1464,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(float .class , char.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_float_spread_char;
     private static MethodHandle INDY_float_spread_char () throws Throwable {
@@ -1631,7 +1474,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(float .class , char.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_float_foo_short;
     private static MethodHandle INDY_float_foo_short () throws Throwable {
         if ( INDY_float_foo_short != null ) return INDY_float_foo_short;
@@ -1640,7 +1482,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(float .class , short.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_float_spread_short;
     private static MethodHandle INDY_float_spread_short () throws Throwable {
@@ -1651,7 +1492,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(float .class , short.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_float_foo_int;
     private static MethodHandle INDY_float_foo_int () throws Throwable {
         if ( INDY_float_foo_int != null ) return INDY_float_foo_int;
@@ -1660,7 +1500,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(float .class , int.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_float_spread_int;
     private static MethodHandle INDY_float_spread_int () throws Throwable {
@@ -1671,7 +1510,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(float .class , int.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_float_foo_long;
     private static MethodHandle INDY_float_foo_long () throws Throwable {
         if ( INDY_float_foo_long != null ) return INDY_float_foo_long;
@@ -1680,7 +1518,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(float .class , long.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_float_spread_long;
     private static MethodHandle INDY_float_spread_long () throws Throwable {
@@ -1691,7 +1528,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(float .class , long.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_float_foo_float;
     private static MethodHandle INDY_float_foo_float () throws Throwable {
         if ( INDY_float_foo_float != null ) return INDY_float_foo_float;
@@ -1700,7 +1536,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(float .class , float.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_float_spread_float;
     private static MethodHandle INDY_float_spread_float () throws Throwable {
@@ -1711,7 +1546,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(float .class , float.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_float_foo_double;
     private static MethodHandle INDY_float_foo_double () throws Throwable {
         if ( INDY_float_foo_double != null ) return INDY_float_foo_double;
@@ -1720,7 +1554,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(float .class , double.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_float_spread_double;
     private static MethodHandle INDY_float_spread_double () throws Throwable {
@@ -1731,7 +1564,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(float .class , double.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_double_foo_void;
     private static MethodHandle INDY_double_foo_void () throws Throwable {
         if ( INDY_double_foo_void != null ) return INDY_double_foo_void;
@@ -1740,7 +1572,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(double .class ))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_double_spread_void;
     private static MethodHandle INDY_double_spread_void () throws Throwable {
@@ -1751,7 +1582,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(double .class ))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_double_foo_boolean;
     private static MethodHandle INDY_double_foo_boolean () throws Throwable {
         if ( INDY_double_foo_boolean != null ) return INDY_double_foo_boolean;
@@ -1760,7 +1590,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(double .class , boolean.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_double_spread_boolean;
     private static MethodHandle INDY_double_spread_boolean () throws Throwable {
@@ -1771,7 +1600,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(double .class , boolean.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_double_foo_byte;
     private static MethodHandle INDY_double_foo_byte () throws Throwable {
         if ( INDY_double_foo_byte != null ) return INDY_double_foo_byte;
@@ -1780,7 +1608,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(double .class , byte.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_double_spread_byte;
     private static MethodHandle INDY_double_spread_byte () throws Throwable {
@@ -1791,7 +1618,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(double .class , byte.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_double_foo_char;
     private static MethodHandle INDY_double_foo_char () throws Throwable {
         if ( INDY_double_foo_char != null ) return INDY_double_foo_char;
@@ -1800,7 +1626,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(double .class , char.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_double_spread_char;
     private static MethodHandle INDY_double_spread_char () throws Throwable {
@@ -1811,7 +1636,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(double .class , char.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_double_foo_short;
     private static MethodHandle INDY_double_foo_short () throws Throwable {
         if ( INDY_double_foo_short != null ) return INDY_double_foo_short;
@@ -1820,7 +1644,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(double .class , short.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_double_spread_short;
     private static MethodHandle INDY_double_spread_short () throws Throwable {
@@ -1831,7 +1654,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(double .class , short.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_double_foo_int;
     private static MethodHandle INDY_double_foo_int () throws Throwable {
         if ( INDY_double_foo_int != null ) return INDY_double_foo_int;
@@ -1840,7 +1662,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(double .class , int.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_double_spread_int;
     private static MethodHandle INDY_double_spread_int () throws Throwable {
@@ -1851,7 +1672,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(double .class , int.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_double_foo_long;
     private static MethodHandle INDY_double_foo_long () throws Throwable {
         if ( INDY_double_foo_long != null ) return INDY_double_foo_long;
@@ -1860,7 +1680,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(double .class , long.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_double_spread_long;
     private static MethodHandle INDY_double_spread_long () throws Throwable {
@@ -1871,7 +1690,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(double .class , long.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_double_foo_float;
     private static MethodHandle INDY_double_foo_float () throws Throwable {
         if ( INDY_double_foo_float != null ) return INDY_double_foo_float;
@@ -1880,7 +1698,6 @@ import java.lang.invoke.MethodType;
                     "foo",
                     MethodType.methodType(double .class , float.class))).dynamicInvoker();
     }
-
 
     private static MethodHandle INDY_double_spread_float;
     private static MethodHandle INDY_double_spread_float () throws Throwable {
@@ -1891,7 +1708,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(double .class , float.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_double_foo_double;
     private static MethodHandle INDY_double_foo_double () throws Throwable {
         if ( INDY_double_foo_double != null ) return INDY_double_foo_double;
@@ -1901,7 +1717,6 @@ import java.lang.invoke.MethodType;
                     MethodType.methodType(double .class , double.class))).dynamicInvoker();
     }
 
-
     private static MethodHandle INDY_double_spread_double;
     private static MethodHandle INDY_double_spread_double () throws Throwable {
         if ( INDY_double_spread_double != null ) return INDY_double_spread_double;
@@ -1910,8 +1725,6 @@ import java.lang.invoke.MethodType;
                     "spread",
                     MethodType.methodType(double .class , double.class))).dynamicInvoker();
     }
-
-
 
     private static MethodType MT_bootstrap () { return MethodType.methodType(CallSite.class, MethodHandles.Lookup.class, String.class, MethodType.class); }
 

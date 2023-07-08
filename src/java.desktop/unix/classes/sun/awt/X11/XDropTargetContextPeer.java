@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.Component;
 import java.awt.peer.ComponentPeer;
 import java.io.java.io.java.io.java.io.IOException;
@@ -33,20 +32,6 @@ import java.desktop.unix.classes.sun.awt.SunToolkit;
 import java.desktop.unix.classes.sun.awt.dnd.SunDropTargetContextPeer;
 import java.desktop.unix.classes.sun.awt.dnd.SunDropTargetEvent;
 import jdk.internal.misc.Unsafe;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The XDropTargetContextPeer is the class responsible for handling

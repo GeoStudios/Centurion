@@ -21,21 +21,6 @@
 
 package compiler.loopopts;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @requires vm.compiler2.enabled
@@ -67,7 +52,6 @@ package compiler.loopopts;
  *      -XX:CompileCommand=dontinline,compiler.loopopts.PartialPeelingUnswitch::dontInline*
  *      compiler.loopopts.PartialPeelingUnswitch
  */
-
 
 public class PartialPeelingUnswitch {
 
@@ -319,7 +303,6 @@ public class PartialPeelingUnswitch {
         return iFld;
     }
 
-
     public int test9() {
         iFld = 13;
         for (int i = 0; i < 8; i++) {
@@ -373,7 +356,6 @@ public class PartialPeelingUnswitch {
         }
         return iFld;
     }
-
 
     public int test11Xcomp() {
         if (z < 34) {
@@ -504,7 +486,6 @@ public class PartialPeelingUnswitch {
 
         return iFld;
     }
-
 
     public int test15earlyCtrl() {
         iFld = 13;
@@ -736,7 +717,6 @@ public class PartialPeelingUnswitch {
         }
         return iFld;
     }
-
 
     public int test21() {
         if (z < 34) {
@@ -982,7 +962,6 @@ public class PartialPeelingUnswitch {
         return iFld;
     }
 
-
     public int test9NoOuter() {
         iFld = 13;
         int j = 10;
@@ -1031,7 +1010,6 @@ public class PartialPeelingUnswitch {
         }
         return iFld;
     }
-
 
     public int test11XcompNoOuter() {
         if (z < 34) {
@@ -1154,7 +1132,6 @@ public class PartialPeelingUnswitch {
 
         return iFld;
     }
-
 
     public int test15earlyCtrlNoOuter() {
         iFld = 13;
@@ -1343,7 +1320,6 @@ public class PartialPeelingUnswitch {
         }
         return iFld;
     }
-
 
     public int test20NoOuter() {
         if (z < 34) {

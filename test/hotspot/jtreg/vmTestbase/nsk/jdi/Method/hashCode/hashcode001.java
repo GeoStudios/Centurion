@@ -21,26 +21,12 @@
 
 package nsk.jdi.Method.hashCode;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -140,7 +126,6 @@ public class hashcode001 {
         String line1 = pipe1.readln();
 //        String line2 = pipe2.readln();
 
-
         if ((line1 == null) || !line1.equals("ready")) {
             log3("line1: signal received is not 'ready' but: " + line1);
             return FAILED;
@@ -195,7 +180,6 @@ public class hashcode001 {
                 break check;
             }
 */
-
 
             log1("check begins: ");
 

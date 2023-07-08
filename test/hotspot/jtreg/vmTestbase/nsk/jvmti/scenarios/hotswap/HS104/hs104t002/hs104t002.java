@@ -21,22 +21,8 @@
 
 package nsk.jvmti.scenarios.hotswap.HS104.hs104t002;
 
-
 import nsk.share.jvmti.RedefineAgent;
 import nsk.share.Wicket;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -66,8 +52,6 @@ import nsk.share.Wicket;
  *      -agentlib:hs104t002=pathToNewByteCode=./bin
  *      nsk.jvmti.scenarios.hotswap.HS104.hs104t002.hs104t002
  */
-
-
 
 /**
  * This class extends <b>RedefineAgent</b>.

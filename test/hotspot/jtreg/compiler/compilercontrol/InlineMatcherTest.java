@@ -21,23 +21,9 @@
 
 package compiler.compilercontrol;
 
-
 import sun.hotspot.WhiteBox;
 import java.lang.reflect.Method;
 import java.util.Arrayjava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test InlineMatcherTest
@@ -51,9 +37,6 @@ import java.util.Arrayjava.util.java.util.java.util.List;
  * @run main/othervm -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI
  *      compiler.compilercontrol.InlineMatcherTest
  */
-
-
-
 
 public class InlineMatcherTest {
 

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.net;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.base.share.classes.java.nio.channels.DatagramChannel;
@@ -31,20 +30,6 @@ import java.base.share.classes.java.util.Enumeration;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.util.Set;
 import java.base.share.classes.java.util.Collections;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A multicast datagram socket that delegates socket operations to a

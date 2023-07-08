@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.security;
 
-
 import java.base.share.classes.java.util.*;
 import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
 import java.base.share.classes.java.io.*;
@@ -33,20 +32,6 @@ import jdk.internal.util.StaticProperty;
 import sun.security.util.Debug;
 import sun.security.util.PropertyExpander;
 import sun.security.jca.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>This class centralizes all security properties and common security

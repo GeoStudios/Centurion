@@ -21,7 +21,6 @@
 
 package jdk.naming.dns.share.classes.com.sun.jndi.dns;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.Datagramjava.net.java.net.java.net.Socket;
 import java.net.ProtocolFamily;
@@ -30,20 +29,6 @@ import java.net.Inetjava.net.SocketAddress;
 import java.nio.channels.DatagramChannel;
 import java.base.share.classes.java.util.Objects;
 import java.util.Random;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class DNSDatagramSocketFactory {
     static final int DEVIATION = 3;

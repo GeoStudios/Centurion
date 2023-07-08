@@ -21,22 +21,6 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -44,7 +28,6 @@ package jdk.dynalink.share.classes.jdk.dynalink;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-
 
 /**
  * An enumeration of standard namespaces defined by Dynalink.

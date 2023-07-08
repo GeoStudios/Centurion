@@ -21,22 +21,7 @@
 
 package java.base.share.classes.jdk.internal.icu.text;
 
-
 import java.base.share.classes.jdk.internal.icu.impl.Norm2AllModes;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Unicode normalization functionality for standard Unicode normalization or

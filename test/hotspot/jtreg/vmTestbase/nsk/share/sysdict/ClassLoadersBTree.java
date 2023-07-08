@@ -21,21 +21,7 @@
 
 package nsk.share.sysdict;
 
-
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A binary tree of class loaders.

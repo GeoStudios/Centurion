@@ -21,24 +21,10 @@
 
 package nsk.share.jpda;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.Inetjava.net.SocketAddress;
 import java.net.java.net.java.net.Serverjava.net.java.net.Socket;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This class represents communication channel based on TCP/IP sockets.

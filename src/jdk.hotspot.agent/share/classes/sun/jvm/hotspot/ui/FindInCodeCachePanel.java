@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
 
-
 import java.io.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -34,20 +33,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.classbrowser.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Finds a given (Address) value in the code cache. Only intended for use
     in a debugging system. */
@@ -140,7 +125,6 @@ public class FindInCodeCachePanel extends SAPanel {
       }
     }
   }
-
 
   public FindInCodeCachePanel() {
     super();

@@ -21,22 +21,6 @@
 
 package java.base.share.classes.sun.security.tools.keytool;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * <p> This class represents the <code>ResourceBundle</code>
  * for the keytool.
@@ -480,7 +464,6 @@ public class Resources_pt_BR extends java.util.ListResourceBundle {
         {"backup.keystore.warning", "O backup do armazenamento de chaves original \"%1$s\" \u00E9 feito como \"%3$s\"..."},
         {"importing.keystore.status", "Importando armazenamento de chaves %1$s to %2$s..."},
     };
-
 
     /**
      * Returns the contents of this <code>ResourceBundle</code>.

@@ -21,21 +21,6 @@
 
 package nsk.share.locks;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  *  Types of resources used for deadlock creation
  */

@@ -21,23 +21,9 @@
 
 package nsk.jvmti.unit.FollowReferences;
 
-
 import java.io.PrintStream;
 import nsk.share.jvmti.*;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class followref006 extends DebugeeClass {
 

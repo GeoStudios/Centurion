@@ -21,21 +21,7 @@
 
 package nsk.jvmti.GetBytecodes;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class bytecodes003 {
 

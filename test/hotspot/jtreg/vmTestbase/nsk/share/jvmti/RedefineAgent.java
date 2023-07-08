@@ -21,22 +21,8 @@
 
 package nsk.share.jvmti;
 
-
 import nsk.share.Log;
 import static nsk.share.Consts.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *
@@ -117,7 +103,6 @@ public abstract class RedefineAgent {
     /**
      * This method <i>agentMethod</i> needs to be implemented by the
      */
-
 
     abstract public boolean agentMethod();
 

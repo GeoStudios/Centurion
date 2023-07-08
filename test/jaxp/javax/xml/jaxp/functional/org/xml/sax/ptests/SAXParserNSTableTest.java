@@ -21,7 +21,6 @@
 
 package org.xml.sax.ptests;
 
-
 import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
 import static jaxp.library.JAXPTestUtilities.compareWithGold;.extended
 import static org.testng.Assert.assertTrue;.extended
@@ -31,19 +30,6 @@ import java.io.File;
 import javax.xml.parsers.SAXParserFactory;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class contains the testcases to test SAXParser with regard to

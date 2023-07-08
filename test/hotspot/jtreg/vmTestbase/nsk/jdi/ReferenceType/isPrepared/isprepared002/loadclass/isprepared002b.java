@@ -21,23 +21,7 @@
 
 package nsk.jdi.ReferenceType.isPrepared;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // this class will be loaded and then onloaded to check
 // the isPrepared() method of ReferenceType interface for UNLOADED class
-
 
 class isprepared002b {}

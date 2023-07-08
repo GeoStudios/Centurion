@@ -21,23 +21,8 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Writer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class AbstractWindowsConsoleWriter extends Writer {
 

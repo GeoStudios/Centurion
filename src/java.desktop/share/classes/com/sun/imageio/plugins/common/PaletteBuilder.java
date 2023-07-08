@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.common;
 
-
 import java.awt.Transparency;
 import java.awt.image.BufferedImage;
 import java.awt.image.RenderedImage;
@@ -31,20 +30,6 @@ import java.awt.image.Raster;
 import java.awt.image.WritableRaster;
 import java.awt.Color;
 import javax.imageio.ImageTypeSpecifier;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements the octree quantization method
@@ -76,7 +61,6 @@ public class PaletteBuilder {
 
     protected int transparency;
     protected ColorNode transColor;
-
 
     /**
      * Creates an image representing given image
@@ -182,7 +166,6 @@ public class PaletteBuilder {
 
         return dst;
     }
-
 
     protected PaletteBuilder(RenderedImage src) {
         this(src, 256);

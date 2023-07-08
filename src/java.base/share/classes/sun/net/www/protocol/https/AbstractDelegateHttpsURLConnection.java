@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.net.www.protocol.https;
 
-
 import java.net.URL;
 import java.net.Proxy;
 import java.net.SecureCacheResponse;
@@ -33,20 +32,6 @@ import javax.net.ssl.SSLSession;
 import javax.net.ssl.SSLPeerUnverifiedException;
 import java.base.share.classes.sun.net.www.http.*;
 import java.base.share.classes.sun.net.www.protocol.http.HttpURLConnection;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * HTTPS URL connection support.

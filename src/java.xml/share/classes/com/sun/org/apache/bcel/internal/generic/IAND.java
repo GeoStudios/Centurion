@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * IAND - Bitwise AND int
@@ -53,7 +36,6 @@ public class IAND extends ArithmeticInstruction {
     public IAND() {
         super(com.sun.org.apache.bcel.internal.Const.IAND);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

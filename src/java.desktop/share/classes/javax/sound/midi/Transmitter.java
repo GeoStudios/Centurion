@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.sound.midi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A {@code Transmitter} sends {@link MidiEvent} objects to one or more
  * {@link Receiver Receivers}. Common MIDI transmitters include sequencers and

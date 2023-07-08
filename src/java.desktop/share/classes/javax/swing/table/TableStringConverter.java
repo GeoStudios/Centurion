@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.table;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * TableStringConverter is used to convert objects from the model into
  * strings.  This is useful in filtering and searching when the model returns

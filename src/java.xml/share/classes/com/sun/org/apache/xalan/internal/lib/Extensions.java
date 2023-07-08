@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.lib;
 
-
 import java.util.StringTokenizer;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.extensions.ExpressionContext;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.NodeSet;
@@ -36,20 +35,6 @@ import java.xml.share.classes.com.sun.org.w3c.dom.Nodejava.util.java.util.java.u
 import java.xml.share.classes.com.sun.org.w3c.dom.Text;
 import java.xml.share.classes.com.sun.org.w3c.dom.traversal.NodeIterator;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXNotSupportedException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class contains many of the Xalan-supplied extensions.

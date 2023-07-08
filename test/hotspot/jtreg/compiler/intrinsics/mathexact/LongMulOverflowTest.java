@@ -21,21 +21,6 @@
 
 package compiler.intrinsics.mathexact;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8191915
@@ -46,7 +31,6 @@ package compiler.intrinsics.mathexact;
  *
  * @run main/othervm -Xcomp -XX:-TieredCompilation compiler.intrinsics.mathexact.LongMulOverflowTest
  */
-
 
 public class LongMulOverflowTest {
     public static void main(String[] args) {

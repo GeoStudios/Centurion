@@ -21,7 +21,6 @@
 
 package jdk.internal.net.http.hpack;
 
-
 import jdk.internal.net.http.hpack.SimpleHeaderTable.HeaderField;
 import org.testng.annotations.Test;
 import java.nio.charset.StandardCharsets;
@@ -38,19 +37,6 @@ import static jdk.internal.net.http.hpack.TestHelper.assertVoidThrows;.extended
 import static jdk.internal.net.http.hpack.TestHelper.newRandom;.extended
 import static java.lang.String.format;.extended
 import static org.testng.Assert.assertEquals;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class SimpleHeaderTableTest {
 

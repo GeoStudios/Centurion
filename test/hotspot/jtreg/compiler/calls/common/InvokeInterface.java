@@ -21,21 +21,7 @@
 
 package compiler.calls.common;
 
-
 import jdk.test.lib.Asserts;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A test class checking InvokeInterface instruction

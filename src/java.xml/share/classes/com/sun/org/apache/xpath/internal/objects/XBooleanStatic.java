@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.objects;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * This class doesn't have any XPathContext, so override

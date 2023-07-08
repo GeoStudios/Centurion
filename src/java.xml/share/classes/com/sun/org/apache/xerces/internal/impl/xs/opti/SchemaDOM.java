@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.opti;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLSymbols;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
@@ -35,20 +34,6 @@ import java.xml.share.classes.com.sun.org.w3c.dom.DOMImplementation;
 import java.xml.share.classes.com.sun.org.w3c.dom.Element;
 import java.xml.share.classes.com.sun.org.w3c.dom.NamedNodeMap;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @xerces.internal
@@ -75,7 +60,6 @@ public class SchemaDOM extends DefaultDocument {
     public SchemaDOM() {
         reset();
     }
-
 
     public ElementImpl startElement(QName element, XMLAttributes attributes,
             int line, int column, int offset) {
@@ -155,7 +139,6 @@ public class SchemaDOM extends DefaultDocument {
         node.row = currLoc;
         node.col = i;
     }
-
 
     public void endElement()  {
         // the parent of current parent node becomes the parent
@@ -283,7 +266,6 @@ public class SchemaDOM extends DefaultDocument {
         relations[i] = temp;
     }
 
-
     public void reset() {
 
         // help out the garbage collector
@@ -303,7 +285,6 @@ public class SchemaDOM extends DefaultDocument {
         relations[currLoc][0] = parent;
     }
 
-
     public void printDOM() {
         /*
          for (int i=0; i<relations.length; i++) {
@@ -319,7 +300,6 @@ public class SchemaDOM extends DefaultDocument {
          */
         //traverse(getDocumentElement(), 0);
     }
-
 
     // debug methods
 

@@ -21,25 +21,11 @@
 
 package vm.mlvm.meth.share.transform.v2;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.base.share.classes.java.util.Arrays;
 import vm.mlvm.meth.share.Argument;
 import vm.mlvm.meth.share.Arguments;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is fully equivalent version of MHDropTF that just covers another version of dropArguments()

@@ -21,23 +21,9 @@
 
 package nsk.jdi.ObjectReference.setValue;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is a debuggee class.
@@ -64,7 +50,6 @@ public class setvalue002t {
     char    charFld = 'a';
     boolean booleanFld = false;
     String  strFld = "instance field";
-
 
     public static void main(String args[]) {
         System.exit(run(args) + Consts.JCK_STATUS_BASE);

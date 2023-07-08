@@ -21,21 +21,6 @@
 
 package nsk.jdi.Argument.value;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Debugee.
  */

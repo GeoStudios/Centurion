@@ -21,23 +21,8 @@
 
 package java.smartcardio.windows.classes.sun.security.smartcardio;
 
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Platform specific code and constants
 class PlatformPCSC {

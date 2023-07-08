@@ -21,21 +21,6 @@
 
 package compiler.allocation;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8237581
@@ -45,7 +30,6 @@ package compiler.allocation;
  * @run main/othervm -Xbatch -XX:+IgnoreUnrecognizedVMOptions -XX:+PrintCompilation -XX:+PrintEliminateAllocations -XX:-DoEscapeAnalysis -XX:CompileCommand=compileonly,compiler.allocation.TestAllocation::test*
  *                   compiler.allocation.TestAllocation
  */
-
 
 public class TestAllocation {
 

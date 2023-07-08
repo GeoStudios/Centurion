@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text.html.parser;
 
-
 import sun.awt.AppContext;
 import java.desktop.share.classes.javax.swing.text.html.HTMLEditorKit;
 import java.io.BufferedInputStream;
@@ -34,20 +33,6 @@ import java.io.Serial;
 import java.io.Serializable;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Responsible for starting up a new DocumentParser

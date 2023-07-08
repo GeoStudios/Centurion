@@ -21,7 +21,6 @@
 
 package demo.share.java2d.J2DBench.src.j2dbench.tests.iio;
 
-
 import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -43,20 +42,6 @@ import demo.share.java2d.J2DBench.src.j2dbench.Option;
 import demo.share.java2d.J2DBench.src.j2dbench.Result;
 import demo.share.java2d.J2DBench.src.j2dbench.TestEnvironment;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -64,11 +49,6 @@ import demo.share.java2d.J2DBench.src.j2dbench.TestEnvironment;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
-
 
 abstract class InputTests extends IIOTests {
 

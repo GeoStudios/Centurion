@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.util.EnumSet;
 import java.util.Map;
@@ -32,20 +31,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Options;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Pair;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class for handling -Xlint suboptions and @SuppressWarnings.
@@ -75,7 +60,6 @@ public class Lint
     public Lint augment(Attribute.Compound attr) {
         return augmentor.augment(this, attr);
     }
-
 
     /**
      * Returns the result of combining the values in this object with

@@ -21,7 +21,6 @@
 
 package nsk.jdi.ThreadStartRequest.addThreadFilter;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -154,7 +140,6 @@ public class addthreadfilter002 {
 
     static int  testExitCode = PASSED;
 
-
     //------------------------------------------------------ methods
 
     private int runThis (String argv[], PrintStream out) {
@@ -243,7 +228,6 @@ public class addthreadfilter002 {
         return testExitCode;
     }
 
-
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -271,7 +255,6 @@ public class addthreadfilter002 {
         }
 
     }
-
 
     private void testRun()
                  throws JDITestRuntimeException, Exception {
@@ -309,7 +292,6 @@ public class addthreadfilter002 {
     //------------------------------------------------------  testing section
 
         log1("     TESTING BEGINS");
-
 
         for (int i = 0; ; i++) {
 
@@ -448,7 +430,6 @@ public class addthreadfilter002 {
         return breakpRequest;
     }
 
-
     private void getEventSet()
                  throws JDITestRuntimeException {
         try {
@@ -463,7 +444,6 @@ public class addthreadfilter002 {
             throw new JDITestRuntimeException("** EXCEPTION while waiting for event ** : " + e);
         }
     }
-
 
     private void breakpointForCommunication()
                  throws JDITestRuntimeException {

@@ -21,7 +21,6 @@
 
 package java.management.share.classes.javax.management.relation;
 
-
 import java.management.share.classes.javax.management.Notification;
 import java.management.share.classes.javax.management.ObjectName;
 import java.io.InvalidObjectException;
@@ -39,20 +38,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
 import com.sun.jmx.mbeanserver.GetPropertyAction;
 import static com.sun.jmx.mbeanserver.Util.cast;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A notification of a change in the Relation Service.
@@ -582,7 +567,6 @@ public class RelationNotification extends Notification {
         relationTypeName = tmpRelationTypeName;
         roleName = tmpRoleName;
     }
-
 
     /**
      * Serializes a {@link RelationNotification} to an {@link ObjectOutputStream}.

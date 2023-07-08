@@ -21,21 +21,6 @@
 
 package nsk.share.aod;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * Class contains information about dynamically attached agent
  */

@@ -21,7 +21,6 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code.site;
 
-
 import java.util.Map;
 import java.base.share.classes.java.util.Objects;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code.BytecodePosition;
@@ -30,20 +29,6 @@ import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code.Refere
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code.Register;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code.RegisterSaveLayout;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.MetaUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents an infopoint with associated debug info. Note that safepoints are also infopoints.

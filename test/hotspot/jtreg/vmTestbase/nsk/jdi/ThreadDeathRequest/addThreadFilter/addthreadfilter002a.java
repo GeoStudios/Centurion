@@ -21,23 +21,9 @@
 
 package nsk.jdi.ThreadDeathRequest.addThreadFilter;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the addthreadfilter002 JDI test.
@@ -92,7 +78,6 @@ public class addthreadfilter002a {
         log1("debuggee started!");
 
         int exitCode = PASSED;
-
 
         label0:
             for (int i = 0; ; i++) {

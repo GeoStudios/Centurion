@@ -21,25 +21,11 @@
 
 package nsk.monitoring.share.server;
 
-
 import javax.management.*;
 import java.lang.management.*;
 import nsk.monitoring.share.*;
 import java.util.*;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ServerMonitoringFactory implements MonitoringFactory {
         private MBeanServer mbeanServer;

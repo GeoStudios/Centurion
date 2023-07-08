@@ -21,23 +21,8 @@
 
 package java.base.share.classes.sun.security.provider.certpath;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.security.cert.CertPathBuilderException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is a subclass of the generic <code>CertPathBuilderException</code>.

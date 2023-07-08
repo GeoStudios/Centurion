@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.text;
 
-
 import java.base.share.classes.java.io.InvalidObjectException;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.ObjectInputStream;
@@ -31,20 +30,6 @@ import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
 import java.base.share.classes.java.util.Date;
 import java.base.share.classes.java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Locale;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * {@code MessageFormat} provides a means to produce concatenated
@@ -415,7 +400,6 @@ public class MessageFormat extends Format {
         return locale;
     }
 
-
     /**
      * Sets the pattern used by this message format.
      * The method parses the pattern and creates a list of subformats
@@ -516,7 +500,6 @@ public class MessageFormat extends Format {
             }
             this.pattern = segments[0].toString();
     }
-
 
     /**
      * Returns a pattern representing the current state of the message format.
@@ -1130,7 +1113,6 @@ public class MessageFormat extends Format {
     public int hashCode() {
         return pattern.hashCode(); // enough for reasonable distribution
     }
-
 
     /**
      * Defines constants that are used as attribute keys in the

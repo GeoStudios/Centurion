@@ -21,23 +21,8 @@
 
 package jdk.naming.dns.share.classes.com.sun.jndi.dns;
 
-
 import java.util.Vector;
 import javax.naming.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The ResourceRecords class represents the resource records in the
@@ -46,7 +31,6 @@ import javax.naming.*;
  * The additional records section is currently ignored.
  *
  */
-
 
 class ResourceRecords {
 

@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.sun.swing;
 
-
 import java.util.*;
 import java.lang.reflect.Array;
 import javax.swing.SwingUtilities;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An abstract class to be used in the cases where we need {@code Runnable}

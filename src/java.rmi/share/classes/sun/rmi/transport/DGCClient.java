@@ -21,7 +21,6 @@
 
 package java.rmi.share.classes.sun.rmi.transport;
 
-
 import java.io.InvalidClassException;
 import java.lang.ref.PhantomReference;
 import java.lang.ref.ReferenceQueue;
@@ -48,20 +47,6 @@ import java.rmi.share.classes.sun.rmi.server.Util;
 import java.security.AccessControlContext;
 import java.security.Permissions;
 import java.security.ProtectionDomain;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * DGCClient implements the client-side of the RMI distributed garbage

@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.event;
 
-
 import java.util.Eventjava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Interface for an observer to register to receive notifications

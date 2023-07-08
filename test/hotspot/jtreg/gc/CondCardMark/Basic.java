@@ -21,21 +21,6 @@
 
 package gc.CondCardMark;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8076987

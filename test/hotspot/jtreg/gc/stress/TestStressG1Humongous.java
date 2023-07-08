@@ -21,7 +21,6 @@
 
 package gc.stress;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Collections;
@@ -31,19 +30,6 @@ import jdk.test.lib.Platform;
 import jdk.test.lib.Utils;
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.process.OutputAnalyzer;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestStressG1Humongous
@@ -55,8 +41,6 @@ import jdk.test.lib.process.OutputAnalyzer;
  * @modules java.base/jdk.internal.misc
  * @run driver/timeout=1300 gc.stress.TestStressG1Humongous
  */
-
-
 
 public class TestStressG1Humongous{
 

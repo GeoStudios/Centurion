@@ -21,22 +21,6 @@
 
 package java.rmi.share.classes.java.rmi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A <code>NoSuchObjectException</code> is thrown if an attempt is made to
  * invoke a method on an object that no longer exists in the remote virtual

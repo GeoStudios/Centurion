@@ -21,22 +21,7 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.linker;
 
-
 import jdk.dynalink.share.classes.jdk.dynalink.linker.support.CompositeTypeBasedGuardingDynamicLinker;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -45,8 +30,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.support.CompositeTypeBased
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-
-
 
 /**
  * A guarding dynamic linker that can determine whether it can link the call site solely based on the type of the first

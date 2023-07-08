@@ -21,22 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** An interface containing layout character constants used in Java
  *  programs.
  *

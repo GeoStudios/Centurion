@@ -21,21 +21,7 @@
 
 package nsk.stress.thread;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -51,8 +37,6 @@ import java.io.PrintStream;
  *
  * @run main/othervm nsk.stress.thread.thread008 500 2m 5s
  */
-
-
 
 /**
  * Try to start the given number of threads of lower priority and

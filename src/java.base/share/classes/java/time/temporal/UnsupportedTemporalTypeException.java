@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.time.temporal;
 
-
 import java.base.share.classes.java.time.DateTimeException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * UnsupportedTemporalTypeException indicates that a ChronoField or ChronoUnit is

@@ -21,25 +21,11 @@
 
 package MyPackage;
 
-
 import java.lang.management.ManagementFactory;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import com.sun.management.HotSpotDiagnosticMXBean;
 import com.sun.management.VMOption;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** API for handling the underlying heap sampling monitoring system. */
 public class HeapMonitor {

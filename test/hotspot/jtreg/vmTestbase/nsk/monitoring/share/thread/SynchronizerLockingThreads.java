@@ -21,7 +21,6 @@
 
 package nsk.monitoring.share.thread;
 
-
 import java.lang.management.*;
 import nsk.share.log.*;
 import java.util.Map;
@@ -29,19 +28,6 @@ import java.util.HashMap;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Scenario that starts two threads that use locks * to synchronize.
@@ -172,7 +158,6 @@ public class SynchronizerLockingThreads implements ThreadMonitoringScenario, Log
                         }
                 }
 
-
                 public void waitState() {
                         synchronized (readyLock) {
                                 while (!ready) {
@@ -259,7 +244,6 @@ public class SynchronizerLockingThreads implements ThreadMonitoringScenario, Log
                                 element.getClassName().startsWith("jdk.internal.misc.");
                 }
         }
-
 
         public void begin() {
                 thread1.begin();

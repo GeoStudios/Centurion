@@ -21,24 +21,9 @@
 
 package utils.LogCompilation.src.main.java.com.sun.hotspot.tools.compiler;
 
-
 import utils.LogCompilation.src.main.java.io.PrintStream;
 import utils.LogCompilation.src.main.java.util.Arrayjava.util.java.util.java.util.List;
 import utils.LogCompilation.src.main.java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents an uncommon trap encountered during a compilation.
@@ -91,7 +76,6 @@ class UncommonTrapEvent extends BasicLogEvent {
             indent += 2;
         }
     }
-
 
     public String getReason() {
         return reason;

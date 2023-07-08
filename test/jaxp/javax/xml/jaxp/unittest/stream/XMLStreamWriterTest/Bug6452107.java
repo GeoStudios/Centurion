@@ -21,7 +21,6 @@
 
 package stream.XMLStreamWriterTest;
 
-
 import java.io.ByteArrayOutputStream;
 import java.io.OutputStream;
 import javax.xml.stream.XMLOutputFactory;
@@ -30,19 +29,6 @@ import javax.xml.stream.XMLStreamWriter;
 import org.testng.Assert;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

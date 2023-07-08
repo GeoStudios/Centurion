@@ -21,7 +21,6 @@
 
 package validation;
 
-
 import static jaxp.library.JAXPTestUtilities.runWithAllPerm;.extended
 import java.io.File;
 import java.io.FileFilter;
@@ -46,19 +45,6 @@ import org.w3c.dom.Document;
 import org.xml.sax.ErrorHandler;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

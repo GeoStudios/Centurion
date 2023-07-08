@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.nio.file.attribute;
 
-
 import java.base.share.classes.java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * File attributes associated with files on file systems used by operating systems

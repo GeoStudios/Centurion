@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
-
 import java.awt.image.Raster;
 import java.awt.image.WritableRaster;
 import java.awt.image.RasterFormatException;
@@ -30,20 +29,6 @@ import java.awt.image.BandedSampleModel;
 import java.awt.image.DataBufferByte;
 import java.awt.Rectangle;
 import java.awt.Point;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class defines a Raster with pixels consisting of multiple
@@ -165,7 +150,6 @@ public class ByteBandedRaster extends SunWritableRaster {
         }
         verify();
     }
-
 
     /**
      * Returns a copy of the data offsets array. For each band the data
@@ -766,7 +750,6 @@ public class ByteBandedRaster extends SunWritableRaster {
                     minX + ", " + minY + ") / (" +
                     sampleModelTranslateX + ", " + sampleModelTranslateY + ")");
         }
-
 
         if (height > 1 || minY - sampleModelTranslateY > 0) {
             // buffer should contain at least one scanline

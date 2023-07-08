@@ -21,26 +21,12 @@
 
 package jdk.vm.ci.code.test;
 
-
 import jdk.vm.ci.code.Register;
 import jdk.vm.ci.code.site.DataSectionReference;
 import jdk.vm.ci.hotspot.HotSpotConstant;
 import jdk.vm.ci.meta.ResolvedJavaType;
 import org.junit.Assume;
 import org.junit.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -57,8 +43,6 @@ import org.junit.Test;
  * @compile CodeInstallationTest.java DebugInfoTest.java TestAssembler.java TestHotSpotVMConfig.java amd64/AMD64TestAssembler.java aarch64/AArch64TestAssembler.java
  * @run junit/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler jdk.vm.ci.code.test.DataPatchTest
  */
-
-
 
 /**
  * Test code installation with data patches.

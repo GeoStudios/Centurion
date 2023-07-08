@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.util.locale.provider;
 
-
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.text.spi.DateFormatProvider;
@@ -30,20 +29,6 @@ import java.base.share.classes.java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.Set;
 import java.util.TimeZone;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Concrete implementation of the  {@link java.text.spi.DateFormatProvider

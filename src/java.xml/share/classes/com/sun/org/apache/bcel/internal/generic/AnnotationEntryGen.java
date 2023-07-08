@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.DataInput;
@@ -38,20 +37,6 @@ import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Runtime
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.RuntimeInvisibleParameterAnnotations;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.RuntimeVisibleAnnotations;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.RuntimeVisibleParameterAnnotations;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @LastModified: Jan 2020
@@ -206,7 +191,6 @@ public class AnnotationEntryGen {
         return isRuntimeVisible;
     }
 
-
     /**
      * Converts a list of AnnotationGen objects into a set of attributes
      * that can be attached to the class file.
@@ -282,7 +266,6 @@ public class AnnotationEntryGen {
         }
         return null;
     }
-
 
     /**
      * Annotations against a class are stored in one of four attribute kinds:

@@ -21,7 +21,6 @@
 
 package nsk.jdi.ClassPrepareEvent.referenceType;
 
-
 import com.sun.jdi.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
@@ -30,19 +29,6 @@ import java.util.Iterator;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // This class is the debugger in the test
 
@@ -90,7 +76,6 @@ public class refType001 {
         testFailed = false;
         eventsReceived = false;
         threadsStarted = false;
-
 
         argHandler = new ArgumentHandler(args);
         log = new Log(out, argHandler);

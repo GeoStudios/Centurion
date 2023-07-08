@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.AWTEvent;
 import java.awt.BorderLayout;
 import java.awt.Component;
@@ -61,20 +60,6 @@ import java.desktop.share.classes.javax.swing.filechooser.FileFilter;
 import java.desktop.share.classes.javax.swing.filechooser.FileSystemView;
 import java.desktop.share.classes.javax.swing.filechooser.FileView;
 import java.desktop.share.classes.javax.swing.plaf.FileChooserUI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>JFileChooser</code> provides a simple mechanism for the user to
@@ -139,7 +124,6 @@ public class JFileChooser extends JComponent implements Accessible {
      */
     public static final int CUSTOM_DIALOG = 2;
 
-
     // ********************************
     // ***** Dialog Return Values *****
     // ********************************
@@ -159,11 +143,9 @@ public class JFileChooser extends JComponent implements Accessible {
      */
     public static final int ERROR_OPTION = -1;
 
-
     // **********************************
     // ***** JFileChooser properties *****
     // **********************************
-
 
     /** Instruction to display only files. */
     public static final int FILES_ONLY = 0;
@@ -356,7 +338,6 @@ public class JFileChooser extends JComponent implements Accessible {
     public JFileChooser(FileSystemView fsv) {
         this((File) null, fsv);
     }
-
 
     /**
      * Constructs a <code>JFileChooser</code> using the given current directory
@@ -858,7 +839,6 @@ public class JFileChooser extends JComponent implements Accessible {
         return controlsShown;
     }
 
-
     /**
      * Sets the property
      * that indicates whether the <i>approve</i> and <i>cancel</i>
@@ -993,8 +973,6 @@ public class JFileChooser extends JComponent implements Accessible {
     // ***** JFileChooser View Options *****
     // ************************************
 
-
-
     /**
      * Sets the tooltip text used in the <code>ApproveButton</code>.
      * If <code>null</code>, the UI object will determine the button's text.
@@ -1014,7 +992,6 @@ public class JFileChooser extends JComponent implements Accessible {
         approveButtonToolTipText = toolTipText;
         firePropertyChange(APPROVE_BUTTON_TOOL_TIP_TEXT_CHANGED_PROPERTY, oldValue, approveButtonToolTipText);
     }
-
 
     /**
      * Returns the tooltip text used in the <code>ApproveButton</code>.
@@ -1071,7 +1048,6 @@ public class JFileChooser extends JComponent implements Accessible {
         }
         setApproveButtonMnemonic(vk);
     }
-
 
     /**
      * Sets the text used in the <code>ApproveButton</code> in the
@@ -1409,7 +1385,6 @@ public class JFileChooser extends JComponent implements Accessible {
         return multiSelectionEnabled;
     }
 
-
     /**
      * Returns true if hidden files are not shown in the file chooser;
      * otherwise, returns false.
@@ -1475,7 +1450,6 @@ public class JFileChooser extends JComponent implements Accessible {
         }
         firePropertyChange(FILE_FILTER_CHANGED_PROPERTY, oldValue, fileFilter);
     }
-
 
     /**
      * Returns the currently selected file filter.
@@ -1950,7 +1924,6 @@ public class JFileChooser extends JComponent implements Accessible {
             }
         }
     }
-
 
     /**
      * Returns a string representation of this <code>JFileChooser</code>.

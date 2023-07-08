@@ -21,22 +21,6 @@
 
 package jdk.jshell.share.classes.jdk.jshell;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Grouping for Snippets which persist and influence future code.
  * A persistent snippet can be

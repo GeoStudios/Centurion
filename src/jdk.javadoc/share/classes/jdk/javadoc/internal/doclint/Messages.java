@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclint;
 
-
 import java.io.PrintWriter;
 import java.text.MessageFormat;
 import java.util.Comparator;
@@ -38,20 +37,6 @@ import com.sun.source.doctree.DocTree;
 import com.sun.source.tree.Tree;
 import com.sun.tools.javac.util.StringUtils;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclint.Env.AccessKind;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Message reporting for DocLint.

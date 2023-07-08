@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.javax.xml.transform;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This interface is primarily for the purposes of reporting where
  * an error occurred in the XML source or transformation instructions.

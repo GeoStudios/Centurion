@@ -21,24 +21,9 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
 
-
 import java.base.share.classes.java.util.Arrays;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.code.stack.InspectedFrame;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.meta.ResolvedJavaMethod;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class HotSpotStackFrameReference implements InspectedFrame {
 

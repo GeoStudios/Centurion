@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.sun.awt.geom;
 
-
 import java.awt.geom.PathIterator;
 import java.util.Vector;
 import java.util.Enumeration;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class Crossings {
     public static final boolean debug = false;

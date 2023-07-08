@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.util;
 
-
 import java.base.share.classes.java.util.function.Consumer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Doubly-linked list implementation of the {@code List} and {@code Deque}
@@ -474,7 +459,6 @@ public class LinkedList<E>
         size = 0;
         modCount++;
     }
-
 
     // Positional Access Operations
 

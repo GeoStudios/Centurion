@@ -21,22 +21,6 @@
 
 package java.rmi.share.classes.java.rmi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An <code>RMISecurityException</code> signals that a security exception
  * has occurred during the execution of one of

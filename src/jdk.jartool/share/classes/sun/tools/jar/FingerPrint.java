@@ -21,27 +21,12 @@
 
 package jdk.jartool.share.classes.sun.tools.jar;
 
-
 import jdk.internal.org.objectweb.asm.*;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.security.MessageDigest;
 import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A FingerPrint is an abstract representation of a JarFile entry that contains

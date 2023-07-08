@@ -21,22 +21,6 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 interface OwnershipListener {
     void ownershipChanged(final boolean isOwner);
 }

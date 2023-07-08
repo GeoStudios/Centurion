@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.pkcs12;
 
-
 import java.io.*;
 import java.base.share.classes.java.security.*;
 import java.base.share.classes.sun.security.util.DerInputStream;
@@ -29,20 +28,6 @@ import java.base.share.classes.sun.security.util.DerOutputStream;
 import java.base.share.classes.sun.security.util.DerValue;
 import java.base.share.classes.sun.security.x509.AlgorithmId;
 import java.base.share.classes.sun.security.pkcs.ParsingException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A MacData type, as defined in PKCS#12.

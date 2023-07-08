@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.security;
 
-
 import java.base.share.classes.java.security.spec.AlgorithmParameterSpec;
 import java.base.share.classes.java.util.*;
 import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
@@ -40,20 +39,6 @@ import sun.security.util.Debug;
 import sun.security.jca.*;
 import sun.security.jca.GetInstance.Instance;
 import sun.security.util.KnownOIDs;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The Signature class is used to provide applications the functionality

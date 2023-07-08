@@ -21,7 +21,6 @@
 
 package java.naming.share.classes.javax.naming.spi;
 
-
 import java.util.Hashtable;
 import java.naming.share.classes.javax.naming.Context;
 import java.naming.share.classes.javax.naming.Name;
@@ -33,20 +32,6 @@ import java.naming.share.classes.javax.naming.directory.DirContext;
 import java.naming.share.classes.javax.naming.directory.Attributes;
 import com.sun.naming.internal.ResourceManager;
 import com.sun.naming.internal.FactoryEnumeration;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * This class contains methods for supporting {@code DirContext}

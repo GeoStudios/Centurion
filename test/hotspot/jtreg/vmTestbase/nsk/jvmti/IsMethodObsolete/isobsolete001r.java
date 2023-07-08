@@ -21,21 +21,6 @@
 
 package nsk.jvmti.IsMethodObsolete;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class isobsolete001r {
 
     public static int testedStaticMethod(int n, isobsolete001r obj) {

@@ -21,7 +21,6 @@
 
 package demo.share.jfc.SwingSet2;
 
-
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.text.*;
@@ -36,20 +35,6 @@ import java.util.*;
 import java.io.*;
 import java.applet.*;
 import java.net.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Internal Frames Demo
@@ -88,7 +73,6 @@ public class InternalFrameDemo extends DemoModule {
 
     JTextField windowTitleField = null;
     JLabel windowTitleLabel = null;
-
 
     /**
      * main method allows us to run as a standalone demo.
@@ -132,8 +116,6 @@ public class InternalFrameDemo extends DemoModule {
         createInternalFrame(icon4, DEMO_FRAME_LAYER, FRAME_WIDTH, FRAME_HEIGHT);
         createInternalFrame(icon2, DEMO_FRAME_LAYER, FRAME_WIDTH, FRAME_HEIGHT);
     }
-
-
 
     /**
      * Create an internal frame and add a scrollable imageicon to it
@@ -234,7 +216,6 @@ public class InternalFrameDemo extends DemoModule {
         };
         p.setLayout(new GridLayout(1,2));
 
-
         Box box = new Box(BoxLayout.Y_AXIS);
         windowResizable   = new JCheckBox(getString("InternalFrameDemo.resizable_label"), true);
         windowIconifiable = new JCheckBox(getString("InternalFrameDemo.iconifiable_label"), true);
@@ -256,7 +237,6 @@ public class InternalFrameDemo extends DemoModule {
         p.add(box);
 
         palette.getContentPane().add(p, BorderLayout.CENTER);
-
 
         // ************************************
         // *   Create Frame title textfield   *
@@ -285,11 +265,9 @@ public class InternalFrameDemo extends DemoModule {
         return palette;
     }
 
-
     class ShowFrameAction extends AbstractAction {
         InternalFrameDemo demo;
         Icon icon;
-
 
         public ShowFrameAction(InternalFrameDemo demo, Icon icon) {
             this.demo = demo;

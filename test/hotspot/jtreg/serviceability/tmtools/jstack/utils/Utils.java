@@ -21,21 +21,6 @@
 
 package utils;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Utils {
 
     public static void log(String field, String val1, String val2) {

@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.nio.file;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Unchecked exception thrown when an attempt is made to invoke a method on an
  * object created by one file system provider with a parameter created by a

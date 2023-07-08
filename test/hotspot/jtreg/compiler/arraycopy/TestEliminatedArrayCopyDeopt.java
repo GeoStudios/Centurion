@@ -21,21 +21,6 @@
 
 package compiler.arraycopy;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8130847 8156760
@@ -51,7 +36,6 @@ package compiler.arraycopy;
 // escape, then the correct field/array element values are captured so
 // on a deoptimization, when the object/array is reallocated, it is
 // correctly initialized
-
 
 public class TestEliminatedArrayCopyDeopt {
 

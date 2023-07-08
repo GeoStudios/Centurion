@@ -21,21 +21,7 @@
 
 package compiler.c2;
 
-
 import java.util.function.Supplier;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -45,8 +31,6 @@ import java.util.function.Supplier;
  * @run main/othervm -XX:CompileCommand=compileonly,compiler.c2.TestIfWithDeadRegion::test
  *                   compiler.c2.TestIfWithDeadRegion
  */
-
-
 
 public class TestIfWithDeadRegion {
 

@@ -21,26 +21,12 @@
 
 package gc.gctests.FinalizeTest01;
 
-
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryMXBean;
 import nsk.share.gc.*;
 import nsk.share.TestFailure;
 import nsk.share.test.ExecutionController;
 import nsk.share.test.Stresser;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -53,8 +39,6 @@ import nsk.share.test.Stresser;
  *          /test/lib
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.FinalizeTest01.FinalizeTest01
  */
-
-
 
 /**
  * Tests that GC works correctly with finalizers.
@@ -167,7 +151,6 @@ public class FinalizeTest01 extends GCTestBase {
         if (error) {
             throw new TestFailure("Test failed (objects were not finalized during 1min)");
         }
-
 
         System.out.println("Allocated: " + FinMemoryObject.getAllocatedCount());
         System.out.println("Finalized: " + FinMemoryObject.getFinalizedCount());

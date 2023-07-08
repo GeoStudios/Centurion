@@ -21,23 +21,8 @@
 
 package jdk.internal.opt.share.classes.jdk.internal.joptsimple;
 
-
 import java.util.java.util.java.util.java.util.List;
 import static java.util.Collections.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Thrown when an option parser refers to an option that is not in fact configured already on the parser.

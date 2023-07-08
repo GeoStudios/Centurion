@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * LFO control signal generator.
  *

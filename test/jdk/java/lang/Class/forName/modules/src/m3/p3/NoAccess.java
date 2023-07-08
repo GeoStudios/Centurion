@@ -21,7 +21,6 @@
 
 package p3;
 
-
 import java.io.FilePermission;
 import java.lang.module.Configuration;
 import java.lang.module.ModuleFinder;
@@ -30,19 +29,6 @@ import java.nio.file.Paths;
 import java.security.AccessControlException;
 import java.security.Permission;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class NoAccess {
     private static final Module M3 = NoAccess.class.getModule();
@@ -84,7 +70,6 @@ public class NoAccess {
         findClass(m1, "p1.internal.B");
         findClass(m2, "p2.C");
         findClass(m3, "p3.internal.Foo");
-
 
         // m1 and m2 from a different layer
         m1 = layer.findModule("m1").get();

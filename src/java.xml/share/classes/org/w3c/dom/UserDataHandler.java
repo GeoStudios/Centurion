@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.org.w3c.dom;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * When associating an object to a key on a node using
  * <code>Node.setUserData()</code> the application can provide a handler

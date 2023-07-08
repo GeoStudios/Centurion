@@ -21,22 +21,6 @@
 
 package java.base.share.classes.sun.reflect.generics.reflectiveObjects;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Temporary class used to indicate missing functionality */
 public class NotImplementedException extends RuntimeException {
     @java.io.Serial

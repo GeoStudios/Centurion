@@ -21,26 +21,11 @@
 
 package java.rmi.share.classes.java.rmi.server;
 
-
 import java.rmi.share.classes.java.io.DataInput;
 import java.rmi.share.classes.java.io.DataOutput;
 import java.rmi.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.rmi.share.classes.java.io.Serializable;
 import java.rmi.share.classes.java.security.SecureRandom;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A <code>UID</code> represents an identifier that is unique over time

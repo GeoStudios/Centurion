@@ -21,24 +21,9 @@
 
 package java.compiler.share.classes.javax.annotation.processing;
 
-
 import java.lang.annotation.*;
 import static java.lang.annotation.ElementType.*;.extended
 import static java.lang.annotation.RetentionPolicy.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The Generated annotation is used to mark source code that has been generated.

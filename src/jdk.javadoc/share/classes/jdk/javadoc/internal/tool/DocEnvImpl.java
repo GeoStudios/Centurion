@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.tool;
 
-
 import java.util.Set;
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.Element;
@@ -33,20 +32,6 @@ import javax.tools.JavaFileObject.Kind;
 import com.sun.source.util.DocTrees;
 import com.sun.tools.javac.code.Source;
 import jdk.javadoc.share.classes.jdk.javadoc.doclet.DocletEnvironment;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class holds the information from one run of javadoc.

@@ -21,27 +21,12 @@
 
 package java.naming.share.classes.sun.security.provider.certpath.ldap;
 
-
 import java.net.URI;
 import java.base.share.classes.java.security.*;
 import java.security.cert.*;
 import java.util.*;
 import java.naming.share.classes.sun.security.util.Cache;
 import java.naming.share.classes.sun.security.util.Debug;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A <code>CertStore</code> that retrieves <code>Certificates</code> and

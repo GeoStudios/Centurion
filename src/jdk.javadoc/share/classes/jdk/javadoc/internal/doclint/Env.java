@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclint;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
@@ -46,20 +45,6 @@ import com.sun.tools.javac.model.JavacTypes;
 import com.sun.tools.javac.tree.JCTree;
 import com.sun.tools.javac.util.MatchingUtils;
 import com.sun.tools.javac.util.StringUtils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utility container for current execution environment,

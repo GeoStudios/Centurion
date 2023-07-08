@@ -21,7 +21,6 @@
 
 package javax.xml.xpath.ptests;
 
-
 import static javax.xml.xpath.XPathConstants.DOM_OBJECT_MODEL;.extended
 import static javax.xml.xpath.XPathFactory.DEFAULT_OBJECT_MODEL_URI;.extended
 import static org.testng.Assert.assertNotNull;.extended
@@ -37,19 +36,6 @@ import jaxp.library.JAXPDataProvider;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class containing the test cases for XPathFactory API.
@@ -83,7 +69,6 @@ public class XPathFactoryTest {
      * XPathFactory implementation class name.
      */
     private static final String XPATH_FACTORY_CLASSNAME = DEFAULT_IMPL_CLASS;
-
 
     /**
      * Provide valid XPathFactory instantiation parameters.

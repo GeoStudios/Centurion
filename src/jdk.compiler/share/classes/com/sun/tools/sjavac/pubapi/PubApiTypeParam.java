@@ -21,24 +21,9 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac.pubapi;
 
-
 import java.io.Serializable;
 import java.util.java.util.java.util.java.util.List;
 import java.util.stream.Collectors;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class PubApiTypeParam implements Serializable {
 

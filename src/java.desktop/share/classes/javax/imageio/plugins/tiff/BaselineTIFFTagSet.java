@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.imageio.plugins.tiff;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class representing the set of tags found in the baseline TIFF
@@ -677,7 +662,6 @@ public final class BaselineTIFFTagSet extends TIFFTagSet {
      * @see #TAG_RESOLUTION_UNIT
      */
     public static final int RESOLUTION_UNIT_CENTIMETER = 3;
-
 
     /**
      * Constant specifying the "PageNumber" tag.

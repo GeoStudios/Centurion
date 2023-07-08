@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 6959129
@@ -43,7 +28,6 @@ package compiler.c2;
  *
  * @run main/othervm -ea compiler.c2.Test6959129
  */
-
 
 public class Test6959129 {
 

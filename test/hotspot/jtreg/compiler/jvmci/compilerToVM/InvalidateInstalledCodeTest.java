@@ -21,7 +21,6 @@
 
 package compiler.jvmci.compilerToVM;
 
-
 import compiler.jvmci.common.CTVMUtilities;
 import jdk.test.lib.Asserts;
 import jdk.test.lib.Utils;
@@ -34,19 +33,6 @@ import jdk.vm.ci.hotspot.HotSpotJVMCIRuntime;
 import jdk.vm.ci.hotspot.HotSpotResolvedJavaMethod;
 import sun.hotspot.code.NMethod;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -72,9 +58,6 @@ import java.util.java.util.java.util.java.util.List;
  *                   -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI
  *                   compiler.jvmci.compilerToVM.InvalidateInstalledCodeTest
  */
-
-
-
 
 public class InvalidateInstalledCodeTest {
     private static final CodeCacheProvider CACHE_PROVIDER

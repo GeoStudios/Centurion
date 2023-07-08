@@ -21,24 +21,9 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.utils;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Manages the JLine shutdown-hook thread and tasks to execute on shutdown.

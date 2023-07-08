@@ -21,27 +21,12 @@
 
 package jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal;
 
-
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import static java.lang.reflect.Modifier.*;.extended
 import jdk.internal.opt.share.classes.jdk.internal.joptsimple.ValueConverter;
 import static jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.Classes.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Helper methods for reflection.

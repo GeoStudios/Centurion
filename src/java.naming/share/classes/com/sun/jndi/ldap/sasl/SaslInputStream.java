@@ -21,27 +21,12 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap.sasl;
 
-
 import javax.security.sasl.Sasl;
 import javax.security.sasl.SaslClient;
 import javax.security.sasl.SaslException;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.EOFException;
 import java.io.InputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used by clients of Java SASL that need to create an input stream

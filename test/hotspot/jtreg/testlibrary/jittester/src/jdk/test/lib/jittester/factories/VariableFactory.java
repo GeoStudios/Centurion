@@ -21,26 +21,12 @@
 
 package jdk.test.lib.jittester.factories;
 
-
 import jdk.test.lib.jittester.ProductionFailedException;
 import jdk.test.lib.jittester.Rule;
 import jdk.test.lib.jittester.Type;
 import jdk.test.lib.jittester.VariableBase;
 import jdk.test.lib.jittester.VariableInfo;
 import jdk.test.lib.jittester.types.TypeKlass;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class VariableFactory extends Factory<VariableBase> {
     private final Rule<VariableBase> rule;

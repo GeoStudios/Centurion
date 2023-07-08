@@ -21,21 +21,7 @@
 
 package jit.regression.b4427606;
 
-
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -48,8 +34,6 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.regression.b4427606.b4427606
  */
-
-
 
 /*
  *  This is a reproducible case for a few bugs reported in merlin.

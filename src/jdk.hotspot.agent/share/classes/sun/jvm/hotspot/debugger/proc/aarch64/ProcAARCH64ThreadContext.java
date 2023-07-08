@@ -21,24 +21,9 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.proc.aarch64;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.aarch64.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.proc.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ProcAARCH64ThreadContext extends AARCH64ThreadContext {
     private final ProcDebugger debugger;

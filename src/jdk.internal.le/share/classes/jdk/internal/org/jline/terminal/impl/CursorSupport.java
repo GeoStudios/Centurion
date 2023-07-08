@@ -21,7 +21,6 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl;
 
-
 import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Cursor;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Terminal;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.Curses;
@@ -31,20 +30,6 @@ import java.io.java.io.java.io.java.io.IOException;
 import java.util.function.IntConsumer;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CursorSupport {
 

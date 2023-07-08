@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.event;
 
-
 import java.util.Eventjava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The listener that's notified when a lists selection value

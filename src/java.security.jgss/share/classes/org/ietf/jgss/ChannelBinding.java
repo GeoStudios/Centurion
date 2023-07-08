@@ -21,23 +21,8 @@
 
 package java.security.jgss.share.classes.org.ietf.jgss;
 
-
 import java.net.InetAddress;
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class encapsulates the concept of caller-provided channel

@@ -21,28 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * This class is a very simple bitset class. The DFA content model code needs
@@ -91,7 +73,6 @@ public class CMStateSet
         zeroBits();
     }
 
-
     // -------------------------------------------------------------------
     //  Public inherited methods
     // -------------------------------------------------------------------
@@ -118,7 +99,6 @@ public class CMStateSet
         }
         return strRet.toString();
     }
-
 
     // -------------------------------------------------------------------
     //  Package final methods
@@ -277,7 +257,6 @@ public class CMStateSet
                 fByteArray[index] = 0;
         }
     }
-
 
     // -------------------------------------------------------------------
     //  Private data members

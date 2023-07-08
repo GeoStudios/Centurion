@@ -21,25 +21,11 @@
 
 package p;
 
-
 import java.lang.*;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandles.Lookup;
 import static java.lang.invoke.MethodHandles.Lookup.ClassOption.*;.extended
 import jdk.test.lib.compiler.InMemoryJavaCompiler;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -48,10 +34,6 @@ import jdk.test.lib.compiler.InMemoryJavaCompiler;
  * @modules jdk.compiler
  * @run main p.NestedHidden
  */
-
-
-
-
 
 // Test that a hidden class can define its own hidden class by calling
 // lookup.defineHiddenClass().

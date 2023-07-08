@@ -21,22 +21,8 @@
 
 package nsk.jvmti.AttachOnDemand.attach008;
 
-
 import nsk.share.aod.TargetApplicationWaitingAgents;
 import nsk.share.locks.MonitorLockingThread;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class attach008Target extends TargetApplicationWaitingAgents {
 

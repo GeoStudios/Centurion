@@ -21,21 +21,7 @@
 
 package nsk.share;
 
-
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This denotation provides naming and indexing for nodes

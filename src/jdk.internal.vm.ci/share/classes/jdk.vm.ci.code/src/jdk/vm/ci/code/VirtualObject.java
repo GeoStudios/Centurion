@@ -21,7 +21,6 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code;
 
-
 import java.util.Collections;
 import java.util.IdentityHashMap;
 import java.util.Set;
@@ -30,20 +29,6 @@ import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.JavaKi
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.JavaValue;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.ResolvedJavaField;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.ResolvedJavaType;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An instance of this class represents an object whose allocation was removed by escape analysis.

@@ -21,26 +21,11 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xinclude;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.MessageFormatter;
 import java.base.share.classes.java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 import jdk.xml.internal.SecuritySupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // TODO: fix error messages in XIncludeMessages.properties
 /**

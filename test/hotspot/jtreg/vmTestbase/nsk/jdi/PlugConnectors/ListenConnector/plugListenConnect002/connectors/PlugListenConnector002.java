@@ -21,32 +21,16 @@
 
 package nsk.jdi.PlugConnectors.ListenConnector.plugListenConnect002.connectors;
 
-
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.util.*;
 import java.util.Arrayjava.util.java.util.java.util.List;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * A Simple ListeningConnector used by
  * nsk/jdi/PlugConnectors/ListenConnector/plugListenConnect002 test
  */
-
-
 
 public class PlugListenConnector002 extends PlugConnectors implements ListeningConnector {
 
@@ -106,7 +90,6 @@ public class PlugListenConnector002 extends PlugConnectors implements ListeningC
 
         return plugListenConnectorDefaultArguments;
     }  // end of prepareConnectorDefaultArguments() method
-
 
     public PlugListenConnector002() {
 

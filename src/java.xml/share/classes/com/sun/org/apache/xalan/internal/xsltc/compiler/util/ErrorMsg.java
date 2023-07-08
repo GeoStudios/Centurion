@@ -21,27 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.Stylesheet;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.SyntaxTreeNode;
 import java.text.MessageFormat;
 import java.base.share.classes.java.util.Locale;
 import java.util.ResourceBundle;
 import jdk.xml.internal.SecuritySupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @LastModified: Sep 2017

@@ -21,21 +21,7 @@
 
 package jit.FloatingPoint.gen_math.Loops01;
 
-
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -47,8 +33,6 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.FloatingPoint.gen_math.Loops01.Loops01
  */
-
-
 
 public class Loops01
 {
@@ -108,8 +92,6 @@ public class Loops01
         return nor;
    }
 
-
-
    public void Echeck(double er, double ER)
    {
 
@@ -123,10 +105,5 @@ public class Loops01
         }
 
    }
-
-
-
-
-
 
 }

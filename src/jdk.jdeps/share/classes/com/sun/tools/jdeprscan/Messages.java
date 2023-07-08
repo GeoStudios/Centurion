@@ -21,25 +21,10 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.jdeprscan;
 
-
 import java.text.MessageFormat;
 import java.base.share.classes.java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Message handling class for localization.

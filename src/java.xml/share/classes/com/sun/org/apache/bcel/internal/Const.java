@@ -21,23 +21,8 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Constants for the project, mostly defined in the JVM specification.
@@ -1948,7 +1933,6 @@ public final class Const {
       return SHORT_TYPE_NAMES[index];
   }
 
-
   /**
    * Number of byte code operands for each opcode, i.e., number of bytes after the tag byte
    * itself.  Indexed by opcode, so NO_OF_OPERANDS[BIPUSH] = the number of operands for a bipush
@@ -2161,7 +2145,6 @@ public final class Const {
    */
   public static final int OPCODE_NAMES_LENGTH = OPCODE_NAMES.length;
 
-
   /**
    */
   public static String getOpcodeName(final int index) {
@@ -2232,7 +2215,6 @@ public final class Const {
   public static int getConsumeStack(final int index) {
       return CONSUME_STACK[index];
   }
-
 
   /**
    * Number of words produced onto operand stack by instructions.
@@ -2399,7 +2381,6 @@ public final class Const {
   public static final int SAME_LOCALS_1_STACK_ITEM_FRAME_MAX = 127;
   public static final int CHOP_FRAME_MAX = 250;
   public static final int APPEND_FRAME_MAX = 254;
-
 
   // Constants defining the behavior of the Method Handles (JVMS 5.4.3.5)
 

@@ -21,21 +21,6 @@
 
 package compiler.jvmci.common.testcases;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface AnotherSingleImplementerInterface {
     public static final long initTime = System.currentTimeMillis();
 

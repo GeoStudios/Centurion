@@ -21,24 +21,10 @@
 
 package nsk.share.jdi;
 
-
 import java.lang.reflect.*;
 import nsk.share.*;
 import nsk.share.jpda.ConversionUtils;
 import com.sun.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Class contains several common methods used by tests checking that values are

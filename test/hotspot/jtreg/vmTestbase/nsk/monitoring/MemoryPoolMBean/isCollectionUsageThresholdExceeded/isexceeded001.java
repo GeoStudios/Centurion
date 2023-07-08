@@ -21,25 +21,11 @@
 
 package nsk.monitoring.MemoryPoolMBean.isCollectionUsageThresholdExceeded;
 
-
 import java.lang.management.*;
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
 import nsk.monitoring.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class isexceeded001 {
     private static boolean testFailed = false;

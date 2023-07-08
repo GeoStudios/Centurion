@@ -21,25 +21,10 @@
 
 package jdk.jfr.share.classes.jdk.jfr.events;
 
-
 import jdk.jfr.share.classes.jdk.internal.misc.VM;
 import jdk.jfr.share.classes.jdk.internal.misc.VM.BufferPool;
 import jdk.jfr.share.classes.jdk.jfr.*;
 import jdk.jfr.share.classes.jdk.jfr.internal.Type;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @Name(Type.EVENT_NAME_PREFIX + "DirectBufferStatistics")
 @Label("Direct Buffer Statistics")

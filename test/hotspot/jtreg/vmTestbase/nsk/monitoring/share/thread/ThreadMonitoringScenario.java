@@ -21,21 +21,7 @@
 
 package nsk.monitoring.share.thread;
 
-
 import java.lang.management.ThreadMXBean;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * ThreadMonitoringScenario is basic interface which should be

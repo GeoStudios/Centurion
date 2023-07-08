@@ -21,7 +21,6 @@
 
 package test.gaptest;
 
-
 import static jaxp.library.JAXPTestUtilities.setSystemProperty;.extended
 import static jaxp.library.JAXPTestUtilities.clearSystemProperty;.extended
 import static org.testng.Assert.assertTrue;.extended
@@ -44,19 +43,6 @@ import org.testng.annotations.Test;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.XMLFilterImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

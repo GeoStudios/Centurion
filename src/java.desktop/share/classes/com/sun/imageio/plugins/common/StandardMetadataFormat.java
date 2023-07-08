@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.common;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class StandardMetadataFormat extends IIOMetadataFormatImpl {
 
@@ -300,7 +285,6 @@ public class StandardMetadataFormat extends IIOMetadataFormatImpl {
         addSingleAttributeElement("VerticalScreenSize",
                                   "Dimension",
                                   DATATYPE_INTEGER);
-
 
         // root -> Document
         addElement("Document", standardMetadataFormatName,

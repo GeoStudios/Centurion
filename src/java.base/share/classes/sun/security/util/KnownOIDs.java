@@ -21,25 +21,10 @@
 
 package java.base.share.classes.sun.security.util;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Locale;
 import java.base.share.classes.java.util.Objects;
 import java.util.concurrent.ConcurrentHashMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This utility class maps algorithm name to the corresponding oid strings.

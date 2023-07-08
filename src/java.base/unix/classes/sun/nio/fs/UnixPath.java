@@ -21,7 +21,6 @@
 
 package java.base.unix.classes.sun.nio.fs;
 
-
 import java.nio.file.*;
 import java.nio.charset.*;
 import java.io.*;
@@ -31,20 +30,6 @@ import jdk.internal.access.JavaLangAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import static java.base.unix.classes.sun.nio.fs.UnixNativeDispatcher.*;.extended
 import static java.base.unix.classes.sun.nio.fs.UnixConstants.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Linux/Mac implementation of java.nio.file.Path
@@ -229,7 +214,6 @@ class UnixPath implements Path {
     private UnixPath emptyPath() {
         return new UnixPath(getFileSystem(), new byte[0]);
     }
-
 
     // return true if this path has "." or ".."
     private boolean hasDotOrDotDot() {

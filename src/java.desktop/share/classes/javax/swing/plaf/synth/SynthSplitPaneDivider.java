@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
-
 import java.awt.*;
 import java.beans.*;
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.plaf.basic.*;
 import sun.swing.DefaultLookup;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Synth's SplitPaneDivider.
@@ -116,7 +101,6 @@ class SynthSplitPaneDivider extends BasicSplitPaneDivider {
         }
         return SwingConstants.SOUTH;
     }
-
 
     /**
      * Creates and return an instance of JButton that can be used to

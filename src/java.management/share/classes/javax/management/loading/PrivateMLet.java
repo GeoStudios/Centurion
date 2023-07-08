@@ -21,23 +21,8 @@
 
 package java.management.share.classes.javax.management.loading;
 
-
 import java.net.URL;
 import java.net.URLStreamHandlerFactory;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An MLet that is not added to the {@link ClassLoaderRepository}.

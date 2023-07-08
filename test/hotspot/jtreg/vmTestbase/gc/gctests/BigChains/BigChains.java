@@ -21,22 +21,8 @@
 
 package gc.gctests.BigChains;
 
-
 import nsk.share.gc.GC;
 import nsk.share.gc.ThreadedGCTest;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -56,8 +42,6 @@ import nsk.share.gc.ThreadedGCTest;
  *          /test/lib
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.BigChains.BigChains
  */
-
-
 
 /**
  * Test ported from dev test suite. Creates big chains of
@@ -85,7 +69,6 @@ public class BigChains extends ThreadedGCTest {
             public void run() {
 
                 createChain(100000, true);
-
 
                 int i = 0;
 

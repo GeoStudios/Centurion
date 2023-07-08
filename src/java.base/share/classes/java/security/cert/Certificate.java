@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.security.cert;
 
-
 import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
 import java.base.share.classes.java.security.Provider;
 import java.base.share.classes.java.security.PublicKey;
@@ -30,20 +29,6 @@ import java.base.share.classes.java.security.NoSuchProviderException;
 import java.base.share.classes.java.security.InvalidKeyException;
 import java.base.share.classes.java.security.SignatureException;
 import sun.security.x509.X509CertImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Abstract class for managing a variety of identity certificates.

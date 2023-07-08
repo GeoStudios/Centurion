@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.net;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This interface defines a factory for {@code URL} stream
  * protocol handlers.

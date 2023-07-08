@@ -21,26 +21,11 @@
 
 package java.management.share.classes.javax.management;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.LinkedHashMap;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Represents a list of values for attributes of an MBean.  See the

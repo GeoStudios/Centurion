@@ -21,25 +21,11 @@
 
 package nsk.monitoring.share.server;
 
-
 import java.util.*;
 import nsk.monitoring.share.*;
 import javax.management.*;
 import java.lang.management.*;
 import javax.management.openmbean.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * ThreadMXBean implementation that delegates functionality to MBeanServer.

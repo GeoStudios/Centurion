@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import sun.swing.DefaultLookup;
 import sun.swing.UIAction;
 import java.desktop.share.classes.javax.swing.*;
@@ -37,20 +36,6 @@ import java.awt.Point;
 import java.awt.Insets;
 import java.awt.Graphics;
 import java.awt.event.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A default L&amp;F implementation of ScrollPaneUI.
@@ -133,8 +118,6 @@ public class BasicScrollPaneUI
         map.put(new Actions(Actions.UNIT_SCROLL_LEFT));
     }
 
-
-
     public void paint(Graphics g, JComponent c) {
         Border vpBorder = scrollpane.getViewportBorder();
         if (vpBorder != null) {
@@ -142,7 +125,6 @@ public class BasicScrollPaneUI
             vpBorder.paintBorder(scrollpane, g, r.x, r.y, r.width, r.height);
         }
     }
-
 
     /**
      * @return new Dimension(Short.MAX_VALUE, Short.MAX_VALUE)
@@ -309,7 +291,6 @@ public class BasicScrollPaneUI
         SwingUtilities.replaceUIInputMap(c, JComponent.
                            WHEN_ANCESTOR_OF_FOCUSED_COMPONENT, null);
     }
-
 
     public void uninstallUI(JComponent c) {
         uninstallDefaults(scrollpane);
@@ -498,7 +479,6 @@ public class BasicScrollPaneUI
         return Component.BaselineResizeBehavior.CONSTANT_ASCENT;
     }
 
-
     /**
      * Listener for viewport events.
      * This class exists only for backward compatibility.
@@ -531,7 +511,6 @@ public class BasicScrollPaneUI
     protected ChangeListener createViewportChangeListener() {
         return getHandler();
     }
-
 
     /**
      * Horizontal scrollbar listener.
@@ -575,7 +554,6 @@ public class BasicScrollPaneUI
         return getHandler();
     }
 
-
     /**
      * Vertical scrollbar listener.
      * This class exists only for backward compatibility.
@@ -600,7 +578,6 @@ public class BasicScrollPaneUI
             getHandler().stateChanged(e);
         }
     }
-
 
     /**
      * Returns a <code>PropertyChangeListener</code> that will be installed
@@ -810,8 +787,6 @@ public class BasicScrollPaneUI
         }
     }
 
-
-
     /**
      * Creates an instance of {@code PropertyChangeListener} that's added to
      * the {@code JScrollPane} by {@code installUI()}. Subclasses can override
@@ -841,7 +816,6 @@ public class BasicScrollPaneUI
         return getHandler();
     }
 
-
     private static class Actions extends UIAction {
         private static final String SCROLL_UP = "scrollUp";
         private static final String SCROLL_DOWN = "scrollDown";
@@ -853,7 +827,6 @@ public class BasicScrollPaneUI
         private static final String SCROLL_RIGHT = "scrollRight";
         private static final String UNIT_SCROLL_LEFT = "unitScrollLeft";
         private static final String UNIT_SCROLL_RIGHT = "unitScrollRight";
-
 
         Actions(String key) {
             super(key);
@@ -992,7 +965,6 @@ public class BasicScrollPaneUI
             }
         }
     }
-
 
     class Handler implements ChangeListener, PropertyChangeListener, MouseWheelListener {
         //

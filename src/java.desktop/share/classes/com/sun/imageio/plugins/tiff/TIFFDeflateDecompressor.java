@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.zip.DataFormatException;
 import java.util.zip.Inflater;
 import javax.imageio.Ijava.io.java.io.java.io.IOException;
 import javax.imageio.plugins.tiff.BaselineTIFFTagSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class TIFFDeflateDecompressor extends TIFFDecompressor {
 

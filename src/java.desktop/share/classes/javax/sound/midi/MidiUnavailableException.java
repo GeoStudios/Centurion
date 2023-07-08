@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.sound.midi;
 
-
 import java.io.Serial;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code MidiUnavailableException} is thrown when a requested MIDI component

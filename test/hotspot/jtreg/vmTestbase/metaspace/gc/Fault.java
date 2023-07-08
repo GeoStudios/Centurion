@@ -21,21 +21,6 @@
 
 package metaspace.gc;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Exception signaling a test failure.
  */

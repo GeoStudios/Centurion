@@ -21,24 +21,9 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-
 import jdk.internal.vm.annotation.Stable;
 import static java.base.share.classes.java.lang.invoke.LambdaForm.BasicType.*;.extended
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A method handle whose behavior is determined only by its LambdaForm.

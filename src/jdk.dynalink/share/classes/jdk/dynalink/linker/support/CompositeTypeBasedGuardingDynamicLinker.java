@@ -21,7 +21,6 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.linker.support;
 
-
 import java.util.Collections;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
@@ -32,20 +31,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkRequest;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkerServices;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.TypeBasedGuardingDynamicLinker;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -53,8 +38,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.TypeBasedGuardingDynamicLi
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-
-
 
 /**
  * A composite type-based guarding dynamic linker. When a receiver of a not yet

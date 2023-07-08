@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.event.AdjustmentEvent;
 import java.desktop.share.classes.java.awt.event.Adjustmentjava.util.Listener;
 import java.desktop.share.classes.java.awt.peer.ScrollPanePeer;
 import java.desktop.share.classes.java.io.Serial;
 import java.desktop.share.classes.java.io.Serializable;
 import sun.awt.AWTAccessor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents the state of a horizontal or vertical
@@ -161,7 +146,6 @@ public class ScrollPaneAdjustable implements Adjustable, Serializable {
     private static final String SCROLLPANE_ONLY =
         "Can be set by scrollpane only";
 
-
     /**
      * Initialize JNI field and method ids.
      */
@@ -185,7 +169,6 @@ public class ScrollPaneAdjustable implements Adjustable, Serializable {
      */
     @Serial
     private static final long serialVersionUID = -3359745691033257079L;
-
 
     /**
      * Constructs a new object to represent specified scrollabar
@@ -298,7 +281,6 @@ public class ScrollPaneAdjustable implements Adjustable, Serializable {
     public int getVisibleAmount() {
         return visibleAmount;
     }
-
 
     /**
      * Sets the {@code valueIsAdjusting} property.

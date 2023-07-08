@@ -21,7 +21,6 @@
 
 package org.w3c.dom.ptests;
 
-
 import static org.testng.Assert.assertEquals;.extended
 import static org.w3c.dom.ptests.DOMTestUtil.createDOM;.extended
 import org.testng.annotations.DataProvider;
@@ -30,19 +29,6 @@ import org.testng.annotations.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Nodejava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

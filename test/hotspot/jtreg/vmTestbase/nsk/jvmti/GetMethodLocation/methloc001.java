@@ -21,21 +21,7 @@
 
 package nsk.jvmti.GetMethodLocation;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class methloc001 {
 

@@ -21,21 +21,7 @@
 
 package nsk.jdi.VirtualMachine.resume;
 
-
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //    THIS TEST IS LINE NUMBER SENSITIVE
 

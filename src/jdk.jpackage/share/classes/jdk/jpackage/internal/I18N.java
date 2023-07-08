@@ -21,22 +21,7 @@
 
 package jdk.jpackage.share.classes.jdk.jpackage.internal;
 
-
 import java.util.ResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class I18N {
 

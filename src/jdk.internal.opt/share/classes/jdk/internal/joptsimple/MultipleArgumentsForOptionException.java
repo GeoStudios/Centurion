@@ -21,22 +21,7 @@
 
 package jdk.internal.opt.share.classes.jdk.internal.joptsimple;
 
-
 import static java.util.Collections.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Thrown when asking an {@link OptionSet} for a single argument of an option when many have been specified.

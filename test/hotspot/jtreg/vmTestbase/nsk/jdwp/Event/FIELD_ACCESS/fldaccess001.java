@@ -21,24 +21,10 @@
 
 package nsk.jdwp.Event.FIELD_ACCESS;
 
-
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Test for JDWP event: FIELD_ACCESS.

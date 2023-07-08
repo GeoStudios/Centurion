@@ -21,22 +21,8 @@
 
 package MyPackage;
 
-
 import java.io.PrintStream;
 import java.lang.instrument.Instrumentation;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -45,7 +31,6 @@ import java.lang.instrument.Instrumentation;
  * @compile AddModuleReadsTest.java
  * @run main/othervm/native -agentlib:AddModuleReadsTest MyPackage.AddModuleReadsTest
  */
-
 
 public class AddModuleReadsTest {
 

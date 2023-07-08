@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.utils;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.utils.XMLSecurityManager;
 import java.util.HashMap;
 import javax.xml.XMLConstants;
@@ -34,20 +33,6 @@ import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXNotRecognizedException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXNotSupportedException;
 import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Creates XMLReader objects and caches them for re-use.

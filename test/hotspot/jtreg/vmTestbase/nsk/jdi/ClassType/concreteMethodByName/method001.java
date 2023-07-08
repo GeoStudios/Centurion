@@ -21,26 +21,12 @@
 
 package nsk.jdi.ClassType.concreteMethodByName;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -228,11 +214,9 @@ public class method001 {
                                           ("shValue", "()S");
                                       break ;
 
-
                             case 8 :  m = classType1.concreteMethodByName
                                           ("vdValue", "()V");
                                       break ;
-
 
                             case 9 :  m = classType1.concreteMethodByName
                                           ("inArray", "()[I");
@@ -246,7 +230,6 @@ public class method001 {
                                           ("ifaceMethod", "()Lnsk/jdi/ClassType/concreteMethodByName/IfaceForCheck;");
                                       break ;
 
-
                             default:  endFlag = true;
                                       break ;
                             }
@@ -259,7 +242,6 @@ public class method001 {
                         }
 
                         break;
-
 
                 default: expresult = 2;
                          break ;

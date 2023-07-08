@@ -21,7 +21,6 @@
 
 package compiler.compilercontrol.share.scenario;
 
-
 import compiler.compilercontrol.share.method.MethodDescriptor;
 import compiler.compilercontrol.share.method.MethodGenerator;
 import compiler.compilercontrol.share.pool.PoolHelper;
@@ -35,19 +34,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.concurrent.Callable;
 import java.util.stream.Collectors;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class JcmdStateBuilder implements StateBuilder<JcmdCommand> {
     private static final List<Pair<Executable, Callable<?>>> METHODS

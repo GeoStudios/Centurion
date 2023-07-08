@@ -21,23 +21,8 @@
 
 package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper;
 
-
 import java.math.BigInteger;
 import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Constants.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * class CK_MECHANISM specifies a particular mechanism and any parameters it

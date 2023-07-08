@@ -21,21 +21,6 @@
 
 package nsk.monitoring.share.thread;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * ScenarioTypeAware is marker interface for obtaining scenario type.
  */

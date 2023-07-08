@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.lang;
 
-
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class {@code Object} is the root of the class hierarchy.

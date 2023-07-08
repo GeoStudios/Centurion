@@ -21,21 +21,6 @@
 
 package nsk.share.jvmti.RetransformClasses.LinearHierarchy;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Class9 extends Class10 {
     short var_1;
     final byte var_2 = 55;
@@ -46,7 +31,6 @@ public class Class9 extends Class10 {
     long var_7 = var_5;
     float var_8;
     final long var_9 = var_5;
-
 
     public Class9()
     {

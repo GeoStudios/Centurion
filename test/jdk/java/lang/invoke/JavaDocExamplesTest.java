@@ -21,7 +21,6 @@
 
 package test.java.lang.invoke;
 
-
 import java.io.StringWriter;
 import java.lang.invoke.*;
 import static java.lang.invoke.MethodHandles.*;.extended
@@ -30,28 +29,11 @@ import java.util.*;
 import org.testng.*;
 import org.testng.annotations.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* @test
  * @summary example code used in javadoc for java.lang.invoke API
  * @compile JavaDocExamplesTest.java
  * @run testng/othervm test.java.lang.invoke.JavaDocExamplesTest
  */
-
-
-
-
 
 /**
  * @author jrose
@@ -88,7 +70,6 @@ public class JavaDocExamplesTest {
     // How much output?
     static final Class<?> THIS_CLASS = JavaDocExamplesTest.class;
     static int verbosity = Integer.getInteger(THIS_CLASS.getSimpleName()+".verbosity", 0);
-
 
 {}
 private static final Lookup LOOKUP = lookup();

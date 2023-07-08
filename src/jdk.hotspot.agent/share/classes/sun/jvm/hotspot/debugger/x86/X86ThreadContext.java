@@ -21,24 +21,9 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.x86;
 
-
 import java.lang.annotation.Native;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Specifies the thread context on x86 platforms; only a sub-portion
     of the context is guaranteed to be present on all operating
@@ -82,7 +67,6 @@ public abstract class X86ThreadContext implements ThreadContext {
   public static final int DR3 = 22;
   public static final int DR6 = 23;
   public static final int DR7 = 24;
-
 
   public static final int PC = EIP;
   public static final int FP = EBP;

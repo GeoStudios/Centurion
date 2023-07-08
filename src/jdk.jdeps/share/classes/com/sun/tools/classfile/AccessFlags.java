@@ -21,24 +21,9 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.classfile;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.LinkedHashSet;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * See JVMS, sections 4.2, 4.6, 4.7.

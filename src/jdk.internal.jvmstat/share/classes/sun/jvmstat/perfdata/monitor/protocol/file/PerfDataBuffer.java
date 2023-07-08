@@ -21,27 +21,12 @@
 
 package jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor.protocol.file;
 
-
 import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.*;
 import jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor.*;
 import java.io.*;
 import java.net.URI;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The concrete PerfDataBuffer implementation for the <em>file:</em>

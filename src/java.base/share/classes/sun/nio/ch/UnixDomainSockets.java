@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.nio.ch;
 
-
 import java.io.FileDescriptor;
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.BindException;
@@ -37,20 +36,6 @@ import java.base.share.classes.java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.util.Random;
 import java.base.share.classes.sun.nio.fs.AbstractFileSystemProvider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class UnixDomainSockets {
     private UnixDomainSockets() { }

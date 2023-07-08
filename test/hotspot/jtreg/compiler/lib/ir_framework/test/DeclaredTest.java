@@ -21,24 +21,10 @@
 
 package compiler.lib.ir_framework.test;
 
-
 import compiler.lib.ir_framework.CompLevel;
 import compiler.lib.ir_framework.shared.TestRunException;
 import java.lang.reflect.Method;
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents a @Test method.

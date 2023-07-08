@@ -21,23 +21,8 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code;
 
-
 import java.base.share.classes.java.util.Objects;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.ResolvedJavaMethod;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents a code position, that is, a chain of inlined methods with bytecode locations, that is

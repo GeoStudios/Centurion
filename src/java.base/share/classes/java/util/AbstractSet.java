@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class provides a skeletal implementation of the {@code Set}
  * interface to minimize the effort required to implement this

@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.jdk.xml.internal;
 
-
 import static java.xml.share.classes.jdk.xml.internal.JdkConstants.FQ_IS_STANDALONE;.extended
 import static java.xml.share.classes.jdk.xml.internal.JdkConstants.JDK_DEBUG_LIMIT;.extended
 import static java.xml.share.classes.jdk.xml.internal.JdkConstants.JDK_ENTITY_COUNT_INFO;.extended
@@ -38,20 +37,6 @@ import static java.xml.share.classes.jdk.xml.internal.JdkConstants.SP_ENABLE_EXT
 import static java.xml.share.classes.jdk.xml.internal.JdkConstants.CDATA_CHUNK_SIZE;.extended
 import static java.xml.share.classes.jdk.xml.internal.JdkConstants.OVERRIDE_PARSER;.extended
 import static java.xml.share.classes.jdk.xml.internal.JdkConstants.RESET_SYMBOL_TABLE;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents a JDK Implementation Specific Property. This class holds the name

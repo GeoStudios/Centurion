@@ -21,24 +21,10 @@
 
 package nsk.monitoring.share.server;
 
-
 import java.util.*;
 import nsk.monitoring.share.*;
 import javax.management.*;
 import java.lang.management.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * MemoryPoolMXBean implementation that delegates functionality to MBeanServer.

@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xni;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDTDSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * The DTD handler interface defines callback methods to report

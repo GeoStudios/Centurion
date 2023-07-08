@@ -21,7 +21,6 @@
 
 package java.base.windows.classes.sun.nio.fs;
 
-
 import java.nio.file.*;
 import java.nio.file.attribute.*;
 import java.io.*;
@@ -30,20 +29,6 @@ import java.util.*;
 import java.lang.ref.WeakReference;
 import static java.base.windows.classes.sun.nio.fs.WindowsNativeDispatcher.*;.extended
 import static java.base.windows.classes.sun.nio.fs.WindowsConstants.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Windows implementation of Path
@@ -79,7 +64,6 @@ class WindowsPath implements Path {
 
     // computed hash code (computed lazily, no need to be volatile)
     private int hash;
-
 
     /**
      * Initializes a new instance of this class.
@@ -414,7 +398,6 @@ class WindowsPath implements Path {
         // this path is the empty path
         if (this.isEmpty())
             return child;
-
 
         WindowsPath base = this;
         if (base.hasDotOrDotDot() || child.hasDotOrDotDot()) {

@@ -21,23 +21,9 @@
 
 package metaspace.stressHierarchy.common.classloader.tree;
 
-
 import java.util.HashSet;
 import java.util.Set;
 import metaspace.stressHierarchy.common.classloader.StressClassloader;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Node of tree

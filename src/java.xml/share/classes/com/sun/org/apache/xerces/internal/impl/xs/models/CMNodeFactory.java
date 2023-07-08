@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.models;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models.CMNode;
@@ -30,20 +29,6 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.utils.XMLSecuri
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *
  * @xerces.internal
@@ -51,7 +36,6 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLC
  *
  */
 public class CMNodeFactory {
-
 
     /** Property identifier: error reporter. */
     private static final String ERROR_REPORTER =
@@ -71,7 +55,6 @@ public class CMNodeFactory {
 
     //No. of nodes allowed.
     private int maxNodeLimit ;
-
 
     /**
      * Error reporter. This property identifier is:

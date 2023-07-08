@@ -21,22 +21,7 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm.tree;
 
-
 import java.base.share.classes.jdk.internal.org.objectweb.asm.ModuleVisitor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A node that represents a required module with its name and access of a module descriptor.

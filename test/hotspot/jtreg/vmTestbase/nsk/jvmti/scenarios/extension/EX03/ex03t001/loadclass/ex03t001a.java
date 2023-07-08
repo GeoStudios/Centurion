@@ -21,20 +21,5 @@
 
 package nsk.jvmti.scenarios.extension.EX03;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Class to be unloaded
 public class ex03t001a {}

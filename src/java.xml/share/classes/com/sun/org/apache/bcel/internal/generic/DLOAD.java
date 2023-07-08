@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * DLOAD - Load double from local variable
@@ -58,14 +41,12 @@ public class DLOAD extends LoadInstruction {
         super(com.sun.org.apache.bcel.internal.Const.DLOAD, com.sun.org.apache.bcel.internal.Const.DLOAD_0);
     }
 
-
     /** Load double from local variable
      * @param n index of local variable
      */
     public DLOAD(final int n) {
         super(com.sun.org.apache.bcel.internal.Const.DLOAD, com.sun.org.apache.bcel.internal.Const.DLOAD_0, n);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

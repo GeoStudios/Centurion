@@ -21,32 +21,14 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.ByteSequence;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * LOOKUPSWITCH - Switch with unordered set of values
@@ -62,7 +44,6 @@ public class LOOKUPSWITCH extends Select {
     LOOKUPSWITCH() {
     }
 
-
     public LOOKUPSWITCH(final int[] match, final InstructionHandle[] targets,
             final InstructionHandle defaultTarget) {
         super(com.sun.org.apache.bcel.internal.Const.LOOKUPSWITCH, match, targets, defaultTarget);
@@ -71,7 +52,6 @@ public class LOOKUPSWITCH extends Select {
         super.setLength(_length);
         setFixed_length(_length);
     }
-
 
     /**
      * Dump instruction as byte code to stream out.
@@ -87,7 +67,6 @@ public class LOOKUPSWITCH extends Select {
             out.writeInt(setIndices(i, getTargetOffset(super.getTarget(i))));
         }
     }
-
 
     /**
      * Read needed data (e.g. index) from file.
@@ -109,7 +88,6 @@ public class LOOKUPSWITCH extends Select {
             super.setIndices(i, bytes.readInt());
         }
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

@@ -21,21 +21,7 @@
 
 package jdk.test.lib.jittester;
 
-
 import jdk.test.lib.jittester.visitors.Visitor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class Initialization extends IRNode {
     private final VariableInfo variableInfo;

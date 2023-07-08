@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.io.Writer;
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Enumeration;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * AbstractWriter is an abstract class that actually
@@ -114,7 +99,6 @@ public abstract class AbstractWriter {
      * @see #getLineSeparator
      */
     protected static final char NEWLINE = '\n';
-
 
     /**
      * Creates a new AbstractWriter.
@@ -282,7 +266,6 @@ public abstract class AbstractWriter {
         return doc.getText(elem.getStartOffset(),
                            elem.getEndOffset() - elem.getStartOffset());
     }
-
 
     /**
      * Writes out text.  If a range is specified when the constructor

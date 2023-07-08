@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.validation;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.DOMEntityResolverWrapper;
@@ -67,20 +66,6 @@ import java.xml.share.classes.com.sun.org.xml.sax.SAXNotRecognizedException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXNotSupportedException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXParseException;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * {@link SchemaFactory} for XML Schema.
  *
@@ -115,7 +100,6 @@ public final class XMLSchemaFactory extends SchemaFactory {
     /** Property identifier: Security property manager. */
     private static final String XML_SECURITY_PROPERTY_MANAGER =
             JdkConstants.XML_SECURITY_PROPERTY_MANAGER;
-
 
     //
     // Data
@@ -155,7 +139,6 @@ public final class XMLSchemaFactory extends SchemaFactory {
      * Note same as the old property useServicesMechanism
      */
     private final boolean fOverrideDefaultParser;
-
 
     public XMLSchemaFactory() {
         fErrorHandlerWrapper = new ErrorHandlerWrapper(DraconianErrorHandler.getInstance());
@@ -577,7 +560,6 @@ public final class XMLSchemaFactory extends SchemaFactory {
             schema.setProperty(properties[i], state);
         }
     }
-
 
     /**
      * Extension of XMLGrammarPoolImpl which exposes the number of

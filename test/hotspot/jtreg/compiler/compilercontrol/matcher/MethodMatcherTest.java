@@ -21,7 +21,6 @@
 
 package compiler.compilercontrol.matcher;
 
-
 import compiler.compilercontrol.share.method.MethodDescriptor;
 import compiler.compilercontrol.share.method.MethodGenerator;
 import compiler.compilercontrol.share.pool.PoolHelper;
@@ -33,19 +32,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.Callable;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -60,9 +46,6 @@ import java.util.regex.Pattern;
  * @run main/othervm -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions
  *           -XX:+WhiteBoxAPI compiler.compilercontrol.matcher.MethodMatcherTest
  */
-
-
-
 
 public class MethodMatcherTest {
     private static final WhiteBox WB = WhiteBox.getWhiteBox();

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.opengl;
 
-
 import java.awt.Composite;
 import java.desktop.share.classes.sun.java2d.SurfaceData;
 import java.desktop.share.classes.sun.java2d.loops.CompositeType;
@@ -32,20 +31,6 @@ import java.desktop.share.classes.sun.java2d.pipe.Region;
 import java.desktop.share.classes.sun.java2d.pipe.BufferedMaskBlit;
 import static java.desktop.share.classes.sun.java2d.loops.CompositeType.*;.extended
 import static java.desktop.share.classes.sun.java2d.loops.SurfaceType.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class OGLMaskBlit extends BufferedMaskBlit {
 

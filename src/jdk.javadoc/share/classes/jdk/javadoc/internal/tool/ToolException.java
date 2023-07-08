@@ -21,22 +21,7 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.tool;
 
-
 import jdk.javadoc.share.classes.jdk.javadoc.internal.tool.Main.Result;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides a mechanism for the javadoc tool to terminate execution.

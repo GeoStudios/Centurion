@@ -21,23 +21,8 @@
 
 package java.security.jgss.share.classes.sun.security.jgss.spi;
 
-
 import org.ietf.jgss.*;
 import java.security.Provider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This interface is implemented by a mechanism specific name element. A
@@ -92,7 +77,6 @@ public interface GSSNameSpi {
      */
     byte[] export() throws GSSException;
 
-
     /**
      * Get the mechanism type that this NameElement corresponds to.
      *
@@ -109,7 +93,6 @@ public interface GSSNameSpi {
      * @overrides Object#toString
      */
     String toString();
-
 
     /**
      * Returns the oid describing the format of the printable name.

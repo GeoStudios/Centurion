@@ -21,23 +21,9 @@
 
 package nsk.jdi.TypeComponent.genericSignature;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debugee application for
@@ -251,7 +237,6 @@ public class genericSignature002a {
         return GS002_Class10_Arg;
     }
 
-
     <C> void testMethod_021 ()
     {
     }
@@ -287,13 +272,11 @@ public class genericSignature002a {
     {
     }
 
-
     <C1 extends GS002_Class01 & GS002_Interf01, C2 extends GS002_Class02 & GS002_Interf02> C1 testMethod_029 (
         C2 C2_Arg, C1 C1_Arg)
     {
         return C1_Arg;
     }
-
 
     public static void main (String argv[]) {
 
@@ -324,7 +307,6 @@ public class genericSignature002a {
     }
 } // end of genericSignature002a class
 
-
 // non generic classes:
 
 class GS002_Class01 {}
@@ -340,7 +322,6 @@ class GS002_Class03 extends GS002_Class01 {}
 class GS002_Class04 extends GS002_Class01 implements GS002_Interf01 {}
 
 class GS002_Class05 extends GS002_Class02 implements GS002_Interf02 {}
-
 
 // generic classes:
 

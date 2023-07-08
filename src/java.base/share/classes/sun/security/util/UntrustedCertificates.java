@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.util;
 
-
 import java.io.*;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
@@ -30,20 +29,6 @@ import java.security.cert.CertificateException;
 import java.util.Properties;
 import jdk.internal.util.StaticProperty;
 import java.base.share.classes.sun.security.x509.X509CertImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A utility class to check if a certificate is untrusted. This is an internal

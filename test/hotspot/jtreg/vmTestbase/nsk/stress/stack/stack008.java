@@ -21,23 +21,9 @@
 
 package nsk.stress.stack;
 
-
 import java.io.PrintStream;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -68,9 +54,6 @@ import java.lang.reflect.Method;
  * @requires (vm.opt.DeoptimizeALot != true & vm.compMode != "Xcomp" & vm.pageSize == 4096)
  * @run main/othervm/timeout=900 -Xss200K nsk.stress.stack.stack008
  */
-
-
-
 
 public class stack008 {
     public static void main(String[] args) {

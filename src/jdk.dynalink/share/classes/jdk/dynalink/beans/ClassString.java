@@ -21,7 +21,6 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.beans;
 
-
 import java.lang.invoke.MethodHandle;
 import java.security.AccessControlContext;
 import java.security.AccessController;
@@ -34,20 +33,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.internal.InternalTypeUtilities;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkerServices;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.support.TypeUtilities;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -55,8 +40,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.support.TypeUtilities;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-
-
 
 /**
  * Represents a sequence of {@link Class} objects, useful for representing method signatures. Provides value

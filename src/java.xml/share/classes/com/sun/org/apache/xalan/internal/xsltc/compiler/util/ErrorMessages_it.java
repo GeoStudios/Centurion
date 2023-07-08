@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util;
 
-
 import java.util.java.util.ListResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  */
@@ -119,7 +104,6 @@ public class ErrorMessages_it extends ListResourceBundle {
          */
         {ErrorMsg.TEMPLATE_REDEF_ERR,
         "Il modello ''{0}'' \u00E8 gi\u00E0 stato definito in questo foglio di stile."},
-
 
         /*
          * Note to translators:  The substitution text is the name of a
@@ -696,10 +680,8 @@ public class ErrorMessages_it extends ListResourceBundle {
         {ErrorMsg.JAXP_INVALID_SET_PARAM_VALUE,
         "Il valore del parametro {0} deve essere un oggetto Java valido"},
 
-
         {ErrorMsg.COMPILE_STDIN_ERR,
         "L'opzione -i deve essere utilizzata con l'opzione -o."},
-
 
         /*
          * Note to translators:  This message contains usage information for a
@@ -724,8 +706,6 @@ public class ErrorMessages_it extends ListResourceBundle {
          */
         {ErrorMsg.TRANSFORM_USAGE_STR,
         "RIPEILOGO\n   java com.sun.org.apache.xalan.internal.xsltc.cmdline.Transform [-j <file jar>]\n      [-x] [-n <iterazioni>] {-u <url_documento> | <documento>}\n      <classe> [<param1>=<valore1> ...]\n\n   utilizza la <classe> translet per trasformare un documento XML\n   specificato come <documento>. La <classe> di translet si trova nel\n   CLASSPATH dell'utente o nel <file jar> specificato facoltativamente.\\OPZIONI\n   -j <file jar>    specifica un file JAR dal quale caricare il translet\n   -x              attiva l'output di altri messaggi di debug\n   -n <iterazioni> esegue le <iterazioni> di trasformazione e\n                   visualizza le informazioni sui profili\n   -u <url_documento> specifica il documento di input XML come URL\n"},
-
-
 
         /*
          * Note to translators:  "<xsl:sort>", "<xsl:for-each>" and
@@ -983,7 +963,6 @@ public class ErrorMessages_it extends ListResourceBundle {
         {ErrorMsg.OUTLINE_ERR_DELETED_TARGET,
          "Errore XSLTC interno: a un'istruzione che faceva parte di un blocco di bytecode di tipo outlined viene ancora fatto riferimento nel metodo originale."
         },
-
 
         /*
          * Note to translators:  This message describes an internal error in the

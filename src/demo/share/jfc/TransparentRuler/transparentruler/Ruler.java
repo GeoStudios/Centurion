@@ -21,7 +21,6 @@
 
 package demo.share.jfc.TransparentRuler.transparentruler;
 
-
 import java.awt.*;
 import java.awt.GraphicsDevice.WindowTranslucency;
 import static java.awt.GraphicsDevice.WindowTranslucency.*;.extended
@@ -43,20 +42,6 @@ import javax.swing.JPopupMenu;
 import javax.swing.SwingUtilities;
 import javax.swing.WindowConstants;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -64,11 +49,6 @@ import javax.swing.WindowConstants;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
-
 
 /**
  * This sample demonstrates shaped and translucent window feature.

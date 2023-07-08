@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http;
 
-
 import java.io.File;
 import java.io.FilePermission;
 import java.io.java.io.java.io.java.io.IOException;
@@ -46,20 +45,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.net.http.share.classes.jdk.internal.net.http.ResponseSubscribers.PathSubscriber;
 import static java.util.regex.Pattern.CASE_INSENSITIVE;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class ResponseBodyHandlers {
 

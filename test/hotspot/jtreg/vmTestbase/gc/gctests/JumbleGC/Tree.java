@@ -21,21 +21,7 @@
 
 package gc.gctests.JumbleGC;
 
-
 import java.util.Vector ;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class treeNode {
    static int memorySinkSize = 100;
@@ -50,7 +36,6 @@ class treeNode {
    }
 }
 
-
 public class Tree {
 
     private treeNode TreeRoot;      // root of Tree
@@ -58,7 +43,6 @@ public class Tree {
     Vector TreeValues;   // all the nodal values in the tree
                                 // duplicated in this array.
     private int TreeValueIndex; // Where to store next Tree value
-
 
     Tree(int TreeSize) { TreeValues = new Vector(TreeSize); }
 
@@ -89,7 +73,6 @@ public class Tree {
       TreeValues.addElement(Integer.valueOf(o));
    }
 
-
 int getTreeValue(int index) {
       Integer num;
       num = (Integer) TreeValues.elementAt(index);
@@ -97,9 +80,7 @@ int getTreeValue(int index) {
       return num.intValue();
    }
 
-
    int vectorSize(){ return TreeValues.size(); }
-
 
    synchronized void PrettyPrint(){
       Print(TreeRoot, "");
@@ -113,7 +94,6 @@ int getTreeValue(int index) {
       System.out.println(indent + root.info);
       Print(root.left, indent + "    ");
    }
-
 
    synchronized int getNodeNumber(){return elementCount; }
 
@@ -165,7 +145,6 @@ int getTreeValue(int index) {
        else
            q.left = null;
    }
-
 
    synchronized void deleteElement(int o){
       treeNode p,q;
@@ -220,7 +199,6 @@ int getTreeValue(int index) {
 
       return;
    }
-
 
    private int getCount( treeNode root) {
       if (root == null )

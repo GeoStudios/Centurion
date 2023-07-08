@@ -21,7 +21,6 @@
 
 package nsk.jdi.ObjectReference.entryCount;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -31,19 +30,6 @@ import com.sun.jdi.request.*;
 import com.sun.jdi.event.*;
 import java.io.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  */
@@ -274,7 +260,6 @@ public class entrycount002 {
         return resultEvent;
     }
 
-
     private void getEventSet() {
         try {
             eventSet = vm.eventQueue().remove(waitTime);
@@ -286,7 +271,6 @@ public class entrycount002 {
             throw new Failure("getEventSet(): Unexpected exception while waiting for an event: " + e);
         }
     }
-
 
     private ReferenceType waitForDebuggeeClassPrepared () {
         display("Creating request for ClassPrepareEvent for debuggee.");

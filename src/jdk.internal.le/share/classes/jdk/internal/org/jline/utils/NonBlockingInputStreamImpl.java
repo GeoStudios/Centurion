@@ -21,24 +21,9 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.utils;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.Interruptedjava.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class wraps a regular input stream and allows it to appear as if it

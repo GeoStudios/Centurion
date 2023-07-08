@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.sound.sampled;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A source data line is a data line to which data may be written. It acts as a
  * source to its mixer. An application writes audio bytes to a source data line,

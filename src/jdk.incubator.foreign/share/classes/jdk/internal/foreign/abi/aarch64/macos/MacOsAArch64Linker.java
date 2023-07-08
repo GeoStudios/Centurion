@@ -21,7 +21,6 @@
 
 package jdk.incubator.foreign.share.classes.jdk.internal.foreign.abi.aarch64.macos;
 
-
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.Addressable;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.FunctionDescriptor;
 import jdk.incubator.foreign.share.classes.jdk.incubator.foreign.MemoryAddress;
@@ -39,20 +38,6 @@ import java.lang.invoke.MethodType;
 import java.base.share.classes.java.util.Objects;
 import java.util.function.Consumer;
 import static jdk.incubator.foreign.share.classes.jdk.internal.foreign.PlatformLayouts.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * ABI implementation for macOS on Apple silicon. Based on AAPCS with

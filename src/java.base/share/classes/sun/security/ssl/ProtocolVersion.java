@@ -21,26 +21,11 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.security.CryptoPrimitive;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.EnumSet;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Enum for an SSL/TLS/DTLS protocol version.
@@ -59,7 +44,6 @@ enum ProtocolVersion {
 
     // Dummy protocol version value for invalid SSLSession
     NONE            (-1,        "NONE",         false);
-
 
     final int id;
     final String name;

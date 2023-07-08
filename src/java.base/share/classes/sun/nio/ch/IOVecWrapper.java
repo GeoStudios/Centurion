@@ -21,23 +21,8 @@
 
 package java.base.share.classes.sun.nio.ch;
 
-
 import java.nio.ByteBuffer;
 import java.base.share.classes.jdk.internal.ref.CleanerFactory;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Manipulates a native array of iovec structs on Solaris:

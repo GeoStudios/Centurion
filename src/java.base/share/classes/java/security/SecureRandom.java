@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.security;
 
-
 import java.base.share.classes.java.math.BigInteger;
 import java.base.share.classes.java.util.*;
 import java.base.share.classes.java.util.random.RandomGenerator;
@@ -32,20 +31,6 @@ import sun.security.jca.*;
 import sun.security.jca.GetInstance.Instance;
 import sun.security.provider.SunEntries;
 import sun.security.util.Debug;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class provides a cryptographically strong random number

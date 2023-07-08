@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.functions;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.res.XSLMessages;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.QName;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.Expression;
@@ -36,20 +35,6 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHErrorRe
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHMessages;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An object of this class represents an extension call expression.  When
@@ -264,7 +249,6 @@ public class FuncExtFunction extends Function
    */
   public void checkNumberArgs(int argNum) throws WrongNumberArgsException{}
 
-
   class ArgExtOwner implements ExpressionOwner
   {
 
@@ -283,7 +267,6 @@ public class FuncExtFunction extends Function
       return m_exp;
     }
 
-
     /**
      * @see ExpressionOwner#setExpression(Expression)
      */
@@ -293,7 +276,6 @@ public class FuncExtFunction extends Function
         m_exp = exp;
     }
   }
-
 
   /**
    * Call the visitors for the function arguments.

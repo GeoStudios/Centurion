@@ -21,25 +21,9 @@
 
 package nsk.jdwp.Method.IsObsolete;
 
-
 import nsk.share.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 //    THIS TEST IS LINE NUMBER SENSITIVE
-
-
 
 /**
  * This class is for redefinition.

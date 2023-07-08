@@ -21,7 +21,6 @@
 
 package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
 import java.nio.ByteBuffer;
@@ -37,20 +36,6 @@ import jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.*;
 import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Constants.*;.extended
 import static jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper.PKCS11Exception.*;.extended
 import jdk.crypto.cryptoki.share.classes.sun.security.util.KeyUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Signature implementation class. This class currently supports the
@@ -163,7 +148,6 @@ final class P11Signature extends SignatureSpi {
     // PKCS#11 spec for CKM_ECDSA states that the length should not be longer
     // than 1024 bits", but this is a little arbitrary
     private static final int RAW_ECDSA_MAX = 128;
-
 
     P11Signature(Token token, String algorithm, long mechanism)
             throws NoSuchAlgorithmException, PKCS11Exception {

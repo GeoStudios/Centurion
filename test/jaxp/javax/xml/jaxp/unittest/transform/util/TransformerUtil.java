@@ -21,26 +21,12 @@
 
 package transform.util;
 
-
 import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
 import java.io.InputStream;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.transform.Result;
 import javax.xml.transform.Source;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class TransformerUtil {
 

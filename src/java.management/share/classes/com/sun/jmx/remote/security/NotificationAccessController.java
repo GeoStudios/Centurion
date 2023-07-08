@@ -21,24 +21,9 @@
 
 package java.management.share.classes.com.sun.jmx.remote.security;
 
-
 import javax.management.Notification;
 import javax.management.ObjectName;
 import javax.security.auth.Subject;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>This interface allows to control remote access to the

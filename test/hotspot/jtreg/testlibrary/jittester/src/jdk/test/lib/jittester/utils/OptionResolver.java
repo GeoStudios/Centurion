@@ -21,23 +21,9 @@
 
 package jdk.test.lib.jittester.utils;
 
-
 import java.io.FileReader;
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class OptionResolver {
     private final Map<String, Option<?>> options = new LinkedHashMap<>(20);

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.util.xml;
 
-
 import java.io.*;
 import java.nio.charset.Charset;
 import java.util.InvalidPropertiesFormatException;
@@ -34,20 +33,6 @@ import java.base.share.classes.jdk.internal.org.xml.sax.SAXParseException;
 import java.base.share.classes.jdk.internal.org.xml.sax.helpers.DefaultHandler;
 import java.base.share.classes.jdk.internal.util.xml.impl.SAXParserImpl;
 import java.base.share.classes.jdk.internal.util.xml.impl.XMLStreamWriterImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class used to aid in Properties load and save in XML. This class is

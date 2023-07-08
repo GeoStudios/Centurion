@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 6946040
@@ -46,7 +31,6 @@ package compiler.c2;
  *      -XX:CompileCommand=compileonly,compiler.c2.TestCharShortByteSwap::testShort
  *      compiler.c2.TestCharShortByteSwap
  */
-
 
 // This test must run without any command line arguments.
 

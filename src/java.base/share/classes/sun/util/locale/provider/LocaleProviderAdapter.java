@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.util.locale.provider;
 
-
 import java.lang.reflect.InvocationTargetException;
 import java.text.spi.BreakIteratorProvider;
 import java.text.spi.CollatorProvider;
@@ -49,20 +48,6 @@ import java.base.share.classes.sun.security.action.GetPropertyAction;
 import java.base.share.classes.sun.text.spi.JavaTimeDateTimePatternProvider;
 import java.base.share.classes.sun.util.spi.CalendarProvider;
 import static java.lang.System.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The LocaleProviderAdapter abstract class.

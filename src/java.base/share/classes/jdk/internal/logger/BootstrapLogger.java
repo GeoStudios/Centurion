@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.logger;
 
-
 import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
@@ -48,20 +47,6 @@ import java.base.share.classes.jdk.internal.misc.InnocuousThread;
 import java.base.share.classes.jdk.internal.misc.VM;
 import sun.util.logging.PlatformLogger;
 import java.base.share.classes.jdk.internal.logger.LazyLoggers.LazyLoggerAccessor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The BootstrapLogger class handles all the logic needed by Lazy Loggers
@@ -974,7 +959,6 @@ public final class BootstrapLogger implements Logger, PlatformLogger.Bridge,
             return accessor.createLogger();
         }
     }
-
 
     // If the backend is JUL, and there is no custom configuration, and
     // nobody has attempted to call LogManager.getLogManager() yet, then

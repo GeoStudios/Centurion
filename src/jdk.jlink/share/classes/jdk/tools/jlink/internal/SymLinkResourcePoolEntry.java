@@ -21,24 +21,9 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal;
 
-
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry;
 import java.io.InputStream;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A symbolic link ResourcePoolEntry.  It will be created in the image

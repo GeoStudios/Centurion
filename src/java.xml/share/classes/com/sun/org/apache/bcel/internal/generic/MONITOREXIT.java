@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.ExceptionConst;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * MONITOREXIT - Exit monitor for object
@@ -50,14 +35,12 @@ public class MONITOREXIT extends Instruction implements ExceptionThrower, StackC
         super(com.sun.org.apache.bcel.internal.Const.MONITOREXIT, (short) 1);
     }
 
-
     @Override
     public Class<?>[] getExceptions() {
         return new Class<?>[] {
             ExceptionConst.NULL_POINTER_EXCEPTION
         };
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.*;
 import java.awt.event.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The editor component used for JComboBox components.

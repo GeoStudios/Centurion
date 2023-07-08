@@ -21,25 +21,11 @@
 
 package nsk.jdi.VMCannotBeModifiedEx._itself_;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test checks up <t>com.sun.jdi.VMCannotBeModifiedException</t>.

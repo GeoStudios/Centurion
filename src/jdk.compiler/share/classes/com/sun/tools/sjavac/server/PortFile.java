@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac.server;
 
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.java.io.java.io.java.io.IOException;
@@ -34,20 +33,6 @@ import java.util.concurrent.Semaphore;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Assert;
 import jdk.compiler.share.classes.com.sun.tools.sjavac.Log;
 import jdk.compiler.share.classes.com.sun.tools.sjavac.client.PortFileInaccessibleException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The PortFile class mediates access to a short binary file containing the tcp/ip port (for the localhost)

@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.nio.file.attribute;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Defines the flags for used by the flags component of an ACL {@link AclEntry
  * entry}.

@@ -21,21 +21,6 @@
 
 package java.lang.invoke;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This is a CallSite, which constructor can be used as bootstrap method (via REF_newInvokeSpecial reference kind).
  *

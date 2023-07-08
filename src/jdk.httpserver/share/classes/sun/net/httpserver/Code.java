@@ -21,22 +21,6 @@
 
 package jdk.httpserver.share.classes.sun.net.httpserver;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class Code {
 
     public static final int HTTP_CONTINUE = 100;

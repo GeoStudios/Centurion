@@ -21,7 +21,6 @@
 
 package jdk.test.lib.jittester.factories;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.Declaration;
 import jdk.test.lib.jittester.ProductionFailedException;
@@ -29,19 +28,6 @@ import jdk.test.lib.jittester.ProductionParams;
 import jdk.test.lib.jittester.VariableDeclarationBlock;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.PseudoRandom;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class VariableDeclarationBlockFactory extends Factory<VariableDeclarationBlock> {
     private final long complexityLimit;

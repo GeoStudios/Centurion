@@ -21,23 +21,9 @@
 
 package nsk.jdi.ArrayReference.getValue;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class getvalue003a {
 
@@ -46,7 +32,6 @@ public class getvalue003a {
                                                       "staticObjArrC"};
 
     static getvalue003aClassToCheck testedObj = new getvalue003aClassToCheck();
-
 
     public static void main (String argv[]) {
 

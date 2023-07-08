@@ -21,7 +21,6 @@
 
 package jdk.test.lib.jittester.factories;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import jdk.test.lib.jittester.Block;
@@ -33,19 +32,6 @@ import jdk.test.lib.jittester.Typejava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.utils.TypeUtil;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.PseudoRandom;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class TryCatchBlockFactory extends Factory<TryCatchBlock> {
     private final static double CATCH_SELECTION_COEF = 0.1d;

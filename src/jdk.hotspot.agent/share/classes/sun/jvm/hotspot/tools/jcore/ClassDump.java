@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.jcore;
 
-
 import java.io.*;
 import java.lang.reflect.Constructor;
 import java.util.jar.JarOutputStream;
@@ -33,20 +32,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.tools.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ClassDump extends Tool {
     private ClassFilter classFilter;

@@ -21,7 +21,6 @@
 
 package compiler.jsr292.NonInlinedCall;
 
-
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.MethodVisitor;
 import jdk.internal.vm.annotation.DontInline;
@@ -36,19 +35,6 @@ import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PUBLIC;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.ACC_STATIC;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.ACC_SUPER;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.IRETURN;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -73,10 +59,6 @@ import static jdk.internal.org.objectweb.asm.Opcodes.IRETURN;.extended
  *                                 -Xbatch -XX:-TieredCompilation -XX:CICompilerCount=1
  *                                 compiler.jsr292.NonInlinedCall.RedefineTest
  */
-
-
-
-
 
 public class RedefineTest {
     static final MethodHandles.Lookup LOOKUP = MethodHandleHelper.IMPL_LOOKUP;
@@ -139,7 +121,6 @@ public class RedefineTest {
     public static void premain(String args, Instrumentation instr) {
         RedefineTest.instr = instr;
     }
-
 
     public static void main(String[] args) throws Exception {
         for (int i = 0; i < 20_000; i++) {

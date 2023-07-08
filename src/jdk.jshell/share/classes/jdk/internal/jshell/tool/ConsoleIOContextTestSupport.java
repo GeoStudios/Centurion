@@ -21,22 +21,6 @@
 
 package jdk.jshell.share.classes.jdk.internal.jshell.tool;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**A support class to the ConsoleIOContext, containing callbacks called
  * on important points in ConsoleIOContext.
  */

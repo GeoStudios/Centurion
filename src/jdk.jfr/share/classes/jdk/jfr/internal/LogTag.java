@@ -21,22 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Mapped against c++ enum in jfrLogTagSet.hpp */
 public enum LogTag {
     /**

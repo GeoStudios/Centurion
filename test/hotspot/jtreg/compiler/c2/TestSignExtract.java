@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8242429
@@ -49,7 +34,6 @@ public class TestSignExtract {
 
     private static final long[] LONG_VALUES = {0L, 0xFFFFFFFFL, 0x12L, -1L, -123L, -0x12L, Long.MAX_VALUE, Long.MIN_VALUE};
     private static final int[] INT_VALUES = {0, 0x1234, -1, -0x12345678, Integer.MAX_VALUE, Integer.MIN_VALUE};
-
 
     private static int signExtractInt1(int x) {
         return (x >> 1) >>> 31;

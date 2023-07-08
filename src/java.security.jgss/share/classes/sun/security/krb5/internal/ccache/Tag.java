@@ -21,23 +21,8 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal.ccache;
 
-
 import java.security.jgss.share.classes.sun.security.krb5.*;
 import java.io.ByteArrayOutputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * tag field introduced in KRB5_FCC_FVNO_4

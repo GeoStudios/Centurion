@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.loader;
 
-
 import java.io.Closeable;
 import java.io.File;
 import java.io.FileInputStream;
@@ -72,20 +71,6 @@ import java.base.share.classes.jdk.internal.util.jar.JarIndex;
 import sun.net.util.URLUtil;
 import sun.net.www.ParseUtil;
 import sun.security.action.GetPropertyAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used to maintain a search path of URLs for loading classes
@@ -896,7 +881,6 @@ public class URLClassPath {
             };
         }
 
-
         /*
          * Returns true iff at least one resource in the jar file has the same
          * package name as that of the specified resource name.
@@ -1071,7 +1055,6 @@ public class URLClassPath {
             } while (count < jarFilesList.size());
             return null;
         }
-
 
         /*
          * Returns the JAR file local class path, or null if none.

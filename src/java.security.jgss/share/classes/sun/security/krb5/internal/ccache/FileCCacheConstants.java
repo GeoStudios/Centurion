@@ -21,22 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal.ccache;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Constants used by file-based credential cache classes.
  *

@@ -21,22 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Utility class for static conversion methods between numbers
  *  and strings in various formats.
  *

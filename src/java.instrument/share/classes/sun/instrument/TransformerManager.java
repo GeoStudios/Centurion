@@ -21,24 +21,9 @@
 
 package java.instrument.share.classes.sun.instrument;
 
-
 import java.lang.instrument.Instrumentation;
 import java.lang.instrument.ClassFileTransformer;
 import java.security.ProtectionDomain;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Support class for the InstrumentationImpl. Manages the list of registered transformers.
@@ -223,7 +208,6 @@ public class TransformerManager
         return result;
     }
 
-
     int
     getTransformerCount() {
         TransformerInfo[]  transformerList = getSnapshotTransformerList();
@@ -245,7 +229,6 @@ public class TransformerManager
         }
         return false;
     }
-
 
     String[]
     getNativeMethodPrefixes() {

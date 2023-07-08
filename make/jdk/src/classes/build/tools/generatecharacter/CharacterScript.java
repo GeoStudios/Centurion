@@ -21,56 +21,6 @@
 
 package build.tools.generatecharacter;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class CharacterScript {
 
     // generate the code needed for j.l.C.UnicodeScript
@@ -175,8 +125,6 @@ public class CharacterScript {
                             }
                          });
 
-
-
             // Consolidation: there are lots of "reserved" code points
             // embedded in those otherwise "sequential" blocks.
             // To make the lookup table smaller, we combine those
@@ -231,7 +179,6 @@ public class CharacterScript {
             }
             debug("--->total=%d%n", list.size());
 
-
             //////////////////OUTPUT//////////////////////////////////
             print("public class Scripts {%n%n");
             print("    public static enum UnicodeScript {%n");
@@ -240,7 +187,6 @@ public class CharacterScript {
                 print("        %s,%n%n",  names[i].toUpperCase(Locale.US));
             }
             print("        /**%n         * Unicode script \"Unknown\".%n         */%n        UNKNOWN;%n%n");
-
 
             // lookup table
             print("        private static final int[] scriptStarts = {%n");

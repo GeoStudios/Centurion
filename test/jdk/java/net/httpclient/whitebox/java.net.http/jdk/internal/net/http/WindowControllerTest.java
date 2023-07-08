@@ -21,24 +21,10 @@
 
 package jdk.internal.net.http;
 
-
 import org.testng.annotations.Test;
 import static jdk.internal.net.http.frame.SettingsFrame.DEFAULT_INITIAL_WINDOW_SIZE;.extended
 import static org.testng.Assert.assertEquals;.extended
 import static org.testng.Assert.assertThrows;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class WindowControllerTest {
 

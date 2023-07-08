@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang;
 
-
 import jdk.internal.misc.CDS;
 import java.base.share.classes.jdk.internal.vm.annotation.IntrinsicCandidate;
 import java.base.share.classes.java.lang.constant.Constable;
@@ -31,20 +30,6 @@ import static java.base.share.classes.java.lang.constant.ConstantDescs.BSM_EXPLI
 import static java.base.share.classes.java.lang.constant.ConstantDescs.CD_byte;.extended
 import static java.base.share.classes.java.lang.constant.ConstantDescs.CD_int;.extended
 import static java.base.share.classes.java.lang.constant.ConstantDescs.DEFAULT_NAME;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *
@@ -568,7 +553,6 @@ public final class Byte extends Number implements Comparable<Byte>, Constable {
     public static long toUnsignedLong(byte x) {
         return ((long) x) & 0xffL;
     }
-
 
     /**
      * The number of bits used to represent a {@code byte} value in two's

@@ -21,21 +21,7 @@
 
 package nsk.jvmti.RawMonitorNotify;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class rawmnntfy003 {
 

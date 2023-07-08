@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang.module;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
@@ -243,5 +227,4 @@ package java.base.share.classes.java.lang.module;
  * was enumerated by previous (or parent) resolution. </p>
  *
  */
-
 

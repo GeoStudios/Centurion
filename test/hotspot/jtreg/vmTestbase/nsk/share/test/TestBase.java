@@ -21,26 +21,12 @@
 
 package nsk.share.test;
 
-
 import nsk.share.log.Log;
 import nsk.share.log.LogAware;
 import nsk.share.Consts;
 import vm.share.options.OptionSupport;
 import vm.share.options.Option;
 import vm.share.options.Options;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class TestBase implements Test, LogAware, TestExitCode {
         @Option

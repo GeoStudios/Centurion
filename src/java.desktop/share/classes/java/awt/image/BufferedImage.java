@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt.image;
 
-
 import java.desktop.share.classes.java.awt.Graphics2D;
 import java.desktop.share.classes.java.awt.GraphicsEnvironment;
 import java.desktop.share.classes.java.awt.Point;
@@ -38,20 +37,6 @@ import sun.awt.image.BytePackedRaster;
 import sun.awt.image.IntegerComponentRaster;
 import sun.awt.image.OffScreenImageSource;
 import sun.awt.image.ShortComponentRaster;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *
@@ -289,7 +274,6 @@ public class BufferedImage extends java.awt.Image
     private static final int DCM_BGR_RED_MASK = 0x0000ff;
     private static final int DCM_BGR_GRN_MASK = 0x00ff00;
     private static final int DCM_BGR_BLU_MASK = 0xff0000;
-
 
     private static native void initIDs();
     static {
@@ -616,7 +600,6 @@ public class BufferedImage extends java.awt.Image
      * @see WritableRaster
      */
 
-
 /*
  *
  *  FOR NOW THE CODE WHICH DEFINES THE RASTER TYPE IS DUPLICATED BY DVF
@@ -863,7 +846,6 @@ public class BufferedImage extends java.awt.Image
         return raster;
     }
 
-
     /**
      * Returns a {@code WritableRaster} representing the alpha
      * channel for {@code BufferedImage} objects
@@ -993,7 +975,6 @@ public class BufferedImage extends java.awt.Image
         return rgbArray;
     }
 
-
     /**
      * Sets a pixel in this {@code BufferedImage} to the specified
      * RGB value. The pixel is assumed to be in the default RGB color
@@ -1062,7 +1043,6 @@ public class BufferedImage extends java.awt.Image
         }
     }
 
-
     /**
      * Returns the width of the {@code BufferedImage}.
      * @return the width of this {@code BufferedImage}
@@ -1112,7 +1092,6 @@ public class BufferedImage extends java.awt.Image
         }
         return osis;
     }
-
 
     /**
      * Returns a property of the image by name.  Individual property names
@@ -1535,7 +1514,6 @@ public class BufferedImage extends java.awt.Image
             raster.setPixels(startX,i,width,1, tdata);
         }
     }
-
 
   /**
    * Adds a tile observer.  If the observer is already present,

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.security.AlgorithmConstraints;
 import java.security.AlgorithmParameters;
 import java.security.CryptoPrimitive;
@@ -30,20 +29,6 @@ import java.util.Set;
 import javax.net.ssl.*;
 import java.base.share.classes.sun.security.util.DisabledAlgorithmConstraints;
 import static java.base.share.classes.sun.security.util.DisabledAlgorithmConstraints.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Algorithm constraints for disabled algorithms property
@@ -231,7 +216,6 @@ final class SSLAlgorithmConstraints implements AlgorithmConstraints {
 
         return permitted;
     }
-
 
     private static class SupportedSignatureAlgorithmConstraints
                                     implements AlgorithmConstraints {

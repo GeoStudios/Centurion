@@ -21,22 +21,7 @@
 
 package jdk.httpserver.share.classes.com.sun.net.httpserver;
 
-
 import java.security.Principal;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents a user authenticated by HTTP Basic or Digest

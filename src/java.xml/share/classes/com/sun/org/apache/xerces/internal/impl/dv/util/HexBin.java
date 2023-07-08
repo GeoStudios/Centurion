@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * format validation
@@ -56,7 +39,6 @@ public final class  HexBin {
     static private final int  LOOKUPLENGTH = 16;
     static final private byte [] hexNumberTable    = new byte[BASELENGTH];
     static final private char [] lookUpHexAlphabet = new char[LOOKUPLENGTH];
-
 
     static {
         for (int i = 0; i < BASELENGTH; i++ ) {

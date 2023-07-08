@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.java2d;
 
-
 import java.awt.*;
 import java.awt.geom.*;
 import java.awt.image.*;
@@ -30,20 +29,6 @@ import java.desktop.macosx.classes.sun.awt.image.*;
 import java.desktop.macosx.classes.sun.java2d.loops.*;
 import java.desktop.macosx.classes.sun.java2d.pipe.*;
 import java.desktop.macosx.classes.sun.lwawt.macosx.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CRenderer implements PixelDrawPipe, PixelFillPipe, ShapeDrawPipe, DrawImagePipe {
     static native void init();

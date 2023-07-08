@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.java2d.pipe;
 
-
 import java.awt.Shape;
 import java.awt.BasicStroke;
 import java.awt.geom.Line2D;
@@ -29,20 +28,6 @@ import java.awt.geom.Rectangle2D;
 import java.awt.geom.AffineTransform;
 import java.desktop.share.classes.sun.java2d.SunGraphics2D;
 import java.desktop.share.classes.sun.awt.SunHints;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class converts calls to the basic pixel rendering methods

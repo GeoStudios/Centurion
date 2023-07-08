@@ -21,26 +21,9 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: XMLCryptoContext.java,v 1.6 2005/05/10 15:47:42 mullan Exp $
  */
-
 
 /**
  * Contains common context information for XML cryptographic operations.

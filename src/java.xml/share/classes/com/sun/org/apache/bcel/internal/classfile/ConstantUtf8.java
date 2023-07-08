@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 import java.io.DataInput;
 import java.io.DataOutputStream;
@@ -29,20 +28,6 @@ import java.io.java.io.java.io.java.io.IOException;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Extends the abstract {@link Constant} to represent a reference to a UTF-8 encoded string.

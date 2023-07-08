@@ -21,22 +21,8 @@
 
 package jit.t.t015;
 
-
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -49,8 +35,6 @@ import nsk.share.GoldChecker;
  * @run main/othervm jit.t.t015.t015
  */
 
-
-
 public class t015
 {
     public static final GoldChecker goldChecker = new GoldChecker( "t015" );
@@ -61,7 +45,6 @@ public class t015
     {
         x = i;
     }
-
 
     public static void main(String argv[])
     {

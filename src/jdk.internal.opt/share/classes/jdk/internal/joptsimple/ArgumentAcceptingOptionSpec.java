@@ -21,7 +21,6 @@
 
 package jdk.internal.opt.share.classes.jdk.internal.joptsimple;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.StringTokenizer;
@@ -29,20 +28,6 @@ import static java.util.Collections.*;.extended
 import static java.util.java.util.java.util.java.util.Objects.*;.extended
 import static jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.Reflection.*;.extended
 import static jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal.Strings.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Specification of an option that accepts an argument.</p>

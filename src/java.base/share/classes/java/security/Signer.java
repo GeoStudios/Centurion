@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.security;
 
-
 import java.base.share.classes.java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used to represent an Identity that can also digitally
@@ -75,7 +60,6 @@ public abstract class Signer extends Identity {
     protected Signer() {
         super();
     }
-
 
     /**
      * Creates a signer with the specified identity name.

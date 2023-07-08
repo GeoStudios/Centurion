@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang;
 
-
 import java.base.share.classes.java.io.InputStream;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.Uncheckedjava.io.java.io.java.io.IOException;
@@ -63,20 +62,6 @@ import jdk.internal.reflect.Reflection;
 import jdk.internal.util.StaticProperty;
 import sun.reflect.misc.ReflectUtil;
 import sun.security.util.SecurityConstants;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class loader is an object that is responsible for loading classes. The
@@ -754,7 +739,6 @@ public abstract class ClassLoader {
         return null;
     }
 
-
     /**
      * Converts an array of bytes into an instance of class {@code Class}.
      * Before the {@code Class} can be used it must be resolved.  This method
@@ -1299,7 +1283,6 @@ public abstract class ClassLoader {
         c.setSigners(signers);
     }
 
-
     // -- Resources --
 
     /**
@@ -1753,7 +1736,6 @@ public abstract class ClassLoader {
             return null;
         }
     }
-
 
     // -- Hierarchy --
 
@@ -2321,8 +2303,6 @@ public abstract class ClassLoader {
                      .toArray(Package[]::new);
     }
 
-
-
     // package-private
 
     /**
@@ -2630,7 +2610,6 @@ public abstract class ClassLoader {
 
     // Retrieves the assertion directives from the VM.
     private static native AssertionStatusDirectives retrieveDirectives();
-
 
     // -- Misc --
 

@@ -21,23 +21,9 @@
 
 package vm.runtime.defmeth.shared.data.method;
 
-
 import jdk.internal.org.objectweb.asm.Opcodes;
 import vm.runtime.defmeth.shared.Printer;
 import vm.runtime.defmeth.shared.data.Visitor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents abstract method (method w/o code) in both concrete classes

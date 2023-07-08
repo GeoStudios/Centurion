@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.awt.datatransfer;
 
-
 import java.awt.EventQueue;
 import java.awt.Graphics;
 import java.awt.Image;
@@ -81,20 +80,6 @@ import java.desktop.share.classes.sun.awt.image.ImageRepresentation;
 import java.desktop.share.classes.sun.awt.image.ToolkitImage;
 import java.io.FilePermission;
 import java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides a set of functions to be shared among the DataFlavor class and
@@ -704,7 +689,6 @@ search:
         return converted;
     }
 
-
     /**
      * Primary translation function for translating a Transferable into
      * a byte array, given a source DataFlavor and target format.
@@ -944,7 +928,6 @@ search:
                 theByteArray = bos.toByteArray();
             }
 
-
         // Source data is an RMI object
         } else if (flavor.isRepresentationClassRemote()) {
             theByteArray = convertObjectToBytes(DataFlavorUtil.RMI.newMarshalledObject(obj));
@@ -957,8 +940,6 @@ search:
         } else {
             throw new IOException("data translation failed");
         }
-
-
 
         return theByteArray;
     }
@@ -1108,7 +1089,6 @@ search:
 
         return false;
     }
-
 
     public Object translateBytes(byte[] bytes, DataFlavor flavor,
                                  long format, Transferable localeTransferable)
@@ -1626,7 +1606,6 @@ search:
      * Translates either a byte array or an input stream which contain
      * platform-specific image data in the given format into an Image.
      */
-
 
     protected abstract Image platformImageBytesToImage(
         byte[] bytes,long format) throws IOException;

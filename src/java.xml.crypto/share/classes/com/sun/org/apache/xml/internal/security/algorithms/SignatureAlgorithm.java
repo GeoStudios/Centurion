@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms;
 
-
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.base.share.classes.java.security.Key;
@@ -44,27 +43,10 @@ import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Attr;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Document;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * Allows selection of digital signature's algorithm, private keys, other
@@ -218,7 +200,6 @@ public class SignatureAlgorithm extends Algorithm {
             throw new XMLSignatureException(ex, "algorithms.NoSuchAlgorithm", exArgs);
         }
     }
-
 
     /**
      * Proxy method for {@link java.security.Signature#sign()}

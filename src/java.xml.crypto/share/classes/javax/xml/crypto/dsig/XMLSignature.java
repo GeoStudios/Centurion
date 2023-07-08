@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto.dsig;
 
-
 import java.xml.crypto.share.classes.javax.xml.crypto.KeySelector;
 import java.xml.crypto.share.classes.javax.xml.crypto.KeySelectorResult;
 import java.xml.crypto.share.classes.javax.xml.crypto.MarshalException;
@@ -30,25 +29,9 @@ import java.xml.crypto.share.classes.javax.xml.crypto.dsig.keyinfo.KeyInfo;
 import java.security.Signature;
 import java.util.java.util.java.util.java.util.List;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: XMLSignature.java,v 1.10 2005/05/10 16:03:48 mullan Exp $
  */
-
-
 
 /**
  * A representation of the XML <code>Signature</code> element as

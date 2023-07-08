@@ -21,25 +21,11 @@
 
 package nsk.jdi.ClassObjectReference.reflectedType;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This test checks the method <code>reflectedType()</code>
@@ -59,7 +45,6 @@ public class reflectype002 extends Log {
 
     /** Debugee's class for check **/
     private final static String checked_class = package_prefix + "reflectype002b";
-
 
     /**
      * Re-call to <code>run(args,out)</code>, and exit with

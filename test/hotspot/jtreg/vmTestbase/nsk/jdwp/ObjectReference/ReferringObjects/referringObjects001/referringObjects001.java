@@ -21,26 +21,12 @@
 
 package nsk.jdwp.ObjectReference.ReferringObjects.referringObjects001;
 
-
 import nsk.share.Consts;
 import nsk.share.jdwp.CommandPacket;
 import nsk.share.jdwp.JDWP;
 import nsk.share.jdwp.ReplyPacket;
 import nsk.share.jdwp.TestDebuggerType1;
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -99,9 +85,6 @@ import java.io.PrintStream;
  *      -transport.address=dynamic
  *      -debugee.vmkeys="-Xmx256M ${test.vm.opts} ${test.java.opts}"
  */
-
-
-
 
 public class referringObjects001 extends TestDebuggerType1 {
 
@@ -173,7 +156,6 @@ public class referringObjects001 extends TestDebuggerType1 {
 
         if (!isDebuggeeReady())
             return;
-
 
         int referrersCount = referringObjects001a.expectedCount;
 

@@ -21,24 +21,10 @@
 
 package nsk.jdwp.ReferenceType.NestedTypes;
 
-
 import java.io.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdwp.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Test for JDWP command: ReferenceType.NestedTypes.

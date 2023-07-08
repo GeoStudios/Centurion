@@ -21,26 +21,11 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.linker;
 
-
 import java.lang.invoke.MethodHandles;
 import java.util.function.Supplier;
 import jdk.dynalink.share.classes.jdk.dynalink.SecureLookupSupplier;
 import jdk.dynalink.share.classes.jdk.dynalink.beans.BeansLinker;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.support.TypeUtilities;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -49,8 +34,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.support.TypeUtilities;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-
-
 
 /**
  * Optional interface that can be implemented by {@link GuardingDynamicLinker}

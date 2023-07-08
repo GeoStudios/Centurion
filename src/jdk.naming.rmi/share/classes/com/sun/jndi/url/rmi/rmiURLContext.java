@@ -21,26 +21,11 @@
 
 package jdk.naming.rmi.share.classes.com.sun.jndi.url.rmi;
 
-
 import java.util.Hashtable;
 import javax.naming.*;
 import javax.naming.spi.ResolveResult;
 import jdk.naming.rmi.share.classes.com.sun.jndi.toolkit.url.GenericURLContext;
 import jdk.naming.rmi.share.classes.com.sun.jndi.rmi.registry.RegistryContext;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An RMI URL context resolves names that are URLs of the form

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-
 import java.desktop.share.classes.com.sun.java.awt.Color;
 import java.desktop.share.classes.com.sun.java.awt.Cursor;
 import java.desktop.share.classes.com.sun.java.awt.Dimension;
@@ -32,20 +31,6 @@ import javax.swing.JSplitPane;
 import javax.swing.UIManager;
 import javax.swing.plaf.basic.BasicSplitPaneDivider;
 import javax.swing.plaf.basic.BasicSplitPaneUI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Divider used for Motif split pane.
@@ -60,7 +45,6 @@ public class MotifSplitPaneDivider extends BasicSplitPaneDivider
      */
     private static final Cursor defaultCursor =
                             Cursor.getPredefinedCursor(Cursor.DEFAULT_CURSOR);
-
 
     public static final int minimumThumbSize = 6;
     public static final int defaultDividerSize = 18;
@@ -269,7 +253,6 @@ public class MotifSplitPaneDivider extends BasicSplitPaneDivider
     private JSplitPane getSplitPane() {
         return splitPane;
     }
-
 
     /**
      * MouseHandler is subclassed to only pass off to super if the mouse

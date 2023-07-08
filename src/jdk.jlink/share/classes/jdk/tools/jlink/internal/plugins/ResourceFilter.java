@@ -21,7 +21,6 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins;
 
-
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Uncheckedjava.io.java.io.java.io.IOException;
@@ -34,20 +33,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Objects;
 import java.util.function.Predicate;
 import jdk.jlink.share.classes.jdk.tools.jlink.internal.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

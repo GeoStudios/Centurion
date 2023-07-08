@@ -21,21 +21,7 @@
 
 package nsk.share.test;
 
-
 import nsk.share.log.Log;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public interface Dumpable {
         public void dump(Log log);

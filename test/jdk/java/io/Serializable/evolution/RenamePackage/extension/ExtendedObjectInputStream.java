@@ -21,22 +21,8 @@
 
 package extension;
 
-
 import java.util.Hashtable;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ExtendedObjectInputStream extends ObjectInputStream {
 

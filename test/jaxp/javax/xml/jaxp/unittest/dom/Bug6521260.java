@@ -21,7 +21,6 @@
 
 package dom;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import javax.xml.parsers.DocumentBuilder;
@@ -33,19 +32,6 @@ import org.testng.annotations.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

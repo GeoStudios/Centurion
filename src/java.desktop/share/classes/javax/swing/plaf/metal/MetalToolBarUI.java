@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.metal;
 
-
 import java.desktop.share.classes.javax.swing.*;
 import java.awt.Color;
 import java.awt.Component;
@@ -41,20 +40,6 @@ import java.desktop.share.classes.javax.swing.event.*;
 import java.desktop.share.classes.javax.swing.border.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
 import java.desktop.share.classes.javax.swing.plaf.basic.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A Metal Look and Feel implementation of ToolBarUI.  This implementation
@@ -228,7 +213,6 @@ public class MetalToolBarUI extends BasicToolBarUI
         return super.createNonRolloverBorder();
     }
 
-
     /**
      * Creates a non rollover border for Toggle buttons in the toolbar.
      */
@@ -258,7 +242,6 @@ public class MetalToolBarUI extends BasicToolBarUI
             super.setBorderToNonRollover(c);
         }
     }
-
 
     /**
      * Creates a container listener that will be added to the JToolBar.

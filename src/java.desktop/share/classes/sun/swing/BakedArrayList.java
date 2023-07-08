@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.sun.swing;
 
-
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <b>WARNING:</b> This class is an implementation detail and is only

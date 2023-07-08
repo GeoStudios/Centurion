@@ -21,21 +21,6 @@
 
 package nsk.jvmti.RedefineClasses;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class redefclass026b {
     int intValue = 0;
 

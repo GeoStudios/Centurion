@@ -21,21 +21,6 @@
 
 package nsk.jdi.ReferenceType.fieldByName;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class is loaded by fieldbyname002aClassLoader .
  */

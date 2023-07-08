@@ -21,7 +21,6 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.impl;
 
-
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -42,20 +41,6 @@ import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.Size;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.terminal.spi.Pty;
 import jdk.internal.le.share.classes.jdk.internal.org.jline.utils.OSUtils;
 import static jdk.internal.le.share.classes.jdk.internal.org.jline.utils.ExecHelper.exec;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ExecPty extends AbstractPty implements Pty {
 

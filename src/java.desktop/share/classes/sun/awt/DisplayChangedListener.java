@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.sun.awt;
 
-
 import java.util.Eventjava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The listener interface for receiving display change events.

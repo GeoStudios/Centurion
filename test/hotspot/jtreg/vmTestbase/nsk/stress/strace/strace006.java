@@ -21,25 +21,11 @@
 
 package nsk.stress.strace;
 
-
 import nsk.share.ArgumentParser;
 import nsk.share.Failure;
 import nsk.share.Log;
 import java.io.PrintStream;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -68,9 +54,6 @@ import java.util.Map;
  * @run main/othervm/native nsk.stress.strace.strace006
  */
 
-
-
-
 /**
  * The test check up <code>java.lang.Thread.getStackTrace()</code> method for the pure
  * java recursion.
@@ -96,7 +79,6 @@ public class strace006 {
             "nsk.stress.strace.strace006Thread.recursiveMethod1",
             "nsk.stress.strace.strace006Thread.recursiveMethod2"
     };
-
 
     static volatile boolean isLocked = false;
     static PrintStream out;

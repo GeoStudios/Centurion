@@ -21,21 +21,6 @@
 
 package nsk.share;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class TestFailure extends RuntimeException {
     public TestFailure() {
         super();

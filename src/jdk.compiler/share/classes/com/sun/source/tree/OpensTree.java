@@ -21,22 +21,7 @@
 
 package jdk.compiler.share.classes.com.sun.source.tree;
 
-
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A tree node for an 'opens' directive in a module declaration.

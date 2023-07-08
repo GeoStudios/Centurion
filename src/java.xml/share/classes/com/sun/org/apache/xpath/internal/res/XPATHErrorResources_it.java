@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.res;
 
-
 import java.util.java.util.ListResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Set up error messages.
@@ -888,8 +871,6 @@ public static final String ER_IGNORABLE_WHITESPACE_NOT_HANDLED =
   { WG_UNSUPPORTED_ENCODING,
      "Codifica non supportata: {0}"},
 
-
-
   // Other miscellaneous text used inside the code...
   { "ui_language", "it"},
   { "help_language", "it"},
@@ -929,7 +910,6 @@ public static final String ER_IGNORABLE_WHITESPACE_NOT_HANDLED =
   {
       return _contents;
   }
-
 
   // ================= INFRASTRUCTURE ======================
 

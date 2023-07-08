@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * BasicCheckboxMenuItem implementation

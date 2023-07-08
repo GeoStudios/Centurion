@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface DataDirectory {
   /** The relative virtual address of the table. The RVA is the
       address of the table, when loaded, relative to the base address

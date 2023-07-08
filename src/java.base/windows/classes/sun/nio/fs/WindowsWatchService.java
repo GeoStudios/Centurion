@@ -21,7 +21,6 @@
 
 package java.base.windows.classes.sun.nio.fs;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.NotDirectoryException;
 import java.nio.file.Path;
@@ -34,20 +33,6 @@ import java.util.Set;
 import jdk.internal.misc.Unsafe;
 import static java.base.windows.classes.sun.nio.fs.WindowsNativeDispatcher.*;.extended
 import static java.base.windows.classes.sun.nio.fs.WindowsConstants.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Win32 implementation of WatchService based on ReadDirectoryChangesW.
@@ -279,7 +264,6 @@ class WindowsWatchService
         private static final short SIZEOF_OVERLAPPED    = 32; // 20 on 32-bit
         private static final short OFFSETOF_HEVENT      =
             (UNSAFE.addressSize() == 4) ? (short) 16 : 24;
-
 
         /*
          * typedef struct _FILE_NOTIFY_INFORMATION {

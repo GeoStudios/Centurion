@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.management;
 
-
 import java.io.Closeable;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -29,20 +28,6 @@ import java.util.concurrent.atomic.AtomicLong;
 import jdk.jfr.share.classes.jdk.jfr.Recording;
 import jdk.jfr.share.classes.jdk.jfr.internal.consumer.FinishedStream;
 import jdk.jfr.share.classes.jdk.jfr.internal.consumer.OngoingStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // abstract class that hides if a recording is ongoing or finished.
 public abstract class EventByteStream implements Closeable {

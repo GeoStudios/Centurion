@@ -21,26 +21,11 @@
 
 package java.scripting.share.classes.com.sun.tools.script.shell;
 
-
 import java.io.*;
 import java.net.*;
 import java.text.*;
 import java.util.*;
 import javax.script.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is the main class for Java script shell.

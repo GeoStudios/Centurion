@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * IASTORE -  Store into int array
@@ -56,7 +39,6 @@ public class IASTORE extends ArrayInstruction implements StackConsumer {
     public IASTORE() {
         super(com.sun.org.apache.bcel.internal.Const.IASTORE);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

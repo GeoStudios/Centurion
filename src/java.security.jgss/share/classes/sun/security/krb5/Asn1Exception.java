@@ -21,22 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.krb5;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Asn1Exception extends KrbException {
 
     private static final long serialVersionUID = 8291288984575084132L;

@@ -21,22 +21,6 @@
 
 package java.rmi.share.classes.java.rmi.server;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An obsolete subclass of {@link ExportException}.
  *

@@ -21,7 +21,6 @@
 
 package org.w3c.dom.ptests;
 
-
 import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
 import static jaxp.library.JAXPTestUtilities.compareWithGold;.extended
 import static jaxp.library.JAXPTestUtilities.tryRunWithTmpPermission;.extended
@@ -50,19 +49,6 @@ import org.w3c.dom.DocumentFragment;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.Nodejava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -173,7 +159,6 @@ public class NodeTest {
         tryRunWithTmpPermission(() -> outputXml(document, outputfile), new PropertyPermission("user.dir", "read"));
         assertTrue(compareWithGold(goldfile, outputfile));
     }
-
 
     /*
      * Test replacing a particular node with a document fragment.

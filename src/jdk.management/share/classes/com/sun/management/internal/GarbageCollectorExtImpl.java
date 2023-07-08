@@ -21,7 +21,6 @@
 
 package jdk.management.share.classes.com.sun.management.internal;
 
-
 import jdk.management.share.classes.com.sun.management.GarbageCollectionNotificationInfo;
 import jdk.management.share.classes.com.sun.management.GarbageCollectorMXBean;
 import jdk.management.share.classes.com.sun.management.GcInfo;
@@ -35,20 +34,6 @@ import javax.management.Notificationjava.util.Listener;
 import javax.management.openmbean.CompositeData;
 import jdk.management.share.classes.com.sun.management.GarbageCollectorImpl;
 import jdk.management.share.classes.com.sun.management.ManagementFactoryHelper;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation class for the garbage collector.

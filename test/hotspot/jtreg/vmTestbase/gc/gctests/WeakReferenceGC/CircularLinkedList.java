@@ -21,21 +21,6 @@
 
 package gc.gctests.WeakReferenceGC;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class node {
     byte [] arr;
     node next;

@@ -21,21 +21,6 @@
 
 package nsk.share.test;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Test marker interface.
  */

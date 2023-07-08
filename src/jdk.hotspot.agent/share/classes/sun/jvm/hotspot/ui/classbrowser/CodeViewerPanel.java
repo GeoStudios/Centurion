@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.classbrowser;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -32,20 +31,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.code.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.oops.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CodeViewerPanel extends JPanel {
     protected SAEditorPane   contentEditor;
@@ -72,7 +57,6 @@ public class CodeViewerPanel extends JPanel {
                     }
                 }
             };
-
 
         setLayout(new BorderLayout());
 

@@ -21,22 +21,6 @@
 
 package jdk.crypto.cryptoki.share.classes.sun.security.pkcs11.wrapper;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * class CK_SSL3_KEY_MAT_PARAMS provides the parameters to the
  * CKM_SSL3_KEY_AND_MAC_DERIVE mechanism.<p>

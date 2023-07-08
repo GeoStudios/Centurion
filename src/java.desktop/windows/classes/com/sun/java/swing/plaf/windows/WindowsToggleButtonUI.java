@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.com.sun.java.swing.plaf.windows;
 
-
 import java.desktop.windows.classes.com.sun.java.awt.Color;
 import java.desktop.windows.classes.com.sun.java.awt.Dimension;
 import java.desktop.windows.classes.com.sun.java.awt.Graphics;
@@ -34,20 +33,6 @@ import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicGraphicsUtils;
 import javax.swing.plaf.basic.BasicToggleButtonUI;
 import java.desktop.windows.classes.com.sun.awt.AppContext;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A Windows toggle button.
@@ -77,7 +62,6 @@ public class WindowsToggleButtonUI extends BasicToggleButtonUI
         return windowsToggleButtonUI;
     }
 
-
     // ********************************
     //            Defaults
     // ********************************
@@ -106,11 +90,9 @@ public class WindowsToggleButtonUI extends BasicToggleButtonUI
         defaults_initialized = false;
     }
 
-
     protected Color getFocusColor() {
         return focusColor;
     }
-
 
     // ********************************
     //         Paint Methods
@@ -149,7 +131,6 @@ public class WindowsToggleButtonUI extends BasicToggleButtonUI
         }
         super.paint(g, c);
     }
-
 
     /**
      * Overridden method to render the text without the mnemonic

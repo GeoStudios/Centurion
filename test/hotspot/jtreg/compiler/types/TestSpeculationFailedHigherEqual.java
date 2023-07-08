@@ -21,21 +21,6 @@
 
 package compiler.types;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8027422
@@ -45,7 +30,6 @@ package compiler.types;
  *                   -XX:+UseTypeSpeculation -XX:-BackgroundCompilation
  *                   compiler.types.TestSpeculationFailedHigherEqual
  */
-
 
 public class TestSpeculationFailedHigherEqual {
 

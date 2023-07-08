@@ -21,22 +21,6 @@
 
 package java.scripting.share.classes.javax.script;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The optional interface implemented by ScriptEngines whose methods allow the invocation of
  * procedures in scripts that have previously been executed.
@@ -82,7 +66,6 @@ public interface Invocable  {
      */
     Object invokeFunction(String name, Object... args)
         throws ScriptException, NoSuchMethodException;
-
 
      /**
      * Returns an implementation of an interface using functions compiled in

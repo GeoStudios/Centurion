@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util.stream;
 
-
 import java.base.share.classes.java.nio.charset.Charset;
 import java.base.share.classes.java.nio.file.Files;
 import java.base.share.classes.java.nio.file.Path;
@@ -31,20 +30,6 @@ import java.base.share.classes.java.util.Spliterator;
 import java.base.share.classes.java.util.concurrent.ConcurrentHashMap;
 import java.base.share.classes.java.util.function.IntConsumer;
 import java.base.share.classes.java.util.function.Predicate;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base interface for streams, which are sequences of elements supporting

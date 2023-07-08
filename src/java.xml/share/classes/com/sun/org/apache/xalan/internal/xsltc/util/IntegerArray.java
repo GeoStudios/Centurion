@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  */

@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.awt.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class to perform rendering of the glyphs.
@@ -245,8 +230,6 @@ class GlyphPainter1 extends GlyphView.GlyphPainter {
                 Toolkit.getDefaultToolkit().getFontMetrics(f);
         }
     }
-
-
 
     /**
      * @return justificationData from the ParagraphRow this GlyphView

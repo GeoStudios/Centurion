@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.lang.ref.SoftReference;
 import java.nio.CharBuffer;
@@ -29,20 +28,6 @@ import javax.tools.JavaFileObject;
 import jdk.compiler.share.classes.com.sun.tools.javac.file.JavacFileManager;
 import jdk.compiler.share.classes.com.sun.tools.javac.tree.EndPosTable;
 import static jdk.compiler.share.classes.com.sun.tools.javac.util.LayoutCharacters.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A simple abstraction of a source file, as needed for use in a diagnostic message.

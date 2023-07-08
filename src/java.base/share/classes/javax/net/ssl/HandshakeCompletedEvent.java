@@ -21,25 +21,10 @@
 
 package java.base.share.classes.javax.net.ssl;
 
-
 import java.util.EventObject;
 import java.security.cert.Certificate;
 import java.security.Principal;
 import java.security.cert.X509Certificate;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This event indicates that an SSL handshake completed on a given
@@ -75,7 +60,6 @@ public class HandshakeCompletedEvent extends EventObject
         session = s;
     }
 
-
     /**
      * Returns the session that triggered this event.
      *
@@ -85,7 +69,6 @@ public class HandshakeCompletedEvent extends EventObject
     {
         return session;
     }
-
 
     /**
      * Returns the cipher suite in use by the session which was produced
@@ -98,7 +81,6 @@ public class HandshakeCompletedEvent extends EventObject
     {
         return session.getCipherSuite();
     }
-
 
     /**
      * Returns the certificate(s) that were sent to the peer during
@@ -123,7 +105,6 @@ public class HandshakeCompletedEvent extends EventObject
         return session.getLocalCertificates();
     }
 
-
     /**
      * Returns the identity of the peer which was established as part
      * of defining the session.
@@ -145,7 +126,6 @@ public class HandshakeCompletedEvent extends EventObject
     {
         return session.getPeerCertificates();
     }
-
 
     /**
      * Returns the identity of the peer which was identified as part

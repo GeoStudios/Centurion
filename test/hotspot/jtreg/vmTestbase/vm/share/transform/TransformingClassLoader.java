@@ -21,21 +21,7 @@
 
 package vm.share.transform;
 
-
 import vm.share.FileUtils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class TransformingClassLoader extends ClassLoader {
     private final AbstractClassFileTransformer transformer;

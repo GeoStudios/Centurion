@@ -21,23 +21,9 @@
 
 package nsk.jvmti.scenarios.general_functions.GF01;
 
-
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test exercises the JVMTI target area "General Functions".

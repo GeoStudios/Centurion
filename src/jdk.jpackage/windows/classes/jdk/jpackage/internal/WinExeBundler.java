@@ -21,27 +21,12 @@
 
 package jdk.jpackage.windows.classes.jdk.jpackage.internal;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.text.MessageFormat;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class WinExeBundler extends AbstractBundler {
 

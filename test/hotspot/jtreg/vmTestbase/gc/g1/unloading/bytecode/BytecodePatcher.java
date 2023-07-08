@@ -21,21 +21,7 @@
 
 package gc.g1.unloading.bytecode;
 
-
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This utility class replaces peaces of bytes in bytecode by another peaces according to dictionary. This is useful for class redefenition.

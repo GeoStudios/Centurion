@@ -21,22 +21,7 @@
 
 package jdk.jdi.share.classes.com.sun.jdi.event;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Notification of a field access in the target VM. Field modifications

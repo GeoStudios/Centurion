@@ -21,22 +21,7 @@
 
 package java.management.share.classes.javax.management;
 
-
 import java.util.Vector;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements of the {@link javax.management.NotificationFilter NotificationFilter}

@@ -21,22 +21,6 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap.pool;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Represents a connection that is managed in a pool. The connection
  * may be reused by multiple clients.

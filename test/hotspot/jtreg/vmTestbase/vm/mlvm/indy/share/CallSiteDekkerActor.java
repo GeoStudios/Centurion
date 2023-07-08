@@ -21,24 +21,10 @@
 
 package vm.mlvm.indy.share;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.CallSite;
 import vm.mlvm.share.DekkerTest;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The class implements Actor for {@link vm.mlvm.share.DekkerTest}.

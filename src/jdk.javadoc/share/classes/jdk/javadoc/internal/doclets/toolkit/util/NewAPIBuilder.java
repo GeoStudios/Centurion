@@ -21,26 +21,11 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util;
 
-
 import com.sun.source.doctree.DocTree;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
 import javax.lang.model.element.Element;
 import java.util.java.util.java.util.java.util.List;
 import static com.sun.source.doctree.DocTree.Kind.SINCE;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Build list of all the packages, classes, constructors, fields and methods

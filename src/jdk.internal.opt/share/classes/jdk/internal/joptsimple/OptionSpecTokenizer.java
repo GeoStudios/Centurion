@@ -21,23 +21,8 @@
 
 package jdk.internal.opt.share.classes.jdk.internal.joptsimple;
 
-
 import java.util.NoSuchElementException;
 import static jdk.internal.opt.share.classes.jdk.internal.joptsimple.ParserRules.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Tokenizes a short option specification string.
@@ -64,7 +49,6 @@ class OptionSpecTokenizer {
     AbstractOptionSpec<?> next() {
         if ( !hasMore() )
             throw new NoSuchElementException();
-
 
         String optionCandidate = String.valueOf( specification.charAt( index ) );
         index++;

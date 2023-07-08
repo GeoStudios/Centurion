@@ -21,28 +21,10 @@
 
 package java.base.share.classes.sun.text.resources;
 
-
 import java.util.java.util.ListResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  */
-
-
-
 
 public class CollationData extends ListResourceBundle {
 

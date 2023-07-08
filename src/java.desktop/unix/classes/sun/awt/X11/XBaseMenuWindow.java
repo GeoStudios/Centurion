@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.desktop.unix.classes.sun.awt.*;
@@ -30,20 +29,6 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Vector;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
 import java.desktop.unix.classes.sun.java2d.SurfaceData;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The abstract class XBaseMenuWindow is the superclass
@@ -220,7 +205,6 @@ public abstract class XBaseMenuWindow extends XWindow {
      */
     protected abstract Rectangle getSubmenuBounds(Rectangle itemBounds, Dimension windowSize);
 
-
     /**
      * This function is to be called if it's likely that size
      * of items was changed. It can be called from any thread
@@ -303,7 +287,6 @@ public abstract class XBaseMenuWindow extends XWindow {
             return items.toArray(new XMenuItemPeer[] {});
         }
     }
-
 
     /**
      * Thread-safely returns selected item
@@ -801,7 +784,6 @@ public abstract class XBaseMenuWindow extends XWindow {
         int height = (windowSize.height < screenBounds.height) ? windowSize.height : screenBounds.height;
         return new Rectangle(screenBounds.x, screenBounds.y, width, height);
     }
-
 
     /************************************************
      *

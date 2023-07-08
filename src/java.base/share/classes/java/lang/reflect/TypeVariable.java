@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang.reflect;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * TypeVariable is the common superinterface for type variables of kinds.
  * A type variable is created the first time it is needed by a reflective

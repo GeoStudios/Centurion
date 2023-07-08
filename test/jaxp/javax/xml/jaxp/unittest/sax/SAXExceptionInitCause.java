@@ -21,7 +21,6 @@
 
 package sax;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -32,19 +31,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.xml.sax.SAXException;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 6857903
@@ -54,9 +40,6 @@ import org.xml.sax.SAXException;
  * @run testng/othervm sax.SAXExceptionInitCause
  * @author aleksej.efimov@oracle.com
  */
-
-
-
 
 public class SAXExceptionInitCause {
 

@@ -21,23 +21,9 @@
 
 package nsk.jdi.EventRequest.getProperty;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the getproperty001 JDI test.
@@ -151,12 +137,10 @@ public class getproperty001a {
                                 break;
                 }
 
-
                 log1("methodForCommunication();");
                 methodForCommunication();
                 if (instruction == end)
                     break;
-
 
             }
 

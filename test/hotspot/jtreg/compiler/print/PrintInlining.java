@@ -21,21 +21,6 @@
 
 package compiler.print;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8022585
@@ -44,7 +29,6 @@ package compiler.print;
  *                   compiler.print.PrintInlining
  *
  */
-
 
 public class PrintInlining {
     public static void main(String[] args) {

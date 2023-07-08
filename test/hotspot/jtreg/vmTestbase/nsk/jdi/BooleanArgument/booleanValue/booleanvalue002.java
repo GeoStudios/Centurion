@@ -21,7 +21,6 @@
 
 package nsk.jdi.BooleanArgument.booleanValue;
 
-
 import java.io.PrintStream;
 import java.io.Serializable;
 import java.util.Map;
@@ -35,19 +34,6 @@ import com.sun.jdi.connect.Connector;
 import com.sun.jdi.connect.Connector.Argument;
 import com.sun.jdi.connect.Connector.BooleanArgument;
 import com.sun.jdi.connect.LaunchingConnector;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type <BR>
@@ -65,7 +51,6 @@ import com.sun.jdi.connect.LaunchingConnector;
  * Otherwise, the test is passed and produces  <BR>
  * the return value 95 and no message.         <BR>
  */
-
 
 public class booleanvalue002 {
 
@@ -86,7 +71,6 @@ public class booleanvalue002 {
         String sErr2 =  "INFO:\n" +
                         "Method tested: " +
                         "jdi.Connector.BooleanArgument.booleanValue\n" ;
-
 
         VirtualMachineManager vmm = Bootstrap.virtualMachineManager();
 

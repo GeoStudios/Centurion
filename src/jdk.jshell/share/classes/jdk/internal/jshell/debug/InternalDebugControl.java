@@ -21,25 +21,10 @@
 
 package jdk.jshell.share.classes.jdk.internal.jshell.debug;
 
-
 import java.io.PrintStream;
 import java.util.HashMap;
 import java.util.Map;
 import jdk.jshell.share.classes.jdk.jshell.JShell;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used to externally control output messages for debugging the

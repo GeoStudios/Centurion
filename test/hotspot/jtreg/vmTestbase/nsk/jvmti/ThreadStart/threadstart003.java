@@ -21,21 +21,7 @@
 
 package nsk.jvmti.ThreadStart;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class threadstart003 {
 

@@ -21,21 +21,7 @@
 
 package compiler.gcbarriers;
 
-
 import sun.hotspot.WhiteBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -46,8 +32,6 @@ import sun.hotspot.WhiteBox;
  *      -XX:+WhiteBoxAPI -Xmx300m -XX:+UseG1GC
  *      compiler.gcbarriers.PreserveFPRegistersTest
  */
-
-
 
 public class PreserveFPRegistersTest {
 

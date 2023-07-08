@@ -21,7 +21,6 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.beans;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodType;
 import java.util.Iterator;
@@ -32,20 +31,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.ConversionComparator.Compa
 import jdk.dynalink.share.classes.jdk.dynalink.linker.LinkerServices;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.support.TypeUtilities;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -53,8 +38,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.support.TypeUtilities;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-
-
 
 /**
  * Utility class that encapsulates the algorithm for choosing the maximally specific methods.

@@ -21,7 +21,6 @@
 
 package nsk.share;
 
-
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
@@ -35,19 +34,6 @@ import java.util.Set;
 import java.util.HashSet;
 import java.util.Vector;
 import nsk.share.test.LazyFormatString;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class helps to print test-execution trace messages

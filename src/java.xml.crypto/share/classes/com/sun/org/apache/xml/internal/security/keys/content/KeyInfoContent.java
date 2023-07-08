@@ -21,27 +21,10 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.content;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * Empty interface just to identify Elements that can be children of ds:KeyInfo.

@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
-
 import java.io.*;
 import java.util.*;
 import java.util.zip.*;
 import java.awt.image.*;
 import java.awt.Color;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** PNG - Portable Network Graphics - image file reader.
     See <a href=http://www.ietf.org/rfc/rfc2083.txt>RFC2083</a> for details. */
@@ -734,6 +719,5 @@ class PNGFilterInputStream extends FilterInputStream {
         for(i = 0; i<n && read()>=0; i++);
         return i;
     }
-
 
 }

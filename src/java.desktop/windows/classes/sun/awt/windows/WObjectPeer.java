@@ -21,23 +21,8 @@
 
 package java.desktop.windows.classes.sun.awt.windows;
 
-
 import java.util.Map;
 import java.util.WeakHashMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 abstract class WObjectPeer {
 

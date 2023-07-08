@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.print;
 
-
 import java.awt.GraphicsEnvironment;
 import java.awt.Toolkit;
 import java.awt.Window;
@@ -76,20 +75,6 @@ import javax.print.attribute.standard.SheetCollate;
 import javax.print.event.PrintServiceAttributejava.util.Listener;
 import java.desktop.windows.classes.sun.awt.windows.WPrinterJob;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Win32PrintService implements PrintService, AttributeUpdater,
                                           SunPrinterJobService {
 
@@ -138,7 +123,6 @@ public class Win32PrintService implements PrintService, AttributeUpdater,
         SunAlternateMedia.class,
         Chromaticity.class
     };
-
 
     /*
      * This table together with methods findWin32Media and
@@ -192,12 +176,10 @@ public class Win32PrintService implements PrintService, AttributeUpdater,
     private static final int DMCOLOR_MONOCHROME = 1;
     private static final int DMCOLOR_COLOR = 2;
 
-
     // media sizes with indices above dmPaperToPrintService' length
     private static final int DMPAPER_A2 = 66;
     private static final int DMPAPER_A6 = 70;
     private static final int DMPAPER_B6_JIS = 88;
-
 
     // Bit settings for getPrinterCapabilities which matches that
     // of native getCapabilities in WPrinterJob.cpp
@@ -455,7 +437,6 @@ public class Win32PrintService implements PrintService, AttributeUpdater,
         msnList.toArray(mediaSizeNames);
     }
 
-
     /*
      * Gets a list of MediaPrintableAreas using a call to native function.
      *  msn is MediaSizeName used to get a specific printable area.  If null,
@@ -554,7 +535,6 @@ public class Win32PrintService implements PrintService, AttributeUpdater,
        }
     }
 
-
     private synchronized MediaTray[] getMediaTrays() {
         if (gotTrays && mediaTrays != null) {
             return mediaTrays;
@@ -631,7 +611,6 @@ public class Win32PrintService implements PrintService, AttributeUpdater,
         }
         return null;
     }
-
 
     private MediaSize[] getMediaSizes(ArrayList<Integer> idList, int[] media,
                                       ArrayList<String> dmPaperNameList) {

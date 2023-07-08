@@ -21,21 +21,7 @@
 
 package compiler.compilercontrol.share.pool.sub;
 
-
 import compiler.compilercontrol.share.pool.MethodHolder;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Simple class with methods to test signatures

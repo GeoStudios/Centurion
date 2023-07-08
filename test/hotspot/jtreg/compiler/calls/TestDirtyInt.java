@@ -21,26 +21,10 @@
 
 package compiler.calls;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* @test
 
  * @run main/native compiler.calls.TestDirtyInt
  */
-
 
 public class TestDirtyInt {
     static {

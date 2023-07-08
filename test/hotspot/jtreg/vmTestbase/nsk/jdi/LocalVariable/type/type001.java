@@ -21,26 +21,12 @@
 
 package nsk.jdi.LocalVariable.type;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -192,7 +178,6 @@ public class type001 {
 
             Method testMethod = (Method) methods.get(0);
 
-
             String names[] = { "bl1", "bt1", "ch1", "db1",
                                "fl1", "in1", "ln1", "sh1" };
 
@@ -304,7 +289,6 @@ public class type001 {
                             log3("ERROR: ShortType sh = (ShortType) lVarType;");
                         }
                         break;
-
 
                 default: expresult = 2;
                          break ;

@@ -21,21 +21,7 @@
 
 package vm.compiler.coverage.parentheses.share;
 
-
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Tiny stack InstructionsExecutor. This executor verifies HotspotInstructionsExecutor

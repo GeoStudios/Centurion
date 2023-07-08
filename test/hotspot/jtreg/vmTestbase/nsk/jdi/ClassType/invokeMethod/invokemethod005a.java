@@ -21,23 +21,9 @@
 
 package nsk.jdi.ClassType.invokeMethod;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  <code>invokemethod005a</code> is deugee's part of the invokemethod005.

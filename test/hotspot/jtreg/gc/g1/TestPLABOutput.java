@@ -21,26 +21,12 @@
 
 package gc.g1;
 
-
 import sun.hotspot.WhiteBox;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
 import static jdk.test.lib.Asserts.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestPLABOutput
@@ -53,10 +39,6 @@ import static jdk.test.lib.Asserts.*;.extended
  * @run driver jdk.test.lib.helpers.ClassFileInstaller sun.hotspot.WhiteBox
  * @run driver gc.g1.TestPLABOutput
  */
-
-
-
-
 
 public class TestPLABOutput {
 

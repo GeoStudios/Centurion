@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.jrtfs;
 
-
 import java.io.ByteArrayInputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -63,20 +62,6 @@ import java.util.Set;
 import java.util.regex.Pattern;
 import java.base.share.classes.jdk.internal.jimage.ImageReader.Node;
 import static java.util.stream.Collectors.tojava.util.java.util.java.util.List;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * jrt file system implementation built on System jimage files.

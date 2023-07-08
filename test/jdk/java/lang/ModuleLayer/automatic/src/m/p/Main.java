@@ -21,21 +21,7 @@
 
 package p;
 
-
 import q.Lib;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Main {
     public static void main(String[] args) {

@@ -21,7 +21,6 @@
 
 package jdk.management.share.classes.com.sun.management;
 
-
 import java.lang.management.MemoryUsage;
 import javax.management.openmbean.CompositeData;
 import javax.management.openmbean.CompositeDataView;
@@ -32,20 +31,6 @@ import java.util.HashMap;
 import java.util.Map;
 import jdk.management.share.classes.com.sun.management.internal.GcInfoCompositeData;
 import jdk.management.share.classes.com.sun.management.internal.GcInfoBuilder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Garbage collection information.  It contains the following

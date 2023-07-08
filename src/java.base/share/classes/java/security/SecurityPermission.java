@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.security;
 
-
 import java.base.share.classes.java.security.*;
 import java.base.share.classes.java.util.Enumeration;
 import java.base.share.classes.java.util.Hashtable;
 import java.base.share.classes.java.util.StringTokenizer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is for security permissions. A {@code SecurityPermission}

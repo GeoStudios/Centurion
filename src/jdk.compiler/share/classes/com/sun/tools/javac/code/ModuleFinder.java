@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.code;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
@@ -53,20 +52,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Name;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Names;
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  This class provides operations to locate module definitions

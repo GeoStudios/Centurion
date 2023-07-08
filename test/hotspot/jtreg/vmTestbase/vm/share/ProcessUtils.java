@@ -21,26 +21,12 @@
 
 package vm.share;
 
-
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.lang.management.ManagementFactory;
 import java.lang.reflect.Field;
 import nsk.share.TestBug;
 import com.sun.management.HotSpotDiagnosticMXBean;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class ProcessUtils {
     static {

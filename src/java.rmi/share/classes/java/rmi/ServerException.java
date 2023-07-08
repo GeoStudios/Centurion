@@ -21,22 +21,6 @@
 
 package java.rmi.share.classes.java.rmi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A <code>ServerException</code> is thrown as a result of a remote method
  * invocation when a <code>RemoteException</code> is thrown while processing

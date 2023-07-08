@@ -21,7 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.jgss.krb5;
 
-
 import org.ietf.jgss.*;
 import java.security.jgss.share.classes.sun.security.jgss.*;
 import java.io.InputStream;
@@ -29,20 +28,6 @@ import java.io.OutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ByteArrayInputStream;
 import java.security.MessageDigest;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is a base class for other token definitions that pertain to
@@ -146,7 +131,6 @@ abstract class MessageToken extends Krb5Token {
 
     /* cipher instance used by the corresponding GSSContext */
     CipherHelper cipherHelper = null;
-
 
     /**
      * Constructs a MessageToken from a byte array. If there are more bytes
@@ -475,7 +459,6 @@ abstract class MessageToken extends Krb5Token {
              checksumDataHeader, optionalTrailer, data, offset, len, tokenId);
     }
 
-
     /**
      * Constructs an empty MessageToken for the local context to send to
      * the peer. It also increments the local sequence number in the
@@ -678,7 +661,6 @@ abstract class MessageToken extends Krb5Token {
             os.write(bytes);
         }
 
-
         /**
          * Returns the token id for the message token.
          * @return the token id
@@ -717,7 +699,6 @@ abstract class MessageToken extends Krb5Token {
             return bytes;
         }
     } // end of class MessageTokenHeader
-
 
     /**
      * Determine signing algorithm based on QOP.

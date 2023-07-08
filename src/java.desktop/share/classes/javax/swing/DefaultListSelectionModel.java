@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.util.Eventjava.util.Listener;
 import java.util.BitSet;
 import java.io.Serializable;
 import java.beans.Transient;
 import java.desktop.share.classes.javax.swing.event.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Default data model for list selections.
@@ -195,7 +180,6 @@ public class DefaultListSelectionModel implements ListSelectionModel, Cloneable,
         lastChangedIndex = MIN;
         fireValueChanged(oldFirstChangedIndex, oldLastChangedIndex, isAdjusting);
     }
-
 
     /**
      * Notifies <code>ListSelectionListeners</code> that the value
@@ -565,7 +549,6 @@ public class DefaultListSelectionModel implements ListSelectionModel, Cloneable,
         changeSelection(clearMin, clearMax, setMin, setMax);
     }
 
-
     /**
      * Changes the selection to be the set difference of the current selection
      * and the indices between {@code index0} and {@code index1} inclusive.
@@ -678,7 +661,6 @@ public class DefaultListSelectionModel implements ListSelectionModel, Cloneable,
         fireValueChanged();
     }
 
-
     /**
      * Remove the indices in the interval index0,index1 (inclusive) from
      * the selection model.  This is typically called to sync the selection
@@ -723,7 +705,6 @@ public class DefaultListSelectionModel implements ListSelectionModel, Cloneable,
         fireValueChanged();
     }
 
-
     /** {@inheritDoc} */
     public void setValueIsAdjusting(boolean isAdjusting) {
         if (isAdjusting != this.isAdjusting) {
@@ -731,7 +712,6 @@ public class DefaultListSelectionModel implements ListSelectionModel, Cloneable,
             this.fireValueChanged(isAdjusting);
         }
     }
-
 
     /**
      * Returns a string that displays and identifies this

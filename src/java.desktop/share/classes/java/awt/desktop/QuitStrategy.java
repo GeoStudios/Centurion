@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.awt.desktop;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The strategy used to shut down the application, if Sudden Termination is not
  * enabled.

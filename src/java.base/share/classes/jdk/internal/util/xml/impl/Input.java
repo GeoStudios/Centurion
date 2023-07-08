@@ -21,22 +21,7 @@
 
 package java.base.share.classes.jdk.internal.util.xml.impl;
 
-
 import java.io.Reader;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A parsed entity input state.

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
 import java.nio.ByteBuffer;
@@ -40,20 +39,6 @@ import java.base.share.classes.sun.security.ssl.DHKeyExchange.DHECredentials;
 import java.base.share.classes.sun.security.ssl.DHKeyExchange.DHEPossession;
 import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
 import java.base.share.classes.sun.security.util.HexDumpEncoder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Pack of the "ClientKeyExchange" handshake message.
@@ -190,7 +175,6 @@ final class DHClientKeyExchange {
                 throw chc.conContext.fatal(Alert.HANDSHAKE_FAILURE,
                     "No DHE credentials negotiated for client key exchange");
             }
-
 
             DHEPossession dhePossession = new DHEPossession(
                     dheCredentials, chc.sslContext.getSecureRandom());

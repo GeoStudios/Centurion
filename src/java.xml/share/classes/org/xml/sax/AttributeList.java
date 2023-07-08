@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.org.xml.sax;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Interface for an element's attribute specifications.
  *
@@ -94,11 +78,9 @@ package java.xml.share.classes.org.xml.sax;
 @Deprecated(since="1.5")
 public interface AttributeList {
 
-
     ////////////////////////////////////////////////////////////////////
     // Iteration methods.
     ////////////////////////////////////////////////////////////////////
-
 
     /**
      * Return the number of attributes in this list.
@@ -111,7 +93,6 @@ public interface AttributeList {
      * @return The number of attributes in the list.
      */
     int getLength ();
-
 
     /**
      * Return the name of an attribute in this list (by position).
@@ -130,7 +111,6 @@ public interface AttributeList {
      * @see #getLength
      */
     String getName (int i);
-
 
     /**
      * Return the type of an attribute in the list (by position).
@@ -155,7 +135,6 @@ public interface AttributeList {
      */
     String getType (int i);
 
-
     /**
      * Return the value of an attribute in the list (by position).
      *
@@ -171,12 +150,9 @@ public interface AttributeList {
      */
     String getValue (int i);
 
-
-
     ////////////////////////////////////////////////////////////////////
     // Lookup methods.
     ////////////////////////////////////////////////////////////////////
-
 
     /**
      * Return the type of an attribute in the list (by name).
@@ -193,7 +169,6 @@ public interface AttributeList {
      * @see #getType(int)
      */
     String getType (String name);
-
 
     /**
      * Return the value of an attribute in the list (by name).

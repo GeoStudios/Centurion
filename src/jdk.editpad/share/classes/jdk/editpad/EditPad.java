@@ -21,7 +21,6 @@
 
 package jdk.editpad.share.classes.jdk.editpad;
 
-
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 import java.awt.Font;
@@ -37,20 +36,6 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A minimal Swing editor as a fallback when the user does not specify an

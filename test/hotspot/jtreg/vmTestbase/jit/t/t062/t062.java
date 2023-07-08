@@ -21,22 +21,8 @@
 
 package jit.t.t062;
 
-
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -48,8 +34,6 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t062.t062
  */
-
-
 
 // Like t058.java except in this case the class with all the fields and
 // stuff is loaded before the client class, so no patching is required.
@@ -160,7 +144,6 @@ class k
         t062.goldChecker.println((int) ko.s);
         t062.goldChecker.println((int) ko.c);
         t062.goldChecker.println((int) ko.b);
-
 
         t062.goldChecker.println();
         t062.goldChecker.println("Here come the static variables of t062:");

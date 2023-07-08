@@ -21,25 +21,11 @@
 
 package compiler.c2.aarch64;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.process.OutputAnalyzer;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -51,8 +37,6 @@ import jdk.test.lib.process.OutputAnalyzer;
  *
  * @run main/othervm/native compiler.c2.aarch64.TestSVEWithJNI
  */
-
-
 
 public class TestSVEWithJNI {
     static {

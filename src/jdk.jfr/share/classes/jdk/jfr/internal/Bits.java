@@ -21,22 +21,7 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
-
 import jdk.jfr.share.classes.jdk.internal.misc.Unsafe;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class Bits {                            // package-private
 

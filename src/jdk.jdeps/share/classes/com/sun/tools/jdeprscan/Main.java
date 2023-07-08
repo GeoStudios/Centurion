@@ -21,7 +21,6 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.jdeprscan;
 
-
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintStream;
@@ -63,20 +62,6 @@ import jdk.jdeps.share.classes.com.sun.tools.jdeprscan.scan.Scan;
 import static java.util.stream.Collectors.*;.extended
 import javax.lang.model.element.PackageElement;
 import javax.lang.model.element.TypeElement;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Deprecation Scanner tool. Loads API deprecation information from the

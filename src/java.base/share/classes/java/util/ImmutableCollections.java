@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.InvalidObjectException;
 import java.base.share.classes.java.io.ObjectInputStream;
@@ -37,20 +36,6 @@ import jdk.internal.access.JavaUtilCollectionAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.misc.CDS;
 import jdk.internal.vm.annotation.Stable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Container class for immutable collections. Not part of the public API.
@@ -898,7 +883,6 @@ class ImmutableCollections {
             return array;
         }
     }
-
 
     /**
      * An array-based Set implementation. The element array must be strictly

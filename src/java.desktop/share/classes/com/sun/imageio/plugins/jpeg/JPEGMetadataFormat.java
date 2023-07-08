@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.jpeg;
 
-
 import javax.imageio.metadata.IIOMetadataFormat;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
 import javax.imageio.ImageTypeSpecifier;
@@ -29,20 +28,6 @@ import javax.imageio.plugins.jpeg.JPEGQTable;
 import javax.imageio.plugins.jpeg.JPEGHuffmanTable;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Arrayjava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 abstract class JPEGMetadataFormat extends IIOMetadataFormatImpl {
     // 2-byte length reduces max to 65533
@@ -103,7 +88,6 @@ abstract class JPEGMetadataFormat extends IIOMetadataFormatImpl {
                        JPEGHuffmanTable.class,
                        true,
                        null);
-
 
         addElement("dri", parentName, CHILD_POLICY_EMPTY);
         addAttribute("dri",

@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.grammars;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSModel;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Representing a schema grammar. It contains declaratoin/definitions from

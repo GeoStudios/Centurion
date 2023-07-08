@@ -21,22 +21,7 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.meta.src.jdk.vm.ci.meta;
 
-
 import java.lang.invoke.MethodHandle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Interface to access the internals of the {@link MethodHandle} implementation of the VM. An

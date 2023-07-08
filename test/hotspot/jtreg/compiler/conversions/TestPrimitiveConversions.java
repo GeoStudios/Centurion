@@ -21,21 +21,7 @@
 
 package compiler.conversions;
 
-
 import jdk.test.lib.Asserts;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

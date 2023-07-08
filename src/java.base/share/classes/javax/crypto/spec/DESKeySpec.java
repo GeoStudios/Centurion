@@ -21,22 +21,7 @@
 
 package java.base.share.classes.javax.crypto.spec;
 
-
 import java.base.share.classes.java.security.InvalidKeyException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class specifies a DES key.

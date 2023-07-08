@@ -21,26 +21,11 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.utils;
 
-
 import java.io.FilterWriter;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.Writer;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A ANSI writer extracts ANSI escape codes written to

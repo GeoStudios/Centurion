@@ -21,26 +21,11 @@
 
 package java.xml.share.classes.javax.xml.stream;
 
-
 import com.sun.xml.internal.stream.events.XMLEventFactoryImpl;
 import java.util.Iterator;
 import java.xml.share.classes.javax.xml.namespace.NamespaceContext;
 import java.xml.share.classes.javax.xml.namespace.QName;
 import java.xml.share.classes.javax.xml.stream.events.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This interface defines a utility class for creating instances of

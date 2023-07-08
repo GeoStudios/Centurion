@@ -21,21 +21,7 @@
 
 package org.openjdk.foreigntest;
 
-
 import jdk.incubator.foreign.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class PanamaMain {
    public static void main(String[] args) {

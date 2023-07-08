@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.awt.image;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class defines a lookup table object.  The output of a
  * lookup operation using an object of this class is interpreted

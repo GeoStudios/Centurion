@@ -21,56 +21,6 @@
 
 package build.tools.generatenimbus;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class UIFont extends UIDefault<Typeface> {
     UIFont(XMLStreamReader reader) throws XMLStreamException {
         name = reader.getAttributeValue(null, "name");

@@ -21,21 +21,6 @@
 
 package nsk.share.jvmti.RetransformClasses.LinearHierarchy;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Class1 extends Class2 {
     final double var_1 = 1.0709268827590083E308;
 

@@ -21,22 +21,6 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code.stack;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Callback interface for {@link StackIntrospection#iterateFrames}. Implementations of
  * {@link #visitFrame} return null to indicate that frame iteration should continue and the next

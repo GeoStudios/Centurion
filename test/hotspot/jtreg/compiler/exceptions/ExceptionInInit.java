@@ -21,22 +21,8 @@
 
 package compiler.exceptions;
 
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -48,8 +34,6 @@ import java.security.PrivilegedAction;
  * @modules java.rmi
  * @run main/othervm -Djava.security.manager=allow compiler.exceptions.ExceptionInInit
  */
-
-
 
 public class ExceptionInInit {
 

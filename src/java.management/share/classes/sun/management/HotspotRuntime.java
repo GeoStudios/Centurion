@@ -21,24 +21,9 @@
 
 package java.management.share.classes.sun.management;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.management.share.classes.sun.management.counter.Counter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation class of HotspotRuntimeMBean interface.

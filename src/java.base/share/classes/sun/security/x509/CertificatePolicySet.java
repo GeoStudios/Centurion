@@ -21,26 +21,11 @@
 
 package java.base.share.classes.sun.security.x509;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Vector;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Collections;
 import java.base.share.classes.sun.security.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class defines the certificate policy set ASN.1 object.

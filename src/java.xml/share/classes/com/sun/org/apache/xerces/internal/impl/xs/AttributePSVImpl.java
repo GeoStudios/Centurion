@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dv.ValidatedInfo;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.Stringjava.util.ListImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.AttributePSVI;
@@ -33,20 +32,6 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSConstants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSSimpleTypeDefinition;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSValue;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Attribute PSV infoset augmentations implementation.
@@ -167,7 +152,6 @@ public class AttributePSVImpl implements AttributePSVI {
     public boolean getIsSchemaSpecified() {
         return fSpecified;
     }
-
 
     /**
      * Determines the extent to which the document has been validated

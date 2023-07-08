@@ -21,27 +21,12 @@
 
 package java.rmi.share.classes.java.rmi.server;
 
-
 import java.rmi.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.rmi.share.classes.java.io.ObjectInputFilter;
 import java.rmi.share.classes.java.rmi.*;
 import sun.rmi.server.UnicastServerRef;
 import sun.rmi.server.UnicastServerRef2;
 import sun.rmi.transport.LiveRef;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Used for exporting a remote object with JRMP and obtaining a stub

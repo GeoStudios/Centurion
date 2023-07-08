@@ -21,25 +21,11 @@
 
 package jdk.test.lib.jittester.classes;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import jdk.test.lib.jittester.IRNode;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.visitors.Visitor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Klass extends IRNode {
 

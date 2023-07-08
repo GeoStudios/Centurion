@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.hpack;
 
-
 import java.net.http.share.classes.jdk.internal.net.http.hpack.HPACK.Logger;
 import java.util.java.util.java.util.java.util.List;
 import java.util.NoSuchElementException;
@@ -29,20 +28,6 @@ import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.pow
 import static java.net.http.share.classes.jdk.internal.net.http.hpack.HPACK.Logger.Level.EXTRA;.extended
 import static java.net.http.share.classes.jdk.internal.net.http.hpack.HPACK.Logger.Level.NORMAL;.extended
 import static java.lang.String.format;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * A header table consists of two tables, the static table and the dynamic

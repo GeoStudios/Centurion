@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.model;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
@@ -71,20 +70,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.comp.Resolve;
 import jdk.compiler.share.classes.com.sun.tools.javac.comp.Resolve.RecoveryLoadClass;
 import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Notes;
 import static jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.Tag.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utility methods for operating on program elements.

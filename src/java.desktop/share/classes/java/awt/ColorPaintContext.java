@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.image.ColorModel;
 import java.desktop.share.classes.java.awt.image.Raster;
 import java.desktop.share.classes.java.awt.image.WritableRaster;
 import sun.awt.image.IntegerComponentRaster;
 import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class ColorPaintContext implements PaintContext {
     int color;

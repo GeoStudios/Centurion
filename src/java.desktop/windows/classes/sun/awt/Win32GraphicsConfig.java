@@ -21,7 +21,6 @@
 
 package java.desktop.windows.classes.sun.awt;
 
-
 import java.awt.AWTException;
 import java.awt.BufferCapabilities;
 import java.awt.Component;
@@ -46,20 +45,6 @@ import java.desktop.windows.classes.sun.java2d.loops.CompositeType;
 import java.desktop.windows.classes.sun.java2d.loops.RenderLoops;
 import java.desktop.windows.classes.sun.java2d.loops.SurfaceType;
 import java.desktop.windows.classes.sun.java2d.windows.GDIWindowSurfaceData;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is an implementation of a GraphicsConfiguration object for a

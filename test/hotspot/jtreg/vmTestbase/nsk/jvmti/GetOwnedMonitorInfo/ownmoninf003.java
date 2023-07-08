@@ -21,21 +21,7 @@
 
 package nsk.jvmti.GetOwnedMonitorInfo;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ownmoninf003 {
 

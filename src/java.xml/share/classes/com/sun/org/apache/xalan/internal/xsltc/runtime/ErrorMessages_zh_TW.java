@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime;
 
-
 import java.util.java.util.ListResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  */
@@ -266,7 +249,6 @@ public class ErrorMessages_zh_TW extends ListResourceBundle {
         {BasisLibrary.UNSUPPORTED_EXT_ERR,
         "\u7121\u6CD5\u8FA8\u8B58\u7684 XSLTC \u64F4\u5145\u5957\u4EF6 ''{0}''"},
 
-
         /*
          * Note to translators:  This error message is produced if the translet
          * class was compiled using a newer version of XSLTC and deployed for
@@ -284,7 +266,6 @@ public class ErrorMessages_zh_TW extends ListResourceBundle {
          */
         {BasisLibrary.INVALID_QNAME_ERR,
         "\u503C\u5FC5\u9808\u70BA QName \u7684\u5C6C\u6027\uFF0C\u5177\u6709\u503C ''{0}''"},
-
 
         /*
          * Note to translators:  An attribute whose effective value is required

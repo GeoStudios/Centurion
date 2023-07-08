@@ -21,7 +21,6 @@
 
 package gc.g1;
 
-
 import com.sun.management.HotSpotDiagnosticMXBean;
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryUsage;
@@ -31,19 +30,6 @@ import java.text.NumberFormat;
 import gc.testlibrary.Helpers;
 import static jdk.test.lib.Asserts.*;.extended
 import jtreg.SkippedException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test TestHumongousShrinkHeap
@@ -58,7 +44,6 @@ import jtreg.SkippedException;
  * -XX:MaxHeapFreeRatio=12 -XX:+UseG1GC -XX:G1HeapRegionSize=1M -verbose:gc
  * gc.g1.TestHumongousShrinkHeap
  */
-
 
 public class TestHumongousShrinkHeap {
 

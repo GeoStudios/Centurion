@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.java.awt.event;
 
-
 import java.desktop.share.classes.java.awt.AWTEvent;
 import java.desktop.share.classes.java.awt.Adjustable;
 import java.desktop.share.classes.java.io.Serial;
 import java.desktop.share.classes.java.lang.annotation.Native;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The adjustment event emitted by Adjustable objects like
@@ -138,7 +123,6 @@ public class AdjustmentEvent extends AWTEvent {
      */
     int adjustmentType;
 
-
     /**
      * The {@code isAdjusting} is true if the event is one
      * of the series of multiple adjustment events.
@@ -148,13 +132,11 @@ public class AdjustmentEvent extends AWTEvent {
      */
     boolean isAdjusting;
 
-
     /**
      * Use serialVersionUID from JDK 1.1 for interoperability.
      */
      @Serial
      private static final long serialVersionUID = 5700290645205279921L;
-
 
     /**
      * Constructs an {@code AdjustmentEvent} object with the

@@ -21,21 +21,7 @@
 
 package compiler.lib.ir_framework.shared;
 
-
 import java.util.function.BiPredicate;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utility class to parse a comparator either in the applyIf* or in the counts properties of an @IR rules.

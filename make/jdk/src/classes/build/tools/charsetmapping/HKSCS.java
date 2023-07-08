@@ -21,56 +21,6 @@
 
 package build.tools.charsetmapping;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class HKSCS {
 
     // HKSCS2001.map has the third column for "UnicodeAlternate", which

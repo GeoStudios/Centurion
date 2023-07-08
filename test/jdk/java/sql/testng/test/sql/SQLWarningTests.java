@@ -21,25 +21,11 @@
 
 package test.sql;
 
-
 import java.sql.SQLException;
 import java.sql.SQLWarning;
 import static org.testng.Assert.*;.extended
 import org.testng.annotations.Test;
 import util.BaseTest;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class SQLWarningTests extends BaseTest {
 

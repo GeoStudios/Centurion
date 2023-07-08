@@ -21,30 +21,15 @@
 
 package jit.misctests.fpustack;
 
-
 import java.util.*;
 import java.awt.*;
 import java.applet.Applet;
 import nsk.share.TestFailure;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class GraphPanel extends Panel {
     private Panel graph;                                                        // the container
 
     private ilayout layout = null;  // the strategy
-
 
     private int nodesN;                                                         // number of nodes
     private Node nodes[] = new Node[200];                       // nodes container
@@ -60,9 +45,6 @@ public class GraphPanel extends Panel {
         this.graph = graph;
         layout = ls;
     }
-
-
-
 
     /**
     ** add a node via label text.
@@ -84,8 +66,6 @@ public class GraphPanel extends Panel {
         return nodesN++;
     }
 
-
-
     /**
     ** add a node via label text.
     **
@@ -99,8 +79,6 @@ public class GraphPanel extends Panel {
         addNode(lb2);
         addNode(lb3);
     }
-
-
 
     /**
     ** layout the nodes on the panel. the layout is used
@@ -118,7 +96,5 @@ public class GraphPanel extends Panel {
         layout.formatNodes( ns, d, fm );
 
     }
-
-
 
 }

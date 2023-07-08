@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.common;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintStream;
 import javax.imageio.stream.ImageOutputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Modified from original LZWCompressor to change interface to passing a

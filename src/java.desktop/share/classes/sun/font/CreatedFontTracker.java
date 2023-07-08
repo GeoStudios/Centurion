@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.font;
 
-
 import java.io.File;
 import java.io.OutputStream;
 import java.security.AccessController;
@@ -32,20 +31,6 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 import java.desktop.share.classes.sun.awt.AppContext;
 import java.desktop.share.classes.sun.awt.util.ThreadGroupUtils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CreatedFontTracker {
 

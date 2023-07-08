@@ -21,21 +21,6 @@
 
 package nsk.stress.jni;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class Interrupter extends Thread {
     public Interrupter(
             Thread[] alloc,

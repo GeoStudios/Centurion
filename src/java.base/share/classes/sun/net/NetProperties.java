@@ -21,26 +21,11 @@
 
 package java.base.share.classes.sun.net;
 
-
 import jdk.internal.util.StaticProperty;
 import java.io.*;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.Properties;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This class allows for centralized access to Networking properties.
@@ -63,7 +48,6 @@ public class NetProperties {
     }
 
     private NetProperties() { }
-
 
     /*
      * Loads the default networking system properties

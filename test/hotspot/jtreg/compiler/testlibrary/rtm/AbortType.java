@@ -21,23 +21,9 @@
 
 package compiler.testlibrary.rtm;
 
-
 import jdk.test.lib.Asserts;
 import java.util.HashMap;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Type of transactional execution abort.

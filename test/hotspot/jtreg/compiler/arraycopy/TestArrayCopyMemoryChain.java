@@ -21,21 +21,6 @@
 
 package compiler.arraycopy;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8233164
@@ -43,7 +28,6 @@ package compiler.arraycopy;
  * @run main/othervm -XX:CompileCommand=dontinline,compiler.arraycopy.TestArrayCopyMemoryChain::test* -Xbatch
  *                   compiler.arraycopy.TestArrayCopyMemoryChain
  */
-
 
 public class TestArrayCopyMemoryChain {
 

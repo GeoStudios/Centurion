@@ -21,7 +21,6 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins;
 
-
 import java.nio.file.Path;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
@@ -39,20 +38,6 @@ import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolBuilder;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry.Type;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolModule;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A plugin to de-duplicate the legal notices from JMOD files.

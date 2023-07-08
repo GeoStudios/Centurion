@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time.temporal;
 
-
 import java.base.share.classes.java.time.DateTimeException;
 import java.base.share.classes.java.time.Duration;
 import java.base.share.classes.java.time.LocalTime;
@@ -29,20 +28,6 @@ import java.base.share.classes.java.time.Period;
 import java.base.share.classes.java.time.chrono.ChronoLocalDate;
 import java.base.share.classes.java.time.chrono.ChronoLocalDateTime;
 import java.base.share.classes.java.time.chrono.ChronoZonedDateTime;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A unit of date-time, such as Days or Hours.

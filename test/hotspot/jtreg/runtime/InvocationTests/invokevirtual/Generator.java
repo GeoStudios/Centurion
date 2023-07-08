@@ -21,26 +21,12 @@
 
 package invokevirtual;
 
-
 import static jdk.internal.org.objectweb.asm.Opcodes.ACC_ABSTRACT;.extended
 import static jdk.internal.org.objectweb.asm.Opcodes.ACC_PUBLIC;.extended
 import shared.AbstractGenerator;
 import shared.AccessType;
 import java.util.HashMap;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Generator extends AbstractGenerator {
     public Generator(String[] args) {
@@ -175,7 +161,6 @@ public class Generator extends AbstractGenerator {
                                     , classNameC
                                     , packageC+"Caller"
                             };
-
 
                             String caseDescription =
                                     String.format("%-12s %-12s %-12s| "

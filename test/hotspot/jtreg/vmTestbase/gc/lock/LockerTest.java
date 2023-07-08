@@ -21,25 +21,11 @@
 
 package gc.lock;
 
-
 import nsk.share.runner.*;
 import nsk.share.gc.*;
 import nsk.share.gc.gp.*;
 import nsk.share.gc.lock.*;
 import nsk.share.test.ExecutionController;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Test how GC is affected by locking.

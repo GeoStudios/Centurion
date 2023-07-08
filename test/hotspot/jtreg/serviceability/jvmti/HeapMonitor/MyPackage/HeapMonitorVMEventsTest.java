@@ -21,22 +21,8 @@
 
 package MyPackage;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Graal is not tested here due to Graal not supporting DisableIntrinsic.
 /**

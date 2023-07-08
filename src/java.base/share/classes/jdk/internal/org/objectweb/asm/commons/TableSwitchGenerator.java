@@ -21,22 +21,7 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm.commons;
 
-
 import java.base.share.classes.jdk.internal.org.objectweb.asm.Label;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A code generator for switch statements.

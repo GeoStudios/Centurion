@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.awt;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Interface for identifying a component that will be excluded during
  * modal operations.  Implementing this interface will ensure that the

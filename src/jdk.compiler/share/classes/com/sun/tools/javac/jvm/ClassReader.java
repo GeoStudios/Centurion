@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
 
-
 import java.io.*;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -68,20 +67,6 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.TYPEVA
 import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile.Version.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.main.Option.PARAMETERS;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** This class provides operations to read a classfile into an internal
  *  representation. The internal representation is anchored in a
@@ -2196,7 +2181,6 @@ public class ClassReader {
         }
     }
 
-
 /************************************************************************
  * Reading Symbols
  ***********************************************************************/
@@ -2396,7 +2380,6 @@ public class ClassReader {
         parameterNameIndices = null;
         parameterAccessFlags = null;
     }
-
 
     // Returns the name for the parameter at position 'index', either using
     // names read from the MethodParameters, or by synthesizing a name that

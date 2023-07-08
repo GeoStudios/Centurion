@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.*;
@@ -31,20 +30,6 @@ import java.desktop.share.classes.javax.swing.event.*;
 import java.desktop.share.classes.javax.swing.text.*;
 import java.desktop.share.classes.javax.accessibility.*;
 import java.text.BreakIterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * The AccessibleHTML class provide information about the contents
@@ -821,8 +806,6 @@ class AccessibleHTML implements Accessible {
         // ... end AccessibleComponent implementation
     } // ... end HTMLAccessibleContext
 
-
-
     /*
      * ElementInfo for text
      */
@@ -1004,7 +987,6 @@ class AccessibleHTML implements Accessible {
                 return getAtIndex(part, index, 0);
             }
 
-
             public String getAfterIndex(int part, int index) {
                 return getAtIndex(part, index, 1);
             }
@@ -1034,14 +1016,12 @@ class AccessibleHTML implements Accessible {
                         }
                         break;
 
-
                     case AccessibleText.WORD:
                     case AccessibleText.SENTENCE:
                         IndexedSegment seg = getSegmentAt(part, index);
                         if (seg != null) {
                             if (direction != 0) {
                                 int next;
-
 
                                 if (direction < 0) {
                                     next = seg.modelOffset - 1;
@@ -1107,7 +1087,6 @@ class AccessibleHTML implements Accessible {
                 throws BadLocationException {
                 Element para = getParagraphElement(index);
 
-
                 if (para != null) {
                     IndexedSegment segment = new IndexedSegment();
                     try {
@@ -1121,7 +1100,6 @@ class AccessibleHTML implements Accessible {
                 }
                 return null;
             }
-
 
             /**
              * Returns the Segment at <code>index</code> representing either
@@ -1405,7 +1383,6 @@ class AccessibleHTML implements Accessible {
         // ... end AccessibleIconImplementation
     }
 
-
     /**
      * TableElementInfo encapsulates information about a HTML.Tag.TABLE.
      * To make access fast it crates a grid containing the children to
@@ -1426,7 +1403,6 @@ class AccessibleHTML implements Accessible {
          * > 1 will be contained multiple times in the grid.
          */
         private TableCellElementInfo[][] grid;
-
 
         TableElementInfo(Element e, ElementInfo parent) {
             super(e, parent);
@@ -2634,7 +2610,6 @@ class AccessibleHTML implements Accessible {
         }
     }
 
-
     /**
      * ElementInfo provides a slim down view of an Element.  Each ElementInfo
      * can have any number of child ElementInfos that are not necessarily
@@ -2668,7 +2643,6 @@ class AccessibleHTML implements Accessible {
          * Indicates if the ElementInfo can become valid.
          */
         private boolean canBeValid;
-
 
         /**
          * Creates the root ElementInfo.

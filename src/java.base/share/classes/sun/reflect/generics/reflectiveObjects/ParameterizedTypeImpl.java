@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.reflect.generics.reflectiveObjects;
 
-
 import java.base.share.classes.sun.reflect.generics.tree.FieldTypeSignature;
 import java.lang.reflect.MalformedParameterizedTypeException;
 import java.lang.reflect.Method;
@@ -31,20 +30,6 @@ import java.lang.reflect.TypeVariable;
 import java.base.share.classes.java.util.Arrays;
 import java.util.StringJoiner;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Implementing class for ParameterizedType interface. */
 
@@ -111,7 +96,6 @@ public class ParameterizedTypeImpl implements ParameterizedType {
                                          ownerType);
     }
 
-
     /**
      * Returns an array of {@code Type} objects representing the actual type
      * arguments to this type.
@@ -142,7 +126,6 @@ public class ParameterizedTypeImpl implements ParameterizedType {
     public Class<?> getRawType() {
         return rawType;
     }
-
 
     /**
      * Returns a {@code Type} object representing the type that this type

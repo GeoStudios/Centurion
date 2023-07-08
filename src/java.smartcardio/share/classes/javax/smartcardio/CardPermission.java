@@ -21,24 +21,9 @@
 
 package java.smartcardio.share.classes.javax.smartcardio;
 
-
 import java.io.*;
 import java.util.StringJoiner;
 import java.security.Permission;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A permission for Smart Card operations. A CardPermission consists of the
@@ -204,7 +189,6 @@ public class CardPermission extends Permission {
         }
         return sj.toString();
     }
-
 
     /**
      * Returns the canonical string representation of the actions.

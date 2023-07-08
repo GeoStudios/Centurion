@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-
 import com.apple.eawt.Application;
 import javax.swing.*;
 import java.awt.Desktop.Action;
@@ -31,20 +30,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.URI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Concrete implementation of the interface {@code DesktopPeer} for MacOS X

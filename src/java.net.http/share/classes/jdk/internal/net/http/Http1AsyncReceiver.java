@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http;
 
-
 import java.io.EOFException;
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
@@ -45,20 +44,6 @@ import java.net.http.share.classes.jdk.internal.net.http.common.MinimalFuture;
 import java.net.http.share.classes.jdk.internal.net.http.common.SequentialScheduler;
 import java.net.http.share.classes.jdk.internal.net.http.common.ConnectionExpiredException;
 import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A helper class that will queue up incoming data until the receiving

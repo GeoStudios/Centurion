@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.trax;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.utils.XMLSecurityManager;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.XSLTC;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMsg;
@@ -47,20 +46,6 @@ import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXNotRecognizedException;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXNotSupportedException;
 import java.xml.share.classes.com.sun.org.xml.sax.XMLReader;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

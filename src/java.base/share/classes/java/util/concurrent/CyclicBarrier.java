@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.util.concurrent;
 
-
 import java.base.share.classes.java.util.concurrent.locks.Condition;
 import java.base.share.classes.java.util.concurrent.locks.ReentrantLock;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -49,9 +34,6 @@ import java.base.share.classes.java.util.concurrent.locks.ReentrantLock;
  * Expert Group and released to the public domain, as explained at
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
-
-
-
 
 /**
  * A synchronization aid that allows a set of threads to all wait for

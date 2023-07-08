@@ -21,22 +21,8 @@
 
 package gc.stress.gcbasher;
 
-
 import java.util.HashSet;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class ClassInfo {
     private String name;

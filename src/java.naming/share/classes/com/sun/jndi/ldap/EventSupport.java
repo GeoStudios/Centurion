@@ -21,7 +21,6 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
-
 import java.util.Hashtable;
 import java.util.Vector;
 import java.util.EventObject;
@@ -33,20 +32,6 @@ import javax.naming.directory.SearchControls;
 import javax.naming.ldap.UnsolicitedNotificationjava.util.Listener;
 import javax.naming.ldap.UnsolicitedNotificationEvent;
 import javax.naming.ldap.UnsolicitedNotification;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is a utility class that can be used by a context that supports

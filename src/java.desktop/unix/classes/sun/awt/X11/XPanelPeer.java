@@ -21,26 +21,11 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.awt.*;
 import java.awt.peer.*;
 import java.desktop.unix.classes.sun.awt.AWTAccessor;
 import java.desktop.unix.classes.sun.awt.AWTAccessor.ComponentAccessor;
 import java.desktop.unix.classes.sun.awt.SunGraphicsCallback;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class XPanelPeer extends XCanvasPeer implements PanelPeer {
 

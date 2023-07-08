@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util;
 
-
 import java.util.java.util.ListResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  */
@@ -126,7 +109,6 @@ public class ErrorMessages_cs extends ListResourceBundle {
          */
         {ErrorMsg.TEMPLATE_REDEF_ERR,
         "\u0160ablona ''{0}'' je ji\u017e v t\u00e9to p\u0159edloze stylu definov\u00e1na."},
-
 
         /*
          * Note to translators:  The substitution text is the name of a
@@ -676,10 +658,8 @@ public class ErrorMessages_cs extends ListResourceBundle {
         {ErrorMsg.XSLTC_SOURCE_ERR,
         "Byla vol\u00e1na metoda XSLTCSource.build(), ani\u017e by byla nastavena hodnota systemId."},
 
-
         {ErrorMsg.COMPILE_STDIN_ERR,
         "Volba -i mus\u00ed b\u00fdt pou\u017eita s volbou -o."},
-
 
         /*
          * Note to translators:  This message contains usage information for a
@@ -704,8 +684,6 @@ public class ErrorMessages_cs extends ListResourceBundle {
          */
         {ErrorMsg.TRANSFORM_USAGE_STR,
         "SYNOPSIS \n   java com.sun.org.apache.xalan.internal.xsltc.cmdline.Transform [-j <jarfile>]\n      [-x] [-s] [-n <iterations>] {-u <document_url> | <document>}\n      <class> [<param1>=<value1> ...]\n\n   pou\u017eije translet <class> k transformaci dokumentu XML \n ur\u010den\u00e9ho jako <document>. Translet <class> je bu\u010f v\n   v u\u017eivatelsk\u00e9 cest\u011b CLASSPATH nebo ve voliteln\u011b ur\u010den\u00e9m souboru <jarfile>.\nVOLBY\n     -j <jarfile>    ur\u010duje soubor jarfile, ze kter\u00e9ho se zavede translet\n   -x      p\u0159evede dal\u0161\u00ed v\u00fdstup zpr\u00e1vy lad\u011bn\u00ed\n   -s              vypne vol\u00e1n\u00ed System.exit\n   -n <iterations> spust\u00ed transformaci <iterations> kr\u00e1t a\n                   zobraz\u00ed informaci  o profilu\n   -u <document_url> ur\u010d\u00ed vstupn\u00ed dokument XML jako URL\n"},
-
-
 
         /*
          * Note to translators:  "<xsl:sort>", "<xsl:for-each>" and

@@ -21,22 +21,6 @@
 
 package java.management.share.classes.javax.management.relation;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Invalid relation type.
  * This exception is raised when, in a relation type, there is already a

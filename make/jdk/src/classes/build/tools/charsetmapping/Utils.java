@@ -21,56 +21,6 @@
 
 package build.tools.charsetmapping;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Utils {
 
     public final static char UNMAPPABLE_DECODING = '\uFFFD';

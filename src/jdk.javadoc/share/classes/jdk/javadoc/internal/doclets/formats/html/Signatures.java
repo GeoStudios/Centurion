@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-
 import jdk.javadoc.share.classes.jdk.javadoc.doclet.DocletEnvironment;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.ContentBuilder;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.markup.Entity;
@@ -57,20 +56,6 @@ import static javax.lang.model.element.Modifier.PUBLIC;.extended
 import static javax.lang.model.element.Modifier.STATIC;.extended
 import static javax.lang.model.element.Modifier.STRICTFP;.extended
 import static javax.lang.model.element.Modifier.SYNCHRONIZED;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Signatures {
 

@@ -21,21 +21,6 @@
 
 package p1.internal;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class B {
     public B() {}
 }

@@ -21,21 +21,7 @@
 
 package compiler.c2;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -45,8 +31,6 @@ import java.io.PrintStream;
  *
  * @run main/othervm -XX:+IgnoreUnrecognizedVMOptions -XX:+DeoptimizeALot -Xbatch compiler.c2.Test6910605_1
  */
-
-
 
 public class Test6910605_1 {
         public static int buf=0;

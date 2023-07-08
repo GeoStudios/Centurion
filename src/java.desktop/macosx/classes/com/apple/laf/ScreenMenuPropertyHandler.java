@@ -21,23 +21,8 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.awt.Font;
 import javax.swing.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // interface to let the Screen Menu classes share a JComponent PropertyChangeListener
 interface ScreenMenuPropertyHandler {

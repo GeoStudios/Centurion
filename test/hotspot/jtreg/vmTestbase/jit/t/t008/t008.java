@@ -21,21 +21,7 @@
 
 package jit.t.t008;
 
-
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -47,8 +33,6 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.t.t008.t008
  */
-
-
 
 public class t008
 {

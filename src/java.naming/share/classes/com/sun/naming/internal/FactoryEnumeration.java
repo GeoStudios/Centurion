@@ -21,23 +21,8 @@
 
 package java.naming.share.classes.com.sun.naming.internal;
 
-
 import java.util.java.util.java.util.java.util.List;
 import javax.naming.NamingException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * The FactoryEnumeration is used for returning factory instances.

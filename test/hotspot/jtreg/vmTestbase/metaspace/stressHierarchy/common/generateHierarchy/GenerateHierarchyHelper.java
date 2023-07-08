@@ -21,23 +21,9 @@
 
 package metaspace.stressHierarchy.common.generateHierarchy;
 
-
 import java.util.*;
 import vm.share.InMemoryJavaCompiler;
 import jdk.test.lib.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class GenerateHierarchyHelper {
 

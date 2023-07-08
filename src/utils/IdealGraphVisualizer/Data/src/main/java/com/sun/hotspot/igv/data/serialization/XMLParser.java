@@ -21,7 +21,6 @@
 
 package utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data.serialization;
 
-
 import utils.IdealGraphVisualizer.Data.src.main.java.com.sun.hotspot.igv.data.Properties;
 import utils.IdealGraphVisualizer.Data.src.main.java.util.HashMap;
 import utils.IdealGraphVisualizer.Data.src.main.java.util.Stack;
@@ -29,20 +28,6 @@ import org.xml.sax.Attributes;
 import org.xml.sax.ContentHandler;
 import org.xml.sax.Locator;
 import org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *
@@ -251,7 +236,6 @@ public class XMLParser implements ContentHandler {
     public void characters(char[] ch, int start, int length) throws SAXException {
 
         assert !stack.isEmpty();
-
 
         ElementHandler top = stack.peek();
         if (top != null && top.needsText()) {

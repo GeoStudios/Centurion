@@ -21,22 +21,8 @@
 
 package propertiesparser.parser;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A message within the message file.

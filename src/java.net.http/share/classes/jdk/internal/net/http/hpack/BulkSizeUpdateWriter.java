@@ -21,24 +21,9 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.hpack;
 
-
 import java.nio.ByteBuffer;
 import java.util.Iterator;
 import static java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class BulkSizeUpdateWriter implements BinaryRepresentationWriter {
 

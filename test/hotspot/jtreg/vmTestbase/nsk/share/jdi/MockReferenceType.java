@@ -21,23 +21,9 @@
 
 package nsk.share.jdi;
 
-
 import com.sun.jdi.*;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A mock implementation of com.sun.jdi.ReferenceType interface.

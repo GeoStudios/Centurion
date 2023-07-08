@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
 
-
 import javax.xml.crypto.*;
 import javax.xml.crypto.dsig.*;
 import javax.xml.crypto.dsig.spec.SignatureMethodParameterSpec;
@@ -38,29 +37,10 @@ import com.sun.org.apache.xml.internal.security.utils.JavaUtils;
 import java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.SignerOutputStream;
 import sun.security.util.KeyUtil;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
-
-
 
 /**
  * DOM-based abstract implementation of SignatureMethod.

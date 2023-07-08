@@ -21,22 +21,6 @@
 
 package jdk.security.auth.share.classes.com.sun.security.auth;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class abstracts an NT security token
  * and provides a mechanism to do same-process security impersonation.

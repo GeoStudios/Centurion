@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.java2d.opengl;
 
-
 import java.awt.AWTException;
 import java.awt.BufferCapabilities;
 import java.awt.Component;
@@ -56,20 +55,6 @@ import static java.desktop.macosx.classes.sun.java2d.opengl.OGLContext.OGLContex
 import static java.desktop.macosx.classes.sun.java2d.opengl.OGLContext.OGLContextCaps.CAPS_EXT_FBOBJECT;.extended
 import static java.desktop.macosx.classes.sun.java2d.opengl.OGLSurfaceData.FBOBJECT;.extended
 import static java.desktop.macosx.classes.sun.java2d.opengl.OGLSurfaceData.TEXTURE;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class CGLGraphicsConfig extends CGraphicsConfig
     implements OGLGraphicsConfig

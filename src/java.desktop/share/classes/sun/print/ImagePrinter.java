@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.print;
 
-
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
@@ -30,20 +29,6 @@ import java.awt.print.Printable;
 import java.net.URL;
 import java.io.InputStream;
 import javax.imageio.ImageIO;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class ImagePrinter implements Printable {
 

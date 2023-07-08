@@ -21,25 +21,11 @@
 
 package compiler.c2;
 
-
 import sun.misc.Unsafe;
 import java.lang.reflect.Field;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import jtreg.SkippedException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -49,8 +35,6 @@ import jtreg.SkippedException;
  * @library /test/lib
  * @run main/othervm compiler.c2.Test8202414
  */
-
-
 
 public class Test8202414 {
 

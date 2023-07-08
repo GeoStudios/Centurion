@@ -21,25 +21,11 @@
 
 package nsk.monitoring.CompilationMXBean.comptimemon001;
 
-
 import java.io.*;
 import nsk.share.test.*;
 import nsk.share.TestFailure;
 import nsk.monitoring.share.*;
 import java.lang.management.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -66,8 +52,6 @@ import java.lang.management.*;
  *          /test/lib
  * @run main/othervm/timeout=300 nsk.monitoring.CompilationMXBean.comptimemon001.comptimemon001
  */
-
-
 
 public class comptimemon001 extends MonitoringTestBase implements Initializable {
         private CompilationMXBean compilation;

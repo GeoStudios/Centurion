@@ -21,23 +21,9 @@
 
 package gc.g1.plab.lib;
 
-
 import java.util.EnumMap;
 import java.util.Map;
 import gc.g1.plab.lib.LogParser.ReportType;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class that represents PLAB statistics for a single GC.

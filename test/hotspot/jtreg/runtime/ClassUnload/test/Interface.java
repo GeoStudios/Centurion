@@ -21,21 +21,6 @@
 
 package test;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface Interface {
   public void foo();
 }

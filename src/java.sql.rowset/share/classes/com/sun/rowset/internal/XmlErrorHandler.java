@@ -21,25 +21,10 @@
 
 package java.sql.rowset.share.classes.com.sun.rowset.internal;
 
-
 import org.xml.sax.*;
 import org.xml.sax.helpers.DefaultHandler;
 import java.sql.rowset.share.classes.com.sun.rowset.*;
 import javax.sql.rowset.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of the <code>DefaultHandler</code> interface, which
@@ -47,7 +32,6 @@ import javax.sql.rowset.*;
  * This is the ErrorHandler which helps <code>WebRowSetXmlReader</code>
  * to handle any errors while reading the xml data.
  */
-
 
 public class XmlErrorHandler extends DefaultHandler {
        public int errorCounter = 0;

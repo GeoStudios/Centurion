@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
-
 import java.nio.file.Path;
 import java.util.EnumMap;
 import java.util.EnumSet;
@@ -43,20 +42,6 @@ import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.*;.exten
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.util.LayoutCharacters.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.util.RichDiagnosticFormatter.RichConfiguration.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A rich diagnostic formatter is a formatter that provides better integration

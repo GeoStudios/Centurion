@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMErrorImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMStringjava.util.ListImpl;
@@ -71,20 +70,6 @@ import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSParserFilter;
 import java.xml.share.classes.com.sun.org.w3c.dom.ls.LSResourceResolver;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This is Xerces DOM Builder class. It uses the abstract DOM
  * parser with a document scanner, a dtd scanner, and a validator, as
@@ -93,11 +78,8 @@ import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
  * @LastModified: Oct 2017
  */
 
-
 public class DOMParserImpl
 extends AbstractDOMParser implements LSParser, DOMConfiguration {
-
-
 
     // SAX & Xerces feature ids
 
@@ -143,7 +125,6 @@ extends AbstractDOMParser implements LSParser, DOMConfiguration {
 
     protected static final String PSVI_AUGMENT =
     Constants.XERCES_FEATURE_PREFIX +Constants.SCHEMA_AUGMENT_PSVI;
-
 
     //
     // Data
@@ -275,7 +256,6 @@ extends AbstractDOMParser implements LSParser, DOMConfiguration {
         symbolTable);
     } // <init>(SymbolTable)
 
-
     /**
      * Constructs a DOM Builder using the specified symbol table and
      * grammar pool.
@@ -321,7 +301,6 @@ extends AbstractDOMParser implements LSParser, DOMConfiguration {
     public DOMConfiguration getDomConfig (){
         return this;
     }
-
 
     /**
      *  When the application provides a filter, the parser will call out to
@@ -1016,7 +995,6 @@ extends AbstractDOMParser implements LSParser, DOMConfiguration {
         return doc;
     }
 
-
     private void restoreHandlers() {
         fConfiguration.setDocumentHandler(this);
         fConfiguration.setDTDHandler(this);
@@ -1047,7 +1025,6 @@ extends AbstractDOMParser implements LSParser, DOMConfiguration {
         // REVISIT: need to implement.
         throw new DOMException (DOMException.NOT_SUPPORTED_ERR, "Not supported");
     }
-
 
     /**
      * NON-DOM: convert LSInput to XNIInputSource

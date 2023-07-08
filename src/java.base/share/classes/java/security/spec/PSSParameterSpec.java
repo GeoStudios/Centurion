@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.security.spec;
 
-
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class specifies a parameter spec for RSASSA-PSS signature scheme,
@@ -115,12 +100,10 @@ public class PSSParameterSpec implements AlgorithmParameterSpec {
     public static final PSSParameterSpec DEFAULT = new PSSParameterSpec
         ("SHA-1", "MGF1", MGF1ParameterSpec.SHA1, 20, TRAILER_FIELD_BC);
 
-
     // disallowed
     private PSSParameterSpec() {
         throw new RuntimeException("default constructor not allowed");
     }
-
 
     /**
      * Creates a new {@code PSSParameterSpec} as defined in

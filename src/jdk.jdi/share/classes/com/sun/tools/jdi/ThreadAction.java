@@ -21,23 +21,8 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import java.util.EventObject;
 import jdk.jdi.share.classes.com.sun.jdi.ThreadReference;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * The name "action" is used to avoid confusion with JDI events.

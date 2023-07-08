@@ -21,7 +21,6 @@
 
 package common;
 
-
 import javax.xml.XMLConstants;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.validation.SchemaFactory;
@@ -31,19 +30,6 @@ import static jaxp.library.JAXPTestUtilities.setSystemProperty;.extended
 import org.testng.Assert;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

@@ -21,21 +21,6 @@
 
 package bootreporter;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class StringIdCallbackReporter {
 
     static StringIdCallback callback = null;

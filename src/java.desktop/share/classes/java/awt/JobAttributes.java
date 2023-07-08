@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.awt;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A set of attributes which control a print job.
  * <p>

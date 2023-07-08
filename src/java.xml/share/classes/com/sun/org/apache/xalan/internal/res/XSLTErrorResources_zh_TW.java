@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.res;
 
-
 import java.util.java.util.ListResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Set up error messages.
@@ -1056,7 +1041,6 @@ public class XSLTErrorResources_zh_TW extends ListResourceBundle
     { ER_ERRORLISTENER,
      "ErrorListener"},
 
-
 // Note to translators:  The following message should not normally be displayed
 //   to users.  It describes a situation in which the processor has detected
 //   an internal consistency problem in itself, and it provides this message
@@ -1065,7 +1049,6 @@ public class XSLTErrorResources_zh_TW extends ListResourceBundle
 //   translated.
     { ER_ASSERT_NO_TEMPLATE_PARENT,
      "\u7A0B\u5F0F\u8A2D\u8A08\u4EBA\u54E1\u7684\u932F\u8AA4\uFF01\u8868\u793A\u5F0F\u6C92\u6709 ElemTemplateElement \u7236\u9805\uFF01"},
-
 
 // Note to translators:  The following message should not normally be displayed
 //   to users.  It describes a situation in which the processor has detected
@@ -1132,7 +1115,6 @@ public class XSLTErrorResources_zh_TW extends ListResourceBundle
      { INVALID_NUMBER,
      "\u7121\u6548\u503C: {1} \u7528\u65BC\u6578\u5B57\u5C6C\u6027: {0}"},
 
-
   // End of shared codes...
 
 // Note to translators:  A "match pattern" is a special form of XPath expression
@@ -1149,7 +1131,6 @@ public class XSLTErrorResources_zh_TW extends ListResourceBundle
 // ER_DUPLICATE_GLOBAL_VAR - new error message for bugzilla #790
     { ER_DUPLICATE_GLOBAL_VAR,
      "\u91CD\u8907\u7684\u5168\u57DF\u8B8A\u6578\u5BA3\u544A\u3002"},
-
 
 // Note to translators:  The following message indicates that two definitions of
 // a variable were encountered.
@@ -1344,7 +1325,6 @@ public class XSLTErrorResources_zh_TW extends ListResourceBundle
   { "column","\u8CC7\u6599\u6B04\u7DE8\u865F"},
   { "xsldone", "XSLProcessor: \u5B8C\u6210"},
 
-
   // Note to translators:  The following messages provide usage information
   // for the Xalan Process command line.  "Process" is the name of a Java class,
   // and should not be translated.
@@ -1401,7 +1381,6 @@ public class XSLTErrorResources_zh_TW extends ListResourceBundle
   { "optionSECUREPROCESSING", "   [-SECURE (\u5C07\u5B89\u5168\u8655\u7406\u529F\u80FD\u8A2D\u70BA\u771F\u3002)]"},
 
     // Following are the new options added in XSLTErrorResources.properties files after Jdk 1.4 (Xalan 2.2-D11)
-
 
   {  "optionMEDIA",  "   [-MEDIA mediaType (\u4F7F\u7528\u5A92\u9AD4\u5C6C\u6027\u4F86\u5C0B\u627E\u8207\u6587\u4EF6\u95DC\u806F\u7684\u6A23\u5F0F\u8868\u3002)]"},
   {  "optionFLAVOR",  "   [-FLAVOR flavorName (\u660E\u78BA\u4F7F\u7528 s2s=SAX \u6216 d2d=DOM \u4F86\u57F7\u884C\u8F49\u63DB\u3002)] "}, // Added by sboag/scurcuru; experimental

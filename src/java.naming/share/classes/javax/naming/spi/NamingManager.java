@@ -21,7 +21,6 @@
 
 package java.naming.share.classes.javax.naming.spi;
 
-
 import java.net.MalformedURLException;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
@@ -32,20 +31,6 @@ import com.sun.naming.internal.VersionHelper;
 import com.sun.naming.internal.ResourceManager;
 import com.sun.naming.internal.FactoryEnumeration;
 import jdk.internal.loader.ClassLoaderValue;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class contains methods for creating context objects
@@ -137,7 +122,6 @@ public class NamingManager {
         return object_factory_builder;
     }
 
-
     /**
      * Retrieves the ObjectFactory for the object identified by a reference,
      * using the reference's factory class name and factory codebase
@@ -186,7 +170,6 @@ public class NamingManager {
         ObjectFactory result = (clas != null) ? (ObjectFactory) clas.newInstance() : null;
         return result;
     }
-
 
     /**
      * Creates an object using the factories specified in the
@@ -429,7 +412,6 @@ public class NamingManager {
         return null;
     }
 
-
     /**
      * Retrieves a context identified by {@code obj}, using the specified
      * environment.
@@ -499,7 +481,6 @@ public class NamingManager {
             ? (Resolver)answer
             : null;
     }
-
 
     /***************** URL Context implementations ***************/
 
@@ -637,7 +618,6 @@ public class NamingManager {
 
     }
 
-
 // ------------ Initial Context Factory Stuff
     private static InitialContextFactoryBuilder initctx_factory_builder = null;
 
@@ -772,7 +752,6 @@ public class NamingManager {
         }
         return factory;
     }
-
 
     /**
      * Sets the InitialContextFactory builder to be builder.

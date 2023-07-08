@@ -21,23 +21,8 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.css;
 
-
 import jdk.xml.dom.share.classes.org.w3c.dom.Element;
 import jdk.xml.dom.share.classes.org.w3c.dom.views.AbstractView;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  This interface represents a CSS view. The <code>getComputedStyle</code>

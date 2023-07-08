@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util;
 
-
 import java.base.share.classes.java.util.Objects;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ExecutableElement;
@@ -31,20 +30,6 @@ import javax.lang.model.element.TypeElement;
 import javax.lang.model.element.VariableElement;
 import javax.lang.model.util.SimpleElementVisitor14;
 import com.sun.source.doctree.DocTree;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An item to be included in the index pages and in interactive search.

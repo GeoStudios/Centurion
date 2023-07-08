@@ -21,26 +21,12 @@
 
 package nsk.monitoring.ThreadMXBean.ThreadInfo.Multi.Multi001;
 
-
 import java.lang.management.*;
 import nsk.share.runner.*;
 import nsk.monitoring.share.*;
 import nsk.monitoring.share.thread.*;
 import nsk.share.TestFailure;
 import nsk.share.test.Stresser;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -54,8 +40,6 @@ import nsk.share.test.Stresser;
  *          /test/lib
  * @run main/othervm nsk.monitoring.ThreadMXBean.ThreadInfo.Multi.Multi001.Multi001
  */
-
-
 
 /**
  * This test starts huge number of scenarios of different types. Each

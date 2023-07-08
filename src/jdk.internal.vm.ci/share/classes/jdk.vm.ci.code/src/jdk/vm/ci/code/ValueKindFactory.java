@@ -21,23 +21,8 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.code;
 
-
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.JavaKind;
 import jdk.internal.vm.ci.share.classes.jdk.vm.ci.code.src.jdk.vm.ci.meta.ValueKind;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Can be implemented by compilers to create custom {@link ValueKind} subclasses.

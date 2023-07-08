@@ -21,56 +21,6 @@
 
 package build.tools.generatelsrequivmaps;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This tool reads the IANA Language Subtag Registry data file downloaded from
  * http://www.iana.org/assignments/language-subtag-registry, which is specified

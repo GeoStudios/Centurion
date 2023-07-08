@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.XMLAttributesImpl;
@@ -43,20 +42,6 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.Augmentatio
 import java.xml.share.classes.com.sun.xml.internal.stream.dtd.nonvalidating.DTDGrammar;
 import java.io.EOFException;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is responsible for scanning the declarations found
@@ -175,7 +160,6 @@ implements XMLDTDScanner, XMLComponent, XMLEntityHandler {
     /** Parameter entity stack to check well-formedness. */
     private int[] fPEStack = new int[5];
 
-
     /** Parameter entity stack to report start/end entity calls. */
     private boolean[] fPEReport = new boolean[5];
 
@@ -268,7 +252,6 @@ implements XMLDTDScanner, XMLComponent, XMLEntityHandler {
         fEntityManager.setEntityHandler(this);
         fEntityManager.startDTDEntity(inputSource);
     } // setInputSource(XMLInputSource)
-
 
     public void setLimitAnalyzer(XMLLimitAnalyzer limitAnalyzer) {
         fLimitAnalyzer = limitAnalyzer;
@@ -1415,7 +1398,6 @@ implements XMLDTDScanner, XMLComponent, XMLEntityHandler {
 
     } // scanAttType():String
 
-
     /**
      * Scans an attribute default declaration
      * <p>
@@ -2115,7 +2097,6 @@ implements XMLDTDScanner, XMLComponent, XMLEntityHandler {
         }
     }
 
-
     /*
      * Element Children Content Stack
      */
@@ -2131,7 +2112,6 @@ implements XMLDTDScanner, XMLComponent, XMLEntityHandler {
     private final int popContentStack() {
         return fContentStack[--fContentDepth];
     }
-
 
     /*
      * Parameter Entity Stack
@@ -2160,7 +2140,6 @@ implements XMLDTDScanner, XMLComponent, XMLEntityHandler {
     private final boolean peekReportEntity() {
         return fPEReport[fPEDepth-1];
     }
-
 
     /*
      * Utility method

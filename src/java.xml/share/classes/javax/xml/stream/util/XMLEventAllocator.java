@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.javax.xml.stream.util;
 
-
 import java.xml.share.classes.javax.xml.stream.events.XMLEvent;
 import java.xml.share.classes.javax.xml.stream.XMLStreamReader;
 import java.xml.share.classes.javax.xml.stream.XMLStreamException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This interface defines a class that allows a user to register

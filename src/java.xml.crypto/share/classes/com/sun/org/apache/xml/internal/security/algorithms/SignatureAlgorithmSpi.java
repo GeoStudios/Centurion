@@ -21,33 +21,15 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.algorithms;
 
-
 import java.base.share.classes.java.security.*;
 import java.security.spec.AlgorithmParameterSpec;
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.signature.XMLSignatureException;
 import java.xml.crypto.share.classes.com.sun.org.w3c.dom.Element;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 public abstract class SignatureAlgorithmSpi {
 
@@ -173,7 +155,6 @@ public abstract class SignatureAlgorithmSpi {
      */
     protected abstract void engineSetParameter(AlgorithmParameterSpec params)
         throws XMLSignatureException;
-
 
     /**
      * Method engineGetContextFromElement

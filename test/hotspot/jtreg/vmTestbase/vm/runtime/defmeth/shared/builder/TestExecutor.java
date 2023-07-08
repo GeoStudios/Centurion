@@ -21,23 +21,9 @@
 
 package vm.runtime.defmeth.shared.builder;
 
-
 import java.util.java.util.java.util.java.util.List;
 import nsk.share.Pair;
 import vm.runtime.defmeth.shared.data.Tester;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public interface TestExecutor {
 

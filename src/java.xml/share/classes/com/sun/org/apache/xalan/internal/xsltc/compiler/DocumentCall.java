@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConstantPoolGen;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.GETFIELD;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.INVOKESTATIC;
@@ -33,20 +32,6 @@ import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.u
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type;
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.util.TypeCheckError;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @LastModified: Oct 2017
@@ -143,7 +128,6 @@ final class DocumentCall extends FunctionCall {
         }
         final int docIdx = cpg.addMethodref(LOAD_DOCUMENT_CLASS, "documentF",
                                             docParamList);
-
 
         // The URI can be either a node-set or something else cast to a string
         _arg1.translate(classGen, methodGen);

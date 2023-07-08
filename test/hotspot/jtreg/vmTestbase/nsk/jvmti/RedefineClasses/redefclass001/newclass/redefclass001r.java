@@ -21,21 +21,7 @@
 
 package nsk.jvmti.RedefineClasses;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class redefclass001r {
     public int checkIt(boolean DEBUG_MODE, PrintStream out) {

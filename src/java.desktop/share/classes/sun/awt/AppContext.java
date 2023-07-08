@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.awt;
 
-
 import java.awt.EventQueue;
 import java.awt.Window;
 import java.awt.SystemTray;
@@ -48,20 +47,6 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Supplier;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The AppContext is a table referenced by ThreadGroup which stores
@@ -218,7 +203,6 @@ public final class AppContext {
      * checking Thread.currentThread().
      */
     private static final AtomicInteger numAppContexts = new AtomicInteger();
-
 
     /*
      * The context ClassLoader that was used to create this AppContext.

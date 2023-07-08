@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.AnnotationVisitor;
@@ -35,20 +34,6 @@ import jdk.jfr.share.classes.jdk.internal.org.objectweb.asm.commons.Method;
 import jdk.jfr.share.classes.jdk.jfr.AnnotationElement;
 import jdk.jfr.share.classes.jdk.jfr.Event;
 import jdk.jfr.share.classes.jdk.jfr.ValueDescriptor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Helper class for building dynamic events
 public final class EventClassBuilder {

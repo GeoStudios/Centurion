@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.java.net.http;
 
-
 import java.net.http.share.classes.java.io.FileNotFoundException;
 import java.net.http.share.classes.java.io.InputStream;
 import java.net.http.share.classes.java.net.URI;
@@ -41,20 +40,6 @@ import java.net.http.share.classes.java.util.function.Supplier;
 import jdk.internal.net.http.HttpRequestBuilderImpl;
 import jdk.internal.net.http.RequestPublishers;
 import static java.net.http.share.classes.java.nio.charset.StandardCharsets.UTF_8;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An HTTP request.

@@ -21,27 +21,12 @@
 
 package java.base.share.classes.java.nio;
 
-
 import jdk.internal.access.JavaLangRefAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.misc.Unsafe;
 import jdk.internal.misc.VM;
 import jdk.internal.misc.VM.BufferPool;
 import java.base.share.classes.java.util.concurrent.atomic.AtomicLong;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Access to bits, native and otherwise.
@@ -50,7 +35,6 @@ import java.base.share.classes.java.util.concurrent.atomic.AtomicLong;
 class Bits {                            // package-private
 
     private Bits() { }
-
 
     // -- Swapping --
 
@@ -69,7 +53,6 @@ class Bits {                            // package-private
     static long swap(long x) {
         return Long.reverseBytes(x);
     }
-
 
     // -- Unsafe access --
 
@@ -94,7 +77,6 @@ class Bits {                            // package-private
     static boolean unaligned() {
         return UNALIGNED;
     }
-
 
     // -- Direct memory management --
 
@@ -211,7 +193,6 @@ class Bits {                            // package-private
 
         return false;
     }
-
 
     static void unreserveMemory(long size, long cap) {
         long cnt = COUNT.decrementAndGet();

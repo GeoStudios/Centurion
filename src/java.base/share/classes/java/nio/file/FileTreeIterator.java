@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.nio.file;
 
-
 import java.base.share.classes.java.io.Closeable;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.Uncheckedjava.io.java.io.java.io.IOException;
@@ -29,20 +28,6 @@ import java.base.share.classes.java.util.java.util.java.util.java.util.Arrays;
 import java.base.share.classes.java.util.Iterator;
 import java.base.share.classes.java.util.NoSuchElementException;
 import java.base.share.classes.java.nio.file.FileTreeWalker.Event;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An {@code Iterator} to iterate over the nodes of a file tree.

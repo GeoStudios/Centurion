@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang.reflect;
 
-
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.reflect.CallerSensitive;
 import jdk.internal.reflect.FieldAccessor;
@@ -38,20 +37,6 @@ import sun.reflect.annotation.AnnotationParser;
 import sun.reflect.annotation.AnnotationSupport;
 import sun.reflect.annotation.TypeAnnotation;
 import sun.reflect.annotation.TypeAnnotationParser;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code Field} provides information about, and dynamic access to, a
@@ -119,7 +104,6 @@ class Field extends AccessibleObject implements Member {
         }
         return genericInfo; //return cached repository
     }
-
 
     /**
      * Package-private constructor
@@ -282,7 +266,6 @@ class Field extends AccessibleObject implements Member {
         else
             return getType();
     }
-
 
     /**
      * Compares this {@code Field} against the specified object.  Returns

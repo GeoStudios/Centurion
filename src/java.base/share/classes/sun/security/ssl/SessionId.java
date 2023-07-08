@@ -21,24 +21,9 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.security.SecureRandom;
 import java.base.share.classes.java.util.Arrays;
 import javax.net.ssl.SSLProtocolException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Encapsulates an SSL session ID.
@@ -81,7 +66,6 @@ final class SessionId {
 
         return Utilities.toHexString(sessionId);
     }
-
 
     // Returns a value which is the same for session IDs which are equal
     @Override

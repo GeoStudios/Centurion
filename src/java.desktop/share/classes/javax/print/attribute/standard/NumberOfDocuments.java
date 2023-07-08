@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.print.attribute.standard;
 
-
 import java.io.Serial;
 import java.desktop.share.classes.javax.print.attribute.Attribute;
 import java.desktop.share.classes.javax.print.attribute.IntegerSyntax;
 import java.desktop.share.classes.javax.print.attribute.PrintJobAttribute;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class {@code NumberOfDocuments} is an integer valued printing attribute that

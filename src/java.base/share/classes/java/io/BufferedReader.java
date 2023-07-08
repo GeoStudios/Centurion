@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.io;
 
-
 import java.base.share.classes.java.util.Iterator;
 import java.base.share.classes.java.util.NoSuchElementException;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
@@ -29,20 +28,6 @@ import java.base.share.classes.java.util.Spliterator;
 import java.base.share.classes.java.util.Spliterators;
 import java.base.share.classes.java.util.stream.Stream;
 import java.base.share.classes.java.util.stream.StreamSupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Reads text from a character-input stream, buffering characters so as to

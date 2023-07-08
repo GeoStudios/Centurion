@@ -21,22 +21,6 @@
 
 package java.compiler.share.classes.javax.lang.model.element;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An immutable sequence of characters.  When created by the same
  * implementation, objects implementing this interface must obey the

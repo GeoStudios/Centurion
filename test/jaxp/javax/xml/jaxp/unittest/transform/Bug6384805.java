@@ -21,7 +21,6 @@
 
 package transform;
 
-
 import java.util.Iterator;
 import javax.xml.namespace.NamespaceContext;
 import javax.xml.transform.Transformer;
@@ -34,19 +33,6 @@ import javax.xml.xpath.XPathFactory;
 import org.testng.Assert;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

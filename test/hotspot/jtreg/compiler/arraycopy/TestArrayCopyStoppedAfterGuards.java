@@ -21,21 +21,6 @@
 
 package compiler.arraycopy;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8075921
@@ -47,7 +32,6 @@ package compiler.arraycopy;
  *      compiler.arraycopy.TestArrayCopyStoppedAfterGuards
  *
  */
-
 
 public class TestArrayCopyStoppedAfterGuards {
 

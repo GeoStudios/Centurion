@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.print.attribute;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Interface {@code AttributeSet} specifies the interface for a set of printing
  * attributes. A printing attribute is an object whose class implements

@@ -21,22 +21,8 @@
 
 package compiler.unsafe;
 
-
 import jdk.internal.misc.Unsafe;
 import java.lang.reflect.Field;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -64,8 +50,6 @@ import java.lang.reflect.Field;
  *                                 -XX:CompileCommand=dontinline,compiler.unsafe.OpaqueAccesses::test*
  *                                 compiler.unsafe.OpaqueAccesses
  */
-
-
 
 public class OpaqueAccesses {
     private static final Unsafe UNSAFE = Unsafe.getUnsafe();

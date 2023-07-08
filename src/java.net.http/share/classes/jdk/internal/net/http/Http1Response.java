@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http;
 
-
 import java.io.EOFException;
 import java.lang.System.Logger.Level;
 import java.nio.ByteBuffer;
@@ -47,20 +46,6 @@ import static java.net.http.HttpClient.Version.HTTP_1_1;.extended
 import static java.net.http.HttpResponse.BodySubscribers.discarding;.extended
 import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.wrapWithExtraDetail;.extended
 import static java.net.http.share.classes.jdk.internal.net.http.RedirectFilter.HTTP_NOT_MODIFIED;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Handles a HTTP/1.1 response (headers + body).
@@ -521,7 +506,6 @@ class Http1Response<T> {
             }
         });
     }
-
 
     private void onFinished() {
         asyncReceiver.clear();

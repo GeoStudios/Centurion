@@ -21,22 +21,6 @@
 
 package java.base.share.classes.javax.net.ssl;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An encapsulation of the result state produced by
  * {@code SSLEngine} I/O calls.
@@ -168,7 +152,6 @@ public class SSLEngineResult {
          */
         NEED_UNWRAP_AGAIN
     }
-
 
     private final Status status;
     private final HandshakeStatus handshakeStatus;

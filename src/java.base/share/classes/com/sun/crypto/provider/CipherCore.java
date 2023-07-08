@@ -21,7 +21,6 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.base.share.classes.java.util.Locale;
 import java.base.share.classes.java.security.*;
@@ -518,7 +517,6 @@ final class CipherCore {
         return keyBytes;
     }
 
-
     /**
      * Continues a multiple-part encryption or decryption operation
      * (depending on how this cipher was initialized), processing another data
@@ -940,7 +938,6 @@ final class CipherCore {
             }
         }
     }
-
 
     private int checkOutputCapacity(byte[] output, int outputOffset,
                             int estOutSize) throws ShortBufferException {

@@ -21,7 +21,6 @@
 
 package nsk.jdi.Value.type.type002;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -88,9 +74,6 @@ import java.io.*;
  *      -transport.address=dynamic
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -204,7 +187,6 @@ public class type002 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -256,7 +238,6 @@ public class type002 {
             String bpLine1          = "breakpointLineNumber1";
 
             BreakpointRequest breakpRequest1 = null;
-
 
             label0: {
 
@@ -315,7 +296,6 @@ public class type002 {
                 expresult = breakpoint();
                 if (expresult != returnCode0)
                     break label1;
-
 
                 Value returnvdValue1 = null;
 
@@ -385,8 +365,6 @@ public class type002 {
         return testExitCode;
     }
 
-
-
    /*
     * private BreakpointRequest settingBreakpoint(String, String, String)
     *
@@ -442,7 +420,6 @@ public class type002 {
 
         return breakpRequest;
     }
-
 
     /*
      * private int breakpoint ()

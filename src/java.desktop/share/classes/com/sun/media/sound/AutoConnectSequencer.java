@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import javax.sound.midi.Receiver;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Interface for Sequencers that are able to do the auto-connect

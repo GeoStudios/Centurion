@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * DCONST - Push 0.0 or 1.0, other values cause an exception
  *
@@ -48,14 +32,12 @@ public class DCONST extends Instruction implements ConstantPushInstruction {
 
     private double value;
 
-
     /**
      * Empty constructor needed for Instruction.readInstruction.
      * Not to be used otherwise.
      */
     DCONST() {
     }
-
 
     public DCONST(final double f) {
         super(com.sun.org.apache.bcel.internal.Const.DCONST_0, (short) 1);
@@ -69,12 +51,10 @@ public class DCONST extends Instruction implements ConstantPushInstruction {
         value = f;
     }
 
-
     @Override
     public Number getValue() {
         return value;
     }
-
 
     /** @return Type.DOUBLE
      */
@@ -82,7 +62,6 @@ public class DCONST extends Instruction implements ConstantPushInstruction {
     public Type getType( final ConstantPoolGen cp ) {
         return Type.DOUBLE;
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

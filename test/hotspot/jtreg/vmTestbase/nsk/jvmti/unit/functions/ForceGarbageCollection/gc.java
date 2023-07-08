@@ -21,21 +21,7 @@
 
 package nsk.jvmti.unit.functions.ForceGarbageCollection;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class gc {
 

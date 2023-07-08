@@ -21,26 +21,12 @@
 
 package nsk.jdi.StepEvent._itself_.stepEvent003;
 
-
 import java.io.*;
 import java.util.*;
 import com.sun.jdi.request.StepRequest;
 import nsk.share.Consts;
 import nsk.share.jdi.EventHandler;
 import nsk.share.jdi.sde.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -89,8 +75,6 @@ import nsk.share.jdi.sde.*;
  *      -testClassPath ${test.class.path}
  *      -testWorkDir .
  */
-
-
 
 public class stepEvent003 extends SDEDebugger {
     public static void main(String argv[]) {

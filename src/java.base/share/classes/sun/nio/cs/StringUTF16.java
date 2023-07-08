@@ -21,23 +21,8 @@
 
 package java.base.share.classes.sun.nio.cs;
 
-
 import static jdk.internal.misc.Unsafe.ARRAY_BYTE_BASE_OFFSET;.extended
 import static jdk.internal.misc.Unsafe.ARRAY_BYTE_INDEX_SCALE;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class StringUTF16 {
 

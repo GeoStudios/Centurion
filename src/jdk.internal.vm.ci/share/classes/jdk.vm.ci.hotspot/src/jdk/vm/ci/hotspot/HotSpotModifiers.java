@@ -21,7 +21,6 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
 
-
 import static java.lang.reflect.Modifier.ABSTRACT;.extended
 import static java.lang.reflect.Modifier.FINAL;.extended
 import static java.lang.reflect.Modifier.INTERFACE;.extended
@@ -36,20 +35,6 @@ import static java.lang.reflect.Modifier.TRANSIENT;.extended
 import static java.lang.reflect.Modifier.VOLATILE;.extended
 import static jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot.HotSpotVMConfig.config;.extended
 import java.lang.reflect.Modifier;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The non-public modifiers in {@link Modifier} that need to be retrieved from

@@ -21,24 +21,10 @@
 
 package nsk.stress.strace;
 
-
 import nsk.share.ArgumentParser;
 import nsk.share.Log;
 import java.io.PrintStream;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -65,9 +51,6 @@ import java.util.Map;
  *          /test/lib
  * @run main/othervm/native nsk.stress.strace.strace014
  */
-
-
-
 
 /**
  * The test runs <code>THRD_COUNT</code> instances of <code>strace010Thread</code>,
@@ -173,7 +156,6 @@ public class strace014 {
         for (int i = 0; i < THRD_COUNT; i++) {
             elements[i] = threads[i].getStackTrace();
         }
-
 
         display("notifying ...");
         synchronized (lockedObject) {

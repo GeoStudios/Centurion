@@ -21,21 +21,6 @@
 
 package gc;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test CriticalNativeStressEpsilon
  * @bug 8199868

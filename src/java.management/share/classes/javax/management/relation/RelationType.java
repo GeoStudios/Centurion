@@ -21,24 +21,9 @@
 
 package java.management.share.classes.javax.management.relation;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List; // for Javadoc.extended
 import java.util.java.util.java.util.java.util.List;
 import java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The RelationType interface has to be implemented by any class expected to

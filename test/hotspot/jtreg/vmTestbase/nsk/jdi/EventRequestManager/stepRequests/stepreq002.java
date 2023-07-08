@@ -21,7 +21,6 @@
 
 package nsk.jdi.EventRequestManager.stepRequests;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -198,7 +184,6 @@ public class stepreq002 extends JDIBase {
         return testExitCode;
     }
 
-
    /*
     * Return value: 0 - normal end of the test
     *               1 - ubnormal end of the test
@@ -272,7 +257,6 @@ public class stepreq002 extends JDIBase {
         int listSize;
         int flag;
 
-
         log1("     TESTING BEGINS");
 
         for (int i = 0; ; i++) {
@@ -294,7 +278,6 @@ public class stepreq002 extends JDIBase {
 
             ArrayReference threads = (ArrayReference)
                                      debuggeeClass.getValue(debuggeeClass.fieldByName(fieldName));
-
 
             log2("......creating StepRequests");
             for (int i1 = 0; i1 < stRequests.length; i1++) {

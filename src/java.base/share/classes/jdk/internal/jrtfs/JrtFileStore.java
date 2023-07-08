@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.jrtfs;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.FileStore;
 import java.nio.file.FileSystem;
@@ -29,20 +28,6 @@ import java.nio.file.attribute.FileAttributeView;
 import java.nio.file.attribute.BasicFileAttributeView;
 import java.nio.file.attribute.FileStoreAttributeView;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * File store implementation for jrt file systems.

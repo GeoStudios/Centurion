@@ -21,7 +21,6 @@
 
 package gc.gctests.WeakReference.weak001;
 
-
 import java.lang.ref.Reference;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.WeakReference;
@@ -35,19 +34,6 @@ import nsk.share.gc.gp.MemoryStrategy;
 import nsk.share.gc.gp.MemoryStrategyAware;
 import nsk.share.gc.gp.string.InternedStringProducer;
 import nsk.share.gc.gp.string.RandomStringProducer;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -81,9 +67,6 @@ import nsk.share.gc.gp.string.RandomStringProducer;
  *          /test/lib
  * @run main/othervm gc.gctests.WeakReference.weak001.weak001 -ms low
  */
-
-
-
 
 public class weak001 extends ThreadedGCTest implements GarbageProducerAware, MemoryStrategyAware {
 

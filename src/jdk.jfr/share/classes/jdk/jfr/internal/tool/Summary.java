@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.tool;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintStream;
 import java.nio.file.Path;
@@ -40,20 +39,6 @@ import jdk.jfr.share.classes.jdk.jfr.internal.Type;
 import jdk.jfr.share.classes.jdk.jfr.internal.consumer.ChunkHeader;
 import jdk.jfr.share.classes.jdk.jfr.internal.consumer.FileAccess;
 import jdk.jfr.share.classes.jdk.jfr.internal.consumer.RecordingInput;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class Summary extends Command {
     private final DateTimeFormatter DATE_FORMAT = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss").withLocale(Locale.UK).withZone(ZoneOffset.UTC);

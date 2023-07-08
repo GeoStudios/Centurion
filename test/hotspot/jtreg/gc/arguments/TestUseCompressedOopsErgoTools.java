@@ -21,7 +21,6 @@
 
 package gc.arguments;
 
-
 import com.sun.management.HotSpotDiagnosticMXBean;
 import com.sun.management.VMOption;
 import java.util.regex.Matcher;
@@ -33,19 +32,6 @@ import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.process.OutputAnalyzer;
 import java.lang.management.ManagementFactory;
 import sun.hotspot.WhiteBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class DetermineMaxHeapForCompressedOops {
   public static void main(String[] args) throws Exception {
@@ -63,7 +49,6 @@ class TestUseCompressedOopsErgoTools {
     VMOption option = diagnostic.getVMOption("CompressedClassSpaceSize");
     return Long.parseLong(option.getValue());
   }
-
 
   public static long getMaxHeapForCompressedOops(String[] vmargs) throws Exception {
     OutputAnalyzer output = runWhiteBoxTest(vmargs, DetermineMaxHeapForCompressedOops.class.getName(), new String[] {});

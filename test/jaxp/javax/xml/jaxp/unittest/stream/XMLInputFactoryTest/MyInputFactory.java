@@ -21,7 +21,6 @@
 
 package stream.XMLInputFactoryTest;
 
-
 import java.io.InputStream;
 import java.io.Reader;
 import javax.xml.stream.EventFilter;
@@ -33,19 +32,6 @@ import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 import javax.xml.stream.util.XMLEventAllocator;
 import javax.xml.transform.Source;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class MyInputFactory extends javax.xml.stream.XMLInputFactory {
 

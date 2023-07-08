@@ -21,32 +21,15 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto.dsig.keyinfo;
 
-
 import java.security.KeyException;
 import java.base.share.classes.java.security.PublicKey;
 import java.security.interfaces.DSAPublicKey;
 import java.security.interfaces.RSAPublicKey;
 import java.xml.crypto.share.classes.javax.xml.crypto.XMLStructure;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: KeyValue.java,v 1.4 2005/05/10 16:35:35 mullan Exp $
  */
-
-
 
 /**
  * A representation of the XML <code>KeyValue</code> element as defined

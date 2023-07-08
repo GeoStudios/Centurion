@@ -21,24 +21,10 @@
 
 package nsk.jvmti.ForceEarlyReturn;
 
-
 import java.io.*;
 import java.lang.reflect.*;
 import nsk.share.Wicket;
 import nsk.share.Consts;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 interface IA {}
 interface IB extends IA {}
@@ -63,7 +49,6 @@ class EarlyReturnThread002 extends Thread {
     public void stopThread() {
         stop = true;
     }
-
 
     public EarlyReturnThread002 (
             Method _method
@@ -473,7 +458,6 @@ public class ForceEarlyReturn002 {
                 out.println("\nITERATION:\n");
                 out.println("\tOriginal return type: \""+method.getReturnType().getName()+"\"");
                 out.println("\t  Forced return type: \""+param.getClass().getName()+"\"\n");
-
 
                 EarlyReturnThread002 thread = new EarlyReturnThread002(method, out);
 

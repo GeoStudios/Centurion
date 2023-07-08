@@ -21,23 +21,9 @@
 
 package nsk.monitoring.share;
 
-
 import nsk.share.*;
 import nsk.monitoring.share.*;
 import javax.management.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * NotificationEmitter that delegates functionality to MBeanServer.

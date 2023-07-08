@@ -21,22 +21,7 @@
 
 package utils.LogCompilation.src.main.java.com.sun.hotspot.tools.compiler;
 
-
 import utils.LogCompilation.src.main.java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A compilation log event that is signalled whenever a new nmethod (a native

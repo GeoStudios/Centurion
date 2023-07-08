@@ -21,22 +21,6 @@
 
 package java.management.share.classes.javax.management.openmbean;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * <p>A Java class can implement this interface to indicate how it is
  * to be converted into a {@code CompositeData} by the MXBean framework.</p>

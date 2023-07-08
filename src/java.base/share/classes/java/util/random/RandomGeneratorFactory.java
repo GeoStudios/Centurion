@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util.random;
 
-
 import java.base.share.classes.java.lang.reflect.Constructor;
 import java.base.share.classes.java.math.BigInteger;
 import java.base.share.classes.java.security.AccessController;
@@ -40,20 +39,6 @@ import java.base.share.classes.java.util.ServiceLoader.Provider;
 import java.base.share.classes.java.util.stream.Collectors;
 import java.base.share.classes.java.util.stream.Stream;
 import jdk.internal.util.random.RandomSupport.RandomGeneratorProperties;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is a factory class for generating multiple random number generators
@@ -138,7 +123,6 @@ public final class RandomGeneratorFactory<T extends RandomGenerator> {
      * Provider constructor with byte[] seed.
      */
     private Constructor<T> ctorBytes;
-
 
     private static class FactoryMapHolder {
         static final Map<String, Provider<? extends RandomGenerator>> FACTORY_MAP = createFactoryMap();
@@ -300,7 +284,6 @@ public final class RandomGeneratorFactory<T extends RandomGenerator> {
                         Constructor<T> tmpCtor = null;
                         Constructor<T> tmpCtorLong = null;
                         Constructor<T> tmpCtorBytes = null;
-
 
                         for (Constructor<?> ctorGeneric : ctors) {
                             @SuppressWarnings("unchecked")
@@ -622,5 +605,4 @@ public final class RandomGeneratorFactory<T extends RandomGenerator> {
     }
 
 }
-
 

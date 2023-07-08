@@ -21,22 +21,6 @@
 
 package java.base.share.classes.sun.reflect.annotation;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * ExceptionProxy for EnumConstantNotPresentException.
  *

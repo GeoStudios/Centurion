@@ -21,24 +21,9 @@
 
 package jdk.jshell.share.classes.jdk.jshell;
 
-
 import java.util.Collection;
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A Snippet represents a snippet of Java source code as passed to

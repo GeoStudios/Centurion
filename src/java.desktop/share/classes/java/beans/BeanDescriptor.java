@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.java.beans;
 
-
 import java.desktop.share.classes.java.lang.ref.Reference;
 import javax.swing.SwingContainer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A BeanDescriptor provides global information about a "bean",

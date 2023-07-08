@@ -21,22 +21,7 @@
 
 package java.naming.share.classes.javax.naming;
 
-
 import java.util.Hashtable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This abstract class is used to represent a referral exception,

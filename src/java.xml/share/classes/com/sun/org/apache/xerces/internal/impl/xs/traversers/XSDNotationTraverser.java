@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.traversers;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.XSAnnotationImpl;
@@ -31,26 +30,10 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.DOMUtil;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSObjectjava.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.w3c.dom.Element;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * The notation declaration schema component traverser.

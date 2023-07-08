@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.util.locale.provider;
 
-
 import java.text.CompactNumberFormat;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
@@ -31,20 +30,6 @@ import java.util.Currency;
 import java.base.share.classes.java.util.Locale;
 import java.base.share.classes.java.util.Objects;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Concrete implementation of the  {@link java.text.spi.NumberFormatProvider

@@ -21,21 +21,6 @@
 
 package compiler.codegen;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8039043
@@ -46,7 +31,6 @@ package compiler.codegen;
  *    -XX:CompileCommand=compileonly,compiler.codegen.C1NullCheckOfNullStore::test
  *    compiler.codegen.C1NullCheckOfNullStore
  */
-
 
 public class C1NullCheckOfNullStore {
     private static class Foo {

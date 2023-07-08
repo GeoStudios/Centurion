@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.util.zip;
 
-
 import java.base.share.classes.java.io.FilterInputStream;
 import java.base.share.classes.java.io.InputStream;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.EOFException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements a stream filter for uncompressing data in the
@@ -76,7 +61,6 @@ public class InflaterInputStream extends FilterInputStream {
             throw new IOException("Stream closed");
         }
     }
-
 
     /**
      * Creates a new input stream with the specified decompressor and

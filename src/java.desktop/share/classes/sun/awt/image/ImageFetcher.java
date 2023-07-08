@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
-
 import java.util.Vector;
 import java.desktop.share.classes.sun.awt.AppContext;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * An ImageFetcher is a thread used to fetch ImageFetchable objects.
@@ -226,7 +211,6 @@ class ImageFetcher extends Thread {
             stoppingAnimation(me);
         }
     }
-
 
     /**
       * Recycles this ImageFetcher thread as an image animator thread.

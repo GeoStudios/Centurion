@@ -21,7 +21,6 @@
 
 package nsk.jdi.ExceptionEvent.catchLocation;
 
-
 import com.sun.jdi.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
@@ -31,19 +30,6 @@ import java.util.java.util.java.util.java.util.List;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // This class is the debugger in the test
 
@@ -90,7 +76,6 @@ public class location001 {
     static private ReferenceType userException;
     static private ReferenceType userError;
     static private ReferenceType userThrowable;
-
 
     // results of receiving particular events
     static private boolean userExceptionReceived;

@@ -21,7 +21,6 @@
 
 package java.management.share.classes.com.sun.jmx.remote.security;
 
-
 import java.management.share.classes.com.sun.jmx.mbeanserver.GetPropertyAction;
 import java.io.ObjectInputStream;
 import java.security.AccessController;
@@ -48,20 +47,6 @@ import javax.management.QueryExp;
 import javax.management.ReflectionException;
 import javax.management.loading.ClassLoaderRepository;
 import javax.management.remote.MBeanServerForwarder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>An object of this class implements the MBeanServer interface

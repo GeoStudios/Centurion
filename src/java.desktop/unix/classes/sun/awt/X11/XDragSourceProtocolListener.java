@@ -21,22 +21,6 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 interface XDragSourceProtocolListener {
     /**
      * Called when a reply from the current drop target is received.

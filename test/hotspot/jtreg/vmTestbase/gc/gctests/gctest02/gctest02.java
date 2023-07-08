@@ -21,26 +21,11 @@
 
 package gc.gctests.gctest02;
 
-
 import nsk.share.TestFailure;
 import nsk.share.TestBug;
 import nsk.share.test.LocalRandom;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 //gctest02.java
-
 
 /*
  * @test
@@ -53,8 +38,6 @@ import nsk.share.test.LocalRandom;
  *          /test/lib
  * @run main/othervm gc.gctests.gctest02.gctest02 100
  */
-
-
 
 /*  stress testing
  create 16 memory evil threads requesting to allocate

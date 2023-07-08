@@ -21,21 +21,6 @@
 
 package q2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Type2 {
     public Type2() { }
 }

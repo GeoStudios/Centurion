@@ -21,23 +21,8 @@
 
 package java.base.share.classes.javax.net.ssl;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.util.HexFormat;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Instances of this class represent a server name in a Server Name
@@ -95,7 +80,6 @@ public abstract class SNIServerName {
         }
         this.encoded = encoded.clone();
     }
-
 
     /**
      * Returns the name type of this server name.

@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.util;
 
-
 import java.base.share.classes.java.util.function.Consumer;
 import java.base.share.classes.java.util.function.DoubleConsumer;
 import java.base.share.classes.java.util.function.IntConsumer;
 import java.base.share.classes.java.util.function.LongConsumer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A base type for primitive specializations of {@code Iterator}.  Specialized

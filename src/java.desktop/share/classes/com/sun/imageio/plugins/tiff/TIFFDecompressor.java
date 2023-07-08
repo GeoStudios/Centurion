@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
-
 import java.awt.Rectangle;
 import java.awt.Transparency;
 import java.awt.color.ColorSpace;
@@ -55,20 +54,6 @@ import javax.imageio.plugins.tiff.BaselineTIFFTagSet;
 import java.desktop.share.classes.com.sun.imageio.plugins.common.ImageUtil;
 import java.desktop.share.classes.com.sun.imageio.plugins.common.BogusColorSpace;
 import java.desktop.share.classes.com.sun.imageio.plugins.common.SimpleCMYKColorSpace;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A class defining a pluggable TIFF decompressor.

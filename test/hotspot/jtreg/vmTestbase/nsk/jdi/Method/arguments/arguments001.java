@@ -21,26 +21,12 @@
 
 package nsk.jdi.Method.arguments;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -174,7 +160,6 @@ public class arguments001 {
             Method m         = null;
             List   argsList  = null;
 
-
             //  method with arguments
 
             methods = ((ReferenceType) listOfDebuggeeClasses.get(0)).
@@ -223,7 +208,6 @@ public class arguments001 {
             }
             } //check:
 
-
             // method without arguments
 
             methods = ((ReferenceType) listOfDebuggeeClasses.get(0)).
@@ -241,7 +225,6 @@ public class arguments001 {
                 log3("ERROR: AbsentInformationException for method without arguments");
                  testExitCode = FAILED;
             }
-
 
             // native method
 

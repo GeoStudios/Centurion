@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import sun.awt.SunToolkit;
 import java.io.*;
 import java.awt.*;
@@ -31,20 +30,6 @@ import java.desktop.share.classes.javax.swing.Action;
 import java.desktop.share.classes.javax.swing.KeyStroke;
 import java.desktop.share.classes.javax.swing.SwingConstants;
 import java.desktop.share.classes.javax.swing.UIManager;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is the set of things needed by a text component
@@ -375,7 +360,6 @@ public class DefaultEditorKit extends EditorKit {
         }
         out.flush();
     }
-
 
     /**
      * When reading a document if a CRLF is encountered a property
@@ -1144,7 +1128,6 @@ public class DefaultEditorKit extends EditorKit {
         }
     }
 
-
     /*
      * Deletes the word that precedes/follows the beginning of the selection.
      * @see DefaultEditorKit#getActions
@@ -1217,7 +1200,6 @@ public class DefaultEditorKit extends EditorKit {
             }
         }
     }
-
 
     /*
      * Sets the editor into read-only mode.
@@ -1591,7 +1573,6 @@ public class DefaultEditorKit extends EditorKit {
          */
         private final int direction;
     }
-
 
     /**
      * Pages one view to the left or right.

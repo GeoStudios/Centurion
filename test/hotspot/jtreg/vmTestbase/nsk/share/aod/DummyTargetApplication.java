@@ -21,22 +21,8 @@
 
 package nsk.share.aod;
 
-
 import nsk.share.*;
 import nsk.share.jpda.java.net.SocketIOPipe;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
 Class TargetApplication is part of the framework used in the AttachOnDemand tests

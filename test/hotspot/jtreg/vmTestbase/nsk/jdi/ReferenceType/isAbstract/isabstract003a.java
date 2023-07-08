@@ -21,23 +21,9 @@
 
 package nsk.jdi.ReferenceType.isAbstract;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The debugged application of the test.

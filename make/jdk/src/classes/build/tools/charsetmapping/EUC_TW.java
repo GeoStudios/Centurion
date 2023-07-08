@@ -21,56 +21,6 @@
 
 package build.tools.charsetmapping;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class EUC_TW {
 
     static char[] toCharArray(int[] db,
@@ -124,7 +74,6 @@ public class EUC_TW {
         PrintStream ps = new PrintStream(new File(args[1], "EUC_TWMapping.java"),
                                          "ISO-8859-1");
         String copyright = getCopyright(new File(args[7], "EUC_TW.java"));
-
 
         // ranges of byte1 and byte2, something should come from a "config" file
         int b1Min = 0xa1;

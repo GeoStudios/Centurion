@@ -21,21 +21,6 @@
 
 package compiler.codegen;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8005033
@@ -46,7 +31,6 @@ package compiler.codegen;
  *      compiler.codegen.Test8005033
  * @author Richard Reingruber richard DOT reingruber AT sap DOT com
  */
-
 
 public class Test8005033 {
     public static int MINUS_ONE = -1;

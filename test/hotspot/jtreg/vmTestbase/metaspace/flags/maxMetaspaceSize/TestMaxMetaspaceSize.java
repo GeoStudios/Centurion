@@ -21,22 +21,8 @@
 
 package metaspace.flags.maxMetaspaceSize;
 
-
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -48,7 +34,6 @@ import jdk.test.lib.process.ProcessTools;
  * @build metaspace.flags.maxMetaspaceSize.maxMetaspaceSize
  * @run driver metaspace.flags.maxMetaspaceSize.TestMaxMetaspaceSize
  */
-
 
 public class TestMaxMetaspaceSize {
     public static void main(String[] args) throws Exception {

@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ArithmeticInstruction;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ArrayInstruction;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ConversionInstruction;
@@ -31,26 +30,9 @@ import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.LocalVari
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ReturnInstruction;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.StackInstruction;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: Constants.java,v 1.7 2006/06/19 19:49:04 spericas Exp $
  */
-
-
-
 
 /**
  */
@@ -62,7 +44,6 @@ public interface Constants {
     Instruction ICONST_0 = InstructionConst.ICONST_0;
     Instruction ICONST_1 = InstructionConst.ICONST_1;
     Instruction NOP = InstructionConst.NOP;
-
 
     StackInstruction DUP = InstructionConst.DUP;
     StackInstruction DUP2 = InstructionConst.DUP2;
@@ -97,12 +78,9 @@ public interface Constants {
     ConversionInstruction L2D = InstructionConst.L2D;
     ConversionInstruction L2I = InstructionConst.L2I;
 
-
     ReturnInstruction ARETURN = InstructionConst.ARETURN;
     ReturnInstruction IRETURN = InstructionConst.IRETURN;
     ReturnInstruction RETURN = InstructionConst.RETURN;
-
-
 
     // Error categories used to report errors to Parser.reportError()
 

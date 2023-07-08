@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.font;
 
-
 import java.awt.Font;
 import java.awt.FontFormatException;
 import java.io.BufferedReader;
@@ -50,20 +49,6 @@ import java.desktop.share.classes.sun.awt.SunToolkit;
 import java.desktop.share.classes.sun.awt.util.ThreadGroupUtils;
 import java.desktop.share.classes.sun.java2d.FontSupport;
 import java.desktop.share.classes.sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The base implementation of the {@link FontManager} interface. It implements
@@ -754,7 +739,6 @@ public abstract class SunFontManager implements FontSupport, FontManagerForSGE {
         return physicalFonts.values().toArray(new PhysicalFont[0]);
     }
 
-
     /* The class FontRegistrationInfo is used when a client says not
      * to register a font immediately. This mechanism is used to defer
      * initialisation of all the components of composite fonts at JRE
@@ -901,7 +885,6 @@ public abstract class SunFontManager implements FontSupport, FontManagerForSGE {
                                      useJavaRasterizer, fontRank);
         deferredFontFiles.put(fileNameKey, regInfo);
     }
-
 
     public synchronized
          PhysicalFont initialiseDeferredFont(String fileNameKey) {
@@ -1593,7 +1576,6 @@ public abstract class SunFontManager implements FontSupport, FontManagerForSGE {
                 font = pf;
             }
         }
-
 
         /* Two general cases need a bit more work here.
          * 1) If font is null, then it was perhaps a request for a
@@ -2838,7 +2820,6 @@ public abstract class SunFontManager implements FontSupport, FontManagerForSGE {
         }
     }
 
-
     protected String[] getPlatformFontDirs(boolean noType1Fonts) {
 
         /* First check if we already initialised path dirs */
@@ -3169,7 +3150,6 @@ public abstract class SunFontManager implements FontSupport, FontManagerForSGE {
             //System.out.println("filename."+platName+"="+fontFileName);
             registerFontFile(fontFileName, nativeNames,
                              Font2D.FONT_CONFIG_RANK, true);
-
 
         }
         /* This registers accumulated paths from the calls to

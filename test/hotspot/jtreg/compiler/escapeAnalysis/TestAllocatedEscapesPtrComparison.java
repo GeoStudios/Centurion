@@ -21,22 +21,8 @@
 
 package compiler.escapeAnalysis;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -49,11 +35,9 @@ import java.util.java.util.java.util.java.util.List;
  * @author Chuck Rasbold rasbold@google.com
  */
 
-
 /*
  * Test always passes with -XX:-OptmimizePtrCompare
  */
-
 
 public class TestAllocatedEscapesPtrComparison {
 
@@ -113,7 +97,6 @@ public class TestAllocatedEscapesPtrComparison {
       throw new RuntimeException("test fails");
     }
   }
-
 
   public static void main(String args[]) {
     TestAllocatedEscapesPtrComparison tc = new TestAllocatedEscapesPtrComparison();

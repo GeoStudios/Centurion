@@ -21,25 +21,10 @@
 
 package java.security.jgss.share.classes.javax.security.auth.kerberos;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.base.share.classes.java.util.Objects;
 import java.security.jgss.share.classes.javax.crypto.SecretKey;
 import java.security.jgss.share.classes.javax.security.auth.DestroyFailedException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class encapsulates an EncryptionKey used in Kerberos.<p>
@@ -161,7 +146,6 @@ public final class EncryptionKey implements SecretKey {
             destroyed = true;
         }
     }
-
 
     @Override
     public boolean isDestroyed() {

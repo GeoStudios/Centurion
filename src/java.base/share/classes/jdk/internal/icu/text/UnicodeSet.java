@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.icu.text;
 
-
 import java.text.ParsePosition;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.TreeSet;
@@ -32,20 +31,6 @@ import java.base.share.classes.jdk.internal.icu.impl.Utility;
 import java.base.share.classes.jdk.internal.icu.lang.UCharacter;
 import java.base.share.classes.jdk.internal.icu.util.OutputInt;
 import java.base.share.classes.jdk.internal.icu.util.VersionInfo;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A mutable set of Unicode characters and multicharacter strings.
@@ -496,7 +481,6 @@ public class UnicodeSet {
         else {
             // At this point we know the new char is not adjacent to
             // any existing ranges, and it is not 10FFFF.
-
 
             // [..., start_k-1, limit_k-1, start_k, limit_k, ..., HIGH]
             //                             ^

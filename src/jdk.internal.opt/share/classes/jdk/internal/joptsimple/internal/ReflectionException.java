@@ -21,22 +21,6 @@
 
 package jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This unchecked exception wraps reflection-oriented exceptions.
  *

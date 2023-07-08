@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.event.Actionjava.util.Listener;
 import java.desktop.share.classes.java.awt.event.ItemEvent;
 import java.desktop.share.classes.java.awt.event.Itemjava.util.Listener;
@@ -37,20 +36,6 @@ import javax.accessibility.AccessibleContext;
 import javax.accessibility.AccessibleRole;
 import javax.accessibility.AccessibleValue;
 import sun.awt.AWTAccessor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents a check box that can be included in a menu.
@@ -498,7 +483,6 @@ public class CheckboxMenuItem extends MenuItem implements ItemSelectable, Access
      * Initialize JNI field and method IDs
      */
     private static native void initIDs();
-
 
 /////////////////
 // Accessibility support

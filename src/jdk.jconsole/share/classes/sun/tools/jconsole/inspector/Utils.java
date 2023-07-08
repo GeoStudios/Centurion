@@ -21,7 +21,6 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole.inspector;
 
-
 import java.awt.event.*;
 import java.lang.reflect.*;
 import java.math.BigDecimal;
@@ -32,20 +31,6 @@ import javax.management.*;
 import javax.management.openmbean.*;
 import javax.swing.*;
 import javax.swing.text.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Utils {
 

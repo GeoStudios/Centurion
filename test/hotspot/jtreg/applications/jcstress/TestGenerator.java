@@ -21,7 +21,6 @@
 
 package applications.jcstress;
 
-
 import jdk.test.lib.Utils;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
@@ -36,19 +35,6 @@ import java.nio.file.Paths;
 import java.util.Calendar;
 import java.util.EnumSet;
 import java.util.function.Predicate;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @notest THIS IS NOT A TEST.

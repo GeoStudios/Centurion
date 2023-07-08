@@ -21,7 +21,6 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.beans;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.reflect.Field;
 import java.lang.reflect.Member;
@@ -33,20 +32,6 @@ import java.util.Collections;
 import java.util.Map;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.support.Lookup;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -54,8 +39,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.support.Lookup;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-
-
 
 /**
  * Base for classes that expose class field and method information to an {@link AbstractJavaLinker}. There are

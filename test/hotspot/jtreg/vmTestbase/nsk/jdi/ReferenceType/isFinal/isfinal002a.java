@@ -21,23 +21,9 @@
 
 package nsk.jdi.ReferenceType.isFinal;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The debugged application of the test.
@@ -88,7 +74,6 @@ public class isfinal002a {
         pipe = argHandler.createDebugeeIOPipe(log);
 
         pipe.println(isfinal002.SIGNAL_READY);
-
 
         //pipe.println(isfinal002.SIGNAL_GO);
         receiveSignal(isfinal002.SIGNAL_QUIT);

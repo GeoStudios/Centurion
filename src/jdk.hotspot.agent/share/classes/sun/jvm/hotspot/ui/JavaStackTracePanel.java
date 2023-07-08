@@ -21,26 +21,11 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
 
-
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.event.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.classbrowser.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Provides Java stack trace of a Java Thread */
 

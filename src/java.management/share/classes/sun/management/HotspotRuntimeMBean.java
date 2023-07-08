@@ -21,22 +21,7 @@
 
 package java.management.share.classes.sun.management;
 
-
 import java.management.share.classes.sun.management.counter.Counter;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Hotspot internal management interface for the runtime system.

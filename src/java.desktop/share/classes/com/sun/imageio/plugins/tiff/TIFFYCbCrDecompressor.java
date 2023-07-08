@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
-
 import java.awt.image.BufferedImage;
 import java.awt.image.ColorModel;
 import java.io.ByteArrayInputStream;
@@ -33,20 +32,6 @@ import javax.imageio.stream.MemoryCacheImageInputStream;
 import javax.imageio.stream.ImageInputStream;
 import javax.imageio.plugins.tiff.BaselineTIFFTagSet;
 import javax.imageio.plugins.tiff.TIFFField;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class TIFFYCbCrDecompressor extends TIFFDecompressor {
     // Store constants in S15.16 format

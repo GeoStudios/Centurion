@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.res;
 
-
 import java.util.java.util.ListResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Set up error messages.
@@ -1056,7 +1041,6 @@ public class XSLTErrorResources_fr extends ListResourceBundle
     { ER_ERRORLISTENER,
      "ErrorListener"},
 
-
 // Note to translators:  The following message should not normally be displayed
 //   to users.  It describes a situation in which the processor has detected
 //   an internal consistency problem in itself, and it provides this message
@@ -1065,7 +1049,6 @@ public class XSLTErrorResources_fr extends ListResourceBundle
 //   translated.
     { ER_ASSERT_NO_TEMPLATE_PARENT,
      "Erreur du programmeur. L'expression n'a pas de parent ElemTemplateElement."},
-
 
 // Note to translators:  The following message should not normally be displayed
 //   to users.  It describes a situation in which the processor has detected
@@ -1132,7 +1115,6 @@ public class XSLTErrorResources_fr extends ListResourceBundle
      { INVALID_NUMBER,
      "Valeur non admise {1} utilis\u00E9e pour l''attribut \"number\" : {0} "},
 
-
   // End of shared codes...
 
 // Note to translators:  A "match pattern" is a special form of XPath expression
@@ -1149,7 +1131,6 @@ public class XSLTErrorResources_fr extends ListResourceBundle
 // ER_DUPLICATE_GLOBAL_VAR - new error message for bugzilla #790
     { ER_DUPLICATE_GLOBAL_VAR,
      "D\u00E9claration de variable globale en double."},
-
 
 // Note to translators:  The following message indicates that two definitions of
 // a variable were encountered.
@@ -1344,7 +1325,6 @@ public class XSLTErrorResources_fr extends ListResourceBundle
   { "column","Colonne n\u00B0"},
   { "xsldone", "XSLProcessor : termin\u00E9"},
 
-
   // Note to translators:  The following messages provide usage information
   // for the Xalan Process command line.  "Process" is the name of a Java class,
   // and should not be translated.
@@ -1401,7 +1381,6 @@ public class XSLTErrorResources_fr extends ListResourceBundle
   { "optionSECUREPROCESSING", "   [-SECURE (D\u00E9finir la fonctionnalit\u00E9 de traitement s\u00E9curis\u00E9 sur True)]"},
 
     // Following are the new options added in XSLTErrorResources.properties files after Jdk 1.4 (Xalan 2.2-D11)
-
 
   {  "optionMEDIA",  "   [-MEDIA mediaType (Utiliser l'attribut de support pour trouver la feuille de style associ\u00E9e \u00E0 un document)]"},
   {  "optionFLAVOR",  "   [-FLAVOR flavorName (Utiliser explicitement s2s=SAX ou d2d=DOM pour effectuer la transformation)] "}, // Added by sboag/scurcuru; experimental

@@ -21,22 +21,6 @@
 
 package java.base.share.classes.sun.text;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public final class UCompactIntArray implements Cloneable {
     /**
      * Default constructor for UCompactIntArray, the default value of the
@@ -69,7 +53,6 @@ public final class UCompactIntArray implements Cloneable {
                        + (index & BLOCKMASK)];
     }
 
-
     /**
      * Set a new value for a Unicode character.
      * Set automatically expands the array if it is compacted.
@@ -88,7 +71,6 @@ public final class UCompactIntArray implements Cloneable {
         values[plane][index] = value;
         blockTouched[plane][index >> BLOCKSHIFT] = true;
     }
-
 
     /**
      * Compact the array.
@@ -136,7 +118,6 @@ public final class UCompactIntArray implements Cloneable {
         }
         isCompact = true;
     }
-
 
     // --------------------------------------------------------------
     // private

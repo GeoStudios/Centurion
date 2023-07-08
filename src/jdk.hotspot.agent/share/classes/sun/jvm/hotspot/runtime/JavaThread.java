@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime;
 
-
 import java.io.*;
 import java.util.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
@@ -30,20 +29,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observable;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.Observer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** This is an abstract class because there are certain OS- and
     CPU-specific operations (like the setting and getting of the last
@@ -482,7 +467,6 @@ public class JavaThread extends Thread {
   public Address lastSPDbg() {
     return access.getLastSP(addr);
   }
-
 
   public void printThreadInfoOn(PrintStream out){
     Oop threadOop = this.getThreadObj();

@@ -21,21 +21,6 @@
 
 package java;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class InProhibitedPkg {
     static {
         if (true) {

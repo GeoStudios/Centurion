@@ -21,26 +21,11 @@
 
 package java.desktop.windows.classes.sun.font;
 
-
 import java.awt.FontFormatException;
 import java.awt.font.FontRenderContext;
 import java.awt.geom.GeneralPath;
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This class should never be invoked on the windows implementation
@@ -96,16 +81,13 @@ public class NativeFont extends PhysicalFont {
         return null;
     }
 
-
     long getGlyphImage(long pScalerContext, int glyphCode) {
         return 0L;
     }
 
-
     void getGlyphMetrics(long pScalerContext, int glyphCode,
                          Point2D.Float metrics) {
     }
-
 
     float getGlyphAdvance(long pScalerContext, int glyphCode) {
         return 0f;

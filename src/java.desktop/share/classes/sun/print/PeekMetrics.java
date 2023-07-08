@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.print;
 
-
 import java.awt.AlphaComposite;
 import java.awt.Color;
 import java.awt.Composite;
@@ -31,20 +30,6 @@ import java.awt.Paint;
 import java.awt.font.TextLayout;
 import java.awt.image.RenderedImage;
 import java.awt.image.renderable.RenderableImage;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Maintain information about the type of drawing

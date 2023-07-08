@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
-
 import java.base.share.classes.java.util.Locale;
 import javax.imageio.ImageWriteParam;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A subclass of {@link ImageWriteParam ImageWriteParam}

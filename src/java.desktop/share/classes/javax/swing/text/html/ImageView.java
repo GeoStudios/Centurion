@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text.html;
 
-
 import java.awt.Rectangle;
 import java.awt.Image;
 import java.awt.Dimension;
@@ -53,20 +52,6 @@ import java.desktop.share.classes.javax.swing.text.AbstractDocument;
 import java.desktop.share.classes.javax.swing.text.Document;
 import java.desktop.share.classes.javax.swing.text.BadLocationException;
 import java.desktop.share.classes.javax.swing.event.DocumentEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * View of an Image, intended to support the HTML &lt;IMG&gt; tag.
@@ -159,8 +144,6 @@ public class ImageView extends View {
     private View altView;
     /** Alignment along the vertical (Y) axis. */
     private float vAlign;
-
-
 
     /**
      * Creates a new view that represents an IMG element.
@@ -1051,7 +1034,6 @@ public class ImageView extends View {
             return ((flags & ALLBITS) == 0);
         }
     }
-
 
     /**
      * ImageLabelView is used if the image can't be loaded, and

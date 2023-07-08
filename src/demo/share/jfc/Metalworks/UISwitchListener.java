@@ -21,25 +21,10 @@
 
 package demo.share.jfc.Metalworks;
 
-
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangejava.util.Listener;
 import javax.swing.JComponent;
 import javax.swing.SwingUtilities;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -48,10 +33,6 @@ import javax.swing.SwingUtilities;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
 
 /**
  * This class listens for UISwitches, and updates a given component.

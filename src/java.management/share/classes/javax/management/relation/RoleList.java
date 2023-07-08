@@ -21,25 +21,10 @@
 
 package java.management.share.classes.javax.management.relation;
 
-
 import com.sun.jmx.mbeanserver.Util;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A RoleList represents a list of roles (Role objects). It is used as

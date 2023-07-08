@@ -21,26 +21,11 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink;
 
-
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandles.Lookup;
 import java.lang.invoke.MethodType;
 import java.base.share.classes.java.util.Objects;
 import java.util.function.Supplier;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -49,8 +34,6 @@ import java.util.function.Supplier;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-
-
 
 /**
  * Call site descriptors contain all the information necessary for linking a

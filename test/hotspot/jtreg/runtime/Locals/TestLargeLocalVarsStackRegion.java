@@ -21,21 +21,7 @@
 
 package runtime.Locals;
 
-
 import jdk.test.lib.Asserts;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -44,8 +30,6 @@ import jdk.test.lib.Asserts;
  * @compile TestLargeLocalVarsStackRegionHelper.jasm
  * @run main runtime.Locals.TestLargeLocalVarsStackRegion
  */
-
-
 
 public class TestLargeLocalVarsStackRegion {
 

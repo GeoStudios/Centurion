@@ -21,26 +21,11 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.AbstractMap.SimpleImmutableEntry;
 import java.util.Map;
 import javax.net.ssl.SSLException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 enum SSLHandshake implements SSLConsumer, HandshakeProducer {
     @SuppressWarnings({"unchecked", "rawtypes"})

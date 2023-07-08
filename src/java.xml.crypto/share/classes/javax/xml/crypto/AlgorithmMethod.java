@@ -21,28 +21,11 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto;
 
-
 import java.security.spec.AlgorithmParameterSpec;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * $Id: AlgorithmMethod.java,v 1.4 2005/05/10 15:47:41 mullan Exp $
  */
-
-
 
 /**
  * An abstract representation of an algorithm defined in the XML Security

@@ -21,7 +21,6 @@
 
 package vm.mlvm.share;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
@@ -32,19 +31,6 @@ import vm.mlvm.share.CustomClassLoaders;
 import vm.mlvm.share.Env;
 import vm.mlvm.share.MlvmTest;
 import vm.share.options.Option;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ClassfileGeneratorTest extends MlvmTest {
 

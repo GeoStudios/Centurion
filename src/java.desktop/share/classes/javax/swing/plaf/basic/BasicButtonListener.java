@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import sun.swing.DefaultLookup;
 import sun.swing.SwingUtilities2;
 import sun.swing.UIAction;
@@ -33,20 +32,6 @@ import java.desktop.share.classes.javax.swing.event.*;
 import java.desktop.share.classes.javax.swing.plaf.ActionMapUIResource;
 import java.desktop.share.classes.javax.swing.plaf.ButtonUI;
 import java.desktop.share.classes.javax.swing.plaf.ComponentInputMapUIResource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Button Listener
@@ -66,7 +51,6 @@ public class BasicButtonListener implements MouseListener, MouseMotionListener,
         map.put(new Actions(Actions.PRESS));
         map.put(new Actions(Actions.RELEASE));
     }
-
 
     /**
      * Constructs a new instance of {@code BasicButtonListener}.
@@ -236,7 +220,6 @@ public class BasicButtonListener implements MouseListener, MouseMotionListener,
     public void mouseMoved(MouseEvent e) {
     }
 
-
     public void mouseDragged(MouseEvent e) {
     }
 
@@ -308,7 +291,6 @@ public class BasicButtonListener implements MouseListener, MouseMotionListener,
         }
         model.setArmed(false);
     }
-
 
     /**
      * Actions for Buttons. Two types of action are supported:

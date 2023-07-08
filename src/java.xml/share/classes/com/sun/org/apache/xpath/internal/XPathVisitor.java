@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal;
 
-
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.axes.LocPathIterator;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.axes.UnionPathIterator;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.functions.Function;
@@ -34,26 +33,10 @@ import java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns.NodeTes
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns.StepPattern;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.patterns.UnionPattern;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * A derivation from this class can be passed to a class that implements
@@ -208,7 +191,6 @@ public class XPathVisitor
                 return true;
         }
 
-
         /**
          * Visit a number literal.
          * @param owner The owner of the expression, to which the expression can
@@ -220,6 +202,5 @@ public class XPathVisitor
         {
                 return true;
         }
-
 
 }

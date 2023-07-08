@@ -21,7 +21,6 @@
 
 package parsers;
 
-
 import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
 import static jaxp.library.JAXPTestUtilities.tryRunWithTmpPermission;.extended
 import java.io.File;
@@ -36,19 +35,6 @@ import org.testng.annotations.Test;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

@@ -21,7 +21,6 @@
 
 package test.java.lang.invoke;
 
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.lang.invoke.MethodHandle;
@@ -29,27 +28,10 @@ import java.lang.invoke.MethodHandles;
 import java.lang.invoke.WrongMethodTypeException;
 import static java.lang.invoke.MethodType.methodType;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* @test
  * @summary basic tests for MethodHandle.invokeWithArguments
  * @run testng test.java.lang.invoke.InvokeWithArgumentsTest
  */
-
-
-
-
 
 public class InvokeWithArgumentsTest {
     static final MethodHandles.Lookup L = MethodHandles.lookup();
@@ -129,7 +111,6 @@ public class InvokeWithArgumentsTest {
             Assert.fail("ClassCastException expected");
         } catch (ClassCastException e) {}
     }
-
 
     static void numberArray(Number... a) {
     }

@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.Augmentations;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.NamespaceContext;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
@@ -34,26 +33,10 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.XNIExceptio
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentFilter;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentSource;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Default implementation of {@link XMLDocumentFilter}
@@ -68,7 +51,6 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLD
 public class XMLDocumentFilterImpl implements XMLDocumentFilter {
     private XMLDocumentHandler next;
     private XMLDocumentSource source;
-
 
     public void setDocumentHandler(XMLDocumentHandler handler) {
         this.next = handler;
@@ -85,11 +67,6 @@ public class XMLDocumentFilterImpl implements XMLDocumentFilter {
     public XMLDocumentSource getDocumentSource() {
         return source;
     }
-
-
-
-
-
 
     public void characters(XMLString text, Augmentations augs) throws XNIException {
         next.characters(text, augs);

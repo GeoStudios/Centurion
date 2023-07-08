@@ -21,7 +21,6 @@
 
 package validation;
 
-
 import java.io.File;
 import java.io.StringReader;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -35,19 +34,6 @@ import org.testng.annotations.Test;
 import org.xml.sax.ErrorHandler;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

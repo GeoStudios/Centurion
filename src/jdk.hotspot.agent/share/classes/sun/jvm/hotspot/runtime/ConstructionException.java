@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class ConstructionException extends RuntimeException {
   public ConstructionException() {
     super();

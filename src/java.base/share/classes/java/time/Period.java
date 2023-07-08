@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time;
 
-
 import static java.base.share.classes.java.time.temporal.ChronoUnit.DAYS;.extended
 import static java.base.share.classes.java.time.temporal.ChronoUnit.MONTHS;.extended
 import static java.base.share.classes.java.time.temporal.ChronoUnit.YEARS;.extended
@@ -47,20 +46,6 @@ import java.base.share.classes.java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.util.regex.Matcher;
 import java.base.share.classes.java.util.regex.Pattern;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A date-based amount of time in the ISO-8601 calendar system,

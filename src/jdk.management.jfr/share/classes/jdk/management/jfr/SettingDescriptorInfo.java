@@ -21,26 +21,11 @@
 
 package jdk.management.jfr.share.classes.jdk.management.jfr;
 
-
 import java.util.concurrent.Callable;
 import javax.management.openmbean.CompositeData;
 import jdk.management.jfr.share.classes.jdk.jfr.EventType;
 import jdk.management.jfr.share.classes.jdk.jfr.SettingDescriptor;
 import jdk.management.jfr.share.classes.jdk.management.jfr.internal.FlightRecorderMXBeanProvider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Management class that describes a setting, for example name, description and

@@ -21,22 +21,7 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
-
 import java.base.share.classes.java.security.InvalidKeyException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is the internal Blowfish class responsible for encryption and

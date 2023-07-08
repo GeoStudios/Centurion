@@ -21,24 +21,10 @@
 
 package compiler.profiling;
 
-
 import jdk.test.lib.Platform;
 import sun.hotspot.WhiteBox;
 import compiler.whitebox.CompilerWhiteBoxTest;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * @test
@@ -65,8 +51,6 @@ import java.lang.reflect.Method;
   *                   -server -XX:-TieredCompilation -XX:TypeProfileLevel=200
   *                    compiler.profiling.TestTypeProfiling
   */
-
-
 
 public class TestTypeProfiling {
 

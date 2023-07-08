@@ -21,25 +21,11 @@
 
 package gc.gctests.OneeFinalizerTest;
 
-
 import nsk.share.TestFailure;
 import nsk.share.gc.GC;
 import nsk.share.gc.GCTestBase;
 import nsk.share.gc.gp.GarbageUtils;
 import nsk.share.test.Stresser;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -61,8 +47,6 @@ import nsk.share.test.Stresser;
  *      -Xlog:gc:gc.log
  *      gc.gctests.OneeFinalizerTest.OneeFinalizerTest
  */
-
-
 
 /**
  * Test that verifies that finalize() method is invoking only once.
@@ -163,7 +147,6 @@ public class OneeFinalizerTest extends GCTestBase {
      */
     @Override
     public void run() {
-
 
         int numberOfObjects = 2000;
 

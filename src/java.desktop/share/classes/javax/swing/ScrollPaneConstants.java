@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Constants used with the JScrollPane component.
  *

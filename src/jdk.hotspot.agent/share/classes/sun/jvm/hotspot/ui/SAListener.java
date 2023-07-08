@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
 
-
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.event.*;
@@ -39,20 +38,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.action.*;
 import com.sun.java.swing.ui.*;
 import com.sun.java.swing.action.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.tree.SimpleTreeNode;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public interface SAListener {
     void showThreadOopInspector(JavaThread thread);

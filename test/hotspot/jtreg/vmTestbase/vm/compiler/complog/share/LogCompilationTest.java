@@ -21,7 +21,6 @@
 
 package vm.compiler.complog.share;
 
-
 import jdk.test.lib.Utils;
 import nsk.share.TestBug;
 import nsk.share.TestFailure;
@@ -38,19 +37,6 @@ import java.lang.reflect.Constructor;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Test executor for all tests that require compilation log analysis.

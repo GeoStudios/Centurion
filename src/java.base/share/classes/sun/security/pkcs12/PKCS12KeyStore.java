@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.pkcs12;
 
-
 import java.io.*;
 import java.security.AccessController;
 import java.security.MessageDigest;
@@ -68,20 +67,6 @@ import java.base.share.classes.sun.security.x509.AlgorithmId;
 import java.base.share.classes.sun.security.pkcs.EncryptedPrivateKeyInfo;
 import java.base.share.classes.sun.security.provider.JavaKeyStore.JKS;
 import java.base.share.classes.sun.security.x509.AuthorityKeyIdentifierExtension;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class provides the keystore implementation referred to as "PKCS12".
@@ -787,7 +772,6 @@ public final class PKCS12KeyStore extends KeyStoreSpi {
         privateKeyCount++;
         entries.put(alias.toLowerCase(Locale.ENGLISH), entry);
     }
-
 
     /*
      * Generate random salt
@@ -1535,7 +1519,6 @@ public final class PKCS12KeyStore extends KeyStoreSpi {
         return mData;
     }
 
-
     /*
      * Validate Certificate Chain
      */
@@ -1902,7 +1885,6 @@ public final class PKCS12KeyStore extends KeyStoreSpi {
         return safeBagValue.toByteArray();
     }
 
-
     /*
      * Encrypt the contents using Password-based (PBE) encryption
      * as defined in PKCS #5.
@@ -1913,7 +1895,6 @@ public final class PKCS12KeyStore extends KeyStoreSpi {
         throws IOException {
 
         byte[] encryptedData = null;
-
 
         try {
             // create AlgorithmParameters

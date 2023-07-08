@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.org.w3c.dom;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * DOM operations only raise exceptions in "exceptional" circumstances, i.e.,
  * when an operation is impossible to perform (either for logical reasons,

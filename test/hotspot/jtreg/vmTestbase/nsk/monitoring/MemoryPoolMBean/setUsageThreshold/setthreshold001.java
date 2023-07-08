@@ -21,24 +21,10 @@
 
 package nsk.monitoring.MemoryPoolMBean.setUsageThreshold;
 
-
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
 import nsk.monitoring.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class setthreshold001 {
     private static MemoryMonitor monitor;

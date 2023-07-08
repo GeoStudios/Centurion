@@ -21,30 +21,12 @@
 
 package java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.keys.storage;
 
-
 import java.xml.crypto.share.classes.com.sun.org.apache.xml.internal.security.exceptions.XMLSecurityException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 public class StorageResolverException extends XMLSecurityException {
 

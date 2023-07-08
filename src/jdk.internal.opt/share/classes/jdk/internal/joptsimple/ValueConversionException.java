@@ -21,22 +21,6 @@
 
 package jdk.internal.opt.share.classes.jdk.internal.joptsimple;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Thrown by {@link ValueConverter}s when problems occur in converting string values to other Java types.
  *

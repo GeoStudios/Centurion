@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 6196102
@@ -43,7 +28,6 @@ package compiler.c2;
  *
  * @run main compiler.c2.Test6196102
  */
-
 
 public class Test6196102 {
     static public void main(String[] args) {

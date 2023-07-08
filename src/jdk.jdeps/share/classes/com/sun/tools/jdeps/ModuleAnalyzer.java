@@ -21,7 +21,6 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.jdeps;
 
-
 import static jdk.jdeps.share.classes.com.sun.tools.jdeps.JdepsFilter.DEFAULT_FILTER;.extended
 import static jdk.jdeps.share.classes.com.sun.tools.jdeps.Module.*;.extended
 import static java.lang.module.ModuleDescriptor.Requires.Modifier.*;.extended
@@ -39,20 +38,6 @@ import java.util.Set;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Analyze module dependences and compare with module descriptor.
@@ -108,7 +93,6 @@ public class ModuleAnalyzer {
         }
         return true;
     }
-
 
     class ModuleDeps {
         final Module root;
@@ -292,7 +276,6 @@ public class ModuleAnalyzer {
                 .sorted(Comparator.comparing(ModuleDescriptor.Requires::name))
                 .forEach(req -> out.format("    requires %s;%n", req));
         }
-
 
         /**
          * Detects any qualified exports not used by the target module.

@@ -21,7 +21,6 @@
 
 package jdk.internal.net.http.websocket;
 
-
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import java.io.java.io.java.io.java.io.IOException;
@@ -47,19 +46,6 @@ import static org.testng.Assert.assertEquals;.extended
 import static org.testng.Assert.assertFalse;.extended
 import static org.testng.Assert.assertThrows;.extended
 import static org.testng.Assert.assertTrue;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * A unit test for MessageQueue. The test is aware of the details of the queue

@@ -21,7 +21,6 @@
 
 package java.security.sasl.share.classes.com.sun.security.sasl;
 
-
 import javax.security.sasl.SaslException;
 import javax.security.sasl.Sasl;
 import java.base.share.classes.java.security.NoSuchAlgorithmException;
@@ -29,22 +28,7 @@ import java.security.MessageDigest;
 import java.base.share.classes.java.util.Arrays;
 import java.util.logging.Logger;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // For HMAC_MD5
-
 
 /**
  * Base class for implementing CRAM-MD5 client and server mechanisms.

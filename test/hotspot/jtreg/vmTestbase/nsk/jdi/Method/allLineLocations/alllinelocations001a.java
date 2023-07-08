@@ -21,23 +21,9 @@
 
 package nsk.jdi.Method.allLineLocations;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the alllinelocations001 JDI test.
@@ -83,7 +69,6 @@ public class alllinelocations001a {
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
 
-
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
 
@@ -123,7 +108,6 @@ public class alllinelocations001a {
         System.exit(exitCode + PASS_BASE);
     }
 }
-
 
 class TestClass1 {
     public native void test1();

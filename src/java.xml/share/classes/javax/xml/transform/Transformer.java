@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.javax.xml.transform;
 
-
 import java.util.Properties;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An instance of this abstract class can transform a

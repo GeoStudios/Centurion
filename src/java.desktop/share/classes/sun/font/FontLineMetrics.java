@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.sun.font;
 
-
 import java.awt.font.FontRenderContext;
 import java.awt.font.LineMetrics;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Metrics from a font for layout of characters along a line

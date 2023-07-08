@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * A class that implements this interface will call a XPathVisitor

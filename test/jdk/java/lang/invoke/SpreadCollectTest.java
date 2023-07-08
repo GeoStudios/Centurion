@@ -21,7 +21,6 @@
 
 package test.java.lang.invoke;
 
-
 import java.io.StringWriter;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
@@ -33,29 +32,11 @@ import static java.lang.invoke.MethodType.methodType;.extended
 import static org.testng.AssertJUnit.*;.extended
 import org.testng.annotations.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* @test
  * @bug 8139885
  * @bug 8143798
  * @run testng/othervm -ea -esa test.java.lang.invoke.SpreadCollectTest
  */
-
-
-
-
-
 
 /**
  * Tests for the new asSpreader/asCollector API added in JEP 274.

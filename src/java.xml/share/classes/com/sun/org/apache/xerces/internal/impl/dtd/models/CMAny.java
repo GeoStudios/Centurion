@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd.models;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Content model any node.
  *

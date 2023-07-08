@@ -21,22 +21,8 @@
 
 package jit.t.t024;
 
-
 import nsk.share.TestFailure;
 import nsk.share.GoldChecker;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -48,8 +34,6 @@ import nsk.share.GoldChecker;
  *          /test/lib
  * @run main/othervm jit.t.t024.t024
  */
-
-
 
 // opc_f2d, opc_f2i, opc_f2l
 

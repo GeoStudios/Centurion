@@ -21,22 +21,8 @@
 
 package jdk.test.failurehandler.value;
 
-
 import java.lang.reflect.Array;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ArrayParser implements ValueParser {
     private final ValueParser parser;

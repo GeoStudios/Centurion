@@ -21,23 +21,8 @@
 
 package jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor;
 
-
 import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.*;
 import java.nio.LongBuffer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class for monitoring a PerfData Long instrument.

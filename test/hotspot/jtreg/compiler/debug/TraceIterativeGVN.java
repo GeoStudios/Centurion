@@ -21,21 +21,6 @@
 
 package compiler.debug;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @requires vm.debug == true & vm.compiler2.enabled
@@ -43,7 +28,6 @@ package compiler.debug;
  *                   -XX:+IgnoreUnrecognizedVMOptions -XX:+TraceIterativeGVN
  *                   compiler.debug.TraceIterativeGVN
  */
-
 
 public class TraceIterativeGVN {
     public static void main(String[] args) {

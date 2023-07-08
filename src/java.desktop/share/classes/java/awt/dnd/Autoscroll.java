@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.java.awt.dnd;
 
-
 import java.desktop.share.classes.java.awt.Insets;
 import java.desktop.share.classes.java.awt.Point;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * During DnD operations it is possible that a user may wish to drop the

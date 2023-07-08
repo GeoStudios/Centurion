@@ -21,7 +21,6 @@
 
 package utils.IdealGraphVisualizer.Util.src.main.java.com.sun.hotspot.igv.util;
 
-
 import utils.IdealGraphVisualizer.Util.src.main.java.awt.Container;
 import utils.IdealGraphVisualizer.Util.src.main.java.awt.Dimension;
 import utils.IdealGraphVisualizer.Util.src.main.java.awt.Point;
@@ -34,20 +33,6 @@ import org.netbeans.api.visual.action.WidgetAction.WidgetMouseWheelEvent;
 import org.netbeans.api.visual.animator.SceneAnimator;
 import org.netbeans.api.visual.widget.Scene;
 import org.netbeans.api.visual.widget.Widget;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

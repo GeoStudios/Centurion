@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.nio.file;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Unchecked exception thrown when path string cannot be converted into a
  * {@link Path} because the path string contains invalid characters, or

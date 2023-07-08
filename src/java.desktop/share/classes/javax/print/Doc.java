@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.print;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.Reader;
 import java.desktop.share.classes.javax.print.attribute.DocAttributeSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Interface {@code Doc} specifies the interface for an object that supplies one

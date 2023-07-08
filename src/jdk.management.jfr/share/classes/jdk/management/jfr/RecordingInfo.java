@@ -21,7 +21,6 @@
 
 package jdk.management.jfr.share.classes.jdk.management.jfr;
 
-
 import java.time.Duration;
 import java.time.Instant;
 import java.util.LinkedHashMap;
@@ -32,20 +31,6 @@ import javax.management.openmbean.TabularData;
 import jdk.management.jfr.share.classes.jdk.jfr.Recording;
 import jdk.management.jfr.share.classes.jdk.jfr.RecordingState;
 import jdk.management.jfr.share.classes.jdk.jfr.internal.management.ManagementSupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Management representation of a {@code Recording}.

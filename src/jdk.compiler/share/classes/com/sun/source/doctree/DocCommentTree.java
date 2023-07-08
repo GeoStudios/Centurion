@@ -21,24 +21,9 @@
 
 package jdk.compiler.share.classes.com.sun.source.doctree;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The top-level representation of a documentation comment.

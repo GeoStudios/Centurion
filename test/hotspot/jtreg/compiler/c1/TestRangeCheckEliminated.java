@@ -21,22 +21,8 @@
 
 package compiler.c1;
 
-
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -51,8 +37,6 @@ import jdk.test.lib.process.ProcessTools;
  *
  * @run driver compiler.c1.TestRangeCheckEliminated
  */
-
-
 
 public class TestRangeCheckEliminated {
     static final String eliminated = "can be fully eliminated";

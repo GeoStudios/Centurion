@@ -21,24 +21,9 @@
 
 package jdk.internal.opt.share.classes.jdk.internal.joptsimple.internal;
 
-
 import java.text.MessageFormat;
 import java.base.share.classes.java.util.Locale;
 import java.util.ResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  */

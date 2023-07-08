@@ -21,7 +21,6 @@
 
 package jdk.test.lib.jittester.visitors;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Locale;
 import java.base.share.classes.java.util.Objects;
@@ -89,19 +88,6 @@ import jdk.test.lib.jittester.types.TypeArray;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.FixedTrees;
 import jdk.test.lib.jittester.utils.PrintingUtils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class JavaCodeVisitor implements Visitor<String> {
 

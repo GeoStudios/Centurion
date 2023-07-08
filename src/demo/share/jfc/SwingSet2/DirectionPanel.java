@@ -21,26 +21,11 @@
 
 package demo.share.jfc.SwingSet2;
 
-
 import javax.swing.*;
 import javax.swing.border.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  */
@@ -126,7 +111,6 @@ public class DirectionPanel extends JPanel {
         String path = "/resources/images/buttons/" + filename;
         return new ImageIcon(getClass().getResource(path), description);
     }
-
 
     public class DirectionButton extends JRadioButton {
 

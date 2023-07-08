@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.java.awt.event;
 
-
 import java.desktop.share.classes.java.awt.Component;
 import java.desktop.share.classes.java.io.Serial;
 import java.desktop.share.classes.java.lang.annotation.Native;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An event which indicates that the mouse wheel was rotated in a component.
@@ -257,7 +242,6 @@ public class MouseWheelEvent extends MouseEvent {
              scrollType, scrollAmount, wheelRotation, wheelRotation);
 
     }
-
 
     /**
      * Constructs a {@code MouseWheelEvent} object with the specified

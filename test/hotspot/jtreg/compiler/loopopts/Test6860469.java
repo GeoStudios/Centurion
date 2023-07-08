@@ -21,21 +21,6 @@
 
 package compiler.loopopts;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 6860469
@@ -45,7 +30,6 @@ package compiler.loopopts;
  *      -XX:CompileCommand=compileonly,compiler.loopopts.Test6860469::C
  *      compiler.loopopts.Test6860469
  */
-
 
 public class Test6860469 {
 

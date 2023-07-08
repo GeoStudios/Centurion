@@ -21,23 +21,9 @@
 
 package vm.mlvm.meth.share;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class SimpleOpMethodHandles {
 

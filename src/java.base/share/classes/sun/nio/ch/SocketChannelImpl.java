@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.nio.ch;
 
-
 import java.io.FileDescriptor;
 import java.io.java.io.java.io.java.io.IOException;
 import java.net.InetAddress;
@@ -59,20 +58,6 @@ import java.base.share.classes.sun.net.ConnectionResetException;
 import java.base.share.classes.sun.net.NetHooks;
 import java.base.share.classes.sun.net.ext.Extendedjava.net.SocketOptions;
 import java.base.share.classes.sun.net.util.java.net.SocketExceptions;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of SocketChannels

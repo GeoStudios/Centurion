@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import javax.sound.midi.Patch;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Soundfont instrument.
@@ -317,7 +302,6 @@ public final class SF2Instrument extends ModelInstrument {
                 }
                 performer.getOscillators().add(osc);
 
-
                 short volDelay = getGeneratorValue(generators,
                         SF2Region.GENERATOR_DELAYVOLENV);
                 short volAttack = getGeneratorValue(generators,
@@ -391,7 +375,6 @@ public final class SF2Instrument extends ModelInstrument {
                             SF2Region.GENERATOR_SUSTAINMODENV);
                     short modRelease = getGeneratorValue(generators,
                             SF2Region.GENERATOR_RELEASEMODENV);
-
 
                     if (modHold != -12000) {
                         short modKeyNumToHold = getGeneratorValue(generators,
@@ -482,7 +465,6 @@ public final class SF2Instrument extends ModelInstrument {
                         ModelDestination.DESTINATION_LFO2_DELAY, vib_delay);
                 addValue(performer,
                         ModelDestination.DESTINATION_LFO2_FREQ, vib_freq);
-
 
                 if (getGeneratorValue(generators,
                         SF2Region.GENERATOR_VIBLFOTOPITCH) != 0) {
@@ -633,7 +615,6 @@ public final class SF2Instrument extends ModelInstrument {
                         -2400,
                         new ModelDestination(
                             ModelDestination.DESTINATION_FILTER_FREQ)));
-
 
                 performer.getConnectionBlocks().add(
                     new ModelConnectionBlock(

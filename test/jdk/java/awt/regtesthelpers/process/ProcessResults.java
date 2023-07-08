@@ -21,21 +21,7 @@
 
 package test.java.awt.regtesthelpers.process;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The calss incapsulates process related information and methods to

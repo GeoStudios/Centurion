@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
 
-
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.security.AccessController;
@@ -34,20 +33,6 @@ import java.util.HashSet;
 import java.base.share.classes.java.util.Locale;
 import java.util.Map;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The secure validation policy as specified by the

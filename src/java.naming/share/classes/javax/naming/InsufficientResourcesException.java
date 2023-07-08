@@ -21,22 +21,6 @@
 
 package java.naming.share.classes.javax.naming;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
   * This exception is thrown when resources are not available to complete
   * the requested operation. This might due to a lack of resources on

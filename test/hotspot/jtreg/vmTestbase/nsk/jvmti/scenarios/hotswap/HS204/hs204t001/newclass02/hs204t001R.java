@@ -21,21 +21,7 @@
 
 package nsk.jvmti.scenarios.hotswap.HS204.hs204t001;
 
-
 import java.util.concurrent.atomic.AtomicBoolean;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class hs204t001R extends Thread{
       static public AtomicBoolean suspend = new AtomicBoolean(false);

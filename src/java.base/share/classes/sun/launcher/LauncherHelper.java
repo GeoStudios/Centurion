@@ -69,20 +69,6 @@ import jdk.internal.module.Modules;
 import jdk.internal.platform.Container;
 import jdk.internal.platform.Metrics;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  *
  *  <p><b>This is NOT part of any API supported by Sun Microsystems.
@@ -97,8 +83,6 @@ import jdk.internal.platform.Metrics;
  * The following are helper methods that the native launcher uses
  * to perform checks etc. using JNI, see src/share/bin/java.c
  */
-
-
 
 public final class LauncherHelper {
 

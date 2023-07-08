@@ -21,22 +21,6 @@
 
 package java.rmi.share.classes.java.rmi.server;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A {@code ServerCloneException} is thrown if a remote exception occurs
  * during the cloning of a {@code UnicastRemoteObject}.

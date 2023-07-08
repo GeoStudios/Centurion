@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import java.io.EOFException;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A jitter corrector to be used with SoftAudioPusher.
@@ -131,7 +116,6 @@ public final class SoftJitterCorrector extends AudioInputStream {
                     = new byte[(buffersize/smallbuffersize)+10][smallbuffersize];
             this.bbuffer_max = MAX_BUFFER_SIZE / smallbuffersize;
             this.stream = s;
-
 
             Runnable runnable = new Runnable() {
 

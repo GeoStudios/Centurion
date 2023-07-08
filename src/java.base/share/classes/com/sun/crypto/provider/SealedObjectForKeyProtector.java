@@ -21,25 +21,10 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
-
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import java.io.*;
 import java.base.share.classes.java.security.*;
 import java.base.share.classes.javax.crypto.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class SealedObjectForKeyProtector extends SealedObject {
 

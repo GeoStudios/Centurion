@@ -21,26 +21,12 @@
 
 package nsk.jdi.ThreadReference.forceEarlyReturn.forceEarlyReturn003;
 
-
 import java.io.PrintStream;
 import com.sun.jdi.IncompatibleThreadStateException;
 import com.sun.jdi.ThreadReference;
 import nsk.share.Consts;
 import nsk.share.jdi.*;
 import nsk.share.jpda.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -75,8 +61,6 @@ import nsk.share.jpda.*;
  *      -transport.address=dynamic
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
-
-
 
 public class forceEarlyReturn003 extends ForceEarlyReturnDebugger {
     public static void main(String argv[]) {

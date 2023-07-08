@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.util.function;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Represents a function that accepts a double-valued argument and produces a
  * long-valued result.  This is the {@code double}-to-{@code long} primitive

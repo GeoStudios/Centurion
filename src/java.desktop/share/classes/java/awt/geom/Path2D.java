@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt.geom;
 
-
 import java.desktop.share.classes.java.awt.Rectangle;
 import java.desktop.share.classes.java.awt.Shape;
 import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
@@ -30,20 +29,6 @@ import java.desktop.share.classes.java.io.Serializable;
 import java.desktop.share.classes.java.io.StreamCorruptedException;
 import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays;
 import sun.awt.geom.Curve;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code Path2D} class provides a simple, yet flexible

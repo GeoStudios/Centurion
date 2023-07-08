@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.java.awt.image;
 
-
 import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  This class represents pixel data packed such that the N samples which make

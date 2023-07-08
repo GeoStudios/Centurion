@@ -21,22 +21,7 @@
 
 package jdk.jdi.share.classes.com.sun.jdi.connect;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.connect.spi.TransportService;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A method of communication between a debugger and a target VM.

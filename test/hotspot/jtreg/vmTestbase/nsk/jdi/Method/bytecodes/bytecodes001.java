@@ -21,26 +21,12 @@
 
 package nsk.jdi.Method.bytecodes;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -176,7 +162,6 @@ public class bytecodes001 {
             Method m        = null;
 
             List   argTypeNames = null;
-
 
             methods = ((ReferenceType) listOfDebuggeeClasses.get(0)).
                            methodsByName("primitiveargsmethod");

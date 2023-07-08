@@ -21,7 +21,6 @@
 
 package java.desktop.unix.classes.sun.awt;
 
-
 import java.awt.GraphicsEnvironment;
 import java.io.BufferedReader;
 import java.io.File;
@@ -45,20 +44,6 @@ import java.desktop.unix.classes.sun.font.FontAccess;
 import java.desktop.unix.classes.sun.font.FontUtilities;
 import java.desktop.unix.classes.sun.font.NativeFont;
 import java.desktop.unix.classes.sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The X11 implementation of {@link FontManager}.

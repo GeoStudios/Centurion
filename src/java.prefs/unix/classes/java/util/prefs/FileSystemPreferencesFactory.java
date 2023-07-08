@@ -21,22 +21,6 @@
 
 package java.prefs.unix.classes.java.util.prefs;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Factory for FileSystemPreferences.  This class allows FileSystemPreferences
  * to be installed as the Preferences implementations via the

@@ -21,22 +21,8 @@
 
 package ir_framework.examples;
 
-
 import compiler.lib.ir_framework.*;
 import compiler.lib.ir_framework.driver.IRViolationException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -160,7 +146,6 @@ class FailingExamples {
     public void badFailOn() {
         irExample.iFld = iFld2; // Store to iFld in class IRExample, load from iFld2
     }
-
 
     // Rules with counts constraint which all fail
     @Test

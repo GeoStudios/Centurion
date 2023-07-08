@@ -21,23 +21,9 @@
 
 package gc.g1.humongousObjects;
 
-
 import gc.testlibrary.Helpers;
 import jdk.test.lib.Asserts;
 import sun.hotspot.WhiteBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test TestHumongousThreshold

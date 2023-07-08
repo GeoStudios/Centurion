@@ -21,7 +21,6 @@
 
 package nsk.jdi.Mirror.hashCode;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -31,19 +30,6 @@ import com.sun.jdi.event.*;
 import com.sun.jdi.connect.*;
 import java.io.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The debugger application of the test.

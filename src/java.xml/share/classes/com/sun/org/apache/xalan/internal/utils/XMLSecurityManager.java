@@ -21,27 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.utils;
 
-
 import java.util.concurrent.CopyOnWriteArrayjava.util.java.util.java.util.List;
 import jdk.xml.internal.JdkConstants;
 import jdk.xml.internal.JdkProperty.ImplPropMap;
 import jdk.xml.internal.JdkProperty.State;
 import jdk.xml.internal.SecuritySupport;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is not the same as that in Xerces. It is used to manage the
@@ -183,7 +168,6 @@ public final class XMLSecurityManager {
      */
     private final boolean[] isSet;
 
-
     /**
      * Index of the special entityCountInfo property
      */
@@ -310,7 +294,6 @@ public final class XMLSecurityManager {
             }
         }
     }
-
 
     /**
      * Return the value of the specified property.

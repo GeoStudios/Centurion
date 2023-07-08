@@ -21,25 +21,10 @@
 
 package java.base.share.classes.java.util;
 
-
 import java.base.share.classes.java.util.function.Consumer;
 import java.base.share.classes.java.util.function.Predicate;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.util.java.util.ArraysSupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An unbounded priority {@linkplain Queue queue} based on a priority heap.

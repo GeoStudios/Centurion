@@ -21,7 +21,6 @@
 
 package jdk.vm.ci.runtime.test;
 
-
 import jdk.vm.ci.meta.ConstantReflectionProvider;
 import jdk.vm.ci.meta.JavaConstant;
 import jdk.vm.ci.meta.JavaKind;
@@ -34,19 +33,6 @@ import static org.junit.Assert.assertNotNull;.extended
 import static org.junit.Assert.assertNull;.extended
 import static org.junit.Assert.assertTrue;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @requires vm.jvmci
@@ -56,10 +42,6 @@ import static org.junit.Assert.assertTrue;.extended
  *          java.base/jdk.internal.misc
  * @run junit/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler jdk.vm.ci.runtime.test.TestConstantReflectionProvider
  */
-
-
-
-
 
 /**
  * Tests for {@link ConstantReflectionProvider}. It assumes an implementation of the interface that

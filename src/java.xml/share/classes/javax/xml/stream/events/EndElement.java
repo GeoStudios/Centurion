@@ -21,23 +21,8 @@
 
 package java.xml.share.classes.javax.xml.stream.events;
 
-
 import java.util.Iterator;
 import java.xml.share.classes.javax.xml.namespace.QName;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An interface for the end element event.  An EndElement is reported

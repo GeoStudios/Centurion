@@ -21,22 +21,7 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal.ktab;
 
-
 import java.security.jgss.share.classes.sun.security.krb5.internal.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents a Key Table entry. Each entry contains the service principal of

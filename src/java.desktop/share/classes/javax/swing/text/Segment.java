@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.text.CharacterIterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A segment of a character array representing a fragment
@@ -313,6 +298,5 @@ public class Segment implements Cloneable, CharacterIterator, CharSequence {
     }
 
     private int pos;
-
 
 }

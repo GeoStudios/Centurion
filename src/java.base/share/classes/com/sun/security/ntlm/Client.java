@@ -21,25 +21,10 @@
 
 package java.base.share.classes.com.sun.security.ntlm;
 
-
 import java.math.BigInteger;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Date;
 import java.base.share.classes.java.util.Locale;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The NTLM client. Not multi-thread enabled.<p>

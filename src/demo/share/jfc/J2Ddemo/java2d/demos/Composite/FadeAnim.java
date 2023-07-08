@@ -21,7 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Composite;
 
-
 import static java.awt.Color.BLACK;.extended
 import static java.awt.Color.BLUE;.extended
 import static java.awt.Color.CYAN;.extended
@@ -69,20 +68,6 @@ import javax.swing.border.EtchedBorder;
 import javax.swing.border.TitledBorder;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.Changejava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Animation of compositing shapes, text and images fading in and out.
@@ -283,7 +268,6 @@ public final class FadeAnim extends AnimatingControlsSurface {
         createDemoFrame(new FadeAnim());
     }
 
-
     static class TextData {
 
         public String string;
@@ -298,7 +282,6 @@ public final class FadeAnim extends AnimatingControlsSurface {
             height = fm.getHeight();
         }
     }
-
 
     static class ObjectData {
 
@@ -390,7 +373,6 @@ public final class FadeAnim extends AnimatingControlsSurface {
             }
         }
     }
-
 
     static class DemoControls extends CustomControls implements ChangeListener {
 

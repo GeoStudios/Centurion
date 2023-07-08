@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.logger;
 
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.function.BiFunction;
@@ -31,20 +30,6 @@ import java.lang.ref.WeakReference;
 import java.base.share.classes.java.util.Objects;
 import java.base.share.classes.jdk.internal.misc.VM;
 import sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is a factory for Lazy Loggers; only system loggers can be
@@ -71,7 +56,6 @@ public final class LazyLoggers {
          * Usually, this will be something like LazyLoggers::getSystemLogger.
          */
         final BiFunction<String, Module, L> loggerSupplier;
-
 
         public LazyLoggerFactories(BiFunction<String, Module, L> loggerSupplier) {
             this(Objects.requireNonNull(loggerSupplier),
@@ -128,7 +112,6 @@ public final class LazyLoggers {
         private volatile Logger w;
         // A PlatformLogger.Bridge view of w.
         private volatile PlatformLogger.Bridge p;
-
 
         private LazyLoggerAccessor(String name,
                                    LazyLoggerFactories<? extends Logger> factories,
@@ -368,8 +351,6 @@ public final class LazyLoggers {
 
     private static final LazyLoggerFactories<Logger> factories =
            new LazyLoggerFactories<>(loggerSupplier);
-
-
 
     // A concrete implementation of Logger that delegates to a  System.Logger,
     // but only creates the System.Logger instance lazily when it's used for

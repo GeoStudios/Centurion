@@ -21,22 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal.jfc.model;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Corresponds to <and>
 final class XmlAnd extends XmlExpression {
 

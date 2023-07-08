@@ -21,21 +21,6 @@
 
 package pkg;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @bug 4348213
  * @summary Verify that deserialization allows an incoming class descriptor
@@ -43,7 +28,6 @@ package pkg;
  *          local class with the same name in a non-default package, and
  *          vice-versa.
  */
-
 
 public class A implements java.io.Serializable {
     private static final long serialVersionUID = 0L;

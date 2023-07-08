@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serial;
 import java.io.Serializable;
 import java.util.HashMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * {@code InputMap} provides a binding between an input event (currently only
@@ -65,7 +50,6 @@ public class InputMap implements Serializable {
     private transient ArrayTable     arrayTable;
     /** Parent that handles any bindings we don't contain. */
     private InputMap                                parent;
-
 
     /**
      * Creates an {@code InputMap} with no parent and no mappings.

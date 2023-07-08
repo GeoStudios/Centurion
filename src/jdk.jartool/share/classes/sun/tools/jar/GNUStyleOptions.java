@@ -21,7 +21,6 @@
 
 package jdk.jartool.share.classes.sun.tools.jar;
 
-
 import java.io.File;
 import java.io.PrintWriter;
 import java.lang.module.ModuleDescriptor.Version;
@@ -31,20 +30,6 @@ import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;
 import jdk.internal.module.ModulePath;
 import jdk.internal.module.ModuleResolution;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Parser for GNU Style Options.

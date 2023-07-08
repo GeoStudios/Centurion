@@ -21,21 +21,7 @@
 
 package nsk.jdi.ThreadReference.forceEarlyReturn.forceEarlyReturn014;
 
-
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //    THIS TEST IS LINE NUMBER SENSITIVE
 public class forceEarlyReturn014a extends AbstractJDIDebuggee {

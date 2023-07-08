@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -73,20 +72,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.Utils
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberCache;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclint.DocLint;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Configure the output based on the options. Doclets should sub-class
@@ -707,7 +692,6 @@ public abstract class BaseConfiguration {
                 || javafxModule.isUnnamed()
                 || javafxModule.getQualifiedName().contentEquals("javafx.base");
     }
-
 
     //<editor-fold desc="DocLint support">
 

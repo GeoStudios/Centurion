@@ -21,23 +21,8 @@
 
 package java.base.share.classes.jdk.internal.logger;
 
-
 import java.util.function.Function;
 import sun.util.logging.PlatformLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A simple console logger used to emulate the behavior of JUL loggers when

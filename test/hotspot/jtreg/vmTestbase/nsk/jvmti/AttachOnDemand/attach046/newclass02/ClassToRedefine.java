@@ -21,21 +21,6 @@
 
 package nsk.jvmti.AttachOnDemand.attach046;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class ClassToRedefine {
 
     private String version;

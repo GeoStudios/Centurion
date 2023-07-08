@@ -21,26 +21,12 @@
 
 package nsk.jdi.ThreadReference.status.status003;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.ThreadReference;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -92,9 +78,6 @@ import java.io.*;
  *      -transport.address=dynamic
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
-
-
-
 
 //import com.sun.jdi.request.*;
 //import com.sun.jdi.event.*;

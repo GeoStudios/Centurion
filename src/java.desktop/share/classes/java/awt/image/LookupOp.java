@@ -21,28 +21,12 @@
 
 package java.desktop.share.classes.java.awt.image;
 
-
 import java.desktop.share.classes.java.awt.color.ColorSpace;
 import java.desktop.share.classes.java.awt.geom.Rectangle2D;
 import java.desktop.share.classes.java.awt.Rectangle;
 import java.desktop.share.classes.java.awt.RenderingHints;
 import java.desktop.share.classes.java.awt.geom.Point2D;
 import sun.awt.image.ImagingLib;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements a lookup operation from the source
@@ -153,7 +137,6 @@ public class LookupOp implements BufferedImageOp, RasterOp {
                                                " is not compatible with the "+
                                                " src image: "+src);
         }
-
 
         boolean needToConvert = false;
 
@@ -295,7 +278,6 @@ public class LookupOp implements BufferedImageOp, RasterOp {
                                                " is not compatible with the "+
                                                " src Raster: "+src);
         }
-
 
         if (ImagingLib.filter(this, src, dst) != null) {
             return dst;

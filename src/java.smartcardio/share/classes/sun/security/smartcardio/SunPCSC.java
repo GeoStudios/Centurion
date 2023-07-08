@@ -21,24 +21,9 @@
 
 package java.smartcardio.share.classes.sun.security.smartcardio;
 
-
 import java.base.share.classes.java.security.*;
 import javax.smartcardio.*;
 import static java.smartcardio.share.classes.sun.security.util.SecurityConstants.PROVIDER_VER;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provider object for PC/SC.

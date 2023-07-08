@@ -21,24 +21,10 @@
 
 package metaspace.gc;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import static metaspace.gc.MetaspaceBaseGC.PAGE_SIZE;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Test for metaspace GC
@@ -93,7 +79,6 @@ public class FirstGCTest extends MetaspaceBaseGC {
 
     // value given in -XX:metaspaceSize=<value>
     private long metaspaceSize = -1;
-
 
     @Override
     protected void parseArgs(String[] args) {

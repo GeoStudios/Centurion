@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.nio.cs;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
@@ -37,25 +36,8 @@ import java.nio.charset.CodingErrorAction;
 import java.nio.charset.IllegalCharsetNameException;
 import java.nio.charset.UnsupportedCharsetException;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  */
-
-
-
 
 public class StreamDecoder extends Reader {
 
@@ -75,7 +57,6 @@ public class StreamDecoder extends Reader {
     //
     private boolean haveLeftoverChar = false;
     private char leftoverChar;
-
 
     // Factories for java.io.InputStreamReader
 
@@ -109,7 +90,6 @@ public class StreamDecoder extends Reader {
         return new StreamDecoder(in, lock, dec);
     }
 
-
     // Factory for java.nio.channels.Channels.newReader
 
     public static StreamDecoder forDecoder(ReadableByteChannel ch,
@@ -118,7 +98,6 @@ public class StreamDecoder extends Reader {
     {
         return new StreamDecoder(ch, dec, minBufferCap);
     }
-
 
     // -- Public methods corresponding to those in InputStreamReader --
 
@@ -225,7 +204,6 @@ public class StreamDecoder extends Reader {
     private boolean isOpen() {
         return !closed;
     }
-
 
     // -- Charset-based stream decoder impl --
 

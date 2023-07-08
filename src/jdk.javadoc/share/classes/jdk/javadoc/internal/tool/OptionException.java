@@ -21,22 +21,7 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.tool;
 
-
 import jdk.javadoc.share.classes.jdk.javadoc.internal.tool.Main.Result;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides a general mechanism for the javadoc tool to indicate an option

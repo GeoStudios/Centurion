@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.CoreDOMImplementationImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.Stringjava.util.ListImpl;
@@ -31,27 +30,10 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSImplementa
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.XSLoader;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMImplementation;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * Implements XSImplementation interface that allows one to retrieve an instance of <code>XSLoader</code>.
@@ -106,8 +88,6 @@ public class XSImplementationImpl extends CoreDOMImplementationImpl
         return (feature.equalsIgnoreCase("XS-Loader") && (version == null || version.equals("1.0")) ||
                 super.hasFeature(feature, version));
     } // hasFeature(String,String):boolean
-
-
 
     /* (non-Javadoc)
      * @see com.sun.org.apache.xerces.internal.xs.XSImplementation#createXSLoader(com.sun.org.apache.xerces.internal.xs.StringList)

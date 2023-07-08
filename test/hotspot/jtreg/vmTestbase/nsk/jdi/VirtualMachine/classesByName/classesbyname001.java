@@ -21,26 +21,12 @@
 
 package nsk.jdi.VirtualMachine.classesByName;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -192,7 +178,6 @@ public class classesbyname001 {
                         expN = 0;       // O#=0; I#=0;
                         break;
 
-
                 // Returns the loaded reference types that match a given name
 
                 case 2:
@@ -221,14 +206,12 @@ public class classesbyname001 {
                         expN = 1;       // O#=1; I#=1;
                         break;
 
-
                 // not a fully qualified name
 
                 case 7:
                         listVMClasses = vm.classesByName("Class2ForCheck");
                         expN = 0;       // O#=2; I#=3?;
                         break;
-
 
                 default:
                         break ;
@@ -247,8 +230,6 @@ public class classesbyname001 {
         log1("TESTING ENDS");
 
     //--------------------------------------------------   test summary section
-
-
 
     //-------------------------------------------------    standard end section
 

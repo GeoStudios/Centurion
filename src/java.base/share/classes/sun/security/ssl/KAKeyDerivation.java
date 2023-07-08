@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import javax.crypto.KeyAgreement;
 import java.base.share.classes.javax.crypto.SecretKey;
 import java.base.share.classes.javax.crypto.spec.SecretKeySpec;
@@ -31,20 +30,6 @@ import java.security.GeneralSecurityException;
 import java.base.share.classes.java.security.PrivateKey;
 import java.base.share.classes.java.security.PublicKey;
 import java.security.spec.AlgorithmParameterSpec;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A common class for creating various KeyDerivation types.

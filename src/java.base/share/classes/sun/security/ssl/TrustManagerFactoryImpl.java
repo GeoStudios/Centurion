@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.*;
 import java.base.share.classes.java.security.*;
 import java.security.cert.*;
@@ -29,20 +28,6 @@ import java.util.*;
 import javax.net.ssl.*;
 import java.base.share.classes.sun.security.validator.TrustStoreUtil;
 import java.base.share.classes.sun.security.validator.Validator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 abstract class TrustManagerFactoryImpl extends TrustManagerFactorySpi {
 

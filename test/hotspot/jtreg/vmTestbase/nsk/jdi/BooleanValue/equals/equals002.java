@@ -21,7 +21,6 @@
 
 package nsk.jdi.BooleanValue.equals;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import com.sun.jdi.connect.*;
 import java.io.*;
 import java.util.*;
 import java.util.jar.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  The test check up case when parameter has boundary values of primitive <br>

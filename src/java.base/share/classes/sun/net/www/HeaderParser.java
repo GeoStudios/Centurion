@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.net.www;
 
-
 import java.util.Iterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* This is useful for the nightmare of parsing multi-part HTTP/RFC822 headers
  * sensibly:
@@ -54,7 +39,6 @@ import java.util.Iterator;
  * keys are converted to lower case, vals are left as is....
  *
  */
-
 
 public class HeaderParser {
 

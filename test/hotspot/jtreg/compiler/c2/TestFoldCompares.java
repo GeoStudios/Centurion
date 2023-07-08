@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8250609
@@ -44,7 +29,6 @@ package compiler.c2;
  * @run main/othervm -XX:CompileOnly=compiler.c2.TestFoldCompares::test
  *                   -XX:-BackgroundCompilation compiler.c2.TestFoldCompares
  */
-
 
 public class TestFoldCompares {
 

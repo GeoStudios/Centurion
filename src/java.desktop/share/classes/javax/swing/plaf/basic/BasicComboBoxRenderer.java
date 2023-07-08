@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.event.*;
 import java.desktop.share.classes.javax.swing.border.*;
 import java.awt.*;
 import java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * ComboBox renderer
@@ -135,7 +120,6 @@ implements ListCellRenderer<Object>, Serializable {
         }
         return this;
     }
-
 
     /**
      * A subclass of BasicComboBoxRenderer that implements UIResource.

@@ -21,26 +21,11 @@
 
 package java.base.share.classes.java.time.chrono;
 
-
 import static java.base.share.classes.java.time.temporal.ChronoField.ERA;.extended
 import java.base.share.classes.java.time.DateTimeException;
 import java.base.share.classes.java.time.format.DateTimeFormatterBuilder;
 import java.base.share.classes.java.time.format.TextStyle;
 import java.base.share.classes.java.util.Locale;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An era in the Thai Buddhist calendar system.

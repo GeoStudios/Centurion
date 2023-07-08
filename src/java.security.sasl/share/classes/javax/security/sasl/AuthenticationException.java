@@ -21,22 +21,6 @@
 
 package java.security.sasl.share.classes.javax.security.sasl;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This exception is thrown by a SASL mechanism implementation
  * to indicate that the SASL

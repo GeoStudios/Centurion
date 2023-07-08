@@ -21,23 +21,9 @@
 
 package nsk.jdi.TypeComponent.isPrivate;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class isprivate002a {
 

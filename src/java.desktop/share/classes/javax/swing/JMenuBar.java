@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.Component;
 import java.awt.Graphics;
 import java.awt.Insets;
@@ -44,20 +43,6 @@ import java.desktop.share.classes.javax.accessibility.AccessibleSelection;
 import java.desktop.share.classes.javax.accessibility.AccessibleStateSet;
 import java.desktop.share.classes.javax.swing.plaf.MenuBarUI;
 import sun.awt.SunToolkit;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of a menu bar. You add <code>JMenu</code> objects to the
@@ -165,7 +150,6 @@ public class JMenuBar extends JComponent implements Accessible,MenuElement
         setUI((MenuBarUI)UIManager.getUI(this));
     }
 
-
     /**
      * Returns the name of the L&amp;F class that renders this component.
      *
@@ -177,7 +161,6 @@ public class JMenuBar extends JComponent implements Accessible,MenuElement
     public String getUIClassID() {
         return uiClassID;
     }
-
 
     /**
      * Returns the model object that handles single selections.
@@ -201,7 +184,6 @@ public class JMenuBar extends JComponent implements Accessible,MenuElement
         this.selectionModel = model;
         firePropertyChange("selectionModel", oldValue, selectionModel);
     }
-
 
     /**
      * Appends the specified menu to the end of the menu bar.
@@ -396,7 +378,6 @@ public class JMenuBar extends JComponent implements Accessible,MenuElement
         }
     }
 
-
     /**
      * Implemented to be a <code>MenuElement</code> -- does nothing.
      *
@@ -458,7 +439,6 @@ public class JMenuBar extends JComponent implements Accessible,MenuElement
     public Component getComponent() {
         return this;
     }
-
 
     /**
      * Returns a string representation of this <code>JMenuBar</code>.
@@ -678,7 +658,6 @@ public class JMenuBar extends JComponent implements Accessible,MenuElement
         }
     } // internal class AccessibleJMenuBar
 
-
     /**
      * Subclassed to check all the child menus.
      */
@@ -744,7 +723,6 @@ public class JMenuBar extends JComponent implements Accessible,MenuElement
         KeyboardManager.getCurrentManager().unregisterMenuBar(this);
     }
 
-
     @Serial
     private void writeObject(ObjectOutputStream s) throws IOException {
         s.defaultWriteObject();
@@ -766,7 +744,6 @@ public class JMenuBar extends JComponent implements Accessible,MenuElement
 
         s.writeObject(kvData);
     }
-
 
     /**
      * See JComponent.readObject() for information about serialization

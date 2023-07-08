@@ -21,7 +21,6 @@
 
 package jdk.internal.net.http;
 
-
 import java.net.*;
 import java.io.*;
 import java.nio.channels.*;
@@ -36,19 +35,6 @@ import static java.lang.System.out;.extended
 import static java.nio.charset.StandardCharsets.US_ASCII;.extended
 import static java.util.concurrent.TimeUnit.SECONDS;.extended
 import static java.net.http.HttpResponse.BodyHandlers.discarding;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Whitebox test of selector mechanics. Currently only a simple test

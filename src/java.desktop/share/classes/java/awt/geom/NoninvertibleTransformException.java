@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.java.awt.geom;
 
-
 import java.desktop.share.classes.java.io.Serial;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code NoninvertibleTransformException} class represents

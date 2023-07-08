@@ -21,7 +21,6 @@
 
 package jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.impl.jna;
 
-
 import jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.Attributes;
 import jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.Size;
 import jdk.internal.le.windows.classes.jdk.internal.org.jline.terminal.Terminal;
@@ -32,20 +31,6 @@ import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.Charset;
 import java.util.function.Function;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class JnaSupportImpl implements JnaSupport {
     @Override

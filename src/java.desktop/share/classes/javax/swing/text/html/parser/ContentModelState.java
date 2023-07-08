@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.text.html.parser;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A content model state. This is basically a list of pointers to
  * the BNF expression representing the model (the ContentModel).

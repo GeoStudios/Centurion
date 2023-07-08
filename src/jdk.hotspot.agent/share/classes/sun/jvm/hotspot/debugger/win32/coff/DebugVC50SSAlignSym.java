@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Models the "sstAlignSym" subsection in Visual C++ 5.0 debug
     information. This subsection apparently contains non-global
     symbols left over from packing into the sstGlobalSym

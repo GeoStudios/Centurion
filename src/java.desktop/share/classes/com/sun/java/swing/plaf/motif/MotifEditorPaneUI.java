@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-
 import javax.swing.JComponent;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicEditorPaneUI;
 import javax.swing.text.Caret;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides the look and feel for an pluggable content-type text editor.

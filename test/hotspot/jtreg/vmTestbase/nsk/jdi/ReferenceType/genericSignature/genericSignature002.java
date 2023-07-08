@@ -21,26 +21,12 @@
 
 package nsk.jdi.ReferenceType.genericSignature;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the ReferenceType.genericSignature() method.           <BR>
@@ -91,7 +77,6 @@ public class genericSignature002 {
         logHandler.println(message);
     }
 
-
     /**
      * Debugee's classes for check:
      * classesForCheck[i][0] - basic interface name (without arrays' brackets)
@@ -115,7 +100,6 @@ public class genericSignature002 {
             "Ljava/lang/Object;Lnsk/jdi/ReferenceType/genericSignature/GS002_Interf03<Lnsk/jdi/ReferenceType/genericSignature/GS002_Class00;>;"}
 
     };
-
 
     /**
      * Re-call to <code>run(args,out)</code>, and exit with

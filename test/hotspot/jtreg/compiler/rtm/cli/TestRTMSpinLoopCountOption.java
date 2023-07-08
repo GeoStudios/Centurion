@@ -21,21 +21,6 @@
 
 package compiler.rtm.cli;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8031320
@@ -47,7 +32,6 @@ package compiler.rtm.cli;
  * @requires vm.rtm.compiler
  * @run driver compiler.rtm.cli.TestRTMSpinLoopCountOption
  */
-
 
 public class TestRTMSpinLoopCountOption
         extends RTMGenericCommandLineOptionTest {

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.provider;
 
-
 import java.io.*;
 import java.lang.reflect.*;
 import java.net.MalformedURLException;
@@ -46,20 +45,6 @@ import java.base.share.classes.sun.security.util.*;
 import java.base.share.classes.sun.net.www.ParseUtil;
 import static java.nio.charset.StandardCharsets.UTF_8;.extended
 import static jdk.internal.access.JavaSecurityAccess.ProtectionDomainCache;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents a default Policy implementation for the

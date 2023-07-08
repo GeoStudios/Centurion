@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.image.ColorModel;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code Composite} interface, along with

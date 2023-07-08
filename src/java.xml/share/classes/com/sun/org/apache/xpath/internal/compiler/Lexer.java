@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.compiler;
 
-
 import java.xml.share.classes.com.sun.org.apache.xml.internal.utils.PrefixResolver;
 import java.xml.share.classes.com.sun.org.apache.xpath.internal.res.XPATHErrorResources;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is in charge of lexical processing of the XPath

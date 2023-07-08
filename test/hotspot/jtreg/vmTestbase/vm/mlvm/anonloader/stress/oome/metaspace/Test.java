@@ -21,7 +21,6 @@
 
 package vm.mlvm.anonloader.stress.oome.metaspace;
 
-
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandles.Lookup;
 import java.util.java.util.java.util.java.util.List;
@@ -31,19 +30,6 @@ import vm.mlvm.share.MlvmOOMTest;
 import vm.mlvm.share.MlvmTestExecutor;
 import vm.mlvm.share.Env;
 import vm.share.FileUtils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -62,9 +48,6 @@ import vm.share.FileUtils;
  * @run main/othervm -XX:MaxRAMPercentage=25 -XX:-UseGCOverheadLimit -XX:MetaspaceSize=10m
  *                   -XX:MaxMetaspaceSize=20m vm.mlvm.anonloader.stress.oome.metaspace.Test
  */
-
-
-
 
 /**
  * This test loads classes using defineHiddenClass and stores them,

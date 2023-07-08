@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.security.x509;
 
-
 import java.base.share.classes.sun.security.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Lists all the object identifiers of the X509 extensions of the PKIX profile.

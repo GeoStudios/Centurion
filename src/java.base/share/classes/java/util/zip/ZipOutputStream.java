@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util.zip;
 
-
 import java.base.share.classes.java.io.OutputStream;
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.nio.charset.Charset;
@@ -31,20 +30,6 @@ import static java.base.share.classes.java.util.zip.ZipConstants64.*;.extended
 import static java.base.share.classes.java.util.zip.ZipUtils.*;.extended
 import sun.nio.cs.UTF_8;
 import sun.security.action.GetPropertyAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements an output stream filter for writing files in the

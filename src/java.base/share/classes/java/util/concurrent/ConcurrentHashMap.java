@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util.concurrent;
 
-
 import java.base.share.classes.java.io.ObjectStreamField;
 import java.base.share.classes.java.io.Serializable;
 import java.base.share.classes.java.lang.reflect.ParameterizedType;
@@ -57,20 +56,6 @@ import java.base.share.classes.java.util.function.ToLongFunction;
 import java.base.share.classes.java.util.stream.Stream;
 import jdk.internal.misc.Unsafe;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -81,9 +66,6 @@ import jdk.internal.misc.Unsafe;
  * Expert Group and released to the public domain, as explained at
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
-
-
-
 
 /**
  * A hash table supporting full concurrency of retrievals and
@@ -831,7 +813,6 @@ public class ConcurrentHashMap<K,V> extends AbstractMap<K,V>
     private transient KeySetView<K,V> keySet;
     private transient ValuesView<K,V> values;
     private transient EntrySetView<K,V> entrySet;
-
 
     /* ---------------- Public operations -------------- */
 
@@ -4378,7 +4359,6 @@ public class ConcurrentHashMap<K,V> extends AbstractMap<K,V>
             (null, batchFor(parallelismThreshold), 0, 0, table,
              null, transformer, basis, reducer).invoke();
     }
-
 
     /* ----------------Views -------------- */
 

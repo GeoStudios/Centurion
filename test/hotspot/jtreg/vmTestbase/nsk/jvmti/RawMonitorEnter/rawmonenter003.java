@@ -21,21 +21,7 @@
 
 package nsk.jvmti.RawMonitorEnter;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class rawmonenter003 {
 

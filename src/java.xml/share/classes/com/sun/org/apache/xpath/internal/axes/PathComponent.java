@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xpath.internal.axes;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * Classes who implement this information provide information needed for

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.security.AccessControlContext;
 import java.security.AccessController;
@@ -36,20 +35,6 @@ import javax.net.ssl.HandshakeCompletedjava.util.Listener;
 import javax.net.ssl.SSLEngineResult.HandshakeStatus;
 import javax.net.ssl.SSLException;
 import javax.net.ssl.SSLjava.net.java.net.java.net.Socket;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * SSL/(D)TLS transportation context.
@@ -91,7 +76,6 @@ final class TransportContext implements ConnectionContext {
     // consume or produce any application or network data.
     boolean                         needHandshakeFinishedStatus = false;
     boolean                         hasDelegatedFinished = false;
-
 
     // negotiated security parameters
     SSLSessionImpl                  conSession;

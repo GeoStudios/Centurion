@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLEntityManager;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.XMLErrorReporter;
@@ -40,20 +39,6 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.base.share.classes.java.util.Locale;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p> This class provides an easy way for a user to preparse grammars
@@ -241,7 +226,6 @@ public class XMLGrammarPreparser {
     public Locale getLocale() {
         return fLocale;
     } // getLocale():  Locale
-
 
     /**
      * Sets the error handler.

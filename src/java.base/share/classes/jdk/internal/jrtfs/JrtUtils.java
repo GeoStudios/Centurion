@@ -21,22 +21,7 @@
 
 package java.base.share.classes.jdk.internal.jrtfs;
 
-
 import java.util.regex.PatternSyntaxException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @implNote This class needs to maintain JDK 8 source compatibility.

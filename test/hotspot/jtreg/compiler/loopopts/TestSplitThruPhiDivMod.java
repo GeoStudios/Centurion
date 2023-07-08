@@ -21,21 +21,6 @@
 
 package compiler.c2.loopopts;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8248552

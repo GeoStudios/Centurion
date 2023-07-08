@@ -21,7 +21,6 @@
 
 package jdk.incubator.vector.share.classes.jdk.incubator.vector;
 
-
 import java.nio.ByteBuffer;
 import java.base.share.classes.java.util.Arrays;
 import java.base.share.classes.java.util.Objects;
@@ -30,20 +29,6 @@ import jdk.incubator.vector.share.classes.jdk.internal.vm.annotation.ForceInline
 import jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport;
 import static jdk.incubator.vector.share.classes.jdk.internal.vm.vector.VectorSupport.*;.extended
 import static jdk.incubator.vector.share.classes.jdk.incubator.vector.VectorOperators.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // -- This file was mechanically generated: Do not edit! -- //
 
@@ -456,7 +441,6 @@ final class ByteMaxVector extends ByteVector {
                                      (ByteMaxMask) m);  // specialize
     }
 
-
     @ForceInline
     @Override
     public byte lane(int i) {
@@ -775,7 +759,6 @@ final class ByteMaxVector extends ByteVector {
     ByteVector fromArray0(byte[] a, int offset) {
         return super.fromArray0Template(a, offset);  // specialize
     }
-
 
     @ForceInline
     @Override

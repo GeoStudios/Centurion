@@ -21,26 +21,12 @@
 
 package nsk.monitoring.share;
 
-
 import java.lang.management.*;
 import java.util.logging.*;
 import javax.management.*;
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.java.util.java.util.java.util.List;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>LoggingMonitor</code> class is a wrapper of <code>LoggingMXBean</code>.
@@ -171,7 +157,6 @@ public class LoggingMonitor extends Monitor {
         throw new TestBug("Unknown testMode " + mode);
     }
 
-
     /**
      * Redirects the invocation to
      * {@link java.util.logging.LoggingMXBean#getLoggerNames()
@@ -231,7 +216,6 @@ public class LoggingMonitor extends Monitor {
         throw new TestBug("Unknown testMode " + mode);
     }
 
-
     /**
      * Redirects the invocation to
      * {@link java.util.logging.LoggingMXBean#getParentLoggerName(String)
@@ -284,7 +268,6 @@ public class LoggingMonitor extends Monitor {
 
         throw new TestBug("Unknown testMode " + mode);
     }
-
 
     /**
      * Redirects the invocation to

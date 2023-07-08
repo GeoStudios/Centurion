@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Models the "sstGlobalPub" subsection in Visual C++ 5.0 debug
     information, which contains globally compacted symbols from the
     sstPublics. This class provides access to the symbols via

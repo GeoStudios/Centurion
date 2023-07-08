@@ -21,24 +21,9 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.classfile;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import jdk.jdeps.share.classes.com.sun.tools.classfile.Type.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * See JVMS 4.4.4.

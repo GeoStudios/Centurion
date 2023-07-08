@@ -21,22 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.windbg;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class WindbgAddress implements Address {
   protected WindbgDebugger debugger;
@@ -312,7 +297,6 @@ class WindbgAddress implements Address {
   long getValue() {
     return addr;
   }
-
 
   private static void check(boolean arg, String failMessage) {
     if (!arg) {

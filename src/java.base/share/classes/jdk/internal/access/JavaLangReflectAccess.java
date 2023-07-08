@@ -21,23 +21,8 @@
 
 package java.base.share.classes.jdk.internal.access;
 
-
 import java.lang.reflect.*;
 import java.base.share.classes.jdk.internal.reflect.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** An interface which gives privileged packages Java-level access to
     internals of java.lang.reflect. */

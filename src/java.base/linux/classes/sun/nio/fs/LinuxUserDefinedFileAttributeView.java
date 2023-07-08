@@ -21,22 +21,6 @@
 
 package java.base.linux.classes.sun.nio.fs;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class LinuxUserDefinedFileAttributeView
     extends UnixUserDefinedFileAttributeView
 {

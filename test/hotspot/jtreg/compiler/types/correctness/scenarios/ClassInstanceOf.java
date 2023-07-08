@@ -21,22 +21,8 @@
 
 package compiler.types.correctness.scenarios;
 
-
 import compiler.types.correctness.hierarchies.TypeHierarchy;
 import jdk.test.lib.Asserts;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Tests instanceof

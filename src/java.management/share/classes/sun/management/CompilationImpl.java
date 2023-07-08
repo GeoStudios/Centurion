@@ -21,24 +21,9 @@
 
 package java.management.share.classes.sun.management;
 
-
 import java.lang.management.CompilationMXBean;
 import java.lang.management.ManagementFactory;
 import javax.management.ObjectName;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation class for the compilation subsystem.
@@ -83,6 +68,5 @@ class CompilationImpl implements CompilationMXBean {
     public ObjectName getObjectName() {
         return Util.newObjectName(ManagementFactory.COMPILATION_MXBEAN_NAME);
     }
-
 
 }

@@ -21,30 +21,13 @@
 
 package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
 
-
 import java.security.InvalidAlgorithmParameterException;
 import javax.xml.crypto.dsig.spec.TransformParameterSpec;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * DOM-based implementation of Enveloped Signature Transform.

@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.sun.awt.image;
 
-
 import java.util.Vector;
 import java.util.Hashtable;
 import java.io.InputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.awt.image.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*-
  *      Reads JPEG images from an InputStream and reports the
@@ -49,8 +34,6 @@ import java.awt.image.*;
  * The native implementation of the JPEG image decoder was adapted from
  * release 6 of the free JPEG software from the Independent JPEG Group.
  */
-
-
 
 /**
  * JPEG Image converter

@@ -21,25 +21,10 @@
 
 package jdk.jshell.share.classes.jdk.jshell;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
 import java.base.share.classes.java.util.Objects;
 import jdk.jshell.share.classes.jdk.jshell.spi.ExecutionControl.ClassBytecodes;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Tracks the state of a class.

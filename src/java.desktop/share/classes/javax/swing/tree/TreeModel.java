@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.tree;
 
-
 import java.desktop.share.classes.javax.swing.event.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The model used by <code>JTree</code>.
@@ -79,7 +64,6 @@ public interface TreeModel
      */
     Object getRoot();
 
-
     /**
      * Returns the child of <code>parent</code> at index <code>index</code>
      * in the parent's
@@ -95,7 +79,6 @@ public interface TreeModel
      */
     Object getChild(Object parent, int index);
 
-
     /**
      * Returns the number of children of <code>parent</code>.
      * Returns 0 if the node
@@ -106,7 +89,6 @@ public interface TreeModel
      * @return  the number of children of the node <code>parent</code>
      */
     int getChildCount(Object parent);
-
 
     /**
      * Returns <code>true</code> if <code>node</code> is a leaf.

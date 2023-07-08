@@ -21,23 +21,8 @@
 
 package java.xml.share.classes.org.xml.sax.ext;
 
-
 import java.xml.share.classes.org.xml.sax.Attributes;
 import java.xml.share.classes.org.xml.sax.helpers.AttributesImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * SAX2 extension helper for additional Attributes information,
@@ -62,7 +47,6 @@ public class Attributes2Impl extends AttributesImpl implements Attributes2
     private boolean[] declared;
     private boolean[] specified;
 
-
     /**
      * Construct a new, empty Attributes2Impl object.
      */
@@ -70,7 +54,6 @@ public class Attributes2Impl extends AttributesImpl implements Attributes2
         specified = null;
         declared = null;
     }
-
 
     /**
      * Copy an existing Attributes or Attributes2 object.
@@ -91,11 +74,9 @@ public class Attributes2Impl extends AttributesImpl implements Attributes2
         super (atts);
     }
 
-
     ////////////////////////////////////////////////////////////////////
     // Implementation of Attributes2
     ////////////////////////////////////////////////////////////////////
-
 
     /**
      * Returns the current value of the attribute's "declared" flag.
@@ -108,7 +89,6 @@ public class Attributes2Impl extends AttributesImpl implements Attributes2
                 "No attribute at index: " + index);
         return declared [index];
     }
-
 
     /**
      * Returns the current value of the attribute's "declared" flag.
@@ -125,7 +105,6 @@ public class Attributes2Impl extends AttributesImpl implements Attributes2
         return declared [index];
     }
 
-
     /**
      * Returns the current value of the attribute's "declared" flag.
      */
@@ -139,7 +118,6 @@ public class Attributes2Impl extends AttributesImpl implements Attributes2
                 "No such attribute: " + qName);
         return declared [index];
     }
-
 
     /**
      * Returns the current value of an attribute's "specified" flag.
@@ -156,7 +134,6 @@ public class Attributes2Impl extends AttributesImpl implements Attributes2
                 "No attribute at index: " + index);
         return specified [index];
     }
-
 
     /**
      * Returns the current value of an attribute's "specified" flag.
@@ -179,7 +156,6 @@ public class Attributes2Impl extends AttributesImpl implements Attributes2
         return specified [index];
     }
 
-
     /**
      * Returns the current value of an attribute's "specified" flag.
      *
@@ -198,11 +174,9 @@ public class Attributes2Impl extends AttributesImpl implements Attributes2
         return specified [index];
     }
 
-
     ////////////////////////////////////////////////////////////////////
     // Manipulators
     ////////////////////////////////////////////////////////////////////
-
 
     /**
      * Copy an entire Attributes object.  The "specified" flags are
@@ -234,7 +208,6 @@ public class Attributes2Impl extends AttributesImpl implements Attributes2
         }
     }
 
-
     /**
      * Add an attribute to the end of the list, setting its
      * "specified" flag to true.  To set that flag's value
@@ -250,7 +223,6 @@ public class Attributes2Impl extends AttributesImpl implements Attributes2
                               String type, String value)
     {
         super.addAttribute (uri, localName, qName, type, value);
-
 
         int length = getLength ();
         if(specified==null)
@@ -273,7 +245,6 @@ public class Attributes2Impl extends AttributesImpl implements Attributes2
         declared [length - 1] = !"CDATA".equals (type);
     }
 
-
     // javadoc entirely from superclass
     public void removeAttribute (int index)
     {
@@ -287,7 +258,6 @@ public class Attributes2Impl extends AttributesImpl implements Attributes2
                     origMax - index);
         }
     }
-
 
     /**
      * Assign a value to the "declared" flag of a specific attribute.
@@ -307,7 +277,6 @@ public class Attributes2Impl extends AttributesImpl implements Attributes2
                 "No attribute at index: " + index);
         declared [index] = value;
     }
-
 
     /**
      * Assign a value to the "specified" flag of a specific attribute.

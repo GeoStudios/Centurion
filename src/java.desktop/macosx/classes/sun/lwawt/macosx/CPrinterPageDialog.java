@@ -21,23 +21,8 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-
 import java.awt.*;
 import java.awt.print.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("serial") // JDK implementation class
 final class CPrinterPageDialog extends CPrinterDialog {

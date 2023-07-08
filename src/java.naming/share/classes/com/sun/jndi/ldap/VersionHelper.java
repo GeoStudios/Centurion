@@ -21,7 +21,6 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
-
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -29,20 +28,6 @@ import java.net.URLClassLoader;
 import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class VersionHelper {
 

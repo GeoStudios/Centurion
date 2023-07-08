@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.tiff;
 
-
 import java.nio.ByteOrder;
 import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.metadata.IIOMetadataNode;
 import javax.imageio.metadata.IIOInvalidTreeException;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class TIFFStreamMetadata extends IIOMetadata {
 

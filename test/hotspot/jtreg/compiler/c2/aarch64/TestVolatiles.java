@@ -21,7 +21,6 @@
 
 package compiler.c2.aarch64;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.util.java.util.ListIterator;
 import java.util.Iterator;
@@ -32,19 +31,6 @@ import jdk.test.lib.compiler.InMemoryJavaCompiler;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
 import sun.hotspot.WhiteBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * common code to run and validate tests of code generation for
@@ -66,10 +52,6 @@ import sun.hotspot.WhiteBox;
  *                    Shenandoah,
  *                    ShenandoahIU}
  */
-
-
-
-
 
 // runner class that spawns a new JVM to exercises a combination of
 // volatile MemOp and GC. The ops are compiled with the dmb -->
@@ -142,7 +124,6 @@ public class TestVolatiles {
             runtest(classname, testType, false, procArgs);
         }
     }
-
 
     public void runtest(String classname, String testType, boolean useCompressedOops, String[] procArgs) throws Throwable {
         ProcessBuilder pb = ProcessTools.createJavaProcessBuilder(procArgs);

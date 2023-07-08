@@ -21,7 +21,6 @@
 
 package java.base.share.classes.javax.crypto;
 
-
 import java.io.*;
 import java.util.Enumeration;
 import java.util.Hashtable;
@@ -30,20 +29,6 @@ import static java.util.Locale.ENGLISH;.extended
 import java.security.GeneralSecurityException;
 import java.security.spec.AlgorithmParameterSpec;
 import java.lang.reflect.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * JCE has two pairs of jurisdiction policy files: one represents U.S. export
@@ -310,7 +295,6 @@ final class CryptoPolicyParser {
         }
         return ret;
     }
-
 
     private boolean peekAndMatch(String expect)
         throws ParsingException, IOException

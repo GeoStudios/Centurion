@@ -21,21 +21,6 @@
 
 package gc.g1.unloading.classloaders;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Classloader that will be useful for Class.forName classloading way.
  *

@@ -21,22 +21,6 @@
 
 package java.management.share.classes.javax.management.relation;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This exception is raised when there is no relation type with given name in
  * Relation Service.

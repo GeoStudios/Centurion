@@ -21,24 +21,10 @@
 
 package jit.misctests.fpustack;
 
-
 import java.util.*;
 import java.awt.*;
 import java.applet.Applet;
 import nsk.share.TestFailure;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -51,9 +37,6 @@ import nsk.share.TestFailure;
  *          /test/lib
  * @run main/othervm jit.misctests.fpustack.GraphApplet
  */
-
-
-
 
 public class GraphApplet extends Applet {
     private GraphPanel panel;

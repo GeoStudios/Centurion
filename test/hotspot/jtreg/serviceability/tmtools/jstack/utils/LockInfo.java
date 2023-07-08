@@ -21,21 +21,6 @@
 
 package utils;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *
  * Represents lock info string

@@ -21,23 +21,8 @@
 
 package java.logging.share.classes.java.util.logging;
 
-
 import java.logging.share.classes.java.io.*;
 import java.logging.share.classes.java.net.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Simple network logging {@code Handler}.

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.lang.module;
 
-
 import java.base.share.classes.java.io.PrintStream;
 import java.base.share.classes.java.util.ArrayDeque;
 import java.base.share.classes.java.util.Arrayjava.util.java.util.java.util.List;
@@ -41,20 +40,6 @@ import jdk.internal.misc.CDS;
 import jdk.internal.module.ModuleReferenceImpl;
 import jdk.internal.module.ModuleTarget;
 import jdk.internal.vm.annotation.Stable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A configuration that is the result of <a href="package-summary.html#resolution">
@@ -264,7 +249,6 @@ public final class Configuration {
         return resolve(before, List.of(this), after, roots);
     }
 
-
     /**
      * Resolves a collection of root modules, with service binding, and with
      * this configuration as its parent, to create a new configuration.
@@ -306,7 +290,6 @@ public final class Configuration {
     {
         return resolveAndBind(before, List.of(this), after, roots);
     }
-
 
     /**
      * Resolves a collection of root modules, with service binding, and with
@@ -503,7 +486,6 @@ public final class Configuration {
         return new Configuration(parentList, resolver);
     }
 
-
     /**
      * Returns the <em>empty</em> configuration. There are no modules in the
      * empty configuration. It has no parents.
@@ -513,7 +495,6 @@ public final class Configuration {
     public static Configuration empty() {
         return EMPTY_CONFIGURATION;
     }
-
 
     /**
      * Returns an unmodifiable list of this configuration's parents, in search
@@ -526,7 +507,6 @@ public final class Configuration {
         return parents;
     }
 
-
     /**
      * Returns an unmodifiable set of the resolved modules in this configuration.
      *
@@ -536,7 +516,6 @@ public final class Configuration {
     public Set<ResolvedModule> modules() {
         return modules;
     }
-
 
     /**
      * Finds a resolved module in this configuration, or if not in this
@@ -569,7 +548,6 @@ public final class Configuration {
 
         return Optional.empty();
     }
-
 
     Set<ModuleDescriptor> descriptors() {
         if (modules.isEmpty()) {
@@ -621,7 +599,6 @@ public final class Configuration {
     }
 
     private volatile List<Configuration> allConfigurations;
-
 
     /**
      * Returns a string describing this configuration.

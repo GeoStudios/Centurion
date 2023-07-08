@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.javax.xml.catalog;
 
-
 import java.net.URL;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents a uriSuffix entry.

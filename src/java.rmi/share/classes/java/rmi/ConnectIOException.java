@@ -21,22 +21,6 @@
 
 package java.rmi.share.classes.java.rmi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A <code>ConnectIOException</code> is thrown if an
  * <code>IOException</code> occurs while making a connection
@@ -57,7 +41,6 @@ public class ConnectIOException extends RemoteException {
     public ConnectIOException(String s) {
         super(s);
     }
-
 
     /**
      * Constructs a <code>ConnectIOException</code> with the specified

@@ -21,21 +21,6 @@
 
 package gc.arguments;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test TestG1HeapSizeFlags
  * @bug 8006088

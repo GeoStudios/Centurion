@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * IF_ACMPNE - Branch if reference comparison doesn't succeed
@@ -58,11 +41,9 @@ public class IF_ACMPNE extends IfInstruction {
     IF_ACMPNE() {
     }
 
-
     public IF_ACMPNE(final InstructionHandle target) {
         super(com.sun.org.apache.bcel.internal.Const.IF_ACMPNE, target);
     }
-
 
     /**
      * @return negation of instruction
@@ -71,7 +52,6 @@ public class IF_ACMPNE extends IfInstruction {
     public IfInstruction negate() {
         return new IF_ACMPEQ(super.getTarget());
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

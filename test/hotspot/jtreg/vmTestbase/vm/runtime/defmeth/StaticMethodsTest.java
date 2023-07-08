@@ -21,7 +21,6 @@
 
 package vm.runtime.defmeth;
 
-
 import java.util.Set;
 import vm.runtime.defmeth.shared.DefMethTest;
 import vm.runtime.defmeth.shared.data.*;
@@ -31,19 +30,6 @@ import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
 import static vm.runtime.defmeth.shared.data.method.body.CallMethod.Invoke.*;.extended
 import static vm.runtime.defmeth.shared.data.method.body.CallMethod.IndexbyteOp.*;.extended
 import static vm.runtime.defmeth.shared.ExecutionMode.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -60,9 +46,6 @@ import static vm.runtime.defmeth.shared.ExecutionMode.*;.extended
  *      -javaagent:retransform.jar
  *      vm.runtime.defmeth.StaticMethodsTest
  */
-
-
-
 
 /*
  * Scenarios on static methods in interfaces.

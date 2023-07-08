@@ -21,21 +21,6 @@
 
 package compiler.uncommontrap;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8029383
@@ -47,7 +32,6 @@ package compiler.uncommontrap;
  *      -Xss512K -XX:-UseOnStackReplacement
  *      compiler.uncommontrap.StackOverflowGuardPagesOff
  */
-
 
 // This test calls m2 recursively until a stack overflow. Then calls
 // m3 that calls m1. m1 triggers B's class loading, as a result m1 and

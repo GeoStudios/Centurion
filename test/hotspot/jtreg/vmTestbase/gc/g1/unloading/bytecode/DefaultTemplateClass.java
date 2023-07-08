@@ -21,21 +21,7 @@
 
 package gc.g1.unloading.bytecode;
 
-
 import java.util.Random;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is template class. Loaded classes will derive from it.

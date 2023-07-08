@@ -21,21 +21,6 @@
 
 package compiler.loopopts.superword;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @requires vm.compiler2.enabled
@@ -45,7 +30,6 @@ package compiler.loopopts.superword;
  * @run main/othervm -Xbatch -XX:CompileCommand=compileonly,compiler.loopopts.superword.CoLocatePackMemoryState::test
  *      -XX:LoopMaxUnroll=16 compiler.loopopts.superword.CoLocatePackMemoryState
  */
-
 
 public class CoLocatePackMemoryState {
 

@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
@@ -37,20 +36,6 @@ import java.xml.share.classes.com.sun.org.w3c.dom.UserDataHandler;
 import java.xml.share.classes.com.sun.org.w3c.dom.events.Event;
 import java.xml.share.classes.com.sun.org.w3c.dom.events.Eventjava.util.Listener;
 import java.xml.share.classes.com.sun.org.w3c.dom.events.EventTarget;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * NodeImpl provides the basic structure of a DOM tree. It is never used
@@ -100,7 +85,6 @@ public abstract class NodeImpl
     //
     // Constants
     //
-
 
     // TreePosition Constants.
     // Taken from DOM L3 Node interface.
@@ -798,7 +782,6 @@ public abstract class NodeImpl
         //    Current assumption: If both nodes are part of the same document
         //    fragment, there are compared as if they were part of a document.
 
-
         // If the nodes are the same...
         if (this==other)
           return (TREE_POSITION_SAME_NODE | TREE_POSITION_EQUIVALENT);
@@ -842,7 +825,6 @@ public abstract class NodeImpl
               return (TREE_POSITION_DESCENDANT | TREE_POSITION_FOLLOWING);
             otherAncestor = node;
         }
-
 
         Node thisNode = this;
         Node otherNode = other;
@@ -903,7 +885,6 @@ public abstract class NodeImpl
         // otherwise, we are not in the same tree or document fragment
         if (thisAncestor != otherAncestor)
           return TREE_POSITION_DISCONNECTED;
-
 
         // Go up the parent chain of the deeper node, until we find a node
         // with the same depth as the shallower node
@@ -1041,8 +1022,6 @@ public abstract class NodeImpl
             otherAncestor = node;
         }
 
-
-
         int thisAncestorType = thisAncestor.getNodeType();
         int otherAncestorType = otherAncestor.getNodeType();
         Node thisNode = this;
@@ -1171,7 +1150,6 @@ public abstract class NodeImpl
                    DOCUMENT_POSITION_PRECEDING |
                    DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC;
         }
-
 
         // Go up the parent chain of the deeper node, until we find a node
         // with the same depth as the shallower node
@@ -1371,9 +1349,6 @@ public abstract class NodeImpl
         return this == other;
     }
 
-
-
-
     /**
      *  DOM Level 3: Experimental
      *  This method checks if the specified <code>namespaceURI</code> is the
@@ -1446,9 +1421,7 @@ public abstract class NodeImpl
 
         }
 
-
     }
-
 
     /**
      *
@@ -1559,7 +1532,6 @@ public abstract class NodeImpl
 
                 return null;
 
-
             }
         case Node.DOCUMENT_NODE : {
                 Element docElement = ((Document)this).getDocumentElement();
@@ -1639,7 +1611,6 @@ public abstract class NodeImpl
                             return localname;
                         }
                     }
-
 
                 }
             }
@@ -1891,7 +1862,6 @@ public abstract class NodeImpl
     protected Node getContainer() {
        return null;
     }
-
 
     /*
      * Flags setters and getters

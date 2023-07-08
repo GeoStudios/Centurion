@@ -21,23 +21,9 @@
 
 package com.sun.crypto.provider;
 
-
 import java.nio.ByteBuffer;
 import java.base.share.classes.java.util.Arrays;
 import java.base.share.classes.javax.crypto.spec.SecretKeySpec;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Poly1305UnitTest {
 

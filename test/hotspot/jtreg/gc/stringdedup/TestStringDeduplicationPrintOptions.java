@@ -21,21 +21,6 @@
 
 package gc.stringdedup;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test TestStringDeduplicationPrintOptions
  * @summary Test string deduplication print options

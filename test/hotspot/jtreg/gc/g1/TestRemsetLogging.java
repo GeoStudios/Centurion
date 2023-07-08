@@ -21,21 +21,6 @@
 
 package gc.g1;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test TestRemsetLogging.java
  * @requires vm.gc.G1

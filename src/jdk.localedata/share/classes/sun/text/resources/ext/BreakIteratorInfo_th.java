@@ -21,28 +21,10 @@
 
 package jdk.localedata.share.classes.sun.text.resources.ext;
 
-
 import java.util.java.util.ListResourceBundle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  */
-
-
-
 
 public class BreakIteratorInfo_th extends ListResourceBundle {
     protected final Object[][] getContents() {

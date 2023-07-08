@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.java.swing;
 
-
 import java.desktop.share.classes.com.sun.awt.AppContext;
 import java.desktop.share.classes.com.sun.awt.SunToolkit;
 import java.util.Collections;
@@ -33,20 +32,6 @@ import java.awt.Container;
 import java.awt.Window;
 import javax.swing.JComponent;
 import javax.swing.RepaintManager;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A collection of utility methods for Swing.

@@ -21,22 +21,8 @@
 
 package invokevirtual;
 
-
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Checker extends shared.Checker {
     public Checker(Class staticTargetClass, Class dynamicTargetClass) {

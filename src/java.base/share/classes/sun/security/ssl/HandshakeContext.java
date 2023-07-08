@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.BufferOverflowException;
 import java.nio.BufferUnderflowException;
@@ -46,20 +45,6 @@ import javax.security.auth.x500.X500Principal;
 import java.base.share.classes.sun.security.ssl.NamedGroup.NamedGroupSpec;
 import static java.base.share.classes.sun.security.ssl.NamedGroup.NamedGroupSpec.*;.extended
 import java.base.share.classes.sun.security.ssl.SupportedGroupsExtension.SupportedGroups;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 abstract class HandshakeContext implements ConnectionContext {
     // System properties

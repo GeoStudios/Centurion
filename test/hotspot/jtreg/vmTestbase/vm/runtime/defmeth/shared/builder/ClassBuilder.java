@@ -21,24 +21,10 @@
 
 package vm.runtime.defmeth.shared.builder;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import vm.runtime.defmeth.shared.data.method.Method;
 import static jdk.internal.org.objectweb.asm.Opcodes.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Generic builder for classes of type {@code <S>} using

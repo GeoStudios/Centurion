@@ -21,23 +21,8 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
-
 import java.text.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class Formatter {
     static final long SECOND = 1000;
@@ -83,7 +68,6 @@ class Formatter {
         long ms = t / 1000000;
         return formatTime(ms);
     }
-
 
     static String formatClockTime(long time) {
         return timeDF.format(time);
@@ -150,8 +134,6 @@ class Formatter {
         return value;
     }
 
-
-
     static String[] formatKByteStrings(long... bytes) {
         int n = bytes.length;
         for (int i = 0; i < n; i++) {
@@ -174,7 +156,6 @@ class Formatter {
         long kb = bytes / 1024;
         return Resources.format(Messages.KBYTES, justify(kb, 10));
     }
-
 
     static String formatBytes(long v, boolean html) {
         return formatBytes(v, v, html);
@@ -234,7 +215,6 @@ class Formatter {
         }
         return strings;
     }
-
 
     // A poor attempt at right-justifying for numerical data
     static String justify(long value, int size) {

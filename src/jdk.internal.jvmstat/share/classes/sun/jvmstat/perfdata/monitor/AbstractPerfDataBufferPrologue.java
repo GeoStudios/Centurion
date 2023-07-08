@@ -21,25 +21,10 @@
 
 package jdk.internal.jvmstat.share.classes.sun.jvmstat.perfdata.monitor;
 
-
 import jdk.internal.jvmstat.share.classes.sun.jvmstat.monitor.*;
 import java.nio.ByteOrder;
 import java.nio.ByteBuffer;
 import java.nio.IntBuffer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Abstraction representing the HotSpot PerfData instrumentation buffer

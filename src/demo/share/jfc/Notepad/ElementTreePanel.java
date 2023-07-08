@@ -21,7 +21,6 @@
 
 package demo.share.jfc.Notepad;
 
-
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.Font;
@@ -51,20 +50,6 @@ import javax.swing.tree.TreeModel;
 import javax.swing.tree.TreeNode;
 import javax.swing.tree.TreePath;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -72,10 +57,6 @@ import javax.swing.tree.TreePath;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
 
 /**
  * Displays a tree showing all the elements in a text Document. Selecting
@@ -468,7 +449,6 @@ public class ElementTreePanel extends JPanel implements CaretListener,
         }
         return path;
     }
-
 
     /**
      * ElementTreeModel is an implementation of TreeModel to handle displaying

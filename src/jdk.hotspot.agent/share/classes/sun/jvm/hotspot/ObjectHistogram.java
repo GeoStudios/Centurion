@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** A sample tool which uses the Serviceability Agent's APIs to obtain
     an object histogram from a remote or crashed VM. */
 public class ObjectHistogram {

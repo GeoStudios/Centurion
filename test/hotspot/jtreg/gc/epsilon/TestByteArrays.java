@@ -21,22 +21,8 @@
 
 package gc.epsilon;
 
-
 import java.util.Random;
 import jdk.test.lib.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test TestByteArrays
@@ -57,7 +43,6 @@ import jdk.test.lib.Utils;
  * @run main/othervm -Xmx1g -Xbatch -Xcomp -XX:TieredStopAtLevel=1 -XX:-UseTLAB -XX:+UnlockExperimentalVMOptions -XX:+UseEpsilonGC gc.epsilon.TestByteArrays
  * @run main/othervm -Xmx1g -Xbatch -Xcomp -XX:-TieredCompilation  -XX:-UseTLAB -XX:+UnlockExperimentalVMOptions -XX:+UseEpsilonGC gc.epsilon.TestByteArrays
  */
-
 
 public class TestByteArrays {
   static int COUNT = Integer.getInteger("count", 3000); // ~500 MB allocation

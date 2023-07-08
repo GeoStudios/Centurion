@@ -21,23 +21,9 @@
 
 package nsk.share.locks;
 
-
 import java.util.*;
 import nsk.share.TestBug;
 import nsk.share.Wicket;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Class used to create deadlocked threads. It is possible create 2 or more deadlocked thread, also

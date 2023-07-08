@@ -21,21 +21,6 @@
 
 package nsk.jdi.ClassLoaderReference.definedClasses;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This class is loaded by definedclasses003aClassLoader .
  */

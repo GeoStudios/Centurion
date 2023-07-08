@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.text;
 
-
 import jdk.internal.icu.text.NormalizerBase;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CollatorUtilities {
 
@@ -65,7 +50,6 @@ public class CollatorUtilities {
         return normalizerMode;
 
     }
-
 
     static NormalizerBase.Mode[] legacyModeMap = {
         NormalizerBase.NONE,   // Collator.NO_DECOMPOSITION

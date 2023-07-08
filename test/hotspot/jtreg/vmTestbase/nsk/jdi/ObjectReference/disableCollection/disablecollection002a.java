@@ -21,22 +21,8 @@
 
 package nsk.jdi.ObjectReference.disableCollection;
 
-
 import nsk.share.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the disablecollection002 JDI test.
@@ -99,7 +85,6 @@ public class disablecollection002a {
         log1("debuggee started!");
 
         int exitCode = PASSED;
-
 
         label0:
             for (int i = 0; ; i++) {

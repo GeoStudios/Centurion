@@ -21,26 +21,11 @@
 
 package jdk.management.jfr.share.classes.jdk.management.jfr;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.time.Instant;
 import java.util.HashMap;
 import java.util.Map;
 import jdk.management.jfr.share.classes.jdk.jfr.internal.management.ManagementSupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class DownLoadThread extends Thread {
     private final RemoteRecordingStream stream;

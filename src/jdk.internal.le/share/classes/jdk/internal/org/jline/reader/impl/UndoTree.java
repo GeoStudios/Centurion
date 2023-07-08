@@ -21,22 +21,7 @@
 
 package jdk.internal.le.share.classes.jdk.internal.org.jline.reader.impl;
 
-
 import java.util.function.Consumer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Simple undo tree.

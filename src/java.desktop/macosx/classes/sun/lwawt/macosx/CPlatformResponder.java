@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.lwawt.macosx;
 
-
 import java.desktop.macosx.classes.sun.awt.SunToolkit;
 import java.desktop.macosx.classes.sun.lwawt.LWWindowPeer;
 import java.desktop.macosx.classes.sun.lwawt.PlatformEventNotifier;
@@ -31,20 +30,6 @@ import java.awt.event.InputEvent;
 import java.awt.event.MouseWheelEvent;
 import java.awt.event.KeyEvent;
 import java.base.share.classes.java.util.Locale;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Translates NSEvents/NPCocoaEvents into AWT events.

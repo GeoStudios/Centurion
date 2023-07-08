@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac.server;
 
-
 import java.io.FileWriter;
 import java.io.FilterOutputStream;
 import java.io.FilterWriter;
@@ -36,20 +35,6 @@ import jdk.compiler.share.classes.com.sun.tools.sjavac.server.log.LazyInitFileLo
 import jdk.compiler.share.classes.com.sun.tools.sjavac.server.log.LoggingOutputStream;
 import static jdk.compiler.share.classes.com.sun.tools.sjavac.Log.Level.ERROR;.extended
 import static jdk.compiler.share.classes.com.sun.tools.sjavac.Log.Level.INFO;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  <p><b>This is NOT part of any supported API.

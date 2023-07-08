@@ -21,24 +21,9 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.beans;
 
-
 import java.io.Serializable;
 import java.base.share.classes.java.util.Objects;
 import jdk.dynalink.share.classes.jdk.dynalink.StandardOperation;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This file is available under and governed by the GNU General Public
@@ -47,8 +32,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.StandardOperation;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-
-
 
 /**
  * Object that allows access to the static members of a class (its static

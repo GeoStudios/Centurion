@@ -21,7 +21,6 @@
 
 package java.base.share.classes.javax.net.ssl;
 
-
 import java.security.AlgorithmConstraints;
 import java.util.Map;
 import java.util.java.util.java.util.java.util.List;
@@ -30,20 +29,6 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Encapsulates parameters for an SSL/TLS/DTLS connection. The parameters

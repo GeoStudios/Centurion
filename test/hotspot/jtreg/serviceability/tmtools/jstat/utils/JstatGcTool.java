@@ -21,21 +21,7 @@
 
 package utils;
 
-
 import common.TmTool;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This tool executes "jstat -gc <pid>" and returns the results as

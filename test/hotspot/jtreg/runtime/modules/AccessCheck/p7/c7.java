@@ -21,22 +21,8 @@
 
 package p7;
 
-
 import java.lang.Module;
 import p2.c2;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class c7 {
     public void method7(p2.c2 param, Module c2Mod) {

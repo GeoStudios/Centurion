@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.BranchHandle;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.GOTO;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.IFEQ;
@@ -39,26 +38,9 @@ import java.util.Enumeration;
 import java.util.Iterator;
 import java.util.java.util.java.util.java.util.List;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * $Id: Choose.java,v 1.2.4.1 2005/09/01 12:00:14 pvedula Exp $
  */
-
-
-
 
 /**
  * @LastModified: Oct 2017

@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.sun.font;
 
-
 import java.awt.Rectangle;
 import java.awt.Shape;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.PathIterator;
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * To avoid people downcasting Shape to a known mutable subclass and

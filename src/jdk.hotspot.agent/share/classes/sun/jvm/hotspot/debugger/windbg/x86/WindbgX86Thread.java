@@ -21,24 +21,9 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.windbg.x86;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.x86.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.windbg.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class WindbgX86Thread implements ThreadProxy {
   private final WindbgDebugger debugger;

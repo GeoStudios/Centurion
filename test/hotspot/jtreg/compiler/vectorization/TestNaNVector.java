@@ -21,21 +21,6 @@
 
 package compiler.vectorization;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8160425
@@ -45,7 +30,6 @@ package compiler.vectorization;
  * @run main/othervm -XX:+IgnoreUnrecognizedVMOptions -XX:-OptimizeFill
  *      -XX:MaxVectorSize=4 compiler.vectorization.TestNaNVector
  */
-
 
 public class TestNaNVector {
     private char[] array;

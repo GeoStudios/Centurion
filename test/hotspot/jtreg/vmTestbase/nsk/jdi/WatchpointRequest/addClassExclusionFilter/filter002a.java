@@ -21,23 +21,9 @@
 
 package nsk.jdi.WatchpointRequest.addClassExclusionFilter;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the filter002 JDI test.
@@ -99,7 +85,6 @@ public class filter002a {
         log = argHandler.createDebugeeLog();
 
         log1("debuggee started!");
-
 
             for (int i = 0; ; i++) {
 
@@ -166,7 +151,6 @@ public class filter002a {
         } catch ( InterruptedException e ) {
         }
     }
-
 
     static class Thread1filter002a extends Thread {
 

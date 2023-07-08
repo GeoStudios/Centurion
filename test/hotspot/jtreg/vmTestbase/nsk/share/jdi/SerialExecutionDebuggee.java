@@ -21,25 +21,11 @@
 
 package nsk.share.jdi;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.StreamTokenizer;
 import java.io.StringReader;
 import nsk.share.Consts;
 import sun.hotspot.WhiteBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This class is intended for execution several JDI tests in single VM and used together with nsk.share.jdi.SerialExecutionDebugger

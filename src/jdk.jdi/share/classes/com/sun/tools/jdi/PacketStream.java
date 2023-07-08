@@ -21,7 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import java.io.ByteArrayOutputStream;
 import java.nio.charset.StandardCharsets;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -43,20 +42,6 @@ import jdk.jdi.share.classes.com.sun.jdi.ObjectReference;
 import jdk.jdi.share.classes.com.sun.jdi.PrimitiveValue;
 import jdk.jdi.share.classes.com.sun.jdi.ShortValue;
 import jdk.jdi.share.classes.com.sun.jdi.Value;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class PacketStream {
     final VirtualMachineImpl vm;

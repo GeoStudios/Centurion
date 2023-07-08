@@ -21,7 +21,6 @@
 
 package nsk.jdi.AttachingConnector.attachnosuspend;
 
-
 import com.sun.jdi.Bootstrap;
 import com.sun.jdi.connect.*;
 import com.sun.jdi.VirtualMachine;
@@ -33,19 +32,6 @@ import java.util.Map;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test checks that debugger may establish connection with

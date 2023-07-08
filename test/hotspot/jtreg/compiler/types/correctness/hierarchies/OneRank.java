@@ -21,21 +21,6 @@
 
 package compiler.types.correctness.hierarchies;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class OneRank {
     private OneRank() {
     }

@@ -21,21 +21,6 @@
 
 package utils;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *
  * Class includes reused constants across jstack's tests

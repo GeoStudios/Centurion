@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * Super class for stack operations like DUP and POP.
@@ -56,14 +39,12 @@ public abstract class StackInstruction extends Instruction {
     StackInstruction() {
     }
 
-
     /**
      * @param opcode instruction opcode
      */
     protected StackInstruction(final short opcode) {
         super(opcode, (short) 1);
     }
-
 
     /** @return Type.UNKNOWN
      */

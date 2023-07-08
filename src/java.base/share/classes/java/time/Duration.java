@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time;
 
-
 import static java.base.share.classes.java.time.LocalTime.MINUTES_PER_HOUR;.extended
 import static java.base.share.classes.java.time.LocalTime.NANOS_PER_MILLI;.extended
 import static java.base.share.classes.java.time.LocalTime.NANOS_PER_SECOND;.extended
@@ -52,20 +51,6 @@ import java.base.share.classes.java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.util.regex.Matcher;
 import java.base.share.classes.java.util.regex.Pattern;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A time-based amount of time, such as '34.5 seconds'.
@@ -1315,7 +1300,6 @@ public final class Duration
     public int toNanosPart(){
         return nanos;
     }
-
 
     //-----------------------------------------------------------------------
     /**

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.print;
 
-
 import java.util.Map;
 import java.awt.Color;
 import java.awt.Composite;
@@ -52,20 +51,6 @@ import java.awt.image.renderable.RenderableImage;
 import java.awt.print.PrinterGraphics;
 import java.awt.print.PrinterJob;
 import java.text.AttributedCharacterIterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ProxyGraphics2D extends Graphics2D implements PrinterGraphics {
 
@@ -339,7 +324,6 @@ public class ProxyGraphics2D extends Graphics2D implements PrinterGraphics {
         return mGraphics.getClipBounds();
     }
 
-
     /**
      * Intersects the current clip with the specified rectangle.
      * The resulting clipping area is the intersection of the current
@@ -357,7 +341,6 @@ public class ProxyGraphics2D extends Graphics2D implements PrinterGraphics {
     public void clipRect(int x, int y, int width, int height) {
         mGraphics.clipRect(x, y, width, height);
     }
-
 
     /**
      * Sets the current clip to the rectangle specified by the given
@@ -387,7 +370,6 @@ public class ProxyGraphics2D extends Graphics2D implements PrinterGraphics {
         return mGraphics.getClip();
     }
 
-
     /**
      * Sets the current clipping area to an arbitrary clip shape.
      * Not all objects which implement the {@code Shape}
@@ -403,7 +385,6 @@ public class ProxyGraphics2D extends Graphics2D implements PrinterGraphics {
     public void setClip(Shape clip) {
         mGraphics.setClip(clip);
     }
-
 
     /**
      * Copies an area of the component by a distance specified by
@@ -441,7 +422,6 @@ public class ProxyGraphics2D extends Graphics2D implements PrinterGraphics {
     public void drawLine(int x1, int y1, int x2, int y2) {
         mGraphics.drawLine(x1, y1, x2, y2);
     }
-
 
     /**
      * Fills the specified rectangle.
@@ -1175,8 +1155,6 @@ public class ProxyGraphics2D extends Graphics2D implements PrinterGraphics {
         mGraphics.drawRenderedImage(img, xform);
     }
 
-
-
     public void drawRenderableImage(RenderableImage img,
                                     AffineTransform xform) {
 
@@ -1239,7 +1217,6 @@ public class ProxyGraphics2D extends Graphics2D implements PrinterGraphics {
     @SuppressWarnings("deprecation")
     public void finalize() {
     }
-
 
 /* The Delegated Graphics2D Methods */
 
@@ -1312,7 +1289,6 @@ public class ProxyGraphics2D extends Graphics2D implements PrinterGraphics {
 
         mGraphics.drawImage(img, op, x, y);
     }
-
 
     /**
      * Draws a string of text.
@@ -1410,7 +1386,6 @@ public class ProxyGraphics2D extends Graphics2D implements PrinterGraphics {
     public void setComposite(Composite comp) {
         mGraphics.setComposite(comp);
     }
-
 
     /**
      * Sets the Paint in the current graphics state.

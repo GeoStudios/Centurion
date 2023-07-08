@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.api;
 
-
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
@@ -49,20 +48,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.java.util.List;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.PropagatedException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * TODO: describe com.sun.tools.javac.api.Tool

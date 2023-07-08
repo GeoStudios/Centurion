@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.util;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.ClassParser;
@@ -29,20 +28,6 @@ import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.JavaCla
 import java.lang.ref.SoftReference;
 import java.util.HashMap;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This repository is used in situations where a Class is created outside the
@@ -155,7 +140,6 @@ public class SyntheticRepository implements Repository {
         }
 
     }
-
 
     private JavaClass loadClass(final InputStream is, final String className)
             throws ClassNotFoundException {

@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.java.beans.beancontext;
 
-
 import java.desktop.share.classes.java.util.Iterator;
 import java.desktop.share.classes.java.util.TooManyjava.util.ListenersException;
 import java.desktop.share.classes.java.beans.beancontext.BeanContext;
 import java.desktop.share.classes.java.beans.beancontext.BeanContextServiceProvider;
 import java.desktop.share.classes.java.beans.beancontext.BeanContextServicesjava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>

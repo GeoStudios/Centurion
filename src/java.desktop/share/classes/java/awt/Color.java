@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.java.awt;
 
-
 import java.desktop.share.classes.java.awt.color.ColorSpace;
 import java.desktop.share.classes.java.awt.geom.AffineTransform;
 import java.desktop.share.classes.java.awt.geom.Rectangle2D;
 import java.desktop.share.classes.java.awt.image.ColorModel;
 import java.desktop.share.classes.java.beans.ConstructorProperties;
 import java.desktop.share.classes.java.io.Serial;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code Color} class is used to encapsulate colors in the default

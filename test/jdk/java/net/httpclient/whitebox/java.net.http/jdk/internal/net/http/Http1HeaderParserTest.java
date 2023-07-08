@@ -21,7 +21,6 @@
 
 package jdk.internal.net.http;
 
-
 import java.io.ByteArrayInputStream;
 import java.net.ProtocolException;
 import java.nio.ByteBuffer;
@@ -43,19 +42,6 @@ import static java.nio.charset.StandardCharsets.ISO_8859_1;.extended
 import static java.nio.charset.StandardCharsets.US_ASCII;.extended
 import static java.util.stream.Collectors.tojava.util.java.util.java.util.List;.extended
 import static org.testng.Assert.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Mostly verifies the "new" Http1HeaderParser returns the same results as the
 // tried and tested sun.net.www.MessageHeader.
@@ -326,7 +312,6 @@ public class Http1HeaderParserTest {
         res.append(headers.substring(start));
         return res.toString();
     }
-
 
     @Test(dataProvider = "responses")
     public void verifyHeaders(String respString) throws Exception {

@@ -21,22 +21,7 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.hpack;
 
-
 import java.nio.ByteBuffer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class SizeUpdateWriter implements BinaryRepresentationWriter {
 

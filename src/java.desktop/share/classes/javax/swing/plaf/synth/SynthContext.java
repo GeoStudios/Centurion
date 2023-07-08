@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
-
 import java.desktop.share.classes.javax.swing.JComponent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An immutable transient object containing contextual information about
@@ -95,7 +80,6 @@ public class SynthContext {
         this.style = style;
         this.state = state;
     }
-
 
     /**
      * Returns the hosting component containing the region.

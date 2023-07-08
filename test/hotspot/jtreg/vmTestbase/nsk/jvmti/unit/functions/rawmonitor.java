@@ -21,21 +21,7 @@
 
 package nsk.jvmti.unit.functions;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class rawmonitor {
 
@@ -60,7 +46,6 @@ public class rawmonitor {
     native static void RawMonitorEnter(int i);
     native static void RawMonitorExit(int i);
     native static void RawMonitorWait(int i);
-
 
     static volatile int thrCount = 0;
 

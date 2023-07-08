@@ -21,23 +21,8 @@
 
 package demo.share.jfc.SampleTree;
 
-
 import java.awt.Color;
 import java.awt.Font;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This source code is provided to illustrate the usage of a given feature
@@ -46,10 +31,6 @@ import java.awt.Font;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
 
 /**
  */

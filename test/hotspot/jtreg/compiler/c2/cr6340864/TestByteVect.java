@@ -21,21 +21,6 @@
 
 package compiler.c2.cr6340864;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 6340864
@@ -46,7 +31,6 @@ package compiler.c2.cr6340864;
  * @run main/othervm -Xbatch -XX:CompileCommand=exclude,*::test() -Xmx128m -XX:MaxVectorSize=16 compiler.c2.cr6340864.TestByteVect
  * @run main/othervm -Xbatch -XX:CompileCommand=exclude,*::test() -Xmx128m -XX:MaxVectorSize=32 compiler.c2.cr6340864.TestByteVect
  */
-
 
 public class TestByteVect {
   private static final int ARRLEN = 997;

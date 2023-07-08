@@ -21,7 +21,6 @@
 
 package java.management.share.classes.javax.management.openmbean;
 
-
 import com.sun.jmx.mbeanserver.GetPropertyAction;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InvalidObjectException;
@@ -34,20 +33,6 @@ import java.util.Collections;
 import java.util.java.util.java.util.java.util.List;
 import java.management.share.classes.javax.management.Descriptor;
 import java.management.share.classes.javax.management.ImmutableDescriptor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The <code>OpenType</code> class is the parent abstract class of all classes which describe the actual <i>open type</i>
@@ -74,7 +59,6 @@ public abstract class OpenType<T> implements Serializable {
 
     /* Serial version */
     static final long serialVersionUID = -9195195325186646468L;
-
 
     /**
      * List of the fully qualified names of the Java classes allowed for open
@@ -122,14 +106,12 @@ public abstract class OpenType<T> implements Serializable {
           CompositeData.class.getName(),        // better refer to these two class names like this, rather than hardcoding a string,
           TabularData.class.getName()) );       // in case the package of these classes should change (who knows...)
 
-
     /**
      * @deprecated Use {@link #ALLOWED_CLASSNAMES_LIST ALLOWED_CLASSNAMES_LIST} instead.
      */
     @Deprecated
     public static final String[] ALLOWED_CLASSNAMES =
         ALLOWED_CLASSNAMES_LIST.toArray(new String[0]);
-
 
     /**
      * @serial The fully qualified Java class name of open data values this

@@ -21,7 +21,6 @@
 
 package jdk.httpserver.share.classes.sun.net.httpserver;
 
-
 import java.io.*;
 import java.nio.*;
 import java.nio.channels.*;
@@ -30,20 +29,6 @@ import javax.net.ssl.*;
 import java.util.*;
 import com.sun.net.httpserver.*;
 import com.sun.net.httpserver.spi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class HttpsExchangeImpl extends HttpsExchange {
 
@@ -88,7 +73,6 @@ class HttpsExchangeImpl extends HttpsExchange {
     public OutputStream getResponseBody () {
         return impl.getResponseBody();
     }
-
 
     public void sendResponseHeaders (int rCode, long contentLen)
     throws IOException

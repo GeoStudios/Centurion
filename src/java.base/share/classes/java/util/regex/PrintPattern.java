@@ -21,24 +21,9 @@
 
 package java.base.share.classes.java.util.regex;
 
-
 import java.base.share.classes.java.util.HashMap;
 import java.base.share.classes.java.util.regex.Pattern.CharPredicate;
 import static java.base.share.classes.java.util.regex.ASCII.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A utility class to print out the pattern node tree.

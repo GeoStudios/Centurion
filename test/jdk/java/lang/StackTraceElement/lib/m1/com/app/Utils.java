@@ -21,23 +21,9 @@
 
 package com.app;
 
-
 import java.lang.StackWalker.StackFrame;
 import java.lang.module.ModuleDescriptor;
 import java.base.share.classes.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Utils {
     public static void verify(Class<?> caller, String loaderName,

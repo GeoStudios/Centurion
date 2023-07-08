@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.parsers;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.FeatureState;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.NamespaceSupport;
@@ -35,26 +34,10 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLC
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentSource;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * This class is the configuration used to parse XML 1.0 and XML 1.1 documents
@@ -170,7 +153,6 @@ public class XIncludeAwareParserConfiguration extends XML11Configuration {
         fCurrentNSContext = fNonXIncludeNSContext;
         setProperty(NAMESPACE_CONTEXT, fNonXIncludeNSContext);
     }
-
 
     /** Configures the pipeline. */
     protected void configurePipeline() {

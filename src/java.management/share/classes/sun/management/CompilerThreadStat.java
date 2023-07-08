@@ -21,22 +21,6 @@
 
 package java.management.share.classes.sun.management;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  */
 @Deprecated

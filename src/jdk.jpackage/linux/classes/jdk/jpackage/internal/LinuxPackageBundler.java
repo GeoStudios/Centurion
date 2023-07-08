@@ -21,7 +21,6 @@
 
 package jdk.jpackage.linux.classes.jdk.jpackage.internal;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.file.InvalidPathException;
 import java.nio.file.Path;
@@ -45,20 +44,6 @@ import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerPa
 import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.VENDOR;.extended
 import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.DESCRIPTION;.extended
 import static jdk.jpackage.linux.classes.jdk.jpackage.internal.StandardBundlerParam.INSTALL_DIR;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 abstract class LinuxPackageBundler extends AbstractBundler {
 

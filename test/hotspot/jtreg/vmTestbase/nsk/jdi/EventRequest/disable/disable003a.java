@@ -21,24 +21,10 @@
 
 package nsk.jdi.EventRequest.disable;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //    THIS TEST IS LINE NUMBER SENSITIVE
 

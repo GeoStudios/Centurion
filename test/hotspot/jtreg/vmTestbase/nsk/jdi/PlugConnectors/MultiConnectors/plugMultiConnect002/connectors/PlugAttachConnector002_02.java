@@ -21,31 +21,15 @@
 
 package nsk.jdi.PlugConnectors.MultiConnectors.plugMultiConnect002.connectors;
 
-
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import java.util.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * A Simple AttachingConnector with default arguments of all types used by
  * nsk/jdi/PlugConnectors/MultiConnectors/plugMultiConnect002 test
  */
-
-
 
 public class PlugAttachConnector002_02 extends PlugConnectors implements AttachingConnector {
 
@@ -109,7 +93,6 @@ public class PlugAttachConnector002_02 extends PlugConnectors implements Attachi
 
         return plugAttachConnectorDefaultArguments;
     }  // end of prepareConnectorDefaultArguments() method
-
 
     public PlugAttachConnector002_02() {
 

@@ -21,24 +21,10 @@
 
 package vm.share.options;
 
-
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 import java.lang.annotation.ElementType;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This annotation marks fields of type Map<String, String>,

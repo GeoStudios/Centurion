@@ -21,23 +21,9 @@
 
 package jit.misctests.Pi;
 
-
 import java.util.Random;
 import nsk.share.TestFailure;
 import jdk.test.lib.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -50,8 +36,6 @@ import jdk.test.lib.Utils;
  *          /test/lib
  * @run main/othervm jit.misctests.Pi.Pi
  */
-
-
 
 public class Pi{
     static double pi;

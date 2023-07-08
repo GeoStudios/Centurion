@@ -21,23 +21,8 @@
 
 package java.xml.share.classes.org.w3c.dom.ls;
 
-
 import java.xml.share.classes.org.w3c.dom.Node;
 import java.xml.share.classes.org.w3c.dom.Element;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  <code>LSParserFilter</code>s provide applications the ability to examine

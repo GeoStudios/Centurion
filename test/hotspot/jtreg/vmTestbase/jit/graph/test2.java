@@ -21,23 +21,9 @@
 
 package jit.graph;
 
-
 import nsk.share.TestFailure;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Vector;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class test2 {
     private final int[] MethodID = {Globals.MethodID_Array[1], Globals.MethodID_Array[2]};
@@ -74,7 +60,6 @@ class test2 {
             callMe(summation, ID, numFcalls, staticFcalls);
             return;
         }
-
 
         try {
             methodCallStr.nextMethod.invoke(methodCallStr.instance,
@@ -115,7 +100,6 @@ class test2 {
         }
 
         Globals.addFunctionIDToVector(methodCallStr.id, ID);
-
 
         try {
             methodCallStr.nextMethod.invoke(methodCallStr.instance,

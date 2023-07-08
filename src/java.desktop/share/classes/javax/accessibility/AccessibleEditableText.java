@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.accessibility;
 
-
 import java.desktop.share.classes.javax.swing.text.AttributeSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code AccessibleEditableText} interface should be implemented by all

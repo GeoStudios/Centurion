@@ -21,24 +21,10 @@
 
 package nsk.jvmti.GetExtensionEvents;
 
-
 import java.io.PrintStream;
 import java.lang.ref.SoftReference;
 import nsk.share.*;
 import nsk.share.jvmti.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class extevents001 extends DebugeeClass {
 

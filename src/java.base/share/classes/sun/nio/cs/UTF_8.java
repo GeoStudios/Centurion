@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.nio.cs;
 
-
 import jdk.internal.access.JavaLangAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import java.nio.Buffer;
@@ -32,20 +31,6 @@ import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CharsetEncoder;
 import java.nio.charset.CoderResult;
 import java.nio.charset.CodingErrorAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Legal UTF-8 Byte Sequences
  *
@@ -182,7 +167,6 @@ public final class UTF_8 extends Unicode {
             return cr;
         }
 
-
         private static CoderResult malformed(ByteBuffer src,
                                              int mark, int nb)
         {
@@ -209,7 +193,6 @@ public final class UTF_8 extends Unicode {
             src.position(mark);
             return CoderResult.malformedForLength(malformedNB);
         }
-
 
         private static CoderResult xflow(Buffer src, int sp, int sl,
                                          Buffer dst, int dp, int nb) {

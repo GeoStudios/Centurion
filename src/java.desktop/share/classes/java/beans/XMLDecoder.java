@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.beans;
 
-
 import com.sun.beans.decoder.DocumentHandler;
 import java.desktop.share.classes.java.io.Closeable;
 import java.desktop.share.classes.java.io.InputStream;
@@ -31,20 +30,6 @@ import java.desktop.share.classes.java.security.AccessController;
 import java.desktop.share.classes.java.security.PrivilegedAction;
 import org.xml.sax.InputSource;
 import org.xml.sax.helpers.DefaultHandler;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code XMLDecoder} class is used to read XML documents
@@ -135,7 +120,6 @@ public class XMLDecoder implements AutoCloseable {
                       ExceptionListener exceptionListener, ClassLoader cl) {
         this(new InputSource(in), owner, exceptionListener, cl);
     }
-
 
     /**
      * Creates a new decoder to parse XML archives

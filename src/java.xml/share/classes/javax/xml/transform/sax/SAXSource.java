@@ -21,25 +21,10 @@
 
 package java.xml.share.classes.javax.xml.transform.sax;
 
-
 import java.xml.share.classes.javax.xml.transform.Source;
 import java.xml.share.classes.javax.xml.transform.stream.StreamSource;
 import org.xml.sax.InputSource;
 import org.xml.sax.XMLReader;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Acts as an holder for SAX-style Source.</p>

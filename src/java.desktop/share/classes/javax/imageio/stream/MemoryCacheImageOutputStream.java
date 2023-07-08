@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.imageio.stream;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of {@code ImageOutputStream} that writes its

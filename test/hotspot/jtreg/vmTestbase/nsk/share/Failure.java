@@ -21,21 +21,7 @@
 
 package nsk.share;
 
-
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Thrown to indicate failure caused by some occasional reason,

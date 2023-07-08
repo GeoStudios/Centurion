@@ -21,26 +21,12 @@
 
 package vm.mlvm.indy.func.jdi.breakpointOtherStratum;
 
-
 import vm.mlvm.share.jdi.ArgumentHandler;
 import vm.mlvm.share.jdi.BreakpointInfo;
 import vm.mlvm.share.jdi.JDIBreakpointTest;
 import vm.mlvm.share.jpda.StratumInfo;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -79,9 +65,6 @@ import java.util.java.util.java.util.java.util.List;
  *      -transport.address=dynamic
  *      -debugger.debuggeeClass vm.mlvm.share.jdi.IndyDebuggee
  */
-
-
-
 
 public class Test extends JDIBreakpointTest {
     @Override

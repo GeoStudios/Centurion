@@ -21,25 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.dom;
 
-
 import java.xml.share.classes.com.sun.org.w3c.dom.CharacterData;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMException;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 import java.xml.share.classes.com.sun.org.w3c.dom.Text;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Text nodes hold the non-markup, non-Entity content of
@@ -65,7 +50,6 @@ public class TextImpl
     //
     // Private Data members
     //
-
 
     //
     // Constants
@@ -129,7 +113,6 @@ public class TextImpl
 
     } // setIgnorableWhitespace(boolean)
 
-
     /**
      * DOM L3 Core CR - Experimental
      *
@@ -146,7 +129,6 @@ public class TextImpl
         }
         return internalIsIgnorableWhitespace();
     }
-
 
     /**
      * DOM Level 3 WD - Experimental.
@@ -575,7 +557,6 @@ public class TextImpl
         return true;
     }
 
-
     /**
      * NON-DOM: Returns whether this Text is ignorable whitespace.
      */
@@ -587,7 +568,6 @@ public class TextImpl
         return internalIsIgnorableWhitespace();
 
     } // isIgnorableWhitespace():boolean
-
 
     //
     // Text methods
@@ -643,14 +623,12 @@ public class TextImpl
 
     } // splitText(int):Text
 
-
     /**
      * NON-DOM (used by DOMParser): Reset data for the node.
      */
     public void replaceData (String value){
         data = value;
     }
-
 
     /**
      * NON-DOM (used by DOMParser: Sets data to empty string.

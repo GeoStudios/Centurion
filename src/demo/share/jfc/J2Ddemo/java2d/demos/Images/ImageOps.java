@@ -21,7 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d.demos.Images;
 
-
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
@@ -46,20 +45,6 @@ import javax.swing.JSlider;
 import javax.swing.SwingConstants;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.Changejava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Images drawn using operators such as ConvolveOp LowPass & Sharpen,
@@ -186,7 +171,6 @@ public class ImageOps extends ControlsSurface implements ChangeListener {
     public static void main(String[] s) {
         createDemoFrame(new ImageOps());
     }
-
 
     static class DemoControls extends CustomControls implements ActionListener {
 

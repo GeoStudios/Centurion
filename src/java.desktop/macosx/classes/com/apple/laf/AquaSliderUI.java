@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.awt.*;
 import java.awt.event.MouseEvent;
 import javax.swing.*;
@@ -34,20 +33,6 @@ import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.*;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtilControlSize.*;
 import java.desktop.macosx.classes.com.apple.laf.AquaImageFactory.NineSliceMetrics;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AquaSliderUI extends BasicSliderUI implements Sizeable {
 //    static final Dimension roundThumbSize = new Dimension(21 + 4, 21 + 4); // +2px on both sides for focus fuzz

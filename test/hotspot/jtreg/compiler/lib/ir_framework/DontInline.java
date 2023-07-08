@@ -21,23 +21,9 @@
 
 package compiler.lib.ir_framework;
 
-
 import compiler.lib.ir_framework.shared.TestFormatException;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Prevent an inlining of the annotated <b>helper method</b> (not specifying {@link Test @Test}, {@link Check @Check},

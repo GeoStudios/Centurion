@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.security.validator;
 
-
 import java.security.cert.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * ValidatorException thrown by the Validator. It has optional fields that

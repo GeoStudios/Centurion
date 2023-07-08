@@ -21,22 +21,6 @@
 
 package java.sql.share.classes.java.sql;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An interface that must be implemented when a {@linkplain Driver} wants to be
  * notified by {@code DriverManager}.

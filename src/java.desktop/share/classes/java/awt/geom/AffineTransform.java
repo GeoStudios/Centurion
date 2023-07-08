@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.java.awt.geom;
 
-
 import java.desktop.share.classes.java.awt.Shape;
 import java.desktop.share.classes.java.beans.ConstructorProperties;
 import java.desktop.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.desktop.share.classes.java.io.Serial;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code AffineTransform} class represents a 2D affine transform

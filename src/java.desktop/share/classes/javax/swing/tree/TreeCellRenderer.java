@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.javax.swing.tree;
 
-
 import java.awt.Component;
 import java.desktop.share.classes.javax.swing.JTree;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Defines the requirements for an object that displays a tree node.

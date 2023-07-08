@@ -21,21 +21,6 @@
 
 package compiler.escapeAnalysis.cr6795161;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 6795161
@@ -45,7 +30,6 @@ package compiler.escapeAnalysis.cr6795161;
  *      -XX:CompileCommand=compileonly,compiler.escapeAnalysis.cr6795161.Test::*
  *      compiler.escapeAnalysis.cr6795161.Test
  */
-
 
 class Test_Class_1 {
     static String var_1;

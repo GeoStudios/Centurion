@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.plaf.synth;
 
-
 import java.awt.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>SynthPainter</code> is used for painting portions of

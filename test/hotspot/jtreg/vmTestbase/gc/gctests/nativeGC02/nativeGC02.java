@@ -21,23 +21,9 @@
 
 package gc.gctests.nativeGC02;
 
-
 import nsk.share.test.*;
 import nsk.share.gc.*;
 import java.util.Vector;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -51,8 +37,6 @@ import java.util.Vector;
  *          /test/lib
  * @run main/othervm/native gc.gctests.nativeGC02.nativeGC02
  */
-
-
 
 public class nativeGC02 extends GCTestBase {
         private int count = 10000;

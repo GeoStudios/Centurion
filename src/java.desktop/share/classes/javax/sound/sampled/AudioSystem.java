@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.sound.sampled;
 
-
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -41,24 +40,9 @@ import java.desktop.share.classes.javax.sound.sampled.spi.FormatConversionProvid
 import java.desktop.share.classes.javax.sound.sampled.spi.MixerProvider;
 import com.sun.media.sound.JDK13Services;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* $fb TODO:
  * - consistent usage of (typed) collections
  */
-
 
 /**
  * The {@code AudioSystem} class acts as the entry point to the sampled-audio
@@ -360,7 +344,6 @@ public class AudioSystem {
         LineUnavailableException lue = null;
         List<MixerProvider> providers = getMixerProviders();
 
-
         // 1: try from default mixer for this line class
         try {
             Mixer mixer = getDefaultMixer(providers, info);
@@ -373,7 +356,6 @@ public class AudioSystem {
             // must not happen... but better to catch it here,
             // if plug-ins are badly written
         }
-
 
         // 2: if that doesn't work, try to find any mixing mixer
         for(int i = 0; i < providers.size(); i++) {
@@ -395,7 +377,6 @@ public class AudioSystem {
                 }
             }
         }
-
 
         // 3: if that didn't work, try to find any non-mixing mixer
         for(int i = 0; i < providers.size(); i++) {
@@ -1331,7 +1312,6 @@ public class AudioSystem {
             mixer = getNamedMixer(instanceName, providers, info);
             return mixer;
         }
-
 
         /*
          * No defaults are specified, or if something is specified, everything

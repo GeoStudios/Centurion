@@ -21,7 +21,6 @@
 
 package nsk.jvmti.RedefineClasses;
 
-
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.net.URL;
@@ -38,24 +37,7 @@ import nsk.share.test.Stresser;
 import nsk.share.test.Tests;
 import vm.share.InMemoryJavaCompiler;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 //package nsk.jvmti.RedefineClasses.StressRedefine;
-
-
-
-
 
 /**
  * There is a data structure named "dictionary" in class BlockFreelist. It stores

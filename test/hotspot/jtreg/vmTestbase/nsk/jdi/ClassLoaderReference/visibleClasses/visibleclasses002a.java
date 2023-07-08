@@ -21,23 +21,9 @@
 
 package nsk.jdi.ClassLoaderReference.visibleClasses;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The debugged applcation of the test.

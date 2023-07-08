@@ -21,22 +21,8 @@
 
 package selectionresolution;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.util.HashSet;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Representation of an expected result.
@@ -91,7 +77,6 @@ public interface Result {
     public static Result empty() {
         return EMPTY;
     }
-
 
     public boolean complyWith(int i);
     public boolean complyWith(Throwable e);

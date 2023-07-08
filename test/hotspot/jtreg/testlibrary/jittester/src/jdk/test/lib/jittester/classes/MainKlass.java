@@ -21,23 +21,9 @@
 
 package jdk.test.lib.jittester.classes;
 
-
 import jdk.test.lib.jittester.IRNode;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.visitors.Visitor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class MainKlass extends IRNode {
     public enum MainKlassPart {

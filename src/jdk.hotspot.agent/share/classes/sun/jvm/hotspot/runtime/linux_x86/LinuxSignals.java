@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.linux_x86;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class LinuxSignals {
   private static final String[] signalNames = {
     "",           /* No signal 0 */

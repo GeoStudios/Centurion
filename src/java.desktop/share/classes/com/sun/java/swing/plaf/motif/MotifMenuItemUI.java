@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.motif;
 
-
 import javax.swing.*;
 import javax.swing.event.*;
 import java.desktop.share.classes.com.sun.java.awt.*;
 import java.desktop.share.classes.com.sun.java.awt.event.*;
 import javax.swing.plaf.*;
 import javax.swing.plaf.basic.BasicMenuItemUI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * MotifMenuItem implementation

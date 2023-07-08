@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.awt.datatransfer;
 
-
 import java.awt.EventQueue;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.FlavorTable;
@@ -41,20 +40,6 @@ import java.io.java.io.java.io.java.io.IOException;
 import java.desktop.share.classes.sun.awt.AppContext;
 import java.desktop.share.classes.sun.awt.PeerEvent;
 import java.desktop.share.classes.sun.awt.SunToolkit;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Serves as a common, helper superclass for the Win32 and X11 system
@@ -140,7 +125,6 @@ public abstract class SunClipboard extends Clipboard
         return new ClipboardTransferable(this);
     }
 
-
     /**
      * @return the contents of this clipboard if it has been set from the same
      *         AppContext as it is currently retrieved or null otherwise
@@ -149,7 +133,6 @@ public abstract class SunClipboard extends Clipboard
         AppContext context = AppContext.getAppContext();
         return (context == contentsContext) ? contents : null;
     }
-
 
     /**
      * @see java.awt.datatransfer.Clipboard#getAvailableDataFlavors
@@ -306,7 +289,6 @@ public abstract class SunClipboard extends Clipboard
         }
     }
 
-
     protected abstract void clearNativeContext();
 
     protected abstract void setContentsNative(Transferable contents);
@@ -331,13 +313,11 @@ public abstract class SunClipboard extends Clipboard
 
     protected abstract byte[] getClipboardData(long format) throws IOException;
 
-
     private static Set<DataFlavor> formatArrayAsDataFlavorSet(long[] formats) {
         return (formats == null) ? null :
                 DataTransferer.getInstance().
                 getFlavorsForFormatsAsSet(formats, getDefaultFlavorTable());
     }
-
 
     public synchronized void addFlavorListener(FlavorListener listener) {
         if (listener == null) {

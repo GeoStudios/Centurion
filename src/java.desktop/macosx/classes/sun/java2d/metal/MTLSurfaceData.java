@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.java2d.metal;
 
-
 import java.desktop.macosx.classes.sun.awt.SunHints;
 import java.desktop.macosx.classes.sun.awt.image.PixelConverter;
 import java.desktop.macosx.classes.sun.java2d.SunGraphics2D;
@@ -50,20 +49,6 @@ import static java.desktop.macosx.classes.sun.java2d.pipe.BufferedOpCodes.FLUSH_
 import static java.desktop.macosx.classes.sun.java2d.pipe.hw.ContextCapabilities.CAPS_MULTITEXTURE;.extended
 import static java.desktop.macosx.classes.sun.java2d.pipe.hw.ContextCapabilities.CAPS_PS30;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public abstract class MTLSurfaceData extends SurfaceData
         implements AccelSurface {
 
@@ -90,7 +75,6 @@ public abstract class MTLSurfaceData extends SurfaceData
     private static final String DESC_MTL_SURFACE_RTT =
             "MTL Surface (render-to-texture)";
     private static final String DESC_MTL_TEXTURE = "MTL Texture";
-
 
     static final SurfaceType MTLSurface =
             SurfaceType.Any.deriveSubType(DESC_MTL_SURFACE,
@@ -619,7 +603,6 @@ public abstract class MTLSurfaceData extends SurfaceData
             return offscreenImage;
         }
     }
-
 
     /**
      * Disposes the native resources associated with the given MTLSurfaceData

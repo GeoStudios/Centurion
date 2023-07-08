@@ -21,23 +21,9 @@
 
 package nsk.jdi.ThreadReference._bounds_;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  <code>bounds001a</code> is deugee's part of the bounds001.

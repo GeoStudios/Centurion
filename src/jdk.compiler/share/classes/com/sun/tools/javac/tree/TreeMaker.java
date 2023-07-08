@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.tree;
 
-
 import java.util.Iterator;
 import jdk.compiler.share.classes.com.sun.source.tree.CaseTree;
 import jdk.compiler.share.classes.com.sun.source.tree.ModuleTree.ModuleKind;
@@ -35,20 +34,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Flags.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.Kinds.Kind.*;.extended
 import static jdk.compiler.share.classes.com.sun.tools.javac.code.TypeTag.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Factory class for trees.
  *

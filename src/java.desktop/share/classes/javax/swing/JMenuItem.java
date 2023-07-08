@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.Component;
 import java.awt.event.FocusEvent;
 import java.awt.event.Focusjava.util.Listener;
@@ -46,20 +45,6 @@ import java.desktop.share.classes.javax.swing.event.MenuDragMousejava.util.Liste
 import java.desktop.share.classes.javax.swing.event.MenuKeyEvent;
 import java.desktop.share.classes.javax.swing.event.MenuKeyjava.util.Listener;
 import java.desktop.share.classes.javax.swing.plaf.MenuItemUI;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of an item in a menu. A menu item is essentially a button
@@ -239,7 +224,6 @@ public class JMenuItem extends AbstractButton implements Accessible,MenuElement 
         }
     }
 
-
     /**
      * Sets the look and feel object that renders this component.
      *
@@ -261,7 +245,6 @@ public class JMenuItem extends AbstractButton implements Accessible,MenuElement 
         setUI((MenuItemUI)UIManager.getUI(this));
     }
 
-
     /**
      * Returns the suffix used to construct the name of the L&amp;F class used to
      * render this component.
@@ -274,7 +257,6 @@ public class JMenuItem extends AbstractButton implements Accessible,MenuElement 
     public String getUIClassID() {
         return uiClassID;
     }
-
 
     /**
      * Identifies the menu item as "armed". If the mouse button is
@@ -321,7 +303,6 @@ public class JMenuItem extends AbstractButton implements Accessible,MenuElement 
         super.setEnabled(b);
     }
 
-
     /**
      * Returns true since <code>Menu</code>s, by definition,
      * should always be on top of all other windows.  If the menu is
@@ -333,7 +314,6 @@ public class JMenuItem extends AbstractButton implements Accessible,MenuElement 
         // Fix for bug #4482165
         return SwingUtilities.getAncestorOfClass(JInternalFrame.class, this) == null;
     }
-
 
     /* The keystroke which acts as the menu item's accelerator
      */
@@ -435,7 +415,6 @@ public class JMenuItem extends AbstractButton implements Accessible,MenuElement 
                                         path, manager));
     }
 
-
     /**
      * Processes a key event forwarded from the
      * <code>MenuSelectionManager</code> and changes the menu selection,
@@ -464,8 +443,6 @@ public class JMenuItem extends AbstractButton implements Accessible,MenuElement 
             e.consume();
         }
     }
-
-
 
     /**
      * Handles mouse drag in a menu.
@@ -783,7 +760,6 @@ public class JMenuItem extends AbstractButton implements Accessible,MenuElement 
         }
     }
 
-
     /**
      * Returns a string representation of this <code>JMenuItem</code>.
      * This method is intended to be used only for debugging purposes,
@@ -818,7 +794,6 @@ public class JMenuItem extends AbstractButton implements Accessible,MenuElement 
         }
         return accessibleContext;
     }
-
 
     /**
      * This class implements accessibility support for the
@@ -949,6 +924,5 @@ public class JMenuItem extends AbstractButton implements Accessible,MenuElement 
 
         }
     } // inner class AccessibleJMenuItem
-
 
 }

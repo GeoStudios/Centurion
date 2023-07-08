@@ -21,22 +21,7 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset.spi;
 
-
 import java.sql.SQLException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Indicates an error with <code>SyncFactory</code> mechanism. A disconnected

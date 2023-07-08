@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr;
 
-
 import java.io.Closeable;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -36,20 +35,6 @@ import jdk.jfr.share.classes.jdk.jfr.internal.PlatformRecording;
 import jdk.jfr.share.classes.jdk.jfr.internal.Type;
 import jdk.jfr.share.classes.jdk.jfr.internal.Utils;
 import jdk.jfr.share.classes.jdk.jfr.internal.WriteableUserPath;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides means to configure, start, stop and dump recording data to disk.

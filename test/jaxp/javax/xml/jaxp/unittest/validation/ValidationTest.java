@@ -21,7 +21,6 @@
 
 package validation;
 
-
 import java.io.File;
 import java.io.FileInputStream;
 import javax.xml.XMLConstants;
@@ -44,19 +43,6 @@ import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 import org.xml.sax.XMLFilter;
 import org.xml.sax.helpers.XMLFilterImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

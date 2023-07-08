@@ -21,25 +21,11 @@
 
 package vm.mlvm.indy.stress.java.relinkVolatileCallSite;
 
-
 import java.lang.invoke.CallSite;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.VolatileCallSite;
 import vm.mlvm.indy.share.INDIFY_RelinkCallSiteTest;
 import vm.mlvm.share.MlvmTest;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -69,9 +55,6 @@ import vm.mlvm.share.MlvmTest;
  *      vm.mlvm.indy.stress.java.relinkVolatileCallSite.Test
  *      -stressIterationsFactor 100000
  */
-
-
-
 
 public class Test extends INDIFY_RelinkCallSiteTest {
 

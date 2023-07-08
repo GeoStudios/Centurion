@@ -21,7 +21,6 @@
 
 package java.sql.rowset.share.classes.com.sun.rowset;
 
-
 import java.sql.*;
 import javax.sql.*;
 import java.io.*;
@@ -33,20 +32,6 @@ import javax.sql.rowset.*;
 import javax.sql.rowset.spi.*;
 import java.sql.rowset.share.classes.com.sun.rowset.providers.*;
 import java.sql.rowset.share.classes.com.sun.rowset.internal.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The standard implementation of the <code>WebRowSet</code> interface. See the interface

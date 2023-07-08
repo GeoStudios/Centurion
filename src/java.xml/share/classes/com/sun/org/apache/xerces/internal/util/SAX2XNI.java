@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xs.util.SimpleLocator;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.jaxp.validation.WrappedSAXException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.QName;
@@ -35,26 +34,10 @@ import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.Locator;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Receves SAX {@link ContentHandler} events
@@ -72,7 +55,6 @@ public class SAX2XNI implements ContentHandler, XMLDocumentSource {
     private final NamespaceSupport nsContext = new NamespaceSupport();
     private final SymbolTable symbolTable = new SymbolTable();
 
-
     public void setDocumentHandler(XMLDocumentHandler handler) {
         fCore = handler;
     }
@@ -80,7 +62,6 @@ public class SAX2XNI implements ContentHandler, XMLDocumentSource {
     public XMLDocumentHandler getDocumentHandler() {
         return fCore;
     }
-
 
     //
     //
@@ -219,7 +200,6 @@ public class SAX2XNI implements ContentHandler, XMLDocumentSource {
         // for now
         return new XMLString(str.toCharArray(), 0, str.length());
     }
-
 
     /** only one instance of XMLAttributes is used. */
     private final XMLAttributes xa = new XMLAttributesImpl();

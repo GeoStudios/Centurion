@@ -21,23 +21,8 @@
 
 package java.naming.share.classes.javax.naming.directory;
 
-
 import java.util.Hashtable;
 import java.naming.share.classes.javax.naming.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is the starting context for performing

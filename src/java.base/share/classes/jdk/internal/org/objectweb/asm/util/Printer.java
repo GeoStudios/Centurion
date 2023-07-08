@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm.util;
 
-
 import java.io.FileInputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -37,20 +36,6 @@ import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.Type;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.TypePath;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.TypeReference;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An abstract converter from visit events to text.

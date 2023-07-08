@@ -21,21 +21,7 @@
 
 package nsk.share;
 
-
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Denotation implies a pair of algorithms for naming and

@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface PointerType extends Type {
   Type getTargetType();
 }

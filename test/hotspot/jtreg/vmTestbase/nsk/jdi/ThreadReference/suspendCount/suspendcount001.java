@@ -21,7 +21,6 @@
 
 package nsk.jdi.ThreadReference.suspendCount;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -158,7 +144,6 @@ public class suspendcount001 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -198,7 +183,6 @@ public class suspendcount001 {
 
             int expresult = returnCode0;
 
-
             eventRManager = vm.eventRequestManager();
             eventQueue    = vm.eventQueue();
 
@@ -211,7 +195,6 @@ public class suspendcount001 {
             //String bpLine2 = "breakpointLineNumber2";
             //String bpLine3 = "breakpointLineNumber3";
 
-
             List            allThreads   = null;
             ListIterator    listIterator = null;
             List            classes      = null;
@@ -219,7 +202,6 @@ public class suspendcount001 {
             //BreakpointRequest breakpRequest1 = null;
             //BreakpointRequest breakpRequest2 = null;
             //BreakpointRequest breakpRequest3 = null;
-
 
             label0: {
 
@@ -253,7 +235,6 @@ public class suspendcount001 {
                 if (expresult != returnCode0)
                     break label1;
 
-
                 int suspCount;
 
                 log2("         check #1: the beginning: suspCount == 0 ");
@@ -262,7 +243,6 @@ public class suspendcount001 {
                     log3("ERROR: 1: suspCount != 0 : " + suspCount);
                     expresult = returnCode1;
                 }
-
 
                 log2("        suspending thread2 with: thread2.suspend(); ");
                 thread2.suspend();
@@ -274,7 +254,6 @@ public class suspendcount001 {
                     expresult = returnCode1;
                 }
 
-
                 log2("        suspending thread2 with: thread2.suspend(); ");
                 thread2.suspend();
 
@@ -284,7 +263,6 @@ public class suspendcount001 {
                     log3("ERROR: 3: suspCount != 2 : " + suspCount);
                     expresult = returnCode1;;
                 }
-
 
                 log2("        resuming thread2 with: thread2.resume(); ");
                 thread2.resume();
@@ -296,7 +274,6 @@ public class suspendcount001 {
                     expresult = returnCode1;
                 }
 
-
                 log2("        resuming thread2 with: thread2.resume(); ");
                 thread2.resume();
 
@@ -306,7 +283,6 @@ public class suspendcount001 {
                     log3("ERROR: 5: suspCount != 0 : " + suspCount);
                     expresult = returnCode1;
                 }
-
 
                 log2("        resuming NON-SUSPENDED thread2 with: thread2.resume(); ");
                 thread2.resume();
@@ -318,7 +294,6 @@ public class suspendcount001 {
                     expresult = returnCode1;
                 }
 
-
                 log2("        suspending thread2 with: thread2.suspend(); ");
                 thread2.suspend();
 
@@ -329,7 +304,6 @@ public class suspendcount001 {
                     expresult = returnCode1;
                 }
 
-
                 log2("       suspending VirtualMachine with vm.suspend(); ");
                 vm.suspend();
 
@@ -339,7 +313,6 @@ public class suspendcount001 {
                     log3("ERROR: 8: suspCount != 2 : " + suspCount);
                     expresult = returnCode1;
                 }
-
 
                 log2("       9: resuming only thread2 with double thread2.resume(); ");
                 thread2.resume();
@@ -352,7 +325,6 @@ public class suspendcount001 {
                     expresult = returnCode1;
                 }
 
-
                 log2("       10: suspending VirtualMachine with double vm.suspend(); ");
                 vm.suspend();
                 vm.suspend();
@@ -363,7 +335,6 @@ public class suspendcount001 {
                     log3("ERROR: 10: suspCount != 2 : " + suspCount);
                     expresult = returnCode1;
                 }
-
 
                 log2("       11: resuming with thread2.resume(); and vm.resume(); ");
                 thread2.resume();
@@ -378,7 +349,6 @@ public class suspendcount001 {
 
                 vm.resume();
                 vm.resume();
-
 
                 log2("       forcing the main thread to leave synchronized block");
                 pipe.println("continue");
@@ -419,7 +389,6 @@ public class suspendcount001 {
         }
         return testExitCode;
     }
-
 
    /*
     * private BreakpointRequest settingBreakpoint(String, String, String)

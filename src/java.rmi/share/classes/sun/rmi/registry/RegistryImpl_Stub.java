@@ -21,23 +21,8 @@
 
 package java.rmi.share.classes.sun.rmi.registry;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.rmi.share.classes.sun.rmi.transport.StreamRemoteCall;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Stubs to invoke RegistryImpl remote methods.

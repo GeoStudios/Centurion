@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui;
 
-
 import java.awt.*;
 import java.awt.datatransfer.*;
 import java.awt.event.*;
@@ -33,20 +32,6 @@ import javax.swing.event.*;
 import javax.swing.table.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.ui.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class MemoryPanel extends JPanel {
   private final boolean is64Bit;
@@ -456,7 +441,6 @@ public class MemoryPanel extends JPanel {
           }
         }
       });
-
 
     add(table, BorderLayout.CENTER);
 

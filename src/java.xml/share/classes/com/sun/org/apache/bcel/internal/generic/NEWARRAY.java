@@ -21,25 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.ExceptionConst;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.util.ByteSequence;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * NEWARRAY -  Create new array of basic type (int, short, ...)
@@ -53,7 +38,6 @@ public class NEWARRAY extends Instruction implements AllocationInstruction, Exce
 
     private byte type;
 
-
     /**
      * Empty constructor needed for Instruction.readInstruction.
      * Not to be used otherwise.
@@ -61,17 +45,14 @@ public class NEWARRAY extends Instruction implements AllocationInstruction, Exce
     NEWARRAY() {
     }
 
-
     public NEWARRAY(final byte type) {
         super(com.sun.org.apache.bcel.internal.Const.NEWARRAY, (short) 2);
         this.type = type;
     }
 
-
     public NEWARRAY(final BasicType type) {
         this(type.getType());
     }
-
 
     /**
      * Dump instruction as byte code to stream out.
@@ -83,14 +64,12 @@ public class NEWARRAY extends Instruction implements AllocationInstruction, Exce
         out.writeByte(type);
     }
 
-
     /**
      * @return numeric code for basic element type
      */
     public final byte getTypecode() {
         return type;
     }
-
 
     /**
      * @return type of constructed array
@@ -99,7 +78,6 @@ public class NEWARRAY extends Instruction implements AllocationInstruction, Exce
         return new ArrayType(BasicType.getType(type), 1);
     }
 
-
     /**
      * @return mnemonic for instruction
      */
@@ -107,7 +85,6 @@ public class NEWARRAY extends Instruction implements AllocationInstruction, Exce
     public String toString( final boolean verbose ) {
         return super.toString(verbose) + " " + com.sun.org.apache.bcel.internal.Const.getTypeName(type);
     }
-
 
     /**
      * Read needed data (e.g. index) from file.
@@ -118,14 +95,12 @@ public class NEWARRAY extends Instruction implements AllocationInstruction, Exce
         super.setLength(2);
     }
 
-
     @Override
     public Class<?>[] getExceptions() {
         return new Class<?>[] {
             ExceptionConst.NEGATIVE_ARRAY_SIZE_EXCEPTION
         };
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

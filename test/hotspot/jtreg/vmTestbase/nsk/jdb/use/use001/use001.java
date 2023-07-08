@@ -21,25 +21,11 @@
 
 package nsk.jdb.use.use001;
 
-
 import nsk.share.*;
 import nsk.share.jdb.*;
 import jdk.test.lib.Utils;
 import java.io.*;
 import java.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -73,9 +59,6 @@ import java.util.*;
  *      -workdir=.
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
-
-
-
 
 public class use001 extends JdbTest {
 

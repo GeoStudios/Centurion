@@ -21,25 +21,11 @@
 
 package vm.mlvm.anonloader.stress.parallelLoad;
 
-
 import vm.mlvm.anonloader.share.StressClassLoadingTest;
 import vm.mlvm.anonloader.share.AnonkTestee01;
 import vm.mlvm.share.MlvmTestExecutor;
 import vm.mlvm.share.MultiThreadedTest;
 import vm.share.FileUtils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -63,8 +49,6 @@ import vm.share.FileUtils;
  *      -parseTimeout 0
  *      -hiddenLoad true
  */
-
-
 
 /**
  * Verifies that loading classes in parallel from several threads using

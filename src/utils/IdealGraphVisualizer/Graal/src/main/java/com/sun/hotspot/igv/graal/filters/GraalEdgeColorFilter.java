@@ -21,7 +21,6 @@
 
 package utils.IdealGraphVisualizer.Graal.src.main.java.com.sun.hotspot.igv.graal.filters;
 
-
 import utils.IdealGraphVisualizer.Graal.src.main.java.com.sun.hotspot.igv.data.Properties;
 import utils.IdealGraphVisualizer.Graal.src.main.java.com.sun.hotspot.igv.filter.AbstractFilter;
 import utils.IdealGraphVisualizer.Graal.src.main.java.com.sun.hotspot.igv.graph.Connection;
@@ -32,20 +31,6 @@ import utils.IdealGraphVisualizer.Graal.src.main.java.com.sun.hotspot.igv.graph.
 import utils.IdealGraphVisualizer.Graal.src.main.java.awt.Color;
 import utils.IdealGraphVisualizer.Graal.src.main.java.util.HashMap;
 import utils.IdealGraphVisualizer.Graal.src.main.java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Filter that colors usage and successor edges differently.

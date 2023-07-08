@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * Super class for the IFxxx family of instructions.
@@ -56,7 +39,6 @@ public abstract class IfInstruction extends BranchInstruction implements StackCo
     IfInstruction() {
     }
 
-
     /**
      * @param opcode opcode of instruction
      * @param target Target instruction to branch to
@@ -64,7 +46,6 @@ public abstract class IfInstruction extends BranchInstruction implements StackCo
     protected IfInstruction(final short opcode, final InstructionHandle target) {
         super(opcode, target);
     }
-
 
     /**
      * @return negation of instruction, e.g. IFEQ.negate() == IFNE

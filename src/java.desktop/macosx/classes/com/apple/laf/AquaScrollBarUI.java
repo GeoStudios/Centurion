@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.*;
@@ -34,20 +33,6 @@ import java.desktop.macosx.classes.com.apple.laf.*;
 import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.*;
 import java.desktop.macosx.classes.com.apple.laf.JRSUIState.ScrollBarState;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class AquaScrollBarUI extends ScrollBarUI {
     private static final int kInitialDelay = 300;

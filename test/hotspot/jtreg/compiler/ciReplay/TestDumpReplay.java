@@ -21,21 +21,7 @@
 
 package compiler.ciReplay;
 
-
 import sun.hotspot.WhiteBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -49,8 +35,6 @@ import sun.hotspot.WhiteBox;
  *                   -XX:CompileCommand=compileonly,compiler.ciReplay.TestDumpReplay::*
  *                   compiler.ciReplay.TestDumpReplay
  */
-
-
 
 public class TestDumpReplay {
     private static final WhiteBox WHITE_BOX = WhiteBox.getWhiteBox();

@@ -21,22 +21,6 @@
 
 package java.management.share.classes.javax.management;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Wraps exceptions thrown by the preRegister(), preDeregister() methods
  * of the <CODE>MBeanRegistration</CODE> interface.

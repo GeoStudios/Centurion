@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.java.awt.image;
 
-
 import java.desktop.share.classes.java.awt.Rectangle;
 import java.desktop.share.classes.java.util.Dictionary;
 import java.desktop.share.classes.java.util.Vector;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * RenderedImage is a common interface for objects which contain

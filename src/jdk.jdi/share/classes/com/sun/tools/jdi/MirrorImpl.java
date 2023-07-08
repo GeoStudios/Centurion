@@ -21,25 +21,10 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import java.util.Collection;
 import jdk.jdi.share.classes.com.sun.jdi.Mirror;
 import jdk.jdi.share.classes.com.sun.jdi.VMMismatchException;
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 abstract class MirrorImpl implements Mirror {
 

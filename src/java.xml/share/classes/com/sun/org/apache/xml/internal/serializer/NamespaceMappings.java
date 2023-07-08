@@ -21,26 +21,11 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
-
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Stack;
 import java.xml.share.classes.com.sun.org.xml.sax.ContentHandler;
 import java.xml.share.classes.com.sun.org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class keeps track of the currently defined namespaces. Conceptually the
@@ -128,7 +113,6 @@ public class NamespaceMappings
      */
     private void initNamespaces()
     {
-
 
         // Define the default namespace (initially maps to "" uri)
         Stack<MappingRecord> stack;
@@ -300,7 +284,6 @@ public class NamespaceMappings
     {
         return "ns" + (count++);
     }
-
 
     /**
      * This method makes a clone of this object.

@@ -21,7 +21,6 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal.plugins;
 
-
 import java.util.Map;
 import jdk.jlink.share.classes.jdk.tools.jlink.internal.PluginRepository;
 import jdk.jlink.share.classes.jdk.tools.jlink.internal.ResourcePoolManager;
@@ -29,20 +28,6 @@ import jdk.jlink.share.classes.jdk.tools.jlink.internal.ResourcePoolManager.Reso
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.Plugin;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePool;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolBuilder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Combined debug stripping plugin: Java debug attributes and native debug

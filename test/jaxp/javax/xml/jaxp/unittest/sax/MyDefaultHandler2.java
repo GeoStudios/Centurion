@@ -21,7 +21,6 @@
 
 package sax;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import org.xml.sax.Attributes;
 import org.xml.sax.InputSource;
@@ -34,19 +33,6 @@ import org.xml.sax.ext.Locator2;
 import org.xml.sax.ext.Locator2Impl;
 import org.xml.sax.helpers.XMLFilterImpl;
 import org.xml.sax.helpers.XMLReaderAdapter;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class MyDefaultHandler2 extends DefaultHandler2 {
     Locator2Impl locator = new Locator2Impl();

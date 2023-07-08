@@ -21,7 +21,6 @@
 
 package java.management.share.classes.javax.management.relation;
 
-
 import static com.sun.jmx.mbeanserver.Util.cast;.extended
 import com.sun.jmx.mbeanserver.GetPropertyAction;
 import java.io.java.io.java.io.java.io.IOException;
@@ -34,20 +33,6 @@ import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Iterator;
 import java.util.java.util.java.util.java.util.List;
 import java.management.share.classes.javax.management.ObjectName;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents a role: includes a role name and referenced MBeans (via their
@@ -316,7 +301,6 @@ public class Role implements Serializable {
         in.defaultReadObject();
       }
     }
-
 
     /**
      * Serializes a {@link Role} to an {@link ObjectOutputStream}.

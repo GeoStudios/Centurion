@@ -21,7 +21,6 @@
 
 package jdk.jdeps.share.classes.com.sun.tools.javap;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -37,20 +36,6 @@ import jdk.jdeps.share.classes.com.sun.tools.classfile.Method;
 import jdk.jdeps.share.classes.com.sun.tools.classfile.StackMapTable_attribute;
 import jdk.jdeps.share.classes.com.sun.tools.classfile.StackMapTable_attribute.*;
 import static jdk.jdeps.share.classes.com.sun.tools.classfile.StackMapTable_attribute.verification_type_info.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Annotate instructions with stack map.

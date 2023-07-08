@@ -21,27 +21,12 @@
 
 package jdk.jstatd.share.classes.sun.jvmstat.perfdata.monitor.protocol.rmi;
 
-
 import jdk.jstatd.share.classes.sun.jvmstat.monitor.*;
 import jdk.jstatd.share.classes.sun.jvmstat.monitor.remote.*;
 import jdk.jstatd.share.classes.sun.jvmstat.perfdata.monitor.*;
 import java.io.*;
 import java.rmi.RemoteException;
 import java.nio.ByteBuffer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The concrete PerfDataBuffer implementation for the <em>rmi:</em>

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.text;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.InvalidObjectException;
 import java.base.share.classes.java.io.ObjectInputStream;
@@ -40,20 +39,6 @@ import sun.util.calendar.CalendarUtils;
 import sun.util.calendar.ZoneInfoFile;
 import sun.util.locale.provider.LocaleProviderAdapter;
 import sun.util.locale.provider.TimeZoneNameUtility;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * {@code SimpleDateFormat} is a concrete class for formatting and
@@ -1417,7 +1402,6 @@ public class SimpleDateFormat extends DateFormat {
         numberFormat.setMaximumIntegerDigits(maxDigits);
         numberFormat.format(value, buffer, DontCareFieldPosition.INSTANCE);
     }
-
 
     /**
      * Parses text from a string to produce a {@code Date}.

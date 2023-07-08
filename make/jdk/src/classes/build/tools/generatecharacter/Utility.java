@@ -21,56 +21,6 @@
 
 package build.tools.generatecharacter;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Utility {
     static byte peekByte(String s, int index) {
         char c = s.charAt(index/2);

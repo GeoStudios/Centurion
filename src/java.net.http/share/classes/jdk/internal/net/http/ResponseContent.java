@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;
@@ -34,20 +33,6 @@ import java.net.http.HttpResponse;
 import java.net.http.share.classes.jdk.internal.net.http.common.Logger;
 import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
 import static java.lang.String.format;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implements chunked/fixed transfer encodings of HTTP/1.1 responses.
@@ -134,7 +119,6 @@ class ResponseContent {
                 : new FixedLengthBodyParser(contentLength, onComplete);
         }
     }
-
 
     enum ChunkState {READING_LENGTH, READING_DATA, DONE}
     static final int MAX_CHUNK_HEADER_SIZE = 2050;
@@ -302,7 +286,6 @@ class ResponseContent {
             return -1;
         }
 
-
         // try to consume as many bytes as specified by bytesToConsume.
         // returns the number of bytes that still need to be consumed.
         // In practice this method is only called to consume one CRLF pair
@@ -369,7 +352,6 @@ class ResponseContent {
             toconsume = bytesToConsume;
             assert toconsume == 0;
 
-
             if (st == ChunkState.READING_LENGTH) {
                 // we will come here only if chunklen was 0, after having
                 // consumed the trailing CRLF
@@ -428,7 +410,6 @@ class ResponseContent {
             }
             return returnBuffer;
         }
-
 
         // Attempt to parse and push one hunk from the buffer.
         // Returns true if the final chunk was parsed.

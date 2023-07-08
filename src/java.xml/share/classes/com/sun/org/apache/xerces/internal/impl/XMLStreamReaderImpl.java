@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.NamespaceContextWrapper;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.NamespaceSupport;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.SymbolTable;
@@ -55,20 +54,6 @@ import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.events.EntityDeclaration;
 import javax.xml.stream.events.NotationDeclaration;
 import javax.xml.stream.events.XMLEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class implements javax.xml.stream.XMLStreamReader. It makes use of

@@ -21,26 +21,11 @@
 
 package utils.IdealGraphVisualizer.Coordinator.src.main.java.com.sun.hotspot.igv.coordinator.actions;
 
-
 import javax.swing.Action;
 import org.openide.nodes.Node;
 import org.openide.util.HelpCtx;
 import org.openide.util.NbBundle;
 import org.openide.util.actions.NodeAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

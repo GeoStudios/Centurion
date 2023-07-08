@@ -21,7 +21,6 @@
 
 package jdk.test.lib.jittester.factories;
 
-
 import jdk.test.lib.util.Pair;
 import jdk.test.lib.jittester.BinaryOperator;
 import jdk.test.lib.jittester.IRNode;
@@ -32,19 +31,6 @@ import jdk.test.lib.jittester.Typejava.util.java.util.java.util.List;
 import jdk.test.lib.jittester.utils.TypeUtil;
 import jdk.test.lib.jittester.types.TypeKlass;
 import jdk.test.lib.jittester.utils.PseudoRandom;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class CompoundShiftAssignmentOperatorFactory extends BinaryOperatorFactory {
     CompoundShiftAssignmentOperatorFactory(OperatorKind opKind, long complexityLimit,

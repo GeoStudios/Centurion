@@ -21,7 +21,6 @@
 
 package jdk.internal.net.http.frame;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -31,19 +30,6 @@ import org.testng.annotations.Test;
 import static java.lang.System.out;.extended
 import static java.nio.charset.StandardCharsets.UTF_8;.extended
 import static org.testng.Assert.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class FramesDecoderTest {
 
@@ -103,7 +89,6 @@ public class FramesDecoderTest {
         decoder.decode(combined);
         Assert.assertEquals(testFrameProcessor.numberOfFramesDecoded(), 2);
     }
-
 
     /**
      * Verifies that a ByteBuffer containing ONLY data one frame, destined

@@ -21,20 +21,5 @@
 
 package asteroids;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 final class Pluto extends planets.OuterPlanets { }
 

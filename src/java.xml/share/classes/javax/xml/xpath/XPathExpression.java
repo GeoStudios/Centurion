@@ -21,23 +21,8 @@
 
 package java.xml.share.classes.javax.xml.xpath;
 
-
 import java.xml.share.classes.javax.xml.namespace.QName;
 import org.xml.sax.InputSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * {@code XPathExpression} provides access to compiled XPath expressions.
@@ -108,7 +93,6 @@ import org.xml.sax.InputSource;
  * @see <a href="http://www.w3.org/TR/xpath#section-Expressions">XML Path Language (XPath) Version 1.0, Expressions</a>
  */
 public interface XPathExpression {
-
 
     /**
      * Evaluate the compiled XPath expression in the specified context and return the result as the specified type.

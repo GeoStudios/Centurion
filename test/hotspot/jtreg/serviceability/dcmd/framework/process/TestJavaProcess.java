@@ -21,22 +21,8 @@
 
 package process;
 
-
 import nsk.share.jdi.ArgumentHandler;
 import nsk.share.jpda.IOPipe;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A simple process that connects to a pipe and waits for command "quit" to

@@ -21,7 +21,6 @@
 
 package jdk.zipfs.share.classes.jdk.nio.zipfs;
 
-
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -45,20 +44,6 @@ import static java.nio.file.StandardOpenOption.CREATE;.extended
 import static java.nio.file.StandardOpenOption.READ;.extended
 import static java.nio.file.StandardOpenOption.TRUNCATE_EXISTING;.extended
 import static java.nio.file.StandardOpenOption.WRITE;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  */
@@ -868,7 +853,6 @@ final class ZipPath implements Path {
     {
         return zfs.newByteChannel(getResolvedPath(), options, attrs);
     }
-
 
     FileChannel newFileChannel(Set<? extends OpenOption> options,
                                FileAttribute<?>... attrs)

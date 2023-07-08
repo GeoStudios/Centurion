@@ -21,22 +21,8 @@
 
 package compiler.intrinsics.bmi.verifycode;
 
-
 import compiler.intrinsics.bmi.TestBlsmskI;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -52,8 +38,6 @@ import java.lang.reflect.Method;
  *      -XX:+IgnoreUnrecognizedVMOptions -XX:+UseBMI1Instructions
  *      compiler.intrinsics.bmi.verifycode.BlsmskTestI
  */
-
-
 
 public class BlsmskTestI extends BmiIntrinsicBase.BmiTestCase {
 

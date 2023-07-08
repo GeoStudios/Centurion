@@ -21,7 +21,6 @@
 
 package java.management.share.classes.com.sun.jmx.remote.internal;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.NotSerializableException;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -46,20 +45,6 @@ import java.management.share.classes.com.sun.jmx.remote.util.ClassLogger;
 import java.management.share.classes.com.sun.jmx.remote.util.EnvHelp;
 import java.lang.reflect.UndeclaredThrowableException;
 import java.util.concurrent.RejectedExecutionException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class ClientNotifForwarder {
 
@@ -169,7 +154,6 @@ public abstract class ClientNotifForwarder {
      */
     abstract protected void lostNotifs(String message, long number);
 
-
     public synchronized void addNotificationListener(Integer listenerID,
                                         ObjectName name,
                                         NotificationListener listener,
@@ -190,7 +174,6 @@ public abstract class ClientNotifForwarder {
                                             filter,
                                             handback,
                                             delegationSubject));
-
 
         init(false);
     }
@@ -322,7 +305,6 @@ public abstract class ClientNotifForwarder {
         final ClientListenerInfo[] tmp =
             infoList.values().toArray(new ClientListenerInfo[0]);
 
-
         beingReconnected = true;
 
         infoList.clear();
@@ -417,7 +399,6 @@ public abstract class ClientNotifForwarder {
         setState(TERMINATED);
     }
 
-
     // -------------------------------------------------
     // private classes
     // -------------------------------------------------
@@ -496,7 +477,6 @@ public abstract class ClientNotifForwarder {
                     setState(STARTED);
                 }
             }
-
 
             NotificationResult nr = null;
             if (!shouldStop() && (nr = fetchNotifs()) != null) {
@@ -785,7 +765,6 @@ public abstract class ClientNotifForwarder {
             }
         }
     }
-
 
 // -------------------------------------------------
 // private methods

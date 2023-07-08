@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing.text.html.parser;
 
-
 import java.desktop.share.classes.javax.swing.text.html.HTML;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A generic HTML TagElement class. The methods define how white

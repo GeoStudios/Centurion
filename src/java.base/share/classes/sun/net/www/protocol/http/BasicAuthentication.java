@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.net.www.protocol.http;
 
-
 import java.net.URL;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -38,26 +37,11 @@ import java.base.share.classes.sun.net.www.HeaderParser;
 import java.base.share.classes.sun.nio.cs.ISO_8859_1;
 import java.base.share.classes.sun.nio.cs.UTF_8;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * BasicAuthentication: Encapsulate an http server authentication using
  * the "basic" scheme.
  *
  */
-
 
 class BasicAuthentication extends AuthenticationInfo {
 

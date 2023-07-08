@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Models the closest symbol to a given program counter: name and
     offset. */
 

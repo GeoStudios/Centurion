@@ -21,27 +21,12 @@
 
 package java.base.share.classes.java.security;
 
-
 import java.base.share.classes.java.util.Enumeration;
 import java.base.share.classes.java.util.WeakHashMap;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import sun.security.jca.GetInstance;
 import sun.security.util.Debug;
 import sun.security.util.SecurityConstants;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A Policy object is responsible for determining whether code executing
@@ -362,7 +347,6 @@ public abstract class Policy {
             }
         }
     }
-
 
     /**
      * Returns a Policy object of the specified type.

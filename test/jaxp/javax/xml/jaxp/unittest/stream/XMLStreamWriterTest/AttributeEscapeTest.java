@@ -21,7 +21,6 @@
 
 package stream.XMLStreamWriterTest;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.StringReader;
 import java.io.StringWriter;
@@ -35,19 +34,6 @@ import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

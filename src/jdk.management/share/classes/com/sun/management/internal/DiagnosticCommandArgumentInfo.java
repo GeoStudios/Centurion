@@ -21,22 +21,6 @@
 
 package jdk.management.share.classes.com.sun.management.internal;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Diagnostic Command Argument information. It contains the description
  * of one parameter of the diagnostic command. A parameter can either be an

@@ -21,25 +21,11 @@
 
 package gc.arguments;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import jdk.test.lib.Utils;
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestVerifyBeforeAndAfterGCFlags
@@ -54,8 +40,6 @@ import jdk.test.lib.process.ProcessTools;
  * @library /
  * @run driver gc.arguments.TestVerifyBeforeAndAfterGCFlags
  */
-
-
 
 public class TestVerifyBeforeAndAfterGCFlags {
 

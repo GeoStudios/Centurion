@@ -21,27 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xpointer;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.util.MessageFormatter;
 import java.base.share.classes.java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.PropertyResourceBundle;
 import java.util.ResourceBundle;
 import jdk.xml.internal.SecuritySupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * XPointerMessageFormatter provides error messages for the XPointer Framework

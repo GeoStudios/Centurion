@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.awt.geom;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 final class Edge {
     static final int INIT_PARTS = 4;
     static final int GROW_PARTS = 10;

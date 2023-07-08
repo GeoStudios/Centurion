@@ -21,21 +21,7 @@
 
 package nsk.jdi.ListeningConnector.listennosuspend;
 
-
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class listennosuspend001t {
     public static void main(String args[]) {

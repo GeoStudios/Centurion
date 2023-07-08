@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.org.w3c.dom;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The <code>Node</code> interface is the primary datatype for the entire
  * Document Object Model. It represents a single node in the document tree.

@@ -21,24 +21,9 @@
 
 package jdk.accessibility.share.classes.com.sun.java.accessibility.util;
 
-
 import jdk.accessibility.share.classes.com.sun.java.awt.*;
 import jdk.accessibility.share.classes.com.sun.java.util.Eventjava.util.Listener;
 import javax.accessibility.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The TopLevelWindowMulticaster class is used to maintain a list of

@@ -21,22 +21,7 @@
 
 package java.sql.share.classes.javax.sql;
 
-
 import java.base.share.classes.java.util.Eventjava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <P>

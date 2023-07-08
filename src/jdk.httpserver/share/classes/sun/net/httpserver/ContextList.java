@@ -21,24 +21,9 @@
 
 package jdk.httpserver.share.classes.sun.net.httpserver;
 
-
 import java.util.*;
 import com.sun.net.httpserver.*;
 import com.sun.net.httpserver.spi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class ContextList {
 

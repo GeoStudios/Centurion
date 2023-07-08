@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.accessibility;
 
-
 import java.base.share.classes.java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 import sun.awt.AWTAccessor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base class used to maintain a strongly typed enumeration. This is the

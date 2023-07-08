@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util;
 
-
 import java.io.BufferedReader;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -39,20 +38,6 @@ import javax.tools.JavaFileManager.Location;
 import javax.tools.StandardLocation;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.BaseConfiguration;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Resources;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Abstraction for handling files, which may be specified directly
@@ -339,7 +324,6 @@ public abstract class DocFile {
      * {@link DocumentationTool.Location#DOCUMENTATION_OUTPUT} is supported.
      */
     public abstract DocFile resolveAgainst(Location locn);
-
 
     /**
      * Reads from an input stream opened from a given file into a given buffer.

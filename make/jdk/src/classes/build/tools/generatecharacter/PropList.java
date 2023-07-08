@@ -21,56 +21,6 @@
 
 package build.tools.generatecharacter;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A PropList object contains the lists of code points that have
  * the same Unicode property defined in PropList.txt and

@@ -21,21 +21,6 @@
 
 package compiler.whitebox;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test EnqueueMethodForCompilationTest
  * @bug 8006683 8007288 8022832
@@ -52,7 +37,6 @@ package compiler.whitebox;
  *                   -XX:+WhiteBoxAPI -XX:+PrintCompilation -XX:-UseCounterDecay
  *                   compiler.whitebox.EnqueueMethodForCompilationTest
  */
-
 
 public class EnqueueMethodForCompilationTest extends CompilerWhiteBoxTest {
 

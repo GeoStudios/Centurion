@@ -21,21 +21,6 @@
 
 package metaspace.gc;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Test observers the progress on used/committed memory.
  * MemoryPoolMXBean is used for that purpose.
@@ -54,8 +39,6 @@ public class MemoryUsageTest extends MetaspaceBaseGC {
     public static void main(String[] args) {
         new MemoryUsageTest().run(args);
     }
-
-
 
     /**
      * Loads new classes by bunches and invokes GC after each bunch.

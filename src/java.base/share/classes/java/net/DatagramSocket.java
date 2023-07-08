@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.net;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.base.share.classes.java.nio.channels.DatagramChannel;
@@ -31,20 +30,6 @@ import java.base.share.classes.java.security.PrivilegedAction;
 import java.base.share.classes.java.util.Set;
 import sun.net.NetProperties;
 import sun.nio.ch.DefaultSelectorProvider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents a socket for sending and receiving datagram packets.

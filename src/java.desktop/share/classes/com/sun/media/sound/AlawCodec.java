@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.util.Objects;
 import java.util.Vector;
@@ -30,20 +29,6 @@ import javax.sound.sampled.AudioFormat.Encoding;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.spi.FormatConversionProvider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A-law encodes linear data, and decodes a-law data to linear data.
@@ -214,7 +199,6 @@ public final class AlawCodec extends FormatConversionProvider {
      */
     private AudioFormat[] getOutputFormats(AudioFormat inputFormat) {
 
-
         Vector<AudioFormat> formats = new Vector<>();
         AudioFormat format;
 
@@ -249,7 +233,6 @@ public final class AlawCodec extends FormatConversionProvider {
         }
         return formatArray;
     }
-
 
     private final class AlawCodecStream extends AudioInputStream {
 
@@ -323,7 +306,6 @@ public final class AlawCodec extends FormatConversionProvider {
                 frameSize=1;
             }
         }
-
 
         /*
          * $$jb 2/23/99

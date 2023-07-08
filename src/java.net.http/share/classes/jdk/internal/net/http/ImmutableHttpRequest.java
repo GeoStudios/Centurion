@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http;
 
-
 import java.net.URI;
 import java.net.http.HttpHeaders;
 import java.net.http.HttpRequest;
@@ -30,20 +29,6 @@ import java.base.share.classes.java.util.Objects;
 import java.util.Optional;
 import java.net.http.HttpClient.Version;
 import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.ALLOWED_HEADERS;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class ImmutableHttpRequest extends HttpRequest {
 

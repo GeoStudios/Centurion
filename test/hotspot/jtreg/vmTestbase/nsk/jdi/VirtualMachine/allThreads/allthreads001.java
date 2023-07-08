@@ -21,7 +21,6 @@
 
 package nsk.jdi.VirtualMachine.allThreads;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -152,7 +138,6 @@ public class allthreads001 {
         logHandler      = new Log(out, argsHandler);
         Binder binder   = new Binder(argsHandler, logHandler);
 
-
         if (argsHandler.verbose()) {
             debuggee = binder.bindToDebugee(debuggeeName + " -vbs");  // *** tp
         } else {
@@ -160,7 +145,6 @@ public class allthreads001 {
         }
 
         waitTime = argsHandler.getWaitTime();
-
 
         IOPipe pipe     = new IOPipe(debuggee);
 
@@ -274,7 +258,6 @@ public class allthreads001 {
         }
         return testExitCode;
     }
-
 
    /*
     * private BreakpointRequest settingBreakpoint(String, String, String)

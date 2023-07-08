@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
-
 import java.util.Stack;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Traverses a JavaClass with another Visitor object 'piggy-backed' that is

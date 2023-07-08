@@ -21,21 +21,6 @@
 
 package compiler.lib.ir_framework;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Compilers to select for {@link DontCompile}. HotSpot does not handle the exclusion of a C1 method at a specific level.
  * It can only exclude a method for the entire C1 compilation. Thus, this annotation is provided for {@link DontCompile}

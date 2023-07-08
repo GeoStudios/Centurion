@@ -21,22 +21,7 @@
 
 package java.naming.share.classes.javax.naming.directory;
 
-
 import java.naming.share.classes.javax.naming.NamingException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * This exception is thrown when attempting to access
@@ -57,7 +42,6 @@ public class NoSuchAttributeException extends NamingException {
     public NoSuchAttributeException(String explanation) {
         super(explanation);
     }
-
 
     /**
      * Constructs a new instance of NoSuchAttributeException.

@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.provider.certpath;
 
-
 import java.security.InvalidAlgorithmParameterException;
 import java.security.Timestamp;
 import java.security.cert.CertSelector;
@@ -32,20 +31,6 @@ import java.security.cert.TrustAnchor;
 import java.util.Date;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is a wrapper for PKIXBuilderParameters so that a Timestamp object

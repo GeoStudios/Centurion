@@ -21,21 +21,6 @@
 
 package compiler.arguments;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8217447
@@ -43,7 +28,6 @@ package compiler.arguments;
  * @run main/othervm -XX:+IgnoreUnrecognizedVMOptions -XX:+TraceICs
  *                   compiler.arguments.TestTraceICs
  */
-
 
 public class TestTraceICs {
 

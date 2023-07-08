@@ -21,24 +21,9 @@
 
 package jdk.hotspot.agent.share.classes.com.sun.java.swing.ui;
 
-
 import jdk.hotspot.agent.share.classes.com.sun.java.swing.action.ActionManager;
 import jdk.hotspot.agent.share.classes.com.sun.java.swing.action.StateChangeAction;
 import javax.swing.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Referenced classes of package com.sun.java.swing.ui:
 //            ToggleActionPropertyChangeListener, StatusBar

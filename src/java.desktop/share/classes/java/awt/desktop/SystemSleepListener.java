@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.awt.desktop;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Implementors receive notification as the system is entering sleep, and after
  * the system wakes.

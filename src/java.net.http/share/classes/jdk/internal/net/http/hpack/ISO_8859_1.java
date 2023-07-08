@@ -21,23 +21,8 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.hpack;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //
 // Custom implementation of ISO/IEC 8859-1:1998

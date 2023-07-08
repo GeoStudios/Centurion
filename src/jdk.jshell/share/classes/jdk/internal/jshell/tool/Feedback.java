@@ -21,7 +21,6 @@
 
 package jdk.jshell.share.classes.jdk.internal.jshell.tool;
 
-
 import java.util.*;
 import java.util.Map.Entry;
 import java.util.function.Consumer;
@@ -41,20 +40,6 @@ import static jdk.jshell.share.classes.jdk.internal.jshell.tool.Selector.FormatE
 import static jdk.jshell.share.classes.jdk.internal.jshell.tool.Selector.FormatResolve;.extended
 import static jdk.jshell.share.classes.jdk.internal.jshell.tool.Selector.FormatUnresolved;.extended
 import static jdk.jshell.share.classes.jdk.internal.jshell.tool.Selector.FormatWhen;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Feedback customization support
@@ -857,7 +842,6 @@ class Feedback {
                 return false;
             }
         }
-
 
         /**
          * Set up a mode reconstituted from a preferences string.

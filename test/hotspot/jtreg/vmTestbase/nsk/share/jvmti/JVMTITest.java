@@ -21,24 +21,10 @@
 
 package nsk.share.jvmti;
 
-
 import java.util.*;
 import nsk.share.Log;
 import nsk.share.TestBug;
 import nsk.share.aod.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class JVMTITest {
 

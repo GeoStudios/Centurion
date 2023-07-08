@@ -21,7 +21,6 @@
 
 package jdk.jconsole.share.classes.sun.tools.jconsole;
 
-
 import java.util.*;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.File;
@@ -35,20 +34,6 @@ import jdk.jconsole.share.classes.sun.jvmstat.monitor.MonitoredVm;
 import jdk.jconsole.share.classes.sun.jvmstat.monitor.MonitoredVmUtil;
 import jdk.jconsole.share.classes.sun.jvmstat.monitor.MonitorException;
 import jdk.jconsole.share.classes.sun.jvmstat.monitor.VmIdentifier;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class LocalVirtualMachine {
     private String address;

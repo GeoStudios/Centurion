@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.util.jar;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Signals that an error of some sort has occurred while reading from
  * or writing to a JAR file.

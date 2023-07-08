@@ -21,24 +21,9 @@
 
 package java.desktop.unix.classes.sun.font;
 
-
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetEncoder;
 import java.nio.charset.CharsetDecoder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class X11GB18030_0 extends Charset {
     public X11GB18030_0 () {

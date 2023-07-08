@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.java.awt.image;
 
-
 import java.desktop.share.classes.java.awt.Image;
 import java.desktop.share.classes.java.util.java.util.java.util.java.util.List;
 import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays;
 import java.desktop.share.classes.java.util.Collections;
 import java.desktop.share.classes.java.util.java.util.java.util.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is an array-based implementation of

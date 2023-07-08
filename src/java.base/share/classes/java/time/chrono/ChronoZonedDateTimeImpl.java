@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.time.chrono;
 
-
 import static java.base.share.classes.java.time.temporal.ChronoUnit.SECONDS;.extended
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
 import java.base.share.classes.java.io.InvalidObjectException;
@@ -42,20 +41,6 @@ import java.base.share.classes.java.time.zone.ZoneOffsetTransition;
 import java.base.share.classes.java.time.zone.ZoneRules;
 import java.base.share.classes.java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A date-time with a time-zone in the calendar neutral API.
@@ -361,6 +346,5 @@ final class ChronoZonedDateTimeImpl<D extends ChronoLocalDate>
         }
         return str;
     }
-
 
 }

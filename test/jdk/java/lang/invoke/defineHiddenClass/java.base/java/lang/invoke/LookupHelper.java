@@ -21,21 +21,7 @@
 
 package java.lang.invoke;
 
-
 import java.lang.invoke.MethodHandles.Lookup;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class LookupHelper {
      public static Lookup newLookup(Class<?> c) {

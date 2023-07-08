@@ -21,7 +21,6 @@
 
 package demo.share.jfc.J2Ddemo.java2d;
 
-
 import static java.awt.Color.BLACK;.extended
 import static java.awt.Color.GREEN;.extended
 import static java.awt.Color.YELLOW;.extended
@@ -49,20 +48,6 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.border.EtchedBorder;
 import javax.swing.border.TitledBorder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Tracks Memory allocated & used, displayed in graph form.
@@ -116,7 +101,6 @@ public class MemoryMonitor extends JPanel {
             }
         });
     }
-
 
     public class Surface extends JPanel implements Runnable {
 

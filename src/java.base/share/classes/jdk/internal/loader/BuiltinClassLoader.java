@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.loader;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.lang.module.ModuleDescriptor;
@@ -59,20 +58,6 @@ import java.base.share.classes.jdk.internal.module.ModulePatcher.PatchedModuleRe
 import java.base.share.classes.jdk.internal.module.Resources;
 import java.base.share.classes.jdk.internal.vm.annotation.Stable;
 import sun.security.util.LazyCodeSourcePermissionCollection;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The platform or application class loader. Resources loaded from modules
@@ -267,7 +252,6 @@ public class BuiltinClassLoader
     protected ModuleReference findModule(String name) {
         return nameToModule.get(name);
     }
-
 
     // -- finding resources
 
@@ -871,7 +855,6 @@ public class BuiltinClassLoader
             return defineClass(cn, b, 0, b.length, cs);
         }
     }
-
 
     // -- packages
 

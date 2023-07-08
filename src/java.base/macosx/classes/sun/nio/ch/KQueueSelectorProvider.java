@@ -21,24 +21,9 @@
 
 package java.base.macosx.classes.sun.nio.ch;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.channels.spi.AbstractSelector;
 import java.nio.channels.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class KQueueSelectorProvider
     extends SelectorProviderImpl

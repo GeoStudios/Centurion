@@ -21,26 +21,12 @@
 
 package sax;
 
-
 import java.util.Enumeration;
 import org.testng.Assert;
 import org.testng.AssertJUnit;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.xml.sax.helpers.NamespaceSupport;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

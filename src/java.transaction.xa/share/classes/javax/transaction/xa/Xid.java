@@ -21,22 +21,6 @@
 
 package java.transaction.xa.share.classes.javax.transaction.xa;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The Xid interface is a Java mapping of the X/Open transaction identifier
  * XID structure. This interface specifies three accessor methods to

@@ -21,24 +21,9 @@
 
 package java.base.share.classes.jdk.internal.ref;
 
-
 import java.base.share.classes.jdk.internal.misc.InnocuousThread;
 import java.lang.ref.Cleaner;
 import java.util.concurrent.ThreadFactory;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * CleanerFactory provides a Cleaner for use within system modules.

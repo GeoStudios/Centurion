@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
 
-
 import javax.xml.crypto.*;
 import javax.xml.crypto.dom.DOMCryptoContext;
 import javax.xml.crypto.dsig.*;
@@ -35,28 +34,10 @@ import java.xml.crypto.share.classes.org.w3c.dom.Document;
 import java.xml.crypto.share.classes.org.w3c.dom.Element;
 import java.xml.crypto.share.classes.org.w3c.dom.Node;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
-
 
 /**
  * DOM-based implementation of XMLSignatureFactory.

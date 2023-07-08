@@ -21,7 +21,6 @@
 
 package jdk.security.auth.share.classes.com.sun.security.auth.module;
 
-
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
@@ -48,20 +47,6 @@ import javax.security.auth.login.LoginException;
 import javax.security.auth.spi.LoginModule;
 import jdk.security.auth.share.classes.com.sun.security.util.Password;
 import static jdk.security.auth.share.classes.com.sun.security.util.ResourcesMgr.getAuthResourceString;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Provides a JAAS login module that prompts for a key store alias and

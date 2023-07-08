@@ -21,7 +21,6 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm.commons;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.AnnotationVisitor;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.Attribute;
@@ -32,20 +31,6 @@ import java.base.share.classes.jdk.internal.org.objectweb.asm.ModuleVisitor;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.Opcodes;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.RecordComponentVisitor;
 import java.base.share.classes.jdk.internal.org.objectweb.asm.TypePath;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@link ClassVisitor} that remaps types with a {@link Remapper}.

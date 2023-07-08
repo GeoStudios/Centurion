@@ -21,22 +21,8 @@
 
 package jdk.test.failurehandler.value;
 
-
 import org.junit.Assert;
 import org.junit.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class DefaultParserTest {
     @Test
@@ -125,6 +111,5 @@ public class DefaultParserTest {
         Assert.assertEquals("0x20", (int) 32,
                 parser.parse(int.class, "0x20", " "));
     }
-
 
 }

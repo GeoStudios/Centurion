@@ -21,7 +21,6 @@
 
 package java.management.share.classes.com.sun.jmx.mbeanserver;
 
-
 import java.management.share.classes.com.sun.jmx.defaults.ServiceName;
 import static java.management.share.classes.com.sun.jmx.defaults.JmxProperties.MBEANSERVER_LOGGER;.extended
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -39,20 +38,6 @@ import javax.management.InstanceNotFoundException;
 import javax.management.ObjectName;
 import javax.management.QueryExp;
 import javax.management.RuntimeOperationsException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This repository does not support persistency.

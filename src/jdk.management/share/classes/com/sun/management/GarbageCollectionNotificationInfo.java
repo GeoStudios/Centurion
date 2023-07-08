@@ -21,25 +21,10 @@
 
 package jdk.management.share.classes.com.sun.management;
 
-
 import javax.management.openmbean.CompositeData;
 import javax.management.openmbean.CompositeDataView;
 import javax.management.openmbean.CompositeType;
 import jdk.management.share.classes.com.sun.management.internal.GarbageCollectionNotifInfoCompositeData;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The information about a garbage collection

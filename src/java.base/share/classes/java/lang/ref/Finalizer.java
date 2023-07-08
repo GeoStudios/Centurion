@@ -21,26 +21,11 @@
 
 package java.base.share.classes.java.lang.ref;
 
-
 import java.base.share.classes.java.security.PrivilegedAction;
 import java.base.share.classes.java.security.AccessController;
 import jdk.internal.access.JavaLangAccess;
 import java.base.share.classes.jdk.internal.access.SharedSecrets;
 import jdk.internal.misc.VM;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class Finalizer extends FinalReference<Object> { /* Package-private; must be in
                                                           same package as the Reference

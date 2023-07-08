@@ -21,23 +21,8 @@
 
 package java.base.share.classes.sun.security.tools.keytool;
 
-
 import javax.net.ssl.javax.net.ssl.javax.net.ssl.javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLjava.net.java.net.java.net.Socket;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class ShowInfo {
 

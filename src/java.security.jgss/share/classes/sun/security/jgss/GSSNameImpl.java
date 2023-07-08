@@ -21,7 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.jgss;
 
-
 import org.ietf.jgss.*;
 import java.security.jgss.share.classes.sun.security.jgss.spi.*;
 import java.util.Set;
@@ -33,20 +32,6 @@ import java.security.jgss.share.classes.sun.security.util.ObjectIdentifier;
 import java.security.jgss.share.classes.sun.security.util.DerInputStream;
 import java.security.jgss.share.classes.sun.security.util.DerOutputStream;
 import static java.nio.charset.StandardCharsets.UTF_8;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is the implementation class for GSSName. Conceptually the

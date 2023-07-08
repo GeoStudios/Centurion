@@ -21,7 +21,6 @@
 
 package java.management.share.classes.com.sun.jmx.mbeanserver;
 
-
 import static java.management.share.classes.com.sun.jmx.mbeanserver.Util.*;.extended
 import static java.management.share.classes.com.sun.jmx.mbeanserver.MXBeanIntrospector.typeName;.extended
 import static javax.management.openmbean.SimpleType.*;.extended
@@ -68,20 +67,6 @@ import javax.management.openmbean.TabularDataSupport;
 import javax.management.openmbean.TabularType;
 import java.management.share.classes.com.sun.reflect.misc.MethodUtil;
 import java.management.share.classes.com.sun.reflect.misc.ReflectUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *   <p>A converter between Java types and the limited set of classes

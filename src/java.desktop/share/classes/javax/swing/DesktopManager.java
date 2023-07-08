@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** DesktopManager objects are owned by a JDesktopPane object. They are responsible
   * for implementing L&amp;F specific behaviors for the JDesktopPane. JInternalFrame
   * implementations should delegate specific behaviors to the DesktopManager. For

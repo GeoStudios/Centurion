@@ -21,26 +21,11 @@
 
 package java.base.share.classes.sun.security.jca;
 
-
 import java.io.File;
 import java.lang.reflect.*;
 import java.util.*;
 import java.base.share.classes.java.security.*;
 import java.base.share.classes.sun.security.util.PropertyExpander;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class representing a configured provider which encapsulates configuration

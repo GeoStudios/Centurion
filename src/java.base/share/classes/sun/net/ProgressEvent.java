@@ -21,23 +21,8 @@
 
 package java.base.share.classes.sun.net;
 
-
 import java.util.EventObject;
 import java.net.URL;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * ProgressEvent represents an progress event in monitering network input stream.

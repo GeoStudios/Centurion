@@ -21,21 +21,6 @@
 
 package gc.epsilon;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test TestUpdateCountersSteps
  * @requires vm.gc.Epsilon

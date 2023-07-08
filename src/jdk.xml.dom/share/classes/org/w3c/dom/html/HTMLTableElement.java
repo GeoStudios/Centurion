@@ -21,22 +21,7 @@
 
 package jdk.xml.dom.share.classes.org.w3c.dom.html;
 
-
 import jdk.xml.dom.share.classes.org.w3c.dom.DOMException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  The create* and delete* methods on the table allow authors to construct

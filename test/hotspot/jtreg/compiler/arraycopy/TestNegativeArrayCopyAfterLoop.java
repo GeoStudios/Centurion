@@ -21,21 +21,7 @@
 
 package compiler.arraycopy;
 
-
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -44,7 +30,6 @@ import java.base.share.classes.java.util.Arrays;
  * @summary C2 inline array_copy move CastIINode(Array Length) before allocation cause crash.
  * @run main/othervm compiler.arraycopy.TestNegativeArrayCopyAfterLoop
  */
-
 
 class test {
     public static int exp_count = 0;

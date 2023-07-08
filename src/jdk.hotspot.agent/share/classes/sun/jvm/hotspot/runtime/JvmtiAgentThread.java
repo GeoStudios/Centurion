@@ -21,24 +21,9 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime;
 
-
 import java.io.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** FIXME: should be in ../prims dir if that directory existed; for
     now keep it in runtime dir */

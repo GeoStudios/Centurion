@@ -21,7 +21,6 @@
 
 package sun.hotspot.tools.ctw;
 
-
 import jdk.test.lib.Asserts;
 import jdk.test.lib.Utils;
 import jdk.test.lib.process.ProcessTools;
@@ -37,19 +36,6 @@ import java.util.concurrent.TimeUnit;
 import java.util.function.Predicate;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Runs CompileTheWorld for exact one target. If an error occurs during

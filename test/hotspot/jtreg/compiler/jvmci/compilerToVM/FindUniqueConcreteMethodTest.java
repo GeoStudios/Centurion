@@ -21,7 +21,6 @@
 
 package compiler.jvmci.compilerToVM;
 
-
 import compiler.jvmci.common.CTVMUtilities;
 import compiler.jvmci.common.testcases.DuplicateSimpleSingleImplementerInterface;
 import compiler.jvmci.common.testcases.SimpleSingleImplementerInterface;
@@ -38,19 +37,6 @@ import jdk.vm.ci.hotspot.HotSpotResolvedObjectType;
 import java.lang.reflect.Method;
 import java.util.HashSet;
 import java.util.Set;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -70,9 +56,6 @@ import java.util.Set;
  *                   -XX:-UseJVMCICompiler
  *                   compiler.jvmci.compilerToVM.FindUniqueConcreteMethodTest
  */
-
-
-
 
 public class FindUniqueConcreteMethodTest {
     public static void main(String args[]) {

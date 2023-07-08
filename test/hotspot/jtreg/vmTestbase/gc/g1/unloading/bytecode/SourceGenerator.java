@@ -21,25 +21,11 @@
 
 package gc.g1.unloading.bytecode;
 
-
 import java.util.Collections;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Random;
 import java.util.concurrent.atomic.AtomicLong;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * I hope I'll reuse this source code generator. That's why I extracted it to separate class.

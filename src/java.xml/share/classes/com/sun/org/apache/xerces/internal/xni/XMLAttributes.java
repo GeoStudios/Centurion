@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xni;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * The XMLAttributes interface defines a collection of attributes for
@@ -211,7 +194,6 @@ public interface XMLAttributes {
     //why the above method doens't return QName ?
     QName getQualifiedName(int index);
 
-
     /**
      * Sets the type of the attribute at the specified index.
      *
@@ -375,7 +357,6 @@ public interface XMLAttributes {
      */
     boolean isSpecified(int attrIndex);
 
-
     /**
      * Look up an augmentation by attribute's index.
      *
@@ -393,7 +374,6 @@ public interface XMLAttributes {
      * @return Augmentations
      */
     Augmentations getAugmentations (String uri, String localPart);
-
 
     /**
      * Look up an augmentation by XML 1.0 qualified name.
@@ -413,8 +393,5 @@ public interface XMLAttributes {
      * @param augs      The augmentations.
      */
     void setAugmentations(int attrIndex, Augmentations augs);
-
-
-
 
 } // interface XMLAttributes

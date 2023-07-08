@@ -21,23 +21,8 @@
 
 package jdk.jdi.share.classes.com.sun.jdi;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.connect.Connector;
 import jdk.jdi.share.classes.com.sun.tools.jdi.VirtualMachineManagerImpl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Initial class that provides access to the default implementation

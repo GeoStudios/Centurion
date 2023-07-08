@@ -21,7 +21,6 @@
 
 package nsk.jdi.ReferenceType.instances.instances003;
 
-
 import java.io.PrintStream;
 import java.util.*;
 import com.sun.jdi.ObjectCollectedException;
@@ -33,19 +32,6 @@ import nsk.share.TestBug;
 import nsk.share.jdi.HeapwalkingDebuggee;
 import nsk.share.jdi.HeapwalkingDebugger;
 import nsk.share.jpda.AbstractDebuggeeTest;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -81,10 +67,6 @@ import nsk.share.jpda.AbstractDebuggeeTest;
  *      -debugee.vmkeys="-Xmx128M ${test.vm.opts} ${test.java.opts}"
  *      -testClassNames nsk.jdi.ReferenceType.instances.instances003.instances003$TestClassLoader:java.lang.String:java.lang.Thread
  */
-
-
-
-
 
 public class instances003 extends HeapwalkingDebugger {
     // use subclass of java.lang.ClassLoader to be sure that there are no its instances in debuggee VM
@@ -182,7 +164,6 @@ public class instances003 extends HeapwalkingDebugger {
             instances.get(i).enableCollection();
         }
 
-
         pipe.println(HeapwalkingDebuggee.COMMAND_DELETE_INSTANCES + ":" + className + ":" + createInstanceCount);
 
         if (!isDebuggeeReady())
@@ -209,7 +190,6 @@ public class instances003 extends HeapwalkingDebugger {
                 testClass(className, referenceType);
         }
     }
-
 
     private static boolean needTempStongReference(String referenceType) {
         return ObjectInstancesManager.WEAK_REFERENCE.equals(referenceType) ||

@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler;
 
-
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Field;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ALOAD;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.generic.ANEWARRAY;
@@ -54,20 +53,6 @@ import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.compiler.u
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.Axis;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @LastModified: Nov 2017
@@ -303,7 +288,6 @@ final class Sort extends Instruction implements Closure {
         il.append(new INVOKESPECIAL(init));
     }
 
-
     /**
      * Compiles code that instantiates a NodeSortRecordFactory object which
      * will produce NodeSortRecord objects of a specific type.
@@ -512,7 +496,6 @@ final class Sort extends Instruction implements Closure {
   argNames[5] = "lang";
   argNames[6] = "case_order";
 
-
         InstructionList il = new InstructionList();
         final MethodGenerator constructor =
             new MethodGenerator(ACC_PUBLIC,
@@ -671,13 +654,10 @@ final class Sort extends Instruction implements Closure {
         il.append(new INVOKESPECIAL(cpg.addMethodref(NODE_SORT_RECORD,
                                                      "<init>", "()V")));
 
-
-
         il.append(RETURN);
 
         return init;
     }
-
 
     /**
      * Compiles a method that overloads NodeSortRecord.extractValueFromDOM()

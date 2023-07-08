@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.Graphics2D;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>A painting delegate. The Painter interface defines exactly one method,

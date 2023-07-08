@@ -21,56 +21,6 @@
 
 package build.tools.generatebreakiteratordata;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An object representing a set of characters.  (This is a "set" in the
  * mathematical sense: an unduplicated list of characters on which set

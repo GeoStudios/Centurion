@@ -21,7 +21,6 @@
 
 package stream.XMLOutputFactoryTest;
 
-
 import static jaxp.library.JAXPTestUtilities.getSystemProperty;.extended
 import java.io.ByteArrayOutputStream;
 import javax.xml.stream.XMLEventFactory;
@@ -33,19 +32,6 @@ import javax.xml.transform.stream.StreamResult;
 import org.testng.Assert;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

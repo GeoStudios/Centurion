@@ -21,7 +21,6 @@
 
 package nsk.jdi.StackFrame.setValue.setvalue003;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -126,10 +112,6 @@ import com.sun.jdi.request.*;
  *      -transport.address=dynamic
  *      -debugee.vmkeys="${test.vm.opts} ${test.java.opts}"
  */
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -255,7 +237,6 @@ public class setvalue003 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -294,7 +275,6 @@ public class setvalue003 {
 
             int expresult = returnCode0;
 
-
             eventRManager = vm.eventRequestManager();
             eventQueue    = vm.eventQueue();
 
@@ -306,7 +286,6 @@ public class setvalue003 {
             String bpLine1 = "breakpointLineNumber1";
             String bpLine2 = "breakpointLineNumber2";
             //String bpLine3 = "breakpointLineNumber3";
-
 
             List            allThreads   = null;
             ListIterator    listIterator = null;
@@ -391,14 +370,11 @@ public class setvalue003 {
                     break label1;
                 }
 
-
                 String names[][] = { { "class1", "class2" },
                                      { "class3", "class4" },
                                      { "iface1", "iface2" },
                                      { "iface3", "iface4" },
                                      { "array1", "array2" }  };
-
-
 
                 log2("      checking up variables of ReferenceTypes");
 
@@ -515,7 +491,6 @@ public class setvalue003 {
 
         return breakpRequest;
     }
-
 
     /*
      * private int breakpoint ()

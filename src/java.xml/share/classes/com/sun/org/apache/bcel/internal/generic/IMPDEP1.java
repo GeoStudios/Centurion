@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * IMPDEP1 - Implementation dependent
@@ -52,7 +35,6 @@ public class IMPDEP1 extends Instruction {
     public IMPDEP1() {
         super(com.sun.org.apache.bcel.internal.Const.IMPDEP1, (short) 1);
     }
-
 
     /**
      * Call corresponding visitor method(s). The order is:

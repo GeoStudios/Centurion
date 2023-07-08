@@ -21,23 +21,9 @@
 
 package nsk.jdi.ObjectReference.waitingThreads;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The debugged applcation of the test.

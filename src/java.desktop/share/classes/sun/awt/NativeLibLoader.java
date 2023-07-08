@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.awt;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class NativeLibLoader {
 
     /**

@@ -21,21 +21,6 @@
 
 package vm.share.options;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class IgnoreUnknownArgumentsHandler implements OptionHandler {
 
     @Override public void option(String name, String value) {}

@@ -21,7 +21,6 @@
 
 package java.management.share.classes.javax.management.openmbean;
 
-
 import java.base.share.classes.java.util.Arrays;
 import java.util.HashSet;
 import java.base.share.classes.java.util.Objects;
@@ -32,23 +31,8 @@ import java.management.share.classes.javax.management.MBeanInfo;
 import java.management.share.classes.javax.management.MBeanNotificationInfo;
 import java.management.share.classes.javax.management.MBeanOperationInfo;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // java import
 //
-
 
 /**
  * The {@code OpenMBeanInfoSupport} class describes the management
@@ -72,7 +56,6 @@ public class OpenMBeanInfoSupport
     // need only be calculated once.
     private transient Integer myHashCode = null;
     private transient String  myToString = null;
-
 
     /**
      * <p>Constructs an {@code OpenMBeanInfoSupport} instance, which
@@ -195,7 +178,6 @@ public class OpenMBeanInfoSupport
               descriptor);
     }
 
-
     private static MBeanAttributeInfo[]
             attributeArray(OpenMBeanAttributeInfo[] src) {
         if (src == null)
@@ -225,10 +207,7 @@ public class OpenMBeanInfoSupport
         return dst;
     }
 
-
-
     /* ***  Commodity methods from java.lang.Object  *** */
-
 
     /**
      * <p>Compares the specified {@code obj} parameter with this
@@ -368,8 +347,6 @@ public class OpenMBeanInfoSupport
     private static <T> int arraySetHash(T[] a) {
         return new HashSet<T>(Arrays.asList(a)).hashCode();
     }
-
-
 
     /**
      * <p>Returns a string representation of this {@code

@@ -21,24 +21,10 @@
 
 package gc;
 
-
 import java.util.java.util.java.util.java.util.List;
 import java.lang.management.*;
 import static jdk.test.lib.Asserts.*;.extended
 import java.util.stream.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* @test TestMemoryMXBeansAndPoolsPresenceG1
  * @bug 8191564

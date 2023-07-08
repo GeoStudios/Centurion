@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.java.beans;
 
-
 import java.desktop.share.classes.java.beans.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This is a support class to help build property editors.

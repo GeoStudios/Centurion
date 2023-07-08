@@ -21,23 +21,9 @@
 
 package gc.stress.TestJNIBlockFullGC;
 
-
 import java.lang.ref.SoftReference;
 import java.util.Random;
 import jdk.test.lib.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestJNIBlockFullGC
@@ -47,7 +33,6 @@ import jdk.test.lib.Utils;
  * @library /test/lib
  * @run main/othervm/native -Xmx64m -XX:+UseG1GC -Xlog:gc=info,gc+alloc=trace -XX:MaxGCPauseMillis=10 gc.stress.TestJNIBlockFullGC.TestJNIBlockFullGC 10 10000 10000 10000 30000 10000 0.7
  */
-
 
 public class TestJNIBlockFullGC {
     private static final Random rng = Utils.getRandomInstance();

@@ -21,22 +21,6 @@
 
 package java.logging.share.classes.java.util.logging;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This {@code Handler} publishes log records to {@code System.err}.
  * By default the {@code SimpleFormatter} is used to generate brief summaries.

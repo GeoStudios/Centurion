@@ -21,21 +21,6 @@
 
 package compiler.reflection;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8029366
@@ -43,7 +28,6 @@ package compiler.reflection;
  *
  * @run main compiler.reflection.ArrayNewInstanceOfVoid
  */
-
 
 public class ArrayNewInstanceOfVoid {
     public static void main(String[] args) {

@@ -21,24 +21,10 @@
 
 package jdk.test.lib.jittester.loops;
 
-
 import jdk.test.lib.jittester.IRNode;
 import jdk.test.lib.jittester.Initialization;
 import jdk.test.lib.jittester.VariableInfo;
 import jdk.test.lib.jittester.visitors.Visitor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class CounterInitializer extends Initialization {
     public CounterInitializer(VariableInfo varInfo, IRNode expression) {

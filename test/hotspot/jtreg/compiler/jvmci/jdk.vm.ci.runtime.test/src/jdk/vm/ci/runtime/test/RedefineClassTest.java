@@ -21,7 +21,6 @@
 
 package jdk.vm.ci.runtime.test;
 
-
 import jdk.vm.ci.meta.ResolvedJavaMethod;
 import org.junit.Assert;
 import org.junit.Test;
@@ -42,19 +41,6 @@ import java.util.jar.JarOutputStream;
 import java.util.jar.Manifest;
 import static org.junit.Assume.assumeTrue;.extended
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @requires vm.jvmci
@@ -66,10 +52,6 @@ import static org.junit.Assume.assumeTrue;.extended
  *          java.base/jdk.internal.misc
  * @run junit/othervm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler -Djdk.attach.allowAttachSelf jdk.vm.ci.runtime.test.RedefineClassTest
  */
-
-
-
-
 
 /**
  * Tests that {@link ResolvedJavaMethod}s are safe in the context of class redefinition being used

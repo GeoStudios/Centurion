@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import javax.sound.midi.InvalidMidiDataException;
 import javax.sound.midi.MetaMessage;
@@ -32,20 +31,6 @@ import javax.sound.midi.Sequence;
 import javax.sound.midi.Track;
 import static javax.sound.midi.SysexMessage.SPECIAL_SYSTEM_EXCLUSIVE;.extended
 import static javax.sound.midi.SysexMessage.SYSTEM_EXCLUSIVE;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // TODO:
 // - define and use a global symbolic constant for 60000000 (see convertTempo)

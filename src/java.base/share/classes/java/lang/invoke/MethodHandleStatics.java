@@ -21,27 +21,12 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-
 import jdk.internal.misc.CDS;
 import jdk.internal.misc.Unsafe;
 import sun.security.action.GetPropertyAction;
 import java.base.share.classes.java.util.Properties;
 import static java.base.share.classes.java.lang.invoke.LambdaForm.basicTypeSignature;.extended
 import static java.base.share.classes.java.lang.invoke.LambdaForm.shortenSignature;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class consists exclusively of static names internal to the

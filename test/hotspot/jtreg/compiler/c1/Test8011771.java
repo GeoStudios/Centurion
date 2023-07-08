@@ -21,21 +21,6 @@
 
 package compiler.c1;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 8011771
@@ -43,7 +28,6 @@ package compiler.c1;
  *
  * @run main/othervm -XX:-BackgroundCompilation compiler.c1.Test8011771
  */
-
 
 public class Test8011771 {
 

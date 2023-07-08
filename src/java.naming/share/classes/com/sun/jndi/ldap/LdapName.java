@@ -21,7 +21,6 @@
 
 package java.naming.share.classes.com.sun.jndi.ldap;
 
-
 import java.nio.charset.StandardCharsets;
 import java.util.Enumeration;
 import java.util.Vector;
@@ -30,20 +29,6 @@ import javax.naming.*;
 import javax.naming.directory.Attributes;
 import javax.naming.directory.Attribute;
 import javax.naming.directory.BasicAttributes;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <code>LdapName</code> implements compound names for LDAP v3 as
@@ -124,7 +109,6 @@ public final class LdapName implements Name {
             this.rdns.addElement(rdns.elementAt(i));
         }
     }
-
 
     public Object clone() {
         return new LdapName(unparsed, rdns);
@@ -323,7 +307,6 @@ public final class LdapName implements Name {
         return comp;
     }
 
-
     private void parse() throws InvalidNameException {
         rdns = (new DnParser(unparsed, valuesCaseSensitive)).getDn();
     }
@@ -387,7 +370,6 @@ public final class LdapName implements Name {
     }
 
     static final long serialVersionUID = -1595520034788997356L;
-
 
     /*
      * DnParser implements a recursive descent parser for a single DN.
@@ -593,7 +575,6 @@ public final class LdapName implements Name {
         }
     }
 
-
     /*
      * Class Rdn represents a set of TypeAndValue.
      */
@@ -680,7 +661,6 @@ public final class LdapName implements Name {
             return attrs;
         }
     }
-
 
     /*
      * Class TypeAndValue represents an attribute type and its
@@ -928,7 +908,6 @@ public final class LdapName implements Name {
             return new String(buf);
         }
 
-
         /*
          * Given an array of chars (with starting and ending indexes into it)
          * representing bytes encoded as hex-pairs (such as "CEB1DF80"),
@@ -983,7 +962,6 @@ public final class LdapName implements Name {
             }
         }
     }
-
 
     /*
      * For testing.

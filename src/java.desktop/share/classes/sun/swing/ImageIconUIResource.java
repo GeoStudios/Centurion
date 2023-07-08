@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.sun.swing;
 
-
 import javax.swing.ImageIcon;
 import javax.swing.plaf.UIResource;
 import java.awt.Image;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A subclass of <code>ImageIcon</code> that implements UIResource.

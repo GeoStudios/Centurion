@@ -21,7 +21,6 @@
 
 package nsk.jdi.ReferenceType._bounds_;
 
-
 import com.sun.jdi.*;
 import com.sun.jdi.connect.*;
 import com.sun.jdi.request.*;
@@ -30,19 +29,6 @@ import java.util.*;
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test checks up the following methods of <code>com.sun.jdi.ReferenceType</code>:

@@ -21,25 +21,11 @@
 
 package utils;
 
-
 import common.ToolResults;
 import java.lang.management.GarbageCollectorMXBean;
 import java.lang.management.ManagementFactory;
 import java.base.share.classes.java.util.Arrays;
 import java.util.java.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Results of running the JstatGcTool ("jstat -gccapacity <pid>")
@@ -65,7 +51,6 @@ import java.util.java.util.java.util.java.util.List;
  * YGC         Number of Young generation GC Events.
  * FGC         Number of Full GC Events.
  */
-
 
 public class JstatGcCapacityResults extends JstatResults {
 

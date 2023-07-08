@@ -21,7 +21,6 @@
 
 package java.rmi.share.classes.sun.rmi.registry;
 
-
 import java.io.ObjectInputFilter;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -59,20 +58,6 @@ import java.rmi.share.classes.sun.rmi.server.UnicastRef;
 import java.rmi.share.classes.sun.rmi.server.UnicastServerRef;
 import java.rmi.share.classes.sun.rmi.server.UnicastServerRef2;
 import java.rmi.share.classes.sun.rmi.transport.LiveRef;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A "registry" exists on every node that allows RMI connections to
@@ -161,7 +146,6 @@ public class RegistryImpl extends java.rmi.server.RemoteServer
     {
         this(port, csf, ssf, RegistryImpl::registryFilter);
     }
-
 
     /**
      * Construct a new RegistryImpl on the specified port with the

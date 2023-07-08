@@ -21,21 +21,7 @@
 
 package compiler.escapeAnalysis;
 
-
 import java.lang.reflect.Array;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -46,8 +32,6 @@ import java.lang.reflect.Array;
  *                   -XX:CompileCommand=exclude,compiler.escapeAnalysis.Test6689060::dummy
  *                   compiler.escapeAnalysis.Test6689060
  */
-
-
 
 public class Test6689060 {
     static class Point {
@@ -94,7 +78,6 @@ public class Test6689060 {
         dummy();
         return p.ax[0] * p.ay[1];
     }
-
 
     int test44(int y) {
         Point p1 = new Point();
@@ -400,7 +383,6 @@ public class Test6689060 {
         dummy();
         return p1.y * p1.next.y;
     }
-
 
     public static void main(String args[]) {
         Test6689060 tsr = new Test6689060();

@@ -21,23 +21,8 @@
 
 package java.base.share.classes.sun.security.util;
 
-
 import java.io.ByteArrayOutputStream;
 import java.base.share.classes.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A packed array of booleans.
@@ -71,7 +56,6 @@ public class BitArray {
 
         repn = new byte[(length + BITS_PER_UNIT - 1)/BITS_PER_UNIT];
     }
-
 
     /**
      * Creates a BitArray of the specified size, initialized from the
@@ -120,7 +104,6 @@ public class BitArray {
             set(i, bits[i]);
         }
     }
-
 
     /**
      *  Copy constructor (for cloning).
@@ -217,11 +200,9 @@ public class BitArray {
         return hashCode ^ length;
     }
 
-
     public Object clone() {
         return new BitArray(this);
     }
-
 
     private static final byte[][] NYBBLE = {
         { (byte)'0',(byte)'0',(byte)'0',(byte)'0'},

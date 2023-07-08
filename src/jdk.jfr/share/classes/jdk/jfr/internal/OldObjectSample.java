@@ -21,7 +21,6 @@
 
 package jdk.jfr.share.classes.jdk.jfr.internal;
 
-
 import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
@@ -29,20 +28,6 @@ import jdk.jfr.share.classes.jdk.jfr.Enabled;
 import jdk.jfr.share.classes.jdk.jfr.RecordingState;
 import jdk.jfr.share.classes.jdk.jfr.internal.settings.CutoffSetting;
 import jdk.jfr.share.classes.jdk.jfr.internal.test.WhiteBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // The Old Object event could have been implemented as a periodic event, but
 // due to chunk rotations and how settings are calculated when multiple recordings
@@ -67,7 +52,6 @@ public final class OldObjectSample {
             emit(ticks);
         }
     }
-
 
     // Emit if old object is enabled for at least one recording, and use the largest
     // cutoff for an enabled recording

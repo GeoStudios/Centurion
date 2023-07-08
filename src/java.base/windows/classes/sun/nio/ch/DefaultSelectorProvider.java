@@ -21,23 +21,8 @@
 
 package java.base.windows.classes.sun.nio.ch;
 
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Creates this platform's default SelectorProvider

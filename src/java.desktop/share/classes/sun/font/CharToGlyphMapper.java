@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.font;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * NB the versions that take a char as an int are used by the opentype
  * layout engine. If that remains in native these methods may not be

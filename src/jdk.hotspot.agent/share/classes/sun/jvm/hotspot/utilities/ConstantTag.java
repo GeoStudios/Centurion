@@ -21,22 +21,7 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.BasicType;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ConstantTag {
   // These replicated from the VM to save space

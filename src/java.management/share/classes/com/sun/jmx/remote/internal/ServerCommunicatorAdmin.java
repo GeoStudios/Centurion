@@ -21,22 +21,7 @@
 
 package java.management.share.classes.com.sun.jmx.remote.internal;
 
-
 import java.management.share.classes.com.sun.jmx.remote.util.ClassLogger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class ServerCommunicatorAdmin {
     public ServerCommunicatorAdmin(long timeout) {

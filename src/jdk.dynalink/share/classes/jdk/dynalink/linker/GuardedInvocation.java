@@ -21,7 +21,6 @@
 
 package jdk.dynalink.share.classes.jdk.dynalink.linker;
 
-
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
@@ -32,20 +31,6 @@ import java.util.function.Supplier;
 import jdk.dynalink.share.classes.jdk.dynalink.CallSiteDescriptor;
 import jdk.dynalink.share.classes.jdk.dynalink.linker.support.Guards;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This file is available under and governed by the GNU General Public
  * License version 2 only, as published by the Free Software Foundation.
@@ -53,8 +38,6 @@ import jdk.dynalink.share.classes.jdk.dynalink.linker.support.Guards;
  * file, and Oracle licenses the original version of this file under the BSD
  * license:
  */
-
-
 
 /**
  * Represents a conditionally valid method handle. Usually produced as a return
@@ -398,7 +381,6 @@ public class GuardedInvocation {
                 guard == null || pos > guard.type().parameterCount() ?
                         guard : MethodHandles.dropArguments(guard, pos, valueTypes));
     }
-
 
     /**
      * Composes the invocation, guard, switch points, and the exception into a

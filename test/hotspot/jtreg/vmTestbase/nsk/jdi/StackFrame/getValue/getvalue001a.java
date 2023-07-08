@@ -21,23 +21,9 @@
 
 package nsk.jdi.StackFrame.getValue;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the getvalue001 JDI test.
@@ -86,7 +72,6 @@ public class getvalue001a {
         ArgumentHandler argHandler = new ArgumentHandler(argv);
         IOPipe pipe = argHandler.createDebugeeIOPipe();
         pipe.println("ready");
-
 
         int exitCode = PASSED;
         for (int i = 0; ; i++) {
@@ -156,7 +141,6 @@ public class getvalue001a {
     }
 }
 
-
 class Threadgetvalue001a extends Thread {
 
     public Threadgetvalue001a(String threadName) {
@@ -186,7 +170,6 @@ class Threadgetvalue001a extends Thread {
         return;
     }
 
-
     int i0 = 0;
 
     public void runt1() {
@@ -211,7 +194,6 @@ class Threadgetvalue001a extends Thread {
     public static final int breakpointLineNumber1 = 11;
 //    public static final int breakpointLineNumber2 = 2;
 //    public static final int breakpointLineNumber3 = 7;
-
 
     void log(String str) {
         getvalue001a.log2("thread2: " + str);

@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.org.xml.sax;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Receive notification of basic DTD-related events.
  *
@@ -71,7 +55,6 @@ package java.xml.share.classes.org.xml.sax;
  */
 public interface DTDHandler {
 
-
     /**
      * Receive notification of a notation declaration event.
      *
@@ -103,7 +86,6 @@ public interface DTDHandler {
                               String publicId,
                               String systemId)
         throws SAXException;
-
 
     /**
      * Receive notification of an unparsed entity declaration event.

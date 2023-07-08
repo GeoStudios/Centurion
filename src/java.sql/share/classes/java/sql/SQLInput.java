@@ -21,22 +21,6 @@
 
 package java.sql.share.classes.java.sql;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An input stream that contains a stream of values representing an
  * instance of an SQL structured type or an SQL distinct type.
@@ -65,7 +49,6 @@ package java.sql.share.classes.java.sql;
  */
 
 public interface SQLInput {
-
 
     //================================================================
     // Methods for reading attributes from the stream of SQL data.

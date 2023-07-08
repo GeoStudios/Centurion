@@ -21,7 +21,6 @@
 
 package jdk.jshell.share.classes.jdk.jshell;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.java.util.Arrays;
 import java.util.java.util.java.util.java.util.List;
@@ -31,20 +30,6 @@ import java.util.regex.Pattern;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 import javax.lang.model.element.Name;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Assorted shared utilities and constants.
@@ -127,7 +112,6 @@ class Util {
 
         return new String(buf, charPos, (33 - charPos));
     }
-
 
     static String trimEnd(String s) {
         int last = s.length() - 1;

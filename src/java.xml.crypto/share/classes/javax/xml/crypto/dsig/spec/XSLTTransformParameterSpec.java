@@ -21,29 +21,12 @@
 
 package java.xml.crypto.share.classes.javax.xml.crypto.dsig.spec;
 
-
 import java.xml.crypto.share.classes.javax.xml.crypto.dsig.Transform;
 import java.xml.crypto.share.classes.javax.xml.crypto.XMLStructure;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * $Id: XSLTTransformParameterSpec.java,v 1.4 2005/05/10 16:40:18 mullan Exp $
  */
-
-
 
 /**
  * Parameters for the <a href="http://www.w3.org/TR/1999/REC-xslt-19991116">

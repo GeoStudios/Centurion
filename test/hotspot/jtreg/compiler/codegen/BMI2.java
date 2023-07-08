@@ -21,21 +21,6 @@
 
 package compiler.codegen;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @summary Support BMI2 instructions on x86/x64
@@ -44,7 +29,6 @@ package compiler.codegen;
  *      -XX:CompileCommand=dontinline,compiler.codegen.BMI2$BMITests::*
  *      compiler.codegen.BMI2
  */
-
 
 public class BMI2 {
     private final static int ITERATIONS = 30000;

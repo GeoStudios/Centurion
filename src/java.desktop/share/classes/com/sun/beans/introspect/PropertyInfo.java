@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.beans.introspect;
 
-
 import java.beans.BeanProperty;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -35,20 +34,6 @@ import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 import static java.desktop.share.classes.com.sun.beans.finder.ClassFinder.findClass;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class PropertyInfo {
 

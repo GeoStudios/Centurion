@@ -21,7 +21,6 @@
 
 package java.xml.crypto.share.classes.org.jcp.xml.dsig.internal.dom;
 
-
 import java.xml.crypto.share.classes.org.w3c.dom.Attr;
 import java.xml.crypto.share.classes.org.w3c.dom.Element;
 import java.xml.crypto.share.classes.org.w3c.dom.Node;
@@ -33,28 +32,10 @@ import com.sun.org.apache.xml.internal.security.signature.XMLSignatureInput;
 import javax.xml.crypto.*;
 import javax.xml.crypto.dom.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
-
 
 /**
  * DOM-based implementation of URIDereferencer.

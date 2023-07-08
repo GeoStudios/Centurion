@@ -21,25 +21,10 @@
 
 package java.xml.share.classes.javax.xml.catalog;
 
-
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The Normalizer is responsible for normalizing Public and System Identifiers

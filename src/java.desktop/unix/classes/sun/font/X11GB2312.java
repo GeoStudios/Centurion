@@ -21,26 +21,11 @@
 
 package java.desktop.unix.classes.sun.font;
 
-
 import java.nio.CharBuffer;
 import java.nio.ByteBuffer;
 import java.nio.charset.*;
 import java.desktop.unix.classes.sun.nio.cs.*;
 import static java.desktop.unix.classes.sun.nio.cs.CharsetMapping.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class X11GB2312 extends Charset {
     public X11GB2312 () {

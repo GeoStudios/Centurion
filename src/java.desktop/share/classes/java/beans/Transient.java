@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.java.beans;
 
-
 import java.desktop.share.classes.java.lang.annotation.Retention;
 import java.desktop.share.classes.java.lang.annotation.Target;
 import static java.desktop.share.classes.java.lang.annotation.ElementType.METHOD;.extended
 import static java.desktop.share.classes.java.lang.annotation.RetentionPolicy.RUNTIME;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Indicates that an attribute called "transient"

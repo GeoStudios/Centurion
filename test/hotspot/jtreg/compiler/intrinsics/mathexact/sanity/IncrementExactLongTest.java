@@ -21,21 +21,6 @@
 
 package compiler.intrinsics.mathexact.sanity;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @library /test/lib /
@@ -56,7 +41,6 @@ package compiler.intrinsics.mathexact.sanity;
  *                   compiler.intrinsics.mathexact.sanity.IncrementExactLongTest
  * @run driver compiler.testlibrary.intrinsics.Verifier hs_neg.log hs.log
  */
-
 
 public class IncrementExactLongTest {
 

@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.nio.ch;
 
-
 import java.lang.annotation.Native;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Constants for reporting I/O status
 

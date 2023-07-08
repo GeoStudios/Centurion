@@ -21,26 +21,11 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.AccessFlags;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile.Attribute;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Super class for FieldGen and MethodGen objects, since they have
@@ -58,10 +43,8 @@ public abstract class FieldGenOrMethodGen extends AccessFlags implements NamedAn
 
     private final List<AnnotationEntryGen> annotationList = new ArrayList<>();
 
-
     protected FieldGenOrMethodGen() {
     }
-
 
     /**
      */
@@ -77,12 +60,10 @@ public abstract class FieldGenOrMethodGen extends AccessFlags implements NamedAn
         this.type = type;
     }
 
-
     @Override
     public Type getType() {
         return type;
     }
-
 
     /** @return name of method/field.
      */
@@ -91,22 +72,18 @@ public abstract class FieldGenOrMethodGen extends AccessFlags implements NamedAn
         return name;
     }
 
-
     @Override
     public void setName( final String name ) { // TODO could be package-protected?
         this.name = name;
     }
 
-
     public ConstantPoolGen getConstantPool() {
         return cp;
     }
 
-
     public void setConstantPool( final ConstantPoolGen cp ) { // TODO could be package-protected?
         this.cp = cp;
     }
-
 
     /**
      * Add an attribute to this method. Currently, the JVM knows about
@@ -127,7 +104,6 @@ public abstract class FieldGenOrMethodGen extends AccessFlags implements NamedAn
         annotationList.add(ag);
     }
 
-
     /**
      * Remove an attribute.
      */
@@ -141,7 +117,6 @@ public abstract class FieldGenOrMethodGen extends AccessFlags implements NamedAn
     {
         annotationList.remove(ag);
     }
-
 
     /**
      * Remove all attributes.
@@ -157,7 +132,6 @@ public abstract class FieldGenOrMethodGen extends AccessFlags implements NamedAn
         annotationList.clear();
     }
 
-
     /**
      * @return all attributes of this method.
      */
@@ -169,11 +143,9 @@ public abstract class FieldGenOrMethodGen extends AccessFlags implements NamedAn
         return annotationList.toArray(new AnnotationEntryGen[0]);
       }
 
-
     /** @return signature of method/field.
      */
     public abstract String getSignature();
-
 
     @Override
     public Object clone() {

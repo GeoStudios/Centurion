@@ -21,33 +21,16 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.dom;
 
-
 import java.xml.share.classes.com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMFilter;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.DTMIterator;
 import java.xml.share.classes.com.sun.org.apache.xml.internal.dtm.ref.DTMAxisIteratorBase;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Similar to a CurrentNodeListIterator except that the filter has a
@@ -82,7 +65,6 @@ public final class FilterIterator extends DTMAxisIteratorBase {
     public boolean isReverse() {
         return _isReverse;
     }
-
 
     public void setRestartable(boolean isRestartable) {
         _isRestartable = isRestartable;

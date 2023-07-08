@@ -21,26 +21,11 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit;
 
-
 import java.util.regex.Pattern;
 import javax.lang.model.element.ExecutableElement;
 import javax.lang.model.type.TypeKind;
 import javax.lang.model.type.TypeMirror;
 import javax.lang.model.util.Types;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class provides basic JavaFX property related utility methods.

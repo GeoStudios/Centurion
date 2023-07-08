@@ -21,21 +21,6 @@
 
 package nsk.share.jpda;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 Static methods checking whether given primitive type value can be
 converted to another primitive type without information loss
@@ -293,7 +278,6 @@ public class ConversionUtils {
     public static boolean informationLossFloatToDouble(Float value) {
         return false;
     }
-
 
     /*
      * Double

@@ -21,26 +21,11 @@
 
 package jdk.random.share.classes.jdk.random;
 
-
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.random.RandomGenerator;
 import java.util.random.RandomGenerator.LeapableGenerator;
 import jdk.random.share.classes.jdk.internal.util.random.RandomSupport;
 import jdk.random.share.classes.jdk.internal.util.random.RandomSupport.RandomGeneratorProperties;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A "jumpable and leapable" pseudorandom number generator (PRNG) whose period

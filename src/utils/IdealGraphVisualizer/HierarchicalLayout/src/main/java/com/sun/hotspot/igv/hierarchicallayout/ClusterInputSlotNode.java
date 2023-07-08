@@ -21,26 +21,11 @@
 
 package utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.com.sun.hotspot.igv.hierarchicallayout;
 
-
 import utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.com.sun.hotspot.igv.layout.Cluster;
 import utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.com.sun.hotspot.igv.layout.Port;
 import utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.com.sun.hotspot.igv.layout.Vertex;
 import utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.awt.Dimension;
 import utils.IdealGraphVisualizer.HierarchicalLayout.src.main.java.awt.Point;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

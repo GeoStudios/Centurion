@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.validator;
 
-
 import java.util.Set;
 import java.util.HashSet;
 import java.util.Collections;
@@ -30,20 +29,6 @@ import java.security.KeyStore;
 import java.security.KeyStoreException;
 import java.security.cert.X509Certificate;
 import java.security.cert.Certificate;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Collection of static utility methods related to trust anchor KeyStores.

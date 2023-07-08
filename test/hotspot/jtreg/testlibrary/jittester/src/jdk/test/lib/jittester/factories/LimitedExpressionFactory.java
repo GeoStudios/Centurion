@@ -21,25 +21,11 @@
 
 package jdk.test.lib.jittester.factories;
 
-
 import jdk.test.lib.jittester.IRNode;
 import jdk.test.lib.jittester.ProductionFailedException;
 import jdk.test.lib.jittester.ProductionLimiter;
 import jdk.test.lib.jittester.Type;
 import jdk.test.lib.jittester.types.TypeKlass;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class LimitedExpressionFactory extends ExpressionFactory {
     LimitedExpressionFactory(long complexityLimit, int operatorLimit, TypeKlass ownerClass,

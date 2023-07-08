@@ -21,23 +21,9 @@
 
 package nsk.share.gc.lock.jvmti;
 
-
 import nsk.share.TestBug;
 import nsk.share.gc.lock.Locker;
 import nsk.share.gc.lock.CriticalSectionTimedLocker;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Malloc locker tries to hold malloc lock (if there is any)

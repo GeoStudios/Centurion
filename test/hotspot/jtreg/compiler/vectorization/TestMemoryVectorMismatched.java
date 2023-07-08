@@ -21,21 +21,6 @@
 
 package compiler.vectorization;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8263972
@@ -73,7 +58,6 @@ public class TestMemoryVectorMismatched {
             a[j] = (j % 2 == 0) ? seed + j : seed - j;
         }
     }
-
 
     public static long checkSum(long[] a) {
         long sum = 0;

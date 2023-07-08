@@ -21,25 +21,10 @@
 
 package jdk.jdi.share.classes.com.sun.jdi.request;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.ThreadReference;
 import jdk.jdi.share.classes.com.sun.jdi.event.EventQueue;
 import jdk.jdi.share.classes.com.sun.jdi.event.EventSet;
 import jdk.jdi.share.classes.com.sun.jdi.event.ThreadDeathEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Request for notification when a thread terminates in the target VM.

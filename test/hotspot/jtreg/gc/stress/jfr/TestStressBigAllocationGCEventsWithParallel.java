@@ -21,21 +21,6 @@
 
 package jdk.jfr.event.gc.detailed;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @key randomness

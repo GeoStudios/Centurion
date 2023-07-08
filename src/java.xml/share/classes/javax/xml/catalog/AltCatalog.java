@@ -21,24 +21,9 @@
 
 package java.xml.share.classes.javax.xml.catalog;
 
-
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents an alternative catalog entry.

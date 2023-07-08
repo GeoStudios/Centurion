@@ -21,23 +21,9 @@
 
 package gc;
 
-
 import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;
 import sun.hotspot.WhiteBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* @test
  * @requires vm.gc != "Shenandoah" | vm.opt.ShenandoahGCMode != "iu"
@@ -49,7 +35,6 @@ import sun.hotspot.WhiteBox;
  *      -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI
  *      gc.TestReferenceRefersToDuringConcMark
  */
-
 
 public class TestReferenceRefersToDuringConcMark {
     private static final WhiteBox WB = WhiteBox.getWhiteBox();

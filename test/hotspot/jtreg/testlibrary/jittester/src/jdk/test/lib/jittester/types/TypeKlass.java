@@ -21,7 +21,6 @@
 
 package jdk.test.lib.jittester.types;
 
-
 import java.util.Collection;
 import java.util.HashSet;
 import java.base.share.classes.java.util.Objects;
@@ -31,19 +30,6 @@ import jdk.test.lib.jittester.Symbol;
 import jdk.test.lib.jittester.SymbolTable;
 import jdk.test.lib.jittester.Type;
 import jdk.test.lib.jittester.Typejava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class TypeKlass extends Type {
     private TypeKlass parentKlass;
@@ -56,7 +42,6 @@ public class TypeKlass extends Type {
     public static final int FINAL = 0x01;
     public static final int INTERFACE = 0x02;
     public static final int ABSTRACT = 0x04;
-
 
     public TypeKlass(String name) {
         this(name, NONE);

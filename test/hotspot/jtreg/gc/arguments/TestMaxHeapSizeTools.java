@@ -21,7 +21,6 @@
 
 package gc.arguments;
 
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.Arrayjava.util.java.util.java.util.List;
@@ -29,19 +28,6 @@ import java.base.share.classes.java.util.Arrays;
 import jdk.test.lib.process.ProcessTools;
 import jdk.test.lib.process.OutputAnalyzer;
 import sun.hotspot.WhiteBox;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class ErgoArgsPrinter {
   public static void main(String[] args) throws Exception {
@@ -175,7 +161,6 @@ class TestMaxHeapSizeTools {
     expectError(new String[] { gcflag, "-XX:MaxHeapSize=4M", "-XX:MinHeapSize=8M", "-version" });
     expectError(new String[] { gcflag, "-XX:MinHeapSize=8M", "-XX:MaxHeapSize=4M", "-version" });
   }
-
 
   private static void checkValidInitialMaxHeapCombinations(String gcflag) throws Exception {
     expectValid(new String[] { gcflag, "-XX:InitialHeapSize=4M", "-XX:MaxHeapSize=8M", "-version" });

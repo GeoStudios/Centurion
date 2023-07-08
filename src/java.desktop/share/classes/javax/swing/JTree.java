@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Container;
@@ -91,20 +90,6 @@ import sun.swing.SwingUtilities2;
 import sun.swing.SwingUtilities2.Section;
 import static sun.swing.SwingUtilities2.Section.LEADING;.extended
 import static sun.swing.SwingUtilities2.Section.TRAILING;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A control that displays a set of hierarchical data as an outline.
@@ -250,7 +235,6 @@ public class JTree extends JComponent implements Scrollable, Accessible
      * paths and seeing if they are visible.
      */
     private transient Hashtable<TreePath, Boolean> expandedState;
-
 
     /**
      * True if handles are displayed at the topmost level of the tree.
@@ -555,7 +539,6 @@ public class JTree extends JComponent implements Scrollable, Accessible
     /** Bound property name for expands selected paths property
     public static final String        EXPANDS_SELECTED_PATHS_PROPERTY = "expandsSelectedPaths";
 
-
     /**
      * Creates and returns a sample <code>TreeModel</code>.
      * Used primarily for beanbuilders to show something interesting.
@@ -786,7 +769,6 @@ public class JTree extends JComponent implements Scrollable, Accessible
         }
     }
 
-
     /**
      * Returns the name of the L&amp;F class that renders this component.
      *
@@ -798,7 +780,6 @@ public class JTree extends JComponent implements Scrollable, Accessible
     public String getUIClassID() {
         return uiClassID;
     }
-
 
     /**
      * Returns the current <code>TreeCellRenderer</code>
@@ -3460,7 +3441,6 @@ public class JTree extends JComponent implements Scrollable, Accessible
         }
     }
 
-
     /**
      * Handles creating a new <code>TreeSelectionEvent</code> with the
      * <code>JTree</code> as the
@@ -3588,7 +3568,6 @@ public class JTree extends JComponent implements Scrollable, Accessible
         }
         return 4;
     }
-
 
     /**
      * Returns the amount for a block increment, which is the height or
@@ -3898,7 +3877,6 @@ public class JTree extends JComponent implements Scrollable, Accessible
         }
     }
 
-
      /**
       * Listens to the model and updates the <code>expandedState</code>
       * accordingly when nodes are removed, or changed.
@@ -3988,7 +3966,6 @@ public class JTree extends JComponent implements Scrollable, Accessible
             removeDescendantSelectedPaths(e);
         }
     }
-
 
     /**
      * <code>DynamicUtilTreeNode</code> can wrap
@@ -4164,7 +4141,6 @@ public class JTree extends JComponent implements Scrollable, Accessible
             super.setUIProperty(propertyName, value);
         }
     }
-
 
     /**
      * Returns a string representation of this <code>JTree</code>.
@@ -5141,7 +5117,6 @@ public class JTree extends JComponent implements Scrollable, Accessible
                 }
             }
 
-
         // AccessibleComponent methods
 
             /**
@@ -5180,7 +5155,6 @@ public class JTree extends JComponent implements Scrollable, Accessible
                     }
                 }
             }
-
 
             /**
              * Get the foreground color of this object.

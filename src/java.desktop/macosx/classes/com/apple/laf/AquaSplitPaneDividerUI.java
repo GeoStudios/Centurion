@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.com.apple.laf;
 
-
 import java.awt.*;
 import java.beans.PropertyChangeEvent;
 import javax.swing.*;
@@ -32,20 +31,6 @@ import java.desktop.macosx.classes.com.apple.laf.JRSUIConstants.State;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.LazyKeyedSingleton;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingleton;
 import java.desktop.macosx.classes.com.apple.laf.AquaUtils.RecyclableSingletonFromDefaultConstructor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("serial") // Superclass is not serializable across versions
 public class AquaSplitPaneDividerUI extends BasicSplitPaneDivider {

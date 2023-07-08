@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.io.Serializable;
 import java.text.ParseException;
 import java.desktop.share.classes.javax.swing.JFormattedTextField;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An implementation of
@@ -106,7 +91,6 @@ public class DefaultFormatterFactory extends JFormattedTextField.AbstractFormatt
      * is null.
      */
     private JFormattedTextField.AbstractFormatter nullFormat;
-
 
     /**
      * Constructs a {@code DefaultFormatterFactory}.

@@ -21,7 +21,6 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal;
 
-
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.java.io.java.io.java.io.IOException;
@@ -68,20 +67,6 @@ import jdk.jlink.share.classes.jdk.tools.jlink.builder.DefaultImageBuilder;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.Plugin;
 import jdk.jlink.share.classes.jdk.internal.module.ModulePath;
 import jdk.jlink.share.classes.jdk.internal.module.ModuleResolution;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Implementation for the jlink tool.
@@ -264,7 +249,6 @@ public class JlinkTask {
                 postProcessOnly(taskHelper.getExistingImage());
                 return EXIT_OK;
             }
-
 
             if (options.modulePath.isEmpty()) {
                 // no --module-path specified - try to set $JAVA_HOME/jmods if that exists
@@ -533,7 +517,6 @@ public class JlinkTask {
         URI uri = ouri.get();
         return Paths.get(uri);
     }
-
 
     private static ImageProvider createImageProvider(JlinkConfiguration config,
                                                      Path retainModulesPath,

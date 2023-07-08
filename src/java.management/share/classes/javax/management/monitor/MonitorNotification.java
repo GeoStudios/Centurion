@@ -21,22 +21,7 @@
 
 package java.management.share.classes.javax.management.monitor;
 
-
 import java.management.share.classes.javax.management.ObjectName;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // jmx imports
 //
@@ -81,7 +66,6 @@ import java.management.share.classes.javax.management.ObjectName;
  *
  */
 public class MonitorNotification extends javax.management.Notification {
-
 
     /*
      * ------------------------------------------
@@ -159,7 +143,6 @@ public class MonitorNotification extends javax.management.Notification {
      */
     public static final String STRING_TO_COMPARE_VALUE_DIFFERED = "jmx.monitor.string.differs";
 
-
     /*
      * ------------------------------------------
      *  PRIVATE VARIABLES
@@ -193,7 +176,6 @@ public class MonitorNotification extends javax.management.Notification {
      */
     @SuppressWarnings("serial") // Not statically typed as Serializable
     private Object trigger = null;
-
 
     /*
      * ------------------------------------------

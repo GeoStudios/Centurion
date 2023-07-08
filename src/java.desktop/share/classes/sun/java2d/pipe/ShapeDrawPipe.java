@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.sun.java2d.pipe;
 
-
 import java.awt.Shape;
 import java.desktop.share.classes.sun.java2d.SunGraphics2D;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This interface defines the set of calls that pipeline objects

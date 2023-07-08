@@ -21,23 +21,8 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import java.base.share.classes.java.util.Arrays;
 import javax.sound.sampled.AudioFormat;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used to store audio buffer.

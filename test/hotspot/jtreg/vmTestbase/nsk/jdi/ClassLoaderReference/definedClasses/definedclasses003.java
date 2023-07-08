@@ -21,7 +21,6 @@
 
 package nsk.jdi.ClassLoaderReference.definedClasses;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import com.sun.jdi.connect.*;
 import java.io.*;
 import java.util.*;
 import java.util.jar.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  */

@@ -21,7 +21,6 @@
 
 package nsk.jdi.VirtualMachine.redefineClasses;
 
-
 import jdk.test.lib.Utils;
 import nsk.share.*;
 import nsk.share.jpda.*;
@@ -31,19 +30,6 @@ import com.sun.jdi.request.*;
 import com.sun.jdi.event.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test consits of the following files:

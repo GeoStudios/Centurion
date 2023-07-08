@@ -21,22 +21,8 @@
 
 package vm.compiler.coverage.parentheses.share.generation;
 
-
 import java.util.Random;
 import jdk.test.lib.Utils;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class generate rrandom ight parentheses sequence in string representation: "(())", "()(())" etc

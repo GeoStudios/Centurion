@@ -21,7 +21,6 @@
 
 package nsk.jdi.ThreadReference.stop;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -160,7 +146,6 @@ public class stop001 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -209,7 +194,6 @@ public class stop001 {
             ReferenceType mainthreadClass = null;
             ObjectReference throwableObj  = null;
 
-
             label0: {
 
                 log2("getting ThreadReference objects and setting up breakponts");
@@ -238,11 +222,9 @@ public class stop001 {
                 }
             }
 
-
             label1: {
                 if (expresult != returnCode0)
                     break label1;
-
 
                 try {
                     log2("      getting a mirror of the throwableObj");

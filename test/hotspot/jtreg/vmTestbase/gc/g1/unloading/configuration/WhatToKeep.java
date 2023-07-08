@@ -21,21 +21,6 @@
 
 package gc.g1.unloading.configuration;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * What reference are we going to keep
  *
@@ -56,6 +41,5 @@ public enum WhatToKeep {
                 return null;
         }
     }
-
 
 }

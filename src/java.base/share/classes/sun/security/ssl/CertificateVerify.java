@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.ssl;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.nio.ByteBuffer;
 import java.base.share.classes.java.security.*;
@@ -33,20 +32,6 @@ import java.base.share.classes.sun.security.ssl.SSLHandshake.HandshakeMessage;
 import java.base.share.classes.sun.security.ssl.X509Authentication.X509Credentials;
 import java.base.share.classes.sun.security.ssl.X509Authentication.X509Possession;
 import java.base.share.classes.sun.security.util.HexDumpEncoder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Pack of the CertificateVerify handshake message.
@@ -898,7 +883,6 @@ final class CertificateVerify {
             (byte)0x65, (byte)0x72, (byte)0x69, (byte)0x66,
             (byte)0x79, (byte)0x00
         };
-
 
         // the signature algorithm
         private final SignatureScheme signatureScheme;

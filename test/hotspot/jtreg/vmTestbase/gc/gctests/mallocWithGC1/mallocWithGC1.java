@@ -21,24 +21,10 @@
 
 package gc.gctests.mallocWithGC1;
 
-
 import nsk.share.test.*;
 import nsk.share.gc.*;
 import nsk.share.TestFailure;
 import java.util.Vector;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -66,8 +52,6 @@ import java.util.Vector;
  *          /test/lib
  * @run main/othervm/native/timeout=300 gc.gctests.mallocWithGC1.mallocWithGC1
  */
-
-
 
 public class mallocWithGC1 implements Test {
         private int objectSize = 100;

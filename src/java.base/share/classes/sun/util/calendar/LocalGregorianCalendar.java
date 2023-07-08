@@ -21,26 +21,11 @@
 
 package java.base.share.classes.sun.util.calendar;
 
-
 import java.security.AccessController;
 import java.util.TimeZone;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.base.share.classes.sun.security.action.GetPropertyAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *

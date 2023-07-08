@@ -21,22 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.win32.coff;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public interface COFFRelocation {
   /** Address of the item to which relocation is applied: this is the
       offset from the beginning of the section, plus the value of the

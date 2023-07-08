@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.parser;
 
-
 import java.nio.CharBuffer;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Lint;
 import jdk.compiler.share.classes.com.sun.tools.javac.code.Preview;
@@ -29,20 +28,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.code.Source;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Context;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Log;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.Names;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A factory for creating scanners.

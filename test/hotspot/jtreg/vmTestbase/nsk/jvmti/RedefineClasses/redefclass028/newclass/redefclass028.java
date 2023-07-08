@@ -21,23 +21,9 @@
 
 package nsk.jvmti.RedefineClasses;
 
-
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class redefclass028 {
     static int status = Consts.TEST_PASSED;

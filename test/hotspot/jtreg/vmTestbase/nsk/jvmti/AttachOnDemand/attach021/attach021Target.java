@@ -21,22 +21,8 @@
 
 package nsk.jvmti.AttachOnDemand.attach021;
 
-
 import nsk.share.ClassUnloader;
 import nsk.share.aod.TargetApplicationWaitingAgents;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class attach021Target extends TargetApplicationWaitingAgents {
 

@@ -21,21 +21,7 @@
 
 package compiler.vectorization;
 
-
 import java.util.stream.IntStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @test
@@ -49,8 +35,6 @@ import java.util.stream.IntStream;
  * @run main compiler.vectorization.TestComplexAddrExpr test5
  * @run main compiler.vectorization.TestComplexAddrExpr test6
  */
-
-
 
 public class TestComplexAddrExpr {
 

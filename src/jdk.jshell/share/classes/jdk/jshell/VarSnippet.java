@@ -21,25 +21,10 @@
 
 package jdk.jshell.share.classes.jdk.jshell;
 
-
 import java.util.Collection;
 import java.util.Set;
 import java.util.stream.Collectors;
 import jdk.jshell.share.classes.jdk.jshell.Key.VarKey;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Snippet for a variable definition.

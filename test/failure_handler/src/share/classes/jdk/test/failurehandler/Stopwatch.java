@@ -21,21 +21,6 @@
 
 package jdk.test.failurehandler;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public final class Stopwatch {
     protected boolean isResultAvailable;
     protected boolean isRunning;

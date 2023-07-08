@@ -21,23 +21,8 @@
 
 package jdk.compiler.share.classes.com.sun.source.tree;
 
-
 import java.util.java.util.java.util.java.util.List;
 import jdk.internal.javac.PreviewFeature;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A tree node for a {@code case} in a {@code switch} statement or expression.

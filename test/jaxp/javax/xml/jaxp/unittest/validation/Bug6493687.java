@@ -21,23 +21,9 @@
 
 package validation;
 
-
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
 import org.w3c.dom.Document;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

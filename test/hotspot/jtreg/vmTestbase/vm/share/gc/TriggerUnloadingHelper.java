@@ -21,21 +21,7 @@
 
 package vm.share.gc;
 
-
 import nsk.share.test.ExecutionController;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public interface TriggerUnloadingHelper {
 

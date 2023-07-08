@@ -21,21 +21,6 @@
 
 package compiler.c2.aarch64;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @summary C2 should use ldar, stlr and ldaxr+stlxr insns for volatile operations
@@ -86,8 +71,6 @@ package compiler.c2.aarch64;
  * @run driver compiler.c2.aarch64.TestVolatilesG1
  *      TestUnsafeVolatileGAA G1
  */
-
-
 
 public class TestVolatilesG1 {
     public static void main(String args[]) throws Throwable

@@ -21,21 +21,6 @@
 
 package p1;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class B {
     private static final B INSTANCE = new B();
 }

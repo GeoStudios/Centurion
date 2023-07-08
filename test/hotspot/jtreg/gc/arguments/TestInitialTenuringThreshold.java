@@ -21,22 +21,8 @@
 
 package gc.arguments;
 
-
 import jdk.test.lib.process.OutputAnalyzer;
 import jdk.test.lib.process.ProcessTools;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestInitialTenuringThreshold
@@ -50,7 +36,6 @@ import jdk.test.lib.process.ProcessTools;
  * @run driver gc.arguments.TestInitialTenuringThreshold
  * @author thomas.schatzl@oracle.com
  */
-
 
 public class TestInitialTenuringThreshold {
 
@@ -69,7 +54,6 @@ public class TestInitialTenuringThreshold {
       output.shouldHaveExitValue(0);
     }
   }
-
 
   public static void main(String args[]) throws Exception {
     ProcessBuilder pb = GCArguments.createJavaProcessBuilder(

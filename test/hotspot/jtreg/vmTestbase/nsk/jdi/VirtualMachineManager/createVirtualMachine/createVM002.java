@@ -21,7 +21,6 @@
 
 package nsk.jdi.VirtualMachineManager.createVirtualMachine;
 
-
 import nsk.share.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
@@ -29,19 +28,6 @@ import com.sun.jdi.connect.*;
 import com.sun.jdi.connect.spi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the                                                    <BR>
@@ -98,7 +84,6 @@ public class createVM002 {
         }
         return result;
     }
-
 
     private int runThis (String argv[], PrintStream out) {
         int testResult = STATUS_FAILED;

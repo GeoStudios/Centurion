@@ -21,7 +21,6 @@
 
 package jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html;
 
-
 import java.util.Collection;
 import java.util.EnumMap;
 import java.base.share.classes.java.util.Objects;
@@ -33,20 +32,6 @@ import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.formats.html.marku
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Content;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.Resources;
 import jdk.javadoc.share.classes.jdk.javadoc.internal.doclets.toolkit.util.VisibleMemberTable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Constants and factory methods for common fragments of content

@@ -21,21 +21,7 @@
 
 package compiler.stable;
 
-
 import jdk.internal.vm.annotation.Stable;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test TestStableMemoryBarrier
@@ -48,8 +34,6 @@ import jdk.internal.vm.annotation.Stable;
  *
  * @author hui.shi@linaro.org
  */
-
-
 
 public class TestStableMemoryBarrier {
     public static void main(String[] args) throws Exception {
@@ -75,7 +59,6 @@ public class TestStableMemoryBarrier {
             nm.v = n;
             return nm;
         }
-
 
     }
 }

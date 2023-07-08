@@ -21,23 +21,8 @@
 
 package java.base.share.classes.jdk.internal.reflect;
 
-
 import java.security.AccessController;
 import java.security.PrivilegedAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Generator for sun.reflect.MethodAccessor and
     sun.reflect.ConstructorAccessor objects using bytecodes to

@@ -21,22 +21,6 @@
 
 package java.security.jgss.share.classes.sun.security.krb5.internal.crypto;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class Nonce {
 
     public static synchronized int value() {

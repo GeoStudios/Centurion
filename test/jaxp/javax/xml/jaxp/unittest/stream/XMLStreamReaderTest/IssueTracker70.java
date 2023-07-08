@@ -21,7 +21,6 @@
 
 package stream.XMLStreamReaderTest;
 
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.util.function.Consumer;
@@ -30,19 +29,6 @@ import javax.xml.stream.XMLStreamReader;
 import org.testng.Assert;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -65,7 +51,6 @@ public class IssueTracker70 {
     public void testGetAttributeValueWithEmptyNs() throws Exception {
         testGetAttributeValueWithNs("", "attribute1", this::checkNull);
     }
-
 
     private void testGetAttributeValueWithNs(String nameSpace, String attrName, Consumer<String> checker) throws Exception {
         XMLInputFactory xif = XMLInputFactory.newInstance();

@@ -21,21 +21,6 @@
 
 package compiler.arguments;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8031321
@@ -52,7 +37,6 @@ package compiler.arguments;
  *                   -XX:+WhiteBoxAPI
  *                   compiler.arguments.TestUseBMI1InstructionsOnUnsupportedCPU
  */
-
 
 public class TestUseBMI1InstructionsOnUnsupportedCPU
       extends BMIUnsupportedCPUTest {

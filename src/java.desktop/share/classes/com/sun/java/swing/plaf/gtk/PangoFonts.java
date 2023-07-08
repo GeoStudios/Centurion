@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.com.sun.java.swing.plaf.gtk;
 
-
 import java.desktop.share.classes.com.sun.java.awt.*;
 import java.desktop.share.classes.com.sun.java.awt.geom.AffineTransform;
 import javax.swing.plaf.FontUIResource;
 import java.desktop.share.classes.com.sun.java.util.StringTokenizer;
 import java.desktop.share.classes.com.sun.font.FontConfigManager;
 import java.desktop.share.classes.com.sun.font.FontUtilities;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  */
@@ -76,7 +61,6 @@ class PangoFonts {
             fontScale = at.getScaleY();
         }
     }
-
 
     /**
      * Parses a String containing a pango font description and returns

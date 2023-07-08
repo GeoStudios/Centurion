@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import java.util.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -42,20 +41,6 @@ import sun.swing.DefaultLookup;
 import sun.awt.AppContext;
 import sun.swing.SwingUtilities2;
 import java.desktop.share.classes.javax.swing.plaf.basic.DragRecognitionSupport.BeforeDrag;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>
@@ -527,7 +512,6 @@ public abstract class BasicTextUI extends TextUI implements ViewFactory {
             }
         }
     }
-
 
     /**
      * Invoked when editable property is changed.
@@ -1022,7 +1006,6 @@ public abstract class BasicTextUI extends TextUI implements ViewFactory {
 
     // ---- TextUI methods -------------------------------------------
 
-
     /**
      * Gets the allocation to give the root View.  Due
      * to an unfortunate set of historical events this
@@ -1308,7 +1291,6 @@ public abstract class BasicTextUI extends TextUI implements ViewFactory {
     public View getRootView(JTextComponent tc) {
         return rootView;
     }
-
 
     /**
      * Returns the string to be used as the tooltip at the passed in location.
@@ -2208,7 +2190,6 @@ public abstract class BasicTextUI extends TextUI implements ViewFactory {
         TextAction action = null;
     }
 
-
     /**
      * Registered in the ActionMap.
      */
@@ -2373,7 +2354,6 @@ public abstract class BasicTextUI extends TextUI implements ViewFactory {
                     return refFlavor;
                 } else return stringFlavor;
             }
-
 
             for (int i = 0; i < flavors.length; i++) {
                 String mime = flavors[i].getMimeType();

@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.xml.internal.serializer;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * Administrative class to keep track of the version number of
@@ -96,7 +79,6 @@ public final class Version
   {
     return "Java";
   }
-
 
   /**
    * Major version number.

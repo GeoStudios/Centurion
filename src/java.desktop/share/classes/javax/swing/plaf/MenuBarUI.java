@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.swing.plaf;
 
-
 import java.awt.Insets;
 import java.desktop.share.classes.javax.swing.JMenuBar;
 import java.desktop.share.classes.javax.swing.JMenu;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Pluggable look and feel interface for JMenuBar.

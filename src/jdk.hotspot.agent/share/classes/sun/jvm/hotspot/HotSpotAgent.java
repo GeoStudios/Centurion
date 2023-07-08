@@ -21,7 +21,6 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot;
 
-
 import java.rmi.RemoteException;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
@@ -44,20 +43,6 @@ import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.runtime.VM;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.types.TypeDataBase;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.PlatformInfo;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.utilities.UnsupportedPlatformException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** <P> This class wraps much of the basic functionality and is the
  * highest-level factory for VM data structures. It makes it simple
@@ -298,7 +283,6 @@ public class HotSpotAgent {
         }
         return detachInternal();
     }
-
 
     //--------------------------------------------------------------------------------
     // Internals only below this point

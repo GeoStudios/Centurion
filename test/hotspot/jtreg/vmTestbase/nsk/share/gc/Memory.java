@@ -21,26 +21,12 @@
 
 package nsk.share.gc;
 
-
 import nsk.share.test.LocalRandom;
 import java.io.PrintStream;
 import nsk.share.gc.gp.GarbageProducer;
 import nsk.share.gc.tree.*;
 import nsk.share.gc.gp.MemoryStrategy;
 import nsk.share.log.Log;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  Different utility methods to work with memory objects.

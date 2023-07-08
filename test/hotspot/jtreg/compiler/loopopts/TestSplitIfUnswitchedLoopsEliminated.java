@@ -21,21 +21,6 @@
 
 package compiler.loopopts;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 8078426
@@ -45,7 +30,6 @@ package compiler.loopopts;
  *                   -XX:-BackgroundCompilation -XX:-UseCompressedOops
  *                   compiler.loopopts.TestSplitIfUnswitchedLoopsEliminated
  */
-
 
 public class TestSplitIfUnswitchedLoopsEliminated {
 

@@ -21,24 +21,9 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.util;
 
-
 import jdk.compiler.share.classes.com.sun.tools.javac.jvm.ClassFile;
 import jdk.compiler.share.classes.com.sun.tools.javac.jvm.PoolConstant;
 import jdk.compiler.share.classes.com.sun.tools.javac.util.DefinedBy.Api;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** An abstraction for internal compiler strings. They are stored in
  *  Utf8 format. Names are stored in a Name.Table, and are unique within

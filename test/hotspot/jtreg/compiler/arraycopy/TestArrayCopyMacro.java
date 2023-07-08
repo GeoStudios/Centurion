@@ -21,21 +21,6 @@
 
 package compiler.arraycopy;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @bug 7173584
@@ -44,7 +29,6 @@ package compiler.arraycopy;
  * @run main/othervm -XX:-BackgroundCompilation -XX:-UseOnStackReplacement
  *                   compiler.arraycopy.TestArrayCopyMacro
  */
-
 
 public class TestArrayCopyMacro {
     static class A {

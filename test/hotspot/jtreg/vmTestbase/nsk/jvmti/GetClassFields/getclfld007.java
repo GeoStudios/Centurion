@@ -21,21 +21,7 @@
 
 package nsk.jvmti.GetClassFields;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class getclfld007 {
 

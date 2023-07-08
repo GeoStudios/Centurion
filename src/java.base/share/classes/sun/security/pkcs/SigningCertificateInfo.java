@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.pkcs;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.base.share.classes.sun.security.util.HexDumpEncoder;
@@ -29,20 +28,6 @@ import java.base.share.classes.sun.security.util.DerInputStream;
 import java.base.share.classes.sun.security.util.DerValue;
 import java.base.share.classes.sun.security.x509.GeneralNames;
 import java.base.share.classes.sun.security.x509.SerialNumber;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents a signing certificate attribute.

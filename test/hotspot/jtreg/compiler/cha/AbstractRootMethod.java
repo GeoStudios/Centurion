@@ -21,21 +21,7 @@
 
 package compiler.cha;
 
-
 import static compiler.cha.Utils.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -64,7 +50,6 @@ import static compiler.cha.Utils.*;.extended
  *                   -XX:+TieredCompilation -XX:TieredStopAtLevel=1
  *                      compiler.cha.AbstractRootMethod
  */
-
 
 public class AbstractRootMethod {
     public static void main(String[] args) {

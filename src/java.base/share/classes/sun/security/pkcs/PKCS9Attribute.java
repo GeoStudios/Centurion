@@ -21,27 +21,12 @@
 
 package java.base.share.classes.sun.security.pkcs;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.security.cert.CertificateException;
 import java.util.Date;
 import java.base.share.classes.sun.security.x509.CertificateExtensions;
 import java.base.share.classes.sun.security.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Class supporting any PKCS9 attributes.
@@ -398,7 +383,6 @@ public class PKCS9Attribute implements DerEncoder {
         }
         this.value = value;
     }
-
 
     /**
      * Construct a PKCS9Attribute from its encoding on an input

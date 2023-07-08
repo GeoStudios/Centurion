@@ -21,23 +21,8 @@
 
 package java.base.share.classes.jdk.internal.org.objectweb.asm;
 
-
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A Java field or method type. This class can be used to make it easier to manipulate type and

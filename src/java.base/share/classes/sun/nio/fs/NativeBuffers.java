@@ -21,23 +21,8 @@
 
 package java.base.share.classes.sun.nio.fs;
 
-
 import jdk.internal.misc.TerminatingThreadLocal;
 import jdk.internal.misc.Unsafe;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Factory for native buffers.

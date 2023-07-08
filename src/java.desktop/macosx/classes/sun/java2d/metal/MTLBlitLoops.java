@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.java2d.metal;
 
-
 import java.desktop.macosx.classes.sun.java2d.SurfaceData;
 import java.desktop.macosx.classes.sun.java2d.loops.Blit;
 import java.desktop.macosx.classes.sun.java2d.loops.CompositeType;
@@ -45,20 +44,6 @@ import java.lang.annotation.Native;
 import java.lang.ref.WeakReference;
 import static java.desktop.macosx.classes.sun.java2d.pipe.BufferedOpCodes.BLIT;.extended
 import static java.desktop.macosx.classes.sun.java2d.pipe.BufferedOpCodes.SURFACE_TO_SW_BLIT;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class MTLBlitLoops {
 

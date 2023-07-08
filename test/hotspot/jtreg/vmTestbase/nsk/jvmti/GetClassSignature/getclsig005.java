@@ -21,21 +21,7 @@
 
 package nsk.jvmti.GetClassSignature;
 
-
 import java.io.PrintStream;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class getclsig005 {
 

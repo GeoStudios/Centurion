@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.applet;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The {@code AudioClip} interface is a simple abstraction for playing a sound
  * clip. Multiple {@code AudioClip} items can be playing at the same time, and

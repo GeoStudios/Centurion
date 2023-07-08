@@ -21,30 +21,14 @@
 
 package java.xml.share.classes.com.sun.xml.internal.stream.events;
 
-
 import javax.xml.stream.events.EndDocument;
 import java.io.Writer;
 import javax.xml.stream.XMLStreamConstants;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class contains information about EndDocument event.
  *
  */
-
 
 public class EndDocumentEvent extends DummyEvent
 implements EndDocument {
@@ -66,6 +50,5 @@ implements EndDocument {
     {
         //end document
     }
-
 
 }

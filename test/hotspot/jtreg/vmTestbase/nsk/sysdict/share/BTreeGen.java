@@ -21,21 +21,7 @@
 
 package nsk.sysdict.share;
 
-
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This tools generates a binary tree of classes.

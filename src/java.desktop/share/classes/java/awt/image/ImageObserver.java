@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.java.awt.image;
 
-
 import java.desktop.share.classes.java.awt.Image;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An asynchronous update interface for receiving notifications about

@@ -21,27 +21,12 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.plugin;
 
-
 import java.io.InputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.OutputStream;
 import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import java.nio.file.Path;
 import jdk.jlink.share.classes.jdk.tools.jlink.internal.ResourcePoolEntryFactory;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A ResourcePoolEntry is the elementary unit of data inside an image. It is

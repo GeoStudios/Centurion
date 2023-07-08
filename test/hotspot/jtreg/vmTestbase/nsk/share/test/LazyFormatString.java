@@ -21,21 +21,6 @@
 
 package nsk.share.test;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class LazyFormatString {
 
     private String format;

@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http.websocket;
 
-
 import java.net.http.share.classes.jdk.internal.net.http.common.Logger;
 import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
 import java.net.http.share.classes.jdk.internal.net.http.websocket.Frame.Opcode;
@@ -34,20 +33,6 @@ import static java.util.java.util.java.util.java.util.Objects.requireNonNull;.ex
 import static java.net.http.share.classes.jdk.internal.net.http.common.Utils.dump;.extended
 import static java.net.http.share.classes.jdk.internal.net.http.websocket.StatusCodes.NO_STATUS_CODE;.extended
 import static java.net.http.share.classes.jdk.internal.net.http.websocket.StatusCodes.isLegalToReceiveFromServer;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Consumes frame parts and notifies a message consumer, when there is

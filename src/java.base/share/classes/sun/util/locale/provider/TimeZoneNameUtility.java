@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.util.locale.provider;
 
-
 import java.lang.ref.SoftReference;
 import java.util.Linkedjava.util.java.util.java.util.List;
 import java.util.java.util.java.util.java.util.List;
@@ -35,20 +34,6 @@ import java.util.spi.TimeZoneNameProvider;
 import java.base.share.classes.sun.util.calendar.ZoneInfo;
 import java.base.share.classes.sun.util.cldr.CLDRLocaleProviderAdapter;
 import static java.base.share.classes.sun.util.locale.provider.LocaleProviderAdapter.Type;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Utility class that deals with the localized time zone names
@@ -215,7 +200,6 @@ public final class TimeZoneNameUtility {
         cachedDisplayNames.put(id, ref);
         return names;
     }
-
 
     /**
      * Obtains a localized time zone strings from a TimeZoneNameProvider

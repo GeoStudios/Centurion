@@ -21,7 +21,6 @@
 
 package jdk.jlink.share.classes.jdk.tools.jlink.internal;
 
-
 import java.lang.module.ModuleDescriptor;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
@@ -43,20 +42,6 @@ import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolEntry;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolModule;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.ResourcePoolModuleView;
 import jdk.jlink.share.classes.jdk.tools.jlink.plugin.PluginException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A manager for pool of resources.

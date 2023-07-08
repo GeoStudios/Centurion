@@ -21,7 +21,6 @@
 
 package demo.share.jfc.TableExample;
 
-
 import javax.swing.*;
 import javax.swing.table.*;
 import javax.swing.border.*;
@@ -33,20 +32,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.UIManager.LookAndFeelInfo;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * This source code is provided to illustrate the usage of a given feature
  * or technique and has been deliberately simplified. Additional steps
@@ -54,10 +39,6 @@ import javax.swing.UIManager.LookAndFeelInfo;
  * input validation and proper error handling, might not be present in
  * this sample code.
  */
-
-
-
-
 
 /**
  * Another JTable example, showing how column attributes can be refined

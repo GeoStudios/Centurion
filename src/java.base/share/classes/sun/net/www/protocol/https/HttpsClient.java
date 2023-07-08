@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.net.www.protocol.https;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.io.PrintStream;
@@ -49,20 +48,6 @@ import java.base.share.classes.sun.security.util.HostnameChecker;
 import java.base.share.classes.sun.security.ssl.SSLjava.net.SocketImpl;
 import java.base.share.classes.sun.util.logging.PlatformLogger;
 import static java.base.share.classes.sun.net.www.protocol.http.HttpURLConnection.TunnelState.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class provides HTTPS client URL support, building on the standard
@@ -133,7 +118,6 @@ final class HttpsClient extends HttpClient
     // use an application-level HTTP proxy.  We might tunnel through
     // our http proxy, though.
 
-
     // INSTANCE DATA
 
     // last negotiated SSL session
@@ -198,7 +182,6 @@ final class HttpsClient extends HttpClient
     }
 
     // CONSTRUCTOR, FACTORY
-
 
     /**
      * Create an HTTPS client URL.  Traffic will be tunneled through any
@@ -268,7 +251,6 @@ final class HttpsClient extends HttpClient
         setConnectTimeout(connectTimeout);
         openServer();
     }
-
 
     // This code largely ripped off from HttpClient.New, and
     // it uses the same keepalive cache.
@@ -438,7 +420,6 @@ final class HttpsClient extends HttpClient
             }
         }
     }
-
 
     @Override
     public boolean needsTunneling() {

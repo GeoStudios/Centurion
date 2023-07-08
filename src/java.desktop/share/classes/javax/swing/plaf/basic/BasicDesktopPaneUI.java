@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing.plaf.basic;
 
-
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.plaf.*;
 import java.beans.*;
@@ -33,20 +32,6 @@ import java.awt.KeyboardFocusManager;
 import java.awt.*;
 import sun.swing.DefaultLookup;
 import sun.swing.UIAction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Basic L&amp;F for a desktop.
@@ -667,7 +652,6 @@ public class BasicDesktopPaneUI extends DesktopPaneUI {
             return false;
         }
     }
-
 
     /**
      * Handles restoring a minimized or maximized internal frame.

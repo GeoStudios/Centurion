@@ -21,7 +21,6 @@
 
 package jdk.test.failurehandler.jtreg;
 
-
 import com.sun.javatest.Harness;
 import com.sun.javatest.Parameters;
 import com.sun.javatest.TestResult;
@@ -35,19 +34,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The jtreg test execution observer, which gathers info about

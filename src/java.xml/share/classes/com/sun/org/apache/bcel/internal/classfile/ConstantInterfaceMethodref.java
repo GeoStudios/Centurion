@@ -21,32 +21,14 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
-
 import java.io.DataInput;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * This class represents a constant pool reference to an interface method.
@@ -61,7 +43,6 @@ public final class ConstantInterfaceMethodref extends ConstantCP {
         super(Const.CONSTANT_InterfaceMethodref, c.getClassIndex(), c.getNameAndTypeIndex());
     }
 
-
     /**
      * Initialize instance from input data.
      *
@@ -72,7 +53,6 @@ public final class ConstantInterfaceMethodref extends ConstantCP {
         super(Const.CONSTANT_InterfaceMethodref, input);
     }
 
-
     /**
      * @param class_index Reference to the class containing the method
      * @param name_and_type_index and the method signature
@@ -80,7 +60,6 @@ public final class ConstantInterfaceMethodref extends ConstantCP {
     public ConstantInterfaceMethodref(final int class_index, final int name_and_type_index) {
         super(Const.CONSTANT_InterfaceMethodref, class_index, name_and_type_index);
     }
-
 
     /**
      * Called by objects that are traversing the nodes of the tree implicitely

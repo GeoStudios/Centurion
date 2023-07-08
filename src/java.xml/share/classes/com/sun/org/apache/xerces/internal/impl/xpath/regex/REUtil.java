@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.xpath.regex;
 
-
 import java.text.CharacterIterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * @xerces.internal

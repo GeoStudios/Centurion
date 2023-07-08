@@ -21,7 +21,6 @@
 
 package java.base.share.classes.java.util.stream;
 
-
 import java.base.share.classes.java.util.Comparator;
 import java.base.share.classes.java.util.java.util.java.util.java.util.Objects;
 import java.base.share.classes.java.util.Spliterator;
@@ -36,20 +35,6 @@ import java.base.share.classes.java.util.function.IntPredicate;
 import java.base.share.classes.java.util.function.LongConsumer;
 import java.base.share.classes.java.util.function.LongPredicate;
 import java.base.share.classes.java.util.function.Predicate;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Factory for instances of a takeWhile and dropWhile operations
@@ -1146,7 +1131,6 @@ final class WhileOps {
             }
         }
     }
-
 
     //
 

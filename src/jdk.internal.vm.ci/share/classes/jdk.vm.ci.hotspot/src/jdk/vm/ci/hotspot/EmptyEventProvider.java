@@ -21,22 +21,6 @@
 
 package jdk.internal.vm.ci.share.classes.jdk.vm.ci.hotspot.src.jdk.vm.ci.hotspot;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * An empty implementation for {@link EventProvider}. This implementation is used when no logging is
  * requested.

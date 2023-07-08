@@ -21,7 +21,6 @@
 
 package org.w3c.dom.ptests;
 
-
 import static org.testng.Assert.assertEquals;.extended
 import static org.w3c.dom.ptests.DOMTestUtil.createDOM;.extended
 import java.io.java.io.java.io.java.io.IOException;
@@ -32,19 +31,6 @@ import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Notation;
 import org.xml.sax.SAXException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

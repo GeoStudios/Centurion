@@ -21,25 +21,11 @@
 
 package gc.gctests.JumbleGC002;
 
-
 import java.io.*;
 import java.util.*;
 import nsk.share.*;
 import nsk.share.gc.*;
 import nsk.share.test.LocalRandom;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -72,9 +58,6 @@ import nsk.share.test.LocalRandom;
  *          /test/lib
  * @run main/othervm -XX:-UseGCOverheadLimit gc.gctests.JumbleGC002.JumbleGC002
  */
-
-
-
 
 /**
  * This test simply does Algorithms.eatMemory() in a loop

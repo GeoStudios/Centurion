@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.java2d;
 
-
 import java.awt.*;
 import java.awt.font.*;
 import java.awt.geom.*;
@@ -33,20 +32,6 @@ import java.desktop.macosx.classes.sun.java2d.loops.*;
 import java.desktop.macosx.classes.sun.java2d.pipe.*;
 import java.desktop.macosx.classes.sun.lwawt.macosx.*;
 import java.lang.annotation.Native;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * This is the SurfaceData for a CGContextRef.

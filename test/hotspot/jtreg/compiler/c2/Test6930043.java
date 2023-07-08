@@ -21,21 +21,6 @@
 
 package compiler.c2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @bug 6930043
@@ -43,7 +28,6 @@ package compiler.c2;
  *
  * @run main compiler.c2.Test6930043
  */
-
 
 public class Test6930043 {
     int[] a;

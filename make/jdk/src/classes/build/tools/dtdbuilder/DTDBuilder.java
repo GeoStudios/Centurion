@@ -21,56 +21,6 @@
 
 package build.tools.dtdbuilder;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * The representation of an SGML DTD. This is produced by the DTDParser.
  * The resulting DTD object describes a document syntax and is needed
@@ -101,7 +51,6 @@ class DTDBuilder extends DTD {
     protected DTDBuilder(String name) {
         super(name);
     }
-
 
     /**
      * Save to a stream as a Java class. Instantiating this class will
@@ -171,7 +120,6 @@ class DTDBuilder extends DTD {
         return (short) i;
     }
 
-
     /**
      * Save an entity to a stream.
      */
@@ -194,7 +142,6 @@ class DTDBuilder extends DTD {
             }
         }
     }
-
 
     /**
      * Save an element to a stream.
@@ -280,7 +227,6 @@ class DTDBuilder extends DTD {
         }
     }
 
-
     /**
      * Save a content model to a stream. This does a
      * recursive decent of the entire model.
@@ -302,7 +248,6 @@ class DTDBuilder extends DTD {
             saveContentModel(out, model.next);
         }
     }
-
 
     /**
      * Generate a class representing this DTD.

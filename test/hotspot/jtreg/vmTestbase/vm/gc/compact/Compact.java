@@ -21,25 +21,11 @@
 
 package vm.gc.compact;
 
-
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import nsk.share.test.*;
 import nsk.share.gc.*;
 import nsk.share.gc.gp.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Test garbage collector compaction.

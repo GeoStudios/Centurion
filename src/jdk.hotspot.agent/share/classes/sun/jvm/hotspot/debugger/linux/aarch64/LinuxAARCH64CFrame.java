@@ -21,26 +21,11 @@
 
 package jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.linux.aarch64;
 
-
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.aarch64.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.linux.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.*;
 import jdk.hotspot.agent.share.classes.sun.jvm.hotspot.debugger.cdbg.basic.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final public class LinuxAARCH64CFrame extends BasicCFrame {
    public LinuxAARCH64CFrame(LinuxDebugger dbg, Address fp, Address pc) {

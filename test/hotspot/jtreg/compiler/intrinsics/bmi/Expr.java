@@ -21,21 +21,6 @@
 
 package compiler.intrinsics.bmi;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Expression that should be replaced by particular instrinsic
  * or intruction during compilation.
@@ -184,7 +169,6 @@ public abstract class Expr {
             return true;
         }
     }
-
 
     public static class BitCountingExpr extends Expr {
         public boolean isUnaryArgumentSupported() {

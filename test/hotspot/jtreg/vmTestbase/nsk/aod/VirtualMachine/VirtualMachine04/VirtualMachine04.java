@@ -21,25 +21,11 @@
 
 package nsk.aod.VirtualMachine.VirtualMachine04;
 
-
 import com.sun.tools.attach.VirtualMachine;
 import nsk.share.TestBug;
 import nsk.share.aod.AODTestRunner;
 import nsk.share.test.TestUtils;
 import java.util.Properties;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -66,9 +52,6 @@ import java.util.Properties;
  *      -javaOpts="-XX:+UsePerfData ${test.vm.opts} ${test.java.opts}"
  *      -target nsk.aod.VirtualMachine.VirtualMachine04.VM04Target
  */
-
-
-
 
 /*
  * Test checks following methods:

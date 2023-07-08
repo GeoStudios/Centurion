@@ -21,23 +21,9 @@
 
 package nsk.jvmti.SetNativeMethodPrefix;
 
-
 import java.io.*;
 import nsk.share.Consts;
 import java.lang.reflect.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class SetNativeMethodPrefix002 {
     static {

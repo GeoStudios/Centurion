@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http;
 
-
 import java.io.BufferedReader;
 import java.io.FilePermission;
 import java.io.java.io.java.io.java.io.IOException;
@@ -61,20 +60,6 @@ import java.net.http.share.classes.jdk.internal.net.http.common.Logger;
 import java.net.http.share.classes.jdk.internal.net.http.common.MinimalFuture;
 import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
 import static java.nio.charset.StandardCharsets.UTF_8;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ResponseSubscribers {
 
@@ -1069,7 +1054,6 @@ public class ResponseSubscribers {
     createPublisher() {
         return new PublishingBodySubscriber();
     }
-
 
     /**
      * Tries to determine whether bs::getBody must be invoked asynchronously,

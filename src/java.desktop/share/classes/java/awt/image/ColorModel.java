@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.java.awt.image;
 
-
 import java.desktop.share.classes.java.awt.Transparency;
 import java.desktop.share.classes.java.awt.color.ColorSpace;
 import java.desktop.share.classes.java.awt.color.ICC_ColorSpace;
@@ -32,20 +31,6 @@ import java.desktop.share.classes.java.util.Collections;
 import java.desktop.share.classes.java.util.Map;
 import java.desktop.share.classes.java.util.WeakHashMap;
 import java.desktop.share.classes.java.util.java.util.java.util.java.util.Arrays;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The {@code ColorModel} abstract class encapsulates the
@@ -1642,7 +1627,6 @@ public abstract class ColorModel implements Transparency{
     @SuppressWarnings("removal")
     protected void finalize() {
     }
-
 
     /**
      * Returns a {@code Raster} representing the alpha channel of an

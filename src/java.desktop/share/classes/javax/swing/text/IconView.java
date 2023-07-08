@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.javax.swing.text;
 
-
 import java.awt.*;
 import java.desktop.share.classes.javax.swing.Icon;
 import java.desktop.share.classes.javax.swing.event.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Icon decorator that implements the view interface.  The

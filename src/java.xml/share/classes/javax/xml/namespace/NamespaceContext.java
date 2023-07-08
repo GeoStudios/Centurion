@@ -21,22 +21,7 @@
 
 package java.xml.share.classes.javax.xml.namespace;
 
-
 import java.util.Iterator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Interface for read only XML Namespace context processing.

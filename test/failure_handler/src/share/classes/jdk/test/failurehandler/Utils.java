@@ -21,26 +21,12 @@
 
 package jdk.test.failurehandler;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.Reader;
 import java.io.Writer;
 import java.util.Properties;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public final class Utils {
     private static final int BUFFER_LENGTH = 1024;

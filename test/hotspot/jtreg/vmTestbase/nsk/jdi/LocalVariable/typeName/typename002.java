@@ -21,26 +21,12 @@
 
 package nsk.jdi.LocalVariable.typeName;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import com.sun.jdi.*;
 import java.util.*;
 import java.io.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -188,7 +174,6 @@ public class typename002 {
 
             Method testMethod = (Method) methods.get(0);
 
-
             String names[] = { "class2", "iface", "cfc" };
 
             int i2;
@@ -247,7 +232,6 @@ public class typename002 {
                                          + lVarTypeName);
                         }
                         break;
-
 
                 default: expresult = 2;
                          break ;

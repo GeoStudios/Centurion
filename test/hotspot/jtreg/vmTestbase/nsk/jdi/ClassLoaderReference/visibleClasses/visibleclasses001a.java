@@ -21,25 +21,11 @@
 
 package nsk.jdi.ClassLoaderReference.visibleClasses;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
 import java.net.URLClassLoader;
 import java.net.URL;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is used as debuggee application for the visibleclasses001 JDI test.
@@ -96,7 +82,6 @@ public class visibleclasses001a {
         log1("debuggee started!");
 
         int exitCode = PASSED;
-
 
         label0:
             for (int i = 0; ; i++) {

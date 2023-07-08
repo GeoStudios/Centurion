@@ -21,7 +21,6 @@
 
 package java.management.share.classes.sun.management;
 
-
 import java.lang.management.ThreadInfo;
 import java.lang.management.MonitorInfo;
 import java.lang.management.LockInfo;
@@ -35,20 +34,6 @@ import javax.management.openmbean.CompositeData;
 import javax.management.openmbean.CompositeDataSupport;
 import javax.management.openmbean.OpenDataException;
 import javax.management.openmbean.OpenType;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A CompositeData for ThreadInfo for the local management support.

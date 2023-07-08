@@ -21,7 +21,6 @@
 
 package nsk.jdi.Value._itself_;
 
-
 import nsk.share.*;
 import nsk.share.jpda.*;
 import nsk.share.jdi.*;
@@ -30,19 +29,6 @@ import java.util.*;
 import java.io.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The test for the implementation of an object of the type     <BR>
@@ -152,7 +138,6 @@ public class value001 {
 
         waitTime = argsHandler.getWaitTime();
 
-
         IOPipe pipe     = new IOPipe(debuggee);
 
         debuggee.redirectStderr(out);
@@ -210,12 +195,10 @@ public class value001 {
 
             Value val = null;
 
-
             List classes = null;
 
             classes     = vm.classesByName(debuggeeName);
             debuggeeClass = (ReferenceType) classes.get(0);
-
 
             log2("......check for a mirror of String object");
             val = debuggeeClass.getValue(debuggeeClass.fieldByName(stringObjName));
@@ -236,7 +219,6 @@ public class value001 {
                 testExitCode = FAILED;
             }
 
-
             log2("......check for a mirror of Array object");
             val = debuggeeClass.getValue(debuggeeClass.fieldByName(arrayObjName));
             try {
@@ -255,7 +237,6 @@ public class value001 {
                 log3("ERROR: ClassCastException");
                 testExitCode = FAILED;
             }
-
 
             log2("......check for a mirror of Thread object");
             val = debuggeeClass.getValue(debuggeeClass.fieldByName(threadObjName));
@@ -276,7 +257,6 @@ public class value001 {
                 testExitCode = FAILED;
             }
 
-
             log2("......check for a mirror of ThreadGroup object");
             val = debuggeeClass.getValue(debuggeeClass.fieldByName(threadgroupObjName));
             try {
@@ -295,7 +275,6 @@ public class value001 {
                 log3("ERROR: ClassCastException");
                 testExitCode = FAILED;
             }
-
 
             log2("......check for a mirror of Class object");
             val = debuggeeClass.getValue(debuggeeClass.fieldByName(classObj1Name));
@@ -316,7 +295,6 @@ public class value001 {
                 testExitCode = FAILED;
             }
 
-
             log2("......check for a mirror of Class object");
             val = debuggeeClass.getValue(debuggeeClass.fieldByName(classObj2Name));
             try {
@@ -336,7 +314,6 @@ public class value001 {
                 testExitCode = FAILED;
             }
 
-
             log2("===> test case : Value = StackFrame.getValue(LocalVariable);");
 
             eventRManager = vm.eventRequestManager();
@@ -352,7 +329,6 @@ public class value001 {
 
             List            allThreads   = null;
             ListIterator    listIterator = null;
-
 
             int expresult = returnCode0;
 
@@ -414,7 +390,6 @@ public class value001 {
                 expresult = breakpoint();
                 if (expresult != returnCode0)
                     break label1;
-
 
                 log2("      getting thread2's StackFrame");
                 try {
@@ -536,7 +511,6 @@ public class value001 {
         return testExitCode;
     }
 
-
    /*
     * private BreakpointRequest settingBreakpoint(String, String, String)
     *
@@ -592,7 +566,6 @@ public class value001 {
 
         return breakpRequest;
     }
-
 
     /*
      * private int breakpoint ()
@@ -711,6 +684,5 @@ public class value001 {
 
         return returnCode;
     }
-
 
 }

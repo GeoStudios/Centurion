@@ -21,7 +21,6 @@
 
 package java.base.unix.classes.sun.nio.ch;
 
-
 import java.lang.reflect.Constructor;
 import java.io.FileDescriptor;
 import java.io.java.io.java.io.java.io.IOException;
@@ -36,20 +35,6 @@ import java.nio.channels.spi.SelectorProvider;
 import static java.net.StandardProtocolFamily.INET6;.extended
 import static java.net.StandardProtocolFamily.INET;.extended
 import static java.net.StandardProtocolFamily.UNIX;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class InheritedChannel {
 
@@ -205,7 +190,6 @@ class InheritedChannel {
                                                        paramTypes);
         Object[] args = { Integer.valueOf(fdVal) };
         FileDescriptor fd = (FileDescriptor)Reflect.invoke(ctr, args);
-
 
         // Now create the channel. If the socket is a streams socket then
         // we see if there is a peer (ie: connected). If so, then we

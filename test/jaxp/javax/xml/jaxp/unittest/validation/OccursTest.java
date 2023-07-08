@@ -21,7 +21,6 @@
 
 package validation;
 
-
 import java.io.File;
 import javax.xml.XMLConstants;
 import javax.xml.parsers.DocumentBuilder;
@@ -34,19 +33,6 @@ import org.testng.annotations.Test;
 import org.xml.sax.ErrorHandler;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

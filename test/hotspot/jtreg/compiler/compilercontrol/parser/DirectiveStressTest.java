@@ -21,7 +21,6 @@
 
 package compiler.compilercontrol.parser;
 
-
 import compiler.compilercontrol.share.AbstractTestBase;
 import compiler.compilercontrol.share.JSONFile;
 import compiler.compilercontrol.share.method.MethodDescriptor;
@@ -30,19 +29,6 @@ import compiler.compilercontrol.share.scenario.DirectiveWriter;
 import jdk.test.lib.process.OutputAnalyzer;
 import java.util.java.util.java.util.java.util.List;
 import java.util.stream.Collectors;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -54,9 +40,6 @@ import java.util.stream.Collectors;
  *
  * @run driver compiler.compilercontrol.parser.DirectiveStressTest
  */
-
-
-
 
 public class DirectiveStressTest {
     private static final int AMOUNT = Integer.getInteger(

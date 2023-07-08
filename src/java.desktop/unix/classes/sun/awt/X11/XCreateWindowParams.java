@@ -21,24 +21,9 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @SuppressWarnings("serial") // JDK-implementation class
 public class XCreateWindowParams extends HashMap<Object, Object> {

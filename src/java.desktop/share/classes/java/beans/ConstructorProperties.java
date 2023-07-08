@@ -21,24 +21,9 @@
 
 package java.desktop.share.classes.java.beans;
 
-
 import java.desktop.share.classes.java.lang.annotation.*;
 import static java.desktop.share.classes.java.lang.annotation.ElementType.*;.extended
 import static java.desktop.share.classes.java.lang.annotation.RetentionPolicy.*;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
    <p>An annotation on a constructor that shows how the parameters of

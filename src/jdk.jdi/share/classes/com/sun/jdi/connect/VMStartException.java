@@ -21,22 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.jdi.connect;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A target VM was successfully launched, but terminated with an
  * error before a connection could be established. This exception

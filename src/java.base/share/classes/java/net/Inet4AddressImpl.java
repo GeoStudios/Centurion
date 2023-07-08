@@ -21,22 +21,7 @@
 
 package java.base.share.classes.java.net;
 
-
 import java.base.share.classes.java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Package private implementation of InetAddressImpl for IPv4.

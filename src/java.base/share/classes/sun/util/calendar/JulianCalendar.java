@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.util.calendar;
 
-
 import java.util.TimeZone;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Julian calendar implementation.

@@ -21,30 +21,14 @@
 
 package vm.share.options;
 
-
 import java.util.HashMap;
 import java.util.Map;
 import nsk.share.TestBug;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-
-
 
 /**
  * This class allows user to create an {@link ObjectFactory} implementation
@@ -82,7 +66,6 @@ public class BasicOptionObjectFactory<T> implements OptionObjectFactory<T>
     {
         return getTypesMap().get(key).description();
     }
-
 
     // shouldn't value be named key?
 

@@ -21,26 +21,11 @@
 
 package java.desktop.share.classes.java.beans;
 
-
 import java.desktop.share.classes.java.lang.annotation.Documented;
 import java.desktop.share.classes.java.lang.annotation.Retention;
 import java.desktop.share.classes.java.lang.annotation.Target;
 import static java.desktop.share.classes.java.lang.annotation.ElementType.TYPE;.extended
 import static java.desktop.share.classes.java.lang.annotation.RetentionPolicy.RUNTIME;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An annotation used to specify some class-related information

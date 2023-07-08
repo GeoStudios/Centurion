@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.media.sound;
 
-
 import java.io.DataInputStream;
 import java.io.EOFException;
 import java.io.java.io.java.io.java.io.IOException;
@@ -30,20 +29,6 @@ import javax.sound.sampled.AudioFileFormat;
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.UnsupportedAudioFileException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * WAVE file reader.

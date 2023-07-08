@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.javac.jvm;
 
-
 import java.util.*;
 import jdk.compiler.share.classes.com.sun.tools.javac.resources.CompilerProperties.Warnings;
 import jdk.compiler.share.classes.com.sun.tools.javac.tree.*;
@@ -30,20 +29,6 @@ import jdk.compiler.share.classes.com.sun.tools.javac.util.java.util.java.util.j
 import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.*;
 import jdk.compiler.share.classes.com.sun.tools.javac.tree.EndPosTable;
 import jdk.compiler.share.classes.com.sun.tools.javac.tree.JCTree.JCSwitchExpression;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** This class contains the CharacterRangeTable for some method
  *  and the hashtable for mapping trees or lists of trees to their
@@ -611,7 +596,6 @@ implements CRTFlags {
             this.endPc = endPc;
         }
     }
-
 
     /** This class contains source positions
      *  for some tree or list of trees.

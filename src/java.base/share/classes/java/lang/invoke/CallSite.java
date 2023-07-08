@@ -21,24 +21,9 @@
 
 package java.base.share.classes.java.lang.invoke;
 
-
 import static java.base.share.classes.java.lang.invoke.MethodHandleStatics.*;.extended
 import static java.base.share.classes.java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;.extended
 import jdk.internal.vm.annotation.Stable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@code CallSite} is a holder for a variable {@link MethodHandle},

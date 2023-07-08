@@ -21,23 +21,8 @@
 
 package utils.LogCompilation.src.main.java.com.sun.hotspot.tools.compiler;
 
-
 import utils.LogCompilation.src.main.java.io.*;
 import utils.LogCompilation.src.main.java.util.regex.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class is a filter class to deal with malformed XML that used

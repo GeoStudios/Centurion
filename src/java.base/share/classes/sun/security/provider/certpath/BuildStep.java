@@ -21,22 +21,7 @@
 
 package java.base.share.classes.sun.security.provider.certpath;
 
-
 import java.security.cert.X509Certificate;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Describes one step of a certification path build, consisting of a

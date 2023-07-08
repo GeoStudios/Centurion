@@ -21,22 +21,8 @@
 
 package jdk.test.lib.jittester.loops;
 
-
 import jdk.test.lib.jittester.IRNode;
 import jdk.test.lib.jittester.visitors.Visitor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class LoopingCondition extends IRNode {
     private final IRNode condition;

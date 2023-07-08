@@ -21,7 +21,6 @@
 
 package java.desktop.macosx.classes.sun.lwawt;
 
-
 import java.awt.Component;
 import java.awt.Cursor;
 import java.awt.Dimension;
@@ -37,20 +36,6 @@ import javax.swing.ScrollPaneConstants;
 import javax.swing.TransferHandler;
 import javax.swing.text.Document;
 import java.desktop.macosx.classes.sun.awt.AWTAccessor;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Lightweight implementation of {@link TextAreaPeer}. Delegates most of the

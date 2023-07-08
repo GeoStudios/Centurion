@@ -21,27 +21,10 @@
 
 package java.management.share.classes.javax.management.loading;
 
-
 import java.io.*;
 import java.lang.reflect.Array;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // java import
-
-
 
 /**
  * This subclass of ObjectInputStream delegates loading of classes to

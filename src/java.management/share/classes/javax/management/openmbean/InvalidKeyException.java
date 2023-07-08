@@ -21,22 +21,6 @@
 
 package java.management.share.classes.javax.management.openmbean;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * This runtime exception is thrown to indicate that a method parameter which was expected to be
  * an item name of a <i>composite data</i> or a row index of a <i>tabular data</i> is not valid.

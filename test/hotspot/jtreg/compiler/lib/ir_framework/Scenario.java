@@ -21,23 +21,9 @@
 
 package compiler.lib.ir_framework;
 
-
 import compiler.lib.ir_framework.shared.TestRunException;
 import java.util.*;
 import java.util.stream.Collectors;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents a scenario that can be executed by the {@link TestFramework}.

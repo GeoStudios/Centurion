@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.lang;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Thrown to indicate some unexpected internal error has occurred in
  * the Java Virtual Machine.
@@ -61,7 +45,6 @@ public class InternalError extends VirtualMachineError {
     public InternalError(String message) {
         super(message);
     }
-
 
     /**
      * Constructs an {@code InternalError} with the specified detail

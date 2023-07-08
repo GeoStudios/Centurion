@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Dimension;
@@ -32,20 +31,6 @@ import static java.awt.Component.BaselineResizeBehavior;.extended
 import static java.desktop.share.classes.javax.swing.LayoutStyle.ComponentPlacement;.extended
 import static java.desktop.share.classes.javax.swing.SwingConstants.HORIZONTAL;.extended
 import static java.desktop.share.classes.javax.swing.SwingConstants.VERTICAL;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * {@code GroupLayout} is a {@code LayoutManager} that hierarchically
@@ -297,7 +282,6 @@ public class GroupLayout implements LayoutManager2 {
      */
     private boolean honorsVisibility;
 
-
     /**
      * Enumeration of the possible ways {@code ParallelGroup} can align
      * its children.
@@ -342,7 +326,6 @@ public class GroupLayout implements LayoutManager2 {
          */
         BASELINE
     }
-
 
     private static void checkSize(int min, int pref, int max,
             boolean isComponentSpring) {
@@ -1264,7 +1247,6 @@ public class GroupLayout implements LayoutManager2 {
         }
     }
 
-
     /**
      * Spring consists of a range: min, pref and max, a value some where in
      * the middle of that, and a location. Spring caches the
@@ -1741,7 +1723,6 @@ public class GroupLayout implements LayoutManager2 {
             return true;
         }
     }
-
 
     /**
      * A {@code Group} that positions and sizes its elements
@@ -2347,7 +2328,6 @@ public class GroupLayout implements LayoutManager2 {
         }
     }
 
-
     /**
      * Used by SequentialGroup in calculating resizability of springs.
      */
@@ -2371,7 +2351,6 @@ public class GroupLayout implements LayoutManager2 {
                     delta + "]";
         }
     }
-
 
     /**
      * A {@code Group} that aligns and sizes its children.
@@ -2648,7 +2627,6 @@ public class GroupLayout implements LayoutManager2 {
             }
         }
     }
-
 
     /**
      * An extension of {@code ParallelGroup} that aligns its
@@ -2928,7 +2906,6 @@ public class GroupLayout implements LayoutManager2 {
         }
     }
 
-
     private final class ComponentSpring extends Spring {
         private Component component;
         private int origin;
@@ -3102,7 +3079,6 @@ public class GroupLayout implements LayoutManager2 {
         }
     }
 
-
     /**
      * Spring representing the preferred distance between two components.
      */
@@ -3159,7 +3135,6 @@ public class GroupLayout implements LayoutManager2 {
         }
     }
 
-
     /**
      * Spring represented a certain amount of space.
      */
@@ -3198,7 +3173,6 @@ public class GroupLayout implements LayoutManager2 {
             return false;
         }
     }
-
 
     /**
      * Spring reprensenting the distance between any number of sources and
@@ -3382,7 +3356,6 @@ public class GroupLayout implements LayoutManager2 {
         }
     }
 
-
     /**
      * Represents two springs that should have autopadding inserted between
      * them.
@@ -3404,7 +3377,6 @@ public class GroupLayout implements LayoutManager2 {
             return "[" + toString(source) + "-" + toString(target) + "]";
         }
     }
-
 
     /**
      * An extension of AutopaddingSpring used for container level padding.
@@ -3510,7 +3482,6 @@ public class GroupLayout implements LayoutManager2 {
             return "--";
         }
     }
-
 
     // LinkInfo contains the set of ComponentInfosthat are linked along a
     // particular axis.

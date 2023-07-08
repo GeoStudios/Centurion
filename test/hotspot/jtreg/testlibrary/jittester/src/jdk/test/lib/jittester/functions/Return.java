@@ -21,22 +21,8 @@
 
 package jdk.test.lib.jittester.functions;
 
-
 import jdk.test.lib.jittester.IRNode;
 import jdk.test.lib.jittester.visitors.Visitor;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Return extends IRNode {
     private final IRNode returnExpression;

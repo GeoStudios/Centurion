@@ -21,21 +21,6 @@
 
 package gc.g1.unloading.configuration;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Configuration object encapsulates test configuration.
  */

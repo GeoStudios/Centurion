@@ -21,7 +21,6 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac.comp;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -52,20 +51,6 @@ import jdk.compiler.share.classes.com.sun.tools.sjavac.options.SourceLocation;
 import jdk.compiler.share.classes.com.sun.tools.sjavac.server.Sjavac;
 import java.io.Uncheckedjava.io.java.io.java.io.IOException;
 import javax.tools.JavaFileManager;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The sjavac implementation that interacts with javac and performs the actual
@@ -178,7 +163,6 @@ public class SjavacImpl implements Sjavac {
                     Log.error("Found nothing to compile!");
                     return Result.ERROR;
                 }
-
 
                 // Create a map of all source files that are available for linking. Both -src and
                 // -sourcepath point to such files. It is possible to specify multiple

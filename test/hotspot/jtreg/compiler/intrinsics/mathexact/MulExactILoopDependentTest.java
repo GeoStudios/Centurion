@@ -21,21 +21,6 @@
 
 package compiler.intrinsics.mathexact;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * @test
  * @key randomness
@@ -47,7 +32,6 @@ package compiler.intrinsics.mathexact;
  *
  * @run main compiler.intrinsics.mathexact.MulExactILoopDependentTest
  */
-
 
 public class MulExactILoopDependentTest {
     public static void main(String[] args) {

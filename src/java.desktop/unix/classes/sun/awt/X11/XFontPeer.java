@@ -21,22 +21,7 @@
 
 package java.desktop.unix.classes.sun.awt.X11;
 
-
 import java.desktop.unix.classes.sun.awt.PlatformFont;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 final class XFontPeer extends PlatformFont {
 

@@ -21,7 +21,6 @@
 
 package validation;
 
-
 import static jaxp.library.JAXPTestUtilities.USER_DIR;.extended
 import java.io.File;
 import java.io.FileWriter;
@@ -38,19 +37,6 @@ import javax.xml.validation.Validator;
 import org.testng.Assert;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test

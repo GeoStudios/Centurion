@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.org.xml.sax.helpers;
 
-
 import java.util.Arrayjava.util.java.util.java.util.List;
 import java.util.Collections;
 import java.util.EmptyStackException;
@@ -29,20 +28,6 @@ import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Encapsulate Namespace logic for use by applications using SAX,
@@ -94,11 +79,9 @@ import java.util.Map;
 public class NamespaceSupport
 {
 
-
     ////////////////////////////////////////////////////////////////////
     // Constants.
     ////////////////////////////////////////////////////////////////////
-
 
     /**
      * The XML Namespace URI as a constant.
@@ -110,7 +93,6 @@ public class NamespaceSupport
      */
     public final static String XMLNS =
         "http://www.w3.org/XML/1998/namespace";
-
 
     /**
      * The namespace declaration URI as a constant.
@@ -130,18 +112,15 @@ public class NamespaceSupport
     public final static String NSDECL =
         "http://www.w3.org/xmlns/2000/";
 
-
     /**
      * An empty enumeration.
      */
     private final static Enumeration<String> EMPTY_ENUMERATION =
             Collections.enumeration(new ArrayList<String>());
 
-
     ////////////////////////////////////////////////////////////////////
     // Constructor.
     ////////////////////////////////////////////////////////////////////
-
 
     /**
      * Create a new Namespace support object.
@@ -151,12 +130,9 @@ public class NamespaceSupport
         reset();
     }
 
-
-
     ////////////////////////////////////////////////////////////////////
     // Context management.
     ////////////////////////////////////////////////////////////////////
-
 
     /**
      * Reset this Namespace support object for reuse.
@@ -177,7 +153,6 @@ public class NamespaceSupport
         contexts[contextPos] = currentContext = new Context();
         currentContext.declarePrefix("xml", XMLNS);
     }
-
 
     /**
      * Start a new Namespace context.
@@ -241,7 +216,6 @@ public class NamespaceSupport
         }
     }
 
-
     /**
      * Revert to the previous Namespace context.
      *
@@ -265,12 +239,9 @@ public class NamespaceSupport
         currentContext = contexts[contextPos];
     }
 
-
-
     ////////////////////////////////////////////////////////////////////
     // Operations within a context.
     ////////////////////////////////////////////////////////////////////
-
 
     /**
      * Declare a Namespace prefix.  All prefixes must be declared
@@ -314,7 +285,6 @@ public class NamespaceSupport
             return true;
         }
     }
-
 
     /**
      * Process a raw XML qualified name, after all declarations in the
@@ -370,7 +340,6 @@ public class NamespaceSupport
         }
     }
 
-
     /**
      * Look up a prefix and get the currently-mapped Namespace URI.
      *
@@ -387,7 +356,6 @@ public class NamespaceSupport
     {
         return currentContext.getURI(prefix);
     }
-
 
     /**
      * Return an enumeration of all prefixes whose declarations are
@@ -407,7 +375,6 @@ public class NamespaceSupport
     {
         return currentContext.getPrefixes();
     }
-
 
     /**
      * Return one of the prefixes mapped to a Namespace URI.
@@ -432,7 +399,6 @@ public class NamespaceSupport
     {
         return currentContext.getPrefix(uri);
     }
-
 
     /**
      * Return an enumeration of all prefixes for a given URI whose
@@ -469,7 +435,6 @@ public class NamespaceSupport
         }
         return Collections.enumeration(prefixes);
     }
-
 
     /**
      * Return an enumeration of all prefixes declared in this context.
@@ -525,8 +490,6 @@ public class NamespaceSupport
     public boolean isNamespaceDeclUris ()
         { return namespaceDeclUris; }
 
-
-
     ////////////////////////////////////////////////////////////////////
     // Internal state.
     ////////////////////////////////////////////////////////////////////
@@ -535,7 +498,6 @@ public class NamespaceSupport
     private Context currentContext;
     private int contextPos;
     private boolean namespaceDeclUris;
-
 
     ////////////////////////////////////////////////////////////////////
     // Internal classes.
@@ -562,7 +524,6 @@ public class NamespaceSupport
         {
             copyTables();
         }
-
 
         /**
          * (Re)set the parent of this Namespace context.
@@ -599,7 +560,6 @@ public class NamespaceSupport
             defaultNS = null;
         }
 
-
         /**
          * Declare a Namespace prefix for this context.
          *
@@ -634,7 +594,6 @@ public class NamespaceSupport
             }
             declarations.add(prefix);
         }
-
 
         /**
          * Process an XML qualified name in this context.
@@ -675,7 +634,6 @@ public class NamespaceSupport
             name[2] = qName.intern();
             int index = qName.indexOf(':');
 
-
             // No prefix.
             if (index == -1) {
                 if (isAttribute) {
@@ -715,7 +673,6 @@ public class NamespaceSupport
             return name;
         }
 
-
         /**
          * Look up the URI associated with a prefix in this context.
          *
@@ -735,7 +692,6 @@ public class NamespaceSupport
             }
         }
 
-
         /**
          * Look up one of the prefixes associated with a URI in this context.
          *
@@ -754,7 +710,6 @@ public class NamespaceSupport
                 return uriTable.get(uri);
             }
         }
-
 
         /**
          * Return an enumeration of prefixes declared in this context.
@@ -789,12 +744,9 @@ public class NamespaceSupport
             }
         }
 
-
-
         ////////////////////////////////////////////////////////////////
         // Internal methods.
         ////////////////////////////////////////////////////////////////
-
 
         /**
          * Copy on write for the internal tables in this context.
@@ -819,8 +771,6 @@ public class NamespaceSupport
             declSeen = true;
         }
 
-
-
         ////////////////////////////////////////////////////////////////
         // Protected state.
         ////////////////////////////////////////////////////////////////
@@ -830,8 +780,6 @@ public class NamespaceSupport
         Map<String, String[]> elementNameTable;
         Map<String, String[]> attributeNameTable;
         String defaultNS = null;
-
-
 
         ////////////////////////////////////////////////////////////////
         // Internal state.

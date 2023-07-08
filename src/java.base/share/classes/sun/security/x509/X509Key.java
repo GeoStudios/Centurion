@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.security.x509;
 
-
 import java.io.*;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Properties;
@@ -36,20 +35,6 @@ import java.base.share.classes.java.security.spec.InvalidKeySpecException;
 import java.base.share.classes.java.security.spec.X509EncodedKeySpec;
 import java.base.share.classes.sun.security.util.HexDumpEncoder;
 import java.base.share.classes.sun.security.util.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Holds an X.509 key, for example a public key found in an X.509

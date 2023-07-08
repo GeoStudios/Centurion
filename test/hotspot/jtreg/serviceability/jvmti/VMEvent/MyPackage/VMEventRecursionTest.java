@@ -21,21 +21,6 @@
 
 package MyPackage;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @test
  * @summary Verifies that a VM event callback does not recurse if a VM object is allocated during callback.

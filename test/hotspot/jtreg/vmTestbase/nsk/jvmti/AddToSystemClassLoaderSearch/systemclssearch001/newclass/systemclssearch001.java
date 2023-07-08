@@ -21,22 +21,8 @@
 
 package nsk.jvmti.AddToSystemClassLoaderSearch;
 
-
 import java.io.PrintStream;
 import nsk.share.Consts;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** Debuggee class for this test. */
 public class systemclssearch001 {

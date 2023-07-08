@@ -21,56 +21,6 @@
 
 package build.tools.tzdb;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Compile and build time-zone rules from IANA timezone data
  *

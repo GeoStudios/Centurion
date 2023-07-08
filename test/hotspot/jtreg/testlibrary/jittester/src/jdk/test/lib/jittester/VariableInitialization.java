@@ -21,21 +21,6 @@
 
 package jdk.test.lib.jittester;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class VariableInitialization extends Initialization {
     public VariableInitialization(VariableInfo info, IRNode initExpression) {
         super(info, initExpression);

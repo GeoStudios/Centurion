@@ -21,26 +21,12 @@
 
 package shared;
 
-
 import java.io.File;
 import java.io.FileOutputStream;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Map;
 import java.util.java.util.java.util.java.util.List;
 import java.util.Arrayjava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public abstract class AbstractGenerator {
     protected final boolean dumpClasses;

@@ -21,7 +21,6 @@
 
 package demo.share.jfc.SwingSet2;
 
-
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.text.*;
@@ -36,20 +35,6 @@ import java.util.*;
 import java.io.*;
 import java.applet.*;
 import java.net.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Scroll Pane Demo
@@ -74,7 +59,6 @@ public class ScrollPaneDemo extends DemoModule {
         ImageIcon crayons = createImageIcon("scrollpane/crayons.jpg",  getString("ScrollPaneDemo.crayons"));
         getDemoPanel().add(new ImageScroller(this, crayons), BorderLayout.CENTER);
     }
-
 
     /**
      * ScrollPane class that demonstrates how to set the various column and row headers

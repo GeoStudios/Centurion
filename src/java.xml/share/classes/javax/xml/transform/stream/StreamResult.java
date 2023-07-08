@@ -21,25 +21,10 @@
 
 package java.xml.share.classes.javax.xml.transform.stream;
 
-
 import java.xml.share.classes.javax.xml.transform.Result;
 import java.io.File;
 import java.io.OutputStream;
 import java.io.Writer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * <p>Acts as an holder for a transformation result,

@@ -21,7 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.jdi.request;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.Mirror;
 import jdk.jdi.share.classes.com.sun.jdi.ThreadReference;
 import jdk.jdi.share.classes.com.sun.jdi.VMDisconnectedException;
@@ -31,20 +30,6 @@ import jdk.jdi.share.classes.com.sun.jdi.event.BreakpointEvent;
 import jdk.jdi.share.classes.com.sun.jdi.event.EventQueue;
 import jdk.jdi.share.classes.com.sun.jdi.event.EventSet;
 import jdk.jdi.share.classes.com.sun.jdi.event.VMDisconnectEvent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Represents a request for notification of an event.  Examples include

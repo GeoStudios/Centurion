@@ -21,22 +21,6 @@
 
 package utils.IdealGraphVisualizer.BatikSVGProxy.src.main.java.com.sun.hotspot.igv.svg;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * Copyright (c) 2023 Geo-Studios and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
@@ -61,5 +45,4 @@ package utils.IdealGraphVisualizer.BatikSVGProxy.src.main.java.com.sun.hotspot.i
  * This package is used to proxy the SVG export functionality of the BatikSVG library. Reflection is used such that the
  * library is optional and need not be present at build time.
  */
-
 

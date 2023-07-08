@@ -21,25 +21,11 @@
 
 package nsk.jdi.ThreadReference.ownedMonitorsAndFrames.ownedMonitorsAndFrames004;
 
-
 import java.io.*;
 import java.util.Arrayjava.util.java.util.java.util.List;
 import nsk.share.TestBug;
 import nsk.share.jdi.OwnedMonitorsDebuggee;
 import nsk.share.locks.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class ownedMonitorsAndFrames004a extends OwnedMonitorsDebuggee {
     // command:threadName:lock_type:threadName:lock_type

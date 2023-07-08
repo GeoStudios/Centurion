@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.java.awt.image;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *  This class represents image data which is stored in a band interleaved
  *  fashion and for
@@ -64,7 +48,6 @@ package java.desktop.share.classes.java.awt.image;
  *  {@link DataBuffer#TYPE_FLOAT TYPE_FLOAT}, and
  *  {@link DataBuffer#TYPE_DOUBLE TYPE_DOUBLE} datatypes
  */
-
 
 public final class BandedSampleModel extends ComponentSampleModel
 {
@@ -258,7 +241,6 @@ public final class BandedSampleModel extends ComponentSampleModel
 
         return dataBuffer;
     }
-
 
     /**
      * Returns data for a single pixel in a primitive array of type

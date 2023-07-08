@@ -21,7 +21,6 @@
 
 package test.astro;
 
-
 import static jaxp.library.JAXPTestUtilities.filenameToURL;.extended
 import static test.astro.AstroConstants.DECENTXSL;.extended
 import static test.astro.AstroConstants.DECXSL;.extended
@@ -36,19 +35,6 @@ import org.xml.sax.EntityResolver;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Implementation of the filter factory interface that utilizes SAX

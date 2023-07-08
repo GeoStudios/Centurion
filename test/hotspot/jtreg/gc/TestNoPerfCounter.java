@@ -21,21 +21,6 @@
 
 package gc;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* @test TestNoPerfCounter
  * @bug 8210265
  * @requires vm.gc=="null"

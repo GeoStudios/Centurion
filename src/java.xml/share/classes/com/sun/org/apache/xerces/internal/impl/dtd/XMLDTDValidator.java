@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.dtd;
 
-
 import java.util.Iterator;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.Constants;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.RevalidationHandler;
@@ -54,20 +53,6 @@ import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLC
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLConfigurationException;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentFilter;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The DTD validator. The validator implements a document
@@ -129,7 +114,6 @@ public class XMLDTDValidator
 
     protected static final String PARSER_SETTINGS =
         Constants.XERCES_FEATURE_PREFIX + Constants.PARSER_SETTINGS;
-
 
     // property identifiers
 
@@ -574,7 +558,6 @@ public class XMLDTDValidator
         return fDocumentHandler;
     } // getDocumentHandler():  XMLDocumentHandler
 
-
     //
     // XMLDocumentHandler methods
     //
@@ -721,7 +704,6 @@ public class XMLDTDValidator
 
     } // doctypeDecl(String,String,String, Augmentations)
 
-
     /**
      * The start of an element.
      *
@@ -763,7 +745,6 @@ public class XMLDTDValidator
         if (!removed) {
             handleEndElement(element, augs, true);
         }
-
 
     } // emptyElement(QName,XMLAttributes)
 
@@ -836,8 +817,6 @@ public class XMLDTDValidator
         }
 
     } // characters(XMLString)
-
-
 
     /**
      * Ignorable whitespace. For this method to be called, the document
@@ -952,7 +931,6 @@ public class XMLDTDValidator
         }
 
     } // comment(XMLString)
-
 
     /**
      * A processing instruction. Processing instructions consist of a
@@ -1072,7 +1050,6 @@ public class XMLDTDValidator
             fDocumentHandler.textDecl(version, encoding, augs);
         }
     }
-
 
     public final boolean hasGrammar(){
 
@@ -1464,7 +1441,6 @@ public class XMLDTDValidator
 
     } // validateDTDattribute(QName,String,XMLAttributeDecl)
 
-
     /** Returns true if invalid standalone attribute definition. */
     protected boolean invalidStandaloneAttDef(QName element, QName attribute) {
         // REVISIT: This obviously needs to be fixed! -Ac
@@ -1482,11 +1458,9 @@ public class XMLDTDValidator
         return state;
     }
 
-
     //
     // Private methods
     //
-
 
     /**
      * Normalize the attribute value of a non CDATA attributes collapsing
@@ -1595,7 +1569,6 @@ public class XMLDTDValidator
 
         // Get out the content spec for this element
         final int contentType = fCurrentContentSpecType;
-
 
         //
         //  Deal with the possible types of content. We try to optimized here
@@ -1772,7 +1745,6 @@ public class XMLDTDValidator
         }
     } // ensureStackCapacity
 
-
     //
     // Protected methods
     //
@@ -1782,7 +1754,6 @@ public class XMLDTDValidator
      */
     protected boolean handleStartElement(QName element, XMLAttributes attributes, Augmentations augs)
                         throws XNIException {
-
 
         // VC: Root Element Type
         // see if the root element's name matches the one in DoctypeDecl

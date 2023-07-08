@@ -21,21 +21,7 @@
 
 package gc.g1.humongousObjects.objectGraphTest;
 
-
 import java.lang.ref.Reference;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Immutable structure that holds the following information about graph's node

@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.com.sun.imageio.plugins.bmp;
 
-
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.color.ColorSpace;
@@ -62,20 +61,6 @@ import javax.imageio.spi.ImageReaderSpi;
 import javax.imageio.stream.ImageInputStream;
 import java.desktop.share.classes.com.sun.imageio.plugins.common.I18N;
 import java.desktop.share.classes.com.sun.imageio.plugins.common.ImageUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /** This class is the Java Image IO plugin reader for BMP images.
  *  It may subsample the image, clip the image, select sub-bands,
@@ -666,7 +651,6 @@ public class BMPImageReader extends ImageReader implements BMPConstants {
             if (imageType == VERSION_2_1_BIT ||
                 imageType == VERSION_2_4_BIT ||
                 imageType == VERSION_2_8_BIT) {
-
 
                 size = palette.length/3;
 
@@ -2095,7 +2079,6 @@ public class BMPImageReader extends ImageReader implements BMPConstants {
         if (p[0] == '/') p[0] = '\\';
         if (p[1] == '/') p[1] = '\\';
         if (p[3] == '/') p[3] = '\\';
-
 
         if ((p[0] == '\\') && (p[1] == '\\')) {
             if ((p[2] == '?') && (p[3] == '\\')) {

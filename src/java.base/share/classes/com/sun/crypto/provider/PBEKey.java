@@ -21,7 +21,6 @@
 
 package java.base.share.classes.com.sun.crypto.provider;
 
-
 import java.lang.ref.Reference;
 import java.security.MessageDigest;
 import java.security.KeyRep;
@@ -31,20 +30,6 @@ import java.base.share.classes.java.util.Locale;
 import java.base.share.classes.javax.crypto.SecretKey;
 import javax.crypto.spec.PBEKeySpec;
 import java.base.share.classes.jdk.internal.ref.CleanerFactory;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class represents a PBE key.
@@ -161,7 +146,6 @@ final class PBEKey implements SecretKey {
         s.defaultReadObject();
         key = key.clone();
     }
-
 
     /**
      * Replace the PBE key to be serialized.

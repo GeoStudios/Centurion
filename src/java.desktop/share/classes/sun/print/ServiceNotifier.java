@@ -21,27 +21,12 @@
 
 package java.desktop.share.classes.sun.print;
 
-
 import java.util.Vector;
 import javax.print.PrintService;
 import javax.print.attribute.PrintServiceAttributeSet;
 import javax.print.attribute.HashPrintServiceAttributeSet;
 import javax.print.event.PrintServiceAttributeEvent;
 import javax.print.event.PrintServiceAttributejava.util.Listener;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * A utility class usable by all print services for managing listeners

@@ -21,22 +21,7 @@
 
 package java.desktop.share.classes.javax.imageio.spi;
 
-
 import java.desktop.share.classes.javax.imageio.ImageTranscoder;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The service provider interface (SPI) for {@code ImageTranscoder}s.

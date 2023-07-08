@@ -21,7 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.util;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMErrorImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.dom.DOMLocatorImpl;
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter;
@@ -36,20 +35,6 @@ import java.xml.share.classes.com.sun.org.w3c.dom.DOMError;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMErrorHandler;
 import java.xml.share.classes.com.sun.org.w3c.dom.DOMLocator;
 import java.xml.share.classes.com.sun.org.w3c.dom.Node;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * This class handles DOM errors .
@@ -67,8 +52,6 @@ import java.xml.share.classes.com.sun.org.w3c.dom.Node;
 
 public class DOMErrorHandlerWrapper
     implements XMLErrorHandler, DOMErrorHandler {
-
-
 
     // It keeps the reference of DOMErrorHandler of application
     protected DOMErrorHandler fDomErrorHandler;
@@ -88,8 +71,6 @@ public class DOMErrorHandlerWrapper
 
     protected final DOMErrorImpl fDOMError = new DOMErrorImpl();
 
-
-
     //
     // Constructors
     //
@@ -100,11 +81,9 @@ public class DOMErrorHandlerWrapper
         fOut = new PrintWriter(System.err);
     }
 
-
     public DOMErrorHandlerWrapper(DOMErrorHandler domErrorHandler) {
         fDomErrorHandler = domErrorHandler;
     } // DOMErrorHandlerWrapper(DOMErrorHandler domErrorHandler)
-
 
     //
     // Public methods
@@ -114,7 +93,6 @@ public class DOMErrorHandlerWrapper
     public void setErrorHandler(DOMErrorHandler errorHandler) {
         fDomErrorHandler = errorHandler;
     } // setErrorHandler(ErrorHandler)
-
 
     public DOMErrorHandler getErrorHandler(){
         return fDomErrorHandler;
@@ -241,7 +219,6 @@ public class DOMErrorHandlerWrapper
             fDomErrorHandler.handleError(fDOMError);
         }
     } // fatalError(String,String,XMLParseException)
-
 
     public boolean handleError(DOMError error) {
         printError(error);

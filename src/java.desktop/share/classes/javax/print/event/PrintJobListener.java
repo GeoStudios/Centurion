@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.print.event;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Implementations of this listener interface should be attached to a
  * {@link javax.print.DocPrintJob DocPrintJob} to monitor the status of the

@@ -21,22 +21,6 @@
 
 package java.base.share.classes.java.util;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Unchecked exception thrown when a format string contains an illegal syntax
  * or a format specifier that is incompatible with the given arguments.  Only

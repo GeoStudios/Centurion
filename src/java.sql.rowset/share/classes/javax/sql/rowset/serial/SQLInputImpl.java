@@ -21,25 +21,10 @@
 
 package java.sql.rowset.share.classes.javax.sql.rowset.serial;
 
-
 import java.sql.*;
 import java.base.share.classes.java.util.Arrays;
 import java.util.Map;
 import sun.reflect.misc.ReflectUtil;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * An input stream used for custom mapping user-defined types (UDTs).
@@ -103,7 +88,6 @@ public class SQLInputImpl implements SQLInput {
      */
     private final Map<String,Class<?>> map;
 
-
     /**
      * Creates an <code>SQLInputImpl</code> object initialized with the
      * given array of attributes and the given type map. If any of the
@@ -140,7 +124,6 @@ public class SQLInputImpl implements SQLInput {
         this.map = map;
     }
 
-
     /**
      * Retrieves the next attribute in this <code>SQLInputImpl</code> object
      * as an <code>Object</code> in the Java programming language.
@@ -159,7 +142,6 @@ public class SQLInputImpl implements SQLInput {
             return attrib[idx];
         }
     }
-
 
     //================================================================
     // Methods for reading attributes from the stream of SQL data.
@@ -672,6 +654,5 @@ public class SQLInputImpl implements SQLInput {
     public RowId readRowId() throws SQLException {
         return  (RowId)getNextAttribute();
     }
-
 
 }

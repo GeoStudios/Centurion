@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.print;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
   * A interface which indicates this service is implemented
   * by delegating to a subclass of PrinterJob delivered with the JRE

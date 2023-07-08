@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.sun.awt.www.content.image;
 
-
 import java.net.*;
 import java.desktop.share.classes.sun.awt.image.*;
 import java.awt.Image;
 import java.awt.Toolkit;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class x_xbitmap extends ContentHandler {
     public Object getContent(URLConnection urlc) throws java.io.IOException {

@@ -21,7 +21,6 @@
 
 package java.net.http.share.classes.jdk.internal.net.http;
 
-
 import java.net.Authenticator;
 import java.net.CookieHandler;
 import java.net.ProxySelector;
@@ -32,20 +31,6 @@ import javax.net.ssl.SSLParameters;
 import java.net.http.HttpClient;
 import java.net.http.share.classes.jdk.internal.net.http.common.Utils;
 import static java.util.java.util.java.util.java.util.Objects.requireNonNull;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class HttpClientBuilderImpl implements HttpClient.Builder {
 
@@ -84,14 +69,12 @@ public class HttpClientBuilderImpl implements HttpClient.Builder {
         return this;
     }
 
-
     @Override
     public HttpClientBuilderImpl sslParameters(SSLParameters sslParameters) {
         requireNonNull(sslParameters);
         this.sslParams = Utils.copySSLParameters(sslParameters);
         return this;
     }
-
 
     @Override
     public HttpClientBuilderImpl executor(Executor s) {
@@ -100,7 +83,6 @@ public class HttpClientBuilderImpl implements HttpClient.Builder {
         return this;
     }
 
-
     @Override
     public HttpClientBuilderImpl followRedirects(HttpClient.Redirect policy) {
         requireNonNull(policy);
@@ -108,14 +90,12 @@ public class HttpClientBuilderImpl implements HttpClient.Builder {
         return this;
     }
 
-
     @Override
     public HttpClientBuilderImpl version(HttpClient.Version version) {
         requireNonNull(version);
         this.version = version;
         return this;
     }
-
 
     @Override
     public HttpClientBuilderImpl priority(int priority) {
@@ -132,7 +112,6 @@ public class HttpClientBuilderImpl implements HttpClient.Builder {
         this.proxy = proxy;
         return this;
     }
-
 
     @Override
     public HttpClientBuilderImpl authenticator(Authenticator a) {

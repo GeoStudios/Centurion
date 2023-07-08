@@ -21,22 +21,6 @@
 
 package java.naming.share.classes.javax.naming;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
   * This exception is thrown when a context implementation does not support
   * the operation being invoked.

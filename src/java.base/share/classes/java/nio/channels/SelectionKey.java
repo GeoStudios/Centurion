@@ -21,23 +21,8 @@
 
 package java.base.share.classes.java.nio.channels;
 
-
 import java.base.share.classes.java.lang.invoke.MethodHandles;
 import java.base.share.classes.java.lang.invoke.VarHandle;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A token representing the registration of a {@link SelectableChannel} with a
@@ -115,7 +100,6 @@ public abstract class SelectionKey {
      */
     protected SelectionKey() { }
 
-
     // -- Channel and selector operations --
 
     /**
@@ -159,7 +143,6 @@ public abstract class SelectionKey {
      * same selector.  </p>
      */
     public abstract void cancel();
-
 
     // -- Operation-set accessors --
 
@@ -285,7 +268,6 @@ public abstract class SelectionKey {
      *          If this key has been cancelled
      */
     public abstract int readyOps();
-
 
     // -- Operation bits and bit-testing convenience methods --
 
@@ -431,7 +413,6 @@ public abstract class SelectionKey {
     public final boolean isAcceptable() {
         return (readyOps() & OP_ACCEPT) != 0;
     }
-
 
     // -- Attachments --
 

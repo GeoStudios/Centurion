@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.com.sun.org.apache.xalan.internal.utils;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A configuration error. This was an internal class in ObjectFactory previously
  *

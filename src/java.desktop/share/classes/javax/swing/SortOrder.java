@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * SortOrder is an enumeration of the possible sort orderings.
  *

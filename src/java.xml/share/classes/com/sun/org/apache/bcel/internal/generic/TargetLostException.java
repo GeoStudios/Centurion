@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * Thrown by InstructionList.remove() when one or multiple disposed instructions
@@ -75,12 +58,10 @@ public final class TargetLostException extends Exception {
     private static final long serialVersionUID = -6857272667645328384L;
     private final InstructionHandle[] targets;
 
-
     TargetLostException(final InstructionHandle[] t, final String mesg) {
         super(mesg);
         targets = t;
     }
-
 
     /**
      * @return list of instructions still being targeted.

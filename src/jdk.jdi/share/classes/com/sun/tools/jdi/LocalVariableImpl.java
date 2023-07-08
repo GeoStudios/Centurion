@@ -21,7 +21,6 @@
 
 package jdk.jdi.share.classes.com.sun.tools.jdi;
 
-
 import jdk.jdi.share.classes.com.sun.jdi.AbsentInformationException;
 import jdk.jdi.share.classes.com.sun.jdi.ClassNotLoadedException;
 import jdk.jdi.share.classes.com.sun.jdi.InternalException;
@@ -31,20 +30,6 @@ import jdk.jdi.share.classes.com.sun.jdi.Method;
 import jdk.jdi.share.classes.com.sun.jdi.StackFrame;
 import jdk.jdi.share.classes.com.sun.jdi.Type;
 import jdk.jdi.share.classes.com.sun.jdi.VirtualMachine;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class LocalVariableImpl extends MirrorImpl
                                implements LocalVariable, ValueContainer

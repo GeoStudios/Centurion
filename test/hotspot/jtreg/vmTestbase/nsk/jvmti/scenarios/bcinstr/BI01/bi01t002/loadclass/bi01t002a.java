@@ -21,21 +21,6 @@
 
 package nsk.jvmti.scenarios.bcinstr.BI01;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class bi01t002a {
 
     static int additionalValue = 0;

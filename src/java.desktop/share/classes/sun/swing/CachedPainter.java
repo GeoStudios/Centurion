@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.sun.swing;
 
-
 import java.desktop.share.classes.sun.awt.image.SurfaceManager;
 import java.desktop.share.classes.sun.java2d.SurfaceData;
 import java.awt.Component;
@@ -38,20 +37,6 @@ import java.base.share.classes.java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A base class used for icons or images that are expensive to paint.
@@ -242,7 +227,6 @@ public abstract class CachedPainter {
      */
     protected abstract void paintToImage(Component c, Image image, Graphics g,
                                          int w, int h, Object[] args);
-
 
     /**
      * Paints the image to the specified location.

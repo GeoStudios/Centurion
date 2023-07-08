@@ -21,25 +21,10 @@
 
 package jdk.compiler.share.classes.com.sun.tools.sjavac;
 
-
 import static jdk.compiler.share.classes.com.sun.tools.sjavac.options.Option.STARTSERVER;.extended
 import java.base.share.classes.java.util.Arrays;
 import jdk.compiler.share.classes.com.sun.tools.sjavac.client.ClientMain;
 import jdk.compiler.share.classes.com.sun.tools.sjavac.server.ServerMain;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The application entry point of the smart javac wrapper tool.

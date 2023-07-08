@@ -21,7 +21,6 @@
 
 package java.desktop.share.classes.javax.swing;
 
-
 import java.desktop.share.classes.javax.swing.border.*;
 import java.awt.LayoutManager;
 import java.awt.Component;
@@ -30,20 +29,6 @@ import java.awt.Rectangle;
 import java.awt.Dimension;
 import java.awt.Insets;
 import java.io.Serializable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * The layout manager used by <code>JScrollPane</code>.
@@ -76,14 +61,12 @@ public class ScrollPaneLayout
      */
     protected JViewport viewport;
 
-
     /**
      * The scrollpane's vertical scrollbar child.
      * Default is a <code>JScrollBar</code>.
      * @see JScrollPane#setVerticalScrollBar
      */
     protected JScrollBar vsb;
-
 
     /**
      * The scrollpane's horizontal scrollbar child.
@@ -92,20 +75,17 @@ public class ScrollPaneLayout
      */
     protected JScrollBar hsb;
 
-
     /**
      * The row header child.  Default is <code>null</code>.
      * @see JScrollPane#setRowHeader
      */
     protected JViewport rowHead;
 
-
     /**
      * The column header child.  Default is <code>null</code>.
      * @see JScrollPane#setColumnHeader
      */
     protected JViewport colHead;
-
 
     /**
      * The component to display in the lower left corner.
@@ -114,14 +94,12 @@ public class ScrollPaneLayout
      */
     protected Component lowerLeft;
 
-
     /**
      * The component to display in the lower right corner.
      * Default is <code>null</code>.
      * @see JScrollPane#setCorner
      */
     protected Component lowerRight;
-
 
     /**
      * The component to display in the upper left corner.
@@ -130,14 +108,12 @@ public class ScrollPaneLayout
      */
     protected Component upperLeft;
 
-
     /**
      * The component to display in the upper right corner.
      * Default is <code>null</code>.
      * @see JScrollPane#setCorner
      */
     protected Component upperRight;
-
 
     /**
      * The display policy for the vertical scrollbar.
@@ -148,7 +124,6 @@ public class ScrollPaneLayout
      * @see JScrollPane#setVerticalScrollBarPolicy
      */
     protected int vsbPolicy = VERTICAL_SCROLLBAR_AS_NEEDED;
-
 
     /**
      * The display policy for the horizontal scrollbar.
@@ -196,7 +171,6 @@ public class ScrollPaneLayout
         hsbPolicy = sp.getHorizontalScrollBarPolicy();
     }
 
-
     /**
      * Removes an existing component.  When a new component, such as
      * the left corner, or vertical scrollbar, is added, the old one,
@@ -217,7 +191,6 @@ public class ScrollPaneLayout
         }
         return newC;
     }
-
 
     /**
      * Adds the specified component to the layout. The layout is
@@ -272,7 +245,6 @@ public class ScrollPaneLayout
         }
     }
 
-
     /**
      * Removes the specified component from the layout.
      *
@@ -309,7 +281,6 @@ public class ScrollPaneLayout
         }
     }
 
-
     /**
      * Returns the vertical scrollbar-display policy.
      *
@@ -319,7 +290,6 @@ public class ScrollPaneLayout
     public int getVerticalScrollBarPolicy() {
         return vsbPolicy;
     }
-
 
     /**
      * Sets the vertical scrollbar-display policy. The options
@@ -348,7 +318,6 @@ public class ScrollPaneLayout
             throw new IllegalArgumentException("invalid verticalScrollBarPolicy");
         }
     }
-
 
     /**
      * Returns the horizontal scrollbar-display policy.
@@ -387,7 +356,6 @@ public class ScrollPaneLayout
         }
     }
 
-
     /**
      * Returns the <code>JViewport</code> object that displays the
      * scrollable contents.
@@ -397,7 +365,6 @@ public class ScrollPaneLayout
     public JViewport getViewport() {
         return viewport;
     }
-
 
     /**
      * Returns the <code>JScrollBar</code> object that handles horizontal scrolling.
@@ -417,7 +384,6 @@ public class ScrollPaneLayout
         return vsb;
     }
 
-
     /**
      * Returns the <code>JViewport</code> object that is the row header.
      * @return the <code>JViewport</code> object that is the row header
@@ -427,7 +393,6 @@ public class ScrollPaneLayout
         return rowHead;
     }
 
-
     /**
      * Returns the <code>JViewport</code> object that is the column header.
      * @return the <code>JViewport</code> object that is the column header
@@ -436,7 +401,6 @@ public class ScrollPaneLayout
     public JViewport getColumnHeader() {
         return colHead;
     }
-
 
     /**
      * Returns the <code>Component</code> at the specified corner.
@@ -463,7 +427,6 @@ public class ScrollPaneLayout
             return null;
         }
     }
-
 
     /**
      * The preferred size of a <code>ScrollPane</code> is the size of the insets,
@@ -592,7 +555,6 @@ public class ScrollPaneLayout
         return new Dimension(prefWidth, prefHeight);
     }
 
-
     /**
      * The minimum size of a <code>ScrollPane</code> is the size of the insets
      * plus minimum size of the viewport, plus the scrollpane's
@@ -669,7 +631,6 @@ public class ScrollPaneLayout
 
         return new Dimension(minWidth, minHeight);
     }
-
 
     /**
      * Lays out the scrollpane. The positioning of components depends on
@@ -778,7 +739,6 @@ public class ScrollPaneLayout
             vpbInsets = new Insets(0,0,0,0);
         }
 
-
         /* At this point availR is the space available for the viewport
          * and scrollbars. rowHeadR is correct except for its height and y
          * and colHeadR is correct except for its width and x.  Once we're
@@ -842,7 +802,6 @@ public class ScrollPaneLayout
         else {  // vsbPolicy == VERTICAL_SCROLLBAR_AS_NEEDED
             vsbNeeded = !viewTracksViewportHeight && (viewPrefSize.height > extentSize.height);
         }
-
 
         if ((vsb != null) && vsbNeeded) {
             adjustForVSB(true, availR, vsbR, vpbInsets, leftToRight);
@@ -1106,8 +1065,6 @@ public class ScrollPaneLayout
             available.height += oldHeight;
         }
     }
-
-
 
     /**
      * Returns the bounds of the border around the specified scroll pane's

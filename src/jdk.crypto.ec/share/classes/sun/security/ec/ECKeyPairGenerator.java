@@ -21,7 +21,6 @@
 
 package jdk.crypto.ec.share.classes.sun.security.ec;
 
-
 import java.io.java.io.java.io.java.io.IOException;
 import java.math.BigInteger;
 import java.base.share.classes.java.security.*;
@@ -38,20 +37,6 @@ import jdk.crypto.ec.share.classes.sun.security.util.math.*;
 import jdk.crypto.ec.share.classes.sun.security.ec.point.*;
 import static jdk.crypto.ec.share.classes.sun.security.util.SecurityProviderConstants.DEF_EC_KEY_SIZE;.extended
 import static jdk.crypto.ec.share.classes.sun.security.ec.ECOperations.IntermediateValueException;.extended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * EC keypair generator.

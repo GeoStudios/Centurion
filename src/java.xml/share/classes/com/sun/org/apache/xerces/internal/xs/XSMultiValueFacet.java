@@ -21,29 +21,12 @@
 
 package java.xml.share.classes.com.sun.org.apache.xerces.internal.xs;
 
-
 import java.xml.share.classes.com.sun.org.apache.xerces.internal.xs.datatypes.Objectjava.util.java.util.java.util.List;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
 
 /**
  * Describes a multi-value constraining facets: pattern and enumeration.

@@ -21,25 +21,10 @@
 
 package java.desktop.share.classes.javax.swing.plaf;
 
-
 import java.desktop.share.classes.javax.swing.*;
 import java.desktop.share.classes.javax.swing.filechooser.FileFilter;
 import java.desktop.share.classes.javax.swing.filechooser.FileView;
 import java.io.File;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Pluggable look and feel interface for <code>JFileChooser</code>.

@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.sun.font;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @SuppressWarnings("serial") // JDK-implementation class
 public class FontScalerException extends Exception {
     public FontScalerException() {

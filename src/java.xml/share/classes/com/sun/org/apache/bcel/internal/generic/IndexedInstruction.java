@@ -21,27 +21,10 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
 
 /**
  * Denote entity that refers to an index, e.g. local variable instructions,
@@ -51,7 +34,6 @@ package java.xml.share.classes.com.sun.org.apache.bcel.internal.generic;
 public interface IndexedInstruction {
 
     int getIndex();
-
 
     void setIndex( int index );
 }

@@ -21,24 +21,9 @@
 
 package java.desktop.unix.classes.sun.awt;
 
-
 import java.desktop.unix.classes.sun.font.FcFontConfiguration;
 import java.desktop.unix.classes.sun.font.FontConfigManager;
 import java.desktop.unix.classes.sun.font.SunFontManager;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * A {@link sun.font.FontManager} that uses fontconfig to find system fonts.

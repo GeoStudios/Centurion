@@ -21,22 +21,6 @@
 
 package java.xml.share.classes.org.w3c.dom;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * <code>DocumentFragment</code> is a "lightweight" or "minimal"
  * <code>Document</code> object. It is very common to want to be able to

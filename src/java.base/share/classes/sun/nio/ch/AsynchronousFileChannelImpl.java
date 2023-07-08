@@ -21,7 +21,6 @@
 
 package java.base.share.classes.sun.nio.ch;
 
-
 import java.nio.ByteBuffer;
 import java.nio.channels.*;
 import java.util.concurrent.ExecutorService;
@@ -29,20 +28,6 @@ import java.util.concurrent.Future;
 import java.util.concurrent.locks.*;
 import java.io.FileDescriptor;
 import java.io.java.io.java.io.java.io.IOException;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Base implementation of AsynchronousFileChannel.
@@ -216,7 +201,6 @@ abstract class AsynchronousFileChannelImpl
         }
     }
 
-
     // -- reading and writing --
 
     abstract <A> Future<Integer> implRead(ByteBuffer dst,
@@ -244,7 +228,6 @@ abstract class AsynchronousFileChannelImpl
                                            long position,
                                            A attachment,
                                            CompletionHandler<Integer,? super A> handler);
-
 
     @Override
     public final Future<Integer> write(ByteBuffer src, long position) {

@@ -21,33 +21,15 @@
 
 package java.xml.share.classes.com.sun.org.apache.bcel.internal.classfile;
 
-
 import java.io.DataInput;
 import java.io.DataOutputStream;
 import java.io.java.io.java.io.java.io.IOException;
 import java.xml.share.classes.com.sun.org.apache.bcel.internal.Const;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * reserved comment block
  * DO NOT REMOVE OR ALTER!
  */
-
-
-
 
 /**
  * This class is derived from the abstract {@link Constant}
@@ -59,14 +41,12 @@ public final class ConstantString extends Constant implements ConstantObject {
 
     private int stringIndex; // Identical to ConstantClass except for this name
 
-
     /**
      * Initialize from another object.
      */
     public ConstantString(final ConstantString c) {
         this(c.getStringIndex());
     }
-
 
     /**
      * Initialize instance from file data.
@@ -78,7 +58,6 @@ public final class ConstantString extends Constant implements ConstantObject {
         this(file.readUnsignedShort());
     }
 
-
     /**
      * @param stringIndex Index of Constant_Utf8 in constant pool
      */
@@ -86,7 +65,6 @@ public final class ConstantString extends Constant implements ConstantObject {
         super(Const.CONSTANT_String);
         this.stringIndex = stringIndex;
     }
-
 
     /**
      * Called by objects that are traversing the nodes of the tree implicitely
@@ -100,7 +78,6 @@ public final class ConstantString extends Constant implements ConstantObject {
         v.visitConstantString(this);
     }
 
-
     /**
      * Dump constant field reference to file stream in binary format.
      *
@@ -113,7 +90,6 @@ public final class ConstantString extends Constant implements ConstantObject {
         file.writeShort(stringIndex);
     }
 
-
     /**
      * @return Index in constant pool of the string (ConstantUtf8).
      */
@@ -121,14 +97,12 @@ public final class ConstantString extends Constant implements ConstantObject {
         return stringIndex;
     }
 
-
     /**
      * @param stringIndex the index into the constant of the string value
      */
     public void setStringIndex( final int stringIndex ) {
         this.stringIndex = stringIndex;
     }
-
 
     /**
      * @return String representation.
@@ -138,7 +112,6 @@ public final class ConstantString extends Constant implements ConstantObject {
         return super.toString() + "(stringIndex = " + stringIndex + ")";
     }
 
-
     /** @return String object
      */
     @Override
@@ -146,7 +119,6 @@ public final class ConstantString extends Constant implements ConstantObject {
         final Constant c = cp.getConstant(stringIndex, Const.CONSTANT_Utf8);
         return ((ConstantUtf8) c).getBytes();
     }
-
 
     /** @return dereferenced string
      */

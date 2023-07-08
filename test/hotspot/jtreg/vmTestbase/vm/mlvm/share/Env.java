@@ -21,26 +21,12 @@
 
 package vm.mlvm.share;
 
-
 import java.util.Random;
 import jdk.test.lib.Utils;
 import nsk.share.ArgumentParser;
 import nsk.share.Log;
 import nsk.share.Log.TraceLevel;
 import nsk.share.test.LazyFormatString;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 public class Env {
 

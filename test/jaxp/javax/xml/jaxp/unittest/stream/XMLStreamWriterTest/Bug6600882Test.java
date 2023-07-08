@@ -21,26 +21,12 @@
 
 package stream.XMLStreamWriterTest;
 
-
 import java.io.ByteArrayOutputStream;
 import javax.xml.stream.XMLOutputFactory;
 import javax.xml.stream.XMLStreamWriter;
 import org.testng.Assert;
 import org.testng.annotations.java.util.Listeners;
 import org.testng.annotations.Test;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * @test
@@ -52,7 +38,6 @@ import org.testng.annotations.Test;
  */
 @Listeners({jaxp.library.BasePolicy.class})
 public class Bug6600882Test {
-
 
     @Test
     public void test() {

@@ -21,22 +21,6 @@
 
 package java.desktop.share.classes.javax.imageio.stream;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * A class representing a mutable reference to an array of bytes and
  * an offset and length within that array.  {@code IIOByteBuffer}
